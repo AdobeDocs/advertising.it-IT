@@ -2,23 +2,25 @@
 title: Creare manualmente i dettagli dell’ID offerta
 description: Scopri come inserire manualmente i dettagli di un ID offerta.
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: cd9763a7-99d4-4881-9df9-b4e24c55be0f
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
+source-git-commit: 2fe1ee7366c84f3a7d770aa3412fdde61829fe46
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
 
 # Creare manualmente i dettagli dell’ID offerta
 
-1. Nel menu principale, fai clic su **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. Nel menu principale, fai clic su **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
 1. Sopra la tabella dati, fai clic su **[!UICONTROL Create]**, quindi seleziona **[!UICONTROL Deal ID]**.
 
 1. Inserisci il [impostazioni dell&#39;offerta](deal-id-settings.md):
 
    1. In [!UICONTROL Deal ID basics] specifica i dettagli dell’offerta e gli inserzionisti che possono accedere all’offerta. Per le offerte garantite, devi inoltre specificare le date del volo previste e il numero stimato di impression, solo a scopo di tracciamento.
+
+      Puoi tenere traccia della velocità delle offerte garantite includendo la colonna di spesa &quot;PG Impression Pacing&quot; nella vista Inventario > Offerte.
 
    1. (Solo utenti amministratori; opzionale) [!UICONTROL Technical] modificare le impostazioni predefinite in base alle esigenze.
 
