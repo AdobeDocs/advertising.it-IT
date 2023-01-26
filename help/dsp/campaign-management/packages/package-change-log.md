@@ -2,8 +2,8 @@
 title: Visualizzare un registro delle modifiche del pacchetto
 description: Scopri come visualizzare le modifiche apportate al pacchetto.
 feature: DSP Packages
-exl-id: 1d611c20-7857-41db-adf4-743dab44341e
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: dd33519b-19cf-4b6f-b6d2-ec0874e27075
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Puoi ordinare i dati in base a qualsiasi colonna, ad eccezione dei valori Nuovo 
 
 1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
 1. Fai clic sul nome della campagna.
-1. Sulla **[!UICONTROL Packages]** accanto al nome del pacchetto, fai clic su  **[!UICONTROL ...]>[!UICONTROL Change logs]**.
+1. Sulla **[!UICONTROL Packages]** accanto al nome del pacchetto, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
 
 >[!MORELIKETHIS]
 >

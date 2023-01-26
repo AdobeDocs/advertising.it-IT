@@ -2,8 +2,8 @@
 title: Modifica [!UICONTROL Simple Ad Serving] Impostazioni offerte
 description: Scopri come modificare le impostazioni di un [!UICONTROL Simple Ad Serving] accordo.
 feature: DSP Simple Ad Serving
-exl-id: 025b299b-05ba-4e4e-ac92-8a738303bc32
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 48540a6c-54ee-4109-bdd6-293fbee5c3e5
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 1%
@@ -14,9 +14,9 @@ ht-degree: 1%
 
 È possibile modificare alcune impostazioni per un [!UICONTROL Simple Ad Serving] accordo che non è finito.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. Nel menu principale, fai clic su **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. Nella riga dell&#39;offerta, fai clic su  **[!UICONTROL ...]>[!UICONTROL Edit]**.
+1. Nella riga dell&#39;offerta, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
 1. Modifica le [impostazioni dell&#39;offerta](simple-deal-settings.md).
 

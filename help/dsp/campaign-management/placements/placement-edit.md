@@ -2,8 +2,8 @@
 title: Modificare un posizionamento
 description: Scopri come modificare un posizionamento.
 feature: DSP Placements
-exl-id: 135adad3-0bc0-4402-ac4a-a4fc71f78edf
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Puoi modificare le impostazioni per un singolo posizionamento o per più posizio
 
 1. Nel sottomenu, fai clic su **[!UICONTROL Placements]**.
 
-1. Accanto al nome del posizionamento, fai clic su  **[!UICONTROL ...]>[!UICONTROL Edit]**.
+1. Accanto al nome del posizionamento, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
 1. Modifica le [impostazioni di posizionamento](placement-settings.md).
 
@@ -88,5 +88,5 @@ Utilizza questa opzione solo quando desideri applicare le stesse modifiche a tut
 >* [Impostazioni di posizionamento](placement-settings.md)
 >* [Scelte rapide da tastiera](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Informazioni sulla correzione delle impostazioni di posizionamento per una campagna utilizzando i fogli di calcolo](/help/dsp/campaign-management/qa/qa-about.md)
->* [Video: Come modificare i posizionamenti utilizzando gli strumenti di modifica in serie](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [Video: Come modificare i posizionamenti utilizzando gli strumenti di modifica in serie](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
 

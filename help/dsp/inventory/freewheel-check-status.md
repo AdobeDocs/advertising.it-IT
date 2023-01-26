@@ -2,8 +2,8 @@
 title: Controlla lo stato degli annunci per un [!DNL [!DNL FreeWheel]] Offerta PG
 description: Scopri come trovare lo stato degli annunci per [!DNL Freewheel] offerte programmatiche garantite.
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 57c365f6-41cf-4ab6-b71d-fe9984eaf115
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: f5f33e96-68a8-48bd-8c30-72be9315c5ac
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
@@ -24,13 +24,13 @@ Per ulteriori domande o problemi con il nuovo invio, contatta il tuo [!DNL Adobe
 
 1. Nel sottomenu, fai clic su **[!UICONTROL Ads]**.
 
-1. Accanto al nome dell’annuncio, fai clic su  **[!UICONTROL ...]>[!UICONTROL see Freewheel status]**.
+1. Accanto al nome dell’annuncio, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL see Freewheel status]**.
 
-1. (Facoltativo) Per inviare nuovamente un annuncio per l&#39;approvazione, tieni premuto il cursore sulla riga dell&#39;annuncio, quindi fai clic su **[!UICONTROL More]>[!UICONTROL Resubmit]**.
+1. (Facoltativo) Per inviare nuovamente un annuncio per l&#39;approvazione, tieni premuto il cursore sulla riga dell&#39;annuncio, quindi fai clic su **[!UICONTROL More]** > **[!UICONTROL Resubmit]**.
 
 ## Controlla lo stato dal [!UICONTROL Deals] Visualizza
 
-1. Nel menu principale, fai clic su **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. Nel menu principale, fai clic su **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
 1. Effettua una delle seguenti operazioni:
 
@@ -44,7 +44,7 @@ Per ulteriori domande o problemi con il nuovo invio, contatta il tuo [!DNL Adobe
 
    Per gli invii non riusciti, il [!UICONTROL API] La colonna Risposta indica l’errore. Per un elenco completo dei codici di errore per gli invii non riusciti e i passaggi successivi per correggerli, vedi &quot;[Codici di errore per [!DNL FreeWheel] Invii annunci](freewheel-error-codes.md).&quot;
 
-1. (Facoltativo) Per inviare nuovamente un annuncio per l&#39;approvazione, tieni premuto il cursore sulla riga dell&#39;annuncio, quindi fai clic su **[!UICONTROL More]>[!UICONTROL Resubmit]**.
+1. (Facoltativo) Per inviare nuovamente un annuncio per l&#39;approvazione, tieni premuto il cursore sulla riga dell&#39;annuncio, quindi fai clic su **[!UICONTROL More]** > **[!UICONTROL Resubmit]**.
 
 >[!MORELIKETHIS]
 >

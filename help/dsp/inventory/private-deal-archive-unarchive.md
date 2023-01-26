@@ -2,8 +2,8 @@
 title: Archiviare o annullare l’archiviazione di un’offerta privata
 description: Scopri come archiviare o annullare l’archiviazione di un’offerta privata.
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 6ecf90b6-a52f-42f3-aa3f-b2c489ea0aa8
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: f3f22299-a538-4956-a8ef-d44f20e4d2d7
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
@@ -24,8 +24,8 @@ Nascondere un&#39;offerta privata che non viene utilizzata archiviandola. L&#39;
 
 ## Archiviare un&#39;offerta privata
 
-1. Nel menu principale, fai clic su **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
-1. Nella riga dell&#39;offerta, fai clic su **[!UICONTROL ...]>[!UICONTROL Archive]**.
+1. Nel menu principale, fai clic su **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
+1. Nella riga dell&#39;offerta, fai clic su **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. Nel messaggio di conferma, fai clic su **[!UICONTROL Archive]**.
 
 >[!NOTE]
@@ -34,9 +34,9 @@ Nascondere un&#39;offerta privata che non viene utilizzata archiviandola. L&#39;
 
 ## Annullare l’archiviazione di un’offerta privata
 
-1. Nel menu principale, fai clic su **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
+1. Nel menu principale, fai clic su **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 1. Sopra l&#39;elenco delle offerte, fai clic su ![Filtro](/help/dsp/assets/filter.png); click **[!UICONTROL Status]** e seleziona *[!UICONTROL Archived]*; quindi fai clic su **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
-1. Nella riga dell&#39;offerta, fai clic su **[!UICONTROL ...]>[!UICONTROL Unarchive]**.
+1. Nella riga dell&#39;offerta, fai clic su **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. Nel messaggio di conferma, fai clic su **[!UICONTROL Unarchive]**.
 
 Se l&#39;editore o la SSP aveva precedentemente disattivato l&#39;offerta e desideri riutilizzarla, contatta direttamente l&#39;editore o la SSP.

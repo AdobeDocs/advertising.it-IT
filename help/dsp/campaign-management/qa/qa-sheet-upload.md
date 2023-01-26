@@ -2,8 +2,8 @@
 title: Carica le impostazioni di posizionamento per una campagna
 description: Scopri come caricare le modifiche alle impostazioni di posizionamento chiave per una campagna utilizzando i fogli di calcolo per il controllo qualità di Excel.
 feature: DSP Placements
-exl-id: 0f5fdc7e-3a90-4b4b-a23c-75bed7703100
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 2ca7c019-ff5f-410d-b9c7-31ef1509f91e
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -22,9 +22,9 @@ Per pubblicare le modifiche ad alcuni tipi di impostazioni di posizionamento per
 
 1. Effettua una delle seguenti operazioni:
 
-   * Accanto al nome della campagna, fai clic su **[!UICONTROL ...]>[!UICONTROL Upload Excel QA sheet]**.
+   * Accanto al nome della campagna, fai clic su **[!UICONTROL ...]** > **[!UICONTROL Upload Excel QA sheet]**.
 
-   * Fai clic sul nome della campagna per visualizzare i dettagli della campagna. In alto a destra, fai clic su **[!UICONTROL ...]>[!UICONTROL Upload Excel QA sheet]**.
+   * Fai clic sul nome della campagna per visualizzare i dettagli della campagna. In alto a destra, fai clic su **[!UICONTROL ...]** > **[!UICONTROL Upload Excel QA sheet]**.
 
 1. In [!UICONTROL Edit in Excel] finestra di dialogo:
 

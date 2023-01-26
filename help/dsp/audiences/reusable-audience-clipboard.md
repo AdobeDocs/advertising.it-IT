@@ -2,8 +2,8 @@
 title: Copia negli Appunti la chiave di segmento per un pubblico riutilizzabile
 description: Scopri come visualizzare la configurazione e le dimensioni del pubblico per un pubblico riutilizzabile.
 feature: DSP Audiences
-exl-id: 039779aa-8fa4-48b4-8fe6-2d5517dd0603
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 1e1f45fe-d7f9-4c26-a557-c3d00f74edb8
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Puoi copiare negli Appunti la chiave alfanumerica del segmento (ID) di un pubblico. Puoi utilizzare le chiavi di segmento per [definire manualmente la logica dei segmenti](audience-segment-logic-syntax.md) per altri tipi di pubblico riutilizzabili.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Audiences]>[!UICONTROL All audiences]**.
+1. Nel menu principale, fai clic su **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
 1. Tieni il cursore sulla riga del pubblico e fai clic su **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 

@@ -2,8 +2,8 @@
 title: Richiedi nuovamente [!DNL On Demand] Offerte di magazzino Premium
 description: Scopri come richiedere nuovamente [!DNL On Demand] accordi precedentemente negati.
 feature: DSP On Demand Inventory
-exl-id: db5a5708-16e3-4304-8bd0-f1aa8ecd0e3c
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 8b28ca37-5fe8-445e-8210-1b81945bbacc
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Un accordo [approvato](/help/dsp/inventory/on-demand-inventory-view-status.md), 
 
 1. Conferma che la categoria dell’inserzionista per l’account dell’inserzionista applicabile sia corretta:
 
-   1. Nel menu principale, fai clic su **[!UICONTROL Settings]> [!UICONTROL Advertisers].**
+   1. Nel menu principale, fai clic su **[!UICONTROL Settings]** > **[!UICONTROL Advertisers].**
 
    1. Tieni il cursore sulla riga dell’inserzionista e fai clic su **[!UICONTROL Edit]**.
 
@@ -34,7 +34,7 @@ Un accordo [approvato](/help/dsp/inventory/on-demand-inventory-view-status.md), 
 
 1. Richiedi nuovamente l&#39;inventario:
 
-   1. Nel menu principale, fai clic su **[!UICONTROL Inventory]>[!UICONTROL On Demand]**.
+   1. Nel menu principale, fai clic su **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
 
    1. Filtra le offerte disponibili per includere le offerte richieste (**[!UICONTROL Currently subscribed to]**)**.
 

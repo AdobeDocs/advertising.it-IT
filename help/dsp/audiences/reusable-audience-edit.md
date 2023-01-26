@@ -2,8 +2,8 @@
 title: Modificare un pubblico riutilizzabile
 description: Scopri come modificare un pubblico riutilizzabile.
 feature: DSP Audiences
-exl-id: 6a3145b9-2d30-4040-8893-0fb7b3f86597
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 4de6b9a4-2907-474d-92bf-83686a1f0b31
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Quando modifichi un pubblico utilizzato in qualsiasi posizionamento o altro pubblico riutilizzabile, le modifiche vengono immediatamente applicate a tali posizionamenti e tipi di pubblico.<!-- verify -->
 
-1. Nel menu principale, fai clic su **[!UICONTROL Audiences]>[!UICONTROL All audiences]**.
+1. Nel menu principale, fai clic su **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
 1. Tieni il cursore sulla riga del pubblico e fai clic su **[!UICONTROL Edit]**.
 
@@ -51,9 +51,9 @@ Quando modifichi un pubblico utilizzato in qualsiasi posizionamento o altro pubb
 
       1. Copia la logica del segmento dal pubblico esistente in uno dei seguenti modi:
 
-         * Nella vista Tutti i tipi di pubblico , tieni premuto il cursore sulla riga del pubblico, quindi fai clic su **[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**.
+         * Nella vista Tutti i tipi di pubblico , tieni premuto il cursore sulla riga del pubblico, quindi fai clic su **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * Nelle impostazioni per il pubblico esistente, nella parte superiore del pannello di logica dei segmenti, fai clic su **[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**.
+         * Nelle impostazioni per il pubblico esistente, nella parte superiore del pannello di logica dei segmenti, fai clic su **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
          * In un editor di testo, crea manualmente la logica del segmento utilizzando ID di segmento alfanumerici e [Sintassi booleana](audience-segment-logic-syntax.md), e copialo negli Appunti.
       1. Fai clic su **[!UICONTROL paste in an audience rule to begin building]**, incolla la logica di segmento esistente nel campo di input, quindi fai clic su **[!UICONTROL Apply]**.

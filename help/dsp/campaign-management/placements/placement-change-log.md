@@ -2,8 +2,8 @@
 title: Visualizza un registro delle modifiche di posizionamento
 description: Scopri come visualizzare le modifiche apportate al posizionamento.
 feature: DSP Placements
-exl-id: a57056bd-c467-4b81-90b1-528b85787a5e
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: d9fc6ead-0a0e-415d-8352-284db12dde1b
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
@@ -19,7 +19,7 @@ I registri delle modifiche mostrano le modifiche apportate al posizionamento dur
 1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
 1. Fai clic sul nome della campagna.
 1. Nel sottomenu, fai clic su **[!UICONTROL Placements]**.
-1. Accanto al nome del posizionamento, fai clic su  **[!UICONTROL ...]>[!UICONTROL Change logs]**.
+1. Accanto al nome del posizionamento, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
 
 >[!MORELIKETHIS]
 >

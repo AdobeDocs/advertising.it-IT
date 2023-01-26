@@ -2,8 +2,8 @@
 title: Visualizza informazioni sull'asta per un'offerta privata
 description: Scopri come utilizzare le informazioni sull’asta per analizzare la composizione dell’offerta privata.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-exl-id: 9d585bd4-59d5-401a-a68c-6ed656086252
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: bbb99f6a-0276-4eb8-9607-75500d5634d9
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 Auction Insights è uno strumento per la risoluzione dei problemi che ti consente di analizzare la composizione delle offerte private garantite e non garantite. Utilizzando le visualizzazioni dati, questo strumento mostra la tendenza e le proporzioni relative dei valori ricevuti per [attributi chiave dell&#39;asta](#auction-attributes) entro un periodo di tempo specifico.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. Nel menu principale, fai clic su **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. Nella riga dell&#39;offerta, fai clic su  **[!UICONTROL ...]>[!UICONTROL Auction Insights]**.
+1. Nella riga dell&#39;offerta, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]**.
 
 >[!NOTE]
 >
->Informazioni sull&#39;asta sono disponibili anche attraverso il posizionamento [!UICONTROL Inspector] strumento. Per aprirle, [apri il posizionamento [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) al [!UICONTROL Inventory tab], quindi fai clic su **[!UICONTROL ...]>[!UICONTROL Auction Insights]** nella fila delle offerte.
+>Informazioni sull&#39;asta sono disponibili anche attraverso il posizionamento [!UICONTROL Inspector] strumento. Per aprirle, [apri il posizionamento [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) al [!UICONTROL Inventory tab], quindi fai clic su **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]** nella fila delle offerte.
 
 ## Attributi di asta {#auction-attributes}
 

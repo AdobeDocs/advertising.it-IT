@@ -1,8 +1,8 @@
 ---
 title: Invia nuovamente un invito utente in sospeso
 description: Scopri come inviare nuovamente un invito utente in sospeso.
-exl-id: e326460b-8354-452e-aa35-00c82c7d76bf
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 15d17a03-526b-4dc2-883a-131d750fca24
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 0%
@@ -17,9 +17,9 @@ Puoi inviare nuovamente un invito a un utente con un invito in sospeso per l&#39
 
 1. Effettua una delle seguenti operazioni:
 
-   * Nel menu principale, fai clic su **[!UICONTROL Settings]>[!UICONTROL Users]**.
+   * Nel menu principale, fai clic su **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
 
-   * Nel menu principale, fai clic su **[!UICONTROL Settings]>[!UICONTROL Account]**, quindi fai clic su **[!UICONTROL Edit users]**.
+   * Nel menu principale, fai clic su **[!UICONTROL Settings]** > **[!UICONTROL Account]**, quindi fai clic su **[!UICONTROL Edit users]**.
 
 1. In **Inviti** sezione, fai clic su ![Invia di nuovo](/help/dsp/assets/resend.png).
 

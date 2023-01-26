@@ -2,10 +2,10 @@
 title: Impostazioni di posizionamento
 description: Consulta le descrizioni delle impostazioni di posizionamento disponibili.
 feature: DSP Placements
-exl-id: 36097132-e589-4d49-bf86-54f61eae5b67
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '3416'
+source-wordcount: '3418'
 ht-degree: 0%
 
 ---
@@ -177,7 +177,7 @@ Includi un codice postale per riga o inserisci più valori separati da virgole o
 
    Puoi cercare l’elenco per parola chiave, chiave, ID offerta o tag personalizzati.
 
-* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: Tutto [premio, non garantito [!UICONTROL On Demand] inventario](/help/dsp/inventory/on-demand-inventory-about.md) o [!UICONTROL On Demand] [!DNL Roku] offerte [!DNL Roku] posizionamenti) a cui ti sei iscritto [!DNL DSP]. Puoi includere ed escludere [!UICONTROL On Demand] inventario.
+* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: Tutto [premio, non garantito [!UICONTROL On Demand] inventario](/help/dsp/inventory/on-demand-inventory-about.md) o [!UICONTROL On Demand] [!DNL] offerte Roku per [!DNL Roku] posizionamenti) a cui ti sei iscritto [!DNL DSP]. Puoi includere ed escludere [!UICONTROL On Demand] inventario.
 
    È possibile visualizzare l’elenco in base all’origine o al feed. Quando visualizzi l’elenco per feed, puoi eseguire ricerche per nome feed, chiave di feed o per un’area di pubblicazione, un tag categoria o un tag caratteristico selezionati.
 
@@ -188,14 +188,14 @@ Per specificare il targeting di inventario:
    1. Selezionare la casella di controllo accanto al nome del tipo di inventario.
    1. (Facoltativo) Modifica le origini in modo da includere:
       1. Fai clic su ![Modifica](/help/dsp/assets/edit.png).
-      1. ([!UICONTROL Public] e [!UICONTROL On Demand] inventario) Fai clic su **[!UICONTROL View by Source]** o **[!UICONTROL View by Feed]** per modificare l&#39;elenco delle origini.
+      1. ([!UICONTROL Public] e [!UICONTROL On Demand] inventario) Fai clic su *[!UICONTROL *View by Source]** o **[!UICONTROL View by Feed]** per modificare l&#39;elenco delle origini.
       1. (Se applicabile) Filtrare l’inventario in base alle esigenze.
       1. Specifica le origini da includere ed escludere:
          * Per includere un [!UICONTROL Public] o [!UICONTROL On Demand] sorgente, fai clic su **[!UICONTROL Include]** accanto al nome di origine.
          * Per includere [!UICONTROL Private] fonti:
             * Per includere tutto l&#39;inventario in un&#39;offerta, fai clic su **[!UICONTROL Include all]** accanto al nome dell&#39;offerta.
             * Per includere una singola origine di magazzino, espandere il nome dell&#39;offerta e quindi fare clic sulla casella di controllo accanto al nome dell&#39;origine.
-         * Per escludere un [!UICONTROL Public] o [!UICONTROL On source], fai clic su **[!UICONTROL Exclude]** accanto al nome di origine.
+         * Per escludere un [!UICONTROL Public] o [!UICONTROL On ] sorgente, fai clic su **[!UICONTROL Exclude]** accanto al nome di origine.
    1. (Facoltativo) Per scaricare un file CSV con le informazioni di targeting nella posizione Download del browser, fai clic su **[!UICONTROL Save & Export]**.
    1. Clic **[!UICONTROL Save]**.
 
@@ -311,7 +311,6 @@ Facoltativamente, puoi esportare l’elenco dei siti di destinazione e bloccati 
 **[!UICONTROL Secondary Cap]:** (Facoltativo; disponibile quando si include un valore numerico [!UICONTROL Placement Cap]) Limitazione aggiuntiva entro i limiti del tappo di posizionamento principale. Seleziona il numero di impression e il periodo di tempo (ad esempio 3 per 12 ore).
 
 **[!UICONTROL Day Parting]:** (Facoltativo) Giorni specifici della settimana e dell’ora del giorno in cui gli annunci possono essere eseguiti. Per specificare gli intervalli di ripartizione giornaliera:
-
 1. Fai clic su ![Modifica](/help/dsp/assets/edit.png).
 1. Selezionare il fuso orario applicabile.
 1. Specifica gli intervalli:
@@ -448,7 +447,7 @@ Quale livello di [Ads.txt](https://iabtechlab.com/ads-txt-about/) filtro pre-bid
          * **[!UICONTROL Notes]:** (Facoltativo) Una descrizione o altre informazioni sul pixel.
       1. Clic **[!UICONTROL Create and attach]**.
       1. Implementa il pixel di conversione sulle pagine web rilevanti:
-         1. Nel menu principale, vai a **[!UICONTROL Resources]>[!UICONTROL Conversion pixels]**.
+         1. Nel menu principale, vai a **[!UICONTROL Resources]** > **[!UICONTROL Conversion pixels]**.
          1. Nella riga pixel, fai clic su **[!UICONTROL edit]**.
          1. Copia i valori nella [!UICONTROL HTML Tag] e [!UICONTROL Flash Tag] campi, se necessario, per fornire all&#39;inserzionista o al contatto del sito web.
 

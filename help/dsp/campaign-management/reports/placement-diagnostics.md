@@ -2,8 +2,8 @@
 title: Visualizzare i rapporti diagnostici di posizionamento
 description: Scopri come diagnosticare i problemi con la configurazione del posizionamento e la velocità.
 feature: DSP Placements
-exl-id: d64406b6-83b5-4ae7-984c-98610fc1ee40
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -24,7 +24,7 @@ I seguenti strumenti possono aiutarti a diagnosticare i problemi di configurazio
    1. Apri le impostazioni di posizionamento:
       1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
       1. Fai clic sul nome della campagna, quindi fai clic su **[!UICONTROL Placements]**.
-      1. Accanto al nome del posizionamento, fai clic su  **[!UICONTROL ...]>[!UICONTROL Edit]**.
+      1. Accanto al nome del posizionamento, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
    1. In alto a destra, fai clic su ![Diagnostica posizionamento](/help/dsp/assets/placement-diagnostics.png) o **[!UICONTROL Diagnostic]**.
 1. Effettua una delle seguenti operazioni:
    * Per visualizzare il registro delle modifiche:

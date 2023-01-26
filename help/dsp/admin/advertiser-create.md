@@ -1,7 +1,7 @@
 ---
 title: Creare un account inserzionista
 description: Scopri come creare un account inserzionista.
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Gli inserzionisti sono disponibili per tutti gli utenti nell&#39;account organizzazione.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Settings]>[!UICONTROL Advertisers]**.
+1. Nel menu principale, fai clic su **[!UICONTROL Settings]** > **[!UICONTROL Advertisers]**.
 
 1. Clic **[!UICONTROL Create]**.
 

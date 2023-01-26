@@ -2,8 +2,8 @@
 title: Modifica informazioni segmento
 description: Scopri come modificare le informazioni su un segmento di rinuncia alla vendita personalizzato o CCPA.
 feature: DSP Segments
-exl-id: a121264f-7fa6-454e-b66a-f6bc0db98890
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 1df6bf2a-4008-46ec-8b4a-e3d0c8322e44
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Puoi modificare il nome e l’intervallo di lookback per un segmento personalizzato o il nome di un segmento di rinuncia CCPA. I tag di segmento non cambiano quando modifichi le impostazioni.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
+1. Nel menu principale, fai clic su **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
 1. Posiziona il cursore sulla riga del segmento e fai clic su **[!UICONTROL Edit]**.
 

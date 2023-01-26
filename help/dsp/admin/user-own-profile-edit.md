@@ -1,8 +1,8 @@
 ---
 title: Modificare il profilo utente
 description: Scopri come modificare il profilo utente.
-exl-id: 4a140b0a-5860-4b68-820c-03b6bf80254f
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 8dc15996-db6e-4c37-a919-d0d49e7b8396
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 Il profilo del tuo account include le tue credenziali di accesso e altre informazioni. Alcuni ruoli utente possono inoltre visualizzare informazioni sull’account dell’organizzazione e invitare altre persone a creare account utente nell’account dell’organizzazione.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Settings]> [!UICONTROL Account].**
+1. Nel menu principale, fai clic su **[!UICONTROL Settings]** > **[!UICONTROL Account].**
 
 1. Modifica le impostazioni del profilo:
 
@@ -22,7 +22,6 @@ Il profilo del tuo account include le tue credenziali di accesso e altre informa
       1. Accanto all&#39;esistente **[!UICONTROL Email address]**, fai clic su **[!UICONTROL Edit]**.
 
       1. Immetti il nuovo indirizzo e-mail e la password esistente per l’account utente.
-
       1. Clic **[!UICONTROL Continue]**.
    * Per modificare la password dell&#39;account utente:
 

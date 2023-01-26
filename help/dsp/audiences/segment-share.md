@@ -2,8 +2,8 @@
 title: Condividere o interrompere la condivisione di un segmento
 description: Scopri come condividere o interrompere la condivisione di un segmento di rinuncia alla vendita personalizzato o CCPA con altri account utente DSP.
 feature: DSP Segments
-exl-id: 3a284c81-73ee-4efd-9532-5ae00a000dd9
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: ea5cafb3-58b0-4b05-9b02-c022466d9b8c
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Puoi condividere i segmenti personalizzati e i segmenti di rifiuto del CCPA con 
 
 Puoi anche interrompere la condivisione di un segmento con altri account utente DSP.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
+1. Nel menu principale, fai clic su **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
 1. Posiziona il cursore sulla riga del segmento e fai clic su **[!UICONTROL Share]**.
 

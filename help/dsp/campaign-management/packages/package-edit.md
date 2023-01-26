@@ -2,8 +2,8 @@
 title: Modificare un pacchetto
 description: Scopri come modificare un pacchetto.
 feature: DSP Packages
-exl-id: 4067f8c8-d5a9-4fe6-9abe-78aa73bc00a1
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 88fbbb46-0150-4ff7-838f-ea00aead529e
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
 1. Fai clic sul nome della campagna per aprire la [!UICONTROL Packages] visualizza.
-1. Accanto al nome del pacchetto, fai clic su  **[!UICONTROL ...]>[!UICONTROL Edit]**.
+1. Accanto al nome del pacchetto, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 1. Modifica le [impostazioni del pacchetto](package-settings.md).
 1. Clic **[!UICONTROL Save and Close]**.
 

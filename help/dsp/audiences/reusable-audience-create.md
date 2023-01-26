@@ -2,8 +2,8 @@
 title: Creare un pubblico riutilizzabile
 description: Scopri come creare un pubblico riutilizzabile composto da segmenti di pubblico e altri tipi di pubblico salvati.
 feature: DSP Audiences
-exl-id: 48e3dc4c-6e2d-452c-8d69-7e6211d808e0
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Puoi salvare e gestire tipi di pubblico riutilizzabili, ovvero gruppi di segmenti di pubblico e persino altri tipi di pubblico salvati, che puoi utilizzare come target o esclusioni per più posizionamenti.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Audiences]>[!UICONTROL All Audiences]**.
+1. Nel menu principale, fai clic su **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
 
 1. Sopra la tabella dati, fai clic su **[!UICONTROL Create]**.
 
@@ -62,9 +62,9 @@ Puoi salvare e gestire tipi di pubblico riutilizzabili, ovvero gruppi di segment
 
       1. Copia la logica del segmento dal pubblico esistente in uno dei seguenti modi:
 
-         * Nella vista Tutti i tipi di pubblico , tieni premuto il cursore sulla riga del pubblico, quindi fai clic su **[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**.
+         * Nella vista Tutti i tipi di pubblico , tieni premuto il cursore sulla riga del pubblico, quindi fai clic su **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * Nelle impostazioni per il pubblico esistente, nella parte superiore del pannello di logica dei segmenti, fai clic su **[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**.
+         * Nelle impostazioni per il pubblico esistente, nella parte superiore del pannello di logica dei segmenti, fai clic su **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
          * In un editor di testo, crea manualmente la logica del segmento utilizzando ID di segmento alfanumerici e [Sintassi booleana](audience-segment-logic-syntax.md), e copialo negli Appunti.
       1. Fai clic su **[!UICONTROL paste in an audience rule to begin building]**, incolla la logica di segmento esistente nel campo di input, quindi fai clic su **[!UICONTROL Apply]**.

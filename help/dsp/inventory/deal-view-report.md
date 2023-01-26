@@ -2,8 +2,8 @@
 title: Visualizzare un rapporto dettagliato per un privato, [!UICONTROL On Demand]oppure [!UICONTROL Simple Ad Serving] Offerta
 description: Scopri come aprire un rapporto a livello di offerta.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals, DSP On Demand Inventory, DSP Simple Ad Serving
-exl-id: cd39582e-0445-48ca-b2f6-90b410ce4a1c
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 8a2e142e-0a05-47c7-9888-935665f06ad3
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Il rapporto a livello di operazione include il numero di aste, il tasso di offerta, il tasso di vincita, il numero di impression, la spesa netta totale, la CMP effettiva (eCPM) e il tasso di completamento. Puoi visualizzare metriche delle prestazioni aggiuntive per inserzionista, campagna, posizionamento, tipo di annuncio e sito.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
+1. Nel menu principale, fai clic su **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
-1. Nella riga dell&#39;offerta, fai clic su **[!UICONTROL ...]>[!UICONTROL View Report]**.
+1. Nella riga dell&#39;offerta, fai clic su **[!UICONTROL ...]** > **[!UICONTROL View Report]**.
 
 1. (Facoltativo) Personalizza l’intervallo di date per il quale vuoi visualizzare i dati.
 

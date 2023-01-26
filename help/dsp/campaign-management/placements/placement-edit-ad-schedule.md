@@ -2,8 +2,8 @@
 title: Modificare la pianificazione dell’annuncio per un posizionamento
 description: Scopri come modificare le pianificazioni degli annunci per gli annunci allegati a un posizionamento.
 feature: DSP Placements
-exl-id: 880522d3-efcd-4ff9-8cef-bf6be626869c
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Puoi modificare le date di volo pianificate e la rotazione degli annunci per gli
 
 1. Nel sottomenu, fai clic su **[!UICONTROL Placements]**.
 
-1. Accanto al nome del posizionamento, fai clic su  **[!UICONTROL ...]>[!UICONTROL Ad schedule]**.
+1. Accanto al nome del posizionamento, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Ad schedule]**.
 
    1. Effettua una delle seguenti operazioni:
 

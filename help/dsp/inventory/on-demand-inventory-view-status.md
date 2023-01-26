@@ -2,8 +2,8 @@
 title: Visualizza lo stato del [!DNL On Demand] Richieste di offerte e abbonamenti
 description: Scopri come visualizzare lo stato del [!DNL On Demand] richieste di offerte e abbonamenti.
 feature: DSP On Demand Inventory
-exl-id: 8dd6d922-c4a3-4ddb-bca9-f6f782da1320
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 4a8c0242-eaa7-426f-82da-8a4ae4bed492
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Dopo aver richiesto un&#39;offerta individuale o aver effettuato l&#39;abbonamento a tutte le offerte di un editore, controlla se l&#39;editore ha approvato o rifiutato ogni offerta per ogni inserzionista nel tuo account.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Inventory]>[!UICONTROL On Demand]**.
+1. Nel menu principale, fai clic su **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
 1. Filtra le offerte disponibili per includere le offerte richieste o sottoscritte (**[!UICONTROL Currently subscribed to]**)**.
 1. Effettua una delle seguenti operazioni:
    * Per visualizzare le offerte nel [!UICONTROL Deal] visualizza, fai clic su **[!UICONTROL Deal view]**.

@@ -2,8 +2,8 @@
 title: Archiviare o annullare l’archiviazione di un posizionamento
 description: Scopri come archiviare o annullare l’archiviazione di un posizionamento.
 feature: DSP Placements
-exl-id: 3d342f83-1bcb-4f80-b31a-2009bcdde565
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 4304452d-4573-46b3-892e-299950a75d4f
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Puoi annullare l’archiviazione di un posizionamento per ripristinarne lo stato
 1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
 1. Fai clic sul nome della campagna.
 1. Nel sottomenu, fai clic su **[!UICONTROL Placements]**.
-1. Accanto al nome del posizionamento, fai clic su  **[!UICONTROL ...]>[!UICONTROL Archive]**.
+1. Accanto al nome del posizionamento, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. Nel messaggio di conferma, fai clic su **[!UICONTROL Archive]**.
 
 >[!NOTE]
@@ -35,7 +35,7 @@ Puoi annullare l’archiviazione di un posizionamento per ripristinarne lo stato
 1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
 1. Fai clic sul nome della campagna.
 1. Nel sottomenu, fai clic su **[!UICONTROL Placements]**.
-1. Accanto al nome del posizionamento, fai clic su  **[!UICONTROL ...]>[!UICONTROL Unarchive]**.
+1. Accanto al nome del posizionamento, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. Nel messaggio di conferma, fai clic su **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]

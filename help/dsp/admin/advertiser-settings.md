@@ -1,7 +1,7 @@
 ---
 title: Impostazioni account inserzionista
 description: Consulta le descrizioni delle impostazioni dell’inserzionista disponibili.
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 0%
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 **[!UICONTROL Advertiser Name]:** Nome dell&#39;inserzionista.
 
-**[!UICONTROL Category]:** La categoria in cui opera l’attività dell’inserzionista. La categoria viene comunicata agli editori quando fai un&#39;offerta su inventory. Assicurati di scegliere una categoria che si allinea ai tuoi annunci, o gli editori possono rifiutare i tuoi annunci.
+**[!UICONTROL Category]:** La categoria in cui opera l&#39;inserzionista. La categoria viene comunicata agli editori quando fai un&#39;offerta su inventory. Assicurati di scegliere una categoria che si allinea ai tuoi annunci, o gli editori possono rifiutare i tuoi annunci.
 
 >[!NOTE]
 >
 >Se si seleziona *[!UICONTROL Other]*, quindi l&#39;inserzionista non sarà in grado di accedere DSP [!DNL On Demand Inventory].
 
-**[!UICONTROL Advertiser URL]:** La homepage dell’inserzionista o l’URL principale del sito web (a partire da `http://` o `https://`).
+**[!UICONTROL Advertiser URL]:** La homepage dell&#39;inserzionista o l&#39;URL principale del sito web (a partire da `http://` o `https://`).
 
 **[!UICONTROL Share all private exchange feeds into this advertiser]:** (Solo per i nuovi account pubblicitari) Rende disponibili all’inserzionista tutti i feed di scambio privati configurati per l’account di DSP dell’organizzazione.
 
@@ -38,9 +38,9 @@ Gli inserzionisti con prodotti Adobe Experience Cloud aggiuntivi possono condivi
 
 (Facoltativo) Prodotti di Experience Cloud aggiuntivi collegati all’account DSP. I prodotti devono essere associati allo stesso ID organizzazione Experience Cloud fornito nel [!UICONTROL Adobe IMS IDs] sezione .
 
-**[!UICONTROL Attribution services]> [!UICONTROL Adobe Media Optimizer]:** (Inserzionisti con [!DNL Adobe Advertising Search] o che utilizzano pixel di conversione della pubblicità di Adobe) A [!DNL Search] account con cui DSP scambiare i dati di attribuzione.
+**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Inserzionisti con [!DNL Adobe Advertising Search] o che utilizzano pixel di conversione della pubblicità di Adobe) A [!DNL Search] account con cui DSP scambiare i dati di attribuzione.
 
-**[!UICONTROL Report suites]> [!UICONTROL Adobe Analytics]:** (inserzionisti con Adobe Analytics; facoltativo; applicabile solo ai dati raccolti utilizzando tag di monitoraggio delle conversioni di Adobe Advertising che includono [!DNL EF Redirect] e solo token) Uno o più [!DNL Analytics] suite di rapporti a cui DSP invierà i dati raccolti dagli editori e dai partner lato offerta. Analytics invierà inoltre i dati raccolti dal sito del cliente a DSP.
+**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (inserzionisti con Adobe Analytics; facoltativo; applicabile solo ai dati raccolti utilizzando tag di monitoraggio delle conversioni di Adobe Advertising che includono [!DNL EF Redirect] e solo token) Uno o più [!DNL Analytics] suite di rapporti a cui DSP invierà i dati raccolti dagli editori e dai partner lato offerta. Analytics invierà inoltre i dati raccolti dal sito del cliente a DSP.
 
 Affinché i dati vengano visualizzati nelle suite di rapporti, la [!DNL Search] impostazione a livello di inserzionista su &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; deve essere abilitato. Inoltre, l&#39;inserzionista [!DNL Analytics] l’account deve essere configurato per ricevere dati da Adobe Advertising.
 
@@ -50,7 +50,7 @@ Affinché i dati vengano visualizzati nelle suite di rapporti, la [!DNL Search] 
 
 Per ulteriori informazioni sull’integrazione con [!DNL Analytics], vedi &quot;[Panoramica [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).&quot;
 
-**[!UICONTROL Audiences]> [!UICONTROL Adobe Analytics Cloud]:** (inserzionisti con Adobe Audience Manager o Adobe Analytics; facoltativo) un Audience Manager o [!DNL Analytics] account da cui DSP i metadati del segmento, i dati gerarchici e i dati di audience univoci per tutti i tipi di pubblico Adobi dell’inserzionista. Sono inclusi i dati per:
+**[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]:** (inserzionisti con Adobe Audience Manager o Adobe Analytics; facoltativo) un Audience Manager o [!DNL Analytics] account da cui DSP i metadati del segmento, i dati gerarchici e i dati di audience univoci per tutti i tipi di pubblico Adobi dell’inserzionista. Sono inclusi i dati per:
 
 * Segmenti di Audience Manager
 * [!DNL Analytics] segmenti pubblicati in Adobe Experience Cloud

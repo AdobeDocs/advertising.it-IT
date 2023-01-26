@@ -2,8 +2,7 @@
 title: Modificare i tag attributo per un ID offerta
 description: Scopri come creare e modificare i tag degli attributi per un ID offerta.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-exl-id: 9a0190e7-26d0-4236-abbb-f1264b5d61e9
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%
@@ -14,7 +13,7 @@ ht-degree: 0%
 
 Puoi creare e assegnare tag per distribuire ID per raggruppare offerte simili. Quando crei o modifichi un posizionamento, puoi cercare l’inventario disponibile in base al nome del tag.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
+1. Nel menu principale, fai clic su **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
 1. Nella riga dell&#39;offerta, fai clic su ![Menu Opzioni](/help/dsp/assets/options-menu.png) **>[!UICONTROL edit tags]**.
 

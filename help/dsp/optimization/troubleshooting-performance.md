@@ -2,8 +2,8 @@
 title: Risoluzione dei problemi relativi alle prestazioni
 description: Fai riferimento ai problemi di prestazioni comuni e scopri come risolverli.
 feature: DSP Optimization
-exl-id: adb32257-dede-4623-9840-33221c218443
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: b87f8556-1908-40c1-9f98-fbdc6d9b59b1
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 0%
@@ -14,10 +14,10 @@ ht-degree: 0%
 
 | Problema | Possibile causa | Azioni da intraprendere |
 | --- | --- | --- |
-| Nessuna spesa per il posizionamento | Il posizionamento non include gli annunci e/o gli annunci non sono attivi. | Verifica che tutti gli annunci previsti siano collegati al posizionamento e siano approvati e attivi.<br><br>Inoltre, vedi se il posizionamento include un programma di annunci personalizzato, che può limitare il periodo di volo per ogni annuncio. Per visualizzare la pianificazione pubblicitaria di un posizionamento dalla vista Posizionamenti, fai clic su  **[!UICONTROL ...]>[!UICONTROL Ad schedule]** accanto al nome del posizionamento. |
+| Nessuna spesa per il posizionamento | Il posizionamento non include gli annunci e/o gli annunci non sono attivi. | Verifica che tutti gli annunci previsti siano collegati al posizionamento e siano approvati e attivi.<br><br>Inoltre, vedi se il posizionamento include un programma di annunci personalizzato, che può limitare il periodo di volo per ogni annuncio. Per visualizzare la pianificazione pubblicitaria di un posizionamento dalla vista Posizionamenti, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Ad schedule]** accanto al nome del posizionamento. |
 |  | Le date interessate non rientrano nelle date di volo configurate. | Verifica che le date del volo siano valide a livello di campagna, pacchetto e posizionamento &#x200B; s. |
 |  | L&#39;obiettivo di budget è stato raggiunto e/o non è abbastanza alto. | Controlla le impostazioni di budget a livello di campagna, pacchetto e posizionamento. |
-|  | L&#39;account non ha abbastanza fondi. | Per vedere se il tuo account è adeguatamente finanziato, vai a **[!UICONTROL Settings]>[!UICONTROL Account]** e guarda la quantità di [!UICONTROL Usable Funds]. Se hai bisogno di aggiungere altri fondi, contatta il tuo [!DNL Adobe] team di account. |
+|  | L&#39;account non ha abbastanza fondi. | Per vedere se il tuo account è adeguatamente finanziato, vai a **[!UICONTROL Settings]** > **[!UICONTROL Account]** e guarda la quantità di [!UICONTROL Usable Funds]. Se hai bisogno di aggiungere altri fondi, contatta il tuo [!DNL Adobe] team di account. |
 |  | Nessun inventario disponibile. | Verifica se le origini di inventario specificate ([!UICONTROL Public], [!UICONTROL Private]oppure [!UICONTROL On Demand]) sono:<ul><li>Configurazione corretta.</li><li>Attivo e spedito attraverso le aste.</li><li>Compatibile con il tipo di annuncio e di posizionamento applicabile.</li></ul><br>Se le origini di inventario sono tutte valide e attive, eseguire il targeting di altre o di tutte le origini di inventario, se possibile. |
 |  | Nessun utente disponibile. | Verifica che le destinazioni di pubblico specificate includano un numero sufficiente di utenti attivi. In caso contrario, espandi i target aggiungendo altri tipi di pubblico. |
 | Riduzione della spesa per il posizionamento | La [!UICONTROL Non Bids] la sezione del report di diagnostica del posizionamento mostra possibili ragioni per cui il posizionamento non ha fatto offerte. | [Consulta la sezione [!UICONTROL Non Bids] rapporto](/help/dsp/campaign-management/reports/placement-diagnostics.md) per capire perché il posizionamento non ha fatto offerte.  <!-- add link/edit text when file available: See the [in-depth guide to possible Non-Bid Reasons (NBR)](link) for more information. --> |

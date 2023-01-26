@@ -2,8 +2,7 @@
 title: Visualizzare i pixel dell’evento per un [!UICONTROL Simple Ad Serving] Offerta
 description: Scopri come ottenere una copia dei pixel di tracciamento degli eventi per un [!UICONTROL Simple Ad Serving] accordo.
 feature: DSP Simple Ad Serving
-exl-id: 88d18ddd-98ba-4e36-890c-d6ddfb7d59e5
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
@@ -16,7 +15,7 @@ Puoi ottenere una copia dei pixel di tracciamento degli eventi per un [!UICONTRO
 
 I pixel dell’evento includono un [!UICONTROL Clickthrough] pixel e [!UICONTROL Impression] pixel. Gli annunci video e audio includono anche pixel dell&#39;evento per quartile completato (da [!UICONTROL 25% Complete] a [!UICONTROL 100% Complete]).
 
-1. Nel menu principale, fai clic su **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
+1. Nel menu principale, fai clic su **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
 1. Nella riga dell&#39;offerta, fai clic su ![Menu Opzioni](/help/dsp/assets/options-menu.png) **>[!UICONTROL show pixel]**.
 

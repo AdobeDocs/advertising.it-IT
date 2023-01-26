@@ -2,8 +2,8 @@
 title: Posizionamenti duplicati
 description: Scopri come duplicare uno o più posizionamenti.
 feature: DSP Placements
-exl-id: d22a61a8-4f1b-41ee-b4fb-3124bec81a2f
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Vedere &quot;[Non duplicato](#placement-not-duplicated)&quot; per un elenco di i
 
 1. Effettua una delle seguenti operazioni:
 
-   * Per duplicare un posizionamento, fai clic su  **[!UICONTROL ...]>[!UICONTROL Duplicate]** accanto al nome del pacchetto.
+   * Per duplicare un posizionamento, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]** accanto al nome del pacchetto.
 
    * Per duplicare più posizionamenti:
 
