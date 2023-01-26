@@ -3,9 +3,9 @@ title: Importare segmenti Adobe Audience Manager per il targeting degli annunci
 description: Scopri come importare il tuo [!DNL Adobe] tipi di pubblico in Advertising DSP e Search utilizzando Adobe Audience Manager
 feature: Integration with Adobe Audience Manager
 exl-id: 6ff80699-9554-4b39-a019-d8055d68c174
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 0b5e60f033d623bb6d342c6b56cb98f0bfcde916
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ DSP pubblicitarie e [!DNL Advertising Search] è possibile inserire metadati, da
 
 * Segmenti Adobe Analytics pubblicati in Adobe Experience Cloud
 
-* Segmenti creati in Adobe Experience Cloud utilizzando [!DNL People core service]
+* Segmenti creati con Adobe Experience Cloud [!DNL Audience Library]
 
 * Segmenti creati in Adobe Experience Platform e inviati ad Adobe Advertising tramite Audience Manager
 

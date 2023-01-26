@@ -3,9 +3,9 @@ title: Integrazioni pubblicitarie di Adobe con Adobe Audience Manager
 description: Scopri i diversi modi in cui Adobe Advertising può scambiare dati con Adobe Audience Manager.
 feature: Integration with Adobe Audience Manager
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 0b5e60f033d623bb6d342c6b56cb98f0bfcde916
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Puoi integrare Adobe Advertising con Audience Manager nei seguenti modi.
 
 *Inserzionisti con consenso con [!DNL Advertising Search] only*
 
-Entro [!DNL [!DNL Search]], puoi creare [!DNL Google Ads] I tipi di pubblico dei clienti Google corrispondono a quelli degli ID utente utilizzando i segmenti di Audience Manager esistenti che hanno [!UICONTROL Adobe Media Optimizer (HTTP)] e [!UICONTROL Adobe Media Optimizer Batch Destination] come destinazioni. ([!DNL Media Optimizer] è un nome precedente per [!DNL [!DNL Search]]. Ciò include i segmenti Adobe Analytics pubblicati in Adobe Experience Cloud e i segmenti creati in Adobe Experience Cloud utilizzando [!DNL People core service]. Per ulteriori informazioni, consulta la guida interna al prodotto in [!DNL [!DNL Search]].
+Entro [!DNL [!DNL Search]], puoi creare [!DNL Google Ads] I tipi di pubblico dei clienti Google corrispondono a quelli degli ID utente utilizzando i segmenti di Audience Manager esistenti che hanno [!UICONTROL Adobe Media Optimizer (HTTP)] e [!UICONTROL Adobe Media Optimizer Batch Destination] come destinazioni. ([!DNL Media Optimizer] è un nome precedente per [!DNL [!DNL Search]]. Ciò include i segmenti Adobe Analytics pubblicati in Adobe Experience Cloud e i segmenti creati utilizzando Adobe Experience Cloud [!DNL Audience Library]. Per ulteriori informazioni, consulta la guida interna al prodotto in [!DNL [!DNL Search]].
 
 [Corrispondenza cliente ai tipi di pubblico dagli ID utente](https://support.google.com/google-ads/answer/9199250) funziona come un pubblico basato su tag del sito web, ma un ID non PII viene assegnato a membri di pubblico univoci per vantaggi distinti rispetto ai tipi di pubblico standard basati sulla corrispondenza del cliente e a quelli basati su tag del sito web.
 

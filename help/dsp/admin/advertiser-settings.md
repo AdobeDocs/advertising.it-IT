@@ -1,9 +1,9 @@
 ---
 title: Impostazioni account inserzionista
 description: Consulta le descrizioni delle impostazioni dell’inserzionista disponibili.
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 0b5e60f033d623bb6d342c6b56cb98f0bfcde916
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Per ulteriori informazioni sull’integrazione con [!DNL Analytics], vedi &quot;
 
 * Segmenti di Audience Manager
 * [!DNL Analytics] segmenti pubblicati in Adobe Experience Cloud
-* Segmenti creati in Adobe Experience Cloud utilizzando [!DNL People core service]
+* Segmenti creati con Adobe Experience Cloud [!DNL Audience Library]
 * Segmenti creati in Adobe Experience Platform e inviati ad Adobe Advertising tramite Audience Manager
 
 La sincronizzazione iniziale richiede circa 24 ore. Dopo di che, i dati vengono sincronizzati in tempo reale, con un ritardo da uno a due secondi.
