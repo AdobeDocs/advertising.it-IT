@@ -2,8 +2,8 @@
 title: Gestione dell'audience in Advertising DSP
 description: Scopri le funzioni di gestione dell’audience.
 feature: DSP Audiences, DSP Segments
-exl-id: 624d2211-59a2-4791-b8f1-a9a5cecd0b8e
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 0%
@@ -20,7 +20,7 @@ In DSP puoi creare e gestire segmenti di pubblico e set di pubblico, che puoi ut
 
    * [Segmenti di rifiuto del CCPA](/help/dsp/audiences/ccpa-opt-out-segment-create.md) per tenere traccia degli ID utente dalle richieste di rifiuto del consumatore sul tuo sito web, in conformità al California Consumer Privacy Act (CCPA). Puoi recuperare rapporti mensili sugli ID utente dalle richieste di rinuncia alla vendita.
 
-      Per ulteriori informazioni sull’Adobe del supporto pubblicitario per le richieste di rifiuto del CCPA, consulta [Adobe di supporto per la pubblicità per il California Consumer Privacy Act: Supporto per rinuncia del consumatore](/help/privacy/ccpa-opt-out-of-sale.md).
+      Per ulteriori informazioni sull’Adobe del supporto pubblicitario per le richieste di rifiuto del CCPA, consulta [Adobe di supporto per la pubblicità per il California Consumer Privacy Act: Supporto per rinuncia del consumatore](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
 * Puoi creare una libreria di tipi di pubblico [tipi di pubblico riutilizzabili](/help/dsp/audiences/reusable-audience-create.md). I tipi di pubblico salvati sono composti da uno qualsiasi dei segmenti di pubblico disponibili e da qualsiasi altro pubblico salvato. Tutte le modifiche apportate a un pubblico salvato vengono applicate automaticamente a tutti i posizionamenti che eseguono il targeting o escludono il pubblico e a tutti gli altri tipi di pubblico che includono il pubblico salvato.
 

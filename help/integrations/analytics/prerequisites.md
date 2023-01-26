@@ -2,8 +2,8 @@
 title: Prerequisiti e informazioni chiave per l’implementazione [!DNL Analytics for Advertising]
 description: Prerequisiti e informazioni chiave per l’implementazione [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
-exl-id: 08e54e2b-ed9b-4489-8de5-ab1379b7133c
-source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
+exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Leggi le seguenti informazioni prima di integrare Adobe Advertising con Adobe An
 ## Requisiti per la condivisione dei segmenti di Analytics con Adobe Advertising
 
 * Servizio Experience Cloud Identity: `visitorAPI.js` versione 2.1 o successiva
-* Adobe Analytics: `appMeasurement.js` versione 1.8 o successiva
+* Adobe Analytics: `!DNL appMeasurement.js` versione 1.8 o successiva
 
 ## Obblighi di segnalazione [!DNL Analytics] Dati in Adobe Advertising
 

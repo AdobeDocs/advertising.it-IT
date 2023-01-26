@@ -1,10 +1,10 @@
 ---
 title: Configurare test A/B per Adobe annunci pubblicitari in Adobe Target
 description: Scopri come impostare un test A/B in [!DNL Target] per il tuo DSP e [!DNL Search] annunci pubblicitari.
-exl-id: 97055645-4b2f-4795-830d-9ce89ae2ad15
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1647'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Questo caso d’uso richiede i seguenti prodotti e integrazioni:
 
 ![Framework Click-through](/help/integrations/assets/target-ct-framework.png)
 
-Quando si aggiungono DSP macro a un URL click-through (l&#39;URL visualizzato quando un utente fa clic su un annuncio e raggiunge la pagina di destinazione), DSP acquisisce automaticamente la chiave di posizionamento includendo `${TM_PLACEMENT_ID}` nell’URL di click-through. Questa macro acquisisce il tasto di posizionamento alfanumerico e non l’ID di posizionamento numerico.
+Quando si aggiungono DSP macro a un URL click-through (l&#39;URL visualizzato quando un utente fa clic su un annuncio e raggiunge la pagina di destinazione), DSP acquisisce automaticamente la chiave di posizionamento includendo ```${TM_PLACEMENT_ID}``` nell’URL di click-through. Questa macro acquisisce il tasto di posizionamento alfanumerico e non l’ID di posizionamento numerico.
 
 ![URL di click-through aggiunto all’URL della pagina di destinazione](/help/integrations/assets/target-ct-url.jpg)
 
@@ -98,7 +98,7 @@ Aggiungendo un pixel evento di impression Audience Manager nei tag degli annunci
 
    1. Da **Origine dati** menu a discesa, seleziona **Ad Cloud**.
 
-   1. Nel generatore di espressioni, aggiungi `d_event` nel campo Chiave e `imp` in **Valore** campo , seleziona **Aggiungi regola**, quindi salva la caratteristica.
+   1. Nel generatore di espressioni, aggiungi ```d_event``` nel campo Chiave e ```imp``` in **Valore** campo , seleziona **Aggiungi regola**, quindi salva la caratteristica.
 
    ![Schermata di una caratteristica basata su regole](/help/integrations/assets/target-am-trait.png)
 
@@ -115,7 +115,7 @@ Aggiungendo un pixel evento di impression Audience Manager nei tag degli annunci
 
 <!-- [If separate page, add "Adobe" before first-use of product names.] -->
 
-Le seguenti istruzioni evidenziano informazioni relative al caso d’uso DSP. Per istruzioni complete, vedi &quot;[Creare un test A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html).&quot;
+Le seguenti istruzioni evidenziano informazioni relative al caso d’uso DSP. Per istruzioni complete, vedi &quot;[Creare un test A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html.&quot;
 
 1. [Accedere ad Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
 
@@ -129,7 +129,7 @@ Le seguenti istruzioni evidenziano informazioni relative al caso d’uso DSP. Pe
 
    >[!NOTE]
    >
-   >Puoi utilizzare più URL per testare l’accesso al sito tramite visualizzazione. Per ulteriori informazioni, consulta &quot;[Attività multipagina](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).&quot; È possibile identificare facilmente le voci principali in base all’URL della pagina creando un [Rapporto voce sito](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-cloud-site-entry-reports.html) in Analytics.
+   >Puoi utilizzare più URL per testare l’accesso al sito tramite visualizzazione. Per ulteriori informazioni, consulta &quot;[Attività multipagina](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).&quot; È possibile identificare facilmente le voci principali in base all’URL della pagina creando un [Rapporto voce sito](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-site-entry-reports.html) in Analytics.
 
 1. In **Obiettivo** , immetti la metrica di successo per il test.
 
@@ -208,7 +208,7 @@ In Analysis Workspace, se noti che i dati di attività ed esperienze sono minimi
 
 * Nella stessa pagina di destinazione, verifica che a) il nome host mostrato nel debugger di Adobe in Soluzioni> Target corrisponda a b) il server di tracciamento mostrato in [!DNL Target] per l&#39;attività (in Obiettivi e impostazioni > Impostazioni reporting).
 
-   [!DNL Analytics For Target] richiede un [!DNL Analytics] server di tracciamento da inviare nelle chiamate da [!DNL Target] al [!DNL Modstats] server di raccolta dati per Analytics.<!-- just "to Analytics?"-->
+   [!DNL Analytics For Target] richiede un [!DNL Analytics] server di tracciamento da inviare nelle chiamate da [!DNL Target] al [!DNL Modstats] server di raccolta dati per Analytics.&lt;!— solo &quot;per Analytics?&quot;>
 
 [Valore del nome host in Adobe Debugger](/help/integrations/assets/target-troubleshooting-hostname.png)
 

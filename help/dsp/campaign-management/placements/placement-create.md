@@ -2,10 +2,10 @@
 title: Creare un posizionamento
 description: Scopri come creare un posizionamento.
 feature: DSP Placements
-exl-id: 4e37b571-9af4-4897-bff2-035a5f2600a5
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 28a328b1-0839-442e-a245-f586a7042f41
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '652'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 1%
 
       1. Restringi il pubblico. Ciò include la selezione dei segmenti di pubblico di cui eseguire il targeting all’interno del posizionamento.
 
-         Per [!DNL Roku] posizionamenti, puoi sfruttare [Corrispondenza del pubblico univoco di DSP con [!DNL Roku]](/help/dsp/inventory/roku-inventory.md) includendo uno o più segmenti di pubblico a cui è possibile associare il [!DNL Roku] Set di dati deterministici (Opted-in).
+         Per [!DNL] Posizionamenti Roku, puoi sfruttare [Corrispondenza del pubblico univoco di DSP con [!DNL Roku]](/help/dsp/inventory/roku-inventory.md) includendo uno o più segmenti di pubblico a cui è possibile associare il [!DNL Roku] Set di dati deterministici (Opted-in).
    1. (Per campagne con targeting su più dispositivi a livello di persone; opzionale) Quando il posizionamento esegue il targeting di uno o più tipi di pubblico specifici, abilita il targeting per il posizionamento basato su persone su dispositivi diversi.
 
       Il targeting cross-device basato sulle persone è fornito da [!DNL LiveRamp] utilizzando solo dati statunitensi. Il servizio è disponibile per tutti gli inserzionisti a $ 0,35 CPM per le impression consegnate utilizzando il [!DNL LiveRamp] grafico dei dispositivi (ovvero, per dispositivi non trovati all’interno dei segmenti di pubblico target).
@@ -73,56 +73,56 @@ ht-degree: 1%
    1. Clic **[!UICONTROL Attach an ad]**.
 
    1. Effettua una delle seguenti operazioni:
+   * Per creare un nuovo annuncio:
 
-      * Per creare un nuovo annuncio:
+      1. Clic **[!UICONTROL Create a New Ad].**
 
-         1. Clic **[!UICONTROL Create a New Ad].**
+      1. Specifica le impostazioni dell&#39;annuncio per [annunci audio](/help/dsp/campaign-management/ads/ad-settings-audio.md), [TV collegata](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [annunci display](/help/dsp/campaign-management/ads/ad-settings-display.md), [annunci mobile](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [annunci nativi](/help/dsp/campaign-management/ads/ad-settings-native.md), [annunci pre-scorrimento](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)oppure [annunci video universali](/help/dsp/campaign-management/ads/ad-settings-universal-video.md).
 
-         1. Specifica le impostazioni dell&#39;annuncio per [annunci audio](/help/dsp/campaign-management/ads/ad-settings-audio.md), [TV collegata](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [annunci display](/help/dsp/campaign-management/ads/ad-settings-display.md), [annunci mobile](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [annunci nativi](/help/dsp/campaign-management/ads/ad-settings-native.md), [annunci pre-scorrimento](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)oppure [annunci video universali](/help/dsp/campaign-management/ads/ad-settings-universal-video.md).
+      1. Clic **[!UICONTROL Save & Submit for Review]**.
 
-         1. Clic **[!UICONTROL Save & Submit for Review]**.
+      1. (Facoltativo) Per ogni annuncio aggiuntivo da creare per il posizionamento, fai clic su **[!UICONTROL Attach Another Ad]**, quindi ripetere i passaggi 1-3.
 
-         1. (Facoltativo) Per ogni annuncio aggiuntivo da creare per il posizionamento, fai clic su **[!UICONTROL Attach Another Ad]**, quindi ripetere i passaggi 1-3.
+      1. Se non alleghi annunci esistenti, fai clic su **[!UICONTROL I'm done for now]**.
+   * Per allegare annunci esistenti nella campagna:
 
-         1. Se non alleghi annunci esistenti, fai clic su **[!UICONTROL I'm done for now]**.
-      * Per allegare annunci esistenti nella campagna:
+      1. Clic **[!UICONTROL Select an Ad]**.
 
-         1. Clic **[!UICONTROL Select an Ad]**.
+      1. Effettua una delle seguenti operazioni:
+
+         * Per aggiungere un annuncio alla volta:
+
+            1. Accanto al nome dell’annuncio, fai clic su **[!UICONTROL Select].**
+
+            1. (Facoltativo) Per ogni annuncio aggiuntivo da allegare, fai clic su **[!UICONTROL Attach Another Ad]**, quindi ripetere il processo.
+         * Per aggiungere fino a 20 annunci alla volta:
+
+            1. Seleziona la casella di controllo sopra l’elenco degli annunci.
+
+            1. Seleziona la casella di controllo accanto a ciascun annuncio da aggiungere.
+
+            1. Clic **[!UICONTROL Attach]**.
+
+            1. Accanto al nome dell’annuncio, fai clic su **[!UICONTROL Select]**.
+      1. (Facoltativo) Per ignorare il periodo di volo predefinito e la rotazione degli annunci per annunci specifici nel posizionamento:
+
+         1. Clic **[!UICONTROL Custom Schedule Ads]**.
 
          1. Effettua una delle seguenti operazioni:
 
-            * Per aggiungere un annuncio alla volta:
+            * Per aggiungere un volo, fai clic su **[!UICONTROL Add Flight]**, quindi specifica la data di inizio e la data di fine.
 
-               1. Accanto al nome dell’annuncio, fai clic su **[!UICONTROL Select].**
+            * Per aggiungere un volo esistente a un annuncio, fai clic su **[!UICONTROL +]** nella riga dell’annuncio per la colonna flight.
 
-               1. (Facoltativo) Per ogni annuncio aggiuntivo da allegare, fai clic su **[!UICONTROL Attach Another Ad]**, quindi ripetere il processo.
-            * Per aggiungere fino a 20 annunci alla volta:
+            * Per rimuovere un volo esistente da un annuncio, fai clic su **[!UICONTROL x]** nella riga dell’annuncio per la colonna flight.
 
-               1. Seleziona la casella di controllo sopra l’elenco degli annunci.
+            * (Quando più annunci hanno lo stesso volo) Per ruotare gli annunci in modo non uniforme, fai clic su **[!UICONTROL Even Rotation]** nelle informazioni sul volo, quindi inserire il peso relativo in base al quale ruotare ogni annuncio, in percentuale.
 
-               1. Seleziona la casella di controllo accanto a ciascun annuncio da aggiungere.
+               Il peso totale deve essere uguale a 100.
+         1. In alto a destra, fai clic su **[!UICONTROL Continue]**.
 
-               1. Clic **[!UICONTROL Attach]**.
+         1. Esamina i dettagli del volo, quindi fai clic su **[!UICONTROL Save & Finish]**.
 
-               1. Accanto al nome dell’annuncio, fai clic su **[!UICONTROL Select]**.
-         1. (Facoltativo) Per ignorare il periodo di volo predefinito e la rotazione degli annunci per annunci specifici nel posizionamento:
-
-            1. Clic **[!UICONTROL Custom Schedule Ads]**.
-
-            1. Effettua una delle seguenti operazioni:
-
-               * Per aggiungere un volo, fai clic su **[!UICONTROL Add Flight]**, quindi specifica la data di inizio e la data di fine.
-
-               * Per aggiungere un volo esistente a un annuncio, fai clic su **[!UICONTROL +]** nella riga dell’annuncio per la colonna flight.
-
-               * Per rimuovere un volo esistente da un annuncio, fai clic su **[!UICONTROL x]** nella riga dell’annuncio per la colonna flight.
-
-               * (Quando più annunci hanno lo stesso volo) Per ruotare gli annunci in modo non uniforme, fai clic su **[!UICONTROL Even Rotation]** nelle informazioni sul volo, quindi inserire il peso relativo in base al quale ruotare ogni annuncio, in percentuale.
-
-                  Il peso totale deve essere uguale a 100.
-            1. In alto a destra, fai clic su **[!UICONTROL Continue]**.
-
-            1. Esamina i dettagli del volo, quindi fai clic su **[!UICONTROL Save & Finish]**.
 
 
 
@@ -137,6 +137,7 @@ ht-degree: 1%
 >* [Visualizza il registro delle modifiche per un posizionamento](placement-change-log.md)
 >* [Impostazioni di posizionamento](placement-settings.md)
 >* [Scelte rapide da tastiera](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Risoluzione dei problemi relativi alle prestazioni](/help/dsp/optimization/troubleshooting-performance.md)
+
+   >*[Risoluzione dei problemi relativi alle prestazioni](/help/dsp/optimization/troubleshooting-performance.md)
 >* [Video: Come creare un posizionamento di visualizzazione standard](https://video.tv.adobe.com/v/340454)
 

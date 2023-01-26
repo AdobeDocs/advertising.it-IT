@@ -2,8 +2,8 @@
 title: Creare più annunci di terze parti
 description: Scopri come creare più annunci di terze parti contemporaneamente.
 feature: DSP Ads
-exl-id: 83d35d27-1ab6-4fcf-877f-650a2dc6975a
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: be7c1cc4-3c17-4e37-aae7-c8601d2222a0
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
@@ -69,5 +69,5 @@ Puoi caricare uno dei due [!DNL DoubleClick] e [!DNL Flashtalking] assegnare tag
 >* [Informazioni sulla gestione degli annunci](ad-about.md)
 >* [Specifiche degli annunci](ad-specs.md)
 >* [Creare un singolo annuncio](ad-create.md)
->* [Video: Come caricare in blocco tag di annunci di terze parti](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
+>* [Video: Come caricare in blocco tag di annunci di terze parti](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
 

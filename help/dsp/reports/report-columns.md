@@ -2,10 +2,10 @@
 title: Colonne dei rapporti disponibili
 description: Consulta le descrizioni delle colonne disponibili nei rapporti personalizzati.
 feature: DSP Custom Reports
-exl-id: c96e46ae-2fb2-4364-9c51-f160c00693ba
-source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
+exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1660'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Billable Net Spend] | La somma di [!UICONTROL Billable Spend (Media)], [!UICONTROL Billable Spend (Data)]e [!UICONTROL Billable Spend (Other)]. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completion Rate] | La percentuale di visualizzazioni che hanno guardato l&#39;annuncio nella sua interezza. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completions] | Il numero di visualizzazioni che hanno visto l&#39;annuncio nella sua interezza. |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Viewable Completion (%)] | La percentuale di impression visualizzabili che ha guardato l&#39;annuncio nella sua interezza. |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | Completamento visualizzabile al 100% (%)] | La percentuale di impression visualizzabili[!UICONTROL che ha guardato l’annuncio nella sua interezza. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 25% Completion Rate] | La percentuale di visualizzazioni che hanno guardato almeno un quartile dell&#39;annuncio. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 25% Completions] | Il numero di visualizzazioni che hanno guardato almeno un quartile dell&#39;annuncio. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 50% Completion Rate] | La percentuale di visualizzazioni che hanno guardato almeno due quartili dell&#39;annuncio. |

@@ -7,7 +7,8 @@ product: advertising cloud
 user-guide-title: Criteri e linee guida di Adobe Advertising
 user-guide-description: Scopri le politiche e le linee guida per la DSP pubblicitaria e [!DNL Advertising Search].
 breadcrumb-title: Criteri e linee guida
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+index: true
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '33'
 ht-degree: 39%

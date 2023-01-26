@@ -2,10 +2,10 @@
 title: ID pubblicitari di Adobe utilizzati da [!DNL Analytics]
 description: ID pubblicitari di Adobe utilizzati da [!DNL Analytics]
 feature: Integration with Adobe Analytics
-exl-id: ed1aab7b-9bd0-4d42-9bfb-9c6fa6db76bc
-source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
+exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1186'
 ht-degree: 0%
 
 ---
@@ -49,9 +49,7 @@ L’ID EF è un token univoco utilizzato da Adobe Advertising per associare l’
 
 #### [!DNL Google Ads] ricerca annunci
 
-```
-{gclid}:G:s
-```
+```{gclid}:G:s```
 
 dove:
 
@@ -60,9 +58,7 @@ dove:
 
 #### Annunci di ricerca Microsoft Advertising
 
-```
-{msclkid}:G:s
-```
+```{msclkid}:G:s```
 
 dove:
 
@@ -71,9 +67,7 @@ dove:
 
 #### Visualizza annunci e cerca annunci su altri motori di ricerca
 
-```
-<Adobe Advertising visitor ID>:<timestamp>:<channel type>
-```
+```<Adobe Advertising visitor ID>:<timestamp>:<channel type>```
 
 dove:
 
@@ -87,7 +81,7 @@ dove:
    * `i` per un&#39;impressione di un annuncio di visualizzazione DSP (display view-through)
    * `s` per fare clic su un annuncio di ricerca (click-through di ricerca).
 
-Esempio `EF ID: WcmibgAAAHJK1RyY:1551968087687:d`
+Esempio `EF `ID: WcmibgAAAHJK1RyY:1551968087687:d
 
 ### Dimension EF ID in [!DNL Analytics]
 
@@ -103,9 +97,7 @@ L’AMO ID è anche denominato `s_kwcid`, che a volte si pronuncia come &quot;[!
 
 ### Formato AMO ID per [!DNL DSP]
 
-```
-<Channel ID>!<Ad ID>!<Placement ID>
-```
+```<Channel ID>!<Ad ID>!<Placement ID>```
 
 dove:
 
@@ -124,9 +116,7 @@ Esempio di ID AMO: AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
 ID AMO per [!DNL Search] segui un formato distinto per ogni motore di ricerca. Il formato per tutti i motori di ricerca inizia con quanto segue:
 
-```
-AL!{userid}!{sid}
-```
+```AL!{userid}!{sid}```
 
 dove:
 
@@ -138,9 +128,7 @@ Di seguito sono riportati i formati AMO ID completi per un paio di reti di annun
 
 Formato AMO ID per [!DNL Google Ads]:
 
-```
-AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}
-```
+```AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}```
 
 dove:
 
@@ -152,9 +140,7 @@ dove:
 
 Formato AMO ID per [!DNL Microsoft Advertising]:
 
-```
-AL!{userid}!{sid}!{AdId}!{OrderItemId}
-```
+```AL!{userid}!{sid}!{AdId}!{OrderItemId}```
 
 dove:
 

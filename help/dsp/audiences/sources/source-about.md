@@ -2,8 +2,8 @@
 title: Informazioni sull’attivazione dei segmenti autenticati da Audience Sources
 description: Scopri come acquisire segmenti di prime parti da una piattaforma dati del cliente.
 feature: DSP Audiences
-exl-id: 3e6ede23-2b27-4b1d-bfa2-e823824633c4
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Per ulteriori informazioni sulle destinazioni, consulta l’Experience Platform 
 
 1. [Creare una sorgente di pubblico](source-create.md) per importare i tipi di pubblico nel tuo account DSP o un account inserzionista.
 
-1. [Configura un [!DNL Real-Time CDP] connessione di destinazione nell&#39;Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).
+1. [Configura un [!DNL Real-Time CDP] connessione di destinazione nell&#39;Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html).
 
 Per ulteriore assistenza, contatta il tuo [!DNL Adobe] gruppo di account o `adcloud-support@adobe.com`.
 
@@ -42,7 +42,7 @@ Per ulteriore assistenza, contatta il tuo [!DNL Adobe] gruppo di account o `adcl
 >* [Attivare i segmenti autenticati dai partner ID durevoli](source-durable-id.md)
 >* [Creare una sorgente di pubblico per attivare il pubblico di prime parti](source-create.md)
 >* [Impostazioni origine pubblico](source-settings.md)
->* [Adobe Advertising DSP Connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Adobe Advertising DSP Connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html)
 >* Adobe Experience Platform [Panoramica del catalogo delle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 >* [Informazioni sulla gestione dell&#39;audience](/help/dsp/audiences/audience-about.md)
 

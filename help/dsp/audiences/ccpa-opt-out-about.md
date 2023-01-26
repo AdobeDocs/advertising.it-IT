@@ -2,8 +2,8 @@
 title: Informazioni [!UICONTROL CCPA Opt-out-of-Sale] Segmenti e rapporti
 description: Scopri come creare segmenti per tenere traccia degli ID dalle richieste di rifiuto del CCPA e come recuperare i rapporti degli ID.
 feature: CCPA, DSP Segments
-exl-id: 9256d34e-d0dd-4abf-bc96-2b599caf2a8e
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 28b5e00b-a695-46f1-abbf-7bbd78f05411
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Ogni rapporto è disponibile come file di testo separato da tabulazioni compress
 
 >[!MORELIKETHIS]
 >
->* [Adobe di supporto per la pubblicità per il California Consumer Privacy Act: Supporto per rinuncia del consumatore](/help/privacy/ccpa-opt-out-of-sale.md)
+>* [Adobe di supporto per la pubblicità per il California Consumer Privacy Act: Supporto per rinuncia del consumatore](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
 >* [Creare e implementare un [!UICONTROL CCPA Opt-Out-of-Sale] Segmento](ccpa-opt-out-segment-create.md)
 >* [Recuperare i rapporti di rinuncia del consumatore](ccpa-opt-out-segment-report-retrieve.md)
 >* [Informazioni sulla gestione dell&#39;audience](audience-about.md)
