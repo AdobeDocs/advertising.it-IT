@@ -3,7 +3,7 @@ title: Scaricare le impostazioni di posizionamento per una campagna
 description: Scopri come scaricare le impostazioni di posizionamento per una campagna utilizzando i fogli di calcolo del controllo qualità di Excel.
 feature: DSP Placements
 exl-id: c3b0cbf2-7095-4608-977a-9a5dd0bbd585
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%
@@ -20,9 +20,9 @@ Se necessario, puoi modificare in un secondo momento [seleziona campi](qa-sheet-
 
 1. Effettua una delle seguenti operazioni:
 
-   * Accanto al nome della campagna, fai clic su **[!UICONTROL ...]>[!UICONTROL Download Excel QA sheet]**.
+   * Accanto al nome della campagna, fai clic su **[!UICONTROL ...]** > **[!UICONTROL Download Excel QA sheet]**.
 
-   * Fai clic sul nome della campagna per visualizzare i dettagli della campagna. In alto a destra, fai clic su **[!UICONTROL ...]>[!UICONTROL Download Excel QA sheet]**.
+   * Fai clic sul nome della campagna per visualizzare i dettagli della campagna. In alto a destra, fai clic su **[!UICONTROL ...]** > **[!UICONTROL Download Excel QA sheet]**.
 
    Un messaggio di notifica indica quando il file è disponibile per il download.
 

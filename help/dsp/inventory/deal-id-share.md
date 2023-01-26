@@ -3,7 +3,7 @@ title: Modificare gli account con accesso a un'offerta privata
 description: Scopri come condividere e interrompere la condivisione di un accordo privato con account diversi.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 5ddd406d-1ee5-4d13-8e12-be575cbb7551
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -28,9 +28,9 @@ Puoi condividere un ID offerta con più account. L&#39;offerta viene condivisa c
 
 1. Per ogni account da condividere:
 
-1. Inserisci il **[!UICONTROL Email Address]** per l&#39;account con accesso all&#39;offerta.
+   1. Inserisci il **[!UICONTROL Email Address]** per l&#39;account con accesso all&#39;offerta.
 
-1. Clic **[!UICONTROL Share]**.
+   1. Clic **[!UICONTROL Share]**.
 
 ## Interrompere la condivisione di un ID offerta con gli account
 

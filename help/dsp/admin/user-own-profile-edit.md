@@ -2,7 +2,7 @@
 title: Modificare il profilo utente
 description: Scopri come modificare il profilo utente.
 exl-id: 4a140b0a-5860-4b68-820c-03b6bf80254f
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 3%
@@ -22,6 +22,7 @@ Il profilo del tuo account include le tue credenziali di accesso e altre informa
       1. Accanto all&#39;esistente **[!UICONTROL Email address]**, fai clic su **[!UICONTROL Edit]**.
 
       1. Immetti il nuovo indirizzo e-mail e la password esistente per l’account utente.
+
       1. Clic **[!UICONTROL Continue]**.
    * Per modificare la password dell&#39;account utente:
 

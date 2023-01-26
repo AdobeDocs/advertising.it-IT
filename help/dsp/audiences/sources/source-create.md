@@ -3,7 +3,7 @@ title: Creare una sorgente di pubblico per attivare il pubblico di prime parti
 description: Scopri come creare un’origine per importare i tipi di pubblico nel tuo account o in un account inserzionista.
 feature: DSP Audiences
 exl-id: 16eb7cdb-4364-4e94-ba73-0f2d4d200cb9
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Crea un&#39;origine per importare i tipi di pubblico nel tuo account DSP o un ac
 
 1. Ad Experience Platform, crea una connessione di destinazione DSP pubblicità utilizzando [!UICONTROL Source Key] generato nelle impostazioni dell&#39;origine DSP.
 
-Per istruzioni su come attivare la connessione di destinazione DSP, selezionare i segmenti e accedere alle autorizzazioni di controllo, vedere &quot;[Connessione Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
+   Per istruzioni su come attivare la connessione di destinazione DSP, selezionare i segmenti e accedere alle autorizzazioni di controllo, vedere &quot;[Connessione Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
 
 >[!MORELIKETHIS]
 >

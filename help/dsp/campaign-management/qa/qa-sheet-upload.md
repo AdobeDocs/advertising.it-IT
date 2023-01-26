@@ -3,7 +3,7 @@ title: Carica le impostazioni di posizionamento per una campagna
 description: Scopri come caricare le modifiche alle impostazioni di posizionamento chiave per una campagna utilizzando i fogli di calcolo per il controllo qualità di Excel.
 feature: DSP Placements
 exl-id: 0f5fdc7e-3a90-4b4b-a23c-75bed7703100
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%

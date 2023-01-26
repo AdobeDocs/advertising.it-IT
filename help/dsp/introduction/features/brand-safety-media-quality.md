@@ -3,7 +3,7 @@ title: Sicurezza del marchio e qualità dei supporti
 description: Ulteriori informazioni sulla sicurezza del marchio e sulle funzioni di qualità dei supporti.
 feature: DSP Introduction
 exl-id: df5be5d4-490e-479f-b76d-4fda4acd4201
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '1350'
 ht-degree: 0%
