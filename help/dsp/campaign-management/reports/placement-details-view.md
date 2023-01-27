@@ -3,7 +3,7 @@ title: Visualizza i dettagli di Siti, Annunci, Frequenza e Inventario per un pos
 description: Scopri come visualizzare i siti, gli annunci, la frequenza e i dati di inventario mirati per un posizionamento.
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 0%

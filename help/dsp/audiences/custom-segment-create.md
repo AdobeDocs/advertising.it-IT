@@ -3,7 +3,7 @@ title: Creare e implementare un segmento personalizzato
 description: Scopri come creare e implementare un segmento personalizzato per tenere traccia degli utenti esposti agli annunci o agli utenti che visitano le tue pagine web.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Puoi raccogliere i tuoi dati di pubblico di prime parti creando e implementando 
 
    1. Torna a **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
-   2. Posiziona il cursore sulla riga del segmento e fai clic su **[!UICONTROL Get Pixel]**.
+   1. Posiziona il cursore sulla riga del segmento e fai clic su **[!UICONTROL Get Pixel]**.
 
       * Per tenere traccia dei visitatori desktop e mobili su una pagina web:
 

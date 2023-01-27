@@ -3,7 +3,7 @@ title: Condividere un pubblico riutilizzabile
 description: Scopri come condividere un pubblico riutilizzabile con altri inserzionisti disponibili per il tuo account.
 feature: DSP Audiences
 exl-id: c0369efe-464d-43d1-9b21-1113a38fc9bb
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Una volta condiviso un pubblico, non puoi smettere di condividerlo.
 
 1. Tieni il cursore sulla riga del pubblico e fai clic su **[!UICONTROL Share]**.
 
-1. Seleziona l’opzione per **[!UICONTROL Share with all advertisers in my account ]**.
+1. Seleziona l’opzione per **[!UICONTROL Share with all advertisers in my account]**.
 
 1. Clic **[!UICONTROL Save]**.
 

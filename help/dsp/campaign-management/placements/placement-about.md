@@ -3,7 +3,7 @@ title: Informazioni sulla gestione del posizionamento in Advertising DSP
 description: Scopri la gestione del posizionamento.
 feature: DSP Placements
 exl-id: 903ba200-6bb3-4c31-b7a9-03ada3de5451
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 0%
@@ -49,6 +49,5 @@ Per ogni posizionamento, puoi aprire una visualizzazione dettagliata ([la [!UICO
 >* [Creare un posizionamento](placement-create.md)
 >* [Visualizza il registro delle modifiche per un posizionamento](placement-change-log.md)
 >* [Impostazioni di posizionamento](placement-settings.md)
-
-   >*[Risoluzione dei problemi relativi alle prestazioni](/help/dsp/optimization/troubleshooting-performance.md)
+>* [Risoluzione dei problemi relativi alle prestazioni](/help/dsp/optimization/troubleshooting-performance.md)
 

@@ -3,7 +3,7 @@ title: Modificare un annuncio
 description: Scopri come modificare un annuncio.
 feature: DSP Ads
 exl-id: 149eeb61-b4d1-4c88-8dcd-ad11e135a486
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 1. Nel sottomenu, fai clic su **[!UICONTROL Ads]**.
 
-1. Accanto al nome dell’annuncio, fai clic su  **... >[!UICONTROL Edit]**.
+1. Accanto al nome dell’annuncio, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
 1. Modifica le impostazioni dell&#39;annuncio per [annunci audio](ad-settings-audio.md), [TV collegata](ad-settings-connected-tv.md), [annunci display](ad-settings-display.md), [annunci mobile](ad-settings-mobile.md), [annunci nativi](ad-settings-native.md), [annunci pre-scorrimento](ad-settings-pre-roll.md)oppure [annunci video universali](ad-settings-universal-video.md).
 

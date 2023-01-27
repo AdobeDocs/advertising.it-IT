@@ -3,7 +3,7 @@ title: Visualizzare un rapporto dettagliato per una campagna
 description: Scopri come aprire un rapporto a livello di campagna con sezioni su Geografia, Dispositivo, Visualizzabilità e Prestazioni del pubblico.
 feature: DSP Campaigns, DSP Campaign Data Views
 exl-id: ce0d8b44-63cb-47da-adac-d9ae330c52bf
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 0%
@@ -16,8 +16,8 @@ La <!--legacy --> il rapporto a livello di campagna include una panoramica e sez
 
 1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
 1. Effettua una delle seguenti operazioni:
-   * Fai clic su **... >[!UICONTROL View report]** nella barra degli strumenti in alto a destra.
-   * Accanto al nome della campagna, fai clic su  **... >[!UICONTROL View report]**.
+   * Fai clic su **[!UICONTROL ...]** > **[!UICONTROL View report]** nella barra degli strumenti in alto a destra.
+   * Accanto al nome della campagna, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL View report]**.
 
 >[!MORELIKETHIS]
 >

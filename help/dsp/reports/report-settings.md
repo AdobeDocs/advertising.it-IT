@@ -3,7 +3,7 @@ title: Impostazioni report personalizzate
 description: Consulta le descrizioni delle impostazioni dei rapporti personalizzate.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Per applicare uno o più filtri, procedi come segue:
 
 **[!UICONTROL Select To Add As Report Headers]:**  Le colonne di dati, o intestazioni, da includere nel rapporto. Per aggiungere una colonna, espandi la categoria e seleziona la casella di controllo accanto al nome della colonna. Tutte le metriche non disponibili sono disabilitate. Le categorie di dati disponibili includono:
 
-* [!UICONTROL  Dimensions]
+* [!UICONTROL Dimensions]
 * [!UICONTROL Metrics]
 * [!UICONTROL Conversion Metrics] (ordinati per inserzionista)
 * [!UICONTROL Custom Goals] (ordinati per inserzionista)
@@ -142,5 +142,5 @@ Per applicare uno o più filtri, procedi come segue:
 >* [Eseguire un rapporto personalizzato](/help/dsp/reports/report-run-now.md)
 >* [Impostazioni report personalizzate](/help/dsp/reports/report-settings.md)
 >* [Informazioni sulle destinazioni dei rapporti](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [Colonne dei rapporti disponibili](/help/dsp/reports/report-columns.md)
 
-* [Colonne dei rapporti disponibili](/help/dsp/reports/report-columns.md)

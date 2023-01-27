@@ -3,7 +3,7 @@ title: Archiviare o annullare l’archiviazione di una campagna
 description: Scopri come archiviare o annullare l’archiviazione di una campagna.
 feature: DSP Campaigns
 exl-id: 3b1fac7b-1c3e-417e-b6f6-142aa48b1135
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Puoi annullare l’archiviazione di una campagna per ripristinarne lo stato prec
 ## Archiviare una campagna
 
 1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
-1. Accanto al nome della campagna, fai clic su  **... >[!UICONTROL Archive]**.
+1. Accanto al nome della campagna, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. Nel messaggio di conferma, fai clic su **[!UICONTROL Archive]**.
 
 >[!NOTE]
@@ -29,7 +29,7 @@ Puoi annullare l’archiviazione di una campagna per ripristinarne lo stato prec
 ## Annullare l’archiviazione di una campagna
 
 1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
-1. Accanto al nome della campagna, fai clic su  **... >[!UICONTROL Unarchive]**.
+1. Accanto al nome della campagna, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. Nel messaggio di conferma, fai clic su **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]

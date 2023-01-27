@@ -3,7 +3,7 @@ title: Visualizzare un rapporto dettagliato per un annuncio
 description: Scopri come aprire un rapporto a livello di annuncio con i dati Panoramica, Geografia e Visualizzazione.
 feature: DSP Ads, DSP Campaign Data Views
 exl-id: 61e964af-b133-4c86-9672-27167ac6bad1
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 0%
@@ -17,7 +17,7 @@ La <!--legacy --> report a livello di annuncio include [!UICONTROL Overview], [!
 1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
 1. Fai clic sul nome della campagna.
 1. Nel sottomenu, fai clic su **[!UICONTROL Ads]**.
-1. Accanto al nome dell’annuncio, fai clic su  **... >[!UICONTROL View report]**.
+1. Accanto al nome dell’annuncio, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL View report]**.
 
 >[!MORELIKETHIS]
 >

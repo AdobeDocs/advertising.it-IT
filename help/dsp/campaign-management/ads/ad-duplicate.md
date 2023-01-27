@@ -3,7 +3,7 @@ title: Duplicare un annuncio
 description: Scopri come duplicare un annuncio.
 feature: DSP Ads
 exl-id: 030ce258-750c-4c5f-ae89-32dfb2864189
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Puoi duplicare un annuncio all’interno della stessa campagna.
 
 1. Nel sottomenu, fai clic su **[!UICONTROL Ads]**.
 
-1. Accanto al nome dell’annuncio, fai clic su  **... >[!UICONTROL Duplicate]**.
+1. Accanto al nome dell’annuncio, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**.
 
 1. Specifica le nuove impostazioni annuncio:
 

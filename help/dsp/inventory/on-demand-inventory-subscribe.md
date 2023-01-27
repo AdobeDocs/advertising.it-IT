@@ -3,7 +3,7 @@ title: Iscriviti e richiedi l’accesso a [!DNL On Demand] Offerte di magazzino 
 description: Scopri come abbonarti e richiedi l’accesso a[!DNL On Demand] offerte.
 feature: DSP On Demand Inventory
 exl-id: 7f23f989-3c96-475e-9f49-aa9098d24c17
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -36,8 +36,7 @@ Un accordo [approvato](/help/dsp/inventory/on-demand-inventory-view-status.md), 
 
    * Offerte da **[!UICONTROL TV Broadcasters]**
 
-   * Offerte da editori che accettano creativi &quot;sintonizzati&quot;
-      **[!UICONTROL Tune-In]**)
+   * Offerte da editori che accettano creativi &quot;sintonizzati&quot; (**[!UICONTROL Tune-In]**)
 
    * Offerte per le quali l&#39;editore ha applicato più di 21 targeting e accetta annunci pubblicitari (**[!UICONTROL Legal drinking age]**)
 
@@ -65,8 +64,7 @@ Un accordo [approvato](/help/dsp/inventory/on-demand-inventory-view-status.md), 
 
    * Offerte da **[!UICONTROL TV Broadcasters]**
 
-   * Offerte da editori che accettano creativi &quot;sintonizzati&quot;
-      **[!UICONTROL Tune-In]**)
+   * Offerte da editori che accettano creativi &quot;sintonizzati&quot; (**[!UICONTROL Tune-In]**)
 
    * Offerte per le quali l&#39;editore ha applicato più di 21 targeting e accetta annunci pubblicitari (**[!UICONTROL Legal drinking age]**)
 

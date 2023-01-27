@@ -3,7 +3,7 @@ title: Crea un [!UICONTROL Simple Ad Serving] Offerta
 description: Scopri come creare un pixel di tracciamento per un [!UICONTROL Simple Ad Serving] accordo.
 feature: DSP Simple Ad Serving
 exl-id: 77d5dabd-1a0d-4dce-8a9a-8d54a637e15d
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%

@@ -3,7 +3,7 @@ title: Allega un annuncio a un posizionamento
 description: Scopri come allegare un annuncio a un posizionamento.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 1. Nel sottomenu, fai clic su **[!UICONTROL Ads]**.
 
-1. Accanto al nome dell’annuncio, fai clic su  **... >[!UICONTROL Add to Placements]**.
+1. Accanto al nome dell’annuncio, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
 
 1. Nella schermata Inserisci annuncio, effettua una delle seguenti operazioni:
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 
 1. Nel sottomenu, fai clic su **[!UICONTROL Placements]**.
 
-1. Accanto al nome del posizionamento, fai clic su  **... > [!UICONTROL Attach Ads].**
+1. Accanto al nome del posizionamento, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
 
 1. In [!UICONTROL Add Ad to Placement] Esegui una delle seguenti operazioni:
 
@@ -86,6 +86,7 @@ ht-degree: 1%
       1. Clic **[!UICONTROL Select an Ad].**
 
       1. Specifica gli annunci:
+
          * Per aggiungere un annuncio alla volta:
 
             1. Accanto al nome dell’annuncio, fai clic su **[!UICONTROL Select].**
