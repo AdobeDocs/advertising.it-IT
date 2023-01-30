@@ -3,7 +3,7 @@ title: Creare una sorgente di pubblico per attivare il pubblico di prime parti
 description: Scopri come creare un’origine per importare i tipi di pubblico nel tuo account o in un account inserzionista.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 9ca42d078c0d0b6a08d521c8465eca69c2affce5
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
@@ -40,13 +40,13 @@ Crea un&#39;origine per importare i tipi di pubblico nel tuo account DSP o un ac
 
 1. Ad Experience Platform, crea una connessione di destinazione DSP pubblicità utilizzando [!UICONTROL Source Key] generato nelle impostazioni dell&#39;origine DSP.
 
-   Per istruzioni su come attivare la connessione di destinazione DSP, selezionare i segmenti e accedere alle autorizzazioni di controllo, vedere &quot;[Connessione Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html).&quot;
+   Per istruzioni su come attivare la connessione di destinazione DSP, selezionare i segmenti e accedere alle autorizzazioni di controllo, vedere &quot;[Connessione Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
 
 >[!MORELIKETHIS]
 >
 >* [Impostazioni origine pubblico](source-settings.md)
 >* [Informazioni sull’attivazione dei segmenti autenticati da Audience Sources](source-about.md)
 >* [Attivare i segmenti autenticati dai partner ID durevoli](source-durable-id.md)<!-- title?-->
->* [Connessione Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html)
+>* [Connessione Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* [Informazioni sulla gestione dell&#39;audience](/help/dsp/audiences/audience-about.md)
 
