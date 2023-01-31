@@ -2,7 +2,7 @@
 title: Configurare test A/B per Adobe annunci pubblicitari in Adobe Target
 description: Scopri come impostare un test A/B in [!DNL Target] per il tuo DSP e [!DNL Search] annunci pubblicitari.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 69a829a7fda684fcb2d698427f3ef5772d11433d
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 0%
@@ -129,7 +129,7 @@ Le seguenti istruzioni evidenziano informazioni relative al caso d’uso DSP. Pe
 
    >[!NOTE]
    >
-   >Puoi utilizzare più URL per testare l’accesso al sito tramite visualizzazione. Per ulteriori informazioni, consulta &quot;[Attività multipagina](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).&quot; È possibile identificare facilmente le voci principali in base all’URL della pagina creando un [Rapporto voce sito](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-site-entry-reports.html) in Analytics.
+   >Puoi utilizzare più URL per testare l’accesso al sito tramite visualizzazione. Per ulteriori informazioni, consulta &quot;[Attività multipagina](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).&quot; È possibile identificare facilmente le voci principali in base all’URL della pagina creando un [Rapporto voce sito](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-cloud-site-entry-reports.html) in Analytics.
 
 1. In **Obiettivo** , immetti la metrica di successo per il test.
 
