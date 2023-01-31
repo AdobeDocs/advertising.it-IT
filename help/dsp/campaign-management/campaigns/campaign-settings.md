@@ -3,9 +3,9 @@ title: Impostazioni di Campaign
 description: Consulta le descrizioni delle impostazioni della campagna disponibili.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4085c1b21c0fe84653978e449321868921841367
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '928'
 ht-degree: 0%
 
 ---
@@ -150,4 +150,5 @@ Per stimare le imposte da trattenere:
 >* [Informazioni su Campaign Management](campaign-about.md)
 >* [Creare una campagna](campaign-create.md)
 >* [Modificare una campagna](campaign-edit.md)
+>* [Visualizza il registro delle modifiche per una campagna](campaign-change-log.md)
 

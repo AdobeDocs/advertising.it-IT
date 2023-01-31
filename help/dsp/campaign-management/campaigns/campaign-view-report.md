@@ -3,9 +3,9 @@ title: Visualizzare un rapporto dettagliato per una campagna
 description: Scopri come aprire un rapporto a livello di campagna con sezioni su Geografia, Dispositivo, Visualizzabilità e Prestazioni del pubblico.
 feature: DSP Campaigns, DSP Campaign Data Views
 exl-id: ce0d8b44-63cb-47da-adac-d9ae330c52bf
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4085c1b21c0fe84653978e449321868921841367
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -25,4 +25,5 @@ La <!--legacy --> il rapporto a livello di campagna include una panoramica e sez
 >* [Visualizzare un rapporto dettagliato per un annuncio](/help/dsp/campaign-management/ads/ad-view-report.md)
 >* [Informazioni sui report in-Platform](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Informazioni sui report personalizzati](/help/dsp/reports/report-about.md)
+>* [Visualizza il registro delle modifiche per una campagna](campaign-change-log.md)
 
