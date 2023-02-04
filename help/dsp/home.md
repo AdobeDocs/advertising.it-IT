@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 95b704237370057d60cef28013907da8526f32c9
+source-git-commit: 425a5f38582a0c603417b67a665a7919dc26e1ac
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,8 @@ Le seguenti funzioni sono nuove o modificate di recente.
 
 | Data | Funzione | Descrizione | Per Ulteriori Informazioni |
 | ---- | ------- | ----------- | -------------------- |
-| 25 gennaio 2023 | Offerte | Una nuova colonna di spesa &quot;PG Impression Pacing&quot; nei rapporti di visualizzazione Inventario > Offerte in cerca di offerte garantite. | Vedere &quot;[Modificare una vista a colonne personalizzata](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
+| 3 febbraio 2023 | [!UICONTROL Campaigns] | (Funzioni beta) È ora possibile visualizzare i registri delle modifiche nel modulo grafico e aggiungere note a qualsiasi voce. | Vedere &quot;[Visualizza il registro delle modifiche per una campagna](/help/dsp/campaign-management/campaigns/campaign-change-log.md),&quot; Vedi &quot;[Visualizza il registro delle modifiche per un pacchetto](/help/dsp/campaign-management/packages/package-change-log.md),&quot; e Vedere &quot;[Visualizza il registro delle modifiche per un posizionamento](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
+| 25 gennaio 2023 | [!UICONTROL Deals] | Una nuova colonna di spesa &quot;PG Impression Pacing&quot; nei rapporti di visualizzazione Inventario > Offerte in cerca di offerte garantite. | Vedere &quot;[Modificare una vista a colonne personalizzata](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
 | 4 gennaio 2023 | [!UICONTROL Campaigns] | Per ogni campagna è ora disponibile un registro delle modifiche, che mostra le modifiche apportate durante l’intervallo di date selezionato. I registri delle modifiche erano già disponibili per i pacchetti e i posizionamenti. | Vedere &quot;[Visualizza il registro delle modifiche per una campagna](/help/dsp/campaign-management/campaigns/campaign-change-log.md)&quot;.&quot; |
 | 14 dicembre 2022 | Posizionamenti, Annunci | (Funzione open beta) Nuovo &quot;[!UICONTROL Universal Video]&quot; posizionamenti e annunci consentono di eseguire il targeting di più ambienti dispositivo per l’inventario VPAID e VAST utilizzando un singolo posizionamento video.<br><br>I posizionamenti video universali includono un’impostazione &quot;Ambiente dispositivo&quot; per specificare le destinazioni del tipo di dispositivo ([!UICONTROL Desktop], [!UICONTROL Mobile]e [!UICONTROL Connected TV]). Gli annunci video universali possono essere collegati solo a posizionamenti video universali.<br><br>I rapporti personalizzati includono la nuova dimensione a livello di posizionamento &quot;Ambiente dispositivo&quot;. | Vedere &quot;[Impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)&quot; e &quot;[Colonne dei rapporti disponibili](/help/dsp/reports/report-columns.md).&quot;<br><br>Vedi anche &quot;[Impostazioni degli annunci video universali](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)&quot; e &quot;[Creare un annuncio](/help/dsp/campaign-management/ads/ad-create.md).&quot; |
 | 23 novembre 2022 | Offerte | La [!UICONTROL Inventory] > [!UICONTROL Deals] visualizza ora include un &quot;[!UICONTROL Deal Health]&quot;, che indica lo stato di salute di ogni operazione privata: &quot;[!UICONTROL Success]&quot;[!UICONTROL Warning]&quot;[!UICONTROL Critical],&quot; o &quot;[!UICONTROL Unavailable].&quot; Puoi fare clic sullo stato per visualizzare ulteriori dettagli, tra cui il motivo per cui un&#39;offerta non esegue o spende come previsto e i passaggi per la risoluzione dei potenziali problemi. | — |

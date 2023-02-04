@@ -3,22 +3,25 @@ title: Visualizzare un registro delle modifiche del pacchetto
 description: Scopri come visualizzare le modifiche apportate al pacchetto.
 feature: DSP Packages
 exl-id: dd33519b-19cf-4b6f-b6d2-ec0874e27075
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: aa27e2ddf284ceae4555c986674d3d7a8919ddce
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
 
 # Visualizza il registro delle modifiche per un pacchetto
 
-I registri delle modifiche mostrano le modifiche apportate al pacchetto durante l’intervallo di date selezionato, tra cui il nome del pacchetto, il tipo di entità (Pacchetto), il tipo di modifica, i valori nuovi e vecchi, l’utente che ha apportato la modifica e la data.
+I registri delle modifiche mostrano le modifiche apportate al pacchetto durante l’intervallo di date selezionato, tra cui il nome del pacchetto, il tipo di entità (Pacchetto), il tipo di modifica, i valori nuovi e vecchi, l’utente che ha apportato la modifica e la data. Facoltativamente, puoi aggiungere note a qualsiasi voce.
 
 Puoi ordinare i dati in base a qualsiasi colonna, ad eccezione dei valori Nuovo e Valore precedente.
 
 1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
 1. Fai clic sul nome della campagna.
 1. Sulla **[!UICONTROL Packages]** accanto al nome del pacchetto, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
+1. (funzione beta; facoltativo) Per passare dalla visualizzazione dei dati solo in forma di tabella e nei moduli di tabella e grafico, fare clic su ![Vista a tabella e grafico](/help/dsp/assets/table-plus-chart-view.png "Vista a tabella e grafico") o ![Vista a tabella](/help/dsp/assets/table-view.png "Vista a tabella") nella barra degli strumenti in alto a destra.
+1. (funzione beta; (facoltativo) Per aggiungere una nota a una voce, tenere premuto il cursore sul [!UICONTROL Notes] della riga, quindi fare clic su **[!UICONTROL Add Notes]**. Immettere il testo nei campi di input, quindi fare clic su **[!UICONTROL Save]**.
+1. (funzione beta; (facoltativo) Per visualizzare i dettagli di una voce in una finestra popup, tenere premuto il cursore sopra [!UICONTROL Notes] della riga, quindi fare clic su **[!UICONTROL More]>[!UICONTROL View Details]**.
 
 >[!MORELIKETHIS]
 >
