@@ -4,19 +4,19 @@ role: User, Admin
 cloud: Experience Cloud
 solution: Advertising, Advertising Cloud
 product: advertising cloud
-user-guide-title: Guida DSP alla pubblicità
+user-guide-title: Guida di Advertising DSP
 user-guide-description: Scopri le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire e ottimizzare le strategie degli annunci display con Advertising DSP e creare i relativi rapporti.
-breadcrumb-title: Guida DSP
+breadcrumb-title: Guida di DSP
 index: true
-source-git-commit: 4085c1b21c0fe84653978e449321868921841367
+source-git-commit: 85f748bae0efb52e96d8993dcc482b1b969fe6fe
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '879'
+ht-degree: 6%
 
 ---
 
 
-# Guida DSP alla pubblicità {#dsp}
+# Guida di Advertising DSP {#dsp}
 
 <!-- add back to about below "Edit the Advertisers with Access to a Deal ID" when reintroduced:
       + [Edit the Attribute Tags for a Deal ID](/help/dsp/inventory/deal-id-edit-attribute-tags.md)
@@ -106,8 +106,8 @@ ht-degree: 0%
          + [Filtrare i dati della campagna](/help/dsp/campaign-management/reports/campaign-data-filter.md)
          + [Ordinare una colonna](/help/dsp/campaign-management/reports/campaign-data-sort.md)
       + [Gestire le visualizzazioni dati](/help/dsp/campaign-management/reports/campaign-data-visualization-manage.md)
-   + Correzione delle impostazioni di posizionamento per una campagna utilizzando i fogli di calcolo {#qa-spreadsheet}
-      + [Informazioni sulla correzione delle impostazioni di posizionamento per una campagna utilizzando i fogli di calcolo](/help/dsp/campaign-management/qa/qa-about.md)
+   + Correggere le impostazioni di posizionamento utilizzando i fogli di calcolo {#qa-spreadsheet}
+      + [Informazioni sulla correzione delle impostazioni di posizionamento utilizzando i fogli di calcolo](/help/dsp/campaign-management/qa/qa-about.md)
       + [Scaricare le impostazioni di posizionamento per una campagna](/help/dsp/campaign-management/qa/qa-sheet-download.md)
       + [Carica le impostazioni di posizionamento per una campagna](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
       + [Colonne nei fogli di calcolo scaricati/caricati](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
@@ -126,7 +126,7 @@ ht-degree: 0%
    + [Risoluzione dei problemi relativi alle prestazioni](/help/dsp/optimization/troubleshooting-performance.md)
 + Tipi di pubblico {#audiences}
    + [Informazioni sulla gestione dell&#39;audience](/help/dsp/audiences/audience-about.md)
-   + Gestire i segmenti {#segments}
+   + Segmenti {#segments}
       + [Creare e implementare un segmento personalizzato](/help/dsp/audiences/custom-segment-create.md)
       + [!UICONTROL CCPA Opt-out-of-Sale] Segmenti {#ccpa-opt-out-of-sale-segments}
          + [Informazioni [!UICONTROL CCPA Opt-out-of-Sale] Segmenti](/help/dsp/audiences/ccpa-opt-out-about.md)
@@ -136,7 +136,7 @@ ht-degree: 0%
       + [Condividere o interrompere la condivisione di un segmento](/help/dsp/audiences/segment-share.md)
       + [Visualizzare i pixel di tracciamento per un segmento](/help/dsp/audiences/segment-view-pixels.md)
       + [Eliminare un segmento](/help/dsp/audiences/segment-delete.md)
-   + Gestisci audience {#reusable-audiences}
+   + Tipi di pubblico {#reusable-audiences}
       + [Creare un pubblico riutilizzabile](/help/dsp/audiences/reusable-audience-create.md)
       + [Duplicare un pubblico riutilizzabile](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [Modificare un pubblico riutilizzabile](/help/dsp/audiences/reusable-audience-edit.md)
@@ -147,7 +147,7 @@ ht-degree: 0%
       + [Eliminare un pubblico riutilizzabile](/help/dsp/audiences/reusable-audience-delete.md)
       + [Impostazioni del pubblico](/help/dsp/audiences/audience-settings.md)
       + [Sintassi per la logica del segmento di pubblico](/help/dsp/audiences/audience-segment-logic-syntax.md)
-   + Gestisci origini {#sources}
+   + Origini {#sources}
       + [Informazioni sull’attivazione dei segmenti autenticati da Audience Sources](/help/dsp/audiences/sources/source-about.md)
       + [Attivare i segmenti autenticati dai partner ID durevoli](/help/dsp/audiences/sources/source-durable-id.md)
       + [Creare una sorgente di pubblico per attivare il pubblico di prime parti](/help/dsp/audiences/sources/source-create.md)

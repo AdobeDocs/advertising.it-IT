@@ -3,9 +3,9 @@ title: 'Supporto pubblicitario Adobe per il California Consumer Privacy Act : Su
 description: Scopri i tipi di richiesta di dati supportati, i valori di configurazione e campo richiesti e alcuni esempi di richieste di accesso API utilizzando ID di prodotto legacy e i campi di dati restituiti.
 feature: CCPA
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: bc0015c134406fb020370def45a8588b5032587e
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1075'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Per richiedere l’accesso e l’eliminazione delle informazioni personali dei c
    >
    >Le richieste ad alcune soluzioni Experience Cloud non richiedono la libreria JavaScript, ma richieste ad Adobe Advertising lo richiedono.
 
-   Devi distribuire la libreria sulla pagina web dalla quale i clienti possono inviare le richieste di accesso ed eliminazione, ad esempio il portale per la privacy della tua azienda. La libreria consente di recuperare i cookie di Adobe (ID dello spazio dei nomi: `gsurferID`) per poter inviare queste identità come parte delle richieste di accesso ed eliminazione tramite la [!DNL Adobe Experience Platform Privacy Service API].
+   Devi distribuire la libreria sulla pagina web da cui i clienti possono inviare le richieste di accesso ed eliminazione, ad esempio il portale per la privacy della tua azienda. La libreria consente di recuperare i cookie di Adobe (ID dello spazio dei nomi: `gsurferID`) per poter inviare queste identità come parte delle richieste di accesso ed eliminazione tramite la [!DNL Adobe Experience Platform Privacy Service API].
 
    Quando il cliente richiede di eliminare i dati personali, la libreria elimina anche il cookie del cliente dal browser del cliente.
 
