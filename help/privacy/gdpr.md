@@ -3,7 +3,7 @@ title: Supporto pubblicitario Adobe per il regolamento generale sulla protezione
 description: Scopri i tipi di richiesta di dati supportati, i valori di configurazione e campo richiesti e gli esempi di richieste di accesso API utilizzando ID di prodotto legacy e i campi di dati restituiti
 feature: GDPR
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 99ebf339504e053578dc90dbde41437c5f3774f6
+source-git-commit: 7c5472ee97635039a635bcdbd4e0cc384fd04299
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 0%
