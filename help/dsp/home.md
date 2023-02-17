@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 425a5f38582a0c603417b67a665a7919dc26e1ac
+source-git-commit: 4b92f880dbb9edf45b9521fb261cfbeb52a27218
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1213'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Le seguenti funzioni sono nuove o modificate di recente.
 
 | Data | Funzione | Descrizione | Per Ulteriori Informazioni |
 | ---- | ------- | ----------- | -------------------- |
+| 15 febbraio 2023 | [!UICONTROL Campaigns] | Le opzioni per visualizzare i registri delle modifiche nel modulo grafico e aggiungere note a qualsiasi voce non sono disponibili in versione beta. | Vedere &quot;[Visualizza il registro delle modifiche per una campagna](/help/dsp/campaign-management/campaigns/campaign-change-log.md),&quot; Vedi &quot;[Visualizza il registro delle modifiche per un pacchetto](/help/dsp/campaign-management/packages/package-change-log.md),&quot; e Vedere &quot;[Visualizza il registro delle modifiche per un posizionamento](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 3 febbraio 2023 | [!UICONTROL Campaigns] | (Funzioni beta) È ora possibile visualizzare i registri delle modifiche nel modulo grafico e aggiungere note a qualsiasi voce. | Vedere &quot;[Visualizza il registro delle modifiche per una campagna](/help/dsp/campaign-management/campaigns/campaign-change-log.md),&quot; Vedi &quot;[Visualizza il registro delle modifiche per un pacchetto](/help/dsp/campaign-management/packages/package-change-log.md),&quot; e Vedere &quot;[Visualizza il registro delle modifiche per un posizionamento](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 25 gennaio 2023 | [!UICONTROL Deals] | Una nuova colonna di spesa &quot;PG Impression Pacing&quot; nei rapporti di visualizzazione Inventario > Offerte in cerca di offerte garantite. | Vedere &quot;[Modificare una vista a colonne personalizzata](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
 | 4 gennaio 2023 | [!UICONTROL Campaigns] | Per ogni campagna è ora disponibile un registro delle modifiche, che mostra le modifiche apportate durante l’intervallo di date selezionato. I registri delle modifiche erano già disponibili per i pacchetti e i posizionamenti. | Vedere &quot;[Visualizza il registro delle modifiche per una campagna](/help/dsp/campaign-management/campaigns/campaign-change-log.md)&quot;.&quot; |

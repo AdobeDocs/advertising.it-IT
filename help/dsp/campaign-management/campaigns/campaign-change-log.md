@@ -3,9 +3,9 @@ title: Visualizzare un registro delle modifiche di una campagna
 description: Scopri come visualizzare le modifiche apportate alla campagna.
 feature: DSP Campaigns
 exl-id: ba96a277-937a-4475-bab6-6e0a4f5ced13
-source-git-commit: 4c1b94f6cc168f85b0517d77db5398ddaea4a10d
+source-git-commit: 7f8e4f2170e981a1ab8865be731faba2623fd97d
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,16 @@ I registri delle modifiche mostrano le modifiche apportate alla campagna durante
 Puoi ordinare i dati in base a qualsiasi colonna, ad eccezione dei valori Nuovo e Valore precedente.
 
 1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
+
 1. Accanto al nome della campagna, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
-1. (funzione beta; facoltativo) Per passare dalla visualizzazione dei dati solo in forma di tabella e nei moduli di tabella e grafico, fare clic su ![Vista a tabella e grafico](/help/dsp/assets/table-plus-chart-view.png "Vista a tabella e grafico") o ![Vista a tabella](/help/dsp/assets/table-view.png "Vista a tabella") nella barra degli strumenti in alto a destra.
-1. (funzione beta; (facoltativo) Per aggiungere una nota a una voce, tenere premuto il cursore sul [!UICONTROL Notes] della riga, quindi fare clic su **[!UICONTROL Add Notes]**. Immettere il testo nei campi di input, quindi fare clic su **[!UICONTROL Save]**.
-1. (funzione beta; (facoltativo) Per visualizzare i dettagli di una voce in una finestra popup, tenere premuto il cursore sopra [!UICONTROL Notes] della riga, quindi fare clic su **[!UICONTROL More]>[!UICONTROL View Details]**.
+
+1. (Facoltativo) Effettua una delle seguenti operazioni:
+
+   * Per passare dalla visualizzazione dei dati solo nel modulo tabella e nei moduli per tabelle e grafici, fare clic su ![Vista a tabella e grafico](/help/dsp/assets/table-plus-chart-view.png "Vista a tabella e grafico") o ![Vista a tabella](/help/dsp/assets/table-view.png "Vista a tabella") nella barra degli strumenti in alto a destra.
+
+   * Per aggiungere una nota a una voce, tenere premuto il cursore [!UICONTROL Notes] della riga, quindi fare clic su **[!UICONTROL Add Notes]**. Immettere il testo nei campi di input, quindi fare clic su **[!UICONTROL Save]**.
+
+   * Per visualizzare i dettagli di una voce in una finestra a comparsa, tenere premuto il cursore [!UICONTROL Notes] della riga, quindi fare clic su **[!UICONTROL More]>[!UICONTROL View Details]**.
 
 >[!MORELIKETHIS]
 >
