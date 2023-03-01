@@ -5,13 +5,13 @@ cloud: Experience Cloud
 solution: Advertising, Advertising Cloud
 product: advertising cloud
 user-guide-title: Supporto di Adobe Advertising per la privacy del consumatore
-user-guide-description: Scopri i controlli di sicurezza e privacy forniti da Adobe Advertising per aiutare i clienti inserzionisti a rispettare le leggi sulla privacy dei consumatori.
+user-guide-description: Scopri i controlli di sicurezza e di privacy forniti da Adobe Advertising per aiutare i clienti inserzionisti a rispettare le normative sulla privacy dei consumatori.
 breadcrumb-title: Supporto per la privacy del consumatore
 index: true
 source-git-commit: c0dad3f6c5744ec32417e9fe0cab0f328067ae18
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 25%
+ht-degree: 56%
 
 ---
 
