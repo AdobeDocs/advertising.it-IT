@@ -1,63 +1,63 @@
 ---
-title: Informazioni [!DNL On Demand] Inventario Premium
-description: Scopri le offerte che DSP pre-negoziate con i partner di pubblicazione premium.
+title: Informazioni su [!DNL On Demand] Magazzino Premium
+description: Scopri gli accordi che l’DSP ha pre-negoziato con i partner di pubblicazione premium.
 feature: DSP On Demand Inventory
 exl-id: 2e8dd4a0-7a7b-45e9-8f0f-e5435cf0d9ee
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
 
-# Informazioni [!DNL On Demand] Inventario Premium
+# Informazioni su [!DNL On Demand] Magazzino Premium
 
-*Non disponibile per gli utenti con tipi di account [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension]e [!UICONTROL Other]; inserzionisti con la categoria [!UICONTROL Other]; e rivenditori*
+*Non disponibile per gli utenti con i tipi di account [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension], e [!UICONTROL Other]; inserzionisti con la categoria [!UICONTROL Other]; e rivenditori*
 
-La [!DNL On Demand] Gallery è uno strumento premium per l’individuazione dell’inventario per esplorare offerte pre-negoziate che DSP curate con i partner di pubblicazione premium. Ti consente di accedere alle scorte non garantite dagli editori di livello più alto nella regione senza la necessità di negoziazioni o contratti 1:1. Puoi richiedere singole offerte e abbonarti a un editore per richiedere tutte le offerte dell&#39;editore in una sola volta.
+Il [!DNL On Demand] Gallery è uno strumento di scoperta dell&#39;inventario premium per esplorare le offerte pre-negoziate che l&#39;DSP ha curato con i partner di editori premium. Consente di accedere alle scorte non garantite dagli editori di livello superiore nell’area geografica senza la necessità di negoziazioni o contratti 1:1. È possibile richiedere offerte individuali e sottoscrivere un abbonamento a un editore per richiedere tutte le offerte dell&#39;editore contemporaneamente.
 
-Il marketplace premium DSP ti consente di:
+Il mercato premium dell’DSP consente di:
 
-* Attivazione rapida e semplice di nuovi inventari per migliorare la scalabilità e l&#39;efficienza
+* Attivazione rapida e semplice di un nuovo inventario per una maggiore scalabilità ed efficienza
 
-   Studi hanno dimostrato che l&#39;attivazione di offerte di mercato private all&#39;interno di [!DNL DSP] le piattaforme consentono di risparmiare tempo ed è più efficiente.
+   Alcuni studi hanno dimostrato che l&#39;attivazione di offerte di mercato private entro [!DNL DSP] le piattaforme consentono di risparmiare tempo ed è più efficiente.
 
 * Esplora nuovi editori e formati
 
-* Scopri nuovi tipi di pubblico e nuove strategie
+* Scopri nuovi tipi di pubblico e strategie
 
-* Estendere una portata univoca
+* Estendi portata univoca
 
-* Accesso automatico degli editori non disponibili nel mercato aperto
+* Accesso automatico agli editori non disponibile nel mercato aperto
 
-* Accesso automatico agli eventi live (come eventi NBA, NFL e NHL)
+* Accesso automatico agli eventi live (ad esempio eventi NBA, NFL e NHL)
 
-* Tracciare le prestazioni con reporting consolidato
+* Monitoraggio delle prestazioni con reporting consolidato
 
-Una volta approvata, un&#39;offerta è disponibile come target per i posizionamenti esistenti e automaticamente inclusa come target per i nuovi posizionamenti destinati a tutti [!DNL On Demand] inventario. Se una richiesta di offerta viene negata, puoi lavorare con il tuo [!DNL Adobe] team dell&#39;account per risolvere il problema e quindi richiedere nuovamente l&#39;accordo.
+Una volta approvata, un’offerta è disponibile come destinazione per i posizionamenti esistenti e viene inclusa automaticamente come destinazione per i nuovi posizionamenti mirati a tutti [!DNL On Demand] inventario. Se una richiesta di offerta viene rifiutata, puoi collaborare con il team dell’account Adobe per risolvere il problema e quindi richiedere nuovamente l’offerta.
 
-## Visualizzazioni on-demand
+## Visualizzazioni On Demand
 
-A [!UICONTROL Inventory] > [!UICONTROL On Demand], le ultime offerte ed editori <!-- how recent? --> sono disponibili in un carosello nella parte superiore della pagina.
+A [!UICONTROL Inventory] > [!UICONTROL On Demand], le offerte e gli editori più recenti <!-- how recent? --> sono disponibili da un carosello nella parte superiore della pagina.
 
-Sotto il carosello puoi visualizzare tutte le offerte e gli editori disponibili. Puoi passare dalla [!UICONTROL Subscription] visualizza , che mostra tutti gli editori disponibili e ti consente di abbonarti rapidamente a tutte le offerte per un editore e [!UICONTROL Deal] Visualizza, in cui sono elencate tutte le offerte disponibili per ogni editore. Puoi filtrare le visualizzazioni in base a più criteri, ad esempio per includere solo editori o offerte che hai richiesto o per cui le tue richieste sono state approvate.
+Sotto il carosello puoi visualizzare tutte le offerte e gli editori disponibili. È possibile alternare tra [!UICONTROL Subscription] , che mostra tutti gli editori disponibili e consente di sottoscrivere rapidamente tutte le offerte di un editore, e [!UICONTROL Deal] visualizza, che elenca tutte le offerte disponibili per ogni editore. Puoi filtrare le viste in base a più criteri, ad esempio per includere solo editori o offerte richiesti o per i quali le richieste sono state approvate.
 
-I dettagli di ciascuna transazione includono dati nelle colonne seguenti:
+I dettagli di ogni operazione includono i dati nelle colonne seguenti:
 
-* **[!UICONTROL TVB]:** Indica se l&#39;editore è un broadcaster televisivo
-* **[!UICONTROL Tune]:** Indica quando l&#39;editore accetta i creativi &quot;sintonizzati&quot; (per esempio, &quot;Sintonizza stasera alle 21 per il nuovo episodio di \&lt;*il nostro show*\>
-* **[!UICONTROL LDA]:** (età legale per bere) Indica se l&#39;editore ha applicato più di 21 targeting e accetta annunci alcolici
-* **[!UICONTROL CPM]:** Indica se il CPM a tasso minimo o fisso per l&#39;operazione non è visibile finché all&#39;inserzionista non è stato concesso l&#39;accesso all&#39;operazione
-* **[!UICONTROL Status]:** Stato della richiesta di abbonamento (se applicabile)
-* **[!UICONTROL Action]:** Eventuali azioni disponibili possono essere eseguite (ad esempio [!UICONTROL Request] o [!UICONTROL Re-request])
+* **[!UICONTROL TVB]:** Indica se l&#39;editore è un&#39;emittente TV
+* **[!UICONTROL Tune]:** Indica quando l’editore accetta i contenuti &quot;sintonizzati&quot; (ad esempio, &quot;Sintonizzati stasera alle 21:00 per il nuovo episodio di \&lt;*il nostro spettacolo*\>)
+* **[!UICONTROL LDA]:** (età legale per bere) Indica quando l’editore ha applicato il targeting più di 21 volte e accetta annunci pubblicitari contenenti alcol
+* **[!UICONTROL CPM]:** Indica quando la soglia minima o il CPM a tariffa fissa per l’offerta non è visibile finché all’inserzionista non è stato concesso l’accesso all’offerta
+* **[!UICONTROL Status]:** Lo stato della richiesta di abbonamento (se applicabile)
+* **[!UICONTROL Action]:** Qualsiasi azione che puoi intraprendere (ad esempio [!UICONTROL Request] o [!UICONTROL Re-request])
 
 >[!MORELIKETHIS]
 >
->* [Iscriviti e richiedi l’accesso a [!DNL On Demand] Offerte di magazzino Premium](on-demand-inventory-subscribe.md)
->* [Richiedi nuovamente offerte di magazzino Premium On Demand](on-demand-inventory-rerequest.md)
->* [Visualizza lo stato del [!DNL On Demand] Richieste di offerte e abbonamenti](on-demand-inventory-view-status.md)
->* [[!DNL On Demand] Editori Premium di Inventario in Asia Pacifico](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand] Editori Premium di Inventario in Australia e Nuova Zelanda](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] Editori Premium di Inventario in Europa, Medio Oriente e Africa](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand] Editori Premium di Inventario in Nord America](on-demand-inventory-publishers-na.md)
+>* [Iscriviti e richiedi accesso a [!DNL On Demand] Offerte di magazzino Premium](on-demand-inventory-subscribe.md)
+>* [Richiedi nuovamente offerte di magazzino con premio su richiesta](on-demand-inventory-rerequest.md)
+>* [Visualizzare lo stato del [!DNL On Demand] Richieste di opportunità di vendita e abbonamenti](on-demand-inventory-view-status.md)
+>* [[!DNL On Demand] Editori di inventario Premium in Asia Pacifico](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand] Editori di inventario Premium in Australia e Nuova Zelanda](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand] Editori di inventario Premium in Europa, Medio Oriente e Africa](on-demand-inventory-publishers-emea.md)
+>* [[!DNL On Demand] Editori di inventario Premium in Nord America](on-demand-inventory-publishers-na.md)
 

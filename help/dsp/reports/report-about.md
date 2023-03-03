@@ -1,36 +1,36 @@
 ---
 title: Informazioni sui report personalizzati
-description: Scopri le opzioni per la creazione manuale di rapporti personalizzati o l’utilizzo di modelli di rapporti preconfigurati.
+description: Scopri le opzioni per la creazione manuale di rapporti personalizzati o l’utilizzo di modelli di rapporto preconfigurati.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
 
 # Informazioni sui report personalizzati
 
-I rapporti personalizzati ti consentono di personalizzare il contenuto e la consegna dei dati del rapporto utilizzando le dimensioni della campagna (ad esempio l’inserzionista, il posizionamento, i siti o le aree geografiche) e le metriche più importanti per te. Puoi effettuare le seguenti operazioni:
+I rapporti personalizzati ti consentono di personalizzare il contenuto e la consegna dei dati del rapporto utilizzando le dimensioni della campagna (ad esempio inserzionista, posizionamento, siti o geos) e le metriche più importanti per te. Puoi effettuare le seguenti operazioni:
 
-* Configura completamente i rapporti sulle prestazioni della campagna a livello granulare.
-* Scegli tra modelli di report preconfigurati e, facoltativamente, personalizzali ulteriormente.
+* Configurare completamente i rapporti sulle prestazioni delle campagne a livello granulare.
+* Scegli uno dei modelli di rapporto preconfigurati e, facoltativamente, personalizzali ulteriormente.
 
-Puoi generare rapporti una volta oppure pianificarli per la generazione giornaliera, settimanale o mensile alle 03:00 nel fuso orario specificato. Una volta generato, il rapporto viene consegnato a ogni destinatario e-mail specifico o collegato [destinazioni dei rapporti](/help/dsp/reports/report-destinations/report-destination-about.md) dei seguenti tipi:
+Puoi generare i rapporti una volta o pianificarli in modo che vengano generati ogni giorno, ogni settimana o ogni mese alle 03:00 nel fuso orario specificato. Una volta generato, il rapporto viene consegnato a ciascun destinatario e-mail specificato o a un destinatario collegato [destinazioni dei rapporti](/help/dsp/reports/report-destinations/report-destination-about.md) dei seguenti tipi:
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
 * SFTP
-* SSL FTP (in versione beta)
+* FTP SSL (in versione beta)
 
 >[!NOTE]
 >
->Puoi anche visualizzare i dati on-demand a tutti i livelli di una campagna (campagna, pacchetto, posizionamento o annuncio) [nella vista relativa alla gestione della campagna](/help/dsp/campaign-management/reports/campaign-reports-about.md).
+>Puoi anche visualizzare i dati on-demand a tutti i livelli di una campagna (campagna, pacchetto, posizionamento o annuncio) [nella vista gestione campagne pertinente](/help/dsp/campaign-management/reports/campaign-reports-about.md).
 
 ## Tipi di rapporti disponibili
 
-* **[!UICONTROL Custom]:** Questo rapporto è un modello vuoto che puoi utilizzare per creare un rapporto personalizzato utilizzando la maggior parte delle dimensioni e metriche. [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo]e [!UICONTROL Site] i rapporti sono varianti di questo modello con colonne e dimensioni preselezionate per i rispettivi casi d’uso.
+* **[!UICONTROL Custom]:** Questo rapporto è un modello vuoto che puoi utilizzare per creare un rapporto personalizzato utilizzando la maggior parte delle dimensioni e delle metriche. [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], e [!UICONTROL Site] i rapporti sono varianti di questo modello con colonne e dimensioni preselezionate per i rispettivi casi d’uso.
 
 * Modelli di rapporto preconfigurati
 
@@ -38,30 +38,30 @@ Puoi generare rapporti una volta oppure pianificarli per la generazione giornali
 
       >[!NOTE]
       >
-      >Questo rapporto include dati sul segmento di fatturazione. Se a un utente o a un dispositivo viene distribuita un’impression che appartiene a più segmenti, l’impression viene accreditata solo a un segmento fatturabile.
+      >Questo rapporto include dati sul segmento di fatturazione. Se a un utente o a un dispositivo viene trasmessa un’impression che appartiene a più segmenti, a un solo segmento fatturabile viene attribuita l’impression.
 
-   * **[!UICONTROL Conversion]:** Usa questo rapporto per capire le prestazioni delle campagne in base alle metriche di conversione acquisite utilizzando il tracciamento delle conversioni di Adobe Advertising. Questo rapporto include l’attribuzione multi-touch.
+   * **[!UICONTROL Conversion]:** Usa questo rapporto per comprendere le prestazioni delle campagne in base alle metriche di conversione acquisite utilizzando il tracciamento delle conversioni di Adobe Advertising. Questo rapporto include l’attribuzione multi-touch.
 
    * **[!UICONTROL Device]:** Utilizza questo modello precompilato per visualizzare le metriche chiave per dimensioni relative al dispositivo.
 
-   * **[!UICONTROL Frequency (by Impression)]:** Utilizza questo rapporto per comprendere la distribuzione delle impression mostrate a visualizzatori unici (ad esempio, quanti visualizzatori unici hanno visto un’impression, due impression, tre impression e così via). I dati sono disponibili per posizionamento o campagna.
+   * **[!UICONTROL Frequency (by Impression)]:** Utilizza questo rapporto per comprendere la distribuzione delle impression mostrate a visualizzatori univoci (ad esempio, quanti visualizzatori univoci hanno visto una impression, due impression, tre impression e così via). I dati sono disponibili per posizionamento o campagna.
 
       >[!NOTE]
       >
       >* I dati sono disponibili dopo il 1° marzo 2019.
-      >* La frequenza è stimata sulla base di un campionamento dei dati.
-      >* Per alcune scorte, gli editori non trasmettono un identificatore del dispositivo, il che impedisce il tracciamento delle frequenze. Questo rapporto include solo le impression per le quali era disponibile un identificatore dispositivo.
+      >* La frequenza è stimata sulla base di un campionamento di dati.
+      >* Per alcuni inventari, gli editori non trasmettono un identificatore di dispositivo, impedendo così il tracciamento della frequenza. Questo rapporto include solo le impression per le quali era disponibile un identificatore di dispositivo.
 
 
-   * **[!UICONTROL Frequency (by App/Site)]:** Usa questo rapporto per capire quanti utenti univoci sono stati raggiunti dall’app o dal sito. Puoi anche vedere quanti utenti univoci sono stati raggiunti solo tramite una particolare app o sito (&quot;utenti univoci distinti&quot;).
+   * **[!UICONTROL Frequency (by App/Site)]:** Usa questo rapporto per capire quanti utenti univoci sono stati raggiunti dall’app o dal sito. Puoi anche vedere quanti utenti univoci sono stati raggiunti solo tramite un’app o un sito particolare (&quot;utenti univoci distinti&quot;).
 
       >[!NOTE]
       >
       >* I dati sono disponibili dopo il 15 novembre 2018.
-      >* Per alcune scorte private, gli editori non trasmettono un identificatore del dispositivo, il che impedisce il tracciamento delle frequenze.
+      >* Per alcuni inventari privati, gli editori non trasmettono un identificatore di dispositivo, impedendo così il tracciamento della frequenza.
 
 
-   * **[!UICONTROL Geo]**: Utilizza questo modello precompilato per visualizzare le metriche chiave per dimensioni geografiche.
+   * **[!UICONTROL Geo]**: utilizza questo modello precompilato per visualizzare le metriche chiave per dimensioni geografiche.
 
    * **[!UICONTROL Margin]:** Utilizza questo rapporto per visualizzare metriche chiave come margine, profitto e altre metriche di spesa per campagna o posizionamento.
 
@@ -69,25 +69,25 @@ Puoi generare rapporti una volta oppure pianificarli per la generazione giornali
 
       >[!NOTE]
       >
-      >* Questo rapporto ha lo scopo di mostrare le prestazioni dei diversi segmenti di destinazione. Utilizza i dati di appartenenza al segmento. Quando viene trasmessa un’impression a una persona o a un dispositivo appartenente a due o più segmenti di destinazione, questo rapporto include una riga per ciascun segmento. Per questo motivo, i totali in questo rapporto potrebbero non corrispondere alla consegna effettiva.
-      >* Le metriche di conversione e i dati dell’obiettivo personalizzato per i segmenti sono disponibili dopo il 2 agosto 2019. Tutti gli altri dati per i segmenti sono disponibili a partire dal 1° giugno 2018.
+      >* Questo rapporto ha lo scopo di mostrare le prestazioni di diversi segmenti target. Utilizza i dati di appartenenza ai segmenti. Quando un’impression viene trasmessa a una persona o a un dispositivo appartenente a due o più segmenti target, questo rapporto include una riga per ciascun segmento. Per questo motivo, i totali in questo rapporto potrebbero non corrispondere alla consegna effettiva.
+      >* Le metriche di conversione e i dati di obiettivo personalizzati per i segmenti sono disponibili dopo il 2 agosto 2019. Tutti gli altri dati per i segmenti sono disponibili a partire dal 1° giugno 2018.
 
 
-   * **[!UICONTROL Site]:** Per impostazione predefinita, include metriche standard, spesa media totale netta e spesa totale fatturabile netta per sito.
+   * **[!UICONTROL Site]:** Per impostazione predefinita, include le metriche standard, la spesa netta totale per contenuti multimediali e la spesa netta totale fatturabile per sito.
 
 ## Reporting tra account {#cross-account-reporting}
 
-Qualsiasi organizzazione con più account DSP può facoltativamente abilitare i dati tra account nei rapporti personalizzati, in base alle esigenze dell&#39;organizzazione. Ad esempio, puoi concedere l&#39;accesso A al conto B e l&#39;accesso B ai dati del conto C (ma non del conto A). Per abilitare e configurare questa funzione, contatta il tuo [!DNL Adobe] team di account.
+Qualsiasi organizzazione con più account DSP può facoltativamente abilitare i dati tra account diversi nei rapporti personalizzati, in base alle esigenze dell’organizzazione. Ad esempio, puoi concedere all’account A l’accesso ai dati dell’account B e all’account B l’accesso ai dati dell’account C (ma non dell’account A). Per abilitare e configurare questa funzione, contatta il team del tuo account di Adobe.
 
-Una volta che la funzione è abilitata per la tua organizzazione, puoi [filter](report-settings.md) uno dei seguenti tipi di rapporti per account:  [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)]e [!UICONTROL Conversion].
+Una volta abilitata la funzione per la tua organizzazione, puoi [filter](report-settings.md) uno qualsiasi dei seguenti tipi di rapporto per conto:  [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)], e [!UICONTROL Conversion].
 
-Le impostazioni dell&#39;account in [!UICONTROL Settings] > [!UICONTROL Account] indicare a) gli altri account i cui dati sono disponibili per il tuo account e b) gli altri account che possono accedere ai dati del tuo account.
+Impostazioni account in [!UICONTROL Settings] > [!UICONTROL Account] indicare a) gli altri account i cui dati sono disponibili per il tuo account e b) gli altri account che possono accedere ai dati del tuo account.
 
 >[!MORELIKETHIS]
 >
 >* [Creare un rapporto personalizzato](/help/dsp/reports/report-create.md)
->* [Impostazioni report personalizzate](/help/dsp/reports/report-settings.md)
->* [Informazioni sui report in-Platform](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [Colonne dei rapporti disponibili](/help/dsp/reports/report-columns.md)
->* [Informazioni [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [Impostazioni report personalizzati](/help/dsp/reports/report-settings.md)
+>* [Informazioni Sui Rapporti In-Platform](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Colonne report disponibili](/help/dsp/reports/report-columns.md)
+>* [Informazioni su [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
 

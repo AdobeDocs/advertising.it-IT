@@ -1,22 +1,22 @@
 ---
-title: Fornitori di dati di terze parti disponibili in DSP pubblicitarie
+title: Provider di dati di terze parti disponibili in Advertising DSP
 description: Visualizza un elenco di tutti i provider di dati di terze parti disponibili.
 feature: DSP Audiences
 exl-id: 081d1513-b105-4d32-a98c-145c7122cb89
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
 
 <!-- feature: audiences -->
 
-# Fornitori di dati di terze parti disponibili in DSP pubblicitarie
+# Provider di dati di terze parti disponibili in Advertising DSP
 
-Le categorie di dati e i segmenti per i seguenti provider di dati di terze parti sono disponibili come target di posizionamento in DSP. Questi segmenti sono disponibili principalmente per il pubblico statunitense.
+Le categorie di dati e i segmenti per i seguenti fornitori di dati di terze parti sono disponibili come target di posizionamento in DSP. Questi segmenti sono disponibili principalmente per il pubblico statunitense.
 
-La tariffa per l’utilizzo di ciascun segmento viene visualizzata accanto al nome del segmento nelle impostazioni di posizionamento e nelle impostazioni di pubblico salvate.
+La tariffa per l’utilizzo di ciascun segmento viene visualizzata accanto al nome del segmento nelle impostazioni di posizionamento e nelle impostazioni relative al pubblico salvato.
 
 * [!DNL Acxiom]
 * [!DNL Adsquare]
@@ -51,11 +51,11 @@ La tariffa per l’utilizzo di ciascun segmento viene visualizzata accanto al no
 * [!DNL TruSignal]
 * [!DNL Weborama]
 
-Per ulteriori informazioni sull’importazione di segmenti di terze parti personalizzati per il tuo account, contatta il tuo [!DNL Adobe] team di account.
+Per ulteriori informazioni sull’importazione di segmenti personalizzati di terze parti per il tuo account, contatta il team dell’account del tuo Adobe.
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sulla gestione dell&#39;audience](audience-about.md)
+>* [Informazioni su Gestione dell&#39;audience](audience-about.md)
 >* [Creare un pubblico riutilizzabile](reusable-audience-create.md)
->* [Impostazioni del pubblico](audience-settings.md)
+>* [Impostazioni pubblico](audience-settings.md)
 
