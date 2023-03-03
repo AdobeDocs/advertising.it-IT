@@ -3,7 +3,7 @@ title: Informazioni sull’attivazione di segmenti autenticati da origini pubbli
 description: Scopri come acquisire segmenti di prime parti da una piattaforma di dati cliente.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: f6308ac9af8019987f4a2e501cba6b019cb032b6
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Per ulteriori informazioni sulle destinazioni, vedi l’Experience Platform [Gui
 
 <!-- Make sure that titles make the distinctions clear -- everything can't be "Activate XXX." -->
 
-1. [Consentire all’DSP di tradurre i segmenti di dati dei clienti in [!DNL LiveRamp RampIDs]](source-durable-id.md) che sono riconoscibili in un ambiente in cui è possibile fare offerte.<!-- I don't think I need this here: This requires DSP account-level and campaign-level settings to enable segment sharing with [!DNL LiveRamp], which will translate customer data to [!DNL RampIDs] to create targetable segments. Your DSP account team will perform this configuration. -->
+1. [Consentire all’DSP di tradurre i segmenti di dati dei clienti in [!DNL LiveRamp RampIDs]](source-durable-id.md) che sono riconoscibili in un ambiente in cui è possibile fare offerte.<!-- I don't think I need this here: This requires DSP account-level and campaign-level settings to enable segment sharing with [!DNL LiveRamp], which will translate customer data to [!DNL RampIDs] to create targetable segments. Your Adobe Account Team will perform this configuration. -->
 
 1. [Creare un’origine di pubblico](source-create.md) per importare tipi di pubblico sul tuo account DSP o su un account inserzionista.
 
