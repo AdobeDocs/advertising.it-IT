@@ -3,7 +3,7 @@ title: Impostazioni pacchetto
 description: Consulta le descrizioni delle impostazioni del pacchetto disponibili.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 32d74703d9aecbddc5a5f3e0526a2cefbf1f2266
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 0%
@@ -121,5 +121,5 @@ Per ogni volo, immetti la data di inizio, la data di fine e il numero di impress
 >* [Modificare un pacchetto](package-edit.md)
 >* [Allegare un posizionamento a un pacchetto](package-attach-placement.md)
 >* [Visualizza il registro delle modifiche per un pacchetto](package-change-log.md)
->* [Domande frequenti su Campaign Management](/help/dsp/campaign-management/campaign-management-faq.md)
+>* [Domande frequenti su Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
 

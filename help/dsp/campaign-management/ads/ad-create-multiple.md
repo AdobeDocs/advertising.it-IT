@@ -3,9 +3,9 @@ title: Creare più annunci di terze parti
 description: Scopri come creare più annunci di terze parti contemporaneamente.
 feature: DSP Ads
 exl-id: be7c1cc4-3c17-4e37-aae7-c8601d2222a0
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: d072670b26e56e986df2a6690978df1e74237dad
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -64,10 +64,15 @@ Puoi caricare uno dei due [!DNL DoubleClick] e [!DNL Flashtalking] assegnare tag
 
       1. Clic **[!UICONTROL Save & submit for review]**.
 
+>[!NOTE]
+>
+>Gli annunci video universali possono essere allegati solo a posizionamenti video universali.
+
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulla gestione degli annunci](ad-about.md)
 >* [Specifiche degli annunci](ad-specs.md)
 >* [Creare un singolo annuncio](ad-create.md)
 >* [Video: Come caricare in blocco tag di annunci di terze parti](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
+>* [Domande frequenti sui video universali](/help/dsp/campaign-management/faq-universal-video.md)
 

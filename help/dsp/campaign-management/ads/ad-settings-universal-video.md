@@ -3,9 +3,9 @@ title: Impostazioni degli annunci video universali
 description: Consulta le descrizioni delle impostazioni pubblicitarie disponibili per gli annunci video universali.
 feature: DSP Ads
 exl-id: 51b7d632-1e73-4726-980b-07ed50447146
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 0c9e9c8d2a3444c623568d25262421be53c0c846
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 0%
 # Impostazioni degli annunci video universali
 
 *Funzione Open beta*
+
+>[!NOTE]
+>
+>Gli annunci video universali possono essere allegati solo a posizionamenti video universali.
 
 ## [!UICONTROL Insert Ad Tag]
 
@@ -50,7 +54,7 @@ ht-degree: 0%
 
 **[!UICONTROL Video Format]:** Il formato dell&#39;inserzionista per l&#39;inventario potenziale: *[!UICONTROL VPAID]*, *[!UICONTROL VPAID & VAST]* oppure *[!UICONTROL VAST]*. La visualizzabilità viene sempre misurata per [!UICONTROL VPAID], ma [!UICONTROL VPAID & VAST] include inventario che non consente la misurazione della visualizzabilità. Considera questa distinzione se le metriche di visualizzabilità sono importanti per la campagna.
 
-Utilizzo *[!UICONTROL VAST]*, che non consente la misurazione della visualizzabilità, quando si esegue il targeting di un televisore collegato o di un inventario che richiede rigorosamente solo il formato VAST (di solito da fonti di approvvigionamento come Google Ad Manager, Appnexus, SpotX e FreeWheel).
+Utilizzo [!UICONTROL VAST], che non consente la misurazione della visualizzabilità, quando si esegue il targeting di un televisore collegato o di un inventario che richiede rigorosamente solo il formato VAST (di solito da fonti di approvvigionamento come Google Ad Manager, Appnexus, SpotX e FreeWheel). Utilizza anche questa opzione per l’inventario che era compatibile in precedenza con posizionamenti/annunci pre-roll standard (VAST) o telefono + tablet standard pre-roll (VAST).
 
 **[!UICONTROL Clock Number]**: (Utilizzato solo nel Regno Unito; disponibile solo per gli utenti con autorizzazione) Un identificatore univoco utilizzato per garantire la trasmissione dell&#39;annuncio corretto. Se questa impostazione non è applicabile, lasciala vuota.
 
@@ -72,6 +76,7 @@ Le seguenti impostazioni si applicano a ogni pixel creato o modificato.
 
 >[!MORELIKETHIS]
 >
+>* [Domande frequenti sui video universali](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Informazioni sulla gestione degli annunci](ad-about.md)
 >* [Creare un singolo annuncio](ad-create.md)
 >* [Elencare i posizionamenti associati a un annuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
