@@ -2,14 +2,14 @@
 title: Domande frequenti sui video universali
 description: Ulteriori informazioni sugli annunci video universali.
 feature: DSP Placements, DSP Ads
-source-git-commit: 8e0237355e834f4ae2b9ef1ed211e047b41cafe7
+source-git-commit: fe5340cbf495eb9498d89c18080307464d4067d9
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# # Domande frequenti sul video universale
+# Domande frequenti sul video universale
 
 ## Come si creano posizionamenti video universali e annunci?
 
@@ -23,7 +23,11 @@ Crea in modo simile a come crei altri tipi di posizionamenti e video:
 
 1. Nella stessa campagna del posizionamento video universale, [creare un singolo annuncio video universale](/help/dsp/campaign-management/ads/ad-create.md) o [creare più annunci video universali](/help/dsp/campaign-management/ads/ad-create-multiple.md).
 
-   Se crei più annunci, assicurati di specificare &quot;[!UICONTROL Universal Video]&quot; come [!UICONTROL Ad Type]. Per [!DNL Google] o [!DNL Flashtalking] annunci, dopo aver caricato il file, fai clic sul campo Tipo di annuncio nel &quot;[!UICONTROL Review ad types]&quot; e modificarlo. Per altri tipi di tag annuncio, specifica il tipo di annuncio all’interno del file foglio di calcolo caricato.
+   Se crei più annunci, assicurati di specificare &quot;[!UICONTROL Universal Video]&quot; come [!UICONTROL Ad Type]:
+
+   * Per [!DNL Google] o [!DNL Flashtalking] annunci: In &quot;[!UICONTROL Review ad types]&quot; dopo aver caricato il file, fai clic sul **[!UICONTROL Ad Type]** campo e seleziona **[!UICONTROL Universal Video]**.
+
+   * Per altri tipi di tag di annunci: Nel file del foglio di calcolo caricato, specifica il campo Tipo di annuncio per ogni annuncio come **[!UICONTROL Universal Video]**.
 
 1. [Apri le impostazioni dell’annuncio](/help/dsp/campaign-management/ads/ad-edit.md) per ogni nuovo annuncio e seleziona il formato video applicabile:
 
