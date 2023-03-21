@@ -3,7 +3,7 @@ title: Supporto pubblicitario Adobe per il regolamento generale sulla protezione
 description: Scopri i tipi di richiesta di dati supportati, i valori di configurazione e campo richiesti e gli esempi di richieste di accesso API utilizzando ID di prodotto legacy e i campi di dati restituiti
 feature: GDPR
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 7c5472ee97635039a635bcdbd4e0cc384fd04299
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Supporto pubblicitario Adobe per il regolamento generale sulla protezione dei dati
 
-*Per [!DNL Adobe Advertising Search]; DSP pubblicitaria Adobe; Adobe Advertising Creative; e Adobe Advertising DCO*
+*Per [!DNL Adobe Advertising Search, Social, & Commerce]; DSP pubblicitaria Adobe; Adobe Advertising Creative; e Adobe Advertising DCO*
 
 >[!IMPORTANT]
 >
@@ -22,7 +22,7 @@ Il Regolamento generale sulla protezione dei dati (RGPD), una legge in vigore da
 
 Adobe Experience Cloud agisce come responsabile del trattamento dei dati personali ricevuti e archiviati per conto dei propri clienti. In qualità di titolare del trattamento dei dati, l’utente determina i dati personali elaborati e archiviati da Adobe Experience Cloud per suo conto.
 
-Questo documento descrive come [!DNL Advertising Search]; Advertising Creative; DSP pubblicitario (Demand Side Platform); e [!DNL Advertising DCO] supporta i diritti di accesso e cancellazione dei dati degli interessati in base al RGPD tramite l’API di Adobe Experience Platform Privacy Service e l’interfaccia utente di Privacy Service.
+Questo documento descrive come [!DNL Advertising Search, Social, & Commerce]; Advertising Creative; DSP pubblicitario (Demand Side Platform); e [!DNL Advertising DCO] supporta i diritti di accesso e cancellazione dei dati degli interessati in base al RGPD tramite l’API di Adobe Experience Platform Privacy Service e l’interfaccia utente di Privacy Service.
 
 Per ulteriori informazioni sul significato del RGPD per la tua azienda, consulta [RGPD e la tua azienda](https://www.adobe.com/privacy/general-data-protection-regulation.html).
 
@@ -30,8 +30,8 @@ Per ulteriori informazioni sul significato del RGPD per la tua azienda, consulta
 
 Adobe Experience Platform consente alle aziende di completare le seguenti attività:
 
-* Accedi ai dati a livello di cookie di una persona interessata o ai dati a livello di ID dispositivo (per gli annunci nelle app mobili) all&#39;interno di [!DNL Search], [!DNL Creative], [!DNL DSP]oppure [!DNL DCO].
-* Elimina i dati a livello di cookie memorizzati in [!DNL Search], [!DNL Creative], [!DNL DSP]oppure [!DNL DCO] per le persone interessate che utilizzano un browser; o elimina i dati a livello di ID memorizzati in [!DNL DSP] per le persone interessate che utilizzano app su dispositivi mobili.
+* Accedi ai dati a livello di cookie di una persona interessata o ai dati a livello di ID dispositivo (per gli annunci nelle app mobili) all&#39;interno di [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]oppure [!DNL DCO].
+* Elimina i dati a livello di cookie memorizzati in [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]oppure [!DNL DCO] per le persone interessate che utilizzano un browser; o elimina i dati a livello di ID memorizzati in [!DNL DSP] per le persone interessate che utilizzano app su dispositivi mobili.
 * Controlla lo stato di una o tutte le richieste esistenti.
 
 ## Configurazione necessaria per inviare richieste per Adobe di pubblicità
@@ -50,7 +50,7 @@ Per richiedere l’accesso e l’eliminazione di dati per Adobe Advertising, è 
 
    >[!NOTE]
    >
-   >L’eliminazione dei dati personali è diversa dalla rinuncia, che interrompe il targeting di un utente finale con segmenti di pubblico. Tuttavia, quando una persona interessata chiede di cancellare i dati personali da [!DNL Creative], [!DNL DSP]oppure [!DNL DCO], la libreria invia anche una richiesta ad Adobe Advertising per rifiutare la persona interessata dal targeting dei segmenti. Per gli inserzionisti con [!DNL Search], ti consigliamo di fornire alle persone interessate un collegamento a [https://www.adobe.com/privacy/opt-out.html](https://www.adobe.com/privacy/opt-out.html), che spiega come rinunciare al targeting per segmenti di pubblico.
+   >L’eliminazione dei dati personali è diversa dalla rinuncia, che interrompe il targeting di un utente finale con segmenti di pubblico. Tuttavia, quando una persona interessata chiede di cancellare i dati personali da [!DNL Creative], [!DNL DSP]oppure [!DNL DCO], la libreria invia anche una richiesta ad Adobe Advertising per rifiutare la persona interessata dal targeting dei segmenti. Per gli inserzionisti con [!DNL Search, Social, & Commerce], ti consigliamo di fornire alle persone interessate un collegamento a [https://www.adobe.com/privacy/opt-out.html](https://www.adobe.com/privacy/opt-out.html), che spiega come rinunciare al targeting per segmenti di pubblico.
 
 1. Identifica l’ID organizzazione Experience Cloud e accertati che sia collegato ai tuoi account Adobe Advertising.
 
@@ -58,7 +58,7 @@ Per richiedere l’accesso e l’eliminazione di dati per Adobe Advertising, è 
 
    >[!IMPORTANT]
    >
-   >Contatta il rappresentante pubblicitario Adobe della tua azienda per confermare che tutti gli account pubblicitari Adobi della tua organizzazione, compresi [!DNL DSP] account o inserzionisti, [!DNL Search] conti e [!DNL Creative] o [!DNL DCO] account - sono collegati all&#39;ID organizzazione Experience Cloud.
+   >Contatta il rappresentante pubblicitario Adobe della tua azienda per confermare che tutti gli account pubblicitari Adobi della tua organizzazione, compresi [!DNL DSP] account o inserzionisti, [!DNL Search, Social, & Commerce] conti e [!DNL Creative] o [!DNL DCO] account - sono collegati all&#39;ID organizzazione Experience Cloud.
 
 1. Utilizza [API Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (per le richieste automatizzate) o [Interfaccia utente di Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html) (per richieste ad hoc) per inviare le richieste di accesso ed eliminazione ad Adobe Advertising per conto delle persone interessate e per controllare lo stato delle richieste esistenti.
 
@@ -69,7 +69,7 @@ Per richiedere l’accesso e l’eliminazione di dati per Adobe Advertising, è 
    Quando invii una richiesta di cancellazione dell’interessato, l’ID cookie o l’ID dispositivo e tutti i dati relativi a costi, clic e ricavi associati al cookie vengono eliminati dal server.
 
    >[!NOTE]
-   Se la tua azienda dispone di più ID organizzazione Experience Cloud, devi inviare richieste API separate per ciascuna di esse. Tuttavia puoi effettuare una richiesta API a più soluzioni secondarie di Adobe Advertising ([!DNL Search], [!DNL Creative], [!DNL DSP]e [!DNL DCO]), con un account per soluzione secondaria.
+   Se la tua azienda dispone di più ID organizzazione Experience Cloud, devi inviare richieste API separate per ciascuna di esse. Tuttavia puoi effettuare una richiesta API a più soluzioni secondarie di Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]e [!DNL DCO]), con un account per soluzione secondaria.
 
 Tutti questi passaggi sono necessari per Adobe la pubblicità. Per ulteriori informazioni su queste e altre attività correlate che devi eseguire utilizzando Adobe Experience Platform Privacy Service e su dove trovare gli elementi necessari, vedi [www.adobe.io/apis/cloudplatform/gdpr.html](https://www.adobe.io/apis/experienceplatform/gdpr.html).
 

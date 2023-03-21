@@ -3,16 +3,16 @@ title: Segmenti di stato accettabili per la pubblicità di Adobe
 description: Consulta le linee guida per segmenti di pubblico accettabili relativi allo stato e tattiche da utilizzare come alternative per il targeting di segmenti di pubblico correlati allo stato.
 feature: Policies
 exl-id: 121129e3-3d4b-4478-9cfd-cb16c1eb67de
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Linee guida per i segmenti di stato accettabili per la pubblicità in Adobe
 
-*Ad Adobe DSP pubblicitarie e[!DNL Adobe Advertising Search]*
+*Ad Adobe DSP pubblicitarie e[!DNL Adobe Advertising Search, Social, & Commerce]*
 
 Le seguenti linee guida delineano segmenti di pubblico inaccettabili e accettabili relativi allo stato di salute. Inoltre, consigliano tattiche da utilizzare come alternative per il targeting di segmenti di pubblico correlati allo stato.
 

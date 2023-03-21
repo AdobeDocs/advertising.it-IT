@@ -1,7 +1,7 @@
 ---
 title: Impostazioni account inserzionista
 description: Consulta le descrizioni delle impostazioni dell’inserzionista disponibili.
-source-git-commit: 0b5e60f033d623bb6d342c6b56cb98f0bfcde916
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -38,11 +38,11 @@ Gli inserzionisti con prodotti Adobe Experience Cloud aggiuntivi possono condivi
 
 (Facoltativo) Prodotti di Experience Cloud aggiuntivi collegati all’account DSP. I prodotti devono essere associati allo stesso ID organizzazione Experience Cloud fornito nel [!UICONTROL Adobe IMS IDs] sezione .
 
-**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Inserzionisti con [!DNL Adobe Advertising Search] o che utilizzano pixel di conversione della pubblicità di Adobe) A [!DNL Search] account con cui DSP scambiare i dati di attribuzione.
+**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Inserzionisti con [!DNL Advertising Search, Social, & Commerce] o che utilizzano pixel di conversione della pubblicità di Adobe) A [!DNL Search, Social, & Commerce] account con cui DSP scambiare i dati di attribuzione.
 
 **[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (inserzionisti con Adobe Analytics; facoltativo; applicabile solo ai dati raccolti utilizzando tag di monitoraggio delle conversioni di Adobe Advertising che includono [!DNL EF Redirect] e solo token) Uno o più [!DNL Analytics] suite di rapporti a cui DSP invierà i dati raccolti dagli editori e dai partner lato offerta. Analytics invierà inoltre i dati raccolti dal sito del cliente a DSP.
 
-Affinché i dati vengano visualizzati nelle suite di rapporti, la [!DNL Search] impostazione a livello di inserzionista su &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; deve essere abilitato. Inoltre, l&#39;inserzionista [!DNL Analytics] l’account deve essere configurato per ricevere dati da Adobe Advertising.
+Affinché i dati vengano visualizzati nelle suite di rapporti, la [!DNL Search, Social, & Commerce] impostazione a livello di inserzionista su &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; deve essere abilitato. Inoltre, l&#39;inserzionista [!DNL Analytics] l’account deve essere configurato per ricevere dati da Adobe Advertising.
 
 >[!WARNING]
 >
