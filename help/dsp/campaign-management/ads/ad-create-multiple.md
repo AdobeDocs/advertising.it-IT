@@ -3,9 +3,9 @@ title: Creare più annunci di terze parti
 description: Scopri come creare più annunci di terze parti contemporaneamente.
 feature: DSP Ads
 exl-id: be7c1cc4-3c17-4e37-aae7-c8601d2222a0
-source-git-commit: d072670b26e56e986df2a6690978df1e74237dad
+source-git-commit: 5139e6022cd5f5f11046d8f38bd0f1db91464928
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,10 @@ Puoi caricare uno dei due [!DNL DoubleClick] e [!DNL Flashtalking] assegnare tag
 1. Al termine del caricamento, fai clic su **[!UICONTROL Start Building Ads]**.
 
 1. Rivedi i dettagli e lo stato di ciascun annuncio:
+
+   1. (Annunci video universali con [!DNL Google] o [!DNL Flashtalking] tag) Fai clic sul pulsante **[!UICONTROL Ad Type]** campo e seleziona **[!UICONTROL Universal Video]**.
+
+   1. (Annunci video universali) Per ogni nuovo annuncio, fai clic su ![modifica](/help/dsp/assets/edit.png), seleziona [formato video applicabile](/help/dsp/campaign-management/ads/ad-settings-universal-video.md), quindi fai clic su **Salva**.
 
    1. Rivedi lo stato di ciascun annuncio, basato sui controlli di convalida sul tag caricato.
 
