@@ -47,7 +47,7 @@ Questo caso d’uso richiede i seguenti prodotti e integrazioni:
 
 ![Framework Click-through](/help/integrations/assets/target-ct-framework.png)
 
-Quando si aggiungono macro DSP a un URL click-through (l&#39;URL visualizzato quando un utente fa clic su un annuncio e raggiunge la pagina di destinazione), DSP acquisisce automaticamente la chiave di posizionamento includendo `${TM_PLACEMENT_ID}` nell’URL di click-through. Questa macro acquisisce il tasto di posizionamento alfanumerico e non l’ID di posizionamento numerico.
+Quando si aggiungono DSP macro a un URL click-through (l&#39;URL visualizzato quando un utente fa clic su un annuncio e raggiunge la pagina di destinazione), DSP acquisisce automaticamente la chiave di posizionamento includendo `${TM_PLACEMENT_ID}` nell’URL di click-through. Questa macro acquisisce il tasto di posizionamento alfanumerico e non l’ID di posizionamento numerico.
 
 ![URL di click-through aggiunto all’URL della pagina di destinazione](/help/integrations/assets/target-ct-url.jpg)
 

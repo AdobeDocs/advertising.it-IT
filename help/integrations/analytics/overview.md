@@ -5,7 +5,7 @@ feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
 source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---
