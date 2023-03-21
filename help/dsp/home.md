@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 4b92f880dbb9edf45b9521fb261cfbeb52a27218
+source-git-commit: dc4ff4e836d1fba7fdf54bf3aa8e18dae3c5e24f
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1230'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Le seguenti funzioni sono nuove o modificate di recente.
 
 | Data | Funzione | Descrizione | Per Ulteriori Informazioni |
 | ---- | ------- | ----------- | -------------------- |
+| 20 marzo 2023 | [!UICONTROL Campaigns] | Ulteriori informazioni sui posizionamenti video universali e sugli annunci, che sono una funzione beta aperta. | Vedere &quot;[Domande frequenti sul video universale](/help/dsp/campaign-management/faq-universal-video.md).&quot; |
 | 15 febbraio 2023 | [!UICONTROL Campaigns] | Le opzioni per visualizzare i registri delle modifiche nel modulo grafico e aggiungere note a qualsiasi voce non sono disponibili in versione beta. | Vedere &quot;[Visualizza il registro delle modifiche per una campagna](/help/dsp/campaign-management/campaigns/campaign-change-log.md),&quot; Vedi &quot;[Visualizza il registro delle modifiche per un pacchetto](/help/dsp/campaign-management/packages/package-change-log.md),&quot; e Vedere &quot;[Visualizza il registro delle modifiche per un posizionamento](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 3 febbraio 2023 | [!UICONTROL Campaigns] | (Funzioni beta) È ora possibile visualizzare i registri delle modifiche nel modulo grafico e aggiungere note a qualsiasi voce. | Vedere &quot;[Visualizza il registro delle modifiche per una campagna](/help/dsp/campaign-management/campaigns/campaign-change-log.md),&quot; Vedi &quot;[Visualizza il registro delle modifiche per un pacchetto](/help/dsp/campaign-management/packages/package-change-log.md),&quot; e Vedere &quot;[Visualizza il registro delle modifiche per un posizionamento](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 25 gennaio 2023 | [!UICONTROL Deals] | Una nuova colonna di spesa &quot;PG Impression Pacing&quot; nei rapporti di visualizzazione Inventario > Offerte in cerca di offerte garantite. | Vedere &quot;[Modificare una vista a colonne personalizzata](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
@@ -49,7 +50,7 @@ Le seguenti funzioni sono nuove o modificate di recente.
 |  | [!DNL Freewheel] offerte programmatiche garantite | Ora puoi inviare annunci e controllare lo stato degli annunci per [!DNL Freewheel] offerte programmatiche garantite dal [!UICONTROL Ads] visualizza. In precedenza, era possibile eseguire entrambe le operazioni solo dal [!UICONTROL Deals] visualizza. | Vedere &quot;[Invia un annuncio per un&#39;offerta garantita a livello di programmazione a [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)" and "[Check the Status of Ads for [!DNL Freewheel] Offerte garantite programmatiche](/help/dsp/inventory/freewheel-check-status.md).&quot; |
 | 7 ottobre 2021 | Aiuto | Tutto [Documentazione DSP e di altro Adobe sulla pubblicità](https://experienceleague.adobe.com/docs/advertising.html) su [!DNL Experience League] ora è tradotto automaticamente in tutte le lingue disponibili. Per modificare la lingua visualizzata, utilizzare il menu &quot;Cambia lingua&quot; in basso a sinistra di qualsiasi pagina.<br>![Cambia lingua](/help/dsp/assets/change-language.png) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 <!-- older entries:
 

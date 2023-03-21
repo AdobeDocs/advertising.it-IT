@@ -2,14 +2,14 @@
 title: Domande frequenti sui video universali
 description: Ulteriori informazioni sugli annunci video universali.
 feature: DSP Placements, DSP Ads
-source-git-commit: 58cbb5b85a1dc790aaf762ba55fd2badeef6fe68
+source-git-commit: 1740c4ca3f70a0e3edb7e4ebaea0be3f0b731b16
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
 
 ---
 
-# Domande frequenti sul video universale
+# Domande frequenti sui video universali
 
 ## Come si creano posizionamenti video universali e annunci?
 
