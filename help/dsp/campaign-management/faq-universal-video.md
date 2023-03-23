@@ -2,7 +2,7 @@
 title: Domande frequenti sui video universali
 description: Ulteriori informazioni sugli annunci video universali.
 feature: DSP Placements, DSP Ads
-source-git-commit: 17a47e9d7ddb18b36da998d289f949e540beded8
+source-git-commit: 2caacfcbdb3c9d0d91ca26829de5829654f9ab8a
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Domande frequenti sui video universali
 
-[Annunci video universali](/help/dsp/campaign-management/ads/ad-about.md) consente di eseguire il targeting dell’inventario video da ambienti desktop, mobili e TV connessi per l’inventario VPAID e VAST utilizzando un unico posizionamento video.
+[Annunci video universali](/help/dsp/campaign-management/ads/ad-about.md#ad-types) consente di eseguire il targeting dell’inventario video da ambienti desktop, mobili e TV connessi per l’inventario VPAID e VAST utilizzando un unico posizionamento video.
 
 ## Come si creano posizionamenti video universali e annunci?
 
