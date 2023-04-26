@@ -2,7 +2,7 @@
 title: Informazioni sugli elenchi bloccati a livello di account e di inserzionista
 description: Ulteriori informazioni sull'elenco dei siti bloccati per un account o un inserzionista.
 exl-id: e147159b-54f2-492b-8dbc-054b97897fa6
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: bd667a01a0579c1523dc975bffd3560ac2a056db
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%
