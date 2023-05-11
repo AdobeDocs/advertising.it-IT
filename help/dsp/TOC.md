@@ -8,9 +8,9 @@ user-guide-title: Guida di Advertising DSP
 user-guide-description: Scopri le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire e ottimizzare le strategie degli annunci display con Advertising DSP e creare i relativi rapporti.
 breadcrumb-title: Guida di DSP
 index: true
-source-git-commit: d44b3834240e13904718912ac62df7c8fdbee963
+source-git-commit: ce26d622bde31f289466c581a85724b93e4eae62
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '887'
 ht-degree: 6%
 
 ---
@@ -208,6 +208,7 @@ ht-degree: 6%
    + [Eseguire un rapporto personalizzato](/help/dsp/reports/report-run-now.md)
    + [Impostazioni report personalizzate](/help/dsp/reports/report-settings.md)
    + [Colonne dei rapporti disponibili](/help/dsp/reports/report-columns.md)
+   + [Domande frequenti sulle [!UICONTROL Household] Rapporto](/help/dsp/reports/faq-household-report.md)
    + Destinazioni report {#report-destinations}
       + [Informazioni [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
       + [Crea un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)

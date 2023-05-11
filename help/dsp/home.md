@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: dc4ff4e836d1fba7fdf54bf3aa8e18dae3c5e24f
+source-git-commit: f8523b9157eb13ea0999d10dd19e9645906c50d0
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Le seguenti funzioni sono nuove o modificate di recente.
 
 | Data | Funzione | Descrizione | Per Ulteriori Informazioni |
 | ---- | ------- | ----------- | -------------------- |
+| Marzo 2023 | [!UICONTROL Reports] | Nuovo [!UICONTROL Household Report] mostra impression, portata e frequenza tra varie dimensioni a livello di famiglia in base all’indirizzo IP, anziché a livello di dispositivo/cookie. Il rapporto comprende nove dimensioni: [!UICONTROL Campaign], [!UICONTROL Package], [!UICONTROL Placement], [!UICONTROL Site/Apps], [!UICONTROL Media Type], [!UICONTROL Device], [!UICONTROL Audience], [!UICONTROL Creative Length]e creati dall&#39;utente [!UICONTROL Tags]. | Vedere &quot;[Informazioni sui report](/help/dsp/reports/report-about.md)&quot;[Impostazioni dei rapporti](/help/dsp/reports/report-settings.md),&quot; e &quot;[Domande frequenti sulle [!UICONTROL Household] Rapporto](/help/dsp/reports/faq-household-report.md).&quot; |
 | 20 marzo 2023 | [!UICONTROL Campaigns] | Ulteriori informazioni sui posizionamenti video universali e sugli annunci, che sono una funzione beta aperta. | Vedere &quot;[Domande frequenti sul video universale](/help/dsp/campaign-management/faq-universal-video.md).&quot; |
 | 15 febbraio 2023 | [!UICONTROL Campaigns] | Le opzioni per visualizzare i registri delle modifiche nel modulo grafico e aggiungere note a qualsiasi voce non sono disponibili in versione beta. | Vedere &quot;[Visualizza il registro delle modifiche per una campagna](/help/dsp/campaign-management/campaigns/campaign-change-log.md),&quot; Vedi &quot;[Visualizza il registro delle modifiche per un pacchetto](/help/dsp/campaign-management/packages/package-change-log.md),&quot; e Vedere &quot;[Visualizza il registro delle modifiche per un posizionamento](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 3 febbraio 2023 | [!UICONTROL Campaigns] | (Funzioni beta) È ora possibile visualizzare i registri delle modifiche nel modulo grafico e aggiungere note a qualsiasi voce. | Vedere &quot;[Visualizza il registro delle modifiche per una campagna](/help/dsp/campaign-management/campaigns/campaign-change-log.md),&quot; Vedi &quot;[Visualizza il registro delle modifiche per un pacchetto](/help/dsp/campaign-management/packages/package-change-log.md),&quot; e Vedere &quot;[Visualizza il registro delle modifiche per un posizionamento](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
