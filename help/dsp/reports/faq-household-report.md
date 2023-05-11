@@ -1,9 +1,9 @@
 ---
 title: Domande frequenti sulle [!UICONTROL Household] Rapporto
 description: Ulteriori informazioni sulle [!UICONTROL Household] , compreso il modo in cui si differenzia dagli altri rapporti e la risoluzione dei problemi.
-source-git-commit: d88ea4ab2ad4a2ee54475346a24724b766b024fc
+source-git-commit: 95f81dafbe13f40487bad47f7dd41a6c80c589ee
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -34,13 +34,13 @@ Le metriche di conversione e gli obiettivi personalizzati non sono supportati.
 
 ## Qual è la differenza tra le metriche di sovrapposizione e non di sovrapposizione?
 
-La figura seguente mostra tre metriche (Univoco famiglia, Famiglia incrementale e Famiglia incrementale (sovrapposizione)) per tre campagne (A, B e C).
+La figura seguente mostra tre metriche (Univoco Famiglia raggiunta, Famiglia incrementale raggiunta e Famiglia incrementale (sovrapposizione)) per tre campagne (A, B e C).
 
 ![Illustrazione delle metriche di sovrapposizione delle famiglie](/help/dsp/assets/household-overlap-metrics-illustration.png "Illustrazione delle metriche di sovrapposizione delle famiglie")
 
-* La pagina Univoco Raggiunto (Totale) fornisce la famiglia Univoca raggiunta da ciascuna campagna o l’area totale di ciascuno dei cerchi. Nella figura, Famiglia unica raggiunta da A = Famiglia incrementale raggiunta da A + (A+C) + (A+B) +(A+B+C)
+* La pagina Univoco Raggiunto (Totale) fornisce la famiglia Univoca raggiunta da ciascuna campagna o l’area totale di ciascuno dei cerchi. Nella figura, Famiglia unica raggiunta da A = Famiglia incrementale raggiunta da A + (A+B) + (A+C) +(A+B+C)
 
-* La famiglia incrementale raggiunta è la famiglia univoca raggiunta solo da una campagna. Nella figura, Famiglia Incrementale raggiunta da A, B, C sono la Famiglia Incrementale raggiunta rispettivamente da A, B e C.
+* La famiglia incrementale raggiunta è la famiglia univoca raggiunta solo da una campagna. Nella figura, la famiglia incrementale raggiunta da A, B, C è la famiglia incrementale raggiunta rispettivamente da A, B e C.
 
 * La famiglia incrementale (sovrapposizione) è la famiglia univoca raggiunta dalla campagna o dalla combinazione di campagne. Nella figura, la famiglia incrementale raggiunta da A, C è A+C.
 
