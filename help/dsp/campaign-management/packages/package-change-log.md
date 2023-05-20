@@ -1,5 +1,5 @@
 ---
-title: Visualizzare un registro delle modifiche del pacchetto
+title: Visualizzare un registro delle modifiche apportate al pacchetto
 description: Scopri come visualizzare le modifiche apportate al pacchetto.
 feature: DSP Packages
 exl-id: dd33519b-19cf-4b6f-b6d2-ec0874e27075
@@ -10,25 +10,25 @@ ht-degree: 0%
 
 ---
 
-# Visualizza il registro delle modifiche per un pacchetto
+# Visualizzare il registro delle modifiche di un pacchetto
 
-I registri delle modifiche mostrano le modifiche apportate al pacchetto durante l’intervallo di date selezionato, tra cui il nome del pacchetto, il tipo di entità (Pacchetto), il tipo di modifica, i valori nuovi e vecchi, l’utente che ha apportato la modifica e la data. Facoltativamente, puoi aggiungere note a qualsiasi voce.
+I registri di modifica mostrano le modifiche apportate al pacchetto durante l’intervallo di date selezionato, tra cui il nome del pacchetto, il tipo di entità (pacchetto), il tipo di modifica, i valori nuovi e vecchi, l’utente che ha apportato la modifica e la data. Facoltativamente, è possibile aggiungere note a qualsiasi voce.
 
-Puoi ordinare i dati in base a qualsiasi colonna, ad eccezione dei valori Nuovo e Valore precedente.
+È possibile ordinare i dati in base a qualsiasi colonna ad eccezione di Nuovo valore e Vecchio valore.
 
 1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
 
 1. Fai clic sul nome della campagna.
 
-1. Sulla **[!UICONTROL Packages]** accanto al nome del pacchetto, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
+1. Il giorno **[!UICONTROL Packages]** , accanto al nome del pacchetto, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
 
-1. (Facoltativo) Effettua una delle seguenti operazioni:
+1. (Facoltativo) Effettuate una delle seguenti operazioni:
 
-   * Per passare dalla visualizzazione dei dati solo nel modulo tabella e nei moduli per tabelle e grafici, fare clic su ![Vista a tabella e grafico](/help/dsp/assets/table-plus-chart-view.png "Vista a tabella e grafico") o ![Vista a tabella](/help/dsp/assets/table-view.png "Vista a tabella") nella barra degli strumenti in alto a destra.
+   * Per passare dalla visualizzazione dei dati solo nelle tabelle e alle tabelle e nei grafici, fare clic su ![Visualizzazione tabella e grafico](/help/dsp/assets/table-plus-chart-view.png "Visualizzazione tabella e grafico") o ![Vista tabella](/help/dsp/assets/table-view.png "Vista tabella") nella barra degli strumenti superiore destra.
 
-   * Per aggiungere una nota a una voce, tenere premuto il cursore [!UICONTROL Notes] della riga, quindi fare clic su **[!UICONTROL Add Notes]**. Immettere il testo nei campi di input, quindi fare clic su **[!UICONTROL Save]**.
+   * Per aggiungere una nota a una voce, tenere premuto il cursore sul [!UICONTROL Notes] per la riga e quindi fare clic su **[!UICONTROL Add Notes]**. Immettere il testo nei campi di input, quindi fare clic su **[!UICONTROL Save]**.
 
-   * Per visualizzare i dettagli di una voce in una finestra a comparsa, tenere premuto il cursore [!UICONTROL Notes] della riga, quindi fare clic su **[!UICONTROL More]>[!UICONTROL View Details]**.
+   * Per visualizzare i dettagli di una voce in una finestra popup, tenere premuto il cursore sul [!UICONTROL Notes] per la riga e quindi fare clic su **[!UICONTROL More]>[!UICONTROL View Details]**.
 
 >[!MORELIKETHIS]
 >

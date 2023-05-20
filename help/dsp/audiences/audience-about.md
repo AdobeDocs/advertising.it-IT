@@ -32,7 +32,7 @@ Per il targeting del posizionamento sono disponibili anche altri tipi di pubblic
 
 DSP può importare i tuoi segmenti di dati di prime parti dalla tua piattaforma di gestione dati (DMP) e fornirli a qualsiasi gruppo di inserzionisti, in base alle esigenze.
 
-DSP è una destinazione integrata per [il [!DNL Adobe Real-Time Customer Data Profile (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html), che consente di condividere segmenti autenticati di prime parti con inserzionisti e utenti approvati per l’attivazione della campagna. Per ulteriori informazioni sull’integrazione di Real-Time CDP, consulta [Sezione Sources](/help/dsp/audiences/sources/source-about.md).
+DSP è una destinazione integrata per [il [!DNL Adobe Real-Time Customer Data Profile (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=it), che consente di condividere segmenti autenticati di prime parti con inserzionisti e utenti approvati per l’attivazione della campagna. Per ulteriori informazioni sull’integrazione di Real-Time CDP, consulta [Sezione Sources](/help/dsp/audiences/sources/source-about.md).
 
 DSP può anche importare segmenti di terze parti personalizzati, incluse combinazioni complesse di segmenti di terze parti. Puoi fornire i segmenti a qualsiasi gruppo di inserzionisti, in base alle esigenze.
 

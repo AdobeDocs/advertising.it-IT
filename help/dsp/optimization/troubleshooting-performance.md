@@ -5,7 +5,7 @@ feature: DSP Optimization
 exl-id: b87f8556-1908-40c1-9f98-fbdc6d9b59b1
 source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 |  | È disponibile un numero limitato di utenti. | Verifica che le destinazioni del pubblico specificato includano un numero sufficiente di utenti attivi. In caso contrario, espandi le destinazioni aggiungendo più tipi di pubblico.<br><br>Tieni presente che l’utilizzo di più target di posizionamento, come filtri pre-offerta, geos, inventario e tipi di pubblico, può limitare cumulativamente le offerte e la spesa. |
 |  | Il pacchetto include un numero elevato di posizionamenti attivi. | Riduci il numero di posizionamenti attivi all’interno del pacchetto o aumenta il budget complessivo del pacchetto.<br><br>Se il pacchetto ha molti posizionamenti ma non abbastanza budget, l&#39;DSP potrebbe non essere in grado di allocare abbastanza budget per ogni posizionamento. Ogni posizionamento dovrebbe avere l’opportunità di spendere almeno 2 USD al giorno. Ad esempio, se il tuo pacchetto ha un budget di 10 USD al giorno, è meglio includere cinque o meno posizionamenti. &#x200B; |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >

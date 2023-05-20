@@ -24,17 +24,17 @@ Puoi duplicare un annuncio all’interno della stessa campagna.
 
 1. Specifica le nuove impostazioni annuncio:
 
-   1. (Facoltativo) Modifica il nome dell’annuncio predefinito. Per impostazione predefinita, il nuovo annuncio si chiama &quot;Copia di \&lt;*nome dell&#39;annuncio originale*\>.&quot;
+   1. (Facoltativo) Modifica il nome predefinito dell’annuncio. Per impostazione predefinita, il nuovo annuncio è denominato &quot;Copia di \&lt;*nome annuncio originale*\>.&quot;
 
-   1. (Facoltativo) Modifica le impostazioni dell&#39;annuncio per [annunci audio](ad-settings-audio.md), [TV collegata](ad-settings-connected-tv.md), [annunci display](ad-settings-display.md), [annunci mobile](ad-settings-mobile.md), [annunci nativi](ad-settings-native.md), [annunci pre-scorrimento](ad-settings-pre-roll.md)oppure [annunci video universali](ad-settings-universal-video.md).
+   1. (Facoltativo) Modifica le impostazioni dell’annuncio per [annunci audio](ad-settings-audio.md), [TV collegata](ad-settings-connected-tv.md), [annunci display](ad-settings-display.md), [annunci per dispositivi mobili](ad-settings-mobile.md), [annunci nativi](ad-settings-native.md), [annunci pre-roll](ad-settings-pre-roll.md), o [annunci video universali](ad-settings-universal-video.md).
 
 1. Clic **[!UICONTROL Save & Submit for Review]**.
 
-   La [revisione pubblicitaria](ad-about.md) per il nuovo annuncio impiega 24-48 ore e include i controlli per le categorie sensibili, fai clic su funzionalità URL e visualizza in anteprima il rendering. La [!UICONTROL Status] indica se DSP ha approvato l’annuncio. Gli annunci interrotti possono avere uno stato in sospeso per più di 24-48 ore, quindi hai tempo per correggere gli errori prima che vengano rifiutati.
+   Il [recensione annuncio](ad-about.md) per il nuovo annuncio richiede 24-48 ore e include controlli per le categorie sensibili, fai clic su Funzionalità URL e rendering dell’anteprima. Il [!UICONTROL Status] indica se l’DSP ha approvato l’annuncio. Gli annunci interrotti possono avere uno stato in sospeso per più di 24-48 ore, pertanto hai il tempo di correggere gli errori prima che vengano rifiutati.
 
    >[!NOTE]
    >
-   >Il tuo annuncio verrà servito solo se sia DSP che la SSP hanno approvato il contenuto creativo. Ogni SSP ha i propri requisiti e procedure di approvazione.
+   >Il tuo annuncio verrà trasmesso solo se sia l’DSP che la SSP hanno approvato il contenuto creativo. Ciascuna SSP ha i propri requisiti e la propria procedura di approvazione.
 
 >[!MORELIKETHIS]
 >
@@ -42,5 +42,5 @@ Puoi duplicare un annuncio all’interno della stessa campagna.
 >* [Creare un singolo annuncio](ad-create.md)
 >* [Creare più annunci di terze parti](ad-create-multiple.md)
 >* [Modificare un annuncio](ad-edit.md)
->* [Specifiche degli annunci](ad-specs.md)
+>* [Specifiche annuncio](ad-specs.md)
 

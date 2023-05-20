@@ -16,9 +16,9 @@ Puoi creare un pubblico duplicando un pubblico esistente.
 
 1. Nel menu principale, fai clic su **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
-1. Tieni il cursore sulla riga del pubblico e fai clic su **[!UICONTROL Duplicate]**.
+1. Posiziona il cursore sulla riga del pubblico e fai clic su **[!UICONTROL Duplicate]**.
 
-1. (Facoltativo) Cambia il nome predefinito del pubblico in un altro nome univoco.
+1. (Facoltativo) Modifica il nome predefinito del pubblico con un altro nome univoco.
 
    Per impostazione predefinita, il nuovo pubblico è denominato &quot;[pubblico] copia.&quot;
 
@@ -28,15 +28,15 @@ Puoi creare un pubblico duplicando un pubblico esistente.
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sulla gestione dell&#39;audience](audience-about.md)
+>* [Informazioni su Gestione dell&#39;audience](audience-about.md)
 >* [Creare un pubblico riutilizzabile](reusable-audience-create.md)
 >* [Modificare un pubblico riutilizzabile](reusable-audience-edit.md)
->* [Visualizzare i dettagli su un pubblico riutilizzabile](reusable-audience-view-details.md)
+>* [Visualizzare dettagli su un pubblico riutilizzabile](reusable-audience-view-details.md)
 >* [Condividere un pubblico riutilizzabile](reusable-audience-share.md)
 >* [Esportare un pubblico riutilizzabile](reusable-audience-export.md)
->* [Copia negli Appunti la chiave di segmento per un pubblico riutilizzabile](reusable-audience-clipboard.md)
+>* [Copiare negli Appunti la chiave del segmento di un pubblico riutilizzabile](reusable-audience-clipboard.md)
 >* [Eliminare un pubblico riutilizzabile](reusable-audience-delete.md)
->* [Impostazioni del pubblico](audience-settings.md)
->* [Sintassi per la logica del segmento di pubblico](audience-segment-logic-syntax.md)
->* [Fornitori di dati di terze parti disponibili](third-party-data-providers.md)
+>* [Impostazioni pubblico](audience-settings.md)
+>* [Sintassi della logica dei segmenti di pubblico](audience-segment-logic-syntax.md)
+>* [Provider di dati di terze parti disponibili](third-party-data-providers.md)
 

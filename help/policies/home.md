@@ -1,6 +1,6 @@
 ---
 title: Criteri e linee guida di Adobe Advertising
-description: Scopri le politiche e le linee guida per Advertising DSP e Advertising Search.
+description: Scopri i criteri e le linee guida per Advertising DSP e Advertising Search.
 index: true
 cloud: Experience Cloud
 product: advertising cloud
@@ -11,10 +11,10 @@ ht-degree: 23%
 
 ---
 
-# Criteri e linee guida di Adobe Advertising 
+# Criteri e linee guida di Adobe Advertising
 
-Scopri le politiche e le linee guida per Advertising DSP e Advertising Search:
+Scopri i criteri e le linee guida per Advertising DSP e Advertising Search:
 
-* [Criteri per i requisiti degli annunci](/help/policies/ad-requirements-policy.md)
-* [Linee guida accettabili per i segmenti di stato](/help/policies/health-segment-guidelines.md)
+* [Criterio dei requisiti per gli annunci](/help/policies/ad-requirements-policy.md)
+* [Linee guida accettabili per i segmenti di integrità](/help/policies/health-segment-guidelines.md)
 * [Linee guida sull’utilizzo dei dati DSP](/help/policies/data-usage-guidelines.md)

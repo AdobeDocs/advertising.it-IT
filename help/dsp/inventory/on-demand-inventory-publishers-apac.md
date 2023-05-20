@@ -1,35 +1,35 @@
 ---
-title: '''[!DNL On Demand] Premium Inventory Publishers in Asia Pacific"'
-description: Consulta i [!DNL On Demand] editori premium di inventario nell'area dell'Asia Pacifico.
+title: '[!DNL On Demand] Premium Inventory Publishers in Asia Pacifico'
+description: Visualizza le [!DNL On Demand] editori di inventario premium nell'area Asia Pacifico.
 feature: DSP On Demand Inventory
 exl-id: ef23503c-d92b-4809-9082-afeaffe58f8f
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
 
-# [!DNL On Demand] Editori Premium di Inventario in Asia Pacifico{#on-demand-inventory-publishers-apac}
+# [!DNL On Demand] Editori di inventario Premium in Asia Pacifico{#on-demand-inventory-publishers-apac}
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
 
 | Editore | Geo |
 |-----------------------------|---------------|
-| [!DNL BBC] | Cina maggiore |
-| [!DNL Bloomberg] | Cina maggiore |
-| [!DNL CBS Interactive] | Cina maggiore |
-| [!DNL CNN International] | Cina maggiore |
-| [!DNL Conde Nast] | Cina maggiore |
-| [!DNL EA] | Cina maggiore |
-| [!DNL Gameloft] | Cina maggiore |
-| [!DNL MSN] | Cina maggiore |
-| [!DNL Tripadvisor] | Cina maggiore |
-| [!DNL U.S. News] | Cina maggiore |
-| [!DNL UDN] | Cina maggiore |
-| [!DNL Vidol.tv] | Cina maggiore |
-| [!DNL Vungle] | Cina maggiore |
-| [!DNL Yahoo! Taiwan] | Cina maggiore |
+| [!DNL BBC] | Grande Cina |
+| [!DNL Bloomberg] | Grande Cina |
+| [!DNL CBS Interactive] | Grande Cina |
+| [!DNL CNN International] | Grande Cina |
+| [!DNL Conde Nast] | Grande Cina |
+| [!DNL EA] | Grande Cina |
+| [!DNL Gameloft] | Grande Cina |
+| [!DNL MSN] | Grande Cina |
+| [!DNL Tripadvisor] | Grande Cina |
+| [!DNL U.S. News] | Grande Cina |
+| [!DNL UDN] | Grande Cina |
+| [!DNL Vidol.tv] | Grande Cina |
+| [!DNL Vungle] | Grande Cina |
+| [!DNL Yahoo! Taiwan] | Grande Cina |
 | [!DNL BBC] | Hong Kong |
 | [!DNL Bloomberg] | Hong Kong |
 | [!DNL CBS Interactive] | Hong Kong |
@@ -367,13 +367,13 @@ ht-degree: 0%
 | [!DNL Yan.vn] | Vietnam |
 | [!DNL Zing.vn] | Vietnam |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >
->* [Informazioni [!DNL On Demand] Inventario Premium](on-demand-inventory-about.md)
->* [Iscriviti e richiedi l’accesso a [!DNL On Demand] Inventario Premium](on-demand-inventory-subscribe.md)
->* [[!DNL On Demand] Editori Premium di Inventario in Australia e Nuova Zelanda](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] Editori Premium di Inventario in Europa, Medio Oriente e Africa](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand Premium] Inventario Editori in Nord America](on-demand-inventory-publishers-na.md)
+>* [Informazioni su [!DNL On Demand] Magazzino Premium](on-demand-inventory-about.md)
+>* [Iscriviti e richiedi accesso a [!DNL On Demand] Magazzino Premium](on-demand-inventory-subscribe.md)
+>* [[!DNL On Demand] Editori di inventario Premium in Australia e Nuova Zelanda](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand] Editori di inventario Premium in Europa, Medio Oriente e Africa](on-demand-inventory-publishers-emea.md)
+>* [[!DNL On Demand Premium] Editori di inventario in Nord America](on-demand-inventory-publishers-na.md)
 

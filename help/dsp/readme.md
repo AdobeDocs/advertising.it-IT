@@ -5,8 +5,8 @@ source-wordcount: '20'
 ht-degree: 0%
 
 ---
-# Documentazione DSP pubblicità
+# Documentazione di Advertising DSP
 
-Questa è la cartella per la documentazione di DSP.
+Questa è la cartella per la documentazione dell’Aiuto dell’DSP.
 
-**Nota: Questa pagina non viene pubblicata nella documentazione rivolta al cliente.**
+**Nota: questa pagina non è pubblicata nella documentazione destinata al cliente.**

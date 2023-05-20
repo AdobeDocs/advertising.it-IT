@@ -5,8 +5,8 @@ source-wordcount: '31'
 ht-degree: 0%
 
 ---
-# Documentazione vari per Adobe Pubblicità
+# Documentazione varia per Adobe Advertising
 
-Questa cartella è riservata ai file di immagine e ad altri file di risorse solo nella cartella /privacy/ .
+Questa cartella è solo per i file di immagine e altri file di risorse per i file presenti nella cartella /privacy/.
 
-**Nota: Questa pagina non viene pubblicata nella documentazione rivolta al cliente.**
+**Nota: questa pagina non è pubblicata nella documentazione destinata al cliente.**

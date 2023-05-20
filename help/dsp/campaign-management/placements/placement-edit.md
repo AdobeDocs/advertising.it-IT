@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Modificare un posizionamento
 
-Puoi modificare le impostazioni per un singolo posizionamento o per più posizionamenti contemporaneamente.
+È possibile modificare le impostazioni per un singolo posizionamento o per più posizionamenti contemporaneamente.
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
@@ -20,7 +20,7 @@ Puoi modificare le impostazioni per un singolo posizionamento o per più posizio
 
 >[!TIP]
 >
-> Per modificare solo il nome di posizionamento, lo stato, l’offerta massima e il budget, consulta &quot;[Modifica rapida delle impostazioni di posizionamento chiave](/help/dsp/campaign-management/placements/placement-quick-edit.md).&quot;
+> Per modificare solo il nome del posizionamento, lo stato, l’offerta massima e il budget, vedi &quot;[Modifica rapida impostazioni di posizionamento chiave](/help/dsp/campaign-management/placements/placement-quick-edit.md).&quot;
 
 1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
 
@@ -28,13 +28,13 @@ Puoi modificare le impostazioni per un singolo posizionamento o per più posizio
 
 1. Nel sottomenu, fai clic su **[!UICONTROL Placements]**.
 
-1. Accanto al nome del posizionamento, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+1. Accanto al nome del posizionamento, fate clic su  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
-1. Modifica le [impostazioni di posizionamento](placement-settings.md).
+1. Modifica il [impostazioni di posizionamento](placement-settings.md).
 
 1. Clic **[!UICONTROL Update placement]**.
 
-## Modificare più posizionamenti {#edit-multiple-placements}
+## Modifica più posizionamenti {#edit-multiple-placements}
 
 Utilizza questa opzione solo quando desideri applicare le stesse modifiche a tutti i posizionamenti selezionati.
 
@@ -44,34 +44,34 @@ Utilizza questa opzione solo quando desideri applicare le stesse modifiche a tut
 
 1. Nel sottomenu, fai clic su **[!UICONTROL Placements]**.
 
-1. Seleziona la casella di controllo accanto a ogni posizionamento da modificare.
+1. Selezionare la casella di controllo accanto a ogni posizionamento che si desidera modificare.
 
 1. Nella barra dei menu, fai clic su **[!UICONTROL Edit]**.
 
-1. Per ogni impostazione da modificare:
+1. Per ogni impostazione che si desidera modificare:
 
-   1. Scegli l’impostazione dall’elenco.
+   1. Scegliere l&#39;impostazione dall&#39;elenco.
 
    1. Seleziona la **[!UICONTROL Edit Mode]**.
 
-      Le opzioni variano a seconda dell’impostazione, ma possono includere:
+      Le opzioni variano in base all’impostazione, ma possono includere:
 
       * **Aggiungi** (per allegare gli annunci)
 
-      * **Aggiungi** (per mantenere i valori esistenti e aggiungere nuovi valori)
+      * **Aggiungi** per mantenere i valori esistenti e aggiungere nuovi valori
 
-      * **Cancella** (per rimuovere tutti i valori esistenti)
+      * **Cancella** per rimuovere tutti i valori esistenti
 
-      * **Diminuzione** (per ridurre un valore esistente di un determinato importo)
+      * **Diminuisci** (per diminuire un valore esistente di un importo specificato)
 
-      * **Aumento** (per aumentare un valore esistente di un determinato importo)
+      * **Aumenta** (per aumentare un valore esistente di un importo specificato)
 
-      * **Sovrascrittura** (per modificare il valore esistente in un nuovo valore)
+      * **Sovrascrivere** (per modificare il valore esistente in un nuovo valore)
 
-      * **Pausa** (per mettere in pausa gli annunci)
+      * **Pausa** (per sospendere gli annunci)
 
       * **Rimuovi** (per rimuovere i valori specificati)
-   1. Modifica le [impostazione di posizionamento](placement-settings.md).
+   1. Modifica il [impostazione di posizionamento](placement-settings.md).
 
 
 1. Clic **[!UICONTROL Submit]**.
@@ -79,14 +79,14 @@ Utilizza questa opzione solo quando desideri applicare le stesse modifiche a tut
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulla gestione del posizionamento](placement-about.md)
->* [Modifica rapida delle impostazioni di posizionamento chiave](placement-quick-edit.md)
+>* [Modifica rapida impostazioni di posizionamento chiave](placement-quick-edit.md)
 >* [Creare un posizionamento](placement-create.md)
 >* [Duplicare un posizionamento](placement-duplicate.md)
->* [Modificare la pianificazione dell’annuncio per un posizionamento](placement-edit-ad-schedule.md)
->* [Mettere in pausa o attivare un posizionamento](placement-pause-activate.md)
->* [Visualizza il registro delle modifiche per un posizionamento](placement-change-log.md)
+>* [Modificare la pianificazione degli annunci per un posizionamento](placement-edit-ad-schedule.md)
+>* [Sospendere o attivare un posizionamento](placement-pause-activate.md)
+>* [Visualizzare il log delle modifiche per un posizionamento](placement-change-log.md)
 >* [Impostazioni di posizionamento](placement-settings.md)
 >* [Scelte rapide da tastiera](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Informazioni sulla correzione delle impostazioni di posizionamento per una campagna utilizzando i fogli di calcolo](/help/dsp/campaign-management/qa/qa-about.md)
->* [Video: Come modificare i posizionamenti utilizzando gli strumenti di modifica in serie](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [Correzione delle impostazioni di posizionamento per una campagna tramite fogli di calcolo](/help/dsp/campaign-management/qa/qa-about.md)
+>* [Video: come modificare i posizionamenti utilizzando gli strumenti di modifica in blocco](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
 

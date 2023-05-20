@@ -13,19 +13,19 @@ ht-degree: 1%
 # Filtrare i dati della campagna
 
 1. Nella barra degli strumenti principale, fai clic su ![Pulsante Filtro](/help/dsp/assets/filter.png).
-1. Per ogni filtro da applicare, fai clic sul nome del filtro nella colonna a sinistra, quindi specifica i valori del filtro.
+1. Per ogni filtro che si desidera applicare, fare clic sul nome del filtro nella colonna sinistra e quindi specificare il valore del filtro.
 1. Clic **[!UICONTROL Apply]**.
 
 ## Filtri disponibili
 
-I seguenti filtri sono disponibili per le [!UICONTROL Campaigns], [!UICONTROL Packages]e [!UICONTROL Placements] visualizzazioni:
+Sono disponibili i seguenti filtri per [!UICONTROL Campaigns], [!UICONTROL Packages], e [!UICONTROL Placements] visualizzazioni:
 
 * [!UICONTROL Campaigns] visualizza filtri:
    * [!UICONTROL Campaign status]
    * [!UICONTROL Advertiser]
 * [!UICONTROL Packages] visualizza filtri:
    * [!UICONTROL Custom flights] (che esistano o meno)
-   * [!UICONTROL Custom goal] (se del caso)
+   * [!UICONTROL Custom goal] (se applicabile)
    * [!UICONTROL End end date]
    * [!UICONTROL Optimization goal]
    * [!UICONTROL Flight pacing]
@@ -34,9 +34,9 @@ I seguenti filtri sono disponibili per le [!UICONTROL Campaigns], [!UICONTROL Pa
    * [!UICONTROL Start date]
 * [!UICONTROL Placements] visualizza filtri:
    * [!UICONTROL Custom ad scheduling]
-   * [!UICONTROL Custom goal] (se del caso)
+   * [!UICONTROL Custom goal] (se applicabile)
    * [!UICONTROL End date]
-   * [!UICONTROL Max bid] ([!UICONTROL less than], [!UICONTROL greater than]oppure [!UICONTROL equal to] un valore specificato)
+   * [!UICONTROL Max bid] ([!UICONTROL less than], [!UICONTROL greater than], o [!UICONTROL equal to] un valore specificato)
    * [!UICONTROL Optimization goal]
    * [!UICONTROL Pacing on] ([!UICONTROL impressions] o [!UICONTROL spend])
    * [!UICONTROL Flight pacing]
@@ -56,7 +56,7 @@ I seguenti filtri sono disponibili per le [!UICONTROL Campaigns], [!UICONTROL Pa
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sui report in-Platform](campaign-reports-about.md)
+>* [Informazioni Sui Rapporti In-Platform](campaign-reports-about.md)
 >* [Creare una vista a colonne personalizzata](column-view-create.md)
->* [Modificare la Vista a colonne](column-view-change.md)
+>* [Modificare la vista a colonne](column-view-change.md)
 

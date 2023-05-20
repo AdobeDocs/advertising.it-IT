@@ -5,8 +5,8 @@ source-wordcount: '28'
 ht-degree: 0%
 
 ---
-# Documentazione su politiche e linee guida per la pubblicità di Adobe
+# Documentazione su linee guida e criteri per la pubblicità Adobe
 
-Questa è la cartella della guida sui criteri e le linee guida per la pubblicità di diversi Adobi.
+Questa è la cartella per la documentazione di supporto sulle politiche e le linee guida per la pubblicità tra Adobi.
 
-**Nota: Questa pagina non viene pubblicata nella documentazione rivolta al cliente.**
+**Nota: questa pagina non è pubblicata nella documentazione destinata al cliente.**

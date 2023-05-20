@@ -1,5 +1,5 @@
 ---
-title: Tecniche consigliate per la creazione di un obiettivo personalizzato
+title: Best practice per la creazione di un obiettivo personalizzato
 description: Scopri le best practice per la creazione di obiettivi personalizzati per definire gli eventi di successo.
 feature: DSP Optimization, DSP Best Practices
 exl-id: 8b1247cd-083d-4c8c-8588-9e8c03c4cc67
@@ -10,27 +10,27 @@ ht-degree: 0%
 
 ---
 
-# Tecniche consigliate per la creazione di un obiettivo personalizzato
+# Best practice per la creazione di un obiettivo personalizzato
 
 ## Obiettivi personalizzati con una singola proprietà
 
-Gli esempi seguenti mostrano come configurare obiettivi per una singola proprietà (metrica).
+Gli esempi seguenti mostrano come configurare gli obiettivi che hanno come target una singola proprietà (metrica).
 
-### Esempio per una campagna con &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot; Obiettivo di ottimizzazione
+### Esempio di una campagna con &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot; Obiettivo di ottimizzazione
 
-Se l&#39;obiettivo della campagna è il fatturato ([!UICONTROL Highest ROAS - Custom Goal]), quindi l&#39;obiettivo personalizzato (obiettivo) includerà il[!UICONTROL Revenue]&quot; proprietà con un peso di uno (1).
+Se l&#39;obiettivo della campagna è il profitto ([!UICONTROL Highest ROAS - Custom Goal]), l’obiettivo personalizzato (obiettivo) includerà la &quot;[!UICONTROL Revenue]&quot; con un peso di uno (1).
 
 ![esempio di obiettivo personalizzato ROAS con una singola proprietà](/help/dsp/assets/custom-goal-roas.png)
 
 >[!NOTE]
 >
-> A [!UICONTROL Property Weight] di uno equivale a un valore per ogni $ 1 dei ricavi tracciati.
+> A [!UICONTROL Property Weight] di uno equivale a un valore di uno per ogni $ 1 di ricavo tracciato.
 >
-> Ad esempio, una conversione da $ 250 con un peso di $ 250 viene indicata come $ 250. Se alla metrica di conversione viene assegnato un peso di 0,5, la conversione da $ 250 viene indicata come $ 125 nella pubblicità di Adobe ($250 Conversione * 0,5 [!UICONTROL Property Weight] = $ 125).
+> Ad esempio, una conversione da 250 $ con un peso di uno viene segnalata come 250 $. Se alla metrica di conversione viene assegnato un peso di 0,5, la conversione di 250 dollari viene segnalata come 125 dollari nella pubblicità Adobe (conversione di 250 dollari * 0,5 [!UICONTROL Property Weight] = $125).
 
-### Esempio per una campagna con &quot;[!UICONTROL Lowest CPA - Custom Goal]&quot; Obiettivo di ottimizzazione
+### Esempio di una campagna con &quot;[!UICONTROL Lowest CPA - Custom Goal]&quot; Obiettivo di ottimizzazione
 
-Se l&#39;obiettivo della campagna è il costo minimo per acquisizione (CPA) e richiede un solo evento di successo, includerai quella metrica (nell&#39;esempio seguente, &quot;Invio applicazione&quot;). La migliore pratica è quella di impostare il peso come uno (1).
+Se l’obiettivo della campagna è il costo più basso per acquisizione (CPA) e richiede un solo evento di successo, includerai tale metrica (nell’esempio seguente, &quot;Invio applicazione&quot;). La best practice prevede di impostare il peso come uno (1).
 
 ![esempio di obiettivo personalizzato CPA con una singola proprietà](/help/dsp/assets/custom-goal-roas.png)
 
@@ -38,31 +38,31 @@ Se l&#39;obiettivo della campagna è il costo minimo per acquisizione (CPA) e ri
 >
 > A [!UICONTROL Property Weight] di uno equivale a un valore di uno per ogni conversione tracciata.
 >
-> Ad esempio, se si tiene traccia di 10 conversioni di invio dell’applicazione, vengono segnalate 10 conversioni di invio dell’applicazione.  Se alla metrica di conversione viene assegnato un peso di 0,5, le 10 conversioni sono riportate come cinque (5) in Adobe Advertising (10 Conversioni * 0,5 [!UICONTROL Property Weight] = 5).
+> Ad esempio, se vengono tracciate 10 conversioni di invio di applicazioni, vengono segnalate 10 conversioni di invio di applicazioni.  Se alla metrica di conversione viene assegnato un peso di 0,5, allora le 10 conversioni sono segnalate come cinque (5) nella pubblicità Adobe (10 conversioni * 0,5 [!UICONTROL Property Weight] = 5).
 
 ## Obiettivi personalizzati con più proprietà
 
-Esistono due scenari in cui si utilizzerebbero più proprietà in un obiettivo personalizzato:
+Esistono due scenari in cui puoi utilizzare più proprietà in un obiettivo personalizzato:
 
-* L&#39;obiettivo della campagna dispone di più eventi di successo. Ad esempio, forse stai pubblicizzando più di un’azione in loco e sono tutti attribuiti all’obiettivo del tuo CPA. L’obiettivo di esempio seguente include tre proprietà separate (Download di PDF, Contatti e Iscrizione e-mail), ciascuna con un peso di un (1), che indica al [!DNL Adobe Sensei] algoritmo che ciascuna delle proprietà ha uguale importanza. Se si includono proprietà con costi o importanza variabili, è possibile regolare di conseguenza i rispettivi pesi relativi.
+* L’obiettivo della campagna prevede più eventi di successo. Ad esempio, puoi fare pubblicità a più di un’azione nel sito attribuendole tutte all’obiettivo CPA. L’obiettivo dell’esempio seguente include tre proprietà separate (Download PDF, Contattaci e Iscrizione e-mail), ciascuna con un peso di uno (1), che indica al [!DNL Adobe Sensei] algoritmo in base al quale ciascuna proprietà ha la stessa importanza. Se includi proprietà con costi o importanza variabili, puoi adeguare di conseguenza i loro pesi relativi.
 
    ![esempio di obiettivo personalizzato con più proprietà](/help/dsp/assets/custom-goal-multiple-properties.png)
 
-* La singola proprietà nell’obiettivo personalizzato non raggiunge il minimo di 10 conversioni al giorno necessarie per le prestazioni ottimizzate. Questo può verificarsi a causa della spesa minima giornaliera del pacchetto o un numero limitato di conversioni naturali. L’aggiunta di proprietà di supporto aggiuntive all’obiettivo personalizzato può aiutarti a raggiungere la soglia di 10 conversioni al giorno. Dieci eventi di supporto possono aiutare un pacchetto a raggiungere la soglia di 10/giorno, anche quando ciascuno dei loro pesi è inferiore a uno (1). Ma potrebbe non essere necessario aggiungere così tanti eventi.
+* La singola proprietà nell’obiettivo personalizzato non raggiunge il minimo di 10 conversioni al giorno necessarie per prestazioni ottimizzate. Ciò può verificarsi a causa di una spesa minima giornaliera per i pacchetti o di un numero limitato di conversioni naturali. L’aggiunta di proprietà di supporto aggiuntive all’obiettivo personalizzato può aiutarti a raggiungere la soglia di 10 conversioni al giorno. Dieci eventi di supporto possono aiutare un pacchetto a raggiungere la soglia di 10/die, anche quando ciascuno dei loro pesi è inferiore a uno (1). Ma potresti non aver bisogno di aggiungere tanti eventi.
 
-   Quando aggiungi le proprietà di supporto a un obiettivo personalizzato, ponderale in base alla loro importanza relativa all’evento di successo principale e tieni presente la quantità di punti dati. Questo consente all’algoritmo di Adobe Sensei di bilanciare più proprietà e di ottimizzarle in base all’obiettivo.
+   Quando aggiungi proprietà di supporto a un obiettivo personalizzato, ponderale in base alla loro importanza relativa per l’evento di successo principale e tieni presente la quantità di punti dati. Questo consente all’algoritmo Adobe Sensei di bilanciare più proprietà e ottimizzarle per il raggiungimento dell’obiettivo.
 
-   L&#39;obiettivo di esempio seguente include tre proprietà, ciascuna con un peso diverso: Invio applicazione = 1, Avvio applicazione = 0.1 e Pagina di destinazione inserzionista = 0.01. Ciò significa che ogni conversione Invia applicazione ha lo stesso valore per la tua azienda in media di 10 conversioni Inizio applicazione e 100 conversioni Pagina di destinazione inserzionista.
+   L&#39;obiettivo di esempio seguente include tre proprietà, ciascuna con un peso diverso: Invio applicazione = 1, Inizio applicazione = 0,1 e Pagina di destinazione inserzionista = 0,01. Ciò significa che ogni conversione Invio applicazione ha lo stesso valore per la tua azienda come media di 10 conversioni di Avvio applicazione e 100 conversioni di Pagina di destinazione inserzionista.
 
    ![esempio di obiettivo personalizzato con più proprietà](/help/dsp/assets/custom-goal-multiple-properties2.png)
 
-   Se, invece, ponderate le visite a pagina di destinazione in modo uguale a Invio di applicazioni, la quantità naturalmente più elevata di visite a pagina di destinazione potrebbe superare l’obiettivo e distorcere le visite alla pagina di destinazione.<!--reword-->
+   Se, invece, le visite della pagina di destinazione venissero ponderate allo stesso modo degli invii di applicazioni, la quantità naturalmente maggiore di visite alla pagina di destinazione potrebbe sopraffare l’obiettivo e distorcere le visite alla pagina di destinazione.<!--reword-->
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni sugli obiettivi personalizzati](custom-goal-about.md)
 >* [Creare un obiettivo personalizzato](custom-goal-create.md)
->* [Obiettivi di ottimizzazione e come utilizzarli](optimization-goals.md)
+>* [Obiettivi di ottimizzazione e modalità di utilizzo](optimization-goals.md)
 >* [Impostazioni pacchetto](/help/dsp/campaign-management/packages/package-settings.md)
-> * [Ottimizzazione DSP campagne](optimization-how-dsp-optimizes-campaigns.md)
+> * [Come l’DSP ottimizza le campagne](optimization-how-dsp-optimizes-campaigns.md)
 

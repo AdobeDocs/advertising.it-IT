@@ -11,35 +11,35 @@ ht-degree: 0%
 
 # Modificare un elenco di siti bloccati a livello di account o di inserzionista
 
-1. Nel menu principale, fai clic su **Impostazioni > Siti.**
+1. Nel menu principale, fai clic su **Impostazioni > Sites.**
 
-1. Selezionare il livello dell’elenco: *Account* o *Inserzionista*.
+1. Selezionare il livello di elenco: *Account* o *Inserzionista*.
 
 1. Effettua una delle seguenti operazioni:
 
    * (Facoltativo) Per incollare o immettere fino a 10.000 valori:
 
-      1. Fai clic su **Incolla in Sites/Apps**.
+      1. Clic **Incolla in siti/app**.
 
-      1. Nel campo di input, immetti o incolla un valore per riga, quindi fai clic su **Continua**.
+      1. Nel campo di input immettere o incollare un valore per riga e quindi fare clic su **Continua**.
 
-      1. Se uno dei valori è identificato come non valido, fai clic sul pulsante **Incolla nei siti e nelle app** , correggere i valori e fare clic su **Continua**.
+      1. Se sono stati identificati valori non validi, fare clic sul pulsante **Incolla in siti e app** , correggere i valori e quindi fare clic su **Continua**.
 
-      1. Fai clic su **Fine**.
-   * (Facoltativo) Per eliminare uno o più valori, effettuare una delle seguenti operazioni:
+      1. Clic **Fine**.
+   * (Facoltativo) Per eliminare uno o più valori, effettuate una delle seguenti operazioni:
 
-      * Per rimuovere tutti i valori, fai clic su **Cancella tutto**. Nel messaggio di conferma, fai clic su **OK**.
+      * Per rimuovere tutti i valori, fare clic su **Cancella tutto**. Nel messaggio di conferma, fai clic su **OK**.
 
-      * Per rimuovere uno o più valori, selezionare la casella di controllo accanto a ciascuno di essi, quindi fare clic su **Elimina selezionati**.
+      * Per rimuovere uno o più valori, selezionare la casella di controllo accanto a ciascuno e quindi fare clic su **Elimina selezionati**.
 
-      * Per rimuovere un singolo valore, fai clic su **X** accanto al valore .
-   * (Facoltativo) Per esportare l’elenco in un foglio di calcolo di Microsoft Excel in formato CV (virgola), fai clic su **Esporta**.
+      * Per rimuovere un singolo valore, fare clic su **X** accanto al valore.
+   * (Facoltativo) Per esportare l&#39;elenco in un foglio di calcolo di Microsoft Excel in formato con valori separati da virgola (CV), fare clic su **Esporta**.
 
 
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sugli elenchi bloccati a livello di account e di inserzionista](/help/dsp/admin/blocked-sites-list-about.md)
-   > [Sicurezza del marchio e qualità dei supporti](/help/dsp/introduction/features/brand-safety-media-quality.md)
+>* [Informazioni sugli elenchi di siti bloccati a livello di account e inserzionista](/help/dsp/admin/blocked-sites-list-about.md)
+   > [Sicurezza del marchio e qualità dei contenuti multimediali](/help/dsp/introduction/features/brand-safety-media-quality.md)
 >* [Impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)
 

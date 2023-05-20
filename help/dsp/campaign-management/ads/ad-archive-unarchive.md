@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Archiviare o annullare l’archiviazione di un annuncio
 
-Nascondere un annuncio che non viene utilizzato archiviandolo. Gli annunci archiviati non vengono visualizzati per impostazione predefinita, ma sono ancora disponibili per i rapporti.
+Nascondi un annuncio che non viene utilizzato per archiviarlo. Gli annunci archiviati non vengono visualizzati per impostazione predefinita, ma sono ancora disponibili per il reporting.
 
 Puoi annullare l’archiviazione di un annuncio per ripristinarne lo stato precedente in qualsiasi momento.
 
@@ -26,7 +26,7 @@ Puoi annullare l’archiviazione di un annuncio per ripristinarne lo stato prece
 
 >[!NOTE]
 >
->Per visualizzare gli annunci archiviati, filtra le [!UICONTROL Ads] visualizza: click ![[!UICONTROL Filter] pulsante](/help/dsp/assets/filter.png), fai clic su **[!UICONTROL Ad status]** e seleziona **[!UICONTROL Archived]**, quindi fai clic su **[!UICONTROL Apply].**
+>Per visualizzare gli annunci archiviati, filtra il [!UICONTROL Ads] view: click ![[!UICONTROL Filter] pulsante](/help/dsp/assets/filter.png), fai clic su **[!UICONTROL Ad status]** e seleziona **[!UICONTROL Archived]** e quindi fare clic su **[!UICONTROL Apply].**
 
 ## Annullare l’archiviazione di un annuncio
 

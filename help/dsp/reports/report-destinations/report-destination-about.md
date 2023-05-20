@@ -1,5 +1,5 @@
 ---
-title: Informazioni [!UICONTROL Report Destinations]
+title: Informazioni su [!UICONTROL Report Destinations]
 description: Scopri come gestire le posizioni di consegna per i rapporti personalizzati.
 feature: DSP Custom Reports
 exl-id: f1cc7a0d-13cb-4a27-816b-897f373984a6
@@ -10,26 +10,26 @@ ht-degree: 0%
 
 ---
 
-# Informazioni [!UICONTROL Report Destinations]
+# Informazioni su [!UICONTROL Report Destinations]
 
-Puoi creare e gestire le posizioni di consegna, denominate *[!DNL report destinations]*, per i rapporti personalizzati. Dopo aver configurato le destinazioni dei rapporti, puoi impostare ogni rapporto personalizzato da consegnare a una o più posizioni di un singolo tipo di destinazione. Una volta salvato un rapporto, non è possibile modificare il tipo di destinazione.
+Puoi creare e gestire le posizioni di consegna, denominate *[!DNL report destinations]*, per i rapporti personalizzati. Dopo aver configurato le destinazioni dei rapporti, puoi impostare ciascuno dei rapporti personalizzati da consegnare a una o più posizioni di un singolo tipo di destinazione. Dopo aver salvato un rapporto, non puoi modificare il tipo di destinazione.
 
 ## Disponibile [!UICONTROL Destination Types]
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
 * SFTP
-* SSL FTP (in versione beta)
+* FTP SSL (in versione beta)
 
 >[!NOTE]
 >
-> Puoi anche inviare rapporti personalizzati ai destinatari e-mail, che non richiedono una destinazione del rapporto salvata. Puoi specificare i destinatari e-mail, anziché le destinazioni salvate, nelle impostazioni del rapporto.
+> Puoi anche inviare i rapporti personalizzati ai destinatari e-mail, che non richiedono una destinazione di rapporto salvata. Nelle impostazioni del rapporto puoi specificare i destinatari e-mail anziché le destinazioni salvate.
 
-## La [!UICONTROL Report Destinations] Visualizza
+## Il [!UICONTROL Report Destinations] Visualizza
 
-La [!UICONTROL Report Destinations] visualizza tutte le destinazioni esistenti e il numero di rapporti collegati a ciascuna. È possibile filtrare l’elenco in base al tipo di destinazione.
+Il [!UICONTROL Report Destinations] visualizza mostra tutte le destinazioni esistenti e il numero di rapporti collegati a ciascuna. Puoi filtrare l’elenco per tipo di destinazione.
 
-Da questa visualizzazione puoi creare nuove destinazioni e modificare ed eliminare quelle esistenti.
+Da questa vista puoi creare nuove destinazioni e modificare ed eliminare quelle esistenti.
 
 >[!NOTE]
 >
@@ -39,8 +39,8 @@ Da questa visualizzazione puoi creare nuove destinazioni e modificare ed elimina
 
 >[!MORELIKETHIS]
 >
->* [Crea un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [Creare un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
 >* [[!UICONTROL Report Destination] Impostazioni](/help/dsp/reports/report-destinations/report-destination-settings.md)
->* [Modificare un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
+>* [Modifica un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
 >* [Eliminare un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
 

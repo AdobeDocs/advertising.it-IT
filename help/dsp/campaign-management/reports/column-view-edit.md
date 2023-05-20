@@ -16,15 +16,15 @@ ht-degree: 0%
 >
 >Non è possibile modificare una vista a colonne standard (predefinita).
 
-1. Nel selettore Visualizza, fai clic su ![freccia giù](/help/dsp/assets/chevron-down.png), quindi fai clic sul nome della vista a colonne esistente.
+1. Nel selettore Visualizza, fai clic su ![freccia giù](/help/dsp/assets/chevron-down.png), quindi fare clic sul nome della vista a colonne esistente.
 
-1. Nel selettore Visualizza, fai clic su ![freccia giù](/help/dsp/assets/chevron-down.png), quindi fai clic su **[!UICONTROL Edit View]**.
+1. Nel selettore Visualizza, fai clic su ![freccia giù](/help/dsp/assets/chevron-down.png)e quindi fare clic su **[!UICONTROL Edit View]**.
 
 1. Modifica le metriche da includere nella visualizzazione:
 
    1. Nell’elenco delle metriche disponibili, seleziona la casella di controllo accanto a ciascuna metrica da includere e deseleziona la casella di controllo accanto a ciascuna metrica da escludere.
 
-   1. Se necessario, modifica l’ordine delle colonne facendo clic sui nomi delle colonne nel pannello di destra e trascinandoli nelle posizioni richieste.
+   1. Se necessario, modifica l’ordine delle colonne facendo clic sui nomi delle colonne nel pannello di destra e trascinandoli nelle posizioni desiderate.
 
    Alcune colonne hanno posizioni fisse e non possono essere spostate o rimosse.
 
@@ -32,13 +32,13 @@ ht-degree: 0%
 
    * Per applicare temporaneamente le impostazioni senza salvarle nella visualizzazione, fare clic su **[!UICONTROL Apply].**
 
-   * Per salvare le impostazioni in una nuova vista a colonne personalizzata, fare clic su **[!UICONTROL Save As]**. In [!UICONTROL Save View] immettere il nome della nuova visualizzazione, quindi fare clic su **[!UICONTROL Save]**.
+   * Per salvare le impostazioni in una nuova vista a colonne personalizzata, fai clic su **[!UICONTROL Save As]**. In [!UICONTROL Save View] , immettere il nome della nuova visualizzazione e quindi fare clic su **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sui report in-Platform](campaign-reports-about.md)
+>* [Informazioni Sui Rapporti In-Platform](campaign-reports-about.md)
 >* [Informazioni sulle visualizzazioni dati di Campaign](campaign-data-views-about.md)
->* [Modificare la Vista a colonne](column-view-change.md)
+>* [Modificare la vista a colonne](column-view-change.md)
 >* [Creare una vista a colonne personalizzata](column-view-create.md)
 >* [Filtrare i dati della campagna](campaign-data-filter.md)
 >* [Ordinare una colonna di dati](campaign-data-sort.md)

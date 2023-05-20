@@ -5,8 +5,8 @@ feature: DSP Placements
 exl-id: d1711166-8f20-4641-a1f5-c865a40ad387
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 0%
+source-wordcount: '98'
+ht-degree: 1%
 
 ---
 
@@ -14,18 +14,18 @@ ht-degree: 0%
 
 Nelle impostazioni di posizionamento, utilizza le scelte rapide da tastiera per navigare rapidamente<!-- and to create ads and placements -->.
 
-| Pagine applicabili | Scelta rapida | Descrizione |
+| Pagina/e applicabile/i | Scelta rapida | Descrizione |
 | ---------------| ----------- | ---------------------- |
-| Impostazioni di posizionamento | o | Consente di passare al [!UICONTROL Goals] impostazioni |
-| Impostazioni di posizionamento | g | Consente di passare al [!UICONTROL Geos] impostazioni |
-| Impostazioni di posizionamento | i | Consente di passare al [!UICONTROL Inventory] impostazioni |
-| Impostazioni di posizionamento | s | Consente di passare al [!UICONTROL Sites] impostazioni |
-| Impostazioni di posizionamento | a | Consente di passare al [!UICONTROL Audience] impostazioni |
-| Impostazioni di posizionamento | b | Consente di passare al [!UICONTROL Brand Safety] impostazioni |
-| Impostazioni di posizionamento | t | Consente di passare al [!UICONTROL Tracking] impostazioni |
-| Impostazioni di posizionamento | l | Consente di passare al [!UICONTROL Adobe Labs] impostazioni |
+| Impostazioni di posizionamento | o | Sposta l&#39;utente al [!UICONTROL Goals] impostazioni |
+| Impostazioni di posizionamento | g | Sposta l&#39;utente al [!UICONTROL Geos] impostazioni |
+| Impostazioni di posizionamento | i | Sposta l&#39;utente al [!UICONTROL Inventory] impostazioni |
+| Impostazioni di posizionamento | s | Sposta l&#39;utente al [!UICONTROL Sites] impostazioni |
+| Impostazioni di posizionamento | a | Sposta l&#39;utente al [!UICONTROL Audience] impostazioni |
+| Impostazioni di posizionamento | b | Sposta l&#39;utente al [!UICONTROL Brand Safety] impostazioni |
+| Impostazioni di posizionamento | t | Sposta l&#39;utente al [!UICONTROL Tracking] impostazioni |
+| Impostazioni di posizionamento | l | Sposta l&#39;utente al [!UICONTROL Adobe Labs] impostazioni |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 <!-- | Legacy placement settings | npv | Lets you create a new video placement | -->
 <!-- | Legacy placement settings | npd | Lets you create a new display placement | -->

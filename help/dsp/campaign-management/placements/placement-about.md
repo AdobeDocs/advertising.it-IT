@@ -1,5 +1,5 @@
 ---
-title: Informazioni sulla gestione del posizionamento in Advertising DSP
+title: Informazioni sulla gestione del posizionamento nella pubblicità DSP
 description: Scopri la gestione del posizionamento.
 feature: DSP Placements
 exl-id: 903ba200-6bb3-4c31-b7a9-03ada3de5451
@@ -10,44 +10,44 @@ ht-degree: 0%
 
 ---
 
-# Informazioni sulla gestione del posizionamento in Advertising DSP
+# Informazioni sulla gestione del posizionamento nella pubblicità DSP
 
-Un posizionamento include parametri di targeting per uno o più annunci dello stesso tipo di annuncio. Puoi creare un posizionamento per una singola campagna o pacchetto e quindi assegnargli gli annunci. Ogni campagna o posizionamento può includere più posizionamenti, con una rotazione specifica dell’annuncio. Per impostazione predefinita, gli annunci vengono ruotati in modo uniforme.
+Un posizionamento include parametri di targeting per uno o più annunci dello stesso tipo di annuncio. Puoi creare un posizionamento per una singola campagna o pacchetto, quindi assegnare ad esso gli annunci. Ogni campagna o posizionamento può includere più posizionamenti, con una rotazione di annunci specificata. Per impostazione predefinita, gli annunci vengono ruotati in modo uniforme.
 
-Una volta assegnato un posizionamento attivo a un pacchetto o a una campagna attiva, tutti gli annunci attivi e approvati nel posizionamento sono idonei all’esecuzione in base ai parametri di targeting del posizionamento.
+Dopo aver assegnato un posizionamento attivo a un pacchetto o a una campagna attiva, tutti gli annunci attivi approvati nel posizionamento possono essere eseguiti in base ai parametri di targeting del posizionamento.
 
-Puoi creare un posizionamento manualmente o duplicandone uno esistente. Puoi anche creare modelli di posizionamento da riutilizzare, manualmente o da un posizionamento esistente. Puoi allegare annunci aggiuntivi a qualsiasi posizionamento. È inoltre possibile modificare, mettere in pausa o archiviare singoli posizionamenti o utilizzare lo strumento di modifica collettiva per apportare modifiche.
+Potete creare un posizionamento manualmente o duplicandone uno esistente. Potete anche creare modelli di posizionamento da riutilizzare, manualmente o da un posizionamento esistente. Puoi allegare annunci aggiuntivi a qualsiasi posizionamento. Puoi anche modificare, mettere in pausa o archiviare singoli posizionamenti oppure utilizzare lo strumento di modifica in blocco per apportare modifiche.
 
 ## Tipi di posizionamento disponibili
 
 * Pre-roll
-* Mobile
+* Dispositivi mobili
 * Visualizzazione
-* Nativo
+* Nativa
 * Audio
 * TV collegata
 * Video universale
 
-## La [!UICONTROL Placements] Dashboard
+## Il [!UICONTROL Placements] Dashboard
 
-La [!UICONTROL Placements] dashboard centralizza le prestazioni e il reporting economico in tutti i posizionamenti, fornendo istantanee rapide delle prestazioni dei posizionamenti durante un determinato intervallo di date.
+Il [!UICONTROL Placements] la dashboard centralizza i rapporti economici e sulle prestazioni in tutti i posizionamenti, fornendo istantanee rapide delle prestazioni dei posizionamenti durante un intervallo di date specificato.
 
 ![Dashboard dei posizionamenti](/help/dsp/assets/placement-dashboard.png)
 
-Il dashboard include un grafico a tendenze personalizzabile di alto livello con tre metriche.
+La dashboard include un grafico di tendenza personalizzabile di alto livello con tre metriche.
 
-Il dashboard mostra anche le metriche di velocità e consegna per posizione, per impostazione predefinita. Facoltativamente, puoi visualizzare le metriche delle prestazioni per i posizionamenti e creare set di colonne personalizzati. È possibile scaricare l&#39;intera tabella dati nella cartella di download predefinita del browser come rapporto in formato XLSM (foglio di calcolo Excel con macro abilitate).
+Per impostazione predefinita, la dashboard mostra anche le metriche di velocità e consegna per posizionamento. Facoltativamente, puoi visualizzare le metriche delle prestazioni per i posizionamenti e creare set di colonne personalizzati. È possibile scaricare l&#39;intera tabella dati nella cartella di download predefinita del browser come rapporto in formato XLSM (foglio di calcolo Excel con attivazione macro).
 
-Per ogni posizionamento, puoi aprire una visualizzazione dettagliata ([la [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md)), che include metriche sulle prestazioni, metriche di velocità e consegna e set di colonne personalizzati per sito, annuncio e inventario; e anche metriche di frequenza. Puoi anche eseguire azioni rapide sui siti, gli annunci e l’inventario inclusi, come escludere un sito, mettere in pausa un annuncio o modificare un’offerta. Per aprire Ispettore, tenere premuto il cursore sulla riga di posizionamento, fare clic su **[!UICONTROL More]**, quindi fai clic su **[!UICONTROL Sites]**, **[!UICONTROL Ads]**, **[!UICONTROL Frequency]** o **[!UICONTROL Inventory]**. Puoi esportare i dati nella [!UICONTROL Sites], [!UICONTROL Ads], [!UICONTROL Frequency]oppure [!UICONTROL Inventory]  nella cartella di download predefinita del browser come rapporto in formato XLSM.
+Per ogni posizionamento, potete aprire una vista dettagliata ([il [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md)), che include metriche delle prestazioni, metriche di velocità e consegna, set di colonne personalizzate per sito, annuncio e inventario e metriche di frequenza. Puoi anche eseguire azioni rapide sui siti, sugli annunci e sull’inventario inclusi, ad esempio escludere un sito, mettere in pausa un annuncio o modificare un’offerta. Per aprire il controllo, posizionate il cursore sulla riga di posizionamento e fate clic su **[!UICONTROL More]** e quindi fare clic su **[!UICONTROL Sites]**, **[!UICONTROL Ads]**, **[!UICONTROL Frequency]** o **[!UICONTROL Inventory]**. È possibile esportare i dati in [!UICONTROL Sites], [!UICONTROL Ads], [!UICONTROL Frequency], o [!UICONTROL Inventory]  nella cartella di download predefinita del browser come rapporto in formato XLSM.
 
 >[!NOTE]
 >
->Puoi personalizzare ulteriormente il contenuto e la consegna del reporting sul posizionamento tramite [rapporti personalizzati](/help/dsp/reports/report-about.md).
+>Puoi personalizzare ulteriormente il contenuto e la distribuzione dei rapporti di posizionamento tramite [rapporti personalizzati](/help/dsp/reports/report-about.md).
 
 >[!MORELIKETHIS]
 >
 >* [Creare un posizionamento](placement-create.md)
->* [Visualizza il registro delle modifiche per un posizionamento](placement-change-log.md)
+>* [Visualizzare il log delle modifiche per un posizionamento](placement-change-log.md)
 >* [Impostazioni di posizionamento](placement-settings.md)
 >* [Risoluzione dei problemi relativi alle prestazioni](/help/dsp/optimization/troubleshooting-performance.md)
 

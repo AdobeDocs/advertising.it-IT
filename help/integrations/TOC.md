@@ -11,37 +11,37 @@ ht-degree: 12%
 ---
 
 
-# Integrazioni pubblicitarie di Adobe con Adobe Experience Cloud {#integrations}
+# Integrazioni di Adobe Advertising con Adobe Experience Cloud {#integrations}
 
 <!--  ADD LATER: and Adobe Experience Platform -->
 
 + [Novità](/help/integrations/home.md)
 + [!DNL Analytics for Advertising] {#analytics}
-   + [Panoramica [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
-   + [ID pubblicitari di Adobe utilizzati da [!DNL Analytics]](/help/integrations/analytics/ids.md)
-   + Pianificazione dell&#39;implementazione {#planning}
+   + [Panoramica di [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
+   + [Adobe di ID pubblicitari utilizzati da [!DNL Analytics]](/help/integrations/analytics/ids.md)
+   + Pianificazione dell’implementazione {#planning}
       + [Prerequisiti e informazioni chiave per l’implementazione [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)
       + [Codice JavaScript per [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)
-      + [Utilizzo della [!DNL Last Event Service] Libreria JavaScript con Adobe Experience Platform [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md)
-      + Macro per tag annunci {#macros}
-         + [Aggiungi [!DNL Analytics for Advertising] Macro a [!DNL Flashtalking] Tag ad](/help/integrations/analytics/macros-flashtalking.md)
-         + [Aggiungi [!DNL Analytics for Advertising] Macro a [!DNL Google Campaign Manager 360] Tag ad](/help/integrations/analytics/macros-google-campaign-manager.md)
+      + [Utilizzo di [!DNL Last Event Service] Libreria JavaScript con Adobe Experience Platform [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md)
+      + Macro per i tag annuncio {#macros}
+         + [Aggiungi [!DNL Analytics for Advertising] Macro per [!DNL Flashtalking] Tag annuncio](/help/integrations/analytics/macros-flashtalking.md)
+         + [Aggiungi [!DNL Analytics for Advertising] Macro per [!DNL Google Campaign Manager 360] Tag annuncio](/help/integrations/analytics/macros-google-campaign-manager.md)
    + Dati scambiati {#data}
-      + [Metriche pubblicitarie di Adobe in Analysis Workspace](/help/integrations/analytics/advertising-metrics-in-analytics.md)
+      + [Metriche pubblicitarie per Adobi in Analysis Workspace](/help/integrations/analytics/advertising-metrics-in-analytics.md)
       + [[!DNL Analytics] Dati in Adobe Advertising](/help/integrations/analytics/analytics-data-in-advertising.md)
       + [Varianze di dati previste tra [!DNL Analytics] e pubblicità Adobe](/help/integrations/analytics/data-variances.md)
-   + Utilizzo [!DNL Analytics Marketing Channels] {#mc}
-      + [Nozioni fondamentali di [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-overview.md)
-      + [Utilizzo degli ID pubblicitari di Adobe per creare [!DNL Marketing Channels] Regole di elaborazione](/help/integrations/analytics/marketing-channels/mc-ids.md)
-      + [Utilizzo [!DNL Marketing Channels] con i dati pubblicitari di Adobe](/help/integrations/analytics/marketing-channels/mc-ac-data.md)
-      + [Perché i dati del canale possono variare tra la pubblicità Adobe e [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)
+   + Lavorare in [!DNL Analytics Marketing Channels] {#mc}
+      + [Nozioni di base di [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-overview.md)
+      + [Utilizzo degli ID Adobe Advertising per la creazione [!DNL Marketing Channels] Regole di elaborazione](/help/integrations/analytics/marketing-channels/mc-ids.md)
+      + [Utilizzo di [!DNL Marketing Channels] con i dati pubblicitari di Adobe](/help/integrations/analytics/marketing-channels/mc-ac-data.md)
+      + [Perché i dati dei canali possono variare tra la pubblicità Adobe e [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)
 + Integrazione con Adobe Audience Manager {#audience-manager}
-   + [Integrazioni pubblicitarie di Adobe con Adobe Audience Manager](/help/integrations/audience-manager/overview.md)
-   + [Importare segmenti di Audience Manager in Pubblicità Adobe](/help/integrations/audience-manager/import-audiences.md)
+   + [Integrazioni di Adobe Advertising con Adobe Audience Manager](/help/integrations/audience-manager/overview.md)
+   + [Importare segmenti Audience Manager in Adobe Advertising](/help/integrations/audience-manager/import-audiences.md)
    + Integrazione dei dati multimediali DSP con Adobe Audience Manager {#media-data-ingestion}
-      + [Panoramica sull’invio DSP dati di esposizione a contenuti multimediali a Adobe Audience Manager](/help/integrations/audience-manager/media-data-integration/overview.md)
-      + [Raccogliere dati di impression e clic da campagne DSP](/help/integrations/audience-manager/media-data-integration/collect.md)
-      + [Casi d&#39;uso](/help/integrations/audience-manager/media-data-integration/use-cases.md)
-   + [Adobe di Audience Analytics per i clienti della pubblicità](/help/integrations/audience-manager/audience-analytics.md)
-+ [Configurare test A/B in Adobe Target per DSP annunci](/help/integrations/target/overview-ab-tests.md)
-+ [Tutorials video sulle integrazioni pubblicitarie di Adobe](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->
+      + [Panoramica dell’invio dei dati sull’esposizione ai contenuti multimediali dell’DSP a Adobe Audience Manager](/help/integrations/audience-manager/media-data-integration/overview.md)
+      + [Raccogliere i dati su impression e clic dalle campagne DSP](/help/integrations/audience-manager/media-data-integration/collect.md)
+      + [Casi d’uso](/help/integrations/audience-manager/media-data-integration/use-cases.md)
+   + [Audience Analytics di Adobe per clienti Advertising](/help/integrations/audience-manager/audience-analytics.md)
++ [Configurare i test A/B in Adobe Target per gli annunci DSP](/help/integrations/target/overview-ab-tests.md)
++ [Video Tutorials sulle integrazioni di Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->

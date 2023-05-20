@@ -12,23 +12,23 @@ ht-degree: 0%
 
 # Informazioni sulla gestione dei pacchetti in Advertising DSP
 
-Utilizza i pacchetti per raggruppare i posizionamenti per la consegna a un budget, a un obiettivo di prestazioni e a una strategia di calcolo personalizzata impostati. DSP ottimizzare i pacchetti spostando i budget nei posizionamenti più performanti del pacchetto. È possibile organizzare i pacchetti in base al formato di posizionamento, al tipo di inventario, al provider di dati, all’utente tipo o ad altre caratteristiche distinguibili. I pacchetti sono facoltativi.
+Utilizza i pacchetti per raggruppare i posizionamenti per la consegna a un budget impostato, un obiettivo di prestazioni e una strategia di velocità personalizzata. L’DSP ottimizza i pacchetti spostando i budget sui posizionamenti con le prestazioni migliori all’interno del pacchetto. Puoi organizzare i pacchetti in base al formato di posizionamento, al tipo di inventario, al provider di dati, all’utente tipo o ad altre caratteristiche distinguibili. I pacchetti sono facoltativi.
 
-Puoi creare i pacchetti manualmente o duplicando quelli esistenti. Puoi anche modificare e allegare i posizionamenti a qualsiasi pacchetto.
+Puoi creare i pacchetti manualmente o duplicando quelli esistenti. Puoi anche modificare e allegare posizionamenti a qualsiasi pacchetto.
 
-## La [!UICONTROL Packages] Dashboard
+## Il [!UICONTROL Packages] Dashboard
 
-La [!UICONTROL Packages] dashboard centralizza le prestazioni e il reporting economico in tutte le strategie dei pacchetti, fornendo istantanee rapide delle prestazioni dei pacchetti durante un determinato intervallo di date.
+Il [!UICONTROL Packages] la dashboard centralizza i rapporti economici e sulle prestazioni in tutte le strategie dei pacchetti, fornendo istantanee rapide delle prestazioni dei pacchetti durante un intervallo di date specificato.
 
-![Dashboard dei pacchetti](/help/dsp/assets/package-dashboard.png)
+![Dashboard pacchetti](/help/dsp/assets/package-dashboard.png)
 
-Il dashboard include un grafico a tendenze personalizzabile di alto livello con tre metriche.
+La dashboard include un grafico di tendenza personalizzabile di alto livello con tre metriche.
 
-Mostra anche le metriche di velocità e consegna per pacchetto, per impostazione predefinita. Facoltativamente, puoi visualizzare le metriche delle prestazioni per i pacchetti e creare set di colonne personalizzati. È possibile scaricare l&#39;intera tabella dati nella cartella di download predefinita del browser come rapporto in formato XLSM (foglio di calcolo Excel con macro abilitate).
+Per impostazione predefinita, mostra anche le metriche di velocità e consegna per pacchetto. Facoltativamente, puoi visualizzare le metriche delle prestazioni per i pacchetti e creare set di colonne personalizzati. È possibile scaricare l&#39;intera tabella dati nella cartella di download predefinita del browser come rapporto in formato XLSM (foglio di calcolo Excel con attivazione macro).
 
 >[!NOTE]
 >
->Puoi personalizzare ulteriormente il contenuto e la consegna del reporting dei pacchetti tramite [rapporti personalizzati](/help/dsp/reports/report-about.md).
+>Puoi personalizzare ulteriormente il contenuto e la consegna dei rapporti sui pacchetti tramite [rapporti personalizzati](/help/dsp/reports/report-about.md).
 
 Per visualizzare tutti i posizionamenti all’interno di un pacchetto, fai clic sul nome del pacchetto.
 
@@ -37,6 +37,6 @@ Per visualizzare tutti i posizionamenti all’interno di un pacchetto, fai clic 
 >* [Creare un pacchetto](package-create.md)
 >* [Modificare un pacchetto](package-edit.md)
 >* [Allegare un posizionamento a un pacchetto](package-attach-placement.md)
->* [Visualizza il registro delle modifiche per un pacchetto](package-change-log.md)
+>* [Visualizzare il registro delle modifiche di un pacchetto](package-change-log.md)
 >* [Impostazioni pacchetto](package-settings.md)
 

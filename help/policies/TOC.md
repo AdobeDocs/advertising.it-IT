@@ -16,8 +16,8 @@ ht-degree: 69%
 ---
 
 
-# Criteri e linee guida di Adobe Advertising  {#policies}
+# Criteri e linee guida di Adobe Advertising {#policies}
 
-+ [Criteri per i requisiti degli annunci](/help/policies/ad-requirements-policy.md)
-+ [Linee guida accettabili per i segmenti di stato](/help/policies/health-segment-guidelines.md)
++ [Criterio dei requisiti per gli annunci](/help/policies/ad-requirements-policy.md)
++ [Linee guida accettabili per i segmenti di integrità](/help/policies/health-segment-guidelines.md)
 + [[!DNL DSP] Linee guida sull’utilizzo dei dati](/help/policies/data-usage-guidelines.md)

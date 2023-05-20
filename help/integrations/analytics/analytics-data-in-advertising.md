@@ -1,6 +1,6 @@
 ---
-title: '''[!DNL Analytics] Dati in Adobe Advertising"'
-description: '''[!DNL Analytics] Dati in Adobe Advertising"'
+title: '[!DNL Analytics] Dati in Adobe Advertising'
+description: '[!DNL Analytics] Dati in Adobe Advertising'
 feature: Integration with Adobe Analytics
 exl-id: e11b0617-44e3-4f28-a065-aa9f6cf3eb5d
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -12,35 +12,35 @@ ht-degree: 0%
 
 # [!DNL Analytics] Dati in Adobe Advertising
 
-*Inserzionisti con una sola integrazione Advertising-Adobe Analytics di Adobe*
+*Inserzionisti con un Adobe di integrazione Advertising-Adobe Analytics Only*
 
 ## Segmenti di Analytics
 
-Tutti i segmenti creati in [!DNL Analytics] e pubblicato in Experience Cloud.
+Tutti i segmenti creati in [!DNL Analytics] e pubblicato su Experience Cloud.
 
-La visualizzazione dei nuovi segmenti in Adobe Advertising richiede 24-48 ore. Gli aggiornamenti ai segmenti esistenti vengono sincronizzati entro circa otto ore.
+I nuovi segmenti richiedono 24-48 ore per essere visualizzati in Adobe Advertising. Gli aggiornamenti ai segmenti esistenti vengono sincronizzati entro circa otto ore.
 
 <!-- I added "metric" to some of the links below, even though it looks redundant, because of syntax limitations: If you use [!DNL] or [!UICONTROL] as the sole text of a link (such as [[!UICONTROL Revenue]], the tag is included in the link text (such as "[!UICONTROL Revenue]") when it's published. -->
 
-## Metriche di coinvolgimento del sito
+## Metriche di coinvolgimento sito
 
 >[!NOTE]
 >
->* [!DNL Analytics] trasmette gli eventi per l’eVar EF ID in Adobe Advertising.  L’integrazione predefinita non supporta l’invio di metriche calcolate o altre dimensioni (eVar) in Adobe Advertising. Tuttavia, se la metrica calcolata può essere completamente acquisita in un evento personalizzato, Adobe Advertising può acquisire l’evento personalizzato.
+>* [!DNL Analytics] trasmette gli eventi per l’eVar EF ID in Adobe Advertising.  L’integrazione predefinita non supporta l’invio di metriche calcolate o altre dimensioni (eVar) in Adobe Advertising. Tuttavia, se la metrica calcolata può essere interamente acquisita in un evento personalizzato, Adobe Advertising può acquisire l’evento personalizzato.
 >* [!DNL Analytics] trasmette i dati ad Adobe Advertising ogni ora.
 
 
-* [!UICONTROL Timespent_secs_1stvisit]: Il numero di secondi trascorsi sul sito durante la prima visita del visitatore.
-* [!UICONTROL Timespent_secs_total]: Numero totale di secondi trascorsi sul sito in tutte le visite nell’intervallo di lookback su clic.
-* [!UICONTROL Pageviews_1stvisit]: Il numero di visualizzazioni di pagina sul sito durante la prima visita del visitatore.
-* [!UICONTROL Pageviews_total]: Il numero totale di visualizzazioni di pagina sul sito per tutte le visite nell’intervallo di lookback su clic.
+* [!UICONTROL Timespent_secs_1stvisit]: il numero di secondi trascorsi sul sito durante la prima visita del visitatore.
+* [!UICONTROL Timespent_secs_total]: numero totale di secondi trascorsi sul sito in tutte le visite all’interno dell’intervallo di lookback dei clic.
+* [!UICONTROL Pageviews_1stvisit]: numero di visualizzazioni di pagina sul sito durante la prima visita del visitatore.
+* [!UICONTROL Pageviews_total]: numero totale di visualizzazioni di pagina sul sito in tutte le visite all’interno dell’intervallo di lookback dei clic.
 * [[!UICONTROL Bounces] metrica](https://experienceleague.adobe.com/docs/analytics/components/metrics/bounces.html)
 * [[!UICONTROL Visits] metrica](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html)
-* [!UICONTROL ef_id_instances]: Il numero di volte in cui [!DNL Analytics] raccolto [!UICONTROL EF ID].
+* [!UICONTROL ef_id_instances]: il numero di volte che [!DNL Analytics] ha raccolto un [!UICONTROL EF ID].
 
 ## Metriche di conversione
 
-[!DNL Analytics] trasmette le metriche di conversione ad Adobe Advertising ogni giorno.
+[!DNL Analytics] trasmette quotidianamente le metriche di conversione ad Adobe Advertising.
 
 ### Metriche di conversione standard
 
@@ -55,14 +55,14 @@ La visualizzazione dei nuovi segmenti in Adobe Advertising richiede 24-48 ore. G
 
 ### Metriche di conversione personalizzate
 
-Queste metriche sono specifiche per la suite di rapporti, pertanto le metriche disponibili variano per ogni cliente e suite di rapporti.
+Queste metriche sono specifiche per la suite di rapporti, pertanto le metriche disponibili variano per ciascun cliente e suite di rapporti.
 
 ### Metriche di conversione riservate
 
-Queste metriche sono specifiche per la suite di rapporti, pertanto le metriche disponibili variano per ogni cliente e suite di rapporti.
+Queste metriche sono specifiche per la suite di rapporti, pertanto le metriche disponibili variano per ciascun cliente e suite di rapporti.
 
 >[!MORELIKETHIS]
 >
->* [Panoramica [!DNL Analytics for Advertising]](overview.md)
->* [Metriche pubblicitarie di Adobe in Analysis Workspace](/help/integrations/analytics/advertising-metrics-in-analytics.md)
+>* [Panoramica di [!DNL Analytics for Advertising]](overview.md)
+>* [Metriche pubblicitarie per Adobi in Analysis Workspace](/help/integrations/analytics/advertising-metrics-in-analytics.md)
 

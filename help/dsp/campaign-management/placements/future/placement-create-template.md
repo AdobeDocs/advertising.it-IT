@@ -11,12 +11,12 @@ ht-degree: 0%
 
 # Creare un modello di posizionamento
 
-Puoi creare un modello di posizionamento da zero o da un modello esistente.
+Potete creare un modello di posizionamento da zero o da un modello esistente.
 
 ## Creare un modello di posizionamento xxx
 
 ## Creare un modello di posizionamento da un posizionamento esistente
 
-1. Nella visualizzazione Posizionamenti, selezionare il posizionamento, fare clic con il pulsante destro del mouse su Modifica e selezionare Salva come modello.  OR può aprire le impostazioni di posizionamento e salvarle come modello.
+1. Nella vista Posizionamenti, selezionate il posizionamento, fate clic con il pulsante destro del mouse su Modifica (Edit) e selezionate Salva come modello (Save as Template).  O può aprire le impostazioni di posizionamento e salvarle come modello.
 1. XXX
 1. Fai clic su Invia.

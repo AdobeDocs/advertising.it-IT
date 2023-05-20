@@ -23,7 +23,7 @@ ht-degree: 4%
 >* [Duplicare un rapporto personalizzato](/help/dsp/reports/report-copy.md)
 >* [Modificare un rapporto personalizzato](/help/dsp/reports/report-edit.md)
 >* [Eliminare un rapporto personalizzato](/help/dsp/reports/report-delete.md)
->* [Impostazioni report personalizzate](/help/dsp/reports/report-settings.md)
->* [Informazioni sui report in-Platform](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [Colonne dei rapporti disponibili](/help/dsp/reports/report-columns.md)
+>* [Impostazioni report personalizzati](/help/dsp/reports/report-settings.md)
+>* [Informazioni Sui Rapporti In-Platform](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Colonne report disponibili](/help/dsp/reports/report-columns.md)
 

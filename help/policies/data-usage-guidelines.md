@@ -1,5 +1,5 @@
 ---
-title: Adobe di linee guida per l’utilizzo dei dati DSP pubblicità
+title: Adobe di linee guida per l’utilizzo dei dati dell’DSP per la pubblicità
 description: Consulta le linee guida per l’utilizzo dei dati.
 feature: Policies
 exl-id: b71caa80-d1f6-4f42-90c3-a3e19acb2c6c
@@ -10,18 +10,18 @@ ht-degree: 0%
 
 ---
 
-# Adobe di linee guida per l’utilizzo dei dati DSP pubblicità
+# Adobe di linee guida per l’utilizzo dei dati dell’DSP per la pubblicità
 
 *Ultimo aggiornamento: 5 settembre 2019*
 
-*Ad Adobe DSP pubblicitarie*
+*Ad Adobe, pubblicità DSP*
 
-Le presenti linee guida per l’utilizzo dei dati (&quot;Linee guida per l’utilizzo dei dati&quot;) stabiliscono i requisiti per l’utilizzo di determinati dati accessibili tramite i Servizi on-demand di Adobe per la pubblicità DSP (&quot;Servizi&quot;). Le presenti linee guida sono incorporate in riferimento al Contratto tra Adobe e il Cliente che utilizza i Servizi on-demand. I termini capitalizzati utilizzati nelle presenti linee guida, ma non qui definiti, avranno il significato stabilito in tale accordo.
+Le presenti linee guida sull’utilizzo dei dati (&quot;linee guida per i dati&quot;) stabiliscono i requisiti per l’utilizzo di determinati dati a cui si accede tramite i servizi on-demand di Adobe per Advertising DSP (&quot;servizi&quot;). Le presenti linee guida sono integrate per riferimento nel contratto tra Adobe e il Cliente che utilizza i Servizi a richiesta. I termini in maiuscolo utilizzati nelle presenti linee guida ma non definiti in questa avranno il significato stabilito in tale accordo.
 
-L’Adobe si riserva il diritto di stabilire, a suo giudizio, se l’uso dei dati da parte del Cliente viola le presenti linee guida.
+Adobe si riserva il diritto di determinare, a suo giudizio, se l’utilizzo dei dati da parte del Cliente violi le presenti Linee guida.
 
-## Utilizzo di [!DNL TruSignal] Dati
+## Uso di [!DNL TruSignal] Dati
 
-[!DNL TruSignal] I dati non possono essere utilizzati per: (1) qualsiasi finalità o azione avversa ammissibile ai sensi della [!DNL Fair Credit Reporting Act] (può essere modificato di tanto in tanto); 2) rinegoziazione o ristrutturazione del debito; o 3) agevolando qualsiasi pubblicità illegale per l&#39;intrattenimento per adulti, la pornografia, i giocattoli sessuali, le danze esotiche, le armi da fuoco, il gioco d&#39;azzardo illegale o qualsiasi altro prodotto o servizio che sia illegale, anche senza limitazioni a discriminare sulla base di razza, sesso, religione, orientamento sessuale, o in qualsiasi modo che possa essere ritenuto ingiusto ai sensi della legge applicabile; e 4) ai fini dell&#39;idoneità all&#39;impiego, b) dell&#39;idoneità al credito, `(c)` ammissibilità all&#39;assistenza sanitaria, o d) assunzione a fermo e determinazione dei prezzi delle assicurazioni.<!-- I used backticks in the previous sentence to prevent ( c ) from displaying as a copyright symbol. I think the OS does that. Using HTML code for the parentheses doesn't prevent it. -->
+[!DNL TruSignal] I dati non possono essere utilizzati per: (1) qualsiasi finalità ammissibile o azione avversa definita dal [!DNL Fair Credit Reporting Act] (e successive modifiche); (2) la rinegoziazione o la ristrutturazione del debito; o (3) l&#39;agevolazione di qualsiasi pubblicità a favore di intrattenimento per adulti, pornografia, giocattoli sessuali, danza esotica, armi da fuoco, gioco d&#39;azzardo illegale o qualsiasi altro prodotto o servizio illegale, anche senza limitazione di discriminazione sulla base della razza, del sesso, della religione, dell&#39;orientamento sessuale o in qualsiasi modo che possa essere considerato sleale ai sensi della legge applicabile; e (4) ai fini a) dell&#39;idoneità all&#39;impiego, (b) dell&#39;ammissibilità al credito, `(c)` assistenza sanitaria, o d) assicurazione idoneità sottoscrizione e prezzo.<!-- I used backticks in the previous sentence to prevent ( c ) from displaying as a copyright symbol. I think the OS does that. Using HTML code for the parentheses doesn't prevent it. -->
 
-Inoltre, [!DNL TruSignal] I dati non possono essere: (1) decompilati, smontati, utilizzati per creare opere derivate o decodificati; o 2) ai quali sono stati ceduti, rivenduti, riutilizzati o comunque concessi diritti in relazione a terzi, compreso l&#39;uso da parte degli uffici di servizio.
+Inoltre, [!DNL TruSignal] I dati non possono essere: (1) decompilati, disassemblati, utilizzati per creare opere derivate o decodificati; o (2) concessi in sublicenza, rivenduti, riutilizzati o altrimenti concessi diritti a terzi, incluso qualsiasi uso da parte di un service bureau.

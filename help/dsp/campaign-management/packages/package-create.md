@@ -14,22 +14,22 @@ ht-degree: 0%
 
 >[!TIP]
 >
->La best practice prevede la separazione dei pacchetti in base a tattiche di targeting, tipi di annuncio e obiettivi prestazionali.
+>La best practice prevede di separare i pacchetti in base a tattiche di targeting, tipi di annunci e obiettivi di prestazioni.
 
 1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
 1. Fai clic sul nome della campagna in cui desideri creare il pacchetto.
-1. Nella scheda Pacchetti, fai clic su **[!UICONTROL Create]** > **[!UICONTROL Package]**.
-1. Inserisci il [impostazioni del pacchetto](package-settings.md).
+1. Nella scheda Pacchetti, fare clic su **[!UICONTROL Create]** > **[!UICONTROL Package]**.
+1. Inserisci il [impostazioni pacchetto](package-settings.md).
 1. Clic **[!UICONTROL Save and Close]**.
 
-Una volta creato un pacchetto, puoi assegnargli dei posizionamenti.
+Dopo aver creato un pacchetto, puoi assegnarvi dei posizionamenti.
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulla gestione dei pacchetti](package-about.md)
 >* [Modificare un pacchetto](package-edit.md)
 >* [Allegare un posizionamento a un pacchetto](package-attach-placement.md)
->* [Visualizza il registro delle modifiche per un pacchetto](package-change-log.md)
+>* [Visualizzare il registro delle modifiche di un pacchetto](package-change-log.md)
 >* [Impostazioni pacchetto](package-settings.md)
->* [Video: Come creare un pacchetto](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html)
+>* [Video: come creare un pacchetto](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html)
 

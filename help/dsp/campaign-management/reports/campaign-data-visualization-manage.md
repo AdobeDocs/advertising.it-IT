@@ -12,23 +12,23 @@ ht-degree: 0%
 
 # Gestire le visualizzazioni dati
 
-Puoi modificare le metriche e la modalità grafico per tutte le visualizzazioni di dati nelle campagne o per una singola campagna. Le modifiche apportate a una singola campagna vengono applicate a tutte le visualizzazioni dati per la campagna, inclusa la [!UICONTROL Packages], [!UICONTROL Placements]e [!UICONTROL Ads] schede.
+Puoi modificare le metriche e la modalità grafico per tutte le visualizzazioni di dati nelle campagne o per una singola campagna. Le modifiche apportate a una singola campagna vengono applicate a tutte le visualizzazioni di dati della campagna, inclusa [!UICONTROL Packages], [!UICONTROL Placements], e [!UICONTROL Ads] schede.
 
 ## Modificare le metriche per una visualizzazione dati
 
 1. In alto a destra nella visualizzazione dati, fai clic su ![Impostazioni](/help/dsp/assets/settings-chart.png).
 1. Seleziona le metriche.
-Non puoi selezionare due volte la stessa metrica.
+Non puoi selezionare la stessa metrica due volte.
 1. Clic **[!UICONTROL Apply]**.
 
-## Modificare la modalità di visualizzazione per una visualizzazione dati
+## Modificare la modalità di visualizzazione di una visualizzazione dati
 
-* In alto a destra nella visualizzazione dati, fai clic sul pulsante [!UICONTROL Overlay] interruttore (![Interruttore di sovrapposizione](/help/dsp/assets/overlay.png)) per passare dalla modalità sovrapposizione (tutti i grafici sovrapposti) alla modalità grafico a tre grafici separati.
+* In alto a destra nella visualizzazione dati, fai clic su [!UICONTROL Overlay] switch (![Interruttore di sovrapposizione](/help/dsp/assets/overlay.png)) per passare dalla modalità di sovrapposizione (tutti i grafici sovrapposti) alla modalità grafico a traliccio (tre grafici separati).
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sui report in-Platform](campaign-reports-about.md)
->* [Visualizzare i siti, gli annunci e i dettagli di frequenza per un posizionamento](placement-details-view.md)
->* [Modificare la Vista a colonne](column-view-change.md)
+>* [Informazioni Sui Rapporti In-Platform](campaign-reports-about.md)
+>* [Visualizzare i dettagli di Siti, Annunci e Frequenza per un posizionamento](placement-details-view.md)
+>* [Modificare la vista a colonne](column-view-change.md)
 >* [Filtrare i dati della campagna](campaign-data-filter.md)
 

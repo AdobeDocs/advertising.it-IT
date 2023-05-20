@@ -5,8 +5,8 @@ source-wordcount: '26'
 ht-degree: 0%
 
 ---
-# Documentazione di supporto sulla privacy del consumatore per Adobe Advertising
+# Documentazione del Supporto per la privacy del consumatore per Adobe Advertising
 
-Questa cartella è ad Adobe il supporto della pubblicità per la privacy del consumatore.
+Questa cartella è ad Adobe il supporto Advertising per la privacy del consumatore.
 
-**Nota: Questa pagina non viene pubblicata nella documentazione rivolta al cliente.**
+**Nota: questa pagina non è pubblicata nella documentazione destinata al cliente.**

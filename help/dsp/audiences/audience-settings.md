@@ -1,6 +1,6 @@
 ---
-title: Impostazioni del pubblico
-description: Consulta le descrizioni delle impostazioni di pubblico disponibili.
+title: Impostazioni pubblico
+description: Consulta le descrizioni delle impostazioni disponibili per il pubblico.
 feature: DSP Audiences
 exl-id: ea69ed6e-2d68-4ac5-8465-2ee7d798ae1d
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -10,34 +10,34 @@ ht-degree: 0%
 
 ---
 
-# Impostazioni del pubblico
+# Impostazioni pubblico
 
 ## Segmenti di terze parti
 
-(Facoltativo) Qualsiasi segmento standard disponibile tramite la tassonomia dati di terze parti Adobe Advertising , da includere nella configurazione del pubblico.
+(Facoltativo) Qualsiasi segmento standard disponibile tramite la tassonomia dei dati di terze parti di Adobe Advertising, da includere nella configurazione del pubblico.
 
 ## Segmenti di prime parti
 
 (Facoltativo) Qualsiasi segmento di prime parti importato e/o segmento personalizzato importato per l’account, da includere nella configurazione del pubblico.
 
-## Segmenti di Adobe
+## Segmenti Adobe
 
-(Facoltativo) Qualsiasi [!DNL Adobe Real-Time Customer Data Profile], segmenti Adobe Analytics o Adobe Audience Manager da includere nella configurazione del pubblico.
+(Facoltativo) Qualsiasi [!DNL Adobe Real-Time Customer Data Profile], Adobe Analytics o Adobe Audience Manager da includere nella configurazione del pubblico.
 
 ## Segmenti personalizzati
 
-(Facoltativo) Qualsiasi segmento creato dall’utente, che viene acquisito utilizzando pixel di segmento DSP personalizzati, da includere nella configurazione del pubblico. Questo può includere segmenti personalizzati standard e segmenti di rifiuto del CCPA.
+(Facoltativo) Qualsiasi segmento creato dall’utente, che viene acquisito utilizzando pixel di segmento DSP personalizzati, da includere nella configurazione del pubblico. Possono essere inclusi i segmenti personalizzati standard e i segmenti di rifiuto del CCPA.
 
 ## Tipi di pubblico salvati
 
-(Facoltativo) Qualsiasi pubblico esistente generato nella Libreria Pubblico da includere nella configurazione del pubblico.
+(Facoltativo) Tutti i tipi di pubblico esistenti incorporati nella Libreria tipi di pubblico da includere nella configurazione del pubblico.
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sulla gestione dell&#39;audience](audience-about.md)
+>* [Informazioni su Gestione dell&#39;audience](audience-about.md)
 >* [Creare un pubblico riutilizzabile](reusable-audience-create.md)
->* [Fornitori di dati di terze parti disponibili](third-party-data-providers.md)
->* [Sintassi per la logica del segmento di pubblico](audience-segment-logic-syntax.md)
+>* [Provider di dati di terze parti disponibili](third-party-data-providers.md)
+>* [Sintassi della logica dei segmenti di pubblico](audience-segment-logic-syntax.md)
 >* [Creare e implementare un segmento personalizzato](custom-segment-create.md)
 >* [Creare e implementare un [!UICONTROL CCPA Opt-Out-of-Sale] Segmento](ccpa-opt-out-segment-create.md)
 >* [Impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)

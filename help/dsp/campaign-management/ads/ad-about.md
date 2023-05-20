@@ -1,11 +1,11 @@
 ---
 title: Informazioni sulla gestione degli annunci in Advertising DSP
-description: Scopri la gestione degli annunci.
+description: Informazioni sulla gestione degli annunci.
 feature: DSP Ads
 exl-id: 41dbe28e-a476-4601-a3d8-a9111eae3f6b
 source-git-commit: 9073400eb26957c63378bee90929009fcc82f78f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -14,52 +14,52 @@ ht-degree: 0%
 
 <!-- add "The Ads View (Dashboard?)" section -->
 
-DSP supporta la consegna di annunci tramite tag di terze parti per il serving di annunci (come Google, Flashtalk o Sizmek) per vari tipi di annunci e il caricamento di risorse dirette per gli annunci display nativi. Puoi caricare tag di terze parti singolarmente o in blocco. I caricamenti in blocco utilizzano i fogli dei tag partner o un modello di tag in blocco.
+L’DSP supporta la distribuzione degli annunci tramite tag di terze parti per la gestione degli annunci (ad esempio Google, Flashtalk o Sizmek) per vari tipi di annunci e il caricamento diretto delle risorse per gli annunci display nativi. Puoi caricare tag di terze parti singolarmente o in blocco. I caricamenti in blocco utilizzano fogli di tag partner o un modello di tag in blocco.
 
 <!-- The bulk upload feature requires you to either a) upload DoubleClick and Flashtalking tag sheets or b) download a template, input your tags into the template, and then re-upload the template. -->
 <!-- need a list of all supported third-party ad servers; see file in future-tbd folder -->
 
-Una volta configurati i tuoi annunci, allega ciascun annuncio a un posizionamento, che include i parametri di targeting (come geo, pubblico, dispositivo e targeting di inventario) che controllano il modo in cui viene distribuita la campagna. Puoi allegare un singolo annuncio a uno o più posizionamenti.
+Una volta configurati gli annunci, allega ogni annuncio a un posizionamento, che include i parametri di targeting (come geotargeting, pubblico, dispositivo e targeting di inventario) che controllano il modo in cui la campagna consegna. Puoi allegare un singolo annuncio a uno o più posizionamenti.
 
 ## Tipi di annunci disponibili {#ad-types}
 
-Sono disponibili in DSP tutti i seguenti tipi di annunci. Per le specifiche complete per ogni tipo di annuncio, vedi [Specifiche degli annunci](ad-specs.md).
+Tutti i seguenti tipi di annunci sono disponibili nell’DSP. Per le specifiche complete per ciascun tipo di annuncio, vedi [Specifiche annuncio](ad-specs.md).
 
-* **Annunci audio (solo di terze parti)**: Gli annunci audio vengono riprodotti tra i contenuti dei siti di pubblicazione digitale e possono essere eseguiti autonomamente come file audio o insieme a banner correlati. L&#39;audio viene utilizzato al meglio per promuovere la brand awareness e coinvolgere il pubblico on-the-go. Gli indicatori prestazioni chiave per l&#39;audio includono [!UICONTROL Completion Rate] e [!UICONTROL Cost per Completion].
+* **Annunci audio (solo di terze parti)**: gli annunci audio vengono riprodotti tra i contenuti dei siti degli editori digitali e possono essere eseguiti autonomamente come file audio o insieme ai banner correlati. L’audio è ideale per promuovere la brand awareness e coinvolgere il pubblico in movimento. Gli indicatori di prestazioni chiave per l&#39;audio includono [!UICONTROL Completion Rate] e [!UICONTROL Cost per Completion].
 
-* **Annunci visualizzati (solo di terze parti)**: Gli annunci display sono immagini animate o statiche visualizzate nei browser web o nelle app. Facendo clic sull’unità pubblicitaria l’utente passa a un sito o a un microsito con marchio. La visualizzazione è più utilizzata per promuovere CPM efficienti, aumentare l’associazione dei messaggi, aggiungere punti di contatto aggiuntivi di marchi o prodotti e indirizzare gli utenti verso il basso nel funnel di acquisto. Tra gli indicatori chiave di performance per la visualizzazione [!UICONTROL Clicks], [!UICONTROL Cost per Click], [!UICONTROL Conversions]e [!UICONTROL Cost per Conversion]. DSP supporta un&#39;ampia varietà di banner di visualizzazione e dimensioni degli annunci.
+* **Visualizza annunci (solo di terze parti)**: gli annunci display sono immagini statiche o animate visualizzate nei browser web o nelle app. Facendo clic sull’unità pubblicitaria, l’utente viene indirizzato a un sito o a un microsito con marchio. La visualizzazione è ideale per promuovere CPM efficienti, aumentare l’associazione dei messaggi, aggiungere ulteriori punti di contatto per marchi o prodotti e indirizzare gli utenti verso il basso nel funnel di acquisto. Gli indicatori di prestazioni chiave per la visualizzazione includono [!UICONTROL Clicks], [!UICONTROL Cost per Click], [!UICONTROL Conversions], e [!UICONTROL Cost per Conversion]. L&#39;DSP supporta un&#39;ampia varietà di banner pubblicitari.
 
-* **Annunci mobili (solo di terze parti)**: Gli annunci mobili possono essere in formato video pre-roll (VAST, MRAID) o standard. I video mobili pre-roll possono essere riprodotti automaticamente o fare clic per la riproduzione ed è meglio utilizzato per raggiungere gli spettatori attraverso gli schermi. La visualizzazione standard per dispositivi mobili è un’immagine statica visualizzata sui browser web per dispositivi mobili o nelle app ed è meglio utilizzata per integrare acquisti di video digitali, favorire l’associazione dei messaggi e aggiungere punti di contatto di branding o prodotti aggiuntivi. Gli annunci mobili possono anche funzionare come acquisti a schermo intero o come interstiziali mobili, che sono annunci mobili a schermo intero ad alto impatto e sono utilizzati al meglio per sviluppare la brand awareness per il pubblico mobile e favorire le conversioni.
+* **Annunci per dispositivi mobili (solo per terze parti)**: gli annunci mobili possono essere in formato video pre-roll (VAST, MRAID) o in formato di visualizzazione standard. Il video mobile pre-roll può essere riprodotto automaticamente o con un clic per essere riprodotto ed è meglio utilizzato per raggiungere gli spettatori attraverso gli schermi. La visualizzazione standard per dispositivi mobili è un’immagine statica visualizzata nei browser web o nelle app mobili ed è ideale per integrare gli acquisti di video digitali, promuovere l’associazione dei messaggi e aggiungere ulteriori punti di contatto di branding o prodotti. Gli annunci per dispositivi mobili possono anche funzionare come rilevamenti a schermo intero o come interstiziali mobili, ovvero annunci mobili a schermo intero e ad alto impatto che vengono utilizzati meglio per sviluppare la brand awareness per il pubblico mobile e stimolare le conversioni.
 
-* **Annunci di visualizzazione nativi (solo di prime parti)**: Gli annunci nativi sono supportati nel formato di visualizzazione standard. Gli annunci nativi includono un titolo e/o un titolo, una descrizione, un logo e un’immagine. Gli elementi dell&#39;annuncio vengono combinati ed eseguiti in modo da corrispondere allo stile di pagina dell&#39;editore in modo che l&#39;annuncio si fonde con il contenuto organico dell&#39;editore e generi un maggiore coinvolgimento. Native viene utilizzato al meglio per la brand awareness e per promuovere la visualizzazione del pubblico e i tassi di coinvolgimento con pubblicità favorevole ai visualizzatori. Gli indicatori chiave di performance includono: [!UICONTROL Clicks], [!UICONTROL Cost Per Click], [!UICONTROL Conversions]e [!UICONTROL Cost Per Conversion].
+* **Annunci visualizzati nativi (solo di prime parti)**: gli annunci nativi sono supportati nel formato di visualizzazione standard. Gli annunci nativi includono un titolo e/o un titolo, una descrizione, un logo e un’immagine. Gli elementi dell’annuncio vengono combinati e renderizzati in modo da corrispondere allo stile di pagina dell’editore, affinché l’annuncio si fonda con il contenuto organico dell’editore e aumenti il coinvolgimento. Nativa è ideale per la brand awareness e per indirizzare la visualizzazione del pubblico e i tassi di coinvolgimento con la pubblicità intuitiva. Gli indicatori di prestazioni chiave includono [!UICONTROL Clicks], [!UICONTROL Cost Per Click], [!UICONTROL Conversions], e [!UICONTROL Cost Per Conversion].
 
-* **Annunci pre-roll (solo di terze parti)**: Gli annunci pre-roll (VAST e VPAID) vengono visualizzati prima dei contenuti video premium e forniscono un’esperienza di visualizzazione coinvolgente e coinvolgente. I video pre-roll possono essere interattivi, contenere funzioni rich media e includere sovrapposizioni, rollover e chiamate all’azione. Gli indicatori prestazioni chiave per gli annunci video pre-roll includono [!UICONTROL Video Completion Rate] e [!UICONTROL Viewability Rate].
+* **Annunci pre-roll (solo di terze parti)**: gli annunci pre-roll (VAST e VPAID) vengono visualizzati prima dei contenuti video premium e forniscono un’esperienza di visualizzazione coinvolgente e coinvolgente. I video pre-roll possono essere interattivi, contenere funzioni rich media e includere sovrapposizioni, rollover e chiamate all’azione. Gli indicatori di prestazioni chiave per gli annunci video pre-roll includono [!UICONTROL Video Completion Rate] e [!UICONTROL Viewability Rate].
 
-* **Annunci TV collegati (solo di terze parti)**: Gli annunci TV collegati vengono visualizzati prima e durante i contenuti video TV premium. Tutto l&#39;inventario televisivo collegato viene eseguito su dispositivi TV, il che significa che il video viene riprodotto automaticamente in un ambiente snello e a schermo intero che gli spettatori non possono saltare. La TV collegata è il formato video digitale più simile alle pubblicità televisive. Gli indicatori prestazioni chiave per la TV connessa includono [!UICONTROL Completion Rate].
+* **Annunci TV collegati (solo di terze parti)**: gli annunci TV collegati vengono visualizzati prima e durante i contenuti video TV premium. Tutti gli inventari TV collegati vengono eseguiti su dispositivi TV, il che significa che il video viene riprodotto automaticamente in un ambiente a schermo intero e snello che gli spettatori non possono saltare. Connected TV è il formato video digitale più simile agli spot televisivi. Gli indicatori di prestazioni chiave per la TV connessa includono [!UICONTROL Completion Rate].
 
-* **Annunci video universali (solo di terze parti)**: Gli annunci video universali consentono di eseguire il targeting dell’inventario video da ambienti desktop, mobili e TV connessi per l’inventario VPAID e VAST utilizzando un unico posizionamento video. Combinano tutte le funzionalità degli annunci TV, pre-roll e mobile pre-roll collegati e vengono mostrati prima e durante i contenuti video. Tra gli indicatori chiave di prestazioni per il video universale figurano: [!UICONTROL Completion Rate] e [!UICONTROL Viewability Rate].
+* **Annunci video universali (solo di terze parti)**: gli annunci video universali consentono di eseguire il targeting dell’inventario video dagli ambienti desktop, mobile e TV connessa per l’inventario VPAID e VAST utilizzando un singolo posizionamento video. Combinano tutte le funzionalità della TV collegata, degli annunci pre-roll e pre-roll mobili e vengono visualizzati prima e durante i contenuti video. Gli indicatori di prestazioni chiave per il video universale includono [!UICONTROL Completion Rate] e [!UICONTROL Viewability Rate].
 
-   Gli annunci video universali possono essere allegati solo a posizionamenti video universali.
+   Gli annunci video universali possono essere collegati solo ai posizionamenti video universali.
 
-   Vedere &quot;[Domande frequenti sui video universali](/help/dsp/campaign-management/faq-universal-video.md)&quot; per ulteriori informazioni sugli annunci video universali.
+   Consulta &quot;[Domande frequenti sui video universali](/help/dsp/campaign-management/faq-universal-video.md)&quot; per ulteriori informazioni sugli annunci video universali.
 
-## Approvazioni annunci DSP
+## Approvazioni di annunci DSP
 
-Quando crei un annuncio, DSP lo rivede per categorie sensibili, fai clic su Funzionalità URL e visualizza in anteprima il rendering.
+Quando crei un annuncio, l’DSP lo esamina per individuare le categorie sensibili, fai clic su Funzionalità URL e visualizza l’anteprima del rendering.
 
-Inizialmente, verrà visualizzato un punto rosso nel [!UICONTROL Status] colonna. Il processo di revisione richiede normalmente 24-48 ore. Un annuncio interrotto, tuttavia, potrebbe avere uno stato in sospeso per più di 48 ore, quindi hai tempo per correggere gli errori prima che l’annuncio venga rifiutato. Gli annunci rifiutati includono un motivo del rifiuto.
+Inizialmente, nella [!UICONTROL Status] colonna. Il processo di revisione richiede normalmente 24-48 ore. Un annuncio interrotto, tuttavia, potrebbe avere uno stato in sospeso per più di 48 ore, pertanto hai il tempo di correggere gli errori prima che l’annuncio venga rifiutato. Gli annunci rifiutati includono un motivo del rifiuto.
 
-Quando DSP approvato un annuncio, viene visualizzato un punto verde nella colonna Stato .
+Quando l&#39;DSP approva un annuncio, compare un punto verde nella colonna Stato.
 
-![indicatore di omologazione in [!UICONTROL Status] column](/help/dsp/assets/ad-approval-status.png)
+![indicatore di approvazione in [!UICONTROL Status] colonna](/help/dsp/assets/ad-approval-status.png)
 
 >[!NOTE]
 >
->Il tuo annuncio verrà servito solo se sia DSP che la SSP hanno approvato il contenuto creativo. Ogni SSP ha i propri requisiti e procedure di approvazione.
+>Il tuo annuncio verrà trasmesso solo se sia l’DSP che la SSP hanno approvato il contenuto creativo. Ciascuna SSP ha i propri requisiti e la propria procedura di approvazione.
 
 >[!MORELIKETHIS]
 >
 >* [Creare un singolo annuncio](ad-create.md)
 >* [Creare più annunci di terze parti](ad-create-multiple.md)
->* [Specifiche degli annunci](ad-specs.md)
+>* [Specifiche annuncio](ad-specs.md)
 

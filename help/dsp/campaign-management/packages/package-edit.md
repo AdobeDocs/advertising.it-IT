@@ -13,9 +13,9 @@ ht-degree: 1%
 # Modificare un pacchetto
 
 1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
-1. Fai clic sul nome della campagna per aprire la [!UICONTROL Packages] visualizza.
+1. Fai clic sul nome della campagna per aprire [!UICONTROL Packages] visualizzazione.
 1. Accanto al nome del pacchetto, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
-1. Modifica le [impostazioni del pacchetto](package-settings.md).
+1. Modifica il [impostazioni pacchetto](package-settings.md).
 1. Clic **[!UICONTROL Save and Close]**.
 
 >[!MORELIKETHIS]
@@ -23,6 +23,6 @@ ht-degree: 1%
 >* [Informazioni sulla gestione dei pacchetti](package-about.md)
 >* [Creare un pacchetto](package-create.md)
 >* [Duplicare un pacchetto](package-duplicate.md)
->* [Visualizza il registro delle modifiche per un pacchetto](package-change-log.md)
+>* [Visualizzare il registro delle modifiche di un pacchetto](package-change-log.md)
 >* [Impostazioni pacchetto](package-settings.md)
 

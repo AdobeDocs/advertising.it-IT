@@ -1,5 +1,5 @@
 ---
-title: Visualizza un registro delle modifiche di posizionamento
+title: Visualizzare un registro delle modifiche del posizionamento
 description: Scopri come visualizzare le modifiche apportate al posizionamento.
 feature: DSP Placements
 exl-id: d9fc6ead-0a0e-415d-8352-284db12dde1b
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 ---
 
-# Visualizza il registro delle modifiche per un posizionamento
+# Visualizzare il log delle modifiche per un posizionamento
 
-I registri delle modifiche mostrano le modifiche apportate al posizionamento durante l’intervallo di date selezionato, tra cui il tipo di modifica, i valori nuovi e vecchi, l’utente che ha apportato la modifica e la data. Facoltativamente, puoi aggiungere note a qualsiasi voce.
+I registri di modifica mostrano le modifiche apportate al posizionamento durante l’intervallo di date selezionato, tra cui il tipo di modifica, i valori nuovi e precedenti, l’utente che ha apportato la modifica e la data. Facoltativamente, è possibile aggiungere note a qualsiasi voce.
 
-È possibile ordinare i dati in base alla colonna Tipo, Modificato da o Data di modifica.
+È possibile ordinare i dati in base alla colonna Tipo, Modificato da o Data modifica.
 
 1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
 
@@ -22,15 +22,15 @@ I registri delle modifiche mostrano le modifiche apportate al posizionamento dur
 
 1. Nel sottomenu, fai clic su **[!UICONTROL Placements]**.
 
-1. Accanto al nome del posizionamento, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
+1. Accanto al nome del posizionamento, fate clic su  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
 
-1. (Facoltativo) Effettua una delle seguenti operazioni:
+1. (Facoltativo) Effettuate una delle seguenti operazioni:
 
-   * Per passare dalla visualizzazione dei dati solo nel modulo tabella e nei moduli per tabelle e grafici, fare clic su ![Vista a tabella e grafico](/help/dsp/assets/table-plus-chart-view.png "Vista a tabella e grafico") o ![Vista a tabella](/help/dsp/assets/table-view.png "Vista a tabella") nella barra degli strumenti in alto a destra.
+   * Per passare dalla visualizzazione dei dati solo nelle tabelle e alle tabelle e nei grafici, fare clic su ![Visualizzazione tabella e grafico](/help/dsp/assets/table-plus-chart-view.png "Visualizzazione tabella e grafico") o ![Vista tabella](/help/dsp/assets/table-view.png "Vista tabella") nella barra degli strumenti superiore destra.
 
-   * Per aggiungere una nota a una voce, tenere premuto il cursore [!UICONTROL Notes] della riga, quindi fare clic su **[!UICONTROL Add Notes]**. Immettere il testo nei campi di input, quindi fare clic su **[!UICONTROL Save]**.
+   * Per aggiungere una nota a una voce, tenere premuto il cursore sul [!UICONTROL Notes] per la riga e quindi fare clic su **[!UICONTROL Add Notes]**. Immettere il testo nei campi di input, quindi fare clic su **[!UICONTROL Save]**.
 
-   * Per visualizzare i dettagli di una voce in una finestra a comparsa, tenere premuto il cursore [!UICONTROL Notes] della riga, quindi fare clic su **[!UICONTROL More]>[!UICONTROL View Details]**.
+   * Per visualizzare i dettagli di una voce in una finestra popup, tenere premuto il cursore sul [!UICONTROL Notes] per la riga e quindi fare clic su **[!UICONTROL More]>[!UICONTROL View Details]**.
 
 
 >[!MORELIKETHIS]
@@ -39,7 +39,7 @@ I registri delle modifiche mostrano le modifiche apportate al posizionamento dur
 >* [Creare un posizionamento](placement-create.md)
 >* [Modificare un posizionamento](placement-edit.md)
 >* [Duplicare un posizionamento](placement-duplicate.md)
->* [Modificare la pianificazione dell’annuncio per un posizionamento](placement-edit-ad-schedule.md)
->* [Mettere in pausa o attivare un posizionamento](placement-pause-activate.md)
+>* [Modificare la pianificazione degli annunci per un posizionamento](placement-edit-ad-schedule.md)
+>* [Sospendere o attivare un posizionamento](placement-pause-activate.md)
 >* [Impostazioni di posizionamento](placement-settings.md)
 

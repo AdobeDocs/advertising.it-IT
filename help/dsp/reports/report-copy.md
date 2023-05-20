@@ -16,11 +16,11 @@ Duplica un rapporto personalizzato per creare un nuovo rapporto con impostazioni
 
 1. Nel menu principale, fai clic su **[!UICONTROL Reports]**.
 
-1. Nella colonna Opzioni per la riga del rapporto, fai clic su **[!UICONTROL options]** > **[!UICONTROL Copy]**.
+1. Nella colonna Opzioni della riga del report fare clic su **[!UICONTROL options]** > **[!UICONTROL Copy]**.
 
-1. (Facoltativo) Modifica il [impostazioni dei rapporti](/help/dsp/reports/report-settings.md) se necessario.
+1. (Facoltativo) Modifica il [impostazioni dei rapporti](/help/dsp/reports/report-settings.md) secondo necessità.
 
-   Per impostazione predefinita, il nome del report è &quot;\&lt;*nome report esistente*\> \#2&quot; (o il numero successivo nella sequenza).
+   Il nome del rapporto, per impostazione predefinita, è &quot;\&lt;*nome rapporto esistente*\> \#2&quot; (o il numero successivo nella sequenza).
 
 1. Clic **[!UICONTROL Copy Custom Report]**
 
@@ -29,6 +29,6 @@ Duplica un rapporto personalizzato per creare un nuovo rapporto con impostazioni
 >* [Informazioni sui report personalizzati](/help/dsp/reports/report-about.md)
 >* [Creare un rapporto personalizzato](/help/dsp/reports/report-create.md)
 >* [Modificare un rapporto personalizzato](/help/dsp/reports/report-edit.md)
->* [Impostazioni report personalizzate](/help/dsp/reports/report-settings.md)
->* [Colonne dei rapporti disponibili](/help/dsp/reports/report-columns.md)
+>* [Impostazioni report personalizzati](/help/dsp/reports/report-settings.md)
+>* [Colonne report disponibili](/help/dsp/reports/report-columns.md)
 

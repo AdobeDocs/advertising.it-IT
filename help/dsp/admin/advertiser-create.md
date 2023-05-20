@@ -12,22 +12,22 @@ ht-degree: 1%
 
 *Non disponibile per utenti di sola lettura*
 
-Gli inserzionisti sono disponibili per tutti gli utenti nell&#39;account organizzazione.
+Gli inserzionisti sono disponibili per tutti gli utenti dell’account organizzazione.
 
 1. Nel menu principale, fai clic su **[!UICONTROL Settings]** > **[!UICONTROL Advertisers]**.
 
 1. Clic **[!UICONTROL Create]**.
 
-1. Specifica la [impostazioni dell’inserzionista](advertiser-settings.md):
+1. Specifica la [impostazioni inserzionista](advertiser-settings.md):
 
    1. In [!UICONTROL General] impostazioni:
 
       1. Specifica la [!UICONTROL General] impostazioni.
 
-      1. (Facoltativo) Per configurare le integrazioni tra DSP e altri prodotti Adobe Experience Cloud, immetti l’ID organizzazione dell’Experience Cloud dell’inserzionista in [!UICONTROL Adobe IMS IDs] , quindi configura le integrazioni di prodotti nella sezione [!UICONTROL Integrations] sezione .
-   1. (Facoltativo) In [!UICONTROL Targeting] sezioni, specifica le destinazioni predefinite per ogni nuovo posizionamento.
+      1. (Facoltativo) Per configurare le integrazioni tra l’DSP e altri prodotti Adobe Experience Cloud, inserisci l’ID organizzazione dell’Experience Cloud dell’inserzionista nel [!UICONTROL Adobe IMS IDs] e quindi configurare le integrazioni di prodotto in [!UICONTROL Integrations] sezione.
+   1. (Facoltativo) In [!UICONTROL Targeting] , specificate le destinazioni di default per ogni nuovo posizionamento.
 
-      Puoi sovrascrivere le destinazioni predefinite per qualsiasi posizionamento creato.
+      Potete sovrascrivere le destinazioni predefinite per qualsiasi posizionamento creato.
 
 
 1. Clic **[!UICONTROL Save]**.

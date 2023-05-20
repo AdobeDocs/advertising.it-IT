@@ -14,19 +14,19 @@ ht-degree: 0%
 
 1. Nel menu principale, fai clic su **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
-1. Posiziona il cursore sulla riga del segmento e fai clic su **[!UICONTROL Get Pixel]**.
+1. Tenere premuto il cursore sulla riga del segmento e fare clic su **[!UICONTROL Get Pixel]**.
 
-   Il tag di tracciamento della visualizzazione della pagina, che traccia i visitatori desktop e mobili su una pagina web, è etichettato &quot;[!UICONTROL Desktop or mobile websites].&quot;
+   Il tag di tracciamento per la visualizzazione della pagina, che tiene traccia dei visitatori desktop e mobili in una pagina web, è etichettato come &quot;[!UICONTROL Desktop or mobile websites].&quot;
 
-   (Solo per segmenti personalizzati) Il tag di tracciamento delle impression, che tiene traccia degli utenti esposti a un’unità pubblicitaria su dispositivi desktop, mobili o CTV, è etichettato &quot;[!UICONTROL Desktop or mobile ads].&quot;
+   (Solo segmenti personalizzati) Il tag di tracciamento delle impression, che tiene traccia degli utenti esposti a un’unità pubblicitaria su dispositivi desktop, mobili o CTV, è etichettato &quot;[!UICONTROL Desktop or mobile ads].&quot;
 
-1. (Se necessario) Copia i tag pertinenti e fornisci i tag all’inserzionista o al contatto del sito web per la distribuzione.
+1. (Se necessario) Copia i tag pertinenti e forniscili all’inserzionista o al contatto del sito web per la distribuzione.
 
    Una volta implementato un tag di tracciamento, puoi utilizzare il segmento nei target o nelle esclusioni del pubblico per qualsiasi posizionamento.
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sulla gestione dell&#39;audience](audience-about.md)
+>* [Informazioni su Gestione dell&#39;audience](audience-about.md)
 >* [Creare un segmento personalizzato](custom-segment-create.md)
 >* [Modifica informazioni segmento](segment-edit.md)
 >* [Eliminare un segmento](segment-delete.md)

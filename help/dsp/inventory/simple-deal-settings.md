@@ -5,7 +5,7 @@ feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
 source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -19,14 +19,14 @@ ht-degree: 0%
 | Parametro | Descrizione |
 |-----------|-------------|
 | **[!UICONTROL Serving Type]** | Il tipo di supporto per questa offerta: *[!UICONTROL Video],* *[!UICONTROL Display],* o *[!UICONTROL Audio].* |
-| **[!UICONTROL Publisher Site Served On]** | Nome dell&#39;editore che vende questo inventario. Cercare un editore immettendo almeno i primi due caratteri nel nome. Per aggiungere un editore non presente nell’elenco, contatta il team del tuo account di Adobe. |
+| **[!UICONTROL Publisher Site Served On]** | Nome dell&#39;editore che sta vendendo questo inventario. Cercare un editore immettendo almeno i primi due caratteri nel nome. Per aggiungere un editore non presente nell’elenco, contatta il team del tuo account di Adobe. |
 | **[!UICONTROL Advertiser]** | Un singolo inserzionista nell’account che può accedere a questa offerta. Seleziona anche la campagna e (facoltativamente) il pacchetto in cui è disponibile l’offerta. |
 | **[!UICONTROL Media Quality Assessment?]** | (Alcuni utenti) Consente di eseguire l’annuncio su un altro DSP per la verifica di terze parti. <!-- Who can select this? It's disabled for me. Need to see if there are additional fields when this is enabled. --> |
 | **[!UICONTROL Ad Source]** | L’unica opzione è *[!UICONTROL Site Serve (Event Pixels)]*. |
 | **[!UICONTROL Ad Creation]** | (Solo nuove offerte) Se:<ul><li>*[!UICONTROL Create New]:* Per creare un annuncio per questa offerta.</li><li>*[!UICONTROL Select Ads]:* Per utilizzare un annuncio esistente per questa offerta.</li></ul> |
 | **[!UICONTROL Ad Type]** | Il tipo di annuncio per questa offerta. Se desideri creare annunci per l’offerta, includi le dimensioni o la durata dell’annuncio, come richiesto. Le opzioni disponibili variano in base al tipo di supporto. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Select Ad(s)]
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 | **[!UICONTROL Deal Name]** | Il nome dell’offerta. Inserisci un nome o seleziona *[!UICONTROL Auto Generate Deal Name]* per consentire all’DSP di generare un nome basato sui dettagli dell’operazione.<br><br>Esempio di nome generato automaticamente: `Campaign-desktop_video_preroll_15-24Kitchen-$10_USD-jdoe-SAS` |
 | **[!UICONTROL Attached Ads]** | (Sola lettura) Gli annunci che fanno parte dell’offerta. Per modificare un annuncio, fai clic sul nome dell’annuncio. Per rimuovere un annuncio dall’offerta, fai clic su **[!UICONTROL X]** accanto al nome dell’annuncio. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 <!-- 
 ## Existing Simple Ad Serving Deals

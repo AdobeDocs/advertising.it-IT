@@ -11,23 +11,23 @@ ht-degree: 0%
 
 # Informazioni sulle sottoscrizioni di avvisi
 
-Puoi creare gruppi di avvisi e-mail automatici, denominati abbonamenti, che inviano notifiche e-mail quando vengono soddisfatti i parametri specifici di account, campagna, annuncio e offerte di inventario private.
+Puoi creare gruppi di avvisi e-mail automatici, denominati abbonamenti, che inviano notifiche e-mail quando vengono soddisfatti parametri specifici di account, campagna, annuncio e operazione di inventario privata.
 
-Ad esempio, puoi ricevere un avviso quando una campagna ha speso una quantità specifica del proprio budget. È inoltre possibile ricevere un avviso quando un&#39;offerta di inventario privato ha ricevuto meno di un tasso di vincita specificato negli ultimi N giorni.
+Ad esempio, puoi ricevere un avviso quando una campagna ha speso una determinata quantità del proprio budget. È inoltre possibile ricevere un avviso quando un&#39;operazione di inventario privato ha ricevuto meno di un tasso di vincita specificato negli ultimi N giorni.
 
-Puoi aggiungere o rimuovere gli avvisi da un abbonamento, modificare gli utenti che ricevono le notifiche e-mail per un abbonamento, disabilitare e riabilitare gli abbonamenti agli avvisi ed eliminare gli abbonamenti agli avvisi.
+È possibile aggiungere o rimuovere avvisi da un abbonamento, modificare gli utenti che ricevono notifiche e-mail per un abbonamento, disabilitare e riabilitare gli abbonamenti agli avvisi ed eliminare gli abbonamenti agli avvisi.
 
 >[!TIP]
 >
-> Se non stai controllando attivamente i rapporti delle campagne, imposta i rapporti e-mail il prima possibile dopo aver avviato una campagna.
+> Se non controlli attivamente i rapporti delle campagne, imposta i rapporti e-mail il prima possibile dopo aver avviato una campagna.
 
 ## Avvisi disponibili
 
 * Account
 
-   * Saldo conto
+   * Saldo account
 
-   * Spesa dell&#39;account
+   * Spesa account
 
    * Nuova campagna creata
 
@@ -37,28 +37,28 @@ Puoi aggiungere o rimuovere gli avvisi da un abbonamento, modificare gli utenti 
 
    * Spesa campagna
 
-   * % della spesa della campagna per il massimale
+   * % spesa campagna del tetto massimo
 
-   * Nessuna impression campagna
+   * Nessuna impressione campagna
 
-   * Campaign eCPM
+   * eCPM di Campaign
 
 * Annunci
 
-   * Rifiuti degli annunci
+   * Rifiuti annunci
 
-* Feed (offerte di inventario privato)
+* Feed (offerte sull&#39;inventario privato)
 
-   * Velocità Win feed
+   * Percentuale di vittorie dei feed
 
-   * Velocità di offerta feed
+   * Percentuale di offerte feed
 
-   * Nessuna spesa feed
+   * Nessuna spesa per feed
 
-   * Nessuna impression feed
+   * Nessuna impressione di feed
 
-   * Feed garantito senza posizionamento predefinito
+   * Feed garantito senza posizionamenti predefiniti
 
 >[!MORELIKETHIS]
 >
->[Gestire sottoscrizioni di avvisi](alerts-manage.md)
+>[Gestire le sottoscrizioni agli avvisi](alerts-manage.md)

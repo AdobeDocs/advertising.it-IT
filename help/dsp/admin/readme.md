@@ -5,8 +5,8 @@ source-wordcount: '21'
 ht-degree: 0%
 
 ---
-# Informazioni su questo capitolo
+# Informazioni Su Questo Capitolo
 
 Questa è la cartella di lavoro per questo capitolo.
 
-**Nota: Questa pagina non viene pubblicata nella documentazione rivolta al cliente.**
+**Nota: questa pagina non è pubblicata nella documentazione destinata al cliente.**

@@ -18,4 +18,4 @@ Adobe Advertising fornisce controlli di sicurezza e privacy per aiutare i client
 
 * Regolamento generale sulla protezione dei dati (RGPD)
 
-* California Consumer Privacy Act (CCPA)
+* Il California Consumer Privacy Act (CCPA)

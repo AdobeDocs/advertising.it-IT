@@ -5,8 +5,8 @@ feature: DSP Private Inventory, DSP Deal IDs
 exl-id: e48937c2-ced9-4107-9e1d-65a3bac51fff
 source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 2%
+source-wordcount: '675'
+ht-degree: 3%
 
 ---
 
@@ -27,7 +27,7 @@ I messaggi di errore per invii di annunci non riusciti possono provenire da Adve
 | [!DNL Ad with identifier] \&lt;*nome annuncio*\> [!DNL was not found.] | La chiave dell’annuncio inviata non esiste o non è attiva alla fine dell’Adobe. | Trova la chiave dell’annuncio corretta, quindi invia nuovamente l’annuncio. |
 | [!DNL Pending Submission] | L&#39;invio è ancora in sospeso. | Aggiorna la pagina. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!DNL Freewheel] Errori API
 
@@ -41,7 +41,7 @@ I messaggi di errore per invii di annunci non riusciti possono provenire da Adve
 | 422 | Entità non elaborabile | Risorsa non valida. Questo errore si verifica quando il corpo della richiesta non è valido o la risorsa creata/aggiornata non è valida (ad esempio, se l’ID offerta non è stato trovato). Consulta [Errori API 422 FreeWheel](#freewheel-422-errors) per ulteriori informazioni. | Contatta il team del tuo account Adobe. |
 | 500 | Errore interno del server | Errore di sistema API. | Contatta il team del tuo account Adobe. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!DNL Freewheel] Errori API 422 {#freewheel-422-errors}
 
@@ -60,7 +60,7 @@ I messaggi di errore per invii di annunci non riusciti possono provenire da Adve
 | DATA_CREATIVE_DETECTION_FAILURE | 422 | L&#39;URL non è stato rilevato. |
 | DATA_ENTITY_NOT_FOUND | 422 | Il creativo non esiste. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >

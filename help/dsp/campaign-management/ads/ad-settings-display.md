@@ -1,6 +1,6 @@
 ---
 title: Visualizza impostazioni annuncio
-description: Consulta le descrizioni delle impostazioni di annunci disponibili per gli annunci display.
+description: Consulta le descrizioni delle impostazioni pubblicitarie disponibili per gli annunci display.
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -18,55 +18,55 @@ Le seguenti impostazioni sono per gli annunci display standard.
 
 ### Base
 
-**[!UICONTROL Ad Type]:** (Sola lettura) Il tipo di annuncio che stai creando, che corrisponde al tipo di posizionamento a cui l’annuncio può essere allegato. Per impostazione predefinita *[!UICONTROL Display]*.
+**[!UICONTROL Ad Type]:** (Sola lettura) Il tipo di annuncio che stai creando, che corrisponde al tipo di posizionamento a cui l’annuncio può essere allegato. Il valore predefinito è *[!UICONTROL Display]*.
 
-**[!UICONTROL Ad Name]:** Nome dell&#39;annuncio. Il titolo della risorsa viene utilizzato per impostazione predefinita, ma puoi modificarlo.
+**[!UICONTROL Ad Name]:** Il nome dell’annuncio. Il titolo della risorsa è utilizzato per impostazione predefinita, ma puoi modificarne il nome.
 
 >[!TIP]
 >
-> Utilizza un nome che sarà facile trovare quando alleghi l’annuncio a un posizionamento, nella [!UICONTROL Ads] e nei rapporti. Ad esempio, descrivi il tipo di unità e alcuni attributi chiave (ad esempio, Anteprima del prodotto in vacanza): 300x250 Gamer&quot;).
+> Utilizza un nome facile da trovare quando alleghi l’annuncio a un posizionamento, nella [!UICONTROL Ads] e nei rapporti. Ad esempio, descrivi il tipo di unità e alcuni attributi chiave (come Anteprima prodotto per vacanze: 300x250 Gamer&quot;).
 
-**\[Origine annuncio\]**: (Sola lettura) *[!UICONTROL 3rd party]*.
+**\[Origine annuncio\]**: (sola lettura) *[!UICONTROL 3rd party]*.
 
-**[!UICONTROL This is an expandable Banner]:** (Solo annunci di terze parti) Indica che l’annuncio è un annuncio di banner espandibile. Le impostazioni di espansione correlate determinano quale inventario acquistare, in modo che riflettano il comportamento dell’annuncio.
+**[!UICONTROL This is an expandable Banner]:** (Solo annunci di terze parti) Indica che l’annuncio è un annuncio banner espandibile. Le impostazioni di espansione correlate determinano quale inventario acquistare, quindi assicurati che riflettano il comportamento dell’annuncio.
 
-**[!UICONTROL Expansion Method]:** (Solo annunci banner espandibili di terze parti) Se il banner si espande *[!UICONTROL Click]* o *[!UICONTROL Rollover]*.
+**[!UICONTROL Expansion Method]:** (Solo banner pubblicitari espandibili di terze parti) Se il banner si espande *[!UICONTROL Click]* o *[!UICONTROL Rollover]*.
 
-**[!UICONTROL Expansion Directions]:** (Solo annunci banner espandibili di terze parti) La direzione in cui l’annuncio si espande: *[!UICONTROL Up]*, *[!UICONTROL Down]*, *[!UICONTROL Left]* oppure *[!UICONTROL Right]*.
+**[!UICONTROL Expansion Directions]:** (Solo per banner pubblicitari espandibili di terze parti) La direzione in cui l’annuncio si espande: *[!UICONTROL Up]*, *[!UICONTROL Down]*, *[!UICONTROL Left]*, o *[!UICONTROL Right]*.
 
-**[!UICONTROL Certified Vendors]:** (Solo annunci banner espandibili di terze parti) Il fornitore certificato per cui l’annuncio è disponibile: *[!UICONTROL DCM]* ([!DNL Google DoubleClick for Advertisers]), *[!UICONTROL Flashtalking]*, *[!UICONTROL Sizmek]* oppure *[!UICONTROL Jivox]*.
+**[!UICONTROL Certified Vendors]:** (Solo banner pubblicitari espandibili di terze parti) Il fornitore certificato per il quale l’annuncio è disponibile: *[!UICONTROL DCM]* ([!DNL Google DoubleClick for Advertisers]), *[!UICONTROL Flashtalking]*, *[!UICONTROL Sizmek]*, o *[!UICONTROL Jivox]*.
 
-**[!UICONTROL Display Code]:** (Solo annunci di terze parti) L’URL della risorsa creativa di terze parti. Qualsiasi [timestamp] e [[timestamp]] verranno sostituiti con valori effettivi.
+**[!UICONTROL Display Code]:** (Solo per annunci di terze parti) L’URL della risorsa creativa di terze parti. Qualsiasi [timestamp] e [[timestamp]] verranno sostituiti con i valori effettivi.
 
-**[!UICONTROL Final Display Code]:** (Solo annunci di terze parti) L’URL per la risorsa creativa di terze parti, con l’opzione necessaria [Macro per il tracciamento DSP pubblicità](/help/dsp/campaign-management/macros.md) se del caso.
+**[!UICONTROL Final Display Code]:** (Solo per annunci di terze parti) L’URL della risorsa creativa di terze parti, con il necessario [Pubblicità delle macro di tracciamento DSP](/help/dsp/campaign-management/macros.md) se del caso.
 
-**[!UICONTROL Ad Size]:** Larghezza e altezza dell’annuncio. Deve essere un [dimensioni e display standard supportati](ad-specs.md). Puoi immettere manualmente la dimensione dell’annuncio prima di caricare l’annuncio o immettere un [!UICONTROL Display Code]. Se non immetti la dimensione dell’annuncio, le dimensioni dell’annuncio o del tag dell’annuncio caricato vengono automaticamente inserite come di sola lettura. L’annuncio Display non viene salvato se le dimensioni non si trovano in Visualizzazione standard come dimensioni, ad esempio 301x250 invece di 300x250 dimensioni dell’annuncio.
+**[!UICONTROL Ad Size]:** Larghezza e altezza dell’annuncio. Deve essere un [dimensioni annuncio display standard supportate](ad-specs.md). Puoi immettere manualmente le dimensioni dell’annuncio prima di caricarlo o immettere un [!UICONTROL Display Code]. Se non immetti la dimensione dell’annuncio, le dimensioni del caricamento o del tag dell’annuncio vengono immesse automaticamente come di sola lettura. L’annuncio di visualizzazione non viene salvato se le dimensioni non rientrano nel display standard come dimensioni, ad esempio 301x250 invece delle dimensioni dell’annuncio 300x250.
 
 >[!IMPORTANT]
 >
-> La dimensione dell’annuncio dichiarata nei campi larghezza e altezza corrisponde alle richieste di offerta in arrivo. Potresti riscontrare problemi di consegna se le dimensioni dell’annuncio non corrispondono alle dimensioni dell’annuncio dichiarate.
+> Le dimensioni dell’annuncio dichiarate nei campi di larghezza e altezza corrisponderanno alle richieste di offerta in arrivo. Potresti riscontrare problemi di consegna se le dimensioni dell’annuncio non corrispondono a quelle dichiarate.
 
 ### [!UICONTROL Pixel]
 
-Tutti i pixel di tracciamento degli eventi esistenti per il posizionamento vengono automaticamente collegati. Puoi scollegare i pixel esistenti e creare nuovi pixel in base alle tue esigenze di tracciamento per il singolo annuncio.
+Tutti i pixel di tracciamento degli eventi esistenti per il posizionamento vengono associati automaticamente. Puoi scollegare i pixel esistenti e crearne di nuovi, in base alle tue esigenze di tracciamento per il singolo annuncio.
 
 Le seguenti impostazioni si applicano a ogni pixel creato o modificato.
 
-**[!UICONTROL Integration Event]:** L&#39;evento che attiva il pixel da attivare. Per questo tipo di annuncio, utilizza i pixel che attivano *[!UICONTROL Impression]* o *[!UICONTROL Click-through]*.
+**[!UICONTROL Integration Event]:** L’evento che attiva il pixel da attivare. Per questo tipo di annuncio, utilizza i pixel che vengono attivati sul *[!UICONTROL Impression]* o *[!UICONTROL Click-through]*.
 
-**[!UICONTROL Pixel Type]:** Se il pixel è un *[!UICONTROL IMG URL]* (file immagine da 1 pixel), *[!UICONTROL HTML]* oppure *[!UICONTROL JavaScript URL]*.
+**[!UICONTROL Pixel Type]:** Se il pixel è un *[!UICONTROL IMG URL]* (file di immagine 1x1 pixel), *[!UICONTROL HTML]*, o *[!UICONTROL JavaScript URL]*.
 
-**[!UICONTROL Pixel URL or Code]:** L&#39;URL dell&#39;immagine pixel, nel formato appropriato per il [!UICONTROL Pixel Type].
+**[!UICONTROL Pixel URL or Code]:** L&#39;URL dell&#39;immagine pixel nel formato appropriato per il [!UICONTROL Pixel Type].
 
-**[!UICONTROL Pixel Name]:** Nome del pixel. Utilizza un nome che ti aiuti a identificare facilmente il pixel.
+**[!UICONTROL Pixel Name]:** Il nome del pixel. Utilizza un nome che ti consenta di identificare facilmente il pixel.
 
-**[!UICONTROL Pixel Provider]:** Provider di pixel: *[!UICONTROL None]*, *[!UICONTROL Nielsen]* oppure *[!UICONTROL Comscore]*.
+**[!UICONTROL Pixel Provider]:** Il provider pixel: *[!UICONTROL None]*, *[!UICONTROL Nielsen]*, o *[!UICONTROL Comscore]*.
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulla gestione degli annunci](ad-about.md)
 >* [Creare un singolo annuncio](ad-create.md)
 >* [Elencare i posizionamenti associati a un annuncio](ad-list-placements.md)
->* [Specifiche degli annunci](ad-specs.md)
->* [Macro DSP](/help/dsp/campaign-management/macros.md)
+>* [Specifiche annuncio](ad-specs.md)
+>* [Macro per DSP](/help/dsp/campaign-management/macros.md)
 

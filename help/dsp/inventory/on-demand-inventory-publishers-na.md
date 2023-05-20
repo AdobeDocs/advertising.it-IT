@@ -1,16 +1,16 @@
 ---
 title: '[!DNL On Demand] Premium Inventory Publishers in Nord America'
-description: Consulta i [!DNL On Demand] editori di inventario premium in Nord America.
+description: Visualizza le [!DNL On Demand] editori di inventario premium in Nord America.
 feature: DSP On Demand Inventory
 exl-id: f1805fe0-5687-4e32-809f-c584acee3676
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
 
-# [!DNL On Demand] Editori Premium di Inventario in Nord America
+# [!DNL On Demand] Editori di inventario Premium in Nord America
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
 
@@ -173,13 +173,13 @@ ht-degree: 0%
 | [!DNL World Surf League] | U.S. |
 | [!DNL Yahoo] | U.S. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >
->* [Informazioni [!DNL On Demand] Inventario Premium](on-demand-inventory-about.md)
->* [Iscriviti e richiedi l’accesso a [!DNL On Demand] Inventario Premium](on-demand-inventory-subscribe.md)
->* [[!DNL On Demand] Editori Premium di Inventario in Asia Pacifico](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand] Editori Premium di Inventario in Australia e Nuova Zelanda](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] Editori Premium di Inventario in Europa, Medio Oriente e Africa](on-demand-inventory-publishers-emea.md)
+>* [Informazioni su [!DNL On Demand] Magazzino Premium](on-demand-inventory-about.md)
+>* [Iscriviti e richiedi accesso a [!DNL On Demand] Magazzino Premium](on-demand-inventory-subscribe.md)
+>* [[!DNL On Demand] Editori di inventario Premium in Asia Pacifico](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand] Editori di inventario Premium in Australia e Nuova Zelanda](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand] Editori di inventario Premium in Europa, Medio Oriente e Africa](on-demand-inventory-publishers-emea.md)
 

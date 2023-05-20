@@ -1,6 +1,6 @@
 ---
-title: Impostazioni di Campaign
-description: Consulta le descrizioni delle impostazioni della campagna disponibili.
+title: Impostazioni campagna
+description: Consulta le descrizioni delle impostazioni disponibili per la campagna.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
 source-git-commit: 4085c1b21c0fe84653978e449321868921841367
@@ -10,136 +10,136 @@ ht-degree: 0%
 
 ---
 
-# Impostazioni di Campaign
+# Impostazioni campagna
 
 ## [!UICONTROL Basic Campaign Details]
 
-**[!UICONTROL Name]:** Nome della campagna.
+**[!UICONTROL Name]:** Il nome della campagna.
 
 **[!UICONTROL Advertiser]:** (Sola lettura per le campagne esistenti) L’inserzionista (marchio) applicabile. Seleziona un inserzionista esistente o creane uno nuovo.
 
-**[!UICONTROL Advertiser URL]:** La pagina ufficiale dell’inserzionista. Questo campo velocizza il processo di approvazione degli annunci con i partner di inventario.
+**[!UICONTROL Advertiser URL]:** Pagina ufficiale dell’inserzionista. Questo campo accelera il processo di approvazione degli annunci con i partner di magazzino.
 
-**[!UICONTROL Timezone]:** (Solo lettura per le campagne esistenti) Il fuso orario per la generazione di rapporti e le offerte.
+**[!UICONTROL Timezone]:** (Sola lettura per le campagne esistenti) Il fuso orario per i rapporti e le offerte.
 
-**[!UICONTROL Customer PO]:** (Facoltativo) Ordine di acquisto cliente per l&#39;ordine di inserimento/ordine di acquisto.
+**[!UICONTROL Customer PO]:** (Facoltativo) Un ordine fornitore cliente per l&#39;ordine di inserimento/ordine fornitore.
 
-**[Date campagna]:** Le date di inizio e di fine della campagna.
+**[Date campagna]:** Le date di inizio e fine della campagna.
 
 ## [!UICONTROL Campaign Goals]
 
-**[!UICONTROL Margin Management]:** Se gestire i margini per la campagna: *[!UICONTROL Yes]* o *[!UICONTROL No]* (impostazione predefinita).
+**[!UICONTROL Margin Management]:** Specifica se gestire i margini per la campagna: *[!UICONTROL Yes]* o *[!UICONTROL No]* (impostazione predefinita).
 
-Quando scegli *[!UICONTROL Yes],* specificare il tipo di margine e l&#39;importo:
+Quando scegli *[!UICONTROL Yes],* specificare il tipo e l&#39;importo del margine:
 
-* **[!UICONTROL Margin Type]:** Tipo di margine. Non è possibile modificare il tipo di margine dopo aver abilitato la gestione dei margini e salvato la campagna.
+* **[!UICONTROL Margin Type]:** Tipo di margine. Una volta abilitata la gestione dei margini e salvata la campagna, non puoi modificare il tipo di margine.
 
-   * *[!UICONTROL Fixed]:* (impostazione predefinita) Consente DSP di calcolare automaticamente e di limitare la spesa in base a una percentuale di margine fissa del [!UICONTROL Gross Budget].
+   * *[!UICONTROL Fixed]:* (impostazione predefinita) Consente all&#39;DSP di calcolare automaticamente e limitare la spesa in base a una percentuale di margine fissa del [!UICONTROL Gross Budget].
 
-   * *[!UICONTROL Dynamic]:* Consente di gestire i margini verso il basso fino al livello di posizionamento specificando un valore separato [!UICONTROL Budget Reserve %] e [!UICONTROL Gross Budget] per ogni pacchetto e posizionamento nella campagna. DSP ottimizza in base all&#39;efficienza finanziaria di ciascun posizionamento, senza garantire un margine specifico. Utilizzare questa opzione per gli ordini di inserimento costituiti da più elementi di riga per i quali si è deciso di fornire un importo fisso di unità o tipi di unità a un tasso fisso.
+   * *[!UICONTROL Dynamic]:* Consente di gestire i margini fino al livello di posizionamento specificando un [!UICONTROL Budget Reserve %] e [!UICONTROL Gross Budget] per ogni pacchetto e posizionamento nella campagna. L&#39;DSP ottimizza in base all&#39;efficienza finanziaria di ogni collocamento, senza garantire un margine specifico. Utilizzare questa opzione per gli ordini di inserimento costituiti da più voci per le quali si è concordato di consegnare un importo fisso di unità o tipi di unità a un tasso fisso.
 
-* **[!UICONTROL Fixed Margin %]:** (Solo campagne con margini fissi) Marcatura predefinita per ogni ordine di inserimento <!-- impression? -->, come percentuale. Tale importo è dedotto dal [!UICONTROL Gross Budget] definire il bilancio netto della campagna.
+* **[!UICONTROL Fixed Margin %]:** (Solo campagne con margini fissi) Il markup predefinito per ogni ordine di inserimento <!-- impression? -->, in percentuale. Tale importo è dedotto dal [!UICONTROL Gross Budget] per definire il budget netto della campagna.
 
-* **[!UICONTROL Budget Reserve %]:** (solo campagne con margini fissi; (facoltativo) Riserva una determinata percentuale del [!UICONTROL Gross Budget] come salvaguardia. Tale importo è dedotto dal [!UICONTROL Gross Budget] definire il bilancio netto della campagna.
+* **[!UICONTROL Budget Reserve %]:** (Solo campagne con margini fissi; facoltativo) Riserva una percentuale specificata del [!UICONTROL Gross Budget] come salvaguardia. Tale importo è dedotto dal [!UICONTROL Gross Budget] per definire il budget netto della campagna.
 
-**[!UICONTROL Gross Budget]:** (Campagne con gestione dei margini) Il bilancio lordo della campagna, prima dell&#39;applicazione degli aggiustamenti marginali specificati.
+**[!UICONTROL Gross Budget]:** (Solo campagne con gestione dei margini) Il budget lordo della campagna, prima dell&#39;applicazione degli adeguamenti marginali specificati.
 
-Facoltativamente, puoi aggiungere un budget lordo giornaliero, settimanale o mensile aggiuntivo:
+Facoltativamente, puoi aggiungere un budget lordo aggiuntivo giornaliero, settimanale o mensile:
 
 1. Clic **[!UICONTROL Add an additional Gross Budget]**.
 
 1. Inserisci il **[!UICONTROL Gross Budget]** e selezionare l&#39;intervallo di budget: *[!UICONTROL Daily],* *[!UICONTROL Weekly],* o *[!UICONTROL Monthly]*.
 
-Il budget netto totale, che è il limite di spesa per la campagna, viene calcolato automaticamente in base alle impostazioni del margine ed è indicato al di sotto di questo valore.
+Il budget netto totale, che rappresenta il limite di spesa per la campagna, viene calcolato automaticamente in base alle impostazioni dei margini ed è indicato sotto questo valore.
 
-**[!UICONTROL Budget]:** (Campagne senza gestione dei margini) Il bilancio complessivo della campagna.
+**[!UICONTROL Budget]:** (Campagne senza gestione dei margini) Il budget complessivo della campagna.
 
-**[!UICONTROL Estimated Tax Withholding]:** Consente di trattenere una percentuale della spesa totale per le tariffe degli annunci, le tariffe di servizio degli annunci e/o le tariffe dei dati a livello di account per le imposte nazionali o locali. I tassi sono stime a scopo di budget e di calcolo, pertanto le aliquote fiscali fatturate possono variare.
+**[!UICONTROL Estimated Tax Withholding]:** Trattiene una percentuale della spesa totale per le tariffe degli annunci, le tariffe di distribuzione degli annunci e/o le tariffe dei dati a livello di conto per le imposte nazionali o locali. Le aliquote sono stime per scopi di budget e di determinazione dei prezzi, pertanto le aliquote di imposta fatturate possono variare.
 
 Per stimare le imposte da trattenere:
 
 1. Clic **[!UICONTROL Update rates here]**.
 
-1. Specifica la **[!UICONTROL Estimated tax rate]**, come percentuale.
+1. Specifica la **[!UICONTROL Estimated tax rate]**, in percentuale.
 
-1. Selezionare la casella di controllo accanto a ogni tipo di commissione per la quale trattenere le imposte. I tipi di commissione includono:
+1. Selezionare la casella di controllo accanto a ogni tipo di commissione per cui si desidera trattenere le imposte. I tipi di commissione includono:
 
-   * *[!UICONTROL Include estimated tax - ads fee]:* Si applica a tutte le spese pubblicitarie DSP media, incluse le tasse sulle commissioni di gestione delle campagne.
+   * *[!UICONTROL Include estimated tax - ads fee]:* Si applica a tutte le spese pubblicitarie dei media DSP, comprese le tasse sulle spese di gestione delle campagne.
 
-   * *[!UICONTROL Include estimated tax - ad serving fee]:* Si applica a tutte le spese per i DSP pubblicitari, ad eccezione dei media e dei dati. Sono escluse le tasse per le commissioni di gestione delle campagne
+   * *[!UICONTROL Include estimated tax - ad serving fee]:* Si applica a tutte le spese per Advertising DSP tranne che per i media e i dati. Sono escluse le tasse per le commissioni di gestione delle campagne
 
-   * *[!UICONTROL Include estimated tax - data fee]:* Si applica a tutte le spese di dati per la DSP pubblicitaria.
+   * *[!UICONTROL Include estimated tax - data fee]:* Si applica a tutta la spesa di dati su Advertising DSP.
 
 1. Clic **[!UICONTROL Submit]**.
 
 >[!NOTE]
 >
->* Negli Stati Uniti, gli stati possono variare nella loro inclusione di tasse tra annunci, ad serving, e dati. Per le organizzazioni di altri paesi, includere tutte e tre le categorie di tasse per contabilizzare l&#39;IVA.
+>* Negli Stati Uniti, gli stati possono variare per quanto riguarda l&#39;inclusione delle tasse tra annunci, pubblicità e dati. Per le organizzazioni in altri paesi, includere tutte e tre le categorie di imposte per contabilizzare l&#39;IVA.
 >
->* Puoi anche configurare questi valori nelle impostazioni delle tariffe dell&#39;account.<!--[fee settings](/help/dsp/admin/tax-withholdings.md). -->
+>* Puoi anche configurare questi valori nelle impostazioni delle tariffe dell’account.<!--[fee settings](/help/dsp/admin/tax-withholdings.md). -->
 
 
-**[!UICONTROL Cross Device Level]:** (sola lettura per le campagne esistenti create dal 22 giugno 2020; non disponibile per le campagne create prima del 22 giugno 2020) Livello a cui DSP indirizzare gli annunci e applicare limiti di frequenza: *Stesso dispositivo* per eseguire il targeting di un dispositivo o *Persone* per eseguire il targeting di una persona su tutti i suoi dispositivi noti.
+**[!UICONTROL Cross Device Level]:** (Sola lettura per le campagne esistenti create dal 22 giugno 2020; non disponibile per le campagne create prima del 22 giugno 2020) Livello al quale l’DSP eseguirà il targeting degli annunci e applicherà i limiti di frequenza: *Stesso dispositivo* per eseguire il targeting di un dispositivo o *Persone* per eseguire il targeting di una persona su tutti i suoi dispositivi noti.
 
-**[!UICONTROL Device Graph]:** (sola lettura per le campagne esistenti; campagne con targeting su più dispositivi basato solo sulle persone) Il grafico dei dispositivi da utilizzare per il targeting su più dispositivi e la gestione della frequenza:
+**[!UICONTROL Device Graph]:** (Sola lettura per le campagne esistenti; campagne con targeting multi-dispositivo basato sulle persone) Il grafico dei dispositivi da utilizzare per il targeting multi-dispositivo e la gestione della frequenza:
 
-* *[!UICONTROL LiveRamp - U.S. only]:* Disponibile per tutti gli inserzionisti per il targeting tra dispositivi a $ 0,35 CPM per le impression consegnate utilizzando il [!DNL LiveRamp] grafico dei dispositivi (ovvero, per dispositivi non trovati all’interno dei segmenti di pubblico target). Puoi impostare il targeting tra dispositivi a livello di posizionamento.
+* *[!UICONTROL LiveRamp - U.S. only]:* Disponibile per tutti gli inserzionisti per il targeting tra dispositivi a $ 0,35 CPM per le impression distribuite utilizzando [!DNL LiveRamp] device graph (ossia, per dispositivi non trovati all’interno dei segmenti di pubblico target). Puoi impostare il targeting tra dispositivi a livello di posizionamento.
 
-   Questa opzione è disponibile anche per tutti gli inserzionisti, senza alcun costo, per la gestione della frequenza e la misurazione dell’attribuzione.
+   Questa opzione è disponibile anche per tutti gli inserzionisti, senza costi aggiuntivi, per la gestione della frequenza e la misurazione dell’attribuzione.
 
-**[!UICONTROL Frequency Cap]:** (Facoltativo) Il numero di volte in cui una persona o un dispositivo univoco (a seconda del valore specificato) [!UICONTROL Cross Device Level]verranno serviti gli annunci dalla campagna. Le opzioni includono *[!UICONTROL Unlimited]* o un importo specifico per giorno, settimana o mese.
+**[!UICONTROL Frequency Cap]:** (Facoltativo) Il numero di volte in cui un dispositivo o una persona univoca (a seconda del [!UICONTROL Cross Device Level]) riceveranno gli annunci dalla campagna. Le opzioni includono *[!UICONTROL Unlimited]* o un importo specifico per giorno, settimana o mese.
 
 >[!NOTE]
 >
-> Puoi impostare i limiti di frequenza a livello di campagna, pacchetto e posizionamento. DSP rispettare il limite di frequenza più rigoroso nella gerarchia delle campagne.
+> Puoi impostare i limiti di frequenza a livello di campagna, pacchetto e posizionamento. L’DSP rispetterà il limite di frequenza più rigoroso nella gerarchia della campagna.
 
-**[!UICONTROL Packages]:** La [pacchetti](/help/dsp/campaign-management/packages/package-about.md) da includere nella campagna. Seleziona i pacchetti esistenti e/o crea i pacchetti da includere. Se crei pacchetti, consulta le descrizioni [impostazioni del pacchetto](/help/dsp/campaign-management/packages/package-settings.md) per ulteriori informazioni.
+**[!UICONTROL Packages]:** Il [pacchetti](/help/dsp/campaign-management/packages/package-about.md) da includere nella campagna. Seleziona i pacchetti esistenti e/o crea i pacchetti da includere. Se crei pacchetti, consulta le descrizioni di [impostazioni pacchetto](/help/dsp/campaign-management/packages/package-settings.md) per ulteriori informazioni.
 
 ## [!UICONTROL Campaign Measurement]
 
 >[!NOTE]
 >
->Le seguenti impostazioni consentono solo funzionalità di misurazione e reporting. L’ottimizzazione delle prestazioni viene eseguita solo a livello di pacchetto e posizionamento.
+>Le seguenti impostazioni abilitano solo le funzionalità di misurazione e reporting. L’ottimizzazione delle prestazioni viene eseguita solo a livello di pacchetto e posizionamento.
 
 ### [!UICONTROL 3rd Party Metrics]
 
 #### [!UICONTROL Viewability, Fraud, & Brand Safety]
 
-**[!UICONTROL IAS]:** (Facoltativo) Abilita [!DNL IAS] misurazione e reporting di visualizzabilità, frode, sicurezza del marchio e verifica del pubblico, utilizzando le impostazioni specificate. Sono previsti costi aggiuntivi.
+**[!UICONTROL IAS]:** (Facoltativo) Abilita [!DNL IAS] misurazione e reporting di visualizzabilità, frode, sicurezza del brand e verifica del pubblico, utilizzando le impostazioni specificate. Si applicano tariffe aggiuntive.
 
-* **[!UICONTROL Measure On]:** L&#39;inventario su cui misurare: *[!UICONTROL Display and VPAID video inventory]* (impostazione predefinita) o *[!UICONTROL Display, VPAID & VAST video inventory]*.
+* **[!UICONTROL Measure On]:** Inventario su cui misurare: *[!UICONTROL Display and VPAID video inventory]* (impostazione predefinita) oppure *[!UICONTROL Display, VPAID & VAST video inventory]*.
 
    >[!NOTE]
    >
-   >La visualizzabilità video è misurabile solo su inventario VPAID.
+   >La visualizzabilità video è misurabile solo sull’inventario VPAID.
 
-* **[!UICONTROL IAS Account ID (AnID)]:** (inserzionisti con le proprie [!DNL IAS] conti; facoltativo) l&#39;organizzazione [!DNL IAS] ID account, quale [!DNL IAS] fatturerà direttamente per uso.
+* **[!UICONTROL IAS Account ID (AnID)]:** (Inserzionisti con il proprio [!DNL IAS] account; facoltativo) dell&#39;organizzazione [!DNL IAS] ID account, che [!DNL IAS] verrà fatturato direttamente per l&#39;utilizzo.
 
-* **[!UICONTROL IAS Team ID]:** (inserzionisti con le proprie [!DNL IAS] conti; facoltativo) l&#39;ID del team per [!DNL IAS] che [!DNL IAS] fatturerà direttamente per uso. <!-- verify -->
+* **[!UICONTROL IAS Team ID]:** (Inserzionisti con il proprio [!DNL IAS] account; facoltativo) l’ID del team dell’organizzazione [!DNL IAS] account, che [!DNL IAS] verrà fatturato direttamente per l&#39;utilizzo. <!-- verify -->
 
-**[!UICONTROL MOAT]:** (Facoltativo) Abilita [!DNL MOAT] misurazione e reporting di visualizzabilità, frode, sicurezza del marchio e verifica del pubblico. Sono previsti costi aggiuntivi.
+**[!UICONTROL MOAT]:** (Facoltativo) Abilita [!DNL MOAT] misurazione e reporting della visibilità, delle frodi, della sicurezza del marchio e della verifica del pubblico. Si applicano tariffe aggiuntive.
 
 #### Verifica del pubblico
 
-**[!UICONTROL Nielsen]:** (Facoltativo) Abilita [!DNL Nielsen] misurazione e reporting della verifica del pubblico, utilizzando le impostazioni specificate. Sono previsti costi aggiuntivi.
+**[!UICONTROL Nielsen]:** (Facoltativo) Abilita [!DNL Nielsen] misurazione e reporting della verifica del pubblico, utilizzando le impostazioni specificate. Si applicano tariffe aggiuntive.
 
-* **[!UICONTROL Target Gender]:** Il genere da indirizzare: *[!UICONTROL Both]* (impostazione predefinita), *[!UICONTROL Male]* oppure *[!UICONTROL Female]*
+* **[!UICONTROL Target Gender]:** Genere di destinazione: *[!UICONTROL Both]* (impostazione predefinita), *[!UICONTROL Male]*, o *[!UICONTROL Female]*
 
-* **[!UICONTROL Target Age]:** Intervallo di età da utilizzare. Utilizza i cursori sinistro e destro per ridurre l’intervallo in base alle esigenze.
+* **[!UICONTROL Target Age]:** L’intervallo di età di destinazione. Utilizza i cursori sinistro e destro per ridurre l’intervallo in base alle esigenze.
 
-* **[!UICONTROL Target Country]:** (Facoltativo) Un paese a cui rivolgersi. [!DNL Nielsen] misurerà le impression servite solo nei paesi supportati.
+* **[!UICONTROL Target Country]:** (Facoltativo) Paese di destinazione. [!DNL Nielsen] misurerà le impression distribuite solo nei paesi supportati.
 
-**[!UICONTROL comScore vCE]:** (Facoltativo) Abilita [!DNL Comscore validated Campaign Essentials (vCE)] misurazione e reporting della verifica del pubblico, utilizzando le impostazioni specificate. Sono previsti costi aggiuntivi.
+**[!UICONTROL comScore vCE]:** (Facoltativo) Abilita [!DNL Comscore validated Campaign Essentials (vCE)] misurazione e reporting della verifica del pubblico, utilizzando le impostazioni specificate. Si applicano tariffe aggiuntive.
 
-* **[!UICONTROL Target Gender]:** Il genere da indirizzare: *[!UICONTROL Both]* (impostazione predefinita), *[!UICONTROL Male]* oppure *[!UICONTROL Female]*
+* **[!UICONTROL Target Gender]:** Genere di destinazione: *[!UICONTROL Both]* (impostazione predefinita), *[!UICONTROL Male]*, o *[!UICONTROL Female]*
 
-* **[!UICONTROL Target Age]:** Intervallo di età da utilizzare. Utilizza i cursori sinistro e destro per ridurre l’intervallo in base alle esigenze.
+* **[!UICONTROL Target Age]:** L’intervallo di età di destinazione. Utilizza i cursori sinistro e destro per ridurre l’intervallo in base alle esigenze.
 
-* **[!UICONTROL Target Country]:** (Facoltativo) Un paese a cui rivolgersi. [!DNL Comscore] misurerà le impression servite solo nei paesi supportati.
+* **[!UICONTROL Target Country]:** (Facoltativo) Paese di destinazione. [!DNL Comscore] misurerà le impression distribuite solo nei paesi supportati.
 
 ### [!UICONTROL 1st Party Metrics]
 
-**[!UICONTROL Viewability sensitivity]:** Abilita la misurazione e il reporting di prima parte della visualizzabilità utilizzando [!DNL IAB Open Video Viewability (OpenVV)] in base al livello di sensibilità specificato:
+**[!UICONTROL Viewability sensitivity]:** Consente la misurazione di prime parti e il reporting della visualizzabilità utilizzando [!DNL IAB Open Video Viewability (OpenVV)] tecnologia, in base al livello di sensibilità specificato:
 
 * *[!UICONTROL Standard (50% of ad in view for two consecutive seconds)]*
 
@@ -150,5 +150,5 @@ Per stimare le imposte da trattenere:
 >* [Informazioni su Campaign Management](campaign-about.md)
 >* [Creare una campagna](campaign-create.md)
 >* [Modificare una campagna](campaign-edit.md)
->* [Visualizza il registro delle modifiche per una campagna](campaign-change-log.md)
+>* [Visualizzare il registro delle modifiche per una campagna](campaign-change-log.md)
 
