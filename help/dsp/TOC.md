@@ -8,9 +8,9 @@ user-guide-title: Guida di Advertising DSP
 user-guide-description: Scopri le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire e ottimizzare le strategie degli annunci display con Advertising DSP e creare i relativi rapporti.
 breadcrumb-title: Guida di DSP
 index: true
-source-git-commit: ce26d622bde31f289466c581a85724b93e4eae62
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '902'
 ht-degree: 6%
 
 ---
@@ -46,6 +46,7 @@ ht-degree: 6%
       + [Modificare una campagna](/help/dsp/campaign-management/campaigns/campaign-edit.md)
       + [Duplicare una campagna](/help/dsp/campaign-management/campaigns/campaign-duplicate.md)
       + [Visualizzare un rapporto dettagliato per una campagna](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
+      + [Sospendere o attivare una campagna](/help/dsp/campaign-management/campaigns/campaign-pause-activate.md)
       + [Archiviare o annullare l’archiviazione di una campagna](/help/dsp/campaign-management/campaigns/campaign-archive-unarchive.md)
       + [Visualizzare il registro delle modifiche per una campagna](/help/dsp/campaign-management/campaigns/campaign-change-log.md)
       + [Impostazioni campagna](/help/dsp/campaign-management/campaigns/campaign-settings.md)
@@ -56,6 +57,7 @@ ht-degree: 6%
       + [Modificare un pacchetto](/help/dsp/campaign-management/packages/package-edit.md)
       + [Duplicare un pacchetto](/help/dsp/campaign-management/packages/package-duplicate.md)
       + [Allegare un posizionamento a un pacchetto](/help/dsp/campaign-management/packages/package-attach-placement.md)
+      + [Sospendere o attivare un pacchetto](/help/dsp/campaign-management/packages/package-pause-activate.md)
       + [Archiviare o annullare l’archiviazione di un pacchetto](/help/dsp/campaign-management/packages/package-archive-unarchive.md)
       + [Visualizzare il registro delle modifiche di un pacchetto](/help/dsp/campaign-management/packages/package-change-log.md)
       + [Impostazioni pacchetto](/help/dsp/campaign-management/packages/package-settings.md)
@@ -83,6 +85,7 @@ ht-degree: 6%
       + [Allegare un annuncio a un posizionamento](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
       + [Elencare i posizionamenti associati a un annuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [Visualizzare un rapporto dettagliato per un annuncio](/help/dsp/campaign-management/ads/ad-view-report.md)
+      + [Sospendere o attivare un annuncio](/help/dsp/campaign-management/ads/ad-pause-activate.md)
       + [Archiviare o annullare l’archiviazione di un annuncio](/help/dsp/campaign-management/ads/ad-archive-unarchive.md)
       + Impostazioni annuncio {#ad-settings}
          + [Impostazioni annuncio audio](/help/dsp/campaign-management/ads/ad-settings-audio.md)

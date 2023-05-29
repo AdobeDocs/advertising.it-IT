@@ -3,9 +3,9 @@ title: Archiviare o annullare l’archiviazione di una campagna
 description: Scopri come archiviare o annullare l’archiviazione di una campagna.
 feature: DSP Campaigns
 exl-id: 3b1fac7b-1c3e-417e-b6f6-142aa48b1135
-source-git-commit: 4085c1b21c0fe84653978e449321868921841367
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
@@ -36,3 +36,5 @@ Puoi annullare l’archiviazione di una campagna per ripristinarne lo stato prec
 >
 >* [Modificare una campagna](campaign-edit.md)
 >* [Visualizzare il registro delle modifiche per una campagna](campaign-change-log.md)
+>* [Sospendere o attivare una campagna](campaign-pause-activate.md)
+

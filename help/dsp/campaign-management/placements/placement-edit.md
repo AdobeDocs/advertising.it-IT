@@ -3,9 +3,9 @@ title: Modificare un posizionamento
 description: Scopri come modificare un posizionamento.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Utilizza questa opzione solo quando desideri applicare le stesse modifiche a tut
 
 1. Selezionare la casella di controllo accanto a ogni posizionamento che si desidera modificare.
 
-1. Nella barra dei menu, fai clic su **[!UICONTROL Edit]**.
+1. Nella barra dei menu delle operazioni di massa, fare clic su **[!UICONTROL Edit]**.
 
 1. Per ogni impostazione che si desidera modificare:
 
