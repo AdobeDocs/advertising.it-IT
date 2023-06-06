@@ -1,0 +1,19 @@
+---
+title: Rimuovere un filtro colonna
+description: Scopri come rimuovere un filtro colonna.
+source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+workflow-type: tm+mt
+source-wordcount: '57'
+ht-degree: 0%
+
+---
+
+# Rimuovere un filtro colonna
+
+>[!NOTE]
+>
+>Puoi anche rimuovere più filtri in un set di filtri con [modifica del set di filtri](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-edit.md).
+
+1. (Se necessario) Nell’insieme di filtri sopra la tabella di dati, fai clic su ![Altro](/help/search-social-commerce/assets/more-filters.png "Altro") per espandere il set di filtri.
+
+1. Sopra la tabella dati, fai clic su **[!UICONTROL X]** nella definizione del filtro.

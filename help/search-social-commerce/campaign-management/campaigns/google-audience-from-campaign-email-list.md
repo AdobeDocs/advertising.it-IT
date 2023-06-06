@@ -1,0 +1,116 @@
+---
+title: Creare un [!DNL Google Ads] customer match audience da un elenco e-mail di Adobe Campaign
+description: Scopri come creare un [!DNL Google Ads] customer match audience da un elenco e-mail esistente di Adobe Campaign.
+source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+workflow-type: tm+mt
+source-wordcount: '672'
+ht-degree: 0%
+
+---
+
+# Creare un [!DNL Google Ads] customer match audience da un elenco e-mail di Adobe Campaign
+
+*[!DNL Google Ads]account idonei solo per il confronto con i clienti*
+
+Puoi creare una [!DNL Google Ads] customer match audience da un elenco e-mail in Adobe Campaign tramite la configurazione di un collegamento di account e di un flusso di lavoro in [!DNL Campaign].
+
+Per farlo, devi accedere al tuo [!DNL Campaign] e un file XML contenente il flusso di lavoro richiesto, fornito dal team dell’account Adobe. Le istruzioni possono variare per le diverse versioni di [!DNL Campaign]. Se necessario, il team dell’account Adobe può aiutarti a impostare il flusso di lavoro in [!DNL Campaign].
+
+1. Ottieni le credenziali per un account SFTP fornito da Advertising Search, Social e Commerce.
+
+1. In entrata [!DNL Campaign], configura la consegna dell’elenco e-mail a Advertising Search, Social e Commerce:
+
+   1. Creare un [account esterno](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/external-accounts.html) per collegare l’account SFTP fornito da Search, Social e Commerce:
+
+      1. Dal menu a sinistra, vai a **\[Adobe Campaign v6\] > [!UICONTROL Platform] >[!UICONTROL External Accounts]**.
+
+      1. Clic ![Crea account](/help/search-social-commerce/assets/campaign-create-account.png "Crea account").
+
+      1. Inserisci un’etichetta per l’account e seleziona **[!UICONTROL SFTP]** come tipo di account.
+
+      1. Immettere l&#39;URL e il numero di porta per [!DNL Adobe] Server SFTP e nome della cartella, nome utente e password dell’inserzionista.
+
+      1. Clic **[!UICONTROL Save]**.
+   1. In entrata [!DNL Campaign Client], installa il pacchetto di dati che include il flusso di lavoro necessario per inviare i dati e-mail:
+
+      1. Dalla barra dei menu, vai a **[!UICONTROL Tools]> [!UICONTROL Advanced] >[!UICONTROL Import Package]**.
+
+      1. Seleziona **[!UICONTROL Install a package from a file]** e quindi fare clic su **[!UICONTROL Next]**.
+
+      1. Individua il file del pacchetto dati (`AMO_Workflow.xml`) sul dispositivo o sulla rete, quindi fare clic su **[!UICONTROL Next]**.
+
+      1. Clic **[!UICONTROL Start]** e attendi l’installazione del flusso di lavoro.
+   1. Modifica il flusso di lavoro installato per modificare facoltativamente i filtri per la query di dati e per identificare il nuovo nome del pubblico e l’account SFTP esterno:
+
+      1. Vai a **[!UICONTROL Administration]> [!UICONTROL Configuration] > [!UICONTROL Package management] >[!UICONTROL Installed packages]** e apri il pacchetto.
+
+      1. (Facoltativo) Modifica uno dei filtri per i dati:
+
+         * Nel flusso di lavoro, fai doppio clic sull’attività query (ad esempio ForkTransition 1).
+
+         * Modifica le espressioni filtro.
+
+         * Clic **[!UICONTROL Finish]**.
+      1. Denomina il segmento:
+
+         * Nel flusso di lavoro, fai doppio clic sull’attività **[!UICONTROL Data extraction (File)]**.
+
+         * Al **[!UICONTROL Data extraction (File)]** , nella scheda **[!UICONTROL File name]** , inserisci il nome del segmento con l’estensione &quot;`.added`&quot; (ad esempio PaidSubscribers.ADDED).
+
+            Il nome del segmento non deve esistere già. Il nome del segmento distingue tra maiuscole e minuscole e deve essere costituito da caratteri ASCII ma non può includere trattini bassi (`_`).
+
+            Tuttavia, se desideri aggiungere il segmento a una [!DNL Google Ad] , quindi aggiungi al nome del segmento un trattino basso e il [!UICONTROL User SE Account ID] (ID di Search, Social &amp; Commerce per il [!DNL Google Ads] account, non l&#39;ID account della rete):
+
+            `_<User SE Account ID>`
+
+            Esempio: Paid_Subscribers_1234.ADDED
+
+            >[!NOTE]
+            >
+            >Si tratta di un&#39;eccezione alla regola che vieta i caratteri di sottolineatura nel nome del file.
+
+            In caso contrario, il segmento viene aggiunto a tutti [!DNL Google Ads] account sincronizzati da Search, Social e Commerce per l’inserzionista.
+
+         * Lascia l’opzione per **[!UICONTROL Generate an outbound transition]** selezionato.
+
+         * Clic **[!UICONTROL Ok]**.
+      1. Specifica l’account esterno a cui inviare i dati:
+
+         * Nel flusso di lavoro, fai doppio clic sull’attività **[!UICONTROL File Transfer]**.
+
+         * Al **[!UICONTROL File Transfer]** , nella scheda **[!UICONTROL Remote server]** , selezionare l&#39;opzione per **[!UICONTROL Use an external account]**.
+
+         * In **[!UICONTROL External account]** , seleziona l’etichetta per l’account esterno creato nel passaggio 2.
+
+         * In **[!UICONTROL Server folder]** , selezionare il valore per il campo [!UICONTROL Account] per l’account esterno.
+
+         * (Facoltativo) Il **[!UICONTROL Schedule]** , specificare una pianificazione diversa per il trasferimento di file.
+
+            Per impostazione predefinita, il flusso di lavoro viene eseguito alle 00:00 (mezzanotte), in modo da garantire che tutti i record vengano elaborati. Per ridurre al minimo la latenza, pianifica l’esecuzione del flusso di lavoro entro le 18:00.
+
+         * Clic **[!UICONTROL Ok]**.
+
+
+
+
+
+Search, Social e Commerce controllano la directory ogni 30 minuti (alle NN:30 e NN:59 nel fuso orario dell’inserzionista) e spostano tutti i file trovati in un’altra posizione, quindi creano automaticamente un pubblico dai dati e lo inviano a Google alle 22:00 (22:00). Search, Social e Commerce continua a verificare la disponibilità di aggiornamenti (aggiunte e sottrazioni) all’elenco e-mail ogni 30 minuti e aggiorna il pubblico ogni [!DNL Google Ads] di conseguenza alle ore 22.00.
+
+>[!NOTE]
+>
+>* Se si caricano più versioni di un file tra un ciclo di elaborazione e l&#39;altro, viene utilizzato il file più recente.
+>
+>* Search, Social e Commerce non memorizzano i dati dei clienti dagli elenchi e-mail utilizzati per creare o modificare un [!DNL Google Ads] pubblico.
+>
+>* [!DNL Google Ads] L’elaborazione degli aggiornamenti a un pubblico potrebbe richiedere del tempo.
+>
+>* Consulta [[!DNL Google Ads] documentazione su come funziona la corrispondenza con i clienti e limitazioni](https://support.google.com/displayvideo/answer/9539301).
+
+
+>[!MORELIKETHIS]
+>
+>* [Informazioni sui tipi di pubblico](audience-about.md)
+>* [Crea [!DNL Google Ads] audience di corrispondenza cliente da [!DNL Adobe] audience](google-audience-from-adobe-audience.md)
+>* [Gestire i tipi di pubblico in base ai clienti utilizzando gli elenchi di dati dei clienti](audience-from-customer-data-list.md)
+>* [Gestire i tipi di pubblico di remarketing dinamico](audience-dynamic-remarketing-manage.md)
+

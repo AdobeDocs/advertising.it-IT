@@ -1,0 +1,32 @@
+---
+title: Visualizza o salva un [!DNL Advertising Insight]
+description: Scopri come visualizzare un’ [!DNL Advertising Insight] e salvarlo in un file.
+source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+workflow-type: tm+mt
+source-wordcount: '88'
+ht-degree: 0%
+
+---
+
+# Visualizza o salva un [!DNL Advertising Insight]
+
+1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Advertising Insights]**.
+
+2. Nel menu a sinistra, fai clic su ![Rapporti](/help/search-social-commerce/assets/insight-reports.png "Rapporti").
+
+3. In [!UICONTROL Generated Insights] eseguire una delle operazioni seguenti:
+
+   * Fai clic sull’istanza del rapporto.
+
+   * Posizionare il cursore sull&#39;istanza del report, quindi fare clic su ![Scarica](/help/search-social-commerce/assets/insight-download.png "Scarica").
+
+4. Apri o salva il file in base alla normale procedura del browser.
+
+   Se il file è compresso, estrarre i singoli file in una cartella prima di visualizzarli.
+
+>[!MORELIKETHIS]
+>
+>* [Informazioni su [!UICONTROL Advertising Insights]](insight-about.md)
+>* [Genera un [!DNL Advertising Insight]](insight-generate.md)
+>* [Eliminare un [!DNL Advertising Insight]](insight-delete.md)
+
