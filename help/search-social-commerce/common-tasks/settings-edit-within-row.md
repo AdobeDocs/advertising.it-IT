@@ -1,7 +1,7 @@
 ---
 title: Modificare le impostazioni direttamente all'interno di una riga
 description: Scopri come modificare i dati nelle visualizzazioni di gestione all’interno della riga.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: cd5d4acf2319c1a0e9f9f1ead6e219b42d163077
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
@@ -25,4 +25,5 @@ ht-degree: 0%
    * (Valori in formato libero) Immettere un nuovo valore e quindi fare clic su ![Salva](/help/search-social-commerce/assets/select.png "Salva") oppure premere il tasto **Invio** chiave.
    >[!MORELIKETHIS]
    >
-   >*[Creare e modificare i dati della campagna in blocco utilizzando Copia e Incolla](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)
+   >* [Creare e modificare i dati della campagna in blocco utilizzando Copia e Incolla](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)
+
