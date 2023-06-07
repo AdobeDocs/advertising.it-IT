@@ -1,9 +1,9 @@
 ---
 title: Gestire i file di feed dati di inventario
 description: Scopri come configurare le impostazioni che controllano la modalità di elaborazione dei dati dei feed.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a0cdc0de763feeafdea57e4233b48a2c39449e1f
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Puoi aprire o scaricare qualsiasi file di feed caricato manualmente o utilizzand
 
 Per ulteriori informazioni, consulta la guida in linea del browser.
 
-## Caricare manualmente un file di feed [#feed-file-upload]
+## Caricare manualmente un file di feed {#feed-file-upload}
 
 >[!NOTE]
 > Se si associa un modello a un file caricato manualmente, ma in seguito si carica tramite FTP un altro file con lo stesso nome, estensione e maiuscole/minuscole, il file FTP viene utilizzato quando si propagano i dati tramite il modello. Ad esempio, myfile.csv sostituisce myfile.csv, mentre Myfile.CSV no.
