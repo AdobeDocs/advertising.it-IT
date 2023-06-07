@@ -9,9 +9,9 @@ user-guide-description: Questa guida descrive le principali funzioni, attività,
 breadcrumb-title: Guida a Advertising Search, Social e Commerce
 index: false
 hide: true
-source-git-commit: b1913c396e911f7595ab6cb42c5ea960b2cc789b
+source-git-commit: 30e08508f5039cdd08b01fd151b9119ee72b0b4d
 workflow-type: tm+mt
-source-wordcount: '1694'
+source-wordcount: '1690'
 ht-degree: 0%
 
 ---
@@ -372,12 +372,11 @@ ht-degree: 0%
    + Recommendations {#recommendations}
 + Strumenti {#tools}
    + [Cambia la password](/help/search-social-commerce/tools/password-change.md)
-   + Strumenti per il tracciamento dei tag {#tracking}
-      + [Strumenti per creare e decodificare il tracciamento basato su pixel]{#pixel}
-         + [Informazioni sugli strumenti per creare e decodificare i tag di tracciamento](/help/search-social-commerce/tools/tracking-tools-about.md)
-         + [Generare un URL di tracciamento dei clic](/help/search-social-commerce/tools/click-tracking-url-generate.md)
-         + [Decodificare un URL di tracciamento dei clic](/help/search-social-commerce/tools/click-tracking-url-decode.md)
-         + [Genera un tag di conversione Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
+   + Strumenti per creare e decodificare i tag di tracciamento{#tracking}
+      + [Informazioni sugli strumenti per creare e decodificare i tag di tracciamento](/help/search-social-commerce/tools/tracking-tools-about.md)
+      + [Generare un URL di tracciamento dei clic](/help/search-social-commerce/tools/click-tracking-url-generate.md)
+      + [Decodificare un URL di tracciamento dei clic](/help/search-social-commerce/tools/click-tracking-url-decode.md)
+      + [Genera un tag di conversione Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
    + Caricamento dei dati di conversione nelle reti di annunci {#upload-ad-networks}
       + [Carica metriche di conversione in [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
       + [Abilita il caricamento degli obiettivi nelle reti di annunci](/help/search-social-commerce/tools/objective-upload-to-networks.md)
