@@ -1,9 +1,9 @@
 ---
 title: Dati bulksheet richiesti per [!DNL Google Ads] account
 description: Fai riferimento ai campi di intestazione e ai campi di dati obbligatori nei bulksheet per [!DNL Google Ads] account.
-source-git-commit: 05a3424b67d084dbb664321c7a6ada0f99a840b2
+source-git-commit: e06d89ce5d7995bf3abc3ff1312a4a2c2c7448f1
 workflow-type: tm+mt
-source-wordcount: '6628'
+source-wordcount: '6630'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,32 @@ Per creare e aggiornare [!DNL Google Ads] dati della campagna in blocco, puoi ut
 
 ### Campi della campagna
 
-| Nome conto | Obbligatorio a meno che ogni riga non includa un &quot;AMO ID&quot; per l’entità. | | Nome campagna | Obbligatorio | Nome univoco che identifica una campagna per un account. | | Bilancio della campagna | Obbligatorio: creazione<br><br>>Facoltativo: modifica o elimina | Limite di spesa giornaliero per la campagna, con o senza simboli monetari e punteggiatura. Questo valore sostituisce ma non può superare il budget del conto. | | Metodo di consegna | Obbligatorio: creazione<br><br>Facoltativo: modificare o eliminare | | Tipo di canale | Obbligatorio: creazione<br><br>Facoltativo: modificare o eliminare | | Reti | Obbligatorio: creazione<br><br>Facoltativo: modificare o eliminare | | Nome dominio DSA | Obbligatorio: creazione<br><br>Facoltativo: modificare o eliminare | | Lingua di dominio DSA | Obbligatorio: creazione<br><br>Facoltativo: modificare o eliminare | | Priorità campagna | Obbligatorio/facoltativo: creazione<br><br>Facoltativo / n/a: Modifica o elimina | | ID commerciante | Obbligatorio/facoltativo: creazione<br><br>Facoltativo / n/a: Modifica o elimina | | Paese di vendita | Obbligatorio/facoltativo: creazione<br><br>Facoltativo / n/a: Modifica o elimina | | Filtro ambito prodotto | Facoltativo | | Lingue | Facoltativo | | Destinazioni dispositivo | Facoltativo | | Destinazioni SO dispositivo (Google Adwords) | Facoltativo | | Operatori di telefonia mobile (Google Adwords) | Facoltativo | | Audience Target Method | n.d. | | Suffisso pagina di destinazione | <p>Facoltativo | | Modello di tracciamento | Facoltativo | | Stato campagna | Facoltativo: creare o modificare<br><br>Obbligatorio: Elimina | | \[Classificazione etichetta specifica dell’inserzionista\] | Facoltativo | | Vincoli | Facoltativo | | ID campagna | Obbligatorio solo quando si modifica il nome della campagna, a meno che la riga non includa un &quot;AMO ID&quot; per la campagna. | | AMO ID | n/d: Creazione<br><br>Obbligatorio/Facoltativo: modifica o elimina |
+| Campo | Obbligatorio |
+| ---- | ---- |
+| Nome conto | Obbligatorio a meno che ogni riga non includa un &quot;AMO ID&quot; per l’entità. |
+| Nome campagna | Obbligatorio | Il nome univoco che identifica una campagna per un account. |
+| Budget della campagna | Obbligatorio: creazione<br><br>>Facoltativo: modifica o elimina | Limite di spesa giornaliero per la campagna, con o senza simboli monetari e punteggiatura. Questo valore sostituisce ma non può superare il budget del conto. |
+| Metodo di consegna | Obbligatorio: creazione<br><br>Facoltativo: modificare o eliminare |
+| Tipo di canale | Obbligatorio: creazione<br><br>Facoltativo: modificare o eliminare |
+| Reti | Obbligatorio: creazione<br><br>Facoltativo: modificare o eliminare |
+| Nome dominio DSA | Obbligatorio: creazione<br><br>Facoltativo: modificare o eliminare |
+| Lingua del dominio DSA | Obbligatorio: creazione<br><br>Facoltativo: modificare o eliminare |
+| Priorità campagna | Obbligatorio/facoltativo: creazione<br><br>Facoltativo / n/a: Modifica o elimina |
+| ID esercente | Obbligatorio/facoltativo: creazione<br><br>Facoltativo / n/a: Modifica o elimina |
+| Paese di vendita | Obbligatorio/facoltativo: creazione<br><br>Facoltativo / n/a: Modifica o elimina |
+| Filtro ambito prodotto | Facoltativo |
+| Lingue | Facoltativo |
+| Destinazioni dispositivo | Facoltativo |
+| Destinazioni SO dispositivo (Google Adwords) | Facoltativo |
+| Gestori di telefonia mobile (Google Adwords) | Facoltativo |
+| Audience Target Method | n/d |
+| Suffisso pagina di destinazione | <p>Facoltativo |
+| Modello di tracciamento | Facoltativo |
+| Stato della campagna | Facoltativo: creare o modificare<br><br>Obbligatorio: Elimina |
+| \[Classificazione etichetta specifica dell’inserzionista\] | Facoltativo |
+| Vincoli | Facoltativo |
+| ID campagna | Obbligatorio solo quando si modifica il nome della campagna, a meno che la riga non includa un &quot;AMO ID&quot; per la campagna. |
+| AMO ID | n/d: Crea<br><br>Obbligatorio/Facoltativo: modifica o elimina |
 
 ### Campi del gruppo di annunci
 
@@ -144,10 +169,10 @@ Per creare e aggiornare [!DNL Google Ads] dati della campagna in blocco, puoi ut
 
 ### Keyword fields
 
-Campaign Name
-Ad Group Name
-Keyword Status
-Max CPC
+| Acct Name | Required unless each row includes an &quot;AMO ID&quot; for the entity. |
+| Campaign Name | Required |
+| Ad Group Name | Required  |
+| Max CPC | Optional |
 Tracking Template
 URLs (Base URL/Final URL, Destination URL)
 Exemption Request (Google Adwords)
@@ -159,6 +184,7 @@ Param2
 Quality Score
 Custom URL Param
 Label Classification
+Keyword Status
 
 | Field | Required? | Description |
 | ---- | ---- | ---- |
