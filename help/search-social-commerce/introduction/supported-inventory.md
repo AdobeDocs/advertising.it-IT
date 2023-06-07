@@ -1,7 +1,7 @@
 ---
 title: Inventario supportato
 description: Fai riferimento alle reti di annunci supportate, ai tipi di campagne e ai tipi di annunci.
-source-git-commit: 95c7e67bb6f065567302f266959295ce8125c624
+source-git-commit: 2e16159c3d7d973a12a94128b41ebd05539b2f02
 workflow-type: tm+mt
 source-wordcount: '2371'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 Di seguito sono riportati i tipi di reti, campagne e annunci supportati e le funzionalità disponibili per ciascuno di essi.
 
 | Sorgente | Rete | Tipo di campagna | Tipo di annuncio | Sincronizza e visualizza | Crea/Modifica | Traccia[^1] | Ottimizza | Report[^2] | Supporto Adobe Analytics[^3] |
-|----|----|----|----|----|----|----|----|----|----|----|
+|----|----|----|----|----|----|----|----|----|----|
 | [!DNL Baidu] | Cerca rete | Manuale | Testo | Automatico tramite API | Utilizzo di [visualizzazioni di gestione delle campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) e [bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | Sì | Campagne con strategia di offerta CPC manuale | Dati a livello di annuncio | Dati di Analytics per Ricerca, Social e Commerce<br><br>Dati a livello di annuncio da Search, Social e Commerce ad Analytics |
 | [!DNL Google Ads] | Tutti [!DNL Google] feed | Individuazione (funzione beta) | Individuazione (annunci a immagine singola)<br><br>Carosello di scoperta (annunci carosello con più immagini) | Automatico tramite API | — | Sì | Solo in portfolio ibridi<br><br>Le offerte e gli obiettivi della strategia di offerta vengono impostati a livello di campagna, insieme ai budget della campagna, in base al tipo di ottimizzazione. | Dati a livello di annuncio | Dati a livello di annuncio per Search, Social e Commerce (utilizzando il [codice di tracciamento s_kwcid](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)[^4]<br><br>Dati a livello di annuncio da Search, Social e Commerce ad Analytics |
 |  | Tutti | Prestazioni standard massime (funzione beta) | Tutti i tipi | Automatico tramite API | Creare/modificare una campagna e caricare le risorse nelle impostazioni della campagna nella vista Campagne<br><br>Sono disponibili solo le impostazioni richieste. Per le impostazioni facoltative e i gruppi di voci, accedere a [!DNL [!DNL Google Ads] Ads]. | Sì | Solo in portfolio ibridi<br><br>Gli obiettivi della strategia di offerta sono fissati a livello di campagna, insieme ai budget della campagna. | Dati a livello di campagna<br><br>I dati per l’elenco dei gruppi non sono disponibili e la rete di annunci non fornisce dati a livello di annuncio. | Dati di Analytics per Ricerca, Social e Commerce<br><br>Dati a livello di campagna da Search, Social e Commerce ad Analytics. Richiede l&#39;aggiornamento [codice di tracciamento s_kwcid](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md). |
