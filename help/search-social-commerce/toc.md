@@ -9,9 +9,9 @@ user-guide-description: Questa guida descrive le principali funzioni, attività,
 breadcrumb-title: Guida a Advertising Search, Social e Commerce
 index: false
 hide: true
-source-git-commit: 30e08508f5039cdd08b01fd151b9119ee72b0b4d
+source-git-commit: ba0604f0c8f07cad70aa1af66fe24db3ec8e541d
 workflow-type: tm+mt
-source-wordcount: '1690'
+source-wordcount: '1721'
 ht-degree: 0%
 
 ---
@@ -369,7 +369,11 @@ ht-degree: 0%
       + [Visualizzare avvisi personalizzati](/help/search-social-commerce/alerts/alert-view.md)
       + [Esporta dati per avvisi personalizzati](/help/search-social-commerce/alerts/alert-export-data.md)
    + [Visualizzare il rapporto Cronologia modifiche](/help/search-social-commerce/reports/change-history-view.md)
-   + Recommendations {#recommendations}
+   + Approfondimenti su Recommendations e publisher {#recommendations}
+      + [Informazioni sul supporto di consigli e approfondimenti per gli editori](/help/search-social-commerce/recommendations/recommendation-support.md)
+      + [Visualizza il registro di consigli per un [!DNL Google Ads] account](/help/search-social-commerce/recommendations/google-recommendation-view-log.md)
+      + [Applicare o ignorare un [!DNL Google Ads] consiglio](/help/search-social-commerce/recommendations/google-recommendation-apply-dismiss.md)
+      + [Best practice per l’utilizzo di consigli e informazioni approfondite sugli editori con i portfolio](/help/search-social-commerce/recommendations/recommendation-best-practices.md)
 + Strumenti {#tools}
    + [Cambia la password](/help/search-social-commerce/tools/password-change.md)
    + Strumenti per creare e decodificare i tag di tracciamento{#tracking}

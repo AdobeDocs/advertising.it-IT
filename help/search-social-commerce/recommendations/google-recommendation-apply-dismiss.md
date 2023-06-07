@@ -1,9 +1,9 @@
 ---
 title: Applicare o ignorare un [!DNL Google Ads] consiglio
 description: Scopri come visualizzare una [!DNL Google Ads] consigli e come applicarlo o ignorarlo.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 7bb2e247c0d6436c369474dacba323a085dd2ebb
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ Visualizzare le azioni consigliate e la spiegazione del motivo per cui le azioni
 >
 >Anche se i consigli ti aiutano a migliorare le prestazioni della campagna, alcuni potrebbero non allinearsi agli obiettivi più ampi. Di conseguenza, è meglio consultare il team del tuo account Adobe prima di implementare qualsiasi consiglio.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations]**.
+1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
 
-1. In alto a destra, seleziona l’account.
+1. In alto a destra, seleziona la rete di annunci e l’account.
 
 1. (Facoltativo) Filtra i consigli per categoria e tipo.
 
@@ -36,7 +36,7 @@ Visualizzare le azioni consigliate e la spiegazione del motivo per cui le azioni
 
 >[!MORELIKETHIS]
 >
->* [Best practice per l’utilizzo di [!DNL Google Ads] consigli con i portfolio Search, Social e Commerce](google-recommendation-best-practices.md)
->* [Informazioni su [!DNL Google Ads] supporto per consigli](google-recommendation-support.md)
+>* [Informazioni sul supporto di consigli e approfondimenti per gli editori](recommendation-support.md)
 >* [Visualizza il registro di consigli per un [!DNL Google Ads] account](google-recommendation-view-log.md)
+>* [Best practice per l’utilizzo di consigli e informazioni approfondite sugli editori con i portfolio](recommendation-best-practices.md)
 
