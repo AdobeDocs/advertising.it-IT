@@ -4,7 +4,7 @@ description: Scopri gli ultimi aggiornamenti e le nuove funzioni di Advertising 
 cloud: Experience Cloud
 product: advertising cloud
 index: false
-source-git-commit: 24541d12b6042252e348c980b6cf0172f06b192e
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%
@@ -17,6 +17,6 @@ Le seguenti funzioni sono nuove o modificate di recente.
 
 | Data | Funzionalità | Descrizione | Per Ulteriori Informazioni |
 | ---- | ------- | ----------- | -------------------- |
-| 10 giugno 2023 | [!UICONTROL Recommendations and Publisher Insights] | (versione beta aperta) | [!UICONTROL Microsoft Advertising] gli insight sulle prestazioni e i consigli suggeriti negli ultimi 30 giorni sono disponibili in [!UICONTROL Optimization] > [!UICONTROL Recommendations and Publisher Insights]. <b>Nota:</b> Anche se i consigli ti aiutano a migliorare le prestazioni della campagna, alcuni potrebbero non allinearsi agli obiettivi più ampi. Di conseguenza, è meglio consultare il team del tuo account Adobe prima di implementare qualsiasi consiglio. |
+| 10 giugno 2023 | [!UICONTROL Recommendations and Publisher Insights] | (versione beta aperta) | [!UICONTROL Microsoft Advertising] gli insight sulle prestazioni e i consigli suggeriti negli ultimi 30 giorni sono disponibili in [!UICONTROL Optimization] > [!UICONTROL Recommendations and Publisher Insights].<br><br><b>Nota:</b> Anche se i consigli ti aiutano a migliorare le prestazioni della campagna, alcuni potrebbero non allinearsi agli obiettivi più ampi. Di conseguenza, è meglio consultare il team del tuo account Adobe prima di implementare qualsiasi consiglio. |
 | 30 maggio 2023 | [!UICONTROL Campaigns], [!UICONTROL Objectives], [!UICONTROL Reports] | (Beta aperta) Conversioni tracciate da [!UICONTROL Microsoft Advertising] i tag di tracciamento degli eventi universali (UET) sono nuovi e disponibili nelle visualizzazioni e nei rapporti di gestione delle campagne. Puoi anche ottimizzare per queste conversioni includendole in obiettivi per portfolio che contengono [!UICONTROL Microsoft Advertising] campagne. | — |
 |  | [!UICONTROL Reports] | (Beta aperta) Tre nuovi rapporti speciali includono dati per [!UICONTROL Microsoft Advertising] estensioni annuncio: [!UICONTROL MSA Ad Extension Detail Report], [!UICONTROL MSA Ad Extension by Ad Report], e [!UICONTROL MSA Ad Extension by Keyword Report]. | — |

@@ -1,9 +1,9 @@
 ---
 title: Gestire gli account di rete degli annunci
 description: Scopri come impostare e gestire i dettagli di un account di rete di annunci.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
-source-wordcount: '2088'
+source-wordcount: '2080'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Per abilitare la sincronizzazione o il tracciamento di un account, devi creare u
 
    1. In **[!UICONTROL Account Details]** , immettere i dettagli dell&#39;account.
 
-      Per le reti di annunci che utilizzano il tipo di autorizzazione di accesso &quot;[!UICONTROL oAuth],&quot; consente a Search, Social e Commerce di accedere all’account utilizzando [Protocollo di autorizzazione OAuth](http://tools.ietf.org/html/draft-ietf-oauth-v2-22):
+      Per le reti di annunci che utilizzano il tipo di autorizzazione di accesso &quot;[!UICONTROL oAuth],&quot; consente a Search, Social e Commerce di accedere all’account utilizzando [Protocollo di autorizzazione OAuth](https://oauth.net/2/):
 
       1. Inserisci il **[!UICONTROL Login]** per l&#39;account, immettere facoltativamente la password e quindi fare clic su **[!UICONTROL Authenticate]**.
 
@@ -45,8 +45,8 @@ Per abilitare la sincronizzazione o il tracciamento di un account, devi creare u
       1. Copia la stringa di autenticazione nella finestra pop-up che si apre e incolla la stringa nella **[!UICONTROL oAuth Token]** campo.
 
       1. Specificare i dettagli dell&#39;account rimanenti.
-   1. Clic **[!UICONTROL Set Account Tracking]** e immetti le impostazioni di tracciamento.
 
+   1. Clic **[!UICONTROL Set Account Tracking]** e immetti le impostazioni di tracciamento.
 
 1. Clic **[!UICONTROL Post]**.
 
@@ -82,7 +82,7 @@ Se le credenziali dell’account cambiano, vuoi modificare i parametri di tracci
 
 *Solo i ruoli utente Responsabile account agenzia, Responsabile account Adobe e Amministratore*
 
-Se Search, Social e Commerce accedono all’account utilizzando [Protocollo di autorizzazione OAuth](http://tools.ietf.org/html/draft-ietf-oauth-v2-22) e le credenziali dell’account cambiano, oppure se è necessario un accesso aggiuntivo per supportare nuove funzioni in Search, Social e Commerce, devi ottenere un nuovo token di accesso per l’account.
+Se Search, Social e Commerce accedono all’account utilizzando [Protocollo di autorizzazione OAuth](https://oauth.net/2/) e le credenziali dell’account cambiano, oppure se è necessario un accesso aggiuntivo per supportare nuove funzioni in Search, Social e Commerce, devi ottenere un nuovo token di accesso per l’account.
 
 Se nuove funzionalità richiedono un nuovo token, il team del tuo account Adobe ti informerà.
 
@@ -146,7 +146,7 @@ Quando si abilita un account di ad network, Search, Social e Commerce sincronizz
 
 **[!UICONTROL Login Details]: \[Tipo di accesso\]** - ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] solo) Se autorizzare gli accessi all’account utilizzando:
 
-* *[!UICONTROL oAuth]* (impostazione predefinita): per utilizzare [[!DNL OAuth] protocollo di autorizzazione](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+* *[!UICONTROL oAuth]* (impostazione predefinita): per utilizzare [[!DNL OAuth] protocollo di autorizzazione](https://oauth.net/2/).
 
 * *[!UICONTROL Password]:* Per utilizzare la password del client.
 
@@ -154,7 +154,7 @@ Per [!DNL Microsoft Advertising] account, solo [!DNL oAuth]-è possibile utilizz
 
 **[!UICONTROL Login Details]: [!UICONTROL Login]:** (Tutte le reti pubblicitarie tranne [!DNL Naver]) Il nome o l’ID di accesso per abilitare l’accesso API all’account.
 
-**[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth]-abilitato e tutte le altre reti tranne [!DNL Baidu], [!DNL Meta], e [!DNL Yandex]) Token dell&#39;account per autorizzare gli accessi tramite [[!DNL OAuth] protocollo di autorizzazione](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+**[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth]-abilitato e tutte le altre reti tranne [!DNL Baidu], [!DNL Meta], e [!DNL Yandex]) Token dell&#39;account per autorizzare gli accessi tramite [[!DNL OAuth] protocollo di autorizzazione](https://oauth.net/2/).
 
 **[!UICONTROL Login Details]: [!UICONTROL Password]:** (Tutte le reti pubblicitarie tranne [!DNL Naver]) La password dell&#39;account. Per gli account abilitati per le password su [!DNL Baidu], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], e [!DNL Yandex], questo campo è obbligatorio. Per [!DNL oAuth]-enabled account, questo campo è facoltativo; utilizzalo quando desideri crittografare e salvare la password in modo che l’account manager possa aggiornare i token in base alle esigenze.
 
@@ -172,7 +172,6 @@ Gli account che utilizzano il tracciamento dei clic di Adobe Advertising devono 
 >
 >* Questo campo non viene aggiornato da [!UICONTROL Auto Upload] impostazione di tracciamento.
 >* I suffissi URL finali ai livelli inferiori sovrascrivono il suffisso a livello di account. Per una manutenzione più semplice, utilizza solo il suffisso a livello di account, a meno che non sia necessario un tracciamento diverso per i singoli componenti dell’account. Per configurare un suffisso a livello di gruppo di annunci o inferiore, utilizza l’editor della rete di annunci.
-
 
 **Fuso orario:** (Tutte le reti di annunci tranne [!DNL Baidu] e [!DNL Yahoo! Display Network]) Il fuso orario dell&#39;inserzionista. Questo campo è modificabile e facoltativo per i nuovi [!DNL Naver] account. Per tutte le altre reti di ricerca, il valore viene compilato automaticamente con il fuso orario configurato per l’account Search, Social &amp; Commerce dell’inserzionista una volta salvato il record.
 
@@ -200,7 +199,6 @@ Gli account che utilizzano il tracciamento dei clic di Adobe Advertising devono 
 >* Per [!DNL Google Ads], evita di utilizzare macro che non vengono sostituite dai clic provenienti da origini che abilitano il tracciamento parallelo. Se l’inserzionista deve utilizzare delle macro, l’Account Team Adobe deve collaborare con l’Assistenza clienti o con il team di implementazione per aggiungerle.
 >* Il modello di tracciamento al livello più granulare sostituisce i valori a tutti i livelli superiori. Ad esempio, se entrambe le impostazioni account e parola chiave includono un valore, tale valore viene applicato.
 >* Se aggiorni un modello di tracciamento a livello di annuncio, sitelink o parola chiave, gli annunci pertinenti vengono nuovamente inviati per la revisione. Puoi aggiornare i modelli di tracciamento a livello di account, campagna o gruppo di annunci senza inviare nuovamente gli annunci per l’approvazione.
-
 
 **[!UICONTROL Master Account ID]:** ([!DNL Microsoft Advertising] solo account) ID di un account agenzia/gestione associato all’account.
 
@@ -259,4 +257,3 @@ Affinché i dati vengano visualizzati nelle suite di rapporti, a) è necessario 
 >* [Informazioni sugli account di rete degli annunci](ad-network-account-about.md)
 >* [Gestisci account centro esercenti](merchant-account-manage.md)
 >* [Aggiorna il codice di tracciamento s\_kwcid per un [!DNL Google Ads] account](update-skwcid-google.md)
-

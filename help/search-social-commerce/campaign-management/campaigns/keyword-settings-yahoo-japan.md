@@ -1,9 +1,9 @@
 ---
 title: "[!DNL Yahoo! Japan Ads] keyword settings"
 description: Fai riferimento alle impostazioni per [!DNL Yahoo! Japan Ads] parole chiave.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 0%
 >* È possibile creare parole chiave negative dalla [!UICONTROL Keywords] > [!UICONTROL Negatives] visualizza e nelle impostazioni del gruppo di annunci e della campagna.
 >* Yahoo! Le parole chiave e i tipi di corrispondenza del Giappone sono mutabili, il che significa che è possibile modificarli senza eliminare la parola chiave esistente.
 
-
 **[!UICONTROL Status]:** Stato di visualizzazione della parola chiave: *Attivo* o *In pausa*. Il valore predefinito per le nuove parole chiave è *Attivo*.
 
 ## [!UICONTROL Bids]
@@ -32,9 +31,9 @@ ht-degree: 0%
 
 ## Segnaposto
 
-**[!UICONTROL Param1]:** Stringa da utilizzare come valore di sostituzione se l’URL di base o il modello di tracciamento contiene `{param1}` [parametro personalizzato](https://help.marketing.yahoo.co.jp/en?p=7195#customp).
+**[!UICONTROL Param1]:** Stringa da utilizzare come valore di sostituzione se l’URL di base o il modello di tracciamento contiene `{param1}` [parametro personalizzato](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US).
 
-**[!UICONTROL Param2]:** Stringa da utilizzare come valore di sostituzione se l’URL di base o il modello di tracciamento contiene `{param2}` [parametro personalizzato](https://help.marketing.yahoo.co.jp/en?p=7195#customp).
+**[!UICONTROL Param2]:** Stringa da utilizzare come valore di sostituzione se l’URL di base o il modello di tracciamento contiene `{param2}` [parametro personalizzato](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US).
 
 ## Opzioni URL
 
@@ -49,4 +48,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Gestire le parole chiave](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
-

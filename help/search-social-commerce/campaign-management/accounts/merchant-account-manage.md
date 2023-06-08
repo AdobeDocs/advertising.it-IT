@@ -1,9 +1,9 @@
 ---
 title: Gestisci account esercente
 description: Scopri come impostare e gestire i dettagli di un account per un centro commerciale.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Per visualizzare i dati di prodotto e generare modelli di tracciamento per un ac
 
    1. In [!UICONTROL Product Source] selezionare il centro commerciale.
 
-   1. (Obbligatorio per [!DNL Google Ads] account; facoltativo per [!DNL Microsoft Advertising] account) Consente a Search, Social e Commerce di accedere all’account utilizzando [[!DNL OAuth] protocollo di autorizzazione](http://tools.ietf.org/html/draft-ietf-oauth-v2-22):
+   1. (Obbligatorio per [!DNL Google Ads] account; facoltativo per [!DNL Microsoft Advertising] account) Consente a Search, Social e Commerce di accedere all’account utilizzando [[!DNL OAuth] protocollo di autorizzazione](https://oauth.net/2/):
 
       1. ([!DNL Microsoft Advertising] solo account) Seleziona **[!UICONTROL oAuth]**.
 
@@ -98,13 +98,13 @@ Quando disattivi un account esercente, Search, Social e Commerce non vi accedono
 
 **[!UICONTROL Product Source]:** La rete commerciale. Non puoi modificare il valore di un account esistente.
 
-**[!UICONTROL OAuth Token]:** ([!DNL Google Merchant Center] solo account) Il token dell&#39;account per autorizzare gli accessi utilizzando [[!DNL OAuth] protocollo di autorizzazione](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+**[!UICONTROL OAuth Token]:** ([!DNL Google Merchant Center] solo account) Il token dell&#39;account per autorizzare gli accessi utilizzando [[!DNL OAuth] protocollo di autorizzazione](https://oauth.net/2/).
 
 **[!UICONTROL Auth Type]:** ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] solo) Se autorizzare gli accessi all’account utilizzando:
 
 * *[!UICONTROL Client login]:* Per utilizzare l’accesso del client.
 
-* *[!UICONTROL oAuth]* (impostazione predefinita): per utilizzare [[!DNL OAuth] protocollo di autorizzazione](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+* *[!UICONTROL oAuth]* (impostazione predefinita): per utilizzare [[!DNL OAuth] protocollo di autorizzazione](https://oauth.net/2/).
 
 **[!UICONTROL Access Key]:** ([!DNL Microsoft Merchant Center] Solo per ) Chiave di accesso per l&#39;account sviluppatore da utilizzare.
 
@@ -130,4 +130,3 @@ Quando disattivi un account esercente, Search, Social e Commerce non vi accedono
 >
 >* [Informazioni sugli account di rete degli annunci](ad-network-account-about.md)
 >* [Gestire gli account di rete degli annunci](ad-network-account-manage.md)
-

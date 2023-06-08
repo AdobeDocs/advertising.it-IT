@@ -1,9 +1,9 @@
 ---
 title: Gestisci [!DNL Google Ads] posizionamenti
 description: Scopri come creare e gestire i posizionamenti che possono essere offerti per [!DNL Google Ads] gruppi di annunci.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -88,4 +88,3 @@ Puoi creare e modificare i posizionamenti per i gruppi di annunci in [tipi di ca
 >* [Informazioni sui posizionamenti](placement-about.md)
 >* [Creare posizionamenti negativi](placement-negative-create.md)
 >* [Modificare lo stato dei posizionamenti e dei posizionamenti negativi](placement-status-edit.md)
-
