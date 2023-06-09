@@ -1,9 +1,9 @@
 ---
 title: Informazioni su questa guida
 description: Scopri cosa è trattato in ogni capitolo di questa guida.
-source-git-commit: 0b5a3e0e633e5d93ba048da7e4931f4bd777e1b0
+source-git-commit: b857bae4ea175c446072f5dacf82db3845993a45
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Informazioni su gruppi specifici di attività e altre informazioni sono disponib
 
 * La sezione &quot;Gestione delle campagne&quot; spiega come impostare e gestire i componenti della campagna per gli account di rete degli annunci.
 
-* &quot;Approfondimenti e rapporti&quot; spiega come generare informazioni sulla pubblicità, generare rapporti dettagliati e automatizzare la produzione dei rapporti, creare e monitorare gli avvisi, visualizzare un registro delle modifiche apportate all’account dell’inserzionista, nonché visualizzare e applicare [!DNL Google Ads]consigli generati per i tuoi account.
+* &quot;Approfondimenti e rapporti&quot; spiega come generare informazioni sulla pubblicità, generare rapporti dettagliati e automatizzare la produzione dei rapporti, creare e monitorare gli avvisi, visualizzare un registro delle modifiche apportate all’account dell’inserzionista e visualizzare e applicare consigli generati dagli annunci per i tuoi account in rete.
 
 * &quot;Strumenti&quot; spiega come modificare la password, utilizzare gli strumenti per generare i tag di tracciamento dei clic e delle conversioni, caricare le metriche di conversione in [!DNL Google Ads] e gli obiettivi del tuo portfolio nelle reti di annunci per l’ottimizzazione ibrida, le metriche di caricamento per il tracciamento delle campagne e la replica delle tue [!DNL Google Ads] campagne nel tuo [!DNL Microsoft Advertising] account.
 

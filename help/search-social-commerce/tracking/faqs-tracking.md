@@ -1,7 +1,7 @@
 ---
 title: Domande frequenti sul tracciamento
 description: Scopri le risposte alle domande comuni sul tracciamento, inclusa la risoluzione dei problemi.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f5e2044af460ebf561e075ed6b1fb057ed47acc3
 workflow-type: tm+mt
 source-wordcount: '1191'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Sì. Se Search, Social e Commerce sincronizzano uno degli account della rete di 
 
 +++Come si ottiene l’attribuzione multi-evento?
 
-Per gli inserzionisti che utilizzano i tag di tracciamento delle conversioni Search, Social e Commerce o Adobe Analytics, Adobe Advertising fornisce diverse opzioni per l’attribuzione dei dati di conversione a una serie di eventi che portano a una conversione. Un’impostazione a livello di inserzionista determina come attribuire i dati di conversione tra gli eventi, anche quando si verificano tra più canali pubblicitari, purché i canali consentano il tracciamento delle impression a livello di evento. Per impostazione predefinita, le conversioni sono attribuite all’ultimo evento (più recente), ma l’impostazione può essere configurata in modo diverso, ad esempio per attribuire le conversioni al primo evento o per ponderare tutti gli eventi in modo uniforme. La modifica della regola di attribuzione influisce sul calcolo delle offerte future.
+Per gli inserzionisti che utilizzano i tag di tracciamento delle conversioni di Search, Social e Commerce o Adobe Analytics, in Adobe Advertising sono disponibili diverse opzioni per l’attribuzione dei dati di conversione a una serie di eventi che portano a una conversione. Un’impostazione a livello di inserzionista determina come attribuire i dati di conversione tra gli eventi, anche quando si verificano tra più canali pubblicitari, purché i canali consentano il tracciamento delle impression a livello di evento. Per impostazione predefinita, le conversioni sono attribuite all’ultimo evento (più recente), ma l’impostazione può essere configurata in modo diverso, ad esempio per attribuire le conversioni al primo evento o per ponderare tutti gli eventi in modo uniforme. La modifica della regola di attribuzione influisce sul calcolo delle offerte future.
 
 Gli inserzionisti che forniscono tutti i dati di conversione in un file di feed devono attribuire la conversione agli eventi di transazione correlati.
 
@@ -31,17 +31,17 @@ Gli inserzionisti che forniscono tutti i dati di conversione in un file di feed 
 
 +++In che modo Adobe Advertising identifica le transazioni duplicate?
 
-Le transazioni duplicate possono verificarsi quando un utente aggiorna la pagina di conferma dopo aver completato una transazione. La pubblicità Adobe utilizza `ev_transid` per eliminare le transazioni duplicate con lo stesso ID transazione e lo stesso valore di proprietà.
+Le transazioni duplicate possono verificarsi quando un utente aggiorna la pagina di conferma dopo aver completato una transazione. Adobe Advertising utilizza `ev_transid` per eliminare le transazioni duplicate con lo stesso ID transazione e lo stesso valore di proprietà.
 
 Di seguito è riportata la logica di deduplicazione di Adobe Advertising:
 
 * **Quando un client invia un valore per `ev_transid` attributo:** Le successive richieste di pixel sono considerate duplicati di quella precedente se le seguenti sono tutte uguali: `ev_transid`; l’ID di tracciamento per la stessa parola chiave, annuncio o posizionamento e il valore per una proprietà di transazione specifica.
 
-   Ad esempio, se più richieste di prestito hanno lo stesso ID applicazione e lo stesso importo prestito per la stessa parola chiave su una rete di annunci specifica, vengono considerate duplicati e viene conteggiata solo la prima richiesta di prestito.
+  Ad esempio, se più richieste di prestito hanno lo stesso ID applicazione e lo stesso importo prestito per la stessa parola chiave su una rete di annunci specifica, vengono considerate duplicati e viene conteggiata solo la prima richiesta di prestito.
 
 * **Quando un client non invia un valore per `ev_transid` attributo:** Le transazioni successive sono considerate duplicati della precedente se condividono un ID di tracciamento per la stessa parola chiave, annuncio o posizionamento e lo stesso valore per una proprietà di transazione specifica.
 
-   Ad esempio, se più richieste di prestito hanno lo stesso ID parola chiave e lo stesso importo del prestito, vengono considerate duplicati e viene conteggiata solo la prima richiesta di prestito.
+  Ad esempio, se più richieste di prestito hanno lo stesso ID parola chiave e lo stesso importo del prestito, vengono considerate duplicati e viene conteggiata solo la prima richiesta di prestito.
 +++
 
 ## Tipi di implementazione del tracciamento
@@ -55,20 +55,20 @@ Nell’account o nella campagna, modifica il metodo di tracciamento in &quot;[!U
 
 ## Domande sui dati
 
-+++Come faccio a sapere quale proprietà di transazione proviene da un feed di dati o è tracciata dal tag di tracciamento delle conversioni di Adobe Advertising?
++++Come faccio a sapere quale proprietà di transazione proviene da un feed di dati o è tracciata dal tag di tracciamento della conversione di Adobe Advertising?
 
-In un [!UICONTROL Transaction Report], puoi verificare se una proprietà di transazione inclusa è stata tracciata dal pixel di tracciamento della conversione di Adobe Advertising, se includi la colonna personalizzata &quot;[!UICONTROL Tracking URL].&quot; Gli URL di tracciamento con il pixel di tracciamento di Advertising di Adobe iniziano con `http://pixel.everesttech.net`.
+In un [!UICONTROL Transaction Report], se includi la colonna personalizzata, puoi verificare se una proprietà di transazione inclusa è stata tracciata dal pixel di tracciamento della conversione di Adobe Advertising &quot;[!UICONTROL Tracking URL].&quot; Gli URL di tracciamento con il pixel di tracciamento di Advertising di Adobe iniziano con `http://pixel.everesttech.net`.
 +++
 
 +++Cosa sono le transazioni orfane?
 
-Le transazioni orfane sono eventi di transazione che non possono essere associati a una parola chiave o a un annuncio specifico. Adobe Advertising attribuisce le transazioni/ricavi a una parola chiave o a un annuncio confrontando gli ID di tracciamento ricevuti con l’evento ricavi con l’ID di tracciamento univoco nell’URL di tracciamento della parola chiave o dell’annuncio.
+Le transazioni orfane sono eventi di transazione che non possono essere associati a una parola chiave o a un annuncio specifico. Adobe Advertising attribuisce le transazioni/entrate a una parola chiave o a un annuncio confrontando gli ID di tracciamento ricevuti con l’evento entrate con l’ID di tracciamento univoco nell’URL di tracciamento della parola chiave o dell’annuncio.
 
 Quando un Account Team Adobe sospetta che le transazioni orfane siano la causa di un calo dei ricavi, il team di Assistenza clienti controlla la presenza di orfani e, se ne trova qualcuno, indaga sul problema.
 
 Gli orfani si verificano nelle seguenti situazioni.
 
-## Implementazioni pixel
+**Implementazioni pixel**
 
 Le transazioni orfane non si verificano quasi mai per le implementazioni pixel. Tuttavia, si sono verificati orfani nei pixel quando:
 
@@ -76,7 +76,7 @@ Le transazioni orfane non si verificano quasi mai per le implementazioni pixel. 
 
 * I registri di clic non vengono elaborati prima dei registri di conversione.
 
-## Implementazioni di feed
+**Implementazioni di feed**
 
 * L’ID di tracciamento inviato nel feed proviene da un account di cui Search, Social e Commerce non è a conoscenza.
 
@@ -88,11 +88,11 @@ Le transazioni orfane non si verificano quasi mai per le implementazioni pixel. 
 
 * Nel file di configurazione, l’espressione regolare utilizzata per estrarre l’ID di tracciamento dagli URL non è corretta o è obsoleta. A volte l’inserzionista modifica l’ID di tracciamento nell’URL o adotta un sistema di tracciamento completamente nuovo, che richiede al team di implementazione di Search, Social e Commerce di aggiornare l’espressione regolare. In tali casi, una parte importante dei ricavi è orfana.
 
-## Implementazioni di feed tramite un ID transazione
+**Implementazioni di feed tramite un ID transazione**
 
 Non sono disponibili transazioni online prima delle date in cui i dati sono disponibili nel feed offline.
 
-## Implementazioni di feed tramite un token (ef_id)
+**Implementazioni di feed tramite un token (ef_id)**
 
 Search, Social e Commerce non riescono a trovare un clic corrispondente sul loro server o sulla rete di annunci. Ciò può essere dovuto al fatto che i dati di clic non sono disponibili per la data di clic della conversione o (raramente) perché i registri di clic non sono stati elaborati prima dei registri di conversione. Quando Search, Social e Commerce riceve i dati dei clic dalla rete di annunci o i registri dei clic vengono elaborati, i dati vengono mappati alla conversione.
 +++

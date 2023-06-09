@@ -1,9 +1,9 @@
 ---
 title: Gestire i modelli di annunci per i feed di inventario
 description: Scopri come gestire i modelli di annunci tramite i quali i dati di inventario possono essere elaborati per gestire la struttura dei conti e distribuire annunci dinamici.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1415'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,8 @@ Creare modelli separati per annunci di testo espansi/estesi e annunci di ricerca
       1. Selezionare la casella di controllo accanto al modello da copiare.
 
       1. Nella barra degli strumenti sopra la tabella dati, fai clic su **[!UICONTROL Create/Clone]**, quindi seleziona la rete di annunci applicabile.
-   * (Per modificare un modello esistente) Accanto al nome del modello, fare clic su ![Visualizza/modifica impostazioni](/help/search-social-commerce/assets/settings.png "Visualizza/modifica impostazioni").
 
+   * (Per modificare un modello esistente) Accanto al nome del modello, fare clic su ![Visualizza/modifica impostazioni](/help/search-social-commerce/assets/settings.png "Visualizza/modifica impostazioni").
 
 1. Specificare le impostazioni per [modello di annuncio testuale](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md), [[!DNL Google Ads] modello di annuncio acquisti](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md), o [[!DNL Microsoft® Advertising] modello di annuncio acquisti](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md):
 
@@ -66,7 +66,6 @@ Creare modelli separati per annunci di testo espansi/estesi e annunci di ricerca
       >* Ogni gruppo di annunci può includere fino a tre annunci di ricerca responsive abilizzati.
       >* Non è possibile modificare le varianti di annunci di testo standard esistenti e i modelli esistenti non generano più annunci di testo standard.
       >* Se modifichi un modello di variante di annuncio, è possibile eliminare gli annunci esistenti e crearne di nuovi quando si propagano i dati tramite il modello, [a seconda del tipo di annuncio e della rete](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md).
-
 
       * Per aggiungere una variante di annuncio, effettua le seguenti operazioni:
 
@@ -107,6 +106,7 @@ Creare modelli separati per annunci di testo espansi/estesi e annunci di ricerca
                >* Puoi specificare fino a quattro alternative per ogni campo della copia dell’annuncio.
 
          * Per rimuovere una variante di annuncio, fai clic su **[!UICONTROL Remove ETA Variation]** (per annunci di testo espansi/estesi) o **[!UICONTROL Remove RSA Variation]** (per annunci di ricerca responsive) accanto a esso, a seconda dei casi.
+
    1. (Solo modelli di acquisto) Fai clic sul pulsante **[!UICONTROL Product Groups]** e quindi specificare le informazioni sui gruppi di prodotti di destinazione.
 
    1. (Facoltativo) Fai clic su **[!UICONTROL Feed Filters]** e quindi specificare le righe del file di feed da propagare.
@@ -120,10 +120,6 @@ Creare modelli separati per annunci di testo espansi/estesi e annunci di ricerca
          1. Clic **[!UICONTROL Add Label Classification]**.
 
          1. Seleziona la classificazione dell’etichetta, quindi seleziona un valore esistente o inserisci un nuovo valore.
-
-
-
-
 
 1. Salva il modello:
 
@@ -158,9 +154,7 @@ Puoi attivare qualsiasi modello di feed dati in pausa o sospendere qualsiasi mod
 >[!MORELIKETHIS]
 >
 >* [Informazioni sull’automazione della gestione degli annunci tramite i feed di inventario](../inventory-feeds-about.md)
->* [Flusso di lavoro per la gestione dei dati della campagna tramite i feed di inventario](../inventory-feeds-workflow.md)
 >* [Impostazioni degli annunci di testo e dei modelli di annunci di ricerca responsive](template-text-rsa.md)
 >* [[!DNL Google Ads] impostazioni del modello di annuncio acquisti](template-google-shopping.md)
 >* [[!DNL Microsoft® Advertising] impostazioni del modello di annuncio acquisti](template-microsoft-shopping.md)
 >* [Propagazione dei dati di feed tramite modelli](../feed-data-propagate.md)
-

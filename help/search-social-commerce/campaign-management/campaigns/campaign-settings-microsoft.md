@@ -1,9 +1,9 @@
 ---
 title: "[!DNL Microsoft Advertising] impostazioni della campagna"
 description: Fai riferimento alle impostazioni per [!DNL Microsoft Advertising] campagne.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 0706f4dbc5f2a27e7d0cf43a6865d242865f9d36
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Search and Display Network]:* Mostra gli annunci di testo solo nella rete di ricerca.
 
-* *[!UICONTROL Shopping Network]:* Mostra gli annunci di prodotti &amp;mdashl per i prodotti nel tuo [!DNL Microsoft Merchant Center] catalogo dei prodotti — sulla rete commerciale
+* *[!UICONTROL Shopping Network]:* Mostra gli annunci di prodotto: per i prodotti nel tuo [!DNL Microsoft Merchant Center] catalogo dei prodotti — sulla rete commerciale
 
 * *[!UICONTROL Audience]:* Mostra gli annunci nativi/display sul [!DNL Microsoft Audience Network]. Puoi: a) generare automaticamente annunci basati su feed collegando la campagna a un negozio di centri commerciali nel [!UICONTROL Shopping Settings] sezione o b) creare annunci reattivi con risorse di testo e immagini caricate. Entrambe le opzioni richiedono la creazione di gruppi di annunci con targeting utente.
 
@@ -64,13 +64,13 @@ Quando aggiungi una campagna con eCPC a un portfolio Search, Social e Commerce o
 
 * *[!UICONTROL Target CPA]:* (Campagne nella rete di ricerca) La rete di annunci, non Search, Social &amp; Commerce, ottimizza le offerte sulla base di un **[!UICONTROL Target CPA]** (costo per acquisizione), che è l’importo medio di 30 giorni che desideri pagare per un’acquisizione (conversione). **Nota:** Utilizza questa opzione per le campagne in portfolio ibridi (ma non in portfolio standard) con qualsiasi strategia di spesa a eccezione [!UICONTROL Weekly] o [!UICONTROL Google Target CPA].
 
-   I dati relativi alla posizione media e alle offerte CPC non sono disponibili per le campagne con questa strategia di offerta.
+  I dati relativi alla posizione media e alle offerte CPC non sono disponibili per le campagne con questa strategia di offerta.
 
 * *[!UICONTROL Target Impression Share]:* (Campagne nella rete di ricerca) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte per raggiungere una quota di impression target e una posizione pubblicitaria. È possibile inserire un **[!UICONTROL Target Impression Share]** in percentuale, il valore **[!UICONTROL Target Ad Position]**, e un **[!UICONTROL Max CPC]** (costo per clic). **Nota:** Questa opzione non è supportata nei portfolio ibridi.
 
 * *[!UICONTROL Target Return on Ad Spend]:*  (Campagne sulle reti di ricerca e shopping) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte in base al tuo **[!UICONTROL Target ROAS]** (ritorno sulla spesa pubblicitaria), specificato come percentuale. È possibile inserire un **[!UICONTROL Max CPC]** (costo per clic) per garantire che la rete di annunci non paghi più di un importo specifico per ogni clic. **Nota:** Utilizza questa opzione per le campagne in portfolio ibridi (ma non in portfolio standard) con qualsiasi strategia di spesa a eccezione [!UICONTROL Weekly] o [!UICONTROL Google Target ROAS].
 
-   I dati relativi alla posizione media e alle offerte CPC non sono disponibili per le campagne con questa strategia di offerta.
+  I dati relativi alla posizione media e alle offerte CPC non sono disponibili per le campagne con questa strategia di offerta.
 
 ## [!UICONTROL Shopping Settings]
 
@@ -180,4 +180,3 @@ Per informazioni sulla disponibilità, consulta l’Aiuto di Microsoft Advertisi
 >[!MORELIKETHIS]
 >
 >* [Gestire le campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-

@@ -1,7 +1,7 @@
 ---
 title: Gestire le parole chiave per le offerte
 description: Scopri come creare e gestire parole chiave che possono essere offerte per i gruppi di annunci di ricerca.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 77069de8ff3367a3ffa6f84583b4a69f37aab88b
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%
@@ -22,8 +22,7 @@ ht-degree: 0%
 
 1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**.
 
-1. 
-   1. Nella barra degli strumenti sopra la tabella dati, fai clic su ![Crea](/help/search-social-commerce/assets/add.png "Crea").
+1. Nella barra degli strumenti sopra la tabella dati, fai clic su ![Crea](/help/search-social-commerce/assets/add.png "Crea").
 
 1. Seleziona la rete di annunci, l’account, la campagna e il gruppo di annunci, quindi fai clic su **[!UICONTROL Continue]**.
 
@@ -77,4 +76,3 @@ La parola chiave esistente viene eliminata e ne viene creata un&#39;altra quando
 >* [[!DNL Yandex] impostazioni delle parole chiave](keyword-settings-yandex.md)
 >* [Creare parole chiave negative](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
 >* [Modificare lo stato delle parole chiave e delle parole chiave negative](keyword-status-edit.md)
-

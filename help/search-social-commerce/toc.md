@@ -9,9 +9,9 @@ user-guide-description: Questa guida descrive le principali funzioni, attività,
 breadcrumb-title: Guida a Advertising Search, Social e Commerce
 index: false
 hide: true
-source-git-commit: 71ffe30ca09a2be0def70fc230a4bfa7616c7bfa
+source-git-commit: 72dd7a51e024057a1135fa0cc641b236254c28d8
 workflow-type: tm+mt
-source-wordcount: '1722'
+source-wordcount: '1714'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 0%
       + [Il parametro di tracciamento s_kwcid](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
    + Tracciamento delle conversioni {#conversion-tracking}
       + [Opzioni di tracciamento delle conversioni](/help/search-social-commerce/tracking/conversion-tracking-about.md)
-      + Adobe Advertising di tracciamento delle conversioni {#advertising-conversion-tracking}
+      + Adobe Tracciamento conversione Advertising {#advertising-conversion-tracking}
          + [Informazioni sui tag di tracciamento delle conversioni di Adobe Advertising](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
          + [Formato dei tag di tracciamento della conversione JavaScript versione 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
          + [Formato dei tag di tracciamento della conversione JavaScript versione 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
@@ -222,7 +222,6 @@ ht-degree: 0%
             + [Dati bulksheet richiesti per [!DNL Yandex] account](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
       + Automazione dei dati della campagna tramite feed inventario {#inventory-feeds}
          + [Informazioni sull’automazione della gestione degli annunci tramite i feed di inventario](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
-         + [Flusso di lavoro per la gestione dei dati della campagna tramite i feed di inventario](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-workflow.md)
          + [Quando vengono creati o eliminati i componenti del conto dai feed di inventario?](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md)
          + [Configurare le impostazioni dei dati dei feed](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md)
          + [Gestire i file di feed](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
