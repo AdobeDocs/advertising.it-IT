@@ -2,9 +2,9 @@
 title: Configurare test A/B per annunci pubblicitari di Adobe in Adobe Target
 description: Scopri come impostare un test A/B in [!DNL Target] per l’DSP e [!DNL Search, Social, & Commerce] annunci.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: 7089f7fe75b551953026ac6cca4ac7aafa06ba7b
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1640'
 ht-degree: 0%
 
 ---
@@ -85,11 +85,12 @@ Aggiungendo un pixel evento di impression di Audience Manager nei tag dell’ann
 
    1. Vai a **Audience Manager** > **Dati sul pubblico** > **Segnali**, quindi selezionare **Ricerca** in alto a sinistra.
 
-   1. Inserisci il **Chiave** e **Valore** per il segnale che determina il livello di raggruppamento degli utenti del segmento. Utilizza un [chiave supportata](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html?lang=en) con un valore che corrisponde a una macro aggiunta al pixel dell’evento di impression Audience Manager.
+   1. Inserisci il **Chiave** e **Valore** per il segnale che determina il livello di raggruppamento degli utenti del segmento. Utilizza un [chiave supportata](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html) con un valore che corrisponde a una macro aggiunta al pixel dell’evento di impression Audience Manager.
 
       Ad esempio, per raggruppare gli utenti per un posizionamento particolare, utilizza `d_placement` chiave. Per il valore, utilizzare un ID di posizionamento numerico effettivo (ad esempio 2501853 nella schermata precedente) acquisito dalla macro DSP `${TM_PLACEMENT_ID_NUM}`. <!-- Explain where to find the placement ID, other than in a custom report. -->
 
       Se il campo Conteggio totale mostra i conteggi degli utenti per la coppia chiave-valore, che indica che il pixel è stato posizionato correttamente e che i dati scorrono, puoi procedere al passaggio successivo.
+
    ![Segnali di ricerca](/help/integrations/assets/target-am-signals.png)
 
 1. [Creare una caratteristica basata su regole](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) per la creazione di segmenti in Audience Manager.
@@ -109,6 +110,7 @@ Aggiungendo un pixel evento di impression di Audience Manager nei tag dell’ann
    1. Assegna un nome al segmento, seleziona `Ad Cloud` come **Origine dati** e quindi salva il segmento.
 
       Audience Manager suddivide automaticamente il segmento in un gruppo di controllo che riceve l’esperienza di pagina di destinazione standard e in un gruppo di test che riceve un’esperienza personalizzata nel sito.
+
    ![Schermata di un segmento di test](/help/integrations/assets/target-am-segment.png)
 
 ## Passaggio 3: configurare un’attività &quot;Test A/B&quot; in Target
@@ -164,6 +166,7 @@ Le istruzioni seguenti evidenziano informazioni relative al caso di utilizzo del
    * Esperienza A: non modificare perché è l’esperienza predefinita/controlla la pagina di destinazione senza personalizzazione.
 
    * Esperienza B: Utilizzare [!DNL Target] interfaccia utente per personalizzare il modello della pagina di destinazione in base alle risorse incluse nel test (ad esempio titoli, copia, posizionamento dei pulsanti e creatività).
+
    >[!NOTE]
    >
    >Ad esempio, in caso di utilizzo di test creativi, contatta il team del tuo account Adobe.
@@ -182,11 +185,11 @@ In Analysis Workspace, configura il [!DNL Analytics for Target panel] per analiz
 
 #### Metriche
 
-* Crea un pannello all’interno dell’area di lavoro specifico per la campagna pubblicitaria, il pacchetto o il posizionamento Adobe per cui è stato eseguito il test. Utilizza le visualizzazioni di riepilogo per mostrare le metriche di Adobe Advertising nello stesso rapporto delle prestazioni del test di Target.
+* Crea un pannello all’interno dell’area di lavoro specifico per la campagna di Adobi Advertising, il pacchetto o il posizionamento per cui è stato eseguito il test. Utilizza le visualizzazioni di riepilogo per mostrare le metriche Adobi Advertising nello stesso rapporto delle prestazioni del test di Target.
 
 * Dai priorità utilizzando le metriche nel sito (come visite e conversioni) per misurare le prestazioni.
 
-* Scopri che le metriche multimediali aggregate da Adobe Advertising (come impression, clic e costi) non possono essere associate alle metriche di Target.
+* Scopri che le metriche dei contenuti multimediali aggregati da Adobe Advertising (come impression, clic e costi) non possono corrispondere alle metriche di Target.
 
 #### Dimension
 
@@ -204,11 +207,11 @@ In Analysis Workspace, se noti che i dati di attività ed esperienze sono minimi
 
 * Verifica che venga utilizzato lo stesso Supplemental Data ID (SDID) sia per Target che per Analytics. Puoi verificare i valori SDID utilizzando [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html) nella pagina di destinazione a cui la campagna indirizza gli utenti.
 
-[Valori di Supplemental Data ID (SDID) nel debugger di Adobe](/help/integrations/assets/target-troubleshooting-sdid.png)
+[Valori di Supplemental Data ID (SDID) in Adobe Debugger](/help/integrations/assets/target-troubleshooting-sdid.png)
 
 * Nella stessa pagina di destinazione, verifica che a) il nome host mostrato nell’Adobe Debugger in Soluzioni> Target corrisponda a b) il tracking server mostrato in [!DNL Target] per l’attività (in Obiettivi e impostazioni > Impostazioni di reporting).
 
-   [!DNL Analytics For Target] richiede un [!DNL Analytics] server di tracciamento da inviare nelle chiamate da [!DNL Target] al [!DNL Modstats] server di raccolta dati per Analytics.<!-- just "to Analytics?"-->
+  [!DNL Analytics For Target] richiede un [!DNL Analytics] server di tracciamento da inviare nelle chiamate da [!DNL Target] al [!DNL Modstats] server di raccolta dati per Analytics.<!-- just "to Analytics?"-->
 
 [Valore Hostname in Adobe Debugger](/help/integrations/assets/target-troubleshooting-hostname.png)
 

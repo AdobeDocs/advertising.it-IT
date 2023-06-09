@@ -1,9 +1,9 @@
 ---
 title: Dati bulksheet richiesti per [!DNL Google Ads] account
 description: Fai riferimento ai campi di intestazione e ai campi di dati obbligatori nei bulksheet per [!DNL Google Ads] account.
-source-git-commit: 6c1e9bffd072979975a933fceb1c6e1253399373
+source-git-commit: a1201866bab44b260c6e1e68ba215162504e618f
 workflow-type: tm+mt
-source-wordcount: '8631'
+source-wordcount: '8662'
 ht-degree: 1%
 
 ---
@@ -114,6 +114,8 @@ Per creare e aggiornare [!DNL Google Ads] dati della campagna in blocco, puoi ut
 
 <table style="table-layout:auto">
 
+[^1]: [!DNL Excel] converte i numeri elevati in notazione scientifica (ad esempio 2.12E+09 per 2115585666) quando apre il file. Per visualizzare le cifre nella notazione standard, selezionare una cella della colonna e fare clic all&#39;interno della barra della formula.
+
 ## Campi necessari per creare, modificare o eliminare ciascun componente conto
 
 ### Campi della campagna
@@ -122,24 +124,24 @@ Per creare e aggiornare [!DNL Google Ads] dati della campagna in blocco, puoi ut
 | ---- | ---- |
 | Nome conto | Obbligatorio a meno che ogni riga non includa un &quot;AMO ID&quot; per l’entità. |
 | Nome campagna | Obbligatorio | Il nome univoco che identifica una campagna per un account. |
-| Budget della campagna | Obbligatorio: creazione<br><br>>Facoltativo: modifica o elimina | Limite di spesa giornaliero per la campagna, con o senza simboli monetari e punteggiatura. Questo valore sostituisce ma non può superare il budget del conto. |
-| Metodo di consegna | Obbligatorio: creazione<br><br>Facoltativo: modificare o eliminare |
-| Tipo di canale | Obbligatorio: creazione<br><br>Facoltativo: modificare o eliminare |
-| Reti | Obbligatorio: creazione<br><br>Facoltativo: modificare o eliminare |
-| Nome dominio DSA | Obbligatorio: creazione<br><br>Facoltativo: modificare o eliminare |
-| Lingua del dominio DSA | Obbligatorio: creazione<br><br>Facoltativo: modificare o eliminare |
-| Priorità campagna | Obbligatorio/facoltativo: creazione<br><br>Facoltativo / n/a: Modifica o elimina |
-| ID esercente | Obbligatorio/facoltativo: creazione<br><br>Facoltativo / n/a: Modifica o elimina |
-| Paese di vendita | Obbligatorio/facoltativo: creazione<br><br>Facoltativo / n/a: Modifica o elimina |
-| Filtro ambito prodotto | Facoltativo |
+| Budget della campagna | Obbligatorio per creare una campagna. | Limite di spesa giornaliero per la campagna, con o senza simboli monetari e punteggiatura. Questo valore sostituisce ma non può superare il budget del conto. |
+| Metodo di consegna | Obbligatorio per creare una campagna. |
+| Tipo di canale | Obbligatorio per creare una campagna. |
+| Reti | Obbligatorio per creare una campagna. |
+| Nome dominio DSA | È necessario per creare una campagna sulla rete di ricerca che avrà annunci di ricerca dinamici. |
+| Lingua del dominio DSA | È necessario per creare una campagna sulla rete di ricerca che avrà annunci di ricerca dinamici. |
+| Priorità campagna | Obbligatorio per creare una campagna acquisti. |
+| ID esercente | Obbligatorio per creare una campagna acquisti. |
+| Paese di vendita | Obbligatorio per creare una campagna acquisti. |
+| Filtro ambito prodotto | (Campagne commerciali) Facoltativo |
 | Lingue | Facoltativo |
 | Destinazioni dispositivo | Facoltativo |
 | Destinazioni SO dispositivo (Google Adwords) | Facoltativo |
 | Gestori di telefonia mobile (Google Adwords) | Facoltativo |
 | Audience Target Method | n/d |
-| Suffisso pagina di destinazione | <p>Facoltativo |
+| Suffisso pagina di destinazione | Facoltativo |
 | Modello di tracciamento | Facoltativo |
-| Stato della campagna | Facoltativo: creare o modificare<br><br>Obbligatorio: Elimina |
+| Stato della campagna | Obbligatorio solo per eliminare una campagna. |
 | \[Classificazione etichetta specifica dell’inserzionista\] | Facoltativo |
 | Vincoli | Facoltativo |
 | ID campagna | Obbligatorio solo quando si modifica il nome della campagna, a meno che la riga non includa un &quot;AMO ID&quot; per la campagna. |
@@ -154,12 +156,12 @@ Per creare e aggiornare [!DNL Google Ads] dati della campagna in blocco, puoi ut
 | Reti | n/d |
 | Livello di offerta personalizzato GDN | Facoltativo |
 | Nome gruppo di annunci | Obbligatorio |
-| Tipo di gruppo di annunci | Obbligatorio |
+| Tipo di gruppo di annunci | Obbligatorio per creare un gruppo di annunci. |
 | CPC massimo | Facoltativo |
 | CPC contenuto massimo | Facoltativo |
 | Audience Target Method | Obbligatorio |
 | Modello di tracciamento | Facoltativo |
-| Stato del gruppo di annunci | Facoltativo: creare o modificare<br><br>Obbligatorio: Elimina |
+| Stato del gruppo di annunci | Richiesto solo per eliminare un gruppo di annunci. |
 | \[Classificazione etichetta specifica dell’inserzionista\] | Facoltativo |
 | Vincoli | Facoltativo |
 | ID gruppo di annunci | Obbligatorio solo quando modifichi il nome del gruppo di annunci, a meno che la riga non includa un &quot;AMO ID&quot; per il gruppo di annunci. |
@@ -174,13 +176,13 @@ Per creare e aggiornare [!DNL Google Ads] dati della campagna in blocco, puoi ut
 | Nome gruppo di annunci | Obbligatorio |
 | CPC massimo | Facoltativo |
 | Parola chiave | Obbligatorio |
-| Tipo di corrispondenza | Facoltativo: creazione<br><br>Obbligatorio/Facoltativo: modifica o elimina |
+| Tipo di corrispondenza | Per modificare o eliminare una parola chiave con più tipi di corrispondenza è necessario un valore per il tipo di corrispondenza o l’ID della parola chiave. |
 | Modello di tracciamento | Facoltativo |
 | URL di base/URL finale | Facoltativo |
 | Parametro URL personalizzato | Facoltativo |
 | Param1 | Facoltativo |
 | Param2 | Facoltativo |
-| Stato parola chiave | Facoltativo: creare o modificare<br><br>Obbligatorio: Elimina |
+| Stato parola chiave | Obbligatorio solo per eliminare una parola chiave. |
 | \[Classificazione etichetta specifica dell’inserzionista\] | Facoltativo |
 | Vincoli | Facoltativo |
 | ID campagna | Facoltativo |
@@ -212,7 +214,7 @@ Per creare e aggiornare [!DNL Google Ads] dati della campagna in blocco, puoi ut
 
 ### Annuncio per ricerca dinamica espanso
 
-Questo tipo di annuncio è ora denominato &quot;annuncio di ricerca dinamica&quot; in [!DNL Google Ads]. Per ulteriori informazioni sulla creazione di annunci per ricerca dinamica, consulta &quot;[Implementare [!DNL Google Ads] annunci di ricerca dinamica](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-dynamic-search-ads.html?lang=en).&quot;
+Questo tipo di annuncio è ora denominato &quot;annuncio di ricerca dinamica&quot; in [!DNL Google Ads]. Per ulteriori informazioni sulla creazione di annunci per ricerca dinamica, consulta &quot;[Implementare [!DNL Google Ads] annunci di ricerca dinamica](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-dynamic-search-ads.html).&quot;
 
 Per questo tipo di annuncio, utilizza l’&quot;[!UICONTROL Creative (except RSA)]&quot; riga nella [!UICONTROL Download Bulksheet] .
 
@@ -235,7 +237,7 @@ Per questo tipo di annuncio, utilizza l’&quot;[!UICONTROL Creative (except RSA
 
 ### Campi per annunci di acquisto/elenco prodotti
 
-Per ulteriori informazioni sulla creazione di annunci di acquisto, consulta &quot;[Implementare campagne di acquisto di Google Ads](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-shopping-campaigns.html?lang=en).&quot;
+Per ulteriori informazioni sulla creazione di annunci di acquisto, consulta &quot;[Implementare campagne di acquisto di Google Ads](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-shopping-campaigns.html).&quot;
 
 Per questo tipo di annuncio, utilizza l’&quot;[!UICONTROL Creative (except RSA)]&quot; riga nella [!UICONTROL Download Bulksheet] .
 
@@ -266,9 +268,9 @@ Per questo tipo di annuncio, utilizza l’&quot;[!UICONTROL Responsive Search Ad
 | Nome conto | Obbligatorio a meno che ogni riga non includa un &quot;AMO ID&quot; per l’entità. |
 | Nome campagna | Obbligatorio |
 | Nome gruppo di annunci | Obbligatorio | |
-| Titolo annuncio, Titolo annuncio 2-15 | Per gli annunci per la ricerca responsive, sono necessari Ad Title (Titolo annuncio), Ad Title 2 (Titolo annuncio 2) e Ad Title 3 (Titolo annuncio 3) e tutti gli altri campi per il titolo dell’annuncio sono facoltativi. Per eliminare il valore esistente per un campo non obbligatorio, utilizzare il valore `[delete]` (comprese le parentesi). |
+| Titolo annuncio, Titolo annuncio 2-15 | Per gli annunci di ricerca responsive, per creare un annuncio sono necessari Ad Title (Titolo annuncio), Ad Title 2 (Titolo annuncio 2) e Ad Title 3 (Titolo annuncio 3); tutti gli altri campi del titolo dell’annuncio sono facoltativi. Per eliminare il valore esistente per un campo non obbligatorio, utilizzare il valore `[delete]` (comprese le parentesi). |
 | Posizione titolo annuncio 1-15 | Facoltativo |
-| Descrizione Riga 1-4 | Per gli annunci di ricerca responsive, sono necessari i campi Riga descrizione 1 e Riga descrizione 2 e Riga descrizione 3 e Riga descrizione 4 sono facoltativi. Per eliminare il valore esistente, utilizza il valore `[delete]` (comprese le parentesi). |
+| Descrizione Riga 1-4 | Per gli annunci di ricerca responsive, per creare un annuncio sono necessari Description Line 1 e Description Line 2, mentre Description Line 3 e Description Line 4 sono facoltativi. Per eliminare il valore esistente, utilizza il valore `[delete]` (comprese le parentesi). |
 | Descrizione Posizione riga 1-4 | Facoltativo |
 | Percorso di visualizzazione 1 | Facoltativo |
 | Percorso di visualizzazione 2 | Facoltativo |
@@ -324,6 +326,8 @@ Per questo tipo di annuncio, utilizza l’&quot;[!UICONTROL Creative (except RSA
 | Espressione di Targeting automatico | Obbligatorio se l’impostazione della campagna &quot;Usa i contenuti del mio sito web per eseguire il targeting dei miei annunci&quot; non è abilitata; facoltativo in caso contrario. |
 | Tipo di corrispondenza | Facoltativo |
 | Stato destinazione | Necessario per eliminare una destinazione |
+| \[Classificazione etichetta specifica dell’inserzionista\] | Facoltativo |
+| Vincoli | Facoltativo |
 | ID campagna | Facoltativo |
 | ID gruppo di annunci | Facoltativo |
 | ID destinazione | Obbligatorio solo quando si modifica o si elimina la destinazione automatica, a meno che la riga non includa un &quot;AMO ID&quot; per la destinazione. |
@@ -376,14 +380,14 @@ Per questo tipo di annuncio, utilizza l’&quot;[!UICONTROL Creative (except RSA
 | ---- | ---- | ---- |
 | Nome conto | Obbligatorio a meno che ogni riga non includa un &quot;AMO ID&quot; per l’entità. |
 | Nome campagna | Obbligatorio |
-| Posizione | Obbligatorio per creare o modificare una destinazione di posizione. |
+| Posizione | Obbligatorio |
 | Tipo di posizione | Facoltativo |
 | Regolazione offerta | Facoltativo |
 | Stato posizione | Obbligatorio solo per eliminare una destinazione di posizione. |
 | ID campagna | Facoltativo |
 | AMO ID | Obbligatorio per modificare o eliminare i dati a meno che non includa l’ID campagna.<br><br>Search, Social e Commerce utilizza il valore per determinare l’identità corretta da modificare, ma non pubblica l’ID sulla rete di annunci. |
 
-## Campi di destinazione per dispositivi a livello di campagna e di gruppo di annunci
+### Campi di destinazione per dispositivi a livello di campagna e di gruppo di annunci
 
 | Campo | Obbligatorio | Descrizione |
 | ---- | ---- | ---- |
@@ -398,7 +402,7 @@ Per questo tipo di annuncio, utilizza l’&quot;[!UICONTROL Creative (except RSA
 | ID dispositivo di destinazione | Obbligatorio solo quando si modifica o si elimina la destinazione, a meno che la riga non includa un &quot;AMO ID&quot; per la destinazione. |
 | AMO ID | Necessario per modificare o eliminare i dati a meno che non includiate l&#39;ID Device Target.<br><br>Search, Social e Commerce utilizza il valore per determinare l’identità corretta da modificare, ma non pubblica l’ID sulla rete di annunci. |
 
-## Campi di destinazione/esclusione RLSA a livello di campagna e di gruppo di annunci
+### Campi di destinazione/esclusione RLSA a livello di campagna e di gruppo di annunci
 
 | Campo | Obbligatorio | Descrizione |
 | ---- | ---- | ---- |
@@ -413,8 +417,6 @@ Per questo tipo di annuncio, utilizza l’&quot;[!UICONTROL Creative (except RSA
 | ID gruppo di annunci | Facoltativo; applicabile solo per target ed esclusioni a livello di gruppo di annunci. |
 | ID destinazione RLSA | Obbligatorio solo quando si modifica o si elimina la destinazione, a meno che la riga non includa un &quot;AMO ID&quot; per la destinazione. |
 | AMO ID | Necessario per modificare o eliminare i dati a meno che non si includa l&#39;ID destinazione RLSA.<br><br>Search, Social e Commerce utilizza il valore per determinare l’identità corretta da modificare, ma non pubblica l’ID sulla rete di annunci. |
-
-[^1]: [!DNL Excel] converte i numeri elevati in notazione scientifica (ad esempio 2.12E+09 per 2115585666) quando apre il file. Per visualizzare le cifre nella notazione standard, selezionare una cella della colonna e fare clic all&#39;interno della barra della formula.
 
 >[!MORELIKETHIS]
 >

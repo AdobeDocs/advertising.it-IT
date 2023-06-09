@@ -1,9 +1,9 @@
 ---
 title: Crea [!DNL Google Ads] audience di corrispondenza cliente da [!DNL Adobe] audience
 description: Scopri come creare [!DNL Google Ads] i clienti abbinano i tipi di pubblico dei tipi di pubblico esistenti di Adobe Analytics e di Audience Manager.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 7089f7fe75b551953026ac6cca4ac7aafa06ba7b
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Ogni nuovo [!DNL Google] il pubblico ha lo stesso nome dell’originale [!DNL Ad
 
    1. (Per creare tipi di pubblico per elenchi di remarketing con ID utente) Un [!DNL Adobe] l’utente amministratore o l’account manager deve selezionare l’impostazione a livello di inserzionista per abilitare i tipi di pubblico in customer match. Le impostazioni differiscono tra gli inserzionisti con Audience Manager e quelli con [!DNL Analytics] solo.
 
-   1. Implementare [Servizio Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en) versione 2.0 o successiva.
+   1. Implementare [Servizio Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html) versione 2.0 o successiva.
 
    1. Distribuisci il seguente tag il più in alto possibile sulle pagine web dell’inserzionista da cui monitorare il pubblico
 
@@ -80,11 +80,9 @@ Ogni nuovo [!DNL Google] il pubblico ha lo stesso nome dell’originale [!DNL Ad
 >
 >* Consulta [[!DNL Google Ads] documentazione su come funziona la corrispondenza con i clienti e limitazioni](https://support.google.com/displayvideo/answer/9539301).
 
-
 >[!MORELIKETHIS]
 >
 >* [Informazioni sui tipi di pubblico](audience-about.md)
 >* [Creare un [!DNL Google Ads] customer match audience da un elenco e-mail di Adobe Campaign](google-audience-from-campaign-email-list.md)
 >* [Gestire i tipi di pubblico in base ai clienti utilizzando gli elenchi di dati dei clienti](audience-from-customer-data-list.md)
 >* [Gestire i tipi di pubblico di remarketing dinamico](audience-dynamic-remarketing-manage.md)
-
