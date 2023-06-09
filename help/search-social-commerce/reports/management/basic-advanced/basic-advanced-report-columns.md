@@ -1,9 +1,9 @@
 ---
 title: Colonne di report per report di base e avanzati
 description: Scopri le colonne di dati disponibili per i rapporti di base e avanzati.
-source-git-commit: b1913c396e911f7595ab6cb42c5ea960b2cc789b
+source-git-commit: 7327c91b92b6471fa8da8767fc764de4226b4f91
 workflow-type: tm+mt
-source-wordcount: '3640'
+source-wordcount: '3653'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 0%
 | [!UICONTROL Domain] | ([!UICONTROL Domain Referral Report], [!UICONTROL Keyword Report]) Il nome di dominio da cui hanno avuto origine i clic. |
 | [!UICONTROL eCPM] | Il CPM effettivo o il costo medio pagato per 1000 impression durante un intervallo di date specificato. I valori eCPM vengono calcolati per le campagne CPM o CPC. |
 | [!UICONTROL EF Campaign ID] | ID numerico assegnato alla campagna da Search, Social e Commerce. |
-| [!UICONTROL EF ID] | ([!UICONTROL Transaction Report]) (Per gli inserzionisti con il servizio di tracciamento della conversione di Advertising Adobe e il &quot;[!UICONTROL EF Redirect]&quot;metodo di tracciamento con un token&quot;) Il token per il clic o la conversione.<ul><li>Per [!DNL Google Ads] annunci di ricerca, l’ID EF è `{gclid}:G:s`, che include Google Click ID (GCLID) e il tipo di rete (&quot;s&quot; per la ricerca).</li><li> Per [!DNL Microsoft Advertising] annunci di ricerca, l’ID EF è `{msclkid}:G:s`, che include Microsoft Click ID (MSCLKID) e il tipo di rete (&quot;s&quot; per la ricerca).</li><li>Per gli annunci di ricerca su altre reti pubblicitarie, l’ID EF include l’ID surfista, il tempo di clic e il tipo di rete.</li><li>Per gli annunci display, l’ID EF include l’ID surfista, il tempo di clic o di impression e il tipo di rete.</li></ul> |
+| [!UICONTROL EF ID] | ([!UICONTROL Transaction Report]) (Per gli inserzionisti con il servizio di tracciamento delle conversioni di Adobe Advertising e il &quot;[!UICONTROL EF Redirect]&quot;metodo di tracciamento con un token&quot;) Il token per il clic o la conversione.<ul><li>Per [!DNL Google Ads] annunci di ricerca, l’ID EF è `{gclid}:G:s`, che include Google Click ID (GCLID) e il tipo di rete (&quot;s&quot; per la ricerca).</li><li> Per [!DNL Microsoft Advertising] annunci di ricerca, l’ID EF è `{msclkid}:G:s`, che include Microsoft Click ID (MSCLKID) e il tipo di rete (&quot;s&quot; per la ricerca).</li><li>Per gli annunci di ricerca su altre reti pubblicitarie, l’ID EF include l’ID surfista, il tempo di clic e il tipo di rete.</li><li>Per gli annunci display, l’ID EF include l’ID surfista, il tempo di clic o di impression e il tipo di rete.</li></ul> |
 | [!UICONTROL EF Pixel Location ID] | ([!UICONTROL Geo Distribution Report]; solo per ricerca, social e commerce) ID interno per la posizione geografica, utilizzato per normalizzare i dati. |
 | [!UICONTROL EF Portfolio Group ID] | L’ID numerico del gruppo di portfolio a cui appartiene il portfolio. |
 | [!UICONTROL EF Search Engine ID] | ID numerico assegnato da Search, Social e Commerce alla rete di annunci:  <i>[!UICONTROL 3]</i> per [!DNL Google Ads], <i>[!UICONTROL 10]</i> per [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> per [!DNL Meta], <i>[!UICONTROL 86]</i> per [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> per [!DNL Naver], <i>[!UICONTROL 88]</i> per [!DNL Baidu], <i>[!UICONTROL 90]</i> per [!DNL Yandex], <i>[!UICONTROL 94]</i> per [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> per [!DNL Yahoo Native] (obsoleto), oppure <i>[!UICONTROL 106]</i> per [!DNL Pinterest] (obsoleto). |
@@ -110,7 +110,7 @@ ht-degree: 0%
 | [!UICONTROL Impressions] | Il numero di ad impression durante l’intervallo di date specificato. |
 | [!UICONTROL Interaction Rate] | (Annunci video) Il numero di interazioni diviso per il numero di volte in cui l’annuncio (impressioni di video e miniature) è stato visualizzato. |
 | [!UICONTROL Interactions] | (Annunci video) Il numero di volte in cui le persone hanno guardato il tuo annuncio. |
-| [!UICONTROL Is_Click_Objectives] | ([!UICONTROL Portfolio Report]) <!-- ?????? insert definition --> |
+| [!UICONTROL Is_Click_Objectives] | ([!UICONTROL Portfolio Report]) <i>true</i> quando il portfolio contiene campagne con [!UICONTROL Maximize Clicks] strategia d&#39;offerta, e <i>false</i> altrimenti. |
 | [!UICONTROL Keyword] | La parola chiave.<br><br><b>Nota:</b> Se il rapporto include i dati dei gruppi di annunci nelle campagne di ricerca abilitate per il contenuto, questa colonna include i nomi dei gruppi di annunci applicabili, ad esempio &quot;(contenuto adgroup) Nome del gruppo di annunci&quot;. Per un posizionamento mirato al sito in una campagna di ricerca, questa colonna non ha un valore. |
 | [!UICONTROL Keyword ID] | ID numerico assegnato alla parola chiave da Search, Social e Commerce. |
 | [!UICONTROL Keyword Status] | Lo stato della parola chiave a cui il termine di ricerca è stato associato: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>, <i>[!UICONTROL Deleted]</i>, o <i>[!UICONTROL Disapproved]</i>. |
@@ -192,4 +192,3 @@ ht-degree: 0%
 >* [Informazioni sui report di base e avanzati](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)
 >* [Generare un rapporto di base o avanzato](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
 >* [Impostazioni di base e avanzate dei rapporti](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
-

@@ -1,7 +1,7 @@
 ---
 title: "Aggiorna il codice di tracciamento s\_kwcid per un [!DNL Google Ads] account"
 description: Scopri come passare al codice di tracciamento s\_kwcid più recente per un [!DNL Google Ads] account.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a9e23de134274d8f5004a908853c4132300b84e8
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 0%
@@ -58,5 +58,4 @@ Tutte le nuove [!DNL Google Ads] gli account utilizzano automaticamente il nuovo
 >
 >* [Gestire gli account di rete degli annunci](ad-network-account-manage.md)
 >* [Il parametro di tracciamento s_kwcid](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
->* [Panoramica di [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
-
+>* [Panoramica di [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}
