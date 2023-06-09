@@ -1,7 +1,7 @@
 ---
 title: Colonne report per report speciali
 description: Scopri le colonne di dati disponibili per i rapporti speciali.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: c2a6e14fe97d46185094dd4df3e75db35a505925
 workflow-type: tm+mt
 source-wordcount: '1925'
 ht-degree: 0%
@@ -66,7 +66,7 @@ ht-degree: 0%
 | [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] solo; [!UICONTROL AdWords and Bing Audience Target Report], [!UICONTROL Campaign Daily Impression Share Report], e [!UICONTROL Keyword Daily Impression Share Report]) La percentuale di impression dell’annuncio visualizzate come primo annuncio sopra i risultati della ricerca organica. |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads] solo; [!UICONTROL AdWords and Bing Audience Target Report], [!UICONTROL Campaign Daily Impression Share Report], e [!UICONTROL Keyword Daily Impression Share Report]) La percentuale di impression degli annunci mostrata sopra i risultati della ricerca organica. |
 | [!UICONTROL Impressions] | Il numero di ad impression durante l’intervallo di date specificato. |
-| [!UICONTROL Keyword] | La parola chiave.<br><br><b>Nota:</i> Se il rapporto include i dati dei gruppi di annunci nelle campagne di ricerca abilitate per il contenuto, questa colonna include i nomi dei gruppi di annunci applicabili, ad esempio &quot;(contenuto adgroup) Nome del gruppo di annunci&quot;. Per un posizionamento mirato al sito in una campagna di ricerca, questa colonna non ha un valore. |
+| [!UICONTROL Keyword] | La parola chiave.<br><br><b>Nota:</b> Se il rapporto include i dati dei gruppi di annunci nelle campagne di ricerca abilitate per il contenuto, questa colonna include i nomi dei gruppi di annunci applicabili, ad esempio &quot;(contenuto adgroup) Nome del gruppo di annunci&quot;. Per un posizionamento mirato al sito in una campagna di ricerca, questa colonna non ha un valore. |
 | [!UICONTROL Keyword ID] | ID numerico assegnato alla parola chiave da Search, Social e Commerce. |
 | [!UICONTROL Keyword Status] | Lo stato della parola chiave a cui il termine di ricerca è stato associato: *[!UICONTROL Active]*, *[!UICONTROL Paused]*, [!UICONTROL Deleted]*, o[!UICONTROL Disapproved]*. |
 | [!UICONTROL Language] | ([!UICONTROL Campaign Daily Impression Share Report]) Lingua di destinazione. |
@@ -119,4 +119,3 @@ ht-degree: 0%
 >* [Informazioni sui report speciali](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md)
 >* [Generare un rapporto speciale](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
 >* [Impostazioni report speciali](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
-
