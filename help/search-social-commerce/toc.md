@@ -7,9 +7,8 @@ archetype: end-user
 user-guide-title: Guida a Advertising Search, Social e Commerce
 user-guide-description: Questa guida descrive le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire e ottimizzare le campagne di ricerca, social e e commerce ad e generare report su di esse.
 breadcrumb-title: Guida a Advertising Search, Social e Commerce
-index: false
-hide: true
-source-git-commit: 72dd7a51e024057a1135fa0cc641b236254c28d8
+index: true
+source-git-commit: 0f4fad34e1e381157b99467fca04c35501d1fb57
 workflow-type: tm+mt
 source-wordcount: '1714'
 ht-degree: 0%
@@ -89,7 +88,7 @@ ht-degree: 0%
       + [Il parametro di tracciamento s_kwcid](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
    + Tracciamento delle conversioni {#conversion-tracking}
       + [Opzioni di tracciamento delle conversioni](/help/search-social-commerce/tracking/conversion-tracking-about.md)
-      + Adobe Tracciamento conversione Advertising {#advertising-conversion-tracking}
+      + Adobe Advertising di tracciamento delle conversioni {#advertising-conversion-tracking}
          + [Informazioni sui tag di tracciamento delle conversioni di Adobe Advertising](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
          + [Formato dei tag di tracciamento della conversione JavaScript versione 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
          + [Formato dei tag di tracciamento della conversione JavaScript versione 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
