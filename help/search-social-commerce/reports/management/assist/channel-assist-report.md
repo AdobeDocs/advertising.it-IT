@@ -1,7 +1,7 @@
 ---
 title: "[!UICONTROL Channel Assist Report]"
 description: Scopri di più su [!UICONTROL Channel Assist Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Puoi visualizzare i dati relativi ai 18 mesi precedenti.
 Di seguito sono riportate le colonne disponibili per ogni rapporto. Le colonne predefinite vengono incluse automaticamente per impostazione predefinita. Puoi aggiungere le colonne personalizzate disponibili dalla sezione Colonne delle impostazioni del rapporto.
 
 | Colonna | Predefinito? | Descrizione |
-|----|----|
+| ---- | ---- | ---- |
 | [!UICONTROL 1st Event] a [!UICONTROL 5th Event] | Predefinito | I cinque primi tipi di evento nel percorso di conversione che si sono verificati all&#39;interno dell&#39;inserzionista [fai clic sull’intervallo di lookback](/help/search-social-commerce/glossary.md#c-d) e [intervallo di lookback delle impression](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL Path Size] | Predefinito | Il numero di tipi di evento nel percorso di conversione che si sono verificati all&#39;interno del [fai clic sull’intervallo di lookback](/help/search-social-commerce/glossary.md#c-d) e [intervallo di lookback delle impression](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Event Type] | Predefinito | Tipo di evento del primo evento (meno recente) nel percorso di conversione. |
@@ -47,4 +47,3 @@ Di seguito sono riportate le colonne disponibili per ogni rapporto. Le colonne p
 >* [Il [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [Impostazioni dei rapporti di assistenza](assist-report-settings.md)
 >* [Generare un rapporto di assistenza](assist-report-generate.md)
-

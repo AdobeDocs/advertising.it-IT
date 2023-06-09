@@ -1,9 +1,9 @@
 ---
 title: Scrivi testo effettivo e copia
 description: Scopri le best practice per la scrittura di copie pubblicitarie efficaci.
-source-git-commit: 6b93a29d121bd5a1cd887bf17023811e59fe85c3
+source-git-commit: c31c8615ecbd24b03c47563aee499fc1d865ea36
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 * Scrivi titoli efficaci per attrarre potenziali clienti.
 
-* Includi le parole chiave nel titolo perché è quello che la maggior parte delle persone sta cercando. [*]
+* Includi le parole chiave nel titolo perché è quello che la maggior parte delle persone sta cercando. [1]
 
 * Crea e copia progettati per il pubblico previsto.
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 * Se offri uno sconto, includi l’importo o la percentuale specifica dello sconto (ad esempio &quot;20% di sconto&quot; o &quot;Risparmia 20 $ al primo acquisto&quot;).
 
-* Se possibile, utilizza la parola chiave sia nel titolo/titolo che in entrambe le righe della descrizione/del corpo. [*]
+* Se possibile, utilizza la parola chiave sia nel titolo/titolo che in entrambe le righe della descrizione/del corpo. [1]
 
 * Includi sempre nel testo un invito all’azione, ad esempio &quot;Visualizza&quot;, &quot;Estrai&quot;, &quot;Ordine&quot; o &quot;Registrati&quot;, per aumentare il tasso di click-through. Per gli annunci di immagini, includi l’invito all’azione su un pulsante che si collega al sito web; per gli annunci rich media, includi l’invito all’azione in un fotogramma iniziale.
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 * Ricercare le attività dei tuoi concorrenti. Osserva i principali annunci per uno spazio (in siti come www.spyfu.com) e prova a capire quali annunci funzionano.
 
-[*]: se si utilizza l&#39;inserimento di parole chiave, utilizzare le maiuscole corrette per il codice di inserimento:
+[1]: se si utilizza l&#39;inserimento di parole chiave, utilizzare le maiuscole corrette per il codice di inserimento:
 
 `{keyword:default}` = falciatrici da prato
 

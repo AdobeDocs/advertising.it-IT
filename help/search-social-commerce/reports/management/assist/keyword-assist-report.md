@@ -1,7 +1,7 @@
 ---
 title: "[!UICONTROL Keyword Assist Report]"
 description: Scopri di più su [!UICONTROL Keyword Assist Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Puoi visualizzare i dati relativi ai 18 mesi precedenti.
 Di seguito sono riportate le colonne disponibili per ogni rapporto. Le colonne predefinite vengono incluse automaticamente per impostazione predefinita. Puoi aggiungere le colonne personalizzate disponibili dalla sezione Colonne delle impostazioni del rapporto.
 
 | Colonna | Predefinito? | Descrizione |
-|----|----|
+| ---- | ---- | ---- |
 | [!UICONTROL 1st Keyword] a [!UICONTROL 5th Keyword] | Predefinito | La prima parola chiave di ricerca a pagamento o i primi cinque clic di posizionamento nel percorso di conversione che si sono verificati all’interno dell’inserzionista [fai clic sull’intervallo di lookback](/help/search-social-commerce/glossary.md#c-d) e [intervallo di lookback delle impression](/help/search-social-commerce/glossary.md#i-j).<br><br><b>Nota:</b> Se il rapporto include posizionamenti da campagne di ricerca abilitate per il contenuto (che non includono parole chiave), queste colonne mostrano i nomi dei gruppi di annunci applicabili, ad esempio &quot;(contenuto adgroup) Nome del gruppo di annunci&quot;. |
 | [!UICONTROL Path Size] | Predefinito | Il numero di parole chiave e/o posizionamenti nel percorso di conversione che si sono verificati all&#39;interno del [fai clic sull’intervallo di lookback](/help/search-social-commerce/glossary.md#c-d) e [intervallo di lookback delle impression](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Keyword] | Predefinito | La prima parola chiave o posizione nel percorso di conversione. |
@@ -51,4 +51,3 @@ Di seguito sono riportate le colonne disponibili per ogni rapporto. Le colonne p
 >* [Il [!UICONTROL Channel Assist Report]](channel-assist-report.md)
 >* [Impostazioni dei rapporti di assistenza](assist-report-settings.md)
 >* [Generare un rapporto di assistenza](assist-report-generate.md)
-

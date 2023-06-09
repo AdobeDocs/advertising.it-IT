@@ -1,7 +1,7 @@
 ---
 title: Informazioni sulle notifiche
 description: Scopri le notifiche, compresi i diversi tipi e categorie.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 1b38a7cd20eb2f9b773d01dc0444f45761b99647
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -20,11 +20,11 @@ Puoi configurare le impostazioni di notifica per abbonarti o annullare l’abbon
 
 * Da un [!UICONTROL Notification Center] applicazione web, che apre [!UICONTROL Notification Center] in una finestra separata al di fuori di Search, Social e Commerce.
 
-   L’applicazione viene caricata più rapidamente della versione normale del browser e viene aggiornata automaticamente. Puoi installare l’applicazione e gestirla utilizzando l’app manager del browser.
+  L’applicazione viene caricata più rapidamente della versione normale del browser e viene aggiornata automaticamente. Puoi installare l’applicazione e gestirla utilizzando l’app manager del browser.
 
 * Dalle notifiche push al browser.
 
-   Quando abiliti le notifiche push, vengono visualizzate in base alle convenzioni di notifica del browser.
+  Quando abiliti le notifiche push, vengono visualizzate in base alle convenzioni di notifica del browser.
 
 Puoi visualizzare le notifiche, contrassegnarle come lette o non lette ed eliminare le notifiche.
 
@@ -50,7 +50,7 @@ Puoi visualizzare le notifiche, contrassegnarle come lette o non lette ed elimin
 
    * **[!UICONTROL Adobe Analytics Tracking Setup Error]**:: notifiche che il [!UICONTROL Landing Page Suffix] valore errato, mancante o contenente un modello SKWCID errato oppure sovrascritto a un livello inferiore da un valore errato.
 
-   * **[!UICONTROL Manager Account Missing ]**: notifiche per cui mancano le credenziali per Search, Social e Commerce [account di ad network manager](/help/search-social-commerce/admin/manager-accounts.md), per la corretta configurazione delle funzioni critiche.
+   * **[!UICONTROL Manager Account Missing]**: notifiche per cui mancano le credenziali per Search, Social e Commerce [account di ad network manager](/help/search-social-commerce/admin/manager-accounts.md), per la corretta configurazione delle funzioni critiche.
 
 * [!UICONTROL Network Errors]
 
@@ -76,4 +76,3 @@ Puoi visualizzare le notifiche, contrassegnarle come lette o non lette ed elimin
 >* [Modifica le impostazioni delle notifiche](notification-edit.md)
 >* [Abilitare e disabilitare le notifiche push da [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
 >* [Installare e disinstallare [!UICONTROL Notification Center] applicazione web](notification-app-install-uninstall.md)
-

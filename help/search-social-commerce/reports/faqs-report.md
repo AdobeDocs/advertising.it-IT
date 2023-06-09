@@ -1,7 +1,7 @@
 ---
 title: Domande frequenti sui rapporti
 description: Scopri le risposte alle domande comuni sui rapporti sulle prestazioni, inclusa la risoluzione dei problemi relativi ai dati.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 3f2b483a4cae20295a2334321802f8abfe864bd8
 workflow-type: tm+mt
 source-wordcount: '3917'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Puoi vedere quali conversioni sono risultate da un clic su un [!DNL Google Ads] 
 
 * I collegamenti ai siti sono elencati come `sl:<Sitelink text>`, ad esempio `sl:See Current Offers`.
 
-   Puoi anche identificare un sitelink se includi il [!UICONTROL Tracking URL] nel rapporto. Il [!UICONTROL Tracking URL] per un sitelink include l&#39;attributo `&ev_ltx=sl:<link-name>`.
+  Puoi anche identificare un sitelink se includi il [!UICONTROL Tracking URL] nel rapporto. Il [!UICONTROL Tracking URL] per un sitelink include l&#39;attributo `&ev_ltx=sl:<link-name>`.
 
 >[!NOTE]
 >
@@ -75,11 +75,11 @@ Se generi un rapporto più volte utilizzando gli stessi parametri di rapporto ma
 
 * I dati basati su date su clic potrebbero non rientrare nell’intervallo di date specificato.
 
-   Se utilizzi il parametro del rapporto &quot;[!UICONTROL Conversions based on click date],&quot; l’intervallo di date specificato si applica alla data del clic anziché alla data della transazione. Se il rapporto utilizza anche la regola di attribuzione &quot;Primo evento&quot; o &quot;Ultimo evento&quot;, il primo o l’ultimo evento che ha portato alla conversione potrebbe non rientrare nell’intervallo di date specificato. Ad esempio, si supponga che un utente abbia fatto clic su Parola chiave_1 il 30 aprile, su Parola chiave_2 il 20 maggio e abbia effettuato la conversione il 21 maggio. Se il rapporto utilizza il tag &quot;[!UICONTROL First Event]&quot;Regola di attribuzione e intervallo di date 1-21 maggio, quindi il primo evento (un clic su Keyword_1 il 30 aprile) non viene incluso nel rapporto. Se esegui il rapporto con lo stesso intervallo di date ma utilizzando l’&quot;[!UICONTROL Last Event]&quot;regola di attribuzione, la conversione viene inclusa nel rapporto perché l’ultimo clic si è verificato all’interno dell’intervallo di date specificato.
+  Se utilizzi il parametro del rapporto &quot;[!UICONTROL Conversions based on click date],&quot; l’intervallo di date specificato si applica alla data del clic anziché alla data della transazione. Se il rapporto utilizza anche la regola di attribuzione &quot;Primo evento&quot; o &quot;Ultimo evento&quot;, il primo o l’ultimo evento che ha portato alla conversione potrebbe non rientrare nell’intervallo di date specificato. Ad esempio, si supponga che un utente abbia fatto clic su Parola chiave_1 il 30 aprile, su Parola chiave_2 il 20 maggio e abbia effettuato la conversione il 21 maggio. Se il rapporto utilizza il tag &quot;[!UICONTROL First Event]&quot;Regola di attribuzione e intervallo di date 1-21 maggio, quindi il primo evento (un clic su Keyword_1 il 30 aprile) non viene incluso nel rapporto. Se esegui il rapporto con lo stesso intervallo di date ma utilizzando l’&quot;[!UICONTROL Last Event]&quot;regola di attribuzione, la conversione viene inclusa nel rapporto perché l’ultimo clic si è verificato all’interno dell’intervallo di date specificato.
 
 * La selezione del filtro portfolio esclude alcuni degli eventi che portano alla conversione.
 
-   Se esegui un rapporto su un sottoinsieme di portfolio, è possibile che non includa le campagne che includevano l’evento a cui è stata attribuita la conversione in una delle regole di attribuzione. Si supponga, ad esempio, che un utente faccia clic su Parola chiave_1 da Portfolio_1, che faccia clic su Parola chiave_2 da Portfolio_2 e quindi che converta. Se il rapporto utilizza il tag &quot;[!UICONTROL First Event]&quot;regola di attribuzione, affinché la conversione possa essere inclusa nel rapporto deve essere incluso Portfoli_1. Tuttavia, se il rapporto utilizza la regola di attribuzione &quot;Last Event&quot; (Ultimo evento), deve essere incluso Portfoli_2.
+  Se esegui un rapporto su un sottoinsieme di portfolio, è possibile che non includa le campagne che includevano l’evento a cui è stata attribuita la conversione in una delle regole di attribuzione. Si supponga, ad esempio, che un utente faccia clic su Parola chiave_1 da Portfolio_1, che faccia clic su Parola chiave_2 da Portfolio_2 e quindi che converta. Se il rapporto utilizza il tag &quot;[!UICONTROL First Event]&quot;regola di attribuzione, affinché la conversione possa essere inclusa nel rapporto deve essere incluso Portfoli_1. Tuttavia, se il rapporto utilizza la regola di attribuzione &quot;Last Event&quot; (Ultimo evento), deve essere incluso Portfoli_2.
 
 >[!TIP]
 >
@@ -152,9 +152,9 @@ Il rapporto potrebbe non includere le metriche di conversione per le quali si so
 
 +++Nei rapporti manca la retribuzione.
 
-### Inserzionisti che utilizzano i tag di conversione Adobe Advertising
+**Inserzionisti che utilizzano tag di conversione Adobe Advertising**
 
-#### Possibili cause
+*Possibili cause:*
 
 * Parole chiave o annunci sono stati aggiunti senza prefisso ai modelli di tracciamento o agli URL di destinazione il prefisso di tracciamento dei clic Search, Social e Commerce oppure il prefisso di tracciamento non è corretto.
 
@@ -164,7 +164,7 @@ Il rapporto potrebbe non includere le metriche di conversione per le quali si so
 
 * Il parser dei ricavi per il client non è stato implementato.
 
-#### Possibile soluzione o soluzione alternativa
+*Possibile soluzione o soluzione alternativa:*
 
 1. Verifica che nei rapporti o nelle visualizzazioni dati siano incluse le colonne corrette. Se non sono disponibili le colonne corrette da aggiungere, è necessario che tu o il team dell’account dell’Adobe [rendere le proprietà della transazione disponibili per i report](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
@@ -180,9 +180,9 @@ Il rapporto potrebbe non includere le metriche di conversione per le quali si so
 
    Se il cliente non è stato avviato o è appena stato avviato, l’Assistenza clienti verifica se è stato configurato un parser di ricavi. Se il parser è configurato, verifica se Search, Social e Commerce sta ricevendo conversioni di pixel e risolve il problema.
 
-### Inserzionisti che inviano feed di dati di conversione
+**Inserzionisti che inviano feed di dati di conversione**
 
-#### Possibili cause
+*Possibili cause:*
 
 * Il file di feed non è stato consegnato, non è stato analizzato completamente o il feed conteneva transazioni orfane.
 
@@ -192,7 +192,7 @@ Il rapporto potrebbe non includere le metriche di conversione per le quali si so
 >
 >I dati generalmente non vengono visualizzati nell’interfaccia utente fino a 2-4 ore dopo la ricezione del feed.
 
-#### Possibile soluzione o soluzione alternativa
+*Possibile soluzione o soluzione alternativa:*
 
 1. Verifica che nei rapporti o nelle visualizzazioni dati siano incluse le colonne corrette. Se non sono disponibili le colonne corrette da aggiungere, è necessario che tu o il team dell’account dell’Adobe [rendere le proprietà della transazione disponibili per i report](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
@@ -213,9 +213,9 @@ Il [!UICONTROL Geo Distribution Report] e [!UICONTROL Domain Referral Report] ut
 
 +++I dati dei ricavi sono diversi da quelli dell’inserzionista.
 
-### Inserzionisti che utilizzano i tag di conversione Adobe Advertising
+**Inserzionisti che utilizzano tag di conversione Adobe Advertising**
 
-#### Possibili cause
+*Possibili cause:*
 
 * Search, Social e Commerce ignora le entrate quando il cookie viene scaduto o eliminato, ma l’inserzionista potrebbe considerarlo entrate valide.
 
@@ -223,7 +223,7 @@ Il [!UICONTROL Geo Distribution Report] e [!UICONTROL Domain Referral Report] ut
 
 * Il tag di tracciamento della conversione non è implementato correttamente in tutte le pagine web applicabili o è stato modificato.
 
-#### Possibile soluzione o soluzione alternativa
+*Possibile soluzione o soluzione alternativa:*
 
 1. Vai a **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** e genera un [!UICONTROL Transaction Report]. Confronta le transazioni ricevute da Search, Social e Commerce con i dati dell’inserzionista.
 
@@ -235,13 +235,13 @@ Il [!UICONTROL Geo Distribution Report] e [!UICONTROL Domain Referral Report] ut
 
    L’assistenza clienti cercherà di identificare le transazioni mancanti e quindi di verificare la presenza di transazioni orfane e di transazioni che non provengono da un annuncio (&quot;conversioni non correlate&quot;).
 
-### Per gli inserzionisti con feed di dati di conversione che utilizzano `ef_id` valori
+**Per gli inserzionisti con feed di dati di conversione che utilizzano `ef_id` valori**
 
 Consulta le possibili cause e soluzioni per le implementazioni pixel di cui sopra.
 
-### Inserzionisti con feed di dati di conversione che utilizzano ID transazione
+**Inserzionisti con feed di dati di conversione che utilizzano ID transazione**
 
-#### Possibili cause
+*Possibili cause:*
 
 * Search, Social e Commerce ignora le entrate quando il cookie scade o viene eliminato, ma l’inserzionista potrebbe considerarlo entrate valide.
 
@@ -249,7 +249,7 @@ Consulta le possibili cause e soluzioni per le implementazioni pixel di cui sopr
 
 * È stata segnalata una conversione offline prima di una transazione online con lo stesso ID transazione. La transazione online deve essere eseguita per prima.
 
-#### Possibile soluzione o soluzione alternativa
+*Possibile soluzione o soluzione alternativa:*
 
 1. Vai a **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** e genera un [!UICONTROL Transaction Report]. Confronta le transazioni ricevute da Search, Social e Commerce con i dati di feed dell’inserzionista.
 
@@ -259,9 +259,9 @@ Consulta le possibili cause e soluzioni per le implementazioni pixel di cui sopr
 
    L’Assistenza clienti verificherà la presenza di errori di analisi dei dati e [transazioni orfane](/help/search-social-commerce/glossary.md#o-p).
 
-### Inserzionisti con altri tipi di feed di dati di conversione
+**Inserzionisti con altri tipi di feed di dati di conversione**
 
-#### Possibili cause
+*Possibili cause:*
 
 * Search, Social e Commerce ignora le entrate quando il cookie viene scaduto o eliminato, ma l’inserzionista potrebbe considerarlo entrate valide.
 
@@ -279,7 +279,7 @@ Consulta le possibili cause e soluzioni per le implementazioni pixel di cui sopr
 
 * La logica di deduplicazione dell’inserzionista è diversa da Ricerca, Social e Commerce.
 
-#### Possibile soluzione o soluzione alternativa
+*Possibile soluzione o soluzione alternativa:*
 
 1. Vai a **[!UICONTROL Insights]E[!UICONTROL Reports > Reports]** e genera un [!UICONTROL Transaction Report]. Confronta le transazioni ricevute da Search, Social e Commerce con i dati dell’inserzionista.
 
@@ -312,7 +312,7 @@ Le reti di annunci non forniscono l’identificatore necessario per attribuire i
 +++
 
 +++In [!UICONTROL Transaction Report], come posso sapere quale proprietà di transazione proviene da un feed di dati o è tracciata dal pixel di tracciamento di Adobe Advertising?
-In un rapporto di transazione, puoi verificare se una proprietà di transazione inclusa è stata tracciata dal pixel di tracciamento di Adobe Advertising, se includi la colonna personalizzata &quot;[!UICONTROL Tracking URL].&quot; Gli URL di tracciamento con il pixel di tracciamento di Advertising di Adobe iniziano con &quot;`http://pixel.everesttech.net`.&quot;
+In un rapporto di transazione, puoi verificare se una proprietà di transazione inclusa è stata tracciata dal pixel di tracciamento dell’Adobe Advertising se includi la colonna personalizzata &quot;[!UICONTROL Tracking URL].&quot; Gli URL di tracciamento con il pixel di tracciamento di Advertising di Adobe iniziano con &quot;`http://pixel.everesttech.net`.&quot;
 +++
 
 +++I dati nel mio [!UICONTROL Transaction Report] non corrisponde ai dati nel mio [!UICONTROL Keyword Report].

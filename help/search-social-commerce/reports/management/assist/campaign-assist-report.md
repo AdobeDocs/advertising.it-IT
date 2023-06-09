@@ -1,7 +1,7 @@
 ---
 title: "[!UICONTROL Campaign Assist Report]"
 description: Scopri di più su [!UICONTROL Campaign Assist Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Puoi visualizzare i dati relativi ai 18 mesi precedenti.
 Di seguito sono riportate le colonne disponibili per ogni rapporto. Le colonne predefinite vengono incluse automaticamente per impostazione predefinita. Puoi aggiungere le colonne personalizzate disponibili dalla sezione Colonne delle impostazioni del rapporto.
 
 | Colonna | Predefinito? | Descrizione |
-|----|----|
+| ---- | ---- | ---- |
 | [!UICONTROL 1st Campaign] a [!UICONTROL 5th Campaign] | Predefinito | Le cinque prime campagne nel percorso di conversione che si sono verificate nel file dell’inserzionista [fai clic sull’intervallo di lookback](/help/search-social-commerce/glossary.md#c-d) e [intervallo di lookback delle impression](/help/search-social-commerce/glossary.md#i-j).<br><br>Se hai incluso una delle opzioni di rapporto per indicare la rete di annunci, il nome account o il tipo di evento dopo il nome dell’entità, tali informazioni vengono incluse dopo il nome della campagna (ad esempio `"<"campaign name> [Google] [Account1] [impression]`&quot;). |
 | [!UICONTROL Path Size] | Predefinito | Il numero di campagne nel percorso di conversione che si sono verificate all’interno dell’inserzionista [fai clic sull’intervallo di lookback](/help/search-social-commerce/glossary.md#c-d) e [intervallo di lookback delle impression](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Campaign] | Predefinito | La prima campagna nel percorso di conversione. |
@@ -57,4 +57,3 @@ Di seguito sono riportate le colonne disponibili per ogni rapporto. Le colonne p
 >* [Il [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [Impostazioni dei rapporti di assistenza](assist-report-settings.md)
 >* [Generare un rapporto di assistenza](assist-report-generate.md)
-
