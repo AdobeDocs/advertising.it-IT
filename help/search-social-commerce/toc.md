@@ -5,10 +5,10 @@ solution: Advertising
 product: advertising cloud
 archetype: end-user
 user-guide-title: Guida a Advertising Search, Social e Commerce
-user-guide-description: Questa guida descrive le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire e ottimizzare le campagne di ricerca, social e e commerce ad e generare report su di esse.
+user-guide-description: Questa guida descrive le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire e tenere traccia delle campagne di ricerca, social e e commerce e generare report su di esse.
 breadcrumb-title: Guida a Advertising Search, Social e Commerce
 index: true
-source-git-commit: b5ac81e04055c32cff02cc8528efb88e0d690f48
+source-git-commit: d28103d6788a1b0ee08663a5cc0393c373171860
 workflow-type: tm+mt
 source-wordcount: '1714'
 ht-degree: 0%
