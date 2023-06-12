@@ -2,7 +2,7 @@
 title: Sospendere o attivare un pacchetto
 description: Scopri come mettere in pausa o attivare un pacchetto.
 feature: DSP Packages
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: 81f761e44b6f5a0bef9524468b57d97c021ef2b2
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -36,4 +36,3 @@ Tutti i posizionamenti messi in pausa all’interno di un pacchetto prima di met
 >* [Modificare un pacchetto](package-edit.md)
 >* [Visualizzare il registro delle modifiche di un pacchetto](package-change-log.md)
 >* [Archiviare un pacchetto](package-archive-unarchive.md)
-
