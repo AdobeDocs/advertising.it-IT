@@ -236,7 +236,7 @@ I campi dati nel file di feed possono contenere un massimo di 25 caratteri e pos
 
 **[!UICONTROL Param 3]:** ([!DNL Microsoft® Advertising] solo modelli) Stringa da utilizzare come valore di sostituzione in un annuncio se il titolo, il testo, l’URL di visualizzazione o l’URL finale contiene `{Param3}` stringa di sostituzione dinamica. La lunghezza massima è di 70 caratteri, ma occorre considerare la lunghezza massima dell’elemento dell’annuncio in cui viene utilizzato (ad esempio, un titolo dell’annuncio può includere fino a 25 caratteri).
 
-**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** L’offerta iniziale per ogni parola chiave con il tipo di corrispondenza o di annuncio specificato.
+**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** L’offerta iniziale per ogni parola chiave con il tipo di corrispondenza o di annuncio specificato.
 
 ## [!UICONTROL Ads]
 
