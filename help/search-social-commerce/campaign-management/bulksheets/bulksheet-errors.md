@@ -1,9 +1,9 @@
 ---
 title: Errori di bulksheet
 description: Fai riferimento ai potenziali motivi di ogni errore di bulksheet.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1141'
 ht-degree: 0%
 
 ---
@@ -26,14 +26,14 @@ Errori in [!UICONTROL SE Error] provengono direttamente dalla rete di annunci.
 
 ## [!UICONTROL EF Error] messaggi
 
-I seguenti errori possono essere inclusi nel [!UICONTROL EF Error] colonna nei file EF Errors.
+I seguenti errori possono essere inclusi nel [!UICONTROL EF Error] colonna in [!UICONTROL EF Errors] file.
 
 ### Errori di download/creazione
 
 | Categoria | Messaggio | Descrizione |
 |----|----|----|
 | Generale | [!UICONTROL Internal Error: Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | Operazione non riuscita a causa di un errore non categorizzato o non gestito. Se il problema persiste, contatta il team dell’account Adobe per indagare sulla causa. |
-|  | [!UICONTROL Pre-Sync Failed. Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | Non è stato possibile sincronizzare Ricerca, Social e Commerce con la rete di annunci prima di creare il bulksheet, quindi non è stato creato alcun bulksheet. Se il problema persiste, contatta il team del tuo account Adobe. |
+| | [!UICONTROL Pre-Sync Failed. Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | Non è stato possibile sincronizzare Ricerca, Social e Commerce con la rete di annunci prima di creare il bulksheet, quindi non è stato creato alcun bulksheet. Se il problema persiste, contatta il team del tuo account Adobe. |
 
 ### Errori di caricamento
 
@@ -42,8 +42,8 @@ I seguenti errori possono essere inclusi nel [!UICONTROL EF Error] colonna nei f
 | Generale | [!UICONTROL Internal Error: Please Try Uploading the bulksheet Again. If Problem Persists Contact Customer Care] | Operazione non riuscita. Se il problema persiste, contatta il team del tuo account Adobe. |
 | Tutte le entità | [!UICONTROL Invalid Fields.] \[campi non validi ed errore\] | Dati specificati mancanti o non validi. |
 |  | [!UICONTROL Invalid Reference Given] | L’ID dell’entità sulla rete di annunci o l’ID di un’entità principale (ad esempio l’ID account) non corrisponde a un’entità in Ricerca, Social e Commerce. Ciò può verificarsi quando hai modificato l’ID nel bulksheet. |
-|  | [!UICONTROL &lt;Entity> is deleted or expired] | L’entità è scaduta o è stata eliminata e non è possibile modificarne le proprietà. L’entità può essere eliminata quando qualcuno modifica manualmente lo stato. |
-|  | [!UICONTROL &lt;Entity> status should be Active or Paused] | (Nuove entità) Una nuova entità può essere solo &quot;Attiva&quot; o &quot;In pausa&quot;. |
+|  | [!UICONTROL <Entity> is deleted or expired] | L’entità è scaduta o è stata eliminata e non è possibile modificarne le proprietà. L’entità può essere eliminata quando qualcuno modifica manualmente lo stato. |
+|  | [!UICONTROL <Entity> status should be Active or Paused] | (Nuove entità) Una nuova entità può essere solo &quot;Attiva&quot; o &quot;In pausa&quot;. |
 |  | [!UICONTROL Duplicate Entries are present] | Sono incluse più righe per la stessa entità, con attributi diversi in ogni riga. Consolida le modifiche in una riga. |
 |  | [!UICONTROL Invalid AMO ID given] | L’AMO ID per la riga non esiste. Ciò può verificarsi se hai modificato l’ID nel bulksheet. |
 |  | [!UICONTROL Invalid row given] | La riga non include informazioni sufficienti per determinare il tipo di entità. Modifica la riga per includere tutti i campi obbligatori per il tipo di entità. |
@@ -59,7 +59,7 @@ I seguenti errori possono essere inclusi nel [!UICONTROL EF Error] colonna nei f
 | Tutti i componenti del gruppo di annunci | [!UICONTROL Adgroup creation failed] | Il gruppo di annunci principale non è stato creato, pertanto non è stato possibile creare questa entità. Ciò potrebbe essere dovuto a un errore nei campi del gruppo di annunci o a una campagna principale non riuscita. Assicurarsi che tutte le entità padre contengano tutti i campi obbligatori. |
 |  | [!UICONTROL Adgroup Row Missing] | Il gruppo di annunci principale specificato non esiste, pertanto non è stato possibile creare l’entità. Crea il gruppo di annunci principale in una nuova riga. |
 |  | [!UICONTROL Cannot modify Tracking Template at Keyword / Creative / Site Link level until Account has been migrated to use Upgraded URLs. Please retry after migration] | La &quot;[!UICONTROL Tracking Template]Il campo &quot; è solo per gli account che utilizzano URL finali/avanzati. Rimuovi il valore finché non esegui la migrazione dell’account per utilizzare gli URL finali/avanzati. |
-| Annuncio | [!UICONTROL Cannot modify attributes other than status code and url for &lt;ad type>] | (Tipi di annunci diversi da testo, testo espanso, prodotto, installazione app e ricerca dinamica) Puoi modificare solo lo stato e l’URL per questo tipo di annuncio. |
+| Annuncio | [!UICONTROL Cannot modify attributes other than status code and url for <ad type>] | (Tipi di annunci diversi da testo, testo espanso, prodotto, installazione app e ricerca dinamica) Puoi modificare solo lo stato e l’URL per questo tipo di annuncio. |
 |  | [!UICONTROL The number of creatives under an AdGroup should not exceed 50] | Ogni gruppo di annunci può includere fino a 50 annunci e questo bulksheet ne include più di 50. Riduci il numero di annunci. |
 |  | [!UICONTROL Cannot modify an ad which is either deleted/expired or under an deleted/expired campaign] | L’annuncio si trova in un’entità padre scaduta o eliminata, quindi non puoi modificarlo. |
 | Parola chiave | [!UICONTROL Cannot modify a keyword/website/product which is under deleted Adgroup or Campaign] | La campagna principale o il gruppo di annunci è eliminato o scaduto, quindi non puoi modificare l’entità. |
@@ -76,13 +76,13 @@ I seguenti errori possono essere inclusi nel [!UICONTROL EF Error] colonna nei f
 
 ### Pubblica errori
 
-I seguenti errori si verificano solo nei file EF Errors. La maggior parte degli errori di pubblicazione proviene dalla rete di annunci e sono inclusi in un file SE Errors.
+In si verificano i seguenti errori: [!UICONTROL EF Errors] solo file. La maggior parte degli errori di pubblicazione proviene dalla rete di annunci e sono inclusi in un file SE Errors.
 
 | Categoria | Messaggio | Descrizione |
 |----|----|----|
 | Generale | [!UICONTROL Internal Error: Please Try Posting the bulksheet Again. If Problem Persists Contact Customer Care] | Operazione non riuscita. Se il problema persiste, contatta il team del tuo account Adobe. |
 | Tutte le entità | [!UICONTROL Entity] è pubblicato su ad network | L’entità è stata pubblicata sulla rete di annunci, ma non è stata sincronizzata in Ricerca, Social e Commerce allo stesso tempo, pertanto i dati dell’entità non sono immediatamente disponibili in Ricerca, Social e Commerce. Il processo di sincronizzazione viene ora attivato automaticamente.<br><br>Quando vengono sincronizzate grandi quantità di dati, i dati potrebbero non essere disponibili in Search, Social e Commerce per diverse ore o più. |
-|  | [!UICONTROL Skipping &lt;ENTITY> creation since &lt;PARENT ENTITY> creation failed.] | Non è stato possibile creare l&#39;entità padre, quindi questa entità figlio non è stata creata. |
+| | [!UICONTROL Skipping <ENTITY> creation since <PARENT ENTITY> creation failed.] | Non è stato possibile creare l&#39;entità padre, quindi questa entità figlio non è stata creata. |
 
 >[!MORELIKETHIS]
 >
@@ -91,4 +91,3 @@ I seguenti errori si verificano solo nei file EF Errors. La maggior parte degli 
 >* [Convalidare le pagine di destinazione in file bulksheet](bulksheet-validate-landing-pages.md)
 >* [Carica un file di bulksheet o un file di errore corretto](bulksheet-upload.md)
 >* [Pubblica i bulksheet o i file di errore corretti](bulksheet-post.md)
-

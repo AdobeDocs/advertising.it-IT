@@ -1,9 +1,9 @@
 ---
 title: "Aggiorna il codice di tracciamento s\_kwcid per un [!DNL Google Ads] account"
 description: Scopri come passare al codice di tracciamento s\_kwcid più recente per un [!DNL Google Ads] account.
-source-git-commit: a9e23de134274d8f5004a908853c4132300b84e8
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -48,8 +48,8 @@ Tutte le nuove [!DNL Google Ads] gli account utilizzano automaticamente il nuovo
 
 1. Dopo aver iniziato la migrazione, aggiorna le impostazioni del suffisso della pagina di destinazione (denominato &quot;suffisso URL finale&quot; in alcune reti pubblicitarie), secondo necessità:
 
-   * Quando la funzione &quot;Caricamento automatico&quot; è abilitata nelle impostazioni di tracciamento, Search, Social &amp; Commerce aggiorna automaticamente il codice di tracciamento nel Suffisso pagina di destinazione per questo account e le relative campagne. Non devi fare niente.
-   * Se la funzione di &quot;Caricamento automatico&quot; non è abilitata e non utilizzi l’s-kwcid lato server, devi aggiornare manualmente il parametro s\_kwcid nelle impostazioni Suffisso pagina di destinazione. Puoi modificare manualmente i suffissi a livello di account e campagna nelle impostazioni account e campagna o caricando le modifiche in un bulksheet. Per configurare un suffisso a livello di gruppo di annunci o inferiore, utilizza [!DNL Google Ads] editor.
+   * Quando [!UICONTROL Auto Upload]La funzione &quot; è abilitata nelle impostazioni di tracciamento, Search, Social &amp; Commerce aggiorna automaticamente il codice di tracciamento nel Suffisso della pagina di destinazione per questo account e le relative campagne. Non devi fare niente.
+   * Quando [!UICONTROL Auto Upload]La funzione &quot; non è abilitata e non utilizzi l’s-kwcid lato server, quindi devi aggiornare manualmente il parametro s\_kwcid nelle impostazioni Suffisso pagina di destinazione. Puoi modificare manualmente i suffissi a livello di account e campagna nelle impostazioni account e campagna o caricando le modifiche in un bulksheet. Per configurare un suffisso a livello di gruppo di annunci o inferiore, utilizza [!DNL Google Ads] editor.
    * Se includi s\_kwcid nell’impostazione URL di base per qualsiasi componente della campagna, spostalo nell’impostazione Suffisso pagina di destinazione pertinente.
 
 1. (Consigliato) Verifica i dati per questo account in Analytics prima di eseguire la migrazione di altri account.

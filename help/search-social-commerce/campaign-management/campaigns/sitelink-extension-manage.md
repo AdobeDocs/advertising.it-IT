@@ -1,9 +1,9 @@
 ---
 title: Gestire i sitelink condivisi
 description: Scopri come creare e gestire le estensioni di sitelink condivise.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -92,12 +92,11 @@ Dopo aver salvato il record, l’URL di base include tutti i parametri di aggiun
 >* ([!DNL Google Ads]) Ogni sitelink in una campagna o in un gruppo di annunci deve avere una pagina di destinazione univoca e il contenuto di ogni pagina di destinazione sitelink deve avere circa l&#39;80% di contenuto univoco. Ad esempio, non puoi avere sitelink con collegamenti a più ancoraggi all&#39;interno della stessa pagina.
 >* ([!DNL Google Ads]) Evita l&#39;uso di macro, che non vengono sostituite dai clic provenienti da origini che abilitano il tracciamento parallelo. Se l’inserzionista deve utilizzare delle macro, il Team dell’account Adobe deve collaborare con l’Assistenza clienti o con il team di implementazione per aggiungerle.
 
-
 **[!UICONTROL Tracking Template]:** (Facoltativo) Il modello di tracciamento o l’URL di tracciamento, che specifica tutti i reindirizzamenti e i parametri di tracciamento dei domini di destinazione e incorpora anche l’URL finale/della pagina di destinazione in un parametro. Esempio: `{lpurl}?source={network}&id=5` o `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` per includere un reindirizzamento.
 
-* Ad Adobe, il tracciamento della conversione di Advertising, che viene applicato quando le impostazioni della campagna includono &quot;EF Redirect&quot; e &quot;Auto Upload,&quot; Search, Social e Commerce aggiunge automaticamente un prefisso al proprio codice di tracciamento dei clic quando si salva il record.
+* Ad Adobe, il tracciamento della conversione di Advertising, applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;Caricamento automatico&quot;, Ricerca, Social e Commerce inseriscono automaticamente un prefisso nel codice di tracciamento dei clic quando si salva il record.
 
-* Per i parametri supportati per incorporare l’URL finale, consulta la sezione ([!DNL Microsoft Advertising] solo ) [[!DNL Microsoft Advertising] documentazione](https://help.ads.microsoft.com/#apex/3/en/56799) o ([!DNL Google Ads] solo ) i parametri &quot;Tracking template only&quot; nella sezione su &quot;Available ValueTrack Parameters&quot; in [[!DNL Google Ads] documentazione](https://support.google.com/google-ads/answer/6305348).
+* Per i parametri supportati per incorporare l’URL finale, consulta la sezione ([!DNL Microsoft Advertising] solo ) [[!DNL Microsoft Advertising] documentazione](https://help.ads.microsoft.com/#apex/3/en/56799) o ([!DNL Google Ads] solo) i parametri &quot;Solo modello di tracciamento&quot; nella sezione su &quot;Disponibile [!DNL ValueTrack] Parameters&quot; nella sezione [[!DNL Google Ads] documentazione](https://support.google.com/google-ads/answer/6305348).
 
 * Facoltativamente, puoi includere i parametri URL ed eventuali parametri personalizzati definiti per la campagna, separati da e commerciali (&amp;), ad esempio `{lpurl}?matchtype={matchtype}&device={device}`.
 
@@ -111,9 +110,7 @@ Dopo aver salvato il record, l’URL di base include tutti i parametri di aggiun
 >* ([!DNL Microsoft Advertising]) Puoi aggiornare i modelli di tracciamento a qualsiasi livello senza inviare nuovamente gli annunci per l’approvazione.
 >* Per [!DNL Google Ads], evita di utilizzare macro che non vengono sostituite dai clic provenienti da origini che abilitano il tracciamento parallelo. Se l’inserzionista deve utilizzare delle macro, l’Account Team Adobe deve collaborare con l’Assistenza clienti o con il team di implementazione per aggiungerle.
 
-
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulle estensioni sitelink](sitelink-extension-about.md)
 >* [Associa collegamenti a siti condivisi ad account, campagne e gruppi di annunci](sitelink-extension-associate.md)
-

@@ -1,9 +1,9 @@
 ---
 title: Gestire gli account di rete degli annunci
 description: Scopri come impostare e gestire i dettagli di un account di rete di annunci.
-source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '2080'
+source-wordcount: '2079'
 ht-degree: 0%
 
 ---
@@ -184,7 +184,7 @@ Gli account che utilizzano il tracciamento dei clic di Adobe Advertising devono 
 
 * Per incorporare l’URL finale:
 
-   * ([!DNL Google Ads] e [!DNL Microsoft Advertising] solo ) Per un elenco di parametri che indicano gli URL finali nei modelli di tracciamento, vedi ([!DNL Microsoft Advertising] solo ) [[!DNL Microsoft Advertising] documentazione](https://help.ads.microsoft.com/#apex/3/en/56799) o ([!DNL Google Ads] solo ) i parametri &quot;Tracking template only&quot; nella sezione su &quot;Available ValueTrack Parameters&quot; in [[!DNL Google Ads] documentazione](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] e [!DNL Microsoft Advertising] solo ) Per un elenco di parametri che indicano gli URL finali nei modelli di tracciamento, vedi ([!DNL Microsoft Advertising] solo ) [[!DNL Microsoft Advertising] documentazione](https://help.ads.microsoft.com/#apex/3/en/56799) o ([!DNL Google Ads] solo) i parametri &quot;Solo modello di tracciamento&quot; nella sezione su &quot;Disponibile [!DNL ValueTrack] Parameters&quot; nella sezione [[!DNL Google Ads] documentazione](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] solo) Usa il parametro `!{lpurl}` per indicare l’URL della pagina di destinazione.
 

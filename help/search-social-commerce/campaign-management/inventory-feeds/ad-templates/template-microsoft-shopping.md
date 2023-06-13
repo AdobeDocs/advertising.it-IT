@@ -1,9 +1,9 @@
 ---
 title: "[!DNL Microsoft® Ads] impostazioni dei modelli di annunci commerciali per i feed inventario"
 description: Fai riferimento alle impostazioni per [!DNL Microsoft® Ads] modelli di annunci commerciali per i feed di inventario.
-source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -147,7 +147,7 @@ Per reindirizzamenti e tracciamento di terze parti, inserisci un valore.
 
 {{$include /help/_includes/inventory-feed-template-row-level-value.md}}
 
-**[!UICONTROL Tracking Template]:** (Unità senza gruppi di prodotti secondari; facoltativo) Il modello di tracciamento per il gruppo di prodotti, che specifica tutti i reindirizzamenti del dominio di destinazione e i parametri di tracciamento e incorpora l’URL finale in un parametro ValueTrack. Questo modello sostituisce i modelli di livello superiore.
+**[!UICONTROL Tracking Template]:** (Unità senza gruppi di prodotti secondari; facoltativo) Il modello di tracciamento per il gruppo di prodotti, che specifica tutti i reindirizzamenti del dominio di destinazione e i parametri di tracciamento e incorpora l’URL finale in un [!DNL ValueTrack] parametro. Questo modello sostituisce i modelli di livello superiore.
 
 Ad Adobe, non è necessario immettere un valore nel tracciamento delle conversioni di Advertising. Il valore a livello di campagna è sufficiente.
 
