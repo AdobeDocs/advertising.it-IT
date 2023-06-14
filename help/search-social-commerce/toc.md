@@ -4,18 +4,18 @@ cloud: Experience Cloud
 solution: Advertising
 product: advertising cloud
 archetype: end-user
-user-guide-title: Guida a Advertising Search, Social e Commerce
+user-guide-title: Guida di Advertising Search, Social e Commerce
 user-guide-description: Questa guida descrive le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire e tenere traccia delle campagne di ricerca, social e e commerce e generare report su di esse.
-breadcrumb-title: Guida a Advertising Search, Social e Commerce
+breadcrumb-title: Guida di Advertising Search, Social e Commerce
 index: true
 source-git-commit: d28103d6788a1b0ee08663a5cc0393c373171860
 workflow-type: tm+mt
 source-wordcount: '1714'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Guida a Advertising Search, Social e Commerce {#search-social-commerce}
+# Guida di Advertising Search, Social e Commerce {#search-social-commerce}
 
 <!-- When we use UICONTROL and DNL tags in a title here, make sure they're within the entry but don't cover the entire link text or else the link won't work (i.e., you can't use [[!UICONTROL Model Accuracy Report]](whatever.md)-->
 
