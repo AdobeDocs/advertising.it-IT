@@ -1,9 +1,10 @@
 ---
 title: Dati utilizzati per i rapporti
 description: Scopri i diversi tipi di dati disponibili nelle visualizzazioni dati e nei rapporti personalizzati.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 3e1f2967-5034-46bc-8473-63cffeeeecba
+source-git-commit: 3aad445fc1a5a0e2210209f181b9756047f44999
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 Search, Social e Commerce include un set completo di rapporti sulle prestazioni basati sui dati di clic e conversione. Puoi visualizzare i dati delle prestazioni di base per i vari componenti di un portfolio o di un account annuncio dal [!UICONTROL Portfolios] e [!UICONTROL Campaigns] nonché generando diversi rapporti di base e avanzati.
 
-Gli inserzionisti che utilizzano il servizio di conversion tracking di Adobe Advertising possono inoltre identificare il numero di clic per una posizione geografica o un nome di dominio di un sito web di riferimento, il modo in cui gli annunci in ciascun canale e i vari eventi che portano a una conversione contribuiscono al tasso di conversione complessivo e la distribuzione delle conversioni per un singolo [proprietà transazione](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md) per canale di marketing. I rapporti disponibili variano in base al tipo di account utente. Il team dell’account Adobe ha accesso a tutti i rapporti.
+Gli inserzionisti che utilizzano il servizio di tracciamento delle conversioni di Adobe Advertising possono inoltre identificare il numero di clic per una posizione geografica o un nome di dominio di un sito web di riferimento, il modo in cui gli annunci in ciascun canale e i vari eventi che portano a una conversione contribuiscono al tasso di conversione complessivo e alla distribuzione delle conversioni per un singolo [proprietà transazione](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md) per canale di marketing. I rapporti disponibili variano in base al tipo di account utente. Il team dell’account Adobe ha accesso a tutti i rapporti.
 
 La maggior parte dei rapporti può essere personalizzata in modo da visualizzare solo le informazioni desiderate. Le metriche standard seguenti sono disponibili nella maggior parte dei rapporti e vengono calcolate a livello di annuncio:
 
@@ -28,11 +29,11 @@ La maggior parte dei rapporti può essere personalizzata in modo da visualizzare
 
    * **[!UICONTROL Average Position]:** (Se applicabile) La posizione media di un annuncio che è stato inserito, ponderata dal numero di impression.
 
-   * **[!UICONTROL Estimated Clicks]:** (Incluso nei rapporti avanzati per gli inserzionisti con il solo servizio di tracciamento delle conversioni di Adobe Advertising) Il numero totale di clic stimati per una città o un nome di dominio di un sito web di provenienza. Ciò può includere dati per reti pubblicitarie per le quali un inserzionista non ha un account pubblicitario.
+   * **[!UICONTROL Estimated Clicks]:** (Incluso nei report avanzati per gli inserzionisti solo con il servizio di tracciamento delle conversioni di Adobi Advertising) Il numero totale di clic stimati per una città o un nome di dominio di un sito web di provenienza. Ciò può includere dati per reti pubblicitarie per le quali un inserzionista non ha un account pubblicitario.
 
 * **Metriche di conversione:** Il numero totale di conversioni per ciascun inserzionista [proprietà transazione](/help/search-social-commerce/glossary.md#s-t)o dati di transazione tracciati verso un tipo di conversione. Possono essere incluse le metriche di conversione e di coinvolgimento del sito, ma non le metriche calcolate e le metriche calcolate avanzate, che sono sincronizzate da Adobe Analytics.
 
-   Ciò può anche includere [[!DNL Google Ads]-conversioni tracciate](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) e [[!DNL Google Analytics]-conversioni tracciate](/help/search-social-commerce/admin/data-sources/data-source-about.md) sincronizzati per l&#39;account dell&#39;inserzionista.
+  Ciò può anche includere [[!DNL Google Ads]-conversioni tracciate](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) e [[!DNL Google Analytics]-conversioni tracciate](/help/search-social-commerce/admin/data-sources/data-source-about.md) sincronizzati per l&#39;account dell&#39;inserzionista.
 
 * **Metriche personalizzate:** Le metriche personalizzate, che si ottengono creando formule basate su metriche esistenti (come il costo per ordine).
 
@@ -45,13 +46,14 @@ A seconda della regola di attribuzione specificata per il rapporto, i dati per c
 | Gruppo di rapporti | Report | Date per le quali sono disponibili i dati |
 |---|---|---|
 | [!UICONTROL Basic Reports] | [!UICONTROL Campaign Hourly Report] | A decorrere dal 15 maggio 2021.<br><br><b>Eccezione:</b> I dati sulle metriche di prominenza sono disponibili a partire dall’8 settembre 2022. |
-|  | Tutti gli altri [!UICONTROL Basic Reports] | 36 mesi precedenti.<br><br><b>Eccezione:</b> I dati sulle metriche di prominenza sono disponibili a partire dall’8 settembre 2022. |
+| | Tutti gli altri [!UICONTROL Basic Reports] | 36 mesi precedenti.<br><br><b>Eccezione:</b> I dati sulle metriche di prominenza sono disponibili a partire dall’8 settembre 2022. |
 | [!UICONTROL Advanced Reports] | [!UICONTROL Transaction Report] | I 45 giorni precedenti. |
-|  | [!UICONTROL Domain Referral Report], [!UICONTROL Geo Distribution Report] | I due (2) mesi precedenti più il mese corrente. |
+| | [!UICONTROL Domain Referral Report], [!UICONTROL Geo Distribution Report] | I due (2) mesi precedenti più il mese corrente. |
 | [!UICONTROL Assist Reports] | Tutti | I 18 mesi precedenti. |
 | [!UICONTROL Specialty Reports] | [!UICONTROL AdWords Audience Target Report] | L&#39;anno precedente. |
-|  | [!UICONTROL RSA Assets Report] | A decorrere dal 10 agosto 2022. |
-|  | Tutti gli altri [!UICONTROL Specialty Reports] | I due (2) mesi precedenti. |
+| | [!UICONTROL RSA Assets Report] | A decorrere dal 10 agosto 2022. |
+| | [!UICONTROL MSA Ad Extension by Ad Report], [!UICONTROL MSA Ad Extension by Keyword Report], [!UICONTROL MSA Ad Extension Detail Report] | Ultimi 180 giorni. |
+| | Tutti gli altri [!UICONTROL Specialty Reports] | I due (2) mesi precedenti. |
 | [!UICONTROL Model Accuracy Reports] | [!UICONTROL Forecast Accuracy Report] | I 18 mesi precedenti. |
 | [!UICONTROL Change History Report] | — | I 31 giorni precedenti. |
 
@@ -59,4 +61,3 @@ A seconda della regola di attribuzione specificata per il rapporto, i dati per c
 >
 >* [Informazioni sui report](report-about.md)
 >* [Attività di configurazione iniziali per i rapporti](initial-setup.md)
-
