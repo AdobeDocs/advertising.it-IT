@@ -1,9 +1,10 @@
 ---
 title: Applicare o ignorare un [!DNL Google Ads] consiglio
 description: Scopri come visualizzare una [!DNL Google Ads] consigli e come applicarlo o ignorarlo.
-source-git-commit: 7bb2e247c0d6436c369474dacba323a085dd2ebb
+exl-id: 7aab10bf-d5fc-4eb7-b1bb-9e61ba354a29
+source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -30,13 +31,13 @@ Visualizzare le azioni consigliate e la spiegazione del motivo per cui le azioni
 
    * Per applicare un consiglio, fai clic su **[!UICONTROL Apply]**.
 
-      L’applicazione di un consiglio può richiedere da millisecondi a pochi secondi, a seconda delle dimensioni del consiglio.
+     L’applicazione di un consiglio può richiedere da millisecondi a pochi secondi, a seconda delle dimensioni del consiglio.
 
    * Per ignorare un consiglio, fai clic su **[!UICONTROL Dismiss]**.
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni sul supporto di consigli e approfondimenti per gli editori](recommendation-support.md)
+>* [Visualizza i consigli dell’editore e informazioni sulle prestazioni](recommendation-view.md)
 >* [Visualizza il registro di consigli per un [!DNL Google Ads] account](google-recommendation-view-log.md)
 >* [Best practice per l’utilizzo di consigli e informazioni approfondite sugli editori con i portfolio](recommendation-best-practices.md)
-

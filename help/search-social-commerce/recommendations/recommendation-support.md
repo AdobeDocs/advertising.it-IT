@@ -1,32 +1,47 @@
 ---
 title: Informazioni sul supporto di consigli e approfondimenti per gli editori
 description: Scopri come visualizzare e gestire i consigli e le informazioni dell’editore.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 166c429a-043a-4e74-b1ee-5359cd483de5
+source-git-commit: de1b0b3ffbb8cbc3113e4e707b8ee2d647f60ca3
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
 
 # Informazioni sul supporto di consigli e approfondimenti per gli editori
 
-[!DNL Google Ads] i consigli sono suggerimenti di [!DNL Google Ads] per migliorare le prestazioni e l’efficienza delle campagne. Ogni consiglio fornisce suggerimenti personalizzati sui diversi aspetti delle prestazioni di una campagna, dall&#39;aggiunta di una risorsa all&#39;aumento del budget, in base alla cronologia delle prestazioni del tuo account, alle impostazioni della campagna e alle tendenze per [!DNL Google Ads].
+*[!DNL Google Ads]e [!DNL Microsoft® Advertising] account*
+
+*Funzione beta per [!DNL Microsoft® Advertising] account*
+
+[!DNL Google Ads] raccomandazioni e [!DNL Microsoft® Advertising] gli insight sulle prestazioni sono suggerimenti provenienti dalla rete di annunci per migliorare le prestazioni e l’efficienza delle campagne:
+
+* Ogni [!DNL Google Ads] Recommendations fornisce suggerimenti personalizzati sui diversi aspetti delle prestazioni di una campagna, dall’aggiunta di una risorsa all’aumento del budget, in base alla cronologia delle prestazioni del tuo account, alle impostazioni della campagna e alle tendenze per [!DNL Google Ads].
+
+* Ogni [!DNL Microsoft® Advertising] performance insight segnala una fluttuazione significativa in un account manager, un account inserzionista o una campagna; identifica le possibili cause e suggerisce azioni per ottimizzare le prestazioni.
+
+## Il [!UICONTROL Recommendations & Publisher Insights] visualizza
 
 Entro [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights], è possibile:
 
-* Visualizza subito tutti i consigli supportati sui quali non è stata eseguita alcuna azione [!DNL Google Ads]<!-- or [Microsoft Advertising]--> account. Le informazioni per ogni consiglio includono i dettagli, il tipo e la categoria, le metriche effettive e le metriche che [!DNL Google Ads] prevede se il consiglio viene applicato e le entità interessate se il consiglio viene applicato. Gli aumenti previsti delle metriche sono evidenziati in verde. Puoi visualizzare le azioni consigliate per qualsiasi consiglio. Facoltativamente, puoi anche filtrare l’elenco in base alla categoria e al tipo di consigli.
+* Visualizza subito tutti i consigli supportati sui quali non è stata eseguita alcuna azione [!DNL Google Ads] account o tutti gli approfondimenti sulle prestazioni generati negli ultimi 30 giorni per un [Microsoft® Advertising] account. Le informazioni per ogni voce includono i dettagli di consigli/approfondimenti e le entità interessate. Per [!DNL Google Ads] account, gli aumenti previsti delle metriche sono evidenziati in verde.
 
   ![Interfaccia utente Recommendations](/help/search-social-commerce/assets/recommendations-ui.png "Interfaccia utente Recommendations")
 
   I dati sono disponibili in tempo reale all’apertura della visualizzazione. Per aggiornare i dati, fai clic su ![Aggiorna](/help/search-social-commerce/assets/refresh.png "Aggiorna") in basso a sinistra.
 
-* Applica e ignora i consigli per un account.
+* Per [!DNL Google Ads] account:
 
-* Visualizza i registri di ogni consiglio applicato a un account, incluse le entità interessate, che hanno applicato il consiglio e la marca temporale.
+   * Visualizza i dettagli di un consiglio e applicalo direttamente o annullarlo.
+
+   * Visualizza un registro di ogni consiglio applicato all’account, incluse le entità interessate, che lo hanno applicato e la marca temporale.
+
+* Per [Microsoft® Advertising] account, apri [!DNL Microsoft® Advertising] editor, da cui puoi agire in base a informazioni specifiche.
 
 >[!NOTE]
 >
->Anche se i consigli ti aiutano a migliorare le prestazioni della campagna, alcuni potrebbero non allinearsi agli obiettivi più ampi. Di conseguenza, è meglio consultare il team del tuo account Adobe prima di implementare qualsiasi consiglio.
+>Mentre i consigli sulla rete di annunci e gli approfondimenti sulle prestazioni consentono di migliorare le prestazioni della campagna, alcuni potrebbero non allinearsi agli obiettivi più ampi. Di conseguenza, è meglio consultare il team dell’account Adobe prima di implementare qualsiasi consiglio o informazione.
 
 ## Tipi di consigli supportati per [!DNL Google Ads]
 
@@ -60,6 +75,7 @@ Entro [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher 
 
 >[!MORELIKETHIS]
 >
->* [Visualizza il registro di consigli per un [!DNL Google Ads] account](google-recommendation-view-log.md)
+>* [Visualizza i consigli dell’editore e informazioni sulle prestazioni](recommendation-view.md)
 >* [Applicare o ignorare un [!DNL Google Ads] consiglio](google-recommendation-apply-dismiss.md)
+>* [Visualizza il registro di consigli per un [!DNL Google Ads] account](google-recommendation-view-log.md)
 >* [Best practice per l’utilizzo di consigli e informazioni approfondite sugli editori con i portfolio](recommendation-best-practices.md)

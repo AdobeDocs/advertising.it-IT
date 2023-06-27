@@ -1,14 +1,17 @@
 ---
 title: Best practice per l’utilizzo di consigli e informazioni approfondite sugli editori con i portfolio
 description: Scopri le best practice per l’utilizzo [!DNL Google Ads] consigli con i portfolio di ricerca, social e commerce.
-source-git-commit: 0c2b4648b3f0d6d7e4ed60f03a3a9bce56e9cdd7
+exl-id: 8362a0e1-9a0d-4287-a1dd-b7ec77985744
+source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
 # Best practice per l’utilizzo di consigli e informazioni approfondite sugli editori con i portfolio
+
+<!-- If we don't come up with similar ones for MS, then rename this file "... Google Ads ..." -->
 
 ## [!DNL Google Ads] consigli
 
@@ -25,6 +28,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Informazioni sul supporto di consigli e approfondimenti per gli editori](recommendation-support.md)
->* [Visualizza il registro di consigli per un [!DNL Google Ads] account](google-recommendation-view-log.md)
+>* [Visualizza i consigli dell’editore e informazioni sulle prestazioni](recommendation-view.md)
 >* [Applicare o ignorare un [!DNL Google Ads] consiglio](google-recommendation-apply-dismiss.md)
-
+>* [Visualizza il registro di consigli per un [!DNL Google Ads] account](google-recommendation-view-log.md)

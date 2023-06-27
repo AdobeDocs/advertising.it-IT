@@ -1,9 +1,10 @@
 ---
 title: Visualizza il registro di consigli per un [!DNL Google Ads] account
 description: Scopri come visualizzare un registro di ogni consiglio applicato per un [!DNL Google Ads] account.
-source-git-commit: 7bb2e247c0d6436c369474dacba323a085dd2ebb
+exl-id: 97db1e9e-6cd8-406f-8fd5-fbb85315fdf6
+source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
@@ -23,6 +24,6 @@ I consigli ignorati non sono disponibili dalla rete di annunci.
 >[!MORELIKETHIS]
 >
 >* [Informazioni sul supporto di consigli e approfondimenti per gli editori](recommendation-support.md)
+>* [Visualizza i consigli dell’editore e informazioni sulle prestazioni](recommendation-view.md)
 >* [Applicare o ignorare un [!DNL Google Ads] consiglio](google-recommendation-apply-dismiss.md)
 >* [Best practice per l’utilizzo di consigli e informazioni approfondite sugli editori con i portfolio](recommendation-best-practices.md)
-
