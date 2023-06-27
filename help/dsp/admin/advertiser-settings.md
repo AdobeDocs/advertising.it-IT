@@ -1,7 +1,8 @@
 ---
 title: Impostazioni account inserzionista
 description: Consulta le descrizioni delle impostazioni pubblicitarie disponibili.
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+role: User, Admin
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -38,9 +39,9 @@ Gli inserzionisti che utilizzano altri prodotti Adobe Experience Cloud possono c
 
 (Facoltativo) Prodotti di Experience Cloud aggiuntivi collegati al conto DSP. I prodotti devono essere associati allo stesso ID organizzazione Experience Cloud fornito in [!UICONTROL Adobe IMS IDs] sezione.
 
-**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Per gli inserzionisti che [!DNL Advertising Search, Social, & Commerce] o che utilizzano pixel di conversione Adobe Advertising) A [!DNL Search, Social, & Commerce] account con cui l’DSP scambierà i dati di attribuzione.
+**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Per gli inserzionisti che [!DNL Advertising Search, Social, & Commerce] o che utilizzano pixel di conversione Adobi Advertising) A [!DNL Search, Social, & Commerce] account con cui l’DSP scambierà i dati di attribuzione.
 
-**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Per gli inserzionisti che fanno uso di Adobe Analytics; facoltativo; applicabile solo ai dati raccolti utilizzando i tag di tracciamento della conversione di Adobe Advertising che includono un [!DNL EF Redirect] e solo token) Uno o più [!DNL Analytics] suite di rapporti a cui l’DSP invierà i dati che raccoglie dagli editori e dai partner sul lato dell’offerta. Analytics invierà all’DSP anche i dati che raccoglie dal sito del cliente.
+**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Per gli inserzionisti che fanno uso di Adobe Analytics; facoltativo; applicabile solo ai dati raccolti utilizzando i tag di tracciamento delle conversioni di Adobe Advertising che includono un [!DNL EF Redirect] e solo token) Uno o più [!DNL Analytics] suite di rapporti a cui l’DSP invierà i dati che raccoglie dagli editori e dai partner sul lato dell’offerta. Analytics invierà all’DSP anche i dati che raccoglie dal sito del cliente.
 
 Affinché i dati vengano visualizzati nelle suite di rapporti, [!DNL Search, Social, & Commerce] impostazione a livello di inserzionista su &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; deve essere abilitato. Inoltre, l&#39; [!DNL Analytics] l’account deve essere configurato per ricevere i dati da Adobe Advertising.
 
@@ -144,6 +145,5 @@ Puoi ignorare l’impostazione a livello di inserzionista a livello di posiziona
 >[!MORELIKETHIS]
 >
 >* [Creare un account inserzionista](/help/dsp/admin/advertiser-create.md)
-
 
 <!-- >* [View the Advertiser List for the Account](/help/dsp/admin/advertiser-view.md) -->

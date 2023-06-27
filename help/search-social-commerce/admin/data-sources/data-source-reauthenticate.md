@@ -1,7 +1,9 @@
 ---
 title: Autentica di nuovo un [!DNL Google Analytics] origine dati
 description: Scopri come autenticare nuovamente un [!DNL Google Analytics] origine dati se si modifica la password associata o se il certificato scade.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: 9233e004-8607-444a-ba99-f63cb83a8b7a
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%
@@ -29,10 +31,10 @@ Se si modifica la password per l&#39;account di posta elettronica utilizzato per
          >[!TIP]
          >
          >Per assicurarsi che solo specifici [!DNL Google Analytics] Le proprietà e le visualizzazioni sono disponibili in Search, Social e Commerce; effettua l’accesso utilizzando un indirizzo e-mail che abbia accesso solo a tali proprietà e visualizzazioni.
+
    1. Seleziona la casella di controllo per autorizzare Search, Social e Commerce ad accedere alle metriche per l’account.
 
    1. Clic **[!UICONTROL Re-Authenticate]**.
-
 
 1. Clic **[!UICONTROL Post]**.
 
@@ -45,4 +47,3 @@ Se si modifica la password per l&#39;account di posta elettronica utilizzato per
 >* [Sospendere la sincronizzazione di un&#39;origine dati](data-source-pause.md)
 >* [[!DNL Google Analytics] impostazioni origine dati](data-source-settings.md)
 >* [Appendice - Disponibile [!DNL Google Analytics] metriche](data-source-ga-metrics.md)
-

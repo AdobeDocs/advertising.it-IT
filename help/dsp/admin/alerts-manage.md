@@ -1,8 +1,9 @@
 ---
 title: Gestire le sottoscrizioni agli avvisi
 description: Scopri come gestire gli avvisi e-mail automatici.
+role: User, Admin
 exl-id: 9f47aa2a-54c4-4fdc-b289-6c3586cc18e6
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
@@ -67,7 +68,7 @@ ht-degree: 0%
 
 * Per aggiungere un abbonato a un abbonamento, immetti gli indirizzi e-mail nel campo di input in **[!UICONTROL Subscribers]**.
 
-   Separa più indirizzi con spazi.
+  Separa più indirizzi con spazi.
 
 * Per rimuovere un abbonato, fare clic su **[!UICONTROL X]** accanto all’indirizzo e-mail in **[!UICONTROL Subscribers]**.
 

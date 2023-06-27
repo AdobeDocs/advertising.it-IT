@@ -1,14 +1,10 @@
 ---
-type: Documentation
 role: User, Admin
-cloud: Experience Cloud
-solution: Advertising
-product: advertising cloud
 user-guide-title: Supporto di Adobe Advertising per la privacy del consumatore
 user-guide-description: Scopri i controlli di sicurezza e di privacy forniti da Adobe Advertising per aiutare i clienti inserzionisti a rispettare le normative sulla privacy dei consumatori.
 breadcrumb-title: Supporto per la privacy del consumatore
 index: true
-source-git-commit: b90c8d391bfd90a844e4c6bad37da193fa226397
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 56%

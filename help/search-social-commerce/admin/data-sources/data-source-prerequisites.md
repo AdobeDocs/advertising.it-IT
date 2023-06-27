@@ -1,7 +1,9 @@
 ---
 title: Prerequisiti per la configurazione di un [!DNL Google Analytics] origine dati
 description: Scopri i passaggi da completare prima di configurare una [!DNL Google Analytics] origine dati.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: cbb2ad6d-8494-4fa4-928c-238b25bda3a6
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
@@ -55,4 +57,3 @@ Ripeti le seguenti attività per ogni [!DNL Google Analytics] combinazione di ac
 >* [Autentica di nuovo un [!DNL Google Analytics] origine dati](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] impostazioni origine dati](data-source-settings.md)
 >* [Appendice - Disponibile [!DNL Google Analytics] metriche](data-source-ga-metrics.md)
-

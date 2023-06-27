@@ -1,7 +1,9 @@
 ---
 title: Informazioni sulla sincronizzazione [!DNL Google Analytics] metriche di conversione
 description: Informazioni sulla sincronizzazione [!DNL Google Analytics] metriche di conversione per ottimizzazione e reporting.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: 0c263ced-3774-4d4b-9d61-65289cd74027
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -22,9 +24,9 @@ I passaggi seguenti descrivono il processo di sincronizzazione dei dati di conve
 
 1. [Eseguire le attività preliminari](data-source-prerequisites.md)
 
-   * Implementare un token pubblicitario Adobe (`ef_id` query string parameter) negli URL della pagina di destinazione per tutti gli account pubblicitari applicabili.
+   * Implementare un token di Adobe Advertising (`ef_id` query string parameter) negli URL della pagina di destinazione per tutti gli account pubblicitari applicabili.
 
-   * Acquisisci il token pubblicitario dell’Adobe (`ef_id` query string parameter) in una [!DNL Custom Dimension] in [!DNL Google Analytics].
+   * Acquisire il token di Adobe Advertising (`ef_id` query string parameter) in una [!DNL Custom Dimension] in [!DNL Google Analytics].
 
 1. (Amministratore del conto di agenzia, responsabile del conto di agenzia, [!DNL Adobe] account manager e amministratori (solo utenti) [Creare un’origine dati per [!DNL Google Analytics] combinazione di account, proprietà e visualizzazione](data-source-configure.md).
 
@@ -41,4 +43,3 @@ I passaggi seguenti descrivono il processo di sincronizzazione dei dati di conve
 >* [Autentica di nuovo un [!DNL Google Analytics] origine dati](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] impostazioni origine dati](data-source-settings.md)
 >* [Appendice - Disponibile [!DNL Google Analytics] metriche](data-source-ga-metrics.md)
-

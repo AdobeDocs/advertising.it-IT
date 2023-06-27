@@ -1,7 +1,9 @@
 ---
 title: Configurare un [!DNL Google Analytics] visualizzare come origine dati
 description: Scopri come configurare un’origine dati da un [!DNL Google Analytics] visualizzazione.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: 583cf9aa-861c-4faf-a707-1def4e983b93
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -45,6 +47,7 @@ Per integrare le metriche per più proprietà o per più viste per una singola p
       1. Seleziona la casella di controllo per autorizzare Adobe Advertising ad accedere alle metriche per l’account.
 
       1. Clic **[!UICONTROL Authenticate]**.
+
    1. In [!UICONTROL Account Details] , specificare la proprietà e la visualizzazione per le metriche da importare. Inoltre, specifica la dimensione personalizzata compilata con il valore del parametro della stringa di query &quot;ef_id&quot;.
 
    1. In [!UICONTROL Import Metrics] , specifica le metriche da includere nei feed.
@@ -56,7 +59,6 @@ Per integrare le metriche per più proprietà o per più viste per una singola p
       >[!DNL Google Analytics] consente fino a 10 metriche in un singolo feed di dati. Search, Social e Commerce possono supportare fino a due feed con un totale di 20 metriche, ma l’utilizzo di un secondo feed raddoppia le chiamate API a [!DNL Google Analytics]. Se disponi di molte metriche, seleziona solo quelle che desideri utilizzare negli obiettivi per l’ottimizzazione. Ulteriori informazioni su [quote e limiti di chiamata per le richieste API a [!DNL Google Analytics]](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas).
 
    1. In [!UICONTROL Metric Tag] , inserisci il nome del tag da aggiungere a ciascuna metrica per l’origine dati.
-
 
 1. In alto a destra, fai clic su **[!UICONTROL Post]**.
 
@@ -75,4 +77,3 @@ Per integrare le metriche per più proprietà o per più viste per una singola p
 >* [Autentica di nuovo un [!DNL Google Analytics] origine dati](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] impostazioni origine dati](data-source-settings.md)
 >* [Appendice - Disponibile [!DNL Google Analytics] metriche](data-source-ga-metrics.md)
-

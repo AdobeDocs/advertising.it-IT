@@ -1,7 +1,9 @@
 ---
 title: Sospendere la sincronizzazione di un'origine dati
 description: Scopri come mettere in pausa un’origine dati per interrompere la sincronizzazione.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: 5495ea13-8700-4e8a-9325-062c9ed8f4f4
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -31,4 +33,3 @@ La sospensione di un&#39;origine dati interrompe le sincronizzazioni future con 
 >* [Autentica di nuovo un [!DNL Google Analytics] origine dati](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] impostazioni origine dati](data-source-settings.md)
 >* [Appendice - Disponibile [!DNL Google Analytics] metriche](data-source-ga-metrics.md)
-
