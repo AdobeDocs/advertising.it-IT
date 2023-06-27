@@ -2,9 +2,9 @@
 title: Colonne report per report speciali
 description: Scopri le colonne di dati disponibili per i rapporti speciali.
 exl-id: 5cc98781-588b-4bf3-8978-a7966009fa51
-source-git-commit: 906df6747838f5febba8a43a74dbf87d35444f8a
+source-git-commit: b6279bdf5f0cf3fbd144414f789a105af87040cc
 workflow-type: tm+mt
-source-wordcount: '2279'
+source-wordcount: '2280'
 ht-degree: 0%
 
 ---
@@ -96,8 +96,8 @@ ht-degree: 0%
 | [!UICONTROL Impressions] | Il numero di ad impression durante l’intervallo di date specificato. |
 | [!UICONTROL Keyword] | La parola chiave.<br><br><b>Nota:</b> Se il rapporto include i dati dei gruppi di annunci nelle campagne di ricerca abilitate per il contenuto, questa colonna include i nomi dei gruppi di annunci applicabili, ad esempio &quot;(contenuto adgroup) Nome del gruppo di annunci&quot;. Per un posizionamento mirato al sito in una campagna di ricerca, questa colonna non ha un valore. |
 | [!UICONTROL Keyword ID] | ID numerico assegnato alla parola chiave da Search, Social e Commerce. |
-| [!UICONTROL Keyword Extension ID] | ([!UICONTROL MSA Ad Extension by Keyword Report]) L’ID dell’estensione dell’annuncio assegnato dalla rete di annunci. |
-| [!UICONTROL Keyword Extension Number] | ([!UICONTROL MSA Ad Extension by Keyword Report]) L’ID dell’estensione dell’annuncio assegnato dalla rete di annunci. |
+| [!UICONTROL Keyword Extension ID] | ([!UICONTROL MSA Ad Extension by Keyword Report]) ID numerico assegnato dalla rete di annunci all’estensione dell’annuncio. |
+| [!UICONTROL Keyword Extension Number] | ([!UICONTROL MSA Ad Extension by Keyword Report]) Attributo di versione per l’estensione dell’annuncio. |
 | [!UICONTROL Keyword Extension Type] | ([!UICONTROL MSA Ad Extension by Keyword Report]) Il tipo di estensione dell’annuncio. |
 | [!UICONTROL Keyword Status] | Lo stato della parola chiave a cui il termine di ricerca è stato associato: *[!UICONTROL Active]*, *[!UICONTROL Paused]*, [!UICONTROL Deleted]*, o[!UICONTROL Disapproved]*. |
 | [!UICONTROL Language] | ([!UICONTROL Campaign Daily Impression Share Report]) Lingua di destinazione. |
