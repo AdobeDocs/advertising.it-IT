@@ -1,9 +1,10 @@
 ---
-title: "[!DNL Google Ads] impostazioni della campagna"
+title: '''[!DNL Google Ads] impostazioni della campagna'
 description: Fai riferimento alle impostazioni per [!DNL Google Ads] campagne.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: d16ef1a9-f943-494c-8655-975383707f3c
+source-git-commit: a71ea7b20cf1c72a2acfd7c743311c513e4239fc
 workflow-type: tm+mt
-source-wordcount: '1958'
+source-wordcount: '2024'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Search Network Only]:* Mostra gli annunci sulla rete di ricerca, che include [!DNL Google] risultati della ricerca e, facoltativamente, siti partner di ricerca. È necessario specificare le parole chiave per ogni gruppo di annunci.
 
-* *[!UICONTROL Search with Display Select]:* Mostra gli annunci sulla rete di ricerca (che include [!DNL Google] risultati della ricerca e, facoltativamente, siti partner di ricerca) e mostra potenzialmente annunci su siti di rete visualizzati. Sulla rete del display, [!DNL Google Ads] mostra i tuoi annunci in modo selettivo mediante offerte automatizzate, indipendentemente dalla strategia di offerta della campagna. Per gli annunci di ricerca, devi specificare le parole chiave per ciascun gruppo di annunci; per gli annunci di visualizzazione, devi specificare i posizionamenti e, facoltativamente, puoi specificare le parole chiave per ciascun gruppo di annunci.
+* *[!UICONTROL Search with Display Select]:* Mostra gli annunci sulla rete di ricerca (che include [!DNL Google] risultati della ricerca e, facoltativamente, siti partner di ricerca) e mostra potenzialmente annunci su siti di rete visualizzati. Sulla rete del display, [!DNL Google Ads] mostra i tuoi annunci in modo selettivo mediante offerte automatizzate, indipendentemente dalla strategia di offerta della campagna. Per gli annunci di ricerca, specifica le parole chiave per ciascun gruppo di annunci; per gli annunci di visualizzazione, specifica i posizionamenti e facoltativamente specifica le parole chiave per ciascun gruppo di annunci.
 
 * *[!UICONTROL Shopping Network]:* Mostra annunci di prodotti, che [!DNL Google] genera automaticamente in base ai prodotti in [!DNL Google Merchant Center] il [!DNL Google Shopping], l&#39;area accanto a [!DNL Google] risultati della ricerca (separati dagli annunci di testo) e (facoltativamente) siti web dei partner di ricerca. Per ogni gruppo di annunci della campagna, puoi specificare i gruppi di prodotti da pubblicizzare.
 
@@ -24,7 +25,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Performance Max]:* (Funzione beta) Mostra e ottimizza le conversioni per gli annunci tra canali utilizzando [!DNL Google Ads] offerte intelligenti. Nelle impostazioni della campagna devi specificare uno o più gruppi di risorse, tra cui immagini, loghi, titoli, descrizioni, video facoltativi e segnali di pubblico. [!DNL Google Ads] combina automaticamente le risorse per distribuire gli annunci in base al canale (ad esempio [!DNL YouTube], [!DNL Gmail], o [!DNL Search]).
 
-   **Note:**
+  **Note:**
 
    * Sono disponibili solo le impostazioni richieste. Per le impostazioni facoltative, accedi a [!DNL Google Ads] editor.
 
@@ -78,23 +79,23 @@ Quando aggiungi una campagna con eCPC a un portfolio Search, Social e Commerce o
 
 * *[!UICONTROL Maximize Clicks]:* (Campagne di ricerca, visualizzazione e acquisto) La rete di annunci, anziché Search, Social e Commerce, ottimizza le offerte per massimizzare i clic. È possibile inserire un **[!UICONTROL Max CPC]** (costo per clic) per garantire che la rete di annunci non paghi più di un importo specifico per ogni clic. **Attenzione:** Quando aggiungi una campagna con questa strategia a un portfolio, le offerte si basano sul peso del clic e non sull’obiettivo del portfolio.
 
-* *[!UICONTROL Maximize Conversion Value]:* (Campagne Search, Performance Max e Smart Shopping) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte per massimizzare il valore di conversione. È possibile inserire un **[!UICONTROL Target Return on Ad Spend]** (ROAS) in percentuale. **Nota:** Utilizza questa opzione per le campagne in portfolio ibridi ma non in portfolio standard.
+* *[!UICONTROL Maximize Conversion Value]:* (Campagne di ricerca, con prestazioni massime e di acquisto intelligente) La rete di annunci, non Ricerca, Social e Commerce, ottimizza le offerte per massimizzare il valore di conversione. È possibile inserire un **[!UICONTROL Target Return on Ad Spend]** (ROAS) in percentuale. **Nota:** Utilizza questa opzione per le campagne in portfolio ibridi ma non in portfolio standard.
 
 * *[!UICONTROL Maximize Conversions]:* (Campagne basate su ricerca, visualizzazione e prestazioni massime) La rete di annunci, anziché Search, Social e Commerce, ottimizza le offerte per massimizzare le conversioni. È possibile inserire un **[!UICONTROL Target CPA]** (costo per acquisizione). **Nota:** Utilizza questa opzione per le campagne in portfolio ibridi ma non in portfolio standard.
 
 * *[!UICONTROL Target CPA]:* (Campagne di visualizzazione; campagne di ricerca esistenti) La rete di annunci, non Search, Social &amp; Commerce, ottimizza le offerte in base a un **[!UICONTROL Target CPA]** (costo per acquisizione), che è l’importo medio di 30 giorni che desideri pagare per un’acquisizione (conversione). **Nota:** Utilizza questa opzione per le campagne in portfolio ibridi (ma non in portfolio standard) con qualsiasi strategia di spesa a eccezione [!UICONTROL Weekly] o [!UICONTROL Google Target CPA].
 
-   I dati relativi alla posizione media e alle offerte CPC non sono disponibili per le campagne con questa strategia di offerta.
+  I dati relativi alla posizione media e alle offerte CPC non sono disponibili per le campagne con questa strategia di offerta.
 
-   Per nuove campagne di ricerca, [!DNL Google Ads] ha sostituito questa strategia di offerta con il [!UICONTROL Maximize Conversions] strategia che utilizza un [!UICONTROL Target CPA] valore. Per le campagne di ricerca esistenti con questa strategia, puoi modificare solo il valore target, e così facendo cambia la strategia in [!UICONTROL Maximize Conversions] strategia che utilizza il valore specificato [!UICONTROL Target CPA] valore.
+  Per nuove campagne di ricerca, [!DNL Google Ads] ha sostituito questa strategia di offerta con il [!UICONTROL Maximize Conversions] strategia che utilizza un [!UICONTROL Target CPA] valore. Per le campagne di ricerca esistenti con questa strategia, puoi modificare solo il valore target, e così facendo cambia la strategia in [!UICONTROL Maximize Conversions] strategia che utilizza il valore specificato [!UICONTROL Target CPA] valore.
 
 * *[!UICONTROL Target Impression Share]:* (Campagne di ricerca) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte per raggiungere una quota di impression target e una posizione pubblicitaria. È possibile inserire un **[!UICONTROL Target Impression Share]** in percentuale, il valore **[!UICONTROL Target Ad Position]**, e un **[!UICONTROL Max CPC]** (costo per clic). **Nota:** Questa opzione non è supportata nei portfolio.
 
 * *[!UICONTROL Target Return on Ad Spend]:*  (Campagne di visualizzazione e di acquisto; campagne di ricerca esistenti) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte in base a un dato **[!UICONTROL Target ROAS]** (ritorno sulla spesa pubblicitaria), specificato come percentuale. **Nota:** Utilizza questa opzione per le campagne in portfolio ibridi (ma non in portfolio standard) con qualsiasi strategia di spesa a eccezione [!UICONTROL Weekly] o [!UICONTROL Google Target ROAS].
 
-   I dati relativi alla posizione media e alle offerte CPC non sono disponibili per le campagne con questa strategia di offerta.
+  I dati relativi alla posizione media e alle offerte CPC non sono disponibili per le campagne con questa strategia di offerta.
 
-   Per nuove campagne di ricerca, [!DNL Google Ads] ha sostituito questa strategia di offerta con il [!UICONTROL Maximize Conversion Value] strategia che utilizza un [!UICONTROL Target Return on Ad Spend value]. Per le campagne di ricerca esistenti con questa strategia, puoi modificare solo il valore target, e così facendo cambia la strategia in [!UICONTROL Maximize Conversion Value] strategia che utilizza il valore specificato [!UICONTROL Target Return on Ad Spend] valore.
+  Per nuove campagne di ricerca, [!DNL Google Ads] ha sostituito questa strategia di offerta con il [!UICONTROL Maximize Conversion Value] strategia che utilizza un [!UICONTROL Target Return on Ad Spend value]. Per le campagne di ricerca esistenti con questa strategia, puoi modificare solo il valore target, e così facendo cambia la strategia in [!UICONTROL Maximize Conversion Value] strategia che utilizza il valore specificato [!UICONTROL Target Return on Ad Spend] valore.
 
 * *[!UICONTROL Viewable CPM]:* (Esistente, sola lettura [!DNL Gmail] solo campagne pubblicitarie) La rete di annunci pubblicitari, non Search, Social &amp; Commerce (Ricerca, Social &amp; Commerce), fa offerte solo sugli annunci misurati come visualizzabili. **Nota:** L&#39;ottimizzazione per questa strategia non è supportata in alcun tipo di portfolio.
 
@@ -141,12 +142,12 @@ Quando aggiungi una campagna con eCPC a un portfolio Search, Social e Commerce o
       * Per espandere una posizione nei relativi sottocomponenti, ad esempio gli stati, le aree metropolitane o le città negli Stati Uniti, fare clic sul nome della posizione.
 
       * Per cercare una posizione, immetti o incolla almeno i primi tre caratteri della posizione nel campo di input. Nei risultati della ricerca, fai clic su **[!UICONTROL Include]** accanto a una posizione da includere o **[!UICONTROL Exclude]** accanto a una posizione da escludere.
+
    * (Posizioni vicino a un indirizzo; solo destinazioni incluse) Fai clic su **[!UICONTROL Radius Target]** (![Destinazione raggio](/help/search-social-commerce/assets/radius-target.png "Destinazione raggio")), quindi fare clic su **[!UICONTROL Address]**. Immettere l&#39;indirizzo e il raggio in miglia o chilometri intorno all&#39;indirizzo desiderato, quindi fare clic su **[!UICONTROL Add]**.
 
    * (Posizioni vicine alle coordinate geografiche; solo destinazioni incluse) Fai clic su **[!UICONTROL Radius Target]** (![Destinazione raggio](/help/search-social-commerce/assets/radius-target.png "Destinazione raggio")), quindi fare clic su **[!UICONTROL Coordinate]**. Immettere la latitudine e la longitudine e il raggio in miglia o chilometri intorno alla posizione di destinazione, quindi fare clic su **[!UICONTROL Add]**.
 
    * (Posizioni vicino al tuo [!DNL My Business] posizioni disponibili come estensioni di posizione; solo destinazioni incluse) Fare clic su **[!UICONTROL Location Group Target]** (![Gruppo di posizioni](/help/search-social-commerce/assets/location-group.png "Gruppo di posizioni")); è possibile inserire un paese, uno stato, un&#39;area metropolitana o una città per visualizzare l&#39;elenco delle posizioni disponibili e quindi selezionare una o più posizioni dall&#39;elenco di [!DNL Google My Business] posizioni. Specifica il raggio in miglia o chilometri intorno alle posizioni di destinazione, quindi fai clic su **[!UICONTROL Add]**.
-
 
 * Per aggiungere un adeguamento offerta per un&#39;ubicazione di destinazione inclusa, immettere un valore di adeguamento offerta:
 
@@ -254,27 +255,41 @@ Quando aggiungi una campagna con eCPC a un portfolio Search, Social e Commerce o
 
 **[!UICONTROL Images]:** Fino a quindici immagini per l’annuncio, incluse le seguenti dimensioni: 1) almeno tre immagini quadrate, 2) almeno tre immagini panoramiche e 3) almeno un’immagine verticale. Consulta la [[!DNL Google Ads] specifiche dell&#39;immagine](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Per caricare le immagini:
 
-1. Per ogni immagine:
+1. Clic **[!UICONTROL +]** e selezionare le immagini dal dispositivo o dalla rete.
 
-   1. Clic **[!UICONTROL +]** e selezionare un&#39;immagine dal dispositivo o dalla rete.
+1. Per ogni immagine:
 
    1. Seleziona le proporzioni.
 
-   1. Trascina e posiziona la casella di ritaglio in base alle esigenze per selezionare la parte visualizzabile dell’immagine, quindi fai clic su **[!UICONTROL Proceed]**.
+   1. Trascinate e posizionate la casella di ritaglio in base alle necessità per selezionare la parte visualizzabile dell&#39;immagine e, se possibile, ridimensionate la parte visualizzabile dell&#39;immagine.
+
+   1. (Facoltativo) Selezionate altre proporzioni e, se necessario, riposizionate e ridimensionate l&#39;immagine per ogni proporzione selezionata.
+
+      Viene creata una risorsa per ogni proporzione selezionata.
+
+   1. Clic **[!UICONTROL Proceed]**.
 
 1. Al termine della specifica delle immagini, fare clic su **[!UICONTROL Upload]**.
 
 **[!UICONTROL Logos]:** Almeno un logo quadrato (1:1) e un logo orizzontale (4:1). Puoi includere fino a cinque di ogni dimensione. Consulta la [[!DNL Google Ads] specifiche del logo](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Per caricare le immagini:
 
+1. Clic **[!UICONTROL +]** e selezionare le immagini dal dispositivo o dalla rete.
+
 1. Per ogni immagine:
 
-   1. Clic **[!UICONTROL +]** e selezionare un&#39;immagine dal dispositivo o dalla rete.
+   1. Seleziona le proporzioni.
 
-   1. Trascina e posiziona la casella di ritaglio in base alle esigenze per selezionare la parte visualizzabile dell’immagine, quindi fai clic su **[!UICONTROL Proceed]**.
+   1. Trascinate e posizionate la casella di ritaglio in base alle necessità per selezionare la parte visualizzabile dell&#39;immagine e, se possibile, ridimensionate la parte visualizzabile dell&#39;immagine.
+
+   1. (Facoltativo) Selezionate altre proporzioni e, se necessario, riposizionate e ridimensionate l&#39;immagine per ogni proporzione selezionata.
+
+      Viene creata una risorsa per ogni proporzione selezionata.
+
+   1. Clic **[!UICONTROL Proceed]**.
 
 1. Al termine della specifica delle immagini, fare clic su **[!UICONTROL Upload]**.
 
-**[!UICONTROL Videos]:** (Facoltativo) L’URL per almeno uno e fino a cinque, [!DNL YouTube] video di durata superiore a 10 secondi.
+**[!UICONTROL Videos]:** (Facoltativo) L’URL per almeno uno e fino a cinque, [!DNL YouTube] video della durata di almeno 10 secondi.
 
 **[!UICONTROL Headlines]:** Almeno tre e fino a cinque titoli brevi con un massimo di 30 caratteri ciascuno. Almeno un titolo deve contenere al massimo 15 caratteri. Se l’opzione a livello di campagna per abilitare l’espansione finale dell’URL è impostata in [!DNL Google Ads], quindi [!DNL Google Ads] sostituisce questo valore con un titolo personalizzato in base al contenuto della pagina di destinazione.
 
@@ -286,9 +301,8 @@ Quando aggiungi una campagna con eCPC a un portfolio Search, Social e Commerce o
 
 **[!UICONTROL Business Name]:** La ragione sociale, con un massimo di 25 caratteri.
 
-**[!UICONTROL Add new asset group]:** Consente di specificare un gruppo di risorse aggiuntivo.
+**[!UICONTROL Add new asset group]:** Consente di specificare un altro gruppo di risorse.
 
 >[!MORELIKETHIS]
 >
 >* [Gestire le campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-
