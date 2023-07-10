@@ -1,7 +1,7 @@
 ---
 title: '''[!DNL Microsoft Advertising] dati di conversione"'
 description: Scopri i tipi di [!DNL Microsoft Advertising]-Dati di conversione tracciati disponibili in Search, Social e Commerce.
-source-git-commit: f5788c483564e34129b1703638a07497b527fb11
+source-git-commit: f48706edc1ab25f7c2396159d420bc2cfa849bbb
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -41,7 +41,7 @@ I dati sono disponibili in base all’ora di clic e all’ora di conversione/tra
 
 >[!NOTE]
 >
->* Se disponi di più account con gli stessi nomi di conversione, in Adobe Advertising potrebbero essere presenti nomi di conversione duplicati. In tal caso, [modificare il nome visualizzato](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) per una delle metriche duplicate in [!UICONTROL Admin] > [!UICONTROL Transaction Properties]. Il reporting non è accurato quando due metriche diverse hanno lo stesso nome.
+>* Se disponi di più account con gli stessi nomi di conversione, è possibile che in Adobe Advertising vengano visualizzati nomi di conversione duplicati. In tal caso, [modificare il nome visualizzato](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) per una delle metriche duplicate in [!UICONTROL Admin] > [!UICONTROL Transaction Properties]. Il reporting non è accurato quando due metriche diverse hanno lo stesso nome.
 >* I dati a livello di unità di offerta corrispondono ai dati nella rete di annunci allo stesso livello. Tuttavia, i dati di conversione della rete di annunci per i livelli superiori possono includere conversioni aggiuntive che non sono attribuite alle unità di offerta figlie. I dati in Search, Social e Commerce vengono sempre aggregati dal livello di unità dell’offerta, pertanto, ad esempio, un rapporto a livello di campagna potrebbe non avere gli stessi totali di un rapporto a livello di campagna nella rete di annunci.
 >* La varianza dei dati è in genere inferiore dopo la sincronizzazione mattutina rispetto a quella più tardi nel corso della giornata, quando non sono ancora state sincronizzate conversioni aggiuntive. È consigliabile convalidare i dati al mattino.
 >* I dati non sono disponibili a livello di pubblico o di posizione geografica e pertanto non vengono utilizzati per ottimizzare automaticamente RLSA e le regolazioni delle offerte di posizione.
@@ -80,4 +80,4 @@ In Search, Social e Commerce, utilizza l’opzione di visualizzazione o di rappo
 >
 >* [Panoramica dell’implementazione di account e campagne di ad network](campaign-implemention-overview.md)
 >* [Monitorare e gestire le prestazioni delle campagne ad network](monitor-performance-campaigns.md)
->* [Visualizzare le proprietà della transazione tracciate per un inserzionista](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.html?lang=en)
+>* [Visualizzare le proprietà della transazione tracciate per un inserzionista](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.md)
