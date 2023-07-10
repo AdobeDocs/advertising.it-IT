@@ -4,10 +4,10 @@ user-guide-title: Guida di Advertising Search, Social e Commerce
 user-guide-description: Questa guida descrive le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire, tracciare e creare rapporti sulle campagne di annunci di ricerca, social e commerce.
 breadcrumb-title: Guida di Advertising Search, Social e Commerce
 index: true
-source-git-commit: e9818b49ab4bd473ba7b17663c9dd1436915f667
+source-git-commit: d8ec24ab05d16ea5f120b3263a8c426d76732cf8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1737'
+ht-degree: 2%
 
 ---
 
@@ -250,13 +250,13 @@ ht-degree: 0%
       + [Rimuovere i valori di classificazione delle etichette dai componenti dell’account](/help/search-social-commerce/campaign-management/label-classifications/classification-values-remove.md)
       + [Elimina valori di classificazione delle etichette](/help/search-social-commerce/campaign-management/label-classifications/classification-values-delete.md)
       + [Eliminare le classificazioni delle etichette](/help/search-social-commerce/campaign-management/label-classifications/classification-delete.md)
+   + Gestione delle risorse degli annunci {#assets}
+      + [Informazioni su [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)
+      + [Creare e caricare le risorse](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)
    + Best practice per le campagne di ricerca {#best-practices-search}
       + [Analizzare i rapporti per perfezionare le parole chiave e le impostazioni della campagna](/help/search-social-commerce/campaign-management/best-practices/best-practices-analyze.md)
       + [Scrivi testo effettivo e copia](/help/search-social-commerce/campaign-management/best-practices/best-practices-write.md)
       + [Ottimizzare le pagine di destinazione del sito web](/help/search-social-commerce/campaign-management/best-practices/best-practices-optimize.md)
-   + Gestione delle risorse degli annunci {#assets}
-      + [Informazioni su [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)
-      + [Creare e caricare le risorse](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)
    + [Numero massimo di oggetti per account di rete dell’annuncio](/help/search-social-commerce/campaign-management/max-objects-per-ad-network.md)
    + [Domande frequenti sulla gestione delle campagne](/help/search-social-commerce/campaign-management/faqs-campaigns.md)
 + Approfondimenti e rapporti {#insights-reports}
