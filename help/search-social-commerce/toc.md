@@ -4,10 +4,10 @@ user-guide-title: Guida di Advertising Search, Social e Commerce
 user-guide-description: Questa guida descrive le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire, tracciare e creare rapporti sulle campagne di annunci di ricerca, social e commerce.
 breadcrumb-title: Guida di Advertising Search, Social e Commerce
 index: true
-source-git-commit: b1b1f67068dcd38f3e10d6e71db9827622f74da6
+source-git-commit: e9818b49ab4bd473ba7b17663c9dd1436915f667
 workflow-type: tm+mt
-source-wordcount: '1728'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -84,12 +84,12 @@ ht-degree: 2%
       + [Il parametro di tracciamento s_kwcid](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
    + Tracciamento delle conversioni {#conversion-tracking}
       + [Opzioni di tracciamento delle conversioni](/help/search-social-commerce/tracking/conversion-tracking-about.md)
-      + Adobe Advertising di tracciamento delle conversioni {#advertising-conversion-tracking}
+      + Adobe Tracciamento conversione Advertising {#advertising-conversion-tracking}
          + [Informazioni sui tag di tracciamento delle conversioni di Adobe Advertising](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
          + [Formato dei tag di tracciamento della conversione JavaScript versione 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
          + [Formato dei tag di tracciamento della conversione JavaScript versione 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
          + [Formato dei tag di tracciamento conversione immagine](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
-         + [Adobe Advertising di tag di mappatura della conversione JavaScript](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
+         + [Tag Adobe di mappatura della conversione JavaScript per Advertising](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
          + [Domande frequenti sui tag di conversione e di tracciamento della visualizzazione pagina](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
       + [Tracciamento delle conversioni Adobe Analytics](/help/search-social-commerce/tracking/conversion-tracking-analytics.md)
       + Conversioni tracciate dagli inserzionisti tramite feed{#conversion-feeds}
@@ -254,6 +254,9 @@ ht-degree: 2%
       + [Analizzare i rapporti per perfezionare le parole chiave e le impostazioni della campagna](/help/search-social-commerce/campaign-management/best-practices/best-practices-analyze.md)
       + [Scrivi testo effettivo e copia](/help/search-social-commerce/campaign-management/best-practices/best-practices-write.md)
       + [Ottimizzare le pagine di destinazione del sito web](/help/search-social-commerce/campaign-management/best-practices/best-practices-optimize.md)
+   + Gestione delle risorse degli annunci {#assets}
+      + [Informazioni su [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)
+      + [Creare e caricare le risorse](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)
    + [Numero massimo di oggetti per account di rete dell’annuncio](/help/search-social-commerce/campaign-management/max-objects-per-ad-network.md)
    + [Domande frequenti sulla gestione delle campagne](/help/search-social-commerce/campaign-management/faqs-campaigns.md)
 + Approfondimenti e rapporti {#insights-reports}
