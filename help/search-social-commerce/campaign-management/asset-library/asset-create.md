@@ -1,9 +1,9 @@
 ---
 title: Creare e caricare le risorse
 description: Scopri come creare risorse immagine, video e testo riutilizzabili e caricarle nel tuo [!DNL Google Ads] libreria di risorse a livello di account.
-source-git-commit: 6cb13fe9917daf6437af7df30ec7164120732faa
+source-git-commit: d6d2b85b3be95a6f1162f87e2beccbdd4337b1f2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
          1. Clic **[!UICONTROL +]** e selezionare le immagini dal dispositivo o dalla rete.
 
-        Ogni immagine può avere una dimensione massima di 10 MB. È possibile caricare un massimo di 200 MB di immagini alla volta.
+            Ogni immagine può avere una dimensione massima di 10 MB. È possibile caricare un massimo di 200 MB di immagini alla volta.
 
          1. Per ogni immagine:
 
@@ -48,16 +48,16 @@ ht-degree: 0%
 
       * Per le risorse video, immetti l’URL per un [!DNL YouTube] video della durata di almeno 10 secondi. Per aggiungere un’altra risorsa video, fai clic su **+ Aggiungi** e immetti un altro URL.
 
-      Puoi pubblicare fino a 10 URL video alla volta.
+        Puoi pubblicare fino a 10 URL video alla volta.
 
       * Per le risorse di testo, immetti la stringa di testo. Per aggiungere un’altra risorsa di testo, fai clic su **+ Aggiungi** e immettere un&#39;altra stringa di testo.
 
-      Ogni risorsa di testo può contenere un massimo di 1000 caratteri. Puoi caricare un massimo di 10 risorse di testo alla volta.
+        Ogni risorsa di testo può contenere un massimo di 1000 caratteri. Puoi caricare un massimo di 10 risorse di testo alla volta.
 
-      In seguito puoi utilizzare le risorse di testo per qualsiasi elemento annuncio a tua scelta (ad esempio titolo o breve descrizione), purché rispetti i limiti di caratteri per tale elemento annuncio.
+        In seguito puoi utilizzare le risorse di testo per qualsiasi elemento annuncio a tua scelta (ad esempio titolo o breve descrizione), purché rispetti i limiti di caratteri per tale elemento annuncio.
 
 1. Clic **[!UICONTROL Post]**.
 
 >[!MORELIKETHIS]
 >
->*[Informazioni su [!UICONTROL Asset Library]](asset-library-about.md)
+>* [Informazioni su [!UICONTROL Asset Library]](asset-library-about.md)
