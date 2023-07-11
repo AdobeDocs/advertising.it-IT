@@ -1,9 +1,10 @@
 ---
 title: Replica [!DNL Google Ads] campagne in [!DNL Microsoft® Advertising]
 description: Scopri come esportare le campagne sincronizzate in una [!DNL Google Ads] account direttamente in un file sincronizzato [!DNL Microsoft® Advertising] account.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
+source-git-commit: 0da256d0e3d98751dfaaf69adf5fed72662f5d22
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '998'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Puoi replicare i seguenti tipi di campagne e la relativa struttura:
 
 * [!DNL Google Display Network] campagne, incluse le immagini pubblicitarie, in [!DNL Microsoft® Advertising] campagne per il pubblico su Microsoft® Audience Network.
 
-   Se desideri replicare le campagne di visualizzazione basate su feed di acquisto, devi prima replicare le [!DNL Google Merchant Center] offerte di prodotti a [!DNL Microsoft® Merchant Center]. Quando replichi le campagne, seleziona la [!DNL Microsoft® Merchant Center] archivia nelle Opzioni di importazione per collegare lo store alle campagne per il pubblico basate su feed.
+  Se desideri replicare le campagne di visualizzazione basate su feed di acquisto, devi prima replicare le [!DNL Google Merchant Center] offerte di prodotti a [!DNL Microsoft® Merchant Center]. Quando replichi le campagne, seleziona la [!DNL Microsoft® Merchant Center] archivia nelle Opzioni di importazione per collegare lo store alle campagne per il pubblico basate su feed.
 
 * [!DNL Google Ads] le campagne con le massime prestazioni, inclusi gli annunci di inventario locali, in [!DNL Microsoft® Advertising] campagne di acquisto intelligenti.
 
@@ -58,7 +59,7 @@ Consulta [da cosa viene importato [!DNL Google Ads] campagne](https://help.ads.m
 
 1. (Facoltativo) Aggiungi il tracciamento di ricerca, social e commerce all’interno del [account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [campagna](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [gruppo di annunci](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md), o [annuncio](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) impostazioni.
 
-## Modificare i dettagli per un processo di importazione campagna
+## Modificare le impostazioni di pianificazione per un processo di importazione campagne
 
 Consulta [da cosa viene importato [!DNL Google Ads] campagne](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500).
 
@@ -66,15 +67,7 @@ Consulta [da cosa viene importato [!DNL Google Ads] campagne](https://help.ads.m
 
 1. Selezionare la casella di controllo accanto al processo di importazione e quindi fare clic su ![Modifica](/help/search-social-commerce/assets/edit.png "Modifica").
 
-1. Modifica il [impostazioni di importazione](#campaign-import-settings).
-
-   1. In **[!UICONTROL Select accounts]** , selezionare gli account di origine e di destinazione e l&#39;ID delle credenziali che [!DNL Microsoft® Advertising] richiede.
-
-   1. In **[!UICONTROL Select campaigns & ad groups]** , specifica le campagne e i gruppi di annunci da importare.
-
-   1. In **[!UICONTROL Customize your import]** , specificare i tipi di elemento da importare.
-
-   1. In **[!UICONTROL Set schedule]** , specificare quando eseguire il processo di importazione.
+1. In **[!UICONTROL Set schedule]** , specificare [impostazioni di pianificazione](#campaign-import-settings).
 
 1. Clic **[!UICONTROL Post]**.
 
@@ -86,7 +79,7 @@ Puoi elencare tutti i processi di importazione, inclusa l’origine [!DNL Google
 
    * Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
-      Per impostazione predefinita, la vista si apre su [!UICONTROL List of Import Jobs] scheda.
+     Per impostazione predefinita, la vista si apre su [!UICONTROL List of Import Jobs] scheda.
 
    * Dalla sezione [[!UICONTROL Import Logs] scheda](#campaign-import-log), fare clic su **[!UICONTROL List of Import Jobs]** scheda.
 
