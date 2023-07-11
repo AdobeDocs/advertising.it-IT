@@ -1,9 +1,9 @@
 ---
 title: '''[!DNL Microsoft Advertising] dati di conversione"'
 description: Scopri i tipi di [!DNL Microsoft Advertising]-Dati di conversione tracciati disponibili in Search, Social e Commerce.
-source-git-commit: f48706edc1ab25f7c2396159d420bc2cfa849bbb
+source-git-commit: 0d7a7b63b31f85b3befb3217fc43bcb229b370f0
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -34,14 +34,11 @@ Due proprietà di transazione per ogni [[!DNL Microsoft Advertising]-conversione
 
 I dati sono disponibili in base all’ora di clic e all’ora di conversione/transazione dalla data in cui la funzione è abilitata per il conto.
 
-<!-- verify below/ if equivalent
-
-[!DNL Microsoft Advertising] records each conversion by [bid unit](/help/search-social-commerce/glossary.md#a-b), device, and click date (not conversion date). Attribution is based on the default attribution setting for each metric in [!DNL Microsoft Advertising]; Adobe Advertising attribution isn't factored in because click event-level data isn't available.
--->
+[!DNL Microsoft Advertising] registra ogni conversione per [unità di offerta](/help/search-social-commerce/glossary.md#a-b), dispositivo e data di clic (non data di conversione). L’attribuzione si basa sull’impostazione di attribuzione predefinita per ogni metrica in [!DNL Microsoft Advertising]; L’attribuzione Adobe Advertising non viene considerata in perché i dati a livello di evento di clic non sono disponibili.
 
 >[!NOTE]
 >
->* Se disponi di più account con gli stessi nomi di conversione, è possibile che in Adobe Advertising vengano visualizzati nomi di conversione duplicati. In tal caso, [modificare il nome visualizzato](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) per una delle metriche duplicate in [!UICONTROL Admin] > [!UICONTROL Transaction Properties]. Il reporting non è accurato quando due metriche diverse hanno lo stesso nome.
+>* Se disponi di più account con gli stessi nomi di conversione, in Adobe Advertising potrebbero essere presenti nomi di conversione duplicati. In tal caso, [modificare il nome visualizzato](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) per una delle metriche duplicate in [!UICONTROL Admin] > [!UICONTROL Transaction Properties]. Il reporting non è accurato quando due metriche diverse hanno lo stesso nome.
 >* I dati a livello di unità di offerta corrispondono ai dati nella rete di annunci allo stesso livello. Tuttavia, i dati di conversione della rete di annunci per i livelli superiori possono includere conversioni aggiuntive che non sono attribuite alle unità di offerta figlie. I dati in Search, Social e Commerce vengono sempre aggregati dal livello di unità dell’offerta, pertanto, ad esempio, un rapporto a livello di campagna potrebbe non avere gli stessi totali di un rapporto a livello di campagna nella rete di annunci.
 >* La varianza dei dati è in genere inferiore dopo la sincronizzazione mattutina rispetto a quella più tardi nel corso della giornata, quando non sono ancora state sincronizzate conversioni aggiuntive. È consigliabile convalidare i dati al mattino.
 >* I dati non sono disponibili a livello di pubblico o di posizione geografica e pertanto non vengono utilizzati per ottimizzare automaticamente RLSA e le regolazioni delle offerte di posizione.
