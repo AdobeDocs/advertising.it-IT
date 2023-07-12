@@ -1,7 +1,8 @@
 ---
 title: Gestire le campagne
 description: Scopri come creare e gestire le campagne pubblicitarie.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 9406e4bd-d5a2-4744-ab71-fc52428e3af6
+source-git-commit: 7c4f3b5b7745f846817c85364006a67fd644bd3b
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 0%
@@ -23,7 +24,6 @@ Una volta [rendere accessibile un account di ad network](/help/search-social-com
 >* Prima di creare una campagna, [implementare i tag di tracciamento della conversione](/help/search-social-commerce/tracking/conversion-tracking-about.md) nelle pagine web dell’inserzionista.
 >* Per creare un numero elevato di campagne contemporaneamente, utilizza [funzione copia e incolla](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) o [bulksheet delle campagne](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-
 1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
 
 1. Nella barra degli strumenti sopra la tabella dati, fai clic su ![Crea](/help/search-social-commerce/assets/add.png "Crea").
@@ -34,7 +34,7 @@ Una volta [rendere accessibile un account di ad network](/help/search-social-com
 
 1. Inserisci il [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md), o [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md) impostazioni della campagna.
 
-   A seconda della rete dell’annuncio, le impostazioni possono essere raggruppate in [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options], e [!UICONTROL (Google) DSA Options]. Per configurare le impostazioni per [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking], o [!UICONTROL Asset Groups] (se disponibile), fai clic su **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**, o **[!UICONTROL Manage Asset Groups]**, rispettivamente.
+   A seconda della rete dell’annuncio, le impostazioni possono essere raggruppate in [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Conversion Goals], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options], e [!UICONTROL (Google) DSA Options]. Per configurare le impostazioni per [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking], o [!UICONTROL Asset Groups] (se disponibile), fai clic su **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**, **[!UICONTROL Set Campaign Goals]**, o **[!UICONTROL Manage Asset Groups]**, rispettivamente.
 
 1. Clic **[!UICONTROL Post]**.
 
@@ -58,7 +58,7 @@ Puoi modificare le impostazioni per le singole campagne. Puoi anche modificare a
 
       * Seleziona la casella di controllo accanto a ciascuna campagna.
 
-         Per suggerimenti sulla selezione di più righe, vedere &quot;[Seleziona più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+        Per suggerimenti sulla selezione di più righe, vedere &quot;[Seleziona più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
       * Nella barra degli strumenti sopra la tabella dati, fai clic su ![Modifica](/help/search-social-commerce/assets/edit.png "Modifica").
 
@@ -66,7 +66,7 @@ Puoi modificare le impostazioni per le singole campagne. Puoi anche modificare a
 
    Per più campagne, le impostazioni possono essere raggruppate in [!UICONTROL Campaign Details], [!UICONTROL Budget Options], e [!UICONTROL URL Options], a seconda delle reti di annunci. Puoi modificare solo i campi comuni a tutte le campagne selezionate e le modifiche vengono applicate a tutte le campagne selezionate. Per alcuni campi alfanumerici sono disponibili opzioni che consentono di modificare i valori esistenti in un valore specificato, sostituire una stringa esistente con una stringa specificata, aggiungere un prefisso specificato all&#39;inizio di ogni valore o aggiungere un suffisso alla fine di ogni valore. Per alcuni campi monetari, è possibile modificare i valori esistenti in un valore specificato o aumentare o diminuire l&#39;importo di una percentuale o di un importo monetario specificato, con un limite.
 
-   Per campagne singole, le impostazioni possono essere raggruppate in [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options], e [!UICONTROL (Google) DSA Options]. Per configurare le impostazioni per [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking], o [!UICONTROL Asset Groups] (se disponibile), fai clic su **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**, o **[!UICONTROL Manage Asset Groups]**, rispettivamente.
+   Per campagne singole, le impostazioni possono essere raggruppate in [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Conversion Goals], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options], e [!UICONTROL (Google) DSA Options]. Per configurare le impostazioni per [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking], o [!UICONTROL Asset Groups] (se disponibile), fai clic su **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**, **[!UICONTROL Set Campaign Goals]**, o **[!UICONTROL Manage Asset Groups]**, rispettivamente.
 
 1. Salvare i dati:
 
@@ -105,4 +105,3 @@ Puoi anche eliminare qualsiasi campagna di ricerca attiva o in pausa. Le campagn
 >* [Impostazioni della campagna Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
 >* [Yahoo! Impostazioni campagna Japan Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
 >* [Impostazioni campagna Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)
-

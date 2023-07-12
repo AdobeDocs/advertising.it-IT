@@ -4,9 +4,9 @@ user-guide-title: Guida di Advertising Search, Social e Commerce
 user-guide-description: Questa guida descrive le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire, tracciare e creare rapporti sulle campagne di annunci di ricerca, social e commerce.
 breadcrumb-title: Guida di Advertising Search, Social e Commerce
 index: true
-source-git-commit: d8ec24ab05d16ea5f120b3263a8c426d76732cf8
+source-git-commit: 50c462fd58acd9cd36aace933ff56db43c2dbf48
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1719'
 ht-degree: 2%
 
 ---
@@ -84,12 +84,12 @@ ht-degree: 2%
       + [Il parametro di tracciamento s_kwcid](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
    + Tracciamento delle conversioni {#conversion-tracking}
       + [Opzioni di tracciamento delle conversioni](/help/search-social-commerce/tracking/conversion-tracking-about.md)
-      + Adobe Tracciamento conversione Advertising {#advertising-conversion-tracking}
+      + Adobe Advertising di tracciamento delle conversioni {#advertising-conversion-tracking}
          + [Informazioni sui tag di tracciamento delle conversioni di Adobe Advertising](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
          + [Formato dei tag di tracciamento della conversione JavaScript versione 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
          + [Formato dei tag di tracciamento della conversione JavaScript versione 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
          + [Formato dei tag di tracciamento conversione immagine](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
-         + [Tag Adobe di mappatura della conversione JavaScript per Advertising](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
+         + [Adobe Advertising di tag di mappatura della conversione JavaScript](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
          + [Domande frequenti sui tag di conversione e di tracciamento della visualizzazione pagina](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
       + [Tracciamento delle conversioni Adobe Analytics](/help/search-social-commerce/tracking/conversion-tracking-analytics.md)
       + Conversioni tracciate dagli inserzionisti tramite feed{#conversion-feeds}
@@ -122,19 +122,19 @@ ht-degree: 2%
          + Campagne {#campaigns}
             + [Gestire le campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
             + Impostazioni di Campaign per rete di annunci {#campaign-settings-by-network}
-               + [Impostazioni campagna Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
-               + [Impostazioni della campagna Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
-               + [Impostazioni della campagna Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
-               + [Yahoo! Impostazioni campagna Japan Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
-               + [Impostazioni campagna Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)
+               + [[!DNL Baidu] impostazioni della campagna](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
+               + [[!DNL Google Ads] impostazioni della campagna](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
+               + [[!DNL Microsoft Advertising] impostazioni della campagna](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
+               + [[!DNL Yahoo! Japan Ads] impostazioni della campagna](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
+               + [[!DNL Yandex] impostazioni della campagna](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)
          + Gruppi di annunci {#ad-groups}
             + [Gestire i gruppi di annunci](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
             + Impostazioni gruppo di annunci per rete di annunci {#ad-group-settings-by-network}
-               + [Impostazioni gruppo di annunci Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)
-               + [Impostazioni dei gruppi di annunci di Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)
-               + [Impostazioni dei gruppi di annunci Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
-               + [Yahoo! Impostazioni gruppo di annunci Japan Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
-               + [Impostazioni gruppo di annunci Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
+               + [[!DNL Baidu] impostazioni gruppo di annunci](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)
+               + [[!DNL Google Ads] impostazioni gruppo di annunci](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)
+               + [[!DNL Microsoft Advertising] impostazioni gruppo di annunci](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
+               + [[!DNL Yahoo! Japan Ads] impostazioni gruppo di annunci](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
+               + [[!DNL Yandex] impostazioni gruppo di annunci](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
          + Parole chiave {#keywords}
             + [Informazioni sulle parole chiave](/help/search-social-commerce/campaign-management/campaigns/keyword-about.md)
             + [Gestire le parole chiave per le offerte](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
