@@ -3,9 +3,9 @@ title: Panoramica di [!DNL Analytics for Advertising]
 description: Panoramica di [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 7089f7fe75b551953026ac6cca4ac7aafa06ba7b
+source-git-commit: d4306553d4ad7379672be5bff1bc5cc6f74f70bf
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1185'
 ht-degree: 0%
 
 ---
@@ -40,14 +40,14 @@ Vantaggi principali:
 
 [!DNL Analytics for Advertising] consente di migliorare la generazione di rapporti e informazioni approfondite sul modo in cui la pubblicità guida il comportamento del sito, consentendoti di:
 
-* Utilizzare gli ID view-through e click-through persistenti di Adobe Advertising in [!DNL Analytics] per comprendere il coinvolgimento del sito.
-* Sfrutta Analysis Workspace per comprendere meglio i punti di ingresso al sito e il comportamento delle visite. Puoi accedere ai dati dimensionali e degli eventi a pagamento per contenuti multimediali, tra cui i nomi delle entità di Adobe Advertising Campaign (fino a posizionamenti e annunci) e le metriche associate, ad esempio clic, impression e costi.
+* Utilizzare gli ID view-through e click-through Adobi Advertising persistenti in [!DNL Analytics] per comprendere il coinvolgimento del sito.
+* Sfrutta Analysis Workspace per comprendere meglio i punti di ingresso al sito e il comportamento delle visite. Puoi accedere ai dati di eventi e dimensionali a pagamento per contenuti multimediali, che includono nomi di entità di campagna di Adobe Advertising (fino a posizionamenti e annunci) e le relative metriche associate, come clic, impression e costi.
 
 Da utilizzare [!DNL Analytics] come strumento di reporting per contenuti multimediali a pagamento, la tua organizzazione ha bisogno di un accesso Experience Cloud con accesso ad Analysis Workspace. Il team Advertising del tuo Adobe ti aiuterà a mappare i dati di Advertising dell’Adobe sulle singole suite di rapporti in Analysis Workspace. Puoi inviare dati di Adobe Advertising a qualsiasi suite di rapporti, ma dovresti essere a conoscenza delle suite di rapporti mappate su Adobe Advertising e di quelle che non lo sono state. A seconda della suite di rapporti, questo potrebbe modificare i dati segnalati.
 
 [ID Adobe Advertising in [!DNL Analytics]](ids.md) funziona come altre eVar, con una scadenza personalizzata e persistente. Per impostazione predefinita, l’intervallo di lookback dell’attribuzione è impostato su 60 giorni durante l’implementazione di Adobe Advertising. Per modificare questa impostazione, rivolgiti al team del tuo account Adobe.
 
-Alle dimensioni di Adobe Advertising viene aggiunto il suffisso &quot;(AMO ID)&quot; (ad esempio &quot;Ad Type (AMO ID)&quot;). Consulta &quot;[Metriche pubblicitarie per Adobi in Analysis Workspace](advertising-metrics-in-analytics.md)&quot; per un elenco delle dimensioni disponibili.
+Alle dimensioni di Adobe Advertising viene aggiunto il suffisso &quot;(AMO ID)&quot; (ad esempio &quot;Ad Type (AMO ID)&quot;). Consulta &quot;[Metriche di Adobe Advertising in Analysis Workspace](advertising-metrics-in-analytics.md)&quot; per un elenco delle dimensioni disponibili.
 
 >[!NOTE]
 >
@@ -74,9 +74,9 @@ Puoi utilizzare gli eventi standard e gli eventi personalizzati da [!DNL Analyti
 
 >[!NOTE]
 >
-> Impossibile mappare le metriche calcolate da [!DNL Analytics] nella pubblicità Adobe.
+> Impossibile mappare le metriche calcolate da [!DNL Analytics] in Adobe Advertising.
 
-Il team Advertising di Adobe ti aiuterà a identificare e mappare gli eventi applicabili alle prestazioni dei media a pagamento in Advertising di Adobe, dove verranno visualizzati in [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Transaction Properties].
+Il team di Adobe Advertising ti aiuterà a identificare e mappare gli eventi applicabili alle prestazioni dei contenuti multimediali a pagamento in Adobe Advertising, dove verranno visualizzati in [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Transaction Properties].
 
 Consulta &quot;[Metriche di Analytics in Adobe Advertising](analytics-data-in-advertising.md)&quot; per un elenco delle metriche disponibili.
 
@@ -90,13 +90,43 @@ Per accedere al [!DNL Analytics] segmenti, un account dell&#39;inserzionista dev
 
 Per ulteriori informazioni sul servizio Audiences di Experience Cloud, consulta [Tipi di pubblico di Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html).
 
-## Esempi di come utilizzare l’integrazione
+## Esempi di come utilizzare l’integrazione {#integration-examples}
 
-### Utilizzo dei dati pubblicitari Adobe in Analysis Workspace
+### Utilizzo dei dati Adobe Advertising in Analysis Workspace
 
-Per scoprire come utilizzare i dati di Adobe Advertising per creare rapporti visivi in Analysis Workspace, guarda il video &quot;[Introduzione a Workspace e Generazione rapporti](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html).&quot;
+Per scoprire come utilizzare i dati pubblicitari di Adobe per creare rapporti visivi in Analysis Workspace, guarda il video &quot;[Introduzione a Workspace e Generazione rapporti](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html).&quot;
 
-### Creazione di dashboard Adobe Advertising
+#### Utilizzo delle conversioni view-through di programmi TV collegati nei report
+
+*Pubblicità solo per gli utenti DSP*
+
+È possibile misurare l&#39;efficacia full funnel delle campagne CTV (connected TV) collegando l&#39;esposizione pubblicitaria sui dispositivi CTV alle conversioni in loco. Per visualizzare le metriche di conversione view-through CTV, utilizza la vista Posizionamento o la vista Canale di marketing in Analysis Workspace.
+
+Utilizzo della vista Posizionamento:
+
+1. Includi i posizionamenti di spesa CTV nella visualizzazione di reporting.
+
+1. Includi le metriche desiderate, ad esempio &quot;Impression&quot;, &quot;Clic&quot; e così via.
+
+1. Applica i seguenti filtri:
+
+   Piattaforma annuncio: `Advertising Cloud DSP`
+
+   Pagina di destinazione: `View-Through (CTV)`
+
+Utilizzo della vista Canale di marketing:
+
+1. Includi la dimensione `Marketing Channel`.
+
+1. Includi le metriche desiderate, ad esempio &quot;Impression&quot;, &quot;Clic&quot; e così via.
+
+1. Applica i seguenti filtri:
+
+   Piattaforma annuncio: `Advertising Cloud DSP`
+
+   Pagina di destinazione: `View-Through (CTV)`
+
+### Creazione di dashboard di Adobe Advertising
 
 Per scoprire come tracciare i dati Adobi Advertising rispetto agli obiettivi in Analysis Workspace, guarda il video &quot;[Creare dashboard di Adobe Advertising con Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html).&quot;
 
@@ -111,5 +141,5 @@ Per scoprire come creare un rapporto sulle visite al sito di un Adobe Advertisin
 >* [Adobe di ID pubblicitari utilizzati da Analytics](ids.md)
 >* [Codice JavaScript per Analytics per Advertising](/help/integrations/analytics/javascript.md)
 >* [Varianze di dati previste tra [!DNL Analytics] e pubblicità Adobe](data-variances.md)
->* [Metriche pubblicitarie per Adobi in Analysis Workspace](/help/integrations/analytics/advertising-metrics-in-analytics.md)
+>* [Metriche di Adobe Advertising in Analysis Workspace](/help/integrations/analytics/advertising-metrics-in-analytics.md)
 >* [[!DNL Analytics] Dati in Adobe Advertising](/help/integrations/analytics/analytics-data-in-advertising.md)
