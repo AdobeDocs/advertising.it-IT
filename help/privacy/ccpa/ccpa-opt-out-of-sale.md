@@ -1,18 +1,19 @@
 ---
-title: 'Adobe di supporto pubblicitario per il California Consumer Privacy Act: supporto per la rinuncia del consumatore'
+title: 'Adobe Advertising di supporto per il California Consumer Privacy Act: supporto per la rinuncia del consumatore'
 description: Scopri il supporto per l’acquisizione delle richieste di rifiuto del consumatore.
 feature: CCPA
+role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: df19f47971e97727c85bce99ce80b677fbdb1a49
 workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 0%
 
 ---
 
-# Adobe di supporto pubblicitario per il California Consumer Privacy Act: supporto per la rinuncia del consumatore alla vendita
+# Adobe Advertising di supporto per il California Consumer Privacy Act: supporto per la rinuncia del consumatore alla vendita
 
-*Ad Adobe il Demand Side Platform della pubblicità (DSP)*
+*Ad Adobe Advertising Demand Side Platform (DSP)*
 
 >[!IMPORTANT]
 >
@@ -22,9 +23,9 @@ Il California Consumer Privacy Act (CCPA) è la nuova legge sulla privacy della 
 
 In qualità di azienda, potrai determinare i dati personali che Adobe Experience Cloud tratta e archivia per tuo conto.
 
-In qualità di fornitore di servizi, Adobe Advertising fornisce supporto alla tua azienda per l’adempimento dei suoi obblighi in virtù del CCPA applicabili all’utilizzo di prodotti e servizi Adobe Advertising, inclusa la gestione delle richieste dei consumatori di accedere e cancellare informazioni personali e la gestione delle richieste dei consumatori di non partecipare alla vendita di informazioni personali.
+In qualità di fornitore di servizi, Adobe Advertising fornisce supporto alla tua azienda per l’adempimento dei suoi obblighi in virtù del CCPA applicabili all’utilizzo di prodotti e servizi di Adobe Advertising, inclusa la gestione delle richieste dei consumatori di accedere e cancellare informazioni personali e la gestione delle richieste dei consumatori di non partecipare alla vendita di informazioni personali.
 
-In questo documento viene descritto come l&#39;DSP (Adobe Advertising Demand Side Platform), in qualità di fornitore di servizi, supporti il diritto dei consumatori di non partecipare alla &quot;vendita&quot; di &quot;informazioni personali&quot;, in quanto ogni termine è definito dal CCPA. Include informazioni su come comunicare le richieste di rifiuto alla vendita ad Adobe Advertising e come recuperare i rapporti sulle richieste di rifiuto della vendita della tua organizzazione.
+In questo documento viene descritto come l&#39;DSP (Adobe Advertising Demand Side Platform), in qualità di fornitore di servizi, supporti il diritto del consumatore di rinunciare alla &quot;vendita&quot; di &quot;informazioni personali&quot;, in base a quanto definito dal CCPA. Include informazioni su come comunicare ad Adobe Advertising le richieste di rifiuto e come recuperare i rapporti sulle richieste di rifiuto dell’organizzazione.
 
 Per informazioni su come [!DNL Advertising Search, Social, & Commerce]; Advertising Creative; e [!DNL Advertising DCO] supportare i diritti di accesso e di eliminazione delle informazioni personali dei consumatori, vedi [Adobe di supporto per la pubblicità per il California Consumer Privacy Act: supporto per l’accesso e l’eliminazione dei dati dei consumatori](/help/privacy/ccpa/ccpa-access-delete.md).
 
@@ -64,14 +65,15 @@ Puoi comunicare le richieste di rifiuto del consumatore utilizzando:
 
    >[!IMPORTANT]
    >
-   >Contatta il rappresentante Adobe Advertising della tua azienda per verificare che tutti gli account Adobe Advertising della tua organizzazione, tra cui [!DNL DSP] account o inserzionisti, [!DNL Search, Social, & Commerce] conti, e [!DNL Creative] o [!DNL DCO] account — sono collegati al tuo ID organizzazione Experience Cloud.
+   >Contatta il rappresentante Adobe Advertising della tua azienda per verificare che tutti gli account Adobi Advertising della tua organizzazione, tra cui [!DNL DSP] account o inserzionisti, [!DNL Search, Social, & Commerce] conti, e [!DNL Creative] o [!DNL DCO] account — sono collegati al tuo ID organizzazione Experience Cloud.
 
 1. Utilizza l’API di Adobe Experience Platform Privacy Service per: [invia richieste di rinuncia alla vendita](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html) Adobe della pubblicità per conto dei consumatori e verifica lo stato delle richieste esistenti.
 
    Per un esempio di richiesta di rifiuto, consulta l’appendice seguente.
 
    >[!NOTE]
-   Se la tua azienda dispone di più ID organizzazione Experience Cloud, devi inviare richieste API separate per ciascuno di essi. Tuttavia, puoi effettuare una richiesta API a più soluzioni secondarie di Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], e [!DNL DCO]), con un account per ogni soluzione secondaria.
+   >
+   Se la tua azienda dispone di più ID organizzazione Experience Cloud, devi inviare richieste API separate per ciascuno di essi. Tuttavia, puoi effettuare una richiesta API a più soluzioni secondarie Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], e [!DNL DCO]), con un account per ogni soluzione secondaria.
 
 Tutti questi passaggi sono necessari per ricevere supporto da Adobe Advertising. Per ulteriori informazioni su queste e altre attività correlate che devi eseguire utilizzando Adobe Experience Platform Privacy Service, e dove trovare gli elementi necessari, vedi [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
@@ -132,4 +134,4 @@ curl -X POST \
 dove:
 
 * `"namespace": "AdCloud"` indica il `AdCloud` cookie e il valore corrispondente è l’ID cookie del cliente come recuperato da `AdobePrivacy.js`
-* `"include": ["AdCloud"]` indica che la richiesta si applica ad Adobe Advertising
+* `"include": ["AdCloud"]` indica che la richiesta si applica a Adobe Advertising

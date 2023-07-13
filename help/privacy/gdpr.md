@@ -1,16 +1,17 @@
 ---
-title: Adobe di supporto pubblicitario per il regolamento generale sulla protezione dei dati
+title: Supporto Adobe Advertising per il regolamento generale sulla protezione dei dati
 description: Scopri i tipi di richiesta di dati supportati, i valori di configurazione e campi richiesti ed esempi di richieste di accesso API che utilizzano ID prodotto legacy e campi dati restituiti
 feature: GDPR
+role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 071d0ae725c21aaea19072725ae99ca77ef1a410
+source-git-commit: df19f47971e97727c85bce99ce80b677fbdb1a49
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 0%
 
 ---
 
-# Supporto Adobe Advertising per il regolamento generale sulla protezione dei dati
+# Adobe di supporto pubblicitario per il regolamento generale sulla protezione dei dati
 
 *Per [!DNL Adobe Advertising Search, Social, & Commerce]; Adobe Advertising DSP; Adobe Advertising Creative; e Adobe Advertising DCO*
 
@@ -22,7 +23,7 @@ Il Regolamento generale sulla protezione dei dati (RGPD), una legge in vigore da
 
 Adobe Experience Cloud agisce come responsabile del trattamento per tutti i dati personali che riceve e archivia per conto dei propri clienti. In qualità di titolare del trattamento dei dati, l’utente determina i dati personali che Adobe Experience Cloud tratta e archivia per suo conto.
 
-Questo documento descrive come [!DNL Advertising Search, Social, & Commerce]; Advertising Creative; Advertising DSP (Demand Side Platform); e [!DNL Advertising DCO] supporta i diritti all’accesso e all’eliminazione dei dati degli interessati ai sensi del RGPD tramite l’API Adobe Experience Platform Privacy Service e l’interfaccia utente di Privacy Service.
+Questo documento descrive come [!DNL Advertising Search, Social, & Commerce]; Advertising Creative; pubblicità DSP (Demand Side Platform); e [!DNL Advertising DCO] supporta i diritti all’accesso e all’eliminazione dei dati degli interessati ai sensi del RGPD tramite l’API Adobe Experience Platform Privacy Service e l’interfaccia utente di Privacy Service.
 
 Per ulteriori informazioni sul significato del RGPD per la tua attività, consulta [Il RGPD e la tua azienda](https://www.adobe.com/privacy/general-data-protection-regulation.html).
 
@@ -58,7 +59,7 @@ Ad Adobe Advertising, per richiedere l’accesso e l’eliminazione dei dati dev
 
    >[!IMPORTANT]
    >
-   >Contatta il rappresentante Adobe Advertising della tua azienda per verificare che tutti gli account Adobe Advertising della tua organizzazione, tra cui [!DNL DSP] account o inserzionisti, [!DNL Search, Social, & Commerce] conti, e [!DNL Creative] o [!DNL DCO] account — sono collegati al tuo ID organizzazione Experience Cloud.
+   >Contatta il rappresentante Adobe Advertising della tua azienda per verificare che tutti gli account Adobi Advertising della tua organizzazione, tra cui [!DNL DSP] account o inserzionisti, [!DNL Search, Social, & Commerce] conti, e [!DNL Creative] o [!DNL DCO] account — sono collegati al tuo ID organizzazione Experience Cloud.
 
 1. Utilizza il [API ADOBE EXPERIENCE PLATFORM PRIVACY SERVICE](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (per le richieste automatizzate) o [Interfaccia utente di Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it) (per richieste ad hoc) di inviare richieste di accesso e cancellazione ad Adobe Advertising per conto delle persone interessate e di controllare lo stato delle richieste esistenti.
 
@@ -91,7 +92,7 @@ Tutti questi passaggi sono necessari, ad Adobe Advertising. Per ulteriori inform
 
    * `"namespace": **411**` (che indica il [!DNL adcloud] spazio cookie)
 
-   * `"value":` &lt;*il valore ID cookie effettivo dell’interessato recuperato da`AdobePrivacy.js`*>
+   * `"value":` &lt;*il valore ID cookie dell’interessato effettivo così come recuperato da`AdobePrivacy.js`*>
 
 * `"include": **adCloud**` (prodotto di Adobe applicabile alla richiesta)
 
@@ -102,29 +103,29 @@ Tutti questi passaggi sono necessari, ad Adobe Advertising. Per ulteriori inform
 ```
 {
 "companyContexts":[
-      {
-         "namespace":"imsOrgID",
-         "value":"5AB13068374019BC@AdobeOrg"
-      }
-   ],
-   "users": [
+    {
+        "namespace":"imsOrgID",
+        "value":"5AB13068374019BC@AdobeOrg"
+      }
+   ],
+   "users": [
 {
- "key": "John Doe",
- "action":["access"],
-  "userIDs":[
-      {
-         "namespace":"411",
-         "value":"Wqersioejr-wdg",
-         "type":"namespaceId",
-         "deletedClientSide":false
-      }
-   ]
+ "key": "John Doe",
+ "action":["access"],
+ "userIDs":[
+      { 
+        "namespace":"411",
+        "value":"Wqersioejr-wdg",
+        "type":"namespaceId",
+        "deletedClientSide":false
+      }
+   ]
 }
 ],
 "include":[
-      "adCloud"
-   ],
-    "regulation":"gdpr"
+      "adCloud"
+   ],
+    "regulation":"gdpr"
 }
 }
 ```
