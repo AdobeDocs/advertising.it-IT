@@ -3,9 +3,9 @@ title: Impostazioni report personalizzati
 description: Consulta le descrizioni delle impostazioni del rapporto personalizzato.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: b41c1ab857d37d21cf593a8e566b18f2769d47c0
+source-git-commit: 73fb309063066e52e4d8c23f5ce9ebb84159b253
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -70,38 +70,41 @@ Consulta &quot;[Colonne report disponibili](report-columns.md)&quot; per le desc
 
 ## [!UICONTROL Multi-Touch Conversion Options] Sezione
 
+**[!UICONTROL Attribution Rule Settings]** Le impostazioni variano in base al tipo di rapporto:
 
-### [!UICONTROL Attribution Rule Settings]
+* **\[Tipo di attribuzione\]:** ([!UICONTROL Household Conversion] rapporti con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] colonne; solo per gli inserzionisti con tracciamento conversione Adobe Advertising) All’interno del rapporto, come attribuire i dati di conversione in una serie di eventi che portano a una conversione:
 
-**\[Tipo di attribuzione\]:** ([!UICONTROL Household Conversion] rapporti con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] colonne; solo per gli inserzionisti con tracciamento conversione Adobe Advertising) All’interno del rapporto, come attribuire i dati di conversione in una serie di eventi che portano a una conversione:
+   * [!UICONTROL Unique]: (impostazione predefinita) conta il numero di volte in cui un valore di dimensione (ad esempio un dispositivo o un posizionamento) si trovava nel percorso di conversione.
 
-* [!UICONTROL Unique]: (impostazione predefinita) conta il numero di volte in cui un valore di dimensione (ad esempio un dispositivo o un posizionamento) si trovava nel percorso di conversione.
+   * [!UICONTROL Multi-Touch Attribution (MTA)]: distribuisce il credito di ogni conversione in base alla frequenza di occorrenza del valore di dimensione (ad esempio un dispositivo o un posizionamento) nel percorso di conversione. Ad esempio, se il totale delle impression prima della conversione era 10, con 8 su CTV e 2 su Mobile, l&#39;80% del credito (0,8) viene assegnato agli schermi CTV e 0,2 a Mobile.
 
-* [!UICONTROL Multi-Touch Attribution (MTA)]: distribuisce il credito di ogni conversione in base alla frequenza di occorrenza del valore di dimensione (ad esempio un dispositivo o un posizionamento) nel percorso di conversione. Ad esempio, se il totale delle impression prima della conversione era 10, con 8 su CTV e 2 su Mobile, l&#39;80% del credito (0,8) viene assegnato agli schermi CTV e 0,2 a Mobile.
+* **\[Tipo di regola\]:** (Tutti [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], e [!UICONTROL Site] rapporti con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] colonne; solo per gli inserzionisti con tracciamento delle conversioni di Adobi Advertising) All’interno del rapporto, come attribuire i dati di conversione in una serie di eventi che portano a una conversione. Puoi scegliere più di una regola se desideri confrontare le differenze tra le regole.
 
-**\[Tipo di regola\]:** (Tutti [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], e [!UICONTROL Site] rapporti con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] colonne; solo per gli inserzionisti con tracciamento delle conversioni di Adobi Advertising) All’interno del rapporto, come attribuire i dati di conversione in una serie di eventi che portano a una conversione. Puoi scegliere più di una regola se desideri confrontare le differenze tra le regole.
+  >[!NOTE]
+  >
+  >I percorsi di conversione includono eventuali impression e clic all’interno degli intervalli di impression o lookback di clic dell’inserzionista, configurati in [!DNL Advertising Search, Social, & Commerce]. Ai clic viene data la preferenza alle impression durante l’attribuzione della conversione. Tutti i clic in un percorso di conversione ricevono il pieno credito in base alla regola di attribuzione. Il merito delle impression viene attribuito solo quando nel percorso di conversione non vengono tracciati clic.
 
->[!NOTE]
->
->I percorsi di conversione includono eventuali impression e clic all’interno degli intervalli di impression o lookback di clic dell’inserzionista, configurati in [!DNL Advertising Search, Social, & Commerce]. Ai clic viene data la preferenza alle impression durante l’attribuzione della conversione. Tutti i clic in un percorso di conversione ricevono il pieno credito in base alla regola di attribuzione. Il merito delle impression viene attribuito solo quando nel percorso di conversione non vengono tracciati clic.
+   * *[!UICONTROL Last Event]:* Attribuisce le conversioni all’ultimo clic o impression nel percorso di conversione.
 
-* *[!UICONTROL Last Event]:* Attribuisce le conversioni all’ultimo clic o impression nel percorso di conversione.
+   * *[!UICONTROL Weight Last More]:* Attribuisce le conversioni a tutti gli eventi nel percorso di conversione, ma attribuisce il maggior peso all’ultimo evento e successivamente meno peso agli eventi precedenti.
 
-* *[!UICONTROL Weight Last More]:* Attribuisce le conversioni a tutti gli eventi nel percorso di conversione, ma attribuisce il maggior peso all’ultimo evento e successivamente meno peso agli eventi precedenti.
+   * *[!UICONTROL Even Distribution]:* Attribuisce le conversioni in modo uguale a ciascun evento nel percorso di conversione.
 
-* *[!UICONTROL Even Distribution]:* Attribuisce le conversioni in modo uguale a ciascun evento nel percorso di conversione.
+   * *[!UICONTROL Weight First More]:* Attribuisce le conversioni a tutti gli eventi nel percorso di conversione, ma attribuisce il maggior peso al primo evento e successivamente meno peso ai seguenti eventi.
 
-* *[!UICONTROL Weight First More]:* Attribuisce le conversioni a tutti gli eventi nel percorso di conversione, ma attribuisce il maggior peso al primo evento e successivamente meno peso ai seguenti eventi.
+   * *[!UICONTROL First Event]:* Attribuisce le conversioni al primo clic o impression nel percorso di conversione.
 
-* *[!UICONTROL First Event]:* Attribuisce le conversioni al primo clic o impression nel percorso di conversione.
+   * *[!UICONTROL U-shaped]:* Attribuisce la conversione a tutti gli eventi nel percorso di conversione, ma attribuisce il maggior peso al primo e all’ultimo evento, con un peso progressivamente inferiore agli eventi nel mezzo del percorso di conversione.
 
-* *[!UICONTROL U-shaped]:* Attribuisce la conversione a tutti gli eventi nel percorso di conversione, ma attribuisce il maggior peso al primo e all’ultimo evento, con un peso progressivamente inferiore agli eventi nel mezzo del percorso di conversione.
+   * *[!UICONTROL Display Only]:*  Attribuisce le conversioni all’ultimo clic o impression DSP nel percorso di conversione. Ciò include video e annunci TV collegati ed esclude i clic su [!DNL Advertising Search, Social, & Commerce] annunci.
 
-* *[!UICONTROL Display Only]:*  Attribuisce le conversioni all’ultimo clic o impression DSP nel percorso di conversione. Ciò include video e annunci TV collegati ed esclude i clic su [!DNL Advertising Search, Social, & Commerce] annunci.
+   * *[!UICONTROL Social Only]:* Obsoleto
 
-* *[!UICONTROL Social Only]:* Obsoleto
+  <!-- See also [How Attribution Rules Are Calculated for Adobe Advertising](). -->
 
-<!-- See also [How Attribution Rules Are Calculated for Adobe Advertising](). -->
+<!--
+* **Lookback:** ([!UICONTROL Household Conversion] reports with [!UICONTROL Conversion Metrics] or [!UICONTROL Custom Goals] columns; advertisers with Adobe Advertising conversion tracking only) Within the report, the number of days after a paid click in an event series occurs in which the click can be attributed to a conversion.
+-->
 
 **[!UICONTROL Paths as Columns]:**  (Tutti [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], e [!UICONTROL Site] rapporti con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] colonne) Quali tipi di conversioni segnalare quando si sono verificati eventi precedenti sullo stesso dispositivo. Puoi includere fino a tre tipi. Per ogni tipo selezionato, viene inclusa una colonna separata per ogni metrica di conversione e viene aggiunta una colonna con il suffisso specificato ([!UICONTROL (tl)], [!UICONTROL (ct)], o [!UICONTROL (vt)]):
 
