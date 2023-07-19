@@ -3,7 +3,7 @@ title: Informazioni sui report personalizzati
 description: Scopri le opzioni per la creazione manuale di rapporti personalizzati o l’utilizzo di modelli di rapporto preconfigurati.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: b3c45f6ae5adcf7cd41060e4e724dbb8021c8c1b
+source-git-commit: ab892528a2fbc0ed5994938ead23cd8e33e8b45f
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Puoi generare i rapporti una volta o pianificarli in modo che vengano generati o
 
    * **[!UICONTROL Household Reach & Frequency]:** Utilizza questo rapporto per visualizzare impression, portata e frequenza di una singola dimensione in tutti i formati di annuncio a livello di famiglia in base all’indirizzo IP, anziché a livello di dispositivo/cookie. Utilizza le informazioni per ottimizzare il mix di contenuti multimediali, migliorare le prestazioni e identificare opportunità di portata incrementale. Consulta &quot;[Domande frequenti sui rapporti sulle famiglie](/help/dsp/reports/faq-household-report.md)&quot; per ulteriori informazioni.
 
-* **[!UICONTROL Household Conversions]:** Utilizza questo rapporto per visualizzare le conversioni view-through a livello di famiglia in base all’indirizzo IP, anziché a livello di dispositivo/cookie. Utilizza le informazioni per misurare e ottimizzare le prestazioni della campagna. Consulta &quot;[Domande frequenti sui rapporti sulle famiglie](/help/dsp/reports/faq-household-report.md)&quot; per ulteriori informazioni.
+   * **[!UICONTROL Household Conversions]:** Utilizza questo rapporto per visualizzare le conversioni view-through a livello di famiglia in base all’indirizzo IP, anziché a livello di dispositivo/cookie. Utilizza le informazioni per misurare e ottimizzare le prestazioni della campagna. Consulta &quot;[Domande frequenti sui rapporti sulle famiglie](/help/dsp/reports/faq-household-report.md)&quot; per ulteriori informazioni.
 
 ## Reporting tra account {#cross-account-reporting}
 
