@@ -4,7 +4,7 @@ user-guide-title: Guida di Advertising DSP
 user-guide-description: Scopri le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire e ottimizzare le strategie degli annunci display con Advertising DSP e creare i relativi rapporti.
 breadcrumb-title: Guida di DSP
 index: true
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: b505a40d04fc57fce245d111f58a614bd6756c65
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 
 + [Novità](/help/dsp/home.md)
 + Introduzione {#introduction}
-   + [Introduzione a Adobe Advertising DSP](/help/dsp/introduction/dsp-about.md)
+   + [Introduzione all’Adobe Advertising DSP](/help/dsp/introduction/dsp-about.md)
    + Funzioni principali {#features}
       + [Ottimizzazione](/help/dsp/introduction/features/optimization.md)
       + [Sicurezza del marchio e qualità dei contenuti multimediali](/help/dsp/introduction/features/brand-safety-media-quality.md)
@@ -207,7 +207,7 @@ ht-degree: 6%
    + [Eseguire un rapporto personalizzato](/help/dsp/reports/report-run-now.md)
    + [Impostazioni report personalizzati](/help/dsp/reports/report-settings.md)
    + [Colonne report disponibili](/help/dsp/reports/report-columns.md)
-   + [Domande frequenti su [!UICONTROL Household] Report](/help/dsp/reports/faq-household-report.md)
+   + [Domande frequenti sui rapporti sulle famiglie](/help/dsp/reports/faq-household-report.md)
    + Destinazioni report {#report-destinations}
       + [Informazioni su [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
       + [Creare un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)

@@ -1,14 +1,15 @@
 ---
-title: Domande frequenti sui rapporti
+title: Domande frequenti sui rapporti personalizzati
 description: Scopri le risposte alle domande comuni sui rapporti sulle prestazioni, inclusa la risoluzione dei problemi relativi ai dati.
-source-git-commit: 3f2b483a4cae20295a2334321802f8abfe864bd8
+exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
+source-git-commit: 18d7ec2254dda9e5f94270e13476a521006ec686
 workflow-type: tm+mt
-source-wordcount: '3917'
+source-wordcount: '3919'
 ht-degree: 0%
 
 ---
 
-# Domande frequenti sui rapporti
+# Domande frequenti sui rapporti personalizzati
 
 ## Domande generali
 
@@ -200,7 +201,7 @@ Il rapporto potrebbe non includere le metriche di conversione per le quali si so
 
 1. Verifica che il file sia stato inviato al server delle entrate e che il file segua lo stesso formato e la stessa convenzione di denominazione dei file precedenti.
 
-   Se il formato o la convenzione di denominazione del file sono stati modificati, correggere il file e inviarlo di nuovo.
+   Se il formato o la convenzione di denominazione dei file sono stati modificati, correggere il file e inviarlo di nuovo.
 
 1. Se il file è stato inviato, [contatta l’Assistenza clienti](/help/search-social-commerce/get-help.md).
 
@@ -213,7 +214,7 @@ Il [!UICONTROL Geo Distribution Report] e [!UICONTROL Domain Referral Report] ut
 
 +++I dati dei ricavi sono diversi da quelli dell’inserzionista.
 
-**Inserzionisti che utilizzano tag di conversione Adobe Advertising**
+**Inserzionisti che utilizzano i tag di conversione Adobe Advertising**
 
 *Possibili cause:*
 
@@ -312,7 +313,7 @@ Le reti di annunci non forniscono l’identificatore necessario per attribuire i
 +++
 
 +++In [!UICONTROL Transaction Report], come posso sapere quale proprietà di transazione proviene da un feed di dati o è tracciata dal pixel di tracciamento di Adobe Advertising?
-In un rapporto di transazione, puoi verificare se una proprietà di transazione inclusa è stata tracciata dal pixel di tracciamento dell’Adobe Advertising se includi la colonna personalizzata &quot;[!UICONTROL Tracking URL].&quot; Gli URL di tracciamento con il pixel di tracciamento di Advertising di Adobe iniziano con &quot;`http://pixel.everesttech.net`.&quot;
+In un rapporto di transazione, puoi verificare se una proprietà di transazione inclusa è stata tracciata dal pixel di tracciamento dell’Adobe Advertising se includi la colonna personalizzata &quot;[!UICONTROL Tracking URL].&quot; Gli URL di tracciamento con il pixel di tracciamento di Adobe Advertising iniziano con &quot;`http://pixel.everesttech.net`.&quot;
 +++
 
 +++I dati nel mio [!UICONTROL Transaction Report] non corrisponde ai dati nel mio [!UICONTROL Keyword Report].

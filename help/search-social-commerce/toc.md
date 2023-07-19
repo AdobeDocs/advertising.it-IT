@@ -4,9 +4,9 @@ user-guide-title: Guida di Advertising Search, Social e Commerce
 user-guide-description: Questa guida descrive le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire, tracciare e creare rapporti sulle campagne di annunci di ricerca, social e commerce.
 breadcrumb-title: Guida di Advertising Search, Social e Commerce
 index: true
-source-git-commit: 50c462fd58acd9cd36aace933ff56db43c2dbf48
+source-git-commit: 18d7ec2254dda9e5f94270e13476a521006ec686
 workflow-type: tm+mt
-source-wordcount: '1719'
+source-wordcount: '1720'
 ht-degree: 2%
 
 ---
@@ -84,12 +84,12 @@ ht-degree: 2%
       + [Il parametro di tracciamento s_kwcid](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
    + Tracciamento delle conversioni {#conversion-tracking}
       + [Opzioni di tracciamento delle conversioni](/help/search-social-commerce/tracking/conversion-tracking-about.md)
-      + Adobe Advertising di tracciamento delle conversioni {#advertising-conversion-tracking}
+      + Adobe Tracciamento conversione Advertising {#advertising-conversion-tracking}
          + [Informazioni sui tag di tracciamento delle conversioni di Adobe Advertising](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
          + [Formato dei tag di tracciamento della conversione JavaScript versione 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
          + [Formato dei tag di tracciamento della conversione JavaScript versione 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
          + [Formato dei tag di tracciamento conversione immagine](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
-         + [Adobe Advertising di tag di mappatura della conversione JavaScript](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
+         + [Tag Adobe di mappatura della conversione JavaScript per Advertising](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
          + [Domande frequenti sui tag di conversione e di tracciamento della visualizzazione pagina](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
       + [Tracciamento delle conversioni Adobe Analytics](/help/search-social-commerce/tracking/conversion-tracking-analytics.md)
       + Conversioni tracciate dagli inserzionisti tramite feed{#conversion-feeds}
@@ -349,7 +349,7 @@ ht-degree: 2%
             + [Impostazioni feed report foglio di calcolo](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-settings.md)
          + [Accesso FTP ai rapporti](/help/search-social-commerce/reports/automation/ftp-reports.md)
       + [Calcolo delle regole di attribuzione](/help/search-social-commerce/reports/attribution-rules.md)
-      + [Domande frequenti sui rapporti](/help/search-social-commerce/reports/faqs-report.md)
+      + [Domande frequenti sui rapporti personalizzati](/help/search-social-commerce/reports/faqs-report.md)
    + Notifiche {#notifications}
       + [Informazioni sulle notifiche](/help/search-social-commerce/notifications/notification-about.md)
       + [Visualizzare le notifiche](/help/search-social-commerce/notifications/notification-view.md)
