@@ -2,9 +2,9 @@
 title: Domande frequenti sui rapporti sulle famiglie
 description: Scopri di più sulla portata della famiglia, la frequenza e i dati di conversione, compreso il modo in cui i rapporti sulla famiglia sono diversi da altri rapporti e la risoluzione dei problemi.
 exl-id: aaaf6f6d-b133-4cda-8fc6-bd686b3b1ebb
-source-git-commit: ae6028d7dc9b35906e4abcd727b84b169e5594b1
+source-git-commit: bd925c41f7b949c56402edd4e2dc393f0c5bed57
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -75,9 +75,9 @@ Quando un posizionamento include più tag, il rapporto considera l’intera stri
 
 Sono supportati due tipi di metodi di attribuzione:
 
-* Univoco: conta quante volte un valore di dimensione (ad esempio un dispositivo o un posizionamento) si trovava sul percorso di conversione.
+* [!UICONTROL Unique]: conta quante volte un valore di dimensione (ad esempio un dispositivo o un posizionamento) si trovava sul percorso di conversione.
 
-* MTA (Multi-Touch Attribution): distribuisce il credito di ogni conversione in base alla frequenza di occorrenza del valore di dimensione (ad esempio un dispositivo o un posizionamento) sul percorso di conversione. Ad esempio, se il totale delle impression prima della conversione era 10, con 8 su CTV e 2 su Mobile, l&#39;80% del credito (0,8) viene assegnato agli schermi CTV e 0,2 a Mobile.
+* [!UICONTROL Multi-Touch Attribution (MTA)]: distribuisce il credito di ogni conversione in base alla frequenza di occorrenza del valore di dimensione (ad esempio un dispositivo o un posizionamento) nel percorso di conversione. Ad esempio, se il totale delle impression prima della conversione era 10, con 8 su CTV e 2 su Mobile, l&#39;80% del credito (0,8) viene assegnato agli schermi CTV e 0,2 a Mobile.
 
 ### In che modo i rapporti sulle conversioni domestiche differiscono dai rapporti view-through CTV in Adobe Analytics?
 

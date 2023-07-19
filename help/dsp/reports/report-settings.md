@@ -3,9 +3,9 @@ title: Impostazioni report personalizzati
 description: Consulta le descrizioni delle impostazioni del rapporto personalizzato.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 3faf43573cb073be828b0740f68f0e7d0612a1ef
+source-git-commit: b41c1ab857d37d21cf593a8e566b18f2769d47c0
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1123'
 ht-degree: 0%
 
 ---
@@ -64,13 +64,22 @@ Consulta &quot;[Colonne report disponibili](report-columns.md)&quot; per le desc
 
 **[!UICONTROL Drag to Re-Order Report Headers Below]:** Ordine delle intestazioni di colonna. Puoi trascinare e rilasciare qualsiasi colonna per personalizzare l’ordine.
 
-## [!UICONTROL Multi-Touch Conversion Options] Sezione
-
 **[!UICONTROL Format]:** Se generare un rapporto in *[!UICONTROL CSV]* (valori separati da virgole) o *[!UICONTROL Tab]* (valori separati da tabulazioni).
 
-**[!UICONTROL Report Headers]:** Se a *[!UICONTROL Include]* o *[!UICONTROL Do Not Include]* intestazioni di colonna.
+**[!UICONTROL Headers]:** Se a *[!UICONTROL Include]* o *[!UICONTROL Do Not Include]* intestazioni di colonna.
 
-**[!UICONTROL Attribution Rule Settings]:** (Tutti [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], e [!UICONTROL Site] rapporti con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] colonne; solo per gli inserzionisti con tracciamento delle conversioni di Adobi Advertising) All’interno del rapporto, come attribuire i dati di conversione in una serie di eventi che portano a una conversione. Puoi scegliere più di una regola se desideri confrontare le differenze tra le regole.
+## [!UICONTROL Multi-Touch Conversion Options] Sezione
+
+
+### [!UICONTROL Attribution Rule Settings]
+
+**\[Tipo di attribuzione\]:** ([!UICONTROL Household Conversion] rapporti con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] colonne; solo per gli inserzionisti con tracciamento conversione Adobe Advertising) All’interno del rapporto, come attribuire i dati di conversione in una serie di eventi che portano a una conversione:
+
+* [!UICONTROL Unique]: (impostazione predefinita) conta il numero di volte in cui un valore di dimensione (ad esempio un dispositivo o un posizionamento) si trovava nel percorso di conversione.
+
+* [!UICONTROL Multi-Touch Attribution (MTA)]: distribuisce il credito di ogni conversione in base alla frequenza di occorrenza del valore di dimensione (ad esempio un dispositivo o un posizionamento) nel percorso di conversione. Ad esempio, se il totale delle impression prima della conversione era 10, con 8 su CTV e 2 su Mobile, l&#39;80% del credito (0,8) viene assegnato agli schermi CTV e 0,2 a Mobile.
+
+**\[Tipo di regola\]:** (Tutti [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], e [!UICONTROL Site] rapporti con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] colonne; solo per gli inserzionisti con tracciamento delle conversioni di Adobi Advertising) All’interno del rapporto, come attribuire i dati di conversione in una serie di eventi che portano a una conversione. Puoi scegliere più di una regola se desideri confrontare le differenze tra le regole.
 
 >[!NOTE]
 >
