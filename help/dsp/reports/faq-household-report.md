@@ -2,9 +2,9 @@
 title: Domande frequenti sui rapporti sulle famiglie
 description: Scopri di più sulla portata della famiglia, la frequenza e i dati di conversione, compreso il modo in cui i rapporti sulla famiglia sono diversi da altri rapporti e la risoluzione dei problemi.
 exl-id: aaaf6f6d-b133-4cda-8fc6-bd686b3b1ebb
-source-git-commit: e07038895e64a266f898619384c8b41024f71038
+source-git-commit: ae6028d7dc9b35906e4abcd727b84b169e5594b1
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -91,11 +91,11 @@ Se la tua organizzazione ha [!DNL Analytics for Advertising], utilizza entrambi 
 
 ## [!UICONTROL Household Reach & Frequency] e [!UICONTROL Household Conversions] Rapporti e dati di [!DNL Advanced Measurement Services]
 
-Per la generazione di rapporti avanzati su portata e frequenza basate sulle famiglie o conversioni, [[!DNL Strategic Advertising Consulting] team](/help/dsp/introduction/advanced-measurement-services.md) può fornire rapporti altamente personalizzabili insieme a consigli strategici olistici. Per ulteriori informazioni su [!DNL Advanced Measurement Services], contatta il team del tuo account Adobe.
+Per la generazione avanzata di rapporti sulla portata e la frequenza basate sulle famiglie o sulle conversioni, il [[!DNL Strategic Advertising Consulting] team](/help/dsp/introduction/advanced-measurement-services.md) può fornire rapporti altamente personalizzabili insieme a consigli strategici olistici. Per ulteriori informazioni su [!DNL Advanced Measurement Services], contatta il team del tuo account Adobe.
 
 ### Se utilizzo già [!DNL Advanced Measurement Services], perché utilizzare il [!UICONTROL Household Reach & Frequency] e [!UICONTROL Household Conversions] rapporti?
 
-Il [!UICONTROL Household Reach & Frequency] e [!UICONTROL Household Conversions] i report consentono ai clienti di richiamare autonomamente in tempo reale le metriche relative a portata, frequenza e conversione a livello di famiglia.
+Il [!UICONTROL Household Reach & Frequency] e [!UICONTROL Household Conversions] i rapporti consentono ai clienti di richiamare autonomamente in tempo reale le metriche relative a portata, frequenza e conversione a livello di famiglia.
 
 ### Posso utilizzare entrambi i [!UICONTROL Household Reach & Frequency] e [!UICONTROL Household Conversions] rapporti e [!DNL Advanced Measurement Services]?
 
