@@ -3,7 +3,7 @@ title: Impostazioni report personalizzati
 description: Consulta le descrizioni delle impostazioni del rapporto personalizzato.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 2e0240ff1b342d5a0564e01ebec3ee313b488b59
+source-git-commit: 3faf43573cb073be828b0740f68f0e7d0612a1ef
 workflow-type: tm+mt
 source-wordcount: '1013'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 **[!UICONTROL Name]** Il nome del rapporto. La lunghezza massima è di 180 caratteri.
 
-**[!UICONTROL Report Type]** Tipo di rapporto: *[!UICONTROL Custom]* (che include la maggior parte delle opzioni disponibili), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*,  *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*,  *[!UICONTROL Segment]*, *[!UICONTROL Site]*, o *[!UICONTROL Household]*.
+**[!UICONTROL Report Type]** Tipo di rapporto: *[!UICONTROL Custom]* (che include la maggior parte delle opzioni disponibili), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*,  *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*,  *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]*, o *[!UICONTROL Household Conversions]*.
 
 ## [!UICONTROL Apply Filters] Sezione
 
@@ -46,15 +46,15 @@ Per applicare uno o più filtri, effettuare le seguenti operazioni:
 
 * [!UICONTROL Dimensions]
 
-   >[!NOTE]
-   >
-   > Il [!UICONTROL Household] il rapporto può includere una sola dimensione.
+  >[!NOTE]
+  >
+  > Il [!UICONTROL Household Reach & Frequency] il rapporto può includere una sola dimensione.
 
 * [!UICONTROL Metrics]
 
-   >[!NOTE]
-   >
-   >Il [!UICONTROL Household] Il rapporto può includere metriche di sovrapposizione o metriche non di sovrapposizione, ma non entrambe.
+  >[!NOTE]
+  >
+  >Il [!UICONTROL Household Reach & Frequency] Il rapporto può includere metriche di sovrapposizione o metriche non di sovrapposizione, ma non entrambe.
 
 * [!UICONTROL Conversion Metrics] (ordinato per inserzionista)
 
@@ -70,7 +70,7 @@ Consulta &quot;[Colonne report disponibili](report-columns.md)&quot; per le desc
 
 **[!UICONTROL Report Headers]:** Se a *[!UICONTROL Include]* o *[!UICONTROL Do Not Include]* intestazioni di colonna.
 
-**[!UICONTROL Attribution Rule Settings]:** (Tutti [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], e [!UICONTROL Site] rapporti con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] solo per il tracciamento delle conversioni Adobe Advertising) All’interno del rapporto, come attribuire i dati di conversione in una serie di eventi che portano a una conversione. Puoi scegliere più di una regola se desideri confrontare le differenze tra le regole.
+**[!UICONTROL Attribution Rule Settings]:** (Tutti [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], e [!UICONTROL Site] rapporti con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] colonne; solo per gli inserzionisti con tracciamento delle conversioni di Adobi Advertising) All’interno del rapporto, come attribuire i dati di conversione in una serie di eventi che portano a una conversione. Puoi scegliere più di una regola se desideri confrontare le differenze tra le regole.
 
 >[!NOTE]
 >
@@ -80,7 +80,7 @@ Consulta &quot;[Colonne report disponibili](report-columns.md)&quot; per le desc
 
 * *[!UICONTROL Weight Last More]:* Attribuisce le conversioni a tutti gli eventi nel percorso di conversione, ma attribuisce il maggior peso all’ultimo evento e successivamente meno peso agli eventi precedenti.
 
-* *[!UICONTROL Even Distribution]:* Attribuisce le conversioni in modo uguale a ogni evento nel percorso di conversione.
+* *[!UICONTROL Even Distribution]:* Attribuisce le conversioni in modo uguale a ciascun evento nel percorso di conversione.
 
 * *[!UICONTROL Weight First More]:* Attribuisce le conversioni a tutti gli eventi nel percorso di conversione, ma attribuisce il maggior peso al primo evento e successivamente meno peso ai seguenti eventi.
 
@@ -156,4 +156,3 @@ Consulta &quot;[Colonne report disponibili](report-columns.md)&quot; per le desc
 >* [Impostazioni report personalizzati](/help/dsp/reports/report-settings.md)
 >* [Informazioni sulle destinazioni dei rapporti](/help/dsp/reports/report-destinations/report-destination-about.md)
 >* [Colonne report disponibili](/help/dsp/reports/report-columns.md)
-
