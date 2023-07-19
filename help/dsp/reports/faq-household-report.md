@@ -1,10 +1,10 @@
 ---
 title: Domande frequenti sui rapporti sulle famiglie
-description: Ulteriori informazioni sui dati dei rapporti, tra cui come [!UICONTROL Household] i rapporti sono diversi dagli altri rapporti e dalla risoluzione dei problemi.
+description: Scopri di più sulla portata della famiglia, la frequenza e i dati di conversione, compreso il modo in cui i rapporti sulla famiglia sono diversi da altri rapporti e la risoluzione dei problemi.
 exl-id: aaaf6f6d-b133-4cda-8fc6-bd686b3b1ebb
-source-git-commit: 05f7d9c7a120828bda46d4f79796dfb419cca242
+source-git-commit: e07038895e64a266f898619384c8b41024f71038
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
