@@ -3,9 +3,9 @@ title: Impostazioni report personalizzati
 description: Consulta le descrizioni delle impostazioni del rapporto personalizzato.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 73fb309063066e52e4d8c23f5ce9ebb84159b253
+source-git-commit: 781b0c8874d73d060bc7133bdd55d1ceffb63435
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
@@ -74,9 +74,9 @@ Consulta &quot;[Colonne report disponibili](report-columns.md)&quot; per le desc
 
 * **\[Tipo di attribuzione\]:** ([!UICONTROL Household Conversion] rapporti con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] colonne; solo per gli inserzionisti con tracciamento conversione Adobe Advertising) All’interno del rapporto, come attribuire i dati di conversione in una serie di eventi che portano a una conversione:
 
-   * [!UICONTROL Unique]: (impostazione predefinita) conta il numero di volte in cui un valore di dimensione (ad esempio un dispositivo o un posizionamento) si trovava nel percorso di conversione.
+   * *[!UICONTROL Unique]:* (Impostazione predefinita) Conta il numero di volte in cui un valore di dimensione (ad esempio un dispositivo o un posizionamento) si trovava sul percorso di conversione.
 
-   * [!UICONTROL Multi-Touch Attribution (MTA)]: distribuisce il credito di ogni conversione in base alla frequenza di occorrenza del valore di dimensione (ad esempio un dispositivo o un posizionamento) nel percorso di conversione. Ad esempio, se il totale delle impression prima della conversione era 10, con 8 su CTV e 2 su Mobile, l&#39;80% del credito (0,8) viene assegnato agli schermi CTV e 0,2 a Mobile.
+   * *[!UICONTROL Multi-Touch Attribution (MTA)]:*  Distribuisce il credito di ogni conversione in base alla frequenza di occorrenza del valore di dimensione (ad esempio un dispositivo o un posizionamento) nel percorso di conversione. Ad esempio, se il totale delle impression prima della conversione era 10, con 8 su CTV e 2 su Mobile, l&#39;80% del credito (0,8) viene assegnato agli schermi CTV e 0,2 a Mobile.
 
 * **\[Tipo di regola\]:** (Tutti [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], e [!UICONTROL Site] rapporti con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] colonne; solo per gli inserzionisti con tracciamento delle conversioni di Adobi Advertising) All’interno del rapporto, come attribuire i dati di conversione in una serie di eventi che portano a una conversione. Puoi scegliere più di una regola se desideri confrontare le differenze tra le regole.
 
@@ -102,9 +102,7 @@ Consulta &quot;[Colonne report disponibili](report-columns.md)&quot; per le desc
 
   <!-- See also [How Attribution Rules Are Calculated for Adobe Advertising](). -->
 
-<!--
-* **Lookback:** ([!UICONTROL Household Conversion] reports with [!UICONTROL Conversion Metrics] or [!UICONTROL Custom Goals] columns; advertisers with Adobe Advertising conversion tracking only) Within the report, the number of days after a paid click in an event series occurs in which the click can be attributed to a conversion.
--->
+* **Lookback** ([!UICONTROL Household Conversion] rapporti con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] colonne; solo per gli inserzionisti con tracciamento delle conversioni di Adobi Advertising) All’interno del rapporto, il numero massimo di giorni dopo un evento di impression in cui è possibile attribuirgli un evento di conversione. Il valore predefinito è *[!UICONTROL 30 days]* e il massimo è 92 giorni.
 
 **[!UICONTROL Paths as Columns]:**  (Tutti [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], e [!UICONTROL Site] rapporti con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] colonne) Quali tipi di conversioni segnalare quando si sono verificati eventi precedenti sullo stesso dispositivo. Puoi includere fino a tre tipi. Per ogni tipo selezionato, viene inclusa una colonna separata per ogni metrica di conversione e viene aggiunta una colonna con il suffisso specificato ([!UICONTROL (tl)], [!UICONTROL (ct)], o [!UICONTROL (vt)]):
 
