@@ -3,9 +3,9 @@ title: Impostazioni report personalizzati
 description: Consulta le descrizioni delle impostazioni del rapporto personalizzato.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 781b0c8874d73d060bc7133bdd55d1ceffb63435
+source-git-commit: 54e60a47c54eaac687fd0b385a94b25818b66b71
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Consulta &quot;[Colonne report disponibili](report-columns.md)&quot; per le desc
 
 ## [!UICONTROL Multi-Touch Conversion Options] Sezione
 
-**[!UICONTROL Attribution Rule Settings]** Le impostazioni variano in base al tipo di rapporto:
+**[!UICONTROL Attribution Rule Settings]:** Le impostazioni variano in base al tipo di rapporto:
 
 * **\[Tipo di attribuzione\]:** ([!UICONTROL Household Conversion] rapporti con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] colonne; solo per gli inserzionisti con tracciamento conversione Adobe Advertising) All’interno del rapporto, come attribuire i dati di conversione in una serie di eventi che portano a una conversione:
 
@@ -150,7 +150,7 @@ Consulta &quot;[Colonne report disponibili](report-columns.md)&quot; per le desc
 
 ## [!UICONTROL Save Report] Sezione
 
-**[!UICONTROL Send & Save]:** Quando inviare il rapporto: *[!UICONTROL On Schedule]* o *[!UICONTROL Run Now]*. I report pianificati verranno consegnati entro le 09:00 nel fuso orario dell’account.
+**[!UICONTROL Send & Save]:** Quando inviare il rapporto: *[!UICONTROL On Schedule]* o *[!UICONTROL Run Now]*. I rapporti pianificati vengono consegnati entro le 09:00 nel fuso orario dell’account.
 
 >[!NOTE]
 >
