@@ -1,7 +1,7 @@
 ---
 title: "Informazioni su [!UICONTROL Asset Library]"
 description: Scopri la libreria di risorse per le risorse annuncio.
-source-git-commit: b0244cf2d56026493bc1902abebbdb660e07b1e2
+source-git-commit: 004f1c41578f0c046ccb81f17fbf812959433c87
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *Funzione open beta*
 
-In entrata [!UICONTROL Campaigns] > [!UICONTROL Asset Library (Beta)], puoi creare risorse di immagine, video e testo riutilizzabili e caricarle nel tuo [!DNL Google Ads] libreria di risorse a livello di account.
+In entrata [!UICONTROL Campaigns] > [!UICONTROL Asset Library], puoi creare risorse di immagine, video e testo riutilizzabili e caricarle nel tuo [!DNL Google Ads] libreria di risorse a livello di account.
 
 Puoi utilizzare le risorse per gli annunci quando crei o modifichi campagne con [!DNL Google Ads] editor.
 
