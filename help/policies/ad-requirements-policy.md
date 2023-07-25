@@ -1,22 +1,22 @@
 ---
-title: Adobe di criteri per i requisiti degli annunci pubblicitari
+title: Criterio dei requisiti dell’annuncio di Adobe Advertising
 description: Consulta i criteri per i requisiti degli annunci.
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 04980842afb60870b2beb851e3e80431ae0b037d
 workflow-type: tm+mt
-source-wordcount: '2058'
+source-wordcount: '2070'
 ht-degree: 0%
 
 ---
 
-# Adobe di criteri per i requisiti degli annunci pubblicitari
+# Criterio dei requisiti dell’annuncio di Adobe Advertising
 
-*Ultimo aggiornamento: 12 luglio 2021*
+*Ultimo aggiornamento: 12 luglio 2021 (ad eccezione dei nomi di prodotto aggiornati e dell’URL di questa pagina)*
 
-*Ad Adobe Advertising DSP e Adobe Advertising Search*
+*Ad Adobe Advertising DSP e Adobe Advertising Ricerca, Social e Commerce*
 
-La presente politica sui requisiti per gli annunci (&quot;policy&quot;) definisce i requisiti per gli annunci distribuiti tramite i servizi on-demand di Adobe per la pubblicità Adobe (&quot;servizi&quot;). Questa Policy è incorporata per riferimento nel Contratto tra Adobe e il Cliente (&quot;tu&quot;) che utilizza i Servizi On-demand. I termini maiuscoli utilizzati nel presente documento ma non definiti in esso avranno il significato indicato nel Contratto.
+Il presente criterio dei requisiti per gli annunci (&quot;criterio&quot;) definisce i requisiti per gli annunci distribuiti, ad Adobe Advertising, tramite i servizi on-demand di Adobe (&quot;servizi&quot;). Questa Policy è incorporata per riferimento nel Contratto tra Adobe e il Cliente (&quot;tu&quot;) che utilizza i Servizi On-demand. I termini maiuscoli utilizzati nel presente documento ma non definiti in esso avranno il significato indicato nel Contratto.
 
 Adobe si riserva il diritto di determinare, a suo unico giudizio, se un Ad, o il sito o i siti web a cui l&#39;Ad reindirizza o collega, violi i requisiti della presente Policy, nel qual caso Adobe può rifiutare tale Ad e/o terminare o sospendere l&#39;accesso ai Servizi su tale base.
 
@@ -26,7 +26,7 @@ Oltre ai requisiti indicati di seguito e nel Contratto, l&#39;Utente è tenuto a
 
 ### Requisiti creativi
 
-Tutti gli annunci trasmessi, memorizzati, visualizzati, distribuiti o altrimenti resi disponibili dall&#39;utente tramite i Servizi on-demand devono essere coerenti con le specifiche pubblicitarie contenute nelle Specifiche pubblicitarie degli annunci pubblicitari di Adobe, che possono essere riviste di tanto in tanto dall&#39;Adobe.
+Tutti gli annunci trasmessi, memorizzati, visualizzati, distribuiti o altrimenti resi disponibili dall&#39;utente tramite i Servizi on-demand devono essere coerenti con le specifiche pubblicitarie contenute nelle Specifiche dell&#39;annuncio dell&#39;Adobe Advertising, come possono essere riviste di volta in volta dall&#39;Adobe.
 
 ### Annunci vietati
 
@@ -128,4 +128,3 @@ Non puoi utilizzare i Servizi per effettuare discriminazioni in violazione della
 >[!MORELIKETHIS]
 >
 >* [Linee guida accettabili per i segmenti di integrità](/help/policies/health-segment-guidelines.md)
-
