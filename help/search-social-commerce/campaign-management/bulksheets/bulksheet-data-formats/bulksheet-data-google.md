@@ -2,9 +2,9 @@
 title: Dati bulksheet richiesti per [!DNL Google Ads] account
 description: Fai riferimento ai campi di intestazione e ai campi di dati obbligatori nei bulksheet per [!DNL Google Ads] account.
 exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
-source-git-commit: 1f27e2616d706c56ef1e6a62cf081d83e6f807c1
+source-git-commit: 25f9deef6302065a6576a07fcb880e81470886e5
 workflow-type: tm+mt
-source-wordcount: '7884'
+source-wordcount: '7839'
 ht-degree: 1%
 
 ---
@@ -143,8 +143,8 @@ Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati dispon
 | Campo | Obbligatorio |
 | ---- | ---- |
 | [!UICONTROL Acct Name] | Obbligatorio a meno che ogni riga non includa un &quot;[!UICONTROL AMO ID]&quot; per l’entità. |
-| [!UICONTROL Campaign Name] | Obbligatorio | Il nome univoco che identifica una campagna per un account. |
-| [!UICONTROL Campaign Budget] | Obbligatorio per creare una campagna. | Limite di spesa giornaliero per la campagna, con o senza simboli monetari e punteggiatura. Questo valore sostituisce ma non può superare il budget del conto. |
+| [!UICONTROL Campaign Name] | Obbligatorio |
+| [!UICONTROL Campaign Budget] | Obbligatorio per creare una campagna. |
 | [!UICONTROL Delivery Method] | Obbligatorio per creare una campagna. |
 | [!UICONTROL Channel Type] | Obbligatorio per creare una campagna. |
 | [!UICONTROL Networks] | Obbligatorio per creare una campagna. |
@@ -193,8 +193,8 @@ Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati dispon
 
 Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati disponibili](#bulksheet-fields-all-google).&quot;
 
-| Campo | Obbligatorio | Descrizione |
-| ---- | ---- | ---- |
+| Campo | Obbligatorio |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obbligatorio a meno che ogni riga non includa un &quot;[!UICONTROL AMO ID]&quot; per l’entità. |
 | [!UICONTROL Campaign Name] | Obbligatorio |
 | [!UICONTROL Ad Group Name] | Obbligatorio |
@@ -218,8 +218,8 @@ Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati dispon
 
 Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati disponibili](#bulksheet-fields-all-google).&quot;
 
-| Campo | Obbligatorio | Descrizione |
-| ---- | ---- | ---- |
+| Campo | Obbligatorio |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obbligatorio a meno che ogni riga non includa un &quot;[!UICONTROL AMO ID]&quot; per l’entità. |
 | [!UICONTROL Campaign Name] | Obbligatorio |
 | [!UICONTROL Ad Group Name] | Obbligatorio |
@@ -246,8 +246,8 @@ Per questo tipo di annuncio, utilizza l’&quot;[!UICONTROL Creative (except RSA
 
 Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati disponibili](#bulksheet-fields-all-google).&quot;
 
-| Campo | Obbligatorio | Descrizione |
-| ---- | ---- | ---- |
+| Campo | Obbligatorio |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obbligatorio a meno che ogni riga non includa un &quot;[!UICONTROL AMO ID]&quot; per l’entità. |
 | [!UICONTROL Campaign Name] | Obbligatorio |
 | [!UICONTROL Ad Group Name] | Obbligatorio |
@@ -271,8 +271,8 @@ Per questo tipo di annuncio, utilizza l’&quot;[!UICONTROL Creative (except RSA
 
 Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati disponibili](#bulksheet-fields-all-google).&quot;
 
-| Campo | Obbligatorio | Descrizione |
-| ---- | ---- | ---- |
+| Campo | Obbligatorio |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obbligatorio a meno che ogni riga non includa un &quot;[!UICONTROL AMO ID]&quot; per l’entità. |
 | [!UICONTROL Campaign Name] | Obbligatorio |
 | [!UICONTROL Ad Group Name] | Obbligatorio |
@@ -295,8 +295,8 @@ Per questo tipo di annuncio, utilizza l’&quot;[!UICONTROL Responsive Search Ad
 
 Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati disponibili](#bulksheet-fields-all-google).&quot;
 
-| Campo | Obbligatorio | Descrizione |
-| ---- | ---- | ---- |
+| Campo | Obbligatorio |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obbligatorio a meno che ogni riga non includa un &quot;[!UICONTROL AMO ID]&quot; per l’entità. |
 | [!UICONTROL Campaign Name] | Obbligatorio |
 | [!UICONTROL Ad Group Name] | Obbligatorio | |
@@ -327,8 +327,8 @@ Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati dispon
 >
 >Gli annunci di testo espansi sono stati dichiarati obsoleti a giugno 2022. Puoi eliminare solo gli annunci di testo esistenti.
 
-| Campo | Obbligatorio | Descrizione |
-| ---- | ---- | ---- |
+| Campo | Obbligatorio |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obbligatorio a meno che ogni riga non includa un &quot;[!UICONTROL AMO ID]&quot; per l’entità. |
 | [!UICONTROL Campaign Name] | Obbligatorio |
 | [!UICONTROL Ad Group Name] | Obbligatorio |
@@ -353,8 +353,8 @@ Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati dispon
 
 Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati disponibili](#bulksheet-fields-all-google).&quot;
 
-| Campo | Obbligatorio | Descrizione |
-| ---- | ---- | ---- |
+| Campo | Obbligatorio |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obbligatorio a meno che ogni riga non includa un &quot;[!UICONTROL AMO ID]&quot; per l’entità. |
 | [!UICONTROL Campaign Name] | Obbligatorio |
 | [!UICONTROL Ad Group Name] | Obbligatorio |
@@ -373,8 +373,8 @@ Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati dispon
 
 Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati disponibili](#bulksheet-fields-all-google).&quot;
 
-| Campo | Obbligatorio | Descrizione |
-| ---- | ---- | ---- |
+| Campo | Obbligatorio |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obbligatorio a meno che ogni riga non includa un &quot;[!UICONTROL AMO ID]&quot; per l’entità. |
 | [!UICONTROL Campaign Name] | Obbligatorio |
 | [!UICONTROL Ad Group Name] | Obbligatorio |
@@ -397,8 +397,8 @@ Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati dispon
 
 Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati disponibili](#bulksheet-fields-all-google).&quot;
 
-| Campo | Obbligatorio | Descrizione |
-| ---- | ---- | ---- |
+| Campo | Obbligatorio |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obbligatorio a meno che ogni riga non includa un &quot;[!UICONTROL AMO ID]&quot; per l’entità. |
 | [!UICONTROL Campaign Name] | Obbligatorio |
 | [!UICONTROL Ad Group Name] | Obbligatorio per i sitelink a livello di gruppo di annunci. Non applicabile per i sitelink a livello di campagna. |
@@ -418,8 +418,8 @@ Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati dispon
 
 Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati disponibili](#bulksheet-fields-all-google).&quot;
 
-| Campo | Obbligatorio | Descrizione |
-| ---- | ---- | ---- |
+| Campo | Obbligatorio |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obbligatorio a meno che ogni riga non includa un &quot;[!UICONTROL AMO ID]&quot; per l’entità. |
 | [!UICONTROL Campaign Name] | Obbligatorio |
 | [!UICONTROL Location] | Obbligatorio |
@@ -433,8 +433,8 @@ Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati dispon
 
 Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati disponibili](#bulksheet-fields-all-google).&quot;
 
-| Campo | Obbligatorio | Descrizione |
-| ---- | ---- | ---- |
+| Campo | Obbligatorio |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obbligatorio a meno che ogni riga non includa un &quot;[!UICONTROL AMO ID]&quot; per l’entità. |
 | [!UICONTROL Campaign Name] | Obbligatorio |
 | [!UICONTROL Device] | Necessario per creare o modificare una destinazione dispositivo. |
@@ -450,8 +450,8 @@ Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati dispon
 
 Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati disponibili](#bulksheet-fields-all-google).&quot;
 
-| Campo | Obbligatorio | Descrizione |
-| ---- | ---- | ---- |
+| Campo | Obbligatorio |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obbligatorio a meno che ogni riga non includa un &quot;[!UICONTROL AMO ID]&quot; per l’entità. |
 | [!UICONTROL Campaign Name] | Obbligatorio |
 | [!UICONTROL Bid Adjustment] | Facoltativo |
