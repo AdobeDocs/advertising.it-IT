@@ -2,9 +2,9 @@
 title: Dati bulksheet richiesti per [!DNL Microsoft Advertising] account
 description: Fai riferimento ai campi di intestazione e ai campi di dati obbligatori nei bulksheet per [!DNL Microsoft Advertising] account.
 exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
-source-git-commit: 16e7a310571000fc5b584eb67c832df1e12cea72
+source-git-commit: 1f27e2616d706c56ef1e6a62cf081d83e6f807c1
 workflow-type: tm+mt
-source-wordcount: '6744'
+source-wordcount: '6900'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Di seguito è riportata una tabella di tutti i campi dati disponibili e le tabel
 
 Nella tabella seguente sono descritti tutti i campi dati disponibili.
 
-Per i campi di dati rilevanti per le entità conto, vedi &quot;[Campi necessari per creare, modificare o eliminare ciascun componente conto](#bulksheet-fields-per-component-microsoft).
+Per i campi di dati rilevanti per le entità conto, vedi &quot;[Campi necessari per creare, modificare o eliminare ciascun componente conto](#bulksheet-fields-per-component-microsoft).&quot;
 
 | Campo | Descrizione |
 |----|----|
@@ -121,13 +121,13 @@ Per i campi di dati rilevanti per le entità conto, vedi &quot;[Campi necessari 
 
 Nelle sezioni seguenti sono inclusi i campi relativi a entità conto specifiche.
 
-Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati disponibili](#bulksheet-fields-all-microsoft).&quot;
-
 >[!NOTE]
 >
 >Quando un campo non è applicabile a un’azione, qualsiasi valore inserito nel campo viene ignorato.
 
 ### Campi della campagna
+
+Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati disponibili](#bulksheet-fields-all-microsoft).&quot;
 
 | Campo | Obbligatorio |
 | ---- | ---- |
@@ -155,6 +155,8 @@ Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati dispon
 
 ### Campi del gruppo di annunci
 
+Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati disponibili](#bulksheet-fields-all-microsoft).&quot;
+
 | Campo | Obbligatorio |
 | ---- | ---- |
 | [!UICONTROL Acct Name] | Obbligatorio a meno che ogni riga non includa un &quot;[!UICONTROL AMO ID]&quot; per l’entità. |
@@ -176,6 +178,8 @@ Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati dispon
 | [!UICONTROL AMO ID] | Obbligatorio per modificare o eliminare i dati a meno che non si includano l’ID entità e l’ID entità padre.<br><br>Search, Social e Commerce utilizza il valore per determinare l’identità corretta da modificare, ma non pubblica l’ID sulla rete di annunci. |
 
 ### Campi parola chiave
+
+Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati disponibili](#bulksheet-fields-all-microsoft).&quot;
 
 | Campo | Obbligatorio | Descrizione |
 | ---- | ---- | ---- |
@@ -206,6 +210,8 @@ Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati dispon
 
 Per questo tipo di annuncio, utilizza l’&quot;[!UICONTROL Creative (except RSA)]&quot; riga nella [!UICONTROL Download Bulksheet] .
 
+Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati disponibili](#bulksheet-fields-all-microsoft).&quot;
+
 | Campo | Obbligatorio | Descrizione |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obbligatorio a meno che ogni riga non includa un &quot;[!UICONTROL AMO ID]&quot; per l’entità. |
@@ -229,6 +235,8 @@ Per ulteriori informazioni sulla creazione di annunci di acquisto, consulta &quo
 
 Per questo tipo di annuncio, utilizza l’&quot;[!UICONTROL Creative (except RSA)]&quot; riga nella [!UICONTROL Download Bulksheet] .
 
+Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati disponibili](#bulksheet-fields-all-microsoft).&quot;
+
 | Campo | Obbligatorio | Descrizione |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obbligatorio a meno che ogni riga non includa un &quot;[!UICONTROL AMO ID]&quot; per l’entità. |
@@ -250,6 +258,8 @@ Per questo tipo di annuncio, utilizza l’&quot;[!UICONTROL Creative (except RSA
 ### Campi pubblicitari reattivi (multimediali)
 
 Per questo tipo di annuncio, utilizza l’&quot;[!UICONTROL Creative (except RSA)]&quot; riga nella [!UICONTROL Download Bulksheet] .
+
+Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati disponibili](#bulksheet-fields-all-microsoft).&quot;
 
 | Campo | Obbligatorio | Descrizione |
 | ---- | ---- | ---- |
@@ -274,6 +284,8 @@ Per questo tipo di annuncio, utilizza l’&quot;[!UICONTROL Creative (except RSA
 ### Campi degli annunci di ricerca reattivi
 
 Per questo tipo di annuncio, utilizza l’&quot;[!UICONTROL Responsive Search Ad]&quot; riga nella [!UICONTROL Download Bulksheet] .
+
+Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati disponibili](#bulksheet-fields-all-microsoft).&quot;
 
 | Campo | Obbligatorio | Descrizione |
 | ---- | ---- | ---- |
@@ -305,6 +317,8 @@ Per questo tipo di annuncio, utilizza l’&quot;[!UICONTROL Creative (except RSA
 >
 >Gli annunci di testo espansi erano obsoleti. Puoi eliminare solo gli annunci di testo esistenti.
 
+Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati disponibili](#bulksheet-fields-all-microsoft).&quot;
+
 | Campo | Obbligatorio | Descrizione |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obbligatorio a meno che ogni riga non includa un &quot;[!UICONTROL AMO ID]&quot; per l’entità. |
@@ -333,6 +347,8 @@ Per questo tipo di annuncio, utilizza l’&quot;[!UICONTROL Creative (except RSA
 >
 >Il supporto per la creazione non è disponibile.
 
+Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati disponibili](#bulksheet-fields-all-microsoft).&quot;
+
 | Campo | Obbligatorio | Descrizione |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obbligatorio a meno che ogni riga non includa un &quot;[!UICONTROL AMO ID]&quot; per l’entità. |
@@ -351,6 +367,8 @@ Per questo tipo di annuncio, utilizza l’&quot;[!UICONTROL Creative (except RSA
 | [!UICONTROL AMO ID] | Obbligatorio per modificare o eliminare i dati a meno che non si includano l’ID entità e l’ID entità padre.<br><br>Search, Social e Commerce utilizza il valore per determinare l’identità corretta da modificare, ma non pubblica l’ID sulla rete di annunci. |
 
 ### Campi gruppo di prodotti acquisti
+
+Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati disponibili](#bulksheet-fields-all-microsoft).&quot;
 
 | Campo | Obbligatorio | Descrizione |
 | ---- | ---- | ---- |
@@ -374,6 +392,8 @@ Per questo tipo di annuncio, utilizza l’&quot;[!UICONTROL Creative (except RSA
 
 ### Campi sitelink a livello di campagna
 
+Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati disponibili](#bulksheet-fields-all-microsoft).&quot;
+
 | Campo | Obbligatorio | Descrizione |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obbligatorio a meno che ogni riga non includa un &quot;[!UICONTROL AMO ID]&quot; per l’entità. |
@@ -394,6 +414,8 @@ Per questo tipo di annuncio, utilizza l’&quot;[!UICONTROL Creative (except RSA
 
 ### Campi destinazione posizione
 
+Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati disponibili](#bulksheet-fields-all-microsoft).&quot;
+
 | Campo | Obbligatorio | Descrizione |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obbligatorio a meno che ogni riga non includa un &quot;[!UICONTROL AMO ID]&quot; per l’entità. |
@@ -406,6 +428,8 @@ Per questo tipo di annuncio, utilizza l’&quot;[!UICONTROL Creative (except RSA
 | [!UICONTROL AMO ID] | Obbligatorio per modificare o eliminare i dati a meno che non includa l’ID campagna.<br><br>Search, Social e Commerce utilizza il valore per determinare l’identità corretta da modificare, ma non pubblica l’ID sulla rete di annunci. |
 
 ### Campi di destinazione per dispositivi a livello di campagna e di gruppo di annunci
+
+Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati disponibili](#bulksheet-fields-all-microsoft).&quot;
 
 | Campo | Obbligatorio | Descrizione |
 | ---- | ---- | ---- |
@@ -420,6 +444,8 @@ Per questo tipo di annuncio, utilizza l’&quot;[!UICONTROL Creative (except RSA
 | [!UICONTROL AMO ID] | Necessario per modificare o eliminare i dati a meno che non includiate l&#39;ID Device Target.<br><br>Search, Social e Commerce utilizza il valore per determinare l’identità corretta da modificare, ma non pubblica l’ID sulla rete di annunci. |
 
 ### Campi di destinazione RLSA a livello di campagna e di gruppo di annunci
+
+Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati disponibili](#bulksheet-fields-all-microsoft).&quot;
 
 | Campo | Obbligatorio | Descrizione |
 | ---- | ---- | ---- |
