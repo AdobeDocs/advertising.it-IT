@@ -1,20 +1,20 @@
 ---
-title: Adobe di linee guida per l’utilizzo dei dati dell’DSP per la pubblicità
+title: Adobe Advertising DSP di linee guida per l’utilizzo dei dati
 description: Consulta le linee guida per l’utilizzo dei dati.
 feature: Policies
 exl-id: b71caa80-d1f6-4f42-90c3-a3e19acb2c6c
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 2ba5330a21b637fbf7ae887a0682678eb26e0af9
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
 
-# Adobe di linee guida per l’utilizzo dei dati dell’DSP per la pubblicità
+# Adobe Advertising DSP di linee guida per l’utilizzo dei dati
 
-*Ultimo aggiornamento: 5 settembre 2019*
+*Ultimo aggiornamento: 5 settembre 2019 (ad eccezione dell’aggiornamento dell’URL di questa pagina)*
 
-*Ad Adobe, pubblicità DSP*
+*Ad Adobe Advertising DSP*
 
 Le presenti linee guida sull’utilizzo dei dati (&quot;linee guida per i dati&quot;) stabiliscono i requisiti per l’utilizzo di determinati dati a cui si accede tramite i servizi on-demand di Adobe per Advertising DSP (&quot;servizi&quot;). Le presenti linee guida sono integrate per riferimento nel contratto tra Adobe e il Cliente che utilizza i Servizi a richiesta. I termini in maiuscolo utilizzati nelle presenti linee guida ma non definiti in questa avranno il significato stabilito in tale accordo.
 
