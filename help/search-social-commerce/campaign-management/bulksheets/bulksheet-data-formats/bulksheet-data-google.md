@@ -2,9 +2,9 @@
 title: Dati bulksheet richiesti per [!DNL Google Ads] account
 description: Fai riferimento ai campi di intestazione e ai campi di dati obbligatori nei bulksheet per [!DNL Google Ads] account.
 exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
-source-git-commit: 09ac5c3fa36f5fce10174d10cb10bb7cf7e836c7
+source-git-commit: 16e7a310571000fc5b584eb67c832df1e12cea72
 workflow-type: tm+mt
-source-wordcount: '7706'
+source-wordcount: '7729'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ Ogni bulksheet deve includere i campi intestazione e i campi dati corrispondenti
 
 Di seguito è riportata una tabella di tutti i campi dati disponibili e le tabelle aggiuntive che indicano quali campi sono necessari per aggiungere, modificare o eliminare dati per singole entità (ad esempio campagne e parole chiave).
 
-## Tutti i campi dati disponibili
+## Tutti i campi dati disponibili {#bulksheet-fields-all-google}
 
-Nella tabella seguente sono riportati tutti i campi dati disponibili.
+Nella tabella seguente sono descritti tutti i campi dati disponibili.
 
 Per i campi di dati rilevanti per le entità conto, vedi &quot;[Campi necessari per creare, modificare o eliminare ciascun componente conto](#bulksheet-fields-per-component-google).
 
@@ -129,6 +129,10 @@ Per i campi di dati rilevanti per le entità conto, vedi &quot;[Campi necessari 
 [^1]: [!DNL Excel] converte i numeri elevati in notazione scientifica (ad esempio 2.12E+09 per 2115585666) quando apre il file. Per visualizzare le cifre nella notazione standard, selezionare una cella della colonna e fare clic all&#39;interno della barra della formula.
 
 ## Campi necessari per creare, modificare o eliminare ciascun componente conto {#bulksheet-fields-per-component-google}
+
+Nelle sezioni seguenti sono inclusi i campi relativi a entità conto specifiche.
+
+Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati disponibili](#bulksheet-fields-all-google).&quot;
 
 >[!NOTE]
 >

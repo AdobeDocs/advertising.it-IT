@@ -2,9 +2,9 @@
 title: Dati bulksheet richiesti per [!DNL Microsoft Advertising] account
 description: Fai riferimento ai campi di intestazione e ai campi di dati obbligatori nei bulksheet per [!DNL Microsoft Advertising] account.
 exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
-source-git-commit: e4901c1ac6e73f27886e315136c3fe9b865cdd48
+source-git-commit: 16e7a310571000fc5b584eb67c832df1e12cea72
 workflow-type: tm+mt
-source-wordcount: '6721'
+source-wordcount: '6744'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ Ogni bulksheet deve includere i campi intestazione e i campi dati corrispondenti
 
 Di seguito è riportata una tabella di tutti i campi dati disponibili e le tabelle aggiuntive che indicano quali campi sono necessari per aggiungere, modificare o eliminare dati per singole entità (ad esempio campagne e parole chiave).
 
-## Tutti i campi dati disponibili
+## Tutti i campi dati disponibili {#bulksheet-fields-all-microsoft}
 
-Nella tabella seguente sono riportati tutti i campi dati disponibili.
+Nella tabella seguente sono descritti tutti i campi dati disponibili.
 
 Per i campi di dati rilevanti per le entità conto, vedi &quot;[Campi necessari per creare, modificare o eliminare ciascun componente conto](#bulksheet-fields-per-component-microsoft).
 
@@ -118,6 +118,10 @@ Per i campi di dati rilevanti per le entità conto, vedi &quot;[Campi necessari 
 [^1]: [!DNL Excel] converte i numeri elevati in notazione scientifica (ad esempio 2.12E+09 per 2115585666) quando apre il file. Per visualizzare le cifre nella notazione standard, selezionare una cella della colonna e fare clic all&#39;interno della barra della formula.
 
 ## Campi necessari per creare, modificare o eliminare ciascun componente conto {#bulksheet-fields-per-component-microsoft}
+
+Nelle sezioni seguenti sono inclusi i campi relativi a entità conto specifiche.
+
+Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati disponibili](#bulksheet-fields-all-microsoft).&quot;
 
 >[!NOTE]
 >
