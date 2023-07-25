@@ -1,9 +1,10 @@
 ---
 title: Dati bulksheet richiesti per [!DNL Google Ads] account
 description: Fai riferimento ai campi di intestazione e ai campi di dati obbligatori nei bulksheet per [!DNL Google Ads] account.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
+source-git-commit: 09ac5c3fa36f5fce10174d10cb10bb7cf7e836c7
 workflow-type: tm+mt
-source-wordcount: '7515'
+source-wordcount: '7706'
 ht-degree: 1%
 
 ---
@@ -12,11 +13,22 @@ ht-degree: 1%
 
 Per creare e aggiornare [!DNL Google Ads] dati della campagna in blocco, puoi utilizzare file di bulksheet di Search, Social e Commerce formattati appositamente per [!DNL Google Ads] account. È possibile: [genera file di fogli collettivi per i conti esistenti](../bulksheet-download.md) nel formato di file richiesto o b) crearli manualmente (vedere &quot;[Formati di file di bulksheet supportati](bulksheet-file-formats.md)&quot; per informazioni generali sui formati di file supportati).
 
-{{$include /help/_includes/bulksheet-appendices-intro.md}}
+Ogni bulksheet deve includere i campi intestazione e i campi dati corrispondenti necessari per [operazioni specifiche che si desidera eseguire](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md) (ad esempio la creazione di un annuncio). Quando un campo non è obbligatorio, puoi ometterlo dall’intestazione e dalle righe di dati. Tutte le colonne personalizzate vengono eliminate quando caricate il file di foglio ausiliario.
+
+Di seguito è riportata una tabella di tutti i campi dati disponibili e le tabelle aggiuntive che indicano quali campi sono necessari per aggiungere, modificare o eliminare dati per singole entità (ad esempio campagne e parole chiave).
 
 ## Tutti i campi dati disponibili
 
-{{$include /help/_includes/bulksheet-appendices-intro-required-data.md}}
+Nella tabella seguente sono riportati tutti i campi dati disponibili.
+
+Per i campi di dati rilevanti per le entità conto, vedi &quot;[Campi necessari per creare, modificare o eliminare ciascun componente conto](#bulksheet-fields-per-component-google).
+
+>[!NOTE]
+>
+>* I valori in tutte le colonne di testo fanno distinzione tra maiuscole e minuscole.
+>* Quando si crea un nuovo record e non si includono valori per tutti i campi dati obbligatori, ad alcuni di questi campi vengono assegnati i valori predefiniti specificati.
+>* Per i campi che non sono specificati di seguito, viene utilizzato il valore predefinito per la rete di annunci.
+>* Per un elenco delle righe di bulksheet disponibili nel [!UICONTROL Download Bulksheet] , vedere &quot;[Righe bulksheet per rete di annunci](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network).&quot;
 
 | Campo | Descrizione |
 | ---- | ---- |
@@ -116,7 +128,11 @@ Per creare e aggiornare [!DNL Google Ads] dati della campagna in blocco, puoi ut
 
 [^1]: [!DNL Excel] converte i numeri elevati in notazione scientifica (ad esempio 2.12E+09 per 2115585666) quando apre il file. Per visualizzare le cifre nella notazione standard, selezionare una cella della colonna e fare clic all&#39;interno della barra della formula.
 
-## Campi necessari per creare, modificare o eliminare ciascun componente conto
+## Campi necessari per creare, modificare o eliminare ciascun componente conto {#bulksheet-fields-per-component-google}
+
+>[!NOTE]
+>
+>Quando un campo non è applicabile a un’azione, qualsiasi valore inserito nel campo viene ignorato.
 
 ### Campi della campagna
 

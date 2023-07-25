@@ -1,9 +1,10 @@
 ---
 title: Dati bulksheet richiesti per [!DNL Microsoft Advertising] account
 description: Fai riferimento ai campi di intestazione e ai campi di dati obbligatori nei bulksheet per [!DNL Microsoft Advertising] account.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
+source-git-commit: e4901c1ac6e73f27886e315136c3fe9b865cdd48
 workflow-type: tm+mt
-source-wordcount: '6595'
+source-wordcount: '6721'
 ht-degree: 1%
 
 ---
@@ -12,11 +13,15 @@ ht-degree: 1%
 
 Per creare e aggiornare [!DNL Microsoft Advertising] dati della campagna in blocco, puoi utilizzare file di bulksheet di Search, Social e Commerce formattati appositamente per [!DNL Microsoft Advertising] account. È possibile: [genera file di fogli collettivi per i conti esistenti](../bulksheet-download.md) nel formato di file richiesto o b) crearli manualmente (vedere &quot;[Formati di file di bulksheet supportati](bulksheet-file-formats.md)&quot; per informazioni generali sui formati di file supportati).
 
-{{$include /help/_includes/bulksheet-appendices-intro.md}}
+Ogni bulksheet deve includere i campi intestazione e i campi dati corrispondenti necessari per [operazioni specifiche che si desidera eseguire](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md) (ad esempio la creazione di un annuncio). Quando un campo non è obbligatorio, puoi ometterlo dall’intestazione e dalle righe di dati. Tutte le colonne personalizzate vengono eliminate quando caricate il file di foglio ausiliario.
+
+Di seguito è riportata una tabella di tutti i campi dati disponibili e le tabelle aggiuntive che indicano quali campi sono necessari per aggiungere, modificare o eliminare dati per singole entità (ad esempio campagne e parole chiave).
 
 ## Tutti i campi dati disponibili
 
-{{$include /help/_includes/bulksheet-appendices-intro-required-data.md}}
+Nella tabella seguente sono riportati tutti i campi dati disponibili.
+
+Per i campi di dati rilevanti per le entità conto, vedi &quot;[Campi necessari per creare, modificare o eliminare ciascun componente conto](#bulksheet-fields-per-component-microsoft).
 
 | Campo | Descrizione |
 |----|----|
@@ -112,7 +117,11 @@ Per creare e aggiornare [!DNL Microsoft Advertising] dati della campagna in bloc
 
 [^1]: [!DNL Excel] converte i numeri elevati in notazione scientifica (ad esempio 2.12E+09 per 2115585666) quando apre il file. Per visualizzare le cifre nella notazione standard, selezionare una cella della colonna e fare clic all&#39;interno della barra della formula.
 
-## Campi necessari per creare, modificare o eliminare ciascun componente conto
+## Campi necessari per creare, modificare o eliminare ciascun componente conto {#bulksheet-fields-per-component-microsoft}
+
+>[!NOTE]
+>
+>Quando un campo non è applicabile a un’azione, qualsiasi valore inserito nel campo viene ignorato.
 
 ### Campi della campagna
 
