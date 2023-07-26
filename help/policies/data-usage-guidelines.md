@@ -3,16 +3,16 @@ title: Adobe Advertising DSP di linee guida per l’utilizzo dei dati
 description: Consulta le linee guida per l’utilizzo dei dati.
 feature: Policies
 exl-id: b71caa80-d1f6-4f42-90c3-a3e19acb2c6c
-source-git-commit: 0f1e024ade1c75d4f6ed3116ec3eb98a13642e9a
+source-git-commit: 4ea8b76e65fb610d2bf86a39560084902e9d0436
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
 
 # Adobe Advertising DSP di linee guida per l’utilizzo dei dati
 
-*Ultimo aggiornamento: 5 settembre 2019*
+*Ultimo aggiornamento: 5 settembre 2019 (ad eccezione dell’aggiornamento dell’URL di questa pagina)*
 
 *Ad Adobe Advertising DSP*
 
