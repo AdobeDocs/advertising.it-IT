@@ -3,16 +3,16 @@ title: Criterio dei requisiti dell’annuncio di Adobe Advertising
 description: Consulta i criteri per i requisiti degli annunci.
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-source-git-commit: b81323c8f576617cc551963b7abd28575166f53a
+source-git-commit: 6255609563c595b921ef9867359cc57498571d73
 workflow-type: tm+mt
-source-wordcount: '2060'
+source-wordcount: '2070'
 ht-degree: 0%
 
 ---
 
 # Criterio dei requisiti dell’annuncio di Adobe Advertising
 
-*Ultimo aggiornamento: 12 luglio 2021*
+*Ultimo aggiornamento: 12 luglio 2021 (ad eccezione dei nomi di prodotto aggiornati e dell’URL di questa pagina)*
 
 *Ad Adobe Advertising DSP e Adobe Advertising Ricerca, Social e Commerce*
 
@@ -26,7 +26,7 @@ Oltre ai requisiti indicati di seguito e nel Contratto, l&#39;Utente è tenuto a
 
 ### Requisiti creativi
 
-Tutti gli annunci trasmessi, memorizzati, visualizzati, distribuiti o altrimenti resi disponibili dall&#39;utente tramite i Servizi on-demand devono essere coerenti con le specifiche pubblicitarie contenute nelle Specifiche pubblicitarie degli annunci pubblicitari di Adobe, che possono essere riviste di tanto in tanto dall&#39;Adobe.
+Tutti gli annunci trasmessi, memorizzati, visualizzati, distribuiti o altrimenti resi disponibili dall&#39;utente tramite i Servizi on-demand devono essere coerenti con le specifiche pubblicitarie contenute nelle Specifiche dell&#39;annuncio dell&#39;Adobe Advertising, come possono essere riviste di volta in volta dall&#39;Adobe.
 
 ### Annunci vietati
 
