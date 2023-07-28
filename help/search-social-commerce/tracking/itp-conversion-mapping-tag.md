@@ -1,20 +1,22 @@
 ---
-title: Tag Adobe di mappatura della conversione Advertising
-description: Scopri il tag di mappatura della conversione basato su JavaScript per ITP 2.2, che consente ad Adobe Advertising di tenere traccia di un evento di conversione che si verifica su una pagina che non è la pagina di destinazione.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+title: Tag Adobe Advertising di mappatura della conversione
+description: Scopri il tag di mappatura della conversione basato su JavaScript per ITP 2.2, che consente ad Adobi Advertising di tenere traccia di un evento di conversione che si verifica su una pagina che non è la pagina di destinazione.
+exl-id: 6e2515da-2552-4f19-8344-1dee96cbf706
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%
 
 ---
 
-# Tag Adobe di mappatura della conversione JavaScript per Advertising
+# Adobe Advertising di tag di mappatura della conversione JavaScript
 
-*Per gli inserzionisti con solo il tracciamento delle conversioni Adobe Advertising*
+*Solo per inserzionisti con tracciamento delle conversioni di Adobi Advertising*
 
-Il tag di mappatura della conversione basato su JavaScript di Adobe Advertising, se utilizzato in aggiunta al tag di tracciamento della conversione v2 o v3 di Adobe Advertising JavaScript, consente ad Adobe Advertising di tracciare un evento di conversione che si verifica su una pagina che non è la pagina di destinazione. La soluzione ITP 2.2 memorizza il cookie di un utente nell’archivio locale in un iFrame di proprietà dell’inserzionista. L’archiviazione locale può quindi rendere persistente il valore del cookie dal clic a valle alla pagina di conversione.
+Il tag di mappatura della conversione basato su JavaScript di Adobe Advertising, se utilizzato in aggiunta al tag di tracciamento della conversione v2 o v3 di Adobe Advertising JavaScript, consente ad Adobi Advertising di tracciare un evento di conversione che si verifica su una pagina che non è la pagina di destinazione. La soluzione ITP 2.2 memorizza il cookie di un utente nell’archivio locale in un iFrame di proprietà dell’inserzionista. L’archiviazione locale può quindi rendere persistente il valore del cookie dal clic a valle alla pagina di conversione.
 
-Utilizza il tag di mappatura della conversione per garantire che Adobe Advertising possa tracciare tutte le conversioni che si verificano all’interno dei browser Apple Safari e Mozilla Firefox, che limitano la persistenza dei cookie di prime parti. <!-- For all requirements to track conversions from Safari, see "Track Conversions from Apple Safari Browsers." -->
+Utilizza il tag di mappatura della conversione per garantire che Adobi Advertising possa tracciare tutte le conversioni che si verificano all’interno dei browser Apple Safari e Mozilla Firefox, che limitano la persistenza dei cookie di prime parti. <!-- For all requirements to track conversions from Safari, see "Track Conversions from Apple Safari Browsers." -->
 
 Per utilizzare il tag di mappatura della conversione:
 
@@ -32,15 +34,15 @@ Per utilizzare il tag di mappatura della conversione:
 
 * Se la tua organizzazione utilizza un singolo ID organizzazione, utilizzato per il tuo account di ricerca, social e commerce, utilizza il seguente tag:
 
-   `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" userid="{AMO User ID}"></script>`
+  `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" userid="{AMO User ID}"></script>`
 
-   dove sostituire `{AMO User ID}` con l’ID utente univoco per il tuo account di ricerca, social e commerce.
+  dove sostituire `{AMO User ID}` con l’ID utente univoco per il tuo account di ricerca, social e commerce.
 
 * Se la tua organizzazione utilizza più ID organizzazione, utilizza il seguente tag:
 
-   `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" imsorgid="{xxxxxx@AdobeOrg}" userid="{AMO User ID}"></script>`
+  `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" imsorgid="{xxxxxx@AdobeOrg}" userid="{AMO User ID}"></script>`
 
-   dove:
+  dove:
 
    * sostituisci il valore `{xxxxxx@AdobeOrg}` con l’ID organizzazione per il quale vengono tracciate le conversioni della pagina. Utilizza lo stesso ID organizzazione per tutte le pagine di conversione.
 
@@ -48,30 +50,30 @@ Per utilizzare il tag di mappatura della conversione:
 
 * Se utilizzi un sistema di gestione dei tag che non supporta l’aggiunta di `imsorgid` al tag script, quindi utilizza il seguente codice:
 
-   *Se la tua organizzazione utilizza un singolo ID organizzazione:
+  *Se la tua organizzazione utilizza un singolo ID organizzazione:
 
-   ```
-   <script>
-   window.ad_cloud = window.ad_cloud || {};
-   window.ad_cloud.userid = "{AMO User ID}"
-   </script>
-   <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
-   ```
+  ```
+  <script>
+  window.ad_cloud = window.ad_cloud || {};
+  window.ad_cloud.userid = "{AMO User ID}"
+  </script>
+  <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
+  ```
 
-   dove sostituire `{AMO User ID}` con l’ID utente univoco per il tuo account di ricerca, social e commerce.
+  dove sostituire `{AMO User ID}` con l’ID utente univoco per il tuo account di ricerca, social e commerce.
 
    * Se la tua organizzazione utilizza più ID organizzazione:
 
-      ```
-      <script>
-      window.ad_cloud = window.ad_cloud || {};
-      window.ad_cloud.imsorgid = "{xxxxxx@AdobeOrg}"
-      window.ad_cloud.userid = "{AMO User ID}"
-      </script>
-      <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
-      ```
+     ```
+     <script>
+     window.ad_cloud = window.ad_cloud || {};
+     window.ad_cloud.imsorgid = "{xxxxxx@AdobeOrg}"
+     window.ad_cloud.userid = "{AMO User ID}"
+     </script>
+     <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
+     ```
 
-      dove:
+     dove:
 
       * sostituisci il valore `{xxxxxx@AdobeOrg}` con l’ID organizzazione per il quale vengono tracciate le conversioni della pagina. Utilizza lo stesso ID organizzazione per tutte le pagine di conversione.
 
@@ -96,7 +98,7 @@ window.ad_cloud.userid = "99999"
 
 ### Dove aggiungere il tag
 
-Aggiungi il tag in qualsiasi pagina che potrebbe essere una pagina di destinazione da un clic di ricerca (idealmente, su tutte le pagine, poiché le pagine di destinazione possono cambiare nel tempo). Deve essere caricato prima del tag di tracciamento della conversione v3 di Adobe Advertising JavaScript.
+Aggiungi il tag in qualsiasi pagina che potrebbe essere una pagina di destinazione da un clic di ricerca (idealmente, su tutte le pagine, poiché le pagine di destinazione possono cambiare nel tempo). Deve essere caricato prima del tag di tracciamento della conversione v3 di Adobi Advertising JavaScript.
 
 Se si trova all’interno di un iframe o di un tag contenitore,:
 

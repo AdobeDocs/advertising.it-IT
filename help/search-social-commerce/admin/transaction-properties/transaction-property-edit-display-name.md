@@ -1,7 +1,9 @@
 ---
 title: Modificare il nome visualizzato per una proprietà di transazione
 description: Scopri come modificare il nome della proprietà della transazione visualizzato nelle intestazioni di colonna nelle visualizzazioni e nei rapporti di gestione.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 322be2d5-0d66-4d0c-a17a-619a1f6c0644
+feature: Search Admin, Search Transaction Properties
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -31,4 +33,3 @@ Impossibile eliminare un nome visualizzato esistente.
 >* [Informazioni sulla gestione delle proprietà di transazione di un inserzionista](transaction-property-about.md)
 >* [Visualizzare le proprietà della transazione tracciate per un inserzionista](transaction-property-view-tracked.md)
 >* [Modificare le proprietà della transazione disponibili nelle visualizzazioni e nei report di gestione](transaction-property-edit-available.md)
-

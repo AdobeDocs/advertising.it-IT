@@ -1,7 +1,9 @@
 ---
 title: Calcolo delle regole di attribuzione
-description: Scopri come Adobe Advertising calcola ogni tipo di regola di attribuzione.
-source-git-commit: d4237253af7110a3ed02595c466c01359f5601d4
+description: Scopri come Adobi Advertising calcola ogni tipo di regola di attribuzione.
+exl-id: b61561fa-8c01-4989-9ef7-620d2b4c2c0b
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '2439'
 ht-degree: 0%
@@ -23,7 +25,7 @@ Nei rapporti, nelle viste predefinite e personalizzate per le simulazioni a live
 >* Le regole di attribuzione si applicano ai clic sugli annunci a pagamento in qualsiasi canale e alle impression sulla visualizzazione e sugli annunci social. Non si applicano alle impression per gli annunci di ricerca a pagamento, che non possono essere tracciati a livello di evento.
 >* Adobe Advertising memorizza sempre i seguenti eventi per ogni web surfer prima di una conversione: a) il primo clic a pagamento; b) fino a 10 clic per ogni canale (ricerca, social o visualizzazione), incluso il primo clic; e c) fino a 10 impression di visualizzazione. <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
 * In Advertising DSP e Advertising Creative, le definizioni multi-dispositivo considerano solo il percorso dell’evento dalla regola di attribuzione selezionata.<!-- cross-device attribution via LiveRamp only -->
-* Nei report e nelle viste di gestione, il numero di posizioni decimali visualizzate per un valore dipende dalla valuta, ma in Adobe Advertising vengono memorizzati valori più precisi.
+* Nei report e nelle viste di gestione, il numero di posizioni decimali visualizzate per un valore dipende dalla valuta, ma in Adobi Advertising vengono memorizzati valori più precisi.
 
 ## Ultimo evento (impostazione predefinita)
 
@@ -115,7 +117,7 @@ Attribuisce la conversione a tutti gli eventi della serie che si sono verificati
 
 Quando la conversione è preceduta solo da impression, viene considerata una *view-through*, ponderato in base al valore dell&#39;inserzionista [ponderazione view-through](/help/search-social-commerce/glossary.md#uv) oppure, come specificato, in base al metodo di valutazione view-through specificato nei parametri di report, vista o simulazione personalizzata.
 
-Quando il percorso di conversione include sia clic che impression a pagamento, queste vengono trattate in modo diverso dai diversi prodotti Adobe Advertising:
+Quando il percorso di conversione include sia clic che impression a pagamento, queste vengono trattate in modo diverso dai diversi prodotti di Adobe Advertising:
 
 * In Search, Social e Commerce, il [peso di override impression](/help/search-social-commerce/glossary.md#i-j) , specificato nell&#39;impostazione di peso per la sostituzione delle impression dell&#39;inserzionista e nei parametri di report, visualizzazione o simulazione personalizzata, viene applicato per la prima volta alle impression.
 
@@ -177,7 +179,7 @@ Attribuisce la conversione in modo uguale a ogni evento della serie che si è ve
 
 Quando la conversione è preceduta solo da impression, viene considerata una *view-through*, ponderato in base al valore dell&#39;inserzionista [ponderazione view-through](/help/search-social-commerce/glossary.md#uv) oppure, come specificato, in base al metodo di valutazione view-through specificato nei parametri di report, vista o simulazione personalizzata.
 
-Quando il percorso di conversione include sia clic che impression a pagamento, queste vengono trattate in modo diverso dai diversi prodotti Adobe Advertising:
+Quando il percorso di conversione include sia clic che impression a pagamento, queste vengono trattate in modo diverso dai diversi prodotti di Adobe Advertising:
 
 * In Search, Social e Commerce, il [peso di override impression](/help/search-social-commerce/glossary.md#i-j) , specificato nell&#39;impostazione di peso per la sostituzione delle impression dell&#39;inserzionista e nei parametri di report, visualizzazione o simulazione personalizzata, viene applicato per la prima volta alle impression.
 

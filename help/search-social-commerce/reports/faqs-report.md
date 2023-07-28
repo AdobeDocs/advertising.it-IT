@@ -2,7 +2,8 @@
 title: Domande frequenti sui rapporti personalizzati
 description: Scopri le risposte alle domande comuni sui rapporti sulle prestazioni, inclusa la risoluzione dei problemi relativi ai dati.
 exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
-source-git-commit: 18d7ec2254dda9e5f94270e13476a521006ec686
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '3919'
 ht-degree: 0%
@@ -132,7 +133,7 @@ Inoltre, quando confronti i dati di condivisione delle impression aggregati in u
 
 * Per la maggior parte delle metriche di condivisione delle impression, [!DNL Google Ads] limita il limite inferiore o superiore dei valori segnalati per i valori inferiori al 10% o superiori al 90%. I dati sono riportati come 0,0999 per &lt;10% e 0,9001 per >90%
 
-* In presenza di una combinazione di dati con e senza limiti di tempo all’interno dell’intervallo di date, Search, Social e Commerce aggregano i dati delle impression utilizzando i valori inviati nell’API così com’è, utilizzando 0,0999 per le righe con &lt;10% e 0,9001 per le righe con >90%. Questa aggregazione potrebbe risultare in una varianza rispetto al [!DNL Google Ads] dati preaggregati perché [!DNL Google Ads] può utilizzare valori percentuali effettivi, ad esempio 7% o 97%.
+* In presenza di una combinazione di dati con e senza limiti all’interno dell’intervallo di date, Search, Social e Commerce aggregano i dati delle impression utilizzando i valori inviati nell’API così come sono, utilizzando 0,0999 per le righe con &lt;10% e 0,9001 per le righe con >90%. Questa aggregazione potrebbe risultare in una varianza rispetto al [!DNL Google Ads] dati preaggregati perché [!DNL Google Ads] può utilizzare valori percentuali effettivi, ad esempio 7% o 97%.
 +++
 
 +++I dati sulle prestazioni nei rapporti sono diversi dai dati in [!DNL Google Analytics].
@@ -153,7 +154,7 @@ Il rapporto potrebbe non includere le metriche di conversione per le quali si so
 
 +++Nei rapporti manca la retribuzione.
 
-**Inserzionisti che utilizzano tag di conversione Adobe Advertising**
+**Inserzionisti che utilizzano tag di conversione Adobi Advertising**
 
 *Possibili cause:*
 
@@ -201,7 +202,7 @@ Il rapporto potrebbe non includere le metriche di conversione per le quali si so
 
 1. Verifica che il file sia stato inviato al server delle entrate e che il file segua lo stesso formato e la stessa convenzione di denominazione dei file precedenti.
 
-   Se il formato o la convenzione di denominazione dei file sono stati modificati, correggere il file e inviarlo di nuovo.
+   Se il formato o la convenzione di denominazione del file sono stati modificati, correggere il file e inviarlo di nuovo.
 
 1. Se il file è stato inviato, [contatta l’Assistenza clienti](/help/search-social-commerce/get-help.md).
 
@@ -209,12 +210,12 @@ Il rapporto potrebbe non includere le metriche di conversione per le quali si so
 +++
 
 +++Alcuni rapporti avanzati non includono i dati di conversione forniti da un feed dell’inserzionista.
-Il [!UICONTROL Geo Distribution Report] e [!UICONTROL Domain Referral Report] utilizza dati acquisiti tramite il servizio di tracciamento delle conversioni di Adobe Advertising e può essere generato solo per gli inserzionisti che utilizzano il servizio. I rapporti non includono dati di conversione tracciati all’esterno del sistema di tracciamento delle conversioni di Adobe Advertising.
+Il [!UICONTROL Geo Distribution Report] e [!UICONTROL Domain Referral Report] utilizza dati acquisiti tramite il servizio di tracciamento delle conversioni di Adobi Advertising e possono essere generati solo per gli inserzionisti che utilizzano il servizio. I rapporti non includono dati di conversione tracciati all’esterno del sistema di tracciamento delle conversioni di Adobi Advertising.
 +++
 
 +++I dati dei ricavi sono diversi da quelli dell’inserzionista.
 
-**Inserzionisti che utilizzano i tag di conversione Adobe Advertising**
+**Inserzionisti che utilizzano tag di conversione Adobi Advertising**
 
 *Possibili cause:*
 
@@ -312,7 +313,7 @@ Il [!UICONTROL Portfolio Report] mostra i dati solo per le campagne assegnate ai
 Le reti di annunci non forniscono l’identificatore necessario per attribuire i ricavi a un singolo annuncio per tali campagne. Di conseguenza, i dati sulle prestazioni a livello di annuncio non sono disponibili per questi tipi di campagna nel [!UICONTROL Ads] visualizzare o in [!UICONTROL Ad Variation Report]. Sono previste discrepanze tra il totale dei dati a livello di annuncio per una campagna e il totale dei dati per la campagna.
 +++
 
-+++In [!UICONTROL Transaction Report], come posso sapere quale proprietà di transazione proviene da un feed di dati o è tracciata dal pixel di tracciamento di Adobe Advertising?
++++In [!UICONTROL Transaction Report], come posso sapere quale proprietà di transazione proviene da un feed di dati o è tracciata dal pixel di tracciamento di Adobi Advertising?
 In un rapporto di transazione, puoi verificare se una proprietà di transazione inclusa è stata tracciata dal pixel di tracciamento dell’Adobe Advertising se includi la colonna personalizzata &quot;[!UICONTROL Tracking URL].&quot; Gli URL di tracciamento con il pixel di tracciamento di Adobe Advertising iniziano con &quot;`http://pixel.everesttech.net`.&quot;
 +++
 

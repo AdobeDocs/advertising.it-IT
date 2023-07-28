@@ -1,7 +1,9 @@
 ---
 title: Domande frequenti sul tracciamento
 description: Scopri le risposte alle domande comuni sul tracciamento, inclusa la risoluzione dei problemi.
-source-git-commit: f5e2044af460ebf561e075ed6b1fb057ed47acc3
+exl-id: f559b977-dd44-4d29-b49e-c41c6fb783d1
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1191'
 ht-degree: 0%
@@ -12,14 +14,14 @@ ht-degree: 0%
 
 ## Funzioni di tracciamento
 
-+++Posso tenere traccia di campagne che Adobe Advertising non gestisce?
++++Posso tenere traccia di campagne che Adobi Advertising non gestisce?
 
 Sì. Se Search, Social e Commerce sincronizzano uno degli account della rete di annunci, tiene traccia dei dati di clic della rete di annunci per tutti [tipi di campagna supportati](/help/search-social-commerce/introduction/supported-inventory.md) su tale conto. Tiene traccia anche dei dati di conversione se hai aggiunto il reindirizzamento di Ricerca, Social e Commerce agli URL di destinazione degli annunci e/o delle parole chiave o ai modelli di tracciamento e hai implementato il tracciamento delle conversioni nelle pagine di conversione. Chiarisci con il tuo Account Team Adobe quali campagne desideri semplicemente monitorare in Search, Social e Commerce e quali desideri che gestiscano.
 +++
 
 +++Come si ottiene l’attribuzione multi-evento?
 
-Per gli inserzionisti che utilizzano i tag di tracciamento delle conversioni di Search, Social e Commerce o Adobe Analytics, in Adobe Advertising sono disponibili diverse opzioni per l’attribuzione dei dati di conversione a una serie di eventi che portano a una conversione. Un’impostazione a livello di inserzionista determina come attribuire i dati di conversione tra gli eventi, anche quando si verificano tra più canali pubblicitari, purché i canali consentano il tracciamento delle impression a livello di evento. Per impostazione predefinita, le conversioni sono attribuite all’ultimo evento (più recente), ma l’impostazione può essere configurata in modo diverso, ad esempio per attribuire le conversioni al primo evento o per ponderare tutti gli eventi in modo uniforme. La modifica della regola di attribuzione influisce sul calcolo delle offerte future.
+Per gli inserzionisti che utilizzano i tag di tracciamento delle conversioni di Search, Social e Commerce o Adobe Analytics, in Adobi Advertising sono disponibili diverse opzioni per l’attribuzione dei dati di conversione a una serie di eventi che portano a una conversione. Un’impostazione a livello di inserzionista determina come attribuire i dati di conversione tra gli eventi, anche quando si verificano tra più canali pubblicitari, purché i canali consentano il tracciamento delle impression a livello di evento. Per impostazione predefinita, le conversioni sono attribuite all’ultimo evento (più recente), ma l’impostazione può essere configurata in modo diverso, ad esempio per attribuire le conversioni al primo evento o per ponderare tutti gli eventi in modo uniforme. La modifica della regola di attribuzione influisce sul calcolo delle offerte future.
 
 Gli inserzionisti che forniscono tutti i dati di conversione in un file di feed devono attribuire la conversione agli eventi di transazione correlati.
 
@@ -29,11 +31,11 @@ Gli inserzionisti che forniscono tutti i dati di conversione in un file di feed 
 
 +++
 
-+++In che modo Adobe Advertising identifica le transazioni duplicate?
++++In che modo Adobi Advertising identifica le transazioni duplicate?
 
-Le transazioni duplicate possono verificarsi quando un utente aggiorna la pagina di conferma dopo aver completato una transazione. Adobe Advertising utilizza `ev_transid` per eliminare le transazioni duplicate con lo stesso ID transazione e lo stesso valore di proprietà.
+Le transazioni duplicate possono verificarsi quando un utente aggiorna la pagina di conferma dopo aver completato una transazione. Adobi Advertising utilizza `ev_transid` per eliminare le transazioni duplicate con lo stesso ID transazione e lo stesso valore di proprietà.
 
-Di seguito è riportata la logica di deduplicazione di Adobe Advertising:
+Di seguito è riportata la logica di deduplicazione di Adobi Advertising:
 
 * **Quando un client invia un valore per `ev_transid` attributo:** Le successive richieste di pixel sono considerate duplicati di quella precedente se le seguenti sono tutte uguali: `ev_transid`; l’ID di tracciamento per la stessa parola chiave, annuncio o posizionamento e il valore per una proprietà di transazione specifica.
 
@@ -46,7 +48,7 @@ Di seguito è riportata la logica di deduplicazione di Adobe Advertising:
 
 ## Tipi di implementazione del tracciamento
 
-+++Voglio interrompere l’utilizzo del servizio di tracciamento delle conversioni di Adobe Advertising per una o più campagne o account. Come posso rimuovere rapidamente il codice di tracciamento dagli URL di tracciamento?
++++Voglio interrompere l’utilizzo del servizio di tracciamento delle conversioni di Adobi Advertising per una o più campagne o account. Come posso rimuovere rapidamente il codice di tracciamento dagli URL di tracciamento?
 
 Per prima cosa, rivolgiti al team del tuo account Adobe per comprendere le implicazioni della rimozione degli URL di tracciamento.
 
@@ -57,7 +59,7 @@ Nell’account o nella campagna, modifica il metodo di tracciamento in &quot;[!U
 
 +++Come faccio a sapere quale proprietà di transazione proviene da un feed di dati o è tracciata dal tag di tracciamento della conversione di Adobe Advertising?
 
-In un [!UICONTROL Transaction Report], se includi la colonna personalizzata, puoi verificare se una proprietà di transazione inclusa è stata tracciata dal pixel di tracciamento della conversione di Adobe Advertising &quot;[!UICONTROL Tracking URL].&quot; Gli URL di tracciamento con il pixel di tracciamento di Advertising di Adobe iniziano con `http://pixel.everesttech.net`.
+In un [!UICONTROL Transaction Report], se includi la colonna personalizzata, puoi verificare se una proprietà di transazione inclusa è stata tracciata dal pixel di tracciamento della conversione di Adobe Advertising &quot;[!UICONTROL Tracking URL].&quot; Gli URL di tracciamento con il pixel di tracciamento di Adobe Advertising iniziano con `http://pixel.everesttech.net`.
 +++
 
 +++Cosa sono le transazioni orfane?

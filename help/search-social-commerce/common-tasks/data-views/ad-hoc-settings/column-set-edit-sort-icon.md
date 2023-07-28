@@ -1,7 +1,9 @@
 ---
 title: Modifica e ordina il set di colonne da [!UICONTROL Custom Columns] icona
 description: Scopri come modificare le colonne visibili utilizzando lo strumento di personalizzazione colonne.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 9b8ddb3d-c598-4393-85f2-0e586ebe0df3
+feature: Search Common Tasks, Search Custom Data Views
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 0%
@@ -28,7 +30,7 @@ Puoi modificare le colonne visibili in qualsiasi vista dalla barra degli strumen
 
    * (Per modificare la posizione orizzontale di una colonna) Nella sezione [!UICONTROL Selected Columns & Ordering] fare clic sul nome della colonna e quindi trascinarlo nella posizione desiderata oppure fare clic su ![Sposta colonna su](/help/search-social-commerce/assets/chevron-up.png "Sposta colonna su") o ![Sposta colonna in basso](/help/search-social-commerce/assets/chevron-down.png "Sposta colonna in basso") per spostarlo lì.
 
-      Il nome della colonna superiore viene visualizzato nella colonna sinistra.
+     Il nome della colonna superiore viene visualizzato nella colonna sinistra.
 
    * (Per rimuovere una colonna) Nella sezione [!UICONTROL Selected Columns & Ordering] fare clic sul nome di una colonna e quindi trascinarlo nella [!UICONTROL Available Columns] o fai clic su ![Rimuovi](/help/search-social-commerce/assets/chevron-left.png "Rimuovi") per spostarlo lì.
 

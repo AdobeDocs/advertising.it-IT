@@ -1,7 +1,9 @@
 ---
 title: Rimuovere campagne da un portfolio
 description: Scopri come rimuovere le campagne da un portfolio.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: f86ebc10-650c-42ef-b3df-cd707a863c70
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
@@ -26,11 +28,10 @@ Per ulteriori informazioni sull’ottimizzazione, consulta la Guida all’ottimi
 
    * Per rimuovere tutte le campagne assegnate, fai clic su ![Rimuovi tutte le campagne dal portfolio](/help/search-social-commerce/assets/arrow-remove-all.png "Rimuovi tutte le campagne dal portfolio").
 
-   * Per rimuovere una singola campagna, fai clic sulla campagna e trascinala nella [!UICONTROL Available Campaigns] o fai clic su ![Rimuovi campagna dal portfolio](/help/search-social-commerce/assets/arrow-remove.png "Rimuovi campagna dal portfolio") .
+   * Per rimuovere una singola campagna, fai clic sulla campagna e quindi trascina la campagna nel [!UICONTROL Available Campaigns] o fai clic su ![Rimuovi campagna dal portfolio](/help/search-social-commerce/assets/arrow-remove.png "Rimuovi campagna dal portfolio") .
 
 1. Clic **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
 >* [Assegnare campagne a un portfolio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)
-

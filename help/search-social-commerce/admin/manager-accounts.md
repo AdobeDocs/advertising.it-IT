@@ -1,7 +1,9 @@
 ---
 title: Gestione delle credenziali per gli account di Ad Network Manager
 description: Scopri come fornire le credenziali per il [!DNL Google Ads] account manager.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: bde22f70-12a7-4eef-a141-dafeed9a7dc5
+feature: Search Admin
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 1%
@@ -61,4 +63,3 @@ Dopo aver aggiunto le credenziali per un account manager, le impostazioni dell&#
 >* [Abilita il caricamento degli obiettivi nelle reti di annunci](/help/search-social-commerce/tools/objective-upload-to-networks.md)
 >* [Carica metriche di conversione in [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
 >* [Modifica le impostazioni delle notifiche](/help/search-social-commerce/notifications/notification-edit.md)
-

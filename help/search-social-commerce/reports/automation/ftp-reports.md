@@ -1,7 +1,9 @@
 ---
 title: Accesso FTP ai rapporti
 description: Scopri come ricevere i rapporti in una posizione FTP di sola lettura.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 69850b68-0309-4f07-b4cb-c14488219a4b
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -18,7 +20,7 @@ L&#39;accesso FTP ai rapporti richiede l&#39;accesso a un account FTP specificat
 
 * Contatta il team dell’account Adobe per configurare un account FTP per l’accesso ai rapporti.
 
-   Il team ti fornirà nome utente e password.
+  Il team ti fornirà nome utente e password.
 
 ## Configurare modelli di rapporto per la consegna FTP
 
@@ -39,6 +41,7 @@ Per generare rapporti nella directory FTP designata, crea un [modello di report]
       * `[SDATE]` — Per includere la data di inizio dell&#39;intervallo di date del rapporto.
 
       * `[EDATE]` — Per includere la data di fine dell&#39;intervallo di date del rapporto.
+
    * (Facoltativo) `[CSV]` (in lettere maiuscole e racchiuse tra parentesi quadre) per creare file in formato CSV anziché in formato TSV predefinito.
 
    Esempio: `[TODAY]-Portfolio-FTP-[SDATE]-[EDATE]-[CSV]` creerebbe un file come 202305051656-Portfoli-FTP-20230428-20110504.csv.
@@ -51,7 +54,6 @@ Per generare rapporti nella directory FTP designata, crea un [modello di report]
 >
 >* Per inviare i rapporti completati per e-mail, è sufficiente inserire gli indirizzi di tutti i destinatari e-mail quando si genera il rapporto o il modello.
 >* I report vengono eseguiti in base alle pianificazioni specificate e vengono consegnati all&#39;account FTP entro un&#39;ora dal completamento.
-
 
 ## Accedere ai rapporti in un archivio FTP
 
@@ -68,4 +70,3 @@ Per accedere ai rapporti, connettiti a uno dei seguenti host FTP, utilizzando l�
 >[!MORELIKETHIS]
 >
 >* [Creare un modello di rapporto](/help/search-social-commerce/reports/automation/templates/template-create.md)
-

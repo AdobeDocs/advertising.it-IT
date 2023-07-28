@@ -1,7 +1,9 @@
 ---
 title: Gestire i modelli di annunci per i feed di inventario
 description: Scopri come gestire i modelli di annunci tramite i quali i dati di inventario possono essere elaborati per gestire la struttura dei conti e distribuire annunci dinamici.
-source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
+exl-id: b26fc32a-76bc-470a-8ce5-fbaad4b3ca71
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1415'
 ht-degree: 0%

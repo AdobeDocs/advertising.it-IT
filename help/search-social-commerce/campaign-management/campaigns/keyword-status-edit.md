@@ -1,7 +1,9 @@
 ---
 title: Modificare lo stato delle parole chiave e delle parole chiave negative
 description: Scopri come modificare lo stato delle parole chiave e delle parole chiave negative.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: c1562104-048e-486d-b20c-3c15f089324d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%
@@ -35,4 +37,3 @@ Puoi mettere in pausa una parola chiave di ricerca attiva e selezionabile per di
 >* [Informazioni sulle parole chiave](keyword-about.md)
 >* [Gestire le parole chiave per le offerte](keyword-manage.md)
 >* [Creare parole chiave negative](keyword-negative-create.md)
-

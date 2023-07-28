@@ -1,7 +1,9 @@
 ---
 title: Assegnare campagne a un portfolio
 description: Scopri come includere le campagne nei portfolio per l’ottimizzazione.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: ecf9f45f-5e90-4acb-a880-21fd8c96499d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -24,7 +26,7 @@ Non tutti i tipi di campagne e le reti pubblicitarie possono essere ottimizzati;
 
 1. Effettuare una delle seguenti operazioni:
 
-   * Per aggiungere una singola campagna a un portfolio, posiziona il cursore sul nome della campagna e fai clic su ![Pulsante Menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Pulsante Menu"), quindi selezionare **[!UICONTROL Assign]>[!UICONTROL Portfolio]**.
+   * Per aggiungere una singola campagna a un portfolio, posiziona il cursore sul nome della campagna e fai clic su ![Pulsante Menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Pulsante Menu")e quindi selezionare **[!UICONTROL Assign]>[!UICONTROL Portfolio]**.
 
    * Per aggiungere una o più campagne allo stesso portfolio, effettua le seguenti operazioni:
 
@@ -45,12 +47,12 @@ Non tutti i tipi di campagne e le reti pubblicitarie possono essere ottimizzati;
       1. Espandere un gruppo di portfolio nei relativi portfolio figlio facendo clic sul pulsante [!UICONTROL Portfolio Group] nome.
 
       1. Seleziona il portfolio.
+
    * Per cercare un portfolio:
 
       1. Immettere almeno tre lettere nel campo di input.
 
       1. Nei risultati della ricerca, fai clic su **[!UICONTROL Select]** accanto al nome del portfolio.
-
 
 1. (Facoltativo) Fai clic su **[!UICONTROL Additional Details]** e facoltativamente inserire il nome e la descrizione del progetto.
 
@@ -72,11 +74,10 @@ Non tutti i tipi di campagne e le reti pubblicitarie possono essere ottimizzati;
 
    * Per rimuovere tutte le campagne assegnate, fai clic su ![Rimuovi tutte le campagne dal portfolio](/help/search-social-commerce/assets/arrow-remove-all.png "Rimuovi tutte le campagne dal portfolio").
 
-   * Per rimuovere una singola campagna, fai clic sulla campagna e trascinala nella [!UICONTROL Available Campaigns] o fai clic su ![Rimuovi campagna dal portfolio](/help/search-social-commerce/assets/arrow-remove.png "Rimuovi campagna dal portfolio") .
+   * Per rimuovere una singola campagna, fai clic sulla campagna e quindi trascina la campagna nel [!UICONTROL Available Campaigns] o fai clic su ![Rimuovi campagna dal portfolio](/help/search-social-commerce/assets/arrow-remove.png "Rimuovi campagna dal portfolio") .
 
 1. Clic **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
 >* [Rimuovere campagne da un portfolio](/help/search-social-commerce/campaign-management/campaign-remove-from-portfolio.md)
-

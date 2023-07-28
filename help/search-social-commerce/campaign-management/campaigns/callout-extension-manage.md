@@ -1,7 +1,9 @@
 ---
 title: Gestisci [!DNL Google Ads] estensioni callout
 description: Scopri come creare e gestire [!DNL Google Ads] estensioni di callout.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 5ac4ae56-6de6-4c35-aaf3-339011af16c5
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -74,4 +76,3 @@ Per ulteriori [!DNL Google Ads] criteri e motivi per la disapprovazione del call
 >
 >* [Informazioni su [!DNL Google Ads] estensioni callout](callout-extension-about.md)
 >* [Associa [!DNL Google Ads] estensioni di callout condivise con campagne o gruppi di annunci](callout-extension-associate.md)
-

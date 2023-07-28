@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Microsoft® Advertising] impostazioni annuncio ricerca dinamica espansa"
+title: '[!DNL Microsoft® Advertising] impostazioni annunci per ricerca dinamica espansa'
 description: Fai riferimento alle impostazioni per [!DNL Microsoft® Advertising] annunci di ricerca dinamica espansi.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 73ac6cca-717e-46d2-a060-f1eafd754245
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%
@@ -40,4 +42,3 @@ Gli annunci di ricerca dinamica espansi (eDSA) sono disponibili solo nei gruppi 
 >* [[!DNL Microsoft® Advertising] impostazioni annuncio di prodotto](ad-settings-microsoft-product.md)
 >* [[!DNL Microsoft® Advertising] impostazioni degli annunci reattivi (pubblico)](ad-settings-microsoft-responsive.md)
 >* [[!DNL Microsoft® Advertising] impostazioni degli annunci di ricerca responsive](ad-settings-microsoft-rsa.md)
-

@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Constraint Report]"
+title: '[!UICONTROL Constraint Report]'
 description: Scopri di più su [!UICONTROL Constraint Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: c118c9fa-5dfe-4224-bbc5-618d291bafc2
+feature: Search Reports, Search Basic Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 0%
@@ -42,4 +44,3 @@ Per le descrizioni di tutte le colonne predefinite e personalizzate, vedi &quot;
 >* [Informazioni sui report di base e avanzati](basic-advanced-report-about.md)
 >* [Generare un rapporto di base o avanzato](basic-advanced-report-generate.md)
 >* [Impostazioni di base e avanzate dei rapporti](basic-advanced-report-settings.md)
-

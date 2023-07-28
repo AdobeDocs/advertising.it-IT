@@ -1,7 +1,9 @@
 ---
 title: Gestisci [!DNL Google Ads] target di ricerca dinamica
 description: Scopri come creare e gestire [!DNL Google Ads] destinazioni di ricerca dinamica.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 85b1455a-dda1-4bb9-b4be-d6e0a837fd9d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
@@ -85,12 +87,12 @@ Puoi anche eliminare qualsiasi destinazione dinamica.
    * Per eliminare una o più destinazioni dinamiche, effettuare le seguenti operazioni:
 
       1. Selezionare la casella di controllo accanto a ogni destinazione dinamica che si desidera eliminare.
-      Per suggerimenti sulla selezione di più righe, vedere &quot;[Seleziona più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+
+     Per suggerimenti sulla selezione di più righe, vedere &quot;[Seleziona più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
       1. Nella barra degli strumenti, fai clic su ![Altro](/help/search-social-commerce/assets/more.png "Altro") e seleziona **[!UICONTROL Delete]**.
 
       1. Nel messaggio di conferma, fai clic su **[!UICONTROL Delete]**.
-
 
 ## [!DNL Google Ads] impostazioni destinazione ricerca dinamica {#dynamic-search-target-settings}
 
@@ -129,4 +131,3 @@ Puoi anche eliminare qualsiasi destinazione dinamica.
 >[!MORELIKETHIS]
 >
 >* [Informazioni su [!DNL Google Ads] target di ricerca dinamica](dynamic-search-target-about.md)
-

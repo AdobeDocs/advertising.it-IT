@@ -1,7 +1,9 @@
 ---
 title: Modificare un modello di avviso personalizzato
 description: Scopri come modificare un modello per la generazione di avvisi personalizzati.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 14051d02-108c-4b0e-8a52-9ae18a95fe2e
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -34,4 +36,3 @@ ht-degree: 0%
 >* [Impostazioni del modello di avviso personalizzato](alert-template-settings.md)
 >* [Visualizzare avvisi personalizzati](alert-view.md)
 >* [Esporta dati per avvisi personalizzati](alert-export-data.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Gestire gli account di rete degli annunci
 description: Scopri come impostare e gestire i dettagli di un account di rete di annunci.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: fd8b38bd-24d0-488c-9e57-a516f5ae67ac
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '2079'
 ht-degree: 0%
@@ -64,7 +66,7 @@ Se le credenziali dell’account cambiano, vuoi modificare i parametri di tracci
 
 1. Nel menu principale, fai clic su **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Nel sottomenu, fai clic su **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
-1. Posizionare il cursore sul nome dell&#39;account e fare clic su ![Altro](/help/search-social-commerce/assets/more-filters.png "Altro"), quindi selezionare **[!UICONTROL Edit]**.
+1. Posizionare il cursore sul nome dell&#39;account e fare clic su ![Altro](/help/search-social-commerce/assets/more-filters.png "Altro")e quindi selezionare **[!UICONTROL Edit]**.
 
 1. Modifica il [impostazioni account](#account-settings):
 
@@ -90,7 +92,7 @@ Se nuove funzionalità richiedono un nuovo token, il team del tuo account Adobe 
 
 1. Nel menu principale, fai clic su **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Nel sottomenu, fai clic su **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
-1. Posizionare il cursore sul nome dell&#39;account e fare clic su ![Altro](/help/search-social-commerce/assets/more-filters.png "Altro"), quindi selezionare **[!UICONTROL Edit]**.
+1. Posizionare il cursore sul nome dell&#39;account e fare clic su ![Altro](/help/search-social-commerce/assets/more-filters.png "Altro")e quindi selezionare **[!UICONTROL Edit]**.
 
 1. Ottieni un nuovo token di accesso:
 
@@ -114,7 +116,7 @@ Quando si abilita un account di ad network, Search, Social e Commerce sincronizz
 
 1. Effettuare una delle seguenti operazioni:
 
-   * Per modificare lo stato di un singolo account, posizionare il cursore sul nome dell&#39;account e fare clic su ![Altro](/help/search-social-commerce/assets/more-filters.png "Altro"), quindi selezionare **[!UICONTROL Edit]**. Modificare il **[!UICONTROL Status]** a *Abilitato* o *Disabilitato* e quindi fare clic su **[!UICONTROL Post]**.
+   * Per modificare lo stato di un singolo account, posizionare il cursore sul nome dell&#39;account e fare clic su ![Altro](/help/search-social-commerce/assets/more-filters.png "Altro")e quindi selezionare **[!UICONTROL Edit]**. Modificare il **[!UICONTROL Status]** a *Abilitato* o *Disabilitato* e quindi fare clic su **[!UICONTROL Post]**.
 
    * Per modificare lo stato di uno o più account, effettuare le seguenti operazioni:
 
@@ -238,9 +240,9 @@ Gli account che utilizzano il tracciamento dei clic di Adobe Advertising devono 
 
 {{$include /help/_includes/append-parameters.md}}
 
-* **Formato S\_kwcid** - (Esistente [!DNL Google Ads] account per gli inserzionisti con un&#39;integrazione Adobe Advertising-Adobe Analytics e per i quali s\_kwcid non è già stato migrato)
+* **Formato S\_kwcid** - (Esistente [!DNL Google Ads] account per gli inserzionisti con un&#39;integrazione Adobi Advertising-Adobe Analytics e per i quali s\_kwcid non è già stato migrato)
 
-Questo account utilizza il formato legacy per il codice di tracciamento s\_kwcid, che consente ad Adobe Advertising di condividere i dati sull’account con Adobe Analytics. Il [formato più recente](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) include i parametri per l’ID della campagna e l’ID del gruppo di annunci, necessari per creare rapporti accurati a livello di campagna e di gruppo di annunci per [!DNL Google Ads] campagne di prestazioni massime, bozze ed esperimenti in Analytics:
+Questo account utilizza il formato legacy per il codice di tracciamento s\_kwcid, che consente ad Adobi Advertising di condividere i dati sull’account con Adobe Analytics. Il [formato più recente](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) include i parametri per l’ID della campagna e l’ID del gruppo di annunci, necessari per creare rapporti accurati a livello di campagna e di gruppo di annunci per [!DNL Google Ads] campagne di prestazioni massime, bozze ed esperimenti in Analytics:
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
@@ -248,7 +250,7 @@ Se questo account deve generare rapporti a livello di campagna e di gruppo di an
 
 Per istruzioni complete, consulta &quot;[Aggiorna il codice di tracciamento s\_kwcid per un [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-skwcid-google.md).&quot;
 
-**Nomi suite di rapporti** - (Solo per reindirizzamento EF con token; inserzionisti con un Adobe di integrazione Advertising-Adobe Analytics; facoltativo) Una o più suite di rapporti di Analytics a cui Search, Social e Commerce invia i dati che raccoglie dalla rete di annunci, incluse le classificazioni delle entità e i dati di clic per l’account. Questa funzione è disponibile solo per le reti di annunci supportate.
+**Nomi suite di rapporti** - (Solo per reindirizzamento EF con token; inserzionisti con integrazione Adobi Advertising-Adobe Analytics; facoltativo) Una o più suite di rapporti Analytics a cui Search, Social e Commerce invia i dati che raccoglie dalla rete di annunci, incluse le classificazioni delle entità e i dati di clic per l’account. Questa funzione è disponibile solo per le reti di annunci supportate.
 
 Affinché i dati vengano visualizzati nelle suite di rapporti, a) è necessario configurare s\_kwcid lato server per l’account oppure b) l’impostazione a livello di inserzionista su &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; deve essere abilitato. Inoltre, l’account Analytics dell’inserzionista deve essere configurato per ricevere i dati da Search, Social e Commerce. Per ulteriori informazioni, contatta il tuo Adobe Account Manager.
 

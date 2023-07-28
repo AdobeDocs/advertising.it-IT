@@ -1,7 +1,9 @@
 ---
 title: Convalidare le pagine di destinazione in file bulksheet
 description: Scopri come convalidare gli URL di destinazione in un file di bulksheet a account singolo.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: cf703687-1151-46f6-9540-12a83d41dfc8
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 0%
@@ -22,7 +24,6 @@ Successivamente puoi scaricare il file, correggere gli errori e caricare il file
 >
 >* Questa funzione non convalida i valori nella colonna URL di base/URL finale.
 >* È possibile pubblicare i file di bulksheet durante la convalida o anche in caso di errori.
-
 
 1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
 
@@ -47,7 +48,6 @@ Quando inizia l&#39;attività, viene aggiunta una nuova riga al [!UICONTROL Bulk
 >* La convalida dei file di grandi dimensioni richiede più tempo.
 >* I file di bulksheet per più campagne possono contenere fino a 500.000 righe di dati. Se generi dati per più campagne e i dati combinati sono costituiti da oltre 500.000 righe, i dati vengono suddivisi per campagna in due o più file denominati `<bulksheet name>_1.tsv`, `<bulksheet name>_2.tsv`e così via.
 
-
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulla gestione dei dati della campagna tramite bulksheet](bulksheet-about.md)
@@ -56,4 +56,3 @@ Quando inizia l&#39;attività, viene aggiunta una nuova riga al [!UICONTROL Bulk
 >* [Interruzione di un processo di bulksheet in corso](bulksheet-stop-job.md)
 >* [Carica un file di bulksheet o un file di errore corretto](bulksheet-upload.md)
 >* [Esportare un file bulksheet generato o caricato](bulksheet-export.md)
-

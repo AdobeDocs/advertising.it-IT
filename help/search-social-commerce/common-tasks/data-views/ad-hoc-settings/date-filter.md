@@ -1,7 +1,9 @@
 ---
 title: Filtra dati per intervallo di date
 description: Scopri come utilizzare il filtro dell’intervallo di date globale.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: e67e843a-1a73-4ab1-9ef7-c97afeb999f6
+feature: Search Common Tasks, Search Custom Data Views
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -22,18 +24,17 @@ Quando si salva un intervallo di date specifico per una visualizzazione predefin
 >* Per visualizzare i dati precedenti, passare alla [[!UICONTROL Reports] visualizza](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) ed esegui un report di base.
 >* È inoltre possibile salvare un intervallo di date per un [visualizzazione predefinita o personalizzata](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
 
-
 ## Modificare il filtro data globale nelle visualizzazioni della campagna
 
 1. Sopra qualsiasi tabella di dati in Ricerca \> Campagne \> Campagne, fai clic sull’intervallo di date corrente.
 
 1. In **[!UICONTROL Date Range]** , specificare l&#39;intervallo:
 
-   * Per un intervallo predefinito: seleziona dall’elenco degli incrementi di tempo comuni, che vanno da *[!UICONTROL Today]* a *[!UICONTROL Last 180 Days]*. Il valore predefinito è *[!UICONTROL Yesterday]*.
+   * Per un intervallo predefinito: seleziona dall’elenco degli incrementi di tempo comuni, compresi tra *[!UICONTROL Today]* a *[!UICONTROL Last 180 Days]*. Il valore predefinito è *[!UICONTROL Yesterday]*.
 
    * Per un intervallo specifico: Seleziona **[!UICONTROL Custom Date Range]** e quindi specificare la data di inizio e la data di fine.
 
-      Immettere le date nel formato MM/GG/AAAA o MM-GG-AAAA oppure fare clic su ![Icona Calendario](/help/search-social-commerce/assets/calendar.png "Icona Calendario") accanto a ogni campo per aprire il calendario e selezionare una data.
+     Immettere le date nel formato MM/GG/AAAA o MM-GG-AAAA oppure fare clic su ![Icona Calendario](/help/search-social-commerce/assets/calendar.png "Icona Calendario") accanto a ogni campo per aprire il calendario e selezionare una data.
 
 1. (Facoltativo) Confronta i dati per l’intervallo di date specificato con i dati per un secondo intervallo di date:
 

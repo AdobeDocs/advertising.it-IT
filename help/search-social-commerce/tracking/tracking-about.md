@@ -1,7 +1,9 @@
 ---
 title: Informazioni sul tracciamento per Ricerca, Social e Commerce
 description: Scopri le opzioni di tracciamento per Search, Social e Commerce.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 0a26f67c-8b3b-4fa1-ac24-a8461624cfc5
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 0%
@@ -20,15 +22,15 @@ Se desideri tenere traccia delle campagne su reti pubblicitarie con cui Search, 
 
 ### Tag di tracciamento dei clic
 
-Il team di implementazione di Search, Social &amp; Commerce configura il tracciamento dei clic aggiornando i modelli di tracciamento e gli URL di destinazione per annunci, parole chiave, posizionamenti, gruppi di prodotti ed estensioni sitelink nelle campagne pubblicitarie sincronizzate, in modo da includere una stringa ID di tracciamento univoca e un Adobe di reindirizzamento Advertising. Aggiungono inoltre il tracciamento ai suffissi della pagina principale (suffissi URL finali) per il tuo [!DNL Google Ads] e [!DNL Microsoft Advertising] account e campagne.
+Il team di implementazione di Search, Social &amp; Commerce configura il tracciamento dei clic aggiornando i modelli di tracciamento e gli URL di destinazione per annunci, parole chiave, posizionamenti, gruppi di prodotti ed estensioni sitelink nelle campagne pubblicitarie sincronizzate, in modo da includere una stringa ID tracciamento univoca e un Adobe Advertising di reindirizzamento. Aggiungono inoltre il tracciamento ai suffissi della pagina principale (suffissi URL finali) per il tuo [!DNL Google Ads] e [!DNL Microsoft Advertising] account e campagne.
 
-I parametri di tracciamento consentono ad Adobe Advertising di tenere traccia dei clic a livello di singola parola chiave (campagne di ricerca) o a livello di variante dell’annuncio (campagne di ricerca con targeting di contenuto o sito, campagne di visualizzazione e campagne social). Ogni volta che un utente visualizza un annuncio di visualizzazione/contenuto o fa clic su uno degli annunci, la rete di annunci invia l’evento ai pixel server di Advertising Adobe utilizzando un tag di tracciamento dei clic associato alla parola chiave o all’annuncio. Per i clic:
+I parametri di tracciamento consentono all’Adobe Advertising di tenere traccia dei clic a livello di singola parola chiave (campagne di ricerca) o a livello di variante dell’annuncio (campagne di ricerca con targeting di contenuto o sito, campagne di visualizzazione e campagne social). Ogni volta che un utente visualizza un annuncio di visualizzazione/contenuto o fa clic su uno degli annunci, la rete di annunci invia l’evento ai server pixel Adobi Advertising utilizzando un tag di tracciamento dei clic associato alla parola chiave o all’annuncio. Per i clic:
 
-* Per gli annunci Google Ads e Microsoft Advertising sui browser che supportano il tracciamento parallelo, la rete di annunci invia prima il clic al sito web e poi agli Adobi pixel server di Advertising, che quindi inseriscono un cookie sul computer dell’utente, se non ne esiste già uno.
+* Per gli annunci Google Ads e Microsoft Advertising sui browser che supportano il tracciamento parallelo, la rete di annunci invia prima il clic al sito web e poi agli Adobi Advertising pixel server, che quindi inseriscono un cookie sul computer dell’utente, se non ne esiste già uno.
 
-* In tutti gli altri casi, la rete pubblicitaria invia il clic direttamente ai pixel server di Adobe Advertising. Il pixel server inserisce un cookie nel computer dell’utente (se non ne esiste già uno) e quindi reindirizza l’utente all’URL appropriato sul sito web. L’esperienza complessiva per l’utente finale è la stessa che si avrebbe senza un reindirizzamento.
+* In tutti gli altri casi, la rete pubblicitaria invia il clic direttamente ai server pixel Adobi Advertising. Il pixel server inserisce un cookie nel computer dell’utente (se non ne esiste già uno) e quindi reindirizza l’utente all’URL appropriato sul sito web. L’esperienza complessiva per l’utente finale è la stessa che si avrebbe senza un reindirizzamento.
 
-Il cookie è impostato in [!DNL Adobe] dominio (`everesttech.net`) come cookie di prime parti. Dopo un reindirizzamento, l’utente si trova nel dominio dell’inserzionista e il cookie viene quindi trattato come un cookie di terze parti. Per ulteriori informazioni sui cookie di Adobe Advertising, consulta la sezione &quot;[Cookie di Adobe Advertising](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html).&quot;
+Il cookie è impostato in [!DNL Adobe] dominio (`everesttech.net`) come cookie di prime parti. Dopo un reindirizzamento, l’utente si trova nel dominio dell’inserzionista e il cookie viene quindi trattato come un cookie di terze parti. Per ulteriori informazioni sui cookie Adobi Advertising, consulta la sezione &quot;[Cookie di Adobi Advertising](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html).&quot;
 
 ## Dati di conversione
 
@@ -40,8 +42,8 @@ L’inserzionista svolge un ruolo nella fornitura dei dati di conversione per tu
 
 È possibile utilizzare [tag di conversione di vari fornitori](/help/search-social-commerce/tracking/conversion-tracking-about.md).
 
-Quando utilizzi un tag di conversione Adobe Advertising e un utente completa una transazione riuscita e arriva a una pagina di &quot;successo&quot;, il server pixel di Adobe Advertising controlla l’esistenza del cookie sul computer dell’utente, impostato al momento del reindirizzamento del clic. Quando trova un cookie, le informazioni sull’evento della transazione vengono trasmesse utilizzando il parametro ef_transid e la transazione viene riconosciuta come conversione e accreditata all’impression di clic o visualizzazione precedente.
+Quando utilizzi un tag di conversione di Adobe Advertising e un utente completa una transazione riuscita e arriva a una pagina &quot;riuscita&quot;, il server pixel di Adobe Advertising controlla l’esistenza del cookie sul computer dell’utente, impostato al momento del reindirizzamento del clic. Quando trova un cookie, le informazioni sull’evento della transazione vengono trasmesse utilizzando il parametro ef_transid e la transazione viene riconosciuta come conversione e accreditata all’impression di clic o visualizzazione precedente.
 
-Se l’utente ha fatto clic su più annunci, Adobe Advertising attribuisce la transazione al clic finale dell’annuncio o (per campagne display o video) all’impression finale dell’annuncio, a meno che non venga specificato diversamente. Il tuo [fai clic sull’intervallo di lookback](/help/search-social-commerce/glossary.md#c-d) e [intervallo di lookback delle impression](/help/search-social-commerce/glossary.md#i-j) determina il numero di giorni dopo i quali si verifica un clic a pagamento o un’impression display/video (rispettivamente) in cui l’evento può essere attribuito a una conversione.
+Se l’utente ha fatto clic su più annunci, Adobi Advertising attribuisce la transazione al clic finale dell’annuncio o (per campagne di visualizzazione o video) all’impression finale dell’annuncio, a meno che non venga specificato diversamente. Il tuo [fai clic sull’intervallo di lookback](/help/search-social-commerce/glossary.md#c-d) e [intervallo di lookback delle impression](/help/search-social-commerce/glossary.md#i-j) determina il numero di giorni dopo i quali si verifica un clic a pagamento o un’impression display/video (rispettivamente) in cui l’evento può essere attribuito a una conversione.
 
-Il team di implementazione di Adobe Advertising collabora con l’inserzionista per determinare il formato dei tag di conversione che l’inserzionista deve implementare, identificare le pagine web in cui ogni tag di conversione deve essere inserito e quindi fornire i tag di conversione da implementare.
+Il team di implementazione di Adobi Advertising collabora con l’inserzionista per determinare il formato dei tag di conversione che l’inserzionista deve implementare, identificare le pagine web in cui ogni tag di conversione deve essere inserito e quindi fornire i tag di conversione da implementare.

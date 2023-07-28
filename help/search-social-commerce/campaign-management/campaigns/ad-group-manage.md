@@ -1,7 +1,9 @@
 ---
 title: Gestire i gruppi di annunci
 description: Scopri come creare e gestire i gruppi di annunci.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b86ea2e9-0d4b-4885-9cc9-b62d2c784017
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -48,13 +50,13 @@ Puoi modificare le impostazioni per singoli gruppi di annunci. Puoi anche modifi
 
 1. Effettuare una delle seguenti operazioni:
 
-   1. Per modificare le impostazioni per un singolo gruppo di annunci, posiziona il cursore sul nome dell’entità e fai clic su ![Icona menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Icona menu"), quindi selezionare **[!UICONTROL Edit]**.
+   1. Per modificare le impostazioni per un singolo gruppo di annunci, posiziona il cursore sul nome dell’entità e fai clic su ![Icona menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Icona menu")e quindi selezionare **[!UICONTROL Edit]**.
 
    1. (Per modificare le impostazioni per uno o più gruppi di annunci) Effettua le seguenti operazioni:
 
       * Seleziona la casella di controllo accanto a ciascun gruppo di annunci.
 
-         Per suggerimenti sulla selezione di più righe, vedere &quot;[Seleziona più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+        Per suggerimenti sulla selezione di più righe, vedere &quot;[Seleziona più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
       * Nella barra degli strumenti sopra la tabella dati, fai clic su ![Modifica](/help/search-social-commerce/assets/edit.png "Modifica").
 
@@ -98,4 +100,3 @@ Puoi anche eliminare qualsiasi gruppo di annunci di ricerca attivo o in pausa. I
 >* [Impostazioni dei gruppi di annunci Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
 >* [Yahoo! Impostazioni gruppo di annunci Japan Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
 >* [Impostazioni gruppo di annunci Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
-

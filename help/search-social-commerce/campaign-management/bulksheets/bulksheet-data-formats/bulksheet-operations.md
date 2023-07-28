@@ -1,7 +1,9 @@
 ---
 title: Operazioni eseguibili nei bulksheet
 description: Fai riferimento a informazioni generali sull’aggiunta, la modifica e l’eliminazione di dati di campagne utilizzando i bulksheet.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 82969bb8-dff8-48e7-b37d-1446a2a90072
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
@@ -24,7 +26,7 @@ Le seguenti regole si applicano all’utilizzo dei componenti della campagna e d
 
 * Per modificare una proprietà per un componente esistente, includi tutti i campi necessari per modificare tale componente e il campo della proprietà.
 
-   Se si lascia vuoto il campo proprietà, il valore esistente viene mantenuto.
+  Se si lascia vuoto il campo proprietà, il valore esistente viene mantenuto.
 
 * Eliminazione di:
 
@@ -48,4 +50,3 @@ Le seguenti regole si applicano all’utilizzo dei componenti della campagna e d
 >* [Formati di file di bulksheet supportati](bulksheet-file-formats.md)
 >* [Appendice - Errori di bulksheet](../bulksheet-errors.md)
 >* [Scaricare/creare un file bulksheet](../bulksheet-download.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Ottimizzare le pagine di destinazione del sito web
 description: Scopri le best practice per ottimizzare le pagine di destinazione del tuo sito web.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 87379fb1-c737-4ac0-80c1-26c79feb45d8
+feature: Search Best Practices
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 0%
@@ -56,4 +58,3 @@ Per visualizzare l’impatto della modifica della pagina di destinazione (quando
 >
 >* [Analizzare i rapporti per perfezionare le parole chiave e le impostazioni della campagna](best-practices-analyze.md)
 >* [Scrivi testo effettivo e copia](best-practices-write.md)
-

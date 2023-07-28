@@ -2,7 +2,8 @@
 title: '''[!DNL Google Ads] dati di conversione"'
 description: Scopri i tipi di [!DNL Google Ads]-Dati di conversione tracciati disponibili in Search, Social e Commerce.
 exl-id: a7ee8e72-aa7d-4e90-b765-b7b01308762d
-source-git-commit: 29cda72cac949663cd2df822cf7223335a14504d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 0%
@@ -31,7 +32,7 @@ Fino a tre proprietà di transazione per ogni [[!DNL Google Ads]-conversione tra
 
 >[!NOTE]
 >
->* Se disponi di più account con gli stessi nomi di conversione, in Adobe Advertising potrebbero essere presenti nomi di conversione duplicati. In tal caso, [modificare il nome visualizzato](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) per una delle metriche duplicate in [!UICONTROL Admin] > [!UICONTROL Transaction Properties]. Il reporting non è accurato quando due metriche diverse hanno lo stesso nome.
+>* Se disponi di più account con gli stessi nomi di conversione, in Adobi Advertising potrebbero essere presenti nomi di conversione duplicati. In tal caso, [modificare il nome visualizzato](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) per una delle metriche duplicate in [!UICONTROL Admin] > [!UICONTROL Transaction Properties]. Il reporting non è accurato quando due metriche diverse hanno lo stesso nome.
 >* I dati a livello di unità di offerta corrispondono ai dati in [!DNL Google Ads] allo stesso livello. Tuttavia, [!DNL Google Ads]I dati di conversione di &#39; per i livelli superiori possono includere conversioni aggiuntive non attribuite alle unità di offerta figlio. I dati in Search, Social e Commerce vengono sempre aggregati dal livello di unità dell’offerta, pertanto, ad esempio, un rapporto a livello di campagna potrebbe non avere gli stessi totali di un rapporto a livello di campagna in Google Ads.
 >* La varianza dei dati è in genere inferiore dopo la sincronizzazione mattutina rispetto a quella più tardi nel corso della giornata, quando non sono ancora state sincronizzate conversioni aggiuntive. È consigliabile convalidare i dati al mattino.
 >* Dati di conversione non disponibili per [!DNL Google Display Network], [!DNL Gmail], [!DNL Mobile App], e [!DNL YouTube] annunci. Escludi questi tipi di annunci quando confronti i dati in [!DNL Google Ads] con dati in Search, Social e Commerce.

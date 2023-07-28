@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Google Ads] responsive search ad settings"
+title: '[!DNL Google Ads] impostazioni degli annunci di ricerca responsive'
 description: Fai riferimento alle impostazioni per [!DNL Google Ads] annunci di ricerca responsive.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: e3c76f22-780d-4631-bcf2-af68d12810e2
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 0%
@@ -52,4 +54,3 @@ Consulta la [!DNL Google Ads] aiuto per [limiti di annunci per account](https://
 >* [Gestione annunci](ad-manage.md)
 >* [[!DNL Google Ads] impostazioni annuncio di sola chiamata](ad-settings-google-call.md)
 >* [[!DNL Google Ads] impostazioni annunci per ricerca dinamica espansa](ad-settings-google-dsa.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Informazioni sulle classificazioni delle etichette
 description: Scopri come utilizzare le classificazioni delle etichette per raggruppare i componenti dell’account.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a4777e7a-50c7-4521-a849-fb4661d94602
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -31,7 +33,6 @@ Il [!UICONTROL Labels Classifications] visualizzazione all&#39;interno di [!UICO
 >* [Creare una classificazione di etichette](classification-create.md)
 >* [Assegnare valori di classificazione ai componenti account dalle viste di gestione delle campagne](classification-values-assign-campaign-management.md)
 >* [Assegnare valori di classificazione ai componenti conto utilizzando i bulksheet](classification-values-assign-bulksheets.md)
->* [Rimuovere i valori di classificazione delle etichette dai componenti dell’account](classification-values-remove.md)
+>* [Rimuovi i valori di classificazione delle etichette dai componenti dell’account](classification-values-remove.md)
 >* [Elimina valori di classificazione delle etichette](classification-values-delete.md)
 >* [Eliminare le classificazioni delle etichette](classification-delete.md)
-

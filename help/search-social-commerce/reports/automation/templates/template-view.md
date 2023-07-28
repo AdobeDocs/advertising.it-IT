@@ -1,7 +1,9 @@
 ---
 title: Visualizzare un modello di rapporto
 description: Scopri come visualizzare un modello di rapporto riutilizzabile.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: fc2b9326-c783-4632-9673-89392bffb05f
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 0%
@@ -26,4 +28,3 @@ ht-degree: 0%
 >* [Creare un modello di rapporto](template-create.md)
 >* [Modificare un modello di rapporto](template-edit.md)
 >* [Eliminare i modelli di rapporto](template-delete.md)
-

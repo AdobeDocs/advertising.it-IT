@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL AdWords Conversion Report]"
+title: '[!UICONTROL AdWords Conversion Report]'
 description: Scopri di più su [!UICONTROL AdWords Conversion Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 5c9252fd-b791-421b-a5d2-1f6279d38c45
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -48,7 +50,7 @@ Per le descrizioni di tutte le colonne predefinite e personalizzate, vedi &quot;
 * [!UICONTROL Google Converted Clicks]
 
 >[!MORELIKETHIS]
+>
 * [Informazioni sui report speciali](specialty-report-about.md)
 * [Generare un rapporto speciale](specialty-report-generate.md)
 * [Impostazioni report speciali](specialty-report-settings.md)
-

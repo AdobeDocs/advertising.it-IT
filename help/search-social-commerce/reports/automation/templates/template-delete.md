@@ -1,7 +1,9 @@
 ---
 title: Eliminare un modello di rapporto
 description: Scopri come eliminare i modelli di rapporto.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 2b81aad8-6ab1-495f-8f34-67fa5c55be42
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 0%
@@ -28,4 +30,3 @@ Puoi eliminare qualsiasi modello di rapporto disponibile. Quando elimini un mode
 >* [Creare un modello di rapporto](template-create.md)
 >* [Modificare un modello di rapporto](template-edit.md)
 >* [Visualizzare un modello di rapporto](template-view.md)
-

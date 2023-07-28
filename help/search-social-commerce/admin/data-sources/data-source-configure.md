@@ -3,7 +3,8 @@ title: Configurare un [!DNL Google Analytics] visualizzare come origine dati
 description: Scopri come configurare un’origine dati da un [!DNL Google Analytics] visualizzazione.
 role: User, Admin
 exl-id: 583cf9aa-861c-4faf-a707-1def4e983b93
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+feature: Search Admin, Search Data Sources
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -38,13 +39,13 @@ Per integrare le metriche per più proprietà o per più viste per una singola p
 
          >[!TIP]
          >
-         >Per assicurarsi che solo specifici [!DNL Google Analytics] Le proprietà e le visualizzazioni sono disponibili in Adobe Advertising. Accedi utilizzando un indirizzo e-mail che abbia accesso solo a tali proprietà e visualizzazioni.
+         >Per assicurarsi che solo specifici [!DNL Google Analytics] le proprietà e le visualizzazioni sono disponibili in Adobi Advertising. effettua l’accesso utilizzando un indirizzo e-mail che abbia accesso solo a tali proprietà e visualizzazioni.
 
          >[!NOTE]
          >
          >Se successivamente modifichi la password per questo account e-mail, tutte le connessioni aperte all’account e-mail vengono chiuse. Per riprendere la sincronizzazione dei dati, torna a questa pagina e [riautentica](data-source-reauthenticate.md).
 
-      1. Seleziona la casella di controllo per autorizzare Adobe Advertising ad accedere alle metriche per l’account.
+      1. Seleziona la casella di controllo per autorizzare l’Adobe Advertising ad accedere alle metriche per l’account.
 
       1. Clic **[!UICONTROL Authenticate]**.
 

@@ -1,7 +1,9 @@
 ---
 title: Assegnare valori di classificazione ai componenti account dalle viste di gestione delle campagne
 description: Scopri come assegnare i valori di classificazione ai componenti dell’account.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7e55d7d8-5e12-409b-ad5d-c53cbf24c7c9
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -24,13 +26,13 @@ I valori delle etichette vengono ereditati dalle entità figlio, pertanto non im
 
 1. Effettuare una delle seguenti operazioni:
 
-   * Per assegnare valori a una singola entità, posizionate il cursore sul nome dell&#39;entità e fate clic su ![Pulsante Menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Pulsante Menu"), quindi selezionare **[!UICONTROL Classification]**.
+   * Per assegnare valori a una singola entità, posizionate il cursore sul nome dell&#39;entità e fate clic su ![Pulsante Menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Pulsante Menu")e quindi selezionare **[!UICONTROL Classification]**.
 
    * Per assegnare valori a una o più entità, effettuare le seguenti operazioni:
 
       * Selezionare la casella di controllo accanto a ogni riga pertinente.
 
-         Per suggerimenti sulla selezione di più righe, vedere &quot;[Seleziona più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+        Per suggerimenti sulla selezione di più righe, vedere &quot;[Seleziona più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
       * Nella barra degli strumenti sopra la tabella dati, fai clic su ![Altro](/help/search-social-commerce/assets/more.png "Altro")e quindi fare clic su **[!UICONTROL Classification]**.
 
@@ -38,17 +40,17 @@ I valori delle etichette vengono ereditati dalle entità figlio, pertanto non im
 
    * Per modificare i valori delle classificazioni esistenti in nuovi valori, seleziona **[!UICONTROL Set To]**.
 
-      La lunghezza massima di ogni valore è di 100 caratteri e può includere caratteri ASCII e non ASCII.
+     La lunghezza massima di ogni valore è di 100 caratteri e può includere caratteri ASCII e non ASCII.
 
    * Per assegnare i valori di classificazione specificati senza rimuovere i valori esistenti, seleziona **[!UICONTROL Assign]**.
 
    * Per rimuovere specifici valori di classificazione attualmente assegnati, seleziona **[!UICONTROL Remove]**.
 
-      Quando rimuovi un valore di classificazione, i dati del rapporto relativi a tale valore non sono più disponibili per i componenti dell’account specificati.
+     Quando rimuovi un valore di classificazione, i dati del rapporto relativi a tale valore non sono più disponibili per i componenti dell’account specificati.
 
    * Per eliminare i valori di classificazione specificati, seleziona **[!UICONTROL Delete]**.
 
-      L’eliminazione di un valore di classificazione ne rende impossibile l’utilizzo futuro e i dati del rapporto non sono più disponibili per tale valore. Tutte le assegnazioni tra i valori e i componenti specifici dell’account vengono rimosse, ma i componenti dell’account non vengono eliminati.
+     L’eliminazione di un valore di classificazione ne rende impossibile l’utilizzo futuro e i dati del rapporto non sono più disponibili per tale valore. Tutte le assegnazioni tra i valori e i componenti specifici dell’account vengono rimosse, ma i componenti dell’account non vengono eliminati.
 
 1. Per ogni valore di classificazione applicabile, effettua le seguenti operazioni:
 
@@ -58,15 +60,15 @@ I valori delle etichette vengono ereditati dalle entità figlio, pertanto non im
 
       * Per creare una classificazione, fai clic su [!UICONTROL +]. Nel campo di input, inserisci il nome della classificazione, quindi fai clic su ![Salva](/help/search-social-commerce/assets/select.png "Salva") per salvare immediatamente la classificazione.
 
-         Il nome deve essere costituito da [Caratteri ASCII: 32-126](https://www.asciitable.com/), e la lunghezza massima è di 27 caratteri a byte singolo.
+        Il nome deve essere costituito da [Caratteri ASCII: 32-126](https://www.asciitable.com/), e la lunghezza massima è di 27 caratteri a byte singolo.
+
    1. In **[!UICONTROL Value Name]** , specifica il nome del valore:
 
       * Per utilizzare un valore esistente, fai clic sul nome del valore per selezionarlo.
 
       * Per creare un valore, fai clic su [!UICONTROL +]. Nel campo di immissione immettere il valore e quindi fare clic su ![Salva](/help/search-social-commerce/assets/select.png "Salva") per salvare immediatamente il valore.
 
-         La lunghezza massima è di 100 caratteri e può includere caratteri ASCII e non ASCII.
-
+        La lunghezza massima è di 100 caratteri e può includere caratteri ASCII e non ASCII.
 
 1. (Facoltativo) Immettere ulteriori dettagli:
 
@@ -81,7 +83,6 @@ I valori delle etichette vengono ereditati dalle entità figlio, pertanto non im
 >* [Informazioni sulle classificazioni delle etichette](classification-about.md)
 >* [Creare una classificazione di etichette](classification-create.md)
 >* [Assegnare valori di classificazione ai componenti conto utilizzando i bulksheet](classification-values-assign-bulksheets.md)
->* [Rimuovere i valori di classificazione delle etichette dai componenti dell’account](classification-values-remove.md)
+>* [Rimuovi i valori di classificazione delle etichette dai componenti dell’account](classification-values-remove.md)
 >* [Elimina valori di classificazione delle etichette](classification-values-delete.md)
 >* [Eliminare le classificazioni delle etichette](classification-delete.md)
-

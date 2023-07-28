@@ -1,7 +1,9 @@
 ---
 title: Informazioni sui gruppi di prodotti di acquisto
 description: Scopri come acquistare gruppi di prodotti nelle campagne di acquisto.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: c91e6fb5-3be1-4d21-b508-09f974058fc7
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 0%
@@ -44,9 +46,9 @@ All’interno di un gruppo di annunci, puoi creare fino a sette livelli di grupp
 
 * (Obbligatorio per [!DNL Google Ads]; best practice per [!DNL Microsoft Advertising]) Aggiungi l&#39;URL di tracciamento al [!DNL Tracking Template] nell’impostazione account, campagna o gruppo di prodotti. Per semplificare la manutenzione, aggiungili al livello più alto possibile. Eventuali parametri di accodamento specificati per l’account o la campagna non sono inclusi.
 
-   >[!CAUTION]
-   >
-   >([!DNL Microsoft Advertising]) Utilizza questa opzione solo se non includi gli URL di tracciamento di Ricerca, Social e Commerce in una colonna personalizzata all’interno del feed del prodotto. Se esegui entrambe le operazioni, gli URL includeranno due reindirizzamenti e causeranno collegamenti interrotti.
+  >[!CAUTION]
+  >
+  >([!DNL Microsoft Advertising]) Utilizza questa opzione solo se non includi gli URL di tracciamento di Ricerca, Social e Commerce in una colonna personalizzata all’interno del feed del prodotto. Se esegui entrambe le operazioni, gli URL includeranno due reindirizzamenti e causeranno collegamenti interrotti.
 
 * ([!DNL Microsoft Advertising] solo ) Aggiungi l’URL di tracciamento ai dati di prodotto all’interno di [!DNL Microsoft Merchant Center] account. A tal fine, includi l’URL di tracciamento, insieme al valore in `link` o `mobile_link` in una colonna personalizzata denominata [`bingads_redirect`](https://help.ads.microsoft.com/#apex/3/en/51084/0) all’interno del feed del prodotto. Gli URL generati con questo metodo non includono parametri di tracciamento specificati nelle impostazioni dell’account o della campagna in Search, Social &amp; Commerce.
 
@@ -59,4 +61,3 @@ Puoi visualizzare i dati sui gruppi di prodotti in [il [!UICONTROL Product Group
 >* [Implementare [!DNL Google Ads] campagne di acquisto](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
 >* [[!DNL Microsoft Advertising] impostazioni gruppo di prodotti](product-group-settings-microsoft.md)
 >* [Implementare [!DNL Microsoft® Advertising] campagne di acquisto](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
-

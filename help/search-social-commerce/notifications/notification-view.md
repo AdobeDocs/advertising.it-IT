@@ -1,7 +1,9 @@
 ---
 title: Visualizzare le notifiche
 description: Scopri i diversi modi per visualizzare le notifiche.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 01226827-661d-4125-ab64-874fe7dcaf3a
+feature: Search Notifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -22,11 +24,12 @@ Quando sei [ha effettuato l’abbonamento a notifiche](notification-edit.md) inf
 
    * Per visualizzare i dettagli di qualsiasi notifica, fai clic sul nome della notifica.
 
-      In alcune notifiche, il [!UICONTROL Action Recommended] può includere un collegamento che apre una visualizzazione filtrata delle entità interessate o responsabili.
+     In alcune notifiche, il [!UICONTROL Action Recommended] può includere un collegamento che apre una visualizzazione filtrata delle entità interessate o responsabili.
 
    * Per contrassegnare una notifica come *letto* o *non letto*, posizionare il cursore sul nome dell&#39;avviso e fare clic su ![Contrassegna come letto o non letto](/help/search-social-commerce/assets/notifications-read-unread.png "Contrassegna come letto o non letto").
 
-      Notifiche contrassegnate come *letto* sono in un testo di colore più chiaro, ma rimangono disponibili fino a quando non vengono eliminati.
+     Notifiche contrassegnate come *letto* sono in un testo di colore più chiaro, ma rimangono disponibili fino a quando non vengono eliminati.
+
    ![Notifiche lette e non lette](/help/search-social-commerce/assets/notifications-read-vs-unread.png "Notifiche lette e non lette")
 
    * Per modificare le preferenze di abbonamento per il tipo di notifica, fai clic su ![Impostazioni](/help/search-social-commerce/assets/settings-nc.png "Impostazioni") accanto alla notifica, modificare le impostazioni e quindi fare clic su **[!UICONTROL Save]**.
@@ -34,7 +37,6 @@ Quando sei [ha effettuato l’abbonamento a notifiche](notification-edit.md) inf
    * Per eliminare una notifica, fai clic su ![Elimina](/help/search-social-commerce/assets/delete.png "Elimina") accanto alla notifica.
 
    * Per aprire [!UICONTROL Notification Center], fai clic su **[!UICONTROL View All]**.
-
 
 ## Visualizza notifiche in [!UICONTROL Notification Center]
 
@@ -46,11 +48,11 @@ Quando sei [ha effettuato l’abbonamento a notifiche](notification-edit.md) inf
 
    * Per visualizzare i dettagli di qualsiasi notifica, fai clic sul nome della notifica.
 
-      In alcune notifiche, il [!UICONTROL Action Recommended] può includere un collegamento che apre una visualizzazione filtrata delle entità interessate o responsabili.
+     In alcune notifiche, il [!UICONTROL Action Recommended] può includere un collegamento che apre una visualizzazione filtrata delle entità interessate o responsabili.
 
    * Per contrassegnare una notifica come *letto* o *non letto*, posizionare il cursore sul nome dell&#39;avviso e fare clic su ![Contrassegna come letto o non letto](/help/search-social-commerce/assets/notifications-read-unread.png "Contrassegna come letto o non letto").
 
-      Notifiche contrassegnate come *letto* sono in un testo di colore più chiaro, ma rimangono disponibili fino a quando non vengono eliminati.
+     Notifiche contrassegnate come *letto* sono in un testo di colore più chiaro, ma rimangono disponibili fino a quando non vengono eliminati.
 
    * Per modificare le preferenze di abbonamento per il tipo di notifica, fai clic su ![Impostazioni](/help/search-social-commerce/assets/settings-nc.png "Impostazioni")  accanto alla notifica, modificare le impostazioni e quindi fare clic su **[!UICONTROL Save]**.
 
@@ -64,4 +66,3 @@ Quando sei [ha effettuato l’abbonamento a notifiche](notification-edit.md) inf
 >* [Modifica le impostazioni delle notifiche](notification-edit.md)
 >* [Abilitare e disabilitare le notifiche push da [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
 >* [Installare e disinstallare [!UICONTROL Notification Center] applicazione web](notification-app-install-uninstall.md)
-

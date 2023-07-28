@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Transaction Report]"
+title: '[!UICONTROL Transaction Report]'
 description: Scopri di più su [!UICONTROL Transaction Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 879c6dc0-6667-4e63-8403-bc2f2ee5ba3c
+feature: Search Reports, Search Advanced Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -20,7 +22,6 @@ Puoi visualizzare i dati relativi ai 45 giorni precedenti.
 >
 >* Se più unità di offerta con diversi tipi di corrispondenza hanno lo stesso ID transazione, i ricavi per l’ID di tracciamento vengono suddivisi in base al numero di clic nella data di clic specificata.
 >* Se il rapporto include dati provenienti da gruppi di annunci in campagne di ricerca abilitate per il contenuto o in campagne display o social (che non includono parole chiave), allora il [!UICONTROL Keyword] nel report completato include i nomi dei gruppi di annunci applicabili, ad esempio &quot;(contenuto adgroup) Nome del gruppo di annunci&quot;.
-
 
 ## Colonne predefinite
 
@@ -42,4 +43,3 @@ Per le descrizioni di tutte le colonne predefinite e personalizzate, vedi &quot;
 >* [Informazioni sui report di base e avanzati](basic-advanced-report-about.md)
 >* [Generare un rapporto di base o avanzato](basic-advanced-report-generate.md)
 >* [Impostazioni di base e avanzate dei rapporti](basic-advanced-report-settings.md)
-

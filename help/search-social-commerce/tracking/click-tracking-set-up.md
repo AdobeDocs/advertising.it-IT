@@ -1,7 +1,9 @@
 ---
 title: Configurare il tracciamento dei clic basato su cookie
 description: Scopri come impostare e convalidare i tag di tracciamento dei clic.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 340aec08-a1a5-4aa5-b666-9c819c1709d0
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -28,7 +30,7 @@ Affinché Search, Social e Commerce possano tenere traccia dei clic, è necessar
 
    1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]>[!UICONTROL Accounts]**.
 
-   1. Posizionare il cursore sul nome dell&#39;account e fare clic su ![Icona menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Icona menu"), quindi selezionare **[!UICONTROL Edit]**.
+   1. Posizionare il cursore sul nome dell&#39;account e fare clic su ![Icona menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Icona menu")e quindi selezionare **[!UICONTROL Edit]**.
 
    1. Clic **[!UICONTROL Set Account Tracking]**.
 
@@ -42,7 +44,7 @@ Affinché Search, Social e Commerce possano tenere traccia dei clic, è necessar
 
    1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
 
-   1. Posiziona il cursore sul nome della campagna e fai clic su ![Icona menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Icona menu"), quindi selezionare **[!UICONTROL Edit]**.
+   1. Posiziona il cursore sul nome della campagna e fai clic su ![Icona menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Icona menu")e quindi selezionare **[!UICONTROL Edit]**.
 
    1. Clic **[!UICONTROL Set Campaign Tracking]**. Quindi seleziona l’opzione per **[!UICONTROL Override Account Tracking]**.
 
@@ -86,4 +88,3 @@ Verifica che venga visualizzata la pagina di destinazione corretta per l’URL d
 >[!MORELIKETHIS]
 >
 >* [Quando e come generare URL di tracciamento dei clic](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Abilita sincronizzazione inventario aggiuntiva
 description: Scopri come sincronizzare [!DNL YouTube] campagne e [!DNL Google Ads] e [!DNL Microsoft® Advertising] campagne di acquisto intelligenti.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 217c4677-828c-43ee-afeb-e100780c5494
+feature: Search Tools
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -31,4 +33,3 @@ Questi tipi di campagne vengono fatturati allo stesso modo di altri tipi di camp
 >[!MORELIKETHIS]
 >
 >* [Inventario supportato](/help/search-social-commerce/introduction/supported-inventory.md)
-

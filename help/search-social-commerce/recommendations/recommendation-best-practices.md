@@ -2,7 +2,8 @@
 title: Best practice per l’utilizzo di consigli e informazioni approfondite sugli editori con i portfolio
 description: Scopri le best practice per l’utilizzo [!DNL Google Ads] consigli con i portfolio di ricerca, social e commerce.
 exl-id: 8362a0e1-9a0d-4287-a1dd-b7ec77985744
-source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
+feature: Search Recommendations
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%

@@ -1,18 +1,20 @@
 ---
 title: Crea [!DNL Google Ads] audience di corrispondenza cliente da [!DNL Adobe] audience
-description: Scopri come creare [!DNL Google Ads] i clienti abbinano i tipi di pubblico dei tipi di pubblico esistenti di Adobe Analytics e di Audience Manager.
-source-git-commit: 7089f7fe75b551953026ac6cca4ac7aafa06ba7b
+description: Scopri come creare [!DNL Google Ads] i clienti abbinano i tipi di pubblico dei tipi di pubblico esistenti di Adobe Analytics e di Audienci Manager.
+exl-id: 17cf0729-bc13-4ec3-918e-039ecdc91a41
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
 
 ---
 
-# Crea [!DNL Google Ads] i clienti abbinano i tipi di pubblico di Adobe Analytics e di Audience Manager
+# Crea [!DNL Google Ads] i clienti abbinano i tipi di pubblico di Adobe Analytics e di Audienci Manager
 
 *[!DNL Google Ads]account idonei solo per il confronto con i clienti*
 
-*Per gli inserzionisti con un’integrazione Adobe Advertising-Adobe Audience Manager o Adobe Advertising-Adobe Analytics*
+*Per gli inserzionisti con un’integrazione solo Adobi Advertising-Adobe Audience Manager o Adobe Advertising-Adobe Analytics*
 
 Gli inserzionisti con consenso possono creare [!DNL Google Ads] i clienti abbinano i tipi di pubblico utilizzando gli ID utente di a) [!DNL Analytics] segmenti condivisi con Adobe Experience Cloud e b) segmenti di Audience Manager con Search, Social e Commerce come destinazione, tra cui [!DNL Analytics] segmenti pubblicati in Adobe Experience Cloud e segmenti creati utilizzando la Libreria tipi di pubblico di Adobe Experience Cloud. Search, Social e Commerce spingono automaticamente un [!DNL Google] URL di tracciamento per ogni [!DNL Analytics] o Audience Manager segmento in modo che [!DNL Google] può tracciare il pubblico.
 
@@ -22,7 +24,7 @@ Ogni nuovo [!DNL Google] il pubblico ha lo stesso nome dell’originale [!DNL Ad
 
 >[!TIP]
 >
->Per la segmentazione in tempo reale, utilizza tipi di pubblico creati da Audience Manager. Segmenti creati in [!DNL Analytics] e sincronizzati con Adobe Experience Cloud possono avere popolazioni più piccole perché vengono sincronizzati solo ogni giorno; un surfista idoneo per un segmento non può essere incluso nel segmento fino al giorno successivo. Segmenti da [!DNL Analytics] hanno un’origine dati &quot;suite di rapporti - .&quot;
+>Per la segmentazione in tempo reale, utilizza tipi di pubblico creati da Audienci Manager. Segmenti creati in [!DNL Analytics] e sincronizzati con Adobe Experience Cloud possono avere popolazioni più piccole perché vengono sincronizzati solo ogni giorno; un surfista idoneo per un segmento non può essere incluso nel segmento fino al giorno successivo. Segmenti da [!DNL Analytics] hanno un’origine dati &quot;suite di rapporti - .&quot;
 
 >[!NOTE]
 >

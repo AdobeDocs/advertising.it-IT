@@ -1,7 +1,9 @@
 ---
 title: Informazioni sulle metriche personalizzate
 description: Scopri le metriche personalizzate, calcolate dalle metriche standard.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6a2df48f-4d6b-4afe-88c0-c52a6de53e33
+feature: Search Common Tasks, Search Custom Metrics
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
@@ -25,4 +27,3 @@ Puoi includere metriche personalizzate come colonne nelle viste di gestione port
 >* [Modificare una metrica personalizzata](custom-metric-edit.md)
 >* [Eliminare una metrica personalizzata](custom-metric-delete.md)
 >* [Impostazioni metriche personalizzate](custom-metric-settings.md)
-

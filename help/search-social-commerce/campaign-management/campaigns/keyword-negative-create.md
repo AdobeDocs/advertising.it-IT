@@ -1,7 +1,9 @@
 ---
 title: Creare parole chiave negative
 description: Scopri come creare parole chiave negative per campagne di ricerca e gruppi di annunci.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 683e5395-cb65-4d7f-a981-7fc9f84d4192
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -44,7 +46,6 @@ ht-degree: 0%
 
    * [!DNL Yandex]: ogni parola chiave può avere un massimo di sette parole, escluse le parole non significative. Ogni [!DNL Yandex ad group] può includere un massimo di 200 parole chiave.
 
-
 1. Clic **[!UICONTROL Post]**.
 
 >[!MORELIKETHIS]
@@ -52,4 +53,3 @@ ht-degree: 0%
 >* [Informazioni sulle parole chiave](keyword-about.md)
 >* [Gestire le parole chiave per le offerte](keyword-manage.md)
 >* [Modificare lo stato delle parole chiave e delle parole chiave negative](keyword-status-edit.md)
-

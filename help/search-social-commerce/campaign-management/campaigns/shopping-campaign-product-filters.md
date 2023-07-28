@@ -1,7 +1,9 @@
 ---
-title: "Filtri di prodotto della campagna acquisti"
+title: Filtri di prodotti per campagne acquisti
 description: Fai riferimento ai filtri di prodotto disponibili per gli acquisti di gruppi di prodotti.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 9c4f3c64-5a51-49de-aeba-bcda8a379609
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 0%
@@ -35,4 +37,3 @@ Consulta anche [!DNL Google Ads] Aiuto &quot;[Gestire una campagna di acquisto c
 >* [[!DNL Microsoft Advertising] impostazioni del modello di annuncio acquisti per i feed inventario](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)
 >* [Dati richiesti per [!DNL Google Ads] bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
 >* [Dati richiesti per [!DNL Microsoft Advertising] bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Eliminare le associazioni di estensione degli annunci con campagne e gruppi di annunci
 description: Scopri come dissociare le estensioni degli annunci da campagne e gruppi di annunci.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 89aa556b-65fa-43de-989a-f58f0bbcf1f2
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -29,4 +31,3 @@ Puoi eliminare le associazioni a livello di campagna e di gruppo di annunci con 
 >* [Gestisci [!DNL Google Ads] estensioni callout](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
 >* [Gestire le estensioni posizione](location-extension-manage.md)
 >* [Gestire le estensioni sitelink](sitelink-extension-manage.md)
-

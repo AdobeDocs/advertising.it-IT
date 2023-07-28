@@ -1,7 +1,9 @@
 ---
 title: Gestisci [!DNL Microsoft Advertising] tipi di pubblico di remarketing dinamico
 description: Scopri come creare e gestire [!DNL Microsoft Advertising] tipi di pubblico di remarketing dinamico.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6f0cb6a0-36cc-4a07-82a8-247191b6c4f5
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 0%
@@ -94,4 +96,3 @@ Per ulteriori informazioni sul remarketing dinamico e su come implementare il ta
 >* [Crea [!DNL Google Ads] audience di corrispondenza cliente da [!DNL Adobe] audience](google-audience-from-adobe-audience.md)
 >* [Creare un [!DNL Google Ads] customer match audience da un elenco e-mail di Adobe Campaign](google-audience-from-campaign-email-list.md)
 >* [Gestire i tipi di pubblico in base ai clienti utilizzando gli elenchi di dati dei clienti](audience-from-customer-data-list.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Tracciamento delle conversioni tramite un feed EF ID
 description: Scopri come utilizzare un feed EF ID per i dati di tracciamento della conversione.
-source-git-commit: 46e918418bf2e5c412efa8825dda22bc1953e439
+exl-id: db722a54-a9bf-4a31-a285-a82e6d79c34a
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%
@@ -19,7 +21,7 @@ Con questo metodo, Advertising Cloud raccoglie un `ef_id` ogni volta che un uten
 1. Utilizza le opzioni di tracciamento account o campagna &quot;[!UICONTROL EF Redirect],&quot; tipo di reindirizzamento di &quot;[!UICONTROL Token],&quot; e &quot;[!UICONTROL Auto Upload]&quot; per generare automaticamente un URL di destinazione o finale con un token di Adobe Advertising (ef_id) per ogni parola chiave (per il tracciamento a livello di parola chiave) o annuncio (per il tracciamento a livello di annuncio) nell’account o nella campagna.
 
    >[!NOTE]
-   >* Questo metodo non richiede all’inserzionista di utilizzare tag di tracciamento delle conversioni di Adobe Advertising.
+   >* Questo metodo non richiede all’inserzionista di utilizzare tag di tracciamento delle conversioni di Adobi Advertising.
    >* Se cambi il tipo di reindirizzamento per un account o una campagna esistente da [!UICONTROL Standard] a [!UICONTROL Token], o viceversa, devi rigenerare tutti gli URL di tracciamento applicabili.
 
    L’ef_id viene popolato e aggiunto all’URL della pagina di destinazione quando l’utente finale fa clic sull’annuncio e viene reindirizzato a un server di Adobe Advertising. L’ef_id viene quindi trasmesso all’inserzionista nell’URL di destinazione o nell’URL finale dell’annuncio o della parola chiave. Di seguito è riportato un esempio di URL di destinazione passato all&#39;inserzionista durante il reindirizzamento:
@@ -32,7 +34,7 @@ Con questo metodo, Advertising Cloud raccoglie un `ef_id` ogni volta che un uten
 
 1. L’inserzionista carica un file con [dati di conversione richiesti](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md) nel percorso del server designato.
 
-1. Technical Services analizza i dati di conversione nei file caricati, quindi carica i dati in Adobe Advertising. Adobe Advertising tiene traccia dei dati rispetto a singole parole chiave, annunci e posizionamenti e crea una previsione dei ricavi per ciascuno di essi.
+1. Technical Services analizza i dati di conversione nei file caricati, quindi carica i dati in Adobi Advertising. Adobi Advertising tiene traccia dei dati rispetto a singole parole chiave, annunci e posizionamenti e crea una previsione dei ricavi per ciascuno di essi.
 
 1. I servizi tecnici convalidano i dati elaborati in base ai dati del feed e verificano eventuali [transazioni orfane](/help/search-social-commerce/glossary.md#o-p).
 
@@ -40,5 +42,3 @@ Con questo metodo, Advertising Cloud raccoglie un `ef_id` ogni volta che un uten
 >
 >* [Requisiti dei file per i file di feed di conversione](feed-file-requirements.md)
 >* [Requisiti in materia di dati per i feed di dati che utilizzano ID EF](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md)
-
-

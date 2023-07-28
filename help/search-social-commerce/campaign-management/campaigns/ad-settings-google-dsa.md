@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Google Ads] impostazioni annuncio ricerca dinamica espansa"
+title: '[!DNL Google Ads] impostazioni annunci per ricerca dinamica espansa'
 description: Fai riferimento alle impostazioni per [!DNL Google Ads] annunci di ricerca dinamica espansi.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: e7b3a4c2-1cdb-45d7-bf87-ca26947dd1a4
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 0%
@@ -38,4 +40,3 @@ Consulta la guida di Google Ads per [limiti di annunci per account](https://supp
 >* [Gestione annunci](ad-manage.md)
 >* [[!DNL Google Ads] impostazioni annuncio di sola chiamata](ad-settings-google-call.md)
 >* [[!DNL Google Ads] impostazioni degli annunci di ricerca responsive](ad-settings-google-rsa.md)
-

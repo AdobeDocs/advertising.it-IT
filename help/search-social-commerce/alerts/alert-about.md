@@ -1,7 +1,9 @@
 ---
 title: Informazioni sugli avvisi personalizzati
 description: Scopri gli avvisi personalizzati, tra cui come creare modelli di avvisi e quando vengono attivati gli avvisi.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: d5264837-797c-4528-afbb-78e3a95a5b59
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 0%
@@ -34,4 +36,3 @@ All&#39;interno del [!UICONTROL Custom Alerts] visualizza, il [!UICONTROL Alert 
 >* [Impostazioni del modello di avviso personalizzato](alert-template-settings.md)
 >* [Visualizzare avvisi personalizzati](alert-view.md)
 >* [Esporta dati per avvisi personalizzati](alert-export-data.md)
-

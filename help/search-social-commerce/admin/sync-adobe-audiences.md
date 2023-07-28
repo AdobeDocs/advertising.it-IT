@@ -1,7 +1,9 @@
 ---
 title: Sincronizza [!DNL Adobe] audience
 description: Scopri come sincronizzare metadati, dati gerarchici e dati di pubblico univoci per il tuo [!DNL Adobe] pubblico.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7d4a3c66-5013-412f-8937-d64c336751e3
+feature: Search Admin
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Direct Access]solo amministratori e responsabili client*
 
-*Per gli inserzionisti con un’integrazione Adobe Advertising-Adobe Audience Manager o Adobe Advertising-Adobe Analytics*
+*Per gli inserzionisti con un’integrazione solo Adobi Advertising-Adobe Audience Manager o Adobe Advertising-Adobe Analytics*
 
 Puoi consentire a Search, Social e Commerce di estrarre metadati, dati gerarchici e dati di pubblico univoci per tutti gli inserzionisti o le agenzie [!DNL Adobe] tipi di pubblico in [!UICONTROL Campaigns] > [!UICONTROL Audiences] visualizzazioni. Queste informazioni includono i dati per:
 
@@ -36,4 +38,3 @@ La sincronizzazione iniziale richiede circa 24 ore. Successivamente, i dati veng
 >
 >* [Informazioni sui tipi di pubblico](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)
 >* [Integrazione con le soluzioni e i servizi Adobe Experience Cloud](/help/search-social-commerce/introduction/integrations.md)
-

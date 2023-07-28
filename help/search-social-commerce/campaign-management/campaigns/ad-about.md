@@ -1,7 +1,9 @@
 ---
 title: Gestione annunci
 description: Scopri gli annunci in Search, Social e Commerce, compresi i tipi di annunci disponibili.
-source-git-commit: eaf08dedb14bdf0c0be087e48c79bbf21b0990aa
+exl-id: 92ae631a-c35a-40ec-9d40-ebce13e3311b
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 0%

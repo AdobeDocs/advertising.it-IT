@@ -1,7 +1,9 @@
 ---
 title: Generare un URL di tracciamento dei clic
 description: Scopri come generare manualmente un URL di tracciamento dei clic per Search, Social e Commerce.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: d22a472a-a562-4812-a067-fbd407cd7d00
+feature: Search Tools, Search Tracking
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Generare un URL di tracciamento dei clic di Search, Social &amp; Commerce utilizzando lo strumento URL di tracciamento
 
-*Per gli inserzionisti con solo il tracciamento delle conversioni Adobe Advertising*
+*Solo per inserzionisti con tracciamento delle conversioni di Adobi Advertising*
 
 Per informazioni su quando è necessario generare e implementare manualmente un URL di tracciamento dei clic, consulta &quot;[Quando e come generare URL di tracciamento dei clic](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md).&quot;
 

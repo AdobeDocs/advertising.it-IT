@@ -1,7 +1,9 @@
 ---
 title: Informazioni sugli account di rete degli annunci
 description: Scopri di più sugli account di rete di annunci in Search, Social e Commerce.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: fca469f1-502c-415a-897d-03b6e6ba34e8
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
@@ -41,4 +43,3 @@ Ulteriori informazioni su [!DNL Naver] campagne di solo tracciamento, consulta &
 >* [Gestire gli account di rete degli annunci](ad-network-account-manage.md)
 >* [Gestisci account centro esercenti](merchant-account-manage.md)
 >* [Aggiorna il codice di tracciamento s\_kwcid per un [!DNL Google Ads] account](update-skwcid-google.md)
-

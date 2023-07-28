@@ -1,14 +1,16 @@
 ---
-title: Rimuovere i valori di classificazione delle etichette dai componenti dell’account
+title: Rimuovi i valori di classificazione delle etichette dai componenti dell’account
 description: Scopri come rimuovere le associazioni tra i valori di classificazione delle etichette e i componenti dell’account.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 0e7ef344-7f23-40bc-9841-dc0354ad7f07
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%
 
 ---
 
-# Rimuovere i valori di classificazione delle etichette dai componenti dell’account
+# Rimuovi i valori di classificazione delle etichette dai componenti dell’account
 
 Se si rimuove un valore di classificazione, viene rimossa l’associazione con il componente account e tutti i suoi componenti figlio. I dati del rapporto per il valore di classificazione non sono più disponibili per tali componenti. La rimozione di un valore di classificazione non comporta l’eliminazione del valore né dei componenti dell’account.
 
@@ -20,13 +22,13 @@ Se si rimuove un valore di classificazione, viene rimossa l’associazione con i
 
 1. Effettuare una delle seguenti operazioni:
 
-   * Per rimuovere i valori da una singola entità, posizionate il cursore sul nome dell&#39;entità e fate clic su ![Pulsante Menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Pulsante Menu"), quindi selezionare **[!UICONTROL Classification]**.
+   * Per rimuovere i valori da una singola entità, posizionate il cursore sul nome dell&#39;entità e fate clic su ![Pulsante Menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Pulsante Menu")e quindi selezionare **[!UICONTROL Classification]**.
 
    * Per rimuovere valori da una o più entità, effettuare le seguenti operazioni:
 
       * Selezionare la casella di controllo accanto a ogni riga.
 
-         Per suggerimenti sulla selezione di più righe, vedere &quot;[Seleziona più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+        Per suggerimenti sulla selezione di più righe, vedere &quot;[Seleziona più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
       * Nella barra degli strumenti sopra la tabella dati, fai clic su ![Altro](/help/search-social-commerce/assets/more.png "Altro")e quindi fare clic su **[!UICONTROL Classification]**.
 
@@ -54,4 +56,3 @@ Se si rimuove un valore di classificazione, viene rimossa l’associazione con i
 >* [Assegnare valori di classificazione ai componenti conto utilizzando i bulksheet](classification-values-assign-bulksheets.md)
 >* [Elimina valori di classificazione delle etichette](classification-values-delete.md)
 >* [Eliminare le classificazioni delle etichette](classification-delete.md)
-

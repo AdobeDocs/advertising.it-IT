@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Google Ads] impostazioni del gruppo di annunci"
+title: '''[!DNL Google Ads] impostazioni del gruppo di annunci'
 description: Fai riferimento alle impostazioni per [!DNL Google Ads] gruppi di annunci.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 00aaa936-796f-4e22-9bee-4bb5121cd887
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%
@@ -39,7 +41,6 @@ Se la campagna utilizza una strategia di offerta avanzata (ad esempio [!UICONTRO
 >* Quando fai offerte per parola chiave, crea modelli di tracciamento a livello di parola chiave. Allo stesso modo, quando fai un&#39;offerta per posizionamento, crea modelli di tracciamento a livello di posizionamento. Per tutte le altre dimensioni, crea modelli di tracciamento a livello di annuncio.
 >* Quando fai un&#39;offerta per età, genere, interesse ed elenco o verticale per campagne in portfolio, la funzionalità di ottimizzazione non ottimizza le offerte per la dimensione. Inoltre, tutte le attribuzioni vengono applicate al gruppo di annunci.
 >* Gli annunci sulla rete di ricerca utilizzano sempre le offerte basate su parole chiave.
-
 
 ## [!UICONTROL Budget Options]
 
@@ -88,4 +89,3 @@ Se la campagna utilizza una strategia di offerta avanzata (ad esempio [!UICONTRO
 >[!MORELIKETHIS]
 >
 >* [Gestire i gruppi di annunci](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
-

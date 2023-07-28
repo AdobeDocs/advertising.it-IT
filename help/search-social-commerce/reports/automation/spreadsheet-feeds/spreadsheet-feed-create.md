@@ -1,7 +1,9 @@
 ---
 title: Creare un feed di report per fogli di calcolo
 description: Scopri come impostare i feed dei fogli di calcolo.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: ed793de5-0df1-4fc3-be59-29adec4959f7
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -43,4 +45,3 @@ Impostare i feed del foglio di calcolo utilizzando un formato speciale [!DNL Exc
 >* [Visualizzare o salvare un file di feed di report del foglio di calcolo](spreadsheet-feed-view-or-save.md)
 >* [Aggiorna manualmente i feed dei rapporti del foglio di calcolo](spreadsheet-feed-refresh.md)
 >* [Eliminare i feed dei report del foglio di calcolo](spreadsheet-feed-delete.md)
-

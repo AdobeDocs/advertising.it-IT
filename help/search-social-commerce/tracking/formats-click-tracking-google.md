@@ -1,7 +1,9 @@
 ---
 title: Formati di tracciamento dei clic per [!DNL Google Ads]
 description: Scopri i formati di tracciamento dei clic per [!DNL Google Ads] account.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 68f6da43-3430-4c0a-9369-937fa52c071a
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%
@@ -26,7 +28,7 @@ Esempio:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` è una variabile per l’ID univoco dell’inserzionista in Adobe Advertising.
+>* `<advertiser_ID>` è una variabile per l’ID univoco dell’inserzionista in Adobi Advertising.
 >
 >* Questo formato indica che il passaggio del token è abilitato per la campagna (impostazione predefinita). Se il passaggio del token è disabilitato, sostituire `cq?` dopo `<advertiser_ID>` con `c?`.
 >
@@ -40,7 +42,6 @@ Esempio:
 >
 >* (Sitelink) Puoi vedere quali conversioni sono risultate da un clic su un sitelink generando un [!UICONTROL Transaction Report]. Il [!UICONTROL Link Type] il valore della colonna per un sitelink è `sl:<Sitelink text>`, ad esempio `sl:See Current Offers`.
 
-
 ### Rete acquisti
 
 Il seguente formato si applica agli annunci e ai gruppi di prodotti nelle reti di acquisto. Puoi specificare un modello di tracciamento a livello di account, campagna, gruppo di annunci o gruppo di prodotti.
@@ -53,7 +54,7 @@ Esempio:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` è una variabile per l’ID univoco dell’inserzionista in Adobe Advertising.
+>* `<advertiser_ID>` è una variabile per l’ID univoco dell’inserzionista in Adobi Advertising.
 >
 >* Questo formato indica che il passaggio del token è abilitato per la campagna (impostazione predefinita). Se il passaggio del token è disabilitato, sostituire `cq?` dopo `<advertiser_ID>` con `c?`.
 >
@@ -63,36 +64,33 @@ Esempio:
 >
 >* Puoi vedere quali conversioni sono risultate da un clic su un annuncio commerciale generando un [!UICONTROL Transaction Report]. Il [!UICONTROL Link Type] il valore della colonna per un annuncio di prodotto è pla:`<product ID>`, ad esempio `pla:8525822`.
 
-
 ## Formati del suffisso della pagina di destinazione (suffisso URL finale)
 
-Gli account che utilizzano il tracciamento delle conversioni di Adobe Advertising devono includere l’identificatore di clic della rete di annunci (`gclid` per [!DNL Google Ads]) nel suffisso:
+Gli account che utilizzano il tracciamento delle conversioni di Adobi Advertising devono includere l’identificatore di clic della rete di annunci (`gclid` per [!DNL Google Ads]) nel suffisso:
 
 * Quando l&#39;inserzionista ha un&#39;integrazione Adobe Analytics, il suffisso deve includere uno dei seguenti elementi:
 
    * [!DNL Google Ads] account che utilizzano il più recente `s_kwcid` formato, che supporta la generazione di rapporti a livello di campagna e di gruppo di annunci per campagne performance max e bozze e campagne di esperimenti:
 
-      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
+     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-      Se l’account dispone di un’implementazione s_kwcid lato server e dell’impostazione account o campagna&quot;[!UICONTROL Auto Upload]&quot; è attivato, il parametro viene aggiunto automaticamente. In caso contrario, è necessario aggiungerlo manualmente.
+     Se l’account dispone di un’implementazione s_kwcid lato server e dell’impostazione account o campagna&quot;[!UICONTROL Auto Upload]&quot; è attivato, il parametro viene aggiunto automaticamente. In caso contrario, è necessario aggiungerlo manualmente.
 
    * Tutti gli altri [!DNL Google Ads] account:
 
-      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
+     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 
 * Se l&#39;inserzionista non dispone di un&#39;integrazione Adobe Analytics, il suffisso deve includere quanto segue:
 
-   `&ev_efid={gclid}:G:s`
+  `&ev_efid={gclid}:G:s`
 
 >[!NOTE]
 >
 >* I suffissi della pagina di destinazione ai livelli inferiori sovrascrivono il suffisso a livello di account. Per una manutenzione più semplice, utilizza solo il suffisso a livello di account, a meno che non sia necessario un tracciamento diverso per i singoli componenti dell’account. Per configurare un suffisso a livello di gruppo di annunci o inferiore, utilizza l’editor della rete di annunci.
 >
->* (Annunci di ricerca dinamica; inserzionisti con Adobe Analytics e senza tracciamento lato server) Quando desideri includere il tracciamento per il feed inverso da Adobe Advertising ad Analytics, quindi aggiungi il `s_kwcid` codice di tracciamento fino alla fine del suffisso della pagina di destinazione a livello di account.
-
+>* (Annunci di ricerca dinamica; inserzionisti con Adobe Analytics e senza tracciamento lato server) Quando desideri includere il tracciamento per il feed inverso da Adobi Advertising ad Analytics, aggiungi `s_kwcid` codice di tracciamento fino alla fine del suffisso della pagina di destinazione a livello di account.
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni sui formati degli URL di tracciamento dei clic per il servizio di tracciamento delle conversioni di Adobe Advertising](formats-click-tracking-about.md)
 >* [Formati per il codice di tracciamento s\_kwcid](skwcid-tracking-parameter.md)
-

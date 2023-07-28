@@ -1,7 +1,9 @@
 ---
 title: Visualizzare o salvare un rapporto
 description: Scopri come visualizzare un rapporto generato o salvarlo come file.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7e2e93f2-5c59-48e7-9acc-7b7ccf777f2e
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -26,7 +28,7 @@ ht-degree: 0%
 
       * **[!UICONTROL XLS]:**   Per un [!DNL Excel] cartella di lavoro con un singolo foglio di lavoro (formato XLSX). Il rapporto include un foglio di lavoro etichettato nella parte superiore con i parametri, con una riga per ciascun componente segnalata quando i dati per il componente sono disponibili. Le righe senza dati vengono omesse.
 
-         I rapporti di base includono un totale per ogni colonna numerica.
+        I rapporti di base includono un totale per ogni colonna numerica.
 
       * **[!UICONTROL TSV]:** Per un file TSV. Il rapporto include i parametri e una riga per ciascun componente indicato.
 
@@ -42,4 +44,3 @@ ht-degree: 0%
 >* [Generare un rapporto da un modello](/help/search-social-commerce/reports/management/report-generate-from-template.md)
 >* [Generare un rapporto da un rapporto esistente](/help/search-social-commerce/reports/management/report-generate-from-existing.md)
 >* [Eliminare i rapporti](/help/search-social-commerce/reports/management/report-delete.md)
-

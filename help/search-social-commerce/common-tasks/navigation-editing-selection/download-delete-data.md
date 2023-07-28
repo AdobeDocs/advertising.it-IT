@@ -1,7 +1,9 @@
 ---
 title: Eliminare un report di dati sulle prestazioni o un file di bulksheet dal [!UICONTROL Downloads] menu
 description: Scopri come eliminare un rapporto o un file di bulksheet scaricato da una vista di gestione della campagna.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: bb25c2f1-3ade-44ad-b10a-b5684feffd8f
+feature: Search Common Tasks
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 0%

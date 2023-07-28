@@ -1,7 +1,9 @@
 ---
 title: Gestire i gruppi di prodotti
 description: Scopri come creare e gestire i gruppi di prodotti per lo shopping nelle campagne di acquisto.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 25912abd-1ddb-443f-a16d-7efe57093677
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 0%
@@ -46,9 +48,9 @@ Dopo aver creato almeno un’&quot;All-inclusive&quot;[!UICONTROL All Products]&
 
 1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nel sottomenu, fai clic su **[!UICONTROL Live]>[!UICONTROL Product Groups]**.
 
-1. (Facoltativo) Per visualizzare un gruppo di prodotti e i relativi nodi figlio nella visualizzazione Struttura, posizionare il cursore sul nome del gruppo di prodotti e fare clic su ![Icona menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Icona menu"), quindi selezionare **[!UICONTROL Tree View]**.
+1. (Facoltativo) Per visualizzare un gruppo di prodotti e i relativi nodi figlio nella visualizzazione Struttura, posizionare il cursore sul nome del gruppo di prodotti e fare clic su ![Icona menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Icona menu")e quindi selezionare **[!UICONTROL Tree View]**.
 
-1. Posizionare il cursore sul nome del gruppo di prodotti e fare clic su ![Menu a discesa Freccia](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Menu a discesa Freccia"), quindi selezionare **[!UICONTROL + Add Node]**.
+1. Posizionare il cursore sul nome del gruppo di prodotti e fare clic su ![Menu a discesa Freccia](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Menu a discesa Freccia")e quindi selezionare **[!UICONTROL + Add Node]**.
 
 1. Specifica la [[!DNL Google Ads] impostazioni gruppo di prodotti](product-group-settings-google.md) o [[!DNL Microsoft Advertising] impostazioni gruppo di prodotti](product-group-settings-microsoft.md), inclusi la dimensione e l’attributo del prodotto.
 
@@ -60,11 +62,11 @@ Puoi modificare il modello di offerta e tracciamento per i nodi del gruppo di pr
 
 1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nel sottomenu, fai clic su **[!UICONTROL Live]>[!UICONTROL Product Groups]**.
 
-1. (Facoltativo) Per visualizzare un gruppo di prodotti e i relativi nodi figlio nella visualizzazione Struttura, posizionare il cursore sul nome del gruppo di prodotti e fare clic su ![Icona menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Icona menu"), quindi selezionare **[!UICONTROL Tree View]**.
+1. (Facoltativo) Per visualizzare un gruppo di prodotti e i relativi nodi figlio nella visualizzazione Struttura, posizionare il cursore sul nome del gruppo di prodotti e fare clic su ![Icona menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Icona menu")e quindi selezionare **[!UICONTROL Tree View]**.
 
 1. Effettuare una delle seguenti operazioni:
 
-   1. Per modificare le impostazioni per un singolo nodo gruppo di prodotti, posiziona il cursore sul nome del gruppo di prodotti e fai clic su ![Icona menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Icona menu"), quindi selezionare **[!UICONTROL + Edit Node]**.
+   1. Per modificare le impostazioni per un singolo nodo gruppo di prodotti, posiziona il cursore sul nome del gruppo di prodotti e fai clic su ![Icona menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Icona menu")e quindi selezionare **[!UICONTROL + Edit Node]**.
 
    1. (Per modificare le impostazioni per uno o più gruppi di annunci) Effettua le seguenti operazioni:
 
@@ -109,4 +111,3 @@ Puoi eliminare qualsiasi gruppo di prodotti, ad eccezione di un gruppo &quot;Tut
 >* [Informazioni sui gruppi di prodotti di acquisto](product-group-about.md)
 >* [[!DNL Google Ads] impostazioni gruppo di prodotti](product-group-settings-google.md)
 >* [[!DNL Microsoft Advertising] impostazioni gruppo di prodotti](product-group-settings-microsoft.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Implementare [!DNL Google Ads] campagne con prestazione massima
 description: Scopri il flusso di lavoro per la configurazione di [!DNL Google Ads] numero massimo di campagne con prestazioni.
-source-git-commit: 333d32963b96d2add1d99b2e27d7725341b4cfdf
+exl-id: afad96b2-d4a6-41ee-ad84-38aa1306d73e
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -19,7 +21,6 @@ Puoi visualizzare le campagne con prestazione massima esistenti, con i dati sull
 >* È necessario caricare manualmente tutti i file di immagine. Collegamenti a [!DNL Google Merchant Center] i feed di prodotto non sono supportati.
 >* Sono disponibili solo le impostazioni richieste. Per le impostazioni facoltative, accedi a [!DNL Google Ads] editor.
 >* Il supporto per i gruppi di voci non è disponibile. Per gestire e visualizzare i dati per l’elenco dei gruppi, accedi a [!DNL Google Ads] editor.
-
 
 ## Passaggi per impostare [!DNL Google Ads] campagne con prestazione massima
 

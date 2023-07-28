@@ -1,7 +1,9 @@
 ---
 title: Formato dei tag di tracciamento conversione immagine
 description: Fai riferimento al formato dei tag di tracciamento della conversione delle immagini.
-source-git-commit: b230c593d93dfa868b8f075939fc9940ea74fa13
+exl-id: 019981cd-37b6-4b80-bb48-26e0d7ac7665
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
@@ -30,7 +32,7 @@ dove:
 
 * `<transid>` è un ID transazione univoco (ad esempio un ID ordine effettivo) generato e passato dall&#39;inserzionista per identificare una transazione. È incluso solo quando &quot;[!UICONTROL Include unique transaction IDs]&quot; è selezionata.
 
-  Search, Social e Commerce utilizzano l’ID transazione per eliminare le transazioni duplicate con lo stesso ID transazione e lo stesso valore della proprietà. L’ID transazione è incluso nel [!UICONTROL Transaction Report], che puoi utilizzare per convalidare i dati in Adobe Advertising con i dati dell’inserzionista. **Nota:** Se i dati dell’inserzionista non includono un ID univoco per transazione, Search, Social e Commerce ne generano ancora uno in base al tempo della transazione.
+  Search, Social e Commerce utilizzano l’ID transazione per eliminare le transazioni duplicate con lo stesso ID transazione e lo stesso valore della proprietà. L’ID transazione è incluso nel [!UICONTROL Transaction Report], che puoi utilizzare per convalidare i dati in Adobi Advertising con i dati dell’inserzionista. **Nota:** Se i dati dell’inserzionista non includono un ID univoco per transazione, Search, Social e Commerce ne generano ancora uno in base al tempo della transazione.
 
 <!-- add more links -->
 

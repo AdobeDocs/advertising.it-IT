@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Channel Assist Report]"
+title: '[!UICONTROL Channel Assist Report]'
 description: Scopri di più su [!UICONTROL Channel Assist Report].
-source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
+exl-id: 49616327-72e9-49c6-90b9-91c7486e8417
+feature: Search Reports, Search Assist Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Il [!UICONTROL Channel Assist Report]
 
-*Per gli inserzionisti con monitoraggio dei clic per ricerca, social e e commerce e con monitoraggio delle conversioni da Adobe Advertising, Adobe Analytics (con [!DNL Analytics] o forniti nei feed utilizzando un token (`ef_id`solo )*
+*Per gli inserzionisti con tracciamento dei clic per ricerche, social e e commerce e con tracciamento delle conversioni da Adobi Advertising, Adobe Analytics (con [!DNL Analytics] o forniti nei feed utilizzando un token (`ef_id`solo )*
 
 Il [!UICONTROL Channel Assist Report] indica in che modo vari canali di marketing (ricerca o social da Search, Social e Commerce; o visualizzazione o video da Advertising DSP) hanno assistito il processo di conversione. Il rapporto mostra in che modo ogni modello di tipi di evento che ha portato a una o più conversioni ha contribuito alle conversioni complessive. Ad esempio, puoi vedere quante conversioni si sono verificate quando gli utenti hanno visto per la prima volta un’impression di un annuncio di visualizzazione, hanno fatto clic su un annuncio di ricerca e poi hanno effettuato un ordine; oppure puoi vedere quante conversioni si sono verificate dopo che gli utenti hanno interagito con più di 10 annunci. I tipi di evento includono clic di ricerca, impression di visualizzazione e clic, impression video e clic e altre impression e altri clic. <!-- [DSP metrics may show up as "Other Path Length (<length>)" or empty; we're supposed to fill in more values for DSP at some point.] -->
 

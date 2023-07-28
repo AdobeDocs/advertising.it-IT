@@ -1,7 +1,9 @@
 ---
 title: Panoramica sull’implementazione di Search, Social e Commerce
 description: Scopri
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 31a4cd6f-8b02-4762-8e68-c9f377389935
+feature: Search Getting Started
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '819'
 ht-degree: 0%
@@ -42,9 +44,9 @@ Di seguito è riportato il flusso di lavoro generale per l’implementazione e l
 
    * Se gli account non contengono già dati della campagna, aggiungi campagne, gruppi di annunci, parole chiave, annunci e posizionamenti da Search, Social e Commerce o dall’interno della rete di annunci.
 
-      Per informazioni dettagliate sulla configurazione delle campagne di ricerca, consulta il capitolo della guida su &quot;Campaign Management&quot;.
+     Per informazioni dettagliate sulla configurazione delle campagne di ricerca, consulta il capitolo della guida su &quot;Campaign Management&quot;.
 
-1. Imposta il tracciamento per tutti gli annunci per i quali desideri che Adobe Advertising tenga traccia delle conversioni:
+1. Imposta il tracciamento per tutti gli annunci per i quali desideri che Adobi Advertising tenga traccia delle conversioni:
 
    1. (Se necessario) Imposta il tracciamento dei clic per gli annunci e, facoltativamente, per le parole chiave, [!DNL Google Ads] posizionamenti e [!DNL Google Ads] mediante la generazione e il caricamento di URL di tracciamento dei clic.
 
@@ -56,7 +58,7 @@ Di seguito è riportato il flusso di lavoro generale per l’implementazione e l
 
 1. Configurare le integrazioni con prodotti aggiuntivi:
 
-   1. (Per gli inserzionisti che fanno uso di Adobe Analytics e/o Adobe Audience Manager) Configura integrazioni tra i vari account in modo che Adobe Advertising possa scambiare dati con essi.
+   1. (Per gli inserzionisti che fanno uso di Adobe Analytics e/o Adobe Audience Manager) Configura integrazioni tra i vari account in modo che Adobi Advertising possa scambiare dati con loro.
 
       Consulta la guida su &quot;[Integrazioni con Experience Cloud](/help/integrations/home.md).&quot;
 
@@ -73,6 +75,7 @@ Di seguito è riportato il flusso di lavoro generale per l’implementazione e l
       >Search, Social e Commerce tiene comunque traccia dei dati e li segnala per le campagne non assegnate a portfolio, ma non ottimizza le offerte per esse.
 
    1. Una volta che i dati sono sufficienti per creare una linea di base, il team può avviare il portfolio, consentendo a Search, Social e Commerce di ottimizzare offerte e/o budget per il portfolio, in base al tipo di ottimizzazione.
+
    Per informazioni dettagliate sulla configurazione e sul lancio dei portfolio, consulta la guida in linea di &quot;Ottimizzazione&quot;, accessibile dal [!UICONTROL Help] menu (![Menu Aiuto](/help/search-social-commerce/assets/help-main-menu.png "Menu Aiuto")) in alto a destra nelle pagine di Search, Social e Commerce.
 
 1. Monitora le prestazioni dei portfolio:

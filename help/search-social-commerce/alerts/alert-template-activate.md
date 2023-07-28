@@ -1,7 +1,9 @@
 ---
 title: Attivare un modello di avviso personalizzato
 description: Scopri come attivare un modello di avviso in pausa.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6cf9ef6b-9f71-462c-b81e-a604d33c4fb7
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
@@ -20,7 +22,7 @@ ht-degree: 0%
 
    * Per attivare uno o più modelli, selezionare la casella di controllo accanto a ogni modello di avviso che si desidera attivare. Nella barra degli strumenti, fai clic su ![Attiva](/help/search-social-commerce/assets/activate.png "Attiva"). Nella finestra di dialogo, fai clic su **[!UICONTROL Activate]**.
 
-      Per suggerimenti sulla selezione di più righe, vedere &quot;[Seleziona più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+     Per suggerimenti sulla selezione di più righe, vedere &quot;[Seleziona più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
 >[!MORELIKETHIS]
 >
@@ -32,4 +34,3 @@ ht-degree: 0%
 >* [Impostazioni del modello di avviso personalizzato](alert-template-settings.md)
 >* [Visualizzare avvisi personalizzati](alert-view.md)
 >* [Esporta dati per avvisi personalizzati](alert-export-data.md)
-

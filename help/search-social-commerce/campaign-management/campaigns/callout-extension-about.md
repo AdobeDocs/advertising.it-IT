@@ -1,7 +1,9 @@
 ---
 title: Informazioni su [!DNL Google Ads] estensioni callout
 description: Informazioni su [!DNL Google Ads] estensioni di callout in Search, Social e Commerce.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 3d0d864b-35ea-48aa-a812-bba96359eb29
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
@@ -32,4 +34,3 @@ In entrata [!DNL Google Ads], è possibile visualizzare i costi e fare clic sui 
 >
 >* [Gestisci [!DNL Google Ads] estensioni callout](callout-extension-manage.md)
 >* [Associa [!DNL Google Ads] estensioni di callout condivise con campagne o gruppi di annunci](callout-extension-associate.md)
-

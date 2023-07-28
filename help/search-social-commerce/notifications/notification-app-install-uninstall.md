@@ -1,7 +1,9 @@
 ---
 title: Installare e disinstallare [!UICONTROL Notification Center] applicazione web
 description: Scopri come installare e disinstallare [!UICONTROL Notification Center] applicazione web.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: e1afc7c0-4bbb-44d6-9871-924580648fa9
+feature: Search Notifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 0%
@@ -66,4 +68,3 @@ Dopo aver installato [!UICONTROL Notification Center] , viene automaticamente ab
 >* [Eliminare una notifica](notification-delete.md)
 >* [Modifica le impostazioni delle notifiche](notification-edit.md)
 >* [Abilitare e disabilitare le notifiche push da [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
-

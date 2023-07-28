@@ -1,7 +1,9 @@
 ---
 title: Requisiti di sistema
 description: Scopri i requisiti software e dell’account.
-source-git-commit: c7c1735f9459012ade5039e64e55d10343f8d0af
+exl-id: 9ff7d9ba-3f04-4552-b24f-6c8165cd89e1
+feature: Search Getting Started
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -26,7 +28,7 @@ Sono necessarie le seguenti informazioni relative al software e all&#39;account.
 
 * Per visualizzare i file esportati in formato XLS [!DNL Microsoft Excel] consigliato
 
-   Se utilizzi un’applicazione diversa da [!DNL Microsoft Excel] per visualizzare i file XLS esportati, è possibile che i numeri, le date, le ore e le valute non siano nel formato corretto.
+  Se utilizzi un’applicazione diversa da [!DNL Microsoft Excel] per visualizzare i file XLS esportati, è possibile che i numeri, le date, le ore e le valute non siano nel formato corretto.
 
 ## Nome utente e password
 

@@ -1,7 +1,9 @@
 ---
 title: Impostazioni metriche personalizzate
 description: Fai riferimento alle impostazioni per le metriche personalizzate, calcolate dalle metriche standard.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: f4b8c44e-ecb3-46dc-9a68-c079188e1d75
+feature: Search Common Tasks, Search Custom Metrics
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 0%
@@ -36,4 +38,3 @@ Le impostazioni delle metriche personalizzate sono leggermente diverse nelle div
 >* [Creare una metrica personalizzata](custom-metric-create.md)
 >* [Modificare una metrica personalizzata](custom-metric-edit.md)
 >* [Eliminare una metrica personalizzata](custom-metric-delete.md)
-

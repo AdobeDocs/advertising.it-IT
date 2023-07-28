@@ -1,7 +1,9 @@
 ---
 title: Informazioni sulla gestione delle proprietà di transazione di un inserzionista
-description: Scopri come utilizzare le proprietà della transazione di cui Adobe Advertising tiene traccia per un inserzionista.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Scopri come utilizzare le proprietà della transazione di cui Adobi Advertising tiene traccia per un inserzionista.
+exl-id: e5e4dc8a-04b0-4423-be1d-18f89453d264
+feature: Search Admin, Search Transaction Properties
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -25,4 +27,3 @@ Dall&#39;elenco delle proprietà rese disponibili, ogni utente con accesso ai da
 >* [Visualizzare le proprietà della transazione tracciate per un inserzionista](transaction-property-view-tracked.md)
 >* [Modificare le proprietà della transazione disponibili nelle visualizzazioni e nei report di gestione](transaction-property-edit-available.md)
 >* [Modificare il nome visualizzato per una proprietà di transazione](transaction-property-edit-display-name.md)
-

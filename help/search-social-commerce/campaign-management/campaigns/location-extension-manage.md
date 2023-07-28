@@ -1,7 +1,9 @@
 ---
 title: Gestisci [!DNL Google Ads] estensioni posizione
 description: Scopri come creare e gestire [!DNL Google Ads] estensioni della posizione.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 1a1aeb51-563e-453e-bd6f-ea1fa31b8f37
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%
@@ -24,7 +26,7 @@ La rete di annunci mappa i clic su un’estensione della posizione alla parola c
 
 1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**.
 
-1. Nella barra degli strumenti sopra la tabella dati, fai clic su ![Crea](/help/search-social-commerce/assets/add.png "Crea"), quindi selezionare **[!UICONTROL Location]**.
+1. Nella barra degli strumenti sopra la tabella dati, fai clic su ![Crea](/help/search-social-commerce/assets/add.png "Crea")e quindi selezionare **[!UICONTROL Location]**.
 
 1. Seleziona la rete di annunci e il nome dell’account, quindi fai clic su **[!UICONTROL Continue]**.
 
@@ -40,7 +42,7 @@ La rete di annunci mappa i clic su un’estensione della posizione alla parola c
 
 1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**.
 
-1. Nella barra degli strumenti sopra la tabella dati, fai clic su ![Crea](/help/search-social-commerce/assets/add.png "Crea"), quindi selezionare **[!UICONTROL Location]**.
+1. Nella barra degli strumenti sopra la tabella dati, fai clic su ![Crea](/help/search-social-commerce/assets/add.png "Crea")e quindi selezionare **[!UICONTROL Location]**.
 
 1. Seleziona la rete di annunci e il nome dell’account, quindi fai clic su **[!UICONTROL Continue]**.
 

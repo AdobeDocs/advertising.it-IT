@@ -1,7 +1,9 @@
 ---
 title: Opzioni per la gestione delle campagne pubblicitarie in rete
 description: Scopri i diversi modi per gestire i dati per le campagne ad network.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 1e721870-b6ee-4054-ab3b-1b3be778d5b8
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%
@@ -16,8 +18,8 @@ Puoi creare e modificare la struttura della campagna supportata e i dati dei com
 
 * Opzione 2: caricamento [file di bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) contenente tutti i dati che desideri per un account da [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Bulksheets]. Per [!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Naver], e [!DNL Yandex] account, puoi pubblicare i dati nella rete di annunci. Per [!DNL Naver], puoi caricare i dati per l’utilizzo in Search, Social e Commerce, ma non puoi pubblicarli sulla rete di annunci.
 
-   Facoltativamente, puoi scaricare ma non caricare o pubblicare file bulksheet con dati per esistenti [!DNL Pinterest], [!DNL Yahoo Native], e [!DNL Yahoo! Display Network] account.
+  Facoltativamente, puoi scaricare ma non caricare o pubblicare file bulksheet con dati per esistenti [!DNL Pinterest], [!DNL Yahoo Native], e [!DNL Yahoo! Display Network] account.
 
 * Opzione 3: Impostare un processo automatico per [creare la struttura del conto e gli annunci dinamici e le parole chiave indirizzati a ciascun articolo nel proprio inventario](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) in base a un modello di annuncio specifico per la rete di annunci creato da [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL  Advanced (ACM)]. Creare modelli in base al contenuto dei file di dati di inventario caricati manualmente o in un percorso FTP o al contenuto di un [!DNL Google Merchant Center] o [!DNL Microsoft Merchant Center] account. Puoi configurare i tuoi dati in modo che vengano pubblicati automaticamente non appena vengono creati oppure puoi inviarli manualmente alle reti di annunci dopo averli esaminati. Questa opzione è disponibile per [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], e [!DNL Yandex] account.
 
-   Non è possibile creare posizionamenti utilizzando questo metodo.
+  Non è possibile creare posizionamenti utilizzando questo metodo.

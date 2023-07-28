@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Microsoft® Advertising] impostazioni degli annunci multimediali"
+title: '[!DNL Microsoft® Advertising] impostazioni annunci multimediali'
 description: Fai riferimento alle impostazioni per [!DNL Microsoft® Advertising] annunci multimediali.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b7ce413c-ee7a-420a-8791-e2666cc33eba
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 0%
@@ -56,4 +58,3 @@ Vedere le proporzioni e le dimensioni consentite per [annunci multimediali](http
 >* [[!DNL Microsoft® Advertising] impostazioni annuncio di prodotto](ad-settings-microsoft-product.md)
 >* [[!DNL Microsoft® Advertising] impostazioni degli annunci reattivi (pubblico)](ad-settings-microsoft-responsive.md)
 >* [[!DNL Microsoft® Advertising] impostazioni degli annunci di ricerca responsive](ad-settings-microsoft-rsa.md)
-

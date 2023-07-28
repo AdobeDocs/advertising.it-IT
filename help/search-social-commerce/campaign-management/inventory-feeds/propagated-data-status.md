@@ -1,7 +1,9 @@
 ---
 title: Stati dei dati generati dai feed
 description: Scopri gli stati dei dati generati dai feed di dati di inventario.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 8e5e7649-a16b-4634-896a-7c216185b367
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
@@ -31,4 +33,3 @@ Ciascun componente può avere uno dei seguenti stati:
 >* [Modificare i dati generati dai feed](propagated-data-edit.md)
 >* [Pubblicare i dati della campagna generati dai feed nelle reti di annunci](propagated-data-post.md)
 >* [Interrompere un processo di registrazione per i dati di feed inventario](stop-job.md)
-

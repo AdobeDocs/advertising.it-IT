@@ -1,7 +1,9 @@
 ---
 title: Visualizza avviso personalizzato
 description: Scopri come elencare le istanze di avviso.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a2ba2a8c-7334-4a6e-9873-8a4f59b9717c
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -28,11 +30,11 @@ Se desideri modificare le campagne o le entità campagna identificate in un avvi
 
       * (Facoltativo) Per aprire una vista filtrata delle entità nella vista di gestione della campagna pertinente, fai clic su **[!UICONTROL Live View]**.
 
-         Ad esempio, per un avviso a livello di campagna, questa azione apre il [!UICONTROL Campaigns] visualizza con un elenco di campagne che soddisfano i criteri di avviso.
+        Ad esempio, per un avviso a livello di campagna, questa azione apre il [!UICONTROL Campaigns] visualizza con un elenco di campagne che soddisfano i criteri di avviso.
 
-         >[!NOTE]
-         >
-         >Se Search, Social e Commerce hanno ricevuto aggiornamenti dei ricavi o la rete di annunci ha aggiornato le metriche del traffico da quando è stato attivato l’avviso, i valori delle metriche nella vista di gestione della campagna potrebbero essere diversi dai valori delle metriche nell’avviso originale.
+        >[!NOTE]
+        >
+        >Se Search, Social e Commerce hanno ricevuto aggiornamenti dei ricavi o la rete di annunci ha aggiornato le metriche del traffico da quando è stato attivato l’avviso, i valori delle metriche nella vista di gestione della campagna potrebbero essere diversi dai valori delle metriche nell’avviso originale.
 
       * (Facoltativo) Per scaricare il rapporto di avviso, fai clic su **[!UICONTROL Download]** e selezionare il formato del file.
 
@@ -54,11 +56,11 @@ Se desideri modificare le campagne o le entità campagna identificate in un avvi
 
       * (Facoltativo) Per aprire una vista filtrata delle entità nella vista di gestione della campagna pertinente, dalla quale è possibile interagire con i record delle entità, fai clic su **[!UICONTROL Live View]**.
 
-         Ad esempio, per un avviso a livello di campagna, questa azione apre il [!UICONTROL Campaigns] visualizza con un elenco di campagne che soddisfano i criteri di avviso.
+        Ad esempio, per un avviso a livello di campagna, questa azione apre il [!UICONTROL Campaigns] visualizza con un elenco di campagne che soddisfano i criteri di avviso.
 
-         >[!NOTE]
-         >
-         >Se Search, Social e Commerce hanno ricevuto aggiornamenti dei ricavi o la rete di annunci ha aggiornato le metriche del traffico da quando è stato attivato l’avviso, i valori delle metriche nella vista di gestione della campagna potrebbero essere diversi dai valori delle metriche nell’avviso originale.
+        >[!NOTE]
+        >
+        >Se Search, Social e Commerce hanno ricevuto aggiornamenti dei ricavi o la rete di annunci ha aggiornato le metriche del traffico da quando è stato attivato l’avviso, i valori delle metriche nella vista di gestione della campagna potrebbero essere diversi dai valori delle metriche nell’avviso originale.
 
       * (Facoltativo) Per scaricare il rapporto di avviso, fai clic su **[!UICONTROL Download]** e selezionare il formato del file.
 
@@ -73,4 +75,3 @@ Se desideri modificare le campagne o le entità campagna identificate in un avvi
 >* [Eliminare un modello di avviso personalizzato](alert-template-delete.md)
 >* [Impostazioni del modello di avviso personalizzato](alert-template-settings.md)
 >* [Esporta dati per avvisi personalizzati](alert-export-data.md)
-

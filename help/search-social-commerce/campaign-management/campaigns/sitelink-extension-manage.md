@@ -1,7 +1,9 @@
 ---
 title: Gestire i sitelink condivisi
 description: Scopri come creare e gestire le estensioni di sitelink condivise.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 33d52179-b968-4eab-a1b9-b10ff20948e3
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 0%
@@ -94,7 +96,7 @@ Dopo aver salvato il record, l’URL di base include tutti i parametri di aggiun
 
 **[!UICONTROL Tracking Template]:** (Facoltativo) Il modello di tracciamento o l’URL di tracciamento, che specifica tutti i reindirizzamenti e i parametri di tracciamento dei domini di destinazione e incorpora anche l’URL finale/della pagina di destinazione in un parametro. Esempio: `{lpurl}?source={network}&id=5` o `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` per includere un reindirizzamento.
 
-* Ad Adobe, il tracciamento della conversione di Advertising, applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;Caricamento automatico&quot;, Ricerca, Social e Commerce inseriscono automaticamente un prefisso nel codice di tracciamento dei clic quando si salva il record.
+* Ad Adobe Advertising, il tracciamento delle conversioni, che viene applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;Caricamento automatico&quot;, Ricerca, Social e Commerce inseriscono automaticamente un prefisso nel codice di tracciamento dei clic quando si salva il record.
 
 * Per i parametri supportati per incorporare l’URL finale, consulta la sezione ([!DNL Microsoft Advertising] solo ) [[!DNL Microsoft Advertising] documentazione](https://help.ads.microsoft.com/#apex/3/en/56799) o ([!DNL Google Ads] solo) i parametri &quot;Solo modello di tracciamento&quot; nella sezione su &quot;Disponibile [!DNL ValueTrack] Parameters&quot; nella sezione [[!DNL Google Ads] documentazione](https://support.google.com/google-ads/answer/6305348).
 

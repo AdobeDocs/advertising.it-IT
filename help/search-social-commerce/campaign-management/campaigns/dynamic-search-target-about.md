@@ -1,7 +1,9 @@
 ---
 title: Informazioni su [!DNL Google Ads] target di ricerca dinamica
 description: Informazioni su [!DNL Google Ads] destinazioni di ricerca dinamica.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 3936455b-926a-4a3f-b3df-54e92cdfdc99
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -20,7 +22,7 @@ A seconda delle impostazioni della campagna, le destinazioni di ricerca dinamica
 
 * Facoltativamente, puoi creare destinazioni di ricerca dinamica quando specifichi un dominio del sito web e una lingua nel &quot;[!UICONTROL DSA Options]&quot;.
 
-   [!DNL Google Ads] mostra automaticamente gli annunci per ricerca dinamica in base al contenuto di un sito web specificato con queste impostazioni.
+  [!DNL Google Ads] mostra automaticamente gli annunci per ricerca dinamica in base al contenuto di un sito web specificato con queste impostazioni.
 
 Per tenere traccia in modo ottimale delle prestazioni, configura la campagna con un gruppo di annunci per destinazione di ricerca dinamica e includi un gruppo di annunci che esegue il targeting di tutti i criteri.
 
@@ -35,4 +37,3 @@ Per ulteriori informazioni su [!DNL Google Ads] annunci di ricerca dinamica, con
 >[!MORELIKETHIS]
 >
 >* [Gestisci [!DNL Google Ads] target di ricerca dinamica](dynamic-search-target-manage.md)
-

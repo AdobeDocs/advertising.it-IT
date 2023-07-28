@@ -1,7 +1,9 @@
 ---
 title: Creare e modificare i dati della campagna in blocco utilizzando Copia e Incolla
 description: Scopri come gestire i dati della campagna in blocco utilizzando la funzione di copia e incolla.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 09454f19-221b-43bb-ac74-f2c121329422
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -43,8 +45,8 @@ Puoi utilizzare questa funzione per modificare gli oggetti campagna esistenti (c
       * Per gli oggetti esistenti che si desidera modificare, è necessario includere tutte le colonne ID rilevanti, i nomi delle entità e l&#39;attributo da modificare. Non modificare l&#39;ID numerico dell&#39;oggetto.
 
       * Per i nuovi oggetti campagna, includi tutti i nomi e gli attributi di entità rilevanti, ma non gli ID oggetto (che vengono generati automaticamente). Ad esempio, se crei un nuovo annuncio, lascia [!UICONTROL Ad ID] campo vuoto. La rete di annunci crea automaticamente un ID quando inserisci l’oggetto.
-   * Il valore in una colonna non obbligatoria può essere nullo (vuoto), ma ogni riga deve avere lo stesso numero di valori separati da tabulazioni.
 
+   * Il valore in una colonna non obbligatoria può essere nullo (vuoto), ma ogni riga deve avere lo stesso numero di valori separati da tabulazioni.
 
 1. Salva i dati come valori separati da tabulazioni.
 
@@ -81,4 +83,3 @@ Puoi utilizzare questa funzione per modificare gli oggetti campagna esistenti (c
 >* [Gestire i gruppi di annunci](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
 >* [Gestire le parole chiave](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
 >* [Gestione annunci](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)
-

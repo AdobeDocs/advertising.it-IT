@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Microsoft® Advertising] responsive ad settings"
+title: '''[!DNL Microsoft® Advertising] responsive ad settings"'
 description: Fai riferimento alle impostazioni per [!DNL Microsoft® Advertising] annunci reattivi.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: bbe06bdb-c765-4d30-a609-03f476c4ee54
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 0%
@@ -52,4 +54,3 @@ Per gli annunci di pubblico, [!DNL Microsoft® Advertising] ritaglia automaticam
 >* [[!DNL Microsoft® Advertising] impostazioni degli annunci multimediali](ad-settings-microsoft-multimedia.md)
 >* [[!DNL Microsoft® Advertising] impostazioni annuncio di prodotto](ad-settings-microsoft-product.md)
 >* [[!DNL Microsoft® Advertising] impostazioni degli annunci di ricerca responsive](ad-settings-microsoft-rsa.md)
-

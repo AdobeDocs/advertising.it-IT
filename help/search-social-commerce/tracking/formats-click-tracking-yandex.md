@@ -1,7 +1,9 @@
 ---
 title: Formati di tracciamento dei clic per [!DNL Yandex]
 description: Scopri i formati di tracciamento dei clic per [!DNL Yandex] account.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: cf1d6c4b-9bcd-4b82-919f-c14dbaff9a76
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -20,7 +22,7 @@ Esempio:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` è una variabile per l’ID univoco dell’inserzionista in Adobe Advertising.
+>* `<advertiser_ID>` è una variabile per l’ID univoco dell’inserzionista in Adobi Advertising.
 >
 >* Questo formato indica che il passaggio del token è abilitato per la campagna (impostazione predefinita). Se il passaggio del token è disabilitato, sostituire `cq?` dopo `<advertiser_ID>` con `c?`.
 >
@@ -34,9 +36,7 @@ Esempio:
 >
 >* `position_type` è il blocco in cui l’annuncio è stato mostrato [!DNL Yandex]. Valori possibili: &quot;premium&quot; (blocco superiore), &quot;other&quot; (blocco destro) o &quot;none&quot; (traffico non di ricerca).
 
-
 >[!MORELIKETHIS]
 >
 >* [Informazioni sui formati degli URL di tracciamento dei clic per il servizio di tracciamento delle conversioni di Adobe Advertising](formats-click-tracking-about.md)
 >* [Formati per il codice di tracciamento s\_kwcid](skwcid-tracking-parameter.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Configurare un account FTP per il caricamento dei bulksheet
 description: Scopri come richiedere un account FTP per caricare i file di bulksheet.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6867d705-b8ef-4066-81dd-8742a6f5b126
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
@@ -28,4 +30,3 @@ I file di bulksheet recuperati ed eventuali file di errore creati durante la reg
 >
 >* [Informazioni sulla gestione dei dati della campagna tramite bulksheet](bulksheet-about.md)
 >* [Carica un file di bulksheet o un file di errore corretto](bulksheet-upload.md)
-

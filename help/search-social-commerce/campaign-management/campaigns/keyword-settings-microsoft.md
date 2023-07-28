@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Microsoft Advertising] keyword settings"
+title: '''[!DNL Microsoft Advertising] keyword settings"'
 description: Fai riferimento alle impostazioni per [!DNL Microsoft Advertising] parole chiave.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 248f45c7-8b8c-46fe-a65a-66c50c630044
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -22,7 +24,6 @@ Puoi creare parole chiave per le campagne che utilizzano le reti di ricerca e vi
 >
 >* È possibile creare parole chiave negative dalla [!UICONTROL Keywords] > [!UICONTROL Negatives] visualizza e nelle impostazioni del gruppo di annunci e della campagna.
 >* Modifica di un [!DNL Microsoft Advertising] parola chiave elimina la parola chiave esistente e ne crea una nuova con un nuovo ID. Cambiando il tipo di corrispondenza, tuttavia, non elimina la parola chiave esistente.
-
 
 **[!UICONTROL Status]:** Stato di visualizzazione della parola chiave: *Attivo* o *In pausa*. Il valore predefinito per le nuove parole chiave è *Attivo*.
 
@@ -53,4 +54,3 @@ Questo campo può includere facoltativamente `{Param2}` e `{Param3}` variabili d
 >[!MORELIKETHIS]
 >
 >* [Gestire le parole chiave](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
-

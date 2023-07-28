@@ -1,7 +1,9 @@
 ---
 title: Modificare lo stato dei posizionamenti e dei posizionamenti negativi
 description: Scopri come modificare lo stato dei posizionamenti e dei posizionamenti negativi per [!DNL Google Ads].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7f025ba2-e71f-40bf-9057-f7d7abbea5da
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -35,4 +37,3 @@ Potete anche eliminare un posizionamento attivo o in pausa o un posizionamento n
 >* [Informazioni sui posizionamenti](placement-about.md)
 >* [Gestire i posizionamenti che è possibile fare offerte](placement-manage.md)
 >* [Creare posizionamenti negativi](placement-negative-create.md)
-

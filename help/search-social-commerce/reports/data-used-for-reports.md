@@ -2,7 +2,8 @@
 title: Dati utilizzati per i rapporti
 description: Scopri i diversi tipi di dati disponibili nelle visualizzazioni dati e nei rapporti personalizzati.
 exl-id: 3e1f2967-5034-46bc-8473-63cffeeeecba
-source-git-commit: 3aad445fc1a5a0e2210209f181b9756047f44999
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 Search, Social e Commerce include un set completo di rapporti sulle prestazioni basati sui dati di clic e conversione. Puoi visualizzare i dati delle prestazioni di base per i vari componenti di un portfolio o di un account annuncio dal [!UICONTROL Portfolios] e [!UICONTROL Campaigns] nonché generando diversi rapporti di base e avanzati.
 
-Gli inserzionisti che utilizzano il servizio di tracciamento delle conversioni di Adobe Advertising possono inoltre identificare il numero di clic per una posizione geografica o un nome di dominio di un sito web di riferimento, il modo in cui gli annunci in ciascun canale e i vari eventi che portano a una conversione contribuiscono al tasso di conversione complessivo e alla distribuzione delle conversioni per un singolo [proprietà transazione](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md) per canale di marketing. I rapporti disponibili variano in base al tipo di account utente. Il team dell’account Adobe ha accesso a tutti i rapporti.
+Gli inserzionisti che utilizzano il servizio di tracciamento delle conversioni di Adobi Advertising possono inoltre identificare il numero di clic per una posizione geografica o un nome di dominio di un sito web di riferimento, il modo in cui gli annunci in ciascun canale e i vari eventi che portano a una conversione contribuiscono al tasso di conversione complessivo e alla distribuzione delle conversioni per un singolo [proprietà transazione](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md) per canale di marketing. I rapporti disponibili variano in base al tipo di account utente. Il team dell’account Adobe ha accesso a tutti i rapporti.
 
 La maggior parte dei rapporti può essere personalizzata in modo da visualizzare solo le informazioni desiderate. Le metriche standard seguenti sono disponibili nella maggior parte dei rapporti e vengono calcolate a livello di annuncio:
 

@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Geo Distribution Report]"
+title: '[!UICONTROL Geo Distribution Report]'
 description: Scopri di più su [!UICONTROL Geo Distribution Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 08369dad-c499-4342-a76a-0708167cd704
+feature: Search Reports, Search Advanced Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -20,7 +22,6 @@ Le impression stimate e i costi stimati sono disponibili solo per le campagne di
 >
 >* I dati sono disponibili solo per le campagne di ricerca e visualizzazione.
 >* I totali per questo rapporto possono differire dai totali per le stesse campagne nel [!DNL Google Ads Geo Report] (che [!DNL Google Ads] compilazioni) a causa di diversi fornitori e metodologie nella determinazione delle ubicazioni geografiche.
-
 
 >[!TIP]
 >
@@ -46,4 +47,3 @@ Per le descrizioni di tutte le colonne predefinite e personalizzate, vedi &quot;
 >* [Informazioni sui report di base e avanzati](basic-advanced-report-about.md)
 >* [Generare un rapporto di base o avanzato](basic-advanced-report-generate.md)
 >* [Impostazioni di base e avanzate dei rapporti](basic-advanced-report-settings.md)
-

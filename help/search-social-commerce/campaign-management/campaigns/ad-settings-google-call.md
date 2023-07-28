@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Google Ads] impostazioni degli annunci di sola chiamata"
+title: '''[!DNL Google Ads] impostazioni degli annunci di sola chiamata'
 description: Fai riferimento alle impostazioni per [!DNL Google Ads] annunci di sola chiamata.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 1f810c2b-9c30-43c6-bda6-07609423ef79
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -58,4 +60,3 @@ Puoi creare e gestire azioni di conversione in [!DNL Google Ads].
 >* [Gestione annunci](ad-manage.md)
 >* [[!DNL Google Ads] impostazioni annunci per ricerca dinamica espansa](ad-settings-google-dsa.md)
 >* [[!DNL Google Ads] impostazioni degli annunci di ricerca responsive](ad-settings-google-rsa.md)
-

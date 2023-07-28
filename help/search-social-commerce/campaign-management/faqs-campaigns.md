@@ -1,7 +1,9 @@
 ---
 title: Domande frequenti sulle campagne
 description: Vedi le risposte alle domande sulla gestione delle campagne e sulle visualizzazioni dati delle campagne.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b5975869-4bc3-461d-8cb7-eeefab157137
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1472'
 ht-degree: 0%
@@ -79,11 +81,11 @@ Per risultati migliori, non aggiungere [!DNL Google Ads] campagne a un [!DNL Goo
 
 * Includi la designazione mobile come server host utilizzando `{ifmobile:m}{ifnotmobile:www}`.
 
-   Ad esempio: `http://{ifmobile:m}{ifnotmobile:www}.example.com` porta gli utenti mobili su m.example.com e gli utenti non mobili su www.example.com.
+  Ad esempio: `http://{ifmobile:m}{ifnotmobile:www}.example.com` porta gli utenti mobili su m.example.com e gli utenti non mobili su www.example.com.
 
 * Includi la designazione mobile come dominio di primo livello utilizzando `{ifmobile:mobi}{ifnotmobile:com}`.
 
-   Ad esempio: `http://www.example.{ifmobile:mobi}{ifnotmobile:com}` porta gli utenti mobili su www.example.mobi e gli utenti non mobili su www.example.com.
+  Ad esempio: `http://www.example.{ifmobile:mobi}{ifnotmobile:com}` porta gli utenti mobili su www.example.mobi e gli utenti non mobili su www.example.com.
 
 In entrambi i casi, gli URL di base con tracciamento di Search, Social e Commerce includono il non codificato `{}` ed eventuali parametri aggiuntivi aggiunti all’URL di base.
 

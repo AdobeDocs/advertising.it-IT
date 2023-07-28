@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL AdWords and Bing Audience Target Report]"
+title: '[!UICONTROL AdWords and Bing Audience Target Report]'
 description: Scopri di più su [!UICONTROL AdWords and Bing Audience Target Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 02c12266-f11b-4478-a511-8ee464dbb061
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 0%
@@ -21,7 +23,6 @@ Puoi visualizzare i dati fino all’anno precedente.
 >* [!DNL Google Ads] non fornisce i mezzi per tenere traccia dei dati sui ricavi per il pubblico sul mercato.
 >* I dati per questo report vengono estratti ogni giorno alle 23:00 (23:00) del giorno precedente. Ad esempio, alle 23:00 del 18 giugno, estrae i dati per il 17 giugno. Se esegui il rapporto il 19 giugno alle 09:00 — prima che i dati per il 18 giugno vengano estratti — il rapporto include i dati fino al 17 giugno alle 23:00.
 
-
 ## Colonne predefinite
 
 Per le descrizioni di tutte le colonne predefinite e personalizzate, vedi &quot;[Colonne report per report speciali](specialty-report-columns.md).&quot;
@@ -40,7 +41,7 @@ Per le descrizioni di tutte le colonne predefinite e personalizzate, vedi &quot;
 * [!UICONTROL Avg Position]
 
 >[!MORELIKETHIS]
+>
 * [Informazioni sui report speciali](specialty-report-about.md)
 * [Generare un rapporto speciale](specialty-report-generate.md)
 * [Impostazioni report speciali](specialty-report-settings.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Gestione annunci
 description: Scopri come creare e gestire gli annunci.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 9108bbfd-61e7-49fa-90ba-4eb276eb0897
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%
@@ -36,11 +38,11 @@ Puoi creare, modificare e cambiare lo stato degli annunci dalla sezione [!UICONT
 
    >[!NOTE]
    >
-   >(Campagne con tracciamento delle conversioni Adobe Advertising) Se le impostazioni dell’account o della campagna specificano il tracciamento solo a livello di parola chiave, Search, Social e Commerce non generano il tracciamento per gli annunci.
+   >(Campagne con tracciamento delle conversioni di Adobi Advertising) Se le impostazioni dell’account o della campagna specificano il tracciamento solo a livello di parola chiave, Search, Social e Commerce non generano il tracciamento per gli annunci.
 
 1. Clic **[!UICONTROL Post]**.
 
-1. (Annunci commerciali in campagne con tracciamento delle conversioni di Adobe Advertising; facoltativo) Per tenere traccia dei clic sull’annuncio, [generare un URL di tracciamento utilizzando lo strumento URL di tracciamento](/help/search-social-commerce/tools/click-tracking-url-generate.md)e aggiungerlo manualmente alle impostazioni dell’account, della campagna o del gruppo di prodotti.
+1. (Acquisti di annunci in campagne con tracciamento delle conversioni di Adobi Advertising; facoltativo) Per tenere traccia dei clic sull’annuncio, [generare un URL di tracciamento utilizzando lo strumento URL di tracciamento](/help/search-social-commerce/tools/click-tracking-url-generate.md)e aggiungerlo manualmente alle impostazioni dell’account, della campagna o del gruppo di prodotti.
 
 ## Modificare le impostazioni degli annunci
 
@@ -49,7 +51,6 @@ Puoi creare, modificare e cambiare lo stato degli annunci dalla sezione [!UICONT
 >* I seguenti tipi di annunci sono *mutabile*: puoi modificare la copia o l’immagine dell’annuncio e mantenere lo stesso ID annuncio: tutti [!DNL Google Ads] tipi di annunci ad eccezione di quelli per la ricerca dinamica e [!DNL Microsoft Advertising] annunci di testo espansi.
 >* Tutti gli altri annunci supportati sono *non modificabile*, il che significa che la modifica della copia o dell’immagine dell’annuncio elimina l’annuncio esistente e ne crea uno nuovo. Le prestazioni del nuovo annuncio possono essere volatili per un paio di settimane, mentre Search, Social &amp; Commerce raccoglie dati sufficienti per ottimizzare le offerte.
 >* Non puoi modificare il contenuto di un annuncio di prodotto, ad eccezione della riga di promozione per [!DNL Microsoft Advertising] annunci di prodotti. Tuttavia, puoi sospendere o eliminare un annuncio.
-
 
 >[!TIP]
 >
@@ -114,4 +115,3 @@ Puoi anche eliminare qualsiasi annuncio di ricerca attivo o in pausa. Gli annunc
 >* [[!DNL Microsoft Advertising] impostazioni degli annunci reattivi (pubblico)](ad-settings-microsoft-responsive.md)
 >* [[!DNL Microsoft Advertising] impostazioni degli annunci di ricerca responsive](ad-settings-microsoft-rsa.md)
 >* [[!DNL Yandex] impostazioni annunci di testo](ad-settings-yandex-text.md)
-

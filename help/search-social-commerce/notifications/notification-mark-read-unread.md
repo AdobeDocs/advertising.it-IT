@@ -1,7 +1,9 @@
 ---
 title: Contrassegnare una notifica come letta o non letta
 description: Scopri come indicare se hai letto o meno una notifica.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 333173a0-7e3a-4fb6-a80c-a9a1f5714fbf
+feature: Search Notifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
@@ -30,4 +32,3 @@ Notifiche contrassegnate come *letto* sono in un testo di colore più chiaro, ma
 >* [Modifica le impostazioni delle notifiche](notification-edit.md)
 >* [Abilitare e disabilitare le notifiche push da [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
 >* [Installare e disinstallare [!UICONTROL Notification Center] applicazione web](notification-app-install-uninstall.md)
-

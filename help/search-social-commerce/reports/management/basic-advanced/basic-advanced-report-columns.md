@@ -2,7 +2,8 @@
 title: Colonne di report per report di base e avanzati
 description: Scopri le colonne di dati disponibili per i rapporti di base e avanzati.
 exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
-source-git-commit: e121445d39d50599c40a77996f5674b536d60ede
+feature: Search Reports, Search Basic Reports, Search Advanced Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '3583'
 ht-degree: 0%
@@ -93,7 +94,7 @@ ht-degree: 0%
 | [!UICONTROL Domain] | ([!UICONTROL Domain Referral Report], [!UICONTROL Keyword Report]) Il nome di dominio da cui hanno avuto origine i clic. |
 | [!UICONTROL eCPM] | Il CPM effettivo o il costo medio pagato per 1000 impression durante un intervallo di date specificato. I valori eCPM vengono calcolati per le campagne CPM o CPC. |
 | [!UICONTROL EF Campaign ID] | ID numerico assegnato alla campagna da Search, Social e Commerce. |
-| [!UICONTROL EF ID] | ([!UICONTROL Transaction Report]) (Per gli inserzionisti con il servizio di tracciamento della conversione di Advertising Adobe e il &quot;[!UICONTROL EF Redirect]&quot;metodo di tracciamento con un token&quot;) Il token per il clic o la conversione.<ul><li>Per [!DNL Google Ads] annunci di ricerca, l’ID EF è `{gclid}:G:s`, che include Google Click ID (GCLID) e il tipo di rete (&quot;s&quot; per la ricerca).</li><li> Per [!DNL Microsoft Advertising] annunci di ricerca, l’ID EF è `{msclkid}:G:s`, che include Microsoft Click ID (MSCLKID) e il tipo di rete (&quot;s&quot; per la ricerca).</li><li>Per gli annunci di ricerca su altre reti pubblicitarie, l’ID EF include l’ID surfista, il tempo di clic e il tipo di rete.</li><li>Per gli annunci display, l’ID EF include l’ID surfista, il tempo di clic o di impression e il tipo di rete.</li></ul> |
+| [!UICONTROL EF ID] | ([!UICONTROL Transaction Report]) (Per gli inserzionisti con il servizio di tracciamento delle conversioni di Adobi Advertising e il &quot;[!UICONTROL EF Redirect]&quot;metodo di tracciamento con un token&quot;) Il token per il clic o la conversione.<ul><li>Per [!DNL Google Ads] annunci di ricerca, l’ID EF è `{gclid}:G:s`, che include Google Click ID (GCLID) e il tipo di rete (&quot;s&quot; per la ricerca).</li><li> Per [!DNL Microsoft Advertising] annunci di ricerca, l’ID EF è `{msclkid}:G:s`, che include Microsoft Click ID (MSCLKID) e il tipo di rete (&quot;s&quot; per la ricerca).</li><li>Per gli annunci di ricerca su altre reti pubblicitarie, l’ID EF include l’ID surfista, il tempo di clic e il tipo di rete.</li><li>Per gli annunci display, l’ID EF include l’ID surfista, il tempo di clic o di impression e il tipo di rete.</li></ul> |
 | [!UICONTROL EF Pixel Location ID] | ([!UICONTROL Geo Distribution Report]; solo per ricerca, social e commerce) ID interno per la posizione geografica, utilizzato per normalizzare i dati. |
 | [!UICONTROL EF Portfolio Group ID] | L’ID numerico del gruppo di portfolio a cui appartiene il portfolio. |
 | [!UICONTROL EF Search Engine ID] | ID numerico assegnato da Search, Social e Commerce alla rete di annunci:  <i>[!UICONTROL 3]</i> per [!DNL Google Ads], <i>[!UICONTROL 10]</i> per [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> per [!DNL Meta], <i>[!UICONTROL 86]</i> per [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> per [!DNL Naver], <i>[!UICONTROL 88]</i> per [!DNL Baidu], <i>[!UICONTROL 90]</i> per [!DNL Yandex], <i>[!UICONTROL 94]</i> per [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> per [!DNL Yahoo Native] (obsoleto), oppure <i>[!UICONTROL 106]</i> per [!DNL Pinterest] (obsoleto). |

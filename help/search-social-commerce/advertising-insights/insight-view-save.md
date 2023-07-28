@@ -1,7 +1,9 @@
 ---
 title: Visualizza o salva un [!DNL Advertising Insight]
 description: Scopri come visualizzare un’ [!DNL Advertising Insight] e salvarlo in un file.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 165a6036-c911-4c56-a820-c9d172e47ea4
+feature: Search Advertising Insights
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 0%
@@ -29,4 +31,3 @@ ht-degree: 0%
 >* [Informazioni su [!UICONTROL Advertising Insights]](insight-about.md)
 >* [Genera un [!DNL Advertising Insight]](insight-generate.md)
 >* [Eliminare un [!DNL Advertising Insight]](insight-delete.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Formati di file di bulksheet supportati
 description: Fare riferimento ai requisiti generali del file per i bulksheet.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b14aaf11-e2e9-4f7c-b6bc-831f668b93a6
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 0%
@@ -45,7 +47,7 @@ I campi dati nei file TSV e nei file TXT delimitati da tabulazioni devono essere
 
 * I campi di ogni record sono separati da caratteri di tabulazione. Per omettere un valore per un campo, utilizzare solo il carattere di tabulazione.
 
-   Esempio: `Cruises<TAB>5000<TAB>Caribbean<TAB><TAB><TAB>`
+  Esempio: `Cruises<TAB>5000<TAB>Caribbean<TAB><TAB><TAB>`
 
 * I campi non possono contenere caratteri di tabulazione incorporati.
 
@@ -55,23 +57,23 @@ I campi dati nei file CSV e nei file TXT delimitati da virgole devono essere for
 
 * I campi di un record sono separati da virgole. Per omettere un valore per un campo, utilizza solo la virgola.
 
-   Esempio: `Cruises,5000,Caribbean,,,`
+  Esempio: `Cruises,5000,Caribbean,,,`
 
 * Eventuali campi possono essere facoltativamente racchiusi tra virgolette doppie (`""`).
 
-   Esempio:  `"Cruises","5000","Caribbean",`
+  Esempio:  `"Cruises","5000","Caribbean",`
 
 * I campi con virgole incorporate devono essere racchiusi tra virgolette (`""`).
 
-   Esempio: `Cruises,5000,Caribbean,"Luxurious, spacious cabins",`
+  Esempio: `Cruises,5000,Caribbean,"Luxurious, spacious cabins",`
 
 * I campi con virgolette doppie incorporate devono essere racchiusi tra virgolette (`""`).
 
-   Esempio: `Cruises,5000,Caribbean,"Customers say ""We wish we could stay forever."",`
+  Esempio: `Cruises,5000,Caribbean,"Customers say ""We wish we could stay forever."",`
 
 * I campi con spazi iniziali o finali devono essere racchiusi tra virgolette doppie (`""`).
 
-   Esempio: `Cruises,5000,Caribbean,"  Come see what we mean.  ",`
+  Esempio: `Cruises,5000,Caribbean,"  Come see what we mean.  ",`
 
 >[!MORELIKETHIS]
 >
@@ -79,4 +81,3 @@ I campi dati nei file CSV e nei file TXT delimitati da virgole devono essere for
 >* [Operazioni eseguibili nei bulksheet](bulksheet-operations.md)
 >* [Appendice - Errori di bulksheet](../bulksheet-errors.md)
 >* [Scaricare/creare un file bulksheet](../bulksheet-download.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Requisiti dei dati per le metriche di traffico e conversione per [!DNL Naver] account di solo tracciamento
 description: Fai riferimento ai requisiti di caricamento dei dati per [!DNL Naver] account di solo tracciamento.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6f79730b-f8d6-4a7f-9d31-f42fe63e6b5d
+feature: Search Tools
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -29,4 +31,3 @@ I seguenti campi di intestazione sono obbligatori e facoltativi. Ogni riga di da
 >* [Implementare [!DNL Naver] account di solo tracciamento](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
 >* [Appendice - Dati di bulksheet richiesti per [!DNL Naver] account](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md))
 >* [Caricare traffico e metriche di conversione per [!DNL Naver] account di solo tracciamento](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
-

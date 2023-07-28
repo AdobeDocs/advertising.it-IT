@@ -1,7 +1,9 @@
 ---
 title: Quando vengono creati o eliminati i componenti del conto dai feed di inventario?
 description: Scopri quali situazioni creano ed eliminano i componenti del conto durante la registrazione dei feed di inventario.
-source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
+exl-id: 93b31996-15dd-4215-ae9d-39327910f712
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '847'
 ht-degree: 0%

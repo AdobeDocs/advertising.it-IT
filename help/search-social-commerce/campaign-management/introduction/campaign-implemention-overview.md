@@ -1,7 +1,9 @@
 ---
 title: Panoramica dell’implementazione di account e campagne di ad network
 description: Scopri le attività necessarie per configurare, sincronizzare e gestire gli account di rete degli annunci.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 401c5ebb-258c-4614-96e8-ca604fc698c0
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 0%
@@ -43,14 +45,14 @@ Questa pagina include informazioni su tutti i tipi di account, inclusa la modali
       * (Baidu, Google Ads, Microsoft Advertising, Yahoo! Japan Ads, e solo account Yandex) Carica [file di bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) contenente tutti i dati che desideri per un account e poi pubblicarli sulle reti di annunci.
 
       * (Baidu, Google Ads, Microsoft Advertising, Yahoo! Japan Ads e (solo per gli account Yandex). Immetti i dati per i singoli componenti direttamente nell’interfaccia. Per la maggior parte delle campagne e dei tipi di annunci, puoi creare dati a livello di campagna, di gruppo di annunci e a livello di singola parola chiave, posizionamento e annuncio.
+
       Alcuni tipi di campagne e annunci, tuttavia, richiedono flussi di lavoro univoci. Vedere le istruzioni per la configurazione [[!DNL Microsoft Advertising] campagne di acquisto](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md), [[!DNL Google Ads] annunci di ricerca dinamica](/help/search-social-commerce/campaign-management/special-campaign-types/google-dynamic-search-ads.md), [[!DNL Google Ads] campagne con prestazione massima](/help/search-social-commerce/campaign-management/special-campaign-types/google-performance-max-campaigns.md), e [[!DNL Google Ads] campagne di acquisto](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md).
 
    1. ([!DNL Naver] solo account di solo tracciamento) Caricamento [file di bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) con dati per replicare le campagne, i gruppi di annunci e le parole chiave esistenti in Search, Social e Commerce senza pubblicarli in [!DNL Naver].
 
+1. Imposta il tracciamento per tutti gli annunci per i quali l’Adobe Advertising terrà traccia delle conversioni:
 
-1. Imposta il tracciamento per tutti gli annunci per i quali Adobe Advertising terrà traccia delle conversioni:
-
-   1. (Inserzionisti con il servizio di tracciamento delle conversioni di Adobe Advertising) Se necessario, [configurare il tracciamento dei clic](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) per gli annunci e, facoltativamente, per parole chiave, posizionamenti ed estensioni di annunci mediante la generazione e il caricamento di URL di tracciamento dei clic di Search, Social e Commerce.
+   1. (Per gli inserzionisti che utilizzano il servizio di tracciamento delle conversioni Adobi Advertising) Se necessario, [configurare il tracciamento dei clic](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) per gli annunci e, facoltativamente, per parole chiave, posizionamenti ed estensioni di annunci mediante la generazione e il caricamento di URL di tracciamento dei clic di Search, Social e Commerce.
 
       Per [!DNL Google Ads] campagne con prestazione massima, configura tutto il tracciamento nel [impostazioni di tracciamento della campagna](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).
 
@@ -58,13 +60,13 @@ Questa pagina include informazioni su tutti i tipi di account, inclusa la modali
 
    1. Imposta il tracciamento delle conversioni. A seconda dell’implementazione, ciò può comportare l’aggiunta di tag di tracciamento della conversione alle pagine web dell’inserzionista e/o l’impostazione di un rilascio giornaliero di feed per i dati di conversione raccolti separatamente dall’inserzionista.
 
-      Se utilizzi il servizio di tracciamento delle conversioni di Adobe Advertising, puoi generare i tag di tracciamento delle conversioni [in Search, Social e Commerce](/help/search-social-commerce/tools/conversion-tag-generate.md) o [utilizzo di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html).
+      Se utilizzi il servizio di tracciamento delle conversioni di Adobi Advertising, puoi generare tag di tracciamento delle conversioni [in Search, Social e Commerce](/help/search-social-commerce/tools/conversion-tag-generate.md) o [utilizzo di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html).
 
    1. Convalida i dati tracciati.
 
    Per ulteriori dettagli sulla configurazione del tracciamento, consulta il capitolo su &quot;Tracciamento&quot;.
 
-1. (Inserzionisti con Adobe Analytics) [Integrare Adobe Advertising e Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) in modo che possano scambiarsi dati.
+1. (Inserzionisti con Adobe Analytics) [Integrare Adobi Advertising e Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) in modo che possano scambiarsi dati.
 
 1. (per consentire a Search, Social e Commerce di ottimizzare le offerte e/o il budget delle campagne; [tipi di campagna supportati](/help/search-social-commerce/introduction/supported-inventory.md) solo ) [Assegnare la campagna a un portfolio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 
@@ -88,4 +90,3 @@ Questa pagina include informazioni su tutti i tipi di account, inclusa la modali
 >* [Monitorare e gestire le prestazioni delle campagne ad network](monitor-performance-campaigns.md)
 >* [Dati di conversione di Google Ads in Search, Social e Commerce](google-conversion-data.md)
 >* [Inventario supportato](/help/search-social-commerce/introduction/supported-inventory.md)
-

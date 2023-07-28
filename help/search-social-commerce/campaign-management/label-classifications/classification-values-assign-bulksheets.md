@@ -1,7 +1,9 @@
 ---
 title: Assegnare valori di classificazione ai componenti conto utilizzando i bulksheet
 description: Scopri come utilizzare i bulksheet per assegnare valori di classificazione ai componenti dell’account.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 9bb38f28-d6bc-41f4-9c28-b391d9b9e412
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 7%
@@ -28,7 +30,7 @@ I valori delle etichette vengono ereditati dalle entità figlio, pertanto non im
 
    * Seleziona ogni classificazione per la quale desideri includere una colonna nel file del bulksheet.
 
-      Ad esempio, se includi le classificazioni delle etichette &quot;Colore&quot; e &quot;Geo&quot;, il bulksheet includerà le colonne &quot;Colore&quot; e &quot;Geo&quot;.
+     Ad esempio, se includi le classificazioni delle etichette &quot;Colore&quot; e &quot;Geo&quot;, il bulksheet includerà le colonne &quot;Colore&quot; e &quot;Geo&quot;.
 
 1. Apri il file in un editor e aggiungi i valori delle etichette alle colonne di classificazione delle etichette per le entità a cui associarli. La lunghezza massima di ogni valore è di 100 caratteri e può includere caratteri ASCII e non ASCII.
 
@@ -46,22 +48,21 @@ Questo esempio include colonne per le classificazioni di etichette &quot;Colore&
 
 | Account | Campagna | Gruppo di annunci | Parola chiave | Annuncio | Posizionamento | Etichette | Colore | Geo |
 |---|---|---|---|---|---|---|---|---|
-| Acct1 | C1 |  |  |  |  |  | Verde |  |
-| Acct1 | C1 | AG1 |  |  |  |  |  |  |
-| Acct1 | C1 | AG1 | K1 |  |  |  |  | Regno Unito |
-| Acct1 | C1 | AG1 | K2 |  |  |  | Rosso | AU |
-| Acct1 | C1 | AG1 | K3 |  |  |  | Blu | DE |
-| Acct1 | C1 | AG1 |  | A1 |  |  |  |  |
-| Acct1 | C1 | AG1 |  | A1 |  |  | Rosso |  |
-| Acct1 | C1 | AG1 |  |  | P1 |  | Rosso | AU |
-| Acct1 | C1 | AG1 |  |  | P2 |  | Blu | DE |
+| Acct1 | C1 | | | | | | Verde | |
+| Acct1 | C1 | AG1 | | | | | | |
+| Acct1 | C1 | AG1 | K1 | | | | | Regno Unito |
+| Acct1 | C1 | AG1 | K2 | | | | Rosso | AU |
+| Acct1 | C1 | AG1 | K3 | | | | Blu | DE |
+| Acct1 | C1 | AG1 | | A1 | | | | |
+| Acct1 | C1 | AG1 | | A1 | | | Rosso | |
+| Acct1 | C1 | AG1 | | | P1 | | Rosso | AU |
+| Acct1 | C1 | AG1 | | | P2 | | Blu | DE |
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulle classificazioni delle etichette](classification-about.md)
 >* [Creare una classificazione di etichette](classification-create.md)
 >* [Assegnare valori di classificazione ai componenti account dalle viste di gestione delle campagne](classification-values-assign-campaign-management.md)
->* [Rimuovere i valori di classificazione delle etichette dai componenti dell’account](classification-values-remove.md)
+>* [Rimuovi i valori di classificazione delle etichette dai componenti dell’account](classification-values-remove.md)
 >* [Elimina valori di classificazione delle etichette](classification-values-delete.md)
 >* [Eliminare le classificazioni delle etichette](classification-delete.md)
-

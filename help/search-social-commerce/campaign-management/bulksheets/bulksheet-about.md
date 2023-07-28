@@ -1,7 +1,9 @@
 ---
 title: Informazioni sulla gestione dei dati della campagna tramite bulksheet
 description: Scopri le funzionalità dei bulksheet disponibili tramite la rete di annunci, il flusso di lavoro dei bulksheet e la gestione degli errori.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 207cc08b-8650-4243-b9fd-1c920b81c1f9
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 0%
@@ -26,11 +28,11 @@ Tutti i bulksheet, i file di errore di convalida della pagina di destinazione e 
 
 * **Solo download e caricamento:** [!DNL Naver] account
 
-   Puoi caricare [!DNL Naver] dati da utilizzare in Search, Social e Commerce, ma non possono inviarli alla rete di annunci. Puoi anche scaricare i dati esistenti (non sincronizzati).
+  Puoi caricare [!DNL Naver] dati da utilizzare in Search, Social e Commerce, ma non possono inviarli alla rete di annunci. Puoi anche scaricare i dati esistenti (non sincronizzati).
 
 * **Scarica solo dati:**  [!DNL Pinterest], [!DNL Yahoo Native], e [!DNL Yahoo! Display Network] account
 
-   Puoi scaricare i dati esistenti (non sincronizzati).
+  Puoi scaricare i dati esistenti (non sincronizzati).
 
 ## Panoramica sull’utilizzo dei bulksheet
 
@@ -84,4 +86,3 @@ Le informazioni per ciascun file includono lo stato corrente dell&#39;attività 
 >* [Carica un file di bulksheet o un file di errore corretto](bulksheet-upload.md)
 >* [Pubblica i bulksheet o i file di errore corretti](bulksheet-post.md)
 >* [Esportare un file bulksheet generato o caricato](bulksheet-export.md)
-

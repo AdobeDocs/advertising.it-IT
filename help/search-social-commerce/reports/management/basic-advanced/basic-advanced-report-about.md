@@ -1,7 +1,9 @@
 ---
 title: Informazioni sui report di base e sui report avanzati
 description: Scopri i rapporti di base e avanzati personalizzabili.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6224ee6d-72db-4524-9660-7fc0d57b5347
+feature: Search Reports, Search Basic Reports, Search Advanced Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -56,7 +58,7 @@ I rapporti di base mostrano il costo effettivo e i dati di clic per portfolio (s
 
 I rapporti avanzati possono aiutarti a prendere decisioni strategiche sulla tua strategia pubblicitaria identificando dove avresti vantaggio riconfigurando il targeting geografico o le impostazioni di rete. Possono inoltre essere utili per convalidare i dati di conversione disponibili in Search, Social e Commerce rispetto ai dati di tracciamento delle conversioni interne dell’inserzionista.
 
-Tutti gli utenti possono generare [!UICONTROL Transaction Report], che mostra le singole transazioni per parola chiave. Tutti gli altri rapporti avanzati utilizzano dati acquisiti tramite il servizio di tracciamento della conversione di Adobe Advertising e possono essere generati solo per gli inserzionisti che utilizzano il servizio.
+Tutti gli utenti possono generare [!UICONTROL Transaction Report], che mostra le singole transazioni per parola chiave. Tutti gli altri rapporti avanzati utilizzano dati acquisiti tramite il servizio di tracciamento delle conversioni di Adobi Advertising e possono essere generati solo per gli inserzionisti con il servizio.
 
 Facoltativamente, tutti i rapporti avanzati possono includere dati di conversione o qualsiasi altra metrica creata. I rapporti avanzati generati dal portfolio anziché da una rete di annunci mostrano i dati per le campagne attualmente mappate sui portfolio specificati. I rapporti non includono dati per le campagne presenti nei portfolio durante l’intervallo di date, ma che non sono ancora presenti.
 
@@ -73,4 +75,3 @@ Facoltativamente, tutti i rapporti avanzati possono includere dati di conversion
 >* [Generare un rapporto di base o avanzato](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
 >* [Impostazioni di base e avanzate dei rapporti](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
 >* [Colonne di report per report di base e avanzati](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-columns.md)
-

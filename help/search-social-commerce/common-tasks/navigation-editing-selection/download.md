@@ -1,7 +1,9 @@
 ---
 title: Scaricare dati da una vista di gestione delle campagne
 description: Scopri come scaricare i dati dalla maggior parte delle visualizzazioni di gestione delle campagne.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 0bbb02df-2ee0-4610-b60a-ca2b58daadbb
+feature: Search Common Tasks
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
@@ -16,9 +18,9 @@ Puoi scaricare i dati da [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONT
 
 * Un file di bulksheet in formato TXT che include tutte le entità figlio rilevanti. Se selezioni righe per le entità su più reti di annunci, viene creato un file per ogni rete di annunci rilevante. Se non selezioni alcuna riga, viene creato un file per ogni rete di annunci rappresentata nella vista. I file dei fogli collettivi generati per diverse reti di annunci includono diverse colonne di dati.
 
-   Se generi dati per più campagne e i dati combinati sono costituiti da più di 500.000 righe, i dati vengono ulteriormente suddivisi per campagna in due o più file, a seconda delle necessità, denominati `<bulksheet name>_1.txt`, `<bulksheet name>_2.txt`e così via.
+  Se generi dati per più campagne e i dati combinati sono costituiti da più di 500.000 righe, i dati vengono ulteriormente suddivisi per campagna in due o più file, a seconda delle necessità, denominati `<bulksheet name>_1.txt`, `<bulksheet name>_2.txt`e così via.
 
-   Ogni file di bulksheet in [!UICONTROL Downloads] Il pannello è inoltre elencato nel [!UICONTROL Bulksheets] visualizzazione. Al momento della creazione del file, si riceve una notifica e-mail con un collegamento da cui è possibile scaricare il file. A seconda della quantità di dati compilati, la notifica potrebbe richiedere alcuni minuti o più. Se, tuttavia, la generazione del file non riesce, nella vista Bulksheet viene visualizzato un file di errore e si riceve una notifica e-mail con un collegamento al file di errore. Eliminazione di un file di bulksheet da [!UICONTROL Download] o il [!UICONTROL Bulksheets] eliminarla da entrambe le posizioni.
+  Ogni file di bulksheet in [!UICONTROL Downloads] Il pannello è inoltre elencato nel [!UICONTROL Bulksheets] visualizzazione. Al momento della creazione del file, si riceve una notifica e-mail con un collegamento da cui è possibile scaricare il file. A seconda della quantità di dati compilati, la notifica potrebbe richiedere alcuni minuti o più. Se, tuttavia, la generazione del file non riesce, nella vista Bulksheet viene visualizzato un file di errore e si riceve una notifica e-mail con un collegamento al file di errore. Eliminazione di un file di bulksheet da [!UICONTROL Download] o il [!UICONTROL Bulksheets] eliminarla da entrambe le posizioni.
 
 1. (Facoltativo) Seleziona singole righe da includere nel file.
 
@@ -32,7 +34,7 @@ Puoi scaricare i dati da [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONT
 
    * Per aprire o salvare il file in base alla normale procedura del browser, fare clic su ![Scarica foglio di calcolo](/help/search-social-commerce/assets/download-spreadsheet.png "Scarica foglio di calcolo").
 
-      Per ulteriori informazioni sulla procedura del browser in uso, consultare la Guida in linea del browser.
+     Per ulteriori informazioni sulla procedura del browser in uso, consultare la Guida in linea del browser.
 
    * Per eliminare il file, fare clic su ![Elimina](/help/search-social-commerce/assets/delete.png "Elimina").
 

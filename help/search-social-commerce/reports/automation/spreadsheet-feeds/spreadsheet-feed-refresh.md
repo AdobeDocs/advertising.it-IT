@@ -1,7 +1,9 @@
 ---
 title: Aggiorna manualmente i feed dei rapporti del foglio di calcolo
 description: Scopri come aggiornare manualmente i dati nei feed di fogli di calcolo.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 2929d6a6-8823-4f2e-94b4-5348d6f7672a
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
@@ -35,4 +37,3 @@ ht-degree: 0%
 >* [Impostazioni feed report foglio di calcolo](spreadsheet-feed-settings.md)
 >* [Visualizzare o salvare un file di feed di report del foglio di calcolo](spreadsheet-feed-view-or-save.md)
 >* [Eliminare i feed dei report del foglio di calcolo](spreadsheet-feed-delete.md)
-

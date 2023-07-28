@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Google Ads] keyword settings"
+title: '''[!DNL Google Ads] keyword settings"'
 description: Fai riferimento alle impostazioni per [!DNL Google Ads] parole chiave.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 8834e852-214b-4b2c-9a95-4b1c802e800d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -27,7 +29,6 @@ Consulta la guida di Google Ads per [limiti delle parole chiave per account](htt
 >
 >* È possibile creare parole chiave negative dalla [!UICONTROL Keywords] > [!UICONTROL Negatives] visualizza e nelle impostazioni del gruppo di annunci e della campagna.
 >* Modifica di un [!DNL Google Ads] parola chiave o tipo corrispondenza elimina la parola chiave esistente e ne crea una nuova.
-
 
 **[!UICONTROL Status]:** Stato di visualizzazione della parola chiave: *Attivo* o *In pausa*. Il valore predefinito per le nuove parole chiave è *Attivo*.
 
@@ -60,4 +61,3 @@ Consulta la guida di Google Ads per [limiti delle parole chiave per account](htt
 >[!MORELIKETHIS]
 >
 >* [Gestire le parole chiave](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
-

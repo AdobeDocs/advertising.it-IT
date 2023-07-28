@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Google Ads] impostazioni dei modelli di annunci commerciali per i feed inventario"
+title: '''[!DNL Google Ads] impostazioni del modello di annuncio acquisti per i feed inventario'
 description: Fai riferimento alle impostazioni per [!DNL Google Ads] modelli di annunci commerciali per i feed di inventario.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: c154e1b3-70eb-437d-80f6-abf6ac192697
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -56,7 +58,7 @@ Utilizza i modelli di annunci di acquisto per configurare gli annunci di acquist
 
 **[!UICONTROL Campaign Tracking Template]:** (Facoltativo per i modelli per i file di feed client) Il modello di tracciamento a livello di campagna, che specifica tutti i reindirizzamenti del dominio di destinazione e i parametri di tracciamento e incorpora l’URL finale in un parametro. Questo valore sovrascrive l’impostazione a livello di account, ma i modelli di tracciamento a livelli più granulari (con la parola chiave come più granulare) sovrascrivono questo valore.
 
-Ad Adobe, il tracciamento della conversione di Advertising, applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; utilizzare il [formato del modello di tracciamento per le campagne di acquisto di Google Ads](/help/search-social-commerce/tracking/formats-click-tracking-google.md). Se l’intero account è dedicato agli annunci commerciali, puoi invece definire un modello di tracciamento a livello di account.
+Ad Adobe Advertising, il tracciamento delle conversioni, che viene applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; utilizzare il [formato del modello di tracciamento per le campagne di acquisto di Google Ads](/help/search-social-commerce/tracking/formats-click-tracking-google.md). Se l’intero account è dedicato agli annunci commerciali, puoi invece definire un modello di tracciamento a livello di account.
 
 Per reindirizzamenti e tracciamento di terze parti, inserisci un valore.
 
@@ -114,7 +116,7 @@ Per reindirizzamenti e tracciamento di terze parti, inserisci un valore.
 
 **[!UICONTROL Ad Group Tracking Template]:** (Facoltativo) Un modello di tracciamento a livello di gruppo di annunci, che specifica tutti i reindirizzamenti e i parametri di tracciamento del dominio di destinazione finale e incorpora l’URL finale in un parametro. Questo valore sostituisce le impostazioni a livello di account e di campagna, ma i modelli di tracciamento a livelli più granulari sostituiscono questo valore.
 
-Ad Adobe, non è necessario immettere un valore nel tracciamento delle conversioni di Advertising. Il valore a livello di campagna è sufficiente.
+Ad Adobe Advertising, il tracciamento delle conversioni non richiede l’immissione di un valore. Il valore a livello di campagna è sufficiente.
 
 Per reindirizzamenti e tracciamento di terze parti, inserisci un valore.
 
@@ -136,7 +138,7 @@ Per reindirizzamenti e tracciamento di terze parti, inserisci un valore.
 
 **[!UICONTROL Tracking Template]:** (Unità senza gruppi di prodotti secondari; facoltativo) Il modello di tracciamento per il gruppo di prodotti, che specifica tutti i reindirizzamenti del dominio di destinazione e i parametri di tracciamento e incorpora l’URL finale in un [!DNL ValueTrack] parametro. Questo modello sostituisce i modelli di livello superiore.
 
-Ad Adobe, non è necessario immettere un valore nel tracciamento delle conversioni di Advertising. Il valore a livello di campagna è sufficiente.
+Ad Adobe Advertising, il tracciamento delle conversioni non richiede l’immissione di un valore. Il valore a livello di campagna è sufficiente.
 
 Per reindirizzamenti e tracciamento di terze parti, inserisci un valore.
 

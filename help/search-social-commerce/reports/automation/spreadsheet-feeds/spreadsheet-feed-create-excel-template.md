@@ -1,7 +1,9 @@
 ---
 title: Creare un [!DNL Excel] modello per un feed di report per fogli di calcolo
 description: Scopri come creare modelli di fogli di calcolo con formattazione speciale.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: d675cb8c-b7a9-4d7b-8435-5dd662d151a3
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -20,7 +22,6 @@ Per creare feed di fogli di calcolo, è necessario innanzitutto creare un format
    >
    > * È possibile creare feed di fogli di calcolo per [!UICONTROL Portfolio], [!UICONTROL Search Engine], [!UICONTROL Search Engine Account], [!UICONTROL Campaign], [!UICONTROL Ad Group], [!UICONTROL Ad Variation], [!UICONTROL Keyword], e [!UICONTROL Forecast Accuracy] rapporti. Se si utilizza [!UICONTROL Ad Group Report], limita il numero di gruppi di annunci inclusi per risultati più rapidi.
    > * Il [!UICONTROL Date Range] l&#39;unità definita nel modello non viene utilizzata. Definirai le date per le quali aggiornare i dati quando configuri il feed del foglio di calcolo in un secondo momento.
-
 
 1. Dopo la generazione del rapporto, vai a **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** ed esporta in un file una versione TSV o XLS dell’output del rapporto.
 
@@ -43,10 +44,10 @@ Per creare feed di fogli di calcolo, è necessario innanzitutto creare un format
          Questo nome di scheda specifico consente di aggiornare i dati.
 
       4. (Facoltativo) Se necessario, aggiungi colonne personalizzate a destra delle colonne del modello di rapporto.
+
    1. (Facoltativo) In un foglio di lavoro separato, creare una tabella pivot. Al termine, fare clic con il pulsante destro del mouse in una cella della tabella pivot e selezionare **[!UICONTROL Pivot Table Options]**, fare clic su **[!UICONTROL Data]** , quindi selezionare **[!UICONTROL Refresh data when opening the file]**.
 
    1. Salva il file come [!DNL Excel] in formato .XLSX.
-
 
 >[!MORELIKETHIS]
 >
@@ -57,4 +58,3 @@ Per creare feed di fogli di calcolo, è necessario innanzitutto creare un format
 >* [Visualizzare o salvare un file di feed di report del foglio di calcolo](spreadsheet-feed-view-or-save.md)
 >* [Aggiorna manualmente i feed dei rapporti del foglio di calcolo](spreadsheet-feed-refresh.md)
 >* [Eliminare i feed dei report del foglio di calcolo](spreadsheet-feed-delete.md)
-

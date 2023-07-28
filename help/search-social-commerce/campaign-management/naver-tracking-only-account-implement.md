@@ -1,7 +1,9 @@
 ---
 title: Implementare [!DNL Naver] account di solo tracciamento
 description: Scopri come impostare campagne di tracciamento per il tuo [!DNL Naver] account in modo da poter tracciare, creare rapporti e visualizzare le prestazioni per gli annunci acquistati direttamente dalla rete di annunci.
-source-git-commit: c4848da6c5489a5128a0424eef6a12f2c51caa12
+exl-id: 8013d4e8-0b4f-41a7-9c1b-10c55349930f
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -47,22 +49,22 @@ Puoi tenere traccia delle metriche delle prestazioni in tutte le campagne e per 
 1. Configura il tracciamento per le campagne:
 
    1. In Ricerca, Social E Commerce, [scarica un nuovo file bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) utilizzo dell’opzione per &quot;[!UICONTROL Generate Tracking URLs].&quot;
+
    Utilizzo di &quot;[!UICONTROL Generate Tracking URLs]L’opzione &quot; compila il [!UICONTROL Destination URL] per ogni parola chiave con il codice di tracciamento di Search, Social e Commerce preceduto dal prefisso [!UICONTROL Base URL] valore.
 
    Di seguito è riportato un esempio dell’URL di destinazione con tracciamento:
 
    ```http://pixel.everesttech.net/1234/cq?ev_sid=87&ev_cl=258e27dcec70156a667f2229020e488&url=http%3A//www.example.com```
 
-   1. Copia il [!UICONTROL Destination URL] i valori nel file di bulksheet scaricato alle relative impostazioni delle parole chiave della rete.
+   1. Copia il [!UICONTROL Destination URL] i valori nel file di bulksheet scaricato alle relative impostazioni delle parole chiave nella rete.
 
       Puoi aggiungere gli URL alle entità rilevanti caricando il file nella rete all’interno dell’editor della rete di annunci. In tal caso, potrebbe essere necessario rimuovere alcune colonne, in base ai requisiti di dati della rete. In caso contrario, è necessario immettere manualmente gli URL nella rete.
-
 
 1. Scarica periodicamente i dati su clic e i costi aggregati quotidianamente dalla rete di annunci per le parole chiave o gli annunci pubblicitari a livello di gruppo di annunci che stai tracciando, quindi [carica i dati di clic e costo](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md) per eseguire ricerche, social e commerce in [formato richiesto](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md).
 
    Includi la gerarchia completa dell’account ed eventuali metriche da includere. Search, Social e Commerce confrontano i dati caricati con i dati delle campagne esistenti.
 
-1. (Facoltativo) Se utilizzi i tag del servizio di tracciamento delle conversioni di Adobe Advertising nelle tue pagine web per tracciare le conversioni che non vengono tracciate sulla rete di annunci, invia file di feed contenenti dati di conversione aggregati su base giornaliera da aggiungere alle campagne di tracciamento.
+1. (Facoltativo) Se utilizzi i tag del servizio di tracciamento delle conversioni di Adobi Advertising nelle tue pagine web per tracciare le conversioni che non vengono tracciate nella rete di annunci, invia file di feed contenenti dati di conversione aggregati su base giornaliera da aggiungere alle campagne di tracciamento.
 
    Per ulteriori informazioni, contatta il team del tuo account Adobe.
 
@@ -74,4 +76,3 @@ Tutti i dati di tracciamento caricati sono disponibili da [!UICONTROL Search] > 
 >* [Caricare traffico e metriche di conversione per [!DNL Naver] account di solo tracciamento](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
 >* [Requisiti dei dati delle metriche per [!DNL Naver] account di solo tracciamento](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
 >* [Formati di tracciamento dei clic per [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
-

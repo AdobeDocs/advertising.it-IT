@@ -1,7 +1,9 @@
 ---
 title: Generare un rapporto di assistenza
 description: Scopri come generare rapporti di assistenza.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 8f91f837-71a8-451e-8c72-dfd21956a402
+feature: Search Reports, Search Assist Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Generare un rapporto di assistenza
 
-*Per gli inserzionisti con monitoraggio dei clic per ricerca, social e e commerce e con monitoraggio delle conversioni da Adobe Advertising, Adobe Analytics (con [!DNL Analytics] o forniti nei feed utilizzando un token (`ef_id`solo )*
+*Per gli inserzionisti con tracciamento dei clic per ricerche, social e e commerce e con tracciamento delle conversioni da Adobi Advertising, Adobe Analytics (con [!DNL Analytics] o forniti nei feed utilizzando un token (`ef_id`solo )*
 
 1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
@@ -46,4 +48,3 @@ Se hai inserito un indirizzo e-mail per la notifica, ogni destinatario riceve un
 >* [Il [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [Informazioni sui report](/help/search-social-commerce/reports/report-about.md)
 >* [Eliminare i rapporti](/help/search-social-commerce/reports/management/report-delete.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Visualizza [!UICONTROL Change History] rapporto
 description: Scopri come visualizzare le modifiche recenti apportate all’account dell’inserzionista.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 822fa5eb-b7b4-4f32-9cee-984f4e96b978
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -20,13 +22,14 @@ Puoi ordinare e filtrare i dati in base a qualsiasi colonna.
 
    * (Per mostrare o nascondere le colonne) Fare clic su ![Freccia giù](/help/search-social-commerce/assets/arrow-down-expand.png "Freccia giù") sul lato destro di un&#39;intestazione di colonna, evidenziare **[!UICONTROL Columns]** e quindi selezionare la casella di controllo accanto a ciascuna colonna da includere e deselezionare la casella di controllo accanto a ciascuna colonna da escludere.
 
-      La configurazione delle colonne viene applicata alla visualizzazione in tutti gli inserzionisti.
+     La configurazione delle colonne viene applicata alla visualizzazione in tutti gli inserzionisti.
 
    * Per filtrare i dati in base al valore di colonna, eseguire una delle operazioni seguenti:
 
       * [Applicare un filtro utilizzando **[!UICONTROL Add Filter]** link](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
       * [Applicare un filtro da un menu di intestazione di colonna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+
    * Per modificare l&#39;intervallo di date del rapporto, effettuare le seguenti operazioni:
 
       1. Sopra la tabella dati, fare clic sull&#39;intervallo di date corrente.
@@ -37,10 +40,9 @@ Puoi ordinare e filtrare i dati in base a qualsiasi colonna.
 
          * (Per un intervallo specifico) — Seleziona **[!UICONTROL Custom Date Range]** e quindi specificare la data di inizio e la data di fine.
 
-            Immettere le date nel formato MM/GG/AAAA o MM-GG-AAAA oppure fare clic su ![Calendario](/help/search-social-commerce/assets/calendar.png "Calendario") accanto a ogni campo per aprire il calendario e selezionare una data. Puoi includere i dati solo per i 31 giorni precedenti.
+           Immettere le date nel formato MM/GG/AAAA o MM-GG-AAAA oppure fare clic su ![Calendario](/help/search-social-commerce/assets/calendar.png "Calendario") accanto a ogni campo per aprire il calendario e selezionare una data. Puoi includere i dati solo per i 31 giorni precedenti.
+
       1. Clic **[!UICONTROL Apply]**.
-
-
 
 1. (Facoltativo) Scarica una copia del rapporto:
 

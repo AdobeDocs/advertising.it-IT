@@ -1,7 +1,9 @@
 ---
 title: Interrompere un processo di registrazione per i dati di feed inventario
 description: Scopri come interrompere un processo di registrazione per i dati dei feed di inventario.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 995dd6f4-fb8c-4b3f-bdc5-1e80d1129f53
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
@@ -29,4 +31,3 @@ Puoi interrompere la pubblicazione dei dati della campagna generati da un feed n
 >* [Modificare i dati generati dai feed](propagated-data-edit.md)
 >* [Pubblicare i dati della campagna generati dai feed nelle reti di annunci](propagated-data-post.md)
 >* [Stati dei dati generati dai feed](propagated-data-status.md)
-

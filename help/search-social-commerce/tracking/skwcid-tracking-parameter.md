@@ -1,7 +1,9 @@
 ---
 title: Il parametro di tracciamento s_kwcid
 description: Scopri il parametro di tracciamento utilizzato per condividere i dati degli Adobi Advertising con Adobe Analytics.
-source-git-commit: a9e23de134274d8f5004a908853c4132300b84e8
+exl-id: 3f739f1c-3cb7-40d0-86ab-cf66afe6a06f
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Il parametro di tracciamento s_kwcid
 
-*Per gli inserzionisti con solo integrazione Adobe Advertising-Adobe Analytics*
+*Per gli inserzionisti con solo integrazione Adobi Advertising-Adobe Analytics*
 
 <!-- Where should this go? It probably belongs in the Analytics integration chapter, but I'll need to fit it in/create context around it/explain more about implementation and how this works.  SPECIFICALLY, I'll need to update the second section that explains when/where to add the code for DSP clients. -->
 
@@ -18,7 +20,7 @@ Adobe Advertising condivide dati sulle campagne con Adobe Analytics utilizzando 
 
 * (Consigliato<!--; the only option for Advertising DSP-->) Viene implementata la funzione s_kwcid lato server.
 
-  Per [!DNL Google Ads] e [!DNL Microsoft Advertising] account con [!UICONTROL Auto Upload] impostazione abilitata per l’account o la campagna, il pixel server aggiunge automaticamente il parametro s_kwcid ai suffissi della pagina di destinazione quando un utente finale fa clic su un annuncio <!-- click a search ad or views a display ad --> con il pixel Advertising di Adobe.
+  Per [!DNL Google Ads] e [!DNL Microsoft Advertising] account con [!UICONTROL Auto Upload] impostazione abilitata per l’account o la campagna, il pixel server aggiunge automaticamente il parametro s_kwcid ai suffissi della pagina di destinazione quando un utente finale fa clic su un annuncio <!-- click a search ad or views a display ad --> con il pixel Adobe Advertising.
 
   Per altre reti pubblicitarie, o [!DNL Google Ads] e [!DNL Microsoft Advertising] account con [!UICONTROL Auto Upload] Se l’impostazione è disabilitata, aggiungi manualmente il parametro ai parametri di accodamento a livello di account, che lo aggiungono agli URL di base.
 

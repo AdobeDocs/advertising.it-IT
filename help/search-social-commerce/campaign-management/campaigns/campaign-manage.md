@@ -2,7 +2,8 @@
 title: Gestire le campagne
 description: Scopri come creare e gestire le campagne pubblicitarie.
 exl-id: 9406e4bd-d5a2-4744-ab71-fc52428e3af6
-source-git-commit: 7c4f3b5b7745f846817c85364006a67fd644bd3b
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 0%
@@ -52,7 +53,7 @@ Puoi modificare le impostazioni per le singole campagne. Puoi anche modificare a
 
 1. Effettuare una delle seguenti operazioni:
 
-   1. Per modificare le impostazioni per una singola campagna, posiziona il cursore sul nome dell’entità e fai clic su ![Icona menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Icona menu"), quindi selezionare **[!UICONTROL Edit]**.
+   1. Per modificare le impostazioni per una singola campagna, posiziona il cursore sul nome dell’entità e fai clic su ![Icona menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Icona menu")e quindi selezionare **[!UICONTROL Edit]**.
 
    1. Per modificare le impostazioni per una o più campagne, effettuare le seguenti operazioni:
 

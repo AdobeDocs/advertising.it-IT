@@ -1,7 +1,9 @@
 ---
 title: Dati bulksheet richiesti per [!DNL Yandex] account
 description: Fai riferimento ai campi di intestazione e ai campi di dati obbligatori nei bulksheet per [!DNL Yandex] account.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: c43ea56b-5435-4bbf-8764-beda1bb9b410
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1857'
 ht-degree: 1%
@@ -78,4 +80,3 @@ Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Me
 >* [Scaricare/creare un file bulksheet](../bulksheet-download.md)
 >* [Formati di tracciamento dei clic per [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
 >* [Carica un file di bulksheet o un file di errore corretto](../bulksheet-upload.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Modifica impostazioni feed report foglio di calcolo
 description: Scopri come modificare le impostazioni per i feed di fogli di calcolo.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 063b5fb8-905f-480a-817f-f6b339af6028
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -24,7 +26,7 @@ ht-degree: 0%
 
    * (Facoltativo) Per utilizzare un modello di rapporto diverso o aggiornato per il feed, [crea un nuovo [!DNL Excel] modello per il modello di report](spreadsheet-feed-create-excel-template.md).
 
-      Dovrai caricare sia il modello di rapporto che il nuovo [!DNL Excel] nel passaggio successivo.
+     Dovrai caricare sia il modello di rapporto che il nuovo [!DNL Excel] nel passaggio successivo.
 
    * (Facoltativo) Per aggiungere semplicemente colonne personalizzate alla [!DNL Excel] inserire le colonne a destra delle colonne dal modello di report e quindi salvare il file come [!DNL Excel] in formato .XLSX. Dovrai caricare il nuovo [!DNL Excel] nel passaggio successivo.
 
@@ -40,11 +42,11 @@ ht-degree: 0%
 
    * (Facoltativo) Una volta che il [!UICONTROL Update Status] è *[!UICONTROL Finished]*, fai clic su **[!UICONTROL XLSX]** accanto al feed, quindi aprire o salvare il file in base alla normale procedura del browser.
 
-      >[!NOTE]
-      >
-      > Se il modello di rapporto associato al feed viene successivamente eliminato, anche il feed viene eliminato.
+     >[!NOTE]
+     >
+     > Se il modello di rapporto associato al feed viene successivamente eliminato, anche il feed viene eliminato.
 
-      I feed dei fogli di calcolo vengono aggiornati automaticamente alle 08:00 ogni giorno nel fuso orario dell’inserzionista. Se il modello di rapporto include indirizzi per qualsiasi destinatario e-mail, tali indirizzi ricevono notifiche quando il foglio di calcolo viene aggiornato.
+     I feed dei fogli di calcolo vengono aggiornati automaticamente alle 08:00 ogni giorno nel fuso orario dell’inserzionista. Se il modello di rapporto include indirizzi per qualsiasi destinatario e-mail, tali indirizzi ricevono notifiche quando il foglio di calcolo viene aggiornato.
 
 >[!MORELIKETHIS]
 >
@@ -55,4 +57,3 @@ ht-degree: 0%
 >* [Impostazioni feed report foglio di calcolo](spreadsheet-feed-settings.md)
 >* [Visualizzare o salvare un file di feed di report del foglio di calcolo](spreadsheet-feed-view-or-save.md)
 >* [Aggiorna manualmente i feed dei rapporti del foglio di calcolo](spreadsheet-feed-refresh.md)
-

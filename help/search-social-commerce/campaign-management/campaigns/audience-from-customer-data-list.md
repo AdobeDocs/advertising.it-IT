@@ -1,7 +1,9 @@
 ---
 title: Gestire i tipi di pubblico in base ai clienti utilizzando gli elenchi di dati dei clienti
 description: Scopri come creare e modificare [!DNL Google Ads] e [!DNL Microsoft® Advertising] i clienti abbinano i tipi di pubblico dagli elenchi di dati cliente.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 734d8cb1-3915-410f-a0cc-0669d6575eab
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 0%
@@ -52,11 +54,12 @@ Per [!DNL Microsoft® Advertising] account, il file può includere indirizzi e-m
 
          * ([!DNL Android™] app) Il [!DNL Android™] nome pacchetto in [!DNL Google Play], identificato da &quot;`id=<package_name>`.&quot;
 
-            Ad esempio, in https://play.google.com/store/apps/details?id=com.example.game, il nome del pacchetto è com.example.game.
+           Ad esempio, in https://play.google.com/store/apps/details?id=com.example.game, il nome del pacchetto è com.example.game.
 
          * ([!DNL iOS] app) L&#39;ID applicazione all&#39;interno del [!DNL iTunes App Store], identificato da &quot;`<idNNNNNNNNN>`&quot; alla fine dell’URL. È disponibile anche nel [!DNL iOS Developer Console].
 
-            Ad esempio, in https://itunes.apple.com/us/app/id284882215, l’ID è id284882215.
+           Ad esempio, in https://itunes.apple.com/us/app/id284882215, l’ID è id284882215.
+
          Il tuo team di sviluppo ha accesso a [!UICONTROL App ID] per la piattaforma pertinente.
 
       1. In [!UICONTROL Select File] , fare clic su **[!UICONTROL Choose File]** e selezionare il file sulla rete o sul dispositivo.
@@ -64,6 +67,7 @@ Per [!DNL Microsoft® Advertising] account, il file può includere indirizzi e-m
       1. Selezionare la casella di controllo per indicare che si accettano i termini del [!DNL Adobe] e le policy sulla privacy della rete di annunci.
 
       1. Clic **[!UICONTROL Upload File]**.
+
    1. Specifica il numero di **[!UICONTROL Membership Days]**, che è il numero di giorni in cui il cookie di un utente resta nel pubblico.
 
    Utilizza il periodo di tempo per il quale prevedi che l’annuncio sia rilevante per l’utente. Gli elenchi dei clienti scadono solo se si immette un valore.
@@ -74,7 +78,6 @@ Per [!DNL Microsoft® Advertising] account, il file può includere indirizzi e-m
 >
 >* L’elaborazione del file da parte della rete di annunci potrebbe richiedere fino a 24 ore.
 >* Consulta [[!DNL Google Ads] documentazione su come funziona la corrispondenza con i clienti e limitazioni](https://support.google.com/displayvideo/answer/9539301).
-
 
 ## Modificare un pubblico con Customer Match utilizzando un elenco di dati cliente
 
@@ -114,4 +117,3 @@ I dati devono essere dello stesso tipo dell’elenco clienti originale (indirizz
 >* [Crea [!DNL Google Ads] audience di corrispondenza cliente da [!DNL Adobe] audience](google-audience-from-adobe-audience.md)
 >* [Creare un [!DNL Google Ads] customer match audience da un elenco e-mail di Adobe Campaign](google-audience-from-campaign-email-list.md)
 >* [Gestire i tipi di pubblico di remarketing dinamico](audience-dynamic-remarketing-manage.md)
-

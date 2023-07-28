@@ -2,7 +2,8 @@
 title: Colonne report per report speciali
 description: Scopri le colonne di dati disponibili per i rapporti speciali.
 exl-id: 5cc98781-588b-4bf3-8978-a7966009fa51
-source-git-commit: b6279bdf5f0cf3fbd144414f789a105af87040cc
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '2280'
 ht-degree: 0%

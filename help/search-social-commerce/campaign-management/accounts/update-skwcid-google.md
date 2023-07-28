@@ -1,7 +1,9 @@
 ---
-title: "Aggiorna il codice di tracciamento s\_kwcid per un [!DNL Google Ads] account"
+title: Aggiorna il codice di tracciamento s kwcid per un [!DNL Google Ads] account
 description: Scopri come passare al codice di tracciamento s\_kwcid più recente per un [!DNL Google Ads] account.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 82168ee6-43bb-4b8d-882d-5254a1abcb09
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Aggiorna il codice di tracciamento s\_kwcid per un [!DNL Google Ads] account
 
-*Inserzionisti con un Adobe solo di integrazione Advertising-Adobe Analytics*
+*Per gli inserzionisti con solo integrazione Adobi Advertising-Adobe Analytics*
 
 *[!DNL Google Ads]solo account*
 
@@ -31,7 +33,7 @@ Tutte le nuove [!DNL Google Ads] gli account utilizzano automaticamente il nuovo
 >Dopo la migrazione di un account, tutti i dati di clic, costo e impression vengono segnalati correttamente dopo la modifica, ma tutti i click-through che si sono verificati prima della migrazione vengono ancora attribuiti ai dati di conversione basati sul vecchio formato s\_kwcid.
 
 1. Nel menu principale, fai clic su **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Nel sottomenu, fai clic su **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
-1. Posizionare il cursore sul nome dell&#39;account e fare clic su ![icona a discesa freccia](/help/search-social-commerce/assets/arrow-dropdown-menu.png), quindi selezionare **[!UICONTROL Edit]**.
+1. Posizionare il cursore sul nome dell&#39;account e fare clic su ![icona a discesa freccia](/help/search-social-commerce/assets/arrow-dropdown-menu.png)e quindi selezionare **[!UICONTROL Edit]**.
 1. Clic **[!UICONTROL Set Account Tracking]**.
 1. Inizia la migrazione:
 

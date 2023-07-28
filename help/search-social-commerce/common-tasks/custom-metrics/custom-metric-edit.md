@@ -1,7 +1,9 @@
 ---
 title: Modificare una metrica personalizzata
 description: Scopri come modificare le metriche personalizzate, calcolate dalle metriche standard.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7b0c18d3-e4ed-49ad-aef7-d05b2a67ba2e
+feature: Search Common Tasks, Search Custom Metrics
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 1%
@@ -53,8 +55,8 @@ Se modifichi una metrica personalizzata inclusa come colonna in una delle viste 
 1. Clic **[!UICONTROL Submit]**.
 
 >[!MORELIKETHIS]
+>
 * [Informazioni sulle metriche personalizzate](custom-metric-about.md)
 * [Creare una metrica personalizzata](custom-metric-create.md)
 * [Eliminare una metrica personalizzata](custom-metric-delete.md)
 * [Impostazioni metriche personalizzate](custom-metric-settings.md)
-

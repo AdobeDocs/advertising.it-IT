@@ -1,7 +1,9 @@
 ---
 title: Configurare le impostazioni dei dati dei feed
 description: Scopri come configurare le impostazioni che controllano la modalità di elaborazione dei dati dei feed.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: fc72d1bc-aac7-4280-80c6-4fc53a96a49f
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1147'
 ht-degree: 0%
@@ -44,7 +46,6 @@ Puoi configurare la gestione dei gruppi di annunci, delle parole chiave e degli 
 >
 >* Per [!DNL Google Ads] per gli annunci commerciali, è interessato solo il gruppo di prodotti di livello più basso.
 >* Per [!DNL Yandex] account, le attività obsolete di elaborazione automatica degli elementi vengono sempre eseguite sulle varianti di annuncio, indipendentemente da questa impostazione.
-
 
 **[!UICONTROL When the Scheduled End Date is reached]:** (Solo dati pubblicati manualmente) Cosa fare con gli elementi riga in un file di feed pubblicato con una data e un’ora di fine specificate una volta arrivata l’ora di fine:
 
@@ -89,7 +90,6 @@ Il livello di magazzino per ogni riga proviene da una colonna nel file di feed, 
 >* Per i prodotti o i servizi per i quali si prevede di effettuare il riassortimento o aumentare la disponibilità, è consigliabile sospendere i gruppi di annunci, le parole chiave e gli annunci anziché eliminarli e ricrearli. La messa in pausa consente di mantenere i punteggi di qualità.
 >* Se abiliti l’elaborazione automatica obsoleta per i gruppi di annunci e i nuovi dati includono un livello di stock per il gruppo di annunci, è significativo eliminare o mettere in pausa il gruppo di annunci solo quando il livello di stock specificato è a livello di categoria anziché a livello di marchio/articolo. Ad esempio, se hai un gruppo di annunci &quot;convertibili&quot;, il livello di stock per il gruppo di annunci deve essere il totale di tutti i singoli modelli convertibili rappresentati nel gruppo di annunci.
 
-
 **[!UICONTROL Propagate feed data through all applicable templates]:** (Gli inserzionisti che caricano file di dati tramite FTP o un account di un centro commerciale) propaga automaticamente i nuovi dati tramite i modelli applicabili. L’opzione è selezionata per impostazione predefinita. Se disattivi l’opzione, puoi comunque propagare manualmente i dati per qualsiasi file di feed, account o modello.
 
 >[!NOTE]
@@ -97,7 +97,6 @@ Il livello di magazzino per ogni riga proviene da una colonna nel file di feed, 
 >* Per i file FTP, il servizio di feed verifica la presenza di aggiornamenti nella directory FTP ogni due ore (ore pari nel fuso orario PST). Questa opzione elabora tutti i file caricati dall’ultimo controllo.
 >* Per gli account del centro commerciale, Search, Social e Commerce si sincronizzano con l’account ogni giorno alle 06:00 circa nel fuso orario dell’inserzionista. Questa opzione elabora tutti i dati aggiornati dall&#39;ultima sincronizzazione.
 >* I dati propagati sono disponibili da [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], e [!UICONTROL Ads] fino a quando i dati non vengono inviati alla rete di annunci o al [!UICONTROL Bulksheets] visualizzazione.
-
 
 **[!UICONTROL Post to the SE]:** (Gli inserzionisti caricano i file di dati tramite FTP o un account del centro commerciale) Crea automaticamente i file dei bulksheet nei formati corretti per le reti pubblicitarie pertinenti dopo che i nuovi dati vengono propagati tramite i modelli applicabili. Questa opzione rimuove anche i dati da [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], e [!UICONTROL Ads] , a meno che non si verifichino errori in uno dei sottocomponenti.
 
@@ -116,4 +115,3 @@ Questa opzione è disattivata per impostazione predefinita, in modo che vengano 
 >* [Informazioni sui feed di inventario](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
 >* [Propagazione dei dati di feed tramite modelli](/help/search-social-commerce/campaign-management/inventory-feeds/feed-data-propagate.md)
 >* [Pubblicare i dati della campagna generati dai feed nelle reti di annunci](propagated-data-post.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Informazioni sulla gestione delle campagne in Search, Social e Commerce
 description: Scopri le funzioni di gestione delle campagne in Search, Social e Commerce.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: e6fca48d-1f6c-4d36-a10d-e1a5db859a37
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 0%
@@ -22,7 +24,7 @@ Per gli account sincronizzati tramite l’API della rete di annunci, il record a
 
 ## Tracciamento dei clic per collegare i clic alle conversioni
 
-Se utilizzi il servizio di tracciamento delle conversioni di Adobe Advertising, devi includere il codice di tracciamento dei clic di Search, Social e Commerce nel suffisso della pagina di destinazione, nei modelli di tracciamento e negli URL finale/di destinazione per annunci, parole chiave, posizionamenti, sitelink e elenchi di prodotti. Per [reti di annunci e tipi di campagne supportati](/help/search-social-commerce/introduction/supported-inventory.md) le cui impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; Search, Social e Commerce aggiunge automaticamente il proprio codice di reindirizzamento e di tracciamento quando salvi il record, in modo da non doverlo aggiungere manualmente. In caso contrario, devi aggiungere manualmente il codice ai modelli di tracciamento o agli URL finali.
+Se utilizzi il servizio di tracciamento delle conversioni di Adobi Advertising, devi includere il codice di tracciamento dei clic di Search, Social e Commerce nel suffisso della pagina di destinazione, nei modelli di tracciamento e negli URL finale/di destinazione per annunci, parole chiave, posizionamenti, sitelink e elenchi di prodotti. Per [reti di annunci e tipi di campagne supportati](/help/search-social-commerce/introduction/supported-inventory.md) le cui impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; Search, Social e Commerce aggiunge automaticamente il proprio codice di reindirizzamento e di tracciamento quando salvi il record, in modo da non doverlo aggiungere manualmente. In caso contrario, devi aggiungere manualmente il codice ai modelli di tracciamento o agli URL finali.
 
 Per ulteriori informazioni sul tracciamento, consulta il capitolo su &quot;Tracciamento&quot;.
 
@@ -38,9 +40,9 @@ Le viste di gestione della campagna consentono di monitorare e gestire gli accou
 
 * **[!UICONTROL Campaigns]** — Il [!UICONTROL Campaigns] nelle visualizzazioni vengono visualizzati i dati di ogni account di rete di annunci connesso. Puoi visualizzare i dati su costi, clic, impression e ricavi per tutti gli account di rete di annunci e per singoli account, campagne, gruppi di annunci, parole chiave, annunci, gruppi di prodotti per la spesa, posizionamenti, destinazioni automatiche (target di ricerca dinamici), tipi di pubblico e librerie di estensioni di annunci e le entità account associate. Per [tipi di campagne supportati sulle reti di annunci supportate](/help/search-social-commerce/introduction/supported-inventory.md), puoi creare e modificare i dati per le singole campagne e i singoli componenti della campagna direttamente nell’interfaccia. Facoltativamente, è possibile esportare i dati nella maggior parte delle visualizzazioni secondarie in un file del foglio di calcolo.
 
-   >[!NOTE]
-   >
-   >I dati a livello di annuncio non sono disponibili per [!DNL Google Ads] Dynamic Search Ad (DSA), performance max, smart shopping e [!DNL YouTube] campagne.
+  >[!NOTE]
+  >
+  >I dati a livello di annuncio non sono disponibili per [!DNL Google Ads] Dynamic Search Ad (DSA), performance max, smart shopping e [!DNL YouTube] campagne.
 
 * **[!UICONTROL Products]** — Il [!UICONTROL Products] visualizzazioni mostra i dati per ogni [[!DNL Google] or [!DNL Microsoft] account del centro commerciale sincronizzato](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md). Il valore predefinito [!UICONTROL Accounts] nella visualizzazione secondaria sono elencati tutti gli account sincronizzati; alcuni tipi di utente possono aggiungere nuovi account da questa visualizzazione. Il [!UICONTROL Products] nella visualizzazione secondaria sono elencati tutti i prodotti all&#39;interno dell&#39;account.
 
@@ -57,4 +59,3 @@ Le viste di gestione della campagna consentono di monitorare e gestire gli accou
 >* [Panoramica dell’implementazione di account e campagne di ad network](campaign-implemention-overview.md)
 >* [Monitorare e gestire le prestazioni delle campagne ad network](monitor-performance-campaigns.md)
 >* [Dati di conversione di Google Ads in Search, Social e Commerce](google-conversion-data.md)
-

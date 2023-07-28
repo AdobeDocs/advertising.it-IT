@@ -1,7 +1,9 @@
 ---
 title: Mettere in pausa un modello di avviso personalizzato
 description: Scopri come mettere in pausa un modello di avviso attivo.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a588ac21-7f77-4254-a773-a6f68c9f1090
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -20,7 +22,7 @@ ht-degree: 0%
 
    * (Per mettere in pausa uno o più modelli) Selezionare la casella di controllo accanto a ogni modello di avviso che si desidera mettere in pausa. Nella barra degli strumenti, fai clic su ![Pausa](/help/search-social-commerce/assets/pause.png "Pausa") Nella finestra di dialogo, fai clic su **[!UICONTROL Pause]**.
 
-      Per suggerimenti sulla selezione di più righe, vedere &quot;[Seleziona più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+     Per suggerimenti sulla selezione di più righe, vedere &quot;[Seleziona più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
 >[!MORELIKETHIS]
 >
@@ -32,4 +34,3 @@ ht-degree: 0%
 >* [Impostazioni del modello di avviso personalizzato](alert-template-settings.md)
 >* [Visualizzare avvisi personalizzati](alert-view.md)
 >* [Esporta dati per avvisi personalizzati](alert-export-data.md)
-

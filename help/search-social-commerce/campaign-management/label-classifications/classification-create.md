@@ -1,7 +1,9 @@
 ---
 title: Creare una classificazione di etichette
 description: Scopri come creare una classificazione delle etichette per raggruppare i componenti dell’account.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a7f6ca43-e829-4295-96bc-27ce8858227a
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 0%
@@ -27,7 +29,6 @@ Dopo aver creato una classificazione di etichetta, puoi creare valori di etichet
 >* [Informazioni sulle classificazioni delle etichette](classification-about.md)
 >* [Assegnare valori di classificazione ai componenti account dalle viste di gestione delle campagne](classification-values-assign-campaign-management.md)
 >* [Assegnare valori di classificazione ai componenti conto utilizzando i bulksheet](classification-values-assign-bulksheets.md)
->* [Rimuovere i valori di classificazione delle etichette dai componenti dell’account](classification-values-remove.md)
+>* [Rimuovi i valori di classificazione delle etichette dai componenti dell’account](classification-values-remove.md)
 >* [Elimina valori di classificazione delle etichette](classification-values-delete.md)
 >* [Eliminare le classificazioni delle etichette](classification-delete.md)
-

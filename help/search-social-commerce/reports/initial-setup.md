@@ -1,7 +1,9 @@
 ---
 title: Le attività di configurazione iniziali per i rapporti
 description: Scopri come rendere le metriche disponibili nei rapporti e come automatizzare i rapporti.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 0f55aae9-6898-4967-a377-190a13dff6fd
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 0%
@@ -12,11 +14,11 @@ ht-degree: 0%
 
 I nuovi utenti devono eseguire le seguenti attività di configurazione iniziale:
 
-* Rendi le proprietà della transazione di cui Adobe Advertising tiene traccia per un inserzionista [disponibile per rapporti e altre visualizzazioni](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md), e facoltativamente [rinominare uno dei nomi di proprietà](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) che vengono visualizzate nelle intestazioni di colonna per migliorarne la leggibilità.
+* Rendi le proprietà della transazione di cui Adobi Advertising tiene traccia per un inserzionista [disponibile per rapporti e altre visualizzazioni](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md), e facoltativamente [rinominare uno dei nomi di proprietà](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) che vengono visualizzate nelle intestazioni di colonna per migliorarne la leggibilità.
 
-   Le proprietà delle transazioni non sono disponibili per i rapporti, a meno che non vengano rese specificamente disponibili.
+  Le proprietà delle transazioni non sono disponibili per i rapporti, a meno che non vengano rese specificamente disponibili.
 
-   Se in seguito si inizia a tenere traccia di una nuova proprietà di transazione, sarà necessario ripetere l&#39;attività.
+  Se in seguito si inizia a tenere traccia di una nuova proprietà di transazione, sarà necessario ripetere l&#39;attività.
 
 * (Facoltativo) Generazione automatica dei rapporti:
 
@@ -30,4 +32,3 @@ I nuovi utenti devono eseguire le seguenti attività di configurazione iniziale:
 >
 >* [Informazioni sui report](report-about.md)
 >* [Dati utilizzati per i rapporti](data-used-for-reports.md)
-

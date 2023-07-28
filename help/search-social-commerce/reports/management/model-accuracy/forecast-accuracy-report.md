@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Forecast Accuracy Report]"
+title: '[!UICONTROL Forecast Accuracy Report]'
 description: Scopri il rapporto Precisione previsione, comprese le colonne di dati.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 2bb36728-ae14-441b-bcda-fa457f5cf664
+feature: Search Reports, Search Model Accuracy Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
@@ -23,7 +25,6 @@ Puoi visualizzare i dati relativi ai 18 mesi precedenti.
 >* Per le previsioni di costo, una deviazione del 10% negli ultimi sette giorni è considerata accettabile, pertanto la spesa effettiva compresa tra il 90% e il 110% della spesa prevista va bene. Per le previsioni di entrate, una deviazione del 15% negli ultimi sette giorni è considerata accettabile, quindi un reddito effettivo compreso tra l’85% e il 115% della spesa prevista va bene. Si dovrebbero esaminare le previsioni con scostamenti più elevati.
 >
 >* Quando le parole chiave nel portfolio sono associate a vincoli di spostamento dell’offerta, il portfolio sovrascrive o sottoutilizza l’importo totale causato dallo spostamento dell’offerta. Di conseguenza, le colonne dei costi previsti si discostano dalla spesa target per l’aumento o la riduzione della spesa.
-
 
 ## Colonne disponibili
 
@@ -56,4 +57,3 @@ Di seguito sono riportate le colonne disponibili per ogni rapporto. Le colonne p
 >* [Il [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
 >* [Generare un report di precisione del modello](model-accuracy-report-generate.md)
 >* [Impostazioni report di precisione modello](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
-

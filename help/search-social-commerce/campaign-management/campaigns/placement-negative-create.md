@@ -1,7 +1,9 @@
 ---
 title: Creare posizionamenti negativi
 description: Scopri come creare posizionamenti negativi per [!DNL Google Ads] campagne e gruppi di annunci.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 8bddfc12-de95-46c3-aa2d-bcce2a5e0de9
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%
@@ -41,4 +43,3 @@ ht-degree: 0%
 >* [Informazioni sui posizionamenti](placement-about.md)
 >* [Gestire i posizionamenti che è possibile fare offerte](placement-manage.md)
 >* [Modificare lo stato dei posizionamenti e dei posizionamenti negativi](placement-status-edit.md)
-

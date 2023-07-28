@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Campaign Daily Impression Share Report]"
+title: '[!UICONTROL Campaign Daily Impression Share Report]'
 description: Scopri di più su [!UICONTROL Campaign Daily Impression Share Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 85243fd0-0c39-4e73-b798-48710f887985
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%
@@ -44,4 +46,3 @@ Per le descrizioni di tutte le colonne predefinite e personalizzate, vedi &quot;
 >* [Informazioni sui report speciali](specialty-report-about.md)
 >* [Generare un rapporto speciale](specialty-report-generate.md)
 >* [Impostazioni report speciali](specialty-report-settings.md)
-

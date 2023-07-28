@@ -1,18 +1,20 @@
 ---
-title: Informazioni su Adobe Advertising Search, Social e Commerce
+title: Informazioni su Adobi Advertising Search, Social e Commerce
 description: Scopri di più su Search, Social e Commerce.
-source-git-commit: 5691766a5e3acca4e94f93f5a4d5c9a7007734b5
+exl-id: 0cfd82f7-26b6-4e61-b9a5-718f4eda83c1
+feature: Search Introduction
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 0%
 
 ---
 
-# Informazioni su Adobe Advertising Search, Social e Commerce
+# Informazioni su Adobi Advertising Search, Social e Commerce
 
-[!DNL Adobe] è il leader di mercato e di tecnologia nelle soluzioni di customer experience. Adobe Advertising semplifica la distribuzione di campagne pubblicitarie cross-channel per la gestione delle campagne relative al marchio e alle prestazioni su qualsiasi schermo, in qualsiasi formato. Adobe Advertising è costituito da tre soluzioni secondarie: Advertising Search, Social, &amp; Commerce per ricerca, shopping, social, rete di pubblico e canali di prestazione massima; Advertising DSP (Demand Side Platform) per canali di visualizzazione; e Advertising Creative per la creazione di esperienze utente finale per i tuoi annunci di visualizzazione.
+[!DNL Adobe] è il leader di mercato e di tecnologia nelle soluzioni di customer experience. Adobi Advertising semplifica la distribuzione di campagne pubblicitarie cross-channel per la gestione delle campagne relative al marchio e alle prestazioni su qualsiasi schermo, in qualsiasi formato. L’Adobe Advertising è costituito da tre soluzioni secondarie: Advertising Search, Social, &amp; Commerce per ricerca, shopping, social, audience network e canali di picco delle prestazioni; Advertising DSP (Demand Side Platform) per canali di visualizzazione; e un Advertising Creative per la creazione di esperienze dell’utente finale per i tuoi annunci di visualizzazione.
 
-Come parte di Adobe Advertising, Advertising Search, Social e Commerce combina una gestione degli annunci basata su portfolio all’avanguardia con una previsione intelligente delle campagne e una distribuzione mirata degli annunci per una pubblicità ottimizzata per i dati.
+Come parte di un Adobe Advertising, Advertising Search, Social e Commerce combina una gestione degli annunci basata su portfolio all’avanguardia con una previsione intelligente delle campagne e una distribuzione mirata degli annunci per una pubblicità ottimizzata per i dati.
 
 ## Tecnologia basata sull’intelligenza artificiale per l’ottimizzazione degli annunci
 
@@ -46,7 +48,7 @@ Per ulteriori informazioni sulle integrazioni con questi e altri prodotti di Ado
 
 ## Tracciamento delle conversioni
 
-Adobe Advertising fornisce facoltativamente un servizio proprietario di tracciamento delle conversioni basato su pixel per monitorare le conversioni online per gli annunci che si collegano ai siti web. Quando utilizzi il servizio di tracciamento dei pixel, Adobe Advertising tiene traccia dei clic sugli annunci e delle conversioni/transazioni risultanti sui siti web, mappando con precisione ogni sequenza di clic e impression sulle conversioni. Puoi utilizzare le conversioni tracciate per l’ottimizzazione di offerte e budget.
+Adobe Advertising fornisce facoltativamente un servizio proprietario di tracciamento delle conversioni basato su pixel per monitorare le conversioni online per gli annunci che si collegano ai siti web. Quando utilizzi il servizio di tracciamento dei pixel, Adobi Advertising tiene traccia dei clic sugli annunci e delle conversioni/transazioni risultanti sui siti web, mappando con precisione ogni sequenza di clic e impression sulle conversioni. Puoi utilizzare le conversioni tracciate per l’ottimizzazione di offerte e budget.
 
 Il servizio ti consente di ottimizzare in base a regole di attribuzione dei dati diverse per gli eventi che portano a una conversione (ad esempio, attribuendo le conversioni all’ultimo evento correlato o ponderando l’ultimo evento di più). Consente inoltre di accedere a rapporti avanzati che possono essere utilizzati per migliorare i tassi di conversione, la visibilità nelle assistenze al clic e l’analisi delle tendenze giornaliere e infragiornaliere.
 
@@ -56,4 +58,3 @@ Per ulteriori informazioni sul tracciamento, consulta il capitolo su &quot;Tracc
 >
 >* [Inventario supportato](supported-inventory.md)
 >* [Integrazione con le soluzioni e i servizi Adobe Experience Cloud](integrations.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Elimina i bulksheet caricati e i file di errore
 description: Scopri come eliminare i file bulksheet e i file di errore.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: d4769ae4-f39c-4d33-b8c7-66e97e63a56f
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 0%
@@ -29,4 +31,3 @@ Puoi eliminare manualmente i file di bulksheet, i file di errore di convalida de
 >* [Informazioni sulla gestione dei dati della campagna tramite bulksheet](bulksheet-about.md)
 >* [Interruzione di un processo di bulksheet in corso](bulksheet-stop-job.md)
 >* [Esportare un file bulksheet generato o caricato](bulksheet-export.md)
-

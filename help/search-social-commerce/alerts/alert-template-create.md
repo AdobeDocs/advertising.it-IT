@@ -1,7 +1,9 @@
 ---
 title: Creare un modello di avviso personalizzato
 description: Scopri come creare un modello per la generazione di avvisi personalizzati.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 1acc6224-3e6c-4443-8efe-9ae8545d6da0
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -32,7 +34,7 @@ Puoi spostarti tra le schede facendo clic sul nome della scheda (ad esempio, &qu
 
 1. All&#39;interno del **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** , apri la visualizzazione secondaria gestione campagne per il tipo di entità da valutare ([!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Ads], o [!UICONTROL Product Groups]).
 
-Ad esempio, per creare un modello di avviso a livello di parola chiave, vai a [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns], quindi selezionare [!UICONTROL Keywords].
+Ad esempio, per creare un modello di avviso a livello di parola chiave, vai a [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]e quindi selezionare [!UICONTROL Keywords].
 
 1. Nella parte destra della barra degli strumenti sopra la tabella dati, fare clic su ![Crea avviso](/help/search-social-commerce/assets/add-alert.png "Crea avviso").
 
@@ -56,4 +58,3 @@ Puoi spostarti tra le schede facendo clic sul nome della scheda (ad esempio, &qu
 >* [Impostazioni del modello di avviso personalizzato](alert-template-settings.md)
 >* [Visualizzare avvisi personalizzati](alert-view.md)
 >* [Esporta dati per avvisi personalizzati](alert-export-data.md)
-

@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Yahoo! Japan Ads] keyword settings"
+title: '''[!DNL Yahoo! Japan Ads] keyword settings"'
 description: Fai riferimento alle impostazioni per [!DNL Yahoo! Japan Ads] parole chiave.
-source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
+exl-id: cfb6ad85-1478-44af-a132-6b41278acd32
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 0%

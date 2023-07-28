@@ -1,7 +1,9 @@
 ---
 title: Glossario
 description: Cfr. definizioni dei termini chiave.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
+feature: Search Introduction
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '2025'
 ht-degree: 0%
@@ -116,7 +118,7 @@ ht-degree: 0%
 
 **transazione orfana:** Un evento di transazione che non può essere associato a una parola chiave o a un annuncio specifico.
 
-**pixel:** Un&#39;immagine trasparente un pixel per un pixel incorporata in una pagina web a scopo di tracciamento. Adobe I tag di tracciamento delle conversioni di Advertising includono un pixel immagine HTML o JavaScript per tenere traccia dei clic e delle transazioni risultanti.
+**pixel:** Un&#39;immagine trasparente un pixel per un pixel incorporata in una pagina web a scopo di tracciamento. Adobe Advertising di tag per il tracciamento delle conversioni includono un pixel immagine HTML o JavaScript per tenere traccia dei clic e delle transazioni risultanti.
 
 **posizionamento:** Posizione su una rete di visualizzazione in cui è possibile visualizzare gli annunci. Può essere un intero sito web, un sottoinsieme di un sito web o una posizione pubblicitaria su una pagina specifica.
 
@@ -154,7 +156,7 @@ ht-degree: 0%
 
 **strategia di spesa:** (Inserzionisti con portfolio) La strategia selezionata per ottimizzare l’offerta di parole chiave/annunci per un portfolio.
 
-**`s_kwcid`:** Codice di tracciamento che consente ad Adobe Advertising di condividere i dati sulle campagne di ricerca con Adobe Analytics.
+**`s_kwcid`:** Codice di tracciamento che consente agli Adobi Advertising di condividere con Adobe Analytics i dati sulle campagne di ricerca.
 
 **URL di tracciamento:** Un modello di tracciamento o un URL di destinazione con parametri aggiuntivi aggiunti per tenere traccia delle informazioni sui clic sull’annuncio. Può includere un URL di reindirizzamento per inviare prima gli utenti a un server di tracciamento prima di reindirizzarli alla pagina di destinazione dell’inserzionista.
 

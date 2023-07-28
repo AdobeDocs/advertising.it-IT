@@ -1,7 +1,9 @@
 ---
 title: Gestire i target di pubblico per campagne e gruppi di annunci
 description: Scopri come configurare e gestire i target di pubblico per il tuo [!DNL Google Ads] e [!DNL Microsoft® Advertising] campagne e gruppi di annunci.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 0016a69c-7642-4060-8125-947ffef6fb03
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 0%
@@ -46,7 +48,6 @@ Puoi configurare i target del pubblico, modificare i modificatori di offerte per
 
       Non puoi configurare una destinazione sia per una campagna principale che per un gruppo di annunci secondario (che utilizza automaticamente la destinazione).
 
-
 1. Clic **[!UICONTROL Post]**.
 
 1. (Facoltativo) Imposta una rettifica dell&#39;offerta per l&#39;obiettivo in uno dei seguenti modi a partire dal [!UICONTROL Targets] visualizza:
@@ -60,7 +61,6 @@ Puoi configurare i target del pubblico, modificare i modificatori di offerte per
    * *0%:* Per non regolare le offerte per gli annunci per questo pubblico.
 
    * /[*Altri valori da -90% a 900%*/]: per aumentare o diminuire l’offerta di annunci per questo pubblico. Ad esempio, se l’offerta a livello di parola chiave è 1 USD e la regolazione dell’offerta per un target di pubblico specifico è del 50%, l’offerta per quel pubblico aumenta a 1,50 USD.
-
 
 ## Modificare il modificatore di offerta per i target di pubblico
 
@@ -100,7 +100,6 @@ Puoi modificare il modificatore di offerta e lo stato dei target del pubblico pe
 
       1. Clic **[!UICONTROL Post]**.
 
-
 ## Modificare lo stato dei target di pubblico
 
 Puoi mettere in pausa un target di pubblico attivo per disabilitare le offerte su di esso. In seguito puoi riprendere l’offerta riportando lo stato attivo.
@@ -127,4 +126,3 @@ Puoi anche eliminare un target di pubblico di ricerca attivo o in pausa.
 >
 >* [Informazioni sui tipi di pubblico](audience-about.md)
 >* [Gestire le esclusioni di pubblico per campagne e gruppi di annunci](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)
-

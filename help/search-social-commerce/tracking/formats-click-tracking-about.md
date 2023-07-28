@@ -1,7 +1,9 @@
 ---
 title: Informazioni sui formati degli URL di tracciamento dei clic per il servizio di tracciamento delle conversioni di Adobe Advertising
 description: Scopri i formati di tracciamento dei clic per le reti di annunci supportate.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 12148caf-fde6-4ac2-b8b4-222409895dd7
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
@@ -10,15 +12,15 @@ ht-degree: 0%
 
 # Informazioni sui formati degli URL di tracciamento dei clic per il servizio di tracciamento delle conversioni di Adobe Advertising
 
-I modelli di tracciamento, i suffissi delle pagine di destinazione (suffissi URL finali) e gli URL di destinazione per gli account e le campagne di annunci che utilizzano il servizio di tracciamento delle conversioni di Advertising di Adobe hanno il seguente formato:
+I modelli di tracciamento, i suffissi delle pagine di destinazione (suffissi URL finali) e gli URL di destinazione per gli account degli annunci e le campagne che utilizzano il servizio di tracciamento delle conversioni di Adobe Advertising hanno il seguente formato:
 
 `http://pixel.everesttech.net/<advertiser_ID>/<token passing parameter>?ev_sid=<ad network ID>&<tracking ID>&url=<the landing page>`
 
 dove:
 
-* `http://pixel.everesttech.net` reindirizza l’utente ai pixel server di Adobe Advertising.
+* `http://pixel.everesttech.net` reindirizza l&#39;utente ai pixel server di Adobe Advertising.
 
-* `<advertiser_ID>` è una variabile per l’ID utente univoco assegnato all’inserzionista all’interno di Adobe Advertising.
+* `<advertiser_ID>` è una variabile per l’ID utente univoco assegnato all’inserzionista all’interno di Adobi Advertising.
 
 * `<token passing parameter>` è una variabile per uno dei seguenti elementi:
 
@@ -43,4 +45,3 @@ Vedere le pagine separate che indicano [[!DNL Baidu] formati](formats-click-trac
 >* [Formati di tracciamento dei clic per annunci sponsorizzati su [!DNL Yahoo! Japan Ads]](formats-click-tracking-yahoo-japan.md)
 >* [Formati di tracciamento dei clic per annunci sponsorizzati su [!DNL Yahoo! Display Network]](formats-click-tracking-yahoo-display-network.md)
 >* [Formati di tracciamento dei clic per annunci sponsorizzati su [!DNL Yandex]](formats-click-tracking-yandex.md)
-

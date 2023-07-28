@@ -1,7 +1,9 @@
 ---
 title: Gestire i file di feed dati di inventario
 description: Scopri come configurare le impostazioni che controllano la modalità di elaborazione dei dati dei feed.
-source-git-commit: a0cdc0de763feeafdea57e4233b48a2c39449e1f
+exl-id: 73d372de-2673-4190-94cf-2f07f4ce2493
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 0%
@@ -22,7 +24,7 @@ Puoi caricare ed elaborare i file di feed dati in uno dei seguenti modi:
 
 * **Automaticamente con FTP:** È possibile caricare i file direttamente in una directory FTP; il servizio di feed verifica la presenza di nuovi file ogni due ore. Dopo aver caricato un file per la prima volta, puoi associarlo a un modello specifico per la rete di annunci. Successivamente, tutti i file caricati con lo stesso nome vengono automaticamente associati allo stesso modello. A seconda di come [configurare le impostazioni dei dati di feed](feed-settings-manage.md), Search, Social e Commerce possono propagare automaticamente i dati del feed tramite tutti i modelli applicabili e, facoltativamente, pubblicare la campagna e i dati dell’annuncio risultanti sulle reti di annunci pertinenti.
 
-   Per impostare una directory FTP per il deposito e l’elaborazione automatica dei file di dati, contatta il team del tuo account di Adobe.
+  Per impostare una directory FTP per il deposito e l’elaborazione automatica dei file di dati, contatta il team del tuo account di Adobe.
 
 * **Elaborazione manuale:** Puoi eseguire manualmente [carica file di feed](#feed-file-upload) dal [!UICONTROL Advanced] (ACM). Dopo aver associato un file di feed a uno o più annunci specifici della rete [modelli](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md), puoi generare dati di campagne e annunci tramite [propagazione dei dati del feed tramite i modelli](feed-data-propagate.md) in base al [impostazioni dei dati di feed](feed-settings-manage.md). Facoltativamente, puoi visualizzare in anteprima i dati generati nelle viste gerarchiche della campagna, generare un file bulksheet per la revisione o generare un file bulksheet per la pubblicazione immediata nella rete di annunci. Se non pubblichi i dati immediatamente, puoi [anteprima](propagated-data-view.md) e [pubblicarlo](propagated-data-post.md) più tardi. Potrai farlo in seguito [sostituisci il file di feed esistente con un nuovo file](#feed-file-replace) senza perdere le associazioni di modelli esistenti.
 
@@ -122,6 +124,7 @@ Quando sostituite un file di feed, anche se il nuovo file ha un nome o un&#39;es
    * In [!UICONTROL Feed] per qualsiasi modello applicabile, fai clic su ![Altre opzioni](/help/search-social-commerce/assets/options.png "Altre opzioni") e seleziona **[!UICONTROL Re-upload]**.
 
    * Nella barra degli strumenti sopra la tabella dati, fai clic su **[!UICONTROL Feeds]**. Nell&#39;elenco dei file di feed selezionare la casella di controllo accanto al nome del file esistente. Sopra la tabella dati, fai clic su **[!UICONTROL Upload]**.
+
    >[!NOTE]
    >
    >Origine del file di feed (&quot;[!UICONTROL FTP]&quot; o &quot;&amp;mdash&quot; per i file caricati manualmente) è incluso nel [!UICONTROL Source] colonna.
@@ -157,4 +160,3 @@ Puoi eliminare qualsiasi file di feed caricato manualmente o tramite FTP. Quando
 >* [Pubblicare i dati della campagna generati dai feed nelle reti di annunci](propagated-data-post.md)
 >* [Interrompere un processo di registrazione per i dati di feed inventario](stop-job.md)
 >* [Stati dei dati generati dai feed](propagated-data-status.md)
-

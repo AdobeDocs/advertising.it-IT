@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Yandex] keyword settings"
+title: '''[!DNL Yandex] keyword settings"'
 description: Fai riferimento alle impostazioni per [!DNL Yandex] parole chiave.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 276f991b-f604-445c-8dd0-481b6eaee3d2
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 0%
@@ -25,7 +27,6 @@ Le parole chiave Yandex vengono utilizzate sia per le reti di ricerca che per qu
 >* Modifica di un [!DNL Yandex] parola chiave o tipo corrispondenza elimina la parola chiave esistente e ne crea una nuova.
 >* Ogni gruppo di annunci Yandex può includere un massimo di 200 parole chiave.
 
-
 **[!UICONTROL Status]:** Stato di visualizzazione della parola chiave: *Attivo* o *In pausa*. Il valore predefinito per le nuove parole chiave è *Attivo*.
 
 ## [!UICONTROL Bids]
@@ -36,11 +37,10 @@ Le parole chiave Yandex vengono utilizzate sia per le reti di ricerca che per qu
 
 ## Segnaposto
 
-**[!UICONTROL Param1]** **[!UICONTROL Param2]:** Il valore della proprietà `{param1}` e `{param2}` variabili di sostituzione, che sostituiscono eventuali istanze di {param1} e {param2} nell’URL di base per annunci e sitelink quando la parola chiave viene utilizzata per visualizzare l’annuncio. La lunghezza massima è di 255 byte.
+**[!UICONTROL Param1]** **[!UICONTROL Param2]:** Il valore della proprietà `{param1}` e `{param2}` variabili di sostituzione, sostituite per qualsiasi istanza di {param1} e {param2} nell’URL di base per annunci e sitelink quando la parola chiave viene utilizzata per visualizzare l’annuncio. La lunghezza massima è di 255 byte.
 
-I caratteri speciali vengono codificati automaticamente in UTF-8. Ad esempio, se l’annuncio associato ha un URL di base &quot;http://www.example.com/{param1} e il valore a livello di parola chiave {param1} è &quot;shoes/flats.html&quot;, l’annuncio conduce a http://www.example.com/shoes%2Fflats.html.
+I caratteri speciali vengono codificati automaticamente in UTF-8. Ad esempio, se l’annuncio associato ha un URL di base &quot;http://www.example.com/{param1} e il valore a livello di parola chiave di {param1} è &quot;shoes/flats.html&quot;, quindi l’annuncio conduce a http://www.example.com/shoes%2Fflats.html.
 
 >[!MORELIKETHIS]
 >
 >* [Gestire le parole chiave](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
-

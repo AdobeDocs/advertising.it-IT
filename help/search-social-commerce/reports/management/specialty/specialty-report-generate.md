@@ -1,7 +1,9 @@
 ---
 title: Generare un rapporto speciale
 description: Scopri come generare un rapporto speciale.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 5edf7b11-37ae-4488-962a-7b4f50e7c569
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -46,4 +48,3 @@ Se hai inserito un indirizzo e-mail per la notifica, ogni destinatario riceve un
 >* [Impostazioni report speciali](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
 >* [Colonne report per report speciali](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)
 >* [Eliminare i rapporti](/help/search-social-commerce/reports/management/report-delete.md)
-

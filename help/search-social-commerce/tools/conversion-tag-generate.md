@@ -1,16 +1,18 @@
 ---
-title: Genera un Adobe di tag di tracciamento conversione di Advertising
-description: Scopri come creare un tag di conversione Adobe Advertising per tenere traccia degli eventi di conversione.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+title: Genera un Adobe Advertising di tag di tracciamento delle conversioni
+description: Scopri come creare un tag di conversione di Adobe Advertising per tenere traccia degli eventi di conversione.
+exl-id: 617cd808-c4ba-4413-89e4-0f52cb44f44b
+feature: Search Tools, Search Tracking
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 0%
 
 ---
 
-# Genera un Adobe di tag di tracciamento conversione di Advertising
+# Genera un Adobe Advertising di tag di tracciamento delle conversioni
 
-*Per gli inserzionisti con solo il tracciamento delle conversioni Adobe Advertising*
+*Solo per inserzionisti con tracciamento delle conversioni di Adobi Advertising*
 
 Crea un tag di conversione separato per ogni set di metriche di cui desideri tenere traccia e fornisci all’inserzionista o all’agenzia un elenco di pagine web in cui inserirle.
 
@@ -34,7 +36,7 @@ Crea un tag di conversione separato per ogni set di metriche di cui desideri ten
 >
 >Ogni metrica nel nuovo tag di conversione viene elencata automaticamente in [!UICONTROL Admin] > [!UICONTROL Transaction Properties], anche se non è implementato o se le pagine web in cui si trova non hanno ricevuto alcun clic. Questo comportamento è diverso da quello delle metriche nei tag creati manualmente o altrove, che non sono elencati in [!UICONTROL Admin] > [!UICONTROL Transaction Properties] fino a quando una delle pagine web in cui si trova non ha ricevuto un clic. In tutti i casi, tuttavia, ogni metrica viene inizialmente esclusa dagli obiettivi del portfolio, dai rapporti e dalle visualizzazioni fino a quando non li rendi esplicitamente disponibili. Tuttavia, prima di aggiungere le metriche agli obiettivi del portfolio, considera innanzitutto di rendere le metriche disponibili e di aggiungerle ai rapporti per verificare quando ricevono i clic.
 
-## Adobe Impostazioni tag di conversione Advertising {#conversion-tag-settings}
+## Adobe Advertising di impostazioni dei tag di conversione {#conversion-tag-settings}
 
 **[!UICONTROL Tag Type]:** Tipo di tag da creare:
 
@@ -42,7 +44,7 @@ Crea un tag di conversione separato per ogni set di metriche di cui desideri ten
 
 * *[!UICONTROL JavaScript]:* Per creare un tag JavaScript.
 
-Per ulteriori informazioni sulle differenze tra i tipi di tag, vedi &quot;[Domande frequenti sulla conversione Adobe Advertising e sui tag di tracciamento della visualizzazione della pagina](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md).&quot;
+Per ulteriori informazioni sulle differenze tra i tipi di tag, vedi &quot;[Domande frequenti sulla conversione degli Adobi Advertising e sui tag di tracciamento della visualizzazione della pagina](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md).&quot;
 
 **[!UICONTROL Tag Properties]:** Una o più proprietà di transazione (metriche) da tracciare quando un utente finale visualizza una pagina contenente il tag di conversione. Per aggiungere una metrica all’elenco, inserisci il nome della metrica nella sezione &quot;[!UICONTROL Add new property]&quot; e fai clic su **[!UICONTROL Add]**.
 
@@ -50,13 +52,13 @@ Quando si tiene traccia di più metriche, queste vengono collegate da una e comm
 
 >[!NOTE]
 >
->Le metriche aggiunte a questo elenco non vengono salvate da nessuna parte né integrate con quelle del client [!UICONTROL Transaction Properties] elenco sul [!UICONTROL Admin] scheda. Tuttavia, le metriche vengono aggiunte al [!UICONTROL Transaction Properties] elenca automaticamente una volta che Adobe Advertising raccoglie effettivamente i dati per una metrica, il che accade quando il tag di conversione viene implementato su una pagina e un utente finale completa una transazione che apre tale pagina.
+>Le metriche aggiunte a questo elenco non vengono salvate da nessuna parte né integrate con quelle del client [!UICONTROL Transaction Properties] elenco sul [!UICONTROL Admin] scheda. Tuttavia, le metriche vengono aggiunte al [!UICONTROL Transaction Properties] elenca automaticamente una volta che Adobi Advertising raccoglie effettivamente i dati per una metrica, il che accade quando il tag di conversione viene implementato in una pagina e un utente finale completa una transazione che apre tale pagina.
 
 **[!UICONTROL Include unique transaction IDs]:** (Facoltativo) Include una proprietà ID transazione (`ev_transid=<transid>`) nel tag. L’opzione è selezionata per impostazione predefinita.
 
-Quando selezioni questa opzione, l’inserzionista deve generare un valore univoco per `<transid>` (ad esempio, un ID ordine effettivo) quando la transazione è completa e la restituisce ad Adobe Advertising, ad esempio `ev_transid=0123`. Adobe Advertising utilizza l’ID transazione per eliminare le transazioni duplicate con lo stesso ID transazione e lo stesso valore della proprietà. L&#39;ID transazione non può contenere simboli di e commerciale (`&`), riservati come separatori di parametri. L’ID transazione è incluso in [il [!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md), che puoi utilizzare per convalidare i dati in Search, Social e Commerce con i dati dell’inserzionista.
+Quando selezioni questa opzione, l’inserzionista deve generare un valore univoco per `<transid>` (ad esempio, un ID ordine effettivo) quando la transazione è completa e la ritrasferisce ad Adobi Advertising, ad esempio `ev_transid=0123`. Adobi Advertising utilizza l’ID transazione per eliminare le transazioni duplicate con lo stesso ID transazione e lo stesso valore della proprietà. L&#39;ID transazione non può contenere simboli di e commerciale (`&`), riservati come separatori di parametri. L’ID transazione è incluso in [il [!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md), che puoi utilizzare per convalidare i dati in Search, Social e Commerce con i dati dell’inserzionista.
 
-Se i dati non includono un ID univoco per transazione, Adobe Advertising ne genera comunque uno in base al tempo della transazione.
+Se i dati non includono un ID univoco per transazione, Adobi Advertising ne genera comunque uno in base al tempo della transazione.
 
 >[!NOTE]
 >
@@ -68,7 +70,7 @@ Se i dati non includono un ID univoco per transazione, Adobe Advertising ne gene
 
 **[!UICONTROL JS Version]:** ([!DNL JavaScript] solo tag) Quale versione del [!DNL JavaScript] tag da creare: *[!UICONTROL v2]* (impostazione predefinita) oppure *[!UICONTROL v3]*.
 
-Consulta &quot;[Domande frequenti sulla conversione Adobe Advertising e sui tag di tracciamento della visualizzazione della pagina](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md).&quot; per ulteriori informazioni sulle differenze.
+Consulta &quot;[Domande frequenti sulla conversione degli Adobi Advertising e sui tag di tracciamento della visualizzazione della pagina](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md).&quot; per ulteriori informazioni sulle differenze.
 
 >[!MORELIKETHIS]
 >
@@ -78,6 +80,5 @@ Consulta &quot;[Domande frequenti sulla conversione Adobe Advertising e sui tag 
 >* [Formato dei tag di tracciamento della conversione JavaScript versione 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
 >* [Formato dei tag di tracciamento della conversione JavaScript versione 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
 >* [Formato dei tag di tracciamento conversione immagine](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
->* [Tag Adobe di mappatura della conversione JavaScript per Advertising](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
+>* [Adobe Advertising di tag di mappatura della conversione JavaScript](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
 >* [Informazioni sulla gestione delle proprietà di transazione di un inserzionista](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md)
-

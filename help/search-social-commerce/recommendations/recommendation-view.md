@@ -1,7 +1,8 @@
 ---
 title: Visualizza raccomandazioni per l’editore e informazioni sulle prestazioni
 description: Scopri come visualizzare [!DNL Google Ads] raccomandazioni e [!DNL Microsoft® Advertising] informazioni sulle prestazioni per gli account di rete degli annunci.
-source-git-commit: de1b0b3ffbb8cbc3113e4e707b8ee2d647f60ca3
+feature: Search Recommendations
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%

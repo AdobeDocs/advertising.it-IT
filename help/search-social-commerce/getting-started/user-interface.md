@@ -1,7 +1,9 @@
 ---
 title: Organizzazione dell’interfaccia utente
 description: Scopri dove accedere a diverse funzionalità.
-source-git-commit: 5691766a5e3acca4e94f93f5a4d5c9a7007734b5
+exl-id: a1574502-70a4-4705-8ae6-0de590e1342b
+feature: Search Getting Started
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 0%
@@ -20,7 +22,7 @@ Le opzioni del menu principale di primo livello si basano sui canali pubblicitar
 
 * **[!UICONTROL DSP]** — (Quando si ha accesso a Adobe Advertising DSP (Demand Side Platform)) Per gestire il display e la pubblicità TV connessa. Un [Guida all’DSP](https://experienceleague.adobe.com/docs/advertising/dsp/home.html) è disponibile.
 
-* **[!UICONTROL Creative]** — (Quando hai accesso a Adobe Advertising Creative) Per automatizzare esperienze pubblicitarie personalizzate in tempo reale e ottimizzare gli annunci a livello di elemento creativo. L’Aiuto è disponibile separatamente da Creative.
+* **[!UICONTROL Creative]** — (Quando hai accesso a Adobi Advertising Creative) Per automatizzare esperienze pubblicitarie personalizzate in tempo reale e ottimizzare gli annunci a livello di elemento creativo. L’Aiuto è disponibile separatamente da Creative.
 
 * **[!UICONTROL Search]** gestione degli account di rete degli annunci in Search, Social e Commerce, inclusi quelli per cui Search, Social e Commerce tiene traccia ma non presenta offerte.
 
@@ -32,7 +34,7 @@ Sotto [!UICONTROL Search] , verranno visualizzati i seguenti sottomenu. Le opzio
 
 * **[!UICONTROL Optimization]** questo menu offre opzioni per gestire gli obiettivi aziendali, gestire i portfolio in base agli obiettivi aziendali e monitorare le prestazioni del portfolio, generare il cross-portfolio [!UICONTROL Spend Recommendation Report], gestire i vincoli di offerta e visualizzare e (alcuni utenti) gestire [!DNL Google Ads] regole del valore di conversione.
 
-   È disponibile una documentazione separata su queste funzioni da [!UICONTROL Help] menu (![Menu Aiuto](/help/search-social-commerce/assets/help-main-menu.png "Menu Aiuto")).
+  È disponibile una documentazione separata su queste funzioni da [!UICONTROL Help] menu (![Menu Aiuto](/help/search-social-commerce/assets/help-main-menu.png "Menu Aiuto")).
 
 * **[!UICONTROL Insights & Reports]** — Questo menu include opzioni che consentono di generare report e informazioni dettagliate, automatizzare la produzione dei report utilizzando feed di fogli di calcolo, creare e monitorare gli avvisi, configurare le impostazioni di notifica, visualizzare i consigli di rete e visualizzare un registro delle modifiche apportate all&#39;account dell&#39;inserzionista.
 
@@ -46,7 +48,7 @@ Sotto [!UICONTROL Search] , verranno visualizzati i seguenti sottomenu. Le opzio
 
 * ![Notifiche di avviso](/help/search-social-commerce/assets/notifications-panel.png "Notifiche avvisi") Un pannello in cui sono elencate le notifiche Search, Social e Commerce.
 
-   Quando sei [accesso eseguito tramite Adobe Experience Cloud](log-in.md), questo pannello mostra le notifiche di Experience Cloud.
+  Quando sei [accesso eseguito tramite Adobe Experience Cloud](log-in.md), questo pannello mostra le notifiche di Experience Cloud.
 
 * ![Menu Aiuto](/help/search-social-commerce/assets/help-main-menu.png "Menu Aiuto") Un menu della guida che include collegamenti alla documentazione e altre informazioni.
 
@@ -54,10 +56,9 @@ Sotto [!UICONTROL Search] , verranno visualizzati i seguenti sottomenu. Le opzio
 
 * ![Profilo utente](/help/search-social-commerce/assets/user-profile.png "Profilo utente") Un collegamento al tuo profilo, da cui puoi disconnetterti.
 
-   Quando sei [accesso eseguito tramite Adobe Experience Cloud](log-in.md), puoi anche modificare il profilo dell’Experience Cloud, incluse la password dell’Experience Cloud e le impostazioni di notifica.
+  Quando sei [accesso eseguito tramite Adobe Experience Cloud](log-in.md), puoi anche modificare il profilo dell’Experience Cloud, incluse la password dell’Experience Cloud e le impostazioni di notifica.
 
 >[!MORELIKETHIS]
 >
 >* [Accedi](log-in.md)
 >* [Disconnetti](log-out.md)
-

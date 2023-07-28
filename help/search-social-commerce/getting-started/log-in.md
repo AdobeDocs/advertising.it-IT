@@ -1,7 +1,9 @@
 ---
 title: Accedi
 description: Scopri come accedere.
-source-git-commit: 5691766a5e3acca4e94f93f5a4d5c9a7007734b5
+exl-id: b4359852-ed2a-4c97-864c-4a456fe57648
+feature: Search Getting Started
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -37,4 +39,3 @@ Puoi accedere a Search, Social e Commerce direttamente o da Adobe Experience Clo
 >* [Disconnetti](log-out.md)
 >* [Cambia la password](/help/search-social-commerce/tools/password-change.md)
 >* [Organizzazione dell’interfaccia utente](user-interface.md)
-
