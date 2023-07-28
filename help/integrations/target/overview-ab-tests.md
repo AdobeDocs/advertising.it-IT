@@ -1,15 +1,17 @@
 ---
-title: Configurare test A/B per annunci pubblicitari di Adobe in Adobe Target
-description: Scopri come impostare un test A/B in [!DNL Target] per l’DSP e [!DNL Search, Social, & Commerce] annunci.
+title: Configurare test A/B per annunci Adobi Advertising in Adobe Target
+description: Scopri come impostare un test A/B in [!DNL Target] per i tuoi annunci DSP.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 7089f7fe75b551953026ac6cca4ac7aafa06ba7b
+source-git-commit: f68aa3a48ff9676fec8c38af920cff1c3a7d6caa
 workflow-type: tm+mt
-source-wordcount: '1640'
+source-wordcount: '1638'
 ht-degree: 0%
 
 ---
 
-# Configurare i test A/B in Adobe Target per Advertising DSP e [!DNL Advertising Search, Social, & Commerce] Annunci
+# Configurare i test A/B in Adobe Target per la pubblicità degli annunci DSP
+
+<!-- In title and Heading1:  DSP and [!DNL Advertising Search, Social, & Commerce] Ads -->
 
 <!-- Add [!UICONTROL and [!DNL tags throughout as needed. -->
 
@@ -17,7 +19,7 @@ ht-degree: 0%
 
 *Inserzionisti solo con Advertising DSP*
 
-Adobe Advertising e Adobe Target rendono ancora più semplice per gli esperti di marketing offrire un’esperienza personalizzata e connessa su contenuti multimediali a pagamento e messaggi sul sito. Condividendo i segnali tra i prodotti, puoi:
+Adobi Advertising e Adobe Target consentono agli esperti di marketing di fornire un’esperienza personalizzata e connessa tramite contenuti multimediali a pagamento e messaggi sul sito in modo ancora più semplice. Condividendo i segnali tra i prodotti, puoi:
 
 * Diminuire i tassi di abbandono dei siti collegando l’esposizione degli annunci dei clienti dalle campagne DSP alle loro esperienze sul sito.
 
@@ -69,7 +71,7 @@ Contatta il tuo Adobe Account Team e Advertising Solutions Group (aac-advertisin
 
 ![Framework view-through](/help/integrations/assets/targetr-vt-framework.png)
 
-Aggiungendo un pixel evento di impression di Audience Manager nei tag dell’annuncio e nelle impostazioni di posizionamento, puoi creare un segmento di test per ulteriori opportunità di test view-through.
+Aggiungendo un pixel evento di impression di Audience Manager nei tag annuncio e nelle impostazioni di posizionamento, puoi creare un segmento di test per ulteriori opportunità di test view-through.
 
 1. Implementa un pixel Audience Manager di evento di impression nei tag degli annunci e nelle impostazioni di posizionamento DSP.
 
@@ -93,7 +95,7 @@ Aggiungendo un pixel evento di impression di Audience Manager nei tag dell’ann
 
    ![Segnali di ricerca](/help/integrations/assets/target-am-signals.png)
 
-1. [Creare una caratteristica basata su regole](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) per la creazione di segmenti in Audience Manager.
+1. [Creare una caratteristica basata su regole](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) per la creazione di segmenti in Audienci Manager.
 
    1. Denomina la caratteristica in modo che sia facilmente identificabile nelle attività di test. Memorizza la caratteristica nella cartella preferita.
 
@@ -109,7 +111,7 @@ Aggiungendo un pixel evento di impression di Audience Manager nei tag dell’ann
 
    1. Assegna un nome al segmento, seleziona `Ad Cloud` come **Origine dati** e quindi salva il segmento.
 
-      Audience Manager suddivide automaticamente il segmento in un gruppo di controllo che riceve l’esperienza di pagina di destinazione standard e in un gruppo di test che riceve un’esperienza personalizzata nel sito.
+      Audienci Manager suddivide automaticamente il segmento in un gruppo di controllo che riceve l’esperienza di pagina di destinazione standard e in un gruppo di test che riceve un’esperienza personalizzata nel sito.
 
    ![Schermata di un segmento di test](/help/integrations/assets/target-am-segment.png)
 
@@ -149,7 +151,7 @@ Le istruzioni seguenti evidenziano informazioni relative al caso di utilizzo del
 
 1. Aggiungi tipi di pubblico all’attività:
 
-   1. Scegli la [segmento creato in precedenza in Audience Manager per testare il pubblico view-through](#view-through-framework).
+   1. Scegli la [segmento creato in precedenza in Audienci Manager per testare il pubblico view-through](#view-through-framework).
 
       ![Aggiungere tipi di pubblico all’attività](/help/integrations/assets/target-create-ab-audiences.png)
 
@@ -189,7 +191,7 @@ In Analysis Workspace, configura il [!DNL Analytics for Target panel] per analiz
 
 * Dai priorità utilizzando le metriche nel sito (come visite e conversioni) per misurare le prestazioni.
 
-* Scopri che le metriche dei contenuti multimediali aggregati da Adobe Advertising (come impression, clic e costi) non possono corrispondere alle metriche di Target.
+* Scopri che le metriche dei contenuti multimediali aggregati da Adobi Advertising (come impression, clic e costi) non possono corrispondere alle metriche di Target.
 
 #### Dimension
 
