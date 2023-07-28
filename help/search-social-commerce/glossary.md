@@ -3,9 +3,9 @@ title: Glossario
 description: Cfr. definizioni dei termini chiave.
 exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
 feature: Search Introduction
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 2ea9830c24ec7bdc10c3774b9a97c659b6ea1747
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2073'
 ht-degree: 0%
 
 ---
@@ -106,6 +106,8 @@ ht-degree: 0%
 
 **costo marginale:** Modifica del costo totale quando la quantità cambia di un&#39;unità.
 
+**valore marginale costo-obiettivo:** La variazione dei costi è stata necessaria per aumentare di un’unità il valore obiettivo (1). Questo ha lo stesso valore della colonna legacy &quot;Costo marginale su ricavo&quot;.
+
 **tipo di corrispondenza:** Opzione che specifica il modo in cui i termini di ricerca vengono associati agli annunci. Le opzioni variano a seconda della rete di annunci.
 
 **offerta minima:** 1) L’importo minimo da pagare per impression o per 1000 impression. 2) Per le parole chiave di ricerca, l’offerta minima richiesta per una determinata parola chiave in base al suo punteggio di qualità. L&#39;offerta minima è in genere l&#39;importo minimo che puoi pagare per clic affinché la parola chiave mostri annunci.
@@ -113,6 +115,14 @@ ht-degree: 0%
 ## O-P {#o-p}
 
 **Obiettivo:** (Inserzionisti con portfolio) Un obiettivo che un cliente si prefigge di raggiungere il proprio obiettivo aziendale per un portfolio specifico o una campagna di visualizzazione, ad esempio per massimizzare i profitti o per raggiungere un obiettivo di vendita specifico. Un obiettivo è costituito dalle metriche di conversione (dette anche proprietà della transazione) da tracciare e ottimizzare per il portfolio e dalle relative ponderazioni di tali metriche.
+
+**valore obiettivo:** (Inserzionisti con portafogli) Il totale delle conversioni ponderate calcolate in base all&#39;obiettivo corrente del portfolio, tra cui:
+
+* tutte le conversioni, tenendo conto a) dei pesi assegnati a ciascuna conversione nella funzione obiettivo del portafoglio e, se del caso, b) del peso view-through per i view-through di visualizzazione.
+
+* tutti i clic, che la funzionalità di ottimizzazione considera una singola conversione e viene ponderata in base al valore di clic per l’obiettivo.
+
+Questo ha lo stesso valore della colonna legacy &quot;Ricavi ponderati&quot;.
 
 **funzionalità di ottimizzazione:** (Inserzionisti con portfolio) Tecnologia di keyword bidding di Search, Social, &amp; Commerce che determina la strategia ottimale di offerta e gestione del budget per un portfolio in base al suo obiettivo di business.
 
@@ -178,11 +188,7 @@ ht-degree: 0%
 
 ## W-X {#w-x}
 
-**entrate ponderate:** (Inserzionisti con portfolio) I ricavi totali, che includono:
-
-* tutte le entrate, tenendo conto a) delle ponderazioni assegnate a ciascuna proprietà di transazione nell&#39;obiettivo del portafoglio e, se del caso, b) del peso view-through per visualizzazioni/social view-through.
-
-* tutti i clic, che la funzionalità di ottimizzazione considera una singola proprietà di transazione e viene ponderata in base al valore di clic per l’obiettivo.
+**entrate ponderate:** Consulta &quot;valore obiettivo&quot;.
 
 **XLS** o **XLSX**: formato di file binario per [!DNL Microsoft Office Excel] cartelle di lavoro.
 
