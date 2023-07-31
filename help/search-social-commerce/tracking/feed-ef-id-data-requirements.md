@@ -3,7 +3,7 @@ title: Requisiti in materia di dati per i feed di dati che utilizzano ID EF
 description: Riferirsi ai requisiti in materia di dati per i feed di dati che utilizzano ID EF.
 exl-id: 15e76f3a-c376-4e7b-b3c8-ca76fd427002
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Di seguito sono riportati i campi di intestazione e i campi di dati corrisponden
 
 ## Esempio
 
-Il seguente file di esempio include i dati per due proprietà di transazione (Prodotto e Ricavi).
+Il seguente file di esempio include i dati per due metriche di conversione (Prodotto e Ricavi).
 
 ```
 EF ID,Client Transaction ID, Transaction Date,Product,Revenue

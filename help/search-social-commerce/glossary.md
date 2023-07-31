@@ -3,9 +3,9 @@ title: Glossario
 description: Cfr. definizioni dei termini chiave.
 exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
 feature: Search Introduction
-source-git-commit: 2ea9830c24ec7bdc10c3774b9a97c659b6ea1747
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
-source-wordcount: '2073'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 **vincolo:** (Inserzionisti con portfolio; applicabile solo alle unità di offerta nei portfolio standard) Una regola per fare offerte su una parola chiave o un annuncio specifico. Sostituisce eventuali limiti a livello di portfolio e la strategia di offerta consigliata.
 
-**conversione:** Il completamento di un’azione dopo che un utente finale fa clic su un annuncio, solitamente acquisito come metrica; ad esempio, registrazioni o acquisti. Una conversione può consistere in uno o più eventi di transazione, ma i termini &quot;conversione&quot; e &quot;transazione&quot; sono spesso utilizzati in modo intercambiabile.
+**conversione:** Il completamento di un’azione dopo che un utente finale fa clic su un annuncio, in genere acquisito come metrica. Gli esempi includono registrazioni e acquisti e possono rappresentare conteggi o importi monetari. Una conversione può consistere in uno o più eventi di transazione, ma i termini &quot;conversione&quot; e &quot;transazione&quot; sono spesso utilizzati in modo intercambiabile.
 
 **tracciamento delle conversioni:** Il monitoraggio delle conversioni utilizza i cookie per monitorare a) i clic sugli annunci di un inserzionista sulle reti pubblicitarie e b) le transazioni risultanti sul sito web dell’inserzionista.
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 ## O-P {#o-p}
 
-**Obiettivo:** (Inserzionisti con portfolio) Un obiettivo che un cliente si prefigge di raggiungere il proprio obiettivo aziendale per un portfolio specifico o una campagna di visualizzazione, ad esempio per massimizzare i profitti o per raggiungere un obiettivo di vendita specifico. Un obiettivo è costituito dalle metriche di conversione (dette anche proprietà della transazione) da tracciare e ottimizzare per il portfolio e dalle relative ponderazioni di tali metriche.
+**Obiettivo:** (Inserzionisti con portfolio) Un obiettivo che un cliente si prefigge di raggiungere il proprio obiettivo aziendale per un portfolio specifico o una campagna di visualizzazione, ad esempio per massimizzare i profitti o per raggiungere un obiettivo di vendita specifico. Un obiettivo è costituito dalle metriche di conversione da tracciare e ottimizzare per il portfolio e dai relativi pesi di tali metriche.
 
 **valore obiettivo:** (Inserzionisti con portafogli) Il totale delle conversioni ponderate calcolate in base all&#39;obiettivo corrente del portfolio, tra cui:
 
@@ -138,9 +138,9 @@ Questo ha lo stesso valore della colonna legacy &quot;Ricavi ponderati&quot;.
 
 **PPC:** Consulta &quot;pay per click&quot;.
 
-**proprietà:** Consulta &quot;proprietà transazione&quot;.
+**proprietà:** Consulta &quot;Metrica di conversione&quot;.
 
-**ora proprietà:** Il momento in cui si verifica una singola transazione. Quando una transazione include transazioni di follow-on correlate (come la prima registrazione di un cliente per una prova gratuita e la successiva sottoscrizione di un servizio a pagamento), ciascuna transazione ha il proprio tempo di proprietà.
+**ora proprietà:** L’ora in cui si verifica un singolo evento di conversione. Quando un evento include eventi di follow-on correlati (ad esempio, il cliente si registra prima per una versione di prova gratuita e successivamente si abbona a un servizio a pagamento), ogni evento ha il proprio tempo di proprietà.
 
 ## Q-R {#q-r}
 
@@ -174,7 +174,7 @@ Questo ha lo stesso valore della colonna legacy &quot;Ricavi ponderati&quot;.
 
 **ID transazione:** ID specificato dall&#39;inserzionista che identifica una transazione. Quando una transazione include più eventi, tutti hanno lo stesso ID transazione.
 
-**proprietà transazione:** Attributo di una transazione, ad esempio il tipo di transazione/conversione, l&#39;importo in dollari di una vendita o un tipo di prodotto venduto (ad esempio, &quot;Lead di vendita&quot;, &quot;Importo della vendita&quot; o &quot;1 anno&quot;. Registrazioni&quot;). In Search, Social e Commerce, le proprietà delle transazioni sono misurate per l’obiettivo di un portfolio e sono identificate nell’ID di tracciamento. I termini &quot;proprietà della transazione&quot; e &quot;conversione&quot;<!-- type-->&quot; sono spesso utilizzati in modo intercambiabile.
+**proprietà transazione:** Consulta &quot;conversione&quot;.
 
 **ora transazione:** L’ora in cui un clic o un’impression viene convertito in una transazione. Quando una transazione è costituita da più eventi di transazione (ad esempio quando un cliente si registra per la prima volta per una versione di prova gratuita e successivamente si abbona a un servizio a pagamento), il momento della transazione proviene dal primo evento della catena (registrazione per la versione di prova gratuita).
 

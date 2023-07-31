@@ -3,7 +3,7 @@ title: Informazioni su questa guida
 description: Scopri cosa è trattato in ogni capitolo di questa guida.
 exl-id: fb47db6f-d579-472f-a0e3-7bbc92ceb9e5
 feature: Search Introduction
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Informazioni su gruppi specifici di attività e altre informazioni sono disponib
 
 * &quot;Strumenti&quot; spiega come modificare la password, utilizzare gli strumenti per generare i tag di tracciamento dei clic e delle conversioni, caricare le metriche di conversione in [!DNL Google Ads] e gli obiettivi del tuo portfolio nelle reti di annunci per l’ottimizzazione ibrida, le metriche di caricamento per il tracciamento delle campagne e la replica delle tue [!DNL Google Ads] campagne nel tuo [!DNL Microsoft Advertising] account.
 
-* &quot;Amministrazione&quot; spiega come gestire i dati degli inserzionisti, incluse le proprietà di transazione raccolte ed eventuali date da escludere dalle previsioni del portfolio; sincronizza le metriche di conversione da un [!DNL Google Analytics] account; configurare varie impostazioni a livello di inserzionista; e (alcuni ruoli) amministrare gli account utente, agenzia e inserzionista.
+* &quot;Amministrazione&quot; spiega come gestire i dati degli inserzionisti, incluse le metriche di conversione raccolte ed eventuali date da escludere dalle previsioni del portfolio; sincronizza le metriche di conversione da un [!DNL Google Analytics] account; configurare varie impostazioni a livello di inserzionista; e (alcuni ruoli) amministrare gli account utente, agenzia e inserzionista.
 
 >[!NOTE]
 >

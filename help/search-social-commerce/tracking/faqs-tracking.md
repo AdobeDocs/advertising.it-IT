@@ -3,7 +3,7 @@ title: Domande frequenti sul tracciamento
 description: Scopri le risposte alle domande comuni sul tracciamento, inclusa la risoluzione dei problemi.
 exl-id: f559b977-dd44-4d29-b49e-c41c6fb783d1
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '1191'
 ht-degree: 0%
@@ -37,11 +37,11 @@ Le transazioni duplicate possono verificarsi quando un utente aggiorna la pagina
 
 Di seguito è riportata la logica di deduplicazione di Adobi Advertising:
 
-* **Quando un client invia un valore per `ev_transid` attributo:** Le successive richieste di pixel sono considerate duplicati di quella precedente se le seguenti sono tutte uguali: `ev_transid`; l’ID di tracciamento per la stessa parola chiave, annuncio o posizionamento e il valore per una proprietà di transazione specifica.
+* **Quando un client invia un valore per `ev_transid` attributo:** Le successive richieste di pixel sono considerate duplicati di quella precedente se le seguenti sono tutte uguali: `ev_transid`; l’ID di tracciamento per la stessa parola chiave, annuncio o posizionamento e il valore per una metrica di conversione specifica.
 
   Ad esempio, se più richieste di prestito hanno lo stesso ID applicazione e lo stesso importo prestito per la stessa parola chiave su una rete di annunci specifica, vengono considerate duplicati e viene conteggiata solo la prima richiesta di prestito.
 
-* **Quando un client non invia un valore per `ev_transid` attributo:** Le transazioni successive sono considerate duplicati della precedente se condividono un ID di tracciamento per la stessa parola chiave, annuncio o posizionamento e lo stesso valore per una proprietà di transazione specifica.
+* **Quando un client non invia un valore per `ev_transid` attributo:** Le transazioni successive sono considerate duplicati di quella precedente se condividono un ID di tracciamento per la stessa parola chiave, annuncio o posizionamento e lo stesso valore per una metrica di conversione specifica.
 
   Ad esempio, se più richieste di prestito hanno lo stesso ID parola chiave e lo stesso importo del prestito, vengono considerate duplicati e viene conteggiata solo la prima richiesta di prestito.
 +++
@@ -57,9 +57,9 @@ Nell’account o nella campagna, modifica il metodo di tracciamento in &quot;[!U
 
 ## Domande sui dati
 
-+++Come faccio a sapere quale proprietà di transazione proviene da un feed di dati o è tracciata dal tag di tracciamento della conversione di Adobe Advertising?
++++Come faccio a sapere quale metrica di conversione proviene da un feed di dati o è tracciata dal tag di tracciamento della conversione di Adobe Advertising?
 
-In un [!UICONTROL Transaction Report], se includi la colonna personalizzata, puoi verificare se una proprietà di transazione inclusa è stata tracciata dal pixel di tracciamento della conversione di Adobe Advertising &quot;[!UICONTROL Tracking URL].&quot; Gli URL di tracciamento con il pixel di tracciamento di Adobe Advertising iniziano con `http://pixel.everesttech.net`.
+In un [!UICONTROL Transaction Report], puoi verificare se una metrica di conversione inclusa è stata tracciata dal pixel di tracciamento della conversione di Adobe Advertising, se includi la colonna personalizzata &quot;[!UICONTROL Tracking URL].&quot; Gli URL di tracciamento con il pixel di tracciamento di Adobe Advertising iniziano con `http://pixel.everesttech.net`.
 +++
 
 +++Cosa sono le transazioni orfane?

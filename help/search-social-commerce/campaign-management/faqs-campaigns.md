@@ -3,7 +3,7 @@ title: Domande frequenti sulle campagne
 description: Vedi le risposte alle domande sulla gestione delle campagne e sulle visualizzazioni dati delle campagne.
 exl-id: b5975869-4bc3-461d-8cb7-eeefab157137
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '1472'
 ht-degree: 0%
@@ -67,7 +67,7 @@ A seconda della [impostazioni dei dati di feed](/help/search-social-commerce/cam
 
 +++([!DNL Google Ads] campagne) Modifiche ai nomi visualizzati per il mio [!DNL Google]Le conversioni tracciate da sono state ripristinate.
 
-Se modifichi i nomi visualizzati delle proprietà della transazione in Search, Social e Commerce, le modifiche vengono sovrascritte con i nomi configurati in [!DNL Google Ads]. Apporta le modifiche al nome in [!DNL Google Ads].
+Se modifichi i nomi visualizzati delle metriche di conversione in Search, Social e Commerce, le modifiche vengono sovrascritte con i nomi configurati in [!DNL Google Ads]. Apporta le modifiche al nome in [!DNL Google Ads].
 +++
 
 +++(campagne Google Ads) Posso utilizzare un budget condiviso per le campagne nei portfolio?

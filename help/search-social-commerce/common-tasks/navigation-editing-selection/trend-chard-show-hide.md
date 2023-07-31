@@ -3,7 +3,7 @@ title: Mostrare e nascondere un grafico di tendenza
 description: Scopri come visualizzare e nascondere un grafico di tendenza per i dati in alcune visualizzazioni di gestione delle campagne.
 exl-id: 9360e0c1-a326-4b1f-8c80-a4a5049ff024
 feature: Search Common Tasks
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Per impostazione predefinita, il grafico mostra il numero di clic rispetto al co
 
    1. In alto a destra del grafico, specifica le metriche da confrontare e (se applicabile) la valuta per la quale includere i dati.
 
-      Se si dispone di conti con più valute, vengono elencate tutte le valute per i conti rilevanti; la modifica della valuta mostra i dati solo per i conti che utilizzano tale valuta. Sono elencate tutte le metriche standard, le proprietà delle transazioni specifiche dell’inserzionista e le metriche personalizzate derivate dalle metriche esistenti.
+      Se si dispone di conti con più valute, vengono elencate tutte le valute per i conti rilevanti; la modifica della valuta mostra i dati solo per i conti che utilizzano tale valuta. Sono elencate tutte le metriche standard, le metriche di conversione specifiche per l’inserzionista e le metriche personalizzate derivate dalle metriche esistenti.
 
    1. Clic ![Salva](/help/search-social-commerce/assets/save-checkmark.png "Salva").
 

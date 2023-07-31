@@ -3,7 +3,7 @@ title: Sicurezza del marchio e qualità dei contenuti multimediali
 description: Ulteriori informazioni sulle funzioni di sicurezza del brand e qualità dei contenuti multimediali.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 09ccb4790906e64834e52fb28956fe41997cbd1b
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 0%
@@ -60,11 +60,11 @@ La mappatura dell’inventario è il processo dettagliato di revisione e onboard
 
 * **Livelli:** Esamina olisticamente la presenza del marchio nell’ecosistema complessivo per classificare l’inventario tra i diversi livelli. È possibile [eseguire il targeting dei posizionamenti](/help/dsp/campaign-management/placements/placement-settings.md) a questi livelli per il livello di portata desiderato:
 
-   * **[!UICONTROL T1]** - Marchio, siti riconosciuti a livello internazionale
+   * **[!UICONTROL T1]** — Nome del marchio, siti riconosciuti a livello internazionale
 
-   * **[!UICONTROL T2]** - Siti di grande impatto visivo aggiornati, privi di contenuti generati dagli utenti e solitamente privi di riconoscimento globale
+   * **[!UICONTROL T2]** siti di grande impatto visivo, aggiornati, senza contenuti generati dagli utenti e solitamente privi di riconoscimento globale
 
-   * **[!UICONTROL T3]** - Contenuti generati dagli utenti e contenuti di nicchia
+   * **[!UICONTROL T3]** — Contenuti generati dagli utenti e contenuti di nicchia
 
 * **Categorizzazione del sito:** Per facilitare il targeting e il blocco dei contenuti, a ogni proprietà viene assegnato un tag con una categoria di sito definita dall’DSP in base al contenuto della proprietà. È possibile [includi o escludi queste categorie del sito per ogni posizionamento](/help/dsp/campaign-management/placements/placement-settings.md) in base agli obiettivi di posizionamento.
 
@@ -145,5 +145,4 @@ Per ulteriori informazioni sulle funzionalità, contatta [!DNL DoubleVerify] dir
 >[!MORELIKETHIS]
 >
 >* [Impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)
-
 <!-- >* [Advertiser Account Settings](/help/dsp/admin/advertiser-settings.md) -->

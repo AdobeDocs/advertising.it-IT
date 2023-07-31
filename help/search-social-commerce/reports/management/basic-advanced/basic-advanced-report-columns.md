@@ -3,9 +3,9 @@ title: Colonne di report per report di base e avanzati
 description: Scopri le colonne di dati disponibili per i rapporti di base e avanzati.
 exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
-source-wordcount: '3603'
+source-wordcount: '3598'
 ht-degree: 0%
 
 ---
@@ -16,8 +16,8 @@ ht-degree: 0%
 | ---- | ---- |
 | \[Metriche personalizzate (derivate) specifiche dell’inserzionista\] | Il valore per un [metrica personalizzata creata](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md) calcolato dalle metriche esistenti. |
 | \[Classificazioni delle etichette specifiche dell’inserzionista\] | Qualsiasi classificazione di etichetta attualmente applicata all’entità, a livello di entità. Le classificazioni di etichette multiple sono separate da virgole (,). |
-| \[Proprietà transazione specifiche dell&#39;inserzionista\] | Il numero di conversioni per una proprietà di transazione o una metrica di coinvolgimento del sito specificata. |
-| \[Conversioni tracciate da Google/proprietà transazione\] | Vedere la voce &quot;GGL\*, GGL_CT\* e GGL_XD_CT\*.&quot; |
+| \[Metriche di conversione specifiche per l’inserzionista\] | Il numero di conversioni per una metrica di conversione o una metrica di coinvolgimento del sito specificata. |
+| \[Conversioni tracciate da Google\] | Vedere la voce &quot;GGL\*, GGL_CT\* e GGL_XD_CT\*.&quot; |
 | [!UICONTROL 7-Day Click Accuracy] | ([!UICONTROL Portfolio Report]) La precisione media della previsione dei clic per i sette giorni precedenti, escluso il giorno corrente (e non per l&#39;intervallo di date specificato nel rapporto), espressa in percentuale. |
 | [!UICONTROL 7-Day Cost Accuracy] | ([!UICONTROL Portfolio Report]) La precisione media della previsione dei costi per i sette giorni precedenti, escluso il giorno corrente (e non per l&#39;intervallo di date specificato nel rapporto), espressa in percentuale. |
 | [!UICONTROL 7-Day Revenue Accuracy] | ([!UICONTROL Portfolio Report]) La precisione media della previsione dei ricavi per i sette giorni precedenti, escluso il giorno corrente (e non per l&#39;intervallo di date specificato nel rapporto), espressa in percentuale. |
@@ -106,7 +106,7 @@ ht-degree: 0%
 | [!UICONTROL Estimated Impressions] | (Solo campagne di visualizzazione) Il numero stimato di ad impression tracciate da Search, Social e Commerce. Questo valore può essere diverso dal valore per [!UICONTROL Impressions] (se disponibile), che mostra il valore fornito dalle reti di annunci. |
 | [!UICONTROL Exclude (yes/no)] | Indica se l&#39;offerta è esclusa (<i>[!UICONTROL Yes]</i>) o le offerte sono consentite (<i>[!UICONTROL No]</i>) per gli annunci di prodotti corrispondenti. |
 | [!UICONTROL First Page CPC] | (Solo campagne Google) Il costo per clic (CPC) per gli annunci visualizzati sulla prima pagina dei risultati della ricerca durante l’intervallo di date specificato. |
-| `GGL*`, `GGL_CT*`, e `GGL_XD_CT*` [[!DNL Google Ads]-conversioni tracciate/proprietà transazione] | ([!DNL Google Ads] campagne sulle reti di ricerca e shopping) [!DNL Google Ads]-tiene traccia delle conversioni, con un massimo di tre proprietà di transazione separate per ogni conversione:<ul><li>`GGL*` — (Quando viene tracciato) il valore di conversione per la parola chiave, a partire dal prefisso &quot;GGL&quot; (ad esempio Acquisto GGL).</li><li>`GGL_CT*` — il numero (conteggio) di conversioni, a partire dal prefisso &quot;GGL_CT&quot; (ad esempio GGL_CT_Purchase).</li><li>`GGL_XD_CT*` — (se disponibile per il tipo di conversione, quando vengono tracciati) Il numero (conteggio) di conversioni tra dispositivi, misurato da [!DNL Google Ads] che inizia con il prefisso &quot;GGL_XD_CT_&quot; (ad esempio GGL_XD_CT_Purchase).</li></ul><br>Ogni conversione viene registrata per unità di offerta e data di clic; non è disponibile a livello di evento. Per ulteriori informazioni su [!DNL Google Ads]-le conversioni tracciate, vedi &quot;[[!DNL Google Ads] dati di conversione in Search, Social e Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md).&quot; |
+| `GGL*`, `GGL_CT*`, e `GGL_XD_CT*` [[!DNL Google Ads]-conversioni tracciate] | ([!DNL Google Ads] campagne sulle reti di ricerca e shopping) [!DNL Google Ads]-tenere traccia delle conversioni, con un massimo di tre metriche separate per ogni conversione:<ul><li>`GGL*` — (Quando viene tracciato) il valore di conversione per la parola chiave, a partire dal prefisso &quot;GGL&quot; (ad esempio Acquisto GGL).</li><li>`GGL_CT*` — il numero (conteggio) di conversioni, a partire dal prefisso &quot;GGL_CT&quot; (ad esempio GGL_CT_Purchase).</li><li>`GGL_XD_CT*` — (se disponibile per il tipo di conversione, quando vengono tracciati) Il numero (conteggio) di conversioni tra dispositivi, misurato da [!DNL Google Ads] che inizia con il prefisso &quot;GGL_XD_CT_&quot; (ad esempio GGL_XD_CT_Purchase).</li></ul><br>Ogni conversione viene registrata per unità di offerta e data di clic; non è disponibile a livello di evento. Per ulteriori informazioni su [!DNL Google Ads]-le conversioni tracciate, vedi &quot;[[!DNL Google Ads] dati di conversione in Search, Social e Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md).&quot; |
 | [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] solo) La percentuale di impression dell’annuncio visualizzate come primo annuncio sopra i risultati della ricerca organica. |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads] solo) La percentuale di impression degli annunci mostrata sopra i risultati della ricerca organica. |
 | [!UICONTROL Impressions] | Il numero di ad impression durante l’intervallo di date specificato. |
@@ -152,7 +152,7 @@ ht-degree: 0%
 | [!UICONTROL Product Group ID] | ID numerico assegnato dalla rete di annunci al gruppo di prodotti. |
 | [!UICONTROL Product Groupings] | Il gruppo di prodotti principale. |
 | [!UICONTROL Product ID] | ([!UICONTROL Keyword Report]; [!DNL Google Ads] product listing ads) L’ID prodotto del prodotto mostrato con l’annuncio.<br><br><b>Nota:</b> L’ID viene acquisito solo quando l’elenco dei prodotti include il parametro di tracciamento `ev_plx=<GMC product ID>`, che è necessario aggiungere entro [!DNL Google Merchant Center]. |
-| [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report]) I ricavi per la proprietà della transazione (ad esempio 1 per una registrazione o 12 per un ordine di 12 USD). Se più unità di offerta hanno lo stesso ID transazione, i ricavi per l’ID di tracciamento vengono suddivisi in base al numero di clic nella data di clic specificata (quando sono disponibili i dati di clic). |
+| [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report]) I ricavi per la metrica di conversione (ad esempio 1 per una registrazione o 12 per un ordine a 12 USD). Se più unità di offerta hanno lo stesso ID transazione, i ricavi per l’ID di tracciamento vengono suddivisi in base al numero di clic nella data di clic specificata (quando sono disponibili i dati di clic). |
 | [!UICONTROL Reach] | ([!DNL Meta] annunci) Il numero di persone che hanno visto i tuoi annunci almeno una volta. Nota: [!DNL Meta] deduplica il reach per i profili utente ogni giorno, in modo che i numeri riportati da [!DNL Meta] e per Ricerca, Social e Commerce possono essere diversi. |
 | [!UICONTROL Region] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]) Area geografica o stato americano/canadese da cui provengono le impression o i clic. Viene determinato dall’indirizzo IP dell’utente. |
 | [!UICONTROL SE Creative ID] | ID dell’annuncio assegnato dalla rete. |
@@ -176,8 +176,8 @@ ht-degree: 0%
 | [!UICONTROL Through Plays] | ([!DNL Meta] annunci) Il numero di visualizzazioni che hanno guardato l’annuncio nel suo insieme. |
 | [!UICONTROL Top of Page CPC] | (Solo campagne Google) Il costo per clic (CPC) per gli annunci visualizzati nella parte superiore delle pagine dei risultati di ricerca durante l’intervallo di date specificato. |
 | [!UICONTROL Tracking URL] | (Solo parole chiave con targeting di ricerca) Il modello di tracciamento o l’URL di destinazione incorporato con (ove applicabile) il codice di tracciamento di Search, Social e Commerce. |
-| [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report]) La proprietà della transazione specifica dell&#39;inserzionista a cui viene accreditata la transazione. |
-| [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report]) L&#39;ora in cui è stato accreditato il valore della proprietà della transazione specificata. |
+| [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report]) La metrica di conversione specifica per l’inserzionista a cui viene accreditata la transazione. |
+| [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report]) L&#39;ora in cui è stato accreditato il parametro di conversione specificato. |
 | [!UICONTROL User Account Type] | Obsoleto |
 | [!UICONTROL User SE Account ID] | ID numerico assegnato da Search, Social e Commerce alla rete di annunci. |
 | [!UICONTROL Video Average Play Time] | ([!DNL Meta] annunci) Il tempo medio di riproduzione di un video, incluso il tempo trascorso a riprodurlo, per una singola impression. |

@@ -3,7 +3,7 @@ title: '[!UICONTROL Transaction Report]'
 description: Scopri di più su [!UICONTROL Transaction Report].
 exl-id: 879c6dc0-6667-4e63-8403-bc2f2ee5ba3c
 feature: Search Reports, Search Advanced Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Il [!UICONTROL Transaction Report] fornisce dettagli a livello di transazione per le parole chiave correnti nei gruppi di annunci nelle campagne di ricerca e visualizzazione e per i set di annunci nelle campagne social, all’interno di specifici portfolio (se applicabile) o account di annunci. Facoltativamente puoi includere le metriche di conversione. Puoi confrontare i risultati di questo rapporto con i dati delle transazioni dell’inserzionista per verificare che Search, Social e Commerce riporti tutte le transazioni dell’inserzionista.
 
-Per impostazione predefinita, il rapporto include i dati per le transazioni che si sono verificate entro l’intervallo di date specificato. I dati di ogni transazione includono l’ID transazione, i tempi di transazione e di clic/impression, il tipo di conversione, la proprietà transazione e i dati dei ricavi per la proprietà transazione (ad esempio 1 per una registrazione o 12 per un ordine di $ 12) per ogni combinazione di parole chiave o gruppi di annunci/campagne/portfolio. Per impostazione predefinita, le righe sono in ordine crescente prima in base al momento della transazione e quindi in base al momento del clic.
+Per impostazione predefinita, il rapporto include i dati per le transazioni che si sono verificate entro l’intervallo di date specificato. I dati di ciascuna transazione includono l’ID transazione, i tempi di transazione e di clic/impression, il tipo di conversione, la metrica di conversione e i dati dei ricavi per la metrica di conversione (ad esempio 1 per una registrazione o 12 per un ordine di $ 12) per ogni combinazione di parole chiave o gruppo di annunci/campagne/portfolio. Per impostazione predefinita, le righe sono in ordine crescente prima in base al momento della transazione e quindi in base al momento del clic.
 
 Puoi visualizzare i dati relativi ai 45 giorni precedenti.
 
