@@ -3,9 +3,9 @@ title: Genera un Adobe Advertising di tag di tracciamento delle conversioni
 description: Scopri come creare un tag di conversione di Adobe Advertising per tenere traccia degli eventi di conversione.
 exl-id: 617cd808-c4ba-4413-89e4-0f52cb44f44b
 feature: Search Tools, Search Tracking
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -46,13 +46,13 @@ Crea un tag di conversione separato per ogni set di metriche di cui desideri ten
 
 Per ulteriori informazioni sulle differenze tra i tipi di tag, vedi &quot;[Domande frequenti sulla conversione degli Adobi Advertising e sui tag di tracciamento della visualizzazione della pagina](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md).&quot;
 
-**[!UICONTROL Tag Properties]:** Una o più proprietà di transazione (metriche) da tracciare quando un utente finale visualizza una pagina contenente il tag di conversione. Per aggiungere una metrica all’elenco, inserisci il nome della metrica nella sezione &quot;[!UICONTROL Add new property]&quot; e fai clic su **[!UICONTROL Add]**.
+**[!UICONTROL Tag Properties]:** Una o più metriche di conversione da tracciare quando un utente finale visualizza una pagina contenente il tag di conversione. Per aggiungere una metrica all’elenco, inserisci il nome della metrica nella sezione &quot;[!UICONTROL Add new property]&quot; e fai clic su **[!UICONTROL Add]**.
 
 Quando si tiene traccia di più metriche, queste vengono collegate da una e commerciale (`&`) nel tag, ad esempio `ev_Property1=<Property1>&ev_Property2=<Property2>`.
 
 >[!NOTE]
 >
->Le metriche aggiunte a questo elenco non vengono salvate da nessuna parte né integrate con quelle del client [!UICONTROL Transaction Properties] elenco sul [!UICONTROL Admin] scheda. Tuttavia, le metriche vengono aggiunte al [!UICONTROL Transaction Properties] elenca automaticamente una volta che Adobi Advertising raccoglie effettivamente i dati per una metrica, il che accade quando il tag di conversione viene implementato in una pagina e un utente finale completa una transazione che apre tale pagina.
+>Le metriche aggiunte a questo elenco non vengono salvate da nessuna parte né integrate con quelle del client [!UICONTROL Conversions] elenco sul [!UICONTROL Admin] scheda. Tuttavia, le metriche vengono aggiunte al [!UICONTROL Conversions] elenca automaticamente una volta che Adobi Advertising raccoglie effettivamente i dati per una metrica, il che accade quando il tag di conversione viene implementato in una pagina e un utente finale completa una transazione che apre tale pagina.
 
 **[!UICONTROL Include unique transaction IDs]:** (Facoltativo) Include una proprietà ID transazione (`ev_transid=<transid>`) nel tag. L’opzione è selezionata per impostazione predefinita.
 

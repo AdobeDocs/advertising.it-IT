@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] dati di conversione"'
 description: Scopri i tipi di [!DNL Google Ads]-Dati di conversione tracciati disponibili in Search, Social e Commerce.
 exl-id: a7ee8e72-aa7d-4e90-b765-b7b01308762d
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Tutte le metriche sono automaticamente disponibili nelle viste di gestione delle
 
 Search, Social e Commerce sincronizzano i dati per le conversioni per le quali &quot;[!DNL Include in 'Conversions']L’opzione &quot; è abilitata, richiama i dati per gli ultimi 35 giorni e quindi richiama le modifiche ai dati ogni giorno entro il 09:00-10:00 nel fuso orario dell’inserzionista. I dati storici possono cambiare di giorno in giorno, man mano che vengono tracciate nuove conversioni per ogni clic.
 
-Fino a tre proprietà di transazione per ogni [[!DNL Google Ads]-conversione tracciata](https://support.google.com/google-ads/answer/4677036) (configurato in [!DNL Google Ads]) sono automaticamente disponibili in Search, Social e Commerce, utilizzando i nomi di conversione configurati in [!DNL Google Ads]. Le proprietà della transazione per ogni conversione includono:
+Fino a tre metriche per ciascuno [[!DNL Google Ads]-conversione tracciata](https://support.google.com/google-ads/answer/4677036) (configurato in [!DNL Google Ads]) sono automaticamente disponibili in Search, Social e Commerce, utilizzando i nomi di conversione configurati in [!DNL Google Ads]. Le metriche di ciascuna conversione includono:
 
 * `GGL*` — (Quando viene tracciato) il valore di conversione per la parola chiave, a partire dal prefisso &quot;GGL&quot; (ad esempio Acquisto GGL).
 
@@ -32,7 +32,7 @@ Fino a tre proprietà di transazione per ogni [[!DNL Google Ads]-conversione tra
 
 >[!NOTE]
 >
->* Se disponi di più account con gli stessi nomi di conversione, in Adobi Advertising potrebbero essere presenti nomi di conversione duplicati. In tal caso, [modificare il nome visualizzato](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) per una delle metriche duplicate in [!UICONTROL Admin] > [!UICONTROL Transaction Properties]. Il reporting non è accurato quando due metriche diverse hanno lo stesso nome.
+>* Se disponi di più account con gli stessi nomi di conversione, è possibile che in Adobe Advertising vengano visualizzati nomi di conversione duplicati. In tal caso, [modificare il nome visualizzato](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) per una delle metriche duplicate in [!UICONTROL Admin] > [!UICONTROL Transaction Properties]. Il reporting non è accurato quando due metriche diverse hanno lo stesso nome.
 >* I dati a livello di unità di offerta corrispondono ai dati in [!DNL Google Ads] allo stesso livello. Tuttavia, [!DNL Google Ads]I dati di conversione di &#39; per i livelli superiori possono includere conversioni aggiuntive non attribuite alle unità di offerta figlio. I dati in Search, Social e Commerce vengono sempre aggregati dal livello di unità dell’offerta, pertanto, ad esempio, un rapporto a livello di campagna potrebbe non avere gli stessi totali di un rapporto a livello di campagna in Google Ads.
 >* La varianza dei dati è in genere inferiore dopo la sincronizzazione mattutina rispetto a quella più tardi nel corso della giornata, quando non sono ancora state sincronizzate conversioni aggiuntive. È consigliabile convalidare i dati al mattino.
 >* Dati di conversione non disponibili per [!DNL Google Display Network], [!DNL Gmail], [!DNL Mobile App], e [!DNL YouTube] annunci. Escludi questi tipi di annunci quando confronti i dati in [!DNL Google Ads] con dati in Search, Social e Commerce.
