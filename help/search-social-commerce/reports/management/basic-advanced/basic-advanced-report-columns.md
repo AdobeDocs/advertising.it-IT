@@ -3,7 +3,7 @@ title: Colonne di report per report di base e avanzati
 description: Scopri le colonne di dati disponibili per i rapporti di base e avanzati.
 exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 7ffdd97387815098994f85c4368e60b2b44838dd
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '3603'
 ht-degree: 0%
@@ -186,8 +186,6 @@ ht-degree: 0%
 | [!UICONTROL View Rate] | (Annunci video) Il numero di visualizzazioni o impegni diviso per il numero di volte in cui l’annuncio (impression video e miniature) è stato mostrato. |
 | [!UICONTROL Views] | (Annunci video) Il numero di volte in cui le persone hanno guardato o si sono fidanzate con il tuo annuncio. |
 | [!UICONTROL ViewThroughConversions] | (Annunci sulla rete del pubblico) Il numero di conversioni risultanti da una o più impression ma nessun clic. |
-
-<table style="table-layout:auto">
 
 <!-- HOW IS MARKET TYPE DIFFERENT FROM CHANNEL TYPE? And what are all possible values for each? -->
 

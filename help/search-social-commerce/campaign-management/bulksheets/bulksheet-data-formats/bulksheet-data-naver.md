@@ -3,7 +3,7 @@ title: Dati bulksheet richiesti per [!DNL Naver] account
 description: Fai riferimento ai campi di intestazione e ai campi di dati obbligatori nei bulksheet per [!DNL Naver] account.
 exl-id: bd6e3dab-47b0-428a-825d-bd9c21494fb0
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 1%
@@ -50,8 +50,6 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Keyword,Base URL,Destination URL,
 | [!UICONTROL AMO ID] | n/d: Crea<br>Facoltativo: modificare o eliminare | n/d: Crea<br>Facoltativo: modificare o eliminare | n/d: Crea<br>Facoltativo: modificare o eliminare | (nei bulksheet generati) Un [!DNL Adobe]Identificatore univoco generato da, per un&#39;entità sincronizzata. Per gli annunci di ricerca responsive, l’AMO ID è necessario per modificare o eliminare gli annunci a meno che tu non includa [!UICONTROL Ad ID]. Per modificare i dati per tutti gli altri tipi di entità con un AMO ID, è necessario l’AMO ID per modificare o eliminare i dati, a meno che non si includano l’ID entità e l’ID entità principale.<br><br>Search, Social e Commerce utilizza il valore per determinare l’identità corretta da modificare, ma non pubblica l’ID sulla rete di annunci. |
 | [!UICONTROL EF Error Message] | n/d | n/d | n/d | (Incluso nei bulksheet generati a scopo informativo) Segnaposto per la visualizzazione dei messaggi di errore di Search, Social e Commerce relativi ai dati nella riga; i messaggi di errore sono inclusi in [!UICONTROL EF Errors] file. Questo valore non viene inviato alla rete di annunci. |
 | [!UICONTROL SE Error Message] | n/d | n/d | n/d | (Incluso nei bulksheet generati a scopo informativo) Segnaposto per la visualizzazione dei messaggi di errore provenienti dalla rete di annunci relativi ai dati nella riga; i messaggi di errore sono inclusi in [!UICONTROL SE Errors] file. Questo valore non viene inviato alla rete di annunci. |
-
-<table style="table-layout:auto">
 
 [^1]: quando si apre il file, i numeri elevati vengono convertiti in notazione scientifica (ad esempio 2.12E+09 per 2115585666). Per visualizzare le cifre nella notazione standard, selezionare una cella della colonna e fare clic all&#39;interno della barra della formula.
 

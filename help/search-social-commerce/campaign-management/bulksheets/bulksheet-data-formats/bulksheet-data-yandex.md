@@ -3,7 +3,7 @@ title: Dati bulksheet richiesti per [!DNL Yandex] account
 description: Fai riferimento ai campi di intestazione e ai campi di dati obbligatori nei bulksheet per [!DNL Yandex] account.
 exl-id: c43ea56b-5435-4bbf-8764-beda1bb9b410
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '1857'
 ht-degree: 1%
@@ -67,8 +67,6 @@ Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Me
 | \[Classificazione etichetta specifica dell’inserzionista\] | Facoltativo | Facoltativo | Facoltativo | Facoltativo | n/d | (Nome per una classificazione di etichetta specifica dell’inserzionista, ad esempio &quot;Colore&quot; per una classificazione di etichetta denominata Colore) Valore per la classificazione specificata associata all’entità. Puoi includere un solo valore per classificazione per entità (ad esempio &quot;rosso&quot; per la classificazione dell’etichetta &quot;Colore&quot; per la campagna A). La lunghezza massima è di 100 caratteri e il valore può includere caratteri ASCII e non ASCII.<br><br>Le classificazioni delle etichette e i relativi valori delle etichette vengono applicati a tutti i componenti figlio; i nuovi componenti aggiunti in seguito vengono associati automaticamente all’etichetta. Le classificazioni delle etichette per i gruppi di prodotti vengono applicate al livello di unità (più granulare).<br><br>Il nome della classificazione e il valore della classificazione non fanno distinzione tra maiuscole e minuscole. |
 | [!UICONTROL Constraints] | Facoltativo | Facoltativo | Facoltativo | n/d | n/d | Vincolo assegnato all&#39;entità. È possibile assegnare un solo vincolo per entità.<br><br>I vincoli vengono ereditati dalle entità figlio, pertanto non è necessario immettere valori per le entità figlio a meno che non si desideri sostituire i valori ereditati. |
 | [!UICONTROL EF Error Message] | n/d | n/d | n/d | n/d | n/d | (Incluso nei bulksheet generati a scopo informativo) Segnaposto per la visualizzazione dei messaggi di errore di Search, Social e Commerce relativi ai dati nella riga; i messaggi di errore sono inclusi in [!UICONTROL EF Errors] file. Questo valore non viene inviato alla rete di annunci. |
-
-<table style="table-layout:auto">
 
 [^1]: quando si apre il file, i numeri elevati vengono convertiti in notazione scientifica (ad esempio 2.12E+09 per 2115585666). Per visualizzare le cifre nella notazione standard, selezionare una cella della colonna e fare clic all&#39;interno della barra della formula.
 

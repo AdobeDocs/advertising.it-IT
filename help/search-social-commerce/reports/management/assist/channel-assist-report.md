@@ -3,7 +3,7 @@ title: '[!UICONTROL Channel Assist Report]'
 description: Scopri di più su [!UICONTROL Channel Assist Report].
 exl-id: 49616327-72e9-49c6-90b9-91c7486e8417
 feature: Search Reports, Search Assist Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -39,8 +39,6 @@ Di seguito sono riportate le colonne disponibili per ogni rapporto. Le colonne p
 | [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[proprietà transazione\] | Automatico | (Non disponibile nelle impostazioni del rapporto, ma incluso automaticamente nell’output del rapporto per ogni proprietà di transazione inclusa) Latenza media in giorni dal primo evento a una conversione. |
 | [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[proprietà transazione\] | Automatico | (Non disponibile nelle impostazioni del rapporto, ma incluso automaticamente nell’output del rapporto) Latenza media in giorni dall’ultimo evento a una conversione. |
 | [!UICONTROL Path Frequency] | Personalizzato | Il numero di volte in cui il percorso per questa riga si è verificato prima della conversione. |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

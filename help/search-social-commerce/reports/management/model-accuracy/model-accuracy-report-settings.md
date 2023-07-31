@@ -3,7 +3,7 @@ title: Impostazioni report di precisione modello
 description: Scopri le impostazioni obbligatorie e facoltative per i rapporti sulla precisione del modello.
 exl-id: 0d0e6ace-3cb3-4cf4-8cbf-3dd5a356f35e
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '1782'
 ht-degree: 0%
@@ -31,8 +31,6 @@ ht-degree: 0%
 | [!UICONTROL Scheduling and Delivery] | [!UICONTROL Report Schedule] | (Facoltativo; disponibile solo quando &quot;[!UICONTROL Save as template]&quot;) Quando eseguire il rapporto: <i>[!UICONTROL Now]</i> (per eseguire il report una sola volta; impostazione predefinita), <i>[!UICONTROL Daily]</i>, <i>[!UICONTROL Weekly on] [Giorno della settimana]</i>, o <i>[!UICONTROL Every Month] [Giorno del mese]</i>. Per tutti i periodi di tempo tranne <i>[!UICONTROL Now]</i>, seleziona l’ora nel fuso orario dell’inserzionista, a partire dalle 09:00. |
 |  | [!UICONTROL Email Recipients] | <b>Nota:</b>  Questa impostazione viene utilizzata solo quando si inviano notifiche e-mail per [!UICONTROL Reports] sono [abilitato in [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md).<br><br>Indirizzi e-mail degli utenti registrati di Search, Social e Commerce a cui inviare notifiche quando il report viene completato o annullato a causa di errori. Per impostazione predefinita, viene immesso l’indirizzo dell’account utente. Per specificare più indirizzi, separali con virgole, spazi o nuove righe. Quando è pianificata l’esecuzione ripetuta del rapporto, viene inviata una notifica ogni volta che viene completato un rapporto. |
 |  | [!UICONTROL Email Notification] | <b>Nota:</b>  Questa impostazione viene utilizzata solo quando si inviano notifiche e-mail per [!UICONTROL Reports] sono [abilitato in [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md).<br><br>(Quando [!UICONTROL Email Recipients] sono specificati) Cosa includere nelle notifiche e-mail a qualsiasi indirizzo specificato:<ul><li><i>[!UICONTROL Notification Only]</i> (impostazione predefinita): per inviare solo una notifica del completamento o dell&#39;errore del report, senza allegati. La notifica include collegamenti temporanei per il download di tutti i formati di rapporto.</li><li><i>[!UICONTROL XLS Attachment]:</i> Includere una copia del report completato in formato XLS se il file è inferiore a circa 10 MB. File superiori a 1 MB compressi.</li><li><i>[!UICONTROL TSV Attachment]:</i> Includere una copia del rapporto completato in formato TSV se il file è inferiore a circa 10 MB. File superiori a 1 MB compressi.</li><li><i>[!UICONTROL CSV Attachment]:</i> Includere una copia del rapporto completato in formato CSV se il file è inferiore a circa 10 MB. File superiori a 1 MB compressi. |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

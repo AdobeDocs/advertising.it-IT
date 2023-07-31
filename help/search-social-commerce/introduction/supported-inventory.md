@@ -3,7 +3,7 @@ title: Inventario supportato
 description: Fai riferimento alle reti di annunci supportate, ai tipi di campagne e ai tipi di annunci.
 exl-id: 25e2ccf1-4de3-4b0d-a8ef-df7001c77733
 feature: Search Introduction
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '2371'
 ht-degree: 0%
@@ -50,8 +50,6 @@ Di seguito sono riportati i tipi di reti, campagne e annunci supportati e le fun
 | [!DNL Yahoo Native] (Supporto sincronizzazione terminato nel 2022) | Rete nativa | Nativa | Testo | —<br><br>Le informazioni dell’account legacy fino al 10 marzo 2022 sono disponibili in sola lettura. | — | — | — | —<br><br>Dati legacy a livello di annuncio sincronizzati fino al 10 marzo 2022. | Dati di Analytics per Ricerca, Social e Commerce, ma non viceversa |
 | [!DNL Yandex] | Cerca rete | Ricerca | Testo | Automatico tramite API | Utilizzo di [visualizzazioni di gestione delle campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md), [bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), e [feed gestione inventario](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) | Sì | Campagne con strategia di offerta CPC | Dati a livello di annuncio | Dati di Analytics per Ricerca, Social e Commerce<br><br>Dati a livello di annuncio da Search, Social e Commerce ad Analytics |
 | | Visualizza rete | Visualizzazione/Contenuto | Testo | Automatico tramite API | Utilizzo di [visualizzazioni di gestione delle campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md), [bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), e [feed gestione inventario](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) | Sì | Campagne con strategia di offerta CPC | Dati a livello di annuncio | Dati di Analytics per Ricerca, Social e Commerce<br><br>Dati a livello di annuncio da Search, Social e Commerce ad Analytics |
-
-<table style="table-layout:auto">
 
 [^1]: per la maggior parte delle reti e dei tipi di campagne pubblicitarie, quando abiliti il &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;impostazioni di tracciamento per una campagna attiva (impostate a livello di campagna o ereditate dalle impostazioni dell’account), Search, Social e Commerce crea e carica automaticamente gli URL di tracciamento per i componenti del gruppo di annunci nella rete di annunci ogni volta che si sincronizza con essa. In caso contrario, devi generare URL di tracciamento e aggiungerli alle impostazioni dell’account, della campagna o del componente della campagna. Consulta &quot;[Quando e come generare URL di tracciamento dei clic per rete di annunci e oggetto](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md).&quot;
 
