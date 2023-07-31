@@ -4,7 +4,7 @@ user-guide-title: Guida di Advertising Search, Social e Commerce
 user-guide-description: Questa guida descrive le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire, tracciare e creare rapporti sulle campagne di annunci di ricerca, social e commerce.
 breadcrumb-title: Guida di Advertising Search, Social e Commerce
 index: true
-source-git-commit: 18d7ec2254dda9e5f94270e13476a521006ec686
+source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
 workflow-type: tm+mt
 source-wordcount: '1720'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 + [Novità](home.md)
 + [Informazioni su questa guida](help-about.md)
 + Introduzione {#intro}
-   + [Informazioni su Adobe Advertising Search, Social e Commerce](/help/search-social-commerce/introduction/about.md)
+   + [Informazioni su Adobi Advertising Search, Social e Commerce](/help/search-social-commerce/introduction/about.md)
    + [Inventario supportato](/help/search-social-commerce/introduction/supported-inventory.md)
    + Integrazione con Adobe Experience Cloud {#integrations}
       + [Integrazione con le soluzioni e i servizi Adobe Experience Cloud](/help/search-social-commerce/introduction/integrations.md)
@@ -84,12 +84,12 @@ ht-degree: 2%
       + [Il parametro di tracciamento s_kwcid](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
    + Tracciamento delle conversioni {#conversion-tracking}
       + [Opzioni di tracciamento delle conversioni](/help/search-social-commerce/tracking/conversion-tracking-about.md)
-      + Adobe Tracciamento conversione Advertising {#advertising-conversion-tracking}
+      + Adobe Advertising di tracciamento delle conversioni {#advertising-conversion-tracking}
          + [Informazioni sui tag di tracciamento delle conversioni di Adobe Advertising](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
          + [Formato dei tag di tracciamento della conversione JavaScript versione 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
          + [Formato dei tag di tracciamento della conversione JavaScript versione 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
          + [Formato dei tag di tracciamento conversione immagine](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
-         + [Tag Adobe di mappatura della conversione JavaScript per Advertising](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
+         + [Adobe Advertising di tag di mappatura della conversione JavaScript](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
          + [Domande frequenti sui tag di conversione e di tracciamento della visualizzazione pagina](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
       + [Tracciamento delle conversioni Adobe Analytics](/help/search-social-commerce/tracking/conversion-tracking-analytics.md)
       + Conversioni tracciate dagli inserzionisti tramite feed{#conversion-feeds}
@@ -247,7 +247,7 @@ ht-degree: 2%
       + [Creare una classificazione di etichette](/help/search-social-commerce/campaign-management/label-classifications/classification-create.md)
       + [Assegnare valori di classificazione ai componenti account dalle viste di gestione delle campagne](/help/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management.md)
       + [Assegnare valori di classificazione ai componenti conto utilizzando i bulksheet](/help/search-social-commerce/campaign-management/label-classifications/classification-values-assign-bulksheets.md)
-      + [Rimuovere i valori di classificazione delle etichette dai componenti dell’account](/help/search-social-commerce/campaign-management/label-classifications/classification-values-remove.md)
+      + [Rimuovi i valori di classificazione delle etichette dai componenti dell’account](/help/search-social-commerce/campaign-management/label-classifications/classification-values-remove.md)
       + [Elimina valori di classificazione delle etichette](/help/search-social-commerce/campaign-management/label-classifications/classification-values-delete.md)
       + [Eliminare le classificazioni delle etichette](/help/search-social-commerce/campaign-management/label-classifications/classification-delete.md)
    + Gestione delle risorse degli annunci {#assets}

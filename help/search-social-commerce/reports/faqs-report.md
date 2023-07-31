@@ -3,9 +3,9 @@ title: Domande frequenti sui rapporti personalizzati
 description: Scopri le risposte alle domande comuni sui rapporti sulle prestazioni, inclusa la risoluzione dei problemi relativi ai dati.
 exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
 workflow-type: tm+mt
-source-wordcount: '3919'
+source-wordcount: '3920'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ La funzionalità di ottimizzazione crea quotidianamente i propri modelli di rica
 Se non desideri che i dati del periodo influiscano sulle offerte future, puoi scegliere di escludere tali date dal modello. Contatta il team del tuo account Adobe per escludere le date.
 +++
 
-+++Posso creare un rapporto su una metrica di proprietà specifica, ad esempio [!UICONTROL Device] o [!UICONTROL Objective Name]?
++++Posso creare un rapporto su una metrica di proprietà account specifica, ad esempio [!UICONTROL Device] o [!UICONTROL Objective Name]?
 Per i rapporti sulle entità della campagna ([!UICONTROL Campaign Report], [!UICONTROL Ad Group Report], [!UICONTROL Ad Variation Report], [!UICONTROL Keyword Report], e [!UICONTROL Product Group Report]), i dati delle metriche vengono aggregati dinamicamente dalle colonne di proprietà incluse nel rapporto. Facoltativamente, è possibile rimuovere la colonna chiave per il rapporto e includere solo le colonne di proprietà per le quali si desidera aggregare i dati.
 
 Ad esempio, se generi un [!UICONTROL Keyword Report] che include [!UICONTROL Ad Group] e  Le colonne del dispositivo, quindi, per impostazione predefinita, il rapporto aggrega le metriche per ogni parola chiave per gruppo di annunci e tipo di dispositivo. Tuttavia, se si rimuove [!UICONTROL Keyword] prima di generare il rapporto, il rapporto genera dinamicamente le metriche per i gruppi di annunci specificati per tipo di dispositivo.
@@ -107,7 +107,7 @@ I problemi relativi ai dati dei ricavi possono verificarsi a causa di un problem
 Per impostazione predefinita, tutti i dati monetari nei rapporti vengono visualizzati nel formato del dollaro statunitense (ad esempio 1.000,00). Per visualizzare il valore nel formato di valuta corretto (ma senza simboli di valuta nei formati CSV e TSV), aggiungi &quot;[!UICONTROL Currency]&quot; al rapporto. Se il rapporto include dati per conti con valute diverse, qualsiasi &quot;[!UICONTROL Total]&quot;i valori monetari sono semplicemente la somma di tutti i numeri nella colonna, indipendentemente dalla valuta.
 +++
 
-+++Perché trovo valori decimali per una proprietà di transazione che deve essere un numero naturale (1, 2 e così via)?
++++Perché trovo valori decimali per una metrica di conversione che deve essere un numero naturale (1, 2 e così via)?
 È possibile che vengano visualizzati valori decimali nei seguenti casi:
 
 * Se il rapporto è stato eseguito utilizzando un parametro della regola di attribuzione di conversione diverso da [!UICONTROL Last Event] o [!UICONTROL First Event]Quindi i ricavi possono essere suddivisi tra più eventi nel percorso di conversione.
@@ -162,13 +162,13 @@ Il rapporto potrebbe non includere le metriche di conversione per le quali si so
 
 * Il tag di tracciamento della conversione non è implementato correttamente in tutte le pagine web applicabili o è stato modificato.
 
-* Le proprietà di transazione tracciate da Search, Social e Commerce sono escluse dai rapporti e non sono quindi visibili.
+* Le metriche di conversione tracciate da Search, Social e Commerce sono escluse dai rapporti e non sono quindi visibili.
 
 * Il parser dei ricavi per il client non è stato implementato.
 
 *Possibile soluzione o soluzione alternativa:*
 
-1. Verifica che nei rapporti o nelle visualizzazioni dati siano incluse le colonne corrette. Se non sono disponibili le colonne corrette da aggiungere, è necessario che tu o il team dell’account dell’Adobe [rendere le proprietà della transazione disponibili per i report](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
+1. Verifica che nei rapporti o nelle visualizzazioni dati siano incluse le colonne corrette. Se non sono disponibili le colonne corrette da aggiungere, è necessario che tu o il team dell’account dell’Adobe [rendere le metriche di conversione disponibili per i rapporti](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
 1. Verifica che i tag di tracciamento della conversione corretti siano implementati in tutte le pagine web applicabili. Se necessario, chiedi al tuo Account Team Adobe di creare una transazione di prova per ogni tag di tracciamento della conversione applicabile e di acquisire i dettagli della transazione, ad esempio `transactionid` e dettagli dal cookie (come il `trackingid`, `clickid`e così via).
 
@@ -188,7 +188,7 @@ Il rapporto potrebbe non includere le metriche di conversione per le quali si so
 
 * Il file di feed non è stato consegnato, non è stato analizzato completamente o il feed conteneva transazioni orfane.
 
-* Le proprietà di transazione pertinenti sono escluse dai rapporti e pertanto non sono visibili.
+* Le metriche di conversione pertinenti sono escluse dai rapporti e quindi non visibili.
 
 >[!NOTE]
 >
@@ -196,7 +196,7 @@ Il rapporto potrebbe non includere le metriche di conversione per le quali si so
 
 *Possibile soluzione o soluzione alternativa:*
 
-1. Verifica che nei rapporti o nelle visualizzazioni dati siano incluse le colonne corrette. Se non sono disponibili le colonne corrette da aggiungere, è necessario che tu o il team dell’account dell’Adobe [rendere le proprietà della transazione disponibili per i report](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
+1. Verifica che nei rapporti o nelle visualizzazioni dati siano incluse le colonne corrette. Se non sono disponibili le colonne corrette da aggiungere, è necessario che tu o il team dell’account dell’Adobe [rendere le metriche di conversione disponibili per i rapporti](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
 1. Esegui il [!UICONTROL Portfolio Report]. Se è vuoto, esegui [!UICONTROL Campaign Report] e [!UICONTROL Search Engine Report] per vedere se i ricavi compaiono in questi rapporti. In caso contrario, le campagne potrebbero non essere assegnate al portfolio appropriato.
 
@@ -313,8 +313,8 @@ Il [!UICONTROL Portfolio Report] mostra i dati solo per le campagne assegnate ai
 Le reti di annunci non forniscono l’identificatore necessario per attribuire i ricavi a un singolo annuncio per tali campagne. Di conseguenza, i dati sulle prestazioni a livello di annuncio non sono disponibili per questi tipi di campagna nel [!UICONTROL Ads] visualizzare o in [!UICONTROL Ad Variation Report]. Sono previste discrepanze tra il totale dei dati a livello di annuncio per una campagna e il totale dei dati per la campagna.
 +++
 
-+++In [!UICONTROL Transaction Report], come posso sapere quale proprietà di transazione proviene da un feed di dati o è tracciata dal pixel di tracciamento di Adobi Advertising?
-In un rapporto di transazione, puoi verificare se una proprietà di transazione inclusa è stata tracciata dal pixel di tracciamento dell’Adobe Advertising se includi la colonna personalizzata &quot;[!UICONTROL Tracking URL].&quot; Gli URL di tracciamento con il pixel di tracciamento di Adobe Advertising iniziano con &quot;`http://pixel.everesttech.net`.&quot;
++++In [!UICONTROL Transaction Report], come posso sapere quale metrica di conversione proviene da un feed di dati o è tracciata dal pixel di tracciamento di Adobi Advertising?
+In un rapporto di transazione, puoi capire se una metrica di conversione inclusa è stata tracciata dal pixel di tracciamento dell’Adobe Advertising se includi la colonna personalizzata &quot;[!UICONTROL Tracking URL].&quot; Gli URL di tracciamento con il pixel di tracciamento di Adobe Advertising iniziano con &quot;`http://pixel.everesttech.net`.&quot;
 +++
 
 +++I dati nel mio [!UICONTROL Transaction Report] non corrisponde ai dati nel mio [!UICONTROL Keyword Report].
