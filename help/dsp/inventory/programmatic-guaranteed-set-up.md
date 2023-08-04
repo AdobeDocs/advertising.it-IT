@@ -3,9 +3,9 @@ title: Imposta un'offerta programmatica garantita
 description: Scopri come impostare un’offerta programmatica garantita (PG) negoziata con un editore.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: d962942f-c248-4b48-97bd-baa2df3a519e
-source-git-commit: b1a772acbd9b934f2b4679d1111d56e1059e0cca
+source-git-commit: 60676d8ef022d2ed61467d7254405695d5f106b3
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Utilizzare questo metodo per tutte le altre SSP.
 
 1. [Imposta manualmente i dettagli dell’ID offerta](deal-id-create.md).
 
-1. Dopo aver salvato l’offerta, seleziona gli annunci (o pixel di tracciamento 1x1 per gli annunci gestiti dall’editore) che verranno utilizzati per l’offerta e crea un posizionamento PG predefinito, come richiesto.
+1. Dopo aver salvato l’offerta, seleziona gli annunci (o il pixel di tracciamento 1x1 per gli annunci gestiti dall’editore) che verranno utilizzati per l’offerta e crea un posizionamento PG predefinito, come richiesto.
 
    La creazione di un posizionamento PG predefinito per l’offerta è obbligatoria per consegnare il 100% del tuo acquisto. Questo tipo di posizionamento non ha un targeting, pertanto l’DSP può restituire un’offerta per ogni richiesta di offerta dell’editore.
 

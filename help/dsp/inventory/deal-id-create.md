@@ -3,7 +3,7 @@ title: Crea manualmente dettagli ID offerta
 description: Scopri come inserire manualmente i dettagli di un ID offerta.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: 9dd60e9892b02cb3d19479b007ee1a7d70a1987d
+source-git-commit: 60676d8ef022d2ed61467d7254405695d5f106b3
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
    1. Clic **[!UICONTROL Save]**.
 
-1. (Solo offerte garantite) Seleziona gli annunci da utilizzare per l’offerta (o un pixel 1x1 per gli annunci gestiti dall’editore) e crea un posizionamento programmatico garantito (PG) predefinito.
+1. (Solo offerte garantite) Seleziona gli annunci da utilizzare per l’offerta (o il pixel 1x1 per gli annunci gestiti dall’editore) e crea un posizionamento programmatico garantito (PG) predefinito.
 
    I posizionamenti PG predefiniti garantiscono che l&#39;offerta restituisca sempre un&#39;offerta per ogni richiesta di offerta. Se non crei un posizionamento PG predefinito, tutti i posizionamenti mirati all’offerta non inviano offerte a meno che non siano impostati correttamente. Dovreste sempre creare un posizionamento PG predefinito. In [!UICONTROL Placements] visualizzazione, i posizionamenti PG predefiniti hanno un [!UICONTROL Sub-type] valore colonna di &quot;[!UICONTROL PG Default].&quot;
 
