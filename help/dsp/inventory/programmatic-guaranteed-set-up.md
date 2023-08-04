@@ -3,9 +3,9 @@ title: Imposta un'offerta programmatica garantita
 description: Scopri come impostare un’offerta programmatica garantita (PG) negoziata con un editore.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: d962942f-c248-4b48-97bd-baa2df3a519e
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: b1a772acbd9b934f2b4679d1111d56e1059e0cca
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -28,13 +28,13 @@ La procedura preferita per [!DNL FreeWheel], [!DNL Google Authorized Buyers], e 
 
 1. [Accetta l&#39;offerta](deal-id-inbox-accept.md).
 
-1. Dopo aver salvato l’offerta, seleziona gli annunci che verranno utilizzati per l’offerta e crea un posizionamento predefinito programmatico garantito (PG), come richiesto.
+1. Dopo aver salvato l’offerta, seleziona gli annunci (o pixel di tracciamento 1x1 per gli annunci gestiti dall’editore) che verranno utilizzati per l’offerta e crea un posizionamento predefinito programmatico garantito (PG), come richiesto.
 
    La creazione di un posizionamento PG predefinito per l’offerta è obbligatoria per consegnare il 100% del tuo acquisto. Questo tipo di posizionamento non ha un targeting, pertanto l’DSP può restituire un’offerta per ogni richiesta di offerta dell’editore.
 
    * Se accetti una singola offerta, verrai automaticamente reindirizzato al flusso di lavoro di creazione del posizionamento predefinito PG.
 
-      Tutti [!DNL FreeWheel] Le offerte sono proposte come un&#39;unica offerta.
+     Tutti [!DNL FreeWheel] Le offerte sono proposte come un&#39;unica offerta.
 
    * Se accetti una proposta con più ID offerta PG, identifica ciascun posizionamento PG predefinito da creare. Dopo aver creato tutti i posizionamenti richiesti, il pulsante Continua è attivato.
 
@@ -48,7 +48,7 @@ Utilizzare questo metodo per tutte le altre SSP.
 
 1. [Imposta manualmente i dettagli dell’ID offerta](deal-id-create.md).
 
-1. Dopo aver salvato l’offerta, seleziona gli annunci che verranno utilizzati per l’offerta e crea un posizionamento PG predefinito, come richiesto.
+1. Dopo aver salvato l’offerta, seleziona gli annunci (o pixel di tracciamento 1x1 per gli annunci gestiti dall’editore) che verranno utilizzati per l’offerta e crea un posizionamento PG predefinito, come richiesto.
 
    La creazione di un posizionamento PG predefinito per l’offerta è obbligatoria per consegnare il 100% del tuo acquisto. Questo tipo di posizionamento non ha un targeting, pertanto l’DSP può restituire un’offerta per ogni richiesta di offerta dell’editore.
 
@@ -65,4 +65,3 @@ Utilizzare questo metodo per tutte le altre SSP.
 >* [Crea manualmente dettagli ID offerta](deal-id-create.md)
 >* [Partner SSP](ssp-partners.md)
 >* [Panoramica delle funzioni di magazzino](inventory-overview.md)
-
