@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: a616228e40df2ed49b0eb354f3c626a2076524e3
+source-git-commit: d5a291c8d1f464e1c22777512d29f4e041bb7988
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Le seguenti funzioni sono nuove o modificate di recente.
 
 | Data | Funzionalità | Descrizione | Per Ulteriori Informazioni |
 | ---- | ------- | ----------- | -------------------- |
+| 19 luglio 2023 | Inventario | È ora possibile eseguire annunci gestiti da editore per offerte programmatiche garantite con Google Authorized Buyers SSP. Ospitando i tuoi annunci direttamente con l’editore, invece che in DSP, puoi sfruttare i formati di annunci rich media personalizzati. I formati di annunci personalizzati vengono in genere eseguiti tramite prenotazioni dirette, pertanto la possibilità di selezionare annunci gestiti dall’editore in DSP consente anche di spostare i budget di prenotazione diretta all’ecosistema programmatico. | Consulta &quot;[Informazioni sulle offerte garantite programmatiche](/help/dsp/inventory/programmatic-guaranteed-about.md)&quot; e &quot;[Imposta un&#39;offerta programmatica garantita](/help/dsp/inventory/programmatic-guaranteed-set-up.md).&quot; |
 | 19 luglio 2023 | Generazione rapporti | Il nuovo [!UICONTROL Household Conversions Report] mostra le conversioni view-through a livello di famiglia in base all’indirizzo IP, anziché a livello di dispositivo/cookie. | Consulta &quot;[Informazioni sui report](/help/dsp/reports/report-about.md)&quot; e &quot;[Domande frequenti sui rapporti sulle famiglie](/help/dsp/reports/faq-household-report.md).&quot; |
 | 29 maggio 2023 | [!UICONTROL Campaigns] | Ora puoi mettere in pausa o attivare campagne, pacchetti e annunci. È già possibile sospendere e attivare i posizionamenti. | Consulta &quot;[Sospendere o attivare una campagna](/help/dsp/campaign-management/campaigns/campaign-pause-activate.md),&quot; &quot;[Sospendere o attivare un pacchetto](/help/dsp/campaign-management/packages/package-pause-activate.md),&quot; e &quot;[Sospendere o attivare un annuncio](/help/dsp/campaign-management/ads/ad-pause-activate.md).&quot; |
 | 24 maggio 2023 | [!UICONTROL Campaigns] | I posizionamenti video e gli annunci universali sono ora generalmente disponibili. | Consulta &quot;[Domande frequenti su Universal Video](/help/dsp/campaign-management/faq-universal-video.md),&quot; &quot;[Impostazioni annuncio video universale](/help/dsp/campaign-management/ads/ad-settings-universal-video.md),&quot; e &quot;[Creare un annuncio](/help/dsp/campaign-management/ads/ad-create.md).&quot; |
@@ -52,7 +53,7 @@ Le seguenti funzioni sono nuove o modificate di recente.
 |  | [!UICONTROL Ads] | (Utenti autorizzati a includere [!DNL Clearcast] numeri di orologio nei loro annunci) DSP non mostra più un errore se si utilizza un numero di orologio che è collegato a un altro annuncio. **Nota:**  La best practice prevede l’utilizzo di un numero di orologio univoco per ogni annuncio video. In caso contrario, l’editore non approverà tutti gli annunci. | — |
 |  | [!UICONTROL Deal IDs] | Il [!UICONTROL Deal ID] e altre posizioni nell’interfaccia utente riflettono il nuovo branding per [!DNL Magnite] SSP:<br><ul><li>La SSP &quot;[!DNL Tremor]&quot; ([!DNL Telaria]) è ora &quot;[!DNL Magnite CTV].&quot;</li><li>Nelle prossime settimane, [!DNL Rubicon]&quot; cambierà in &quot;[!DNL Magnite DV+],&quot; dove [!DNL DV+] sta per display, video e altri formati come l’audio.</li></ul> | Consulta &quot;[Partner SSP](/help/dsp/inventory/ssp-partners.md).&quot; |
 |  | [!DNL Freewheel] Offerte garantite programmatiche | Ora puoi inviare annunci e controllare lo stato degli annunci per [!DNL Freewheel] offerte garantite programmatiche dalla [!UICONTROL Ads] visualizzazione. In precedenza, era possibile eseguire entrambe le operazioni solo dal [!UICONTROL Deals] visualizzazione. | Consulta &quot;[Inviare un annuncio per un&#39;offerta programmatica garantita a [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)" and "[Check the Status of Ads for [!DNL Freewheel] Offerte garantite programmatiche](/help/dsp/inventory/freewheel-check-status.md).&quot; |
-| 7 ottobre 2021 | Aiuto | Tutti [Documentazione di DSP e altri annunci Adobi](https://experienceleague.adobe.com/docs/advertising.html) il [!DNL Experience League] è ora tradotto automaticamente in tutte le lingue disponibili. Per modificare la lingua visualizzata, utilizzare il menu &quot;Cambia lingua&quot; in basso a sinistra di qualsiasi pagina.<br>![Cambia lingua](/help/dsp/assets/change-language.png) |
+| 7 ottobre 2021 | Aiuto | Tutti [Documentazione dell’DSP e di altri Adobi Advertising](https://experienceleague.adobe.com/docs/advertising.html) il [!DNL Experience League] è ora tradotto automaticamente in tutte le lingue disponibili. Per modificare la lingua visualizzata, utilizzare il menu &quot;Cambia lingua&quot; in basso a sinistra di qualsiasi pagina.<br>![Cambia lingua](/help/dsp/assets/change-language.png) |
 
 {style="table-layout:auto"}
 
