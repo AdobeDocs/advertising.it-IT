@@ -4,9 +4,9 @@ user-guide-description: Scopri le integrazioni di Advertising DSP e Advertising 
 breadcrumb-title: Integrazioni con Experience Cloud
 role: User, Developer
 index: true
-source-git-commit: ab2c48798fd2f2b4306f5bde2117e3fec61b919e
+source-git-commit: 6f486ac4664ff58813d55c9c09a2d59b6bd47473
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '205'
 ht-degree: 12%
 
 ---
@@ -36,6 +36,7 @@ ht-degree: 12%
       + [Utilizzo degli ID Adobi Advertising per la creazione [!DNL Marketing Channels] Regole di elaborazione](/help/integrations/analytics/marketing-channels/mc-ids.md)
       + [Utilizzo di [!DNL Marketing Channels] con dati Adobi Advertising](/help/integrations/analytics/marketing-channels/mc-ac-data.md)
       + [Perché i dati del canale possono variare tra Adobe Advertising e [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)
+   + [Creare metriche di conversione da eVar e prop di Adobe Analytics](/help/integrations/analytics/conversion-metrics-from-evars.md)
 + Integrazione con Adobe Audience Manager {#audience-manager}
    + [Integrazioni Adobi Advertising con Adobe Audience Manager](/help/integrations/audience-manager/overview.md)
    + [Importare segmenti Audienci Manager in Adobi Advertising](/help/integrations/audience-manager/import-audiences.md)
