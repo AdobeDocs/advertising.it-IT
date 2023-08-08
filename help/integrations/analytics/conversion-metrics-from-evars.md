@@ -1,19 +1,19 @@
 ---
-title: Creare metriche di conversione da eVar e prop di Adobe Analytics
-description: Configura metriche evento di successo personalizzate utilizzando dati a livello di eVar e prop.
+title: "Creare metriche di conversione da Adobe Analytics [!DNL eVars] e prop"
+description: "Configurare metriche evento di successo personalizzate con [!DNL eVar]- e [!DNL prop]dati a livello di."
 feature: Integration with Adobe Analytics, Conversions
-source-git-commit: d4f439ad23fc386bc85d95cc1291ec668ecf1cd2
+source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
 
-# Creare metriche di conversione da eVar e prop di Adobe Analytics
+# Creare metriche di conversione da Adobe Analytics [!DNL eVars] e [!DNL props]
 
 *Per gli inserzionisti con una sola integrazione Adobi Advertising-Adobe Analytics*
 
-Puoi utilizzare le metriche degli eventi di successo per ottimizzare i pacchetti DSP e le campagne Search, Social e Commerce in base ai dati del sito Adobe Analytics che si adattano meglio agli obiettivi del tuo marchio. Puoi configurare metriche evento di successo personalizzate in base ai dati esistenti [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) e [prop](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) incanalando i dati a livello di eVar e prop in un evento. Altro [!DNL Analytics] Le metriche di, comprese quelle di conversione standard, personalizzate e riservate e quelle sul traffico, sono automaticamente disponibili in DSP e in Search, Social e Commerce.
+Puoi utilizzare le metriche degli eventi di successo per ottimizzare i pacchetti DSP e le campagne Search, Social e Commerce in base ai dati del sito Adobe Analytics che si adattano meglio agli obiettivi del tuo marchio. Puoi configurare metriche evento di successo personalizzate in base a [esistente [!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) e [tuo [!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) mediante incanalamento [!DNL eVar]- e [!DNL prop]dati a livello di in un evento. Altro [!DNL Analytics] Le metriche di, comprese quelle di conversione standard, personalizzate e riservate e quelle sul traffico, sono automaticamente disponibili in DSP e in Search, Social e Commerce.
 
 ![Esempio di utilizzo](/help/integrations/assets/a4adc-conversion-evar-example.jpg "Esempio di utilizzo")
 
@@ -43,17 +43,17 @@ La maggior parte delle seguenti attività deve essere eseguita da un [!DNL Analy
 
    1. [Creare una regola di elaborazione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.html?lang=en), utilizzando la seguente configurazione:
 
-      * Per la condizione che deve essere soddisfatta, specifica le eVar o proprietà richieste.
+      * Per la condizione che deve essere soddisfatta, specifica la [!DNL eVars] o [!DNL props].
 
         Se necessario, puoi configurare ulteriori livelli di granularità per garantire la creazione degli eventi più precisi.
 
         >[!TIP]
         >
-        >La best practice prevede l’utilizzo di un solo eVar o prop.
+        >La best practice prevede di utilizzarne solo uno [!DNL eVar] o [!DNL prop].
 
       * Per eseguire l’azione, seleziona **Imposta evento** e seleziona l’evento segnaposto.
 
-   1. In entrata [!DNL Analytics] [!DNL Analysis Workspace], [creare un progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) e richiama il nuovo evento in una tabella a forma libera per garantire che i dati vengano compilati per la metrica eVar o prop.
+   1. In entrata [!DNL Analytics] [!DNL Analysis Workspace], [creare un progetto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) e richiama il nuovo evento in una tabella a forma libera per garantire che i dati vengano compilati per il [!DNL eVar] o [!DNL prop] metrica.
 
 1. Contatta il team dell’account Adobe per sincronizzare la nuova metrica in Adobi Advertising.
 

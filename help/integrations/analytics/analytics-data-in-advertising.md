@@ -3,9 +3,9 @@ title: '[!DNL Analytics] Dati in Adobi Advertising'
 description: '[!DNL Analytics] Dati in Adobi Advertising'
 feature: Integration with Adobe Analytics
 exl-id: e11b0617-44e3-4f28-a065-aa9f6cf3eb5d
-source-git-commit: b382184072af88273570fc045d0bcebe24ed81fb
+source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ I nuovi segmenti richiedono 24-48 ore per essere visualizzati nell’Adobe Adver
 
 >[!NOTE]
 >
->* [!DNL Analytics] trasmette in Adobe Advertising gli eventi per l’eVar EF ID.  L’integrazione predefinita non supporta l’invio di metriche calcolate o altre dimensioni (eVar) in Adobi Advertising. Tuttavia, se la metrica calcolata può essere acquisita completamente in un evento personalizzato, Adobi Advertising può acquisire l’evento personalizzato.
+>* [!DNL Analytics] trasmette gli eventi per l’ID EF [!DNL eVar] in Adobi Advertising.  L’integrazione predefinita non supporta l’invio di metriche calcolate o altre dimensioni ([!DNL eVars]) in Adobe Advertising. Tuttavia, se la metrica calcolata può essere acquisita completamente in un evento personalizzato, Adobi Advertising può acquisire l’evento personalizzato.
 >* [!DNL Analytics] trasmette i dati ad Adobi Advertising ogni ora.
 
 * [!UICONTROL Timespent_secs_1stvisit]: il numero di secondi trascorsi sul sito durante la prima visita del visitatore.
@@ -56,9 +56,9 @@ I nuovi segmenti richiedono 24-48 ore per essere visualizzati nell’Adobe Adver
 
 Queste metriche sono specifiche per la suite di rapporti, pertanto le metriche disponibili variano per ciascun cliente e suite di rapporti.
 
-### Metriche di conversione personalizzate create da eVar e proprietà
+### Metriche di conversione personalizzate create da [!DNL eVars] e [!DNL Props]
 
-Le metriche disponibili variano a seconda del cliente. Consulta &quot;[Creare metriche di conversione da eVar e prop di Adobe Analytics](/help/integrations/analytics/conversion-metrics-from-evars.md).&quot;
+Le metriche disponibili variano a seconda del cliente. Consulta &quot;[Creare metriche di conversione da Adobe Analytics [!DNL eVars] e [!DNL Props]](/help/integrations/analytics/conversion-metrics-from-evars.md).&quot;
 
 ### Metriche di conversione riservate
 
