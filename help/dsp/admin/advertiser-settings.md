@@ -2,7 +2,7 @@
 title: Impostazioni account inserzionista
 description: Consulta le descrizioni delle impostazioni pubblicitarie disponibili.
 role: User, Admin
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 201eb485e196dc0823dd6d592f67f62122c214b1
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -41,9 +41,9 @@ Gli inserzionisti che utilizzano altri prodotti Adobe Experience Cloud possono c
 
 **[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Per gli inserzionisti che [!DNL Advertising Search, Social, & Commerce] o che utilizzano pixel di conversione Adobi Advertising) A [!DNL Search, Social, & Commerce] account con cui l’DSP scambierà i dati di attribuzione.
 
-**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Per gli inserzionisti che fanno uso di Adobe Analytics; facoltativo; applicabile solo ai dati raccolti utilizzando i tag di tracciamento delle conversioni di Adobe Advertising che includono un [!DNL EF Redirect] e solo token) Uno o più [!DNL Analytics] suite di rapporti a cui l’DSP invierà i dati che raccoglie dagli editori e dai partner sul lato dell’offerta. Analytics invierà all’DSP anche i dati che raccoglie dal sito del cliente.
+**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Per gli inserzionisti che fanno uso di Adobe Analytics; facoltativo; applicabile solo ai dati raccolti utilizzando i tag di tracciamento delle conversioni di Adobi Advertising che includono un [!DNL EF Redirect] e solo token) Uno o più [!DNL Analytics] suite di rapporti a cui l’DSP invierà i dati che raccoglie dagli editori e dai partner sul lato dell’offerta. Analytics invierà all’DSP anche i dati che raccoglie dal sito del cliente.
 
-Affinché i dati vengano visualizzati nelle suite di rapporti, [!DNL Search, Social, & Commerce] impostazione a livello di inserzionista su &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; deve essere abilitato. Inoltre, l&#39; [!DNL Analytics] l’account deve essere configurato per ricevere i dati da Adobe Advertising.
+Affinché i dati vengano visualizzati nelle suite di rapporti, è necessario [!DNL Search, Social, & Commerce] l&#39;impostazione a livello di inserzionista deve essere abilitata. Inoltre, l&#39; [!DNL Analytics] l’account deve essere configurato per ricevere dati da Adobi Advertising.
 
 >[!WARNING]
 >
@@ -56,7 +56,7 @@ Per ulteriori informazioni sull’integrazione con [!DNL Analytics], vedere &quo
 * Segmenti di Audience Manager
 * [!DNL Analytics] segmenti pubblicati in Adobe Experience Cloud
 * Segmenti creati con Adobe Experience Cloud [!DNL Audience Library]
-* Segmenti creati in Adobe Experience Platform e inviati ad Adobe Advertising tramite Audience Manager
+* Segmenti creati in Adobe Experience Platform e inviati ad Adobi Advertising tramite Audienci Manager
 
 La sincronizzazione iniziale richiede circa 24 ore. Successivamente, i dati vengono sincronizzati in tempo reale, con un ritardo di uno o due secondi.
 <!-- I don't think this is true anymore:
