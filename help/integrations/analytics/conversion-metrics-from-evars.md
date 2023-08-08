@@ -2,9 +2,9 @@
 title: "Creare metriche di conversione da Adobe Analytics [!DNL eVars] e prop"
 description: "Configurare metriche evento di successo personalizzate con [!DNL eVar]- e [!DNL prop]dati a livello di."
 feature: Integration with Adobe Analytics, Conversions
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: f6f3e0b3cc867b817ce40c7ba06c76885948edbe
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 *Per gli inserzionisti con una sola integrazione Adobi Advertising-Adobe Analytics*
 
-Puoi utilizzare le metriche degli eventi di successo per ottimizzare i pacchetti DSP e le campagne Search, Social e Commerce in base ai dati del sito Adobe Analytics che si adattano meglio agli obiettivi del tuo marchio. Puoi configurare metriche evento di successo personalizzate in base a [esistente [!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) e [tuo [!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) mediante incanalamento [!DNL eVar]- e [!DNL prop]dati a livello di in un evento. Altro [!DNL Analytics] Le metriche di, comprese quelle di conversione standard, personalizzate e riservate e quelle sul traffico, sono automaticamente disponibili in DSP e in Search, Social e Commerce.
+Puoi utilizzare le metriche degli eventi di successo per ottimizzare i pacchetti DSP e le campagne Search, Social e Commerce in base ai dati del sito Adobe Analytics che si adattano meglio agli obiettivi del tuo marchio. Puoi configurare metriche evento di successo personalizzate in base a [esistente [!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) e [[!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) mediante incanalamento [!DNL eVar]- e [!DNL prop]dati a livello di in un evento. Altro [!DNL Analytics] Le metriche di, comprese quelle di conversione standard, personalizzate e riservate e quelle sul traffico, sono automaticamente disponibili in DSP e in Search, Social e Commerce.
 
 ![Esempio di utilizzo](/help/integrations/assets/a4adc-conversion-evar-example.jpg "Esempio di utilizzo")
 
