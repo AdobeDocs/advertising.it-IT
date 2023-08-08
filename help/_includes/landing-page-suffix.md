@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: a1a8c1b563d419090ddbefacc55be869c1ee7bcf
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 0%
@@ -9,7 +9,7 @@ ht-degree: 0%
 
 **[!UICONTROL Landing Page Suffix]:** ([!DNL Google Ads] e [!DNL Microsoft Advertising] solo account; facoltativo) qualsiasi parametro da aggiungere alla fine degli URL finali per tenere traccia delle informazioni; include tutti i parametri che l’azienda deve monitorare. Esempio: `param1=value1&param2=value2`
 
-Gli account che utilizzano il tracciamento delle conversioni di Adobe Advertising devono includere l’identificatore di clic della rete di annunci (`gclid` per [!DNL Google Ads] o `msclkid` per [!DNL Microsoft Advertising]) nel suffisso.
+Gli account che utilizzano il tracciamento delle conversioni di Adobi Advertising devono includere l’identificatore di clic della rete di annunci (`gclid` per [!DNL Google Ads] o `msclkid` per [!DNL Microsoft Advertising]) nel suffisso.
 
 Gli account con un’integrazione Adobe Analytics devono utilizzare il parametro s_kwcid. Se l’account dispone di un’implementazione s_kwcid lato server, il parametro viene aggiunto automaticamente quando un utente fa clic su un annuncio; in caso contrario, è necessario aggiungerlo manualmente qui. Consulta la [formati di suffisso richiesti per Google Ads](/help/search-social-commerce/tracking/formats-click-tracking-google.md) e [formati di suffisso richiesti per Microsoft Advertising](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
