@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: e5874077-d2a8-43bb-ad4e-55547442c8a4
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: 45e9e52f1eff2e60eb03b930b6902b97e2d452dc
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Le seguenti funzioni sono nuove o modificate di recente.
 
 | Data | Funzionalità | Descrizione | Per Ulteriori Informazioni |
 | ---- | ------- | ----------- | -------------------- |
-| 8 agosto 2023 | [!DNL Analytics for Advertising] | Alcuni [!DNL Analytics] le metriche degli eventi di successo, comprese le metriche di conversione standard, personalizzate e riservate e le metriche del traffico, sono automaticamente disponibili in DSP e Search, Social e Commerce. Ora puoi anche configurare le tue metriche di successo in base alle esistenti [!DNL Analytics] [!DNL eVars] e [!DNL props] mediante incanalamento [!DNL eVar]- e [!DNL prop]dati a livello di in un evento di successo personalizzato. | Consulta &quot;[Creare metriche di conversione da Adobe Analytics [!DNL eVars] e [!DNL Props]](/help/integrations/analytics/conversion-metrics-from-evars.md).&quot; |
+| 8 agosto 2023 | [!DNL Analytics for Advertising] | Alcuni [!DNL Analytics] le metriche degli eventi di successo, comprese le metriche di conversione standard, personalizzate e riservate e le metriche del traffico, sono automaticamente disponibili in DSP e in Search, Social e Commerce. Ora puoi anche configurare le tue metriche di successo in base alle esistenti [!DNL Analytics] [!DNL eVars] e [!DNL props] mediante incanalamento [!DNL eVar]- e [!DNL prop]dati a livello di in un evento di successo personalizzato. | Consulta &quot;[Creare metriche di conversione da Adobe Analytics [!DNL eVars] e [!DNL Props]](/help/integrations/analytics/conversion-metrics-from-evars.md).&quot; |
 | 13 luglio 2023 | Generazione rapporti | (utenti DSP con [!DNL Analytics for Advertising]) Le conversioni view-through per i posizionamenti di TV collegata (CTV) sono ora incluse nei dati di conversione disponibili in Adobe Analytics. | Consulta la sezione su &quot;Esempi di come utilizzare l’integrazione&quot; in &quot;[Panoramica di [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md#integration-examples).&quot; |
 | novembre 2022 | Aiuto | Un nuovo documento spiega come implementare la condivisione dei segnali di click-through e view-through tra Advertising DSP e Adobe Target, configurare un’attività di test A/B in [!DNL Target] per gli annunci DSP e come impostare Adobe Analytics Analysis Workspace per visualizzare i dati di test. | Consulta &quot;[Configurare i test A/B in Adobe Target per la pubblicità degli annunci DSP](/help/integrations/target/overview-ab-tests.md).&quot; |
 | 17 agosto 2022 | Aiuto | Un nuovo capitolo spiega tutti i modi in cui Adobi Advertising è integrato con Adobe Audience Manager. | Consulta il capitolo su &quot;Integrazione con Adobe Audience Manager&quot;, inclusa una panoramica di &quot;[Integrazioni Adobi Advertising con Adobe Audience Manager](/help/integrations/audience-manager/overview.md).&quot; |
