@@ -3,9 +3,9 @@ title: Informazioni sulla gestione delle campagne in Search, Social e Commerce
 description: Scopri le funzioni di gestione delle campagne in Search, Social e Commerce.
 exl-id: e6fca48d-1f6c-4d36-a10d-e1a5db859a37
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: d23b5a3c56c35fc5abbeafde681b9f584bf1c905
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Per ulteriori informazioni sul tracciamento, consulta il capitolo su &quot;Tracc
 
 Per [reti di annunci e tipi di campagne supportati](/help/search-social-commerce/introduction/supported-inventory.md), puoi raggruppare le campagne in portfolio, ciascuno con un obiettivo di business specifico e un target di budget o prestazioni specifico. Nei portfolio standard, Search, Social e Commerce ottimizzano le offerte basate su parole chiave CPC e il budget delle campagne. I portfolio ibridi combinano tecnologie di ottimizzazione provenienti da Search, Social, &amp; Commerce e dalle reti pubblicitarie.
 
-Per ulteriori informazioni sulle opzioni di portfolio disponibili e su come impostare i portfolio, consulta il capitolo sulla guida all’ottimizzazione dedicato alla &quot;gestione dei Portfoli&quot;, disponibile in Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
+Per ulteriori informazioni sulle opzioni del portfolio disponibili e su come impostare i portfolio, consulta il capitolo della Guida all’ottimizzazione sui &quot;Portfoli&quot;, disponibile in Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 ## Visualizzazioni di gestione delle campagne
 

@@ -3,9 +3,9 @@ title: Assegnare campagne a un portfolio
 description: Scopri come includere le campagne nei portfolio per l’ottimizzazione.
 exl-id: ecf9f45f-5e90-4acb-a880-21fd8c96499d
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: a041b44550b56a01d817d8e1bc9d91a025a4e721
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 L’assegnazione di una campagna a un portfolio ottimizzato consente a Search, Social e Commerce di ottimizzare le offerte e il budget delle campagne per parole chiave e annunci nella campagna. Puoi assegnare le campagne a un portfolio da [!UICONTROL Campaigns] visualizzazione, quando si crea il portfolio o modificandone le impostazioni.
 
-Non tutti i tipi di campagne e le reti pubblicitarie possono essere ottimizzati; consulta un elenco di [tipi di campagna supportati](/help/search-social-commerce/introduction/supported-inventory.md) che puoi includere in un portfolio. Inoltre, verifica il supporto all’ottimizzazione per ogni strategia di offerta della campagna consultando &quot;Tipi di Portfolio idonei per strategia di offerta della campagna&quot; nel capitolo della Guida all’ottimizzazione sulla &quot;Gestione dei Portfoli&quot;, disponibile all’interno di Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
+Non tutti i tipi di campagne e le reti pubblicitarie possono essere ottimizzati; consulta un elenco di [tipi di campagna supportati](/help/search-social-commerce/introduction/supported-inventory.md) che puoi includere in un portfolio. Inoltre, verifica il supporto all’ottimizzazione per ogni strategia di offerta della campagna consultando &quot;Tipi di Portfolio idonei per strategia di offerta della campagna&quot; nel capitolo della Guida all’ottimizzazione dedicato ai &quot;Portfoli&quot;, disponibile in Ricerca, Social e Commercio.<!-- verify convention for referencing Optimization Guide here -->
 
 >[!NOTE]
 >

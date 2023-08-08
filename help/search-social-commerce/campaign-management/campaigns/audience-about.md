@@ -3,7 +3,7 @@ title: Informazioni sui tipi di pubblico
 description: Scopri le opzioni di tracciamento, creazione e gestione [!DNL Google Ads] e [!DNL Microsoft® Advertising] pubblico.
 exl-id: 34169650-9820-4b7d-9ae6-09ff8a8c6f2e
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 9f30518efbbe29f976298fe1fcd962182285679f
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Puoi anche creare e gestire i tipi di pubblico utilizzando segmenti o elenchi e-
 
    * (Per gli inserzionisti con account Audienci Manager) Puoi creare [!DNL Google Ads] i clienti abbinano i tipi di pubblico utilizzando gli ID utente dei segmenti Audienci Manager che hanno come destinazione Ricerca, Social e Commerce. Possono essere inclusi i segmenti di Adobe Analytics pubblicati in Adobe Experience Cloud e i segmenti creati utilizzando la Libreria tipi di pubblico di Adobe Experience Cloud.
 
-  Per creare un pubblico in base ai clienti, l’ dell’inserzionista [!DNL Google Ads] l&#39;account deve essere [idoneo per la corrispondenza personalizzata](https://support.google.com/adspolicy/answer/6299717) e ha acconsentito [segmenti ID utente](https://support.google.com/google-ads/answer/9199250). Inoltre, l’account dell’inserzionista in Search, Social &amp; Commerce deve essere configurato per consentire la creazione di tipi di pubblico in base ai clienti.<!-- For Analytics audiences: Analytics Only Integration. For Audience Manager, Enable CM/CRM option) -->
+  Per creare un pubblico in base ai clienti, l’ dell’inserzionista [!DNL Google Ads] l&#39;account deve essere [idoneo per la corrispondenza personalizzata](https://support.google.com/adspolicy/answer/6299717) e ha acconsentito [segmenti ID utente](https://support.google.com/google-ads/answer/9199250). Inoltre, l’account dell’inserzionista in Search, Social &amp; Commerce deve essere configurato per consentire la creazione di tipi di pubblico in base ai clienti.
 
   [!DNL Adobe] i dati dei segmenti e i file di sincronizzazione dei cookie per i tipi di pubblico basati su dati del cliente vengono sincronizzati in [!DNL Google Ads] ogni giorno.
 
