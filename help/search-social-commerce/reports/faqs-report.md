@@ -3,9 +3,9 @@ title: Domande frequenti sui rapporti personalizzati
 description: Scopri le risposte alle domande comuni sui rapporti sulle prestazioni, inclusa la risoluzione dei problemi relativi ai dati.
 exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
 feature: Search Reports
-source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
+source-git-commit: 68fb5d737b76e7b388f15a2fdd1f57ce9cd6a3e2
 workflow-type: tm+mt
-source-wordcount: '3920'
+source-wordcount: '3912'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ Di seguito sono riportati i motivi comuni della mancanza di dati di clic.
 
 | Causa | Rilevamento/analisi | Risoluzione |
 |---|---|---|
-| Il processo che recupera i dati di clic dall’account dell’annuncio non è riuscito. | Non esiste un modo sistematico per rilevare questo problema, ma puoi notare che una campagna non mostra informazioni sui costi o sui clic, anche se l’account dell’annuncio ha speso denaro. | Contatta l&#39;Assistenza clienti all&#39;indirizzo &lt;*il tuo account utente di Search, Social &amp; Commerce*>@support\.efrontier\.com.<!-- Escaped periods and using HTML code for angle brackets --><br><br>Se i dati mancano per più di 24 ore, escludi tali date dalle previsioni di costo fino a quando i dati non vengono recuperati. Il team del tuo account Adobe può escludere le date. |
+| Il processo che recupera i dati di clic dall’account dell’annuncio non è riuscito. | Non esiste un modo sistematico per rilevare questo problema, ma puoi notare che una campagna non mostra informazioni sui costi o sui clic, anche se l’account dell’annuncio ha speso denaro. | Contatta il team del tuo account Adobe.<br><br>Se i dati mancano per più di 24 ore, escludi tali date dalle previsioni di costo fino a quando i dati non vengono recuperati. Il team del tuo account Adobe può escludere le date. |
 | Un problema di fatturazione tra l’inserzionista e la rete di annunci impedisce all’account dell’annuncio di spendere. | Non esiste un modo sistematico per rilevare questo problema, ma potresti notare che una campagna non mostra alcun costo o informazioni sui clic. | Se sai che un account dell’annuncio non è stato in grado di spendere a causa di un problema di fatturazione, escludi tali date dalle previsioni di costo. Il team del tuo account Adobe può escludere le date. |
 +++
 

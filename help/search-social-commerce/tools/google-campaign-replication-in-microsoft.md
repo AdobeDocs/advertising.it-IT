@@ -3,9 +3,9 @@ title: Replica [!DNL Google Ads] campagne in [!DNL Microsoft® Advertising]
 description: Scopri come esportare le campagne sincronizzate in una [!DNL Google Ads] account direttamente in un file sincronizzato [!DNL Microsoft® Advertising] account.
 exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
 feature: Search Tools
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f857da54ff75ba7b8065b8c08d6d28eb54445b48
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,7 @@ Puoi elencare tutti i processi di importazione completati o non riusciti, inclus
 
 **[!UICONTROL Credential ID]:** Un ID che [!DNL Microsoft® Advertising] utilizza per rappresentare il [!DNL Google Ads] credenziali.
 
-Generazione automatica di [!DNL Microsoft® Advertising] credenziali per l&#39;importazione non disponibili a causa di [!DNL Microsoft® Advertising] limitazioni. Contatta il supporto tecnico Adobe o il team dell’account Adobe, che genererà le credenziali e ti fornirà l’ID.
+Generazione automatica di [!DNL Microsoft® Advertising] credenziali per l&#39;importazione non disponibili a causa di [!DNL Microsoft® Advertising] limitazioni. Contatta il tuo Account Team di Adobi, che genererà le credenziali e ti fornirà l’ID.
 
 **[!UICONTROL Target Microsoft® Ads account]:** Il [!DNL Microsoft® Advertising] account in cui vengono importati i dati della campagna.
 
