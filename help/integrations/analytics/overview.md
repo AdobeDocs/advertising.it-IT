@@ -3,7 +3,7 @@ title: Panoramica di [!DNL Analytics for Advertising]
 description: Panoramica di [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: 2903bf783969b3e2d59c0933629cbb170c0a314c
 workflow-type: tm+mt
 source-wordcount: '1194'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Puoi utilizzare gli eventi standard e gli eventi personalizzati da [!DNL Analyti
 >
 > Impossibile mappare le metriche calcolate da [!DNL Analytics] in Adobi Advertising.
 
-Il team di Adobe Advertising ti aiuterà a identificare e mappare gli eventi applicabili alle prestazioni dei contenuti multimediali a pagamento in Adobi Advertising, dove verranno visualizzati in [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Transaction Properties].
+Il team di Adobe Advertising ti aiuterà a identificare e mappare gli eventi applicabili alle prestazioni dei contenuti multimediali a pagamento in Adobi Advertising, dove verranno visualizzati in [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Conversions].
 
 Consulta &quot;[Metriche di Analytics in Adobi Advertising](analytics-data-in-advertising.md)&quot; per un elenco delle metriche disponibili.
 

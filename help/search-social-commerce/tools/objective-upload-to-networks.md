@@ -3,7 +3,7 @@ title: Abilita il caricamento degli obiettivi nelle reti di annunci
 description: Scopri come caricare gli obiettivi per i portfolio ibridi in [!DNL Google Ads] e [!DNL Microsoft® Advertising].
 exl-id: 75a1a804-ad6a-4dbc-9cde-30fe54476162
 feature: Search Tools
-source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -36,5 +36,5 @@ Carica in [!DNL Google Ads] si verifica ogni giorno alle 06:00 nel fuso orario d
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sulla gestione delle proprietà di transazione di un inserzionista](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md)
+>* [Informazioni sulla gestione delle metriche di conversione di un inserzionista](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
 >* [Carica metriche di conversione in [!DNL Google Ads]](conversion-metrics-upload-to-google.md)

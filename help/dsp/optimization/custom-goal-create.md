@@ -3,7 +3,7 @@ title: Creare un obiettivo personalizzato
 description: Creare un obiettivo personalizzato
 feature: DSP Optimization
 exl-id: 81b0acfa-085d-495b-9516-576b952b1307
-source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Per creare un obiettivo personalizzato, l’account DSP deve essere collegato a 
 
 1. Accedi a [!DNL Advertising Search, Social, & Commerce] at (utenti in Nord America) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) o (tutti gli altri utenti) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
 1. Assicurati che le metriche da includere nell’obiettivo siano state tracciate, siano disponibili nel prodotto e includano un nome visualizzato:
-   1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Transaction Properties]**.
+   1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
    1. Individua la metrica e assicurati che **[!UICONTROL Show in UI and Reports]** è abilitato per la metrica.
    1. Se la metrica non ha un valore in **[!UICONTROL Display Name]** , fare clic nella cella, immettere il nome visualizzato e quindi fare clic su **[!UICONTROL Apply].**
 1. Creare l’obiettivo personalizzato come *obiettivo*:

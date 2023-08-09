@@ -3,7 +3,7 @@ title: Panoramica dell’implementazione di account e campagne di ad network
 description: Scopri le attività necessarie per configurare, sincronizzare e gestire gli account di rete degli annunci.
 exl-id: 401c5ebb-258c-4614-96e8-ca604fc698c0
 feature: Search Campaign Management
-source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Questa pagina include informazioni su tutti i tipi di account, inclusa la modali
 
    Per ulteriori informazioni sui portfolio, consulta la Guida all’ottimizzazione, disponibile in Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
-1. (Se vengono tracciate nuove conversioni per l’inserzionista) [Rendere disponibili le conversioni](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md) per rapporti, viste di gestione delle campagne e obiettivi di portfolio.
+1. (Se vengono tracciate nuove conversioni per l’inserzionista) [Rendere disponibili le conversioni](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) per rapporti, viste di gestione delle campagne e obiettivi di portfolio.
 
 1. Per ogni campagna, verifica che Search, Social e Commerce riceva i dati sui clic e sui costi dalla rete di annunci e convalida i dati sui ricavi mostrati in Search, Social e Commerce con i dati sui ricavi dell’inserzionista.
 

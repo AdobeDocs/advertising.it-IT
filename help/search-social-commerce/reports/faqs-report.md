@@ -3,7 +3,7 @@ title: Domande frequenti sui rapporti personalizzati
 description: Scopri le risposte alle domande comuni sui rapporti sulle prestazioni, inclusa la risoluzione dei problemi relativi ai dati.
 exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
 feature: Search Reports
-source-git-commit: 68fb5d737b76e7b388f15a2fdd1f57ce9cd6a3e2
+source-git-commit: 2903bf783969b3e2d59c0933629cbb170c0a314c
 workflow-type: tm+mt
 source-wordcount: '3912'
 ht-degree: 0%
@@ -168,7 +168,7 @@ Il rapporto potrebbe non includere le metriche di conversione per le quali si so
 
 *Possibile soluzione o soluzione alternativa:*
 
-1. Verifica che nei rapporti o nelle visualizzazioni dati siano incluse le colonne corrette. Se non sono disponibili le colonne corrette da aggiungere, è necessario che tu o il team dell’account dell’Adobe [rendere le metriche di conversione disponibili per i rapporti](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
+1. Verifica che nei rapporti o nelle visualizzazioni dati siano incluse le colonne corrette. Se non sono disponibili le colonne corrette da aggiungere, è necessario che tu o il team dell’account dell’Adobe [rendere le metriche di conversione disponibili per i rapporti](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
 
 1. Verifica che i tag di tracciamento della conversione corretti siano implementati in tutte le pagine web applicabili. Se necessario, chiedi al tuo Account Team Adobe di creare una transazione di prova per ogni tag di tracciamento della conversione applicabile e di acquisire i dettagli della transazione, ad esempio `transactionid` e dettagli dal cookie (come il `trackingid`, `clickid`e così via).
 
@@ -196,7 +196,7 @@ Il rapporto potrebbe non includere le metriche di conversione per le quali si so
 
 *Possibile soluzione o soluzione alternativa:*
 
-1. Verifica che nei rapporti o nelle visualizzazioni dati siano incluse le colonne corrette. Se non sono disponibili le colonne corrette da aggiungere, è necessario che tu o il team dell’account dell’Adobe [rendere le metriche di conversione disponibili per i rapporti](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
+1. Verifica che nei rapporti o nelle visualizzazioni dati siano incluse le colonne corrette. Se non sono disponibili le colonne corrette da aggiungere, è necessario che tu o il team dell’account dell’Adobe [rendere le metriche di conversione disponibili per i rapporti](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
 
 1. Esegui il [!UICONTROL Portfolio Report]. Se è vuoto, esegui [!UICONTROL Campaign Report] e [!UICONTROL Search Engine Report] per vedere se i ricavi compaiono in questi rapporti. In caso contrario, le campagne potrebbero non essere assegnate al portfolio appropriato.
 

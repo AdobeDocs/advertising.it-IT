@@ -4,9 +4,9 @@ user-guide-title: Guida di Advertising Search, Social e Commerce
 user-guide-description: Questa guida descrive le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire, tracciare e creare rapporti sulle campagne di annunci di ricerca, social e commerce.
 breadcrumb-title: Guida di Advertising Search, Social e Commerce
 index: true
-source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
+source-git-commit: 8cb7e92d674466653b67ed5502883630ad633eb2
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1728'
 ht-degree: 2%
 
 ---
@@ -404,10 +404,12 @@ ht-degree: 2%
       + [Autentica di nuovo un [!DNL Google Analytics] origine dati](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)
       + [[!DNL Google Analytics] impostazioni origine dati](/help/search-social-commerce/admin/data-sources/data-source-settings.md)
       + [Appendice - Disponibile [!DNL Google Analytics] metriche](/help/search-social-commerce/admin/data-sources/data-source-ga-metrics.md)
-   + Gestione delle proprietà di transazione di un inserzionista{#transaction-properties}
-      + [Informazioni sulla gestione delle proprietà di transazione di un inserzionista](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md)
-      + [Visualizzare le proprietà della transazione tracciate per un inserzionista](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.md)
-      + [Modificare le proprietà della transazione disponibili nelle visualizzazioni e nei report di gestione](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md)
-      + [Modificare il nome visualizzato per una proprietà di transazione](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md)
+   + Gestione delle metriche di conversione di un inserzionista{#conversion-metrics}
+      + [Informazioni sulla gestione delle metriche di conversione di un inserzionista](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
+      + [Visualizzare le metriche di conversione tracciate per un inserzionista](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
+      + [Modificare le metriche di conversione disponibili nelle visualizzazioni e nei rapporti di gestione](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)
+      + [Modificare il nome visualizzato di una metrica di conversione](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)
+      + Gestione dei tag di conversione {#conversion-tags}
+         + [Creare un tag di conversione per [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)
 + [Ottieni aiuto](get-help.md)
 + [Glossario](glossary.md)

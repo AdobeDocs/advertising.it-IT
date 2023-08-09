@@ -4,7 +4,7 @@ description: Scopri come configurare un’origine dati da un [!DNL Google Analyt
 role: User, Admin
 exl-id: 583cf9aa-861c-4faf-a707-1def4e983b93
 feature: Search Admin, Search Data Sources
-source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Per integrare le metriche per più proprietà o per più viste per una singola p
 
    L&#39;origine dati è denominata &quot;AccountName > PropertyName > ViewName&quot; e viene attivata automaticamente. Per mettere in pausa l’origine dati, vedi &quot;[Sospendere un feed da un’origine dati](data-source-pause.md).&quot;
 
-   Le metriche sono disponibili il giorno successivo al completamento della sincronizzazione dati giornaliera, che inizia alle 05:00 nel fuso orario dell’inserzionista. Una volta disponibili, le metriche sono visibili in [[!UICONTROL Admin] > [!UICONTROL Transaction Properties]](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md). Ogni nuova metrica di conversione è denominata &quot;`ga:backEndMetricName_propertyID_viewID`,&quot; dove &quot;backEndMetricName&quot; è il nome della metrica utilizzato dall’API. Il nome visualizzato per ogni nuova metrica di conversione è &quot;`friendlyMetricName_ga:MetricTag`,&quot; dove &quot;friendlyMetricName&quot; è il nome della metrica visualizzato in [!DNL Google Analytics] e &quot;MetricTag&quot; è il [!UICONTROL Metric Tag] definito nelle impostazioni dell’origine dati.
+   Le metriche sono disponibili il giorno successivo al completamento della sincronizzazione dati giornaliera, che inizia alle 05:00 nel fuso orario dell’inserzionista. Una volta disponibili, le metriche sono visibili in [[!UICONTROL Admin] > [!UICONTROL Conversions]](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md). Ogni nuova metrica di conversione è denominata &quot;`ga:backEndMetricName_propertyID_viewID`,&quot; dove &quot;backEndMetricName&quot; è il nome della metrica utilizzato dall’API. Il nome visualizzato per ogni nuova metrica di conversione è &quot;`friendlyMetricName_ga:MetricTag`,&quot; dove &quot;friendlyMetricName&quot; è il nome della metrica visualizzato in [!DNL Google Analytics] e &quot;MetricTag&quot; è il [!UICONTROL Metric Tag] definito nelle impostazioni dell’origine dati.
 
    Puoi aggiungere le metriche direttamente alle viste di gestione delle campagne e del portfolio, ai rapporti e agli obiettivi di ottimizzazione.
 

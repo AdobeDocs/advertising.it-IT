@@ -3,7 +3,7 @@ title: Integrazione con le soluzioni e i servizi Adobe Experience Cloud
 description: Scopri le integrazioni di Search, Social e Commerce con le soluzioni e i servizi Adobe Experience Cloud.
 exl-id: e8b521f5-f426-4c50-9df4-361a047c9ff0
 feature: Search Introduction
-source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Advertising Search, Social e Commerce è integrato con quanto segue [!DNL Adobe]
 
      >[!NOTE]
      >
-     >Per impostazione predefinita, il [!DNL Analytics] Le metriche non sono visibili nelle schermate Search, Social e Commerce. Devi specificare in modo esplicito [rendere le metriche disponibili nelle viste, nei portfolio e nei rapporti di gestione delle campagne](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md) dopo il [!DNL Adobe] il team di implementazione ha configurato alcuni eventi standard o personalizzati da passare all’Adobe Advertising. Facoltativamente, puoi modificare i nomi delle metriche visualizzate (senza modificarli in [!DNL Analytics]). Puoi rendere le metriche visualizzabili nell’interfaccia utente e rinominarle da [!UICONTROL Admin] > [!UICONTROL Transaction Properties].
+     >Per impostazione predefinita, il [!DNL Analytics] Le metriche non sono visibili nelle schermate Search, Social e Commerce. Devi specificare in modo esplicito [rendere le metriche disponibili nelle viste, nei portfolio e nei rapporti di gestione delle campagne](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) dopo il [!DNL Adobe] il team di implementazione ha configurato alcuni eventi standard o personalizzati da passare all’Adobe Advertising. Facoltativamente, puoi modificare i nomi delle metriche visualizzate (senza modificarli in [!DNL Analytics]). Puoi rendere le metriche visualizzabili nell’interfaccia utente e rinominarle da [!UICONTROL Admin] > [!UICONTROL Conversions].
 
    * Inserzionisti con [!DNL Analytics] ma non Audience Manager può [creare [!DNL Google Ads] audience di corrispondenza cliente](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md) da [!DNL Analytics] segmenti condivisi con Adobe Experience Cloud. Per essere idoneo, un inserzionista deve implementare [Servizio Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html) e distribuire un tag sui propri siti web. Puoi quindi utilizzare i tipi di pubblico in [!DNL Google Ads] campagne a livello di campagna o di gruppo di annunci [target](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) o [esclusioni](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md).
 
