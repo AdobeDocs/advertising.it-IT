@@ -2,9 +2,9 @@
 title: Ottieni aiuto
 description: Scopri come visualizzare la guida online e le risorse della community e come ottenere supporto tecnico.
 exl-id: 956117ea-9e3e-4ee0-b6cf-67ee5f2bc77a
-source-git-commit: e0bcead14a3638ee013925336b38382ab205d69d
+source-git-commit: 56d6c890616c23ec64234705d84dddb41442eb87
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -29,15 +29,14 @@ ht-degree: 0%
 
 Cerca le risposte alle tue domande in [Forum della community Adobi Advertising](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising-cloud/ct-p/adobe-advertising-cloud-community).
 
-## Adobe di contatto
+## Contatto [!DNL Adobe]
 
-| Per... | Contattaci all’indirizzo |
-| ---- | ---- |
-| Problemi relativi a prodotti o account di Search, Social e Commerce | Contatta il team del tuo account Adobe. |
-| Feedback su Ricerca, Social e Commerce | Nel menu principale, fai clic su ![Aiuto](/help/search-social-commerce/assets/help-main-menu.png "Aiuto") > **[!UICONTROL Provide Feedback]**, immettere il messaggio e quindi fare clic su **[!UICONTROL Send Feedback]**. |
+Per problemi relativi a prodotti o account di Search, Social e Commerce, effettua una delle seguenti operazioni:
 
-### Informazioni da includere per problemi relativi al prodotto
+* Contatta il team del tuo account Adobe.
 
-Fornisci i passaggi dettagliati per riprodurre il problema, il nome e la versione del browser, tutti i dati rilevanti e le informazioni sulla risoluzione preliminare dei problemi eseguita.
+* Nel menu principale, fai clic su ![Aiuto](/help/search-social-commerce/assets/help-main-menu.png "Aiuto") > **[!UICONTROL Provide Feedback]**, immettere il messaggio e quindi fare clic su **[!UICONTROL Send Feedback]**. |
+
+Fornire i passaggi dettagliati per riprodurre il problema, tutti i dati rilevanti e le informazioni sulla risoluzione preliminare dei problemi eseguita. Se stai segnalando il problema al tuo Account Team Adobe, includi anche il nome e la versione del browser.
 
 Per i problemi relativi ai rapporti, non eliminare il rapporto e fornisci il nome e l’URL del rapporto.
