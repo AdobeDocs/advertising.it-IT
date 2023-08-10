@@ -2,7 +2,7 @@
 title: Creare un tag di conversione per [!DNL Google Ads]
 description: Scopri come creare un [!DNL Google Ads] tag di conversione.
 feature: Conversions
-source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
+source-git-commit: 8f08151013ec63df14843733a0c83badcceba4c3
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Una volta aggiunti i tag al sito web e che iniziano a essere attivati, [!DNL Goo
 
 **[!UICONTROL Conversion Name]:** Un nome univoco per la metrica di conversione.
 
-**\[Categoria obiettivo\]:** Obiettivo di conversione. Gli obiettivi disponibili variano in base al tipo di conversione. Per *[!UICONTROL Calls to a phone number on your website]* e *[!UICONTROL Clicks to your number on your mobile website]*, &quot;[!UICONTROL Phone Call Lead]&quot; è selezionato per impostazione predefinita.
+**\[Categoria obiettivo\]:** La categoria di conversione. Le categorie disponibili variano in base al tipo di conversione. Per *[!UICONTROL Calls to a phone number on your website]* e *[!UICONTROL Clicks to your number on your mobile website]*, &quot;[!UICONTROL Phone Call Lead]&quot; è selezionato per impostazione predefinita.
 
 **\[Tipo azione\]:** Se l’obiettivo è un *[!UICONTROL Primary action used for bidding optimization]* o un *[!UICONTROL Secondary action not used for bidding optimization]*.
 
