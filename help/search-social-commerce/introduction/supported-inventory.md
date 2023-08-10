@@ -3,7 +3,7 @@ title: Inventario supportato
 description: Fai riferimento alle reti di annunci supportate, ai tipi di campagne e ai tipi di annunci.
 exl-id: 25e2ccf1-4de3-4b0d-a8ef-df7001c77733
 feature: Search Introduction
-source-git-commit: c296766697903d7cb95ca59ca6b4c375629ddd2b
+source-git-commit: 703cda43e96dfa9d80bbce2d64192fc461d5dbae
 workflow-type: tm+mt
 source-wordcount: '2373'
 ht-degree: 0%
@@ -57,4 +57,4 @@ Di seguito sono riportati i tipi di reti, campagne e annunci supportati e le fun
 
 [^3]: richiede un’integrazione con Adobe Analytics. Consulta &quot;[Panoramica di Analytics, ad Adobe Advertising](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html).&quot;
 
-[^4]: [!DNL Analytics] I dati vengono inviati a Search, Social e Commerce utilizzando il parametro di tracciamento dell’AMO ID aggiornato (s_kwcid), indipendentemente dal formato AMO ID normalmente utilizzato per l’account. Se utilizzi normalmente la versione precedente dell’AMO ID, ti consigliamo di effettuare l’aggiornamento al nuovo formato AMO ID per una migliore esperienza. Tuttavia, anche se i dati relativi a clic/costi e ricavi vengono tracciati utilizzando AMO ID diversi, entrambi i set di dati sono completamente classificati e aggregati nella stessa campagna e nello stesso account.
+[^4]: [!DNL Analytics] I dati vengono inviati a Search, Social e Commerce utilizzando il parametro di tracciamento dell’AMO ID aggiornato (che inizia con `s_kwcid`), indipendentemente dal formato AMO ID normalmente utilizzato per l’account. Se utilizzi normalmente la versione precedente dell’AMO ID, ti consigliamo di effettuare l’aggiornamento al nuovo formato AMO ID per una migliore esperienza. Tuttavia, anche se i dati relativi a clic/costi e ricavi vengono tracciati utilizzando AMO ID diversi, entrambi i set di dati sono completamente classificati e aggregati nella stessa campagna e nello stesso account.

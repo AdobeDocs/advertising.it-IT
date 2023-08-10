@@ -3,9 +3,9 @@ title: Glossario
 description: Cfr. definizioni dei termini chiave.
 exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
 feature: Search Introduction
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2024'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 **gruppo di annunci:** Un set di annunci e le relative parole chiave, posizionamenti e gruppi di prodotti per una campagna.
 
 **variante annuncio:** Qualsiasi annuncio all’interno di un gruppo di annunci o di una strategia pubblicitaria.
+
+**AMO ID:** Codice di tracciamento che consente ad Adobi Advertising di condividere i dati sulle campagne con Adobe Analytics. Inizia con `s_kwcid=`.
 
 **unità di offerta:** Termine di ricerca, social e commerce per un’unità in cui vengono presentate le offerte. Per la maggior parte delle campagne sulla maggior parte delle reti, si tratta di una parola chiave e del relativo tipo di corrispondenza per una campagna di ricerca o di contenuto, un gruppo di prodotti a livello di unità (il livello di suddivisione più basso) per una campagna di acquisto o un target di ricerca dinamica per una campagna di annunci di ricerca dinamica. Quando la stessa combinazione di parola chiave e tipo di corrispondenza, lo stesso gruppo di prodotti o lo stesso target di ricerca dinamica si verifica all’interno di più gruppi di annunci in una singola campagna, tutte le istanze sono considerate la stessa unità di offerta e quindi hanno la stessa offerta.
 
@@ -166,7 +168,7 @@ Questo ha lo stesso valore della colonna legacy &quot;Ricavi ponderati&quot;.
 
 **strategia di spesa:** (Inserzionisti con portfolio) La strategia selezionata per ottimizzare l’offerta di parole chiave/annunci per un portfolio.
 
-**`s_kwcid`:** Codice di tracciamento che consente agli Adobi Advertising di condividere con Adobe Analytics i dati sulle campagne di ricerca.
+**`s_kwcid`:** Consulta &quot;AMO ID&quot;.
 
 **URL di tracciamento:** Un modello di tracciamento o un URL di destinazione con parametri aggiuntivi aggiunti per tenere traccia delle informazioni sui clic sull’annuncio. Può includere un URL di reindirizzamento per inviare prima gli utenti a un server di tracciamento prima di reindirizzarli alla pagina di destinazione dell’inserzionista.
 

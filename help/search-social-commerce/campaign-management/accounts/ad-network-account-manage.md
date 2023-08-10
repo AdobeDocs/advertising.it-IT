@@ -3,9 +3,9 @@ title: Gestire gli account di rete degli annunci
 description: Scopri come impostare e gestire i dettagli di un account di rete di annunci.
 exl-id: fd8b38bd-24d0-488c-9e57-a516f5ae67ac
 feature: Search Campaign Management
-source-git-commit: c296766697903d7cb95ca59ca6b4c375629ddd2b
+source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2086'
 ht-degree: 0%
 
 ---
@@ -240,22 +240,22 @@ Gli account che utilizzano il tracciamento dei clic di Adobe Advertising devono 
 
 {{$include /help/_includes/append-parameters.md}}
 
-* **Formato S\_kwcid** - (Esistente [!DNL Google Ads] account per gli inserzionisti con un’integrazione Adobi Advertising-Adobe Analytics e per i quali non è già stata eseguita la migrazione dell’AMO ID (s\_kwcid)
+* **Formato S_kwcid** - (Esistente [!DNL Google Ads] account per gli inserzionisti con un’integrazione Adobi Advertising-Adobe Analytics e per i quali non è già stata eseguita la migrazione dell’AMO ID (s_kwcid)
 
 Questo account utilizza il formato legacy per il codice di tracciamento AMO ID, che consente ad Adobi Advertising di condividere i dati sull’account con Adobe Analytics. Il [formato più recente](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) include i parametri per l’ID della campagna e l’ID del gruppo di annunci, necessari per creare rapporti accurati a livello di campagna e di gruppo di annunci per [!DNL Google Ads] campagne di prestazioni massime, bozze ed esperimenti in Analytics:
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-Se questo account deve generare rapporti a livello di campagna e di gruppo di annunci, fai clic su [!UICONTROL Edit] (matita) e quindi **[!UICONTROL Migrate to new s\_kwcid format]** al nuovo formato. Per gli account che non includono questi tipi di campagna, la migrazione al nuovo formato è facoltativa ma consigliata.
+Se questo account deve generare rapporti a livello di campagna e di gruppo di annunci, fai clic su [!UICONTROL Edit] (matita) e quindi **[!UICONTROL Migrate to new s_kwcid format]** al nuovo formato. Per gli account che non includono questi tipi di campagna, la migrazione al nuovo formato è facoltativa ma consigliata.
 
 Per istruzioni complete, consulta &quot;[Aggiornamento del codice di tracciamento AMO ID per un [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md).&quot;
 
 **Nomi suite di rapporti** - (Solo per reindirizzamento EF con token; inserzionisti con integrazione Adobi Advertising-Adobe Analytics; facoltativo) Una o più suite di rapporti Analytics a cui Search, Social e Commerce invia i dati che raccoglie dalla rete di annunci, incluse le classificazioni delle entità e i dati di clic per l’account. Questa funzione è disponibile solo per le reti di annunci supportate.
 
-Affinché i dati vengano visualizzati nelle suite di rapporti, a) è necessario configurare s\_kwcid lato server per l’account oppure b) l’impostazione a livello di inserzionista su &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; deve essere abilitato. Inoltre, l’account Analytics dell’inserzionista deve essere configurato per ricevere i dati da Search, Social e Commerce. Per ulteriori informazioni, contatta il tuo Adobe Account Manager.
+Affinché i dati vengano visualizzati nelle suite di rapporti, a) la funzione AMO ID lato server deve essere configurata per l’account o b) l’impostazione a livello di inserzionista su &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; deve essere abilitato. Inoltre, l’account Analytics dell’inserzionista deve essere configurato per ricevere i dati da Search, Social e Commerce. Per ulteriori informazioni, contatta il tuo Adobe Account Manager.
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni sugli account di rete degli annunci](ad-network-account-about.md)
 >* [Gestisci account centro esercenti](merchant-account-manage.md)
->* [Aggiorna il codice di tracciamento s\_kwcid per un [!DNL Google Ads] account](update-amo-id-google.md)
+>* [Aggiorna il codice di tracciamento s_kwcid per un [!DNL Google Ads] account](update-amo-id-google.md)

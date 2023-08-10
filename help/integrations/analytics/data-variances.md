@@ -3,9 +3,9 @@ title: Varianze di dati previste tra [!DNL Analytics] e ADOBE ADVERTISING
 description: Varianze di dati previste tra [!DNL Analytics] e ADOBE ADVERTISING
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
 workflow-type: tm+mt
-source-wordcount: '3267'
+source-wordcount: '3268'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,7 @@ In entrata [!DNL Analytics], uno dei modi più semplici per convalidare [!DNL An
 Clicks to AMO ID Instances = (AMO ID Instances / AMO Clicks)
 ```
 
-[!UICONTROL AMO ID Instances] rappresenta il numero di volte in cui gli AMO ID (`s_kwcid` ) sono tracciate sul sito. Ogni volta che si fa clic su un annuncio, viene visualizzata una `s_kwcid` Il parametro viene aggiunto all’URL della pagina di destinazione. Il numero di [!UICONTROL AMO ID Instances], pertanto, è simile al numero di clic e può essere convalidato in base ai clic effettivi sugli annunci. In genere viene visualizzata una percentuale di corrispondenza dell’80% per [!DNL Search, Social, & Commerce] e una percentuale di corrispondenza del 30% per [!DNL DSP] traffico (se filtrato per includere solo il click-through [!UICONTROL AMO ID Instances]). La differenza nelle aspettative tra ricerca e visualizzazione può essere spiegata dal comportamento di traffico previsto. La ricerca acquisisce l’intento e, come tale, gli utenti in genere intendono fare clic sui risultati della ricerca dalla propria query. Tuttavia, gli utenti che visualizzano un annuncio video display o online hanno più probabilità di fare clic sull’annuncio involontariamente e quindi di eseguire un rimbalzo dal sito o di abbandonare la nuova finestra che viene caricata prima che l’attività della pagina venga tracciata.
+[!UICONTROL AMO ID Instances] rappresenta il numero di volte che [AMO ID](ids.md) vengono tracciati sul sito. Ogni volta che si fa clic su un annuncio, viene visualizzato un AMO ID (`s_kwcid`) all’URL della pagina di destinazione. Il numero di [!UICONTROL AMO ID Instances], pertanto, è simile al numero di clic e può essere convalidato in base ai clic effettivi sugli annunci. In genere viene visualizzata una percentuale di corrispondenza dell’80% per [!DNL Search, Social, & Commerce] e una percentuale di corrispondenza del 30% per [!DNL DSP] traffico (se filtrato per includere solo il click-through [!UICONTROL AMO ID Instances]). La differenza nelle aspettative tra ricerca e visualizzazione può essere spiegata dal comportamento di traffico previsto. La ricerca acquisisce l’intento e, come tale, gli utenti in genere intendono fare clic sui risultati della ricerca dalla propria query. Tuttavia, gli utenti che visualizzano un annuncio video display o online hanno più probabilità di fare clic sull’annuncio involontariamente e quindi di eseguire un rimbalzo dal sito o di abbandonare la nuova finestra che viene caricata prima che l’attività della pagina venga tracciata.
 
 Nei rapporti di Adobe Advertising, puoi confrontare in modo simile i clic con le istanze utilizzando la funzione &quot;[!UICONTROL ef_id_instances]&quot; metrica invece di [!UICONTROL AMO ID Instances]:
 
