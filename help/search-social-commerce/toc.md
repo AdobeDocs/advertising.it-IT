@@ -4,7 +4,7 @@ user-guide-title: Guida di Advertising Search, Social e Commerce
 user-guide-description: Questa guida descrive le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire, tracciare e creare rapporti sulle campagne di annunci di ricerca, social e commerce.
 breadcrumb-title: Guida di Advertising Search, Social e Commerce
 index: true
-source-git-commit: 8cb7e92d674466653b67ed5502883630ad633eb2
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
 source-wordcount: '1728'
 ht-degree: 2%
@@ -112,7 +112,7 @@ ht-degree: 2%
       + Account di rete dell’annuncio {#ad-network-accounts}
          + [Informazioni sugli account di rete degli annunci](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
          + [Gestire gli account di rete degli annunci](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)
-         + [Aggiorna il codice di tracciamento s\_kwcid per un [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-skwcid-google.md)
+         + [Aggiornamento del codice di tracciamento AMO ID per un [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
       + [Gestisci account centro esercenti](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
    + [Implementare [!DNL Naver] account di solo tracciamento](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
    + Gestione delle campagne {#management}

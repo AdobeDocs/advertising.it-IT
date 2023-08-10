@@ -3,7 +3,7 @@ title: Formati di tracciamento dei clic per [!DNL Microsoft Advertising]
 description: Scopri i formati di tracciamento dei clic per [!DNL Microsoft Advertising] account.
 exl-id: 725981db-1b9a-4c89-b95d-98d07ec99756
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
@@ -107,4 +107,4 @@ Gli account che utilizzano il tracciamento delle conversioni di Adobi Advertisin
 >[!MORELIKETHIS]
 >
 >* [Informazioni sui formati degli URL di tracciamento dei clic per il servizio di tracciamento delle conversioni di Adobe Advertising](formats-click-tracking-about.md)
->* [Formati per il codice di tracciamento s\_kwcid](skwcid-tracking-parameter.md)
+>* [Formati per il codice di tracciamento AMO ID](skwcid-tracking-parameter.md)

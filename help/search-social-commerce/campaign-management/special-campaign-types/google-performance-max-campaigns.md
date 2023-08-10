@@ -3,7 +3,7 @@ title: Implementare [!DNL Google Ads] campagne con prestazione massima
 description: Scopri il flusso di lavoro per la configurazione di [!DNL Google Ads] numero massimo di campagne con prestazioni.
 exl-id: afad96b2-d4a6-41ee-ad84-38aa1306d73e
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 In entrata [!DNL Google Ads] con il numero massimo di campagne, non puoi impostare gruppi di annunci, annunci o parole chiave. Nelle impostazioni della campagna puoi invece specificare uno o più gruppi di risorse, che includono titoli, descrizioni e immagini caricate, loghi e [!DNL YouTube videos]. [!DNL Google Ads] combina automaticamente le risorse per distribuire gli annunci in base al canale (ad esempio [!DNL YouTube], [!DNL Gmail], o [!DNL Search]).
 
-Puoi visualizzare le campagne con prestazione massima esistenti, con i dati sulle prestazioni in formato tabella e grafico dell’andamento, nel [!DNL Campaigns] vista; i dati non sono disponibili ai livelli inferiori. I dati sulle prestazioni a livello di campagna sono disponibili anche nei rapporti e in Adobe Analytics (per gli inserzionisti con un’ [Integrazione di Analytics](/help/integrations/analytics/overview.md). Per visualizzare i dati sulle prestazioni per le campagne con prestazione massima in [!DNL Analytics], la campagna deve utilizzare [codice di tracciamento s_kwcid aggiornato](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) (che tiene traccia dell’ID della campagna e dell’ID del gruppo di annunci).
+Puoi visualizzare le campagne con prestazione massima esistenti, con i dati sulle prestazioni in formato tabella e grafico dell’andamento, nel [!DNL Campaigns] vista; i dati non sono disponibili ai livelli inferiori. I dati sulle prestazioni a livello di campagna sono disponibili anche nei rapporti e in Adobe Analytics (per gli inserzionisti con un’ [Integrazione di Analytics](/help/integrations/analytics/overview.md). Per visualizzare i dati sulle prestazioni per le campagne con prestazione massima in [!DNL Analytics], la campagna deve utilizzare [codice di tracciamento AMO ID aggiornato](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) (che tiene traccia dell’ID della campagna e dell’ID del gruppo di annunci).
 
 >[!NOTE]
 >

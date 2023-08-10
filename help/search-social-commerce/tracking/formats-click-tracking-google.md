@@ -3,9 +3,9 @@ title: Formati di tracciamento dei clic per [!DNL Google Ads]
 description: Scopri i formati di tracciamento dei clic per [!DNL Google Ads] account.
 exl-id: 68f6da43-3430-4c0a-9369-937fa52c071a
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -70,11 +70,11 @@ Gli account che utilizzano il tracciamento delle conversioni di Adobi Advertisin
 
 * Quando l&#39;inserzionista ha un&#39;integrazione Adobe Analytics, il suffisso deve includere uno dei seguenti elementi:
 
-   * [!DNL Google Ads] account che utilizzano il più recente `s_kwcid` formato, che supporta la generazione di rapporti a livello di campagna e di gruppo di annunci per campagne performance max e bozze e campagne di esperimenti:
+   * [!DNL Google Ads] account che utilizzano il formato AMO ID più recente (a partire da `s_kwcid`), che supporta la generazione di rapporti a livello di campagna e di gruppo di annunci per campagne con prestazione massima, bozze e campagne di sperimentazione:
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     Se l’account dispone di un’implementazione s_kwcid lato server e dell’impostazione account o campagna&quot;[!UICONTROL Auto Upload]&quot; è attivato, il parametro viene aggiunto automaticamente. In caso contrario, è necessario aggiungerlo manualmente.
+     Se l’account dispone di un’implementazione AMO ID lato server e dell’impostazione account o campagna&quot;[!UICONTROL Auto Upload]&quot; è attivato, il parametro viene aggiunto automaticamente. In caso contrario, è necessario aggiungerlo manualmente.
 
    * Tutti gli altri [!DNL Google Ads] account:
 
@@ -88,9 +88,9 @@ Gli account che utilizzano il tracciamento delle conversioni di Adobi Advertisin
 >
 >* I suffissi della pagina di destinazione ai livelli inferiori sovrascrivono il suffisso a livello di account. Per una manutenzione più semplice, utilizza solo il suffisso a livello di account, a meno che non sia necessario un tracciamento diverso per i singoli componenti dell’account. Per configurare un suffisso a livello di gruppo di annunci o inferiore, utilizza l’editor della rete di annunci.
 >
->* (Annunci di ricerca dinamica; inserzionisti con Adobe Analytics e senza tracciamento lato server) Quando desideri includere il tracciamento per il feed inverso da Adobi Advertising ad Analytics, aggiungi `s_kwcid` codice di tracciamento fino alla fine del suffisso della pagina di destinazione a livello di account.
+>* (Annunci di ricerca dinamica; inserzionisti con Adobe Analytics e senza tracciamento lato server) Quando desideri includere il tracciamento per il feed inverso da Adobi Advertising ad Analytics, aggiungi il codice di tracciamento AMO ID alla fine del suffisso della pagina di destinazione a livello di account.
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni sui formati degli URL di tracciamento dei clic per il servizio di tracciamento delle conversioni di Adobe Advertising](formats-click-tracking-about.md)
->* [Formati per il codice di tracciamento s\_kwcid](skwcid-tracking-parameter.md)
+>* [Formati per il codice di tracciamento AMO ID](skwcid-tracking-parameter.md)

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -19,4 +19,4 @@ Separa più parametri con virgole o e commerciali (&amp;). Le parentesi quadre n
 
 * (Reti di annunci con tracciamento parallelo) Evita l’utilizzo di macro, che non vengono sostituite dai clic provenienti da origini che abilitano il tracciamento parallelo. Se l’inserzionista deve utilizzare delle macro, il Team dell’account Adobe deve collaborare con l’Assistenza clienti o con il team di implementazione per aggiungerle.
 
-* (Per gli inserzionisti con un’integrazione Adobe di Advertising-Adobe Analytics) Per includere un’ `s_kwcid` parametro per inviare dati di ricerca, social e commerce a [!DNL Analytics], vedere [formati specifici della rete di annunci](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md). Non è necessario aggiungere manualmente il parametro per [!DNL Google Ads] e [!DNL Microsoft Advertising] account con implementazione s\_kwcid lato server.
+* (Per gli inserzionisti con un’integrazione Adobi Advertising-Adobe Analytics) Per includere un parametro AMO ID per inviare dati di ricerca, social e commerce a [!DNL Analytics], vedere [formati specifici della rete di annunci](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md). Non è necessario aggiungere manualmente il parametro per [!DNL Google Ads] e [!DNL Microsoft Advertising] account con implementazione AMO ID lato server.
