@@ -3,9 +3,9 @@ title: Formati di tracciamento dei clic per [!DNL Google Ads]
 description: Scopri i formati di tracciamento dei clic per [!DNL Google Ads] account.
 exl-id: 68f6da43-3430-4c0a-9369-937fa52c071a
 feature: Search Tracking
-source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
+source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -93,4 +93,4 @@ Gli account che utilizzano il tracciamento delle conversioni di Adobi Advertisin
 >[!MORELIKETHIS]
 >
 >* [Informazioni sui formati degli URL di tracciamento dei clic per il servizio di tracciamento delle conversioni di Adobe Advertising](formats-click-tracking-about.md)
->* [Formati per il codice di tracciamento AMO ID](amo-id-tracking-parameter.md)
+>* [Formati AMO ID](/help/integrations/analytics/ids.md#amo-id-formats)

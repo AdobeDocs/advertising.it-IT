@@ -1,5 +1,5 @@
 ---
-source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
+source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -19,4 +19,4 @@ Separa più parametri con virgole o e commerciali (&amp;). Le parentesi quadre n
 
 * (Reti di annunci con tracciamento parallelo) Evita l’utilizzo di macro, che non vengono sostituite dai clic provenienti da origini che abilitano il tracciamento parallelo. Se l’inserzionista deve utilizzare delle macro, il Team dell’account Adobe deve collaborare con l’Assistenza clienti o con il team di implementazione per aggiungerle.
 
-* (Per gli inserzionisti con un’integrazione Adobi Advertising-Adobe Analytics) Per includere un parametro AMO ID per inviare dati di ricerca, social e commerce a [!DNL Analytics], vedere [formati specifici della rete di annunci](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md). Non è necessario aggiungere manualmente il parametro per [!DNL Google Ads] e [!DNL Microsoft Advertising] account con implementazione AMO ID lato server.
+* (Per gli inserzionisti con un’integrazione Adobi Advertising-Adobe Analytics) Per includere un parametro AMO ID per inviare dati di ricerca, social e commerce a [!DNL Analytics], vedere [formati specifici della rete di annunci](/help/integrations/analytics/ids.md#amo-id-formats). Non è necessario aggiungere manualmente il parametro per [!DNL Google Ads] e [!DNL Microsoft Advertising] account con implementazione AMO ID lato server.
