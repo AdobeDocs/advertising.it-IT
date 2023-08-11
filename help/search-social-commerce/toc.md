@@ -4,9 +4,9 @@ user-guide-title: Guida di Advertising Search, Social e Commerce
 user-guide-description: Questa guida descrive le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire, tracciare e creare rapporti sulle campagne di annunci di ricerca, social e commerce.
 breadcrumb-title: Guida di Advertising Search, Social e Commerce
 index: true
-source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
+source-git-commit: 4fff88683c524b4844104102ed09c0a6b08e5701
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '1730'
 ht-degree: 2%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 2%
             + [Formati di tracciamento dei clic per [!DNL Yandex]](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [Parametri di tracciamento facoltativi per gli URL di tracciamento dei clic](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
       + [Cookie di Adobe Advertising (collegamento)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
-      + [Il parametro di tracciamento s_kwcid](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
+      + [Il parametro di tracciamento AMO ID (s_kwcid)](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + Tracciamento delle conversioni {#conversion-tracking}
       + [Opzioni di tracciamento delle conversioni](/help/search-social-commerce/tracking/conversion-tracking-about.md)
       + Adobe Advertising di tracciamento delle conversioni {#advertising-conversion-tracking}

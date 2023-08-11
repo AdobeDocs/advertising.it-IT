@@ -3,7 +3,7 @@ title: Gestire gli account di rete degli annunci
 description: Scopri come impostare e gestire i dettagli di un account di rete di annunci.
 exl-id: fd8b38bd-24d0-488c-9e57-a516f5ae67ac
 feature: Search Campaign Management
-source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
+source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
 workflow-type: tm+mt
 source-wordcount: '2086'
 ht-degree: 0%
@@ -242,7 +242,7 @@ Gli account che utilizzano il tracciamento dei clic di Adobe Advertising devono 
 
 * **Formato S_kwcid** - (Esistente [!DNL Google Ads] account per gli inserzionisti con un’integrazione Adobi Advertising-Adobe Analytics e per i quali non è già stata eseguita la migrazione dell’AMO ID (s_kwcid)
 
-Questo account utilizza il formato legacy per il codice di tracciamento AMO ID, che consente ad Adobi Advertising di condividere i dati sull’account con Adobe Analytics. Il [formato più recente](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) include i parametri per l’ID della campagna e l’ID del gruppo di annunci, necessari per creare rapporti accurati a livello di campagna e di gruppo di annunci per [!DNL Google Ads] campagne di prestazioni massime, bozze ed esperimenti in Analytics:
+Questo account utilizza il formato legacy per il codice di tracciamento AMO ID, che consente ad Adobi Advertising di condividere i dati sull’account con Adobe Analytics. Il [formato più recente](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md) include i parametri per l’ID della campagna e l’ID del gruppo di annunci, necessari per creare rapporti accurati a livello di campagna e di gruppo di annunci per [!DNL Google Ads] campagne di prestazioni massime, bozze ed esperimenti in Analytics:
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 

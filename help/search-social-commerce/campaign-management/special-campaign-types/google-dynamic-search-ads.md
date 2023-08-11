@@ -3,7 +3,7 @@ title: Implementare [!DNL Google Ads] annunci di ricerca dinamica
 description: Scopri il flusso di lavoro per la configurazione di [!DNL Google Ads] annunci di ricerca dinamica.
 exl-id: 4c806824-b582-46dc-8d88-85c73bfb0944
 feature: Search Campaign Management
-source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
+source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Gli annunci per ricerca dinamica utilizzano il contenuto del sito web, invece de
 
    1. (Facoltativo) Configura un modello di tracciamento a livello di campagna, che sostituisce il modello di tracciamento a livello di account ma può essere sostituito ai livelli inferiori.
 
-      (Inserzionisti con Adobe Analytics senza tracciamento lato server) Quando desideri includere il tracciamento per il feed inverso da Search, Social e Commerce ad Analytics, aggiungi il codice di tracciamento AMO ID ai parametri di aggiunta a livello di account, che aggiungono il codice all’URL finale. Consulta &quot;[Parametro di tracciamento AMO ID](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md).&quot;
+      (Inserzionisti con Adobe Analytics senza tracciamento lato server) Quando desideri includere il tracciamento per il feed inverso da Search, Social e Commerce ad Analytics, aggiungi il codice di tracciamento AMO ID ai parametri di aggiunta a livello di account, che aggiungono il codice all’URL finale. Consulta &quot;[Parametro di tracciamento AMO ID](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md).&quot;
 
 1. [Creare un gruppo di annunci](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) all’interno della campagna, inclusi i seguenti passaggi:
 
