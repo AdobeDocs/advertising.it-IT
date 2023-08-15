@@ -2,9 +2,9 @@
 title: Configurare test A/B per annunci Adobi Advertising in Adobe Target
 description: Scopri come impostare un test A/B in [!DNL Target] per i tuoi annunci DSP.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 7b5d8b20e7efa3178f9c43c806f37b85d8ae3f62
+source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1551'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Contatta il tuo Adobe Account Team e Advertising Solutions Group (aac-advertisin
 
 ![Framework view-through](/help/integrations/assets/targetr-vt-framework.png)
 
-Aggiungendo un pixel evento di impression di Audience Manager nei tag annuncio e nelle impostazioni di posizionamento, puoi creare un segmento di test per ulteriori opportunità di test view-through.
+Aggiungendo un pixel evento di impression di Audience Manager nei tag dell’annuncio e nelle impostazioni di posizionamento, puoi creare un segmento di test per ulteriori opportunità di test view-through.
 
 1. Implementa un pixel Audience Manager di evento di impression nei tag degli annunci e nelle impostazioni di posizionamento DSP.
 
@@ -113,7 +113,7 @@ Aggiungendo un pixel evento di impression di Audience Manager nei tag annuncio e
 
 Le istruzioni seguenti evidenziano informazioni relative al caso di utilizzo dell’DSP. Per istruzioni complete, vedere &quot;&quot;.
 
-1. [Accedi ad Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
+1. [Accedere ad Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
 
 1. [Creare un test A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html):
 

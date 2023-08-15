@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] impostazioni della campagna'
 description: Fai riferimento alle impostazioni per [!DNL Google Ads] campagne.
 exl-id: d16ef1a9-f943-494c-8655-975383707f3c
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
 workflow-type: tm+mt
-source-wordcount: '2024'
+source-wordcount: '2025'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]:** La strategia di offerta per la campagna:
 
-* *[!UICONTROL Enhanced CPC]:* (Non disponibile per prestazioni massime o esistenti, sola lettura) [!DNL Gmail] campagne pubblicitarie) Utilizza il modello avanzato di cost-per-click (eCPC) della rete di annunci, che consente alla rete di modificare automaticamente l’offerta cost-per-click (CPC) per ogni asta nel tentativo di massimizzare le conversioni, utilizzando le conversioni specificate all’interno della rete di annunci (non in Search, Social &amp; Commerce), cercando al contempo di mantenere il CPC medio al di sotto del CPC massimo.
+* *[!UICONTROL Enhanced CPC]:* (Non disponibile per prestazioni massime o esistenti, sola lettura) [!DNL Gmail] Campagne ) Utilizza il modello avanzato di cost-per-click (eCPC) della rete di annunci, che consente alla rete di modificare automaticamente l&#39;offerta cost-per-click (CPC) per ogni asta nel tentativo di massimizzare le conversioni, utilizzando le conversioni specificate all&#39;interno della rete di annunci (non in Search, Social &amp; Commerce), cercando al contempo di mantenere il CPC medio al di sotto del CPC massimo.
 
 Quando aggiungi una campagna con eCPC a un portfolio Search, Social e Commerce ottimizzato, Search, Social e Commerce ottimizzano le offerte di base e, quando &quot;[!UICONTROL Auto adjust campaign budget limits]&quot;è abilitata l’opzione&quot;: il budget della campagna. La rete di annunci ottimizza tutte le regolazioni delle offerte e può modificare le offerte generate da Search, Social e Commerce al momento della query utente in base a dati e informazioni proprietari. **Attenzione:** Utilizza le campagne eCPC nei portfolio solo quando il totale delle conversioni tracciate nella rete di annunci è in linea con l’obiettivo del portfolio. <!-- Note to self: Within the ad network UI, you specify conversion goals either a) all conversion actions you've set to be included in "Conversions" at the account level or b) one or more individual conversions to use for optimization -->
 
@@ -262,7 +262,7 @@ Quando aggiungi una campagna con eCPC a un portfolio Search, Social e Commerce o
 
    1. Seleziona le proporzioni.
 
-   1. Trascinate e posizionate la casella di ritaglio in base alle necessità per selezionare la parte visualizzabile dell&#39;immagine e, se possibile, ridimensionate la parte visualizzabile dell&#39;immagine.
+   1. Trascinate e posizionate la casella di ritaglio in base alle necessità per selezionare la parte visualizzabile dell&#39;immagine e, se possibile, ridimensionate la parte visualizzabile.
 
    1. (Facoltativo) Selezionate altre proporzioni e, se necessario, riposizionate e ridimensionate l&#39;immagine per ogni proporzione selezionata.
 
@@ -280,7 +280,7 @@ Quando aggiungi una campagna con eCPC a un portfolio Search, Social e Commerce o
 
    1. Seleziona le proporzioni.
 
-   1. Trascinate e posizionate la casella di ritaglio in base alle necessità per selezionare la parte visualizzabile dell&#39;immagine e, se possibile, ridimensionate la parte visualizzabile dell&#39;immagine.
+   1. Trascinate e posizionate la casella di ritaglio in base alle necessità per selezionare la parte visualizzabile dell&#39;immagine e, se possibile, ridimensionate la parte visualizzabile.
 
    1. (Facoltativo) Selezionate altre proporzioni e, se necessario, riposizionate e ridimensionate l&#39;immagine per ogni proporzione selezionata.
 
