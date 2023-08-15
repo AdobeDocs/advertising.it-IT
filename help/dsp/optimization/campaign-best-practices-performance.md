@@ -3,9 +3,9 @@ title: Best practice per l’impostazione di campagne sulle prestazioni
 description: Scopri le best practice per la configurazione di campagne incentrate sulle prestazioni, che includono posizionamenti ottimizzati per il CPA più basso o il ROAS più alto.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: eda0459472c1e4a8297daf69454de0fcb3d4f8ca
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1255'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Consulta le seguenti best practice per le campagne sulle prestazioni:
 
 ## Passaggio 1: definire l’obiettivo
 
-È importante capire se l&#39;obiettivo della campagna è quello di raggiungere il ROAS più alto possibile o il CPA più basso possibile. Per ogni pacchetto della campagna, specificherai di conseguenza l’obiettivo come: *[!UICONTROL Highest ROAS - Custom Goal]* o *[!UICONTROL Lowest CPA - Custom Goal]*.
+È importante comprendere l&#39;obiettivo della campagna, ad esempio raggiungere il ROAS più alto possibile o il CPA più basso possibile. Le campagne di prestazioni hanno [obiettivi di ottimizzazione](/help/dsp/optimization/optimization-goals.md) che terminano con &quot;[!UICONTROL - Custom Goal]&quot; (come &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot;). Per ogni pacchetto della campagna, specificherai di conseguenza l’obiettivo.
 
 ![obiettivo di ottimizzazione](/help/dsp/assets/optimization-goals.png)
 
@@ -61,7 +61,7 @@ I pacchetti funnel inferiori includono posizionamenti che eseguono il targeting 
 
 ## Passaggio 3: creare pacchetti
 
-La best practice prevede la creazione di pacchetti separati per la prospezione del funnel superiore e per il retargeting del funnel inferiore. L’ottimizzazione viene eseguita a livello di pacchetto, in modo che i dati delle prestazioni provenienti da tutti i posizionamenti all’interno di un pacchetto vengano aggregati. Raggruppa quindi i posizionamenti in pacchetti con prestazioni previste simili.
+La best practice prevede la creazione di pacchetti separati per la ricerca del funnel superiore e per il retargeting del funnel inferiore. L’ottimizzazione viene eseguita a livello di pacchetto, in modo che i dati delle prestazioni provenienti da tutti i posizionamenti all’interno di un pacchetto vengano aggregati. Raggruppa quindi i posizionamenti in pacchetti con prestazioni previste simili.
 
 ![esempio di pacchetti separati per la ricerca e il retargeting](/help/dsp/assets/p-r.png)
 
@@ -73,7 +73,7 @@ Inoltre, utilizza le seguenti impostazioni.
 
 * **Date di volo:** (Ricerca di pacchetti) Quando la campagna è in esecuzione per più di 25 giorni, utilizza [!UICONTROL Activate Custom Flighting] funzionalità. In primo luogo, impostare un volo personalizzato per i primi 10 giorni a circa il 75% del budget giornaliero necessario per ridurre la spesa durante il *fase di apprendimento*. Quindi imposta un secondo volo personalizzato per il resto del budget.
 
-   Ad esempio, se hai $ 100.000 da spendere in 30 giorni, imposta il budget per il volo 1 (giorni 1-10) su $ 25.000 (75% x $ 100.000/30 giorni = $ 2.500 al giorno). Utilizza il budget rimanente di $ 75.000 per il volo 2 (giorni 11-30).
+  Ad esempio, se hai $ 100.000 da spendere in 30 giorni, imposta il budget per il volo 1 (giorni 1-10) su $ 25.000 (75% x $ 100.000/30 giorni = $ 2.500 al giorno). Utilizza il budget rimanente di $ 75.000 per il volo 2 (giorni 11-30).
 
 * **Budget:** L&#39;DSP cercherà sempre di allocare il 100% del budget del pacchetto in modo uniforme tra tutti i posizionamenti all&#39;interno di un pacchetto. Se un posizionamento ha una spesa bassa o nessuna spesa, si consiglia di limitare il budget al posizionamento per consentire di allocare una maggiore parte del budget a posizionamenti con scala. Consenti 24-48 ore per la calibrazione delle modifiche di budget.
 
@@ -85,9 +85,9 @@ Inoltre, utilizza le seguenti impostazioni.
 
 * **Andamento del volo e andamento infragiornaliero:** Per entrambi i tipi di velocità, selezionare *[!UICONTROL Even]* massimizzare gli obiettivi prestazionali con un ritmo uniforme durante tutto il giorno e per l&#39;intero volo.
 
-   >[!CAUTION]
-   >
-   >Utilizzare *[!UICONTROL FrontLoad]* e *[!UICONTROL Aggressive Front Load]* per l&#39;andamento dei voli e *[!UICONTROL ASAP]* ritmo per il ritmo infragiornaliero solo quando si assegnano priorità complete alla consegna e si spende rispetto all’ottimizzazione delle prestazioni, perché tali strategie possono influire negativamente sui KPI delle prestazioni desiderati.
+  >[!CAUTION]
+  >
+  >Utilizzare *[!UICONTROL FrontLoad]* e *[!UICONTROL Aggressive Front Load]* per l&#39;andamento dei voli e *[!UICONTROL ASAP]* ritmo per il ritmo infragiornaliero solo quando si assegnano priorità complete alla consegna e si spende rispetto all’ottimizzazione delle prestazioni, perché tali strategie possono influire negativamente sui KPI delle prestazioni desiderati.
 
 ## Passaggio 4: creare la struttura di posizionamento
 
@@ -165,4 +165,3 @@ Utilizzo del filtro contestuale, del blocco preventivo delle frodi e/o [!UICONTR
 >* [Obiettivi di ottimizzazione e modalità di utilizzo](optimization-goals.md)
 >* [Filtri pre-offerta a livello di posizionamento e come utilizzarli](optimization-pre-bid-filters.md)
 >* [Elenco di controllo per il lancio di Campaign](/help/dsp/campaign-management/campaign-launch-checklist.md)
-
