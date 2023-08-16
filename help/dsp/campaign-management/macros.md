@@ -3,9 +3,9 @@ title: Pubblicità delle macro dell’DSP
 description: Fai riferimento alle macro disponibili per il tracciamento generale e per tenere traccia dei clic sugli annunci display di terze parti.
 feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: bb404dd1ff2fda5e37435ac892e2a0f6beba0b33
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
@@ -85,6 +85,10 @@ DSP inserisce automaticamente le macro di clic di visualizzazione in un tag di v
 
 DSP Se durante la creazione di un annuncio pubblicitario non viene visualizzata una macro di clic, viene visualizzato un messaggio di avviso che richiede di inserire manualmente la macro di clic di visualizzazione appropriata nell&#39;area corretta del tag.
 
+## [!DNL Analytics for Advertising] Macro
+
+Per ulteriori macro disponibili in modo specifico per [[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) clienti, consulta &quot;[Aggiungi [!DNL Analytics for Advertising] Macro per [!DNL Flashtalking] Tag annuncio](/help/integrations/analytics/macros-flashtalking.md)&quot; e &quot;[Aggiungi [!DNL Analytics for Advertising] Macro per [!DNL Google Campaign Manager 360] Tag annuncio](/help/integrations/analytics/macros-google-campaign-manager.md).&quot;
+
 ## Risoluzione dei problemi relativi agli errori delle macro
 
 Quando si aggiungono macro al codice, assicurarsi di utilizzare la sintassi esatta della macro. Durante la convalida delle macro, DSP verifica che la macro corrisponda esattamente a una delle macro valide.
@@ -103,4 +107,3 @@ Se all&#39;inizio o alla fine del nome della macro mancano dei caratteri, vengon
 >* [Impostazioni annuncio nativo](/help/dsp/campaign-management/ads/ad-settings-native.md)
 >* [Impostazioni annuncio pre-roll](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
 >* [Impostazioni annuncio video universale](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
-

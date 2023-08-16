@@ -3,7 +3,7 @@ title: Aggiungi [!DNL Analytics for Advertising] Macro per [!DNL Google Campaign
 description: Scopri perché e come aggiungere [!DNL Analytics for Advertising] macro per [!DNL Google Campaign Manager 360] tag annuncio
 feature: Integration with Adobe Analytics
 exl-id: 89cd4e1d-277a-4a43-9c38-ae6641302e09
-source-git-commit: 703cda43e96dfa9d80bbce2d64192fc461d5dbae
+source-git-commit: aa41ba08ba83bfacbc2541c0f0d90336b3c36305
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%
@@ -43,7 +43,7 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 >[!NOTE]
 >
 >>* Se l’URL della pagina di destinazione include un simbolo hash (#), che non è comune, inserisci il `amo` prima del simbolo hash.
->* Se non sono inclusi altri parametri dopo il `amo` , quindi aggiungi un parametro (ad esempio, &amp;a=b) dopo di esso. Esempio:`https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
+>* Se non sono inclusi altri parametri dopo il `amo` , quindi aggiungi un parametro (ad esempio, &amp;a=b) dopo di esso. Esempio: `https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 ### Configurare il suffisso URL della pagina di destinazione a livello di inserzionista
 
