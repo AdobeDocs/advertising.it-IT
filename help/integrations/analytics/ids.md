@@ -3,7 +3,7 @@ title: ID Adobe Advertising utilizzati da [!DNL Analytics]
 description: ID Adobe Advertising utilizzati da [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 336664e00f626a7841c328b53b8f5cea1444f3d7
+source-git-commit: d5c894f4eaae5aaec72ca6f525ed625d08c9420d
 workflow-type: tm+mt
 source-wordcount: '1667'
 ht-degree: 0%
@@ -118,7 +118,7 @@ Il parametro viene aggiunto agli URL di tracciamento in uno dei seguenti modi:
 
       * Per [!DNL Google Ads] e [!DNL Microsoft® Advertising] account con [!UICONTROL Auto Upload] se l’impostazione è abilitata per l’account o la campagna, il pixel server aggiunge automaticamente il parametro s_kwcid ai suffissi della pagina di destinazione quando un utente finale fa clic su un annuncio con il pixel di Adobe Advertising.
 
-      * Per altre reti pubblicitarie, o [!DNL Google Ads] e [!DNL Microsoft® Advertising] account con [!UICONTROL Auto Upload] impostazione disabilitata, manuale [aggiungi il parametro ai parametri di aggiunta a livello di account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, che lo aggiungono agli URL di base.
+      * Per altre reti pubblicitarie, o [!DNL Google Ads] e [!DNL Microsoft® Advertising] account con [!UICONTROL Auto Upload] disabilitata, aggiungi manualmente il parametro al tuo [parametri di accodamento a livello di account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, che lo aggiungono agli URL di base.
 
 * La funzione di inserimento lato server non è implementata:
 
@@ -134,7 +134,7 @@ Il parametro viene aggiunto agli URL di tracciamento in uno dei seguenti modi:
 
       * Per ([!DNL Google Ads] e [!DNL Microsoft® Advertising]), aggiungi manualmente il parametro AMO ID ai suffissi della pagina di destinazione, idealmente in corrispondenza del [livello account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} a meno che non sia necessario un tracciamento diverso per i singoli componenti del conto.
 
-      * Per gli annunci su tutte le altre reti pubblicitarie, manualmente [aggiungi il parametro AMO ID ai parametri di aggiunta a livello di account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, che lo aggiungono agli URL di base.
+      * Per gli annunci su tutte le altre reti di annunci, aggiungi manualmente il parametro AMO ID al tuo [parametri di accodamento a livello di account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, che lo aggiungono agli URL di base.
 
 Per implementare la funzione di inserimento lato server o per determinare l’opzione migliore per la tua azienda, rivolgiti al team del tuo account di Adobe.
 
