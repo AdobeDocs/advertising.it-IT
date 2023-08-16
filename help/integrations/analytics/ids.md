@@ -3,9 +3,9 @@ title: ID Adobe Advertising utilizzati da [!DNL Analytics]
 description: ID Adobe Advertising utilizzati da [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: 426f6e25f0189221986cc42d186bfa60f5268ef1
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1653'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,20 @@ ht-degree: 0%
 
 Adobi Advertising utilizza due ID per il tracciamento delle prestazioni nel sito: *ID EF* e *AMO ID*.
 
-Quando si verifica un’impression pubblicitaria, Adobi Advertising crea e memorizza i valori AMO ID e EF ID. Quando un visitatore che ha visto un annuncio entra nel sito senza fare clic su un annuncio, [!DNL Analytics] richiama questi valori da Adobi Advertising tramite [!DNL Analytics for Advertising] Codice JavaScript. Per il traffico view-through: [!DNL Analytics] genera un ID supplementare (`SDID`), utilizzato per unire l’ID EF e AMO ID in [!DNL Analytics]. Per il traffico click-through, questi ID vengono inclusi nell’URL della pagina di destinazione utilizzando `s_kwcid` e `ef_id` parametri della stringa di query.
+Quando si verifica un’impression pubblicitaria, Adobi Advertising crea e memorizza i valori AMO ID e EF ID. Quando un visitatore che ha visto un annuncio entra nel sito senza fare clic su un annuncio, [!DNL Analytics] richiama questi valori da Adobi Advertising tramite [!DNL Analytics for Advertising] Codice JavaScript. Per il traffico view-through: [!DNL Analytics] genera un ID supplementare (`SDID`), utilizzato per unire l’ID EF e AMO ID in [!DNL Analytics]. Per il traffico click-through, questi ID vengono inclusi nell’URL della pagina di destinazione utilizzando `ef_id` e `s_kwcid` (per AMO ID) parametri della stringa di query.
 
 L’Adobe Advertising distingue tra una voce di click-through o di view-through per il sito web utilizzando i seguenti criteri:
 
 * Una voce view-through viene acquisita quando un utente visita il sito dopo aver visualizzato un annuncio ma non facendo clic su di esso. [!DNL Analytics] registra una visualizzazione view-through se sono soddisfatte due condizioni:
+
    * Il visitatore non ha click-through per un [!DNL DSP] o [!DNL Search, Social, & Commerce] annuncio durante [fai clic sull’intervallo di lookback](#lookback-a4adc).
+
    * Il visitatore ne ha visto almeno uno [!DNL DSP] annuncio durante [intervallo di lookback delle impression](#lookback-a4adc). L’ultima impression viene passata come view-through.
+
 * Una voce di click-through viene acquisita quando un visitatore del sito fa clic su un annuncio prima di entrare nel sito. [!DNL Analytics] acquisisce un click-through quando si verifica una delle seguenti condizioni:
+
    * L’URL include un ID EF e un AMO ID aggiunti all’URL della pagina di destinazione per Adobe Advertising.
+
    * L’URL non contiene codici di tracciamento, ma il codice JavaScript di Adobe Advertising rileva un clic negli ultimi due minuti.
 
 ![Adobe Advertising basato sulla visualizzazione [!DNL Analytics] integrazione](/help/integrations/assets/a4adc-view-through-process.png)
@@ -100,6 +105,38 @@ Gli ID EF sono soggetti al limite di identificatori univoci di 500.000 in Analys
 AMO ID tiene traccia di ogni combinazione di annunci univoca a un livello meno granulare e viene utilizzato per [!DNL Analytics] classificazione dei dati e acquisizione di metriche pubblicitarie (come impression, clic e costi) da Adobi Advertising. L’AMO ID è memorizzato in un [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) o la dimensione rVar (AMO ID) e viene utilizzata esclusivamente per la generazione di rapporti in [!DNL Analytics].
 
 L’AMO ID è anche denominato `s_kwcid`, che a volte viene pronunciato come &quot;[!DNL the squid].&quot;
+
+### Metodi per implementare AMO ID
+
+Il parametro viene aggiunto agli URL di tracciamento in uno dei seguenti modi:
+
+* (Consigliato) La funzione di inserimento lato server è implementata.
+
+   * Clienti DSP: il pixel server aggiunge automaticamente il parametro s_kwcid ai suffissi della pagina di destinazione quando un utente finale visualizza un annuncio con il pixel di Adobe Advertising.
+
+   * Clienti Search, Social e Commerce:
+
+      * Per [!DNL Google Ads] e [!DNL Microsoft® Advertising] account con [!UICONTROL Auto Upload] se l’impostazione è abilitata per l’account o la campagna, il pixel server aggiunge automaticamente il parametro s_kwcid ai suffissi della pagina di destinazione quando un utente finale fa clic su un annuncio con il pixel di Adobe Advertising.
+
+      * Per altre reti pubblicitarie, o [!DNL Google Ads] e [!DNL Microsoft® Advertising] account con [!UICONTROL Auto Upload] Se l’impostazione è disabilitata, aggiungi manualmente il parametro ai parametri di accodamento a livello di account, che lo aggiungono agli URL di base.
+
+* La funzione di inserimento lato server non è implementata:
+
+   * Clienti DSP:
+
+      * Per [!DNL Flashtalking] Aggiungi tag, inserisci manualmente macro aggiuntive per &quot;[Aggiungi [!DNL Analytics for Advertising] Macro per [!DNL Flashtalking] Tag annuncio](/help/integrations/analytics/macros-flashtalking.md).&quot;
+
+      * Per [!DNL Google Campaign Manager 360] Aggiungi tag, inserisci manualmente macro aggiuntive per &quot;[Aggiungi [!DNL Analytics for Advertising] Macro per [!DNL Google Campaign Manager 360] Tag annuncio](/help/integrations/analytics/macros-google-campaign-manager.md).&quot;
+
+  <!--  * For all other ads, XXXX. -->
+
+   * Clienti Search, Social e Commerce:
+
+      * Per ([!DNL Google Ads] e [!DNL Microsoft® Advertising]), aggiungi manualmente il parametro AMO ID ai suffissi della pagina di destinazione.
+
+      * Per gli annunci su tutte le altre reti di annunci, aggiungi manualmente il parametro AMO ID ai parametri di aggiunta a livello di account, che lo aggiungono agli URL di base.
+
+Per implementare la funzione di inserimento lato server o per determinare l’opzione migliore per la tua azienda, rivolgiti al team del tuo account di Adobe.
 
 ### Formati AMO ID {#amo-id-formats}
 
