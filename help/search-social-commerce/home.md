@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8b90bb13-9fc1-4671-b16e-15c1d80aec6e
-source-git-commit: 846c85525059d1cbd2e61b6a494fb62f88db0096
+source-git-commit: 53c2712ff63aabf26b2f9a292ba62e068bf9db22
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 2%
@@ -18,7 +18,7 @@ Le seguenti funzioni sono nuove o modificate di recente.
 
 | Data | Funzionalità | Descrizione | Per Ulteriori Informazioni |
 | ---- | ------- | ----------- | -------------------- |
-| 15 agosto 2023 | Metriche di conversione | [!UICONTROL Admin] > [!DNL Transaction Properties] ora include un &quot;[!UICONTROL Source]&quot;, che indica l’origine di ciascuna metrica, ad esempio [!UICONTROL Adobe Advertising], [!UICONTROL Adobe Analytics], [!UICONTROL Google Ads], o [!UICONTROL Custom Feed]. | Consulta &quot;[Visualizzare le metriche di conversione tracciate per un inserzionista](conversion-metric-view-tracked.md).&quot; |
+| 15 agosto 2023 | Metriche di conversione | [!UICONTROL Admin] > [!DNL Transaction Properties] ora include un &quot;[!UICONTROL Source]&quot;, che indica l’origine di ciascuna metrica, ad esempio [!UICONTROL Adobe Advertising], [!UICONTROL Adobe Analytics], [!UICONTROL Google Ads], o [!UICONTROL Custom Feed]. | Consulta &quot;[Visualizzare le metriche di conversione tracciate per un inserzionista](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md).&quot; |
 | 9 agosto 2023 | Metriche di conversione | [!UICONTROL Admin] > [!DNL Transaction Properties] è stato rinominato [!UICONTROL Conversions]. | Consulta &quot;[Informazioni sulla gestione delle metriche di conversione di un inserzionista](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md).&quot; |
 |  | [!DNL Google] tag di tracciamento delle conversioni | Schermata aggiornata da creare [!DNL Google] i tag di tracciamento della conversione sono disponibili da [!UICONTROL Admin] > [!UICONTROL Conversions]. La schermata legacy in [!UICONTROL Tools] > [!UICONTROL Google Ads Conversion Tags] verranno rimossi in futuro. | Consulta &quot;[Creare un tag di conversione per [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md).&quot; |
 |  | [!DNL Google] tag di tracciamento delle conversioni | Quando si crea un [!DNL Google] tag di tracciamento della conversione, ora puoi specificare una categoria di conversione da tracciare. | Consulta &quot;[Creare un tag di conversione per [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md).&quot; |
