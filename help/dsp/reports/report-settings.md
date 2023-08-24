@@ -3,9 +3,9 @@ title: Impostazioni report personalizzati
 description: Consulta le descrizioni delle impostazioni del rapporto personalizzato.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: fbe955795e6c451313f80056ca65ad210f752ddf
+source-git-commit: a2712e16a54c7108e5999cb1b8db46e507a9ed55
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -126,11 +126,13 @@ Consulta &quot;[Colonne report disponibili](report-columns.md)&quot; per le desc
 * *[!UICONTROL sFTP]:* Per inviare il rapporto completato a una o più posizioni SFTP, che specificherai nella **[!UICONTROL Destination Name]** campo.
 * *[!UICONTROL FTP]:* Per inviare il report completato a una o più posizioni FTP, che verranno specificate nella **[!UICONTROL Destination Name]** campo.
 * *[!UICONTROL FTP SSL](attualmente in versione beta):* Per inviare il report completato a una o più posizioni FTP SSL, che verranno specificate nella **[!UICONTROL Destination Name]** campo.
-* *[!UICONTROL Email]:* Per specificare gli indirizzi e-mail a cui inviare i report completati o le notifiche se il report viene annullato a causa di errori. Per specificare più indirizzi, separali con virgole o spazi.
+* *[!UICONTROL Email]:* Per specificare gli indirizzi e-mail a cui inviare i report completati o le notifiche se il report viene annullato a causa di errori.
 
 >[!NOTE]
 >
 > Una volta salvato il rapporto, non puoi modificare il tipo di destinazione.
+
+**[!UICONTROL Email]:** (Solo tipo di destinazione e-mail) Per ogni indirizzo, inserisci l’indirizzo e fai clic su **+**.
 
 **[!UICONTROL Destination Name]:** (Solo per i tipi di destinazione S3, FTP, sFTP e FTP SSL) I nomi delle destinazioni dei rapporti a cui verrà inviato il rapporto personalizzato.
 
@@ -148,9 +150,13 @@ Consulta &quot;[Colonne report disponibili](report-columns.md)&quot; per le desc
 
 **[!UICONTROL Frequency]:** (Per ogni [!UICONTROL Destination Name]) Frequenza di invio del rapporto alla destinazione: *[!UICONTROL Once]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, o *[!UICONTROL Monthly]*.
 
+**[!UICONTROL Start Day]:** (Per ogni [!UICONTROL Destination Name] con un [!UICONTROL Frequency] di *[!UICONTROL Weekly]* o *[!UICONTROL Monthly]*) Il giorno in cui generare il rapporto. Per i rapporti settimanali, seleziona il giorno della settimana. Per i report mensili, selezionare il giorno numerico del mese.
+
 ## [!UICONTROL Save Report] Sezione
 
-**[!UICONTROL Send & Save]:** Quando inviare il rapporto: *[!UICONTROL On Schedule]* o *[!UICONTROL Run Now]*. I rapporti pianificati vengono consegnati entro le 09:00 nel fuso orario dell’account.
+**[!UICONTROL When to Generate]:** Quando generare il rapporto: *[!UICONTROL On Schedule]* o *[!UICONTROL Run Now]*. I rapporti pianificati vengono consegnati entro le 09:00 nel fuso orario dell’account.
+
+**[!UICONTROL End Date]:** La data di scadenza del rapporto, che può essere fino a quattro mesi. Prima della scadenza di un rapporto, tutti i destinatari e-mail specificati ricevono un avviso e-mail sette giorni e un giorno prima della data di scadenza. Per mantenere il rapporto più a lungo, modifica la data di scadenza nelle impostazioni del rapporto.
 
 >[!NOTE]
 >
