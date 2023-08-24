@@ -4,7 +4,7 @@ user-guide-title: Guida di Advertising DSP
 user-guide-description: Scopri le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire e ottimizzare le strategie degli annunci display con Advertising DSP e creare i relativi rapporti.
 breadcrumb-title: Guida di DSP
 index: true
-source-git-commit: b505a40d04fc57fce245d111f58a614bd6756c65
+source-git-commit: 99f580547f4f0463418dfca52481e58927339169
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 
 + [Novità](/help/dsp/home.md)
 + Introduzione {#introduction}
-   + [Introduzione all’Adobe Advertising DSP](/help/dsp/introduction/dsp-about.md)
+   + [Introduzione a Adobe Advertising DSP](/help/dsp/introduction/dsp-about.md)
    + Funzioni principali {#features}
       + [Ottimizzazione](/help/dsp/introduction/features/optimization.md)
       + [Sicurezza del marchio e qualità dei contenuti multimediali](/help/dsp/introduction/features/brand-safety-media-quality.md)
@@ -107,8 +107,8 @@ ht-degree: 6%
       + [Gestire le visualizzazioni dati](/help/dsp/campaign-management/reports/campaign-data-visualization-manage.md)
    + Correggere Le Impostazioni Di Posizionamento Utilizzando I Fogli Di Calcolo {#qa-spreadsheet}
       + [Correzione delle impostazioni di posizionamento tramite i fogli di calcolo](/help/dsp/campaign-management/qa/qa-about.md)
-      + [Scaricare le impostazioni di posizionamento per una campagna](/help/dsp/campaign-management/qa/qa-sheet-download.md)
-      + [Caricare impostazioni di posizionamento per una campagna](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
+      + [Scaricare le impostazioni di posizionamento in un foglio di calcolo](/help/dsp/campaign-management/qa/qa-sheet-download.md)
+      + [Carica impostazioni di posizionamento in un foglio di calcolo](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
       + [Colonne nei fogli di calcolo scaricati/caricati](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
    + [Macro per DSP](/help/dsp/campaign-management/macros.md)
    + [Scelte rapide da tastiera](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)

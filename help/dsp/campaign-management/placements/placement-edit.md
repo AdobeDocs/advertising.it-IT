@@ -3,9 +3,9 @@ title: Modificare un posizionamento
 description: Scopri come modificare un posizionamento.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: 99f580547f4f0463418dfca52481e58927339169
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -71,8 +71,8 @@ Utilizza questa opzione solo quando desideri applicare le stesse modifiche a tut
       * **Pausa** (per sospendere gli annunci)
 
       * **Rimuovi** (per rimuovere i valori specificati)
-   1. Modifica il [impostazione di posizionamento](placement-settings.md).
 
+   1. Modifica il [impostazione di posizionamento](placement-settings.md).
 
 1. Clic **[!UICONTROL Submit]**.
 
@@ -87,6 +87,5 @@ Utilizza questa opzione solo quando desideri applicare le stesse modifiche a tut
 >* [Visualizzare il log delle modifiche per un posizionamento](placement-change-log.md)
 >* [Impostazioni di posizionamento](placement-settings.md)
 >* [Scelte rapide da tastiera](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Correzione delle impostazioni di posizionamento per una campagna tramite fogli di calcolo](/help/dsp/campaign-management/qa/qa-about.md)
+>* [Correzione delle impostazioni di posizionamento tramite i fogli di calcolo](/help/dsp/campaign-management/qa/qa-about.md)
 >* [Video: come modificare i posizionamenti utilizzando gli strumenti di modifica in blocco](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
-

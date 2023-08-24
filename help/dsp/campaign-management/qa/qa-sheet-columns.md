@@ -1,24 +1,24 @@
 ---
 title: Colonne nei fogli di calcolo scaricati/caricati
-description: Fai riferimento alle colonne nei fogli di calcolo di controllo qualità di Excel scaricati e caricati.
+description: Fai riferimento alle colonne delle impostazioni di posizionamento nei fogli di calcolo scaricati e caricati.
 feature: DSP Placements
 exl-id: 698c0d86-cb2e-4d76-89c7-5584b6cdb542
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: ad0b5826e6639675f374837a04f9877fd05dd0c7
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
 
-# Colonne nei fogli di calcolo scaricati/caricati
-
-<!-- rename -- not specific enough - I think you can download Excel files of other things too -->
+# Colonne delle impostazioni di posizionamento nei fogli di calcolo scaricati/caricati
 
 <!-- see notes within the table about descriptions that need to be edited -->
 
 >[!TIP]
 >
 > In un foglio di calcolo scaricato, tutte le colonne modificabili sono evidenziate in blu.
+
+## Fogli di calcolo a livello di campagna
 
 | Sezione | Colonna | Descrizione | Modificabile? |
 |---------|--------|-------------|-----------|
@@ -46,14 +46,14 @@ ht-degree: 0%
 | [!UICONTROL Goals] | [!UICONTROL Frequency Cap Interval] | Intervallo per il limite di frequenza principale: *[!UICONTROL Day]*, *[!UICONTROL Week]*, o *[!UICONTROL Month]*. | Sì |
 | [!UICONTROL Goals] | [!UICONTROL Secondary Frequency Cap] | Limite di frequenza secondario per il posizionamento durante il periodo specificato [!UICONTROL Secondary Frequency Cap Interval] | Sì |
 | [!UICONTROL Goals] | [!UICONTROL Secondary Frequency Cap Interval] | Il tipo di intervallo per l’elemento di copertura frequenza secondario: *[!UICONTROL Week]*, *[!UICONTROL Day]*, *[!UICONTROL Hour]*, o *[!UICONTROL Minute]*. Il numero applicabile di settimane, giorni, ore o minuti è indicato dal [!UICONTROL Secondary Frequency Cap Interval Value]. | Sì |
-| [!UICONTROL Goals] | [!UICONTROL Secondary Frequency Cap Interval Value] | Il numero di settimane, giorni, ore o minuti per i quali [!UICONTROL Secondary Frequency Cap] applicabile. Ad esempio, se il limite secondario è di tre impression per sei ore, il valore qui sarà <b>6&lt;/>. | Sì |
+| [!UICONTROL Goals] | [!UICONTROL Secondary Frequency Cap Interval Value] | Il numero di settimane, giorni, ore o minuti per i quali [!UICONTROL Secondary Frequency Cap] applicabile. Ad esempio, se il limite secondario è di tre impression per sei ore, il valore qui sarà `6`. | Sì |
 | [!UICONTROL Audience Location] | [!UICONTROL Audience Location - Included #] | Il numero di località geografiche interessate, *[!UICONTROL All]*, o *[!UICONTROL None]*. | — |
 | [!UICONTROL Audience Location] | [!UICONTROL Audience Location - Included] | le località geografiche interessate, separate da punti e virgola, oppure *[!UICONTROL All Locations]*. | — |
 | [!UICONTROL Audience Location] | [!UICONTROL Audience Location - Excluded #] | Il numero di località geografiche escluse o *[!UICONTROL None]*. | — |
 | [!UICONTROL Audience Location] | [!UICONTROL Audience Location - Excluded] | le località geografiche escluse, separate da un punto e virgola, oppure *[!UICONTROL None]*. | — |
 | [!UICONTROL Inventory] | [!UICONTROL Public Inventory - Included #] | Il numero di eventuali operazioni mirate di inventario pubblico, se specificato; *[!UICONTROL All]*, o *[!UICONTROL None]*. | — |
 | [!UICONTROL Inventory] | [!UICONTROL Public Inventory - Excluded #] | Il numero di operazioni di inventario pubblico escluse, se specificate, oppure *[!UICONTROL None]*. | — |
-| [!UICONTROL Inventory] | [!UICONTROL Private Inventory - Included #] | Il numero di eventuali operazioni mirate di inventario privato, se specificate, *[!UICONTROL All]*, o *[!UICONTROL None]*. | — |
+| [!UICONTROL Inventory] | [!UICONTROL Private Inventory - Included #] | Il numero di operazioni mirate di inventario privato, se specificate, *[!UICONTROL All]*, o *[!UICONTROL None]*. | — |
 | [!UICONTROL Inventory] | [!UICONTROL Private Inventory - Excluded #] | Il numero di operazioni di inventario privato escluse, se specificate, oppure *[!UICONTROL None]*. | — |
 | [!UICONTROL Inventory] | [!UICONTROL On Demand Inventory - Included #] | Il numero di [!UICONTROL On-Demand Inventory] le eventuali offerte, se specificate, *[!UICONTROL All]*, o *[!UICONTROL None]*. | — |
 | [!UICONTROL Inventory] | [!UICONTROL On Demand Inventory - Excluded #] | Il numero di offerte di magazzino On-Demand escluse, se specificate, oppure *[!UICONTROL None]*. | — |
@@ -84,14 +84,32 @@ ht-degree: 0%
 | [!UICONTROL Tracking] | [!UICONTROL Conversion Pixels #] | Il numero di pixel di tracciamento della conversione associati al posizionamento, oppure *[!UICONTROL None]*. | — |
 | [!UICONTROL Tracking] | [!UICONTROL 3rd-party fees] | Tariffa statica di terze parti da registrare come costo non fatturabile per 1000 impression, se applicabile. | — |
 | [!UICONTROL Ads] | [!UICONTROL # of Ads Attached] | Il numero di annunci allegati al posizionamento, se presenti, oppure *[!UICONTROL None]*. | — |
-| [!UICONTROL Ads] | [!UICONTROL Ad Names] | I nomi degli annunci allegati al posizionamento, se presenti, oppure *[!UICONTROL None]*. | — |
+| [!UICONTROL Ads] | [!UICONTROL Ad Names] | I nomi di tutti gli annunci allegati al posizionamento, oppure *[!UICONTROL None]*. | — |
+| [!UICONTROL Ads] | [!UICONTROL Attached Ad ID] | Gli ID univoci degli annunci generati da DSP di tutti gli annunci associati al posizionamento, separati da punto e virgola. Per scaricare un elenco di nomi di annunci e degli ID di annunci associati dal [!UICONTROL Ads] creazione di una visualizzazione personalizzata che includa [!UICONTROL Ad ID] metrica e quindi [esportare i dati](/help/dsp/campaign-management/reports/campaign-export-data.md). | Sì |
 
-{style="table-layout:auto"}
+## Fogli di calcolo a livello di posizionamento
+
+| Colonna | Descrizione | Modificabile? |
+|--------|-------------|-----------|
+| [!UICONTROL Placement ID] | ID numerico del posizionamento. | — |
+| [!UICONTROL Placement Name] | Nome del posizionamento. | Sì |
+| [!UICONTROL Package Name] | Nome del pacchetto principale, se applicabile. | — |
+| [!UICONTROL Start Date] | Data di inizio del posizionamento. | — |
+| [!UICONTROL End Date] | Data di fine del posizionamento. | — |
+| [!UICONTROL Status] | Lo stato del posizionamento: *[!UICONTROL active]* o *[!UICONTROL inactive]*. | — |
+| [!UICONTROL Max Bid] | Offerta massima per il posizionamento. | Sì |
+| [!UICONTROL Budget] | Il budget di posizionamento, se presente. | Sì |
+| [!UICONTROL Budget Interval] | Intervallo di budget: &lt;i span=&quot;&quot; id=&quot;0&quot; translate=&quot;no&quot; />*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*, o *[!UICONTROL All Time]*.[!UICONTROL >Daily] | Sì |
+| [!UICONTROL Primary Frequency Cap] | Limite di frequenza principale per il posizionamento durante il periodo specificato [!UICONTROL Primary Frequency Cap Interval]. | Sì |
+| [!UICONTROL Primary Frequency Cap Interval] | Intervallo per il limite di frequenza principale: *[!UICONTROL Day]*, *[!UICONTROL Week]*, o *[!UICONTROL Month]*. | Sì |
+| [!UICONTROL Secondary Frequency Cap] | Limite di frequenza secondario per il posizionamento durante il periodo specificato [!UICONTROL Secondary Frequency Cap Interval] | Sì |
+| [!UICONTROL Secondary Frequency Cap Interval] | Il tipo di intervallo per l’elemento di copertura frequenza secondario: *[!UICONTROL Week]*, *[!UICONTROL Day]*, *[!UICONTROL Hour]*, o *[!UICONTROL Minute]*. Il numero applicabile di settimane, giorni, ore o minuti è indicato dal [!UICONTROL Secondary Frequency Cap Interval Value]. | Sì |
+| [!UICONTROL Secondary Frequency Cap Interval Value] | Il numero di settimane, giorni, ore o minuti per i quali [!UICONTROL Secondary Frequency Cap] applicabile. Ad esempio, se il limite secondario è di tre impression per sei ore, il valore qui sarà `6`. | Sì |
+| [!UICONTROL Attached Ad ID] | Gli ID univoci degli annunci generati da DSP di tutti gli annunci associati al posizionamento, separati da punto e virgola. Per scaricare un elenco di nomi di annunci e degli ID di annunci associati dal [!UICONTROL Ads] creazione di una visualizzazione personalizzata che includa [!UICONTROL Ad ID] metrica e quindi [esportare i dati](/help/dsp/campaign-management/reports/campaign-export-data.md). | Sì |
 
 >[!MORELIKETHIS]
 >
->* [Correzione delle impostazioni di posizionamento per una campagna tramite fogli di calcolo](qa-about.md)
->* [Scaricare le impostazioni di posizionamento per una campagna](qa-sheet-download.md)
->* [Caricare impostazioni di posizionamento per una campagna](qa-sheet-upload.md)
+>* [Correzione delle impostazioni di posizionamento tramite i fogli di calcolo](qa-about.md)
+>* [Scaricare le impostazioni di posizionamento in un foglio di calcolo](qa-sheet-download.md)
+>* [Carica impostazioni di posizionamento in un foglio di calcolo](qa-sheet-upload.md)
 >* [Impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)
-
