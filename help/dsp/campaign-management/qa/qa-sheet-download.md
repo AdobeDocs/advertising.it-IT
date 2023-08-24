@@ -3,7 +3,7 @@ title: Scaricare le impostazioni di posizionamento per una campagna
 description: Scopri come scaricare le impostazioni di posizionamento per una campagna utilizzando i fogli di calcolo di controllo qualità di Excel.
 feature: DSP Placements
 exl-id: dd65eec8-9616-4eca-b6b9-b904b3e65141
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 735bbe90e313dfe93408d72875654830d96f0889
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%
@@ -31,6 +31,7 @@ Se necessario, puoi modificare successivamente [seleziona campi](qa-sheet-column
    * Nel messaggio di notifica, fai clic su **[!UICONTROL Download].**
 
    * A destra della barra dei menu superiore, fai clic su ![Processi](/help/dsp/assets/downloads.png). Clic **[!UICONTROL Download]** accanto al processo.
+
    Il file viene salvato nella cartella Download del browser. Consulta &quot;[Colonne nei fogli di calcolo scaricati/caricati](qa-sheet-columns.md)&quot; per un elenco delle colonne incluse.
 
 >[!MORELIKETHIS]
@@ -39,4 +40,3 @@ Se necessario, puoi modificare successivamente [seleziona campi](qa-sheet-column
 >* [Caricare impostazioni di posizionamento per una campagna](qa-sheet-upload.md)
 >* [Colonne nei fogli di calcolo scaricati/caricati](qa-sheet-columns.md)
 >* [Impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)
-

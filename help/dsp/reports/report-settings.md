@@ -3,7 +3,7 @@ title: Impostazioni report personalizzati
 description: Consulta le descrizioni delle impostazioni del rapporto personalizzato.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 54e60a47c54eaac687fd0b385a94b25818b66b71
+source-git-commit: fbe955795e6c451313f80056ca65ad210f752ddf
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 0%
@@ -82,7 +82,7 @@ Consulta &quot;[Colonne report disponibili](report-columns.md)&quot; per le desc
 
   >[!NOTE]
   >
-  >I percorsi di conversione includono eventuali impression e clic all’interno degli intervalli di impression o lookback di clic dell’inserzionista, configurati in [!DNL Advertising Search, Social, & Commerce]. Ai clic viene data la preferenza alle impression durante l’attribuzione della conversione. Tutti i clic in un percorso di conversione ricevono il pieno credito in base alla regola di attribuzione. Il merito delle impression viene attribuito solo quando nel percorso di conversione non vengono tracciati clic.
+  >I percorsi di conversione includono eventuali impression e clic all’interno degli intervalli di impression o lookback di clic dell’inserzionista, configurati in [!DNL Advertising Search, Social, & Commerce]. Ai clic viene data la preferenza alle impression durante l’attribuzione della conversione. Tutti i clic in un percorso di conversione ricevono il pieno credito in base alla regola di attribuzione. Il merito delle impression viene attribuito solo quando nel percorso di conversione non viene tracciato alcun clic.
 
    * *[!UICONTROL Last Event]:* Attribuisce le conversioni all’ultimo clic o impression nel percorso di conversione.
 
@@ -146,7 +146,7 @@ Consulta &quot;[Colonne report disponibili](report-columns.md)&quot; per le desc
 
       La nuova destinazione è ora disponibile dall’elenco delle destinazioni esistenti e, facoltativamente, può essere aggiunta al rapporto.
 
-**[!UICONTROL Frequency]:** (Per ogni [!UICONTROL Destination Name] Con quale frequenza inviare il rapporto alla destinazione: *[!UICONTROL Once]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, o *[!UICONTROL Monthly]*.
+**[!UICONTROL Frequency]:** (Per ogni [!UICONTROL Destination Name]) Frequenza di invio del rapporto alla destinazione: *[!UICONTROL Once]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, o *[!UICONTROL Monthly]*.
 
 ## [!UICONTROL Save Report] Sezione
 

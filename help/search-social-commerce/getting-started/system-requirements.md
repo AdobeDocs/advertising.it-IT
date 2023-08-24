@@ -3,9 +3,9 @@ title: Requisiti di sistema
 description: Scopri i requisiti software e dell’account.
 exl-id: 9ff7d9ba-3f04-4552-b24f-6c8165cd89e1
 feature: Search Getting Started
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 2fc49a64366ee9fbf05b5eb4bbda37badcf9b763
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,13 @@ Sono necessarie le seguenti informazioni relative al software e all&#39;account.
 
 Per accedere, devi disporre di un nome utente e di una password. Il team dell’account Adobe configura l’account utente e crea il nome utente e la password.
 
-## Impostazioni lingua computer e browser
+## Impostazioni computer e browser
+
+### Impostazioni sito browser
+
+Per visualizzare le anteprime delle immagini per alcuni tipi di annunci/risorse, disattiva ad blocker/contenuti per `efrontier.com` consentendo un&#39;eccezione per il sito. Gestisci gli ad blocker nelle impostazioni del sito/sito Web del browser o (in Firefox) modificando le impostazioni per le estensioni del browser ad blocker installate.
+
+### Impostazioni lingua computer e browser
 
 Le informazioni seguenti determinano i set di caratteri da utilizzare e i formati da utilizzare per visualizzare numeri, date, ore e valute:
 
