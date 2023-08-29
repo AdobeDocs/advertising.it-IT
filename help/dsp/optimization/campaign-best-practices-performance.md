@@ -3,18 +3,16 @@ title: Best practice per l’impostazione di campagne sulle prestazioni
 description: Scopri le best practice per la configurazione di campagne incentrate sulle prestazioni, che includono posizionamenti ottimizzati per il CPA più basso o il ROAS più alto.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: eda0459472c1e4a8297daf69454de0fcb3d4f8ca
+source-git-commit: ce35295fcb003b1cc0a171d171317601eadf6288
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1238'
 ht-degree: 0%
 
 ---
 
 # Best practice per l’impostazione di campagne sulle prestazioni
 
-L’DSP può ottimizzare le campagne incentrate sulle prestazioni per posizionamenti con il costo per acquisizione (CPA) più basso o il ROAS (ritorno sulla spesa pubblicitaria più alto).
-
-Consulta le seguenti best practice per le campagne sulle prestazioni:
+L’DSP può ottimizzare le campagne incentrate sulle prestazioni. Consulta le seguenti best practice per le campagne sulle prestazioni:
 
 * Passaggio 1: definire l’obiettivo
 * Passaggio 2: definire la strategia
@@ -24,7 +22,7 @@ Consulta le seguenti best practice per le campagne sulle prestazioni:
 
 ## Passaggio 1: definire l’obiettivo
 
-È importante comprendere l&#39;obiettivo della campagna, ad esempio raggiungere il ROAS più alto possibile o il CPA più basso possibile. Le campagne di prestazioni hanno [obiettivi di ottimizzazione](/help/dsp/optimization/optimization-goals.md) che terminano con &quot;[!UICONTROL - Custom Goal]&quot; (come &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot;). Per ogni pacchetto della campagna, specificherai di conseguenza l’obiettivo.
+È importante comprendere l&#39;obiettivo della campagna, ad esempio raggiungere il ROAS più alto possibile o il CPA più basso possibile. Le campagne di prestazioni hanno [obiettivi di ottimizzazione](/help/dsp/optimization/optimization-goals.md) che terminano con &quot;[!UICONTROL - Custom Goal]&quot; (come &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot;). Per ogni pacchetto della campagna, specificherai di conseguenza l’obiettivo di ottimizzazione.
 
 ![obiettivo di ottimizzazione](/help/dsp/assets/optimization-goals.png)
 
