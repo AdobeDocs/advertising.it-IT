@@ -3,7 +3,7 @@ title: ID Adobe Advertising utilizzati da [!DNL Analytics]
 description: ID Adobe Advertising utilizzati da [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 7433c2b0e0f61c2c72b27fb026202a76875c6b7e
+source-git-commit: e564ea441e5ea0d25ee7f99962e72192750c5c40
 workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 0%
@@ -262,13 +262,13 @@ dove:
 
 ### DIMENSION AMO ID in [!DNL Analytics]
 
-Nei rapporti di Analytics, puoi trovare i dati AMO ID cercando il [!UICONTROL AMO ID] e utilizzando la [!UICONTROL AMO ID Instance] metrica. Il [!UICONTROL AMO ID] , contiene tutti i valori AMO ID acquisiti, mentre [!UICONTROL AMO ID Instance] La metrica indica la frequenza con cui un valore AMO ID è stato acquisito dal sito. Ad esempio, se lo stesso annuncio di ricerca è stato fatto clic quattro volte ma Analytics ha tracciato sette voci di sito, [!UICONTROL AMO ID Instance] sarebbe di sette (7) e [!UICONTROL Clicks] sarebbero quattro (4).
+Nei rapporti di Analytics, puoi trovare i dati AMO ID cercando il [!UICONTROL AMO ID] e utilizzando la [!UICONTROL AMO ID Instances] metrica. Il [!UICONTROL AMO ID] , contiene tutti i valori AMO ID acquisiti, mentre [!UICONTROL AMO ID Instances] La metrica indica la frequenza con cui un valore AMO ID è stato acquisito dal sito. Ad esempio, se lo stesso annuncio di ricerca è stato fatto clic quattro volte ma Analytics ha tracciato sette voci di sito, [!UICONTROL AMO ID Instances] sarebbe di sette (7) e [!UICONTROL Clicks] sarebbero quattro (4).
 
 Per qualsiasi reporting o auditing in [!DNL Analytics], la best practice consiste nell’utilizzare l’AMO ID insieme alla relativa istanza. Per ulteriori informazioni, consulta la sezione &quot;[Convalida dati per [!DNL Analytics for Advertising]](data-variances.md#data-validation)&quot; in &quot;Varianze di dati previste tra [!DNL Analytics] e Adobe Advertising.&quot;
 
 ## Informazioni sulle classificazioni di Analytics
 
-In entrata [!DNL Analytics], a [classificazione](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) è una parte di metadati per un dato codice di tracciamento, ad esempio Account, Campagna o Annuncio. L’Adobe Advertising categorizza i dati grezzi dell’Adobe Advertising utilizzando le classificazioni in modo da poter visualizzare i dati in diversi modi (ad esempio per tipo di annuncio o campagna) quando si generano i rapporti. Le classificazioni costituiscono la base per la generazione di rapporti di Adobe Advertising in [!DNL Analytics] e possono essere utilizzati con le metriche AMO, ad esempio [!UICONTROL AMO Cost], [!UICONTROL AMO Impressions], e [!UICONTROL AMO Clicks], nonché con eventi nel sito personalizzati e standard come [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders], e [!UICONTROL Revenue].
+In entrata [!DNL Analytics], a [classificazione](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) è una parte di metadati per un dato codice di tracciamento, ad esempio Account, Campagna o Annuncio. L’Adobe Advertising categorizza i dati grezzi dell’Adobe Advertising utilizzando le classificazioni in modo da poter visualizzare i dati in diversi modi (ad esempio per tipo di annuncio o campagna) quando si generano i rapporti. Le classificazioni costituiscono la base per la generazione di rapporti di Adobe Advertising in [!DNL Analytics] e possono essere utilizzati con le metriche AMO, ad esempio [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions], e [!UICONTROL AMO Clicks], nonché con eventi nel sito personalizzati e standard come [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders], e [!UICONTROL Revenue].
 
 >[!MORELIKETHIS]
 >

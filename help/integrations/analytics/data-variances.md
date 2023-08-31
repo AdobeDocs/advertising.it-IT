@@ -3,9 +3,9 @@ title: Varianze di dati previste tra [!DNL Analytics] e ADOBE ADVERTISING
 description: Varianze di dati previste tra [!DNL Analytics] e ADOBE ADVERTISING
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
+source-git-commit: e564ea441e5ea0d25ee7f99962e72192750c5c40
 workflow-type: tm+mt
-source-wordcount: '3268'
+source-wordcount: '3265'
 ht-degree: 0%
 
 ---
@@ -140,7 +140,7 @@ Il risultato [!DNL Paid Search Detection] i rapporti includono [!UICONTROL Paid 
 
 Osserva le due limitazioni seguenti con i dati in [!DNL Paid Search Detection] rapporti:
 
-* Il [!UICONTROL Paid Search Keywords] e [!UICONTROL Natural Search Keywords] I report mostrano le query di ricerca identificate dagli URL di riferimento, non le parole chiave su cui gli utenti fanno un’offerta. ADOBE ADVERTISING e [!DNL Analytics] i report mostrano le parole chiave effettive, quindi non aspettarti che si allineino con [!DNL Paid Search Detection] rapporti sulle parole chiave.
+* Il [!UICONTROL Paid Search Keywords] e [!UICONTROL Natural Search Keywords] I report mostrano le query di ricerca identificate dagli URL di riferimento, non le parole chiave sulle quali gli utenti fanno un’offerta. ADOBE ADVERTISING e [!DNL Analytics] i report mostrano le parole chiave effettive, quindi non aspettarti che si allineino con [!DNL Paid Search Detection] rapporti sulle parole chiave.
 
 * Quando [!DNL Paid Search Detection] originariamente creata, la query di ricerca di origine (la stringa di caratteri immessa dall’utente nella barra di ricerca nel motore di ricerca) era più facilmente disponibile per gli inserzionisti tramite l’URL di riferimento. Oggi, i motori di ricerca offuscano in gran parte la query di ricerca e il [!DNL Paid Search Detection] i rapporti sulle parole chiave hanno un valore limitato perché la maggior parte dei dati delle query rientra in &quot;non specificato&quot;.
 
@@ -154,10 +154,10 @@ Il [!DNL Paid Search Detection] i rapporti ti consentono di identificare il traf
 
 Ai fini dell’integrazione, è necessario convalidare i dati di click-through per assicurarsi che tutte le pagine del sito tengano correttamente traccia dei click-through.
 
-In entrata [!DNL Analytics], uno dei modi più semplici per convalidare [!DNL Analytics for Advertising] Il tracciamento consiste nel confrontare i clic con le istanze utilizzando la metrica calcolata &quot;Clic su istanze AMO ID&quot;, calcolata come segue:
+In entrata [!DNL Analytics], uno dei modi più semplici per convalidare [!DNL Analytics for Advertising] Il tracciamento consiste nel confrontare i clic con le istanze utilizzando un pulsante &quot;Click to [!UICONTROL AMO ID Instances]&quot;metrica calcolata, calcolata come segue:
 
 ```
-Clicks to AMO ID Instances = (AMO ID Instances / AMO Clicks)
+Clicks to [!UICONTROL AMO ID Instances] = ([!UICONTROL AMO ID Instances] / Adobe Advertising Clicks)
 ```
 
 [!UICONTROL AMO ID Instances] rappresenta il numero di volte che [AMO ID](ids.md) vengono tracciati sul sito. Ogni volta che si fa clic su un annuncio, viene visualizzato un AMO ID (`s_kwcid`) all’URL della pagina di destinazione. Il numero di [!UICONTROL AMO ID Instances], pertanto, è simile al numero di clic e può essere convalidato in base ai clic effettivi sugli annunci. In genere viene visualizzata una percentuale di corrispondenza dell’80% per [!DNL Search, Social, & Commerce] e una percentuale di corrispondenza del 30% per [!DNL DSP] traffico (se filtrato per includere solo il click-through [!UICONTROL AMO ID Instances]). La differenza nelle aspettative tra ricerca e visualizzazione può essere spiegata dal comportamento di traffico previsto. La ricerca acquisisce l’intento e, come tale, gli utenti in genere intendono fare clic sui risultati della ricerca dalla propria query. Tuttavia, gli utenti che visualizzano un annuncio video display o online hanno più probabilità di fare clic sull’annuncio involontariamente e quindi di eseguire un rimbalzo dal sito o di abbandonare la nuova finestra che viene caricata prima che l’attività della pagina venga tracciata.
@@ -236,19 +236,19 @@ I dati dei clic possono anche essere registrati in ambienti che non possono regi
 
 Adobi Advertising fornisce ad Analytics [le metriche del traffico specifiche per la pubblicità e le dimensioni correlate da [!DNL DSP] e [!DNL Search, Social, & Commerce]](advertising-metrics-in-analytics.md). Le metriche fornite dall’Adobe Advertising sono applicabili solo alle dimensioni dell’Adobe Advertising specificate e i dati non sono disponibili per altre dimensioni in [!DNL Analytics].
 
-Ad esempio, se visualizzi [!UICONTROL AMO Clicks] e [!UICONTROL AMO Cost] metriche per conto, che è una dimensione di Adobe Advertising, visualizzerai il totale [!UICONTROL AMO Clicks] e [!UICONTROL AMO Cost] per account.
+Ad esempio, se visualizzi [!UICONTROL Adobe Advertising Clicks] e [!UICONTROL Adobe Advertising Cost] metriche per conto, che è una dimensione di Adobe Advertising, visualizzerai il totale [!UICONTROL Adobe Advertising Clicks] e [!UICONTROL Adobe Advertising Cost] per account.
 
 ![Esempio di metriche di Adobe Advertising in un rapporto che utilizza una dimensione di Adobe Advertising](/help/integrations/assets/a4adc-traffic-supported-dimension.png)
 
-Tuttavia, se visualizzi il [!UICONTROL AMO Clicks] e [!UICONTROL AMO Cost] metriche per una dimensione su pagina (come Pagina), per la quale Adobe Advertising non fornisce dati, il valore [!UICONTROL AMO Clicks] e [!UICONTROL AMO Cost] per ogni pagina sarà zero (0).
+Tuttavia, se visualizzi il [!UICONTROL Adobe Advertising Clicks] e [!UICONTROL Adobe Advertising Cost] metriche per una dimensione su pagina (come Pagina), per la quale Adobe Advertising non fornisce dati, il valore [!UICONTROL Adobe Advertising Clicks] e [!UICONTROL Adobe Advertising Cost] per ogni pagina sarà zero (0).
 
 ![Adobe Advertising di metriche in un rapporto che utilizza una dimensione non supportata](/help/integrations/assets/a4adc-traffic-unsupported-dimension.png)
 
 ### Utilizzo di [!UICONTROL AMO ID Instances] in sostituzione dei clic con Dimension non Adobi Advertising
 
-Poiché non è possibile utilizzare [!UICONTROL AMO Clicks] con dimensioni nel sito, potresti voler trovare un equivalente ai clic. In alternativa, potresti essere tentato di utilizzare le Visite, ma non sono l’opzione migliore, perché ogni visitatore può avere più visite. (Vedere &quot;[Differenza tra clic e visite](#clicks-vs-visits).&quot; È invece consigliabile utilizzare [!UICONTROL AMO ID Instances], che è il numero di volte in cui l’AMO ID viene acquisito. Mentre [!UICONTROL AMO ID Instances] non corrisponde [!UICONTROL AMO Clicks] esattamente, sono l&#39;opzione migliore per misurare il traffico di clic sul sito. Per ulteriori informazioni, consulta la sezione &quot;[Convalida dati per [!DNL Analytics for Advertising]](#data-validation).&quot;
+Poiché non è possibile utilizzare [!UICONTROL Adobe Advertising Clicks] con dimensioni nel sito, potresti voler trovare un equivalente ai clic. In alternativa, potresti essere tentato di utilizzare le Visite, ma non sono l’opzione migliore, perché ogni visitatore può avere più visite. (Vedere &quot;[Differenza tra clic e visite](#clicks-vs-visits).&quot; È invece consigliabile utilizzare [!UICONTROL AMO ID Instances], che è il numero di volte in cui l’AMO ID viene acquisito. Mentre [!UICONTROL AMO ID Instances] non corrisponde [!UICONTROL Adobe Advertising Clicks] esattamente, sono l&#39;opzione migliore per misurare il traffico di clic sul sito. Per ulteriori informazioni, consulta la sezione &quot;[Convalida dati per [!DNL Analytics for Advertising]](#data-validation).&quot;
 
-![Esempio di [!UICONTROL AMO ID Instances] invece di [!UICONTROL AMO Clicks] per una dimensione non supportata](/help/integrations/assets/a4adc-amo-id-instances.png)
+![Esempio di [!UICONTROL AMO ID Instances] invece di [!UICONTROL Adobe Advertising Clicks] per una dimensione non supportata](/help/integrations/assets/a4adc-amo-id-instances.png)
 
 >[!MORELIKETHIS]
 >
