@@ -3,9 +3,9 @@ title: Visualizzare i rapporti di diagnostica del posizionamento
 description: Scopri come diagnosticare i problemi relativi alla configurazione e alla velocità del posizionamento.
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 622d971a0c583cfde8610025f0a83481c4ae2188
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ I seguenti strumenti possono essere utili per diagnosticare i problemi relativi 
       1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
       1. Fai clic sul nome della campagna, quindi fai clic su **[!UICONTROL Placements]**.
       1. Accanto al nome del posizionamento, fate clic su  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
-   1. In alto a destra, fai clic su ![Diagnostica posizionamento](/help/dsp/assets/placement-diagnostics.png) o **[!UICONTROL Diagnostic]**.
+   1. In alto a destra, fai clic su ![Diagnostica posizionamento](/help/dsp/assets/placement-diagnostics.png).
 1. Effettua una delle seguenti operazioni:
    * Per visualizzare il registro delle modifiche:
       1. Clic **[!UICONTROL Change Log]**.
@@ -46,5 +46,5 @@ I seguenti strumenti possono essere utili per diagnosticare i problemi relativi 
 >[!MORELIKETHIS]
 >
 >* [Informazioni Sui Rapporti In-Platform](campaign-reports-about.md)
+>* [Visualizza il rapporto Previsione posizionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)
-
