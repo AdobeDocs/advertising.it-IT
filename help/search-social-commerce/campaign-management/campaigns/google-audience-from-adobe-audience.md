@@ -3,9 +3,9 @@ title: Crea [!DNL Google Ads] audience di corrispondenza cliente da [!DNL Adobe]
 description: Scopri come creare [!DNL Google Ads] i clienti abbinano i tipi di pubblico dei tipi di pubblico esistenti di Adobe Analytics e di Audienci Manager.
 exl-id: 17cf0729-bc13-4ec3-918e-039ecdc91a41
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: aa913130d0f611c4164ef8bdca57983d8c6c0405
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Ogni nuovo [!DNL Google] il pubblico ha lo stesso nome dell’originale [!DNL Ad
 
 1. Completa i prerequisiti in base alle esigenze:
 
-   1. (Per creare tipi di pubblico per elenchi di remarketing con ID utente) Un [!DNL Adobe] l’utente amministratore o l’account manager deve selezionare l’impostazione a livello di inserzionista per abilitare i tipi di pubblico in customer match. Le impostazioni differiscono tra gli inserzionisti con Audience Manager e quelli con [!DNL Analytics] solo.
+   1. (Per creare tipi di pubblico per elenchi di remarketing con ID utente) Un [!DNL Adobe] l’utente amministratore o l’account manager deve selezionare l’impostazione a livello di inserzionista per abilitare i tipi di pubblico in customer match.
 
    1. Implementare [Servizio Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html) versione 2.0 o successiva.
 
@@ -40,7 +40,9 @@ Ogni nuovo [!DNL Google] il pubblico ha lo stesso nome dell’originale [!DNL Ad
 
       `<script src="//pixel.everesttech.net/rlsa/<Advertising_Cloud_UserID>" type="text/javascript"> </script>`
 
-      dove `Advertising_Cloud_UserID` è l&#39;ID utente univoco assegnato all&#39;inserzionista. Esempio:  `<script src="//pixel.everesttech.net/rlsa/1234" type="text/javascript"> </script>`
+      dove `Advertising_Cloud_UserID` è l&#39;ID utente numerico univoco assegnato all&#39;inserzionista.
+
+      Esempio: `<script src="//pixel.everesttech.net/rlsa/1234" type="text/javascript"> </script>`
 
    1. (Se non è già stato completato) Un utente autorizzato deve configurare l’account dell’inserzionista su [sincronizza con l&#39;account organizzazione dell&#39;inserzionista in Adobe Experience Cloud](/help/search-social-commerce/admin/sync-adobe-audiences.md).
 
