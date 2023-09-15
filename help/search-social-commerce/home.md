@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8b90bb13-9fc1-4671-b16e-15c1d80aec6e
-source-git-commit: c5acb7d4064dadbec5dbdc20184c21287f9facc7
+source-git-commit: ba500532712d002547e5e067d1a0af4e3202daad
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '798'
 ht-degree: 2%
 
 ---
@@ -18,6 +18,7 @@ Le seguenti funzioni sono nuove o modificate di recente.
 
 | Data | Funzionalità | Descrizione | Per Ulteriori Informazioni |
 | ---- | ------- | ----------- | -------------------- |
+| 14 settembre 2023 | [!UICONTROL Campaigns] | ([!DNL Google Ads] campagne con le massime prestazioni) Nei gruppi di risorse di una campagna, ora puoi selezionare tra le risorse di testo esistenti nella [!UICONTROL Asset Library]. Puoi anche caricare nuove risorse di testo. | — |
 | 5 settembre 2023 | Campagne | ([!DNL Google Ads] Campagne ) Per tutti i tipi di campagna disponibili, ora puoi scegliere obiettivi di conversione esistenti o crearne di nuovi, nelle impostazioni della campagna.</li> | Consulta &quot;[[!DNL Google Ads] impostazioni della campagna](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).&quot; |
 | | Campagne | ([!DNL Google Ads] campagne con prestazioni massime) Le nuove funzioni consentono di:<ul><li>Scegli gli obiettivi di conversione esistenti o creane di nuovi per una campagna, come indicato in precedenza.</li><li>Seleziona dalle risorse esistenti nel tuo [!UICONTROL Asset Library] per immagini, loghi e video nelle impostazioni della campagna con le massime prestazioni. Puoi comunque caricare anche nuove risorse.</li><li>(Facoltativo) Fornisci segnali di pubblico per i gruppi di risorse con prestazioni massime selezionando [!DNL Google Ads] pubblico. [!DNL Google Ads] i modelli di apprendimento automatico utilizzano i tipi di pubblico per trovare surfisti web simili a targetizzare e possono anche mostrare annunci a tipi di pubblico che non sono specificati come segnali per aiutarti a raggiungere gli obiettivi di prestazioni. **Nota:** I segnali del pubblico sono diversi da [target di pubblico a livello di campagna e di gruppo di annunci](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).</li></ul> | Consulta &quot;[[!DNL Google Ads] impostazioni della campagna](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).&quot; |
 | 15 agosto 2023 | Metriche di conversione | [!UICONTROL Admin] > [!DNL Transaction Properties] ora include un &quot;[!UICONTROL Source]&quot;, che indica l’origine di ciascuna metrica, ad esempio [!UICONTROL Adobe Advertising], [!UICONTROL Adobe Analytics], [!UICONTROL Google Ads], o [!UICONTROL Custom Feed]. | Consulta &quot;[Visualizzare le metriche di conversione tracciate per un inserzionista](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md).&quot; |
