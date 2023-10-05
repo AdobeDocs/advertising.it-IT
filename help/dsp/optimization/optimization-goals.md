@@ -3,7 +3,7 @@ title: Obiettivi di ottimizzazione e modalità di utilizzo
 description: Fai riferimento agli obiettivi di ottimizzazione disponibili e scopri quando utilizzarli.
 feature: DSP Optimization
 exl-id: ad684c99-7ae5-48eb-abfe-d48fd3d34cd0
-source-git-commit: 900a8e876e99b3d826c8934a266a3c4e1b226a1c
+source-git-commit: 42f10200bb28f4509a04ac69d415e7254537b769
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 0%
@@ -34,6 +34,7 @@ ht-degree: 0%
 | [!UICONTROL Lowest vCPM (Moat - MRC)] | Con l’ottimizzazione a livello di pacchetto, l’allocazione del budget assegna priorità ai posizionamenti con i vCPM più bassi.<br><br>Le valutazioni delle aste danno priorità a vCPM. Se gli obiettivi di spesa vengono raggiunti, allora l&#39;DSP tenta di bilanciare la riduzione dei CPM con l&#39;aumento della visualizzabilità. | Tipo di campagna: branding<br><br>Benchmark: CPM efficiente e vCPM più elevata<br><br>Tipi di annunci: Pre-roll, Display<br><br><b>Nota:</b> Utilizzare questo obiettivo per ottenere la migliore vCPM possibile.<br><br>Per garantire un CPM massimo, utilizzalo come offerta massima per il posizionamento.<br><br>Questa impostazione funziona meglio quando i dati di terze parti da [!DNL Moat] sta informando l’algoritmo. Usa questo obiettivo solo se hai abilitato [!DNL Moat] integrazione per la campagna. |
 | [!UICONTROL Always Max Bid and Maximize Reach] | Questo obiettivo tenta di raggiungere la massima portata della famiglia con un determinato numero di impression, utilizzando sempre l’offerta massima a livello di posizionamento. Se gli obiettivi di spesa vengono raggiunti, l&#39;DSP diventa più selettivo e presenta offerte per un&#39;asta solo quando c&#39;è la possibilità di raggiungere una portata univoca incrementale. | Tipo di campagna: branding<br><br>Benchmark: massimizzare la portata<br><br>Tipi di annunci: pre-roll, display, CTV, nativo, audio e video universale |
 | [!UICONTROL Lowest Cost per Reach] | Questo obiettivo cerca di raggiungere la massima portata delle famiglie con un determinato budget. Se gli obiettivi di spesa vengono raggiunti, allora l&#39;DSP varia le offerte a seconda della possibilità di raggiungere una portata univoca incrementale. | Tipo di campagna: branding<br><br>Benchmark: costo efficiente per portata<br><br>Tipi di annunci: pre-roll, display, CTV, nativo, audio e video universale |
+
 {style="table-layout:auto"}
 
 >[!MORELIKETHIS]
