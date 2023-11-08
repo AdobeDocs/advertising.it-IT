@@ -1,17 +1,18 @@
 ---
 title: Creare e caricare le risorse
-description: Scopri come creare risorse immagine, video e testo riutilizzabili e caricarle nel tuo [!DNL Google Ads] libreria di risorse a livello di account.
+description: Scopri come creare risorse immagine, video e testo riutilizzabili e caricarle nel tuo [!DNL Google Ads] e [!DNL Microsoft® Advertising] librerie di risorse a livello di account.
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
+source-git-commit: 68c082131378974bf95534050b8ddf2db0ae394b
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
 # Creare e caricare le risorse
 
-*Per [!DNL Google Ads] solo account*
+*Per [!DNL Google Ads] e [!DNL Microsoft® Advertising] solo account*
 
 *Funzione open beta*
 
@@ -39,7 +40,7 @@ ht-degree: 0%
 
             1. Seleziona le proporzioni.
 
-            1. Trascinate e posizionate la casella di ritaglio in base alle necessità per selezionare la parte visualizzabile dell&#39;immagine e, se possibile, ridimensionate la parte visualizzabile dell&#39;immagine.
+            1. Trascinate e posizionate la casella di ritaglio in base alle necessità per selezionare la parte visualizzabile dell&#39;immagine e, se possibile, ridimensionate la parte visualizzabile.
 
             1. (Facoltativo) Selezionate altre proporzioni e, se necessario, riposizionate e ridimensionate l&#39;immagine per ogni proporzione selezionata.
 
@@ -51,7 +52,7 @@ ht-degree: 0%
 
         Puoi pubblicare fino a 10 URL video alla volta.
 
-      * Per le risorse di testo, immetti la stringa di testo. Per aggiungere un’altra risorsa di testo, fai clic su **+ Aggiungi** e immettere un&#39;altra stringa di testo.
+      * ([!DNL Google Ads] solo conti) Per le risorse di testo, immettere la stringa di testo. Per aggiungere un’altra risorsa di testo, fai clic su **+ Aggiungi** e immettere un&#39;altra stringa di testo.
 
         Ogni risorsa di testo può contenere un massimo di 1000 caratteri. Puoi caricare un massimo di 10 risorse di testo alla volta.
 
