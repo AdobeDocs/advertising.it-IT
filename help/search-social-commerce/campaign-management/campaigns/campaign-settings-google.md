@@ -1,11 +1,11 @@
 ---
 title: '''[!DNL Google Ads] impostazioni della campagna'
 description: Fai riferimento alle impostazioni per [!DNL Google Ads] campagne.
-exl-id: d16ef1a9-f943-494c-8655-975383707f3c
+exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 7588e82bc64eb1c3eda0b04cabfc6510ee3c06c3
+source-git-commit: 60988223d584741675e44fca2a50a228e4a3da91
 workflow-type: tm+mt
-source-wordcount: '2309'
+source-wordcount: '2449'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Shopping Network]:* Mostra annunci di prodotti, che [!DNL Google] genera automaticamente in base ai prodotti in [!DNL Google Merchant Center] il [!DNL Google Shopping], l&#39;area accanto a [!DNL Google] risultati della ricerca (separati dagli annunci di testo) e (facoltativamente) siti web dei partner di ricerca. Per ogni gruppo di annunci della campagna, puoi specificare i gruppi di prodotti da pubblicizzare.
 
-* *[!UICONTROL Display Network Only]:* Mostra gli annunci sulla rete di visualizzazione. Per ogni gruppo di annunci, devi specificare i posizionamenti e, facoltativamente, puoi specificare le parole chiave.
+* *[!UICONTROL Display Network Only]:* Mostra gli annunci sulla rete di visualizzazione. Per ogni gruppo di annunci, è necessario specificare i posizionamenti e, facoltativamente, le parole chiave.
 
 * *[!UICONTROL Performance Max]:* (Funzione beta) Mostra e ottimizza le conversioni per gli annunci tra canali utilizzando [!DNL Google Ads] offerte intelligenti. Nelle impostazioni della campagna devi specificare uno o più gruppi di risorse, tra cui immagini, loghi, titoli, descrizioni, video facoltativi e segnali di pubblico. [!DNL Google Ads] combina automaticamente le risorse per distribuire gli annunci in base al canale (ad esempio [!DNL YouTube], [!DNL Gmail], o [!DNL Search]).
 
@@ -254,11 +254,11 @@ Quando aggiungi una campagna con eCPC a un portfolio Search, Social e Commerce o
 
 **[!UICONTROL Final URL]:** L’URL finale per tutti gli annunci creati dal gruppo di risorse. <!-- For campaigns created within Search, Social, & Commerce, final URL expansion is automatically enabled for the campaign, and Google Ads replaces this value with a more relevant landing page based on the user's search query and intent, and also customizes the headline based on the landing page content. You can disable final URL expansion, or exclude specific URLs from expansion, from within the [!DNL Google Ads] editor. -->
 
-**[!UICONTROL Images]:** Fino a quindici immagini per l’annuncio, incluse le seguenti dimensioni: 1) almeno tre immagini quadrate, 2) almeno tre immagini panoramiche e 3) almeno un’immagine verticale. Consulta la [[!DNL Google Ads] specifiche dell&#39;immagine](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Puoi caricare le immagini o selezionarle dal tuo [!UICONTROL Asset Library] — ma non entrambi nella stessa operazione.
+**[!UICONTROL Images]:** Fino a 15 immagini per l’annuncio, incluse le seguenti dimensioni: 1) almeno tre immagini quadrate, 2) almeno tre immagini panoramiche e 3) almeno un’immagine verticale. Consulta la [[!DNL Google Ads] specifiche dell&#39;immagine](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Puoi caricare le immagini o selezionarle dal tuo [!UICONTROL Asset Library] — ma non entrambi nella stessa operazione.
 
 * Per caricare le immagini:
 
-   1. Il giorno [!UICONTROL Upload from computer] , fare clic su **[!UICONTROL +]** e selezionare le immagini dal dispositivo o dalla rete.
+   1. Il giorno [!UICONTROL Upload from Device] , fare clic su **[!UICONTROL +]** e selezionare le immagini dal dispositivo o dalla rete.
 
    1. Per ogni immagine:
 
@@ -280,7 +280,7 @@ Quando aggiungi una campagna con eCPC a un portfolio Search, Social e Commerce o
 
 * Per caricare le immagini:
 
-   1. Il giorno [!UICONTROL Upload from computer] , fare clic su **[!UICONTROL +]** e selezionare le immagini dal dispositivo o dalla rete.
+   1. Il giorno [!UICONTROL Upload from Device] , fare clic su **[!UICONTROL +]** e selezionare le immagini dal dispositivo o dalla rete.
 
    1. Per ogni immagine:
 
@@ -298,21 +298,47 @@ Quando aggiungi una campagna con eCPC a un portfolio Search, Social e Commerce o
 
 * Per selezionare immagini dal [!UICONTROL Asset Library], fai clic su **[!UICONTROL Asset Library]** e selezionare le immagini.
 
-**[!UICONTROL Videos]:** (Facoltativo) Almeno uno e fino a cinque, [!DNL YouTube] video della durata di almeno 10 secondi.  Puoi immettere gli URL o selezionarli dal tuo [!UICONTROL Asset Library] — ma non entrambi nella stessa operazione.
+**[!UICONTROL Videos]:** (Facoltativo) Almeno uno e fino a cinque, [!DNL YouTube] video della durata di almeno 10 secondi. Puoi immettere gli URL o selezionarli dal tuo [!UICONTROL Asset Library] — ma non entrambi nella stessa operazione.
 
 * Per immettere gli URL:
 
-   1. Il giorno [!UICONTROL Upload from computer] , immetti un URL.
+   1. Il giorno [!UICONTROL Enter Video Url] , immetti un URL.
 
-   1. Per aggiungere un altro URL, fai clic su (facoltativo). [!UICONTROL + Add]** e immetti l’URL.
+   1. Per aggiungere un altro URL, fai clic su (facoltativo). **[!UICONTROL + Add]** e immetti l’URL.
 
 * Per selezionare video dal [!UICONTROL Asset Library], fai clic su **[!UICONTROL Asset Library]** e seleziona i video.
 
 **[!UICONTROL Headlines]:** Almeno tre e fino a cinque titoli brevi con un massimo di 30 caratteri ciascuno. Almeno un titolo deve contenere al massimo 15 caratteri. Se l’opzione a livello di campagna per abilitare l’espansione finale dell’URL è impostata in [!DNL Google Ads], quindi [!DNL Google Ads] sostituisce questo valore con un titolo personalizzato in base al contenuto della pagina di destinazione.
 
-**[!UICONTROL Long Headlines]:** Almeno uno e fino a cinque titoli lunghi con un massimo di 90 caratteri ciascuno.
+È possibile immettere testo o selezionare risorse dal [!UICONTROL Asset Library] — ma non entrambi nella stessa operazione.
 
-**[!UICONTROL Descriptions]:** Almeno due descrizioni e fino a quattro descrizioni con un massimo di 90 caratteri ciascuna. Almeno una descrizione deve contenere al massimo 30 caratteri.
+* Per immettere il testo:
+
+   1. Il giorno [!UICONTROL Enter Text] , immettere il testo.
+
+   1. (Facoltativo) Per aggiungere un&#39;altra stringa di testo, fare clic su **[!UICONTROL + Add]** e inserisci la stringa.
+
+* Per selezionare le risorse dal [!UICONTROL Asset Library], fai clic su **[!UICONTROL Asset Library]** e seleziona le risorse.
+
+**[!UICONTROL Long Headlines]:** Almeno uno e fino a cinque titoli lunghi con un massimo di 90 caratteri ciascuno. È possibile immettere testo o selezionare risorse dal [!UICONTROL Asset Library] — ma non entrambi nella stessa operazione.
+
+* Per immettere il testo:
+
+   1. Il giorno [!UICONTROL Enter Text] , immettere il testo.
+
+   1. (Facoltativo) Per aggiungere un&#39;altra stringa di testo, fare clic su **[!UICONTROL + Add]** e inserisci la stringa.
+
+* Per selezionare le risorse dal [!UICONTROL Asset Library], fai clic su **[!UICONTROL Asset Library]** e seleziona le risorse.
+
+**[!UICONTROL Descriptions]:** Almeno due descrizioni e fino a quattro descrizioni con un massimo di 90 caratteri ciascuna. Almeno una descrizione deve contenere al massimo 30 caratteri. È possibile immettere testo o selezionare risorse dal [!UICONTROL Asset Library] — ma non entrambi nella stessa operazione.
+
+* Per immettere il testo:
+
+   1. Il giorno [!UICONTROL Enter Text] , immettere il testo.
+
+   1. (Facoltativo) Per aggiungere un&#39;altra stringa di testo, fare clic su **[!UICONTROL + Add]** e inserisci la stringa.
+
+* Per selezionare le risorse dal [!UICONTROL Asset Library], fai clic su **[!UICONTROL Asset Library]** e seleziona le risorse.
 
 **[!UICONTROL Call to Action]:** Invito all’azione da includere nell’annuncio. Per impostazione predefinita, *[!UICONTROL Automated]* è selezionato, e [!DNL Google Ads] seleziona l&#39;invito all&#39;azione. Facoltativamente, puoi scegliere un’azione diversa.
 
