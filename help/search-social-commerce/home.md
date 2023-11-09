@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8f17f930-cfad-465f-992f-8b966d27ff36
-source-git-commit: b431d7e0a1c2a5c254adb399a9008ebadad11913
+source-git-commit: 9b103745ef8b09c46049a9a89b676825311db4f2
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '892'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,7 @@ Le seguenti funzioni sono nuove o modificate di recente.
 
 | Data | Funzionalità | Descrizione | Per Ulteriori Informazioni |
 | ---- | ------- | ----------- | -------------------- |
+| 8 novembre 2023 | [!UICONTROL Asset Library] | (Funzione beta aperta; [!DNL Microsoft® Advertising] account) In [!UICONTROL Campaigns] > [!UICONTROL Asset Library], puoi creare risorse di immagini e video riutilizzabili e caricarle nel tuo [!DNL Microsoft® Advertising] libreria di risorse a livello di account. Puoi aggiungere le risorse caricate ai tipi di campagna applicabili all’interno di [!DNL Microsoft® Advertising] editor. | Consulta &quot;[Informazioni su [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)&quot; e &quot;[Creare e caricare le risorse](/help/search-social-commerce/campaign-management/asset-library/asset-create.md).&quot; |
 | 7 ottobre 2023 | [!UICONTROL Campaigns], [!UICONTROL Optimization], [!UICONTROL Reports] | Due nuovi rapporti speciali per [!DNL Microsoft Advertising] gli account mostrano le prestazioni a livello di campagna per distribuzione di annunci (ricerca o pubblico) e/o rete (come [!DNL Microsoft] siti e selezionare il traffico o il pubblico):<ul><li>[!UICONTROL MSA Network Performance Report]: include metriche di traffico di base (costi, clic, impression), conversioni e ricavi.</li><li>[!UICONTROL MSA Network Impression Share Report]: include le metriche di condivisione delle impression e le metriche del traffico di base (costo, clic, impression).</li></ul> | — |
 | 14 settembre 2023 | [!UICONTROL Campaigns] | ([!DNL Google Ads] campagne con le massime prestazioni) Nei gruppi di risorse di una campagna, ora puoi selezionare tra le risorse di testo esistenti nella [!UICONTROL Asset Library]. Puoi anche caricare nuove risorse di testo. | Consulta &quot;[[!DNL Google Ads] impostazioni della campagna](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).&quot; |
 | 5 settembre 2023 | Campagne | ([!DNL Google Ads] Campagne ) Per tutti i tipi di campagna disponibili, ora puoi scegliere obiettivi di conversione esistenti o crearne di nuovi, nelle impostazioni della campagna.</li> | Consulta &quot;[[!DNL Google Ads] impostazioni della campagna](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).&quot; |
