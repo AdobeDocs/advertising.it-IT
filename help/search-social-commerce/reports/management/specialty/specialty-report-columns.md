@@ -1,11 +1,11 @@
 ---
 title: Colonne report per report speciali
 description: Scopri le colonne di dati disponibili per i rapporti speciali.
-exl-id: 5cc98781-588b-4bf3-8978-a7966009fa51
+exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 0b6b3ac85b5f47986b9246dccddf0ad51c380dbe
 workflow-type: tm+mt
-source-wordcount: '2280'
+source-wordcount: '2607'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,14 @@ ht-degree: 0%
 |----|----|
 | \[Metriche personalizzate (derivate) specifiche dell’inserzionista\] | Il valore di una metrica personalizzata creata, calcolata a partire da metriche esistenti. |
 | \[Metriche di conversione specifiche per l’inserzionista\] | Il numero di conversioni per una metrica di conversione o una metrica di coinvolgimento del sito specificata. |
+| [!UICONTROL Absolute Top Impression Rate Percent] | Percentuale di impression dell’annuncio mostrate nella prima posizione nella parte superiore dei risultati di ricerca. |
+| [!UICONTROL Absolute Top Impression Share Lost To Budget Percent] | La percentuale di tempo stimata per cui i tuoi annunci non sono stati visualizzati nella prima posizione in cima ai risultati di ricerca perché il budget giornaliero o mensile era troppo basso. |
+| [!UICONTROL Absolute Top Impression Share Lost To Rank Percent] | La percentuale di tempo in cui gli annunci non sono stati visualizzati nella prima posizione nella parte superiore dei risultati di ricerca a causa di una classificazione annuncio scadente. |
+| [!UICONTROL Absolute Top Impression Share Percent] | Le impression ricevute nella posizione principale assoluta (il primo e sopra i risultati della ricerca organica) divise per il numero stimato di impression che potevi ricevere nella posizione principale. |
 | [!UICONTROL Account Name] | Il nome dell’account. |
 | [!UICONTROL Account Number] | ([!UICONTROL MSA Ad Extension] reports) L’identificatore dell’account assegnato dalla rete di annunci. |
 | [!UICONTROL Account Status] | ([!UICONTROL MSA Ad Extension] report) Lo stato dell&#39;account: *[!UICONTROL Active]*, *[!UICONTROL Paused]*, o *[!UICONTROL Inactive]*. |
-| [!UICONTROL Ad Distribution] | ([!UICONTROL Bing Ads Geo Report]) Dove l&#39;annuncio è stato distribuito: *[!UICONTROL Search]* (nelle pagine dei risultati di ricerca) oppure *[!UICONTROL Content]* (il [!DNL Microsoft®]siti Web di proprietà di o siti Web partner partecipanti). |
+| [!UICONTROL Ad Distribution] | ([!UICONTROL Bing Ads Geo Report], [!UICONTROL MSA Network Impression Share Report], e [!UICONTROL MSA Network Performance Report]) Dove l&#39;annuncio è stato distribuito: *[!UICONTROL Audience]* (sulla rete del pubblico)*,[!UICONTROL Search]* (nelle pagine dei risultati di ricerca) oppure *[!UICONTROL Content]* (il [!DNL Microsoft®]siti Web di proprietà di o siti Web partner partecipanti). |
 | [!UICONTROL Ad Extension ID] | ([!UICONTROL MSA Ad Extension] Reports) ID dell’estensione dell’annuncio. |
 | [!UICONTROL Ad Extension Number] | ([!UICONTROL MSA Ad Extension] reports) L’attributo version per l’estensione dell’annuncio. |
 | [!UICONTROL Ad Extension Type] | ([!UICONTROL MSA Ad Extension] report) Il tipo di estensione dell’annuncio. |
@@ -44,6 +48,9 @@ ht-degree: 0%
 | [!UICONTROL Assists] | ([!UICONTROL MSA Ad Extension] rapporti) Il numero di volte in cui un’entità ha contribuito a una conversione associata a un’entità diversa. |
 | [!UICONTROL Audience ID] | L’ID del pubblico numerico. |
 | [!UICONTROL Audience Name] | Il pubblico. I tipi di pubblico disponibili includono [!DNL Google Ads] pubblico basato su dati del cliente, di mercato e simile e il tuo [!DNL [!DNL Microsoft® Advertising]] custom, customer match, remarketing dinamico, in-market, remarketing e tipi di pubblico simili. |
+| [!UICONTROL Audience Impression Lost To Budget Percent] | La percentuale di quota di impression che hai perso su Microsoft Audience Network perché il budget giornaliero o mensile era troppo basso. |
+| [!UICONTROL Audience Impression Lost To Rank Percent] | La percentuale di quota di impression che hai perso su Microsoft Audience Network a causa di un livello di annuncio scadente. |
+| [!UICONTROL Audience Impression Share Percent] | Percentuale stimata di impression sul [!DNL Microsoft Audience Network] diviso per il totale delle impression disponibili che potresti aver ricevuto. |
 | [!UICONTROL Audience Status] | Stato del pubblico. |
 | [!UICONTROL Average CPC] | Il costo medio per clic. |
 | [!UICONTROL Average Position], [!UICONTROL Avg Position] | Posizione media degli annunci durante l’intervallo di date specificato.<br><br>Per [!DNL Google Ads] e [!DNL Yahoo! Japan Ads] , questi dati sono disponibili solo fino a settembre 2019. Per [!DNL Microsoft® Advertising], questi dati sono disponibili solo fino al 22 gennaio 2021. |
@@ -79,7 +86,7 @@ ht-degree: 0%
 | [!UICONTROL CTR] | Il tasso di click-through, che è il numero di clic diviso per il numero di impression per gli annunci inclusi. |
 | [!UICONTROL Current Quality Score] | ([!DNL Google Ads] e [!DNL Microsoft® Advertising] solo campagne ) Il punteggio di qualità corrente per la parola chiave o l’unità di offerta, come indicato dalla rete di annunci. Varia da 1 (basso) a 10 (perfetto). Per una combinazione di parola chiave singola e tipo di corrispondenza, questo valore è il punteggio corrente per tale combinazione. Quando la stessa combinazione di parola chiave e tipo di corrispondenza viene utilizzata in più campagne, questo valore è il punteggio corrente massimo tra tutte le istanze.<br><br>Le reti di annunci utilizzano il punteggio di qualità per determinare i prezzi delle offerte e la posizione degli annunci. Viene calcolato in base a molti fattori, tra cui la rilevanza della parola chiave per l’annuncio associato, la query di ricerca dell’utente e la qualità della pagina di destinazione. Per parole chiave in [!DNL Google Ads], viene considerata anche la frequenza di click-through della parola chiave e, per le parole chiave in [!DNL Microsoft® Advertising], viene presa in considerazione anche l’esperienza utente fornita dalla pagina di destinazione. |
 | [!UICONTROL Delivered Match Type] | ([!UICONTROL MSA Ad Extension] report) Il tipo di corrispondenza utilizzato dalla rete di annunci per distribuire l’annuncio. |
-| [!UICONTROL Device OS] | Sistema operativo del dispositivo su cui è stato visualizzato o su cui è stato fatto clic sull’annuncio. |
+| [!UICONTROL Device OS] | Il sistema operativo del dispositivo su cui è stato visualizzato o su cui è stato fatto clic sull’annuncio. |
 | [!UICONTROL Device Type] | Dispositivo su cui è stato visualizzato o su cui è stato fatto clic l’annuncio:<ul><li>*[!UICONTROL desktop]*: computer desktop</li><li>*[!UICONTROL mobile]*: dispositivo mobile con browser completo</li><li>*[!UICONTROL tablet]*: Tablet con browser completo</li></ul> |
 | [!UICONTROL eCPM] | Il CPM effettivo o il costo medio pagato per 1000 impression durante un intervallo di date specificato. I valori eCPM vengono calcolati per le campagne CPM o CPC. |
 | [!UICONTROL EF Campaign ID] | ID numerico assegnato alla campagna da Search, Social e Commerce. |
@@ -88,12 +95,15 @@ ht-degree: 0%
 | [!UICONTROL End Date] | Ultimo giorno indicato. |
 | [!UICONTROL Extension Property Value] | ([!UICONTROL MSA Ad Extension] report) Il [nome visualizzato dell’estensione](https://help.ads.microsoft.com/#apex/ads/en/51001). |
 | [!UICONTROL Extension Type ID] | ([!UICONTROL MSA Ad Extension] Reports) ID per il tipo di estensione dell’annuncio. |
-| [!UICONTROL Goal] | ([!UICONTROL MSA Ad Extension] reports) Il nome dell’obiettivo di conversione. |
-| [!UICONTROL Goal Type] | ([!UICONTROL MSA Ad Extension] report) Il tipo di obiettivo di conversione. |
+| [!UICONTROL Goal] | ([!UICONTROL MSA Ad ExtensionReport] rapporti, [!UICONTROL MSA Network Performance Report]) Nome dell’obiettivo di conversione. |
+| [!UICONTROL Goal Type] | ([!UICONTROL MSA Ad Extension] rapporti, [!UICONTROL MSA Network Performance Report]) Il tipo di obiettivo di conversione. |
 | [!UICONTROL Google Conversions] | ([!UICONTROL AdWords Conversion Report]) Il numero di conversioni online monitorate da [il [!DNL Google Ads Conversion Optimizer]](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md). |
 | [!UICONTROL Google Converted Clicks] | ([!UICONTROL AdWords Conversion Report](obsoleto nel 2016) Il numero di clic che hanno generato una o più conversioni. |
-| [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] solo; [!UICONTROL AdWords and Bing Audience Target Report], [!UICONTROL Campaign Daily Impression Share Report], e [!UICONTROL Keyword Daily Impression Share Report]) La percentuale di impression dell’annuncio visualizzate come primo annuncio sopra i risultati della ricerca organica. |
+| [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] solo; [!UICONTROL AdWords and Bing Audience Target Report], [!UICONTROL Campaign Daily Impression Share Report], e [!UICONTROL Keyword Daily Impression Share Report]) La percentuale di impression dell’annuncio mostrate come primo annuncio sopra i risultati della ricerca organica. |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads] solo; [!UICONTROL AdWords and Bing Audience Target Report], [!UICONTROL Campaign Daily Impression Share Report], e [!UICONTROL Keyword Daily Impression Share Report]) La percentuale di impression degli annunci mostrata sopra i risultati della ricerca organica. |
+| [!UICONTROL Impression Lost To Budget Percent] | La percentuale di tempo stimata per cui gli annunci non sono stati visualizzati perché il budget giornaliero o mensile era troppo basso. |
+| [!UICONTROL Impression Lost To Rank Percent] | La percentuale di tempo in cui gli annunci non sono stati visualizzati a causa di una classificazione annuncio scadente. |
+| [!UICONTROL Impression Share Percent] | Le impression ricevute sono divise per il numero stimato di impression che potevi ricevere. |
 | [!UICONTROL Impressions] | Il numero di ad impression durante l’intervallo di date specificato. |
 | [!UICONTROL Keyword] | La parola chiave.<br><br><b>Nota:</b> Se il rapporto include i dati dei gruppi di annunci nelle campagne di ricerca abilitate per il contenuto, questa colonna include i nomi dei gruppi di annunci applicabili, ad esempio &quot;(contenuto adgroup) Nome del gruppo di annunci&quot;. Per un posizionamento mirato al sito in una campagna di ricerca, questa colonna non ha un valore. |
 | [!UICONTROL Keyword ID] | ID numerico assegnato alla parola chiave da Search, Social e Commerce. |
@@ -121,7 +131,7 @@ ht-degree: 0%
 | [!UICONTROL Query Match Type] | (Report query di ricerca AdWords) Il tipo di corrispondenza delle parole chiave per la query di ricerca. |
 | [!UICONTROL Region] | ([!UICONTROL AdWords Geo Report] e [!UICONTROL Bing Ads Geo Report]) Area geografica o stato americano/canadese da cui provengono le impression o i clic. Viene determinato dall’indirizzo IP dell’utente. |
 | [!UICONTROL Return on Ad Spend] | ([!UICONTROL MSA Ad Extension] rapporti) Il totale delle entrate diviso per la spesa, espresso in percentuale. |
-| [!UICONTROL Revenue] | ([!UICONTROL MSA Ad Extension] rapporti) I ricavi totali. |
+| [!UICONTROL Revenue] | ([!UICONTROL MSA Ad Extension] rapporti, [!UICONTROL MSA Network Performance Report]) Ricavi totali. |
 | [!UICONTROL Revenue per Assist] | ([!UICONTROL MSA Ad Extension] rapporti) Il ricavo totale per assistenza. |
 | [!UICONTROL Revenue per Conversion] | ([!UICONTROL MSA Ad Extension] rapporti) Il ricavo totale per conversione. |
 | [!UICONTROL SE Account Name] | Il nome dell’account nella rete di annunci. |
@@ -150,6 +160,10 @@ ht-degree: 0%
 | [!UICONTROL title_part1] | ([!UICONTROL MSA Ad Extension by Ad Report]) La prima riga dell’annuncio che collega al tuo sito web. |
 | [!UICONTROL title_part2] | ([!UICONTROL MSA Ad Extension by Ad Report]) La seconda riga dell’annuncio che collega al tuo sito web. |
 | [!UICONTROL title_part3] | ([!UICONTROL MSA Ad Extension by Ad Report]) La terza riga dell’annuncio che collega al tuo sito web. |
+| [!UICONTROL Top Impression Rate Percent] | La percentuale di impressioni dell’annuncio visualizzate nella linea principale (i posizionamenti dell’annuncio superiori ai risultati della ricerca). |
+| [!UICONTROL Top Impression Share Lost To Budget Percent] | La percentuale di tempo stimata per cui gli annunci non venivano visualizzati nella linea principale (i primi annunci al di sopra dei risultati della ricerca) perché il budget giornaliero o mensile era troppo basso. |
+| [!UICONTROL Top Impression Share Lost To Rank Percent] | La percentuale di tempo in cui gli annunci non venivano visualizzati nella linea principale (i posizionamenti di annunci superiori ai risultati della ricerca) a causa di una classificazione annuncio scadente. |
+| [!UICONTROL Top Impression Share Percent] | Le impression ricevute nella linea principale (i posizionamenti di annunci principali sopra i risultati della ricerca) divise per il numero stimato di impression che potevi ricevere nella posizione principale. |
 | [!UICONTROL Top vs. Other] | ([!UICONTROL MSA Ad Extension] report) La posizione dell’annuncio nella pagina dei risultati di ricerca. |
 | [!UICONTROL Total Clicks] | ([!UICONTROL MSA Ad Extension] report) Il numero di clic quando l’elemento annuncio era presente nella copia dell’annuncio, indipendentemente dal fatto che sia stato fatto clic o meno. |
 | [!UICONTROL User SE Account ID] | ID numerico assegnato da Search, Social e Commerce alla rete di annunci. |

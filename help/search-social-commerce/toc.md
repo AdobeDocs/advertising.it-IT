@@ -4,9 +4,9 @@ user-guide-title: Guida di Advertising Search, Social e Commerce
 user-guide-description: Questa guida descrive le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire, tracciare e creare rapporti sulle campagne di annunci di ricerca, social e commerce.
 breadcrumb-title: Guida di Advertising Search, Social e Commerce
 index: true
-source-git-commit: 4fff88683c524b4844104102ed09c0a6b08e5701
+source-git-commit: fb95be48fae44a4ca365fe501253c185e76d64be
 workflow-type: tm+mt
-source-wordcount: '1730'
+source-wordcount: '1732'
 ht-degree: 2%
 
 ---
@@ -247,7 +247,7 @@ ht-degree: 2%
       + [Creare una classificazione di etichette](/help/search-social-commerce/campaign-management/label-classifications/classification-create.md)
       + [Assegnare valori di classificazione ai componenti account dalle viste di gestione delle campagne](/help/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management.md)
       + [Assegnare valori di classificazione ai componenti conto utilizzando i bulksheet](/help/search-social-commerce/campaign-management/label-classifications/classification-values-assign-bulksheets.md)
-      + [Rimuovi i valori di classificazione delle etichette dai componenti dell’account](/help/search-social-commerce/campaign-management/label-classifications/classification-values-remove.md)
+      + [Rimuovere i valori di classificazione delle etichette dai componenti dell’account](/help/search-social-commerce/campaign-management/label-classifications/classification-values-remove.md)
       + [Elimina valori di classificazione delle etichette](/help/search-social-commerce/campaign-management/label-classifications/classification-values-delete.md)
       + [Eliminare le classificazioni delle etichette](/help/search-social-commerce/campaign-management/label-classifications/classification-delete.md)
    + Gestione delle risorse degli annunci {#assets}
@@ -317,6 +317,8 @@ ht-degree: 2%
                + [Il [!UICONTROL MSA Ad Extension by Ad Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-detail-report.md)
                + [Il [!UICONTROL MSA Ad Extension by Keyword Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-by-keyword-report.md)
                + [Il [!UICONTROL MSA Ad Extension Detail Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-by-ad-report.md)
+               + [Il [!UICONTROL MSA Network Impression Share Report]](/help/search-social-commerce/reports/management/specialty/msa-network-impression-share-report.md)
+               + [Il [!UICONTROL MSA Network Performance Report]](/help/search-social-commerce/reports/management/specialty/msa-network-performance-report.md)
             + [Generare un rapporto speciale](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
             + [Impostazioni report speciali](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
             + [Colonne report per report speciali](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)
