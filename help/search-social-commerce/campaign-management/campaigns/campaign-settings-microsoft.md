@@ -1,26 +1,36 @@
 ---
-title: '''[!DNL Microsoft Advertising] impostazioni della campagna'
-description: Fai riferimento alle impostazioni per [!DNL Microsoft Advertising] campagne.
+title: '''[!DNL Microsoft® Advertising] impostazioni della campagna'
+description: Fai riferimento alle impostazioni per [!DNL Microsoft® Advertising] campagne.
 exl-id: c6d86fb8-48b0-40fd-bcfc-c4afdccd5283
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 236224a1d8e38862f70db63b3762b763f5703623
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '1116'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft Advertising] impostazioni della campagna
+# [!DNL Microsoft® Advertising] impostazioni della campagna
 
 ## \[Schermata Creazione campagna\]
 
 **[!UICONTROL Campaign Type]:** (Disponibile solo durante la creazione della campagna) Dove inserire annunci e quali tipi di annunci la campagna può contenere:
 
-* *[!UICONTROL Search and Display Network]:* Mostra gli annunci di testo solo nella rete di ricerca.
+* *[!UICONTROL Search]:* Mostra gli annunci di testo nella rete di ricerca.
 
-* *[!UICONTROL Shopping Network]:* Mostra gli annunci di prodotto: per i prodotti nel tuo [!DNL Microsoft Merchant Center] catalogo dei prodotti — sulla rete commerciale
+* *[!UICONTROL Shopping Network]:* Mostra gli annunci di prodotto: per i prodotti nel tuo [!DNL Microsoft® Merchant Center] catalogo dei prodotti — sulla rete commerciale.
 
-* *[!UICONTROL Audience]:* Mostra gli annunci nativi/display sul [!DNL Microsoft Audience Network]. Puoi: a) generare automaticamente annunci basati su feed collegando la campagna a un negozio di centri commerciali nel [!UICONTROL Shopping Settings] sezione o b) creare annunci reattivi con risorse di testo e immagini caricate. Entrambe le opzioni richiedono la creazione di gruppi di annunci con targeting utente.
+* *[!UICONTROL Audience]:* Mostra gli annunci nativi/display sul [!DNL Microsoft® Audience Network]. Puoi: a) generare automaticamente annunci basati su feed collegando la campagna a un negozio di centri commerciali nel [!UICONTROL Shopping Settings] sezione o b) creare annunci reattivi con risorse di testo e immagini caricate. Entrambe le opzioni richiedono la creazione di gruppi di annunci con targeting utente.
+
+* *[!UICONTROL Shopping Campaigns for Brands]:* (Funzione beta) Promuove i prodotti attraverso rivenditori collegati attraverso le reti di ricerca e pubblico. Puoi creare gruppi di annunci e gruppi di prodotti secondari (app da promuovere) per la campagna e [!DNL Microsoft® Advertising] crea automaticamente annunci per i gruppi di prodotti.
+
+* *[!UICONTROL Microsoft® Store Ads Campaign]:* (Funzione beta) Promuove le app e i giochi disponibili nel [!DNL Microsoft® Store]. Puoi creare gruppi di annunci e gruppi di prodotti secondari per la campagna e [!DNL Microsoft® Advertising] crea automaticamente annunci per i gruppi di prodotti.
+
+* *[!UICONTROL Audience Video]:* (Funzione beta) Mostra annunci video sulla rete del pubblico.
+
+* *[!UICONTROL Audience Video]:* (Funzione beta) Mostra gli annunci video TV connessi (CTV) sulla rete del pubblico.
+
+* *[!UICONTROL Performance Max]:* Mostra più tipi di annunci su tutte le reti.
 
 ## [!UICONTROL Campaign Details]
 
@@ -48,27 +58,31 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]:** La strategia di offerta per la campagna:
 
+* *[!UICONTROL CPV]* (Solo campagne video di Audience CTV) Utilizza il modello Costo per visualizzazione (CPV). <!-- Campaigns with this bid strategy aren't optimized when they're included in portfolios. -->
+
 * *[!UICONTROL Enhanced CPC]:* (Campagne sulle reti di pubblico, ricerca e shopping) Utilizza il modello avanzato cost-per-click (eCPC) della rete di annunci, che consente alla rete di annunci di modificare automaticamente l’offerta cost-per-click (CPC) per ogni asta nel tentativo di massimizzare le conversioni, utilizzando le conversioni specificate all’interno della rete di annunci (non in Search, Social e Commerce), cercando al contempo di mantenere il CPC medio al di sotto del CPC massimo.
 
-Quando aggiungi una campagna con eCPC a un portfolio Search, Social e Commerce ottimizzato, Search, Social e Commerce ottimizzano le offerte di base e, quando &quot;[!UICONTROL Auto adjust campaign budget limits]&quot;è abilitata l’opzione&quot;: il budget della campagna. La rete di annunci ottimizza tutte le regolazioni delle offerte e può modificare le offerte generate da Search, Social e Commerce al momento della query utente in base a dati e informazioni proprietari. **Attenzione:** Utilizza le campagne eCPC nei portfolio solo quando il totale delle conversioni tracciate nella rete di annunci è in linea con l’obiettivo del portfolio.
+  Quando aggiungi una campagna con eCPC a un portfolio Search, Social e Commerce ottimizzato, Search, Social e Commerce ottimizzano le offerte di base e, quando &quot;[!UICONTROL Auto adjust campaign budget limits]&quot;è abilitata l’opzione&quot;: il budget della campagna. La rete di annunci ottimizza tutte le regolazioni delle offerte e può modificare le offerte generate da Search, Social e Commerce al momento della query utente in base a dati e informazioni proprietari. **Attenzione:** Utilizza le campagne eCPC nei portfolio solo quando il totale delle conversioni tracciate nella rete di annunci è in linea con l’obiettivo del portfolio.
 
-* *[!UICONTROL Manual CPC]* (impostazione predefinita): (obsoleto da [!DNL Microsoft Advertising] nel 2021) utilizza il modello CPC (cost-per-click). Facoltativamente, puoi consentire alla rete di annunci di modificare le offerte per la campagna:
+* *[!UICONTROL Manual CPC]*: (campagne commerciali per i marchi; [!DNL Microsoft Store Ads] campagne; obsoleto da [!DNL Microsoft® Advertising] nel 2021 per altri tipi di campagne) Utilizza il modello CPC (cost-per-click). Per alcuni tipi di annunci, puoi facoltativamente consentire alla rete di annunci di modificare le offerte per la campagna:
 
    * **[!UICONTROL Enable Enhanced CPC]** (disattivato per impostazione predefinita): corrisponde all’utilizzo del tasto &quot;[!UICONTROL Enhanced CPC]&quot;.
 
-* *[!UICONTROL Manual CPM]* (Campagne solo sulla rete di pubblico) Utilizza il modello CPM (cost-per-millemila-impressions), per il quale si specifica cosa si desidera spendere per 1.000 impression visualizzate. Le campagne con questa strategia di offerta non sono ottimizzate quando sono incluse nei portfolio.
+* *[!UICONTROL Manual CPA]:* ([!DNL Microsoft Store Ads] Campagne ) Utilizza il modello CPA (Cost per acquisition).
+
+* *[!UICONTROL Manual CPM]* (Solo campagne per pubblico e campagne video per pubblico) Utilizza il modello CPM (cost-per-THOUSE-IMPRESSION), per il quale si specifica cosa si desidera spendere per 1.000 impression visualizzate. Le campagne con questa strategia di offerta non sono ottimizzate quando sono incluse nei portfolio.
 
 * *[!UICONTROL Maximize Clicks]:* (Campagne di ricerca e shopping) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte per massimizzare i clic. È possibile inserire un **[!UICONTROL Max CPC]** (costo per clic) per garantire che la rete di annunci non paghi più di un importo specifico per ogni clic. **Attenzione:** Quando aggiungi una campagna con questa strategia a un portfolio, le offerte si basano sul peso del clic e non sull’obiettivo del portfolio.
 
-* *[!UICONTROL Maximize Conversion Value]:* (Search and shopping/reti di acquisto intelligenti) La rete di annunci, non Search, Social &amp; Commerce, ottimizza le offerte per massimizzare il valore di conversione. È possibile inserire un **[!UICONTROL Target Return on Ad Spend]** (ROAS) in percentuale. **Nota:** Utilizza questa opzione per le campagne in portfolio ibridi ma non in portfolio standard.
+* *[!UICONTROL Maximize Conversion Value]:* (Search and shopping/reti di acquisto intelligenti, campagne con le massime prestazioni) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte per massimizzare il valore di conversione. È possibile inserire un **[!UICONTROL Target Return on Ad Spend]** (ROAS) in percentuale. **Nota:** Utilizza questa opzione per le campagne in portfolio ibridi ma non in portfolio standard.
 
-* *[!UICONTROL Maximize Conversions]:* (Campagne nella rete di ricerca <!-- future: and audience network -->) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte per massimizzare le conversioni. È possibile inserire un **[!UICONTROL Target CPC]** (costo per clic)<!-- future: ; for audience campaigns, you can also enter an optional [!UICONTROL Target CPA] (cost per acquisition) -->. **Nota:** Utilizza questa opzione per le campagne in portfolio ibridi ma non in portfolio standard.
+* *[!UICONTROL Maximize Conversions]:* (Campagne nella rete di ricerca <!-- future: and audience network -->, campagne con le massime prestazioni) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte per massimizzare le conversioni. È possibile inserire un **[!UICONTROL Target CPC]** (costo per clic)<!-- future: ; for audience campaigns, you can also enter an optional [!UICONTROL Target CPA] (cost per acquisition) -->. **Nota:** Utilizza questa opzione per le campagne in portfolio ibridi ma non in portfolio standard.
 
 * *[!UICONTROL Target CPA]:* (Campagne nella rete di ricerca) La rete di annunci, non Search, Social &amp; Commerce, ottimizza le offerte sulla base di un **[!UICONTROL Target CPA]** (costo per acquisizione), che è l’importo medio di 30 giorni che desideri pagare per un’acquisizione (conversione). **Nota:** Utilizza questa opzione per le campagne in portfolio ibridi (ma non in portfolio standard) con qualsiasi strategia di spesa a eccezione [!UICONTROL Weekly] o [!UICONTROL Google Target CPA].
 
   I dati relativi alla posizione media e alle offerte CPC non sono disponibili per le campagne con questa strategia di offerta.
 
-* *[!UICONTROL Target Impression Share]:* (Campagne nella rete di ricerca) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte per raggiungere una quota di impression target e una posizione pubblicitaria. È possibile inserire un **[!UICONTROL Target Impression Share]** in percentuale, il valore **[!UICONTROL Target Ad Position]**, e un **[!UICONTROL Max CPC]** (costo per clic). **Nota:** Questa opzione non è supportata nei portfolio ibridi.
+* *[!UICONTROL Target Impression Share]:* (Campagne nella rete di ricerca) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte per raggiungere una quota di impression target e una posizione di annunci. È possibile inserire un **[!UICONTROL Target Impression Share]** in percentuale, il valore **[!UICONTROL Target Ad Position]**, e un **[!UICONTROL Max CPC]** (costo per clic). **Nota:** Questa opzione non è supportata nei portfolio ibridi.
 
 * *[!UICONTROL Target Return on Ad Spend]:*  (Campagne sulle reti di ricerca e shopping) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte in base al tuo **[!UICONTROL Target ROAS]** (ritorno sulla spesa pubblicitaria), specificato come percentuale. È possibile inserire un **[!UICONTROL Max CPC]** (costo per clic) per garantire che la rete di annunci non paghi più di un importo specifico per ogni clic. **Nota:** Utilizza questa opzione per le campagne in portfolio ibridi (ma non in portfolio standard) con qualsiasi strategia di spesa a eccezione [!UICONTROL Weekly] o [!UICONTROL Google Target ROAS].
 
@@ -80,7 +94,7 @@ Quando aggiungi una campagna con eCPC a un portfolio Search, Social e Commerce o
 
 <!-- **[!UICONTROL Campaign Priority]:** -->
 
-**[!UICONTROL Link with Microsoft Merchant Center]:** (Solo campagne di pubblico; facoltativo) collega la campagna con un negozio di centro commerciale specifico per annunci basati su feed automatizzati anziché annunci reattivi. Quando selezioni questa opzione, specifica la [!UICONTROL Merchant ID] e [!UICONTROL Products]. Devi creare gruppi di annunci per la campagna, ma non è necessario creare annunci.
+**[!UICONTROL Link with Microsoft® Merchant Center]:** (Solo campagne di pubblico; facoltativo) collega la campagna con un negozio di centro commerciale specifico per annunci basati su feed automatizzati anziché annunci reattivi. Quando selezioni questa opzione, specifica la [!UICONTROL Merchant ID] e [!UICONTROL Products]. Devi creare gruppi di annunci per la campagna, ma non è necessario creare annunci.
 
 Una volta collegata la campagna a un negozio e salvate le impostazioni, non puoi modificare questa opzione.
 
@@ -145,7 +159,7 @@ Una volta collegata la campagna a un negozio e salvate le impostazioni, non puoi
 
 **[!UICONTROL Negative Websites]:** (Campagne solo sulla rete nativa/di visualizzazione; facoltativo) Siti sulla rete di visualizzazione in cui non desideri visualizzare gli annunci. Immetti un URL valido, ad esempio www.example.com. Per specificare più stringhe, separarle con virgole o immetterle su righe separate.
 
-Per informazioni sulla disponibilità, consulta l’Aiuto di Microsoft Advertising per &quot;[Impedire la visualizzazione di annunci su siti Web specifici](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
+Per informazioni sulla disponibilità, consulta l’Aiuto di Microsoft® Advertising per &quot;[Impedire la visualizzazione di annunci su siti Web specifici](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
 
 ## [!UICONTROL Campaign Tracking]
 
