@@ -1,9 +1,9 @@
 ---
 title: Invia di nuovo un invito utente in sospeso
 description: Scopri come inviare nuovamente un invito utente in sospeso.
-role: User, Admin
+role: Admin
 exl-id: 15d17a03-526b-4dc2-883a-131d750fca24
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 97e91adf4edf7ac482e949d3e1d4be6c883a589c
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 0%
