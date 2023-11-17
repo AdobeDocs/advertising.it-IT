@@ -3,9 +3,9 @@ title: Informazioni sul supporto di consigli e approfondimenti per gli editori
 description: Scopri come visualizzare e gestire i consigli e le informazioni dell’editore.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 30d7aeb970380e528096bfff2964901781a4e221
+source-git-commit: 250e6c7aaeb64c811b3648ac1aee2a7bd0a6f753
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Entro [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher 
 | | [!UICONTROL Text ad] | Aggiungere suggerimenti di annunci |
 | [!UICONTROL Automated campaigns] | [!UICONTROL DSA to performance max migration] | Migra gli annunci per ricerca dinamica a campagne con prestazione massima. |
 | | [!UICONTROL Dynamic image extension opt in] | Abilita le estensioni immagine dinamiche per l’account, che consentono [!DNL Google Ads] machine learning per aggiungere automaticamente all’annuncio le immagini più rilevanti dalla pagina di destinazione dell’annuncio. |
-| | [!UICONTROL Migliora le prestazioni e la forza massima degli annunci | Migliora la solidità del gruppo di risorse di una campagna con prestazione massima in modo che abbia una valutazione &quot;Eccellente&quot;. |
+| | [!UICONTROL Improve performance max ad strength] | Migliora la solidità del gruppo di risorse di una campagna con prestazione massima in modo che abbia una valutazione &quot;Eccellente&quot;. |
 | | [!UICONTROL Performance max opt in] | Consenso alle campagne con prestazione massima. |
 | | [!UICONTROL Upgrade local campaign to performance max] | Aggiornare una campagna locale legacy a una campagna con prestazioni massime |
 | | [!UICONTROL Upgrade smart shopping campaign to performance max] | Aggiornare una campagna Smart Shopping legacy a una campagna con le massime prestazioni |
