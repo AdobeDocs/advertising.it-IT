@@ -1,11 +1,11 @@
 ---
 title: Informazioni sul supporto di consigli e approfondimenti per gli editori
 description: Scopri come visualizzare e gestire i consigli e le informazioni dell’editore.
-exl-id: 166c429a-043a-4e74-b1ee-5359cd483de5
+exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 30d7aeb970380e528096bfff2964901781a4e221
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,11 @@ Entro [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher 
 | | [!UICONTROL Responsive search improve ad strength] | Suggerimenti per migliorare l’efficacia degli annunci per una ricerca responsive |
 | | [!UICONTROL Sitelink extension] | Aggiungere estensioni sitelink a una campagna |
 | | [!UICONTROL Text ad] | Aggiungere suggerimenti di annunci |
-| [!UICONTROL Automated campaigns] | [!UICONTROL Upgrade local campaign to performance max] | Aggiornare una campagna locale legacy a una campagna con prestazioni massime |
+| [!UICONTROL Automated campaigns] | [!UICONTROL DSA to performance max migration] | Migra gli annunci per ricerca dinamica a campagne con prestazione massima. |
+| | [!UICONTROL Dynamic image extension opt in] | Abilita le estensioni immagine dinamiche per l’account, che consentono [!DNL Google Ads] machine learning per aggiungere automaticamente all’annuncio le immagini più rilevanti dalla pagina di destinazione dell’annuncio. |
+| | [!UICONTROL Migliora le prestazioni e la forza massima degli annunci | Migliora la solidità del gruppo di risorse di una campagna con prestazione massima in modo che abbia una valutazione &quot;Eccellente&quot;. |
+| | [!UICONTROL Performance max opt in] | Consenso alle campagne con prestazione massima. |
+| | [!UICONTROL Upgrade local campaign to performance max] | Aggiornare una campagna locale legacy a una campagna con prestazioni massime |
 | | [!UICONTROL Upgrade smart shopping campaign to performance max] | Aggiornare una campagna Smart Shopping legacy a una campagna con le massime prestazioni |
 | [!UICONTROL Bidding and budget] | [!UICONTROL Campaign budget] | Correggi campagne limitate dal budget |
 | | [!UICONTROL Enhanced CPC opt in] | Offerta con [!UICONTROL Enhanced CPC] |
@@ -68,6 +72,8 @@ Entro [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher 
 | | [!UICONTROL Move unused budget] | Sposta i budget inutilizzati in quelli vincolati |
 | | [!UICONTROL Raise Target CPA bid too low] | Aumenta [!UICONTROL Target CPA] di una quantità consigliata quando è troppo bassa e ci sono poche o nessuna conversione |
 | | [!UICONTROL Target CPA opt in] | Offerta con [!UICONTROL Target CPA] |
+| | [!UICONTROL Target CPA raising] | Aumenta [!UICONTROL Target CPA] in base a [!DNL Google Ads] previsioni, calcolate a partire da conversioni passate. |
+| | [!UICONTROL Target ROAS lowering] | Abbassa il [!UICONTROL Target ROAS] in base a [!DNL Google Ads] previsioni, calcolate a partire da conversioni passate. |
 | | [!UICONTROL Target ROAS opt in] | Offerta con [!UICONTROL Target ROAS] |
 | [!UICONTROL Keywords and targeting] | [!UICONTROL Display expansion opt in] | Espandi la portata di accesso aggiornando una campagna per utilizzare l’espansione della visualizzazione |
 | | [!UICONTROL Keyword] | Aggiungi nuove parole chiave |
