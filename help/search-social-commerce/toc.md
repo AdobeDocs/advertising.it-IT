@@ -4,9 +4,9 @@ user-guide-title: Guida di Advertising Search, Social e Commerce
 user-guide-description: Questa guida descrive le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire, tracciare e creare rapporti sulle campagne di annunci di ricerca, social e commerce.
 breadcrumb-title: Guida di Advertising Search, Social e Commerce
 index: true
-source-git-commit: fb95be48fae44a4ca365fe501253c185e76d64be
+source-git-commit: cdb86533b46b196fe7a3394ab9e4fc8209a3df69
 workflow-type: tm+mt
-source-wordcount: '1732'
+source-wordcount: '1729'
 ht-degree: 2%
 
 ---
@@ -189,7 +189,6 @@ ht-degree: 2%
                + [Informazioni su [!DNL Google Ads] estensioni callout](/help/search-social-commerce/campaign-management/campaigns/callout-extension-about.md)
                + [Gestisci [!DNL Google Ads] estensioni callout](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
                + [Associa [!DNL Google Ads] estensioni di callout condivise con campagne o gruppi di annunci](/help/search-social-commerce/campaign-management/campaigns/callout-extension-associate.md)
-            + [Gestisci [!DNL Google Ads] estensioni posizione](/help/search-social-commerce/campaign-management/campaigns/location-extension-manage.md)
             + Estensioni Sitelink {#sitelinks}
                + [Informazioni sulle estensioni sitelink](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-about.md)
                + [Gestire i sitelink condivisi](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-manage.md)
