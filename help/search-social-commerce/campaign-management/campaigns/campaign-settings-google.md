@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] impostazioni della campagna'
 description: Fai riferimento alle impostazioni per [!DNL Google Ads] campagne.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 60988223d584741675e44fca2a50a228e4a3da91
+source-git-commit: 7b4818260fad61a773fb7261cbcdfd84bee84d42
 workflow-type: tm+mt
-source-wordcount: '2449'
+source-wordcount: '2387'
 ht-degree: 0%
 
 ---
@@ -147,8 +147,6 @@ Quando aggiungi una campagna con eCPC a un portfolio Search, Social e Commerce o
    * (Posizioni vicino a un indirizzo; solo destinazioni incluse) Fai clic su **[!UICONTROL Radius Target]** (![Destinazione raggio](/help/search-social-commerce/assets/radius-target.png "Destinazione raggio")), quindi fare clic su **[!UICONTROL Address]**. Immettere l&#39;indirizzo e il raggio in miglia o chilometri intorno all&#39;indirizzo desiderato, quindi fare clic su **[!UICONTROL Add]**.
 
    * (Posizioni vicine alle coordinate geografiche; solo destinazioni incluse) Fai clic su **[!UICONTROL Radius Target]** (![Destinazione raggio](/help/search-social-commerce/assets/radius-target.png "Destinazione raggio")), quindi fare clic su **[!UICONTROL Coordinate]**. Immettere la latitudine e la longitudine e il raggio in miglia o chilometri intorno alla posizione di destinazione, quindi fare clic su **[!UICONTROL Add]**.
-
-   * (Posizioni vicino al tuo [!DNL My Business] posizioni disponibili come estensioni di posizione; solo destinazioni incluse) Fare clic su **[!UICONTROL Location Group Target]** (![Gruppo di posizioni](/help/search-social-commerce/assets/location-group.png "Gruppo di posizioni")); è possibile inserire un paese, uno stato, un&#39;area metropolitana o una città per visualizzare l&#39;elenco delle posizioni disponibili e quindi selezionare una o più posizioni dall&#39;elenco di [!DNL Google My Business] posizioni. Specifica il raggio in miglia o chilometri intorno alle posizioni di destinazione, quindi fai clic su **[!UICONTROL Add]**.
 
 * Per aggiungere un adeguamento offerta per un&#39;ubicazione di destinazione inclusa, immettere un valore di adeguamento offerta:
 
