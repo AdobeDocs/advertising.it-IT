@@ -3,9 +3,9 @@ title: Inventario supportato
 description: Fai riferimento alle reti di annunci supportate, ai tipi di campagne e ai tipi di annunci.
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: 3bdc21ee649ddc16e144bfa15e16eeac27dfe5d0
+source-git-commit: 8540bfad431c82c52f54e17d7d82c0ac94213663
 workflow-type: tm+mt
-source-wordcount: '2662'
+source-wordcount: '2710'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 0%
 # Inventario supportato
 
 Di seguito sono riportati i tipi di reti, campagne e annunci supportati e le funzionalità disponibili per ciascuno di essi.
+
+>[!TIP]
+>
+>La tabella seguente è larga. Se necessario, utilizzare la barra di scorrimento nella parte inferiore della tabella per visualizzare l&#39;intero contenuto. È inoltre possibile nascondere temporaneamente il sommario facendo clic su ![Nascondi sommario](/help/dsp/assets/hide-toc.png "Nascondi sommario") nella parte superiore del riquadro sinistro.
 
 | Sorgente | Rete | Tipo di campagna | Tipo di annuncio | Sincronizza e visualizza | Crea/Modifica | Traccia[^1] | Ottimizza | Report[^2] | Supporto Adobe Analytics[^3] |
 |----|----|----|----|----|----|----|----|----|----|
