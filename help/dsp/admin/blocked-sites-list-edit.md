@@ -3,9 +3,9 @@ title: Modificare un elenco di siti bloccati a livello di account o di inserzion
 description: Scopri come gestire l’elenco dei siti bloccati per un account o un inserzionista.
 role: User, Admin
 exl-id: b2261b3a-ead2-4d88-a363-66c53653de1a
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 0e771df5470c287702850a227f9ac20d5679b775
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
       * Per rimuovere un singolo valore, fare clic su **X** accanto al valore.
 
-   * (Facoltativo) Per esportare l&#39;elenco in un foglio di calcolo di Microsoft Excel in formato con valori separati da virgola (CV), fare clic su **Esporta**.
+   * (Facoltativo) Per esportare l&#39;elenco in una [!DNL Microsoft Excel]  in formato con valori separati da virgole (CV), fai clic su **Esporta**.
 
 >[!MORELIKETHIS]
 >
