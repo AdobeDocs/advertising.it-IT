@@ -3,9 +3,9 @@ title: Partner SSP
 description: Consulta un elenco della piattaforma lato offerta (SSP, Supply-Side Platform) e dei partner di scambio aperti.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 4e4d5ac29b7da2a93788d6faba30d243e3442805
+source-git-commit: dda4a3dcd8d2cb35269ffcb6c600efdde57f2c90
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ Una piattaforma lato offerta (SSP, supply-side platform) è una piattaforma tecn
 >[!NOTE]
 >
 >Tutte le partnership relative alla SSP sono soggette a modifiche. L&#39;elenco riflette le attuali partnership.
+
+>[!TIP]
+>
+>La tabella seguente è larga. Utilizzare la barra di scorrimento nella parte inferiore della tabella per visualizzare l&#39;intero contenuto.
 
 | SSP elencato | Azienda | ID postazione | Supporto programmatico garantito | Regione | Valuta supportata | Desktop video | Video Mobile | Videocamere CTV | Display Desktop | Visualizza mobile | Visualizzazione nativa | Audio, desktop e dispositivi mobili |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |
