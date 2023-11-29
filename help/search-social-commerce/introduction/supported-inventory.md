@@ -3,16 +3,16 @@ title: Inventario supportato
 description: Fai riferimento alle reti di annunci supportate, ai tipi di campagne e ai tipi di annunci.
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: b42f4065b6fd346dbee2ddfa802ca6947772c963
+source-git-commit: 06a14b364e41ca37725abb279b40cfa79bd3fd23
 workflow-type: tm+mt
-source-wordcount: '2710'
+source-wordcount: '2712'
 ht-degree: 0%
 
 ---
 
 # Inventario supportato
 
-Di seguito sono riportati i tipi di reti, campagne e annunci supportati e le funzionalità disponibili per ciascuno di essi.
+Di seguito sono riportati i tipi di reti di annunci, campagne e annunci supportati e le funzionalità disponibili per ciascun tipo di annuncio.
 
 >[!TIP]
 >
