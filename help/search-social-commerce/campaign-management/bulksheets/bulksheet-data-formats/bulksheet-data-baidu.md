@@ -3,9 +3,9 @@ title: Dati bulksheet richiesti per [!DNL Baidu] account
 description: Fai riferimento ai campi di intestazione e ai campi di dati obbligatori nei bulksheet per [!DNL Baidu] account.
 exl-id: 9680cb37-50d4-4b4b-b359-ac54267cd5e6
 feature: Search Bulksheets
-source-git-commit: 255bdcd1e14bd1204b3b0a73034029ba7f4ef965
+source-git-commit: db4a7e2f2fa312a9091accda7d38197ac0efe015
 workflow-type: tm+mt
-source-wordcount: '1930'
+source-wordcount: '1932'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Location,Excluded IPs (Baidu), 
 
 >[!TIP]
 >
->La tabella seguente è larga. Se necessario, utilizzare la barra di scorrimento nella parte inferiore della tabella per visualizzare l&#39;intero contenuto. È inoltre possibile nascondere temporaneamente il sommario facendo clic su ![Nascondi sommario](/help/search-social-commerce/assets/hide-toc.png "Nascondi sommario") nella parte superiore del riquadro sinistro.
+>La tabella seguente è larga. Se necessario, utilizzare la barra di scorrimento nella parte inferiore della tabella per visualizzare l&#39;intero contenuto. È inoltre possibile nascondere temporaneamente il sommario o il riquadro di destra facendo clic su ![Nascondi riquadro](/help/search-social-commerce/assets/hide-pane.png "Nascondi riquadro") nella parte superiore del riquadro sinistro o destro.
 
 | Campo | Campagna | Gruppo di annunci | Parola chiave | Annuncio testo | Destinazione posizione | Descrizione |
 |----|----|----|----|----|----|----|
