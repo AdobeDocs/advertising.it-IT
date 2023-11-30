@@ -3,9 +3,9 @@ title: Partner SSP
 description: Consulta un elenco della piattaforma lato offerta (SSP, Supply-Side Platform) e dei partner di scambio aperti.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: db4a7e2f2fa312a9091accda7d38197ac0efe015
+source-git-commit: e15cc54f09f905ee4d3b448d7e766c1513f12afb
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Una piattaforma lato offerta (SSP, supply-side platform) è una piattaforma tecn
 
 >[!TIP]
 >
->La tabella seguente è larga. Se necessario, utilizzare la barra di scorrimento nella parte inferiore della tabella per visualizzare l&#39;intero contenuto. È inoltre possibile nascondere temporaneamente il sommario o il riquadro di destra facendo clic su ![Nascondi riquadro](/help/dsp/assets/hide-pane.png "Nascondi riquadro") nella parte superiore del riquadro sinistro o destro.
+>La tabella seguente è larga. Se necessario, utilizzare la barra di scorrimento nella parte inferiore della tabella per visualizzare l&#39;intero contenuto. È inoltre possibile nascondere temporaneamente il sommario o il riquadro di destra facendo clic su ![Nascondi riquadro a sinistra](/help/dsp/assets/hide-left-pane.png "Nascondi riquadro a sinistra") nella parte superiore del riquadro di sinistra oppure ![Nascondi riquadro destro](/help/dsp/assets/hide-right-pane.png "Nascondi riquadro destro") nella parte superiore del riquadro destro.
 
 | SSP elencato | Azienda | ID postazione | Supporto programmatico garantito | Regione | Valuta supportata | Desktop video | Video Mobile | Videocamere CTV | Display Desktop | Visualizza mobile | Visualizzazione nativa | Audio, desktop e dispositivi mobili |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |

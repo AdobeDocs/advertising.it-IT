@@ -3,9 +3,9 @@ title: Dati bulksheet richiesti per [!DNL Yandex] account
 description: Fai riferimento ai campi di intestazione e ai campi di dati obbligatori nei bulksheet per [!DNL Yandex] account.
 exl-id: bf5a22dd-75c2-486d-85fd-e042bdb87de3
 feature: Search Bulksheets
-source-git-commit: db4a7e2f2fa312a9091accda7d38197ac0efe015
+source-git-commit: e15cc54f09f905ee4d3b448d7e766c1513f12afb
 workflow-type: tm+mt
-source-wordcount: '1907'
+source-wordcount: '1921'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Me
 
 >[!TIP]
 >
->La tabella seguente è larga. Se necessario, utilizzare la barra di scorrimento nella parte inferiore della tabella per visualizzare l&#39;intero contenuto. È inoltre possibile nascondere temporaneamente il sommario o il riquadro di destra facendo clic su ![Nascondi riquadro](/help/search-social-commerce/assets/hide-pane.png "Nascondi riquadro") nella parte superiore del riquadro sinistro o destro.
+>La tabella seguente è larga. Se necessario, utilizzare la barra di scorrimento nella parte inferiore della tabella per visualizzare l&#39;intero contenuto. È inoltre possibile nascondere temporaneamente il sommario o il riquadro di destra facendo clic su ![Nascondi riquadro a sinistra](/help/search-social-commerce/assets/hide-left-pane.png "Nascondi riquadro a sinistra") nella parte superiore del riquadro di sinistra oppure ![Nascondi riquadro destro](/help/search-social-commerce/assets/hide-right-pane.png "Nascondi riquadro destro") nella parte superiore del riquadro destro.
 
 | Campo | Campagna | Gruppo di annunci | Parola chiave | Annuncio testo | Sitelink | Descrizione |
 |----|----|-----|-----|----|----|----|

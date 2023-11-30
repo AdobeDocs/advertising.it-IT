@@ -3,9 +3,9 @@ title: Inventario supportato
 description: Fai riferimento alle reti di annunci supportate, ai tipi di campagne e ai tipi di annunci.
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: db4a7e2f2fa312a9091accda7d38197ac0efe015
+source-git-commit: e15cc54f09f905ee4d3b448d7e766c1513f12afb
 workflow-type: tm+mt
-source-wordcount: '2714'
+source-wordcount: '2728'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Di seguito sono riportati i tipi di reti di annunci, campagne e annunci supporta
 
 >[!TIP]
 >
->La tabella seguente è larga. Se necessario, utilizzare la barra di scorrimento nella parte inferiore della tabella per visualizzare l&#39;intero contenuto. È inoltre possibile nascondere temporaneamente il sommario o il riquadro di destra facendo clic su ![Nascondi riquadro](/help/search-social-commerce/assets/hide-pane.png "Nascondi riquadro") nella parte superiore del riquadro sinistro o destro.
+>La tabella seguente è larga. Se necessario, utilizzare la barra di scorrimento nella parte inferiore della tabella per visualizzare l&#39;intero contenuto. È inoltre possibile nascondere temporaneamente il sommario o il riquadro di destra facendo clic su ![Nascondi riquadro a sinistra](/help/search-social-commerce/assets/hide-left-pane.png "Nascondi riquadro a sinistra") nella parte superiore del riquadro di sinistra oppure ![Nascondi riquadro destro](/help/search-social-commerce/assets/hide-right-pane.png "Nascondi riquadro destro") nella parte superiore del riquadro destro.
 
 | Sorgente | Rete | Tipo di campagna | Tipo di annuncio | Sincronizza e visualizza | Crea/Modifica | Traccia[^1] | Ottimizza | Report[^2] | Supporto Adobe Analytics[^3] |
 |----|----|----|----|----|----|----|----|----|----|
