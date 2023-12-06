@@ -4,10 +4,10 @@ user-guide-title: Guida di Advertising DSP
 user-guide-description: Scopri le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire e ottimizzare le strategie degli annunci display con Advertising DSP e creare i relativi rapporti.
 breadcrumb-title: Guida di DSP
 index: true
-source-git-commit: 7d5f3028f3f8ff23a97274c182c37477a69c3f48
+source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 6%
+source-wordcount: '931'
+ht-degree: 3%
 
 ---
 
@@ -215,6 +215,15 @@ ht-degree: 6%
       + [Modifica un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
       + [Eliminare un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
       + [[!UICONTROL Report Destination] Impostazioni](/help/dsp/reports/report-destinations/report-destination-settings.md)
++ Planner {#planner}
+   + [Informazioni sullo strumento DSP Planner](/help/dsp/planner/planner-about.md)
+   + [Creazione di un piano di copertura TV collegata](/help/dsp/planner/planner-create.md)
+   + [Duplicare un piano di portata TV collegato](/help/dsp/planner/planner-duplicate.md)
+   + [Modifica di un piano di copertura TV collegato](/help/dsp/planner/planner-edit.md)
+   + [Impostazioni per i piani di copertura TV collegati](/help/dsp/planner/planner-settings.md)
+   + [Esportare una previsione per un piano di copertura TV connessa](/help/dsp/planner/planner-export.md)
+   + [Rigenerare la previsione per un piano di copertura TV collegato](/help/dsp/planner/planner-forecast.md)
+   + [Archiviare un piano di portata TV collegato](/help/dsp/planner/planner-archive.md)
 + Amministrazione {#admin}
    + [Modifica il profilo](/help/dsp/admin/user-own-profile-edit.md)
    + Utenti {#users}
