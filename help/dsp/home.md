@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 0c1880f667ce497637cdf218ed49aaa20d35b652
+source-git-commit: b01b1044e33743a7690c25a8294e35e5cd19ca07
 workflow-type: tm+mt
-source-wordcount: '1759'
+source-wordcount: '1808'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Le seguenti funzioni sono nuove o modificate di recente.
 | Data | Funzionalità | Descrizione | Per Ulteriori Informazioni |
 | ---- | ------- | ----------- | -------------------- |
 | 6 dicembre 2023 | Planner | (Funzione beta) Il nuovo strumento di pianificazione consente di prevedere la portata unica a livello domestico dei posizionamenti di televisori connessi (CTV) in base al budget e ai criteri di targeting specificati. Dopo aver valutato più piani, puoi implementare pacchetti e posizionamenti che si allineano al meglio ai risultati desiderati. | Consulta &quot;[Informazioni sullo strumento DSP Planner](/help/dsp/planner/planner-about.md).&quot; |
+| 27 settembre 2023 | Ottimizzazione | Due nuovi obiettivi di ottimizzazione basati sul REACH: **[!UICONTROL Always Max Bid and Maximize Reach]** e **[!UICONTROL Lowest Cost per Reach]**, ti aiuta a raggiungere il maggior numero possibile di famiglie uniche, dato lo stesso livello di impressioni o spesa, rispettivamente. Entrambi gli obiettivi sono disponibili sia a livello di pacchetto che a livello di posizionamento. | Consulta &quot;[Obiettivi di ottimizzazione e modalità di utilizzo](/help/dsp/optimization/optimization-goals.md).&quot; |
 | 23 agosto 2023 | [!UICONTROL Placements] | Il nuovo strumento di previsione del posizionamento mostra il numero previsto di impression, la spesa e l’offerta massima ottimale per una particolare strategia di targeting. La previsione viene calcolata in base al magazzino complessivo disponibile con il posizionamento e gli utenti univoci disponibili. | Consulta &quot;[Visualizza il rapporto Previsione posizionamento](/help/dsp/campaign-management/reports/placement-forecast.md).&quot; |
 |  |  | Ora puoi associare rapidamente più annunci ai posizionamenti scaricando un file del foglio di calcolo per una campagna o per uno o più posizionamenti, modificando il file per includere valori nella nuova &quot;[!UICONTROL Attached Ad ID]&quot; e quindi caricare il file modificato. Utilizzate la colonna per aggiungere annunci al posizionamento ma non per rimuoverli.<br><br>Per scaricare un elenco di nomi di annunci e [!UICONTROL Ad ID]s, vai a [!UICONTROL Ads] creazione di una visualizzazione personalizzata che includa [!UICONTROL ID] e quindi esportare i dati. | Consulta &quot;[Scaricare le impostazioni di posizionamento in un foglio di calcolo](/help/dsp/campaign-management/qa/qa-sheet-download.md),&quot; &quot;[Colonne delle impostazioni di posizionamento nei fogli di calcolo scaricati/caricati](/help/dsp/campaign-management/qa/qa-sheet-columns.md),&quot; e &quot;[Carica impostazioni di posizionamento in un foglio di calcolo](/help/dsp/campaign-management/qa/qa-sheet-upload.md).&quot;<br><br>Vedi anche &quot;[Esportare dati da una vista Campaign Management](/help/dsp/campaign-management/reports/campaign-export-data.md).&quot; |
 |  | [!UICONTROL Custom Reports] | I rapporti personalizzati ora dispongono di un [!UICONTROL End Date], che può essere fino a quattro mesi. Per i rapporti esistenti, la data di scadenza è il 24 settembre 2023.<br><br>Prima della scadenza di un rapporto, tutti i destinatari e-mail specificati ricevono un avviso e-mail sette giorni e un giorno prima della data di scadenza. Per mantenere il rapporto più a lungo, modifica la data di scadenza nelle impostazioni del rapporto. | Consulta &quot;[Modificare un rapporto personalizzato](/help/dsp/reports/report-edit.md)&quot; e &quot;[Impostazioni report personalizzati](/help/dsp/reports/report-settings.md).&quot; |
