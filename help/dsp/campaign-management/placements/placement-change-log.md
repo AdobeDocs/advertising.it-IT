@@ -3,9 +3,9 @@ title: Visualizzare un registro delle modifiche del posizionamento
 description: Scopri come visualizzare le modifiche apportate al posizionamento.
 feature: DSP Placements
 exl-id: d9fc6ead-0a0e-415d-8352-284db12dde1b
-source-git-commit: bcd4da87642125f173befb1cdff43330ec1145bc
+source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,6 @@ I registri di modifica mostrano le modifiche apportate al posizionamento durante
 >* [Creare un posizionamento](placement-create.md)
 >* [Modificare un posizionamento](placement-edit.md)
 >* [Duplicare un posizionamento](placement-duplicate.md)
->* [Modificare la pianificazione degli annunci per un posizionamento](placement-edit-ad-schedule.md)
+>* [Modificare gli Schedules degli annunci per i posizionamenti](placement-edit-ad-schedule.md)
 >* [Sospendere o attivare un posizionamento](placement-pause-activate.md)
 >* [Impostazioni di posizionamento](placement-settings.md)
-

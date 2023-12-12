@@ -3,9 +3,9 @@ title: Modifica rapida impostazioni di posizionamento chiave
 description: Scopri come modificare rapidamente le impostazioni di posizionamento chiave.
 feature: DSP Placements
 exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,8 @@ Puoi modificare il nome del posizionamento, lo stato, l’offerta massima e il b
 >* [Creare un posizionamento](placement-create.md)
 >* [Modificare un posizionamento](placement-edit.md)
 >* [Duplicare un posizionamento](placement-duplicate.md)
->* [Modificare la pianificazione degli annunci per un posizionamento](placement-edit-ad-schedule.md)
+>* [Modificare gli Schedules degli annunci per i posizionamenti](placement-edit-ad-schedule.md)
 >* [Sospendere o attivare un posizionamento](placement-pause-activate.md)
 >* [Visualizzare il log delle modifiche per un posizionamento](placement-change-log.md)
 >* [Impostazioni di posizionamento](placement-settings.md)
 >* [Video: come modificare i posizionamenti utilizzando gli strumenti di modifica in blocco](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
-
