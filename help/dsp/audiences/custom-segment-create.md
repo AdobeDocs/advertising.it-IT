@@ -3,16 +3,16 @@ title: Creare e implementare un segmento personalizzato
 description: Scopri come creare e implementare un segmento personalizzato per tenere traccia degli utenti esposti agli annunci o degli utenti che visitano le tue pagine web.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 67b59f4f066d25f323620b83b5a0cb49beb3ee04
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
 
 # Creare e implementare un segmento personalizzato
 
-Puoi raccogliere i tuoi dati sul pubblico di prime parti creando e implementando un segmento DSP personalizzato. Puoi utilizzare il segmento per monitorare a) gli utenti esposti agli annunci da dispositivi desktop, mobili e CTV e b) gli utenti che visitano specifiche pagine web. In seguito, puoi eseguire il retargeting degli utenti del segmento con annunci aggiuntivi o impedire agli utenti del segmento di ricevere annunci aggiuntivi.
+Puoi raccogliere i tuoi dati sul pubblico di prime parti creando e implementando un segmento DSP personalizzato. Puoi utilizzare il segmento per monitorare a) gli utenti esposti agli annunci da desktop e dispositivi mobili e b) gli utenti che visitano specifiche pagine web. In seguito, puoi eseguire il retargeting degli utenti del segmento con annunci aggiuntivi o impedire agli utenti del segmento di ricevere annunci aggiuntivi.
 
 >[!NOTE]
 >
@@ -47,10 +47,10 @@ Puoi raccogliere i tuoi dati sul pubblico di prime parti creando e implementando
          1. Fornisci il tag all’inserzionista o al contatto del sito web per la distribuzione.
 
             Il reparto IT dell’inserzionista o un altro gruppo potrebbe dover pianificare la distribuzione dei tag o esserne informato.
-      * Per tenere traccia degli utenti esposti a un&#39;unità pubblicitaria su dispositivi desktop, mobili o CTV:
+
+      * Per tenere traccia degli utenti esposti a un’unità pubblicitaria su dispositivi desktop o mobili:
 
          1. Copia il tag di tracciamento delle impression, etichettato come &quot;[!UICONTROL Desktop or mobile ads].&quot;
-
 
 1. Aggiungi il tag al [!UICONTROL Pixel] per ogni annuncio pertinente o per [!UICONTROL Event Pixels] sezione del [[!UICONTROL Tracking] impostazioni per ogni posizionamento pertinente](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
@@ -71,4 +71,3 @@ Una volta implementato un tag di tracciamento, puoi utilizzare il segmento nei t
 >* [Creare un pubblico riutilizzabile](reusable-audience-create.md)
 >* [Provider di dati di terze parti disponibili](third-party-data-providers.md)
 >* [Impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)
-
