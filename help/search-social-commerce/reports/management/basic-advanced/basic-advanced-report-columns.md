@@ -3,9 +3,9 @@ title: Colonne di report per report di base e avanzati
 description: Scopri le colonne di dati disponibili per i rapporti di base e avanzati.
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 2a4920bc8a9b45061fb0b3773e5a90954ce2dff5
+source-git-commit: 6b820606208b662eaa1f5c4d2e63bb08f1ac5885
 workflow-type: tm+mt
-source-wordcount: '3755'
+source-wordcount: '3749'
 ht-degree: 0%
 
 ---
@@ -190,7 +190,7 @@ ht-degree: 0%
 | [!UICONTROL User SE Account ID] | ID numerico assegnato da Search, Social e Commerce alla rete di annunci. |
 | [!UICONTROL Video Average Play Time] | ([!DNL Meta] solo campagne ) Il tempo medio di riproduzione di un video, incluso il tempo trascorso a riprodurlo, per una singola impression. |
 | [!UICONTROL Video Plays] | ([!DNL Meta] solo campagne) Il numero di volte in cui il video inizia a essere riprodotto, escluse le riproduzioni. |
-| [!UICONTROL Video Played at 25 Percent Count], [!UICONTROL Video Played at 50 Percent Count], [!UICONTROL Video Played at 75 Percent Count], e [!UICONTROLVVideo riprodotto al 100%] | (Annunci video) Il numero di video riprodotti al 25%, 50%, 75% o 100% del percorso. |
+| [!UICONTROL Video Played at 25 Percent Count], [!UICONTROL Video Played at 50 Percent Count], [!UICONTROL Video Played at 75 Percent Count], e [!UICONTROL Video Played at 100 Percent Count] | (Annunci video) Il numero di video riprodotti al 25%, 50%, 75% o 100% del percorso. |
 | [!UICONTROL VideoQuartile25Rate], [!UICONTROL VideoQuartile50Rate], [!UICONTROL VideoQuartile75Rate], e [!UICONTROL VideoQuartile100Rate] | (Annunci video) La percentuale di video riprodotti al 25%, 50%, 75% o 100% del percorso. |
 | [!UICONTROL View Rate] | (Annunci video) Il numero di visualizzazioni o impegni diviso per il numero di volte in cui l’annuncio (impression video e miniature) è stato mostrato. |
 | [!UICONTROL Views] | (Annunci video) Il numero di volte in cui le persone hanno guardato o si sono fidanzate con il tuo annuncio. |
