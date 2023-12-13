@@ -1,24 +1,30 @@
 ---
 title: '''[!DNL Microsoft® Advertising] responsive ad settings"'
 description: Fai riferimento alle impostazioni per [!DNL Microsoft® Advertising] annunci reattivi.
-exl-id: bbe06bdb-c765-4d30-a609-03f476c4ee54
+exl-id: 29404500-d929-4683-be71-150ea8ab805d
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: dae8d3726b48240a2cad7d3e188694f72934295f
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
 # [!DNL Microsoft® Advertising] impostazioni degli annunci reattivi (pubblico)
 
-Il formato di annuncio reattivo è disponibile per gli annunci di pubblico basati su immagini su [!DNL Microsoft® Audience Network]. La rete di annunci assembla dinamicamente gli annunci reattivi utilizzando le combinazioni più efficaci di elementi pubblicitari.
+Il formato responsive ad è disponibile per gli annunci di pubblico basati su immagini, video e video televisivi collegati su [!DNL Microsoft® Audience Network]. La rete di annunci assembla dinamicamente gli annunci reattivi utilizzando le combinazioni più efficaci di elementi pubblicitari.
+
+## [!UICONTROL Ad Settings] (per annunci video) e [!UICONTROL Audience CTV Video Ad Details]
+
+**[!UICONTROL Videos]:** URL di un annuncio video.
+
+**[!UICONTROL Status]:** Lo stato dell’annuncio.
+
+## [!UICONTROL Responsive Ad Details] (per annunci di immagini)
 
 >[!NOTE]
 >
 >La rete di annunci crea automaticamente annunci per le campagne per il pubblico collegate a un negozio di centri commerciali utilizzando le informazioni sui prodotti del negozio e il targeting degli utenti a livello di gruppo di annunci. Non è necessario creare manualmente annunci.
-
-## [!UICONTROL Responsive Ad Details]
 
 **[!UICONTROL Images]:** Fino a 15 immagini JPEG o PNG per l&#39;annuncio. Includere almeno un&#39;immagine con proporzioni 1.91:1. Vedere le proporzioni e le dimensioni consentite per [pubblico e immagini](https://help.ads.microsoft.com/#apex/ads/en/56912/0).
 
