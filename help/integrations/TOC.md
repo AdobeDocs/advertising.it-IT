@@ -4,10 +4,10 @@ user-guide-description: Scopri le integrazioni di Advertising DSP e Advertising 
 breadcrumb-title: Integrazioni con Experience Cloud
 role: User, Developer
 index: true
-source-git-commit: 676b7bb7303369a8e212a27cec99c0e1f88da9ae
+source-git-commit: 5b72ac7dccfd72a1173347e91fe582a55d58fd7b
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 12%
+source-wordcount: '214'
+ht-degree: 11%
 
 ---
 
@@ -45,5 +45,7 @@ ht-degree: 12%
       + [Raccogliere i dati su impression e clic dalle campagne DSP](/help/integrations/audience-manager/media-data-integration/collect.md)
       + [Casi d’uso](/help/integrations/audience-manager/media-data-integration/use-cases.md)
    + [Audience Analytics di Adobe per clienti Advertising](/help/integrations/audience-manager/audience-analytics.md)
-+ [Configurare i test A/B in Adobe Target per gli annunci DSP](/help/integrations/target/ab-tests-dsp.md)
++ Integrazione con Adobe Target {#target}
+   + [Configurare i test A/B in Adobe Target per gli annunci DSP](/help/integrations/target/ab-tests-dsp.md)
+   + [Configurare i test A/B in Adobe Target per annunci Search, Social e Commerce](/help/integrations/target/ab-tests-search.md)
 + [Video Tutorials sulle integrazioni Adobi Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->
