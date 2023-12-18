@@ -3,9 +3,9 @@ title: Partner SSP
 description: Consulta un elenco della piattaforma lato offerta (SSP, Supply-Side Platform) e dei partner di scambio aperti.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: e15cc54f09f905ee4d3b448d7e766c1513f12afb
+source-git-commit: bb8e99e94a1425cf86afc848bae8f2f92b4d487d
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Una piattaforma lato offerta (SSP, supply-side platform) è una piattaforma tecn
 | SSP elencato | Azienda | ID postazione | Supporto programmatico garantito | Regione | Valuta supportata | Desktop video | Video Mobile | Videocamere CTV | Display Desktop | Visualizza mobile | Visualizzazione nativa | Audio, desktop e dispositivi mobili |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | [!DNL AdColony] (in precedenza [!DNL Opera]) | [!DNL Digital Turbine] | [!DNL TubeMogul] | No | Globale | USD | x | x |  | x | x |  |  |
-| [!DNL AdsWizz] | [!DNL Sirius XM (Pandora)] | Adobe Advertising | No | Globale | USD, EUR, GBP |  |  |  |  |  |  | x |
+| [!DNL AdsWizz] | [!DNL Sirius XM (Pandora)] | Adobe Advertising | Sì | Globale | USD, EUR, GBP |  |  |  |  |  |  | x |
 | [!DNL AppNexus] | [!DNL Xandr] | Video Seat ID: 9094<br>ID posto di visualizzazione: 3939 | No | Globale | USD | x | x | x | x | x |  |  |
 | [!DNL DailyMotion] |  | [!DNL TubeMogul] o ADOBE ADVERTISING | No | USA + EMEA | USD, EUR | x | x | x | x | x |  |  |
 | [!DNL EMX Digital] | [!DNL Cadent] | Adobe Advertising | No | US/CA | USD | x | x | x | x | x |  |  |
