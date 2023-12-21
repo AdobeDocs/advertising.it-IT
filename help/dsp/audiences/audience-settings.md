@@ -3,7 +3,7 @@ title: Impostazioni pubblico
 description: Consulta le descrizioni delle impostazioni disponibili per il pubblico.
 feature: DSP Audiences
 exl-id: ea69ed6e-2d68-4ac5-8465-2ee7d798ae1d
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 53b52066eda55b3338a8a11773fdb8924211bddc
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## Segmenti di terze parti
 
-(Facoltativo) Qualsiasi segmento standard disponibile tramite la tassonomia dei dati di terze parti di Adobe Advertising, da includere nella configurazione del pubblico.
+(Facoltativo) Qualsiasi segmento standard disponibile tramite la tassonomia dei dati di terze parti Adobi Advertising da includere nella configurazione del pubblico.
 
 ## Segmenti di prime parti
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## Segmenti Adobe
 
-(Facoltativo) Qualsiasi [!DNL Adobe Real-Time Customer Data Profile], Adobe Analytics o Adobe Audience Manager da includere nella configurazione del pubblico.
+(Facoltativo) Qualsiasi [!DNL Adobe Real-Time Customer Data Platform], Adobe Analytics o Adobe Audience Manager da includere nella configurazione del pubblico.
 
 ## Segmenti personalizzati
 
@@ -41,4 +41,3 @@ ht-degree: 0%
 >* [Creare e implementare un segmento personalizzato](custom-segment-create.md)
 >* [Creare e implementare un [!UICONTROL CCPA Opt-Out-of-Sale] Segmento](ccpa-opt-out-segment-create.md)
 >* [Impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)
-

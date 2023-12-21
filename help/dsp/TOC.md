@@ -4,9 +4,9 @@ user-guide-title: Guida di Advertising DSP
 user-guide-description: Scopri le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire e ottimizzare le strategie degli annunci display con Advertising DSP e creare i relativi rapporti.
 breadcrumb-title: Guida di DSP
 index: true
-source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
+source-git-commit: eb4db7c91d98cd14e9006f0647f964cdf054962f
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '949'
 ht-degree: 3%
 
 ---
@@ -150,7 +150,11 @@ ht-degree: 3%
       + [Sintassi della logica dei segmenti di pubblico](/help/dsp/audiences/audience-segment-logic-syntax.md)
    + Sorgenti {#sources}
       + [Informazioni sull’attivazione di segmenti autenticati da origini pubblico](/help/dsp/audiences/sources/source-about.md)
-      + [Attivare segmenti autenticati dai partner ID resistenti](/help/dsp/audiences/sources/source-durable-id.md)
+      + Flussi di lavoro per piattaforma dati cliente {#sources-workflows}
+         + [!DNL Adobe Real-Time CDP] {#sources-adobe-rt-cdp}
+            + [Flusso di lavoro per l&#39;utilizzo dell&#39;integrazione DSP con [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+            + [Attivare segmenti autenticati dai partner Universal ID](/help/dsp/audiences/sources/source-universal-id.md)
+         + [Flusso di lavoro per l&#39;utilizzo dell&#39;integrazione DSP con [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md)
       + [Creare un’origine di pubblico per attivare tipi di pubblico di prime parti](/help/dsp/audiences/sources/source-create.md)
       + [Impostazioni origine pubblico](/help/dsp/audiences/sources/source-settings.md)
    + [Provider di dati di terze parti disponibili](/help/dsp/audiences/third-party-data-providers.md)
