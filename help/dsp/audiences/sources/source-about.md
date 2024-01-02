@@ -3,9 +3,9 @@ title: Informazioni sull’attivazione di segmenti autenticati da origini pubbli
 description: Scopri come acquisire segmenti di prime parti da una piattaforma di dati cliente.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: e3e8753db31bc835c49eb2037fdcd7696a895a8c
+source-git-commit: f01cfbf22628cec0510f4a860ad927b333d5946a
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ DSP è integrato con [il [!DNL Adobe Real-Time Customer Data Platform (CDP)]](ht
 
 In entrata [!DNL Real-Time CDP], *destinazioni* sono connessioni a piattaforme dati esterne che consentono l’attivazione diretta dei dati. Ad esempio, puoi utilizzare le destinazioni per attivare le relazioni con i clienti note (come gli indirizzi e-mail con hash) per la pubblicità mirata nei formati digitali supportati dall’DSP. Per ulteriori informazioni sulle destinazioni, vedi l’Experience Platform [Guida alle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html), inclusa una panoramica del prodotto, istruzioni per [creazione di aree di lavoro di destinazione](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) e [creazione di connessioni di destinazione](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html), e [attivazione dei dati nelle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
 
-Consulta &quot;[Flusso di lavoro per l&#39;utilizzo dell&#39;integrazione DSP con [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md).&quot;
+Per ulteriori informazioni, consulta la sezione &quot;[Flusso di lavoro per l&#39;utilizzo dell&#39;integrazione DSP con [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md).&quot;
 
 ## [!DNL ActionIQ]
 
@@ -32,7 +32,7 @@ Questa integrazione richiede la personalizzazione. Per ulteriori informazioni, c
 
 ## [!DNL Tealium]
 
-Puoi condividere i dati di prime parti della tua organizzazione da [!DNL Tealium] customer data platform utilizzando [!DNL Amazon Web Services]. Puoi quindi indirizzare i posizionamenti DSP ai segmenti utilizzando [!DNL RampIDs]. Consulta &quot;[Flusso di lavoro per l&#39;utilizzo dell&#39;integrazione DSP con [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md).&quot;
+Puoi condividere i dati di prime parti della tua organizzazione da [!DNL Tealium] customer data platform utilizzando [!DNL Amazon Web Services]. Puoi quindi indirizzare i posizionamenti DSP ai segmenti utilizzando [!DNL RampIDs]. Per ulteriori informazioni, consulta la sezione &quot;[Flusso di lavoro per l&#39;utilizzo dell&#39;integrazione DSP con [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md).&quot;
 
 >[!MORELIKETHIS]
 >
