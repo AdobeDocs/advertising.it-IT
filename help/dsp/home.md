@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: c21f003c3603ff5d8a303f688b11be0a123f920d
+source-git-commit: b013270066876069d4c548bc821dc9d932f0f0d7
 workflow-type: tm+mt
-source-wordcount: '1893'
+source-wordcount: '1949'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Le seguenti funzioni sono nuove o modificate di recente.
 
 | Data | Funzionalità | Descrizione | Per Ulteriori Informazioni |
 | ---- | ------- | ----------- | -------------------- |
+| 10 gennaio 2024 | [!UICONTROL Placements] | Ora puoi personalizzare rapidamente la pianificazione degli annunci per più posizionamenti utilizzando un foglio di calcolo:<ul><li>Puoi scaricare un modello di pianificazione pubblicitaria per i posizionamenti. Puoi modificare le date dei voli e la rotazione degli annunci nel file scaricato, in base alle esigenze.</li><li>Puoi quindi caricare il modello modificato di pianificazione degli annunci.</li></ul> | Consulta &quot;[Modificare gli Schedules degli annunci per i posizionamenti](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md).&quot; |
 | 21 dicembre 2023 | [!UICONTROL Audiences] | La documentazione di è ora disponibile per la condivisione di dati di prime parti da [!DNL Tealium] piattaforma dati cliente con DSP che utilizza [!DNL Amazon Web Services]. Puoi indirizzare i posizionamenti DSP ai segmenti utilizzando [!DNL RampIDs]. All’interno delle impostazioni di posizionamento per [!UICONTROL Audience Targeting], i segmenti condivisi sono disponibili nel [!UICONTROL First Party Segments] elenco. | Consulta &quot;[Informazioni sull’attivazione di segmenti autenticati da origini pubblico](/help/dsp/audiences/sources/source-about.md)&quot; e &quot;[Flusso di lavoro per l&#39;utilizzo dell&#39;integrazione DSP con [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md).&quot; |
 | 6 dicembre 2023 | Planner | (Funzione beta) Il nuovo strumento di pianificazione consente di prevedere la portata unica a livello domestico dei posizionamenti di televisori connessi (CTV) in base al budget e ai criteri di targeting specificati. Dopo aver valutato più piani, puoi implementare pacchetti e posizionamenti che si allineano al meglio ai risultati desiderati. | Consulta &quot;[Informazioni sullo strumento DSP Planner](/help/dsp/planner/planner-about.md).&quot; |
 |  | Ottimizzazione | Sono disponibili due nuovi obiettivi di ottimizzazione basati su clic per tutti gli utenti: **[!UICONTROL Highest ROAS (click focused) - Custom Goal]** e **[!UICONTROL Lowest CPA (click focused) - Custom Goal]**. | Consulta &quot;[Obiettivi di ottimizzazione e modalità di utilizzo](/help/dsp/optimization/optimization-goals.md)&quot; e &quot;[Best practice per l’impostazione di campagne sulle prestazioni](/help/dsp/optimization/campaign-best-practices-performance.md).&quot; |
