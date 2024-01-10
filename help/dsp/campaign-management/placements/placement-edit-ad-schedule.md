@@ -3,7 +3,7 @@ title: Modifica gli Schedules per i Posizionamenti
 description: Scopri come modificare le pianificazioni degli annunci per gli annunci allegati ai posizionamenti.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: 042cd16591869668339a27fa36de57aa1825dd51
+source-git-commit: a001d7fbde6ef1346383925db9179d824eb7bb78
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 0%
@@ -32,13 +32,13 @@ Puoi modificare le date dei voli programmati e la rotazione degli annunci per gl
 
 1. Apri il file scaricato, modifica i campi delle informazioni sul volo per ogni riga dell’annuncio da includere nel volo e salva il file aggiornato:
 
-   **[!UICONTROL Flight N Start Date]** / **[!UICONTROL Flight N End Date]** (ad esempio [!UICONTROL Flight 1 Start Date] e [!UICONTROL Flight 1 End Date]): prima e ultima data del volo. Utilizza il formato AAAA-MM-GG per ogni data. Tutti gli annunci con campi di data di volo vuoti vengono trattati come annunci non partecipanti.
+   * **[!UICONTROL Flight N Start Date]** / **[!UICONTROL Flight N End Date]** (ad esempio [!UICONTROL Flight 1 Start Date] e [!UICONTROL Flight 1 End Date]): prima e ultima data del volo. Utilizza il formato AAAA-MM-GG per ogni data. Tutti gli annunci con campi di data di volo vuoti vengono trattati come annunci non partecipanti.
 
-   **[!UICONTROL Flight N Weight]** (ad esempio [!UICONTROL Flight 1 Weight]): come ruotare gli annunci per un volo. Immetti un valore:
+   * **[!UICONTROL Flight N Weight]** (ad esempio [!UICONTROL Flight 1 Weight]): come ruotare gli annunci per un volo. Immetti un valore:
 
-   * Per ruotare gli annunci di un volo in modo uniforme, immetti &quot;**[!UICONTROL Even]**&quot;.
+      * Per ruotare gli annunci di un volo in modo uniforme, immetti `[!UICONTROL Even]`.
 
-   * Per ruotare gli annunci di un volo in modo non uniforme, immettere il peso relativo in base al quale ruotare ogni annuncio, come percentuale. Il peso totale del volo deve essere pari a 100.
+      * Per ruotare gli annunci di un volo in modo non uniforme, immettere il peso relativo in base al quale ruotare ogni annuncio, come percentuale. Il peso totale del volo deve essere pari a 100.
 
 1. Carica il modello di pianificazione modificato:
 
