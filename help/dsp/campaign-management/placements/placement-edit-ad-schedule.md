@@ -3,9 +3,9 @@ title: Modifica gli Schedules per i Posizionamenti
 description: Scopri come modificare le pianificazioni degli annunci per gli annunci allegati ai posizionamenti.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: d993ffe4a7dceed36ecbae85642e82de271432cd
+source-git-commit: 042cd16591869668339a27fa36de57aa1825dd51
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -30,19 +30,15 @@ Puoi modificare le date dei voli programmati e la rotazione degli annunci per gl
 
    ![Scarica notifica pronta](/help/dsp/assets/download-ready.png "Scarica notifica pronta")
 
-1. Apri il file scaricato, modifica le informazioni sul volo in base alle esigenze e salva il file aggiornato:
+1. Apri il file scaricato, modifica i campi delle informazioni sul volo per ogni riga dell’annuncio da includere nel volo e salva il file aggiornato:
 
-   * Per aggiungere un volo, specifica le date del volo per ogni riga di annuncio da includere nel volo utilizzando **[!UICONTROL Flight N Start Date]** e **[!UICONTROL Flight N End Date]** colonne. Utilizza il formato AAAA-MM-GG per ogni data.
+   **[!UICONTROL Flight N Start Date]** / **[!UICONTROL Flight N End Date]** (ad esempio [!UICONTROL Flight 1 Start Date] e [!UICONTROL Flight 1 End Date]): prima e ultima data del volo. Utilizza il formato AAAA-MM-GG per ogni data. Tutti gli annunci con campi di data di volo vuoti vengono trattati come annunci non partecipanti.
 
-     Ad esempio, per gli annunci del primo volo, inserisci i valori nel campo [!UICONTROL Flight 1 Start Date] e [!UICONTROL Flight 1 End Date] campi. Se le righe dell’annuncio non sono già incluse nel file, inserisci le informazioni richieste nelle nuove righe.
+   **[!UICONTROL Flight N Weight]** (ad esempio [!UICONTROL Flight 1 Weight]): come ruotare gli annunci per un volo. Immetti un valore:
 
-     Tutti gli annunci con campi di data di volo vuoti vengono trattati come annunci non partecipanti.
+   * Per ruotare gli annunci di un volo in modo uniforme, immetti &quot;**[!UICONTROL Even]**&quot;.
 
-   * Per ruotare gli annunci di un volo in modo uniforme, immetti &quot;**[!UICONTROL Even]**&quot; nella relativa **[!UICONTROL Flight N Weight]** campi (come [!UICONTROL Flight 1 Weight]).
-
-   * Per ruotare gli annunci di un volo in modo non uniforme, immettere il peso relativo di cui ruotare ogni annuncio, come percentuale, nel relativo **[!UICONTROL Flight N Weight]** campi (come [!UICONTROL Flight 1 Weight]).
-
-     I pesi totali per ciascun volo devono essere pari a 100.
+   * Per ruotare gli annunci di un volo in modo non uniforme, immettere il peso relativo in base al quale ruotare ogni annuncio, come percentuale. Il peso totale del volo deve essere pari a 100.
 
 1. Carica il modello di pianificazione modificato:
 
