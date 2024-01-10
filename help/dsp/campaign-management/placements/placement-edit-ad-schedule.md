@@ -3,9 +3,9 @@ title: Modifica gli Schedules per i Posizionamenti
 description: Scopri come modificare le pianificazioni degli annunci per gli annunci allegati ai posizionamenti.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: a001d7fbde6ef1346383925db9179d824eb7bb78
+source-git-commit: bc45e96cf091cba3872b20f6ea691e369b29982f
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Puoi modificare le date dei voli programmati e la rotazione degli annunci per gl
 
       * Per ruotare gli annunci di un volo in modo uniforme, immetti `[!UICONTROL Even]`.
 
-      * Per ruotare gli annunci di un volo in modo non uniforme, immettere il peso relativo in base al quale ruotare ogni annuncio, come percentuale. Il peso totale del volo deve essere pari a 100.
+      * Per ruotare gli annunci di un volo in modo non uniforme, immettere il peso relativo in base al quale ruotare ogni annuncio, come percentuale (ad esempio `40` 40%). Il peso totale del volo deve essere pari a 100.
 
 1. Carica il modello di pianificazione modificato:
 
