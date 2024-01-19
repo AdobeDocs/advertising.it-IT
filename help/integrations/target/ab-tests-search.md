@@ -1,7 +1,8 @@
 ---
 title: Configurare test A/B per annunci Search, Social e Commerce in Adobi Advertising Adobe Target
-description: "Scopri come impostare un test A/B in [!DNL Target] per [!DNL Google Ads] e [!DNL Microsoft® Advertising] annunci in Search, Social e Commerce."
-source-git-commit: 3e8290d85aba379ece4b6d488c01e4ddda2b554e
+description: Scopri come impostare un test A/B in [!DNL Target] per [!DNL Google Ads] e [!DNL Microsoft® Advertising] annunci in Search, Social e Commerce.
+exl-id: 564c7d61-beec-40cf-ac68-83d1e87e3008
+source-git-commit: b94541bf8675d535b2f19b26c05235eb56bc6c0b
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%

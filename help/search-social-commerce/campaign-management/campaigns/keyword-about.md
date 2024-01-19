@@ -1,9 +1,9 @@
 ---
 title: Informazioni sulle parole chiave
 description: Scopri le opzioni per le parole chiave consentite e negative.
-exl-id: f9216251-e0ab-43c1-81da-30503ee9f54e
+exl-id: d94c6f3f-0ea3-4792-8a6d-78f3a2af80e8
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Informazioni sulle parole chiave
 
-*[!DNL Baidu], [!DNL Google Ads] e [!DNL Microsoft® Advertising], e [!DNL Yahoo! Japan Ads], e [!DNL Yandex] solo account*
+*[!DNL Google Ads]e [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex], ed esistenti [!DNL Baidu] solo account*
 
 Una parola chiave è una parola o una frase associata a un annuncio. Le impostazioni delle parole chiave includono il tipo di corrispondenza delle parole chiave, il numero massimo di offerte da utilizzare quando l’annuncio viene attivato dalla parola chiave e (alcune reti di annunci) i parametri di tracciamento facoltativi. Le impostazioni a livello di parola chiave prevalgono sulle impostazioni del gruppo di annunci o della campagna.
 

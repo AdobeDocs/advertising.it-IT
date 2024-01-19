@@ -1,18 +1,18 @@
 ---
 title: Gestione annunci
 description: Scopri gli annunci in Search, Social e Commerce, compresi i tipi di annunci disponibili.
-exl-id: 92ae631a-c35a-40ec-9d40-ebce13e3311b
+exl-id: 01bd211d-fe6b-4329-90e1-0e54d626c125
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: b2d578d0e15e647a57353dbfbde666b5e72d79f2
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
 
 # Informazioni sugli annunci
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], e [!DNL Yandex] solo account*
+*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex], ed esistenti [!DNL Baidu] solo account*
 
 Un annuncio può essere visualizzato su un sito web di destinazione (per contenuto, o per campagne di posizionamento); quando un utente cerca una delle parole chiave nel gruppo di annunci (per campagne di ricerca) o per contenuto nel sito web (annunci di ricerca dinamica in [!DNL Google Ads] campagne di sola ricerca); o quando un utente esegue una ricerca rilevante per uno degli elementi nel [!DNL Google Merchant Center] o [!DNL Microsoft® Merchant Center] feed di prodotto (annunci per acquisti in [!DNL Google Ads] o annunci di prodotti in [!DNL Microsoft® Advertising] campagne ).
 

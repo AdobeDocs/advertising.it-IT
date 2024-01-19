@@ -1,11 +1,11 @@
 ---
 title: Glossario
 description: Cfr. definizioni dei termini chiave.
-exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
+exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 11aaafc7f6b888a2cf341cbd7416c609450324fb
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '2024'
+source-wordcount: '2040'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## C-D {#c-d}
 
-**campagna:** Un set di gruppi di annunci in un singolo account di annunci che condividono un budget, un intervallo di tempo, un targeting e altre impostazioni. **Nota:** [!DNL Baidu] non ha il concetto di campagne, ma Search, Social e Commerce crea pseudo-campagne per ogni set di gruppi di annunci correlati in [!DNL Baidu] che sono sincronizzati in Search, Social e Commerce.
+**campagna:** Un set di gruppi di annunci in un singolo account di annunci che condividono un budget, un intervallo di tempo, un targeting e altre impostazioni. **Nota:** [!DNL Baidu] non ha il concetto di campagne, ma Search, Social e Commerce crea pseudo-campagne per ogni set di gruppi di annunci correlati in esistente [!DNL Baidu] account sincronizzati in Search, Social e Commerce.
 
 **campo con distinzione tra maiuscole e minuscole:** Un campo o una query con distinzione tra maiuscole e minuscole tratta le lettere maiuscole (ad esempio C) in modo diverso rispetto alle lettere minuscole (ad esempio c). Ad esempio, Auto viene considerato come un valore diverso da auto.
 

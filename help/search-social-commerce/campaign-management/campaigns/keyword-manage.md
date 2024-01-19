@@ -1,18 +1,18 @@
 ---
 title: Gestire le parole chiave per le offerte
 description: Scopri come creare e gestire parole chiave che possono essere offerte per i gruppi di annunci di ricerca.
-exl-id: c52364bf-a55a-444e-bde8-88d46c2f4813
+exl-id: 79ae5347-8625-4d31-a9fe-f476c041a063
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
 
 # Gestire le parole chiave per le offerte
 
-*[!DNL Baidu], [!DNL Google Ads] e [!DNL Microsoft® Advertising], e [!DNL Yahoo! Japan Ads], e [!DNL Yandex] solo account*
+*[!DNL Google Ads]e [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex], ed esistenti [!DNL Baidu] solo account*
 
 È possibile creare e modificare parole chiave per i gruppi di annunci di ricerca in [tipi di campagna supportati](/help/search-social-commerce/introduction/supported-inventory.md) che eseguono il targeting delle reti di ricerca e di visualizzazione/native all’interno di una [account di rete dell&#39;annuncio sincronizzato](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
 

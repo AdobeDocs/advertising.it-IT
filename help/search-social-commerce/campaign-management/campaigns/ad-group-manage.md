@@ -1,18 +1,18 @@
 ---
 title: Gestire i gruppi di annunci
 description: Scopri come creare e gestire i gruppi di annunci.
-exl-id: b86ea2e9-0d4b-4885-9cc9-b62d2c784017
+exl-id: 66900a1f-f915-497d-9053-9d393845af08
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
 
 # Gestire i gruppi di annunci
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], e [!DNL Yandex] solo account*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex], ed esistenti [!DNL Baidu] solo account*
 
 Un gruppo di annunci include un set di annunci e le relative parole chiave. Un gruppo di annunci in una campagna che esegue il targeting della rete di visualizzazione può includere anche posizionamenti, ovvero posizioni nella rete di visualizzazione in cui possono essere visualizzati gli annunci. Le impostazioni dei gruppi di annunci, applicabili a tutti i componenti del gruppo di annunci, variano in base alla rete di annunci.
 

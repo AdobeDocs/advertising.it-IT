@@ -1,11 +1,11 @@
 ---
 title: Informazioni sugli account di rete degli annunci
 description: Scopri di più sugli account di rete di annunci in Search, Social e Commerce.
-exl-id: fca469f1-502c-415a-897d-03b6e6ba34e8
+exl-id: cb3e650d-721f-48ec-ada3-50bdd7c0375b
 feature: Search Campaign Management
-source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
+source-git-commit: b2d578d0e15e647a57353dbfbde666b5e72d79f2
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Search, Social e Commerce possono tracciare qualsiasi account dell’inserzionis
 
 ## Account sincronizzati tramite API
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising] (in precedenza [!DNL Bing Ads]), [!DNL Yahoo! Display Network], [!DNL Yahoo! Japan Ads], e [!DNL Yandex] account*
+*[!DNL Google Ads], [!DNL Microsoft Advertising] (in precedenza [!DNL Bing Ads]), [!DNL Yahoo! Display Network], [!DNL Yahoo! Japan Ads], [!DNL Yandex], ed esistenti [!DNL Baidu] account*
 
 Sincronizzazioni di Search, Social e Commerce (*sincronizza*) con account di rete di annunci supportati per monitorare, creare rapporti e visualizzare le prestazioni degli annunci. Per tutte le reti pubblicitarie ad eccezione di [!DNL Yahoo! Display Network], puoi facoltativamente gestire le campagne per il tuo account in Search, Social e Commerce; [!DNL Yahoo! Display Network], le campagne sono di sola lettura. Per tutte le reti di annunci, puoi consentire la funzionalità di ottimizzazione delle offerte sugli annunci negli account gestiti aggiungendole ai portfolio.
 

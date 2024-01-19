@@ -1,11 +1,11 @@
 ---
 title: Gestire gli account di rete degli annunci
 description: Scopri come impostare e gestire i dettagli di un account di rete di annunci.
-exl-id: fd8b38bd-24d0-488c-9e57-a516f5ae67ac
+exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '2086'
+source-wordcount: '2082'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,18 @@ ht-degree: 0%
 
 Di seguito sono riportate le istruzioni per la creazione e la modifica dei dettagli dell&#39;account di rete e per l&#39;aggiornamento di [!DNL oAuth] token per un account e disabilitazione degli account.
 
+Per informazioni dettagliate sulle funzionalità disponibili per ciascuna rete di annunci, vedi &quot;[Inventario supportato](/help/search-social-commerce/introduction/supported-inventory.md).&quot;
+
 ## Crea dettagli account di rete dell’annuncio {#create-account}
 
 *Solo i ruoli utente Responsabile account agenzia, Responsabile account Adobe e Amministratore*
 
-Per abilitare la sincronizzazione o il tracciamento di un account, devi creare un record account corrispondente contenente le credenziali di accesso e le opzioni di tracciamento dell’account e con lo stato *attivo*. Per informazioni dettagliate sulle funzionalità disponibili per ciascuna rete di annunci, vedi &quot;[Inventario supportato](/help/search-social-commerce/introduction/supported-inventory.md).&quot;
+Per abilitare la sincronizzazione o il tracciamento di un account, devi creare un record account corrispondente contenente le credenziali di accesso e le opzioni di tracciamento dell’account e con lo stato *attivo*.
 
 >[!NOTE]
 >
->Per creare un account effettivo sulla rete di annunci, vai al sito web della rete di annunci.
+>* Il supporto non è disponibile per i nuovi [!DNL Baidu] account.
+>* Per creare un account effettivo sulla rete di annunci, vai al sito web della rete di annunci.
 
 1. Nel menu principale, fai clic su **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Nel sottomenu, fai clic su **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
@@ -156,11 +159,11 @@ Per [!DNL Microsoft Advertising] account, solo [!DNL oAuth]-è possibile utilizz
 
 **[!UICONTROL Login Details]: [!UICONTROL Login]:** (Tutte le reti pubblicitarie tranne [!DNL Naver]) Il nome o l’ID di accesso per abilitare l’accesso API all’account.
 
-**[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth]-abilitato e tutte le altre reti tranne [!DNL Baidu], [!DNL Meta], e [!DNL Yandex]) Token dell&#39;account per autorizzare gli accessi tramite [[!DNL OAuth] protocollo di autorizzazione](https://oauth.net/2/).
+**[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth]-abilitato e tutte le altre reti tranne [!DNL Meta] e [!DNL Yandex]) Token dell&#39;account per autorizzare gli accessi tramite [[!DNL OAuth] protocollo di autorizzazione](https://oauth.net/2/).
 
-**[!UICONTROL Login Details]: [!UICONTROL Password]:** (Tutte le reti pubblicitarie tranne [!DNL Naver]) La password dell&#39;account. Per gli account abilitati per le password su [!DNL Baidu], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], e [!DNL Yandex], questo campo è obbligatorio. Per [!DNL oAuth]-enabled account, questo campo è facoltativo; utilizzalo quando desideri crittografare e salvare la password in modo che l’account manager possa aggiornare i token in base alle esigenze.
+**[!UICONTROL Login Details]: [!UICONTROL Password]:** (Tutte le reti pubblicitarie tranne [!DNL Naver]) La password dell&#39;account. Per gli account abilitati per le password su [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], e [!DNL Yandex], questo campo è obbligatorio. Per [!DNL oAuth]-enabled account, questo campo è facoltativo; utilizzalo quando desideri crittografare e salvare la password in modo che l’account manager possa aggiornare i token in base alle esigenze.
 
-**[!UICONTROL Login Details]: [!UICONTROL Access Key]:** ([!DNL Baidu] e [!DNL Yandex] solo account) Chiave di accesso per l&#39;account sviluppatore da utilizzare.
+**[!UICONTROL Login Details]: [!UICONTROL Access Key]:** ([!DNL Yandex] solo account) Chiave di accesso per l&#39;account sviluppatore da utilizzare.
 
 **[!UICONTROL Currency]:** Abbreviazione della valuta utilizzata per il conto. Questo campo è modificabile per il nuovo [!DNL Naver] account. Per tutte le altre reti di ricerca, il valore viene compilato automaticamente con la valuta configurata per l’account sulla rete di annunci dopo il salvataggio del record.
 

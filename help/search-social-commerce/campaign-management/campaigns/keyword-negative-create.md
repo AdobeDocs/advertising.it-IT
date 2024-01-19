@@ -1,18 +1,18 @@
 ---
 title: Creare parole chiave negative
 description: Scopri come creare parole chiave negative per campagne di ricerca e gruppi di annunci.
-exl-id: 683e5395-cb65-4d7f-a981-7fc9f84d4192
+exl-id: afe786bf-eda8-4590-b471-3fb696c420de
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
 
 # Creare parole chiave negative
 
-*[!DNL Baidu], [!DNL Google Ads] e [!DNL Microsoft® Advertising], e [!DNL Yahoo! Japan Ads] solo account*
+*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], ed esistenti [!DNL Baidu] solo account*
 
 È possibile creare parole chiave negative per un gruppo di annunci di ricerca o una campagna che esegue il targeting della ricerca o della rete di visualizzazione/nativa. Le parole chiave negative non attivano gli annunci.
 
