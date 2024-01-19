@@ -3,9 +3,9 @@ title: Inventario supportato
 description: Fai riferimento alle reti di annunci supportate, ai tipi di campagne e ai tipi di annunci.
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: ca3d21fdfc770767502ea8757b5140d68a3e6328
+source-git-commit: 728f50419f4ebefc39fffc9d631700c246b3c12b
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2752'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Di seguito sono riportati i tipi di reti di annunci, campagne e annunci supporta
 
 | Sorgente | Rete | Tipo di campagna | Tipo di annuncio | Sincronizza e visualizza | Crea/Modifica | Traccia[^1] | Ottimizza | Report[^2] | Supporto Adobe Analytics[^3] |
 |----|----|----|----|----|----|----|----|----|----|
-| [!DNL Baidu]: *Supporto solo per gli account esistenti in Search, Social e Commerce* | Cerca rete | Manuale | Testo | Automatico tramite API | Modifica ed elimina tramite [visualizzazioni di gestione delle campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) e [bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | Sì | Campagne con strategia di offerta CPC manuale | Dati a livello di annuncio | Dati di Analytics per Ricerca, Social e Commerce<br><br>Dati a livello di annuncio da Search, Social e Commerce ad Analytics |
+| [!DNL Baidu]: *Supporto solo per gli account esistenti in Search, Social e Commerce* | Cerca rete | Manuale | Testo | Automatico tramite API | Utilizzo di [visualizzazioni di gestione delle campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) e [bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | Sì | Campagne con strategia di offerta CPC manuale | Dati a livello di annuncio | Dati di Analytics per Ricerca, Social e Commerce<br><br>Dati a livello di annuncio da Search, Social e Commerce ad Analytics |
 | [!DNL Google Ads] | Tutti [!DNL Google] feed | Individuazione (funzione beta) | Individuazione (annunci a immagine singola)<br><br>Carosello di scoperta (annunci carosello con più immagini) | Automatico tramite API | — | Sì | Solo in portfolio ibridi<br><br>Le offerte e gli obiettivi della strategia di offerta vengono impostati a livello di campagna, insieme ai budget della campagna, in base al tipo di ottimizzazione. | Dati a livello di annuncio | Dati a livello di annuncio per Search, Social e Commerce [utilizzo del codice di tracciamento AMO ID aggiornato](/help/integrations/analytics/ids.md#amo-id-formats)[^4]<br><br>Dati a livello di annuncio da Search, Social e Commerce ad Analytics |
 | | Tutti | Prestazioni standard massime (funzione beta) | Tutti i tipi | Automatico tramite API | Creare/modificare una campagna e caricare le risorse nelle impostazioni della campagna in [!UICONTROL Campaigns] > [!UICONTROL Campaigns]<br><br>Sono disponibili solo le impostazioni richieste. Per le impostazioni facoltative e i gruppi di voci, accedere a [!DNL [!DNL Google Ads] Ads]. | Sì | Solo in portfolio ibridi<br><br>Gli obiettivi della strategia di offerta sono fissati a livello di campagna, insieme ai budget della campagna. | Dati a livello di campagna<br><br>I dati per l’elenco dei gruppi non sono disponibili e la rete di annunci non fornisce dati a livello di annuncio. | Dati di Analytics per Ricerca, Social e Commerce<br><br>Dati a livello di campagna da Search, Social e Commerce ad Analytics. Richiede l&#39;aggiornamento [Codice di tracciamento AMO ID](/help/integrations/analytics/ids.md#amo-id-formats). |
 | | Visualizza rete | Visualizzazione standard | Immagine | Automatico tramite API | Modifica URL e stato solo tramite [bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | Sì, quando aggiungi manualmente i tag di tracciamento dei clic ai modelli di tracciamento all’interno della rete di annunci | — | Dati a livello di annuncio, ma nessun dato view-through | Dati di Analytics per Ricerca, Social e Commerce<br><br>Dati a livello di annuncio da Search, Social e Commerce ad Analytics, ma non dati view-through |
