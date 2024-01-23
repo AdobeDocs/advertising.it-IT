@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft® Advertising] impostazioni della campagna'
 description: Fai riferimento alle impostazioni per [!DNL Microsoft® Advertising] campagne.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 22fd10dec43c43c6f03860e6e4839a8bb8d56017
+source-git-commit: 0b68db50d7f4c40eb2742c3906b79c5347c05f66
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Maximize Conversion Value]:* (Search and shopping/reti di acquisto intelligenti, campagne con le massime prestazioni) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte per massimizzare il valore di conversione. È possibile inserire un **[!UICONTROL Target Return on Ad Spend]** (ROAS) in percentuale. **Nota:** Utilizza questa opzione per le campagne in portfolio ibridi ma non in portfolio standard.
 
-* *[!UICONTROL Maximize Conversions]:* (Campagne nella rete di ricerca <!-- future: and audience network -->, campagne con le massime prestazioni) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte per massimizzare le conversioni. È possibile inserire un **[!UICONTROL Target CPC]** (costo per clic)<!-- future: ; for audience campaigns, you can also enter an optional [!UICONTROL Target CPA] (cost per acquisition) -->. **Nota:** Utilizza questa opzione per le campagne in portfolio ibridi ma non in portfolio standard.
+* *[!UICONTROL Maximize Conversions]:* (Campagne e campagne con prestazioni massime sulla rete di ricerca o sulla rete di pubblico (ma non video di pubblico o TV connessa). La rete di annunci, non Search, Social e Commerce, ottimizza le offerte per massimizzare le conversioni. È possibile inserire un **[!UICONTROL Target CPC]** (costo per clic). Per le campagne per il pubblico, puoi anche inserire un **[!UICONTROL Target CPA]** (costo per acquisizione). **Nota:** Utilizza questa opzione per le campagne in portfolio ibridi ma non in portfolio standard.
 
 * *[!UICONTROL Target CPA]:* (Campagne nella rete di ricerca) La rete di annunci, non Search, Social &amp; Commerce, ottimizza le offerte sulla base di un **[!UICONTROL Target CPA]** (costo per acquisizione), che è l’importo medio di 30 giorni che desideri pagare per un’acquisizione (conversione). **Nota:** Utilizza questa opzione per le campagne in portfolio ibridi (ma non in portfolio standard) con qualsiasi strategia di spesa a eccezione [!UICONTROL Weekly] o [!UICONTROL Google Target CPA].
 
