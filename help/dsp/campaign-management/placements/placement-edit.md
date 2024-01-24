@@ -3,9 +3,9 @@ title: Modificare un posizionamento
 description: Scopri come modificare un posizionamento.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
+source-git-commit: c64d53949b8655f6b7efeaf4d10407a26cf9e9e8
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -55,8 +55,6 @@ Utilizza questa opzione solo quando desideri applicare le stesse modifiche a tut
    1. Seleziona la **[!UICONTROL Edit Mode]**.
 
       Le opzioni variano in base all’impostazione, ma possono includere:
-
-      * **Aggiungi** (per allegare gli annunci)
 
       * **Aggiungi** per mantenere i valori esistenti e aggiungere nuovi valori
 

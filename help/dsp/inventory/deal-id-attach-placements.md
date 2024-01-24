@@ -3,10 +3,10 @@ title: Specifica posizionamenti e annunci per un’offerta privata
 description: Scopri come utilizzare un’offerta privata con posizionamenti e annunci aggiuntivi.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 09119471-429d-413e-8033-e29e1558abb0
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: d6d295119bc974a87840e757877c1507237a6fa2
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 1%
+source-wordcount: '281'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ Per le offerte non garantite, puoi specificare l’offerta come obiettivo di inv
 
 Per offerte programmatiche garantite (PG), puoi creare posizionamenti con annunci specifici dalla [!UICONTROL Deals] visualizzazione.
 
-È inoltre possibile [allega nuovi annunci ai posizionamenti esistenti](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) associati a PG e a offerte non garantite in qualsiasi momento.
+È inoltre possibile [allegare annunci ai posizionamenti](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) associati a PG e a offerte non garantite in qualsiasi momento.
 
 ## Specificare un&#39;operazione non garantita come destinazione di magazzino per un posizionamento
 
@@ -34,7 +34,7 @@ Per offerte programmatiche garantite (PG), puoi creare posizionamenti con annunc
        
        1. Dall’elenco degli annunci disponibili, seleziona la casella di controllo accanto a ogni annuncio che verrà utilizzato per l’offerta.
        
-       1. Clic **[!UICONTROL Apply]**.
+       1. Fai clic su **[!UICONTROL Apply]**.
    
    1. Nella schermata delle impostazioni di posizionamento:
 
@@ -45,7 +45,6 @@ Per offerte programmatiche garantite (PG), puoi creare posizionamenti con annunc
       L’offerta viene impostata automaticamente come destinazione nella sezione Oggetti di inventario. Tutte le altre opzioni di targeting non sono applicabili.
 
       1. Clic **[!UICONTROL Create placement]**.
-
 
 Il posizionamento inizierà a essere eseguito dopo che l’editore avrà attivato l’ID offerta PG.
 
@@ -60,4 +59,3 @@ Il posizionamento inizierà a essere eseguito dopo che l’editore avrà attivat
 >* [Crea manualmente dettagli ID offerta](deal-id-create.md)
 >* [Impostazioni ID offerta manuale](deal-id-settings.md)
 >* [Imposta un&#39;offerta programmatica garantita](programmatic-guaranteed-set-up.md)
-

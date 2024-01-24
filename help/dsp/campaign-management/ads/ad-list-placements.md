@@ -3,9 +3,9 @@ title: Elencare i posizionamenti associati a un annuncio
 description: Scopri come visualizzare i posizionamenti associati a un annuncio.
 feature: DSP Ads
 exl-id: e7c6ce90-b1c9-4ed4-a7db-9e279de15520
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: c3844b70aee5102e47dc8676064ea5a1e6cacaac
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 0%
 # Elencare i posizionamenti associati a un annuncio
 
 Visualizza un elenco di posizionamenti associati a un annuncio per visualizzare i dati sulle prestazioni per posizionamento e, se necessario, modifica le impostazioni di posizionamento.
+
+Vedi anche &quot;[Visualizza annunci allegati ai posizionamenti](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#view-ads-campaign).&quot;
 
 1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
 1. Fai clic sul nome della campagna.
@@ -25,4 +27,3 @@ Visualizza un elenco di posizionamenti associati a un annuncio per visualizzare 
 >* [Modificare un annuncio](ad-edit.md)
 >* [Modificare un posizionamento](/help/dsp/campaign-management/placements/placement-edit.md)
 >* [Visualizzare un rapporto dettagliato per un posizionamento](/help/dsp/campaign-management/placements/placement-view-report.md)
-
