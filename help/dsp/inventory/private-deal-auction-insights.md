@@ -3,9 +3,9 @@ title: Visualizza informazioni sulle aste per un'offerta privata
 description: Scopri come utilizzare le informazioni sulle aste per analizzare la composizione dell’offerta privata.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: bbb99f6a-0276-4eb8-9607-75500d5634d9
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -51,5 +51,4 @@ I grafici a superficie sono disponibili per i seguenti attributi d&#39;asta:
 >* [Informazioni sull’inventario privato](private-inventory-about.md)
 >* [Specifica posizionamenti e annunci per un ID offerta](deal-id-attach-placements.md)
 >* [Visualizzare un rapporto dettagliato per un&#39;offerta](deal-view-report.md)
->* [Informazioni Sui Rapporti In-Platform](/help/dsp/campaign-management/reports/campaign-reports-about.md)
-
+>* [Informazioni sui rapporti sulle prestazioni nelle visualizzazioni di Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)

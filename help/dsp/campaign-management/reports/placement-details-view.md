@@ -3,9 +3,9 @@ title: Visualizzare i siti, gli annunci, la frequenza e i dettagli di inventario
 description: Scopri come visualizzare i siti target, gli annunci, la frequenza e i dati di inventario per un posizionamento.
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ Posizionamento [!UICONTROL Inspector] elenca tutti i siti di destinazione, gli a
       1. Fai clic sul nome della campagna.
 
       1. Fai clic su **[!UICONTROL Placements]** scheda.
+
    * Visualizza tutti i posizionamenti all’interno del pacchetto principale:
 
       1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
@@ -32,7 +33,6 @@ Posizionamento [!UICONTROL Inspector] elenca tutti i siti di destinazione, gli a
       1. Fai clic su **[!UICONTROL Packages]** scheda.
 
       1. Fare clic sul nome del pacchetto padre.
-
 
 1. Tenete premuto il cursore sulla riga di posizionamento e fate clic su **[!UICONTROL More]** e quindi fare clic su un&#39;opzione:
 
@@ -44,12 +44,9 @@ Posizionamento [!UICONTROL Inspector] elenca tutti i siti di destinazione, gli a
 
    * Per visualizzare tutte le offerte con targeting di posizionamento, fai clic su **[!UICONTROL Inventory]**.
 
-1. (Facoltativo) [Modificare la vista a colonne](column-view-change.md) in base alle esigenze, per visualizzare le metriche richieste.
+1. (Facoltativo) [Modificare la vista a colonne](campaign-data-views-manage.md#column-view-change) in base alle esigenze, per visualizzare le metriche richieste.
 
 >[!MORELIKETHIS]
 >
->* [Informazioni Sui Rapporti In-Platform](campaign-reports-about.md)
->* [Informazioni sulle visualizzazioni dati di Campaign](campaign-data-views-about.md)
->* [Modificare la vista a colonne](column-view-change.md)
->* [Gestire le visualizzazioni dati](campaign-data-visualization-manage.md)
-
+>* [Informazioni sui rapporti sulle prestazioni nelle visualizzazioni di Campaign Management](campaign-reports-about.md)
+>* [Gestire le visualizzazioni dati della campagna](campaign-data-views-manage.md)

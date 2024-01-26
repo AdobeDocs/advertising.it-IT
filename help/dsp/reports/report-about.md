@@ -3,9 +3,9 @@ title: Informazioni sui report personalizzati
 description: Scopri le opzioni per la creazione manuale di rapporti personalizzati o l’utilizzo di modelli di rapporto preconfigurati.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 085e2c40ae65a5bb93c3d1a13036342d2670226b
+source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '755'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Puoi generare i rapporti una volta o pianificarli in modo che vengano generati o
      >
      >Questo rapporto include dati sul segmento di fatturazione. Se a un utente o a un dispositivo viene trasmessa un’impression che appartiene a più segmenti, a un solo segmento fatturabile viene attribuita l’impression.
 
-   * **[!UICONTROL Conversion]:** Utilizza questo rapporto per comprendere le prestazioni delle campagne in base alle metriche di conversione acquisite utilizzando il tracciamento delle conversioni di Adobe Advertising. Questo rapporto include l’attribuzione multi-touch.
+   * **[!UICONTROL Conversion]:** Utilizza questo rapporto per comprendere le prestazioni delle campagne in base alle metriche di conversione acquisite utilizzando il tracciamento delle conversioni di Adobi Advertising. Questo rapporto include l’attribuzione multi-touch.
 
    * **[!UICONTROL Device]:** Utilizza questo modello precompilato per visualizzare le metriche chiave per dimensioni relative al dispositivo.
 
@@ -89,6 +89,6 @@ Impostazioni account in [!UICONTROL Settings] > [!UICONTROL Account] indicare a)
 >* [Creare un rapporto personalizzato](/help/dsp/reports/report-create.md)
 >* [Impostazioni report personalizzati](/help/dsp/reports/report-settings.md)
 >* [Domande frequenti sui rapporti sulle famiglie](/help/dsp/reports/faq-household-report.md)
->* [Informazioni Sui Rapporti In-Platform](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Informazioni sui rapporti sulle prestazioni nelle visualizzazioni di Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Colonne report disponibili](/help/dsp/reports/report-columns.md)
 >* [Informazioni su [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)

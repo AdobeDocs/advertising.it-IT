@@ -3,9 +3,9 @@ title: Esportare dati da una vista Campaign Management
 description: Scopri come esportare i dati da un qualsiasi tipo di visualizzazione di gestione delle campagne a un file di foglio di calcolo.
 feature: DSP Campaign Data Views
 exl-id: 181b2648-5c8c-47e5-b4bc-5733dd7f47b7
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Informazioni Sui Rapporti In-Platform](campaign-reports-about.md)
->* [Modificare la vista a colonne](column-view-change.md)
->* [Filtrare i dati della campagna](campaign-data-filter.md)
->* [Ordinare una colonna di dati](campaign-data-sort.md)
-
+>* [Informazioni sui rapporti sulle prestazioni nelle visualizzazioni di Campaign Management](campaign-reports-about.md)
+>* [Gestire le visualizzazioni dati della campagna](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)

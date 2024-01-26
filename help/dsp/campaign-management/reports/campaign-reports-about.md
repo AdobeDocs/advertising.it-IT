@@ -1,18 +1,17 @@
 ---
-title: Informazioni Sui Rapporti In-Platform
+title: Informazioni sui rapporti sulle prestazioni nelle visualizzazioni di Campaign Management
 description: Scopri i dati del rapporto inclusi nelle visualizzazioni di gestione della campagna.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 833e3d3a15546518ec627f859d601285e30381b7
+source-git-commit: 3f1095fe08e6bc6bf9c942b70295ac06d64ff852
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
 
-# Informazioni Sui Rapporti In-Platform
+# Informazioni sui rapporti sulle prestazioni nelle visualizzazioni di Campaign Management
 
-<!-- rename "About Performance Reports in Campaign Management Views?" -->
 Le visualizzazioni di gestione della campagna includono dati di rapporto completi. I rapporti disponibili ti aiutano a identificare i pacchetti e i posizionamenti che stanno ottenendo buoni risultati e quelli che richiedono la tua attenzione. I pulsanti di azione rapida consentono inoltre di migliorare la produttività.
 
 ## Visualizzazione di tutte le campagne
@@ -21,7 +20,7 @@ Il [!UICONTROL Campaigns] visualizza consente di aprire un set di grafici dei da
 
 ### Vista grafico {#chart-view}
 
-È possibile [personalizzare i grafici di tendenza delle serie temporali](campaign-data-visualization-manage.md) in tutte le campagne utilizzando tre metriche. Per impostazione predefinita, i dati per [!UICONTROL Net Spend], [!UICONTROL Impressions], e [!UICONTROL Net CPM] sono inclusi in grafici separati (grafici a tre linee). Facoltativamente, puoi modificare le metriche. Per abilitare i dati orari nei grafici di andamento delle serie temporali, modificare la selezione della data in un singolo giorno ([!UICONTROL Today], [!UICONTROL Yesterday]o un giorno specifico).
+È possibile [personalizzare i grafici di tendenza delle serie temporali](campaign-data-views-manage.md#data-visualizations-manage) in tutte le campagne utilizzando tre metriche. Per impostazione predefinita, i dati per [!UICONTROL Net Spend], [!UICONTROL Impressions], e [!UICONTROL Net CPM] sono inclusi in grafici separati (grafici a tre linee). Facoltativamente, puoi modificare le metriche. Per abilitare i dati orari nei grafici di andamento delle serie temporali, modificare la selezione della data in un singolo giorno ([!UICONTROL Today], [!UICONTROL Yesterday]o un giorno specifico).
 
 ![grafici di tendenza separati per tre metriche](/help/dsp/assets/trend-chart-separate.png)
 
@@ -33,9 +32,9 @@ Facoltativamente, puoi anche sovrapporre le tre metriche per rilevare facilmente
 
 ![Elenco campagne](/help/dsp/assets/campaigns-list.png)
 
-Per impostazione predefinita, ogni riga della campagna include metriche di velocità e consegna. Le metriche del ritmo includono [!UICONTROL Gross Spend (Lifetime)], che include un indicatore della spesa effettiva nel target rispetto alla spesa prevista nel target in tutti i pacchetti della campagna, in modo da identificare immediatamente le campagne con prestazioni insoddisfacenti. Facoltativamente puoi [modificare la vista a colonne](column-view-change.md) o pari [creare una vista a colonne personalizzata](column-view-create.md).
+Per impostazione predefinita, ogni riga della campagna include metriche di velocità e consegna. Le metriche del ritmo includono [!UICONTROL Gross Spend (Lifetime)], che include un indicatore della spesa effettiva nel target rispetto alla spesa prevista nel target in tutti i pacchetti della campagna, in modo da identificare immediatamente le campagne con prestazioni insoddisfacenti. Facoltativamente puoi [modificare la vista a colonne](campaign-data-views-manage.md#column-view-change) o pari [creare una vista a colonne personalizzata](campaign-data-views-manage.md#column-view-create).
 
-Ulteriori informazioni [personalizzare le tabelle dati](campaign-data-views-about.md) in altri modi e [filtrare i dati visibili](campaign-data-filter.md).
+Ulteriori informazioni [personalizzare le tabelle dati](campaign-data-views-manage.md#data-tables-manage) in altri modi e [filtrare i dati visibili](campaign-data-views-manage.md#filter-data-tables).
 
 <!--
 An "Alerts" column indicates when a campaign (or any child entity under it) has an issue. Alert indicators include "Critical" (![Critical](/help/dsp/assets/indicator-critical.png "Critical")) and "Warning" (![Warning](/help/dsp/assets/indicator-warning.png "Warning")). See "[View Alerts and Notifications](campaign-alerts.md) for more information.
@@ -45,19 +44,19 @@ Per visualizzare una campagna più dettagliatamente, fai clic sul nome della cam
 
 ## Reporting per singola campagna {#single-campaign-reporting}
 
-All’interno di una campagna, puoi filtrare i dati in base all’entità della campagna: [!UICONTROL Packages], [!UICONTROL Placements], e [!UICONTROL Ads]. Ulteriori informazioni [filtrare i dati visibili](campaign-data-filter.md) per includere solo i pacchetti, i posizionamenti o gli annunci che desideri visualizzare.
+All’interno di una campagna, puoi filtrare i dati in base all’entità della campagna: [!UICONTROL Packages], [!UICONTROL Placements], e [!UICONTROL Ads]. Ulteriori informazioni [filtrare i dati visibili](campaign-data-views-manage.md#filter-data-tables) per includere solo i pacchetti, i posizionamenti o gli annunci che desideri visualizzare.
 
 ![Schede entità campagna](/help/dsp/assets/campaign-subtabs.png)
 
 ### Vista grafico
 
-Per ogni campagna, puoi [personalizzare i grafici di tendenza delle serie temporali](campaign-data-visualization-manage.md) con tre metriche, disponibili in ogni vista di entità. Le stesse metriche vengono mantenute in tutti i grafici di tendenza per la campagna.
+Per ogni campagna, puoi [personalizzare i grafici di tendenza delle serie temporali](campaign-data-views-manage.md#data-visualizations-manage) con tre metriche, disponibili in ogni vista di entità. Le stesse metriche vengono mantenute in tutti i grafici di tendenza per la campagna.
 
 Consulta la [Sezione &quot;Vista grafico&quot; sulle metriche per più campagne](#chart-view) per ulteriori informazioni.
 
 ### Vista tabella
 
-In ogni scheda di entità, ogni riga include le metriche di velocità e consegna per impostazione predefinita, ma puoi [modificare la vista a colonne](column-view-change.md) o pari [creare una vista a colonne personalizzata](column-view-create.md) da applicare a tutte le schede secondarie della campagna. Ulteriori informazioni [personalizzare le tabelle dati](campaign-data-views-about.md) in altri modi. Ogni tabella di dati include [!UICONTROL Subtotals] riga, che mostra la somma o il valore medio di ciascuna metrica su tutte le righe visibili.
+In ogni scheda di entità, ogni riga include le metriche di velocità e consegna per impostazione predefinita, ma puoi [modificare la vista a colonne](campaign-data-views-manage.md#column-view-change) o pari [creare una vista a colonne personalizzata](campaign-data-views-manage.md#column-view-create) da applicare a tutte le schede secondarie della campagna. Ulteriori informazioni [personalizzare le tabelle dati](campaign-data-views-manage.md#data-tables-manage) in altri modi. Ogni tabella di dati include [!UICONTROL Subtotals] riga, che mostra la somma o il valore medio di ciascuna metrica su tutte le righe visibili.
 
 <!--
 An "Alerts" column indicates when a package, placement, or ad &mdash; or any child entity under a package or placement &mdash; has an issue. Alert indicators include "Critical" (![Critical](/help/dsp/assets/indicator-critical.png "Critical")) and "Warning" (![Warning](/help/dsp/assets/indicator-warning.png "Warning")). See "[View Alerts and Notifications](campaign-alerts.md) for more information.
@@ -110,9 +109,6 @@ Per altre suddivisioni dei dati, visualizza [le pagine di reporting a livello di
 >[!MORELIKETHIS]
 >
 >* [Visualizzare i dettagli di Siti, Annunci e Frequenza per un posizionamento](placement-details-view.md)
->* [Informazioni sulle visualizzazioni dati di Campaign](campaign-data-views-about.md)
->* [Creare una vista a colonne personalizzata](column-view-create.md)
->* [Modificare la vista a colonne](column-view-change.md)
->* [Gestire le visualizzazioni dati](campaign-data-visualization-manage.md)
+>* [Gestire le visualizzazioni dati della campagna](campaign-data-views-manage.md)
 >* [Esportare dati da una vista Campaign Management](campaign-export-data.md)
 >* [Visualizzare un rapporto dettagliato per una campagna](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
