@@ -3,9 +3,9 @@ title: Informazioni sui report personalizzati
 description: Scopri le opzioni per la creazione manuale di rapporti personalizzati o l’utilizzo di modelli di rapporto preconfigurati.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -89,6 +89,6 @@ Impostazioni account in [!UICONTROL Settings] > [!UICONTROL Account] indicare a)
 >* [Creare un rapporto personalizzato](/help/dsp/reports/report-create.md)
 >* [Impostazioni report personalizzati](/help/dsp/reports/report-settings.md)
 >* [Domande frequenti sui rapporti sulle famiglie](/help/dsp/reports/faq-household-report.md)
->* [Informazioni sui rapporti sulle prestazioni nelle visualizzazioni di Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Tipi di rapporti sulle prestazioni nelle visualizzazioni di Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Colonne report disponibili](/help/dsp/reports/report-columns.md)
 >* [Informazioni su [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)

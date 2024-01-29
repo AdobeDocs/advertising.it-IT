@@ -3,9 +3,9 @@ title: Visualizzare i rapporti di diagnostica del posizionamento
 description: Scopri come diagnosticare i problemi relativi alla configurazione e alla velocità del posizionamento.
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,6 @@ I seguenti strumenti possono essere utili per diagnosticare i problemi relativi 
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sui rapporti sulle prestazioni nelle visualizzazioni di Campaign Management](campaign-reports-about.md)
+>* [Tipi di rapporti sulle prestazioni nelle visualizzazioni di Campaign Management](campaign-reports-about.md)
 >* [Visualizza il rapporto Previsione posizionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)

@@ -4,9 +4,9 @@ user-guide-title: Guida di Advertising DSP
 user-guide-description: Scopri le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire e ottimizzare le strategie degli annunci display con Advertising DSP e creare i relativi rapporti.
 breadcrumb-title: Guida di DSP
 index: true
-source-git-commit: 6c117e57471d85fc044a7b814a231037ce89d90c
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '929'
 ht-degree: 3%
 
 ---
@@ -93,9 +93,9 @@ ht-degree: 3%
          + [Impostazioni annuncio video universale](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [Specifiche per i tipi di annunci supportati](/help/dsp/campaign-management/ads/ad-specs.md)
    + Rapporti sulle prestazioni nelle visualizzazioni Campaign Management {#campaign-reports}
-      + [Informazioni sui rapporti sulle prestazioni nelle visualizzazioni di Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+      + [Tipi di rapporti sulle prestazioni nelle visualizzazioni di Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [Esportare dati da una vista Campaign Management](/help/dsp/campaign-management/reports/campaign-export-data.md)
-      + [Visualizzare i dettagli di Siti, Annunci e Frequenza per un posizionamento](/help/dsp/campaign-management/reports/placement-details-view.md)
+      + [Visualizzare i siti, gli annunci, la frequenza e i dettagli di inventario per un posizionamento](/help/dsp/campaign-management/reports/placement-details-view.md)
       + [Visualizza il rapporto Previsione posizionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
       + [Visualizzare i rapporti di diagnostica del posizionamento](/help/dsp/campaign-management/reports/placement-diagnostics.md)
       + [Gestire le visualizzazioni dati della campagna](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)

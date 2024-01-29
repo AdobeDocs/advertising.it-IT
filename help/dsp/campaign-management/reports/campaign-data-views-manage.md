@@ -2,9 +2,9 @@
 title: Gestire le visualizzazioni dati della campagna
 description: Scopri come personalizzare le visualizzazioni dati per campagne, pacchetti, posizionamenti e annunci.
 feature: DSP Campaign Data Views
-source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -171,7 +171,7 @@ In basso a destra di qualsiasi pagina, accanto a **[!UICONTROL Items per page]**
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sui rapporti sulle prestazioni nelle visualizzazioni di Campaign Management](campaign-reports-about.md)
+>* [Tipi di rapporti sulle prestazioni nelle visualizzazioni di Campaign Management](campaign-reports-about.md)
 >* [Visualizzare i dettagli di Siti, Annunci e Frequenza per un posizionamento](placement-details-view.md)
 >* [Visualizza il rapporto Previsione posizionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Visualizzare i rapporti di diagnostica del posizionamento](placement-diagnostics.md)

@@ -3,9 +3,9 @@ title: Modificare un rapporto personalizzato
 description: Scopri come modificare le impostazioni dei rapporti personalizzati.
 feature: DSP Custom Reports
 exl-id: 42208276-d766-41c8-a764-c79a20e302e6
-source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
@@ -27,5 +27,5 @@ ht-degree: 0%
 >* [Eseguire un rapporto personalizzato](/help/dsp/reports/report-run-now.md)
 >* [Eliminare un rapporto personalizzato](/help/dsp/reports/report-delete.md)
 >* [Impostazioni report personalizzati](/help/dsp/reports/report-settings.md)
->* [Informazioni sui rapporti sulle prestazioni nelle visualizzazioni di Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Tipi di rapporti sulle prestazioni nelle visualizzazioni di Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Colonne report disponibili](/help/dsp/reports/report-columns.md)
