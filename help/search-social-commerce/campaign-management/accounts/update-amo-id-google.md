@@ -1,11 +1,11 @@
 ---
 title: Aggiorna il codice di tracciamento AMO ID (s_kwcid) per un [!DNL Google Ads] account
 description: Scopri come passare al codice di tracciamento AMO ID più recente per un [!DNL Google Ads] account.
-exl-id: 82168ee6-43bb-4b8d-882d-5254a1abcb09
+exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: 515c049a45d795fd973b5fcead5f96e71dbf844a
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 *[!DNL Google Ads]solo account*
 
-Il formato legacy per [Codice di tracciamento AMO ID](/help/integrations/analytics/ids.md#amo-id-formats) per esistente [!DNL Google Ads] account non supporta alcune funzioni di Analytics, ad esempio la generazione di rapporti a livello di campagna e di gruppo di annunci per [!DNL Google Ads] campagne con prestazione massima, bozze e campagne di sperimentazione e altri casi d’uso in cui la stessa combinazione di ad+parola chiave+tipo di corrispondenza esiste in più campagne.
+Il formato legacy (precedente a ottobre 2019) per [Codice di tracciamento AMO ID](/help/integrations/analytics/ids.md#amo-id-formats) per esistente [!DNL Google Ads] account non supporta alcune funzioni di Analytics, ad esempio la generazione di rapporti a livello di campagna e di gruppo di annunci per [!DNL Google Ads] campagne con prestazione massima, bozze e campagne di sperimentazione e altri casi d’uso in cui la stessa combinazione di ad+parola chiave+tipo di corrispondenza esiste in più campagne.
 
-Il formato più recente include i parametri per l’ID della campagna e l’ID del gruppo di annunci:
+Il formato corrente include i parametri per l’ID della campagna e l’ID del gruppo di annunci:
 
 ```
 s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}
 ```
 
-Puoi passare al nuovo formato per uno o tutti gli account esistenti, singolarmente. Se non disponi di campagne con prestazione massima o bozze e campagne di sperimentazione, la migrazione al nuovo formato è facoltativa.
+Puoi passare al formato corrente per uno o tutti gli account esistenti, singolarmente. Se non disponi di campagne con prestazione massima o bozze e campagne di sperimentazione, la migrazione al nuovo formato è facoltativa.
 
-Tutte le nuove [!DNL Google Ads] Gli account utilizzano automaticamente il nuovo formato AMO ID.
+Tutte le nuove [!DNL Google Ads] Gli account utilizzano automaticamente il formato AMO ID corrente.
 
 >[!NOTE]
 >

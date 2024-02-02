@@ -3,9 +3,9 @@ title: ID Adobe Advertising utilizzati da [!DNL Analytics]
 description: ID Adobe Advertising utilizzati da [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 3e6c90c1fc36ffc8fd404b5fe589f1f79f69a096
+source-git-commit: 0d48ceda77783cd8b5fd9e609da424dcfa94f278
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1688'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,7 @@ L’AMO ID è anche denominato `s_kwcid`, che a volte viene pronunciato come &qu
 
 Il parametro viene aggiunto agli URL di tracciamento in uno dei seguenti modi:
 
-* (Consigliato) La funzione di inserimento lato server è implementata.
+* (Consigliato) Quando la funzione di inserimento lato server è implementata.
 
    * Clienti DSP: il pixel server aggiunge automaticamente il parametro s_kwcid ai suffissi della pagina di destinazione quando un utente finale visualizza un annuncio con il pixel di Adobe Advertising.
 
@@ -120,7 +120,7 @@ Il parametro viene aggiunto agli URL di tracciamento in uno dei seguenti modi:
 
       * Per altre reti pubblicitarie, o [!DNL Google Ads] e [!DNL Microsoft® Advertising] account con [!UICONTROL Auto Upload] disabilitata, aggiungi manualmente il parametro al tuo [parametri di accodamento a livello di account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, che lo aggiungono agli URL di base.
 
-* La funzione di inserimento lato server non è implementata:
+* Quando la funzione di inserimento lato server non è implementata:
 
    * Clienti DSP: il [Codice JavaScript](javascript.md) registra automaticamente i click-through e i view-through. Se un browser non supporta i cookie di terze parti, puoi comunque tenere traccia delle conversioni basate su clic per i seguenti tipi di annunci:
 
@@ -152,7 +152,7 @@ dove:
 
 Esempio di AMO ID: AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
-#### Formati AMO ID per annunci Search, Social e Commerce
+#### Formati AMO ID per annunci Search, Social e Commerce {#amo-id-format-search}
 
 I parametri variano in base alla rete di annunci, ma i seguenti parametri sono comuni a tutti:
 
