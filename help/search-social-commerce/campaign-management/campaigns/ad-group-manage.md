@@ -3,9 +3,9 @@ title: Gestire i gruppi di annunci
 description: Scopri come creare e gestire i gruppi di annunci.
 exl-id: 66900a1f-f915-497d-9053-9d393845af08
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 06febcd91ff8576c8bf93c8e74475b297e0415bf
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Puoi creare gruppi di annunci all’interno di Search, Social e Commerce per un 
 
 1. Inserisci il [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md), o [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) impostazioni del gruppo di annunci.
 
-   A seconda della rete dell’annuncio, le impostazioni possono essere raggruppate in [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting], e [!UICONTROL URL Options]. Per configurare le impostazioni per [!UICONTROL Negative Keywords] o [!UICONTROL Negative Websites], quando sono disponibili, fai clic su **[!UICONTROL Add Negative Keywords]** o **[!UICONTROL Add Negative Websites]**, rispettivamente.
+   A seconda della rete dell’annuncio, le impostazioni possono essere raggruppate in [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting], e [!UICONTROL URL Options]. Per configurare le impostazioni per [!UICONTROL Adgroup Frequency Cap Settings], [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], quando sono disponibili, fai clic su **[!UICONTROL Add Frequency Cap Settings]**, **[!UICONTROL Add Negative Keywords]**, o **[!UICONTROL Add Negative Websites]**, rispettivamente.
 
 1. Clic **[!UICONTROL Post]**.
 

@@ -3,7 +3,7 @@ title: '''[!DNL Microsoft® Advertising] impostazioni della campagna'
 description: Fai riferimento alle impostazioni per [!DNL Microsoft® Advertising] campagne.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 0b68db50d7f4c40eb2742c3906b79c5347c05f66
+source-git-commit: 6b5c37b02191cf7097eb547f9ad58f347824579c
 workflow-type: tm+mt
 source-wordcount: '1155'
 ht-degree: 0%
@@ -26,9 +26,9 @@ ht-degree: 0%
 
 * *[!UICONTROL Microsoft® Store Ads Campaign]:* (Funzione beta) Promuove le app e i giochi disponibili nel [!DNL Microsoft® Store]. Puoi creare gruppi di annunci secondari, gruppi di prodotti e annunci di prodotti facoltativi per la campagna; [!DNL Microsoft® Advertising] crea automaticamente annunci per i gruppi di prodotti.
 
-* *[!UICONTROL Audience Video]:* (Funzione beta) Mostra annunci video standard sulla rete del pubblico.
+* *[!UICONTROL Audience CTV Video]:* (Funzione beta) Mostra gli annunci video TV connessi (CTV) sulla rete del pubblico.
 
-* *[!UICONTROL Audience Video]:* (Funzione beta) Mostra gli annunci video TV connessi (CTV) sulla rete del pubblico.
+* *[!UICONTROL Audience Video]:* (Funzione beta) Mostra annunci video standard sulla rete del pubblico.
 
 * *[!UICONTROL Performance Max]:* (Funzione beta) Mostra più tipi di annunci su tutte le reti. Assegna gruppi di risorse separatamente all&#39;interno del [!DNL Microsoft® Advertising] editor di annunci.
 

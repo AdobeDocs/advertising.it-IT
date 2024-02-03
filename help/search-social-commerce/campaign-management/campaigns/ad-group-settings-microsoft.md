@@ -1,11 +1,11 @@
 ---
 title: '''[!DNL Microsoft Advertising] impostazioni del gruppo di annunci'
 description: Fai riferimento alle impostazioni per [!DNL Microsoft Advertising] gruppi di annunci.
-exl-id: 5dfa766d-2a42-455d-a340-e72e11a38032
+exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: a31179383fa9c1c9f6eb697d0aa3dd3301d41823
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL Status]:** Lo stato di visualizzazione del gruppo di annunci: *Attivo* o *In pausa*. Il valore predefinito per i nuovi gruppi di annunci è *Attivo*.
 
-**[!UICONTROL Ad Language]:** Lingua di destinazione per gli annunci.<!-- Which campaign types? Not there for audience image-based ad groups. -->
+**[!UICONTROL Ad Language]:** (Campagne di ricerca) La lingua di destinazione per gli annunci.
 
 <!-- **[!UICONTROL Start Date]:** -->
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Networks]
 
-**[!UICONTROL Networks]:** Come e dove inserire annunci all’interno del gruppo di annunci:
+**[!UICONTROL Networks]:** (Ricerca annunci) Come e dove inserire annunci all’interno del gruppo di annunci:
 
 * *[!UICONTROL Only Microsoft Advertising and Yahoo! websites]* (impostazione predefinita): per inserire offerte per annunci sulla rete di ricerca.
 
@@ -105,6 +105,8 @@ Per [!DNL Microsoft Advertising] gruppi di annunci nella rete di pubblico, i mod
 <!-- **[!UICONTROL Custom Parameters]:** -->
 
 {{$include /help/_includes/custom-parameters.md}}
+
+**[!UICONTROL Adgroup Frequency Cap Settings]:** (Facoltativo) Il numero di volte in cui a un cliente verranno distribuiti annunci dal gruppo di annunci. Immettere un valore e selezionare l&#39;unità di tempo (*[!UICONTROL Hour]*, *[!UICONTROL Day]*, o *[!UICONTROL Week]*).
 
 ## [!UICONTROL Negative Keywords]
 
