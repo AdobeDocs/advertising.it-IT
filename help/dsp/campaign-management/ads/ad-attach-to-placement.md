@@ -3,9 +3,9 @@ title: Allega annunci ai posizionamenti
 description: Scopri come allegare un annuncio ai posizionamenti.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 2690117dd4edb66a1bdbdca307bc4f91b0efc059
+source-git-commit: 55a9dd36d64fa42b7ff21714bae6e5afd04d1389
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 1. (Facoltativo) Individua posizionamenti e annunci specifici in base alle esigenze:
 
-   * Nella tabella a sinistra, filtra gli elenchi in base al tipo di posizionamento, allo stato del posizionamento, al tipo di annuncio o allo stato dell’annuncio.
+   * Nella tabella a sinistra, filtra gli elenchi in base al pacchetto, al tipo di posizionamento, allo stato del posizionamento, al tipo di annuncio o allo stato dell’annuncio.
 
    * Nelle tabelle di destra e di sinistra, cerca stringhe di testo specifiche nel posizionamento o nel nome dell’annuncio.
 

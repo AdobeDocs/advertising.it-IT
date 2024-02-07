@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 523bc488bf586901eb7302d9c03dda3cd1f98f2b
+source-git-commit: b0a8cf0784340ebe0fc495ef300aa40036455823
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1982'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Le seguenti funzioni sono nuove o modificate di recente.
 
 | Data | Funzionalità | Descrizione | Per Ulteriori Informazioni |
 | ---- | ------- | ----------- | -------------------- |
+| 7 febbraio 2024 | [!UICONTROL Placements] e [!UICONTROL Ads] | Il [!UICONTROL Ads Tool] ora dispone di un filtro pacchetto. | Consulta &quot;[Allega annunci ai posizionamenti](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
 | 24 gennaio 2024 | [!UICONTROL Placements] e [!UICONTROL Ads] | Il flusso di lavoro per l’associazione di annunci ai posizionamenti è stato riprogettato. | Consulta &quot;[Allega annunci ai posizionamenti](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
 | 10 gennaio 2024 | [!UICONTROL Placements] | Ora puoi personalizzare rapidamente la pianificazione degli annunci per più posizionamenti utilizzando un foglio di calcolo:<ul><li>Puoi scaricare un modello di pianificazione pubblicitaria per i posizionamenti. Puoi modificare le date dei voli e la rotazione degli annunci nel file scaricato, in base alle esigenze.</li><li>Puoi quindi caricare il modello modificato di pianificazione degli annunci.</li></ul> | Consulta &quot;[Modificare gli Schedules degli annunci per i posizionamenti](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md).&quot; |
 | 21 dicembre 2023 | [!UICONTROL Audiences] | La documentazione di è ora disponibile per la condivisione di dati di prime parti da [!DNL Tealium] piattaforma dati cliente con DSP che utilizza [!DNL Amazon Web Services]. Puoi indirizzare i posizionamenti DSP ai segmenti utilizzando [!DNL RampIDs]. All’interno delle impostazioni di posizionamento per [!UICONTROL Audience Targeting], i segmenti condivisi sono disponibili nel [!UICONTROL First Party Segments] elenco. | Consulta &quot;[Informazioni sull’attivazione di segmenti autenticati da origini pubblico](/help/dsp/audiences/sources/source-about.md)&quot; e &quot;[Flusso di lavoro per l&#39;utilizzo dell&#39;integrazione DSP con [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md).&quot; |
