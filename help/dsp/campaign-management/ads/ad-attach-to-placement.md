@@ -3,9 +3,9 @@ title: Allega annunci ai posizionamenti
 description: Scopri come allegare un annuncio ai posizionamenti.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 55a9dd36d64fa42b7ff21714bae6e5afd04d1389
+source-git-commit: 550ccbaf6844b9e9bb10ba5fef7a3cc4e5f2ad9b
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    1. (Facoltativo) Individua posizionamenti e annunci specifici in uno dei seguenti modi:
 
-      * Sopra le tabelle, fai clic su ![Filtro](/help/dsp/assets/filter.png) e filtra gli elenchi in base al tipo di posizionamento, allo stato del posizionamento, al tipo di annuncio o allo stato dell’annuncio.
+      * Sopra le tabelle, fai clic su ![Filtro](/help/dsp/assets/filter.png) e filtrare gli elenchi per pacchetto, tipo di posizionamento, stato posizionamento, tipo di annuncio o stato annuncio.
 
       * Nelle tabelle di destra e di sinistra, cerca stringhe di testo specifiche nel posizionamento e nei nomi degli annunci.
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 1. (Facoltativo) Individua posizionamenti e annunci specifici in base alle esigenze:
 
-   * Nella tabella a sinistra, filtra gli elenchi in base al pacchetto, al tipo di posizionamento, allo stato del posizionamento, al tipo di annuncio o allo stato dell’annuncio.
+   * Sopra la tabella a sinistra, fai clic su ![Filtro](/help/dsp/assets/filter.png) e filtrare gli elenchi per pacchetto, tipo di posizionamento, stato posizionamento, tipo di annuncio o stato annuncio.
 
    * Nelle tabelle di destra e di sinistra, cerca stringhe di testo specifiche nel posizionamento o nel nome dell’annuncio.
 
