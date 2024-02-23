@@ -1,22 +1,22 @@
 ---
-title: Integrazioni di Adobe Advertising con Adobe Analytics
-description: Scopri come Adobe Advertising può scambiare dati con Adobe Analytics e come utilizzarli in Search, Social & Commerce.
+title: Integrazioni Adobi Advertising con Adobe Analytics
+description: Scopri come Adobi Advertising può scambiare dati con Adobe Analytics e come utilizzarli in Search, Social e Commerce.
 feature: Integration with Adobe Analytics
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: 06996ee9eb635fe204c0c3938e6937e8871c8a90
+source-git-commit: 78f69587771d9e72eb137f1e0866d782ed5c4d01
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
 
-# Integrazioni di Adobe Advertising con Adobe Analytics
+# Integrazioni Adobi Advertising con Adobe Analytics
 
-È possibile integrare Adobe Advertising con Analytics nei seguenti modi.
+È possibile integrare Adobi Advertising con Analytics nei seguenti modi.
 
-## Scambia dati tra [!DNL Analytics] e pubblicità Adobe
+## Scambia dati tra [!DNL Analytics] e ADOBE ADVERTISING
 
-### Pull [!DNL Analytics] Dati nella pubblicità Adobe
+### Pull [!DNL Analytics] Dati in Adobe Advertising
 
 Con [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md),[!DNL Search, Social, & Commerce] e DSP interviene:
 
@@ -26,11 +26,11 @@ Con [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics
 
 * **[!DNL Analytics]metriche standard, personalizzate e riservate**
 
-### Inviare dati pubblicitari di Adobi a [!DNL Analytics]
+### Invia dati Adobe Advertising a [!DNL Analytics]
 
-* **Metriche di traffico da Adobe Advertising**
+* **Metriche di traffico da Adobi Advertising**
 
-* **Dimension dalla pubblicità Adobe**
+* **Dimension da Adobe Advertising**
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ Con [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics
 
 <!-- Verify all -->
 
-Entro [!DNL Search, Social, & Commerce], è possibile creare [!DNL Google Ads] I clienti di Google abbinano i tipi di pubblico degli ID utente utilizzando il tuo [!DNL Analytics] segmenti. Sono inclusi i segmenti di Adobe Analytics pubblicati in Adobe Experience Cloud e i segmenti creati utilizzando Adobe Experience Cloud [!DNL Audience Library]. Per ulteriori informazioni, consulta la guida interna al prodotto all’interno di [!DNL Search, Social, & Commerce].
+Entro [!DNL Search, Social, & Commerce], è possibile creare [!DNL Google Ads] I clienti di Google abbinano i tipi di pubblico degli ID utente utilizzando il tuo [!DNL Analytics] segmenti. Sono inclusi i segmenti di Adobe Analytics pubblicati in Adobe Experience Cloud e i segmenti creati utilizzando Adobe Experience Cloud [!DNL Audience Library]. Per ulteriori informazioni, consulta la sezione &quot;[Crea [!DNL Google Ads] audience di corrispondenza cliente da [!DNL Adobe] audience](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md).&quot;
 
 [I clienti abbinano i tipi di pubblico dagli ID utente](https://support.google.com/google-ads/answer/9199250) funziona come un pubblico basato su tag del sito web, ma un ID non PII viene assegnato a membri del pubblico univoci per offrire vantaggi distinti rispetto ai tipi di pubblico standard basati su tag del cliente e del sito web.
 
@@ -58,4 +58,4 @@ Una volta creati i tipi di pubblico, puoi utilizzarli in [!DNL Google Ads] campa
 
 * (Inserzionisti con DSP) Puoi utilizzare il tuo [!DNL Analytics] segmenti come destinazioni per i posizionamenti di annunci. Facoltativamente, puoi includere i segmenti in tipi di pubblico riutilizzabili, che puoi utilizzare come target o esclusioni per più posizionamenti.
 
-* (Inserzionisti con Advertising Creative) Puoi utilizzare il tuo [!DNL Analytics] segmenti come target per creativi specifici nelle esperienze pubblicitarie.
+* (Per gli inserzionisti che utilizzano Advertising Creative) Puoi utilizzare i [!DNL Analytics] segmenti come target per creativi specifici nelle esperienze pubblicitarie.
