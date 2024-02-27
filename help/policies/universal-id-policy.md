@@ -4,7 +4,7 @@ description: Consulta i criteri per l’utilizzo degli ID universali.
 feature: Policies, DSP Ads
 hide: true
 hidefromtoc: true
-source-git-commit: e809a521efc35442b912375cda19516b6be7e90b
+source-git-commit: 90c4e8055b8438e7375968980f5344d7497fbc8f
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Se ricevi una rinuncia dopo i dati effettivi, non utilizzerai più l’ID univer
 
 Non puoi utilizzare i Servizi per effettuare discriminazioni in violazione della legge, incluso il targeting illecito di gruppi specifici di persone per scopi pubblicitari, l&#39;esclusione illecita di gruppi specifici di persone dalla visualizzazione di annunci o la visualizzazione di contenuti discriminatori negli annunci. L’utente è responsabile dell’utilizzo dei Servizi in modo responsabile per evitare discriminazioni nei confronti delle classi protette, tra cui, ma non solo, per garantire che gli annunci non abbiano un impatto disparato sulle classi protette.
 
-## ESPOSIZIONE A: PAESI VIETATI {#prohibited-countries}
+## Allegato A: Paesi vietati {#prohibited-countries}
 
 ### Paesi UE
 
