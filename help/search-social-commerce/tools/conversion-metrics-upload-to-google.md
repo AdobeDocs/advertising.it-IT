@@ -3,7 +3,7 @@ title: Carica metriche di conversione in [!DNL Google Ads]
 description: Scopri come caricare le metriche di conversione tracciate da Search, Social e Commerce in [!DNL Google Ads].
 exl-id: 976792ae-135c-4790-82cf-9503edb93fb1
 feature: Search Tools
-source-git-commit: a004f5025ee94c6a40c24124a9cb134a4e1668ce
+source-git-commit: e8eabf7e4aa7c9201cd8198aae32d325b2858f2b
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 0%
@@ -26,7 +26,7 @@ I caricamenti giornalieri includono `gclid` valore, il valore di conversione def
 
 1. Seleziona la casella di controllo accanto a **[!UICONTROL Upload Conversions to Google Ads]**.
 
-1. (Inserzionisti che svolgono attività commerciali nello Spazio economico europeo (SEE) o nel Regno Unito (UK); facoltativo) Se hai ottenuto il consenso degli utenti di EEA e UK a caricare i loro dati a scopo pubblicitario, seleziona la casella di controllo accanto a **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
+1. (Inserzionisti che svolgono attività commerciali nello Spazio economico europeo (SEE) o nel Regno Unito (UK); facoltativo) Se hai raccolto il consenso degli utenti di EEA e UK a caricare i loro dati a scopo pubblicitario, seleziona la casella di controllo accanto a **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
 
 1. Clic **[!UICONTROL Save]**.
 
