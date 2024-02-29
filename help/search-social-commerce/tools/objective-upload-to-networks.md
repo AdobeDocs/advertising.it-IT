@@ -1,11 +1,11 @@
 ---
 title: Abilita il caricamento degli obiettivi nelle reti di annunci
 description: Scopri come caricare gli obiettivi per i portfolio ibridi in [!DNL Google Ads] e [!DNL Microsoft® Advertising].
-exl-id: 75a1a804-ad6a-4dbc-9cde-30fe54476162
+exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
+source-git-commit: 0fb03410e67be28d24496c948b52399c8465e041
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Carica in [!DNL Google Ads] si verifica ogni giorno alle 06:00 nel fuso orario d
 1. Seleziona la casella di controllo accanto a **[!UICONTROL Enable Objective Upload]**.
 
    Questa opzione è disponibile solo se l’account dell’inserzionista è configurato per l’utilizzo dell’ottimizzazione ibrida. Per abilitare l’ottimizzazione ibrida, contatta il team del tuo account Adobe.
+
+1. (Per gli inserzionisti che [!DNL Google Ads] account che svolgono attività commerciali nello Spazio economico europeo (SEE) o nel Regno Unito (UK); facoltativo) Se hai ottenuto il consenso degli utenti di EEA e UK a caricare i loro dati a scopo pubblicitario, seleziona la casella di controllo accanto a **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
 
 1. Clic **[!UICONTROL Save]**.
 

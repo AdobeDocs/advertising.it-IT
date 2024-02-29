@@ -1,11 +1,11 @@
 ---
 title: Domande frequenti sulle campagne
 description: Vedi le risposte alle domande sulla gestione delle campagne e sulle visualizzazioni dati delle campagne.
-exl-id: b5975869-4bc3-461d-8cb7-eeefab157137
+exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 295d576cff59f1313a317473db6e5f271d55e7da
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1585'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 +++Posso spostare campagne e componenti da un account all’altro?
 
-Non spostare o copiare una campagna o un componente della campagna con un ID univoco in un account con un ID account diverso. In questo modo si verificheranno errori di dati.
+Non spostare o copiare una campagna o un componente della campagna con un ID univoco in un account con un ID account diverso. Questa operazione genera errori di dati.
 +++
 
 +++Quando i dati dei clic vengono aggiornati dalle reti di annunci?
@@ -30,7 +30,7 @@ Inoltre, [!DNL Google Ads] le metriche delle prestazioni a livello di campagna s
 
 >[!NOTE]
 >
->(Inserzionisti con portfolio) Le prestazioni delle nuove combinazioni di parole chiave e tipi di corrispondenza saranno volatili, mentre Search, Social e Commerce raccolgono i dati per creare nuovi modelli.
+>(Inserzionisti con portfolio) Le prestazioni delle nuove combinazioni di parole chiave e tipi di corrispondenza saranno volatili, mentre Search, Social e Commerce raccolgono i dati per creare modelli per tali combinazioni.
 
 **Azioni in [!UICONTROL Search] > [!UICONTROL Campaigns] visualizzazioni, nel processo di pubblicazione di bulksheet e nell’editor proprio della rete di annunci:**
 
@@ -38,11 +38,11 @@ La parola chiave o l’annuncio esistente viene eliminato e ne viene creato un a
 
 * ([!DNL Baidu], [!DNL Google Ads], e [!DNL Yandex]a) È possibile modificare il nome di una parola chiave.
 
-* ([!DNL Google Ads], [!DNL Microsoft Advertising], e [!DNL Yandex]a) È possibile modificare il tipo di corrispondenza di una parola chiave.
+* ([!DNL Google Ads], [!DNL Microsoft® Advertising], e [!DNL Yandex]a) È possibile modificare il tipo di corrispondenza di una parola chiave.
 
 * Sposti una parola chiave tra gruppi di annunci.
 
-* ([!DNL Google Ads] annunci di ricerca dinamica, [!DNL Microsoft Advertising] annunci di testo espansi e tutti i tipi di annunci su altre reti pubblicitarie supportate) Puoi modificare un annuncio copiato (titolo/titolo o descrizione) o un’immagine pubblicitaria.
+* ([!DNL Google Ads] annunci di ricerca dinamica, [!DNL Microsoft® Advertising] annunci di testo espansi e tutti i tipi di annunci su altre reti pubblicitarie supportate) Puoi modificare un annuncio copiato (titolo/titolo o descrizione) o un’immagine pubblicitaria.
 
 * Sposti un annuncio tra gruppi di annunci.
 
@@ -99,7 +99,7 @@ In entrambi i casi, gli URL di base con tracciamento di Search, Social e Commerc
 
 [!DNL Google Ads] le metriche delle prestazioni a livello di campagna sulla rete di ricerca per il giorno corrente vengono richiamate alle 08:00 e alle 16:00 nel fuso orario dell’inserzionista.
 
-In [!UICONTROL Campaigns] in entrambi i [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] e [!UICONTROL Optimization] > [!UICONTROL Portfolios] visualizzazione, quando si crea un rapporto [!UICONTROL Today] Per un intervallo di date personalizzato che includa il giorno corrente, i dati includeranno quelli estratti più di recente.
+In [!UICONTROL Campaigns] in entrambi i [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] e [!UICONTROL Optimization] > [!UICONTROL Portfolios] visualizzazione, quando si crea un rapporto [!UICONTROL Today] Per un intervallo di date personalizzato che include il giorno corrente, i dati includono quelli sincronizzati più di recente.
 
 >[!NOTE]
 >
@@ -107,13 +107,21 @@ In [!UICONTROL Campaigns] in entrambi i [!UICONTROL Search] > [!UICONTROL Campai
 
 +++
 
-+++([!DNL Google Ads] e [!DNL Microsoft Advertising]) Search, Social &amp; Commerce supporta il tracciamento parallelo per gli annunci in [!DNL Google Ads] o [!DNL Microsoft Advertising]?
++++Qual è la differenza tra un modello di tracciamento e un suffisso di pagina di destinazione?
 
-Il tracciamento parallelo invia i clienti direttamente dall’annuncio all’URL finale e l’URL del modello di tracciamento (con la misurazione dei clic) viene caricato in background; di conseguenza, la pagina di destinazione viene caricata più rapidamente.
+Utilizza un suffisso per la pagina di destinazione solo per le reti di annunci che supportano il tracciamento parallelo. In Search, Social e Commerce, sia i modelli di tracciamento che i suffissi delle pagine di destinazione devono includere un identificatore di clic dalla rete pubblicitaria, ma i modelli di tracciamento includono parametri di tracciamento aggiuntivi.
 
-Search, Social e Commerce supportano il tracciamento parallelo per le campagne di ricerca e shopping utilizzando l’identificatore di clic della rete di annunci (`msclkid` per [!DNL Microsoft Advertising]; `gclid` per [!DNL Google Ads]). Utilizza un [a livello account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) o [a livello di campagna](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (denominato &quot;[!DNL final URL suffix]&quot; nelle reti di annunci), che viene aggiunto agli URL della pagina di destinazione per tenere traccia dei clic sugli annunci secondari dai browser che supportano il tracciamento parallelo. Consulta la [formati di suffisso richiesti per [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) e [formati di suffisso richiesti per [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+Consulta le prossime domande frequenti su [supporto del tracciamento parallelo](#parallel-tracking) per ulteriori informazioni su come vengono caricati i modelli di tracciamento e i suffissi delle pagine di destinazione quando un utente fa clic su un annuncio.
 
-Quando un utente visualizza l’annuncio su un browser che non supporta il tracciamento parallelo, la rete di annunci utilizza invece il tracciamento sequenziale: i clienti vengono inizialmente inviati all’URL del modello di tracciamento, che può reindirizzare i clienti ai server di tracciamento intermedi prima di reindirizzarli all’URL finale. Tutti i modelli di tracciamento per un account di rete di annunci devono includere lo stesso parametro dell’identificatore di clic utilizzato nella [!UICONTROL Landing Page Suffix]. Consulta la [formati dei modelli di tracciamento per [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) e [formati dei modelli di tracciamento per [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
++++
+
++++([!DNL Google Ads] e [!DNL Microsoft® Advertising]) Search, Social &amp; Commerce supporta il tracciamento parallelo per gli annunci in [!DNL Google Ads] o [!DNL Microsoft® Advertising]? {#parallel-tracking}
+
+Il tracciamento parallelo invia i clienti direttamente dall’annuncio all’URL finale, che può includere parametri aggiunti da un suffisso URL finale o &quot;suffisso pagina di destinazione&quot;. L’URL del modello di tracciamento (con parametri aggiuntivi per la misurazione dei clic) viene caricato separatamente in background; di conseguenza, la pagina di destinazione viene caricata più rapidamente.
+
+Search, Social e Commerce supportano il tracciamento parallelo per le campagne di ricerca e shopping utilizzando l’identificatore di clic della rete di annunci (`msclkid` per [!DNL Microsoft® Advertising]; `gclid` per [!DNL Google Ads]). Utilizza un [a livello account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) o [a livello di campagna](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (denominato &quot;[!DNL final URL suffix]&quot; nelle reti di annunci), che viene aggiunto agli URL della pagina di destinazione per tenere traccia dei clic sugli annunci secondari dai browser che supportano il tracciamento parallelo. Consulta la [formati di suffisso richiesti per [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) e [formati di suffisso richiesti per [!DNL Microsoft® Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+
+Quando un utente visualizza l’annuncio su un browser che non supporta il tracciamento parallelo, la rete di annunci utilizza invece il tracciamento sequenziale: i clienti vengono inizialmente inviati all’URL del modello di tracciamento, che può reindirizzare i clienti ai server di tracciamento intermedi prima di reindirizzarli all’URL finale (che può includere parametri aggiuntivi nel suffisso di una pagina di destinazione). Tutti i modelli di tracciamento per un account di rete di annunci devono includere lo stesso parametro dell’identificatore di clic utilizzato nella [!UICONTROL Landing Page Suffix]. Consulta la [formati dei modelli di tracciamento per [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) e [formati dei modelli di tracciamento per [!DNL Microsoft® Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 +++
 
 +++Perché gli URL di tracciamento dei miei annunci includono &quot;`&EV_HASH={<hash>}`?&quot;
@@ -129,7 +137,7 @@ Dipende dai requisiti aziendali dell&#39;inserzionista.
 
 Quando sospendi gli annunci, questi vengono riattivati se invii nuovamente lo stesso annuncio o se il livello delle scorte supera il minimo consentito. Questo ti consente di conservare la cronologia dell’annuncio.
 
-Quando elimini gli annunci e li invii nuovamente, vengono creati nuovi annunci e dovranno essere accumulati dati storici. Tuttavia, se non prevedi di inviare nuovamente gli annunci eliminati, non è importante disporre di dati storici.
+Quando elimini gli annunci e li invii nuovamente, vengono creati nuovi annunci e devono essere accumulati dati storici per i nuovi annunci. Tuttavia, se non prevedi di inviare nuovamente gli annunci eliminati, non è importante disporre di dati storici.
 +++
 
 +++(Feed inventario prodotti) Se elimino un modello di annuncio e ne creo uno nuovo e identico, gli elementi mancanti nel file di feed successivo verranno messi in pausa (quando le impostazioni del file di feed sono configurate per farlo)?
