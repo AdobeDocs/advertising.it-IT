@@ -3,16 +3,16 @@ title: Attivare i segmenti autenticati dai partner Universal ID
 description: Scopri come attivare i tipi di pubblico autenticati tramite una soluzione ID universale.
 feature: DSP Audiences
 exl-id: c56a54c7-5300-4cda-96d0-82d86e76ee39
-source-git-commit: e9ff454428d0256402a2ef2fa74f8bd45bd7592f
+source-git-commit: 5d031fe746dc5051320e5d2092f9148b5a8a1bd5
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
 
 # Attivare i segmenti autenticati dai partner Universal ID
 
-Per attivare i tipi di pubblico autenticati tramite una soluzione ID universale in Advertising DSP, i segmenti devono essere tradotti in [!DNL RampIDs], riconoscibili in un ambiente che può essere oggetto di offerte. Per ottenere questo risultato:
+Per attivare i tipi di pubblico autenticati tramite una soluzione ID universale in Advertising DSP, i segmenti devono essere tradotti in [!DNL RampIDs], riconoscibili in un ambiente che può essere oggetto di offerte. A tale scopo, puoi effettuare le seguenti operazioni:
 
 * Sfruttare l’integrazione dell’DSP con [!DNL Adobe Real-Time Customer Data Platform (CDP)] e [!DNL Adobe-LiveRamp Retrieval API].
 
@@ -22,9 +22,9 @@ Per attivare i tipi di pubblico autenticati tramite una soluzione ID universale 
 
 1. Per entrambe le opzioni, contatta `adcloud-support@adobe.com` per abilitare le seguenti impostazioni in DSP, che consentiranno di eseguire il targeting dei segmenti autenticati nelle campagne DSP una volta [tutti i passaggi nel flusso di lavoro di attivazione sono completati](source-adobe-rtcdp.md):
 
-   1. [!DNL LiveRamp] [!DNL RampID] configurazione della campagna prima della condivisione del segmento da [!DNL Real-Time CDP].
+   * [!DNL LiveRamp] [!DNL RampID] configurazione della campagna prima della condivisione del segmento da [!DNL Real-Time CDP]
 
-   1. A livello di account &quot;[!UICONTROL LiveRamp segments]&quot;.
+   * A livello di account &quot;[!UICONTROL LiveRamp segments]Opzione &quot;
 
 1. (Gli utenti condividono manualmente i segmenti autenticati da [!DNL LiveRamp]a) Completa i seguenti passaggi nella [!DNL LiveRamp] [!DNL Connect] dashboard:
 
