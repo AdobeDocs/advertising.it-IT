@@ -1,11 +1,11 @@
 ---
 title: Pubblicare i dati della campagna generati dai feed nelle reti di annunci
 description: Scopri come pubblicare i dati generati dai feed di dati di inventario nelle reti di annunci.
-exl-id: 14ce377c-9b71-48ac-8ead-cada9c06d52f
+exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 6b3c876f17d0e30dcce69048bb4041fc8cd29902
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Per una pubblicazione corretta, tutti i gruppi di annunci devono essere assegnat
 
               Per specificare una data, utilizzare il formato GG/MM/AAAA o GG/M/AAAA oppure fare clic su [Calendario](/help/search-social-commerce/assets/calendar.png "Calendario") per aprire il calendario e [seleziona una data](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Per modificare un&#39;ora, immettere l&#39;ora nel formato di 24 ore HH/MM o H/M oppure selezionare un&#39;ora (in intervalli di 30 minuti) dall&#39;elenco.
 
-         * *[!UICONTROL Preview in Bulksheet Management Area only, post later]:** Crea un file di foglio ausiliario disponibile dal [!UICONTROL Search] > [!UICONTROL Bulksheets] visualizzazione. Facoltativamente, puoi pubblicare il file da lì.
+         * **[!UICONTROL Preview in Bulksheet Management Area only, post later]:** Crea un file di foglio ausiliario disponibile dal [!UICONTROL Search] > [!UICONTROL Bulksheets] visualizzazione. Facoltativamente, puoi pubblicare il file da lì.
 
            Quando il file di bulksheet risultante è superiore a 2 MB, il file è in formato ZIP. Non è necessario decomprimere il file per pubblicarlo.
 
