@@ -3,7 +3,7 @@ title: Pubblicare i dati della campagna generati dai feed nelle reti di annunci
 description: Scopri come pubblicare i dati generati dai feed di dati di inventario nelle reti di annunci.
 exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: 6b3c876f17d0e30dcce69048bb4041fc8cd29902
+source-git-commit: c27665b979ad8e37fd4f92385bb7339af4354d5f
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Per una pubblicazione corretta, tutti i gruppi di annunci devono essere assegnat
 
             * **[!UICONTROL End Time]:** Una data e un’ora future in cui gli annunci pubblicati possono essere messi in pausa o eliminati in base al [impostazione dei dati di feed](feed-settings-manage.md#feed-data-settings) per &quot;[!UICONTROL When the Scheduled End Date is reached].&quot; Per impostazione predefinita, l’ora di fine è alle 00:00 (12:00) 30 giorni a partire da oggi. Seleziona **[!UICONTROL None]** per mantenere i dati attivi indefinitamente (o fino a quando non si propagano nuovi dati per il modello) o specificare una data e un&#39;ora.
 
-              Per specificare una data, utilizzare il formato GG/MM/AAAA o GG/M/AAAA oppure fare clic su [Calendario](/help/search-social-commerce/assets/calendar.png "Calendario") per aprire il calendario e [seleziona una data](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Per modificare un&#39;ora, immettere l&#39;ora nel formato di 24 ore HH/MM o H/M oppure selezionare un&#39;ora (in intervalli di 30 minuti) dall&#39;elenco.
+              Per specificare una data, utilizzare il formato GG/MM/AAAA o GG/M/AAAA oppure fare clic su ![Calendario](/help/search-social-commerce/assets/calendar.png "Calendario") per aprire il calendario e [seleziona una data](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Per modificare un&#39;ora, immettere l&#39;ora nel formato di 24 ore HH/MM o H/M oppure selezionare un&#39;ora (in intervalli di 30 minuti) dall&#39;elenco.
 
          * **[!UICONTROL Preview in Bulksheet Management Area only, post later]:** Crea un file di foglio ausiliario disponibile dal [!UICONTROL Search] > [!UICONTROL Bulksheets] visualizzazione. Facoltativamente, puoi pubblicare il file da lì.
 
