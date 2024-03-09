@@ -3,9 +3,9 @@ title: Informazioni sulla gestione dell’audience in Advertising DSP
 description: Scopri le funzioni di gestione dell’audience.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: 0979032c6dff9cfe7b5fb7deb10f53114efffb7e
+source-git-commit: e2387f7e373e69c72e97ee83eff8f6a7ce9ceed5
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,11 @@ Per il targeting del posizionamento sono disponibili anche altri tipi di pubblic
 
 ## Importazione di segmenti di dati di prime e terze parti
 
-DSP può importare i tuoi segmenti di dati di prime parti dalla tua piattaforma di gestione dati (DMP) e fornirli a qualsiasi gruppo di inserzionisti, in base alle esigenze.
+L’DSP può tradurre i segmenti di prime parti in ID universali per il targeting senza cookie e puoi renderli disponibili per qualsiasi inserzionista o account. DSP ha stabilito i connettori per [il [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=it) e altri CDP. Per ulteriori informazioni, vedere [Sezione Sources](/help/dsp/audiences/sources/source-about.md).
 
-DSP è una destinazione integrata per [il [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=it), che consente di condividere segmenti autenticati di prime parti con inserzionisti e utenti approvati per l’attivazione della campagna. Per ulteriori informazioni sull’integrazione di Real-Time CDP, consulta [Sezione Sources](/help/dsp/audiences/sources/source-about.md).
+L’DSP può anche importare altri segmenti di dati di prime parti direttamente dalla piattaforma di gestione dati (DMP, data management platform) e fornirli a qualsiasi gruppo di inserzionisti, in base alle esigenze.
 
-DSP può anche importare segmenti di terze parti personalizzati, incluse combinazioni complesse di segmenti di terze parti. Puoi fornire i segmenti a qualsiasi gruppo di inserzionisti, in base alle esigenze.
+Inoltre, l’DSP può importare segmenti di terze parti personalizzati, incluse combinazioni complesse di segmenti di terze parti. Puoi fornire i segmenti a qualsiasi gruppo di inserzionisti, in base alle esigenze.
 
 Per ulteriori informazioni, contatta il team del tuo account di Adobe.
 
