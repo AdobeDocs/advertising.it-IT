@@ -3,9 +3,9 @@ title: Prerequisiti e informazioni chiave per l’implementazione [!DNL Analytic
 description: Prerequisiti e informazioni chiave per l’implementazione [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: e7773c31c1834b05731b4711ae237cde481e5639
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ Leggi le seguenti informazioni prima di integrare Adobi Advertising con Adobe An
    * Servizio Experience Cloud Identity: `visitorAPI.js` versione 2.0 o successiva
 * Qualsiasi versione di Adobe Analytics (incluso [!DNL Prime], [!DNL Premium], o [!DNL Ultimate])
 * Adobe Analytics: `appMeasurement.js` versione 2.1 o successiva
+* (Advertising per i clienti DSP) [Frammento JavaScript per Advertising DSP](javascript.md) implementato nelle pagine web per tenere traccia delle visite view-through.
 
 >[!TIP]
 >
@@ -89,7 +90,7 @@ Contatta il tuo account team di Adobi per conoscere gli ambienti di annunci supp
 
 * Solo i passaggi dell’integrazione [!DNL Analytics] eventi standard e personalizzati da Adobe Advertising per ottimizzare le offerte dei media a pagamento e delle attività pubblicitarie successive. Non passa [!DNL Analytics] segmenti, metriche calcolate e [!DNL eVars] all&#39;Adobe Advertising per l&#39;ottimizzazione delle offerte.
 
-* L’Adobe Advertising crea ID persistenti in [!DNL Analytics] in base all’ultimo annuncio pubblicitario fatto clic o visualizzato prima che l’utente entri nel sito, in base al [finestre di lookback click-through e view-through](#lookback-a4adc) configurato in Adobi Advertising. Se un visitatore del sito dispone di entrambi i tipi di interazioni di accesso al sito nel proprio profilo e il clic rientra nel periodo di lookback, l’ID di click-through del visitatore sovrascriverebbe l’ID di view-through per il reporting sul sito.
+* L’Adobe Advertising crea ID persistenti in [!DNL Analytics] in base all’ultimo annuncio pubblicitario fatto clic o visualizzato prima che l’utente entri nel sito, in base al [finestre di lookback click-through e view-through](#lookback-a4adc) configurato in Adobi Advertising. Se nel profilo di un visitatore del sito sono presenti entrambi i tipi di interazioni di accesso al sito e il clic rientra nel periodo di lookback, l’ID di click-through del visitatore prevale sull’ID di view-through per i rapporti sul sito.
 
 * [!DNL Analytics for Advertising] il tracciamento delle conversioni in Adobe Analytics utilizza un intervallo di lookback configurabile (60 giorni per impostazione predefinita). I rapporti di Adobe Advertising riflettono le conversioni e il coinvolgimento del sito fino alla fine di questo intervallo di lookback di tracciamento.
 
