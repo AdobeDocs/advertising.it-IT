@@ -3,7 +3,7 @@ title: Modifica gli Schedules per i Posizionamenti
 description: Scopri come modificare le pianificazioni degli annunci per gli annunci allegati ai posizionamenti.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: bc45e96cf091cba3872b20f6ea691e369b29982f
+source-git-commit: 02a643662b00e2aed6dccf80cf8eeaf04d3d5c34
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -60,21 +60,21 @@ Puoi modificare le date dei voli programmati e la rotazione degli annunci per gl
 
 1. Accanto al nome del posizionamento, fate clic su  **[!UICONTROL ...]** > **[!UICONTROL Ad schedule]**.
 
-   1. Effettua una delle seguenti operazioni:
+1. Effettua una delle seguenti operazioni:
 
-      * Per aggiungere un volo, fai clic su **[!UICONTROL Add Flight]** e quindi specificare la data di inizio e la data di fine.
+   * Per aggiungere un volo, fai clic su **[!UICONTROL Add Flight]** e quindi specificare la data di inizio e la data di fine.
 
-      * Per aggiungere un volo esistente a un annuncio, fai clic su **[!UICONTROL +]** nella riga annuncio per la colonna volo.
+   * Per aggiungere un volo esistente a un annuncio, fai clic su **[!UICONTROL +]** nella riga annuncio per la colonna volo.
 
-      * Per rimuovere un volo esistente da un annuncio, fai clic su **[!UICONTROL x]** nella riga annuncio per la colonna volo.
+   * Per rimuovere un volo esistente da un annuncio, fai clic su **[!UICONTROL x]** nella riga annuncio per la colonna volo.
 
       * (Quando più annunci hanno lo stesso volo) Per ruotare gli annunci in modo non uniforme, fai clic su **[!UICONTROL Even Rotation]** nelle informazioni sul volo, quindi immettere il peso relativo in base al quale ruotare ogni annuncio, come percentuale.
 
         Il peso totale deve essere uguale a 100.
 
-   1. In alto a destra, fai clic su **[!UICONTROL Continue]**.
+1. In alto a destra, fai clic su **[!UICONTROL Continue]**.
 
-   1. Rivedi i dettagli del volo, quindi fai clic su **[!UICONTROL Save & Finish]**.
+1. Rivedi i dettagli del volo, quindi fai clic su **[!UICONTROL Save & Finish]**.
 
 >[!MORELIKETHIS]
 >
