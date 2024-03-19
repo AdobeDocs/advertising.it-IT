@@ -3,7 +3,7 @@ title: Sintassi della logica dei segmenti di pubblico
 description: Fai riferimento alla sintassi da utilizzare per definire la logica per i segmenti di pubblico.
 feature: DSP Audiences
 exl-id: fb73f35f-1f65-463b-b93c-90804a8d19a9
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 97f5e8913afb2f71505512bf8e4ab5bf56c1d7f8
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%
@@ -23,7 +23,6 @@ Quando crei tipi di pubblico riutilizzabili, puoi definire manualmente la logica
 >
 >* Tutti i gruppi di segmenti specificati sono inclusi a meno che non siano preceduti da ! (che li esclude).
 >* È possibile [trovare l’ID segmento di un pubblico](reusable-audience-clipboard.md) da [!UICONTROL Audiences] > [!UICONTROL All audiences].
-
 
 Ad esempio, la logica seguente:
 
@@ -48,4 +47,3 @@ significa (in inglese)
 >* [Creare un pubblico riutilizzabile](reusable-audience-create.md)
 >* [Impostazioni pubblico](audience-settings.md)
 >* [Provider di dati di terze parti disponibili](third-party-data-providers.md)
-

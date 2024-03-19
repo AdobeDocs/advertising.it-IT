@@ -3,9 +3,9 @@ title: Best practice per l’impostazione di campagne sulle prestazioni
 description: Scopri le best practice per la configurazione di campagne incentrate sulle prestazioni, che includono posizionamenti ottimizzati per il CPA più basso o il ROAS più alto.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: ce35295fcb003b1cc0a171d171317601eadf6288
+source-git-commit: efd169f5e1e191f7635abf5b7a325e3483395165
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1276'
 ht-degree: 0%
 
 ---
@@ -151,8 +151,8 @@ Utilizzo del filtro contestuale, del blocco preventivo delle frodi e/o [!UICONTR
 
 ## Passaggio 5: utilizzare le risorse creative giuste
 
-* La best practice prevede di includere quante più dimensioni di annuncio univoche possibili per massimizzare la portata. Il modello di visualizzazione universale ti consente di caricare qualsiasi dimensione di annuncio display standard.
-* Assicurati che tutti i posizionamenti contengano *almeno* tutte le dimensioni principali degli annunci display (300x250, 728x90, 160x600, 300x600, 320x50 e 300x50).
+* La best practice prevede di includere quante più dimensioni di annuncio univoche possibili per massimizzare la portata. Il modello di visualizzazione universale ti consente di caricare qualsiasi dimensione di annuncio display standard.
+* Assicurati che tutti i posizionamenti contengano *almeno* tutte le dimensioni principali degli annunci display (300x250, 728x90, 160x600, 300x600, 320x50 e 300x50).
 * Aggiorna spesso le creatività per evitare l’eccesso di creatività.
 
 >[!MORELIKETHIS]
