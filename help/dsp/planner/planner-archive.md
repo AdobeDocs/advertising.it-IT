@@ -2,16 +2,15 @@
 title: Archiviare un piano di portata TV collegato
 description: Scopri come archiviare un piano di portata TV collegato.
 feature: DSP Planner
-source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
+exl-id: 335db881-51e6-412d-9346-216c6a70a6de
+source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
 
 # Archiviare un piano di portata TV collegato
-
-*Funzione beta*
 
 Quando si archivia un piano, questo viene rimosso dall&#39;impostazione predefinita [!UICONTROL Planner] visualizzazione.<!-- You can still view it by including the [!UICONTROL Status] "[!UICONTROL Archived]" in the view filter. -->
 
