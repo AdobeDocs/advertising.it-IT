@@ -4,9 +4,9 @@ description: Scopri i tipi di richiesta di dati supportati, i valori di configur
 feature: CCPA
 role: User, Developer
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
-source-git-commit: df19f47971e97727c85bce99ce80b677fbdb1a49
+source-git-commit: 5edcd810c86f3b3ae65ccc92748177fa8cd0765e
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1042'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Il California Consumer Privacy Act (CCPA) è la nuova legge sulla privacy della 
 
 In qualità di azienda, potrai determinare i dati personali che Adobe Experience Cloud tratta e archivia per tuo conto.
 
-In qualità di fornitore di servizi, Adobe Advertising fornisce supporto alla tua azienda per l’adempimento dei suoi obblighi in virtù del CCPA applicabili all’utilizzo di prodotti e servizi di Adobe Advertising, inclusa la gestione delle richieste di accesso e cancellazione delle informazioni personali e la gestione delle richieste di rinuncia alla vendita di tali informazioni.
+In qualità di fornitore di servizi, Adobi Advertising fornisce supporto alla tua azienda per l’adempimento dei suoi obblighi in virtù del CCPA applicabili all’utilizzo di prodotti e servizi di Adobe Advertising, inclusa la gestione delle richieste di accesso e cancellazione delle informazioni personali e la gestione delle richieste di rinuncia alla vendita di tali informazioni.
 
 Questo documento descrive come [!DNL Advertising Search, Social, & Commerce]; Advertising Creative; pubblicità DSP (Demand Side Platform); e [!DNL Advertising DCO] — in qualità di fornitori di servizi — sostenere il diritto dei consumatori di accedere alle informazioni personali e di cancellarle utilizzando l&#39;Adobe [!DNL Experience Platform Privacy Service API] e [!DNL Privacy Service UI].
 
@@ -41,13 +41,13 @@ Adobe Experience Platform consente alle aziende di completare le seguenti attivi
 
 ## Configurazione necessaria per inviare richieste per Adobe Advertising
 
-Per richiedere l’accesso e la cancellazione delle informazioni personali dei consumatori da Adobe Advertising, è necessario:
+Per richiedere l’accesso e la cancellazione delle informazioni personali dei consumatori da Adobi Advertising, è necessario:
 
 1. Distribuisci una libreria JavaScript per recuperare e rimuovere i cookie del cliente. La stessa libreria, `AdobePrivacy.js`, viene utilizzato per tutte le soluzioni Adobe Experience Cloud.
 
    >[!IMPORTANT]
    >
-   >Le richieste ad alcune soluzioni Experience Cloud non richiedono la libreria JavaScript, ma le richieste ad Adobe Advertising la richiedono.
+   >Le richieste ad alcune soluzioni Experience Cloud non richiedono la libreria JavaScript, ma le richieste ad Adobi Advertising la richiedono.
 
    Devi distribuire la libreria sulla pagina web da cui i clienti possono inviare richieste di accesso ed eliminazione, come ad esempio il portale della privacy della tua azienda. La libreria ti aiuta a recuperare i cookie Adobe (ID spazio dei nomi: `gsurferID`) in modo da poter inviare queste identità come parte delle richieste di accesso ed eliminazione tramite [!DNL Adobe Experience Platform Privacy Service API].
 
@@ -55,15 +55,15 @@ Per richiedere l’accesso e la cancellazione delle informazioni personali dei c
 
    >[!NOTE]
    >
-   >L’eliminazione dei dati personali è diversa dalla rinuncia, che interrompe il targeting di un utente finale con segmenti di pubblico. Tuttavia, quando un consumatore chiede di cancellare dati personali da [!DNL Creative], [!DNL DSP], o [!DNL DCO], la libreria invia anche una richiesta ad Adobe Advertising per rifiutare il cliente dal targeting dei segmenti. Per gli inserzionisti con [!DNL Search, Social, & Commerce], si consiglia di fornire ai clienti un collegamento a [https://www.adobe.com/privacy/opt-out.html#customeruse](https://www.adobe.com/privacy/opt-out.html#customeruse), che spiega come rinunciare al targeting dei segmenti di pubblico.
+   >L’eliminazione dei dati personali è diversa dalla rinuncia, che interrompe il targeting di un utente finale con segmenti di pubblico. Tuttavia, quando un consumatore chiede di cancellare dati personali da [!DNL Creative], [!DNL DSP], o [!DNL DCO], la libreria invia anche una richiesta ad Adobi Advertising per rifiutare il cliente dal targeting dei segmenti. Per gli inserzionisti con [!DNL Search, Social, & Commerce], si consiglia di fornire ai clienti un collegamento a [https://www.adobe.com/privacy/opt-out.html#customeruse](https://www.adobe.com/privacy/opt-out.html#customeruse), che spiega come rinunciare al targeting dei segmenti di pubblico.
 
-1. Identifica il tuo ID organizzazione Experience Cloud e assicurati che sia collegato ai tuoi account Adobe Advertising.
+1. Identifica l’ID organizzazione Experience Cloud e assicurati che sia collegato ai tuoi account Adobi Advertising.
 
-   Un ID organizzazione di Experience Cloud è una stringa alfanumerica composta da 24 caratteri a cui segue &quot;@AdobeOrg.&quot; Alla maggior parte dei clienti Experience Cloud è stato assegnato un ID organizzazione. Se il team marketing o l’amministratore di Adobe interno non conosce l’ID organizzazione o non è sicuro che sia stato fornito, contatta l’Assistenza clienti Adobe all’indirizzo gdprsupport@adobe.com. Per inviare richieste all&#39;API per la privacy utilizzando l&#39;ID organizzazione `imsOrgID` spazio dei nomi.
+   Un ID organizzazione di Experience Cloud è una stringa alfanumerica composta da 24 caratteri a cui segue &quot;@AdobeOrg.&quot; Alla maggior parte dei clienti Experience Cloud è stato assegnato un ID organizzazione. Se il team marketing o interno [!DNL Adobe] l’amministratore di sistema non conosce il tuo ID organizzazione o non è sicuro che sia stato eseguito il provisioning, quindi contatta il team del tuo account Adobe. Per inviare richieste all&#39;API per la privacy utilizzando l&#39;ID organizzazione `imsOrgID` spazio dei nomi.
 
    >[!IMPORTANT]
    >
-   >Contatta il rappresentante Adobe Advertising della tua azienda per verificare che tutti gli account Adobe Advertising della tua organizzazione, tra cui [!DNL DSP] account o inserzionisti, [!DNL Search, Social, & Commerce] conti, e [!DNL Creative] o [!DNL DCO] account — sono collegati al tuo ID organizzazione Experience Cloud.
+   >Contatta il rappresentante Adobe Advertising della tua azienda per verificare che tutti gli account Adobi Advertising della tua organizzazione, tra cui [!DNL DSP] account o inserzionisti, [!DNL Search, Social, & Commerce] conti, e [!DNL Creative] o [!DNL DCO] account — sono collegati al tuo ID organizzazione Experience Cloud.
 
 1. Utilizza il [API ADOBE EXPERIENCE PLATFORM PRIVACY SERVICE](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (per le richieste automatizzate) o [Interfaccia utente di Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it) (per richieste ad hoc) di inviare richieste di accesso e cancellazione di informazioni personali agli Adobi Advertising per conto dei consumatori e di verificare lo stato delle richieste esistenti.
 
@@ -75,11 +75,11 @@ Per richiedere l’accesso e la cancellazione delle informazioni personali dei c
 
    >[!NOTE]
    >
-   Se la tua azienda dispone di più ID organizzazione Experience Cloud, devi inviare richieste API separate per ciascuno di essi. Tuttavia, puoi effettuare una richiesta API a più soluzioni secondarie Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], e [!DNL DCO]), con un account per ogni soluzione secondaria.
+   >Se la tua azienda dispone di più ID organizzazione Experience Cloud, devi inviare richieste API separate per ciascuno di essi. Tuttavia, puoi effettuare una richiesta API a più soluzioni secondarie Adobi Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], e [!DNL DCO]), con un account per ogni soluzione secondaria.
 
-Tutti questi passaggi sono necessari per ricevere supporto da Adobe Advertising. Per ulteriori informazioni su queste e altre attività correlate che devi eseguire utilizzando Adobe Experience Platform Privacy Service, e dove trovare gli elementi necessari, vedi [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
+Tutti questi passaggi sono necessari per ricevere supporto da Adobi Advertising. Per ulteriori informazioni su queste e altre attività correlate che è necessario eseguire utilizzando Adobe Experience Platform Privacy Service e dove trovare gli elementi necessari, vedere [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
-## Valori campo obbligatori nelle richieste JSON Adobe Advertising
+## Valori campo obbligatori nelle richieste JSON Adobi Advertising
 
 `"company context":`
 
@@ -94,11 +94,11 @@ Tutti questi passaggi sono necessari per ricevere supporto da Adobe Advertising.
 
 * `"user IDs":`
 
-   * `"namespace": **411**` (che indica lo spazio cookie adcloud)
+   * `"namespace": **411**` (che indica il [!DNL adcloud] spazio cookie)
 
    * `"value":` &lt;*il valore ID cookie del cliente effettivo recuperato da`AdobePrivacy.js`*>
 
-* `"include": **adCloud**` (prodotto di Adobe applicabile alla richiesta)
+* `"include": **adCloud**` (che è il [!DNL Adobe] prodotto applicabile alla richiesta)
 
 * `"regulation": **ccpa**` (regolamento sulla privacy applicabile alla richiesta)
 
@@ -107,30 +107,29 @@ Tutti questi passaggi sono necessari per ricevere supporto da Adobe Advertising.
 ```
 {
 "companyContexts":[
-      {
-         "namespace":"imsOrgID",
-         "value":"5AB13068374019BC@AdobeOrg"
-      }
-   ],
-   "users": [
+    {
+        "namespace":"imsOrgID",
+        "value":"5AB13068374019BC@AdobeOrg"
+      }
+   ],
+   "users": [
 {
- "key": "John Doe",
- "action":["access"],
-  "userIDs":[
-      {
-         "namespace":"411",
-         "value":"Wqersioejr-wdg",
-         "type":"namespaceId",
-         "deletedClientSide":false
-      }
-   ]
+ "key": "John Doe",
+ "action":["access"],
+ "userIDs":[
+      { 
+        "namespace":"411",
+        "value":"Wqersioejr-wdg",
+        "type":"namespaceId",
+        "deletedClientSide":false
+      }
+   ]
 }
 ],
 "include":[
-      "adCloud"
-   ],
-    "regulation":"ccpa"
-}
+      "adCloud"
+   ],
+    "regulation":"ccpa"
 }
 ```
 

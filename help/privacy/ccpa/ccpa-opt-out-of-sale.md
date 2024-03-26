@@ -4,9 +4,9 @@ description: Scopri il supporto per l’acquisizione delle richieste di rifiuto 
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
+source-git-commit: 7613d49698bf303afad521e94471c11cd2a3e556
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '988'
 ht-degree: 0%
 
 ---
@@ -59,9 +59,9 @@ Puoi comunicare le richieste di rifiuto del consumatore utilizzando:
 
    Devi distribuire la libreria sulla pagina web da cui i clienti possono inviare richieste di rifiuto della vendita, come ad esempio il portale della privacy della tua azienda. La libreria ti aiuta a recuperare i cookie Adobe (ID spazio dei nomi: `gsurferID`) in modo da poter inviare queste identità come parte delle richieste di rifiuto tramite l’API Adobe Experience Platform Privacy Service.
 
-1. Identifica il tuo ID organizzazione Experience Cloud e assicurati che sia collegato ai tuoi account Adobe Advertising.
+1. Identifica l’ID organizzazione Experience Cloud e assicurati che sia collegato ai tuoi account Adobi Advertising.
 
-   Un ID organizzazione di Experience Cloud è una stringa alfanumerica composta da 24 caratteri a cui segue &quot;@AdobeOrg.&quot; Alla maggior parte dei clienti Experience Cloud è stato assegnato un ID organizzazione. Se il team marketing o l’amministratore di Adobe interno non conosce l’ID organizzazione o non è sicuro che sia stato fornito, contatta l’Assistenza clienti Adobe all’indirizzo gdprsupport@adobe.com. Per inviare richieste all&#39;API per la privacy utilizzando l&#39;ID organizzazione `imsOrgID` spazio dei nomi.
+   Un ID organizzazione di Experience Cloud è una stringa alfanumerica composta da 24 caratteri a cui segue &quot;@AdobeOrg.&quot; Alla maggior parte dei clienti Experience Cloud è stato assegnato un ID organizzazione. Se il team marketing o l’amministratore di Adobe interno non conosce l’ID organizzazione o non è sicuro che sia stato fornito, contatta il team dell’account Adobe. Per inviare richieste all&#39;API per la privacy utilizzando l&#39;ID organizzazione `imsOrgID` spazio dei nomi.
 
    >[!IMPORTANT]
    >
@@ -73,7 +73,7 @@ Puoi comunicare le richieste di rifiuto del consumatore utilizzando:
 
    >[!NOTE]
    >
-   Se la tua azienda dispone di più ID organizzazione Experience Cloud, devi inviare richieste API separate per ciascuno di essi. Tuttavia, puoi effettuare una richiesta API a più soluzioni secondarie Adobi Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], e [!DNL DCO]), con un account per ogni soluzione secondaria.
+   >Se la tua azienda dispone di più ID organizzazione Experience Cloud, devi inviare richieste API separate per ciascuno di essi. Tuttavia, puoi effettuare una richiesta API a più soluzioni secondarie Adobi Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], e [!DNL DCO]), con un account per ogni soluzione secondaria.
 
 Tutti questi passaggi sono necessari per ricevere supporto da Adobi Advertising. Per ulteriori informazioni su queste e altre attività correlate che è necessario eseguire utilizzando Adobe Experience Platform Privacy Service e dove trovare gli elementi necessari, vedere [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
@@ -90,7 +90,7 @@ Puoi recuperare i collegamenti ai rapporti mensili creati nei tre mesi precedent
 
 ### Metodo 2: Recuperare i rapporti sulla rinuncia del consumatore utilizzando Advertising DSP [!DNL Trafficking API]
 
-Questa funzione è disponibile per le organizzazioni che utilizzano [!DNL Trafficking API]. Consulta la documentazione per [!DNL Trafficking API] per ulteriori informazioni.
+Questa funzione è disponibile per le organizzazioni che utilizzano [!DNL Trafficking API]. Consulta la documentazione per [!DNL Trafficking API] per ulteriori informazioni.<!-- Add link to API doc once it's published. -->
 
 Se la tua organizzazione non utilizza [!DNL Trafficking API] ma è interessato a ulteriori informazioni, contatta il tuo Adobe Account Team.
 
