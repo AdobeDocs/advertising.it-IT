@@ -4,7 +4,7 @@ description: Scopri i tipi di richiesta di dati supportati, i valori di configur
 feature: CCPA
 role: User, Developer
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
-source-git-commit: 5edcd810c86f3b3ae65ccc92748177fa8cd0765e
+source-git-commit: 2e2d95ab2a6add695c3852a06e256b6db980779d
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 0%
@@ -94,7 +94,7 @@ Tutti questi passaggi sono necessari per ricevere supporto da Adobi Advertising.
 
 * `"user IDs":`
 
-   * `"namespace": **411**` (che indica il [!DNL adcloud] spazio cookie)
+   * `"namespace": **411**` (che indica il [!DNL adCloud] spazio cookie)
 
    * `"value":` &lt;*il valore ID cookie del cliente effettivo recuperato da`AdobePrivacy.js`*>
 
