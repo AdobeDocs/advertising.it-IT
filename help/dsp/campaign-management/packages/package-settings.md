@@ -3,9 +3,9 @@ title: Impostazioni pacchetto
 description: Consulta le descrizioni delle impostazioni disponibili per il pacchetto.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 32d74703d9aecbddc5a5f3e0526a2cefbf1f2266
+source-git-commit: 0606614cc4fca842b800c089afa0303b67ecba5f
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >Le tariffe fatturabili vengono riportate nel [!UICONTROL Net CPM] metrica.
+>
 * **[!UICONTROL CPM]:** Il costo per 1000 impression (CPM).
 
 * **[!UICONTROL CPM Description]:** Descrizione della tariffa CPM.
@@ -33,9 +34,9 @@ ht-degree: 0%
 
 **[!UICONTROL Pacing & Capping]:** (Sola lettura per i pacchetti esistenti) A quale livello posizionare e limitare i posizionamenti nel pacchetto:
 
-* **[!UICONTROL Package level pacing]:** Questa strategia di andamento funziona calcolando il ritmo e riducendo tutti i posizionamenti inclusi come una *gruppo*. Questa strategia assicura che tutti i posizionamenti all’interno di un determinato pacchetto siano ottimizzati in modo olistico, distribuendo la spesa in base alle prestazioni e alla scalabilità a specifici indicatori di prestazioni chiave (KPI, Key Performance Indicator).
+* **[!UICONTROL Package level pacing]:** Questa strategia di andamento funziona calcolando il ritmo e riducendo tutti i posizionamenti inclusi come una *gruppo*. Questa strategia assicura che tutti i posizionamenti all’interno di un determinato pacchetto siano ottimizzati in modo olistico, distribuendo la spesa in base alle prestazioni e alla scalabilità a specifici indicatori di prestazioni chiave (KPI, Key Performance Indicator).
 
-* **[!UICONTROL Placement level pacing]:**  Questa strategia di velocità funziona calcolando il ritmo e riducendo tutti i posizionamenti inclusi *singolarmente*. La best practice prevede di utilizzare questa strategia solo per eseguire transazioni garantite sul mercato privato.
+* **[!UICONTROL Placement level pacing]:**  Questa strategia di velocità funziona calcolando il ritmo e riducendo tutti i posizionamenti inclusi *singolarmente*. La best practice prevede di utilizzare questa strategia solo per eseguire transazioni garantite sul mercato privato.
 
 **[!UICONTROL Flight Dates]:** La data di inizio e la data di fine del pacchetto.
 
@@ -46,7 +47,6 @@ Per creare voli non uniformi per il pacchetto, selezionare *[!UICONTROL *Activat
 >* Le date del volo devono essere incluse nelle date del volo della campagna. Inoltre, le date di volo per tutti i posizionamenti assegnati a questo pacchetto devono essere incluse entro tali date.
 > * Non puoi modificare la data di inizio del pacchetto quando viene attivato il riflesso personalizzato.
 
-
 **[!UICONTROL Budget]:** (Solo pacchetti con velocità a livello di pacchetto) Limite di budget lordo e intervallo di budget.
 
 Per i pacchetti con conflitti personalizzati, l&#39;intervallo di budget è sempre *[!UICONTROL All time]*. Per i pacchetti senza conflitti personalizzati, specifica l’intervallo di budget: *[!UICONTROL All time],* *[!UICONTROL Daily],* *[!UICONTROL Monthly],* o *[!UICONTROL Weekly]*.
@@ -55,7 +55,11 @@ Per i pacchetti con conflitti personalizzati, l&#39;intervallo di budget è semp
 
 **[!UICONTROL Optimization Goal]:** (Solo pacchetti con velocità a livello di pacchetto) Obiettivo di ottimizzazione per il pacchetto. Vedi le descrizioni di ciascun obiettivo di ottimizzazione in [Obiettivi di ottimizzazione e modalità di utilizzo](/help/dsp/optimization/optimization-goals.md).
 
-**[!UICONTROL Custom Goals]:** (Solo pacchetti con obiettivi di ottimizzazione personalizzati) Il [obiettivo personalizzato](/help/dsp/optimization/custom-goal-about.md) per il pacchetto. Per ulteriori informazioni sulle best practice per obiettivi personalizzati e campagne che li utilizzano, consulta  [Best practice per la creazione di un obiettivo personalizzato](/help/dsp/optimization/custom-goal-best-practices.md) e [Best practice per l’impostazione di campagne sulle prestazioni](/help/dsp/optimization/campaign-best-practices-performance.md).
+**[!UICONTROL Custom Goal for Model Learning]:** (Pacchetti con &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; solo obiettivi di ottimizzazione) A [obiettivo personalizzato](/help/dsp/optimization/custom-goal-about.md) che include i ricavi o gli eventi di conversione utilizzati per calcolare la metrica CPA o ROAS. L’obiettivo personalizzato può facoltativamente includere eventi upper funnel ponderati aggiuntivi (come visite della pagina e aggiunte al carrello) da utilizzare in aggiunta alla metrica CPA o ROAS per l’ottimizzazione del pacchetto. Per ulteriori informazioni sulle best practice per obiettivi personalizzati e campagne che li utilizzano, consulta  [Best practice per la creazione di un obiettivo personalizzato](/help/dsp/optimization/custom-goal-best-practices.md) e [Best practice per l’impostazione di campagne sulle prestazioni](/help/dsp/optimization/campaign-best-practices-performance.md).
+
+**[!UICONTROL Consider Only Click Conversions for Model Learning]:** (Facoltativo; pacchetti con &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;Solo obiettivi di ottimizzazione&quot; indica al modello di ottimizzazione di imparare solo dalle conversioni basate su clic. In caso contrario, il modello di ottimizzazione apprende sia dalle conversioni basate su clic che da quelle basate su impression.
+
+**[!UICONTROL Conversion Metric]:** (Facoltativo; pacchetti con &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;Solo obiettivi di ottimizzazione&quot;: l’evento di conversione finale (ad esempio le iscrizioni) o l’importo di evento di ricavo/vendita (ad esempio i valori di acquisto e di acquisto) da utilizzare per calcolare il ritorno sulla spesa pubblicitaria o il costo per acquisizione. Seleziona da un elenco di tutti gli eventi mappati all&#39;obiettivo personalizzato selezionato.
 
 **[!UICONTROL Package Goal Type]:** (Solo pacchetti con obiettivi di ottimizzazione personalizzati) Scopo del pacchetto. Questa impostazione consente di determinare come ottimizzare il pacchetto:
 
@@ -81,7 +85,6 @@ Per i pacchetti con conflitti personalizzati, l&#39;intervallo di budget è semp
 >* La best practice prevede di impostare limiti di frequenza sia per la ricerca di potenziali clienti che per il retargeting a livello di pacchetto.
 > * Limiti di frequenza più elevati determinano una spesa e impression più elevate, ma una portata più bassa. Limiti di frequenza più bassi determinano una spesa e impression minori, ma una portata più elevata.
 
-
 **[!UICONTROL Pace on]:** (Solo pacchetti con velocità a livello di pacchetto) Su cosa si basa la velocità:
 
 * *[!UICONTROL Budget]:* Impostazione predefinita. Questa opzione fornisce il maggior numero di impression possibile nel budget del pacchetto allocato.
@@ -104,9 +107,9 @@ Per i pacchetti con conflitti personalizzati, l&#39;intervallo di budget è semp
 
 * *[!UICONTROL ASAP]:* Accelera la consegna a una velocità doppia rispetto a *Uniforme*.
 
-   >[!CAUTION]
-   >
-   >Questa opzione può influire negativamente sulle prestazioni. Utilizzalo solo quando assegni la massima priorità alla consegna e spendi oltre l’ottimizzazione delle prestazioni.
+  >[!CAUTION]
+  >
+  >Questa opzione può influire negativamente sulle prestazioni. Utilizzalo solo quando assegni la massima priorità alla consegna e spendi oltre l’ottimizzazione delle prestazioni.
 
 ## [!UICONTROL Flighting]
 
@@ -122,4 +125,3 @@ Per ogni volo, inserisci la data di inizio, la data di fine e il numero di impre
 >* [Allegare un posizionamento a un pacchetto](package-attach-placement.md)
 >* [Visualizzare il registro delle modifiche di un pacchetto](package-change-log.md)
 >* [Domande frequenti su Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
-

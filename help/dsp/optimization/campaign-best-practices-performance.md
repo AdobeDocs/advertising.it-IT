@@ -3,9 +3,9 @@ title: Best practice per l’impostazione di campagne sulle prestazioni
 description: Scopri le best practice per la configurazione di campagne incentrate sulle prestazioni, che includono posizionamenti ottimizzati per il CPA più basso o il ROAS più alto.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: efd169f5e1e191f7635abf5b7a325e3483395165
+source-git-commit: 6aa81fe4fd5ea6cb188b7f18b1574c26ddfcbb92
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ L’DSP può ottimizzare le campagne incentrate sulle prestazioni. Consulta le s
 
 ## Passaggio 1: definire l’obiettivo
 
-È importante comprendere l&#39;obiettivo della campagna, ad esempio raggiungere il ROAS più alto possibile o il CPA più basso possibile. Le campagne di prestazioni hanno [obiettivi di ottimizzazione](/help/dsp/optimization/optimization-goals.md) che terminano con &quot;[!UICONTROL - Custom Goal]&quot; (come &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot;). Per ogni pacchetto della campagna, specificherai di conseguenza l’obiettivo di ottimizzazione.
+È importante comprendere l&#39;obiettivo della campagna, ad esempio raggiungere il ROAS più alto possibile o il CPA più basso possibile. Le campagne di prestazioni presentano [obiettivi di ottimizzazione](/help/dsp/optimization/optimization-goals.md) &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] o &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)].&quot; Per ogni pacchetto della campagna, specificherai di conseguenza l’obiettivo di ottimizzazione.
 
 ![obiettivo di ottimizzazione](/help/dsp/assets/optimization-goals.png)
 

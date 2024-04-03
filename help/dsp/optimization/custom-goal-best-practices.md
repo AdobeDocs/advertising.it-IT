@@ -3,9 +3,9 @@ title: Best practice per la creazione di un obiettivo personalizzato
 description: Scopri le best practice per la creazione di obiettivi personalizzati per definire gli eventi di successo.
 feature: DSP Optimization, DSP Best Practices
 exl-id: 8b1247cd-083d-4c8c-8588-9e8c03c4cc67
-source-git-commit: 2c2f65f45fb7515068cee36493f514ce2e456e75
+source-git-commit: 6aa81fe4fd5ea6cb188b7f18b1574c26ddfcbb92
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Gli esempi seguenti mostrano come configurare obiettivi per il targeting di una singola metrica di conversione.
 
-### Esempio di una campagna con &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot; Obiettivo di ottimizzazione
+### Esempio di una campagna con &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)]&quot; Obiettivo di ottimizzazione
 
-Se l&#39;obiettivo della campagna è il profitto ([!UICONTROL Highest ROAS - Custom Goal]), l’obiettivo personalizzato (obiettivo) includerà la &quot;[!UICONTROL Revenue]&quot;metrica con un peso di uno (1).
+Se l&#39;obiettivo della campagna è il profitto ([!UICONTROL Highest Return on Ad Spend (ROAS)]), l’obiettivo personalizzato (obiettivo) includerà la &quot;[!UICONTROL Revenue]&quot;metrica con un peso di uno (1).
 
 ![esempio di obiettivo personalizzato ROAS con una singola metrica di conversione](/help/dsp/assets/custom-goal-roas.png)
 
@@ -28,7 +28,7 @@ Se l&#39;obiettivo della campagna è il profitto ([!UICONTROL Highest ROAS - Cus
 >
 > Ad esempio, una conversione da 250 $ con un peso di uno viene segnalata come 250 $. Se alla metrica di conversione viene assegnato un peso di 0,5, la conversione di 250 $ viene segnalata come Adobe Advertising di 125 $ ($250 Conversione * 0,5 [!UICONTROL Property Weight] = $125).
 
-### Esempio di una campagna con &quot;[!UICONTROL Lowest CPA - Custom Goal]&quot; Obiettivo di ottimizzazione
+### Esempio di una campagna con &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; Obiettivo di ottimizzazione
 
 Se l’obiettivo della campagna è il costo più basso per acquisizione (CPA) e richiede un solo evento di successo, includerai tale metrica (nell’esempio seguente, &quot;Invio applicazione&quot;). La best practice prevede di impostare il peso come uno (1).
 
