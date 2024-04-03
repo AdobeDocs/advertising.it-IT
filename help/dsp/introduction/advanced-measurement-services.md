@@ -2,9 +2,9 @@
 title: Soluzioni avanzate di misurazione
 description: Consulta un elenco delle soluzioni disponibili per la misurazione avanzata.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: 2207d7293920987db72c37ae25245574a5c0fcf5
+source-git-commit: fed8daa79688d65d1b64ae8145cc1d1d0d84f11a
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
@@ -25,37 +25,43 @@ Per verificare il successo delle campagne pubblicitarie, sono disponibili i segu
 
 * **Portata, frequenza e conversioni basate sulla famiglia**
 
-   Comprendi la portata totale della campagna a livello di famiglia, nonché il contributo dei singoli schermi. Le opzioni di reporting includono:
+  Comprendi la portata totale della campagna a livello di famiglia, nonché il contributo dei singoli schermi. Le opzioni di reporting includono:
 
+   * Tempo medio di conversione
+   * Frequenza di conversione
    * Generazione rapporti TV collegata (CTV)
    * Incrementalità app CTV
    * Generazione rapporti cross-screen (digitale e TVCC)
    * Generazione rapporti cross-screen plus (digitale, televisore e televisore)
    * Frequenza e portata digitali all&#39;interno del segmento
 
-* **Reach basato su persone**
+* **Raggiungimento e conversioni basate sulle persone**
 
-   Scopri in che modo i tipi di pubblico e le tattiche si sovrappongono a livello di persona, comprese le esposizioni in più ambienti digitali, come desktop, dispositivi mobili, nativi e audio.
+  Scopri in che modo i tipi di pubblico e le tattiche si sovrappongono a livello di persona, comprese le esposizioni in più ambienti digitali, come desktop, dispositivi mobili, nativi e audio.
+
+* **Cross-ID People-Based Reach**
+
+  Quantifica la portata univoca e la sovrapposizione tra cookie e RampID, nonché il costo per metrica per tipo di ID. Dimostrare l’efficacia del test dei RampID nel trovare una portata incrementale relativa ai segmenti basati su cookie in più ambienti digitali, come desktop, mobile, nativo e audio.
 
 * **[!DNL Dynata]Indagini basate su panel**
 
-   Condurre indagini di controllo/esposte per determinare l’effetto dell’esposizione ad su metriche quali consapevolezza, familiarità e intento.
+  Condurre indagini di controllo/esposte per determinare l’effetto dell’esposizione ad su metriche quali consapevolezza, familiarità e intento.
 
 * **Traffico a piedi**
 
-   Comprendi l’incrementalità guidata dall’esposizione agli annunci e come l’investimento multimediale sta causando cambiamenti nel comportamento di acquisto e visite incrementali con metriche quali effetto di incrementalità, costo per visita incrementale e approfondimenti sulle visite.
+  Comprendi l’incrementalità guidata dall’esposizione agli annunci e come l’investimento multimediale sta causando cambiamenti nel comportamento di acquisto e visite incrementali con metriche quali effetto di incrementalità, costo per visita incrementale e approfondimenti sulle visite.
 
 * **Informazioni sulle transazioni**
 
-   Arricchisci la tua strategia di campagna con dati deterministici sulle vendite di crediti e debiti attraverso analisi di segmenti, mercati competitivi e acquirenti.
+  Arricchisci la tua strategia di campagna con dati deterministici sulle vendite di crediti e debiti attraverso analisi di segmenti, mercati competitivi e acquirenti.
 
 * **Misurazione delle transazioni**
 
-   Determinare l’influenza dell’esposizione degli annunci sulle vendite utilizzando dati solidi e deterministici sulle vendite a credito e a debito.
+  Determinare l’influenza dell’esposizione degli annunci sulle vendite utilizzando dati solidi e deterministici sulle vendite a credito e a debito.
 
 * **Progettazione esperimenti (test A/B)**
 
-   Confronta il comportamento e il sentiment di gruppi di campioni randomizzati e reciprocamente esclusivi con test A/B semplice e pulito.
+  Confronta il comportamento e il sentiment di gruppi di campioni randomizzati e reciprocamente esclusivi con test A/B semplice e pulito.
 
 ## Trovare la misura perfetta Fit: Soluzioni di Vertical
 
@@ -63,21 +69,25 @@ Per verificare il successo delle campagne pubblicitarie, sono disponibili i segu
 
    * Progettazione esperimenti (test A/B e test A/B)
 
-   * Reach basato su persone
+   * Raggiungimento e conversioni basate sulle persone
 
-      Qualsiasi organizzazione che desideri misurare diverse tattiche digitali; organizzazioni che desiderano mostrare il valore dell’audio
+     Qualsiasi organizzazione che desideri misurare diverse tattiche digitali; organizzazioni che desiderano mostrare il valore dell’audio
 
    * Misurazione della portata, della frequenza e della conversione per uso domestico
 
-      Qualsiasi cliente che desideri comprendere portata/portata incrementale e efficienze e/o metriche di conversione basate sui costi attraverso più tattiche digitali
+     Qualsiasi cliente che desideri comprendere portata/portata incrementale e efficienze e/o metriche di conversione basate sui costi attraverso più tattiche digitali
+
+   * Cross-ID People-Based Reach
+
+     Qualsiasi cliente che cerca di quantificare la portata e la sovrapposizione univoche tra cookie e RampID e il costo per metrica per tipo di ID in più tattiche digitali
 
    * Misurazione cross-screen di portata, frequenza e conversione
 
-      Qualsiasi cliente che desideri comprendere portata/portata incrementale e efficienze e/o metriche di conversione basate sui costi attraverso più tattiche digitali relative all’investimento nella TV lineare
+     Qualsiasi cliente che desideri comprendere portata/portata incrementale e efficienze e/o metriche di conversione basate sui costi attraverso più tattiche digitali relative all’investimento nella TV lineare
 
    * Indagini basate su pannelli Dynata
 
-      Qualsiasi cliente che desideri misurare la consapevolezza e la percezione del marchio su più schermi; ideale per tipi di pubblico di nicchia
+     Qualsiasi cliente che desideri misurare la consapevolezza e la percezione del marchio su più schermi; ideale per tipi di pubblico di nicchia
 
 * **QSR, vendita al dettaglio (mattoni e mortaio):**
 
@@ -89,7 +99,7 @@ Per verificare il successo delle campagne pubblicitarie, sono disponibili i segu
 
    * Informazioni sulle transazioni
 
-      Qualsiasi cliente che desidera raggiungere un particolare tipo di acquirente per incrementare le vendite in-store e online
+     Qualsiasi cliente che desidera raggiungere un particolare tipo di acquirente per incrementare le vendite in-store e online
 
 ## Ulteriori informazioni
 
