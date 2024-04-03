@@ -1,7 +1,7 @@
 ---
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+source-git-commit: 92bf7768be91e75f029e1577c7f4e7e790c5a934
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 **[!UICONTROL Tracking Template]:** (Facoltativo) Il modello di tracciamento o l’URL di tracciamento, che specifica tutti i reindirizzamenti e i parametri di tracciamento dei domini di fuori destinazione e incorpora anche l’URL finale/della pagina di destinazione in un [!DNL ValueTrack] parametro. Esempio: `{lpurl}?source={network}&id=5` o `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` per includere un reindirizzamento.
 
-Ad Adobe, il tracciamento della conversione di Advertising, applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; Search, Social e Commerce aggiunge automaticamente il prefisso al proprio codice di reindirizzamento e di tracciamento quando si salva il record.
+Ad Adobe Advertising, il tracciamento delle conversioni, che viene applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; Search, Social e Commerce aggiunge automaticamente il prefisso al proprio codice di reindirizzamento e di tracciamento quando si salva il record.
 
-* Per i parametri supportati per incorporare l’URL finale, vedi [[!DNL Google Ads] documentation for the supported [!DNL ValueTrack] formati](https://support.google.com/google-ads/answer/6305348). (Passa ai parametri &quot;Solo modello di tracciamento&quot; nella sezione su &quot;Disponibile [!DNL ValueTrack] Parametri.&quot;)
+* Per i parametri supportati per incorporare l’URL finale, vedi [[!DNL Google Ads] documentazione per il supporto [!DNL ValueTrack] formati](https://support.google.com/google-ads/answer/6305348). (Passa ai parametri &quot;Solo modello di tracciamento&quot; nella sezione su &quot;Disponibile [!DNL ValueTrack] Parametri.&quot;)
 
 * Facoltativamente, puoi includere i parametri URL ed eventuali parametri personalizzati definiti per la campagna, separati da e commerciali (&amp;), ad esempio {lpurl}?matchtype={matchtype}&amp;device={device}.
 
@@ -27,13 +27,13 @@ Ad Adobe, il tracciamento della conversione di Advertising, applicato quando le 
 >* Il modello di tracciamento al livello più granulare sostituisce i valori a tutti i livelli superiori. Ad esempio, se entrambe le impostazioni account e parola chiave includono un valore, tale valore viene applicato.
 >* Se aggiorni un modello di tracciamento a livello di annuncio, sitelink o parola chiave, gli annunci pertinenti vengono nuovamente inviati per la revisione. Puoi aggiornare i modelli di tracciamento a livello di account, campagna o gruppo di annunci senza inviare nuovamente gli annunci per l’approvazione.
 
-## Campo Modello di tracciamento per entità Microsoft Advertising {#tracking-template-microsoft}
+## Campo modello di tracciamento per [!DNL Microsoft Advertising] entità {#tracking-template-microsoft}
 
 <!-- Search CRUD and bulk edit of Microsoft entity settings -->
 
 **[!UICONTROL Tracking Template]:** (Facoltativo) Il modello di tracciamento o l’URL di tracciamento, che specifica tutti i reindirizzamenti e i parametri di tracciamento dei domini di destinazione e incorpora anche l’URL finale/della pagina di destinazione in un parametro. Esempio: `{lpurl}?source={network}&id=5` o `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` per includere un reindirizzamento.
 
-Ad Adobe, il tracciamento della conversione di Advertising, applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; Search, Social e Commerce aggiunge automaticamente il prefisso al proprio codice di reindirizzamento e di tracciamento quando si salva il record.
+Ad Adobe Advertising, il tracciamento delle conversioni, che viene applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; Search, Social e Commerce aggiunge automaticamente il prefisso al proprio codice di reindirizzamento e di tracciamento quando si salva il record.
 
 * Per i parametri supportati per incorporare l’URL finale, vedi [[!DNL Microsoft Advertising] documentazione sui parametri per indicare l’URL finale](https://help.ads.microsoft.com/#apex/3/en/56799).
 

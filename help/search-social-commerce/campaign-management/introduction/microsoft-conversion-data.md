@@ -1,41 +1,42 @@
 ---
-title: '''[!DNL Microsoft Advertising] dati di conversione"'
-description: Scopri i tipi di [!DNL Microsoft Advertising]-Dati di conversione tracciati disponibili in Search, Social e Commerce.
+title: '''[!DNL Microsoft® Advertising] dati di conversione"'
+description: Scopri i tipi di [!DNL Microsoft® Advertising]-dati di conversione tracciati disponibili in Search, Social e Commerce.
 feature: Search Campaign Management, Conversions
-source-git-commit: c3d901e7cc2cf61b86f25c5942cbd116b5fca003
+exl-id: 0ebc70a0-1fb7-48db-b45d-7409e8bb6f64
+source-git-commit: f119876669e226d75376535b801c57da9590ac72
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft Advertising] dati di conversione in Search, Social e Commerce
+# [!DNL Microsoft® Advertising] dati di conversione in Search, Social e Commerce
 
-Search, Social e Commerce sincronizzano automaticamente tutte le conversioni tracciate dal [Tag UET (Universal Event Tracking) di Microsoft Advertising](https://about.ads.microsoft.com/solutions/tools/universal-event-tracking) per conversioni di siti web, incluse le conversioni view-through, per reporting e ottimizzazione.
+Search, Social e Commerce sincronizzano automaticamente tutte le conversioni tracciate dal [[!DNL Microsoft® Advertising] tag per il tracciamento degli eventi universali (UET)](https://about.ads.microsoft.com/solutions/tools/universal-event-tracking) per le conversioni di siti web, incluse le conversioni view-through, per reporting e ottimizzazione.
 
-Tutte le metriche sono automaticamente disponibili nelle viste di gestione delle campagne e nei rapporti di base e possono essere utilizzate anche negli obiettivi di portfolio per l’ottimizzazione delle campagne Microsoft Advertising.
+Tutte le metriche sono automaticamente disponibili nelle viste di gestione delle campagne e nei rapporti di base e possono essere utilizzate anche negli obiettivi di portfolio per ottimizzare [!DNL Microsoft® Advertising] campagne.
 
 ## Dati di conversione disponibili
 
 Search, Social e Commerce sincronizzano i dati per le conversioni per le quali &quot;[!DNL Include in 'Conversions']L’opzione &quot; è abilitata, richiama i dati per gli ultimi 35 giorni e quindi richiama le modifiche ai dati ogni giorno entro il 09:00-10:00 nel fuso orario dell’inserzionista. I dati storici possono cambiare di giorno in giorno, man mano che vengono tracciate nuove conversioni per ogni clic.
 
-Due metriche per ciascuno [[!DNL Microsoft Advertising]-conversione tracciata](https://help.ads.microsoft.com/apex/index/3/en-us/n5012) (configurato in [!DNL Microsoft Advertising]) sono automaticamente disponibili in Search, Social e Commerce, utilizzando i nomi di conversione configurati in [!DNL Microsoft Advertising]. Le metriche di ciascuna conversione includono:
+Due metriche per ciascuno [[!DNL Microsoft® Advertising]-conversione tracciata](https://help.ads.microsoft.com/apex/index/3/en-us/n5012) (configurato in [!DNL Microsoft® Advertising]) sono automaticamente disponibili in Search, Social e Commerce, utilizzando i nomi di conversione configurati in [!DNL Microsoft® Advertising]. Le metriche di ciascuna conversione includono:
 
 * `<conversion-name>` — il valore di conversione per la parola chiave (ad esempio Acquisto).
 
   >[!TIP]
   >
-  >Utilizza questo tipo di metrica di conversione nell’obiettivo per i portfolio che includono [!DNL Microsoft Advertising] con il valore di conversione massimo e le strategie di offerta ROAS di Target.
+  >Utilizza questo tipo di metrica di conversione nell’obiettivo per i portfolio che includono [!DNL Microsoft® Advertising] con il valore di conversione massimo e le strategie di offerta ROAS di Target.
 
 * `CT_<conversion-name>` — Il numero (conteggio) delle conversioni, a partire dal prefisso &quot;CT_&quot; (ad esempio CT_Purchase).
 
   >[!TIP]
   >
-  >Utilizza questo tipo di metrica di conversione nell’obiettivo per i portfolio che includono [!DNL Microsoft Advertising] campagne con le strategie di offerta Max Conversions e Target CPA.
+  >Utilizza questo tipo di metrica di conversione nell’obiettivo per i portfolio che includono [!DNL Microsoft® Advertising] campagne con le strategie di offerta Max Conversions e Target CPA.
 
 I dati sono disponibili in base all’ora di clic e all’ora di conversione/transazione dalla data in cui la funzione è abilitata per il conto.
 
-[!DNL Microsoft Advertising] registra ogni conversione per [unità di offerta](/help/search-social-commerce/glossary.md#a-b), dispositivo e data di clic (non data di conversione). L’attribuzione si basa sull’impostazione di attribuzione predefinita per ogni metrica in [!DNL Microsoft Advertising]; l’attribuzione di Adobe Advertising non è inclusa perché i dati a livello di evento clic non sono disponibili.
+[!DNL Microsoft® Advertising] registra ogni conversione per [unità di offerta](/help/search-social-commerce/glossary.md#a-b), dispositivo e data di clic (non data di conversione). L’attribuzione si basa sull’impostazione di attribuzione predefinita per ogni metrica in [!DNL Microsoft® Advertising]; l’attribuzione di Adobe Advertising non è inclusa perché i dati a livello di evento clic non sono disponibili.
 
 >[!NOTE]
 >
@@ -44,11 +45,11 @@ I dati sono disponibili in base all’ora di clic e all’ora di conversione/tra
 >* La varianza dei dati è in genere inferiore dopo la sincronizzazione mattutina rispetto a quella più tardi nel corso della giornata, quando non sono ancora state sincronizzate conversioni aggiuntive. È consigliabile convalidare i dati al mattino.
 >* I dati non sono disponibili a livello di pubblico o di posizione geografica e pertanto non vengono utilizzati per ottimizzare automaticamente RLSA e le regolazioni delle offerte di posizione.
 
-## Come confrontare i dati di conversione in [!DNL Microsoft Advertising] con dati in Search, Social e Commerce
+## Come confrontare i dati di conversione in [!DNL Microsoft® Advertising] con dati in Search, Social e Commerce
 
 Utilizza le seguenti impostazioni per i rapporti per convalidare dati confrontabili.
 
-### Impostazioni dei rapporti da utilizzare in [!DNL Microsoft Advertising]
+### Impostazioni dei rapporti da utilizzare in [!DNL Microsoft® Advertising]
 
 Genera il rapporto per le azioni di conversione selezionate per giorno e include i dati per tutti gli stati degli annunci.
 
@@ -64,13 +65,13 @@ In Search, Social e Commerce, utilizza l’opzione di visualizzazione o di rappo
 
    1. In **[!UICONTROL Conversions Based]** nella sezione, seleziona **[!UICONTROL Click date]**.
 
-   1. Specifica lo stesso intervallo di date utilizzato per il [!DNL Microsoft Advertising] rapporto.
+   1. Specifica lo stesso intervallo di date utilizzato per il [!DNL Microsoft® Advertising] rapporto.
 
    1. In **[!UICONTROL Search/Content]** sezione, seleziona **[!UICONTROL Search Only]**.
 
-   1. In **[!UICONTROL Search Engine Hierarchy]** , espandere la sezione [!UICONTROL Microsoft Advertising] e selezionare l&#39;account.
+   1. In **[!UICONTROL Search Engine Hierarchy]** , espandere la sezione [!UICONTROL Microsoft® Advertising] e selezionare l&#39;account.
 
-   1. Apri [!UICONTROL Columns] e aggiungi il [!DNL Microsoft Advertising] metriche da confrontare.
+   1. Apri [!UICONTROL Columns] e aggiungi il [!DNL Microsoft® Advertising] metriche da confrontare.
 
 1. Clic **[!UICONTROL Create]**.
 

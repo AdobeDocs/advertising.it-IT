@@ -1,11 +1,11 @@
 ---
 title: Informazioni sul tracciamento per Ricerca, Social e Commerce
 description: Scopri le opzioni di tracciamento per Search, Social e Commerce.
-exl-id: 0a26f67c-8b3b-4fa1-ac24-a8461624cfc5
+exl-id: f0fd367a-dd5a-46ec-a3d6-9b491860aae8
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: aeb5f9a903290926afc27fe32c32646561850cc1
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ Se desideri tenere traccia delle campagne su reti pubblicitarie con cui Search, 
 
 ### Tag di tracciamento dei clic
 
-Il team di implementazione di Search, Social &amp; Commerce configura il tracciamento dei clic aggiornando i modelli di tracciamento e gli URL di destinazione per annunci, parole chiave, posizionamenti, gruppi di prodotti ed estensioni sitelink nelle campagne pubblicitarie sincronizzate, in modo da includere una stringa ID tracciamento univoca e un Adobe Advertising di reindirizzamento. Aggiungono inoltre il tracciamento ai suffissi della pagina principale (suffissi URL finali) per il tuo [!DNL Google Ads] e [!DNL Microsoft Advertising] account e campagne.
+Il team di implementazione di Search, Social &amp; Commerce configura il tracciamento dei clic aggiornando i modelli di tracciamento e gli URL di destinazione per annunci, parole chiave, posizionamenti, gruppi di prodotti ed estensioni sitelink nelle campagne pubblicitarie sincronizzate, in modo da includere una stringa ID tracciamento univoca e un Adobe Advertising di reindirizzamento. Aggiungono inoltre il tracciamento ai suffissi della pagina principale (suffissi URL finali) per il tuo [!DNL Google Ads] e [!DNL Microsoft® Advertising] account e campagne.
 
 I parametri di tracciamento consentono all’Adobe Advertising di tenere traccia dei clic a livello di singola parola chiave (campagne di ricerca) o a livello di variante dell’annuncio (campagne di ricerca con targeting di contenuto o sito, campagne di visualizzazione e campagne social). Ogni volta che un utente visualizza un annuncio di visualizzazione/contenuto o fa clic su uno degli annunci, la rete di annunci invia l’evento ai server pixel Adobi Advertising utilizzando un tag di tracciamento dei clic associato alla parola chiave o all’annuncio. Per i clic:
 
-* Per gli annunci Google Ads e Microsoft Advertising sui browser che supportano il tracciamento parallelo, la rete di annunci invia prima il clic al sito web e poi agli Adobi Advertising pixel server, che quindi inseriscono un cookie sul computer dell’utente, se non ne esiste già uno.
+* Per [!DNL Google Ads] e [!DNL Microsoft® Advertising] annunci su browser che supportano il tracciamento parallelo, la rete di annunci invia prima il clic al sito web e poi ai server pixel Adobi Advertising, che quindi inseriscono un cookie sul computer dell’utente, se non ne esiste già uno.
 
 * In tutti gli altri casi, la rete pubblicitaria invia il clic direttamente ai server pixel Adobi Advertising. Il pixel server inserisce un cookie nel computer dell’utente (se non ne esiste già uno) e quindi reindirizza l’utente all’URL appropriato sul sito web. L’esperienza complessiva per l’utente finale è la stessa che si avrebbe senza un reindirizzamento.
 

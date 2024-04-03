@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Microsoft Advertising] impostazioni del gruppo di annunci'
-description: Fai riferimento alle impostazioni per [!DNL Microsoft Advertising] gruppi di annunci.
+title: '''[!DNL Microsoft® Advertising] impostazioni del gruppo di annunci'
+description: Fai riferimento alle impostazioni per [!DNL Microsoft® Advertising] gruppi di annunci.
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: a31179383fa9c1c9f6eb697d0aa3dd3301d41823
+source-git-commit: 29401370d18a5d1c7d5c28cb90a109ea5134ac00
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft Advertising] impostazioni gruppo di annunci
+# [!DNL Microsoft® Advertising] impostazioni gruppo di annunci
 
 ## [!UICONTROL Adgroup Details]
 
@@ -32,9 +32,9 @@ ht-degree: 0%
 
 **[!UICONTROL Networks]:** (Ricerca annunci) Come e dove inserire annunci all’interno del gruppo di annunci:
 
-* *[!UICONTROL Only Microsoft Advertising and Yahoo! websites]* (impostazione predefinita): per inserire offerte per annunci sulla rete di ricerca.
+* *[!UICONTROL Only Microsoft® Advertising and Yahoo! websites]* (impostazione predefinita): per inserire offerte per annunci sulla rete di ricerca.
 
-* *[!UICONTROL Only Microsoft Advertising and Yahoo! syndicated search partners]:* Per fare offerte per annunci su siti partner sindacati.
+* *[!UICONTROL Only Microsoft® Advertising and Yahoo! syndicated search partners]:* Per fare offerte per annunci su siti partner sindacati.
 
 * *[!UICONTROL Content network]:* Obsoleto
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/location-targets.md}}
 
-Per [!DNL Microsoft Advertising] gruppi di annunci nella rete di pubblico, i modificatori di offerte per i target di posizione non sono ottimizzati nei portfolio standard con il &quot;[!UICONTROL Auto-optimize Bid Adjustment Values]&quot;.
+Per [!DNL Microsoft® Advertising] gruppi di annunci nella rete di pubblico, i modificatori di offerte per i target di posizione non sono ottimizzati nei portfolio standard con il &quot;[!UICONTROL Auto-optimize Bid Adjustment Values]&quot;.
 
 <!-- **[!UICONTROL Devices]:** -->
 
@@ -122,7 +122,7 @@ Per [!DNL Microsoft Advertising] gruppi di annunci nella rete di pubblico, i mod
 
 **[!UICONTROL Negative Websites]:** (Campagne solo sulla rete nativa/di visualizzazione; facoltativo) Siti sulla rete di visualizzazione in cui non desideri visualizzare gli annunci. Immetti un URL valido, ad esempio www.example.com. Per specificare più stringhe, separarle con virgole o immetterle su righe separate.
 
-Per informazioni sulla disponibilità, consulta la guida di Microsoft Advertising su &quot;[Impedire la visualizzazione di annunci su siti Web specifici](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
+Per informazioni sulla disponibilità, consulta [!DNL Microsoft® Advertising] Aiuto per &quot;[Impedire la visualizzazione di annunci su siti Web specifici](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
 
 >[!MORELIKETHIS]
 >
