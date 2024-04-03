@@ -2,9 +2,9 @@
 title: Soluzioni avanzate di misurazione
 description: Consulta un elenco delle soluzioni disponibili per la misurazione avanzata.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: fed8daa79688d65d1b64ae8145cc1d1d0d84f11a
+source-git-commit: c06cbb80d9215ef7ce93d801520369ae8e316189
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -39,9 +39,9 @@ Per verificare il successo delle campagne pubblicitarie, sono disponibili i segu
 
   Scopri in che modo i tipi di pubblico e le tattiche si sovrappongono a livello di persona, comprese le esposizioni in più ambienti digitali, come desktop, dispositivi mobili, nativi e audio.
 
-* **Cross-ID People-Based Reach**
+   * **Cross-ID People-Based Reach**
 
-  Quantifica la portata univoca e la sovrapposizione tra cookie e RampID, nonché il costo per metrica per tipo di ID. Dimostrare l’efficacia del test dei RampID nel trovare una portata incrementale relativa ai segmenti basati su cookie in più ambienti digitali, come desktop, mobile, nativo e audio.
+     Quantifica la portata univoca e la sovrapposizione tra cookie e RampID, nonché il costo per metrica per tipo di ID. Dimostrare l’efficacia del test dei RampID nel trovare una portata incrementale relativa ai segmenti basati su cookie in più ambienti digitali, come desktop, mobile, nativo e audio.
 
 * **[!DNL Dynata]Indagini basate su panel**
 
@@ -76,10 +76,6 @@ Per verificare il successo delle campagne pubblicitarie, sono disponibili i segu
    * Misurazione della portata, della frequenza e della conversione per uso domestico
 
      Qualsiasi cliente che desideri comprendere portata/portata incrementale e efficienze e/o metriche di conversione basate sui costi attraverso più tattiche digitali
-
-   * Cross-ID People-Based Reach
-
-     Qualsiasi cliente che cerca di quantificare la portata e la sovrapposizione univoche tra cookie e RampID e il costo per metrica per tipo di ID in più tattiche digitali
 
    * Misurazione cross-screen di portata, frequenza e conversione
 
