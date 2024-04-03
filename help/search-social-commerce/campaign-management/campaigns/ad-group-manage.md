@@ -3,16 +3,16 @@ title: Gestire i gruppi di annunci
 description: Scopri come creare e gestire i gruppi di annunci.
 exl-id: 66900a1f-f915-497d-9053-9d393845af08
 feature: Search Campaign Management
-source-git-commit: 06febcd91ff8576c8bf93c8e74475b297e0415bf
+source-git-commit: 3f9380076389d00c87efbcdbbb2112352cbe173c
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
 
 # Gestire i gruppi di annunci
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex], ed esistenti [!DNL Baidu] solo account*
+*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex], ed esistenti [!DNL Baidu] solo account*
 
 Un gruppo di annunci include un set di annunci e le relative parole chiave. Un gruppo di annunci in una campagna che esegue il targeting della rete di visualizzazione può includere anche posizionamenti, ovvero posizioni nella rete di visualizzazione in cui possono essere visualizzati gli annunci. Le impostazioni dei gruppi di annunci, applicabili a tutti i componenti del gruppo di annunci, variano in base alla rete di annunci.
 
@@ -30,7 +30,7 @@ Puoi creare gruppi di annunci all’interno di Search, Social e Commerce per un 
 
 1. Seleziona la rete di annunci, l’account e la campagna, quindi fai clic su **[!UICONTROL Continue]**.
 
-1. Inserisci il [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md), o [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) impostazioni del gruppo di annunci.
+1. Inserisci il [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md), [Microsoft® Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md), o [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) impostazioni del gruppo di annunci.
 
    A seconda della rete dell’annuncio, le impostazioni possono essere raggruppate in [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting], e [!UICONTROL URL Options]. Per configurare le impostazioni per [!UICONTROL Adgroup Frequency Cap Settings], [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], quando sono disponibili, fai clic su **[!UICONTROL Add Frequency Cap Settings]**, **[!UICONTROL Add Negative Keywords]**, o **[!UICONTROL Add Negative Websites]**, rispettivamente.
 
@@ -60,7 +60,7 @@ Puoi modificare le impostazioni per singoli gruppi di annunci. Puoi anche modifi
 
       * Nella barra degli strumenti sopra la tabella dati, fai clic su ![Modifica](/help/search-social-commerce/assets/edit.png "Modifica").
 
-1. Modifica il [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md), o [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) impostazioni del gruppo di annunci.
+1. Modifica il [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md), [Microsoft® Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md), o [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) impostazioni del gruppo di annunci.
 
    Per più gruppi di annunci, le impostazioni possono essere raggruppate in [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting], e [!UICONTROL URL Options], a seconda della rete di annunci. Puoi modificare solo i campi comuni a tutti i gruppi di annunci selezionati e le modifiche vengono applicate a tutti i gruppi di annunci selezionati. Per alcuni campi alfanumerici sono disponibili opzioni che consentono di modificare i valori esistenti in un valore specificato, sostituire una stringa esistente con una stringa specificata, aggiungere un prefisso specificato all&#39;inizio di ogni valore o aggiungere un suffisso alla fine di ogni valore. Per alcuni campi monetari, è possibile modificare i valori esistenti in un valore specificato o aumentare o diminuire l&#39;importo di una percentuale o di un importo monetario specificato, con un limite.
 
@@ -95,8 +95,8 @@ Puoi anche eliminare qualsiasi gruppo di annunci di ricerca attivo o in pausa. I
 
 >[!MORELIKETHIS]
 >
->* [Impostazioni gruppo di annunci Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)
->* [Impostazioni dei gruppi di annunci di Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)
->* [Impostazioni dei gruppi di annunci Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
->* [Yahoo! Impostazioni gruppo di annunci Japan Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
->* [Impostazioni gruppo di annunci Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
+>* [[!DNL Baidu] impostazioni gruppo di annunci](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)
+>* [[!DNL Google Ads] impostazioni gruppo di annunci](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)
+>* [[!DNL Microsoft® Advertising] impostazioni gruppo di annunci](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
+>* [[!DNL Yahoo! Japan Ads] impostazioni gruppo di annunci](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
+>* [[!DNL Yandex] impostazioni gruppo di annunci](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
