@@ -3,7 +3,7 @@ title: Best practice per l’impostazione di campagne sulle prestazioni
 description: Scopri le best practice per la configurazione di campagne incentrate sulle prestazioni, che includono posizionamenti ottimizzati per il CPA più basso o il ROAS più alto.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: 6aa81fe4fd5ea6cb188b7f18b1574c26ddfcbb92
+source-git-commit: b3a03aa34bbdcf668a71d6810362d735c21961d7
 workflow-type: tm+mt
 source-wordcount: '1273'
 ht-degree: 0%
@@ -75,7 +75,7 @@ Inoltre, utilizza le seguenti impostazioni.
 
 * **Budget:** L&#39;DSP cercherà sempre di allocare il 100% del budget del pacchetto in modo uniforme tra tutti i posizionamenti all&#39;interno di un pacchetto. Se un posizionamento ha una spesa bassa o nessuna spesa, si consiglia di limitare il budget al posizionamento per consentire di allocare una maggiore parte del budget a posizionamenti con scala. Consenti 24-48 ore per la calibrazione delle modifiche di budget.
 
-* **Obiettivi di ottimizzazione:** Utilizzare uno dei due obiettivi di ottimizzazione delle prestazioni, *[!UICONTROL Highest ROAS]* o *[!UICONTROL Lowest CPA]*, a seconda dell’obiettivo del pacchetto. Questi obiettivi ottimizzano automaticamente il pacchetto rispettivamente verso i posizionamenti ROAS più elevati o CPA più bassi.
+* **Obiettivi di ottimizzazione:** Utilizzare uno dei due obiettivi di ottimizzazione delle prestazioni, *[!UICONTROL Highest Return on Ad Spend]* o *[!UICONTROL Lowest Cost per Acquisition]*, a seconda dell’obiettivo del pacchetto. Questi obiettivi ottimizzano automaticamente il pacchetto rispettivamente verso i posizionamenti ROAS più elevati o CPA più bassi.
 
 * **Obiettivi personalizzati:**
    * Se un nuovo pacchetto ha lo stesso obiettivo di un pacchetto esistente, puoi facoltativamente collegare il pacchetto esistente in modo che l’algoritmo possa utilizzare i dati di apprendimento automatico esistenti.
