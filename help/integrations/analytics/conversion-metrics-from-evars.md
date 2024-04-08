@@ -3,7 +3,7 @@ title: Creare metriche di conversione da Adobe Analytics [!DNL eVars] e prop
 description: Configurare metriche evento di successo personalizzate utilizzando [!DNL eVar]- e [!DNL prop]dati a livello di.
 feature: Integration with Adobe Analytics, Conversions
 exl-id: 7717d10c-76ca-4ba9-9fbb-e34ad006619c
-source-git-commit: 686ca84a34117bcb4f4d5f295ed27bb308e6f287
+source-git-commit: a0d5bc1791f5d05e2cbdeab58e1943f4d494b53f
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -58,7 +58,7 @@ La maggior parte delle seguenti attività deve essere eseguita da un [!DNL Analy
 
 1. Contatta il team dell’account Adobe per sincronizzare la nuova metrica in Adobi Advertising.
 
-Una volta che la metrica è disponibile, puoi utilizzarla per creare un obiettivo, che puoi quindi assegnare a un portfolio Search, Social &amp; Commerce o utilizzare come [obiettivo personalizzato](/help/dsp/optimization/custom-goal-about.md) per un pacchetto DSP.
+Una volta che la metrica è disponibile, puoi utilizzarla per creare un obiettivo, che puoi quindi assegnare a un portfolio Search, Social &amp; Commerce o utilizzare come [obiettivo personalizzato](/help/dsp/optimization/custom-goal.md) per un pacchetto DSP.
 
 Per ulteriori informazioni sulla creazione degli obiettivi, consulta il capitolo &quot;Objectives&quot; della Guida all’ottimizzazione, disponibile in Search, Social &amp; Commerce.
 

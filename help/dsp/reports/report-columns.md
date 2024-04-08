@@ -3,9 +3,9 @@ title: Colonne report disponibili
 description: Vedi le descrizioni delle colonne disponibili nei rapporti personalizzati.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: cfc680030bb14c4a283735a4315fe11955c270e0
+source-git-commit: 4cb71ce992683afeaf24927f0883b7e110e70b5d
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2223'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Measurable Impressions (Overlap)] | Numero totale di impression misurabili servite solo dalla dimensione segnalata, incluse le intersezioni di un massimo di tre valori per la dimensione. Ad esempio, se utilizzi il [!UICONTROL Placement] dimensione, quindi puoi vedere le impression misurabili raggiunte dai singoli posizionamenti, le impression misurabili raggiunte da una combinazione di due posizionamenti qualsiasi e le impression misurabili raggiunte da combinazioni di tre posizionamenti qualsiasi. |
 | [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Total Media Spend] | La spesa totale. |
 | [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Unique Household Reached] | Totale delle famiglie univoche (indirizzi IP distinti) raggiunte. |
-| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Unique Household (Overlap)] | Il totale delle famiglie univoche (indirizzi IP distinti) raggiunte solo dalla dimensione segnalata, comprese le intersezioni fino a tre valori per la dimensione. Ad esempio, se utilizzi il [!UICONTROL Placement] dimensione, quindi si possono vedere le famiglie uniche raggiunte da singoli posizionamenti, le famiglie comuni raggiunte da una combinazione di due posizionamenti qualsiasi e le famiglie comuni raggiunte da combinazioni di qualsiasi tre posizionamenti. |
+| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Unique Household (Overlap)] | Il totale delle famiglie univoche (indirizzi IP distinti) raggiunte solo dalla dimensione segnalata, comprese le intersezioni fino a tre valori per la dimensione. Ad esempio, se utilizzi il [!UICONTROL Placement] dimensione, poi si possono vedere le famiglie uniche raggiunte da singoli posizionamenti, le famiglie comuni raggiunte da una combinazione di qualsiasi due posizionamenti e le famiglie comuni raggiunte da combinazioni di qualsiasi tre posizionamenti. |
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Cost per Incremental HH] | La spesa totale divisa per la famiglia incrementale raggiunta. |
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Cost per Unique HH] | Spesa totale divisa per famiglia univoca raggiunta. |
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Frequency] | Frequenza delle impression per famiglia. |
@@ -197,7 +197,7 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Viewability Rate (%)] | Percentuale di impression visualizzabili su tutte le impression misurabili, calcolate come <code>[!UICONTROL Viewable Impressions] / [!UICONTROL Measurable Impressions]</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Viewable Impressions] | Il numero di impression pubblicitarie considerate visualizzabili. |
 | [!UICONTROL Conversion Metrics] | [Raggruppato per inserzionista nelle impostazioni del rapporto] | [Conversione specifica per l’inserzionista] | Totale per una metrica di conversione o un evento Adobe Analytics specifico per l’inserzionista. |
-| [!UICONTROL Custom Goals] | [Raggruppato per inserzionista nelle impostazioni del rapporto] | [Obiettivo personalizzato specifico per l’inserzionista] | La somma ponderata di tutte le conversioni incluse nel [obiettivo personalizzato](/help/dsp/optimization/custom-goal-about.md). |
+| [!UICONTROL Custom Goals] | [Raggruppato per inserzionista nelle impostazioni del rapporto] | [Obiettivo personalizzato specifico per l’inserzionista] | La somma ponderata di tutte le conversioni incluse nel [obiettivo personalizzato](/help/dsp/optimization/custom-goal.md). |
 
 {style="table-layout:auto"}
 

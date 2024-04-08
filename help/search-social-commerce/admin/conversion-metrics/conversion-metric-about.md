@@ -2,8 +2,8 @@
 title: Informazioni sulla gestione delle metriche di conversione di un inserzionista
 description: Scopri come utilizzare le metriche di conversione di un inserzionista tracciate da Adobi Advertising.
 feature: Conversions
-exl-id: e5e4dc8a-04b0-4423-be1d-18f89453d264
-source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
+exl-id: 8cfb4df8-ed48-4809-b383-7a6011b1f530
+source-git-commit: c3c864a838b5d7efca523ba8b35a5a3db47f71b8
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Il [conversione](/help/search-social-commerce/glossary.md#c-d) metriche di Adobe
 
 * In Search, Social e Commerce, puoi utilizzare le metriche di conversione per creare obiettivi, utilizzati per ottimizzare i portfolio. Inoltre, i dati per le metriche di conversione possono essere visualizzati in colonne nelle viste gestione campagne e portfolio e nei rapporti.
 
-* In Advertising DSP puoi utilizzare le metriche di conversione per [creare obiettivi personalizzati](/help/dsp/optimization/custom-goal-create.md), utilizzati per ottimizzare i pacchetti.
+* In Advertising DSP, puoi utilizzare le metriche di conversione per creare [obiettivi personalizzati](/help/dsp/optimization/custom-goal.md), utilizzati per ottimizzare i pacchetti.
 
 Per impostazione predefinita, nessuna delle metriche di conversione di un inserzionista, ad eccezione delle conversioni tracciate da [!DNL Google Ads], [!DNL Google Analytics], e [!DNL Microsoft® Advertising] tag universali per il tracciamento degli eventi: sono disponibili per le visualizzazioni e i rapporti di gestione di campagne e portfolio. Sono disponibili solo quando li rendi disponibili in modo specifico e includi un nome visualizzato, che è il nome visualizzato. Quando rendi disponibile una metrica di conversione, puoi utilizzare il nome della metrica esattamente come viene digitato nei dati recuperati oppure modificare il nome visualizzato nelle intestazioni di colonna per migliorarne la leggibilità.
 
