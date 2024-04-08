@@ -3,9 +3,9 @@ title: Impostazioni pacchetto
 description: Consulta le descrizioni delle impostazioni disponibili per il pacchetto.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 0606614cc4fca842b800c089afa0303b67ecba5f
+source-git-commit: cb57ada624bdc810a0d6921e89deba832a2b16d9
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Per i pacchetti con conflitti personalizzati, l&#39;intervallo di budget è semp
 
 **[!UICONTROL Consider Only Click Conversions for Model Learning]:** (Facoltativo; pacchetti con &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;Solo obiettivi di ottimizzazione&quot; indica al modello di ottimizzazione di imparare solo dalle conversioni basate su clic. In caso contrario, il modello di ottimizzazione apprende sia dalle conversioni basate su clic che da quelle basate su impression.
 
-**[!UICONTROL Conversion Metric]:** (Facoltativo; pacchetti con &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;Solo obiettivi di ottimizzazione&quot;: l’evento di conversione finale (ad esempio le iscrizioni) o l’importo di evento di ricavo/vendita (ad esempio i valori di acquisto e di acquisto) da utilizzare per calcolare il ritorno sulla spesa pubblicitaria o il costo per acquisizione. Seleziona da un elenco di tutti gli eventi mappati all&#39;obiettivo personalizzato selezionato.
+**[!UICONTROL Conversion Metric]:** (Facoltativo; pacchetti con &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;Solo obiettivi di ottimizzazione&quot;: l’evento di conversione finale (ad esempio le iscrizioni) o l’importo di evento di ricavo/vendita (ad esempio i valori di acquisto e di acquisto) da utilizzare per calcolare il ritorno sulla spesa pubblicitaria o il costo per acquisizione. Seleziona da un elenco di tutti gli eventi primari (&quot;metriche obiettivo&quot;) mappati all&#39;obiettivo personalizzato selezionato. Se l’elenco è vuoto, modifica l’obiettivo personalizzato in modo da includere almeno uno degli eventi sottostanti come metrica di obiettivo.
 
 **[!UICONTROL Package Goal Type]:** (Solo pacchetti con obiettivi di ottimizzazione personalizzati) Scopo del pacchetto. Questa impostazione consente di determinare come ottimizzare il pacchetto:
 
