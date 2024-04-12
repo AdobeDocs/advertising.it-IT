@@ -3,16 +3,16 @@ title: Parametri di tracciamento facoltativi per gli URL di tracciamento dei cli
 description: Scopri i parametri di tracciamento facoltativi per Search, Social e Commerce e i parametri di tracciamento specifici per la rete di annunci che puoi aggiungere agli URL di tracciamento dei clic.
 exl-id: df53bb8c-63ad-47f9-af44-57bd4bd58d71
 feature: Search Tracking
-source-git-commit: cc312009303f86a2f9eddcc98f33d7e2c22fcb85
+source-git-commit: c743e0dec75578d739a704ef94f96dd7be4f982e
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
 
 # Parametri di tracciamento facoltativi per gli URL di tracciamento dei clic
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo Native], [!DNL Yahoo! Japan], e [!DNL Yandex] solo account*
+*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan], e [!DNL Yandex] solo account*
 
 Invece di utilizzare solo i parametri di tracciamento standard per un URL finale o un URL di destinazione, puoi aggiungere altri parametri per tracciare dati specifici per un account di rete di annunci. Puoi aggiungere qualsiasi combinazione dei seguenti parametri nelle impostazioni dell’account o della campagna:
 
@@ -66,16 +66,8 @@ Consulta [https://support.google.com/google-ads/answer/2375447](https://support.
 
 Consulta [https://help.bingads.microsoft.com/#apex/3/en/51091/2](https://help.bingads.microsoft.com/#apex/3/en/51091/2).
 
-&lt;&lt;&lt;&lt;&lt;&lt; A monte aggiornato
-## [!DNL Yahoo Native] parametri di tracciamento dinamico
-
-Consulta [https://developer.yahoo.com/nativeandsearch/guide/resources/dynamic-parameters](https://developer.yahoo.com/nativeandsearch/guide/resources/dynamic-parameters).
-
-## [!DNL Yahoo! Japan Ads] parametri di tracciamento dinamico
-=======
 ## Yahoo! Parametri di tracciamento dinamico di Japan Ads
->>>>>>>>>>Modifiche con stash
-> 
+
 Consulta [https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US](https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US).
 
 ## [!DNL Yandex] parametri di tracciamento dinamico
@@ -84,4 +76,4 @@ Consulta [https://yandex.com/support/direct/statistics/url-tags.html](https://ya
 
 >[!MORELIKETHIS]
 >
-* [Informazioni sui formati degli URL di tracciamento dei clic per il servizio di tracciamento delle conversioni di Adobe Advertising](/help/search-social-commerce/tracking/formats-click-tracking-about.md)
+>* [Informazioni sui formati degli URL di tracciamento dei clic per il servizio di tracciamento delle conversioni di Adobe Advertising](/help/search-social-commerce/tracking/formats-click-tracking-about.md)
