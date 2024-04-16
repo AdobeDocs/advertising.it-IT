@@ -2,9 +2,8 @@
 title: Adobe Advertising di criteri per i requisiti dell’ID universale
 description: Consulta i criteri per l’utilizzo degli ID universali.
 feature: Policies, DSP Ads
-hide: true
-hidefromtoc: true
-source-git-commit: 2a77177ea7fb563835731fbbaa5447df94c211e9
+exl-id: a21dcc56-a618-476d-9f5b-7b1260f27331
+source-git-commit: 35dd8b8302afb01f8e6bb6c8da2a3c167abd397f
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -12,8 +11,6 @@ ht-degree: 0%
 ---
 
 # Adobe Advertising di criteri per i requisiti dell’ID universale
-
-<!-- In TOC, but hidden from TOC and both external and internal search -->
 
 Ultimo aggiornamento: 29 febbraio 2024
 
