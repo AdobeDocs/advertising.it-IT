@@ -2,9 +2,9 @@
 title: Gestire i moltiplicatori delle offerte per i posizionamenti
 description: Scopri come creare e modificare i moltiplicatori di offerta per i target di posizionamento specificati.
 feature: DSP Placements
-source-git-commit: 6994a15af080057889607c0e28dd519a1ddb28de
+source-git-commit: b3932c066e0ecd29e57152f0654ee4b0d9e0dda1
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '409'
 ht-degree: 3%
 
 ---
@@ -49,7 +49,7 @@ Puoi configurare i modificatori di offerte solo per le destinazioni incluse e no
 
 * **Destinazioni pubblico:** segmenti, parti diurne e argomenti
 
-* **destinazioni ads.txt:** (Quando si rinuncia ad ads.txt) solo i venditori ads.txt, i venditori diretti ads.txt e i venditori ads.txt più i siti senza ads.txt.
+* **destinazioni ads.txt:** (Quando si rinuncia ad ads.txt, che consente di acquistare inventario da tutti i venditori) ads.txt venditori solo, ads.txt venditori diretti e ads.txt venditori più siti senza annunci.txt <!-- bid multipliers for the different subsets of inventory; not available when the placement targets only one subset -->
 
 ## Numero massimo di moltiplicatori di offerte per tipo di destinazione {#bid-multiplier-limits-by-target}
 
