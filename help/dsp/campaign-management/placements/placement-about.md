@@ -3,16 +3,16 @@ title: Informazioni sulla gestione del posizionamento nella pubblicità DSP
 description: Scopri la gestione del posizionamento.
 feature: DSP Placements
 exl-id: 903ba200-6bb3-4c31-b7a9-03ada3de5451
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 6233ba0b0cb779ed848cb921427543cea8586700
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
 
 # Informazioni sulla gestione del posizionamento nella pubblicità DSP
 
-Un posizionamento include parametri di targeting per uno o più annunci dello stesso tipo di annuncio. Puoi creare un posizionamento per una singola campagna o pacchetto, quindi assegnare ad esso gli annunci. Ogni campagna o posizionamento può includere più posizionamenti, con una rotazione di annunci specificata. Per impostazione predefinita, gli annunci vengono ruotati in modo uniforme.
+Un posizionamento include parametri di targeting per uno o più annunci dello stesso tipo di annuncio. Puoi creare un posizionamento per una singola campagna o pacchetto, quindi assegnare ad esso gli annunci. Ogni campagna o posizionamento può includere più posizionamenti, con una rotazione di annunci specificata. Per impostazione predefinita, gli annunci vengono ruotati in modo uniforme. Puoi configurare separatamente i moltiplicatori di offerte per vari tipi di target di posizionamento.
 
 Dopo aver assegnato un posizionamento attivo a un pacchetto o a una campagna attiva, tutti gli annunci attivi approvati nel posizionamento possono essere eseguiti in base ai parametri di targeting del posizionamento.
 
@@ -42,12 +42,12 @@ Per ogni posizionamento, potete aprire una vista dettagliata ([il [!UICONTROL In
 
 >[!NOTE]
 >
->Puoi personalizzare ulteriormente il contenuto e la distribuzione dei rapporti di posizionamento tramite [rapporti personalizzati](/help/dsp/reports/report-about.md).
+>Puoi personalizzare ulteriormente il contenuto e la consegna dei rapporti di posizionamento tramite [rapporti personalizzati](/help/dsp/reports/report-about.md).
 
 >[!MORELIKETHIS]
 >
 >* [Creare un posizionamento](placement-create.md)
+>* [Gestire i moltiplicatori delle offerte per i posizionamenti](placement-manage-bid-multipliers.md)
 >* [Visualizzare il log delle modifiche per un posizionamento](placement-change-log.md)
 >* [Impostazioni di posizionamento](placement-settings.md)
 >* [Risoluzione dei problemi relativi alle prestazioni](/help/dsp/optimization/troubleshooting-performance.md)
-

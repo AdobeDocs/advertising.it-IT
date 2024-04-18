@@ -3,9 +3,9 @@ title: Modificare un posizionamento
 description: Scopri come modificare un posizionamento.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: c64d53949b8655f6b7efeaf4d10407a26cf9e9e8
+source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,7 @@ Utilizza questa opzione solo quando desideri applicare le stesse modifiche a tut
 >* [Modifica rapida impostazioni di posizionamento chiave](placement-quick-edit.md)
 >* [Creare un posizionamento](placement-create.md)
 >* [Duplicare un posizionamento](placement-duplicate.md)
+>* [Gestire i moltiplicatori delle offerte per i posizionamenti](placement-manage-bid-multipliers.md)
 >* [Modificare gli Schedules degli annunci per i posizionamenti](placement-edit-ad-schedule.md)
 >* [Sospendere o attivare un posizionamento](placement-pause-activate.md)
 >* [Visualizzare il log delle modifiche per un posizionamento](placement-change-log.md)
