@@ -1,13 +1,15 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: 6b4dd1b8912703a5d45ffa872fe0231716cfb9a5
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
 # Campo Destinazioni posizione in alcune impostazioni della campagna e nelle impostazioni del gruppo di annunci di MS
 
-**[!UICONTROL Location Targets]:** Posizioni geografiche specifiche dell’utente da includere o escludere come target. Per impostazione predefinita, tutte le posizioni sono impostate come destinazione. Puoi includere ed escludere utenti in qualsiasi combinazione di posizioni. Le esclusioni sostituiscono sempre le inclusioni.
+<!-- MS performance max campaigns, MSA ad groups, Baidu campaigns, YJP campaigns -->
+
+**[!UICONTROL Location Targets]:** (Se disponibile) Posizioni geografiche specifiche dell’utente da includere o escludere come target. Per impostazione predefinita, tutte le posizioni sono impostate come destinazione. Puoi includere ed escludere utenti in qualsiasi combinazione di posizioni. Le esclusioni sostituiscono sempre le inclusioni.
 
 * Per eseguire il targeting di tutte le posizioni, non selezionare alcuna posizione.
 

@@ -1,11 +1,11 @@
 ---
 title: '[!DNL Microsoft® Advertising] impostazioni annunci per ricerca dinamica espansa'
 description: Fai riferimento alle impostazioni per [!DNL Microsoft® Advertising] annunci di ricerca dinamica espansi.
-exl-id: 73ac6cca-717e-46d2-a060-f1eafd754245
+exl-id: 232a57fc-2823-4d82-aa02-3e670430979f
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: bb3c366d702cdf2604388720313a7d23938d902a
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ Gli annunci di ricerca dinamica espansi (eDSA) sono disponibili solo nei gruppi 
 
 <!-- **[!UICONTROL Display Path 1]**, **[!UICONTROL Display Path 2]:** -->
 
-**[!UICONTROL Description Line 2]:** (Facoltativo) Una seconda riga per l’annuncio. La lunghezza massima è di 90 caratteri a byte singolo o 45 caratteri a byte doppio.
-
 {{$include /help/_includes/display-path1-2.md}}
+
+**[!UICONTROL Description Line 2]:** (Facoltativo) Una seconda riga per l’annuncio. La lunghezza massima è di 90 caratteri a byte singolo o 45 caratteri a byte doppio.
 
 <!-- **[!UICONTROL Status]:** -->
 

@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] impostazioni della campagna'
 description: Fai riferimento alle impostazioni per [!DNL Google Ads] campagne.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 7b4818260fad61a773fb7261cbcdfd84bee84d42
+source-git-commit: 66f6f659e46d2a08e0f7b958be8f60ba5e9720b3
 workflow-type: tm+mt
-source-wordcount: '2387'
+source-wordcount: '2378'
 ht-degree: 0%
 
 ---
@@ -70,27 +70,27 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]:** La strategia di offerta per la campagna:
 
-* *[!UICONTROL Enhanced CPC]:* (Non disponibile per prestazioni massime o esistenti, sola lettura) [!DNL Gmail] Campagne ) Utilizza il modello avanzato di cost-per-click (eCPC) della rete di annunci, che consente alla rete di modificare automaticamente l&#39;offerta cost-per-click (CPC) per ogni asta nel tentativo di massimizzare le conversioni, utilizzando le conversioni specificate all&#39;interno della rete di annunci (non in Search, Social &amp; Commerce), cercando al contempo di mantenere il CPC medio al di sotto del CPC massimo.
+* *[!UICONTROL Enhanced CPC]:* (Non disponibile per prestazioni massime o esistenti, sola lettura) [!DNL Gmail] campagne pubblicitarie) Utilizza il modello avanzato cost-per-click (eCPC) della rete di annunci, che consente alla rete di modificare automaticamente l&#39;offerta cost-per-click (CPC) per ogni asta nel tentativo di massimizzare le conversioni, utilizzando le conversioni specificate all&#39;interno della rete di annunci (non in Search, Social &amp; Commerce), cercando al contempo di mantenere il CPC medio al di sotto del CPC massimo.
 
-Quando aggiungi una campagna con eCPC a un portfolio Search, Social e Commerce ottimizzato, Search, Social e Commerce ottimizzano le offerte di base e, quando &quot;[!UICONTROL Auto adjust campaign budget limits]&quot;è abilitata l’opzione&quot;: il budget della campagna. La rete di annunci ottimizza tutte le regolazioni delle offerte e può modificare le offerte generate da Search, Social e Commerce al momento della query utente in base a dati e informazioni proprietari. **Attenzione:** Utilizza le campagne eCPC nei portfolio solo quando il totale delle conversioni tracciate nella rete di annunci è in linea con l’obiettivo del portfolio. <!-- Note to self: Within the ad network UI, you specify conversion goals either a) all conversion actions you've set to be included in "Conversions" at the account level or b) one or more individual conversions to use for optimization -->
+Quando aggiungi una campagna con eCPC a un portfolio ottimizzato di Search, Social e Commerce, Search, Social e Commerce ottimizzano le offerte di base e quando &quot;[!UICONTROL Auto adjust campaign budget limits]&quot;è abilitata l’opzione&quot;: il budget della campagna. La rete di annunci ottimizza tutte le regolazioni delle offerte e può modificare le offerte generate da Search, Social e Commerce al momento della query utente in base a dati e informazioni proprietari. **Attenzione:** Utilizza le campagne eCPC nei portfolio solo quando il totale delle conversioni tracciate nella rete di annunci è in linea con l’obiettivo del portfolio. <!-- Note to self: Within the ad network UI, you specify conversion goals either a) all conversion actions you've set to be included in "Conversions" at the account level or b) one or more individual conversions to use for optimization -->
 
 * *[!UICONTROL Manual CPC]* (impostazione predefinita): (non disponibile per campagne con prestazione massima) utilizza il modello CPC (cost-per-click). Facoltativamente, puoi consentire alla rete di annunci di modificare le offerte per la campagna:
 
    * **[!UICONTROL Enable Enhanced CPC]** (disattivato per impostazione predefinita): corrisponde all’utilizzo del tasto &quot;[!UICONTROL Enhanced CPC]&quot;.
 
-* *[!UICONTROL Maximize Clicks]:* (Campagne di ricerca, visualizzazione e acquisto) La rete di annunci, anziché Search, Social e Commerce, ottimizza le offerte per massimizzare i clic. È possibile inserire un **[!UICONTROL Max CPC]** (costo per clic) per garantire che la rete di annunci non paghi più di un importo specifico per ogni clic. **Attenzione:** Quando aggiungi una campagna con questa strategia a un portfolio, le offerte si basano sul peso del clic e non sull’obiettivo del portfolio.
+* *[!UICONTROL Maximize Clicks]:* (Campagne di ricerca, visualizzazione e acquisto) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte per massimizzare i clic. È possibile inserire un **[!UICONTROL Max CPC]** (costo per clic) per garantire che la rete di annunci non paghi più di un importo specifico per ogni clic. **Attenzione:** Quando aggiungi una campagna con questa strategia a un portfolio, le offerte si basano sul peso del clic e non sull’obiettivo del portfolio.
 
-* *[!UICONTROL Maximize Conversion Value]:* (Campagne di ricerca, con prestazioni massime e di acquisto intelligente) La rete di annunci, non Ricerca, Social e Commerce, ottimizza le offerte per massimizzare il valore di conversione. È possibile inserire un **[!UICONTROL Target Return on Ad Spend]** (ROAS) in percentuale. **Nota:** Utilizza questa opzione per le campagne in portfolio ibridi ma non in portfolio standard.
+* *[!UICONTROL Maximize Conversion Value]:* (Campagne di ricerca, con prestazioni massime e di acquisto intelligente) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte per massimizzare il valore di conversione. È possibile inserire un **[!UICONTROL Target Return on Ad Spend]** (ROAS) in percentuale. **Nota:** Utilizza questa opzione per le campagne in portfolio ibridi ma non in portfolio standard.
 
-* *[!UICONTROL Maximize Conversions]:* (Campagne basate su ricerca, visualizzazione e prestazioni massime) La rete di annunci, anziché Search, Social e Commerce, ottimizza le offerte per massimizzare le conversioni. È possibile inserire un **[!UICONTROL Target CPA]** (costo per acquisizione). **Nota:** Utilizza questa opzione per le campagne in portfolio ibridi ma non in portfolio standard.
+* *[!UICONTROL Maximize Conversions]:* (Campagne basate su ricerca, visualizzazione e prestazioni massime) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte per massimizzare le conversioni. È possibile inserire un **[!UICONTROL Target CPA]** (costo per acquisizione). **Nota:** Utilizza questa opzione per le campagne in portfolio ibridi ma non in portfolio standard.
 
-* *[!UICONTROL Target CPA]:* (Campagne di visualizzazione; campagne di ricerca esistenti) La rete di annunci, non Search, Social &amp; Commerce, ottimizza le offerte in base a un **[!UICONTROL Target CPA]** (costo per acquisizione), che è l’importo medio di 30 giorni che desideri pagare per un’acquisizione (conversione). **Nota:** Utilizza questa opzione per le campagne in portfolio ibridi (ma non in portfolio standard) con qualsiasi strategia di spesa a eccezione [!UICONTROL Weekly] o [!UICONTROL Google Target CPA].
+* *[!UICONTROL Target CPA]:* (Campagne di visualizzazione; campagne di ricerca esistenti) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte in base a un **[!UICONTROL Target CPA]** (costo per acquisizione), che è l’importo medio di 30 giorni che desideri pagare per un’acquisizione (conversione). **Nota:** Utilizza questa opzione per le campagne in portfolio ibridi (ma non in portfolio standard) con qualsiasi strategia di spesa a eccezione [!UICONTROL Weekly] o [!UICONTROL Google Target CPA].
 
   I dati relativi alla posizione media e alle offerte CPC non sono disponibili per le campagne con questa strategia di offerta.
 
   Per nuove campagne di ricerca, [!DNL Google Ads] ha sostituito questa strategia di offerta con il [!UICONTROL Maximize Conversions] strategia che utilizza un [!UICONTROL Target CPA] valore. Per le campagne di ricerca esistenti con questa strategia, puoi modificare solo il valore target, e così facendo cambia la strategia in [!UICONTROL Maximize Conversions] strategia che utilizza il valore specificato [!UICONTROL Target CPA] valore.
 
-* *[!UICONTROL Target Impression Share]:* (Campagne di ricerca) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte per raggiungere una quota di impression target e una posizione pubblicitaria. È possibile inserire un **[!UICONTROL Target Impression Share]** in percentuale, il valore **[!UICONTROL Target Ad Position]**, e un **[!UICONTROL Max CPC]** (costo per clic). **Nota:** Questa opzione non è supportata nei portfolio.
+* *[!UICONTROL Target Impression Share]:* (Campagne di ricerca) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte per raggiungere una quota di impression target e una posizione di annunci. È possibile inserire un **[!UICONTROL Target Impression Share]** in percentuale, il valore **[!UICONTROL Target Ad Position]**, e un **[!UICONTROL Max CPC]** (costo per clic). **Nota:** Questa opzione non è supportata nei portfolio.
 
 * *[!UICONTROL Target Return on Ad Spend]:*  (Campagne di visualizzazione e di acquisto; campagne di ricerca esistenti) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte in base a un dato **[!UICONTROL Target ROAS]** (ritorno sulla spesa pubblicitaria), specificato come percentuale. **Nota:** Utilizza questa opzione per le campagne in portfolio ibridi (ma non in portfolio standard) con qualsiasi strategia di spesa a eccezione [!UICONTROL Weekly] o [!UICONTROL Google Target ROAS].
 
@@ -98,7 +98,7 @@ Quando aggiungi una campagna con eCPC a un portfolio Search, Social e Commerce o
 
   Per nuove campagne di ricerca, [!DNL Google Ads] ha sostituito questa strategia di offerta con il [!UICONTROL Maximize Conversion Value] strategia che utilizza un [!UICONTROL Target Return on Ad Spend value]. Per le campagne di ricerca esistenti con questa strategia, puoi modificare solo il valore target, e così facendo cambia la strategia in [!UICONTROL Maximize Conversion Value] strategia che utilizza il valore specificato [!UICONTROL Target Return on Ad Spend] valore.
 
-* *[!UICONTROL Viewable CPM]:* (Esistente, sola lettura [!DNL Gmail] solo campagne pubblicitarie) La rete di annunci pubblicitari, non Search, Social &amp; Commerce (Ricerca, Social &amp; Commerce), fa offerte solo sugli annunci misurati come visualizzabili. **Nota:** L&#39;ottimizzazione per questa strategia non è supportata in alcun tipo di portfolio.
+* *[!UICONTROL Viewable CPM]:* (Esistente, sola lettura [!DNL Gmail] solo campagne pubblicitarie) La rete di annunci, non Search, Social e Commerce, fa offerte solo sugli annunci misurati come visualizzabili. **Nota:** L&#39;ottimizzazione per questa strategia non è supportata in alcun tipo di portfolio.
 
 ## [!UICONTROL Shopping Settings]
 
