@@ -3,7 +3,7 @@ title: Aggiungi [!DNL Analytics for Advertising] Macro per [!DNL Flashtalking] T
 description: Scopri perché e come aggiungere [!DNL Analytics for Advertising] macro per [!DNL Flashtalking] tag annuncio
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: ca8260e643f24787f7918249906f3f38f3bbef6d
+source-git-commit: 7b31fb7939f44aa99826bea3f183897683189eae
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -65,3 +65,4 @@ Esempi:
 >* [Panoramica di [!DNL Analytics for Advertising]](overview.md)
 >* [ID Adobe Advertising utilizzati da [!DNL Analytics]](/help/integrations/analytics/ids.md)
 >* [Aggiungi [!DNL Analytics for Advertising] Macro per [!DNL Google Campaign Manager 360] Tag annuncio](/help/integrations/analytics/macros-google-campaign-manager.md)
+

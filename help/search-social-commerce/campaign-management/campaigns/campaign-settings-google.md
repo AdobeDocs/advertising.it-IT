@@ -3,7 +3,7 @@ title: '''[!DNL Google Ads] impostazioni della campagna'
 description: Fai riferimento alle impostazioni per [!DNL Google Ads] campagne.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 66f6f659e46d2a08e0f7b958be8f60ba5e9720b3
+source-git-commit: 7b31fb7939f44aa99826bea3f183897683189eae
 workflow-type: tm+mt
 source-wordcount: '2378'
 ht-degree: 0%
@@ -342,7 +342,7 @@ Quando aggiungi una campagna con eCPC a un portfolio ottimizzato di Search, Soci
 
 **[!UICONTROL Business Name]:** La ragione sociale, con un massimo di 25 caratteri.
 
-**[!UICONTROL Audience Signal]:** (Facoltativo) [!DNL Google Ads] tipi di pubblico da utilizzare come segnali di pubblico per la campagna. [!DNL Google Ads] i modelli di apprendimento automatico utilizzano i tipi di pubblico per trovare surfisti web simili a targetizzare e possono anche mostrare annunci a tipi di pubblico che non sono specificati come segnali per aiutarti a raggiungere gli obiettivi di prestazioni. Scegli i tipi di pubblico che hanno più probabilità di essere convertiti.
+**[!UICONTROL Audience Signal]:** (Facoltativo) [!DNL Google Ads] tipi di pubblico da utilizzare come segnali di pubblico per la campagna. [!DNL Google Ads] i modelli di apprendimento automatico utilizzano i tipi di pubblico per trovare surfisti web simili a targetizzare e possono anche mostrare annunci a tipi di pubblico non specificati come segnali per aiutarti a raggiungere gli obiettivi di prestazioni. Scegli i tipi di pubblico che hanno più probabilità di essere convertiti.
 
 >[!NOTE]
 >I segnali del pubblico sono diversi da [target di pubblico a livello di campagna e di gruppo di annunci](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
@@ -364,3 +364,4 @@ Per creare un obiettivo di conversione personalizzato, fai clic su **[!UICONTROL
 >[!MORELIKETHIS]
 >
 >* [Gestire le campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
+
