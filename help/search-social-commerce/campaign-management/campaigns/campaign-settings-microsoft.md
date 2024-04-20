@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft® Advertising] impostazioni della campagna'
 description: Fai riferimento alle impostazioni per [!DNL Microsoft® Advertising] campagne.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 96ff5244c5baedf009c1bac05b609611607bd867
+source-git-commit: cfac578e173e82ffeffcbd5094304c1132b5f177
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '1912'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience Video]:* (Funzione beta) Mostra annunci video standard sulla rete del pubblico.
 
-* *[!UICONTROL Performance Max]:* (Funzione beta) Mostra più tipi di annunci su tutte le reti utilizzando [!DNL Microsoft Advertising] offerte intelligenti. Nelle impostazioni della campagna devi specificare uno o più gruppi di risorse, che includono immagini, loghi, titoli, descrizioni, un invito all’azione facoltativo e segnali di pubblico. La rete di annunci combina automaticamente le risorse per distribuire gli annunci in base al canale.
+* *[!UICONTROL Performance Max]:* (Funzione beta) Mostra più tipi di annunci su tutte le reti utilizzando [!DNL Microsoft® Advertising] offerte intelligenti. Nelle impostazioni della campagna devi specificare uno o più gruppi di risorse, che includono immagini, loghi, titoli, descrizioni, un invito all’azione facoltativo e segnali di pubblico. La rete di annunci combina automaticamente le risorse per distribuire gli annunci in base al canale.
 
 ## [!UICONTROL Campaign Details]
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]:** La strategia di offerta per la campagna:
 
-* *[!UICONTROL Cost per Sale]:* (Solo campagne Shopping) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte in base al **[!UICONTROL Target CPS]** (costo per vendita). Paghi solo quando un clic sull&#39;annuncio di prodotto determina una vendita entro 24 ore. **Nota:** Utilizza questa opzione per le campagne in portfolio ibridi ma non in portfolio standard.<!-- Verify all -->
+* *[!UICONTROL Cost per Sale]:* (Solo campagne Shopping) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte in base al **[!UICONTROL Target CPS]** (costo per vendita). Paghi solo quando un clic sull&#39;annuncio di prodotto determina una vendita entro 24 ore. **Nota:** Non includere nei portfolio le campagne con questa strategia di offerta. L’ottimizzazione per Search, Social e Commerce non è disponibile per le campagne con questa strategia di offerta.
 
   Una volta salvata una campagna di acquisto per i marchi con questa strategia di offerta, non puoi modificare la strategia di offerta. Per altri tipi di campagne di acquisto, questa strategia è disponibile solo per le nuove campagne.
 
@@ -68,15 +68,15 @@ ht-degree: 0%
 
   Quando aggiungi una campagna con eCPC a un portfolio ottimizzato di Search, Social e Commerce, Search, Social e Commerce ottimizzano le offerte di base e quando &quot;[!UICONTROL Auto adjust campaign budget limits]&quot;è abilitata l’opzione&quot;: il budget della campagna. La rete di annunci ottimizza tutte le regolazioni delle offerte e può modificare le offerte generate da Search, Social e Commerce al momento della query utente in base a dati e informazioni proprietari. **Attenzione:** Utilizza le campagne eCPC nei portfolio solo quando il totale delle conversioni tracciate nella rete di annunci è in linea con l’obiettivo del portfolio.
 
-* *[!UICONTROL Manual CPC]*: (campagne commerciali per i marchi; [!DNL Microsoft Store Ads] campagne; obsoleto da [!DNL Microsoft® Advertising] nel 2021 per altri tipi di campagne) Utilizza il modello CPC (cost-per-click). Per alcuni tipi di annunci, puoi facoltativamente consentire alla rete di annunci di modificare le offerte per la campagna:
+* *[!UICONTROL Manual CPC]*: (campagne commerciali per i marchi; [!DNL Microsoft® Store Ads] campagne; obsoleto da [!DNL Microsoft® Advertising] nel 2021 per altri tipi di campagne) Utilizza il modello CPC (cost-per-click). Per alcuni tipi di annunci, puoi facoltativamente consentire alla rete di annunci di modificare le offerte per la campagna:
 
-   * **[!UICONTROL Enable Enhanced CPC]** (disattivato per impostazione predefinita): corrisponde all’utilizzo del tasto &quot;[!UICONTROL Enhanced CPC]&quot;.
+   * **[!UICONTROL Enable Enhanced CPC]** (disabilitato per impostazione predefinita): questa opzione è uguale all’utilizzo del tasto &quot;[!UICONTROL Enhanced CPC]&quot;.
 
-* *[!UICONTROL Manual CPA]:* ([!DNL Microsoft Store Ads] Campagne ) Utilizza il modello CPA (Cost per acquisition).
+* *[!UICONTROL Manual CPA]:* ([!DNL Microsoft® Store Ads] Campagne ) Utilizza il modello CPA (Cost per acquisition).
 
 * *[!UICONTROL Manual CPM]* (Solo campagne per pubblico e campagne video per pubblico) Utilizza il modello CPM (cost-per-THOUSE-IMPRESSION), per il quale si specifica cosa si desidera spendere per 1.000 impression visualizzate. Le campagne con questa strategia di offerta non sono ottimizzate quando sono incluse nei portfolio.
 
-* *[!UICONTROL Maximize Clicks]:* (Campagne di ricerca e shopping) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte per massimizzare i clic. È possibile inserire un **[!UICONTROL Max CPC]** (costo per clic) per garantire che la rete di annunci non paghi più di un importo specifico per ogni clic. **Attenzione:** Quando aggiungi una campagna con questa strategia a un portfolio, le offerte si basano sul peso del clic e non sull’obiettivo del portfolio.
+* *[!UICONTROL Maximize Clicks]:* (Campagne di ricerca e shopping) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte per massimizzare i clic. È possibile inserire un **[!UICONTROL Max CPC]** (costo per clic) per garantire che la rete di annunci non paghi più di un importo specifico per ogni clic. **Attenzione:** Quando aggiungi una campagna con questa strategia a un portfolio, il peso del clic (non l’obiettivo del portfolio) guida le offerte.
 
 * *[!UICONTROL Maximize Conversion Value]:* (Search and shopping/reti di acquisto intelligenti, campagne con le massime prestazioni) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte per massimizzare il valore di conversione. È possibile inserire un **[!UICONTROL Target Return on Ad Spend]** (ROAS) in percentuale. **Nota:** Utilizza questa opzione per le campagne in portfolio ibridi ma non in portfolio standard.
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Target Impression Share]:* (Campagne nella rete di ricerca) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte per raggiungere una quota di impression target e una posizione di annunci. È possibile inserire un **[!UICONTROL Target Impression Share]** in percentuale, il valore **[!UICONTROL Target Ad Position]**, e un **[!UICONTROL Max CPC]** (costo per clic). **Nota:** Questa opzione non è supportata nei portfolio ibridi.
 
-* *[!UICONTROL Target Return on Ad Spend]:*  (Campagne sulle reti di ricerca e shopping) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte in base al tuo **[!UICONTROL Target ROAS]** (ritorno sulla spesa pubblicitaria), specificato come percentuale. È possibile inserire un **[!UICONTROL Max CPC]** (costo per clic) per garantire che la rete di annunci non paghi più di un importo specifico per ogni clic. **Nota:** Utilizza questa opzione per le campagne in portfolio ibridi (ma non in portfolio standard) con qualsiasi strategia di spesa a eccezione [!UICONTROL Weekly] o [!UICONTROL Google Target ROAS].
+* *[!UICONTROL Target Return on Ad Spend]:* (Campagne sulle reti di ricerca e shopping) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte in base al tuo **[!UICONTROL Target ROAS]** (ritorno sulla spesa pubblicitaria), specificato come percentuale. È possibile inserire un **[!UICONTROL Max CPC]** (costo per clic) per garantire che la rete di annunci non paghi più di un importo specifico per ogni clic. **Nota:** Utilizza questa opzione per le campagne in portfolio ibridi (ma non in portfolio standard) con qualsiasi strategia di spesa a eccezione [!UICONTROL Weekly] o [!UICONTROL Google Target ROAS].
 
   I dati relativi alla posizione media e alle offerte CPC non sono disponibili per le campagne con questa strategia di offerta.
 
@@ -116,7 +116,7 @@ Una volta collegata la campagna a un negozio e salvate le impostazioni, non puoi
 
 ## [!UICONTROL Campaign Targeting]
 
-**[!UICONTROL Languages]:** (Solo campagne con prestazione massima) La lingua dell’annuncio, che deve corrispondere alla lingua dei siti in cui l’annuncio verrà visualizzato. [!DNL Microsoft Advertising] determina la lingua di un utente da vari segnali, tra cui la query dell&#39;utente, il paese dell&#39;editore e l&#39;impostazione della lingua dell&#39;utente.
+**[!UICONTROL Languages]:** (Solo campagne con prestazione massima) La lingua dell’annuncio, che deve corrispondere alla lingua dei siti in cui l’annuncio può comparire. [!DNL Microsoft® Advertising] determina la lingua di un utente da vari segnali, tra cui la query dell&#39;utente, il paese dell&#39;editore e l&#39;impostazione della lingua dell&#39;utente.
 
 <!-- **[!UICONTROL Location Targets]:** -->
 
@@ -206,7 +206,7 @@ Per informazioni sulla disponibilità, consulta l’Aiuto di Microsoft® Adverti
 
 **[!UICONTROL Final URL]:** L’URL finale per tutti gli annunci creati dal gruppo di risorse.
 
-**[!UICONTROL Images]:** Fino a 20 immagini per l’annuncio, tra cui almeno un’immagine quadrata e un’immagine orizzontale. Consulta la [[!DNL Microsoft Advertising] linee guida per le immagini](https://help.ads.microsoft.com/#apex/ads/en/60204/0). Puoi caricare le immagini o selezionarle dal tuo [!UICONTROL Asset Library] — ma non entrambi nella stessa operazione.
+**[!UICONTROL Images]:** Fino a 20 immagini per l’annuncio, tra cui almeno un’immagine quadrata e un’immagine orizzontale. Consulta la [[!DNL Microsoft® Advertising] linee guida per le immagini](https://help.ads.microsoft.com/#apex/ads/en/60204/0). Puoi caricare le immagini o selezionarle dal tuo [!UICONTROL Asset Library] — ma non entrambi nella stessa operazione.
 
 * Per caricare le immagini:
 
@@ -228,7 +228,7 @@ Per informazioni sulla disponibilità, consulta l’Aiuto di Microsoft® Adverti
 
 * Per selezionare immagini dal [!UICONTROL Asset Library], fai clic su **[!UICONTROL Asset Library]** e selezionare le immagini.
 
-**[!UICONTROL Logos]:** Almeno un logo. Puoi includere fino a cinque. Consulta la [[!DNL Microsoft Advertising] linee guida per le risorse](https://help.ads.microsoft.com/#apex/ads/en/60204/0). Puoi caricare le immagini o selezionarle dal tuo [!UICONTROL Asset Library] — ma non entrambi nella stessa operazione.
+**[!UICONTROL Logos]:** Almeno un logo. Puoi includere fino a cinque. Consulta la [[!DNL Microsoft® Advertising] linee guida per le risorse](https://help.ads.microsoft.com/#apex/ads/en/60204/0). Puoi caricare le immagini o selezionarle dal tuo [!UICONTROL Asset Library] — ma non entrambi nella stessa operazione.
 
 * Per caricare le immagini:
 
@@ -284,7 +284,7 @@ Per informazioni sulla disponibilità, consulta l’Aiuto di Microsoft® Adverti
 
 **[!UICONTROL Business Name]:** La ragione sociale, con un massimo di 25 caratteri. Non può contenere script, HTML o un altro linguaggio di markup.
 
-**[!UICONTROL Audience Signal]:** (Facoltativo) [!DNL Microsoft Advertising] tipi di pubblico da utilizzare come segnali di pubblico per la campagna. [!DNL Microsoft Advertising] i modelli di apprendimento automatico utilizzano i tipi di pubblico per trovare surfisti web simili a targetizzare e possono anche mostrare annunci a tipi di pubblico che non sono specificati come segnali per aiutarti a raggiungere gli obiettivi di prestazioni. Scegli i tipi di pubblico che hanno più probabilità di essere convertiti.
+**[!UICONTROL Audience Signal]:** (Facoltativo) [!DNL Microsoft® Advertising] tipi di pubblico da utilizzare come segnali di pubblico per la campagna. [!DNL Microsoft® Advertising] i modelli di apprendimento automatico utilizzano i tipi di pubblico per trovare surfisti web simili a targetizzare e possono anche mostrare annunci a tipi di pubblico che non sono specificati come segnali per aiutarti a raggiungere gli obiettivi di prestazioni. Scegli i tipi di pubblico che hanno più probabilità di essere convertiti.
 
 >[!NOTE]
 >I segnali del pubblico sono diversi da [target del pubblico a livello di gruppo di annunci](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
