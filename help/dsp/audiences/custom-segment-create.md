@@ -3,7 +3,7 @@ title: Creare e implementare un segmento personalizzato
 description: Scopri come creare e implementare un segmento personalizzato per tenere traccia degli utenti esposti agli annunci o degli utenti che visitano le tue pagine web.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 9fc4c123fb682bbc2aee0ae72931c63d31f020be
+source-git-commit: fcce2b2ba7ab9717e83b05ddf8f22399f6b2e28e
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Puoi raccogliere i tuoi dati sul pubblico di prime parti creando e implementando
 
    1. Aggiungi il seguente parametro alle tue pagine web prima o all’interno del [Codice JavaScript richiesto per [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md) — in un punto qualsiasi prima dell&#39;inizializzazione dell&#39;ultimo servizio eventi.
 
-      `window.id5PartnerId=Your_ID5_PartnerID;`
+      ```window.id5PartnerId=Your_ID5_PartnerID;```
 
       Esempio:
 
