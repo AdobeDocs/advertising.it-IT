@@ -3,7 +3,7 @@ title: Aggiungi [!DNL Analytics for Advertising] Macro per [!DNL Flashtalking] T
 description: Scopri perché e come aggiungere [!DNL Analytics for Advertising] macro per [!DNL Flashtalking] tag annuncio
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: 2a124481f98a5b5f17d613becacb0bdfa6935836
+source-git-commit: c6a7d99875d54d7ff807f94b8fdd7a903c05b6e5
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -36,7 +36,7 @@ All&#39;interno del [!DNL Flashtalking] Aggiungi impostazioni tag, aggiungi la s
 [ftqs:[AdobeAMO]]
 ```
 
-Si tratta della prima o unica stringa di query dopo l’URL di base, quindi la separa dall’URL di base con un `?`. Se l’URL di base include più stringhe di query, inizia la prima stringa con un `?` e ogni stringa successiva con un `&`.
+Se si tratta della prima o unica stringa di query dopo l’URL di base, separala dall’URL di base con un `?`. Se l’URL di base include più stringhe di query, inizia la prima stringa con un `?` e ogni stringa successiva con un `&`.
 
 Esempi:
 
@@ -52,7 +52,7 @@ All&#39;interno del [!DNL Flashtalking] Aggiungi impostazioni tag, aggiungi la s
 [%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]
 ```
 
-Si tratta della prima o unica stringa di query dopo l’URL di base, quindi la separa dall’URL di base con un `?`. Se l’URL di base include più stringhe di query, inizia la prima stringa con un `?` e ogni stringa successiva con un `&`.
+Se si tratta della prima o unica stringa di query dopo l’URL di base, separala dall’URL di base con un `?`. Se l’URL di base include più stringhe di query, inizia la prima stringa con un `?` e ogni stringa successiva con un `&`.
 
 Esempi:
 
