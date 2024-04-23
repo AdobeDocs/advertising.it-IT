@@ -3,7 +3,7 @@ title: '''[!DNL Microsoft® Advertising] impostazioni della campagna'
 description: Fai riferimento alle impostazioni per [!DNL Microsoft® Advertising] campagne.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: c7821f112757f695a6ab9da1fffb014b822e1ff3
+source-git-commit: 8d1ff29322799ff7905ee808703e00f5190ae8af
 workflow-type: tm+mt
 source-wordcount: '1912'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]:** La strategia di offerta per la campagna:
 
-* *[!UICONTROL Cost per Sale]:* (Solo campagne Shopping) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte in base al **[!UICONTROL Target CPS]** (costo per vendita). Paghi solo quando un clic sull&#39;annuncio di prodotto determina una vendita entro 24 ore. **Nota:** Non includere nei portfolio le campagne con questa strategia di offerta. L’ottimizzazione per Search, Social e Commerce non è disponibile per le campagne con questa strategia di offerta.
+* *[!UICONTROL Cost per Sale]:* (Solo campagne Shopping) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte in base al [!UICONTROL Target CPS] (costo per vendita). Paghi solo quando un clic sull&#39;annuncio di prodotto determina una vendita entro 24 ore. **Nota:** Non includere nei portfolio le campagne con questa strategia di offerta. L’ottimizzazione per Search, Social e Commerce non è disponibile per le campagne con questa strategia di offerta.
 
   Una volta salvata una campagna di acquisto per i marchi con questa strategia di offerta, non puoi modificare la strategia di offerta. Per altri tipi di campagne di acquisto, questa strategia è disponibile solo per le nuove campagne.
 
