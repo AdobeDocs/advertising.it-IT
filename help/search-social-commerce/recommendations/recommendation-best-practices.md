@@ -3,7 +3,7 @@ title: Best practice per l’utilizzo dei consigli degli editori con i portfolio
 description: Scopri le best practice per l’utilizzo [!DNL Google Ads] consigli con i portfolio Search, Social e Commerce.
 exl-id: 2ed14f8a-da35-4341-86b8-776973faee66
 feature: Search Recommendations
-source-git-commit: c53d79bd185630fb535c44bc05a4e0b7582f14ca
+source-git-commit: 93e9a36cd479e0f076f72661f0983a5bd856806a
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <!-- Add info for MS once we have it ..." 
 
 *[!DNL Google Ads] and [!DNL Microsoft® Advertising] accounts*
-
+ 
 -->
 
 ## [!DNL Google Ads] consigli
