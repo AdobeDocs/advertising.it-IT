@@ -4,7 +4,7 @@ user-guide-title: Guida di Advertising Search, Social e Commerce
 user-guide-description: Questa guida descrive le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire, tracciare e creare rapporti sulle campagne di annunci di ricerca, social e commerce.
 breadcrumb-title: Guida di Advertising Search, Social e Commerce
 index: true
-source-git-commit: 198dc41ba0ae1cd55e18c34e04cd2ea2297aa127
+source-git-commit: c53d79bd185630fb535c44bc05a4e0b7582f14ca
 workflow-type: tm+mt
 source-wordcount: '1698'
 ht-degree: 2%
@@ -374,9 +374,9 @@ ht-degree: 2%
    + Approfondimenti su Recommendations e publisher {#recommendations}
       + [Informazioni sul supporto di consigli e approfondimenti per gli editori](/help/search-social-commerce/recommendations/recommendation-support.md)
       + [Visualizza i consigli dell’editore e informazioni sulle prestazioni](/help/search-social-commerce/recommendations/recommendation-view.md)
-      + [Applicare o ignorare un [!DNL Google Ads] consiglio](/help/search-social-commerce/recommendations/google-recommendation-apply-dismiss.md)
-      + [Visualizza il registro di consigli per un [!DNL Google Ads] account](/help/search-social-commerce/recommendations/google-recommendation-view-log.md)
-      + [Best practice per l’utilizzo di consigli e informazioni approfondite sugli editori con i portfolio](/help/search-social-commerce/recommendations/recommendation-best-practices.md)
+      + [Applicare o ignorare un consiglio dell’editore](/help/search-social-commerce/recommendations/recommendation-apply-dismiss.md)
+      + [Visualizzare il registro dei consigli dell’editore per un account](/help/search-social-commerce/recommendations/recommendation-view-log.md)
+      + [Best practice per l’utilizzo dei consigli degli editori con i portfolio](/help/search-social-commerce/recommendations/recommendation-best-practices.md)
 + Strumenti {#tools}
    + [Cambia la password](/help/search-social-commerce/tools/password-change.md)
    + Strumenti per creare e decodificare i tag di tracciamento{#tracking}

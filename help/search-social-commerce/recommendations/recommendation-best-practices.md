@@ -1,22 +1,26 @@
 ---
-title: Best practice per l’utilizzo di consigli e informazioni approfondite sugli editori con i portfolio
-description: Scopri le best practice per l’utilizzo [!DNL Google Ads] consigli con i portfolio di ricerca, social e commerce.
-exl-id: 8362a0e1-9a0d-4287-a1dd-b7ec77985744
+title: Best practice per l’utilizzo dei consigli degli editori con i portfolio
+description: Scopri le best practice per l’utilizzo [!DNL Google Ads] consigli con i portfolio Search, Social e Commerce.
+exl-id: 2ed14f8a-da35-4341-86b8-776973faee66
 feature: Search Recommendations
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c53d79bd185630fb535c44bc05a4e0b7582f14ca
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
 
-# Best practice per l’utilizzo di consigli e informazioni approfondite sugli editori con i portfolio
+# Best practice per l’utilizzo dei consigli degli editori con i portfolio
 
-<!-- If we don't come up with similar ones for MS, then rename this file "... Google Ads ..." -->
+<!-- Add info for MS once we have it ..." 
+
+*[!DNL Google Ads] and [!DNL Microsoft® Advertising] accounts*
+
+-->
 
 ## [!DNL Google Ads] consigli
 
-| Tipo di consiglio | Descrizione | Applicare automaticamente Recommendations con i Portfoli di ricerca, social network e commerce? | Commenti |
+| Tipo di consiglio | Descrizione | Applicare automaticamente Recommendations ai Portfoli Search, Social e Commerce? | Commenti |
 |--- |--- |--- |--- |
 | [!UICONTROL Ads] ed estensioni (ora denominate &quot;Annunci e risorse&quot; in [!DNL Google Ads]) | Recommendations per l’aggiunta/modifica di annunci e risorse | Può essere applicato automaticamente, ma gli inserzionisti devono rivedere manualmente i consigli. | È necessario rivedere i consigli per garantire che gli annunci di ricerca responsive siano in linea con i requisiti degli inserzionisti. |
 | [!UICONTROL Automated campaigns] | Recommendations per campagne automatizzate (locali e intelligenti) | Non disponibile in Search, Social e Commerce. | — |
@@ -30,5 +34,5 @@ ht-degree: 0%
 >
 >* [Informazioni sul supporto di consigli e approfondimenti per gli editori](recommendation-support.md)
 >* [Visualizza i consigli dell’editore e informazioni sulle prestazioni](recommendation-view.md)
->* [Applicare o ignorare un [!DNL Google Ads] consiglio](google-recommendation-apply-dismiss.md)
->* [Visualizza il registro di consigli per un [!DNL Google Ads] account](google-recommendation-view-log.md)
+>* [Applicare o ignorare un consiglio dell’editore](recommendation-apply-dismiss.md)
+>* [Visualizzare il registro dei consigli dell’editore per un account](recommendation-view-log.md)

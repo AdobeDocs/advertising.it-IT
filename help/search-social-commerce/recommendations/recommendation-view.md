@@ -2,9 +2,10 @@
 title: Visualizza raccomandazioni per l’editore e informazioni sulle prestazioni
 description: Scopri come visualizzare [!DNL Google Ads] raccomandazioni e [!DNL Microsoft® Advertising] informazioni sulle prestazioni per gli account di rete degli annunci.
 feature: Search Recommendations
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+exl-id: 8a9d99b1-c90b-4a1c-9516-85edc9024a7c
+source-git-commit: 55417f743378a4407542482b8009687d5a7191e7
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
@@ -15,23 +16,33 @@ ht-degree: 0%
 
 *Funzione beta per [!DNL Microsoft® Advertising] account*
 
+## Visualizza i consigli dell’editore
+
 1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
 
 1. In alto a destra, seleziona la rete di annunci e l’account.
 
-1. Visualizza le azioni consigliate:
+   Per [!DNL Microsoft® Advertising] account, il [!UICONTROL Recommendations] per l’account sono elencati per impostazione predefinita.
 
-   * ([!DNL Google Ads] ) Nel [!UICONTROL Actions] per la riga, fai clic su **[!UICONTROL View]**. Se il consiglio include consigli secondari, fai clic su **[!UICONTROL View]** accanto al sotto-consiglio.
+1. In [!UICONTROL Actions] per la riga, fai clic su **[!UICONTROL View]**. Se il consiglio include consigli secondari, fai clic su **[!UICONTROL View]** accanto al sotto-consiglio.
 
-     Facoltativamente puoi [applicare o ignorare](google-recommendation-apply-dismiss.md) i consigli della rete di annunci.
+   Facoltativamente puoi [applicare o ignorare](recommendation-apply-dismiss.md) i consigli della rete di annunci.
 
-   * ([!DNL Microsoft® Advertising] ) Quando il [!UICONTROL Actions] nella riga è inclusa un&#39;azione, fare clic su **[!UICONTROL Click here]** per aprire [!DNL Microsoft® Advertising] editor, da cui puoi agire in base alle informazioni.
+## Visualizza [!DNL Microsoft® Advertising] approfondimenti sulle prestazioni
 
-     Se non hai effettuato l’accesso a [!DNL Microsoft® Advertising] , viene innanzitutto visualizzata la schermata di accesso.
+1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
+
+1. In alto a destra, seleziona la rete di annunci e l’account.
+
+1. Clic **[!UICONTROL Insights]** sopra la tabella di dati.
+
+1. Quando [!UICONTROL Actions] della riga include un&#39;azione, è possibile fare clic su **[!UICONTROL Click here]** per aprire [!DNL Microsoft® Advertising] editor, da cui puoi agire in base alle informazioni.
+
+   Se non hai effettuato l’accesso a [!DNL Microsoft® Advertising] , viene innanzitutto visualizzata la schermata di accesso.
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni sul supporto di consigli e approfondimenti per gli editori](recommendation-support.md)
->* [Applicare o ignorare un [!DNL Google Ads] consiglio](google-recommendation-apply-dismiss.md)
->* [Visualizza il registro di consigli per un [!DNL Google Ads] account](google-recommendation-view-log.md)
->* [Best practice per l’utilizzo di consigli e informazioni approfondite sugli editori con i portfolio](recommendation-best-practices.md)
+>* [Applicare o ignorare un consiglio dell’editore](recommendation-apply-dismiss.md)
+>* [Visualizzare il registro dei consigli dell’editore per un account](recommendation-view-log.md)
+>* [Best practice per l’utilizzo dei consigli degli editori con i portfolio](recommendation-best-practices.md)
