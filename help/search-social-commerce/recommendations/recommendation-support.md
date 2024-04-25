@@ -3,9 +3,9 @@ title: Informazioni sul supporto di consigli e approfondimenti per gli editori
 description: Scopri come visualizzare e gestire i consigli e le informazioni dell’editore.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 7f45a89dbff37592eec9991c47ade3094ca024a8
+source-git-commit: 331b11620d99f9e43b9eb69db04aac4e1149d64f
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Entro [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher 
 
   I dati sono disponibili in tempo reale all’apertura della visualizzazione. Per aggiornare i dati, fai clic su ![Aggiorna](/help/search-social-commerce/assets/refresh.png "Aggiorna") in basso a sinistra.
 
-* Per [DNL Microsoft® Advertising] degli account, visualizza immediatamente ogni informazione sulle prestazioni generata negli ultimi 30 giorni per un [DNL Microsoft® Advertising] account. Gli approfondimenti forniscono informazioni simili ai consigli, ma in un formato diverso. Ogni informazione include la data, una descrizione del problema, l’entità interessata, la causa principale (che può includere collegamenti a ulteriori dettagli) e l’azione suggerita con un collegamento per aprire l’editor di Microsoft® Advertising, da cui è possibile agire in base all’informazione specifica.
+* Per [!DNL Microsoft® Advertising] degli account, visualizza immediatamente ogni informazione sulle prestazioni generata negli ultimi 30 giorni per un [!DNL Microsoft® Advertising] account. Gli approfondimenti forniscono informazioni simili ai consigli, ma in un formato diverso. Ogni informazione include la data, una descrizione del problema, l’entità interessata, la causa principale (che può includere collegamenti a ulteriori dettagli) e l’azione suggerita con un collegamento per aprire la [!DNL Microsoft® Advertising] editor, da cui puoi agire in base a informazioni specifiche.
 
 * Visualizza i dettagli di un consiglio e applicalo o annullalo direttamente.
 
