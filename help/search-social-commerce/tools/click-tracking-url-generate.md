@@ -1,16 +1,16 @@
 ---
 title: Generare un URL di tracciamento dei clic
 description: Scopri come generare manualmente un URL di tracciamento dei clic per Search, Social e Commerce.
-exl-id: d22a472a-a562-4812-a067-fbd407cd7d00
+exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 0da23a2756fc7ed4d2ef8fb739d94a91ac6400ba
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
 
-# Generare un URL di tracciamento dei clic di Search, Social &amp; Commerce utilizzando lo strumento URL di tracciamento
+# Generare un URL di tracciamento dei clic per Search, Social e Commerce utilizzando lo strumento URL di tracciamento
 
 *Solo per inserzionisti con tracciamento delle conversioni di Adobi Advertising*
 
@@ -48,7 +48,7 @@ Per informazioni su quando è necessario generare e implementare manualmente un 
 
            Il file può includere fino a 10.000 righe.
 
-         * ([!DNL Google Merchant Center] gruppi di prodotti e [Microsoft® Advertising] annunci di prodotti) `product name <tab> ** <tab> landing_page`
+         * ([!DNL Google Merchant Center] gruppi di prodotti e [DNL Microsoft® Advertising] annunci di prodotti) `product name <tab> ** <tab> landing_page`
 
            dove `product name` è il nome del prodotto e `landing_page` è un URL di pagina di destinazione o un URL di base valido.
 
@@ -88,4 +88,4 @@ Per i conti con URL finali, inserisci il valore su schermo nell’appropriato [!
 >
 >* [Informazioni sugli strumenti per creare e decodificare i tag di tracciamento](tracking-tools-about.md)
 >* [Quando e come generare URL di tracciamento dei clic](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
->* [Decodificare un URL di tracciamento dei clic di Search, Social &amp; Commerce](click-tracking-url-decode.md)
+>* [Decodificare un URL di tracciamento dei clic per Ricerca, Social e Commerce](click-tracking-url-decode.md)
