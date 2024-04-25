@@ -3,7 +3,7 @@ title: Applicare o ignorare un consiglio dell’editore
 description: Scopri come visualizzare, applicare o ignorare un consiglio dell’editore.
 exl-id: 794df5d5-fc7c-45f7-8a26-460b0a8f56b7
 feature: Search Recommendations
-source-git-commit: 93e9a36cd479e0f076f72661f0983a5bd856806a
+source-git-commit: 2e1544658804afb298bf2c1a46f197d36ef6854e
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -48,3 +48,4 @@ Visualizza le azioni consigliate per un consiglio dell’editore e la spiegazion
 >* [Visualizza i consigli dell’editore e informazioni sulle prestazioni](recommendation-view.md)
 >* [Visualizzare il registro dei consigli dell’editore per un account](recommendation-view-log.md)
 >* [Best practice per l’utilizzo dei consigli degli editori con i portfolio](recommendation-best-practices.md)
+
