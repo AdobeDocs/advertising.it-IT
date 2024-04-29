@@ -3,9 +3,9 @@ title: Abilita il caricamento degli obiettivi nelle reti di annunci
 description: Scopri come caricare gli obiettivi per i portfolio ibridi in [!DNL Google Ads] e [!DNL Microsoft® Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 7b857f2f75f05685d0776c710a442088a72f590c
+source-git-commit: a61bdd9c68420a16a01057d8a3ac03d659d2ad3f
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,33 @@ ht-degree: 0%
 
 *Inserzionisti abilitati solo per l’ottimizzazione ibrida*
 
-Se l&#39;account dell&#39;inserzionista è configurato per l&#39;utilizzo dell&#39;ottimizzazione ibrida, Adobi Advertising può facoltativamente caricare gli obiettivi per i portfolio dell&#39;account in [!DNL Google Ads] e [!DNL Microsoft® Advertising] come conversioni, in modo da poterle utilizzare per l’ottimizzazione ibrida.
+Search, Social e Commerce possono caricare gli obiettivi per i portfolio di un account inserzionista in [!DNL Google Ads] e [!DNL Microsoft® Advertising] in modo da poterle utilizzare per l’ottimizzazione ibrida. Gli obiettivi caricati sono disponibili come azioni di conversione per gli obiettivi di conversione personalizzati a livello di account e di campagna.
 
-L’abilitazione di questa opzione attiva automaticamente un caricamento per i portfolio che contengono campagne con strategie di offerta intelligenti. Search, Social e Commerce creano una conversione sulla rete di annunci per ogni combinazione di portfolio e obiettivo applicabile. Ogni conversione ha il nome `ACS_OBJ_SID_<portfolio_id>_<se_acctid/conversion_manager_se_acctid>`, dove `<portfolio_id>` è l’ID numerico del portfolio e `<se_acctid/conversion_manager_se_acctid>` è l&#39;ID numerico dell&#39;account di ad network o dell&#39;account manager. La conversione rappresenta tutte le metriche di conversione ponderate nell’obiettivo.
+L’abilitazione di questa opzione attiva automaticamente un caricamento per gli obiettivi nei portfolio che contengono campagne con strategie di offerta intelligenti. Search, Social e Commerce creano una conversione sulla rete di annunci per ogni obiettivo applicabile. La conversione rappresenta tutte le metriche di conversione ponderate nell’obiettivo. Ciascuna conversione ha uno dei seguenti nomi:
+
+* `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`
+
+  dove `<network_ID>` è l’ID numerico utilizzato da Search, Social e Commerce per la rete di annunci, `<objective_id>` è l&#39;ID obiettivo numerico, e `<network_account_ID>` è l&#39;ID numerico dell&#39;account di ad network o dell&#39;account manager.
+
+* (Vecchio formato che in futuro diventerà obsoleto) `ACS_OBJ_SID_<portfolio_id>_<se_acctid/conversion_manager_se_acctid>`
+
+  dove `<portfolio_id>` è l’ID numerico del portfolio e `<se_acctid/conversion_manager_se_acctid>` è l&#39;ID numerico dell&#39;account di ad network o dell&#39;account manager.
+
+  Il team dell’account Adobe collaborerà con te per migrare i nomi delle azioni di conversione esistenti all’interno della rete di annunci prima che il vecchio formato venga dichiarato obsoleto. Durante il periodo di migrazione, i caricamenti del vecchio e del nuovo formato verranno eseguiti in parallelo. La modellazione e l’ottimizzazione non sono interessate, perché le nuove azioni di conversione appariranno inizialmente con lo stato &quot;secondario&quot; (non ottimizzato) e con 90 giorni di dati di retrocompilazione.
 
 Carica in [!DNL Google Ads] si verifica ogni giorno alle 06:00 nel fuso orario dell&#39;inserzionista. Carica in [!DNL Microsoft® Advertising] si verifica ogni giorno alle 09:00 nel fuso orario dell&#39;inserzionista.
 
-<!-- Note to self: Conversions tracked by Google Ads and by the Microsoft Advertising universal event tracking (UET) tag aren't re-uploaded to the ad networks. -->
+>[!IMPORTANT]
+>
+>Le conversioni tracciate da Google Ads e dal tag UET (Universal Event Tracking) di Microsoft Advertising non vengono ricaricate nelle reti di annunci. Se li includi all’interno di un obiettivo, aggiungili agli obiettivi della campagna nell’editor della rete di annunci.
+
+<!--
+>[!IMPORTANT]
+>
+>Objectives for hybrid portfolios may include conversion goals from multiple ad networks and other types of conversion metrics. However, the individual campaigns in the portfolio can't include conversion goals that aren't included in the portfolio's objective; using additional conversion goals may impact portfolio performance.
+-->
+
+<!-- Can conversions from events triggered on other ad networks be included in the portfolio (and just be ignored)? -->
 
 1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**.
 
@@ -33,6 +53,8 @@ Carica in [!DNL Google Ads] si verifica ogni giorno alle 06:00 nel fuso orario d
 1. Clic **[!UICONTROL Save]**.
 
 1. (Se le conversioni vengono tracciate a livello di account manager) [Aggiungi le credenziali per l’account manager](/help/search-social-commerce/admin/manager-accounts.md) a **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**.
+
+Al termine del caricamento giornaliero, puoi verificare che le azioni di conversione vengano visualizzate nella rete di annunci.
 
 >[!MORELIKETHIS]
 >
