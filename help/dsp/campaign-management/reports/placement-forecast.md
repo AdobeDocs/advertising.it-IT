@@ -3,9 +3,9 @@ title: Visualizza il rapporto Previsione posizionamento
 description: Visualizza il numero di impression, la spesa e l’offerta massima ottimale previste per una particolare strategia di targeting per un posizionamento.
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 1596fb810d8eb0c3e7ebb0a955bf82ed5bbc22f5
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Lo strumento di previsione del posizionamento mostra il numero previsto di impre
 
 >[!NOTE]
 >
+>* I codici postali non vengono considerati nei calcoli delle previsioni di posizionamento.
 >* Non viene generata alcuna previsione per i posizionamenti con targeting solo programmatico garantito (PG) perché la disponibilità e la spesa sono deterministiche.
 
 ## Informazioni nella previsione
