@@ -3,9 +3,9 @@ title: Impostazioni annuncio audio
 description: Consulta le descrizioni delle impostazioni pubblicitarie disponibili per gli annunci audio.
 feature: DSP Ads
 exl-id: 2fa1143b-6e83-4729-91cd-7a5da357509e
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -54,13 +54,13 @@ Le seguenti impostazioni si applicano a ogni pixel creato o modificato.
 
 **[!UICONTROL Integration Event]:** L’evento che attiva il pixel da attivare. Per questo tipo di annuncio, utilizza i pixel che vengono attivati sul *[!UICONTROL Impression]* o *[!UICONTROL Click-through]*.
 
-**[!UICONTROL Pixel Type]:** Se il pixel è un *[!UICONTROL IMG UR]L* (file di immagine 1x1 pixel), *[!UICONTROL HTML]*, o *[!UICONTROL JavaScript URL]*.
+**[!UICONTROL Pixel Type]:** Se il pixel è un *[!UICONTROL IMG URL]* (file di immagine 1x1 pixel), *[!UICONTROL HTML]*, o *[!UICONTROL JavaScript URL]*.
 
 **[!UICONTROL Pixel URL or Code]:** URL dell&#39;immagine pixel nel formato appropriato per il tipo di pixel specificato.
 
 **[!UICONTROL Pixel Name]:** Il nome del pixel. Utilizza un nome che ti consenta di identificare facilmente il pixel.
 
-**[!UICONTROL Pixel Provider]:** Il provider pixel: *[!UICONTROL None]*, *[!UICONTROL Nielsen]*, o *[!UICONTROL Comscore]*.
+**[!UICONTROL Pixel Provider]:** Il provider pixel:*[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]*, o *[!UICONTROL IAS]*..
 
 >[!MORELIKETHIS]
 >
@@ -69,4 +69,3 @@ Le seguenti impostazioni si applicano a ogni pixel creato o modificato.
 >* [Elencare i posizionamenti associati a un annuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Specifiche annuncio](ad-specs.md)
 >* [Macro per DSP](/help/dsp/campaign-management/macros.md)
-

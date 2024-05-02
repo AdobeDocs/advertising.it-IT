@@ -3,7 +3,7 @@ title: Impostazioni annuncio TV collegato
 description: Vedere le descrizioni delle impostazioni disponibili per gli annunci TV connessi.
 feature: DSP Ads
 exl-id: d8e47f7e-7480-400f-8ffa-ecf41ce2ebfb
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Le seguenti impostazioni si applicano a ogni pixel creato o modificato.
 
 **[!UICONTROL Pixel Name]:** Il nome del pixel. Utilizza un nome che ti consenta di identificare facilmente il pixel.
 
-**[!UICONTROL Pixel Provider]:** Il provider pixel: *[!UICONTROL None]*, *[!UICONTROL Nielsen]*, o *[!UICONTROL Comscore]*.
+**[!UICONTROL Pixel Provider]:** Il provider pixel: *[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]*, o *[!UICONTROL IAS]*.
 
 >[!MORELIKETHIS]
 >
@@ -85,4 +85,3 @@ Le seguenti impostazioni si applicano a ogni pixel creato o modificato.
 >* [Elencare i posizionamenti associati a un annuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Specifiche annuncio](ad-specs.md)
 >* [Macro per DSP](/help/dsp/campaign-management/macros.md)
-

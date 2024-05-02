@@ -3,7 +3,7 @@ title: Impostazioni annuncio mobile
 description: Consulta le descrizioni delle impostazioni pubblicitarie disponibili per gli annunci per dispositivi mobili.
 feature: DSP Ads
 exl-id: 45e8da8c-d6a2-4c42-8932-4cf551f6f899
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 0%
@@ -94,7 +94,7 @@ Le seguenti impostazioni si applicano a ogni pixel creato o modificato.
 
 **[!UICONTROL Pixel Name]:** Il nome del pixel. Utilizza un nome che ti consenta di identificare facilmente il pixel.
 
-**[!UICONTROL Pixel Provider]:** Il provider pixel: *[!UICONTROL None]*, *[!UICONTROL Nielsen]*, o *[!UICONTROL Comscore]*.
+**[!UICONTROL Pixel Provider]:** Il provider pixel: *[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]*, o *[!UICONTROL IAS]*.
 
 ### [!UICONTROL Sharing]
 
@@ -107,4 +107,3 @@ Obsoleto
 >* [Elencare i posizionamenti associati a un annuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Specifiche annuncio](ad-specs.md)
 >* [Macro per DSP](/help/dsp/campaign-management/macros.md)
-

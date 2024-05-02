@@ -3,7 +3,7 @@ title: Impostazioni annuncio video universale
 description: Consulta le descrizioni delle impostazioni disponibili per gli annunci video universali.
 feature: DSP Ads
 exl-id: 51b7d632-1e73-4726-980b-07ed50447146
-source-git-commit: d4af504a84d8fb356b2aca6d324e20fc0fb8fbbe
+source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Le seguenti impostazioni si applicano a ogni pixel creato o modificato.
 
 **[!UICONTROL Pixel Name]:** Il nome del pixel. Utilizza un nome che ti consenta di identificare facilmente il pixel.
 
-**[!UICONTROL Pixel Provider]:** Il provider pixel: *[!UICONTROL None]*, *[!UICONTROL Nielsen]*, o *[!UICONTROL Comscore]*.
+**[!UICONTROL Pixel Provider]:** Il provider pixel: *[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]*, o *[!UICONTROL IAS]*.
 
 >[!MORELIKETHIS]
 >
@@ -80,4 +80,3 @@ Le seguenti impostazioni si applicano a ogni pixel creato o modificato.
 >* [Elencare i posizionamenti associati a un annuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Specifiche annuncio](ad-specs.md)
 >* [Macro per DSP](/help/dsp/campaign-management/macros.md)
-
