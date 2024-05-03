@@ -3,7 +3,7 @@ title: Creare un pubblico riutilizzabile
 description: Scopri come creare un pubblico riutilizzabile costituito da segmenti di pubblico e altri tipi di pubblico salvati.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: eb3ce7d8bcddf52844b50797a95cb3b5aec13684
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Puoi salvare e gestire i tipi di pubblico riutilizzabili, ovvero gruppi di segme
 
 1. Sopra la tabella dati, fai clic su **[!UICONTROL Create]**.
 
-1. Inserisci un valore univoco [!UICONTROL Audience Name].
+1. Inserisci un valore univoco **[!UICONTROL Audience Name]**.
 
 1. (Facoltativo) Deseleziona l’opzione per **[!UICONTROL Share with all advertisers in my account]**.
 
@@ -49,6 +49,7 @@ Puoi salvare e gestire i tipi di pubblico riutilizzabili, ovvero gruppi di segme
          1. Individua il nuovo segmento nel pannello a sinistra e seleziona la casella di controllo accanto al nome del segmento.
 
             Il gruppo di segmenti viene aggiornato automaticamente con il nuovo segmento.
+
       * Per aggiungere un nuovo gruppo di segmenti:
 
          1. Clic **[!UICONTROL + New Group]** nel pannello a destra.
@@ -58,6 +59,7 @@ Puoi salvare e gestire i tipi di pubblico riutilizzabili, ovvero gruppi di segme
          1. Individuate i segmenti per il nuovo gruppo nel pannello a sinistra e selezionate le caselle di controllo accanto ai nomi dei segmenti.
 
          1. (Facoltativo) Modifica la logica del gruppo in *[!UICONTROL Include Any]*, *[!UICONTROL Include All]*, o *[!UICONTROL Exclude All]*, in base alle esigenze.
+
    * Per utilizzare la logica dei segmenti da un pubblico esistente:
 
       1. Copia la logica del segmento dal pubblico esistente in uno dei seguenti modi:
@@ -67,14 +69,12 @@ Puoi salvare e gestire i tipi di pubblico riutilizzabili, ovvero gruppi di segme
          * Nelle impostazioni per il pubblico esistente, nella parte superiore del pannello logica del segmento, fai clic su **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
          * In un editor di testo, crea manualmente la logica del segmento utilizzando ID segmento alfanumerici e [Sintassi boolean](audience-segment-logic-syntax.md)e copiarlo negli Appunti.
+
       1. Clic **[!UICONTROL paste in an audience rule to begin building]**, incolla la logica del segmento esistente nel campo di input, quindi fai clic su **[!UICONTROL Apply]**.
 
          >[!NOTE]
          >
          >Se il pubblico include già una logica di segmento, l’operazione Incolla nella logica Nuovo segmento sovrascrive la logica esistente.
-
-
-
 
 1. Clic **[!UICONTROL Create]**.
 
@@ -87,4 +87,3 @@ Puoi salvare e gestire i tipi di pubblico riutilizzabili, ovvero gruppi di segme
 >* [Creare e implementare un segmento personalizzato](custom-segment-create.md)
 >* [Creare e implementare un [!UICONTROL CCPA Opt-Out-of-Sale] Segmento](ccpa-opt-out-segment-create.md)
 >* [Impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)
-
