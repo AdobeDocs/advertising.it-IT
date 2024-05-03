@@ -3,9 +3,9 @@ title: Modificare un posizionamento
 description: Scopri come modificare un posizionamento.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: df89207a61235ccf83d2c4b898ac60598f8e2877
+source-git-commit: e794f6ee4731479cd1961201ac479d66216a3200
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,13 @@ ht-degree: 0%
 
 È possibile modificare le impostazioni per un singolo posizionamento o per più posizionamenti contemporaneamente.
 
+<!-- Some placements don't have these options. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
+
 >[!NOTE]
 >
->Puoi anche scaricare le impostazioni per uno o più posizionamenti, o per tutti i posizionamenti in una campagna, in formato XLSX (foglio di calcolo Excel), apportare modifiche a un sottoinsieme di campi e caricarli nuovamente su DSP in una sola volta. Consulta &quot;[Revisione e correzione delle impostazioni di posizionamento tramite i fogli di calcolo](placement-qa.md).&quot;
-
-<!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
+>Puoi anche scaricare le impostazioni per uno o più posizionamenti, o per tutti i posizionamenti in una campagna, in formato XLSX (foglio di calcolo Excel), apportare modifiche a un sottoinsieme limitato di campi chiave e caricarli nuovamente su DSP in una sola volta. Consulta &quot;[Revisione e correzione delle impostazioni di posizionamento tramite i fogli di calcolo](placement-qa.md).&quot;
 
 ## Modifica rapida impostazioni di posizionamento chiave {#placement-quick-edit}
-
-<!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
 Puoi modificare il nome del posizionamento, lo stato, l’offerta massima e il budget senza aprire le impostazioni di posizionamento complete.
 
