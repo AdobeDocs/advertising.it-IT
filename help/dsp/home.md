@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 17635ae4b61913d631ccb2a875ee550602831178
 workflow-type: tm+mt
-source-wordcount: '2744'
+source-wordcount: '2771'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,8 @@ Le seguenti funzioni sono nuove o modificate di recente.
 >>
 | Data | Funzionalità | Descrizione | Per Ulteriori Informazioni |
 | ---- | ------- | ----------- | -------------------- |
-| 2 maggio 2024 | Annunci, Pixel | Il [!UICONTROL Ad Tools] visualizza > [!UICONTROL Attach Pixels] Questa scheda mostra i pixel di tracciamento di terze parti allegati agli annunci e fornisce un nuovo flusso di lavoro per allegare i pixel a uno o più annunci e staccare i pixel esistenti. | Consulta &quot;[Allega annunci ai posizionamenti](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
+| 2 maggio 2024 | Annunci, Pixel | Puoi scaricare le impostazioni di tutti gli annunci di una campagna in formato XLSX (foglio di calcolo Excel) per la revisione da [!UICONTROL Ad Tools] visualizzazione. | Consulta &quot;[Rivedere Le Impostazioni Degli Annunci Utilizzando I Fogli Di Calcolo](/help/dsp/campaign-management/ads/ad-qa.md).&quot; |
+| |  | Il [!UICONTROL Ad Tools] visualizza > [!UICONTROL Attach Pixels] Questa scheda mostra i pixel di tracciamento di terze parti allegati agli annunci e fornisce un nuovo flusso di lavoro per allegare i pixel a uno o più annunci e staccare i pixel esistenti. | Consulta &quot;[Allega annunci ai posizionamenti](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
 |  | Posizionamenti, tipi di pubblico | Ora puoi escludere singoli segmenti di pubblico o tipi di pubblico non riutilizzabili dai posizionamenti tramite strumenti di modifica in blocco o l’editor di posizionamento. | Consulta &quot;[Modifica posizionamenti](/help/dsp/campaign-management/placements/placement-edit.md)&quot; e &quot;[Impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 18 aprile 2024 | Posizionamenti | Ora puoi creare e gestire modificatori di offerte, per i quali un’offerta viene moltiplicata per aumentare o diminuire l’offerta, per tipi di destinazione specifici per un posizionamento. Il modificatore di offerta predefinito è 1,00, che significa nessun aumento o diminuzione; i valori possono essere compresi tra 0,10 e 10,00. Ad esempio, un modificatore di offerta di 0,50 diminuisce un&#39;offerta di 6 dollari a 3 dollari (0,50 x 6). Quando un&#39;asta è idonea per più modificatori di offerta, tutti i modificatori di offerta applicabili vengono moltiplicati. I modificatori di offerta non aumentano mai l’offerta oltre l’offerta massima. | Consulta &quot;[Gestire i moltiplicatori delle offerte per i posizionamenti](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md).&quot; |
 | 3 aprile 2024 | Partner di inventario | Adobe Advertising di seggio UE per [!DNL Google Authorized Buyers] è stato unito al seggio APAC esistente. | Consulta &quot;[Partner SSP](/help/dsp/inventory/ssp-partners.md).&quot; |
