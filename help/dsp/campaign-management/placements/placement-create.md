@@ -3,9 +3,9 @@ title: Creare un posizionamento
 description: Scopri come creare un posizionamento.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulla gestione del posizionamento](placement-about.md)
->* [Modificare un posizionamento](placement-edit.md)
+>* [Modifica posizionamenti](placement-edit.md)
 >* [Gestire i moltiplicatori delle offerte per i posizionamenti](placement-manage-bid-multipliers.md)
 >* [Modificare gli Schedules degli annunci per i posizionamenti](placement-edit-ad-schedule.md)
 >* [Sospendere o attivare un posizionamento](placement-pause-activate.md)

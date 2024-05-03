@@ -1,16 +1,16 @@
 ---
-title: Revisione e correzione delle impostazioni di posizionamento tramite i fogli di calcolo
+title: Revisione e modifica delle impostazioni di posizionamento tramite i fogli di calcolo
 description: Scopri come rivedere e modificare le impostazioni di posizionamento chiave utilizzando i fogli di calcolo.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: f352af0ffd5bfeab08f6592b4f3af56a9668feaa
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
 
-# Revisione e correzione delle impostazioni di posizionamento tramite i fogli di calcolo
+# Revisione e modifica delle impostazioni di posizionamento tramite i fogli di calcolo
 
 Puoi scaricare le impostazioni per uno o più posizionamenti, o per tutti i posizionamenti in una campagna, in formato XLSX (foglio di calcolo Excel) per la revisione. Utilizza questa funzione per rivedere rapidamente dettagli quali:
 
@@ -22,7 +22,7 @@ Puoi quindi apportare modifiche a determinati campi e caricarli nuovamente in DS
 
 >[!TIP]
 >
->Per apportare modifiche più estese alle impostazioni di posizionamento, utilizzare [funzione di modifica in serie](/help/dsp/campaign-management/placements/placement-edit.md).
+>Per modificare più campi per uno o più posizionamenti, vedi &quot;[Modifica posizionamenti](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
 
 ## Scaricare le impostazioni per tutti i posizionamenti in una campagna
 
@@ -193,5 +193,5 @@ Il file viene salvato automaticamente nella cartella Download del browser. Consu
 
 >[!MORELIKETHIS]
 >
->* [Modificare un posizionamento](/help/dsp/campaign-management/placements/placement-edit.md)
+>* [Modifica posizionamenti](/help/dsp/campaign-management/placements/placement-edit.md)
 >* [Impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)

@@ -4,9 +4,9 @@ user-guide-title: Guida di Advertising DSP
 user-guide-description: Scopri le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire e ottimizzare le strategie degli annunci display con Advertising DSP e creare i relativi rapporti.
 breadcrumb-title: Guida di DSP
 index: true
-source-git-commit: f352af0ffd5bfeab08f6592b4f3af56a9668feaa
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '901'
 ht-degree: 3%
 
 ---
@@ -60,8 +60,8 @@ ht-degree: 3%
    + Posizionamenti {#placements}
       + [Informazioni sulla gestione del posizionamento](/help/dsp/campaign-management/placements/placement-about.md)
       + [Creare un posizionamento](/help/dsp/campaign-management/placements/placement-create.md)
-      + [Modificare un posizionamento](/help/dsp/campaign-management/placements/placement-edit.md)
-      + [Revisione e correzione delle impostazioni di posizionamento tramite i fogli di calcolo](/help/dsp/campaign-management/placements/placement-qa.md)
+      + [Revisione e modifica delle impostazioni di posizionamento tramite i fogli di calcolo](/help/dsp/campaign-management/placements/placement-qa.md)
+      + [Modifica posizionamenti](/help/dsp/campaign-management/placements/placement-edit.md)
       + [Duplicare un posizionamento](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [Gestire i moltiplicatori delle offerte per i posizionamenti](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
       + [Allega annunci ai posizionamenti](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
@@ -77,6 +77,7 @@ ht-degree: 3%
       + [Creare un singolo annuncio](/help/dsp/campaign-management/ads/ad-create.md)
       + [Creare più annunci di terze parti](/help/dsp/campaign-management/ads/ad-create-multiple.md)
       + [Creare annunci con [!DNL Flashtalking]](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
+      + [Rivedere Le Impostazioni Degli Annunci Utilizzando I Fogli Di Calcolo](/help/dsp/campaign-management/ads/ad-qa.md)
       + [Modificare un annuncio](/help/dsp/campaign-management/ads/ad-edit.md)
       + [Duplicare un annuncio](/help/dsp/campaign-management/ads/ad-duplicate.md)
       + [Allega annunci ai posizionamenti](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->

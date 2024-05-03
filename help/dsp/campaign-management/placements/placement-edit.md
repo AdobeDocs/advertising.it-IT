@@ -1,16 +1,16 @@
 ---
-title: Modificare un posizionamento
+title: Modifica posizionamenti
 description: Scopri come modificare un posizionamento.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: e794f6ee4731479cd1961201ac479d66216a3200
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
 
-# Modificare un posizionamento
+# Modifica posizionamenti
 
 È possibile modificare le impostazioni per un singolo posizionamento o per più posizionamenti contemporaneamente.
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Puoi anche scaricare le impostazioni per uno o più posizionamenti, o per tutti i posizionamenti in una campagna, in formato XLSX (foglio di calcolo Excel), apportare modifiche a un sottoinsieme limitato di campi chiave e caricarli nuovamente su DSP in una sola volta. Consulta &quot;[Revisione e correzione delle impostazioni di posizionamento tramite i fogli di calcolo](placement-qa.md).&quot;
+>Puoi anche scaricare le impostazioni per uno o più posizionamenti, o per tutti i posizionamenti in una campagna, in formato XLSX (foglio di calcolo Excel), apportare modifiche a un sottoinsieme limitato di campi chiave e caricarli nuovamente su DSP in una sola volta. Consulta &quot;[Revisione e modifica delle impostazioni di posizionamento tramite i fogli di calcolo](placement-qa.md).&quot;
 
 ## Modifica rapida impostazioni di posizionamento chiave {#placement-quick-edit}
 
@@ -92,7 +92,7 @@ Utilizza questa opzione solo quando desideri applicare le stesse modifiche a tut
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulla gestione del posizionamento](placement-about.md)
->* [Revisione e correzione delle impostazioni di posizionamento tramite i fogli di calcolo](placement-qa.md)
+>* [Revisione e modifica delle impostazioni di posizionamento tramite i fogli di calcolo](placement-qa.md)
 >* [Creare un posizionamento](placement-create.md)
 >* [Duplicare un posizionamento](placement-duplicate.md)
 >* [Gestire i moltiplicatori delle offerte per i posizionamenti](placement-manage-bid-multipliers.md)

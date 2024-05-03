@@ -2,9 +2,10 @@
 title: Gestire i moltiplicatori delle offerte per i posizionamenti
 description: Scopri come creare e modificare i moltiplicatori di offerta per i target di posizionamento specificati.
 feature: DSP Placements
-source-git-commit: b3932c066e0ecd29e57152f0654ee4b0d9e0dda1
+exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '407'
 ht-degree: 3%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 3%
 
 Utilizzando questa funzione puoi modificare i moltiplicatori di offerta per i target di posizionamento esistenti. Puoi gestire i moltiplicatori delle offerte per un posizionamento alla volta.<!-- remove that line once we can edit multiple -->
 
-Per modificare le destinazioni selezionate per i posizionamenti, vedi &quot;[Modificare un posizionamento](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
+Per modificare le destinazioni selezionate per i posizionamenti, vedi &quot;[Modifica posizionamenti](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
 
 <!-- 
 ## Manage the Bid Multipliers for a Single Placement
@@ -73,6 +74,6 @@ Puoi impostare i moltiplicatori delle offerte (con valori diversi da 1,00) per u
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulla gestione del posizionamento](placement-about.md)
->* [Modificare un posizionamento](placement-edit.md)
+>* [Modifica posizionamenti](placement-edit.md)
 >* [Visualizzare il log delle modifiche per un posizionamento](placement-change-log.md)
 >* [Impostazioni di posizionamento](placement-settings.md)

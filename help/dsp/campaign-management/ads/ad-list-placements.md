@@ -3,9 +3,9 @@ title: Elencare i posizionamenti associati a un annuncio
 description: Scopri come visualizzare i posizionamenti associati a un annuncio.
 feature: DSP Ads
 exl-id: e7c6ce90-b1c9-4ed4-a7db-9e279de15520
-source-git-commit: c3844b70aee5102e47dc8676064ea5a1e6cacaac
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
@@ -25,5 +25,5 @@ Vedi anche &quot;[Visualizza annunci allegati ai posizionamenti](/help/dsp/campa
 >
 >* [Informazioni sulla gestione degli annunci](ad-about.md)
 >* [Modificare un annuncio](ad-edit.md)
->* [Modificare un posizionamento](/help/dsp/campaign-management/placements/placement-edit.md)
+>* [Modifica posizionamenti](/help/dsp/campaign-management/placements/placement-edit.md)
 >* [Visualizzare un rapporto dettagliato per un posizionamento](/help/dsp/campaign-management/placements/placement-view-report.md)

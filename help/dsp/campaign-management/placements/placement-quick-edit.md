@@ -3,9 +3,9 @@ title: Modifica rapida impostazioni di posizionamento chiave
 description: Scopri come modificare rapidamente le impostazioni di posizionamento chiave.
 feature: DSP Placements
 exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
-source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Puoi modificare il nome del posizionamento, lo stato, l’offerta massima e il b
 
 >[!TIP]
 >
-> Per modificare un’impostazione di posizionamento, vedi &quot;[Modificare un posizionamento](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
+> Per modificare un’impostazione di posizionamento, vedi &quot;[Modifica posizionamenti](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
 
 1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
 1. Fai clic sul nome della campagna.
@@ -31,7 +31,7 @@ Puoi modificare il nome del posizionamento, lo stato, l’offerta massima e il b
 >
 >* [Informazioni sulla gestione del posizionamento](placement-about.md)
 >* [Creare un posizionamento](placement-create.md)
->* [Modificare un posizionamento](placement-edit.md)
+>* [Modifica posizionamenti](placement-edit.md)
 >* [Duplicare un posizionamento](placement-duplicate.md)
 >* [Gestire i moltiplicatori delle offerte per i posizionamenti](placement-manage-bid-multipliers.md)
 >* [Modificare gli Schedules degli annunci per i posizionamenti](placement-edit-ad-schedule.md)

@@ -3,9 +3,9 @@ title: Modifica gli Schedules per i Posizionamenti
 description: Scopri come modificare le pianificazioni degli annunci per gli annunci allegati ai posizionamenti.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: 02a643662b00e2aed6dccf80cf8eeaf04d3d5c34
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,6 @@ Puoi modificare le date dei voli programmati e la rotazione degli annunci per gl
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulla gestione del posizionamento](placement-about.md)
->* [Modificare un posizionamento](placement-edit.md)
+>* [Modifica posizionamenti](placement-edit.md)
 >* [Visualizzare il log delle modifiche per un posizionamento](placement-change-log.md)
 >* [Impostazioni di posizionamento](placement-settings.md)
