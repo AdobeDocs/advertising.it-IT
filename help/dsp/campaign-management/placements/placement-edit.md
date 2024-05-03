@@ -3,9 +3,9 @@ title: Modificare un posizionamento
 description: Scopri come modificare un posizionamento.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
+source-git-commit: 787bf675c24fe22a5ca3c9fd599135f81ddd5296
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,24 @@ ht-degree: 0%
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
+## Modifica rapida impostazioni di posizionamento chiave {#placement-quick-edit}
+
+<!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
+
+Puoi modificare il nome del posizionamento, lo stato, l’offerta massima e il budget senza aprire le impostazioni di posizionamento complete.
+
+1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
+1. Fai clic sul nome della campagna.
+1. Nel sottomenu, fai clic su **[!UICONTROL Placements]**.
+1. Accanto al nome del posizionamento, fate clic su  **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
+1. Modifica uno dei [impostazioni di posizionamento](placement-settings.md):  **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]**, e **[!UICONTROL Budget]**.
+1. Clic **[!UICONTROL Apply]**.
+
 ## Modificare un singolo posizionamento
 
 >[!TIP]
 >
-> Per modificare solo il nome del posizionamento, lo stato, l’offerta massima e il budget, vedi &quot;[Modifica rapida impostazioni di posizionamento chiave](/help/dsp/campaign-management/placements/placement-quick-edit.md).&quot;
+> Per modificare solo il nome del posizionamento, lo stato, l’offerta massima e il budget, vedi &quot;[Modifica rapida impostazioni di posizionamento chiave](#placement-quick-edit).&quot;
 
 1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
 
@@ -77,7 +90,7 @@ Utilizza questa opzione solo quando desideri applicare le stesse modifiche a tut
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulla gestione del posizionamento](placement-about.md)
->* [Modifica rapida impostazioni di posizionamento chiave](placement-quick-edit.md)
+>* [Revisione e correzione delle impostazioni di posizionamento tramite i fogli di calcolo](placement-qa.md)
 >* [Creare un posizionamento](placement-create.md)
 >* [Duplicare un posizionamento](placement-duplicate.md)
 >* [Gestire i moltiplicatori delle offerte per i posizionamenti](placement-manage-bid-multipliers.md)
@@ -87,5 +100,4 @@ Utilizza questa opzione solo quando desideri applicare le stesse modifiche a tut
 >* [Impostazioni di posizionamento](placement-settings.md)
 >* [Visualizza il rapporto Previsione posizionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Scelte rapide da tastiera](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Correzione delle impostazioni di posizionamento tramite i fogli di calcolo](/help/dsp/campaign-management/qa/qa-about.md)
 >* [Video: come modificare i posizionamenti utilizzando gli strumenti di modifica in blocco](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

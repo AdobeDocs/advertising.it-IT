@@ -4,9 +4,9 @@ user-guide-title: Guida di Advertising DSP
 user-guide-description: Scopri le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire e ottimizzare le strategie degli annunci display con Advertising DSP e creare i relativi rapporti.
 breadcrumb-title: Guida di DSP
 index: true
-source-git-commit: c5f26fba0dcf26e0017d881b5ccd9101f98ff43f
+source-git-commit: f352af0ffd5bfeab08f6592b4f3af56a9668feaa
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '897'
 ht-degree: 3%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 3%
       + [Informazioni sulla gestione del posizionamento](/help/dsp/campaign-management/placements/placement-about.md)
       + [Creare un posizionamento](/help/dsp/campaign-management/placements/placement-create.md)
       + [Modificare un posizionamento](/help/dsp/campaign-management/placements/placement-edit.md)
-      + [Modifica rapida impostazioni di posizionamento chiave](/help/dsp/campaign-management/placements/placement-quick-edit.md)
+      + [Revisione e correzione delle impostazioni di posizionamento tramite i fogli di calcolo](/help/dsp/campaign-management/placements/placement-qa.md)
       + [Duplicare un posizionamento](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [Gestire i moltiplicatori delle offerte per i posizionamenti](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
       + [Allega annunci ai posizionamenti](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
@@ -101,11 +101,6 @@ ht-degree: 3%
       + [Visualizzare i rapporti di diagnostica del posizionamento](/help/dsp/campaign-management/reports/placement-diagnostics.md)
       + [Visualizza avvisi](/help/dsp/campaign-management/reports/campaign-alerts.md)
       + [Gestire le visualizzazioni dati della campagna](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
-   + Correggere Le Impostazioni Di Posizionamento Utilizzando I Fogli Di Calcolo {#qa-spreadsheet}
-      + [Correzione delle impostazioni di posizionamento tramite i fogli di calcolo](/help/dsp/campaign-management/qa/qa-about.md)
-      + [Scaricare le impostazioni di posizionamento in un foglio di calcolo](/help/dsp/campaign-management/qa/qa-sheet-download.md)
-      + [Carica impostazioni di posizionamento in un foglio di calcolo](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
-      + [Colonne nei fogli di calcolo scaricati/caricati](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
    + [Macro per DSP](/help/dsp/campaign-management/macros.md)
    + [Scelte rapide da tastiera](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
    + [Domande frequenti su Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
