@@ -2,9 +2,9 @@
 title: Rivedere Le Impostazioni Degli Annunci Utilizzando I Fogli Di Calcolo
 description: Scopri come rivedere le impostazioni degli annunci utilizzando i fogli di calcolo.
 feature: DSP Ads
-source-git-commit: c67e0c83ba8836462ce83fad24721cd1b27de318
+source-git-commit: ba940f8476463a6804f024b1597be74ffc5a6c0c
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -43,5 +43,4 @@ Puoi scaricare le impostazioni per tutti gli annunci di una campagna in formato 
 >[!MORELIKETHIS]
 >
 >* [Modificare un annuncio](/help/dsp/campaign-management/ads/ad-edit.md)
->* [Impostazioni annuncio](/help/dsp/campaign-management/ads/ad-settings.md)
 >* [Allega annunci ai posizionamenti](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
