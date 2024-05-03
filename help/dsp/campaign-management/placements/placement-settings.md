@@ -3,9 +3,9 @@ title: Impostazioni di posizionamento
 description: Consulta le descrizioni delle impostazioni di posizionamento disponibili.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
+source-git-commit: caab8c3163a7ffdbc0b5ef28176b2ee73f83b6e8
 workflow-type: tm+mt
-source-wordcount: '3516'
+source-wordcount: '3540'
 ht-degree: 0%
 
 ---
@@ -309,6 +309,7 @@ Facoltativamente, puoi esportare l’elenco dei siti di destinazione e dei siti 
 
 * Per selezionare un pubblico esistente, fai clic su ![Seleziona](/help/dsp/assets/chevron-down.png) accanto a [!UICONTROL Excluded Audiences], quindi seleziona il pubblico.
 * Per creare un pubblico, fai clic su ![Seleziona](/help/dsp/assets/chevron-down.png) accanto a [!UICONTROL Excluded Audiences]e quindi selezionare **+ Crea pubblico**. Per istruzioni, consulta [Creare un pubblico riutilizzabile](/help/dsp/audiences/reusable-audience-create.md), a partire dal passaggio 3.
+* Per selezionare segmenti di pubblico specifici, fai clic su **[!UICONTROL Select segments for this placement only]**. Seleziona la logica del segmento; per le istruzioni consulta il passaggio 6 in &quot;[Creare un pubblico riutilizzabile](/help/dsp/audiences/reusable-audience-create.md).&quot; Al termine, fai clic su **Salva**.
 
 **[!UICONTROL Cross Device Targeting]:** (Disponibile quando selezioni almeno un segmento o un pubblico e il [campaign è configurato per il targeting multi-dispositivo basato sulle persone](/help/dsp/campaign-management/campaigns/campaign-settings.md). Consente di estendere il targeting su tutti i dispositivi noti di una persona (in base al grafico dei dispositivi specificato nelle impostazioni della campagna), anche su dispositivi che non si trovano nei segmenti specificati. Le tariffe possono essere applicate a seconda del grafico specificato per la campagna. I dati del grafico dei dispositivi sono disponibili solo in Nord America.
 
