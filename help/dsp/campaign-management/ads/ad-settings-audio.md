@@ -3,9 +3,9 @@ title: Impostazioni annuncio audio
 description: Consulta le descrizioni delle impostazioni pubblicitarie disponibili per gli annunci audio.
 feature: DSP Ads
 exl-id: 2fa1143b-6e83-4729-91cd-7a5da357509e
-source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
+source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -46,9 +46,9 @@ Questo campo può essere visualizzato o meno, a seconda delle autorizzazioni del
 
 **[!UICONTROL Select Rate]:** (Solo per utenti autorizzati) Tariffa prenegoziata fatturata tramite Adobe o una delle tariffe negoziate e fatturate tramite il fornitore. Per aggiungere una tariffa, contatta il team del tuo account Adobe.
 
-### Pixel
+### [!UICONTROL Pixel]
 
-Tutti i pixel di tracciamento degli eventi esistenti per il posizionamento vengono associati automaticamente. Puoi scollegare i pixel esistenti e crearne di nuovi, in base alle tue esigenze di tracciamento per il singolo annuncio.
+Tutti i pixel di tracciamento degli eventi esistenti per il posizionamento vengono associati automaticamente. Puoi scollegare i pixel esistenti e crearne di nuovi, in base alle tue esigenze di tracciamento per il singolo annuncio. **Suggerimento** Per modificare i pixel di tracciamento di terze parti per più annunci in un posizionamento contemporaneamente utilizzando [!UICONTROL Ad Tools] visualizzare, vedere &quot;[Allegare pixel di tracciamento di terze parti agli annunci in un posizionamento](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads).&quot;
 
 Le seguenti impostazioni si applicano a ogni pixel creato o modificato.
 
@@ -60,7 +60,7 @@ Le seguenti impostazioni si applicano a ogni pixel creato o modificato.
 
 **[!UICONTROL Pixel Name]:** Il nome del pixel. Utilizza un nome che ti consenta di identificare facilmente il pixel.
 
-**[!UICONTROL Pixel Provider]:** Il provider pixel:*[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]*, o *[!UICONTROL IAS]*..
+**[!UICONTROL Pixel Provider]:** Il provider pixel:*[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]*, o *[!UICONTROL IAS]*.
 
 >[!MORELIKETHIS]
 >
