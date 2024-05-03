@@ -3,14 +3,18 @@ title: Modificare un annuncio
 description: Scopri come modificare un annuncio.
 feature: DSP Ads
 exl-id: 149eeb61-b4d1-4c88-8dcd-ad11e135a486
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: c97fcf61f444ab3363d9d55398402ec9f162be99
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
 
 # Modificare un annuncio
+
+>[!TIP]
+>
+>Per modificare i pixel di tracciamento di terze parti per più annunci contemporaneamente, vedi &quot;[Allega annunci ai posizionamenti](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot;
 
 1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
 
@@ -32,7 +36,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >Il tuo annuncio verrà trasmesso solo se sia l’DSP che la SSP hanno approvato il contenuto creativo. Ciascuna SSP ha i propri requisiti e la propria procedura di approvazione.
+   >Il tuo annuncio può essere servito solo se sia l&#39;DSP che la SSP hanno approvato il contenuto creativo. Ciascuna SSP ha i propri requisiti e la propria procedura di approvazione.
 
 >[!MORELIKETHIS]
 >
@@ -42,4 +46,3 @@ ht-degree: 0%
 >* [Duplicare un annuncio](ad-duplicate.md)
 >* [Elencare i posizionamenti associati a un annuncio](ad-list-placements.md)
 >* [Specifiche annuncio](ad-specs.md)
-
