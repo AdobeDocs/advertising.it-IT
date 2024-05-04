@@ -1,17 +1,17 @@
 ---
-title: Rivedere Le Impostazioni Degli Annunci Utilizzando I Fogli Di Calcolo
-description: Scopri come rivedere le impostazioni degli annunci utilizzando i fogli di calcolo.
+title: Rivedere I Dettagli Dell’Annuncio Utilizzando I Fogli Di Calcolo
+description: Scopri come rivedere i dettagli degli annunci, incluse le impostazioni degli annunci e i posizionamenti associati, utilizzando i fogli di calcolo.
 feature: DSP Ads
-source-git-commit: 24e6339d7217c02c993702e203acda362c25fd0e
+source-git-commit: 08f177d0cc05b9a4e6c240ba78dcb903587a1bfa
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
 
-# Rivedere Le Impostazioni Degli Annunci Utilizzando I Fogli Di Calcolo
+# Rivedere I Dettagli Dell’Annuncio Utilizzando I Fogli Di Calcolo
 
-Puoi scaricare le impostazioni per tutti gli annunci di una campagna in formato XLSX (foglio di calcolo Excel) per la revisione.<!-- Clarify once I can get this to work: Do these include all ads in the campaign, only active ads in live or pending campaigns, or what? And does it include all possible settings, or just a subset?  -->
+Puoi scaricare i dettagli di tutti gli annunci di una campagna in formato XLSX (foglio di calcolo Excel) per la revisione. I dettagli includono le impostazioni dell’annuncio e i posizionamenti associati.<!-- Clarify once I can get this to work: Do these include all ads in the campaign, only active ads in live or pending campaigns, or what? -->
 
 >[!NOTE]
 >
