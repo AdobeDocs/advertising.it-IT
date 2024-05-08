@@ -3,16 +3,16 @@ title: Rivedere I Dettagli Dell’Annuncio Utilizzando I Fogli Di Calcolo
 description: Scopri come rivedere i dettagli degli annunci, incluse le impostazioni degli annunci e i posizionamenti associati, utilizzando i fogli di calcolo.
 feature: DSP Ads
 exl-id: a223d4e1-2264-49fa-8579-817e7ea6ea56
-source-git-commit: 64a1d623bd505764d1fb320e95706e0f702b1d23
+source-git-commit: b469ce7db2bddb99062b32aef25e3e5ae524fa61
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
 
 # Rivedere I Dettagli Dell’Annuncio Utilizzando I Fogli Di Calcolo
 
-Puoi scaricare i dettagli di tutti gli annunci di una campagna in formato XLSX (foglio di calcolo Excel) per la revisione. I dettagli includono le impostazioni dell’annuncio e i posizionamenti associati.<!-- Do these include all ads in the campaign, only active ads in live or pending campaigns, or what? -->
+Puoi scaricare i dettagli di tutti gli annunci di una campagna in formato XLSX (foglio di calcolo Excel) per la revisione. I dettagli includono una scheda con le impostazioni e i posizionamenti associati per ogni annuncio e un’altra scheda con ogni pixel utilizzato per gli annunci nella campagna.
 
 >[!NOTE]
 >
