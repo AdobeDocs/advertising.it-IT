@@ -3,9 +3,9 @@ title: Visualizza il rapporto Previsione posizionamento
 description: Visualizza il numero di impression, la spesa e l’offerta massima ottimale previste per una particolare strategia di targeting per un posizionamento.
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-source-git-commit: 2ecf1eacb2a47c20e0c05f9ff62386869b644ba6
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ La previsione include le seguenti informazioni:
 
    * Il posizionamento utilizza un nuovo tipo di annuncio per la campagna.
 
-     Un posizionamento è in genere una raccolta di più modelli di annunci definiti dalle piattaforme lato offerta. Pertanto, anche se il posizionamento esiste da molto tempo, il modello di annuncio sottostante può essere nuovo e lo strumento di previsione non sarà in grado di effettuare la previsione.
+     Un posizionamento è in genere una raccolta di più modelli di annunci definiti dalle piattaforme lato offerta. Pertanto, anche se il posizionamento esiste da molto tempo, se il modello di annuncio sottostante è nuovo, lo strumento di previsione non può creare una previsione.
 
 ## Apri il rapporto Previsione posizionamento
 

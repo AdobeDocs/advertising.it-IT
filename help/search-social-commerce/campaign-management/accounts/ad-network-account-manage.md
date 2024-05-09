@@ -3,9 +3,9 @@ title: Gestire gli account di rete degli annunci
 description: Scopri come impostare e gestire i dettagli di un account di rete di annunci.
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '2082'
+source-wordcount: '2079'
 ht-degree: 0%
 
 ---
@@ -81,13 +81,13 @@ Se le credenziali dell’account cambiano, vuoi modificare i parametri di tracci
 
    >[!NOTE]
    >
-   >Search, Social e Commerce devono sincronizzare i nuovi dati dell’account con quelli presenti nella rete di annunci. Questo accade automaticamente una volta al giorno, o più spesso quando Search, Social &amp; Commerce rileva le modifiche sulla rete di annunci.
+   >Search, Social e Commerce devono sincronizzare i nuovi dati dell&#39;account con quelli della rete pubblicitaria. Questo accade automaticamente una volta al giorno, o più spesso quando Search, Social &amp; Commerce rileva le modifiche sulla rete di annunci.
 
 ## Aggiorna i token di accesso OAuth per gli account di ricerca {#refresh-oauth-tokens}
 
 *Solo i ruoli utente Responsabile account agenzia, Responsabile account Adobe e Amministratore*
 
-Se Search, Social e Commerce accedono all’account utilizzando [Protocollo di autorizzazione OAuth](https://oauth.net/2/) e le credenziali dell’account cambiano, oppure se è necessario un accesso aggiuntivo per supportare nuove funzioni in Search, Social e Commerce, devi ottenere un nuovo token di accesso per l’account.
+Se Search, Social e Commerce accedono all&#39;account utilizzando [Protocollo di autorizzazione OAuth](https://oauth.net/2/) e le credenziali dell’account cambiano, oppure se è necessario un accesso aggiuntivo per supportare nuove funzioni in Search, Social e Commerce, devi ottenere un nuovo token di accesso per l’account.
 
 Se nuove funzionalità richiedono un nuovo token, il team del tuo account Adobe ti informerà.
 
@@ -113,7 +113,7 @@ Se nuove funzionalità richiedono un nuovo token, il team del tuo account Adobe 
 
 *Solo i ruoli utente Responsabile account agenzia, Responsabile account Adobe e Amministratore*
 
-Quando si abilita un account di ad network, Search, Social e Commerce sincronizza i dati della campagna con l&#39;account (se supportato) e invia offerte automatizzate e/o budget delle campagne nei portfolio.Quando si disabilita un account di ad network, Search, Social e Commerce interrompe tutte le attività sull&#39;account. I dati raccolti mentre l’account era attivo vengono comunque memorizzati, ma le visualizzazioni e i rapporti di gestione delle campagne non includono i dati per il periodo di tempo in cui l’account è disabilitato. In seguito, potrai riabilitare l’account per riprendere l’attività con l’account.
+Quando si abilita un account di ad network, Search, Social e Commerce sincronizzano i dati della campagna con l&#39;account (se supportato) e inviano offerte automatizzate e/o budget delle campagne nei portfolio.Quando si disabilita un account di ad network, Search, Social e Commerce interrompe tutte le attività sull&#39;account. I dati raccolti mentre l’account era attivo vengono comunque memorizzati, ma le visualizzazioni e i rapporti di gestione delle campagne non includono i dati per il periodo di tempo in cui l’account è disabilitato. In seguito, potrai riabilitare l’account per riprendere l’attività con l’account.
 
 1. Nel menu principale, fai clic su **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Nel sottomenu, fai clic su **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
@@ -143,11 +143,11 @@ Quando si abilita un account di ad network, Search, Social e Commerce sincronizz
 >
 >Gli account del gestore della rete di annunci non sono supportati qui. Per identificare un account manager per [!DNL Microsoft Advertising] o [!DNL Yandex], utilizzare rispettivamente il campo ID account principale o Account MCC. A [impostare le credenziali per un [!DNL Google Ads] account manager](/help/search-social-commerce/admin/manager-accounts.md), vai a [!UICONTROL Admin] \> [!UICONTROL Manager Accounts].
 
-**[!UICONTROL Account Name]:** Nome da visualizzare per l’account in Search, Social &amp; Commerce.
+**[!UICONTROL Account Name]:** Il nome da visualizzare per l’account in Search, Social &amp; Commerce.
 
 >[!NOTE]
 >
->Se hai un’integrazione Search, Social e Commerce-Adobe Analytics e modifichi il nome dell’account di ricerca, informa il team dell’account dell’Adobe in modo che possa aggiornare la mappatura.
+>Se hai un’integrazione Search, Social e Commerce-Adobe Analytics e modifichi il nome dell’account di ricerca, informa il team dell’account Adobe in modo che possa aggiornare la mappatura.
 
 **[!UICONTROL Login Details]: \[Tipo di accesso\]** - ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] solo) Se autorizzare gli accessi all’account utilizzando:
 
@@ -178,12 +178,12 @@ Gli account che utilizzano il tracciamento dei clic di Adobe Advertising devono 
 >* Questo campo non viene aggiornato da [!UICONTROL Auto Upload] impostazione di tracciamento.
 >* I suffissi URL finali ai livelli inferiori sovrascrivono il suffisso a livello di account. Per una manutenzione più semplice, utilizza solo il suffisso a livello di account, a meno che non sia necessario un tracciamento diverso per i singoli componenti dell’account. Per configurare un suffisso a livello di gruppo di annunci o inferiore, utilizza l’editor della rete di annunci.
 
-**Fuso orario:** (Tutte le reti di annunci tranne [!DNL Baidu] e [!DNL Yahoo! Display Network]) Il fuso orario dell&#39;inserzionista. Questo campo è modificabile e facoltativo per i nuovi [!DNL Naver] account. Per tutte le altre reti di ricerca, il valore viene compilato automaticamente con il fuso orario configurato per l’account Search, Social &amp; Commerce dell’inserzionista una volta salvato il record.
+**Fuso orario:** (Tutte le reti di annunci tranne [!DNL Baidu] e [!DNL Yahoo! Display Network]) Il fuso orario dell&#39;inserzionista. Questo campo è modificabile e facoltativo per i nuovi [!DNL Naver] account. Per tutte le altre reti di ricerca, il valore viene compilato automaticamente con il fuso orario configurato per l&#39;account Search, Social e Commerce dell&#39;inserzionista una volta salvato il record.
 
-**Stato:** Lo stato dell’account in Search, Social &amp; Commerce:
+**Stato:** Lo stato dell’account in Search, Social e Commerce:
 
-* *Attivato:* Search, Social e Commerce sincronizza i dati della campagna con l’account (se supportato) e invia offerte automatizzate e/o budget delle campagne nei portfolio.
-* *Disattivato:* Search, Social e Commerce interrompe tutte le attività sull’account. I dati raccolti mentre l’account era attivo vengono comunque memorizzati, ma le visualizzazioni e i rapporti di gestione delle campagne non includono i dati per il periodo di tempo in cui l’account viene messo in pausa. Successivamente puoi riattivare l’account per riprendere l’attività con l’account.
+* *Attivato:* Search, Social e Commerce sincronizzano i dati della campagna con l&#39;account (se supportato) e inviano offerte automatizzate e/o budget delle campagne nei portfolio.
+* *Disattivato:* Search, Social e Commerce interrompe tutte le attività sull&#39;account. I dati raccolti mentre l’account era attivo vengono comunque memorizzati, ma le visualizzazioni e i rapporti di gestione delle campagne non includono i dati per il periodo di tempo in cui l’account viene messo in pausa. Successivamente puoi riattivare l’account per riprendere l’attività con l’account.
 
 **Modello di tracciamento** - ([!DNL Google Ads], [!DNL Microsoft Advertising], e [!DNL Yahoo! Japan Ads] solo account; facoltativo) Il modello di tracciamento predefinito per l’account, che specifica tutti i reindirizzamenti e i parametri di tracciamento del dominio di destinazione finale e incorpora anche l’URL della pagina di destinazione finale in un parametro. Esempio: `{lpurl}?source={network}&id=5` o `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` per includere un reindirizzamento.
 
@@ -197,7 +197,7 @@ Gli account che utilizzano il tracciamento dei clic di Adobe Advertising devono 
 
 * Facoltativamente, puoi aggiungere reindirizzamenti e tracciamento di terze parti.
 
-* Quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; Search, Social e Commerce aggiunge automaticamente il prefisso al proprio codice di reindirizzamento e di tracciamento quando si salva il record.
+* Quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; Search, Social e Commerce applicano automaticamente i prefissi al proprio codice di reindirizzamento e di tracciamento quando si salva il record.
 
 >[!NOTE]
 >
@@ -211,7 +211,7 @@ Gli account che utilizzano il tracciamento dei clic di Adobe Advertising devono 
 
 **[!UICONTROL Application ID]:** ([!DNL Yandex] solo account) Token sviluppatore da utilizzare per l’account. Lo stesso token viene utilizzato per tutti [!DNL Yandex] account.
 
-**[!UICONTROL Purse Campaign ID]:** ([!DNL Yandex] account con l&#39;impostazione Account condiviso disabilitata; facoltativo) l&#39;ID numerico per la campagna che verrà utilizzato per pagare tutte le campagne pubblicitarie nell&#39;account.
+**[!UICONTROL Purse Campaign ID]:** ([!DNL Yandex] account con l&#39;impostazione Account condiviso disabilitata; facoltativo) l&#39;ID numerico per la campagna utilizzato per pagare tutte le campagne pubblicitarie nell&#39;account.
 
 **[!UICONTROL Finance Token]:** ([!DNL Yandex] account con l’impostazione Account condiviso disabilitata; facoltativo) Il token sviluppatore da utilizzare per le chiamate API relative ai finanziamenti, ad esempio per riallocare denaro dal wallet tra le campagne dell’inserzionista in base alle necessità per l’ottimizzazione del portfolio.
 
@@ -255,7 +255,7 @@ Per istruzioni complete, consulta &quot;[Aggiornamento del codice di tracciament
 
 **Nomi suite di rapporti** - (Solo per reindirizzamento EF con token; inserzionisti con integrazione Adobi Advertising-Adobe Analytics; facoltativo) Una o più suite di rapporti Analytics a cui Search, Social e Commerce invia i dati che raccoglie dalla rete di annunci, incluse le classificazioni delle entità e i dati di clic per l’account. Questa funzione è disponibile solo per le reti di annunci supportate.
 
-Affinché i dati vengano visualizzati nelle suite di rapporti, a) la funzione AMO ID lato server deve essere configurata per l’account o b) l’impostazione a livello di inserzionista su &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; deve essere abilitato. Inoltre, l’account Analytics dell’inserzionista deve essere configurato per ricevere i dati da Search, Social e Commerce. Per ulteriori informazioni, contatta il tuo Adobe Account Manager.
+Affinché i dati vengano visualizzati nelle suite di rapporti, a) la funzione AMO ID lato server deve essere configurata per l’account o b) l’impostazione a livello di inserzionista su &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; deve essere abilitato. Inoltre, l’account Analytics dell’inserzionista deve essere configurato per ricevere dati da Search, Social e Commerce. Per ulteriori informazioni, contatta il tuo Adobe Account Manager.
 
 >[!MORELIKETHIS]
 >

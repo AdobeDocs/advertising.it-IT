@@ -3,9 +3,9 @@ title: Crea manualmente dettagli ID offerta
 description: Scopri come inserire manualmente i dettagli di un ID offerta.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: 93600a6e5afe7e0ae3f22111c0adb0ccc3b5b4bb
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    Facoltativamente, puoi utilizzare l’offerta come obiettivo di magazzino in posizionamenti aggiuntivi, ma è necessario impostarla correttamente per fare offerte.
 
-   1. In [!UICONTROL Ad & Campaign Selection] , seleziona gli annunci che verranno utilizzati per l’offerta:
+   1. In [!UICONTROL Ad & Campaign Selection] , seleziona gli annunci da utilizzare per l’offerta:
 
       1. Seleziona l’inserzionista, la campagna e il tipo di annuncio. Facoltativamente, seleziona uno stato dell’annuncio in base al quale filtrare gli annunci.
 

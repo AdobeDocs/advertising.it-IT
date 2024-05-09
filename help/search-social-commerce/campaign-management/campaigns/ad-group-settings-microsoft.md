@@ -3,7 +3,7 @@ title: '''[!DNL Microsoft® Advertising] impostazioni del gruppo di annunci'
 description: Fai riferimento alle impostazioni per [!DNL Microsoft® Advertising] gruppi di annunci.
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 2407d29fb4061e6b3181b86c335c52a8384c4ca3
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 0%
@@ -114,7 +114,7 @@ Il posizionamento degli annunci TV collegata (CTV) dipende dalla qualità video 
 
 {{$include /help/_includes/custom-parameters.md}}
 
-**[!UICONTROL Adgroup Frequency Cap Settings]:** (Facoltativo) Il numero di volte in cui a un cliente verranno distribuiti annunci dal gruppo di annunci. Immettere un valore e selezionare l&#39;unità di tempo (*[!UICONTROL Hour]*, *[!UICONTROL Day]*, o *[!UICONTROL Week]*).
+**[!UICONTROL Adgroup Frequency Cap Settings]:** (Facoltativo) Il numero di volte in cui un cliente può ricevere annunci dal gruppo di annunci. Immettere un valore e selezionare l&#39;unità di tempo (*[!UICONTROL Hour]*, *[!UICONTROL Day]*, o *[!UICONTROL Week]*).
 
 ## [!UICONTROL Negative Keywords]
 

@@ -3,9 +3,9 @@ title: Impostazioni destinazione report
 description: Vedi i dettagli richiesti per le destinazioni dei rapporti, per tipo di destinazione.
 feature: DSP Custom Reports
 exl-id: 1437ceea-111a-4c2e-a439-037b3a35865c
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ I dettagli richiesti per le destinazioni dei rapporti non e-mail variano a secon
 
 **[!UICONTROL Name]:** Un nome per identificare la destinazione.
 
-**[!UICONTROL S3 Bucket URL]:** Percorso completo della cartella sul [!DNL Amazon Simple Storage Service] (S3) bucket in cui verrà caricato il rapporto. Esempio: `s3://dsp_account/reports`
+**[!UICONTROL S3 Bucket URL]:** Percorso completo della cartella sul [!DNL Amazon Simple Storage Service] (S3) bucket in cui viene caricato il rapporto. Esempio: `s3://dsp_account/reports`
 
 **[!UICONTROL Access Key ID]:** L’ID della chiave di accesso a ([!DNL Amazon S3]) bucket (fornito da [!DNL Amazon]).
 
@@ -40,7 +40,7 @@ I dettagli richiesti per le destinazioni dei rapporti non e-mail variano a secon
 
 **[!UICONTROL Password]:** Password per accedere al server.
 
-**[!UICONTROL Path (Optional)]:** Percorso del server in cui verranno caricati i file.
+**[!UICONTROL Path (Optional)]:** Percorso del server in cui vengono caricati i file.
 
 ## [!UICONTROL SFTP]
 
@@ -54,7 +54,7 @@ I dettagli richiesti per le destinazioni dei rapporti non e-mail variano a secon
 
 **[!UICONTROL Password]:** Password per accedere al server.
 
-**[!UICONTROL Path (Optional)]:** Percorso del server in cui verranno caricati i file.
+**[!UICONTROL Path (Optional)]:** Percorso del server in cui vengono caricati i file.
 
 ## [!UICONTROL FTP SSL]
 
@@ -68,7 +68,7 @@ I dettagli richiesti per le destinazioni dei rapporti non e-mail variano a secon
 
 **[!UICONTROL Password]:** Password per accedere al server.
 
-**[!UICONTROL Path (Optional)]:** Percorso del server in cui verranno caricati i file.
+**[!UICONTROL Path (Optional)]:** Percorso del server in cui vengono caricati i file.
 
 >[!MORELIKETHIS]
 >
@@ -76,4 +76,3 @@ I dettagli richiesti per le destinazioni dei rapporti non e-mail variano a secon
 >* [Creare un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
 >* [Modifica un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
 >* [Eliminare un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
-

@@ -3,9 +3,9 @@ title: Varianze di dati previste tra [!DNL Analytics] e ADOBE ADVERTISING
 description: Varianze di dati previste tra [!DNL Analytics] e ADOBE ADVERTISING
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '3216'
+source-wordcount: '3212'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Nell’esempio seguente, supponiamo che a un visitatore sia stato distribuito un
 
 ![Esempio di conversione view-through attribuita a [!DNL Analytics] ma non Adobe Advertising](/help/integrations/assets/a4adc-viewthrough-example.png)
 
-Un&#39;altra causa di discrepanze è che, ad Adobe Advertising, è possibile assegnare conversioni view-through a *ponderazione view-through* relativo al peso attribuito a una conversione basata su clic. Il peso predefinito della visualizzazione view-through è 40%, il che significa che una conversione view-through viene conteggiata come 40% del valore di una conversione basata su clic. [!DNL Analytics] non fornisce tale ponderazione delle conversioni view-through. Ad esempio, un ordine di ricavo da 100 USD registrato in [!DNL Analytics] sarà scontato a 40 USD in Adobe Advertising se si utilizza il peso view-through predefinito — una differenza di 60 USD.
+Un&#39;altra causa di discrepanze è che, ad Adobe Advertising, è possibile assegnare conversioni view-through a *ponderazione view-through* relativo al peso attribuito a una conversione basata su clic. Il peso predefinito della visualizzazione view-through è 40%, il che significa che una conversione view-through viene conteggiata come 40% del valore di una conversione basata su clic. [!DNL Analytics] non fornisce tale ponderazione delle conversioni view-through. Ad esempio, un ordine di ricavo da 100 USD registrato in [!DNL Analytics] è scontato a 40 USD in Adobe Advertising se si utilizza il peso view-through predefinito — una differenza di 60 USD.
 
 Considera queste differenze durante il confronto delle conversioni view-through tra Adobi Advertising e [!DNL Analytics] rapporti.
 
@@ -96,7 +96,7 @@ Se hai effettuato l’accesso a [!DNL Search, Social, & Commerce], è possibile 
 
 #### Attribuzione data evento in Adobe Advertising
 
-Ad Adobe Advertising, puoi generare rapporti sui dati di conversione in base alla data di clic/data dell’evento associata (la data dell’evento di clic o di impression) o in base alla data della transazione (data di conversione). Il concetto di reporting sulle date di clic/evento non esiste in [!DNL Analytics]; tutte le conversioni tracciate in [!DNL Analytics] sono segnalati per data di transazione. Di conseguenza, la stessa conversione può essere segnalata con date diverse in Adobe Advertising e [!DNL Analytics]. Ad esempio, considera un utente che fa clic su un annuncio il 1° gennaio e converte il 5 gennaio. Se in Adobi Advertising visualizzi i dati di conversione per data evento, la conversione verrà segnalata il 1° gennaio, quando si è verificato il clic. In entrata [!DNL Analytics], la stessa conversione sarebbe segnalata il 5 gennaio.
+Ad Adobe Advertising, puoi generare rapporti sui dati di conversione in base alla data di clic/data dell’evento associata (la data dell’evento di clic o di impression) o in base alla data della transazione (data di conversione). Il concetto di reporting sulle date di clic/evento non esiste in [!DNL Analytics]; tutte le conversioni tracciate in [!DNL Analytics] sono segnalati per data di transazione. Di conseguenza, la stessa conversione può essere segnalata con date diverse in Adobe Advertising e [!DNL Analytics]. Ad esempio, considera un utente che fa clic su un annuncio il 1° gennaio e converte il 5 gennaio. Se in Adobi Advertising visualizzi i dati di conversione per data evento, la conversione viene segnalata il 1° gennaio, quando si è verificato il clic. In entrata [!DNL Analytics], la stessa conversione è segnalata il 5 gennaio.
 
 ![Esempio di conversione attribuita a date diverse](/help/integrations/assets/a4adc-conversions-based-on.png)
 
@@ -240,7 +240,7 @@ Ad esempio, se visualizzi [!UICONTROL Adobe Advertising Clicks] e [!UICONTROL Ad
 
 ![Esempio di metriche di Adobe Advertising in un rapporto che utilizza una dimensione di Adobe Advertising](/help/integrations/assets/a4adc-traffic-supported-dimension.png)
 
-Tuttavia, se visualizzi il [!UICONTROL Adobe Advertising Clicks] e [!UICONTROL Adobe Advertising Cost] metriche per una dimensione su pagina (come Pagina), per la quale Adobe Advertising non fornisce dati, il valore [!UICONTROL Adobe Advertising Clicks] e [!UICONTROL Adobe Advertising Cost] per ogni pagina sarà zero (0).
+Tuttavia, se visualizzi il [!UICONTROL Adobe Advertising Clicks] e [!UICONTROL Adobe Advertising Cost] metriche per una dimensione su pagina (come Pagina), per la quale Adobe Advertising non fornisce dati, il valore [!UICONTROL Adobe Advertising Clicks] e [!UICONTROL Adobe Advertising Cost] per ogni pagina sono zero (0).
 
 ![Adobe Advertising di metriche in un rapporto che utilizza una dimensione non supportata](/help/integrations/assets/a4adc-traffic-unsupported-dimension.png)
 

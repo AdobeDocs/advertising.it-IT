@@ -3,9 +3,9 @@ title: Impostazioni campagna
 description: Consulta le descrizioni delle impostazioni disponibili per la campagna.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 4085c1b21c0fe84653978e449321868921841367
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -78,16 +78,15 @@ Per stimare le imposte da trattenere:
 >
 >* Puoi anche configurare questi valori nelle impostazioni delle tariffe dell’account.<!--[fee settings](/help/dsp/admin/tax-withholdings.md). -->
 
-
 **[!UICONTROL Cross Device Level]:** (Sola lettura per le campagne esistenti create dal 22 giugno 2020; non disponibile per le campagne create prima del 22 giugno 2020) Livello al quale l’DSP eseguirà il targeting degli annunci e applicherà i limiti di frequenza: *Stesso dispositivo* per eseguire il targeting di un dispositivo o *Persone* per eseguire il targeting di una persona su tutti i suoi dispositivi noti.
 
 **[!UICONTROL Device Graph]:** (Sola lettura per le campagne esistenti; campagne con targeting multi-dispositivo basato sulle persone) Il grafico dei dispositivi da utilizzare per il targeting multi-dispositivo e la gestione della frequenza:
 
 * *[!UICONTROL LiveRamp - U.S. only]:* Disponibile per tutti gli inserzionisti per il targeting tra dispositivi a $ 0,35 CPM per le impression distribuite utilizzando [!DNL LiveRamp] device graph (ossia, per dispositivi non trovati all’interno dei segmenti di pubblico target). Puoi impostare il targeting tra dispositivi a livello di posizionamento.
 
-   Questa opzione è disponibile anche per tutti gli inserzionisti, senza costi aggiuntivi, per la gestione della frequenza e la misurazione dell’attribuzione.
+  Questa opzione è disponibile anche per tutti gli inserzionisti, senza costi aggiuntivi, per la gestione della frequenza e la misurazione dell’attribuzione.
 
-**[!UICONTROL Frequency Cap]:** (Facoltativo) Il numero di volte in cui un dispositivo o una persona univoca (a seconda del [!UICONTROL Cross Device Level]) riceveranno gli annunci dalla campagna. Le opzioni includono *[!UICONTROL Unlimited]* o un importo specifico per giorno, settimana o mese.
+**[!UICONTROL Frequency Cap]:** (Facoltativo) Il numero di volte in cui un dispositivo o una persona univoca (a seconda del [!UICONTROL Cross Device Level]) possono ricevere annunci dalla campagna. Le opzioni includono *[!UICONTROL Unlimited]* o un importo specifico per giorno, settimana o mese.
 
 >[!NOTE]
 >
@@ -109,9 +108,9 @@ Per stimare le imposte da trattenere:
 
 * **[!UICONTROL Measure On]:** Inventario su cui misurare: *[!UICONTROL Display and VPAID video inventory]* (impostazione predefinita) oppure *[!UICONTROL Display, VPAID & VAST video inventory]*.
 
-   >[!NOTE]
-   >
-   >La visualizzabilità video è misurabile solo sull’inventario VPAID.
+  >[!NOTE]
+  >
+  >La visualizzabilità video è misurabile solo sull’inventario VPAID.
 
 * **[!UICONTROL IAS Account ID (AnID)]:** (Inserzionisti con il proprio [!DNL IAS] account; facoltativo) dell&#39;organizzazione [!DNL IAS] ID account, che [!DNL IAS] verrà fatturato direttamente per l&#39;utilizzo.
 
@@ -151,4 +150,3 @@ Per stimare le imposte da trattenere:
 >* [Creare una campagna](campaign-create.md)
 >* [Modificare una campagna](campaign-edit.md)
 >* [Visualizzare il registro delle modifiche per una campagna](campaign-change-log.md)
-

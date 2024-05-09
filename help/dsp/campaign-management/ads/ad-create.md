@@ -3,9 +3,9 @@ title: Creare un singolo annuncio
 description: Scopri come creare un singolo annuncio di terze parti.
 feature: DSP Ads
 exl-id: fdfb02c0-9aec-4faf-b374-0f03c7a3fa98
-source-git-commit: 4af30f6fa6a81ce7f1a6879244178c84580caa0f
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Per creare più annunci di terze parti alla volta, consulta [Creare più annunci
 
 1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
 
-1. Fai clic sul nome della campagna in cui l’annuncio verrà incluso.
+1. Fai clic sul nome della campagna in cui includere l’annuncio.
 
 1. Sopra la tabella dati, fai clic su **[!UICONTROL Create]**. In [!UICONTROL Ad Types] del menu, fare clic sul pulsante [tipo di annuncio](ad-about.md#ad-types).
 
@@ -55,4 +55,3 @@ Per creare più annunci di terze parti alla volta, consulta [Creare più annunci
 >* [Modificare un annuncio](ad-edit.md)
 >* [Specifiche annuncio](ad-specs.md)
 >* [Domande frequenti sui video universali](/help/dsp/campaign-management/faq-universal-video.md)
-

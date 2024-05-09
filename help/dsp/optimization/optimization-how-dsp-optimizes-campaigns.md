@@ -3,9 +3,9 @@ title: Come l’DSP ottimizza le campagne
 description: Scopri come l’DSP ottimizza i pacchetti nelle campagne.
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ Gli obiettivi di ottimizzazione dei pacchetti funzionano a due livelli:
 
 * Per ogni posizionamento/asta nel pacchetto: l’DSP calcola il valore dell’indicatore KPI economico in tempo reale per ogni posizionamento e quindi utilizza questo valore per determinare l’offerta.
 
-   >[!NOTE]
-   >
-   >Il valore economico può essere pesantemente ponderato in base a quanto bene un collocamento è spesa. Se un posizionamento è dietro il suo obiettivo di spesa, allora sarà permesso di acquistare aste di qualità inferiore. Se un posizionamento soddisfa facilmente l’obiettivo di spesa, si concentrerà su aste di qualità superiore.
+  >[!NOTE]
+  >
+  >Il valore economico può essere pesantemente ponderato in base a quanto bene un collocamento è spesa. Se un posizionamento è dietro il suo obiettivo di spesa, allora è permesso acquistare aste di qualità inferiore. Se un posizionamento soddisfa facilmente il suo obiettivo di spesa, allora l&#39;attenzione si sposta su aste di qualità più elevata.
 
 ## Ottimizzazione dei pacchetti
 
@@ -48,9 +48,9 @@ Questa modalità di ottimizzazione funziona correttamente se:
 
 #### Logica di andamento {#pacing-logic-performance}
 
-* Se la spesa è a ritmo sostenuto, le offerte diventeranno più selettive, in modo da fare offerte solo sulle aste che si prevede abbiano tassi di prestazioni elevati.
+* Se la spesa è a ritmo sostenuto, le offerte diventano più selettive, in modo da fare offerte solo sulle aste che si prevede abbiano tassi di prestazioni elevati.
 
-* Se la spesa è in ritardo, le offerte diventeranno meno selettive, in modo da fare offerte sulle aste che si prevede abbiano tassi di prestazioni inferiori per raggiungere l&#39;obiettivo di ritmo.
+* Se la spesa è in ritardo, le offerte diventano meno selettive, in modo da fare offerte sulle aste che si prevede abbiano tassi di prestazioni inferiori per raggiungere l&#39;obiettivo di ritmo.
 
 #### Cancellazione dell&#39;ombreggiatura del prezzo/offerta {#clearing-price-performance}
 
@@ -89,4 +89,3 @@ Consulta [Filtri pre-offerta a livello di posizionamento e come utilizzarli](opt
 >* [Obiettivi di ottimizzazione e modalità di utilizzo](optimization-goals.md)
 >* [Filtri pre-offerta a livello di posizionamento e come utilizzarli](optimization-pre-bid-filters.md)
 >* [Risoluzione dei problemi relativi alle prestazioni](/help/dsp/optimization/troubleshooting-performance.md)
-

@@ -3,9 +3,9 @@ title: Visualizza impostazioni annuncio
 description: Consulta le descrizioni delle impostazioni pubblicitarie disponibili per gli annunci display.
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Le seguenti impostazioni sono per gli annunci display standard.
 
 **[!UICONTROL Certified Vendors]:** (Solo banner pubblicitari espandibili di terze parti) Il fornitore certificato per il quale l’annuncio è disponibile: *[!UICONTROL DCM]* ([!DNL Google DoubleClick for Advertisers]), *[!UICONTROL Flashtalking]*, *[!UICONTROL Sizmek]*, o *[!UICONTROL Jivox]*.
 
-**[!UICONTROL Display Code]:** (Solo per annunci di terze parti) L’URL della risorsa creativa di terze parti. Qualsiasi [timestamp] e [[timestamp]] verranno sostituiti con i valori effettivi.
+**[!UICONTROL Display Code]:** (Solo per annunci di terze parti) L’URL della risorsa creativa di terze parti. Qualsiasi [timestamp] e [[timestamp]] vengono sostituiti con i valori effettivi.
 
 **[!UICONTROL Final Display Code]:** (Solo per annunci di terze parti) L’URL della risorsa creativa di terze parti, con il necessario [Pubblicità delle macro di tracciamento DSP](/help/dsp/campaign-management/macros.md) se del caso.
 
@@ -44,7 +44,7 @@ Le seguenti impostazioni sono per gli annunci display standard.
 
 >[!IMPORTANT]
 >
-> Le dimensioni dell’annuncio dichiarate nei campi di larghezza e altezza corrisponderanno alle richieste di offerta in arrivo. Potresti riscontrare problemi di consegna se le dimensioni dell’annuncio non corrispondono a quelle dichiarate.
+> Le dimensioni dell’annuncio dichiarate nei campi di larghezza e altezza corrispondono alle richieste di offerta in arrivo. Potresti riscontrare problemi di consegna se le dimensioni dell’annuncio non corrispondono a quelle dichiarate.
 
 ### [!UICONTROL Pixel]
 

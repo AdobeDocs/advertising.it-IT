@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Label Classification Report]'
 description: Scopri di più su [!UICONTROL Label Classification Report].
-exl-id: 97f3b1d5-ec25-49c4-8efe-66395285f0da
+exl-id: 847fa384-b9c6-446f-9ebf-da7679ed35ae
 feature: Search Reports, Search Basic Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Puoi visualizzare i dati relativi ai 36 mesi precedenti.
 >[!NOTE]
 >
 >* Il reporting per classificazioni di etichette a livello di annuncio non è disponibile per [!DNL Microsoft® Advertising] campagne Dynamic Search Ad (DSA).
->* Più classificazioni di etichetta possono essere applicate alla stessa entità, quindi il totale per ogni metrica può essere superiore al totale effettivo per l’entità. Ad esempio, supponiamo che una parola chiave &quot;suede shoes&quot; abbia due valori di etichetta, &quot;suede&quot; e &quot;footwear&quot;, e che la parola chiave abbia ricevuto 100 clic. La colonna Clic mostra &quot;100&quot; per ciascuno di questi valori di etichetta, quindi il totale per entrambe le righe sarà &quot;200&quot;.
+>* Più classificazioni di etichetta possono essere applicate alla stessa entità, quindi il totale per ogni metrica può essere superiore al totale effettivo per l’entità. Ad esempio, supponiamo che una parola chiave &quot;suede shoes&quot; abbia due valori di etichetta, &quot;suede&quot; e &quot;footwear&quot;, e che la parola chiave abbia ricevuto 100 clic. La colonna Clic visualizzerebbe &quot;100&quot; per ciascuno di questi valori di etichetta, quindi il totale per entrambe le righe sarebbe &quot;200&quot;.
 * Eventuali modifiche apportate alle classificazioni delle etichette e ai valori delle etichette secondarie di un’entità sono visibili in circa un’ora.
 
 ## Colonne predefinite

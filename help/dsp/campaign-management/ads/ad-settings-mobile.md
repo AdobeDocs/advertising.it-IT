@@ -3,9 +3,9 @@ title: Impostazioni annuncio mobile
 description: Consulta le descrizioni delle impostazioni pubblicitarie disponibili per gli annunci per dispositivi mobili.
 feature: DSP Ads
 exl-id: 45e8da8c-d6a2-4c42-8932-4cf551f6f899
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 **\[Origine annuncio\]**: (sola lettura) *[!UICONTROL 3rd party]*.
 
-**[!UICONTROL Display Code]:** URL della risorsa creativa di terze parti. Qualsiasi [timestamp] e [[timestamp]] verranno sostituiti con i valori effettivi.
+**[!UICONTROL Display Code]:** URL della risorsa creativa di terze parti. Qualsiasi [timestamp] e [[timestamp]] vengono sostituiti con i valori effettivi.
 
 **[!UICONTROL Final Display Code]:** L’URL della risorsa creativa di terze parti, con il necessario [Pubblicità delle macro di tracciamento DSP](/help/dsp/campaign-management/macros.md) se del caso.
 

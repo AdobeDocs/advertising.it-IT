@@ -3,9 +3,9 @@ title: Imposta un'offerta programmatica garantita
 description: Scopri come impostare un’offerta programmatica garantita (PG) negoziata con un editore.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: d962942f-c248-4b48-97bd-baa2df3a519e
-source-git-commit: f887524a22dd5d665dcfc38b1a4ce2a1242638d7
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ La procedura preferita per [!DNL FreeWheel], [!DNL Google Authorized Buyers], e 
 
 1. [Accetta l&#39;offerta](deal-id-inbox-accept.md).
 
-1. Dopo aver salvato l’offerta, seleziona gli annunci (o pixel di tracciamento 1x1 per gli annunci gestiti dall’editore) che verranno utilizzati per l’offerta e crea un posizionamento predefinito programmatico garantito (PG), come richiesto.
+1. Dopo aver salvato l’offerta, seleziona gli annunci (o pixel di tracciamento 1x1 per gli annunci gestiti dall’editore) da utilizzare per l’offerta e crea un posizionamento predefinito programmatico garantito (PG), come richiesto.
 
    La creazione di un posizionamento PG predefinito per l’offerta è obbligatoria per consegnare il 100% del tuo acquisto. Questo tipo di posizionamento non ha un targeting, pertanto l’DSP può restituire un’offerta per ogni richiesta di offerta dell’editore.
 
@@ -48,7 +48,7 @@ Utilizzare questo metodo per tutte le altre SSP.
 
 1. [Imposta manualmente i dettagli dell’ID offerta](deal-id-create.md).
 
-1. Dopo aver salvato l’offerta, seleziona gli annunci (o pixel di tracciamento 1x1 per gli annunci gestiti dall’editore) che verranno utilizzati per l’offerta e crea un posizionamento PG predefinito, come richiesto.
+1. Dopo aver salvato l’offerta, seleziona gli annunci (o pixel di tracciamento 1x1 per gli annunci gestiti dall’editore) da utilizzare per l’offerta e crea un posizionamento PG predefinito, come richiesto.
 
    La creazione di un posizionamento PG predefinito per l’offerta è obbligatoria per consegnare il 100% del tuo acquisto. Questo tipo di posizionamento non ha un targeting, pertanto l’DSP può restituire un’offerta per ogni richiesta di offerta dell’editore.
 

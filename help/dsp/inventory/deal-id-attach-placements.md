@@ -3,9 +3,9 @@ title: Specifica posizionamenti e annunci per un’offerta privata
 description: Scopri come utilizzare un’offerta privata con posizionamenti e annunci aggiuntivi.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 09119471-429d-413e-8033-e29e1558abb0
-source-git-commit: d6d295119bc974a87840e757877c1507237a6fa2
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Per offerte programmatiche garantite (PG), puoi creare posizionamenti con annunc
 
        1. Seleziona l’inserzionista, la campagna e il tipo di annuncio. Facoltativamente, seleziona uno stato dell’annuncio in base al quale filtrare gli annunci.
        
-       1. Dall’elenco degli annunci disponibili, seleziona la casella di controllo accanto a ogni annuncio che verrà utilizzato per l’offerta.
+       1. Dall’elenco degli annunci disponibili, seleziona la casella di controllo accanto a ogni annuncio da utilizzare per l’offerta.
        
        1. Fai clic su **[!UICONTROL Apply]**.
    
@@ -46,7 +46,7 @@ Per offerte programmatiche garantite (PG), puoi creare posizionamenti con annunc
 
       1. Clic **[!UICONTROL Create placement]**.
 
-Il posizionamento inizierà a essere eseguito dopo che l’editore avrà attivato l’ID offerta PG.
+Il posizionamento inizia a essere eseguito dopo che l’editore ha attivato l’ID offerta PG.
 
 >[!NOTE]
 >

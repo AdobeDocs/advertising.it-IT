@@ -3,9 +3,9 @@ title: Impostazioni report personalizzati
 description: Consulta le descrizioni delle impostazioni del rapporto personalizzato.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: a2712e16a54c7108e5999cb1b8db46e507a9ed55
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
@@ -114,9 +114,9 @@ Consulta &quot;[Colonne report disponibili](report-columns.md)&quot; per le desc
 
 **[!UICONTROL Conversion Reporting Based On]:**  Come segnalare i dati di conversione:
 
-* *[!UICONTROL Conversion Timestamp]:* (Impostazione predefinita) Le conversioni verranno associate alla data di conversione.
+* *[!UICONTROL Conversion Timestamp]:* (Impostazione predefinita) Le conversioni sono associate alla data di conversione.
 
-* *[!UICONTROL Event Timestamp]:* Le conversioni verranno segnalate in base alla data dell’impression o del clic che ha causato la conversione, come determinato dal valore specificato [!UICONTROL Attribution Rule Settings].
+* *[!UICONTROL Event Timestamp]:* Le conversioni vengono riportate in base alla data dell’impression o del clic che ha causato la conversione, come determinato dal valore specificato [!UICONTROL Attribution Rule Settings].
 
 ## [!UICONTROL Add Report Destinations] Sezione
 
@@ -134,7 +134,7 @@ Consulta &quot;[Colonne report disponibili](report-columns.md)&quot; per le desc
 
 **[!UICONTROL Email]:** (Solo tipo di destinazione e-mail) Per ogni indirizzo, inserisci l’indirizzo e fai clic su **+**.
 
-**[!UICONTROL Destination Name]:** (Solo per i tipi di destinazione S3, FTP, sFTP e FTP SSL) I nomi delle destinazioni dei rapporti a cui verrà inviato il rapporto personalizzato.
+**[!UICONTROL Destination Name]:** (Solo per tipi di destinazione S3, FTP, sFTP e FTP SSL) I nomi delle destinazioni dei rapporti a cui viene inviato il rapporto personalizzato.
 
 * Per specificare una destinazione esistente, selezionare un nome di destinazione dall&#39;elenco. Puoi selezionare separatamente più nomi di destinazione.
 

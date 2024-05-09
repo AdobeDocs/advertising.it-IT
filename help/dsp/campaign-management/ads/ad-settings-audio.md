@@ -3,9 +3,9 @@ title: Impostazioni annuncio audio
 description: Consulta le descrizioni delle impostazioni pubblicitarie disponibili per gli annunci audio.
 feature: DSP Ads
 exl-id: 2fa1143b-6e83-4729-91cd-7a5da357509e
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL URL]**: URL del tag VAST.
 
-**[!UICONTROL Title]**: nome del file, che verrà utilizzato nel [!UICONTROL Ads] visualizzazione e rapporti.
+**[!UICONTROL Title]**: nome del file, utilizzato nel file [!UICONTROL Ads] visualizzazione e rapporti.
 
 >[!TIP]
 >

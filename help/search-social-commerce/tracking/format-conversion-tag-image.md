@@ -1,9 +1,9 @@
 ---
 title: Formato dei tag di tracciamento conversione immagine
 description: Fai riferimento al formato dei tag di tracciamento della conversione delle immagini.
-exl-id: 019981cd-37b6-4b80-bb48-26e0d7ac7665
+exl-id: e23107e1-b719-4572-a471-13e51387465d
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
@@ -28,11 +28,11 @@ dove:
 
 * `<ef-userid>` è un ID utente univoco e numerico che Search, Social &amp; Commerce assegna all’inserzionista.
 
-* `<propertyname>` è la conversione che verrà tracciata. Ad esempio, se tieni traccia di una conversione denominata &quot;registration&quot;, il tag includerà il parametro `ev_registration=<registration>`e dovrai trasferire i ricavi effettivi per ogni transazione (ad esempio `ev_registration=1`). Quando si tiene traccia di più proprietà, queste vengono collegate da una e commerciale (`&`), come `ev_registration=<registration>&ev_sale=<sale>` (ad esempio, `ev_registration=1&ev_sale=12.99`). **Nota:**  Il nome della proprietà non può contenere caratteri speciali.
+* `<propertyname>` è la conversione da tracciare. Ad esempio, se tieni traccia di una conversione denominata &quot;registration&quot;, il tag includerà il parametro `ev_registration=<registration>`e dovrai trasferire i ricavi effettivi per ogni transazione (ad esempio `ev_registration=1`). Quando si tiene traccia di più proprietà, queste vengono collegate da una e commerciale (`&`), come `ev_registration=<registration>&ev_sale=<sale>` (ad esempio, `ev_registration=1&ev_sale=12.99`). **Nota:**  Il nome della proprietà non può contenere caratteri speciali.
 
 * `<transid>` è un ID transazione univoco (ad esempio un ID ordine effettivo) generato e passato dall&#39;inserzionista per identificare una transazione. È incluso solo quando &quot;[!UICONTROL Include unique transaction IDs]&quot; è selezionata.
 
-  Search, Social e Commerce utilizzano l’ID transazione per eliminare le transazioni duplicate con lo stesso ID transazione e lo stesso valore della proprietà. L’ID transazione è incluso nel [!UICONTROL Transaction Report], che puoi utilizzare per convalidare i dati in Adobi Advertising con i dati dell’inserzionista. **Nota:** Se i dati dell’inserzionista non includono un ID univoco per transazione, Search, Social e Commerce ne generano ancora uno in base al tempo della transazione.
+  Search, Social e Commerce utilizzano l&#39;ID transazione per eliminare le transazioni duplicate con lo stesso ID transazione e lo stesso valore di proprietà. L’ID transazione è incluso nel [!UICONTROL Transaction Report], che puoi utilizzare per convalidare i dati in Adobi Advertising con i dati dell’inserzionista. **Nota:** Se i dati dell’inserzionista non includono un ID univoco per transazione, Search, Social e Commerce ne generano comunque uno in base al tempo della transazione.
 
 <!-- add more links -->
 

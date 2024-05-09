@@ -3,9 +3,9 @@ title: Codice JavaScript per [!DNL Analytics for Advertising]
 description: Codice JavaScript per [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
-source-git-commit: d591388a956adf41882b0bfdd5f74c5a07837657
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
@@ -84,13 +84,13 @@ Puoi eseguire la convalida utilizzando qualsiasi tipo di strumento packet sniffe
 
    ![Filtro attivato `/b/ss`](/help/integrations/assets/a4adc-code-validation-filter-bss.png)
 
-1. (Implementazioni che utilizzano l’Experience Platform [!DNL Web SDK] `alloy.js`code) Filter on `/interact` per verificare che il payload della richiesta alla rete Edge contenga `advertisingStitchID`.
+1. (Implementazioni che utilizzano l’Experience Platform [!DNL Web SDK] `alloy.js`code) Filter on `/interact` per verificare che il payload della richiesta all’Edge Network contenga `advertisingStitchID`.
 
    ![Filtro attivato `/interact`](/help/integrations/assets/a4adc-code-validation-filter-interact.png)
 
-1. Confronta i valori ID tra i due risultati. Tutti i valori si troveranno nei parametri della stringa di query, ad eccezione dell’ID suite di rapporti nell’hit di Analytics, che è il percorso URL immediatamente dopo `/b/ss/`.
+1. Confronta i valori ID tra i due risultati. Tutti i valori devono trovarsi nei parametri della stringa di query ad eccezione dell’ID suite di rapporti nell’hit di Analytics, che è il percorso URL immediatamente dopo `/b/ss/`.
 
-   | ID | Parametro di Analytics | Rete Edge | Parametro Adobi Advertising |
+   | ID | Parametro di Analytics | Edge Network | Parametro Adobi Advertising |
    | --- | --- | --- | --- |
    | Organizzazione IMS di Experience Cloud | `mcorgid` |  | `_les_imsOrgid` |
    | ID dati supplementari | sdid |  | `_les_sdid` |
@@ -108,7 +108,7 @@ Puoi eseguire la convalida utilizzando qualsiasi tipo di strumento packet sniffe
 1. In [!UICONTROL Request URL - Hostname] riga parametro, individua `lasteventf-tm.everesttech.net`.
 1. In [!UICONTROL Request - Parameters] riga, controlla i segnali generati, in modo simile al passaggio 3 in &quot;[Come confermare il codice con [!DNL Chrome Developer Tools]](#validate-js-chrome).&quot;
    * (Implementazioni che utilizzano il servizio Experience Cloud Identity) `visitorAPI.js` code) Accertarsi che il `Sdid` il parametro corrisponde al `Supplemental Data ID` nel filtro Adobe Analytics.
-   * (Implementazioni che utilizzano l’Experience Platform [!DNL Web SDK] `alloy.js`code) Assicurati che il valore della proprietà `advertisingStitchID` il parametro corrisponde al `Sdid` inviato a Experienci Platform Edge Network.
+   * (Implementazioni che utilizzano l’Experience Platform [!DNL Web SDK] `alloy.js`code) Assicurati che il valore della proprietà `advertisingStitchID` il parametro corrisponde al `Sdid` inviato all’Edge Network Experience Platform.
    * Se il codice non viene generato, assicurati che il cookie di Adobe Advertising sia stato rimosso in [!UICONTROL Application] scheda. Una volta rimossa, aggiorna la pagina e ripeti la procedura.
 
    ![Controllo [!DNL Analytics for Advertising] Codice JavaScript in [!DNL Experience Cloud Debugger]](/help/integrations/assets/a4adc-js-audit-debugger.png)

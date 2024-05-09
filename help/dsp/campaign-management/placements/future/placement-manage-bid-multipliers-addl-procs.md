@@ -2,9 +2,9 @@
 title: Gestire i moltiplicatori delle offerte per i posizionamenti
 description: Scopri come creare e modificare i moltiplicatori di offerta per i target di posizionamento specificati.
 feature: DSP Placements
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Per tutti i posizionamenti selezionati, puoi modificare manualmente i valori o c
 
    * Per regolare manualmente i valori del moltiplicatore di offerta, passa a ogni scheda specifica per l’oggetto ([!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience], e[!UICONTROL Brand Safety]) e modificare i valori esistenti per le destinazioni di posizionamento.
 
-   Le stesse modifiche verranno apportate a tutti i posizionamenti selezionati.
+   Le stesse modifiche si applicano a tutti i posizionamenti selezionati.
 
    * Per caricare un file CSV con valori del moltiplicatore di offerta che sovrascrivono i valori esistenti:
 

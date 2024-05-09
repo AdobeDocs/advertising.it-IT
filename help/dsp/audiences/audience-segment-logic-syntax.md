@@ -3,9 +3,9 @@ title: Sintassi della logica dei segmenti di pubblico
 description: Fai riferimento alla sintassi da utilizzare per definire la logica per i segmenti di pubblico.
 feature: DSP Audiences
 exl-id: fb73f35f-1f65-463b-b93c-90804a8d19a9
-source-git-commit: 97f5e8913afb2f71505512bf8e4ab5bf56c1d7f8
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ significa (in inglese)
 
 >[!NOTE]
 >
->Nelle impostazioni di posizionamento, puoi utilizzare i tipi di pubblico salvati come tipi di pubblico per eseguire il targeting in modo esplicito oppure come tipi di pubblico separati per escluderli dal targeting. Assicurati che la logica del segmento rifletta lo scopo per cui utilizzerai il pubblico.
+>Nelle impostazioni di posizionamento, puoi utilizzare i tipi di pubblico salvati come tipi di pubblico per eseguire il targeting in modo esplicito oppure come tipi di pubblico separati per escluderli dal targeting. Assicurati che la logica del segmento rifletta lo scopo dell’utilizzo del pubblico.
 
 >[!MORELIKETHIS]
 >

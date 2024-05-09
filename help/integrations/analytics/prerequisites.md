@@ -3,9 +3,9 @@ title: Prerequisiti e informazioni chiave per l’implementazione [!DNL Analytic
 description: Prerequisiti e informazioni chiave per l’implementazione [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: e7773c31c1834b05731b4711ae237cde481e5639
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Leggi le seguenti informazioni prima di integrare Adobi Advertising con Adobe An
 
 Fornisci al team di implementazione di Adobe Advertising quanto segue:
 
-* Il [!DNL Analytics] ID suite di rapporti che verrà utilizzato per generare rapporti sull’attività dei media a pagamento e per alimentare l’attività del sito ai fini di ottimizzazione e reporting in Adobi Advertising
+* Il [!DNL Analytics] ID suite di rapporti da utilizzare per la generazione di rapporti sull’attività paid media e per l’attività feed del sito per l’ottimizzazione e il reporting in Adobi Advertising
 * L’ID organizzazione Experience Cloud (ID organizzazione) della società.
 
 Puoi trovare entrambi questi ID sulla [Scheda Riepilogo di Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html).
