@@ -3,9 +3,9 @@ title: Varianze di dati previste tra [!DNL Analytics] e ADOBE ADVERTISING
 description: Varianze di dati previste tra [!DNL Analytics] e ADOBE ADVERTISING
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: fb0634643e40b67e50461823f976a93129e2f038
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '3217'
+source-wordcount: '3216'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ L’intervallo di lookback per [!DNL Marketing Channels] possono essere personal
 
 I report Adobi Advertising catturano solo i media a pagamento trafficati attraverso l&#39;Adobe Advertising (ricerca a pagamento per [!DNL Advertising Search, Social, & Commerce] annunci pubblicitari e display per la pubblicità (annunci DSP), mentre [!DNL Marketing Channels] i rapporti possono tracciare tutti i canali digitali. Questo può causare una discrepanza nel canale per il quale viene attribuita una conversione.
 
-Ad esempio, i canali di ricerca a pagamento e di ricerca naturale hanno spesso una relazione simbiotica, in cui ogni canale assiste l’altro. Il [!DNL Marketing Channels] Il rapporto attribuirà alcune conversioni alla ricerca naturale che l’Adobe Advertising non riuscirà a ottenere perché non tiene traccia della ricerca naturale.
+Ad esempio, i canali di ricerca a pagamento e di ricerca naturale hanno spesso una relazione simbiotica, in cui ogni canale assiste l’altro. Il [!DNL Marketing Channels] Il rapporto attribuisce alcune conversioni alla ricerca naturale che l’Adobe Advertising non fa perché non tiene traccia della ricerca naturale.
 
 Considera anche un cliente che visualizza un annuncio di visualizzazione, fa clic su un annuncio di ricerca a pagamento, fa clic all’interno di un messaggio e-mail e quindi effettua un ordine di 30 USD. Anche se Adobe Advertising e [!DNL Marketing Channels] entrambi utilizzano il modello di attribuzione ultimo contatto; la conversione verrebbe comunque attribuita in modo diverso a ciascuno. L’Adobe Advertising non ha accesso a [!UICONTROL Email] , in modo da accreditare la ricerca a pagamento per la conversione. [!DNL Marketing Channels], tuttavia, ha accesso a tutti e tre i canali, pertanto [!UICONTROL Email] per la conversione.
 

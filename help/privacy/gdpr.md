@@ -4,9 +4,9 @@ description: Scopri i tipi di richiesta di dati supportati, i valori di configur
 feature: GDPR
 role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 80072930c0506a017a927ce53eaad900a2642e92
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Adobe Experience Platform consente alle aziende di completare le seguenti attivi
 
 ## Configurazione necessaria per inviare richieste per Adobe Advertising
 
-Ad Adobe Advertising, per richiedere l’accesso e l’eliminazione dei dati devi effettuare le seguenti operazioni:
+Ad Adobe Advertising, per richiedere l’accesso e l’eliminazione dei dati, è necessario:
 
 1. Distribuisci una libreria JavaScript per recuperare e rimuovere i cookie dell’interessato. La stessa libreria, `AdobePrivacy.js`, viene utilizzato per tutte le soluzioni Adobe Experience Cloud.
 
@@ -63,7 +63,7 @@ Ad Adobe Advertising, per richiedere l’accesso e l’eliminazione dei dati dev
 
 1. Utilizza il [API ADOBE EXPERIENCE PLATFORM PRIVACY SERVICE](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (per le richieste automatizzate) o [Interfaccia utente di Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it) (per le richieste ad hoc) di inviare le richieste di accesso e di cancellazione all’Adobi Advertising per conto delle persone interessate e di verificare lo stato delle richieste esistenti.
 
-   Per gli inserzionisti che dispongono di un’app mobile per interagire con le persone interessate e avviare campagne con l’DSP, ad Experience Cloud dovrai scaricare gli SDK per dispositivi mobili predisposti per la privacy. Gli SDK di Mobile consentono ai titolari del trattamento dei dati di impostare i flag di stato per la rinuncia e di recuperare l’ID dispositivo dell’interessato (ID spazio dei nomi: `deviceID`) e invia richieste all’API Privacy Service. La tua app mobile richiederà una versione SDK 4.15.0 o successiva.
+   Per gli inserzionisti che dispongono di un’app mobile per interagire con le persone interessate e avviare campagne con l’DSP, ad Experience Cloud, devi scaricare gli SDK per dispositivi mobili predisposti per la privacy. Gli SDK di Mobile consentono ai titolari del trattamento dei dati di impostare i flag di stato per la rinuncia e di recuperare l’ID dispositivo dell’interessato (ID spazio dei nomi: `deviceID`) e invia richieste all’API Privacy Service. La tua app mobile richiederà una versione SDK 4.15.0 o successiva.
 
    Quando invii la richiesta di accesso di una persona interessata, l’API Privacy Service restituisce le informazioni di tale persona in base al cookie o all’ID dispositivo specificato, che dovranno quindi essere restituiti alla persona interessata.
 
@@ -73,7 +73,7 @@ Ad Adobe Advertising, per richiedere l’accesso e l’eliminazione dei dati dev
    >
    >Se la tua azienda dispone di più ID organizzazione Experience Cloud, devi inviare richieste API separate per ciascuno di essi. Tuttavia, puoi effettuare una richiesta API a più soluzioni secondarie Adobi Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], e [!DNL DCO]), con un account per ogni soluzione secondaria.
 
-Tutti questi passaggi sono necessari, ad Adobe Advertising. Per ulteriori informazioni su queste e altre attività correlate che è necessario eseguire utilizzando Adobe Experience Platform Privacy Service e dove trovare gli elementi necessari, vedere &quot;[Panoramica di Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).&quot;
+Tutti questi passaggi sono necessari, ad Adobe Advertising. Per ulteriori informazioni su queste e altre attività correlate da eseguire utilizzando Adobe Experience Platform Privacy Service, e dove trovare gli elementi necessari, vedi &quot;[Panoramica di Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).&quot;
 
 ## Valori campo obbligatori nelle richieste JSON Adobi Advertising
 

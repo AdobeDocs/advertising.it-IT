@@ -3,9 +3,9 @@ title: Utilizzo di [!DNL Last Event Service] Libreria JavaScript con [!DNL Web S
 description: Scopri come passare da utilizzando [!DNL Analytics] [!DNL visitorAPI] libreria a [!DNL Experience Platform] [!DNL Web SDK] libreria per [!DNL Analytics for Advertising] implementazione.
 feature: Integration with Adobe Analytics
 exl-id: 764724a2-536a-43b9-955d-28d6146db29a
-source-git-commit: 7501c1f8f6477a4ee6de64c64d52b1aafaf16994
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Se la tua organizzazione utilizza il precedente Adobe Analytics `visitorAPI.js` per la raccolta dei dati, puoi facoltativamente passare all’utilizzo della [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) libreria (`alloy.js`), che consente di interagire con i vari servizi di Experience Cloud tramite il [!DNL Edge Network].
 
-Il [!DNL Analytics for Advertising] [!DNL Last Event Service] La libreria JavaScript registra gli eventi view-through e click-through e li unisce alle conversioni associate utilizzando un ID supplementare (`SDID`). Il [!DNL Web SDK] libreria, tuttavia, non fornisce un [!DNL stitch ID]. Per utilizzare [!DNL Web SDK] per [!DNL Analytics for Advertising], sarà necessario modificare 1) il [!DNL Last Event Service] tag utilizzati nelle pagine Web e 2) il [!DNL Web SDK] `sendEvent` comandi di conseguenza.
+Il [!DNL Analytics for Advertising] [!DNL Last Event Service] La libreria JavaScript registra gli eventi view-through e click-through e li unisce alle conversioni associate utilizzando un ID supplementare (`SDID`). Il [!DNL Web SDK] libreria, tuttavia, non fornisce un [!DNL stitch ID]. Per utilizzare [!DNL Web SDK] per [!DNL Analytics for Advertising], è necessario modificare 1) il [!DNL Last Event Service] tag utilizzati nelle pagine Web e 2) il [!DNL Web SDK] `sendEvent` comandi di conseguenza.
 
 ## Passaggio 1: modificare [!DNL Last Event Service] Tag per generare un `[!DNL StitchID]`
 

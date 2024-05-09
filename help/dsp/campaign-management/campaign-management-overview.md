@@ -3,9 +3,9 @@ title: Panoramica di Campaign Management in Advertising DSP
 description: Scopri la gerarchia di gestione delle campagne e i relativi componenti.
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 8eb7b4a5-4a31-4637-858f-202392dfac98
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ A [posizionamento](/help/dsp/campaign-management/placements/placement-about.md) 
 
 [Annunci](/help/dsp/campaign-management/ads/ad-about.md) includono le risorse creative e gli URL di tracciamento. Puoi caricare i tag di terze parti per annunci, singolarmente o in blocco, utilizzando i fogli di tag dei partner o il modello di tag collettivo. Puoi anche creare manualmente annunci display nativi da distribuire tramite DSP.
 
-Una volta configurati gli annunci, dovrai allegare ogni annuncio a un posizionamento. Puoi allegare un singolo annuncio a uno o più posizionamenti.
+Una volta configurati gli annunci, devi allegare ogni annuncio a un posizionamento per iniziare a eseguire l’annuncio. Puoi allegare un singolo annuncio a uno o più posizionamenti.
 
 Tutti gli annunci attivi e approvati in un posizionamento attivo in una campagna attiva possono essere eseguiti in base ai parametri di targeting del posizionamento.
 

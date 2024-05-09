@@ -4,9 +4,9 @@ description: Scopri i tipi di richiesta di dati supportati, i valori di configur
 feature: CCPA
 role: User, Developer
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
-source-git-commit: 2e2d95ab2a6add695c3852a06e256b6db980779d
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Per richiedere l’accesso e la cancellazione delle informazioni personali dei c
 
 1. Utilizza il [API ADOBE EXPERIENCE PLATFORM PRIVACY SERVICE](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (per le richieste automatizzate) o [Interfaccia utente di Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it) (per richieste ad hoc) di inviare richieste di accesso e cancellazione di informazioni personali agli Adobi Advertising per conto dei consumatori e di verificare lo stato delle richieste esistenti.
 
-   Per gli inserzionisti che dispongono di un’app mobile per interagire con i clienti e avviare campagne con [!DNL DSP], ad Experience Cloud, dovrai scaricare gli SDK per dispositivi mobili predisposti per la privacy. Gli SDK di Mobile consentono alle aziende di impostare flag di stato per la rinuncia e recuperare l’ID dispositivo del consumatore (ID spazio dei nomi: `deviceID`) e invia richieste all’API Privacy Service. La tua app mobile richiederà una versione SDK 4.15.0 o successiva.
+   Per gli inserzionisti che dispongono di un’app mobile per interagire con i clienti e avviare campagne con [!DNL DSP], ad Experience Cloud, devi scaricare gli SDK per dispositivi mobili predisposti per la privacy. Gli SDK di Mobile consentono alle aziende di impostare flag di stato per la rinuncia e recuperare l’ID dispositivo del consumatore (ID spazio dei nomi: `deviceID`) e invia richieste all’API Privacy Service. La tua app mobile richiederà una versione SDK 4.15.0 o successiva.
 
    Quando invii una richiesta di accesso consumer, l’API Privacy Service restituisce le informazioni di un consumatore in base al cookie o all’ID dispositivo specificato, che devono quindi essere restituiti al consumatore.
 
@@ -77,7 +77,7 @@ Per richiedere l’accesso e la cancellazione delle informazioni personali dei c
    >
    >Se la tua azienda dispone di più ID organizzazione Experience Cloud, devi inviare richieste API separate per ciascuno di essi. Tuttavia, puoi effettuare una richiesta API a più soluzioni secondarie Adobi Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], e [!DNL DCO]), con un account per ogni soluzione secondaria.
 
-Tutti questi passaggi sono necessari per ricevere supporto da Adobi Advertising. Per ulteriori informazioni su queste e altre attività correlate che è necessario eseguire utilizzando Adobe Experience Platform Privacy Service e dove trovare gli elementi necessari, vedere [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
+Tutti questi passaggi sono necessari per ricevere supporto da Adobi Advertising. Per ulteriori informazioni su queste e altre attività correlate che è necessario eseguire utilizzando Adobe Experience Platform Privacy Service, e dove trovare gli elementi necessari, vedi [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
 ## Valori campo obbligatori nelle richieste JSON Adobi Advertising
 

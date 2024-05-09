@@ -2,9 +2,9 @@
 title: Impostazioni account inserzionista
 description: Consulta le descrizioni delle impostazioni pubblicitarie disponibili.
 role: User, Admin
-source-git-commit: 201eb485e196dc0823dd6d592f67f62122c214b1
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Se si seleziona *[!UICONTROL Other]*, quindi l’inserzionista non potrà accedere all’DSP [!DNL On Demand Inventory].
+>Se si seleziona *[!UICONTROL Other]*, quindi l’inserzionista non può accedere all’DSP [!DNL On Demand Inventory].
 
 **[!UICONTROL Advertiser URL]:** La homepage dell&#39;inserzionista o l&#39;URL del sito Web principale (a partire da `http://` o `https://`).
 
