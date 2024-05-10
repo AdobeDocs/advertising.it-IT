@@ -1,11 +1,11 @@
 ---
 title: Gestire le esclusioni di pubblico per campagne e gruppi di annunci
 description: Scopri come configurare e gestire le esclusioni di pubblico per i [!DNL Google Ads] e [!DNL Microsoft® Advertising] campagne e gruppi di annunci.
-exl-id: 0b05d980-d736-4b44-8317-c90de687dbd4
+exl-id: 8bebc1fe-aad8-40f2-9dca-e4065a0c4990
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -48,9 +48,9 @@ Puoi anche eliminare le esclusioni di pubblico.
 
       1. Effettua una delle seguenti operazioni:
 
-         * Specifica ogni esclusione di gruppo di annunci facendo clic sul cerchio accanto a esso in modo che sia presente un segno di spunta rosso (![Escludi](/help/search-social-commerce/assets/exclude.png "Escludi")).
+         * Specifica ogni esclusione di un gruppo di annunci facendo clic sul cerchio adiacente in modo che appaia un segno di spunta rosso (![Escludi](/help/search-social-commerce/assets/exclude.png "Escludi")).
 
-         * Specifica ogni esclusione di campagna facendo clic sul cerchio accanto a essa in modo che sia presente un segno di spunta rosso (![Escludi](/help/search-social-commerce/assets/exclude.png "Escludi")).
+         * Specifica ogni esclusione di campagna facendo clic sul cerchio adiacente in modo che un segno di spunta rosso (![Escludi](/help/search-social-commerce/assets/exclude.png "Escludi")).
 
 1. Clic **[!UICONTROL Post]**.
 

@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft® Advertising] impostazioni del gruppo di annunci'
 description: Fai riferimento alle impostazioni per [!DNL Microsoft® Advertising] gruppi di annunci.
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -76,33 +76,33 @@ Il posizionamento degli annunci TV collegata (CTV) dipende dalla qualità video 
 
 * Per impostare come destinazione tutti i valori, non selezionare alcun valore.
 
-* Per includere un valore, fai clic sul cerchio accanto a esso una volta in modo che un segno di spunta blu (![Includi](/help/search-social-commerce/assets/include.png "Includi")). Puoi facoltativamente aumentare o diminuire le offerte di una percentuale specificata per ogni genere target.
+* Per includere un valore, fare clic una volta sul cerchio adiacente in modo che un segno di spunta blu (![Includi](/help/search-social-commerce/assets/include.png "Includi")). Puoi facoltativamente aumentare o diminuire le offerte di una percentuale specificata per ogni genere target.
 
-* Per escludere un valore, fare clic due volte sul cerchio accanto a esso in modo che un segno di spunta rosso (![Escludi](/help/search-social-commerce/assets/exclude.png "Escludi")).
+* Per escludere un valore, fare clic due volte sul cerchio adiacente in modo che un segno di spunta rosso (![Escludi](/help/search-social-commerce/assets/exclude.png "Escludi")).
 
 **[!UICONTROL Age]:** (Gruppi di annunci di pubblico; facoltativo) Categorie di età specifiche da includere o escludere come target: *[!UICONTROL 18-24]*, *[!UICONTROL 25-34]*, *[!UICONTROL 35-49]*, *[!UICONTROL 50-64]*, *[!UICONTROL 65+]*, e *[!UICONTROL Unknown]*. Per impostazione predefinita, è impostato il targeting per tutte le età. Le esclusioni sostituiscono sempre le inclusioni.
 
 * Per impostare come destinazione tutti i valori, non selezionare alcun valore.
 
-* Per includere un valore, fai clic sul cerchio accanto a esso una volta in modo che un segno di spunta blu (![Includi](/help/search-social-commerce/assets/include.png "Includi")). Puoi facoltativamente aumentare o diminuire le offerte di una percentuale specificata per ogni età target.
+* Per includere un valore, fare clic una volta sul cerchio adiacente in modo che un segno di spunta blu (![Includi](/help/search-social-commerce/assets/include.png "Includi")). Puoi facoltativamente aumentare o diminuire le offerte di una percentuale specificata per ogni età target.
 
-* Per escludere un valore, fare clic due volte sul cerchio accanto a esso in modo che un segno di spunta rosso (![Escludi](/help/search-social-commerce/assets/exclude.png "Escludi")).
+* Per escludere un valore, fare clic due volte sul cerchio adiacente in modo che un segno di spunta rosso (![Escludi](/help/search-social-commerce/assets/exclude.png "Escludi")).
 
 **[!UICONTROL Industry]:** (Gruppi di annunci di pubblico; facoltativo) Settori specifici da includere o escludere come target. Per impostazione predefinita, tutti i settori sono target. Le esclusioni sostituiscono sempre le inclusioni.
 
 * Per impostare come destinazione tutti i valori, non selezionare alcun valore.
 
-* Per includere un valore, fai clic sul cerchio accanto a esso una volta in modo che un segno di spunta blu (![Includi](/help/search-social-commerce/assets/include.png "Includi")). Facoltativamente, puoi aumentare o diminuire le offerte di una percentuale specifica per ogni settore di destinazione.
+* Per includere un valore, fare clic una volta sul cerchio adiacente in modo che un segno di spunta blu (![Includi](/help/search-social-commerce/assets/include.png "Includi")). Facoltativamente, puoi aumentare o diminuire le offerte di una percentuale specifica per ogni settore di destinazione.
 
-* Per escludere un valore, fare clic due volte sul cerchio accanto a esso in modo che un segno di spunta rosso (![Escludi](/help/search-social-commerce/assets/exclude.png "Escludi")).
+* Per escludere un valore, fare clic due volte sul cerchio adiacente in modo che un segno di spunta rosso (![Escludi](/help/search-social-commerce/assets/exclude.png "Escludi")).
 
 **[!UICONTROL Job Function Targets]:** (Gruppi di annunci di pubblico; facoltativo) Funzioni lavorative specifiche da includere o escludere come target. Per impostazione predefinita, tutte le funzioni lavorative sono impostate come destinazione. Le esclusioni sostituiscono sempre le inclusioni.
 
 * Per impostare come destinazione tutti i valori, non selezionare alcun valore.
 
-* Per includere un valore, fai clic sul cerchio accanto a esso una volta in modo che un segno di spunta blu (![Includi](/help/search-social-commerce/assets/include.png "Includi")). Facoltativamente, puoi aumentare o diminuire le offerte di una percentuale specificata per ogni funzione lavorativa target.
+* Per includere un valore, fare clic una volta sul cerchio adiacente in modo che un segno di spunta blu (![Includi](/help/search-social-commerce/assets/include.png "Includi")). Facoltativamente, puoi aumentare o diminuire le offerte di una percentuale specificata per ogni funzione lavorativa target.
 
-* Per escludere un valore, fare clic due volte sul cerchio accanto a esso in modo che un segno di spunta rosso (![Escludi](/help/search-social-commerce/assets/exclude.png "Escludi")).
+* Per escludere un valore, fare clic due volte sul cerchio adiacente in modo che un segno di spunta rosso (![Escludi](/help/search-social-commerce/assets/exclude.png "Escludi")).
 
 ## [!UICONTROL URL Options]
 

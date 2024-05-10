@@ -3,9 +3,9 @@ title: Impostazioni di posizionamento
 description: Consulta le descrizioni delle impostazioni di posizionamento disponibili.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '3539'
+source-wordcount: '3535'
 ht-degree: 0%
 
 ---
@@ -258,7 +258,7 @@ Gli annunci in uscita vengono solitamente visualizzati sul contenuto come pop-up
       1. Clic **[!UICONTROL Search]**.
       1. Immettere una parola chiave, selezionare un livello del sito e/o selezionare una categoria del sito.
       1. Nei risultati della ricerca, seleziona i siti da escludere:
-         * Per escludere un singolo sito, selezionare la relativa casella di controllo.
+         * Per escludere un singolo sito, selezionare la casella di controllo adiacente.
          * (Quando sono disponibili più di 50 risultati) Per escludere i primi 50 risultati, fai clic su **[!UICONTROL Exclude these 50]**. Per escludere tutti i risultati della ricerca, fare clic su **[!UICONTROL Exclude these \<*NN *\>]**.
    * Per immettere i nomi di dominio:
       1. Clic **[!UICONTROL Paste]**.
@@ -289,7 +289,7 @@ Facoltativamente, puoi esportare l’elenco dei siti di destinazione e dei siti 
       1. Clic **[!UICONTROL Search]**.
       1. Immettere una parola chiave, selezionare un livello del sito e/o selezionare una categoria del sito.
       1. Nei risultati della ricerca, selezionare i siti da includere:
-         * Per escludere un singolo sito, selezionare la relativa casella di controllo.
+         * Per escludere un singolo sito, selezionare la casella di controllo adiacente.
          * (Quando sono disponibili più di 50 risultati) Per includere i primi 50 risultati, fai clic su **[!UICONTROL Include these 50]**. Per includere tutti i risultati della ricerca, fare clic su **[!UICONTROL Include these \<*NN *\>]**.
    * Per immettere i nomi di dominio:
       1. click **[!UICONTROL Paste]**.

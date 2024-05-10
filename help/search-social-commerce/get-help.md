@@ -1,10 +1,10 @@
 ---
 title: Ottieni aiuto
 description: Scopri come visualizzare la guida online e le risorse della community e come ottenere supporto tecnico.
-exl-id: 956117ea-9e3e-4ee0-b6cf-67ee5f2bc77a
-source-git-commit: 56d6c890616c23ec64234705d84dddb41442eb87
+exl-id: d5b5b691-bb73-4acf-afcd-d66e444c1f6c
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 ## Apri Guida in linea
 
-* Per visualizzare una descrizione di un termine con un&#39;icona di aiuto (![Icona Aiuto](/help/search-social-commerce/assets/help-field.png "Icona Aiuto") ) posizionare il cursore sull&#39;icona della guida fino al termine oppure fare clic all&#39;interno del pop-up per scorrere il contenuto.
+* Per visualizzare una descrizione di un termine con un&#39;icona di aiuto adiacente (![Icona Aiuto](/help/search-social-commerce/assets/help-field.png "Icona Aiuto") ), posizionare il cursore sull&#39;icona della guida fino al termine oppure fare clic all&#39;interno del pop-up della guida per scorrere il contenuto.
 
-  Per aprire i collegamenti all&#39;interno di un argomento dell&#39;Aiuto, potrebbe essere necessario configurare le impostazioni del browser per consentire l&#39;utilizzo di popup dal sito di ricerca, social e commerce utilizzato, ad esempio https://enterprise-na.efrontier.com per gli utenti nordamericani o https://enterprise-intl.efrontier.com per tutti gli altri utenti.
+  Per aprire i collegamenti all&#39;interno di un argomento della Guida, potrebbe essere necessario configurare le impostazioni del browser per consentire l&#39;utilizzo di popup dal sito di ricerca, social e Commerce utilizzato, ad esempio https://enterprise-na.efrontier.com per gli utenti nordamericani o https://enterprise-intl.efrontier.com per tutti gli altri utenti.
 
 * Per aprire i set di aiuto completi che descrivono l’utilizzo di tutte le funzioni, fai clic sui seguenti collegamenti nella parte superiore di qualsiasi pagina:
 
-   * ![Aiuto](/help/search-social-commerce/assets/help-main-menu.png "Aiuto") > **Aiuto per Search, Social &amp; Commerce**.
+   * ![Aiuto](/help/search-social-commerce/assets/help-main-menu.png "Aiuto") > **Aiuto per Search, Social e Commerce**.
 
-   * ![Aiuto](/help/search-social-commerce/assets/help-main-menu.png "Aiuto") > **Guida all’ottimizzazione di Search, Social &amp; Commerce**.
+   * ![Aiuto](/help/search-social-commerce/assets/help-main-menu.png "Aiuto") > **Guida all’ottimizzazione di Search, Social e Commerce**.
 
 ## Chiedi alla community di Adobi Advertising
 
@@ -31,7 +31,7 @@ Cerca le risposte alle tue domande in [Forum della community Adobi Advertising](
 
 ## Contatto [!DNL Adobe]
 
-Per problemi relativi a prodotti o account di Search, Social e Commerce, effettua una delle seguenti operazioni:
+Per problemi relativi a prodotti o account Search, Social e Commerce, effettuare una delle seguenti operazioni:
 
 * Contatta il team del tuo account Adobe.
 

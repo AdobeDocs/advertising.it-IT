@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] impostazioni della campagna'
 description: Fai riferimento alle impostazioni per [!DNL Google Ads] campagne.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '2430'
+source-wordcount: '2426'
 ht-degree: 0%
 
 ---
@@ -136,9 +136,9 @@ Quando aggiungi una campagna con eCPC a un portfolio ottimizzato di Search, Soci
 
    * (Paesi, stati, aree metropolitane o città) Fai clic su **[!UICONTROL Location Target]** (![Destinazione posizione](/help/search-social-commerce/assets/location-target.png "Destinazione posizione")) e individuare le posizioni da includere ed escludere:
 
-      * Per includere una posizione e le relative posizioni figlio, fare clic sul cerchio accanto a essa una volta in modo che un segno di spunta blu (![Includi](/help/search-social-commerce/assets/include.png "Includi")).
+      * Per includere una posizione e le relative posizioni figlio, fare clic una volta sul cerchio adiacente in modo che un segno di spunta blu (![Includi](/help/search-social-commerce/assets/include.png "Includi")).
 
-      * Per escludere una posizione, fare clic due volte sul cerchio accanto ad essa in modo che un segno di spunta rosso (![Escludi](/help/search-social-commerce/assets/exclude.png "Escludi")).
+      * Per escludere una posizione, fare clic due volte sul cerchio adiacente in modo che un segno di spunta rosso (![Escludi](/help/search-social-commerce/assets/exclude.png "Escludi")).
 
       * Per espandere una posizione nei relativi sottocomponenti, ad esempio gli stati, le aree metropolitane o le città negli Stati Uniti, fare clic sul nome della posizione.
 

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 6b4dd1b8912703a5d45ffa872fe0231716cfb9a5
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 * Per eseguire il targeting di tutte le posizioni, non selezionare alcuna posizione.
 
-* Per includere una posizione e le relative posizioni figlio, fare clic sul cerchio accanto a essa una volta in modo che un segno di spunta blu (![Includi](/help/search-social-commerce/assets/include.png "Includi")). Facoltativamente, puoi aumentare o diminuire le offerte di una percentuale specificata per ogni posizione target.
+* Per includere una posizione e le relative posizioni figlio, fare clic una volta sul cerchio adiacente in modo che un segno di spunta blu (![Includi](/help/search-social-commerce/assets/include.png "Includi")). Facoltativamente, puoi aumentare o diminuire le offerte di una percentuale specificata per ogni posizione target.
 
-* Per escludere una posizione, fare clic due volte sul cerchio accanto ad essa in modo che un segno di spunta rosso (![Escludi](/help/search-social-commerce/assets/exclude.png "Escludi")).
+* Per escludere una posizione, fare clic due volte sul cerchio adiacente in modo che un segno di spunta rosso (![Escludi](/help/search-social-commerce/assets/exclude.png "Escludi")).
 
 * Per espandere una posizione nei relativi sottocomponenti (ad esempio stati, prefetture, aree geografiche o città), fare clic sul nome della posizione.
 

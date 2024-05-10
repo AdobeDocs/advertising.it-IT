@@ -3,9 +3,9 @@ title: Gestire i modelli di annunci per i feed di inventario
 description: Scopri come gestire i modelli di annunci tramite i quali i dati di inventario possono essere elaborati per gestire la struttura dei conti e distribuire annunci dinamici.
 exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1423'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,7 @@ Creare modelli separati per annunci di testo espansi/estesi e annunci di ricerca
                >* Se la copia dell’annuncio originale soddisfa i requisiti di lunghezza del motore di ricerca, la copia dell’annuncio alternativa viene eliminata.
                >* Puoi specificare fino a quattro alternative per ogni campo della copia dell’annuncio.
 
-         * Per rimuovere una variante di annuncio, fai clic su **[!UICONTROL Remove ETA Variation]** (per annunci di testo espansi/estesi) o **[!UICONTROL Remove RSA Variation]** (per annunci di ricerca responsive) accanto a esso, a seconda dei casi.
+         * Per rimuovere una variante di annuncio, fai clic su **[!UICONTROL Remove ETA Variation]** (per annunci di testo espansi/estesi) o **[!UICONTROL Remove RSA Variation]** (per annunci di ricerca responsive) accanto alla variante dell’annuncio, a seconda dei casi.
 
    1. (Solo modelli di acquisto) Fai clic sul pulsante **[!UICONTROL Product Groups]** e quindi specificare le informazioni sui gruppi di prodotti di destinazione.
 

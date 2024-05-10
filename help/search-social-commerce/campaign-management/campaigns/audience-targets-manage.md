@@ -1,11 +1,11 @@
 ---
 title: Gestire i target di pubblico per campagne e gruppi di annunci
 description: Scopri come configurare e gestire i target di pubblico per il tuo [!DNL Google Ads] e [!DNL Microsoft® Advertising] campagne e gruppi di annunci.
-exl-id: 0016a69c-7642-4060-8125-947ffef6fb03
+exl-id: 9a496d15-082d-44e1-a0a3-71356e24b932
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '771'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Puoi configurare i target del pubblico, modificare i modificatori di offerte per
 
       1. (Facoltativo) Per filtrare un elenco di campagne o di gruppi di annunci in base a una stringa di testo inclusa nel nome, fai clic su ![Filtro](/help/search-social-commerce/assets/filter.png "Filtro") , immettere o incollare la stringa di testo nel campo di input, quindi premere **[!UICONTROL Enter]** chiave.
 
-      1. Specifica la destinazione di ciascuna campagna e gruppo di annunci per la rete di annunci specificata facendo clic sul cerchio vuoto accanto a essa in modo che sia visualizzato un segno di spunta blu (![Seleziona](/help/search-social-commerce/assets/include.png "Seleziona")).
+      1. Specifica la destinazione di ciascuna campagna e gruppo di annunci per la rete di annunci specificata facendo clic sul cerchio vuoto adiacente in modo che un segno di spunta blu (![Seleziona](/help/search-social-commerce/assets/include.png "Seleziona")).
 
       Non puoi configurare una destinazione sia per una campagna principale che per un gruppo di annunci secondario (che utilizza automaticamente la destinazione).
 
@@ -68,7 +68,7 @@ Puoi modificare il modificatore di offerta e lo stato dei target del pubblico pe
 
 >[!NOTE]
 >
->Search, Social e Commerce ottimizzano automaticamente il modificatore di offerte quando la campagna principale utilizza la strategia di offerta CPC ed è in un portfolio configurato per ottimizzare automaticamente i valori di regolazione delle offerte per i target di pubblico.
+>Search, Social e Commerce ottimizzano automaticamente il modificatore di offerta quando la campagna principale utilizza la strategia di offerta CPC ed è in un portfolio configurato per ottimizzare automaticamente i valori di regolazione delle offerte per i target di pubblico.
 
 1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
 
