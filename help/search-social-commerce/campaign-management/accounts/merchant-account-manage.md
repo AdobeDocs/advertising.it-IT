@@ -3,9 +3,9 @@ title: Gestisci account esercente
 description: Scopri come impostare e gestire i dettagli di un account per un centro commerciale.
 exl-id: 7d940e45-ea49-470b-98d0-0196593228cb
 feature: Search Campaign Management
-source-git-commit: 35a27d075d5de7c3526cd6522376671954b608db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Solo i ruoli utente Responsabile account agenzia, Responsabile account Adobe e Amministratore*
 
-Search, Social e Commerce possono scaricare e visualizzare i dati dei prodotti ogni giorno per qualsiasi account Google Merchant Center o Microsoft Merchant Center dell&#39;inserzionista. Inoltre, Search, Social e Commerce possono automatizzare la creazione di annunci in base al contenuto dell&#39;account esercente.Per lavorare direttamente con i dati di prodotto in Search, Social e Commerce, è necessario creare un record account corrispondente contenente le credenziali di accesso all&#39;account e con l&#39;accesso *abilitato*.
+Search, Social e Commerce possono scaricare e visualizzare i dati dei prodotti ogni giorno per gli account Google Merchant Center o Microsoft Merchant Center degli inserzionisti. Inoltre, Search, Social e Commerce possono automatizzare la creazione di annunci in base al contenuto dell&#39;account esercente.Per lavorare direttamente con i dati di prodotto in Search, Social e Commerce, è necessario creare un record account corrispondente contenente le credenziali di accesso all&#39;account e con l&#39;accesso *abilitato*.
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ Per visualizzare i dati di prodotto e generare modelli di tracciamento per un ac
    
    -->
 
-   1. (Obbligatorio per [!DNL Google Ads] account; facoltativo per [!DNL Microsoft Advertising] account) Consente a Search, Social e Commerce di accedere all’account utilizzando [[!DNL OAuth] protocollo di autorizzazione](https://oauth.net/2/):
+   1. (Obbligatorio per [!DNL Google Ads] account; facoltativo per [!DNL Microsoft Advertising] account) Consenti a Search, Social e Commerce di accedere all’account utilizzando [[!DNL OAuth] protocollo di autorizzazione](https://oauth.net/2/):
 
       1. ([!DNL Microsoft Advertising] solo account) Seleziona **[!UICONTROL oAuth]**.
 
@@ -84,7 +84,7 @@ Se le credenziali dell’account cambiano o desideri interrompere il recupero e 
 
 >[!NOTE]
 >
->Search, Social e Commerce devono sincronizzare i nuovi dati dell’account con quelli presenti nella rete di esercenti. Questo accade automaticamente una volta al giorno alle 06:00 circa nel fuso orario locale dell’utente.
+>Search, Social e Commerce devono sincronizzare i nuovi dati dell&#39;account con quelli presenti nella rete di esercenti. Questo accade automaticamente una volta al giorno alle 06:00 circa nel fuso orario locale dell’utente.
 
 ## Disabilita l’accesso a un account esercente {#disable-merchant-account}
 
@@ -118,7 +118,7 @@ Quando disattivi un account esercente, Search, Social e Commerce non vi accedono
 
 **[!UICONTROL Access Key]:** ([!DNL Microsoft Merchant Center] Solo per ) Chiave di accesso per l&#39;account sviluppatore da utilizzare.
 
-**[!UICONTROL Account Name]:** Nome visualizzato per l’account in Search, Social &amp; Commerce.
+**[!UICONTROL Account Name]:** Il nome visualizzato per l’account in Search, Social &amp; Commerce.
 
 **[!UICONTROL Login]:** Il nome o l’ID di accesso dell’account.
 
@@ -126,11 +126,11 @@ Quando disattivi un account esercente, Search, Social e Commerce non vi accedono
 
 **[!UICONTROL Confirm Password]:** La password dell’account.
 
-**[!UICONTROL EF Account Type]:** Indica se Search, Social e Commerce accederanno all&#39;account:
+**[!UICONTROL EF Account Type]:** Indica se Search, Social e Commerce accedono all&#39;account:
 
 * *[!UICONTROL Enabled]* (impostazione predefinita): Search, Social e Commerce possono accedere all’account per recuperare i dati del prodotto.
 
-* *[!UICONTROL Disabled]:* Search, Social e Commerce non effettuano l’accesso all’account e pertanto non recuperano i dati di prodotto aggiornati. I dati raccolti mentre l’account era abilitato vengono comunque memorizzati e gli annunci esistenti creati utilizzando i dati del prodotto non vengono aggiornati, messi in pausa o eliminati in base al modello di feed e alle impostazioni dei dati di feed.
+* *[!UICONTROL Disabled]:* Search, Social e Commerce non effettuano l&#39;accesso all&#39;account e pertanto non recuperano i dati di prodotto aggiornati. I dati raccolti mentre l’account era abilitato vengono comunque memorizzati e gli annunci esistenti creati utilizzando i dati del prodotto non vengono aggiornati, messi in pausa o eliminati in base al modello di feed e alle impostazioni dei dati di feed.
 
 **[!UICONTROL Account ID]:** ID dell’account esercente. Se disponi di un solo account con le informazioni di accesso specificate, questo valore è facoltativo.
 

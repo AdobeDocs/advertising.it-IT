@@ -1,9 +1,9 @@
 ---
 title: Domande frequenti
 description: xxx
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ## titolo
 
-https://adobeadcloud.zendesk.com/agent/tickets/14214 Per impostazione predefinita, Adobe Analytics segnala tutti gli eventi acquisiti in ogni rapporto. &quot;[!UICONTROL Unspecified]&quot;Gli eventi rappresentano eventi di completamento dei moduli che non erano collegati a Adobe Advertising. Ad esempio, nel rapporto Ad Platform, le conversioni organiche o guidate da una campagna e-mail rientrano in &quot;non specificato&quot;.
+https://adobeadcloud.zendesk.com/agent/tickets/14214 Per impostazione predefinita, Adobe Analytics segnala tutti gli eventi acquisiti in ogni rapporto. &quot;[!UICONTROL Unspecified]&quot;Gli eventi rappresentano eventi di completamento del modulo che non erano connessi a Adobi Advertising. Ad esempio, nel rapporto Ad Platform, le conversioni organiche o guidate da una campagna e-mail rientrano in &quot;non specificato&quot;.
 
 Puoi utilizzare il filtro per rimuovere eventi non specificati dai rapporti rimuovendo il segno di spunta dall’opzione &quot;Includi non specificato (nessuno)&quot;. <!-- Not sure if this is in DSP or in Analytics Workspace -->
 
@@ -32,5 +32,5 @@ Il nostro auditor ci chiede di disattivare questa funzione. Cosa succede se bloc
 
 R: Abbiamo controllato con il nostro prodotto e hanno indicato che i pixel in questione sono allo scopo di aumentare le percentuali di corrispondenza dei cookie tra Ad Cloud, partner specifici di inventario/SSP (rispetto a DSP) e AAM.  Se vengono rimossi, il cliente potrebbe notare un certo livello di riduzione del tasso di corrispondenza tra AAC/AAM e i partner di inventario a cui fanno riferimento i rispettivi pixel, ma non si aspetterebbe che sia sostanziale.
 
-Per Ad Cloud Search, vediamo che l’ID organizzazione dell’Experience Cloud dell’inserzionista è configurato per Mathworks, ma che il nostro team di prodotto non visualizza la configurazione di Mathworks per attivare i tipi di pubblico in Ad Cloud. Stai utilizzando Adobe Audience Manager per inviare tipi di pubblico ad Ad Cloud Search? In caso contrario, la loro rimozione non avrà alcun impatto sul flusso di lavoro corrente. L’Assistenza clienti AAM può aiutarti a rimuovere questi pixel se non desideri che vengano attivati.
+Per Ad Cloud Search, vediamo che l’ID organizzazione dell’Experience Cloud dell’inserzionista è configurato per Mathworks, ma che il nostro team di prodotto non visualizza la configurazione di Mathworks per attivare i tipi di pubblico in Ad Cloud. Stai utilizzando Adobe Audience Manager per inviare tipi di pubblico ad Ad Cloud Search? In caso contrario, la rimozione di questi elementi non avrà alcun impatto sul flusso di lavoro corrente. L’Assistenza clienti AAM può aiutarti a rimuovere questi pixel se non desideri che vengano attivati.
 

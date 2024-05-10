@@ -2,7 +2,7 @@
 title: Gestire i moltiplicatori delle offerte per i posizionamenti
 description: Scopri come creare e modificare i moltiplicatori di offerta per i target di posizionamento specificati.
 feature: DSP Placements
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Per tutti i posizionamenti selezionati, puoi modificare manualmente i valori o c
 
      >[!NOTE]
      >
-     >Se lasci vuoto un campo, vengono eliminati tutti i valori per quel tipo di destinazione.<!-- Verify and re-word if needed. I'm not sure if you'll be able to have multiple data rows (one per placement) or if there will be only one data row applicable for all. -->
+     >Se lasci vuoto un campo, vengono eliminati tutti i valori per quel tipo di destinazione.<!-- Verify and re-word if needed. I'm not sure if you'll be able to have multiple data rows (one per placement) or if there only one data row is applicable for all. -->
 
       1. Clic **[!UICONTROL CSV Edit]** in alto a destra.
 

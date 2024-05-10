@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
@@ -7,7 +7,7 @@ ht-degree: 0%
 ---
 # Campo Dominio del sito Web nelle impostazioni delle campagne di ricerca GGL e MS
 
-**[!UICONTROL Website Domain]:** (Solo rete di ricerca; applicabile solo agli annunci di ricerca dinamica espansi) Il dominio principale (ad esempio example.com) o il sottodominio (ad esempio shoes.example.com) del sito web di cui la rete di annunci utilizzerà il contenuto per eseguire il targeting degli annunci di ricerca dinamica.
+**[!UICONTROL Website Domain]:** (Solo rete di ricerca; applicabile solo agli annunci di ricerca dinamica espansi) Il dominio principale (ad esempio example.com) o il sottodominio (ad esempio shoes.example.com) del sito web di cui la rete di annunci deve utilizzare il contenuto per eseguire il targeting degli annunci di ricerca dinamica.
 
 **Note:**
 

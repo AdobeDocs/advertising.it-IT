@@ -1,11 +1,11 @@
 ---
 title: Filtra dati per intervallo di date
 description: Scopri come utilizzare il filtro dell’intervallo di date globale.
-exl-id: e67e843a-1a73-4ab1-9ef7-c97afeb999f6
+exl-id: 35c0f63f-84ae-4e8e-8a48-acae7ff24498
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Lo stesso filtro globale per l’intervallo di date viene applicato alla maggior parte delle visualizzazioni dati della campagna, a tutti gli inserzionisti, fatta eccezione per le visualizzazioni predefinite e personalizzate per le quali sono stati salvati intervalli di date specifici. L’intervallo di date predefinito del sistema per le visualizzazioni di gestione delle campagne è &quot;Ieri&quot;.
 
-Le impostazioni dell’intervallo di date vengono salvate in un cookie specifico del browser, pertanto tutte le modifiche al filtro dell’intervallo di date vengono utilizzate per tutti gli inserzionisti ogni volta che effettui l’accesso utilizzando la stessa applicazione del browser fino a quando non modifichi il filtro o elimini il cookie. Ogni applicazione browser utilizzata memorizzerà le impostazioni del filtro per l’intervallo di date in un cookie diverso.
+Le impostazioni dell’intervallo di date vengono salvate in un cookie specifico del browser, pertanto tutte le modifiche al filtro dell’intervallo di date vengono utilizzate per tutti gli inserzionisti ogni volta che effettui l’accesso utilizzando la stessa applicazione del browser fino a quando non modifichi il filtro o elimini il cookie. Ogni applicazione browser utilizzata memorizza le impostazioni del filtro per l’intervallo di date in un cookie diverso.
 
 Quando si salva un intervallo di date specifico per una visualizzazione predefinita o personalizzata, tale intervallo viene applicato ogni volta che si applica la visualizzazione, indipendentemente dall&#39;applicazione browser in uso.
 
@@ -30,7 +30,7 @@ Quando si salva un intervallo di date specifico per una visualizzazione predefin
 
 1. In **[!UICONTROL Date Range]** , specificare l&#39;intervallo:
 
-   * Per un intervallo predefinito: seleziona dall’elenco degli incrementi di tempo comuni, compresi tra *[!UICONTROL Today]* a *[!UICONTROL Last 180 Days]*. Il valore predefinito è *[!UICONTROL Yesterday]*.
+   * Per un intervallo predefinito: seleziona dall’elenco degli incrementi di tempo comuni, che vanno da *[!UICONTROL Today]* a *[!UICONTROL Last 180 Days]*. Il valore predefinito è *[!UICONTROL Yesterday]*.
 
    * Per un intervallo specifico: Seleziona **[!UICONTROL Custom Date Range]** e quindi specificare la data di inizio e la data di fine.
 

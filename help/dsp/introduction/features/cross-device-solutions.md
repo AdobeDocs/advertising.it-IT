@@ -3,7 +3,7 @@ title: Soluzioni multi-dispositivo
 description: Ulteriori informazioni sulle funzioni multi-dispositivo.
 feature: DSP Introduction
 exl-id: d21917ef-5cac-46f8-8222-099667797683
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Quando utilizzi un grafico dei dispositivi basato sulle persone supportato, puoi
 
 * Prezzo di 0,35 $ CPM per le impression estese (impression fornite esclusivamente utilizzando il [!DNL LiveRamp] grafico dei dispositivi (anziché sui dispositivi trovati all’interno dei segmenti di pubblico target)
 
-   La tariffa si riflette sulla scheda della tariffa del tuo account.
+  La tariffa si riflette sulla scheda della tariffa del tuo account.
 
 ## Gestione della frequenza basata sulle persone
 
@@ -46,9 +46,9 @@ Per ulteriori informazioni, consulta [Impostazioni campagna](/help/dsp/campaign-
 
 Una volta salvata una campagna, non puoi modificarne le [!UICONTROL Cross Device Level] impostazione.
 
-* **Pacchetti:**  Facoltativamente, puoi impostare limiti di frequenza aggiuntivi a livello di pacchetto. L’DSP rispetterà il limite di frequenza più rigoroso nella gerarchia della campagna.
+* **Pacchetti:**  Facoltativamente, puoi impostare limiti di frequenza aggiuntivi a livello di pacchetto. L’DSP rispetta il limite di frequenza più severo nella gerarchia delle campagne.
 
-* **Posizionamenti:** Facoltativamente, è possibile impostare limiti di frequenza aggiuntivi a livello di posizionamento. L’DSP rispetterà il limite di frequenza più rigoroso nella gerarchia della campagna.
+* **Posizionamenti:** Facoltativamente, è possibile impostare limiti di frequenza aggiuntivi a livello di posizionamento. L’DSP rispetta il limite di frequenza più severo nella gerarchia delle campagne.
 
 ## Targeting basato su persone
 
@@ -68,17 +68,17 @@ Puoi includere le metriche seguenti nei rapporti personalizzati:
 
 * **Impression estese:** (nel [!UICONTROL Build Your Report] sezione in [!UICONTROL Metrics] > [!UICONTROL Std. Metrics]) Il volume di impression incrementali fornite sfruttando un grafico dei dispositivi (e non trovate all’interno dei segmenti di pubblico originali). Questa metrica viene utilizzata anche per calcolare le tariffe applicabili associate all’utilizzo di un grafico dei dispositivi di terze parti.
 
-   Per determinare il costo delle impression estese in un determinato periodo di tempo, esegui un rapporto personalizzato che includa [!UICONTROL Extended Impressions] e quindi moltiplica il numero totale di impression estese per $0,00035 (0,35/1000 impression).
+  Per determinare il costo delle impression estese in un determinato periodo di tempo, esegui un rapporto personalizzato che includa [!UICONTROL Extended Impressions] e quindi moltiplica il numero totale di impression estese per $0,00035 (0,35/1000 impression).
 
-   Il costo aggregato è incluso anche nel [!UICONTROL Billable Other Net Spend] colonna (sotto [!UICONTROL Metrics] > [!UICONTROL Spend]), anche se tale metrica include anche altre tariffe della campagna che potresti aver aggiunto.
+  Il costo aggregato è incluso anche nel [!UICONTROL Billable Other Net Spend] colonna (sotto [!UICONTROL Metrics] > [!UICONTROL Spend]), anche se tale metrica include anche altre tariffe della campagna che potresti aver aggiunto.
 
 * **Device Graph (Grafico dispositivo):** (nel [!UICONTROL Build Your Report] sezione in [!UICONTROL Dimensions] > [!UICONTROL Campaign]) Il grafico dei dispositivi selezionato per una particolare campagna, pacchetto o posizionamento.
 
 ## Misurazione dell’attribuzione basata sulle persone
 
-*Per gli inserzionisti che utilizzano solo il tracciamento della conversione di annunci Adobe*
+*Inserzionisti con solo tracciamento conversione Adobi Advertising*
 
-Con l’attribuzione basata sulle persone, puoi attribuire le conversioni che hanno avuto luogo su un dispositivo diverso da quello su cui si è verificata l’esposizione multimediale. La misurazione dell’attribuzione basata sulle persone è disponibile in tutta l’DSP, [!DNL Adobe Advertising Creative], e [!DNL Adobe Advertising Search, Social, & Commerce] per gli inserzionisti che hanno implementato pixel di conversione di Adobe Advertising sui loro siti.
+Con l’attribuzione basata sulle persone, puoi attribuire le conversioni che hanno avuto luogo su un dispositivo diverso da quello su cui si è verificata l’esposizione multimediale. La misurazione dell’attribuzione basata sulle persone è disponibile in tutta l’DSP, [!DNL Adobe Advertising Creative], e [!DNL Adobe Advertising Search, Social, & Commerce] per gli inserzionisti che hanno implementato pixel di conversione Adobi Advertising sui loro siti.
 
 ### Abilita misurazione attribuzione basata su persone
 
@@ -98,15 +98,15 @@ Quando un grafico dei dispositivi è abilitato per la misurazione dell’attribu
 
 #### Come interpretare il rapporto di conversione
 
-Se ordini la percentuale del totale delle conversioni tra dispositivi diversi ([!UICONTROL (xd)]/[!UICONTROL (tl)]) dall&#39;alto al basso, capirai cosa determina conversioni tra dispositivi superiori alla media. Puoi utilizzarlo per informare la tua strategia creativa o di targeting in modo da abbinare la messaggistica e incanalare gli investimenti al comportamento degli utenti.
+Ordina la percentuale delle conversioni totali tra dispositivi diversi ([!UICONTROL (xd)]/[!UICONTROL (tl)]) dall&#39;alto al basso per capire cosa determina conversioni tra dispositivi superiori alla media. Puoi utilizzarlo per informare la tua strategia creativa o di targeting in modo da abbinare la messaggistica e incanalare gli investimenti al comportamento degli utenti.
 
-* Pacchetti: scopri quali pacchetti generano la maggior parte delle conversioni totali e quali hanno una percentuale elevata di conversioni tra dispositivi diversi. Questo può aiutarti a capire dove concentrarti sulla spesa.
+* Pacchetti: scopri quali pacchetti generano il maggior numero di conversioni totali e quali hanno una percentuale elevata di conversioni tra dispositivi diversi. Questo può aiutarti a capire dove concentrarti sulla spesa.
 
 * Posizionamenti: confronta le prestazioni e l’attribuzione del posizionamento (ad esempio, un annuncio web per dispositivi mobili può determinare conversioni su desktop). Senza un grafico dei dispositivi per l’attribuzione, potresti perdere l’impatto di un posizionamento web mobile sulle conversioni desktop o potrebbe essere nascosto se la maggior parte degli utenti si converte su desktop e non su web mobile.
 
 * Annunci: scopri quali annunci favoriscono conversioni più elevate e quantificane il valore e l’impatto sia sui browser web che sugli ambienti delle app mobili.
 
-* Siti: ottimizza i siti su più siti anziché escluderli completamente manualmente. Se un sito web guida conversioni tra dispositivi, puoi vedere su quali dispositivi si verifica questo comportamento.
+* Siti: ottimizzare i siti su più siti anziché escluderli completamente manualmente. Se un sito web guida conversioni tra dispositivi, puoi vedere su quali dispositivi si verifica questo comportamento.
 
 * Offerte: migliora l’ottimizzazione manuale verificando quali offerte di inventario forniscono conversioni tra dispositivi diversi e quindi decidendo se espandere il targeting per includere più dispositivi e canali in tali offerte.
 
@@ -116,4 +116,3 @@ Se ordini la percentuale del totale delle conversioni tra dispositivi diversi ([
 >* [Impostazioni campagna](/help/dsp/campaign-management/campaigns/campaign-settings.md)
 >* [Impostazioni pacchetto](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)
-

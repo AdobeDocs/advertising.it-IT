@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft® Advertising] impostazioni della campagna'
 description: Fai riferimento alle impostazioni per [!DNL Microsoft® Advertising] campagne.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 227a78310199ee8bf8a66bc3197f8eaf97cd008a
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1966'
 ht-degree: 0%
 
 ---
@@ -301,7 +301,7 @@ Per informazioni sulla disponibilità, consulta l’Aiuto di Microsoft® Adverti
 
 >[!TIP]
 >
->Per i portfolio ibridi per i quali carichi gli obiettivi nella rete di annunci, la best practice è quella di utilizzare obiettivi a livello di campagna che corrispondono agli obiettivi di conversione nell’obiettivo del portfolio. Tuttavia, se gli obiettivi della campagna includono conversioni tracciate da [!DNL Microsoft Advertising] tag di tracciamento degli eventi universali (UET), quindi aggiungili all’interno del [!DNL Microsoft Advertising] perché non verranno caricati nuovamente sulla rete di annunci con l’obiettivo. Inoltre, all&#39;interno del [!DNL Microsoft Advertising] , rimuovi le azioni di conversione della campagna come obiettivi predefiniti dell’account deselezionando &quot;includi nelle conversioni&quot;.
+>Per i portfolio ibridi per i quali carichi gli obiettivi nella rete di annunci, la best practice è quella di utilizzare obiettivi a livello di campagna che corrispondono agli obiettivi di conversione nell’obiettivo del portfolio. Tuttavia, se gli obiettivi della campagna includono conversioni tracciate da [!DNL Microsoft Advertising] tag di tracciamento degli eventi universali (UET), quindi aggiungili all’interno del [!DNL Microsoft Advertising] perché non vengono caricati nuovamente sulla rete di annunci con l’obiettivo. Inoltre, all&#39;interno del [!DNL Microsoft Advertising] , rimuovi le azioni di conversione della campagna come obiettivi predefiniti dell’account deselezionando &quot;includi nelle conversioni&quot;.
 
 <!-- Check on this:
 >If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.

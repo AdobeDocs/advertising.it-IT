@@ -3,7 +3,7 @@ title: Eliminare un pubblico riutilizzabile
 description: Scopri come eliminare un pubblico riutilizzabile.
 feature: DSP Audiences
 exl-id: cc9afa22-1b90-4709-b7af-d9c1ee16aa16
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Eliminare un pubblico riutilizzabile
 
-Puoi eliminare un pubblico non utilizzato in alcuna posizione o altro pubblico riutilizzabile.
+Puoi eliminare un pubblico non utilizzato in alcuna posizione o in altri tipi di pubblico riutilizzabili.
 
-Se un pubblico è attualmente utilizzato, avrai la possibilità di esportare un [!DNL Microsoft Excel] foglio di lavoro che mostra tutti i posizionamenti e i tipi di pubblico che utilizzano il pubblico.
+Se un pubblico è attualmente utilizzato, è possibile esportare una [!DNL Microsoft Excel] foglio di lavoro che mostra tutti i posizionamenti e i tipi di pubblico che utilizzano il pubblico.
 
 1. Nel menu principale, fai clic su **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
@@ -39,4 +39,3 @@ Se un pubblico è attualmente utilizzato, avrai la possibilità di esportare un 
 >* [Impostazioni pubblico](audience-settings.md)
 >* [Sintassi della logica dei segmenti di pubblico](audience-segment-logic-syntax.md)
 >* [Provider di dati di terze parti disponibili](third-party-data-providers.md)
-

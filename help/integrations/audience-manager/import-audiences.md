@@ -3,9 +3,9 @@ title: Importare segmenti Adobe Audience Manager per il targeting di annunci
 description: Scopri come importare il [!DNL Adobe] tipi di pubblico per Advertising DSP e Search via Adobe Audience Manager
 feature: Integration with Adobe Audience Manager
 exl-id: 6ff80699-9554-4b39-a019-d8055d68c174
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Advertising DSP e [!DNL Advertising Search, Social, & Commerce] ognuno può estr
 
 * Segmenti creati con Adobe Experience Cloud [!DNL Audience Library]
 
-* Segmenti creati in Adobe Experience Platform e inviati ad Adobe Advertising tramite Audience Manager
+* Segmenti creati in Adobe Experience Platform e inviati ad Adobi Advertising tramite Audienci Manager
 
 Per accedere [!DNL Adobe] pubblico in DSP o [!DNL Creative], è necessario importare i tipi di pubblico in DSP. Per accedere [!DNL Adobe] tipi di pubblico in [!DNL Search, Social, & Commerce], è necessario importare i tipi di pubblico in [!DNL Search, Social, & Commerce].
 
@@ -28,11 +28,11 @@ Per accedere [!DNL Adobe] pubblico in DSP o [!DNL Creative], è necessario impor
 
 * L&#39;inserzionista deve implementare [il [!DNL Adobe Experience Cloud Identity (ECID) Service]](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html) versione 2.0 o successiva. Il [!DNL Identity Service] fornisce un ID universale e costante che identifica i visitatori in tutte le soluzioni di Experience Cloud.
 
-   L’implementazione include l’aggiunta di [!DNL Identity service] codice per ogni pagina web sui siti dell’inserzionista.
+  L’implementazione include l’aggiunta di [!DNL Identity service] codice per ogni pagina web sui siti dell’inserzionista.
 
 * L’organizzazione deve essere [abilitato per i servizi Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services.html) e avere un Experience Cloud [!DNL Organization ID] (precedentemente denominato [!DNL IMS org ID]).
 
-   Il [!UICONTROL Organization ID] consente alle organizzazioni con più prodotti Adobe Experience Cloud di condividere i dati tra alcuni di essi.
+  Il [!UICONTROL Organization ID] consente alle organizzazioni con più prodotti Adobe Experience Cloud di condividere i dati tra alcuni di essi.
 
 * (Per gli inserzionisti che [!DNL Analytics]) L&#39;inserzionista deve [implementare [!DNL Analytics] utilizzo `appMeasurement.js`](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html) versione 1.6.4 o successiva.
 
@@ -40,13 +40,13 @@ Per accedere [!DNL Adobe] pubblico in DSP o [!DNL Creative], è necessario impor
 
 * (Consigliato quando l’inserzionista utilizza sia l’Audience Manager che [!DNL Analytics]) Per ridurre le chiamate a ogni pagina web, rimuovi l’Audience Manager esistente [!DNL Data Integration Library] codice per la raccolta dei dati e attivazione dell&#39;inoltro lato server per ogni [!DNL Analytics] suite di rapporti. Per ulteriori informazioni, consulta la sezione &quot;[Panoramica sull&#39;inoltro lato server](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
 
-* (Consigliato) Per percentuali di corrispondenza più alte, invia solo i dati del sito web di prime parti ad Adobe Advertising. Se l’inserzionista unisce dati di terze parti o dati offline da un sistema di gestione delle relazioni con i clienti, la perdita di dati può ridurre le percentuali di corrispondenza.
+* (Consigliato) Per percentuali di corrispondenza più elevate, invia ad Adobi Advertising solo i dati del sito web di prime parti. Se l’inserzionista unisce dati di terze parti o dati offline da un sistema di gestione delle relazioni con i clienti, la perdita di dati può ridurre le percentuali di corrispondenza.
 
-## Importare tipi di pubblico Audience Manager nell’DSP
+## Importare tipi di pubblico Audienci Manager nell’DSP
 
 ### Passaggi per importare tipi di pubblico in DSP
 
-Il [!DNL Adobe] i team delle operazioni di account e dati eseguiranno i seguenti passaggi.
+Il [!DNL Adobe] i team delle operazioni di account e dati eseguono i seguenti passaggi.
 
 1. Il team dell’account Adobe deve configurare l’impostazione a livello di inserzionista &quot;[!UICONTROL Adobe Analytics Cloud].&quot;
 
@@ -56,29 +56,29 @@ Il [!DNL Adobe] i team delle operazioni di account e dati eseguiranno i seguenti
 
 L’API automaticamente:
 
-* Crea due destinazioni DSP in Audience Manager:
+* Crea due destinazioni DSP in Audienci Manager:
 
    * **[!UICONTROL Adobe Ad Cloud Cross-Channel (real-time)]**
 
    * **[!UICONTROL Adobe AdCloud Cross-Channel (batch)])**
 
-* Mappa le due destinazioni su tutti i segmenti Audience Manager, consentendo all’Audience Manager di condividere i segmenti con l’account dell’inserzionista DSP associato allo stesso Experience Cloud [!DNL Organization ID] utilizzato ad Audience Manager. <!-- Verify -->
+* Mappa le due destinazioni su tutti i segmenti Audienci Manager, consentendo all’Audienci Manager di condividere i segmenti con l’account dell’inserzionista DSP associato allo stesso Experience Cloud [!DNL Organization ID] utilizzato ad Audience Manager. <!-- Verify -->
 
-   Facoltativamente, l’organizzazione può rimuovere i segmenti non necessari dalle destinazioni all’interno di Audience Manager.
+  Facoltativamente, l’organizzazione può rimuovere i segmenti non necessari dalle destinazioni all’interno di Audienci Manager.
 
-* Aggiunge il seguente pixel di sincronizzazione dei cookie di exchange al contenitore Audience Manager dell’organizzazione per migliorare la portata delle campagne dei clienti:
+* Aggiunge il seguente pixel di sincronizzazione dei cookie di exchange al contenitore Audienci Manager dell’organizzazione per migliorare la portata delle campagne dei clienti:
 
    * Adobe AdCloud: 411 (standard e automatico come parte di [!DNL Identity Service] versione 2.0. Organizzazioni [!DNL Identity Service] le versioni successive alla versione 2.0 devono aggiungere questo pixel al contenitore di Audience Manager.
 
-## Importa tipi di pubblico Audience Manager in [!DNL Search, Social, & Commerce]
+## Importa tipi di pubblico Audienci Manager in [!DNL Search, Social, & Commerce]
 
 ### Passaggi per importare tipi di pubblico in [!DNL Search, Social, & Commerce]
 
-[!DNL Adobe] Il personale eseguirà la maggior parte o tutti i seguenti passaggi.
+[!DNL Adobe] Il personale esegue la maggior parte o tutti i seguenti passaggi.
 
 1. Il team dell’account Adobe deve inviare una richiesta al team delle operazioni sui dati per configurare un’integrazione tra [!DNL Search, Social, & Commerce] e Audience Manager. Includi i nomi dei segmenti di Audience Manager in cui desideri esportare [!DNL Search, Social, & Commerce].
 
-1. In Audience Manager, configura le destinazioni per [!DNL Search, Social, & Commerce]:
+1. In Audienci Manager, configura le destinazioni per [!DNL Search, Social, & Commerce]:
 
    1. Crea due nuove destinazioni: `[!UICONTROL Adobe Media Optimizer (HTTP)]` e `[!UICONTROL Adobe Media Optimizer Batch Destination]`.
 
@@ -92,11 +92,11 @@ L’API automaticamente:
 
 1. Entro [!DNL Search, Social, & Commerce], il [!DNL Search, Social, & Commerce] il team di implementazione o un utente con il ruolo direct access client manager deve avviare l’importazione da [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Audience Manager Setup].
 
-   Inserisci l’Experience Cloud dell’organizzazione [!DNL Organization ID] ([!DNL IMS org ID]). L’ID deve essere lo stesso utilizzato per l’account di Audience Manager dell’organizzazione.
+   Devi inserire l’Experience Cloud dell’organizzazione [!DNL Organization ID] ([!DNL IMS org ID]). L’ID deve essere lo stesso utilizzato per l’account di Audience Manager dell’organizzazione.
 
 ### Quali modifiche si traducono in Audience Manager?
 
-L’organizzazione ne vedrà due [!DNL Search, Social, & Commerce] destinazioni in Audience Manager:
+Due [!DNL Search, Social, & Commerce] le destinazioni diventano disponibili per l’organizzazione in Audience Manager:
 
 * **[!UICONTROL Adobe Media Optimizer (HTTP)]**
 * **[!UICONTROL Adobe Media Optimizer Batch Destination])**
@@ -136,13 +136,13 @@ Segment membership data is sent only after one of the following events occurs:
 
 ### Nell&#39;DSP
 
-In DSP, i nomi dei segmenti sono organizzati in base alla tassonomia Audience Manager e sono disponibili con i conteggi di appartenenza ai segmenti corrispondenti in:
+In DSP, i nomi dei segmenti sono organizzati in base alla tassonomia Audienci Manager e sono disponibili con i conteggi di appartenenza ai segmenti corrispondenti in:
 
 * [Impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md#audience-targeting): al [!UICONTROL Adobe Segments] scheda di [!UICONTROL Audience Targeting] sezione.
 
 * In entrata [impostazioni pubblico](/help/dsp/audiences/audience-settings.md): al [!UICONTROL Adobe Segments] scheda.
 
-### In Advertising Creative
+### Nell’Advertising Creative
 
 In entrata [!DNL Creative], i segmenti sono disponibili nelle impostazioni di esperienza per i nodi di destinazione.
 
@@ -154,5 +154,4 @@ Per ogni [!DNL Google] pubblico che hai creato, [!DNL Google] fornisce la dimens
 
 >[!MORELIKETHIS]
 >
->* [Integrazioni di Adobe Advertising con Adobe Audience Manager](/help/integrations/audience-manager/overview.md)
-
+>* [Integrazioni Adobi Advertising con Adobe Audience Manager](/help/integrations/audience-manager/overview.md)

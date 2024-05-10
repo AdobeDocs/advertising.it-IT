@@ -1,11 +1,11 @@
 ---
 title: Gestire i modelli di annunci per i feed di inventario
 description: Scopri come gestire i modelli di annunci tramite i quali i dati di inventario possono essere elaborati per gestire la struttura dei conti e distribuire annunci dinamici.
-exl-id: b26fc32a-76bc-470a-8ce5-fbaad4b3ca71
+exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1415'
+source-wordcount: '1421'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Creare modelli separati per annunci di testo espansi/estesi e annunci di ricerca
             >[!NOTE]
             >
             >* Se il [!UICONTROL Prefill] , i campi alternativi vengono precompilati con i campi originali e puoi modificarli in base alle esigenze.
-            >* Solo i campi della copia dell’annuncio che superano la lunghezza massima vengono sostituiti con il valore alternativo. Ad esempio, se solo un titolo o titolo originale è troppo lungo, la variante di annuncio generata utilizza il titolo o il titolo alternativo e le descrizioni originali. Assicurati pertanto che la copia dell’annuncio alternativa sia significativa se combinata con la copia dell’annuncio originale.
+            >* Solo i campi della copia dell’annuncio che superano la lunghezza massima vengono sostituiti con il valore alternativo. Ad esempio, se solo un titolo o titolo originale è troppo lungo, la variante di annuncio generata utilizza il titolo o il titolo alternativo e le descrizioni originali. Assicurati pertanto che la copia dell’annuncio alternativa sia appropriata quando combinata con la copia dell’annuncio originale.
             >* Se la copia dell’annuncio originale soddisfa i requisiti di lunghezza del motore di ricerca, la copia dell’annuncio alternativa viene eliminata.
             >* Puoi specificare fino a quattro alternative per ogni campo della copia dell’annuncio.
 
@@ -103,7 +103,7 @@ Creare modelli separati per annunci di testo espansi/estesi e annunci di ricerca
                >[!NOTE]
                >
                >* Se il [!UICONTROL Prefill] , i campi alternativi vengono precompilati con i campi originali e puoi modificarli in base alle esigenze.
-               >* Solo i campi della copia dell’annuncio che superano la lunghezza massima vengono sostituiti con il valore alternativo. Ad esempio, se solo un titolo o titolo originale è troppo lungo, la variante di annuncio generata utilizza il titolo o il titolo alternativo e le descrizioni originali. Assicurati pertanto che la copia dell’annuncio alternativa sia significativa se combinata con la copia dell’annuncio originale.
+               >* Solo i campi della copia dell’annuncio che superano la lunghezza massima vengono sostituiti con il valore alternativo. Ad esempio, se solo un titolo o titolo originale è troppo lungo, la variante di annuncio generata utilizza il titolo o il titolo alternativo e le descrizioni originali. Assicurati pertanto che la copia dell’annuncio alternativa sia appropriata quando combinata con la copia dell’annuncio originale.
                >* Se la copia dell’annuncio originale soddisfa i requisiti di lunghezza del motore di ricerca, la copia dell’annuncio alternativa viene eliminata.
                >* Puoi specificare fino a quattro alternative per ogni campo della copia dell’annuncio.
 

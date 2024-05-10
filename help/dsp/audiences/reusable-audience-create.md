@@ -3,9 +3,9 @@ title: Creare un pubblico riutilizzabile
 description: Scopri come creare un pubblico riutilizzabile costituito da segmenti di pubblico e altri tipi di pubblico salvati.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-source-git-commit: eb3ce7d8bcddf52844b50797a95cb3b5aec13684
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Puoi salvare e gestire i tipi di pubblico riutilizzabili, ovvero gruppi di segme
 
 1. (Facoltativo) Deseleziona l’opzione per **[!UICONTROL Share with all advertisers in my account]**.
 
-   Quando condividi un pubblico, questo diventa disponibile come target o come esclusione per tutti gli inserzionisti all’interno dell’account. Tuttavia, i singoli segmenti nel pubblico sono disponibili solo per gli utenti a cui i segmenti sono condivisi. Ad esempio, se condividi un pubblico contenente segmenti di Adobe Analytics con un inserzionista che non è mappato allo stesso [!DNL Analytics] , il segmento non verrà visualizzato in anteprima nel pubblico per l’inserzionista in questione. Solo i segmenti disponibili per l’inserzionista verranno visualizzati in anteprima nel pubblico.
+   Quando condividi un pubblico, questo diventa disponibile come target o come esclusione per tutti gli inserzionisti all’interno dell’account. Tuttavia, i singoli segmenti nel pubblico sono disponibili solo per gli utenti a cui i segmenti sono condivisi. Ad esempio, se condividi un pubblico contenente segmenti di Adobe Analytics con un inserzionista che non è mappato allo stesso [!DNL Analytics] , il segmento non viene visualizzato in anteprima nel pubblico per l’inserzionista in questione. Solo i segmenti disponibili per l’inserzionista vengono visualizzati in anteprima nel pubblico.
 
 1. Clic **[!UICONTROL Save]**.
 

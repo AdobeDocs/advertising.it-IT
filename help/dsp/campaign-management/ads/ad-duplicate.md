@@ -3,9 +3,9 @@ title: Duplicare un annuncio
 description: Scopri come duplicare un annuncio.
 feature: DSP Ads
 exl-id: 030ce258-750c-4c5f-ae89-32dfb2864189
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Puoi duplicare un annuncio all’interno della stessa campagna.
 
    >[!NOTE]
    >
-   >Il tuo annuncio verrà trasmesso solo se sia l’DSP che la SSP hanno approvato il contenuto creativo. Ciascuna SSP ha i propri requisiti e la propria procedura di approvazione.
+   >Il tuo annuncio può essere servito solo se sia l&#39;DSP che la SSP hanno approvato il contenuto creativo. Ciascuna SSP ha i propri requisiti e la propria procedura di approvazione.
 
 >[!MORELIKETHIS]
 >
@@ -43,4 +43,3 @@ Puoi duplicare un annuncio all’interno della stessa campagna.
 >* [Creare più annunci di terze parti](ad-create-multiple.md)
 >* [Modificare un annuncio](ad-edit.md)
 >* [Specifiche annuncio](ad-specs.md)
-

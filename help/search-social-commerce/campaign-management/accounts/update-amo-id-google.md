@@ -3,9 +3,9 @@ title: Aggiorna il codice di tracciamento AMO ID (s_kwcid) per un [!DNL Google A
 description: Scopri come passare al codice di tracciamento AMO ID più recente per un [!DNL Google Ads] account.
 exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: 515c049a45d795fd973b5fcead5f96e71dbf844a
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Tutte le nuove [!DNL Google Ads] Gli account utilizzano automaticamente il forma
 
    >[!NOTE]
    >
-   >Tutti i click-through che si sono verificati prima della migrazione riporteranno comunque i dati di conversione in base al formato precedente.
+   >Tutti i click-through che si sono verificati prima della migrazione segnalano ancora i dati di conversione in base al formato precedente.
 
 1. Dopo aver iniziato la migrazione, aggiorna le impostazioni del suffisso della pagina di destinazione (denominato &quot;suffisso URL finale&quot; in alcune reti pubblicitarie), secondo necessità:
 

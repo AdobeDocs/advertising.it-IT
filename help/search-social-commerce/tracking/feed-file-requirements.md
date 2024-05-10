@@ -1,11 +1,11 @@
 ---
 title: Requisiti dei file per i file di feed di conversione
 description: Fai riferimento ai requisiti per i file di feed di conversione.
-exl-id: 7d865802-0ab9-4965-9618-6bc0667f4939
+exl-id: abc28394-3e00-447f-a04e-078fa9883a64
 feature: Search Tracking
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Il nome del file deve includere la data ed essere coerente. Ad esempio, se utili
 
 ## Protocollo di trasferimento file
 
-Invia il file tramite il protocollo di trasferimento SFTP, utilizzando la porta 22. Dovrai fornire le informazioni sulla chiave pubblica.  Il team dell’account Adobe o il team di implementazione ti fornirà la posizione del server e le credenziali necessarie per il trasferimento dei file.
+Invia il file tramite il protocollo di trasferimento SFTP, utilizzando la porta 22. Dovrai fornire le informazioni sulla chiave pubblica.  Il team dell’account Adobe o il team di implementazione ti fornisce la posizione del server e le credenziali necessarie per il trasferimento dei file.
 
 >[!TIP]
 >

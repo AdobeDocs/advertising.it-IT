@@ -1,11 +1,11 @@
 ---
 title: Informazioni sulla personalizzazione dei dati nelle visualizzazioni di gestione delle campagne
 description: Scopri i tipi di dati che è possibile personalizzare nelle visualizzazioni dati di Campaign.
-exl-id: a8e4020a-ed8e-4ccc-9aaf-8ba115fb9ea3
+exl-id: 89f36865-9275-494e-ac33-d41fa30faa2a
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Nella maggior parte delle visualizzazioni dati di Campaign, puoi personalizzare 
 
    * Sfoglia o cerca le campagne per portfolio o gruppo di portfolio e filtra in base allo stato dell’entità e allo stato del gruppo di portfolio, portfolio e campagna. Fai clic su un gruppo di portfolio, portfolio o campagna nel pannello per caricare i dati per il gruppo di portfolio, portfolio o campagna nella vista entità corrente.
 
-   * Accesso, modifica e reimpostazione delle visualizzazioni predefinite, accesso, modifica ed eliminazione delle visualizzazioni personalizzate. Se si fa clic sul nome di una visualizzazione, viene caricata la visualizzazione appropriata.
+   * Accesso, modifica e reimpostazione delle visualizzazioni predefinite, accesso, modifica ed eliminazione delle visualizzazioni personalizzate. Facendo clic sul nome di una vista, viene caricata la vista appropriata.
 
 * Applica i filtri alle colonne di dati disponibili per modificare i dati visualizzati nella scheda corrente. Puoi creare filtri dalle intestazioni di colonna o da un pulsante sulla barra degli strumenti. I filtri vengono mantenuti quando si aprono entità figlio. Ad esempio, se visualizzi le campagne con \> 100 clic e quindi apri un gruppo di annunci all’interno della campagna, vengono visualizzati solo i gruppi di annunci con \> 100 clic.
 

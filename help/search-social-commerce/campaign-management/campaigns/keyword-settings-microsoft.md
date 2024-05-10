@@ -1,11 +1,11 @@
 ---
 title: '''[!DNL Microsoft Advertising] keyword settings"'
 description: Fai riferimento alle impostazioni per [!DNL Microsoft Advertising] parole chiave.
-exl-id: 248f45c7-8b8c-46fe-a65a-66c50c630044
+exl-id: 82eee01f-db4b-4d1a-ae24-1ef65f8c6953
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -35,9 +35,9 @@ Puoi creare parole chiave per le campagne che utilizzano le reti di ricerca e vi
 
 ## Segnaposto
 
-**[!UICONTROL Param2]:** Stringa da utilizzare come valore di sostituzione se l’URL di base della parola chiave o il titolo, la descrizione o l’URL di base dell’annuncio contiene [il `{Param2}` stringa di sostituzione dinamica](https://help.bingads.microsoft.com/#apex/3/en/53079/0). La lunghezza massima è di 70 caratteri, ma è importante considerare la lunghezza massima dell’elemento pubblicitario in cui viene utilizzato (ad esempio, il titolo 1 e il titolo 2 combinati possono contenere un massimo di 76 caratteri).
+**[!UICONTROL Param2]:** Stringa da utilizzare come valore di sostituzione se l’URL di base della parola chiave o il titolo, la descrizione o l’URL di base dell’annuncio contiene [il `{Param2}` stringa di sostituzione dinamica](https://help.bingads.microsoft.com/#apex/3/en/53079/0). La lunghezza massima è di 70 caratteri, ma tieni presente la lunghezza massima degli elementi dell’annuncio in cui lo utilizzi (ad esempio, il titolo 1 e il titolo 2 combinati possono contenere un massimo di 76 caratteri).
 
-**[!UICONTROL Param3]:** Stringa da utilizzare come valore di sostituzione se l’URL di base della parola chiave o il titolo, la descrizione o l’URL di base dell’annuncio contiene [il `{Param3}` stringa di sostituzione dinamica](https://help.bingads.microsoft.com/#apex/3/en/53079/0). La lunghezza massima è di 70 caratteri, ma è importante considerare la lunghezza massima dell’elemento pubblicitario in cui viene utilizzato (ad esempio, il titolo 1 e il titolo 2 combinati possono contenere un massimo di 76 caratteri).
+**[!UICONTROL Param3]:** Stringa da utilizzare come valore di sostituzione se l’URL di base della parola chiave o il titolo, la descrizione o l’URL di base dell’annuncio contiene [il `{Param3}` stringa di sostituzione dinamica](https://help.bingads.microsoft.com/#apex/3/en/53079/0). La lunghezza massima è di 70 caratteri, ma tieni presente la lunghezza massima degli elementi dell’annuncio in cui lo utilizzi (ad esempio, il titolo 1 e il titolo 2 combinati possono contenere un massimo di 76 caratteri).
 
 ## Opzioni URL
 

@@ -3,9 +3,9 @@ title: Visualizza impostazioni annuncio
 description: Consulta le descrizioni delle impostazioni pubblicitarie disponibili per gli annunci display.
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Le seguenti impostazioni sono per gli annunci display standard.
 
 **[!UICONTROL Final Display Code]:** (Solo per annunci di terze parti) L’URL della risorsa creativa di terze parti, con il necessario [Pubblicità delle macro di tracciamento DSP](/help/dsp/campaign-management/macros.md) se del caso.
 
-**[!UICONTROL Ad Size]:** Larghezza e altezza dell’annuncio. Deve essere un [dimensioni annuncio display standard supportate](ad-specs.md). Puoi immettere manualmente le dimensioni dell’annuncio prima di caricarlo o immettere un [!UICONTROL Display Code]. Se non immetti la dimensione dell’annuncio, le dimensioni del caricamento o del tag dell’annuncio vengono immesse automaticamente come di sola lettura. L’annuncio di visualizzazione non viene salvato se le dimensioni non rientrano nel display standard come dimensioni, ad esempio 301x250 invece delle dimensioni dell’annuncio 300x250.
+**[!UICONTROL Ad Size]:** Larghezza e altezza dell’annuncio. Deve essere un [dimensioni annuncio display standard supportate](ad-specs.md). Puoi immettere manualmente le dimensioni dell’annuncio prima di caricarlo o immettere un [!UICONTROL Display Code]. Se non immetti la dimensione dell’annuncio, le dimensioni del caricamento o del tag dell’annuncio vengono immesse automaticamente come di sola lettura.
 
 >[!IMPORTANT]
 >

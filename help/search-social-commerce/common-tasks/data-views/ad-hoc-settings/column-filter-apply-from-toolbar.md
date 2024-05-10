@@ -1,9 +1,9 @@
 ---
 title: Applicare filtri dati dalla barra degli strumenti
 description: Scopri come filtrare i dati della pagina dalla barra degli strumenti.
-exl-id: 922cc148-e6dc-428b-a7f3-1da3780df326
+exl-id: fc1dca75-b0e5-48fd-90ee-f09c158e3e8b
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Puoi applicare a una visualizzazione tutti i filtri che desideri. Tutti i filtri
 
            A seconda del tipo di dati, gli operatori disponibili possono includere *[!UICONTROL greater than]*, *[!UICONTROL less than]*, *[!UICONTROL equals]*, *[!UICONTROL contains]*, *[!UICONTROL doesn't contain]*, *[!UICONTROL starts with]*, *[!UICONTROL ends with]*, *[!UICONTROL no value]*, *[!UICONTROL has value]*, *[!UICONTROL before]*, *[!UICONTROL after]*, o *[!UICONTROL no date].*
 
-           **Nota:** I valori di testo non fanno distinzione tra maiuscole e minuscole. Ad esempio, se filtri per campagne con &quot;prestito&quot; nel nome, i risultati includeranno &quot;Prestiti al consumo&quot; e &quot;richieste di prestito&quot;.
+           **Nota:** I valori di testo non fanno distinzione tra maiuscole e minuscole. Ad esempio, se filtri per campagne con &quot;prestito&quot; nel nome, i risultati includono &quot;Prestiti al consumo&quot; e &quot;Applicazioni prestito&quot;.
 
          * ([!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Product Groups], [!UICONTROL Placements], e [!UICONTROL Auto Targets] solo visualizzazioni; facoltativo) Cambia l’impostazione in &quot;[!UICONTROL Include rows with performance data only].&quot;
 

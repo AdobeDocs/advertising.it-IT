@@ -3,9 +3,9 @@ title: Utilizzo di [!DNL Roku] Inventario
 description: Scopri la partnership DSP con [!DNL Roku], incluse le opzioni di inventario, i fornitori di tracciamento di terze parti approvati e le best practice per [!DNL Roku]posizionamenti specifici di.
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Puoi: a) impostare gli ID offerta privati direttamente con [!DNL Roku] e poi ins
 >
 >[!DNL Roku] l’inventario non è disponibile nei mercati aperti e nelle borse.
 
-* Per le vostre offerte private, [impostare le informazioni sugli ID offerta in DSP](/help/dsp/inventory/deal-id-create.md) e quindi target&quot;.[!UICONTROL Roku Network – Audience]&quot; e &quot;[!UICONTROL The Roku Channel – Audience]&quot; entro [!DNL Roku] posizionamenti.<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals will show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
+* Per le vostre offerte private, [impostare le informazioni sugli ID offerta in DSP](/help/dsp/inventory/deal-id-create.md) e quindi target&quot;.[!UICONTROL Roku Network – Audience]&quot; e &quot;[!UICONTROL The Roku Channel – Audience]&quot; entro [!DNL Roku] posizionamenti.<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
 
 * È possibile [abbonati a quanto segue [!DNL Roku] inventario all&#39;interno di [!DNL On Demand] Galleria](/help/dsp/inventory/on-demand-inventory-subscribe.md), quindi eseguire il targeting di tutte le offerte approvate entro [!DNL Roku] posizionamenti:
 
@@ -83,4 +83,3 @@ Alla scala massima:
 >* [Crea manualmente dettagli ID offerta](/help/dsp/inventory/deal-id-create.md)
 > * [Iscriviti e richiedi accesso a [!DNL On Demand] Offerte di magazzino Premium](/help/dsp/inventory/on-demand-inventory-subscribe.md)
 >* [Creare un posizionamento](/help/dsp/campaign-management/placements/placement-create.md)
-

@@ -1,11 +1,11 @@
 ---
 title: Gestisci [!DNL Microsoft Advertising] tipi di pubblico di remarketing dinamico
 description: Scopri come creare e gestire [!DNL Microsoft Advertising] tipi di pubblico di remarketing dinamico.
-exl-id: 6f0cb6a0-36cc-4a07-82a8-247191b6c4f5
+exl-id: 52faab75-e723-4e59-aac6-b4d0c4c1cf60
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Microsoft Advertising]solo account*
 
-Puoi creare una [!DNL Microsoft Advertising] pubblico di remarketing dinamico quando utilizzi il tag di conversione JavaScript e tracciamento del pubblico del motore di ricerca sulle pagine web. Ogni pubblico viene creato utilizzando un tag specificato incluso nelle pagine Web di cui gli utenti faranno parte. Puoi creare più tipi di pubblico con lo stesso tag di tracciamento. Puoi anche modificare il nome e l’origine dati dei tipi di pubblico esistenti o eliminare tipi di pubblico esistenti.
+Puoi creare una [!DNL Microsoft Advertising] pubblico di remarketing dinamico quando utilizzi il tag di conversione JavaScript e tracciamento del pubblico del motore di ricerca sulle pagine web. Ogni pubblico viene creato utilizzando un tag specificato incluso nelle pagine web di cui fanno parte gli utenti. Puoi creare più tipi di pubblico con lo stesso tag di tracciamento. Puoi anche modificare il nome e l’origine dati dei tipi di pubblico esistenti o eliminare tipi di pubblico esistenti.
 
 I tipi di pubblico di remarketing dinamico hanno il tipo di pubblico &quot;[!UICONTROL Dynamic Remarketing] \&lt;visitor type=&quot;&quot;>&quot; (ad esempio &quot;Acquirenti passati per il remarketing dinamico&quot;).
 
@@ -42,7 +42,7 @@ Per ulteriori informazioni sul remarketing dinamico e su come implementare il ta
 
    1. Inserisci il **[!UICONTROL Audience Name]**.
 
-   1. Dall’elenco di tutti i tag disponibili per l’account del motore di ricerca, seleziona il nome [!DNL Microsoft Advertising] Tag UET incluso nelle pagine Web i cui utenti costituiranno il pubblico.
+   1. Dall’elenco di tutti i tag disponibili per l’account del motore di ricerca, seleziona il nome [!DNL Microsoft Advertising] Tag UET incluso nelle pagine Web i cui utenti costituiscono il pubblico.
 
    1. Seleziona il tipo di visitatore per il pubblico, in base alle azioni del visitatore sulle pagine web pertinenti: *[!UICONTROL General Visitors]*, *[!UICONTROL Product Searchers]*, *[!UICONTROL Product Viewers]*, *[!UICONTROL Past Buyers]*, o *[!UICONTROL Shopping Cart Abandoners]*.
 
@@ -72,7 +72,7 @@ Per ulteriori informazioni sul remarketing dinamico e su come implementare il ta
 
    1. (Facoltativo) Modifica il **[!UICONTROL Audience Name]**.
 
-   1. (Facoltativo) Da un elenco di tutti i tag disponibili per l’account di rete dell’annuncio, modifica il nome del [!DNL Microsoft Advertising] Tag UET incluso nelle pagine Web i cui utenti costituiranno il pubblico.
+   1. (Facoltativo) Da un elenco di tutti i tag disponibili per l’account di rete dell’annuncio, modifica il nome del [!DNL Microsoft Advertising] Tag UET incluso nelle pagine Web i cui utenti costituiscono il pubblico.
 
    1. (Facoltativo) Modifica il tipo di visitatore per il pubblico, che si basa sulle azioni del visitatore sulle pagine web pertinenti: *[!UICONTROL General Visitors]*, *[!UICONTROL Product Searchers]*, *[!UICONTROL Product Viewers]*, *[!UICONTROL Past Buyers]*, o *[!UICONTROL Shopping Cart Abandoners]*.
 

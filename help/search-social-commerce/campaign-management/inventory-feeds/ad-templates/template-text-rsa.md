@@ -1,11 +1,11 @@
 ---
 title: Impostazioni di annunci di testo e modelli di annunci di ricerca responsive per i feed di inventario
 description: Fai riferimento alle impostazioni per annunci di testo e modelli di annunci di ricerca responsive per feed di inventario.
-exl-id: ee3956f9-4367-40e4-bdb3-f04a8da9a5f1
+exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '3317'
+source-wordcount: '3325'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Se non viene trovata alcuna corrispondenza, tutti i dati della campagna vengono 
 
 **[!UICONTROL Campaign Tracking Template]:** (Solo account con URL finali/avanzati; facoltativo) Il modello di tracciamento a livello di campagna, che specifica tutti i reindirizzamenti del dominio di destinazione e i parametri di tracciamento e incorpora l’URL finale in un parametro. Questo valore sovrascrive l’impostazione a livello di account, ma i modelli di tracciamento a livelli più granulari (con la parola chiave come più granulare) sovrascrivono questo valore.
 
-* Ad Adobe Advertising, il tracciamento delle conversioni, che viene applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; Search, Social e Commerce aggiunge automaticamente il codice di reindirizzamento e di tracciamento quando si salva il record.
+* Ad Adobe Advertising, il tracciamento delle conversioni, che viene applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; Search, Social &amp; Commerce aggiunge automaticamente il codice di reindirizzamento e di tracciamento quando si salva il record.
 
 * Per incorporare l’URL finale:
 
@@ -136,7 +136,7 @@ Se non viene trovata alcuna corrispondenza, tutti i dati della campagna vengono 
 
 **[!UICONTROL Ad Group Tracking Template]:** (Solo account con URL finali/avanzati) Il modello di tracciamento a livello di gruppo di annunci, che specifica tutti i reindirizzamenti del dominio di destinazione e i parametri di tracciamento e incorpora l’URL finale in un parametro.
 
-Ad Adobe Advertising, il tracciamento delle conversioni, che viene applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; Search, Social e Commerce aggiunge automaticamente il codice di reindirizzamento e di tracciamento quando si salva il record.
+Ad Adobe Advertising, il tracciamento delle conversioni, che viene applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; Search, Social &amp; Commerce aggiunge automaticamente il codice di reindirizzamento e di tracciamento quando si salva il record.
 
 Per reindirizzamenti e tracciamento di terze parti, inserisci un valore. Per indicare l’URL della pagina di destinazione:
 
@@ -184,8 +184,8 @@ Per inserire un nome di colonna o un gruppo di modificatori come parametro dinam
 >
 >* È possibile includere manualmente più valori di modificatore nel campo Parole chiave racchiudendo i valori separati da virgola tra parentesi prima o dopo un parametro di parola chiave (ma non in entrambe le posizioni). Ad esempio: `(cheap, discount, affordable)[product]` produce tre annunci separati per ciascun prodotto.
 >* Se non si specifica un tipo di corrispondenza, viene utilizzato il tipo di corrispondenza predefinito &quot;broad&quot;.
-* I risultati negativi non sono supportati.
-* I modificatori di corrispondenza ampia di Google ora hanno lo stesso comportamento di corrispondenza della corrispondenza della frase per alcune lingue e non è possibile creare nuove parole chiave di modificatore di corrispondenza ampia. Consulta la [[!DNL Google Ads] documentazione](https://support.google.com/google-ads/answer/10286719) per ulteriori informazioni.
+>* I risultati negativi non sono supportati.
+>* I modificatori di corrispondenza ampia di Google ora hanno lo stesso comportamento di corrispondenza della corrispondenza della frase per alcune lingue e non è possibile creare nuove parole chiave di modificatore di corrispondenza ampia. Consulta la [[!DNL Google Ads] documentazione](https://support.google.com/google-ads/answer/10286719) per ulteriori informazioni.
 
 **[!UICONTROL Map Only]:** Aggiunge nuovi annunci ai gruppi di annunci (o alle campagne per [!DNL Yandex] ) in cui vengono trovate le parole chiave specificate, anziché creare nuove parole chiave. Per attivare questa opzione, selezionare la casella di controllo. Quando questa opzione è attivata, tutte le variabili Param 1 e Param 2 nelle parole chiave specificate non vengono applicate perché le parole chiave esistono.
 
@@ -195,12 +195,12 @@ Se si utilizza un [!DNL Google Merchant Center] feed e includi questo valore nel
 
 >[!NOTE]
 >
-* Se generi URL di tracciamento quando pubblichi dati propagati tramite il modello, i parametri di tracciamento vengono aggiunti a questo valore in base alle impostazioni di tracciamento dell’account.
-* ([!DNL Google Ads] account) Evita l&#39;uso di macro, che non vengono sostituite dai clic provenienti da origini che abilitano il tracciamento parallelo. Se l’inserzionista deve utilizzare delle macro, il Team dell’account Adobe deve collaborare con l’Assistenza clienti o con il team di implementazione per aggiungerle.
+>* Se generi URL di tracciamento quando pubblichi dati propagati tramite il modello, i parametri di tracciamento vengono aggiunti a questo valore in base alle impostazioni di tracciamento dell’account.
+>* ([!DNL Google Ads] account) Evita l&#39;uso di macro, che non vengono sostituite dai clic provenienti da origini che abilitano il tracciamento parallelo. Se l’inserzionista deve utilizzare delle macro, il Team dell’account Adobe deve collaborare con l’Assistenza clienti o con il team di implementazione per aggiungerle.
 
 **[!UICONTROL Keyword Tracking Template]:** (Account con URL finali/avanzati; facoltativo) Il modello di tracciamento, che specifica tutti i reindirizzamenti del dominio di destinazione e i parametri di tracciamento e incorpora l’URL finale in un parametro. Il modello di tracciamento al livello più granulare (con la parola chiave come valore più granulare) sostituisce i valori a tutti gli altri livelli.
 
-* Ad Adobe Advertising, il tracciamento delle conversioni, che viene applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; Search, Social e Commerce aggiunge automaticamente il codice di reindirizzamento e di tracciamento quando si salva il record.
+* Ad Adobe Advertising, il tracciamento delle conversioni, che viene applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; Search, Social &amp; Commerce aggiunge automaticamente il codice di reindirizzamento e di tracciamento quando si salva il record.
 
 * Facoltativamente, puoi inserire reindirizzamenti e tracciamento di terze parti.
 
@@ -216,9 +216,9 @@ Se si utilizza uno di questi parametri, è possibile applicarlo solo alle nuove 
 
 * **[!UICONTROL Do Not Apply to Existing Keywords]** (impostazione predefinita): inserisce semplicemente il valore del parametro per le nuove parole chiave create utilizzando il modello.
 
-* **[!UICONTROL Apply to Existing Keywords: Constant]:** Oltre a creare nuove parole chiave dal feed, Search, Social e Commerce aggiorna anche il valore del parametro per tutte le parole chiave esistenti nel gruppo di annunci che non sono state create utilizzando il modello. Immettere un singolo valore numerico da utilizzare per tutte le parole chiave. Il modello deve contenere almeno una parola chiave.
+* **[!UICONTROL Apply to Existing Keywords: Constant]:** Oltre a creare nuove parole chiave dal feed, Search, Social e Commerce aggiornano anche il valore del parametro per tutte le parole chiave esistenti nel gruppo di annunci che non sono state create utilizzando il modello. Immettere un singolo valore numerico da utilizzare per tutte le parole chiave. Il modello deve contenere almeno una parola chiave.
 
-* **[!UICONTROL Apply to Existing Keywords: Min]:** Oltre a creare nuove parole chiave dal feed, Search, Social e Commerce aggiorna anche il valore del parametro per tutte le parole chiave esistenti nel gruppo di annunci che non sono state create utilizzando il modello, purché il file di feed contenga valori numerici per il parametro, con un massimo di un punto decimale ma senza virgole, simboli o codici di valuta o qualsiasi altro carattere. Il valore minimo per il parametro nel file di feed viene utilizzato per tutte le parole chiave esistenti. Ad esempio, se il file di feed ha [!UICONTROL Param1] valori di 21500 e 22000, quindi [!UICONTROL Param1] i valori per le parole chiave esistenti vengono modificati in 21500. Il modello deve contenere almeno una parola chiave. **Suggerimento** Utilizza questa opzione solo quando hai gruppi di annunci a tema stretto in modo che abbia senso che le parole chiave abbiano lo stesso valore.
+* **[!UICONTROL Apply to Existing Keywords: Min]:** Oltre a creare nuove parole chiave dal feed, Search, Social e Commerce aggiornano anche il valore del parametro per tutte le parole chiave esistenti nel gruppo di annunci che non sono state create utilizzando il modello, purché il file di feed contenga valori numerici per il parametro, con un massimo di un punto decimale ma senza virgole, simboli o codici di valuta o qualsiasi altro carattere. Il valore minimo per il parametro nel file di feed viene utilizzato per tutte le parole chiave esistenti. Ad esempio, se il file di feed ha [!UICONTROL Param1] valori di 21500 e 22000, quindi [!UICONTROL Param1] i valori per le parole chiave esistenti vengono modificati in 21500. Il modello deve contenere almeno una parola chiave. **Suggerimento** Utilizza questa opzione solo quando hai gruppi di annunci a tema stretto in modo che abbia senso che le parole chiave abbiano lo stesso valore.
 
 I campi dati nel file di feed possono contenere un massimo di 25 caratteri e possono essere costituiti solo da dati numerici con i seguenti caratteri non numerici:
 
@@ -234,9 +234,9 @@ I campi dati nel file di feed possono contenere un massimo di 25 caratteri e pos
 
    * È possibile incorporare due numeri con una barra. Ad esempio, sono validi 4/1 e 0,95/0,45.
 
-**[!UICONTROL Param 2]\[[!DNL Microsoft® Advertising] template\]:** ([!DNL Microsoft® Advertising] solo modelli) Stringa da utilizzare come valore di sostituzione in un annuncio se il titolo, il testo, l’URL di visualizzazione o l’URL finale contiene `{Param2}` stringa di sostituzione dinamica. La lunghezza massima è di 70 caratteri, ma occorre considerare la lunghezza massima dell’elemento dell’annuncio in cui viene utilizzato (ad esempio, un titolo dell’annuncio può includere fino a 25 caratteri).
+**[!UICONTROL Param 2]\[[!DNL Microsoft® Advertising] template\]:** ([!DNL Microsoft® Advertising] solo modelli) Stringa da utilizzare come valore di sostituzione in un annuncio se il titolo, il testo, l’URL di visualizzazione o l’URL finale contiene `{Param2}` stringa di sostituzione dinamica. La lunghezza massima è di 70 caratteri, ma tieni presente la lunghezza massima degli elementi dell’annuncio in cui lo utilizzi (ad esempio, un titolo dell’annuncio può includere fino a 25 caratteri).
 
-**[!UICONTROL Param 3]:** ([!DNL Microsoft® Advertising] solo modelli) Stringa da utilizzare come valore di sostituzione in un annuncio se il titolo, il testo, l’URL di visualizzazione o l’URL finale contiene `{Param3}` stringa di sostituzione dinamica. La lunghezza massima è di 70 caratteri, ma occorre considerare la lunghezza massima dell’elemento dell’annuncio in cui viene utilizzato (ad esempio, un titolo dell’annuncio può includere fino a 25 caratteri).
+**[!UICONTROL Param 3]:** ([!DNL Microsoft® Advertising] solo modelli) Stringa da utilizzare come valore di sostituzione in un annuncio se il titolo, il testo, l’URL di visualizzazione o l’URL finale contiene `{Param3}` stringa di sostituzione dinamica. La lunghezza massima è di 70 caratteri, ma tieni presente la lunghezza massima degli elementi dell’annuncio in cui lo utilizzi (ad esempio, un titolo dell’annuncio può includere fino a 25 caratteri).
 
 **[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** L’offerta iniziale per ogni parola chiave con il tipo di corrispondenza o di annuncio specificato.
 
@@ -318,7 +318,7 @@ Per gli annunci di ricerca responsive, inserisci un ad customizer utilizzando i 
 
 [!DNL Microsoft® Advertising] e [!DNL Yahoo! Japan Ads] hanno dichiarato obsolete la creazione e la modifica di annunci di testo standard.
 
-**[!UICONTROL Base URL]:** (Solo account con URL di destinazione) La pagina alla quale vengono indirizzati gli utenti. Può includere codice di reindirizzamento e tracciamento di terze parti. Se utilizzi il servizio di tracciamento delle conversioni di Adobi Advertising e le impostazioni della campagna includono l’utilizzo di [!UICONTROL EF Redirect] e aggiungendo il tracciamento a livello di annuncio, Search, Social e Commerce aggiunge automaticamente il proprio codice di reindirizzamento e tracciamento all’annuncio.
+**[!UICONTROL Base URL]:** (Solo account con URL di destinazione) La pagina alla quale vengono indirizzati gli utenti. Può includere codice di reindirizzamento e tracciamento di terze parti. Se utilizzi il servizio di tracciamento delle conversioni di Adobi Advertising e le impostazioni della campagna includono l’utilizzo di [!UICONTROL EF Redirect] e aggiungendo il tracciamento a livello di annuncio, quindi Search, Social e Commerce aggiunge automaticamente il proprio codice di reindirizzamento e tracciamento all’annuncio.
 
 Per inserire un nome di colonna o un gruppo di modificatori come parametro dinamico, fare clic nel campo di input e quindi fare clic sul nome di una colonna nell&#39;elenco delle colonne oppure su [nome modificatore](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) nel [!UICONTROL Modifiers] elenco.
 
@@ -328,12 +328,12 @@ Se si utilizza un [!DNL Google Merchant] Alimentazione centrata e includi questo
 
 >[!NOTE]
 >
-* Se generi URL di tracciamento quando pubblichi dati propagati tramite il modello, i parametri di tracciamento vengono aggiunti a questo valore in base alle impostazioni di tracciamento dell’account.
-* ([!DNL Google Ads] account ) Evita l&#39;utilizzo di macro, che non vengono sostituite dai clic provenienti da origini che abilitano il tracciamento parallelo. Se l’inserzionista deve utilizzare delle macro, l’Account Team Adobe deve collaborare con l’Assistenza clienti o con il team di implementazione per aggiungerle.
+>* Se generi URL di tracciamento quando pubblichi dati propagati tramite il modello, i parametri di tracciamento vengono aggiunti a questo valore in base alle impostazioni di tracciamento dell’account.
+>* ([!DNL Google Ads] account ) Evita l&#39;utilizzo di macro, che non vengono sostituite dai clic provenienti da origini che abilitano il tracciamento parallelo. Se l’inserzionista deve utilizzare delle macro, l’Account Team Adobe deve collaborare con l’Assistenza clienti o con il team di implementazione per aggiungerle.
 
 **[!UICONTROL Tracking Template]:** (Account con URL finali/avanzati; facoltativo) Il modello di tracciamento, che specifica tutti i reindirizzamenti del dominio di destinazione e i parametri di tracciamento e incorpora l’URL finale in un parametro. Il modello di tracciamento al livello più granulare (con la parola chiave come valore più granulare) sostituisce i valori a tutti gli altri livelli.
 
-Ad Adobe Advertising, il tracciamento delle conversioni, che viene applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; Search, Social e Commerce aggiunge automaticamente il codice di reindirizzamento e di tracciamento quando si salva il record.
+Ad Adobe Advertising, il tracciamento delle conversioni, che viene applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; Search, Social &amp; Commerce aggiunge automaticamente il codice di reindirizzamento e di tracciamento quando si salva il record.
 
 Per reindirizzamenti e tracciamento di terze parti, inserisci un valore. Per indicare l’URL della pagina di destinazione:
 
@@ -345,9 +345,9 @@ Per reindirizzamenti e tracciamento di terze parti, inserisci un valore. Per ind
 
 >[!NOTE]
 >
-* Se il [!UICONTROL Prefill] , i campi alternativi vengono precompilati con i campi originali e puoi modificarli in base alle esigenze.
-* Solo i campi della copia dell’annuncio che superano la lunghezza massima vengono sostituiti con il valore alternativo. Ad esempio, se solo un titolo o titolo originale è troppo lungo, la variante di annuncio generata utilizza il titolo o il titolo alternativo e le descrizioni originali. Assicurati pertanto che la copia dell’annuncio alternativa sia appropriata quando combinata con la copia dell’annuncio originale.
-* Se la copia dell’annuncio originale soddisfa i requisiti di lunghezza del motore di ricerca, la copia dell’annuncio alternativa viene eliminata.
+>* Se il [!UICONTROL Prefill] , i campi alternativi vengono precompilati con i campi originali e puoi modificarli in base alle esigenze.
+>* Solo i campi della copia dell’annuncio che superano la lunghezza massima vengono sostituiti con il valore alternativo. Ad esempio, se solo un titolo o titolo originale è troppo lungo, la variante di annuncio generata utilizza il titolo o il titolo alternativo e le descrizioni originali. Assicurati pertanto che la copia dell’annuncio alternativa sia appropriata quando combinata con la copia dell’annuncio originale.
+>* Se la copia dell’annuncio originale soddisfa i requisiti di lunghezza del motore di ricerca, la copia dell’annuncio alternativa viene eliminata.
 
 **\[Componente\] [!UICONTROL Ad Label Classifications] > \[Classificazione e valore etichetta\]:** (Facoltativo) Valori per un massimo di cinque classificazioni di etichette esistenti da assegnare alle varianti di annuncio create o modificate utilizzando il modello. Per ogni componente della campagna a cui desideri assegnare le classificazioni delle etichette:
 
@@ -385,8 +385,8 @@ Per reindirizzamenti e tracciamento di terze parti, inserisci un valore. Per ind
 
 >[!MORELIKETHIS]
 >
-* [Informazioni sull’automazione della gestione degli annunci tramite i feed di inventario](../inventory-feeds-about.md)
-* [Gestione dei modificatori](../modifiers-manage.md)
-* [Gestione dei file di feed dati di inventario](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
-* [Propagazione dei dati di feed tramite modelli](../feed-data-propagate.md)
-* [Pubblicare i dati della campagna dai feed di inventario alle reti di annunci](../propagated-data-post.md)
+>* [Informazioni sull’automazione della gestione degli annunci tramite i feed di inventario](../inventory-feeds-about.md)
+>* [Gestione dei modificatori](../modifiers-manage.md)
+>* [Gestione dei file di feed dati di inventario](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
+>* [Propagazione dei dati di feed tramite modelli](../feed-data-propagate.md)
+>* [Pubblicare i dati della campagna dai feed di inventario alle reti di annunci](../propagated-data-post.md)

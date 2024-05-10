@@ -3,9 +3,9 @@ title: ID Adobe Advertising utilizzati da [!DNL Analytics]
 description: ID Adobe Advertising utilizzati da [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 9374f5ef6aaff1f638022bc878c7af190e31888f
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1684'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ L’ID EF è un token univoco utilizzato da Adobi Advertising per associare l’
 
 >[!NOTE]
 >
->Gli ID EF fanno distinzione tra maiuscole e minuscole. Se un [!DNL Analytics] L’implementazione forza il tracciamento URL in lettere minuscole, quindi Adobi Advertising non riconoscerà l’ID EF. Questo influirà sulle offerte e sui rapporti di Adobi Advertising, ma non ha alcun impatto sulla generazione di rapporti di Adobi Advertising in [!DNL Analytics].
+>Gli ID EF fanno distinzione tra maiuscole e minuscole. Se un [!DNL Analytics] L’implementazione forza il tracciamento URL in minuscolo, quindi Adobi Advertising non riconosce l’ID EF. Questo influisce sulle offerte e sui rapporti di Adobi Advertising, ma non ha alcun impatto sulla generazione di rapporti di Adobi Advertising in [!DNL Analytics].
 
 #### [!DNL Google Ads] annunci di ricerca
 

@@ -3,9 +3,9 @@ title: Best practice per l’impostazione di campagne sulle prestazioni
 description: Scopri le best practice per la configurazione di campagne incentrate sulle prestazioni, che includono posizionamenti ottimizzati per il CPA più basso o il ROAS più alto.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: c2c2ddb18b100dc0592d07af3ed1d9f030178eca
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ L’DSP può ottimizzare le campagne incentrate sulle prestazioni. Consulta le s
 
 ## Passaggio 1: definire l’obiettivo
 
-È importante comprendere l&#39;obiettivo della campagna, ad esempio raggiungere il ROAS più alto possibile o il CPA più basso possibile. Le campagne di prestazioni presentano [obiettivi di ottimizzazione](/help/dsp/optimization/optimization-goals.md) &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] o &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)].&quot; Per ogni pacchetto della campagna, specificherai di conseguenza l’obiettivo di ottimizzazione.
+È importante comprendere l&#39;obiettivo della campagna, ad esempio raggiungere il ROAS più alto possibile o il CPA più basso possibile. Le campagne di prestazioni presentano [obiettivi di ottimizzazione](/help/dsp/optimization/optimization-goals.md) &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] o &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)].&quot; Per ogni pacchetto della campagna, specifica di conseguenza l’obiettivo di ottimizzazione.
 
 ![obiettivo di ottimizzazione](/help/dsp/assets/optimization-goals.png)
 
-Devi anche determinare gli eventi di successo che porteranno all’obiettivo generale e creare obiettivi personalizzati di conseguenza. Per ogni pacchetto, specificherai un obiettivo personalizzato da utilizzare con l’obiettivo di ottimizzazione generale per il reporting e l’ottimizzazione algoritmica utilizzando [!DNL Adobe Sensei]. Per ulteriori informazioni sulla creazione di obiettivi personalizzati, vedi [Best practice per la creazione di un obiettivo personalizzato](custom-goal.md#custom-goal-best-practices).
+È inoltre necessario determinare gli eventi di successo che conducono all’obiettivo generale e creare obiettivi personalizzati di conseguenza. Per ogni pacchetto, specifica un obiettivo personalizzato da utilizzare con l’obiettivo di ottimizzazione generale per il reporting e l’ottimizzazione algoritmica utilizzando [!DNL Adobe Sensei]. Per ulteriori informazioni sulla creazione di obiettivi personalizzati, vedi [Best practice per la creazione di un obiettivo personalizzato](custom-goal.md#custom-goal-best-practices).
 
 ![obiettivi personalizzati](/help/dsp/assets/objective-goals.png)
 
@@ -73,7 +73,7 @@ Inoltre, utilizza le seguenti impostazioni.
 
   Ad esempio, se hai $ 100.000 da spendere in 30 giorni, imposta il budget per il volo 1 (giorni 1-10) su $ 25.000 (75% x $ 100.000/30 giorni = $ 2.500 al giorno). Utilizza il budget rimanente di $ 75.000 per il volo 2 (giorni 11-30).
 
-* **Budget:** L&#39;DSP cercherà sempre di allocare il 100% del budget del pacchetto in modo uniforme tra tutti i posizionamenti all&#39;interno di un pacchetto. Se un posizionamento ha una spesa bassa o nessuna spesa, si consiglia di limitare il budget al posizionamento per consentire di allocare una maggiore parte del budget a posizionamenti con scala. Consenti 24-48 ore per la calibrazione delle modifiche di budget.
+* **Budget:** L&#39;DSP cerca sempre di allocare il 100% del budget del pacchetto in modo uniforme tra tutti i posizionamenti all&#39;interno di un pacchetto. Se un posizionamento ha una spesa bassa o nessuna spesa, si consiglia di limitare il budget al posizionamento per consentire di allocare una maggiore parte del budget a posizionamenti con scala. Consenti 24-48 ore per la calibrazione delle modifiche di budget.
 
 * **Obiettivi di ottimizzazione:** Utilizzare uno dei due obiettivi di ottimizzazione delle prestazioni, *[!UICONTROL Highest Return on Ad Spend]* o *[!UICONTROL Lowest Cost per Acquisition]*, a seconda dell’obiettivo del pacchetto. Questi obiettivi ottimizzano automaticamente il pacchetto rispettivamente verso i posizionamenti ROAS più elevati o CPA più bassi.
 
@@ -97,7 +97,7 @@ Di seguito sono riportate le impostazioni di posizionamento consigliate per le c
 
 ### Obiettivi
 
-Puoi configurare l’ottimizzazione CPA o ROAS a livello di pacchetto (vedi Passaggio 3 - Creare pacchetti), ma puoi aggiungere altre impostazioni a livello di posizionamento.
+È necessario configurare l’ottimizzazione CPA o ROAS a livello di pacchetto (vedere Passaggio 3 - Creare pacchetti), ma è possibile aggiungere ulteriori impostazioni a livello di posizionamento.
 
 * **Offerta massima:**
    * Per la ricerca di posizionamenti, utilizza un&#39;offerta massima bassa ($ 5).
@@ -105,7 +105,7 @@ Puoi configurare l’ottimizzazione CPA o ROAS a livello di pacchetto (vedi Pass
 
 * **Filtri pre-offerta:** Riduci al minimo o evita idealmente di impostare filtri aggressivi pre-offerta, che impediscono al posizionamento di raggiungere la scala. Le best practice includono:
 
-   * Utilizza un (1) filtro di pre-offerta per posizionamento. Più filtri pre-offerta richiederanno il rispetto di entrambi, il che riduce la scalabilità.
+   * Utilizza un (1) filtro di pre-offerta per posizionamento. L’utilizzo di più filtri pre-offerta richiede il rispetto di entrambi, il che riduce la scalabilità.
 
    * Prendi in considerazione l’impostazione di filtri pre-offerta meno rigidi nei casi in cui viene applicato un targeting aggiuntivo (come targeting di pubblico, geografico e del sito).
 
@@ -132,7 +132,7 @@ Per massimizzare la scala, utilizza [!UICONTROL Public] (Open Exchange) e [!UICO
 
 >[!NOTE]
 >
->I tuoi annunci funzioneranno meglio se un utente può essere raggiunto da un solo posizionamento. Una significativa sovrapposizione degli utenti tra i posizionamenti può causare concorrenza, che si traduce in un ciclo di offerte in continuo aumento, aumentando il costo per utente. Pertanto, se includi più tipi di pubblico, assicurati che non siano composti da utenti/membri del pubblico sovrapposti.
+>I tuoi annunci funzionano meglio se un utente può essere raggiunto da un solo posizionamento. Una significativa sovrapposizione degli utenti tra i posizionamenti può causare concorrenza, che si traduce in un ciclo di offerte in continuo aumento, aumentando il costo per utente. Pertanto, se includi più tipi di pubblico, assicurati che non siano composti da utenti/membri del pubblico sovrapposti.
 >
 > È possibile evitare la sovrapposizione dei tipi di pubblico creando i tipi di pubblico in livelli in modo da poter eliminare i livelli più alti e più inclusivi dai posizionamenti in base alle esigenze.
 
@@ -147,7 +147,7 @@ Per massimizzare la scala, utilizza [!UICONTROL Public] (Open Exchange) e [!UICO
 
 ### Sicurezza del marchio e qualità dei contenuti multimediali
 
-Utilizzo del filtro contestuale, del blocco preventivo delle frodi e/o [!UICONTROL Ads.txt] il filtro limiterà la scala dei posizionamenti, ma li utilizzerà se necessario.
+Utilizzo del filtro contestuale, del blocco preventivo delle frodi e/o [!UICONTROL Ads.txt] il filtro limita la scala dei posizionamenti, ma utilizzali se necessario.
 
 ## Passaggio 5: utilizzare le risorse creative giuste
 

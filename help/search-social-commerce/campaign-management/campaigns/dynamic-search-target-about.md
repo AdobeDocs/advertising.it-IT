@@ -1,11 +1,11 @@
 ---
 title: Informazioni su [!DNL Google Ads] target di ricerca dinamica
 description: Informazioni su [!DNL Google Ads] destinazioni di ricerca dinamica.
-exl-id: 3936455b-926a-4a3f-b3df-54e92cdfdc99
+exl-id: e6a8a426-5848-4161-99f3-1140aa3e4b9f
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]solo account*
 
-Le destinazioni di ricerca dinamica definiscono se la rete di annunci utilizzerà tutte o un sottoinsieme delle pagine del sito web per eseguire il targeting degli annunci di ricerca dinamica. Configurare i target di ricerca dinamica a livello di gruppo di annunci; si applicano a tutti gli annunci di ricerca dinamica nello stesso gruppo di annunci.
+Le destinazioni di ricerca dinamica definiscono se la rete di annunci utilizza tutte o un sottoinsieme delle pagine del sito web per eseguire il targeting degli annunci di ricerca dinamica. Configurare i target di ricerca dinamica a livello di gruppo di annunci; si applicano a tutti gli annunci di ricerca dinamica nello stesso gruppo di annunci.
 
 A seconda delle impostazioni della campagna, le destinazioni di ricerca dinamica possono essere obbligatorie o facoltative:
 

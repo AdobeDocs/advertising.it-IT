@@ -3,7 +3,7 @@ title: Come l’DSP ottimizza le campagne
 description: Scopri come l’DSP ottimizza i pacchetti nelle campagne.
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -32,7 +32,7 @@ L’DSP può ottimizzare la distribuzione in due modi fondamentali, con 20 varia
 
 * Stabilire priorità per il bilanciamento dell&#39;efficienza dei costi con il tasso di prestazioni
 
-Consulta [Obiettivi di ottimizzazione e modalità di utilizzo](optimization-goals.md) per determinare quale obiettivo di ottimizzazione ti aiuterà a raggiungere i tuoi KPI.
+Consulta [Obiettivi di ottimizzazione e modalità di utilizzo](optimization-goals.md) per determinare quale obiettivo di ottimizzazione può aiutarti a raggiungere i tuoi KPI.
 
 ### Pacchetti che assegnano priorità al tasso di prestazioni
 
@@ -48,9 +48,9 @@ Questa modalità di ottimizzazione funziona correttamente se:
 
 #### Logica di andamento {#pacing-logic-performance}
 
-* Se la spesa è a ritmo sostenuto, le offerte diventano più selettive, in modo da fare offerte solo sulle aste che si prevede abbiano tassi di prestazioni elevati.
+* Se la spesa è a ritmo sostenuto, le offerte diventano più selettive in modo che si faccia un&#39;offerta solo per le aste che si prevede abbiano tassi di prestazioni elevati.
 
-* Se la spesa è in ritardo, le offerte diventano meno selettive, in modo da fare offerte sulle aste che si prevede abbiano tassi di prestazioni inferiori per raggiungere l&#39;obiettivo di ritmo.
+* Se la spesa è in ritardo, le offerte diventano meno selettive in modo che le offerte sulle aste prevedibilmente abbiano tassi di prestazioni inferiori per raggiungere l&#39;obiettivo di ritmo.
 
 #### Cancellazione dell&#39;ombreggiatura del prezzo/offerta {#clearing-price-performance}
 
@@ -80,7 +80,7 @@ I filtri pre-offerta di posizionamento sono il modo più rigido per garantire pr
 >
 >I filtri di pre-offerta disponibili variano a seconda del tipo di annuncio. Ad esempio, per un posizionamento di visualizzazione standard, puoi filtrare in base al tasso di click-through e alla visualizzabilità, ma non in base al tasso di completamento.
 
-Consulta [Filtri pre-offerta a livello di posizionamento e come utilizzarli](optimization-pre-bid-filters.md) per determinare quale filtro di pre-offerta ti aiuterà a ottenere i tuoi KPI.
+Consulta [Filtri pre-offerta a livello di posizionamento e come utilizzarli](optimization-pre-bid-filters.md) per determinare quale filtro di pre-offerta può aiutarti a ottenere i tuoi KPI.
 
 >[!MORELIKETHIS]
 >

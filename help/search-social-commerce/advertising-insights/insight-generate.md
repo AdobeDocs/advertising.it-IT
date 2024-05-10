@@ -1,11 +1,11 @@
 ---
 title: Genera un [!DNL Advertising Insight]
 description: Scopri come creare un [!DNL Advertising Insight].
-exl-id: 242095c9-25f0-4954-b1a8-5ea3db312afd
+exl-id: e6b692be-189e-4c6c-a536-e6c78801853d
 feature: Search Advertising Insights
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 4. Clic **[!UICONTROL Generate Insight]**.
 
-   Riceverai una notifica quando il processo viene completato o non riesce in base al tuo [impostazioni di notifica configurate](/help/search-social-commerce/notifications/notification-edit.md) per [!UICONTROL Advertising Insights].
+   Ricevi una notifica quando il processo viene completato o non riesce in base al tuo [impostazioni di notifica configurate](/help/search-social-commerce/notifications/notification-edit.md) per [!UICONTROL Advertising Insights].
 
 >[!MORELIKETHIS]
 >

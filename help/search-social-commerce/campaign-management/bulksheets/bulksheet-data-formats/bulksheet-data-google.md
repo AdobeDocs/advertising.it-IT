@@ -3,9 +3,9 @@ title: Dati bulksheet richiesti per [!DNL Google Ads] account
 description: Fai riferimento ai campi di intestazione e ai campi di dati obbligatori nei bulksheet per [!DNL Google Ads] account.
 exl-id: 756b77fe-f95d-469f-9ae0-7424c2fad0b1
 feature: Search Bulksheets
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '7860'
+source-wordcount: '7855'
 ht-degree: 0%
 
 ---
@@ -147,8 +147,8 @@ Per una descrizione di ciascun campo dati, vedi &quot;[Tutti i campi dati dispon
 | [!UICONTROL Delivery Method] | Obbligatorio per creare una campagna. |
 | [!UICONTROL Channel Type] | Obbligatorio per creare una campagna. |
 | [!UICONTROL Networks] | Obbligatorio per creare una campagna. |
-| [!UICONTROL DSA Domain Name] | È necessario per creare una campagna sulla rete di ricerca che avrà annunci di ricerca dinamici. |
-| [!UICONTROL DSA Domain Language] | È necessario per creare una campagna sulla rete di ricerca che avrà annunci di ricerca dinamici. |
+| [!UICONTROL DSA Domain Name] | Necessario per creare una campagna con annunci di ricerca dinamici sulla rete di ricerca. |
+| [!UICONTROL DSA Domain Language] | Necessario per creare una campagna con annunci di ricerca dinamici sulla rete di ricerca. |
 | [!UICONTROL Campaign Priority] | Obbligatorio per creare una campagna acquisti. |
 | [!UICONTROL Merchant ID] | Obbligatorio per creare una campagna acquisti. |
 | [!UICONTROL Sales Country] | Obbligatorio per creare una campagna acquisti. |

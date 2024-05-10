@@ -3,9 +3,9 @@ title: Impostazioni report personalizzati
 description: Consulta le descrizioni delle impostazioni del rapporto personalizzato.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
@@ -122,10 +122,10 @@ Consulta &quot;[Colonne report disponibili](report-columns.md)&quot; per le desc
 
 **[!UICONTROL Destination Type]:** Scegliere uno dei seguenti tipi di destinazione:
 
-* *[!UICONTROL S3]:* Per inviare il report completato a uno o più [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]), che verranno specificate nella sezione **[!UICONTROL Destination Name]** campo.
-* *[!UICONTROL sFTP]:* Per inviare il rapporto completato a una o più posizioni SFTP, che specificherai nella **[!UICONTROL Destination Name]** campo.
-* *[!UICONTROL FTP]:* Per inviare il report completato a una o più posizioni FTP, che verranno specificate nella **[!UICONTROL Destination Name]** campo.
-* *[!UICONTROL FTP SSL](attualmente in versione beta):* Per inviare il report completato a una o più posizioni FTP SSL, che verranno specificate nella **[!UICONTROL Destination Name]** campo.
+* *[!UICONTROL S3]:* Per inviare il report completato a uno o più [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]), che è necessario specificare nella sezione **[!UICONTROL Destination Name]** campo.
+* *[!UICONTROL sFTP]:* Per inviare il rapporto completato a una o più posizioni SFTP, che devi specificare nella **[!UICONTROL Destination Name]** campo.
+* *[!UICONTROL FTP]:* Per inviare il report completato a una o più posizioni FTP, che è necessario specificare nella **[!UICONTROL Destination Name]** campo.
+* *[!UICONTROL FTP SSL](attualmente in versione beta):* Per inviare il report completato a una o più posizioni FTP SSL, che è necessario specificare nella **[!UICONTROL Destination Name]** campo.
 * *[!UICONTROL Email]:* Per specificare gli indirizzi e-mail a cui inviare i report completati o le notifiche se il report viene annullato a causa di errori.
 
 >[!NOTE]

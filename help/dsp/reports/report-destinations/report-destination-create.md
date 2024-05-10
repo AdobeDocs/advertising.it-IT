@@ -3,10 +3,10 @@ title: Creare una destinazione di rapporto
 description: Scopri come creare una destinazione per la consegna di rapporti personalizzati.
 feature: DSP Custom Reports
 exl-id: 2a8d6cef-9c33-4483-ac1e-93778a231962
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '88'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
-> Se il rapporto è configurato per essere consegnato a qualsiasi tipo di FTP o [!DNL Amazon S3] posizione, non riceverai notifiche se il rapporto viene annullato a causa di errori. Se non ricevi i rapporti previsti, contatta il team del tuo account Adobe per scoprirne il motivo.
+> Se il rapporto è configurato per essere consegnato a qualsiasi tipo di FTP o [!DNL Amazon S3] posizione, non si ricevono notifiche se il rapporto viene annullato a causa di errori. Se non ricevi i rapporti previsti, contatta il team del tuo account Adobe per scoprirne il motivo.
 
 >[!MORELIKETHIS]
 >
@@ -30,4 +30,3 @@ ht-degree: 2%
 >* [[!UICONTROL Report Destination] Impostazioni](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [Modifica un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
 >* [Eliminare un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
-

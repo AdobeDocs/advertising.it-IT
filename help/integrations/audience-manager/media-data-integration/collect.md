@@ -3,9 +3,9 @@ title: Raccogliere dati di clic e impression dalle campagne Advertising DSP
 description: Scopri come acquisire impression basate su cookie e eventi di clic dagli annunci Advertising DSP utilizzando pixel di Audience Manager
 feature: Integration with Adobe Audience Manager
 exl-id: d827fbb8-b61a-4601-a42a-1ea60e4f36b7
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Dove:
 
 * `[Audience Manager customer domain]` è il nome di dominio che invierà gli eventi impression o clic a [!DNL Adobe].
 
-* `[source id]` è l’ID per [origine dati](#set-up-data-source) in cui potrai tenere traccia delle impression dell’DSP e dei dati sui clic.
+* `[source id]` è l’ID per [origine dati](#set-up-data-source) in cui tieni traccia delle impression dell’DSP e fai clic sui dati.
 
 * `[redirect URL]` è l’URL di reindirizzamento con doppia codifica. Se utilizzi uno strumento di codifica online, ad esempio www.urlencoder.org, esegui la stringa attraverso il codificatore e codifica nuovamente il risultato.
 
@@ -112,7 +112,7 @@ All’interno dell’ad server, inserisci il pixel dell’evento clic (con l’U
 
 ## Passaggio 3: attività successive all’implementazione
 
-Una volta implementati i tag evento, i dati fluiranno nei server di raccolta dati di Audienci Manager. Completa le seguenti attività prima di poter utilizzare i dati nei rapporti.
+Una volta implementati i tag evento, i dati fluiscono nei server di raccolta dati di Audienci Manager. Completa le seguenti attività prima di poter utilizzare i dati nei rapporti.
 
 ### Creare un [!DNL Amazon S3] Bucket e origine dati
 
@@ -120,7 +120,7 @@ Una volta che i dati si trovano sui server Audienci Manager, è necessario crear
 
 ### Creazione di segmenti e caratteristiche Audienci Manager
 
-I dati dell’evento confluiranno in Audienci Manager come [segnali non utilizzati](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html). Crea manualmente [caratteristiche basate su regole](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) dai dati acquisiti, quindi crea [segmenti](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html) utilizzando tali caratteristiche, prima di poter utilizzare i dati nei rapporti.
+I dati dell’evento fluiscono in Audienci Manager come [segnali non utilizzati](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html). Crea manualmente [caratteristiche basate su regole](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) dai dati acquisiti, quindi crea [segmenti](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html) utilizzando tali caratteristiche, prima di poter utilizzare i dati nei rapporti.
 
 Caratteristica di esempio che popola i dati a livello di utente per gli utenti esposti a un contenuto creativo specifico nell’DSP:
 

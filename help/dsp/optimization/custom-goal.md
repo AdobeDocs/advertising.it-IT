@@ -2,16 +2,17 @@
 title: Obiettivi personalizzati
 description: Scopri gli obiettivi personalizzati per definire gli eventi di successo in pacchetti ottimizzati per il CPA più basso o il ROAS più alto.
 feature: DSP Optimization
-source-git-commit: 7b9926d0bbba12728ed6a42e56115e8df708587b
+exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
 
 # Obiettivi personalizzati
 
-Gli obiettivi personalizzati definiscono gli eventi di successo necessari a un inserzionista per raggiungere i suoi obiettivi aziendali. Ogni pacchetto che utilizza l’obiettivo di ottimizzazione &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] o &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; deve includere un obiettivo personalizzato che contribuisca a raggiungere l’obiettivo di ottimizzazione generale. Puoi creare obiettivi personalizzati con *obiettivi* in [!DNL Advertising Search, Social, & Commerce].
+Gli obiettivi personalizzati definiscono gli eventi di successo necessari a un inserzionista per raggiungere i suoi obiettivi aziendali. Ogni pacchetto che utilizza l’obiettivo di ottimizzazione &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] o &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; deve includere un obiettivo personalizzato per aiutare a raggiungere l’obiettivo di ottimizzazione generale. Puoi creare obiettivi personalizzati con *obiettivi* in [!DNL Advertising Search, Social, & Commerce].
 
 <!-- update image or omit it
 
@@ -103,7 +104,7 @@ Se l’obiettivo della campagna è il costo più basso per acquisizione (CPA) e 
 
 Esistono due scenari in cui puoi utilizzare più metriche in un obiettivo personalizzato:
 
-* L’obiettivo della campagna prevede più eventi di successo. Ad esempio, puoi promuovere più di un’azione nel sito (Download di PDF, Contattaci e Iscrizione e-mail) e tutte queste azioni contribuiscono al tuo obiettivo CPA. Se l’obiettivo include le tre metriche separate, ciascuna con un peso di uno (1) non mobile e mobile, il valore [!DNL Adobe Sensei] Ogni metrica e tipo di dispositivo dell’utente riceverà lo stesso livello di importanza dall’algoritmo. Se le diverse metriche e i diversi tipi di dispositivi hanno costi o importanza diversi, è necessario regolare di conseguenza i loro pesi relativi.
+* L’obiettivo della campagna prevede più eventi di successo. Ad esempio, puoi promuovere più di un’azione nel sito (Download di PDF, Contattaci e Iscrizione e-mail) e tutte queste azioni contribuiscono al tuo obiettivo CPA. Se l’obiettivo include le tre metriche separate, ciascuna con un peso di una (1) non mobile e mobile, allora il [!DNL Adobe Sensei] L’algoritmo tratta ciascuno dei tipi di metriche e dispositivi utente con la stessa importanza. Se le diverse metriche e i diversi tipi di dispositivi hanno costi o importanza diversi, è necessario regolare di conseguenza i loro pesi relativi.
 
 <!-- update image or delete it and adjust the wording above
 

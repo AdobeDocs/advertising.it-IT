@@ -3,9 +3,9 @@ title: Impostazioni campagna
 description: Consulta le descrizioni delle impostazioni disponibili per la campagna.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Per stimare le imposte da trattenere:
 
 >[!NOTE]
 >
-> Puoi impostare i limiti di frequenza a livello di campagna, pacchetto e posizionamento. L’DSP rispetterà il limite di frequenza più rigoroso nella gerarchia della campagna.
+> Puoi impostare i limiti di frequenza a livello di campagna, pacchetto e posizionamento. L’DSP rispetta il limite di frequenza più severo nella gerarchia delle campagne.
 
 **[!UICONTROL Packages]:** Il [pacchetti](/help/dsp/campaign-management/packages/package-about.md) da includere nella campagna. Seleziona i pacchetti esistenti e/o crea i pacchetti da includere. Se crei pacchetti, consulta le descrizioni di [impostazioni pacchetto](/help/dsp/campaign-management/packages/package-settings.md) per ulteriori informazioni.
 
@@ -126,7 +126,7 @@ Per stimare le imposte da trattenere:
 
 * **[!UICONTROL Target Age]:** L’intervallo di età di destinazione. Utilizza i cursori sinistro e destro per ridurre l’intervallo in base alle esigenze.
 
-* **[!UICONTROL Target Country]:** (Facoltativo) Paese di destinazione. [!DNL Nielsen] misurerà le impression distribuite solo nei paesi supportati.
+* **[!UICONTROL Target Country]:** (Facoltativo) Paese di destinazione. [!DNL Nielsen] le impression relative alle misure sono servite solo nei paesi supportati.
 
 **[!UICONTROL comScore vCE]:** (Facoltativo) Abilita [!DNL Comscore validated Campaign Essentials (vCE)] misurazione e reporting della verifica del pubblico, utilizzando le impostazioni specificate. Si applicano tariffe aggiuntive.
 
@@ -134,7 +134,7 @@ Per stimare le imposte da trattenere:
 
 * **[!UICONTROL Target Age]:** L’intervallo di età di destinazione. Utilizza i cursori sinistro e destro per ridurre l’intervallo in base alle esigenze.
 
-* **[!UICONTROL Target Country]:** (Facoltativo) Paese di destinazione. [!DNL Comscore] misurerà le impression distribuite solo nei paesi supportati.
+* **[!UICONTROL Target Country]:** (Facoltativo) Paese di destinazione. [!DNL Comscore] le impression relative alle misure sono servite solo nei paesi supportati.
 
 ### [!UICONTROL 1st Party Metrics]
 

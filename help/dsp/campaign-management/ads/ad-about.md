@@ -3,9 +3,9 @@ title: Informazioni sulla gestione degli annunci in Advertising DSP
 description: Informazioni sulla gestione degli annunci.
 feature: DSP Ads
 exl-id: 41dbe28e-a476-4601-a3d8-a9111eae3f6b
-source-git-commit: 9073400eb26957c63378bee90929009fcc82f78f
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -39,27 +39,26 @@ Tutti i seguenti tipi di annunci sono disponibili nell’DSP. Per le specifiche 
 
 * **Annunci video universali (solo di terze parti)**: gli annunci video universali consentono di eseguire il targeting dell’inventario video dagli ambienti desktop, mobile e TV connessa per l’inventario VPAID e VAST utilizzando un singolo posizionamento video. Combinano tutte le funzionalità della TV collegata, degli annunci pre-roll e pre-roll mobili e vengono visualizzati prima e durante i contenuti video. Gli indicatori di prestazioni chiave per il video universale includono [!UICONTROL Completion Rate] e [!UICONTROL Viewability Rate].
 
-   Gli annunci video universali possono essere collegati solo ai posizionamenti video universali.
+  Gli annunci video universali possono essere collegati solo ai posizionamenti video universali.
 
-   Consulta &quot;[Domande frequenti sui video universali](/help/dsp/campaign-management/faq-universal-video.md)&quot; per ulteriori informazioni sugli annunci video universali.
+  Consulta &quot;[Domande frequenti sui video universali](/help/dsp/campaign-management/faq-universal-video.md)&quot; per ulteriori informazioni sugli annunci video universali.
 
 ## Approvazioni di annunci DSP
 
 Quando crei un annuncio, l’DSP lo esamina per individuare le categorie sensibili, fai clic su Funzionalità URL e visualizza l’anteprima del rendering.
 
-Inizialmente, nella [!UICONTROL Status] colonna. Il processo di revisione richiede normalmente 24-48 ore. Un annuncio interrotto, tuttavia, potrebbe avere uno stato in sospeso per più di 48 ore, pertanto hai il tempo di correggere gli errori prima che l’annuncio venga rifiutato. Gli annunci rifiutati includono un motivo del rifiuto.
+Inizialmente, l’annuncio [!UICONTROL Status] nella colonna viene visualizzato un punto rosso. Il processo di revisione richiede normalmente 24-48 ore. Un annuncio interrotto, tuttavia, potrebbe avere uno stato in sospeso per più di 48 ore, pertanto hai il tempo di correggere gli errori prima che l’annuncio venga rifiutato. Gli annunci rifiutati includono un motivo del rifiuto.
 
-Quando l&#39;DSP approva un annuncio, compare un punto verde nella colonna Stato.
+Quando l’DSP approva un annuncio, la colonna Stato dell’annuncio mostra un punto verde.
 
 ![indicatore di approvazione in [!UICONTROL Status] colonna](/help/dsp/assets/ad-approval-status.png)
 
 >[!NOTE]
 >
->Il tuo annuncio verrà trasmesso solo se sia l’DSP che la SSP hanno approvato il contenuto creativo. Ciascuna SSP ha i propri requisiti e la propria procedura di approvazione.
+>Il tuo annuncio può essere servito solo se sia l&#39;DSP che la SSP hanno approvato il contenuto creativo. Ciascuna SSP ha i propri requisiti e la propria procedura di approvazione.
 
 >[!MORELIKETHIS]
 >
 >* [Creare un singolo annuncio](ad-create.md)
 >* [Creare più annunci di terze parti](ad-create-multiple.md)
 >* [Specifiche annuncio](ad-specs.md)
-

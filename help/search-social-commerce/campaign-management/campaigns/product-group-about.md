@@ -3,9 +3,9 @@ title: Informazioni sui gruppi di prodotti di acquisto
 description: Scopri come acquistare gruppi di prodotti nelle campagne di acquisto.
 exl-id: ae270935-1464-4393-8b8c-745fee077522
 feature: Search Campaign Management
-source-git-commit: 4ed0d225dafcb07e8a563ef7e723cd247da5e1a9
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---

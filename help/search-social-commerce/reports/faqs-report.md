@@ -1,11 +1,11 @@
 ---
 title: Domande frequenti sui rapporti personalizzati
 description: Scopri le risposte alle domande comuni sui rapporti sulle prestazioni, inclusa la risoluzione dei problemi relativi ai dati.
-exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
+exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: 2903bf783969b3e2d59c0933629cbb170c0a314c
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '3912'
+source-wordcount: '3922'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Puoi vedere quali conversioni sono risultate da un clic su un [!DNL Google Ads] 
 Quando la riga include dati per campagne di ricerca abilitate per il contenuto, campagne di visualizzazione o campagne social, che non includono parole chiave, la riga [!UICONTROL Keyword] mostra invece il nome del gruppo di annunci applicabile.
 +++
 
-+++A causa di cambiamenti stagionali o di mercato, i miei rapporti mostrano dati atipici. Questo influisce sulle offerte quando cambiano le condizioni?
++++A causa di cambiamenti stagionali o di mercato, i miei rapporti mostrano dati atipici. Questo influisce sulle offerte una volta che le condizioni cambiano?
 La funzionalità di ottimizzazione crea quotidianamente i propri modelli di ricavo per ogni unità di offerta per garantire che identifichi e risponda immediatamente alle tendenze, e i modelli incorporano dati storici a lungo termine per aiutare a prevedere le prestazioni stagionali. Impostazione del modello di ricavo del portafoglio per l&#39;emivita<!-- add link to glossary? --> determina anche la ponderazione dei dati recenti sui ricavi. La best practice prevede di ridurre l’emivita durante un periodo di prestazioni atipiche, ma di aumentarla dopo l’adeguamento del modello di ricavo. Se hai domande sulla necessità di regolare l’emivita, contatta il tuo Account Team Adobe.
 
 Se non desideri che i dati del periodo influiscano sulle offerte future, puoi scegliere di escludere tali date dal modello. Contatta il team del tuo account Adobe per escludere le date.
@@ -98,7 +98,7 @@ Questa situazione può verificarsi quando i formati della metrica utilizzano num
 +++
 
 +++Quando mancano i dati di clic o i ricavi, come posso evitare che influiscano sulle offerte future?
-Si verificano problemi di dati di clic quando Search, Social &amp; Commerce non è sincronizzato con la rete di annunci. Contatta il team dell’account Adobe per sincronizzare manualmente l’account. Se mancano i dati di clic per un’intera giornata, chiedi al team dell’account Adobe di escludere tale giornata dai modelli di costo.
+Si verificano problemi di dati di clic quando Search, Social e Commerce non sono sincronizzati con la rete di annunci. Contatta il team dell’account Adobe per sincronizzare manualmente l’account. Se mancano i dati di clic per un’intera giornata, chiedi al team dell’account Adobe di escludere tale giornata dai modelli di costo.
 
 I problemi relativi ai dati dei ricavi possono verificarsi a causa di un problema di tracciamento o di un file di feed. Contatta il team del tuo account Adobe per indagare sul problema. Se mancano dati sui ricavi per un’intera giornata, chiedi al team dell’account Adobe di escludere tale giornata dai modelli di ricavo.
 +++
@@ -117,7 +117,7 @@ Per impostazione predefinita, tutti i dati monetari nei rapporti vengono visuali
 
 ## Metriche delle prestazioni standard
 
-+++Nei rapporti mancano i dati su clic.
++++Mancano dati di clic nei rapporti.
 Di seguito sono riportati i motivi comuni della mancanza di dati di clic.
 
 | Causa | Rilevamento/analisi | Risoluzione |
@@ -127,13 +127,13 @@ Di seguito sono riportati i motivi comuni della mancanza di dati di clic.
 +++
 
 +++I dati sulle prestazioni sono diversi dai dati nell’editor della rete di annunci.
-Quando la rete di annunci invia aggiornamenti ai dati precedenti (spesso perché hanno attribuito la frode dei clic ad alcuni clic), Search, Social &amp; Commerce non aggiorna i dati a meno che non ci sia una discrepanza di oltre il 5% e l’Adobe Account Team file una richiesta.
+Quando la rete di annunci invia aggiornamenti ai dati precedenti (spesso perché hanno attribuito la frode dei clic ad alcuni clic), Search, Social e Commerce non aggiornano i dati a meno che non vi sia una discrepanza di oltre il 5% e l’Adobe Account Team file una richiesta.
 
-Inoltre, quando confronti i dati di condivisione delle impression aggregati in un intervallo di date, i dati riportati dai rapporti di Search, Social e Commerce possono differire da quelli riportati dalla rete di annunci. Questa differenza è dovuta al modo in cui i dati vengono segnalati dall’API dell’ad network, che Search, Social &amp; Commerce utilizza per richiamare i dati. Ad esempio, per [!DNL Google Ads] dati:
+Inoltre, quando confronti i dati di condivisione delle impression aggregati in un intervallo di date, i dati riportati dai rapporti di Search, Social e Commerce possono differire da quelli riportati dalla rete di annunci. Questa differenza è dovuta al modo in cui i dati vengono segnalati dall’API dell’ad network, utilizzata da Search, Social e Commerce per richiamare i dati. Ad esempio, per [!DNL Google Ads] dati:
 
 * Per la maggior parte delle metriche di condivisione delle impression, [!DNL Google Ads] limita il limite inferiore o superiore dei valori segnalati per i valori inferiori al 10% o superiori al 90%. I dati sono riportati come 0,0999 per &lt;10% e 0,9001 per >90%
 
-* In presenza di una combinazione di dati con e senza limiti all’interno dell’intervallo di date, Search, Social e Commerce aggregano i dati delle impression utilizzando i valori inviati nell’API così come sono, utilizzando 0,0999 per le righe con &lt;10% e 0,9001 per le righe con >90%. Questa aggregazione potrebbe risultare in una varianza rispetto al [!DNL Google Ads] dati preaggregati perché [!DNL Google Ads] può utilizzare valori percentuali effettivi, ad esempio 7% o 97%.
+* In presenza di una combinazione di dati con e senza limiti di tempo all’interno dell’intervallo di date, Search, Social e Commerce aggregano i dati delle impression utilizzando i valori inviati nell’API così com’è, utilizzando 0,0999 per le righe con &lt;10% e 0,9001 per le righe con >90%. Questa aggregazione potrebbe risultare in una varianza rispetto al [!DNL Google Ads] dati preaggregati perché [!DNL Google Ads] può utilizzare valori percentuali effettivi, ad esempio 7% o 97%.
 +++
 
 +++I dati sulle prestazioni nei rapporti sono diversi dai dati in [!DNL Google Analytics].
@@ -141,7 +141,7 @@ I due sistemi misurano dati diversi, pertanto è necessario che visualizzino dat
 
 * Search, Social e Commerce (e Google Ads) tengono traccia dei clic, mentre [!DNL Google Analytics] tiene traccia delle visite per sessione del browser di 30 minuti. Ad esempio, se un utente fa clic una volta sull’annuncio, fa clic sul pulsante Indietro e quindi di nuovo sull’annuncio, in Ricerca, Social e Commerce vengono registrati due clic, ma [!DNL Google Analytics] registra una visita.
 
-* [!DNL Google Analytics] mostra tutti i dati relativi al traffico, mentre in Ricerca, Social e Commercio (e [!DNL Google Ads]) filtra i clic non validi (ad esempio i clic eccessivi e ripetuti).
+* [!DNL Google Analytics] mostra tutti i dati sul traffico, mentre in Ricerca, Social e Commerce (e [!DNL Google Ads]) filtra i clic non validi (ad esempio i clic eccessivi e ripetuti).
 
 * [!DNL Google Analytics] include i dati sui clic e sui ricavi per tutti i clic. Search, Social e Commerce non possono tenere traccia dei dati dei clic e dei ricavi per annunci e parole chiave con URL di tracciamento errati o mancanti.
 +++
@@ -172,7 +172,7 @@ Il rapporto potrebbe non includere le metriche di conversione per le quali si so
 
 1. Verifica che i tag di tracciamento della conversione corretti siano implementati in tutte le pagine web applicabili. Se necessario, chiedi al tuo Account Team Adobe di creare una transazione di prova per ogni tag di tracciamento della conversione applicabile e di acquisire i dettagli della transazione, ad esempio `transactionid` e dettagli dal cookie (come il `trackingid`, `clickid`e così via).
 
-1. Se il [!UICONTROL Auto Upload] L’opzione è disabilitata per la campagna e hai aggiunto parole chiave o annunci, quindi assicurati di aver generato un modello di tracciamento o un URL di destinazione che includa il tracciamento dei clic di ricerca, social e commerce per ciascuno di essi. Il team dell’account di Adobe può eseguire un rapporto interno per verificare se gli URL di tracciamento dei clic (modelli di tracciamento o URL di destinazione) sono mancanti o non validi.
+1. Se il [!UICONTROL Auto Upload] L&#39;opzione è disabilitata per la campagna e hai aggiunto parole chiave o annunci, quindi assicurati di aver generato un modello di tracciamento o un URL di destinazione che includa il tracciamento dei clic di Ricerca, Social e Commerce per ciascuno di essi. Il team dell’account di Adobe può eseguire un rapporto interno per verificare se gli URL di tracciamento dei clic (modelli di tracciamento o URL di destinazione) sono mancanti o non validi.
 
    Se necessario, genera il tracciamento creando un file bulksheet con gli URL corretti e inserisci il file nell’account appropriato utilizzando **Genera URL di tracciamento** opzione.
 
@@ -180,7 +180,7 @@ Il rapporto potrebbe non includere le metriche di conversione per le quali si so
 
 1. Se nessuno di questi passaggi risolve il problema, [contatta l’Assistenza clienti](/help/search-social-commerce/get-help.md).
 
-   Se il cliente non è stato avviato o è appena stato avviato, l’Assistenza clienti verifica se è stato configurato un parser di ricavi. Se il parser è configurato, verifica se Search, Social e Commerce sta ricevendo conversioni di pixel e risolve il problema.
+   Se il cliente non è stato avviato o è appena stato avviato, l’Assistenza clienti verifica se è stato configurato un parser di ricavi. Se il parser è configurato, verifica se Search, Social e Commerce ricevono conversioni di pixel e risolve il problema.
 
 **Inserzionisti che inviano feed di dati di conversione**
 
@@ -206,7 +206,7 @@ Il rapporto potrebbe non includere le metriche di conversione per le quali si so
 
 1. Se il file è stato inviato, [contatta l’Assistenza clienti](/help/search-social-commerce/get-help.md).
 
-   L’Assistenza clienti verificherà se il file è stato ricevuto e analizzato. Se il file è stato elaborato senza errori, verificherà la presenza di transazioni orfane.
+   L’Assistenza clienti verificherà se il file è stato ricevuto e analizzato. Se il file è stato elaborato senza errori, verifica la presenza di transazioni orfane.
 +++
 
 +++Alcuni rapporti avanzati non includono i dati di conversione forniti da un feed dell’inserzionista.
@@ -219,7 +219,7 @@ Il [!UICONTROL Geo Distribution Report] e [!UICONTROL Domain Referral Report] ut
 
 *Possibili cause:*
 
-* Search, Social e Commerce ignora le entrate quando il cookie viene scaduto o eliminato, ma l’inserzionista potrebbe considerarlo entrate valide.
+* Search, Social e Commerce ignorano le entrate quando il cookie viene scaduto o eliminato, ma l’inserzionista potrebbe considerarlo entrate valide.
 
 * Il traffico verso la pagina dell’inserzionista proviene da un segnalibro o da una ricerca organica, anziché da un annuncio.
 
@@ -245,7 +245,7 @@ Consulta le possibili cause e soluzioni per le implementazioni pixel di cui sopr
 
 *Possibili cause:*
 
-* Search, Social e Commerce ignora le entrate quando il cookie scade o viene eliminato, ma l’inserzionista potrebbe considerarlo entrate valide.
+* Search, Social e Commerce ignorano le entrate alla scadenza o alla cancellazione del cookie, ma l’inserzionista potrebbe considerarle entrate valide.
 
 * Il traffico verso la pagina dell’inserzionista proviene da un segnalibro o da una ricerca organica, anziché da un annuncio.
 
@@ -265,13 +265,13 @@ Consulta le possibili cause e soluzioni per le implementazioni pixel di cui sopr
 
 *Possibili cause:*
 
-* Search, Social e Commerce ignora le entrate quando il cookie viene scaduto o eliminato, ma l’inserzionista potrebbe considerarlo entrate valide.
+* Search, Social e Commerce ignorano le entrate quando il cookie viene scaduto o eliminato, ma l’inserzionista potrebbe considerarlo entrate valide.
 
 * Il traffico verso la pagina dell’inserzionista proviene da un segnalibro o da una ricerca organica, anziché da un annuncio.
 
 * Ci sono [transazioni orfane](/help/search-social-commerce/glossary.md#o-p), quindi Search, Social e Commerce non contano tutti i ricavi che dovrebbero.
 
-* L’inserzionista ha convalidato un rapporto di ricerca, social e e commerce in base a un set di dati diverso da quello inviato nel feed.
+* L’inserzionista ha convalidato un rapporto Search, Social e Commerce in base a un set di dati diverso da quello inviato nel feed.
 
 * ID transazione (`ev_transid` non sono stati inviati, non sono univoci o non sono corretti.
 

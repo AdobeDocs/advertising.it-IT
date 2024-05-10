@@ -3,9 +3,9 @@ title: Creare un posizionamento
 description: Scopri come creare un posizionamento.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
       Alcuni campi dispongono di valori predefiniti che è possibile ignorare.
 
-      Se il pacchetto a cui è assegnato il posizionamento ha una velocità a livello di pacchetto, gli obiettivi e le impostazioni di velocità rifletteranno le impostazioni del pacchetto.
+      Se il pacchetto a cui è assegnato il posizionamento ha una velocità a livello di pacchetto, gli obiettivi e le impostazioni di velocità riflettono le impostazioni del pacchetto.
 
    1. (Facoltativo) In [!UICONTROL Geo-Targeting] , restringere le posizioni incluse o escluse.
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
          1. (Facoltativo) Per ogni annuncio aggiuntivo che desideri creare per il posizionamento, fai clic su **[!UICONTROL Attach Another Ad]**, quindi ripetere i passaggi 1-3.
 
-         1. Se non vuoi allegare annunci esistenti, fai clic su **[!UICONTROL I'm done for now]**.
+         1. Se non intendi allegare annunci esistenti, fai clic su **[!UICONTROL I'm done for now]**.
 
       * Per allegare gli annunci esistenti nella campagna:
 

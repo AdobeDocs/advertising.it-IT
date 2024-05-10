@@ -3,9 +3,9 @@ title: Sicurezza del marchio e qualità dei contenuti multimediali
 description: Ulteriori informazioni sulle funzioni di sicurezza del brand e qualità dei contenuti multimediali.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: 09ccb4790906e64834e52fb28956fe41997cbd1b
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ L’DSP mantiene un elenco di siti bloccati a livello globale per i quali l’es
 
 Come parte della nostra iniziativa Brand Safety per eliminare le attività che frodano gli inserzionisti, tutti i siti vengono controllati utilizzando le misure nell’elenco dei siti bloccati del grafico. Tutti i siti che non superano i controlli di sicurezza del marchio vengono aggiunti all’elenco dei siti bloccati a livello globale. Poiché l’DSP gestisce questo elenco in modo dinamico, i siti possono spostarsi in qualsiasi momento dall’elenco o viceversa, in base all’analisi più recente sulla sicurezza del marchio.
 
-Quando si include un sito nell&#39;elenco dei siti bloccati a livello globale come destinazione di posizionamento, il sito viene contrassegnato con un punto esclamativo rosso (!). Ciò indica che gli annunci non verranno eseguiti sul sito contrassegnato.
+Quando si include un sito nell&#39;elenco dei siti bloccati a livello globale come destinazione di posizionamento, il sito viene contrassegnato con un punto esclamativo rosso (!). Ciò indica che gli annunci non vengono eseguiti sul sito contrassegnato.
 
 >[!NOTE]
 >

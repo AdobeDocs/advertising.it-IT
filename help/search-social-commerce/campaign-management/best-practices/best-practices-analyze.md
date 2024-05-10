@@ -1,11 +1,11 @@
 ---
 title: Analizzare i rapporti per perfezionare le parole chiave e le impostazioni della campagna
 description: Scopri le best practice per l’utilizzo dei rapporti per perfezionare le parole chiave e le impostazioni delle campagne.
-exl-id: fe32561d-e910-40e0-8c37-889184b4e9c6
+exl-id: f1e3834b-2a6c-4d41-9355-70435a9e83e6
 feature: Search Best Practices
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Per ulteriori informazioni sulla regolazione delle parole chiave e delle imposta
 
 >[!TIP]
 >
->Per ulteriori best practice specifiche per le campagne nei portfolio, consulta anche la sezione Guida all’ottimizzazione > Gestione di Portfoli > Best practice per i Portfoli, disponibile in Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
+>Per ulteriori best practice specifiche per le campagne nei portfolio, consulta anche la sezione Guida all’ottimizzazione > Gestione di Portfoli > Best practice per i Portfoli, disponibile all’interno di Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 >[!MORELIKETHIS]
 >

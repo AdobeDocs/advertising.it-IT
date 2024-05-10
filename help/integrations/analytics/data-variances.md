@@ -3,9 +3,9 @@ title: Varianze di dati previste tra [!DNL Analytics] e ADOBE ADVERTISING
 description: Varianze di dati previste tra [!DNL Analytics] e ADOBE ADVERTISING
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '3212'
+source-wordcount: '3205'
 ht-degree: 0%
 
 ---
@@ -28,17 +28,17 @@ Il [!DNL Analytics for Advertising] l’integrazione utilizza due variabili ([!D
 
 Tuttavia, gli intervalli di lookback e i modelli di attribuzione sono configurabili sia in Analytics (tramite il [!DNL eVars]) e in Adobe Advertising. Inoltre, ad Adobe Advertising, il modello di attribuzione è configurabile non solo a livello di inserzionista (per l’ottimizzazione delle offerte), ma anche all’interno di singole visualizzazioni di dati e rapporti (solo a scopo di reporting). Ad esempio, un’organizzazione potrebbe preferire il modello di attribuzione distribuzione uniforme per l’ottimizzazione, ma utilizzare l’attribuzione ultimo contatto per i rapporti in Advertising DSP o [!DNL Advertising Search, Social, & Commerce]. La modifica dei modelli di attribuzione cambia il numero di conversioni attribuite.
 
-Se un intervallo di lookback o un modello di attribuzione viene modificato in un prodotto e non nell’altro, gli stessi rapporti di ciascun sistema mostreranno dati distinti:
+Se un intervallo di lookback o un modello di attribuzione viene modificato in un prodotto e non nell’altro, gli stessi rapporti di ciascun sistema mostrano dati distinti:
 
 * **Esempio di discrepanze causate da diversi intervalli di lookback:**
 
-  Supponiamo che Adobi Advertising abbia un intervallo di lookback di clic di 60 giorni e [!DNL Analytics] ha un intervallo di lookback di 30 giorni. E supponiamo che un utente arrivi al sito tramite un annuncio tracciato dagli Adobi Advertising, se ne vada, quindi ritorni al giorno 45 e converta. Adobi Advertising attribuirà la conversione alla visita iniziale perché la conversione si è verificata all’interno dell’intervallo di lookback di 60 giorni. [!DNL Analytics]Tuttavia, non può attribuire la conversione alla visita iniziale perché la conversione si è verificata dopo la scadenza dell’intervallo di lookback di 30 giorni. In questo esempio, l’Adobe Advertising segnala un numero di conversioni maggiore di [!DNL Analytics] sì.
+  Supponiamo che Adobi Advertising abbia un intervallo di lookback di clic di 60 giorni e [!DNL Analytics] ha un intervallo di lookback di 30 giorni. E supponiamo che un utente arrivi al sito tramite un annuncio tracciato dagli Adobi Advertising, se ne vada, quindi ritorni al giorno 45 e converta. Adobi Advertising attribuisce la conversione alla visita iniziale perché la conversione si è verificata all’interno dell’intervallo di lookback di 60 giorni. [!DNL Analytics]Tuttavia, non può attribuire la conversione alla visita iniziale perché la conversione si è verificata dopo la scadenza dell’intervallo di lookback di 30 giorni. In questo Adobe Advertising, viene segnalato un numero di conversioni maggiore di [!DNL Analytics] sì.
 
   ![Esempio di conversione attribuita in Adobi Advertising ma non [!DNL Analytics]](/help/integrations/assets/a4adc-lookback-example.png)
 
 * **Esempio di discrepanze causate da diversi modelli di attribuzione:**
 
-  Supponiamo che un utente interagisca con tre diversi annunci di Adobe Advertising prima della conversione, con i ricavi come tipo di conversione. Se un rapporto di Adobe Advertising utilizza un modello di distribuzione uniforme per l’attribuzione, i ricavi verranno attribuiti in modo uniforme a tutti gli annunci. Se [!DNL Analytics] utilizza il modello di attribuzione ultimo contatto; tuttavia, attribuirà i ricavi all’ultimo annuncio. Nell’esempio seguente, Adobi Advertising attribuisce un valore pari a 10 USD dei 30 USD di ricavi acquisiti a ciascuno dei tre annunci, mentre [!DNL Analytics] attribuisce tutti i 30 USD di ricavi all’ultimo annuncio visualizzato dall’utente. Quando confronti i rapporti di Adobi Advertising e [!DNL Analytics], puoi aspettarti di vedere l’impatto della differenza nell’attribuzione.
+  Supponiamo che un utente interagisca con tre diversi annunci di Adobe Advertising prima della conversione, con i ricavi come tipo di conversione. Se un rapporto di Adobe Advertising utilizza un modello di distribuzione uniforme per l’attribuzione, i ricavi vengono attribuiti in modo uniforme tra tutti gli annunci. Se [!DNL Analytics] utilizza il modello di attribuzione ultimo contatto, tuttavia, quindi attribuisce i ricavi all’ultimo annuncio. Nell’esempio seguente, Adobi Advertising attribuisce un valore pari a 10 USD dei 30 USD di ricavi acquisiti a ciascuno dei tre annunci, mentre [!DNL Analytics] attribuisce tutti i 30 USD di ricavi all’ultimo annuncio visualizzato dall’utente. Quando confronti i rapporti di Adobi Advertising e [!DNL Analytics], puoi aspettarti di vedere l’impatto della differenza nell’attribuzione.
 
   ![Ricavi diversi attribuiti a Adobi Advertising e [!DNL Analytics] in base a diversi modelli di attribuzione](/help/integrations/assets/a4adc-attribution-example.png)
 
@@ -110,7 +110,7 @@ Ad Adobe Advertising, puoi generare rapporti sui dati di conversione in base all
 
 ### Modelli di attribuzione potenzialmente diversi in [!DNL Marketing Channels]
 
-Più [!DNL Marketing Channels] i rapporti sono configurati con [!UICONTROL Last Touch] attribuzione, per la quale all’ultimo canale di marketing rilevato viene assegnato il 100% del valore di conversione. Utilizzo di diversi modelli di attribuzione per [!DNL Marketing Channels] rapporti e rapporti sugli Adobi Advertising condurranno a discrepanze nelle conversioni attribuite.
+Più [!DNL Marketing Channels] i rapporti sono configurati con [!UICONTROL Last Touch] attribuzione, per la quale all’ultimo canale di marketing rilevato viene assegnato il 100% del valore di conversione. Utilizzo di diversi modelli di attribuzione per [!DNL Marketing Channels] rapporti e rapporti di Adobe Advertising causa discrepanze nelle conversioni attribuite.
 
 ### Un intervallo di lookback potenzialmente diverso in [!DNL Marketing Channels]
 
@@ -230,13 +230,13 @@ I click-through e i click-through possono variare notevolmente a causa di clic a
 
 È inoltre meno probabile che i siti caricati su dispositivi mobili generino click-through a causa di larghezze di banda inferiori o della potenza di elaborazione disponibile, con conseguenti tempi di caricamento delle pagine di destinazione più lunghi. Non è raro che il 50-70% dei clic non si traduca in click-through. Negli ambienti mobili, la differenza può arrivare fino al 90% a causa della combinazione di un browser più lento e della maggiore probabilità che l’utente faccia clic accidentalmente sull’annuncio mentre scorre la pagina o tenta di chiudere l’annuncio.
 
-I dati dei clic possono anche essere registrati in ambienti che non possono registrare i click-through con i meccanismi di tracciamento correnti (come i clic provenienti da o in un’app mobile) o per i quali l’inserzionista ha implementato un solo approccio di tracciamento (ad esempio, con l’approccio JavaScript view-through, i browser che bloccano i cookie di terze parti tengono traccia dei clic, ma non dei click-through). Un motivo chiave per cui l’Adobe consiglia di distribuire sia l’approccio di tracciamento degli URL di clic che quello di tracciamento view-through JavaScript è quello di massimizzare la copertura dei click-through tracciabili.
+I dati dei clic possono anche essere registrati in ambienti che non possono registrare i click-through con i meccanismi di tracciamento correnti (come i clic che entrano in o provengono da un’app mobile) o per i quali l’inserzionista ha implementato un solo approccio di tracciamento (ad esempio, con l’approccio JavaScript view-through, i browser che bloccano i cookie di terze parti tengono traccia dei clic, ma non dei click-through). Un motivo chiave per cui l’Adobe consiglia di distribuire sia l’approccio di tracciamento degli URL di clic che quello di tracciamento view-through JavaScript è quello di massimizzare la copertura dei click-through tracciabili.
 
 ### Utilizzo delle metriche del traffico Adobe Advertising per i Dimension non Adobi Advertising
 
 Adobi Advertising fornisce ad Analytics [le metriche del traffico specifiche per la pubblicità e le dimensioni correlate da [!DNL DSP] e [!DNL Search, Social, & Commerce]](advertising-metrics-in-analytics.md). Le metriche fornite dall’Adobe Advertising sono applicabili solo alle dimensioni dell’Adobe Advertising specificate e i dati non sono disponibili per altre dimensioni in [!DNL Analytics].
 
-Ad esempio, se visualizzi [!UICONTROL Adobe Advertising Clicks] e [!UICONTROL Adobe Advertising Cost] metriche per conto, che è una dimensione di Adobe Advertising, visualizzerai il totale [!UICONTROL Adobe Advertising Clicks] e [!UICONTROL Adobe Advertising Cost] per account.
+Ad esempio, se visualizzi [!UICONTROL Adobe Advertising Clicks] e [!UICONTROL Adobe Advertising Cost] metriche per conto, che è una dimensione di Adobe Advertising, quindi il totale [!UICONTROL Adobe Advertising Clicks] e [!UICONTROL Adobe Advertising Cost] vengono visualizzati per account.
 
 ![Esempio di metriche di Adobe Advertising in un rapporto che utilizza una dimensione di Adobe Advertising](/help/integrations/assets/a4adc-traffic-supported-dimension.png)
 

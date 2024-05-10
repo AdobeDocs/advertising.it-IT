@@ -3,9 +3,9 @@ title: Revisione e modifica delle impostazioni di posizionamento tramite i fogli
 description: Scopri come rivedere e modificare le impostazioni di posizionamento chiave utilizzando i fogli di calcolo.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1432'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 Puoi scaricare le impostazioni per uno o più posizionamenti, o per tutti i posizionamenti in una campagna, in formato XLSX (foglio di calcolo Excel) per la revisione. Utilizza questa funzione per rivedere rapidamente dettagli quali:
 
 * Quali tipi di pubblico sono target della campagna.
-* Quando iniziano la consegna dei posizionamenti e quando finiranno.
+* Quando i posizionamenti iniziano a consegnare e quando terminano.
 * Quali annunci vengono allegati ai posizionamenti.
 
 Puoi quindi apportare modifiche a determinati campi e caricarli nuovamente in DSP in una sola volta. I campi modificabili includono nomi di posizionamento, stati, offerte, budget, strategie di velocità e limiti di frequenza.

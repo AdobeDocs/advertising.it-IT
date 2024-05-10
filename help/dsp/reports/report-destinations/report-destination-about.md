@@ -3,7 +3,7 @@ title: Informazioni su [!UICONTROL Report Destinations]
 description: Scopri come gestire le posizioni di consegna per i rapporti personalizzati.
 feature: DSP Custom Reports
 exl-id: f1cc7a0d-13cb-4a27-816b-897f373984a6
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Da questa vista puoi creare nuove destinazioni e modificare ed eliminare quelle 
 
 >[!NOTE]
 >
->L’aggiornamento delle credenziali per le destinazioni dei rapporti esistenti non interrompe la consegna dei rapporti, purché le credenziali siano valide.
+>L’aggiornamento delle credenziali per le destinazioni dei rapporti esistenti non interrompe la consegna dei rapporti se le credenziali sono valide.
 
 ![Destinazioni report](/help/dsp/assets/report-destinations.png)
 
@@ -43,4 +43,3 @@ Da questa vista puoi creare nuove destinazioni e modificare ed eliminare quelle 
 >* [[!UICONTROL Report Destination] Impostazioni](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [Modifica un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
 >* [Eliminare un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
-

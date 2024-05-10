@@ -3,9 +3,9 @@ title: Domande frequenti su Campaign Management
 description: Ulteriori informazioni sulla gestione delle campagne, compreso il periodo di latenza per le modifiche e cosa accade quando si apportano modifiche al budget durante un volo.
 feature: DSP Packages, DSP Placements
 exl-id: 8a443543-ebb1-4273-a007-afef07d32d8c
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ## Latenza di impostazione modifiche
 
-* Quando modificate un posizionamento o un&#39;impostazione di pacchetto, quando avrà effetto la modifica?
+* Quando modificate un posizionamento o un&#39;impostazione di pacchetto, quando ha effetto la modifica?
 
   Le modifiche alle impostazioni in genere hanno effetto immediato, ma possono richiedere fino a 12 ore.
 
-  Se è l’ultimo giorno di consegna, apporta modifiche all’inizio della giornata in modo che l’DSP abbia tutto il tempo di ricalibrare il pacchetto in base alle modifiche. Ad esempio, se si passa da una velocità pari a quella della consegna anticipata, l’DSP deve rivalutare il modo in cui distribuirà la spesa nel resto del volo. Non fare questo tipo di cambiamento se ti resta solo un&#39;ora per la consegna nell&#39;ultimo giorno del volo.
+  Se è l’ultimo giorno di consegna, apporta modifiche all’inizio della giornata in modo che l’DSP abbia tutto il tempo di ricalibrare il pacchetto in base alle modifiche. Ad esempio, se si passa da una velocità pari a quella della consegna anticipata, l’DSP deve rivalutare la modalità di distribuzione della spesa per la parte restante del volo. Non fare questo tipo di cambiamento se ti resta solo un&#39;ora per la consegna nell&#39;ultimo giorno del volo.
 
 ## Aggiornamenti budget a metà volo
 

@@ -2,9 +2,10 @@
 title: Sospendere o attivare una campagna
 description: Scopri come mettere in pausa o attivare una campagna live.
 feature: DSP Campaigns
-source-git-commit: bd02a305083a52ada68ea4a3f83b308687273968
+exl-id: ed199864-8532-411b-b8ea-443ee1c149a2
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 Sospendi una campagna in tempo reale o attiva una campagna in pausa se rientra nella pianificazione del volo configurata.
 
-Tutti i posizionamenti messi in pausa prima della sospensione di una campagna rimarranno in pausa al momento dell’attivazione della campagna.
+Tutti i posizionamenti messi in pausa prima della sospensione di una campagna rimangono in pausa al momento dell’attivazione della campagna.
 
 ## Sospendere una campagna
 

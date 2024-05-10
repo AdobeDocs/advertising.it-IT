@@ -3,7 +3,7 @@ title: Creare un singolo annuncio
 description: Scopri come creare un singolo annuncio di terze parti.
 feature: DSP Ads
 exl-id: fdfb02c0-9aec-4faf-b374-0f03c7a3fa98
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Per creare più annunci di terze parti alla volta, consulta [Creare più annunci
 
    >[!NOTE]
    >
-   >Il tuo annuncio verrà trasmesso solo se sia l’DSP che la SSP hanno approvato il contenuto creativo. Ciascuna SSP ha i propri requisiti e la propria procedura di approvazione.
+   >Il tuo annuncio può essere servito solo se sia l&#39;DSP che la SSP hanno approvato il contenuto creativo. Ciascuna SSP ha i propri requisiti e la propria procedura di approvazione.
 
 >[!MORELIKETHIS]
 >

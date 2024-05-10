@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] impostazioni della campagna'
 description: Fai riferimento alle impostazioni per [!DNL Google Ads] campagne.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 227a78310199ee8bf8a66bc3197f8eaf97cd008a
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '2431'
+source-wordcount: '2430'
 ht-degree: 0%
 
 ---
@@ -359,7 +359,7 @@ Per creare un obiettivo di conversione personalizzato, fai clic su **[!UICONTROL
 
 >[!TIP]
 >
->Per le campagne in portfolio ibridi per le quali carichi gli obiettivi nella rete di annunci, la best practice è quella di utilizzare obiettivi a livello di campagna che corrispondono agli obiettivi di conversione nell’obiettivo del portfolio. Tuttavia, se gli obiettivi della campagna includono [!DNL Google]-ha tracciato le conversioni, quindi le ha aggiunte all’interno del [!DNL Google Ads] perché non verranno caricati nuovamente sulla rete di annunci con l’obiettivo. Inoltre, all&#39;interno del [!DNL Google Ads] , rimuovi le azioni di conversione della campagna come obiettivi predefiniti dell’account contrassegnandole come obiettivi secondari (non primari).
+>Per le campagne in portfolio ibridi per le quali carichi gli obiettivi nella rete di annunci, la best practice è quella di utilizzare obiettivi a livello di campagna che corrispondono agli obiettivi di conversione nell’obiettivo del portfolio. Tuttavia, se gli obiettivi della campagna includono [!DNL Google]-ha tracciato le conversioni, quindi le ha aggiunte all’interno del [!DNL Google Ads] perché non vengono caricati nuovamente sulla rete di annunci con l’obiettivo. Inoltre, all&#39;interno del [!DNL Google Ads] , rimuovi le azioni di conversione della campagna come obiettivi predefiniti dell’account contrassegnandole come obiettivi secondari (non primari).
 
 <!-- Check on this:
 >If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.

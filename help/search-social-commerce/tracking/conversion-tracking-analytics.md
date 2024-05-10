@@ -1,11 +1,11 @@
 ---
 title: Tracciamento delle conversioni Adobe Analytics
 description: Scopri come utilizzare il tracciamento delle conversioni di Adobe Analytics per le campagne in Adobi Advertising.
-exl-id: 0ed1d059-829a-4090-950d-41cbcc27b3ac
+exl-id: c72cc988-5b51-4e1a-8cb6-6c3ca2a0226b
 feature: Search Tracking
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ Consulta &quot;[Panoramica di [!DNL Analytics for Advertising]](https://experien
 
 >[!PREREQUISITES]
 >
-> Fusi orari nell’account dell’inserzionista di Search, Social &amp; Commerce, il [!DNL Analytics] le suite di rapporti e gli account di rete dell’annuncio devono corrispondere. Se non corrispondono, esistono delle varianze di dati tra i sistemi.
+> Fusi orari nell’account dell’inserzionista Search, Social e Commerce, il [!DNL Analytics] le suite di rapporti e gli account di rete dell’annuncio devono corrispondere. Se non corrispondono, si verificano varianze di dati tra i sistemi.
 
 ## Panoramica sull’implementazione
 
-1. In entrata [!DNL Analytics], il team di implementazione di Search, Social &amp; Commerce modifica le seguenti impostazioni di configurazione per ogni suite di rapporti:
+1. In entrata [!DNL Analytics], il team di implementazione di Search, Social e Commerce modifica le seguenti impostazioni di configurazione per ogni suite di rapporti:
 
    * Scadenza per il `ef_id` [!DNL eVar] viene modificato per corrispondere all’intervallo di lookback del clic dell’inserzionista, ad Adobe Advertising.
 

@@ -1,11 +1,11 @@
 ---
 title: Configurare un account FTP per il caricamento dei bulksheet
 description: Scopri come richiedere un account FTP per caricare i file di bulksheet.
-exl-id: 6867d705-b8ef-4066-81dd-8742a6f5b126
+exl-id: c8c70638-10ea-476c-8b02-921adb091ef9
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ I file di bulksheet recuperati ed eventuali file di errore creati durante la reg
 
 1. Contatta il team dell’account Adobe per configurare un account FTP per il caricamento di file bulksheet.
 
-   Il team dell’account Adobe ti fornirà la posizione FTP, il nome utente e la password.
+   Il team dell’account Adobe ti fornisce la posizione FTP, il nome utente e la password.
 
 1. (Facoltativo) Per ricevere notifiche e-mail sui file bulksheet elaborati dal tuo account FTP, rivolgiti al team dell’account Adobe.
 
