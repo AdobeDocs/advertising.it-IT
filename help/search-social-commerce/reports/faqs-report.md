@@ -3,7 +3,7 @@ title: Domande frequenti sui rapporti personalizzati
 description: Scopri le risposte alle domande comuni sui rapporti sulle prestazioni, inclusa la risoluzione dei problemi relativi ai dati.
 exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '3922'
 ht-degree: 0%
@@ -326,17 +326,17 @@ Quando generi entrambi i rapporti per portfolio, i dati sono diversi se generi [
 +++L’output del rapporto include una combinazione di intervalli di date.
 Puoi visualizzare intervalli di date diversi se il feed aggrega i dati utilizzando qualsiasi livello di aggregazione di dati diverso da &quot;[!UICONTROL Daily].&quot;
 
-Per risolvere il problema, aggiorna il feed del foglio di calcolo per includere i dati aggregati giornalmente. Questa attività include l’aggiornamento del modello di rapporto, la generazione di un rapporto utilizzando il modello e la creazione di un [!DNL Microsoft® Excel] utilizzando il rapporto, quindi aggiornando le impostazioni del feed per includere il nuovo modello di Excel. Per ulteriori informazioni, consulta la sezione &quot;[Modifica impostazioni feed report foglio di calcolo](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
+Per risolvere il problema, aggiorna il feed del foglio di calcolo per includere i dati aggregati giornalmente. Questa attività include l’aggiornamento del modello di rapporto, la generazione di un rapporto utilizzando il modello e la creazione di un [!DNL Microsoft Excel] utilizzando il rapporto, quindi aggiornando le impostazioni del feed per includere il nuovo modello di Excel. Per ulteriori informazioni, consulta la sezione &quot;[Modifica impostazioni feed report foglio di calcolo](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
 +++
 
 +++Un feed di foglio di calcolo genera un errore interno.
-Questo errore può verificarsi se si modificano le colonne nel modello di report ma non si aggiorna il [!DNL Microsoft® Excel] modello.
+Questo errore può verificarsi se si modificano le colonne nel modello di report ma non si aggiorna il [!DNL Microsoft Excel] modello.
 
 Per risolvere il problema, aggiorna il feed del foglio di calcolo in modo da includere le nuove colonne. Questa attività include l’aggiornamento del modello di rapporto, la generazione di un rapporto utilizzando il modello e la creazione di un [!DNL Excel] utilizzando il rapporto, quindi aggiornando le impostazioni del feed per includere il nuovo modello di Excel. Per ulteriori informazioni, consulta la sezione &quot;[Modifica impostazioni feed report foglio di calcolo](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
 +++
 
 +++Quando si tenta di aprire un feed di foglio di calcolo in [!DNL Excel], [!DNL Excel] segnala un errore di &quot;contenuto illeggibile&quot; e i dati vengono rimossi dal contenuto recuperato.
-Quando [!DNL Microsoft® Excel] Il modello non ordina i dati in base alla data di inizio in ordine crescente. Il feed del foglio di calcolo può includere righe vuote. In particolare: [!DNL Excel] segnala l’errore &quot;Excel ha trovato contenuto illeggibile in &quot;&lt;*nome del rapporto*>.xlsx.&#39; Ripristinare il contenuto della cartella di lavoro? Se si considera attendibile l&#39;origine della cartella di lavoro, fare clic su sì.&quot; Se si fa clic su &quot;Sì&quot;, viene visualizzato il seguente messaggio: &quot;Record rimossi: informazioni sulle celle dalla parte /xl/worksheets/sheet1.xml&quot; e il feed del foglio di calcolo include righe vuote.
+Quando [!DNL Microsoft Excel] Il modello non ordina i dati in base alla data di inizio in ordine crescente. Il feed del foglio di calcolo può includere righe vuote. In particolare: [!DNL Excel] segnala l’errore &quot;Excel ha trovato contenuto illeggibile in &quot;&lt;*nome del rapporto*>.xlsx.&#39; Ripristinare il contenuto della cartella di lavoro? Se si considera attendibile l&#39;origine della cartella di lavoro, fare clic su sì.&quot; Se si fa clic su &quot;Sì&quot;, viene visualizzato il seguente messaggio: &quot;Record rimossi: informazioni sulle celle dalla parte /xl/worksheets/sheet1.xml&quot; e il feed del foglio di calcolo include righe vuote.
 
 Per risolvere il problema, modifica il [!DNL Excel] modello associato al feed in base al quale ordinare i dati [!DNL Start date in Ascending (Oldest to Newest) order], quindi carica il modello aggiornato tramite le impostazioni del feed del foglio di calcolo. Per ulteriori informazioni, consulta la sezione &quot;[Modifica feed report foglio di calcolo](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
 +++

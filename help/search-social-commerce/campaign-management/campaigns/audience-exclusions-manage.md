@@ -1,18 +1,18 @@
 ---
 title: Gestire le esclusioni di pubblico per campagne e gruppi di annunci
-description: Scopri come configurare e gestire le esclusioni di pubblico per i [!DNL Google Ads] e [!DNL Microsoft® Advertising] campagne e gruppi di annunci.
+description: Scopri come configurare e gestire le esclusioni di pubblico per i [!DNL Google Ads] e [!DNL Microsoft Advertising] campagne e gruppi di annunci.
 exl-id: 8bebc1fe-aad8-40f2-9dca-e4065a0c4990
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 0%
 
 ---
 
-# Gestire le esclusioni di pubblico per [!DNL Google Ads] e [!DNL Microsoft® Advertising] campagne e gruppi di annunci
+# Gestire le esclusioni di pubblico per [!DNL Google Ads] e [!DNL Microsoft Advertising] campagne e gruppi di annunci
 
-*[!DNL Google Ads]e [!DNL Microsoft® Advertising] solo*
+*[!DNL Google Ads]e [!DNL Microsoft Advertising] solo*
 
 Puoi escludere tipi di pubblico specifici come target per specifici gruppi di annunci e campagne. L’esclusione di un pubblico assicura che queste persone non ricevano annunci nei gruppi di annunci e nelle campagne specificati.
 

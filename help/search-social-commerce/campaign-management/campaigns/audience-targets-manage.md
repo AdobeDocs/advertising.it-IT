@@ -1,20 +1,20 @@
 ---
 title: Gestire i target di pubblico per campagne e gruppi di annunci
-description: Scopri come configurare e gestire i target di pubblico per il tuo [!DNL Google Ads] e [!DNL Microsoft® Advertising] campagne e gruppi di annunci.
+description: Scopri come configurare e gestire i target di pubblico per il tuo [!DNL Google Ads] e [!DNL Microsoft Advertising] campagne e gruppi di annunci.
 exl-id: 9a496d15-082d-44e1-a0a3-71356e24b932
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 0%
 
 ---
 
-# Gestisci i target di pubblico per il tuo [!DNL Google Ads] e [!DNL Microsoft® Advertising] campagne e gruppi di annunci
+# Gestisci i target di pubblico per il tuo [!DNL Google Ads] e [!DNL Microsoft Advertising] campagne e gruppi di annunci
 
-*[!DNL Google Ads]e [!DNL Microsoft® Advertising] solo*
+*[!DNL Google Ads]e [!DNL Microsoft Advertising] solo*
 
-[!DNL Google Ads] campagne e gruppi di annunci, e [!DNL Microsoft® Advertising] gruppi di annunci, può rivolgersi a tipi di pubblico specifici dalla stessa rete di annunci. La rete di annunci determina la dimensione del pubblico che deve essere targetizzabile.
+[!DNL Google Ads] campagne e gruppi di annunci, e [!DNL Microsoft Advertising] gruppi di annunci, può rivolgersi a tipi di pubblico specifici dalla stessa rete di annunci. La rete di annunci determina la dimensione del pubblico che deve essere targetizzabile.
 
 >[!NOTE]
 >

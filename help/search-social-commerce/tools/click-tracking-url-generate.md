@@ -3,7 +3,7 @@ title: Generare un URL di tracciamento dei clic
 description: Scopri come generare manualmente un URL di tracciamento dei clic per Search, Social e Commerce.
 exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
-source-git-commit: a4d892b413dde26a96f03c797991c4df17da7562
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Per informazioni su quando è necessario generare e implementare manualmente un 
 
            Esempio: http://www.example.com/travel.html
 
-         * ([!DNL Microsoft® Advertising] sitelink) `sitelink <tab> ** <tab> landing_page`
+         * ([!DNL Microsoft Advertising] sitelink) `sitelink <tab> ** <tab> landing_page`
 
            dove `sitelink` è il nome del sitelink e `landing_page` è un URL di pagina di destinazione o un URL di base valido.
 
@@ -48,7 +48,7 @@ Per informazioni su quando è necessario generare e implementare manualmente un 
 
            Il file può includere fino a 10.000 righe.
 
-         * ([!DNL Google Merchant Center] gruppi di prodotti e [!DNL Microsoft® Advertising] annunci di prodotti) `product name <tab> ** <tab> landing_page`
+         * ([!DNL Google Merchant Center] gruppi di prodotti e [!DNL Microsoft Advertising] annunci di prodotti) `product name <tab> ** <tab> landing_page`
 
            dove `product name` è il nome del prodotto e `landing_page` è un URL di pagina di destinazione o un URL di base valido.
 
@@ -64,13 +64,13 @@ Per informazioni su quando è necessario generare e implementare manualmente un 
 
            Esempio: http://www.example.com/travel.html
 
-         * ([!DNL Microsoft® Advertising] sitelink) `sitelink**landing_page`
+         * ([!DNL Microsoft Advertising] sitelink) `sitelink**landing_page`
 
            dove `sitelink` è il nome del sitelink e `landing_page` è un URL di pagina di destinazione o un URL di base valido.
 
            Esempio: `Careers**http://www.example.com/careers.html`
 
-         * ([!DNL Google Merchant Center] gruppi di prodotti e [!DNL Microsoft® Advertising] annunci di prodotti) `product name**landing_page`
+         * ([!DNL Google Merchant Center] gruppi di prodotti e [!DNL Microsoft Advertising] annunci di prodotti) `product name**landing_page`
 
            dove `product name` è il nome del prodotto e `landing_page` è un URL di pagina di destinazione o un URL di base valido.
 
@@ -82,7 +82,7 @@ Per informazioni su quando è necessario generare e implementare manualmente un 
 
 Per i conti con URL di destinazione, inserisci i valori nel [!UICONTROL Base URL] campi.
 
-Per i conti con URL finali, inserisci il valore su schermo nell’appropriato [!UICONTROL Tracking Template] campo. È necessario aggiungere un parametro per l’URL finale dopo il `&url=` parametro (ad esempio `{lpurl}`). Per [!DNL Yahoo! Japan Ads] account, utilizza il parametro `{lpurl}`. Per un elenco di [!DNL Google Ads] e [!DNL Microsoft® Advertising] parametri per indicare gli URL finali nei modelli di tracciamento, vedi [[!DNL Google Ads] documentazione](https://support.google.com/google-ads/answer/6305348) (vedi i parametri &quot;Solo modello di tracciamento&quot; nella sezione su &quot;Disponibile [!DNL ValueTrack] Parameters&quot;) e [[!DNL Microsoft® Advertising] documentazione](https://help.ads.microsoft.com/#apex/3/en/56799/2).
+Per i conti con URL finali, inserisci il valore su schermo nell’appropriato [!UICONTROL Tracking Template] campo. È necessario aggiungere un parametro per l’URL finale dopo il `&url=` parametro (ad esempio `{lpurl}`). Per [!DNL Yahoo! Japan Ads] account, utilizza il parametro `{lpurl}`. Per un elenco di [!DNL Google Ads] e [!DNL Microsoft Advertising] parametri per indicare gli URL finali nei modelli di tracciamento, vedi [[!DNL Google Ads] documentazione](https://support.google.com/google-ads/answer/6305348) (vedi i parametri &quot;Solo modello di tracciamento&quot; nella sezione su &quot;Disponibile [!DNL ValueTrack] Parameters&quot;) e [[!DNL Microsoft Advertising] documentazione](https://help.ads.microsoft.com/#apex/3/en/56799/2).
 
 >[!MORELIKETHIS]
 >

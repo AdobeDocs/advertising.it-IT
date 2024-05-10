@@ -1,16 +1,16 @@
 ---
-title: '[!DNL Microsoft® Advertising] impostazioni annunci multimediali'
-description: Fai riferimento alle impostazioni per [!DNL Microsoft® Advertising] annunci multimediali.
-exl-id: b7ce413c-ee7a-420a-8791-e2666cc33eba
+title: '[!DNL Microsoft Advertising] impostazioni annunci multimediali'
+description: Fai riferimento alle impostazioni per [!DNL Microsoft Advertising] annunci multimediali.
+exl-id: 920ecb8d-e179-4946-be60-64f00bbabb70
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] impostazioni degli annunci multimediali
+# [!DNL Microsoft Advertising] impostazioni degli annunci multimediali
 
 Gli annunci multimediali sono disponibili sulla rete di ricerca. La rete di annunci assembla dinamicamente annunci multimediali utilizzando le combinazioni più efficaci di elementi pubblicitari.
 
@@ -54,7 +54,7 @@ Vedere le proporzioni e le dimensioni consentite per [annunci multimediali](http
 >
 >* [Informazioni sugli annunci](ad-about.md)
 >* [Gestione annunci](ad-manage.md)
->* [[!DNL Microsoft® Advertising] impostazioni annunci per ricerca dinamica espansa](ad-settings-microsoft-dsa.md)
->* [[!DNL Microsoft® Advertising] impostazioni annuncio di prodotto](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft® Advertising] impostazioni degli annunci reattivi (pubblico)](ad-settings-microsoft-responsive.md)
->* [[!DNL Microsoft® Advertising] impostazioni degli annunci di ricerca responsive](ad-settings-microsoft-rsa.md)
+>* [[!DNL Microsoft Advertising] impostazioni annunci per ricerca dinamica espansa](ad-settings-microsoft-dsa.md)
+>* [[!DNL Microsoft Advertising] impostazioni annuncio di prodotto](ad-settings-microsoft-product.md)
+>* [[!DNL Microsoft Advertising] impostazioni degli annunci reattivi (pubblico)](ad-settings-microsoft-responsive.md)
+>* [[!DNL Microsoft Advertising] impostazioni degli annunci di ricerca responsive](ad-settings-microsoft-rsa.md)

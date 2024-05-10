@@ -1,21 +1,21 @@
 ---
-title: Configurare test A/B per annunci Search, Social e Commerce in Adobi Advertising Adobe Target
-description: Scopri come impostare un test A/B in [!DNL Target] per [!DNL Google Ads] e [!DNL Microsoft® Advertising] annunci in Search, Social e Commerce.
+title: Configurare test A/B per Adobi Advertising Search, Social e Commerce Ads in Adobe Target
+description: Scopri come impostare un test A/B in [!DNL Target] per [!DNL Google Ads] e [!DNL Microsoft Advertising] annunci in Search, Social e Commerce.
 exl-id: 564c7d61-beec-40cf-ac68-83d1e87e3008
-source-git-commit: b94541bf8675d535b2f19b26c05235eb56bc6c0b
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
 
 ---
 
-# Configurare i test A/B in Adobe Target per annunci pubblicitari, social e commerce
+# Configurare i test A/B in Adobe Target per annunci, social network e annunci Commerce
 
 *Inserzionisti solo con Advertising Search, Social e Commerce*
 
-*[!DNL Google Ads]e [!DNL Microsoft® Advertising] solo account*
+*[!DNL Google Ads]e [!DNL Microsoft Advertising] solo account*
 
-Adobi Advertising e Adobe Target semplificano la configurazione dei test A/B di esperienza della pagina di destinazione per il traffico pubblicitario digitale [!DNL Google Ads] e [!DNL Microsoft® Advertising] a:
+Adobi Advertising e Adobe Target semplificano la configurazione dei test A/B di esperienza della pagina di destinazione per il traffico pubblicitario digitale [!DNL Google Ads] e [!DNL Microsoft Advertising] a:
 
 * Migliorare i tassi di conversione (CVR) e le misure di efficienza di acquisizione (come CPA, CPL e CAC).
 
@@ -23,13 +23,13 @@ Adobi Advertising e Adobe Target semplificano la configurazione dei test A/B di 
 
 È inoltre possibile combinare [[!DNL Analytics] per la pubblicità](/help/integrations/analytics/overview.md) e [[!DNL Analytics] per [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) dimensioni di reporting per l’integrazione integrate in Adobe Analytics per misurare e visualizzare i dati di test con [!DNL Analytics] metriche ed eventi di successo.
 
-Consulta le sezioni seguenti per i prerequisiti e le istruzioni per impostare i test A/B in [!DNL Target] per il traffico click-through da annunci in Search, Social e Commerce e suggerimenti su come misurare e visualizzare i test in [!DNL Analytics].
+Consulta le sezioni seguenti per i prerequisiti e le istruzioni per impostare i test A/B in [!DNL Target] traffico click-through da annunci in Search, Social e Commerce; suggerimenti su come misurare e visualizzare i test in [!DNL Analytics].
 
 ## Prerequisiti
 
 ### Prodotti richiesti
 
-* Ricerca, social e commerce
+* Ricerca, social e Commerce
 * [!DNL Target]
 
 ### Prodotti e integrazioni consigliati
@@ -40,7 +40,7 @@ Consulta le sezioni seguenti per i prerequisiti e le istruzioni per impostare i 
 
 * [[!DNL Analytics] per [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) integrazione
 
-## Passaggio 1: creare un’attività di test A/B in [!DNL Target] per Ricerca, Social e Commerce
+## Passaggio 1: creare un’attività di test A/B in [!DNL Target] per Search, Social e Commerce
 
 Le istruzioni seguenti evidenziano le informazioni relative al caso d’uso Ricerca, Social e Commerce.
 
@@ -59,13 +59,13 @@ Le istruzioni seguenti evidenziano le informazioni relative al caso d’uso Rice
    1. Imposta il **[!UICONTROL Priority]** a `High` o `999` per evitare conflitti quando gli utenti nel segmento di test ricevono un’esperienza on-site errata.
 
 
-   1. Entro **[!UICONTROL Reporting Settings]**, seleziona la **[!UICONTROL Company Name]** e **[!UICONTROL Report Suite]** connessi al tuo account Search, Social &amp; Commerce.
+   1. Entro **[!UICONTROL Reporting Settings]**, seleziona la **[!UICONTROL Company Name]** e **[!UICONTROL Report Suite]** connessi al tuo account Search, Social e Commerce.
 
       Per ulteriori suggerimenti sul reporting, consulta &quot;[Best practice per il reporting e la risoluzione dei problemi](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html).&quot;
 
    1. In **[!UICONTROL Date Range]** immettere le date di inizio e di fine appropriate per il test.
 
-   1. Seleziona **[!UICONTROL Site Pages]** > **[!UICONTROL Landing Page]** > **[!UICONTROL Query]**. In **[!UICONTROL Value]** , immettere il [!UICONTROL Network Account ID], [!UICONTROL Network Campaign ID], [!UICONTROL Network Adgroup ID], o [!UICONTROL Network Ad ID] per l’entità pertinente della rete di annunci in Search, Social &amp; Commerce. Questo consente di utilizzare il [!DNL Target] parametri della stringa di query per i tipi di pubblico di click-through per l’entità.
+   1. Seleziona **[!UICONTROL Site Pages]** > **[!UICONTROL Landing Page]** > **[!UICONTROL Query]**. In **[!UICONTROL Value]** , immettere il [!UICONTROL Network Account ID], [!UICONTROL Network Campaign ID], [!UICONTROL Network Adgroup ID], o [!UICONTROL Network Ad ID] per l’entità pertinente della rete di annunci in Search, Social e Commerce. Questo consente di utilizzare il [!DNL Target] parametri della stringa di query per i tipi di pubblico di click-through per l’entità.
 
       Per trovare l’ID, utilizza [aggiunta della colonna ID rilevante alla vista entità](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
 

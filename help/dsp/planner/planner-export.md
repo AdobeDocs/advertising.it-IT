@@ -3,7 +3,7 @@ title: Esportare una previsione per un piano di copertura TV connessa
 description: Scopri come esportare le previsioni per un piano di portata TV collegato.
 feature: DSP Planner
 exl-id: f4bad569-1b56-439a-8c41-92a24a710476
-source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Esportare una previsione per un piano di copertura TV connessa
 
-Puoi esportare la [!UICONTROL Budget vs Reach] previsione a un [!DNL Microsoft® Excel] foglio ** calcolo con [!UICONTROL Budget] e [!UICONTROL Reach] colonne.
+Puoi esportare la [!UICONTROL Budget vs Reach] previsione a un [!DNL Microsoft Excel] foglio ** calcolo con [!UICONTROL Budget] e [!UICONTROL Reach] colonne.
 
 * In una previsione generata, fai clic su **[!UICONTROL ...]** > **[!UICONTROL Export]** in alto a destra.
 

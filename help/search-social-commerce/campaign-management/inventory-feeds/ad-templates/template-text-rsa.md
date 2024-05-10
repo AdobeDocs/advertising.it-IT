@@ -3,7 +3,7 @@ title: Impostazioni di annunci di testo e modelli di annunci di ricerca responsi
 description: Fai riferimento alle impostazioni per annunci di testo e modelli di annunci di ricerca responsive per feed di inventario.
 exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '3325'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 # Impostazioni di annunci di testo e modelli di annunci di ricerca responsive per i feed di inventario
 
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (solo azioni di eliminazione), e [!DNL Yandex] solo account*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (solo azioni di eliminazione), e [!DNL Yandex] solo account*
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ Se non viene trovata alcuna corrispondenza, tutti i dati della campagna vengono 
 
 * Per incorporare l’URL finale:
 
-   * ([!DNL Google Ads] e [!DNL Microsoft® Advertising] solo ) Per un elenco di parametri che indicano gli URL finali nei modelli di tracciamento, vedi ([!DNL Microsoft® Advertising] solo ) [[!DNL Microsoft® Advertising] documentazione](https://help.ads.microsoft.com/#apex/3/en/56799/2) o ([!DNL Google Ads] solo) i parametri &quot;Solo modello di tracciamento&quot; nella sezione su &quot;Disponibile [!DNL ValueTrack] Parameters&quot; nella sezione [[!DNL Google Ads] documentazione](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] e [!DNL Microsoft Advertising] solo ) Per un elenco di parametri che indicano gli URL finali nei modelli di tracciamento, vedi ([!DNL Microsoft Advertising] solo ) [[!DNL Microsoft Advertising] documentazione](https://help.ads.microsoft.com/#apex/3/en/56799/2) o ([!DNL Google Ads] solo) i parametri &quot;Solo modello di tracciamento&quot; nella sezione su &quot;Disponibile [!DNL ValueTrack] Parameters&quot; nella sezione [[!DNL Google Ads] documentazione](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] solo) Usa il parametro `!{unescapedurl}` per indicare l’URL della pagina di destinazione.
 
@@ -142,7 +142,7 @@ Per reindirizzamenti e tracciamento di terze parti, inserisci un valore. Per ind
 
 * Per Yahoo! Account Japan Ads, utilizza il parametro {lpurl}.
 
-* Per i parametri disponibili per gli account Microsoft® Advertising e Google Ads, vedi [[!DNL Microsoft® Advertising] documentazione](https://help.ads.microsoft.com/#apex/3/en/56799) o i parametri &quot;Solo modello di tracciamento&quot;nella sezione su &quot;Disponibile [!DNL ValueTrack] Parameters&quot; nella sezione [[!DNL Google Ads] documentazione](https://support.google.com/google-ads/answer/6305348).
+* Per i parametri disponibili per gli account Microsoft Advertising e Google Ads, vedi [[!DNL Microsoft Advertising] documentazione](https://help.ads.microsoft.com/#apex/3/en/56799) o i parametri &quot;Solo modello di tracciamento&quot;nella sezione su &quot;Disponibile [!DNL ValueTrack] Parameters&quot; nella sezione [[!DNL Google Ads] documentazione](https://support.google.com/google-ads/answer/6305348).
 
 Questo valore sostituisce le impostazioni a livello di account e di campagna, ma i modelli di tracciamento a livelli più granulari (con la parola chiave come più granulare) sostituiscono questo valore.
 
@@ -166,7 +166,7 @@ Questo valore sostituisce le impostazioni a livello di account e di campagna, ma
 
 Per inserire un nome di colonna o un gruppo di modificatori come parametro dinamico, fare clic nel campo di input e quindi fare clic sul nome di una colonna nell&#39;elenco delle colonne oppure su [nome modificatore](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) nell&#39;elenco Modificatori. Per specificare più parole chiave o più tipi di corrispondenza per la stessa parola chiave, immetterle su righe separate. Per specificare il tipo di corrispondenza della parola chiave, utilizzare la sintassi seguente intorno al nome della colonna:
 
-* Per [!DNL Google Ads], [!DNL Microsoft® Advertising], e [!DNL Yahoo! Japan Ads] modelli:
+* Per [!DNL Google Ads], [!DNL Microsoft Advertising], e [!DNL Yahoo! Japan Ads] modelli:
 
    * Per i parametri dinamici: Corrispondenza ampia = `[keyword]`, Broad Match Modifier per il primo termine nel [!UICONTROL Keyword] column (ad esempio +scarpe blu in camoscio) = `+[keyword]`, Broad Match Modifier per ogni termine nella colonna Parola chiave (ad esempio +blue +scamosciato +scarpe) = `+[keyword]+`, Corrispondenza frase = `"[keyword]"`, Corrispondenza esatta = `[[keyword]]`
 
@@ -206,7 +206,7 @@ Se si utilizza un [!DNL Google Merchant Center] feed e includi questo valore nel
 
 * Per indicare l’URL della pagina di destinazione:
 
-   * ([!DNL Google Ads] e [!DNL Microsoft® Advertising] solo ) Per un elenco di parametri che indicano gli URL finali nei modelli di tracciamento, vedi ([!DNL Microsoft® Advertising] solo ) [[!DNL Microsoft® Advertising] documentazione](https://help.ads.microsoft.com/#apex/3/en/56799) o ([!DNL Google Ads] solo) i parametri &quot;Solo modello di tracciamento&quot; nella sezione su &quot;Disponibile [!DNL ValueTrack] Parameters&quot; nella sezione [[!DNL Google Ads] documentazione](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] e [!DNL Microsoft Advertising] solo ) Per un elenco di parametri che indicano gli URL finali nei modelli di tracciamento, vedi ([!DNL Microsoft Advertising] solo ) [[!DNL Microsoft Advertising] documentazione](https://help.ads.microsoft.com/#apex/3/en/56799) o ([!DNL Google Ads] solo) i parametri &quot;Solo modello di tracciamento&quot; nella sezione su &quot;Disponibile [!DNL ValueTrack] Parameters&quot; nella sezione [[!DNL Google Ads] documentazione](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] solo) Usa il parametro `!{lpurl}` per indicare l’URL della pagina di destinazione.
 
@@ -234,15 +234,15 @@ I campi dati nel file di feed possono contenere un massimo di 25 caratteri e pos
 
    * È possibile incorporare due numeri con una barra. Ad esempio, sono validi 4/1 e 0,95/0,45.
 
-**[!UICONTROL Param 2]\[[!DNL Microsoft® Advertising] template\]:** ([!DNL Microsoft® Advertising] solo modelli) Stringa da utilizzare come valore di sostituzione in un annuncio se il titolo, il testo, l’URL di visualizzazione o l’URL finale contiene `{Param2}` stringa di sostituzione dinamica. La lunghezza massima è di 70 caratteri, ma tieni presente la lunghezza massima degli elementi dell’annuncio in cui lo utilizzi (ad esempio, un titolo dell’annuncio può includere fino a 25 caratteri).
+**[!UICONTROL Param 2]\[[!DNL Microsoft Advertising] template\]:** ([!DNL Microsoft Advertising] solo modelli) Stringa da utilizzare come valore di sostituzione in un annuncio se il titolo, il testo, l’URL di visualizzazione o l’URL finale contiene `{Param2}` stringa di sostituzione dinamica. La lunghezza massima è di 70 caratteri, ma tieni presente la lunghezza massima degli elementi dell’annuncio in cui lo utilizzi (ad esempio, un titolo dell’annuncio può includere fino a 25 caratteri).
 
-**[!UICONTROL Param 3]:** ([!DNL Microsoft® Advertising] solo modelli) Stringa da utilizzare come valore di sostituzione in un annuncio se il titolo, il testo, l’URL di visualizzazione o l’URL finale contiene `{Param3}` stringa di sostituzione dinamica. La lunghezza massima è di 70 caratteri, ma tieni presente la lunghezza massima degli elementi dell’annuncio in cui lo utilizzi (ad esempio, un titolo dell’annuncio può includere fino a 25 caratteri).
+**[!UICONTROL Param 3]:** ([!DNL Microsoft Advertising] solo modelli) Stringa da utilizzare come valore di sostituzione in un annuncio se il titolo, il testo, l’URL di visualizzazione o l’URL finale contiene `{Param3}` stringa di sostituzione dinamica. La lunghezza massima è di 70 caratteri, ma tieni presente la lunghezza massima degli elementi dell’annuncio in cui lo utilizzi (ad esempio, un titolo dell’annuncio può includere fino a 25 caratteri).
 
 **[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** L’offerta iniziale per ogni parola chiave con il tipo di corrispondenza o di annuncio specificato.
 
 ## [!UICONTROL Ads]
 
-**[!UICONTROL Ad Type]:** ([!DNL Google Ads] e [!DNL Microsoft® Advertising] solo campagne ) Il tipo di annunci: *[!UICONTROL Expanded Search Ads]* o *[!UICONTROL Responsive Search Ads]*.
+**[!UICONTROL Ad Type]:** ([!DNL Google Ads] e [!DNL Microsoft Advertising] solo campagne ) Il tipo di annunci: *[!UICONTROL Expanded Search Ads]* o *[!UICONTROL Responsive Search Ads]*.
 
 **[!UICONTROL Prefill]:** (Facoltativo) Precompila tutti i campi alternativi dell’ad copy con il testo dei campi dell’ad copy originale.
 
@@ -258,7 +258,7 @@ Per ogni posizione deve essere disponibile almeno un titolo. Se si fissano più 
 
 {{inventory-feed-template-insert-ad-customizer}}
 
-**[!UICONTROL Ad Title]:** (Solo annunci di testo standard Microsoft® Advertising esistenti; sola lettura) Il titolo o la prima riga di un annuncio. Microsoft® Advertising ha dichiarato obsolete la creazione e la modifica di annunci di testo standard.
+**[!UICONTROL Ad Title]:** (Solo annunci di testo standard di Microsoft Advertising esistenti; sola lettura) Il titolo o la prima riga di un annuncio. Microsoft Advertising ha dichiarato obsolete la creazione e la modifica di annunci di testo standard.
 
 **[!UICONTROL Headline 1]**, **[!UICONTROL Headline 2]:** ([!DNL Google Ads] e [!DNL Yahoo! Japan Ads] solo modelli di annunci di testo espansi/estesi) Il titolo di un annuncio. La lunghezza massima per ogni riga (dopo la sostituzione di eventuali parametri dinamici) è di 30 caratteri o 15 caratteri a doppio byte.
 
@@ -270,13 +270,13 @@ Per ogni posizione deve essere disponibile almeno un titolo. Se si fissano più 
 
 **[!UICONTROL Title]:** ([!DNL Yandex] solo) Il titolo o la prima riga di un annuncio. Il massimo è di 33 caratteri.
 
-**[!UICONTROL Title Part 1]**, **[!UICONTROL Title Part 2]:** (Solo annunci di testo espansi di Microsoft® Advertising) Titolo di un annuncio. La lunghezza massima per ogni riga (dopo la sostituzione di eventuali parametri dinamici) è di 30 caratteri o 15 caratteri a doppio byte.
+**[!UICONTROL Title Part 1]**, **[!UICONTROL Title Part 2]:** (Solo annunci di testo espansi di Microsoft Advertising) Titolo di un annuncio. La lunghezza massima per ogni riga (dopo la sostituzione di eventuali parametri dinamici) è di 30 caratteri o 15 caratteri a doppio byte.
 
 <!-- using a snippet for the note instead of an include because this is used multiple times on the page, which ExL doesn't support for includes -->
 
 {{inventory-feed-template-insert-dynamic-parameter}}
 
-**[!UICONTROL Ad Text]:** (Solo annunci di testo espansi di Microsoft® Advertising) Corpo di un annuncio. La lunghezza massima (dopo la sostituzione di eventuali parametri dinamici) è di 80 caratteri o 40 caratteri a doppio byte (come cinese, giapponese e coreano).
+**[!UICONTROL Ad Text]:** (Solo annunci di testo espansi di Microsoft Advertising) Corpo di un annuncio. La lunghezza massima (dopo la sostituzione di eventuali parametri dinamici) è di 80 caratteri o 40 caratteri a doppio byte (come cinese, giapponese e coreano).
 
 ### [!UICONTROL Descriptions]
 
@@ -312,11 +312,11 @@ Per gli annunci di ricerca responsive, inserisci un ad customizer utilizzando i 
 
 * [!DNL Google Ads]: `{CUSTOMIZER.AdCustomizerName:Default text}`, ad esempio `{CUSTOMIZER.Discount:10%}`
 
-* [!DNL Microsoft® Advertising]: `{CUSTOMIZER.Attribute name:Default text}`, ad esempio `{CUSTOMIZER.Discount:10%}`
+* [!DNL Microsoft Advertising]: `{CUSTOMIZER.Attribute name:Default text}`, ad esempio `{CUSTOMIZER.Discount:10%}`
 
-**[!UICONTROL Display URL]:** (Esistente [!DNL Microsoft® Advertising] e [!DNL Yahoo! Japan Ads] solo annunci di testo standard; sola lettura) URL visualizzato in un annuncio.
+**[!UICONTROL Display URL]:** (Esistente [!DNL Microsoft Advertising] e [!DNL Yahoo! Japan Ads] solo annunci di testo standard; sola lettura) URL visualizzato in un annuncio.
 
-[!DNL Microsoft® Advertising] e [!DNL Yahoo! Japan Ads] hanno dichiarato obsolete la creazione e la modifica di annunci di testo standard.
+[!DNL Microsoft Advertising] e [!DNL Yahoo! Japan Ads] hanno dichiarato obsolete la creazione e la modifica di annunci di testo standard.
 
 **[!UICONTROL Base URL]:** (Solo account con URL di destinazione) La pagina alla quale vengono indirizzati gli utenti. Può includere codice di reindirizzamento e tracciamento di terze parti. Se utilizzi il servizio di tracciamento delle conversioni di Adobi Advertising e le impostazioni della campagna includono l’utilizzo di [!UICONTROL EF Redirect] e aggiungendo il tracciamento a livello di annuncio, quindi Search, Social e Commerce aggiunge automaticamente il proprio codice di reindirizzamento e tracciamento all’annuncio.
 
@@ -339,7 +339,7 @@ Per reindirizzamenti e tracciamento di terze parti, inserisci un valore. Per ind
 
 * Per Yahoo! Account Japan Ads, utilizza il parametro {lpurl}.
 
-* Per i parametri disponibili per gli account Microsoft® Advertising e Google Ads, vedi [[!DNL Microsoft® Advertising] documentazione](https://help.ads.microsoft.com/#apex/3/en/56799) o i parametri &quot;Solo modello di tracciamento&quot;nella sezione su &quot;Disponibile [!DNL ValueTrack] Parameters&quot; nella sezione [[!DNL Google Ads] documentazione](https://support.google.com/google-ads/answer/6305348).
+* Per i parametri disponibili per gli account Microsoft Advertising e Google Ads, vedi [[!DNL Microsoft Advertising] documentazione](https://help.ads.microsoft.com/#apex/3/en/56799) o i parametri &quot;Solo modello di tracciamento&quot;nella sezione su &quot;Disponibile [!DNL ValueTrack] Parameters&quot; nella sezione [[!DNL Google Ads] documentazione](https://support.google.com/google-ads/answer/6305348).
 
 **\[Campi annuncio alternativi al di sotto dei campi annuncio originali\]:** (Facoltativo) Un set alternativo di copie di annunci per un annuncio, che può essere utilizzato se una qualsiasi delle righe nella copia dell’annuncio originale supera la lunghezza massima consentita una volta che tutti i parametri dinamici sono compilati con i dati durante la propagazione.
 

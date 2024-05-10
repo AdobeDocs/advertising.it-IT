@@ -1,34 +1,34 @@
 ---
 title: Gestire i tipi di pubblico in base ai clienti utilizzando gli elenchi di dati dei clienti
-description: Scopri come creare e modificare [!DNL Google Ads] e [!DNL Microsoft® Advertising] i clienti abbinano i tipi di pubblico dagli elenchi di dati cliente.
+description: Scopri come creare e modificare [!DNL Google Ads] e [!DNL Microsoft Advertising] i clienti abbinano i tipi di pubblico dagli elenchi di dati cliente.
 exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-source-git-commit: e8eabf7e4aa7c9201cd8198aae32d325b2858f2b
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
 
 ---
 
-# Gestisci [!DNL Google Ads] e [!DNL Microsoft® Advertising] customer match audience utilizzando gli elenchi di dati cliente
+# Gestisci [!DNL Google Ads] e [!DNL Microsoft Advertising] customer match audience utilizzando gli elenchi di dati cliente
 
-Puoi creare [!DNL Google Ads] e [!DNL Microsoft® Advertising] i clienti abbinano i tipi di pubblico dagli elenchi di dati cliente. Puoi anche aggiornare qualsiasi [!DNL Google Ads] o [!DNL Microsoft® Advertising] audience di customer match ad eccezione di [!DNL Google Ads] tipi di pubblico creati da un [!DNL Adobe] pubblico.
+Puoi creare [!DNL Google Ads] e [!DNL Microsoft Advertising] i clienti abbinano i tipi di pubblico dagli elenchi di dati cliente. Puoi anche aggiornare qualsiasi [!DNL Google Ads] o [!DNL Microsoft Advertising] audience di customer match ad eccezione di [!DNL Google Ads] tipi di pubblico creati da un [!DNL Adobe] pubblico.
 
 ## Creare un pubblico di corrispondenza cliente da un elenco di dati cliente
 
-*[!DNL Google Ads]e [!DNL Microsoft® Advertising] account idonei solo per il confronto con i clienti*
+*[!DNL Google Ads]e [!DNL Microsoft Advertising] account idonei solo per il confronto con i clienti*
 
-Puoi creare una [!DNL Google Ads] o [!DNL Microsoft® Advertising] elenco basato su dati cliente da un file di dati generato dal sistema di gestione delle relazioni con i clienti (CRM).
+Puoi creare una [!DNL Google Ads] o [!DNL Microsoft Advertising] elenco basato su dati cliente da un file di dati generato dal sistema di gestione delle relazioni con i clienti (CRM).
 
-Per [!DNL Microsoft® Advertising] account, il file può includere indirizzi e-mail. Per [!DNL Google Ads] account, il file può includere indirizzi e-mail, indirizzi postali o numeri di telefono; ID utente; o ID dispositivo mobile dal tuo CRM.
+Per [!DNL Microsoft Advertising] account, il file può includere indirizzi e-mail. Per [!DNL Google Ads] account, il file può includere indirizzi e-mail, indirizzi postali o numeri di telefono; ID utente; o ID dispositivo mobile dal tuo CRM.
 
 >[!NOTE]
 >
->Search, Social e Commerce non memorizzano i dati dei clienti che carichi o dai [!DNL Adobe] segmenti utilizzati per creare o modificare un [!DNL Google Ads] o [!DNL Microsoft® Advertising] pubblico.
+>Search, Social e Commerce non memorizzano i dati dei clienti caricati o provenienti da [!DNL Adobe] segmenti utilizzati per creare o modificare un [!DNL Google Ads] o [!DNL Microsoft Advertising] pubblico.
 
 1. Genera un file con i dati del cliente nel formato richiesto.
 
-   È necessario eseguire l’hashing di nomi e cognomi, indirizzi e-mail e numeri di telefono utilizzando l’algoritmo SHA-256. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Per [!DNL Google Ads] tipi di pubblico, consulta la [!DNL Google Ads] documentazione su &quot;[Linee guida sulla formattazione per il caricamento di dati con hash](https://support.google.com/google-ads/answer/7476159)&quot; per un elenco dei campi e dei requisiti consentiti per le informazioni di contatto. Per [!DNL Microsoft® Advertising] tipi di pubblico, consulta la [!DNL Microsoft® Advertising] documentazione su [preparazione degli elenchi di corrispondenza cliente](https://help.ads.microsoft.com/#apex/ads/en/56921. Facoltativamente, puoi scaricare una [!DNL Microsoft® Excel] modello per informazioni di contatto.
+   È necessario eseguire l’hashing di nomi e cognomi, indirizzi e-mail e numeri di telefono utilizzando l’algoritmo SHA-256. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Per [!DNL Google Ads] tipi di pubblico, consulta la [!DNL Google Ads] documentazione su &quot;[Linee guida sulla formattazione per il caricamento di dati con hash](https://support.google.com/google-ads/answer/7476159)&quot; per un elenco dei campi e dei requisiti consentiti per le informazioni di contatto. Per [!DNL Microsoft Advertising] tipi di pubblico, consulta la [!DNL Microsoft Advertising] documentazione su [preparazione degli elenchi di corrispondenza cliente](https://help.ads.microsoft.com/#apex/ads/en/56921. Facoltativamente, puoi scaricare una [!DNL Microsoft Excel] modello per informazioni di contatto.
 
 1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
@@ -85,13 +85,13 @@ Per [!DNL Microsoft® Advertising] account, il file può includere indirizzi e-m
 
 ## Modificare un pubblico con Customer Match utilizzando un elenco di dati cliente
 
-È possibile aggiornare qualsiasi [!DNL Google Ads] o [!DNL Microsoft® Advertising] audience di customer match ad eccezione di [!DNL Google Ads] tipi di pubblico creati da un [!DNL Adobe] pubblico. Puoi caricare dati per aggiungere, eliminare o sostituire tutti i dati esistenti per il pubblico.
+È possibile aggiornare qualsiasi [!DNL Google Ads] o [!DNL Microsoft Advertising] audience di customer match ad eccezione di [!DNL Google Ads] tipi di pubblico creati da un [!DNL Adobe] pubblico. Puoi caricare dati per aggiungere, eliminare o sostituire tutti i dati esistenti per il pubblico.
 
 I dati devono essere dello stesso tipo dell’elenco clienti originale (indirizzi e-mail, indirizzi postali, numeri di telefono, ID utente o ID dispositivo mobile per un’app specifica su un sistema operativo mobile specifico).
 
 1. Genera un file con i dati del cliente nel formato richiesto per il tipo di dati esistente.
 
-È necessario eseguire l’hashing di nomi e cognomi, indirizzi e-mail e numeri di telefono utilizzando l’algoritmo SHA-256. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Per [!DNL Google Ads] tipi di pubblico, consulta la [!DNL Google Ads] documentazione su &quot;[Linee guida sulla formattazione per il caricamento di dati con hash](https://support.google.com/google-ads/answer/7476159)&quot; per un elenco dei campi e dei requisiti consentiti per le informazioni di contatto. Per [!DNL Microsoft® Advertising] tipi di pubblico, consulta la [!DNL Microsoft® Advertising] documentazione su [preparazione degli elenchi di corrispondenza cliente](https://help.ads.microsoft.com/#apex/ads/en/56921. Facoltativamente, puoi scaricare una [!DNL Microsoft® Excel] modello per informazioni di contatto.
+È necessario eseguire l’hashing di nomi e cognomi, indirizzi e-mail e numeri di telefono utilizzando l’algoritmo SHA-256. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Per [!DNL Google Ads] tipi di pubblico, consulta la [!DNL Google Ads] documentazione su &quot;[Linee guida sulla formattazione per il caricamento di dati con hash](https://support.google.com/google-ads/answer/7476159)&quot; per un elenco dei campi e dei requisiti consentiti per le informazioni di contatto. Per [!DNL Microsoft Advertising] tipi di pubblico, consulta la [!DNL Microsoft Advertising] documentazione su [preparazione degli elenchi di corrispondenza cliente](https://help.ads.microsoft.com/#apex/ads/en/56921. Facoltativamente, puoi scaricare una [!DNL Microsoft Excel] modello per informazioni di contatto.
 
 1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 

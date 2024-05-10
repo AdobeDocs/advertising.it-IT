@@ -1,9 +1,9 @@
 ---
 title: Esporta dati per avvisi personalizzati
 description: Scopri come esportare in un file i dati di un avviso attivato.
-exl-id: c6c3d977-8ee8-4393-a6c7-8f7b9ca5c913
+exl-id: e3467b39-21ed-431e-b5f4-c3dc2dd5266d
 feature: Search Alerts
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Esporta dati per avvisi personalizzati
 
-È possibile esportare dati per un avviso attivato o dati per l&#39;avviso attivato più di recente per un modello di avviso come [!DNL Microsoft® Excel] cartella di lavoro ([XLS](/help/search-social-commerce/glossary.md#w-x) file), valori separati da tabulazioni ([TSV](/help/search-social-commerce/glossary.md#s-t)) o valori separati da virgole ([CSV](/help/search-social-commerce/glossary.md#c-d)). I rapporti scaricabili sono disponibili per dieci giorni dopo l’attivazione dell’avviso e vengono quindi eliminati automaticamente.
+È possibile esportare dati per un avviso attivato o dati per l&#39;avviso attivato più di recente per un modello di avviso come [!DNL Microsoft Excel] cartella di lavoro ([XLS](/help/search-social-commerce/glossary.md#w-x) file), valori separati da tabulazioni ([TSV](/help/search-social-commerce/glossary.md#s-t)) o valori separati da virgole ([CSV](/help/search-social-commerce/glossary.md#c-d)). I rapporti scaricabili sono disponibili per dieci giorni dopo l’attivazione dell’avviso e vengono quindi eliminati automaticamente.
 
 1. Effettuare una delle seguenti operazioni:
 

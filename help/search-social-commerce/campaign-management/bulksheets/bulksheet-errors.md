@@ -1,18 +1,18 @@
 ---
 title: Errori di bulksheet
 description: Fai riferimento ai potenziali motivi di ogni errore di bulksheet.
-exl-id: 0a259aca-2e9a-4e24-b4db-f8d0249d25d4
+exl-id: dc3559b0-05c0-4896-b9e9-67084f56ab80
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
 
 # Errori di bulksheet
 
-Search, Social e Commerce genera due tipi di file di errore durante le operazioni bulksheet:
+Search, Social e Commerce genera due tipi di file di errore durante le operazioni dei bulksheet:
 
 * **Errori SE:** Quando un file viene pubblicato ma la rete di annunci non accetta tutti i dati, viene visualizzato un file di errore denominato `<uploaded file name>_se_errors.<extension used for the bulksheet>` viene creato. Quando sono state accettate alcune righe ma non tutte, il file di errore mostra le righe non pubblicate e una spiegazione di ogni errore in modo da poterlo correggere. Gli errori sono inclusi nella sezione &quot;[!UICONTROL SE Error Message]&quot;.
 
@@ -43,15 +43,15 @@ I seguenti errori possono essere inclusi nel [!UICONTROL EF Error] colonna in [!
 |----|----|----|
 | Generale | [!UICONTROL Internal Error: Please Try Uploading the bulksheet Again. If Problem Persists Contact Customer Care] | Operazione non riuscita. Se il problema persiste, contatta il team del tuo account Adobe. |
 | Tutte le entità | [!UICONTROL Invalid Fields.] \[campi non validi ed errore\] | Dati specificati mancanti o non validi. |
-|  | [!UICONTROL Invalid Reference Given] | L’ID dell’entità sulla rete di annunci o l’ID di un’entità principale (ad esempio l’ID account) non corrisponde a un’entità in Ricerca, Social e Commerce. Ciò può verificarsi quando hai modificato l’ID nel bulksheet. |
+|  | [!UICONTROL Invalid Reference Given] | L’ID dell’entità sulla rete di annunci o l’ID di un’entità principale (ad esempio l’ID account) non corrisponde a un’entità in Search, Social e Commerce. Ciò può verificarsi quando hai modificato l’ID nel bulksheet. |
 |  | [!UICONTROL <Entity> is deleted or expired] | L’entità è scaduta o è stata eliminata e non è possibile modificarne le proprietà. L’entità può essere eliminata quando qualcuno modifica manualmente lo stato. |
 |  | [!UICONTROL <Entity> status should be Active or Paused] | (Nuove entità) Una nuova entità può essere solo &quot;Attiva&quot; o &quot;In pausa&quot;. |
 |  | [!UICONTROL Duplicate Entries are present] | Sono incluse più righe per la stessa entità, con attributi diversi in ogni riga. Consolida le modifiche in una riga. |
 |  | [!UICONTROL Invalid AMO ID given] | L’AMO ID per la riga non esiste. Ciò può verificarsi se hai modificato l’ID nel bulksheet. |
 |  | [!UICONTROL Invalid row given] | La riga non include informazioni sufficienti per determinare il tipo di entità. Modifica la riga per includere tutti i campi obbligatori per il tipo di entità. |
 | Account | [!UICONTROL Provide Valid Account Details] | (Bulksheet per più account) Gli identificatori dell’account non sono inclusi in tutte le righe. Immettere i valori per una delle seguenti combinazioni di colonne per ogni riga: a) &quot;[!UICONTROL AMO ID]&quot; o b) &quot;[!UICONTROL Account Name]&quot; e &quot;[!UICONTROL Platform].&quot; |
-|  | [!UICONTROL Account is disabled. Disabled Accounts cannot be processed] | Search, Social e Commerce non hanno accesso all’account di rete dell’annuncio, pertanto non puoi creare o modificare i dati della campagna. Verificare che le credenziali per l&#39;account di ricerca siano corrette e che l&#39;account sia abilitato. |
-| Campagna | [!UICONTROL Invalid Shopping Country specified] | (Campagne commerciali) Il valore in &quot;[!UICONTROL Sales Country]Campo &quot; non valido. Visualizza un elenco di paesi validi [per [!DNL Google Ads]](https://support.google.com/merchants/answer/160637#countrytable) e [per [!DNL Microsoft® Advertising]](https://help.ads.microsoft.com/#apex/3/en/51083). |
+|  | [!UICONTROL Account is disabled. Disabled Accounts cannot be processed] | Search, Social e Commerce non hanno accesso all&#39;account di rete dell&#39;annuncio, pertanto non puoi creare o modificare i dati della campagna. Verificare che le credenziali per l&#39;account di ricerca siano corrette e che l&#39;account sia abilitato. |
+| Campagna | [!UICONTROL Invalid Shopping Country specified] | (Campagne commerciali) Il valore in &quot;[!UICONTROL Sales Country]Campo &quot; non valido. Visualizza un elenco di paesi validi [per [!DNL Google Ads]](https://support.google.com/merchants/answer/160637#countrytable) e [per [!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/3/en/51083). |
 | Tutti i componenti della campagna | [!UICONTROL Campaign creation failed] | La campagna principale non è stata creata, quindi questa entità non è stata creata. Assicurarsi che tutte le entità padre contengano tutti i campi obbligatori. |
 | Gruppo di annunci | [!UICONTROL Campaign Row missing] | La campagna principale specificata non esiste, pertanto il gruppo di annunci non è stato creato. Crea la campagna principale in una nuova riga. |
 |  | [!UICONTROL New adgroup has both keywords and placement] | Un gruppo di annunci può contenere parole chiave o posizionamenti, ma non entrambi. Crea gruppi di annunci separati per parole chiave e posizionamenti. |
@@ -83,7 +83,7 @@ In si verificano i seguenti errori: [!UICONTROL EF Errors] solo file. La maggior
 | Categoria | Messaggio | Descrizione |
 |----|----|----|
 | Generale | [!UICONTROL Internal Error: Please Try Posting the bulksheet Again. If Problem Persists Contact Customer Care] | Operazione non riuscita. Se il problema persiste, contatta il team del tuo account Adobe. |
-| Tutte le entità | [!UICONTROL Entity] è pubblicato su ad network | L’entità è stata pubblicata sulla rete di annunci, ma non è stata sincronizzata in Ricerca, Social e Commerce allo stesso tempo, pertanto i dati dell’entità non sono immediatamente disponibili in Ricerca, Social e Commerce. Il processo di sincronizzazione viene ora attivato automaticamente.<br><br>Quando vengono sincronizzate grandi quantità di dati, i dati potrebbero non essere disponibili in Search, Social e Commerce per diverse ore o più. |
+| Tutte le entità | [!UICONTROL Entity] è pubblicato su ad network | L’entità è stata pubblicata sul network pubblicitario, ma non è stata sincronizzata su Search, Social e Commerce contemporaneamente, pertanto i dati dell’entità non sono immediatamente disponibili in Search, Social e Commerce. Il processo di sincronizzazione viene ora attivato automaticamente.<br><br>Quando vengono sincronizzate grandi quantità di dati, i dati potrebbero non essere disponibili in Search, Social e Commerce per diverse ore o più. |
 | | [!UICONTROL Skipping <ENTITY> creation since <PARENT ENTITY> creation failed.] | Non è stato possibile creare l&#39;entità padre, quindi questa entità figlio non è stata creata. |
 
 >[!MORELIKETHIS]

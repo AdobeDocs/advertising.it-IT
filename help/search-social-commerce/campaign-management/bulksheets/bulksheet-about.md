@@ -1,11 +1,11 @@
 ---
 title: Informazioni sulla gestione dei dati della campagna tramite bulksheet
 description: Scopri le funzionalità dei bulksheet disponibili tramite la rete di annunci, il flusso di lavoro dei bulksheet e la gestione degli errori.
-exl-id: 207cc08b-8650-4243-b9fd-1c920b81c1f9
+exl-id: 34a16ee3-9eba-4b8b-a5ca-65318f4ee6c5
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Tutti i bulksheet, i file di errore di convalida della pagina di destinazione e 
 
 ## Funzionalità per Ad Network
 
-* **Scarica, carica e pubblica:**  [!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft® Advertising], e [!DNL Yandex] account
+* **Scarica, carica e pubblica:**  [!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], e [!DNL Yandex] account
 
 * **Solo download e caricamento:** [!DNL Naver] account
 
@@ -48,9 +48,9 @@ I passaggi standard per l’utilizzo dei bulksheet per gli account sincronizzati
 
 1. Quando devi aggiungere dati o apportare correzioni:
 
-   1. [Esportare il file](bulksheet-export.md) sul desktop e modificarlo in [!DNL Microsoft® Excel].
+   1. [Esportare il file](bulksheet-export.md) sul desktop e modificarlo in [!DNL Microsoft Excel].
 
-   1. [Carica manualmente il file modificato](bulksheet-upload.md) per effettuare ricerche, social e e commerce, oppure [carica il file su un account FTP specificato](bulksheet-ftp-account.md) per la registrazione automatica.
+   1. [Carica manualmente il file modificato](bulksheet-upload.md) per eseguire ricerche, social e Commerce, oppure [carica il file su un account FTP specificato](bulksheet-ftp-account.md) per la registrazione automatica.
 
 1. (per file caricati manualmente) [Pubblica il file](bulksheet-post.md) alla rete di annunci durante il caricamento o in un secondo momento.
 

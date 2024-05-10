@@ -3,7 +3,7 @@ title: Gestire i modelli di annunci per i feed di inventario
 description: Scopri come gestire i modelli di annunci tramite i quali i dati di inventario possono essere elaborati per gestire la struttura dei conti e distribuire annunci dinamici.
 exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1423'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Gestire i modelli di annunci per i feed di inventario
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (solo azioni di eliminazione), e [!DNL Yandex] solo account*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (solo azioni di eliminazione), e [!DNL Yandex] solo account*
 
-Prima o dopo il caricamento dei dati, puoi creare modelli di annunci specifici per i motori di ricerca tramite i quali elaborare i dati. È possibile creare modelli per annunci di testo e annunci di testo espansi/estesi, [!DNL Google Ads] e [!DNL Microsoft® Advertising] annunci di ricerca responsive e per [!DNL Google Ads] e [!DNL Microsoft® Advertising] acquisti pubblicitari.
+Prima o dopo il caricamento dei dati, puoi creare modelli di annunci specifici per i motori di ricerca tramite i quali elaborare i dati. È possibile creare modelli per annunci di testo e annunci di testo espansi/estesi, [!DNL Google Ads] e [!DNL Microsoft Advertising] annunci di ricerca responsive e per [!DNL Google Ads] e [!DNL Microsoft Advertising] acquisti pubblicitari.
 
-È possibile associare ciascun modello a un file di feed, [!DNL Google Merchant Center] account, oppure [!DNL Microsoft® Merchant Center] e associare più modelli allo stesso file di feed o account. Un modello di annuncio può includere variabili che vengono sostituite con colonne di dati effettive da un file caricato o da un account. Nella maggior parte dei casi, le variabili possono anche includere [un gruppo di modificatori](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) In Search, Social e Commerce puoi creare più annunci, parole chiave, campagne o gruppi di annunci per ogni riga applicabile nel file di dati. Le opzioni del modello consentono di creare una nuova struttura dell’account (campagne, gruppi di annunci, parole chiave) per gli annunci o di mappare gli annunci alla struttura dell’account esistente.
+È possibile associare ciascun modello a un file di feed, [!DNL Google Merchant Center] account, oppure [!DNL Microsoft Merchant Center] e associare più modelli allo stesso file di feed o account. Un modello di annuncio può includere variabili che vengono sostituite con colonne di dati effettive da un file caricato o da un account. Nella maggior parte dei casi, le variabili possono anche includere [un gruppo di modificatori](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) In Search, Social e Commerce puoi creare più annunci, parole chiave, campagne o gruppi di annunci per ogni riga applicabile nel file di dati. Le opzioni del modello consentono di creare una nuova struttura dell’account (campagne, gruppi di annunci, parole chiave) per gli annunci o di mappare gli annunci alla struttura dell’account esistente.
 
 Oltre a creare nuovi modelli da zero, è possibile crearne di nuovi duplicando quelli esistenti e modificando quelli esistenti.
 
@@ -26,7 +26,7 @@ Qualsiasi modello può essere attivato, messo in pausa o eliminato. I dati dei f
 
 ## Creare, clonare o modificare un modello di feed
 
-Creare modelli separati per annunci di testo espansi/estesi e annunci di ricerca responsive [!DNL Google Ads] annunci commerciali, e [!DNL Microsoft® Advertising] acquisti pubblicitari.
+Creare modelli separati per annunci di testo espansi/estesi e annunci di ricerca responsive [!DNL Google Ads] annunci commerciali, e [!DNL Microsoft Advertising] acquisti pubblicitari.
 
 1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, che apre a [!UICONTROL Templates] scheda.
 
@@ -42,7 +42,7 @@ Creare modelli separati per annunci di testo espansi/estesi e annunci di ricerca
 
    * (Per modificare un modello esistente) Accanto al nome del modello, fare clic su ![Visualizza/modifica impostazioni](/help/search-social-commerce/assets/settings.png "Visualizza/modifica impostazioni").
 
-1. Specificare le impostazioni per [modello di annuncio testuale](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md), [[!DNL Google Ads] modello di annuncio acquisti](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md), o [[!DNL Microsoft® Advertising] modello di annuncio acquisti](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md):
+1. Specificare le impostazioni per [modello di annuncio testuale](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md), [[!DNL Google Ads] modello di annuncio acquisti](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md), o [[!DNL Microsoft Advertising] modello di annuncio acquisti](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md):
 
    1. Nella parte superiore della finestra delle impostazioni del modello, specifica il nome del modello e l’account applicabile.
 
@@ -158,5 +158,5 @@ Puoi attivare qualsiasi modello di feed dati in pausa o sospendere qualsiasi mod
 >* [Informazioni sull’automazione della gestione degli annunci tramite i feed di inventario](../inventory-feeds-about.md)
 >* [Impostazioni degli annunci di testo e dei modelli di annunci di ricerca responsive](template-text-rsa.md)
 >* [[!DNL Google Ads] impostazioni del modello di annuncio acquisti](template-google-shopping.md)
->* [[!DNL Microsoft® Advertising] impostazioni del modello di annuncio acquisti](template-microsoft-shopping.md)
+>* [[!DNL Microsoft Advertising] impostazioni del modello di annuncio acquisti](template-microsoft-shopping.md)
 >* [Propagazione dei dati di feed tramite modelli](../feed-data-propagate.md)

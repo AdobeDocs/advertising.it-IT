@@ -1,18 +1,18 @@
 ---
-title: '''[!DNL Microsoft® Advertising] responsive ad settings"'
-description: Fai riferimento alle impostazioni per [!DNL Microsoft® Advertising] annunci reattivi.
+title: '''[!DNL Microsoft Advertising] responsive ad settings"'
+description: Fai riferimento alle impostazioni per [!DNL Microsoft Advertising] annunci reattivi.
 exl-id: 29404500-d929-4683-be71-150ea8ab805d
 feature: Search Campaign Management
-source-git-commit: dae8d3726b48240a2cad7d3e188694f72934295f
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] impostazioni degli annunci reattivi (pubblico)
+# [!DNL Microsoft Advertising] impostazioni degli annunci reattivi (pubblico)
 
-Il formato responsive ad è disponibile per gli annunci di pubblico basati su immagini, video e video televisivi collegati su [!DNL Microsoft® Audience Network]. La rete di annunci assembla dinamicamente gli annunci reattivi utilizzando le combinazioni più efficaci di elementi pubblicitari.
+Il formato responsive ad è disponibile per gli annunci di pubblico basati su immagini, video e video televisivi collegati su [!DNL Microsoft Audience Network]. La rete di annunci assembla dinamicamente gli annunci reattivi utilizzando le combinazioni più efficaci di elementi pubblicitari.
 
 ## [!UICONTROL Ad Settings] (per annunci video) e [!UICONTROL Audience CTV Video Ad Details]
 
@@ -28,7 +28,7 @@ Il formato responsive ad è disponibile per gli annunci di pubblico basati su im
 
 **[!UICONTROL Images]:** Fino a 15 immagini JPEG o PNG per l&#39;annuncio. Includere almeno un&#39;immagine con proporzioni 1.91:1. Vedere le proporzioni e le dimensioni consentite per [pubblico e immagini](https://help.ads.microsoft.com/#apex/ads/en/56912/0).
 
-Per gli annunci di pubblico, [!DNL Microsoft® Advertising] ritaglia automaticamente questa immagine per tutte le proporzioni possibili.
+Per gli annunci di pubblico, [!DNL Microsoft Advertising] ritaglia automaticamente questa immagine per tutte le proporzioni possibili.
 
 <!-- Instructions -->
 
@@ -56,7 +56,7 @@ Per gli annunci di pubblico, [!DNL Microsoft® Advertising] ritaglia automaticam
 >
 >* [Informazioni sugli annunci](ad-about.md)
 >* [Gestione annunci](ad-manage.md)
->* [[!DNL Microsoft® Advertising] impostazioni annunci per ricerca dinamica espansa](ad-settings-microsoft-dsa.md)
->* [[!DNL Microsoft® Advertising] impostazioni degli annunci multimediali](ad-settings-microsoft-multimedia.md)
->* [[!DNL Microsoft® Advertising] impostazioni annuncio di prodotto](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft® Advertising] impostazioni degli annunci di ricerca responsive](ad-settings-microsoft-rsa.md)
+>* [[!DNL Microsoft Advertising] impostazioni annunci per ricerca dinamica espansa](ad-settings-microsoft-dsa.md)
+>* [[!DNL Microsoft Advertising] impostazioni degli annunci multimediali](ad-settings-microsoft-multimedia.md)
+>* [[!DNL Microsoft Advertising] impostazioni annuncio di prodotto](ad-settings-microsoft-product.md)
+>* [[!DNL Microsoft Advertising] impostazioni degli annunci di ricerca responsive](ad-settings-microsoft-rsa.md)

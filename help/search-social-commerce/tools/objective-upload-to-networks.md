@@ -1,9 +1,9 @@
 ---
 title: Abilita il caricamento degli obiettivi nelle reti di annunci
-description: Scopri come caricare gli obiettivi per i portfolio ibridi in [!DNL Google Ads] e [!DNL Microsoft® Advertising].
+description: Scopri come caricare gli obiettivi per i portfolio ibridi in [!DNL Google Ads] e [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Abilita il caricamento degli obiettivi nelle reti di annunci
 
-*Inserzionisti con [!DNL Google Ads] e [!DNL Microsoft® Advertising] solo account*
+*Inserzionisti con [!DNL Google Ads] e [!DNL Microsoft Advertising] solo account*
 
 *Inserzionisti abilitati solo per l’ottimizzazione ibrida*
 
-Search, Social e Commerce possono caricare gli obiettivi per i portfolio di un account inserzionista in [!DNL Google Ads] e [!DNL Microsoft® Advertising] in modo da poterle utilizzare per l’ottimizzazione ibrida. Gli obiettivi caricati sono disponibili come azioni di conversione per gli obiettivi di conversione personalizzati a livello di account e di campagna.
+Search, Social e Commerce possono caricare gli obiettivi per i portfolio di un account inserzionista in [!DNL Google Ads] e [!DNL Microsoft Advertising] in modo da poterle utilizzare per l’ottimizzazione ibrida. Gli obiettivi caricati sono disponibili come azioni di conversione per gli obiettivi di conversione personalizzati a livello di account e di campagna.
 
 L’abilitazione di questa opzione attiva automaticamente un caricamento per gli obiettivi nei portfolio che contengono campagne con strategie di offerta intelligenti. Search, Social e Commerce creano una conversione sulla rete di annunci per ogni obiettivo applicabile. La conversione rappresenta tutte le metriche di conversione ponderate nell’obiettivo. Ciascuna conversione ha uno dei seguenti nomi:
 
@@ -30,7 +30,7 @@ L’abilitazione di questa opzione attiva automaticamente un caricamento per gli
 
   Il team dell’account Adobe collaborerà con te per migrare i nomi delle azioni di conversione esistenti all’interno della rete di annunci prima che il vecchio formato venga dichiarato obsoleto. Durante il periodo di migrazione, i caricamenti del vecchio e del nuovo formato verranno eseguiti in parallelo. La modellazione e l’ottimizzazione non sono interessate, perché le nuove azioni di conversione appaiono inizialmente con lo stato &quot;secondario&quot; (non ottimizzato) e con 90 giorni di dati di retrocompilazione.
 
-Carica in [!DNL Google Ads] si verifica ogni giorno alle 06:00 nel fuso orario dell&#39;inserzionista. Carica in [!DNL Microsoft® Advertising] si verifica ogni giorno alle 09:00 nel fuso orario dell&#39;inserzionista.
+Carica in [!DNL Google Ads] si verifica ogni giorno alle 06:00 nel fuso orario dell&#39;inserzionista. Carica in [!DNL Microsoft Advertising] si verifica ogni giorno alle 09:00 nel fuso orario dell&#39;inserzionista.
 
 >[!IMPORTANT]
 >

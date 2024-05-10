@@ -1,28 +1,28 @@
 ---
 title: Informazioni sull’automazione della gestione degli annunci tramite i feed di inventario
 description: Scopri la gestione avanzata delle campagne, che consente di gestire automaticamente la struttura dell’account e di distribuire annunci dinamici in base ai dati sull’inventario di prodotti o servizi.
-exl-id: 2cbf08ce-728e-4d5b-b0a4-01aa244a6e29
+exl-id: 46e78f32-96ef-4a23-bbe3-f18b84309463
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
 
 # Informazioni sull’automazione della gestione degli annunci tramite i feed di inventario
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (solo azioni di eliminazione), e [!DNL Yandex] solo account*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (solo azioni di eliminazione), e [!DNL Yandex] solo account*
 
-Il [!UICONTROL Campaigns] > [!UICONTROL Advanced (ACM)] view for advanced campaign management (visualizza per la gestione avanzata delle campagne) consente di creare e aggiornare automaticamente la struttura degli account di rete degli annunci e di distribuire annunci dinamici in base ai dati sull’inventario di prodotti o servizi. Puoi caricare nuovi file con dati di prodotto ogni giorno o con la frequenza desiderata, oppure puoi collegarti direttamente a un [!DNL Google] o [!DNL Microsoft®] account del centro commerciale. Utilizza la funzione per:
+Il [!UICONTROL Campaigns] > [!UICONTROL Advanced (ACM)] view for advanced campaign management (visualizza per la gestione avanzata delle campagne) consente di creare e aggiornare automaticamente la struttura degli account di rete degli annunci e di distribuire annunci dinamici in base ai dati sull’inventario di prodotti o servizi. Puoi caricare nuovi file con dati di prodotto ogni giorno o con la frequenza desiderata, oppure puoi collegarti direttamente a un [!DNL Google] o [!DNL Microsoft] account del centro commerciale. Utilizza la funzione per:
 
 * Crea nuove campagne da origini dati ordinate.
 
-* Aggiornare dinamicamente il testo e gli annunci adattabili della ricerca, [!DNL Google Ads] acquisti pubblicitari, oppure [!DNL Microsoft® Advertising] annunci commerciali ogni volta che vengono elaborati nuovi dati, utilizzando variabili dinamiche per elementi di dati modificabili (come prezzo o quantità). Ogni volta che modifichi i dati, gli annunci esistenti vengono eliminati e quelli nuovi vengono creati.
+* Aggiornare dinamicamente il testo e gli annunci adattabili della ricerca, [!DNL Google Ads] acquisti pubblicitari, oppure [!DNL Microsoft Advertising] annunci commerciali ogni volta che vengono elaborati nuovi dati, utilizzando variabili dinamiche per elementi di dati modificabili (come prezzo o quantità). Ogni volta che modifichi i dati, gli annunci esistenti vengono eliminati e quelli nuovi vengono creati.
 
 * Metti in pausa o rimuovi automaticamente gruppi di annunci, parole chiave e annunci quando il materiale scende sotto un livello specifico, in base a una data di fine specificata, o quando un componente esistente viene omesso dai dati di feed.
 
-Per impostare gli annunci, crea modelli di feed inventario contenenti variabili (segnaposto), quindi sostituisci le variabili con colonne di dati effettive da un file caricato o da un [Account Google o Microsoft® merchant center sincronizzato](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md). Le variabili possono anche includere gruppi di modificatori impostati in un file o singole righe nel file per creare più annunci, parole chiave, campagne o gruppi di annunci per ogni riga applicabile nel file di dati. Ad esempio, se utilizzi una variabile di gruppo di modificatori in un titolo di un annuncio e il gruppo di modificatori include due modificatori (&quot;per economico&quot; e &quot;a sconto&quot;), vengono creati due annunci separati per ciascun prodotto, uno per ciascun modificatore. Per [!DNL Google Ads] e [!DNL Microsoft® Advertising] annunci di ricerca dinamica, puoi anche includere valori per le personalizzazioni degli annunci.
+Per impostare gli annunci, crea modelli di feed inventario contenenti variabili (segnaposto), quindi sostituisci le variabili con colonne di dati effettive da un file caricato o da un [Account Google o Microsoft Merchant Center sincronizzato](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md). Le variabili possono anche includere gruppi di modificatori impostati in un file o singole righe nel file per creare più annunci, parole chiave, campagne o gruppi di annunci per ogni riga applicabile nel file di dati. Ad esempio, se utilizzi una variabile di gruppo di modificatori in un titolo di un annuncio e il gruppo di modificatori include due modificatori (&quot;per economico&quot; e &quot;a sconto&quot;), vengono creati due annunci separati per ciascun prodotto, uno per ciascun modificatore. Per [!DNL Google Ads] e [!DNL Microsoft Advertising] annunci di ricerca dinamica, puoi anche includere valori per le personalizzazioni degli annunci.
 
 | [!UICONTROL Ad Variation] Sezione del modello | Modificatori in Search, Social e Commerce | Contenuti feed | Annunci risultanti |
 |----|----|----|----|
@@ -35,7 +35,7 @@ Una volta generati gli annunci, puoi facoltativamente rivederli e quindi pubblic
 
 ## Flusso di lavoro per la gestione dei dati della campagna tramite i feed di inventario
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (solo azioni di eliminazione), e [!DNL Yandex] solo account*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (solo azioni di eliminazione), e [!DNL Yandex] solo account*
 
 Inizialmente, eseguire il test di almeno un file di feed o un account, quindi automatizzare completamente il processo o continuare a controllarlo in ogni passaggio:
 
@@ -49,7 +49,7 @@ Inizialmente, eseguire il test di almeno un file di feed o un account, quindi au
 
    Se utilizzi l’FTP, non inviare automaticamente i dati alle reti di annunci inizialmente. Dopo aver verificato l’output del primo file e aver ottenuto i risultati desiderati, puoi modificare le impostazioni.
 
-1. Caricare un file di dati nella directory FTP, [caricare manualmente un file di dati](feed-files-manage.md) nel [!UICONTROL Advanced (ACM) view], o [abilitare l&#39;accesso a un account Google o Microsoft® merchant center](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
+1. Caricare un file di dati nella directory FTP, [caricare manualmente un file di dati](feed-files-manage.md) nel [!UICONTROL Advanced (ACM) view], o [abilitare l’accesso a un account Google o Microsoft merchant center](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
 
 Per caricare manualmente i file, puoi attendere finché non crei un modello che utilizza il file di dati.
 
@@ -57,7 +57,7 @@ Per caricare manualmente i file, puoi attendere finché non crei un modello che 
 
 1. [Creare uno o più modelli](ad-templates/ad-template-manage.md) che utilizzano le colonne di dati per creare campagne, gruppi di annunci, parole chiave e/o copie di annunci per un account di rete di annunci specifico.
 
-1. [Propagazione dei dati di feed tramite i modelli](feed-data-propagate.md), che sostituisce i nomi delle colonne nel modello con i dati nel file o nel conto. A seconda delle opzioni del modello, Cerca, Social e Commerce crea una nuova struttura di account (campagne, gruppi di annunci, parole chiave) per gli annunci utilizzando le impostazioni predefinite oppure mappa gli annunci alla struttura di account esistente.
+1. [Propagazione dei dati di feed tramite i modelli](feed-data-propagate.md), che sostituisce i nomi delle colonne nel modello con i dati nel file o nel conto. A seconda delle opzioni del modello, Cerca, Social e Commerce creano una nuova struttura dell’account (campagne, gruppi di annunci, parole chiave) per gli annunci utilizzando le impostazioni predefinite oppure mappano gli annunci alla struttura dell’account esistente.
 
 1. (Facoltativo) [Anteprima dell’output](propagated-data-view.md) nel [!UICONTROL Advanced (ACM)] e, se lo si desidera, visualizzare un riepilogo delle modifiche apportate ai dati [!UICONTROL Propagations] scheda.
 

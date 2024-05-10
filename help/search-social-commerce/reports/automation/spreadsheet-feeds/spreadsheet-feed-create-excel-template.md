@@ -1,9 +1,9 @@
 ---
 title: Creare un [!DNL Excel] modello per un feed di report per fogli di calcolo
 description: Scopri come creare modelli di fogli di calcolo con formattazione speciale.
-exl-id: d675cb8c-b7a9-4d7b-8435-5dd662d151a3
+exl-id: 74bf3cdf-7d56-431a-8aff-11ed3840a7cd
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Solo per report di base e report di accuratezza del modello*
 
-Per creare feed di fogli di calcolo, è necessario innanzitutto creare un formato speciale [!DNL Microsoft® Excel] modelli di fogli di calcolo che utilizzano modelli di report standard. Facoltativamente, puoi personalizzare [!DNL Excel] per includere colonne e grafici aggiuntivi.
+Per creare feed di fogli di calcolo, è necessario innanzitutto creare un formato speciale [!DNL Microsoft Excel] modelli di fogli di calcolo che utilizzano modelli di report standard. Facoltativamente, puoi personalizzare [!DNL Excel] per includere colonne e grafici aggiuntivi.
 
 1. In entrata **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**, genera il tipo di rapporto desiderato utilizzando un [!UICONTROL Date Aggregation] unità di &quot;[!UICONTROL Daily]&quot; e con tutti gli altri parametri di dati desiderati, salva il rapporto come modello.
 

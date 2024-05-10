@@ -1,11 +1,11 @@
 ---
 title: Installare e disinstallare [!UICONTROL Notification Center] applicazione web
 description: Scopri come installare e disinstallare [!UICONTROL Notification Center] applicazione web.
-exl-id: e1afc7c0-4bbb-44d6-9871-924580648fa9
+exl-id: e0a72907-3b5e-4678-b08b-95ed099f2dab
 feature: Search Notifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 *Funzione beta*
 
-Puoi ricevere e gestire le notifiche all’esterno del browser installando un’ [!UICONTROL Notification Center] applicazione web. L&#39;applicazione ha lo stesso aspetto e le stesse funzionalità [!UICONTROL Notification Center] in Search, Social e Commerce. L’applicazione è disponibile per [!DNL Google Chrome] 40 e versioni successive o [!DNL Microsoft® Edge] 17 e versioni successive.
+Puoi ricevere e gestire le notifiche all’esterno del browser installando un’ [!UICONTROL Notification Center] applicazione web. L&#39;applicazione ha lo stesso aspetto e le stesse funzionalità [!UICONTROL Notification Center] in Search, Social e Commerce. L’applicazione è disponibile per [!DNL Google Chrome] 40 e versioni successive o [!DNL Microsoft Edge] 17 e versioni successive.
 
 Dopo aver installato [!UICONTROL Notification Center] , viene automaticamente abilitata nella gestione applicazioni del browser e viene caricata come una finestra separata il cui layout è disposto in modo dinamico in base alle dimensioni della finestra. È possibile aprire e chiudere l&#39;applicazione dalla gestione delle applicazioni del browser oppure fissarla alla barra delle applicazioni o all&#39;ancoraggio del sistema operativo. L’applicazione viene aggiornata automaticamente.
 
-![Icona del Centro notifiche nella barra delle applicazioni di Microsoft® Windows](/help/search-social-commerce/assets/windows-taskbar.png "Icona del Centro notifiche nella barra delle applicazioni di Microsoft® Windows")
+![Icona del Centro notifiche nella barra delle applicazioni di Microsoft Windows](/help/search-social-commerce/assets/windows-taskbar.png "Icona del Centro notifiche nella barra delle applicazioni di Microsoft Windows")
 
 È possibile disabilitare o disinstallare l&#39;applicazione dalla gestione delle applicazioni del browser. Per ulteriori informazioni sulla gestione delle applicazioni web, consulta la guida del browser.
 
@@ -32,9 +32,9 @@ Dopo aver installato [!UICONTROL Notification Center] , viene automaticamente ab
 
 1. Nell’app di installazione? messaggio, fai clic su **[!UICONTROL Install]**.
 
-## Installare [!UICONTROL Notification Center] applicazione web per [!DNL Microsoft® Edge]
+## Installare [!UICONTROL Notification Center] applicazione web per [!DNL Microsoft Edge]
 
-* Da Search, Social e Commerce:
+* Dall’interno di Search, Social e Commerce:
 
    1. Nel menu principale, fai clic su **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
 
@@ -54,7 +54,7 @@ Dopo aver installato [!UICONTROL Notification Center] , viene automaticamente ab
 
 * In entrata [!DNL Chrome], vai a `chrome://apps`, clic con il pulsante destro del mouse **[!UICONTROL notification-center]** e quindi fare clic su **[!UICONTROL Remove from Chrome]**.
 
-## Disinstalla [!UICONTROL Notification Center] applicazione web per [!DNL Microsoft® Edge]
+## Disinstalla [!UICONTROL Notification Center] applicazione web per [!DNL Microsoft Edge]
 
 1. In [!DNL Edge] barra degli strumenti del browser, fai clic su **...** > **[!UICONTROL Apps]** > **[!UICONTROL Manage apps]**. In alternativa, vai a `edge://apps`.
 

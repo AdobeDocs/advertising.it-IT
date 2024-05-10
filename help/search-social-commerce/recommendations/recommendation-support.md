@@ -3,7 +3,7 @@ title: Informazioni sul supporto di consigli e approfondimenti per gli editori
 description: Scopri come visualizzare e gestire i consigli e le informazioni dell’editore.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: d6808281dc3ba26a48ae33079c2f411705f43ddd
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 0%
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Informazioni sul supporto di consigli e approfondimenti per gli editori
 
-*[!DNL Google Ads]e [!DNL Microsoft® Advertising] account*
+*[!DNL Google Ads]e [!DNL Microsoft Advertising] account*
 
-*Funzione beta per [!DNL Microsoft® Advertising] account*
+*Funzione beta per [!DNL Microsoft Advertising] account*
 
-[!DNL Google Ads] e [!DNL Microsoft® Advertising] consigli e informazioni sono suggerimenti provenienti dalla rete di annunci per migliorare le prestazioni e l’efficienza delle campagne:
+[!DNL Google Ads] e [!DNL Microsoft Advertising] consigli e informazioni sono suggerimenti provenienti dalla rete di annunci per migliorare le prestazioni e l’efficienza delle campagne:
 
 * Ogni [!DNL Google Ads] Recommendations fornisce suggerimenti personalizzati sui diversi aspetti delle prestazioni di una campagna, dall’aggiunta di una risorsa all’aumento del budget, in base alla cronologia delle prestazioni del tuo account, alle impostazioni della campagna e alle tendenze per [!DNL Google Ads].
 
-* Ogni [!DNL Microsoft® Advertising] performance insight e consigli suggeriscono modifiche per ottimizzare le prestazioni della campagna in base ad algoritmi di apprendimento automatico e best practice.
+* Ogni [!DNL Microsoft Advertising] performance insight e consigli suggeriscono modifiche per ottimizzare le prestazioni della campagna in base ad algoritmi di apprendimento automatico e best practice.
 
 ## Il [!UICONTROL Recommendations & Publisher Insights] visualizza
 
@@ -32,7 +32,7 @@ Entro [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher 
 
   I dati sono disponibili in tempo reale all’apertura della visualizzazione. Per aggiornare i dati, fai clic su ![Aggiorna](/help/search-social-commerce/assets/refresh.png "Aggiorna") in basso a sinistra.
 
-* Per [!DNL Microsoft® Advertising] degli account, visualizza immediatamente ogni informazione sulle prestazioni generata negli ultimi 30 giorni per un [!DNL Microsoft® Advertising] account. Gli approfondimenti forniscono informazioni simili ai consigli, ma in un formato diverso. Ogni informazione include la data, una descrizione del problema, l’entità interessata, la causa principale (che può includere collegamenti a ulteriori dettagli) e l’azione suggerita con un collegamento per aprire la [!DNL Microsoft® Advertising] editor, da cui puoi agire in base a informazioni specifiche.
+* Per [!DNL Microsoft Advertising] degli account, visualizza immediatamente ogni informazione sulle prestazioni generata negli ultimi 30 giorni per un [!DNL Microsoft Advertising] account. Gli approfondimenti forniscono informazioni simili ai consigli, ma in un formato diverso. Ogni informazione include la data, una descrizione del problema, l’entità interessata, la causa principale (che può includere collegamenti a ulteriori dettagli) e l’azione suggerita con un collegamento per aprire la [!DNL Microsoft Advertising] editor, da cui puoi agire in base a informazioni specifiche.
 
 * Visualizza i dettagli di un consiglio e applicalo o annullalo direttamente.
 

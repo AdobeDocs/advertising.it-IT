@@ -3,7 +3,7 @@ title: Modifica di un piano di copertura TV collegato
 description: Scopri come modificare le impostazioni per un piano di copertura TV connesso.
 feature: DSP Planner
 exl-id: 675a09d1-9548-416d-bfa6-a6242149b255
-source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
@@ -24,7 +24,7 @@ La modifica delle impostazioni del piano genera una nuova previsione.
 
    Una volta salvato il piano, viene visualizzato l&#39;output previsto.
 
-1. Per esportare il [!UICONTROL Budget vs Reach] previsione a un [!DNL Microsoft® Excel] foglio di calcolo** fare clic su **[!UICONTROL ...]** in alto a destra, quindi fai clic su **[!UICONTROL Export]**.
+1. Per esportare il [!UICONTROL Budget vs Reach] previsione a un [!DNL Microsoft Excel] foglio di calcolo** fare clic su **[!UICONTROL ...]** in alto a destra, quindi fai clic su **[!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >

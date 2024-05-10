@@ -1,20 +1,20 @@
 ---
 title: '[!UICONTROL AdWords and Bing Audience Target Report]'
 description: Scopri di più su [!UICONTROL AdWords and Bing Audience Target Report].
-exl-id: 02c12266-f11b-4478-a511-8ee464dbb061
+exl-id: 083a5316-e4ec-45f5-a9ae-901cf5eecef4
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL AdWords and Bing Audience Target Report]
 
-*[!DNL Google Ads]e [!DNL Microsoft® Advertising] solo account*
+*[!DNL Google Ads]e [!DNL Microsoft Advertising] solo account*
 
-Il [!UICONTROL AdWords and Bing Audience Target Report] include dati di costo, clic, impression e (facoltativamente) metriche derivate da audience target ([!DNL Google Ads] pubblico basato sui dati dei clienti, sul mercato e simile e [!DNL Microsoft® Advertising] tipi di pubblico di remarketing, personalizzati, customer match, simili e in-market ) per uno o più gruppi di annunci o campagne. Per impostazione predefinita, i dati includono una riga per ogni pubblico che ha ricevuto almeno un’impression o un clic per ogni gruppo di annunci applicabile per ogni unità di tempo nell’intervallo di date specificato. Per impostazione predefinita, le righe sono in ordine crescente per nome del gruppo di annunci e quindi per pubblico. Il rapporto include i dati di conversione tracciati da [!DNL Adobe] solo per i target degli elenchi di remarketing.
+Il [!UICONTROL AdWords and Bing Audience Target Report] include dati di costo, clic, impression e (facoltativamente) metriche derivate da audience target ([!DNL Google Ads] pubblico basato sui dati dei clienti, sul mercato e simile e [!DNL Microsoft Advertising] tipi di pubblico di remarketing, personalizzati, customer match, simili e in-market ) per uno o più gruppi di annunci o campagne. Per impostazione predefinita, i dati includono una riga per ogni pubblico che ha ricevuto almeno un’impression o un clic per ogni gruppo di annunci applicabile per ogni unità di tempo nell’intervallo di date specificato. Per impostazione predefinita, le righe sono in ordine crescente per nome del gruppo di annunci e quindi per pubblico. Il rapporto include i dati di conversione tracciati da [!DNL Adobe] solo per i target degli elenchi di remarketing.
 
 Puoi visualizzare i dati fino all’anno precedente.
 
@@ -42,6 +42,6 @@ Per le descrizioni di tutte le colonne predefinite e personalizzate, vedi &quot;
 
 >[!MORELIKETHIS]
 >
-* [Informazioni sui report speciali](specialty-report-about.md)
-* [Generare un rapporto speciale](specialty-report-generate.md)
-* [Impostazioni report speciali](specialty-report-settings.md)
+>* [Informazioni sui report speciali](specialty-report-about.md)
+>* [Generare un rapporto speciale](specialty-report-generate.md)
+>* [Impostazioni report speciali](specialty-report-settings.md)

@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Microsoft® Advertising] impostazioni del gruppo di annunci'
-description: Fai riferimento alle impostazioni per [!DNL Microsoft® Advertising] gruppi di annunci.
+title: '''[!DNL Microsoft Advertising] impostazioni del gruppo di annunci'
+description: Fai riferimento alle impostazioni per [!DNL Microsoft Advertising] gruppi di annunci.
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] impostazioni gruppo di annunci
+# [!DNL Microsoft Advertising] impostazioni gruppo di annunci
 
 ## [!UICONTROL Adgroup Details]
 
@@ -32,9 +32,9 @@ ht-degree: 0%
 
 **[!UICONTROL Networks]:** (Ricerca annunci) Come e dove inserire annunci all’interno del gruppo di annunci:
 
-* *[!UICONTROL Only Microsoft® Advertising and Yahoo! websites]* (impostazione predefinita): per inserire offerte per annunci sulla rete di ricerca.
+* *[!UICONTROL Only Microsoft Advertising and Yahoo! websites]* (impostazione predefinita): per inserire offerte per annunci sulla rete di ricerca.
 
-* *[!UICONTROL Only Microsoft® Advertising and Yahoo! syndicated search partners]:* Per fare offerte per annunci su siti partner sindacati.
+* *[!UICONTROL Only Microsoft Advertising and Yahoo! syndicated search partners]:* Per fare offerte per annunci su siti partner sindacati.
 
 * *[!UICONTROL Content network]:* Obsoleto
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/location-targets.md}}
 
-Per [!DNL Microsoft® Advertising] gruppi di annunci nella rete di pubblico, i modificatori di offerte per i target di posizione non sono ottimizzati nei portfolio standard con il &quot;[!UICONTROL Auto-optimize Bid Adjustment Values]&quot;.
+Per [!DNL Microsoft Advertising] gruppi di annunci nella rete di pubblico, i modificatori di offerte per i target di posizione non sono ottimizzati nei portfolio standard con il &quot;[!UICONTROL Auto-optimize Bid Adjustment Values]&quot;.
 
 **[!UICONTROL Genre]:** (Gruppi di annunci in [!UICONTROL Audience CTV Video] disponibili in US, CA, BR, MX, UK, DE, ES, FR, IT, AU, MY e TH<!-- Should that go in the campaign sub-type description instead, or is this applicable for this feature only? -->) I generi di destinazione, che determinano gli spettacoli e i canali su cui appaiono gli annunci:
 
@@ -130,7 +130,7 @@ Il posizionamento degli annunci TV collegata (CTV) dipende dalla qualità video 
 
 **[!UICONTROL Negative Websites]:** (Campagne solo sulla rete nativa/di visualizzazione; facoltativo) Siti sulla rete di visualizzazione in cui non desideri visualizzare gli annunci. Immetti un URL valido, ad esempio www.example.com. Per specificare più stringhe, separarle con virgole o immetterle su righe separate.
 
-Per informazioni sulla disponibilità, consulta [!DNL Microsoft® Advertising] Aiuto per &quot;[Impedire la visualizzazione di annunci su siti Web specifici](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
+Per informazioni sulla disponibilità, consulta [!DNL Microsoft Advertising] Aiuto per &quot;[Impedire la visualizzazione di annunci su siti Web specifici](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
 
 >[!MORELIKETHIS]
 >

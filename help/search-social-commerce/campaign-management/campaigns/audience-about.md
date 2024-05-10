@@ -1,20 +1,20 @@
 ---
 title: Informazioni sui tipi di pubblico
-description: Scopri le opzioni di tracciamento, creazione e gestione [!DNL Google Ads] e [!DNL Microsoft® Advertising] pubblico.
-exl-id: 34169650-9820-4b7d-9ae6-09ff8a8c6f2e
+description: Scopri le opzioni di tracciamento, creazione e gestione [!DNL Google Ads] e [!DNL Microsoft Advertising] pubblico.
+exl-id: f85cbc82-ddbc-4ecd-a17b-b4cb4808cfbc
 feature: Search Campaign Management
-source-git-commit: 9f30518efbbe29f976298fe1fcd962182285679f
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
 
-# Gestione di [!DNL Google Ads] e [!DNL Microsoft® Advertising] tipi di pubblico in Search, Social e Commerce
+# Gestione di [!DNL Google Ads] e [!DNL Microsoft Advertising] tipi di pubblico in Search, Social e Commerce
 
-*[!DNL Google Ads]e [!DNL Microsoft® Advertising] solo*
+*[!DNL Google Ads]e [!DNL Microsoft Advertising] solo*
 
-La Libreria tipi di pubblico elenca tutti i [!DNL Google Ads] pubblico basato sui dati dei clienti, sul mercato e simile e [!DNL Microsoft® Advertising] remarketing e remarketing dinamico, personalizzato, customer match, sul mercato e tipi di pubblico simili. È possibile utilizzare qualsiasi [!DNL Google Ads] pubblico come [!DNL Google Ads] target ed esclusioni a livello di campagna e di gruppo di annunci e puoi utilizzare qualsiasi [!DNL Microsoft® Advertising] pubblico come [!DNL Microsoft® Advertising] target a livello di campagna e di gruppo di annunci ed esclusioni (solo per tipi di pubblico di remarketing dinamico). Puoi aggiungere o modificare una regolazione dell’offerta per qualsiasi target di pubblico.
+La Libreria tipi di pubblico elenca tutti i [!DNL Google Ads] pubblico basato sui dati dei clienti, sul mercato e simile e [!DNL Microsoft Advertising] remarketing e remarketing dinamico, personalizzato, customer match, sul mercato e tipi di pubblico simili. È possibile utilizzare qualsiasi [!DNL Google Ads] pubblico come [!DNL Google Ads] target ed esclusioni a livello di campagna e di gruppo di annunci e puoi utilizzare qualsiasi [!DNL Microsoft Advertising] pubblico come [!DNL Microsoft Advertising] target a livello di campagna e di gruppo di annunci ed esclusioni (solo per tipi di pubblico di remarketing dinamico). Puoi aggiungere o modificare una regolazione dell’offerta per qualsiasi target di pubblico.
 
 Puoi anche creare e gestire i tipi di pubblico utilizzando segmenti o elenchi e-mail dai tipi di pubblico esistenti di Adobe Experience Cloud e da vari tipi di dati cliente provenienti dal sistema di gestione delle relazioni con i clienti (CRM):
 
@@ -22,17 +22,17 @@ Puoi anche creare e gestire i tipi di pubblico utilizzando segmenti o elenchi e-
 
    * (Per gli inserzionisti che [!DNL Analytics] account che non dispongono di Audienci Manager) È possibile creare [!DNL Google Ads] i clienti abbinano i tipi di pubblico utilizzando gli ID utente di [!DNL Analytics] segmenti condivisi con Adobe Experience Cloud.
 
-   * (Per gli inserzionisti con account Audienci Manager) Puoi creare [!DNL Google Ads] i clienti abbinano i tipi di pubblico utilizzando gli ID utente dei segmenti Audienci Manager che hanno come destinazione Ricerca, Social e Commerce. Possono essere inclusi i segmenti di Adobe Analytics pubblicati in Adobe Experience Cloud e i segmenti creati utilizzando la Libreria tipi di pubblico di Adobe Experience Cloud.
+   * (Per gli inserzionisti con account Audienci Manager) Puoi creare [!DNL Google Ads] i clienti abbinano i tipi di pubblico utilizzando gli ID utente dei segmenti Audienci Manager che hanno Ricerca, Social e Commerce come destinazione. Possono essere inclusi i segmenti di Adobe Analytics pubblicati in Adobe Experience Cloud e i segmenti creati utilizzando la Libreria tipi di pubblico di Adobe Experience Cloud.
 
-  Per creare un pubblico in base ai clienti, l’ dell’inserzionista [!DNL Google Ads] l&#39;account deve essere [idoneo per la corrispondenza personalizzata](https://support.google.com/adspolicy/answer/6299717) e ha acconsentito [segmenti ID utente](https://support.google.com/google-ads/answer/9199250). Inoltre, l’account dell’inserzionista in Search, Social &amp; Commerce deve essere configurato per consentire la creazione di tipi di pubblico in base ai clienti.
+  Per creare un pubblico in base ai clienti, l’ dell’inserzionista [!DNL Google Ads] l&#39;account deve essere [idoneo per la corrispondenza personalizzata](https://support.google.com/adspolicy/answer/6299717) e ha acconsentito [segmenti ID utente](https://support.google.com/google-ads/answer/9199250). Inoltre, l’account dell’inserzionista in Search, Social e Commerce deve essere configurato per consentire la creazione di tipi di pubblico in base ai clienti.
 
   [!DNL Adobe] i dati dei segmenti e i file di sincronizzazione dei cookie per i tipi di pubblico basati su dati del cliente vengono sincronizzati in [!DNL Google Ads] ogni giorno.
 
 * **Elenchi e-mail di Adobe Campaign:** Il team dell’account Adobe può aiutarti a impostare un flusso di lavoro per la creazione e l’aggiornamento di un [!DNL Google Ads] customer match audience da un elenco e-mail in [!DNL Campaign].
 
-* **Elenchi dati cliente:** Inserzionisti con [!DNL Google Ads] o [!DNL Microsoft® Advertising] gli account idonei per Customer Match possono creare e aggiornare un pubblico basato su dati cliente specifico per una rete di annunci &lt;!>pubblico di remarketing dinamico incluso nel pubblico basato sui dati del cliente, almeno per [!DNL Google Ads]?—> caricando un file CSV con identificatori primari.
+* **Elenchi dati cliente:** Inserzionisti con [!DNL Google Ads] o [!DNL Microsoft Advertising] gli account idonei per Customer Match possono creare e aggiornare un pubblico basato su dati cliente specifico per una rete di annunci &lt;!>pubblico di remarketing dinamico incluso nel pubblico basato sui dati del cliente, almeno per [!DNL Google Ads]?—> caricando un file CSV con identificatori primari.
 
-* **Elenchi di remarketing dinamico:** Inserzionisti con [!DNL Microsoft® Advertising] gli account possono creare e gestire i tipi di pubblico di remarketing dinamico, che puoi utilizzare per il retargeting di potenziali clienti che hanno recentemente interagito con i prodotti in uno dei diversi modi (ad esempio visualizzatori di prodotti o acquirenti passati). I tipi di pubblico di remarketing dinamico richiedono l’utilizzo del tag di conversione JavaScript e tracciamento del pubblico della rete di annunci sulle pagine web. Utilizza gli elenchi di remarketing dinamico con campagne di acquisto sulle reti di ricerca e pubblico per effettuare il retargeting dei tipi di pubblico con annunci di prodotto, nonché con campagne di ricerca per effettuare il retargeting dei tipi di pubblico con annunci di testo e annunci di ricerca dinamica. <!--[For [!DNL Google Ads], these are technically included in a customer data-based audience, so word this all carefully when we add support for them.]-->
+* **Elenchi di remarketing dinamico:** Inserzionisti con [!DNL Microsoft Advertising] gli account possono creare e gestire tipi di pubblico di remarketing dinamico, che è possibile utilizzare per il retargeting di potenziali clienti che hanno recentemente interagito con i prodotti in uno dei diversi modi (ad esempio, visualizzatori di prodotti o acquirenti passati). I tipi di pubblico di remarketing dinamico richiedono l’utilizzo del tag di conversione JavaScript e tracciamento del pubblico della rete di annunci sulle pagine web. Utilizza gli elenchi di remarketing dinamico con campagne di acquisto sulle reti di ricerca e pubblico per effettuare il retargeting dei tipi di pubblico con annunci di prodotto, nonché con campagne di ricerca per effettuare il retargeting dei tipi di pubblico con annunci di testo e annunci di ricerca dinamica. <!--[For [!DNL Google Ads], these are technically included in a customer data-based audience, so word this all carefully when we add support for them.]-->
 
   >[!NOTE]
   >
@@ -40,7 +40,7 @@ Puoi anche creare e gestire i tipi di pubblico utilizzando segmenti o elenchi e-
 
 >[!NOTE]
 >
->Search, Social e Commerce non memorizzano i dati dei clienti che carichi o dai [!DNL Adobe] segmenti utilizzati per creare o modificare un [!DNL Google Ads] o [!DNL Microsoft® Advertising] pubblico.
+>Search, Social e Commerce non memorizzano i dati dei clienti caricati o provenienti da [!DNL Adobe] segmenti utilizzati per creare o modificare un [!DNL Google Ads] o [!DNL Microsoft Advertising] pubblico.
 
 >[!MORELIKETHIS]
 >

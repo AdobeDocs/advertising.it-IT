@@ -3,7 +3,7 @@ title: Creare parole chiave negative
 description: Scopri come creare parole chiave negative per campagne di ricerca e gruppi di annunci.
 exl-id: afe786bf-eda8-4590-b471-3fb696c420de
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Creare parole chiave negative
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], ed esistenti [!DNL Baidu] solo account*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], ed esistenti [!DNL Baidu] solo account*
 
 È possibile creare parole chiave negative per un gruppo di annunci di ricerca o una campagna che esegue il targeting della ricerca o della rete di visualizzazione/nativa. Le parole chiave negative non attivano gli annunci.
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. Immettete le parole chiave negative. Utilizza la sintassi seguente, senza il segno meno (`-`):
 
-   * Corrispondenza ampia negativa: `keyword` (non supportato da [!DNL Microsoft® Advertising])
+   * Corrispondenza ampia negativa: `keyword` (non supportato da [!DNL Microsoft Advertising])
 
    * Corrispondenza frase negativa: `"keyword"`
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    Separare più valori con virgole o immetterli su righe separate. È possibile immettere o incollare fino a 2.000 parole chiave negative in un&#39;unica operazione. Consulta anche i seguenti requisiti e restrizioni:
 
-   * Lunghezza massima carattere: [!DNL Baidu]: 30 a byte singolo o 15 a byte doppio; [!DNL Microsoft® Advertising]: 100 a byte singolo o 50 a byte doppio; [!DNL Google Ads] e [!DNL Yahoo! Japan Ads]: 80 a byte singolo o 40 a byte doppio.
+   * Lunghezza massima carattere: [!DNL Baidu]: 30 a byte singolo o 15 a byte doppio; [!DNL Microsoft Advertising]: 100 a byte singolo o 50 a byte doppio; [!DNL Google Ads] e [!DNL Yahoo! Japan Ads]: 80 a byte singolo o 40 a byte doppio.
 
    * [!DNL Baidu] consente un solo tipo di corrispondenza per parola chiave per gruppo di annunci. Ad esempio, il gruppo di annunci 1 non può includere entrambi `"keyword"` e `[keyword]`.
 

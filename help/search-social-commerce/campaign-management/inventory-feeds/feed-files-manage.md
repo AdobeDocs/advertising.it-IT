@@ -1,9 +1,9 @@
 ---
 title: Gestire i file di feed dati di inventario
 description: Scopri come configurare le impostazioni che controllano la modalità di elaborazione dei dati dei feed.
-exl-id: 73d372de-2673-4190-94cf-2f07f4ce2493
+exl-id: 7d19ecc0-c939-4996-b22b-970ce8644b09
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Gestire i file di feed dati di inventario
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (solo azioni di eliminazione), e [!DNL Yandex] solo account*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (solo azioni di eliminazione), e [!DNL Yandex] solo account*
 
 Se invii i tuoi dati di feed, devi caricare file contenenti i tuoi dati di prodotto per creare in modo dinamico la struttura della campagna, gli annunci e le parole chiave, in base ai dati di prodotto. Puoi quindi associarli a modelli di annunci specifici per la rete di annunci ed elaborare i dati tramite i modelli, infine pubblicare i dati nelle reti di annunci pertinenti. È possibile associare più modelli a un file di feed, ma ogni modello può essere associato a un solo file di feed.
 
@@ -109,7 +109,7 @@ Per ulteriori informazioni, consulta la guida in linea del browser.
 
 1. Specificare il file da caricare immettendo il percorso completo e il nome del file oppure facendo clic su **[!UICONTROL Browse]** per individuare il file sul dispositivo o sulla rete.
 
-1. Clic **[!UICONTROL Upload].
+1. Fai clic su **[!UICONTROL Upload].
 
 Tutti i campi nel file vengono convalidati. Non puoi pubblicare elementi con lunghezze di campo non valide in un secondo momento finché non correggi i valori. Tutti i nomi di colonna nel file diventano disponibili nei modelli come parametri dinamici.
 

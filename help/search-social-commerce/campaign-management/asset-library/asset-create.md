@@ -1,18 +1,18 @@
 ---
 title: Creare e caricare le risorse
-description: Scopri come creare risorse immagine, video e testo riutilizzabili e caricarle nel tuo [!DNL Google Ads] e [!DNL Microsoft® Advertising] librerie di risorse a livello di account.
+description: Scopri come creare risorse immagine, video e testo riutilizzabili e caricarle nel tuo [!DNL Google Ads] e [!DNL Microsoft Advertising] librerie di risorse a livello di account.
 feature: Search Campaign Management
 exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
-source-git-commit: 68c082131378974bf95534050b8ddf2db0ae394b
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
 
 # Creare e caricare le risorse
 
-*Per [!DNL Google Ads] e [!DNL Microsoft® Advertising] solo account*
+*Per [!DNL Google Ads] e [!DNL Microsoft Advertising] solo account*
 
 *Funzione open beta*
 

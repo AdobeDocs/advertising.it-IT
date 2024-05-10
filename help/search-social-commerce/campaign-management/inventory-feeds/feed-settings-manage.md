@@ -1,18 +1,18 @@
 ---
 title: Configurare le impostazioni dei dati dei feed
 description: Scopri come configurare le impostazioni che controllano la modalità di elaborazione dei dati dei feed.
-exl-id: fc72d1bc-aac7-4280-80c6-4fc53a96a49f
+exl-id: 7eaac751-ecdf-4e73-9eae-a961bd9b7360
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
 
 # Configurare le impostazioni dei dati dei feed
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (solo azioni di eliminazione), e [!DNL Yandex] solo account*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (solo azioni di eliminazione), e [!DNL Yandex] solo account*
 
 Puoi configurare la gestione dei gruppi di annunci, delle parole chiave e degli annunci nei file di dati dei feed e la modalità di elaborazione dei dati in specifici file FTP, tramite le impostazioni dei feed.
 
@@ -63,7 +63,7 @@ Puoi configurare la gestione dei gruppi di annunci, delle parole chiave e degli 
 
 * *[!UICONTROL None]* (impostazione predefinita): non modificare i componenti esistenti.
 
-**[!UICONTROL Missing line items in an FTP feed/GMC account]:** Cosa fare con gli elementi esistenti quando 1) non sono inclusi a) in un nuovo file di feed caricato in una directory FTP o b) in un account di un centro commerciale la volta successiva che Search, Social e Commerce si sincronizzano con esso, o 2) quando non vengono mappati su campagne o gruppi di annunci esistenti per il [!UICONTROL Map Only] impostazioni nel modello.
+**[!UICONTROL Missing line items in an FTP feed/GMC account]:** Cosa fare con gli elementi esistenti quando 1) non sono inclusi a) in un nuovo file di feed caricato in una directory FTP o b) in un account di un centro commerciale la volta successiva che Search, Social e Commerce si sincronizzano con esso, o 2) quando non sono mappati su campagne o gruppi di annunci esistenti per il [!UICONTROL Map Only] impostazioni nel modello.
 
 * *[!UICONTROL Delete]:* Elimina i componenti esistenti.
 

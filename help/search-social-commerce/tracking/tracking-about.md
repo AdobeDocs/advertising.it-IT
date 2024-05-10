@@ -1,32 +1,32 @@
 ---
-title: Informazioni sul tracciamento per Ricerca, Social e Commerce
+title: Informazioni sul tracciamento per Search, Social e Commerce
 description: Scopri le opzioni di tracciamento per Search, Social e Commerce.
 exl-id: f0fd367a-dd5a-46ec-a3d6-9b491860aae8
 feature: Search Tracking
-source-git-commit: aeb5f9a903290926afc27fe32c32646561850cc1
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 0%
 
 ---
 
-# Informazioni sul tracciamento per Ricerca, Social e Commerce
+# Informazioni sul tracciamento per Search, Social e Commerce
 
-Per tenere traccia delle prestazioni degli annunci, cerca i dati sulle esigenze di Search, Social e Commerce (transazione), clic, costo e conversione per gli annunci. Search, Social e Commerce utilizza questi dati per creare i modelli di previsione dei dati necessari per ottimizzare i portfolio di annunci.
+Per tenere traccia delle prestazioni degli annunci, Search, Social e Commerce necessitano di dati di tipo impression, clic, costo e conversione (transazione) per i tuoi annunci. Search, Social e Commerce utilizzano questi dati per creare i modelli di previsione dei dati necessari per ottimizzare i portfolio di annunci.
 
 ## Dati su costi, clic e impression
 
-Search, Social e Commerce recupera i dati su impression, clic e costi direttamente da [reti pubblicitarie supportate](/help/search-social-commerce/introduction/supported-inventory.md) ogni giorno. Inoltre, Search, Social e Commerce possono aggiungere nei modelli di tracciamento e negli URL di destinazione un codice di tracciamento dei clic univoco (che include un reindirizzamento a un server di tracciamento) per monitorare impression, clic e costi di visualizzazione/contenuto e per collegare successivamente gli eventi alle conversioni.
+Search, Social e Commerce recuperano i dati su impression, clic e costi direttamente da [reti pubblicitarie supportate](/help/search-social-commerce/introduction/supported-inventory.md) ogni giorno. Inoltre, Search, Social e Commerce possono aggiungere nei modelli di tracciamento e negli URL di destinazione un codice di tracciamento dei clic univoco (che include un reindirizzamento a un server di tracciamento) per monitorare impression, clic e costi della visualizzazione o del contenuto e per collegare successivamente gli eventi alle conversioni.
 
-Se desideri tenere traccia delle campagne su reti pubblicitarie con cui Search, Social e Commerce non sincronizza i dati, devi fornire i dati per tali campagne inviando un file di feed giornaliero con i dati su impression, clic e costo.
+Se desideri tenere traccia delle campagne su reti pubblicitarie con cui Search, Social e Commerce non sincronizzano i dati, devi fornire i dati per tali campagne inviando un file di feed giornaliero con i dati su impression, clic e costo.
 
 ### Tag di tracciamento dei clic
 
-Il team di implementazione di Search, Social &amp; Commerce configura il tracciamento dei clic aggiornando i modelli di tracciamento e gli URL di destinazione per annunci, parole chiave, posizionamenti, gruppi di prodotti ed estensioni sitelink nelle campagne pubblicitarie sincronizzate, in modo da includere una stringa ID tracciamento univoca e un Adobe Advertising di reindirizzamento. Aggiungono inoltre il tracciamento ai suffissi della pagina principale (suffissi URL finali) per il tuo [!DNL Google Ads] e [!DNL Microsoft® Advertising] account e campagne.
+Il team di implementazione di Search, Social e Commerce configura il tracciamento dei clic aggiornando i modelli di tracciamento e gli URL di destinazione per annunci, parole chiave, posizionamenti, gruppi di prodotti ed estensioni sitelink nelle campagne pubblicitarie sincronizzate, in modo da includere una stringa di ID tracciamento univoca e un Adobe Advertising di reindirizzamento. Aggiungono inoltre il tracciamento ai suffissi della pagina principale (suffissi URL finali) per il tuo [!DNL Google Ads] e [!DNL Microsoft Advertising] account e campagne.
 
 I parametri di tracciamento consentono all’Adobe Advertising di tenere traccia dei clic a livello di singola parola chiave (campagne di ricerca) o a livello di variante dell’annuncio (campagne di ricerca con targeting di contenuto o sito, campagne di visualizzazione e campagne social). Ogni volta che un utente visualizza un annuncio di visualizzazione/contenuto o fa clic su uno degli annunci, la rete di annunci invia l’evento ai server pixel Adobi Advertising utilizzando un tag di tracciamento dei clic associato alla parola chiave o all’annuncio. Per i clic:
 
-* Per [!DNL Google Ads] e [!DNL Microsoft® Advertising] annunci su browser che supportano il tracciamento parallelo, la rete di annunci invia prima il clic al sito web e poi ai server pixel Adobi Advertising, che quindi inseriscono un cookie sul computer dell’utente, se non ne esiste già uno.
+* Per [!DNL Google Ads] e [!DNL Microsoft Advertising] annunci su browser che supportano il tracciamento parallelo, la rete di annunci invia prima il clic al sito web e poi ai server pixel Adobi Advertising, che quindi inseriscono un cookie sul computer dell’utente, se non ne esiste già uno.
 
 * In tutti gli altri casi, la rete pubblicitaria invia il clic direttamente ai server pixel Adobi Advertising. Il pixel server inserisce un cookie nel computer dell’utente (se non ne esiste già uno) e quindi reindirizza l’utente all’URL appropriato sul sito web. L’esperienza complessiva per l’utente finale è la stessa che si avrebbe senza un reindirizzamento.
 
@@ -34,7 +34,7 @@ Il cookie è impostato in [!DNL Adobe] dominio (`everesttech.net`) come cookie d
 
 ## Dati di conversione
 
-Quando un cliente fa clic su un annuncio o visualizza un annuncio di visualizzazione o social, Search, Social e Commerce deve mappare ogni conversione risultante sul clic o sulla visualizzazione o sull’impression social di origine.
+Quando un cliente fa clic su un annuncio o visualizza un annuncio di visualizzazione o social, Search, Social e Commerce devono mappare ogni conversione risultante sul clic o sulla visualizzazione o sull’impression social di origine.
 
 L’inserzionista svolge un ruolo nella fornitura dei dati di conversione per tutti i clic e le impression display/social. I dati di conversione possono includere informazioni su qualsiasi tipo di evento che si verifica su un sito web e che può essere utilizzato per l’ottimizzazione delle offerte. Puoi fornire i dati di conversione implementando il codice di tracciamento della conversione nelle pagine di conversione dell’inserzionista (ad esempio la pagina &quot;operazione riuscita&quot; visualizzata dopo che un cliente ha completato una transazione) o inviando un file di feed giornaliero con dati di conversione acquisiti da un altro metodo.
 

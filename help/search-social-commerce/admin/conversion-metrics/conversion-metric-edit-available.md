@@ -2,8 +2,8 @@
 title: Modificare le metriche di conversione disponibili nelle visualizzazioni e nei rapporti di gestione
 description: Scopri come rendere disponibili le metriche di conversione nelle visualizzazioni e nei rapporti di gestione.
 feature: Conversions
-exl-id: a8f3a2d6-4203-42db-96cd-faf02d20d247
-source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
+exl-id: de3d288a-5fec-4479-92cf-7754390e21bb
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Modificare le metriche di conversione disponibili nelle visualizzazioni e nei rapporti di gestione
 
-Quando l’Adobe Advertising tiene traccia di una [conversione](/help/search-social-commerce/glossary.md#c-d) metrica per un inserzionista, inizialmente è escluso dalle viste degli obiettivi del portfolio, dei rapporti e della gestione. Per rendere visibile una metrica di conversione, devi renderla esplicitamente disponibile e quindi, facoltativamente, modificare il nome visualizzato predefinito, che è il nome visualizzato. L&#39;unica eccezione è che le conversioni tracciate da [!DNL Google Ads], [!DNL Google Analytics], e [!DNL Microsoft® Advertising] i tag di tracciamento degli eventi universali sono automaticamente disponibili e visibili.
+Quando l’Adobe Advertising tiene traccia di una [conversione](/help/search-social-commerce/glossary.md#c-d) metrica per un inserzionista, inizialmente è escluso dalle viste degli obiettivi del portfolio, dei rapporti e della gestione. Per rendere visibile una metrica di conversione, devi renderla esplicitamente disponibile e quindi, facoltativamente, modificare il nome visualizzato predefinito, che è il nome visualizzato. L&#39;unica eccezione è che le conversioni tracciate da [!DNL Google Ads], [!DNL Google Analytics], e [!DNL Microsoft Advertising] i tag di tracciamento degli eventi universali sono automaticamente disponibili e visibili.
 
 Allo stesso modo, puoi nascondere una metrica di conversione dalle viste degli obiettivi del portfolio, dei rapporti e della gestione. Quando nascondi una metrica di conversione precedentemente visibile, questa viene rimossa da tutte le metriche derivate che la contengono.
 
@@ -50,10 +50,10 @@ Dall’elenco delle metriche di conversione disponibili, ogni utente con accesso
 
 >[!NOTE]
 >
->Se Adobi Advertising raccoglie dati per nuove metriche di conversione, le nuove metriche, tranne quelle tracciate da [!DNL Google Ads], [!DNL Google Analytics], e [!DNL Microsoft® Advertising] tag di tracciamento degli eventi universali: vengono automaticamente esclusi dalle visualizzazioni e dai rapporti di gestione fino a quando non vengono inclusi. Nuove conversioni tracciate da [!DNL Google Ads], [!DNL Google Analytics], e [!DNL Microsoft® Advertising] i tag di tracciamento degli eventi universali sono sempre disponibili automaticamente.
+>Se Adobi Advertising raccoglie dati per nuove metriche di conversione, le nuove metriche, tranne quelle tracciate da [!DNL Google Ads], [!DNL Google Analytics], e [!DNL Microsoft Advertising] tag di tracciamento degli eventi universali: vengono automaticamente esclusi dalle visualizzazioni e dai rapporti di gestione fino a quando non vengono inclusi. Nuove conversioni tracciate da [!DNL Google Ads], [!DNL Google Analytics], e [!DNL Microsoft Advertising] i tag di tracciamento degli eventi universali sono sempre disponibili automaticamente.
 
 >[!MORELIKETHIS]
 >
-* [Informazioni sulla gestione delle metriche di conversione di un inserzionista](conversion-metric-about.md)
-* [Visualizzare le metriche di conversione tracciate per un inserzionista](conversion-metric-view-tracked.md)
-* [Modificare il nome visualizzato di una metrica di conversione](conversion-metric-edit-display-name.md)
+>* [Informazioni sulla gestione delle metriche di conversione di un inserzionista](conversion-metric-about.md)
+>* [Visualizzare le metriche di conversione tracciate per un inserzionista](conversion-metric-view-tracked.md)
+>* [Modificare il nome visualizzato di una metrica di conversione](conversion-metric-edit-display-name.md)

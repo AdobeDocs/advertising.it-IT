@@ -1,18 +1,18 @@
 ---
 title: Quando vengono creati o eliminati i componenti del conto dai feed di inventario?
 description: Scopri quali situazioni creano ed eliminano i componenti del conto durante la registrazione dei feed di inventario.
-exl-id: 93b31996-15dd-4215-ae9d-39327910f712
+exl-id: 39a3cc2c-f956-4a89-a69d-687a27a38a1e
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
 
 # Quando vengono creati o eliminati i componenti del conto dai feed di inventario?
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (solo azioni di eliminazione), e [!DNL Yandex] solo account*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (solo azioni di eliminazione), e [!DNL Yandex] solo account*
 
 Quando un file di feed inventario viene propagato tramite un modello, i componenti conto vengono creati ed eliminati nel modo seguente.
 
@@ -23,9 +23,9 @@ Quando un file di feed inventario viene propagato tramite un modello, i componen
 | Scenario | Esempio | Azione |
 |----|----|----|
 | I dati dei feed includono un nuovo valore per una colonna utilizzata in un nome di campagna, un nome di gruppo di annunci, una parola chiave o un gruppo di prodotti. | File precedenti:<br>Campaign=Hats<br>Campaign=Guanti<br><br>Nuovo file:<br>Campaign=Scarpe | Se non esiste nella rete di annunci, viene creata una nuova campagna, un nuovo gruppo di annunci, una parola chiave o un nuovo gruppo di prodotti. |
-| I dati dei feed contengono un nuovo valore per una colonna utilizzata in un annuncio. | File precedente: un annuncio incluso prezzo=20<br><br>Nuovo file: per lo stesso annuncio, prezzo=10 | Quando la copia dell’annuncio per [!DNL Microsoft® Advertising] annunci di testo espansi, [!DNL Yahoo! Japan ads], o [!DNL Yandex] annunci viene modificato, l’annuncio esistente viene eliminato e ne viene creato uno nuovo.<br><br>Quando la copia dell’annuncio viene modificata per altri tipi di annunci o quando la colonna applicabile viene utilizzata per un [!DNL Google Ads] parametro ad ({param1} o {param2}) in un annuncio, l’annuncio esistente viene aggiornato. |
+| I dati dei feed contengono un nuovo valore per una colonna utilizzata in un annuncio. | File precedente: un annuncio incluso prezzo=20<br><br>Nuovo file: per lo stesso annuncio, prezzo=10 | Quando la copia dell’annuncio per [!DNL Microsoft Advertising] annunci di testo espansi, [!DNL Yahoo! Japan ads], o [!DNL Yandex] annunci viene modificato, l’annuncio esistente viene eliminato e ne viene creato uno nuovo.<br><br>Quando la copia dell’annuncio viene modificata per altri tipi di annunci o quando la colonna applicabile viene utilizzata per un [!DNL Google Ads] parametro ad ({param1} o {param2}) in un annuncio, l’annuncio esistente viene aggiornato. |
 | Le impostazioni del modello per la campagna, il gruppo di annunci, la parola chiave o il gruppo di prodotti sono cambiate dall’ultima propagazione. | Impostazione precedente:Parola chiave=[Parola chiave]<br><br>Nuova impostazione: Parola chiave=&lt;color>[Parola chiave] | Se non esiste nella rete di annunci, viene creata una nuova campagna, un nuovo gruppo di annunci, una parola chiave o un nuovo gruppo di prodotti. |
-| Le impostazioni del modello per un annuncio sono state modificate dopo l’ultima propagazione. | Impostazione precedente: Ad description=&quot;Acquista [categoria] ora.&quot;<br><br>Nuova impostazione: Ad description=&quot;Acquista [brand] ora.&quot; | Quando la copia dell’annuncio per [!DNL Microsoft® Advertising] annunci di testo espansi, [!DNL Yahoo! Japan ads], o [!DNL Yandex] annunci viene modificato, l’annuncio esistente viene eliminato e ne viene creato uno nuovo.<br><br>Quando la copia dell’annuncio viene modificata per altri tipi di annunci o quando la modifica riflette una modifica nella colonna utilizzata per un singolo [!DNL Google Ads] parametro ad ({param1} o {param2}) in un annuncio, l’annuncio esistente viene aggiornato. |
+| Le impostazioni del modello per un annuncio sono state modificate dopo l’ultima propagazione. | Impostazione precedente: Ad description=&quot;Acquista [categoria] ora.&quot;<br><br>Nuova impostazione: Ad description=&quot;Acquista [brand] ora.&quot; | Quando la copia dell’annuncio per [!DNL Microsoft Advertising] annunci di testo espansi, [!DNL Yahoo! Japan ads], o [!DNL Yandex] annunci viene modificato, l’annuncio esistente viene eliminato e ne viene creato uno nuovo.<br><br>Quando la copia dell’annuncio viene modificata per altri tipi di annunci o quando la modifica riflette una modifica nella colonna utilizzata per un singolo [!DNL Google Ads] parametro ad ({param1} o {param2}) in un annuncio, l’annuncio esistente viene aggiornato. |
 | I nuovi dati del feed non includono una riga per una campagna o un gruppo di annunci esistente. | n/d | Le campagne e i gruppi di annunci esistenti rimangono invariati. |
 | I nuovi dati del feed non includono una riga per un gruppo di annunci, un annuncio, una parola chiave o un gruppo di prodotti esistente. | n/d | Il gruppo di annunci, l’annuncio, la parola chiave o il gruppo di prodotti esistente rimane invariato, è messo in pausa o viene eliminato, a seconda della [impostazioni dei dati di feed](feed-settings-manage.md#feed-data-settings). |
 | I nuovi dati di feed per un gruppo di prodotti padre esistente non includono righe per i gruppi di prodotti figlio esistenti. | n/d | Il gruppo di prodotti padre esistente rimane invariato o viene eliminato, in base alla [impostazioni dei dati di feed](feed-settings-manage.md#feed-data-settings). <b>Nota:</b> Se le impostazioni dei dati di feed sono configurate per mettere in pausa gli elementi di riga mancanti, il gruppo di prodotti principale viene comunque eliminato perché non è possibile mettere in pausa i gruppi di prodotti. |

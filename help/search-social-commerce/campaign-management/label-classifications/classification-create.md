@@ -1,11 +1,11 @@
 ---
 title: Creare una classificazione di etichette
 description: Scopri come creare una classificazione delle etichette per raggruppare i componenti dell’account.
-exl-id: a7f6ca43-e829-4295-96bc-27ce8858227a
+exl-id: 227f44d7-c422-4baa-94ff-6deafcddf920
 feature: Search Label Classifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Ogni inserzionista può avere fino a 30 classificazioni di etichette.
 
 1. Inserisci un nome univoco per la classificazione dell’etichetta, quindi fai clic su **[!UICONTROL Save]**.
 
-   Il nome deve essere univoco per l&#39;account dell&#39;inserzionista e deve essere costituito da [Caratteri ASCII: 32-126](https://www.asciitable.com/), e la lunghezza massima è di 27 caratteri a byte singolo. Il nome non può essere identico al nome di una colonna di report o di una colonna di bulksheet esistente. Visualizzare i nomi delle colonne dei fogli collettivi per [Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [Microsoft® Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Yahoo! Rete di visualizzazione](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md), e [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md).
+   Il nome deve essere univoco per l&#39;account dell&#39;inserzionista e deve essere costituito da [Caratteri ASCII: 32-126](https://www.asciitable.com/), e la lunghezza massima è di 27 caratteri a byte singolo. Il nome non può essere identico al nome di una colonna di report o di una colonna di bulksheet esistente. Visualizzare i nomi delle colonne dei fogli collettivi per [Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Yahoo! Rete di visualizzazione](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md), e [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md).
 
 Dopo aver creato una classificazione di etichetta, puoi creare valori di etichetta specifici per la classificazione e assegnare i valori di etichetta alle entità conto dalla [visualizzazioni di gestione delle campagne](classification-values-assign-campaign-management.md) o [utilizzo dei bulksheet](classification-values-assign-bulksheets.md).
 
@@ -29,6 +29,6 @@ Dopo aver creato una classificazione di etichetta, puoi creare valori di etichet
 >* [Informazioni sulle classificazioni delle etichette](classification-about.md)
 >* [Assegnare valori di classificazione ai componenti account dalle viste di gestione delle campagne](classification-values-assign-campaign-management.md)
 >* [Assegnare valori di classificazione ai componenti conto utilizzando i bulksheet](classification-values-assign-bulksheets.md)
->* [Rimuovi i valori di classificazione delle etichette dai componenti dell’account](classification-values-remove.md)
+>* [Rimuovere i valori di classificazione delle etichette dai componenti dell’account](classification-values-remove.md)
 >* [Elimina valori di classificazione delle etichette](classification-values-delete.md)
 >* [Eliminare le classificazioni delle etichette](classification-delete.md)

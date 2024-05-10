@@ -3,7 +3,7 @@ title: Sincronizzare manualmente i dati di rete degli annunci
 description: Scopri come attivare manualmente la sincronizzazione della struttura della campagna e delle entità della campagna per le reti di annunci supportate.
 exl-id: 185c6a01-c2e8-4bbb-a9dd-0a8200eb4792
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Sincronizzare manualmente i dati di rete degli annunci
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising] (in precedenza [!DNL Bing Ads]), [!DNL Yahoo! Japan Ads], [!DNL Yandex], ed esistenti [!DNL Baidu] solo account*
+*[!DNL Google Ads], [!DNL Microsoft Advertising] (in precedenza [!DNL Bing Ads]), [!DNL Yahoo! Japan Ads], [!DNL Yandex], ed esistenti [!DNL Baidu] solo account*
 
-La sincronizzazione è il processo tramite il quale Search, Social e Commerce raccoglie informazioni aggiornate per gli account di rete degli annunci collegati di ogni inserzionista su [reti pubblicitarie supportate](/help/search-social-commerce/introduction/supported-inventory.md). Questi dati includono la struttura della campagna dell’inserzionista e le entità della campagna, inclusa la maggior parte dei loro attributi gestiti o segnalati in Search, Social e Commerce. Non include i dati di clic, né le offerte e i modificatori di offerte immessi al di fuori di Search, Social e Commerce, che vengono raccolti separatamente.
+La sincronizzazione è il processo tramite il quale Search, Social e Commerce raccolgono informazioni aggiornate per gli account di rete degli annunci collegati di ogni inserzionista su [reti pubblicitarie supportate](/help/search-social-commerce/introduction/supported-inventory.md). Questi dati includono la struttura della campagna dell’inserzionista e le entità della campagna, inclusa la maggior parte dei loro attributi gestiti o segnalati in Search, Social e Commerce. Non include i dati sui clic, né le offerte e i modificatori di offerte immessi all’esterno di Search, Social e Commerce, che vengono raccolti separatamente.
 
-Search, Social e Commerce sincronizzano automaticamente (sincronizzano) con gli account della rete di annunci una volta al giorno e anche ogni volta che rileva una nuova campagna su una delle reti di annunci. Inoltre, invia immediatamente alla rete di annunci tutte le modifiche apportate ai dati della campagna da Search, Social e Commerce.
+Search, Social e Commerce si sincronizzano (sincronizzano) automaticamente con gli account della rete di annunci una volta al giorno e ogni volta che rilevano una nuova campagna su una delle reti di annunci. Inoltre, invia immediatamente alla rete di annunci tutte le modifiche apportate ai dati della campagna dall’interno di Search, Social e Commerce.
 
 Puoi richiedere manualmente la sincronizzazione di tutte le campagne attive e in pausa in account specifici o in campagne attive e in pausa specifiche. Questa attività raccoglie le entità sulla rete di annunci che sono nuove o modificate.
 

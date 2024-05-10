@@ -1,11 +1,11 @@
 ---
 title: Informazioni sui feed di report dei fogli di calcolo
 description: Scopri come utilizzare il recupero dei dati sulle prestazioni giornaliere in un formato di foglio di calcolo personalizzato.
-exl-id: e497e81f-3936-428c-8910-0c4dffddf060
+exl-id: 559dde7a-17c3-4d94-b3b0-c8248c745258
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Solo per report di base e report di accuratezza del modello*
 
-I feed dei fogli di calcolo forniscono dati sulle prestazioni giornaliere per tutti i report di base e i report di accuratezza dei modelli in un formato di foglio di calcolo personalizzato in [!DNL Microsoft® Excel] XLSX. È possibile impostare i feed del foglio di calcolo utilizzando un formato speciale [!DNL Excel] modelli di fogli di calcolo creati da modelli di report standard. Ogni giorno, il foglio di calcolo viene aggiornato automaticamente a un’ora specificata con nuovi dati non elaborati aggregati quotidianamente. I dati non elaborati popolano le colonne e i grafici inclusi nel modello del foglio di calcolo. Quando un file di feed del foglio di calcolo è disponibile, o se la generazione del file non riesce, ogni destinatario e-mail nel modello di rapporto riceve una notifica, in base al file configurato dall’utente [impostazioni di notifica per i rapporti](/help/search-social-commerce/notifications/notification-about.md).
+I feed dei fogli di calcolo forniscono dati sulle prestazioni giornaliere per tutti i report di base e i report di accuratezza dei modelli in un formato di foglio di calcolo personalizzato in [!DNL Microsoft Excel] XLSX. È possibile impostare i feed del foglio di calcolo utilizzando un formato speciale [!DNL Excel] modelli di fogli di calcolo creati da modelli di report standard. Ogni giorno, il foglio di calcolo viene aggiornato automaticamente a un’ora specificata con nuovi dati non elaborati aggregati quotidianamente. I dati non elaborati popolano le colonne e i grafici inclusi nel modello del foglio di calcolo. Quando un file di feed del foglio di calcolo è disponibile, o se la generazione del file non riesce, ogni destinatario e-mail nel modello di rapporto riceve una notifica, in base al file configurato dall’utente [impostazioni di notifica per i rapporti](/help/search-social-commerce/notifications/notification-about.md).
 
 Puoi configurare il feed in modo che venga aggiornato fino agli ultimi 90 giorni di dati e che tutti i dati esistenti precedenti rimangano invariati.
 

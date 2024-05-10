@@ -1,18 +1,18 @@
 ---
 title: '[!UICONTROL Bing Ads Geo Report]'
 description: Scopri di più su [!UICONTROL Bing Ads Geo Report].
-exl-id: b14e5039-4af6-43de-925c-429f537dad6a
+exl-id: 8829ac72-d622-485d-abfb-310778f266b7
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Bing Ads Geo Report]
 
-*[!DNL Microsoft® Advertising]solo account*
+*[!DNL Microsoft Advertising]solo account*
 
 Il [!UICONTROL Bing Ads Geo Report] include i dati relativi a costi, clic, impression e (facoltativamente) metriche derivate per combinazioni di paese/area geografica/codice metropolitana/città per ogni gruppo di annunci in uno o più account. Per impostazione predefinita, i dati includono una riga per ogni combinazione di paese/area geografica/codice metropolitana/città che ha ricevuto almeno un’impression o un clic per ogni gruppo di annunci applicabile per ogni unità di tempo nell’intervallo di date specificato. Per impostazione predefinita, le righe sono in ordine crescente per nome della campagna e quindi per paese, regione, codice della metropolitana, città e gruppo di annunci. Il rapporto non include i dati di conversione tracciati da [!DNL Microsoft Advertising] né [!DNL Adobe].
 
@@ -48,6 +48,6 @@ Per le descrizioni di tutte le colonne predefinite e personalizzate, vedi &quot;
 
 >[!MORELIKETHIS]
 >
-* [Informazioni sui report speciali](specialty-report-about.md)
-* [Generare un rapporto speciale](specialty-report-generate.md)
-* [Impostazioni report speciali](specialty-report-settings.md)
+>* [Informazioni sui report speciali](specialty-report-about.md)
+>* [Generare un rapporto speciale](specialty-report-generate.md)
+>* [Impostazioni report speciali](specialty-report-settings.md)

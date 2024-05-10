@@ -1,20 +1,20 @@
 ---
 title: Associa collegamenti a siti condivisi ad account, campagne e gruppi di annunci
 description: Scopri come assegnare estensioni per sitelink condivise ad account, campagne e gruppi di annunci.
-exl-id: c7bd92ab-3768-4b6e-988a-32e644c3d583
+exl-id: 5baa66a9-aac7-4ddd-a322-6578a571166b
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
 # Associa collegamenti a siti condivisi ad account, campagne e gruppi di annunci
 
-*[!DNL Google Ads]e [!DNL Microsoft® Advertising] solo*
+*[!DNL Google Ads]e [!DNL Microsoft Advertising] solo*
 
-Puoi creare estensioni pubblicitarie assegnando sitelink dal tuo [!DNL Sitelinks] da libreria a entità account, da utilizzare solo nella rete di ricerca. Per [!DNL Google Ads] account, puoi assegnare sitelink ad account o a campagne e gruppi di annunci sulla rete di ricerca. Per [!DNL Microsoft® Advertising] account, puoi assegnare i sitelink alle campagne nella rete di ricerca (e agli account e ai gruppi di annunci dall&#39;interno della [!DNL Microsoft® Advertising] ad manager).
+Puoi creare estensioni pubblicitarie assegnando sitelink dal tuo [!DNL Sitelinks] da libreria a entità account, da utilizzare solo nella rete di ricerca. Per [!DNL Google Ads] account, puoi assegnare sitelink ad account o a campagne e gruppi di annunci sulla rete di ricerca. Per [!DNL Microsoft Advertising] account, puoi assegnare i sitelink alle campagne nella rete di ricerca (e agli account e ai gruppi di annunci dall&#39;interno della [!DNL Microsoft Advertising] ad manager).
 
 Affinché i sitelink vengano visualizzati con annunci, è necessario disporre di almeno sei sitelink attivi sia per desktop che per dispositivi mobili. Puoi assegnare fino a 20 sitelink per account, campagna o gruppo di annunci.
 

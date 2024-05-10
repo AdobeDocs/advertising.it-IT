@@ -3,7 +3,7 @@ title: Domande frequenti sulle campagne
 description: Vedi le risposte alle domande sulla gestione delle campagne e sulle visualizzazioni dati delle campagne.
 exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-source-git-commit: 295d576cff59f1313a317473db6e5f271d55e7da
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1585'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Inoltre, [!DNL Google Ads] le metriche delle prestazioni a livello di campagna s
 
 >[!NOTE]
 >
->(Inserzionisti con portfolio) Le prestazioni delle nuove combinazioni di parole chiave e tipi di corrispondenza saranno volatili, mentre Search, Social e Commerce raccolgono i dati per creare modelli per tali combinazioni.
+>(Inserzionisti con portfolio) Le prestazioni delle nuove combinazioni di parole chiave e tipi di corrispondenza saranno volatili, mentre Search, Social e Commerce raccolgono i dati per creare modelli per loro.
 
 **Azioni in [!UICONTROL Search] > [!UICONTROL Campaigns] visualizzazioni, nel processo di pubblicazione di bulksheet e nell’editor proprio della rete di annunci:**
 
@@ -38,11 +38,11 @@ La parola chiave o l’annuncio esistente viene eliminato e ne viene creato un a
 
 * ([!DNL Baidu], [!DNL Google Ads], e [!DNL Yandex]a) È possibile modificare il nome di una parola chiave.
 
-* ([!DNL Google Ads], [!DNL Microsoft® Advertising], e [!DNL Yandex]a) È possibile modificare il tipo di corrispondenza di una parola chiave.
+* ([!DNL Google Ads], [!DNL Microsoft Advertising], e [!DNL Yandex]a) È possibile modificare il tipo di corrispondenza di una parola chiave.
 
 * Sposti una parola chiave tra gruppi di annunci.
 
-* ([!DNL Google Ads] annunci di ricerca dinamica, [!DNL Microsoft® Advertising] annunci di testo espansi e tutti i tipi di annunci su altre reti pubblicitarie supportate) Puoi modificare un annuncio copiato (titolo/titolo o descrizione) o un’immagine pubblicitaria.
+* ([!DNL Google Ads] annunci di ricerca dinamica, [!DNL Microsoft Advertising] annunci di testo espansi e tutti i tipi di annunci su altre reti pubblicitarie supportate) Puoi modificare un annuncio copiato (titolo/titolo o descrizione) o un’immagine pubblicitaria.
 
 * Sposti un annuncio tra gruppi di annunci.
 
@@ -72,7 +72,7 @@ Se modifichi i nomi visualizzati delle metriche di conversione in Search, Social
 
 +++(campagne Google Ads) Posso utilizzare un budget condiviso per le campagne nei portfolio?
 
-Per risultati migliori, non aggiungere [!DNL Google Ads] campagne a un [!DNL Google Ads] budget condiviso se si trovano in portfolio ottimizzati configurati per &quot;[!UICONTROL Auto adjust campaign budget limits].&quot; In caso affermativo, [!DNL Google Ads] sostituisce i budget delle campagne ottimizzati per Search, Social e Commerce, il che potrebbe causare inefficienze nelle offerte.
+Per risultati migliori, non aggiungere [!DNL Google Ads] campagne a un [!DNL Google Ads] budget condiviso se si trovano in portfolio ottimizzati configurati per &quot;[!UICONTROL Auto adjust campaign budget limits].&quot; In caso affermativo, [!DNL Google Ads] sostituisce i budget per campagne ottimizzati per Search, Social e Commerce, il che potrebbe causare inefficienze nelle offerte.
 +++
 
 +++([!DNL Google Ads] Campagne ) Posso inviare utenti mobili e non mobili a pagine di destinazione diverse?
@@ -87,7 +87,7 @@ Per risultati migliori, non aggiungere [!DNL Google Ads] campagne a un [!DNL Goo
 
   Ad esempio: `http://www.example.{ifmobile:mobi}{ifnotmobile:com}` porta gli utenti mobili su www.example.mobi e gli utenti non mobili su www.example.com.
 
-In entrambi i casi, gli URL di base con tracciamento di Search, Social e Commerce includono il non codificato `{}` ed eventuali parametri aggiuntivi aggiunti all’URL di base.
+In entrambi i casi, gli URL di base con tracking di Search, Social e Commerce includono il non codificato `{}` ed eventuali parametri aggiuntivi aggiunti all’URL di base.
 
 >[!NOTE]
 >
@@ -109,24 +109,24 @@ In [!UICONTROL Campaigns] in entrambi i [!UICONTROL Search] > [!UICONTROL Campai
 
 +++Qual è la differenza tra un modello di tracciamento e un suffisso di pagina di destinazione?
 
-Utilizza un suffisso per la pagina di destinazione solo per le reti di annunci che supportano il tracciamento parallelo. In Search, Social e Commerce, sia i modelli di tracciamento che i suffissi delle pagine di destinazione devono includere un identificatore di clic dalla rete pubblicitaria, ma i modelli di tracciamento includono parametri di tracciamento aggiuntivi.
+Utilizza un suffisso per la pagina di destinazione solo per le reti di annunci che supportano il tracciamento parallelo. In Search, Social e Commerce, i modelli di tracciamento e i suffissi delle pagine di destinazione devono includere un identificatore di clic dalla rete dell’annuncio, ma i modelli di tracciamento includono parametri di tracciamento aggiuntivi.
 
 Consulta le prossime domande frequenti su [supporto del tracciamento parallelo](#parallel-tracking) per ulteriori informazioni su come vengono caricati i modelli di tracciamento e i suffissi delle pagine di destinazione quando un utente fa clic su un annuncio.
 
 +++
 
-+++([!DNL Google Ads] e [!DNL Microsoft® Advertising]) Search, Social &amp; Commerce supporta il tracciamento parallelo per gli annunci in [!DNL Google Ads] o [!DNL Microsoft® Advertising]? {#parallel-tracking}
++++([!DNL Google Ads] e [!DNL Microsoft Advertising]) Search, Social e Commerce supportano il tracciamento parallelo per gli annunci in [!DNL Google Ads] o [!DNL Microsoft Advertising]? {#parallel-tracking}
 
 Il tracciamento parallelo invia i clienti direttamente dall’annuncio all’URL finale, che può includere parametri aggiunti da un suffisso URL finale o &quot;suffisso pagina di destinazione&quot;. L’URL del modello di tracciamento (con parametri aggiuntivi per la misurazione dei clic) viene caricato separatamente in background; di conseguenza, la pagina di destinazione viene caricata più rapidamente.
 
-Search, Social e Commerce supportano il tracciamento parallelo per le campagne di ricerca e shopping utilizzando l’identificatore di clic della rete di annunci (`msclkid` per [!DNL Microsoft® Advertising]; `gclid` per [!DNL Google Ads]). Utilizza un [a livello account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) o [a livello di campagna](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (denominato &quot;[!DNL final URL suffix]&quot; nelle reti di annunci), che viene aggiunto agli URL della pagina di destinazione per tenere traccia dei clic sugli annunci secondari dai browser che supportano il tracciamento parallelo. Consulta la [formati di suffisso richiesti per [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) e [formati di suffisso richiesti per [!DNL Microsoft® Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+Search, Social e Commerce supportano il tracciamento parallelo per le campagne di ricerca e shopping utilizzando l’identificatore di clic della rete di annunci (`msclkid` per [!DNL Microsoft Advertising]; `gclid` per [!DNL Google Ads]). Utilizza un [a livello account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) o [a livello di campagna](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (denominato &quot;[!DNL final URL suffix]&quot; nelle reti di annunci), che viene aggiunto agli URL della pagina di destinazione per tenere traccia dei clic sugli annunci secondari dai browser che supportano il tracciamento parallelo. Consulta la [formati di suffisso richiesti per [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) e [formati di suffisso richiesti per [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
-Quando un utente visualizza l’annuncio su un browser che non supporta il tracciamento parallelo, la rete di annunci utilizza invece il tracciamento sequenziale: i clienti vengono inizialmente inviati all’URL del modello di tracciamento, che può reindirizzare i clienti ai server di tracciamento intermedi prima di reindirizzarli all’URL finale (che può includere parametri aggiuntivi nel suffisso di una pagina di destinazione). Tutti i modelli di tracciamento per un account di rete di annunci devono includere lo stesso parametro dell’identificatore di clic utilizzato nella [!UICONTROL Landing Page Suffix]. Consulta la [formati dei modelli di tracciamento per [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) e [formati dei modelli di tracciamento per [!DNL Microsoft® Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+Quando un utente visualizza l’annuncio su un browser che non supporta il tracciamento parallelo, la rete di annunci utilizza invece il tracciamento sequenziale: i clienti vengono inizialmente inviati all’URL del modello di tracciamento, che può reindirizzare i clienti ai server di tracciamento intermedi prima di reindirizzarli all’URL finale (che può includere parametri aggiuntivi nel suffisso di una pagina di destinazione). Tutti i modelli di tracciamento per un account di rete di annunci devono includere lo stesso parametro dell’identificatore di clic utilizzato nella [!UICONTROL Landing Page Suffix]. Consulta la [formati dei modelli di tracciamento per [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) e [formati dei modelli di tracciamento per [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 +++
 
 +++Perché gli URL di tracciamento dei miei annunci includono &quot;`&EV_HASH={<hash>}`?&quot;
 
-Quando effettui il caricamento utilizzando una [feed inventario prodotto](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) per un account con reindirizzamento pixel di Search, Social e Commerce e con tracciamento a livello di parola chiave e creatività, Search, Social e Commerce aggiunge il parametro e il valore hash al modello di tracciamento dell’annuncio o all’URL di destinazione per identificare che è stato creato utilizzando la funzione di feed inventario.
+Quando effettui il caricamento utilizzando una [feed inventario prodotto](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) per un account con reindirizzamento pixel di Search, Social e Commerce e con tracciamento a livello di parola chiave e creatività, Search, Social e Commerce aggiungono il parametro e il valore hash al modello di tracciamento dell’annuncio o all’URL di destinazione per identificare che è stato creato utilizzando la funzione di feed inventario.
 +++
 
 ## Feed inventario

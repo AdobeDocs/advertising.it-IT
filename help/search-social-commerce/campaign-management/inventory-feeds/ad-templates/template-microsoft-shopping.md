@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Microsoft® Ads] impostazioni del modello di annuncio acquisti per i feed inventario'
-description: Fai riferimento alle impostazioni per [!DNL Microsoft® Ads] modelli di annunci commerciali per i feed di inventario.
-exl-id: 64d0092a-bd63-48f4-8e15-f5585f7a022a
+title: '''[!DNL Microsoft Ads] impostazioni del modello di annuncio acquisti per i feed inventario'
+description: Fai riferimento alle impostazioni per [!DNL Microsoft Ads] modelli di annunci commerciali per i feed di inventario.
+exl-id: a0dd6542-0516-406a-b8c5-2e102ec7ab3d
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Ads] impostazioni del modello di annuncio acquisti per i feed inventario
+# [!DNL Microsoft Ads] impostazioni del modello di annuncio acquisti per i feed inventario
 
 Utilizza i modelli di annunci di acquisto per configurare gli annunci di acquisto.
 
@@ -61,7 +61,7 @@ Utilizza i modelli di annunci di acquisto per configurare gli annunci di acquist
 
 * Ad Adobe Advertising, il tracciamento delle conversioni, che viene applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; eseguire una delle operazioni seguenti&quot;:
 
-   * (Consigliato) Utilizza il [formato del modello di tracciamento per le campagne di acquisto Microsoft®](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). Se l’intero account è dedicato agli annunci commerciali, puoi invece definire un modello di tracciamento a livello di account.
+   * (Consigliato) Utilizza il [formato del modello di tracciamento per le campagne di acquisto Microsoft](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). Se l’intero account è dedicato agli annunci commerciali, puoi invece definire un modello di tracciamento a livello di account.
 
    * Se invece includi un valore per ciascun prodotto nel feed utilizzando il comando &quot;[!DNL bingads_redirect]&quot; (utilizzando la [formato corretto](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)), quindi inserisci il parametro `{lpurl}`. Facoltativamente, puoi aggiungere reindirizzamenti di terze parti e il tracciamento al `{lpurl}` parametro.
 

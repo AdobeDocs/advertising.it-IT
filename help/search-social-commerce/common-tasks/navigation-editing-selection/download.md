@@ -1,11 +1,11 @@
 ---
 title: Scaricare dati da una vista di gestione delle campagne
 description: Scopri come scaricare i dati dalla maggior parte delle visualizzazioni di gestione delle campagne.
-exl-id: 0bbb02df-2ee0-4610-b60a-ca2b58daadbb
+exl-id: f549f03c-ed0b-4d7d-8d7e-91192c17e77e
 feature: Search Common Tasks
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Puoi scaricare i dati da [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] visualizzazioni ad eccezione di [!UICONTROL Keywords] - [!UICONTROL Keyword Negatives], [!UICONTROL Placements] - [!UICONTROL Placement Negatives], [!UICONTROL Audiences], e [!UICONTROL Extensions] visualizzazioni. Puoi scaricare:
 
-* Un rapporto in [!DNL XLSM] (con attivazione macro) [!DNL Microsoft® Excel] foglio di calcolo). Se si selezionano righe specifiche nella visualizzazione, il rapporto include una riga per ogni riga selezionata. Se non si seleziona alcuna riga, viene creata una riga per ogni riga della visualizzazione.
+* Un rapporto in [!DNL XLSM] (con attivazione macro) [!DNL Microsoft Excel] foglio di calcolo). Se si selezionano righe specifiche nella visualizzazione, il rapporto include una riga per ogni riga selezionata. Se non si seleziona alcuna riga, viene creata una riga per ogni riga della visualizzazione.
 
 * Un file di bulksheet in formato TXT che include tutte le entità figlio rilevanti. Se selezioni righe per le entità su più reti di annunci, viene creato un file per ogni rete di annunci rilevante. Se non selezioni alcuna riga, viene creato un file per ogni rete di annunci rappresentata nella vista. I file dei fogli collettivi generati per diverse reti di annunci includono diverse colonne di dati.
 
