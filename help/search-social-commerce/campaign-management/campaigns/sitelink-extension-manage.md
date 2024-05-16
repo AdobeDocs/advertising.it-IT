@@ -1,11 +1,11 @@
 ---
 title: Gestire i sitelink condivisi
 description: Scopri come creare e gestire le estensioni di sitelink condivise.
-exl-id: 33d52179-b968-4eab-a1b9-b10ff20948e3
+exl-id: e510f53b-f48c-4129-887c-351a840b8398
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c3b8e387cfc38d195e77761791e689fd094d8f39
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '928'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Puoi modificare un sitelink condiviso alla volta.
 
 ## Impostazioni del sitelink condiviso {#shared-sitelink-settings}
 
-Per ulteriori criteri e motivi di disapprovazione del sitelink, vedi [[!DNL Google Ads]](https://support.google.com/adspolicy/answer/1054210) e [[!DNL Microsoft Advertising]](https://about.ads.microsoft.com/en-us/resources/policies/ad-extensions-policies) requisiti dell&#39;estensione sitelink.
+Per ulteriori criteri e motivi di disapprovazione del sitelink, vedi [[!DNL Google Ads]](https://support.google.com/adspolicy/answer/1054210) e [[!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/ads/en/ext60206) requisiti dell&#39;estensione sitelink.
 
 ### [!UICONTROL Sitelink]
 
@@ -106,7 +106,7 @@ Dopo aver salvato il record, l’URL di base include tutti i parametri di aggiun
 
 >[!NOTE]
 >
->* Quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; Search, Social e Commerce aggiunge automaticamente il prefisso al proprio codice di reindirizzamento e di tracciamento quando si salva il record.
+>* Quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; Search, Social e Commerce applicano automaticamente i prefissi al proprio codice di reindirizzamento e di tracciamento quando si salva il record.
 >* Il modello di tracciamento al livello più granulare sostituisce i valori a tutti i livelli superiori. Ad esempio, se sia le impostazioni dell’account che quelle delle parole chiave includono un valore, questo viene applicato.
 >* ([!DNL Google Ads]) Se aggiorni un modello di tracciamento a livello di sitelink o di parola chiave, gli annunci pertinenti vengono nuovamente inviati per la revisione. Puoi aggiornare i modelli di tracciamento a livello di account, campagna o gruppo di annunci senza inviare nuovamente gli annunci per l’approvazione.
 >* ([!DNL Microsoft Advertising]) Puoi aggiornare i modelli di tracciamento a qualsiasi livello senza inviare nuovamente gli annunci per l’approvazione.
