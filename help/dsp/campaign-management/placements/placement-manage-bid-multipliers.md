@@ -1,24 +1,24 @@
 ---
 title: Gestire i moltiplicatori delle offerte per i posizionamenti
-description: Scopri come creare e modificare i moltiplicatori di offerta per i target di posizionamento specificati.
+description: Scopri come creare e modificare i moltiplicatori di offerta per i target di posizionamento.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 5f358bbc63a5767649f42551f05cfae9fdc2b445
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 3%
+source-wordcount: '554'
+ht-degree: 2%
 
 ---
 
 # Gestire i moltiplicatori delle offerte per i posizionamenti
 
-Utilizzando questa funzione puoi modificare i moltiplicatori di offerta per i target di posizionamento esistenti. Puoi gestire i moltiplicatori delle offerte per un posizionamento alla volta.<!-- remove that line once we can edit multiple -->
+Puoi creare e gestire i moltiplicatori di offerte, per i quali un&#39;offerta viene moltiplicata per aumentare o diminuire l&#39;offerta, per gli obiettivi di posizionamento esistenti di [tipi di target idonei](#bid-multiplier-by-target). Puoi modificare manualmente i valori del moltiplicatore di offerte o caricare un foglio di calcolo con i valori.
 
-Per modificare le destinazioni selezionate per i posizionamenti, vedi &quot;[Modifica posizionamenti](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
+Per impostazione predefinita, il moltiplicatore di offerta per un target è 1,00, il che significa che l’offerta non viene adeguata per tale target. I valori possono essere compresi tra 0,10 e 10,00. Ad esempio, un modificatore di offerta di 0,5 riduce l&#39;offerta di 6 a 3 dollari (0,5 x 6). Quando un&#39;asta è idonea per più modificatori di offerta, tutti i modificatori di offerta applicabili vengono moltiplicati. I modificatori di offerta non aumentano mai l’offerta oltre l’offerta massima.
 
-<!-- 
-## Manage the Bid Multipliers for a Single Placement
--->
+È possibile impostare i moltiplicatori delle offerte (con valori diversi da 1,00) per un [numero limitato di target](#bid-multiplier-limits-by-target).
+
+Questa funzione funziona con i target di posizionamento esistenti. Per modificare le destinazioni selezionate per i posizionamenti, vedi &quot;[Modifica posizionamenti](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
 
 1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
 
@@ -28,15 +28,19 @@ Per modificare le destinazioni selezionate per i posizionamenti, vedi &quot;[Mod
 
 1. Accanto al nome del posizionamento, fate clic su  **[!UICONTROL ...]** > **[!UICONTROL Bid Multiplier]**.
 
-1. Sposta in ogni [scheda specifica del target](#bid-multiplier-by-target) ([!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience], e [!UICONTROL Brand Safety]) e modificare i valori esistenti per le destinazioni di posizionamento. La maggior parte delle categorie target elenca le sottocategorie a sinistra. Fai clic su una sottocategoria per gestire i moltiplicatori di offerte per quella sottocategoria, se applicabile.
+1. Regola manualmente i moltiplicatori delle offerte per il target idoneo o caricando un file CSV con i valori target:
 
-   Per impostazione predefinita, il moltiplicatore di offerta per un target è 1,00, il che significa che l’offerta non viene adeguata per tale target. I valori possono essere compresi tra 0,10 e 10,00. Ad esempio, un modificatore di offerta di 0,5 riduce l&#39;offerta di 6 a 3 dollari (0,5 x 6). I modificatori di offerta non aumentano mai l’offerta oltre l’offerta massima.
+   * Per regolare manualmente i valori del moltiplicatore di offerta, passa a ciascuno [scheda specifica del target](#bid-multiplier-by-target) ([!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience], e [!UICONTROL Brand Safety]) e modificare i valori esistenti per le destinazioni di posizionamento. La maggior parte delle categorie target elenca le sottocategorie a sinistra. Fai clic su una sottocategoria per gestire i moltiplicatori di offerte per quella sottocategoria, se applicabile.
 
-   Quando un&#39;asta è idonea per più modificatori di offerta, tutti i modificatori di offerta applicabili vengono moltiplicati.
+   * Per caricare un file CSV con valori del moltiplicatore di offerte per sovrascrivere i valori esistenti:
 
-   È possibile impostare i moltiplicatori delle offerte (con valori diversi da 1,00) per un [numero limitato di target](#bid-multiplier-limits-by-target).
+      1. Clic **[!UICONTROL CSV File Edit]** in alto a destra.
 
-1. In alto a destra, fai clic su **[!UICONTROL Save]**.
+      1. A) fare clic su **[!UICONTROL Download Template]** e inserisci le destinazioni utilizzando la stessa sintassi visibile nell’interfaccia utente e i corrispondenti valori del moltiplicatore di offerta oppure b) modifica un modello scaricato in precedenza con le stesse informazioni. Salvare il file modificato sul dispositivo o sulla rete.
+
+      1. Clic **[!UICONTROL Next]** per passare al [!UICONTROL Upload File] e a) trascinare e rilasciare il file modificato nella casella oppure b) fare clic all&#39;interno della casella per selezionare il file dal dispositivo o dalla rete.
+
+      1. Verifica i dati caricati in [!UICONTROL Review & Submit] e quindi fare clic su **[!UICONTROL Save]**.
 
 ## Tipi di target idonei per i moltiplicatori di offerte {#bid-multiplier-by-target}
 
