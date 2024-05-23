@@ -2,9 +2,9 @@
 title: Gestire i moltiplicatori delle offerte per i posizionamenti
 description: Informazioni xxx
 feature: DSP Placements
-source-git-commit: 85e1338b841cd9615f7d2881185487ae79743303
+source-git-commit: b6758541b59f1fd924a2fe83c769f5ba385409aa
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,19 @@ ht-degree: 0%
 
      La maggior parte delle categorie target elenca le sottocategorie a sinistra. Fai clic su una sottocategoria per gestire i moltiplicatori di offerte per quella sottocategoria, a seconda dei casi.
 
-   * Per caricare un file CSV con valori del moltiplicatore di offerte per sovrascrivere i valori esistenti:
+   * Per caricare un file CSV con valori del moltiplicatore di offerta in modo da sovrascrivere tutti i valori esistenti:
 
       1. Clic **[!UICONTROL CSV File Edit]** in alto a destra.
 
-      1. A) fare clic su **[!UICONTROL Download Template]** e inserisci le destinazioni utilizzando la stessa sintassi visibile nell’interfaccia utente e i corrispondenti valori del moltiplicatore di offerta oppure b) modifica un modello scaricato in precedenza con le stesse informazioni. Salvare il file modificato sul dispositivo o sulla rete.
+      1. A) fare clic su **[!UICONTROL Download Template]** e modificare il file o b) modificare un modello scaricato in precedenza. Salvare il file modificato sul dispositivo o sulla rete.
+
+         I modelli scaricati includono un foglio per ogni tipo di destinazione (ad esempio Paese, Origini e Categoria sito). Sono inclusi solo i moltiplicatori di offerte esistenti con valori diversi da 1.0.
+
+         * Per aggiungere un moltiplicatore di offerta per una destinazione esistente, inserisci la destinazione utilizzando la stessa sintassi visibile nell’interfaccia utente e il corrispondente valore del moltiplicatore di offerta.
+
+         * Per rimuovere un modificatore di offerta, imposta il valore del moltiplicatore di offerta su 1,0 oppure elimina tutte le informazioni relative alla riga.
+
+         ![Riga di esempio in un file di foglio di calcolo del moltiplicatore di offerte](/help/dsp/assets/bid-multiplier-spreadsheet.png "Riga di esempio in un file di foglio di calcolo del moltiplicatore di offerte")
 
       1. Clic **[!UICONTROL Next]** per passare al [!UICONTROL Upload File] e a) trascinare e rilasciare il file modificato nella casella oppure b) fare clic all&#39;interno della casella per selezionare il file dal dispositivo o dalla rete.
 
@@ -59,17 +67,25 @@ ht-degree: 0%
 
    Le stesse modifiche si applicano a tutti i posizionamenti selezionati.
 
-   * Per caricare un file CSV con valori del moltiplicatore di offerta che sovrascrivono i valori esistenti:
+* Per caricare un file CSV con valori del moltiplicatore di offerta in modo da sovrascrivere tutti i valori esistenti:
 
-     >[!NOTE]
-     >
-     >Se lasci vuoto un campo, vengono eliminati tutti i valori per quel tipo di destinazione.<!-- Verify and re-word if needed. I'm not sure if you'll be able to have multiple data rows (one per placement) or if there only one data row is applicable for all. -->
+   1. Clic **[!UICONTROL CSV File Edit]** in alto a destra.
 
-      1. Clic **[!UICONTROL CSV Edit]** in alto a destra.
+   1. A) fare clic su **[!UICONTROL Download Template]** e modificare il file o b) modificare un modello scaricato in precedenza. Salvare il file modificato sul dispositivo o sulla rete.
 
-      1. A) fare clic su **[!UICONTROL Download Template]** e modificare i valori del moltiplicatore di offerta o b) modificare un modello scaricato in precedenza. Salvare il file modificato sul dispositivo o sulla rete.
+      I modelli scaricati includono un foglio per ogni tipo di destinazione (ad esempio Paese, Origini e Categoria sito). Sono inclusi solo i moltiplicatori di offerte esistenti con valori diversi da 1.0.
 
-      1. A) trascinare e rilasciare il file modificato nella casella o b) fare clic all&#39;interno della casella per selezionare il file dal dispositivo o dalla rete.
+      * Per aggiungere un moltiplicatore di offerta per una destinazione esistente, inserisci la destinazione utilizzando la stessa sintassi visibile nell’interfaccia utente e il corrispondente valore del moltiplicatore di offerta.
+
+      * Per rimuovere un modificatore di offerta, imposta il valore del moltiplicatore di offerta su 1,0 oppure elimina tutte le informazioni relative alla riga.
+
+      ![Riga di esempio in un file di foglio di calcolo del moltiplicatore di offerte](/help/dsp/assets/bid-multiplier-spreadsheet.png "Riga di esempio in un file di foglio di calcolo del moltiplicatore di offerte")
+
+   1. Clic **[!UICONTROL CSV Edit]** in alto a destra.
+
+   1. A) fare clic su **[!UICONTROL Download Template]** e modificare i valori del moltiplicatore di offerta o b) modificare un modello scaricato in precedenza. Salvare il file modificato sul dispositivo o sulla rete.
+
+   1. A) trascinare e rilasciare il file modificato nella casella o b) fare clic all&#39;interno della casella per selezionare il file dal dispositivo o dalla rete.
 
    1. Clic **[!UICONTROL Upload]**.
 
