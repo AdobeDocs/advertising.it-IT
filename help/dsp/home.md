@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 08f177d0cc05b9a4e6c240ba78dcb903587a1bfa
+source-git-commit: 0d96c6dcdc498e9c96e7c13b24c805bf5c3bdcae
 workflow-type: tm+mt
-source-wordcount: '2775'
+source-wordcount: '2857'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Le seguenti funzioni sono nuove o modificate di recente.
 
 | Data | Funzionalità | Descrizione | Per Ulteriori Informazioni |
 | ---- | ------- | ----------- | -------------------- |
+| 20 maggio 2024 | Annunci TV, pixel e segmenti di retargeting collegati | (Beta aperta; disponibile solo negli Stati Uniti e in Australia) È ora possibile eseguire il retargeting dei segmenti di pubblico esposti a una campagna CTV con annunci aggiuntivi per migliorare la pubblicità cross-channel:<ul><li>Imposta un segmento di esposizione degli annunci e copia il tag di tracciamento delle impression nel posizionamento CTV o nell’annuncio desiderato per iniziare il tracciamento del segmento.</li><li>Nel posizionamento di retargeting, selezionare il segmento di esposizione CTV in [!UICONTROL Audience Targeting] sezione.</li></ul> | Consulta &quot;[Creare e implementare un segmento personalizzato](/help/dsp/audiences/custom-segment-create.md)&quot; e &quot;[Impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 2 maggio 2024 | Annunci, Pixel | Puoi scaricare le impostazioni degli annunci e le associazioni di posizionamento per tutti gli annunci in una campagna in formato XLSX (foglio di calcolo Excel) per la revisione da [!UICONTROL Ad Tools] visualizzazione. | Consulta &quot;[Rivedere I Dettagli Dell’Annuncio Utilizzando I Fogli Di Calcolo](/help/dsp/campaign-management/ads/ad-qa.md).&quot; |
 | |  | Il [!UICONTROL Ad Tools] visualizza > [!UICONTROL Attach Pixels] Questa scheda mostra i pixel di tracciamento di terze parti allegati agli annunci e fornisce un nuovo flusso di lavoro per allegare i pixel a uno o più annunci e staccare i pixel esistenti. | Consulta &quot;[Allega annunci ai posizionamenti](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
 |  | Posizionamenti, tipi di pubblico | Ora puoi escludere singoli segmenti di pubblico o tipi di pubblico non riutilizzabili dai posizionamenti tramite strumenti di modifica in blocco o l’editor di posizionamento. | Consulta &quot;[Modifica posizionamenti](/help/dsp/campaign-management/placements/placement-edit.md)&quot; e &quot;[Impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
