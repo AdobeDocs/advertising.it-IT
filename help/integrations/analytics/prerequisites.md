@@ -3,9 +3,9 @@ title: Prerequisiti e informazioni chiave per l’implementazione [!DNL Analytic
 description: Prerequisiti e informazioni chiave per l’implementazione [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 63b91d84118c6b84fe72ae1c3ac1a9f68d7201fc
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,9 @@ Leggi le seguenti informazioni prima di integrare Adobi Advertising con Adobe An
 * Qualsiasi versione di Adobe Analytics (incluso [!DNL Prime], [!DNL Premium], o [!DNL Ultimate])
 * Adobe Analytics: `appMeasurement.js` versione 2.1 o successiva
 * (Advertising per i clienti DSP) [Frammento JavaScript per Advertising DSP](javascript.md) implementato nelle pagine web per tenere traccia delle visite view-through.
+* Il parametro AMO ID negli URL di tracciamento degli annunci.
+
+  Il parametro viene aggiunto automaticamente agli URL di tracciamento in alcune circostanze, ma potrebbe essere necessario aggiungerlo manualmente. In &quot;Adobi Advertising IDs Used by [!DNL Analytics]/help/integrations/analytics/ids.md,&quot; vedi &quot;[Metodi per implementare AMO ID](/help/integrations/analytics/ids.md#amo-id-implement).&quot;
 
 >[!TIP]
 >
