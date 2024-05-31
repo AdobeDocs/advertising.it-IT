@@ -3,9 +3,9 @@ title: Creare e implementare un segmento personalizzato
 description: Scopri come creare e implementare un segmento personalizzato per tenere traccia degli utenti esposti agli annunci o degli utenti che visitano le tue pagine web.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: b90e831d0fdd5f4f4f47381a2603a3adaea765b2
+source-git-commit: 99091cd673fd064908fec4a89e28d2ddb448e9a8
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,20 @@ Puoi raccogliere i tuoi dati sul pubblico di prime parti creando e implementando
 
          1. Copia il tag di tracciamento della visualizzazione della pagina, che è etichettato &quot;[!UICONTROL Desktop or mobile websites].&quot;
 
+         1. (Tag per i segmenti che tengono traccia di [!DNL ID5] ID) Nel tag copiato, sostituisci `ID5_PARTNER_ID` con l’ID partner che [!DNL ID5] assegnati alla tua organizzazione.
+
+            Ad esempio, se l’ID partner ID5 è `abcde` e il tag del segmento generato è
+
+            ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+
+            quindi sostituisci `ID5_PARTNER_ID` con `abcde` all’interno del tag per ottenere quanto segue:
+
+            ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+
+            L&#39;organizzazione ha ricevuto l&#39;ID partner quando ha firmato un accordo con [!DNL ID5]. Se non conosci il tuo ID partner, contatta il team del tuo account Adobe.
+
+            Questo passaggio non è necessario per tenere traccia dei tag [!DNL ID5] ID per gli utenti esposti a un’unità pubblicitaria su dispositivi desktop o mobili.
+
          1. Fornisci il tag all’inserzionista o al contatto del sito web per la distribuzione.
 
             Il reparto IT dell’inserzionista o un altro gruppo potrebbe dover pianificare la distribuzione dei tag o esserne informato.
@@ -89,21 +103,7 @@ Puoi raccogliere i tuoi dati sul pubblico di prime parti creando e implementando
 
          1. Copia il tag di tracciamento delle impression, etichettato come &quot;[!UICONTROL Desktop or mobile ads].&quot;
 
-   1. (Tag per i segmenti che tengono traccia di [!DNL ID5] ID per i visitatori desktop e mobili di una pagina web) Nel tag copiato, sostituisci `ID5_PARTNER_ID` con l’ID partner che [!DNL ID5] assegnati alla tua organizzazione.
-
-   Ad esempio, se l’ID partner ID5 è `abcde` e il tag del segmento generato è
-
-   ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
-
-   quindi sostituisci `ID5_PARTNER_ID` con `abcde` all’interno del tag per ottenere quanto segue:
-
-   ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
-
-   L&#39;organizzazione ha ricevuto l&#39;ID partner quando ha firmato un accordo con [!DNL ID5]. Se non conosci il tuo ID partner, contatta il team del tuo account Adobe.
-
-   Questo passaggio non è necessario per tenere traccia dei tag [!DNL ID5] ID per gli utenti esposti a un’unità pubblicitaria su dispositivi desktop o mobili.
-
-1. Aggiungi il tag al [!UICONTROL Pixel] per ogni annuncio pertinente o per [!UICONTROL Event Pixels] sezione del [[!UICONTROL Tracking] impostazioni per ogni posizionamento pertinente](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
+         1. Aggiungi il tag al [!UICONTROL Pixel] per ogni annuncio pertinente o per [!UICONTROL Event Pixels] sezione del [[!UICONTROL Tracking] impostazioni per ogni posizionamento pertinente](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
 Una volta implementato un tag di tracciamento, puoi utilizzare il segmento nei target o nelle esclusioni del pubblico per qualsiasi posizionamento.
 
