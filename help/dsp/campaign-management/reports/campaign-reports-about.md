@@ -3,7 +3,7 @@ title: Tipi di rapporti sulle prestazioni nelle visualizzazioni di Campaign Mana
 description: Scopri i dati del rapporto inclusi nelle visualizzazioni di gestione della campagna.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: c7860d98edbf44b71d97c3800edf47a409606b74
+source-git-commit: 4e82caa995286635b4a181f186d6a1fabb09847d
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 0%
@@ -78,7 +78,7 @@ Inoltre, potete visualizzare i seguenti dati nelle impostazioni di posizionament
 
 * [A (vista dettagli [!UICONTROL Inspector])](placement-details-view.md), che mostra tutti i siti target, gli annunci, i dati sulla frequenza e le offerte per un posizionamento.
 
-* A [rapporto previsione posizionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
+* A [rapporto previsione posizionamento](/help/dsp/campaign-management/reports/placement-forecast.md).
 
 * [Rapporti diagnostici sul posizionamento](/help/dsp/campaign-management/reports/placement-diagnostics.md).
 
