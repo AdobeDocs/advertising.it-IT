@@ -3,9 +3,9 @@ title: Panoramica di [!DNL Analytics for Advertising]
 description: Panoramica di [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: a0a3bb1e74ffc687118d0336a03dcc6164b67226
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1181'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ Consulta &quot;[Metriche di Analytics in Adobi Advertising](analytics-data-in-ad
 
 L’Adobe Advertising può acquisire [!DNL Analytics] segmenti a scopo di remarketing per Advertising DSP e [!DNL Search, Social, & Commerce] annunci tramite l’integrazione nativa Experience Cloud Audiences tra [!DNL Analytics] e Experience Cloud.
 
-Per accedere al [!DNL Analytics] segmenti, un account dell&#39;inserzionista deve avere [Servizio ID Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html) abilitato. Quando il servizio ID è abilitato, tutti i segmenti Experience Cloud (inclusi quelli creati in [!DNL Analytics] e pubblicati in Experience Cloud, segmenti creati in Adobe Audience Manager, segmenti creati in Experience Cloud utilizzando [!DNL People core service]I segmenti, e creati in Adobe Experience Platform e inviati ad Adobi Advertising tramite Audienci Manager diventano disponibili all’interno di Adobi Advertising non appena vengono elaborati.
+Per accedere al [!DNL Analytics] , un account inserzionista deve abilitare [Servizio ID Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). Quando il servizio ID è abilitato, tutti i segmenti Experience Cloud (inclusi quelli creati in [!DNL Analytics] e pubblicati in Experience Cloud, segmenti creati in Adobe Audience Manager, segmenti creati in Experience Cloud utilizzando [!DNL People core service]I segmenti, e creati in Adobe Experience Platform e inviati ad Adobi Advertising tramite Audienci Manager diventano disponibili all’interno di Adobi Advertising non appena vengono elaborati.
 
 [!DNL Analytics] I segmenti sono disponibili entro 24 ore e vengono aggiornati ogni giorno.
 
@@ -135,6 +135,10 @@ Per scoprire come tracciare i dati Adobi Advertising rispetto agli obiettivi in 
 ### Utilizzo dell’ID Adobe Advertising per l’analisi dell’ingresso nel sito
 
 Per scoprire come creare un rapporto sulle visite al sito di un Adobe Advertising per monitorare le influenze geografiche, giornaliere e relative all’ora del giorno, guarda il video &quot;[Creare rapporti sulle visite al sito di Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html).&quot;
+
+## Come avviare un’ [!DNL Analytics for Advertising] Implementazione
+
+Contatta il team dell’account Adobe, che completerà la configurazione iniziale necessaria per iniziare e ti aiuterà a pianificare l’implementazione e l’utilizzo dei dati in base alle esigenze della tua organizzazione.
 
 >[!MORELIKETHIS]
 >
