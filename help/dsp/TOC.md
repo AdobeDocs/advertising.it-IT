@@ -4,9 +4,9 @@ user-guide-title: Guida di Advertising DSP
 user-guide-description: Scopri le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire e ottimizzare le strategie degli annunci display con Advertising DSP e creare i relativi rapporti.
 breadcrumb-title: Guida di DSP
 index: true
-source-git-commit: 08f177d0cc05b9a4e6c240ba78dcb903587a1bfa
+source-git-commit: b579c0413400b0af697f06c272878c46cce8003e
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '903'
 ht-degree: 3%
 
 ---
@@ -115,7 +115,8 @@ ht-degree: 3%
    + [Risoluzione dei problemi relativi alle prestazioni](/help/dsp/optimization/troubleshooting-performance.md)
 + Tipi di pubblico {#audiences}
    + [Informazioni su Gestione dell&#39;audience](/help/dsp/audiences/audience-about.md)
-   + Tipi di pubblico {#reusable-audiences}
+   + [Supporto per l’attivazione di ID universali](/help/dsp/audiences/universal-ids.md)
+   + Tipi di pubblico riutilizzabili {#reusable-audiences}
       + [Creare un pubblico riutilizzabile](/help/dsp/audiences/reusable-audience-create.md)
       + [Duplicare un pubblico riutilizzabile](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [Modificare un pubblico riutilizzabile](/help/dsp/audiences/reusable-audience-edit.md)
@@ -137,14 +138,13 @@ ht-degree: 3%
       + [Visualizzare i pixel di tracciamento per un segmento](/help/dsp/audiences/segment-view-pixels.md)
       + [Eliminare un segmento](/help/dsp/audiences/segment-delete.md)
    + Sorgenti {#sources}
-      + [Informazioni sull’attivazione di segmenti autenticati da origini pubblico](/help/dsp/audiences/sources/source-about.md)
+      + [Informazioni sulle origini del pubblico di prime parti](/help/dsp/audiences/sources/source-about.md)
       + Flussi di lavoro per piattaforma dati cliente {#sources-workflows}
-         + [!DNL Adobe Real-Time CDP] {#sources-adobe-rt-cdp}
-            + [Flusso di lavoro per l&#39;utilizzo dell&#39;integrazione DSP con [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
-            + [Attivare segmenti autenticati dai partner Universal ID](/help/dsp/audiences/sources/source-universal-id.md)
-         + [Flusso di lavoro per l&#39;utilizzo dell&#39;integrazione DSP con [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md)
-      + [Creare un’origine di pubblico per attivare tipi di pubblico di prime parti](/help/dsp/audiences/sources/source-create.md)
+         + [Converti ID utente da [!DNL Adobe Real-Time CDP] agli ID universali](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+         + [Converti ID utente da [!DNL Tealium] agli ID universali](/help/dsp/audiences/sources/source-tealium.md)
+      + [Creare un’origine di pubblico per attivare i tipi di pubblico con ID universale](/help/dsp/audiences/sources/source-create.md)
       + [Impostazioni origine pubblico](/help/dsp/audiences/sources/source-settings.md)
+   + [Importare manualmente segmenti autenticati da [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
    + [Provider di dati di terze parti disponibili](/help/dsp/audiences/third-party-data-providers.md)
 + Inventario {#inventory}
    + [Panoramica delle funzioni di magazzino](/help/dsp/inventory/inventory-overview.md)

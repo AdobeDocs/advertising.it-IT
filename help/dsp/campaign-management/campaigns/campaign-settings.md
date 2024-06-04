@@ -3,9 +3,9 @@ title: Impostazioni campagna
 description: Consulta le descrizioni delle impostazioni disponibili per la campagna.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '980'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Per stimare le imposte da trattenere:
 >
 >* Puoi anche configurare questi valori nelle impostazioni delle tariffe dell’account.<!--[fee settings](/help/dsp/admin/tax-withholdings.md). -->
 
-**[!UICONTROL Cross Device Level]:** (Sola lettura per le campagne esistenti create dal 22 giugno 2020; non disponibile per le campagne create prima del 22 giugno 2020) Livello al quale l’DSP eseguirà il targeting degli annunci e applicherà i limiti di frequenza: *Stesso dispositivo* per eseguire il targeting di un dispositivo o *Persone* per eseguire il targeting di una persona su tutti i suoi dispositivi noti.
+**[!UICONTROL Cross Device Level]:** (Sola lettura per le campagne esistenti create dal 22 giugno 2020; non disponibile per le campagne create prima del 22 giugno 2020) Livello al quale l’DSP esegue il targeting degli annunci e applica limiti di frequenza: *Stesso dispositivo* per eseguire il targeting di un dispositivo o *Persone* per eseguire il targeting di una persona su tutti i suoi dispositivi noti. **Nota:** Il supporto tra dispositivi non è disponibile per i posizionamenti mirati agli ID universali.
 
 **[!UICONTROL Device Graph]:** (Sola lettura per le campagne esistenti; campagne con targeting multi-dispositivo basato sulle persone) Il grafico dei dispositivi da utilizzare per il targeting multi-dispositivo e la gestione della frequenza:
 
@@ -86,7 +86,9 @@ Per stimare le imposte da trattenere:
 
   Questa opzione è disponibile anche per tutti gli inserzionisti, senza costi aggiuntivi, per la gestione della frequenza e la misurazione dell’attribuzione.
 
-**[!UICONTROL Frequency Cap]:** (Facoltativo) Il numero di volte in cui un dispositivo o una persona univoca (a seconda del [!UICONTROL Cross Device Level]) possono ricevere annunci dalla campagna. Le opzioni includono *[!UICONTROL Unlimited]* o un importo specifico per giorno, settimana o mese.
+  Il supporto tra dispositivi si applica solo ai posizionamenti che hanno come target ID legacy ma non a quelli che hanno come target ID universali (inclusi [!DNL LiveRamps]). Il targeting, la gestione della frequenza e l’attribuzione per gli ID universali vengono applicati solo a livello di ID.
+
+**[!UICONTROL Frequency Cap]:** (Facoltativo) Il numero di volte in cui un dispositivo univoco, un ID universale o una persona (a seconda del [!UICONTROL Cross Device Level] e del posizionamento [!UICONTROL Targeting] impostazione ) possono essere serviti annunci dalla campagna. Le opzioni includono *[!UICONTROL Unlimited]* o un importo specifico per giorno, settimana o mese.
 
 >[!NOTE]
 >

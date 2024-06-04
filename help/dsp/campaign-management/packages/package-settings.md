@@ -3,9 +3,9 @@ title: Impostazioni pacchetto
 description: Consulta le descrizioni delle impostazioni disponibili per il pacchetto.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 54e8dec0f31d1f18931d12d868ba162879a7acfb
+source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Per i pacchetti con conflitti personalizzati, l&#39;intervallo di budget è semp
 >
 >Questo campo è solo un valore di riferimento e non viene utilizzato per le decisioni.
 
-**[!UICONTROL Frequency Cap]:** (Solo pacchetti con velocità a livello di pacchetto) Il numero di volte in cui un dispositivo o una persona univoca (a seconda della [!UICONTROL Cross Device Level] per la campagna) possono essere serviti annunci dal pacchetto. Le opzioni includono *[!UICONTROL Unlimited]* o un importo specifico per giorno, settimana o mese.
+**[!UICONTROL Frequency Cap]:** (Solo pacchetti con velocità a livello di pacchetto) Il numero di volte in cui un dispositivo, un ID universale o una persona univoci (a seconda della [!UICONTROL Cross Device Level] per la campagna e il posizionamento [!UICONTROL Targeting] ) possono essere serviti annunci dalla confezione. Le opzioni includono *[!UICONTROL Unlimited]* o un importo specifico per giorno, settimana o mese.
 
 >[!NOTE]
 >

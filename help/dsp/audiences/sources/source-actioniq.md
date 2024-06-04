@@ -1,17 +1,19 @@
 ---
-title: "Flusso di lavoro per l'utilizzo dell'integrazione DSP con [!DNL ActionIQ]"
+title: "Converti ID utente da [!DNL ActionIQ] agli ID universali"
 description: "Scopri come consentire all’DSP di acquisire [!DNL ActionIQ] segmenti di prime parti."
 feature: DSP Audiences
-source-git-commit: c672eb593b40de8a49f052ed1d45200d55a1bd1c
+source-git-commit: ecab6e81575128718156bb0bde1a5ea33a21d5f0
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
 
-# Flusso di lavoro per l&#39;utilizzo dell&#39;integrazione DSP con [!DNL ActionIQ]
+# Converti ID utente da [!DNL ActionIQ] agli ID universali
 
-Puoi condividere i dati di prime parti della tua organizzazione da [!DNL ActionIQ] customer data platform utilizzando ........... <!-- fill in -->
+*Funzione beta*
+
+Utilizzare l’integrazione DSP con [!DNL ActionIQ] customer data platform per convertire i tuoi indirizzi e-mail con hash in ID universali per annunci pubblicitari mirati.
 
 Ci sono <!-- NN --> passaggi per condividere i dati da [!DNL ActionIQ] con DSP:
 
@@ -21,15 +23,25 @@ Ci sono <!-- NN --> passaggi per condividere i dati da [!DNL ActionIQ] con DSP:
 
 ## Passaggio 1: creare un’origine di pubblico nell’DSP {#source-create}
 
-* [Creare un’origine di pubblico](source-create.md) per importare tipi di pubblico sul tuo account DSP o su un account inserzionista e condividere la chiave del codice sorgente con [!DNL Tealium] utente.
+1. [Creare un’origine di pubblico](source-create.md) per importare tipi di pubblico nel tuo account DSP o in un account inserzionista, specificando [formati ID universali](source-about.md) in cui desideri convertire gli identificatori utente.
+
+1. Dopo aver creato l&#39;origine del pubblico, condividi la chiave del codice sorgente con [!DNL ActionIQ] utente.
+
+1. Dopo aver completato tutti i passaggi, verifica nella libreria del pubblico (disponibile quando crei o modifichi un pubblico da [!UICONTROL Audiences] > [!UICONTROL All Audiences] o nelle impostazioni di posizionamento) che il segmento viene popolato entro 24 ore. Confronta il numero di ID universali con il numero di indirizzi e-mail con hash originali.
+
+   Il tasso di conversione degli indirizzi e-mail con hash in ID universali deve essere superiore al 90%. Ad esempio, se invii 100 indirizzi e-mail con hash dalla piattaforma dati del cliente, questi devono essere tradotti in più di 90 ID universali. Un tasso di traduzione pari o inferiore al 90% è un problema. Per ulteriori informazioni sulle possibili variazioni dei conteggi dei segmenti, consulta la sezione &quot;[Cause delle varianze di dati tra ID e-mail e ID universali](#universal-ids-data-variances).&quot;
+
+   Per assistenza nella risoluzione dei problemi, contatta il team del tuo account di Adobe oppure `adcloud-support@adobe.com`.
+
+I segmenti vengono aggiornati ogni 24 ore.
 
 ## Passaggio 2:
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sull’attivazione di segmenti autenticati da origini pubblico](/help/dsp/audiences/sources/source-about.md)
->* [Creare un’origine di pubblico per attivare tipi di pubblico di prime parti](source-create.md)
+>* [Informazioni sulle origini del pubblico di prime parti](/help/dsp/audiences/sources/source-about.md)
+>* [Creare un’origine di pubblico per attivare i tipi di pubblico con ID universale](source-create.md)
 >* [Impostazioni origine pubblico](source-settings.md)
->* [Flusso di lavoro per l&#39;utilizzo dell&#39;integrazione DSP con [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
->* [Flusso di lavoro per l&#39;utilizzo dell&#39;integrazione DSP con [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md)
+>* [Converti ID utente da [!DNL Adobe Real-Time CDP] agli ID universali](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [Converti ID utente da [!DNL Tealium] agli ID universali](/help/dsp/audiences/sources/source-tealium.md)
 >* [Informazioni su Gestione dell&#39;audience](/help/dsp/audiences/audience-about.md)

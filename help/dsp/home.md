@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: e5a927a4a96dc44db01e000feb67aad8b520adc5
+source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
 workflow-type: tm+mt
 source-wordcount: '2915'
 ht-degree: 0%
@@ -76,4 +76,3 @@ Le seguenti funzioni sono nuove o modificate di recente.
 |  | [!UICONTROL Deal IDs] | Il [!UICONTROL Deal ID] e altre posizioni nell’interfaccia utente riflettono il nuovo branding per [!DNL Magnite] SSP:<br><ul><li>La SSP &quot;[!DNL Tremor]&quot; ([!DNL Telaria]) è ora &quot;[!DNL Magnite CTV].&quot;</li><li>Nelle prossime settimane, [!DNL Rubicon]&quot; cambierà in &quot;[!DNL Magnite DV+],&quot; dove [!DNL DV+] sta per display, video e altri formati come l’audio.</li></ul> | Consulta &quot;[Partner SSP](/help/dsp/inventory/ssp-partners.md).&quot; |
 |  | [!DNL Freewheel] Offerte garantite programmatiche | Ora puoi inviare annunci e controllare lo stato degli annunci per [!DNL Freewheel] offerte garantite programmatiche dalla [!UICONTROL Ads] visualizzazione. In precedenza, era possibile eseguire entrambe le operazioni solo dal [!UICONTROL Deals] visualizzazione. | Consulta &quot;[Inviare un annuncio per un&#39;offerta programmatica garantita a [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)" and "[Check the Status of Ads for [!DNL Freewheel] Offerte garantite programmatiche](/help/dsp/inventory/freewheel-check-status.md).&quot; |
 | 7 ottobre 2021 | Aiuto | Tutti [Documentazione dell’DSP e di altri Adobi Advertising](https://experienceleague.adobe.com/docs/advertising.html) il [!DNL Experience League] è ora tradotto automaticamente in tutte le lingue disponibili. Per modificare la lingua visualizzata, utilizzare il menu &quot;Cambia lingua&quot; in basso a sinistra di qualsiasi pagina.<br>![Cambia lingua](/help/dsp/assets/change-language.png) |
-

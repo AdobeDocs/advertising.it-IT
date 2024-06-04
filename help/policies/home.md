@@ -4,10 +4,10 @@ description: Scopri i criteri e le linee guida per Advertising DSP e Advertising
 index: true
 cloud: Experience Cloud
 product: advertising cloud
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 3d495d07a1f030d7c0c3a9752f405cbd73b26b3e
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 23%
+source-wordcount: '46'
+ht-degree: 21%
 
 ---
 
@@ -15,6 +15,7 @@ ht-degree: 23%
 
 Scopri i criteri e le linee guida per Advertising DSP e Advertising Search:
 
-* [Criterio dei requisiti per gli annunci](/help/policies/ad-requirements-policy.md)
-* [Linee guida accettabili per i segmenti di integrità](/help/policies/health-segment-guidelines.md)
-* [Linee guida sull’utilizzo dei dati DSP](/help/policies/data-usage-guidelines.md)
++ [Criterio dei requisiti per gli annunci](/help/policies/ad-requirements-policy.md)
++ [Criterio dei requisiti dell’ID universale](/help/policies/universal-id-policy.md)
++ [Linee guida accettabili per i segmenti di integrità](/help/policies/health-segment-guidelines.md)
++ [[!DNL DSP] Linee guida sull’utilizzo dei dati](/help/policies/data-usage-guidelines.md)

@@ -3,9 +3,9 @@ title: Informazioni sulla gestione dell’audience in Advertising DSP
 description: Scopri le funzioni di gestione dell’audience.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: e2387f7e373e69c72e97ee83eff8f6a7ce9ceed5
+source-git-commit: 94c41ec311ed79897e1e26a650605c0213450071
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1316'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,23 @@ ht-degree: 0%
 
 In DSP, puoi creare e gestire segmenti di pubblico e set di tipi di pubblico, che puoi utilizzare come target per i posizionamenti:
 
-* Puoi raccogliere i tuoi dati sul pubblico di prime parti creando e implementando segmenti. In seguito, puoi effettuare il retargeting degli utenti nel segmento con annunci o impedire agli utenti del segmento di ricevere annunci. Puoi creare i seguenti tipi di segmenti:
+* Raccogli i tuoi dati di pubblico di prime parti creando e implementando segmenti DSP. In seguito, puoi effettuare il retargeting degli utenti nel segmento con annunci o impedire agli utenti del segmento di ricevere annunci. Puoi creare i seguenti tipi di segmenti:
 
-   * [Segmenti personalizzati](/help/dsp/audiences/custom-segment-create.md) per tenere traccia di a) utenti esposti agli annunci da desktop e dispositivi mobili e b) utenti che visitano specifiche pagine web.
+   * [Segmenti personalizzati](/help/dsp/audiences/custom-segment-create.md) per tenere traccia di a) utenti esposti agli annunci da desktop e dispositivi mobili e b) utenti che visitano specifiche pagine web. Il tag di tracciamento può tenere traccia degli utenti basati su cookie o degli utenti associati agli ID universali ID5.
 
    * [Segmenti di rifiuto del CCPA](/help/dsp/audiences/ccpa-opt-out-segment-create.md) per tenere traccia degli ID degli utenti dalle richieste di rifiuto del consumatore sul sito web, in base al California Consumer Privacy Act (CCPA). Puoi recuperare rapporti mensili sugli ID utente dalle richieste di rifiuto.
 
      Per ulteriori informazioni sul supporto di Adobi Advertising per richieste di rifiuto del CCPA, vedi [Adobe Advertising di supporto per il California Consumer Privacy Act: supporto per la rinuncia del consumatore](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
-* Puoi creare una libreria di tipi di pubblico di [pubblico riutilizzabile](/help/dsp/audiences/reusable-audience-create.md). I tipi di pubblico salvati sono composti da uno qualsiasi dei segmenti di pubblico disponibili e da uno qualsiasi degli altri tipi di pubblico salvati. Tutte le modifiche apportate a un pubblico salvato vengono applicate automaticamente a tutti i posizionamenti mirati o esclusi dal pubblico e a tutti gli altri tipi di pubblico che includono il pubblico salvato.
+* (Funzione beta) [Ottenere e utilizzare ID universali per il targeting senza cookie](/help/dsp/audiences/universal-ids.md):
+
+   * Inviare manualmente i file autenticati [!DNL LiveRamp] [!DNL RampID] segmenti direttamente all’DSP.
+
+   * Consenti all’DSP di importare segmenti di prime parti dalla piattaforma di dati del cliente e tradurli in tipi di ID universali supportati.
+
+   * Includi segmenti di terze parti che contengono ID universali nei target di posizionamento senza passaggi aggiuntivi.
+
+* Creare una libreria di tipi di pubblico di [pubblico riutilizzabile](/help/dsp/audiences/reusable-audience-create.md). I tipi di pubblico salvati sono composti da uno qualsiasi dei segmenti di pubblico disponibili e da uno qualsiasi degli altri tipi di pubblico salvati. Tutte le modifiche apportate a un pubblico salvato vengono applicate automaticamente a tutti i posizionamenti mirati o esclusi dal pubblico e a tutti gli altri tipi di pubblico che includono il pubblico salvato.
 
   I tipi di pubblico salvati consentono ai responsabili della pianificazione dei contenuti multimediali di raggruppare i tipi di pubblico in base alle esigenze, includendo ed escludendo più segmenti utilizzando una logica booleana complessa. Le dimensioni di ogni singolo segmento e le dimensioni totali del pubblico sono indicate durante la creazione di un pubblico. I dirigenti delle campagne possono quindi semplicemente selezionare uno o più tipi di pubblico salvati come target di posizionamento, anziché configurare manualmente i target di pubblico per ciascun posizionamento.
 
@@ -30,11 +38,15 @@ Per il targeting del posizionamento sono disponibili anche altri tipi di pubblic
 
 ## Importazione di segmenti di dati di prime e terze parti
 
-L’DSP può tradurre i segmenti di prime parti in ID universali per il targeting senza cookie e puoi renderli disponibili per qualsiasi inserzionista o account. DSP ha stabilito i connettori per [il [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=it) e altri CDP. Per ulteriori informazioni, vedere [Sezione Sources](/help/dsp/audiences/sources/source-about.md).
+Sono disponibili molte opzioni per importare segmenti di dati di prime e terze parti in DSP, utilizzando l’interfaccia utente dell’DSP e/o tramite servizi di importazione personalizzati.
 
-L’DSP può anche importare altri segmenti di dati di prime parti direttamente dalla piattaforma di gestione dati (DMP, data management platform) e fornirli a qualsiasi gruppo di inserzionisti, in base alle esigenze.
+* L’DSP può coinvolgere il tuo Adobe Audience Manager e altri [!DNL Adobe] pubblico per il targeting. Per i prerequisiti e le istruzioni, consulta &quot;[Importare segmenti Adobe Audience Manager per il targeting di annunci](/help/integrations/audience-manager/import-audiences.md).
 
-Inoltre, l’DSP può importare segmenti di terze parti personalizzati, incluse combinazioni complesse di segmenti di terze parti. Puoi fornire i segmenti a qualsiasi gruppo di inserzionisti, in base alle esigenze.
+* L’DSP può tradurre i segmenti di dati di prime parti dalle piattaforme di dati dei clienti supportate in segmenti con ID universali utilizzando [Funzione origini](/help/dsp/audiences/sources/source-about.md). È inoltre possibile [invia manualmente il file autenticato [!DNL LiveRamp] [!DNL RampID] segmenti direttamente all’DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md).
+
+* DSP può importare gli altri segmenti di dati di prime parti direttamente dalla piattaforma di gestione dati (DMP, data management platform) e fornirli a qualsiasi gruppo di inserzionisti, in base alle esigenze.
+
+* DSP può importare segmenti di terze parti personalizzati, incluse combinazioni complesse di segmenti di terze parti. Puoi fornire i segmenti a qualsiasi gruppo di inserzionisti, in base alle esigenze.
 
 Per ulteriori informazioni, contatta il team del tuo account di Adobe.
 
@@ -48,9 +60,13 @@ Puoi indirizzare i posizionamenti a tutti i seguenti tipi di pubblico.
 
    * Segmenti personalizzati per gli utenti che hanno visitato pagine web specifiche e utenti esposti a impression di annunci specifici.
 
+     Non viene applicata alcuna tariffa per le impression consegnate agli ID universali.
+
    * Segmenti di pubblico di rifiuto del CCPA per gli utenti che hanno inviato richieste di rifiuto sul sito web, in base al California Consumer Privacy Act (CCPA).
 
-* Tutti i segmenti di dati di prime parti importati.
+* Tutti i segmenti di dati di prime parti importati, inclusi i segmenti convertiti in ID universali.
+
+  Vengono addebitati costi aggiuntivi per le impression consegnate agli ID universali. Consulta &quot;[Informazioni sulle origini del pubblico di prime parti](/help/dsp/audiences/sources/source-about.md)&quot; per le tariffe.
 
 * Tutti i segmenti di dati di terze parti personalizzati importati.
 
@@ -72,15 +88,23 @@ Puoi indirizzare i posizionamenti a tutti i seguenti tipi di pubblico.
 
 ## Dati dimensione pubblico
 
-Nelle impostazioni salvate per il pubblico e per il posizionamento, puoi visualizzare dati dettagliati sulle dimensioni del pubblico:
+In Audiences > All Audiences e nella sezione Audience Targeting delle impostazioni di posizionamento, puoi filtrare ogni elenco di segmenti per intervallo di dimensioni, compreso l’intervallo totale e intervalli separati per tipi di dispositivi specifici o tipi di ID universali.
+
+![filtra per dimensione di pubblico](/help/dsp/assets/audience-size-filter.png)
+
+Puoi anche visualizzare dati dettagliati sulle dimensioni del pubblico:
 
 * Vengono visualizzate le dimensioni del pubblico deduplicato totale e attivo in tutti i segmenti selezionati e i tipi di pubblico salvati; è possibile visualizzare i dettagli per tipo di dispositivo (browser, dispositivo mobile o TV connessa).
 
   ![la dimensione del pubblico combinato](/help/dsp/assets/audience-size.png)
 
-* Per i singoli segmenti e i tipi di pubblico salvati, accanto al nome del segmento vengono visualizzate la dimensione totale del pubblico e il CPM (se applicabile). Puoi visualizzare ulteriori dettagli sul segmento, inclusa la dimensione per tipo di dispositivo (browser, dispositivo mobile o TV connessa). Per i tipi di pubblico salvati, la dimensione totale è il totale deduplicato.
+* Per i singoli segmenti, accanto al nome del segmento vengono visualizzate la dimensione totale del pubblico e il CPM (se applicabile).
 
   ![la dimensione del singolo segmento](/help/dsp/assets/audience-size-segment.png)
+
+* Puoi visualizzare ulteriori dettagli su un singolo segmento o un pubblico salvato, incluse le dimensioni per browser, dispositivi mobili, TV connessa e partner di tipo ID universale. Per i tipi di pubblico salvati, la dimensione totale è il totale deduplicato.
+
+  ![i dettagli del singolo segmento o del pubblico salvato](/help/dsp/assets/audience-size-segment-details.png)
 
 ## Visualizzazioni di Audiences
 
@@ -102,7 +126,7 @@ Il [!UICONTROL Segments] visualizza inoltre elenca i seguenti tipi di segmenti:
 
   Non puoi modificare o condividere segmenti personalizzati condivisi da altri utenti.
 
-* Tutti i segmenti di prime parti importati disponibili per l’utente.
+* Tutti i segmenti di prime parti importati così come sono disponibili per l’utente.
 
   Non puoi modificare o condividere segmenti di prime parti condivisi con te. Se hai la necessità di condividere segmenti di prime parti con altri utenti, contatta il team del tuo account di Adobe.
 
@@ -110,12 +134,21 @@ Il [!UICONTROL Segments] visualizza inoltre elenca i seguenti tipi di segmenti:
 
   Non puoi modificare o condividere segmenti di terze parti condivisi con te. Se devi condividere segmenti di terze parti con altri utenti, contatta il tuo Account Team di Adobi.
 
+### Visualizzazione Origini
+
+In [!UICONTROL Sources] in, puoi configurare le origini per i segmenti di prime parti nelle piattaforme dati dei clienti supportate che desideri convertire in segmenti contenenti tipi di ID universali specificati. Le impostazioni di origine includono una chiave di origine generata automaticamente, che fornirai alla piattaforma dati del cliente per stabilire la connessione.
+
+Per ulteriori informazioni sulle piattaforme dati del cliente supportate, sui tipi di ID universali supportati e sui flussi di lavoro per impostare connessioni a ogni piattaforma dati del cliente, consulta la sezione &quot;[Informazioni sulle origini](/help/dsp/audiences/sources/source-about.md).&quot;
+
+I segmenti tradotti sono disponibili per l’inclusione in tipi di pubblico riutilizzabili e in impostazioni di posizionamento per il targeting senza cookie.
+
 >[!MORELIKETHIS]
 >
+>* [Supporto per l’attivazione di ID universali](/help/dsp/audiences/universal-ids.md)
 >* [Creare un pubblico riutilizzabile](reusable-audience-create.md)
->* [Impostazioni pubblico](audience-settings.md)
->* [Sintassi della logica dei segmenti di pubblico](audience-segment-logic-syntax.md)
 >* [Creare e implementare un segmento personalizzato](custom-segment-create.md)
 >* [Creare e implementare un [!UICONTROL CCPA Opt-Out-of-Sale] Segmento](ccpa-opt-out-segment-create.md)
+>* [Informazioni sulle origini del pubblico di prime parti](/help/dsp/audiences/sources/source-about.md)
+>* [Importare manualmente segmenti autenticati da [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
 >* [Provider di dati di terze parti disponibili](third-party-data-providers.md)
 >* [Impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)

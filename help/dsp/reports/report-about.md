@@ -3,9 +3,9 @@ title: Informazioni sui report personalizzati
 description: Scopri le opzioni per la creazione manuale di rapporti personalizzati o l’utilizzo di modelli di rapporto preconfigurati.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 1d8f7c8a365b53a0345ef4155802802acbf3f027
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Puoi generare i rapporti una volta o pianificarli in modo che vengano generati o
 
 * Modelli di rapporto preconfigurati
 
-   * **[!UICONTROL Billing]:** Utilizza questo rapporto per comprendere le metriche di fatturazione chiave, come le metriche di spesa per la fatturazione dei contenuti multimediali per campagna.
+   * **[!UICONTROL Billing]:** Utilizza questo rapporto per comprendere le metriche di fatturazione chiave, come le metriche di spesa per la fatturazione dei contenuti multimediali per campagna. I dati non sono disponibili per i posizionamenti mirati agli ID universali.
 
      >[!NOTE]
      >
@@ -61,7 +61,7 @@ Puoi generare i rapporti una volta o pianificarli in modo che vengano generati o
 
    * **[!UICONTROL Geo]**: utilizza questo modello precompilato per visualizzare le metriche chiave per dimensioni geografiche.
 
-   * **[!UICONTROL Margin]:** Utilizza questo rapporto per visualizzare metriche chiave come margine, profitto e altre metriche di spesa per campagna o posizionamento.
+   * **[!UICONTROL Margin]:** Utilizza questo rapporto per visualizzare metriche chiave come margine, profitto e altre metriche di spesa per campagna o posizionamento. I dati non sono disponibili per i posizionamenti mirati agli ID universali.
 
    * **[!UICONTROL Segment]:** Utilizza questo modello precompilato per visualizzare le metriche chiave per segmento.
 
@@ -72,9 +72,9 @@ Puoi generare i rapporti una volta o pianificarli in modo che vengano generati o
 
    * **[!UICONTROL Site]:** Per impostazione predefinita, include le metriche standard, la spesa netta totale per contenuti multimediali e la spesa netta totale fatturabile per sito.
 
-   * **[!UICONTROL Household Reach & Frequency]:** Utilizza questo rapporto per visualizzare impression, portata e frequenza di una singola dimensione in tutti i formati di annuncio a livello di famiglia in base all’indirizzo IP, anziché a livello di dispositivo/cookie. Utilizza le informazioni per ottimizzare il mix di contenuti multimediali, migliorare le prestazioni e identificare opportunità di portata incrementale. Consulta &quot;[Domande frequenti sui rapporti sulle famiglie](/help/dsp/reports/faq-household-report.md)&quot; per ulteriori informazioni.
+   * **[!UICONTROL Household Reach & Frequency]:** Utilizza questo rapporto per visualizzare impression, portata e frequenza di una singola dimensione in tutti i formati di annuncio a livello di famiglia in base all’indirizzo IP, anziché a livello di dispositivo/cookie. Utilizza le informazioni per ottimizzare il mix di contenuti multimediali, migliorare le prestazioni e identificare opportunità di portata incrementale. Consulta &quot;[Domande frequenti sui rapporti sulle famiglie](/help/dsp/reports/faq-household-report.md)&quot; per ulteriori informazioni. I dati non sono disponibili per i posizionamenti mirati agli ID universali.
 
-   * **[!UICONTROL Household Conversions]:** Utilizza questo rapporto per visualizzare le conversioni view-through a livello di famiglia in base all’indirizzo IP, anziché a livello di dispositivo/cookie. Utilizza le informazioni per misurare e ottimizzare le prestazioni della campagna. Consulta &quot;[Domande frequenti sui rapporti sulle famiglie](/help/dsp/reports/faq-household-report.md)&quot; per ulteriori informazioni.
+   * **[!UICONTROL Household Conversions]:** Utilizza questo rapporto per visualizzare le conversioni view-through a livello di famiglia in base all’indirizzo IP, anziché a livello di dispositivo/cookie. Utilizza le informazioni per misurare e ottimizzare le prestazioni della campagna. Consulta &quot;[Domande frequenti sui rapporti sulle famiglie](/help/dsp/reports/faq-household-report.md)&quot; per ulteriori informazioni. I dati non sono disponibili per i posizionamenti mirati agli ID universali.
 
 ## Reporting tra account {#cross-account-reporting}
 
