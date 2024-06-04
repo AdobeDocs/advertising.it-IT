@@ -3,9 +3,9 @@ title: Partner Ad Serving certificati
 description: Visualizza tutti i server di annunci e le unità di annunci certificati.
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 35ee9b5fbb41bb3fd62e36fb28d11dbb7ee36ade
+source-git-commit: af73b56336b3d676a9bc4f6c02835ef1e12ddda3
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
 | [!DNL Innovid] | X | X | | X | |
 | [!DNL Inskin] | | | X | | Gli skin ad alto impatto (inclusi gli annunci conversazionali Cavai) devono essere serviti su un ID di offerta display 180x150 attraverso la rete di inventario Inskin. |
 | [!DNL Jivox] | | X | | | |
-| [!DNL Kargo] | | X | | X | Ancoraggio, BYOC, Hover, Breakout, Breakaway e Sidekick 320x50; Outstream, HighRise 300x250; Display desktop standard (non sono richiesti ID di plug-in specifici); Ancoraggio video (solo VAST); CTV via [!DNL Pubmatic]</br></br>Contatta il tuo Account Team di Adobi per assistenza nella configurazione delle unità pubblicitarie. |
+| [!DNL Kargo] | | X | | X | Ancoraggio, BYOC, Hover, Breakout, Breakaway, Runway e Sidekick 320x50; Outstream, HighRise 300x250; Display desktop standard (non sono richiesti ID di plug-in specifici); Ancoraggio video (solo VAST); CTV tramite [!DNL Pubmatic]</br></br>Contatta il tuo Account Team di Adobi per assistenza nella configurazione delle unità pubblicitarie. |
 | [!DNL Linkstorm] | | | X | | |
 | [!DNL mCanvas] | | | X | | |
 | [!DNL Medialets] | | X | | | |
