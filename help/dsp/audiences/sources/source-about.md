@@ -3,7 +3,7 @@ title: Informazioni sulle origini del pubblico di prime parti
 description: Scopri come convertire altri identificatori utente nei segmenti di prime parti in ID universali per il targeting senza cookie.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 16a796e02150b00c77c825d7f54c6e390c85214a
+source-git-commit: bd0586516c2457e4dfcd1a23046707e8bf652e3b
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 0%
@@ -95,3 +95,7 @@ Puoi condividere i dati di prime parti della tua organizzazione da [!DNL Tealium
 >* [Supporto per l’attivazione di ID universali](/help/dsp/audiences/universal-ids.md)
 >* [Informazioni su Gestione dell&#39;audience](/help/dsp/audiences/audience-about.md)
 >* [Impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)
+
+<!--
+>* [Convert User IDs from [!DNL Optimizely] to Universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
+-->

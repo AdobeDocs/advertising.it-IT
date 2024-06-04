@@ -2,7 +2,7 @@
 title: Supporto per l’attivazione di ID universali
 description: Scopri come importare i segmenti ID universali, creare segmenti personalizzati per monitorare gli ID universali e convertire altri identificatori utente nei segmenti di prime parti in ID universali per il targeting senza cookie.
 feature: DSP Audiences
-source-git-commit: 56489cd226d4a46fa3b1548492b4a9c6fd7e0528
+source-git-commit: bd0586516c2457e4dfcd1a23046707e8bf652e3b
 workflow-type: tm+mt
 source-wordcount: '1369'
 ht-degree: 0%
@@ -133,3 +133,7 @@ Se non riesci a risolvere il problema, contatta il team del tuo account Adobe.
 >* [Importare manualmente segmenti autenticati da [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
 >* [Informazioni su Gestione dell&#39;audience](/help/dsp/audiences/audience-about.md)
 >* [Impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)
+
+<!--
+>* [Convert User IDs from [!DNL Optimizely] to Universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
+-->
