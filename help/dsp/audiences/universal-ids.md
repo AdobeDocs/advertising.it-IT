@@ -2,9 +2,10 @@
 title: Supporto per l’attivazione di ID universali
 description: Scopri come importare i segmenti ID universali, creare segmenti personalizzati per monitorare gli ID universali e convertire altri identificatori utente nei segmenti di prime parti in ID universali per il targeting senza cookie.
 feature: DSP Audiences
-source-git-commit: bd0586516c2457e4dfcd1a23046707e8bf652e3b
+exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
+source-git-commit: 2d8edb7e5c32ba7077a7f4e6550ed22ec680b1fc
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1366'
 ht-degree: 0%
 
 ---
@@ -42,7 +43,7 @@ L’DSP supporta ID universali basati sulle persone per il targeting senza cooki
 
 * **Dettagli del segmento:** Per tutti i tipi di segmento, i dettagli del segmento includono la dimensione del pubblico per tipo di ID universale e per tipo di dispositivo tracciato da cookie o ID dispositivo.
 
-## Come indirizzare un pubblico di ID universale nei posizionamenti
+## Come indirizzare un pubblico con ID universale nei posizionamenti
 
 >[!NOTE]
 >
@@ -62,7 +63,7 @@ In un posizionamento nuovo, pianificato o in pausa, effettuare le seguenti opera
 
       1. Seleziona il tipo di ID universale di destinazione.
 
-         L’impostazione include le opzioni &quot;[!UICONTROL Legacy IDs]&quot; e &quot;[!UICONTROL Universal ID],&quot; che può includere le opzioni secondarie &quot;[!UICONTROL ID5],&quot; &quot;[!UICONTROL RampID],&quot; e &quot;[!UICONTROL Unified ID2.0].&quot; Le opzioni secondarie effettive sono determinate dai target geografici selezionati.
+         L’impostazione include le opzioni &quot;[!UICONTROL Legacy IDs]&quot; e &quot;[!UICONTROL Universal ID],&quot; che può includere le opzioni secondarie &quot;[!UICONTROL ID5],&quot; &quot;[!UICONTROL RampID],&quot; e &quot;[!UICONTROL Unified ID2.0].&quot; I target geografici selezionati determinano le opzioni secondarie disponibili.
 
          Puoi selezionare entrambi &quot;[!UICONTROL Legacy IDs]&quot; e &quot;[!UICONTROL Universal ID],&quot; ma è possibile selezionare un solo tipo di ID universale per posizionamento. Quando selezioni sia ID legacy che ID universali, viene data la preferenza di offerta agli ID universali.
 
@@ -80,7 +81,7 @@ Utilizza le seguenti best practice per [!DNL RampID]segmenti basati su e segment
 
   Consulta &quot;[Cause delle varianze di dati tra ID e-mail e ID universali](#universal-ids-data-variances)&quot; per ulteriori informazioni sulle possibili variazioni dei conteggi dei segmenti.
 
-* Non modificare pacchetti e posizionamenti esistenti. Tuttavia, se non disponi di un budget incrementale per testare gli ID universali, riduci i budget originali per finanziare i test.
+* Non modificare pacchetti e posizionamenti esistenti. Tuttavia, se non disponi di budget incrementale per testare gli ID universali, riduci i budget originali per finanziare i test.
 
 * Copia i pacchetti e i posizionamenti originali, regola i budget in base alle dimensioni del test, cambia il pubblico da utilizzare [!DNL RampID]Segmenti basati su (per utenti autenticati) o segmenti basati su ID5 (per utenti non autenticati) e verifica che i nuovi pacchetti e posizionamenti utilizzino l’intero budget.
 
@@ -96,7 +97,7 @@ Utilizza le seguenti best practice per [!DNL RampID]segmenti basati su e segment
 
      >[!NOTE]
      >
-     >Il limite di frequenza si applica a un singolo ID. Quando un utente ha più tipi di ID, potresti raggiungere quell&#39;utente più di quanto avresti previsto.
+     >Il limite di frequenza si applica a un singolo ID. Quando un utente ha più tipi di ID, puoi raggiungerlo più di quanto previsto.
 
 * Ricorda che la portata dei segmenti di pubblico autenticati è naturalmente inferiore a quella dei segmenti basati su cookie e che l’utilizzo di opzioni di targeting aggiuntive riduce ulteriormente la portata. Presta attenzione all’utilizzo del targeting granulare, in particolare unendo più target con istruzioni AND.
 
@@ -108,7 +109,7 @@ Esistono due motivi per la varianza degli ID e-mail con hash tradotti in [!DNL R
 
 * A [!DNL RampID] può essere aggiornato a un nuovo valore. Se [!DNL LiveRamp] non riconosce un ID e-mail o non può mapparlo su un [!DNL RampID] nel proprio database, quindi assegna un nuovo [!DNL RampID] all’ID e-mail. In futuro, quando potranno mappare l’ID e-mail su un altro [!DNL RampID] oppure possono raccogliere ulteriori informazioni sullo stesso ID e-mail, aggiornano il [!DNL RampID] a un nuovo valore. [!DNL LiveRamp] si riferisce a questa azione come aggiornamento da un &quot;derivato&quot; [!DNL RampID] a un &quot;mantenuto&quot; [!DNL RampID]. Tuttavia, l’DSP non riceve mappature tra derivato e mantenuto [!DNL RampIDs] e quindi non può rimuovere la versione precedente della RampID dal segmento DSP. In questo caso, il conteggio dei segmenti può essere maggiore del conteggio dei profili.
 
-  Esempio: un utente accede a [!DNL Adobe] e visitare la pagina Photoshop. Se [!DNL LiveRamp] non dispone di informazioni esistenti sull’ID e-mail, quindi gli assegnano un derivato [!DNL RampID], diciamo D123. Quindici giorni dopo, l’utente visita la stessa pagina, ma [!DNL LiveRamp] ha aggiornato il [!DNL RampID] durante tali 15 giorni e ha riassegnato il [!DNL RampID] a M123. Anche se il segmento &quot;Photoshop Enthusiast&quot; della piattaforma di dati cliente ha un solo ID e-mail per l’utente, il segmento DSP ha due RampID: D123 e M123.
+  Esempio: un utente accede a [!DNL Adobe] e visita la pagina Photoshop. Se [!DNL LiveRamp] non dispone di informazioni esistenti sull’ID e-mail, quindi gli assegnano un derivato [!DNL RampID], diciamo D123. Quindici giorni dopo, l’utente visita la stessa pagina, ma [!DNL LiveRamp] ha aggiornato il [!DNL RampID] durante tali 15 giorni e ha riassegnato il [!DNL RampID] a M123. Anche se il segmento &quot;Photoshop Enthusiast&quot; della piattaforma di dati cliente ha un solo ID e-mail per l’utente, il segmento DSP ha due RampID: D123 e M123.
 
 ## Risoluzione dei problemi
 
