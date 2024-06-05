@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] impostazioni della campagna'
 description: Fai riferimento alle impostazioni per [!DNL Google Ads] campagne.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: fd5a78a0eb2982ee85ca2d2b6a3cd79a0821d965
 workflow-type: tm+mt
-source-wordcount: '2426'
+source-wordcount: '2424'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Display Network Only]:* Mostra gli annunci sulla rete di visualizzazione. Per ogni gruppo di annunci, è necessario specificare i posizionamenti e, facoltativamente, le parole chiave.
 
-* *[!UICONTROL Performance Max]:* (Funzione beta) Mostra e ottimizza le conversioni per gli annunci tra canali utilizzando [!DNL Google Ads] offerte intelligenti. Nelle impostazioni della campagna devi specificare uno o più gruppi di risorse, tra cui immagini, loghi, titoli, descrizioni, video facoltativi e segnali di pubblico. [!DNL Google Ads] combina automaticamente le risorse per distribuire gli annunci in base al canale (ad esempio [!DNL YouTube], [!DNL Gmail], o [!DNL Search]).
+* *[!UICONTROL Performance Max]:* Mostra e ottimizza le conversioni per gli annunci tra canali utilizzando [!DNL Google Ads] offerte intelligenti. Nelle impostazioni della campagna devi specificare uno o più gruppi di risorse, tra cui immagini, loghi, titoli, descrizioni, video facoltativi e segnali di pubblico. [!DNL Google Ads] combina automaticamente le risorse per distribuire gli annunci in base al canale (ad esempio [!DNL YouTube], [!DNL Gmail], o [!DNL Search]).
 
   **Note:**
 
