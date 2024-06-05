@@ -2,9 +2,9 @@
 title: Soluzioni avanzate di misurazione
 description: Consulta un elenco delle soluzioni disponibili per la misurazione avanzata.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: 06275b37fd5e9449cbf80bcff4f55aaaa8a99b55
+source-git-commit: 226b9a78b00f547da840c27663241f91dfca92d3
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
@@ -25,14 +25,26 @@ Per verificare il successo delle campagne pubblicitarie, sono disponibili i segu
 
 * **Portata, frequenza e conversioni basate sulla famiglia**
 
-  Comprendi la portata totale della campagna a livello di famiglia, nonché il contributo dei singoli schermi. Le opzioni di reporting includono:
+  Comprendi l’intera portata della campagna a livello di famiglia, nonché il contributo dei singoli schermi. Le opzioni di reporting includono:
+
+   * Portata, frequenza e conversione domestica cross-ID (senza cookie)
+
+      * Quantifica portata, sovrapposizione e conversioni univoche/incrementali a livello di famiglia in base al tipo di ID senza cookie (RampID, ID5) in più ambienti, inclusi TV connessa (CTV) e digitale (desktop, mobile, nativo e audio).
+
+      * Dimostrare l’efficacia del test degli ID senza cookie nel trovare la portata incrementale relativa ai segmenti basati su cookie.
 
    * Tempo medio di conversione
+
    * Frequenza di conversione
-   * Generazione rapporti TV collegata (CTV)
+
+   * Reporting CTV
+
    * Incrementalità app CTV
+
    * Generazione rapporti cross-screen (digitale e TVCC)
+
    * Generazione rapporti cross-screen plus (digitale, televisore e televisore)
+
    * Frequenza e portata digitali all&#39;interno del segmento
 
 * **Raggiungimento e conversioni basate sulle persone**
@@ -42,6 +54,11 @@ Per verificare il successo delle campagne pubblicitarie, sono disponibili i segu
    * **Cross-ID People-Based Reach**
 
      Quantifica la portata univoca e la sovrapposizione tra cookie e RampID, nonché il costo per metrica per tipo di ID. Dimostrare l’efficacia del test dei RampID nel trovare una portata incrementale relativa ai segmenti basati su cookie in più ambienti digitali, come desktop, mobile, nativo e audio.
+
+* **Effetto alone sul reporting della ricerca**
+
+  Quantifica l’impatto del televisore a colori e delle esposizioni agli annunci digitali sulla capacità di guidare i clic di ricerca, le conversioni di ricerca e i ROAS a livello di famiglia tra app CTV, parole chiave di ricerca, motore di ricerca, pubblico personalizzato e livelli tattici.
+
 
 * **[!DNL Dynata]Indagini basate su panel**
 
