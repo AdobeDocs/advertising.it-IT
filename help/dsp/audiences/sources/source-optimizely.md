@@ -2,9 +2,9 @@
 title: Converti ID utente da [!DNL Optimizely] agli ID universali
 description: Scopri come consentire all’DSP di acquisire [!DNL Optimizely] segmenti di prime parti.
 feature: DSP Audiences
-source-git-commit: 729098f01fb9d076efb2b945be4011df9ab1c905
+source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,6 @@ Per assistenza nella risoluzione dei problemi, contatta il team del tuo account 
 >
 >* [Informazioni sulle origini del pubblico di prime parti](/help/dsp/audiences/sources/source-about.md)
 >* [Gestire le origini del pubblico per attivare i tipi di pubblico con ID universale](source-manage.md)
->* [Impostazioni origine pubblico](source-settings.md)
 >* [Converti ID utente da [!DNL Adobe Real-Time CDP] agli ID universali](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [Converti ID utente da [!DNL Tealium] agli ID universali](/help/dsp/audiences/sources/source-tealium.md)
 >* [Informazioni su Gestione dell&#39;audience](/help/dsp/audiences/audience-about.md)
