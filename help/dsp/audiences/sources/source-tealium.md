@@ -3,7 +3,7 @@ title: Converti ID utente da [!DNL Tealium] agli ID universali
 description: Scopri come consentire all’DSP di acquisire [!DNL Tealium] segmenti di prime parti.
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
+source-git-commit: 729098f01fb9d076efb2b945be4011df9ab1c905
 workflow-type: tm+mt
 source-wordcount: '1109'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Per convertire gli indirizzi e-mail in [!DNL RampIDs] o [!DNL ID5] ID, devi effe
 
 ## Passaggio 2: creare un’origine di pubblico nell’DSP {#source-create}
 
-1. [Creare un’origine di pubblico](source-create.md) per importare tipi di pubblico sul tuo account DSP o su un account inserzionista. Puoi scegliere di convertire gli identificatori utente in uno qualsiasi dei [formati ID universali disponibili](source-about.md).
+1. [Creare un’origine di pubblico](source-manage.md) per importare tipi di pubblico sul tuo account DSP o su un account inserzionista. Puoi scegliere di convertire gli identificatori utente in uno qualsiasi dei [formati ID universali disponibili](source-about.md).
 
    Le impostazioni di origine includono una chiave di origine generata automaticamente, che utilizzerai per preparare i dati di mappatura dei segmenti.
 

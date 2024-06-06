@@ -2,7 +2,7 @@
 title: "Converti ID utente da [!DNL ActionIQ] agli ID universali"
 description: "Scopri come consentire all’DSP di acquisire [!DNL ActionIQ] segmenti di prime parti."
 feature: DSP Audiences
-source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
+source-git-commit: 729098f01fb9d076efb2b945be4011df9ab1c905
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Ci sono <!-- NN --> passaggi per condividere i dati da [!DNL ActionIQ] con DSP:
 
 ## Passaggio 1: creare un’origine di pubblico nell’DSP {#source-create}
 
-1. [Creare un’origine di pubblico](source-create.md) per importare tipi di pubblico nel tuo account DSP o in un account inserzionista, specificando [formati ID universali](source-about.md) in cui desideri convertire gli identificatori utente.
+1. [Creare un’origine di pubblico](source-manage.md) per importare tipi di pubblico nel tuo account DSP o in un account inserzionista, specificando [formati ID universali](source-about.md) in cui desideri convertire gli identificatori utente.
 
 1. Dopo aver creato l&#39;origine del pubblico, condividi la chiave del codice sorgente con [!DNL ActionIQ] utente.
 
