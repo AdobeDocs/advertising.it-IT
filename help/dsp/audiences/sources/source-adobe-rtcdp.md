@@ -3,9 +3,9 @@ title: Utilizzo dell’integrazione DSP con [!DNL Adobe] [!DNL Real-time CDP]
 description: Scopri come consentire all’DSP di acquisire [!DNL Adobe] [!DNL Real-time CDP] segmenti di prime parti.
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-source-git-commit: bd0586516c2457e4dfcd1a23046707e8bf652e3b
+source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ I segmenti vengono aggiornati ogni 24 ore. Tuttavia, l’inclusione in un segmen
 
 >[!MORELIKETHIS]
 >
->* [Creare un’origine di pubblico per attivare i tipi di pubblico con ID universale](source-create.md)
+>* [Gestire le origini del pubblico per attivare i tipi di pubblico con ID universale](source-manage.md)
 >* [Impostazioni origine pubblico](source-settings.md)
 >* [Connessione Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* Adobe Experience Platform [Panoramica del catalogo delle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)

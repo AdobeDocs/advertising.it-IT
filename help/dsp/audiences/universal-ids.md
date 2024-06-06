@@ -3,9 +3,9 @@ title: Supporto per l’attivazione di ID universali
 description: Scopri come importare i segmenti ID universali, creare segmenti personalizzati per monitorare gli ID universali e convertire altri identificatori utente nei segmenti di prime parti in ID universali per il targeting senza cookie.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: c1f4df1d5c3f6b32597f59285f25bf0b9da5fb91
+source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1387'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ Se non riesci a risolvere il problema, contatta il team del tuo account Adobe.
 
 >[!MORELIKETHIS]
 >
->* [Creare un’origine di pubblico per attivare i tipi di pubblico con ID universale](/help/dsp/audiences/sources/source-create.md)
+>* [Gestire le origini del pubblico per attivare i tipi di pubblico con ID universale](/help/dsp/audiences/sources/source-manage.md)
 >* [Converti ID utente da [!DNL Adobe Real-Time CDP] agli ID universali](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [Converti ID utente da [!DNL Tealium] agli ID universali](/help/dsp/audiences/sources/source-tealium.md)
 >* [Creare e implementare un segmento personalizzato](/help/dsp/audiences/custom-segment-create.md)

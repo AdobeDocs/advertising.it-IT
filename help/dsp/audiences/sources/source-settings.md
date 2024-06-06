@@ -3,9 +3,9 @@ title: Impostazioni origine pubblico
 description: Scopri le impostazioni delle origini del pubblico.
 feature: DSP Audiences
 exl-id: 274ea502-ad15-4d3d-922a-17caddb87f69
-source-git-commit: 16a796e02150b00c77c825d7f54c6e390c85214a
+source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Per [!DNL RampID] e [!DNL Unified ID2.0], il fornitore cerca ogni indirizzo e-ma
 
 >[!MORELIKETHIS]
 >
->* [Creare un’origine di pubblico per attivare i tipi di pubblico con ID universale](source-create.md)
+>* [Gestire le origini del pubblico per attivare i tipi di pubblico con ID universale](source-manage.md)
 >* [Informazioni sulle origini del pubblico di prime parti](source-about.md)
 >* [Importare manualmente segmenti autenticati da [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
 >* [Connessione Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)

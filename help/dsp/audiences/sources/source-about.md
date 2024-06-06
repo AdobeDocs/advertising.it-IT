@@ -3,9 +3,9 @@ title: Informazioni sulle origini del pubblico di prime parti
 description: Scopri come convertire altri identificatori utente nei segmenti di prime parti in ID universali per il targeting senza cookie.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: bd0586516c2457e4dfcd1a23046707e8bf652e3b
+source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Puoi condividere i dati di prime parti della tua organizzazione da [!DNL Tealium
 >
 >* [Converti ID utente da [!DNL Adobe Real-Time CDP] agli ID universali](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [Converti ID utente da [!DNL Tealium] agli ID universali](/help/dsp/audiences/sources/source-tealium.md)
->* [Creare un’origine di pubblico per attivare i tipi di pubblico con ID universale](source-create.md)
+>* [Gestire le origini del pubblico per attivare i tipi di pubblico con ID universale](source-manage.md)
 >* [Impostazioni origine pubblico](source-settings.md)
 >* [Supporto per l’attivazione di ID universali](/help/dsp/audiences/universal-ids.md)
 >* [Informazioni su Gestione dell&#39;audience](/help/dsp/audiences/audience-about.md)

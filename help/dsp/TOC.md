@@ -4,9 +4,9 @@ user-guide-title: Guida di Advertising DSP
 user-guide-description: Scopri le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire e ottimizzare le strategie degli annunci display con Advertising DSP e creare i relativi rapporti.
 breadcrumb-title: Guida di DSP
 index: true
-source-git-commit: b579c0413400b0af697f06c272878c46cce8003e
+source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '902'
 ht-degree: 3%
 
 ---
@@ -142,7 +142,7 @@ ht-degree: 3%
       + Flussi di lavoro per piattaforma dati cliente {#sources-workflows}
          + [Converti ID utente da [!DNL Adobe Real-Time CDP] agli ID universali](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
          + [Converti ID utente da [!DNL Tealium] agli ID universali](/help/dsp/audiences/sources/source-tealium.md)
-      + [Creare un’origine di pubblico per attivare i tipi di pubblico con ID universale](/help/dsp/audiences/sources/source-create.md)
+      + [Gestire le origini del pubblico per attivare i tipi di pubblico con ID universale](/help/dsp/audiences/sources/source-manage.md)
       + [Impostazioni origine pubblico](/help/dsp/audiences/sources/source-settings.md)
    + [Importare manualmente segmenti autenticati da [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
    + [Provider di dati di terze parti disponibili](/help/dsp/audiences/third-party-data-providers.md)
