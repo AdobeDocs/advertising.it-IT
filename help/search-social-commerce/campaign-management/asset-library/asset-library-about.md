@@ -3,16 +3,16 @@ title: Informazioni su [!UICONTROL Asset Library]
 description: Scopri la libreria di risorse per le risorse annuncio.
 feature: Search Campaign Management
 exl-id: b1484114-21cb-4aba-9f23-d9d8ce0559dd
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 61eccefe29d38f925a6b0d2fc2de9af73b014c74
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
 
 # Informazioni su [!UICONTROL Asset Library]
 
-<!-- Combine with "Create" page into one page? -->
+<!-- Combine with "Create" page into one page once you can do more than just create/upload. Or still combine them and rename this page; you can't really "manage" assets here, just create/upload and see a list of assets you've previously uploaded (including a preview), but not edit existing uploaded assets or anything on the ad network. -->
 
 *Per [!DNL Google Ads] e [!DNL Microsoft Advertising] solo account*
 
@@ -20,11 +20,12 @@ ht-degree: 0%
 
 In entrata [!UICONTROL Campaigns] > [!UICONTROL Asset Library], è possibile creare immagini, video e (per [!DNL Google Ads] solo ) invia un testo alle risorse e caricale sul tuo [!DNL Google Ads] e [!DNL Microsoft Advertising] librerie di risorse a livello di account.
 
-Puoi utilizzare le risorse per gli annunci quando crei o modifichi campagne:
+Quando crei o modifichi campagne con prestazione massima in Advertising Search, puoi selezionare da tutte le risorse esistenti nella libreria di risorse specifiche per la rete di annunci (comprese le risorse caricate da qui) per immagini, loghi e video. Puoi anche caricare nuove risorse.
 
-* [!DNL Google Ads]: nelle impostazioni della campagna con le massime prestazioni in Advertising Search, puoi selezionare tra le risorse esistenti nella [!UICONTROL Asset Library] per immagini, loghi e video. Puoi anche caricare nuove risorse.
+<!--
+Should all assets on the ad network be listed in Campaigns > Asset Library by now, or just ones created/uploaded from our UI? (Within perf max campaign settings, you can select from all in the ad network's asset library, which should include assets uploaded from our UI. But I'm not sure that this list here is the same.) If all, then mention when they're updated.
 
-* [!DNL Microsoft Advertising]: puoi aggiungere le risorse caricate alle campagne applicabili all’interno di [!DNL Microsoft Advertising] editor.
+-->
 
 >[!MORELIKETHIS]
 >

@@ -3,7 +3,7 @@ title: Applicare o ignorare un consiglio dell’editore
 description: Scopri come visualizzare, applicare o ignorare un consiglio dell’editore.
 exl-id: 794df5d5-fc7c-45f7-8a26-460b0a8f56b7
 feature: Search Recommendations
-source-git-commit: 2e1544658804afb298bf2c1a46f197d36ef6854e
+source-git-commit: bd0c158ca27258fa7600553462bf4fedbabc9089
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Applicare o ignorare un consiglio dell’editore
 
-*[!DNL Google Ads]e [!DNL Microsoft® Advertising] account*
+*[!DNL Google Ads]e [!DNL Microsoft Advertising] account*
 
-*Funzione beta per [!DNL Microsoft® Advertising] account*
+*Funzione beta per [!DNL Microsoft Advertising] account*
 
 Visualizza le azioni consigliate per un consiglio dell’editore e la spiegazione del motivo per cui sarebbero utili. Puoi quindi applicare il consiglio quando è in linea con i tuoi obiettivi aziendali, e ignorare un consiglio quando non lo è.
 
@@ -26,7 +26,7 @@ Visualizza le azioni consigliate per un consiglio dell’editore e la spiegazion
 
 1. In alto a destra, seleziona la rete di annunci e l’account.
 
-   Per [!DNL Microsoft® Advertising] account, il [!UICONTROL Recommendations] per l’account sono elencati per impostazione predefinita.
+   Per [!DNL Microsoft Advertising] account, il [!UICONTROL Recommendations] per l’account sono elencati per impostazione predefinita.
 
 1. (Facoltativo) Filtra i consigli per categoria e tipo.
 
