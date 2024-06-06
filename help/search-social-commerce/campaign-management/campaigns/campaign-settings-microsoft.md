@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft Advertising] impostazioni della campagna'
 description: Fai riferimento alle impostazioni per [!DNL Microsoft Advertising] campagne.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 0f128b569f8c005c4f72a0c85ebf59e9fed53320
+source-git-commit: 41feb7c717307bc716236517320bdfe7e98c45ab
 workflow-type: tm+mt
-source-wordcount: '1963'
+source-wordcount: '1953'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience]:* Mostra gli annunci nativi/display sul [!DNL Microsoft Audience Network]. Puoi: a) generare automaticamente annunci basati su feed collegando la campagna a un negozio di centri commerciali nel [!UICONTROL Shopping Settings] sezione o b) creare annunci reattivi con risorse di testo e immagini caricate. Entrambe le opzioni richiedono la creazione di gruppi di annunci con targeting utente.
 
-* *[!UICONTROL Shopping Campaigns for Brands]:* (Funzione beta) Promuove i prodotti attraverso rivenditori collegati attraverso le reti di ricerca e pubblico. Puoi creare gruppi di annunci e gruppi di prodotti secondari (app da promuovere) e annunci di prodotti facoltativi per la campagna; [!DNL Microsoft Advertising] crea automaticamente annunci per i gruppi di prodotti. Per le campagne di acquisto dei marchi, utilizza la strategia di offerta [!UICONTROL Manual CPC]; per le promozioni commerciali per i marchi, utilizza la strategia di offerta [!UICONTROL Cost per Sale].
+* *[!UICONTROL Shopping Campaigns for Brands]:* Promuove i tuoi prodotti attraverso rivenditori collegati attraverso le reti di ricerca e pubblico. Puoi creare gruppi di annunci e gruppi di prodotti secondari (app da promuovere) e annunci di prodotti facoltativi per la campagna; [!DNL Microsoft Advertising] crea automaticamente annunci per i gruppi di prodotti. Per le campagne di acquisto dei marchi, utilizza la strategia di offerta [!UICONTROL Manual CPC]; per le promozioni commerciali per i marchi, utilizza la strategia di offerta [!UICONTROL Cost per Sale].
 
-* *[!UICONTROL Microsoft Store Ads Campaign]:* (Funzione beta) Promuove le app e i giochi disponibili nel [!DNL Microsoft Store]. Puoi creare gruppi di annunci secondari, gruppi di prodotti e annunci di prodotti facoltativi per la campagna; [!DNL Microsoft Advertising] crea automaticamente annunci per i gruppi di prodotti.
+* *[!UICONTROL Microsoft Store Ads Campaign]:* Promuove le app e i giochi disponibili in [!DNL Microsoft Store]. Puoi creare gruppi di annunci secondari, gruppi di prodotti e annunci di prodotti facoltativi per la campagna; [!DNL Microsoft Advertising] crea automaticamente annunci per i gruppi di prodotti.
 
-* *[!UICONTROL Audience CTV Video]:* (Funzione beta) Mostra gli annunci video TV connessi (CTV) sulla rete del pubblico.
+* *[!UICONTROL Audience CTV Video]:* Mostra gli annunci video TV collegati (CTV) sulla rete del pubblico.
 
-* *[!UICONTROL Audience Video]:* (Funzione beta) Mostra annunci video standard sulla rete del pubblico.
+* *[!UICONTROL Audience Video]:* Mostra gli annunci video standard sulla rete del pubblico.
 
-* *[!UICONTROL Performance Max]:* (Funzione beta) Mostra più tipi di annunci su tutte le reti utilizzando [!DNL Microsoft Advertising] offerte intelligenti. Nelle impostazioni della campagna devi specificare uno o più gruppi di risorse, che includono immagini, loghi, titoli, descrizioni, un invito all’azione facoltativo e segnali di pubblico. La rete di annunci combina automaticamente le risorse per distribuire gli annunci in base al canale.
+* *[!UICONTROL Performance Max]:* Mostra più tipi di annunci su tutte le reti utilizzando [!DNL Microsoft Advertising] offerte intelligenti. Nelle impostazioni della campagna devi specificare uno o più gruppi di risorse, che includono immagini, loghi, titoli, descrizioni, un invito all’azione facoltativo e segnali di pubblico. La rete di annunci combina automaticamente le risorse per distribuire gli annunci in base al canale.
 
 ## [!UICONTROL Campaign Details]
 
