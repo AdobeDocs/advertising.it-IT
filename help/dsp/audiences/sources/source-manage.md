@@ -3,7 +3,7 @@ title: Gestire le origini del pubblico per attivare i tipi di pubblico con ID un
 description: Scopri come creare e gestire un’origine per importare i tipi di pubblico dalla piattaforma di dati dei clienti e convertirli in segmenti contenenti ID universali.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
+source-git-commit: e3b88a37bec68bd63a4a285b2d8c5cd028ed2659
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -44,7 +44,7 @@ You can create one source for each combination of universal ID partner and data 
 
 1. Specifica la [!UICONTROL Data Visibility Level]: *[!UICONTROL Advertiser]* o *[!UICONTROL Account]*.
 
-1. Inserisci il valore rimanente [impostazioni di origine](source-settings.md).
+1. Inserisci il valore rimanente [impostazioni di origine](#source-settings).
 
    Mantieni una copia di [!UICONTROL Source Key] che viene generato. Il valore ti servirà più tardi.
 
@@ -69,7 +69,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 1. Tenere premuto il cursore sulla riga di origine e fare clic su **[!UICONTROL Edit]**.
 
-1. Modificare il [ID selezionati per l’origine](source-settings.md).
+1. Modificare il [ID selezionati per l’origine](#source-settings).
 
 1. Clic **[!UICONTROL Save]**.
 
@@ -101,7 +101,7 @@ Puoi visualizzare i dettagli sulle modifiche apportate a un record di origine de
 
 1. (Facoltativo) Per aprire il registro in una schermata di dettaglio più grande, tenere premuto il cursore sulla riga di origine e fare clic su **[!UICONTROL View Details]**.
 
-## Impostazioni origine pubblico
+## Impostazioni origine pubblico {#source-settings}
 
 **[!UICONTROL Data Visibility Level]:** Se i segmenti sono disponibili per un singolo inserzionista con accesso all’account (*[!UICONTROL Advertiser]*) o a tutti gli inserzionisti con accesso all&#39;account *[!UICONTROL Account]*.
 

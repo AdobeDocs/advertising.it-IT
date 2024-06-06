@@ -3,7 +3,7 @@ title: Supporto per l’attivazione di ID universali
 description: Scopri come importare i segmenti ID universali, creare segmenti personalizzati per monitorare gli ID universali e convertire altri identificatori utente nei segmenti di prime parti in ID universali per il targeting senza cookie.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
+source-git-commit: e3b88a37bec68bd63a4a285b2d8c5cd028ed2659
 workflow-type: tm+mt
 source-wordcount: '1387'
 ht-degree: 0%
@@ -118,7 +118,7 @@ Se non visualizzi il numero di utenti o se le dimensioni del pubblico sono basse
 
 * Assicurati che sul tuo sito web sia implementato il codice corretto e universale specifico per il partner ID, in modo che corrisponda agli eventi nel sito e alle esposizioni degli annunci. Utilizzare [!DNL LiveRamp] o [!DNL ID5] se necessario.
 
-* (Per [!DNL RampIDs] e [!DNL UID 2.0] ID) Assicurati che il tuo [L’origine dati dell’DSP è configurata correttamente](/help/dsp/audiences/sources/source-settings.md)e che i conteggi degli utenti siano compilati per i segmenti di pubblico generati.
+* (Per [!DNL RampIDs] e [!DNL UID 2.0] ID) Assicurati che il tuo [L’origine dati dell’DSP è configurata correttamente](/help/dsp/audiences/sources/source-manage.md#source-settings)e che i conteggi degli utenti siano compilati per i segmenti di pubblico generati.
 
 * Se la portata è inferiore a quanto previsto, controlla che la logica del segmento di pubblico non sia troppo granulare.
 
