@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
+source-git-commit: 048752e0f9a5d95c22bd9acb4b70034b5f833494
 workflow-type: tm+mt
-source-wordcount: '2915'
+source-wordcount: '2973'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ Le seguenti funzioni sono nuove o modificate di recente.
 
 | Data | Funzionalità | Descrizione | Per Ulteriori Informazioni |
 | ---- | ------- | ----------- | -------------------- |
+| 5 giugno 2024 | Posizionamenti | Ora puoi gestire i moltiplicatori di offerte per più posizionamenti alla volta utilizzando un foglio di calcolo. | Consulta &quot;[Gestire i moltiplicatori delle offerte per i posizionamenti](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md).&quot; |
+|  | Sorgenti del pubblico | Ora puoi modificare i tipi di ID universali in cui viene tradotto il pubblico di origine e visualizzare un registro delle modifiche. | Consulta &quot;[Gestire le origini del pubblico per attivare i tipi di pubblico con ID universale](/help/dsp/audiences/sources/source-manage.md).&quot; |
 | 22 maggio 2024 | Ottimizzazione, annunci TV collegati | Nei pacchetti con gli obiettivi di ottimizzazione &quot;CPA più bassi&quot; e &quot;ROAS più elevati&quot;, i modelli di prestazioni per gli annunci TV connessi ora utilizzano dati provenienti da più punti di contatto nel percorso di conversione per un apprendimento automatico più rapido e robusto. I pacchetti esistenti vengono aggiornati per utilizzare l’ottimizzazione multi-touch e non è richiesta alcuna azione. | — |
 | 20 maggio 2024 | Annunci TV, pixel e segmenti di retargeting collegati | (Beta aperta; disponibile solo negli Stati Uniti e in Australia) È ora possibile eseguire il retargeting dei segmenti di pubblico esposti a una campagna TV connessa con annunci aggiuntivi per migliorare la pubblicità cross-channel:<ol><li>Imposta un segmento di esposizione dell’annuncio e copia il tag di tracciamento delle impression sul posizionamento TV o sull’annuncio desiderato per iniziare a tracciare il segmento.</li><li>Nel posizionamento del retargeting, selezionare il segmento di esposizione TV collegato nel [!UICONTROL Audience Targeting] sezione.</li></ol> | Consulta &quot;[Creare e implementare un segmento personalizzato](/help/dsp/audiences/custom-segment-create.md)&quot; e &quot;[Impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 2 maggio 2024 | Annunci, Pixel | Puoi scaricare le impostazioni degli annunci e le associazioni di posizionamento per tutti gli annunci in una campagna in formato XLSX (foglio di calcolo Excel) per la revisione da [!UICONTROL Ad Tools] visualizzazione. | Consulta &quot;[Rivedere I Dettagli Dell’Annuncio Utilizzando I Fogli Di Calcolo](/help/dsp/campaign-management/ads/ad-qa.md).&quot; |
