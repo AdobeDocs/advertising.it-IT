@@ -3,7 +3,7 @@ title: Gestire le origini del pubblico per attivare i tipi di pubblico con ID un
 description: Scopri come creare e gestire un’origine per importare i tipi di pubblico dalla piattaforma di dati dei clienti e convertirli in segmenti contenenti ID universali.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 9411089703ce0b9502c1c2522cce999c3a5fafbf
+source-git-commit: f24aec0588f0298c5a3aa63226bd05bd4fa95f92
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 0%
@@ -32,13 +32,13 @@ You can create one source for each combination of universal ID partner and data 
 
 1. Clic **[!UICONTROL Add Source]**.
 
-1. In [!UICONTROL Select a Type] selezionare la piattaforma dati del cliente:
+1. In [!UICONTROL Select a Type] , seleziona il tuo [piattaforma dati cliente](source-about.md):
 
-   * *[!UICONTROL RT-CDP]*: [Il [!DNL Adobe Real-Time Customer Data Platform]](source-about.md).
+   * *[!UICONTROL RT-CDP]*: Il [!DNL Adobe Real-Time Customer Data Platform].
 
-   * *[!UICONTROL ActionIQ]*: Il [[!DNL ActionIQ] piattaforma dati cliente](source-about.md).
+   * *[!UICONTROL ActionIQ]*: Il [!DNL ActionIQ] piattaforma dati cliente.
 
-   * *[!UICONTROL Tealium CDP]*: (solo utenti configurati) Il [[!DNL Tealium] piattaforma dati cliente](source-about.md).
+   * *[!UICONTROL Tealium CDP]*: (solo utenti configurati) Il [!DNL Tealium] piattaforma dati cliente.
 
 1. Specifica la [!UICONTROL Data Visibility Level]: *[!UICONTROL Advertiser]* o *[!UICONTROL Account]*.
 
