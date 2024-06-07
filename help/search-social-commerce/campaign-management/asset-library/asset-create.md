@@ -3,9 +3,9 @@ title: Creare e caricare le risorse
 description: Scopri come creare risorse immagine, video e testo riutilizzabili e caricarle nel tuo [!DNL Google Ads] e [!DNL Microsoft Advertising] librerie di risorse a livello di account.
 feature: Search Campaign Management
 exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # Creare e caricare le risorse
 
 *Per [!DNL Google Ads] e [!DNL Microsoft Advertising] solo account*
-
-*Funzione open beta*
 
 1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Asset Library]**.
 

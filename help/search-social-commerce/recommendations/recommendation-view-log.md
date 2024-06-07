@@ -3,9 +3,9 @@ title: Visualizzare il registro dei consigli dell’editore per un account
 description: Scopri come visualizzare un registro di ogni consiglio applicato per un [!DNL Google Ads] o [!DNL Microsoft Advertising] account.
 exl-id: a963c1cd-e785-470d-8f16-8d770baf2aa7
 feature: Search Recommendations
-source-git-commit: d12b4905218b7c1057e7987f1a49a8691557455d
+source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # Visualizzare i consigli dell’editore per un account
 
 *[!DNL Google Ads]e [!DNL Microsoft Advertising] account*
-
-*Funzione beta per [!DNL Microsoft Advertising] account*
 
 Puoi visualizzare un registro di ogni consiglio applicato per un [!DNL Google Ads] o [!DNL Microsoft Advertising] account. Le informazioni includono la categoria di consigli, il tipo di consiglio, le entità interessate, l’utente che ha applicato il consiglio e la marca temporale.
 

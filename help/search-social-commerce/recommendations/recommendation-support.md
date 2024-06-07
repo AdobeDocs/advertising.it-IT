@@ -3,9 +3,9 @@ title: Informazioni sul supporto di consigli e approfondimenti per gli editori
 description: Scopri come visualizzare e gestire i consigli e le informazioni dell’editore.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # Informazioni sul supporto di consigli e approfondimenti per gli editori
 
 *[!DNL Google Ads]e [!DNL Microsoft Advertising] account*
-
-*Funzione beta per [!DNL Microsoft Advertising] account*
 
 [!DNL Google Ads] e [!DNL Microsoft Advertising] consigli e informazioni sono suggerimenti provenienti dalla rete di annunci per migliorare le prestazioni e l’efficienza delle campagne:
 

@@ -3,9 +3,9 @@ title: Applicare o ignorare un consiglio dell’editore
 description: Scopri come visualizzare, applicare o ignorare un consiglio dell’editore.
 exl-id: 794df5d5-fc7c-45f7-8a26-460b0a8f56b7
 feature: Search Recommendations
-source-git-commit: bd0c158ca27258fa7600553462bf4fedbabc9089
+source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # Applicare o ignorare un consiglio dell’editore
 
 *[!DNL Google Ads]e [!DNL Microsoft Advertising] account*
-
-*Funzione beta per [!DNL Microsoft Advertising] account*
 
 Visualizza le azioni consigliate per un consiglio dell’editore e la spiegazione del motivo per cui sarebbero utili. Puoi quindi applicare il consiglio quando è in linea con i tuoi obiettivi aziendali, e ignorare un consiglio quando non lo è.
 
