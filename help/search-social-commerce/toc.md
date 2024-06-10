@@ -4,9 +4,9 @@ user-guide-title: Guida di Advertising Search, Social e Commerce
 user-guide-description: Questa guida descrive le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire, tracciare e creare rapporti sulle campagne di annunci di ricerca, social e commerce.
 breadcrumb-title: Guida di Advertising Search, Social e Commerce
 index: true
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: bf7db19ab3ec8ea749e48b6a96c25a3c5cca5a71
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1694'
 ht-degree: 2%
 
 ---
@@ -249,9 +249,7 @@ ht-degree: 2%
       + [Rimuovere i valori di classificazione delle etichette dai componenti dell’account](/help/search-social-commerce/campaign-management/label-classifications/classification-values-remove.md)
       + [Elimina valori di classificazione delle etichette](/help/search-social-commerce/campaign-management/label-classifications/classification-values-delete.md)
       + [Eliminare le classificazioni delle etichette](/help/search-social-commerce/campaign-management/label-classifications/classification-delete.md)
-   + Gestione delle risorse degli annunci {#assets}
-      + [Informazioni su [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)
-      + [Creare e caricare le risorse](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)
+   + [Visualizzare e creare le risorse degli annunci](/help/search-social-commerce/campaign-management/asset-view-create.md)
    + Best practice per le campagne di ricerca {#best-practices-search}
       + [Analizzare i rapporti per perfezionare le parole chiave e le impostazioni della campagna](/help/search-social-commerce/campaign-management/best-practices/best-practices-analyze.md)
       + [Scrivi testo effettivo e copia](/help/search-social-commerce/campaign-management/best-practices/best-practices-write.md)
