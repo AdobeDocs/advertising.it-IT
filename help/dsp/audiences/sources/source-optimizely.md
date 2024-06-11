@@ -2,14 +2,16 @@
 title: Converti ID utente da [!DNL Optimizely] agli ID universali
 description: Scopri come consentire all’DSP di acquisire [!DNL Optimizely] segmenti di prime parti.
 feature: DSP Audiences
-source-git-commit: 9b784b99051e33330ee7fbc736a9edbdf22066ca
+source-git-commit: 23d4dc50d1c6bf966148dab772e0e770087ac869
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
 
 # Converti ID utente da [!DNL Optimizely] agli ID universali
+
+*Funzione beta*
 
 Utilizzare l’integrazione DSP con [!DNL Optimizely] customer data platform per convertire gli indirizzi e-mail con hash di prime parti della tua organizzazione in ID universali per annunci pubblicitari mirati.
 
