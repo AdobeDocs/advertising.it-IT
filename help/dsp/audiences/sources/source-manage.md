@@ -3,9 +3,9 @@ title: Gestire le origini del pubblico per attivare i tipi di pubblico con ID un
 description: Scopri come creare e gestire un’origine per importare i tipi di pubblico dalla piattaforma di dati dei clienti e convertirli in segmenti contenenti ID universali.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: f24aec0588f0298c5a3aa63226bd05bd4fa95f92
+source-git-commit: 78b1a8a8e0567afb0c172c7bef1a639ab5b47bab
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,10 @@ You can create one source for each combination of universal ID partner and data 
 
    * *[!UICONTROL ActionIQ]*: Il [!DNL ActionIQ] piattaforma dati cliente.
 
+   * *[!UICONTROL Amperity]*: Il [!DNL Amperity] piattaforma dati cliente.
+
+   * *[!UICONTROL Optimizely]*: Il [!DNL Optimizely]: Il [!DNL Amperity] piattaforma dati cliente.
+
    * *[!UICONTROL Tealium CDP]*: (solo utenti configurati) Il [!DNL Tealium] piattaforma dati cliente.
 
 1. Specifica la [!UICONTROL Data Visibility Level]: *[!UICONTROL Advertiser]* o *[!UICONTROL Account]*.
@@ -50,7 +54,7 @@ You can create one source for each combination of universal ID partner and data 
 
 >[!NOTE]
 >
->Dopo aver creato un’origine per la piattaforma di dati cliente, dovrai completare ulteriori passaggi. Consulta la [flusso di lavoro per importare tipi di pubblico da [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)<!-- the [activation workflow for [!DNL ActionIQ]](source-actioniq.md), --> e [flusso di lavoro per importare tipi di pubblico da [!DNL Tealium]](source-tealium.md).
+>Dopo aver creato un’origine per la piattaforma di dati cliente, dovrai completare ulteriori passaggi per importare il pubblico. Consulta la [workflow per [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md),<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), --> il [workflow per [!DNL Amperity]](source-amperity.md), il [workflow per [!DNL Optimizely]](source-optimizely.md)e [workflow per [!DNL Tealium]](source-tealium.md).
 
 ## Modificare i tipi di ID per un’origine pubblico
 
@@ -131,6 +135,9 @@ Per [!DNL RampID] e [!DNL Unified ID2.0], il fornitore cerca ogni indirizzo e-ma
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulle origini del pubblico di prime parti](source-about.md)
->* [Importare manualmente segmenti autenticati da [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
->* [Connessione Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Supporto per l’attivazione di ID universali](/help/dsp/audiences/universal-ids.md)
+>* [Converti ID utente da [!DNL Adobe Real-Time CDP] agli ID universali](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [Converti ID utente da [!DNL Amperity] agli ID universali](/help/dsp/audiences/sources/source-amperity.md)
+>* [Converti ID utente da [!DNL Optimizely] agli ID universali](/help/dsp/audiences/sources/source-optimizely.md)
+>* [Converti ID utente da [!DNL Tealium] agli ID universali](/help/dsp/audiences/sources/source-tealium.md)
 >* [Informazioni su Gestione dell&#39;audience](/help/dsp/audiences/audience-about.md)

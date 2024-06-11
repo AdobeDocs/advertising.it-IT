@@ -3,9 +3,9 @@ title: Converti ID utente da [!DNL Tealium] agli ID universali
 description: Scopri come consentire all’DSP di acquisire [!DNL Tealium] segmenti di prime parti.
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
+source-git-commit: 096ca9b5fce101995ca620b78f2ad8abf40355cd
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
@@ -52,31 +52,31 @@ Per convertire gli indirizzi e-mail in [!DNL RampIDs] o [!DNL ID5] ID, devi effe
 
 ## Passaggio 3: preparare e condividere i dati di mappatura dei segmenti {#map-data}
 
-1. L’inserzionista deve preparare e condividere i dati di mappatura dei segmenti:
+L’inserzionista deve preparare e condividere i dati di mappatura dei segmenti.
 
-   1. L&#39;inserzionista deve preparare i dati entro [!DNL Tealium]:
+1. L&#39;inserzionista deve preparare i dati entro [!DNL Tealium]:
 
-      1. Effettua l&#39;hashing degli ID e-mail per il pubblico dell&#39;inserzionista utilizzando l&#39;algoritmo SHA-256.
+   1. Effettua l&#39;hashing degli ID e-mail per il pubblico dell&#39;inserzionista utilizzando l&#39;algoritmo SHA-256.
 
-      1. Mappa la colonna contenente gli ID e-mail con hash all’attributo del tipo di ID visitatore.
+   1. Mappa la colonna contenente gli ID e-mail con hash all’attributo del tipo di ID visitatore.
 
-      1. Creare il pubblico con `Tealium_visitor_id` attributo. Applica il giusto arricchimento per attivare il pubblico. Consulta la [[!DNL Tealium] documentazione sugli attributi ID visitatore](https://docs.tealium.com/server-side/visitor-stitching/visitor-id-attribute/).
+   1. Creare il pubblico con `Tealium_visitor_id` attributo. Applica il giusto arricchimento per attivare il pubblico. Consulta la [[!DNL Tealium] documentazione sugli attributi ID visitatore](https://docs.tealium.com/server-side/visitor-stitching/visitor-id-attribute/).
 
-   1. L’inserzionista deve fornire i dati di mappatura dei segmenti all’Account Team Adobe per creare i segmenti nell’DSP. Utilizza i seguenti nomi e valori di colonna in un file di valori separati da virgola:
+1. L’inserzionista deve fornire i dati di mappatura dei segmenti all’Account Team Adobe per creare i segmenti nell’DSP. Utilizza i seguenti nomi e valori di colonna in un file di valori separati da virgola:
 
-      * **Chiave segmento esterna:** Il tasto del segmento esterno, che verrà successivamente specificato nelle impostazioni delle azioni per il connettore in [!DNL Tealium]. La convenzione di denominazione consigliata è &quot;`<DSP source key>_<Tealium segment name>`,&quot; ad esempio &quot;57bf424dc10_coffee-drink&quot;. Per il codice sorgente dell’DSP, utilizza [!UICONTROL Source Key] dalle impostazioni di origine del pubblico dell’DSP.
+   * **Chiave segmento esterna:** Il tasto del segmento esterno, che verrà successivamente specificato nelle impostazioni delle azioni per il connettore in [!DNL Tealium]. La convenzione di denominazione consigliata è &quot;`<DSP source key>_<Tealium segment name>`,&quot; ad esempio &quot;57bf424dc10_coffee-drink&quot;. Per il codice sorgente dell’DSP, utilizza [!UICONTROL Source Key] dalle impostazioni di origine del pubblico dell’DSP.
 
-      * **Nome segmento:** Il nome del segmento.
+   * **Nome segmento:** Il nome del segmento.
 
-      * **Descrizione segmento:** Lo scopo o la regola del segmento, o entrambi.
+   * **Descrizione segmento:** Lo scopo o la regola del segmento, o entrambi.
 
-      * **ID principale:** Mantieni vuoto
+   * **ID principale:** Mantieni vuoto
 
-      * **Video CPM:** 0
+   * **Video CPM:** 0
 
-      * **Visualizza CPM:** 0
+   * **Visualizza CPM:** 0
 
-      * **Finestra segmento:** Il time-to-live del segmento.
+   * **Finestra segmento:** Il time-to-live del segmento.
 
 ## Passaggio 4: creare i connettori in [!DNL Tealium] per condividere i dati dei segmenti {#tealium-connector}
 
@@ -154,9 +154,5 @@ Per assistenza nella risoluzione dei problemi, contatta il team del tuo account 
 >
 >* [Informazioni sulle origini del pubblico di prime parti](/help/dsp/audiences/sources/source-about.md)
 >* [Gestire le origini del pubblico per attivare i tipi di pubblico con ID universale](source-manage.md)
->* [Converti ID utente da [!DNL Adobe Real-Time CDP] agli ID universali](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [Supporto per l’attivazione di ID universali](/help/dsp/audiences/universal-ids.md)
 >* [Informazioni su Gestione dell&#39;audience](/help/dsp/audiences/audience-about.md)
-
-<!--
->* [Convert User IDs from [!DNL Optimizely] to Universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
--->

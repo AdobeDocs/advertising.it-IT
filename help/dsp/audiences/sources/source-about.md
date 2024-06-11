@@ -3,9 +3,9 @@ title: Informazioni sulle origini del pubblico di prime parti
 description: Scopri come convertire altri identificatori utente nei segmenti di prime parti in ID universali per il targeting senza cookie.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
+source-git-commit: 78ee6ddbfb87915475bcf84bd7cd405a58eccf14
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,15 @@ Per consentire all’DSP di acquisire [!DNL Adobe] [!DNL Real-time CDP] segmenti
 
 ### [!DNL ActionIQ]
 
-Puoi condividere i dati di prime parti della tua organizzazione da [!DNL Action IQ] Customer Data Platform con DSP per convertire i tuoi indirizzi e-mail con hash in ID universali per la pubblicità mirata nell’DSP. Questa integrazione richiede la personalizzazione. Per ulteriori informazioni, contatta il team del tuo account di Adobe.
+Puoi condividere i dati di prime parti della tua organizzazione da [!DNL ActionIQ] Customer Data Platform con DSP per convertire i tuoi indirizzi e-mail con hash in ID universali per la pubblicità mirata nell’DSP. Questa integrazione richiede la personalizzazione. Per ulteriori informazioni, contatta il team del tuo account di Adobe.
+
+### [!DNL Amperity]
+
+Puoi condividere i dati di prime parti della tua organizzazione da [!DNL Amperity] Customer Data Platform con DSP per convertire i tuoi indirizzi e-mail con hash in ID universali per la pubblicità mirata nell’DSP. Per ulteriori informazioni, consulta la sezione &quot;[Converti ID utente da [!DNL Amperity] agli ID universali](/help/dsp/audiences/sources/source-amperity.md).&quot;
+
+### [!DNL Optimizely]
+
+Puoi condividere i dati di prime parti della tua organizzazione da [!DNL Optimizely] Customer Data Platform con DSP per convertire i tuoi indirizzi e-mail con hash in ID universali per la pubblicità mirata nell’DSP. Per ulteriori informazioni, consulta la sezione &quot;[Converti ID utente da [!DNL Optimizely] agli ID universali](/help/dsp/audiences/sources/source-optimizely.md).&quot;
 
 ### [!DNL Tealium]
 
@@ -88,13 +96,11 @@ Puoi condividere i dati di prime parti della tua organizzazione da [!DNL Tealium
 
 >[!MORELIKETHIS]
 >
->* [Converti ID utente da [!DNL Adobe Real-Time CDP] agli ID universali](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
->* [Converti ID utente da [!DNL Tealium] agli ID universali](/help/dsp/audiences/sources/source-tealium.md)
 >* [Gestire le origini del pubblico per attivare i tipi di pubblico con ID universale](source-manage.md)
 >* [Supporto per l’attivazione di ID universali](/help/dsp/audiences/universal-ids.md)
+>* [Converti ID utente da [!DNL Adobe Real-Time CDP] agli ID universali](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [Converti ID utente da [!DNL Amperity] agli ID universali](/help/dsp/audiences/sources/source-amperity.md)
+>* [Converti ID utente da [!DNL Optimizely] agli ID universali](/help/dsp/audiences/sources/source-optimizely.md)
+>* [Converti ID utente da [!DNL Tealium] agli ID universali](/help/dsp/audiences/sources/source-tealium.md)
 >* [Informazioni su Gestione dell&#39;audience](/help/dsp/audiences/audience-about.md)
 >* [Impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)
-
-<!--
->* [Convert User IDs from [!DNL Optimizely] to Universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
--->
