@@ -3,9 +3,9 @@ title: Supporto per l’attivazione di ID universali
 description: Scopri come importare i segmenti ID universali, creare segmenti personalizzati per monitorare gli ID universali e convertire altri identificatori utente nei segmenti di prime parti in ID universali per il targeting senza cookie.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 4b8dc6e691516d87e391802b54664b96ad603b75
+source-git-commit: d3991123110617968ce858fd76c12fa039acc2d6
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1378'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,7 @@ Utilizza le seguenti best practice per [!DNL RampID]segmenti basati su e segment
 
 ## Risoluzione dei problemi
 
-Se non visualizzi il numero di utenti o se le dimensioni del pubblico sono basse, verifica quanto segue:
+Se non vedi il numero di utenti o se le dimensioni del pubblico sono basse, verifica quanto segue:
 
 * Se usa [!DNL Flashtalking] o [!DNL Google Campaign Manager 360] annunci, quindi accertati che agli URL di click-through degli annunci siano state aggiunte le macro corrette. Vedere le macro per [[!DNL Flashtalking] annunci](/help/integrations/analytics/macros-flashtalking.md) e [[!DNL Google Campaign Manager 360] annunci](/help/integrations/analytics/macros-google-campaign-manager.md).
 
