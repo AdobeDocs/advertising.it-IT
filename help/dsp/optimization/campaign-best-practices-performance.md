@@ -3,9 +3,9 @@ title: Best practice per l’impostazione di campagne sulle prestazioni
 description: Scopri le best practice per la configurazione di campagne incentrate sulle prestazioni, che includono posizionamenti ottimizzati per il CPA più basso o il ROAS più alto.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 802c75920bb11f262cbe0d76d2554971aaf35831
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1263'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,7 @@ L’DSP può ottimizzare le campagne incentrate sulle prestazioni. Consulta le s
 
 ![obiettivo di ottimizzazione](/help/dsp/assets/optimization-goals.png)
 
-È inoltre necessario determinare gli eventi di successo che conducono all’obiettivo generale e creare obiettivi personalizzati di conseguenza. Per ogni pacchetto, specifica un obiettivo personalizzato da utilizzare con l’obiettivo di ottimizzazione generale per il reporting e l’ottimizzazione algoritmica utilizzando [!DNL Adobe Sensei]. Per ulteriori informazioni sulla creazione di obiettivi personalizzati, vedi [Best practice per la creazione di un obiettivo personalizzato](custom-goal.md#custom-goal-best-practices).
-
-![obiettivi personalizzati](/help/dsp/assets/objective-goals.png)
+È inoltre necessario determinare gli eventi di successo che conducono all’obiettivo generale e creare obiettivi personalizzati di conseguenza. Per ogni pacchetto, specifica un obiettivo personalizzato da utilizzare con l’obiettivo di ottimizzazione generale per il reporting e l’ottimizzazione algoritmica utilizzando [!DNL Adobe Sensei]. Per ulteriori informazioni sulla creazione di obiettivi personalizzati, incluse le best practice, consulta [Obiettivi personalizzati](custom-goal.md).
 
 ## Passaggio 2: definire la strategia
 
