@@ -2,9 +2,9 @@
 title: Converti ID utente da [!DNL Optimizely] agli ID universali
 description: Scopri come consentire all’DSP di acquisire [!DNL Optimizely] segmenti di prime parti.
 feature: DSP Audiences
-source-git-commit: 23d4dc50d1c6bf966148dab772e0e770087ac869
+source-git-commit: f51f07c1e057eb09c2cad292b2c8062f7d993166
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ L’inserzionista deve preparare e inviare i dati con l’aiuto del proprio [!DN
 
    * **Codice account:** Questo è il codice alfanumerico dell&#39;account DSP, che puoi trovare all&#39;interno dell&#39;DSP all&#39;indirizzo [!UICONTROL Settings] > [!UICONTROL Account].
 
-I segmenti dovrebbero essere disponibili nell’DSP entro 24 ore e vengono aggiornati in base alla configurazione per l’inserzionista. Indipendentemente dalla frequenza con cui il segmento viene aggiornato, l’inclusione in un segmento scade dopo 30 giorni per garantire la conformità in materia di privacy. In tal modo, aggiorna i tipi di pubblico inviandoli di nuovo da [!DNL Optimizely] ogni 30 giorni o meno.
+I segmenti dovrebbero essere disponibili nell’DSP entro 24 ore e vengono aggiornati in base alla configurazione per l’inserzionista. Indipendentemente dalla frequenza con cui il segmento viene aggiornato, l’inclusione in un segmento scade dopo 30 giorni per impostazione predefinita o dopo un periodo di scadenza specificato dal cliente. Aggiorna i segmenti inviandoli di nuovo da [!DNL Optimizely] prima della scadenza. Per richiedere la scadenza di un segmento personalizzato, contatta il team dell’account Adobe.
 
 <!--
 Are they using the Data Platform web services, another type of API, or a UI? Add a link to instructions, including how to designate DSP as the destination. And where will they input the DSP-specific fields?]

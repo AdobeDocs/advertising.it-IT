@@ -2,9 +2,9 @@
 title: Converti ID utente da [!DNL Amperity] agli ID universali
 description: Scopri come consentire all’DSP di acquisire [!DNL Amperity] segmenti di prime parti.
 feature: DSP Audiences
-source-git-commit: dab24efea38951373ec1ada571b10d9843409baf
+source-git-commit: 25bcc2eefa4dc7873ab8189122d43da336e3e046
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ L’inserzionista deve preparare e condividere i dati di mappatura dei segmenti.
 
 1. L’inserzionista deve quindi confermare con l’Account Team Adobe che i dati del segmento sono stati ricevuti.
 
-I segmenti dovrebbero essere disponibili nell’DSP entro 24 ore e vengono aggiornati in base alla configurazione per l’inserzionista. Indipendentemente dalla frequenza con cui il segmento viene aggiornato, l’inclusione in un segmento scade dopo 30 giorni per garantire la conformità in materia di privacy. In tal modo, aggiorna i tipi di pubblico inviandoli di nuovo da [!DNL Amperity] ogni 30 giorni o meno.
+I segmenti dovrebbero essere disponibili in DSP entro 24 ore e vengono aggiornati in base alla configurazione per l’inserzionista entro [!DNL Amperity]. Indipendentemente dalla frequenza con cui il segmento viene aggiornato, l’inclusione in un segmento scade dopo 30 giorni per impostazione predefinita o dopo un periodo di scadenza specificato dal cliente. Aggiorna i segmenti inviandoli di nuovo da [!DNL Amperity] prima della scadenza. Per richiedere la scadenza di un segmento personalizzato, contatta il team dell’account Adobe.
 
 ## Passaggio 5: confrontare il numero di ID universali con il numero di indirizzi e-mail con hash {#compare-id-count}
 
