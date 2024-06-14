@@ -3,9 +3,9 @@ title: Gestire le origini del pubblico per attivare i tipi di pubblico con ID un
 description: Scopri come creare e gestire un’origine per importare i tipi di pubblico dalla piattaforma di dati dei clienti e convertirli in segmenti contenenti ID universali.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 78b1a8a8e0567afb0c172c7bef1a639ab5b47bab
+source-git-commit: 02ed538a48a4ba0323f9b75938ee6b007c6e0fd7
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '759'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ You can create one source for each combination of universal ID partner and data 
 
    * *[!UICONTROL Amperity]*: Il [!DNL Amperity] piattaforma dati cliente.
 
-   * *[!UICONTROL Optimizely]*: Il [!DNL Optimizely]: Il [!DNL Amperity] piattaforma dati cliente.
+   * *[!UICONTROL Optimizely]*: Il [!DNL Optimizely] piattaforma dati cliente.
 
    * *[!UICONTROL Tealium CDP]*: (solo utenti configurati) Il [!DNL Tealium] piattaforma dati cliente.
 
