@@ -3,9 +3,9 @@ title: Impostazioni campagna
 description: Consulta le descrizioni delle impostazioni disponibili per la campagna.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 4aff26ef50d970b8440e2cf07b5f835d2b5a6599
+source-git-commit: d572a406be9271c6ca14d35740f04d15ddbf7364
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -130,9 +130,9 @@ Per stimare le imposte da trattenere:
 
 * **[!UICONTROL Target Country]:** (Facoltativo) Paese di destinazione. [!DNL Comscore] le impression relative alle misure sono servite solo nei paesi supportati.
 
-### [!UICONTROL Attention Measurement]
+### [!UICONTROL Attention Measurement]{#attention-measurement}
 
-**[!UICONTROL Adelaide]:** Abilita il tracciamento per il livello di posizionamento [!UICONTROL Attention Score] metrica (la media ponderata del numero di unità di attenzione tra le impression) da [!DNL Adelaide]. Le metriche sono disponibili per tutti i tipi di posizionamento ad eccezione di [!DNL Roku] TV collegata, pre-roll solo VPAID e audio che non è un podcast. l’DSP associa automaticamente un tag JavaScript a tutti i creativi associati; e [!DNL Adelaide] tiene traccia dei dati di esposizione e li invia quotidianamente all’DSP. Puoi utilizzare la data per ottimizzare manualmente la spesa per le tattiche di posizionamento con punteggi di attenzione migliori.
+**[!UICONTROL Adelaide]:** Abilita il tracciamento per il livello di posizionamento [!UICONTROL Attention Score] metrica (il numero medio ponderato di [!DNL Adelaide] &quot;[!DNL Attention Units]&quot; tra le impression). Le metriche sono disponibili per tutti i tipi di posizionamento ad eccezione di [!DNL Roku] TV collegata, pre-roll solo VPAID e audio che non è un podcast. l’DSP associa automaticamente un tag JavaScript a tutti i creativi associati; e [!DNL Adelaide] tiene traccia dei dati di esposizione e li invia quotidianamente all’DSP. Puoi utilizzare la data per ottimizzare manualmente la spesa per le tattiche di posizionamento con punteggi di attenzione migliori.
 
 Il [!UICONTROL Attention Score] è disponibile nel [!UICONTROL Metrics] sezione dei rapporti; all&#39;interno della sezione [!UICONTROL Campaigns], [!UICONTROL Packages], e [!UICONTROL Placements] visualizzazioni; e [!UICONTROL Sites], [!UICONTROL Ads], e [!UICONTROL Inventory] schede di [visualizzazione dettagli posizionamento](/help/dsp/campaign-management/reports/placement-details-view.md).
 

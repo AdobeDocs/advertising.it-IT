@@ -3,9 +3,9 @@ title: Sicurezza del marchio e qualità dei contenuti multimediali
 description: Ulteriori informazioni sulle funzioni di sicurezza del brand e qualità dei contenuti multimediali.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: c8cad651585210d46cb0237e1843952e5e5cec3e
+source-git-commit: 9332a7e2dae7819d65d35c01a0e3fb71a1c4e992
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1425'
 ht-degree: 0%
 
 ---
@@ -115,6 +115,16 @@ Filtri di visibilità pre-offerta forniti dai nostri partner leader del settore 
 Puoi impostare filtri di visualizzabilità predefiniti per ogni inserzionista<!-- [default pre-viewability filters for each advertiser](/help/dsp/admin/advertiser-settings.md) -->, quindi facoltativamente [personalizzare le impostazioni per ciascun posizionamento](/help/dsp/campaign-management/placements/placement-settings.md). Quando si utilizza questa funzione, è possibile che vengano applicate tariffe aggiuntive.
 
 ![Logo DoubleVerify](/help/dsp/assets/doubleverify-logo.png) ![Logo Oracle Advertising](/help/dsp/assets/oracle-advertising-logo.png) ![Logo Ad Science integrale](/help/dsp/assets/ias-logo.png)
+
+### Targeting e misurazione dell’attenzione
+
+[!DNL Adobe's] partnership con [!DNL Adelaide] fornisce agli inserzionisti supporto per la metrica Adelaide &quot;.[!DNL Attention Units],&quot; che misura la qualità dei contenuti multimediali in base ai dati di tracciamento oculare, esposizione e risultato.
+
+[Destinazione dell’attenzione pre-offerta a livello di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md) consente agli inserzionisti di mirare a livelli di attenzione specifici per migliorare il coinvolgimento dei clienti.
+
+Inoltre, gli inserzionisti possono abilitare [tracciamento per il livello di posizionamento [!UICONTROL Attention Score] metrica](/help/dsp/campaign-management/campaigns/campaign-settings.md#attention-measurement) (il numero medio ponderato di [!DNL Attention Units] per tutte le campagne per capire quali tattiche di posizionamento producono i migliori risultati di business.
+
+Per ogni funzione separata vengono applicate tariffe aggiuntive.
 
 ### Targeting argomento
 
