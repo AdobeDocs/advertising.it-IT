@@ -3,7 +3,7 @@ title: Impostazioni di posizionamento
 description: Consulta le descrizioni delle impostazioni di posizionamento disponibili.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
+source-git-commit: 74b7ccc97339663c8baba633ff2baedfb13cba80
 workflow-type: tm+mt
 source-wordcount: '3789'
 ht-degree: 0%
@@ -346,7 +346,7 @@ Quando selezioni sia ID legacy che ID universali, viene data la preferenza di of
    * Per selezionare manualmente un intervallo, fare clic all&#39;interno di una cella e, facoltativamente, trascinare per selezionare l&#39;intervallo.
 1. Clic **[!UICONTROL Save]**.
 
-**[!UICONTROL Topic Targeting]:** (Facoltativo; disponibile per gli inserzionisti configurati con [!DNL Comscore] e [!DNL Grapeshot] segmenti) Nomi di segmenti specifici o ID da [!DNL Comscore] e [!DNL Grapeshot] da includere come target. Per questa funzione potrebbero essere applicati costi aggiuntivi. Per attivare questa funzione e impostare i segmenti di argomento, contatta il team dell’account di Adobe.
+**[!UICONTROL Topic Targeting]:** (Facoltativo; disponibile per gli inserzionisti configurati con [!DNL Proximic by Comscore] e [!DNL Grapeshot] segmenti) Nomi di segmenti specifici o ID da [!DNL Proximic by Comscore] e [!DNL Grapeshot] da includere come target. Per questa funzione potrebbero essere applicati costi aggiuntivi. Per attivare questa funzione e impostare i segmenti di argomento, contatta il team dell’account di Adobe.
 
 Per specificare il targeting degli argomenti:
 
@@ -361,7 +361,7 @@ Per specificare il targeting degli argomenti:
 >
 >* Il targeting degli argomenti limita l’inventario su cui il posizionamento può fare offerte, quindi utilizza il targeting degli argomenti solo per una piccola percentuale dell’acquisto complessivo.
 >
->* Imposta eventuali targeting negativi all’interno del segmento su [!DNL Comscore] o [!DNL Grapeshot].
+>* Imposta eventuali targeting negativi all’interno del segmento su [!DNL Proximic by Comscore] o [!DNL Grapeshot].
 
 **[!UICONTROL Device Targeting]:** (Facoltativo) Informazioni specifiche sul dispositivo, inclusi tipi di dispositivo, produttori, sistemi operativi, browser e tipi di connettività, da includere ed escludere come destinazioni. Per specificare il targeting del dispositivo:
 

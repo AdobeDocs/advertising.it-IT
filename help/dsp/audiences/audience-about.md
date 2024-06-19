@@ -3,7 +3,7 @@ title: Informazioni sulla gestione dell’audience in Advertising DSP
 description: Scopri le funzioni di gestione dell’audience.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: ac3ceaf0e1d9f1708896d17ab413d23f366c4b36
+source-git-commit: 31f20bcfb79265326f515218a02d8a4fa3efd586
 workflow-type: tm+mt
 source-wordcount: '1324'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Puoi indirizzare i posizionamenti a tutti i seguenti tipi di pubblico.
 
 * Tutti i segmenti di dati di terze parti personalizzati importati.
 
-* (Posizionamenti mirati solo agli Stati Uniti) [Tutti i segmenti di dati di terze parti disponibili per i clienti DSP di oltre 30 fornitori](/help/dsp/audiences/third-party-data-providers.md), tra cui [!DNL Acxiom], [!DNL Datalogix], [!DNL eXelate] ([!DNL Nielsen]), [!DNL Lotame], [!DNL Oracle], [!DNL Quantcast], e molti altri.
+* (Posizionamenti mirati solo agli Stati Uniti) [Tutti i segmenti di dati di terze parti disponibili per i clienti DSP di oltre 30 fornitori](/help/dsp/audiences/third-party-data-providers.md), tra cui [!DNL eXelate], ([!DNL Eyeota]), ([!DNL LiveRamp]),[!DNL Lotame], [!DNL Neustar], e molti altri.
 
   Puoi eseguire il targeting di segmenti specifici, che eseguono il targeting degli utenti in base ai dati del pubblico (ad esempio, utenti con caratteristiche demografiche, interessi o intenti specifici e/o profili comportamentali). Puoi sfogliare per provider di dati e categoria, cercare i segmenti per nome o ID segmento oppure filtrare i risultati per provider di dati, dimensione totale del segmento, numero di browser web o numero di dispositivi.
 

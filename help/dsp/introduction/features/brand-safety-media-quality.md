@@ -3,9 +3,9 @@ title: Sicurezza del marchio e qualità dei contenuti multimediali
 description: Ulteriori informazioni sulle funzioni di sicurezza del brand e qualità dei contenuti multimediali.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: c8cad651585210d46cb0237e1843952e5e5cec3e
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1348'
 ht-degree: 0%
 
 ---
@@ -118,9 +118,9 @@ Puoi impostare filtri di visualizzabilità predefiniti per ogni inserzionista<!-
 
 ### Targeting argomento
 
-Il targeting degli argomenti dell’DSP consente di eseguire il targeting o bloccare gli elenchi di parole chiave sfruttando i nostri partner contestuali leader di settore [!DNL Comscore] e [!DNL Oracle Data Cloud] ([!DNL Grapeshot]). Il targeting degli argomenti ti aiuta a garantire che gli annunci vengano sempre serviti in un ambiente in linea con il tuo marchio, sia che si tratti di bloccare contenuti dannosi o di garantire la spesa in un contesto che garantisce un risultato maggiore.
+Il targeting degli argomenti dell’DSP consente di eseguire il targeting o bloccare gli elenchi di parole chiave sfruttando i nostri partner contestuali leader di settore [!DNL Comscore] e [!DNL Oracle Data Cloud] (in precedenza [!DNL Grapeshot]). Il targeting degli argomenti ti aiuta a garantire che gli annunci vengano sempre serviti in un ambiente in linea con il tuo marchio, sia che si tratti di bloccare contenuti dannosi o di garantire la spesa in un contesto che garantisce un risultato maggiore.
 
-Il targeting degli argomenti richiede di creare segmenti di argomenti personalizzati direttamente con [!DNL Comscore] o [!DNL Grapeshot] (utilizzando [!DNL Oracle Data Cloud]). Una volta create nella piattaforma partner, puoi [target o escludere un ID segmento nel [!UICONTROL Audience Targeting] sezione per ciascun posizionamento](/help/dsp/campaign-management/placements/placement-settings.md). Per questa funzione potrebbero essere applicati costi aggiuntivi.
+Il targeting degli argomenti richiede di creare segmenti di argomenti personalizzati direttamente con la piattaforma partner. Una volta creati i segmenti, puoi [target o escludere un ID segmento nel [!UICONTROL Audience Targeting] sezione per ciascun posizionamento](/help/dsp/campaign-management/placements/placement-settings.md). Per questa funzione potrebbero essere applicati costi aggiuntivi.
 
 Per creare segmenti di argomenti personalizzati:
 
