@@ -3,7 +3,7 @@ title: Impostazioni campagna
 description: Consulta le descrizioni delle impostazioni disponibili per la campagna.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: d572a406be9271c6ca14d35740f04d15ddbf7364
+source-git-commit: 9b3d6893e004b16714bf50f1334424d50fac7c91
 workflow-type: tm+mt
 source-wordcount: '1050'
 ht-degree: 0%
@@ -122,7 +122,7 @@ Per stimare le imposte da trattenere:
 
 #### Verifica del pubblico
 
-**[!UICONTROL comScore Campaign Ratings]:** (Facoltativo) Abilita [!DNL Comscore] convalidato [!DNL Campaign Ratings] misurazione e reporting della verifica del pubblico, utilizzando le impostazioni specificate. Si applicano tariffe aggiuntive.
+**[!UICONTROL Comscore Campaign Ratings]:** (Facoltativo) Abilita [!DNL Comscore] convalidato [!DNL Campaign Ratings] misurazione e reporting della verifica del pubblico, utilizzando le impostazioni specificate. Si applicano tariffe aggiuntive.
 
 * **[!UICONTROL Target Gender]:** Genere di destinazione: *[!UICONTROL Both]* (impostazione predefinita), *[!UICONTROL Male]*, o *[!UICONTROL Female]*
 
