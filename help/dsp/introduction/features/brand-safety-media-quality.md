@@ -3,9 +3,9 @@ title: Sicurezza del marchio e qualità dei contenuti multimediali
 description: Ulteriori informazioni sulle funzioni di sicurezza del brand e qualità dei contenuti multimediali.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: 9332a7e2dae7819d65d35c01a0e3fb71a1c4e992
+source-git-commit: e8cb734e313b6aecfb75dfcbf70347efe83254a5
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1423'
 ht-degree: 0%
 
 ---
@@ -100,13 +100,13 @@ Il filtro contestuale consente di eseguire il targeting o bloccare le opportunit
 
 ### Blocco di frodi pre-offerta
 
-Sfruttare le integrazioni di terze parti con [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], e [!DNL Peer39] per bloccare il traffico non umano dalle campagne. Queste integrazioni forniscono funzionalità di blocco pre-offerta leader di settore per ridurre al minimo il traffico non valido generale e sofisticato (GIVT e SIVT) nelle campagne.
+Sfruttare le integrazioni di terze parti con [!DNL DoubleVerify], [!DNL Integral Ad Science], e [!DNL Peer39] per bloccare il traffico non umano dalle campagne. Queste integrazioni forniscono funzionalità di blocco pre-offerta leader di settore per ridurre al minimo il traffico non valido generale e sofisticato (GIVT e SIVT) nelle campagne.
 
 Puoi impostare i controlli di blocco delle frodi pre-offerta predefiniti per ogni inserzionista<!-- [default pre-bid fraud blocking controls for each advertiser](/help/dsp/admin/advertiser-settings.md) -->, quindi facoltativamente [personalizzare le impostazioni per ciascun posizionamento](/help/dsp/campaign-management/placements/placement-settings.md). Quando si utilizza questa funzione, è possibile che vengano applicate tariffe aggiuntive.
 
 Per ulteriori informazioni sulle funzionalità, contatta direttamente il fornitore preferenziale o contatta il team del tuo account Adobe.
 
-![Logo Comscore](/help/dsp/assets/comscore-logo.png) ![Logo DoubleVerify](/help/dsp/assets/doubleverify-logo.png) ![Logo Ad Science integrale](/help/dsp/assets/ias-logo.png) ![Logo Peer39](/help/dsp/assets/peer39-logo.png)
+![Logo DoubleVerify](/help/dsp/assets/doubleverify-logo.png) ![Logo Ad Science integrale](/help/dsp/assets/ias-logo.png) ![Logo Peer39](/help/dsp/assets/peer39-logo.png)
 
 ### Visibilità pre-offerta {#pre-bid-viewability}
 
