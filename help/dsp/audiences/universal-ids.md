@@ -3,9 +3,9 @@ title: Supporto per l’attivazione di ID universali
 description: Scopri come importare i segmenti ID universali, creare segmenti personalizzati per monitorare gli ID universali e convertire altri identificatori utente nei segmenti di prime parti in ID universali per il targeting senza cookie.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: d3991123110617968ce858fd76c12fa039acc2d6
+source-git-commit: db21fa1ed9daab9070fa1ce7740dd5dbaa0f3a2f
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1392'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ L’DSP supporta ID universali basati sulle persone per il targeting senza cooki
 
 * Puoi creare segmenti personalizzati che tengono traccia degli utenti associati agli ID universali ID5 esposti agli annunci da dispositivi desktop e mobili e che visitano specifiche pagine web. ID5 utilizza un modello probabilistico per assegnare un ID derivato da vari segnali utente e del browser. Per le istruzioni del caso, vedere &quot;[Creare e implementare un segmento personalizzato](/help/dsp/audiences/custom-segment-create.md).&quot;
 
-* Segmenti di terze parti da [!DNL Eyeota] e alcuni altri fornitori possono includere automaticamente gli ID ID5, oltre agli utenti tracciati dai cookie o dagli ID dispositivo. I dettagli del segmento includono la dimensione per ciascun tipo. Si applica la tariffa d’uso abituale per ciascun segmento, indicata accanto al nome del segmento; non vengono addebitate tariffe aggiuntive per gli ID5.
+* I segmenti di terze parti di alcuni fornitori possono includere automaticamente ID universali oltre agli utenti tracciati dai cookie o dagli ID dispositivo. Ad esempio, segmenti da [!DNL Eyeota] può includere automaticamente ID ID5 e segmenti da [!DNL Lotame] può includere ID UID2.0. I dettagli del segmento includono la dimensione per ciascun tipo. Si applica la tariffa d’uso abituale per ciascun segmento, indicata accanto al nome del segmento; non vengono addebitate tariffe aggiuntive per gli ID5.
 
 ## Generazione di rapporti per tipo di ID universale
 
