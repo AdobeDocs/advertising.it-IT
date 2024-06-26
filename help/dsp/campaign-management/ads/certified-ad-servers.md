@@ -3,7 +3,7 @@ title: Partner Ad Serving certificati
 description: Visualizza tutti i server di annunci e le unità di annunci certificati.
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 1c9c7ff2340d4abf4c64f015172b5e0a33b3e1fe
+source-git-commit: 8ae5e4fc84ace4dc4e8b637545e95f5e0cff912c
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 | [!DNL Eyereturn] | | X | | | |
 | [!DNL Flashtalking] | X | X | | X | |
 | [!DNL Frequency] | X | | | | |
-| [!DNL GumGum] | | | X | | Intervallo nello slot: 21x21, Intervallo nello slot Video mobile: 22x22, Intervallo nello slot Desktop: 24x24, Interno slot Hoverboard: 25x25, Velocità nello slot: 26x26, Intervallo superiore: 29x29, Intervallo espandibile sullo schermo: 20x20 |
+| [!DNL GumGum] | | | X | | Intervallo nello slot: 21x21; video mobile in-slot: 22x22; desktop in-slot: 24x24; hoverboard nello slot: 25x25; velocità nello slot: 26x26; interfaccia super: 29x29; angolo espandibile nello schermo: 20x20 |
 | [!DNL HUMAN] (in precedenza [!DNL White Ops]) | X | X | | X | |
 | [!DNL IAS] | X | X | | X | |
 | [!DNL IBM] | | X | | X | |
