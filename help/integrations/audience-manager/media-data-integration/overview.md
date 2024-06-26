@@ -3,9 +3,9 @@ title: Panoramica dell’invio dei dati sull’esposizione ai contenuti multimed
 description: Scopri come utilizzare i pixel dell’evento Audienci Manager per acquisire dati a livello di impression e clic dalle campagne Advertising DSP
 feature: Integration with Adobe Audience Manager
 exl-id: c299cdf0-a83e-4026-8b8b-22ce08af0cc4
-source-git-commit: 49f7225840ddaf26a37376ffaf7b93207f3ff2f7
+source-git-commit: aec57b49e636d63fc6967af8764ed62f239f31bb
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ L&#39;DSP non ti fa pagare per inviare questi segnali agli Audienci Manager. Tut
 
 ## Tracciamento dei dati
 
-I pixel dell’evento di impression e clic dell’Audience Manager sono basati su cookie. I pixel non acquisiscono gli eventi che si verificano in ambienti senza cookie, come le app mobili e la TV collegata (CTV).<!-- Verify if this is still correct. -->
+I pixel dell’evento di impression e clic dell’Audience Manager sono basati su cookie. I pixel non acquisiscono gli eventi che si verificano in ambienti senza cookie, ad esempio nelle app mobili.<!-- Verify if this is still correct. -->
 
 ### Pixel di tracciamento dell&#39;impression
 
