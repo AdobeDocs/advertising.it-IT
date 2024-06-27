@@ -1,11 +1,11 @@
 ---
 title: Implementare [!DNL Google Ads] campagne di acquisto
 description: Scopri il flusso di lavoro per la configurazione di [!DNL Google Ads] campagne di acquisto.
-exl-id: aab61d94-861f-4072-b044-f9ae6759e028
+exl-id: d80370d9-534d-4854-b7d3-1384a84320ad
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 3c702a01df1186e74c4f329a08199ce829be0827
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Puoi impostare le campagne di acquisto utilizzando [modelli di feed inventario](
 
 1. [Creare un gruppo di annunci](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) all’interno della campagna e imposta l’offerta predefinita per tutti gli annunci.
 
-Puoi sovrascrivere l’offerta predefinita per i singoli gruppi di prodotti.
+   Puoi sovrascrivere l’offerta predefinita per i singoli gruppi di prodotti.
 
 1. Crea gruppi di prodotti per il gruppo di annunci:
 

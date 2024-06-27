@@ -3,9 +3,9 @@ title: Glossario
 description: Cfr. definizioni dei termini chiave.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 5555bc8ec7e407596252cd385cf1410f7fe959a6
 workflow-type: tm+mt
-source-wordcount: '2040'
+source-wordcount: '2074'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,21 @@ ht-degree: 0%
 
 **variante annuncio:** Qualsiasi annuncio all’interno di un gruppo di annunci o di una strategia pubblicitaria.
 
-**[AMO ID](/help/integrations/analytics/ids.md#amo-id):** Codice di tracciamento che consente ad Adobi Advertising di condividere i dati sulle campagne con Adobe Analytics. Inizia con `s_kwcid=`.
+**[AMO ID](/help/integrations/analytics/ids.md#amo-id):** Codice di tracciamento che consente ad Adobe Advertising di condividere i dati sulle campagne con Adobe Analytics. Inizia con `s_kwcid=`.
 
-**unità di offerta:** Termine di ricerca, social e commerce per un’unità in cui vengono presentate le offerte. Per la maggior parte delle campagne sulla maggior parte delle reti, si tratta di una parola chiave e del relativo tipo di corrispondenza per una campagna di ricerca o di contenuto, un gruppo di prodotti a livello di unità (il livello di suddivisione più basso) per una campagna di acquisto o un target di ricerca dinamica per una campagna di annunci di ricerca dinamica. Quando la stessa combinazione di parola chiave e tipo di corrispondenza, lo stesso gruppo di prodotti o lo stesso target di ricerca dinamica si verifica all’interno di più gruppi di annunci in una singola campagna, tutte le istanze sono considerate la stessa unità di offerta e quindi hanno la stessa offerta.
+**unità di offerta:** Termine di ricerca, social e Commerce per un&#39;unità in cui vengono presentate le offerte.
+
+* Per le campagne CPC, si tratta di una parola chiave e del relativo tipo di corrispondenza per una campagna di ricerca o di contenuto, un gruppo di prodotti a livello di unità (il livello di suddivisione più basso) per una campagna di acquisto o un target di ricerca dinamico per una campagna di annunci di ricerca dinamica. Quando la stessa combinazione di parola chiave e tipo di corrispondenza, lo stesso gruppo di prodotti o lo stesso target di ricerca dinamica si verifica all’interno di più gruppi di annunci in una singola campagna, tutte le istanze sono considerate la stessa unità di offerta e quindi hanno la stessa offerta.
+
+* Per campagne con [!DNL Maximize Clicks], [!DNL Maximize Conversion Value], [!DNL Maximize Conversions], [!DNL Target Cost Per Acquisition], o [!DNL Target Return on Ad Spend] strategie di spesa, ogni campagna è un&#39;unità di offerta.
+
+* Per campagne su [!DNL Yahoo! Display Network], che non utilizza parole chiave, tutti gli annunci all’interno di un gruppo di annunci hanno la stessa offerta e sono considerati la stessa unità di offerta.
 
 **vincolo unità di offerta:** Vedere &quot;vincolo&quot;.
 
 ## C-D {#c-d}
 
-**campagna:** Un set di gruppi di annunci in un singolo account di annunci che condividono un budget, un intervallo di tempo, un targeting e altre impostazioni. **Nota:** [!DNL Baidu] non ha il concetto di campagne, ma Search, Social e Commerce crea pseudo-campagne per ogni set di gruppi di annunci correlati in esistente [!DNL Baidu] account sincronizzati in Search, Social e Commerce.
+**campagna:** Un set di gruppi di annunci in un singolo account di annunci che condividono un budget, un intervallo di tempo, un targeting e altre impostazioni. **Nota:** [!DNL Baidu] non ha il concetto di campagne, ma Search, Social e Commerce creano pseudo-campagne per ogni set di gruppi di annunci correlati in esistente [!DNL Baidu] account sincronizzati in Search, Social e Commerce.
 
 **campo con distinzione tra maiuscole e minuscole:** Un campo o una query con distinzione tra maiuscole e minuscole tratta le lettere maiuscole (ad esempio C) in modo diverso rispetto alle lettere minuscole (ad esempio c). Ad esempio, Auto viene considerato come un valore diverso da auto.
 
@@ -48,7 +54,7 @@ ht-degree: 0%
 
 **precisione dei costi:** (Inserzionisti con portfolio) La spesa effettiva per un portfolio divisa per la spesa prevista.
 
-**modello di costo:** (Inserzionisti con portfolio) Tecnologia di ricerca, social e commerce che prevede il volume dei costi, l’offerta necessaria per aggiudicarsi ogni posizione o posizionamento e il CPC (ricerca) o CPM (visualizzazione) per ogni unità di offerta utilizzando dati storici e tecniche di previsione matematica.
+**modello di costo:** (Inserzionisti con portfolio) Tecnologia Search, Social e Commerce che prevede il volume dei costi, l&#39;offerta necessaria per aggiudicarsi ogni posizione o posizionamento e il CPC (ricerca) o CPM (visualizzazione) per ogni unità di offerta utilizzando dati storici e tecniche di previsione matematica.
 
 **copertura del modello di costo:** (Inserzionisti con portfolio) Il numero e/o la percentuale di unità di offerta che hanno ricevuto almeno un’impression negli ultimi sette giorni in modo che la funzionalità di ottimizzazione possa generare modelli di costo. Non tutte le unità di offerta dispongono di modelli di costo; quelli che contano per la copertura del modello di costo.
 
@@ -126,7 +132,7 @@ ht-degree: 0%
 
 Questo ha lo stesso valore della colonna legacy &quot;Ricavi ponderati&quot;.
 
-**funzionalità di ottimizzazione:** (Inserzionisti con portfolio) Tecnologia di keyword bidding di Search, Social, &amp; Commerce che determina la strategia ottimale di offerta e gestione del budget per un portfolio in base al suo obiettivo di business.
+**funzionalità di ottimizzazione:** (Inserzionisti con portfolio) Tecnologia di keyword bidding Search, Social, &amp; Commerce che determina la strategia di offerta e di gestione del budget ottimale per un portfolio in base al suo obiettivo di business.
 
 **transazione orfana:** Un evento di transazione che non può essere associato a una parola chiave o a un annuncio specifico.
 
@@ -154,7 +160,7 @@ Questo ha lo stesso valore della colonna legacy &quot;Ricavi ponderati&quot;.
 
 **precisione ricavi:** (Inserzionisti con portfolio) I ricavi effettivi per un portfolio divisi per i ricavi previsti.
 
-**modello ricavi:** (Inserzionisti con portfolio) Tecnologia di ricerca, social e commerce che prevede il tasso di conversione e il rendimento stimato per ogni unità di offerta, in base ai dati di clic (ricerca e social) o ai dati di impression (visualizzazione) e ai dati di conversione dell’inserzionista.
+**modello ricavi:** (Inserzionisti con portfolio) Tecnologia Search, Social e Commerce che prevede il tasso di conversione e il rendimento stimato per ogni unità di offerta, in base ai dati di clic (ricerca e social) o ai dati di impression (visualizzazione) e ai dati di conversione dell’inserzionista.
 
 **copertura del modello di ricavi:** (Inserzionisti con portfolio) Il numero e/o la percentuale di unità di offerta in un portfolio con modelli di ricavo. Le unità di offerta possono avere modelli di ricavo anche se non hanno ricevuto ricavi ma hanno ricevuto impression.
 

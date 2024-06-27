@@ -3,7 +3,7 @@ title: Implementare [!DNL Microsoft Advertising] campagne di acquisto
 description: Scopri il flusso di lavoro per la configurazione di [!DNL Microsoft Advertising] campagne di acquisto.
 exl-id: fd10237b-864d-4808-8644-3fcb18edebde
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d5d4dee4356d941ea9cae74b9385add00e0480c3
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Puoi impostare le campagne di acquisto utilizzando [modelli di feed inventario](
 
 1. [Creare un gruppo di annunci](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) all’interno della campagna e imposta l’offerta predefinita per tutti gli annunci.
 
-Puoi sovrascrivere l’offerta predefinita per i singoli gruppi di prodotti.
+   Puoi sovrascrivere l’offerta predefinita per i singoli gruppi di prodotti.
 
 1. Crea gruppi di prodotti per il gruppo di annunci:
 
