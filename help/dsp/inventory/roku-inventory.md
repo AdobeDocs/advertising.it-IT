@@ -1,24 +1,22 @@
 ---
 title: Utilizzo di [!DNL Roku] Inventario
-description: Scopri la partnership DSP con [!DNL Roku], incluse le opzioni di inventario, i fornitori di tracciamento di terze parti approvati e le best practice per [!DNL Roku]posizionamenti specifici di.
+description: Scopri la partnership dell’DSP con [!DNL Roku], incluse le opzioni di inventario, i fornitori di tracciamento di terze parti approvati e le best practice per [!DNL Roku]posizionamenti specifici di.
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: 9b3d6893e004b16714bf50f1334424d50fac7c91
+source-git-commit: 5427b476d8475c1f6863d5227df45685c39da297
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
 
 # Utilizzo di [!DNL Roku] Inventario
 
-Advertising DSP offre funzioni uniche per la pubblicità su [!DNL Roku].
+Advertising DSP fornisce funzioni per la pubblicità su [!DNL Roku].
 
 ## L&#39;DSP e [!DNL Roku] Partnership
 
-Roku e DSP hanno una partnership unica che corrisponde al tuo [!DNL DSP] tipi di pubblico a [!DNL Roku] ID per il targeting deterministico del pubblico 1:1 su [!DNL Roku] inventario.
-
-Al di fuori dell’DSP di Roku (OneView), Advertising DSP ha accesso esclusivo a queste funzionalità di targeting. Advertising DSP è anche l&#39;unico DSP con il permesso di misurare [!DNL Roku] accanto a tutte le altre scorte di TV collegate (CTV). Perché [!DNL Roku] non condivide tutti i segnali standard RTB e impression pixel, nessun altro DSP può raggiungere o misurare l&#39;intera offerta di TVCC venduti da Roku.
+Il [!DNL Roku] e la partnership con l&#39;DSP corrisponda al vostro [!DNL DSP] tipi di pubblico a [!DNL Roku] ID per il targeting deterministico del pubblico 1:1 su [!DNL Roku] inventario.
 
 ## [!DNL Roku] Opzioni di magazzino
 
@@ -53,7 +51,7 @@ Le offerte private ti consentono di personalizzare i parametri dell’offerta in
 
 Nelle campagne DSP, [creare [!DNL Roku]Posizionamenti specifici di](/help/dsp/campaign-management/placements/placement-create.md) utilizzando il tipo di posizionamento &quot;[!UICONTROL Connected TV (Roku)].&quot; Includi [!DNL Roku] posizionamenti in [!DNL Roku]pacchetti specifici con obiettivi definiti.
 
-Ogni [!DNL Roku] il posizionamento deve avere come destinazione almeno uno [!DNL Roku] offerta o sorgente. Utilizzare la corrispondenza di pubblico univoca dell’DSP con [!DNL Roku], includi uno o più segmenti di pubblico che possano essere associati al [!DNL Roku] (opt-in) set di dati deterministici.
+Ogni [!DNL Roku] il posizionamento deve avere come destinazione almeno uno [!DNL Roku] offerta o sorgente. Utilizzare la corrispondenza del pubblico dell’DSP con [!DNL Roku], includi uno o più segmenti di pubblico che possano essere associati al [!DNL Roku] (opt-in) set di dati deterministici.
 
 ### [!DNL Roku]- Fornitori di tracciamento di terze parti approvati
 
