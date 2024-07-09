@@ -3,9 +3,9 @@ title: Impostazioni pacchetto
 description: Consulta le descrizioni delle impostazioni disponibili per il pacchetto.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: a8227e42c49e30d6b73daf51e4f62da05f6508f3
+source-git-commit: c2de7424ecae0ad30792eaa459c8d9bfd3ff3b7c
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '1022'
 ht-degree: 0%
 
 ---
@@ -113,9 +113,9 @@ Per i pacchetti con conflitti personalizzati, l&#39;intervallo di budget è semp
 
 ## [!UICONTROL Flighting]
 
-(Pacchetti con velocità a livello di pacchetto e con &quot;[!UICONTROL Activate Custom Flighting]&quot; abilitato) Periodi di volo personalizzati entro il [!UICONTROL Flight Dates] specificato in [!UICONTROL Goals & Budget] sezione.
+(Pacchetti con velocità a livello di pacchetto) I periodi di volo del pacchetto, inclusi eventuali periodi di volo personalizzati entro il [!UICONTROL Flight Dates] per il pacchetto. È possibile configurare voli personalizzati solo quando [!UICONTROL Activate Custom Flighting] è abilitata nella [!UICONTROL Goals & Budget] sezione.
 
-Per ogni volo, immettere la data di inizio, la data di fine e l&#39;obiettivo di spesa target. Per aggiungere un altro volo, fai clic su **[!UICONTROL Add Flight]**.
+**[Volo DNL N]:** (disponibile solo quando [!UICONTROL Activate Custom Flighting] (opzione abilitata) Per ogni volo, specifica la data di inizio, la data di fine e l’obiettivo di spesa target. Per aggiungere un altro volo, fai clic su **[!UICONTROL Add Flight]**.
 
 Per i pacchetti esistenti, è possibile inserire un valore nella [!UICONTROL Rollover] per ogni volo per aggiungere al volo successivo un eventuale budget non speso. Il valore proiettato in [!UICONTROL Adjusted Goal (Goal + Rollover)] viene modificata di conseguenza.<!-- clarify usage -->
 
