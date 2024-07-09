@@ -3,9 +3,9 @@ title: Impostazioni pacchetto
 description: Consulta le descrizioni delle impostazioni disponibili per il pacchetto.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 5a173c53bdd0a5673c968b1ebc6348a40e99c80c
+source-git-commit: a8227e42c49e30d6b73daf51e4f62da05f6508f3
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
@@ -38,14 +38,14 @@ ht-degree: 0%
 
 * **[!UICONTROL Placement level pacing]:**  Questa strategia di velocità funziona calcolando il ritmo e riducendo tutti i posizionamenti inclusi *singolarmente*. La best practice prevede di utilizzare questa strategia solo per eseguire transazioni garantite sul mercato privato.
 
-**[!UICONTROL Flight Dates]:** La data di inizio e la data di fine del pacchetto.
-
-Per creare voli non uniformi per il pacchetto, selezionare *[!UICONTROL *Activate Custom Flighting]** e impostare i voli personalizzati nel [!UICONTROL Flighting] sezione successiva. Una volta attivato il riflesso personalizzato e salvato il pacchetto, non è possibile disattivare il riflesso personalizzato.
+**[!UICONTROL Flight Dates]:** La data di inizio e la data di fine generali del pacchetto. Le date del volo devono essere incluse nelle date del volo della campagna.
 
 >[!NOTE]
 >
->* Le date del volo devono essere incluse nelle date del volo della campagna. Inoltre, le date di volo per tutti i posizionamenti assegnati a questo pacchetto devono essere incluse entro tali date.
+>* Le date del volo per tutti i posizionamenti assegnati a questo pacchetto devono essere incluse entro queste date.
 > * Non puoi modificare la data di inizio del pacchetto quando viene attivato il riflesso personalizzato.
+
+**[!UICONTROL *Activate Custom Flighting]:** Consente di creare voli di andata e ritorno non uniformi per il pacchetto nel [!UICONTROL Flighting] sezione successiva. Una volta attivato il riflesso personalizzato e salvato il pacchetto, non è possibile disattivare il riflesso personalizzato né modificare la data di inizio del pacchetto.
 
 **[!UICONTROL Budget]:** (Solo pacchetti con velocità a livello di pacchetto) Limite di budget lordo e intervallo di budget.
 
