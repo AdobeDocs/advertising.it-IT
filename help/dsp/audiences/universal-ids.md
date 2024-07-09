@@ -3,9 +3,9 @@ title: Supporto per l’attivazione di ID universali
 description: Scopri come importare i segmenti ID universali, creare segmenti personalizzati per monitorare gli ID universali e convertire altri identificatori utente nei segmenti di prime parti in ID universali per il targeting senza cookie.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 42cfd98f3ef4145f5ac44e955a9b2f08a698f239
+source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1500'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Utilizza le seguenti best practice per [!DNL RampID]segmenti basati su e segment
 
 * Circa 24 ore dopo l’attivazione di un segmento, controlla il conteggio degli ID convertiti per il segmento in [!UICONTROL Audiences] > [!UICONTROL All Audiences]. Se il conteggio ID non è previsto, contatta il team dell’account Adobe.
 
-  Consulta &quot;[Cause delle varianze di dati tra ID e-mail e ID universali](#universal-ids-data-variances)&quot; per ulteriori informazioni sulle possibili variazioni dei conteggi dei segmenti.
+  Consulta &quot;[Varianze di dati tra ID e-mail e ID universali](#universal-ids-data-variances)&quot; per ulteriori informazioni sulle possibili variazioni dei conteggi dei segmenti.
 
 * Non modificare pacchetti e posizionamenti esistenti. Tuttavia, se non disponi di budget incrementale per testare gli ID universali, riduci i budget originali per finanziare i test.
 
@@ -96,15 +96,21 @@ Utilizza le seguenti best practice per [!DNL RampID]segmenti basati su e segment
 
 * Ricorda che la portata dei segmenti di pubblico autenticati è naturalmente inferiore a quella dei segmenti basati su cookie e che l’utilizzo di opzioni di targeting aggiuntive riduce ulteriormente la portata. Presta attenzione all’utilizzo del targeting granulare, in particolare unendo più target con istruzioni AND.
 
-## Cause delle varianze di dati tra ID e-mail e ID universali {#universal-ids-data-variances}
+## Varianze di dati tra ID e-mail e ID universali {#universal-ids-data-variances}
+
+### Livelli accettabili di varianza
+
+Il tasso di traduzione degli indirizzi e-mail con hash in ID universali deve essere superiore al 90%; il tasso di traduzione per [!DNL RampIDs] in particolare, dovrebbe essere del 95% se tutti gli indirizzi e-mail con hash sono univoci. Ad esempio, se invii 100 indirizzi e-mail con hash dalla piattaforma dati del cliente, questi devono essere tradotti in almeno 95 [!DNL RampIDs] o più di 90 altri tipi di ID universali. Un tasso di traduzione più basso può indicare un problema. Consulta &quot;[Cause della varianza](#universal-ids-data-variances-causes&quot; per eventuali spiegazioni.
+
+Per [!DNL RampIDs], contatta il team dell’account Adobe per ulteriori indagini se i tassi di traduzione sono inferiori al 70%.
+
+### Cause della varianza {#universal-ids-data-variances-causes}
 
 * ID e-mail con hash tradotti in ID5:
 
   Il modello probabilistico ha una varianza di errore di +/- 5%. Ciò significa che può sovrastimare o sottostimare il conteggio del pubblico del 5%.
 
 * ID e-mail con hash tradotti in [!DNL RampIDs]:
-
-  Tasso di traduzione degli indirizzi e-mail con hash in [!DNL RampIDs] deve essere del 95% se tutti gli indirizzi e-mail con hash sono univoci. Per tassi di traduzione inferiori al 70%, contatta il team del tuo account Adobe per ulteriori indagini.
 
    * Quando più profili utilizzano lo stesso ID e-mail, il conteggio dei segmenti DSP può essere inferiore al conteggio dei profili nella piattaforma di dati del cliente. Ad esempio, in Adobe Photoshop puoi creare un account aziendale e un account personale utilizzando un singolo ID e-mail. Ma se entrambi i profili appartengono alla stessa persona, allora i profili vengono mappati su un ID e-mail e in modo corrispondente su uno [!DNL RampID].
 

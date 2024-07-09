@@ -3,9 +3,9 @@ title: Converti ID utente da [!DNL Optimizely] agli ID universali
 description: Scopri come consentire all’DSP di acquisire [!DNL Optimizely] segmenti di prime parti.
 feature: DSP Audiences
 exl-id: 2c48a874-132a-4e5c-ba24-0e7ab80ac2d4
-source-git-commit: 49902a99b78f867dd71c0cd15b97342a70abbc97
+source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ I segmenti devono essere disponibili nell’DSP entro 24 ore. Dopo che l’DSP h
 
 Verifica nella libreria del pubblico (disponibile quando crei o modifichi un pubblico da ) [!UICONTROL Audiences] > [!UICONTROL All Audiences] o nelle impostazioni di posizionamento) che il segmento è disponibile e si sta popolando, quindi confronta il numero di ID universali con il numero di indirizzi e-mail con hash originali.
 
-Il tasso di traduzione degli indirizzi e-mail con hash in ID universali deve essere superiore al 90%; il tasso di traduzione per [!DNL RampIDs] in particolare, dovrebbe essere del 95% se tutti gli indirizzi e-mail con hash sono univoci. Ad esempio, se invii 100 indirizzi e-mail con hash dalla piattaforma dati del cliente, questi devono essere tradotti in almeno 95 [!DNL RampIDs] o più di 90 altri tipi di ID universali. Un tasso di traduzione più basso è un problema. Per ulteriori informazioni sulle possibili variazioni dei conteggi dei segmenti, consulta la sezione &quot;[Cause delle varianze di dati tra ID e-mail e ID universali](#universal-ids-data-variances).&quot;
+Per informazioni sui tassi accettabili di traduzione degli ID e sul perché i conteggi dei segmenti possono variare, consulta la sezione &quot;[Varianze di dati tra ID e-mail e ID universali](#universal-ids-data-variances).&quot;
 
 Per assistenza nella risoluzione dei problemi, contatta il team del tuo account di Adobe oppure `adcloud-support@adobe.com`.
 
