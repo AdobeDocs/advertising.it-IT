@@ -2,9 +2,9 @@
 title: "Converti ID utente da [!DNL ActionIQ] agli ID universali"
 description: "Scopri come consentire all’DSP di acquisire [!DNL ActionIQ] segmenti di prime parti."
 feature: DSP Audiences
-source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
+source-git-commit: 91b08bf54f067666c9c27949ff740639738887d0
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -27,20 +27,21 @@ Ci sono <!-- NN --> passaggi per condividere i dati da [!DNL ActionIQ] con DSP:
 
 1. Dopo aver creato l&#39;origine del pubblico, condividi la chiave del codice sorgente con [!DNL ActionIQ] utente.
 
-1. 
-   <!-- ActionIQ-specific step(s) -->
+## Passaggio 2:
+
+## Passaggio 3:
 
 1. Verifica nella libreria del pubblico (disponibile quando crei o modifichi un pubblico da ) [!UICONTROL Audiences] > [!UICONTROL All Audiences] o nelle impostazioni di posizionamento) che il segmento si sta popolando e confrontare il numero di ID universali con il numero di indirizzi e-mail con hash originali.
 
-   I segmenti devono essere disponibili nell’DSP entro 24 ore. Dopo che l’DSP ha ricevuto i dati del segmento, il conteggio del pubblico dovrebbe essere visibile entro nove (9) ore.
-
-   Per informazioni sui tassi accettabili di traduzione degli ID e sul perché i conteggi dei segmenti possono variare, consulta la sezione &quot;[Varianze di dati tra ID e-mail e ID universali](#universal-ids-data-variances).&quot;
-
-   Per assistenza nella risoluzione dei problemi, contatta il team del tuo account di Adobe oppure `adcloud-support@adobe.com`.
+   I segmenti devono essere disponibili nell’DSP entro 24 ore. Dopo che l’DSP ha ricevuto i dati del segmento, il conteggio del pubblico dovrebbe essere visibile entro nove (9) ore. Per informazioni sui tassi accettabili di traduzione degli ID e sul perché i conteggi dei segmenti possono variare, consulta la sezione &quot;[Varianze di dati tra ID e-mail e ID universali](#universal-ids-data-variances).&quot;
 
 I segmenti vengono aggiornati ogni 24 ore.
 
-## Passaggio 2:
+## Risoluzione dei problemi
+
+Per risolvere i problemi relativi al tasso di traduzione e al conteggio degli utenti, vedi &quot;[Supporto per l’attivazione di ID universali](/help/dsp/audiences/universal-ids.md).&quot;
+
+Per risolvere i problemi relativi alla procedura di conversione, contatta il team dell’account Adobe oppure `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >
