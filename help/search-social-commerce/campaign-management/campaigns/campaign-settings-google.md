@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] impostazioni della campagna'
 description: Fai riferimento alle impostazioni per [!DNL Google Ads] campagne.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: fd5a78a0eb2982ee85ca2d2b6a3cd79a0821d965
+source-git-commit: 977314f07d1299d9b94680861b046161bb444228
 workflow-type: tm+mt
-source-wordcount: '2424'
+source-wordcount: '2450'
 ht-degree: 0%
 
 ---
@@ -359,13 +359,9 @@ Per creare un obiettivo di conversione personalizzato, fai clic su **[!UICONTROL
 
 >[!TIP]
 >
->Per le campagne in portfolio ibridi per le quali carichi gli obiettivi nella rete di annunci, la best practice è quella di utilizzare obiettivi a livello di campagna che corrispondono agli obiettivi di conversione nell’obiettivo del portfolio. Tuttavia, se gli obiettivi della campagna includono [!DNL Google]-ha tracciato le conversioni, quindi le ha aggiunte all’interno del [!DNL Google Ads] perché non vengono caricati nuovamente sulla rete di annunci con l’obiettivo. Inoltre, all&#39;interno del [!DNL Google Ads] , rimuovi le azioni di conversione della campagna come obiettivi predefiniti dell’account contrassegnandole come obiettivi secondari (non primari).
-
-<!-- Check on this:
->If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.
+>Se la campagna fa parte di un portfolio ibrido, la best practice consiste nell’utilizzare obiettivi a livello di campagna che corrispondono agli obiettivi di conversione nell’obiettivo del portfolio; l’inclusione di obiettivi di conversione aggiuntivi può influire sulle prestazioni del portfolio.
 >
->The objective may include conversion goals or other conversions that aren't included for the campaign, but the campaign can't include conversion goals that aren't included in the objective.
--->
+>Tuttavia, per le campagne in portfolio ibridi per cui [carica obiettivi nella rete di annunci](/help/search-social-commerce/tools/objective-upload-to-networks.md), effettua le seguenti operazioni nell’editor del network pubblicitario invece che qui: a) aggiungi la metrica di obiettivo del portfolio Search, Social e Commerce caricata (che inizia con &quot;O_ACS_OBJ&quot;) come azione di conversione per la campagna; e b) aggiungi eventuali obiettivi della campagna che includono [!DNL Google]Conversioni tracciate da, perché le metriche tracciate dalla rete di annunci non vengono caricate nella rete di annunci con l’obiettivo.
 
 >[!MORELIKETHIS]
 >
