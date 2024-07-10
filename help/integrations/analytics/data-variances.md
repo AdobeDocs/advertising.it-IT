@@ -3,9 +3,9 @@ title: Varianze di dati previste tra [!DNL Analytics] e ADOBE ADVERTISING
 description: Varianze di dati previste tra [!DNL Analytics] e ADOBE ADVERTISING
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 1f27738d383c8c420155d6d12c98c646bba7d7b4
+source-git-commit: e1c1d43c7fe5f44e34ada7dee09afd77f1b3f305
 workflow-type: tm+mt
-source-wordcount: '3360'
+source-wordcount: '3358'
 ht-degree: 0%
 
 ---
@@ -154,10 +154,10 @@ Il [!DNL Paid Search Detection] i rapporti ti consentono di identificare il traf
 
 Ai fini dell’integrazione, è necessario convalidare i dati di click-through per assicurarsi che tutte le pagine del sito tengano correttamente traccia dei click-through.
 
-In entrata [!DNL Analytics], uno dei modi più semplici per convalidare [!DNL Analytics for Advertising] Il tracciamento consiste nel confrontare le istanze con i clic utilizzando una metrica calcolata &quot;Istanze AMO ID per clic Adobi Advertising&quot;, calcolata come segue:
+In entrata [!DNL Analytics], uno dei modi più semplici per convalidare [!DNL Analytics for Advertising] Il tracciamento consiste nel confrontare le istanze con i clic utilizzando una metrica calcolata &quot;Istanze AMO ID con clic&quot;, calcolata come segue:
 
 ```
-AMO ID Instances to Adobe Advertising Clicks = ([!UICONTROL AMO ID Instances] / [!UICONTROL Adobe Advertising Clicks])
+AMO ID Instances to Clicks = ([!UICONTROL AMO ID Instances] / [!UICONTROL Adobe Advertising Clicks])
 ```
 
 [!UICONTROL AMO ID Instances] rappresenta il numero di volte che [AMO ID](ids.md) vengono tracciati sul sito. Ogni volta che si fa clic su un annuncio, viene visualizzato un AMO ID (`s_kwcid`) all’URL della pagina di destinazione. Il numero di [!UICONTROL AMO ID Instances], pertanto, è simile al numero di clic e può essere convalidato in base ai clic effettivi sugli annunci. In genere viene visualizzata una percentuale di corrispondenza dell’85% per [!DNL Search, Social, & Commerce] e una percentuale di corrispondenza del 30% per [!DNL DSP] traffico (se filtrato per includere solo il click-through [!UICONTROL AMO ID Instances]). La differenza nelle aspettative tra ricerca e visualizzazione può essere spiegata dal comportamento di traffico previsto. La ricerca acquisisce l’intento e, come tale, gli utenti in genere intendono fare clic sui risultati della ricerca dalla propria query. Tuttavia, gli utenti che visualizzano un annuncio video display o online hanno più probabilità di fare clic sull’annuncio involontariamente e quindi di eseguire un rimbalzo dal sito o di abbandonare la nuova finestra che viene caricata prima che l’attività della pagina venga tracciata.
@@ -165,7 +165,7 @@ AMO ID Instances to Adobe Advertising Clicks = ([!UICONTROL AMO ID Instances] / 
 Nei rapporti di Adobe Advertising, puoi confrontare in modo simile le istanze con i clic utilizzando l’&quot;[!UICONTROL EF ID Instances]&quot; metrica invece di [!UICONTROL AMO ID Instances]:
 
 ```
-EF ID Instances to Adobe Advertising Clicks = ([!UICONTROL EF ID Instances] / [!UICONTROL Adobe Advertising Clicks])
+EF ID Instances to Clicks = ([!UICONTROL EF ID Instances] / [!UICONTROL Adobe Advertising Clicks])
 ```
 
 Anche se è previsto un tasso di corrispondenza elevato tra AMO ID e EF ID, non aspettarti una parità del 100% perché AMO ID e EF ID tengono traccia fondamentalmente di dati diversi e questa differenza può portare a lievi differenze nel totale [!UICONTROL AMO ID Instances] e [!UICONTROL EF ID Instances]. Se il totale [!UICONTROL AMO ID Instances] in [!DNL Analytics] differire da [!UICONTROL EF ID Instances] in Adobe Advertising di oltre l’1%, tuttavia, contatta il team del tuo account Adobe per assistenza.
@@ -181,7 +181,7 @@ The following is an example of a workspace to track clicks to instances.
 
 ### Risoluzione dei problemi di disparità tra clic e istanze
 
-Se il [!UICONTROL EF ID Instances]-a-[!UICONTROL Adobe Advertising Clicks] il rapporto è inferiore all’85%, quindi verifica quanto segue:
+Se il [!UICONTROL EF ID Instances]Il rapporto tra -e-clic è inferiore all’85%, quindi verifica quanto segue:
 
 * Ti manca il tracciamento dei clic per l’account o a qualsiasi livello secondario, oppure è presente il tracciamento dei clic duplicato (ad esempio, a livello di account e di campagna)?
 
