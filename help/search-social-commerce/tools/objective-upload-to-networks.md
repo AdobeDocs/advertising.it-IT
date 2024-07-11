@@ -3,9 +3,9 @@ title: Abilita il caricamento degli obiettivi nelle reti di annunci
 description: Scopri come caricare gli obiettivi per i portfolio ibridi in [!DNL Google Ads] e [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 39936c6834012432447d3216d8463937996b0017
+source-git-commit: aaad3eb6cd33f4342c46ffb244227a00fbcb4e44
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Search, Social e Commerce possono caricare gli obiettivi per i portfolio di un a
 
 L’abilitazione di questa opzione attiva automaticamente un caricamento per gli obiettivi nei portfolio che contengono campagne con strategie di offerta intelligenti. Search, Social e Commerce creano una conversione sulla rete di annunci per ogni obiettivo applicabile. La conversione rappresenta tutte le metriche di conversione ponderate nell’obiettivo a livello di ID EF (click ID). Per [!DNL Google Ads] clic, l&#39;ID EF è il [!DNL Google Ads] `gclid`; per [!DNL Microsoft Advertising] clic, l&#39;ID EF è il [!DNL Microsoft Advertising] `msclkid`. A causa di questo ID clic, i dati di conversione possono essere mappati sulla parola chiave specifica e sul tempo di clic.
 
-Ogni conversione caricata ha uno dei seguenti nomi:
+Ciascuna conversione caricata ha uno dei seguenti nomi:
 
 * `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`
 
@@ -56,7 +56,7 @@ Carica in [!DNL Google Ads] si verifica ogni giorno alle 06:00 nel fuso orario d
 
 ## Modalità di calcolo dell&#39;obiettivo ponderato
 
-L’obiettivo ponderato passato alla rete di annunci è la somma di tutti i valori delle metriche raccolti, ad eccezione delle conversioni tracciate da [!DNL Google Ads] o dal [!DNL Microsoft Advertising] tag di tracciamento degli eventi universali (UET).
+L’obiettivo ponderato passato alla rete di annunci è la somma di tutti i valori delle metriche raccolti, ad eccezione delle conversioni tracciate da [!DNL Google Ads] o dal [!DNL Microsoft Advertising] tag di tracciamento degli eventi universali (UET). Il valore viene calcolato utilizzando il metodo di attribuzione impostato per l’account Search, Social e Commerce dell’inserzionista.
 
 Ad esempio, supponiamo che la metrica di obiettivo dell’obiettivo sia Aggiunte al carrello con un peso di 25, e che le metriche di assistenza includano GGL_Lead e Revenue con un peso di 1 e Downloads con un peso di 0,5.
 
@@ -70,6 +70,12 @@ Supponiamo che una parola chiave abbia prodotto le seguenti azioni per il portfo
 * 5 GGL_Lead
 
 GGL_Lead non è incluso nel calcolo/caricamento perché è una metrica tracciata da Google Ads. Pertanto il valore obiettivo ponderato è calcolato come [(10 x 25) + (500 x 1) + (50 x 0,5)] = 775.
+
+>[!TIP]
+>
+>Puoi visualizzare i dati per gli Adobi Advertising di ricavi ponderati nei rapporti della rete di annunci. Come best practice, confronta i ricavi ponderati con [!DNL Google Ads] &quot;Tutte le conv. (di conv. tempo)&quot; o la [!DNL Microsoft Advertising] metrica &quot;All conv. revenue&quot;, segmentato con la metrica O_ACS_OBJ*.<!--clarify -->
+
+nell’editor del network pubblicitario
 
 ## Risoluzione dei problemi relativi agli obiettivi mancanti
 
