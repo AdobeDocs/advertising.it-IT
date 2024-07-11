@@ -3,9 +3,9 @@ title: Obiettivi personalizzati
 description: Scopri gli obiettivi personalizzati per definire gli eventi di successo in pacchetti ottimizzati per il CPA più basso o il ROAS più alto.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: ef732108b248995a6b321e991fa122caaa40e2fe
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1229'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,13 @@ Gli obiettivi personalizzati definiscono gli eventi di successo necessari a un i
 ![custom goals](/help/dsp/assets/objective-goals.png)
  -->
 
-Ogni obiettivo personalizzato è costituito da una o più metriche di conversione e dai relativi pesi di tali metriche. Le metriche di conversione disponibili includono tutte le metriche tracciate utilizzando il pixel di conversione di Adobi Advertising e tramite Adobe Analytics.
+Ogni obiettivo personalizzato (obiettivo) è costituito da una o più metriche di conversione e dai relativi pesi di tali metriche. Solo i pesi non mobili sono considerati per gli obiettivi personalizzati dell’DSP. Le metriche di conversione disponibili includono tutte le metriche tracciate utilizzando il pixel di conversione di Adobe Advertising e tramite Adobe Analytics.
 
 Ad esempio, supponiamo che tre metriche di conversione siano pertinenti per un pacchetto specifico in una delle tue campagne: &quot;Download PDF&quot; con valore 20 USD, &quot;Registrazione e-mail&quot; con valore 30 USD e &quot;Conferma ordine&quot; con valore 40 USD. Se vuoi attribuire un peso in base al valore monetario una tantum dell’azione del cliente, i pesi relativi delle metriche sono 1, 1,5 e 2.
 
 Una volta [creare un obiettivo personalizzato](#custom-goal-create), è possibile [assegnarlo a un pacchetto](/help/dsp/campaign-management/packages/package-settings.md) per il reporting e l’ottimizzazione algoritmica tramite Adobe Sensei.
+
+I consigli sul peso vengono generati automaticamente per le metriche attribuite dall’DSP negli obiettivi e possono essere applicati con un solo clic. Tutte le modifiche di peso agli obiettivi con il prefisso &quot;ADSP_&quot; vengono applicate algoritmicamente all&#39;DSP entro due giorni. Per ulteriori informazioni sui consigli sul peso, consulta il capitolo della Guida all’ottimizzazione su &quot;Nuovi obiettivi (Beta)&quot;, disponibile in Search, Social e Commerce.
 
 ## Creare un obiettivo personalizzato {#custom-goal-create}
 
@@ -49,14 +51,20 @@ Per creare un obiettivo personalizzato, l’account DSP deve essere collegato a 
 
    1. Nella barra degli strumenti, fai clic su ![Crea](/help/dsp/assets/create-search-ui.png "Crea").
 
-   1. Immetti le impostazioni dell&#39;obiettivo, incluse le metriche associate e il relativo peso numerico per dispositivi non mobili e dispositivi mobili, quindi salva l&#39;obiettivo.
+   1. Immettere le impostazioni dell&#39;obiettivo, incluse le metriche associate e il relativo peso numerico per i dispositivi non mobili, quindi salvare l&#39;obiettivo. Considera quanto segue:
 
-      Almeno una metrica deve avere il tipo di metrica *[!UICONTROL Goal]*.
+      * Per gli obiettivi utilizzati per i pacchetti Advertising DSP, il nome dell’obiettivo deve essere preceduto da &quot;ADSP_&quot;, ad esempio &quot;ADSP_Registrations&quot;. Il prefisso non fa distinzione tra maiuscole e minuscole.
+
+      * Includi solo le metriche attribuite all’DSP. Tutte le metriche attribuite a Search, Social e Commerce o a qualsiasi altra rete di annunci vengono ignorate.
+
+      * Almeno una metrica deve avere il tipo di metrica *[!UICONTROL Goal]*.
+
+      * L’DSP utilizza i pesi non mobili per tutti gli annunci. Eventuali pesi dei dispositivi mobili specificati vengono ignorati.
 
       >[!NOTE]
       >
       >* [!DNL Analytics] gli eventi personalizzati seguono questa convenzione di denominazione: `custom_event_[*event #*]_[*Analytics report suite ID*]`. Esempio: `custom_event_16_examplersid`
-      >* [!DNL Analytics] dimensioni e segmenti non sono disponibili per l’ottimizzazione di Adobi Advertising.
+      >* [!DNL Analytics] dimensioni e segmenti non sono disponibili per l’ottimizzazione di Adobe Advertising.
 
       >[!TIP]
       >
