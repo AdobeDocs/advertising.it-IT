@@ -3,7 +3,7 @@ title: Impostazioni pacchetto
 description: Consulta le descrizioni delle impostazioni disponibili per il pacchetto.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 9a7d73a281dba1331f00dd9ff75fafdc057413d0
+source-git-commit: ab3118901b7cd88776f7c0ce8038b928118a7555
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 >* Le date del volo per tutti i posizionamenti assegnati a questo pacchetto devono essere incluse entro queste date.
 > * Non puoi modificare la data di inizio del pacchetto quando viene attivato il riflesso personalizzato.
 
-**[!UICONTROL *Activate Custom Flighting]:** Consente di creare voli di andata e ritorno non uniformi per il pacchetto nel [!UICONTROL Flighting] sezione successiva. Una volta attivato il riflesso personalizzato e salvato il pacchetto, non è possibile disattivare il riflesso personalizzato né modificare la data di inizio del pacchetto.
+**[!UICONTROL Activate Custom Flighting]:** Consente di creare voli di andata e ritorno non uniformi per il pacchetto nel [!UICONTROL Flighting] sezione successiva. Una volta attivato il riflesso personalizzato e salvato il pacchetto, non è possibile disattivare il riflesso personalizzato né modificare la data di inizio del pacchetto.
 
 **[!UICONTROL Budget]:** (Solo pacchetti con velocità a livello di pacchetto) Limite di budget lordo e intervallo di budget.
 
