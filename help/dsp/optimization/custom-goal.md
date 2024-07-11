@@ -3,23 +3,23 @@ title: Obiettivi personalizzati
 description: Scopri gli obiettivi personalizzati per definire gli eventi di successo in pacchetti ottimizzati per il CPA più basso o il ROAS più alto.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: ef732108b248995a6b321e991fa122caaa40e2fe
+source-git-commit: 42fca0c829c708281703a6a1ea59c42dc7ac9f0d
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
 
 # Obiettivi personalizzati
 
-Gli obiettivi personalizzati definiscono gli eventi di successo necessari a un inserzionista per raggiungere i suoi obiettivi aziendali. Ogni pacchetto che utilizza l’obiettivo di ottimizzazione &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] o &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; deve includere un obiettivo personalizzato per aiutare a raggiungere l’obiettivo di ottimizzazione generale. Puoi creare obiettivi personalizzati con *obiettivi* in [!DNL Advertising Search, Social, & Commerce].
+Gli obiettivi personalizzati definiscono gli eventi di successo necessari a un inserzionista per raggiungere i suoi obiettivi aziendali. Ogni pacchetto che utilizza l’obiettivo di ottimizzazione &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] o &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; deve includere un obiettivo personalizzato per aiutare a raggiungere l’obiettivo di ottimizzazione generale. Puoi creare obiettivi personalizzati con *obiettivi* in [!DNL Advertising Search, Social, & Commerce]. Il nome di ciascun obiettivo per l&#39;DSP deve essere preceduto dal prefisso &quot;ADSP_&quot;.
 
 <!-- update image or omit it
 
 ![custom goals](/help/dsp/assets/objective-goals.png)
  -->
 
-Ogni obiettivo personalizzato (obiettivo) è costituito da una o più metriche di conversione e dai relativi pesi di tali metriche. Solo i pesi non mobili sono considerati per gli obiettivi personalizzati dell’DSP. Le metriche di conversione disponibili includono tutte le metriche tracciate utilizzando il pixel di conversione di Adobe Advertising e tramite Adobe Analytics.
+Ogni obiettivo personalizzato (obiettivo) è costituito da una o più metriche di conversione e dai relativi pesi di tali metriche. Le metriche di conversione disponibili includono tutte le metriche tracciate utilizzando il pixel di conversione di Adobe Advertising e tramite Adobe Analytics. Per gli obiettivi personalizzati dell’DSP vengono considerati solo i pesi non mobili, ma vengono utilizzati per tutti i tipi di annunci.
 
 Ad esempio, supponiamo che tre metriche di conversione siano pertinenti per un pacchetto specifico in una delle tue campagne: &quot;Download PDF&quot; con valore 20 USD, &quot;Registrazione e-mail&quot; con valore 30 USD e &quot;Conferma ordine&quot; con valore 40 USD. Se vuoi attribuire un peso in base al valore monetario una tantum dell’azione del cliente, i pesi relativi delle metriche sono 1, 1,5 e 2.
 
