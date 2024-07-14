@@ -3,9 +3,9 @@ title: Provider di dati di terze parti disponibili in Advertising DSP
 description: Visualizza un elenco di tutti i provider di dati di terze parti disponibili.
 feature: DSP Audiences
 exl-id: 081d1513-b105-4d32-a98c-145c7122cb89
-source-git-commit: 95da7e35150a8f6e55e33539e04804c1f2ac4fb4
+source-git-commit: 8921023b03865e73f71f49d320e092070035ecce
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Le categorie di dati e i segmenti per i seguenti fornitori di dati di terze part
 La tariffa per l’utilizzo di ciascun segmento viene visualizzata accanto al nome del segmento nelle impostazioni di posizionamento e nelle impostazioni relative al pubblico salvato.
 
 * [!DNL Adsquare]
-* [!DNL Audiences by Oracle (BlueKai)]
+* [!DNL Audiences by Oracle (BlueKai)] (da ritirarsi il 30 settembre 2024)
 * [!DNL digitalAudience]
 * [!DNL DLX Mobile]
 * [!DNL eXelate] ([!DNL Nielsen])
@@ -37,7 +37,6 @@ La tariffa per l’utilizzo di ciascun segmento viene visualizzata accanto al no
 * [!DNL TailTarget]
 * [!DNL Tapfwd]
 * [!DNL TruSignal]
-* [!DNL TubeMogul Performance Audiences]
 * [!DNL Weborama]
 * [!DNL Zeotap]
 
@@ -46,5 +45,5 @@ Per ulteriori informazioni sull’importazione di segmenti personalizzati di ter
 >[!MORELIKETHIS]
 >
 >* [Informazioni su Gestione dell&#39;audience](audience-about.md)
->* [Creare un pubblico riutilizzabile](reusable-audience-create.md)
+>* [Crea un pubblico riutilizzabile](reusable-audience-create.md)
 >* [Impostazioni pubblico](audience-settings.md)
