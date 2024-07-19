@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Yandex] keyword settings"'
-description: Fai riferimento alle impostazioni per [!DNL Yandex] parole chiave.
-exl-id: 276f991b-f604-445c-8dd0-481b6eaee3d2
+title: '[!DNL Yandex] impostazioni parola chiave'
+description: Fai riferimento alle impostazioni per  [!DNL Yandex]  parole chiave.
+exl-id: 973be0df-9b3c-4f33-b48b-ef1db4ab35da
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
 
-# [!DNL Yandex] impostazioni delle parole chiave
+# [!DNL Yandex] impostazioni parola chiave
 
 Le parole chiave Yandex vengono utilizzate sia per le reti di ricerca che per quelle di visualizzazione (contenuto).
 
@@ -18,16 +18,16 @@ Le parole chiave Yandex vengono utilizzate sia per le reti di ricerca che per qu
 
 ## [!UICONTROL Keyword Details]
 
-**[!UICONTROL Keywords]:** Le frasi delle parole chiave, comprese [Sintassi del tipo di corrispondenza Yandex](https://yandex.com/support/direct/keywords/symbols-and-operators.html) per parole chiave. Ogni parola chiave può avere un massimo di sette parole, escluse le parole non significative.
+**[!UICONTROL Keywords]:** Le frasi delle parole chiave, inclusa qualsiasi sintassi di tipo [Yandex](https://yandex.com/support/direct/keywords/symbols-and-operators.html) per le parole chiave. Ogni parola chiave può avere un massimo di sette parole, escluse le parole non significative.
 
 È possibile immettere o incollare fino a 2.000 parole chiave. Separare più parole chiave con virgole o immetterle su righe separate.
 
 >[!NOTE]
 >
->* Modifica di un [!DNL Yandex] parola chiave o tipo corrispondenza elimina la parola chiave esistente e ne crea una nuova.
+>* Se si modifica una parola chiave o un tipo di corrispondenza [!DNL Yandex], la parola chiave esistente verrà eliminata e ne verrà creata una nuova.
 >* Ogni gruppo di annunci Yandex può includere un massimo di 200 parole chiave.
 
-**[!UICONTROL Status]:** Stato di visualizzazione della parola chiave: *Attivo* o *In pausa*. Il valore predefinito per le nuove parole chiave è *Attivo*.
+**[!UICONTROL Status]:** Lo stato di visualizzazione della parola chiave: *Attivo* o *In pausa*. Il valore predefinito per le nuove parole chiave è *Active*.
 
 ## [!UICONTROL Bids]
 
@@ -37,10 +37,10 @@ Le parole chiave Yandex vengono utilizzate sia per le reti di ricerca che per qu
 
 ## Segnaposto
 
-**[!UICONTROL Param1]** **[!UICONTROL Param2]:** Il valore della proprietà `{param1}` e `{param2}` variabili di sostituzione, sostituite per qualsiasi istanza di {param1} e {param2} nell’URL di base per annunci e sitelink quando la parola chiave viene utilizzata per visualizzare l’annuncio. La lunghezza massima è di 255 byte.
+**[!UICONTROL Param1]** **[!UICONTROL Param2]:** Il valore delle variabili di sostituzione `{param1}` e `{param2}`, che vengono sostituite per eventuali istanze di {param1} e {param2} nell&#39;URL di base per annunci e sitelink quando la parola chiave viene utilizzata per visualizzare l&#39;annuncio. La lunghezza massima è di 255 byte.
 
-I caratteri speciali vengono codificati automaticamente in UTF-8. Ad esempio, se l’annuncio associato ha un URL di base &quot;http://www.example.com/{param1} e il valore a livello di parola chiave di {param1} è &quot;shoes/flats.html&quot;, quindi l’annuncio conduce a http://www.example.com/shoes%2Fflats.html.
+I caratteri speciali vengono codificati automaticamente in UTF-8. Ad esempio, se l&#39;annuncio associato ha un URL di base &quot;http://www.example.com/{param1} e il valore a livello di parola chiave {param1} è &quot;shoes/flats.html&quot;, l&#39;annuncio conduce a http://www.example.com/shoes%2Fflats.html.
 
 >[!MORELIKETHIS]
 >
->* [Gestire le parole chiave](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
+>* [Gestisci parole chiave](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)

@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # Campo Data di fine in alcune impostazioni della campagna e del gruppo di annunci di MS
 
-**[!UICONTROL End date]:** L&#39;ultima data utile per la presentazione delle offerte. Il valore predefinito è *Nessuna data di fine*. Per inviare le offerte fino a una data specificata, inserisci una data in formato MM/GG/AAAA oppure fai clic su ![Calendario](/help/search-social-commerce/assets/calendar.png) e seleziona una data.
+**[!UICONTROL End date]:** L&#39;ultima data in cui è possibile fare offerte. Il valore predefinito è *Nessuna data di fine*. Per inviare le offerte fino a una data specificata, immettere una data nel formato MM/GG/AAAA oppure fare clic su ![Calendario](/help/search-social-commerce/assets/calendar.png) e selezionare una data.

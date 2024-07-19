@@ -18,33 +18,32 @@ Puoi interrompere la condivisione di un accordo con gli account per rimuovere le
 
 >[!NOTE]
 >
-> È inoltre possibile [modifica i singoli inserzionisti con accesso all&#39;account](deal-id-edit-advertisers.md).
+> Puoi anche [modificare i singoli inserzionisti con accesso all&#39;account](deal-id-edit-advertisers.md).
 
 ## Condividere un ID offerta con gli account
 
-1. Nel menu principale, fai clic su **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
-1. Nella riga dell’offerta, fai clic su **[!UICONTROL ...]** > **[!UICONTROL Share]**.
+1. Nella riga dell&#39;offerta, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Share]**.
 
 1. Per ogni account da condividere:
 
-   1. Inserisci il **[!UICONTROL Email Address]** per l’account con accesso all’offerta.
+   1. Immettere **[!UICONTROL Email Address]** per l&#39;account con accesso all&#39;offerta.
 
-   1. Clic **[!UICONTROL Share]**.
+   1. Fare clic su **[!UICONTROL Share]**.
 
 ## Interrompere la condivisione di un ID offerta con gli account
 
-1. Nel menu principale, fai clic su **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
-1. Nella riga dell’offerta, fai clic su **[!UICONTROL ...]** > **[!UICONTROL Share]**.
+1. Nella riga dell&#39;offerta, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Share]**.
 
-1. Accanto al [!UICONTROL Account Email] valore, fai clic su **[!UICONTROL Unshare].**
+1. Accanto al valore [!UICONTROL Account Email], fare clic su **[!UICONTROL Unshare].**
 
-1. Clic **[!UICONTROL Cancel]** per chiudere la finestra.
+1. Fare clic su **[!UICONTROL Cancel]** per chiudere la finestra.
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sull’inventario privato](private-inventory-about.md)
->* [Modificare gli inserzionisti con accesso a un ID offerta](/help/dsp/inventory/deal-id-edit-advertisers.md)
+>* [Informazioni Sull&#39;Inventario Privato](private-inventory-about.md)
+>* [Modifica gli inserzionisti con accesso a un ID offerta](/help/dsp/inventory/deal-id-edit-advertisers.md)
 >* [Impostazioni ID offerta manuale](deal-id-settings.md)
-

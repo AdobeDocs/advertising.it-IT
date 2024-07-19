@@ -16,16 +16,15 @@ Puoi recuperare rapporti mensili sugli ID inviati dai clienti per richieste di r
 
 >[!NOTE]
 >
->Facoltativamente, puoi recuperare i rapporti di rifiuto del consumatore utilizzando l’DSP [!DNL Trafficking API]. Per istruzioni, consulta la documentazione di [!DNL Trafficking API]. Se la tua organizzazione non utilizza [!DNL Trafficking API] ma è interessato a ulteriori informazioni, contatta il tuo Adobe Account Team.
+>Se lo si desidera, è possibile recuperare i report di rifiuto del consumatore utilizzando l&#39;DSP [!DNL Trafficking API]. Per istruzioni, vedere la documentazione di [!DNL Trafficking API]. Se la tua organizzazione non utilizza [!DNL Trafficking API] ma è interessata a ulteriori informazioni, contatta il team del tuo account Adobe.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
-1. Sopra l’elenco dei segmenti, fai clic su **[!UICONTROL Access CCPA Reports]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
+1. Sopra l&#39;elenco dei segmenti, fare clic su **[!UICONTROL Access CCPA Reports]**.
 1. Fai clic sul collegamento per qualsiasi rapporto mensile disponibile per scaricare un file GZIP, che puoi estrarre in un file di testo separato da tabulazioni.
 
 >[!MORELIKETHIS]
 >
->* [Adobe di supporto per la pubblicità per il California Consumer Privacy Act: supporto per la rinuncia del consumatore](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
->* [Informazioni su [!UICONTROL CCPA Opt-out-of-Sale] Segmenti e rapporti](ccpa-opt-out-about.md)
->* [Creare e implementare un [!UICONTROL CCPA Opt-Out-of-Sale] Segmento](ccpa-opt-out-segment-create.md)
+>* [Supporto di Adobe Advertising per il California Consumer Privacy Act: Consumer Opt-out Support](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
+>* [Informazioni su [!UICONTROL CCPA Opt-out-of-Sale] segmenti e report](ccpa-opt-out-about.md)
+>* [Crea e implementa un segmento [!UICONTROL CCPA Opt-Out-of-Sale]](ccpa-opt-out-segment-create.md)
 >* [Informazioni su Gestione dell&#39;audience](audience-about.md)
-

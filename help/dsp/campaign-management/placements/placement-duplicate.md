@@ -21,29 +21,29 @@ Duplica uno o più posizionamenti per creare posizionamenti con impostazioni sim
 * (Per i posizionamenti duplicati all’interno delle campagne originali) Duplica facoltativamente gli annunci originali
 * Modificare lo stato e le date del volo dei nuovi posizionamenti
 
-Consulta &quot;[Non duplicato](#placement-not-duplicated)&quot; per un elenco di impostazioni di posizionamento che non sono duplicate.
+Consulta &quot;[Elementi non duplicati](#placement-not-duplicated)&quot; per un elenco delle impostazioni di posizionamento che non sono duplicate.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 
 1. Fai clic sul nome della campagna.
 
-1. Nel sottomenu, fai clic su **[!UICONTROL Placements]**.
+1. Nel sottomenu fare clic su **[!UICONTROL Placements]**.
 
 1. Effettuare una delle seguenti operazioni:
 
-   * Per duplicare un posizionamento, fate clic su  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]** accanto al nome del pacchetto.
+   * Per duplicare un posizionamento, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Duplicate]** accanto al nome del pacchetto.
 
    * Per duplicare più posizionamenti:
 
       1. Selezionate la casella di controllo accanto a ciascun posizionamento da duplicare.
 
-      1. Nella barra degli strumenti Azioni in blocco, fai clic su **[!UICONTROL Duplicate]**.
+      1. Nella barra degli strumenti Azioni in blocco fare clic su **[!UICONTROL Duplicate]**.
 
 1. Specificare le nuove impostazioni di posizionamento:
 
    1. (Posizionamenti singoli) Inserisci il nuovo nome del posizionamento.
 
-   1. In **[!UICONTROL Choose Package (Required)]** selezionare il pacchetto principale o il **[!UICONTROL No package]*.
+   1. Nel menu **[!UICONTROL Choose Package (Required)]**, selezionare il pacchetto padre o **[!UICONTROL No package]*.
 
    1. (Facoltativo) Modifica le impostazioni predefinite.
 
@@ -51,9 +51,9 @@ Consulta &quot;[Non duplicato](#placement-not-duplicated)&quot; per un elenco di
 
    Per impostazione predefinita, i nuovi posizionamenti sono per il tipo di annuncio originale, sono assegnati agli inserzionisti e alle campagne originali, hanno programmi di volo che iniziano il giorno corrente, sono sospesi e non includono gli annunci originali.
 
-   Quando si creano più posizionamenti, ai nuovi nomi di posizionamento viene aggiunto un numero, in sequenza, utilizzando la convenzione &lt;*#N original_placement_name*>, ad esempio &quot;My Placement #2.&quot; (Il mio posizionamento)
+   Quando crei più posizionamenti, ai nuovi nomi di posizionamento viene aggiunto un numero, in sequenza, utilizzando la convenzione &lt;*original_placement_name #N*>, ad esempio &quot;My Placement #2.&quot;
 
-1. Clic **[!UICONTROL Submit]**.
+1. Fare clic su **[!UICONTROL Submit]**.
 
 ## Non duplicato {#placement-not-duplicated}
 
@@ -67,12 +67,12 @@ Tutte le impostazioni dei posizionamenti originali vengono duplicate, tranne:
    * Destinazioni geografiche
    * Pixel evento
    * Annunci
-   * Livello di posizionamento [!DNL DoubleVerify Authentic Brand Safety] segmenti (che sostituiscono i segmenti a livello di inserzionista)
+   * Segmenti [!DNL DoubleVerify Authentic Brand Safety] a livello di posizionamento (che sostituiscono i segmenti a livello di inserzionista)
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulla gestione del posizionamento](placement-about.md)
->* [Creare un posizionamento](placement-create.md)
+>* [Crea un posizionamento](placement-create.md)
 >* [Modifica posizionamenti](placement-edit.md)
->* [Visualizzare il log delle modifiche per un posizionamento](placement-change-log.md)
->* [Impostazioni di posizionamento](placement-settings.md)
+>* [Visualizza il log delle modifiche per un posizionamento](placement-change-log.md)
+>* [Impostazioni posizionamento](placement-settings.md)

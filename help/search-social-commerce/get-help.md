@@ -15,27 +15,27 @@ ht-degree: 0%
 
 ## Apri Guida in linea
 
-* Per visualizzare una descrizione di un termine con un&#39;icona di aiuto adiacente (![Icona Aiuto](/help/search-social-commerce/assets/help-field.png "Icona Aiuto") ), posizionare il cursore sull&#39;icona della guida fino al termine oppure fare clic all&#39;interno del pop-up della guida per scorrere il contenuto.
+* Per visualizzare una descrizione di un termine con un&#39;icona della Guida adiacente (![icona Guida](/help/search-social-commerce/assets/help-field.png "icona Guida") ), posizionare il cursore sull&#39;icona della Guida fino al termine oppure fare clic all&#39;interno del pop-up della Guida per scorrere il contenuto.
 
   Per aprire i collegamenti all&#39;interno di un argomento della Guida, potrebbe essere necessario configurare le impostazioni del browser per consentire l&#39;utilizzo di popup dal sito di ricerca, social e Commerce utilizzato, ad esempio https://enterprise-na.efrontier.com per gli utenti nordamericani o https://enterprise-intl.efrontier.com per tutti gli altri utenti.
 
 * Per aprire i set di aiuto completi che descrivono l’utilizzo di tutte le funzioni, fai clic sui seguenti collegamenti nella parte superiore di qualsiasi pagina:
 
-   * ![Aiuto](/help/search-social-commerce/assets/help-main-menu.png "Aiuto") > **Aiuto per Search, Social e Commerce**.
+   * ![Guida](/help/search-social-commerce/assets/help-main-menu.png "Guida") > **Guida in linea di Search, Social e Commerce**.
 
-   * ![Aiuto](/help/search-social-commerce/assets/help-main-menu.png "Aiuto") > **Guida all’ottimizzazione di Search, Social e Commerce**.
+   * ![Guida](/help/search-social-commerce/assets/help-main-menu.png "Guida") > **Guida all&#39;ottimizzazione di ricerca, social network e Commerce**.
 
 ## Chiedi alla community di Adobi Advertising
 
-Cerca le risposte alle tue domande in [Forum della community Adobi Advertising](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising-cloud/ct-p/adobe-advertising-cloud-community).
+Cerca le risposte alle tue domande nei [forum della community Adobe Advertising](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising-cloud/ct-p/adobe-advertising-cloud-community).
 
-## Contatto [!DNL Adobe]
+## Contatta [!DNL Adobe]
 
 Per problemi relativi a prodotti o account Search, Social e Commerce, effettuare una delle seguenti operazioni:
 
 * Contatta il team del tuo account Adobe.
 
-* Nel menu principale, fai clic su ![Aiuto](/help/search-social-commerce/assets/help-main-menu.png "Aiuto") > **[!UICONTROL Provide Feedback]**, immettere il messaggio e quindi fare clic su **[!UICONTROL Send Feedback]**. |
+* Nel menu principale fare clic su ![Guida](/help/search-social-commerce/assets/help-main-menu.png "Guida") > **[!UICONTROL Provide Feedback]**, immettere il messaggio e quindi fare clic su **[!UICONTROL Send Feedback]**. |
 
 Fornire i passaggi dettagliati per riprodurre il problema, tutti i dati rilevanti e le informazioni sulla risoluzione preliminare dei problemi eseguita. Se stai segnalando il problema al tuo Account Team Adobe, includi anche il nome e la versione del browser.
 

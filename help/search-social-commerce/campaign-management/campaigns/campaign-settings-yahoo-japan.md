@@ -1,30 +1,30 @@
 ---
-title: '''[!DNL Yahoo! Japan Ads] impostazioni della campagna'
-description: Fai riferimento alle impostazioni per [!DNL Yahoo! Japan Ads] campagne.
-exl-id: f728a880-27d8-478a-8480-a00b0fcab293
+title: '[!DNL Yahoo! Japan Ads] impostazioni campagna'
+description: Fai riferimento alle impostazioni per  [!DNL Yahoo! Japan Ads]  campagne.
+exl-id: 29acde0f-13f6-422d-b611-23ebb2ee70d9
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
 
-# [!DNL Yahoo! Japan Ads] impostazioni della campagna
+# [!DNL Yahoo! Japan Ads] impostazioni campagna
 
 ## \[Schermata Creazione campagna\]
 
-**[!UICONTROL Campaign Type]:** (Disponibile solo durante la creazione della campagna) Dove inserire gli annunci: l’unica opzione è *[!UICONTROL Search Network Only]* per visualizzare annunci di testo sulla rete di ricerca.
+**[!UICONTROL Campaign Type]:** (disponibile solo durante la creazione della campagna) Dove inserire annunci: l&#39;unica opzione è *[!UICONTROL Search Network Only]* per visualizzare annunci di testo nella rete di ricerca.
 
 ## [!UICONTROL Campaign Details]
 
-**[!UICONTROL Campaign Name]:** Un nome di campagna univoco all’interno dell’account.
+**[!UICONTROL Campaign Name]:** Nome di campagna univoco all&#39;interno dell&#39;account.
 
 <!-- **[!UICONTROL Start date]:** -->
 
 {{$include /help/_includes/start-date.md}}
 
-**[!UICONTROL Status]:** Lo stato di visualizzazione della campagna: *Attivo* o *In pausa*. L’impostazione predefinita per le nuove campagne pubblicitarie è *Attivo*.
+**[!UICONTROL Status]:** Lo stato di visualizzazione della campagna: *Attivo* o *In pausa*. Il valore predefinito per le nuove campagne pubblicitarie è *Attivo*.
 
 <!-- **[!UICONTROL End date]:** -->
 
@@ -94,4 +94,4 @@ Se si assegna questa campagna a un portfolio per il quale i limiti di budget del
 
 >[!MORELIKETHIS]
 >
->* [Gestire le campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
+>* [Gestisci campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)

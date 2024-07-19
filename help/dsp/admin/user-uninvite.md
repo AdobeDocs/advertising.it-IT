@@ -16,11 +16,11 @@ Gli utenti amministratori possono annullare l’invito di un utente con un invit
 
 1. Effettuare una delle seguenti operazioni:
 
-   * Nel menu principale, fai clic su **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
+   * Nel menu principale, fare clic su **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
 
-   * Nel menu principale, fai clic su **[!UICONTROL Settings]** > **[!UICONTROL Account]** e quindi fare clic su **[!UICONTROL Edit users]**.
+   * Nel menu principale fare clic su **[!UICONTROL Settings]** > **[!UICONTROL Account]** e quindi su **[!UICONTROL Edit users]**.
 
-1. In **[!UICONTROL Invitations]** , fare clic su **[!UICONTROL X]** accanto all&#39;invito.
+1. Nella sezione **[!UICONTROL Invitations]**, fai clic su **[!UICONTROL X]** accanto all&#39;invito.
 
 >[!MORELIKETHIS]
 >

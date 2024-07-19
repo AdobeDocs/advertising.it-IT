@@ -16,29 +16,29 @@ I registri di modifica mostrano le modifiche apportate al posizionamento durante
 
 È possibile ordinare i dati in base alla colonna Tipo, Modificato da o Data modifica.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 
 1. Fai clic sul nome della campagna.
 
-1. Nel sottomenu, fai clic su **[!UICONTROL Placements]**.
+1. Nel sottomenu fare clic su **[!UICONTROL Placements]**.
 
-1. Accanto al nome del posizionamento, fate clic su  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
+1. Accanto al nome del posizionamento, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
 
 1. (Facoltativo) Effettuate una delle seguenti operazioni:
 
-   * Per passare dalla visualizzazione dei dati solo nelle tabelle e alle tabelle e nei grafici, fare clic su ![Visualizzazione tabella e grafico](/help/dsp/assets/table-plus-chart-view.png "Visualizzazione tabella e grafico") o ![Vista tabella](/help/dsp/assets/table-view.png "Vista tabella") nella barra degli strumenti superiore destra.
+   * Per passare dalla visualizzazione dei dati solo nelle tabelle alla visualizzazione nei grafici e viceversa, fare clic su ![Tabella e visualizzazione grafico](/help/dsp/assets/table-plus-chart-view.png "Tabella e visualizzazione grafico") o ![Vista tabella](/help/dsp/assets/table-view.png "Vista tabella") nella barra degli strumenti superiore destra.
 
-   * Per aggiungere una nota a una voce, tenere premuto il cursore sul [!UICONTROL Notes] per la riga e quindi fare clic su **[!UICONTROL Add Notes]**. Immettere il testo nei campi di input, quindi fare clic su **[!UICONTROL Save]**.
+   * Per aggiungere una nota a una voce, posizionare il cursore sulla colonna [!UICONTROL Notes] della riga, quindi fare clic su **[!UICONTROL Add Notes]**. Immettere il testo nei campi di input, quindi fare clic su **[!UICONTROL Save]**.
 
-   * Per visualizzare i dettagli di una voce in una finestra popup, tenere premuto il cursore sul [!UICONTROL Notes] per la riga e quindi fare clic su **[!UICONTROL More]>[!UICONTROL View Details]**.
+   * Per visualizzare i dettagli di una voce in una finestra popup, posizionare il cursore sulla colonna [!UICONTROL Notes] della riga, quindi fare clic su **[!UICONTROL More]>[!UICONTROL View Details]**.
 
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulla gestione del posizionamento](placement-about.md)
->* [Creare un posizionamento](placement-create.md)
+>* [Crea un posizionamento](placement-create.md)
 >* [Modifica posizionamenti](placement-edit.md)
 >* [Duplicare un posizionamento](placement-duplicate.md)
->* [Modificare gli Schedules degli annunci per i posizionamenti](placement-edit-ad-schedule.md)
->* [Sospendere o attivare un posizionamento](placement-pause-activate.md)
->* [Impostazioni di posizionamento](placement-settings.md)
+>* [Modifica gli Schedules per i posizionamenti](placement-edit-ad-schedule.md)
+>* [Sospendi o attiva un posizionamento](placement-pause-activate.md)
+>* [Impostazioni posizionamento](placement-settings.md)

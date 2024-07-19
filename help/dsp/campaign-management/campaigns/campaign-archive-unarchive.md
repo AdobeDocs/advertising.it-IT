@@ -18,23 +18,22 @@ Puoi annullare l’archiviazione di una campagna per ripristinarne lo stato prec
 
 ## Archiviare una campagna
 
-1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
-1. Accanto al nome della campagna, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
-1. Nel messaggio di conferma, fai clic su **[!UICONTROL Archive]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
+1. Accanto al nome della campagna, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
+1. Nel messaggio di conferma, fare clic su **[!UICONTROL Archive]**.
 
 >[!NOTE]
 >
->Per visualizzare le campagne archiviate, filtra la [!UICONTROL Campaigns] view: click ![Pulsante Filtro](/help/dsp/assets/filter.png), fai clic su **[!UICONTROL Campaign status]** e seleziona **[!UICONTROL Archived]** e quindi fare clic su **[!UICONTROL Apply].**
+>Per visualizzare le campagne archiviate, filtrare la visualizzazione [!UICONTROL Campaigns]: fare clic su ![Pulsante filtro](/help/dsp/assets/filter.png), fare clic su **[!UICONTROL Campaign status]** e selezionare **[!UICONTROL Archived]**, quindi fare clic su **[!UICONTROL Apply].**
 
 ## Annullare l’archiviazione di una campagna
 
-1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
-1. Accanto al nome della campagna, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
-1. Nel messaggio di conferma, fai clic su **[!UICONTROL Unarchive]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
+1. Accanto al nome della campagna, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
+1. Nel messaggio di conferma, fare clic su **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]
 >
->* [Modificare una campagna](campaign-edit.md)
->* [Visualizzare il registro delle modifiche per una campagna](campaign-change-log.md)
->* [Sospendere o attivare una campagna](campaign-pause-activate.md)
-
+>* [Modifica una campagna](campaign-edit.md)
+>* [Visualizza il log delle modifiche per una campagna](campaign-change-log.md)
+>* [Sospendi o attiva una campagna](campaign-pause-activate.md)

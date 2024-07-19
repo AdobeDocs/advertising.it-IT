@@ -9,4 +9,4 @@ ht-degree: 0%
 
 Questa è la cartella di lavoro per questo capitolo.
 
-**Nota: questa pagina non è pubblicata nella documentazione destinata al cliente.**
+**Nota: questa pagina non è pubblicata nella documentazione del cliente.**

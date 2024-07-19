@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Soluzioni multi-dispositivo
 
-L’integrazione Advertising DSP con [!DNL LiveRamp] consente di estendere il pubblico a tutti i dispositivi noti di una persona, non solo ai dispositivi tracciati dal tuo marchio. L’integrazione fornisce anche il limite di frequenza e la misurazione dell’attribuzione su tutti i dispositivi.
+L&#39;integrazione di Advertising DSP con [!DNL LiveRamp] ti consente di estendere il pubblico a tutti i dispositivi noti di una persona, non solo ai dispositivi tracciati dal tuo marchio. L’integrazione fornisce anche il limite di frequenza e la misurazione dell’attribuzione su tutti i dispositivi.
 
 Quando utilizzi un grafico dei dispositivi basato sulle persone supportato, puoi:
 
@@ -20,7 +20,7 @@ Quando utilizzi un grafico dei dispositivi basato sulle persone supportato, puoi
 * Equilibrio ed esposizione attraverso la comprensione e la limitazione della frequenza tra i singoli individui.
 * Strategie di test che espongono e convertono i tipi di pubblico tra canali o dispositivi.
 
-## Vantaggi della [!DNL LiveRamp] Device Graph
+## Vantaggi del grafico dei dispositivi [!DNL LiveRamp]
 
 * Fornisce un pool di dati deterministici, inclusi i dati dei clienti offline
 
@@ -30,7 +30,7 @@ Quando utilizzi un grafico dei dispositivi basato sulle persone supportato, puoi
 
 * È gratuito per la misurazione della quota limite e dell’attribuzione
 
-* Prezzo di 0,35 $ CPM per le impression estese (impression fornite esclusivamente utilizzando il [!DNL LiveRamp] grafico dei dispositivi (anziché sui dispositivi trovati all’interno dei segmenti di pubblico target)
+* Prezzo di 0,35 CPM per le impression estese (impression distribuite esclusivamente utilizzando il grafico dei dispositivi [!DNL LiveRamp] anziché sui dispositivi presenti nei segmenti di pubblico di destinazione)
 
   La tariffa si riflette sulla scheda della tariffa del tuo account.
 
@@ -40,15 +40,15 @@ La gestione della frequenza basata sulle persone consente di specificare i limit
 
 ### Attiva gestione frequenza basata sulle persone
 
-* **Campagne:** Quando crei una nuova campagna, puoi specificare una [!UICONTROL Cross-Device Level] impostazione. Abilita &quot;[!UICONTROL Same Device]&quot; -> &quot;[!UICONTROL People],&quot; e seleziona un grafico dei dispositivi. Il grafico dei dispositivi specificato viene utilizzato sia per il targeting tra dispositivi a livello di posizionamento che per la gestione della frequenza basata sulle persone a livello di campagna, pacchetto e posizionamento. I limiti di frequenza si applicano a tutti i dispositivi noti di una persona.
+* **Campagne:** Quando si crea una nuova campagna, è possibile specificare un&#39;impostazione [!UICONTROL Cross-Device Level]. Abilitare &quot;[!UICONTROL Same Device]&quot; -> &quot;[!UICONTROL People]&quot; e selezionare un grafico dei dispositivi. Il grafico dei dispositivi specificato viene utilizzato sia per il targeting tra dispositivi a livello di posizionamento che per la gestione della frequenza basata sulle persone a livello di campagna, pacchetto e posizionamento. I limiti di frequenza si applicano a tutti i dispositivi noti di una persona.
 
-Per ulteriori informazioni, consulta [Impostazioni campagna](/help/dsp/campaign-management/campaigns/campaign-settings.md).
+Per ulteriori informazioni, vedere [Impostazioni campagna](/help/dsp/campaign-management/campaigns/campaign-settings.md).
 
-Una volta salvata una campagna, non puoi modificarne le [!UICONTROL Cross Device Level] impostazione.
+Una volta salvata una campagna, non puoi modificarne l&#39;impostazione [!UICONTROL Cross Device Level].
 
-* **Pacchetti:**  Facoltativamente, puoi impostare limiti di frequenza aggiuntivi a livello di pacchetto. L’DSP rispetta il limite di frequenza più severo nella gerarchia delle campagne.
+* **Pacchetti:** Facoltativamente è possibile impostare limiti di frequenza aggiuntivi a livello di pacchetto. L’DSP rispetta il limite di frequenza più severo nella gerarchia delle campagne.
 
-* **Posizionamenti:** Facoltativamente, è possibile impostare limiti di frequenza aggiuntivi a livello di posizionamento. L’DSP rispetta il limite di frequenza più severo nella gerarchia delle campagne.
+* **Posizionamenti:** Facoltativamente puoi impostare limiti di frequenza aggiuntivi a livello di posizionamento. L’DSP rispetta il limite di frequenza più severo nella gerarchia delle campagne.
 
 ## Targeting basato su persone
 
@@ -56,29 +56,29 @@ Il targeting basato sulle persone consente di trovare i clienti su desktop e dis
 
 ### Attiva targeting basato sulle persone
 
-* **Campagne:** Quando crei una nuova campagna, puoi specificare una [!UICONTROL Cross-Device Level] impostazione. Abilita &quot;[!UICONTROL Same Device]&quot; -> &quot;[!UICONTROL People],&quot; e seleziona un grafico dei dispositivi. Il grafico dei dispositivi specificato viene utilizzato sia per il targeting tra dispositivi a livello di posizionamento che per la gestione della frequenza basata sulle persone.
+* **Campagne:** Quando si crea una nuova campagna, è possibile specificare un&#39;impostazione [!UICONTROL Cross-Device Level]. Abilitare &quot;[!UICONTROL Same Device]&quot; -> &quot;[!UICONTROL People]&quot; e selezionare un grafico dei dispositivi. Il grafico dei dispositivi specificato viene utilizzato sia per il targeting tra dispositivi a livello di posizionamento che per la gestione della frequenza basata sulle persone.
 
-Per ulteriori informazioni, consulta [Impostazioni campagna](/help/dsp/campaign-management/campaigns/campaign-settings.md).
+Per ulteriori informazioni, vedere [Impostazioni campagna](/help/dsp/campaign-management/campaigns/campaign-settings.md).
 
-* **Posizionamenti:** Quando selezioni i target di pubblico per un posizionamento in una campagna con un grafico dei dispositivi specificato, viene [!UICONTROL Cross-Device Targeting] Questa opzione ti consente di estendere il targeting su tutti i dispositivi noti di una persona (in base al grafico dei dispositivi specificato nelle impostazioni della campagna), anche su quelli che non si trovano nei segmenti specificati.
+* **Posizionamenti:** quando selezioni i target di pubblico per un posizionamento in una campagna con un grafico dei dispositivi specificato, un&#39;opzione [!UICONTROL Cross-Device Targeting] ti consente di estendere il targeting su tutti i dispositivi noti di una persona (in base al grafico dei dispositivi specificato nelle impostazioni della campagna), anche su dispositivi che non si trovano nei segmenti specificati.
 
 ### Configurare la generazione di rapporti per il targeting basato sulle persone
 
 Puoi includere le metriche seguenti nei rapporti personalizzati:
 
-* **Impression estese:** (nel [!UICONTROL Build Your Report] sezione in [!UICONTROL Metrics] > [!UICONTROL Std. Metrics]) Il volume di impression incrementali fornite sfruttando un grafico dei dispositivi (e non trovate all’interno dei segmenti di pubblico originali). Questa metrica viene utilizzata anche per calcolare le tariffe applicabili associate all’utilizzo di un grafico dei dispositivi di terze parti.
+* **Impression estese:** (nella sezione [!UICONTROL Build Your Report] in [!UICONTROL Metrics] > [!UICONTROL Std. Metrics]) il volume di impression incrementali distribuite sfruttando un grafico dei dispositivi (e non trovate all&#39;interno dei segmenti di pubblico originali). Questa metrica viene utilizzata anche per calcolare le tariffe applicabili associate all’utilizzo di un grafico dei dispositivi di terze parti.
 
-  Per determinare il costo delle impression estese in un determinato periodo di tempo, esegui un rapporto personalizzato che includa [!UICONTROL Extended Impressions] e quindi moltiplica il numero totale di impression estese per $0,00035 (0,35/1000 impression).
+  Per determinare il costo delle impression estese durante un periodo di tempo, esegui un rapporto personalizzato che includa la colonna [!UICONTROL Extended Impressions], quindi moltiplica il numero totale di impression estese per $0,00035 (0,35/1000 impression).
 
-  Il costo aggregato è incluso anche nel [!UICONTROL Billable Other Net Spend] colonna (sotto [!UICONTROL Metrics] > [!UICONTROL Spend]), anche se tale metrica include anche altre tariffe della campagna che potresti aver aggiunto.
+  Il costo aggregato è incluso anche nella colonna [!UICONTROL Billable Other Net Spend] (in [!UICONTROL Metrics] > [!UICONTROL Spend]), sebbene tale metrica includa anche altre commissioni della campagna eventualmente aggiunte.
 
-* **Device Graph (Grafico dispositivo):** (nel [!UICONTROL Build Your Report] sezione in [!UICONTROL Dimensions] > [!UICONTROL Campaign]) Il grafico dei dispositivi selezionato per una particolare campagna, pacchetto o posizionamento.
+* **Grafico dispositivo:** (nella sezione [!UICONTROL Build Your Report] in [!UICONTROL Dimensions] > [!UICONTROL Campaign]) Il grafico dei dispositivi selezionato per una campagna, un pacchetto o un posizionamento particolare.
 
 ## Misurazione dell’attribuzione basata sulle persone
 
-*Inserzionisti con solo tracciamento conversione Adobi Advertising*
+*Inserzionisti con solo tracciamento conversione Adobe Advertising*
 
-Con l’attribuzione basata sulle persone, puoi attribuire le conversioni che hanno avuto luogo su un dispositivo diverso da quello su cui si è verificata l’esposizione multimediale. La misurazione dell’attribuzione basata sulle persone è disponibile in tutta l’DSP, [!DNL Adobe Advertising Creative], e [!DNL Adobe Advertising Search, Social, & Commerce] per gli inserzionisti che hanno implementato pixel di conversione Adobi Advertising sui loro siti.
+Con l’attribuzione basata sulle persone, puoi attribuire le conversioni che hanno avuto luogo su un dispositivo diverso da quello su cui si è verificata l’esposizione multimediale. La misurazione dell&#39;attribuzione basata sulle persone è disponibile in DSP, [!DNL Adobe Advertising Creative] e [!DNL Adobe Advertising Search, Social, & Commerce] per gli inserzionisti che hanno implementato pixel di conversione Adobi Advertising sui loro siti.
 
 ### Abilita misurazione attribuzione basata su persone
 
@@ -88,17 +88,17 @@ Se desideri attivare la misurazione dell’attribuzione tra dispositivi, contatt
 
 #### Impostazioni dei rapporti di conversione
 
-Quando un grafico dei dispositivi è abilitato per la misurazione dell’attribuzione, il [!UICONTROL Conversion] Il rapporto include una [!UICONTROL Cross-Device Breakout] che ti consente di includere fino a tre colonne separate per ogni metrica di conversione, tra cui:
+Quando un grafo di dispositivi è abilitato per la misurazione dell&#39;attribuzione, il rapporto [!UICONTROL Conversion] include un&#39;impostazione [!UICONTROL Cross-Device Breakout] che consente di includere fino a tre colonne separate per ogni metrica di conversione, tra cui:
 
-* &lt;*Conversione*>[!UICONTROL (tp)]: include le conversioni totali (persone totali), che includono sia le conversioni con lo stesso dispositivo che quelle tra dispositivi (se applicabile). Nel rapporto, &quot;[!UICONTROL (tp)]&quot; viene aggiunto al nome della metrica di conversione, al tipo di regola e ai tipi di conversione nel percorso di conversione (ad esempio, &quot;Responses(le)(tl)(tp)).
+* &lt;*Conversione*>[!UICONTROL (tp)]: include le conversioni totali (persone totali), che includono sia le conversioni dello stesso dispositivo che le conversioni tra dispositivi (se applicabili). Nel report, &quot;[!UICONTROL (tp)]&quot; viene aggiunto al nome della metrica di conversione, al tipo di regola e ai tipi di conversione nel percorso di conversione (ad esempio, &quot;Responses(le)(tl)(tp)).
 
-* &lt;*Conversione*>[!UICONTROL (sd)]: (Facoltativo) Include solo le conversioni per le quali è stato tracciato un solo dispositivo nel percorso di conversione. Nel rapporto, &quot;[!UICONTROL (sd)]&quot; viene aggiunto al nome della metrica di conversione, al tipo di regola e ai tipi di conversione nel percorso di conversione (ad esempio, &quot;Responses(le)(tl)(sd)).
+* &lt;*Conversione*>[!UICONTROL (sd)]: (facoltativo) include solo le conversioni per le quali è stato tracciato un solo dispositivo nel percorso di conversione. Nel report, &quot;[!UICONTROL (sd)]&quot; viene aggiunto al nome della metrica di conversione, al tipo di regola e ai tipi di conversione nel percorso di conversione (ad esempio, &quot;Responses(le)(tl)(sd)).
 
-* &lt;*Conversione*>[!UICONTROL (xd)]: (Facoltativo) Include solo le conversioni per le quali è stato tracciato più di un dispositivo nel percorso di conversione. Nel rapporto, &quot;[!UICONTROL (xd)]&quot; viene aggiunto al nome della metrica di conversione, al tipo di regola e ai tipi di conversione nel percorso di conversione (ad esempio, &quot;Responses(le)(tl)(xd)).
+* &lt;*Conversione*>[!UICONTROL (xd)]: (facoltativo) include solo le conversioni per le quali è stato tracciato più di un dispositivo nel percorso di conversione. Nel report, &quot;[!UICONTROL (xd)]&quot; viene aggiunto al nome della metrica di conversione, al tipo di regola e ai tipi di conversione nel percorso di conversione (ad esempio, &quot;Responses(le)(tl)(xd)).
 
 #### Come interpretare il rapporto di conversione
 
-Ordina la percentuale delle conversioni totali tra dispositivi diversi ([!UICONTROL (xd)]/[!UICONTROL (tl)]) dall&#39;alto al basso per capire cosa determina conversioni tra dispositivi superiori alla media. Puoi utilizzarlo per informare la tua strategia creativa o di targeting in modo da abbinare la messaggistica e incanalare gli investimenti al comportamento degli utenti.
+Ordinare la percentuale di conversioni totali tra dispositivi ([!UICONTROL (xd)]/[!UICONTROL (tl)]) da alto a basso per capire cosa determina conversioni tra dispositivi superiori alla media. Puoi utilizzarlo per informare la tua strategia creativa o di targeting in modo da abbinare la messaggistica e incanalare gli investimenti al comportamento degli utenti.
 
 * Pacchetti: scopri quali pacchetti generano il maggior numero di conversioni totali e quali hanno una percentuale elevata di conversioni tra dispositivi diversi. Questo può aiutarti a capire dove concentrarti sulla spesa.
 
@@ -112,7 +112,7 @@ Ordina la percentuale delle conversioni totali tra dispositivi diversi ([!UICONT
 
 >[!MORELIKETHIS]
 >
->* [Impostazioni dei rapporti](/help/dsp/reports/report-settings.md)
+>* [Impostazioni report](/help/dsp/reports/report-settings.md)
 >* [Impostazioni campagna](/help/dsp/campaign-management/campaigns/campaign-settings.md)
 >* [Impostazioni pacchetto](/help/dsp/campaign-management/packages/package-settings.md)
->* [Impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [Impostazioni posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)

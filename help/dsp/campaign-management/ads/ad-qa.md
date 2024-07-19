@@ -16,26 +16,26 @@ Puoi scaricare i dettagli di tutti gli annunci di una campagna in formato XLSX (
 
 >[!NOTE]
 >
->*Per modificare le impostazioni dell&#39;annuncio, vedere [Modificare un annuncio](/help/dsp/campaign-management/ads/ad-edit.md).
->*Per cambiare i pixel di tracciamento di terze parti per più annunci contemporaneamente o per allegare annunci ai posizionamenti, vedi &quot;[Allega annunci ai posizionamenti](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot;
+>*Per modificare le impostazioni dell&#39;annuncio, vedi [Modifica un annuncio](/help/dsp/campaign-management/ads/ad-edit.md).
+>*Per cambiare i pixel di tracciamento di terze parti per più annunci contemporaneamente o per allegare annunci ai posizionamenti, vedi &quot;[Allega annunci ai posizionamenti](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)&quot;.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 
 1. Fai clic sul nome della campagna.
 
-1. Apri [!UICONTROL Ad Tools] visualizzare in uno dei modi seguenti:
+1. Aprire la visualizzazione [!UICONTROL Ad Tools] in uno dei modi seguenti:
 
-   * (Da [!UICONTROL Packages] , [!UICONTROL Placements], o [!UICONTROL Ads] in alto a destra, fai clic su **[!UICONTROL ...]** > **[!UICONTROL Ad Tools]**.
+   * (Dalla visualizzazione [!UICONTROL Packages] , [!UICONTROL Placements] o [!UICONTROL Ads]) In alto a destra, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Ad Tools]**.
 
-   * (Da [!UICONTROL Placements] (vista) Accanto al nome del posizionamento, fate clic su **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
+   * Nella visualizzazione [!UICONTROL Placements] accanto al nome del posizionamento, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
 
-   * (Da [!UICONTROL Ads] ) Accanto al nome dell’annuncio, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
+   * Nella visualizzazione [!UICONTROL Ads] accanto al nome dell&#39;annuncio, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
 
 1. In alto a destra, fai clic su **[!UICONTROL ...]** > **[!UICONTROL Download Ads QA].**
 
 1. Scarica il file:
 
-   1. A destra della barra dei menu superiore, fai clic su ![Processi](/help/dsp/assets/downloads.png).
+   1. Nella parte destra della barra dei menu superiore, fai clic su ![Processi](/help/dsp/assets/downloads.png).
 
    1. Quando il processo è completo e il file è disponibile, fare clic su **[!UICONTROL Download]** accanto al processo.
 
@@ -43,5 +43,5 @@ Puoi scaricare i dettagli di tutti gli annunci di una campagna in formato XLSX (
 
 >[!MORELIKETHIS]
 >
->* [Modificare un annuncio](/help/dsp/campaign-management/ads/ad-edit.md)
+>* [Modifica un annuncio](/help/dsp/campaign-management/ads/ad-edit.md)
 >* [Allega annunci ai posizionamenti](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)

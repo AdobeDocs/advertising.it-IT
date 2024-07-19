@@ -5,24 +5,24 @@ feature: Integration with Adobe Analytics
 exl-id: da5e5704-4504-4fc5-93d2-db7d28f0c349
 source-git-commit: da69280679a4e0c5ce04f55ee94ce984745395ff
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
 
 # Metriche di Adobe Advertising in Analysis Workspace
 
-*Per gli inserzionisti con una sola integrazione Adobi Advertising-Adobe Analytics*
+*Inserzionisti con una sola integrazione Adobe Advertising-Adobe Analytics*
 
 >[!NOTE]
 >
->* Adobe Advertising trasmette le metriche e le dimensioni del traffico a [!DNL Analytics] ogni giorno.
->* [!DNL Analytics] acquisisce in tempo reale i click-through e i view-through di Adobe Advertising.
->* Per [!DNL Search, Social, & Commerce], questa funzione è supportata per la maggior parte delle reti di annunci e dei tipi di campagne. Consulta &quot;[Inventario supportato](/help/search-social-commerce/introduction/supported-inventory.md)&quot; in [!DNL Search, Social, & Commerce] per ulteriori informazioni.
+>* Adobe Advertising passa metriche e dimensioni del traffico a [!DNL Analytics] al giorno.
+>* [!DNL Analytics] acquisisce click-through e view-through di Adobi Advertising in tempo reale.
+>* Per [!DNL Search, Social, & Commerce], questa funzione è supportata per la maggior parte delle reti di annunci e dei tipi di campagne. Per ulteriori informazioni, vedere &quot;[Inventario supportato](/help/search-social-commerce/introduction/supported-inventory.md)&quot; nella Guida di [!DNL Search, Social, & Commerce].
 
-## Metriche traffico da Adobi Advertising
+## Metriche traffico da Adobe Advertising
 
-Adobe Advertising delle metriche del traffico in [!DNL Analytics] in genere inizia con &quot;Adobe Advertising&quot;, ad eccezione di &quot;[!UICONTROL AMO ID Instances].&quot; Tuttavia, per i clienti a lungo termine che hanno utilizzato un evento personalizzato (anziché un evento riservato) per creare originariamente metriche per clic, costi e impression, tali metriche iniziano ancora con &quot;AMO&quot;.
+Le metriche del traffico di Adobe Advertising in [!DNL Analytics] in genere iniziano con &quot;Adobe Advertising&quot;, ad eccezione di &quot;[!UICONTROL AMO ID Instances]&quot;.&quot; Tuttavia, per i clienti a lungo termine che hanno utilizzato un evento personalizzato (anziché un evento riservato) per creare originariamente metriche per clic, costi e impression, tali metriche iniziano ancora con &quot;AMO&quot;.
 
 | Metrica traffico | Descrizione |
 | -------------- | ----------- |
@@ -44,7 +44,7 @@ Adobe Advertising delle metriche del traffico in [!DNL Analytics] in genere iniz
 
 >[!NOTE]
 >
->Tutte le dimensioni di Adobe Advertising in [!DNL Analytics] sono seguiti da &quot;[!DNL (AMO ID)].&quot;
+>Tutte le dimensioni di Adobe Advertising in [!DNL Analytics] sono seguite da &quot;[!DNL (AMO ID)]&quot;.
 
 | Dimensione | Dati Adobe Advertising applicabili | Descrizione |
 | ----------- | ---------- | ---------- |
@@ -52,15 +52,15 @@ Adobe Advertising delle metriche del traffico in [!DNL Analytics] in genere iniz
 | [!UICONTROL Account (AMO ID] | [!DNL DSP] e [!DNL Search, Social, & Commerce] dati | Il nome dell’account. |
 | [!UICONTROL Network (AMO ID)] | [!DNL DSP] e [!DNL Search, Social, & Commerce] dati | RTB ([!DNL DSP]) o il nome della rete di annunci ([!DNL Search, Social, & Commerce]) |
 | [!UICONTROL Campaign (AMO ID)] | [!DNL DSP] e [!DNL Search, Social, & Commerce] dati | Il nome della campagna. |
-| [!UICONTROL Optimization (AMO ID)] | [!DNL DSP] e [!DNL Search, Social, & Commerce] dati | Il pacchetto ([!DNL DSP]) o portfolio ([!DNL Search, Social, & Commerce]). |
+| [!UICONTROL Optimization (AMO ID)] | [!DNL DSP] e [!DNL Search, Social, & Commerce] dati | Nome del pacchetto ([!DNL DSP]) o del portfolio ([!DNL Search, Social, & Commerce]). |
 | [!UICONTROL Placement (AMO ID)] | [!DNL DSP] dati | Il nome del posizionamento. |
 | [!UICONTROL Ad Group (AMO ID)] | [!DNL Search, Social, & Commerce] dati | Il nome del gruppo di annunci. |
 | [!UICONTROL Keyword (AMO ID)] | [!DNL Search, Social, & Commerce] dati | La parola chiave. |
 | [!UICONTROL Match Type (AMO ID)] | [!DNL Search, Social, & Commerce] dati | Tipo di corrispondenza della ricerca. |
 | [!UICONTROL Keyword Match Type (AMO ID)] | [!DNL Search, Social, & Commerce] dati | Parola chiave e tipo di corrispondenza. |
-| [!UICONTROL Ad Type (AMO ID)] | [!DNL DSP] e [!DNL Search, Social, & Commerce] dati | Il tipo di annuncio, ad esempio `text`, `video`, `display`, o `native`. |
+| [!UICONTROL Ad Type (AMO ID)] | [!DNL DSP] e [!DNL Search, Social, & Commerce] dati | Il tipo di annuncio, ad esempio `text`, `video`, `display` o `native`. |
 | [!UICONTROL Ad Title (AMO ID)] | [!DNL DSP] e [!DNL Search, Social, & Commerce] dati | Tipo di annuncio ([!DNL DSP]) o titolo annuncio ([!DNL Search, Social, & Commerce]). |
-| [!UICONTROL Ad Description (AMO ID)] | [!DNL DSP] e [!DNL Search, Social, & Commerce] dati | Descrizione dell’annuncio ([!DNL DSP]) o corpo dell’annuncio ([!DNL Search, Social, & Commerce]). |
+| [!UICONTROL Ad Description (AMO ID)] | [!DNL DSP] e [!DNL Search, Social, & Commerce] dati | Descrizione dell&#39;annuncio ([!DNL DSP]) o corpo dell&#39;annuncio ([!DNL Search, Social, & Commerce]). |
 | [!UICONTROL Ad Display URL (AMO ID)] | [!DNL Search, Social, & Commerce] dati | L’URL visualizzato nell’annuncio. |
 | [!UICONTROL Ad Destination URL (AMO ID)] | [!DNL Search, Social, & Commerce] dati | L’URL di destinazione dell’annuncio. |
 | [!UICONTROL Landing Type (AMO ID)] | [!DNL DSP] e [!DNL Search, Social, & Commerce] dati | Se la voce della pagina di destinazione era un view-through o un click-through. |
@@ -70,9 +70,9 @@ Adobe Advertising delle metriche del traffico in [!DNL Analytics] in genere iniz
 
 Prendi in considerazione la creazione delle metriche seguenti per i dati di Adobe Advertising.
 
-* Clic sull’istanza della pagina di destinazione ([!UICONTROL AMO ID Instances] / [!UICONTROL Adobe Advertising Clicks]): corrisponde alla percentuale di persone che hanno fatto clic sull’annuncio e l’hanno fatto sulla pagina di destinazione.
+* Clic sull&#39;istanza della pagina di destinazione ([!UICONTROL AMO ID Instances] / [!UICONTROL Adobe Advertising Clicks]): questa è la percentuale di persone che hanno fatto clic sull&#39;annuncio e l&#39;hanno fatto sulla pagina di destinazione.
 * Tasso misurabile ([!UICONTROL Adobe Advertising Viewable Impressions] / [!UICONTROL Adobe Advertising Impressions] * 100)
-* Tasso di impression visualizzabile ([!UICONTROL Adobe Advertising Viewable Impressions] / [!UICONTROL Adobe Advertising Measureable Impressions] * 100)
+* Percentuale di impression visualizzabili ([!UICONTROL Adobe Advertising Viewable Impressions] / [!UICONTROL Adobe Advertising Measureable Impressions] * 100)
 * Costo per visualizzazione ([!UICONTROL Adobe Advertising Cost] / [!UICONTROL Adobe Advertising Views])
 * Costo per clic ([!UICONTROL Adobe Advertising Cost] / [!UICONTROL Adobe Advertising Clicks])
 

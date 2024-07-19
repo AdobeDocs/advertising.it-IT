@@ -12,21 +12,21 @@ ht-degree: 0%
 
 # Creare una destinazione di rapporto
 
-1. Nel menu principale, fai clic su **[!UICONTROL Reports]** > **[!UICONTROL Report Destinations]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Reports]** > **[!UICONTROL Report Destinations]**.
 
-1. Clic **[!UICONTROL Add Destination]**.
+1. Fare clic su **[!UICONTROL Add Destination]**.
 
-1. Specifica la [impostazioni di destinazione del rapporto](/help/dsp/reports/report-destinations/report-destination-settings.md), che variano in base al tipo di destinazione.
+1. Specifica le [impostazioni di destinazione del report](/help/dsp/reports/report-destinations/report-destination-settings.md), che variano in base al tipo di destinazione.
 
-1. Clic **[!UICONTROL Save]**.
+1. Fare clic su **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
-> Se il rapporto è configurato per essere consegnato a qualsiasi tipo di FTP o [!DNL Amazon S3] posizione, non si ricevono notifiche se il rapporto viene annullato a causa di errori. Se non ricevi i rapporti previsti, contatta il team del tuo account Adobe per scoprirne il motivo.
+> Se il report è configurato per la consegna a qualsiasi tipo di FTP o percorso [!DNL Amazon S3], non riceverai notifiche se il report viene annullato a causa di errori. Se non ricevi i rapporti previsti, contatta il team del tuo account Adobe per scoprirne il motivo.
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni su [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [[!UICONTROL Report Destination] Impostazioni](/help/dsp/reports/report-destinations/report-destination-settings.md)
+>* Impostazioni [[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [Modifica un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
->* [Eliminare un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+>* [Elimina [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)

@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Panoramica dell’invio dei dati sull’esposizione ai contenuti multimediali dell’DSP a Adobe Audience Manager
 
-*Inserzionisti solo con Advertising DSP*
+*Inserzionisti con solo Advertising DSP*
 
-*Per gli inserzionisti con una sola integrazione Adobe Advertising-Adobe Audience Manager*
+*Inserzionisti con una sola integrazione Adobe Advertising-Adobe Audience Manager*
 
 I clienti di Advertising DSP con Adobe Audience Manager possono utilizzare pixel evento di Audience Manager per acquisire dati a livello di impression e di clic dalle campagne DSP. I pixel dell’evento inviano i dati all’Audience Manager come segnali utilizzabili. Questi segnali consentono diversi casi di utilizzo dell’DSP, ad esempio segmentazione più avanzata, gestione della frequenza, analisi di marketing e informazioni sul reporting.
 
@@ -32,25 +32,25 @@ L&#39;DSP non ti fa pagare per inviare questi segnali agli Audienci Manager. Tut
 
 * Puoi sfruttare i dati della campagna per casi d’uso quali il limite di frequenza tra i creativi, il retargeting degli utenti che sono stati esposti a campagne precedenti e l’analisi del comportamento del sito a valle e dei punti di ingresso.
 
-* I dati aggregati forniscono una visualizzazione unificata delle prestazioni della campagna, consentono di identificare percorsi di conversione personalizzati e possono essere utilizzati per migliorare la sequenza di eventi che portano a conversioni tramite Audience Manager [!DNL Audience Optimization Reports] o tramite un [[!DNL Audience Analytics] integrazione con Adobe Analytics](/help/integrations/audience-manager/audience-analytics.md).
+* I dati aggregati forniscono una visualizzazione unificata delle prestazioni della campagna, consentono di identificare percorsi di conversione personalizzati e possono essere utilizzati per migliorare la sequenza di eventi che portano a conversioni tramite l&#39;Audience Manager [!DNL Audience Optimization Reports] o un&#39;integrazione [[!DNL Audience Analytics] con Adobe Analytics](/help/integrations/audience-manager/audience-analytics.md).
 
 ## Tracciamento dei dati
 
-I pixel dell’evento di impression e clic dell’Audience Manager sono basati su cookie. I pixel non acquisiscono gli eventi che si verificano in ambienti senza cookie, come le app mobili e la TV collegata (CTV).<!-- 6/24: CTV inventory isn't clickable, and impression tracking would be lost when we convert users from IP to cookies. -->
+I pixel dell’evento di impression e clic dell’Audience Manager sono basati su cookie. I pixel non acquisiscono gli eventi che si verificano in ambienti senza cookie, ad esempio app mobili e TV connessa (CTV).<!-- 6/24: CTV inventory isn't clickable, and impression tracking would be lost when we convert users from IP to cookies. -->
 
 ### Pixel di tracciamento dell&#39;impression
 
-Audience Manager tiene traccia dei dati di impression per un annuncio quando alleghi all’annuncio un pixel trasparente per il tracciamento degli eventi di 1xl-pixel. Il pixel dell’evento viene caricato ogni volta che l’annuncio viene servito a un utente e caricato dal browser web. Il pixel viene caricato da un sottodominio specifico del client di [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html), che è un dominio legacy, ad Audience Manager, e contiene parametri come coppie chiave-valore. La chiamata dell&#39;evento raccoglie i dati sulle impression e di conversione e li invia ai server di raccolta dati di Audience Manager.
+Audience Manager tiene traccia dei dati di impression per un annuncio quando alleghi all’annuncio un pixel trasparente per il tracciamento degli eventi di 1xl-pixel. Il pixel dell’evento viene caricato ogni volta che l’annuncio viene servito a un utente e caricato dal browser web. Il pixel viene caricato da un sottodominio specifico del client di [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html), che è un dominio legacy ad Audience Manager e contiene parametri come coppie chiave-valore. La chiamata dell&#39;evento raccoglie i dati sulle impression e di conversione e li invia ai server di raccolta dati di Audience Manager.
 
 ### Pixel tracciamento clic
 
-L’Audience Manager tiene traccia dei clic in modo simile alle impression, con la differenza che non carica il pixel dell’evento trasparente ogni volta che l’annuncio viene distribuito. Piuttosto, i dati di clic vengono tracciati nell’URL di click-through dell’annuncio. L’annuncio punta a un sottodominio specifico del client di [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html), che è un dominio legacy, ad Audience Manager, per l’elaborazione da parte dei server di raccolta dati di Audience Manager. Il server reindirizza quindi l’utente alla pagina di destinazione prevista. L’URL contiene parametri come coppie chiave-valore.
+L’Audience Manager tiene traccia dei clic in modo simile alle impression, con la differenza che non carica il pixel dell’evento trasparente ogni volta che l’annuncio viene distribuito. Piuttosto, i dati di clic vengono tracciati nell’URL di click-through dell’annuncio. L&#39;annuncio punta a un sottodominio specifico del client di [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html), che è un dominio legacy ad Audience Manager, per l&#39;elaborazione da parte dei server di raccolta dati Audience Manager. Il server reindirizza quindi l’utente alla pagina di destinazione prevista. L’URL contiene parametri come coppie chiave-valore.
 
 >[!NOTE]
 >
->Se l’organizzazione utilizza [!DNL Analytics] tracciamento, potrebbe non essere necessario il tracciamento dei clic di Audience Manager. Adobe Analytics acquisisce i segnali di clic e può inviarli agli Audienci Manager tramite [inoltro lato server](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
+>Se la tua organizzazione utilizza il tracciamento di [!DNL Analytics], potrebbe non essere necessario il tracciamento dei clic di Audience Manager. Adobe Analytics acquisisce i segnali di clic e può inviarli all&#39;Audience Manager tramite [inoltro lato server](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
 
 >[!MORELIKETHIS]
 >
->* [Raccogliere dati di clic e impression dalle campagne Advertising DSP](collect.md)
->* [Casi d’uso](use-cases.md)
+>* [Raccogli dati di clic e impression dalle campagne Advertising DSP](collect.md)
+>* [Casi d&#39;uso](use-cases.md)

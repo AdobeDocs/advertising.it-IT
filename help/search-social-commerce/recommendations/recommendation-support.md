@@ -14,23 +14,23 @@ ht-degree: 0%
 
 *[!DNL Google Ads]e [!DNL Microsoft Advertising] account*
 
-[!DNL Google Ads] e [!DNL Microsoft Advertising] consigli e informazioni sono suggerimenti provenienti dalla rete di annunci per migliorare le prestazioni e l’efficienza delle campagne:
+I consigli e le informazioni su [!DNL Google Ads] e [!DNL Microsoft Advertising] sono suggerimenti provenienti dalla rete di annunci per migliorare le prestazioni e l&#39;efficienza delle campagne:
 
-* Ogni [!DNL Google Ads] Recommendations fornisce suggerimenti personalizzati sui diversi aspetti delle prestazioni di una campagna, dall’aggiunta di una risorsa all’aumento del budget, in base alla cronologia delle prestazioni del tuo account, alle impostazioni della campagna e alle tendenze per [!DNL Google Ads].
+* Ogni consiglio di [!DNL Google Ads] fornisce suggerimenti personalizzati sui diversi aspetti delle prestazioni di una campagna, dall&#39;aggiunta di una risorsa all&#39;aumento del budget, in base alla cronologia delle prestazioni del tuo account, alle impostazioni della campagna e alle tendenze in [!DNL Google Ads].
 
-* Ogni [!DNL Microsoft Advertising] performance insight e consigli suggeriscono modifiche per ottimizzare le prestazioni della campagna in base ad algoritmi di apprendimento automatico e best practice.
+* Ogni suggerimento e approfondimento sulle prestazioni di [!DNL Microsoft Advertising] suggerisce modifiche per ottimizzare le prestazioni delle campagne in base agli algoritmi di apprendimento automatico e alle best practice.
 
-## Il [!UICONTROL Recommendations & Publisher Insights] visualizza
+## Visualizzazione [!UICONTROL Recommendations & Publisher Insights]
 
-Entro [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights], è possibile:
+In [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights] è possibile:
 
-* Visualizza subito tutti i consigli supportati sui quali non è stata eseguita alcuna azione per un account. Le informazioni per ogni voce includono il tipo di consiglio, il [!DNL Adobe] consigli, le metriche interessate, l’entità interessata e un collegamento a ulteriori dettagli. Gli aumenti previsti delle metriche sono evidenziati in verde.
+* Visualizza subito tutti i consigli supportati sui quali non è stata eseguita alcuna azione per un account. Le informazioni per ogni voce includono il tipo di consiglio, il consiglio [!DNL Adobe], le metriche interessate, l&#39;entità interessata e un collegamento a ulteriori dettagli. Gli aumenti previsti delle metriche sono evidenziati in verde.
 
   ![Interfaccia utente Recommendations](/help/search-social-commerce/assets/recommendations-ui.png "Interfaccia utente Recommendations")
 
-  I dati sono disponibili in tempo reale all’apertura della visualizzazione. Per aggiornare i dati, fai clic su ![Aggiorna](/help/search-social-commerce/assets/refresh.png "Aggiorna") in basso a sinistra.
+  I dati sono disponibili in tempo reale all’apertura della visualizzazione. Per aggiornare i dati, fai clic su ![Aggiorna](/help/search-social-commerce/assets/refresh.png "Aggiorna") in basso a sinistra nella pagina.
 
-* Per [!DNL Microsoft Advertising] degli account, visualizza immediatamente ogni informazione sulle prestazioni generata negli ultimi 30 giorni per un [!DNL Microsoft Advertising] account. Gli approfondimenti forniscono informazioni simili ai consigli, ma in un formato diverso. Ogni informazione include la data, una descrizione del problema, l’entità interessata, la causa principale (che può includere collegamenti a ulteriori dettagli) e l’azione suggerita con un collegamento per aprire la [!DNL Microsoft Advertising] editor, da cui puoi agire in base a informazioni specifiche.
+* Per gli account [!DNL Microsoft Advertising], visualizzare immediatamente ogni informazione sulle prestazioni generata negli ultimi 30 giorni per un account [!DNL Microsoft Advertising]. Gli approfondimenti forniscono informazioni simili ai consigli, ma in un formato diverso. Ogni informazione include la data, una descrizione del problema, l&#39;entità interessata, la causa principale (che può includere collegamenti a ulteriori dettagli) e l&#39;azione suggerita con un collegamento per aprire l&#39;editor [!DNL Microsoft Advertising], da cui è possibile agire in base all&#39;informazione specifica.
 
 * Visualizza i dettagli di un consiglio e applicalo o annullalo direttamente.
 
@@ -53,29 +53,29 @@ Entro [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher 
 | | [!UICONTROL Sitelink extension] | Aggiungere estensioni sitelink a una campagna |
 | | [!UICONTROL Text ad] | Aggiungi un nuovo annuncio di testo |
 | [!UICONTROL Automated campaigns] | [!UICONTROL DSA to performance max migration] | Migrazione degli annunci per ricerca dinamica a campagne con prestazione massima |
-| | [!UICONTROL Dynamic image extension opt in] | Abilita le estensioni immagine dinamiche per l’account, che consentono [!DNL Google Ads] machine learning per aggiungere automaticamente all’annuncio le immagini più rilevanti dalla pagina di destinazione dell’annuncio |
+| | [!UICONTROL Dynamic image extension opt in] | Abilita le estensioni immagine dinamiche per l&#39;account, che consentono a [!DNL Google Ads] machine learning di aggiungere automaticamente all&#39;annuncio le immagini più rilevanti dalla pagina di destinazione dell&#39;annuncio |
 | | [!UICONTROL Improve performance max ad strength] | Migliorare la forza del gruppo di risorse di una campagna di massimizzazione delle prestazioni con una valutazione &quot;Eccellente&quot; |
 | | [!UICONTROL Performance max final URL opt in] | Attiva l’espansione finale dell’URL per le campagne con prestazione massima |
 | | [!UICONTROL Performance max opt in] | Consenso alle campagne con prestazione massima |
 | | [!UICONTROL Upgrade local campaign to performance max] | Aggiornare una campagna locale legacy a una campagna con prestazioni massime |
 | | [!UICONTROL Upgrade smart shopping campaign to performance max] | Aggiornare una campagna Smart Shopping legacy a una campagna con le massime prestazioni |
 | [!UICONTROL Bidding and budget] | [!UICONTROL Campaign budget] | Budget consigliato per una campagna attualmente limitata dal budget |
-| | [!UICONTROL Enhanced CPC opt in] | Offerta con [!UICONTROL Enhanced CPC] |
+| | [!UICONTROL Enhanced CPC opt in] | Fai un&#39;offerta con [!UICONTROL Enhanced CPC] |
 | | [!UICONTROL Forecasting campaign budget] | Budget consigliato per una campagna che in futuro dovrebbe diventare limitata dal budget |
 | | [!UICONTROL Forecasting set Target CPA] | Imposta un CPA di destinazione per le campagne senza una prima di un evento stagionale che si prevede aumenti il traffico |
 | | [!UICONTROL Forecasting set Target ROAS] | Aumentare il budget prima di un evento stagionale che prevede un aumento del traffico e modificare la strategia di offerta da [!UICONTROL Maximize Conversion Value] a [!UICONTROL Target ROAS] |
 | | [!UICONTROL Marginal ROI campaign budget] | Regolare il budget della campagna per aumentare il ROI |
-| | [!UICONTROL Maximize clicks opt in] | Cambia in [!UICONTROL Maximize Clicks] strategia di offerta |
+| | [!UICONTROL Maximize clicks opt in] | Modifica della strategia di offerta [!UICONTROL Maximize Clicks] |
 | | [!UICONTROL Maximize conversion value opt in] | Modifica della strategia di offerta Massimizza valore di conversione |
-| | [!UICONTROL Maximize conversions opt in] | Cambia in [!UICONTROL Maximize Conversions] strategia di offerta |
+| | [!UICONTROL Maximize conversions opt in] | Modifica della strategia di offerta [!UICONTROL Maximize Conversions] |
 | | [!UICONTROL Move unused budget] | Sposta il budget non utilizzato in un budget vincolato |
-| | [!UICONTROL Raise Target CPA bid too low] | Aumenta [!UICONTROL Target CPA] di una quantità consigliata quando è troppo bassa e ci sono poche o nessuna conversione |
+| | [!UICONTROL Raise Target CPA bid too low] | Aumentare [!UICONTROL Target CPA] di una quantità consigliata quando è troppo bassa e le conversioni sono poche o assenti |
 | | [!UICONTROL Set Target CPA] | Imposta un CPA di destinazione per le campagne senza |
 | | [!UICONTROL Set Target ROAS] | Imposta un ROAS di destinazione per le campagne senza un ROAS |
-| | [!UICONTROL Target CPA opt in] | Cambia in [!UICONTROL Target CPA] strategia di offerta |
-| | [!UICONTROL Target CPA raising] | Aumenta [!UICONTROL Target CPA] in base a [!DNL Google Ads] previsioni, calcolate da conversioni passate |
-| | [!UICONTROL Target ROAS lowering] | Abbassa il [!UICONTROL Target ROAS] in base a [!DNL Google Ads] previsioni, calcolate da conversioni passate |
-| | [!UICONTROL Target ROAS opt in] | Cambia in [!UICONTROL Target ROAS] strategia di offerta |
+| | [!UICONTROL Target CPA opt in] | Modifica della strategia di offerta [!UICONTROL Target CPA] |
+| | [!UICONTROL Target CPA raising] | Aumenta [!UICONTROL Target CPA] in base alle previsioni [!DNL Google Ads], calcolate dalle conversioni passate |
+| | [!UICONTROL Target ROAS lowering] | Abbassa [!UICONTROL Target ROAS] in base alle previsioni [!DNL Google Ads], calcolate dalle conversioni passate |
+| | [!UICONTROL Target ROAS opt in] | Modifica della strategia di offerta [!UICONTROL Target ROAS] |
 | [!UICONTROL Keywords and targeting] | [!UICONTROL Display expansion opt in] | Espandi la portata di accesso aggiornando una campagna per utilizzare l’espansione della visualizzazione |
 | | [!UICONTROL Keyword] | Aggiungi nuove parole chiave |
 | | [!UICONTROL Search partners opt in] | Espandi la portata con [!DNL Google] partner di ricerca |
@@ -91,7 +91,7 @@ Entro [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher 
 
 >[!MORELIKETHIS]
 >
->* [Visualizza i consigli dell’editore e informazioni sulle prestazioni](recommendation-view.md)
->* [Applicare o ignorare un consiglio dell’editore](recommendation-apply-dismiss.md)
->* [Visualizzare il registro dei consigli dell’editore per un account](recommendation-view-log.md)
->* [Best practice per l’utilizzo dei consigli degli editori con i portfolio](recommendation-best-practices.md)
+>* [Visualizza i consigli dell&#39;editore e informazioni sulle prestazioni](recommendation-view.md)
+>* [Applicare o ignorare un consiglio dell&#39;editore](recommendation-apply-dismiss.md)
+>* [Visualizza il registro dei consigli dell&#39;editore per un account](recommendation-view-log.md)
+>* [Best practice per l&#39;utilizzo dei consigli degli editori con i portfolio](recommendation-best-practices.md)

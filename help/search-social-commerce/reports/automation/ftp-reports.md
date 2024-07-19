@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Accesso FTP ai rapporti
 
-Facoltativamente, è possibile ricevere i rapporti in una posizione FTP di sola lettura, da cui è possibile recuperare i file per ulteriori processi automatizzati (ad esempio, per analizzare i dati con un altro programma). Tutti i report di base tranne [!UICONTROL Search Engine Account Report] e tutti i rapporti avanzati possono essere inviati a una posizione FTP come file TSV compressi (impostazione predefinita) o file CSV, con estensione .ZIP. Tutte le intestazioni di file TSV o CSV sono incluse e non possono essere eliminate.
+Facoltativamente, è possibile ricevere i rapporti in una posizione FTP di sola lettura, da cui è possibile recuperare i file per ulteriori processi automatizzati (ad esempio, per analizzare i dati con un altro programma). Tutti i report di base, tranne [!UICONTROL Search Engine Account Report] e tutti i report avanzati, possono essere inviati a una posizione FTP come file TSV compressi (impostazione predefinita) o CSV, con estensione .ZIP. Tutte le intestazioni di file TSV o CSV sono incluse e non possono essere eliminate.
 
 L&#39;accesso FTP ai rapporti richiede l&#39;accesso a un account FTP specificato ed è necessario impostare i modelli di rapporto utilizzando una convenzione di denominazione specifica e una pianificazione.
 
@@ -24,11 +24,11 @@ L&#39;accesso FTP ai rapporti richiede l&#39;accesso a un account FTP specificat
 
 ## Configurare modelli di rapporto per la consegna FTP
 
-Per generare rapporti nella directory FTP designata, crea un [modello di report](templates/template-create.md) con le seguenti convenzioni di denominazione e pianificazione.
+Per generare report nella directory FTP designata, crea un [modello di report](templates/template-create.md) con le seguenti convenzioni di denominazione e pianificazione.
 
 >[!NOTE]
 >
->Tutti i report avanzati e tutti i report di base ad eccezione di [!UICONTROL Search Engine Account Report] può essere recapitato a un percorso FTP.
+>Tutti i report avanzati e tutti i report di base ad eccezione di [!UICONTROL Search Engine Account Report] possono essere inviati a un percorso FTP.
 
 1. Nel modello di report, includere le seguenti informazioni in qualsiasi punto del nome del modello:
 
@@ -36,15 +36,15 @@ Per generare rapporti nella directory FTP designata, crea un [modello di report]
 
    * (Facoltativo) Una qualsiasi delle tre date di sistema, utilizzando la seguente sintassi con distinzione tra maiuscole e minuscole, comprese le parentesi:
 
-      * `[TODAY]` — Per includere la data, l&#39;ora e il minuto in cui è stato eseguito il report. Poiché include l’ora esatta, lo stesso modello può essere eseguito più volte al giorno senza sovrascrivere il rapporto precedente.
+      * `[TODAY]` - Per includere la data, l&#39;ora e il minuto in cui è stato eseguito il report. Poiché include l’ora esatta, lo stesso modello può essere eseguito più volte al giorno senza sovrascrivere il rapporto precedente.
 
-      * `[SDATE]` — Per includere la data di inizio dell&#39;intervallo di date del rapporto.
+      * `[SDATE]` - Per includere la data di inizio dell&#39;intervallo di date del report.
 
-      * `[EDATE]` — Per includere la data di fine dell&#39;intervallo di date del rapporto.
+      * `[EDATE]` - Per includere la data di fine dell&#39;intervallo di date del report.
 
-   * (Facoltativo) `[CSV]` (in lettere maiuscole e racchiuse tra parentesi quadre) per creare file in formato CSV anziché in formato TSV predefinito.
+   * (Facoltativo) `[CSV]` (in lettere maiuscole e tra parentesi) per creare file in formato CSV anziché in formato TSV predefinito.
 
-   Esempio: `[TODAY]-Portfolio-FTP-[SDATE]-[EDATE]-[CSV]` creerebbe un file come 202305051656-Portfoli-FTP-20230428-20110504.csv.
+   Esempio: `[TODAY]-Portfolio-FTP-[SDATE]-[EDATE]-[CSV]` creerebbe un file come 202305051656-Portfolio-FTP-20230428-20110504.csv.
 
 1. Pianifica l’esecuzione del rapporto a un’ora specifica.
 
@@ -57,7 +57,7 @@ Per generare rapporti nella directory FTP designata, crea un [modello di report]
 
 ## Accedere ai rapporti in un archivio FTP
 
-Per accedere ai rapporti, connettiti a uno dei seguenti host FTP, utilizzando l’accesso per il tuo account FTP (`amo<userID>rpt`, ad esempio amo1234rpt) e una password o una chiave di connessione privata, se impostata:
+Per accedere ai report, connettersi a uno dei seguenti host FTP utilizzando l&#39;account di accesso per l&#39;account FTP (`amo<userID>rpt`, ad esempio amo1234rpt) e una password o una chiave di connessione privata, se impostata:
 
 * Clienti internazionali: `ftp3.adobe.net`
 * Clienti USA: `ftp5.adobe.net`
@@ -69,4 +69,4 @@ Per accedere ai rapporti, connettiti a uno dei seguenti host FTP, utilizzando l�
 
 >[!MORELIKETHIS]
 >
->* [Creare un modello di rapporto](/help/search-social-commerce/reports/automation/templates/template-create.md)
+>* [Creare un modello di report](/help/search-social-commerce/reports/automation/templates/template-create.md)

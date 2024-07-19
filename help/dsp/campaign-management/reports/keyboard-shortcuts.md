@@ -16,14 +16,14 @@ Nelle impostazioni di posizionamento, utilizza le scelte rapide da tastiera per 
 
 | Pagina/e applicabile/i | Scelta rapida | Descrizione |
 | ---------------| ----------- | ---------------------- |
-| Impostazioni di posizionamento | o | Sposta l&#39;utente al [!UICONTROL Goals] impostazioni |
-| Impostazioni di posizionamento | g | Sposta l&#39;utente al [!UICONTROL Geos] impostazioni |
-| Impostazioni di posizionamento | i | Sposta l&#39;utente al [!UICONTROL Inventory] impostazioni |
-| Impostazioni di posizionamento | s | Sposta l&#39;utente al [!UICONTROL Sites] impostazioni |
-| Impostazioni di posizionamento | a | Sposta l&#39;utente al [!UICONTROL Audience] impostazioni |
-| Impostazioni di posizionamento | b | Sposta l&#39;utente al [!UICONTROL Brand Safety] impostazioni |
-| Impostazioni di posizionamento | t | Sposta l&#39;utente al [!UICONTROL Tracking] impostazioni |
-| Impostazioni di posizionamento | l | Sposta l&#39;utente al [!UICONTROL Adobe Labs] impostazioni |
+| Impostazioni di posizionamento | o | Sposta l&#39;utente nelle impostazioni [!UICONTROL Goals] |
+| Impostazioni di posizionamento | g | Sposta l&#39;utente nelle impostazioni [!UICONTROL Geos] |
+| Impostazioni di posizionamento | i | Sposta l&#39;utente nelle impostazioni [!UICONTROL Inventory] |
+| Impostazioni di posizionamento | s | Sposta l&#39;utente nelle impostazioni [!UICONTROL Sites] |
+| Impostazioni di posizionamento | a | Sposta l&#39;utente nelle impostazioni [!UICONTROL Audience] |
+| Impostazioni di posizionamento | b | Sposta l&#39;utente nelle impostazioni [!UICONTROL Brand Safety] |
+| Impostazioni di posizionamento | t | Sposta l&#39;utente nelle impostazioni [!UICONTROL Tracking] |
+| Impostazioni di posizionamento | l | Sposta l&#39;utente nelle impostazioni [!UICONTROL Adobe Labs] |
 
 {style="table-layout:auto"}
 
@@ -34,6 +34,6 @@ Nelle impostazioni di posizionamento, utilizza le scelte rapide da tastiera per 
 
 >[!MORELIKETHIS]
 >
->* [Creare un posizionamento](/help/dsp/campaign-management/placements/placement-create.md)
+>* [Crea un posizionamento](/help/dsp/campaign-management/placements/placement-create.md)
 >* [Modifica posizionamenti](/help/dsp/campaign-management/placements/placement-edit.md)
->* [Impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [Impostazioni posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)

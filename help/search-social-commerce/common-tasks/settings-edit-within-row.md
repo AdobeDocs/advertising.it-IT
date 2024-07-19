@@ -1,9 +1,9 @@
 ---
 title: Modificare le impostazioni direttamente all'interno di una riga
 description: Scopri come modificare i dati nelle visualizzazioni di gestione all’interno della riga.
-exl-id: 54625fc5-0e7d-4474-9789-61e04ffbb44f
+exl-id: 0b22a2ec-50c2-457d-8cea-a40943ee2a41
 feature: Search Common Tasks
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
@@ -22,9 +22,9 @@ ht-degree: 0%
 
    * (Opzioni in un elenco) Selezionare una nuova opzione dall&#39;elenco.
 
-   * (Date) Inserisci una nuova data o fai clic su ![Calendario](/help/search-social-commerce/assets/calendar.png "Calendario") per aprire il calendario e [seleziona una nuova data](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md).
+   * (Date) Immettere una nuova data oppure fare clic su ![Calendario](/help/search-social-commerce/assets/calendar.png "Calendario") per aprire il calendario e [selezionare una nuova data](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md).
 
-   * (Valori in formato libero) Immettere un nuovo valore e quindi fare clic su ![Salva](/help/search-social-commerce/assets/select.png "Salva") oppure premere il tasto **Invio** chiave.
+   * (Valori in formato libero) Immettere un nuovo valore, quindi fare clic su ![Salva](/help/search-social-commerce/assets/select.png "Salva") o premere il tasto **Invio**.
 
    >[!MORELIKETHIS]
    >

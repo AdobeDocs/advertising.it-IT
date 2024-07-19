@@ -7,11 +7,11 @@ ht-degree: 0%
 ---
 # Modello di annuncio testuale - Metodo mappa gruppo di annunci
 
-**[!UICONTROL Map Method]:** (Quando [!UICONTROL Map Only] è abilitato per i gruppi di annunci; tutte le reti di annunci eccetto [!DNL Yandex]) Il metodo con cui le nuove parole chiave e gli annunci vengono mappati ai gruppi di annunci esistenti:
+**[!UICONTROL Map Method]:** (Quando [!UICONTROL Map Only] è abilitato per i gruppi di annunci; tutte le reti di annunci tranne [!DNL Yandex]) Il metodo con cui le nuove parole chiave e gli annunci vengono mappati ai gruppi di annunci esistenti:
 
-* *[!UICONTROL Contains Anywhere]:* Aggiunge dati a un gruppo di annunci esistente il cui nome include la stringa specificata, se esistente.
+* *[!UICONTROL Contains Anywhere]:* aggiunge dati a un gruppo di annunci esistente il cui nome include la stringa specificata, se esistente.
 
-* *[!UICONTROL Contains Exactly]:* Aggiunge dati a un gruppo di annunci esistente il cui nome include la stringa specificata, se esistente.
+* *[!UICONTROL Contains Exactly]:* aggiunge dati a un gruppo di annunci esistente il cui nome include la stringa specificata, se esistente.
 
 * *[!UICONTROL Exactly Matches]* (impostazione predefinita): aggiunge dati a un gruppo di annunci esistente con lo stesso nome, se esistente.
 

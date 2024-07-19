@@ -14,24 +14,24 @@ ht-degree: 0%
 
 La modifica delle impostazioni del piano genera una nuova previsione.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Planner]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Planner]**.
 
 1. Posizionare il cursore sulla riga del piano e fare clic su **[!UICONTROL Edit]**.
 
-1. Modifica il [impostazioni piano](planner-settings.md).
+1. Modifica le [impostazioni del piano](planner-settings.md).
 
-1. Clic **[!UICONTROL Save and Forecast]**.
+1. Fare clic su **[!UICONTROL Save and Forecast]**.
 
    Una volta salvato il piano, viene visualizzato l&#39;output previsto.
 
-1. Per esportare il [!UICONTROL Budget vs Reach] previsione a un [!DNL Microsoft Excel] foglio di calcolo** fare clic su **[!UICONTROL ...]** in alto a destra, quindi fai clic su **[!UICONTROL Export]**.
+1. (Facoltativo) Per esportare la previsione [!UICONTROL Budget vs Reach] in un foglio di calcolo [!DNL Microsoft Excel]**, fare clic su **[!UICONTROL ...]** in alto a destra, quindi su **[!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni sullo strumento DSP Planner](planner-about.md)
->* [Creazione di un piano di copertura TV collegata](planner-create.md)
->* [Duplicare un piano di portata TV collegato](planner-duplicate.md)
->* [Esportazione di un piano di copertura TV collegato](planner-export.md)
+>* [Crea un piano di copertura TV collegato](planner-create.md)
+>* [Duplicare un piano di copertura TV collegata](planner-duplicate.md)
+>* [Esporta un piano di copertura TV collegato](planner-export.md)
 >* [Rigenerare la previsione per un piano di copertura TV collegato](planner-forecast.md)
->* [Archiviare un piano di portata TV collegato](planner-archive.md)
->* [Impostazioni per i piani di copertura TV collegati](planner-settings.md)
+>* [Archivia un piano di copertura TV collegato](planner-archive.md)
+>* [Impostazioni per i piani di copertura TV connessi](planner-settings.md)

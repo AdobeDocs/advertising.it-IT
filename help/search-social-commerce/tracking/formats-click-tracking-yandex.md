@@ -1,11 +1,11 @@
 ---
-title: Formati di tracciamento dei clic per [!DNL Yandex]
-description: Scopri i formati di tracciamento dei clic per [!DNL Yandex] account.
-exl-id: cf1d6c4b-9bcd-4b82-919f-c14dbaff9a76
+title: Formati di tracciamento dei clic per  [!DNL Yandex]
+description: Scopri i formati di tracciamento dei clic per  [!DNL Yandex]  account.
+exl-id: bcbd369b-b98d-491c-a921-58bf79e01744
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -22,19 +22,19 @@ Esempio:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` è una variabile per l’ID univoco dell’inserzionista in Adobi Advertising.
+>* `<advertiser_ID>` è una variabile per l&#39;ID univoco dell&#39;inserzionista in Adobe Advertising.
 >
 >* Questo formato indica che il passaggio del token è abilitato per la campagna (impostazione predefinita). Se il passaggio del token è disabilitato, sostituire `cq?` dopo `<advertiser_ID>` con `c?`.
 >
->* `<the landing page>` è una variabile che rappresenta l’URL sul sito a cui vengono indirizzati gli utenti finali.
+>* `<the landing page>` è una variabile che rappresenta l&#39;URL del sito a cui sono indirizzati gli utenti finali.
 >
->* `source_type`  è il tipo di corrispondenza.
+>* `source_type` è il tipo di corrispondenza.
 >
->* `source` indica se l’annuncio è stato visualizzato su un sito basato su ricerche o contenuti.
+>* `source` indica se l&#39;annuncio è stato visualizzato su un sito basato su ricerche o contenuti.
 >
->* `position` è il numero di posizione dell’annuncio nel blocco. Per il traffico non di ricerca, il valore è &quot;0&quot;.
+>* `position` è il numero di posizione dell&#39;annuncio nel blocco. Per il traffico non di ricerca, il valore è &quot;0&quot;.
 >
->* `position_type` è il blocco in cui l’annuncio è stato mostrato [!DNL Yandex]. Valori possibili: &quot;premium&quot; (blocco superiore), &quot;other&quot; (blocco destro) o &quot;none&quot; (traffico non di ricerca).
+>* `position_type` è il blocco in cui l&#39;annuncio è stato mostrato su [!DNL Yandex]. Valori possibili: &quot;premium&quot; (blocco superiore), &quot;other&quot; (blocco destro) o &quot;none&quot; (traffico non di ricerca).
 
 >[!MORELIKETHIS]
 >

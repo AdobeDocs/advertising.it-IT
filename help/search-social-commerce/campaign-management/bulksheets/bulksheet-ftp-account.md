@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Facoltativamente, puoi caricare i file dei bulksheet per le reti di annunci supportate su un account FTP specifico per il recupero e la registrazione automatica. La directory viene analizzata ogni ora e i nuovi file vengono pubblicati nell&#39;ordine in cui vengono ricevuti.
 
-I file di bulksheet recuperati ed eventuali file di errore creati durante la registrazione sono elencati nella [!DNL Bulksheets] visualizzazione.
+I file di bulksheet recuperati ed eventuali file di errore creati durante la registrazione sono elencati nella visualizzazione [!DNL Bulksheets].
 
 >[!NOTE]
 >
@@ -29,4 +29,4 @@ I file di bulksheet recuperati ed eventuali file di errore creati durante la reg
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulla gestione dei dati della campagna tramite bulksheet](bulksheet-about.md)
->* [Carica un file di bulksheet o un file di errore corretto](bulksheet-upload.md)
+>* [Caricare un bulksheet o correggere un file di errore](bulksheet-upload.md)

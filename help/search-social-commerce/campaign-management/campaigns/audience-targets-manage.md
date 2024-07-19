@@ -1,6 +1,6 @@
 ---
 title: Gestire i target di pubblico per campagne e gruppi di annunci
-description: Scopri come configurare e gestire i target di pubblico per il tuo [!DNL Google Ads] e [!DNL Microsoft Advertising] campagne e gruppi di annunci.
+description: Scopri come configurare e gestire i target del pubblico per le campagne e i gruppi di annunci  [!DNL Google Ads] e [!DNL Microsoft Advertising] .
 exl-id: 9a496d15-082d-44e1-a0a3-71356e24b932
 feature: Search Campaign Management
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 ---
 
-# Gestisci i target di pubblico per il tuo [!DNL Google Ads] e [!DNL Microsoft Advertising] campagne e gruppi di annunci
+# Gestisci i target del pubblico per le campagne e i gruppi di annunci [!DNL Google Ads] e [!DNL Microsoft Advertising]
 
-*[!DNL Google Ads]e [!DNL Microsoft Advertising] solo*
+Solo *[!DNL Google Ads]e [!DNL Microsoft Advertising]*
 
-[!DNL Google Ads] campagne e gruppi di annunci, e [!DNL Microsoft Advertising] gruppi di annunci, può rivolgersi a tipi di pubblico specifici dalla stessa rete di annunci. La rete di annunci determina la dimensione del pubblico che deve essere targetizzabile.
+[!DNL Google Ads] campagne e gruppi di annunci e [!DNL Microsoft Advertising] gruppi di annunci possono eseguire il targeting di tipi di pubblico specifici dalla stessa rete di annunci. La rete di annunci determina la dimensione del pubblico che deve essere targetizzabile.
 
 >[!NOTE]
 >
@@ -24,43 +24,43 @@ Puoi configurare i target del pubblico, modificare i modificatori di offerte per
 
 ## Configurare i target del pubblico
 
-1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
 
-1. Nella barra degli strumenti sopra la tabella dati, fai clic su ![Crea](/help/search-social-commerce/assets/add.png "Crea").
+1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Crea](/help/search-social-commerce/assets/add.png "Crea").
 
-1. Seleziona la rete di annunci e il nome dell’account, quindi fai clic su **[!UICONTROL Continue]**.
+1. Selezionare la rete di annunci e il nome account, quindi fare clic su **[!UICONTROL Continue]**.
 
 1. Configura i target del pubblico per campagne e gruppi di annunci specifici:
 
    1. Seleziona i tipi di pubblico applicabili per la rete di annunci specificata.
 
-      Facoltativamente, puoi cercare tipi di pubblico che contengono una stringa di testo specifica con un minimo di tre caratteri. Per qualsiasi pubblico corrispondente, fai clic su **[!UICONTROL Include]** per selezionarlo.
+      Facoltativamente, puoi cercare tipi di pubblico che contengono una stringa di testo specifica con un minimo di tre caratteri. Per qualsiasi pubblico corrispondente, fare clic su **[!UICONTROL Include]** per selezionarlo.
 
-      [!DNL Google Ads] i tipi di pubblico di customer match sono disponibili solo per le campagne di ricerca e shopping.
+      I tipi di pubblico di [!DNL Google Ads] customer match sono disponibili solo per le campagne di ricerca e shopping.
 
    1. Specificare le destinazioni:
 
       1. (Facoltativo) Per espandere una campagna e i relativi gruppi di annunci secondari, fai clic sul nome della campagna.
 
-      1. (Facoltativo) Per filtrare un elenco di campagne o di gruppi di annunci in base a una stringa di testo inclusa nel nome, fai clic su ![Filtro](/help/search-social-commerce/assets/filter.png "Filtro") , immettere o incollare la stringa di testo nel campo di input, quindi premere **[!UICONTROL Enter]** chiave.
+      1. (Facoltativo) Per filtrare un elenco di campagne o un elenco di gruppi di annunci in base a una stringa di testo inclusa nel nome, fai clic su ![Filtro](/help/search-social-commerce/assets/filter.png "Filtro") , immetti o incolla la stringa di testo nel campo di input, quindi premi il tasto **[!UICONTROL Enter]**.
 
-      1. Specifica la destinazione di ciascuna campagna e gruppo di annunci per la rete di annunci specificata facendo clic sul cerchio vuoto adiacente in modo che un segno di spunta blu (![Seleziona](/help/search-social-commerce/assets/include.png "Seleziona")).
+      1. Specifica ogni campagna e destinazione gruppo di annunci per la rete di annunci specificata facendo clic sul cerchio vuoto adiacente in modo da visualizzare un segno di spunta blu (![Seleziona](/help/search-social-commerce/assets/include.png "Seleziona")).
 
       Non puoi configurare una destinazione sia per una campagna principale che per un gruppo di annunci secondario (che utilizza automaticamente la destinazione).
 
-1. Clic **[!UICONTROL Post]**.
+1. Fare clic su **[!UICONTROL Post]**.
 
-1. (Facoltativo) Imposta una rettifica dell&#39;offerta per l&#39;obiettivo in uno dei seguenti modi a partire dal [!UICONTROL Targets] visualizza:
+1. (Facoltativo) Impostare un adeguamento dell&#39;offerta per l&#39;obiettivo in uno dei seguenti modi dalla vista [!UICONTROL Targets]:
 
-   * Fai clic su nella **[!UICONTROL Bid Adjustment]** e immettere un valore.
+   * Fare clic nella colonna **[!UICONTROL Bid Adjustment]** e immettere un valore.
 
-   * Selezionare la casella di controllo accanto alla riga di destinazione. Nella barra degli strumenti , fai clic su ![Modifica](/help/search-social-commerce/assets/edit.png "Modifica"), immetti il modificatore di offerta e quindi fai clic su **[!UICONTROL Post]**.
+   * Selezionare la casella di controllo accanto alla riga di destinazione. Nella barra degli strumenti fare clic su ![Modifica](/help/search-social-commerce/assets/edit.png "Modifica"), immettere il modificatore di offerta e quindi fare clic su **[!UICONTROL Post]**.
 
    I valori possono includere:
 
-   * *0%:* Per non regolare le offerte per gli annunci per questo pubblico.
+   * *0%:* per non regolare le offerte per gli annunci per questo pubblico.
 
-   * /[*Altri valori da -90% a 900%*/]: per aumentare o diminuire l’offerta di annunci per questo pubblico. Ad esempio, se l’offerta a livello di parola chiave è 1 USD e la regolazione dell’offerta per un target di pubblico specifico è del 50%, l’offerta per quel pubblico aumenta a 1,50 USD.
+   * /[*Altri valori da -90% a 900%*/]: per aumentare o diminuire l&#39;offerta per gli annunci per questo pubblico. Ad esempio, se l’offerta a livello di parola chiave è 1 USD e la regolazione dell’offerta per un target di pubblico specifico è del 50%, l’offerta per quel pubblico aumenta a 1,50 USD.
 
 ## Modificare il modificatore di offerta per i target di pubblico
 
@@ -70,35 +70,35 @@ Puoi modificare il modificatore di offerta e lo stato dei target del pubblico pe
 >
 >Search, Social e Commerce ottimizzano automaticamente il modificatore di offerta quando la campagna principale utilizza la strategia di offerta CPC ed è in un portfolio configurato per ottimizzare automaticamente i valori di regolazione delle offerte per i target di pubblico.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
 
 1. Effettuare una delle seguenti operazioni:
 
-   * Per modificare un modificatore di offerta per una destinazione, fai clic su in **[!UICONTROL Bid Adjustment]** e modificare la rettifica dell’offerta.
+   * Per modificare un modificatore di offerta per una destinazione, fare clic nella colonna **[!UICONTROL Bid Adjustment]** e modificare la regolazione dell&#39;offerta.
 
    * Per modificare un modificatore di offerta per una o più destinazioni, effettuare le seguenti operazioni:
 
       1. Selezionare la casella di controllo accanto a ogni destinazione da modificare.
 
-         Per suggerimenti sulla selezione di più righe, vedere &quot;[Seleziona più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+         Per suggerimenti sulla selezione di più righe, vedere &quot;[Selezionare più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-      1. Nella barra degli strumenti sopra la tabella dati, fai clic su ![Modifica](/help/search-social-commerce/assets/edit.png "Modifica").
+      1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Modifica](/help/search-social-commerce/assets/edit.png "Modifica").
 
-      1. Modifica il **[!UICONTROL Bid Modifier]** e/o **[!UICONTROL Status]** campi.
+      1. Modificare i campi **[!UICONTROL Bid Modifier]** e/o **[!UICONTROL Status]**.
 
-         Per [!UICONTROL Bid Modifier] , sono disponibili opzioni per modificare i valori esistenti in un valore specificato o per aumentare o diminuire l&#39;importo di una percentuale o di un importo monetario specificato, con un limite.
+         Per il campo [!UICONTROL Bid Modifier], sono disponibili opzioni per modificare i valori esistenti in un valore specificato o per aumentare o diminuire l&#39;importo di una percentuale o importo monetario specificato, con un limite.
 
          Per un valore impostato, il valore può includere:
 
-         * *0%:* Per non regolare le offerte per gli annunci per questo pubblico.
+         * *0%:* per non regolare le offerte per gli annunci per questo pubblico.
 
-         * /[*Altri valori da -90% a 900%*/]: per aumentare o diminuire l’offerta di annunci per questo pubblico. Ad esempio, se l’offerta a livello di parola chiave è 1 USD e la regolazione dell’offerta per un target di pubblico specifico è del 50%, l’offerta per quel pubblico aumenta a 1,50 USD.
+         * /[*Altri valori da -90% a 900%*/]: per aumentare o diminuire l&#39;offerta per gli annunci per questo pubblico. Ad esempio, se l’offerta a livello di parola chiave è 1 USD e la regolazione dell’offerta per un target di pubblico specifico è del 50%, l’offerta per quel pubblico aumenta a 1,50 USD.
 
          Per più destinazioni, le modifiche vengono applicate a tutte le destinazioni selezionate.
 
-      1. (Facoltativo) Fai clic su **[!UICONTROL Additional Details]** e facoltativamente inserire il nome e la descrizione del progetto.
+      1. (Facoltativo) Fare clic su **[!UICONTROL Additional Details]** e, facoltativamente, immettere un nome e una descrizione per il progetto.
 
-      1. Clic **[!UICONTROL Post]**.
+      1. Fare clic su **[!UICONTROL Post]**.
 
 ## Modificare lo stato dei target di pubblico
 
@@ -106,21 +106,21 @@ Puoi mettere in pausa un target di pubblico attivo per disabilitare le offerte s
 
 Puoi anche eliminare un target di pubblico di ricerca attivo o in pausa.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
 
 1. (Facoltativo) Filtra l’elenco per includere target di pubblico specifici.
 
 1. Seleziona la casella di controllo accanto a ogni pubblico di destinazione di cui desideri modificare lo stato.
 
-   Per suggerimenti sulla selezione di più righe, vedere &quot;[Seleziona più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+   Per suggerimenti sulla selezione di più righe, vedere &quot;[Selezionare più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
 1. Nella barra degli strumenti, fai clic sul pulsante di stato:
 
-   * Per attivare le righe, fai clic su ![Attiva](/help/search-social-commerce/assets/activate.png "Attiva").
+   * Per attivare le righe, fare clic su ![Attiva](/help/search-social-commerce/assets/activate.png "Attiva").
 
    * Per sospendere le righe, fare clic su ![Pausa](/help/search-social-commerce/assets/pause.png "Pausa").
 
-   * Per eliminare le righe, fare clic su ![Altre azioni](/help/search-social-commerce/assets/more.png "Altre azioni") e seleziona **[!UICONTROL Delete]**. Nel messaggio di conferma, fai clic su **[!UICONTROL Delete]**.
+   * Per eliminare le righe, fare clic su ![Altre azioni](/help/search-social-commerce/assets/more.png "Altre azioni") e selezionare **[!UICONTROL Delete]**. Nel messaggio di conferma, fare clic su **[!UICONTROL Delete]**.
 
 >[!MORELIKETHIS]
 >

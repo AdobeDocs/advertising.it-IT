@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # Campo di stato nelle impostazioni annuncio
 
-**[!UICONTROL Status]:** Lo stato di visualizzazione dell’annuncio: *Attivo* (per abilitare le offerte; impostazione predefinita), *In pausa* (per disabilitare l&#39;offerta), oppure *Eliminato* (per eliminare l’annuncio; solo annunci esistenti).
+**[!UICONTROL Status]:** Lo stato di visualizzazione dell&#39;annuncio: *Attivo* (per abilitare l&#39;offerta; impostazione predefinita), *In pausa* (per disabilitare l&#39;offerta) o *Eliminato* (per eliminare l&#39;annuncio; solo annunci esistenti).

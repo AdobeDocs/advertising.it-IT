@@ -20,26 +20,26 @@ Nascondi un posizionamento non utilizzato dall’archiviazione. L’unica azione
 
 ## Archiviare un posizionamento
 
-1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 1. Fai clic sul nome della campagna.
-1. Nel sottomenu, fai clic su **[!UICONTROL Placements]**.
-1. Accanto al nome del posizionamento, fate clic su  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
-1. Nel messaggio di conferma, fai clic su **[!UICONTROL Archive]**.
+1. Nel sottomenu fare clic su **[!UICONTROL Placements]**.
+1. Accanto al nome del posizionamento, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
+1. Nel messaggio di conferma, fare clic su **[!UICONTROL Archive]**.
 
 >[!NOTE]
 >
->Per visualizzare i posizionamenti archiviati, filtra [!UICONTROL Placements] view: click ![Pulsante Filtro](/help/dsp/assets/filter.png), fai clic su **[!UICONTROL Placement status]** e seleziona **[!UICONTROL Archived]** e quindi fare clic su **[!UICONTROL Apply].**
+>Per visualizzare i posizionamenti archiviati, filtrare la visualizzazione [!UICONTROL Placements]: fare clic su ![Pulsante filtro](/help/dsp/assets/filter.png), fare clic su **[!UICONTROL Placement status]** e selezionare **[!UICONTROL Archived]**, quindi fare clic su **[!UICONTROL Apply].**
 
 ## Annullare l’archiviazione di un posizionamento
 
-1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 1. Fai clic sul nome della campagna.
-1. Nel sottomenu, fai clic su **[!UICONTROL Placements]**.
-1. Accanto al nome del posizionamento, fate clic su  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
-1. Nel messaggio di conferma, fai clic su **[!UICONTROL Unarchive]**.
+1. Nel sottomenu fare clic su **[!UICONTROL Placements]**.
+1. Accanto al nome del posizionamento, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
+1. Nel messaggio di conferma, fare clic su **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]
 >
->* [Sospendere o attivare un posizionamento](placement-pause-activate.md)
+>* [Sospendi o attiva un posizionamento](placement-pause-activate.md)
 >* [Modifica posizionamenti](placement-edit.md)
->* [Visualizzare il log delle modifiche per un posizionamento](placement-change-log.md)
+>* [Visualizza il log delle modifiche per un posizionamento](placement-change-log.md)

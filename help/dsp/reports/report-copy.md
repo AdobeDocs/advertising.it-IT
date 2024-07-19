@@ -5,8 +5,8 @@ feature: DSP Custom Reports
 exl-id: 20542bf8-69e9-44e0-9637-56b27f2de9ec
 source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 1%
+source-wordcount: '88'
+ht-degree: 0%
 
 ---
 
@@ -14,21 +14,20 @@ ht-degree: 1%
 
 Duplica un rapporto personalizzato per creare un nuovo rapporto con impostazioni simili.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Reports]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Reports]**.
 
-1. Nella colonna Opzioni della riga del report fare clic su **[!UICONTROL options]** > **[!UICONTROL Copy]**.
+1. Nella colonna Opzioni della riga del report, fare clic su **[!UICONTROL options]** > **[!UICONTROL Copy]**.
 
-1. (Facoltativo) Modifica il [impostazioni dei rapporti](/help/dsp/reports/report-settings.md) secondo necessità.
+1. (Facoltativo) Modifica le [impostazioni del report](/help/dsp/reports/report-settings.md) in base alle esigenze.
 
-   Il nome del rapporto, per impostazione predefinita, è &quot;\&lt;*nome rapporto esistente*\> \#2&quot; (o il numero successivo nella sequenza).
+   Il nome del report, per impostazione predefinita, è &quot;\&lt;*nome report esistente*\> \#2&quot; (o il numero successivo nella sequenza).
 
-1. Clic **[!UICONTROL Copy Custom Report]**
+1. Fai clic su **[!UICONTROL Copy Custom Report]**
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni sui report personalizzati](/help/dsp/reports/report-about.md)
->* [Creare un rapporto personalizzato](/help/dsp/reports/report-create.md)
->* [Modificare un rapporto personalizzato](/help/dsp/reports/report-edit.md)
+>* [Crea un report personalizzato](/help/dsp/reports/report-create.md)
+>* [Modifica un report personalizzato](/help/dsp/reports/report-edit.md)
 >* [Impostazioni report personalizzati](/help/dsp/reports/report-settings.md)
 >* [Colonne report disponibili](/help/dsp/reports/report-columns.md)
-

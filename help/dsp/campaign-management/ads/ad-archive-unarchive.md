@@ -18,27 +18,26 @@ Puoi annullare l’archiviazione di un annuncio per ripristinarne lo stato prece
 
 ## Archiviare un annuncio
 
-1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 1. Fai clic sul nome della campagna.
-1. Nel sottomenu, fai clic su **[!UICONTROL Ads]**.
-1. Accanto al nome dell’annuncio, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
-1. Nel messaggio di conferma, fai clic su **[!UICONTROL Archive]**.
+1. Nel sottomenu fare clic su **[!UICONTROL Ads]**.
+1. Accanto al nome dell&#39;annuncio, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
+1. Nel messaggio di conferma, fare clic su **[!UICONTROL Archive]**.
 
 >[!NOTE]
 >
->Per visualizzare gli annunci archiviati, filtra il [!UICONTROL Ads] view: click ![[!UICONTROL Filter] pulsante](/help/dsp/assets/filter.png), fai clic su **[!UICONTROL Ad status]** e seleziona **[!UICONTROL Archived]** e quindi fare clic su **[!UICONTROL Apply].**
+>Per visualizzare gli annunci archiviati, filtrare la visualizzazione [!UICONTROL Ads]: fare clic sul pulsante ![[!UICONTROL Filter]](/help/dsp/assets/filter.png), fare clic su **[!UICONTROL Ad status]** e selezionare **[!UICONTROL Archived]**, quindi fare clic su **[!UICONTROL Apply].**
 
 ## Annullare l’archiviazione di un annuncio
 
-1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 1. Fai clic sul nome della campagna.
-1. Nel sottomenu, fai clic su **[!UICONTROL Ads]**.
-1. Accanto al nome dell’annuncio, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
-1. Nel messaggio di conferma, fai clic su **[!UICONTROL Unarchive]**.
+1. Nel sottomenu fare clic su **[!UICONTROL Ads]**.
+1. Accanto al nome dell&#39;annuncio, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
+1. Nel messaggio di conferma, fare clic su **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]
 >
->* [Creare un singolo annuncio](ad-create.md)
->* [Creare più annunci di terze parti](ad-create-multiple.md)
->* [Modificare un annuncio](ad-edit.md)
-
+>* [Crea un annuncio singolo](ad-create.md)
+>* [Creazione di più annunci di terze parti](ad-create-multiple.md)
+>* [Modifica un annuncio](ad-edit.md)

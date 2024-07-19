@@ -1,11 +1,11 @@
 ---
 title: Esportare un file bulksheet generato o caricato
 description: Scopri come scaricare un file bulksheet, inclusi i file di errore e i file di convalida della pagina di destinazione.
-exl-id: a6b5d6a6-c719-45a5-a68a-91cf05a2b4e2
+exl-id: 25868c67-5e6e-4570-9d8f-1a56b9bb88ac
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Puoi scaricare qualsiasi file bulksheet generato o caricato, compresi i file di errore e i file di convalida della pagina di destinazione, per 30 giorni. I file vengono eliminati automaticamente 30 giorni dopo il caricamento o la generazione.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
 
-1. (Facoltativo) Sopra l’elenco dei bulksheet, [aggiungere filtri](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md) per limitare i file elencati.
+1. (Facoltativo) Sopra l&#39;elenco dei bulksheet, [aggiungi filtri](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md) per limitare i file elencati.
 
 1. Nell&#39;elenco bulksheet fare clic sul nome del file.
 
@@ -28,6 +28,6 @@ Puoi scaricare qualsiasi file bulksheet generato o caricato, compresi i file di 
 >
 >* [Informazioni sulla gestione dei dati della campagna tramite bulksheet](bulksheet-about.md)
 >* [Scaricare/creare un file bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
->* [Convalidare le pagine di destinazione in file bulksheet](bulksheet-validate-landing-pages.md)
->* [Pubblica i bulksheet o i file di errore corretti](bulksheet-post.md)
->* [Configurare un account FTP per il caricamento dei bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-ftp-account.md)
+>* [Convalida pagine di destinazione in file bulksheet](bulksheet-validate-landing-pages.md)
+>* [Pubblica bulksheet o file di errore corretti](bulksheet-post.md)
+>* [Configura un account FTP per caricare i bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-ftp-account.md)

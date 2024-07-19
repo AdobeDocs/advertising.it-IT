@@ -18,8 +18,8 @@ Tutti i posizionamenti messi in pausa prima della sospensione di una campagna ri
 
 ## Sospendere una campagna
 
-1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
-1. Accanto al nome della campagna, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
+1. Accanto al nome della campagna, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
 
 >[!NOTE]
 >
@@ -27,10 +27,10 @@ Tutti i posizionamenti messi in pausa prima della sospensione di una campagna ri
 
 ## Attivare una campagna
 
-1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
-1. Accanto al nome della campagna, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
+1. Accanto al nome della campagna, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
 
 >[!MORELIKETHIS]
 >
->* [Modificare una campagna](campaign-edit.md)
->* [Archiviare una campagna](campaign-archive-unarchive.md)
+>* [Modifica una campagna](campaign-edit.md)
+>* [Archivia una campagna](campaign-archive-unarchive.md)

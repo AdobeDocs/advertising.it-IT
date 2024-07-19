@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## Finanziamento account
 
-Assicurati che il tuo account abbia abbastanza credito per eseguire l&#39;intera campagna. Puoi controllare e ricaricare i fondi dell’account in [!UICONTROL Settings] > [!UICONTROL Account] o contattando il team del tuo account Adobe.
+Assicurati che il tuo account abbia abbastanza credito per eseguire l&#39;intera campagna. Puoi controllare e ricaricare i fondi dell&#39;account in [!UICONTROL Settings] > [!UICONTROL Account] o contattando il tuo Account Team Adobe.
 
 ## Stato della campagna
 
@@ -22,7 +22,7 @@ Conferma che le date e il budget della campagna siano impostati con precisione.
 
 ## Stato posizionamento
 
-Assicurati che lo stato del posizionamento sia &quot;[!UICONTROL Active]&quot; o &quot;[!UICONTROL Scheduled].&quot; Inoltre, verifica che gli altri parametri di posizionamento (come l’elenco del sito, il budget, l’obiettivo, le date del volo e la frequenza) siano corretti.
+Verificare che lo stato del posizionamento sia &quot;[!UICONTROL Active]&quot; o &quot;[!UICONTROL Scheduled].&quot; Inoltre, verifica che gli altri parametri di posizionamento (come l’elenco del sito, il budget, l’obiettivo, le date del volo e la frequenza) siano corretti.
 
 ## Stato annuncio
 
@@ -31,6 +31,5 @@ Conferma che tutti gli annunci sono allegati, approvati e attivi. Inoltre, verif
 >[!MORELIKETHIS]
 >
 >* [Impostazioni campagna](/help/dsp/campaign-management/campaigns/campaign-settings.md)
->* [Impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)
->* [Best practice per l’impostazione di campagne sulle prestazioni](/help/dsp/optimization/campaign-best-practices-performance.md)
-
+>* [Impostazioni posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [Procedure consigliate per l&#39;impostazione di campagne sulle prestazioni](/help/dsp/optimization/campaign-best-practices-performance.md)

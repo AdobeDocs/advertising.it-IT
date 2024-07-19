@@ -29,9 +29,9 @@ La previsione include le seguenti informazioni:
 
    * **[!UICONTROL Estimated CPM]:** Il costo stimato per mille impression (eCPM) che le impostazioni di targeting possono prevedere di raggiungere.
 
-   * **[!UICONTROL Budget]:** Budget stimato per le impostazioni di targeting.
+   * **[!UICONTROL Budget]:** Il budget stimato per le impostazioni di targeting.
 
-   * **[!UICONTROL Impression]:** Numero stimato di impression per le impostazioni di targeting.
+   * **[!UICONTROL Impression]:** Il numero stimato di impression per le impostazioni di targeting.
 
 * **[!UICONTROL Budget Yield Curve]:** Il numero stimato di impression che il posizionamento può fornire a diversi livelli di budget se tutte le altre impostazioni di targeting sono uguali.
 
@@ -67,13 +67,13 @@ La previsione include le seguenti informazioni:
 
 ## Apri il rapporto Previsione posizionamento
 
-1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 
-1. Fai clic sul nome della campagna, quindi fai clic su **[!UICONTROL Placements]**.
+1. Fare clic sul nome della campagna e quindi su **[!UICONTROL Placements]**.
 
-1. Accanto al nome del posizionamento, fate clic su  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+1. Accanto al nome del posizionamento, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
-1. Individua il **[!UICONTROL Forecast]** in alto a destra. Se necessario, fai clic su ![Previsione](/help/dsp/assets/placement-forecast.png).
+1. Individua la sezione **[!UICONTROL Forecast]** in alto a destra. Se necessario, fare clic su ![Previsione](/help/dsp/assets/placement-forecast.png).
 
    >[!NOTE]
    >
@@ -81,6 +81,6 @@ La previsione include le seguenti informazioni:
 
 >[!MORELIKETHIS]
 >
->* [Tipi di rapporti sulle prestazioni nelle visualizzazioni di Campaign Management](campaign-reports-about.md)
->* [Visualizzare i rapporti di diagnostica del posizionamento](/help/dsp/campaign-management/reports/placement-diagnostics.md)
->* [Impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [Tipi di report sulle prestazioni nelle visualizzazioni di Campaign Management](campaign-reports-about.md)
+>* [Visualizza i report di diagnostica posizionamento](/help/dsp/campaign-management/reports/placement-diagnostics.md)
+>* [Impostazioni posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)

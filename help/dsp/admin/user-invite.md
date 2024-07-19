@@ -18,19 +18,19 @@ Se necessario, puoi annullare l’invito di un utente con un invito in sospeso.
 
 1. Effettuare una delle seguenti operazioni:
 
-   * Nel menu principale, fai clic su **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
+   * Nel menu principale, fare clic su **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
 
-   * Nel menu principale, fai clic su **[!UICONTROL Settings]** > **[!UICONTROL Account]** e quindi fare clic su **[!UICONTROL Edit users]**.
+   * Nel menu principale fare clic su **[!UICONTROL Settings]** > **[!UICONTROL Account]** e quindi su **[!UICONTROL Edit users]**.
 
-1. In **[!UICONTROL Invitations]** , fare clic su **[!UICONTROL Send Invite]**.
+1. Nella sezione **[!UICONTROL Invitations]**, fare clic su **[!UICONTROL Send Invite]**.
 
-1. In **[!UICONTROL User Email]** , immettere l&#39;indirizzo di posta elettronica a cui inviare l&#39;invito.
+1. Nel campo **[!UICONTROL User Email]**, immettere l&#39;indirizzo di posta elettronica a cui inviare l&#39;invito.
 
-1. Clic **[!UICONTROL Send Invite]**.
+1. Fare clic su **[!UICONTROL Send Invite]**.
 
 >[!MORELIKETHIS]
 >
 >* [Invia di nuovo un invito utente in sospeso](user-resend-invite.md)
->* [Annullare l&#39;invito di un utente in sospeso](user-uninvite.md)
+>* [Annulla l&#39;invito di un utente in sospeso](user-uninvite.md)
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->

@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # Sostituisci il campo Tracciamento account nelle impostazioni della campagna
 
-**[!UICONTROL Override Account Tracking]:** (Facoltativo) Consente di impostare i parametri di tracciamento per questa campagna. Per impostazione predefinita, questa opzione è disattivata e la campagna utilizza i parametri di tracciamento a livello di account.
+**[!UICONTROL Override Account Tracking]:** (facoltativo) ti consente di impostare i parametri di tracciamento per questa campagna. Per impostazione predefinita, questa opzione è disattivata e la campagna utilizza i parametri di tracciamento a livello di account.

@@ -1,20 +1,20 @@
 ---
-title: '''[!DNL Baidu] impostazioni del gruppo di annunci'
-description: Fai riferimento alle impostazioni per [!DNL Baidu] gruppi di annunci.
-exl-id: 940c5d62-8646-4686-ad34-1fbabe69e1b3
+title: '[!DNL Baidu] impostazioni gruppo di annunci'
+description: Fai riferimento alle impostazioni per  [!DNL Baidu]  gruppi di annunci.
+exl-id: 1d480339-a8c8-4874-ad8e-d8973660682c
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---
 
-# [!DNL Baidu] impostazioni gruppo di annunci
+# Impostazioni gruppo di annunci [!DNL Baidu]
 
 ## [!UICONTROL Adgroup Details]
 
-**[!UICONTROL Ad Group Name]:** Un nome di gruppo di annunci univoco all’interno della campagna. La lunghezza massima è di 15 caratteri a doppio byte.
+**[!UICONTROL Ad Group Name]:** Nome di un gruppo di annunci univoco all&#39;interno della campagna. La lunghezza massima è di 15 caratteri a doppio byte.
 
 **[!UICONTROL Status]:** Lo stato di visualizzazione del gruppo di annunci: *Attivo* o *In pausa*. Il valore predefinito per i nuovi gruppi di annunci è *Attivo*.
 
@@ -36,4 +36,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Gestire i gruppi di annunci](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
+>* [Gestisci gruppi di annunci](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)

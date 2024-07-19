@@ -20,59 +20,59 @@ I dettagli richiesti per le destinazioni dei rapporti non e-mail variano a secon
 
 ## [!UICONTROL S3]
 
-**[!UICONTROL Name]:** Un nome per identificare la destinazione.
+**[!UICONTROL Name]:** Nome per identificare la destinazione.
 
-**[!UICONTROL S3 Bucket URL]:** Percorso completo della cartella sul [!DNL Amazon Simple Storage Service] (S3) bucket in cui viene caricato il rapporto. Esempio: `s3://dsp_account/reports`
+**[!UICONTROL S3 Bucket URL]:** Percorso completo della cartella nel bucket [!DNL Amazon Simple Storage Service] (S3) in cui viene caricato il report. Esempio: `s3://dsp_account/reports`
 
-**[!UICONTROL Access Key ID]:** L’ID della chiave di accesso a ([!DNL Amazon S3]) bucket (fornito da [!DNL Amazon]).
+**[!UICONTROL Access Key ID]:** ID della chiave di accesso al bucket ([!DNL Amazon S3]) (fornito da [!DNL Amazon]).
 
-**[!UICONTROL Secret Access Key]:** Chiave di accesso segreta a ([!DNL Amazon S3]) bucket (fornito da [!DNL Amazon]).
+**[!UICONTROL Secret Access Key]:** Chiave di accesso segreta al bucket ([!DNL Amazon S3]) (fornita da [!DNL Amazon]).
 
 ## [!UICONTROL FTP]
 
-**[!UICONTROL Name]:** Un nome per identificare la destinazione.
+**[!UICONTROL Name]:** Nome per identificare la destinazione.
 
-**[!UICONTROL Server]:** Il nome host del server.
+**[!UICONTROL Server]:** Il nome host per il server.
 
-**[!UICONTROL Port]:** Numero di porta da utilizzare sul server. Il valore predefinito è *[!UICONTROL 21]*.
+**[!UICONTROL Port]:** Numero di porta da utilizzare nel server. Il valore predefinito è *[!UICONTROL 21]*.
 
 **[!UICONTROL Username]:** Nome utente per accedere al server.
 
-**[!UICONTROL Password]:** Password per accedere al server.
+**[!UICONTROL Password]:** La password per accedere al server.
 
-**[!UICONTROL Path (Optional)]:** Percorso del server in cui vengono caricati i file.
+**[!UICONTROL Path (Optional)]:** Il percorso del server in cui vengono caricati i file.
 
 ## [!UICONTROL SFTP]
 
-**[!UICONTROL Name]:** Un nome per identificare la destinazione.
+**[!UICONTROL Name]:** Nome per identificare la destinazione.
 
-**[!UICONTROL Server]:** Il nome host del server.
+**[!UICONTROL Server]:** Il nome host per il server.
 
-**[!UICONTROL Port]:** Numero di porta da utilizzare sul server. Il valore predefinito è *[!UICONTROL 21]*.
+**[!UICONTROL Port]:** Numero di porta da utilizzare nel server. Il valore predefinito è *[!UICONTROL 21]*.
 
 **[!UICONTROL Username]:** Nome utente per accedere al server.
 
-**[!UICONTROL Password]:** Password per accedere al server.
+**[!UICONTROL Password]:** La password per accedere al server.
 
-**[!UICONTROL Path (Optional)]:** Percorso del server in cui vengono caricati i file.
+**[!UICONTROL Path (Optional)]:** Il percorso del server in cui vengono caricati i file.
 
 ## [!UICONTROL FTP SSL]
 
-**[!UICONTROL Name]:** Un nome per identificare la destinazione.
+**[!UICONTROL Name]:** Nome per identificare la destinazione.
 
-**[!UICONTROL Server]:** Il nome host del server.
+**[!UICONTROL Server]:** Il nome host per il server.
 
-**[!UICONTROL Port]:** Numero di porta da utilizzare sul server. Il valore predefinito è *[!UICONTROL 21]*.
+**[!UICONTROL Port]:** Numero di porta da utilizzare nel server. Il valore predefinito è *[!UICONTROL 21]*.
 
 **[!UICONTROL Username]:** Nome utente per accedere al server.
 
-**[!UICONTROL Password]:** Password per accedere al server.
+**[!UICONTROL Password]:** La password per accedere al server.
 
-**[!UICONTROL Path (Optional)]:** Percorso del server in cui vengono caricati i file.
+**[!UICONTROL Path (Optional)]:** Il percorso del server in cui vengono caricati i file.
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni su [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [Creare un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [Crea un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
 >* [Modifica un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
->* [Eliminare un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+>* [Elimina [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)

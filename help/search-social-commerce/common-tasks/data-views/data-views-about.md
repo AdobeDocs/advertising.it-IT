@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Nella maggior parte delle visualizzazioni dati di Campaign, puoi personalizzare i dati visualizzati all’interno della tabella dati. Puoi personalizzare i dati nei seguenti modi:
 
-* Modifica le impostazioni per l’intera vista predefinita per una vista entità specifica (ad esempio [!UICONTROL Campaigns]) per includere un ordine di colonna specifico, filtri, intervallo di date, regola di attribuzione e altro ancora e per applicare temporaneamente le impostazioni o salvarle. Puoi anche creare viste personalizzate aggiuntive e applicarle in qualsiasi momento.
+* Modificare le impostazioni dell&#39;intera visualizzazione predefinita per una visualizzazione di entità specifica (ad esempio [!UICONTROL Campaigns]) in modo da includere un ordine di colonna, filtri, intervallo di date, regola di attribuzione e altro ancora specifici, quindi applicare le impostazioni temporaneamente o salvarle. Puoi anche creare viste personalizzate aggiuntive e applicarle in qualsiasi momento.
 
-* Modificare le colonne e il relativo ordinamento da [!UICONTROL Columns] nella parte destra della barra degli strumenti o modificare rapidamente solo le colonne da qualsiasi intestazione di colonna nella visualizzazione.
+* Modificare le colonne e il relativo ordinamento dall&#39;icona [!UICONTROL Columns] sul lato destro della barra degli strumenti oppure modificare rapidamente solo le colonne da qualsiasi intestazione di colonna nella visualizzazione.
 
 * Nel pannello di navigazione a sinistra puoi effettuare le seguenti operazioni:
 

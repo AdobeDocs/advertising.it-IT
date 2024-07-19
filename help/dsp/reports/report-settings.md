@@ -12,163 +12,163 @@ ht-degree: 0%
 
 # Impostazioni report personalizzati
 
-**[!UICONTROL Name]** Il nome del rapporto. La lunghezza massima è di 180 caratteri.
+**[!UICONTROL Name]** Il nome del report. La lunghezza massima è di 180 caratteri.
 
-**[!UICONTROL Report Type]** Tipo di rapporto: *[!UICONTROL Custom]* (che include la maggior parte delle opzioni disponibili), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*,  *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*,  *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]*, o *[!UICONTROL Household Conversions]*.
+**[!UICONTROL Report Type]** Tipo di report: *[!UICONTROL Custom]* (che include la maggior parte delle opzioni disponibili), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*, *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*, *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]* o *[!UICONTROL Household Conversions]*.
 
-## [!UICONTROL Apply Filters] Sezione
+## Sezione [!UICONTROL Apply Filters]
 
 **[!UICONTROL Timezone]:** Il fuso orario per il reporting.
 
-**[!UICONTROL Observe Daylight Savings Time]:** Considera l’ora legale negli orari segnalati.
+**[!UICONTROL Observe Daylight Savings Time]:** considera l&#39;ora legale negli orari segnalati.
 
-**\[Intervallo date\]:** L’intervallo di date per il quale generare i dati. Il numero di giorni disponibili varia in base al rapporto e alle dimensioni selezionate. Sceglietene uno:
+**\[Intervallo date\]:** L&#39;intervallo di date per il quale generare i dati. Il numero di giorni disponibili varia in base al rapporto e alle dimensioni selezionate. Sceglietene uno:
 
-* **[!UICONTROL Previous N days]:** Include i dati per un numero specifico di giorni prima di oggi.
+* **[!UICONTROL Previous N days]:** include i dati per un numero specifico di giorni prima di oggi.
 
-* **[!UICONTROL Custom]:** Include i dati tra date di inizio e fine specifiche. Per segnalare i dati fino al giorno precedente, seleziona **[!UICONTROL Present]**.
+* **[!UICONTROL Custom]:** include dati tra date di inizio e fine specifiche. Per segnalare i dati relativi al giorno precedente, selezionare **[!UICONTROL Present]**.
 
-* **[!UICONTROL Last Calendar Month]:** Include i dati relativi al mese di calendario precedente.
+* **[!UICONTROL Last Calendar Month]:** include i dati per il mese di calendario precedente.
 
-**[!UICONTROL Add Filters]:** (Facoltativo) Dimensioni aggiuntive in base alle quali filtrare i dati, indipendentemente dal fatto che le dimensioni siano incluse o meno come colonne nel rapporto. I filtri disponibili variano in base al tipo di rapporto e possono includere: *[!UICONTROL Account]*\*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, * *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]*, e *[!UICONTROL Video Duration]*.
+**[!UICONTROL Add Filters]:** (facoltativo) dimensioni aggiuntive in base alle quali filtrare i dati, indipendentemente dal fatto che le dimensioni siano incluse o meno come colonne nel report. I filtri disponibili variano in base al tipo di report e possono includere: *[!UICONTROL Account]*\*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, * *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]* e *[!UICONTROL Video Duration]*.
 
-\* *[!UICONTROL Account]* è disponibile per i seguenti tipi di rapporto solo quando l’organizzazione è configurata per [reporting tra account](report-about.md#cross-account-reporting):  [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)], e [!UICONTROL Conversion]. Per ulteriori informazioni sul reporting tra account, contatta il team dell’account di Adobe.
+\* *[!UICONTROL Account]* è disponibile per i seguenti tipi di report solo quando l&#39;organizzazione è configurata per [rapporti tra account diversi](report-about.md#cross-account-reporting): [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] e [!UICONTROL Conversion]. Per ulteriori informazioni sul reporting tra account, contatta il team dell’account di Adobe.
 
 Per applicare uno o più filtri, effettuare le seguenti operazioni:
 
-* Selezionare una dimensione, quindi selezionare l&#39;operatore (*è uguale a* o *diverso da*), quindi selezionare il valore applicabile. Ad esempio, per restituire dati solo per gli annunci preroll, specifica &quot;[!UICONTROL Ad Type equals Preroll].&quot;
+* Selezionare una dimensione, selezionare l&#39;operatore (*uguale a* o *diverso da*), quindi selezionare il valore applicabile. Ad esempio, per restituire dati solo per gli annunci preroll, specificare &quot;[!UICONTROL Ad Type equals Preroll]&quot;.
 * (Facoltativo) Aggiungi criteri aggiuntivi al filtro.
 * (Facoltativo) Aggiungi altri filtri, ciascuno con uno o più criteri.
 
-## [!UICONTROL Build Your Report] Sezione
+## Sezione [!UICONTROL Build Your Report]
 
-**[!UICONTROL Select To Add As Report Headers]:**  Le colonne di dati, o intestazioni, da includere nel rapporto. Per aggiungere una colonna, espandere la categoria e selezionare la casella di controllo accanto al nome della colonna. Le colonne disponibili variano a seconda del rapporto e tutte le metriche non disponibili sono disabilitate. Le categorie di dati disponibili includono:
+**[!UICONTROL Select To Add As Report Headers]:** le colonne di dati, o intestazioni, da includere nel report. Per aggiungere una colonna, espandere la categoria e selezionare la casella di controllo accanto al nome della colonna. Le colonne disponibili variano a seconda del rapporto e tutte le metriche non disponibili sono disabilitate. Le categorie di dati disponibili includono:
 
 * [!UICONTROL Dimensions]
 
   >[!NOTE]
   >
-  > Il [!UICONTROL Household Reach & Frequency] il rapporto può includere una sola dimensione.
+  > Il report [!UICONTROL Household Reach & Frequency] può includere una sola dimensione.
 
 * [!UICONTROL Metrics]
 
   >[!NOTE]
   >
-  >Il [!UICONTROL Household Reach & Frequency] Il rapporto può includere metriche di sovrapposizione o metriche non di sovrapposizione, ma non entrambe.
+  >Il report [!UICONTROL Household Reach & Frequency] può includere metriche di sovrapposizione o metriche non di sovrapposizione, ma non entrambe.
 
 * [!UICONTROL Conversion Metrics] (ordinato per inserzionista)
 
 * [!UICONTROL Custom Goals] (ordinato per inserzionista)
 
-Consulta &quot;[Colonne report disponibili](report-columns.md)&quot; per le descrizioni di tutte le opzioni.
+Per le descrizioni di tutte le opzioni, vedere &quot;[Colonne report disponibili](report-columns.md)&quot;.
 
 **[!UICONTROL Drag to Re-Order Report Headers Below]:** Ordine delle intestazioni di colonna. Puoi trascinare e rilasciare qualsiasi colonna per personalizzare l’ordine.
 
-**[!UICONTROL Format]:** Se generare un rapporto in *[!UICONTROL CSV]* (valori separati da virgole) o *[!UICONTROL Tab]* (valori separati da tabulazioni).
+**[!UICONTROL Format]:** se generare un report in formato *[!UICONTROL CSV]* (valori separati da virgola) o *[!UICONTROL Tab]* (valori separati da tabulazione).
 
-**[!UICONTROL Headers]:** Se a *[!UICONTROL Include]* o *[!UICONTROL Do Not Include]* intestazioni di colonna.
+**[!UICONTROL Headers]:** se *[!UICONTROL Include]* o *[!UICONTROL Do Not Include]* intestazioni di colonna.
 
-## [!UICONTROL Multi-Touch Conversion Options] Sezione
+## Sezione [!UICONTROL Multi-Touch Conversion Options]
 
-**[!UICONTROL Attribution Rule Settings]:** Le impostazioni variano in base al tipo di rapporto:
+**[!UICONTROL Attribution Rule Settings]:** Le impostazioni variano in base al tipo di report:
 
-* **\[Tipo di attribuzione\]:** ([!UICONTROL Household Conversion] rapporti con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] colonne; solo per gli inserzionisti con tracciamento conversione Adobe Advertising) All’interno del rapporto, come attribuire i dati di conversione in una serie di eventi che portano a una conversione:
+* **\[Tipo di attribuzione\]:** ([!UICONTROL Household Conversion] report con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] colonne; solo per gli inserzionisti con Adobe Advertising di tracciamento delle conversioni) All&#39;interno del report, come attribuire i dati di conversione in una serie di eventi che portano a una conversione:
 
-   * *[!UICONTROL Unique]:* (Impostazione predefinita) Conta il numero di volte in cui un valore di dimensione (ad esempio un dispositivo o un posizionamento) si trovava sul percorso di conversione.
+   * *[!UICONTROL Unique]:* (impostazione predefinita) Conta il numero di volte in cui un valore di dimensione (ad esempio un dispositivo o un posizionamento) si trovava nel percorso di conversione.
 
-   * *[!UICONTROL Multi-Touch Attribution (MTA)]:*  Distribuisce il credito di ogni conversione in base alla frequenza di occorrenza del valore di dimensione (ad esempio un dispositivo o un posizionamento) nel percorso di conversione. Ad esempio, se il totale delle impression prima della conversione era 10, con 8 su CTV e 2 su Mobile, l&#39;80% del credito (0,8) viene assegnato agli schermi CTV e 0,2 a Mobile.
+   * *[!UICONTROL Multi-Touch Attribution (MTA)]:* distribuisce il credito di ogni conversione in base alla frequenza di occorrenza del valore di dimensione (ad esempio un dispositivo o un posizionamento) nel percorso di conversione. Ad esempio, se il totale delle impression prima della conversione era 10, con 8 su CTV e 2 su Mobile, l&#39;80% del credito (0,8) viene assegnato agli schermi CTV e 0,2 a Mobile.
 
-* **\[Tipo di regola\]:** (Tutti [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], e [!UICONTROL Site] rapporti con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] colonne; solo per gli inserzionisti con tracciamento delle conversioni di Adobi Advertising) All’interno del rapporto, come attribuire i dati di conversione in una serie di eventi che portano a una conversione. Puoi scegliere più di una regola se desideri confrontare le differenze tra le regole.
+* **\[Tipo di regola\]:** (tutti i report [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment] e [!UICONTROL Site] con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] colonne; solo per gli inserzionisti con Adobe Advertising di tracciamento delle conversioni) All&#39;interno del report, come attribuire i dati di conversione in una serie di eventi che portano a una conversione. Puoi scegliere più di una regola se desideri confrontare le differenze tra le regole.
 
   >[!NOTE]
   >
-  >I percorsi di conversione includono eventuali impression e clic all’interno degli intervalli di impression o lookback di clic dell’inserzionista, configurati in [!DNL Advertising Search, Social, & Commerce]. Ai clic viene data la preferenza alle impression durante l’attribuzione della conversione. Tutti i clic in un percorso di conversione ricevono il pieno credito in base alla regola di attribuzione. Il merito delle impression viene attribuito solo quando nel percorso di conversione non viene tracciato alcun clic.
+  >I percorsi di conversione includono eventuali impression e clic all&#39;interno degli intervalli di impression o di lookback dei clic dell&#39;inserzionista, configurati in [!DNL Advertising Search, Social, & Commerce]. Ai clic viene data la preferenza alle impression durante l’attribuzione della conversione. Tutti i clic in un percorso di conversione ricevono il pieno credito in base alla regola di attribuzione. Il merito delle impression viene attribuito solo quando nel percorso di conversione non viene tracciato alcun clic.
 
-   * *[!UICONTROL Last Event]:* Attribuisce le conversioni all’ultimo clic o impression nel percorso di conversione.
+   * *[!UICONTROL Last Event]:* attribuisce le conversioni all&#39;ultimo clic o all&#39;ultima impression nel percorso di conversione.
 
-   * *[!UICONTROL Weight Last More]:* Attribuisce le conversioni a tutti gli eventi nel percorso di conversione, ma attribuisce il maggior peso all’ultimo evento e successivamente meno peso agli eventi precedenti.
+   * *[!UICONTROL Weight Last More]:* attribuisce le conversioni a tutti gli eventi nel percorso di conversione, ma attribuisce il peso maggiore all&#39;ultimo evento e successivamente meno peso agli eventi precedenti.
 
-   * *[!UICONTROL Even Distribution]:* Attribuisce le conversioni in modo uguale a ciascun evento nel percorso di conversione.
+   * *[!UICONTROL Even Distribution]:* attribuisce le conversioni in modo uguale a ogni evento nel percorso di conversione.
 
-   * *[!UICONTROL Weight First More]:* Attribuisce le conversioni a tutti gli eventi nel percorso di conversione, ma attribuisce il maggior peso al primo evento e successivamente meno peso ai seguenti eventi.
+   * *[!UICONTROL Weight First More]:* attribuisce le conversioni a tutti gli eventi nel percorso di conversione, ma attribuisce il peso maggiore al primo evento e successivamente meno peso ai seguenti eventi.
 
-   * *[!UICONTROL First Event]:* Attribuisce le conversioni al primo clic o impression nel percorso di conversione.
+   * *[!UICONTROL First Event]:* attribuisce le conversioni al primo clic o all&#39;impression nel percorso di conversione.
 
-   * *[!UICONTROL U-shaped]:* Attribuisce la conversione a tutti gli eventi nel percorso di conversione, ma attribuisce il maggior peso al primo e all’ultimo evento, con un peso progressivamente inferiore agli eventi nel mezzo del percorso di conversione.
+   * *[!UICONTROL U-shaped]:* attribuisce la conversione a tutti gli eventi nel percorso di conversione, ma attribuisce il maggior peso al primo e all&#39;ultimo evento, con un peso progressivamente inferiore agli eventi nel mezzo del percorso di conversione.
 
-   * *[!UICONTROL Display Only]:*  Attribuisce le conversioni all’ultimo clic o impression DSP nel percorso di conversione. Ciò include video e annunci TV collegati ed esclude i clic su [!DNL Advertising Search, Social, & Commerce] annunci.
+   * *[!UICONTROL Display Only]:* attribuisce le conversioni all&#39;ultimo clic o impression DSP nel percorso di conversione. Ciò include video e annunci TV connessi ed esclude i clic sugli annunci [!DNL Advertising Search, Social, & Commerce].
 
    * *[!UICONTROL Social Only]:* Obsoleto
 
   <!-- See also [How Attribution Rules Are Calculated for Adobe Advertising](). -->
 
-* **Lookback** ([!UICONTROL Household Conversion] rapporti con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] colonne; solo per gli inserzionisti con tracciamento delle conversioni di Adobi Advertising) All’interno del rapporto, il numero massimo di giorni dopo un evento di impression in cui è possibile attribuirgli un evento di conversione. Il valore predefinito è *[!UICONTROL 30 days]* e il massimo è 92 giorni.
+* **Lookback:** ([!UICONTROL Household Conversion] report con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] colonne; solo per gli inserzionisti con Adobe Advertising di tracciamento delle conversioni) All&#39;interno del report, il numero massimo di giorni dopo un evento di impression a cui è possibile attribuire un evento di conversione. Il valore predefinito è *[!UICONTROL 30 days]* e il massimo è 92 giorni.
 
-**[!UICONTROL Paths as Columns]:**  (Tutti [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], e [!UICONTROL Site] rapporti con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] colonne) Quali tipi di conversioni segnalare quando si sono verificati eventi precedenti sullo stesso dispositivo. Puoi includere fino a tre tipi. Per ogni tipo selezionato, viene inclusa una colonna separata per ogni metrica di conversione e viene aggiunta una colonna con il suffisso specificato ([!UICONTROL (tl)], [!UICONTROL (ct)], o [!UICONTROL (vt)]):
+**[!UICONTROL Paths as Columns]:** (tutti i report [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment] e [!UICONTROL Site] con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] colonne) Quali tipi di conversioni segnalare quando si sono verificati eventi precedenti sullo stesso dispositivo. Puoi includere fino a tre tipi. Per ogni tipo selezionato, viene inclusa una colonna separata per ogni metrica di conversione e viene aggiunto il suffisso specificato ([!UICONTROL (tl)], [!UICONTROL (ct)] o [!UICONTROL (vt)]):
 
-* *[!UICONTROL Total (TL) = CT + VT \* VT weight]:* Include le conversioni attribuite ai clic (TC per click-through) e alle impression (VT per view-through). Le conversioni attribuite alle impression vengono moltiplicate per il peso view-through specificato. Il peso view-through predefinito è 100%, il che significa che le conversioni attribuite alle impression vengono conteggiate come il 100% del valore delle conversioni attribuite ai clic.
+* *[!UICONTROL Total (TL) = CT + VT \* VT weight]:* include conversioni attribuite ai clic (TC per click-through) e alle impression (VT per view-through). Le conversioni attribuite alle impression vengono moltiplicate per il peso view-through specificato. Il peso view-through predefinito è 100%, il che significa che le conversioni attribuite alle impression vengono conteggiate come il 100% del valore delle conversioni attribuite ai clic.
 
 * *[!UICONTROL With Clicks (CT)]:* Include solo le conversioni attribuite ai clic.
 
-* *[!UICONTROL Impressions Only (VT)]:* Include solo le conversioni attribuite alle impression perché non è stato tracciato alcun clic nel percorso di conversione.
+* *[!UICONTROL Impressions Only (VT)]:* include solo le conversioni attribuite alle impression perché nel percorso di conversione non è stato tracciato alcun clic.
 
-**[!UICONTROL Conversion Reporting Based On]:**  Come segnalare i dati di conversione:
+**[!UICONTROL Conversion Reporting Based On]:** Come segnalare i dati di conversione:
 
-* *[!UICONTROL Conversion Timestamp]:* (Impostazione predefinita) Le conversioni sono associate alla data di conversione.
+* *[!UICONTROL Conversion Timestamp]:* (impostazione predefinita) Le conversioni sono associate alla data di conversione.
 
-* *[!UICONTROL Event Timestamp]:* Le conversioni vengono riportate in base alla data dell’impression o del clic che ha causato la conversione, come determinato dal valore specificato [!UICONTROL Attribution Rule Settings].
+* *[!UICONTROL Event Timestamp]:* Le conversioni vengono segnalate in base alla data dell&#39;impression o del clic che ha causato la conversione, come determinato dal [!UICONTROL Attribution Rule Settings] specificato.
 
-## [!UICONTROL Add Report Destinations] Sezione
+## Sezione [!UICONTROL Add Report Destinations]
 
-**[!UICONTROL Destination Type]:** Scegliere uno dei seguenti tipi di destinazione:
+**[!UICONTROL Destination Type]:** Scegliere uno dei tipi di destinazione seguenti:
 
-* *[!UICONTROL S3]:* Per inviare il report completato a uno o più [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]), che è necessario specificare nella sezione **[!UICONTROL Destination Name]** campo.
-* *[!UICONTROL sFTP]:* Per inviare il rapporto completato a una o più posizioni SFTP, che devi specificare nella **[!UICONTROL Destination Name]** campo.
-* *[!UICONTROL FTP]:* Per inviare il report completato a una o più posizioni FTP, che è necessario specificare nella **[!UICONTROL Destination Name]** campo.
-* *[!UICONTROL FTP SSL](attualmente in versione beta):* Per inviare il report completato a una o più posizioni FTP SSL, che è necessario specificare nella **[!UICONTROL Destination Name]** campo.
-* *[!UICONTROL Email]:* Per specificare gli indirizzi e-mail a cui inviare i report completati o le notifiche se il report viene annullato a causa di errori.
+* *[!UICONTROL S3]:* Per inviare il report completato a una o più posizioni [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]), che è necessario specificare nel campo **[!UICONTROL Destination Name]**.
+* *[!UICONTROL sFTP]:* Per inviare il report completato a una o più posizioni SFTP, che è necessario specificare nel campo **[!UICONTROL Destination Name]**.
+* *[!UICONTROL FTP]:* Per inviare il report completato a una o più posizioni FTP, che è necessario specificare nel campo **[!UICONTROL Destination Name]**.
+* *[!UICONTROL FTP SSL](attualmente in Beta):* Per inviare il report completato a una o più posizioni SSL FTP, che è necessario specificare nel campo **[!UICONTROL Destination Name]**.
+* *[!UICONTROL Email]:* Specificare gli indirizzi e-mail a cui inviare i report completati o le notifiche se il report viene annullato a causa di errori.
 
 >[!NOTE]
 >
 > Una volta salvato il rapporto, non puoi modificare il tipo di destinazione.
 
-**[!UICONTROL Email]:** (Solo tipo di destinazione e-mail) Per ogni indirizzo, inserisci l’indirizzo e fai clic su **+**.
+**[!UICONTROL Email]:** (solo tipo di destinazione e-mail) Per ogni indirizzo, immettere l&#39;indirizzo e fare clic su **+**.
 
-**[!UICONTROL Destination Name]:** (Solo per tipi di destinazione S3, FTP, sFTP e FTP SSL) I nomi delle destinazioni dei rapporti a cui viene inviato il rapporto personalizzato.
+**[!UICONTROL Destination Name]:** (solo tipi di destinazione S3, FTP, sFTP e FTP SSL) i nomi delle destinazioni del report a cui viene inviato il report personalizzato.
 
 * Per specificare una destinazione esistente, selezionare un nome di destinazione dall&#39;elenco. Puoi selezionare separatamente più nomi di destinazione.
 
 * Per creare una nuova destinazione:
 
-   1. Clic **Aggiungi nuova destinazione**.
+   1. Fare clic su **Aggiungi nuova destinazione**.
 
-   1. Inserisci il [impostazioni di destinazione del rapporto](/help/dsp/reports/report-destinations/report-destination-settings.md)e fai clic su **Salva**.
+   1. Immetti le [impostazioni di destinazione del report](/help/dsp/reports/report-destinations/report-destination-settings.md) e fai clic su **Salva**.
 
-   1. Nelle impostazioni del rapporto, fai clic su **Aggiorna i nomi delle destinazioni.**
+   1. Nelle impostazioni del report, fare clic su **Aggiorna nomi di destinazione.**
 
       La nuova destinazione è ora disponibile dall’elenco delle destinazioni esistenti e, facoltativamente, può essere aggiunta al rapporto.
 
-**[!UICONTROL Frequency]:** (Per ogni [!UICONTROL Destination Name]) Frequenza di invio del rapporto alla destinazione: *[!UICONTROL Once]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, o *[!UICONTROL Monthly]*.
+**[!UICONTROL Frequency]:** (per ogni [!UICONTROL Destination Name]) Frequenza di invio del report alla destinazione: *[!UICONTROL Once]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]* o *[!UICONTROL Monthly]*.
 
-**[!UICONTROL Start Day]:** (Per ogni [!UICONTROL Destination Name] con un [!UICONTROL Frequency] di *[!UICONTROL Weekly]* o *[!UICONTROL Monthly]*) Il giorno in cui generare il rapporto. Per i rapporti settimanali, seleziona il giorno della settimana. Per i report mensili, selezionare il giorno numerico del mese.
+**[!UICONTROL Start Day]:** (Per ogni [!UICONTROL Destination Name] con [!UICONTROL Frequency] di *[!UICONTROL Weekly]* o *[!UICONTROL Monthly]*) Giorno in cui generare il report. Per i rapporti settimanali, seleziona il giorno della settimana. Per i report mensili, selezionare il giorno numerico del mese.
 
-## [!UICONTROL Save Report] Sezione
+## Sezione [!UICONTROL Save Report]
 
-**[!UICONTROL When to Generate]:** Quando generare il rapporto: *[!UICONTROL On Schedule]* o *[!UICONTROL Run Now]*. I rapporti pianificati vengono consegnati entro le 09:00 nel fuso orario dell’account.
+**[!UICONTROL When to Generate]:** Quando generare il report: *[!UICONTROL On Schedule]* o *[!UICONTROL Run Now]*. I rapporti pianificati vengono consegnati entro le 09:00 nel fuso orario dell’account.
 
-**[!UICONTROL End Date]:** La data di scadenza del rapporto, che può essere fino a quattro mesi. Prima della scadenza di un rapporto, tutti i destinatari e-mail specificati ricevono un avviso e-mail sette giorni e un giorno prima della data di scadenza. Per mantenere il rapporto più a lungo, modifica la data di scadenza nelle impostazioni del rapporto.
+**[!UICONTROL End Date]:** La data di scadenza del report, che può essere un massimo di quattro mesi. Prima della scadenza di un rapporto, tutti i destinatari e-mail specificati ricevono un avviso e-mail sette giorni e un giorno prima della data di scadenza. Per mantenere il rapporto più a lungo, modifica la data di scadenza nelle impostazioni del rapporto.
 
 >[!NOTE]
 >
->È possibile [eseguire un rapporto personalizzato in qualsiasi momento](report-run-now.md) dal [!UICONTROL Reports] visualizzazione.
+>È possibile [eseguire un report personalizzato in qualsiasi momento](report-run-now.md) dalla visualizzazione [!UICONTROL Reports].
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni sui report personalizzati](/help/dsp/reports/report-about.md)
->* [Creare un rapporto personalizzato](/help/dsp/reports/report-create.md)
->* [Duplicare un rapporto personalizzato](/help/dsp/reports/report-copy.md)
->* [Modificare un rapporto personalizzato](/help/dsp/reports/report-edit.md)
->* [Eseguire un rapporto personalizzato](/help/dsp/reports/report-run-now.md)
+>* [Crea un report personalizzato](/help/dsp/reports/report-create.md)
+>* [Duplica un report personalizzato](/help/dsp/reports/report-copy.md)
+>* [Modifica un report personalizzato](/help/dsp/reports/report-edit.md)
+>* [Esegui un report personalizzato](/help/dsp/reports/report-run-now.md)
 >* [Impostazioni report personalizzati](/help/dsp/reports/report-settings.md)
->* [Informazioni sulle destinazioni dei rapporti](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [Informazioni sulle destinazioni dei report](/help/dsp/reports/report-destinations/report-destination-about.md)
 >* [Colonne report disponibili](/help/dsp/reports/report-columns.md)

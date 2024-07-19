@@ -62,4 +62,4 @@ Ad esempio, puoi ricevere un avviso quando una campagna ha speso una determinata
 
 >[!MORELIKETHIS]
 >
->[Gestire le sottoscrizioni agli avvisi](alerts-manage.md)
+>[Gestione sottoscrizioni avvisi](alerts-manage.md)

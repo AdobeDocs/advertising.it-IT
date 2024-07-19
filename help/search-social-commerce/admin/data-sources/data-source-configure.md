@@ -1,80 +1,80 @@
 ---
-title: Configurare un [!DNL Google Analytics] visualizzare come origine dati
-description: Scopri come configurare un’origine dati da un [!DNL Google Analytics] visualizzazione.
+title: Configura una visualizzazione  [!DNL Google Analytics]  come origine dati
+description: Scopri come configurare un’origine dati da una visualizzazione  [!DNL Google Analytics] .
 role: User, Admin
-exl-id: 583cf9aa-861c-4faf-a707-1def4e983b93
+exl-id: 9e299e42-4971-49ea-a515-54a97eb13e0d
 feature: Search Admin, Search Data Sources
-source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
 
-# Configurare un [!DNL Google Analytics] visualizzare come origine dati
+# Configurare una visualizzazione [!DNL Google Analytics] come origine dati
 
-*Solo amministratori di agenzia, account manager di agenzia, account manager di Adobe e amministratori*
+*Solo amministratori di agenzia, account manager di agenzia, Adobi e amministratori*
 
-Puoi creare una sola origine dati per [!DNL Google Analytics] combinazione di account, proprietà e visualizzazione.
+È possibile creare un&#39;origine dati per ogni account, proprietà e combinazione di visualizzazioni di [!DNL Google Analytics].
 
 Per integrare le metriche per più proprietà o per più viste per una singola proprietà, imposta un’origine dati separata per ciascuna.
 
-1. [Eseguire tutti i prerequisiti per integrare [!DNL Google Analytics] account](data-source-prerequisites.md).
+1. [Esegui tutti i prerequisiti per l&#39;integrazione di  [!DNL Google Analytics] account](data-source-prerequisites.md).
 
-1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
 
-1. Nella barra degli strumenti sopra la tabella dati, fai clic su ![Crea](/help/search-social-commerce/assets/add.png "Crea").
+1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Crea](/help/search-social-commerce/assets/add.png "Crea").
 
-1. In [!UICONTROL Deployment Prerequisites] , selezionare la casella di controllo per confermare che la dimensione personalizzata &quot;ef_id&quot; richiesta sia implementata in [!DNL Google Analytics] e quindi fare clic su **[!UICONTROL Continue]**.
+1. Nella finestra di dialogo [!UICONTROL Deployment Prerequisites], selezionare la casella di controllo per confermare che la dimensione personalizzata &quot;ef_id&quot; richiesta è implementata nell&#39;account [!DNL Google Analytics], quindi fare clic su **[!UICONTROL Continue]**.
 
    Alcuni prerequisiti possono essere stati eseguiti da altri ruoli dell’organizzazione. Se hai domande sui prerequisiti, rivolgiti al team del tuo account Adobe.
 
-1. Inserisci il [impostazioni origine dati](data-source-settings.md):
+1. Immettere le [impostazioni dell&#39;origine dati](data-source-settings.md):
 
-   1. In **[!UICONTROL Connect to [!DNL Google Analytics]]** eseguire le operazioni seguenti.
+   1. Nella sezione **[!UICONTROL Connect to [!DNL Google Analytics]]** eseguire le operazioni seguenti.
 
-      1. Immetti l’ID numerico per [!DNL Google Analytics] account.
+      1. Immettere l&#39;ID numerico per l&#39;account [!DNL Google Analytics].
 
-      1. Immettere l&#39;indirizzo di posta elettronica da utilizzare per accedere ai dati per questa origine dati. L’indirizzo e-mail deve essere registrato in un [!DNL Google] e disporre delle autorizzazioni di &quot;lettura e analisi&quot; per [!DNL Google Analytics] account. Consulta la [istruzioni per l’assegnazione delle autorizzazioni utente in [!DNL Google Analytics]](https://support.google.com/analytics/answer/9305587).
+      1. Immettere l&#39;indirizzo di posta elettronica da utilizzare per accedere ai dati per questa origine dati. L&#39;indirizzo di posta elettronica deve essere registrato in un account [!DNL Google] e disporre delle autorizzazioni di lettura e analisi per l&#39;account [!DNL Google Analytics]. Consulta le [istruzioni per assegnare le autorizzazioni utente in [!DNL Google Analytics]](https://support.google.com/analytics/answer/9305587).
 
          >[!TIP]
          >
-         >Per assicurarsi che solo specifici [!DNL Google Analytics] le proprietà e le visualizzazioni sono disponibili in Adobi Advertising. effettua l’accesso utilizzando un indirizzo e-mail che abbia accesso solo a tali proprietà e visualizzazioni.
+         >Per accertarsi che solo specifiche proprietà e visualizzazioni di [!DNL Google Analytics] siano disponibili in Adobe Advertising, effettua l&#39;accesso utilizzando un indirizzo e-mail che abbia accesso solo a tali proprietà e visualizzazioni.
 
          >[!NOTE]
          >
-         >Se successivamente modifichi la password per questo account e-mail, tutte le connessioni aperte all’account e-mail vengono chiuse. Per riprendere la sincronizzazione dei dati, torna a questa pagina e [riautentica](data-source-reauthenticate.md).
+         >Se successivamente modifichi la password per questo account e-mail, tutte le connessioni aperte all’account e-mail vengono chiuse. Per riprendere la sincronizzazione dei dati, tornare a questa pagina e [autenticare](data-source-reauthenticate.md).
 
       1. Seleziona la casella di controllo per autorizzare l’Adobe Advertising ad accedere alle metriche per l’account.
 
-      1. Clic **[!UICONTROL Authenticate]**.
+      1. Fare clic su **[!UICONTROL Authenticate]**.
 
-   1. In [!UICONTROL Account Details] , specificare la proprietà e la visualizzazione per le metriche da importare. Inoltre, specifica la dimensione personalizzata compilata con il valore del parametro della stringa di query &quot;ef_id&quot;.
+   1. Nella sezione [!UICONTROL Account Details], specifica la proprietà e la visualizzazione per le metriche da importare. Inoltre, specifica la dimensione personalizzata compilata con il valore del parametro della stringa di query &quot;ef_id&quot;.
 
-   1. In [!UICONTROL Import Metrics] , specifica le metriche da includere nei feed.
+   1. Nella sezione [!UICONTROL Import Metrics], specifica le metriche da includere nei feed.
 
-      Impossibile rimuovere [!UICONTROL Pageviews], [!UICONTROL Sessions], [!UICONTROL Bounces], o [!UICONTROL Session Duration], inclusi automaticamente. Puoi aggiungere fino a 16 metriche o metriche valide aggiuntive senza dati.
+      Impossibile rimuovere [!UICONTROL Pageviews], [!UICONTROL Sessions], [!UICONTROL Bounces] o [!UICONTROL Session Duration], che sono inclusi automaticamente. Puoi aggiungere fino a 16 metriche o metriche valide aggiuntive senza dati.
 
       >[!WARNING]
       >
-      >[!DNL Google Analytics] consente fino a 10 metriche in un singolo feed di dati. Search, Social e Commerce possono supportare fino a due feed con un totale di 20 metriche, ma l’utilizzo di un secondo feed raddoppia le chiamate API a [!DNL Google Analytics]. Se disponi di molte metriche, seleziona solo quelle che desideri utilizzare negli obiettivi per l’ottimizzazione. Ulteriori informazioni su [quote e limiti di chiamata per le richieste API a [!DNL Google Analytics]](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas).
+      >[!DNL Google Analytics] consente fino a 10 metriche in un singolo feed di dati. Search, Social e Commerce possono supportare fino a due feed con un totale di 20 metriche, ma l&#39;utilizzo di un secondo feed raddoppia le chiamate API a [!DNL Google Analytics]. Se disponi di molte metriche, seleziona solo quelle che desideri utilizzare negli obiettivi per l’ottimizzazione. Ulteriori informazioni sulle [quote e sui limiti di chiamata per le richieste API a  [!DNL Google Analytics]](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas).
 
-   1. In [!UICONTROL Metric Tag] , inserisci il nome del tag da aggiungere a ciascuna metrica per l’origine dati.
+   1. Nella sezione [!UICONTROL Metric Tag] immettere il nome del tag da aggiungere a ogni metrica per l&#39;origine dati.
 
-1. In alto a destra, fai clic su **[!UICONTROL Post]**.
+1. In alto a destra, fare clic su **[!UICONTROL Post]**.
 
-   L&#39;origine dati è denominata &quot;AccountName > PropertyName > ViewName&quot; e viene attivata automaticamente. Per mettere in pausa l’origine dati, vedi &quot;[Sospendere un feed da un’origine dati](data-source-pause.md).&quot;
+   L&#39;origine dati è denominata &quot;AccountName > PropertyName > ViewName&quot; e viene attivata automaticamente. Per mettere in pausa l&#39;origine dati, vedere &quot;[Sospendere un feed da un Data Source](data-source-pause.md).&quot;
 
-   Le metriche sono disponibili il giorno successivo al completamento della sincronizzazione dati giornaliera, che inizia alle 05:00 nel fuso orario dell’inserzionista. Una volta disponibili, le metriche sono visibili in [[!UICONTROL Admin] > [!UICONTROL Conversions]](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md). Ogni nuova metrica di conversione è denominata &quot;`ga:backEndMetricName_propertyID_viewID`,&quot; dove &quot;backEndMetricName&quot; è il nome della metrica utilizzato dall’API. Il nome visualizzato per ogni nuova metrica di conversione è &quot;`friendlyMetricName_ga:MetricTag`,&quot; dove &quot;friendlyMetricName&quot; è il nome della metrica visualizzato in [!DNL Google Analytics] e &quot;MetricTag&quot; è il [!UICONTROL Metric Tag] definito nelle impostazioni dell’origine dati.
+   Le metriche sono disponibili il giorno successivo al completamento della sincronizzazione dati giornaliera, che inizia alle 05:00 nel fuso orario dell’inserzionista. Una volta disponibili, le metriche sono visibili in [[!UICONTROL Admin] > [!UICONTROL Conversions]](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md). Ogni nuova metrica di conversione è denominata &quot;`ga:backEndMetricName_propertyID_viewID`&quot;, dove &quot;backEndMetricName&quot; è il nome della metrica utilizzato dall&#39;API. Il nome visualizzato per ogni nuova metrica di conversione è &quot;`friendlyMetricName_ga:MetricTag`&quot;, dove &quot;friendlyMetricName&quot; è il nome della metrica visualizzato in [!DNL Google Analytics] e &quot;MetricTag&quot; è il [!UICONTROL Metric Tag] definito nelle impostazioni dell&#39;origine dati.
 
    Puoi aggiungere le metriche direttamente alle viste di gestione delle campagne e del portfolio, ai rapporti e agli obiettivi di ottimizzazione.
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulla sincronizzazione [!DNL Google Analytics] metriche di conversione](data-source-about.md)
->* [Prerequisiti per la configurazione di un [!DNL Google Analytics] origine dati](data-source-prerequisites.md)
->* [Modifica un [!DNL Google Analytics] origine dati](data-source-edit.md)
->* [Sospendere la sincronizzazione di un&#39;origine dati](data-source-pause.md)
->* [Autentica di nuovo un [!DNL Google Analytics] origine dati](data-source-reauthenticate.md)
+>* [Prerequisiti per la configurazione di un&#39;origine dati [!DNL Google Analytics] ](data-source-prerequisites.md)
+>* [Modifica origine dati [!DNL Google Analytics] ](data-source-edit.md)
+>* [Sospendi la sincronizzazione di un&#39;origine dati](data-source-pause.md)
+>* [Autentica nuovamente un&#39;origine dati [!DNL Google Analytics] ](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] impostazioni origine dati](data-source-settings.md)
 >* [Appendice - Disponibile [!DNL Google Analytics] metriche](data-source-ga-metrics.md)

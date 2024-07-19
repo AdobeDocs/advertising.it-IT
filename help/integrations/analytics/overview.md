@@ -1,6 +1,6 @@
 ---
-title: Panoramica di [!DNL Analytics for Advertising]
-description: Panoramica di [!DNL Analytics for Advertising]
+title: Panoramica di  [!DNL Analytics for Advertising]
+description: Panoramica di  [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
 source-git-commit: a0a3bb1e74ffc687118d0336a03dcc6164b67226
@@ -14,93 +14,93 @@ ht-degree: 0%
 
 *Inserzionisti con Advertising DSP e[!DNL Advertising Search, Social, & Commerce]*
 
-[!DNL Analytics for Advertising] integra Adobe Analytics e Adobi Advertising per estendere e migliorare le funzionalità di ciascun prodotto.
+[!DNL Analytics for Advertising] integra Adobe Analytics e Adobe Advertising per estendere e migliorare le funzionalità di ogni prodotto.
 
-L’integrazione consente agli inserzionisti di tenere traccia delle interazioni con i siti click-through e view-through nei loro [!DNL Analytics] consentendo ai brand di vedere in che modo la spesa pubblicitaria porta al coinvolgimento del sito e agli obiettivi aziendali critici.
+L&#39;integrazione consente agli inserzionisti di tenere traccia delle interazioni con i siti click-through e view-through nelle loro istanze [!DNL Analytics], consentendo ai brand di vedere in che modo la spesa pubblicitaria porta al coinvolgimento del sito e agli obiettivi aziendali critici.
 
-Inoltre, Adobi Advertising può accedere ai vasti dati di prime parti che [!DNL Analytics] raccoglie tramite [!DNL Analytics] tag già presenti nel sito. Ciò consente una gestione più solida del percorso, attività di remarketing di prime parti e reporting sui siti a pagamento. L’Adobe Advertising può ulteriormente utilizzare [!DNL Analytics] dati per l’ottimizzazione della spesa e delle offerte.
+Inoltre, Adobe Advertising può accedere ai vasti dati di prime parti che [!DNL Analytics] raccoglie utilizzando [!DNL Analytics] tag già presenti nel sito. Ciò consente una gestione più solida del percorso, attività di remarketing di prime parti e reporting sui siti a pagamento. Adobe Advertising può utilizzare ulteriormente i dati [!DNL Analytics] per l&#39;ottimizzazione delle spese e delle offerte.
 
-Se correttamente impiegati, [!DNL Analytics for Advertising] sfoca le linee di confine tra due ruoli tradizionali: gestione del percorso pubblicitario (l’atto di inviare utenti al sito tramite annunci pubblicitari) e comprensione del coinvolgimento del sito tramite analisi web.
+Se utilizzato correttamente, [!DNL Analytics for Advertising] offusca le linee tra due ruoli tradizionali: gestione del percorso pubblicitario (l&#39;atto di inviare utenti al sito tramite annunci pubblicitari) e comprensione del coinvolgimento del sito tramite analisi Web.
 
 Vantaggi principali:
 
-* Invia [!DNL Analytics] segmenti direttamente in Adobi Advertising per il remarketing del sito di prime parti.
-* Utilizzare [!DNL Analytics] eventi personalizzati e standard come segnali di conversione per ottimizzare la pubblicità a pagamento.
-* Sfruttare [!DNL Analytics] Analysis Workspace per comprendere meglio i punti di ingresso al sito e il comportamento delle visite.
+* Invia [!DNL Analytics] segmenti direttamente ad Adobe Advertising per il remarketing del sito di prime parti.
+* Utilizza [!DNL Analytics] eventi personalizzati e standard come segnali di conversione per ottimizzare la pubblicità multimediale a pagamento.
+* Utilizza [!DNL Analytics] Analysis Workspace per comprendere meglio i punti di ingresso al sito e il comportamento delle visite.
 * Consente una più stretta collaborazione tra gli analisti web e i team dei media a pagamento.
-* Utilizzare gli ID view-through e click-through Adobi Advertising persistenti in [!DNL Analytics] per comprendere il coinvolgimento del sito.
+* Utilizza gli ID view-through e click-through Adobi Advertising persistenti in [!DNL Analytics] per comprendere il coinvolgimento del sito.
 * Migliora i report tradizionali di paid media in Analysis Workspace con metriche personalizzate, dimensioni personalizzate e attività del sito non raggiungibili durante l’esportazione di dati o pixel verso ad server o altri DSP.
-* Sfruttare [!DNL Analytics] codice già presente sul sito web per il tracciamento e l’ottimizzazione in Adobi Advertising.
+* Sfrutta il codice [!DNL Analytics] già presente sul tuo sito Web per il tracciamento e l&#39;ottimizzazione in Adobe Advertising.
 
 >[!TIP]
 >
-> Osserva un [video introduttivo a [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html#analytics).
+> Guarda un [video introduttivo a [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html#analytics).
 
 ## Utilizzo di Analytics per il reporting di file multimediali a pagamento
 
-[!DNL Analytics for Advertising] consente di migliorare la generazione di rapporti e informazioni approfondite sul modo in cui la pubblicità guida il comportamento del sito, consentendoti di:
+[!DNL Analytics for Advertising] migliora le attività di reporting e approfondimento sul modo in cui la pubblicità determina il comportamento del sito consentendo di:
 
-* Utilizzare gli ID view-through e click-through Adobi Advertising persistenti in [!DNL Analytics] per comprendere il coinvolgimento del sito.
+* Utilizza gli ID view-through e click-through Adobi Advertising persistenti in [!DNL Analytics] per comprendere il coinvolgimento del sito.
 * Sfrutta Analysis Workspace per comprendere meglio i punti di ingresso al sito e il comportamento delle visite. Puoi accedere ai dati di eventi e dimensionali a pagamento per contenuti multimediali, che includono nomi di entità di campagna di Adobe Advertising (fino a posizionamenti e annunci) e le relative metriche associate, come clic, impression e costi.
 
-Da utilizzare [!DNL Analytics] come strumento di reporting per contenuti multimediali a pagamento, la tua organizzazione ha bisogno di un accesso Experience Cloud con accesso ad Analysis Workspace. Il tuo team di Adobi Advertising ti aiuterà a mappare i dati dei tuoi Adobi Advertising sulle singole suite di rapporti in Analysis Workspace. Puoi inviare dati di Adobe Advertising a qualsiasi suite di rapporti, ma dovresti essere a conoscenza delle suite di rapporti mappate su Adobi Advertising e di quelle che non lo sono state. A seconda della suite di rapporti, questo potrebbe modificare i dati segnalati.
+Per utilizzare [!DNL Analytics] come strumento di reporting per contenuti multimediali a pagamento, è necessario un accesso Experience Cloud con accesso ad Analysis Workspace. Il tuo team di Adobi Advertising ti aiuterà a mappare i dati dei tuoi Adobi Advertising sulle singole suite di rapporti in Analysis Workspace. Puoi inviare dati di Adobe Advertising a qualsiasi suite di rapporti, ma dovresti essere a conoscenza delle suite di rapporti mappate su Adobe Advertising e di quelle che non lo sono state. A seconda della suite di rapporti, questo potrebbe modificare i dati segnalati.
 
-[ID Adobe Advertising in [!DNL Analytics]](ids.md) funziona come gli altri [!DNL eVars], con una scadenza personalizzata e persistente. Per impostazione predefinita, l’intervallo di lookback dell’attribuzione è impostato su 60 giorni durante l’implementazione di Adobi Advertising. Per modificare questa impostazione, rivolgiti al team del tuo account Adobe.
+[Gli ID Adobi Advertising all&#39;interno di [!DNL Analytics]](ids.md) funzionano come altri [!DNL eVars], con una scadenza personalizzata persistente. Per impostazione predefinita, l’intervallo di lookback dell’attribuzione è impostato su 60 giorni durante l’implementazione di Adobe Advertising. Per modificare questa impostazione, rivolgiti al team del tuo account Adobe.
 
-Alle dimensioni di Adobe Advertising viene aggiunto il suffisso &quot;(AMO ID)&quot; (ad esempio &quot;Ad Type (AMO ID)&quot;). Consulta &quot;[Metriche di Adobe Advertising in Analysis Workspace](advertising-metrics-in-analytics.md)&quot; per un elenco delle dimensioni disponibili.
+Alle dimensioni di Adobe Advertising viene aggiunto il suffisso &quot;(AMO ID)&quot; (ad esempio &quot;Ad Type (AMO ID)&quot;). Per un elenco delle dimensioni disponibili, vedere &quot;[Metriche Adobe Advertising in Analysis Workspace](advertising-metrics-in-analytics.md)&quot;.
 
 >[!NOTE]
 >
-> Quando visualizzi i dati di Adobe Advertising (o qualsiasi set di dati) in [!DNL Analytics], le metriche e i rapporti si basano sulle regole impostate in [!DNL Analytics]. I dati potrebbero essere diversi da quelli visualizzati all’interno di altri sistemi di reporting, ad esempio i rapporti sui server di annunci, [!DNL DSP] rapporti o rapporti dei motori di ricerca. Per comprendere le differenze di dati in [!DNL Analytics], è necessario sapere quando [!DNL eVar] i dati scadono, cosa definisce una visita, cosa viene considerata attribuzione ultimo contatto rispetto all’attribuzione totale persistente e altri fattori. Per ulteriori informazioni, consulta [Varianze di dati previste tra [!DNL Analytics] e ADOBE ADVERTISING](data-variances.md).
+> Quando visualizzi i dati di Adobe Advertising (o qualsiasi set di dati) in [!DNL Analytics], tieni presente che le metriche e i rapporti si basano sulle regole impostate in [!DNL Analytics]. I dati potrebbero essere diversi da quelli visualizzati in altri sistemi di reporting, ad esempio report del server di annunci, report [!DNL DSP] o report del motore di ricerca. Per comprendere le differenze di dati in [!DNL Analytics], è necessario sapere quando scadono i dati di [!DNL eVar], cosa definisce una visita, cosa viene considerata attribuzione ultimo contatto rispetto all&#39;attribuzione totale persistente e altri fattori. Per ulteriori informazioni, vedere [Varianze di dati previste tra [!DNL Analytics] e Adobe Advertising](data-variances.md).
 
 ## Utilizzo di Analytics per campagne e Portfoli di Adobe Advertising
 
-Senza richiedere pixel aggiuntivi, [!DNL Analytics for Advertising] consente di ottimizzare e segmentare più facilmente il pubblico inviando all’Adobe Advertising due segnali principali:
+Senza richiedere pixel aggiuntivi, [!DNL Analytics for Advertising] consente una migliore ottimizzazione e una più semplice segmentazione del pubblico inviando all&#39;Adobe Advertising due segnali principali:
 
 * Metriche di conversione da utilizzare come segnali di offerta:
-   * metriche standard, come [!UICONTROL Revenue] e [!UICONTROL Cart Views].
+   * metriche standard, ad esempio [!UICONTROL Revenue] e [!UICONTROL Cart Views].
    * le metriche di coinvolgimento del sito, come la visualizzazione pagina e le metriche di visita.
    * metriche di ricavo personalizzate.
    * metriche delle entrate riservate.
-* Segmenti creati in [!DNL Analytics] e pubblicato su Experience Cloud.
+* Segmenti creati in [!DNL Analytics] e pubblicati in Experience Cloud.
 
   È possibile utilizzare [!DNL Analytics] segmenti per il retargeting del sito di prime parti in [!DNL DSP] e annunci di ricerca a pagamento.
 
-  ([!DNL Search, Social, & Commerce] solo) Per gli inserzionisti con [!DNL Analytics] ma non è un Audience Manager di può anche creare tipi di pubblico basati su tag (elenchi di remarketing) e tipi di pubblico con corrispondenza dei clienti (elenchi di clienti) da Google [!DNL Analytics] segmenti condivisi con Experience Cloud.
+  (Solo per [!DNL Search, Social, & Commerce]) Gli inserzionisti con [!DNL Analytics] ma non Audience Manager possono anche creare tipi di pubblico basati su tag del sito Web Google (elenchi di remarketing) e tipi di pubblico corrispondenti ai clienti (elenchi clienti) da [!DNL Analytics] segmenti condivisi con Experience Cloud.
 
 ### Metriche di conversione del sito come segnali di offerta
 
-Puoi utilizzare gli eventi standard e gli eventi personalizzati da [!DNL Analytics] per creare obiettivi ponderati in Adobi Advertising. Gli obiettivi informano le decisioni di offerta per il tuo [!DNL DSP] pacchetti e portafogli di ricerca.
+È possibile utilizzare gli eventi standard e gli eventi personalizzati di [!DNL Analytics] per creare obiettivi ponderati in Adobe Advertising. Gli obiettivi informano le decisioni di offerta per i pacchetti [!DNL DSP] e i portfolio di ricerca.
 
 >[!NOTE]
 >
-> Impossibile mappare le metriche calcolate da [!DNL Analytics] in Adobi Advertising.
+> Non è possibile mappare le metriche calcolate da [!DNL Analytics] a Adobe Advertising.
 
-Il tuo team di Adobi Advertising ti aiuterà a identificare e mappare gli eventi applicabili alle prestazioni dei contenuti multimediali a pagamento in Adobi Advertising, dove sono elencati in [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Conversions].
+Il tuo team di Adobi Advertising ti aiuterà a identificare e mappare gli eventi applicabili alle prestazioni di paid media in Adobe Advertising, dove sono elencati in [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Conversions].
 
-Consulta &quot;[Metriche di Analytics in Adobi Advertising](analytics-data-in-advertising.md)&quot; per un elenco delle metriche disponibili.
+Per un elenco delle metriche disponibili, vedi &quot;[Metriche di Analytics nell&#39;Adobe Advertising](analytics-data-in-advertising.md)&quot;.
 
 ### Segmenti di Analytics per il retargeting del sito
 
-L’Adobe Advertising può acquisire [!DNL Analytics] segmenti a scopo di remarketing per Advertising DSP e [!DNL Search, Social, & Commerce] annunci tramite l’integrazione nativa Experience Cloud Audiences tra [!DNL Analytics] e Experience Cloud.
+Adobe Advertising può acquisire [!DNL Analytics] segmenti a scopo di remarketing per Advertising DSP e [!DNL Search, Social, & Commerce] annunci utilizzando l&#39;integrazione nativa di Experience Cloud Audiences tra [!DNL Analytics] e Experience Cloud.
 
-Per accedere al [!DNL Analytics] , un account inserzionista deve abilitare [Servizio ID Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). Quando il servizio ID è abilitato, tutti i segmenti Experience Cloud (inclusi quelli creati in [!DNL Analytics] e pubblicati in Experience Cloud, segmenti creati in Adobe Audience Manager, segmenti creati in Experience Cloud utilizzando [!DNL People core service]I segmenti, e creati in Adobe Experience Platform e inviati ad Adobi Advertising tramite Audienci Manager diventano disponibili all’interno di Adobi Advertising non appena vengono elaborati.
+Per accedere ai segmenti [!DNL Analytics], un account inserzionista deve abilitare [Experience Cloud ID Service](https://experienceleague.adobe.com/docs/id-service/using/home.html). Quando il servizio ID è abilitato, tutti i segmenti Experience Cloud (inclusi i segmenti creati in [!DNL Analytics] e pubblicati in Experience Cloud, i segmenti creati in Adobe Audience Manager, i segmenti creati in Experience Cloud utilizzando [!DNL People core service] e i segmenti creati in Adobe Experience Platform e inviati ad Adobe Advertising tramite Audience Manager) diventano disponibili in Adobe Advertising non appena vengono elaborati.
 
-[!DNL Analytics] I segmenti sono disponibili entro 24 ore e vengono aggiornati ogni giorno.
+[!DNL Analytics] segmenti sono disponibili entro 24 ore e vengono aggiornati ogni giorno.
 
-Per ulteriori informazioni sul servizio Audiences di Experience Cloud, consulta [Tipi di pubblico di Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html).
+Per ulteriori informazioni sul servizio Experience Cloud Audiences, vedi [Tipi di pubblico Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html).
 
 ## Esempi di come utilizzare l’integrazione {#integration-examples}
 
-### Utilizzo dei dati Adobi Advertising in Analysis Workspace
+### Utilizzo dei dati Adobe Advertising in Analysis Workspace
 
-Per scoprire come utilizzare i dati di Adobe Advertising per creare rapporti visivi in Analysis Workspace, guarda il video &quot;[Introduzione a Workspace e Generazione rapporti](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html).&quot;
+Per scoprire come utilizzare i dati di Adobe Advertising per creare report visivi in Analysis Workspace, guarda il video &quot;[Introduzione a Workspace e reporting](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html).&quot;
 
 #### Utilizzo delle conversioni view-through di programmi TV collegati nei report
 
-*Pubblicità solo per gli utenti DSP*
+*Solo utenti Advertising DSP*
 
-È possibile misurare l&#39;efficacia full funnel delle campagne CTV (connected TV) collegando l&#39;esposizione pubblicitaria sui dispositivi CTV alle conversioni in loco. Il nuovo [!UICONTROL Landing Type] filter&quot;[!UICONTROL View-through (CTV)]&quot; divide le conversioni in righe separate per [!UICONTROL Click Through], [!UICONTROL View Through], e [!UICONTROL View Through (CTV)] valori.
+È possibile misurare l&#39;efficacia full funnel delle campagne CTV (connected TV) collegando l&#39;esposizione pubblicitaria sui dispositivi CTV alle conversioni in loco. Il nuovo filtro [!UICONTROL Landing Type] &quot;[!UICONTROL View-through (CTV)]&quot; suddivide le conversioni in righe separate per i valori [!UICONTROL Click Through], [!UICONTROL View Through] e [!UICONTROL View Through (CTV)].
 
 Per visualizzare le metriche di conversione view-through CTV, utilizza la vista Posizionamento o la vista Canale di marketing in Analysis Workspace.
 
@@ -118,7 +118,7 @@ Utilizzo della vista Posizionamento:
 
 Utilizzo della vista Canale di marketing:
 
-1. Includi la dimensione `Marketing Channel`.
+1. Includere la dimensione `Marketing Channel`.
 
 1. Includi le metriche desiderate, ad esempio &quot;Impression&quot;, &quot;Clic&quot; e così via.
 
@@ -128,24 +128,24 @@ Utilizzo della vista Canale di marketing:
 
    Pagina di destinazione: `View-Through (CTV)`
 
-### Creazione di dashboard di Adobi Advertising
+### Creazione di dashboard di Adobe Advertising
 
-Per scoprire come tracciare i dati Adobi Advertising rispetto agli obiettivi in Analysis Workspace, guarda il video &quot;[Creare dashboard di Adobi Advertising con Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html).&quot;
+Per scoprire come tenere traccia dei dati di Adobe Advertising rispetto agli obiettivi in Analysis Workspace, guarda il video &quot;[Creazione di dashboard di Adobe Advertising con Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html).&quot;
 
 ### Utilizzo dell’ID Adobe Advertising per l’analisi dell’ingresso nel sito
 
-Per scoprire come creare un rapporto sulle visite al sito di un Adobe Advertising per monitorare le influenze geografiche, giornaliere e relative all’ora del giorno, guarda il video &quot;[Creare rapporti sulle visite al sito di Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html).&quot;
+Per scoprire come creare un report sulle visite al sito di Adobe Advertising per monitorare le influenze giornaliere, giornaliere, del browser e geografiche, vedere il video &quot;[Creazione di report sulle visite al sito di Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html)&quot;.
 
-## Come avviare un’ [!DNL Analytics for Advertising] Implementazione
+## Come avviare un&#39;implementazione di [!DNL Analytics for Advertising]
 
 Contatta il team dell’account Adobe, che completerà la configurazione iniziale necessaria per iniziare e ti aiuterà a pianificare l’implementazione e l’utilizzo dei dati in base alle esigenze della tua organizzazione.
 
 >[!MORELIKETHIS]
 >
->* [Video: Introduzione a [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html)
->* [Prerequisiti e informazioni chiave per l’implementazione [!DNL Analytics for Advertising]](prerequisites.md)
->* [ID Adobe Advertising utilizzati da Analytics](ids.md)
->* [Codice JavaScript per Analytics per Advertising](/help/integrations/analytics/javascript.md)
->* [Varianze di dati previste tra [!DNL Analytics] e ADOBE ADVERTISING](data-variances.md)
+>* [Video: introduzione a [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html)
+>* [Prerequisiti e informazioni chiave per l&#39;implementazione [!DNL Analytics for Advertising]](prerequisites.md)
+>* [ID Adobi Advertising utilizzati da Analytics](ids.md)
+>* [Codice JavaScript per Advertising](/help/integrations/analytics/javascript.md)
+>* [Varianze di dati previste tra [!DNL Analytics] e Adobe Advertising](data-variances.md)
 >* [Metriche di Adobe Advertising in Analysis Workspace](/help/integrations/analytics/advertising-metrics-in-analytics.md)
 >* [[!DNL Analytics] Dati in Adobe Advertising](/help/integrations/analytics/analytics-data-in-advertising.md)

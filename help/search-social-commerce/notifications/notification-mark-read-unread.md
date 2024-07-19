@@ -1,9 +1,9 @@
 ---
 title: Contrassegnare una notifica come letta o non letta
 description: Scopri come indicare se hai letto o meno una notifica.
-exl-id: 333173a0-7e3a-4fb6-a80c-a9a1f5714fbf
+exl-id: b6f35d37-819c-489d-aca6-a0753e82e7fd
 feature: Search Notifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
@@ -12,23 +12,23 @@ ht-degree: 0%
 
 # Contrassegnare una notifica come letta o non letta
 
-*Funzione beta*
+*Funzionalità Beta*
 
-Contrassegno di una notifica come *letto* o *non letto* modifica il numero di notifiche non lette indicato nella [!UICONTROL Notifications] nella parte superiore di ogni pagina (ad esempio ![Icona Notifiche con contatore notifiche non lette](/help/search-social-commerce/assets/notifications-unread.png "Icona Notifiche con contatore notifiche non lette")).
+Se si contrassegna una notifica come *letta* o *non letta*, verrà modificato il numero di notifiche non lette indicato nel collegamento [!UICONTROL Notifications] nella parte superiore di ogni pagina, ad esempio ![icona Notifiche con contatore notifiche non lette](/help/search-social-commerce/assets/notifications-unread.png "icona Notifiche con contatore notifiche non lette").
 
-Notifiche contrassegnate come *letto* sono in un testo di colore più chiaro, ma rimangono disponibili fino a quando non vengono eliminati.
+Le notifiche contrassegnate come *lette* sono in un testo di colore più chiaro ma rimangono disponibili fino a quando non vengono eliminate.
 
 ![Notifiche lette e non lette](/help/search-social-commerce/assets/notifications-read-vs-unread.png "Notifiche lette e non lette")
 
 1. [Aprire il pannello Notifiche o il Centro notifiche](notification-view.md).
 
-1. Tenere premuto il cursore sul nome dell&#39;avviso e fare clic su ![Contrassegna come letto o non letto](/help/search-social-commerce/assets/notifications-read-unread.png "Contrassegna come letto o non letto").
+1. Posizionare il cursore sul nome dell&#39;avviso e fare clic su ![Segna come letto o da leggere](/help/search-social-commerce/assets/notifications-read-unread.png "Segna come letto o da leggere").
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulle notifiche](/help/search-social-commerce/notifications/notification-about.md)
->* [Visualizzare le notifiche](notification-view.md)
+>* [Visualizza le notifiche](notification-view.md)
 >* [Eliminare una notifica](notification-delete.md)
 >* [Modifica le impostazioni delle notifiche](notification-edit.md)
->* [Abilitare e disabilitare le notifiche push da [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
->* [Installare e disinstallare [!UICONTROL Notification Center] applicazione web](notification-app-install-uninstall.md)
+>* [Attiva e disattiva le notifiche push da [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
+>* [Installa e disinstalla l&#39;applicazione Web [!UICONTROL Notification Center]](notification-app-install-uninstall.md)

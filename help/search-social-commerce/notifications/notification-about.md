@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Informazioni sulle notifiche
 
-*Funzione beta*
+*Funzionalità Beta*
 
 Puoi configurare le impostazioni di notifica per abbonarti o annullare l’abbonamento a diversi tipi di avvisi. Puoi visualizzare le notifiche in uno dei seguenti modi:
 
-* Dalla sezione [!UICONTROL Notifications] , disponibile dal menu principale in ![Notifiche](/help/search-social-commerce/assets/notifications-panel.png "Notifiche").
+* Dal pannello [!UICONTROL Notifications], disponibile dal menu principale in ![Notifiche](/help/search-social-commerce/assets/notifications-panel.png "Notifiche").
 
 * Da [!UICONTROL Insights & Reports] > [!UICONTROL Notification Center Beta].
 
-* Da un [!UICONTROL Notification Center] applicazione web, che apre [!UICONTROL Notification Center] in una finestra separata al di fuori di Search, Social e Commerce.
+* Da un&#39;applicazione Web [!UICONTROL Notification Center], che apre [!UICONTROL Notification Center] in una finestra separata al di fuori di Search, Social e Commerce.
 
   L’applicazione viene caricata più rapidamente della versione normale del browser e viene aggiornata automaticamente. Puoi installare l’applicazione e gestirla utilizzando l’app manager del browser.
 
@@ -32,11 +32,11 @@ Puoi visualizzare le notifiche, contrassegnarle come lette o non lette ed elimin
 
 ## Tipi di notifica
 
-* **[!UICONTROL Notices]**: avvisi sulla versione, sui tempi di inattività e su altre modifiche gestionali.
+* **[!UICONTROL Notices]**: avvisi sulla versione, sui tempi di inattività e altre informazioni sulla gestione delle modifiche.
 
-* **[!UICONTROL Recommendations]**: opportunità identificate per migliorare le prestazioni, implementare best practice e così via.
+* **[!UICONTROL Recommendations]**: sono state identificate opportunità per migliorare le prestazioni, implementare best practice e così via.
 
-* **[!UICONTROL Warnings]**: problemi che richiedono attenzione ma non sono critici per l’ottimizzazione o la gestione.
+* **[!UICONTROL Warnings]**: problemi che richiedono attenzione ma non sono critici per l&#39;ottimizzazione o la gestione.
 
 * **[!UICONTROL Issues]**: problemi critici che richiedono attenzione immediata. Sono incluse le notifiche di errore di autorizzazione dell’account.
 
@@ -44,11 +44,11 @@ Puoi visualizzare le notifiche, contrassegnarle come lette o non lette ed elimin
 
 * [!UICONTROL Campaign Management]
 
-   * **[!UICONTROL Bulksheets]**: notifiche che un [operazione bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) è stato completato o non è riuscito.
+   * **[!UICONTROL Bulksheets]**: notifiche di completamento o di errore di un&#39;operazione [bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-   * **[!UICONTROL Manager Account Missing]**: notifiche per cui mancano le credenziali per Search, Social e Commerce [account di ad network manager](/help/search-social-commerce/admin/manager-accounts.md), necessari per la corretta configurazione delle funzioni critiche.
+   * **[!UICONTROL Manager Account Missing]**: notifiche per le quali Search, Social e Commerce non dispongono delle credenziali per un account [ad network manager](/help/search-social-commerce/admin/manager-accounts.md), necessarie per la corretta configurazione delle funzioni critiche.
 
-   * **[!UICONTROL UI Actions]**: notifica del completamento o dell’errore dei processi eseguiti in background. I tipi di processo includono [processi bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), i processi di modifica in blocco all’interno della tabella dati o utilizzando la barra degli strumenti, i processi di assegnazione delle entità o altre azioni all’interno dell’interfaccia utente (ad esempio la sincronizzazione con le reti di annunci, l’incollamento di righe o la ridenominazione di entità). Le assegnazioni di entità includono l&#39;assegnazione o la rimozione di un [valore di classificazione dell’etichetta](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md) a qualsiasi entità, assegnando una campagna a un portfolio e assegnando o annullando l’assegnazione di un vincolo a un portfolio.<!--Link "constraint" to constraint-about.md if that file is ever public -->
+   * **[!UICONTROL UI Actions]**: notifica del completamento o dell&#39;errore dei processi eseguiti in background. I tipi di processo includono [processi bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), processi di modifica in blocco all&#39;interno della tabella dati o utilizzando la barra degli strumenti, processi di assegnazione di entità o altre azioni all&#39;interno dell&#39;interfaccia utente (ad esempio la sincronizzazione con reti di annunci, l&#39;incollamento di righe o la ridenominazione di entità). Le assegnazioni di entità includono l&#39;assegnazione o l&#39;annullamento dell&#39;assegnazione di un valore di classificazione [etichetta](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md) a qualsiasi entità, l&#39;assegnazione di una campagna a un portfolio e l&#39;assegnazione o l&#39;annullamento dell&#39;assegnazione di un vincolo a un portfolio.<!--Link "constraint" to constraint-about.md if that file is ever public -->
 
    * [!UICONTROL Data Upload]
 
@@ -58,11 +58,11 @@ Puoi visualizzare le notifiche, contrassegnarle come lette o non lette ed elimin
 
    * [!UICONTROL Network Errors]
 
-      * **[!UICONTROL Account Auth Error]**: notifiche per cui Search, Social e Commerce non sono stati in grado di accedere a un [account di rete dell’annuncio](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) credenziali non valide o token di autorizzazione non valido o scaduto.
+      * **[!UICONTROL Account Auth Error]**: notifiche per cui Search, Social e Commerce non sono stati in grado di accedere a un account di rete [ad](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) a causa di credenziali non valide o token di autorizzazione non valido o scaduto.
 
-      * **[!UICONTROL Account Missing]**: notifiche per cui mancano le credenziali per Search, Social e Commerce [account di rete dell’annuncio](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md).
+      * **[!UICONTROL Account Missing]**: notifiche per le quali Search, Social e Commerce non dispongono delle credenziali per un account di rete [ad](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md).
 
-      * **[!UICONTROL Manager Account Auth Error]**: notifiche che Search, Social e Commerce non sono state sincronizzate con un [account di ad network manager](/help/search-social-commerce/admin/manager-accounts.md) credenziali non valide o token di autorizzazione non valido o scaduto.
+      * **[!UICONTROL Manager Account Auth Error]**: notifiche che Search, Social e Commerce non sono stati in grado di sincronizzare con un account [ad network manager](/help/search-social-commerce/admin/manager-accounts.md) a causa di credenziali non valide o token di autorizzazione non valido o scaduto.
 
   <!--
   * [!UICONTROL Setup Errors]
@@ -74,13 +74,13 @@ Puoi visualizzare le notifiche, contrassegnarle come lette o non lette ed elimin
 
 * [!UICONTROL Insights & Reports]
 
-   * **[!UICONTROL Advertising Insights]**: notifiche che [un [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md) è stato completato o non è riuscito.
+   * **[!UICONTROL Advertising Insights]**: notifiche di completamento o di errore di [an [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md).
 
-   * **[!UICONTROL Custom Alerts]**: notifiche che [istanze di avviso](/help/search-social-commerce/alerts/alert-about.md) sono stati attivati per un modello di avviso.
+   * **[!UICONTROL Custom Alerts]**: notifica che [istanze di avviso](/help/search-social-commerce/alerts/alert-about.md) sono state attivate per un modello di avviso.
 
-   * **[!UICONTROL Reports]**: notifiche che un [rapporto personalizzato o pianificato](/help/search-social-commerce/reports/report-about.md) è stato completato o non è riuscito.
+   * **[!UICONTROL Reports]**: notifiche di completamento o di errore di un [report personalizzato o pianificato](/help/search-social-commerce/reports/report-about.md).
 
-   * **[!UICONTROL Spreadsheet Feeds]**: notifiche che un [feed foglio di calcolo](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) è stato completato o non è riuscito.
+   * **[!UICONTROL Spreadsheet Feeds]**: notifiche di completamento o di errore di un [feed di foglio di calcolo](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md).
 
 <!--
 * [!UICONTROL Optimization]
@@ -105,9 +105,9 @@ Puoi visualizzare le notifiche, contrassegnarle come lette o non lette ed elimin
 
 >[!MORELIKETHIS]
 >
->* [Visualizzare le notifiche](notification-view.md)
->* [Contrassegnare una notifica come letta o non letta](notification-mark-read-unread.md)
+>* [Visualizza le notifiche](notification-view.md)
+>* [Contrassegna una notifica come letta o non letta](notification-mark-read-unread.md)
 >* [Eliminare una notifica](notification-delete.md)
 >* [Modifica le impostazioni delle notifiche](notification-edit.md)
->* [Abilitare e disabilitare le notifiche push da [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
->* [Installare e disinstallare [!UICONTROL Notification Center] applicazione web](notification-app-install-uninstall.md)
+>* [Attiva e disattiva le notifiche push da [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
+>* [Installa e disinstalla l&#39;applicazione Web [!UICONTROL Notification Center]](notification-app-install-uninstall.md)

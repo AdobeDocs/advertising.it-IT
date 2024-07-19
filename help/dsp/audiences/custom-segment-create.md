@@ -16,19 +16,19 @@ Puoi raccogliere i tuoi dati sul pubblico di prime parti creando e implementando
 
 >[!NOTE]
 >
->Per tenere traccia degli ID degli utenti dalle richieste di rifiuto del consumatore sul sito web, in base al California Consumer Privacy Act (CCPA), crea un’ [Segmento di rinuncia CCPA](ccpa-opt-out-segment-create.md).
+>Per tenere traccia degli ID degli utenti dalle richieste di rifiuto del consumatore sul sito Web, in base al California Consumer Privacy Act (CCPA), crea un [segmento di rifiuto del CCPA](ccpa-opt-out-segment-create.md).
 
 ## Prerequisiti per i segmenti per tenere traccia degli ID ID5
 
-*Funzione beta*
+*funzionalità Beta*
 
-* Prima di generare un segmento per tenere traccia degli utenti associati agli ID5, firma un accordo con [!DNL ID5] e ottieni l’ID partner della tua organizzazione. Per istruzioni, contatta il team del tuo account di Adobe.
+* Prima di generare un segmento per tenere traccia degli utenti associati agli ID5, firma un contratto con [!DNL ID5] e ottieni l&#39;ID partner della tua organizzazione. Per istruzioni, contatta il team del tuo account di Adobe.
 
 * Per la misurazione in Adobe Analytics, è necessario:
 
-   1. Completa tutto [prerequisiti per l&#39;implementazione [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)e assicurati che il [AMO ID e EF ID](/help/integrations/analytics/ids.md) vengono inseriti negli URL di tracciamento.
+   1. Completa tutti i [prerequisiti per l&#39;implementazione [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) e assicurati che [AMO ID e EF ID](/help/integrations/analytics/ids.md) siano inseriti negli URL di tracciamento.
 
-   1. Aggiungi il seguente parametro alle tue pagine web prima o all’interno del [Codice JavaScript richiesto per [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md) — in un punto qualsiasi prima dell&#39;inizializzazione dell&#39;ultimo servizio eventi.
+   1. Aggiungi il seguente parametro alle tue pagine Web prima o all&#39;interno del codice [JavaScript richiesto per [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md), in un punto qualsiasi prima dell&#39;inizializzazione dell&#39;ultimo servizio eventi.
 
       ```window.id5PartnerId=Your_ID5_PartnerID;```
 
@@ -43,35 +43,35 @@ Puoi raccogliere i tuoi dati sul pubblico di prime parti creando e implementando
       </script>
       ```
 
-   1. Utilizza uno strumento di debug del browser per verificare che ogni chiamata al dominio sia stata avviata `lasteventf-tm.everesttech.net` e contiene il parametro `_les_id5` con un ID ID5 crittografato come valore.
+   1. Utilizzare uno strumento di debug del browser per verificare che ogni chiamata venga avviata al dominio `lasteventf-tm.everesttech.net` e contenga il parametro `_les_id5` con un ID ID5 crittografato come valore.
 
 ## Creare e implementare un segmento personalizzato
 
 1. Crea il segmento:
 
-   1. Nel menu principale, fai clic su **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
+   1. Nel menu principale, fare clic su **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
-   1. Sopra la tabella dati, fai clic su **[!UICONTROL Create]**.
+   1. Sopra la tabella dati, fare clic su **[!UICONTROL Create]**.
 
-   1. Inserisci un valore univoco **[!UICONTROL Segment Name]**.
+   1. Immettere un **[!UICONTROL Segment Name]** univoco.
 
-   1. Per **[!UICONTROL Segment Type]**, seleziona *[!UICONTROL Custom]*.
+   1. Per **[!UICONTROL Segment Type]**, selezionare *[!UICONTROL Custom]*.
 
-   1. Inserisci il **[!UICONTROL Lookback Window]**, che è il numero di giorni in cui il cookie di un utente rimane nel segmento.
+   1. Immetti **[!UICONTROL Lookback Window]**, che è il numero di giorni in cui il cookie di un utente rimane nel segmento.
 
       La finestra predefinita è di 45 giorni. Immettere un valore compreso tra uno (1) e 365.
 
-   1. Clic **[!UICONTROL Advanced]** per espandere le impostazioni avanzate e quindi selezionare i tipi di identificatori utente tracciati dal tag segmento:
+   1. Fare clic su **[!UICONTROL Advanced]** per espandere le impostazioni avanzate, quindi selezionare i tipi di identificatori utente di cui il tag di segmento tiene traccia:
 
-      * *[!UICONTROL Cookies]:* (Impostazione predefinita) Il tag segmento tiene traccia dei cookie.
+      * *[!UICONTROL Cookies]:* (impostazione predefinita) Il tag del segmento tiene traccia dei cookie.
 
       * [!UICONTROL Universal IDs (Beta)]:
 
-         * *[!UICONTROL ID5]:* Il tag del segmento tiene traccia di [!DNL ID5] ID. Non viene applicata alcuna tariffa per le impression consegnate agli ID universali.
+         * *[!UICONTROL ID5]:* Il tag segmento tiene traccia di [!DNL ID5] ID. Non viene applicata alcuna tariffa per le impression consegnate agli ID universali.
 
-        **[!UICONTROL Terms of Service]:** I termini del contratto di servizio per l&#39;utilizzo degli ID universali. Prima di poter utilizzare gli ID universali per un nuovo tipo di ID, è necessario che tu o un altro utente con l’account DSP accetti una volta i termini. Per i clienti con contratti di assistenza gestiti, il team dell’account Adobe otterrà il consenso e accetterà i termini per conto della tua organizzazione. Per leggere i termini, fai clic su **>**. Per accettare i termini, scorri fino alla parte inferiore dei termini e fai clic su **[!UICONTROL Accept]**.
+        **[!UICONTROL Terms of Service]:** I termini del contratto di servizio per l&#39;utilizzo degli ID universali. Prima di poter utilizzare gli ID universali per un nuovo tipo di ID, è necessario che tu o un altro utente con l’account DSP accetti una volta i termini. Per i clienti con contratti di assistenza gestiti, il team dell’account Adobe otterrà il consenso e accetterà i termini per conto della tua organizzazione. Per leggere i termini, fare clic su **>**. Per accettare i termini, scorrere fino alla fine dei termini e fare clic su **[!UICONTROL Accept]**.
 
-   1. Clic **[!UICONTROL Save]**.
+   1. Fare clic su **[!UICONTROL Save]**.
 
 1. Copia e implementa i tag per tenere traccia del segmento, in base alle esigenze:
 
@@ -81,21 +81,21 @@ Puoi raccogliere i tuoi dati sul pubblico di prime parti creando e implementando
 
       * Per tenere traccia dei visitatori desktop e mobili in una pagina Web:
 
-         1. Copia il tag di tracciamento della visualizzazione della pagina, che è etichettato &quot;[!UICONTROL Desktop or mobile websites].&quot;
+         1. Copiare il tag di tracciamento della visualizzazione della pagina, etichettato &quot;[!UICONTROL Desktop or mobile websites]&quot;.
 
-         1. (Tag per i segmenti che tengono traccia di [!DNL ID5] ID) Nel tag copiato, sostituisci `ID5_PARTNER_ID` con l’ID partner che [!DNL ID5] assegnati alla tua organizzazione.
+         1. (Tag per i segmenti che tengono traccia di [!DNL ID5] ID) Nel tag copiato, sostituisci `ID5_PARTNER_ID` con l&#39;ID partner che [!DNL ID5] ha assegnato alla tua organizzazione.
 
-            Ad esempio, se l’ID partner ID5 è `abcde` e il tag del segmento generato è
+            Ad esempio, se l&#39;ID partner ID5 è `abcde` e il tag del segmento generato è
 
             ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
 
-            quindi sostituisci `ID5_PARTNER_ID` con `abcde` all’interno del tag per ottenere quanto segue:
+            quindi sostituisci `ID5_PARTNER_ID` con `abcde` all&#39;interno del tag per ottenere quanto segue:
 
             ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
 
-            L&#39;organizzazione ha ricevuto l&#39;ID partner quando ha firmato un accordo con [!DNL ID5]. Se non conosci il tuo ID partner, contatta il team del tuo account Adobe.
+            L&#39;organizzazione ha ricevuto l&#39;ID partner quando ha firmato un contratto con [!DNL ID5]. Se non conosci il tuo ID partner, contatta il team del tuo account Adobe.
 
-            Questo passaggio non è necessario per tenere traccia dei tag [!DNL ID5] ID per gli utenti esposti a un’unità pubblicitaria su dispositivi desktop o mobili.
+            Questo passaggio non è necessario per consentire ai tag di tenere traccia degli ID [!DNL ID5] per gli utenti esposti a un&#39;unità pubblicitaria su dispositivi desktop o mobili.
 
          1. Fornisci il tag all’inserzionista o al contatto del sito web per la distribuzione.
 
@@ -103,9 +103,9 @@ Puoi raccogliere i tuoi dati sul pubblico di prime parti creando e implementando
 
       * Per tenere traccia degli utenti esposti a un’unità pubblicitaria su dispositivi desktop o mobili:
 
-         1. Copia il tag di tracciamento delle impression, etichettato come &quot;[!UICONTROL Desktop or mobile ads].&quot;
+         1. Copiare il tag di tracciamento delle impression, etichettato come &quot;[!UICONTROL Desktop or mobile ads]&quot;.
 
-         1. Aggiungi il tag al [!UICONTROL Pixel] per ogni annuncio pertinente o per [!UICONTROL Event Pixels] sezione del [[!UICONTROL Tracking] impostazioni per ogni posizionamento pertinente](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
+         1. Aggiungi il tag alla scheda [!UICONTROL Pixel] per ogni annuncio rilevante o alla sezione [!UICONTROL Event Pixels] delle impostazioni [[!UICONTROL Tracking] per ogni posizionamento rilevante](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
 Una volta implementato un tag di tracciamento, puoi utilizzare il segmento nei target o nelle esclusioni del pubblico per qualsiasi posizionamento.
 
@@ -118,9 +118,9 @@ Una volta implementato un tag di tracciamento, puoi utilizzare il segmento nei t
 >* [Informazioni su Gestione dell&#39;audience](audience-about.md)
 >* [Modifica informazioni segmento](segment-edit.md)
 >* [Eliminare un segmento](segment-delete.md)
->* [Visualizzare i pixel di tracciamento per un segmento](segment-view-pixels.md)
->* [Condividere o interrompere la condivisione di un segmento](segment-share.md)
->* [Creare e implementare un [!UICONTROL CCPA Opt-Out-of-Sale] Segmento](ccpa-opt-out-segment-create.md)
->* [Creare un pubblico riutilizzabile](reusable-audience-create.md)
+>* [Visualizza pixel di tracciamento per un segmento](segment-view-pixels.md)
+>* [Condividi o interrompi la condivisione di un segmento](segment-share.md)
+>* [Crea e implementa un segmento [!UICONTROL CCPA Opt-Out-of-Sale]](ccpa-opt-out-segment-create.md)
+>* [Crea un pubblico riutilizzabile](reusable-audience-create.md)
 >* [Provider di dati di terze parti disponibili](third-party-data-providers.md)
->* [Impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [Impostazioni posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)

@@ -12,21 +12,20 @@ ht-degree: 0%
 
 # Creare una campagna
 
-1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
-1. In [!UICONTROL Campaigns] visualizza, fai clic su **[!UICONTROL Create campaign]**.
-1. Inserisci il [impostazioni della campagna](campaign-settings.md):
-   1. Specifica la [!UICONTROL Basic Campaign Details].
-   1. (Solo per utenti amministratori) In [!UICONTROL Ad Cloud Admin Fields] , specificare le impostazioni amministrative.
-   1. In [!UICONTROL Campaign Goals] , specificare il budget. Facoltativamente, puoi modificare le impostazioni predefinite dell’obiettivo e, facoltativamente, selezionare i pacchetti esistenti e/o crearne di nuovi da includere nella campagna.
-   1. (Facoltativo) In [!UICONTROL Campaign Measurement] , specifica eventuali opzioni di misurazione di terze parti e di prima parte per la visibilità, la frode, la sicurezza del brand e la verifica del pubblico.
-1. Clic **[!UICONTROL Create Campaign]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
+1. Nella visualizzazione [!UICONTROL Campaigns], fare clic su **[!UICONTROL Create campaign]**.
+1. Immetti le [impostazioni campagna](campaign-settings.md):
+   1. Specificare [!UICONTROL Basic Campaign Details].
+   1. (Solo per utenti amministratori) Nella sezione [!UICONTROL Ad Cloud Admin Fields] specificare le impostazioni amministrative.
+   1. Nella sezione [!UICONTROL Campaign Goals] specificare il budget. Facoltativamente, puoi modificare le impostazioni predefinite dell’obiettivo e, facoltativamente, selezionare i pacchetti esistenti e/o crearne di nuovi da includere nella campagna.
+   1. (Facoltativo) Nella sezione [!UICONTROL Campaign Measurement], specifica eventuali opzioni di misurazione di terze parti e prime parti per la visibilità, la frode, la sicurezza del brand e la verifica del pubblico.
+1. Fare clic su **[!UICONTROL Create Campaign]**.
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni su Campaign Management](campaign-about.md)
 >* [Duplicare una campagna](campaign-duplicate.md)
->* [Modificare una campagna](campaign-edit.md)
->* [Visualizzare il registro delle modifiche per una campagna](campaign-change-log.md)
+>* [Modifica una campagna](campaign-edit.md)
+>* [Visualizza il log delle modifiche per una campagna](campaign-change-log.md)
 >* [Impostazioni campagna](campaign-settings.md)
->* [Sospendere o attivare una campagna](campaign-pause-activate.md)
-
+>* [Sospendi o attiva una campagna](campaign-pause-activate.md)

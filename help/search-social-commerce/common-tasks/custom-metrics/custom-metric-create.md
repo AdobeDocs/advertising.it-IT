@@ -1,12 +1,12 @@
 ---
 title: Creare una metrica personalizzata
 description: Scopri come configurare le metriche personalizzate, calcolate dalle metriche standard.
-exl-id: 14a768f5-3c7f-4e8e-bcd0-66b176052a25
+exl-id: a9ce503a-67ee-477e-8f79-31b4a9c6e51a
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -18,35 +18,35 @@ ht-degree: 1%
 
    * Fare clic sul nome della visualizzazione predefinita o personalizzata per aprire le impostazioni di visualizzazione.
 
-   * Clic ![Colonne personalizzate](/help/search-social-commerce/assets/custom-columns.png "Colonne personalizzate") per aprire le impostazioni di configurazione delle colonne.
+   * Fai clic su ![Colonne personalizzate](/help/search-social-commerce/assets/custom-columns.png "Colonne personalizzate") per aprire le impostazioni di configurazione delle colonne.
 
-1. Sotto l&#39;elenco delle colonne visualizzato, fare clic su ![Creare una nuova metrica personalizzata](/help/search-social-commerce/assets/add.png) **[!UICONTROL Create New Custom Metric]**.
+1. Sotto l&#39;elenco di colonne visualizzato fare clic su ![Crea nuova metrica personalizzata](/help/search-social-commerce/assets/add.png) **[!UICONTROL Create New Custom Metric]**.
 
-1. Specifica la [impostazioni metriche personalizzate](custom-metric-settings.md).
+1. Specificare le [impostazioni delle metriche personalizzate](custom-metric-settings.md).
 
-1. Clic **[!UICONTROL Save]**.
+1. Fare clic su **[!UICONTROL Save]**.
 
 ## Creare una metrica personalizzata da un report o da un modulo modello di report
 
-1. All&#39;interno di un report o di un modulo di report, passare al **[!UICONTROL Columns]** scheda.
+1. All&#39;interno di un modulo report o modello report, passare alla scheda **[!UICONTROL Columns]**.
 
-1. Nella sezione a destra, fai clic su **[!UICONTROL Create]**.
+1. Nella sezione di destra, fare clic su **[!UICONTROL Create]**.
 
-1. Specifica la [impostazioni metriche personalizzate](custom-metric-settings.md).
+1. Specificare le [impostazioni delle metriche personalizzate](custom-metric-settings.md).
 
-1. Clic **[!UICONTROL Submit]**.
+1. Fare clic su **[!UICONTROL Submit]**.
 
-## Creare una metrica personalizzata dalla [!UICONTROL Portfolios] visualizzazioni
+## Crea una metrica personalizzata dalle visualizzazioni [!UICONTROL Portfolios]
 
-1. Sopra la tabella dati, fai clic su ![Modifica vista selezionata](/help/search-social-commerce/assets/view-settings.png "Modifica vista selezionata").
+1. Sopra la tabella dati, fare clic su ![Modifica visualizzazione selezionata](/help/search-social-commerce/assets/view-settings.png "Modifica visualizzazione selezionata").
 
-1. Fai clic su **[!UICONTROL Columns]** scheda.
+1. Fare clic sulla scheda **[!UICONTROL Columns]**.
 
-1. Nella sezione a destra, fai clic su **[!UICONTROL Create]**.
+1. Nella sezione di destra, fare clic su **[!UICONTROL Create]**.
 
-1. Specifica la [impostazioni metriche personalizzate](custom-metric-settings.md).
+1. Specificare le [impostazioni delle metriche personalizzate](custom-metric-settings.md).
 
-1. Clic **[!UICONTROL Submit]**.
+1. Fare clic su **[!UICONTROL Submit]**.
 
 >[!MORELIKETHIS]
 >

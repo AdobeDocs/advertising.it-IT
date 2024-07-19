@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## Segmenti di terze parti
 
-(Facoltativo) Qualsiasi segmento standard disponibile tramite la tassonomia dei dati di terze parti Adobi Advertising da includere nella configurazione del pubblico.
+(Facoltativo) Qualsiasi segmento standard disponibile tramite la tassonomia dei dati di terze parti Adobe Advertising da includere nella configurazione del pubblico.
 
 ## Segmenti di prime parti
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## Segmenti Adobe
 
-(Facoltativo) Qualsiasi [!DNL Adobe Real-Time Customer Data Platform], Adobe Analytics o Adobe Audience Manager da includere nella configurazione del pubblico.
+(Facoltativo) Qualsiasi segmento [!DNL Adobe Real-Time Customer Data Platform], Adobe Analytics o Adobe Audience Manager da includere nella configurazione del pubblico.
 
 ## Segmenti personalizzati
 
@@ -35,9 +35,9 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Informazioni su Gestione dell&#39;audience](audience-about.md)
->* [Creare un pubblico riutilizzabile](reusable-audience-create.md)
+>* [Crea un pubblico riutilizzabile](reusable-audience-create.md)
 >* [Provider di dati di terze parti disponibili](third-party-data-providers.md)
->* [Sintassi della logica dei segmenti di pubblico](audience-segment-logic-syntax.md)
+>* [Sintassi per la logica dei segmenti di pubblico](audience-segment-logic-syntax.md)
 >* [Creare e implementare un segmento personalizzato](custom-segment-create.md)
->* [Creare e implementare un [!UICONTROL CCPA Opt-Out-of-Sale] Segmento](ccpa-opt-out-segment-create.md)
->* [Impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [Crea e implementa un segmento [!UICONTROL CCPA Opt-Out-of-Sale]](ccpa-opt-out-segment-create.md)
+>* [Impostazioni posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)

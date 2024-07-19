@@ -1,36 +1,36 @@
 ---
-title: '''[!DNL Yandex] impostazioni della campagna'
-description: Fai riferimento alle impostazioni per [!DNL Yandex] campagne.
-exl-id: 33e73b90-7a37-4be7-b96d-02ef8bfdb79e
+title: '[!DNL Yandex] impostazioni campagna'
+description: Fai riferimento alle impostazioni per  [!DNL Yandex]  campagne.
+exl-id: 3be88471-06b8-4f05-8a4e-24f71f7a36f7
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
 
-# [!DNL Yandex] impostazioni della campagna
+# [!DNL Yandex] impostazioni campagna
 
 ## \[Schermata Creazione campagna\]
 
-**[!UICONTROL Campaign Type]:** (Disponibile solo durante la creazione della campagna) Dove inserire gli annunci:
+**[!UICONTROL Campaign Type]:** (disponibile solo durante la creazione della campagna) Dove inserire annunci:
 
-* *[!UICONTROL Search Network Only]:* Visualizza gli annunci di testo sulla rete di ricerca. È necessario specificare le parole chiave per ogni gruppo di annunci.
+* *[!UICONTROL Search Network Only]:* visualizza annunci di testo nella rete di ricerca. È necessario specificare le parole chiave per ogni gruppo di annunci.
 
-* *[!UICONTROL Search and Display Network]:* Visualizza gli annunci di testo sulla rete di ricerca e [!DNL Yandex Advertising Network]. Per gli annunci di ricerca, è necessario specificare le parole chiave di ricerca per ciascun gruppo di annunci; per gli annunci di visualizzazione, è necessario specificare le parole chiave per i siti web sui quali si desidera pubblicizzare per ciascun gruppo di annunci.
+* *[!UICONTROL Search and Display Network]:* Visualizza annunci di testo nella rete di ricerca e in [!DNL Yandex Advertising Network]. Per gli annunci di ricerca, è necessario specificare le parole chiave di ricerca per ciascun gruppo di annunci; per gli annunci di visualizzazione, è necessario specificare le parole chiave per i siti web sui quali si desidera pubblicizzare per ciascun gruppo di annunci.
 
-* *[!UICONTROL Display Network Only]:* Visualizza annunci di testo sulla [!DNL Yandex Advertising Network]. Per ogni gruppo di annunci, è necessario specificare le parole chiave per i siti Web sui quali si desidera pubblicizzare.
+* *[!UICONTROL Display Network Only]:* Visualizza annunci di testo in [!DNL Yandex Advertising Network]. Per ogni gruppo di annunci, è necessario specificare le parole chiave per i siti Web sui quali si desidera pubblicizzare.
 
 ## [!UICONTROL Campaign Details]
 
-**[!UICONTROL Campaign Name]:** Un nome di campagna univoco all’interno dell’account.
+**[!UICONTROL Campaign Name]:** Nome di campagna univoco all&#39;interno dell&#39;account.
 
 <!-- **[!UICONTROL Start date]:** -->
 
 {{$include /help/_includes/start-date.md}}
 
-**[!UICONTROL Status]:** Lo stato di visualizzazione della campagna: *Attivo* o *In pausa*. L’impostazione predefinita per le nuove campagne pubblicitarie è *Attivo*.
+**[!UICONTROL Status]:** Lo stato di visualizzazione della campagna: *Attivo* o *In pausa*. Il valore predefinito per le nuove campagne pubblicitarie è *Attivo*.
 
 ## [!UICONTROL Budget Options]
 
@@ -78,4 +78,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Gestire le campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
+>* [Gestisci campagne](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)

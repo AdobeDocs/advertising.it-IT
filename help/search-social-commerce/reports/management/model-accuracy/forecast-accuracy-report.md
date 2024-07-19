@@ -1,16 +1,16 @@
 ---
 title: '[!UICONTROL Forecast Accuracy Report]'
 description: Scopri il rapporto Precisione previsione, comprese le colonne di dati.
-exl-id: 2bb36728-ae14-441b-bcda-fa457f5cf664
+exl-id: f0c42323-eb0d-461a-ab09-440fd1bfc960
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
 
-# Il [!UICONTROL Forecast Accuracy Report]
+# [!UICONTROL Forecast Accuracy Report]
 
 Il rapporto mostra la precisione dei modelli di costi e ricavi per giorno per portafogli specifici. Per impostazione predefinita, per ogni portfolio sono inclusi i ricavi, i costi e i clic previsti ed effettivi su base giornaliera, nonché l&#39;accuratezza delle previsioni. Include i dati delle campagne attualmente mappate sui portfolio.
 
@@ -18,7 +18,7 @@ Puoi visualizzare i dati relativi ai 18 mesi precedenti.
 
 >[!NOTE]
 >
->* Questo rapporto fornisce gli stessi dati a livello di portfolio [!UICONTROL Model Accuracy Report] tranne per il fatto che puoi eseguirla su più portfolio e modificare la regola di attribuzione. È inoltre possibile eseguire e pianificare il report utilizzando parametri personalizzati e utilizzarlo per creare feed di fogli di calcolo.
+>* Questo report fornisce gli stessi dati del livello di portfolio [!UICONTROL Model Accuracy Report], con la differenza che è possibile eseguirlo in più portfolio e modificare la regola di attribuzione. È inoltre possibile eseguire e pianificare il report utilizzando parametri personalizzati e utilizzarlo per creare feed di fogli di calcolo.
 >
 >* La best practice prevede di visualizzare [!UICONTROL Forecast Accuracy Report] per almeno gli ultimi sette giorni perché, indipendentemente dalla strategia di spesa del portfolio, la maggior parte dei portfolio presenta un trend intrinseco del giorno della settimana. La funzionalità di ottimizzazione prende in considerazione questa tendenza e alloca la spesa di conseguenza.
 >
@@ -28,12 +28,12 @@ Puoi visualizzare i dati relativi ai 18 mesi precedenti.
 
 ## Colonne disponibili
 
-Di seguito sono riportate le colonne disponibili per ogni rapporto. Le colonne predefinite vengono incluse automaticamente per impostazione predefinita. Puoi aggiungere le colonne personalizzate disponibili da [!UICONTROL Columns] sezione delle impostazioni del rapporto.
+Di seguito sono riportate le colonne disponibili per ogni rapporto. Le colonne predefinite vengono incluse automaticamente per impostazione predefinita. È possibile aggiungere le colonne personalizzate disponibili dalla sezione [!UICONTROL Columns] delle impostazioni del report.
 
 | Colonna | Predefinito? | Descrizione |
 |----|----|----|
 | [!UICONTROL Portfolio] | Predefinito | Il portfolio. |
-| [!UICONTROL Day of Week] | Predefinito | Il giorno della settimana riportato: <i>[!UICONTROL Sunday]</i>, <i>[!UICONTROL Monday]</i>, <i>[!UICONTROL Tuesday]</i>, <i>[!UICONTROL Wednesday]</i>, <i>[!UICONTROL Thursday]</i>, <i>[!UICONTROL Friday]</i>, o <i>[!UICONTROL Saturday]</i>. |
+| [!UICONTROL Day of Week] | Predefinito | Giorno della settimana segnalato: <i>[!UICONTROL Sunday]</i>, <i>[!UICONTROL Monday]</i>, <i>[!UICONTROL Tuesday]</i>, <i>[!UICONTROL Wednesday]</i>, <i>[!UICONTROL Thursday]</i>, <i>[!UICONTROL Friday]</i> o <i>[!UICONTROL Saturday]</i>. |
 | [!UICONTROL Start Date] | Predefinito | Primo giorno indicato. |
 | [!UICONTROL End Date] | Predefinito | Ultimo giorno indicato. |
 | [!UICONTROL Predicted Revenue] | Predefinito | Ricavi previsti per il portfolio. |
@@ -51,7 +51,7 @@ Di seguito sono riportate le colonne disponibili per ogni rapporto. Le colonne p
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sui report di precisione dei modelli](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)
->* [Il [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
->* [Generare un report di precisione del modello](model-accuracy-report-generate.md)
->* [Impostazioni report di precisione modello](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
+>* [Informazioni sui report di precisione del modello](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)
+>* [I [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
+>* [Genera un report di precisione modello](model-accuracy-report-generate.md)
+>* [Impostazioni report precisione modello](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)

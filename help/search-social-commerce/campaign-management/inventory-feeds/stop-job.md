@@ -12,22 +12,22 @@ ht-degree: 0%
 
 # Interrompere un processo di registrazione per i dati di feed inventario
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (solo azioni di eliminazione), e [!DNL Yandex] solo account*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (elimina solo azioni) e [!DNL Yandex] account solo*
 
 Puoi interrompere la pubblicazione dei dati della campagna generati da un feed nei seguenti modi.
 
 * Mentre i dati sono ancora in fase di propagazione, arrestare il processo di propagazione in modo che non siano disponibili dati da pubblicare:
 
-   1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, che apre a [!UICONTROL Templates] scheda.
+   1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, che consente di aprire la scheda [!UICONTROL Templates].
 
-   1. Nella sezione &quot;[!UICONTROL Last Prop. Status]&quot; accanto al nome del modello, fai clic su **[!UICONTROL Cancel]**.
+   1. Nella colonna &quot;[!UICONTROL Last Prop. Status]&quot; accanto al nome del modello, fare clic su **[!UICONTROL Cancel]**.
 
-* Se i dati sono già propagati, [annullare il processo di registrazione da [!UICONTROL Bulksheets] visualizza](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-stop-job.md).
+* Se i dati sono già propagati, [annullare il processo di registrazione dalla visualizzazione [!UICONTROL Bulksheets]](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-stop-job.md).
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sui feed di inventario](inventory-feeds-about.md)
->* [Visualizzare i dati generati dai feed](propagated-data-view.md)
->* [Modificare i dati generati dai feed](propagated-data-edit.md)
->* [Pubblicare i dati della campagna generati dai feed nelle reti di annunci](propagated-data-post.md)
+>* [Informazioni sui feed inventario](inventory-feeds-about.md)
+>* [Visualizza dati generati dai feed](propagated-data-view.md)
+>* [Modifica dati generati dai feed](propagated-data-edit.md)
+>* [Pubblica i dati della campagna generati dai feed alle reti di annunci](propagated-data-post.md)
 >* [Stati dei dati generati dai feed](propagated-data-status.md)

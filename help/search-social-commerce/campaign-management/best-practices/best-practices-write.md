@@ -1,11 +1,11 @@
 ---
 title: Scrivi testo effettivo e copia
 description: Scopri le best practice per la scrittura di copie pubblicitarie efficaci.
-exl-id: 17feba02-e49a-4550-aca8-d9b06d427a7e
+exl-id: 2c51cd0b-90c5-4093-9a0f-ace5ef1019e7
 feature: Search Best Practices
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Per ulteriori best practice specifiche per le campagne nei portfolio, consulta anche la sezione Guida all’ottimizzazione > Gestione di Portfoli > Best practice per i Portfoli, disponibile in Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
+>Per ulteriori best practice specifiche per le campagne nei portfolio, consulta anche la sezione Guida all&#39;ottimizzazione > Gestione di Portfoli > Best practice per i Portfoli, disponibile all&#39;interno di Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 ## Requisiti generali per tutte le reti pubblicitarie
 
@@ -30,9 +30,9 @@ ht-degree: 0%
 
 * I punti esclamativi non sono consentiti nei titoli, ma nelle righe di descrizione. È consentito un solo elemento nella descrizione.
 
-* Caratteri speciali come `@,~,\, ^,>,<` sono vietate.
+* Caratteri speciali come `@,~,\, ^,>,<` non sono consentiti.
 
-* Le scelte rapide o l&#39;uso di simboli per sostituire le parole sono vietati. Ad esempio, non puoi utilizzare &quot;U&quot; per sostituire &quot;tu&quot; o &quot;`@`&quot; per sostituire &quot;at&quot;.
+* Le scelte rapide o l&#39;uso di simboli per sostituire le parole sono vietati. Ad esempio, non puoi usare &quot;U&quot; per sostituire &quot;tu&quot; o &quot;`@`&quot; per sostituire &quot;at&quot;.
 
 * Frasi superlative, come &quot;Migliori&quot; o &quot;#1&quot;, sono vietate a meno che questa distinzione non sia stata verificata da terzi e la verifica non sia chiaramente visualizzata sul sito web.
 
@@ -70,19 +70,19 @@ ht-degree: 0%
 
 [1]: se si utilizza l&#39;inserimento di parole chiave, utilizzare le maiuscole corrette per il codice di inserimento:
 
-`{keyword:default}` = falciatrici da prato
+`{keyword:default}` = tosaerba
 
-`{Keyword:default}` = Tosatrici da prato
+`{Keyword:default}` = falciatrici
 
-`{KeyWord:default}` = Tosatrici da prato
+`{KeyWord:default}` = Tosaerba
 
 `{KEYWord:default}` = TOSAERBA (consentito solo se &quot;LAWN&quot; è una marca)
 
-`{KeyWORD:default}` = TOSAERBA (che è consentito solo se &quot;MOWERS&quot; è una marca)
+`{KeyWORD:default}` = TOSAERBA (consentito solo se &quot;MOWERS&quot; è una marca)
 
 `{KEYWORD:default}` = TOSAERBA (consentito solo se la marca è &quot;LAWN MOWERS&quot;)
 
 >[!MORELIKETHIS]
 >
->* [Analizzare i rapporti per perfezionare le parole chiave e le impostazioni della campagna](best-practices-analyze.md)
->* [Ottimizzare le pagine di destinazione del sito web](best-practices-optimize.md)
+>* [Analizza i report per perfezionare le parole chiave e le impostazioni della campagna](best-practices-analyze.md)
+>* [Ottimizzare le pagine di destinazione del sito Web](best-practices-optimize.md)

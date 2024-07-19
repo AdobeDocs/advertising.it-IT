@@ -12,23 +12,23 @@ ht-degree: 0%
 
 # Specifica posizionamenti e annunci per un’offerta privata
 
-Per le offerte non garantite, puoi specificare l’offerta come obiettivo di inventario per i nuovi posizionamenti da [!UICONTROL Placements] visualizzazione.
+Per le offerte non garantite, è possibile specificare l&#39;offerta come destinazione di magazzino per i nuovi posizionamenti dalla visualizzazione [!UICONTROL Placements].
 
-Per offerte programmatiche garantite (PG), puoi creare posizionamenti con annunci specifici dalla [!UICONTROL Deals] visualizzazione.
+Per offerte programmatiche garantite (PG), puoi creare posizionamenti con annunci specifici dalla visualizzazione [!UICONTROL Deals].
 
-È inoltre possibile [allegare annunci ai posizionamenti](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) associati a PG e a offerte non garantite in qualsiasi momento.
+Puoi anche [allegare annunci ai posizionamenti](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) associati a offerte PG e non garantite in qualsiasi momento.
 
 ## Specificare un&#39;operazione non garantita come destinazione di magazzino per un posizionamento
 
-* [Creare un posizionamento dalla [!UICONTROL Placements] visualizza](/help/dsp/campaign-management/placements/placement-create.md). In [!UICONTROL Inventory Targeting] impostazioni, seleziona l’offerta privata.
+* [Crea un posizionamento dalla visualizzazione [!UICONTROL Placements]](/help/dsp/campaign-management/placements/placement-create.md). Nelle impostazioni [!UICONTROL Inventory Targeting], seleziona l&#39;offerta privata.
 
 ## Allega posizionamenti e annunci a un&#39;offerta PG
 
-1. Nel menu principale, fai clic su **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
+1. Nel menu principale, fare clic su **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. Nella riga dell’offerta, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Attach New Placement]**.
+1. Nella riga dell&#39;offerta, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Attach New Placement]**.
 
-1. In [!UICONTROL Ad & Campaign Selection] , selezionare gli annunci da utilizzare per il posizionamento:
+1. Nelle impostazioni [!UICONTROL Ad & Campaign Selection], seleziona gli annunci da utilizzare per il posizionamento:
 
        1. Seleziona l’inserzionista, la campagna e il tipo di annuncio. Facoltativamente, seleziona uno stato dell’annuncio in base al quale filtrare gli annunci.
        
@@ -40,11 +40,11 @@ Per offerte programmatiche garantite (PG), puoi creare posizionamenti con annunc
 
       1. Immettete il nome del posizionamento.
 
-      1. (Facoltativo) Modifica il [impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md), inclusa la sovrascrittura dell’offerta predefinita, che viene compilata automaticamente con il valore CPM dell’offerta, la modifica dell’intervallo di date o l’aggiunta di altri annunci.
+      1. (Facoltativo) Modifica le [impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md), inclusa la sovrascrittura dell&#39;offerta predefinita, che viene automaticamente compilata con il valore CPM dell&#39;offerta, la modifica dell&#39;intervallo di date o l&#39;aggiunta di altri annunci.
 
       L’offerta viene impostata automaticamente come destinazione nella sezione Oggetti di inventario. Tutte le altre opzioni di targeting non sono applicabili.
 
-      1. Clic **[!UICONTROL Create placement]**.
+      1. Fare clic su **[!UICONTROL Create placement]**.
 
 Il posizionamento inizia a essere eseguito dopo che l’editore ha attivato l’ID offerta PG.
 
@@ -54,8 +54,8 @@ Il posizionamento inizia a essere eseguito dopo che l’editore ha attivato l’
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sull’inventario privato](private-inventory-about.md)
->* [Elencare posizionamenti e annunci per un’offerta privata](/help/dsp/inventory/private-deal-view-placements.md)
+>* [Informazioni Sull&#39;Inventario Privato](private-inventory-about.md)
+>* [Elenca i posizionamenti e gli annunci per un&#39;operazione privata](/help/dsp/inventory/private-deal-view-placements.md)
 >* [Crea manualmente dettagli ID offerta](deal-id-create.md)
 >* [Impostazioni ID offerta manuale](deal-id-settings.md)
 >* [Imposta un&#39;offerta programmatica garantita](programmatic-guaranteed-set-up.md)

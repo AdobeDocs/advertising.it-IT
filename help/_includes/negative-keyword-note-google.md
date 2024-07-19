@@ -1,7 +1,7 @@
 ---
 source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
@@ -10,6 +10,5 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* La lunghezza massima per parola chiave è di 80 caratteri e non più di 10 parole. La parola chiave può contenere solo lettere, cifre e i seguenti caratteri speciali: spazio `# $ & _ - " [ ] ' + . / :`
->* È possibile impostare parole chiave negative a livello di campagna e gruppo di annunci dalle impostazioni della campagna e del gruppo di annunci o da [!UICONTROL Keywords] > [!UICONTROL Negatives] visualizzazione. I negativi a livello di campagna vengono applicati a livello di gruppo di annunci.
->* Modifica di un [!DNL Google Ads] parola chiave o tipo corrispondenza elimina la parola chiave esistente e ne crea una nuova.
-
+>* È possibile impostare parole chiave negative a livello di campagna e gruppo di annunci dalle impostazioni della campagna e del gruppo di annunci o dalla vista [!UICONTROL Keywords] > [!UICONTROL Negatives]. I negativi a livello di campagna vengono applicati a livello di gruppo di annunci.
+>* Se si modifica una parola chiave o un tipo di corrispondenza [!DNL Google Ads], la parola chiave esistente verrà eliminata e ne verrà creata una nuova.

@@ -1,5 +1,5 @@
 ---
-title: Abilitare e disabilitare le notifiche push da [!UICONTROL Notification Center]
+title: Abilita e disabilita le notifiche push da [!UICONTROL Notification Center]
 description: Scopri come abilitare e disabilitare le notifiche push da [!UICONTROL Notification Center].
 exl-id: f0e91e76-eb1e-4ff0-9a52-e9bc587552a2
 feature: Search Notifications
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 ---
 
-# Abilitare e disabilitare le notifiche push da [!UICONTROL Notification Center]
+# Abilita e disabilita le notifiche push da [!UICONTROL Notification Center]
 
-*Funzione beta*
+*Funzionalità Beta*
 
-Puoi abilitare le notifiche in Search, Social e Commerce, dove vengono visualizzate in base alle convenzioni di notifica del browser. Sui dispositivi che utilizzano [!DNL Microsoft Windows], le notifiche vengono visualizzate in basso a destra dello schermo (barra delle applicazioni). On [!DNL Apple Mac] dispositivi, le notifiche vengono visualizzate nel menu a destra.
+Puoi abilitare le notifiche in Search, Social e Commerce, dove vengono visualizzate in base alle convenzioni di notifica del browser. Sui dispositivi che utilizzano [!DNL Microsoft Windows], le notifiche vengono visualizzate in basso a destra dello schermo (area di notifica). Sui dispositivi [!DNL Apple Mac], le notifiche vengono visualizzate nel menu di destra.
 
 Le notifiche push sono disponibili nei seguenti browser:
 
@@ -28,31 +28,31 @@ Puoi disattivare le notifiche push in base alla procedura standard del browser.
 
 ## Abilitare le notifiche push
 
-1. Nel menu principale, fai clic su **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
 
-2. In basso a destra, fai clic su ![Abilitare le notifiche push](/help/search-social-commerce/assets/notifications-push.png "Abilitare le notifiche push").
+2. In basso a destra, fai clic su ![Abilita notifiche push](/help/search-social-commerce/assets/notifications-push.png "Abilita notifiche push").
 
-3. Nel messaggio di conferma, fai clic su **[!UICONTROL Enable]**.
+3. Nel messaggio di conferma, fare clic su **[!UICONTROL Enable]**.
 
-4. Configura il browser per consentire le notifiche da [!UICONTROL Notification Center] a`https://alert-center-ui-na.efrontier.com`.
+4. Configura il browser per consentire le notifiche da [!UICONTROL Notification Center] alle`https://alert-center-ui-na.efrontier.com`.
 
-   Le impostazioni di notifica predefinite variano a seconda del browser e puoi: a) visualizzare automaticamente l’opzione per consentire le notifiche da [!UICONTROL Notification Center] o b) devono gestire manualmente le impostazioni di notifica. Ad esempio, in [!DNL Microsoft Edge], puoi consentire notifiche da [!UICONTROL Notification Center] dalla barra degli strumenti del browser. Consulta le istruzioni nella guida del browser.
+   Le impostazioni di notifica predefinite variano a seconda del browser e può essere necessario a) visualizzare automaticamente l&#39;opzione per consentire le notifiche da [!UICONTROL Notification Center] oppure b) gestire manualmente le impostazioni di notifica. In [!DNL Microsoft Edge], ad esempio, è possibile consentire le notifiche da [!UICONTROL Notification Center] dalla barra degli strumenti del browser. Consulta le istruzioni nella guida del browser.
 
    ![Dove gestire le impostazioni di notifica in Microsoft Edge](/help/search-social-commerce/assets/notifications-blocked-dialog.png "Dove gestire le impostazioni di notifica in Microsoft Edge")
 
-5. Nel tuo [impostazioni di notifica](notification-edit.md), abilita [!UICONTROL Web] notifiche per i tipi di avviso che si desidera inviare.
+5. Nelle [impostazioni di notifica](notification-edit.md), abilita [!UICONTROL Web] notifiche per i tipi di avviso che desideri inviare.
 
 ## Disattiva notifiche push
 
-Rimuovi notifiche da `https://alert-center-ui-na.efrontier.com` nel gestore delle notifiche del browser. Ad esempio, in [!DNL Google Chrome], è possibile rimuovere o bloccare le notifiche dai siti specificati all’indirizzo `chrome://settings/content/notifications`.
+Rimuovi le notifiche da `https://alert-center-ui-na.efrontier.com` nel gestore notifiche del browser. In [!DNL Google Chrome], ad esempio, è possibile rimuovere o bloccare le notifiche dai siti specificati in `chrome://settings/content/notifications`.
 
 Consulta le istruzioni nella guida del browser.
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulle notifiche](/help/search-social-commerce/notifications/notification-about.md)
->* [Visualizzare le notifiche](notification-view.md)
->* [Contrassegnare una notifica come letta o non letta](notification-mark-read-unread.md)
+>* [Visualizza le notifiche](notification-view.md)
+>* [Contrassegna una notifica come letta o non letta](notification-mark-read-unread.md)
 >* [Eliminare una notifica](notification-delete.md)
 >* [Modifica le impostazioni delle notifiche](notification-edit.md)
->* [Installare e disinstallare [!UICONTROL Notification Center] applicazione web](notification-app-install-uninstall.md)
+>* [Installa e disinstalla l&#39;applicazione Web [!UICONTROL Notification Center]](notification-app-install-uninstall.md)

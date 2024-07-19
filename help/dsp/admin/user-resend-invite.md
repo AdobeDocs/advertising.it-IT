@@ -16,15 +16,15 @@ Gli utenti amministratori possono inviare nuovamente un invito a un utente con u
 
 1. Effettuare una delle seguenti operazioni:
 
-   * Nel menu principale, fai clic su **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
+   * Nel menu principale, fare clic su **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
 
-   * Nel menu principale, fai clic su **[!UICONTROL Settings]** > **[!UICONTROL Account]** e quindi fare clic su **[!UICONTROL Edit users]**.
+   * Nel menu principale fare clic su **[!UICONTROL Settings]** > **[!UICONTROL Account]** e quindi su **[!UICONTROL Edit users]**.
 
-1. In **Inviti** , fare clic su ![Invia di nuovo](/help/dsp/assets/resend.png).
+1. Nella sezione **Inviti**, fai clic su ![Invia di nuovo](/help/dsp/assets/resend.png).
 
 >[!MORELIKETHIS]
 >
 >* [Invita un nuovo utente per l&#39;account organizzazione](user-invite.md)
->* [Annullare l&#39;invito di un utente in sospeso](user-uninvite.md)
+>* [Annulla l&#39;invito di un utente in sospeso](user-uninvite.md)
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->

@@ -1,29 +1,29 @@
 ---
-title: Eliminare un report di dati sulle prestazioni o un file di bulksheet dal [!UICONTROL Downloads] menu
+title: Eliminare un report di dati sulle prestazioni o un file di bulksheet dal menu [!UICONTROL Downloads]
 description: Scopri come eliminare un rapporto o un file di bulksheet scaricato da una vista di gestione della campagna.
-exl-id: bb25c2f1-3ade-44ad-b10a-b5684feffd8f
+exl-id: cd1244da-ddb8-4ee1-8ebb-2df4e9924952
 feature: Search Common Tasks
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 0%
 
 ---
 
-# Eliminare un report di dati sulle prestazioni o un file di bulksheet dal [!UICONTROL Downloads] menu
+# Eliminare un report di dati sulle prestazioni o un file di bulksheet dal menu [!UICONTROL Downloads]
 
 >[!NOTE]
 >
->Se si elimina un file bulksheet, questo viene rimosso da [!UICONTROL Downloads] e anche dall&#39; [!UICONTROL Bulksheets] visualizzazione.
+>L&#39;eliminazione di un file bulksheet ne comporta la rimozione dall&#39;elenco [!UICONTROL Downloads] e anche dalla visualizzazione [!UICONTROL Bulksheets].
 
-1. Nel menu principale, fai clic su [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]e aprire qualsiasi visualizzazione di entità.
+1. Nel menu principale, fare clic su [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] e aprire qualsiasi visualizzazione di entità.
 
-1. A destra della barra degli strumenti, fai clic su ![Download del rapporto](/help/search-social-commerce/assets/download.png "Download del rapporto") per visualizzare il pannello Download.
+1. Sulla destra della barra degli strumenti, fai clic su ![Download del rapporto](/help/search-social-commerce/assets/download.png "Download del rapporto") per visualizzare il pannello Download.
 
-1. Accanto al report o al bulksheet, fai clic su ![Elimina](/help/search-social-commerce/assets/delete.png "Elimina").
+1. Accanto al report o al bulksheet, fare clic su ![Elimina](/help/search-social-commerce/assets/delete.png "Elimina").
 
-1. Nel messaggio di conferma, fai clic su **[!UICONTROL Yes]**.
+1. Nel messaggio di conferma, fare clic su **[!UICONTROL Yes]**.
 
 >[!MORELIKETHIS]
 >
->[Scaricare dati da una vista di gestione delle campagne](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
+>[Scarica dati da una visualizzazione di gestione campagne](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)

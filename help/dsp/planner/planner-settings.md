@@ -16,12 +16,12 @@ ht-degree: 0%
 | --- | --- | --- |
 | Nome | Nome per identificare il piano. | Sì |
 | Inserzionista | L’inserzionista specifico nell’account per cui viene creato il piano. | Sì |
-| Tipo di file multimediale | Tipo di supporto da includere nel piano.<br><br>Attualmente, solo [!UICONTROL Connected TV] è disponibile. | Sì |
+| Tipo di file multimediale | Tipo di supporto da includere nel piano.<br><br>Al momento sono disponibili solo [!UICONTROL Connected TV]. | Sì |
 | Intervallo date | Le date di inizio e di fine del piano.<br><br>La data di inizio non può essere precedente alla data corrente. L’intervallo di date non può essere superiore a 90 giorni. | Sì |
-| Tipo di obiettivo | Il tipo di obiettivo (ad esempio [!UICONTROL Budget]) da considerare per il piano.<br><br>Attualmente, solo [!UICONTROL Budget] è disponibile. | Sì |
+| Tipo di obiettivo | Tipo di obiettivo (ad esempio [!UICONTROL Budget]) da considerare per il piano.<br><br>Al momento sono disponibili solo [!UICONTROL Budget]. | Sì |
 | Valore obiettivo | Valore obiettivo per la previsione. Per ottenere risultati di previsione più precisi, utilizzare un valore > 5000 USD. | Sì |
-| Offerta massima | L’importo massimo da pagare per 1000 impression. Se il [!UICONTROL Connected TV] tipo di file multimediale selezionato, inserisci un valore di almeno 10 USD. | Sì |
-| Limite di frequenza | Il numero di volte in cui a una famiglia univoca devono essere serviti gli annunci.<br><br>Quando implementi un piano e devi creare più posizionamenti, applica l’impostazione del limite di frequenza a livello di pacchetto, non a livello di posizionamento, per garantire la consegna corretta. | Sì |
+| Offerta massima | L’importo massimo da pagare per 1000 impression. Se il tipo di supporto [!UICONTROL Connected TV] è selezionato, immettere un valore di almeno 10 USD. | Sì |
+| Limite di frequenza | Il numero di volte in cui a una famiglia univoca devono essere serviti gli annunci.<br><br>Quando si implementa un piano e si devono creare più posizionamenti, applicare l&#39;impostazione del limite di frequenza a livello di pacchetto, non a livello di posizionamento, per garantire la corretta consegna. | Sì |
 | Geo-Targeting | Posizioni da includere o escludere come destinazioni. | Sì |
 | Targeting inventario | Origini di magazzino da includere o escludere come destinazioni. Seleziona almeno un feed o un’origine. | Sì |
 | Targeting del pubblico | Tipi di pubblico da includere o escludere come target. | No |
@@ -30,9 +30,9 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Informazioni sullo strumento DSP Planner](planner-about.md)
->* [Creazione di un piano di copertura TV collegata](planner-create.md)
->* [Duplicare un piano di portata TV collegato](planner-duplicate.md)
->* [Modifica di un piano di copertura TV collegato](planner-edit.md)
->* [Esportazione di un piano di copertura TV collegato](planner-export.md)
+>* [Crea un piano di copertura TV collegato](planner-create.md)
+>* [Duplicare un piano di copertura TV collegata](planner-duplicate.md)
+>* [Modifica un piano di copertura TV collegato](planner-edit.md)
+>* [Esporta un piano di copertura TV collegato](planner-export.md)
 >* [Rigenerare la previsione per un piano di copertura TV collegato](planner-forecast.md)
->* [Archiviare un piano di portata TV collegato](planner-archive.md)
+>* [Archivia un piano di copertura TV collegato](planner-archive.md)

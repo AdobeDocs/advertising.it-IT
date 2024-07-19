@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Ultimo aggiornamento: 29 febbraio 2024
 
-La presente Politica dei requisiti per gli ID universali (&quot;Policy&quot;) definisce i requisiti per l’utilizzo degli ID universali in relazione agli annunci distribuiti tramite [!DNL Adobe's] Servizi on-demand per Adobe Advertising (&quot;Servizi&quot;). Tale politica è integrata nell&#39;accordo tra [!DNL Adobe] e il Cliente (&quot;tu&quot;) che utilizza i Servizi on-demand. I termini maiuscoli utilizzati nel presente documento ma non definiti in esso avranno il significato indicato nel Contratto.
+Questo criterio dei requisiti per gli ID universali (&quot;criterio&quot;) definisce i requisiti per l&#39;utilizzo degli ID universali in relazione agli annunci distribuiti tramite [!DNL Adobe's] servizi on-demand, ad Adobe Advertising (&quot;servizi&quot;). Questo criterio viene incorporato tramite riferimento nel contratto tra [!DNL Adobe] e il Cliente (&quot;l&#39;utente&quot;) che utilizza i Servizi on-demand. I termini maiuscoli utilizzati nel presente documento ma non definiti in esso avranno il significato indicato nel Contratto.
 
-[!DNL Adobe] si riserva il diritto di determinare, a suo unico giudizio, se un Annuncio o i siti web a cui l&#39;Annuncio reindirizza o collega, violano i requisiti della presente Politica, nel qual caso [!DNL Adobe] può rifiutare tale Annuncio e/o interrompere o sospendere l&#39;accesso ai Servizi su tale base.
+[!DNL Adobe] si riserva il diritto di determinare, a suo giudizio, se un Annuncio o i siti Web a cui l&#39;Annuncio reindirizza o collega violano i requisiti del presente Contratto, nel qual caso [!DNL Adobe] può rifiutare tale Annuncio e/o interrompere o sospendere l&#39;accesso ai Servizi su tale base.
 
 Oltre ai requisiti indicati di seguito e nel Contratto, l&#39;Utente è tenuto a rispettare i requisiti imposti da ciascun provider Universal ID con cui scegli di impegnarsi, nonché quelli imposti da qualsiasi piattaforma lato fornitura (SSP, Supply Side Platform) o altra piattaforma utilizzata per distribuire i suoi annunci. È tua responsabilità comprendere e rispettare le politiche degli editori e delle piattaforme attraverso cui distribuisci gli annunci.
 
@@ -24,13 +24,13 @@ Oltre ai requisiti indicati di seguito e nel Contratto, l&#39;Utente è tenuto a
 
 ### Dati proibiti
 
-Scegliendo di utilizzare gli ID universali resi disponibili tramite i Servizi, l&#39;utente accetta di garantire che tutti i dati dei clienti trasmessi, memorizzati, visualizzati, distribuiti o altrimenti resi disponibili tramite i Servizi on-demand siano coerenti con le seguenti specifiche degli ID universali e con qualsiasi altro requisito della presente Informativa, così come eventualmente modificati da [!DNL Adobe] di tanto in tanto.
+Scegliendo di utilizzare gli ID universali resi disponibili tramite i Servizi, l&#39;utente accetta di garantire che tutti i dati client trasmessi, memorizzati, visualizzati, distribuiti o resi disponibili in altro modo tramite i Servizi on-demand siano coerenti con le seguenti specifiche degli ID universali e con qualsiasi altro requisito del presente criterio, eventualmente rivisti da [!DNL Adobe] di tanto in tanto.
 
 * I Dati del Cliente sono stati raccolti direttamente presso gli utenti o concessi in licenza dall&#39;utente da un&#39;altra parte che (i) ha raccolto i Dati del Cliente direttamente presso gli utenti a cui tali dati si riferiscono o (ii) ha ottenuto i Dati del Cliente tramite intermediari che hanno ottenuto i dati da un&#39;altra parte che ha raccolto tali dati dall&#39;utente, a condizione che l&#39;utente sia in grado di identificare la parte originale che ha raccolto i Dati del Cliente presso gli utenti a cui i dati si riferiscono.
 
 * I dati client non sono stati generati tramite il web scraping o l’acquisto di un database da una sorgente disconnessa dalla raccolta originale dei dati.
 
-* Hai fornito tutte le notifiche e ottenuto tutti i consensi necessari per divulgare i Dati dei clienti a [!DNL Adobe] e dei suoi partner ai fini indicati nell&#39;accordo.
+* Hai fornito tutte le notifiche e ottenuto tutti i consensi necessari per divulgare i Dati del cliente a [!DNL Adobe] e ai suoi partner per gli scopi indicati nel Contratto.
 
 * I Dati dei clienti non si riferiscono a persone (i) che hanno esercitato un’opzione che ti sei impegnato direttamente o indirettamente a rispettare in relazione alla creazione o all’utilizzo di dati per tipi di pubblico mirati (&quot;Opt Out&quot;), (ii) che sai essere minorenni (minori al di sotto della maggiore età definita dalla legge in qualsiasi giurisdizione applicabile), o (iii) in cui possiedi la conoscenza effettiva che tale persona soffre di una particolare condizione di salute.
 
@@ -38,7 +38,7 @@ Scegliendo di utilizzare gli ID universali resi disponibili tramite i Servizi, l
 
 ### Paesi proibiti UID2
 
-Scegliendo di utilizzare gli UID2 Universal ID tramite i Servizi accettate di garantire che tutti i Dati client trasmessi, memorizzati, visualizzati, distribuiti o altrimenti resi disponibili dall&#39;utente tramite i Servizi on-demand per tale utilizzo in relazione agli UID2 Universal ID non si riferiscano a qualsiasi individuo residente di uno qualsiasi dei [Paesi proibiti UID2 elencati nell’Allegato A](#prohibited-countries-uid2) qui.
+Scegliendo di utilizzare gli UID2 Universal ID tramite i Servizi, l&#39;utente accetta di garantire che tutti i Dati client trasmessi, memorizzati, visualizzati, distribuiti o resi disponibili in altro modo tramite i Servizi on-demand per tale utilizzo in relazione agli UID2 Universal ID non si riferiscano a qualsiasi persona residente in uno dei [Paesi proibiti UID2 elencati nell&#39;Allegato A](#prohibited-countries-uid2) del presente documento.
 
 ## Nessuna discriminazione
 

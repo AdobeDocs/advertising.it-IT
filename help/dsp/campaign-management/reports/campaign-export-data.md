@@ -22,13 +22,13 @@ ht-degree: 0%
 * Tutti i posizionamenti
 * Tutti gli annunci
 
-1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]** e aprire la visualizzazione che si desidera esportare.
+1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]** e aprire la visualizzazione che si desidera esportare.
 
-1. Nella barra degli strumenti superiore destra, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Export]**.
+1. Nella barra degli strumenti superiore destra, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Export]**.
 
    Il file viene salvato nella cartella Download predefinita del browser.
 
 >[!MORELIKETHIS]
 >
->* [Tipi di rapporti sulle prestazioni nelle visualizzazioni di Campaign Management](campaign-reports-about.md)
->* [Gestire le visualizzazioni dati della campagna](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
+>* [Tipi di report sulle prestazioni nelle visualizzazioni di Campaign Management](campaign-reports-about.md)
+>* [Gestione Delle Visualizzazioni Dati Della Campagna](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)

@@ -22,7 +22,7 @@ Un’offerta programmatica garantita (PG) è un acquisto garantito direttamente 
 * In genere, l’offerta ha una priorità più alta nel server di annunci dell’editore.
 * Le richieste di offerta non sono esclusive per una singola offerta o per un singolo acquirente.
 * Sono supportati più tipi di video su un singolo ID offerta.
-* Gli annunci gestiti dall’editore sono accettati tramite [!DNL Google Authorized Buyers] SSP
+* Gli annunci gestiti dal server di pubblicazione sono accettati tramite [!DNL Google Authorized Buyers] SSP.
 * Gli SLA per la consegna sono impostati per gli SP e gli editori.
 
 Le offerte PG richiedono un posizionamento e annunci predefiniti PG (o un pixel 1x1 per gli annunci gestiti dall’editore) in modo che l’DSP possa restituire una richiesta a ogni richiesta di offerta e soddisfare gli SLA di consegna con i provider di servizi condivisi. Una volta impostato il posizionamento predefinito PG obbligatorio, puoi eseguire il targeting dell’offerta PG anche in altri posizionamenti.
@@ -32,14 +32,14 @@ Le offerte PG richiedono un posizionamento e annunci predefiniti PG (o un pixel 
 * [!DNL Ambient Digital]
 * [!DNL FreeWheel]
 * [!DNL Google Authorized Buyers]
-* [!DNL Magnite CTV] (in precedenza [!DNL Telaria])
-* [!DNL Magnite DV+] (in precedenza [!DNL Rubicon])
+* [!DNL Magnite CTV] (precedentemente [!DNL Telaria])
+* [!DNL Magnite DV+] (precedentemente [!DNL Rubicon])
 * [!DNL OpenX]
 * [!DNL SpotX]
 
 >[!MORELIKETHIS]
 >
->* [Suggerimenti per negoziare un accordo programmatico garantito](/help/dsp/inventory/programmatic-guaranteed-tips.md)
+>* [Suggerimenti per la negoziazione di un&#39;offerta programmatica garantita](/help/dsp/inventory/programmatic-guaranteed-tips.md)
 >* [Imposta un&#39;offerta programmatica garantita](programmatic-guaranteed-set-up.md)
 >* [Partner SSP](ssp-partners.md)
->* [Panoramica delle funzioni di magazzino](inventory-overview.md)
+>* [Panoramica delle funzionalità di inventario](inventory-overview.md)

@@ -1,12 +1,12 @@
 ---
 title: Assegnare valori di classificazione ai componenti conto utilizzando i bulksheet
 description: Scopri come utilizzare i bulksheet per assegnare valori di classificazione ai componenti dell’account.
-exl-id: 9bb38f28-d6bc-41f4-9c28-b391d9b9e412
+exl-id: b2dfd487-097c-45f8-a6a5-24395fdb2b85
 feature: Search Label Classifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 7%
+source-wordcount: '479'
+ht-degree: 0%
 
 ---
 
@@ -20,13 +20,13 @@ I valori delle etichette vengono ereditati dalle entità figlio, pertanto non im
 
 >[!NOTE]
 >
->Le parole chiave e la copia dell’annuncio per alcune reti e tipi di campagne pubblicitarie sono [non modificabile](/help/search-social-commerce/campaign-management/faqs-campaigns.md), il che significa che la loro modifica elimina l’entità esistente e ne crea una nuova. Quando un’entità esistente viene eliminata in questo modo, la classificazione dell’etichetta non viene assegnata alla nuova entità.
+>Le parole chiave e la copia dell&#39;annuncio per alcune reti di annunci e tipi di campagne sono [non modificabili](/help/search-social-commerce/campaign-management/faqs-campaigns.md), il che significa che la loro modifica elimina l&#39;entità esistente e ne crea una nuova. Quando un’entità esistente viene eliminata in questo modo, la classificazione dell’etichetta non viene assegnata alla nuova entità.
 
-1. [Scaricare un bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) che include le entità a cui desideri assegnare i valori di classificazione delle etichette:
+1. [Scaricare un bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) che include le entità alle quali si desidera assegnare i valori di classificazione delle etichette:
 
-   * Il giorno [!UICONTROL Rows and Columns] , espandere la scheda [!UICONTROL Campaign] elenco in [!UICONTROL Bulksheet Columns] riquadro.
+   * Nella scheda [!UICONTROL Rows and Columns], espandere l&#39;elenco [!UICONTROL Campaign] nel riquadro [!UICONTROL Bulksheet Columns].
 
-   * Espandi [!UICONTROL Label Classification] elenco.
+   * Espandere l&#39;elenco [!UICONTROL Label Classification].
 
    * Seleziona ogni classificazione per la quale desideri includere una colonna nel file del bulksheet.
 
@@ -48,21 +48,21 @@ Questo esempio include colonne per le classificazioni di etichette &quot;Colore&
 
 | Account | Campagna | Gruppo di annunci | Parola chiave | Annuncio | Posizionamento | Etichette | Colore | Geo |
 |---|---|---|---|---|---|---|---|---|
-| Acct1 | C1 | | | | | | Verde | |
-| Acct1 | C1 | AG1 | | | | | | |
-| Acct1 | C1 | AG1 | K1 | | | | | Regno Unito |
-| Acct1 | C1 | AG1 | K2 | | | | Rosso | AU |
-| Acct1 | C1 | AG1 | K3 | | | | Blu | DE |
-| Acct1 | C1 | AG1 | | A1 | | | | |
-| Acct1 | C1 | AG1 | | A1 | | | Rosso | |
-| Acct1 | C1 | AG1 | | | P1 | | Rosso | AU |
-| Acct1 | C1 | AG1 | | | P2 | | Blu | DE |
+| Att1 | C1 | | | | | | Verde | |
+| Att1 | C1 | AG1 | | | | | | |
+| Att1 | C1 | AG1 | K1 | | | | | Regno Unito |
+| Att1 | C1 | AG1 | K2 | | | | Rosso | AU |
+| Att1 | C1 | AG1 | K3 | | | | Blu | DE |
+| Att1 | C1 | AG1 | | A1 | | | | |
+| Att1 | C1 | AG1 | | A1 | | | Rosso | |
+| Att1 | C1 | AG1 | | | P1 | | Rosso | AU |
+| Att1 | C1 | AG1 | | | P2 | | Blu | DE |
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulle classificazioni delle etichette](classification-about.md)
 >* [Creare una classificazione di etichette](classification-create.md)
->* [Assegnare valori di classificazione ai componenti account dalle viste di gestione delle campagne](classification-values-assign-campaign-management.md)
->* [Rimuovi i valori di classificazione delle etichette dai componenti dell’account](classification-values-remove.md)
->* [Elimina valori di classificazione delle etichette](classification-values-delete.md)
->* [Eliminare le classificazioni delle etichette](classification-delete.md)
+>* [Assegna valori di classificazione ai componenti account dalle visualizzazioni di gestione campagne](classification-values-assign-campaign-management.md)
+>* [Rimuovere i valori di classificazione delle etichette dai componenti dell&#39;account](classification-values-remove.md)
+>* [Elimina i valori di classificazione delle etichette](classification-values-delete.md)
+>* [Elimina classificazioni etichette](classification-delete.md)

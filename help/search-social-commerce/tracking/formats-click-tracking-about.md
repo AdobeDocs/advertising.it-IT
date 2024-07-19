@@ -1,11 +1,11 @@
 ---
 title: Informazioni sui formati degli URL di tracciamento dei clic per il servizio di tracciamento delle conversioni di Adobe Advertising
 description: Scopri i formati di tracciamento dei clic per le reti di annunci supportate.
-exl-id: 12148caf-fde6-4ac2-b8b4-222409895dd7
+exl-id: b6f225d5-2268-4b2a-9927-063155ba0dc5
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ I modelli di tracciamento, i suffissi delle pagine di destinazione (suffissi URL
 
 dove:
 
-* `http://pixel.everesttech.net` reindirizza l&#39;utente ai pixel server di Adobe Advertising.
+* `http://pixel.everesttech.net` reindirizza l&#39;utente ai server pixel Adobe Advertising.
 
-* `<advertiser_ID>` è una variabile per l’ID utente univoco assegnato all’inserzionista all’interno di Adobi Advertising.
+* `<advertiser_ID>` è una variabile per l&#39;ID utente univoco assegnato all&#39;inserzionista all&#39;interno di Adobe Advertising.
 
 * `<token passing parameter>` è una variabile per uno dei seguenti elementi:
 
@@ -28,20 +28,20 @@ dove:
 
    * `c?` o `r` indica che il passaggio del token è disabilitato.
 
-* `<ad network ID>` è una variabile per l’ID numerico della rete di annunci specificata, ad esempio *3* per [!DNL Google Ads], *10* per [!DNL Microsoft Advertising], *45* per [!DNL Meta], *86* per [!DNL Yahoo! Display Network], *87* per [!DNL Naver], *88* per [!DNL Baidu], *90* per [!DNL Yandex], *94* per [!DNL Yahoo! Japan Ads], *105* per [!DNL Yahoo Native] (obsoleto), oppure *106* per [!DNL Pinterest] (obsoleto).
+* `<ad network ID>` è una variabile per l&#39;ID numerico per la rete di annunci specificata, ad esempio *3* per [!DNL Google Ads], *10* per [!DNL Microsoft Advertising], *45* per [!DNL Meta], *86* per [!DNL Yahoo! Display Network], *87* per [!DNL Naver], *88* per [!DNL Baidu], *90* per [!DNL Yandex], *94 3} per [!DNL Yahoo! Japan Ads],* 105 *per [!DNL Yahoo Native] (obsoleto), o* 106 *per [!DNL Pinterest] (obsoleto).*
 
-* `<tracking ID>` è una variabile per una stringa dell’ID di tracciamento generato dal sistema che identifica una parola chiave, un annuncio o un posizionamento univoco nell’account. La stringa varia in base alla rete di annunci.
+* `<tracking ID>` è una variabile per una stringa ID di tracciamento generata dal sistema che identifica una parola chiave, un annuncio o un posizionamento univoco nell&#39;account. La stringa varia in base alla rete di annunci.
 
-* `<the landing page>` è una variabile che rappresenta l’URL sul sito a cui vengono indirizzati gli utenti finali. Per gli account con URL di destinazione, questo valore è un URL. Per gli account con modelli di tracciamento, questo valore è un parametro (ad esempio `{lpurl}`) che rappresenta l’URL finale.
+* `<the landing page>` è una variabile che rappresenta l&#39;URL del sito a cui sono indirizzati gli utenti finali. Per gli account con URL di destinazione, questo valore è un URL. Per gli account con modelli di tracciamento, questo valore è un parametro (ad esempio `{lpurl}`) che rappresenta l&#39;URL finale.
 
-Vedere le pagine separate che indicano [[!DNL Baidu] formati](formats-click-tracking-baidu.md), [[!DNL Google Ads] formati](formats-click-tracking-google.md), [[!DNL Microsoft Advertising] formati](formats-click-tracking-microsoft.md), [[!DNL Naver] formati](formats-click-tracking-naver.md), [[!DNL Yahoo! Display Network] formati](formats-click-tracking-yahoo-display-network.md), [[!DNL Yahoo! Japan Ads] formati](formats-click-tracking-yahoo-japan.md), e [[!DNL Yandex] formati](formats-click-tracking-yandex.md).
+Visualizzare le pagine separate che indicano [[!DNL Baidu] formati](formats-click-tracking-baidu.md), [[!DNL Google Ads] formati](formats-click-tracking-google.md), [[!DNL Microsoft Advertising] formati](formats-click-tracking-microsoft.md), [[!DNL Naver] formati](formats-click-tracking-naver.md), [[!DNL Yahoo! Display Network] formati](formats-click-tracking-yahoo-display-network.md), [[!DNL Yahoo! Japan Ads] formati](formats-click-tracking-yahoo-japan.md) e [[!DNL Yandex] formati](formats-click-tracking-yandex.md).
 
 >[!MORELIKETHIS]
 >
->* [Formati di tracciamento dei clic per annunci sponsorizzati su [!DNL Baidu]](formats-click-tracking-baidu.md)
+>* [Formati di tracciamento dei clic per annunci sponsorizzati il [!DNL Baidu]](formats-click-tracking-baidu.md)
 >* [Formati di tracciamento dei clic per [!DNL Google Ads]](formats-click-tracking-google.md)
 >* [Formati di tracciamento dei clic per [!DNL Microsoft Advertising]](formats-click-tracking-microsoft.md)
->* [Formati di tracciamento dei clic per annunci sponsorizzati su [!DNL Naver]](formats-click-tracking-naver.md)
->* [Formati di tracciamento dei clic per annunci sponsorizzati su [!DNL Yahoo! Japan Ads]](formats-click-tracking-yahoo-japan.md)
->* [Formati di tracciamento dei clic per annunci sponsorizzati su [!DNL Yahoo! Display Network]](formats-click-tracking-yahoo-display-network.md)
->* [Formati di tracciamento dei clic per annunci sponsorizzati su [!DNL Yandex]](formats-click-tracking-yandex.md)
+>* [Formati di tracciamento dei clic per annunci sponsorizzati il [!DNL Naver]](formats-click-tracking-naver.md)
+>* [Formati di tracciamento dei clic per annunci sponsorizzati il [!DNL Yahoo! Japan Ads]](formats-click-tracking-yahoo-japan.md)
+>* [Formati di tracciamento dei clic per annunci sponsorizzati il [!DNL Yahoo! Display Network]](formats-click-tracking-yahoo-display-network.md)
+>* [Formati di tracciamento dei clic per annunci sponsorizzati il [!DNL Yandex]](formats-click-tracking-yandex.md)

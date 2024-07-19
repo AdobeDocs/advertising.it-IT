@@ -1,6 +1,6 @@
 ---
-title: '[!DNL Microsoft Advertising] impostazioni degli annunci di ricerca responsive'
-description: Fai riferimento alle impostazioni per [!DNL Microsoft Advertising] annunci di ricerca responsive.
+title: '[!DNL Microsoft Advertising] impostazioni annunci di ricerca responsive'
+description: Fai riferimento alle impostazioni per  [!DNL Microsoft Advertising] annunci di ricerca responsive.
 exl-id: 470008e1-7c7d-49a6-b542-fe384c473c97
 feature: Search Campaign Management
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -51,7 +51,7 @@ Il formato dell’annuncio di ricerca responsive è disponibile per gli annunci 
 >
 >* [Informazioni sugli annunci](ad-about.md)
 >* [Gestione annunci](ad-manage.md)
->* [[!DNL Microsoft Advertising] impostazioni annunci per ricerca dinamica espansa](ad-settings-microsoft-dsa.md)
->* [[!DNL Microsoft Advertising] impostazioni degli annunci multimediali](ad-settings-microsoft-multimedia.md)
->* [[!DNL Microsoft Advertising] impostazioni annuncio di prodotto](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft Advertising] impostazioni degli annunci reattivi (pubblico)](ad-settings-microsoft-responsive.md)
+>* [[!DNL Microsoft Advertising] impostazioni annuncio ricerca dinamica espansa](ad-settings-microsoft-dsa.md)
+>* [[!DNL Microsoft Advertising] impostazioni annunci multimediali](ad-settings-microsoft-multimedia.md)
+>* [[!DNL Microsoft Advertising] impostazioni annuncio prodotto](ad-settings-microsoft-product.md)
+>* [[!DNL Microsoft Advertising] impostazioni annuncio reattivo (pubblico)](ad-settings-microsoft-responsive.md)

@@ -21,32 +21,30 @@ Puoi annullare l’archiviazione di un’offerta per ripristinarne lo stato prec
 >* Impossibile archiviare [!UICONTROL On Demand] offerte.
 >* Per disattivare un&#39;offerta dal lato dell&#39;editore, contattare l&#39;editore o il provider di servizi condivisi. Dopo che hanno disattivato l&#39;affare, puoi archiviarlo in DSP per nasconderlo.
 
-
 ## Archivia un&#39;offerta privata
 
-1. Nel menu principale, fai clic su **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
-1. Nella riga dell’offerta, fai clic su **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
-1. Nel messaggio di conferma, fai clic su **[!UICONTROL Archive]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
+1. Nella riga dell&#39;offerta, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
+1. Nel messaggio di conferma, fare clic su **[!UICONTROL Archive]**.
 
 >[!NOTE]
 >
->Per visualizzare le offerte archiviate, fai clic su ![Filtro](/help/dsp/assets/filter.png) sopra l’elenco delle offerte; fai clic su **[!UICONTROL Status]** e seleziona *[!UICONTROL Archived]* e quindi fare clic su **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
+>Per visualizzare le offerte archiviate, fai clic su ![Filtro](/help/dsp/assets/filter.png) sopra l&#39;elenco delle offerte; fai clic su **[!UICONTROL Status]** e seleziona *[!UICONTROL Archived]*; quindi fai clic su **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
 
 ## Annullare l’archiviazione di un’offerta privata
 
-1. Nel menu principale, fai clic su **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
-1. Sopra l’elenco delle offerte, fai clic su ![Filtro](/help/dsp/assets/filter.png); fare clic su **[!UICONTROL Status]** e seleziona *[!UICONTROL Archived]* e quindi fare clic su **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
-1. Nella riga dell’offerta, fai clic su **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
-1. Nel messaggio di conferma, fai clic su **[!UICONTROL Unarchive]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
+1. Sopra l&#39;elenco delle offerte, fare clic su ![Filtro](/help/dsp/assets/filter.png); fare clic su **[!UICONTROL Status]** e selezionare *[!UICONTROL Archived]*, quindi fare clic su **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
+1. Nella riga dell&#39;offerta, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
+1. Nel messaggio di conferma, fare clic su **[!UICONTROL Unarchive]**.
 
 Se l&#39;editore o il provider di servizi condivisi ha disattivato in precedenza l&#39;offerta e si desidera riutilizzarla, contattare direttamente l&#39;editore o il provider di servizi condivisi.
 
 >[!NOTE]
 >
->Per visualizzare le offerte non archiviate (live), fai clic su ![Filtro](/help/dsp/assets/filter.png) sopra l’elenco delle offerte; fai clic su **[!UICONTROL Status]** e seleziona *[!UICONTROL Live]* e quindi fare clic su **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
+>Per visualizzare le offerte non archiviate (live), fai clic su ![Filtro](/help/dsp/assets/filter.png) sopra l&#39;elenco delle offerte; fai clic su **[!UICONTROL Status]** e seleziona *[!UICONTROL Live]*; quindi fai clic su **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sull’inventario privato](private-inventory-about.md)
+>* [Informazioni Sull&#39;Inventario Privato](private-inventory-about.md)
 >* [Modifica impostazioni trattativa privata](/help/dsp/inventory/deal-id-edit.md)
-

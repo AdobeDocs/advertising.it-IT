@@ -1,6 +1,6 @@
 ---
 title: '[!DNL Microsoft Advertising] impostazioni gruppo di prodotti'
-description: Fai riferimento alle impostazioni per [!DNL Microsoft Advertising] gruppi di prodotti.
+description: Fai riferimento alle impostazioni per  [!DNL Microsoft Advertising] gruppi di prodotti acquisti.
 exl-id: ea3a4137-1396-430f-9d6c-8e1e1f1f52c2
 feature: Search Campaign Management
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -10,13 +10,13 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft Advertising] impostazioni gruppo di prodotti
+# Impostazioni gruppo di prodotti [!DNL Microsoft Advertising]
 
 ## Gruppi di prodotti &quot;Tutti i prodotti&quot;
 
-**[!UICONTROL Condition]:** (Sola lettura) Tutti i prodotti
+**[!UICONTROL Condition]:** (sola lettura) tutti i prodotti
 
-**[!UICONTROL Bid]:** (Solo per gruppi di prodotti inclusi) Il costo massimo per clic (CPC), che è l’importo più alto da pagare per un clic dell’annuncio. Questo valore viene utilizzato solo per le unità senza gruppi di prodotti secondari e viene utilizzato al posto del valore a livello di gruppo di annunci.
+**[!UICONTROL Bid]:** (solo per gruppi di prodotti inclusi) Il costo massimo per clic (CPC), che è l&#39;importo più alto da pagare per un clic dell&#39;annuncio. Questo valore viene utilizzato solo per le unità senza gruppi di prodotti secondari e viene utilizzato al posto del valore a livello di gruppo di annunci.
 
 <!-- **[!UICONTROL Tracking Template]:** -->
 
@@ -26,15 +26,15 @@ Questo modello sostituisce i modelli di livello superiore e viene utilizzato sol
 
 ## Tutti gli altri gruppi di prodotti
 
-**[!UICONTROL Condition/Value]:** (Sola lettura per i gruppi di prodotti esistenti) Le dimensioni prodotto di cui eseguire il targeting. Per i nuovi gruppi di prodotti, immetti la dimensione in base alla quale eseguire il targeting dei prodotti e l’attributo idoneo per la categoria di informazioni selezionata (ad esempio &quot;Acme&quot; quando esegui il targeting per marchio o &quot;Nuovo&quot; quando esegui il targeting per condizione).
+**[!UICONTROL Condition/Value]:** (sola lettura per gruppi di prodotti esistenti) dimensioni prodotto di destinazione. Per i nuovi gruppi di prodotti, immetti la dimensione in base alla quale eseguire il targeting dei prodotti e l’attributo idoneo per la categoria di informazioni selezionata (ad esempio &quot;Acme&quot; quando esegui il targeting per marchio o &quot;Nuovo&quot; quando esegui il targeting per condizione).
 
 Dopo aver creato un gruppo di prodotti per specifiche dimensioni di prodotto (ovvero, non &quot;Tutti i prodotti&quot;), in Ricerca, Social e Commerce viene automaticamente creato un gruppo di prodotti per &quot;Tutto il resto&quot;.
 
-Per un elenco delle dimensioni prodotto disponibili, vedi &quot;[Filtri di prodotti per campagne acquisti](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md).&quot; L’elenco delle dimensioni può essere limitato in base al valore della campagna [!UICONTROL Inventory Filter] impostazione.
+Per un elenco delle dimensioni di prodotto disponibili, consulta &quot;[Filtri di prodotto per campagne acquisti](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md).&quot; L&#39;elenco delle dimensioni potrebbe essere limitato in base all&#39;impostazione [!UICONTROL Inventory Filter] della campagna.
 
-**[!UICONTROL Excluded]:** (Facoltativo per i nuovi gruppi di prodotti; sola lettura per i gruppi di prodotti esistenti) Esclude le offerte sugli annunci per i prodotti corrispondenti.
+**[!UICONTROL Excluded]:** (facoltativo per i nuovi gruppi di prodotti; sola lettura per i gruppi di prodotti esistenti) Esclude le offerte sugli annunci per i prodotti corrispondenti.
 
-**[!UICONTROL Bid]:** (Solo per gruppi di prodotti inclusi) Il costo massimo per clic (CPC), che è l’importo più alto da pagare per un clic dell’annuncio. Questo valore viene utilizzato solo per le unità senza gruppi di prodotti secondari e viene utilizzato al posto del valore a livello di gruppo di annunci.
+**[!UICONTROL Bid]:** (solo per gruppi di prodotti inclusi) Il costo massimo per clic (CPC), che è l&#39;importo più alto da pagare per un clic dell&#39;annuncio. Questo valore viene utilizzato solo per le unità senza gruppi di prodotti secondari e viene utilizzato al posto del valore a livello di gruppo di annunci.
 
 <!-- **[!UICONTROL Tracking Template]:** -->
 
@@ -49,7 +49,7 @@ Questo modello sostituisce i modelli di livello superiore e viene utilizzato sol
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sui gruppi di prodotti di acquisto](product-group-about.md)
->* [Gestire i gruppi di prodotti](product-group-manage.md)
->* [Filtri di prodotti per campagne acquisti](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
->* [Implementare [!DNL Microsoft Advertising] campagne di acquisto](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
+>* [Informazioni sull&#39;acquisto di gruppi di prodotti](product-group-about.md)
+>* [Gestione dei gruppi di prodotti](product-group-manage.md)
+>* [Filtri prodotti campagna acquisti](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
+>* [Implementa [!DNL Microsoft Advertising] campagne acquisti](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)

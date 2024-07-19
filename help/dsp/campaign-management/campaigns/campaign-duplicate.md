@@ -20,11 +20,11 @@ Duplica una campagna per creare una nuova campagna con impostazioni simili. È p
 * Facoltativamente, duplicare i pacchetti e i posizionamenti originali
 * Modificare le date di volo della nuova campagna
 
-Consulta &quot;[Non duplicato](#campaign-not-duplicated)&quot; per un elenco di impostazioni di posizionamento che non sono duplicate.
+Consulta &quot;[Elementi non duplicati](#campaign-not-duplicated)&quot; per un elenco delle impostazioni di posizionamento che non sono duplicate.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 
-1. Accanto al nome della campagna, fai clic su **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**.
+1. Accanto al nome della campagna, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**.
 
 1. Specifica le nuove impostazioni della campagna:
 
@@ -34,7 +34,7 @@ Consulta &quot;[Non duplicato](#campaign-not-duplicated)&quot; per un elenco di 
 
       Per impostazione predefinita, la nuova campagna viene assegnata all’inserzionista originale, ha una pianificazione dei voli che inizia il giorno corrente e include i pacchetti e i posizionamenti originali.
 
-1. Clic **[!UICONTROL Submit]**.
+1. Fare clic su **[!UICONTROL Submit]**.
 
 ## Non duplicato {#campaign-not-duplicated}
 
@@ -48,13 +48,12 @@ Tutte le impostazioni dei posizionamenti originali vengono duplicate, tranne:
    * Destinazioni geografiche
    * Pixel evento
    * Annunci
-   * Livello di posizionamento [!DNL DoubleVerify Authentic Brand Safety] segmenti (che sostituiscono i segmenti a livello di inserzionista)
+   * Segmenti [!DNL DoubleVerify Authentic Brand Safety] a livello di posizionamento (che sostituiscono i segmenti a livello di inserzionista)
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni su Campaign Management](campaign-about.md)
->* [Creare una campagna](campaign-create.md)
->* [Modificare una campagna](campaign-edit.md)
->* [Visualizzare il registro delle modifiche per una campagna](campaign-change-log.md)
+>* [Crea una campagna](campaign-create.md)
+>* [Modifica una campagna](campaign-edit.md)
+>* [Visualizza il log delle modifiche per una campagna](campaign-change-log.md)
 >* [Impostazioni campagna](campaign-settings.md)
-

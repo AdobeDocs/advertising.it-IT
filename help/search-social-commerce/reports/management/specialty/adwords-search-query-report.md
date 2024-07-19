@@ -1,20 +1,20 @@
 ---
 title: '[!UICONTROL AdWords Search Query Report]'
-description: Scopri di più su [!UICONTROL AdWords Search Query Report].
-exl-id: 085f6a46-ce7e-4b68-b03d-edfbb6834284
+description: Informazioni su [!UICONTROL AdWords Search Query Report].
+exl-id: cf472731-f9e5-4878-9a83-59f5c022ec69
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL AdWords Search Query Report]
 
-*[!DNL Google Ads]solo account*
+Solo *[!DNL Google Ads]account*
 
-Il [!UICONTROL AdWords Search Query Report] include dati di metriche derivate da costi, clic, impression e (facoltativamente) per i termini di query di ricerca dell’utente per uno o più gruppi di annunci. Per impostazione predefinita, i dati includono una riga per ogni termine di ricerca che ha generato impression o clic per ogni gruppo di annunci applicabile per ogni unità di tempo nell’intervallo di date specificato e le righe sono in ordine crescente per nome del gruppo di annunci e quindi per termine di ricerca. Facoltativamente, puoi includere la parola chiave a cui il termine di ricerca corrisponde. Il report non include la parola chiave a cui il termine di ricerca corrisponde, né dati di conversione tracciati da [!DNL Adobe].
+[!UICONTROL AdWords Search Query Report] include dati di costo, clic, impression e (facoltativamente) metriche derivate per i termini di query di ricerca dell&#39;utente per uno o più gruppi di annunci. Per impostazione predefinita, i dati includono una riga per ogni termine di ricerca che ha generato impression o clic per ogni gruppo di annunci applicabile per ogni unità di tempo nell’intervallo di date specificato e le righe sono in ordine crescente per nome del gruppo di annunci e quindi per termine di ricerca. Facoltativamente, puoi includere la parola chiave a cui il termine di ricerca corrisponde. Il report non include la parola chiave a cui il termine di ricerca corrisponde, né i dati di conversione tracciati da [!DNL Adobe].
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ Il [!UICONTROL AdWords Search Query Report] include dati di metriche derivate da
 
 ## Colonne predefinite
 
-Per le descrizioni di tutte le colonne predefinite e personalizzate, vedi &quot;[Colonne report per report speciali](specialty-report-columns.md).&quot;
+Per le descrizioni di tutte le colonne predefinite e personalizzate, vedere &quot;[Colonne report per report speciali](specialty-report-columns.md).&quot;
 
 * [!UICONTROL Account Name]
 * [!UICONTROL Start Date]
@@ -40,6 +40,6 @@ Per le descrizioni di tutte le colonne predefinite e personalizzate, vedi &quot;
 
 >[!MORELIKETHIS]
 >
-* [Informazioni sui report speciali](specialty-report-about.md)
-* [Generare un rapporto speciale](specialty-report-generate.md)
-* [Impostazioni report speciali](specialty-report-settings.md)
+>* [Informazioni sui report speciali](specialty-report-about.md)
+>* [Generare un report speciale](specialty-report-generate.md)
+>* [Impostazioni report speciali](specialty-report-settings.md)

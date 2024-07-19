@@ -1,9 +1,9 @@
 ---
 title: Informazioni sulle metriche personalizzate
 description: Scopri le metriche personalizzate, calcolate dalle metriche standard.
-exl-id: 6a2df48f-4d6b-4afe-88c0-c52a6de53e33
+exl-id: 2c322ad1-399c-4e94-9a68-44c07da04cbd
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Informazioni sulle metriche personalizzate
 
-Puoi configurare metriche personalizzate (derivate) calcolate a partire dalle metriche di traffico standard e dalle metriche di conversione esistenti tracciate per l’inserzionista. Le metriche personalizzate possono essere semplici (come `[Cost]/[Registrations]`) o il più complesso possibile.
+Puoi configurare metriche personalizzate (derivate) calcolate a partire dalle metriche di traffico standard e dalle metriche di conversione esistenti tracciate per l’inserzionista. Le metriche personalizzate possono essere semplici (ad esempio `[Cost]/[Registrations]`) o complesse nel modo desiderato.
 
 Puoi includere metriche personalizzate come colonne nelle viste di gestione portfolio e campagne e nei rapporti.
 

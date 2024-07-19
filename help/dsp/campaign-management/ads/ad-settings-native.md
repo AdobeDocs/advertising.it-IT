@@ -16,50 +16,50 @@ ht-degree: 0%
 
 ### [!UICONTROL Basic]
 
-**[!UICONTROL Ad Type]:** (Sola lettura) Il tipo di annuncio che stai creando, che corrisponde al tipo di posizionamento a cui l’annuncio può essere allegato.
+**[!UICONTROL Ad Type]:** (sola lettura) Il tipo di annuncio che stai creando, che corrisponde al tipo di posizionamento a cui l&#39;annuncio può essere allegato.
 
-**[!UICONTROL Ad Name]:** Il nome dell’annuncio. Il tipo di annuncio viene utilizzato per impostazione predefinita, ma è possibile modificarne il nome.
+**[!UICONTROL Ad Name]:** Il nome dell&#39;annuncio. Il tipo di annuncio viene utilizzato per impostazione predefinita, ma è possibile modificarne il nome.
 
 >[!TIP]
 >
-> Utilizza un nome facile da trovare quando alleghi l’annuncio a un posizionamento, nel [!UICONTROL Ads] e nei rapporti. Ad esempio, descrivi il tipo di unità e alcuni attributi chiave (come Anteprima prodotto per vacanze: 15 sec nativi&quot;).
+> Utilizzare un nome facile da trovare quando si allega l&#39;annuncio a un posizionamento, nella visualizzazione [!UICONTROL Ads] e nei report. Ad esempio, descrivi il tipo di unità e alcuni attributi chiave (come Anteprima prodotto per vacanze: 15 sec nativi&quot;).
 
-**[!UICONTROL Native Creative]:** Un&#39;immagine 1200x627 per massimizzare la consegna sull&#39;inventario mobile. Clic **[!UICONTROL Browse]** e individuare il file sul dispositivo o sulla rete, quindi fare clic su **[!UICONTROL Upload]**.
+**[!UICONTROL Native Creative]:** Un&#39;immagine 1200x627 per massimizzare la consegna nell&#39;inventario mobile. Fare clic su **[!UICONTROL Browse]** e individuare il file nel dispositivo o nella rete, quindi fare clic su **[!UICONTROL Upload]**.
 
-**[!UICONTROL Title]:** Un titolo accattivante per coinvolgere gli spettatori.
+**[!UICONTROL Title]:** titolo accattivante per coinvolgere gli spettatori.
 
-**[!UICONTROL Description]:** Corpo dell’annuncio. La lunghezza massima è di 100 caratteri.
+**[!UICONTROL Description]:** Il corpo dell&#39;annuncio. La lunghezza massima è di 100 caratteri.
 
-**[!UICONTROL Landing Page]:** L’URL in cui il visualizzatore arriva quando fa clic sull’annuncio.
+**[!UICONTROL Landing Page]:** URL in cui il visualizzatore arriva quando fa clic sull&#39;annuncio.
 
-**[!UICONTROL Final Landing Page]:** Il [!UICONTROL Landing Page] URL con il necessario [Pubblicità delle macro di tracciamento DSP](/help/dsp/campaign-management/macros.md) se del caso.
+**[!UICONTROL Final Landing Page]:** URL [!UICONTROL Landing Page] con [macro di tracciamento Advertising DSP](/help/dsp/campaign-management/macros.md) inserite, se applicabile.
 
-**[!UICONTROL Sponsored By (Advertiser Name)]:** L&#39;inserzionista dell&#39;annuncio.
+**[!UICONTROL Sponsored By (Advertiser Name)]:** Inserzionista dell&#39;annuncio.
 
-**[!UICONTROL Call to Action]:** (Facoltativo) Il passaggio che gli utenti dovranno seguire quando visualizzeranno questo annuncio.
+**[!UICONTROL Call to Action]:** (Facoltativo) Passaggio che i visualizzatori devono effettuare quando visualizzano questo annuncio.
 
-**[!UICONTROL Advertiser Logo]:** (Facoltativo) Un logo in rapporto 1:1 da includere con l’annuncio per un maggiore riconoscimento del brand. Clic **[!UICONTROL Browse]** e individuare il file sul dispositivo o sulla rete, quindi fare clic su **[!UICONTROL Upload]**.
+**[!UICONTROL Advertiser Logo]:** (facoltativo) un logo con rapporto 1:1 da includere con l&#39;annuncio per un maggiore riconoscimento del brand. Fare clic su **[!UICONTROL Browse]** e individuare il file nel dispositivo o nella rete, quindi fare clic su **[!UICONTROL Upload]**.
 
 ### [!UICONTROL Pixel]
 
-Tutti i pixel di tracciamento degli eventi esistenti per il posizionamento vengono associati automaticamente. Puoi scollegare i pixel esistenti e crearne di nuovi, in base alle tue esigenze di tracciamento per il singolo annuncio. **Suggerimento** Per modificare i pixel di tracciamento di terze parti per più annunci in un posizionamento contemporaneamente utilizzando [!UICONTROL Ad Tools] visualizzare, vedere &quot;[Allegare pixel di tracciamento di terze parti agli annunci in un posizionamento](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads).&quot;
+Tutti i pixel di tracciamento degli eventi esistenti per il posizionamento vengono associati automaticamente. Puoi scollegare i pixel esistenti e crearne di nuovi, in base alle tue esigenze di tracciamento per il singolo annuncio. **Suggerimento:** per modificare i pixel di tracciamento di terze parti per più annunci in un posizionamento contemporaneamente utilizzando la visualizzazione [!UICONTROL Ad Tools], vedere &quot;[Allega pixel di tracciamento di terze parti agli annunci in un posizionamento](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads).&quot;
 
 Le seguenti impostazioni si applicano a ogni pixel creato o modificato.
 
-**[!UICONTROL Integration Event]:** L’evento che attiva il pixel da attivare. Per questo tipo di annuncio, l’unica opzione è *[!UICONTROL Impression]*.
+**[!UICONTROL Integration Event]:** l&#39;evento che attiva il pixel per l&#39;attivazione. Per questo tipo di annuncio, l&#39;unica opzione è *[!UICONTROL Impression]*.
 
-**[!UICONTROL Pixel Type]:** Se il pixel è un *[!UICONTROL IMG URL]* (file di immagine 1x1 pixel), *[!UICONTROL HTML]*, o *[!UICONTROL JavaScript URL]*.
+**[!UICONTROL Pixel Type]:** Se il pixel è un *[!UICONTROL IMG URL]* (file immagine 1x1 pixel), *[!UICONTROL HTML]* o *[!UICONTROL JavaScript URL]*.
 
-**[!UICONTROL Pixel URL or Code]:** L&#39;URL dell&#39;immagine pixel nel formato appropriato per il [!UICONTROL Pixel Type].
+**[!UICONTROL Pixel URL or Code]:** URL dell&#39;immagine pixel nel formato appropriato per [!UICONTROL Pixel Type] specificato.
 
 **[!UICONTROL Pixel Name]:** Il nome del pixel. Utilizza un nome che ti consenta di identificare facilmente il pixel.
 
-**[!UICONTROL Pixel Provider]:** Il provider pixel: *[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]*, o *[!UICONTROL IAS]*.
+**[!UICONTROL Pixel Provider]:** Provider pixel: *[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]* o *[!UICONTROL IAS]*.
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sulla gestione degli annunci](ad-about.md)
->* [Creare un singolo annuncio](ad-create.md)
->* [Elencare i posizionamenti associati a un annuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
+>* [Informazioni Sulla Gestione Degli Annunci](ad-about.md)
+>* [Crea un annuncio singolo](ad-create.md)
+>* [Elenca i posizionamenti associati a un annuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Specifiche annuncio](ad-specs.md)
->* [Macro per DSP](/help/dsp/campaign-management/macros.md)
+>* [Macro DSP](/help/dsp/campaign-management/macros.md)

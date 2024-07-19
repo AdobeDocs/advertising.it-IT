@@ -1,9 +1,9 @@
 ---
 title: Generare un rapporto di assistenza
 description: Scopri come generare rapporti di assistenza.
-exl-id: 8f91f837-71a8-451e-8c72-dfd21956a402
+exl-id: ac3e3619-c300-4d2f-84bc-c4977c1712f3
 feature: Search Reports, Search Assist Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
@@ -12,39 +12,39 @@ ht-degree: 0%
 
 # Generare un rapporto di assistenza
 
-*Per gli inserzionisti con tracciamento dei clic per ricerche, social e e commerce e con tracciamento delle conversioni da Adobi Advertising, Adobe Analytics (con [!DNL Analytics] o forniti nei feed utilizzando un token (`ef_id`solo )*
+*Inserzionisti con il tracciamento dei clic di Search, Social e Commerce e con il tracciamento delle conversioni da Adobe Advertising, Adobe Analytics (con integrazione [!DNL Analytics]) o forniti nei feed utilizzando solo un token (`ef_id`)*
 
-1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
-1. Nella barra degli strumenti sopra la tabella dati, fai clic su **[!UICONTROL Create Report]**, tenere premuto il cursore **[!UICONTROL Assist Reports]**, quindi fare clic sul tipo di report.
+1. Nella barra degli strumenti sopra la tabella dati fare clic su **[!UICONTROL Create Report]**, tenere premuto il cursore su **[!UICONTROL Assist Reports]** e quindi fare clic sul tipo di report.
 
-1. (Facoltativo) In [!UICONTROL Report Settings] , modificare il valore predefinito [impostazioni dei rapporti](assist-report-settings.md):
+1. (Facoltativo) Nella finestra [!UICONTROL Report Settings], modifica le [impostazioni report](assist-report-settings.md) predefinite:
 
    1. (Facoltativo) Inserire un nome personalizzato per il rapporto e per il modello (se si salva il rapporto come modello).
 
-   1. (Facoltativo) Per salvare le impostazioni del rapporto come modello, seleziona la casella di controllo accanto a **[!UICONTROL Save as template]**.
+   1. (Facoltativo) Per salvare le impostazioni del report come modello, selezionare la casella di controllo accanto a **[!UICONTROL Save as template]**.
 
-   1. (Facoltativo) Il **[!UICONTROL Basic Settings]** , selezionare un modello di report esistente da utilizzare o modificare le impostazioni di base predefinite per il report.
+   1. (Facoltativo) Nella scheda **[!UICONTROL Basic Settings]**, selezionare un modello di report esistente da utilizzare o modificare le impostazioni di base predefinite per il report.
 
-   1. (Facoltativo) Fai clic su **[!UICONTROL Columns]** e modificare le colonne predefinite nel report.
+   1. (Facoltativo) Fare clic sulla scheda **[!UICONTROL Columns]** e modificare le colonne predefinite nel report.
 
       >[!NOTE]
       >
       >Non sono disponibili metriche del traffico di ricerca (come clic o impression) e le metriche derivate che includono le metriche del traffico di ricerca non sono disponibili.
 
-   1. (Facoltativo) Fai clic su **[!UICONTROL Scheduling and Delivery]** e modificare le opzioni predefinite di pianificazione e consegna.
+   1. (Facoltativo) Fare clic sulla scheda **[!UICONTROL Scheduling and Delivery]** e modificare le opzioni di pianificazione e consegna predefinite.
 
-1. Clic **[!UICONTROL Create]**.
+1. Fare clic su **[!UICONTROL Create]**.
 
-Se non è stata specificata una pianificazione, il report viene eseguito immediatamente; in caso contrario, viene eseguito in base alla pianificazione specificata. Il nome del report viene aggiunto al [[!UICONTROL Latest Reports] visualizza](/help/search-social-commerce/reports/report-about.md). Se hai salvato il rapporto come modello, questo viene aggiunto anche al [[!UICONTROL Templates] visualizza](/help/search-social-commerce/reports/report-about.md). Una volta completato il report, il file è disponibile per l&#39;apertura o il salvataggio; i modelli sono disponibili immediatamente.
+Se non è stata specificata una pianificazione, il report viene eseguito immediatamente; in caso contrario, viene eseguito in base alla pianificazione specificata. Il nome del report viene aggiunto alla visualizzazione [[!UICONTROL Latest Reports]](/help/search-social-commerce/reports/report-about.md). Se il report è stato salvato come modello, verrà aggiunto anche alla visualizzazione [[!UICONTROL Templates]](/help/search-social-commerce/reports/report-about.md). Una volta completato il report, il file è disponibile per l&#39;apertura o il salvataggio; i modelli sono disponibili immediatamente.
 
-Se hai inserito un indirizzo e-mail per la notifica, ogni destinatario riceve una notifica quando il processo di report viene completato o non riesce, in base al [impostazioni di notifica configurate](/help/search-social-commerce/notifications/notification-edit.md) per i rapporti.
+Se hai immesso indirizzi e-mail per la notifica, ogni destinatario riceve una notifica quando il processo di report viene completato o non riesce, in base alle [impostazioni di notifica configurate](/help/search-social-commerce/notifications/notification-edit.md) dell&#39;utente per i report.
 
 >[!MORELIKETHIS]
 >
->* [Impostazioni dei rapporti di assistenza](assist-report-settings.md)
->* [Il [!UICONTROL Campaign Assist Report]](campaign-assist-report.md)
->* [Il [!UICONTROL Channel Assist Report]](channel-assist-report.md)
->* [Il [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
+>* [Assist impostazioni report](assist-report-settings.md)
+>* [I [!UICONTROL Campaign Assist Report]](campaign-assist-report.md)
+>* [I [!UICONTROL Channel Assist Report]](channel-assist-report.md)
+>* [I [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [Informazioni sui report](/help/search-social-commerce/reports/report-about.md)
->* [Eliminare i rapporti](/help/search-social-commerce/reports/management/report-delete.md)
+>* [Elimina report](/help/search-social-commerce/reports/management/report-delete.md)

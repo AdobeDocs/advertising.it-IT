@@ -1,6 +1,6 @@
 ---
-title: Formati di tracciamento dei clic per [!DNL Microsoft Advertising]
-description: Scopri i formati di tracciamento dei clic per [!DNL Microsoft Advertising] account.
+title: Formati di tracciamento dei clic per  [!DNL Microsoft Advertising]
+description: Scopri i formati di tracciamento dei clic per  [!DNL Microsoft Advertising]  account.
 exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
 source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Formati di tracciamento dei clic per [!DNL Microsoft Advertising]
 
-Di seguito sono riportati i formati di suffisso per il modello di tracciamento di base e la pagina di destinazione (suffisso URL finale) richiesti da Search, Social e Commerce per [!DNL Microsoft Advertising].
+Di seguito sono riportati i formati di suffisso del modello di tracciamento di base e della pagina di destinazione (suffisso URL finale) richiesti da Search, Social e Commerce per [!DNL Microsoft Advertising].
 
 ## Tracciamento dei formati dei modelli
 
@@ -28,11 +28,11 @@ Esempio:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` è una variabile per l’ID univoco dell’inserzionista in Adobi Advertising.
+>* `<advertiser_ID>` è una variabile per l&#39;ID univoco dell&#39;inserzionista in Adobe Advertising.
 >
 >* Questo formato indica che il passaggio del token è abilitato per la campagna (impostazione predefinita). Se il passaggio del token è disabilitato, sostituire `cq?` dopo `<advertiser_ID>` con `c?`.
 >
->* `{TargetId}` rappresenta l’ID di a) la parola chiave o b) la parola chiave e l’elenco di remarketing (audience) che hanno attivato l’annuncio (ad esempio, &quot;kwd-123:aud-456&quot; sia per una parola chiave che per un elenco di remarketing o &quot;kwd-123&quot; solo per parola chiave).
+>* `{TargetId}` rappresenta l&#39;ID di a) la parola chiave o b) la parola chiave e l&#39;elenco di remarketing (pubblico) che hanno attivato l&#39;annuncio (ad esempio, &quot;kwd-123:aud-456&quot; sia per una parola chiave che per un elenco di remarketing o &quot;kwd-123&quot; solo per parola chiave).
 
 ### Sitelink
 
@@ -44,15 +44,15 @@ Esempio:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` è una variabile per l’ID univoco dell’inserzionista in Adobi Advertising.
+>* `<advertiser_ID>` è una variabile per l&#39;ID univoco dell&#39;inserzionista in Adobe Advertising.
 >
 >* Questo formato indica che il passaggio del token è abilitato per la campagna (impostazione predefinita). Se il passaggio del token è disabilitato, sostituire `cq?` dopo `<advertiser_ID>` con `c?`.
 >
->* `{TargetId}` rappresenta l’ID di a) la parola chiave o b) la parola chiave e l’elenco di remarketing (audience) che hanno attivato l’annuncio (ad esempio, &quot;kwd-123:aud-456&quot; sia per una parola chiave che per un elenco di remarketing o &quot;kwd-123&quot; solo per parola chiave).
+>* `{TargetId}` rappresenta l&#39;ID di a) la parola chiave o b) la parola chiave e l&#39;elenco di remarketing (pubblico) che hanno attivato l&#39;annuncio (ad esempio, &quot;kwd-123:aud-456&quot; sia per una parola chiave che per un elenco di remarketing o &quot;kwd-123&quot; solo per parola chiave).
 >
->* `{adextensionid}` non è utilizzato.
+>* `{adextensionid}` non utilizzato.
 >
->* (Sitelink) Puoi vedere quali conversioni sono risultate da un clic su un sitelink generando un [!UICONTROL Transaction Report]. Il [!UICONTROL Link Type] il valore della colonna per un sitelink è `sl:<Sitelink text>`, ad esempio `sl:See Current Offers`.
+>* (Sitelink) Puoi vedere quali conversioni sono risultate da un clic su un sitelink generando un [!UICONTROL Transaction Report]. Il valore della colonna [!UICONTROL Link Type] per un sitelink è `sl:<Sitelink text>`, ad esempio `sl:See Current Offers`.
 
 ### Rete acquisti
 
@@ -66,13 +66,13 @@ Esempio:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` è una variabile per l’ID univoco dell’inserzionista in Adobi Advertising.
+>* `<advertiser_ID>` è una variabile per l&#39;ID univoco dell&#39;inserzionista in Adobe Advertising.
 >
 >* Questo formato indica che il passaggio del token è abilitato per la campagna (impostazione predefinita). Se il passaggio del token è disabilitato, sostituire `cq?` dopo `<advertiser_ID>` con `c?`.
 >
->* `{TargetId}` rappresenta l’ID di a) la parola chiave o b) la parola chiave e l’elenco di remarketing (audience) che hanno attivato l’annuncio (ad esempio, &quot;kwd-123:aud-456&quot; sia per una parola chiave che per un elenco di remarketing o &quot;kwd-123&quot; solo per parola chiave).
+>* `{TargetId}` rappresenta l&#39;ID di a) la parola chiave o b) la parola chiave e l&#39;elenco di remarketing (pubblico) che hanno attivato l&#39;annuncio (ad esempio, &quot;kwd-123:aud-456&quot; sia per una parola chiave che per un elenco di remarketing o &quot;kwd-123&quot; solo per parola chiave).
 >
->* (Facoltativo) Invece di inserire modelli di tracciamento a livello di account, campagna, gruppo di annunci o gruppo di prodotti, puoi aggiungere l’URL di tracciamento ai dati di prodotto all’interno di [!DNL Microsoft Merchant Center] account. A tal fine, includi l’URL di tracciamento, insieme al valore nella sezione &quot;`link`&quot; o &quot;`mobile_link`&quot;, a seconda dei casi, in una colonna personalizzata &quot;[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)&quot; nel feed del prodotto. Il valore in &quot;`bingads_redirect`Il campo &quot; sostituisce i valori nel &quot;`link`&quot; e &quot;`mobile_link`&quot;. Gli URL generati con questo metodo non includono parametri di tracciamento specificati nelle impostazioni dell’account o della campagna Search, Social e Commerce.
+>* (Facoltativo) Anziché immettere modelli di tracciamento a livello di account, campagna, gruppo di annunci o gruppo di prodotti, è possibile aggiungere l&#39;URL di tracciamento ai dati di prodotto nell&#39;account [!DNL Microsoft Merchant Center]. A questo scopo, includi l&#39;URL di tracciamento, insieme al valore nel campo &quot;`link`&quot; o &quot;`mobile_link`&quot;, a seconda dei casi, in una colonna personalizzata &quot;[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)&quot; all&#39;interno del feed del prodotto. Il valore nel campo &quot;`bingads_redirect`&quot; sostituisce i valori nei campi &quot;`link`&quot; e &quot;`mobile_link`&quot;. Gli URL generati con questo metodo non includono parametri di tracciamento specificati nelle impostazioni dell’account o della campagna Search, Social e Commerce.
 
 ## Formati del suffisso della pagina di destinazione (suffisso URL finale)
 
@@ -82,7 +82,7 @@ Esempio:
 
 ### Ricerca e audience network
 
-Gli account che utilizzano il tracciamento delle conversioni di Adobi Advertising devono includere l’identificatore di clic della rete di annunci (`msclkid` per [!DNL Microsoft Advertising]) nel suffisso:
+Gli account che utilizzano il tracciamento delle conversioni di Adobe Advertising devono includere nel suffisso l&#39;identificatore di clic (`msclkid` per [!DNL Microsoft Advertising]) della rete di annunci:
 
 * Quando l&#39;inserzionista ha un&#39;integrazione Adobe Analytics, il suffisso deve includere quanto segue:
 
@@ -94,7 +94,7 @@ Gli account che utilizzano il tracciamento delle conversioni di Adobi Advertisin
 
 ### Rete acquisti
 
-Gli account che utilizzano il tracciamento delle conversioni di Adobi Advertising devono includere l’identificatore di clic della rete di annunci (`msclkid` per [!DNL Microsoft Advertising]) nel suffisso:
+Gli account che utilizzano il tracciamento delle conversioni di Adobe Advertising devono includere nel suffisso l&#39;identificatore di clic (`msclkid` per [!DNL Microsoft Advertising]) della rete di annunci:
 
 * Quando l&#39;inserzionista ha un&#39;integrazione Adobe Analytics, il suffisso deve includere quanto segue:
 

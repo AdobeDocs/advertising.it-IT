@@ -24,13 +24,13 @@ Tutti i bulksheet, i file di errore di convalida della pagina di destinazione e 
 
 ## Funzionalità per Ad Network
 
-* **Scarica, carica e pubblica:**  [!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], e [!DNL Yandex] account
+* **Scarica, carica e pubblica:** account [!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising] e [!DNL Yandex]
 
 * **Solo download e caricamento:** [!DNL Naver] account
 
-  Puoi caricare [!DNL Naver] dati da utilizzare in Search, Social e Commerce, ma non possono inviarli alla rete di annunci. Puoi anche scaricare i dati esistenti (non sincronizzati).
+  Puoi caricare [!DNL Naver] dati da utilizzare in Search, Social e Commerce, ma non puoi pubblicarli nella rete di annunci. Puoi anche scaricare i dati esistenti (non sincronizzati).
 
-* **Scarica solo dati:**  [!DNL Pinterest], [!DNL Yahoo Native], e [!DNL Yahoo! Display Network] account
+* **Scarica solo dati:** [!DNL Pinterest], [!DNL Yahoo Native] e [!DNL Yahoo! Display Network] account
 
   Puoi scaricare i dati esistenti (non sincronizzati).
 
@@ -42,17 +42,17 @@ I passaggi standard per l’utilizzo dei bulksheet per gli account sincronizzati
   [EDIT/RECREATE FILE to replace "search engine"]
 -->
 
-1. [Scaricare dati per uno o più account, campagne o gruppi di annunci in un file di bulksheet](bulksheet-download.md). Facoltativamente, puoi popolare manualmente un bulksheet specifico per la rete di annunci e caricare il file.
+1. [Scarica i dati per uno o più account, campagne o gruppi di annunci in un file bulksheet](bulksheet-download.md). Facoltativamente, puoi popolare manualmente un bulksheet specifico per la rete di annunci e caricare il file.
 
-1. [Convalidare le pagine di destinazione](bulksheet-validate-landing-pages.md) negli URL di base (finali) o di destinazione nel file.
+1. [Convalida le pagine di destinazione](bulksheet-validate-landing-pages.md) negli URL di base (finali) o negli URL di destinazione nel file.
 
 1. Quando devi aggiungere dati o apportare correzioni:
 
-   1. [Esportare il file](bulksheet-export.md) sul desktop e modificarlo in [!DNL Microsoft Excel].
+   1. [Esporta il file](bulksheet-export.md) sul desktop e modificalo in [!DNL Microsoft Excel].
 
-   1. [Carica manualmente il file modificato](bulksheet-upload.md) per eseguire ricerche, social e Commerce, oppure [carica il file su un account FTP specificato](bulksheet-ftp-account.md) per la registrazione automatica.
+   1. [Carica manualmente il file modificato](bulksheet-upload.md) in Search, Social e Commerce oppure [carica il file in un account FTP specificato](bulksheet-ftp-account.md) per la pubblicazione automatica.
 
-1. (per file caricati manualmente) [Pubblica il file](bulksheet-post.md) alla rete di annunci durante il caricamento o in un secondo momento.
+1. (Per i file caricati manualmente) [Pubblica il file](bulksheet-post.md) nella rete di annunci durante il caricamento o in un secondo momento.
 
 1. (Se necessario) Scaricare i nuovi file di errore, correggere le righe e ripubblicare il file.
 
@@ -62,13 +62,13 @@ Search, Social e Commerce caricano e pubblicano tutte le righe di dati possibili
 
 Quando si verificano errori durante l&#39;operazione di bulksheet, viene generato uno dei due tipi di file di errore seguenti:
 
-* **[!UICONTROL EF Errors]:**  Quando non è possibile caricare o elaborare un file o singole righe nel file, viene visualizzato un file di errore denominato `<uploaded file name>_ef_errors.<extension used for the bulksheet>` viene creato. Se il problema riguarda singole righe, queste righe vengono incluse, con una spiegazione di ogni errore in modo che possa essere corretto.
+* **[!UICONTROL EF Errors]:** Quando non è possibile caricare o elaborare un file o singole righe nel file, viene creato un file di errore denominato `<uploaded file name>_ef_errors.<extension used for the bulksheet>`. Se il problema riguarda singole righe, queste righe vengono incluse, con una spiegazione di ogni errore in modo che possa essere corretto.
 
-* **[!UICONTROL SE Errors]:**  Quando un file viene pubblicato ma la rete di annunci non accetta alcuni o tutti i dati, viene visualizzato un file di errore denominato `<uploaded file name>_se_errors.<extension used for the bulksheet>` viene creato. Quando alcune righe, ma non tutte, sono state accettate, il file di errore mostra le righe che non sono state pubblicate e una spiegazione di ogni errore in modo che possa essere corretto. I messaggi di errore vengono visualizzati nelle ultime tre colonne di ogni riga.
+* **[!UICONTROL SE Errors]:** Quando un file viene pubblicato ma la rete di annunci non accetta alcuni o tutti i dati, viene creato un file di errore denominato `<uploaded file name>_se_errors.<extension used for the bulksheet>`. Quando alcune righe, ma non tutte, sono state accettate, il file di errore mostra le righe che non sono state pubblicate e una spiegazione di ogni errore in modo che possa essere corretto. I messaggi di errore vengono visualizzati nelle ultime tre colonne di ogni riga.
 
 >[!NOTE]
 >
->Se ne pubblichi una [!DNL Google Ads] gli annunci che violano le politiche pubblicitarie della rete di annunci ma che possono essere ammessi alle esenzioni, vengono automaticamente ripubblicati con le richieste di esenzione. Se la richiesta di esenzione ha esito negativo, le informazioni sulla violazione vengono incluse nel file di errore.
+>Se si pubblicano [!DNL Google Ads] annunci che violano le politiche pubblicitarie della rete di annunci ma possono essere ammessi alle esenzioni, tali annunci vengono automaticamente ripubblicati con le richieste di esenzione. Se la richiesta di esenzione ha esito negativo, le informazioni sulla violazione vengono incluse nel file di errore.
 
 Puoi scaricare entrambi i tipi di file di errore, apportare correzioni direttamente nelle righe, quindi ricaricare e pubblicare il file.
 
@@ -83,6 +83,6 @@ Le informazioni per ciascun file includono lo stato corrente dell&#39;attività 
 >[!MORELIKETHIS]
 >
 >* [Scaricare/creare un file bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
->* [Carica un file di bulksheet o un file di errore corretto](bulksheet-upload.md)
->* [Pubblica i bulksheet o i file di errore corretti](bulksheet-post.md)
->* [Esportare un file bulksheet generato o caricato](bulksheet-export.md)
+>* [Caricare un bulksheet o correggere un file di errore](bulksheet-upload.md)
+>* [Pubblica bulksheet o file di errore corretti](bulksheet-post.md)
+>* [Esporta un file bulksheet generato o caricato](bulksheet-export.md)

@@ -14,29 +14,28 @@ ht-degree: 0%
 
 Puoi creare un pubblico duplicando un pubblico esistente.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
-1. Posiziona il cursore sulla riga del pubblico e fai clic su **[!UICONTROL Duplicate]**.
+1. Posizionare il cursore sulla riga del pubblico e fare clic su **[!UICONTROL Duplicate]**.
 
 1. (Facoltativo) Modifica il nome predefinito del pubblico con un altro nome univoco.
 
-   Per impostazione predefinita, il nuovo pubblico è denominato &quot;[pubblico] copia.&quot;
+   Per impostazione predefinita, il nuovo pubblico è denominato &quot;[copia pubblico]&quot;.
 
-1. Clic **[!UICONTROL Duplicate]**.
+1. Fare clic su **[!UICONTROL Duplicate]**.
 
-1. (Facoltativo) [Perfezionare il nuovo pubblico](reusable-audience-edit.md).
+1. (Facoltativo) [Perfeziona il nuovo pubblico](reusable-audience-edit.md).
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni su Gestione dell&#39;audience](audience-about.md)
->* [Creare un pubblico riutilizzabile](reusable-audience-create.md)
->* [Modificare un pubblico riutilizzabile](reusable-audience-edit.md)
->* [Visualizzare dettagli su un pubblico riutilizzabile](reusable-audience-view-details.md)
->* [Condividere un pubblico riutilizzabile](reusable-audience-share.md)
->* [Esportare un pubblico riutilizzabile](reusable-audience-export.md)
->* [Copiare negli Appunti la chiave del segmento di un pubblico riutilizzabile](reusable-audience-clipboard.md)
+>* [Crea un pubblico riutilizzabile](reusable-audience-create.md)
+>* [Modifica un pubblico riutilizzabile](reusable-audience-edit.md)
+>* [Visualizza dettagli su un pubblico riutilizzabile](reusable-audience-view-details.md)
+>* [Condividi un pubblico riutilizzabile](reusable-audience-share.md)
+>* [Esporta un pubblico riutilizzabile](reusable-audience-export.md)
+>* [Copia negli Appunti la chiave del segmento per un pubblico riutilizzabile](reusable-audience-clipboard.md)
 >* [Eliminare un pubblico riutilizzabile](reusable-audience-delete.md)
 >* [Impostazioni pubblico](audience-settings.md)
->* [Sintassi della logica dei segmenti di pubblico](audience-segment-logic-syntax.md)
+>* [Sintassi per la logica dei segmenti di pubblico](audience-segment-logic-syntax.md)
 >* [Provider di dati di terze parti disponibili](third-party-data-providers.md)
-

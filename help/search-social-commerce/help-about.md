@@ -1,9 +1,9 @@
 ---
 title: Informazioni su questa guida
 description: Scopri cosa è trattato in ogni capitolo di questa guida.
-exl-id: fb47db6f-d579-472f-a0e3-7bbc92ceb9e5
+exl-id: 45fe7952-42c3-4479-b25f-6ab5fd218c45
 feature: Search Introduction
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
@@ -26,10 +26,10 @@ Informazioni su gruppi specifici di attività e altre informazioni sono disponib
 
 * &quot;Approfondimenti e rapporti&quot; spiega come generare informazioni sulla pubblicità, generare rapporti dettagliati e automatizzare la produzione dei rapporti, creare e monitorare gli avvisi, visualizzare un registro delle modifiche apportate all’account dell’inserzionista e visualizzare e applicare consigli generati dagli annunci per i tuoi account in rete.
 
-* &quot;Strumenti&quot; spiega come modificare la password, utilizzare gli strumenti per generare i tag di tracciamento dei clic e delle conversioni, caricare le metriche di conversione in [!DNL Google Ads] e gli obiettivi del tuo portfolio nelle reti di annunci per l’ottimizzazione ibrida, le metriche di caricamento per il tracciamento delle campagne e la replica delle tue [!DNL Google Ads] campagne nel tuo [!DNL Microsoft Advertising] account.
+* &quot;Strumenti&quot; spiega come modificare la password, utilizzare gli strumenti per generare tag di tracciamento dei clic e delle conversioni, caricare le metriche di conversione in [!DNL Google Ads] e gli obiettivi del portfolio nelle reti di annunci per l&#39;ottimizzazione ibrida, caricare le metriche per le campagne di tracciamento e replicare le campagne [!DNL Google Ads] negli account [!DNL Microsoft Advertising].
 
-* &quot;Amministrazione&quot; spiega come gestire i dati degli inserzionisti, incluse le metriche di conversione raccolte ed eventuali date da escludere dalle previsioni del portfolio; sincronizza le metriche di conversione da un [!DNL Google Analytics] account; configurare varie impostazioni a livello di inserzionista; e (alcuni ruoli) amministrare gli account utente, agenzia e inserzionista.
+* &quot;Amministrazione&quot; spiega come gestire i dati degli inserzionisti, incluse le metriche di conversione raccolte ed eventuali date da escludere dalle previsioni del portfolio; sincronizzare le metriche di conversione da un account [!DNL Google Analytics]; configurare varie impostazioni a livello di inserzionista; e (alcuni ruoli) amministrare gli account utente, agenzia e inserzionista.
 
 >[!NOTE]
 >
->L’Aiuto sull’ottimizzazione, compreso l’utilizzo dei portfolio per le offerte, è disponibile dal [!UICONTROL Help] menu (![Menu Aiuto](/help/search-social-commerce/assets/help-main-menu.png "Menu Aiuto")) in alto a destra nelle pagine di Search, Social e Commerce.
+>La Guida sull&#39;ottimizzazione, incluso l&#39;utilizzo dei portfolio per le offerte, è disponibile dal menu [!UICONTROL Help] (![Menu Guida](/help/search-social-commerce/assets/help-main-menu.png "Menu Guida")) in alto a destra di qualsiasi pagina in Search, Social e Commerce.

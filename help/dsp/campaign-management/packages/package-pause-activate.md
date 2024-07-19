@@ -2,7 +2,8 @@
 title: Sospendere o attivare un pacchetto
 description: Scopri come mettere in pausa o attivare un pacchetto.
 feature: DSP Packages
-source-git-commit: 81f761e44b6f5a0bef9524468b57d97c021ef2b2
+exl-id: c4a6fb08-14db-4c8b-ab7a-0bbc0f201390
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -17,9 +18,9 @@ Tutti i posizionamenti messi in pausa all’interno di un pacchetto prima di met
 
 ## Mettere in pausa un pacchetto
 
-1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
-1. Fai clic sul nome della campagna per aprire [!UICONTROL Packages] visualizzazione.
-1. Accanto al nome del pacchetto, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
+1. Fare clic sul nome della campagna per aprire la visualizzazione [!UICONTROL Packages].
+1. Accanto al nome del pacchetto, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
 
 >[!NOTE]
 >
@@ -27,12 +28,12 @@ Tutti i posizionamenti messi in pausa all’interno di un pacchetto prima di met
 
 ## Attivare un pacchetto
 
-1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
-1. Fai clic sul nome della campagna per aprire [!UICONTROL Packages] visualizzazione.
-1. Accanto al nome del pacchetto, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
+1. Fare clic sul nome della campagna per aprire la visualizzazione [!UICONTROL Packages].
+1. Accanto al nome del pacchetto, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
 
 >[!MORELIKETHIS]
 >
->* [Modificare un pacchetto](package-edit.md)
->* [Visualizzare il registro delle modifiche di un pacchetto](package-change-log.md)
->* [Archiviare un pacchetto](package-archive-unarchive.md)
+>* [Modifica pacchetto](package-edit.md)
+>* [Visualizza il log delle modifiche per un pacchetto](package-change-log.md)
+>* [Archivia pacchetto](package-archive-unarchive.md)

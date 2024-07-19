@@ -1,9 +1,9 @@
 ---
 title: Modifica le impostazioni delle notifiche
 description: Scopri come modificare le impostazioni per le notifiche.
-exl-id: bcfbecf4-ed1d-4afe-a42d-e584d6837db8
+exl-id: b60d3abe-10ec-4fc0-8c91-6b329a3e9ecc
 feature: Search Notifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
@@ -12,37 +12,37 @@ ht-degree: 0%
 
 # Modifica le impostazioni delle notifiche
 
-*Funzione beta*
+*Funzionalità Beta*
 
-Facoltativamente, puoi abbonarti o annullare l’abbonamento a notifiche e-mail e web sugli errori di autenticazione dell’account, a tutti gli avvisi personalizzati attivati e al completamento della [!UICONTROL Advertising Insights] che hai generato.
+È possibile sottoscrivere o annullare l&#39;abbonamento a notifiche e-mail e Web relative a errori di autenticazione dell&#39;account, a tutti gli avvisi personalizzati attivati e al completamento di [!UICONTROL Advertising Insights] generato.
 
 1. Apri le impostazioni di notifica in uno dei seguenti modi:
 
-   * In alto a destra, fai clic su ![Notifiche](/help/search-social-commerce/assets/notifications-panel.png "Notifiche") per aprire [!UICONTROL Notifications] pannello. In alto a destra, fai clic su ![Impostazioni](/help/search-social-commerce/assets/settings-nc.png "Impostazioni").
+   * In alto a destra, fai clic su ![Notifiche](/help/search-social-commerce/assets/notifications-panel.png "Notifiche") per aprire il pannello [!UICONTROL Notifications]. In alto a destra, fare clic su ![Impostazioni](/help/search-social-commerce/assets/settings-nc.png "Impostazioni").
 
-   * Nel menu principale, fai clic su **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**. Nel menu a sinistra, fai clic su ![Impostazioni](/help/search-social-commerce/assets/settings-nc.png "Impostazioni").
+   * Nel menu principale, fare clic su **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**. Nel menu a sinistra, fai clic su ![Impostazioni](/help/search-social-commerce/assets/settings-nc.png "Impostazioni").
 
 1. Modifica le impostazioni per qualsiasi [categoria di notifica](notification-about.md):
 
-   * Per iscriverti o annullare l’iscrizione alle notifiche, sposta il cursore in [!UICONTROL Subscribe] colonna:
+   * Per sottoscrivere o annullare l&#39;abbonamento alle notifiche, spostare il dispositivo di scorrimento nella colonna [!UICONTROL Subscribe]:
 
       * Per annullare l’abbonamento a tutti i tipi di notifica, sposta il cursore a sinistra (disattivato).
 
       * Per iscriversi a uno o più tipi di notifica, spostare il dispositivo di scorrimento verso destra (attivato).
 
-   * (Quando [!UICONTROL Subscribe] è abilitato) Per abbonarti alle notifiche e-mail, seleziona la casella di controllo nella **[!UICONTROL Email]** colonna.
+   * (Quando [!UICONTROL Subscribe] è abilitato) Per sottoscrivere le notifiche e-mail, selezionare la casella di controllo nella colonna **[!UICONTROL Email]**.
 
-   * (Quando [!UICONTROL Subscribe] è disattivato) Per abbonarti alle notifiche web in Search, Social, &amp; Commerce e alle notifiche push, se sono abilitate per il browser, seleziona la casella di controllo nella sezione **[!UICONTROL Web]** colonna.
+   * (Se [!UICONTROL Subscribe] è disabilitato) Per sottoscrivere le notifiche Web in Search, Social e Commerce e le notifiche push se sono abilitate per il browser, selezionare la casella di controllo nella colonna **[!UICONTROL Web]**.
 
-     Le notifiche Web vengono inviate solo quando [abilitare le notifiche push](notifications-push-enable-disable.md) nel browser.
+     Le notifiche Web vengono inviate solo quando [abiliti le notifiche push](notifications-push-enable-disable.md) nel browser.
 
-1. Clic **[!UICONTROL Save]**.
+1. Fare clic su **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulle notifiche](/help/search-social-commerce/notifications/notification-about.md)
->* [Visualizzare le notifiche](notification-view.md)
->* [Contrassegnare una notifica come letta o non letta](notification-mark-read-unread.md)
+>* [Visualizza le notifiche](notification-view.md)
+>* [Contrassegna una notifica come letta o non letta](notification-mark-read-unread.md)
 >* [Eliminare una notifica](notification-delete.md)
->* [Abilitare e disabilitare le notifiche push da [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
->* [Installare e disinstallare [!UICONTROL Notification Center] applicazione web](notification-app-install-uninstall.md)
+>* [Attiva e disattiva le notifiche push da [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
+>* [Installa e disinstalla l&#39;applicazione Web [!UICONTROL Notification Center]](notification-app-install-uninstall.md)

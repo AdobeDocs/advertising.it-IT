@@ -7,6 +7,6 @@ ht-degree: 0%
 ---
 # Modello di annuncio testuale - Nome modello
 
-**[!UICONTROL Template Name]:** Nome del modello. È possibile modificare il nome di un modello esistente senza conseguenze. Il nome del modello non può includere i seguenti caratteri: `# % * | \ : " < >  . ? /` (`&` è consentito)
+**[!UICONTROL Template Name]:** Il nome del modello. È possibile modificare il nome di un modello esistente senza conseguenze. Il nome del modello non può includere i seguenti caratteri: `# % * | \ : " < >  . ? /` (`&` è consentito)
 
 Per creare un nuovo modello con gli stessi parametri di un modello esistente, clonatelo e assegnate un nuovo nome. Gli annunci creati dal nuovo modello non sono associati agli annunci creati dal modello di origine.

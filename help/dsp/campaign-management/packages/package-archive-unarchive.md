@@ -18,25 +18,24 @@ Nascondere un pacchetto non utilizzato dall&#39;archiviazione. L&#39;unica azion
 
 ## Archiviare un pacchetto
 
-1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
-1. Fai clic sul nome della campagna per aprire [!UICONTROL Packages] visualizzazione.
-1. Accanto al nome del pacchetto, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
-1. Nel messaggio di conferma, fai clic su **[!UICONTROL Archive]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
+1. Fare clic sul nome della campagna per aprire la visualizzazione [!UICONTROL Packages].
+1. Accanto al nome del pacchetto, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
+1. Nel messaggio di conferma, fare clic su **[!UICONTROL Archive]**.
 
 >[!NOTE]
 >
->Per visualizzare i pacchetti archiviati, filtra [!UICONTROL Packages] view: click ![Pulsante Filtro](/help/dsp/assets/filter.png), fai clic su **[!UICONTROL Package status]** e seleziona **[!UICONTROL Archived]** e quindi fare clic su **[!UICONTROL Apply].**
+>Per visualizzare i pacchetti archiviati, filtrare la visualizzazione [!UICONTROL Packages]: fare clic su ![Pulsante filtro](/help/dsp/assets/filter.png), fare clic su **[!UICONTROL Package status]** e selezionare **[!UICONTROL Archived]**, quindi fare clic su **[!UICONTROL Apply].**
 
 ## Annullare l’archiviazione di un pacchetto
 
-1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
-1. Fai clic sul nome della campagna per aprire [!UICONTROL Packages] visualizzazione.
-1. Accanto al nome del pacchetto, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
-1. Nel messaggio di conferma, fai clic su **[!UICONTROL Unarchive]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
+1. Fare clic sul nome della campagna per aprire la visualizzazione [!UICONTROL Packages].
+1. Accanto al nome del pacchetto, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
+1. Nel messaggio di conferma, fare clic su **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]
 >
->* [Modificare un pacchetto](package-edit.md)
->* [Visualizzare il registro delle modifiche di un pacchetto](package-change-log.md)
->* [Sospendere o attivare un pacchetto](package-pause-activate.md)
-
+>* [Modifica pacchetto](package-edit.md)
+>* [Visualizza il log delle modifiche per un pacchetto](package-change-log.md)
+>* [Sospendi o attiva un pacchetto](package-pause-activate.md)

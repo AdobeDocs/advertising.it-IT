@@ -1,11 +1,11 @@
 ---
 title: Informazioni sui report di base e sui report avanzati
 description: Scopri i rapporti di base e avanzati personalizzabili.
-exl-id: 6224ee6d-72db-4524-9660-7fc0d57b5347
+exl-id: ecdafac5-3944-4c39-bd7c-8e3c9e6a3425
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -24,54 +24,55 @@ I rapporti di base mostrano il costo effettivo e i dati di clic per portfolio (s
 
 #### Rapporti sulle entità del Portfolio e della rete di annunci
 
-* [Il [!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md)
+* [[!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md)
 
-* [Il [!UICONTROL Search Engine Report]](/help/search-social-commerce/reports/management/basic-advanced/search-engine-report.md)
+* [[!UICONTROL Search Engine Report]](/help/search-social-commerce/reports/management/basic-advanced/search-engine-report.md)
 
-* [Il [!UICONTROL Search Engine Account Report]](/help/search-social-commerce/reports/management/basic-advanced/search-engine-account-report.md)
+* [[!UICONTROL Search Engine Account Report]](/help/search-social-commerce/reports/management/basic-advanced/search-engine-account-report.md)
 
-* [Il [!UICONTROL Campaign Report]](/help/search-social-commerce/reports/management/basic-advanced/campaign-report.md)
+* [[!UICONTROL Campaign Report]](/help/search-social-commerce/reports/management/basic-advanced/campaign-report.md)
 
-* [Il [!UICONTROL Campaign Hourly Report]](/help/search-social-commerce/reports/management/basic-advanced/campaign-hourly-report.md)
+* [[!UICONTROL Campaign Hourly Report]](/help/search-social-commerce/reports/management/basic-advanced/campaign-hourly-report.md)
 
-* [Il [!UICONTROL Ad Group Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-group-report.md)
+* [[!UICONTROL Ad Group Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-group-report.md)
 
-* [Il [!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)
+* [[!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)
 
-* [Il [!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md)
+* [[!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md)
 
-* [Il [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/product-group-report.md)
+* [[!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/product-group-report.md)
 
 ### Rapporti di classificazione
 
-* [Il [!UICONTROL Label Classification Report]](/help/search-social-commerce/reports/management/basic-advanced/label-classification-report.md)
+* [[!UICONTROL Label Classification Report]](/help/search-social-commerce/reports/management/basic-advanced/label-classification-report.md)
 
-* [Il [!UICONTROL Label Value Report]](/help/search-social-commerce/reports/management/basic-advanced/label-value-report.md)
+* [[!UICONTROL Label Value Report]](/help/search-social-commerce/reports/management/basic-advanced/label-value-report.md)
 
 ### Rapporti sui vincoli
 
-* [Il [!UICONTROL Constraint Report]](/help/search-social-commerce/reports/management/basic-advanced/constraint-report.md)
+* [[!UICONTROL Constraint Report]](/help/search-social-commerce/reports/management/basic-advanced/constraint-report.md)
 
-* [Il [!UICONTROL Network Constraint Report]](/help/search-social-commerce/reports/management/basic-advanced/network-constraint-report.md)
+* [[!UICONTROL Network Constraint Report]](/help/search-social-commerce/reports/management/basic-advanced/network-constraint-report.md)
 
 ## Rapporti avanzati
 
-I rapporti avanzati possono aiutarti a prendere decisioni strategiche sulla tua strategia pubblicitaria identificando dove avresti vantaggio riconfigurando il targeting geografico o le impostazioni di rete. Possono inoltre essere utili per convalidare i dati di conversione disponibili in Search, Social e Commerce rispetto ai dati di tracciamento delle conversioni interne dell’inserzionista.
+I rapporti avanzati possono aiutarti a prendere decisioni strategiche sulla tua strategia pubblicitaria identificando dove avresti vantaggio riconfigurando il targeting geografico o le impostazioni di rete. Possono anche aiutarti a convalidare i dati di conversione disponibili in Search, Social e Commerce rispetto ai dati di tracciamento delle conversioni interne dell’inserzionista.
 
-Tutti gli utenti possono generare [!UICONTROL Transaction Report], che mostra le singole transazioni per parola chiave. Tutti gli altri rapporti avanzati utilizzano dati acquisiti tramite il servizio di tracciamento delle conversioni di Adobi Advertising e possono essere generati solo per gli inserzionisti con il servizio.
+Tutti gli utenti possono generare [!UICONTROL Transaction Report], che mostra le singole transazioni per parola chiave. Tutti gli altri rapporti avanzati utilizzano dati acquisiti tramite il servizio di tracciamento delle conversioni di Adobe Advertising e possono essere generati solo per gli inserzionisti con il servizio.
 
-Facoltativamente, tutti i rapporti avanzati possono includere dati di conversione o qualsiasi altra metrica creata. I rapporti avanzati generati dal portfolio anziché da una rete di annunci mostrano i dati per le campagne attualmente mappate sui portfolio specificati. I rapporti non includono dati per le campagne presenti nei portfolio durante l’intervallo di date, ma che non sono ancora presenti.
+Facoltativamente, tutti i rapporti avanzati possono includere dati di conversione o qualsiasi altra metrica creata. I rapporti avanzati generati dal portfolio anziché da una rete di annunci mostrano i dati per le campagne attualmente mappate sui portfolio specificati. I rapporti
+non includere i dati per le campagne che erano nei portfolio durante l’intervallo di date ma non sono ancora presenti.
 
 ### Tipi di report avanzati
 
-* [Il [!UICONTROL Domain Referral Report]](/help/search-social-commerce/reports/management/basic-advanced/domain-referral-report.md)
+* [[!UICONTROL Domain Referral Report]](/help/search-social-commerce/reports/management/basic-advanced/domain-referral-report.md)
 
-* [Il [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/reports/management/basic-advanced/geo-distribution-report.md)
+* [[!UICONTROL Geo Distribution Report]](/help/search-social-commerce/reports/management/basic-advanced/geo-distribution-report.md)
 
-* [Il [!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md)
+* [[!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md)
 
 >[!MORELIKETHIS]
 >
->* [Generare un rapporto di base o avanzato](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
->* [Impostazioni di base e avanzate dei rapporti](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
->* [Colonne di report per report di base e avanzati](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-columns.md)
+>* [Genera un report di base o avanzato](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
+>* [Impostazioni di base e avanzate del report](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
+>* [Colonne report per report di base e avanzati](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-columns.md)

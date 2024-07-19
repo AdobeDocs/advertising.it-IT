@@ -5,7 +5,7 @@ feature: DSP Custom Reports, DSP Campaign Data Views
 exl-id: 97d49cce-4438-40c4-94a4-e5d90ebaf651
 source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Adobe Advertising supporta le seguenti valute.
 
 >[!NOTE]
 >
->Adobe Analytics supporta [un insieme più ampio di valute](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html).
+>Adobe Analytics supporta [un set di valute più ampio](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html).
 
 ## DSP e creatività
 
@@ -45,9 +45,9 @@ Adobe Advertising supporta le seguenti valute.
 
 >[!NOTE]
 >
-> [!DNL DSP] fornisce fatturazione solo nelle seguenti valute: CAD, DKK, EUR, GBP, HKD, JPY, NZD, SGD e USD.
+> [!DNL DSP] fornisce la fatturazione solo nelle seguenti valute: CAD, DKK, EUR, GBP, HKD, JPY, NZD, SGD e USD.
 
 ## [!DNL Adobe Advertising Search, Social, & Commerce]
 
-Tutte le valute supportate dai motori di ricerca supportati. È lo stesso di [quelle sostenute da [!DNL Google Ads]](https://developers.google.com/adwords/api/docs/appendix/codes-formats#currency-codes).
+Tutte le valute supportate dai motori di ricerca supportati. Sono le stesse di [quelle supportate da [!DNL Google Ads]](https://developers.google.com/adwords/api/docs/appendix/codes-formats#currency-codes).
 

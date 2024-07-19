@@ -1,24 +1,24 @@
 ---
 title: '[!UICONTROL Search Engine Report]'
-description: Scopri di più su [!UICONTROL Search Engine Report].
-exl-id: d90323b0-c3fa-4cb9-a649-ec51f858e71b
+description: Informazioni su [!UICONTROL Search Engine Report].
+exl-id: d475861f-ec4b-47c8-be72-bccbe803e891
 feature: Search Reports, Search Basic Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Search Engine Report]
 
-Il [!UICONTROL Search Engine Report] include dati su costi, clic e (facoltativamente) conversione per una o più reti di annunci. Per impostazione predefinita, i dati includono una riga per ogni rete di annunci applicabile per ogni unità di tempo nell’intervallo di date specificato. Per impostazione predefinita, le righe sono in ordine crescente prima per rete di annunci e quindi per data di inizio per l’unità di tempo. Facoltativamente, puoi recuperare informazioni più granulari, ad esempio righe separate per ogni account, campagna, strategia di offerta, valuta e dispositivo.
+[!UICONTROL Search Engine Report] include dati su costi, clic e (facoltativamente) conversione per una o più reti di annunci. Per impostazione predefinita, i dati includono una riga per ogni rete di annunci applicabile per ogni unità di tempo nell’intervallo di date specificato. Per impostazione predefinita, le righe sono in ordine crescente prima per rete di annunci e quindi per data di inizio per l’unità di tempo. Facoltativamente, puoi recuperare informazioni più granulari, ad esempio righe separate per ogni account, campagna, strategia di offerta, valuta e dispositivo.
 
 Puoi visualizzare i dati relativi ai 36 mesi precedenti.
 
 ## Colonne predefinite
 
-Per le descrizioni di tutte le colonne predefinite e personalizzate, vedi &quot;[Colonne di report per report di base e avanzati](basic-advanced-report-columns.md).&quot;
+Per le descrizioni di tutte le colonne predefinite e personalizzate, vedere &quot;[Colonne report per report di base e avanzati](basic-advanced-report-columns.md).&quot;
 
 * [!UICONTROL Search Engine]
 * [!UICONTROL Start Date]
@@ -35,5 +35,5 @@ Per le descrizioni di tutte le colonne predefinite e personalizzate, vedi &quot;
 >[!MORELIKETHIS]
 >
 >* [Informazioni sui report di base e avanzati](basic-advanced-report-about.md)
->* [Generare un rapporto di base o avanzato](basic-advanced-report-generate.md)
->* [Impostazioni di base e avanzate dei rapporti](basic-advanced-report-settings.md)
+>* [Genera un report di base o avanzato](basic-advanced-report-generate.md)
+>* [Impostazioni di base e avanzate del report](basic-advanced-report-settings.md)

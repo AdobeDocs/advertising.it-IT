@@ -14,7 +14,7 @@ ht-degree: 56%
 
 # Supporto di Adobe Advertising per la privacy del consumatore {#privacy}
 
-+ [Informazioni sul supporto di Adobi Advertising per la privacy del consumatore](/help/privacy/home.md)
++ [Informazioni sul supporto di Adobe Advertising per la privacy del consumatore](/help/privacy/home.md)
 + [Supporto per il RGPD](/help/privacy/gdpr.md)
 + Supporto per CCPA {#ccpa}
    + [Supporto per CCPA: accesso ed eliminazione dei dati dei consumatori](/help/privacy/ccpa/ccpa-access-delete.md)

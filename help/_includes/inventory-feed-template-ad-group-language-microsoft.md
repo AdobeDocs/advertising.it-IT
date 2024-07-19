@@ -7,6 +7,6 @@ ht-degree: 0%
 ---
 # Modello di annuncio testo - Lingua a livello di gruppo di annunci
 
-**[!UICONTROL Language]:** Lingua di destinazione per gli annunci nel gruppo di annunci: *Inglese*, *Francese*, *Finlandese*, *Tedesco*, *Norvegese*, *Spagnolo*, o *Svedese*. L’impostazione predefinita per le nuove campagne è *Inglese*.
+**[!UICONTROL Language]:** La lingua di destinazione per gli annunci nel gruppo di annunci: *Inglese*, *Francese*, *Finlandese*, *Tedesco*, *Norvegese*, *Spagnolo*, o *Svedese*. Il valore predefinito per le nuove campagne è *Inglese*.
 
 Questa impostazione determina i paesi e le aree geografiche in cui l’annuncio può essere visualizzato. Scegli una lingua compatibile con i target di posizione della campagna.

@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Keyword Daily Impression Share Report]'
-description: Scopri di più su [!UICONTROL Keyword Daily Impression Share Report].
+description: Informazioni su [!UICONTROL Keyword Daily Impression Share Report].
 exl-id: 761864db-a6ef-4155-8959-6c2c90f14a6b
 feature: Search Reports, Search Specialty Reports
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # [!UICONTROL Keyword Daily Impression Share Report]
 
-*[!DNL Google Ads]e [!DNL Microsoft Advertising] solo account*
+Solo *[!DNL Google Ads]e [!DNL Microsoft Advertising] account*
 
-Il [!UICONTROL Keyword Daily Impression Share Report] include metriche di condivisione delle impression giornaliere per ogni parola chiave, tipo di corrispondenza corrispondente e tipo di dispositivo corrispondente per uno o più gruppi di annunci o campagne. Per impostazione predefinita, i dati includono una riga per ogni parola chiave, tipo di corrispondenza e dispositivo che ha ricevuto almeno un’impression o un clic per ogni gruppo di annunci applicabile per ogni giorno nell’intervallo di date specificato. Per impostazione predefinita, le righe sono in ordine crescente per data. Il rapporto può facoltativamente includere dati tracciati da [!DNL Adobe] e metriche derivate.
+[!UICONTROL Keyword Daily Impression Share Report] include metriche di condivisione delle impression giornaliere per ogni parola chiave, tipo di corrispondenza corrispondente e tipo di dispositivo corrispondente per uno o più gruppi di annunci o campagne. Per impostazione predefinita, i dati includono una riga per ogni parola chiave, tipo di corrispondenza e dispositivo che ha ricevuto almeno un’impression o un clic per ogni gruppo di annunci applicabile per ogni giorno nell’intervallo di date specificato. Per impostazione predefinita, le righe sono in ordine crescente per data. Il report può includere facoltativamente dati tracciati da [!DNL Adobe] e metriche derivate.
 
 Le metriche di condivisione dell’impression sono disponibili alle 13:00 nel fuso orario dell’inserzionista del giorno precedente. Puoi visualizzare i dati relativi ai due mesi precedenti.
 
 ## Colonne predefinite
 
-Per le descrizioni di tutte le colonne predefinite e personalizzate, vedi &quot;[Colonne report per report speciali](specialty-report-columns.md).&quot;
+Per le descrizioni di tutte le colonne predefinite e personalizzate, vedere &quot;[Colonne report per report speciali](specialty-report-columns.md).&quot;
 
 * [!UICONTROL Keyword]
 * [!UICONTROL Keyword Status]
@@ -49,5 +49,5 @@ Per le descrizioni di tutte le colonne predefinite e personalizzate, vedi &quot;
 >[!MORELIKETHIS]
 >
 >* [Informazioni sui report speciali](specialty-report-about.md)
->* [Generare un rapporto speciale](specialty-report-generate.md)
+>* [Generare un report speciale](specialty-report-generate.md)
 >* [Impostazioni report speciali](specialty-report-settings.md)

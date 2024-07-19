@@ -1,9 +1,9 @@
 ---
 title: Ottimizzare le pagine di destinazione del sito web
 description: Scopri le best practice per ottimizzare le pagine di destinazione del tuo sito web.
-exl-id: 87379fb1-c737-4ac0-80c1-26c79feb45d8
+exl-id: cd94277c-a340-4161-8630-86a249eb3465
 feature: Search Best Practices
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 0%
@@ -16,11 +16,11 @@ Per migliorare l’esperienza utente e i tassi di conversione, è importante ott
 
 >[!NOTE]
 >
->Search, Social e Commerce offre servizi di test delle pagine di destinazione senza alcun costo per gli inserzionisti con contratti di servizi gestiti.
+>Search, Social e Commerce forniscono servizi di test delle pagine di destinazione senza alcun costo per gli inserzionisti con contratti di servizi gestiti.
 
 >[!TIP]
 >
->Per ulteriori best practice specifiche per le campagne nei portfolio, consulta anche la sezione Guida all’ottimizzazione > Gestione di Portfoli > Best practice per i Portfoli, disponibile in Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
+>Per ulteriori best practice specifiche per le campagne nei portfolio, consulta anche la sezione Guida all&#39;ottimizzazione > Gestione di Portfoli > Best practice per i Portfoli, disponibile all&#39;interno di Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 ## Progettare pagine di destinazione efficaci
 
@@ -34,7 +34,7 @@ Di seguito sono riportate alcune linee guida per la progettazione di pagine di d
 
 * Utilizza una buona progettazione delle pagine; una buona progettazione può generare immediatamente fiducia, un senso di familiarità e credibilità. Personalizza i pulsanti del modulo per renderli più visibili; non utilizzare il pulsante standard generato dal browser con la parola &quot;Invia&quot;. Utilizza un layout a due colonne, con l’elemento actionable nella colonna principale e le informazioni di supporto nella seconda colonna.
 
-* Fornire indicatori di credibilità e sicurezza. Logo e sigilli aiutano a ridurre l’ansia dei visitatori. Questi includono [!DNL Verisign], [!DNL BBB] logo, [!DNL eTrust], [!DNL HackerSafe], garanzie di soddisfazione, offerte di rimborso e così via. Includi un&#39;informativa sulla privacy ogni volta che vengono raccolte informazioni. Posiziona questi indicatori il più vicino possibile all’elemento utilizzabile.
+* Fornire indicatori di credibilità e sicurezza. Logo e sigilli aiutano a ridurre l’ansia dei visitatori. Questi includono [!DNL Verisign], il logo [!DNL BBB], [!DNL eTrust], [!DNL HackerSafe], garanzie di soddisfazione, offerte di rimborso e così via. Includi un&#39;informativa sulla privacy ogni volta che vengono raccolte informazioni. Posiziona questi indicatori il più vicino possibile all’elemento utilizzabile.
 
 * Offri un incentivo, come spedizione gratuita, regali, sconti, o un resoconto o un ebook gratuito. Un visitatore che visita una pagina di destinazione fa shopping e ha bisogno di un incentivo per rimanere su una pagina e completare l’offerta. L’incentivo dovrebbe essere uno degli elementi più importanti della pagina.
 
@@ -52,9 +52,9 @@ Di seguito sono riportate alcune linee guida per la progettazione di pagine di d
 
 ## Verificare l’impatto delle pagine di destinazione
 
-Per visualizzare l’impatto della modifica della pagina di destinazione (quando tutto il resto è costante), esegui [il [!DNL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md), che include l’URL di visualizzazione e l’URL di base/finale o di destinazione per ogni annuncio.
+Per visualizzare l&#39;impatto della modifica della pagina di destinazione (quando tutto il resto è costante), esegui [l&#39;URL [!DNL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md), che include l&#39;URL di visualizzazione e l&#39;URL di base/finale o di destinazione per ogni annuncio.
 
 >[!MORELIKETHIS]
 >
->* [Analizzare i rapporti per perfezionare le parole chiave e le impostazioni della campagna](best-practices-analyze.md)
->* [Scrivi testo effettivo e copia](best-practices-write.md)
+>* [Analizza i report per perfezionare le parole chiave e le impostazioni della campagna](best-practices-analyze.md)
+>* [Scrivi testo effettivo e copia dell&#39;annuncio](best-practices-write.md)

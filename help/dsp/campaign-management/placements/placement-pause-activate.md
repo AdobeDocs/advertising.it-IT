@@ -16,20 +16,20 @@ Sospendi un posizionamento live o attiva un posizionamento in pausa quando si tr
 
 ## Sospendere un posizionamento live
 
-1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 1. Fai clic sul nome della campagna.
-1. Nel sottomenu, fai clic su **[!UICONTROL Placements]**.
-1. Accanto al nome del posizionamento, fate clic su  **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
+1. Nel sottomenu fare clic su **[!UICONTROL Placements]**.
+1. Accanto al nome del posizionamento, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
 
 ## Attivare un posizionamento in pausa
 
-1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 1. Fai clic sul nome della campagna.
-1. Nel sottomenu, fai clic su **[!UICONTROL Placements]**.
-1. Accanto al nome del posizionamento, fate clic su  **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
+1. Nel sottomenu fare clic su **[!UICONTROL Placements]**.
+1. Accanto al nome del posizionamento, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
 
 >[!MORELIKETHIS]
 >
->* [Archiviare o annullare l’archiviazione di un posizionamento](placement-archive-unarchive.md)
+>* [Archiviare o annullare l&#39;archiviazione di un posizionamento](placement-archive-unarchive.md)
 >* [Modifica posizionamenti](placement-edit.md)
->* [Visualizzare il log delle modifiche per un posizionamento](placement-change-log.md)
+>* [Visualizza il log delle modifiche per un posizionamento](placement-change-log.md)

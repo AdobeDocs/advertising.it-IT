@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Soluzioni avanzate di misurazione
 
-Gli inserzionisti spesso fanno fatica a capire dove dovrebbero spendere i loro migliori dollari mediatici futuri, o a quantificare l&#39;impatto dei loro annunci pubblicitari online. In un panorama basato sui dati, la misurazione dell’attribuzione fornisce una soluzione a questa sfida. Il [!DNL Strategic Advertising Consulting] il team aiuta i partner del marchio e dell’agenzia a misurare in che modo gli elementi [!DNL Adobe] Le connessioni prendono vita attraverso la pubblicità. Con solide offerte di misurazione dell’attribuzione, il team aiuta a implementare strategie di targeting curate utilizzando un sofisticato framework di misurazione, rendendo facile per i brand collegare le loro decisioni sui media a risultati reali che guidano la loro attività. Il team può aiutarti a:
+Gli inserzionisti spesso fanno fatica a capire dove dovrebbero spendere i loro migliori dollari mediatici futuri, o a quantificare l&#39;impatto dei loro annunci pubblicitari online. In un panorama basato sui dati, la misurazione dell’attribuzione fornisce una soluzione a questa sfida. Il team [!DNL Strategic Advertising Consulting] aiuta i partner del marchio e dell&#39;agenzia a misurare il modo in cui gli elementi delle loro connessioni [!DNL Adobe] prendono vita tramite la pubblicità. Con solide offerte di misurazione dell’attribuzione, il team aiuta a implementare strategie di targeting curate utilizzando un sofisticato framework di misurazione, rendendo facile per i brand collegare le loro decisioni sui media a risultati reali che guidano la loro attività. Il team può aiutarti a:
 
 * Attiva studi di misurazione in campagne multimediali digitali full-funnel
 
@@ -23,7 +23,7 @@ Gli inserzionisti spesso fanno fatica a capire dove dovrebbero spendere i loro m
 
 Per verificare il successo delle campagne pubblicitarie, sono disponibili i seguenti pacchetti di soluzioni di misurazione:
 
-* **Portata, frequenza e conversioni basate sulla famiglia**
+* **Raggiungimento, frequenza e conversioni basate sulla famiglia**
 
   Comprendi l’intera portata della campagna a livello di famiglia, nonché il contributo dei singoli schermi. Le opzioni di reporting includono:
 
@@ -55,16 +55,16 @@ Per verificare il successo delle campagne pubblicitarie, sono disponibili i segu
 
       Quantify the unique reach and overlap between cookies and RampIDs, as well as the cost per metric by ID type. Prove the effectiveness of testing RampIDs in finding incremental reach relative to cookie-based segments across multiple digital environments, such as desktop, mobile, native, and audio. -->
 
-* **Effetto alone sul reporting della ricerca**
+* **Effetto alone sui report di ricerca**
 
   Quantifica l’impatto del televisore a colori e delle esposizioni agli annunci digitali sulla capacità di guidare i clic di ricerca, le conversioni di ricerca e i ROAS a livello di famiglia tra app CTV, parole chiave di ricerca, motore di ricerca, pubblico personalizzato e livelli tattici.
 
 
-* **[!DNL Dynata]Indagini basate su panel**
+* **[!DNL Dynata]sondaggi basati su pannelli**
 
   Condurre indagini di controllo/esposte per determinare l’effetto dell’esposizione ad su metriche quali consapevolezza, familiarità e intento.
 
-* **Traffico a piedi**
+* **Traffico Piedi**
 
   Comprendi l’incrementalità guidata dall’esposizione agli annunci e come l’investimento multimediale sta causando cambiamenti nel comportamento di acquisto e visite incrementali con metriche quali effetto di incrementalità, costo per visita incrementale e approfondimenti sulle visite.
 
@@ -72,11 +72,11 @@ Per verificare il successo delle campagne pubblicitarie, sono disponibili i segu
 
   Arricchisci la tua strategia di campagna con dati deterministici sulle vendite di crediti e debiti attraverso analisi di segmenti, mercati competitivi e acquirenti.
 
-* **Misurazione delle transazioni**
+* **Misurazione transazione**
 
   Determinare l’influenza dell’esposizione degli annunci sulle vendite utilizzando dati solidi e deterministici sulle vendite a credito e a debito.
 
-* **Progettazione esperimenti (test A/B)**
+* **Prova Designer (Test A/B)**
 
   Confronta il comportamento e il sentiment di gruppi di campioni randomizzati e reciprocamente esclusivi con test A/B semplice e pulito.
 
@@ -84,7 +84,7 @@ Per verificare il successo delle campagne pubblicitarie, sono disponibili i segu
 
 * **Qualsiasi verticale:**
 
-   * Progettazione esperimenti (test A/B e test A/B)
+   * Sperimentazione Designer (test A/B e placebo)
 
    * Raggiungimento e conversioni basate sulle persone
 

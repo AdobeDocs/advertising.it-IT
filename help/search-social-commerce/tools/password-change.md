@@ -1,9 +1,9 @@
 ---
 title: Cambia la password
 description: Scopri come modificare la password del tuo account.
-exl-id: 1cc63747-4b80-45ba-a044-4a7b0a237c63
+exl-id: 62a4710d-aff7-4635-9fce-6d14f890728f
 feature: Search Tools
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 La modifica della password comporta la disconnessione dalla sessione corrente. Per continuare a lavorare, devi accedere con la nuova password.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Change Password]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Change Password]**.
 
 1. Immettere le informazioni nei campi, quindi fare clic su **[!UICONTROL Submit]**.
 
@@ -22,11 +22,11 @@ La modifica della password comporta la disconnessione dalla sessione corrente. P
 
    **[!UICONTROL Confirm Password]:** La nuova password.
 
-1. Nel messaggio di conferma, fai clic su **[!UICONTROL OK]**.
+1. Nel messaggio di conferma, fare clic su **[!UICONTROL OK]**.
 
    La sessione corrente termina e viene visualizzato il prompt di accesso che consente di accedere di nuovo utilizzando la nuova password.
 
 >[!MORELIKETHIS]
 >
->* [Accedi](/help/search-social-commerce/getting-started/log-in.md)
+>* [Accesso](/help/search-social-commerce/getting-started/log-in.md)
 >* [Disconnetti](/help/search-social-commerce/getting-started/log-out.md)

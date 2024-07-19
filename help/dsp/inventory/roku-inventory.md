@@ -1,6 +1,6 @@
 ---
-title: Utilizzo di [!DNL Roku] Inventario
-description: Scopri la partnership dell’DSP con [!DNL Roku], incluse le opzioni di inventario, i fornitori di tracciamento di terze parti approvati e le best practice per [!DNL Roku]posizionamenti specifici di.
+title: Utilizzo di  [!DNL Roku] Inventario
+description: Scopri la partnership dell'DSP con  [!DNL Roku], incluse le opzioni di inventario, i fornitori di tracciamento di terze parti approvati e le best practice per i posizionamenti specifici di  [!DNL Roku].
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
 source-git-commit: f3099c84fe2d6b1610ddf4ca07d59b119718afee
@@ -10,74 +10,74 @@ ht-degree: 0%
 
 ---
 
-# Utilizzo di [!DNL Roku] Inventario
+# Utilizzo dell&#39;inventario [!DNL Roku]
 
-Advertising DSP fornisce funzioni per la pubblicità su [!DNL Roku].
+Advertising DSP fornisce funzionalità per la pubblicità su [!DNL Roku].
 
 ## Corrispondenza pubblico
 
-Il [!DNL Roku] e la partnership con l&#39;DSP corrisponda al vostro [!DNL DSP] tipi di pubblico a [!DNL Roku] ID per il targeting deterministico del pubblico 1:1 su [!DNL Roku] inventario.
+La relazione tra [!DNL Roku] e DSP corrisponde ai tipi di pubblico di [!DNL DSP] a [!DNL Roku] ID per il targeting deterministico del pubblico 1:1 nell&#39;inventario di [!DNL Roku].
 
-## [!DNL Roku] Opzioni di magazzino
+## [!DNL Roku] opzioni di inventario
 
-Puoi: a) impostare gli ID offerta privati direttamente con [!DNL Roku] e poi inserire i dati ID offerta in DSP o b) visitare il [!DNL On Demand] Galleria a cui iscriversi [!DNL Roku] profili:
+È possibile a) impostare ID offerta privati direttamente con [!DNL Roku] e quindi immettere i dati ID offerta in DSP oppure b) visitare la raccolta [!DNL On Demand] per iscriversi a [!DNL Roku] profili:
 
 >[!NOTE]
 >
->[!DNL Roku] l’inventario non è disponibile nei mercati aperti e nelle borse.
+>L&#39;inventario [!DNL Roku] non è disponibile nei mercati aperti e negli scambi.
 
-* Per le vostre offerte private, [impostare le informazioni sugli ID offerta in DSP](/help/dsp/inventory/deal-id-create.md) e quindi target&quot;.[!UICONTROL Roku Network - Audience]&quot; e &quot;[!UICONTROL The Roku Channel - Audience]&quot; entro [!DNL Roku] posizionamenti.<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
+* Per le tue offerte private, [imposta le informazioni sugli ID offerta in DSP](/help/dsp/inventory/deal-id-create.md) e quindi esegui la destinazione &quot;[!UICONTROL Roku Network - Audience]&quot; e &quot;[!UICONTROL The Roku Channel - Audience]&quot; entro [!DNL Roku] posizionamenti.<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
 
-* È possibile [abbonati a quanto segue [!DNL Roku] inventario all&#39;interno di [!DNL On Demand] Galleria](/help/dsp/inventory/on-demand-inventory-subscribe.md), quindi eseguire il targeting di tutte le offerte approvate entro [!DNL Roku] posizionamenti:
+* Puoi [abbonarti al seguente [!DNL Roku] inventario all&#39;interno della [!DNL On Demand] Galleria](/help/dsp/inventory/on-demand-inventory-subscribe.md), quindi eseguire il targeting delle offerte approvate entro [!DNL Roku] posizionamenti:
 
-   * &quot;[!UICONTROL Roku Network - Audience]&quot; per l’inventario in [!DNL Roku] ecosistema con partner di contenuti premium, come [!DNL The CW], [!DNL ABC], e [!DNL ESPN].
-   * &quot;[!UICONTROL The Roku Channel - Audience]&quot; per [!DNL Roku] contenuto dell&#39;app di proprietà e gestita (O&amp;O).
+   * &quot;[!UICONTROL Roku Network - Audience]&quot; per l&#39;inventario nell&#39;ecosistema [!DNL Roku] con partner di contenuti premium, ad esempio [!DNL The CW], [!DNL ABC] e [!DNL ESPN].
+   * &quot;[!UICONTROL The Roku Channel - Audience]&quot; per il contenuto dell&#39;app di proprietà e gestione (O&amp;O) di [!DNL Roku].
 
-### Vantaggi della personalizzazione di marketplace privati con [!DNL Roku]
+### Vantaggi della personalizzazione di Marketplace privati con [!DNL Roku]
 
 Le offerte private ti consentono di personalizzare i parametri dell’offerta in base alle tue esigenze.
 
-* **Prezzi negoziati:** Utilizzare [!DNL Roku] team di vendita per negoziare e strutturare un accordo che soddisfi le esigenze della campagna.
+* **Prezzi negoziati:** Collabora con il team di vendita [!DNL Roku] per negoziare e strutturare un accordo che soddisfi le tue esigenze della campagna.
 
-* **Priorità scala:** I mercati privati (PMP) ricevono maggiore priorità rispetto alle offerte &quot;always-on&quot; (come [!DNL On Demand] offerte).
+* **Priorità scala:** i mercati privati (PMP) ricevono priorità maggiore rispetto alle offerte sempre attive (ad esempio [!DNL On Demand] offerte).
 
-* **Gestione della frequenza:** Il [!DNL Roku] il limite di frequenza predefinito è uno (1) annuncio per 30 minuti per utente, ma puoi personalizzare il limite per ora, giorno, settimana, mese o intero periodo di volo.<!-- Within the DSP placement settings? NO - you negotiate this with Roku, but Christine to confirm with Amanda whether you should be able to edit this in placement. -->
+* **Gestione frequenza:** Il limite di frequenza predefinito di [!DNL Roku] è un (1) annuncio per 30 minuti per utente, ma puoi personalizzarlo per ora, giorno, settimana, mese o intero periodo di volo.<!-- Within the DSP placement settings? NO - you negotiate this with Roku, but Christine to confirm with Amanda whether you should be able to edit this in placement. -->
 
-* **[!DNL Roku]Targeting dei dati:** [!DNL Roku] i tipi di pubblico sono creati da [!DNL Roku] segnali di dispositivi e TV, dati tracciati da [!DNL The Roku Channel] (ad esempio affinità tra i generi TV, comportamento TV in streaming e stato dell&#39;abbonamento via cavo) e dati aggiuntivi provenienti da [!DNL Roku] sistema CRM (Customer Relationship Management).
+* Targeting dati **[!DNL Roku]:** I tipi di pubblico [!DNL Roku] sono generati da [!DNL Roku] segnali TV e dispositivo, dati tracciati da [!DNL The Roku Channel] (ad esempio affinità per il genere TV, comportamento TV in streaming e stato di abbonamento via cavo) e dati aggiuntivi dal sistema CRM (Customer Relationship Management) [!DNL Roku].
 
-* **[!DNL Roku]Targeting dei contenuti:** Le offerte private possono essere indirizzate alle app in base al genere, all’applicazione dell’app di agli eventi di inserisce nell&#39;elenco Bloccati, stagionali e di tentpole e agli spettacoli in [!DNL The Roku Channel] solo.
+* **[!DNL Roku]Targeting dei contenuti:** Le offerte private possono essere indirizzate alle app in base al genere, all&#39;applicazione dell&#39;app, agli eventi di elenco Bloccati, agli eventi stagionali e ai tentipoli e vengono mostrate solo in [!DNL The Roku Channel].
 
-## [!DNL Roku] Posizionamenti
+## [!DNL Roku] posizionamenti
 
-Nelle campagne DSP, [creare [!DNL Roku]Posizionamenti specifici di](/help/dsp/campaign-management/placements/placement-create.md) utilizzando il tipo di posizionamento &quot;[!UICONTROL Connected TV (Roku)].&quot; Includi [!DNL Roku] posizionamenti in [!DNL Roku]pacchetti specifici con obiettivi definiti.
+Nelle campagne DSP, [crea [!DNL Roku] posizionamenti specifici](/help/dsp/campaign-management/placements/placement-create.md) utilizzando il tipo di posizionamento &quot;[!UICONTROL Connected TV (Roku)]&quot;. Includi [!DNL Roku] posizionamenti in pacchetti specifici per [!DNL Roku] con obiettivi definiti.
 
-Ogni [!DNL Roku] il posizionamento deve avere come destinazione almeno uno [!DNL Roku] offerta o sorgente. Utilizzare la corrispondenza del pubblico dell’DSP con [!DNL Roku], includi uno o più segmenti di pubblico che possano essere associati al [!DNL Roku] (opt-in) set di dati deterministici.
+Ogni posizionamento [!DNL Roku] deve avere come destinazione almeno un&#39;offerta o origine [!DNL Roku]. Per utilizzare la corrispondenza del pubblico dell&#39;DSP con [!DNL Roku], includere uno o più segmenti di pubblico che possono essere associati al set di dati deterministico [!DNL Roku] (consenso).
 
-### [!DNL Roku]- Fornitori di tracciamento di terze parti approvati
+### [!DNL Roku] fornitori di tracciamento terze parti approvati
 
-[!DNL Roku] i posizionamenti possono includere pixel evento di terze parti e pixel di conversione dei seguenti fornitori:  [!DNL Acxiom], [!DNL Comscore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk], e [!DNL Research Now].
+I posizionamenti [!DNL Roku] possono includere pixel evento di terze parti e pixel di conversione dei seguenti fornitori: [!DNL Acxiom], [!DNL Comscore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk] e [!DNL Research Now].
 
 ### Best practice per strategia di posizionamento
 
-Di seguito sono riportate le procedure consigliate per [!DNL Roku]posizionamenti specifici di.
+Di seguito sono riportate le procedure consigliate per i posizionamenti specifici di [!DNL Roku].
 
 Per massimizzare la portata incrementale:
 
-* Elimina i tipi di pubblico esposti [!DNL Roku O&O] escludendo i tipi di pubblico già raggiunti tramite [!DNL The Roku Channel].
+* Elimina i tipi di pubblico esposti in [!DNL Roku O&O] escludendo quelli già raggiunti con [!DNL The Roku Channel].
 
-* Elimina i tipi di pubblico esposti [!DNL All Roku] escludendo i tipi di pubblico già raggiunti in tutto il [!DNL Roku] piattaforma.
+* Elimina i tipi di pubblico esposti su [!DNL All Roku] escludendo quelli già raggiunti nella piattaforma [!DNL Roku].
 
 Per la configurazione più veloce:
 
-* Offerte mirate e sempre attive per [!DNL The Roku Channel] in [[!DNL On Demand] Inventario](/help/dsp/inventory/on-demand-inventory-subscribe.md) per accedere rapidamente [!DNL Roku] scorte possedute e gestite.
-* Offerte mirate e sempre attive per [!DNL Roku Network] in [[!DNL On Demand] Inventario](/help/dsp/inventory/on-demand-inventory-subscribe.md) per raggiungere rapidamente la scalabilità [!DNL Roku] piattaforma.
+* Effettua il targeting delle offerte esistenti e sempre attive per [!DNL The Roku Channel] in [[!DNL On Demand] Inventario](/help/dsp/inventory/on-demand-inventory-subscribe.md) per accedere rapidamente a [!DNL Roku] inventario posseduto e gestito.
+* Effettua il targeting delle offerte sempre attive per [!DNL Roku Network] in [[!DNL On Demand] Inventario](/help/dsp/inventory/on-demand-inventory-subscribe.md) per ottenere rapidamente la scalabilità nella piattaforma [!DNL Roku].
 
 Alla scala massima:
 
-* Personalizzare una [!DNL Roku] marketplace privato per accesso prioritario a [!DNL Roku] fornitura a un prezzo negoziato.
+* Personalizzare un marketplace privato [!DNL Roku] per l&#39;accesso prioritario alla fornitura [!DNL Roku] a un prezzo negoziato.
 
 >[!MORELIKETHIS]
 >
 >* [Crea manualmente dettagli ID offerta](/help/dsp/inventory/deal-id-create.md)
-> * [Iscriviti e richiedi accesso a [!DNL On Demand] Offerte di magazzino Premium](/help/dsp/inventory/on-demand-inventory-subscribe.md)
->* [Creare un posizionamento](/help/dsp/campaign-management/placements/placement-create.md)
+> * [Abbonati e richiedi l&#39;accesso alle [!DNL On Demand] Offerte di magazzino Premium](/help/dsp/inventory/on-demand-inventory-subscribe.md)
+>* [Crea un posizionamento](/help/dsp/campaign-management/placements/placement-create.md)

@@ -20,30 +20,30 @@ Visualizza le azioni consigliate per un consiglio dell’editore e la spiegazion
 >
 >Anche se i consigli ti aiutano a migliorare le prestazioni della campagna, alcuni potrebbero non allinearsi agli obiettivi più ampi. Di conseguenza, è meglio consultare il team del tuo account Adobe prima di implementare qualsiasi consiglio.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
 
 1. In alto a destra, seleziona la rete di annunci e l’account.
 
-   Per [!DNL Microsoft Advertising] account, il [!UICONTROL Recommendations] per l’account sono elencati per impostazione predefinita.
+   Per gli account [!DNL Microsoft Advertising], i [!UICONTROL Recommendations] per l&#39;account sono elencati per impostazione predefinita.
 
 1. (Facoltativo) Filtra i consigli per categoria e tipo.
 
-1. In [!UICONTROL Actions] per la riga consigli o approfondimento, fai clic su **[!UICONTROL View]**.
+1. Nella colonna [!UICONTROL Actions] per la riga di consigli o approfondimenti, fare clic su **[!UICONTROL View]**.
 
-1. (Recommendations con raccomandazioni secondarie) Fai clic su **[!UICONTROL View]** accanto al sotto-consiglio.
+1. (Recommendations con consigli secondari) Fare clic su **[!UICONTROL View]** accanto al consiglio secondario.
 
 1. (Facoltativo) Effettuate una delle seguenti operazioni:
 
-   * Per applicare un consiglio, fai clic su **[!UICONTROL Apply]**.
+   * Per applicare un consiglio, fare clic su **[!UICONTROL Apply]**.
 
      L’applicazione di un consiglio può richiedere da millisecondi a pochi secondi, a seconda delle dimensioni del consiglio.
 
-   * Per ignorare un consiglio, fai clic su **[!UICONTROL Dismiss]**.
+   * Per ignorare un consiglio, fare clic su **[!UICONTROL Dismiss]**.
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni sul supporto di consigli e approfondimenti per gli editori](recommendation-support.md)
->* [Visualizza i consigli dell’editore e informazioni sulle prestazioni](recommendation-view.md)
->* [Visualizzare il registro dei consigli dell’editore per un account](recommendation-view-log.md)
->* [Best practice per l’utilizzo dei consigli degli editori con i portfolio](recommendation-best-practices.md)
+>* [Visualizza i consigli dell&#39;editore e informazioni sulle prestazioni](recommendation-view.md)
+>* [Visualizza il registro dei consigli dell&#39;editore per un account](recommendation-view-log.md)
+>* [Best practice per l&#39;utilizzo dei consigli degli editori con i portfolio](recommendation-best-practices.md)
 

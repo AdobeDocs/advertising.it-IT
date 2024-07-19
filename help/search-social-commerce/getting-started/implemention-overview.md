@@ -1,16 +1,16 @@
 ---
-title: Panoramica sull’implementazione di Search, Social e Commerce
+title: Panoramica dell’implementazione di Search, Social e Commerce
 description: Scopri
-exl-id: 31a4cd6f-8b02-4762-8e68-c9f377389935
+exl-id: c99dc029-81e4-4416-89b1-7cf8d66658b2
 feature: Search Getting Started
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '820'
 ht-degree: 0%
 
 ---
 
-# Panoramica sull’implementazione di Search, Social e Commerce
+# Panoramica dell’implementazione di Search, Social e Commerce
 
 [!DNL Adobe] o una delle sue agenzie affiliate collabora con ogni inserzionista per lanciare i suoi portfolio di pubblicità online e per tenere traccia di eventuali campagne pubblicitarie aggiuntive. Dopo il lancio iniziale, ulteriori attività continuative garantiscono che gli obiettivi dell&#39;inserzionista continueranno a essere raggiunti.
 
@@ -18,7 +18,7 @@ Di seguito è riportato il flusso di lavoro generale per l’implementazione e l
 
 ## Lancio iniziale
 
-[!DNL Adobe] e/o l’agenzia collabora con l’utente per eseguire le seguenti operazioni:
+[!DNL Adobe] e/o l&#39;agenzia di lavoro dell&#39;utente eseguono le seguenti operazioni:
 
 1. Valuta i tuoi obiettivi aziendali di alto livello e progetta strategie per raggiungerli:
 
@@ -46,11 +46,11 @@ Di seguito è riportato il flusso di lavoro generale per l’implementazione e l
 
      Per informazioni dettagliate sulla configurazione delle campagne di ricerca, consulta il capitolo della guida su &quot;Campaign Management&quot;.
 
-1. Imposta il tracciamento per tutti gli annunci per i quali desideri che Adobi Advertising tenga traccia delle conversioni:
+1. Imposta il tracciamento per tutti gli annunci per i quali desideri che Adobe Advertising tenga traccia delle conversioni:
 
-   1. (Se necessario) Imposta il tracciamento dei clic per gli annunci e, facoltativamente, per le parole chiave, [!DNL Google Ads] posizionamenti e [!DNL Google Ads] mediante la generazione e il caricamento di URL di tracciamento dei clic.
+   1. (Se necessario) Configura il tracciamento dei clic per gli annunci e, facoltativamente, per le parole chiave, i posizionamenti [!DNL Google Ads] e le estensioni [!DNL Google Ads], generando e caricando gli URL di tracciamento dei clic.
 
-      Gli URL di tracciamento dei clic per gli inserzionisti con il servizio di tracciamento delle conversioni basato su pixel di Adobe Advertising includono un reindirizzamento a [!DNL Adobe] server.
+      Gli URL di tracciamento dei clic per gli inserzionisti con il servizio di tracciamento delle conversioni basato su pixel di Adobe Advertising includono un reindirizzamento ai server [!DNL Adobe].
 
    1. Imposta il tracciamento delle conversioni. A seconda dell’implementazione, potrebbe essere necessario aggiungere tag di tracciamento delle conversioni alle pagine web appropriate e/o impostare un rilascio di feed giornaliero per i dati di conversione raccolti utilizzando un metodo personalizzato.
 
@@ -58,13 +58,13 @@ Di seguito è riportato il flusso di lavoro generale per l’implementazione e l
 
 1. Configurare le integrazioni con prodotti aggiuntivi:
 
-   1. (Per gli inserzionisti che fanno uso di Adobe Analytics e/o Adobe Audience Manager) Configura integrazioni tra i vari account in modo che Adobi Advertising possa scambiare dati con loro.
+   1. (Per gli inserzionisti che fanno uso di Adobe Analytics e/o Adobe Audience Manager) Configura integrazioni tra i vari account in modo che Adobe Advertising possa scambiare dati con loro.
 
       Consulta la guida su &quot;[Integrazioni con Experience Cloud](/help/integrations/home.md).&quot;
 
-   1. (Per gli inserzionisti che [!DNL Google Analytics]a) Sincronizzare le metriche di conversione per un [!DNL Google Analytics] combinazione di account, proprietà e visualizzazione per l&#39;ottimizzazione e il reporting.
+   1. (Inserzionisti con [!DNL Google Analytics]) Sincronizza le metriche di conversione per un account [!DNL Google Analytics], una proprietà e una combinazione di visualizzazioni per l&#39;ottimizzazione e il reporting.
 
-      Consulta il sottocapitolo della guida &quot;Amministratore&quot; > &quot;[Configurazione delle origini dati](/help/search-social-commerce/admin/data-sources/data-source-about.md).&quot;
+      Vedere il sottocapitolo della Guida &quot;Amministratore&quot; > &quot;[Configurazione delle origini dati](/help/search-social-commerce/admin/data-sources/data-source-about.md).&quot;
 
 1. Configurare e avviare i portfolio:
 
@@ -72,11 +72,11 @@ Di seguito è riportato il flusso di lavoro generale per l’implementazione e l
 
       >[!NOTE]
       >
-      >Search, Social e Commerce tiene comunque traccia dei dati e li segnala per le campagne non assegnate a portfolio, ma non ottimizza le offerte per esse.
+      >Search, Social e Commerce tengono comunque traccia dei dati e li segnalano per le campagne non assegnate a portfolio, ma non ottimizzano le offerte per esse.
 
-   1. Una volta che i dati sono sufficienti per creare una linea di base, il team può avviare il portfolio, consentendo a Search, Social e Commerce di ottimizzare offerte e/o budget per il portfolio, in base al tipo di ottimizzazione.
+   1. Una volta che sono disponibili dati sufficienti per creare una linea di base, il team può avviare il portfolio, consentendo a Search, Social e Commerce di ottimizzare offerte e/o budget per il portfolio, in base al tipo di ottimizzazione.
 
-   Per informazioni dettagliate sulla configurazione e sul lancio dei portfolio, consulta la guida in linea di &quot;Ottimizzazione&quot;, accessibile dal [!UICONTROL Help] menu (![Menu Aiuto](/help/search-social-commerce/assets/help-main-menu.png "Menu Aiuto")) in alto a destra nelle pagine di Search, Social e Commerce.
+   Per informazioni dettagliate sulla configurazione e l&#39;avvio dei portfolio, vedere la Guida in linea relativa all&#39;ottimizzazione, disponibile nel menu [!UICONTROL Help] (![Menu Guida](/help/search-social-commerce/assets/help-main-menu.png "Menu Guida")) in alto a destra di qualsiasi pagina di Search, Social e Commerce.
 
 1. Monitora le prestazioni dei portfolio:
 
@@ -86,11 +86,11 @@ Di seguito è riportato il flusso di lavoro generale per l’implementazione e l
 
    Per informazioni dettagliate sull’esecuzione di informazioni sulla pubblicità e sulla configurazione dei rapporti, consulta il capitolo della guida su &quot;Approfondimenti e rapporti&quot;.
 
-1. (Facoltativo) Configura il [visualizzazioni dati delle prestazioni](/help/search-social-commerce/common-tasks/data-views/data-views-about.md) per visualizzare i dati che si desidera visualizzare.
+1. (Facoltativo) Configura le [visualizzazioni dati delle prestazioni](/help/search-social-commerce/common-tasks/data-views/data-views-about.md) per visualizzare i dati che desideri visualizzare.
 
 ## Attività in corso
 
-Dopo il lancio iniziale, sono necessarie le seguenti attività in corso. A seconda dei termini del tuo contratto, [!DNL Adobe], un&#39;agenzia affiliata o l&#39;inserzionista svolge i seguenti compiti:
+Dopo il lancio iniziale, sono necessarie le seguenti attività in corso. A seconda dei termini del tuo contratto, [!DNL Adobe], un&#39;agenzia affiliata o l&#39;inserzionista esegue le seguenti attività:
 
 * Continua a monitorare e analizzare le prestazioni di ciascun portfolio visualizzando avvisi, dati sulle prestazioni per ciascun portfolio e le relative campagne dei componenti, rapporti personalizzabili e simulazioni (alcuni ruoli).
 
@@ -108,4 +108,4 @@ Dopo il lancio iniziale, sono necessarie le seguenti attività in corso. A secon
 
    * Aggiungere nuovi portfolio.
 
-Per istruzioni sul monitoraggio dei portfolio e sull&#39;adeguamento delle strategie di portfolio, vedere il sottocapitolo della guida &quot;Ottimizzazione&quot; > &quot;Gestione dei Portfoli&quot; > &quot;Monitoraggio e gestione delle prestazioni&quot;, disponibile nella [!UICONTROL Help] menu (![Menu Aiuto](/help/search-social-commerce/assets/help-main-menu.png "Menu Aiuto")) in alto a destra nelle pagine di Search, Social e Commerce.
+Per istruzioni sul monitoraggio dei portfolio e sulla regolazione delle strategie di portfolio, vedere il sottocapitolo della Guida &quot;Ottimizzazione&quot; > &quot;Gestione dei Portfoli&quot; > &quot;Monitoraggio e gestione delle prestazioni&quot;, disponibile nel menu [!UICONTROL Help] (![Menu Guida](/help/search-social-commerce/assets/help-main-menu.png "Menu Guida")) in alto a destra di qualsiasi pagina di Search, Social &amp; Commerce.

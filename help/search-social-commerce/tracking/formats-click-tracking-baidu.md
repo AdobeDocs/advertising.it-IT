@@ -1,9 +1,9 @@
 ---
-title: Formati di tracciamento dei clic per [!DNL Baidu]
-description: Scopri i formati di tracciamento dei clic per [!DNL Baidu] account.
-exl-id: a57ff0cf-0bcf-4d55-9a86-7551db8a08e7
+title: Formati di tracciamento dei clic per  [!DNL Baidu]
+description: Scopri i formati di tracciamento dei clic per  [!DNL Baidu]  account.
+exl-id: 4f4ed518-aa25-4a29-b263-c01f78b69b92
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 0%
@@ -22,13 +22,13 @@ Esempio:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` è una variabile per l’ID univoco dell’inserzionista in Adobi Advertising.
+>* `<advertiser_ID>` è una variabile per l&#39;ID univoco dell&#39;inserzionista in Adobe Advertising.
 >
 >* Questo formato indica che il passaggio del token è abilitato per la campagna (impostazione predefinita). Se il passaggio del token è disabilitato, sostituire `cq?` dopo `<advertiser_ID>` con `c?`.
 >
->* `<campaignID>` è una variabile per l’ID numerico della campagna.
+>* `<campaignID>` è una variabile per l&#39;ID numerico della campagna.
 >
->* `<the landing page>` è una variabile che rappresenta l’URL sul sito a cui vengono indirizzati gli utenti finali.
+>* `<the landing page>` è una variabile che rappresenta l&#39;URL del sito a cui sono indirizzati gli utenti finali.
 
 >[!MORELIKETHIS]
 >

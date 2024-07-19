@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Domande frequenti sui video universali
 
-[Annunci video universali](/help/dsp/campaign-management/ads/ad-about.md#ad-types) consente di eseguire il targeting dell’inventario video dagli ambienti desktop, mobili e TV connessi per l’inventario VPAID e VAST utilizzando un singolo posizionamento video.
+[Annunci video universali](/help/dsp/campaign-management/ads/ad-about.md#ad-types) consente di eseguire il targeting dell&#39;inventario video dagli ambienti desktop, mobile e TV connessi per l&#39;inventario VPAID e VAST utilizzando un unico posizionamento video.
 
 ## Come si creano posizionamenti video e annunci universali?
 
@@ -20,25 +20,25 @@ I posizionamenti video universali possono contenere solo annunci video universal
 
 Crea posizionamenti e annunci video universali in modo simile a come si creano altri tipi di posizionamenti e video:
 
-1. Nella campagna desiderata, [creare un posizionamento video universale](/help/dsp/campaign-management/placements/placement-create.md), selezionando la [!UICONTROL Placement Type] **[!UICONTROL Universal Video]**.
+1. Nella campagna desiderata, [crea un posizionamento video universale](/help/dsp/campaign-management/placements/placement-create.md), selezionando [!UICONTROL Placement Type] **[!UICONTROL Universal Video]**.
 
    È necessario specificare almeno un ambiente (Desktop, Mobile, Connected TV) per la destinazione.
 
-1. Nella stessa campagna del posizionamento video universale, [creare un singolo annuncio video universale](/help/dsp/campaign-management/ads/ad-create.md) o [creare più annunci video universali](/help/dsp/campaign-management/ads/ad-create-multiple.md).
+1. Nella stessa campagna del posizionamento video universale, [crea un singolo annuncio video universale](/help/dsp/campaign-management/ads/ad-create.md) o [crea più annunci video universali](/help/dsp/campaign-management/ads/ad-create-multiple.md).
 
    Se crei più annunci, assicurati di specificare &quot;[!UICONTROL Universal Video]&quot; come [!UICONTROL Ad Type]:
 
-   * Per [!DNL Google] o [!DNL Flashtalking] annunci: nel &quot;[!UICONTROL Review ad types]&quot; dopo aver caricato il file, fai clic su **[!UICONTROL Ad Type]** e seleziona **[!UICONTROL Universal Video]**.
+   * Per [!DNL Google] o [!DNL Flashtalking] annunci: nel passaggio &quot;[!UICONTROL Review ad types]&quot; dopo aver caricato il file, fai clic sul campo **[!UICONTROL Ad Type]** e seleziona **[!UICONTROL Universal Video]**.
 
-   * Per altri tipi di tag annuncio: all’interno del file del foglio di calcolo che carichi, specifica il campo Tipo annuncio per ogni annuncio come **[!UICONTROL Universal Video]**.
+   * Per altri tipi di tag annuncio: all&#39;interno del file del foglio di calcolo caricato, specifica il campo Tipo annuncio per ogni annuncio come **[!UICONTROL Universal Video]**.
 
-1. [Apri le impostazioni dell’annuncio](/help/dsp/campaign-management/ads/ad-edit.md) per ogni nuovo annuncio e seleziona il formato video applicabile:
+1. [Apri le impostazioni dell&#39;annuncio](/help/dsp/campaign-management/ads/ad-edit.md) per ogni nuovo annuncio e seleziona il formato video applicabile:
 
    * **[!UICONTROL VPAID]:** La visibilità viene sempre misurata.
-   * **[!UICONTROL VPAID & VAST (Default)]:** Include l&#39;inventario che non consente la misurazione della visualizzabilità.
-   * **[!UICONTROL VAST]** - Adatto per l&#39;inventario di televisori collegati.
+   * **[!UICONTROL VPAID & VAST (Default)]:** Include un inventario che non consente la misurazione della visualizzabilità.
+   * **[!UICONTROL VAST]** - Adatto per l&#39;inventario TV connessa.
 
-   Consulta &quot;[Impostazioni annuncio video universale](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)&quot; per ulteriori informazioni.
+   Per ulteriori informazioni, consulta &quot;[Impostazioni annuncio video universale](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)&quot;.
 
 1. [Allega i nuovi annunci video universali](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) al posizionamento video universale.
 
@@ -46,7 +46,7 @@ Crea posizionamenti e annunci video universali in modo simile a come si creano a
 
 Gli obiettivi incompatibili con i posizionamenti TV connessi standard, ad esempio il costo inferiore per clic, non sono supportati per l’ambiente TV connesso nei posizionamenti video universali. Analogamente, non è possibile selezionare pacchetti con obiettivi di ottimizzazione incompatibili.
 
-## Quando deve essere **[!UICONTROL VAST]** il formato video deve essere utilizzato per gli annunci video universali?
+## Quando utilizzare il formato video **[!UICONTROL VAST]** per gli annunci video universali?
 
 Utilizzare **[!UICONTROL VAST]** in uno dei seguenti scenari:
 

@@ -18,11 +18,11 @@ I rapporti di diagnostica possono essere utili per diagnosticare i problemi rela
 
 ## Informazioni nei report di diagnostica del posizionamento
 
-* **[!UICONTROL Change Log]:** Mostra le modifiche alle impostazioni di posizionamento chiave, come il nome, lo stato e l’offerta massima. Ogni voce include la data e il nome utente della persona che ha apportato la modifica.
+* **[!UICONTROL Change Log]:** mostra le modifiche alle impostazioni di posizionamento chiave, ad esempio il nome, lo stato e l&#39;offerta massima. Ogni voce include la data e il nome utente della persona che ha apportato la modifica.
 
-* **[!UICONTROL Ad Approvals]:** Mostra se gli annunci sono stati approvati o rifiutati dai provider di inventario. Facoltativamente, puoi modificare lo stato di un annuncio (ad esempio, mettere in pausa un annuncio rifiutato) o aprire le impostazioni dell’annuncio.
+* **[!UICONTROL Ad Approvals]:** Indica se gli annunci sono stati approvati o rifiutati dai provider di inventario. Facoltativamente, puoi modificare lo stato di un annuncio (ad esempio, mettere in pausa un annuncio rifiutato) o aprire le impostazioni dell’annuncio.
 
-* **[!UICONTROL Non Bids]:** Mostra il motivo per cui l&#39;DSP non ha fatto un&#39;offerta per il posizionamento.
+* **[!UICONTROL Non Bids]:** mostra il motivo per cui l&#39;DSP non ha fatto un&#39;offerta per il posizionamento.
 
 ## Aprire i report di diagnostica posizionamento
 
@@ -30,11 +30,11 @@ I rapporti di diagnostica possono essere utili per diagnosticare i problemi rela
 
    1. Apri le impostazioni di posizionamento:
 
-      1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
+      1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 
-      1. Fai clic sul nome della campagna, quindi fai clic su **[!UICONTROL Placements]**.
+      1. Fare clic sul nome della campagna e quindi su **[!UICONTROL Placements]**.
 
-      1. Accanto al nome del posizionamento, fate clic su  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+      1. Accanto al nome del posizionamento, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
    1. In alto a destra, fai clic su ![Diagnostica posizionamento](/help/dsp/assets/placement-diagnostics.png).
 
@@ -42,11 +42,11 @@ I rapporti di diagnostica possono essere utili per diagnosticare i problemi rela
 
    * Per visualizzare il registro delle modifiche:
 
-      1. Clic **[!UICONTROL Change Log]**.
+      1. Fare clic su **[!UICONTROL Change Log]**.
 
       1. (Facoltativo) Filtra i risultati del rapporto:
 
-         * Nel menu data, modificare il periodo del rapporto dal valore predefinito Ultimi 14 giorni a un altro periodo (*[!UICONTROL Last 30 days],* *[!UICONTROL Last 60 days],* *[!UICONTROL Last 90 days],* o *[!UICONTROL Last 1 year]*).
+         * Nel menu data modificare il periodo del report da Ultimi 14 giorni predefinito a un altro periodo (*[!UICONTROL Last 30 days],* *[!UICONTROL Last 60 days],* *[!UICONTROL Last 90 days],* o *[!UICONTROL Last 1 year]*).
 
          * Nel menu a sinistra, filtra il rapporto in base a un nome utente specifico.
 
@@ -54,15 +54,15 @@ I rapporti di diagnostica possono essere utili per diagnosticare i problemi rela
 
    * Per visualizzare lo stato delle approvazioni di annunci:
 
-      1. In alto a destra, fai clic su **[!UICONTROL Ad Approvals]**.
+      1. In alto a destra, fare clic su **[!UICONTROL Ad Approvals]**.
 
-      1. (Facoltativo) Per mettere in pausa o attivare l’annuncio, fai clic sull’interruttore di stato (![Interruttore di stato](/help/dsp/assets/status-switch.png)) nella colonna Annuncio).
+      1. (Facoltativo) Per mettere in pausa o attivare l&#39;annuncio, fare clic sull&#39;opzione di stato (![Opzione di stato](/help/dsp/assets/status-switch.png)) nella colonna Annuncio.
 
-      1. (Facoltativo) Per aprire le impostazioni di un annuncio, fai clic su **[!UICONTROL View Ad]** accanto all’annuncio.
+      1. (Facoltativo) Per aprire le impostazioni di un annuncio, fare clic su **[!UICONTROL View Ad]** accanto all&#39;annuncio.
 
    * Per capire perché l&#39;DSP non ha fatto un&#39;offerta per il posizionamento:
 
-      1. In alto a destra, fai clic su **[!UICONTROL Non Bids]**.
+      1. In alto a destra, fare clic su **[!UICONTROL Non Bids]**.
 
       1. (Facoltativo) Per modificare l’intervallo di date, fai clic nel campo data e seleziona una data o un intervallo di date diverso.
 
@@ -70,6 +70,6 @@ I rapporti di diagnostica possono essere utili per diagnosticare i problemi rela
 
 >[!MORELIKETHIS]
 >
->* [Tipi di rapporti sulle prestazioni nelle visualizzazioni di Campaign Management](campaign-reports-about.md)
+>* [Tipi di report sulle prestazioni nelle visualizzazioni di Campaign Management](campaign-reports-about.md)
 >* [Visualizza il rapporto Previsione posizionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
->* [Impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [Impostazioni posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)

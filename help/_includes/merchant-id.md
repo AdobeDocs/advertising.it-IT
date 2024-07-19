@@ -7,6 +7,6 @@ ht-degree: 0%
 ---
 # Campo ID commerciante nelle impostazioni della campagna acquisti GGL e MS nella griglia e nei modelli ACM
 
-**[!UICONTROL Merchant ID]:** (Campagne commerciali e campagne di pubblico collegate solo a un feed esercente) L’ID cliente dell’account esercente i cui prodotti vengono utilizzati per la campagna.
+**[!UICONTROL Merchant ID]:** (campagne acquisti e campagne pubblico collegate solo a un feed esercente) ID cliente dell&#39;account esercente i cui prodotti vengono utilizzati per la campagna.
 
-Per [!DNL Microsoft Advertising] campagne del pubblico collegate a un negozio di centro commerciale, seleziona la [!UICONTROL Merchant ID] dall’elenco di tutti gli store collegati all’account di ricerca. Una volta collegata la campagna a un negozio e salvate le impostazioni, non puoi modificare questa opzione.
+Per [!DNL Microsoft Advertising] campagne di pubblico collegate a un negozio di centro commerciale, seleziona [!UICONTROL Merchant ID] dall&#39;elenco di tutti gli store collegati all&#39;account di ricerca. Una volta collegata la campagna a un negozio e salvate le impostazioni, non puoi modificare questa opzione.

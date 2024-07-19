@@ -1,6 +1,6 @@
 ---
-title: '''[!DNL Microsoft Ads] impostazioni del modello di annuncio acquisti per i feed inventario'
-description: Fai riferimento alle impostazioni per [!DNL Microsoft Ads] modelli di annunci commerciali per i feed di inventario.
+title: '[!DNL Microsoft Ads] impostazioni del modello di annuncio acquisti per i feed inventario'
+description: Fai riferimento alle impostazioni per  [!DNL Microsoft Ads] modelli di annunci per acquisti per feed inventario.
 exl-id: a0dd6542-0516-406a-b8c5-2e102ec7ab3d
 feature: Search Inventory Feeds
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -16,7 +16,7 @@ Utilizza i modelli di annunci di acquisto per configurare gli annunci di acquist
 
 >[!NOTE]
 >
->* I seguenti caratteri sono riservati per la designazione di nomi di colonna e nomi di modificatori nel modello e pertanto non sono consentiti come testo in tutti i campi attributo:  `[ ] < > `
+>* I caratteri seguenti sono riservati per la designazione di nomi di colonna e nomi di modificatori nel modello e pertanto non sono consentiti come testo in tutti i campi attributo: `[ ] < > `
 
 
 ## \[Sopra tutte le schede\]
@@ -57,13 +57,13 @@ Utilizza i modelli di annunci di acquisto per configurare gli annunci di acquist
 
 {{$include /help/_includes/inventory-feed-template-shopping-campaign-map-method.md}}
 
-**[!UICONTROL Campaign Tracking Template]:** (Facoltativo per i modelli per i file di feed client) Il modello di tracciamento a livello di campagna, che specifica tutti i reindirizzamenti del dominio di destinazione e i parametri di tracciamento e incorpora l’URL finale in un parametro. Questo valore sovrascrive l’impostazione a livello di account, ma i modelli di tracciamento a livelli più granulari (con la parola chiave come più granulare) sovrascrivono questo valore.
+**[!UICONTROL Campaign Tracking Template]:** (Facoltativo per i modelli per i file di feed client) Il modello di tracciamento a livello di campagna, che specifica tutti i reindirizzamenti e i parametri di tracciamento del dominio non di destinazione e incorpora l&#39;URL finale in un parametro. Questo valore sovrascrive l’impostazione a livello di account, ma i modelli di tracciamento a livelli più granulari (con la parola chiave come più granulare) sovrascrivono questo valore.
 
-* Ad Adobe Advertising, il tracciamento delle conversioni, che viene applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload],&quot; eseguire una delle operazioni seguenti&quot;:
+* Ad Adobe Advertising, il tracciamento delle conversioni, applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, eseguire una delle operazioni seguenti:&quot;
 
-   * (Consigliato) Utilizza il [formato del modello di tracciamento per le campagne di acquisto Microsoft](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). Se l’intero account è dedicato agli annunci commerciali, puoi invece definire un modello di tracciamento a livello di account.
+   * (Consigliato) Utilizza il formato del modello di tracciamento [per le campagne acquisti Microsoft](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). Se l’intero account è dedicato agli annunci commerciali, puoi invece definire un modello di tracciamento a livello di account.
 
-   * Se invece includi un valore per ciascun prodotto nel feed utilizzando il comando &quot;[!DNL bingads_redirect]&quot; (utilizzando la [formato corretto](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)), quindi inserisci il parametro `{lpurl}`. Facoltativamente, puoi aggiungere reindirizzamenti di terze parti e il tracciamento al `{lpurl}` parametro.
+   * Se invece si include un valore per ogni prodotto nel feed utilizzando la colonna &quot;[!DNL bingads_redirect]&quot; (utilizzando il [formato corretto](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)), immettere il parametro `{lpurl}`. Facoltativamente, puoi aggiungere reindirizzamenti e tracciamento di terze parti al parametro `{lpurl}`.
 
 * Per reindirizzamenti e tracciamento di terze parti, inserisci un valore.
 
@@ -71,9 +71,10 @@ Utilizza i modelli di annunci di acquisto per configurare gli annunci di acquist
 
 {{$include /help/_includes/final-url-suffix.md}}
 
-**[!UICONTROL Merchant ID]:** ID cliente dell’account esercente i cui prodotti vengono utilizzati per la campagna.
+**[!UICONTROL Merchant ID]:** ID cliente dell&#39;account esercente i cui prodotti vengono utilizzati per la campagna.
 
-**[!UICONTROL Sales Country]:** Il paese in cui vengono venduti i prodotti della campagna. Poiché i prodotti sono associati ai paesi di destinazione, questa impostazione determina quali prodotti vengono pubblicizzati nella campagna.
+**[!UICONTROL Sales Country]:** Il paese in cui vengono venduti i prodotti della campagna. Perché i prodotti sono associati
+con i paesi di destinazione, questa impostazione determina quali prodotti vengono pubblicizzati nella campagna.
 
 <!-- **[!UICONTROL Stock Level]:** -->
 
@@ -97,7 +98,9 @@ Utilizza i modelli di annunci di acquisto per configurare gli annunci di acquist
 
 {{$include /help/_includes/inventory-feed-template-campaign-initial-budget.md}}
 
-**[!UICONTROL Campaign Priority]:** La priorità con cui viene utilizzata la campagna quando più campagne pubblicizzano lo stesso prodotto: *[!UICONTROL Low]* (impostazione predefinita per le nuove campagne), *[!UICONTROL Medium]*, o *[!UICONTROL High]*. Se lo stesso prodotto è incluso in più campagne, il network pubblicitario utilizza per prima cosa la priorità della campagna per determinare quale campagna (e l’offerta associata) è idonea per l’asta degli annunci. Se tutte le campagne hanno la stessa priorità, la campagna con l’offerta più elevata è idonea.
+**[!UICONTROL Campaign Priority]:** La priorità con cui viene utilizzata la campagna quando più campagne pubblicizzano
+stesso prodotto: *[!UICONTROL Low]* (impostazione predefinita per le nuove campagne), *[!UICONTROL Medium]* o *[!UICONTROL High]*. Quando lo stesso prodotto è incluso in più campagne, la rete di annunci utilizza
+la priorità della campagna per determinare quale campagna (e l’offerta associata) è idonea per l’asta pubblicitaria. Se tutte le campagne hanno la stessa priorità, la campagna con l’offerta più elevata è idonea.
 
 <!-- **[!UICONTROL Locations]:** -->
 
@@ -117,7 +120,7 @@ Utilizza i modelli di annunci di acquisto per configurare gli annunci di acquist
 
 {{$include /help/_includes/inventory-feed-template-ad-group-map-method.md }}
 
-**[!UICONTROL Ad Group Tracking Template]:** (Facoltativo) Un modello di tracciamento a livello di gruppo di annunci, che specifica tutti i reindirizzamenti e i parametri di tracciamento del dominio di destinazione finale e incorpora l’URL finale in un parametro. Questo valore sostituisce le impostazioni a livello di account e di campagna, ma i modelli di tracciamento a livelli più granulari sostituiscono questo valore.
+**[!UICONTROL Ad Group Tracking Template]:** (facoltativo) modello di tracciamento a livello di gruppo di annunci che specifica tutti i reindirizzamenti e i parametri di tracciamento del dominio di destinazione e incorpora l&#39;URL finale in un parametro. Questo valore sostituisce le impostazioni a livello di account e di campagna, ma i modelli di tracciamento a livelli più granulari sostituiscono questo valore.
 
 Ad Adobe Advertising, il tracciamento delle conversioni non richiede l’immissione di un valore. Il valore a livello di campagna è sufficiente.
 
@@ -139,7 +142,7 @@ Per reindirizzamenti e tracciamento di terze parti, inserisci un valore.
 
 ## [!UICONTROL Product Groups]
 
-**[!UICONTROL Tier 1]:** Il gruppo di prodotti predefinito completo, &quot;[!UICONTROL All products].&quot; Non puoi eliminare questo gruppo di prodotti principale, ma viene eliminato automaticamente quando tutti i livelli inferiori non sono presenti nel feed.
+**[!UICONTROL Tier 1]:** Il gruppo di prodotti predefinito, completo, &quot;[!UICONTROL All products]&quot;. Non puoi eliminare questo gruppo di prodotti principale, ma viene eliminato automaticamente quando tutti i livelli inferiori non sono presenti nel feed.
 
 <!-- **[!UICONTROL Tier 2 - Tier 8]:** -->
 
@@ -149,13 +152,14 @@ Per reindirizzamenti e tracciamento di terze parti, inserisci un valore.
 
 {{$include /help/_includes/inventory-feed-template-row-level-value.md}}
 
-**[!UICONTROL Tracking Template]:** (Unità senza gruppi di prodotti secondari; facoltativo) Il modello di tracciamento per il gruppo di prodotti, che specifica tutti i reindirizzamenti del dominio di destinazione e i parametri di tracciamento e incorpora l’URL finale in un [!DNL ValueTrack] parametro. Questo modello sostituisce i modelli di livello superiore.
+**[!UICONTROL Tracking Template]:** (unità senza gruppi di prodotti figlio; facoltativo) il modello di tracciamento per il prodotto
+gruppo, che specifica tutti i reindirizzamenti del dominio di destinazione e i parametri di tracciamento e incorpora l&#39;URL finale in un parametro [!DNL ValueTrack]. Questo modello sostituisce i modelli di livello superiore.
 
 Ad Adobe Advertising, il tracciamento delle conversioni non richiede l’immissione di un valore. Il valore a livello di campagna è sufficiente.
 
 Per reindirizzamenti e tracciamento di terze parti, inserisci un valore.
 
-**[!UICONTROL Initial Bid]:** L’offerta iniziale per ogni annuncio.
+**[!UICONTROL Initial Bid]:** L&#39;offerta iniziale per ogni annuncio.
 
 ## [!UICONTROL Feed Filters]
 
@@ -171,8 +175,8 @@ Per reindirizzamenti e tracciamento di terze parti, inserisci un valore.
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sull’automazione della gestione degli annunci tramite i feed di inventario](../inventory-feeds-about.md)
+>* [Informazioni sull&#39;automazione della gestione degli annunci tramite i feed di inventario](../inventory-feeds-about.md)
 >* [Gestione dei modificatori](../modifiers-manage.md)
->* [Gestione dei file di feed dati di inventario](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
+>* [Gestione dei file di feed dei dati di inventario](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
 >* [Propagazione dei dati di feed tramite modelli](../feed-data-propagate.md)
->* [Pubblicare i dati della campagna dai feed di inventario alle reti di annunci](../propagated-data-post.md)
+>* [Pubblica dati campagna dai feed di inventario alle reti di annunci](../propagated-data-post.md)

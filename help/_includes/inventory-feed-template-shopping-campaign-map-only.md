@@ -7,6 +7,6 @@ ht-degree: 0%
 ---
 # Modello di annuncio testuale - Solo mappa campagna
 
-**[!UICONTROL Map Only]:** (Facoltativo) Mappa tutti i nuovi gruppi di annunci (non disponibile per [!DNL Yandex]), parole chiave e annunci per le campagne esistenti, anziché creare nuove campagne. Se abiliti questa opzione, seleziona il metodo di mappatura.
+**[!UICONTROL Map Only]:** (facoltativo) esegue il mapping di tutti i nuovi gruppi di annunci (non disponibile per [!DNL Yandex]), parole chiave e annunci alle campagne esistenti, anziché creare nuove campagne. Se abiliti questa opzione, seleziona il metodo di mappatura.
 
-Utilizzo di [!UICONTROL Map Only] a livello di campagna richiede una struttura dei conti esistente che sia strettamente collegata alla tassonomia del prodotto e facilmente mappabile sul feed di dati.
+L&#39;utilizzo di [!UICONTROL Map Only] a livello di campagna richiede una struttura di account esistente strettamente correlata alla tassonomia del prodotto e facilmente mappabile al feed di dati.

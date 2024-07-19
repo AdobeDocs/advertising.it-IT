@@ -20,12 +20,12 @@ Gli elenchi a livello di inserzionista sostituiscono gli elenchi a livello di ac
 
 >[!NOTE]
 >
->* Gli elenchi bloccati a livello di account e inserzionista vengono applicati oltre all’DSP [elenco siti bloccati a livello globale](/help/dsp/introduction/features/brand-safety-media-quality.md#global-blocked-sites), che includono siti ritenuti non sicuri per gli annunci.
+>* Gli elenchi di siti bloccati a livello di account e inserzionista vengono applicati in aggiunta all&#39;elenco di siti bloccati ](/help/dsp/introduction/features/brand-safety-media-quality.md#global-blocked-sites) dell&#39;DSP [globally blocked, che include siti ritenuti non sicuri per gli annunci.
 >* Gli utenti possono anche aggiungere siti di destinazione a qualsiasi posizionamento.
 >* Gli elenchi Siti bloccati sostituiscono sempre gli elenchi Siti di destinazione. Se un posizionamento esclude e include lo stesso target per un annuncio, il target viene escluso.
 
 >[!MORELIKETHIS]
 >
->* [Modificare un elenco di siti bloccati a livello di account o di inserzionista](/help/dsp/admin/blocked-sites-list-edit.md)
+>* [Modifica un elenco di siti bloccati a livello di account o inserzionista](/help/dsp/admin/blocked-sites-list-edit.md)
 >* [Sicurezza del marchio e qualità dei contenuti multimediali](/help/dsp/introduction/features/brand-safety-media-quality.md)
->* [Impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [Impostazioni posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)

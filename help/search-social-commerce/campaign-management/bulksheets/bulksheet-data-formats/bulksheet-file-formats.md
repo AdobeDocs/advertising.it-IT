@@ -1,11 +1,11 @@
 ---
 title: Formati di file di bulksheet supportati
 description: Fare riferimento ai requisiti generali del file per i bulksheet.
-exl-id: b14aaf11-e2e9-4f7c-b6bc-831f668b93a6
+exl-id: f3daf036-8f0c-4c75-9c76-2734abd850ec
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ I file di bulksheet possono essere fino a 2,5 GB, ovvero circa 2,5 milioni di ri
 
 >[!NOTE]
 >
->Quando generi un bulksheet per più campagne e i dati combinati sono costituiti da più di 500.000 righe, i dati vengono suddivisi per campagna in due o più file, denominati `<bulksheet name>_1.tsv`, `<bulksheet name>_2.tsv`e così via.
+>Quando si genera un bulksheet per più campagne e i dati combinati sono costituiti da oltre 500.000 righe, i dati vengono suddivisi per campagna in due o più file, denominati `<bulksheet name>_1.tsv`, `<bulksheet name>_2.tsv` e così via.
 
 ## Requisiti di formattazione per diversi tipi di file
 
@@ -61,7 +61,7 @@ I campi dati nei file CSV e nei file TXT delimitati da virgole devono essere for
 
 * Eventuali campi possono essere facoltativamente racchiusi tra virgolette doppie (`""`).
 
-  Esempio:  `"Cruises","5000","Caribbean",`
+  Esempio: `"Cruises","5000","Caribbean",`
 
 * I campi con virgole incorporate devono essere racchiusi tra virgolette (`""`).
 
@@ -71,7 +71,7 @@ I campi dati nei file CSV e nei file TXT delimitati da virgole devono essere for
 
   Esempio: `Cruises,5000,Caribbean,"Customers say ""We wish we could stay forever."",`
 
-* I campi con spazi iniziali o finali devono essere racchiusi tra virgolette doppie (`""`).
+* I campi con spazi iniziali o finali devono essere racchiusi tra virgolette (`""`).
 
   Esempio: `Cruises,5000,Caribbean,"  Come see what we mean.  ",`
 
@@ -79,5 +79,5 @@ I campi dati nei file CSV e nei file TXT delimitati da virgole devono essere for
 >
 >* [Informazioni sulla gestione dei dati della campagna tramite bulksheet](../bulksheet-about.md)
 >* [Operazioni eseguibili nei bulksheet](bulksheet-operations.md)
->* [Appendice - Errori di bulksheet](../bulksheet-errors.md)
+>* [Appendice - Errori bulksheet](../bulksheet-errors.md)
 >* [Scaricare/creare un file bulksheet](../bulksheet-download.md)

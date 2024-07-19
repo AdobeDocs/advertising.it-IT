@@ -16,11 +16,11 @@ Utilizza i pacchetti per raggruppare i posizionamenti per la consegna a un budge
 
 Puoi creare i pacchetti manualmente o duplicando quelli esistenti. Puoi anche modificare e allegare posizionamenti a qualsiasi pacchetto.
 
-## Il [!UICONTROL Packages] Dashboard
+## Dashboard [!UICONTROL Packages]
 
-Il [!UICONTROL Packages] la dashboard centralizza i rapporti economici e sulle prestazioni in tutte le strategie dei pacchetti, fornendo istantanee rapide delle prestazioni dei pacchetti durante un intervallo di date specificato.
+Il dashboard di [!UICONTROL Packages] centralizza i report economici e sulle prestazioni in tutte le strategie dei pacchetti, fornendo istantanee rapide delle prestazioni dei pacchetti durante un intervallo di date specificato.
 
-![Dashboard pacchetti](/help/dsp/assets/package-dashboard.png)
+![Pacchetti dashboard](/help/dsp/assets/package-dashboard.png)
 
 La dashboard include un grafico di tendenza personalizzabile di alto livello con tre metriche.
 
@@ -34,8 +34,8 @@ Per visualizzare tutti i posizionamenti all&#39;interno di un pacchetto e le dat
 
 >[!MORELIKETHIS]
 >
->* [Creare un pacchetto](package-create.md)
->* [Modificare un pacchetto](package-edit.md)
->* [Allegare un posizionamento a un pacchetto](package-attach-placement.md)
->* [Visualizzare il registro delle modifiche di un pacchetto](package-change-log.md)
+>* [Crea pacchetto](package-create.md)
+>* [Modifica pacchetto](package-edit.md)
+>* [Allega un posizionamento a un pacchetto](package-attach-placement.md)
+>* [Visualizza il log delle modifiche per un pacchetto](package-change-log.md)
 >* [Impostazioni pacchetto](package-settings.md)

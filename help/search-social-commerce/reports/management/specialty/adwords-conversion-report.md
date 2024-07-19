@@ -1,20 +1,20 @@
 ---
 title: '[!UICONTROL AdWords Conversion Report]'
-description: Scopri di più su [!UICONTROL AdWords Conversion Report].
-exl-id: 5c9252fd-b791-421b-a5d2-1f6279d38c45
+description: Informazioni su [!UICONTROL AdWords Conversion Report].
+exl-id: a3970c96-5b6f-4f1f-981a-0253c8204a0d
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL AdWords Conversion Report]
 
-*[!DNL Google Ads]account con [!DNL Google Ads] solo ottimizzazione della conversione*
+*[!DNL Google Ads]account con [!DNL Google Ads] solo ottimizzazione conversione*
 
-Il [!UICONTROL AdWords Conversion Report] include dati su costi, clic e impression; dati di conversione per tipo di conversione tracciati da [!DNL Google Ads Conversion Optimizer]; e (facoltativamente) dati metrici derivati per uno o più account, campagne, gruppi di annunci, annunci o parole chiave. I dati vengono visualizzati solo quando [!DNL Google Ads Conversion Optimizer] è abilitato nelle impostazioni di offerta della campagna (e quindi Search, Social &amp; Commerce non sta ottimizzando le offerte per la campagna). Per impostazione predefinita, i dati includono una riga per ogni conversione per ogni parola chiave applicabile per ogni unità di tempo nell’intervallo di date specificato. Le righe sono in ordine crescente per nome del gruppo di annunci e quindi per parola chiave per impostazione predefinita. Il rapporto non include dati su costi, clic o impression né dati di conversione tracciati da [!DNL Adobe].
+[!UICONTROL AdWords Conversion Report] include dati su costi, clic e impression; dati di conversione per tipo di conversione tracciati da [!DNL Google Ads Conversion Optimizer]; e (facoltativamente) dati metrici derivati per uno o più account, campagne, gruppi di annunci, annunci o parole chiave. I dati vengono visualizzati solo quando [!DNL Google Ads Conversion Optimizer] è abilitato nelle impostazioni di offerta della campagna (e quindi Search, Social e Commerce non ottimizzano le offerte per la campagna). Per impostazione predefinita, i dati includono una riga per ogni conversione per ogni parola chiave applicabile per ogni unità di tempo nell’intervallo di date specificato. Le righe sono in ordine crescente per nome del gruppo di annunci e quindi per parola chiave per impostazione predefinita. Il report non include dati relativi a costi, clic o impression né dati di conversione rilevati da [!DNL Adobe].
 
 Puoi visualizzare i dati relativi ai due mesi precedenti.
 
@@ -24,7 +24,7 @@ Puoi visualizzare i dati relativi ai due mesi precedenti.
 
 ## Colonne predefinite
 
-Per le descrizioni di tutte le colonne predefinite e personalizzate, vedi &quot;[Colonne report per report speciali](specialty-report-columns.md).&quot;
+Per le descrizioni di tutte le colonne predefinite e personalizzate, vedere &quot;[Colonne report per report speciali](specialty-report-columns.md).&quot;
 
 * [!UICONTROL Account Name]
 * [!UICONTROL Start Date]
@@ -51,6 +51,6 @@ Per le descrizioni di tutte le colonne predefinite e personalizzate, vedi &quot;
 
 >[!MORELIKETHIS]
 >
-* [Informazioni sui report speciali](specialty-report-about.md)
-* [Generare un rapporto speciale](specialty-report-generate.md)
-* [Impostazioni report speciali](specialty-report-settings.md)
+>* [Informazioni sui report speciali](specialty-report-about.md)
+>* [Generare un report speciale](specialty-report-generate.md)
+>* [Impostazioni report speciali](specialty-report-settings.md)

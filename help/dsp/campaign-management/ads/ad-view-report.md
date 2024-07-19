@@ -12,16 +12,16 @@ ht-degree: 0%
 
 # Visualizzare un rapporto dettagliato per un annuncio
 
-Il <!--legacy --> il rapporto a livello di annuncio include [!UICONTROL Overview], [!UICONTROL Geography], e [!UICONTROL Viewability] dati.
+Il report a livello di annuncio di <!--legacy --> include [!UICONTROL Overview], [!UICONTROL Geography] e [!UICONTROL Viewability] dati.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 1. Fai clic sul nome della campagna.
-1. Nel sottomenu, fai clic su **[!UICONTROL Ads]**.
-1. Accanto al nome dell’annuncio, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL View report]**.
+1. Nel sottomenu fare clic su **[!UICONTROL Ads]**.
+1. Accanto al nome dell&#39;annuncio, fare clic su **[!UICONTROL ...]** > **[!UICONTROL View report]**.
 
 >[!MORELIKETHIS]
 >
->* [Visualizzare un rapporto dettagliato per un posizionamento](/help/dsp/campaign-management/placements/placement-view-report.md)
->* [Visualizzare un rapporto dettagliato per una campagna](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
->* [Tipi di rapporti sulle prestazioni nelle visualizzazioni di Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Visualizza un report dettagliato per un posizionamento](/help/dsp/campaign-management/placements/placement-view-report.md)
+>* [Visualizza un report dettagliato per una campagna](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
+>* [Tipi di report sulle prestazioni nelle visualizzazioni di Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Informazioni sui report personalizzati](/help/dsp/reports/report-about.md)

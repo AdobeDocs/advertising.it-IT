@@ -17,12 +17,12 @@ Quando crei tipi di pubblico riutilizzabili, puoi definire manualmente la logica
 * () per indicare un gruppo
 * `||` per [!DNL OR] <!-- || escaped with backticks so Jenkins doesn't think it's a Markdown table -->
 * &amp;&amp; per [!DNL AND]
-* ! per [!DNL NOT] (escludi)
+* ! per [!DNL NOT] (escludere)
 
 >[!NOTE]
 >
 >* Tutti i gruppi di segmenti specificati sono inclusi a meno che non siano preceduti da ! (che li esclude).
->* È possibile [trovare l’ID segmento di un pubblico](reusable-audience-clipboard.md) da [!UICONTROL Audiences] > [!UICONTROL All audiences].
+>* Puoi [trovare l&#39;ID segmento per un pubblico](reusable-audience-clipboard.md) da [!UICONTROL Audiences] > [!UICONTROL All audiences].
 
 Ad esempio, la logica seguente:
 
@@ -42,8 +42,8 @@ significa (in inglese)
 
 >[!MORELIKETHIS]
 >
->* [Copiare negli Appunti la chiave del segmento di un pubblico riutilizzabile](reusable-audience-clipboard.md)
+>* [Copia negli Appunti la chiave del segmento per un pubblico riutilizzabile](reusable-audience-clipboard.md)
 >* [Informazioni su Gestione dell&#39;audience](audience-about.md)
->* [Creare un pubblico riutilizzabile](reusable-audience-create.md)
+>* [Crea un pubblico riutilizzabile](reusable-audience-create.md)
 >* [Impostazioni pubblico](audience-settings.md)
 >* [Provider di dati di terze parti disponibili](third-party-data-providers.md)

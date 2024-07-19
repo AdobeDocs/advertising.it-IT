@@ -12,35 +12,35 @@ ht-degree: 0%
 
 # Modifica impostazioni feed report foglio di calcolo
 
-*Solo per report di base e report di accuratezza del modello*
+*Solo per report di base e report di precisione modello*
 
-È possibile modificare il modello di report, [!DNL Microsoft Excel] e altri parametri vengono utilizzati per un feed di foglio di calcolo.
+È possibile modificare il modello di report, il modello [!DNL Microsoft Excel] e altri parametri utilizzati per un feed di foglio di calcolo.
 
 >[!NOTE]
 >
-> Se si modificano le colonne nel modello di report o si utilizza un modello di report nuovo o aggiornato, è necessario aggiornare [!DNL Excel] e caricarlo di nuovo.
+> Se si modificano le colonne nel modello di report o si utilizza un modello di report nuovo o aggiornato, è necessario aggiornare il modello [!DNL Excel] di conseguenza e caricarlo nuovamente.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
 
-1. (Facoltativo) Per aggiornare il modello di report o [!DNL Excel] modello utilizzato per il feed del foglio di calcolo:
+1. (Facoltativo) Per aggiornare il modello di report o il modello [!DNL Excel] utilizzato per il feed del foglio di calcolo:
 
-   * (Facoltativo) Per utilizzare un modello di rapporto diverso o aggiornato per il feed, [crea un nuovo [!DNL Excel] modello per il modello di report](spreadsheet-feed-create-excel-template.md).
+   * (Facoltativo) Per utilizzare un modello di report diverso o aggiornato per il feed, [crea un nuovo [!DNL Excel] modello per il modello di report](spreadsheet-feed-create-excel-template.md).
 
-     Dovrai caricare sia il modello di rapporto che il nuovo [!DNL Excel] nel passaggio successivo.
+     Nel passaggio successivo, sarà necessario caricare sia il modello di report che il nuovo file [!DNL Excel].
 
-   * (Facoltativo) Per aggiungere semplicemente colonne personalizzate alla [!DNL Excel] inserire le colonne a destra delle colonne dal modello di report e quindi salvare il file come [!DNL Excel] in formato .XLSX. Dovrai caricare il nuovo [!DNL Excel] nel passaggio successivo.
+   * (Facoltativo) Per aggiungere semplicemente colonne personalizzate al modello [!DNL Excel], inserire le colonne a destra delle colonne dal modello di report, quindi salvare il file come foglio di calcolo [!DNL Excel] in formato XLSX. Caricare il nuovo file [!DNL Excel] nel passaggio successivo.
 
 1. Modificare le impostazioni del feed del foglio di calcolo:
 
-   * Nel menu principale, fai clic su **[!UICONTROL Reports]>[!UICONTROL Spreadsheet Feeds]**.
+   * Nel menu principale, fare clic su **[!UICONTROL Reports]>[!UICONTROL Spreadsheet Feeds]**.
 
-   * Accanto al nome del feed del foglio di calcolo, fai clic su ![Pulsante Visualizza/Modifica impostazioni](/help/search-social-commerce/assets/settings.png "Pulsante Visualizza/Modifica impostazioni").
+   * Accanto al nome del feed del foglio di calcolo, fare clic su ![Pulsante Visualizza/modifica impostazioni](/help/search-social-commerce/assets/settings.png "Pulsante Visualizza/modifica impostazioni").
 
-   * In [!UICONTROL Edit Spreadsheet Feed] , modifica il [impostazioni feed foglio di calcolo](spreadsheet-feed-settings.md).
+   * Nella finestra di dialogo [!UICONTROL Edit Spreadsheet Feed], modifica le [impostazioni feed foglio di calcolo](spreadsheet-feed-settings.md).
 
-   * Clic **[!UICONTROL Submit]**.
+   * Fare clic su **[!UICONTROL Submit]**.
 
-   * (Facoltativo) Una volta che il [!UICONTROL Update Status] è *[!UICONTROL Finished]*, fai clic su **[!UICONTROL XLSX]** accanto al feed, quindi aprire o salvare il file in base alla normale procedura del browser.
+   * (Facoltativo) Una volta che il feed [!UICONTROL Update Status] è *[!UICONTROL Finished]*, fai clic su **[!UICONTROL XLSX]** accanto al feed, quindi apri o salva il file in base alla normale procedura del browser.
 
      >[!NOTE]
      >
@@ -50,10 +50,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sui feed di report dei fogli di calcolo](spreadsheet-feed-about.md)
+>* [Informazioni sui feed di report del foglio di calcolo](spreadsheet-feed-about.md)
 >* [Creare un feed di report per fogli di calcolo](spreadsheet-feed-create.md)
->* [Creare un [!DNL Excel] modello per un feed di report per fogli di calcolo](spreadsheet-feed-create-excel-template.md)
+>* [Creare un  [!DNL Excel] modello per un feed di report di foglio di calcolo](spreadsheet-feed-create-excel-template.md)
 >* [Modifica impostazioni feed report foglio di calcolo](spreadsheet-feed-edit.md)
 >* [Impostazioni feed report foglio di calcolo](spreadsheet-feed-settings.md)
 >* [Visualizzare o salvare un file di feed di report del foglio di calcolo](spreadsheet-feed-view-or-save.md)
->* [Aggiorna manualmente i feed dei rapporti del foglio di calcolo](spreadsheet-feed-refresh.md)
+>* [Aggiorna manualmente i feed dei report del foglio di calcolo](spreadsheet-feed-refresh.md)

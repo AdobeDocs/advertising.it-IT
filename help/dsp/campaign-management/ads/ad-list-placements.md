@@ -16,14 +16,14 @@ Visualizza un elenco di posizionamenti associati a un annuncio per visualizzare 
 
 Vedi anche &quot;[Visualizza annunci allegati ai posizionamenti](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#view-ads-campaign).&quot;
 
-1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 1. Fai clic sul nome della campagna.
-1. Nel sottomenu, fai clic su **[!UICONTROL Ads]**.
-1. Accanto al nome dell’annuncio, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL See placements]**.
+1. Nel sottomenu fare clic su **[!UICONTROL Ads]**.
+1. Accanto al nome dell&#39;annuncio, fare clic su **[!UICONTROL ...]** > **[!UICONTROL See placements]**.
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sulla gestione degli annunci](ad-about.md)
->* [Modificare un annuncio](ad-edit.md)
+>* [Informazioni Sulla Gestione Degli Annunci](ad-about.md)
+>* [Modifica un annuncio](ad-edit.md)
 >* [Modifica posizionamenti](/help/dsp/campaign-management/placements/placement-edit.md)
->* [Visualizzare un rapporto dettagliato per un posizionamento](/help/dsp/campaign-management/placements/placement-view-report.md)
+>* [Visualizza un report dettagliato per un posizionamento](/help/dsp/campaign-management/placements/placement-view-report.md)

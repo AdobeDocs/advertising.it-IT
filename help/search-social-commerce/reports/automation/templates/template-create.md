@@ -1,11 +1,11 @@
 ---
 title: Creare un modello di rapporto
 description: Scopri come creare un modello di rapporto riutilizzabile.
-exl-id: cd734539-ab01-4106-9998-e2ed994209b2
+exl-id: 322d0c15-bd93-4372-be1e-80d2d7c7fe8d
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -16,33 +16,33 @@ ht-degree: 0%
 
 * Per creare un modello da zero, effettuate una delle seguenti operazioni:
 
-   * Dalla sezione [!UICONTROL Reports] , creare un rapporto, selezionando la casella di controllo accanto a **[!UICONTROL Save as template]**, che si trova accanto al nome del rapporto.
+   * Dalla scheda [!UICONTROL Reports], creare un report selezionando la casella di controllo accanto a **[!UICONTROL Save as template]**, accanto al nome del report.
 
-   * Dalla sezione [!UICONTROL Templates] scheda:
+   * Dalla scheda [!UICONTROL Templates]:
 
-      * Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
+      * Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
-      * Fai clic su **[!UICONTROL Templates]** scheda.
+      * Fare clic sulla scheda **[!UICONTROL Templates]**.
 
-      * Clic **[!UICONTROL Create Template]** e selezionare la categoria del rapporto.
+      * Fare clic su **[!UICONTROL Create Template]** e selezionare la categoria del report.
 
       * Specifica le impostazioni del rapporto.
 
-        La &quot;[!UICONTROL Save as Template]&quot; viene selezionata automaticamente.
+        L&#39;impostazione &quot;[!UICONTROL Save as Template]&quot; è selezionata automaticamente.
 
 * Per creare un modello basato su un modello esistente:
 
-   1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
+   1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
-   1. Fai clic su **[!UICONTROL Templates]** scheda.
+   1. Fare clic sulla scheda **[!UICONTROL Templates]**.
 
    1. Fai clic sul nome del modello e, se necessario, modifica le impostazioni del rapporto.
 
-   1. Seleziona la casella di controllo accanto a **[!UICONTROL Save as template]** (accanto al nome del rapporto), immettere un nuovo nome per il rapporto, quindi fare clic su **[!UICONTROL Update Template]**.
+   1. Selezionare la casella di controllo accanto a **[!UICONTROL Save as template]** (accanto al nome del report), immettere un nuovo nome per il report e quindi fare clic su **[!UICONTROL Update Template]**.
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sui modelli di rapporto](template-about.md)
->* [Modificare un modello di rapporto](template-edit.md)
->* [Visualizzare un modello di rapporto](template-view.md)
->* [Eliminare i modelli di rapporto](template-delete.md)
+>* [Informazioni sui modelli di report](template-about.md)
+>* [Modificare un modello di report](template-edit.md)
+>* [Visualizza un modello di report](template-view.md)
+>* [Elimina modelli di report](template-delete.md)

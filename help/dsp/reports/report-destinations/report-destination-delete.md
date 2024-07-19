@@ -14,16 +14,15 @@ ht-degree: 0%
 
 L’eliminazione di una destinazione di rapporto influisce sulla consegna di tutti i rapporti personalizzati collegati.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Reports]** > **[!UICONTROL Report Destinations]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Reports]** > **[!UICONTROL Report Destinations]**.
 
-1. Posizionare il cursore sulla riga di destinazione del report e quindi fare clic su **[!UICONTROL More]** > **[!UICONTROL Delete]**.
+1. Posizionare il cursore sulla riga di destinazione del report, quindi fare clic su **[!UICONTROL More]** > **[!UICONTROL Delete]**.
 
-1. Nel messaggio di conferma, fai clic su **[!UICONTROL Delete]**.
+1. Nel messaggio di conferma, fare clic su **[!UICONTROL Delete]**.
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni su [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [Creare un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
->* [[!UICONTROL Report Destination] Impostazioni](/help/dsp/reports/report-destinations/report-destination-settings.md)
+>* [Crea un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* Impostazioni [[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [Modifica un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
-

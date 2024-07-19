@@ -1,22 +1,22 @@
 ---
-title: Visualizza o salva un [!DNL Advertising Insight]
-description: Scopri come visualizzare un’ [!DNL Advertising Insight] e salvarlo in un file.
-exl-id: 165a6036-c911-4c56-a820-c9d172e47ea4
+title: Visualizza o salva  [!DNL Advertising Insight]
+description: Scopri come visualizzare un [!DNL Advertising Insight] e salvarlo in un file.
+exl-id: 4baf24eb-5ebf-41d9-8b3b-6af1672ad030
 feature: Search Advertising Insights
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 0%
 
 ---
 
-# Visualizza o salva un [!DNL Advertising Insight]
+# Visualizza o salva [!DNL Advertising Insight]
 
-1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Advertising Insights]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Advertising Insights]**.
 
-2. Nel menu a sinistra, fai clic su ![Rapporti](/help/search-social-commerce/assets/insight-reports.png "Rapporti").
+2. Nel menu a sinistra, fai clic su ![Report](/help/search-social-commerce/assets/insight-reports.png "Report").
 
-3. In [!UICONTROL Generated Insights] eseguire una delle operazioni seguenti:
+3. Nel pannello [!UICONTROL Generated Insights] eseguire una delle operazioni seguenti:
 
    * Fai clic sull’istanza del rapporto.
 
@@ -30,4 +30,4 @@ ht-degree: 0%
 >
 >* [Informazioni su [!UICONTROL Advertising Insights]](insight-about.md)
 >* [Genera un [!DNL Advertising Insight]](insight-generate.md)
->* [Eliminare un [!DNL Advertising Insight]](insight-delete.md)
+>* [Elimina un [!DNL Advertising Insight]](insight-delete.md)

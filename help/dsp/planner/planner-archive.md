@@ -12,18 +12,18 @@ ht-degree: 0%
 
 # Archiviare un piano di portata TV collegato
 
-Quando si archivia un piano, questo viene rimosso dall&#39;impostazione predefinita [!UICONTROL Planner] visualizzazione.<!-- You can still view it by including the [!UICONTROL Status] "[!UICONTROL Archived]" in the view filter. -->
+Quando si archivia un piano, questo viene rimosso dalla visualizzazione predefinita [!UICONTROL Planner].<!-- You can still view it by including the [!UICONTROL Status] "[!UICONTROL Archived]" in the view filter. -->
 
-1. Nel menu principale, fai clic su **[!UICONTROL Planner]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Planner]**.
 
 1. Posizionare il cursore sulla riga del piano e fare clic su **[!UICONTROL More]** > **[!UICONTROL Archive]**.
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni sullo strumento DSP Planner](planner-about.md)
->* [Creazione di un piano di copertura TV collegata](planner-create.md)
->* [Duplicare un piano di portata TV collegato](planner-duplicate.md)
->* [Modifica di un piano di copertura TV collegato](planner-edit.md)
->* [Esportazione di un piano di copertura TV collegato](planner-export.md)
+>* [Crea un piano di copertura TV collegato](planner-create.md)
+>* [Duplicare un piano di copertura TV collegata](planner-duplicate.md)
+>* [Modifica un piano di copertura TV collegato](planner-edit.md)
+>* [Esporta un piano di copertura TV collegato](planner-export.md)
 >* [Rigenerare la previsione per un piano di copertura TV collegato](planner-forecast.md)
->* [Impostazioni per i piani di copertura TV collegati](planner-settings.md)
+>* [Impostazioni per i piani di copertura TV connessi](planner-settings.md)

@@ -12,25 +12,24 @@ ht-degree: 0%
 
 # Esportare dettagli su un pubblico riutilizzabile
 
-È possibile scaricare un [!DNL Microsoft Excel] file del foglio di lavoro con la regola di configurazione del pubblico, il numero di membri del pubblico attivi e totali per tipo di dispositivo, dettagli su ciascun segmento del pubblico e tutti i posizionamenti mirati al pubblico.
+È possibile scaricare un file del foglio di lavoro [!DNL Microsoft Excel] con la regola di configurazione del pubblico, il numero di membri del pubblico attivi e totali per tipo di dispositivo, i dettagli di ogni segmento del pubblico e tutti i posizionamenti mirati al pubblico.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
-1. Posiziona il cursore sulla riga del pubblico e fai clic su **[!UICONTROL Export XLS]**.
+1. Posizionare il cursore sulla riga del pubblico e fare clic su **[!UICONTROL Export XLS]**.
 
    Il file viene scaricato in formato XLSX in base alla normale procedura del browser. Il nome del file include il nome del pubblico e la data.
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni su Gestione dell&#39;audience](audience-about.md)
->* [Creare un pubblico riutilizzabile](reusable-audience-create.md)
->* [Duplicare un pubblico riutilizzabile](reusable-audience-duplicate.md)
->* [Modificare un pubblico riutilizzabile](reusable-audience-edit.md)
->* [Visualizzare dettagli su un pubblico riutilizzabile](reusable-audience-view-details.md)
->* [Condividere un pubblico riutilizzabile](reusable-audience-share.md)
->* [Copiare negli Appunti la chiave del segmento di un pubblico riutilizzabile](reusable-audience-clipboard.md)
+>* [Crea un pubblico riutilizzabile](reusable-audience-create.md)
+>* [Duplica un pubblico riutilizzabile](reusable-audience-duplicate.md)
+>* [Modifica un pubblico riutilizzabile](reusable-audience-edit.md)
+>* [Visualizza dettagli su un pubblico riutilizzabile](reusable-audience-view-details.md)
+>* [Condividi un pubblico riutilizzabile](reusable-audience-share.md)
+>* [Copia negli Appunti la chiave del segmento per un pubblico riutilizzabile](reusable-audience-clipboard.md)
 >* [Eliminare un pubblico riutilizzabile](reusable-audience-delete.md)
 >* [Impostazioni pubblico](audience-settings.md)
->* [Sintassi della logica dei segmenti di pubblico](audience-segment-logic-syntax.md)
+>* [Sintassi per la logica dei segmenti di pubblico](audience-segment-logic-syntax.md)
 >* [Provider di dati di terze parti disponibili](third-party-data-providers.md)
-

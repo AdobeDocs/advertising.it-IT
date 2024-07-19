@@ -1,11 +1,11 @@
 ---
 title: Informazioni sui modelli di rapporto
 description: Scopri i modelli di rapporto riutilizzabili.
-exl-id: 15f05c8c-7dcf-4965-9ded-155d79346634
+exl-id: 8ac30a16-7fa9-4da3-9375-98efd05c6e74
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Puoi gestire fino a 100 modelli alla volta.
 
 >[!MORELIKETHIS]
 >
->* [Creare un modello di rapporto](template-create.md)
->* [Modificare un modello di rapporto](template-edit.md)
->* [Visualizzare un modello di rapporto](template-view.md)
->* [Eliminare i modelli di rapporto](template-delete.md)
+>* [Creare un modello di report](template-create.md)
+>* [Modificare un modello di report](template-edit.md)
+>* [Visualizza un modello di report](template-view.md)
+>* [Elimina modelli di report](template-delete.md)

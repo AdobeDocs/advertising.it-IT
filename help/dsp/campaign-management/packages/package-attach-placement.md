@@ -5,62 +5,61 @@ feature: DSP Packages
 exl-id: dbee2db6-6cb7-4c56-9c14-816ea071b760
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 1%
+source-wordcount: '206'
+ht-degree: 0%
 
 ---
 
 # Allegare un posizionamento a un pacchetto
 
-## Allega un nuovo posizionamento da [!UICONTROL Placements] Visualizza
+## Allega un nuovo posizionamento dalla visualizzazione [!UICONTROL Placements]
 
-1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 
 1. Fai clic sul nome della campagna in cui desideri creare il pacchetto, quindi fai clic sul nome del pacchetto.
 
-1. In alto a destra, fai clic su **[!UICONTROL Create]** e selezionate il tipo di posizionamento.
+1. In alto a destra, fare clic su **[!UICONTROL Create]** e selezionare il tipo di posizionamento.
 
    Il pacchetto selezionato viene selezionato automaticamente nelle impostazioni di posizionamento.
 
-1. Inserisci il valore rimanente [impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)e quindi fare clic su **[!UICONTROL Create Placement]**.
+1. Immettere le [impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md) rimanenti, quindi fare clic su **[!UICONTROL Create Placement]**.
 
-## Allega un posizionamento nuovo o esistente da [!UICONTROL Packages] Visualizza
+## Allega un posizionamento nuovo o esistente dalla visualizzazione [!UICONTROL Packages]
 
-1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 
-1. Fai clic sul nome della campagna per aprire [!UICONTROL Packages] visualizzazione.
+1. Fare clic sul nome della campagna per aprire la visualizzazione [!UICONTROL Packages].
 
-1. Accanto al nome del pacchetto, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Attach a Placement].**
+1. Accanto al nome del pacchetto, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Attach a Placement].**
 
 1. Effettuare una delle seguenti operazioni:
 
    * Per creare un nuovo posizionamento:
 
-      1. Clic **[!UICONTROL Create New Placement]**.
+      1. Fare clic su **[!UICONTROL Create New Placement]**.
 
-      1. Seleziona il tipo di annuncio per il posizionamento, quindi fai clic su **[!UICONTROL Build this placement]**.
+      1. Selezionare il tipo di annuncio per il posizionamento, quindi fare clic su **[!UICONTROL Build this placement]**.
 
-      1. Inserisci il [impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)e quindi fare clic su **[!UICONTROL Create Placement]**.
+      1. Immettere le [impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md), quindi fare clic su **[!UICONTROL Create Placement]**.
+
    * Per allegare un posizionamento esistente nella campagna:
 
-      >[!NOTE]
-      >
-      >Ogni posizionamento può essere in un solo pacchetto. Vengono elencati solo i posizionamenti che non sono già inclusi in un pacchetto.
+     >[!NOTE]
+     >
+     >Ogni posizionamento può essere in un solo pacchetto. Vengono elencati solo i posizionamenti che non sono già inclusi in un pacchetto.
 
-      1. Clic **[!UICONTROL Select a Placement].**
+      1. Fare clic su **[!UICONTROL Select a Placement].**
 
-      1. Accanto al nome del posizionamento, fate clic su **[!UICONTROL Select].**
+      1. Accanto al nome del posizionamento, fare clic su **[!UICONTROL Select].**
 
-      1. (Facoltativo) Per ogni posizionamento aggiuntivo da allegare, fate clic su **[!UICONTROL Attach Another Placement]**, quindi ripetere i passaggi 1-2.
+      1. (Facoltativo) Per ogni posizionamento aggiuntivo che si desidera allegare, fare clic su **[!UICONTROL Attach Another Placement]** e quindi ripetere i passaggi 1-2.
 
-      1. Clic **[!UICONTROL I'm done for now]**.
-
+      1. Fare clic su **[!UICONTROL I'm done for now]**.
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulla gestione dei pacchetti](package-about.md)
->* [Creare un pacchetto](package-create.md)
->* [Visualizzare il registro delle modifiche di un pacchetto](package-change-log.md)
+>* [Crea pacchetto](package-create.md)
+>* [Visualizza il log delle modifiche per un pacchetto](package-change-log.md)
 >* [Impostazioni pacchetto](package-settings.md)
->* [Impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)
-
+>* [Impostazioni posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)

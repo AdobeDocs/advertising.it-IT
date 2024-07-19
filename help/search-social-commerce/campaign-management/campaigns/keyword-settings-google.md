@@ -1,24 +1,24 @@
 ---
-title: '''[!DNL Google Ads] keyword settings"'
-description: Fai riferimento alle impostazioni per [!DNL Google Ads] parole chiave.
-exl-id: 8834e852-214b-4b2c-9a95-4b1c802e800d
+title: '[!DNL Google Ads] impostazioni parola chiave'
+description: Fai riferimento alle impostazioni per  [!DNL Google Ads]  parole chiave.
+exl-id: b2937d18-565a-43f0-ba33-d46d4c77ec07
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Ads] impostazioni delle parole chiave
+# [!DNL Google Ads] impostazioni parola chiave
 
 Puoi creare parole chiave per le campagne che utilizzano le reti di ricerca e visualizzazione.
 
-Consulta la guida di Google Ads per [limiti delle parole chiave per account](https://support.google.com/google-ads/answer/6372658).
+Consulta la guida di Google Ads per [limiti di parole chiave per account](https://support.google.com/google-ads/answer/6372658).
 
 ## [!UICONTROL Keyword Details]
 
-**[!UICONTROL Keywords]:** Le parole chiave, comprese quelle [!DNL Google Ads] sintassi di corrispondenza per parole chiave e segnaposto. [!DNL Google Ads] gli account richiedono parole chiave con i seguenti attributi:
+**[!UICONTROL Keywords]:** Le parole chiave, incluse eventuali [!DNL Google Ads], corrispondono alla sintassi per parole chiave e segnaposto. [!DNL Google Ads] account richiedono parole chiave con i seguenti attributi:
 
 * La lunghezza massima per parola chiave è di 80 caratteri e non più di 10 parole.
 * La parola chiave può contenere solo lettere, cifre e i seguenti caratteri speciali: spazio `# $ & _ - " [] ' + . / :`
@@ -27,10 +27,10 @@ Consulta la guida di Google Ads per [limiti delle parole chiave per account](htt
 
 >[!NOTE]
 >
->* È possibile creare parole chiave negative dalla [!UICONTROL Keywords] > [!UICONTROL Negatives] visualizza e nelle impostazioni del gruppo di annunci e della campagna.
->* Modifica di un [!DNL Google Ads] parola chiave o tipo corrispondenza elimina la parola chiave esistente e ne crea una nuova.
+>* È possibile creare parole chiave negative dalla visualizzazione [!UICONTROL Keywords] > [!UICONTROL Negatives] e nelle impostazioni del gruppo di annunci e della campagna.
+>* Se si modifica una parola chiave o un tipo di corrispondenza [!DNL Google Ads], la parola chiave esistente verrà eliminata e ne verrà creata una nuova.
 
-**[!UICONTROL Status]:** Stato di visualizzazione della parola chiave: *Attivo* o *In pausa*. Il valore predefinito per le nuove parole chiave è *Attivo*.
+**[!UICONTROL Status]:** Lo stato di visualizzazione della parola chiave: *Attivo* o *In pausa*. Il valore predefinito per le nuove parole chiave è *Active*.
 
 ## [!UICONTROL Bids]
 
@@ -40,9 +40,9 @@ Consulta la guida di Google Ads per [limiti delle parole chiave per account](htt
 
 ## Segnaposto
 
-**[!UICONTROL Param1]:** Stringa da utilizzare come valore di sostituzione se l’URL di base o il modello di tracciamento contiene [il `{param1}`](https://support.google.com/google-ads/answer/6305348) stringa di sostituzione dinamica.
+**[!UICONTROL Param1]:** Stringa da utilizzare come valore di sostituzione se l&#39;URL di base o il modello di tracciamento contiene [la stringa di sostituzione dinamica `{param1}`](https://support.google.com/google-ads/answer/6305348).
 
-**[!UICONTROL Param2]:** Stringa da utilizzare come valore di sostituzione se l’URL di base o il modello di tracciamento contiene [il `{param2}`](https://support.google.com/google-ads/answer/6305348) stringa di sostituzione dinamica.
+**[!UICONTROL Param2]:** Stringa da utilizzare come valore di sostituzione se l&#39;URL di base o il modello di tracciamento contiene [la stringa di sostituzione dinamica `{param2}`](https://support.google.com/google-ads/answer/6305348).
 
 ## Opzioni URL
 
@@ -60,4 +60,4 @@ Consulta la guida di Google Ads per [limiti delle parole chiave per account](htt
 
 >[!MORELIKETHIS]
 >
->* [Gestire le parole chiave](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
+>* [Gestisci parole chiave](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)

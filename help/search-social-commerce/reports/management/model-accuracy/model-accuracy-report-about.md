@@ -1,9 +1,9 @@
 ---
 title: Informazioni sui report di precisione dei modelli
 description: Scopri i rapporti che indicano la precisione dei modelli di costi e ricavi utilizzati per ottimizzare le offerte.
-exl-id: 8aeb2308-8775-4a6d-9d25-ba5378490344
+exl-id: 2f655db6-8f4f-4eae-9f18-cc04acad3c5c
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%
@@ -14,18 +14,18 @@ ht-degree: 0%
 
 I rapporti sulla precisione del modello indicano la precisione dei modelli di costi e ricavi utilizzati per ottimizzare le offerte.
 
-Eventuali imprecisioni possono indicare problemi di prestazioni e potrebbe essere necessario modificare di conseguenza le impostazioni del portfolio. Per ulteriori informazioni sulla risoluzione dei problemi di imprecisione delle previsioni, consulta &quot;FAQs About Portfoli&quot; nella sezione Portfoli della Guida all’ottimizzazione, disponibile in Search, Social &amp; Commerce.<!-- verify convention for referencing Optimization Guide here -->
+Eventuali imprecisioni possono indicare problemi di prestazioni e potrebbe essere necessario modificare di conseguenza le impostazioni del portfolio. Per ulteriori informazioni sulla risoluzione dei problemi di imprecisione delle previsioni, vedere &quot;FAQs About Portfoli&quot; nella sezione Portfoli della Guida all&#39;ottimizzazione, disponibile all&#39;interno di Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 ## Tipi di report di precisione del modello
 
-* [Il [!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
+* [[!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
 
-* [Il [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
+* [[!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
 
 >[!MORELIKETHIS]
 >
->* [Il [!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
->* [Il [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
->* [Generare un report di precisione del modello](model-accuracy-report-generate.md)
->* [Impostazioni report di precisione modello](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
+>* [I [!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
+>* [I [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
+>* [Genera un report di precisione modello](model-accuracy-report-generate.md)
+>* [Impostazioni report precisione modello](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
 >* [Informazioni sui report](/help/search-social-commerce/reports/report-about.md)

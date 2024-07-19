@@ -18,4 +18,4 @@ Scopri i criteri e le linee guida per Advertising DSP e Advertising Search:
 + [Criterio dei requisiti per gli annunci](/help/policies/ad-requirements-policy.md)
 + [Criterio dei requisiti dell’ID universale](/help/policies/universal-id-policy.md)
 + [Linee guida accettabili per i segmenti di integrità](/help/policies/health-segment-guidelines.md)
-+ [[!DNL DSP] Linee guida sull’utilizzo dei dati](/help/policies/data-usage-guidelines.md)
++ [[!DNL DSP] linee guida per l&#39;utilizzo dei dati](/help/policies/data-usage-guidelines.md)

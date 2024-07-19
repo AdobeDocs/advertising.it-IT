@@ -20,13 +20,13 @@ I rapporti avanzati consentono di prendere decisioni strategiche sulle parole ch
 
 * Sii prudente nell’escludere i siti web dalle campagne, in quanto i contenuti e le modifiche al mercato possono modificare rapidamente il valore del traffico di un sito.
 
-Per ulteriori informazioni sulla regolazione delle parole chiave e delle impostazioni della campagna, consulta &quot;Regolazione delle strategie del portfolio&quot; nella sezione Portfoli della Guida all’ottimizzazione, accessibile da Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
+Per ulteriori informazioni sulla regolazione delle parole chiave e delle impostazioni della campagna, vedere &quot;Regolazione delle strategie del portfolio&quot; nella sezione Portfoli della Guida all&#39;ottimizzazione, disponibile all&#39;interno di Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 >[!TIP]
 >
->Per ulteriori best practice specifiche per le campagne nei portfolio, consulta anche la sezione Guida all’ottimizzazione > Gestione di Portfoli > Best practice per i Portfoli, disponibile all’interno di Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
+>Per ulteriori best practice specifiche per le campagne nei portfolio, consulta anche la sezione Guida all&#39;ottimizzazione > Gestione di Portfoli > Best practice per i Portfoli, disponibile all&#39;interno di Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 >[!MORELIKETHIS]
 >
->* [Scrivi testo effettivo e copia](best-practices-write.md)
->* [Ottimizzare le pagine di destinazione del sito web](best-practices-optimize.md)
+>* [Scrivi testo effettivo e copia dell&#39;annuncio](best-practices-write.md)
+>* [Ottimizzare le pagine di destinazione del sito Web](best-practices-optimize.md)

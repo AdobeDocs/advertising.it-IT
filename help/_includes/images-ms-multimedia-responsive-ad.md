@@ -12,7 +12,7 @@ ht-degree: 0%
 Per caricare le immagini:
 
 1. Per ogni immagine:
-   1. Clic **[!UICONTROL +]** e selezionare un&#39;immagine dal dispositivo o dalla rete.
+   1. Fare clic su **[!UICONTROL +]** e selezionare un&#39;immagine dal dispositivo o dalla rete.
    1. Seleziona le proporzioni.
-   1. Trascina e posiziona la casella di ritaglio in base alle esigenze per selezionare la parte visualizzabile dell’immagine, quindi fai clic su **[!UICONTROL Proceed]**.
-1. Al termine della specifica delle immagini, fare clic su **[!UICONTROL Upload]**.
+   1. Trascinare e posizionare la casella di ritaglio per selezionare la parte visualizzabile dell&#39;immagine, quindi fare clic su **[!UICONTROL Proceed]**.
+1. Dopo aver specificato le immagini, fare clic su **[!UICONTROL Upload]**.

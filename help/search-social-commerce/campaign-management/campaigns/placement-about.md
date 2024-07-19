@@ -1,9 +1,9 @@
 ---
-title: Informazioni su [!DNL Google Ads] posizionamenti
-description: Scopri le opzioni per i posizionamenti consentiti e negativi per [!DNL Google Ads].
-exl-id: 2f390a39-99e9-4b0d-8576-e724882185ef
+title: Informazioni su [!DNL Google Ads]  posizionamenti
+description: Scopri le opzioni per i posizionamenti consentiti e negativi per  [!DNL Google Ads].
+exl-id: c0a2d888-8afa-47c8-a89e-da4de527e6ea
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -12,17 +12,17 @@ ht-degree: 0%
 
 # Informazioni su [!DNL Google Ads] posizionamenti
 
-*[!DNL Google Ads]solo account*
+Solo *[!DNL Google Ads]account*
 
 I posizionamenti sono posizioni sulla rete di visualizzazione in cui possono essere visualizzati gli annunci. Le impostazioni di posizionamento includono l’offerta massima e i parametri di tracciamento facoltativi. Le impostazioni a livello di posizionamento sostituiscono le impostazioni del gruppo di annunci o della campagna.
 
-Puoi creare posizionamenti per qualsiasi gruppo di annunci in una [supportato [!DNL Google Ads] tipo di campagna](/help/search-social-commerce/introduction/supported-inventory.md) che esegue il targeting della rete di visualizzazione all&#39;interno di una [account motore di ricerca sincronizzato](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md).
+Puoi creare posizionamenti per qualsiasi gruppo di annunci in un tipo di campagna [supportato [!DNL Google Ads] ](/help/search-social-commerce/introduction/supported-inventory.md) che esegue il targeting della rete di visualizzazione in un account del [motore di ricerca sincronizzato](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md).
 
-## Il [!UICONTROL Placements] visualizzazioni
+## Le visualizzazioni [!UICONTROL Placements]
 
-Il [!UICONTROL Placements] > [!UICONTROL Placements] visualizza elenca tutti i posizionamenti e le [!UICONTROL Placements] > [!UICONTROL Negatives] visualizza elenca tutti i posizionamenti negativi, per i quali non vengono visualizzati annunci.
+Nella vista [!UICONTROL Placements] > [!UICONTROL Placements] sono elencati tutti i posizionamenti e nella vista [!UICONTROL Placements] > [!UICONTROL Negatives] sono elencati tutti i posizionamenti negativi per i quali non vengono visualizzati annunci.
 
-Puoi creare posizionamenti per un gruppo di annunci dalla sezione [!UICONTROL Placements] > [!UICONTROL Placements] visualizzazione. Puoi creare parole chiave negative per qualsiasi gruppo di annunci o campagna da [!UICONTROL Placements] > [!UICONTROL Negatives] visualizzare o dalle impostazioni della campagna e del gruppo di annunci.  È inoltre possibile modificare e modificare lo stato dei posizionamenti attivi e in pausa ed eliminare i posizionamenti negativi.
+È possibile creare posizionamenti per un gruppo di annunci dalla vista [!UICONTROL Placements] > [!UICONTROL Placements]. È possibile creare parole chiave negative per qualsiasi gruppo di annunci o campagna dalla visualizzazione [!UICONTROL Placements] > [!UICONTROL Negatives] o dalle impostazioni della campagna e del gruppo di annunci.  È inoltre possibile modificare e modificare lo stato dei posizionamenti attivi e in pausa ed eliminare i posizionamenti negativi.
 
 >[!NOTE]
 >
@@ -30,6 +30,6 @@ Puoi creare posizionamenti per un gruppo di annunci dalla sezione [!UICONTROL Pl
 
 >[!MORELIKETHIS]
 >
->* [Gestire i posizionamenti che è possibile fare offerte](placement-manage.md)
->* [Creare posizionamenti negativi](placement-negative-create.md)
->* [Modificare lo stato dei posizionamenti e dei posizionamenti negativi](placement-status-edit.md)
+>* [Gestione dei posizionamenti che è possibile fare offerte](placement-manage.md)
+>* [Crea posizionamenti negativi](placement-negative-create.md)
+>* [Modifica lo stato dei posizionamenti e dei posizionamenti negativi](placement-status-edit.md)

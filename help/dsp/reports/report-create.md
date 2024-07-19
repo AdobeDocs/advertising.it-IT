@@ -12,17 +12,17 @@ ht-degree: 0%
 
 # Creare un rapporto personalizzato
 
-1. Nel menu principale, fai clic su **[!UICONTROL Reports]**.
-1. Clic **[!UICONTROL New Custom Report]**.
-1. Specifica la [impostazioni dei rapporti](/help/dsp/reports/report-settings.md).
-1. Clic **[!UICONTROL Create Custom Report]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Reports]**.
+1. Fare clic su **[!UICONTROL New Custom Report]**.
+1. Specifica le [impostazioni report](/help/dsp/reports/report-settings.md).
+1. Fare clic su **[!UICONTROL Create Custom Report]**.
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni sui report personalizzati](/help/dsp/reports/report-about.md)
->* [Duplicare un rapporto personalizzato](/help/dsp/reports/report-copy.md)
->* [Modificare un rapporto personalizzato](/help/dsp/reports/report-edit.md)
->* [Eliminare un rapporto personalizzato](/help/dsp/reports/report-delete.md)
+>* [Duplica un report personalizzato](/help/dsp/reports/report-copy.md)
+>* [Modifica un report personalizzato](/help/dsp/reports/report-edit.md)
+>* [Eliminare un report personalizzato](/help/dsp/reports/report-delete.md)
 >* [Impostazioni report personalizzati](/help/dsp/reports/report-settings.md)
->* [Tipi di rapporti sulle prestazioni nelle visualizzazioni di Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Tipi di report sulle prestazioni nelle visualizzazioni di Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Colonne report disponibili](/help/dsp/reports/report-columns.md)

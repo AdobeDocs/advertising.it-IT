@@ -14,19 +14,19 @@ ht-degree: 0%
 
 ## Modificare gli Schedules degli annunci per uno o più posizionamenti
 
-Puoi modificare le date dei voli programmati e la rotazione degli annunci per gli annunci associati a più posizionamenti utilizzando un’ [!DNL Microsoft Excel] foglio di calcolo. Ogni annuncio può essere attivo durante più voli.
+È possibile modificare le date dei voli programmati e la rotazione degli annunci per gli annunci associati a più posizionamenti utilizzando un foglio di calcolo [!DNL Microsoft Excel]. Ogni annuncio può essere attivo durante più voli.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 
 1. Fai clic sul nome della campagna.
 
-1. Nel sottomenu, fai clic su **[!UICONTROL Placements]**.
+1. Nel sottomenu fare clic su **[!UICONTROL Placements]**.
 
 1. Seleziona la casella di controllo accanto a ciascun posizionamento di cui desideri scaricare i dati dell’annuncio.
 
-1. Nella barra degli strumenti Azioni in blocco, fai clic su **[!UICONTROL ...]** > **[!UICONTROL Download Custom Ad Schedule Sheet]**.
+1. Nella barra degli strumenti Azioni in blocco fare clic su **[!UICONTROL ...]** > **[!UICONTROL Download Custom Ad Schedule Sheet]**.
 
-1. Quando il file è disponibile, fai clic su **[!UICONTROL Download]** nella notifica nella parte superiore della pagina del browser per scaricare un file del foglio di lavoro (in formato XLSX) in base alla normale procedura del browser.
+1. Quando il file è disponibile, fare clic su **[!UICONTROL Download]** nella notifica nella parte superiore della pagina del browser per scaricare un file del foglio di lavoro (in formato XLSX) in base alla normale procedura del browser.
 
    ![Scarica notifica pronta](/help/dsp/assets/download-ready.png "Scarica notifica pronta")
 
@@ -36,15 +36,15 @@ Puoi modificare le date dei voli programmati e la rotazione degli annunci per gl
 
    * **[!UICONTROL Flight N Weight]** (ad esempio [!UICONTROL Flight 1 Weight]): come ruotare gli annunci per un volo. Immetti un valore:
 
-      * Per ruotare gli annunci di un volo in modo uniforme, immetti `[!UICONTROL Even]`.
+      * Per ruotare gli annunci di un volo in modo uniforme, immettere `[!UICONTROL Even]`.
 
-      * Per ruotare gli annunci di un volo in modo non uniforme, immettere il peso relativo in base al quale ruotare ogni annuncio, come percentuale (ad esempio `40` 40%). Il peso totale del volo deve essere pari a 100.
+      * Per ruotare gli annunci di un volo in modo non uniforme, immettere il peso relativo in base al quale ruotare ogni annuncio, come percentuale (ad esempio `40` per il 40%). Il peso totale del volo deve essere pari a 100.
 
 1. Carica il modello di pianificazione modificato:
 
    1. Selezionare la casella di controllo accanto a ogni posizionamento applicabile.
 
-   1. Nella barra degli strumenti Azioni in blocco, fai clic su **[!UICONTROL ...]** > **[!UICONTROL Upload Custom Ad Schedule Sheet]** e specificare il file da caricare.
+   1. Nella barra degli strumenti Azioni in blocco fare clic su **[!UICONTROL ...]** > **[!UICONTROL Upload Custom Ad Schedule Sheet]** e specificare il file da caricare.
 
 ## Modificare la pianificazione degli annunci per un singolo posizionamento
 
@@ -52,33 +52,33 @@ Puoi modificare le date dei voli programmati e la rotazione degli annunci per gl
 
 Puoi modificare le date dei voli programmati e la rotazione degli annunci per gli annunci allegati a un posizionamento. Ogni annuncio può essere attivo durante più voli.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 
 1. Fai clic sul nome della campagna.
 
-1. Nel sottomenu, fai clic su **[!UICONTROL Placements]**.
+1. Nel sottomenu fare clic su **[!UICONTROL Placements]**.
 
-1. Accanto al nome del posizionamento, fate clic su  **[!UICONTROL ...]** > **[!UICONTROL Ad schedule]**.
+1. Accanto al nome del posizionamento, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Ad schedule]**.
 
 1. Effettua una delle seguenti operazioni:
 
-   * Per aggiungere un volo, fai clic su **[!UICONTROL Add Flight]** e quindi specificare la data di inizio e la data di fine.
+   * Per aggiungere un volo, fare clic su **[!UICONTROL Add Flight]** e quindi specificare la data di inizio e la data di fine.
 
-   * Per aggiungere un volo esistente a un annuncio, fai clic su **[!UICONTROL +]** nella riga annuncio per la colonna volo.
+   * Per aggiungere un volo esistente a un annuncio, fare clic su **[!UICONTROL +]** nella riga annuncio per la colonna volo.
 
-   * Per rimuovere un volo esistente da un annuncio, fai clic su **[!UICONTROL x]** nella riga annuncio per la colonna volo.
+   * Per rimuovere un volo esistente da un annuncio, fare clic su **[!UICONTROL x]** nella riga annuncio per la colonna volo.
 
-      * (Quando più annunci hanno lo stesso volo) Per ruotare gli annunci in modo non uniforme, fai clic su **[!UICONTROL Even Rotation]** nelle informazioni sul volo, quindi immettere il peso relativo in base al quale ruotare ogni annuncio, come percentuale.
+      * (Quando più annunci hanno lo stesso volo) Per ruotare gli annunci in modo non uniforme, fare clic su **[!UICONTROL Even Rotation]** nelle informazioni sul volo, quindi immettere il peso relativo in base al quale ruotare ogni annuncio, come percentuale.
 
         Il peso totale deve essere uguale a 100.
 
-1. In alto a destra, fai clic su **[!UICONTROL Continue]**.
+1. In alto a destra, fare clic su **[!UICONTROL Continue]**.
 
-1. Rivedi i dettagli del volo, quindi fai clic su **[!UICONTROL Save & Finish]**.
+1. Rivedere i dettagli del volo, quindi fare clic su **[!UICONTROL Save & Finish]**.
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulla gestione del posizionamento](placement-about.md)
 >* [Modifica posizionamenti](placement-edit.md)
->* [Visualizzare il log delle modifiche per un posizionamento](placement-change-log.md)
->* [Impostazioni di posizionamento](placement-settings.md)
+>* [Visualizza il log delle modifiche per un posizionamento](placement-change-log.md)
+>* [Impostazioni posizionamento](placement-settings.md)

@@ -1,9 +1,9 @@
 ---
 title: Interruzione di un processo di bulksheet in corso
 description: Scopri come interrompere un processo bulksheet mentre è in corso.
-exl-id: bfdc3c65-8dfc-4683-a39d-05d40078fd2d
+exl-id: 10577dcf-3b86-49f1-8e3a-ccfe56fffe84
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 È possibile interrompere qualsiasi processo di bulksheet, inclusa la registrazione di un file, mentre è ancora in corso.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
 
 1. Selezionare la casella di controllo accanto a ogni attività che si desidera interrompere.
 
-1. Nella barra degli strumenti sopra la tabella dati, fai clic su **[!UICONTROL Stop job]**.
+1. Nella barra degli strumenti sopra la tabella dati, fare clic su **[!UICONTROL Stop job]**.
 
-1. Nel messaggio di conferma, fai clic su **[!UICONTROL O]**.
+1. Nel messaggio di conferma, fare clic su **[!UICONTROL O]**.
 
 >[!NOTE]
 >

@@ -16,23 +16,23 @@ ht-degree: 0%
 >
 >Per modificare i pixel di tracciamento di terze parti per più annunci contemporaneamente, vedi &quot;[Allega annunci ai posizionamenti](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot;
 
-1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 
 1. Fai clic sul nome della campagna.
 
-1. Nel sottomenu, fai clic su **[!UICONTROL Ads]**.
+1. Nel sottomenu fare clic su **[!UICONTROL Ads]**.
 
-1. Accanto al nome dell’annuncio, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+1. Accanto al nome dell&#39;annuncio, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
-1. Modifica le impostazioni annuncio per [annunci audio](ad-settings-audio.md), [TV collegata](ad-settings-connected-tv.md), [annunci display](ad-settings-display.md), [annunci per dispositivi mobili](ad-settings-mobile.md), [annunci nativi](ad-settings-native.md), [annunci pre-roll](ad-settings-pre-roll.md), o [annunci video universali](ad-settings-universal-video.md).
+1. Modifica le impostazioni degli annunci per [annunci audio](ad-settings-audio.md), [TV connessa](ad-settings-connected-tv.md), [annunci di visualizzazione](ad-settings-display.md), [annunci per dispositivi mobili](ad-settings-mobile.md), [annunci nativi](ad-settings-native.md), [annunci pre-roll](ad-settings-pre-roll.md) o [annunci video universali](ad-settings-universal-video.md).
 
    >[!NOTE]
    >
    >Per modificare l’URL di un annuncio, effettua prima un nuovo traffico sul server dell’annuncio.
 
-1. Clic **[!UICONTROL Save and Close]**.
+1. Fare clic su **[!UICONTROL Save and Close]**.
 
-   L’annuncio modificato passa attraverso un nuovo [recensione annuncio](ad-about.md), che richiede 24-48 ore e include controlli per le categorie sensibili, fai clic su Funzionalità URL e rendering dell’anteprima. Il [!UICONTROL Status] indica se l’DSP ha approvato l’annuncio. Gli annunci interrotti possono avere uno stato in sospeso per più di 24-48 ore, pertanto hai il tempo di correggere gli errori prima che vengano rifiutati.
+   L&#39;annuncio modificato viene sottoposto a una nuova [revisione dell&#39;annuncio](ad-about.md), che richiede 24-48 ore e include verifiche per le categorie sensibili, fare clic su Funzionalità URL e rendering dell&#39;anteprima. La colonna [!UICONTROL Status] indica se l&#39;DSP ha approvato l&#39;annuncio. Gli annunci interrotti possono avere uno stato in sospeso per più di 24-48 ore, pertanto hai il tempo di correggere gli errori prima che vengano rifiutati.
 
    >[!NOTE]
    >
@@ -40,9 +40,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sulla gestione degli annunci](ad-about.md)
->* [Creare un singolo annuncio](ad-create.md)
->* [Creare più annunci di terze parti](ad-create-multiple.md)
->* [Duplicare un annuncio](ad-duplicate.md)
->* [Elencare i posizionamenti associati a un annuncio](ad-list-placements.md)
+>* [Informazioni Sulla Gestione Degli Annunci](ad-about.md)
+>* [Crea un annuncio singolo](ad-create.md)
+>* [Creazione di più annunci di terze parti](ad-create-multiple.md)
+>* [Duplica un annuncio](ad-duplicate.md)
+>* [Elenca i posizionamenti associati a un annuncio](ad-list-placements.md)
 >* [Specifiche annuncio](ad-specs.md)

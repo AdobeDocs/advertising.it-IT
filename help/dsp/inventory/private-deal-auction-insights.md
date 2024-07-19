@@ -12,33 +12,33 @@ ht-degree: 0%
 
 # Visualizza informazioni sulle aste per un&#39;offerta privata
 
-Auction Insights è uno strumento di risoluzione dei problemi che ti consente di analizzare la composizione delle offerte private garantite e non garantite. Utilizzando le visualizzazioni dati, questo strumento mostra la tendenza e le proporzioni relative dei valori ricevuti per [attributi chiave dell’asta](#auction-attributes) entro un periodo di tempo specifico.
+Auction Insights è uno strumento di risoluzione dei problemi che ti consente di analizzare la composizione delle offerte private garantite e non garantite. Utilizzando le visualizzazioni dati, questo strumento mostra la tendenza e le proporzioni relative dei valori ricevuti per [attributi chiave dell&#39;asta](#auction-attributes) in un periodo di tempo specifico.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
+1. Nel menu principale, fare clic su **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. Nella riga dell’offerta, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]**.
+1. Nella riga dell&#39;offerta, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]**.
 
 >[!NOTE]
 >
->Gli Approfondimenti Asta sono disponibili anche tramite il posizionamento [!UICONTROL Inspector] strumento. Per aprirle, [aprire il posizionamento [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) al [!UICONTROL Inventory tab]e quindi fare clic su **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]** nella riga dell&#39;offerta.
+>Informazioni sulle inserzioni sono disponibili anche tramite lo strumento di posizionamento [!UICONTROL Inspector]. Per aprirli, [apri il posizionamento [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) in [!UICONTROL Inventory tab], quindi fai clic su **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]** nella riga dell&#39;offerta.
 
 ## Attributi Asta {#auction-attributes}
 
 I grafici a superficie sono disponibili per i seguenti attributi d&#39;asta:
 
-* **Tipo di annuncio:** Il tipo di annuncio richiesto nell’asta (ad esempio Display o Audio).
+* **Tipo annuncio:** Il tipo di annuncio richiesto nell&#39;asta (ad esempio Visualizzazione o Audio).
 
-* **Browser:** Il browser da cui ha avuto origine l’asta (ad esempio Chrome o Firefox).
+* **Browser:** il browser da cui ha avuto origine l&#39;asta (ad esempio Chrome o Firefox).
 
-* **Sistema operativo:** Sistema operativo (OS) da cui ha avuto origine l’asta (ad esempio Android o iOS).
+* **OS:** il sistema operativo da cui ha avuto origine l&#39;asta (ad esempio Android o iOS).
 
-* **Tipo di dispositivo:** Il dispositivo da cui ha avuto origine l’asta (ad esempio telefono cellulare o desktop).
+* **Tipo di dispositivo:** il dispositivo da cui ha avuto origine l&#39;asta (ad esempio telefono cellulare o desktop).
 
-* **Durata annuncio:** La durata massima dell’annuncio richiesta nell’asta (ad esempio 15 o 30 secondi).
+* **Durata annuncio:** la durata massima dell&#39;annuncio richiesta nell&#39;asta (ad esempio 15 o 30 secondi).
 
-* **Protetto:** Indica se l’asta richiede una risorsa creativa URL HTTPS sicura. Valori: <i>Protetto</i> o <i>Non protetto</i>.
+* **Protetto:** indica se l&#39;asta richiede una risorsa creativa URL HTTPS sicura. Valori: <i>Protetto</i> o <i>Non protetto</i>.
 
-* **Tipo MIME:** Tipo MIME dell’annuncio richiesto nell’asta (ad esempio mp4 o mov).
+* **Tipo MIME:** Il tipo MIME di annunci creativi richiesto nell&#39;asta (ad esempio mp4 o mov).
 
 ![informazioni sulle aste](/help/dsp/assets/auction-insights.png)
 
@@ -48,7 +48,7 @@ I grafici a superficie sono disponibili per i seguenti attributi d&#39;asta:
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sull’inventario privato](private-inventory-about.md)
+>* [Informazioni Sull&#39;Inventario Privato](private-inventory-about.md)
 >* [Specifica posizionamenti e annunci per un ID offerta](deal-id-attach-placements.md)
->* [Visualizzare un rapporto dettagliato per un&#39;offerta](deal-view-report.md)
->* [Tipi di rapporti sulle prestazioni nelle visualizzazioni di Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Visualizza un report dettagliato per un&#39;offerta](deal-view-report.md)
+>* [Tipi di report sulle prestazioni nelle visualizzazioni di Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)

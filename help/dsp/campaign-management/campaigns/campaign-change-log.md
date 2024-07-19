@@ -16,23 +16,22 @@ I registri di modifica mostrano le modifiche apportate alla campagna durante lâ€
 
 Ãˆ possibile ordinare i dati in base a qualsiasi colonna ad eccezione di Nuovo valore e Vecchio valore.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 
-1. Accanto al nome della campagna, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
+1. Accanto al nome della campagna, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
 
 1. (Facoltativo) Effettuate una delle seguenti operazioni:
 
-   * Per passare dalla visualizzazione dei dati solo nelle tabelle e alle tabelle e nei grafici, fare clic su ![Visualizzazione tabella e grafico](/help/dsp/assets/table-plus-chart-view.png "Visualizzazione tabella e grafico") o ![Vista tabella](/help/dsp/assets/table-view.png "Vista tabella") nella barra degli strumenti superiore destra.
+   * Per passare dalla visualizzazione dei dati solo nelle tabelle alla visualizzazione nei grafici e viceversa, fare clic su ![Tabella e visualizzazione grafico](/help/dsp/assets/table-plus-chart-view.png "Tabella e visualizzazione grafico") o ![Vista tabella](/help/dsp/assets/table-view.png "Vista tabella") nella barra degli strumenti superiore destra.
 
-   * Per aggiungere una nota a una voce, tenere premuto il cursore sul [!UICONTROL Notes] per la riga e quindi fare clic su **[!UICONTROL Add Notes]**. Immettere il testo nei campi di input, quindi fare clic su **[!UICONTROL Save]**.
+   * Per aggiungere una nota a una voce, posizionare il cursore sulla colonna [!UICONTROL Notes] della riga, quindi fare clic su **[!UICONTROL Add Notes]**. Immettere il testo nei campi di input, quindi fare clic su **[!UICONTROL Save]**.
 
-   * Per visualizzare i dettagli di una voce in una finestra popup, tenere premuto il cursore sul [!UICONTROL Notes] per la riga e quindi fare clic su **[!UICONTROL More]>[!UICONTROL View Details]**.
+   * Per visualizzare i dettagli di una voce in una finestra popup, posizionare il cursore sulla colonna [!UICONTROL Notes] della riga, quindi fare clic su **[!UICONTROL More]>[!UICONTROL View Details]**.
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni su Campaign Management](campaign-about.md)
->* [Creare una campagna](campaign-create.md)
->* [Modificare una campagna](campaign-edit.md)
+>* [Crea una campagna](campaign-create.md)
+>* [Modifica una campagna](campaign-edit.md)
 >* [Impostazioni campagna](campaign-settings.md)
->* [Sospendere o attivare una campagna](campaign-pause-activate.md)
-
+>* [Sospendi o attiva una campagna](campaign-pause-activate.md)

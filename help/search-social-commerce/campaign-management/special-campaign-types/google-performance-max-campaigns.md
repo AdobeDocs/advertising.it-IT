@@ -1,45 +1,45 @@
 ---
-title: Implementare [!DNL Google Ads] campagne con prestazione massima
-description: Scopri il flusso di lavoro per la configurazione di [!DNL Google Ads] numero massimo di campagne con prestazioni.
-exl-id: afad96b2-d4a6-41ee-ad84-38aa1306d73e
+title: Implementa  [!DNL Google Ads]  campagne con prestazione massima
+description: Scopri il flusso di lavoro per la configurazione di  [!DNL Google Ads]  campagne con prestazione massima.
+exl-id: 4208774c-e4dd-499d-987e-933fe073c04f
 feature: Search Campaign Management
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
 
 ---
 
-# Implementare [!DNL Google Ads] campagne con prestazione massima
+# Implementa [!DNL Google Ads] campagne con prestazione massima
 
-In entrata [!DNL Google Ads] con il numero massimo di campagne, non puoi impostare gruppi di annunci, annunci o parole chiave. Nelle impostazioni della campagna puoi invece specificare uno o più gruppi di risorse, che includono titoli, descrizioni e immagini caricate, loghi e [!DNL YouTube videos]. [!DNL Google Ads] combina automaticamente le risorse per distribuire gli annunci in base al canale (ad esempio [!DNL YouTube], [!DNL Gmail], o [!DNL Search]).
+Nelle campagne con prestazione massima di [!DNL Google Ads], non puoi impostare gruppi di annunci, annunci o parole chiave. Nelle impostazioni della campagna puoi invece specificare uno o più gruppi di risorse, che includono titoli, descrizioni e immagini caricate, loghi e [!DNL YouTube videos]. [!DNL Google Ads] combina automaticamente le risorse per distribuire annunci in base al canale (ad esempio [!DNL YouTube], [!DNL Gmail] o [!DNL Search]).
 
-Puoi visualizzare le campagne con prestazione massima esistenti, con i dati sulle prestazioni in formato tabella e grafico dell’andamento, nel [!DNL Campaigns] vista; i dati non sono disponibili ai livelli inferiori. I dati sulle prestazioni a livello di campagna sono disponibili anche nei rapporti e in Adobe Analytics (per gli inserzionisti con un’ [Integrazione di Analytics](/help/integrations/analytics/overview.md). Per visualizzare i dati sulle prestazioni per le campagne con prestazione massima in [!DNL Analytics], la campagna deve utilizzare [codice di tracciamento AMO ID aggiornato](/help/integrations/analytics/ids.md#amo-id-formats) (che tiene traccia dell’ID della campagna e dell’ID del gruppo di annunci).
+Nella visualizzazione [!DNL Campaigns] è possibile visualizzare le campagne con prestazione massima esistenti, con i dati sulle prestazioni in formato tabella e grafico dell&#39;andamento. I dati non sono disponibili ai livelli inferiori. I dati sulle prestazioni a livello di campagna sono disponibili anche nei report e in Adobe Analytics (per gli inserzionisti con un&#39;integrazione di [Analytics](/help/integrations/analytics/overview.md). Per visualizzare i dati sulle prestazioni per le campagne con prestazione massima in [!DNL Analytics], la campagna deve utilizzare il [codice di tracciamento AMO ID aggiornato](/help/integrations/analytics/ids.md#amo-id-formats) (che tiene traccia dell&#39;ID della campagna e dell&#39;ID del gruppo di annunci).
 
 >[!NOTE]
 >
->* È necessario caricare manualmente tutti i file di immagine. Collegamenti a [!DNL Google Merchant Center] i feed di prodotto non sono supportati.
->* Sono disponibili solo le impostazioni richieste. Per le impostazioni facoltative, accedi a [!DNL Google Ads] editor.
->* Il supporto per i gruppi di voci non è disponibile. Per gestire e visualizzare i dati per l’elenco dei gruppi, accedi a [!DNL Google Ads] editor.
+>* È necessario caricare manualmente tutti i file di immagine. I collegamenti ai feed di prodotto [!DNL Google Merchant Center] non sono supportati.
+>* Sono disponibili solo le impostazioni richieste. Per le impostazioni facoltative, accedere all&#39;editor [!DNL Google Ads].
+>* Il supporto per i gruppi di voci non è disponibile. Per gestire e visualizzare i dati per l&#39;elenco dei gruppi, accedere all&#39;editor [!DNL Google Ads].
 
 ## Passaggi per impostare [!DNL Google Ads] campagne con prestazione massima
 
-Puoi impostare le campagne con prestazione massima singolarmente dalla [!UICONTROL Campaigns] > [!UICONTROL Campaigns] visualizzazione.
+Puoi impostare le campagne con prestazione massima singolarmente dalla vista [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
 
-1. [Creare una campagna](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) con tipo di campagna **[!UICONTROL Performance Max]**.
+1. [Crea una campagna](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) con tipo di campagna **[!UICONTROL Performance Max]**.
 
-   Specifica la [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Campaign Targeting], e [!UICONTROL URL Options]. È possibile inserire [!UICONTROL Negative Keywords], immetti [!UICONTROL Negative Websites], e/o sovrascrivere [!UICONTROL Campaign Tracking] opzioni.
+   Specificare [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Campaign Targeting] e [!UICONTROL URL Options]. È possibile immettere [!UICONTROL Negative Keywords], immettere [!UICONTROL Negative Websites] e/o sostituire le opzioni [!UICONTROL Campaign Tracking].
 
 1. Crea gruppi di risorse e carica le risorse per la campagna:
 
-   1. Nella parte inferiore delle impostazioni della campagna, fai clic su **[!UICONTROL Manage Asset Groups]**.
+   1. Nella parte inferiore delle impostazioni della campagna, fare clic su **[!UICONTROL Manage Asset Groups]**.
 
    1. Specifica le impostazioni per il primo gruppo di risorse e carica immagini, logo e video facoltativi per il gruppo di risorse.
 
-      Consulta [descrizioni delle impostazioni del gruppo di risorse](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) per comprendere i requisiti e le specifiche.
+      Per informazioni sui requisiti e le specifiche, consulta le [descrizioni delle impostazioni del gruppo di risorse](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).
 
    1. Se necessario, aggiungi altri gruppi di risorse.
 
-1. Clic **[!UICONTROL Post]**.
+1. Fare clic su **[!UICONTROL Post]**.
 
 1. (Facoltativo) Aggiungi la campagna a un portfolio ibrido per l’ottimizzazione.

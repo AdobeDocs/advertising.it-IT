@@ -7,7 +7,7 @@ ht-degree: 0%
 ---
 # Campo Dominio del sito Web nelle impostazioni delle campagne di ricerca GGL e MS
 
-**[!UICONTROL Website Domain]:** (Solo rete di ricerca; applicabile solo agli annunci di ricerca dinamica espansi) Il dominio principale (ad esempio example.com) o il sottodominio (ad esempio shoes.example.com) del sito web di cui la rete di annunci deve utilizzare il contenuto per eseguire il targeting degli annunci di ricerca dinamica.
+**[!UICONTROL Website Domain]:** (solo rete di ricerca; applicabile solo agli annunci di ricerca dinamica espansi) Il dominio principale (ad esempio example.com) o il sottodominio (ad esempio shoes.example.com) del sito Web di cui la rete di annunci deve utilizzare il contenuto per eseguire il targeting degli annunci di ricerca dinamica.
 
 **Note:**
 

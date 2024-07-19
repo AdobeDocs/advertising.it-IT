@@ -1,22 +1,22 @@
 ---
-title: Eliminare un [!DNL Advertising Insight]
+title: Elimina un  [!DNL Advertising Insight]
 description: Scopri come eliminare un [!DNL Advertising Insight].
-exl-id: c7c619c0-f6d7-4764-8f08-7d19c5b39772
+exl-id: d8eb5991-aee4-4b28-9633-51eff2def599
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 0%
 
 ---
 
-# Eliminare un [!DNL Advertising Insight]
+# Elimina un [!DNL Advertising Insight]
 
-1. Nel menu principale, fai clic su **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Advertising Insights]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Advertising Insights]**.
 
-2. Nel menu a sinistra, fai clic su ![Rapporti](/help/search-social-commerce/assets/insight-reports.png "Rapporti").
+2. Nel menu a sinistra, fai clic su ![Report](/help/search-social-commerce/assets/insight-reports.png "Report").
 
-3. In [!UICONTROL Report History] , posizionare il cursore sull&#39;istanza del report e quindi fare clic su ![Elimina](/help/search-social-commerce/assets/insight-delete.png "Elimina").
+3. Nel pannello [!UICONTROL Report History], posizionare il cursore sull&#39;istanza del report, quindi fare clic su ![Elimina](/help/search-social-commerce/assets/insight-delete.png "Elimina").
 
 >[!MORELIKETHIS]
 >

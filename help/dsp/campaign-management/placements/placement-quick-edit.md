@@ -18,24 +18,24 @@ Puoi modificare il nome del posizionamento, lo stato, l’offerta massima e il b
 
 >[!TIP]
 >
-> Per modificare un’impostazione di posizionamento, vedi &quot;[Modifica posizionamenti](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
+> Per modificare qualsiasi impostazione di posizionamento, vedi &quot;[Modifica posizionamenti](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
 
-1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 1. Fai clic sul nome della campagna.
-1. Nel sottomenu, fai clic su **[!UICONTROL Placements]**.
-1. Accanto al nome del posizionamento, fate clic su  **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
-1. Modifica uno dei [impostazioni di posizionamento](placement-settings.md):  **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]**, e **[!UICONTROL Budget]**.
-1. Clic **[!UICONTROL Apply]**.
+1. Nel sottomenu fare clic su **[!UICONTROL Placements]**.
+1. Accanto al nome del posizionamento, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
+1. Modificare le [impostazioni di posizionamento](placement-settings.md) disponibili: **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]** e **[!UICONTROL Budget]**.
+1. Fare clic su **[!UICONTROL Apply]**.
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulla gestione del posizionamento](placement-about.md)
->* [Creare un posizionamento](placement-create.md)
+>* [Crea un posizionamento](placement-create.md)
 >* [Modifica posizionamenti](placement-edit.md)
 >* [Duplicare un posizionamento](placement-duplicate.md)
 >* [Gestire i moltiplicatori delle offerte per i posizionamenti](placement-manage-bid-multipliers.md)
->* [Modificare gli Schedules degli annunci per i posizionamenti](placement-edit-ad-schedule.md)
->* [Sospendere o attivare un posizionamento](placement-pause-activate.md)
->* [Visualizzare il log delle modifiche per un posizionamento](placement-change-log.md)
->* [Impostazioni di posizionamento](placement-settings.md)
+>* [Modifica gli Schedules per i posizionamenti](placement-edit-ad-schedule.md)
+>* [Sospendi o attiva un posizionamento](placement-pause-activate.md)
+>* [Visualizza il log delle modifiche per un posizionamento](placement-change-log.md)
+>* [Impostazioni posizionamento](placement-settings.md)
 >* [Video: come modificare i posizionamenti utilizzando gli strumenti di modifica in blocco](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

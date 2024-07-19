@@ -1,30 +1,30 @@
 ---
-title: Adobe Advertising Acceptable Health Segments (Segmenti di salute accettabili per la pubblicità)
+title: Adobe Advertising di segmenti di integrità accettabili
 description: Consulta le linee guida per segmenti di pubblico e tattiche accettabili relative allo stato da utilizzare come alternative al targeting di segmenti di pubblico relativi allo stato.
 feature: Policies
 exl-id: 121129e3-3d4b-4478-9cfd-cb16c1eb67de
 source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
 
-# Linee guida per i segmenti sanitari accettabili per Adobe Advertising
+# Adobe Advertising di linee guida per i segmenti di integrità accettabili
 
-*Ad Adobe, per la pubblicità DSP e[!DNL Adobe Advertising Search, Social, & Commerce]*
+*Ad Adobe Advertising DSP e[!DNL Adobe Advertising Search, Social, & Commerce]*
 
 Le seguenti linee guida delineano segmenti di pubblico inaccettabili e relativi allo stato di salute. Consigliano inoltre tattiche da utilizzare come alternativa al targeting di segmenti di pubblico relativi allo stato di salute.
 
-Le presenti linee guida sono riassunte dalla [!DNL Network Advertising Alliance (NAI)].
+Queste linee guida sono riepilogate da [!DNL Network Advertising Alliance (NAI)].
 
-Vedi anche [Adobe di criteri per i requisiti degli annunci pubblicitari](/help/policies/ad-requirements-policy.md) per determinare se un segmento di pubblico relativo allo stato di salute è utilizzabile in base ai criteri di targeting per la pubblicità di Adobe.
+Consulta anche [Adobe Advertising Ads Requirements Policy](/help/policies/ad-requirements-policy.md) per determinare se un segmento di pubblico relativo allo stato è utilizzabile in base al criterio di targeting Adobe Advertising.
 
 ## Segmenti di integrità che non devono essere utilizzati
 
 * Segmenti che si basano su informazioni sanitarie protette (PHI)\*, cartelle cliniche a livello di utente, prescrizioni farmaceutiche o fonti mediche simili che forniscono una conoscenza effettiva della condizione o del trattamento dell’utente.
 
-   \* La pubblicità Adobe non è una [!DNL HIPAA]soluzione pronta.
+  \* Adobe Advertising non è una soluzione pronta per [!DNL HIPAA].
 
 * Segmenti che hanno come target le condizioni di salute (o trattamenti correlati), come qualsiasi forma di cancro, salute mentale, tossicodipendenza, malattie a trasmissione sessuale, condizioni che colpiscono prevalentemente i bambini, o altre condizioni di salute sensibili che non possono essere trattate con farmaci da banco (ad esempio, diabete, psoriasi, artrite reumatoide o malattie fibromialgia).
 
@@ -50,5 +50,4 @@ Tutte le seguenti condizioni devono essere soddisfatte:
 
 >[!MORELIKETHIS]
 >
->* [Criterio dei requisiti per gli annunci](/help/policies/ad-requirements-policy.md)
-
+>* [Criteri requisiti annunci](/help/policies/ad-requirements-policy.md)

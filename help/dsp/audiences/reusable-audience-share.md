@@ -16,25 +16,24 @@ Se non stai già condividendo un pubblico con gli inserzionisti disponibili per 
 
 Una volta che condividi un pubblico, non puoi più interromperne la condivisione.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
-1. Posiziona il cursore sulla riga del pubblico e fai clic su **[!UICONTROL Share]**.
+1. Posizionare il cursore sulla riga del pubblico e fare clic su **[!UICONTROL Share]**.
 
-1. Seleziona l’opzione per **[!UICONTROL Share with all advertisers in my account]**.
+1. Selezionare l&#39;opzione per **[!UICONTROL Share with all advertisers in my account]**.
 
-1. Clic **[!UICONTROL Save]**.
+1. Fare clic su **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni su Gestione dell&#39;audience](audience-about.md)
->* [Creare un pubblico riutilizzabile](reusable-audience-create.md)
->* [Duplicare un pubblico riutilizzabile](reusable-audience-duplicate.md)
->* [Modificare un pubblico riutilizzabile](reusable-audience-edit.md)
->* [Visualizzare dettagli su un pubblico riutilizzabile](reusable-audience-view-details.md)
->* [Esportare un pubblico riutilizzabile](reusable-audience-export.md)
->* [Copiare negli Appunti la chiave del segmento di un pubblico riutilizzabile](reusable-audience-clipboard.md)
+>* [Crea un pubblico riutilizzabile](reusable-audience-create.md)
+>* [Duplica un pubblico riutilizzabile](reusable-audience-duplicate.md)
+>* [Modifica un pubblico riutilizzabile](reusable-audience-edit.md)
+>* [Visualizza dettagli su un pubblico riutilizzabile](reusable-audience-view-details.md)
+>* [Esporta un pubblico riutilizzabile](reusable-audience-export.md)
+>* [Copia negli Appunti la chiave del segmento per un pubblico riutilizzabile](reusable-audience-clipboard.md)
 >* [Eliminare un pubblico riutilizzabile](reusable-audience-delete.md)
 >* [Impostazioni pubblico](audience-settings.md)
->* [Sintassi della logica dei segmenti di pubblico](audience-segment-logic-syntax.md)
+>* [Sintassi per la logica dei segmenti di pubblico](audience-segment-logic-syntax.md)
 >* [Provider di dati di terze parti disponibili](third-party-data-providers.md)
-

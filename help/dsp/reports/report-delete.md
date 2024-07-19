@@ -12,16 +12,15 @@ ht-degree: 0%
 
 # Eliminare un rapporto personalizzato
 
-1. Nel menu principale, fai clic su **[!UICONTROL Reports]**.
-1. In [!UICONTROL Options] per la riga del rapporto, fai clic su **[!UICONTROL options]** > **[!UICONTROL Delete]**.
-1. Nel messaggio di conferma, fai clic su **[!UICONTROL OK]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Reports]**.
+1. Nella colonna [!UICONTROL Options] della riga del report, fare clic su **[!UICONTROL options]** > **[!UICONTROL Delete]**.
+1. Nel messaggio di conferma, fare clic su **[!UICONTROL OK]**.
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni sui report personalizzati](/help/dsp/reports/report-about.md)
->* [Creare un rapporto personalizzato](/help/dsp/reports/report-create.md)
->* [Duplicare un rapporto personalizzato](/help/dsp/reports/report-copy.md)
->* [Modificare un rapporto personalizzato](/help/dsp/reports/report-edit.md)
+>* [Crea un report personalizzato](/help/dsp/reports/report-create.md)
+>* [Duplica un report personalizzato](/help/dsp/reports/report-copy.md)
+>* [Modifica un report personalizzato](/help/dsp/reports/report-edit.md)
 >* [Impostazioni report personalizzati](/help/dsp/reports/report-settings.md)
 >* [Colonne report disponibili](/help/dsp/reports/report-columns.md)
-

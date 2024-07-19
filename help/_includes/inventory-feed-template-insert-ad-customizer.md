@@ -7,7 +7,7 @@ ht-degree: 0%
 ---
 # Modello di annuncio testuale: nota che spiega come inserire un ad customizer
 
-Per inserire un ad customizer, usa i seguenti formati, dove `Default text` è un valore facoltativo da inserire quando il file di feed non include un valore valido:
+Per inserire un ad customizer, utilizzare i formati seguenti, dove `Default text` è un valore facoltativo da inserire quando il file di feed non include un valore valido:
 
 * [!DNL Google Ads]: `{CUSTOMIZER.AdCustomizerName:Default text}`, ad esempio `{CUSTOMIZER.Discount:10%}`
 

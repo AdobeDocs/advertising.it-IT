@@ -1,40 +1,40 @@
 ---
-title: '''[!DNL Google Ads] impostazioni del gruppo di annunci'
-description: Fai riferimento alle impostazioni per [!DNL Google Ads] gruppi di annunci.
-exl-id: 00aaa936-796f-4e22-9bee-4bb5121cd887
+title: '[!DNL Google Ads] impostazioni gruppo di annunci'
+description: Fai riferimento alle impostazioni per  [!DNL Google Ads]  gruppi di annunci.
+exl-id: def75630-19b9-4676-ad34-5d9041cc3680
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Ads] impostazioni gruppo di annunci
+# Impostazioni gruppo di annunci [!DNL Google Ads]
 
 ## [!UICONTROL Adgroup Details]
 
-**[!UICONTROL Ad Group Name]:** Un nome di gruppo di annunci univoco all’interno della campagna. La lunghezza massima è di 255 caratteri a doppio byte.
+**[!UICONTROL Ad Group Name]:** Nome di un gruppo di annunci univoco all&#39;interno della campagna. La lunghezza massima è di 255 caratteri a doppio byte.
 
 **[!UICONTROL Status]:** Lo stato di visualizzazione del gruppo di annunci: *Attivo* o *In pausa*. Il valore predefinito per i nuovi gruppi di annunci è *Attivo*.
 
-**[!UICONTROL Ad Group Type]:** (Solo campagne pubblicitarie di ricerca dinamica espanse) Il tipo di gruppo di annunci:
+**[!UICONTROL Ad Group Type]:** (solo campagne pubblicitarie di ricerca dinamica espanse) Tipo di gruppo di annunci:
 
 * *[!UICONTROL Search Standard]* (impostazione predefinita): per annunci standard.
 
-* *[!UICONTROL Search Dynamic]:* Per annunci di ricerca dinamica.
+* *[!UICONTROL Search Dynamic]:* per annunci di ricerca dinamica.
 
-**[!UICONTROL Ad Rotation Mode]:** Con quale frequenza [!DNL Google Ads] distribuisce gli annunci attivi in relazione tra loro all’interno del gruppo di annunci:
+**[!UICONTROL Ad Rotation Mode]:** Con quale frequenza [!DNL Google Ads] distribuisce gli annunci attivi tra loro all&#39;interno del gruppo di annunci:
 
-* *[!UICONTROL Optimize]:* Google Ads favorisce gli annunci che si aspetta di fare meglio di altri annunci nel gruppo di annunci. Questi annunci entrano nell’asta pubblicitaria più spesso e nel tempo viene preferito un singolo annuncio. Ciò potrebbe non essere coerente con gli obiettivi aziendali e di ottimizzazione.
+* *[!UICONTROL Optimize]:* Google Ads favorisce gli annunci che prevede di eseguire meglio di altri annunci nel gruppo di annunci. Questi annunci entrano nell’asta pubblicitaria più spesso e nel tempo viene preferito un singolo annuncio. Ciò potrebbe non essere coerente con gli obiettivi aziendali e di ottimizzazione.
 
 * *[!UICONTROL Rotate forever]:*   Ciascuno degli annunci entra nell’asta un numero più uniforme di volte, il che consente a Search, Social e Commerce di valutare i tuoi annunci non solo sul tasso di click-through, ma anche sulle conversioni.
 
-* *[!UICONTROL Use campaign setting]*(impostazione predefinita per i nuovi gruppi di annunci): utilizza l’impostazione di rotazione degli annunci a livello di campagna esistente. **Nota:** L’impostazione a livello di campagna non è visibile in Search, Social &amp; Commerce.
+* *[!UICONTROL Use campaign setting]* (impostazione predefinita per i nuovi gruppi di annunci): utilizza l&#39;impostazione di rotazione degli annunci a livello di campagna esistente. **Nota:** l&#39;impostazione a livello di campagna non è visibile in Ricerca, Social e Commerce.
 
-Se la campagna utilizza una strategia di offerta avanzata (ad esempio [!UICONTROL Target CPA], [!UICONTROL Target ROAS], o [!UICONTROL Enhanced CPC]), quindi [!DNL Google Ads] imposta automaticamente l&#39;opzione su &quot;[!UICONTROL Optimize].&quot;
+Se la campagna utilizza una strategia di offerta avanzata (ad esempio [!UICONTROL Target CPA], [!UICONTROL Target ROAS] o [!UICONTROL Enhanced CPC]), [!DNL Google Ads] imposta automaticamente l&#39;opzione su &quot;[!UICONTROL Optimize]&quot;.
 
-**[!UICONTROL Custom Bid Level]:** (Campagne mirate solo alla rete di visualizzazione) Procedura: *[!UICONTROL Ad Group]* (impostazione predefinita), *[!UICONTROL Age]*, *[!UICONTROL Gender]*, *[!UICONTROL Interest and List]* (Interessi e remarketing in Google Ads), *[!UICONTROL Keyword]*, *[!UICONTROL Placement]* (sito web), *[!UICONTROL Unknown]*, o *[!UICONTROL Vertical]*.
+**[!UICONTROL Custom Bid Level]:** (campagne mirate solo alla rete di visualizzazione) Come fare offerte: da *[!UICONTROL Ad Group]* (impostazione predefinita), *[!UICONTROL Age]*, *[!UICONTROL Gender]*, *[!UICONTROL Interest and List]* (interessi e remarketing in Google Ads), *[!UICONTROL Keyword]*, *[!UICONTROL Placement]* (sito Web), *[!UICONTROL Unknown]* o *[!UICONTROL Vertical]*.
 
 >[!NOTE]
 >
@@ -48,17 +48,17 @@ Se la campagna utilizza una strategia di offerta avanzata (ad esempio [!UICONTRO
 
 {{$include /help/_includes/bid-ad-group.md}}
 
-**[!UICONTROL Target CPA]:** (Campagne con [!UICONTROL Target CPA] offerte; facoltativo) il costo target per acquisizione (CPA) per il gruppo di annunci. Questo valore sostituisce il target a livello di campagna.
+**[!UICONTROL Target CPA]:** (campagne con [!UICONTROL Target CPA] offerte; facoltativo) Il costo target per acquisizione (CPA) per il gruppo di annunci. Questo valore sostituisce il target a livello di campagna.
 
-**[!UICONTROL Target ROAS]:** (Campagne con [!UICONTROL Target ROAS] offerte; facoltativo) il ritorno previsto sulla spesa pubblicitaria (ROAS) per il gruppo di annunci, in percentuale. Questo valore sostituisce il target a livello di campagna.
+**[!UICONTROL Target ROAS]:** (campagne con [!UICONTROL Target ROAS] offerte; facoltativo) Il ROAS (ritorno sugli annunci) di destinazione per il gruppo di annunci, in percentuale. Questo valore sostituisce il target a livello di campagna.
 
 ## [!UICONTROL Ad Group Targeting]
 
-**[!UICONTROL Audience Target Method]:** (Campagne solo sulla rete di ricerca ed esistenti, di sola lettura) [!DNL Gmail] sulla rete di visualizzazione) Se:
+**[!UICONTROL Audience Target Method]:** (campagne solo nella rete di ricerca e campagne [!DNL Gmail] esistenti di sola lettura nella rete di visualizzazione) Se:
 
-* *[!UICONTROL Target and Bid]:* Per mostrare gli annunci solo agli utenti associati ai tipi di pubblico target che soddisfano anche altri target per il gruppo di annunci.
+* *[!UICONTROL Target and Bid]:* Per mostrare annunci solo agli utenti associati ai tipi di pubblico di destinazione che soddisfano anche altri target per il gruppo di annunci.
 
-* *[!UICONTROL Bid Only]:* Mostrare annunci anche a persone non associate a tipi di pubblico di destinazione, purché soddisfino altri target a livello di gruppo di annunci. Tuttavia, puoi aumentare le possibilità che gli annunci vengano mostrati a tipi di pubblico specifici impostando offerte più elevate per tali tipi di pubblico.
+* *[!UICONTROL Bid Only]:* per mostrare annunci anche a persone non associate a tipi di pubblico di destinazione, purché soddisfino altri target a livello di gruppo di annunci. Tuttavia, puoi aumentare le possibilità che gli annunci vengano mostrati a tipi di pubblico specifici impostando offerte più elevate per tali tipi di pubblico.
 
 <!-- **[!UICONTROL Devices]:** -->
 
@@ -88,4 +88,4 @@ Se la campagna utilizza una strategia di offerta avanzata (ad esempio [!UICONTRO
 
 >[!MORELIKETHIS]
 >
->* [Gestire i gruppi di annunci](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
+>* [Gestisci gruppi di annunci](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)

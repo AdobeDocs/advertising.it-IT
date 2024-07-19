@@ -1,35 +1,35 @@
 ---
-title: Utilizzo degli ID Adobe Advertising per la creazione [!DNL Marketing Channels] Regole
-description: Scopri come utilizzare gli ID Adobe Advertising per creare regole di elaborazione per [!DNL Analytics Marketing Channels].
+title: Utilizzo degli ID Adobe Advertising per la creazione di  [!DNL Marketing Channels]  regole
+description: Scopri come utilizzare gli ID Adobe Advertising per creare regole di elaborazione per  [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
 exl-id: 525761b4-607f-4b03-9020-8051009a13c6
 source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
 
-# Utilizzo degli ID Adobe Advertising per la creazione [!DNL Marketing Channels] Regole di elaborazione
+# Utilizzo degli ID Adobe Advertising per creare [!DNL Marketing Channels] regole di elaborazione
 
-*Inserzionisti con un Adobe di integrazione Advertising-Adobe Analytics Only*
+*Inserzionisti con una sola integrazione Adobe Advertising-Adobe Analytics*
 
-Puoi utilizzare gli ID Adobe Advertising ([AMO ID e EF ID](../ids.md)) per configurare [!DNL Marketing Channels] regole di elaborazione in Adobe Analytics. Utilizza gli ID Adobe Advertising per le regole specifiche delle campagne di Adobe Advertising.
+È possibile utilizzare gli ID Adobe Advertising ([AMO ID e EF ID](../ids.md)) per configurare [!DNL Marketing Channels] regole di elaborazione in Adobe Analytics. Utilizza gli ID Adobe Advertising per le regole specifiche delle campagne di Adobe Advertising.
 
 ## AMO ID nelle regole di elaborazione
 
-AMO ID è il codice di tracciamento principale utilizzato per segnalare i dati di Adobe Advertising in [!DNL Analytics]. L’AMO ID è una concatenazione di valori dinamici gestiti da Adobe per fornire rapporti granulari in [!DNL Analytics]. È memorizzato in un [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) o dimensione rVar (AMO ID). L’AMO ID può essere impostato in [!DNL Analytics] in due modi:
+AMO ID è il codice di tracciamento principale utilizzato per segnalare i dati di Adobe Advertising in [!DNL Analytics]. AMO ID è una concatenazione di valori dinamici gestiti da Adobe per fornire rapporti granulari all’interno di [!DNL Analytics]. È memorizzato in una dimensione [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) o rVar (AMO ID). L&#39;AMO ID può essere impostato in [!DNL Analytics] in due modi:
 
-* Tracciamento click-through: Adobe Advertising imposta il `s_kwcid` parametro della stringa di query in un collegamento e [!DNL Analytics] recupera il parametro dall’URL della pagina di destinazione quando si verifica un click-through.
-* Tracciamento view-through ([!DNL DSP] Solo per ): il servizio Last Event rileva una view-through sul lato server e invia l’AMO ID a [!DNL Analytics]. In questo caso, l’URL non contiene un `s_kwcid` parametro.
+* Tracciamento click-through: l&#39;Adobe Advertising imposta il parametro della stringa di query `s_kwcid` in un collegamento e [!DNL Analytics] lo seleziona dall&#39;URL della pagina di destinazione quando si verifica un click-through.
+* Tracciamento view-through ([!DNL DSP] Only): Last Event Service rileva una view-through sul lato server e invia l&#39;AMO ID a [!DNL Analytics]. In questo caso, l&#39;URL non contiene un parametro `s_kwcid`.
 
 I valori dinamici all’interno degli AMO ID indicano il canale di marketing tracciato:
 
-* Il prefisso nell’AMO ID può essere utilizzato per identificare il canale di livello superiore in [!DNL Marketing Channels].
+* Il prefisso nell’AMO ID può essere utilizzato per identificare il canale di primo livello all’interno di [!DNL Marketing Channels].
 
 * Le frasi di carattere nel corpo dell’AMO ID indicano un tipo di campagna più specifico.
 
-* Il suffisso &quot;vt&quot; è presente per [!DNL DSP] e può essere utilizzato per creare un click-through e un view-through separati [!DNL DSP] canali.
+* Il suffisso &quot;vt&quot; è presente per il traffico view-through [!DNL DSP] e può essere utilizzato per creare canali [!DNL DSP] di click-through e view-through separati.
 
 Il resto dell’AMO ID può essere ignorato.
 
@@ -48,23 +48,23 @@ Il resto dell’AMO ID può essere ignorato.
 
 ### Esempi di regole di elaborazione che utilizzano l’AMO ID
 
-Il [!DNL Marketing Channels] regola di elaborazione per [!UICONTROL Paid Search] il canale potrebbe essere simile al seguente:
+La regola di elaborazione [!DNL Marketing Channels] per il canale [!UICONTROL Paid Search] potrebbe essere simile alla seguente:
 
-![Esempio di [!UICONTROL Paid Search] regola](/help/integrations/assets/a4adc-mc-rule-paidsearch.png)
+![Esempio di regola [!UICONTROL Paid Search]](/help/integrations/assets/a4adc-mc-rule-paidsearch.png)
 
-Il [!DNL Marketing Channels] regola di elaborazione per [!UICONTROL YouTube Video Ads] il canale potrebbe essere simile al seguente:
+La regola di elaborazione [!DNL Marketing Channels] per il canale [!UICONTROL YouTube Video Ads] potrebbe essere simile alla seguente:
 
-![Esempio di [!UICONTROL YouTube Video Ads] regola](/help/integrations/assets/a4adc-mc-rule-youtube-video.png)
+![Esempio di regola [!UICONTROL YouTube Video Ads]](/help/integrations/assets/a4adc-mc-rule-youtube-video.png)
 
 >[!IMPORTANT]
 >
-> Assicurati di eseguire le regole in ordine di specificità. Se le due regole precedenti sono state eseguite in ordine, il [!DNL YouTube] il traffico di annunci video rientra nel [!UICONTROL Paid Search] perché l’AMO ID inizierebbe entrambe con &quot;AL!&quot; e contengono &quot;!ytv!&quot;.
+> Assicurati di eseguire le regole in ordine di specificità. Se le due regole di cui sopra vengono eseguite in ordine, il traffico dell’annuncio video [!DNL YouTube] rientra nel canale [!UICONTROL Paid Search] perché l’AMO ID inizia entrambe con &quot;AL!&quot; e contengono &quot;!ytv!&quot;.
 
 ## ID EF nelle regole di elaborazione
 
-L’AMO EF ID (EF ID) è il secondo codice di tracciamento utilizzato nel [!DNL Analytics for Advertising] integrazione. Il suo scopo principale è tracciare e superare [!DNL Analytics] dati dell’evento in Adobe Advertising. Ogni volta che si verifica un click-through o una view-through, viene generato un ID EF univoco, anche se si tratta esattamente dello stesso annuncio per lo stesso visitatore. L’ID EF non viene utilizzato nel [!DNL Analytics] interfaccia utente di reporting, perché in genere supera i 500.000 valori univoci per limite variabile in [!DNL Analytics], rendendolo inutilizzabile per il reporting. Le metriche e i metadati dell’Adobe Advertising non vengono applicati all’ID EF, ma solo all’AMO ID. Per l’ottimizzazione della campagna in Adobe Advertising è necessaria una maggiore granularità del tracciamento, pertanto sono necessari entrambi gli ID.
+AMO EF ID (EF ID) è il secondo codice di tracciamento utilizzato nell’integrazione [!DNL Analytics for Advertising]. Il suo scopo principale è monitorare e trasmettere i dati dell&#39;evento [!DNL Analytics] in Adobe Advertising. Ogni volta che si verifica un click-through o una view-through, viene generato un ID EF univoco, anche se si tratta esattamente dello stesso annuncio per lo stesso visitatore. L&#39;ID EF non è utilizzato nell&#39;interfaccia utente di [!DNL Analytics] per la generazione di rapporti perché in genere supera i 500.000 valori univoci per limite variabile in [!DNL Analytics], rendendolo inutilizzabile per la generazione di rapporti. Le metriche e i metadati dell’Adobe Advertising non vengono applicati all’ID EF, ma solo all’AMO ID. Per l’ottimizzazione della campagna in Adobe Advertising è necessaria una maggiore granularità del tracciamento, pertanto sono necessari entrambi gli ID.
 
-Anche se la dimensione ID EF non viene utilizzata direttamente in [!DNL Analytics] nella generazione di rapporti, l’ID EF può essere utile nella creazione di canali di marketing. Il suffisso EF ID indica il canale (visualizzazione o ricerca) e se la visita è stata guidata da un click-through o da una visualizzazione view-through. Il delimitatore nell’ID EF è un due punti, anziché il punto esclamativo nell’AMO ID.
+Anche se la dimensione EF ID non viene utilizzata direttamente nei rapporti di [!DNL Analytics], l&#39;EF ID può essere utile nella creazione di canali di marketing. Il suffisso EF ID indica il canale (visualizzazione o ricerca) e se la visita è stata guidata da un click-through o da una visualizzazione view-through. Il delimitatore nell’ID EF è un due punti, anziché il punto esclamativo nell’AMO ID.
 
 | Suffisso ID EF | Canale |
 |-------|---------|
@@ -76,22 +76,22 @@ Anche se la dimensione ID EF non viene utilizzata direttamente in [!DNL Analytic
 
 #### Visualizza regola di click-through
 
-Crea un canale di marketing click-through di visualizzazione acquisendo solo i click-through. Poiché l’AMO ID è lo stesso sia per i click-through che per i view-through, questa regola utilizza la variabile EF ID e `ef_id` parametro stringa query.
+Crea un canale di marketing click-through di visualizzazione acquisendo solo i click-through. Poiché l’AMO ID è lo stesso sia per i click-through che per i view-through, questa regola utilizza la variabile EF ID e il parametro della stringa di query `ef_id`.
 
-A volte i click-through vengono tracciati attraverso l’URL (impostazione predefinita). In altri casi, i click-through vengono tracciati attraverso il servizio Last Event sul lato server, e pertanto l’URL non contiene `ef_id` parametro. La regola verifica pertanto le condizioni in cui la variabile EF ID o il `ef_id` il parametro della stringa di query termina con &quot;:d&quot;. Utilizza la &quot;`Any`&quot; perché desideri che questa regola venga attivata per una delle due condizioni.
+A volte i click-through vengono tracciati attraverso l’URL (impostazione predefinita). In altri casi, i click-through vengono tracciati tramite il servizio Last Event sul lato server e pertanto l&#39;URL non contiene il parametro `ef_id`. La regola verifica quindi le condizioni in cui la variabile EF ID o il parametro della stringa di query `ef_id` termina con &quot;:d&quot;. Utilizzare l&#39;operatore &quot;`Any`&quot; perché si desidera attivare questa regola per entrambe le condizioni.
 
 ![Esempio di regola di click-through di visualizzazione](/help/integrations/assets/a4adc-mc-rule-display-ct.png)
 
 #### Visualizza regola view-through
 
-Per creare un canale view-through di visualizzazione, crea una regola in cui l’ID EF termina con &quot;:i&quot;. Poiché il visitatore non ha fatto clic sull’annuncio, il tracciamento view-through non include il `ef_id` o `s_kwcid` nell’URL, quindi la regola richiede una sola condizione.
+Per creare un canale view-through di visualizzazione, crea una regola in cui l’ID EF termina con &quot;:i&quot;. Poiché il visitatore non ha fatto clic sull&#39;annuncio, il tracciamento view-through non include `ef_id` o `s_kwcid` nell&#39;URL, pertanto la regola richiede una sola condizione.
 
 ![Esempio di regola di visualizzazione view-through](/help/integrations/assets/a4adc-mc-rule-display-vt.png)
 
 >[!MORELIKETHIS]
 >
 >* [Nozioni di base di [!DNL Analytics Marketing Channels]](mc-overview.md)
->* [Perché i dati dei canali possono variare tra la pubblicità Adobe e [!DNL Marketing Channels]](mc-data-variances.md)
+>* [Perché i dati del canale possono variare tra Adobe Advertising e [!DNL Marketing Channels]](mc-data-variances.md)
 >* [Utilizzo di [!DNL Analytics Marketing Channels] con dati Adobe Advertising](mc-ac-data.md)
->* [Video: Utilizzo [!DNL Marketing Channels] ad Adobe Advertising Reporting](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
->* [Adobe di ID pubblicitari utilizzati da [!DNL Analytics]](/help/integrations/analytics/ids.md)
+>* [Video: utilizzo di [!DNL Marketing Channels] per Adobe Advertising di reporting](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [ID Adobe Advertising utilizzati da [!DNL Analytics]](/help/integrations/analytics/ids.md)

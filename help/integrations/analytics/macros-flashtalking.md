@@ -1,6 +1,6 @@
 ---
-title: Aggiungi [!DNL Analytics for Advertising] Macro per [!DNL Flashtalking] Tag annuncio
-description: Scopri perché e come aggiungere [!DNL Analytics for Advertising] macro per [!DNL Flashtalking] tag annuncio
+title: Aggiungi [!DNL Analytics for Advertising] macro ai [!DNL Flashtalking] tag annuncio
+description: Scopri perché e come aggiungere [!DNL Analytics for Advertising] macro ai tuoi [!DNL Flashtalking] tag annuncio
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
 source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
@@ -10,33 +10,33 @@ ht-degree: 0%
 
 ---
 
-# Aggiungi [!DNL Analytics for Advertising] Macro per [!DNL Flashtalking] Tag annuncio
+# Aggiungi macro [!DNL Analytics for Advertising] a [!DNL Flashtalking] tag annuncio
 
-*Per gli inserzionisti con una sola integrazione Adobi Advertising-Adobe Analytics*
+*Inserzionisti con una sola integrazione Adobe Advertising-Adobe Analytics*
 
-*Applicabile solo a Advertising DSP*
+*Applicabile solo ad Advertising DSP*
 
-Se utilizzi tag di annunci da [!DNL Flashtalking] per gli annunci Advertising DSP, aggiungi i parametri Analytics for Advertising agli URL della pagina di destinazione. I parametri registrano l’AMO ID (`s_kwcid`) e `ef_id` parametri della stringa di query nell’URL della pagina di destinazione, che consentono all’Adobe Advertising di inviare i dati di clic per gli annunci ad Adobe Analytics.
+Se utilizzi i tag degli annunci di [!DNL Flashtalking] per gli annunci di Advertising DSP, aggiungi i parametri di Analytics for Advertising agli URL della pagina di destinazione. I parametri registrano i parametri AMO ID (`s_kwcid`) e `ef_id` della stringa di query nell&#39;URL della pagina di destinazione, consentendo ad Adobe Advertising di inviare i dati dei clic per gli annunci ad Adobe Analytics.
 
-Usa macro per [!DNL Flashtalking] annunci display e video per i seguenti tipi di [!DNL Analytics for Advertising] implementazioni:
+Usa le macro per [!DNL Flashtalking] annunci video e display per i seguenti tipi di implementazioni di [!DNL Analytics for Advertising]:
 
-* **Per gli inserzionisti con [!DNL Adobe] [!DNL Analytics for Advertising] Codice JavaScript implementato sui loro siti web**: il codice JavaScript registra già l’AMO ID (`s_kwcid`) e `ef_id` parametri della stringa di query. Tuttavia, l’utilizzo delle macro estende il tracciamento per includere conversioni basate su clic quando i cookie di terze parti non sono supportati. La best practice prevede l’aggiunta di macro nelle sezioni seguenti ai tag annuncio per acquisire dati di click-through aggiuntivi che non vengono acquisiti tramite il codice JavaScript.
+* **Inserzionisti con il codice JavaScript [!DNL Adobe] [!DNL Analytics for Advertising] implementato sui loro siti Web**: il codice JavaScript registra già i parametri della stringa di query AMO ID (`s_kwcid`) e `ef_id`. Tuttavia, l’utilizzo delle macro estende il tracciamento per includere conversioni basate su clic quando i cookie di terze parti non sono supportati. La best practice prevede l’aggiunta di macro nelle sezioni seguenti ai tag annuncio per acquisire dati di click-through aggiuntivi che non vengono acquisiti tramite il codice JavaScript.
 
 >[!NOTE]
 >
 >Il codice JavaScript è una soluzione per il tracciamento dei clic solo quando i cookie sono ancora disponibili. Una volta interrotti i cookie, sarà necessario implementare le macro seguenti.
 
-* **Inserzionisti i cui siti Web non utilizzano [!DNL Analytics for Advertising] codice JavaScript e si basano invece su [!DNL Analytics] inoltro lato server solo per dati click-through** (senza alcun dato view-through): le seguenti macro sono necessarie per segnalare l’attività di clic sul sito basata sugli annunci acquistati tramite Adobi Advertising.
+* **Inserzionisti i cui siti Web non utilizzano il codice JavaScript [!DNL Analytics for Advertising] e si basano invece sull&#39;inoltro lato server [!DNL Analytics] solo per i dati click-through** (senza dati view-through): le seguenti macro sono necessarie per segnalare l&#39;attività di clic sul sito guidata dagli annunci acquistati tramite Adobe Advertising.
 
 ## Visualizzare i tag annuncio
 
-All&#39;interno del [!DNL Flashtalking] Aggiungi impostazioni tag, aggiungi la seguente macro alla fine dell’URL di click-through in `Clicktag` campo:
+All&#39;interno delle impostazioni dei tag annuncio di [!DNL Flashtalking], aggiungi la seguente macro alla fine dell&#39;URL di click-through nel campo `Clicktag`:
 
 ```
 [ftqs:[AdobeAMO]]
 ```
 
-Se si tratta della prima o unica stringa di query dopo l’URL di base, separala dall’URL di base con un `?`. Se l’URL di base include più stringhe di query, inizia la prima stringa con un `?` e ogni stringa successiva con un `&`.
+Se si tratta della prima o unica stringa di query dopo l&#39;URL di base, separarla dall&#39;URL di base con `?`. Se l&#39;URL di base include più stringhe di query, iniziare la prima stringa con `?` e ogni stringa successiva con `&`.
 
 Esempi:
 
@@ -46,13 +46,13 @@ Esempi:
 
 ## Tag annuncio video
 
-All&#39;interno del [!DNL Flashtalking] Aggiungi impostazioni tag, aggiungi la seguente macro alla fine dell’URL di click-through in `Clicktag` campo:
+All&#39;interno delle impostazioni dei tag annuncio di [!DNL Flashtalking], aggiungi la seguente macro alla fine dell&#39;URL di click-through nel campo `Clicktag`:
 
 ```
 [%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]
 ```
 
-Se si tratta della prima o unica stringa di query dopo l’URL di base, separala dall’URL di base con un `?`. Se l’URL di base include più stringhe di query, inizia la prima stringa con un `?` e ogni stringa successiva con un `&`.
+Se si tratta della prima o unica stringa di query dopo l&#39;URL di base, separarla dall&#39;URL di base con `?`. Se l&#39;URL di base include più stringhe di query, iniziare la prima stringa con `?` e ogni stringa successiva con `&`.
 
 Esempi:
 
@@ -64,5 +64,5 @@ Esempi:
 >
 >* [Panoramica di [!DNL Analytics for Advertising]](overview.md)
 >* [ID Adobe Advertising utilizzati da [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Aggiungi [!DNL Analytics for Advertising] Macro per [!DNL Google Campaign Manager 360] Tag annuncio](/help/integrations/analytics/macros-google-campaign-manager.md)
+>* [Aggiungi [!DNL Analytics for Advertising] Macro ai [!DNL Google Campaign Manager 360] Tag annuncio](/help/integrations/analytics/macros-google-campaign-manager.md)
 

@@ -14,17 +14,16 @@ ht-degree: 0%
 
 Se si elimina un segmento di rinuncia personalizzata o CCPA, questo viene rimosso da tutti i posizionamenti e i tipi di pubblico salvati che lo includono e non è più disponibile per un utilizzo futuro.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
 1. Tenere premuto il cursore sulla riga del segmento e fare clic su **[!UICONTROL More]** > **[!UICONTROL Delete]**.
 
-1. Nel messaggio di conferma, fai clic su **[!UICONTROL Delete]**.
+1. Nel messaggio di conferma, fare clic su **[!UICONTROL Delete]**.
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni su Gestione dell&#39;audience](audience-about.md)
->* [Creare un segmento personalizzato](custom-segment-create.md)
+>* [Crea un segmento personalizzato](custom-segment-create.md)
 >* [Modifica informazioni segmento](segment-edit.md)
->* [Visualizzare i pixel di tracciamento per un segmento](segment-view-pixels.md)
->* [Condividere o interrompere la condivisione di un segmento](segment-share.md)
-
+>* [Visualizza pixel di tracciamento per un segmento](segment-view-pixels.md)
+>* [Condividi o interrompi la condivisione di un segmento](segment-share.md)

@@ -19,13 +19,13 @@ Duplica un pacchetto per creare un pacchetto con impostazioni simili. È possibi
 * (Per i pacchetti duplicati nelle campagne originali) Duplica facoltativamente gli annunci originali e i pixel dell’evento a livello di posizionamento
 * Modifica le date di volo del nuovo pacchetto
 
-Consulta &quot;[Non duplicato](#package-not-duplicated)&quot; per un elenco di impostazioni di posizionamento che non sono duplicate.
+Consulta &quot;[Elementi non duplicati](#package-not-duplicated)&quot; per un elenco delle impostazioni di posizionamento che non sono duplicate.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 
-1. Fai clic sul nome della campagna per aprire [!UICONTROL Packages] visualizzazione.
+1. Fare clic sul nome della campagna per aprire la visualizzazione [!UICONTROL Packages].
 
-1. Accanto al nome del pacchetto, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**.
+1. Accanto al nome del pacchetto, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**.
 
 1. Specificare le impostazioni del nuovo pacchetto:
 
@@ -37,13 +37,13 @@ Consulta &quot;[Non duplicato](#package-not-duplicated)&quot; per un elenco di i
 
       * Il nuovo pacchetto viene assegnato all’inserzionista e alla campagna originali.
 
-      * Il nuovo pacchetto diventa attivo il giorno corrente.<!-- and the flight continues for NN  days. -->
+      * Il nuovo pacchetto diventa attivo nel giorno corrente.<!-- and the flight continues for NN  days. -->
 
       * I posizionamenti all&#39;interno del pacchetto originale vengono copiati nel nuovo pacchetto.
 
       * Gli annunci e i pixel dell’evento a livello di posizionamento non vengono copiati nel nuovo pacchetto.
 
-1. Clic **[!UICONTROL Submit]**.
+1. Fare clic su **[!UICONTROL Submit]**.
 
 ## Non duplicato {#package-not-duplicated}
 
@@ -57,13 +57,12 @@ Tutte le impostazioni dei posizionamenti originali vengono duplicate, tranne:
    * Destinazioni geografiche
    * Pixel evento
    * Annunci
-   * Livello di posizionamento [!DNL DoubleVerify Authentic Brand Safety] segmenti (che sostituiscono i segmenti a livello di inserzionista)
+   * Segmenti [!DNL DoubleVerify Authentic Brand Safety] a livello di posizionamento (che sostituiscono i segmenti a livello di inserzionista)
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulla gestione dei pacchetti](package-about.md)
->* [Creare un pacchetto](package-create.md)
->* [Modificare un pacchetto](package-edit.md)
->* [Visualizzare il registro delle modifiche di un pacchetto](package-change-log.md)
+>* [Crea pacchetto](package-create.md)
+>* [Modifica pacchetto](package-edit.md)
+>* [Visualizza il log delle modifiche per un pacchetto](package-change-log.md)
 >* [Impostazioni pacchetto](package-settings.md)
-

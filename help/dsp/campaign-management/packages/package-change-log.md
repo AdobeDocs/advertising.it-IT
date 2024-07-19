@@ -16,25 +16,24 @@ I registri di modifica mostrano le modifiche apportate al pacchetto durante l’
 
 È possibile ordinare i dati in base a qualsiasi colonna ad eccezione di Nuovo valore e Vecchio valore.
 
-1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 
 1. Fai clic sul nome della campagna.
 
-1. Il giorno **[!UICONTROL Packages]** , accanto al nome del pacchetto, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
+1. Nella scheda **[!UICONTROL Packages]** accanto al nome del pacchetto fare clic su **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
 
 1. (Facoltativo) Effettuate una delle seguenti operazioni:
 
-   * Per passare dalla visualizzazione dei dati solo nelle tabelle e alle tabelle e nei grafici, fare clic su ![Visualizzazione tabella e grafico](/help/dsp/assets/table-plus-chart-view.png "Visualizzazione tabella e grafico") o ![Vista tabella](/help/dsp/assets/table-view.png "Vista tabella") nella barra degli strumenti superiore destra.
+   * Per passare dalla visualizzazione dei dati solo nelle tabelle alla visualizzazione nei grafici e viceversa, fare clic su ![Tabella e visualizzazione grafico](/help/dsp/assets/table-plus-chart-view.png "Tabella e visualizzazione grafico") o ![Vista tabella](/help/dsp/assets/table-view.png "Vista tabella") nella barra degli strumenti superiore destra.
 
-   * Per aggiungere una nota a una voce, tenere premuto il cursore sul [!UICONTROL Notes] per la riga e quindi fare clic su **[!UICONTROL Add Notes]**. Immettere il testo nei campi di input, quindi fare clic su **[!UICONTROL Save]**.
+   * Per aggiungere una nota a una voce, posizionare il cursore sulla colonna [!UICONTROL Notes] della riga, quindi fare clic su **[!UICONTROL Add Notes]**. Immettere il testo nei campi di input, quindi fare clic su **[!UICONTROL Save]**.
 
-   * Per visualizzare i dettagli di una voce in una finestra popup, tenere premuto il cursore sul [!UICONTROL Notes] per la riga e quindi fare clic su **[!UICONTROL More]>[!UICONTROL View Details]**.
+   * Per visualizzare i dettagli di una voce in una finestra popup, posizionare il cursore sulla colonna [!UICONTROL Notes] della riga, quindi fare clic su **[!UICONTROL More]>[!UICONTROL View Details]**.
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulla gestione dei pacchetti](package-about.md)
->* [Creare un pacchetto](package-create.md)
->* [Modificare un pacchetto](package-edit.md)
->* [Allegare un posizionamento a un pacchetto](package-attach-placement.md)
+>* [Crea pacchetto](package-create.md)
+>* [Modifica pacchetto](package-edit.md)
+>* [Allega un posizionamento a un pacchetto](package-attach-placement.md)
 >* [Impostazioni pacchetto](package-settings.md)
-

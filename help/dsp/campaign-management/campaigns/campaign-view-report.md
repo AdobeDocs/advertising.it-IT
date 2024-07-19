@@ -12,18 +12,18 @@ ht-degree: 0%
 
 # Visualizzare un rapporto dettagliato per una campagna
 
-Il <!--legacy --> il rapporto a livello di campagna include una panoramica e sezioni su [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], e [!UICONTROL Audience Performance] dati.
+Il report a livello di campagna <!--legacy --> include una panoramica e sezioni sui dati [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability] e [!UICONTROL Audience Performance].
 
-1. Nel menu principale, fai clic su **[!UICONTROL Campaigns]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 1. Effettuare una delle seguenti operazioni:
-   * Clic **[!UICONTROL ...]** > **[!UICONTROL View report]** nella barra degli strumenti superiore destra.
-   * Accanto al nome della campagna, fai clic su  **[!UICONTROL ...]** > **[!UICONTROL View report]**.
+   * Fai clic su **[!UICONTROL ...]** > **[!UICONTROL View report]** nella barra degli strumenti in alto a destra.
+   * Accanto al nome della campagna, fare clic su **[!UICONTROL ...]** > **[!UICONTROL View report]**.
 
 >[!MORELIKETHIS]
 >
->* [Visualizzare un rapporto dettagliato per un posizionamento](/help/dsp/campaign-management/placements/placement-view-report.md)
->* [Visualizzare un rapporto dettagliato per un annuncio](/help/dsp/campaign-management/ads/ad-view-report.md)
->* [Tipi di rapporti sulle prestazioni nelle visualizzazioni di Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Visualizza un report dettagliato per un posizionamento](/help/dsp/campaign-management/placements/placement-view-report.md)
+>* [Visualizza un report dettagliato per un annuncio](/help/dsp/campaign-management/ads/ad-view-report.md)
+>* [Tipi di report sulle prestazioni nelle visualizzazioni di Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Informazioni sui report personalizzati](/help/dsp/reports/report-about.md)
->* [Visualizzare il registro delle modifiche per una campagna](campaign-change-log.md)
->* [Sospendere o attivare una campagna](campaign-pause-activate.md)
+>* [Visualizza il log delle modifiche per una campagna](campaign-change-log.md)
+>* [Sospendi o attiva una campagna](campaign-pause-activate.md)
