@@ -3,9 +3,9 @@ title: '[!DNL Microsoft Advertising] impostazioni campagna'
 description: Fai riferimento alle impostazioni per  [!DNL Microsoft Advertising]  campagne.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 096271a2e9daddc20f7f5f4e0063fda21974c8a1
+source-git-commit: b8aa2461d261af50e1bf66c4ae29e4e453dfd182
 workflow-type: tm+mt
-source-wordcount: '2001'
+source-wordcount: '2041'
 ht-degree: 0%
 
 ---
@@ -79,17 +79,17 @@ la campagna può contenere:
 
 * *[!UICONTROL Maximize Clicks]:* (campagne Search&amp;Shopping) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte per massimizzare i clic. Facoltativamente, immetti un **[!UICONTROL Max CPC]** (costo per clic) per garantire che la rete di annunci non paghi più di un importo specifico per ogni clic. **Attenzione:** quando aggiungi una campagna con questa strategia a un portfolio, il peso del clic (non l&#39;obiettivo del portfolio) guida le offerte.
 
-* *[!UICONTROL Maximize Conversion Value]:* (reti Search and Shopping/Smart Shopping, campagne con prestazioni massime) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte per massimizzare il valore di conversione. È possibile immettere un valore di **[!UICONTROL Target Return on Ad Spend]** (ROAS) come percentuale. **Nota:** utilizza questa opzione per le campagne in portfolio ibridi ma non in portfolio standard.
+* *[!UICONTROL Maximize Conversion Value]:* (reti Search and Shopping/Smart Shopping, campagne con prestazioni massime) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte per massimizzare il valore di conversione. È possibile immettere un valore di **[!UICONTROL Target Return on Ad Spend]** (ROAS) come percentuale. **Nota:** utilizza questa opzione per le campagne in portfolio ibridi ma non in portfolio standard. Nei portfolio ibridi, Search, Social e Commerce ottimizzano il ROAS di Target.
 
-* *[!UICONTROL Maximize Conversions]:* (campagne e campagne con prestazioni massime sulla rete di ricerca o sulla rete di pubblico (ma non video di pubblico o TV connessa)) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte per massimizzare le conversioni. Facoltativamente, immettere **[!UICONTROL Target CPC]** (costo per clic). Per le campagne per il pubblico, puoi anche immettere un valore facoltativo **[!UICONTROL Target CPA]** (costo per acquisizione). **Nota:** utilizza questa opzione per le campagne in portfolio ibridi ma non in portfolio standard.
+* *[!UICONTROL Maximize Conversions]:* (campagne e campagne con prestazioni massime sulla rete di ricerca o sulla rete di pubblico (ma non video di pubblico o TV connessa)) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte per massimizzare le conversioni. Facoltativamente, immettere **[!UICONTROL Target CPC]** (costo per clic). Per le campagne per il pubblico, puoi anche immettere un valore facoltativo **[!UICONTROL Target CPA]** (costo per acquisizione). **Nota:** utilizza questa opzione per le campagne in portfolio ibridi ma non in portfolio standard. Nei portfolio ibridi, Search, Social e Commerce ottimizzano il CPA di Target.
 
-* *[!UICONTROL Target CPA]:* (campagne nella rete di ricerca) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte in base a un **[!UICONTROL Target CPA]** facoltativo (costo per acquisizione), che è l&#39;importo medio di 30 giorni che si desidera pagare per un&#39;acquisizione (conversione). **Nota:** utilizza questa opzione per le campagne in portfolio ibridi (ma non in portfolio standard) con qualsiasi strategia di spesa eccetto [!UICONTROL Weekly] o [!UICONTROL Google Target CPA].
+* *[!UICONTROL Target CPA]:* (campagne nella rete di ricerca) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte in base a un **[!UICONTROL Target CPA]** facoltativo (costo per acquisizione), che è l&#39;importo medio di 30 giorni che si desidera pagare per un&#39;acquisizione (conversione). **Nota:** utilizza questa opzione per le campagne in portfolio ibridi (ma non in portfolio standard) con qualsiasi strategia di spesa eccetto [!UICONTROL Weekly] o [!UICONTROL Google Target CPA]. Nei portfolio ibridi, Search, Social e Commerce ottimizzano il CPA di Target.
 
   I dati relativi alla posizione media e alle offerte CPC non sono disponibili per le campagne con questa strategia di offerta.
 
 * *[!UICONTROL Target Impression Share]:* (campagne nella rete di ricerca) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte per ottenere una quota di impression target e una posizione di annunci. Facoltativamente, immettere un **[!UICONTROL Target Impression Share]** come percentuale, il **[!UICONTROL Target Ad Position]** e un **[!UICONTROL Max CPC]** (costo per clic). **Nota:** questa opzione non è supportata nei portfolio ibridi.
 
-* *[!UICONTROL Target Return on Ad Spend]:* (campagne nelle reti di ricerca e shopping) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte in base a **[!UICONTROL Target ROAS]** (ritorno sulla spesa pubblicitaria), specificato come percentuale. Facoltativamente, immetti un **[!UICONTROL Max CPC]** (costo per clic) per garantire che la rete di annunci non paghi più di un importo specifico per ogni clic. **Nota:** utilizza questa opzione per le campagne in portfolio ibridi (ma non in portfolio standard) con qualsiasi strategia di spesa eccetto [!UICONTROL Weekly] o [!UICONTROL Google Target ROAS].
+* *[!UICONTROL Target Return on Ad Spend]:* (campagne nelle reti di ricerca e shopping) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte in base a **[!UICONTROL Target ROAS]** (ritorno sulla spesa pubblicitaria), specificato come percentuale. Facoltativamente, immetti un **[!UICONTROL Max CPC]** (costo per clic) per garantire che la rete di annunci non paghi più di un importo specifico per ogni clic. **Nota:** utilizza questa opzione per le campagne in portfolio ibridi (ma non in portfolio standard) con qualsiasi strategia di spesa eccetto [!UICONTROL Weekly] o [!UICONTROL Google Target ROAS]. Nei portfolio ibridi, Search, Social e Commerce ottimizzano il ROAS di Target.
 
   I dati relativi alla posizione media e alle offerte CPC non sono disponibili per le campagne con questa strategia di offerta.
 

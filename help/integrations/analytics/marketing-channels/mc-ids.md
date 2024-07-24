@@ -3,9 +3,9 @@ title: Utilizzo degli ID Adobe Advertising per la creazione di  [!DNL Marketing 
 description: Scopri come utilizzare gli ID Adobe Advertising per creare regole di elaborazione per  [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
 exl-id: 525761b4-607f-4b03-9020-8051009a13c6
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+source-git-commit: 96a0add168c7fb7a6d80cf1b81ef4b315fbba89f
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -35,16 +35,17 @@ Il resto dell’AMO ID può essere ignorato.
 
 | [!UICONTROL AMO ID] | Canale | Logica delle regole |
 |--------|---------|--------------------|
-| AL! (prefisso) | [!UICONTROL Paid Search] | Inizia con |
-| AC! (prefisso) | [!UICONTROL DSP] | Inizia con |
+| !ctv (suffisso) | [!UICONTROL DSP Connected TV View-through] | Termina con |
+| !d! (body) | [!UICONTROL Display Network] | Contiene |
 | !g! (body) | [!UICONTROL Google Search] | Contiene |
 | !s! (body) | [!UICONTROL Search Partner] | Contiene |
-| !d! (body) | [!UICONTROL Display Network] | Contiene |
 | !u! (body) | [!UICONTROL Smart Shopping Campaign] | Contiene |
 | !ytv! (body) | [!UICONTROL YouTube Video Ad] | Contiene |
 | !yts! (body) | [!UICONTROL YouTube Search Ad] | Contiene |
 | !vp! (body) | [!UICONTROL Google Video Partners] | Contiene |
 | !vt (suffisso) | [!UICONTROL DSP View-through] | Termina con |
+| AL! (prefisso) | [!UICONTROL Paid Search] | Inizia con |
+| AC! (prefisso) | [!UICONTROL DSP] | Inizia con |
 
 ### Esempi di regole di elaborazione che utilizzano l’AMO ID
 
