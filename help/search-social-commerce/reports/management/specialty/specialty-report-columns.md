@@ -3,9 +3,9 @@ title: Colonne report per report speciali
 description: Scopri le colonne di dati disponibili per i rapporti speciali.
 exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 3b120ec2ec54f4ad909be8ff2ee8f1e92d205315
 workflow-type: tm+mt
-source-wordcount: '2648'
+source-wordcount: '2642'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 | [!UICONTROL Ad Extension Number] | ([!UICONTROL MSA Ad Extension] report) Attributo di versione per l&#39;estensione dell&#39;annuncio. |
 | [!UICONTROL Ad Extension Type] | ([!UICONTROL MSA Ad Extension] report) Il tipo di estensione dell&#39;annuncio. |
 | [!UICONTROL Ad Group] | Il gruppo di annunci. |
-| [!UICONTROL Ad Group ID] | ID numerico assegnato da Search, Social e Commerce al gruppo di annunci. |
+| [!UICONTROL Ad Group ID] | L’ID univoco che identifica un gruppo di annunci esistente. |
 | [!UICONTROL Ad Group Name] | Il gruppo di annunci. |
 | [!UICONTROL Ad Group Status] | Stato del gruppo di annunci: *[!UICONTROL Active]*, *[!UICONTROL Paused]* o *[!UICONTROL Deleted]*. |
 | [!UICONTROL Ad Title] | ([!UICONTROL MSA Ad Extension] report) Titolo dell&#39;annuncio. |
@@ -106,7 +106,7 @@ ht-degree: 0%
 | [!UICONTROL Impression Share Percent] | Le impression ricevute sono divise per il numero stimato di impression che potevi ricevere. |
 | [!UICONTROL Impressions] | Il numero di ad impression durante l’intervallo di date specificato. |
 | [!UICONTROL Keyword] | La parola chiave.<br><br><b>Nota:</b> se il report include dati di gruppi di annunci nelle campagne di ricerca abilitate per il contenuto, questa colonna include i nomi dei gruppi di annunci applicabili, ad esempio &quot;(contenuto adgroup) Nome del gruppo di annunci.&quot; Per un posizionamento mirato al sito in una campagna di ricerca, questa colonna non ha un valore. |
-| [!UICONTROL Keyword ID] | ID numerico assegnato alla parola chiave da Search, Social e Commerce. |
+| [!UICONTROL Keyword ID] | ID univoco che identifica una parola chiave esistente. |
 | [!UICONTROL Keyword Extension ID] | ([!UICONTROL MSA Ad Extension by Keyword Report]) ID numerico assegnato dalla rete di annunci all&#39;estensione dell&#39;annuncio. |
 | [!UICONTROL Keyword Extension Number] | ([!UICONTROL MSA Ad Extension by Keyword Report]) Attributo di versione per l&#39;estensione dell&#39;annuncio. |
 | [!UICONTROL Keyword Extension Type] | ([!UICONTROL MSA Ad Extension by Keyword Report]) Tipo di estensione dell&#39;annuncio. |
