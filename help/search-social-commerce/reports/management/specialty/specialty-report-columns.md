@@ -3,9 +3,9 @@ title: Colonne report per report speciali
 description: Scopri le colonne di dati disponibili per i rapporti speciali.
 exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 3b120ec2ec54f4ad909be8ff2ee8f1e92d205315
+source-git-commit: 13b1ca84571c33e4369b67ace24f39a23ad5fe24
 workflow-type: tm+mt
-source-wordcount: '2642'
+source-wordcount: '2639'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 | [!UICONTROL All Return on Ad Spend] | ([!UICONTROL MSA Ad Extension] report) Il totale delle entrate diviso per la spesa, espresso come percentuale. |
 | [!UICONTROL All Revenue Per Conversion] | ([!UICONTROL MSA Ad Extension] report) I ricavi per conversione. |
 | [!UICONTROL Asset] | ([!UICONTROL RSA Asset Report]) La risorsa. |
-| [!UICONTROL Asset ID] | ([!UICONTROL RSA Asset Report]) ID numerico assegnato alla risorsa da Search, Social e Commerce. |
+| [!UICONTROL Asset ID] | ([!UICONTROL RSA Asset Report]) ID univoco che identifica una risorsa esistente. |
 | [!UICONTROL Asset Performance Label] | ([!UICONTROL RSA Asset Report]) [[!DNL Google Ads] valutazione delle prestazioni](https://support.google.com/google-ads/answer/9564897) per la risorsa. |
 | [!UICONTROL Asset Status] | ([!UICONTROL RSA Asset Report]) Stato risorsa: *[!UICONTROL Enabled]* o *[!UICONTROL Enabled]* (rimosso). |
 | [!UICONTROL Asset Type] | ([!UICONTROL RSA Asset Report]) Tipo di risorsa: *[!UICONTROL Creative Title]* o *[!UICONTROL Description]*. |
