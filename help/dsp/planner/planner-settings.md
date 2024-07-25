@@ -3,9 +3,9 @@ title: Impostazioni per i piani di copertura TV collegati
 description: Vedere le descrizioni delle impostazioni per i piani di copertura TV collegati.
 feature: DSP Planner
 exl-id: 65edd6f5-557c-44d1-a0ed-8cd26d8a2f6e
-source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
+source-git-commit: 37b901093d7eff65d783e558f2e98c5d288a8286
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,9 @@ ht-degree: 0%
 | Valore obiettivo | Valore obiettivo per la previsione. Per ottenere risultati di previsione più precisi, utilizzare un valore > 5000 USD. | Sì |
 | Offerta massima | L’importo massimo da pagare per 1000 impression. Se il tipo di supporto [!UICONTROL Connected TV] è selezionato, immettere un valore di almeno 10 USD. | Sì |
 | Limite di frequenza | Il numero di volte in cui a una famiglia univoca devono essere serviti gli annunci.<br><br>Quando si implementa un piano e si devono creare più posizionamenti, applicare l&#39;impostazione del limite di frequenza a livello di pacchetto, non a livello di posizionamento, per garantire la corretta consegna. | Sì |
-| Geo-Targeting | Posizioni da includere o escludere come destinazioni. | Sì |
+| Geo-Targeting | Posizioni da includere o escludere come destinazioni. Le opzioni includono paesi, città, stati, aree di mercato designate (DMA) e codici postali (che è possibile a) incollare come valori separati da virgole per un paese specificato o b) cercare per paese e città). | Sì |
 | Targeting inventario | Origini di magazzino da includere o escludere come destinazioni. Seleziona almeno un feed o un’origine. | Sì |
+| Targeting sito/app | Siti Web e app da includere o escludere come destinazioni. Immettere un URL per riga, quindi fare clic su **[!UICONTROL Include All]** o **[!UICONTROL Exclude All]** sotto il campo di input. | No |
 | Targeting del pubblico | Tipi di pubblico da includere o escludere come target. | No |
 | Durata annuncio | La durata degli annunci da considerare per il piano. | No |
 
