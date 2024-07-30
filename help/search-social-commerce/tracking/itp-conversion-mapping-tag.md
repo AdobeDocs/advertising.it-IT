@@ -3,7 +3,7 @@ title: Tag Adobe Advertising di mappatura della conversione
 description: Scopri il tag di mappatura della conversione basato su JavaScript per ITP 2.2, che consente ad Adobe Advertising di tenere traccia di un evento di conversione che si verifica su una pagina che non è la pagina di destinazione.
 exl-id: cbeaf3cd-f1ab-419d-bba8-58a1c8215352
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 2c755eaa01f5bc7606074bb0fc276901c21ef807
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 0%
@@ -79,7 +79,7 @@ Per utilizzare il tag di mappatura della conversione:
 
       * sostituisci `{AMO User ID}` con l&#39;ID utente univoco per il tuo account Search, Social e Commerce.
 
-Se non conosci il valore del tuo ID organizzazione o dell&#39;ID utente di Search, Social e Commerce, chiedi al tuo Account Manager Adobe.
+Se non conosci il valore del tuo ID organizzazione o dell&#39;ID utente di Search, Social e Commerce, chiedi al team del tuo account Adobe.
 
 ### Esempi
 
