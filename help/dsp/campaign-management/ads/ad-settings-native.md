@@ -3,9 +3,9 @@ title: Impostazioni annuncio visualizzazione nativa
 description: Consulta le descrizioni delle impostazioni pubblicitarie disponibili per gli annunci display nativi.
 feature: DSP Ads
 exl-id: 64ce1946-072d-4ca9-b3a8-348987580403
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 152ba89baa17264a74a1a2498e0140972a0470eb
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Tutti i pixel di tracciamento degli eventi esistenti per il posizionamento vengo
 
 Le seguenti impostazioni si applicano a ogni pixel creato o modificato.
 
-**[!UICONTROL Integration Event]:** l&#39;evento che attiva il pixel per l&#39;attivazione. Per questo tipo di annuncio, l&#39;unica opzione è *[!UICONTROL Impression]*.
+**[!UICONTROL Integration Event]:** l&#39;evento che attiva il pixel per l&#39;attivazione.
 
 **[!UICONTROL Pixel Type]:** Se il pixel è un *[!UICONTROL IMG URL]* (file immagine 1x1 pixel), *[!UICONTROL HTML]* o *[!UICONTROL JavaScript URL]*.
 
