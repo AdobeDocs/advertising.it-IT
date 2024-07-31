@@ -3,7 +3,7 @@ title: Domande frequenti sui rapporti personalizzati
 description: Scopri le risposte alle domande comuni sui rapporti sulle prestazioni, inclusa la risoluzione dei problemi relativi ai dati.
 exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: c0f8f8c2886ea821dd7705446a727054b66ad3bc
 workflow-type: tm+mt
 source-wordcount: '3922'
 ht-degree: 0%
@@ -124,6 +124,7 @@ Di seguito sono riportati i motivi comuni della mancanza di dati di clic.
 |---|---|---|
 | Il processo che recupera i dati di clic dall’account dell’annuncio non è riuscito. | Non esiste un modo sistematico per rilevare questo problema, ma puoi notare che una campagna non mostra informazioni sui costi o sui clic, anche se l’account dell’annuncio ha speso denaro. | Contatta il team del tuo account Adobe.<br><br>Se i dati mancano per più di 24 ore, escludere tali date dalle previsioni di costo fino al recupero dei dati. Il team del tuo account Adobe può escludere le date. |
 | Un problema di fatturazione tra l’inserzionista e la rete di annunci impedisce all’account dell’annuncio di spendere. | Non esiste un modo sistematico per rilevare questo problema, ma potresti notare che una campagna non mostra alcun costo o informazioni sui clic. | Se sai che un account dell’annuncio non è stato in grado di spendere a causa di un problema di fatturazione, escludi tali date dalle previsioni di costo. Il team del tuo account Adobe può escludere le date. |
+
 +++
 
 +++I dati sulle prestazioni sono diversi dai dati nell’editor della rete di annunci.
@@ -227,7 +228,7 @@ Il rapporto potrebbe non includere le metriche di conversione per le quali si so
 
 *Soluzione o soluzione alternativa possibile:*
 
-1. Vai a **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** e genera un [!UICONTROL Transaction Report]. Confronta le transazioni ricevute da Search, Social e Commerce con i dati dell’inserzionista.
+1. Vai a **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** e genera un [!UICONTROL Transaction Report]. Confronta le transazioni ricevute da Search, Social e Commerce con i dati dell&#39;inserzionista.
 
 1. Se alcune transazioni non sono corrette o mancano, assicurati che il tag di tracciamento della conversione pertinente sia implementato in tutte le pagine web applicabili e non sia stato modificato a meno che il team dell’account dell’Adobe non ti abbia consigliato di farlo. Un tag potrebbe mancare o essere stato modificato se il sito web è stato aggiornato di recente.
 
@@ -283,7 +284,7 @@ Consulta le possibili cause e soluzioni per le implementazioni pixel di cui sopr
 
 *Soluzione o soluzione alternativa possibile:*
 
-1. Vai a **[!UICONTROL Insights]e[!UICONTROL Reports > Reports]** e genera un [!UICONTROL Transaction Report]. Confronta le transazioni ricevute da Search, Social e Commerce con i dati dell’inserzionista.
+1. Vai a **[!UICONTROL Insights]e[!UICONTROL Reports > Reports]** e genera un [!UICONTROL Transaction Report]. Confronta le transazioni ricevute da Search, Social e Commerce con i dati dell&#39;inserzionista.
 
 1. Se alcune transazioni non sono corrette o mancano, assicurati che a) il file di feed contenga tutti gli ID transazione richiesti e nessun ID di tracciamento duplicato e che b) gli ID transazione siano univoci e corretti.
 
