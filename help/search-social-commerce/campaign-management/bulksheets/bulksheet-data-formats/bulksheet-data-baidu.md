@@ -3,9 +3,9 @@ title: Dati bulksheet richiesti per  [!DNL Baidu]  account
 description: Fai riferimento ai campi di intestazione e ai campi dati obbligatori nei bulksheet per  [!DNL Baidu]  account.
 exl-id: 9680cb37-50d4-4b4b-b359-ac54267cd5e6
 feature: Search Bulksheets
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1964'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Location,Excluded IPs (Baidu), 
 
 >[!TIP]
 >
->La tabella seguente è larga. Se necessario, utilizzare la barra di scorrimento nella parte inferiore della tabella per visualizzare l&#39;intero contenuto. È inoltre possibile nascondere temporaneamente il sommario o il riquadro destro facendo clic su ![Nascondi riquadro sinistro](/help/search-social-commerce/assets/hide-left-pane.png "Nascondi riquadro sinistro") nella parte superiore del riquadro sinistro o su ![Nascondi riquadro destro](/help/search-social-commerce/assets/hide-right-pane.png "Nascondi riquadro destro") nella parte superiore del riquadro destro.
+>La tabella seguente è larga. Per espandere l&#39;area di visualizzazione, è possibile nascondere temporaneamente il sommario e il riquadro destro facendo clic su ![Nascondi riquadro sinistro](/help/dsp/assets/hide-left-pane.png "Nascondi riquadro sinistro") nella parte superiore del riquadro sinistro e su ![Nascondi riquadro destro](/help/dsp/assets/hide-right-pane.png "Nascondi riquadro destro") nella parte superiore del riquadro destro. È inoltre possibile utilizzare la barra di scorrimento nella parte inferiore della tabella per visualizzare l&#39;intero contenuto.
 
 | Campo | Campagna | Gruppo di annunci | Parola chiave | Annuncio testo | Destinazione posizione | Descrizione |
 |----|----|----|----|----|----|----|

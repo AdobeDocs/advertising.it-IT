@@ -3,9 +3,9 @@ title: Partner SSP
 description: Consulta un elenco della piattaforma lato offerta (SSP, Supply-Side Platform) e dei partner di scambio aperti.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 3bb03e0896fca0e7d58d4726939d18577f458e2c
+source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Una piattaforma lato offerta (SSP, supply-side platform) è una piattaforma tecn
 
 >[!TIP]
 >
->La tabella seguente è larga. Se necessario, utilizzare la barra di scorrimento nella parte inferiore della tabella per visualizzare l&#39;intero contenuto. È inoltre possibile nascondere temporaneamente il sommario o il riquadro destro facendo clic su ![Nascondi riquadro sinistro](/help/dsp/assets/hide-left-pane.png "Nascondi riquadro sinistro") nella parte superiore del riquadro sinistro o su ![Nascondi riquadro destro](/help/dsp/assets/hide-right-pane.png "Nascondi riquadro destro") nella parte superiore del riquadro destro.
+>La tabella seguente è larga. Per espandere l&#39;area di visualizzazione, è possibile nascondere temporaneamente il sommario e il riquadro destro facendo clic su ![Nascondi riquadro sinistro](/help/dsp/assets/hide-left-pane.png "Nascondi riquadro sinistro") nella parte superiore del riquadro sinistro e su ![Nascondi riquadro destro](/help/dsp/assets/hide-right-pane.png "Nascondi riquadro destro") nella parte superiore del riquadro destro. È inoltre possibile utilizzare la barra di scorrimento nella parte inferiore della tabella per visualizzare l&#39;intero contenuto.
 
 | SSP elencato | Azienda | ID postazione | Supporto programmatico garantito | Regione | Valuta supportata | Desktop video | Video Mobile | Videocamere CTV | Display Desktop | Visualizza mobile | Visualizzazione nativa | Audio, desktop e dispositivi mobili |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |

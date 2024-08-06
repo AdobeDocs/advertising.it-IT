@@ -3,9 +3,9 @@ title: Inventario supportato
 description: Fai riferimento alle reti di annunci supportate, ai tipi di campagne e ai tipi di annunci.
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: a27e5bf805f198a9f3896da4970e922bb629953b
+source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
 workflow-type: tm+mt
-source-wordcount: '2716'
+source-wordcount: '2720'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Di seguito sono riportati i tipi di reti di annunci, campagne e annunci supporta
 
 >[!TIP]
 >
->La tabella seguente è larga. Se necessario, utilizzare la barra di scorrimento nella parte inferiore della tabella per visualizzare l&#39;intero contenuto. È inoltre possibile nascondere temporaneamente il sommario o il riquadro destro facendo clic su ![Nascondi riquadro sinistro](/help/search-social-commerce/assets/hide-left-pane.png "Nascondi riquadro sinistro") nella parte superiore del riquadro sinistro o su ![Nascondi riquadro destro](/help/search-social-commerce/assets/hide-right-pane.png "Nascondi riquadro destro") nella parte superiore del riquadro destro.
+>La tabella seguente è larga. Per espandere l&#39;area di visualizzazione, è possibile nascondere temporaneamente il sommario e il riquadro destro facendo clic su ![Nascondi riquadro sinistro](/help/dsp/assets/hide-left-pane.png "Nascondi riquadro sinistro") nella parte superiore del riquadro sinistro e su ![Nascondi riquadro destro](/help/dsp/assets/hide-right-pane.png "Nascondi riquadro destro") nella parte superiore del riquadro destro. È inoltre possibile utilizzare la barra di scorrimento nella parte inferiore della tabella per visualizzare l&#39;intero contenuto.
 
 | Source | Rete | Tipo di campagna | Tipo di annuncio | Sincronizza e visualizza | Crea/Modifica | Traccia[^1] | Ottimizza | Report[^2] | Supporto Adobe Analytics[^3] |
 |----|----|----|----|----|----|----|----|----|----|
