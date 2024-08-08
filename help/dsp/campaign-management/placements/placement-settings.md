@@ -3,9 +3,9 @@ title: Impostazioni di posizionamento
 description: Consulta le descrizioni delle impostazioni di posizionamento disponibili.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 07ecb613c49e27e1a1e82d7082b1715040b82610
+source-git-commit: cc98c8fa5d1e0309b5b2716f58e6193d029e3f96
 workflow-type: tm+mt
-source-wordcount: '3915'
+source-wordcount: '3921'
 ht-degree: 0%
 
 ---
@@ -323,7 +323,7 @@ Quando selezioni sia ID legacy che ID universali, viene data la preferenza di of
 
    * *[!UICONTROL RampID]*: destinazioni [!DNL LiveRamp] [!DNL RampIDs] di utenti connessi al sito tramite i relativi indirizzi e-mail.<!-- Verify --> [!DNL RampIDs] sono disponibili per gli utenti in Nord America, Australia e Nuova Zelanda.
 
-   * *[!UICONTROL Unified ID2.0]*: destinazioni con ID [!DNL Unified ID2.0] (UID2) di utenti connessi al sito utilizzando i loro indirizzi e-mail.<!-- Verify -->[!DNL UID2 IDs] non sono disponibili per gli utenti nello Spazio economico europeo e in alcuni altri paesi. Vedi l&#39;[elenco dei paesi vietati](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
+   * *[!UICONTROL Unified ID2.0]*: Target [!DNL Unified ID2.0] (UID2) ID degli utenti connessi al sito utilizzando i loro indirizzi e-mail.<!-- Verify -->[!DNL UID2 IDs] non sono disponibili per gli utenti nello Spazio economico europeo e in alcuni altri paesi. Vedi l&#39;[elenco dei paesi vietati](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
 
   **[!UICONTROL Terms of service]**: i termini del contratto di servizio per l&#39;utilizzo degli ID universali. Prima di poter convertire i dati in un nuovo tipo di ID, tu o un altro utente dell’account DSP dovete accettare i termini una volta. Per i clienti con contratti di assistenza gestiti, il team dell’account Adobe otterrà il consenso e accetterà i termini per conto della tua organizzazione. Per leggere i termini, fare clic su **>**. Per accettare i termini, scorrere fino alla fine dei termini e fare clic su **[!UICONTROL Accept]**.
 
@@ -365,7 +365,7 @@ Per specificare il targeting degli argomenti:
 >
 >* Imposta eventuali targeting negativi all&#39;interno del segmento su [!DNL Proximic by Comscore] o [!DNL Oracle Data Cloud] (precedentemente [!DNL Grapeshot]).
 
-**[!UICONTROL Device Targeting]:** (facoltativo) informazioni specifiche sul dispositivo, inclusi tipi di dispositivo, produttori, sistemi operativi, browser e tipi di connettività, da includere ed escludere come destinazioni. Per specificare il targeting del dispositivo:
+**[!UICONTROL Device Targeting]:** (facoltativo) informazioni specifiche sul dispositivo, inclusi tipi di dispositivo, produttori, sistemi operativi, browser e tipi di connettività, da includere ed escludere come destinazioni. I tipi variano in base al tipo di posizionamento. Per specificare il targeting del dispositivo:
 
 1. Fai clic su ![Modifica](/help/dsp/assets/edit.png).
 1. Specifica i dettagli del dispositivo da includere ed escludere:
