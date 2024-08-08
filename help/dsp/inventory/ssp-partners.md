@@ -3,7 +3,7 @@ title: Partner SSP
 description: Consulta un elenco della piattaforma lato offerta (SSP, Supply-Side Platform) e dei partner di scambio aperti.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
+source-git-commit: 96a8080a134bc3bdff597d8a26bfbc4cd40bc545
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Una piattaforma lato offerta (SSP, supply-side platform) è una piattaforma tecn
 | [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul] o Adobe Advertising | No | Globale | USD | x | x | x | x | x |  |  |
 | [!DNL Triton] |  | Adobe Advertising | Sì | Globale | USD |  |  |  |  |  |  | x |
 | [!DNL Unruly] | [!DNL Nexxen] | Adobe Advertising | No | USA + EMEA | USD | x | x | x |  |  |  |  |
-| [!DNL Yahoo] | [!DNL TubeMogul] o Adobe Advertising | No | Globale | USD | x | x | x | x | x |  |  |
+| [!DNL Yahoo] |  | [!DNL TubeMogul] o Adobe Advertising | No | Globale | USD | x | x | x | x | x |  |  |
 
 {style="table-layout:auto"}
 
