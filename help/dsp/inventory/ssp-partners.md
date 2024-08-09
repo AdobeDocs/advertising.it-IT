@@ -3,7 +3,7 @@ title: Partner SSP
 description: Consulta un elenco della piattaforma lato offerta (SSP, Supply-Side Platform) e dei partner di scambio aperti.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 9c8303ff4c6d4558421268e4d98d370abe7bdf9e
+source-git-commit: 5887acf9b0bb301b4a9df41b82134e89158ae514
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 0%
@@ -24,30 +24,30 @@ Una piattaforma lato offerta (SSP, supply-side platform) è una piattaforma tecn
 
 | SSP elencato | Azienda | ID postazione | Supporto programmatico garantito | Regione | Valuta supportata | Inventario supportato |
 | --- | --- | --- | --- | --- | --- | --- |
-| [!DNL AdColony] (in precedenza [!DNL Opera]) | [!DNL Digital Turbine] | [!DNL TubeMogul] | — | Globale | USD | Visualizza desktop e dispositivi mobili<br><br>Desktop video e dispositivi mobili |
+| [!DNL AdColony] (in precedenza [!DNL Opera]) | [!DNL Digital Turbine] | [!DNL TubeMogul] | — | Globale | USD | Visualizza desktop e dispositivi mobili<br>Desktop video e dispositivi mobili |
 | [!DNL AdsWizz] | [!DNL Sirius XM (Pandora)] | Adobe Advertising | Supporto PG | Globale | USD, EUR, GBP | Desktop audio e dispositivi mobili |
-| [!DNL AppNexus] | [!DNL Xandr] | ID postazione video: 9094<br>ID postazione di visualizzazione: 3939 | — | Globale | USD | Visualizza desktop e dispositivi mobili<br><br>Desktop video, dispositivi mobili e CTV |
-| [!DNL DailyMotion] |  | [!DNL TubeMogul] o Adobe Advertising | — | USA + EMEA | USD, EUR | Visualizza desktop e dispositivi mobili<br><br>Desktop video, dispositivi mobili e CTV |
-| [!DNL EMX Digital] | [!DNL Cadent] | Adobe Advertising | — | US/CA | USD | Visualizza desktop e dispositivi mobili<br><br>Desktop video, dispositivi mobili e CTV |
+| [!DNL AppNexus] | [!DNL Xandr] | ID postazione video: 9094<br>ID postazione di visualizzazione: 3939 | — | Globale | USD | Visualizza desktop e dispositivi mobili<br>Desktop video, dispositivi mobili e CTV |
+| [!DNL DailyMotion] |  | [!DNL TubeMogul] o Adobe Advertising | — | USA + EMEA | USD, EUR | Visualizza desktop e dispositivi mobili<br>Desktop video, dispositivi mobili e CTV |
+| [!DNL EMX Digital] | [!DNL Cadent] | Adobe Advertising | — | US/CA | USD | Visualizza desktop e dispositivi mobili<br>Desktop video, dispositivi mobili e CTV |
 | [!DNL FreeWheel] (precedentemente [!DNL StickyAds]) | [!DNL Comcast] | [!DNL TubeMogul] o Adobe Advertising | Supporto PG | Globale | USD, EUR, AUD, GBP | Desktop video, dispositivi mobili e TVCC |
-| [!DNL Google Authorized Buyers] (precedentemente [!DNL Google AdX]) | [!DNL Google] | Adobe NA - 44912714<br>Adobe APAC e UE - 89185975 | Supporto PG | Globale | USD, BRL | Desktop e dispositivo mobile<br><br>Desktop e dispositivo mobile<br><br>Desktop video, dispositivo mobile e CTV |
-| [!DNL GumGum] |  | Adobe Advertising | — | Globale | USD | Visualizza desktop e dispositivi mobili<br><br>Desktop video e dispositivi mobili |
-| [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | — | Globale | USD | Visualizza desktop e dispositivi mobili<br><br>Desktop video, dispositivi mobili e CTV |
+| [!DNL Google Authorized Buyers] (precedentemente [!DNL Google AdX]) | [!DNL Google] | Adobe NA - 44912714<br>Adobe APAC e UE - 89185975 | Supporto PG | Globale | USD, BRL | Desktop e dispositivo mobile<br>Desktop e dispositivo mobile<br>Desktop video, dispositivo mobile e CTV |
+| [!DNL GumGum] |  | Adobe Advertising | — | Globale | USD | Visualizza desktop e dispositivi mobili<br>Desktop video e dispositivi mobili |
+| [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | — | Globale | USD | Visualizza desktop e dispositivi mobili<br>Desktop video, dispositivi mobili e CTV |
 | [!DNL Magnite (Streaming) CTV] | [!DNL Magnite] (in precedenza [!DNL Telaria] e [!DNL Tremor]) | [!DNL TubeMogul] o Adobe Advertising | Supporto PG | Globale | AUD, USD | Desktop video, dispositivi mobili e TVCC |
-| [!DNL Magnite DV+] | [!DNL Magnite] (in precedenza [!DNL Telaria] e [!DNL Tremor]) | [!DNL TubeMogul] o Adobe Advertising | Supporto PG | Globale | USD | Desktop e dispositivo mobile<br><br>Desktop e dispositivo mobile<br><br>Desktop video, dispositivo mobile e CTV |
-| [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] o Adobe Advertising | Supporto PG | Globale | USD | Visualizza desktop e dispositivi mobili<br><br>Desktop video, dispositivi mobili e CTV |
-| [!DNL PubMatic New ortb2.2] | [!DNL Pubmatic] | [!DNL TubeMogul] o Adobe Advertising | — | Globale | USD | Visualizza desktop e dispositivi mobili<br><br>Desktop video, dispositivi mobili e CTV |
-| [!DNL ShareThrough] |  | [!DNL TubeMogul] o Adobe Advertising | — | Globale | USD | Schermo desktop e mobile<br><br>Schermo nativo<br><br>Video desktop, mobile e CTV |
-| [!DNL SmartClip] |  | Adobe Advertising | — | EMEA | Tutte le valute | Visualizza desktop e dispositivi mobili<br><br>Desktop video, dispositivi mobili e CTV |
+| [!DNL Magnite DV+] | [!DNL Magnite] (in precedenza [!DNL Telaria] e [!DNL Tremor]) | [!DNL TubeMogul] o Adobe Advertising | Supporto PG | Globale | USD | Desktop e dispositivo mobile<br>Desktop e dispositivo mobile<br>Desktop video, dispositivo mobile e CTV |
+| [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] o Adobe Advertising | Supporto PG | Globale | USD | Visualizza desktop e dispositivi mobili<br>Desktop video, dispositivi mobili e CTV |
+| [!DNL PubMatic New ortb2.2] | [!DNL Pubmatic] | [!DNL TubeMogul] o Adobe Advertising | — | Globale | USD | Visualizza desktop e dispositivi mobili<br>Desktop video, dispositivi mobili e CTV |
+| [!DNL ShareThrough] |  | [!DNL TubeMogul] o Adobe Advertising | — | Globale | USD | Schermo desktop e mobile<br>Schermo nativo<br>Video desktop, mobile e CTV |
+| [!DNL SmartClip] |  | Adobe Advertising | — | EMEA | Tutte le valute | Visualizza desktop e dispositivi mobili<br>Desktop video, dispositivi mobili e CTV |
 | [!DNL SmartStream] |  | Adobe Advertising | — | EMEA | EUR, USD | Desktop video e dispositivi mobili |
 | [!DNL Sortable] | [!DNL Freestar] | Adobe Advertising | — | CA | USD | Visualizza desktop e dispositivi mobili |
 | [!DNL Taboola] |  | Adobe Advertising | — | US/CA | USD | Desktop video e dispositivi mobili |
-| [!DNL Teads] |  | [!DNL TubeMogul] o Adobe Advertising | — | Video in uscita = Globale<br>Visualizzazione = NA + EMEA | USD | Visualizza desktop e dispositivi mobili<br><br>Desktop video e dispositivi mobili |
+| [!DNL Teads] |  | [!DNL TubeMogul] o Adobe Advertising | — | Video in uscita = Globale<br>Visualizzazione = NA + EMEA | USD | Visualizza desktop e dispositivi mobili<br>Desktop video e dispositivi mobili |
 | [!DNL TripleLift] |  | [!DNL TubeMogul] o Adobe Advertising | — | Globale | USD | Visualizzazione nativa |
-| [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul] o Adobe Advertising | — | Globale | USD | Visualizza desktop e dispositivi mobili<br><br>Desktop video, dispositivi mobili e CTV |
+| [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul] o Adobe Advertising | — | Globale | USD | Visualizza desktop e dispositivi mobili<br>Desktop video, dispositivi mobili e CTV |
 | [!DNL Triton] |  | Adobe Advertising | Supporto PG | Globale | USD | Desktop audio e dispositivi mobili |
 | [!DNL Unruly] | [!DNL Nexxen] | Adobe Advertising | — | USA + EMEA | USD | Desktop video, dispositivi mobili e TVCC |
-| [!DNL Yahoo] |  | [!DNL TubeMogul] o Adobe Advertising | — | Globale | USD | Visualizza desktop e dispositivi mobili<br><br>Desktop video, dispositivi mobili e CTV |
+| [!DNL Yahoo] |  | [!DNL TubeMogul] o Adobe Advertising | — | Globale | USD | Visualizza desktop e dispositivi mobili<br>Desktop video, dispositivi mobili e CTV |
 
 >[!MORELIKETHIS]
 >
