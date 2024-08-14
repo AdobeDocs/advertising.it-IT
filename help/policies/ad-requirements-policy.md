@@ -3,9 +3,9 @@ title: Criterio dei requisiti dell’annuncio di Adobe Advertising
 description: Consulta i criteri per i requisiti degli annunci.
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-source-git-commit: 703031baac908e2024d877f031ff164370528383
+source-git-commit: 5a13aee5b7dcefa9f74d26322078c75e53f18a69
 workflow-type: tm+mt
-source-wordcount: '2191'
+source-wordcount: '2190'
 ht-degree: 0%
 
 ---
@@ -72,11 +72,11 @@ Gli annunci contenenti contenuti nelle categorie seguenti sono consentiti con re
 
 * **Alcol**. Gli annunci che pubblicizzano o promuovono bevande alcoliche e aziende produttrici di alcol sono consentiti solo se conformi alle leggi e alle norme di autoregolamentazione applicabili. Ad esempio, gli annunci pubblicitari di alcolici non possono essere rivolti ai minori e possono essere pubblicati solo nei paesi che li autorizzano. Tuttavia, in nessun caso gli annunci possono glamour o rappresentare il consumo eccessivo di alcol.
 
-* **Cannabis**. Gli annunci che pubblicizzano o promuovono le aziende di cannabis statali o la cannabis nelle province canadesi consentite sono consentiti solo se in conformità con le leggi nazionali o canadesi applicabili, rispettivamente, a condizione che (a) in precedenza entrasse nel [!DNL Adobe Rider] applicabile, (b) la conformità con [!DNL Adobe] obblighi di dovuta diligenza e (c) come consentito dai fornitori di media e dalle leggi applicabili. Gli annunci per la cannabis legale dello stato non possono offrire o promuovere prodotti specifici in vendita e devono essere mirati geograficamente allo stato appropriato. Tutti gli annunci di cannabis consentiti non possono (1) essere attraenti per i minori, o (2) glamour o rappresentare il consumo di cannabis. Per &quot;province canadesi autorizzate&quot; si intendono le province di Alberta, Columbia Britannica, Manitoba, Nuovo Brunswick, Terranova e Labrador, Nuova Scozia, Nunavut, Ontario, Isola del Principe Edoardo, Québec, Saskatchewan e Yukon.
+* **Cannabis**. Gli annunci che pubblicizzano o promuovono le aziende di cannabis statali o la cannabis nelle province canadesi consentite sono consentiti solo se in conformità con le leggi nazionali o canadesi applicabili, rispettivamente, a condizione che (a) abbia precedentemente sottoscritto i requisiti di [!DNL Adobe Rider] applicabili, (b) si sia conformato ai [!DNL Adobe] obblighi di dovuta diligenza e \(c\) come consentito dai fornitori di media e dalle leggi applicabili. Gli annunci per la cannabis legale dello stato non possono offrire o promuovere prodotti specifici in vendita e devono essere mirati geograficamente allo stato appropriato. Tutti gli annunci di cannabis consentiti non possono (1) essere attraenti per i minori, o (2) glamour o rappresentare il consumo di cannabis. Per &quot;province canadesi autorizzate&quot; si intendono le province di Alberta, Columbia Britannica, Manitoba, Nuovo Brunswick, Terranova e Labrador, Nuova Scozia, Nunavut, Ontario, Isola del Principe Edoardo, Québec, Saskatchewan e Yukon.
 
 * **Gioco d&#39;azzardo**. Gli annunci contenenti contenuti relativi al gioco d’azzardo, anche promuovendo casinò, lotterie e altri giochi d’azzardo (online o offline) possono essere promossi solo in conformità alle leggi applicabili. Tuttavia, nessun annuncio può glamour o rappresentare comportamenti di gioco eccessivi o rappresentare in modo errato le probabilità o i rischi del gioco d&#39;azzardo.
 
-* **Canapa**. Gli annunci per i prodotti derivati da canapa e canapa devono essere conformi a tutte le leggi statali e federali applicabili, a condizione che (a) in precedenza entrasse nel [!DNL Adobe Rider] applicabile, (b) si conformasse agli obblighi di diligenza [!DNL Adobe] e (c) come consentito dai fornitori di media e dalle leggi applicabili. Gli annunci pubblicitari relativi alla canapa e ai prodotti derivati dalla canapa non possono (1) fornire indicazioni sulla salute, (2) rivolgersi a popolazioni vulnerabili, compresi i minori, o (3) rendere glamour o rappresentare il fumo, o (4) suggerire che tali prodotti abbiano effetti tossici simili alla cannabis.
+* **Canapa**. Gli annunci per i prodotti derivati da canapa e canapa devono essere conformi a tutte le leggi statali e federali applicabili, a condizione che (a) in precedenza entrasse nel [!DNL Adobe Rider] applicabile, (b) rispettasse gli obblighi di diligenza [!DNL Adobe] e \(c\) come consentito dai fornitori di supporti e dalle leggi applicabili. Gli annunci pubblicitari relativi alla canapa e ai prodotti derivati dalla canapa non possono (1) fornire indicazioni sulla salute, (2) rivolgersi a popolazioni vulnerabili, compresi i minori, o (3) rendere glamour o rappresentare il fumo, o (4) suggerire che tali prodotti abbiano effetti tossici simili alla cannabis.
 
 * **Annunci farmaceutici**. Gli annunci che promuovono farmaci da banco e da prescrizione devono essere conformi alle leggi, ai regolamenti e alle linee guida federali e locali applicabili.
 
