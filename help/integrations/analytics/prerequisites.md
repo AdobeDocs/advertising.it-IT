@@ -3,9 +3,9 @@ title: Prerequisiti e informazioni chiave per l'implementazione  [!DNL Analytics
 description: Prerequisiti e informazioni chiave per l'implementazione  [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: 8481227a8ccb1f1e6e715e34e14732967110c168
+source-git-commit: 1559c2cb83e32d90f4b2fe959d07c4e588d9becf
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Contatta il tuo account team di Adobi per conoscere gli ambienti di annunci supp
 
 * Il monitoraggio delle conversioni [!DNL Analytics for Advertising] in Adobe Analytics utilizza un intervallo di lookback configurabile (60 giorni per impostazione predefinita). I rapporti di Adobe Advertising riflettono le conversioni e il coinvolgimento del sito fino alla fine di questo intervallo di lookback di tracciamento.
 
-* Sono supportati tutti i tipi di annunci. Tuttavia, non tutti gli ambienti di annunci sono supportati.
+* Sono supportati tutti i tipi di annunci. <!--Clarify what this might include. It used to include CTV, but not anymore: However, not all ad environments are supported. -->
 
 * [!DNL Analytics] conversioni sono attualmente tracciate e attribuite solo a un visitatore sullo stesso dispositivo.
 
