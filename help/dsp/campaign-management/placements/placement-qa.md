@@ -3,16 +3,16 @@ title: Revisione e modifica delle impostazioni di posizionamento tramite i fogli
 description: Scopri come rivedere e modificare le impostazioni di posizionamento chiave utilizzando i fogli di calcolo.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 230a169611aa3094365a877476f2e5e1c6b3cb9b
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
 
 # Revisione e modifica delle impostazioni di posizionamento tramite i fogli di calcolo
 
-Puoi scaricare le impostazioni per uno o più posizionamenti, o per tutti i posizionamenti in una campagna, in formato XLSX (foglio di calcolo Excel) per la revisione. Utilizza questa funzione per rivedere rapidamente dettagli quali:
+È possibile scaricare le impostazioni per uno o più posizionamenti o per tutti i posizionamenti in una campagna in formato XLSX ([!DNL Microsoft Excel] foglio di calcolo) per la revisione. Utilizza questa funzione per rivedere rapidamente dettagli quali:
 
 * Quali tipi di pubblico sono target della campagna.
 * Quando i posizionamenti iniziano a consegnare e quando terminano.
@@ -42,7 +42,7 @@ Puoi quindi apportare modifiche a determinati campi e caricarli nuovamente in DS
 
    * Nella parte destra della barra dei menu superiore, fai clic su ![Processi](/help/dsp/assets/downloads.png). Fare clic su **[!UICONTROL Download]** accanto al processo.
 
-   Il file viene salvato nella cartella Download del browser. Per un elenco delle colonne incluse, vedere &quot;[Colonne nei fogli di calcolo scaricati/caricati](#qa-sheet-columns)&quot;.
+   Il file viene salvato nella cartella Download del browser. Per un elenco delle colonne incluse, vedere &quot;[Colonne di posizionamento nei fogli di calcolo scaricati/caricati](#qa-sheet-columns)&quot;.
 
 ## Scarica impostazioni per uno o più posizionamenti
 
@@ -56,7 +56,7 @@ Puoi quindi apportare modifiche a determinati campi e caricarli nuovamente in DS
 
 1. Nella barra degli strumenti Azioni in blocco fare clic su **[!UICONTROL ...]** > **[!UICONTROL Download Edit in Excel Sheet]**.
 
-Il file viene salvato automaticamente nella cartella Download del browser. Per un elenco delle colonne incluse, vedere &quot;[Colonne nei fogli di calcolo scaricati/caricati](#qa-sheet-columns)&quot;.
+Il file viene salvato automaticamente nella cartella Download del browser. Per un elenco delle colonne incluse, vedere &quot;[Colonne di posizionamento nei fogli di calcolo scaricati/caricati](#qa-sheet-columns)&quot;.
 
 ## Caricare impostazioni per tutti i posizionamenti in una campagna
 
