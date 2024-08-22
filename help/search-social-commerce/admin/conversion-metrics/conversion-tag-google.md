@@ -3,9 +3,9 @@ title: Crea un tag di conversione per  [!DNL Google Ads]
 description: Scopri come creare un tag di conversione  [!DNL Google Ads] .
 feature: Conversions
 exl-id: 214611f0-bd38-499e-a7de-3a5878995fb5
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 04330e26dbad6efe76dfcbe4662b062511ae14f6
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Una volta aggiunti i tag al sito Web e che iniziano a essere attivati, [!DNL Goo
 
 **[!UICONTROL View Through Conversion Window]:** il numero massimo di giorni dopo i quali un utente visualizza i tuoi annunci e per i quali vengono registrate le conversioni view-through. Per le campagne di ricerca, visualizzazione e acquisto, la finestra può essere di 1-90 giorni. Selezionare un numero o selezionare **[!UICONTROL Custom]** e immettere un numero.
 
-**[!UICONTROL Attribution Model]:** [Quanto credito ottiene ogni interazione pubblicitaria](https://support.google.com/google-ads/answer/6259715?sjid=8211249329930775138): *[!UICONTROL Data driven]*, *[!UICONTROL Last click]*, *[!UICONTROL First click]*, *[!UICONTROL Linear]*, *[!UICONTROL Time decay]* o *[!UICONTROL Position based]*.
+**[!UICONTROL Attribution Model]:** [Quanto credito riceve ogni interazione pubblicitaria](https://support.google.com/google-ads/answer/6259715?sjid=8211249329930775138): *[!UICONTROL Data driven]* o *[!UICONTROL Last click]*. **Nota:** le azioni di conversione che in precedenza utilizzavano i modelli *[!UICONTROL First click]*, *[!UICONTROL Linear]*, *[!UICONTROL Time decay]* o *[!UICONTROL Position based]* non supportati ora utilizzano il modello *[!UICONTROL Data driven]*.
 
 >[!MORELIKETHIS]
 >
