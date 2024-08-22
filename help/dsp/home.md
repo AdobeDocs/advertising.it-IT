@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 6264132ebeacc960548e818d023dc232a293abc1
+source-git-commit: 14e3499c78bc45f86bbd61e6b081af8c26ecbea3
 workflow-type: tm+mt
-source-wordcount: '3906'
+source-wordcount: '4089'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Le seguenti funzioni sono nuove o modificate di recente.
 
 | Data | Funzionalità | Descrizione | Per Ulteriori Informazioni |
 | ---- | ------- | ----------- | -------------------- |
+| 22 agosto 2024 | [!UICONTROL Custom Reports] | Sono stati rilasciati i seguenti miglioramenti e funzioni per i rapporti personalizzati:<ul><li>La visualizzazione [!UICONTROL Reports] > [!UICONTROL Custom Reports] è stata riprogettata:<ul><li>Le colonne ora includono &quot;[!UICONTROL Status]&quot;, &quot;[!UICONTROL Report Run]&quot; (che mostra le date di attivazione del report a partire dal 22 agosto 2024), &quot;[!UICONTROL Recurrence]&quot;, &quot;[!UICONTROL Created By]&quot; e &quot;[!UICONTROL Download Report]&quot; (con un pulsante &quot;[!UICONTROL Download]&quot; in modo da poter scaricare immediatamente qualsiasi istanza del report dagli ultimi quattro mesi).</li><li>È possibile filtrare l&#39;elenco in base allo stato, indipendentemente dal fatto che il report sia ricorrente o occasionale, al tipo di report, al tipo di destinazione e al creatore del report. Per impostazione predefinita, sono elencati tutti i rapporti non archiviati creati dall’utente, con il più recente in cima.</li><li>I pulsanti di azione rapida per ogni report (ad esempio [!UICONTROL Copy] e [!UICONTROL Delete]) sono ora disponibili facendo clic su **[!UICONTROL …]** accanto al nome del report.</li></ul><li>Le opzioni di pianificazione dei rapporti sono ora disponibili a livello di rapporto, non a livello di singola destinazione. Nelle impostazioni dei report, le impostazioni di pianificazione sono ora disponibili nella parte superiore della sezione &quot;[!UICONTROL Report run schedule]&quot;. Se si modifica un report precedente con pianificazioni esistenti diverse per le singole destinazioni, verrà richiesto di impostare la pianificazione e verrà notificato che la pianificazione sostituirà la pianificazione esistente per tutte le destinazioni esistenti.</li></ul> | Consulta &quot;[Informazioni sui report](/help/dsp/reports/report-about.md)&quot; e &quot;[Impostazioni report](/help/dsp/reports/report-settings.md).&quot; |
 | 22 agosto 2024 | [!UICONTROL Packages] | È ora possibile scaricare le impostazioni per uno o più pacchetti in formato XLSX ([!DNL Microsoft Excel] spreadsheet) per la revisione. Il foglio di calcolo include una scheda separata con le informazioni sul volo. Puoi quindi apportare modifiche alla maggior parte dei campi in entrambe le schede e caricarli nuovamente in DSP in una sola volta. | Consulta &quot;[Rivedere e modificare le impostazioni dei pacchetti utilizzando i fogli di calcolo](/help/dsp/campaign-management/packages/package-qa.md).&quot; |
 | 14 agosto 2024 | [!UICONTROL Placements] | L&#39;DSP non aggiorna più i conteggi dei segmenti per [!DNL Audiences by Oracle (BlueKai)] segmenti, che cesseranno a fine settembre, e tutti i conteggi scenderanno gradualmente a zero (0). | — |
 | 30 luglio 2024 | [!UICONTROL Placements] | A partire dal 14 agosto, l&#39;DSP smetterà di aggiornare i conteggi dei segmenti per [!DNL Audiences by Oracle (BlueKai)] segmenti, che cesseranno a fine settembre, e tutti i conteggi diminuiranno gradualmente a zero (0). | — |

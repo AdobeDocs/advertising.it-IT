@@ -3,9 +3,9 @@ title: Informazioni sui report personalizzati
 description: Scopri le opzioni per la creazione manuale di rapporti personalizzati o l’utilizzo di modelli di rapporto preconfigurati.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 81c9590d134214e1ed860c2f8116ff66882000be
+source-git-commit: 44f7f9b31afbe6b863acd389df641057b1e6dea1
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
@@ -15,14 +15,15 @@ ht-degree: 0%
 I rapporti personalizzati ti consentono di personalizzare il contenuto e la consegna dei dati del rapporto utilizzando le dimensioni della campagna (ad esempio inserzionista, posizionamento, siti o geos) e le metriche più importanti per te. Puoi effettuare le seguenti operazioni:
 
 * Configurare completamente i rapporti sulle prestazioni delle campagne a livello granulare.
+
 * Scegli uno dei modelli di rapporto preconfigurati e, facoltativamente, personalizzali ulteriormente.
 
-Puoi generare i rapporti una volta o pianificarli in modo che vengano generati ogni giorno, ogni settimana o ogni mese alle 03:00 nel fuso orario specificato. Una volta generato, il report viene consegnato a ogni destinatario e-mail specificato o a [destinazioni report](/help/dsp/reports/report-destinations/report-destination-about.md) collegate dei seguenti tipi:
+Puoi generare i rapporti una volta o pianificarli in modo che vengano generati ogni giorno, ogni settimana o ogni mese alle 03:00 nel fuso orario specificato in base a criteri specifici, ad esempio ogni 15 giorni o il 1° di ogni mese. Una volta generato un report, puoi scaricarlo da [!UICONTROL Reports] > [!UICONTROL Custom Reports] o da [destinazioni report](/help/dsp/reports/report-destinations/report-destination-about.md) collegate dei seguenti tipi:
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
+* SSL FTP <!-- (in beta) -->
 * SFTP
-* FTP SSL (in versione beta)
 
 >[!NOTE]
 >
@@ -84,9 +85,30 @@ Una volta abilitata la funzionalità per la tua organizzazione, puoi [filtrare](
 
 Le impostazioni dell&#39;account in [!UICONTROL Settings] > [!UICONTROL Account] indicano a) gli altri account i cui dati sono disponibili per il tuo account e b) gli altri account che possono accedere ai dati del tuo account.
 
+## Visualizzazione [!UICONTROL Custom Reports]
+
+[!UICONTROL Reports] > [!UICONTROL Custom Reports] elenca i tuoi rapporti esistenti, inclusi quelli generati, quelli pianificati per la generazione futura e quelli non riusciti. La colonna &quot;[!UICONTROL Report Run]&quot; mostra le date di attivazione del report a partire dal 22 agosto 2024. Per impostazione predefinita, sono elencati tutti i rapporti non archiviati creati dall’utente, con il più recente in cima. Puoi filtrare ulteriormente l’elenco in base allo stato, sia che il rapporto sia ricorrente o occasionale, al tipo di rapporto, al tipo di destinazione e al creatore del rapporto.
+
+Puoi creare nuovi rapporti personalizzati, modificare quelli esistenti o duplicarli per creare nuovi rapporti, eseguire immediatamente i rapporti, scaricare qualsiasi istanza di rapporto degli ultimi quattro mesi ed eliminare i rapporti.
+
+## Stati dei rapporti {#custom-report-status}
+
+* **[!UICONTROL Yet to start]:** Il report non è mai stato eseguito.
+
+* **[!UICONTROL Report generating]:** Il report è in fase di creazione.
+
+* **[!UICONTROL Ready to download]:** (solo report ricorrenti) Una o più istanze del report sono disponibili per il download e sono pianificate più istanze del report.
+
+* **[!UICONTROL Failed]:** Il processo di report non è riuscito. Per vedere il motivo per cui singole istanze di report non sono riuscite per una sequenza di report, fare clic sulla ![freccia GIÙ](/help/dsp/assets/chevron-down.png "freccia GIÙ") accanto a [!UICONTROL Download]. I processi di report non riusciti sono indicati da un&#39;icona di errore (![indicatore di errore](/help/dsp/assets/indicator-critical.png "indicatore di errore")). Per una descrizione dell’errore, posiziona il cursore sull’icona.
+
+* **[!UICONTROL Completed]:** Per i report non ricorrenti, il report è completato. Per i rapporti ricorrenti, tutte le istanze di rapporto sono completate. Puoi scaricare tutti i rapporti completati negli ultimi quattro mesi.
+
+* **[!UICONTROL Archived]:** Il report è archiviato e non può essere eseguito. Questo stato viene impostato quando la generazione del rapporto non riesce più volte per un rapporto. Al momento non è possibile impostare questo stato dall’interfaccia utente.
+
 >[!MORELIKETHIS]
 >
 >* [Crea un report personalizzato](/help/dsp/reports/report-create.md)
+>* [Scarica un report personalizzato](/help/dsp/reports/report-download.md)
 >* [Impostazioni report personalizzati](/help/dsp/reports/report-settings.md)
 >* [Domande frequenti sui report domestici](/help/dsp/reports/faq-household-report.md)
 >* [Tipi di report sulle prestazioni nelle visualizzazioni di Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
