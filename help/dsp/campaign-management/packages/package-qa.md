@@ -2,9 +2,9 @@
 title: Revisione e modifica delle impostazioni dei pacchetti utilizzando i fogli di calcolo
 description: Scopri come rivedere e modificare le impostazioni dei pacchetti chiave utilizzando i fogli di calcolo.
 feature: DSP Packages
-source-git-commit: 230a169611aa3094365a877476f2e5e1c6b3cb9b
+source-git-commit: ad00092c4ef5d44c364ab0593826220054f715c3
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '824'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Il file viene salvato automaticamente nella cartella Download del browser. Per u
 | [!UICONTROL Goals & Budget] | [!UICONTROL Optimization Target] | Il valore target dell’obiettivo. | Sì |
 | [!UICONTROL Goals & Budget] | [!UICONTROL Custom Goal Name] | (Pacchetti con solo gli obiettivi di ottimizzazione &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;)Un [obiettivo personalizzato](/help/dsp/optimization/custom-goal.md) che include gli eventi di conversione o ricavi utilizzati per calcolare la metrica CPA o ROAS. | Sì |
 | [!UICONTROL Goals & Budget] | [!UICONTROL Conversion Metric Name] | (Facoltativo; solo pacchetti con gli obiettivi di ottimizzazione &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;) L&#39;evento di conversione finale o l&#39;importo di evento di ricavo/vendita da utilizzare per calcolare il ritorno sulla spesa pubblicitaria o il costo per acquisizione. | Sì |
-| [!UICONTROL Goals & Budget] | [!UICONTROL Package Goal Type] | (Solo pacchetti con obiettivi di ottimizzazione personalizzati) Scopo del pacchetto, che consente di determinare come ottimizzare il pacchetto: *[!UICONTROL Prospecting]*, *[!UICONTROL Retargeting]* o *[!UICONTROL Other]*. | — |
+| [!UICONTROL Goals & Budget] | [!UICONTROL Package Goal Type] | (Solo pacchetti con obiettivi di ottimizzazione personalizzati) Scopo del pacchetto, che consente di determinare come ottimizzare il pacchetto: *[!UICONTROL Prospecting]*, *[!UICONTROL Retargeting]* o *[!UICONTROL Other]*. | Sì |
 | [!UICONTROL Goals & Budget] | [!UICONTROL Linked Package id for learning carryover] | (Solo pacchetti con obiettivi di ottimizzazione personalizzati) ID del pacchetto per un altro pacchetto i cui dati storici vengono utilizzati come input per l’ottimizzazione del pacchetto. | Sì |
 | [!UICONTROL Goals & Budget] | [!UICONTROL Linked Package Name for learning carryover] | (Solo pacchetti con obiettivi di ottimizzazione personalizzati) Un altro pacchetto i cui dati storici vengono utilizzati come input per l’ottimizzazione del pacchetto. | — |
 | [!UICONTROL Goals & Budget] | [!UICONTROL Pace on] | Indica se il pacchetto sta avanzando verso *[!UICONTROL budget]* o *[!UICONTROL primary_goal]* (per le impression). | — |
@@ -102,10 +102,10 @@ Il file viene salvato automaticamente nella cartella Download del browser. Per u
 |---------|--------|-------------|-----------|
 | [!UICONTROL Flight Details] | [!UICONTROL Package ID] | ID numerico del pacchetto. | — |
 | [!UICONTROL Flight details] | [!UICONTROL Flight ID] | ID numerico del volo. | — |
-| [!UICONTROL Flight details] | [!UICONTROL Flight Start Date] | La prima data del volo. | — |
-| [!UICONTROL Flight details] | [!UICONTROL Flight End Date] | La data finale del volo. | — |
-| [!UICONTROL Flight details] | [!UICONTROL Flight Budget] | L’obiettivo di spesa target per il volo. | — |
-| [!UICONTROL Flight details] | [!UICONTROL Rollover] | (Pacchetti esistenti senza l&#39;opzione &quot;[!UICONTROL Automatically rollover remaining flight budget to next flight]&quot; abilitata) Un importo di budget potenzialmente non speso da aggiungere al volo successivo. | — |
+| [!UICONTROL Flight details] | [!UICONTROL Flight Start Date] | La prima data del volo. | Sì |
+| [!UICONTROL Flight details] | [!UICONTROL Flight End Date] | La data finale del volo. | Sì |
+| [!UICONTROL Flight details] | [!UICONTROL Flight Budget] | L’obiettivo di spesa target per il volo. | Sì |
+| [!UICONTROL Flight details] | [!UICONTROL Rollover] | (Pacchetti esistenti senza l&#39;opzione &quot;[!UICONTROL Automatically rollover remaining flight budget to next flight]&quot; abilitata) Un importo di budget potenzialmente non speso da aggiungere al volo successivo. | Sì |
 
 >[!MORELIKETHIS]
 >
