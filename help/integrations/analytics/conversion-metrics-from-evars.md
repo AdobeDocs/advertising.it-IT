@@ -3,9 +3,9 @@ title: Creare metriche di conversione da Adobe Analytics [!DNL eVars] e prop
 description: Configurare metriche evento di successo personalizzate utilizzando dati a livello di  [!DNL eVar] e  [!DNL prop].
 feature: Integration with Adobe Analytics, Conversions
 exl-id: 7717d10c-76ca-4ba9-9fbb-e34ad006619c
-source-git-commit: a0d5bc1791f5d05e2cbdeab58e1943f4d494b53f
+source-git-commit: db815958b039508b005f4be60561ddc4656da86e
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Puoi utilizzare le metriche degli eventi di successo per ottimizzare i pacchetti
 
 La maggior parte delle attività seguenti deve essere eseguita da un amministratore [!DNL Analytics] o da un altro utente. Se hai bisogno di assistenza, contatta (utenti DSP) il team del supporto tecnico DSP all&#39;indirizzo `adcloud_support@adobe.com` o (utenti Search, Social e Commerce) il tuo account team Adobe.
 
-1. In [!DNL Analytics], [crea un evento di successo segnaposto](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-events/success-event.html?lang=en).
+1. In [!DNL Analytics], [crea un evento di successo segnaposto](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event).
 
    Utilizza i seguenti parametri aggiuntivi:
 
@@ -60,7 +60,7 @@ La maggior parte delle attività seguenti deve essere eseguita da un amministrat
 
 Una volta che la metrica è disponibile, puoi utilizzarla per creare un obiettivo, che puoi quindi assegnare a un portfolio Search, Social e Commerce o utilizzare come [obiettivo personalizzato](/help/dsp/optimization/custom-goal.md) per un pacchetto DSP.
 
-Per ulteriori informazioni sulla creazione degli obiettivi, consulta il capitolo della Guida all’ottimizzazione intitolato &quot;Obiettivi&quot;, disponibile in Search, Social &amp; Commerce.
+Consulta il capitolo della Guida all’ottimizzazione intitolato &quot;Obiettivi&quot;, disponibile in Search, Social e Commerce
 
 >[!MORELIKETHIS]
 >
