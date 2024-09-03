@@ -3,9 +3,9 @@ title: Crea un tag di conversione per  [!DNL Google Ads]
 description: Scopri come creare un tag di conversione  [!DNL Google Ads] .
 feature: Conversions
 exl-id: 214611f0-bd38-499e-a7de-3a5878995fb5
-source-git-commit: 04330e26dbad6efe76dfcbe4662b062511ae14f6
+source-git-commit: 2c20d2138ee797b6ed2f27d9baa9eda7d413da8d
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Per generare tag di conversione per le conversioni esistenti, utilizza l’editor della rete di annunci.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**, che consente di aprire la scheda **[!UICONTROL Summary]**.
 
 1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Crea](/help/search-social-commerce/assets/add.png "Crea").
 
@@ -42,7 +42,7 @@ Una volta aggiunti i tag al sito Web e che iniziano a essere attivati, [!DNL Goo
 
 **[!UICONTROL Select an Account]:** L&#39;account Google Ads applicabile.
 
-**[!UICONTROL Type of Conversion]:** Tipo di conversione da tenere traccia: *[!UICONTROL Click on a webpage element]*, *[!UICONTROL Calls to a phone number on your website]* o *[!UICONTROL Clicks to your number on your mobile website]*.
+**[!UICONTROL Type of Conversion]:** Tipo di conversione da tenere traccia: *[!UICONTROL Click on a webpage element]*, *[!UICONTROL Calls to a phone number on your website]* o *[!UICONTROL Clicks to your number on your mobile website]*. **Nota:** *[!UICONTROL Import conversion]* è utilizzato per uno scopo diverso. Vedere &quot;[Creare un&#39;azione di conversione per una  [!DNL Google Ads] conversione avanzata per lead](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md).&quot;
 
 **[!UICONTROL Conversion Name]:** Nome univoco per la metrica di conversione.
 
@@ -68,4 +68,5 @@ Una volta aggiunti i tag al sito Web e che iniziano a essere attivati, [!DNL Goo
 
 >[!MORELIKETHIS]
 >
+>* [Carica dati di conversione offline per conversioni avanzate](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
 >* [[!DNL Google Ads] dati di conversione in Search, Social e Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)

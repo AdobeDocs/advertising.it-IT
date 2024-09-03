@@ -3,7 +3,7 @@ title: '[!DNL Microsoft Advertising] impostazioni gruppo di prodotti'
 description: Fai riferimento alle impostazioni per  [!DNL Microsoft Advertising] gruppi di prodotti acquisti.
 exl-id: ea3a4137-1396-430f-9d6c-8e1e1f1f52c2
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -52,4 +52,4 @@ Questo modello sostituisce i modelli di livello superiore e viene utilizzato sol
 >* [Informazioni sull&#39;acquisto di gruppi di prodotti](product-group-about.md)
 >* [Gestione dei gruppi di prodotti](product-group-manage.md)
 >* [Filtri prodotti campagna acquisti](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
->* [Implementa [!DNL Microsoft Advertising] campagne acquisti](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
+>* [Implementa [!DNL Microsoft Advertising] campagne acquisti](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)

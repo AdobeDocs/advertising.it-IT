@@ -3,7 +3,7 @@ title: Gestione annunci
 description: Scopri gli annunci in Search, Social e Commerce, compresi i tipi di annunci disponibili.
 exl-id: 01bd211d-fe6b-4329-90e1-0e54d626c125
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Puoi creare e gestire i tipi di annunci supportati per i gruppi di annunci all�
 
   Puoi controllare quali prodotti vengono visualizzati con gli annunci di acquisto di [!DNL Microsoft Advertising] impostando gruppi di prodotti separati per il gruppo di annunci, dalla vista [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups].
 
-  Per ulteriori informazioni sul flusso di lavoro per annunci di prodotti/acquisti, consulta &quot;[Implementare [!DNL Microsoft Advertising] campagne acquisti](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md).&quot;  Per ulteriori informazioni sugli annunci dei prodotti, consulta la [documentazione di Microsoft Advertising](https://help.ads.microsoft.com/#apex/3/en/51082).
+  Per ulteriori informazioni sul flusso di lavoro per annunci di prodotti/acquisti, consulta &quot;[Implementare [!DNL Microsoft Advertising] campagne acquisti](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md).&quot;  Per ulteriori informazioni sugli annunci dei prodotti, consulta la [documentazione di Microsoft Advertising](https://help.ads.microsoft.com/#apex/3/en/51082).
 
 * Annunci di ricerca reattivi per [!DNL Google Ads] e [!DNL Microsoft Advertising] campagne nella rete di ricerca. La rete di annunci assembla dinamicamente annunci di ricerca responsive basati su testo da un set di titoli e descrizioni di annunci, favorendo combinazioni con prestazioni ottimali. L’annuncio include fino a tre titoli, due descrizioni e un URL personalizzabile dall’URL di base e dai campi opzionali percorso1 e percorso2. Facoltativamente, puoi fissare i titoli e le descrizioni degli annunci a posizioni specifiche.
 

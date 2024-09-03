@@ -1,18 +1,18 @@
 ---
-title: Carica metriche di conversione in [!DNL Google Ads]
+title: Carica metriche di conversione tracciate da Ricerca, Social e Commerce in [!DNL Google Ads]
 description: Scopri come caricare in  [!DNL Google Ads] le metriche di conversione tracciate da Search, Social e Commerce.
 exl-id: 976792ae-135c-4790-82cf-9503edb93fb1
 feature: Search Tools
-source-git-commit: e8eabf7e4aa7c9201cd8198aae32d325b2858f2b
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
 
-# Carica metriche di conversione in [!DNL Google Ads]
+# Carica metriche di conversione di ricerca, social e Commerce in [!DNL Google Ads]
 
-*Inserzionisti con [!DNL Google Ads] solo account*
+*Inserzionisti con [!DNL Google Ads] account e solo monitoraggio delle conversioni di Adobi Advertising*
 
 Search, Social e Commerce possono facoltativamente caricare in [!DNL Google Ads] tutte le metriche di conversione di cui tiene traccia per le campagne [!DNL Google Ads] che utilizzano il servizio di tracciamento delle conversioni di Adobe Advertising. Questa opzione non rende le conversioni disponibili per l’ottimizzazione ibrida. Se desideri utilizzare le conversioni Adobe per l&#39;ottimizzazione ibrida, consulta &quot;[Abilitare il caricamento degli obiettivi nelle reti di annunci](objective-upload-to-networks.md).&quot;
 

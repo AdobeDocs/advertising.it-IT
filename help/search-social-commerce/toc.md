@@ -4,9 +4,9 @@ user-guide-title: Guida di Advertising Search, Social e Commerce
 user-guide-description: Questa guida descrive le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire, tracciare e creare rapporti sulle campagne di annunci di ricerca, social e commerce.
 breadcrumb-title: Guida di Advertising Search, Social e Commerce
 index: true
-source-git-commit: bf7db19ab3ec8ea749e48b6a96c25a3c5cca5a71
+source-git-commit: a1e96400bb03fb327e9a8b25fb34fb690b4a5dfe
 workflow-type: tm+mt
-source-wordcount: '1694'
+source-wordcount: '1728'
 ht-degree: 2%
 
 ---
@@ -233,11 +233,12 @@ ht-degree: 2%
             + [Pubblicare i dati della campagna generati dai feed nelle reti di annunci](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-post.md)
             + [Interrompere un processo di registrazione per i dati di feed inventario](/help/search-social-commerce/campaign-management/inventory-feeds/stop-job.md)
             + [Stati dei dati generati dai feed](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-status.md)
-      + Implementazione di campagne e annunci con flussi di lavoro univoci{#special-campaign-types}
-         + [Implementa [!DNL Google Ads] annunci per ricerca dinamica](/help/search-social-commerce/campaign-management/special-campaign-types/google-dynamic-search-ads.md)
-         + [Implementa  [!DNL Google Ads]  campagne con prestazione massima](/help/search-social-commerce/campaign-management/special-campaign-types/google-performance-max-campaigns.md)
-         + [Implementa  [!DNL Google Ads]  campagne acquisti](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
-         + [Implementa  [!DNL Microsoft Advertising]  campagne acquisti](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
+      + Implementazione di campagne, annunci e conversioni con flussi di lavoro univoci{#special-workflows}
+         + [Implementa [!DNL Google Ads] conversioni avanzate per i lead](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)
+         + [Implementa [!DNL Google Ads] annunci per ricerca dinamica](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md)
+         + [Implementa  [!DNL Google Ads]  campagne con prestazione massima](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md)
+         + [Implementa  [!DNL Google Ads]  campagne acquisti](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
+         + [Implementa  [!DNL Microsoft Advertising]  campagne acquisti](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
       + [Sincronizzare manualmente i dati di rete degli annunci](/help/search-social-commerce/campaign-management/campaigns/sync-network.md)
    + [Assegnare campagne a un portfolio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)
    + [Rimuovere campagne da un portfolio](/help/search-social-commerce/campaign-management/campaign-remove-from-portfolio.md)
@@ -383,7 +384,7 @@ ht-degree: 2%
       + [Decodificare un URL di tracciamento dei clic](/help/search-social-commerce/tools/click-tracking-url-decode.md)
       + [Genera un tag di conversione Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
    + Caricamento dei dati di conversione nelle reti di annunci {#upload-ad-networks}
-      + [Carica metriche di conversione in [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
+      + [Carica metriche di conversione tracciate da Ricerca, Social e Commerce in [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
       + [Abilita il caricamento degli obiettivi nelle reti di annunci](/help/search-social-commerce/tools/objective-upload-to-networks.md)
    + Caricamento delle metriche per [!DNL Naver] account di sola verifica {#generic-tracking}
       + [Carica le metriche di traffico e conversione per  [!DNL Naver] account di solo tracciamento](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
@@ -408,7 +409,10 @@ ht-degree: 2%
       + [Visualizzare le metriche di conversione tracciate per un inserzionista](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
       + [Modificare le metriche di conversione disponibili nelle visualizzazioni e nei rapporti di gestione](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)
       + [Modificare il nome visualizzato di una metrica di conversione](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)
-      + Gestione dei tag di conversione {#conversion-tags}
+      + Gestione dei tag di conversione e delle azioni di conversione specifici per la rete di annunci {#network-conversions}
          + [Crea un tag di conversione per  [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)
+         + Gestione delle azioni di conversione {#conversion-actions}
+            + [Crea un&#39;azione di conversione per una conversione  [!DNL Google Ads]  avanzata per i lead](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
+            + [Carica dati di conversione offline per conversioni avanzate](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
 + [Ottieni aiuto](get-help.md)
 + [Glossario](glossary.md)

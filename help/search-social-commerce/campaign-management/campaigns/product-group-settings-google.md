@@ -3,7 +3,7 @@ title: '[!DNL Google Ads] impostazioni gruppo di prodotti'
 description: Fai riferimento alle impostazioni per  [!DNL Google Ads] gruppi di prodotti acquisti.
 exl-id: 2cfef9de-b265-4fa5-b1bd-84e6cba79914
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -52,4 +52,4 @@ Questo modello sostituisce i modelli di livello superiore e viene utilizzato sol
 >* [Informazioni sull&#39;acquisto di gruppi di prodotti](product-group-about.md)
 >* [Gestione dei gruppi di prodotti](product-group-manage.md)
 >* [Filtri prodotti campagna acquisti](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
->* [Implementa [!DNL Google Ads] campagne acquisti](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
+>* [Implementa [!DNL Google Ads] campagne acquisti](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
