@@ -3,9 +3,9 @@ title: Impostazioni pacchetto
 description: Consulta le descrizioni delle impostazioni disponibili per il pacchetto.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: f7332ae243daed3fcc45b69a8d71fff74d7caaeb
+source-git-commit: c1967636a762379f1daafb52cfe57dd0122b0748
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,9 @@ Per i pacchetti con conflitti personalizzati, l&#39;intervallo di budget è semp
 **[!UICONTROL Gross Budget]:** (solo pacchetti con velocità a livello di pacchetto e gestione dei margini dinamici) Limite di budget lordo per la durata del pacchetto.
 
 **[!UICONTROL Optimization Goal]:** (solo pacchetti con velocità a livello di pacchetto) Obiettivo di ottimizzazione per il pacchetto. Vedi le descrizioni di ciascun obiettivo di ottimizzazione in [Obiettivi di ottimizzazione e come utilizzarli](/help/dsp/optimization/optimization-goals.md).
+
+
+**[!UICONTROL Link PG Placements for Incremental Reach Optimization]:** (solo pacchetti con velocità a livello di pacchetto e con obiettivi di ottimizzazione &quot;[!UICONTROL Always Max Bid & Maximize Reach]&quot; e &quot;[!UICONTROL Lowest Cost per Reach]&quot;) Utilizza i dati di portata domestica da tutti i posizionamenti programmatici garantiti nella campagna per l&#39;ottimizzazione per la portata incrementale.
 
 **[!UICONTROL Custom Goal for Model Learning]:** (solo pacchetti con gli obiettivi di ottimizzazione &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;) [obiettivo personalizzato](/help/dsp/optimization/custom-goal.md) che include gli eventi di conversione o ricavi utilizzati per calcolare la metrica CPA o ROAS. L’obiettivo personalizzato può facoltativamente includere eventi upper funnel ponderati aggiuntivi (come visite della pagina e aggiunte al carrello) da utilizzare in aggiunta alla metrica CPA o ROAS per l’ottimizzazione del pacchetto. Per ulteriori informazioni sugli obiettivi personalizzati, incluse le best practice per la creazione di obiettivi personalizzati e campagne che li utilizzano, vedere &quot;[Obiettivi personalizzati](/help/dsp/optimization/custom-goal.md)&quot; e &quot;[Best practice per l&#39;impostazione di campagne delle prestazioni](/help/dsp/optimization/campaign-best-practices-performance.md).&quot;<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
 
