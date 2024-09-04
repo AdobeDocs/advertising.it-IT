@@ -3,16 +3,16 @@ title: Archiviare o annullare l’archiviazione di una campagna
 description: Scopri come archiviare o annullare l’archiviazione di una campagna.
 feature: DSP Campaigns
 exl-id: 3b1fac7b-1c3e-417e-b6f6-142aa48b1135
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: f3ff78b4c383fd9af89e95f5572e4b88b6a293a6
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
 
 # Archiviare o annullare l’archiviazione di una campagna
 
-Nascondi una campagna che non viene utilizzata mediante l’archiviazione. L’unica azione che puoi intraprendere su una campagna archiviata è annullarne l’archiviazione. Le campagne archiviate non vengono visualizzate per impostazione predefinita, ma sono ancora disponibili per il reporting.
+Archivia una campagna che non viene utilizzata per mettere in pausa tutte le spese e archiviare tutte le entità associate. L’unica azione che puoi intraprendere su una campagna archiviata è annullarne l’archiviazione. Le campagne archiviate non vengono visualizzate per impostazione predefinita, ma sono ancora disponibili per il reporting.
 
 Puoi annullare l’archiviazione di una campagna per ripristinarne lo stato precedente in qualsiasi momento.
 
