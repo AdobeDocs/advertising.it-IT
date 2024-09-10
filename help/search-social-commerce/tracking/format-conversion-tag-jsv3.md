@@ -3,7 +3,7 @@ title: Formato dei tag di tracciamento delle conversioni di JavaScript versione 
 description: Fai riferimento al formato dei tag di tracciamento delle conversioni di JavaScript versione 3.
 exl-id: 9fc6bb15-d880-4353-a8c5-260b7932ab34
 feature: Search Tracking
-source-git-commit: 8bed8f22c112abcff67727456ef4aad3b38d0ca6
+source-git-commit: dda4ff8e7538bc742caa50862575cb4e46a1371d
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Il seguente formato è per i siti che utilizzano HTTPS. Per i siti che utilizzan
                         , allow3rdPartyPixels: 1});
               EF.main();
         };
-        window.id5PartnerId=<Your_ID5_PartnerID>
+        window.id5PartnerId=<ID5_PartnerID>
         window.EF = window.EF || {};
         if (window.EF.main) {
             f();
@@ -56,7 +56,7 @@ dove:
 
 * `<ef-userid>` è un ID utente numerico univoco assegnato da Search, Social e Commerce all&#39;inserzionista.
 
-* `<Your_ID5_PartnerID>` è l&#39;ID partner ID5 dell&#39;organizzazione, che l&#39;organizzazione riceve dopo aver firmato un accordo con [!DNL ID5]. Includi questa variabile solo quando l&#39;organizzazione utilizza DSP e ha [segmenti personalizzati che tengono traccia degli utenti associati agli ID universali ID5](/help/dsp/audiences/universal-ids.md).
+* `<ID5_PartnerID>` è l&#39;ID partner ID5 dell&#39;organizzazione, che l&#39;organizzazione riceve dopo aver firmato un accordo con [!DNL ID5]. Includi questa variabile solo quando l&#39;organizzazione utilizza DSP e ha [segmenti personalizzati che tengono traccia degli utenti associati agli ID universali ID5](/help/dsp/audiences/universal-ids.md).
 
 * `<propertyname>` è la conversione da tenere traccia. Ad esempio, se tieni traccia di una conversione denominata &quot;registration&quot;, il tag includerà il parametro `ev_registration=<registration>` e dovrai trasmettere i ricavi effettivi per ogni transazione (ad esempio `ev_registration=1`). Quando si tiene traccia di più proprietà, queste vengono collegate da una e commerciale (`&`), ad esempio `ev_registration=<registration>&ev_sale=<sale>` (ad esempio `ev_registration=1&ev_sale=12.99`). **Nota:** il nome della proprietà non può includere caratteri speciali.
 
