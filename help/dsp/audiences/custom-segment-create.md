@@ -3,9 +3,9 @@ title: Creare e implementare un segmento personalizzato
 description: Scopri come creare e implementare un segmento personalizzato per tenere traccia degli utenti esposti agli annunci o degli utenti che visitano le tue pagine web.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 2fe54fbcd9711e714246f074ede086910b538b80
+source-git-commit: 3774da55139fd9f70162c931dd7708e8e258ad83
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,8 @@ Puoi raccogliere i tuoi dati sul pubblico di prime parti creando e implementando
                  AdCloudEvent('IMS ORG Id','rsid');
       </script>
       ```
+
+      Consulta &quot;[Formato dei tag di tracciamento conversione di JavaScript versione 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)&quot; e &quot;[Formato dei tag di tracciamento conversione di JavaScript versione 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)&quot; per il formato di tag completo.
 
    1. Utilizzare uno strumento di debug del browser per verificare che ogni chiamata venga avviata al dominio `lasteventf-tm.everesttech.net` e contenga il parametro `_les_id5` con un ID ID5 crittografato come valore.
 
