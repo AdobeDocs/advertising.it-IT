@@ -3,9 +3,9 @@ title: Domande frequenti sulla conversione degli Adobi Advertising e sui tag di 
 description: Vedi un confronto tra i tag di conversione Adobe Advertising e di tracciamento della visualizzazione della pagina.
 exl-id: 2e5ef792-e0f5-4409-bd37-87d9fab1265f
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: e9d55ba2f4b3ce8b1ac19c06fe8759a2f862c480
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Di seguito sono riportati alcuni Adobi Advertising di tag di tracciamento della 
 | ---- | ---- | ---- | ---- | ---- |
 | Può essere utilizzato nella stessa pagina web di un’altra versione JS | — | — | — | n/d |
 | Consente l’utilizzo di più tag con gli stessi ID utente inserzionista sulla stessa pagina web | Sì | Sì | Sì | — |
-| Consente di utilizzare più tag con ID utente diversi per gli inserzionisti sulla stessa pagina Web | Sì | Sì | No | No |
+| Consente di utilizzare più tag con ID utente diversi per gli inserzionisti sulla stessa pagina Web | Sì | Sì | — | — |
 | Utilizzato dall’estensione Adobe Advertising per Adobe Experience Platform e compatibile con altri tag generati utilizzando Experience Platform | Sì | Sì | — | — |
 | Consente di tenere traccia di tutte le conversioni generate da [!DNL Apple Safari] e [!DNL Mozilla Firefox] se utilizzate con il tag di mappatura conversione Adobe Advertising JavaScript | Sì | Sì | Sì | — |
 
