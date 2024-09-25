@@ -2,9 +2,9 @@
 title: Impostazioni account inserzionista
 description: Consulta le descrizioni delle impostazioni pubblicitarie disponibili.
 role: User, Admin
-source-git-commit: 55190d02a2cdf74c39968ccd91abfecc2ce5539d
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -122,11 +122,7 @@ Tipi di siti da bloccare in base al traffico fraudolento e alle attività sospet
 
 #### [!UICONTROL Pre-Bid Viewability]
 
-Filtri di visibilità pre-offerta opzionali di [!DNL DoubleVerify], [!DNL Oracle Advertising] ([!DNL Moat]) e [!DNL Integral Ad Science] da applicare ai posizionamenti. I valori predefiniti a livello di inserzionista vengono selezionati per i nuovi posizionamenti. Puoi ignorare le impostazioni a livello di inserzionista al [livello di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md).
-
->[!NOTE]
->
->[!DNL Oracle] cesserà la sua attività pubblicitaria entro il 30 settembre 2024, inclusi tutti i servizi da [!DNL MOAT].
+Filtri di visibilità pre-offerta opzionali di [!DNL DoubleVerify] e [!DNL Integral Ad Science] da applicare ai posizionamenti. I valori predefiniti a livello di inserzionista vengono selezionati per i nuovi posizionamenti. Puoi ignorare le impostazioni a livello di inserzionista al [livello di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md).
 
 ##### [!UICONTROL DoubleVerify] {#doubleverify-viewability}
 
@@ -155,10 +151,6 @@ Filtri di visibilità pre-offerta opzionali di [!DNL DoubleVerify], [!DNL Oracle
 ##### [!UICONTROL Integral Ad Science] {#ias-viewability}
 
 Un filtro **[!UICONTROL Video Viewability Targets]** facoltativo e un filtro **[!UICONTROL Display Viewability Targets]** facoltativo. Possono essere applicate tariffe aggiuntive.
-
-##### [!UICONTROL Moat] {#moat-viewability}
-
-Un filtro **[!UICONTROL Video Viewability Standard]** facoltativo e un filtro **[!UICONTROL Display Viewability Standard]** facoltativo. Possono essere applicate tariffe aggiuntive.
 
 #### [!UICONTROL Ads.text]
 

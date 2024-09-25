@@ -3,9 +3,9 @@ title: Impostazioni di posizionamento
 description: Consulta le descrizioni delle impostazioni di posizionamento disponibili.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: cc98c8fa5d1e0309b5b2716f58e6193d029e3f96
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '3921'
+source-wordcount: '3887'
 ht-degree: 0%
 
 ---
@@ -346,15 +346,13 @@ Quando selezioni sia ID legacy che ID universali, viene data la preferenza di of
    * Per selezionare manualmente un intervallo, fare clic all&#39;interno di una cella e, facoltativamente, trascinare per selezionare l&#39;intervallo.
 1. Fare clic su **[!UICONTROL Save]**.
 
-**[!UICONTROL Topic Targeting]:** (Facoltativo; disponibile per gli inserzionisti configurati con [!DNL Proximic by Comscore] e [!DNL Oracle Data Cloud] segmenti) Nomi di segmenti o ID di [!DNL Proximic by Comscore] e [!DNL Oracle Data Cloud] specifici (in precedenza [!DNL Grapeshot]) da includere come destinazioni. Per questa funzione potrebbero essere applicati costi aggiuntivi. Per attivare questa funzione e impostare i segmenti di argomento, contatta il team dell’account di Adobe.
-
-**Nota:** [!DNL Oracle] cesserà l&#39;attività pubblicitaria entro il 30 settembre 2024, inclusi tutti i servizi di [!DNL Oracle Data Cloud] (in precedenza [!DNL Grapeshot]).
+**[!UICONTROL Topic Targeting]:** (Facoltativo; disponibile per gli inserzionisti configurati con [!DNL Proximic by Comscore] segmenti) Nomi di segmenti o ID di segmenti specifici da [!DNL Proximic by Comscore] da includere come destinazioni. Per questa funzione potrebbero essere applicati costi aggiuntivi. Per attivare questa funzione e impostare i segmenti di argomento, contatta il team dell’account di Adobe.
 
 Per specificare il targeting degli argomenti:
 
 1. Fai clic su ![Modifica](/help/dsp/assets/edit.png).
 1. Specifica i segmenti di destinazione:
-   1. Nella colonna sinistra selezionare il partner (*[!UICONTROL Comscore]* o *[!UICONTROL Grapeshot]*).
+   1. Nella colonna sinistra, selezionare il partner: (*[!UICONTROL Comscore]*.
    1. Nel campo di immissione, inserisci i nomi o gli ID del segmento.
 1. (Facoltativo) Per scaricare un file CSV con le informazioni dell&#39;argomento nel percorso Download del browser, fare clic su **[!UICONTROL Export]**.
 1. Fare clic su **[!UICONTROL Save]**.
@@ -363,7 +361,7 @@ Per specificare il targeting degli argomenti:
 >
 >* Il targeting degli argomenti limita l’inventario su cui il posizionamento può fare offerte, quindi utilizza il targeting degli argomenti solo per una piccola percentuale dell’acquisto complessivo.
 >
->* Imposta eventuali targeting negativi all&#39;interno del segmento su [!DNL Proximic by Comscore] o [!DNL Oracle Data Cloud] (precedentemente [!DNL Grapeshot]).
+>* Imposta eventuali targeting negativi all&#39;interno del segmento su [!DNL Proximic by Comscore].
 
 **[!UICONTROL Device Targeting]:** (facoltativo) informazioni specifiche sul dispositivo, inclusi tipi di dispositivo, produttori, sistemi operativi, browser e tipi di connettività, da includere ed escludere come destinazioni. I tipi variano in base al tipo di posizionamento. Per specificare il targeting del dispositivo:
 
@@ -431,11 +429,7 @@ Per specificare il targeting degli argomenti:
 
 **[!UICONTROL Pre-bid viewability]:**
 
-Quali filtri di visibilità pre-offerta vengono filtrati da [!DNL DoubleVerify], [!DNL Oracle Advertising] ([!DNL Moat]) e [!DNL Integral Ad Science] da applicare per il posizionamento. Le impostazioni predefinite a livello di inserzionista vengono selezionate per i nuovi posizionamenti, ma è possibile modificarle. Possono essere applicate tariffe aggiuntive.
-
->[!NOTE]
->
->[!DNL Oracle] cesserà la sua attività pubblicitaria entro il 30 settembre 2024, inclusi tutti i servizi da [!DNL MOAT].
+Quali filtri di visibilità pre-offerta vengono filtrati da [!DNL DoubleVerify] e [!DNL Integral Ad Science] da applicare per il posizionamento. Le impostazioni predefinite a livello di inserzionista vengono selezionate per i nuovi posizionamenti, ma è possibile modificarle. Possono essere applicate tariffe aggiuntive.
 
 **[!UICONTROL Ads.txt filtering]:**
 
