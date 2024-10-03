@@ -3,16 +3,14 @@ title: Visualizza avvisi
 description: Scopri come visualizzare gli avvisi e le risoluzioni consigliate per le campagne e i componenti della campagna.
 feature: DSP Campaigns, DSP Packages, DSP Placements, DSP Ads, DSP Campaign Data Views
 exl-id: 667bf1c3-3bad-4a1a-b907-0c9bfe5362a9
-source-git-commit: 5b07096e5f07c60a3efcbf4213b3bc2f061f36a4
+source-git-commit: 3e227bcd39b3928898e764cace1fea91f61d58d5
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
 
 # Visualizza avvisi
-
-*funzionalità Beta*
 
 L’DSP ti aiuta a identificare quando uno qualsiasi dei componenti delle campagne o della campagna presenta dei problemi. Per ogni problema, l’DSP crea un avviso con una marca temporale e l’azione consigliata per risolverlo. I motivi per gli avvisi includono problemi di configurazione (ad esempio, quando non vengono allegati annunci a un posizionamento o quando un’offerta non è configurata correttamente), rifiuto di annunci e problemi di integrità della campagna (come consegna di annunci scadente o prestazioni insoddisfacenti). Gli avvisi sono disponibili a livello di campagna, pacchetto, posizionamento, annuncio e offerta.
 

@@ -4,7 +4,7 @@ user-guide-title: Guida di Advertising Search, Social e Commerce
 user-guide-description: Questa guida descrive le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire, tracciare e creare rapporti sulle campagne di annunci di ricerca, social e commerce.
 breadcrumb-title: Guida di Advertising Search, Social e Commerce
 index: true
-source-git-commit: 2c85ae5ff14349603ea38b2d478e4ab723800bea
+source-git-commit: 2729e7575f9950eb59b181d542dea7cb3b34cfa7
 workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 2%
@@ -50,7 +50,7 @@ ht-degree: 2%
             + [Applicare filtri dati dalla barra degli strumenti](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
             + [Modificare i filtri di colonna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-edit.md)
             + [Rimuovere un filtro colonna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-remove.md)
-   + Gestione delle metriche personalizzate {#custom-metrics}
+   + Gestisci metriche personalizzate {#custom-metrics}
       + [Informazioni sulle metriche personalizzate](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md)
       + [Creare una metrica personalizzata](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md)
       + [Modificare una metrica personalizzata](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md)

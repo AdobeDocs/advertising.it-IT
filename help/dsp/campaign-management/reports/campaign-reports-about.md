@@ -3,9 +3,9 @@ title: Tipi di rapporti sulle prestazioni nelle visualizzazioni di Campaign Mana
 description: Scopri i dati del rapporto inclusi nelle visualizzazioni di gestione della campagna.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 4e82caa995286635b4a181f186d6a1fabb09847d
+source-git-commit: eba8e9813f8daea58b30f7890ac2dca2498f326f
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,6 @@ Per visualizzare una campagna più dettagliatamente, fai clic sul nome della cam
 
 #### Indicatori di avviso
 
-*funzionalità Beta*
-
 Una colonna &quot;[!UICONTROL Alerts]&quot; indica quando una campagna, o qualsiasi entità secondaria al suo interno, presenta un problema. Un&#39;icona [!UICONTROL Pulse Panel] a destra della barra degli strumenti indica anche se sono disponibili avvisi per le entità elencate. Per ulteriori informazioni, vedere &quot;[Visualizza avvisi](campaign-alerts.md)&quot;.
 
 ## Reporting per singola campagna {#single-campaign-reporting}
@@ -61,8 +59,6 @@ Per ulteriori informazioni, consulta la sezione [&quot;Visualizzazione grafico&q
 In ogni scheda entità, ogni riga include le metriche di velocità e consegna per impostazione predefinita, ma puoi [modificare la vista a colonne](campaign-data-views-manage.md#column-view-change) o anche [creare una vista a colonne personalizzata](campaign-data-views-manage.md#column-view-create) da applicare in tutte le schede secondarie della campagna. È possibile [personalizzare ulteriormente le tabelle dati](campaign-data-views-manage.md#data-tables-manage) in altri modi. Ogni tabella di dati include una riga [!UICONTROL Subtotals] che mostra la somma o il valore medio di ogni metrica in tutte le righe visibili.
 
 #### Indicatori di avviso
-
-*funzionalità Beta*
 
 Una colonna &quot;[!UICONTROL Alerts]&quot; indica quando un pacchetto, un posizionamento o un annuncio, o qualsiasi entità figlio in un pacchetto o in un posizionamento, presenta un problema. Una colonna &quot;[!UICONTROL Alerts]&quot; indica quando una campagna, o qualsiasi entità secondaria al suo interno, presenta un problema. Un&#39;icona [!UICONTROL Pulse Panel] a destra della barra degli strumenti indica anche se sono disponibili avvisi per le entità elencate. Per ulteriori informazioni, vedere &quot;[Visualizza avvisi](campaign-alerts.md)&quot;.
 

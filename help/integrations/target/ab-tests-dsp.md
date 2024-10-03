@@ -2,7 +2,7 @@
 title: Configurare test A/B per annunci Adobe Advertising DSP in Adobe Target
 description: Scopri come impostare un test A/B in [!DNL Target] per i tuoi annunci DSP.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 7ffa5d3e9f1aae0f9d66d87c74807e491e818daa
+source-git-commit: 964246bb2c8bfa442f2d4f981c9e02de35c69ed5
 workflow-type: tm+mt
 source-wordcount: '1384'
 ht-degree: 0%
@@ -109,7 +109,7 @@ Le istruzioni seguenti evidenziano informazioni relative al caso di utilizzo del
 
       >[!NOTE]
       >
-      >Puoi utilizzare più URL per testare la voce del sito view-through. Per ulteriori informazioni, vedere &quot;[Attività multipagina](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).&quot; È possibile identificare facilmente le voci principali in base all&#39;URL della pagina creando un [rapporto sulle voci del sito](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-cloud-site-entry-reports.html) in Analytics.
+      >Puoi utilizzare più URL per testare la voce del sito view-through. Per ulteriori informazioni, vedere &quot;[Attività multipagina](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).&quot; È possibile identificare facilmente le voci principali in base all&#39;URL della pagina creando un [rapporto sulle voci del sito](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/adobe-advertising-dsp/create-advertising-cloud-site-entry-reports) in Analytics.
 
    1. Nel campo **[!UICONTROL Goal]**, immettere la metrica di successo per il test.
 
