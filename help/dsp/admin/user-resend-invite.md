@@ -3,16 +3,16 @@ title: Invia di nuovo un invito utente in sospeso
 description: Scopri come inviare nuovamente un invito utente in sospeso.
 role: Admin
 exl-id: 15d17a03-526b-4dc2-883a-131d750fca24
-source-git-commit: bddc57155a5ccf64f6b864159f82f2da9b0a0d8c
+source-git-commit: a8ee699137d683986264e841b03bc292ce7b7843
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
 
 # Invia di nuovo un invito utente in sospeso
 
-Gli utenti amministratori possono inviare nuovamente un invito a un utente con un invito in sospeso per l’account organizzazione.
+Gli utenti amministratori possono inviare nuovamente un invito a un utente con un invito in sospeso per l’account organizzazione. Il collegamento di invito scade tra 24 ore.
 
 1. Effettuare una delle seguenti operazioni:
 
