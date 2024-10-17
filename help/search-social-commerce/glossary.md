@@ -3,9 +3,9 @@ title: Glossario
 description: Cfr. definizioni dei termini chiave.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 3500e22944223997dc56dc94c24639a57e8c54f4
+source-git-commit: 56eaa534c1ee61f399b1ab2cd53d9e10ac9b5386
 workflow-type: tm+mt
-source-wordcount: '2081'
+source-wordcount: '2223'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 **monitoraggio delle conversioni:** Il monitoraggio delle conversioni utilizza i cookie per monitorare a) i clic sugli annunci di un inserzionista sulle reti pubblicitarie e b) le transazioni risultanti sul sito Web dell&#39;inserzionista.
 
-**precisione costi:** (inserzionisti con portfolio) La spesa effettiva per un portfolio divisa per la spesa prevista.
+**precisione costi:** (inserzionisti con portfolio) La spesa effettiva per un portfolio divisa per la spesa prevista. [I report sulla precisione del modello](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indicano la precisione dei modelli di costo utilizzati per l&#39;ottimizzazione.
 
 **modello di costo:** (inserzionisti con portfolio) Tecnologia Search, Social e Commerce che prevede il volume di costo, l&#39;offerta necessaria per aggiudicarsi ogni posizione o posizionamento e il CPC (ricerca) o CPM (visualizzazione) per ogni unità di offerta utilizzando dati storici e tecniche di previsione matematica.
 
@@ -90,6 +90,9 @@ ht-degree: 0%
 
 ## G-H {#g-h}
 
+**emivita:** Tempo necessario per ridurre una quantità a metà del valore iniziale. Per ogni portfolio, puoi specificare le mezza durata per indicare quanto tempo i dati sono rilevanti per i modelli di costo e di ricavo.
+Consulta &quot;mezza durata del modello di costo&quot; e &quot;mezza durata del modello di ricavo&quot;.
+
 ## I-J {#i-j}
 
 **impression:** visualizzazione singola di un annuncio su una pagina web, un&#39;app mobile o un altro mezzo di consegna. Per poter essere conteggiato come impression, l’utente non deve visualizzare o fare clic sull’annuncio.
@@ -120,13 +123,15 @@ ht-degree: 0%
 
 **offerta minima:** 1) l&#39;importo minimo da pagare per impression o per 1000 impression. 2) Per le parole chiave di ricerca, l’offerta minima richiesta per una determinata parola chiave in base al suo punteggio di qualità. L&#39;offerta minima è in genere l&#39;importo minimo che puoi pagare per clic affinché la parola chiave mostri annunci.
 
+**precisione modello:** (inserzionisti con portfolio) la percentuale di precisione dei modelli di costi e ricavi utilizzati per ottimizzare offerte, budget e target per un portfolio. Consulta &quot;modello di costo&quot;, &quot;precisione dei costi&quot;, &quot;modello di ricavo&quot; e &quot;precisione dei ricavi&quot;.  [I report sulla precisione del modello](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indicano la precisione dei modelli di costi e ricavi.
+
 ## O-P {#o-p}
 
-**obiettivo:** (inserzionisti con portfolio) Un obiettivo che un cliente imposta per raggiungere il proprio obiettivo aziendale per un portfolio specifico o una campagna di visualizzazione, ad esempio per massimizzare i profitti o per raggiungere un obiettivo di vendita specifico. Un obiettivo è costituito dalle metriche di conversione da tracciare e ottimizzare per il portfolio e dai relativi pesi di tali metriche.
+**obiettivo:** (inserzionisti con portfolio) Un obiettivo che un cliente imposta per raggiungere il proprio obiettivo aziendale per un portfolio specifico o una campagna di visualizzazione, ad esempio per massimizzare i profitti o per raggiungere un obiettivo di vendita specifico. Un obiettivo è costituito dalle metriche di conversione da tracciare e ottimizzare per il portfolio e dai relativi pesi di tali metriche. Il totale delle conversioni ponderate per il portafoglio è calcolato come &quot;valore oggettivo&quot;.
 
 **valore obiettivo:** (inserzionisti con portfolio) Le conversioni ponderate totali calcolate in base all&#39;obiettivo corrente del portfolio, tra cui:
 
-* tutte le conversioni, tenendo conto a) dei pesi assegnati a ciascuna conversione nella funzione obiettivo del portafoglio e, se del caso, b) del peso view-through per i view-through di visualizzazione.
+* tutte le conversioni, tenendo conto a) dei pesi assegnati a ciascuna conversione nell&#39;obiettivo del portafoglio e, se del caso, b) del peso view-through per le view-through di visualizzazione.
 
 * tutti i clic, che la funzionalità di ottimizzazione considera una singola conversione e viene ponderata in base al valore di clic per l’obiettivo.
 
@@ -158,7 +163,7 @@ Questo ha lo stesso valore della colonna legacy &quot;Ricavi ponderati&quot;.
 
 **utile sul capitale investito:** (ROI) Ricavi meno costi.
 
-**precisione ricavi:** (inserzionisti con portfolio) I ricavi effettivi per un portfolio divisi per i ricavi previsti.
+**precisione ricavi:** (inserzionisti con portfolio) I ricavi effettivi per un portfolio divisi per i ricavi previsti. [I report sulla precisione del modello](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indicano la precisione dei modelli di ricavo utilizzati per l&#39;ottimizzazione.
 
 **modello di ricavo:** (inserzionisti con portfolio) Tecnologia Search, Social e Commerce che prevede il tasso di conversione e il rendimento stimato per ogni unità di offerta, in base ai dati di clic (ricerca e social) o ai dati di impression (visualizzazione) e ai dati di conversione dell&#39;inserzionista.
 
@@ -195,6 +200,8 @@ Questo ha lo stesso valore della colonna legacy &quot;Ricavi ponderati&quot;.
 **peso view-through:** (solo campagne di visualizzazione e social) Impostazione a livello di inserzionista che specifica il peso da attribuire a una conversione view-through in relazione al peso attribuito a una conversione basata su clic, come percentuale.
 
 ## W-X {#w-x}
+
+**obiettivo ponderato:** Vedere &quot;obiettivo&quot;.
 
 **ricavi ponderati:** Vedere &quot;valore obiettivo&quot;.
 
