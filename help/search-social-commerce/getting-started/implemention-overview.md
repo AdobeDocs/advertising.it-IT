@@ -3,7 +3,7 @@ title: Panoramica dell’implementazione di Search, Social e Commerce
 description: Scopri
 exl-id: c99dc029-81e4-4416-89b1-7cf8d66658b2
 feature: Search Getting Started
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Di seguito è riportato il flusso di lavoro generale per l’implementazione e l
 
       >[!NOTE]
       >
-      >Search, Social e Commerce tengono comunque traccia dei dati e li segnalano per le campagne non assegnate a portfolio, ma non ottimizzano le offerte per esse.
+      >Search, Social e Commerce tengono comunque traccia dei dati e li segnalano per le campagne che non sono assegnate a portfolio, ma che non forniscono l’ottimizzazione.
 
    1. Una volta che sono disponibili dati sufficienti per creare una linea di base, il team può avviare il portfolio, consentendo a Search, Social e Commerce di ottimizzare offerte e/o budget per il portfolio, in base al tipo di ottimizzazione.
 

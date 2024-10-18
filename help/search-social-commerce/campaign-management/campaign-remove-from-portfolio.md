@@ -3,16 +3,16 @@ title: Rimuovere campagne da un portfolio
 description: Scopri come rimuovere le campagne da un portfolio.
 exl-id: 5f2e7a01-f55b-4f49-a217-462cd2e365c7
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
 
 # Rimuovere campagne da un portfolio
 
-Quando rimuovi una campagna da un portfolio, Search, Social e Commerce non possono ottimizzare offerte e budget per le parole chiave e gli annunci della campagna.
+Quando rimuovi una campagna da un portfolio, Search, Social e Commerce non possono ottimizzare le offerte, il budget delle campagne e i target delle strategie di offerta per tale campagna.
 
 L’azione viene registrata nella cronologia delle modifiche del portfolio.
 

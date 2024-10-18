@@ -3,9 +3,9 @@ title: Informazioni su Adobe Advertising Search, Social e Commerce
 description: Scopri di più su Search, Social e Commerce.
 exl-id: a28c49ba-f669-4d15-813b-b30673431d01
 feature: Search Introduction
-source-git-commit: 3c1f534ef13b040f450d21753e91a14efd20bfaf
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Come parte di un Adobe Advertising, Advertising Search, Social e Commerce combin
 
 ## Tecnologia basata sull’intelligenza artificiale per l’ottimizzazione degli annunci
 
-Search, Social e Commerce automatizzano e ottimizzano la gestione di offerte e budget per le campagne pubblicitarie su reti pubblicitarie all’interno dei limiti degli obiettivi aziendali, delle metriche, del budget e di altri vincoli di business dell’inserzionista. Tiene traccia della cronologia di clic, costo e conversione per ciascuna delle parole chiave e degli annunci dell’inserzionista, nonché delle informazioni sull’andamento delle offerte su ciascun canale di marketing. Utilizzando un approccio basato sulla teoria del portfolio, la funzionalità di ottimizzazione confronta tutte le allocazioni possibili del budget in un intero portfolio di campagne per determinare le offerte e i budget delle campagne che produrranno il massimo ritorno possibile sulla spesa pubblicitaria, e esegue le offerte e i budget di conseguenza. La funzionalità di ottimizzazione monitora costantemente le parole chiave e gli annunci pubblicitari di un inserzionista, regolando dinamicamente offerte e budget in base ai cambiamenti del mercato.
+Search, Social e Commerce automatizzano e ottimizzano la gestione di offerte e budget per le campagne pubblicitarie su reti pubblicitarie all’interno dei limiti degli obiettivi aziendali, delle metriche, del budget e di altri vincoli di business dell’inserzionista. Tiene traccia della cronologia di clic, costo e conversione per ciascuna delle parole chiave e degli annunci dell’inserzionista, nonché delle informazioni sull’andamento delle offerte su ciascun canale di marketing. Utilizzando un approccio basato sulla teoria del portfolio, la funzionalità di ottimizzazione confronta tutte le allocazioni possibili del budget in un intero portfolio di campagne per determinare le offerte e i budget delle campagne che produrranno il massimo ritorno possibile sulla spesa pubblicitaria, eseguendo di conseguenza le offerte, i budget e gli obiettivi strategici delle offerte. La funzionalità di ottimizzazione monitora costantemente le parole chiave e gli annunci pubblicitari di un inserzionista, regolando dinamicamente offerte, budget e target in base ai cambiamenti del mercato.
 
 Sono disponibili diversi tipi di ottimizzazione, che consentono a Search, Social e Commerce e alla rete di annunci di diversi livelli di controllo sull’ottimizzazione delle offerte. A seconda del tipo di ottimizzazione, è possibile ottimizzare i portfolio utilizzando le conversioni rilevate da Adobe Advertising, Adobe Analytics, [!DNL Google Ads], [!DNL Google Analytics] o altri feed aziendali di prime parti.
 

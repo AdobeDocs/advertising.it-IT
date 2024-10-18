@@ -3,9 +3,9 @@ title: Informazioni sui report
 description: Scopri i rapporti sulle prestazioni, compresi i diversi tipi di rapporti disponibili e come automatizzare i rapporti.
 exl-id: 173d1bad-e3aa-4417-a9b1-4b5d06c304d2
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Le seguenti categorie di report sono disponibili dalla visualizzazione [!UICONTR
 | [!UICONTROL Advanced Reports] | I [report avanzati](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) forniscono ulteriori informazioni sulla configurazione della pubblicità, consentendoti di identificare i vantaggi della modifica del targeting geografico o delle impostazioni di rete. Possono anche aiutarti a convalidare i dati di conversione nelle viste e nei rapporti di gestione della campagna e del portfolio in base ai dati di tracciamento delle conversioni interne dell’inserzionista. |
 | [!UICONTROL Assist Reports] | [I report di assistenza](/help/search-social-commerce/reports/management/assist/assist-report-about.md) forniscono informazioni approfondite sui percorsi di conversione per tutte le parole chiave e gli annunci di un inserzionista. Utilizzano dati acquisiti tramite il servizio di tracciamento delle conversioni di Adobe Advertising e possono essere generati solo per gli inserzionisti che utilizzano il servizio. |
 | [!UICONTROL Specialty Reports] | [I report speciali](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md) sono costituiti da dati raccolti dalle reti di annunci (anziché dal tracciamento degli Adobi Advertising). |
-| [!UICONTROL Model Accuracy Reports] | [I report sulla precisione del modello](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indicano la precisione dei modelli di costi e ricavi utilizzati per ottimizzare le offerte. |
+| [!UICONTROL Model Accuracy Reports] | [I rapporti sulla precisione del modello](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indicano la precisione dei modelli di costi e ricavi utilizzati per ottimizzare le offerte, il budget delle campagne e gli obiettivi di strategia delle offerte per un portfolio. |
 
 ## Automazione dei rapporti
 

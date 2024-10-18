@@ -3,9 +3,9 @@ title: Gestione annunci
 description: Scopri come creare e gestire gli annunci.
 exl-id: 5ec410cd-9dff-41e6-9ecc-d6ceee84755e
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Solo *[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], 
 >[!NOTE]
 >
 >* I seguenti tipi di annunci sono *mutable*, il che significa che è possibile modificare la copia o l&#39;immagine dell&#39;annuncio e mantenere lo stesso ID annuncio: tutti i tipi di annunci [!DNL Google Ads] ad eccezione degli annunci di ricerca dinamica e [!DNL Microsoft Advertising] annunci di testo espansi.
->* Tutti gli altri annunci supportati sono *non modificabili*, il che significa che la modifica della copia o dell&#39;immagine dell&#39;annuncio elimina l&#39;annuncio esistente e ne crea uno nuovo. Le prestazioni del nuovo annuncio potrebbero essere volatili per un paio di settimane, mentre Search, Social e Commerce raccolgono dati sufficienti per ottimizzare le offerte.
+>* Tutti gli altri annunci supportati sono *non modificabili*, il che significa che la modifica della copia o dell&#39;immagine dell&#39;annuncio elimina l&#39;annuncio esistente e ne crea uno nuovo. Le prestazioni del nuovo annuncio possono essere volatili per un paio di settimane, mentre Search, Social e Commerce raccolgono dati sufficienti per l’ottimizzazione.
 >* Impossibile modificare il contenuto di un annuncio di prodotto, ad eccezione della riga di promozione per [!DNL Microsoft Advertising] annunci di prodotto. Tuttavia, puoi sospendere o eliminare un annuncio.
 
 >[!TIP]

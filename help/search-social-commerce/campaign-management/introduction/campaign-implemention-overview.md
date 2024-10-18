@@ -3,9 +3,9 @@ title: Panoramica dell’implementazione di account e campagne di ad network
 description: Scopri le attività necessarie per configurare, sincronizzare e gestire gli account di rete degli annunci.
 exl-id: 36307e65-81f8-4794-8a75-a37623b294ed
 feature: Search Campaign Management
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Questa pagina include informazioni su tutti i tipi di account, inclusa la modali
 
 1. (Inserzionisti con Adobe Analytics) [Integra Adobe Advertising e Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) in modo che possano scambiare dati.
 
-1. (Per consentire a Search, Social e Commerce di ottimizzare le offerte e/o i budget delle campagne; solo [tipi di campagna supportati](/help/search-social-commerce/introduction/supported-inventory.md)) [Assegna la campagna a un portfolio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
+1. (Per consentire a Search, Social e Commerce di ottimizzare le offerte, il budget delle campagne e/o gli obiettivi della strategia di offerta delle campagne; [solo i tipi di campagna supportati](/help/search-social-commerce/introduction/supported-inventory.md)) [Assegna la campagna a un portfolio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 
    Se il portfolio non è già stato avviato (ottimizzazione di offerte e/o budget), lascia che la funzionalità di ottimizzazione raccolga dati sufficienti per creare modelli di costi e ricavi in modo da poter stabilire le prestazioni linea di base per il portfolio prima di avviarlo.
 

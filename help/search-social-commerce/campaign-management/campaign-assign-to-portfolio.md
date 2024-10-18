@@ -3,16 +3,16 @@ title: Assegnare campagne a un portfolio
 description: Scopri come includere le campagne nei portfolio per l’ottimizzazione.
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
 
 # Assegnare campagne a un portfolio
 
-L’assegnazione di una campagna a un portfolio ottimizzato consente a Search, Social e Commerce di ottimizzare le offerte e il budget delle campagne per parole chiave e annunci nella campagna. È possibile assegnare le campagne a un portfolio dalla vista [!UICONTROL Campaigns], quando si crea il portfolio o modificandone le impostazioni.
+L’assegnazione di una campagna a un portfolio ottimizzato consente a Search, Social e Commerce di ottimizzare le offerte, il budget delle campagne e i target delle strategie di offerta per parole chiave e annunci nella campagna. È possibile assegnare le campagne a un portfolio dalla vista [!UICONTROL Campaigns], quando si crea il portfolio o modificandone le impostazioni.
 
 Non tutti i tipi di campagne e le reti pubblicitarie sono idonei per l&#39;ottimizzazione. Vedere un elenco di [tipi di campagne supportati](/help/search-social-commerce/introduction/supported-inventory.md) che è possibile includere in un portfolio. Inoltre, verifica il supporto dell&#39;ottimizzazione per ogni strategia di offerta della campagna consultando &quot;Tipi di Portfolio idonei per strategia di offerta della campagna&quot; nel capitolo della Guida all&#39;ottimizzazione su &quot;Portfoli&quot;, disponibile all&#39;interno di Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
