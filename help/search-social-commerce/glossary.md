@@ -3,9 +3,9 @@ title: Glossario
 description: Cfr. definizioni dei termini chiave.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 56eaa534c1ee61f399b1ab2cd53d9e10ac9b5386
+source-git-commit: 625bb9a466684993ac55d6358880b1ff3052d592
 workflow-type: tm+mt
-source-wordcount: '2223'
+source-wordcount: '2240'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 **monitoraggio delle conversioni:** Il monitoraggio delle conversioni utilizza i cookie per monitorare a) i clic sugli annunci di un inserzionista sulle reti pubblicitarie e b) le transazioni risultanti sul sito Web dell&#39;inserzionista.
 
-**precisione costi:** (inserzionisti con portfolio) La spesa effettiva per un portfolio divisa per la spesa prevista. [I report sulla precisione del modello](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indicano la precisione dei modelli di costo utilizzati per l&#39;ottimizzazione.
+**precisione costi:** (inserzionisti con portfolio) La spesa effettiva per un portfolio divisa per la spesa prevista. [I report sulla precisione del modello](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indicano la precisione dei modelli di costo utilizzati per l&#39;ottimizzazione e [[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md) include ulteriori dettagli, oltre a suggerimenti per migliorare la precisione del modello.
 
 **modello di costo:** (inserzionisti con portfolio) Tecnologia Search, Social e Commerce che prevede il volume di costo, l&#39;offerta necessaria per aggiudicarsi ogni posizione o posizionamento e il CPC (ricerca) o CPM (visualizzazione) per ogni unità di offerta utilizzando dati storici e tecniche di previsione matematica.
 
@@ -123,7 +123,7 @@ Consulta &quot;mezza durata del modello di costo&quot; e &quot;mezza durata del 
 
 **offerta minima:** 1) l&#39;importo minimo da pagare per impression o per 1000 impression. 2) Per le parole chiave di ricerca, l’offerta minima richiesta per una determinata parola chiave in base al suo punteggio di qualità. L&#39;offerta minima è in genere l&#39;importo minimo che puoi pagare per clic affinché la parola chiave mostri annunci.
 
-**precisione modello:** (inserzionisti con portfolio) la percentuale di precisione dei modelli di costi e ricavi utilizzati per ottimizzare offerte, budget e target per un portfolio. Consulta &quot;modello di costo&quot;, &quot;precisione dei costi&quot;, &quot;modello di ricavo&quot; e &quot;precisione dei ricavi&quot;.  [I report sulla precisione del modello](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indicano la precisione dei modelli di costi e ricavi.
+**precisione modello:** (inserzionisti con portfolio) la percentuale di precisione dei modelli di costi e ricavi utilizzati per ottimizzare offerte, budget di campagne e obiettivi di strategia di offerta per un portfolio. Consulta &quot;modello di costo&quot;, &quot;precisione dei costi&quot;, &quot;modello di ricavo&quot; e &quot;precisione dei ricavi&quot;.  [I report sulla precisione del modello](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indicano la precisione dei modelli di costi e ricavi.
 
 ## O-P {#o-p}
 
