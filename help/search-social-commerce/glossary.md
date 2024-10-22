@@ -3,9 +3,9 @@ title: Glossario
 description: Cfr. definizioni dei termini chiave.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 625bb9a466684993ac55d6358880b1ff3052d592
+source-git-commit: 128446e8fad1e2c973a62042933cc52bb556a71d
 workflow-type: tm+mt
-source-wordcount: '2240'
+source-wordcount: '2242'
 ht-degree: 0%
 
 ---
@@ -123,7 +123,7 @@ Consulta &quot;mezza durata del modello di costo&quot; e &quot;mezza durata del 
 
 **offerta minima:** 1) l&#39;importo minimo da pagare per impression o per 1000 impression. 2) Per le parole chiave di ricerca, l’offerta minima richiesta per una determinata parola chiave in base al suo punteggio di qualità. L&#39;offerta minima è in genere l&#39;importo minimo che puoi pagare per clic affinché la parola chiave mostri annunci.
 
-**precisione modello:** (inserzionisti con portfolio) la percentuale di precisione dei modelli di costi e ricavi utilizzati per ottimizzare offerte, budget di campagne e obiettivi di strategia di offerta per un portfolio. Consulta &quot;modello di costo&quot;, &quot;precisione dei costi&quot;, &quot;modello di ricavo&quot; e &quot;precisione dei ricavi&quot;.  [I report sulla precisione del modello](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indicano la precisione dei modelli di costi e ricavi.
+**precisione modello:** (inserzionisti con portfolio) la percentuale di precisione dei modelli di costi e ricavi utilizzati per ottimizzare offerte, budget di campagne e obiettivi di strategia di offerta per un portfolio. Consulta &quot;modello di costo&quot;, &quot;precisione dei costi&quot;, &quot;modello di ricavo&quot; e &quot;precisione dei ricavi&quot;.
 
 ## O-P {#o-p}
 
@@ -163,7 +163,7 @@ Questo ha lo stesso valore della colonna legacy &quot;Ricavi ponderati&quot;.
 
 **utile sul capitale investito:** (ROI) Ricavi meno costi.
 
-**precisione ricavi:** (inserzionisti con portfolio) I ricavi effettivi per un portfolio divisi per i ricavi previsti. [I report sulla precisione del modello](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indicano la precisione dei modelli di ricavo utilizzati per l&#39;ottimizzazione.
+**precisione ricavi:** (inserzionisti con portfolio) I ricavi effettivi per un portfolio divisi per i ricavi previsti. [I rapporti sulla precisione del modello](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indicano la precisione dei modelli di ricavo utilizzati per l&#39;ottimizzazione e [[!UICONTROL Model Accuracy]gli approfondimenti](/help/search-social-commerce/advertising-insights/insight-about.md) includono ulteriori dettagli, oltre a suggerimenti per migliorare la precisione del modello.
 
 **modello di ricavo:** (inserzionisti con portfolio) Tecnologia Search, Social e Commerce che prevede il tasso di conversione e il rendimento stimato per ogni unità di offerta, in base ai dati di clic (ricerca e social) o ai dati di impression (visualizzazione) e ai dati di conversione dell&#39;inserzionista.
 
