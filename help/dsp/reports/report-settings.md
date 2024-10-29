@@ -3,9 +3,9 @@ title: Impostazioni report personalizzati
 description: Consulta le descrizioni delle impostazioni del rapporto personalizzato.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: be229b54dcdaa3386c7c3c658dd8f2434b51e5e8
+source-git-commit: 0e91fa93e8de53edda81dd5321eeca4682ad0c13
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1541'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Per applicare uno o più filtri, effettuare le seguenti operazioni:
 
 \* *[!UICONTROL Account]* è disponibile per i seguenti tipi di report solo quando l&#39;organizzazione è configurata per [rapporti tra account diversi](report-about.md#cross-account-reporting): [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] e [!UICONTROL Conversion]. Contatta il team del tuo account Adobe per ulteriori informazioni sul reporting tra account diversi.
 
-**[!UICONTROL Include data from Adobe Advertising SSC]:** (solo rapporti Percorso di conversione, Lunghezza percorso e Tempo di conversione) Include i dati per i clic sugli annunci di ricerca da Advertising Search, Social e Commerce. Quando selezioni questa opzione, seleziona le campagne Search, Social e Commerce da includere.
+**[!UICONTROL Include data from Adobe Advertising SSC]:** (solo rapporti Percorso di conversione, Lunghezza percorso e Tempo di conversione) Include i dati per i clic sugli annunci di ricerca da campagne Advertising Search, Social e Commerce specificate. Quando selezioni questa opzione, seleziona l&#39;account Search, Social &amp; Commerce utilizzando il filtro **Filter by[!UICONTROL SSC Account]** (Filtra per ). Quindi seleziona le campagne utilizzando il filtro **Filtra per[!UICONTROL SSC Campaign]**. Per selezionare più campagne, fare clic su **[!UICONTROL Add Criteria]** per la seconda e le campagne successive.
 
 ## Sezione [!UICONTROL Build Your Report]
 
