@@ -3,9 +3,9 @@ title: Impostazioni report personalizzati
 description: Consulta le descrizioni delle impostazioni del rapporto personalizzato.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 4fb843e66edddd4585d4a9b142eb9a7750152d27
+source-git-commit: d3422ecf101eb6fc1ea1d0df29a9a40363666de4
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
@@ -64,13 +64,15 @@ Questa sezione determina le date di esecuzione del rapporto. Per impostare le da
 
 **[!UICONTROL Add Filters]:** (facoltativo) dimensioni aggiuntive in base alle quali filtrare i dati, indipendentemente dal fatto che le dimensioni siano incluse o meno come colonne nel report. I filtri disponibili variano in base al tipo di report e possono includere: *[!UICONTROL Account]*\*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, * *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]* e *[!UICONTROL Video Duration]*.
 
-\* *[!UICONTROL Account]* è disponibile per i seguenti tipi di report solo quando l&#39;organizzazione è configurata per [rapporti tra account diversi](report-about.md#cross-account-reporting): [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] e [!UICONTROL Conversion]. Per ulteriori informazioni sul reporting tra account, contatta il team dell’account di Adobe.
+\* *[!UICONTROL Account]* è disponibile per i seguenti tipi di report solo quando l&#39;organizzazione è configurata per [rapporti tra account diversi](report-about.md#cross-account-reporting): [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] e [!UICONTROL Conversion]. Contatta il team del tuo account Adobe per ulteriori informazioni sul reporting tra account diversi.
 
 Per applicare uno o più filtri, effettuare le seguenti operazioni:
 
 * Selezionare una dimensione, selezionare l&#39;operatore (*uguale a* o *diverso da*), quindi selezionare il valore applicabile. Ad esempio, per restituire dati solo per gli annunci preroll, specificare &quot;[!UICONTROL Ad Type equals Preroll]&quot;.
 * (Facoltativo) Aggiungi criteri aggiuntivi al filtro.
 * (Facoltativo) Aggiungi altri filtri, ciascuno con uno o più criteri.
+
+**[!UICONTROL Include data from Adobe Advertising SSC]:** include gli annunci in Advertising Search, Social e Commerce nei risultati del rapporto.
 
 ## Sezione [!UICONTROL Build Your Report]
 

@@ -3,7 +3,7 @@ title: Gestire le campagne
 description: Scopri come creare e gestire le campagne pubblicitarie.
 exl-id: 7654a01c-39de-4df4-a7ea-963cfc8b05f2
 feature: Search Campaign Management
-source-git-commit: 813b2a100df7381bdcea1c44a37f86e65ee5794f
+source-git-commit: 821342d502dd253661cdc7ca62d16b0ae22624a0
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Dopo aver [reso accessibile un account di rete di annunci](/help/search-social-c
 
 1. Immetti [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md), [Yahoo! Impostazioni della campagna Japan Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md) o [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md).
 
-   A seconda della rete di annunci, le impostazioni possono essere raggruppate in [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Conversion Goals], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options] e [!UICONTROL (Google) DSA Options]. Per configurare impostazioni aggiuntive, se disponibili, per [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking], [!UICONTROL Asset Groups] o [!UICONTROL Campaign Goals], fare clic rispettivamente su **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**, **[!UICONTROL Manage Asset Groups]** o **[!UICONTROL Set Campaign Goals]**.
+   A seconda della rete di annunci, le impostazioni possono essere raggruppate in [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Conversion Goals], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options], ([!DNL Google Ads]) [!UICONTROL DSA Options] e ([!DNL Google Ads]) [!UICONTROL Customer Acquisition Goals]. Per configurare impostazioni aggiuntive, se disponibili, per [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking], [!UICONTROL Asset Groups] o [!UICONTROL Campaign Goals], fare clic rispettivamente su **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**, **[!UICONTROL Manage Asset Groups]** o **[!UICONTROL Set Campaign Goals]**.
 
 1. Fare clic su **[!UICONTROL Post]**.
 
