@@ -3,9 +3,9 @@ title: Informazioni sui report personalizzati
 description: Scopri le opzioni per la creazione manuale di rapporti personalizzati o l’utilizzo di modelli di rapporto preconfigurati.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 44f7f9b31afbe6b863acd389df641057b1e6dea1
+source-git-commit: 42d4c7e34766b9f75d0f278520f162671684c2db
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1407'
 ht-degree: 0%
 
 ---
@@ -77,9 +77,29 @@ Puoi generare i rapporti una volta o pianificarli in modo che vengano generati o
 
    * **[!UICONTROL Household Conversions]:** Utilizzare questo report per visualizzare le conversioni view-through a livello di famiglia in base all&#39;indirizzo IP anziché a livello di dispositivo/cookie. Utilizza le informazioni per misurare e ottimizzare le prestazioni della campagna. Per ulteriori informazioni, consulta &quot;[Domande frequenti sui rapporti sulla famiglia](/help/dsp/reports/faq-household-report.md)&quot;. I dati non sono disponibili per i posizionamenti mirati agli ID universali.
 
+   * **[!UICONTROL Path to Conversion Beta]:** (funzionalità Beta) Utilizzare questo report per visualizzare la sequenza di punti di interazione nella stessa famiglia che conducono a ciascuna delle metriche di conversione selezionate nell&#39;intervallo di dati specificato, utilizzando un periodo di lookback specificato tra la prima interazione e una conversione. Il rapporto può includere una dimensione:
+
+      * [!UICONTROL Channel Assist Type]: mostra come i seguenti canali di marketing hanno assistito il processo di conversione: [!UICONTROL Audio Impression], [!UICONTROL CTV Impression], [!UICONTROL Display Click], [!UICONTROL Display Impression], [!UICONTROL Native Click], [!UICONTROL Native Impression], [!UICONTROL Search Click], [!UICONTROL Video Click] o [!UICONTROL Video Impression].
+
+      * [!UICONTROL Campaign ID] o [!UICONTROL Campaign Name]: mostra quali campagne hanno supportato il processo di conversione.
+
+      * [!UICONTROL Ad ID] o [!UICONTROL Ad Name] mostra quali annunci DSP hanno prodotto conversioni.
+
+      * [!UICONTROL Ad ID & Paid Keyword (SSC)] o [!UICONTROL Ad Name & Paid Keyword (SSC)] mostra quali parole chiave Search, Social e Commerce hanno dato luogo a conversioni.
+
+     Le colonne del report includono &quot;[!UICONTROL Event #1]&quot; fino a &quot;[!UICONTROL Event #10],&quot;[!UICONTROL Path Length],&quot; &quot;% \&lt;Nome metrica di conversione 1\>,&quot; &quot;% \&lt;Nome metrica di conversione 2\>&quot; e così via.
+
+     Sono inclusi fino ai 10 punti di interazione più recenti. Le righe del percorso sono ordinate in base al numero di conversioni.
+
+   * **[!UICONTROL Path Length Beta]:** (funzionalità Beta) Utilizzare questo report per visualizzare il numero di conversioni in base alla lunghezza del percorso (punti di interazione), ad esempio il numero di conversioni verificatesi dopo che gli utenti hanno avuto una sola interazione con annunci, due interazioni con annunci e così via. Il rapporto può includere dati per più metriche di conversione e utilizza un periodo di lookback specifico tra la prima interazione e una conversione. Le colonne del report includono &quot;[!UICONTROL Path Length]&quot;, &quot;[!UICONTROL Number of] \&lt;Nome metrica di conversione 1\>,&quot; &quot;% \&lt;Nome metrica di conversione 1\>,&quot; \&lt;Nome metrica di conversione 2\>,&quot; &quot;% \&lt;Nome metrica di conversione 2\>&quot; e così via.
+
+     I dati vengono visualizzati per ogni lunghezza di percorso fino a 10; i dati per lunghezze di percorso superiori a 10 vengono raggruppati.
+
+   * **[!UICONTROL Time to Conversion Beta]:** (funzionalità Beta) Utilizza questo report per visualizzare il numero di conversioni in base al periodo di tempo, in giorni, dall&#39;ultima interazione (esposizione annuncio o clic) alla conversione. Il rapporto può includere dati per più metriche di conversione e utilizza un periodo di lookback specifico tra la prima interazione e una conversione. Le colonne del report includono &quot;[!UICONTROL Time Taken (in days)]&quot;, &quot;[!UICONTROL Number of] \&lt;Nome metrica di conversione 1\>,&quot; &quot;% \&lt;Nome metrica di conversione 1\>,&quot; \&lt;Nome metrica di conversione 2\>,&quot; &quot;% \&lt;Nome metrica di conversione 2\>&quot; e così via. Le conversioni che richiedono più tempo del periodo di lookback sono raggruppate insieme in una riga (ad esempio, se il report utilizza un periodo di lookback di 30 giorni, tutte le conversioni che richiedono più di 30 giorni per essere eseguite vengono raggruppate insieme in una riga con un valore &quot;[!UICONTROL Time Taken (in days)]&quot; di &quot;30+&quot;).
+
 ## Reporting tra account {#cross-account-reporting}
 
-Qualsiasi organizzazione con più account DSP può facoltativamente abilitare i dati tra account diversi nei rapporti personalizzati, in base alle esigenze dell’organizzazione. Ad esempio, puoi concedere all’account A l’accesso ai dati dell’account B e all’account B l’accesso ai dati dell’account C (ma non dell’account A). Per abilitare e configurare questa funzione, contatta il team del tuo account di Adobe.
+Qualsiasi organizzazione con più account DSP può facoltativamente abilitare i dati tra account diversi nei rapporti personalizzati, in base alle esigenze dell’organizzazione. Ad esempio, puoi concedere all’account A l’accesso ai dati dell’account B e all’account B l’accesso ai dati dell’account C (ma non dell’account A). Per abilitare e configurare questa funzione, contatta il team del tuo account Adobe.
 
 Una volta abilitata la funzionalità per la tua organizzazione, puoi [filtrare](report-settings.md) uno qualsiasi dei seguenti tipi di report per account: [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] e [!UICONTROL Conversion].
 
