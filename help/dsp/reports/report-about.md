@@ -3,9 +3,9 @@ title: Informazioni sui report personalizzati
 description: Scopri le opzioni per la creazione manuale di rapporti personalizzati o l’utilizzo di modelli di rapporto preconfigurati.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 42d4c7e34766b9f75d0f278520f162671684c2db
+source-git-commit: 691c0097a81ee5066448fc411dc3de8f853e9bbd
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1466'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ I rapporti personalizzati ti consentono di personalizzare il contenuto e la cons
 
 * Scegli uno dei modelli di rapporto preconfigurati e, facoltativamente, personalizzali ulteriormente.
 
-Puoi generare i rapporti una volta o pianificarli in modo che vengano generati ogni giorno, ogni settimana o ogni mese alle 03:00 nel fuso orario specificato in base a criteri specifici, ad esempio ogni 15 giorni o il 1° di ogni mese. Una volta generato un report, puoi scaricarlo da [!UICONTROL Reports] > [!UICONTROL Custom Reports] o da [destinazioni report](/help/dsp/reports/report-destinations/report-destination-about.md) collegate dei seguenti tipi:
+Puoi generare i rapporti una volta o pianificarli su base giornaliera, settimanale o mensile alle 03:00 nel fuso orario specificato in base a criteri specifici, ad esempio ogni 15 giorni o il 1° di ogni mese. Una volta generato un report, puoi scaricarlo da [!UICONTROL Reports] > [!UICONTROL Custom Reports] o da [destinazioni report](/help/dsp/reports/report-destinations/report-destination-about.md) collegate dei seguenti tipi:
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
@@ -53,7 +53,7 @@ Puoi generare i rapporti una volta o pianificarli in modo che vengano generati o
      >* La frequenza è stimata sulla base di un campionamento di dati.
      >* Per alcuni inventari, gli editori non trasmettono un identificatore di dispositivo, impedendo così il tracciamento della frequenza. Questo rapporto include solo le impression per le quali era disponibile un identificatore di dispositivo.
 
-   * **[!UICONTROL Frequency (by App/Site)]:** Utilizzare questo report per capire quanti utenti univoci sono stati raggiunti dall&#39;app o dal sito. Puoi anche vedere quanti utenti univoci sono stati raggiunti solo tramite un’app o un sito particolare (&quot;utenti univoci distinti&quot;).
+   * **[!UICONTROL Frequency (by App/Site)]:** Utilizza questo rapporto per capire quanti utenti univoci sono stati raggiunti dagli annunci per app o per sito. Puoi anche vedere quanti utenti univoci sono stati raggiunti dagli annunci tramite una sola app o un sito particolare (&quot;utenti univoci distinti&quot;).
 
      >[!NOTE]
      >
@@ -77,7 +77,7 @@ Puoi generare i rapporti una volta o pianificarli in modo che vengano generati o
 
    * **[!UICONTROL Household Conversions]:** Utilizzare questo report per visualizzare le conversioni view-through a livello di famiglia in base all&#39;indirizzo IP anziché a livello di dispositivo/cookie. Utilizza le informazioni per misurare e ottimizzare le prestazioni della campagna. Per ulteriori informazioni, consulta &quot;[Domande frequenti sui rapporti sulla famiglia](/help/dsp/reports/faq-household-report.md)&quot;. I dati non sono disponibili per i posizionamenti mirati agli ID universali.
 
-   * **[!UICONTROL Path to Conversion Beta]:** (funzionalità Beta) Utilizzare questo report per visualizzare la sequenza di punti di interazione nella stessa famiglia che conducono a ciascuna delle metriche di conversione selezionate nell&#39;intervallo di dati specificato, utilizzando un periodo di lookback specificato tra la prima interazione e una conversione. Il rapporto può includere una dimensione:
+   * **[!UICONTROL Path to Conversion Beta]:** (funzionalità Beta) Utilizza questo rapporto per identificare come ottimizzare i budget e personalizzare gli annunci in base alle sequenze di interazione degli annunci con prestazioni migliori. Il rapporto mostra la sequenza di punti di interazione nella stessa famiglia che conducono a ciascuna delle metriche di conversione selezionate nell’intervallo di dati specificato. Il rapporto utilizza un periodo di lookback specificato tra la prima interazione e una conversione e può includere una dimensione:
 
       * [!UICONTROL Channel Assist Type]: mostra come i seguenti canali di marketing hanno assistito il processo di conversione: [!UICONTROL Audio Impression], [!UICONTROL CTV Impression], [!UICONTROL Display Click], [!UICONTROL Display Impression], [!UICONTROL Native Click], [!UICONTROL Native Impression], [!UICONTROL Search Click], [!UICONTROL Video Click] o [!UICONTROL Video Impression].
 
@@ -91,11 +91,11 @@ Puoi generare i rapporti una volta o pianificarli in modo che vengano generati o
 
      Sono inclusi fino ai 10 punti di interazione più recenti. Le righe del percorso sono ordinate in base al numero di conversioni.
 
-   * **[!UICONTROL Path Length Beta]:** (funzionalità Beta) Utilizzare questo report per visualizzare il numero di conversioni in base alla lunghezza del percorso (punti di interazione), ad esempio il numero di conversioni verificatesi dopo che gli utenti hanno avuto una sola interazione con annunci, due interazioni con annunci e così via. Il rapporto può includere dati per più metriche di conversione e utilizza un periodo di lookback specifico tra la prima interazione e una conversione. Le colonne del report includono &quot;[!UICONTROL Path Length]&quot;, &quot;[!UICONTROL Number of] \&lt;Nome metrica di conversione 1\>,&quot; &quot;% \&lt;Nome metrica di conversione 1\>,&quot; \&lt;Nome metrica di conversione 2\>,&quot; &quot;% \&lt;Nome metrica di conversione 2\>&quot; e così via.
+   * **[!UICONTROL Path Length Beta]:** (funzionalità Beta) Utilizza questo report per gestire la frequenza degli annunci in base al numero di punti di interazione utente necessari per le conversioni. Il rapporto mostra il numero di conversioni per lunghezza del percorso (punti di interazione), ad esempio quante conversioni si sono verificate dopo che gli utenti avevano avuto una sola interazione con un annuncio, due interazioni con un annuncio e così via. Il rapporto può includere dati per più metriche di conversione e utilizza un periodo di lookback specifico tra la prima interazione e una conversione. Le colonne del report includono &quot;[!UICONTROL Path Length]&quot;, &quot;[!UICONTROL Number of] \&lt;Nome metrica di conversione 1\>,&quot; &quot;% \&lt;Nome metrica di conversione 1\>,&quot; \&lt;Nome metrica di conversione 2\>,&quot; &quot;% \&lt;Nome metrica di conversione 2\>&quot; e così via.
 
      I dati vengono visualizzati per ogni lunghezza di percorso fino a 10; i dati per lunghezze di percorso superiori a 10 vengono raggruppati.
 
-   * **[!UICONTROL Time to Conversion Beta]:** (funzionalità Beta) Utilizza questo report per visualizzare il numero di conversioni in base al periodo di tempo, in giorni, dall&#39;ultima interazione (esposizione annuncio o clic) alla conversione. Il rapporto può includere dati per più metriche di conversione e utilizza un periodo di lookback specifico tra la prima interazione e una conversione. Le colonne del report includono &quot;[!UICONTROL Time Taken (in days)]&quot;, &quot;[!UICONTROL Number of] \&lt;Nome metrica di conversione 1\>,&quot; &quot;% \&lt;Nome metrica di conversione 1\>,&quot; \&lt;Nome metrica di conversione 2\>,&quot; &quot;% \&lt;Nome metrica di conversione 2\>&quot; e così via. Le conversioni che richiedono più tempo del periodo di lookback sono raggruppate insieme in una riga (ad esempio, se il report utilizza un periodo di lookback di 30 giorni, tutte le conversioni che richiedono più di 30 giorni per essere eseguite vengono raggruppate insieme in una riga con un valore &quot;[!UICONTROL Time Taken (in days)]&quot; di &quot;30+&quot;).
+   * **[!UICONTROL Time to Conversion Beta]:** (funzionalità Beta) Utilizza questo report per determinare l&#39;intervallo di lookback di attribuzione ottimale e identificare nuove opportunità per il retargeting. Il rapporto mostra il numero di conversioni per il periodo di tempo in giorni dall’ultima interazione (esposizione dell’annuncio o clic) alla conversione. Il rapporto può includere dati per più metriche di conversione e utilizza un periodo di lookback specifico tra la prima interazione e una conversione. Le colonne del report includono &quot;[!UICONTROL Time Taken (in days)]&quot;, &quot;[!UICONTROL Number of] \&lt;Nome metrica di conversione 1\>,&quot; &quot;% \&lt;Nome metrica di conversione 1\>,&quot; \&lt;Nome metrica di conversione 2\>,&quot; &quot;% \&lt;Nome metrica di conversione 2\>&quot; e così via. Le conversioni che richiedono più tempo del periodo di lookback sono raggruppate insieme in una riga (ad esempio, se il report utilizza un periodo di lookback di 30 giorni, tutte le conversioni che richiedono più di 30 giorni per essere eseguite vengono raggruppate insieme in una riga con un valore &quot;[!UICONTROL Time Taken (in days)]&quot; di &quot;30+&quot;).
 
 ## Reporting tra account {#cross-account-reporting}
 
