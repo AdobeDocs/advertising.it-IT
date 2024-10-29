@@ -3,7 +3,7 @@ title: Informazioni sui report personalizzati
 description: Scopri le opzioni per la creazione manuale di rapporti personalizzati o l’utilizzo di modelli di rapporto preconfigurati.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 691c0097a81ee5066448fc411dc3de8f853e9bbd
+source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
 workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 0%
@@ -73,9 +73,9 @@ Puoi generare i rapporti una volta o pianificarli su base giornaliera, settimana
 
    * **[!UICONTROL Site]:** Per impostazione predefinita, include le metriche standard, la spesa netta totale dei supporti e la spesa netta totale fatturabile per sito.
 
-   * **[!UICONTROL Household Reach & Frequency]:** Utilizzare questo report per visualizzare impression, portata e frequenza per una singola dimensione in più formati di annunci a livello di famiglia in base all&#39;indirizzo IP, anziché a livello di dispositivo/cookie. Utilizza le informazioni per ottimizzare il mix di contenuti multimediali, migliorare le prestazioni e identificare opportunità di portata incrementale. Per ulteriori informazioni, consulta &quot;[Domande frequenti sui rapporti sulla famiglia](/help/dsp/reports/faq-household-report.md)&quot;. I dati non sono disponibili per i posizionamenti mirati agli ID universali.
+   * **[!UICONTROL Household Reach & Frequency]:** Utilizzare questo report per visualizzare impression, portata e frequenza per una singola dimensione in più formati di annunci a livello di famiglia in base all&#39;indirizzo IP, anziché a livello di dispositivo/cookie. Utilizza le informazioni per ottimizzare il mix di contenuti multimediali, migliorare le prestazioni e identificare opportunità di portata incrementale. Per ulteriori informazioni, consulta &quot;[Domande frequenti sui rapporti sulla famiglia](/help/dsp/reports/faq-reports.md)&quot;. I dati non sono disponibili per i posizionamenti mirati agli ID universali.
 
-   * **[!UICONTROL Household Conversions]:** Utilizzare questo report per visualizzare le conversioni view-through a livello di famiglia in base all&#39;indirizzo IP anziché a livello di dispositivo/cookie. Utilizza le informazioni per misurare e ottimizzare le prestazioni della campagna. Per ulteriori informazioni, consulta &quot;[Domande frequenti sui rapporti sulla famiglia](/help/dsp/reports/faq-household-report.md)&quot;. I dati non sono disponibili per i posizionamenti mirati agli ID universali.
+   * **[!UICONTROL Household Conversions]:** Utilizzare questo report per visualizzare le conversioni view-through a livello di famiglia in base all&#39;indirizzo IP anziché a livello di dispositivo/cookie. Utilizza le informazioni per misurare e ottimizzare le prestazioni della campagna. Per ulteriori informazioni, consulta &quot;[Domande frequenti sui rapporti sulla famiglia](/help/dsp/reports/faq-reports.md)&quot;. I dati non sono disponibili per i posizionamenti mirati agli ID universali.
 
    * **[!UICONTROL Path to Conversion Beta]:** (funzionalità Beta) Utilizza questo rapporto per identificare come ottimizzare i budget e personalizzare gli annunci in base alle sequenze di interazione degli annunci con prestazioni migliori. Il rapporto mostra la sequenza di punti di interazione nella stessa famiglia che conducono a ciascuna delle metriche di conversione selezionate nell’intervallo di dati specificato. Il rapporto utilizza un periodo di lookback specificato tra la prima interazione e una conversione e può includere una dimensione:
 
@@ -130,7 +130,7 @@ Puoi creare nuovi rapporti personalizzati, modificare quelli esistenti o duplica
 >* [Crea un report personalizzato](/help/dsp/reports/report-create.md)
 >* [Scarica un report personalizzato](/help/dsp/reports/report-download.md)
 >* [Impostazioni report personalizzati](/help/dsp/reports/report-settings.md)
->* [Domande frequenti sui report domestici](/help/dsp/reports/faq-household-report.md)
+>* [Domande frequenti sui report domestici](/help/dsp/reports/faq-reports.md)
 >* [Tipi di report sulle prestazioni nelle visualizzazioni di Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Colonne report disponibili](/help/dsp/reports/report-columns.md)
 >* [Informazioni su [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)

@@ -4,9 +4,9 @@ user-guide-title: Guida di Advertising DSP
 user-guide-description: Scopri le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire e ottimizzare le strategie degli annunci display con Advertising DSP e creare i relativi rapporti.
 breadcrumb-title: Guida di DSP
 index: true
-source-git-commit: 281ab6a76b34b718281e5e656e4b29ecaf608bd3
+source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '932'
 ht-degree: 3%
 
 ---
@@ -46,11 +46,12 @@ ht-degree: 3%
       + [Archiviare o annullare l’archiviazione di una campagna](/help/dsp/campaign-management/campaigns/campaign-archive-unarchive.md)
       + [Visualizzare il registro delle modifiche per una campagna](/help/dsp/campaign-management/campaigns/campaign-change-log.md)
       + [Impostazioni campagna](/help/dsp/campaign-management/campaigns/campaign-settings.md)
+      + [Rivedere e modificare le impostazioni dei componenti di Campaign utilizzando i bulksheet](/help/dsp/campaign-management/campaign-components-review-edit.md)
       + [Elenco di controllo per il lancio di Campaign](/help/dsp/campaign-management/campaign-launch-checklist.md)
    + Pacchetti {#packages}
       + [Informazioni sulla gestione dei pacchetti](/help/dsp/campaign-management/packages/package-about.md)
       + [Creare un pacchetto](/help/dsp/campaign-management/packages/package-create.md)
-      + [Revisione e modifica delle impostazioni dei pacchetti utilizzando i fogli di calcolo](/help/dsp/campaign-management/packages/package-qa.md)
+      + [Rivedere e modificare le impostazioni dei pacchetti utilizzando i bulksheet](/help/dsp/campaign-management/packages/package-qa.md)
       + [Modificare un pacchetto](/help/dsp/campaign-management/packages/package-edit.md)
       + [Duplicare un pacchetto](/help/dsp/campaign-management/packages/package-duplicate.md)
       + [Allegare un posizionamento a un pacchetto](/help/dsp/campaign-management/packages/package-attach-placement.md)
@@ -61,7 +62,7 @@ ht-degree: 3%
    + Posizionamenti {#placements}
       + [Informazioni sulla gestione del posizionamento](/help/dsp/campaign-management/placements/placement-about.md)
       + [Creare un posizionamento](/help/dsp/campaign-management/placements/placement-create.md)
-      + [Revisione e modifica delle impostazioni di posizionamento tramite i fogli di calcolo](/help/dsp/campaign-management/placements/placement-qa.md)
+      + [Revisione e modifica delle impostazioni di posizionamento tramite i bulksheet](/help/dsp/campaign-management/placements/placement-qa.md)
       + [Modifica posizionamenti](/help/dsp/campaign-management/placements/placement-edit.md)
       + [Duplicare un posizionamento](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [Gestire i moltiplicatori delle offerte per i posizionamenti](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
@@ -203,7 +204,7 @@ ht-degree: 3%
    + [Scaricare un rapporto personalizzato](/help/dsp/reports/report-download.md)
    + [Impostazioni report personalizzati](/help/dsp/reports/report-settings.md)
    + [Colonne report disponibili](/help/dsp/reports/report-columns.md)
-   + [Domande frequenti sui rapporti sulle famiglie](/help/dsp/reports/faq-household-report.md)
+   + [Domande frequenti sui rapporti sulle famiglie](/help/dsp/reports/faq-reports.md)
    + Destinazioni report {#report-destinations}
       + [Informazioni su [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
       + [Crea un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
