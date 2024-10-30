@@ -3,7 +3,7 @@ title: Modifica posizionamenti
 description: Scopri come modificare un posizionamento.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
+source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Puoi anche scaricare le impostazioni per uno o più posizionamenti, o per tutti i posizionamenti in una campagna, in formato XLSX (foglio di calcolo Excel), apportare modifiche a un sottoinsieme limitato di campi chiave e caricarli nuovamente su DSP in una sola volta. Consulta &quot;[Rivedere e modificare le impostazioni di posizionamento utilizzando i fogli di calcolo](placement-qa.md).&quot;
+>Puoi anche scaricare le impostazioni per uno o più posizionamenti, o per tutti i posizionamenti in una campagna, in formato XLSX (foglio di calcolo Excel), apportare modifiche a un sottoinsieme limitato di campi chiave e caricarli nuovamente su DSP in una sola volta. Consulta &quot;[Rivedere e modificare le impostazioni di posizionamento utilizzando i bulksheet](placement-qa.md).&quot;
 
 ## Modifica rapida impostazioni di posizionamento chiave {#placement-quick-edit}
 
@@ -92,7 +92,7 @@ Utilizza questa opzione solo quando desideri applicare le stesse modifiche a tut
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulla gestione del posizionamento](placement-about.md)
->* [Rivedi e modifica le impostazioni di posizionamento utilizzando i fogli di calcolo](placement-qa.md)
+>* [Rivedi e modifica le impostazioni di posizionamento utilizzando i bulksheet](placement-qa.md)
 >* [Crea un posizionamento](placement-create.md)
 >* [Duplicare un posizionamento](placement-duplicate.md)
 >* [Gestire i moltiplicatori delle offerte per i posizionamenti](placement-manage-bid-multipliers.md)

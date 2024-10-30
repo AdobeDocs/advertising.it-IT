@@ -4,7 +4,7 @@ user-guide-title: Guida di Advertising Search, Social e Commerce
 user-guide-description: Questa guida descrive le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire, tracciare e creare rapporti sulle campagne di annunci di ricerca, social e commerce.
 breadcrumb-title: Guida di Advertising Search, Social e Commerce
 index: true
-source-git-commit: 2729e7575f9950eb59b181d542dea7cb3b34cfa7
+source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 2%
@@ -61,7 +61,7 @@ ht-degree: 2%
       + [Specificare una data utilizzando il calendario](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md)
       + [Mostrare e nascondere un grafico di tendenza](/help/search-social-commerce/common-tasks/navigation-editing-selection/trend-chard-show-hide.md)
       + [Aggiorna dati nelle visualizzazioni di gestione](/help/search-social-commerce/common-tasks/navigation-editing-selection/refresh.md)
-      + Download dei dati nelle visualizzazioni di gestione {#download-data-views}
+      + Scarica dati nelle visualizzazioni di gestione {#download-data-views}
          + [Scaricare dati da una vista di gestione delle campagne](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
          + [Eliminare un report di dati sulle prestazioni o un file di bulksheet dal menu [!UICONTROL Downloads]](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 + Tracciamento di {#tracking}
