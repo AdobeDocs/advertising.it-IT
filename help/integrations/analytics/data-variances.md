@@ -3,7 +3,7 @@ title: Varianze di dati previste tra  [!DNL Analytics]  e Adobe Advertising
 description: Varianze di dati previste tra  [!DNL Analytics]  e Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: e1c1d43c7fe5f44e34ada7dee09afd77f1b3f305
+source-git-commit: 6470ed471c60477bf19cf9b125f0250136f31511
 workflow-type: tm+mt
 source-wordcount: '3358'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Se un intervallo di lookback o un modello di attribuzione viene modificato in un
 
 >[!IMPORTANT]
 >
->La best practice prevede di utilizzare gli stessi intervalli di lookback e lo stesso modello di attribuzione sia nell’Adobe Advertising che in [!DNL Analytics]. Collabora con il tuo Account Team di Adobi per identificare le impostazioni correnti e mantenere sincronizzate le configurazioni.
+>La best practice prevede di utilizzare gli stessi intervalli di lookback e lo stesso modello di attribuzione sia nell’Adobe Advertising che in [!DNL Analytics]. Collabora con il tuo Account Team Adobe per identificare le impostazioni correnti e mantenere sincronizzate le configurazioni.
 
 Questi stessi concetti si applicano a qualsiasi altro canale simile che utilizza intervalli di lookback o modelli di attribuzione diversi.
 
@@ -84,9 +84,9 @@ Considerare queste differenze durante il confronto delle conversioni view-throug
 >
 >Inoltre, il passaggio dell’allocazione di conversione da o a &quot;Lineare&quot; impedisce la visualizzazione dei dati storici, il che può portare a dati errati nei rapporti. Ad esempio, l&#39;allocazione lineare potrebbe dividere i ricavi in diversi valori di [!DNL eVar]. Se modifichi l’allocazione in &quot;Most Recent&quot; (Più recente), il 100% di tali ricavi viene associato al singolo valore più recente. Questa associazione può portare a conclusioni errate.
 >
->Per evitare confusione, [!DNL Analytics] rende i dati cronologici non disponibili nell&#39;interfaccia di reporting. È possibile visualizzare i dati storici se si ripristina l&#39;impostazione di allocazione iniziale di [!DNL eVar], anche se non è consigliabile modificare le impostazioni di allocazione di [!DNL eVar] per accedere semplicemente ai dati storici. L&#39;Adobe consiglia di utilizzare un nuovo [!DNL eVar] quando si desidera applicare una nuova impostazione di allocazione per i dati già registrati, anziché modificare le impostazioni di allocazione per un [!DNL eVar] che dispone già di una quantità significativa di dati storici.
+>Per evitare confusione, [!DNL Analytics] rende i dati cronologici non disponibili nell&#39;interfaccia di reporting. È possibile visualizzare i dati storici se si ripristina l&#39;impostazione di allocazione iniziale di [!DNL eVar], anche se non è consigliabile modificare le impostazioni di allocazione di [!DNL eVar] per accedere semplicemente ai dati storici. Adobe consiglia di utilizzare un nuovo [!DNL eVar] quando si desidera applicare una nuova impostazione di allocazione per i dati già registrati, anziché modificare le impostazioni di allocazione per un [!DNL eVar] che dispone già di una quantità significativa di dati storici.
 
-Consulta un elenco dei modelli di attribuzione [!DNL Analytics] e delle relative definizioni in [https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html).
+Consulta un elenco dei modelli di attribuzione [!DNL Analytics] e delle relative definizioni in [https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models).
 
 Se hai effettuato l&#39;accesso a [!DNL Search, Social, & Commerce], puoi trovare un elenco
 
