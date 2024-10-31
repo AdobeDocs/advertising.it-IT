@@ -3,9 +3,9 @@ title: Informazioni sui report personalizzati
 description: Scopri le opzioni per la creazione manuale di rapporti personalizzati o l’utilizzo di modelli di rapporto preconfigurati.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
+source-git-commit: 5ddfcba2e1ceac6a98dc0b865a09f535e6621fa0
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1498'
 ht-degree: 0%
 
 ---
@@ -91,11 +91,13 @@ Puoi generare i rapporti una volta o pianificarli su base giornaliera, settimana
 
      Sono inclusi fino ai 10 punti di interazione più recenti. Le righe del percorso sono ordinate in base al numero di conversioni.
 
-   * **[!UICONTROL Path Length Beta]:** (funzionalità Beta) Utilizza questo report per gestire la frequenza degli annunci in base al numero di punti di interazione utente necessari per le conversioni. Il rapporto mostra il numero di conversioni per lunghezza del percorso (punti di interazione), ad esempio quante conversioni si sono verificate dopo che gli utenti avevano avuto una sola interazione con un annuncio, due interazioni con un annuncio e così via. Il rapporto può includere dati per più metriche di conversione e utilizza un periodo di lookback specifico tra la prima interazione e una conversione. Le colonne del report includono &quot;[!UICONTROL Path Length]&quot;, &quot;[!UICONTROL Number of] \&lt;Nome metrica di conversione 1\>,&quot; &quot;% \&lt;Nome metrica di conversione 1\>,&quot; \&lt;Nome metrica di conversione 2\>,&quot; &quot;% \&lt;Nome metrica di conversione 2\>&quot; e così via.
+     Per un confronto tra questo report e i report creati da [!DNL Advanced Measurement Services] e Adobe Analytic, vedere &quot;[Domande frequenti sui report personalizzati](/help/dsp/reports/faq-reports.md).&quot;
+
+   * **[!UICONTROL Path Length Beta]:** (funzionalità Beta) Utilizza questo report per      tieni traccia del numero di punti di interazione utente necessari per le conversioni nel tempo, in modo da poter scegliere la frequenza ottimale dell’annuncio. Il rapporto mostra il numero di conversioni per lunghezza del percorso (punti di interazione), ad esempio quante conversioni si sono verificate dopo che gli utenti avevano avuto una sola interazione con un annuncio, due interazioni con un annuncio e così via. Il rapporto può includere dati per più metriche di conversione e utilizza un periodo di lookback specifico tra la prima interazione e una conversione. Le colonne del report includono &quot;[!UICONTROL Path Length]&quot;, &quot;[!UICONTROL Number of] \&lt;Nome metrica di conversione 1\>,&quot; &quot;% \&lt;Nome metrica di conversione 1\>,&quot; \&lt;Nome metrica di conversione 2\>,&quot; &quot;% \&lt;Nome metrica di conversione 2\>&quot; e così via.
 
      I dati vengono visualizzati per ogni lunghezza di percorso fino a 10; i dati per lunghezze di percorso superiori a 10 vengono raggruppati.
 
-   * **[!UICONTROL Time to Conversion Beta]:** (funzionalità Beta) Utilizza questo report per determinare l&#39;intervallo di lookback di attribuzione ottimale e identificare nuove opportunità per il retargeting. Il rapporto mostra il numero di conversioni per il periodo di tempo in giorni dall’ultima interazione (esposizione dell’annuncio o clic) alla conversione. Il rapporto può includere dati per più metriche di conversione e utilizza un periodo di lookback specifico tra la prima interazione e una conversione. Le colonne del report includono &quot;[!UICONTROL Time Taken (in days)]&quot;, &quot;[!UICONTROL Number of] \&lt;Nome metrica di conversione 1\>,&quot; &quot;% \&lt;Nome metrica di conversione 1\>,&quot; \&lt;Nome metrica di conversione 2\>,&quot; &quot;% \&lt;Nome metrica di conversione 2\>&quot; e così via. Le conversioni che richiedono più tempo del periodo di lookback sono raggruppate insieme in una riga (ad esempio, se il report utilizza un periodo di lookback di 30 giorni, tutte le conversioni che richiedono più di 30 giorni per essere eseguite vengono raggruppate insieme in una riga con un valore &quot;[!UICONTROL Time Taken (in days)]&quot; di &quot;30+&quot;).
+   * **[!UICONTROL Time to Conversion Beta]:** (funzionalità Beta) Utilizza questo rapporto per determinare l&#39;intervallo di lookback di attribuzione ottimale e per identificare le campagne con tempi di conversione più lunghi, che potrebbero trarre vantaggio dal retargeting. Il rapporto mostra il numero di conversioni per il periodo di tempo in giorni dall’ultima interazione (esposizione dell’annuncio o clic) alla conversione. Il rapporto può includere dati per più metriche di conversione e utilizza un periodo di lookback specifico tra la prima interazione e una conversione. Le colonne del report includono &quot;[!UICONTROL Time Taken (in days)]&quot;, &quot;[!UICONTROL Number of] \&lt;Nome metrica di conversione 1\>,&quot; &quot;% \&lt;Nome metrica di conversione 1\>,&quot; \&lt;Nome metrica di conversione 2\>,&quot; &quot;% \&lt;Nome metrica di conversione 2\>&quot; e così via. Le conversioni che richiedono più tempo del periodo di lookback sono raggruppate insieme in una riga (ad esempio, se il report utilizza un periodo di lookback di 30 giorni, tutte le conversioni che richiedono più di 30 giorni per essere eseguite vengono raggruppate insieme in una riga con un valore &quot;[!UICONTROL Time Taken (in days)]&quot; di &quot;30+&quot;).
 
 ## Reporting tra account {#cross-account-reporting}
 
