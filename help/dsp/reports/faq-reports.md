@@ -2,9 +2,9 @@
 title: Domande frequenti sui rapporti personalizzati
 description: Ulteriori informazioni sui rapporti personalizzati, inclusi i rapporti sulla famiglia e i rapporti di analisi del percorso di conversione.
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
-source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
+source-git-commit: cb3eed4629c66283e0de18f7287169ec6e501aaa
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1185'
 ht-degree: 0%
 
 ---
@@ -105,9 +105,9 @@ Il caso d&#39;uso ideale consiste nell&#39;utilizzare insieme il report [!UICONT
 
 ## Rapporti di analisi del percorso di conversione
 
-### Confronto tra il rapporto Percorso di conversione e i rapporti creati da [!DNL Advanced Measurement Services] e Adobe Analytics
+### Confronto tra il rapporto Percorso di conversione e i rapporti creati da [!DNL Advanced Measurement Services] e Adobe Analytics Analysis Workspace
 
-| | Percorso del rapporto di conversione | Effetto alone servizi di misurazione avanzati sui report di ricerca | Rapporti di Adobe Analytics Workspace |
+| | Percorso del rapporto di conversione | Effetto alone servizi di misurazione avanzati sui report di ricerca | Rapporti in Analysis Workspace |
 | --- | --- | --- |---|
 | Valore per il cliente | Genera un rapporto personalizzato self-service per capire quali percorsi del percorso di annunci hanno portato a più conversioni per aumentare l’ottimizzazione | Comprendere l&#39;influenza delle tattiche di TV collegata (CTV) sui clic di ricerca | Comprendi l’influenza del tuo investimento Adobe Advertising olistico, insieme ad altri canali di marketing, sui clic di ricerca |
 | Livello familiare | Sì | Sì | No |
