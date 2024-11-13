@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: e5874077-d2a8-43bb-ad4e-55547442c8a4
-source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
+source-git-commit: 66779bea5bdf43652f8fa49852f293b1bc49e968
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Le seguenti funzioni sono nuove o modificate di recente.
 
 | Data | Funzionalità | Descrizione | Per Ulteriori Informazioni |
 | ---- | ------- | ----------- | -------------------- |
+| 13 novembre 2024 | [!DNL Analytics for Advertising] | (Inserzionisti con [!DNL Analytics for Advertising] e Adobe Customer Journey Analytics) Se utilizzi variabili riservate per acquisire gli AMO ID e gli EF ID, puoi prepararti per una futura integrazione tra Adobe Advertising e Adobe Customer Journey Analytics copiando al più presto le variabili riservate per l’AMO ID e l’EF ID nello standard [!DNL eVars]. In questo modo sarà possibile raccogliere i dati storici per gli AMO ID e gli EF ID non appena si completa l’attività e i dati storici saranno disponibili per utilizzi futuri. Il team dell’account Adobe ti informerà se utilizzi variabili riservate e se devi completare questa attività. | Consulta &quot;[Raccogliere dati storici per gli ID AMO e gli ID EF da utilizzare in Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).&quot; |
 | 16 dicembre 2023 | Aiuto | Un nuovo documento spiega come impostare test A/B in [!DNL Target] per il traffico click-through da annunci in Search, Social e Commerce, nonché suggerimenti su come misurare e visualizzare i test in [!DNL Analytics]. | Consulta &quot;[Configurare i test A/B in Adobe Target per Search, Social e Commerce Ads](/help/integrations/target/ab-tests-search.md).&quot; |
 | 8 agosto 2023 | [!DNL Analytics for Advertising] | Alcune metriche degli eventi di successo di [!DNL Analytics], tra cui le metriche di conversione standard, personalizzate e riservate e le metriche del traffico, sono automaticamente disponibili in DSP e in Search, Social e Commerce. Ora puoi anche configurare le metriche di successo personalizzate in base ai tuoi [!DNL Analytics] [!DNL eVars] e [!DNL props] esistenti incanalando i dati di livello [!DNL eVar] e [!DNL prop] in un evento di successo personalizzato. | Consulta &quot;[Creare metriche di conversione da Adobe Analytics [!DNL eVars] e [!DNL Props]](/help/integrations/analytics/conversion-metrics-from-evars.md).&quot; |
 | 13 luglio 2023 | Generazione rapporti | (Utenti DSP con [!DNL Analytics for Advertising]) Le conversioni view-through per i posizionamenti CTV (Connection TV) sono ora incluse nei dati di conversione disponibili in Adobe Analytics. | Vedere la sezione su &quot;Esempi di utilizzo dell&#39;integrazione&quot; in &quot;[Panoramica di [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md#integration-examples).&quot; |
