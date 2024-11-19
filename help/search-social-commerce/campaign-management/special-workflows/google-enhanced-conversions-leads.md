@@ -2,9 +2,10 @@
 title: Implementa [!DNL Google Ads] conversioni avanzate per i lead
 description: Scopri il flusso di lavoro per impostare [!DNL Google Ads] conversioni avanzate per i lead.
 feature: Search Campaign Management, Conversions
-source-git-commit: 60a67c8668df13afc08e14b0a495a37ded24bc0c
+exl-id: b708c9f2-2962-45d9-8780-4e96ef2ae8f7
+source-git-commit: 56161ece4ba9c01cddb86e16796150c391f1a811
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,17 @@ Solo *[!DNL Google Ads]account*
 
 [[!DNL Google Ads] le conversioni avanzate per i lead](https://support.google.com/google-ads/answer/9888656) ti consentono di mappare gli utenti alle conversioni offline utilizzando i dati di conversione di prime parti. Utilizza le conversioni avanzate per i lead in ambienti in cui gli ID clic non sono disponibili, ad esempio per monitorare le vendite tramite telefono o e-mail derivanti dai lead del sito web.
 
-In Search, Social e Commerce puoi includere le conversioni avanzate per i lead come metriche nei rapporti e come metriche ponderate negli obiettivi per l’ottimizzazione. Search, Social e Commerce sincronizzano le conversioni avanzate esistenti per i lead ogni giorno alle 05:00 nel fuso orario dell&#39;inserzionista.
+In Search, Social e Commerce puoi effettuare le seguenti operazioni:
+
+* Visualizza le conversioni avanzate esistenti per i lead.
+
+  Search, Social e Commerce sincronizzano le conversioni avanzate esistenti per i lead ogni giorno alle 05:00 nel fuso orario dell&#39;inserzionista.
+
+* Creare conversioni avanzate per i lead.
+
+* Carica dati di conversione offline di prime parti da mappare sulle conversioni avanzate per i lead.
+
+* Includi le conversioni avanzate per i lead come metriche nei rapporti e come metriche ponderate negli obiettivi per l’ottimizzazione.
 
 Per utilizzare questa funzione, completa i passaggi seguenti. I passaggi per creare i tag di tracciamento delle conversioni e per creare azioni di conversione possono facoltativamente essere annullati.
 
