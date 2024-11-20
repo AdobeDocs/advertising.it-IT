@@ -2,9 +2,9 @@
 title: Impostazioni account inserzionista
 description: Consulta le descrizioni delle impostazioni pubblicitarie disponibili.
 role: User, Admin
-source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
+source-git-commit: a7751041b75f4258ce8e57629262c4cb30eccc95
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,8 @@ ht-degree: 0%
 # Impostazioni account inserzionista
 
 *Non disponibile per utenti di sola lettura*
+
+<!-- Not published -->
 
 ## Impostazioni [!UICONTROL General]
 
@@ -166,11 +168,11 @@ Puoi ignorare l&#39;impostazione a livello di inserzionista al [livello di posiz
 
 **[!UICONTROL Enable Site Safety Block]:** Per impostazione predefinita, abilita un filtro post-offerta in tempo reale per garantire che gli annunci vengano distribuiti sui siti di destinazione dell&#39;inserzionista. <!-- Can remove this: Users can enable or disable the feature for each placement. I don't see this option, but I should probably verify. If this can't be edited at placement level, then remove "By default." If it can, say that you can override at placement level. -->
 
-#### [!UICONTROL DoubleVerify Authentic Brand Safety]
+#### [!UICONTROL DoubleVerify Authentic Brand Suitability]
 
 **[!UICONTROL DoubleVerify Account]:** ([!DNL DoubleVerify] solo clienti; facoltativo) l&#39;ID del segmento di sicurezza del brand associato all&#39;account [!DNL DoubleVerify] dell&#39;organizzazione.
 
-**[!UICONTROL Enable Authentic Brand Safety]:** (Facoltativo) Per impostazione predefinita, abilita [!DNL DoubleVerify] Authentic Brand Safety, che blocca le impression successive all&#39;offerta utilizzando le regole di sicurezza del brand personalizzate configurate per l&#39;ID segmento specificato. L’DSP fattura il tuo account per l’utilizzo dell’ID segmento.
+**[!UICONTROL Enable Authentic Brand Suitability]:** (Facoltativo) Per impostazione predefinita, abilita [!DNL DoubleVerify Authentic Brand Safety], che blocca le impression post-offerta utilizzando le regole di sicurezza del brand personalizzate configurate per l&#39;ID segmento specificato. L’DSP fattura il tuo account per l’utilizzo dell’ID segmento.
 
 Puoi ignorare l’impostazione a livello di inserzionista a livello di posizionamento.
 

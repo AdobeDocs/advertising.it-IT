@@ -3,7 +3,7 @@ title: Impostazioni di posizionamento
 description: Consulta le descrizioni delle impostazioni di posizionamento disponibili.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
+source-git-commit: 06bf098bbda30db6a9fa6f21e9e08db74258f578
 workflow-type: tm+mt
 source-wordcount: '3887'
 ht-degree: 0%
@@ -215,11 +215,11 @@ Per specificare il targeting dell&#39;inventario:
 
 Gli annunci in uscita vengono solitamente visualizzati sul contenuto come pop-up o inseriti nel contenuto (nell’esperienza nativa), anziché come annunci video regolari in un lettore video.
 
-## [!UICONTROL Site Targeting]
+## [!UICONTROL Site and App Targeting]
 
 **[!UICONTROL Traffic type]:** i tipi di traffico da destinare. Le opzioni includono **[!UICONTROL Websites]** e **[!UICONTROL Apps]**.
 
-**[!UICONTROL Site tier]:** (disponibile quando **[!UICONTROL Paste list of targeted sites]** è *[!UICONTROL Off]*) La qualità dei siti di destinazione. I livelli 1-3 sono tutti brand safe e sono stati approvati dal team di mappatura DSP.
+**[!UICONTROL Tier]:** (disponibile quando **[!UICONTROL Paste list of targeted sites]** è *[!UICONTROL Off]*) Qualità del traffico di destinazione. I livelli 1-3 sono tutti brand safe e sono stati approvati dal team di mappatura DSP.
 
 * *[!UICONTROL Tier 1]:* siti e applicazioni Premium riconoscibili a livello nazionale.
 
@@ -227,7 +227,7 @@ Gli annunci in uscita vengono solitamente visualizzati sul contenuto come pop-up
 
 * *[!UICONTROL Tier 3]:* ha come target i livelli 1-2, oltre a siti e applicazioni legittimi e sicuri per il brand adatti a un pubblico di nicchia. Utilizza il livello 3 per le compravendite con targeting di dati o portata.
 
-* *[!UICONTROL All Sites]:* ha come target i livelli 1-3 e il nuovo inventario che non è stato né schermato né categorizzato, che puoi utilizzare per la portata.
+* *[!UICONTROL All Sites or Apps]:* ha come target i livelli 1-3 e il nuovo inventario che non è stato né schermato né categorizzato, che puoi utilizzare per la portata.
 
 >[!NOTE]
 >
@@ -237,7 +237,7 @@ Gli annunci in uscita vengono solitamente visualizzati sul contenuto come pop-up
 >
 >Per le campagne sulle prestazioni, la best practice prevede di selezionare *[!UICONTROL All Sites]*.
 
-**[!UICONTROL Site Categories]:** (Facoltativo; disponibile quando **[!UICONTROL Paste list of targeted sites]** è *[!UICONTROL Off]*) Categorie di siti all&#39;interno dei livelli di sito selezionati da includere o escludere (ma non entrambi) come destinazioni. Scegli da elenchi di siti verticali che l&#39;DSP ha mappato in base all&#39;oggetto:
+**[!UICONTROL Site or App Categories]:** (Facoltativo; disponibile quando **[!UICONTROL Paste list of targeted sites]** è *[!UICONTROL Off]*) Categorie di siti all&#39;interno dei livelli di sito selezionati da includere o escludere (ma non entrambi) come destinazioni. Scegli da elenchi di siti verticali che l&#39;DSP ha mappato in base all&#39;oggetto:
 
 1. Fai clic su ![Modifica](/help/dsp/assets/edit.png).
 1. Specificare le categorie del sito da includere o escludere:
@@ -250,7 +250,7 @@ Gli annunci in uscita vengono solitamente visualizzati sul contenuto come pop-up
 1. (Facoltativo) Per scaricare un file CSV con le informazioni di targeting nel percorso Download del browser, fai clic su **[!UICONTROL Export]**.
 1. Fare clic su **[!UICONTROL Save]**.
 
-**[!UICONTROL Exclude Sites]:** (facoltativo; disponibile quando **[!UICONTROL Paste list of targeted sites]** è *[!UICONTROL Off]*) Siti da escludere. È possibile cercare e selezionare i siti oppure immettere o incollare i nomi di dominio:
+**[!UICONTROL Exclude Sites or Apps]:** (facoltativo; disponibile quando **[!UICONTROL Paste list of targeted sites]** è *[!UICONTROL Off]*) Siti da escludere. È possibile cercare e selezionare i siti oppure immettere o incollare i nomi di dominio:
 
 1. Fai clic su ![Modifica](/help/dsp/assets/edit.png).
 1. Specificare i siti:
@@ -273,7 +273,7 @@ Gli annunci in uscita vengono solitamente visualizzati sul contenuto come pop-up
 
 **[!UICONTROL Language]:** (Facoltativo) Una singola lingua di destinazione.
 
-**[!UICONTROL Site List Preview]:** (sola lettura) Tutti i siti di destinazione e bloccati per il posizionamento.
+**[!UICONTROL Site or App List Preview]:** (sola lettura) Tutti i siti di destinazione e bloccati per il posizionamento.
 
 Facoltativamente, puoi esportare l’elenco dei siti di destinazione e dei siti bloccati come file con valori separati da virgola (CSV). Per esportare l&#39;elenco, fare clic su **[!UICONTROL Export full site list]**, quindi aprire o salvare il file in base alla normale procedura del browser.
 
@@ -325,7 +325,7 @@ Quando selezioni sia ID legacy che ID universali, viene data la preferenza di of
 
    * *[!UICONTROL Unified ID2.0]*: Target [!DNL Unified ID2.0] (UID2) ID degli utenti connessi al sito utilizzando i loro indirizzi e-mail.<!-- Verify -->[!DNL UID2 IDs] non sono disponibili per gli utenti nello Spazio economico europeo e in alcuni altri paesi. Vedi l&#39;[elenco dei paesi vietati](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
 
-  **[!UICONTROL Terms of service]**: i termini del contratto di servizio per l&#39;utilizzo degli ID universali. Prima di poter convertire i dati in un nuovo tipo di ID, tu o un altro utente dell’account DSP dovete accettare i termini una volta. Per i clienti con contratti di assistenza gestiti, il team dell’account Adobe otterrà il consenso e accetterà i termini per conto della tua organizzazione. Per leggere i termini, fare clic su **>**. Per accettare i termini, scorrere fino alla fine dei termini e fare clic su **[!UICONTROL Accept]**.
+  **[!UICONTROL Terms of service]**: i termini del contratto di servizio per l&#39;utilizzo degli ID universali. Prima di poter convertire i dati in un nuovo tipo di ID, tu o un altro utente dell’account DSP dovete accettare i termini una volta. Per i clienti con contratti di assistenza gestiti, il team dell’account Adobe riceverà il consenso e accetterà le condizioni per conto della tua organizzazione. Per leggere i termini, fare clic su **>**. Per accettare i termini, scorrere fino alla fine dei termini e fare clic su **[!UICONTROL Accept]**.
 
 **[!UICONTROL Cross Device Targeting]:** (disponibile quando la [campagna è configurata per il targeting multidispositivo basato sulle persone](/help/dsp/campaign-management/campaigns/campaign-settings.md), esegui il targeting solo degli ID legacy (non degli ID universali) e selezioni almeno un segmento o un pubblico. Consente di estendere il targeting su tutti i dispositivi noti di una persona (in base al grafico dei dispositivi specificato nelle impostazioni della campagna), anche su dispositivi che non si trovano nei segmenti specificati. Le tariffe possono essere applicate a seconda del grafico specificato per la campagna. I dati del grafico dei dispositivi sono disponibili solo in Nord America.
 
@@ -346,7 +346,7 @@ Quando selezioni sia ID legacy che ID universali, viene data la preferenza di of
    * Per selezionare manualmente un intervallo, fare clic all&#39;interno di una cella e, facoltativamente, trascinare per selezionare l&#39;intervallo.
 1. Fare clic su **[!UICONTROL Save]**.
 
-**[!UICONTROL Topic Targeting]:** (Facoltativo; disponibile per gli inserzionisti configurati con [!DNL Proximic by Comscore] segmenti) Nomi di segmenti o ID di segmenti specifici da [!DNL Proximic by Comscore] da includere come destinazioni. Per questa funzione potrebbero essere applicati costi aggiuntivi. Per attivare questa funzione e impostare i segmenti di argomento, contatta il team dell’account di Adobe.
+**[!UICONTROL Topic Targeting]:** (Facoltativo; disponibile per gli inserzionisti configurati con [!DNL Proximic by Comscore] segmenti) Nomi di segmenti o ID di segmenti specifici da [!DNL Proximic by Comscore] da includere come destinazioni. Per questa funzione potrebbero essere applicati costi aggiuntivi. Per attivare questa funzione e configurare i segmenti di argomento, contatta il team del tuo account Adobe.
 
 Per specificare il targeting degli argomenti:
 
@@ -389,7 +389,7 @@ Per specificare il targeting degli argomenti:
 1. (Facoltativo) Per scaricare un file CSV con le informazioni di targeting dell&#39;ISP nel percorso Download del browser, fai clic su **[!UICONTROL Export]**.
 1. Fare clic su **[!UICONTROL Save]**.
 
-## [!UICONTROL Brand Safety and Media Targeting]
+## [!UICONTROL Brand Safety and Media Quality]
 
 **[!UICONTROL Contextual filtering]:** tipi di filtri contestuali [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] e [!DNL Peer39] da applicare. Le impostazioni predefinite a livello di inserzionista vengono selezionate per i nuovi posizionamenti, ma è possibile modificare le impostazioni:
 
