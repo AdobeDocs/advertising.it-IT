@@ -2,9 +2,9 @@
 title: Modifica il tuo profilo utente
 description: Scopri come modificare il profilo utente.
 exl-id: 8dc15996-db6e-4c37-a919-d0d49e7b8396
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: dea924e00aed1e6a8e778afb3112d9db85cef802
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Il tuo profilo account include le credenziali di accesso e altre informazioni. A
 
       1. Fare clic su **[!UICONTROL Continue]**.
 
-   * Per modificare il fuso orario predefinito per l’account utente:
+   * Per modificare il fuso orario predefinito per l&#39;account utente:
 
       1. Accanto a **[!UICONTROL Default Timezone]** esistente, fare clic su **[!UICONTROL Change]**.
 
