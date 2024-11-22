@@ -3,7 +3,7 @@ title: Informazioni sulle origini del pubblico di prime parti
 description: Scopri come convertire altri identificatori utente nei segmenti di prime parti in ID universali per il targeting senza cookie.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 78ee6ddbfb87915475bcf84bd7cd405a58eccf14
+source-git-commit: 3a641db6b145e67e6e1f1daca271dd524973e075
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -70,9 +70,9 @@ L’DSP ha stabilito dei connettori per i seguenti CDP per acquisire rapidamente
 
 L’DSP può anche connettersi a qualsiasi CDP aggiuntivo utilizzando la condivisione di dati in batch, in streaming o basata su API. Per l’integrazione con un nuovo CDP, contatta il team del tuo account Adobe.
 
-### [!DNL Adobe Real-Time Customer Data Platform]
+### [!DNL Adobe Real-Time CDP]
 
-DSP è una *destinazione* integrata per [the [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=it), che fa parte di Adobe Experience Platform.
+DSP è una *destinazione* integrata per [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=it), che fa parte di Adobe Experience Platform.
 
 In [!DNL Real-Time CDP], le destinazioni sono connessioni a piattaforme dati esterne che consentono l&#39;attivazione diretta dei dati. Puoi utilizzare le destinazioni per attivare gli indirizzi e-mail con hash per la pubblicità mirata in DSP. Per ulteriori informazioni sulle destinazioni, vedere l&#39;Experience Platform [Guida alle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html), che include una panoramica del prodotto, istruzioni per [la creazione delle aree di lavoro di destinazione](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) e [la creazione delle connessioni di destinazione](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) e [l&#39;attivazione dei dati nelle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
 
@@ -80,7 +80,7 @@ Per consentire all&#39;DSP di acquisire i segmenti di prime parti [!DNL Adobe] [
 
 ### [!DNL ActionIQ]
 
-Puoi condividere i dati di prime parti della tua organizzazione dalla piattaforma dati cliente [!DNL ActionIQ] con DSP per convertire gli indirizzi e-mail con hash in ID universali per la pubblicità mirata in DSP. Questa integrazione richiede la personalizzazione. Per ulteriori informazioni, contatta il team del tuo account di Adobe.
+Puoi condividere i dati di prime parti della tua organizzazione dalla piattaforma dati cliente [!DNL ActionIQ] con DSP per convertire gli indirizzi e-mail con hash in ID universali per la pubblicità mirata in DSP. Questa integrazione richiede la personalizzazione. Per ulteriori informazioni, contatta il team del tuo account Adobe.
 
 ### [!DNL Amperity]
 

@@ -3,7 +3,7 @@ title: Utilizzo dell'integrazione DSP con  [!DNL Adobe] [!DNL Real-time CDP]
 description: Scopri come consentire all’DSP di acquisire i  [!DNL Adobe] [!DNL Real-time CDP] segmenti di prime parti.
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-source-git-commit: 91b08bf54f067666c9c27949ff740639738887d0
+source-git-commit: 3a641db6b145e67e6e1f1daca271dd524973e075
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *funzionalità Beta*
 
-Utilizza l&#39;integrazione DSP con [the [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=it), che fa parte di Adobe Experience Platform, per convertire gli indirizzi e-mail con hash in ID universali per la pubblicità mirata.
+Utilizza l&#39;integrazione DSP con [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=it), che fa parte di Adobe Experience Platform, per convertire gli indirizzi e-mail con hash in ID universali per la pubblicità mirata.
 
 1. (Per convertire gli indirizzi e-mail in [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->; inserzionisti con [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) Impostare il tracciamento per la misurazione di [!DNL Analytics]:
 
@@ -22,7 +22,7 @@ Utilizza l&#39;integrazione DSP con [the [!DNL Adobe Real-Time Customer Data Pla
 
    1. Registrati con il partner ID universale e implementa sulle tue pagine web un codice ID universale che corrisponda alle conversioni dagli ID sui browser Web per desktop e dispositivi mobili (ma non sulle app mobili) ai view-through:
 
-      * **Per [!DNL RampIDs]:** è necessario distribuire un tag JavaScript aggiuntivo nelle pagine Web per far corrispondere le conversioni dagli ID nei browser Web desktop e mobile (ma non nelle app mobili) alle view-through. Contatta il team dell&#39;account Adobe, che ti fornirà le istruzioni per registrarti a un tag [!DNL LiveRamp] [!DNL LaunchPad] da [!DNL LiveRamp] soluzioni traffico autenticazione. La registrazione è gratuita, ma è necessario firmare un accordo. Dopo la registrazione, il team dell’account Adobe genererà e fornirà un tag univoco per l’organizzazione da implementare sulle pagine web.
+      * **Per [!DNL RampIDs]:** è necessario distribuire un tag JavaScript aggiuntivo nelle pagine Web per far corrispondere le conversioni dagli ID nei browser Web desktop e mobile (ma non nelle app mobili) alle view-through. Contatta il team dell&#39;account Adobe, che ti fornirà le istruzioni per registrarti per un tag [!DNL LiveRamp] [!DNL LaunchPad] da [!DNL LiveRamp] soluzioni traffico autenticazione. La registrazione è gratuita, ma è necessario firmare un accordo. Dopo la registrazione, il team dell’account Adobe genererà e fornirà un tag univoco per l’organizzazione da implementare sulle pagine web.
 
 1. [Crea un&#39;origine di pubblico](source-manage.md) per importare i tipi di pubblico nel tuo account DSP o in un account inserzionista. Puoi scegliere di convertire gli identificatori utente in uno qualsiasi dei [formati ID universali disponibili](source-about.md).
 

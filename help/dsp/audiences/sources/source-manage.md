@@ -3,7 +3,7 @@ title: Gestire le origini del pubblico per attivare i tipi di pubblico con ID un
 description: Scopri come creare e gestire un’origine per importare i tipi di pubblico dalla piattaforma di dati dei clienti e convertirli in segmenti contenenti ID universali.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 02ed538a48a4ba0323f9b75938ee6b007c6e0fd7
+source-git-commit: 3a641db6b145e67e6e1f1daca271dd524973e075
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 0%
@@ -34,7 +34,7 @@ You can create one source for each combination of universal ID partner and data 
 
 1. Nel menu [!UICONTROL Select a Type], seleziona la [piattaforma dati cliente](source-about.md):
 
-   * *[!UICONTROL RT-CDP]*: [!DNL Adobe Real-Time Customer Data Platform].
+   * *[!UICONTROL RT-CDP]*: [!DNL Adobe Real-Time CDP].
 
    * *[!UICONTROL ActionIQ]*: piattaforma dati cliente [!DNL ActionIQ].
 
@@ -128,7 +128,7 @@ Per [!DNL RampID] e [!DNL Unified ID2.0], il fornitore cerca ogni indirizzo e-ma
 
 -->
 
-**[!UICONTROL Terms of Service]:** I termini del contratto di servizio per la conversione di PII in ID universali. Prima di poter convertire i dati in un nuovo tipo di ID, tu o un altro utente dell’account DSP dovete accettare i termini una volta. Per i clienti con contratti di assistenza gestiti, il team dell’account Adobe otterrà il consenso e accetterà i termini per conto della tua organizzazione. Per leggere i termini, fare clic su **>**. Per accettare i termini, scorrere fino alla fine dei termini e fare clic su **[!UICONTROL Accept]**.
+**[!UICONTROL Terms of Service]:** I termini del contratto di servizio per la conversione di PII in ID universali. Prima di poter convertire i dati in un nuovo tipo di ID, tu o un altro utente dell’account DSP dovete accettare i termini una volta. Per i clienti con contratti di assistenza gestiti, il team dell’account Adobe riceverà il consenso e accetterà le condizioni per conto della tua organizzazione. Per leggere i termini, fare clic su **>**. Per accettare i termini, scorrere fino alla fine dei termini e fare clic su **[!UICONTROL Accept]**.
 
 **[!UICONTROL Source Key]:** (sola lettura; generata automaticamente) La chiave di origine che puoi utilizzare per creare una connessione di destinazione nella piattaforma dati del cliente per inviare pubblici ad Advertising DSP. Puoi copiare il valore negli Appunti per incollarlo nelle impostazioni di connessione di destinazione o in un file.
 
