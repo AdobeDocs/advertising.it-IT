@@ -3,9 +3,9 @@ title: ID Adobe Advertising utilizzati da [!DNL Analytics]
 description: ID Adobe Advertising utilizzati da [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 0f55d98a5abfa75b4ef5dc18ad2cfb22b9e24e78
+source-git-commit: 33a27faa14cbd1fa3248364cc7a3bf9c0cd94c76
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1737'
 ht-degree: 0%
 
 ---
@@ -221,27 +221,26 @@ where:
 
 ##### [!DNL Microsoft Advertising]
 
-* Campagne di ricerca:
+* Tutti i tipi di campagna:
 
-  `s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
-
-* Campagne con prestazione massima
-
-  `s_kwcid=AL!%(userid)d!{sid}!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}`
-
-* Campagne di acquisto (utilizzando [!DNL Microsoft Merchant Center]):
-
-  `s_kwcid=AL!{userid}!{sid}!{AdId}!{CriterionId}`
-
-* Campagne di Audience Network:
-
-  `s_kwcid=AL!{userid}!{sid}!{AdId}`
+  `s_kwcid=AL!{userid}!{sid}!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 
 dove:
 
 * `{AdId}` è l&#39;ID numerico univoco della rete di annunci per la creatività.
 * `{OrderItemId}` è l&#39;ID numerico della rete di annunci per la parola chiave.
-* `{CriterionId}` è l&#39;ID numerico della rete di annunci per il gruppo di prodotti utilizzato con gli annunci di prodotti.
+* `{CampaignId}` è l&#39;ID numerico univoco della rete di annunci per la campagna.
+* `{AdGroupId}` è l&#39;ID numerico univoco della rete di annunci per il gruppo di annunci.
+
+>[!NOTE]
+>
+>Tutti gli account con campagne di prestazioni sono stati migrati al formato precedente. Per gli account con altri tipi di campagna, i suffissi della pagina di destinazione verranno migrati per utilizzare il nuovo formato s_kwcid entro l’inizio del 2025. Nel frattempo, i formati precedenti, come segue, funzionano ancora:
+>* Campagne di ricerca:
+>  `s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+>* Campagne di acquisto (utilizzando [!DNL Microsoft Merchant Center]):
+>  `s_kwcid=AL!{userid}!{sid}!{AdId}!{CriterionId}`
+>* Campagne di Audience Network:
+>  `s_kwcid=AL!{userid}!{sid}!{AdId}`
 
 ##### [!DNL Yahoo! Japan Ads]
 
