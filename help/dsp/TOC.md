@@ -4,7 +4,7 @@ user-guide-title: Guida di Advertising DSP
 user-guide-description: Scopri le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire e ottimizzare le strategie degli annunci display con Advertising DSP e creare i relativi rapporti.
 breadcrumb-title: Guida di DSP
 index: true
-source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
+source-git-commit: 5a667f353d436870e6d22422f64ae16f886d7bc8
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 3%
@@ -233,5 +233,5 @@ ht-degree: 3%
       + [Informazioni sulle sottoscrizioni di avvisi](/help/dsp/admin/alerts-about.md)
       + [Gestire le sottoscrizioni agli avvisi](/help/dsp/admin/alerts-manage.md)
 + [Integrazioni con Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-+ [Assistenza clienti](https://helpx.adobe.com/it/contact/enterprise-support.ec.html)
++ [Assistenza clienti](https://experienceleague.adobe.com/home?support-tab=home#support)
 + [Note sulla versione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
