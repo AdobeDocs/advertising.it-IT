@@ -30,7 +30,7 @@ ht-degree: 0%
 
    * Sono disponibili solo le impostazioni richieste. Per le impostazioni facoltative, accedere all&#39;editor [!DNL Google Ads].
 
-   * I collegamenti ai [!DNL Google Merchant Center] feed dei prodotti non sono supportati.
+   * I collegamenti ai feed di prodotto [!DNL Google Merchant Center] non sono supportati.
 
    * Il supporto per i gruppi di voci non è disponibile. Per gestire e visualizzare i dati per l&#39;elenco dei gruppi, accedere all&#39;editor [!DNL Google Ads].
 
@@ -46,18 +46,18 @@ ht-degree: 0%
 
 **[!UICONTROL Audience Target Method]:**(Solo campagne Gmail esistenti e di sola lettura) Indica se:
 
-* *[!UICONTROL Target and Bid]* Mostrare gli annunci solo agli utenti associati a destinazione pubblico che soddisfano anche altri target per l&#39;gruppo di annunci.
+* *[!UICONTROL Target and Bid]* Per mostrare gli annunci solo agli utenti associati ai tipi di pubblico di destinazione che soddisfano anche altre destinazioni per il gruppo di annunci.
 
-* *[!UICONTROL Bid Only]:*  per mostrare le inserzioni lineare a persone che non sono associate a destinazione pubblico, purché soddisfino altri target di livello gruppo di annunci. Tuttavia, puoi aumentare le possibilità che gli annunci vengano mostrati a segmenti di pubblico specifici, impostando offerte più elevate per tali tipi di pubblico.
+* *[!UICONTROL Bid Only]:* per mostrare annunci anche a persone non associate a tipi di pubblico di destinazione, purché soddisfino altri target a livello di gruppo di annunci. Tuttavia, puoi aumentare le possibilità che gli annunci vengano mostrati a tipi di pubblico specifici, impostando offerte più elevate per tali tipi di pubblico.
 
-**[!UICONTROL Status]:** lo stato di visualizzazione della campagna: *attiva* o *in pausa*. L&#39;impostazione predefinita per le nuove campagne annuncio è *Attivo*.
+**[!UICONTROL Status]:** Lo stato di visualizzazione della campagna: *Attivo* o *In pausa*. Il valore predefinito per le nuove campagne pubblicitarie è *Attivo*.
 
 <!-- **[!UICONTROL End Date]:** -->
 
 {{$include /help/_includes/end-date.md}}
 
-**[!UICONTROL Search Partners]:** (campagne che destinazione solo alla rete ricerca, incluse le campagne shopping) Spettacoli
-I tuoi annunci sui network pubblicitario ricerca partner reti. Per impostazione predefinita, questa opzione è impostata su *[!UICONTROL Off]*.
+**[!UICONTROL Search Partners]:** (campagne mirate solo alla rete di ricerca, incluse le campagne acquisti) Mostra
+i tuoi annunci nelle reti di partner di ricerca della rete di annunci. Per impostazione predefinita, questa opzione è *[!UICONTROL Off]*.
 
 ## [!UICONTROL Budget Options]
 
@@ -203,7 +203,7 @@ per paese. Se non ne selezioni alcuna, viene eseguito il targeting di tutti.
 
 * *[!UICONTROL Bid higher for new customers than for existing customers]*
 
-  **Nota:** Per utilizzare questa impostazione, è necessario innanzitutto attivare il nuovo obiettivo di acquisizione cliente per l&#39;account [!DNL Google Ads] o, se applicabile, per l&#39;account manager. L&#39;obiettivo definisce gli elenchi di cliente esistente idonei e il valore di conversione aggiuntivo per i nuovi clienti nelle impostazioni di conversione. Vedi i [!DNL Google Ads] passaggi 1-2 nella guida &quot;[Attivare il nuovo obiettivo](https://support.google.com/google-ads/answer/14007601) acquisizione clienti&quot;.
+  **Nota:** Per utilizzare questa impostazione, è necessario innanzitutto attivare il nuovo obiettivo di acquisizione cliente per l&#39;account [!DNL Google Ads] o, se applicabile, per l&#39;account manager. L’obiettivo definisce gli elenchi dei clienti esistenti idonei e il valore di conversione aggiuntivo per i nuovi clienti nelle impostazioni di conversione. Consulta i passaggi 1-2 nella guida di [!DNL Google Ads] &quot;[Attiva il nuovo obiettivo di acquisizione clienti](https://support.google.com/google-ads/answer/14007601).&quot;
 
 * *[!UICONTROL Only bid for new customers]*
 
@@ -249,17 +249,17 @@ per paese. Se non ne selezioni alcuna, viene eseguito il targeting di tutti.
 
 {{$include /help/_includes/tracking-level.md}}
 
-**[!UICONTROL Track Product Group]:** (Solo per [!UICONTROL EF Redirect] ) Non implementato
+**[!UICONTROL Track Product Group]:** (solo per [!UICONTROL EF Redirect]) Non implementato
 
 <!-- **[!UICONTROL Append Parameters]:** -->
 
 {{$include /help/_includes/append-parameters.md}}
 
-## [!UICONTROL Asset Groups] (per risorsa gruppo)
+## [!UICONTROL Asset Groups] (per gruppo di risorse)
 
-**[!UICONTROL Asset Group Name]:** nome del gruppo risorsa. I collegamenti ai [!DNL Google Merchant Center] feed dei prodotti non sono supportati.
+**[!UICONTROL Asset Group Name]:** Il nome del gruppo di risorse. I collegamenti ai feed di prodotto [!DNL Google Merchant Center] non sono supportati.
 
-**[!UICONTROL Asset Group Status]:** Stato del gruppo risorsa: *[!UICONTROL Active]* oppure *[!UICONTROL Paused]*.
+**[!UICONTROL Asset Group Status]:** Lo stato del gruppo di risorse: *[!UICONTROL Active]* o *[!UICONTROL Paused]*.
 
 **[!UICONTROL Final URL]:** URL finale per tutti gli annunci creati dal gruppo di risorse. <!-- For campaigns created within Search, Social, & Commerce, final URL expansion is automatically enabled for the campaign, and Google Ads replaces this value with a more relevant landing page based on the user's search query and intent, and also customizes the headline based on the landing page content. You can disable final URL expansion, or exclude specific URLs from expansion, from within the [!DNL Google Ads] editor. -->
 
@@ -281,11 +281,11 @@ per paese. Se non ne selezioni alcuna, viene eseguito il targeting di tutti.
 
       1. Fare clic su **[!UICONTROL Proceed]**.
 
-   1. Dopo aver specificato le immagini, fate clic su **[!UICONTROL Upload]**.
+   1. Dopo aver specificato le immagini, fare clic su **[!UICONTROL Upload]**.
 
-* Per selezionare le immagini da [!UICONTROL Asset Library], fate clic e **[!UICONTROL Asset Library]** selezionate le immagini.
+* Per selezionare le immagini da [!UICONTROL Asset Library], fare clic su **[!UICONTROL Asset Library]** e selezionare le immagini.
 
-**[!UICONTROL Logos]:** almeno un logo quadrato (1:1) e un logo orizzontale (4:1). Potete includerne fino a cinque per ogni dimensione. Vedi le specifiche](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications) del [[!DNL Google Ads] logo. Potete caricare immagini o selezionarle dall&#39;utente [!UICONTROL Asset Library] , ma non entrambe nella stessa operazione.
+**[!UICONTROL Logos]:** almeno un logo quadrato (1:1) e un logo orizzontale (4:1). Puoi includere fino a cinque di ogni dimensione. Consulta le [[!DNL Google Ads] specifiche del logo](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). È possibile caricare immagini o selezionarle da [!UICONTROL Asset Library], ma non entrambe nella stessa operazione.
 
 * Per caricare le immagini:
 
@@ -349,16 +349,16 @@ per paese. Se non ne selezioni alcuna, viene eseguito il targeting di tutti.
 
 * Per selezionare le risorse da [!UICONTROL Asset Library], fai clic su **[!UICONTROL Asset Library]** e seleziona le risorse.
 
-**[!UICONTROL Call to Action]:** l&#39;invito all&#39;azione da includere nel annuncio. Per impostazione predefinita, *[!UICONTROL Automated]* è selezionato e [!DNL Google Ads] seleziona l&#39;invito all&#39;azione. Facoltativamente, puoi scegliere un’azione diversa.
+**[!UICONTROL Call to Action]:** Invito all&#39;azione da includere nell&#39;annuncio. Per impostazione predefinita, *[!UICONTROL Automated]* è selezionato e [!DNL Google Ads] seleziona l&#39;invito all&#39;azione. Facoltativamente, puoi scegliere un’azione diversa.
 
 **[!UICONTROL Business Name]:** Nome aziendale, con un massimo di 25 caratteri.
 
 **[!UICONTROL Audience Signal]:** (facoltativo) [!DNL Google Ads] tipi di pubblico da utilizzare come segnali di pubblico per la campagna. I modelli di apprendimento automatico di [!DNL Google Ads] utilizzano i tipi di pubblico per trovare surfisti web simili a target e possono anche mostrare annunci a tipi di pubblico non specificati come segnali per aiutarti a raggiungere gli obiettivi prestazionali. Scegli i tipi di pubblico che hanno più probabilità di essere convertiti.
 
 >[!NOTE]
->I segnali del pubblico sono diversi dai target](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) di [pubblico a livello di campagna e di gruppo di annunci.
+>I segnali di pubblico sono diversi dai [target di pubblico a livello di campagna e di gruppo di annunci](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
 
-**[!UICONTROL Primary Status]:** (Campo di sola lettura per i gruppi di risorsa esistenti nelle campagne con rendimento massimo) Perché il gruppo risorsa sta o non sta servendo a pieno regime. Tiene conto dello stato del gruppo di attività nonché di altri segnali, come le approvazioni di politiche e di qualità. I valori possono includere *IDONEI,* *LIMITATI,* *NON_IDONEI,* *IN PAUSA,* *IN SOSPESO,* *RIMOSSI,* *SCONOSCIUTI,* o *NON SPECIFICATI.*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->
+**[!UICONTROL Primary Status]:** (campo di sola lettura per i gruppi di risorse esistenti nelle campagne con prestazione massima) Perché il gruppo di risorse è o non è a piena capacità. Tiene conto dello stato del gruppo di attività nonché di altri segnali, come le approvazioni di politiche e di qualità. I valori possono includere *IDONEI,* *LIMITATI,* *NON_IDONEI,* *IN PAUSA,* *IN SOSPESO,* *RIMOSSI,* *SCONOSCIUTI,* o *NON SPECIFICATI.*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->
 
 **[!UICONTROL Primary Status Reason]:** (campo di sola lettura per i gruppi di risorse esistenti nelle campagne con prestazione massima) Dettagli aggiuntivi sullo stato principale del gruppo di risorse. I valori possono includere *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* *CAMPAIGN_ENDED,* *CAMPAIGN_PAUSED,* *CAMPAIGN_PENDING,* *CAMPAIGN_REMOVED,* *UNKNOWN,* 20}NON SPECIFICATO.**
 

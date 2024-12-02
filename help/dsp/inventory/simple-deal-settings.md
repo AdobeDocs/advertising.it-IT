@@ -1,5 +1,5 @@
 ---
-title: '[!UICONTROL Simple Ad Serving] impostazioni offerta'
+title: Impostazioni offerta [!UICONTROL Simple Ad Serving]
 description: Scopri le impostazioni disponibili per le offerte [!UICONTROL Simple Ad Serving].
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
@@ -19,7 +19,7 @@ ht-degree: 0%
 | Parametro | Descrizione |
 |-----------|-------------|
 | **[!UICONTROL Serving Type]** | Tipo di supporto per questa offerta: *[!UICONTROL Video],* *[!UICONTROL Display],* o *[!UICONTROL Audio].* |
-| **[!UICONTROL Publisher Site Served On]** | Nome dell&#39;editore che sta vendendo questo inventario. Cercare un editore immettendo almeno i primi due caratteri nel nome. Per aggiungere un editore non presente nell’elenco, contatta il team del tuo account di Adobe. |
+| **[!UICONTROL Publisher Site Served On]** | Nome dell&#39;editore che sta vendendo questo inventario. Cercare un editore immettendo almeno i primi due caratteri nel nome. Per aggiungere un editore non presente nell’elenco, contatta il team del tuo account Adobe. |
 | **[!UICONTROL Advertiser]** | Un singolo inserzionista nell’account che può accedere a questa offerta. Seleziona anche la campagna e (facoltativamente) il pacchetto in cui è disponibile l’offerta. |
 | **[!UICONTROL Media Quality Assessment?]** | (Alcuni utenti) Consente di eseguire l’annuncio su un altro DSP per la verifica di terze parti. <!-- Who can select this? It's disabled for me. Need to see if there are additional fields when this is enabled. --> |
 | **[!UICONTROL Ad Source]** | L&#39;unica opzione è *[!UICONTROL Site Serve (Event Pixels)]*. |

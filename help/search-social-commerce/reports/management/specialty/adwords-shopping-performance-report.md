@@ -16,7 +16,7 @@ Solo *[!DNL Google Ads]account*
 
 [!UICONTROL AdWords Shopping Performance Report] include dati su costi, clic e impression; dati di clic e conversione convertiti tracciati da [!DNL Google Ads Conversion Optimizer]; e (facoltativamente) dati di conversione tracciati da [!DNL Adobe] e dati metrici derivati aggregati a livello di ID prodotto per uno o più gruppi di annunci nelle campagne di acquisto. Per impostazione predefinita, i dati includono una riga per ogni ID prodotto e categoria di prodotto per gruppo di annunci per ogni unità di tempo nell’intervallo di date specificato. Per impostazione predefinita, le righe sono in ordine crescente per nome account, nome campagna e quindi nome gruppo di annunci.
 
-Puoi visualizzare i dati relativi ai due mesi precedenti. I dati precedenti al 21 settembre 2018 possono essere visualizzati in due righe: una con i dati di costo e clic e una con i dati di conversione tracciati per Adobe. I dati successivi vengono visualizzati su una riga.
+Puoi visualizzare i dati relativi ai due mesi precedenti. I dati precedenti al 21 settembre 2018 possono essere visualizzati in due righe: una con i dati di costo e clic e una con i dati di conversione tracciati da Adobe. I dati successivi vengono visualizzati su una riga.
 
 >[!NOTE]
 >

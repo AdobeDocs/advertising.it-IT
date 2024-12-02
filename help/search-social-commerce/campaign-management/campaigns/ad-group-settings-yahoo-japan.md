@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Yahoo! Japan Ads] impostazioni gruppo di annunci'
+title: Impostazioni gruppo di annunci [!DNL Yahoo! Japan Ads]
 description: Fai riferimento alle impostazioni per  [!DNL Yahoo! Japan Ads]  gruppi di annunci.
 exl-id: 1afacb94-bf07-45df-ab79-13cb7f876288
 feature: Search Campaign Management

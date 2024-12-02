@@ -1,6 +1,6 @@
 ---
-title: "Converti ID utente da [!DNL ActionIQ] a ID universali"
-description: "Scopri come consentire all’DSP di acquisire i  [!DNL ActionIQ] segmenti di prime parti."
+title: Converti ID utente da [!DNL ActionIQ] a ID universali
+description: Scopri come consentire all’DSP di acquisire i  [!DNL ActionIQ]  segmenti di prime parti.
 feature: DSP Audiences
 source-git-commit: 91b08bf54f067666c9c27949ff740639738887d0
 workflow-type: tm+mt

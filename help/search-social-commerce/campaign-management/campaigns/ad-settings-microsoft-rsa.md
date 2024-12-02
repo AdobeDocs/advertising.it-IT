@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Microsoft Advertising] impostazioni annunci di ricerca responsive'
+title: '[!DNL Microsoft Advertising] impostazioni degli annunci di ricerca responsive'
 description: Fai riferimento alle impostazioni per  [!DNL Microsoft Advertising] annunci di ricerca responsive.
 exl-id: 470008e1-7c7d-49a6-b542-fe384c473c97
 feature: Search Campaign Management

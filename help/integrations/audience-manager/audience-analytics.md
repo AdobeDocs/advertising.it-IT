@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Adobe] [!DNL Audience Analytics] per Adobe Advertising Clienti'
+title: '[!DNL Adobe] [!DNL Audience Analytics] ad Adobe Advertising Clienti'
 description: Scopri come utilizzare  [!DNL Adobe] [!DNL Audience Analytics] per i casi d'uso pubblicitari
 feature: Integration with Adobe Audience Manager
 exl-id: 457d4335-2762-4aab-94b8-12f8a79d109b

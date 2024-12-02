@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Google Ads] impostazioni annunci di ricerca responsive'
+title: '[!DNL Google Ads] impostazioni degli annunci di ricerca responsive'
 description: Fai riferimento alle impostazioni per  [!DNL Google Ads] annunci di ricerca responsive.
 exl-id: ba2a08eb-91fc-4a8c-81c5-a9e28f6abdbf
 feature: Search Campaign Management

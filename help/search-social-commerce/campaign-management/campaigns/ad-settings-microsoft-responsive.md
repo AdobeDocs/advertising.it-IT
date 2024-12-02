@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Microsoft Advertising] impostazioni di annunci reattivi'
+title: '[!DNL Microsoft Advertising] impostazioni degli annunci reattivi'
 description: Fai riferimento alle impostazioni per  [!DNL Microsoft Advertising] annunci reattivi.
 exl-id: 29404500-d929-4683-be71-150ea8ab805d
 feature: Search Campaign Management

@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Google Ads] impostazioni gruppo di annunci'
+title: Impostazioni gruppo di annunci [!DNL Google Ads]
 description: Fai riferimento alle impostazioni per  [!DNL Google Ads]  gruppi di annunci.
 exl-id: def75630-19b9-4676-ad34-5d9041cc3680
 feature: Search Campaign Management

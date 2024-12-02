@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Google Ads] impostazioni gruppo di prodotti'
+title: Impostazioni gruppo di prodotti [!DNL Google Ads]
 description: Fai riferimento alle impostazioni per  [!DNL Google Ads] gruppi di prodotti acquisti.
 exl-id: 2cfef9de-b265-4fa5-b1bd-84e6cba79914
 feature: Search Campaign Management
