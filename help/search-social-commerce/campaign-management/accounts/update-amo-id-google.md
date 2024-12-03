@@ -1,11 +1,11 @@
 ---
-title: Aggiorna il codice di tracciamento AMO ID (s_kwcid) per un account  [!DNL Google Ads]
+title: 'Aggiorna il codice di tracciamento AMO ID (s_kwcid) per un account  [!DNL Google Ads] '
 description: Scopri come passare al codice di tracciamento AMO ID più recente per un account  [!DNL Google Ads] .
 exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: edb46265c6977a1e2c1b352f41fedcfc3a9e3bbf
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,13 @@ Il formato corrente include i parametri per l’ID della campagna e l’ID del g
 s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}
 ```
 
-Puoi passare al formato corrente per uno o tutti gli account esistenti, singolarmente. Se non disponi di campagne con prestazione massima o bozze e campagne di sperimentazione, la migrazione al nuovo formato è facoltativa.
+Per un account esistente che utilizza il formato legacy, puoi passare al formato corrente. Se non disponi di campagne con prestazione massima o bozze e campagne di sperimentazione, la migrazione al nuovo formato è facoltativa.
 
 Tutti i nuovi account [!DNL Google Ads] utilizzano automaticamente il formato AMO ID corrente.
 
 >[!NOTE]
+>
+>Questa opzione è disponibile solo per gli account che non utilizzano il formato corrente.
 >
 >Dopo la migrazione di un account, tutti i dati relativi a clic, costi e impression vengono segnalati correttamente dopo la modifica, ma tutti i click-through che si sono verificati prima della migrazione vengono ancora attribuiti ai dati di conversione basati sul vecchio formato AMO ID.
 
@@ -40,7 +42,7 @@ Tutti i nuovi account [!DNL Google Ads] utilizzano automaticamente il formato AM
 
 1. Inizia la migrazione:
 
-   1. Accanto a **[!UICONTROL S_KWCID FORMAT]** , fare clic su **[!UICONTROL LEGACY S_KWCID FORMAT]**.
+   1. Accanto a **[!UICONTROL S_KWCID FORMAT]** nelle impostazioni [!UICONTROL Account Tracking], fare clic su **[!UICONTROL LEGACY S_KWCID FORMAT]**.
 
    1. Fare clic su **[!UICONTROL Migrate to new s_kwcid format]**.
 
@@ -58,7 +60,7 @@ Tutti i nuovi account [!DNL Google Ads] utilizzano automaticamente il formato AM
 
    * Quando la funzione [!UICONTROL Auto Upload]&quot; è abilitata nelle impostazioni di tracciamento, Search, Social e Commerce aggiornano automaticamente il codice di tracciamento nel suffisso della pagina di destinazione per questo account e le relative campagne. Non devi fare niente.
 
-   * Se la funzione [!UICONTROL Auto Upload] non è abilitata e non utilizzi la funzione [AMO ID lato server](/help/integrations/analytics/ids.md#amo-id-formats), devi aggiornare manualmente il parametro AMO ID nelle impostazioni Suffisso pagina di destinazione. Puoi modificare manualmente i suffissi a livello di account e campagna nelle impostazioni account e campagna o caricando le modifiche in un bulksheet. Per configurare un suffisso a livello di gruppo di annunci o inferiore, utilizzare l&#39;editor [!DNL Google Ads].
+   * Se la funzione [!UICONTROL Auto Upload] non è abilitata e non utilizzi la funzione [AMO ID lato server](/help/integrations/analytics/ids.md#amo-id-formats), devi aggiornare manualmente il parametro AMO ID nelle impostazioni Suffisso pagina di destinazione. È possibile modificare manualmente i suffissi a livello di account e campagna nelle [impostazioni account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) e [impostazioni campagna](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) oppure [caricare le modifiche in un bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md). Per configurare un suffisso a livello di gruppo di annunci o inferiore, utilizzare l&#39;editor [!DNL Google Ads].
 
    * Se includi l’AMO ID nell’impostazione URL di base per qualsiasi componente della campagna, spostalo nell’impostazione Suffisso pagina di destinazione pertinente.
 
