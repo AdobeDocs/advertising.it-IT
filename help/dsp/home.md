@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: feb31bf2408d2e6045c410e5750854bd0cbd2113
+source-git-commit: dd359c91b97d5aea3d1d01d19ef585bc24d9e266
 workflow-type: tm+mt
 source-wordcount: '4622'
 ht-degree: 0%
@@ -94,4 +94,4 @@ Le seguenti funzioni sono nuove o modificate di recente.
 |  | [!UICONTROL Ads] | (Utenti autorizzati a includere i numeri di orologio [!DNL Clearcast] nei loro annunci) L&#39;DSP non mostra più un errore se si utilizza un numero di orologio allegato a un altro annuncio. **Nota:** La best practice prevede di utilizzare un numero di orologio univoco per ogni annuncio video. In caso contrario, l’editore non approverà tutti gli annunci. | — |
 |  | [!UICONTROL Deal IDs] | Le impostazioni di [!UICONTROL Deal ID] e altre posizioni nell&#39;interfaccia utente riflettono il nuovo branding per [!DNL Magnite] SSP:<br><ul><li>Il provider di servizi condivisi &quot;[!DNL Tremor]&quot; ([!DNL Telaria]) è ora &quot;[!DNL Magnite CTV]&quot;.&quot;</li><li>Nelle prossime settimane, [!DNL Rubicon]&quot; cambierà in &quot;[!DNL Magnite DV+]&quot;, dove [!DNL DV+] sta per display, video e altri formati come l&#39;audio.</li></ul> | Vedere &quot;[Partner SSP](/help/dsp/inventory/ssp-partners.md).&quot; |
 |  | [!DNL Freewheel] offerte garantite programmatiche | È ora possibile inviare annunci e controllare lo stato degli annunci per [!DNL Freewheel] offerte programmatiche garantite dalla visualizzazione [!UICONTROL Ads]. In precedenza era possibile eseguire entrambe le operazioni solo dalla visualizzazione [!UICONTROL Deals]. | Consulta &quot;[Invia un annuncio per un&#39;offerta programmatica garantita a [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)" and "[Check the Status of Ads for [!DNL Freewheel] offerte programmatiche garantite](/help/dsp/inventory/freewheel-check-status.md).&quot; |
-| 7 ottobre 2021 | Aiuto | Tutta la [documentazione di DSP e altri Adobi Advertising](https://experienceleague.adobe.com/docs/advertising.html) in [!DNL Experience League] è stata tradotta automaticamente in tutte le lingue disponibili. Per modificare la lingua visualizzata, utilizzare il menu &quot;Cambia lingua&quot; in basso a sinistra di qualsiasi pagina.<br>![Cambia lingua](/help/dsp/assets/change-language.png) |
+| 7 ottobre 2021 | Aiuto | Tutta la [documentazione di DSP e altri Adobi Advertising](https://experienceleague.adobe.com/en/docs/advertising) in [!DNL Experience League] è stata tradotta automaticamente in tutte le lingue disponibili. Per modificare la lingua visualizzata, utilizzare il menu &quot;Cambia lingua&quot; in basso a sinistra di qualsiasi pagina.<br>![Cambia lingua](/help/dsp/assets/change-language.png) |
