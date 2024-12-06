@@ -3,9 +3,9 @@ title: Implementa [!DNL Google Ads] conversioni avanzate per i lead
 description: Scopri il flusso di lavoro per impostare [!DNL Google Ads] conversioni avanzate per i lead.
 feature: Search Campaign Management, Conversions
 exl-id: b708c9f2-2962-45d9-8780-4e96ef2ae8f7
-source-git-commit: 56161ece4ba9c01cddb86e16796150c391f1a811
+source-git-commit: e0b1a65e3eddc41bed73817dabb6e38b1ef881b5
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -38,14 +38,13 @@ Per utilizzare questa funzione, completa i passaggi seguenti. I passaggi per cre
 
    1. Selezionare se utilizzare un tag [!DNL Google] o [!DNL Google Tag Manager] per creare il tag di conversione.
 
-
-1. Configurare e implementare un tag [!DNL Google] per l&#39;azione di conversione.
+1. Configura e implementa un tag per tenere traccia dell’azione di conversione.
 
    Per istruzioni, vedere la Guida di [!DNL Google Ads] per creare tag per conversioni avanzate per lead [che utilizzano un  [!DNL Google] tag](https://support.google.com/google-ads/answer/11021502) o [che utilizzano [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11347292).
 
 1. Crea un&#39;azione di conversione per la conversione avanzata per i lead in [Search, Social e Commerce](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md) o [Google Ads](https://support.google.com/google-ads/answer/12216226).
 
-   Per il **tipo di conversione,** selezionare *Importa conversione* o *Importa.*
+   Se crei l&#39;azione di conversione in Search, Social e Commerce, specifica il **Tipo di conversione** come *Importa conversione* o *Importa.*
 
 1. Se necessario, carica dati di prime parti, inclusi indirizzi e-mail con hash o numeri di telefono, per attribuire la conversione a un account specificato. Puoi completare questo passaggio da [Search, Social e Commerce](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md) o utilizzando [!DNL Google Data Manager].
 
