@@ -3,7 +3,7 @@ title: Tracciamento delle conversioni Adobe Analytics
 description: Scopri come utilizzare il tracciamento delle conversioni di Adobe Analytics per le campagne in Adobe Advertising.
 exl-id: c72cc988-5b51-4e1a-8cb6-6c3ca2a0226b
 feature: Search Tracking
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 8deabf2c98901d706acdd035221e8c24e4a1d20d
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Per gli inserzionisti con un&#39;integrazione Adobe Advertising-Adobe Analytics, Advertising Cloud può collegare i clic e le impression degli annunci con le metriche di coinvolgimento e conversione del sito monitorate da [!DNL Analytics] quando utilizzi un reindirizzamento con token (parametro `ef_id`) negli URL di tracciamento dei clic per le [unità offerte](/help/search-social-commerce/glossary.md#a-b). I dati di [!DNL Analytics] vengono inviati automaticamente ad Advertising Cloud tramite un file di feed giornaliero.
 
-Per ulteriori informazioni sull&#39;integrazione, vedere &quot;[Panoramica di [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/integrations/analytics/overview.html){target="_blank"}&quot;.
+Per ulteriori informazioni sull&#39;integrazione, vedere &quot;[Panoramica di [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/dsp/integrations/analytics/overview.html){target="_blank"}&quot;.
 
 >[!PREREQUISITES]
 >
