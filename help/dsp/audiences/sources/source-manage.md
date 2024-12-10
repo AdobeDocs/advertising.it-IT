@@ -3,9 +3,9 @@ title: Gestire le origini del pubblico per attivare i tipi di pubblico con ID un
 description: Scopri come creare e gestire un’origine per importare i tipi di pubblico dalla piattaforma di dati dei clienti e convertirli in segmenti contenenti ID universali.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 3a641db6b145e67e6e1f1daca271dd524973e075
+source-git-commit: e9ce180e302f619c85a3d6db813c83903e437d04
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '758'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ You can create one source for each combination of universal ID partner and data 
 
 >[!NOTE]
 >
->Dopo aver creato un’origine per la piattaforma di dati cliente, dovrai completare ulteriori passaggi per importare il pubblico. Visualizza il [flusso di lavoro per [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md),<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), --> il [flusso di lavoro per [!DNL Amperity]](source-amperity.md), il [flusso di lavoro per [!DNL Optimizely]](source-optimizely.md) e il [flusso di lavoro per [!DNL Tealium]](source-tealium.md).
+>Dopo aver creato un’origine per la piattaforma di dati cliente, devi completare i passaggi aggiuntivi per importare il pubblico. Visualizza il [flusso di lavoro per [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md),<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), --> il [flusso di lavoro per [!DNL Amperity]](source-amperity.md), il [flusso di lavoro per [!DNL Optimizely]](source-optimizely.md) e il [flusso di lavoro per [!DNL Tealium]](source-tealium.md).
 
 ## Modificare i tipi di ID per Audience Source
 

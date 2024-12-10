@@ -3,9 +3,9 @@ title: Informazioni sulla gestione degli annunci in Advertising DSP
 description: Informazioni sulla gestione degli annunci.
 feature: DSP Ads
 exl-id: 41dbe28e-a476-4601-a3d8-a9111eae3f6b
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: e9ce180e302f619c85a3d6db813c83903e437d04
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ L’DSP supporta la distribuzione degli annunci tramite tag di terze parti per l
 <!-- The bulk upload feature requires you to either a) upload DoubleClick and Flashtalking tag sheets or b) download a template, input your tags into the template, and then re-upload the template. -->
 <!-- need a list of all supported third-party ad servers; see file in future-tbd folder -->
 
-Una volta configurati gli annunci, allega ogni annuncio a un posizionamento, che include i parametri di targeting (come geotargeting, pubblico, dispositivo e targeting di inventario) che controllano il modo in cui la campagna consegna. Puoi allegare un singolo annuncio a uno o più posizionamenti.
+Una volta configurati gli annunci, allega ogni annuncio a uno o più posizionamenti, che includono i parametri di targeting (come geotargeting, pubblico, dispositivo e targeting di inventario) che controllano il modo in cui la campagna distribuisce. Per iniziare a eseguire l’annuncio, devi allegare un annuncio a un posizionamento.
 
 ## Tipi di annunci disponibili {#ad-types}
 
