@@ -2,9 +2,9 @@
 title: Impostazioni account inserzionista
 description: Consulta le descrizioni delle impostazioni pubblicitarie disponibili.
 role: User, Admin
-source-git-commit: a7751041b75f4258ce8e57629262c4cb30eccc95
+source-git-commit: 20f69d2e8d5d289015c911f153609c0805307f0a
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '943'
 ht-degree: 0%
 
 ---
@@ -170,11 +170,9 @@ Puoi ignorare l&#39;impostazione a livello di inserzionista al [livello di posiz
 
 #### [!UICONTROL DoubleVerify Authentic Brand Suitability]
 
-**[!UICONTROL DoubleVerify Account]:** ([!DNL DoubleVerify] solo clienti; facoltativo) l&#39;ID del segmento di sicurezza del brand associato all&#39;account [!DNL DoubleVerify] dell&#39;organizzazione.
+**[!UICONTROL DoubleVerify Account]:** ([!DNL DoubleVerify] solo clienti; facoltativo) Un ID segmento [!DNL DoubleVerify Authentic Brand Safety] associato all&#39;account [!DNL DoubleVerify] dell&#39;organizzazione da utilizzare per impostazione predefinita per tutti i posizionamenti. La specifica di un ID blocca le impression dopo l’offerta utilizzando le regole di sicurezza del brand personalizzate configurate per l’ID segmento specificato. L’DSP fattura il tuo account per l’utilizzo dell’ID segmento.
 
-**[!UICONTROL Enable Authentic Brand Suitability]:** (Facoltativo) Per impostazione predefinita, abilita [!DNL DoubleVerify Authentic Brand Safety], che blocca le impression post-offerta utilizzando le regole di sicurezza del brand personalizzate configurate per l&#39;ID segmento specificato. L’DSP fattura il tuo account per l’utilizzo dell’ID segmento.
-
-Puoi ignorare l’impostazione a livello di inserzionista a livello di posizionamento.
+L’ID deve iniziare con &quot;51&quot; e consistere di otto cifre. Puoi modificare o eliminare l’ID a livello di inserzionista a livello di posizionamento.
 
 >[!MORELIKETHIS]
 >
