@@ -3,9 +3,9 @@ title: Impostazioni di posizionamento
 description: Consulta le descrizioni delle impostazioni di posizionamento disponibili.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: cbefed8dcf59038d57e145d511f2491dd928a788
+source-git-commit: 17d2f802e77709636ef9654ad154e14c5d53c477
 workflow-type: tm+mt
-source-wordcount: '3967'
+source-wordcount: '3966'
 ht-degree: 0%
 
 ---
@@ -448,7 +448,7 @@ Quale livello di filtro pre-offerta di [Ads.txt](https://iabtechlab.com/ads-txt-
 * *[!UICONTROL Ads.txt sellers only]*: per acquistare le scorte solo dai venditori diretti e dai rivenditori autorizzati di un dominio.
 * *[!UICONTROL Ads.txt sellers only]*: per acquistare le scorte solo dai venditori diretti autorizzati di un dominio.
 
-**[!UICONTROL Attention Targeting]:** (posizionamenti per display, video, dispositivi mobili e TV connessi standard) Destinazioni [!DNL Adelaide] segmenti pre-offerta con un livello di attenzione specifico (alto, medio o basso) in base al sito, al formato e alle dimensioni dell&#39;annuncio specificati. I segmenti vengono aggiornati settimanalmente. **Nota:** l&#39;utilizzo di [!DNL Adelaide] segmenti per il targeting comporta una tariffa CPM per ogni impression distribuita con [!DNL Adelaide] targeting di attenzione; questa tariffa è separata dalle tariffe per [misurazione attenzione](/help/dsp/campaign-management/campaigns/campaign-settings.md). Per i posizionamenti pre-roll interattivi, il costo viene addebitato solo per le impressioni VAST.
+**[!UICONTROL Attention Targeting]:** (visualizzazione, video e posizionamenti TV connessi standard) Destinazioni [!DNL Adelaide] segmenti pre-offerta con un livello di attenzione specifico (alto, medio o basso) in base al sito, al formato e alle dimensioni dell&#39;annuncio specificati. I segmenti vengono aggiornati settimanalmente. **Nota:** l&#39;utilizzo di [!DNL Adelaide] segmenti per il targeting comporta una tariffa CPM per ogni impression distribuita con [!DNL Adelaide] targeting di attenzione; questa tariffa è separata dalle tariffe per [misurazione dell&#39;attenzione](/help/dsp/campaign-management/campaigns/campaign-settings.md). Per i posizionamenti pre-roll interattivi, il costo viene addebitato solo per le impressioni VAST.
 
 ## [!UICONTROL Tracking] {#placement-tracking}
 
