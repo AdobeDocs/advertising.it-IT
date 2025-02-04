@@ -3,9 +3,9 @@ title: Glossario
 description: Cfr. definizioni dei termini chiave.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 128446e8fad1e2c973a62042933cc52bb556a71d
+source-git-commit: 58fab7afdca3468bf2bcca0f3120b3863af6eae2
 workflow-type: tm+mt
-source-wordcount: '2242'
+source-wordcount: '2303'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 **emivita del modello di costo:** (inserzionisti con portfolio) Il numero di giorni precedenti alla data corrente per i quali i dati dei costi vengono considerati più recenti e quindi più rilevanti per i modelli di costo.
 
-**costo per 1000 impression:** (CPM) il costo di un annuncio per ogni mille impression. Gli inserzionisti che utilizzano un modello di prezzo CPM pagano per impression anziché per clic.
+**costo per 1000 impression:** (CPM) il costo di un annuncio per ogni mille impression. Gli inserzionisti che utilizzano un modello di prezzo CPM pagano in base alle impression anziché ai clic.
 
 **costo per acquisizione:** (CPA) Il costo di un annuncio diviso per il numero di conversioni. Viene definito anche costo per transazione (CPT) o costo per ordine (CPO).
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 **CPC:** Vedere &quot;costo per clic&quot;.
 
-**CPM:** Vedere &quot;costo per 1000 impression&quot;.
+**CPM:** Consulta &quot;costo per 1000 impression&quot;.
 
 **CPO:** Vedere &quot;costo per ordine&quot;.
 
@@ -180,6 +180,8 @@ Questo ha lo stesso valore della colonna legacy &quot;Ricavi ponderati&quot;.
 **strategia di spesa:** (inserzionisti con portfolio) La strategia selezionata per ottimizzare le offerte di parole chiave/annunci per un portfolio.
 
 **`s_kwcid`:** Consulta &quot;AMO ID&quot;.
+
+**modello di tracciamento:** (solo account con URL finali) Il modello di tracciamento o l&#39;URL di tracciamento, che specifica tutti i reindirizzamenti del dominio di destinazione e i parametri di tracciamento e incorpora l&#39;URL finale/avanzato in un parametro. Ad Adobe Advertising, il tracciamento della conversione, che viene applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, Search, Social e Commerce prefissano automaticamente il proprio codice di reindirizzamento e tracciamento quando si salva il record.
 
 **URL di tracciamento:** un modello di tracciamento o un URL di destinazione con parametri aggiuntivi aggiunti per tenere traccia delle informazioni sui clic sull&#39;annuncio. Può includere un URL di reindirizzamento per inviare prima gli utenti a un server di tracciamento prima di reindirizzarli alla pagina di destinazione dell’inserzionista.
 

@@ -3,7 +3,7 @@ title: Gestire gli account di rete degli annunci
 description: Scopri come impostare e gestire i dettagli di un account di rete di annunci.
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 68efad8ad3bc2985ac75a0f9437a2eafb194e4b6
+source-git-commit: 5a9c2eabc3fe03da0868aefb79c4f71d6029c384
 workflow-type: tm+mt
 source-wordcount: '2079'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Per informazioni dettagliate sulle funzionalità disponibili per ogni rete di an
 
 ## Crea dettagli account di rete dell’annuncio {#create-account}
 
-*Solo i ruoli di account manager agenzia, manager account Adobe e amministratore*
+*Solo i ruoli di amministratore, responsabile dell&#39;account di Adobe e responsabile dell&#39;account di agenzia*
 
 Per abilitare la sincronizzazione o il tracciamento di un account, è necessario creare un record account corrispondente contenente le credenziali di accesso e le opzioni di tracciamento dell&#39;account e con lo stato *attivo*.
 
@@ -47,7 +47,7 @@ Per abilitare la sincronizzazione o il tracciamento di un account, è necessario
 
       1. Immettere il valore **[!UICONTROL Login]** per l&#39;account, immettere facoltativamente la password e quindi fare clic su **[!UICONTROL Authenticate]**.
 
-         La best practice prevede l’utilizzo dell’accesso API all’account. Inserisci la password quando desideri crittografarla e salvarla, in modo che il team dell’account Adobe possa aggiornare i token in base alle esigenze.
+         La best practice prevede l’utilizzo dell’accesso API all’account. Immetti la password quando desideri crittografarla e salvarla, in modo che il team dell’account Adobe possa aggiornare i token in base alle esigenze.
 
       1. (Se non hai effettuato l’accesso all’account dell’inserzionista) Accedi all’account dell’inserzionista. La best practice prevede l’utilizzo delle credenziali per l’accesso API all’account.
 
@@ -65,7 +65,7 @@ Per abilitare la sincronizzazione o il tracciamento di un account, è necessario
 
 ## Modifica i dettagli dell’account di rete dell’annuncio {#edit-account}
 
-*Solo i ruoli di account manager agenzia, manager account Adobe e amministratore*
+*Solo i ruoli di amministratore, responsabile dell&#39;account di Adobe e responsabile dell&#39;account di agenzia*
 
 Se le credenziali dell’account cambiano, vuoi modificare i parametri di tracciamento predefiniti in un account, oppure vuoi abilitare o disabilitare l’attività su un account, quindi modificare i dettagli dell’account.
 
@@ -91,7 +91,7 @@ Se le credenziali dell’account cambiano, vuoi modificare i parametri di tracci
 
 ## Aggiorna i token di accesso OAuth per gli account di ricerca {#refresh-oauth-tokens}
 
-*Solo i ruoli di account manager agenzia, manager account Adobe e amministratore*
+*Solo i ruoli di amministratore, responsabile dell&#39;account di Adobe e responsabile dell&#39;account di agenzia*
 
 Se Search, Social e Commerce accedono all&#39;account utilizzando il protocollo di autorizzazione [OAuth](https://oauth.net/2/) e le credenziali dell&#39;account cambiano, oppure se è necessario un accesso aggiuntivo per supportare nuove funzionalità in Search, Social e Commerce, è necessario ottenere un nuovo token di accesso per l&#39;account.
 
@@ -117,7 +117,7 @@ Se nuove funzionalità richiedono un nuovo token, il team del tuo account Adobe 
 
 ## Attivare o disattivare gli account di rete degli annunci {#enable-disable-account}
 
-*Solo i ruoli di account manager agenzia, manager account Adobe e amministratore*
+*Solo i ruoli di amministratore, responsabile dell&#39;account di Adobe e responsabile dell&#39;account di agenzia*
 
 Quando si abilita un account di ad network, Search, Social e Commerce sincronizzano i dati della campagna con l&#39;account (se supportato) e inviano offerte automatizzate e/o budget delle campagne nei portfolio.Quando si disabilita un account di ad network, Search, Social e Commerce interrompe tutte le attività sull&#39;account. I dati raccolti mentre l’account era attivo vengono comunque memorizzati, ma le visualizzazioni e i rapporti di gestione delle campagne non includono i dati per il periodo di tempo in cui l’account è disabilitato. In seguito, potrai riabilitare l’account per riprendere l’attività con l’account.
 
@@ -207,7 +207,7 @@ Gli account che utilizzano il tracciamento dei clic di Adobe Advertising devono 
 
 >[!NOTE]
 >
->* Per [!DNL Google Ads], evitare l&#39;utilizzo di macro, che non vengono sostituite dai clic provenienti da origini che abilitano il tracciamento parallelo. Se l’inserzionista deve utilizzare delle macro, l’Account Team Adobe deve collaborare con l’Assistenza clienti o con il team di implementazione per aggiungerle.
+>* Per [!DNL Google Ads], evitare l&#39;utilizzo di macro, che non vengono sostituite dai clic provenienti da origini che abilitano il tracciamento parallelo. Se l’inserzionista deve utilizzare delle macro, il team dell’account Adobe deve collaborare con l’Assistenza clienti o con il team di implementazione per aggiungerle.
 >* Il modello di tracciamento al livello più granulare sostituisce i valori a tutti i livelli superiori. Ad esempio, se entrambe le impostazioni account e parola chiave includono un valore, tale valore viene applicato.
 >* Se aggiorni un modello di tracciamento a livello di annuncio, sitelink o parola chiave, gli annunci pertinenti vengono nuovamente inviati per la revisione. Puoi aggiornare i modelli di tracciamento a livello di account, campagna o gruppo di annunci senza inviare nuovamente gli annunci per l’approvazione.
 
@@ -261,7 +261,7 @@ Per istruzioni complete, consulta &quot;[Aggiornare il codice di tracciamento AM
 
 **Nomi suite di rapporti:** (solo per reindirizzamento EF con token; inserzionisti con integrazione Adobe Advertising-Adobe Analytics; facoltativo) Una o più suite di rapporti Analytics a cui Search, Social e Commerce invia i dati che raccoglie dalla rete di annunci, incluse le classificazioni delle entità e i dati di clic per l&#39;account. Questa funzione è disponibile solo per le reti di annunci supportate.
 
-Affinché i dati vengano visualizzati nelle suite di rapporti, (a) la funzione AMO ID lato server deve essere configurata per l’account oppure (b) l’impostazione a livello di inserzionista su &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; deve essere abilitata. Inoltre, l’account Analytics dell’inserzionista deve essere configurato per ricevere dati da Search, Social e Commerce. Per ulteriori informazioni, contatta il team del tuo account Adobe.
+Affinché i dati vengano visualizzati nelle suite di rapporti, (a) la funzione AMO ID lato server deve essere configurata per l’account oppure (b) l’impostazione a livello di inserzionista su &quot;[!UICONTROL Enable Advertising reporting in Analytics]&quot; deve essere abilitata. Inoltre, l’account Analytics dell’inserzionista deve essere configurato per ricevere dati da Search, Social e Commerce. Per ulteriori informazioni, contatta il team del tuo account Adobe.
 
 >[!MORELIKETHIS]
 >
