@@ -1,0 +1,57 @@
+---
+title: Macro disponibili per il tracciamento degli URL
+description: Fai riferimento alle macro che puoi aggiungere agli URL di tracciamento della tua pagina di destinazione URL e creatività di terze parti.
+feature: Creative Experiences, Creative Experiences
+source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+workflow-type: tm+mt
+source-wordcount: '227'
+ht-degree: 0%
+
+---
+
+# Macro disponibili per il tracciamento degli URL
+
+*Versione beta chiusa*
+
+<!-- More feature metadata??? -->
+
+Puoi includere una qualsiasi delle seguenti macro nelle creatività di terze parti, negli URL di tracciamento di terze parti per le esperienze e negli URL delle pagine di destinazione per il tuo utilizzo.
+
+Alcune delle macro disponibili o equivalenti vengono incluse automaticamente nei tag esperienza.
+
+<!-- Later: 
+
+| Macro | Description | Automatically in experience tags for Advertising DSP? | Automatically in experience tags for [!DNL Google Campaign Manager 360]? |
+| --- | --- | --- | --- |
+| `${TM_CAMPAIGN_ID_NUM}` | Tracks and reports the campaign ID from the DSP | Yes | No, but tags include the equivalent [!DNL Google Campaign Manager 360] macro `%ebuy!` |
+| `${TM_SITE_ID_NUM}` | Tracks and reports the site ID from the DSP | Yes | No, but tags include the equivalent [!DNL Google Campaign Manager 360] macro `%esid!` |
+| `${TM_PLACEMENT_ID_NUM}` | Tracks and reports the placement ID from the DSP | Yes | No, but tags include the equivalent [!DNL Google Campaign Manager 360] macro `%epid!` |
+| `${TM_AD_ID_NUM}` | Tracks and reports the ad ID from the DSP | Yes | No, but tags include the equivalent [!DNL Google Campaign Manager 360] macro `%eaid!` |
+| `${TM_CREATIVE_ID_NUM}` | Tracks and reports the creative ID from the DSP | N/A | No, but tags include the equivalent [!DNL Google Campaign Manager 360] macro `%ecid!` |
+| `${TM_SESSION_ID}` | Tracks and reports the impression ID from the DSP. If a value isn't returned, Advertising Creative generates one. | Yes | &mdash; |
+| `${TM_ACC_EXPERIENCE_ID}` | Tracks and reports the Advertising Creative experience ID | &mdash; | &mdash; |
+| `${TM_ACC_CREATIVE_ID}` | Tracks and reports the Advertising Creative creative ID | &mdash; | &mdash; |
+| `${TM_RANDOM}` | A random number between 1 and 1000000 | &mdash; | &mdash; |
+| `${TM_TIMESTAMP}` | The Unix Timestamp (in seconds) | &mdash; | &mdash; |
+| `${TM_CLICK_URL_URLENC}` | (For third-party ads from vendors who require URL encoding) The encoded click redirect URL, which enables ad servers to track and count ad clicks. When the ad is served and the user clicks on it, the macro is activated, and the click is recorded and counted for reporting purposes. | Yes | &mdash; |
+
+-->
+
+| Macro | Descrizione | Automaticamente nei tag esperienza per Advertising DSP? |
+| --- | --- | --- | --- |
+| `${TM_CAMPAIGN_ID_NUM}` | Tiene traccia e segnala l’ID della campagna dall’DSP | Sì |
+| `${TM_SITE_ID_NUM}` | Tiene traccia e segnala l’ID del sito dall’DSP | Sì |
+| `${TM_PLACEMENT_ID_NUM}` | Tiene traccia e segnala l’ID di posizionamento dell’DSP | Sì |
+| `${TM_AD_ID_NUM}` | Tiene traccia e segnala l’ID annuncio dall’DSP | Sì |
+| `${TM_CREATIVE_ID_NUM}` | Tiene traccia e segnala l’ID creativo dell’DSP | N/D |
+| `${TM_SESSION_ID}` | Tiene traccia e segnala l’ID di impression dell’DSP. Se un valore non viene restituito, Advertising Creative ne genera uno. | Sì |
+| `${TM_ACC_EXPERIENCE_ID}` | Tiene traccia e segnala l’ID esperienza Advertising Creative | — |
+| `${TM_ACC_CREATIVE_ID}` | Tiene traccia e segnala l’ID creativo dell’Advertising Creative | — |
+| `${TM_RANDOM}` | Un numero casuale compreso tra 1 e 1000000 | — |
+| `${TM_TIMESTAMP}` | Il timestamp Unix (in secondi) | — |
+| `${TM_CLICK_URL_URLENC}` | (Per annunci di terze parti di fornitori che richiedono la codifica URL) L’URL di reindirizzamento dei clic codificato, che consente ai server di annunci di tenere traccia e contare i clic degli annunci. Quando l’annuncio viene distribuito e l’utente fa clic su di esso, la macro viene attivata e il clic viene registrato e conteggiato a scopo di reporting. | Sì |
+
+>[!MORELIKETHIS]
+>
+>* 
+>* 
