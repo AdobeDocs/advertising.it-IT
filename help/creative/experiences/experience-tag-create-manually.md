@@ -2,9 +2,10 @@
 title: Creare manualmente un tag annuncio per una dimensione creativa applicabile
 description: Scopri come creare un tag annuncio per una dimensione creativa specifica.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
+source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -37,6 +38,8 @@ Puoi creare uno o più tag annuncio per ogni dimensione creativa utilizzata per 
    È possibile creare più tag per la stessa dimensione creativa.<!-- What are the implications? -->
 
 1. Fare clic su **[!UICONTROL Create]**.
+
+   Puoi espandere la riga dei tag per visualizzare i creativi inclusi.
 
 >[!MORELIKETHIS]
 >

@@ -3,9 +3,9 @@ title: Macro di Advertising DSP
 description: Fai riferimento alle macro disponibili per il tracciamento generale e per tenere traccia dei clic sugli annunci display di terze parti.
 feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 195e75386e64c3659d3f4db3c2508ac903e9e311
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Utilizza le macro di tracciamento generali per tutti i tipi di annunci e tag per
 | `${CS_DEVICE_MODEL}` | ([!DNL ComScore]) Il nome del modello del dispositivo, con codifica URL. | stringa |
 | `${CS_IMPLEMENTATION_TYPE}` | ([!DNL ComScore]) Ambiente in cui è stato distribuito l&#39;annuncio:<ul><li>`a` = app mobile</li><li>`b` = sito Web mobile</li></ul> | stringa (`a` o `b`) |
 | `${NS_PLATFORM_ID}` | ([!DNL Nielsen]) L&#39;ID piattaforma, che corrisponde al sistema operativo del dispositivo:<ul><li>`ios`= [!DNL Apple iOS]</li><li>`android` = [!DNL Google Android]</li><li>`windows` = [!DNL Windows Mobile]</li><li>`blackberry` = [!DNL Blackberry]</li> <li>`other` quando la piattaforma non è tra quelle sopra indicate</li></ul> | stringa |
-| `${NS_DEVICE_GROUPING}` | ([!DNL Nielsen]) Il tipo di dispositivo su cui l&#39;annuncio era visualizzatore:<ul><li>`TAB` = tablet</li><li>`PHN` = dispositivo mobile</li><li>`computer` = computer</li></ul> | stringa |
+| `${NS_DEVICE_GROUPING}` | ([!DNL Nielsen]) Tipo di dispositivo su cui l&#39;annuncio era visualizzatore:<ul><li>`TAB` = tablet</li><li>`PHN` = dispositivo mobile</li><li>`computer` = computer</li></ul> | stringa |
 | `${UOO}` | ([!DNL Nielsen]) Indica se l&#39;utente ha rinunciato o meno al tracciamento degli annunci:<ul><li>`1` (flag DNT = 1) = l&#39;utente ha rinunciato al tracciamento degli annunci</li><li>`0` (flag DNT = 0) = l&#39;utente ha acconsentito al tracciamento degli annunci</li></ul> | numero intero (`0` o `1`) |
 | `${TM_BUNDLE}` | ID del bundle dell&#39;app store [!DNL iOS] o [!DNL Android]. Esempi: com.zynga.wwf2.free o id804379658 | stringa |
 | `gdpr=${GDPR_ENFORCED}&gdpr_consent=${GDPR_CONSENT}` | `gdpr=${GDPR_ENFORCED}` indica se l&#39;offerente determina che la richiesta di offerta proviene dall&#39;Unione Europea e richiede l&#39;applicazione del RGPD:<ul><li>`1` = RGPD deve essere applicato</li><li>`0` = RGPD non deve essere applicato</li></ul>`gdpr_consent=${GDPR_CONSENT}` è il valore di consenso passato dal partner di fornitura nella richiesta di offerta in entrata:<ul><li>Nella maggior parte dei casi, si tratta di una stringa di consenso con codifica base64url, o daisybit (ad esempio: BN5lERiOMYEdiAKAWXEND1HoSBE6CAFAApAMgBkIDIgM0AgOJxAnQA)</li><li>`0` = nessun consenso</li><li>`1` = consenso</li></ul> | daisybit o numero intero |
