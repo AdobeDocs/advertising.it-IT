@@ -2,9 +2,10 @@
 title: Gestire i pixel di retargeting
 description: Scopri come creare e implementare pixel di retargeting da utilizzare come destinazioni per le esperienze pubblicitarie.
 feature: Creative Pixels
-source-git-commit: 91edc406401cbdae44932a2c70f7daf12d8d7b4e
+exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
+source-git-commit: 147f47fcdc504fba67a6894edaa9249662131e05
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -29,9 +30,9 @@ Esempio di pixel:
 
 >[!NOTE]
 >
-> * [!DNL Creative] attualmente supporta ID universali solo per Advertising DSP. Una versione futura supporterà gli ID universali per l&#39;DSP di terze parti.<!-- Clarify this and reword as needed -->
+> * [!DNL Creative] attualmente supporta ID universali solo per Advertising DSP. Una versione futura supporterà gli ID universali per DSP di terze parti.<!-- Clarify this and reword as needed -->
 >* Puoi anche utilizzare i tipi di pubblico di prime parti da Adobe Audience Manager e Adobe Analytics come [target creativi per le esperienze](/help/creative/experiences/experience-settings-targeting.md).
->* Quando utilizzi un’esperienza come annuncio all’interno di un posizionamento Advertising DSP, puoi indirizzare il posizionamento a tutti i tipi di pubblico disponibili nell’DSP. Puoi anche [creare tag personalizzati per i segmenti di pubblico](/help/dsp/audiences/custom-segment-create.md) per tenere traccia di tutti i visitatori su pagine di destinazione specifiche e quindi utilizzare tali segmenti come target creativi per un posizionamento.
+>* Quando utilizzi un’esperienza come annuncio all’interno di un posizionamento Advertising DSP, puoi indirizzare il posizionamento a tutti i tipi di pubblico disponibili in DSP. Puoi anche [creare tag personalizzati per i segmenti di pubblico](/help/dsp/audiences/custom-segment-create.md) per tenere traccia di tutti i visitatori su pagine di destinazione specifiche e quindi utilizzare tali segmenti come target creativi per un posizionamento.
 >* I visitatori del sito web che hanno rinunciato al tracciamento per il targeting degli annunci non ricevono annunci con contenuto creativo personalizzato in base al segmento di pubblico o al profilo di retargeting.
 
 ## Creare un pixel di retargeting
@@ -78,7 +79,7 @@ Esempio di pixel:
 
    Se aggiungi manualmente attributi aggiuntivi, devi includere la codifica URL.
 
-   Ad esempio, se hai incluso gli attributi &quot;category&quot;, &quot;color&quot; e &quot;size&quot; e acquisisci ID5 ID universali, il tag pixel includerà i seguenti parametri: `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` e `&id5pid=--Insert ID5_PARTNER_ID--`. Per eseguire il targeting degli utenti che selezionano sandali rossi nella dimensione 10, ad esempio, è necessario modificare i parametri sia nel tag immagine che nel tag script in `&ut1=--sandals--&ut2=--red--&ut3=--10--` e immettere anche l&#39;ID partner ID5 nel tag script, ad esempio `&id5pid=--0123456789--`.&lt;!— Verificare la sintassi finale — dovrebbe essere solo: &amp;ut1=sandals&amp;ut2=10&amp;ut2=red ? —>
+   Ad esempio, se hai incluso gli attributi &quot;category&quot;, &quot;color&quot; e &quot;size&quot; e acquisisci ID5 ID universali, il tag pixel includerà i seguenti parametri: `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` e `&id5pid=--Insert ID5_PARTNER_ID--`. Per eseguire il targeting degli utenti che selezionano sandali rossi nella dimensione 10, ad esempio, è necessario modificare i parametri sia nel tag immagine che nel tag script in `&ut1=sandals&ut2=red&ut3=10` e immettere anche l&#39;ID partner ID5 nel tag script, ad esempio `&id5pid=0123456789`.
 
    `<img src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--" />  <script src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&cro=F&id5Consent=T&id5pid=--0123456789--&lrConsent=T&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--"></script>`
 
