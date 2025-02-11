@@ -2,9 +2,10 @@
 title: Impostazioni creative
 description: Informazioni su xxxx.
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '1830'
+source-wordcount: '1835'
 ht-degree: 0%
 
 ---
@@ -63,7 +64,7 @@ Per informazioni sugli attributi disponibili nei modelli predefiniti, vedere &qu
 
 *Solo creatività esistente*
 
-Il file di modello HTML5 flessibile per la creatività.
+Il file modello HTML5 flessibile per la creatività.
 
 Facoltativamente, è possibile sostituire il modello esistente con un nuovo modello con un layout diverso ma con lo stesso insieme di nomi di attributi del modello originale. Il nuovo modello deve essere in formato ZIP con un massimo di 2 MB. Quando il contenuto creativo si trova in un bundle, tutte le esperienze che utilizzano il bundle utilizzeranno successivamente il layout del nuovo modello.
 
@@ -99,13 +100,13 @@ Per i nuovi creativi, le seguenti impostazioni non si trovano in una scheda deno
 
 **Dimensione creativa:** (sola lettura per i creativi esistenti) Dimensioni del creativo. Se le immagini incluse nel contenuto creativo sono più grandi delle dimensioni specificate, vengono ridimensionate di conseguenza.
 
-**[!UICONTROL Click Tags]:** (solo creativi Static HTML5) Le variabili che consentono il tracciamento dei clic reindirizzano dagli annunci banner inclusi. I nomi delle variabili e gli URL della pagina di destinazione corrispondenti vengono compilati dall’unità creativa caricata, ma puoi modificare gli URL predefiniti. Per più creativi, puoi modificare i singoli tag di clic.
+**[!UICONTROL Click Tags]:** (solo creatività HTML5 statica) Le variabili che consentono il reindirizzamento del tracciamento dei clic dagli annunci banner inclusi. I nomi delle variabili e gli URL della pagina di destinazione corrispondenti vengono compilati dall’unità creativa caricata, ma puoi modificare gli URL predefiniti. Per più creativi, puoi modificare i singoli tag di clic.
 
 >[!NOTE]
 >
 >Quando includi il contenuto creativo in un’esperienza, puoi sostituire il valore predefinito per qualsiasi tag di clic con un URL di pagina di destinazione personalizzato per generare una derivazione del contenuto creativo di base.
 
-**URL della pagina di destinazione:** (creatività di Simple HTML5 con una sola pagina di destinazione) URL della pagina di destinazione predefinita per ogni annuncio a cui si associano i creativi. Deve essere un URL valido che inizia con http:// o https://. Può includere parametri di tracciamento di terze parti o [[!DNL Creative] macro](/help/creative/creative-macros.md) per uso personale.
+**URL della pagina di destinazione:** (solo creativi HTML5 semplici con una pagina di destinazione) URL della pagina di destinazione predefinita per ogni annuncio a cui si associano i creativi. Deve essere un URL valido che inizia con http:// o https://. Può includere parametri di tracciamento di terze parti o [[!DNL Creative] macro](/help/creative/creative-macros.md) per uso personale.
 
 Quando includi un contenuto creativo in un bundle e assegni il bundle a un’esperienza, puoi facoltativamente modificare l’URL della pagina di destinazione e aggiungere URL di tracciamento impression e clic e JavaScript per ogni contenuto creativo nel bundle. <!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
 
@@ -121,9 +122,9 @@ Quando includi un contenuto creativo in un bundle e assegni il bundle a un’esp
 
 ### Scheda Modello
 
-*Solo le creatività statiche esistenti di HTML5*
+*Solo creatività HTML5 statiche esistenti*
 
-Il file di modello HTML5 per la creatività.
+Il file modello HTML5 per la creatività.
 
 Facoltativamente, è possibile sostituire il modello esistente con un nuovo modello con un layout diverso ma con lo stesso insieme di nomi di attributi del modello originale. Il nuovo modello deve essere in formato ZIP con un massimo di 2 MB. Quando il contenuto creativo si trova in un bundle, tutte le esperienze che utilizzano il bundle utilizzeranno successivamente il layout del nuovo modello.
 
@@ -173,9 +174,9 @@ Quando includi un contenuto creativo in un bundle e assegni il bundle a un’esp
 
 **Codice JavaScript:** un tag JavaScript (e facoltativamente un tag alternativo per i browser che non supportano JavaScript) che punta alla creatività sul server di annunci di terze parti. Lo script varia a seconda del server di annunci. Quando modifichi più creativi, lo stesso valore viene applicato a ciascun creativo selezionato.
 
-Tutte le macro disponibili e i dati con cui vengono sostituite sono elencati sotto il campo di input. Per inserire una delle macro nel tag, posizionare il cursore sulla descrizione della macro e fare clic su ![Copia negli Appunti](/help/creative/assets/copy-to-clipboard.png "Copia negli Appunti"), quindi incollare l&#39;immagine nel punto desiderato all&#39;interno del tag.
+Tutte le [macro disponibili](/help/creative/creative-macros.md) e i dati con cui vengono sostituite sono elencati sotto il campo di input. Per inserire una delle macro nel tag, posizionare il cursore sulla descrizione della macro e fare clic su ![Copia negli Appunti](/help/creative/assets/copy-to-clipboard.png "Copia negli Appunti"), quindi incollare l&#39;immagine nel punto desiderato all&#39;interno del tag.
 
-Quando includi questo elemento creativo in un’esperienza implementata come annuncio da un DSP, l’DSP utilizza le informazioni contenute in questo tag per visualizzare l’annuncio e tracciare impression e clic su di esso, quindi invia il tag all’ad exchange. Quando l&#39;annuncio viene visualizzato e selezionato, il server dell&#39;annuncio, l&#39;DSP e [!DNL Creative] terranno traccia degli eventi.
+Quando includi questo contenuto creativo in un’esperienza implementata come annuncio da un DSP, DSP utilizza le informazioni contenute in questo tag per visualizzare l’annuncio e tracciare impression e clic su di esso, quindi invia il tag all’ad exchange. Quando l&#39;annuncio viene visualizzato e selezionato, il server dell&#39;annuncio, DSP e [!DNL Creative] terranno traccia degli eventi.
 
 **[!UICONTROL Advertiser]:** (sola lettura) L&#39;inserzionista a cui è disponibile la libreria.
 
@@ -201,3 +202,4 @@ u
 >
 >* [Aggiungere creatività standard a una libreria creativa](/help/creative/creative-libraries/creative-add-standard.md)
 >* [Modifica creatività standard](/help/creative/creative-libraries/creative-edit-standard.md)
+>* [Macro disponibili per il tracciamento degli URL](/help/creative/creative-macros.md)

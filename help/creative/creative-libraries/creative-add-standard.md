@@ -2,9 +2,10 @@
 title: Aggiungere creatività standard a una libreria creativa
 description: Scopri come aggiungere creatività standard (non dinamica) a una libreria creativa.
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -58,7 +59,7 @@ You can do either of the following:
 
    * Per rimuovere un file, deselezionare la relativa casella di controllo.
 
-1. Specifica le [impostazioni dell&#39;annuncio flessibile di HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5).
+1. Specificare le [impostazioni degli annunci flessibili di HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5).
 
    Per impostazione predefinita, vengono selezionati tutti i creativi appena caricati. Tutte le impostazioni con un solo valore vengono applicate a tutti i creativi selezionati; per alcune impostazioni è possibile specificare valori singoli. Per immettere le impostazioni per creativi specifici, deseleziona la casella di controllo accanto a ciascun creativo inapplicabile.
 
@@ -101,7 +102,7 @@ For information about the attributes available in predefined templates, see "[Av
 
 -->
 
-## Aggiungere un contenuto creativo di HTML5 a una libreria creativa
+## Aggiungere un contenuto creativo HTML5 a una libreria creativa
 
 <!-- verify -->È possibile aggiungere più creative HTML5 di un singolo tipo (semplice o statico) alla volta.
 
@@ -111,7 +112,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 >[!NOTE]
 >
->È inoltre possibile [aggiungere creative HTML5 flessibili](#flexible-creative-add), ovvero creative HTML5 con tutti i relativi attributi come tag HTML standard modificabili direttamente in [!DNL Creative].
+>È inoltre possibile [aggiungere creativi HTML5 flessibili](#flexible-creative-add), ovvero creativi HTML5 con tutti i relativi attributi come tag HTML standard modificabili direttamente in [!DNL Creative].
 
 1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -139,7 +140,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    Consulta la [specifica annuncio HTML5](/help/creative/creative-libraries/html5-creative-specification.md).
 
-1. Specifica le impostazioni dell&#39;annuncio [HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5).
+1. Specificare le [impostazioni annuncio HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5).
 
 Per impostazione predefinita, vengono selezionati tutti i creativi appena caricati. Tutte le impostazioni con un solo valore vengono applicate a tutti i creativi selezionati; per alcune impostazioni è possibile specificare valori singoli. Per immettere le impostazioni per creativi specifici, deseleziona la casella di controllo accanto a ciascun creativo inapplicabile.
 
@@ -175,7 +176,7 @@ I creativi delle immagini possono essere in formato GIF, JPEG, JPG o PNG. La dim
 
 1. Fai clic su **[!UICONTROL Create]**
 
-## Aggiungere un contenuto creativo di terze parti a una libreria creativa
+## Aggiungere un contenuto creativo di terze parti a una libreria creativa {#creative-add-third-party}
 
 [!DNL Creative] supporta i tag di tracciamento di JavaScript per i creativi ospitati nella maggior parte dei server di annunci di terze parti.
 
@@ -187,9 +188,9 @@ I creativi delle immagini possono essere in formato GIF, JPEG, JPG o PNG. La dim
 
 1. Fare clic su **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL 3rd Party]**.
 
-1. Specifica il tag JavaScript e altre impostazioni per la creatività nelle [impostazioni creative di terze parti].
+1. Specifica il tag JavaScript e altre impostazioni per la creatività nelle [impostazioni creative di terze parti](#creative-settings-third-party).
 
-   È possibile copiare e incollare qualsiasi macro disponibile nel tag JavaScript.
+   È possibile copiare e incollare le [macro disponibili](/help/creative/creative-macros.md) nel tag JavaScript.
 
 1. Fai clic su **[!UICONTROL Create]**
 
@@ -197,6 +198,7 @@ I creativi delle immagini possono essere in formato GIF, JPEG, JPG o PNG. La dim
 >
 >* [Modifica creatività standard](/help/creative/creative-libraries/creative-edit-standard.md)
 >* [Impostazioni creative standard](/help/creative/creative-libraries/creative-settings-standard.md)
+>* [Macro disponibili per il tracciamento degli URL](/help/creative/creative-macros.md)
 >* [Dimensioni creative supportate](/help/creative/creative-libraries/creative-sizes.md)
 >* [Anteprima di un contenuto creativo](/help/creative/creative-libraries/creative-preview.md)
 >* [Allega e scollega creativi dai bundle](/help/creative/creative-libraries/creative-attach-detach-bundles.md)

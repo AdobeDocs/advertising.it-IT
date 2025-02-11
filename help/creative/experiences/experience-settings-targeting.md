@@ -2,9 +2,10 @@
 title: Impostazioni delle esperienze mirate
 description: Vedi le descrizioni di tutte le impostazioni per le esperienze annuncio mirate.
 feature: Creative Experiences
-source-git-commit: fbf663b38282f48facab57efaf5533892642a252
+exl-id: cb6fd855-6534-4eac-b34b-323073d186be
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
@@ -49,10 +50,10 @@ Una volta salvata l&#39;esperienza, non puoi modificare questa impostazione.
 
 ## [!UICONTROL Advanced] sezione
 
-**Passaggio dati:** (sola lettura per esperienze esistenti; facoltativo) per eseguire il targeting degli utenti in base a coppie chiave-valore specifiche passate da DSP, editore o partner in tempo reale su impression. Puoi specificare fino a cinque chiavi (parametri) per il passaggio dei dati. Quando imposti il targeting all’interno dell’albero decisionale, puoi includere un livello di nodi di destinazione del passaggio dei dati e specificare i valori di destinazione per ogni nodo. Se non si specifica una chiave in questo campo al momento della creazione dell&#39;esperienza, è comunque possibile specificarne una nell&#39;albero decisionale.<!-- May move this to just within the decision tree.  -->
+**Passaggio dati:** (sola lettura per esperienze esistenti; facoltativo) per eseguire il targeting degli utenti in base a coppie chiave-valore specifiche passate in tempo reale su impression da DSP, publisher o partner. Puoi specificare fino a cinque chiavi (parametri) per il passaggio dei dati. Quando imposti il targeting all’interno dell’albero decisionale, puoi includere un livello di nodi di destinazione del passaggio dei dati e specificare i valori di destinazione per ogni nodo. Se non si specifica una chiave in questo campo al momento della creazione dell&#39;esperienza, è comunque possibile specificarne una nell&#39;albero decisionale.<!-- May move this to just within the decision tree.  -->
 
 Ogni chiave viene aggiunta come macro nell’esperienza annuncio
-, che puoi generare per implementare come annuncio nell’DSP.
+, che puoi generare per implementare come annuncio nel DSP.
 
 **Raggio:** (solo esperienze con annunci dinamici; facoltativo) Raggio utente da destinare. Selezionare un raggio compreso tra 0 e 200 miglia.<!-- Affect within the decision tree? -->
 
@@ -70,7 +71,7 @@ Ogni chiave viene aggiunta come macro nell’esperienza annuncio
 
 **URL di tracciamento impression:** (facoltativo) URL di tracciamento delle impression di terze parti da aggiungere all&#39;URL della pagina di destinazione per qualsiasi annuncio creato dall&#39;esperienza. Puoi includere fino a cinque URL. Per aggiungere un URL aggiuntivo, fai clic su ![icona](/help/creative/assets/create.png) **[!UICONTROL Add More] e immetti l&#39;URL.
 
-Dopo aver immesso un URL, tutte le macro disponibili e i dati con cui vengono sostituite vengono elencati più in basso nella pagina. Per inserire una delle macro nell&#39;URL, posizionare il cursore sulla descrizione della macro e fare clic su ![Copia negli Appunti](/help/creative/assets/copy-to-clipboard.png "Copia negli Appunti"), quindi incollare la macro nel campo URL.
+Dopo aver immesso un URL, tutte le [macro disponibili](/help/creative/creative-macros.md) e i dati con cui vengono sostituite sono elencati più in basso nella pagina. Per inserire una delle macro nell&#39;URL, posizionare il cursore sulla descrizione della macro e fare clic su ![Copia negli Appunti](/help/creative/assets/copy-to-clipboard.png "Copia negli Appunti"), quindi incollare la macro nel campo URL.
 
 >[!NOTE]
 >
@@ -80,7 +81,7 @@ Dopo aver immesso un URL, tutte le macro disponibili e i dati con cui vengono so
 
 **URL di tracciamento dei clic:** (facoltativo) (facoltativo) un URL di tracciamento dei clic di terze parti da aggiungere all&#39;URL della pagina di destinazione. Puoi includere fino a cinque URL. Per aggiungere un URL aggiuntivo, fai clic su ![icona](/help/creative/assets/create.png) **[!UICONTROL Add More] e immetti l&#39;URL.
 
-Dopo aver immesso un URL, tutte le macro disponibili e i dati con cui vengono sostituite vengono elencati più in basso nella pagina. Per inserire una delle macro nell&#39;URL, posizionare il cursore sulla descrizione della macro e fare clic su ![Copia negli Appunti](/help/creative/assets/copy-to-clipboard.png "Copia negli Appunti"), quindi incollare la macro nel campo URL.
+Dopo aver immesso un URL, tutte le [macro disponibili](/help/creative/creative-macros.md) e i dati con cui vengono sostituite sono elencati più in basso nella pagina. Per inserire una delle macro nell&#39;URL, posizionare il cursore sulla descrizione della macro e fare clic su ![Copia negli Appunti](/help/creative/assets/copy-to-clipboard.png "Copia negli Appunti"), quindi incollare la macro nel campo URL.
 
 >[!NOTE]
 >
@@ -97,3 +98,4 @@ Dopo aver immesso un URL, tutte le macro disponibili e i dati con cui vengono so
 >
 >* [Crea un&#39;esperienza con il targeting dell&#39;albero delle decisioni](experience-create-targeting.md)
 >* [Modifica un&#39;esperienza con il targeting dell&#39;albero delle decisioni](experience-edit-targeting.md)
+>* [Macro disponibili per il tracciamento degli URL](/help/creative/creative-macros.md)

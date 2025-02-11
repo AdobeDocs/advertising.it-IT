@@ -2,9 +2,10 @@
 title: Impostazioni per esperienze non di destinazione
 description: Vedi le descrizioni di tutte le impostazioni per le esperienze pubblicitarie senza targeting della struttura decisionale.
 feature: Creative Experiences
-source-git-commit: fbf663b38282f48facab57efaf5533892642a252
+exl-id: aeeca035-8ae2-4173-827a-b8690d228549
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
@@ -47,9 +48,9 @@ Per le esperienze senza il targeting della struttura decisionale, è possibile s
 
 ## [!UICONTROL Advanced] sezione
 
-**Passaggio dati:** (solo esperienze con annunci dinamici; facoltativo) per eseguire il targeting degli utenti in base a coppie chiave-valore specifiche passate da DSP, editore o partner in tempo reale su impression. È possibile specificare fino a cinque chiavi di trasferimento dati (parametri).<!-- May move this to just within the decision tree. -->
+**Passaggio dati:** (solo esperienze con annunci dinamici; facoltativo) per indirizzare gli utenti in base a coppie chiave-valore specifiche passate in tempo reale su impression da DSP, publisher o partner. È possibile specificare fino a cinque chiavi di trasferimento dati (parametri).<!-- May move this to just within the decision tree. -->
 
-In seguito, quando crei un tag di esperienza annuncio per una dimensione creativa specifica, a ogni chiave specificata in questo campo viene aggiunta una macro nel tag. Immetti il valore di ogni coppia chiave-valore all’interno del tag prima di implementare il tag come annuncio nell’DSP.
+In seguito, quando crei un tag di esperienza annuncio per una dimensione creativa specifica, a ogni chiave specificata in questo campo viene aggiunta una macro nel tag. Immetti il valore di ogni coppia chiave-valore all’interno del tag prima di implementare il tag come annuncio nel DSP.
 
 **Raggio:** (solo esperienze con annunci dinamici; facoltativo) Raggio utente da destinare. Selezionare un raggio compreso tra 0 e 200 miglia.<!-- Does this end up in the ad tag parameters? -->
 
@@ -67,7 +68,7 @@ In seguito, quando crei un tag di esperienza annuncio per una dimensione creativ
 
 **[!UICONTROL Impression Tracking URL]:** (facoltativo) URL di tracciamento delle impression di terze parti da aggiungere all&#39;URL della pagina di destinazione per qualsiasi annuncio creato dall&#39;esperienza. Puoi includere fino a cinque URL. Per aggiungere un URL aggiuntivo, fai clic su ![icona](/help/creative/assets/create.png) **[!UICONTROL Add More] e immetti l&#39;URL.
 
-Dopo aver immesso un URL, tutte le macro disponibili e i dati con cui vengono sostituite vengono elencati più in basso nella pagina. Per inserire una delle macro nell&#39;URL, posizionare il cursore sulla descrizione della macro e fare clic su ![Copia negli Appunti](/help/creative/assets/copy-to-clipboard.png "Copia negli Appunti"), quindi incollare la macro nel campo URL.
+Dopo aver immesso un URL, tutte le [macro disponibili](/help/creative/creative-macros.md) e i dati con cui vengono sostituite sono elencati più in basso nella pagina. Per inserire una delle macro nell&#39;URL, posizionare il cursore sulla descrizione della macro e fare clic su ![Copia negli Appunti](/help/creative/assets/copy-to-clipboard.png "Copia negli Appunti"), quindi incollare la macro nel campo URL.
 
 >[!NOTE]
 >
@@ -77,7 +78,7 @@ Dopo aver immesso un URL, tutte le macro disponibili e i dati con cui vengono so
 
 **[!UICONTROL Click Tracking URL]:** (facoltativo) (facoltativo) un URL di tracciamento dei clic di terze parti da aggiungere all&#39;URL della pagina di destinazione. Puoi includere fino a cinque URL. Per aggiungere un URL aggiuntivo, fare clic su ![icona](/help/creative/assets/create.png) **[!UICONTROL Add More]** e immettere l&#39;URL.
 
-Dopo aver immesso un URL, tutte le macro disponibili e i dati con cui vengono sostituite vengono elencati più in basso nella pagina. Per inserire una delle macro nell&#39;URL, posizionare il cursore sulla descrizione della macro e fare clic su ![Copia negli Appunti](/help/creative/assets/copy-to-clipboard.png "Copia negli Appunti"), quindi incollare la macro nel campo URL.
+Dopo aver immesso un URL, tutte le [macro disponibili](/help/creative/creative-macros.md) e i dati con cui vengono sostituite sono elencati più in basso nella pagina. Per inserire una delle macro nell&#39;URL, posizionare il cursore sulla descrizione della macro e fare clic su ![Copia negli Appunti](/help/creative/assets/copy-to-clipboard.png "Copia negli Appunti"), quindi incollare la macro nel campo URL.
 
 >[!NOTE]
 >
@@ -94,6 +95,7 @@ Dopo aver immesso un URL, tutte le macro disponibili e i dati con cui vengono so
 >
 >* [Crea un&#39;esperienza senza il targeting dell&#39;albero delle decisioni](experience-create-no-targeting.md)
 >* [Modificare un&#39;esperienza senza il targeting dell&#39;albero delle decisioni](experience-edit-no-targeting.md)
+>* [Macro disponibili per il tracciamento degli URL](/help/creative/creative-macros.md)
 >* [Creare manualmente un tag annuncio per una dimensione creativa applicabile](experience-tag-create-manually.md)
 >* [Assegna creatività a un tag annuncio per esperienze senza targeting](experience-tag-assign-creatives.md)
 >* [Personalizza gli URL di tracciamento per un&#39;esperienza senza targeting](experience-tracking-urls-no-targeting.md)

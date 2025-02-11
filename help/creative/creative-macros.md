@@ -3,9 +3,9 @@ title: Macro disponibili per il tracciamento degli URL
 description: Fai riferimento alle macro che puoi aggiungere agli URL di tracciamento della tua pagina di destinazione URL e creatività di terze parti.
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: 926d2a0db933a19f5ebef056eca2089f2de6ca64
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
@@ -54,5 +54,6 @@ Alcune delle macro disponibili o equivalenti vengono incluse automaticamente nei
 
 >[!MORELIKETHIS]
 >
->* 
+>* [Aggiungere creatività standard a una libreria creativa](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
+>* [Impostazioni creative standard](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
 >* 
