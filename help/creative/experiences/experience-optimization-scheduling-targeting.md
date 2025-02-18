@@ -3,9 +3,9 @@ title: Personalizzare l’ottimizzazione creativa e la pianificazione di un’es
 description: Scopri come
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: 4d0f4b2a46a65c7fa1afec0a4ef419e58b8f8f59
+source-git-commit: f6da629fdb81af4393bac9a81050111aded3ee3a
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,9 @@ Quando la pianificazione creativa è disabilitata, le impostazioni di ottimizzaz
 
 1. Seleziona il tipo di rotazione creativa:
 
-   * &amp;ast;&amp;ast; *Weighted* &amp;ast;&amp;ast; — Ruota manualmente le creatività in ciascun bundle in base al peso relativo. Inserire il peso di ogni fascio come percentuale. La somma dei pesi di tutti i bundle deve essere 100.
+   * *[!UICONTROL Weighted]:* Ruota manualmente le creatività in ogni bundle in base al peso relativo. Inserire il peso di ogni fascio come percentuale. La somma dei pesi di tutti i bundle deve essere 100.
 
-   * &amp;ast;&amp;ast; *Algoritmica* &amp;ast;&amp;ast; — Ruota le creatività in ciascun bundle in modo algoritmico in base a un obiettivo di ottimizzazione specificato.
+   * *[!UICONTROL Algorithmic]:* ruota le creatività in ciascun bundle in modo algoritmico in base a un obiettivo di ottimizzazione specificato.
 
       * Per **[!UICONTROL Optimization Goal]**, selezionare *[!UICONTROL Click Through Rate]* o *[!UICONTROL Custom Objective]*.  Se selezioni *[!UICONTROL Custom Objective]*, seleziona un [obiettivo personalizzato di Advertising DSP](/help/dsp/optimization/custom-goal.md).<!-- Verify --> esistente
 
@@ -57,9 +57,9 @@ Quando si utilizza la pianificazione, è necessario pianificare i bundle per tut
 
    1. Seleziona il tipo di rotazione creativa:
 
-      * &amp;ast;&amp;ast; *Weighted* &amp;ast;&amp;ast; — Ruota manualmente le creatività in ciascun bundle in base al peso relativo. Inserire il peso di ogni fascio come percentuale. La somma dei pesi di tutti i bundle selezionati deve essere pari a 100.
+      * *[!UICONTROL Weighted]:* Ruota manualmente le creatività in ogni bundle in base al peso relativo. Inserire il peso di ogni fascio come percentuale. La somma dei pesi di tutti i bundle selezionati deve essere pari a 100.
 
-      * &amp;ast;&amp;ast; *Algoritmica* &amp;ast;&amp;ast; — Ruota le creatività in ciascun bundle in modo algoritmico in base a un obiettivo di ottimizzazione specificato.
+      * *[!UICONTROL Algorithmic]:* ruota le creatività in ciascun bundle in modo algoritmico in base a un obiettivo di ottimizzazione specificato.
 
          * Per **[!UICONTROL Optimization Goal]**, selezionare *[!UICONTROL Click Through Rate]* o *[!UICONTROL Custom Objective]*.  Se selezioni *[!UICONTROL Custom Objective]*, seleziona un [obiettivo personalizzato di Advertising DSP](/help/dsp/optimization/custom-goal.md).<!-- Verify --> esistente
 
@@ -73,9 +73,9 @@ Quando si utilizza la pianificazione, è necessario pianificare i bundle per tut
 
    1. Seleziona il tipo di rotazione creativa:
 
-      * &amp;ast;&amp;ast; *Weighted* &amp;ast;&amp;ast; — Ruota manualmente le creatività in ciascun bundle in base al peso relativo. Inserire il peso di ogni fascio come percentuale. La somma dei pesi di tutti i bundle selezionati deve essere pari a 100.
+      * *[!UICONTROL Weighted]:* Ruota manualmente le creatività in ogni bundle in base al peso relativo. Inserire il peso di ogni fascio come percentuale. La somma dei pesi di tutti i bundle selezionati deve essere pari a 100.
 
-      * &amp;ast;&amp;ast; *Algoritmica* &amp;ast;&amp;ast; — Ruota le creatività in ciascun bundle in modo algoritmico in base a un obiettivo di ottimizzazione specificato.
+      * *[!UICONTROL Algorithmic]:* ruota le creatività in ciascun bundle in modo algoritmico in base a un obiettivo di ottimizzazione specificato.
 
          * Per **[!UICONTROL Optimization Goal]**, selezionare *[!UICONTROL Click Through Rate]* o *[!UICONTROL Custom Objective]*.  Se selezioni *[!UICONTROL Custom Objective]*, seleziona un [obiettivo personalizzato di Advertising DSP](/help/dsp/optimization/custom-goal.md).<!-- Verify --> esistente
 

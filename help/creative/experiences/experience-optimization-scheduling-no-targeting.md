@@ -3,9 +3,9 @@ title: Personalizzare l’ottimizzazione creativa e la pianificazione di un’es
 description: Scopri come
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 4d0f4b2a46a65c7fa1afec0a4ef419e58b8f8f59
+source-git-commit: f6da629fdb81af4393bac9a81050111aded3ee3a
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -35,9 +35,9 @@ Quando la pianificazione creativa è disabilitata, le impostazioni di ottimizzaz
 
 1. Seleziona il tipo di rotazione creativa:
 
-   * &amp;ast;&amp;ast; *Weighted* &amp;ast;&amp;ast; — Ruota manualmente le creatività in base al peso relativo. Immetti il peso di ogni creatività in percentuale. La somma dei pesi per tutti i creativi selezionati deve essere 100.
+   * *[!UICONTROL Weighted]:* Ruota manualmente i creativi in base al peso relativo. Immetti il peso di ogni creatività in percentuale. La somma dei pesi per tutti i creativi selezionati deve essere 100.
 
-   * &amp;ast;&amp;ast; *Algoritmica* &amp;ast;&amp;ast; — Ruota le creatività in modo algoritmico in base a un obiettivo di ottimizzazione specificato.
+   * *[!UICONTROL Algorithmic]:* ruota le creatività in modo algoritmico in base a un obiettivo di ottimizzazione specificato.
 
       * Per **[!UICONTROL Optimization Goal]**, selezionare *[!UICONTROL Click Through Rate]* o *[!UICONTROL Custom Objective]*.  Se selezioni *[!UICONTROL Custom Objective]*, seleziona un [obiettivo personalizzato di Advertising DSP](/help/dsp/optimization/custom-goal.md).<!-- Verify --> esistente
 
@@ -69,9 +69,9 @@ Quando utilizzi la pianificazione, devi pianificare le creatività per tutta la 
 
    1. Seleziona il tipo di rotazione creativa:
 
-      * &amp;ast;&amp;ast; *Weighted* &amp;ast;&amp;ast; — Ruota manualmente le creatività in base al peso relativo. Immetti il peso di ogni creatività in percentuale. La somma dei pesi per tutti i creativi selezionati deve essere 100.
+      * *[!UICONTROL Weighted]:* Ruota manualmente i creativi in base al peso relativo. Immetti il peso di ogni creatività in percentuale. La somma dei pesi per tutti i creativi selezionati deve essere 100.
 
-      * &amp;ast;&amp;ast; *Algoritmica* &amp;ast;&amp;ast; — Ruota le creatività in modo algoritmico in base a un obiettivo di ottimizzazione specificato.
+      * *[!UICONTROL Algorithmic]:* ruota le creatività in modo algoritmico in base a un obiettivo di ottimizzazione specificato.
 
          * Per **[!UICONTROL Optimization Goal]**, selezionare *[!UICONTROL Click Through Rate]* o *[!UICONTROL Custom Objective]*.  Se selezioni *[!UICONTROL Custom Objective]*, seleziona un [obiettivo personalizzato di Advertising DSP](/help/dsp/optimization/custom-goal.md).<!-- Verify --> esistente
 
@@ -85,9 +85,9 @@ Quando utilizzi la pianificazione, devi pianificare le creatività per tutta la 
 
    1. Seleziona il tipo di rotazione creativa:
 
-      * &amp;ast;&amp;ast; *Weighted* &amp;ast;&amp;ast; — Ruota manualmente le creatività in base al peso relativo. Immetti il peso di ogni creatività in percentuale. La somma dei pesi per tutti i creativi selezionati deve essere 100.
+      * *[!UICONTROL Weighted]:* Ruota manualmente i creativi in base al peso relativo. Immetti il peso di ogni creatività in percentuale. La somma dei pesi per tutti i creativi selezionati deve essere 100.
 
-      * &amp;ast;&amp;ast; *Algoritmica* &amp;ast;&amp;ast; — Ruota le creatività in modo algoritmico in base a un obiettivo di ottimizzazione specificato.
+      * *[!UICONTROL Algorithmic]:* ruota le creatività in modo algoritmico in base a un obiettivo di ottimizzazione specificato.
 
          * Per **[!UICONTROL Optimization Goal]**, selezionare *[!UICONTROL Click Through Rate]* o *[!UICONTROL Custom Objective]*.  Se selezioni *[!UICONTROL Custom Objective]*, seleziona un [obiettivo personalizzato di Advertising DSP](/help/dsp/optimization/custom-goal.md).<!-- Verify --> esistente
 
