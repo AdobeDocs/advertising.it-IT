@@ -3,9 +3,9 @@ title: '[!UICONTROL Custom Creative Report]'
 description: Scopri come generare la cross-experience [!UICONTROL Custom Creative Report].
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: c5ce127f9a9573962939539c6c449b83715d2e4c
+source-git-commit: 7e355e7574a9fb6f3fdd4073ad7a4eae3f0cf0d1
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '1915'
 ht-degree: 0%
 
 ---
@@ -107,13 +107,13 @@ Per applicare uno o più filtri, effettuare le seguenti operazioni:
 
 **[!UICONTROL Attribution Rule Settings]:** Le impostazioni variano in base al tipo di report:
 
-* **\[Tipo di attribuzione\]:** (Solo per inserzionisti con tracciamento delle conversioni di Adobi Advertising) All&#39;interno del report, come attribuire dati di conversione in una serie di eventi che portano a una conversione:
+* **\[Tipo di attribuzione\]:** (solo per inserzionisti con tracciamento delle conversioni di Adobe Advertising) All&#39;interno del rapporto, come attribuire dati di conversione in una serie di eventi che portano a una conversione:
 
    * *[!UICONTROL Unique]:* (impostazione predefinita) Conta il numero di volte in cui un valore di dimensione (ad esempio un dispositivo o un posizionamento) si trovava nel percorso di conversione.
 
    * *[!UICONTROL Multi-Touch Attribution (MTA)]:* distribuisce il credito di ogni conversione in base alla frequenza di occorrenza del valore di dimensione (ad esempio un dispositivo o un posizionamento) nel percorso di conversione. Ad esempio, se il totale delle impression prima della conversione era 10, con 8 su CTV e 2 su Mobile, l&#39;80% del credito (0,8) viene assegnato agli schermi CTV e 0,2 a Mobile.
 
-* **\[Tipo di regola\]:** (Solo per inserzionisti con tracciamento delle conversioni di Adobi Advertising) All&#39;interno del report, come attribuire dati di conversione in una serie di eventi che portano a una conversione. Puoi scegliere più di una regola se desideri confrontare le differenze tra le regole.
+* **\[Tipo regola\]:** (Solo per inserzionisti con tracciamento delle conversioni di Adobe Advertising) All&#39;interno del rapporto, come attribuire dati di conversione in una serie di eventi che portano a una conversione. Puoi scegliere più di una regola se desideri confrontare le differenze tra le regole.
 
   >[!NOTE]
   >
@@ -131,11 +131,11 @@ Per applicare uno o più filtri, effettuare le seguenti operazioni:
 
    * *[!UICONTROL U-shaped]:* attribuisce la conversione a tutti gli eventi nel percorso di conversione, ma attribuisce il maggior peso al primo e all&#39;ultimo evento, con un peso progressivamente inferiore agli eventi nel mezzo del percorso di conversione.
 
-   * *[!UICONTROL Display Only]:* attribuisce le conversioni all&#39;ultimo clic o impression DSP nel percorso di conversione. Ciò include video e annunci TV connessi ed esclude i clic sugli annunci [!DNL Advertising Search, Social, & Commerce].
+   * *[!UICONTROL Display Only]:* attribuisce le conversioni all&#39;ultimo clic o impression di DSP nel percorso di conversione. Ciò include video e annunci TV connessi ed esclude i clic sugli annunci [!DNL Advertising Search, Social, & Commerce].
 
    * *[!UICONTROL Social Only]:* Obsoleto
 
-Vedi anche &quot;[Modalità di calcolo delle regole di attribuzione, ad Adobe Advertising](/help/search-social-commerce/reports/attribution-rules.md).&quot;
+Vedere anche &quot;[Modalità di calcolo delle regole di attribuzione per Adobe Advertising](/help/search-social-commerce/reports/attribution-rules.md).&quot;
 
 **[!UICONTROL Paths as Columns]:** quali tipi di conversioni segnalare quando si sono verificati eventi precedenti sullo stesso dispositivo. Puoi includere fino a tre tipi. Per ogni tipo selezionato, viene inclusa una colonna separata per ogni metrica di conversione e viene aggiunto il suffisso specificato ([!UICONTROL (tl)], [!UICONTROL (ct)] o [!UICONTROL (vt)]):
 
@@ -206,8 +206,8 @@ Vedi anche &quot;[Modalità di calcolo delle regole di attribuzione, ad Adobe Ad
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Creative ID] | ID della creatività. |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Placement Name] | Nome del posizionamento per il quale sono stati eseguiti gli annunci. |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Buy ID] | L’ID acquisto per il posizionamento dell’annuncio. |
-| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP ID] | ID dell’DSP su cui sono stati eseguiti gli annunci. |
-| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Name] | Il nome dell’DSP su cui sono stati eseguiti gli annunci. |
+| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP ID] | ID del DSP su cui sono stati eseguiti gli annunci. |
+| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Name] | Nome del DSP su cui sono stati eseguiti gli annunci. |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Site ID] | ID del sito su cui sono stati eseguiti gli annunci. |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Site Name] | Il nome del sito in cui sono stati eseguiti gli annunci. |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Placement ID] | ID del posizionamento per il quale sono stati eseguiti gli annunci. |
@@ -251,7 +251,7 @@ Vedi anche &quot;[Modalità di calcolo delle regole di attribuzione, ad Adobe Ad
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Revenue] | Ricavi totali sugli annunci serviti per un prodotto. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Revenue] | Ricavi totali sugli annunci serviti. |
 | [!UICONTROL Conversion Metrics] | [Raggruppato per inserzionista nelle impostazioni del report] | [Conversione specifica per l&#39;inserzionista] | Totale per una metrica di conversione o un evento Adobe Analytics specifico per l’inserzionista. |
-| [!UICONTROL Custom Goals] | [Raggruppato per inserzionista nelle impostazioni del report] | [Obiettivo personalizzato specifico per l&#39;inserzionista] | La somma ponderata di tutte le conversioni incluse nell&#39;[obiettivo personalizzato](/help/dsp/optimization/custom-goal.md) specificato. |
+| [!UICONTROL Custom Goals] | [Raggruppato per inserzionista nelle impostazioni del report] | [Obiettivo personalizzato specifico per l&#39;inserzionista] | La somma ponderata di tutte le conversioni incluse nell&#39;obiettivo personalizzato [Advertising DSP](/help/dsp/optimization/custom-goal.md) specificato. |
 
 {style="table-layout:auto"}
 

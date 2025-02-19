@@ -3,9 +3,9 @@ title: Rapporti sulle prestazioni a livello di esperienza
 description: Scopri come visualizzare i rapporti sulle prestazioni a livello di esperienza.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: c5ce127f9a9573962939539c6c449b83715d2e4c
+source-git-commit: 137f334eec778499f263e26c125e97ffe37d6112
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ La visualizzazione Report include i dati seguenti:
 
    * (Facoltativo) Per modificare le conversioni segnalate, fare clic su ![Impostazioni](/help/creative/assets/settings.png) e selezionare i nomi delle conversioni nel menu **[!UICONTROL Conversions]**.&lt;!— Solo uno o più? Verifica la visualizzazione: devo vedere un inserzionista con più conversioni già impostate —>
 
-     Le colonne di conversione disponibili includono le conversioni disponibili in Advertising Search, Social e Commerce, indipendentemente dal fatto che tu sia un cliente di Search, Social e Commerce. Questo può includere metriche di conversione e di coinvolgimento del sito sincronizzate da Adobe Analytics. <!--Analytics calculated metrics and advanced calculated metrics aren't available.--> Per ulteriori informazioni sull&#39;inclusione delle conversioni raccolte nei report, vedere l&#39;argomento &quot;[Informazioni sulla gestione delle metriche di conversione di un inserzionista](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)&quot; nella Guida di Search, Social e Commerce.
+     Le colonne di conversione disponibili includono le conversioni disponibili in Advertising Search, Social e Commerce, indipendentemente dal fatto che tu sia un cliente di Search, Social e Commerce. Questo può includere metriche di conversione e coinvolgimento del sito sincronizzate da Adobe Analytics quando l&#39;inserzionista ha [un [!DNL Adobe Analytics for Advertising] integrazione](/help/integrations/analytics/overview.md). <!--Analytics calculated metrics and advanced calculated metrics aren't available.--> Per ulteriori informazioni sull&#39;inclusione delle conversioni raccolte nei report, vedere l&#39;argomento &quot;[Informazioni sulla gestione delle metriche di conversione di un inserzionista](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)&quot; nella Guida di Search, Social e Commerce.
 
 1. Nella scheda [!UICONTROL Overview]:
 
