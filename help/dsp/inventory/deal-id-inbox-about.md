@@ -3,7 +3,7 @@ title: Informazioni su [!UICONTROL Deal ID Inbox]
 description: Scopri la funzione [!UICONTROL Deal ID inbox], che ti consente di accettare offerte private già negoziate con gli editori il [!DNL FreeWheel], [!DNL Google Authorized Buyers] (precedentemente noto come [!DNL AdX]), and [!DNL Magnite DV+] (precedentemente [!DNL Rubicon]).
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: a1ba7de0-d6b4-4e22-8615-3e62d2ffdf5c
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 394a281c9b9d7eeab939f4c58508ec1f34eba67c
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Informazioni su [!UICONTROL Deal ID Inbox]
 
-Advertising DSP [!UICONTROL Deal ID inbox] consente di impostare rapidamente le offerte che l&#39;DSP ha importato dagli editori tramite piattaforme lato fornitura (SSP) in modo da non dover impostare ogni offerta manualmente. È possibile accettare le offerte di inventario privato garantite e non garantite già negoziate con gli editori il [!DNL FreeWheel], [!DNL Google Authorized Buyers] (precedentemente noto come [!DNL AdX]) e [!DNL Magnite DV+] (precedentemente [!DNL Rubicon]) da [!UICONTROL Deal ID inbox].
+Advertising DSP [!UICONTROL Deal ID inbox] consente di impostare rapidamente le offerte importate da DSP dagli editori tramite piattaforme lato fornitura (SSP) in modo da non dover impostare ogni offerta manualmente. È possibile accettare le offerte di inventario privato garantite e non garantite già negoziate con gli editori il [!DNL FreeWheel], [!DNL Google Authorized Buyers] (precedentemente noto come [!DNL AdX]) e [!DNL Magnite DV+] (precedentemente [!DNL Rubicon]) da [!UICONTROL Deal ID inbox].
 
 >[!NOTE]
 >
@@ -30,26 +30,27 @@ You can accept any available deal or move an incorrect deal to the Ignored Deals
 For each deal, you can select one publisher and one media type (Desktop Video, Mobile Video, Connected TV, Display, or Audio), and you can share the deal with specific advertisers and with all advertisers for a specific account.
  -->
 
-L&#39;DSP aggiorna automaticamente tutti i dettagli dell&#39;operazione ogni giorno alle 4:30 EST. Inoltre aggiorna tutte le [!DNL FreeWheel] offerte e aggiorna le offerte esistenti da [!DNL Google] e [!DNL Magnite DV+] ogni ora. Puoi anche aggiornare manualmente i dettagli dell’offerta per inserire nuove offerte in qualsiasi momento.
+DSP aggiorna automaticamente tutti i dettagli dell&#39;offerta ogni giorno alle 4:30 EST. Inoltre aggiorna tutte le [!DNL FreeWheel] offerte e aggiorna le offerte esistenti da [!DNL Google] e [!DNL Magnite DV+] ogni ora. Puoi anche aggiornare manualmente i dettagli dell’offerta per inserire nuove offerte in qualsiasi momento.
 
 <!-- MC: I'm not sure where I got the following. Is this currently true? -->
+
 >[!NOTE]
 >
 >Per le offerte garantite programmatiche tramite [!DNL Google Authorized Buyers], devi fornire almeno il 90% del budget oppure il tuo account perde l&#39;accesso alle offerte di [!DNL Google] in [!UICONTROL Deal ID inbox].
 
 ## Implementazione di [!UICONTROL Deal ID Inbox]
 
-Per ricevere le offerte in [!UICONTROL Deal ID inbox], gli account del provider di servizi condivisi devono mappare l&#39;account DSP dell&#39;organizzazione all&#39;account del provider di servizi condivisi. L&#39;DSP può condividere i nomi dei conti dell&#39;organizzazione con i provider di servizi condivisi interessati. Per istruzioni, contatta il team del tuo account di Adobe.
+Per ricevere le offerte in [!UICONTROL Deal ID inbox], gli account del provider di servizi condivisi devono mappare l&#39;account DSP dell&#39;organizzazione all&#39;account del provider di servizi condivisi. DSP può condividere i nomi dei conti dell&#39;organizzazione con i provider di servizi condivisi pertinenti. Contatta il team del tuo account Adobe per istruzioni.
 
 Durante le negoziazioni, chiedi all&#39;editore di inviare l&#39;affare al tuo acquirente invece che all&#39;account DSP principale. L&#39;identificativo dell&#39;operazione può essere un nome o un ID, a seconda della SSP.
 
 ## Azioni da intraprendere sulle offerte
 
-* **Rivedi le offerte** per verificare che il provider di servizi condivisi abbia inviato l&#39;editore corretto, le date di volo, il CPM e altri dettagli dell&#39;offerta. Se l&#39;editore ha commesso un errore, contattali al di fuori dell&#39;DSP in modo che possano correggere e inviare nuovamente l&#39;affare.
+* **Rivedi le offerte** per verificare che il provider di servizi condivisi abbia inviato l&#39;editore corretto, le date del volo, CPM e altri dettagli dell&#39;offerta. Se l&#39;editore ha commesso un errore, contattali al di fuori di DSP in modo che possano correggere e inviare nuovamente l&#39;affare.
 
 * **Accetta le offerte** dopo la revisione e non verranno più visualizzate in [!UICONTROL Deal ID inbox]. Le offerte accettate sono elencate in [!UICONTROL Inventory] > [!UICONTROL Deals] e sono pronte per il targeting nei posizionamenti degli inserzionisti.
 
-* **Ignora offerte** non necessarie o non richieste. Le offerte ignorate vengono spostate nella scheda [!UICONTROL Ignored Deals] all&#39;interno di [!UICONTROL Deal ID inbox], che funge da archivio. L’DSP non avvisa i provider di servizi condivisi e gli editori quando si ignora un accordo.
+* **Ignora offerte** non necessarie o non richieste. Le offerte ignorate vengono spostate nella scheda [!UICONTROL Ignored Deals] all&#39;interno di [!UICONTROL Deal ID inbox], che funge da archivio. DSP non avvisa i provider di servizi condivisi e gli editori quando si ignora un&#39;offerta.
 
 * **Modifica dettagli per offerte già accettate** da [!UICONTROL Inventory] > [!UICONTROL Deals] (non in [!UICONTROL Deal ID inbox]). Analogamente, quando gli editori inviano modifiche alle offerte, gli inserzionisti sono responsabili dell&#39;implementazione di tali modifiche in [!UICONTROL Inventory] > [!UICONTROL Deals] perché [!UICONTROL Deal ID inbox] non sincronizza le modifiche dai provider di servizi condivisi dopo la configurazione delle offerte.
 
