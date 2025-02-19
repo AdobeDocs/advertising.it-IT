@@ -3,9 +3,9 @@ title: Impostazioni delle esperienze mirate
 description: Vedi le descrizioni di tutte le impostazioni per le esperienze annuncio mirate.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: 727860ba89ae98d50a33befa28ab1654650263e6
+source-git-commit: f339fafa90f93632778e15dddcfb5f889ad77395
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Una volta salvata l&#39;esperienza, non puoi modificare questa impostazione.
 Ogni chiave viene aggiunta come macro nell’esperienza annuncio
 , che puoi generare per implementare come annuncio nel DSP.
 
-**Raggio:** (solo esperienze con annunci dinamici; facoltativo) Un raggio da un CAP degli Stati Uniti specificato nel file di feed per il target; seleziona un raggio da 0 miglia a 200 miglia. Il file di feed utilizzato per creare gli annunci dinamici per l&#39;esperienza deve includere una colonna [!UICONTROL ZIP]<!-- or a user-named column mapped to a ZIP column --> con un valore per ogni riga prodotto nel file. Ad esempio, per un raggio di 10 miglia, un annuncio per un prodotto disponibile in 95110 può essere visualizzato agli utenti entro 10 miglia da 95110.
+**Raggio:** (solo esperienze con annunci dinamici; facoltativo) Un raggio da un CAP degli Stati Uniti specificato nel file di feed per il target; seleziona un raggio da 0 miglia a 200 miglia. Il file di feed utilizzato per creare gli annunci dinamici per l&#39;esperienza deve includere una colonna [!UICONTROL ZIP]<!-- or a user-named column mapped to a ZIP column --> con un valore per ogni riga prodotto nel file. Ad esempio, per un raggio di 10 miglia, un annuncio per un prodotto disponibile in 95110 può essere visualizzato agli utenti entro 10 miglia da 95110 (determinato dall’indirizzo IP dell’utente).
 
 **Pixel RT:** (sola lettura per le esperienze esistenti; facoltativo) Un pixel di retargeting [!UICONTROL Creative] per la destinazione potenziale. Quando configuri il targeting all’interno dell’albero decisionale, puoi includere un livello di nodi di destinazione di pixel RT e specificare il pixel di destinazione per ogni nodo, nonché i valori richiesti per gli attributi del pixel che devono essere presenti per mostrare i creativi nei bundle creativi assegnati. Se non specifichi un pixel in questo campo quando crei l&#39;esperienza, puoi comunque specificarne uno all&#39;interno dell&#39;albero decisionale.<!-- May move this to just within the decision tree. -->
 

@@ -3,9 +3,9 @@ title: Impostazioni per esperienze non di destinazione
 description: Vedi le descrizioni di tutte le impostazioni per le esperienze pubblicitarie senza targeting della struttura decisionale.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: 4d362e7321433cb3c4ef34790f8ae26f817cd9d9
+source-git-commit: f4d83da98f89313624e038fd1d8f0fedcf802cc4
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Per le esperienze senza il targeting della struttura decisionale, è possibile s
 
 In seguito, quando crei un tag di esperienza annuncio per una dimensione creativa specifica, a ogni chiave specificata in questo campo viene aggiunta una macro nel tag. Immetti il valore di ogni coppia chiave-valore all’interno del tag prima di implementare il tag come annuncio nel DSP.
 
-**Raggio:** (solo esperienze con annunci dinamici; facoltativo) Un raggio da un CAP degli Stati Uniti specificato nel file di feed per il target; seleziona un raggio da 0 miglia a 200 miglia. Il file di feed utilizzato per creare gli annunci dinamici per l&#39;esperienza deve includere una colonna [!UICONTROL ZIP]<!-- or a user-named column mapped to a ZIP column --> con un valore per ogni riga prodotto nel file. Ad esempio, per un raggio di 10 miglia, un annuncio per un prodotto disponibile in 95110 può essere visualizzato agli utenti entro 10 miglia da 95110.
+**Raggio:** (solo esperienze con annunci dinamici; facoltativo) Un raggio da un CAP degli Stati Uniti specificato nel file di feed per il target; seleziona un raggio da 0 miglia a 200 miglia. Il file di feed utilizzato per creare gli annunci dinamici per l&#39;esperienza deve includere una colonna [!UICONTROL ZIP]<!-- or a user-named column mapped to a ZIP column --> con un valore per ogni riga prodotto nel file. Ad esempio, per un raggio di 10 miglia, un annuncio per un prodotto disponibile in 95110 può essere visualizzato agli utenti entro 10 miglia da 95110 (determinato dall’indirizzo IP dell’utente).
 
 **Pixel RT:** (solo esperienze con annunci dinamici; facoltativo) Un pixel di retargeting [!UICONTROL Creative] per il potenziale target. Quando configuri il targeting all’interno dell’albero decisionale, puoi includere un livello di nodi di destinazione di pixel RT e specificare il pixel di destinazione per ogni nodo, nonché i valori richiesti per gli attributi del pixel che devono essere presenti per mostrare i creativi nei bundle creativi assegnati. Se non specifichi un pixel in questo campo, puoi comunque specificarne uno all’interno dell’albero decisionale.&lt;!— Da R: &quot;il Pixel RT dovrebbe essere tramite la selezione del contenuto nella Dynamic Ad Setup&quot; — chiarimento. Nelle impostazioni degli annunci dinamici viene visualizzato &quot;Datapass&quot; (una parola), ma non sono sicuro di come funzionino insieme questa impostazione e questo livello di esperienza. —>
 
