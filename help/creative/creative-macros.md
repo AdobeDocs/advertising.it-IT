@@ -1,11 +1,11 @@
 ---
 title: Macro disponibili per il tracciamento degli URL
-description: Fai riferimento alle macro che puoi aggiungere agli URL di tracciamento della tua pagina di destinazione URL e creatività di terze parti.
+description: Fai riferimento alle macro che puoi aggiungere agli URL della tua pagina di destinazione, agli URL di tracciamento e alle creatività di terze parti.
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
+source-git-commit: fe3e991f1fba2944e7a3f8e4930c48c7dbd28770
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,12 @@ Alcune delle macro disponibili o equivalenti vengono incluse automaticamente nei
 | `${TM_ACC_EXPERIENCE_ID}` | Tiene traccia e segnala l’ID esperienza Advertising Creative | — |
 | `${TM_ACC_CREATIVE_ID}` | Tiene traccia e segnala l’ID creativo di Advertising Creative | — |
 | `${TM_RANDOM}` | Un numero casuale compreso tra 1 e 1000000 | — |
-| `${TM_TIMESTAMP}` | Il timestamp Unix (in secondi) | — |
-| `${TM_CLICK_URL_URLENC}` | (Per annunci di terze parti di fornitori che richiedono la codifica URL) L’URL di reindirizzamento dei clic codificato, che consente ai server di annunci di tenere traccia e contare i clic degli annunci. Quando l’annuncio viene distribuito e l’utente fa clic su di esso, la macro viene attivata e il clic viene registrato e conteggiato a scopo di reporting. | Sì |
+| `${TM_TIMESTAMP}` | Timestamp UNIX® (in secondi) | — |
+| `${TM_CLICK_URL_URLENC}` | (Per annunci di terze parti di fornitori che richiedono la codifica URL) L’URL di reindirizzamento dei clic codificato, che consente ai server di annunci di tenere traccia e contare i clic degli annunci. Quando l’utente fa clic sull’annuncio, la macro viene attivata e il clic viene registrato e conteggiato a scopo di reporting. | Sì |
 
 >[!MORELIKETHIS]
 >
 >* [Aggiungere creatività standard a una libreria creativa](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
 >* [Impostazioni creative standard](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
->* 
+>* [Impostazioni esperienza di destinazione](/help/creative/experiences/experience-settings-targeting.md)
+>*[Impostazioni esperienza non mirate](/help/creative/experiences/experience-settings-no-targeting.md)
