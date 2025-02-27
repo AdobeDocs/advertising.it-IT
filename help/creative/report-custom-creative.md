@@ -3,9 +3,9 @@ title: '[!UICONTROL Custom Creative Report]'
 description: Scopri come generare la cross-experience [!UICONTROL Custom Creative Report].
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: 98c6b4e67d21228f3ae114b52da29ba1dec8ccfa
+source-git-commit: 2062e2ce4f92070b209422c3184e9c0b14229bb5
 workflow-type: tm+mt
-source-wordcount: '1920'
+source-wordcount: '1910'
 ht-degree: 0%
 
 ---
@@ -198,54 +198,53 @@ Vedere anche &quot;[Modalità di calcolo delle regole di attribuzione per Adobe 
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Parent Creative Type] | Il tipo di contenuto creativo principale (ad esempio [!UICONTROL HTML5]). |
 | [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Ad Link] | . |
 | [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Click Type] | Tipo di clic. |
-| [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Direction] |
+| [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Direction] | |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Device Browser] | Browser in cui è stato visualizzato l&#39;annuncio (ad esempio [!UICONTROL Chrome] o [!UICONTROL Firefox]). |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Device OS] | Sistema operativo in cui è stato visualizzato l&#39;annuncio (ad esempio [!UICONTROL Windows]). |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Device Type] | Tipo di dispositivo su cui è stato visualizzato l&#39;annuncio (ad esempio [!UICONTROL Desktop]). |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Ad ID] | ID dell’annuncio. |
-| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Creative ID] | ID della creatività. |
-| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Placement Name] | Nome del posizionamento per il quale sono stati eseguiti gli annunci. |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Buy ID] | L’ID acquisto per il posizionamento dell’annuncio. |
+| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Creative ID] | ID della creatività. |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP ID] | ID del DSP su cui sono stati eseguiti gli annunci. |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Name] | Nome del DSP su cui sono stati eseguiti gli annunci. |
-| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Site ID] | ID del sito su cui sono stati eseguiti gli annunci. |
-| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Site Name] | Il nome del sito in cui sono stati eseguiti gli annunci. |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Placement ID] | ID del posizionamento per il quale sono stati eseguiti gli annunci. |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Placement Name] | Nome del posizionamento per il quale sono stati eseguiti gli annunci. |
+| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Site ID] | ID del sito su cui sono stati eseguiti gli annunci. |
+| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Site Name] | Il nome del sito in cui sono stati eseguiti gli annunci. |
+| [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Ad Tag Id] | L&#39;ID che [!UICONTROL Creative] ha assegnato al tag esperienza annuncio. |
 | [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Advertiser Name] | Nome dell&#39;inserzionista. |
+| [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Date/Time] | La data e l’ora dell’evento. |
 | [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Experience ID] | L&#39;ID assegnato [!UICONTROL Creative] all&#39;esperienza. |
 | [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Experience Name] | Nome dell’esperienza. |
 | [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Targeting Branch Value] | Il bersaglio. |
 | [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Trafficking Line] | |
-| [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Date/Time] | La data e l’ora dell’evento. |
-| [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Ad Tag Id] | L&#39;ID che [!UICONTROL Creative] ha assegnato al tag esperienza annuncio. |
 | [!UICONTROL Dimension] | [!UICONTROL Geo] | [!UICONTROL City] | La città alla quale sono attribuiti i dati segnalati. |
 | [!UICONTROL Dimension] | [!UICONTROL Geo] | [!UICONTROL Country Code] | Il codice del paese al quale sono attribuiti i dati segnalati. |
 | [!UICONTROL Dimension] | [!UICONTROL Geo] | [!UICONTROL DMA] | L’area di mercato designata (DMA) alla quale sono attribuiti i dati segnalati. |
 | [!UICONTROL Dimension] | [!UICONTROL Geo] | [!UICONTROL State Code] | Il codice dello stato a cui sono attribuiti i dati segnalati. |
 | [!UICONTROL Dimension] | [!UICONTROL Geo] | [!UICONTROL Zip Code] | Il codice postale al quale vengono attribuiti i dati segnalati. |
 | [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Category ID] | (Annunci dinamici) L’ID della categoria del prodotto di destinazione. |
-| [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Category ID] | (Annunci dinamici) Il nome della categoria del prodotto di destinazione. |
-| [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Product ID] | (Annunci dinamici) L’ID prodotto di destinazione. |
-| [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Product ID] | (Annunci dinamici) Il nome del prodotto target. |
+| [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Category Name] | (Annunci dinamici) Il nome della categoria del prodotto di destinazione. |
 | [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Creative Attribute 1] | (Annunci dinamici) Il primo attributo creativo. |
 | [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Creative Attribute 2] | (Annunci dinamici) Il secondo attributo creativo. |
 | [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Creative Attribute 3] | (Annunci dinamici) Il terzo attributo creativo. |
 | [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Creative Attribute 4] | (Annunci dinamici) Il quarto attributo creativo. |
 | [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Creative Attribute 5] | (Annunci dinamici) Il quinto attributo creativo. |
+| [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Product ID] | (Annunci dinamici) L’ID prodotto di destinazione. |
+| [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Product Name] | (Annunci dinamici) Il nome del prodotto target. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Matched Audience Segment ID] | L’ID del segmento di pubblico a cui vengono attribuiti i dati segnalati. |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Pixel Segment ID] | L’ID del segmento di pubblico a cui vengono attribuiti i dati segnalati. |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Pixel Segment Name] | Il nome di un segmento di pubblico a cui vengono attribuiti i dati segnalati. |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Values] | Attributi per un segmento di pubblico a cui sono attribuiti i dati segnalati. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Matched Audience Segment ID] | L’ID del segmento di pubblico a cui vengono attribuiti i dati segnalati. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Clicks] | La somma di tutti i clic su un annuncio. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL CTR] | Il tasso di click-through, che è la percentuale di clic divisa per le impression pubblicitarie. |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Engagements] | Il numero di interazioni su un annuncio distribuito. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Engagement Rate] | Percentuale di impression distribuite che hanno portato a impegni dell’utente. |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Engagements] | Il numero di interazioni su un annuncio distribuito. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Impressions] | Numero totale di ad impression. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Media Match Rate] | |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Clicks] | La somma di tutti i clic sugli annunci di un prodotto. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion] | La somma di tutte le conversioni sugli annunci di un prodotto. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion Rate] | La percentuale di annunci per un prodotto che ha generato conversioni. |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Clicks] | La somma di tutti i clic sugli annunci di un prodotto. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product CTR] | Il tasso di click-through per gli annunci di un prodotto, che è la percentuale di clic divisa per le impression pubblicitarie. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Impressions] | Numero totale di impression per un prodotto. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Revenue] | Ricavi totali sugli annunci serviti per un prodotto. |
