@@ -3,9 +3,9 @@ title: Raccogliere dati storici per AMO ID e EF ID da utilizzare in Adobe Custom
 description: Scopri come raccogliere dati storici per le variabili riservate in Adobe Analytics per utilizzi futuri in Adobe Customer Journey Analytics
 feature: Integration with Adobe Analytics
 exl-id: 1f8fa139-f146-426b-b0c4-079f8e2de56c
-source-git-commit: fa3065d12d5c8828eaaeaca52deeadfec7b0e318
+source-git-commit: 6bf9647910aa7b1f74cf2bd726f8de27a8641b38
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -48,16 +48,16 @@ Questo passaggio è manuale e deve essere completato per ogni suite di rapporti 
       * Per `AMO ID`:
 
          1. Seleziona **Sovrascrivi il valore di**.
-         1. Seleziona *\&lt;eVar nuovo/non utilizzato\>*
+         1. Seleziona *\&lt;eVar nuovo/non utilizzato\>*.
          1. Selezionare **Parametro stringa di query**.
          1. Immettere `s_kwcid`.
 
-        Esempio: sovrascrivere il valore di `rVar10` con il parametro della stringa di query `s_kwcid`
+        Esempio: &quot;Sovrascrivi il valore di `rVar10` con il parametro della stringa di query &#39;s_kwcid&quot;
 
       * Per `EF ID`:
 
          1. Seleziona **Sovrascrivi il valore di**.
-         1. Seleziona *\&lt;eVar nuovo/non utilizzato\>*
+         1. Seleziona *\&lt;eVar nuovo/non utilizzato\>*.
          1. Selezionare **Parametro stringa di query**.
          1. Immettere `ef_id`.
 
