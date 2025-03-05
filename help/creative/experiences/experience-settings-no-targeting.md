@@ -3,7 +3,7 @@ title: Impostazioni per esperienze non di destinazione
 description: Vedi le descrizioni di tutte le impostazioni per le esperienze pubblicitarie senza targeting della struttura decisionale.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: f4d83da98f89313624e038fd1d8f0fedcf802cc4
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 **\[Creatività predefinita specificata\]:** Creatività immagine predefinita da utilizzare quando un browser non è in grado di visualizzare i creativi assegnati all&#39;esperienza, ad esempio quando il browser non è abilitato per JavaScript o l&#39;ad server non può personalizzare l&#39;annuncio a causa di ritardi. Includi un&#39;immagine creativa per ogni dimensione dell&#39;annuncio a cui si applica l&#39;esperienza. Le tue scelte determinano le dimensioni creative che possono essere utilizzate per l&#39;esperienza. <!-- In the legacy product, you selected the ad sizes for the experience, and then selected default images for each of those ad sizes. -->
 
-Per le esperienze senza il targeting della struttura decisionale, è possibile sostituire le creatività predefinite con creative della stessa dimensione entro [!UICONTROL Tag Manager].<!-- verify -->
+Per le esperienze senza il targeting della struttura decisionale, è possibile sostituire le creatività predefinite con creative della stessa dimensione entro [!UICONTROL Tag Manager].
 
 * Per aggiungere un contenuto creativo predefinito con dimensioni diverse, fare clic su **[!UICONTROL + Add Sizes]**, selezionare la casella di controllo accanto a ogni contenuto creativo da aggiungere nel riquadro di destra, quindi fare clic su **[!UICONTROL Add Creatives]**.
 

@@ -3,9 +3,9 @@ title: Gestire i pixel di retargeting
 description: Scopri come creare e implementare pixel di retargeting da utilizzare come destinazioni per le esperienze pubblicitarie.
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: 147f47fcdc504fba67a6894edaa9249662131e05
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Esempio di pixel:
 
    Se aggiungi manualmente attributi aggiuntivi, devi includere la codifica URL.
 
-   Ad esempio, se hai incluso gli attributi &quot;category&quot;, &quot;color&quot; e &quot;size&quot; e acquisisci ID5 ID universali, il tag pixel includerà i seguenti parametri: `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` e `&id5pid=--Insert ID5_PARTNER_ID--`. Per eseguire il targeting degli utenti che selezionano sandali rossi nella dimensione 10, ad esempio, è necessario modificare i parametri sia nel tag immagine che nel tag script in `&ut1=sandals&ut2=red&ut3=10` e immettere anche l&#39;ID partner ID5 nel tag script, ad esempio `&id5pid=0123456789`.
+   Ad esempio, se hai incluso gli attributi &quot;category&quot;, &quot;color&quot; e &quot;size&quot; e acquisisci ID5 ID universali, il tag pixel include i seguenti parametri: `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` e `&id5pid=--Insert ID5_PARTNER_ID--`. Per eseguire il targeting degli utenti che selezionano sandali rossi nella dimensione 10, ad esempio, modifica i parametri sia nel tag immagine che nel tag script in `&ut1=sandals&ut2=red&ut3=10` e immetti anche l&#39;ID partner ID5 nel tag script, ad esempio `&id5pid=0123456789`.
 
    `<img src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--" />  <script src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&cro=F&id5Consent=T&id5pid=--0123456789--&lrConsent=T&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--"></script>`
 
@@ -99,17 +99,17 @@ Esempio di pixel:
 
 ## Impostazioni dei pixel di retargeting {#retargeting-pixel-settings}
 
-**[!UICONTROL Pixel Name]:** Il nome del pixel. **Nota:** il tag pixel includerà l&#39;ID pixel (`pxId=<ID>`), non il nome pixel.
+**[!UICONTROL Pixel Name]:** Il nome del pixel. **Nota:** il tag pixel include l&#39;ID pixel (`pxId=<ID>`), non il nome pixel.
 
 **[!UICONTROL Advertiser]:** (sola lettura per pixel esistenti) L&#39;inserzionista per il quale viene tracciato il pixel.
 
 **[!UICONTROL Attribute 1]:** attributo da includere nel tag pixel, ad esempio &quot;SKU&quot;, &quot;category&quot;, &quot;size&quot; o altri attributi della pagina o del prodotto visualizzato nella pagina. Specifica un valore per l’attributo nel tag pixel prima di inserirlo nelle pagine web pertinenti.
 
-Quando esegui il targeting di esperienze pubblicitarie per utenti esposti al pixel, le impostazioni di targeting specificano i valori di attributo che devono essere presenti per mostrare i creativi.
+Quando esegui il targeting di esperienze pubblicitarie per utenti esposti al pixel, le impostazioni di targeting specificano i valori di attributo che devono essere presenti per visualizzare i creativi.
 
 **[!UICONTROL Attribute 2]**, **[!UICONTROL Attribute 3]**, **[!UICONTROL Attribute 4]**, **[!UICONTROL Attribute 5]:** (Facoltativo) Attributi aggiuntivi da includere nel tag pixel. Specifica un valore per ogni attributo aggiuntivo nel tag pixel prima di inserirlo nelle pagine Web pertinenti.
 
-Quando esegui il targeting di esperienze pubblicitarie per utenti esposti al pixel, le impostazioni di targeting specificano i valori di attributo che devono essere presenti per mostrare i creativi.
+Quando esegui il targeting di esperienze pubblicitarie per utenti esposti al pixel, le impostazioni di targeting specificano i valori di attributo che devono essere presenti per visualizzare i creativi.
 
 **[!UICONTROL Advanced]** > **[!UICONTROL Universal IDs]:** (funzionalità Beta; solo nuovi pixel; facoltativo) Tipi di ID universali per il tag pixel da tracciare:
 

@@ -3,9 +3,9 @@ title: Impostazioni creative
 description: Informazioni su xxxx.
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '1835'
+source-wordcount: '1810'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Versione beta chiusa*
 
-L’impostazione varia in base al tipo di creatività.
+Le impostazioni variano in base al tipo di creatività.
 
 Quando si modificano più contenuti creativi contemporaneamente:
 
@@ -26,7 +26,7 @@ Quando si modificano più contenuti creativi contemporaneamente:
 
 ### Scheda Dettagli
 
-**Nome creativo:** Il nome della creatività. Il nome del modello o del file caricato è utilizzato per impostazione predefinita, ma puoi modificarlo. Per più creativi, puoi modificare i singoli nomi creativi. **Suggerimento:** Includi le dimensioni dell&#39;annuncio nel nome creativo e utilizza un nome facile da trovare quando includi il contenuto creativo in un&#39;esperienza.
+**Nome Creative:** il nome della creatività. Il nome del modello o del file caricato è utilizzato per impostazione predefinita, ma puoi modificarlo. Per più creativi, puoi modificare i singoli nomi creativi. **Suggerimento:** includere la dimensione dell&#39;annuncio nel nome della creatività e utilizzare un nome che risulti facile da trovare quando si include la creatività in un&#39;esperienza.
 
 **Lingua:** lingua predefinita per ogni annuncio a cui si associano i creativi. Quando carichi o modifichi più creativi, lo stesso valore viene applicato a ciascun creativo selezionato.
 
@@ -66,7 +66,7 @@ Per informazioni sugli attributi disponibili nei modelli predefiniti, vedere &qu
 
 Il file modello HTML5 flessibile per la creatività.
 
-Facoltativamente, è possibile sostituire il modello esistente con un nuovo modello con un layout diverso ma con lo stesso insieme di nomi di attributi del modello originale. Il nuovo modello deve essere in formato ZIP con un massimo di 2 MB. Quando il contenuto creativo si trova in un bundle, tutte le esperienze che utilizzano il bundle utilizzeranno successivamente il layout del nuovo modello.
+Facoltativamente, è possibile sostituire il modello esistente con un nuovo modello con un layout diverso ma con lo stesso insieme di nomi di attributi del modello originale. Il nuovo modello deve essere in formato ZIP con un massimo di 2 MB. Quando la creatività si trova in un bundle, tutte le esperienze che utilizzano il bundle in seguito utilizzano il layout del nuovo modello.
 
 Quando aggiorni il modello per un contenuto creativo principale con varianti secondarie, le varianti vengono aggiornate in base alle modifiche apportate al layout del modello, ma i valori degli attributi per la variante non vengono modificati.
 
@@ -94,7 +94,7 @@ Per sostituire il modello di annuncio esistente:
 
 Per i nuovi creativi, le seguenti impostazioni non si trovano in una scheda denominata.
 
-**Nome creativo:** Il nome della creatività. Per una nuova creatività, il nome del file viene utilizzato per impostazione predefinita, ma è possibile modificarlo. Per più creativi, puoi modificare i singoli nomi creativi. **Suggerimento:** Includi le dimensioni dell&#39;annuncio nel nome creativo e utilizza un nome facile da trovare quando includi il contenuto creativo in un&#39;esperienza.
+**Nome Creative:** il nome della creatività. Per una nuova creatività, il nome del file viene utilizzato per impostazione predefinita, ma è possibile modificarlo. Per più creativi, puoi modificare i singoli nomi creativi. **Suggerimento:** includere la dimensione dell&#39;annuncio nel nome della creatività e utilizzare un nome che risulti facile da trovare quando si include la creatività in un&#39;esperienza.
 
 **Lingua:** lingua predefinita per ogni annuncio a cui si associano i creativi. Quando carichi o modifichi più creativi, lo stesso valore viene applicato a ciascun creativo selezionato.
 
@@ -126,7 +126,7 @@ Quando includi un contenuto creativo in un bundle e assegni il bundle a un’esp
 
 Il file modello HTML5 per la creatività.
 
-Facoltativamente, è possibile sostituire il modello esistente con un nuovo modello con un layout diverso ma con lo stesso insieme di nomi di attributi del modello originale. Il nuovo modello deve essere in formato ZIP con un massimo di 2 MB. Quando il contenuto creativo si trova in un bundle, tutte le esperienze che utilizzano il bundle utilizzeranno successivamente il layout del nuovo modello.
+Facoltativamente, è possibile sostituire il modello esistente con un nuovo modello con un layout diverso ma con lo stesso insieme di nomi di attributi del modello originale. Il nuovo modello deve essere in formato ZIP con un massimo di 2 MB. Quando la creatività si trova in un bundle, tutte le esperienze che utilizzano il bundle in seguito utilizzano il layout del nuovo modello.
 
 Quando aggiorni il modello per un contenuto creativo principale con varianti secondarie, le varianti vengono aggiornate in base alle modifiche apportate al layout del modello, ma i valori degli attributi per la variante non vengono modificati.
 
@@ -150,15 +150,15 @@ Per sostituire il modello di annuncio esistente:
 
 ## Impostazioni creative immagini {#creative-settings-image}
 
-**Nome creativo:** Il nome della creatività. Per una nuova creatività, il nome del file viene utilizzato per impostazione predefinita, ma è possibile modificarlo. Per più immagini, puoi modificare i singoli nomi creativi. **Suggerimento:** utilizza un nome facile da trovare quando includi il contenuto creativo in un&#39;esperienza.
+**Nome Creative:** il nome della creatività. Per una nuova creatività, il nome del file viene utilizzato per impostazione predefinita, ma è possibile modificarlo. Per più immagini, puoi modificare i singoli nomi creativi. **Suggerimento:** utilizza un nome facile da trovare quando includi il contenuto creativo in un&#39;esperienza.
 
-**Lingua:** lingua predefinita per ogni annuncio a cui si associano i creativi. Lo stesso valore si applica a tutte le immagini selezionate. &lt;!— VERIFICA SE QUALCOSA PUÒ ACCADERE A LIVELLO DI BUNDLE e se le impostazioni dell&#39;esperienza sono solo a livello di esperienza: quando includi i creativi in un&#39;esperienza, puoi facoltativamente personalizzare le preferenze linguistiche per l&#39;esperienza.
+**Lingua:** lingua predefinita per ogni annuncio a cui si associano i creativi. Lo stesso valore si applica a tutte le immagini selezionate. Quando includi i creativi in un’esperienza, puoi facoltativamente personalizzare le preferenze di lingua per l’esperienza.
 
-**Dimensione creativa:** (sola lettura) le dimensioni delle immagini caricate.
+**Dimensione Creative:** (sola lettura) le dimensioni delle immagini caricate.
 
 **URL della pagina di destinazione:** URL della pagina di destinazione predefinita per ogni annuncio a cui si associano i creativi. L’URL della pagina di destinazione deve essere un URL valido che inizia con http:// o https://. Può includere parametri di tracciamento di terze parti o [[!DNL Creative] macro](/help/creative/creative-macros.md) per uso personale. Lo stesso valore si applica a tutte le immagini selezionate.
 
-Quando includi un contenuto creativo in un bundle e assegni il bundle a un’esperienza, puoi facoltativamente modificare l’URL della pagina di destinazione e aggiungere URL di tracciamento impression e clic e JavaScript per ogni contenuto creativo nel bundle. <!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
+Quando includi un contenuto creativo in un bundle e quindi assegni il bundle a un’esperienza, puoi facoltativamente modificare l’URL della pagina di destinazione e aggiungere URL di tracciamento di impression e clic e JavaScript per ogni contenuto creativo nel bundle. <!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
 
 **Etichetta:** (facoltativo) qualsiasi etichetta da applicare a tutti i creativi selezionati. È possibile filtrare i creativi per etichetta in varie visualizzazioni in [!DNL Creative].
 
@@ -172,21 +172,21 @@ Quando includi un contenuto creativo in un bundle e assegni il bundle a un’esp
 
 ## Impostazioni creative di terze parti {#creative-settings-third-party}
 
-**Codice JavaScript:** un tag JavaScript (e facoltativamente un tag alternativo per i browser che non supportano JavaScript) che punta alla creatività sul server di annunci di terze parti. Lo script varia a seconda del server di annunci. Quando modifichi più creativi, lo stesso valore viene applicato a ciascun creativo selezionato.
+**Codice JavaScript:** un tag JavaScript (e facoltativamente un tag alternativo per i browser che non supportano JavaScript) che punta alla creatività sul server di annunci di terze parti. Lo script può variare a seconda del server di annunci. Quando modifichi più creativi, lo stesso valore viene applicato a ciascun creativo selezionato.
 
 Tutte le [macro disponibili](/help/creative/creative-macros.md) e i dati con cui vengono sostituite sono elencati sotto il campo di input. Per inserire una delle macro nel tag, posizionare il cursore sulla descrizione della macro e fare clic su ![Copia negli Appunti](/help/creative/assets/copy-to-clipboard.png "Copia negli Appunti"), quindi incollare l&#39;immagine nel punto desiderato all&#39;interno del tag.
 
-Quando includi questo contenuto creativo in un’esperienza implementata come annuncio da un DSP, DSP utilizza le informazioni contenute in questo tag per visualizzare l’annuncio e tracciare impression e clic su di esso, quindi invia il tag all’ad exchange. Quando l&#39;annuncio viene visualizzato e selezionato, il server dell&#39;annuncio, DSP e [!DNL Creative] terranno traccia degli eventi.
+Quando includi questa creatività in un’esperienza implementata come annuncio da un DSP, DSP utilizza le informazioni contenute in questo tag per visualizzare l’annuncio e tracciare impression e clic su di esso. Il DSP quindi invia il tag allo scambio di annunci. Quando l&#39;annuncio viene visualizzato e selezionato, il server dell&#39;annuncio, il DSP e [!DNL Creative] tengono traccia degli eventi.
 
 **[!UICONTROL Advertiser]:** (sola lettura) L&#39;inserzionista a cui è disponibile la libreria.
 
-**Nome creativo:** Il nome della creatività. **Suggerimento:** utilizza un nome facile da trovare quando includi il contenuto creativo in un&#39;esperienza.
+**Nome Creative:** il nome della creatività. **Suggerimento:** utilizza un nome facile da trovare quando includi il contenuto creativo in un&#39;esperienza.
 
-**Dimensione creativa:** (sola lettura per annunci esistenti) Dimensioni della creatività. Per i nuovi creativi, seleziona da un elenco di dimensioni di annuncio standard.
+**Dimensione Creative:** (sola lettura per annunci esistenti) le dimensioni della creatività. Per i nuovi creativi, seleziona da un elenco di dimensioni di annuncio standard.
 u
 **Lingua:** lingua predefinita per ogni annuncio a cui si associano i creativi.
 
-**URL pagina di destinazione:** URL della pagina di destinazione utilizzato per convalidare ogni annuncio a cui si associano i creativi. La pagina di destinazione effettiva per ogni annuncio è determinata dal server di annunci di terze parti.
+**URL pagina di destinazione:** URL della pagina di destinazione utilizzato per convalidare ogni annuncio a cui si associano i creativi. Il server di annunci di terze parti determina la pagina di destinazione effettiva di ciascun annuncio.
 
 **Etichetta:** (facoltativo) qualsiasi etichetta da applicare a tutti i creativi selezionati. È possibile filtrare i creativi per etichetta in varie visualizzazioni in [!DNL Creative].
 

@@ -2,9 +2,10 @@
 title: Modificare i contenuti originali standard in una libreria creativa
 description: Scopri come modificare le impostazioni delle creatività standard (non dinamiche) in una libreria creativa.
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -13,11 +14,11 @@ ht-degree: 0%
 
 *Versione beta chiusa*
 
-Puoi modificare alcune impostazioni per ogni tipo di creatività standard. È possibile modificare più elementi creativi <!-- or creative variations --> dello stesso tipo creativo (solo HTML5 con una sola pagina di destinazione, static HTML5 con più pagine di destinazione, Flexible HTML5, Immagine o terze parti<!-- , or dynamic -->) solo.
+Puoi modificare alcune impostazioni per ogni tipo di creatività standard. È possibile modificare più creativi<!-- or creative variations --> dello stesso tipo creativo (HTML5 semplice con una sola pagina di destinazione, HTML5 statico con più pagine di destinazione, HTML5 flessibile, immagine o terze parti<!-- , or dynamic -->) solo.
 
-Per i creativi flessibili di HTML5 e HTML5 statici, puoi caricare un nuovo file modello con un layout diverso ma con lo stesso set di nomi di attributi. Per i creativi HTML5 semplici, puoi modificare qualsiasi attributo o aggiungere immagini caricando un nuovo modello con i nuovi attributi o immagini. In tutti i casi, il modello deve essere un file locale in formato ZIP con un massimo di 2 MB.
+Per i creativi flessibili di HTML5 e HTML5 statici, puoi caricare un nuovo file modello con un layout diverso ma con lo stesso set di nomi di attributi. Per semplici creativi HTML5, è possibile modificare qualsiasi attributo o aggiungere immagini caricando un nuovo modello con i nuovi attributi o immagini. In tutti i casi, il modello deve essere un file locale in formato ZIP con un massimo di 2 MB.
 
-Quando si modifica un elemento creativo <!-- or creative variation --> incluso in un bundle, le modifiche vengono applicate automaticamente a tutte le esperienze che includono il bundle, tranne per il fatto che le pagine di destinazione e gli URL di tracciamento personalizzati specificati a livello di esperienza rimangono applicabili al bundle associato a tale esperienza.
+Quando modifichi un contenuto creativo<!-- or creative variation --> incluso in un bundle, le modifiche vengono applicate automaticamente a tutte le esperienze che includono il bundle, tranne per il fatto che tutte le pagine di destinazione personalizzate e gli URL di tracciamento specificati a livello di esperienza rimangono applicabili al bundle allegato a tale esperienza.
 
 1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -39,7 +40,7 @@ Quando si modifica un elemento creativo <!-- or creative variation --> incluso i
 
      Per selezionare tutte le righe, selezionare la casella di controllo globale in alto a sinistra.
 
-1. Modifica le [impostazioni creative per le immagini](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image), [impostazioni creative per i HTML](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5), [impostazioni creative per i HTML5 flessibili](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) o [impostazioni creative per terze parti](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party). <!-- , or [dynamic creative settings](/help/creative/creative-libraries/creative-settings-dynamic.md) -->
+1. Modifica le [impostazioni creative per le immagini](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image), le [impostazioni creative per HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5), le [impostazioni creative flessibili per HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) o le [impostazioni creative per terze parti](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party). <!-- , or [dynamic creative settings](/help/creative/creative-libraries/creative-settings-dynamic.md) -->
 
    Quando si modificano più contenuti creativi contemporaneamente:
 
@@ -49,7 +50,7 @@ Quando si modifica un elemento creativo <!-- or creative variation --> incluso i
 
    >[!NOTE]
    >
-   >* (Solo per creatività di Flexible HTML5) È possibile modificare gli attributi solo per singole creatività.<!-- Also, when you update the template for a parent creative with child variations, the variations are updated with any changes to the template layout, but the attribute values for the variation aren't changed. -->
+   >* (Solo per creatività HTML5 flessibile) È possibile modificare gli attributi solo per singole creatività.<!-- May never be implemented: Also, when you update the template for a parent creative with child variations, the variations are updated with any changes to the template layout, but the attribute values for the variation aren't changed. -->
 
 <!-- Not there as of 1/16/25. If we do add it, verify the applicable ad types:   
 1. (Flexible HTML5 [or third-party should be possible, but not so] creatives; optional) Once you've made your changes, click ![]() to preview the new creative. 
@@ -66,5 +67,3 @@ Quando si modifica un elemento creativo <!-- or creative variation --> incluso i
 >* [Aggiungere creatività standard a una libreria creativa](creative-add-standard.md)
 >* [Impostazioni creative standard](/help/creative/creative-libraries/creative-settings-standard.md)
 >* [Anteprima di un contenuto creativo](/help/creative/creative-libraries/creative-preview.md)
->* [Creative duplicate](/help/creative/creative-libraries/creative-duplicate.md)
->* [Elimina creatività](/help/creative/creative-libraries/creative-delete.md)

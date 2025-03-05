@@ -1,10 +1,11 @@
 ---
 title: Specifiche creative di HTML5
-description: Ad Advertising Creative, fai riferimento alla specifica creativa di HTML5.
+description: Consulta le specifiche creative di HTML5 per Advertising Creative.
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 06d29442-d688-4fb8-ad6f-cba0a897fde0
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1157'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,7 @@ Questo documento descrive i requisiti e il supporto API per i creativi HTML5 in 
 
 ## Ambito
 
-[!DNL Creative] supporta i banner HTML5 con creativi non rich media visualizzati all&#39;interno dei bordi impostati su una pagina. Puoi utilizzare i seguenti tipi di creatività di HTML5:
+[!DNL Creative] supporta i banner HTML5 con creativi non rich media visualizzati all&#39;interno dei bordi impostati su una pagina. È possibile utilizzare i seguenti tipi di creatività HTML5:
 
 <!--Remove to simplify:
 
@@ -27,7 +28,7 @@ Questo documento descrive i requisiti e il supporto API per i creativi HTML5 in 
 
 * **HTML5:** supporta fino a 5 URL di pagina di destinazione che possono essere configurati durante la creazione creativa e il traffico.
 
-* **HTML flessibili5:** supporta fino a 5 URL di pagine di destinazione che possono essere configurati durante la creazione e il traffico di contenuti creativi e consente inoltre di modificare gli attributi creativi durante la creazione e il traffico di contenuti creativi.
+* **HTML5 flessibile:** supporta fino a 5 URL di pagina di destinazione che possono essere configurati durante la creazione e il traffico creativi e consente inoltre di modificare gli attributi creativi durante la creazione e il traffico creativi.
 
 ## Requisiti
 
@@ -35,17 +36,17 @@ Questo documento descrive i requisiti e il supporto API per i creativi HTML5 in 
 
 * La creatività deve essere inserita in un file ZIP (formato .ZIP). I file ZIP nidificati non sono supportati, pertanto non includere una cartella compressa all’interno della cartella compressa esterna.
 
-* Il file ZIP deve contenere almeno un file HTML, il file di visualizzazione principale dei HTML, che include un riferimento alla libreria JavaScript [!DNL Creative]. Il file HTML principale può trovarsi nella cartella principale o in una sottocartella.
+* Il file ZIP deve contenere almeno un file HTML, il file di visualizzazione principale di HTML, che include un riferimento alla libreria JavaScript [!DNL Creative]. Il file HTML principale può trovarsi nella cartella principale o in una sottocartella.
 
 * Il file HTML principale può essere denominato qualsiasi cosa, purché non includa caratteri speciali, anche se `index.html` è consigliato.
 
-* Tutte le risorse di supporto necessarie per il rendering del contenuto creativo finale devono trovarsi nella stessa cartella del file di visualizzazione dei HTML o nelle sottocartelle della cartella principale.
+* Tutte le risorse di supporto necessarie per il rendering del contenuto creativo finale devono trovarsi nella stessa cartella del file di visualizzazione di HTML oppure nelle sottocartelle della cartella principale.
 
-* Non includere nel contenuto creativo file che non vi facciano riferimento.
+* Non includere nella creatività alcun file a cui la creatività non fa riferimento.
 
 ### Inclusione del file JavaScript di Advertising Creative
 
-Il file HTML principale e nessun altro file devono contenere un riferimento al file JavaScript `AMOLibrary.js`. Chiamare il file nella prima riga della sezione `<head>` utilizzando il seguente indirizzo:
+Il file HTML principale e nessun altro file deve contenere un riferimento al file JavaScript `AMOLibrary.js`. Chiamare il file nella prima riga della sezione `<head>` utilizzando il seguente indirizzo:
 
 `https://ads.everesttech.net/ads/static/local/AMOLibrary.js`
 
@@ -77,15 +78,15 @@ var clickTag = “http://www.example.com”;
 
 ### Requisiti creativi di HTML5
 
-#### Supporto per gli URL di click-through in static HTML5
+#### Supporto per gli URL di click-through in HTML statico 5
 
 ##### `amo.registerClick(clkVar, clkUrl)`
 
-Registra gli URL di click-through e il parametro associato utilizzato per fare riferimento a ciascun URL (noto come `clickTag`). Questo comunica al server di annunci [!DNL Creative] dove aggiungere il tracciamento dei clic. Puoi utilizzare questa API per registrare fino a cinque variabili di tag di clic, ciascuna con l’URL della pagina di destinazione corrispondente.
+Registra gli URL di click-through e il parametro associato utilizzato per fare riferimento a ciascun URL (noto come `clickTag`). Questa API indica al server di annunci [!DNL Creative] dove aggiungere il tracciamento dei clic. Puoi utilizzare questa API per registrare fino a cinque variabili di tag di clic, ciascuna con l’URL della pagina di destinazione corrispondente.
 
 >[!NOTE]
 >
->Gli URL statici inclusi nella creatività di HTML5 vengono utilizzati solo a scopo di test locale e verranno sovrascritti. Quando carichi un contenuto creativo di HTML5, definirai la pagina di destinazione predefinita per ogni variabile `clickTag`. Quando assegni una creatività di HTML5 caricata a un&#39;esperienza annuncio, puoi facoltativamente sovrascrivere la pagina di destinazione predefinita per ogni variabile `clickTag` e [!DNL Creative] aggiunge il tracciamento dei clic agli URL quando salvi l&#39;esperienza.
+>Gli URL statici inclusi nella creatività di HTML5 vengono utilizzati solo a scopo di test locale e verranno sovrascritti. Quando carichi un contenuto creativo di HTML5, definisci la pagina di destinazione predefinita per ogni variabile `clickTag`. Quando si assegna un contenuto creativo di HTML5 caricato a un&#39;esperienza annuncio, è possibile sostituire la pagina di destinazione predefinita per ogni variabile `clickTag` e [!DNL Creative] aggiunge il tracciamento dei clic agli URL quando si salva l&#39;esperienza.
 
 ###### Parametri
 
@@ -121,15 +122,15 @@ Chiamare `amo.onAdClick()` nella sezione `<body>` del file HTML principale.
 
 ### Requisiti creativi flessibili per HTML5
 
-#### Supporto per URL di click-through in Flexible HTML5
+#### Supporto per gli URL di click-through in HTML5 flessibile
 
 ##### `amo.registerClick(clkVar, clkUrl)`
 
-Registra gli URL di click-through e il parametro associato utilizzato per fare riferimento a ciascun URL (noto come `clickTag`). Questo comunica al server di annunci [!DNL Creative] dove aggiungere il tracciamento dei clic. Puoi utilizzare questa API per registrare fino a cinque variabili di tag di clic, ciascuna con l’URL della pagina di destinazione corrispondente.
+Registra gli URL di click-through e il parametro associato utilizzato per fare riferimento a ciascun URL (noto come `clickTag`). Questa API indica al server di annunci [!DNL Creative] dove aggiungere il tracciamento dei clic. Puoi utilizzare questa API per registrare fino a cinque variabili di tag di clic, ciascuna con l’URL della pagina di destinazione corrispondente.
 
 >[!NOTE]
 >
->Gli URL statici inclusi nella creatività di HTML5 vengono utilizzati solo a scopo di test locale e verranno sovrascritti. Quando carichi un contenuto creativo di HTML5, definirai la pagina di destinazione predefinita per ogni variabile `clickTag`. Quando assegni una creatività di HTML5 caricata a un&#39;esperienza annuncio, puoi facoltativamente sovrascrivere la pagina di destinazione predefinita per ogni variabile `clickTag` e [!DNL Creative] aggiunge il tracciamento dei clic agli URL quando salvi l&#39;esperienza.
+>Gli URL statici inclusi nella creatività di HTML5 vengono utilizzati solo a scopo di test locale e verranno sovrascritti. Quando carichi un contenuto creativo di HTML5, definisci la pagina di destinazione predefinita per ogni variabile `clickTag`. Quando si assegna un contenuto creativo di HTML5 caricato a un&#39;esperienza annuncio, è possibile sostituire la pagina di destinazione predefinita per ogni variabile `clickTag` e [!DNL Creative] aggiunge il tracciamento dei clic agli URL quando si salva l&#39;esperienza.
 
 ###### Parametri
 
@@ -163,7 +164,7 @@ Chiamare `amo.onAdClick()` nella sezione `<body>` del file HTML principale.
 
 `amo.onAdClick('clickTag')` O `amo.onAdClick('clickTag',clickEvt)`
 
-#### Supporto per attributi creativi in Flexible HTML5
+#### Supporto per gli attributi creativi in HTML5 flessibile
 
 ##### `amo.registerAttribute(key, type, value)`
 
@@ -187,11 +188,11 @@ Chiamare `amo.registerAttribute()` per registrare un attributo creativo, un tipo
 
 ##### `amo.attributes`
 
-Un oggetto JSON per eseguire una query sui nomi e i valori delle variabili dell’attributo creativo. Le chiavi oggetto saranno i nomi degli attributi e i valori saranno i valori di tali attributi.
+Un oggetto JSON per eseguire una query sui nomi e i valori delle variabili dell’attributo creativo. Le chiavi oggetto sono i nomi degli attributi e i valori sono i valori di tali attributi.
 
 Nella modalità di test locale, le coppie chiave-valore sono quelle registrate dall&#39;API `amo.registerAttribute`. Per la produzione, i nomi e i valori delle variabili dell’attributo creativo devono essere configurati al momento della creazione creativa e del traffico.
 
-### Requisiti dei contenuti creativi
+### Requisiti dei contenuti Creative
 
 La maggior parte degli scambi di display disponibili in Advertising DSP hanno i seguenti requisiti creativi:
 
@@ -201,7 +202,7 @@ La maggior parte degli scambi di display disponibili in Advertising DSP hanno i 
 
 * La pagina di destinazione deve aprirsi in una nuova finestra.
 
-* Il dominio della pagina di destinazione e i relativi sottodomini non possono superare i 35 caratteri. **Nota:** gli URL della pagina di destinazione finale sono definiti nell&#39;DSP e non nelle risorse HTML5 stesse.
+* Il dominio della pagina di destinazione e i relativi sottodomini non possono superare i 35 caratteri. **Nota:** gli URL della pagina di destinazione finale sono definiti in DSP e non nelle risorse HTML5 stesse.
 
 * Eventuali clausole di esclusione della responsabilità relative all’offerta di un annuncio devono essere incluse nell’annuncio stesso e non solo nella pagina di destinazione.
 
@@ -252,9 +253,9 @@ La maggior parte degli scambi di display disponibili in Advertising DSP hanno i 
 
 * /assets (cartella)
 
-   * bg.jpg (immagine JPG SVG, PNG, o GIF)
+   * bg.jpg (immagine JPG, PNG, SVG o GIF)
 
-### Esempio di file HTML (index.html) per le creatività HTML5 semplici
+### Esempio di file HTML (index.html) per semplici creative HTML5
 
 ```
 <!DOCTYPE html>

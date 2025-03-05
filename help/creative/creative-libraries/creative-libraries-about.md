@@ -1,10 +1,11 @@
 ---
 title: Informazioni sulle librerie creative
-description: Scopri come gestire i contenuti creativi da utilizzare nelle esperienze pubblicitarie.
+description: Scopri come gestire i creativi delle esperienze pubblicitarie.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
@@ -13,19 +14,19 @@ ht-degree: 0%
 
 *Funzione beta chiusa*
 
-Le librerie creative ti consentono di gestire tutte le creatività che utilizzerai nelle esperienze pubblicitarie. Puoi creare più librerie, ciascuna con un set di creatività e *bundle creativi*, che sono gruppi di creatività che puoi aggiungere a un&#39;esperienza come un&#39;unica unità.
+Le librerie creative ti consentono di gestire i contenuti creativi da utilizzare nelle esperienze pubblicitarie. Puoi creare più librerie, ciascuna con un set di creatività e *bundle creativi*, che sono gruppi di creatività che puoi aggiungere a un&#39;esperienza come un&#39;unica unità.
 
 Le librerie possono includere:
 
 * **Singoli creativi:** Puoi includere singoli creativi direttamente all&#39;interno di esperienze pubblicitarie che non hanno target utente definiti. Puoi anche utilizzare i tuoi creativi per creare bundle, che puoi includere in [esperienze annuncio](/help/creative/experiences/experience-about.md) mirate.
 
-   * **Creative standard:** Puoi caricare e gestire creative in [vari formati](#creative-creative-formats). Per ogni contenuto creativo, si specificherà la lingua predefinita per ogni annuncio a cui si associa il contenuto creativo, la pagina di destinazione predefinita che si apre quando un utente fa clic su un annuncio che include il contenuto creativo e le etichette facoltative da utilizzare come filtri all&#39;interno di varie visualizzazioni in [!DNL Creative].
+   * **Creative standard:** Puoi caricare e gestire creative in [vari formati](#creative-creative-formats). Per ogni contenuto creativo si specifica la lingua predefinita per ogni annuncio a cui si associa il contenuto creativo, la pagina di destinazione predefinita che si apre quando un utente fa clic su un annuncio che include il contenuto creativo e le etichette facoltative da utilizzare come filtri nelle varie visualizzazioni di [!DNL Creative].
 
-   * **Creative dinamiche:** (solo clienti Adobe Advertising DCO esistenti) Gli utenti amministratori possono creare creative generate dinamicamente mappando le variabili dinamiche in un modello di annuncio ai valori in un file di feed. Tutti gli utenti possono visualizzare in anteprima, duplicare ed eliminare gli annunci dinamici esistenti.
+   * **Creative dinamiche:** (solo per clienti Adobe Advertising DCO esistenti) Gli utenti amministratori possono creare creative generate dinamicamente mappando le variabili dinamiche in un modello di annuncio ai valori in un file di feed. Tutti gli utenti possono visualizzare in anteprima, duplicare ed eliminare gli annunci dinamici esistenti.
 
 * **Pacchetti creatività:** raggruppa i creativi in bundle da utilizzare in più esperienze con target utente definiti. Puoi creare *bundle standard* costituiti da annunci standard e *bundle dinamici* costituiti da annunci generati dinamicamente.
 
-## Formati creativi supportati {#creative-creative-formats}
+## Formati Creative supportati {#creative-creative-formats}
 
 ### Formati per creatività standard
 
@@ -33,17 +34,17 @@ Puoi aggiungere e gestire i seguenti tipi di creatività nelle [dimensioni di cr
 
 >[!IMPORTANT]
 >
->Anche se intendi utilizzare HTMl5, Flexible HTML5 o creatività di terze parti per le tue esperienze pubblicitarie, devi anche aggiungere creatività di immagine per ogni dimensione creativa che utilizzerai.
+>Anche se si intende utilizzare HTML5, HTML5 flessibile o creativi di terze parti per le esperienze pubblicitarie, è necessario aggiungere anche creativi di immagini per ogni dimensione creativa utilizzata.
 >
 >Ogni esperienza richiede una creatività di immagine predefinita per ogni dimensione creativa assegnata all’esperienza. Le immagini creative predefinite vengono utilizzate quando un browser non è abilitato per JavaScript o quando l’ad server non può personalizzare l’annuncio a causa di ritardi.
 
-#### Flexible HTML5
+#### HTML5 flessibile
 
-I creativi HTML5 flessibili sono creativi HTML5 con tutte le loro immagini e altri attributi come tag HTML standard, che puoi modificare direttamente in [!DNL Creative], sia all&#39;interno di una libreria creativa che all&#39;interno di una singola esperienza (che crea una variante del creativo originale). I creativi di Flexible HTML5 utilizzano lo standard del laboratorio di tecnologia Interactive Advertising Bureau (IAB) per un [portfolio di annunci](https://flexibleads.iabtechlab.com/), per il quale le dimensioni degli annunci sono flessibili (anziché fisse) e si basano sulle proporzioni e sull&#39;intervallo di dimensioni dell&#39;annuncio e per il quale gli annunci mantengono la loro risoluzione tra i dispositivi e i siti di pubblicazione.
+I creativi HTML5 flessibili sono creativi HTML5 con tutte le immagini e altri attributi come tag HTML standard, che è possibile modificare direttamente in [!DNL Creative], sia all&#39;interno di una libreria creativa che all&#39;interno di una singola esperienza (che crea una variazione della creatività originale). I creativi HTML5 flessibili utilizzano lo standard del laboratorio della tecnologia Interactive Advertising Bureau (IAB) per un [portfolio di annunci](https://flexibleads.iabtechlab.com/), per il quale le dimensioni degli annunci sono flessibili (anziché fisse) e si basano sulle proporzioni e sull&#39;intervallo di dimensioni dell&#39;annuncio e per il quale gli annunci mantengono la loro risoluzione tra i dispositivi e i siti di pubblicazione.
 
-È possibile <!-- either --> caricare creative flessibili HTML5 come file ZIP<!-- or use one of the [provided templates](flexible-html5-templates.md) as a starting point -->. Consulta le [specifiche per i creativi flessibili di HTML5](html5-creative-specification.md).
+È possibile <!-- either --> caricare creative HTML5 flessibili come file ZIP<!-- or use one of the [provided templates](flexible-html5-templates.md) as a starting point -->. Consulta le [specifiche per le creatività flessibili di HTML5](html5-creative-specification.md).
 
-<!-- Will flattening the view be possible in the MVP?
+<!-- Will flattening the view be possible later?
 The card view, by default, includes a card for each base flexible HTML5 creative you've uploaded, with the number of creative variations [Delete old description? : an indicator of how many variations of the creative exist]. You can optionally flatten the card view to include separate cards for each base creative and each derivation. The table view is always flattened.
 
 
@@ -53,15 +54,15 @@ The card view, by default, includes a card for each base flexible HTML5 creative
 
  -->
 
-Facoltativamente, puoi modificare i valori predefiniti degli attributi specificati in una creatività di Flexible HTML5. In seguito, puoi specificare valori personalizzati per gli attributi all’interno di un’esperienza specifica, creando una variante della creatività principale.
+Facoltativamente, è possibile modificare i valori predefiniti degli attributi specificati in una creatività flessibile di HTML5. In seguito, puoi specificare valori personalizzati per gli attributi all’interno di un’esperienza specifica, creando una variante della creatività principale.
 
 #### Creatività di HTML5
 
-Puoi caricare come file ZIP creativi HTML5 semplici o statici, con tutti gli attributi e le immagini specificati. Non è possibile modificare attributi o aggiungere immagini, ma caricare un nuovo file ZIP per aggiungere una nuova creatività. Consulta le [specifiche per creatività HTML5 semplice e statica](html5-creative-specification.md).
+È possibile caricare creative HTML5 semplici o statiche, con tutti gli attributi e le immagini specificati, come file ZIP. Non è possibile modificare attributi o aggiungere immagini, ma caricare un nuovo file ZIP per aggiungere una nuova creatività. Consulta le [specifiche per creative HTML5 semplici e statiche](html5-creative-specification.md).
 
 #### Creatività delle immagini
 
-È possibile includere immagini in formato GIF, JPEG, JPG o PNG. È possibile caricare <!--LATER:   images from your Adobe Experience Manager accounts or --> immagini dal dispositivo o dalla rete.
+Puoi includere creativi di immagini in formato GIF, JPEG, JPG o PNG. È possibile caricare <!--LATER:   images from your Adobe Experience Manager accounts or --> immagini dal dispositivo o dalla rete.
 
 Ogni esperienza pubblicitaria richiede una creatività di immagine predefinita per ogni dimensione creativa assegnata all’esperienza.
 
@@ -75,7 +76,7 @@ Immetti i tag di tracciamento di JavaScript per i creativi in hosting su server 
 
 ### Formato per annunci dinamici
 
-Gli utenti amministratori possono creare creatività generate dinamicamente in formato static HTML5 e dynamic HTML5 mappando le variabili dinamiche in un modello di annuncio ai valori in un file di feed. Possono essere inclusi i creativi delle precedenti esperienze Adobe Advertising Dynamic Creative Optimization (DCO).
+Gli utenti amministratori possono generare dinamicamente creatività in formato HTML5 statico e HTML5 dinamico mappando le variabili dinamiche in un modello di annuncio ai valori in un file di feed. I contenuti creativi dinamici possono includere quelli delle precedenti esperienze Adobe Advertising Dynamic Creative Optimization (DCO).
 
 ## Le visualizzazioni [!UICONTROL Creative Libraries]
 
@@ -83,7 +84,7 @@ Per ulteriori informazioni sulla personalizzazione di ogni visualizzazione, vede
 
 ### Visualizzazione principale di [!UICONTROL Creative Libraries]
 
-Le visualizzazioni principali di [!UICONTROL Creative Libraries] mostrano tutte le librerie creative. I dati di ciascuna libreria includono il numero di esperienze a cui vengono assegnati i bundle della libreria, il numero di bundle, il numero di creativi, il numero di dimensioni di creatività, il numero di destinazioni della lingua predefinite, la data di creazione e la data dell’ultima modifica di qualsiasi elemento della libreria. La modalità tabella include anche una colonna per l’inserzionista.
+La visualizzazione principale di [!UICONTROL Creative Libraries] mostra tutte le librerie creative. I dati di ciascuna libreria includono il numero di esperienze a cui vengono assegnati i bundle della libreria, il numero di bundle, il numero di creativi, il numero di dimensioni di creatività, il numero di destinazioni della lingua predefinite, la data di creazione e la data dell’ultima modifica di qualsiasi elemento della libreria. La modalità tabella include anche una colonna per l’inserzionista.
 
 #### Azioni disponibili
 
@@ -127,7 +128,7 @@ add or remove labels, regenerate thumbnails for your creatives. When a creative 
 
 #### [!UICONTROL Dynamic Ads]
 
-La scheda [!UICONTROL Dynamic Ads] mostra tutte le creatività dinamiche create dinamicamente per i cataloghi creativi, ad eccezione delle creatività dinamiche [eliminate manualmente](creative-delete.md) dalla scheda [!UICONTROL Dynamic Ads]. Se [hai duplicato manualmente](creative-duplicate.md) le creatività dinamiche dall&#39;ultima elaborazione di un catalogo, l&#39;elenco delle creatività per quel catalogo includerà anche le creatività duplicate.
+La scheda [!UICONTROL Dynamic Ads] mostra tutte le creatività dinamiche create dinamicamente per i cataloghi creativi, ad eccezione delle creatività dinamiche [eliminate manualmente](creative-delete.md) dalla scheda [!UICONTROL Dynamic Ads]. Se [hai duplicato manualmente](creative-duplicate.md) le creatività dinamiche dall&#39;ultima elaborazione di un catalogo, l&#39;elenco delle creatività per tale catalogo include anche le creatività duplicate.
 
 I dati per ogni creatività includono il tipo di creatività, la dimensione della creatività, il numero di cataloghi a cui appartiene la creatività e la data di creazione. La modalità tabella include anche le colonne per il modello attraverso il quale è stata generata la creatività e il conteggio delle offerte.
 
@@ -137,7 +138,7 @@ I dati per ogni creatività includono il tipo di creatività, la dimensione dell
 
 ##### Azioni disponibili
 
-La possibilità di creare e modificare contenuti creativi dinamici è attualmente disponibile solo per il Team dell’account Adobe. Tuttavia, tutti gli utenti possono:
+La possibilità di creare e modificare contenuti creativi dinamici è attualmente disponibile solo per l’Account Team di Adobe. Tuttavia, tutti gli utenti possono:
 
 * [Anteprima di elementi creativi dinamici](creative-preview.md)
 

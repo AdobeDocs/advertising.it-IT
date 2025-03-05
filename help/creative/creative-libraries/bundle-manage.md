@@ -2,9 +2,10 @@
 title: Gestire i bundle creativi
 description: Informazioni su xxxx.
 feature: Creative Bundles
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 **I'll probably split this up into multiple pages since the creative-related topics are separate**
 -->
 
-I bundle sono gruppi di creativi che puoi aggiungere a un’esperienza come un’unica unità. Dopo aver creato un contenitore di bundle, puoi allegare dei creativi al bundle. I bundle standard possono contenere solo annunci standard, mentre i bundle dinamici possono contenere solo annunci dinamici. Puoi sovrascrivere le pagine di destinazione, i tag di tracciamento delle impression e i tag di tracciamento dei clic per tutti i creativi all’interno di un bundle assegnato a un’esperienza dall’interno della struttura decisionale dell’esperienza senza influire sui creativi di base.
+I bundle sono gruppi di creativi che puoi aggiungere a un’esperienza come un’unica unità. Dopo aver creato un contenitore di bundle, puoi allegare dei creativi al bundle. I bundle standard possono contenere solo annunci standard, mentre i bundle dinamici possono contenere solo annunci dinamici. Puoi sovrascrivere le pagine di destinazione, i tag di tracciamento delle impression e i tag di tracciamento dei clic per tutti i creativi all’interno di un bundle assegnato a un’esperienza dall’interno della struttura decisionale dell’esperienza, senza influire sui creativi di base.
 
 [!DNL Creative] ruota tra le creatività nel bundle come specificato per ogni esperienza a cui è assegnato il bundle. Facoltativamente, puoi consentire a [!DNL Creative] di ottimizzare gli elementi dell&#39;annuncio per qualsiasi esperienza in base alle prestazioni utilizzando la rotazione algoritmica degli annunci, basata su Adobe Sensei.
 
@@ -103,11 +104,13 @@ Le modifiche al nome di un bundle vengono propagate tra tutte le esperienze asso
 
 ## Associa creatività a un bundle
 
-Puoi allegare [creatività standard esistente](/help/creative/creative-libraries/creative-libraries-about.md) a un bundle standard e allegare le creatività dinamiche esistenti <!-- [existing dynamic creatives](creative-dynamic-manage.md) --> a un bundle dinamico. Associando un contenuto creativo a un bundle, il contenuto creativo è disponibile in tutte le esperienze a cui è assegnato il bundle. Ogni bundle può includere solo una di ogni combinazione di \[creative size + language\].
+Puoi allegare [creatività standard esistente](/help/creative/creative-libraries/creative-libraries-about.md) a un bundle standard e allegare creatività dinamica esistente<!-- [existing dynamic creatives](creative-dynamic-manage.md) --> a un bundle dinamico. Associando un contenuto creativo a un bundle, il contenuto creativo è disponibile in tutte le esperienze a cui è assegnato il bundle. Ogni bundle può includere solo una di ogni combinazione di \[creative size + language\].
 
+<!--
 >[!NOTE]
 >
->Puoi anche [allegare contenuti creativi ai bundle dalle visualizzazioni Annunci standard e Annunci dinamici](creative-attach-detach-bundles.md).
+>You can also [attach creatives to bundles from the Standard Ads and Dynamic Ads views](creative-attach-detach-bundles.md).
+-->
 
 1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -218,7 +221,7 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
 ## Elimina bundle
 
-Puoi eliminare i bundle che non sono assegnati a un’esperienza live.<!-- Add an x-ref?  --> Se un bundle è assegnato a un&#39;esperienza live, rimuovilo dalla struttura decisionale per l&#39;esperienza<!-- add x-ref --> prima di continuare.
+Puoi eliminare i bundle non assegnati a un&#39;esperienza [live](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses). Se un bundle è assegnato a un&#39;esperienza live, [rimuovi il bundle dalla struttura decisionale](/help/creative/experiences/experience-target-node-delete.md) per l&#39;esperienza prima di continuare.
 
 1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -250,5 +253,6 @@ Puoi eliminare i bundle che non sono assegnati a un’esperienza live.<!-- Add a
 >[!MORELIKETHIS]
 >
 >* [Assegnazione e annullamento dell&#39;assegnazione di bundle creativi a un nodo finale in un&#39;esperienza](/help/creative/experiences/experience-assign-creative-bundles.md)
+>* [Aggiungere creatività standard a una libreria creativa](/help/creative/creative-libraries/creative-add-standard.md)
 >* [Gestisci librerie creative](/help/creative/creative-libraries/creative-library-manage.md)
 >* [Informazioni sulle librerie creative](/help/creative/creative-libraries/creative-libraries-about.md)

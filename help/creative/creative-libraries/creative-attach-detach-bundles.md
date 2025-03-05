@@ -2,26 +2,35 @@
 title: Allegare un contenuto creativo a bundle creativi
 description: Scopri come allegare un contenuto creativo a un pacchetto creativo.
 feature: Creative Standard Creatives, Creative Dynamic Creatives, Creative Bundles
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 833c4102-8577-4ba1-be07-7e032cec94ca
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
 
-# Allega e scollega i creativi da bundle creativi
+# Allega <!-- and detach --> creativi a bundle creativi
 
 *Versione beta chiusa*
 
+<!-- Edit all, including the metadata and title, plus the links within TOC and bundle-manage.md, once this feature is available. -->
+
 Puoi allegare creatività standard a bundle standard e creatività dinamica a bundle dinamici in modo da poterli aggiungere a [esperienze annuncio](/help/creative/experiences/experience-about.md). Ogni bundle può includere solo una di ogni combinazione di \[creative size + language\].
 
-Puoi anche staccare un contenuto creativo da un bundle per rimuovere l’associazione tra i due, in modo che il contenuto creativo non venga più utilizzato per esperienze mirate al bundle. Staccando un contenuto creativo dal bundle, il contenuto non viene eliminato dalla scheda Creativi della libreria creativa.
+<!--
+You can also detach a creative from a bundle to remove the association between the two, so that the creative is no longer used for experiences that target the bundle. Detaching a creative from the bundle doesn't delete the creative from the Creatives tab in your creative library.
+-->
 
 >[!NOTE]
 >
->È inoltre possibile [allegare creatività ai bundle e scollegare i creativi dai bundle dalla visualizzazione Bundle](/help/creative/creative-libraries/bundle-manage.md).
+>È possibile <!-- also --> [allega creativi ai bundle e scollega creativi dai bundle dalla vista Bundle](/help/creative/creative-libraries/bundle-manage.md).
 
-## Allegare creatività a bundle creativi
+<!-- Hide header until second procedure is available:
+
+## Attach creatives to creative bundles
+
+-->
 
 1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -37,31 +46,31 @@ Puoi anche staccare un contenuto creativo da un bundle per rimuovere l’associa
 
    Ogni bundle idoneo per il tipo creativo viene elencato nel frame corretto. I bundle a cui è già associato il contenuto creativo sono elencati ma non selezionabili.
 
-1. Nel frame di destra selezionare la casella di controllo accanto a ogni bundle a cui verrà allegato il contenuto creativo e quindi fare clic su **[!UICONTROL Attach Creative to Bundle]**.
+1. Nel frame di destra selezionare la casella di controllo accanto a ogni bundle a cui allegare il contenuto creativo e quindi fare clic su **[!UICONTROL Attach Creative to Bundle]**.
 
-## Staccare i creativi da un pacchetto creativo
+<!-- Verify and edit all of the following, including the command names and where they're available -- not in UI yet as of 1/17. I'm not sure what the UI will really look like.
 
-**È necessario verificare come viene implementato una volta nell&#39;interfaccia utente**
+## Detach creatives from a creative bundle
 
-<!-- Verify and edit all of the following, including the command names and where they're available -- not in UI yet as of 1/17. I'm not sure what the UI will really look like. -->
+1. In the main menu, click **[!UICONTROL Creative]**3/4> **[!UICONTROL Creative Libraries]**.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+1. (Optional) [Customize the view](/help/creative/introduction/customize-data-views.md) to include specific libraries.
 
-1. (Facoltativo) [Personalizzare la visualizzazione](/help/creative/introduction/customize-data-views.md) per includere librerie specifiche.
+1. Click the library name.
 
-1. Fai clic sul nome della libreria.
+1. Click the **[!UICONTROL Standard Ads]** or **[!UICONTROL Dynamic Ads]** tab.
 
-1. Fare clic sulla scheda **[!UICONTROL Standard Ads]** o **[!UICONTROL Dynamic Ads]**.
+1. Select the creative:
 
-1. Seleziona il contenuto creativo:
+   * In card view, click **[!UICONTROL ...]** next to the creative name, and then click **[!UICONTROL Attach/Detach from Bundle]**.
+     
+   * In table view, hold the cursor over the row and click **[!UICONTROL Attach/Detach from Bundle]**.
 
-   * Nella visualizzazione a schede, fare clic su **[!UICONTROL ...]** accanto al nome della creatività e quindi su **[!UICONTROL Attach/Detach from Bundle]**.
+   Each bundle that's eligible for the creative type is listed in the right frame. For bundles to which the creative is already attached, the check box is selected. To detach the creative for a bundle, deselect the check box.
 
-   * Nella vista tabella, tenere il cursore sulla riga e fare clic su **[!UICONTROL Attach/Detach from Bundle]**.
+1. In the right frame, deselect the check box next to each bundle from which to remove the creative, and then click **[!UICONTROL Attach Creatives to Bundle]**.
 
-   Ogni bundle idoneo per il tipo creativo viene elencato nel frame corretto. Per i bundle a cui è già associato il contenuto creativo, la casella di controllo è selezionata. Per scollegare la creatività per un bundle, deselezionate la casella di controllo.
-
-1. Nel frame di destra deselezionare la casella di controllo accanto a ogni bundle da cui rimuovere la creatività, quindi fare clic su **[!UICONTROL Attach Creatives to Bundle]**.
+-->
 
 <!-- What this should be like, but I don't think this will be implemented:
 

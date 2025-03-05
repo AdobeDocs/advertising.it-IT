@@ -1,15 +1,15 @@
 ---
-title: Informazioni sull’Adobe Advertising Creative
+title: Informazioni su Adobe Advertising Creative
 description: Informazioni su  [!DNL Creative].
 feature: Creative Introduction
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
 
-# Informazioni sull’Adobe Advertising Creative 2.0
+# Informazioni su Adobe Advertising Creative 2.0
 
 *Versione beta chiusa*
 
@@ -19,7 +19,7 @@ Come parte di Adobe Advertising, Advertising Creative è una piattaforma self-se
 
 ## Librerie creative personalizzate di creativi riutilizzabili
 
-Le tue Creative Libraries ti consentono di gestire tutte le creatività che utilizzerai nelle esperienze pubblicitarie. Puoi creare più librerie, ciascuna con singoli creativi e gruppi creativi (denominati *bundle*). Aggiungerai bundle creativi alle esperienze annuncio.
+Le librerie Creative ti consentono di gestire i contenuti creativi da utilizzare nelle esperienze pubblicitarie. Puoi creare più librerie, ciascuna con singoli creativi e gruppi creativi (denominati *bundle*). Aggiungerai bundle creativi alle esperienze annuncio.
 
 ## Esperienze basate su regole
 
@@ -40,11 +40,11 @@ Facoltativamente, puoi consentire a [!DNL Creative] di ottimizzare gli elementi 
 
 ## Pixel di retargeting
 
-Puoi creare pixel di retargeting da utilizzare come target per i creativi all’interno di un’esperienza pubblicitaria, in modo da mostrare gli annunci solo agli utenti con attributi specifici che hanno visitato in precedenza pagine web specifiche.
+Puoi creare pixel di retargeting da utilizzare come target per i creativi all’interno di un’esperienza pubblicitaria. Le destinazioni mostrano annunci solo per gli utenti con attributi specificati che hanno visitato in precedenza pagine web specifiche.
 
 ## Tracciamento di impression, clic e conversione
 
-[!DNL Creative] tiene traccia automaticamente di tutte le impression e i clic per gli annunci serviti da un&#39;esperienza. Facoltativamente, puoi anche aggiungere URL di tracciamento delle impression e dei clic di terze parti ai creativi in Creative Libraries, nonché URL di tracciamento personalizzati in un’esperienza.
+[!DNL Creative] tiene traccia automaticamente di tutte le impression e i clic per gli annunci serviti da un&#39;esperienza. Facoltativamente, puoi anche aggiungere URL di tracciamento delle impression e dei clic di terze parti ai creativi nelle librerie Creative, nonché URL di tracciamento personalizzati in un’esperienza.
 
 [!DNL Creative] tiene traccia anche delle conversioni dagli annunci serviti creati dalle tue esperienze pubblicitarie.<!-- Verify wording; anything important to add here? We do track them for all users, right? Or is it optoinal?  -->
 
@@ -57,7 +57,7 @@ to the DSP.
 
 Puoi visualizzare rapporti sulle prestazioni dettagliati a livello di esperienza in Creativi > Esperienze.
 
-Puoi anche creare rapporti creativi personalizzati in Rapporti > Rapporti personalizzati per monitorare le prestazioni a livello di esperienza nelle esperienze. Se utilizzi le tue esperienze [!DNL Creative] come annunci nelle campagne DSP, i dati sulle prestazioni per tali annunci sono disponibili in report personalizzati aggiuntivi, proprio come i dati per gli altri annunci DSP. <!-- Verify that [!DNL Creative] users have access to ALL other reports, and if I can completely duplicate the report help for both help sets. -->
+Puoi anche creare rapporti Creative personalizzati in Rapporti > Rapporti personalizzati per monitorare le prestazioni a livello di esperienza nelle esperienze. Se utilizzi le tue esperienze [!DNL Creative] come annunci nelle campagne DSP, i dati sulle prestazioni per tali annunci sono disponibili in report personalizzati aggiuntivi, proprio come i dati per gli altri annunci DSP. <!-- Verify that [!DNL Creative] users have access to ALL other reports, and if I can completely duplicate the report help for both help sets. -->
 
 Facoltativamente, puoi recapitare i rapporti personalizzati alle [destinazioni dei rapporti](/help/dsp/reports/report-destinations/report-destination-about.md) specificate.
 

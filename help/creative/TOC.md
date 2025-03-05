@@ -4,9 +4,9 @@ user-guide-title: Guida di Advertising Creative
 user-guide-description: Scopri le principali funzioni, attività, impostazioni e altre risorse necessarie per utilizzare Advertising Creative.
 breadcrumb-title: Guida creativa
 hide: true
-source-git-commit: 7000d0d68ac8ad904383bf62e614ff2fd1c3415a
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,11 @@ ht-degree: 0%
          + [Impostazioni creative standard](/help/creative/creative-libraries/creative-settings-standard.md)
          + [Specifiche creative di HTML5](/help/creative/creative-libraries/html5-creative-specification.md)
       + [Visualizzare in anteprima un contenuto creativo](/help/creative/creative-libraries/creative-preview.md)
-      + [Allega e scollega i creativi dai bundle](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
+      + [Associa creatività ai bundle](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
       + [Duplicare le creatività](/help/creative/creative-libraries/creative-duplicate.md)
       + [Scarica creatività](/help/creative/creative-libraries/creative-download.md)
       + [Elimina creatività](/help/creative/creative-libraries/creative-delete.md)
-   + Bundle creativi {#bundles}
+   + Bundle Creative {#bundles}
       + [Gestire i bundle creativi](/help/creative/creative-libraries/bundle-manage.md)
 + Esperienze annuncio {#creative-experiences}
    + [Informazioni sulle esperienze in Advertising Creative](/help/creative/experiences/experience-about.md)
@@ -50,7 +50,7 @@ ht-degree: 0%
             + [Aggiungi un nodo di destinazione di pari livello](/help/creative/experiences/experience-target-node-add-sibling.md)
             + [Copiare nodi secondari in un altro nodo allo stesso livello](/help/creative/experiences/experience-target-node-copy.md)
             + [Eliminare un nodo di destinazione o un nodo foglia creativo](/help/creative/experiences/experience-target-node-delete.md)
-         + Bundle creativi e creatività {#bundles}
+         + Bundle e creatività di Creative {#bundles}
             + [Assegnare e annullare l’assegnazione di bundle creativi a un nodo finale](/help/creative/experiences/experience-assign-creative-bundles.md)
             + [Personalizzare gli URL di tracciamento per i creativi](/help/creative/experiences/experience-tracking-urls-targeting.md)
             + [Personalizzare l&#39;ottimizzazione creativa e la pianificazione](/help/creative/experiences/experience-optimization-scheduling-targeting.md)

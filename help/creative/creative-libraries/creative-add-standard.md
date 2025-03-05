@@ -3,9 +3,9 @@ title: Aggiungere creatività standard a una libreria creativa
 description: Scopri come aggiungere creatività standard (non dinamica) a una libreria creativa.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ For information about the attributes available in predefined templates, see "[Av
 
 ## Aggiungere un contenuto creativo HTML5 a una libreria creativa
 
-<!-- verify -->È possibile aggiungere più creative HTML5 di un singolo tipo (semplice o statico) alla volta.
+È possibile aggiungere più creative HTML5 di un singolo tipo (semplice o statico) alla volta.
 
 <!-- Add in when we add this feature back:
 You can optionally download a sample HTML5 creative as a ZIP file, edit the contents to build your own creative, and then add the edited file as a new creative.
@@ -122,7 +122,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. Fare clic su **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL HTML5]**.
 
-<!-- Doesn't seem to be an option as of 11/27/24:
+<!-- Not an option as of 3/4:
 
 1. (Optional) To download a sample HTML5 creative as a ZIP file, click **Sample HTML5 Creatives**.
 
@@ -202,8 +202,5 @@ I creativi delle immagini possono essere in formato GIF, JPEG, JPG o PNG. La dim
 >* [Dimensioni creative supportate](/help/creative/creative-libraries/creative-sizes.md)
 >* [Anteprima di un contenuto creativo](/help/creative/creative-libraries/creative-preview.md)
 >* [Allega e scollega creativi dai bundle](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
->* [Creative duplicate](/help/creative/creative-libraries/creative-duplicate.md)
->* [Scarica creatività](/help/creative/creative-libraries/creative-download.md)
->* [Elimina creatività](/help/creative/creative-libraries/creative-delete.md)
 >* [Informazioni sulle librerie creative](/help/creative/creative-libraries/creative-libraries-about.md)
 >* [Gestisci librerie creative](/help/creative/creative-libraries/creative-library-manage.md)
