@@ -3,7 +3,7 @@ title: Allegare un contenuto creativo a bundle creativi
 description: Scopri come allegare un contenuto creativo a un pacchetto creativo.
 feature: Creative Standard Creatives, Creative Dynamic Creatives, Creative Bundles
 exl-id: 833c4102-8577-4ba1-be07-7e032cec94ca
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Versione beta chiusa*
 
-<!-- Edit all, including the metadata and title, plus the links within TOC and bundle-manage.md, once this feature is available. -->
+<!-- Edit all, including the metadata and title, plus the links within TOC and bundle-manage.md, once this feature is available.  -->
 
 Puoi allegare creatività standard a bundle standard e creatività dinamica a bundle dinamici in modo da poterli aggiungere a [esperienze annuncio](/help/creative/experiences/experience-about.md). Ogni bundle può includere solo una di ogni combinazione di \[creative size + language\].
 

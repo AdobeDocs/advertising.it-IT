@@ -6,9 +6,9 @@ product: advertising cloud
 solution: Advertising
 index: false
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: d9dee4daf396c2aa84ba6b0635e8a819fe9932be
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,12 @@ ht-degree: 0%
 
 *Versione beta chiusa*
 
-<!-- The following features are new or recently changed. -->
+<!-- The following features are new or recently changed.  -->
 
 | Data | Funzionalità | Descrizione | Per Ulteriori Informazioni |
 | ---- | ------- | ----------- | -------------------- |
 | 10 febbraio 2025 | [!UICONTROL Creative Libraries] | In precedenza, avevi una libreria creativa. Ora puoi creare più librerie per ogni inserzionista. | Consulta &quot;[Informazioni sulle librerie creative](/help/creative/creative-libraries/creative-libraries-about.md).&quot; |
-| | [!UICONTROL Creative Libraries] > [!UICONTROL Creatives] | La visualizzazione [!UICONTROL Creatives] include schede per [!UICONTROL Standard Ads] e [!UICONTROL Dynamic Ads].<ul><li>La scheda **[!UICONTROL Standard Ads]** consente di caricare e gestire immagini, HTML5, HTML5 flessibile e creativi di terze parti.</li><li>La scheda **[!UICONTROL Dynamic Ads]** consente di gestire gli annunci generati in modo dinamico che vengono creati da file di feed caricati utilizzando modelli di annunci definiti; in precedenza, gli annunci dinamici venivano generati in [!DNL Adobe Advertising Dynamic Creative Optimization (DCO)].<br><br> Al momento è possibile visualizzare in anteprima, duplicare ed eliminare annunci dinamici. Puoi anche allegare annunci dinamici a bundle creativi per esperienze pubblicitarie mirate o a tag pubblicitari per esperienze non mirate. Solo gli utenti amministratori possono creare annunci generati in modo dinamico.</li></ul> | Consulta &quot;[Informazioni sulle librerie creative](/help/creative/creative-libraries/creative-libraries-about.md).&quot; |
+| | [!UICONTROL Creative Libraries] > [!UICONTROL Creatives] | La visualizzazione [!UICONTROL Creatives] include schede per [!UICONTROL Standard Ads] e [!UICONTROL Dynamic Ads].<ul><li>La scheda **[!UICONTROL Standard Ads]** consente di caricare e gestire immagini, HTML5, HTML5 flessibile e creativi di terze parti.</li><li>La scheda **[!UICONTROL Dynamic Ads]** consente di gestire gli annunci generati in modo dinamico che vengono creati da file di feed caricati utilizzando modelli di annunci definiti; in precedenza, gli annunci dinamici venivano generati in [!DNL Adobe Advertising Dynamic Creative Optimization (DCO)].<br><br> Al momento è possibile visualizzare in anteprima, duplicare ed eliminare annunci dinamici. Puoi anche allegare annunci dinamici a bundle creativi per esperienze pubblicitarie mirate o a tag pubblicitari per esperienze non mirate. Solo gli utenti amministratori possono generare annunci in modo dinamico.</li></ul> | Consulta &quot;[Informazioni sulle librerie creative](/help/creative/creative-libraries/creative-libraries-about.md).&quot; |
 | | [!UICONTROL Creative Libraries] > [!UICONTROL Bundles] | Raggruppa più creativi in un *bundle* per aggiungerli facilmente a un&#39;esperienza. Puoi creare bundle di annunci standard e allegarvi delle creatività standard. Allo stesso modo, puoi creare bundle di annunci dinamici e allegarvi elementi creativi dinamici. | Consulta &quot;[Gestire i bundle di Creative](/help/creative/creative-libraries/bundle-manage.md).&quot; |
 | | [!UICONTROL Experiences] | Nelle nuove impostazioni di esperienza annuncio, ora puoi specificare se l’esperienza utilizza o meno il targeting della struttura decisionale e non puoi modificare l’impostazione una volta salvata l’esperienza. I flussi di lavoro per le esperienze con targeting basato su albero decisionale e per le esperienze senza targeting basato su albero decisionale sono diversi. | Consulta &quot;[Creare un&#39;esperienza con targeting](/help/creative/experiences/experience-create-targeting.md)&quot; e &quot;[Creare un&#39;esperienza senza targeting](/help/creative/experiences/experience-create-no-targeting.md).&quot; |
 | | [!UICONTROL Experiences] | Ora puoi creare esperienze mirate solo con bundle creativi da un&#39;unica libreria creativa, non con creativi singoli. Puoi comunque allegare singoli creativi da una singola libreria a esperienze non mirate senza ricorrere al targeting della struttura decisionale.<br><br>A causa delle modifiche strutturali, le esperienze precedenti diventeranno obsolete alla fine dell&#39;anno. | Clienti self-service: ricostruisci le esperienze nella nuova interfaccia utente. Consulta &quot;[Creare un&#39;esperienza con targeting](/help/creative/experiences/experience-create-targeting.md).&quot;<br><br>Clienti del servizio gestito: il team del tuo account Adobe ricreerà le tue esperienze nella nuova interfaccia utente. |

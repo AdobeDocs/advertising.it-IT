@@ -3,7 +3,7 @@ title: Gestire i pixel di retargeting
 description: Scopri come creare e implementare pixel di retargeting da utilizzare come destinazioni per le esperienze pubblicitarie.
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Esempio di pixel:
 
 >[!NOTE]
 >
-> * [!DNL Creative] attualmente supporta ID universali solo per Advertising DSP. Una versione futura supporterà gli ID universali per DSP di terze parti.<!-- Clarify this and reword as needed -->
+> * [!DNL Creative] attualmente supporta ID universali solo per Advertising DSP. Una versione futura supporterà gli ID universali per DSP di terze parti.<!-- Clarify this and reword as needed  -->
 >* Puoi anche utilizzare i tipi di pubblico di prime parti da Adobe Audience Manager e Adobe Analytics come [target creativi per le esperienze](/help/creative/experiences/experience-settings-targeting.md).
 >* Quando utilizzi un’esperienza come annuncio all’interno di un posizionamento Advertising DSP, puoi indirizzare il posizionamento a tutti i tipi di pubblico disponibili in DSP. Puoi anche [creare tag personalizzati per i segmenti di pubblico](/help/dsp/audiences/custom-segment-create.md) per tenere traccia di tutti i visitatori su pagine di destinazione specifiche e quindi utilizzare tali segmenti come target creativi per un posizionamento.
 >* I visitatori del sito web che hanno rinunciato al tracciamento per il targeting degli annunci non ricevono annunci con contenuto creativo personalizzato in base al segmento di pubblico o al profilo di retargeting.

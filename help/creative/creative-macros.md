@@ -3,7 +3,7 @@ title: Macro disponibili per il tracciamento degli URL
 description: Fai riferimento alle macro che puoi aggiungere agli URL della tua pagina di destinazione, agli URL di tracciamento e alle creatività di terze parti.
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: fe3e991f1fba2944e7a3f8e4930c48c7dbd28770
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Versione beta chiusa*
 
-<!-- More feature metadata??? -->
+<!-- More feature metadata???  -->
 
 Puoi includere una qualsiasi delle seguenti macro nelle creatività di terze parti, negli URL di tracciamento di terze parti per le esperienze e negli URL delle pagine di destinazione per il tuo utilizzo.
 

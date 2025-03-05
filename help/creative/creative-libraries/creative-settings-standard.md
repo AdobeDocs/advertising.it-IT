@@ -3,9 +3,9 @@ title: Impostazioni creative
 description: Informazioni su xxxx.
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
-source-wordcount: '1810'
+source-wordcount: '1806'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Quando si modificano più contenuti creativi contemporaneamente:
 
 ### Scheda Dettagli
 
-**Nome Creative:** il nome della creatività. Il nome del modello o del file caricato è utilizzato per impostazione predefinita, ma puoi modificarlo. Per più creativi, puoi modificare i singoli nomi creativi. **Suggerimento:** includere la dimensione dell&#39;annuncio nel nome della creatività e utilizzare un nome che risulti facile da trovare quando si include la creatività in un&#39;esperienza.
+**Nome Creative:** il nome della creatività. Il nome del modello o del file caricato è utilizzato per impostazione predefinita, ma puoi modificarlo. Per più creativi, puoi modificare i singoli nomi creativi. **Suggerimento:** includere la dimensione dell&#39;annuncio nel nome della creatività e utilizzare un nome facilmente individuabile quando si include la creatività in un&#39;esperienza.
 
 **Lingua:** lingua predefinita per ogni annuncio a cui si associano i creativi. Quando carichi o modifichi più creativi, lo stesso valore viene applicato a ciascun creativo selezionato.
 
@@ -94,7 +94,7 @@ Per sostituire il modello di annuncio esistente:
 
 Per i nuovi creativi, le seguenti impostazioni non si trovano in una scheda denominata.
 
-**Nome Creative:** il nome della creatività. Per una nuova creatività, il nome del file viene utilizzato per impostazione predefinita, ma è possibile modificarlo. Per più creativi, puoi modificare i singoli nomi creativi. **Suggerimento:** includere la dimensione dell&#39;annuncio nel nome della creatività e utilizzare un nome che risulti facile da trovare quando si include la creatività in un&#39;esperienza.
+**Nome Creative:** il nome della creatività. Per una nuova creatività, il nome del file viene utilizzato per impostazione predefinita, ma è possibile modificarlo. Per più creativi, puoi modificare i singoli nomi creativi. **Suggerimento:** includere la dimensione dell&#39;annuncio nel nome della creatività e utilizzare un nome facilmente individuabile quando si include la creatività in un&#39;esperienza.
 
 **Lingua:** lingua predefinita per ogni annuncio a cui si associano i creativi. Quando carichi o modifichi più creativi, lo stesso valore viene applicato a ciascun creativo selezionato.
 
@@ -150,7 +150,7 @@ Per sostituire il modello di annuncio esistente:
 
 ## Impostazioni creative immagini {#creative-settings-image}
 
-**Nome Creative:** il nome della creatività. Per una nuova creatività, il nome del file viene utilizzato per impostazione predefinita, ma è possibile modificarlo. Per più immagini, puoi modificare i singoli nomi creativi. **Suggerimento:** utilizza un nome facile da trovare quando includi il contenuto creativo in un&#39;esperienza.
+**Nome Creative:** il nome della creatività. Per una nuova creatività, il nome del file viene utilizzato per impostazione predefinita, ma è possibile modificarlo. Per più immagini, puoi modificare i singoli nomi creativi. **Suggerimento:** utilizza un nome facilmente reperibile quando includi il contenuto creativo in un&#39;esperienza.
 
 **Lingua:** lingua predefinita per ogni annuncio a cui si associano i creativi. Lo stesso valore si applica a tutte le immagini selezionate. Quando includi i creativi in un’esperienza, puoi facoltativamente personalizzare le preferenze di lingua per l’esperienza.
 
@@ -180,7 +180,7 @@ Quando includi questa creatività in un’esperienza implementata come annuncio 
 
 **[!UICONTROL Advertiser]:** (sola lettura) L&#39;inserzionista a cui è disponibile la libreria.
 
-**Nome Creative:** il nome della creatività. **Suggerimento:** utilizza un nome facile da trovare quando includi il contenuto creativo in un&#39;esperienza.
+**Nome Creative:** il nome della creatività. **Suggerimento:** utilizza un nome facilmente reperibile quando includi il contenuto creativo in un&#39;esperienza.
 
 **Dimensione Creative:** (sola lettura per annunci esistenti) le dimensioni della creatività. Per i nuovi creativi, seleziona da un elenco di dimensioni di annuncio standard.
 u

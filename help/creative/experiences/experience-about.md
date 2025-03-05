@@ -3,9 +3,9 @@ title: Informazioni sulle esperienze in Advertising Creative
 description: Scopri come configurare esperienze pubblicitarie personalizzate e ottimizzare gli elementi pubblicitari in base alle prestazioni.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Versione beta chiusa*
 
-<!-- Revisit Description metadata -->
+<!-- Revisit Description metadata  -->
 
 <!-- MORE -->
 
@@ -22,13 +22,23 @@ ht-degree: 0%
 
 * **Esperienze con targeting di struttura decisionale:** [!DNL Creative] ti consente di configurare esperienze pubblicitarie personalizzate in tutto il percorso di clienti utilizzando un modello di struttura decisionale. Puoi personalizzare tutti gli elementi dell’annuncio (immagini, titoli, offerte e pagine di destinazione) in base al pubblico di destinazione.
 
-  Ad esempio, puoi specificare lo stesso bundle creativo per le persone di Chicago e New York che si trovano in un segmento di pubblico specifico di Adobe Analytics ma inviano persone a Chicago che si trovano nello stesso segmento a pagine di destinazione diverse rispetto ai newyorkesi. Puoi anche specificare un bundle diverso per le persone del segmento che vivono in un luogo qualsiasi eccetto Chicago e New York City, e un terzo bundle per altre persone che non fanno parte del segmento.
+  Ad esempio, puoi specificare lo stesso pacchetto creativo per le persone di Chicago e New York che si trovano in un segmento di pubblico specifico di Adobe Analytics ma inviano le persone di Chicago a pagine di destinazione diverse rispetto ai newyorkesi. Puoi anche specificare un bundle diverso per le persone del segmento che vivono in un luogo qualsiasi eccetto Chicago e New York City, e un terzo bundle per altre persone che non fanno parte del segmento.
 
-  Le opzioni di targeting includono i visualizzatori dei segmenti di pubblico di prime parti da Adobe Audience Manager, Adobe Analytics e Advertising Cloud DSP; i visualizzatori in posizioni geografiche specifiche, tra cui paesi, stati, DMA negli Stati Uniti, città e codici postali; i visualizzatori per i quali vengono passate coppie chiave-valore specifiche (target dei passaggi dati) da DSP, publisher o partner; i visualizzatori con [!DNL Creative] pixel di retargeting e valori di attributo specificati; e i visualizzatori con tipi di dispositivo, sistemi operativi e browser specifici.
+  Le opzioni di targeting includono:
 
-  Puoi assegnare bundle creativi a ogni esperienza, personalizzando facoltativamente l&#39;ottimizzazione e la pianificazione per i bundle creativi e modificando le pagine di destinazione e gli URL di tracciamento predefiniti<!-- and any flexible attributes --> per i singoli creativi in ogni bundle.
+   * I segmenti di pubblico primario da Adobe Audience Manager, Adobe Analytics e Advertising Cloud DSP
 
-* **Esperienze senza targeting della struttura decisionale:** [!DNL Creative] ottimizza gli elementi dell&#39;annuncio per l&#39;esperienza dell&#39;annuncio senza restringere il pubblico.<!-- For first-party creatives, [!DNL Creative] serves the ads. --> Puoi specificare le date di inizio e fine e alcune impostazioni predefinite per ogni esperienza, ma gran parte del flusso di lavoro non si trova direttamente all&#39;interno dell&#39;esperienza. Invece di aggiungere creativi direttamente all&#39;esperienza, puoi creare un tag annuncio per ogni dimensione dell&#39;esperienza, quindi aggiungervi creativi, configurare l&#39;ottimizzazione e la pianificazione creative e personalizzare le pagine di destinazione e gli URL di tracciamento dall&#39;interno di [!UICONTROL Tag Manager].
+   * Posizioni geografiche specifiche, tra cui paesi, stati, DMA negli Stati Uniti, città e codici postali
+
+   * Visualizzatori per i quali specifiche coppie chiave-valore (destinazioni del passaggio dati) vengono passate da DSP, publisher o partner
+
+   * [!DNL Creative] pixel di retargeting e valori di attributo specificati
+
+   * Tipi di dispositivi, sistemi operativi e browser specifici
+
+  Puoi assegnare bundle creativi a ogni esperienza. Per ogni esperienza, puoi personalizzare l&#39;ottimizzazione e la pianificazione per i bundle creativi e modificare le pagine di destinazione e gli URL di tracciamento predefiniti<!-- and any flexible attributes --> per i singoli creativi in ogni bundle.
+
+* **Esperienze senza targeting della struttura decisionale:** [!DNL Creative] ottimizza gli elementi dell&#39;annuncio per l&#39;esperienza dell&#39;annuncio senza restringere il pubblico.<!-- For first-party creatives, [!DNL Creative] serves the ads. --> Per ogni esperienza, si specificano le date di inizio e di fine e alcune impostazioni predefinite, ma gran parte del flusso di lavoro non è direttamente all&#39;interno dell&#39;esperienza. Invece di aggiungere creativi direttamente all&#39;esperienza, puoi utilizzare [!UICONTROL Tag Manager] per creare un tag annuncio per ogni dimensione dell&#39;esperienza, quindi aggiungervi creativi, configurare l&#39;ottimizzazione e la pianificazione creative e personalizzare le pagine di destinazione e gli URL di tracciamento.
 
 ## Ottimizzazione degli annunci
 
@@ -37,7 +47,7 @@ ht-degree: 0%
 
 ## Implementazione e gestione delle esperienze
 
-Dopo aver creato un&#39;esperienza live (con tutti gli elementi di annuncio richiesti), puoi [generare un tag JavaScript o iframe per l&#39;intera esperienza](experience-tag-export.md), che puoi facoltativamente caricare come annuncio in una campagna in Adobe Advertising DSP o implementare come annuncio in un DSP di terze parti. [!DNL Creative] fornisce annunci per l&#39;esperienza in base alle opzioni di targeting e rotazione degli annunci e all&#39;inventario degli annunci disponibili.
+Dopo aver creato un&#39;esperienza live (con tutti gli elementi annuncio richiesti), puoi [generare un tag JavaScript o iframe per l&#39;intera esperienza](experience-tag-export.md). Puoi caricare il tag esperienza come annuncio in una campagna in Adobe Advertising DSP o implementarlo come annuncio in un DSP di terze parti. [!DNL Creative] fornisce annunci per l&#39;esperienza in base alle opzioni di targeting e rotazione degli annunci e all&#39;inventario degli annunci disponibili.
 
 ## Dati sulle prestazioni per le esperienze
 
@@ -65,7 +75,7 @@ Lo stato di un&#39;esperienza viene impostato automaticamente, ad eccezione di *
 
 *Bozza:* a tutti i rami dell&#39;esperienza non vengono assegnati creativi, pertanto l&#39;esperienza è incompleta e non puoi generare un tag esperienza.
 
-*Elaborazione:* Un&#39;esperienza live in precedenza è stata modificata ma è ora incompleta. Non puoi generare un tag esperienza per esso. **Nota:** se hai già implementato un tag di esperienza per l&#39;esperienza, la versione live precedente verrà comunque distribuita. Se in un secondo momento completi l’esperienza, riattivandola, la nuova versione verrà distribuita utilizzando l’implementazione di tag esistente.
+*Elaborazione:* Un&#39;esperienza precedentemente live è stata modificata ma è ora incompleta. Non puoi generare un tag esperienza per esso. **Nota:** se hai già implementato un tag di esperienza per l&#39;esperienza, è comunque possibile distribuire la versione live precedente. Se successivamente completi l’esperienza e la attivi di nuovo, la nuova versione può essere distribuita utilizzando l’implementazione di tag esistente.
 
 *Eliminata:* L&#39;esperienza è stata eliminata da [!DNL Creative] e non è più visibile nelle visualizzazioni di [!UICONTROL Experiences].
 

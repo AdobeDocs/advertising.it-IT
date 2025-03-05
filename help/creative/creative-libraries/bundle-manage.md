@@ -3,7 +3,7 @@ title: Gestire i bundle creativi
 description: Informazioni su xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 97e0f562153983202a2f3641e17dd682ff3d00ea
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 0%
@@ -160,7 +160,7 @@ Staccando un contenuto creativo dal bundle, il contenuto non viene eliminato dal
 
 ## Visualizzare in anteprima un contenuto creativo in un bundle
 
-Puoi visualizzare in anteprima un contenuto creativo così come verrà visualizzato dagli utenti, con collegamenti ipertestuali.
+Puoi visualizzare in anteprima un contenuto creativo così come verrà visualizzato dagli utenti, compresi i collegamenti ipertestuali.
 
 1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 

@@ -2,7 +2,8 @@
 title: Visualizzare in anteprima un contenuto creativo
 description: Scopri come aprire un’anteprima di un contenuto creativo.
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 *Solo creatività standard*
 *Versione beta chiusa*
 
-Puoi visualizzare in anteprima un contenuto creativo così come verrà visualizzato dagli utenti, con collegamenti ipertestuali.
+Puoi visualizzare in anteprima un contenuto creativo così come verrà visualizzato dagli utenti, compresi i collegamenti ipertestuali.
 
 1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
