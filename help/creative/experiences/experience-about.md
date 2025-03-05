@@ -3,7 +3,7 @@ title: Informazioni sulle esperienze in Advertising Creative
 description: Scopri come configurare esperienze pubblicitarie personalizzate e ottimizzare gli elementi pubblicitari in base alle prestazioni.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: e2b88275f2ebbc69f769cf905a0d20859bf0af3b
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Dopo aver creato un&#39;esperienza live (con tutti gli elementi annuncio richies
 
 ## Dati sulle prestazioni per le esperienze
 
-Quando abiliti l&#39;opzione [!UICONTROL Metrics] nella visualizzazione [!UICONTROL Experiences], ogni scheda o riga di esperienza indica il numero di impression e clic ricevuti dall&#39;esperienza.
+Quando abiliti l&#39;opzione [!UICONTROL Metrics] nella visualizzazione [!UICONTROL Creative] > [!UICONTROL Experiences], ogni scheda o riga di esperienza indica il numero di impression e clic ricevuti dall&#39;esperienza.
 
 ![Opzione metriche](/help/creative/assets/metrics-option.png "Opzione metriche")
 
@@ -59,11 +59,9 @@ Quando abiliti l&#39;opzione [!UICONTROL Metrics] nella visualizzazione [!UICONT
 
 <!-- I don't see this as of 1/9; why only in the table view?   You can also add conversion columns in the table view. -->
 
-È possibile visualizzare dati dettagliati sulle prestazioni per qualsiasi esperienza dalla vista [!UICONTROL Creative] > [!UICONTROL Experiences]. Per monitorare le prestazioni nelle esperienze, creare un [!UICONTROL Custom Creative Report].
+Puoi [visualizzare dati dettagliati sulle prestazioni per qualsiasi esperienza](experience-performance-details.md) dalla vista [!UICONTROL Experiences].
 
-<!--
-You can [view detailed performance data for any experience](experience-performance-details.md) from the Creative > Experiences view. To monitor performance across your experiences, [create custom reports](/help/dsp/reports/report-create.md).
--->
+Per monitorare le prestazioni nelle esperienze, creare un [!UICONTROL Custom Creative Report](/help/creative/report-custom-creative.md).
 
 ## Stati dell’esperienza {#experience-statuses}
 

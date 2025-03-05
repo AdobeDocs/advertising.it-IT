@@ -3,7 +3,7 @@ title: Informazioni sui report personalizzati
 description: Scopri le opzioni per la creazione manuale di rapporti personalizzati o l’utilizzo di modelli di rapporto preconfigurati.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 5ddfcba2e1ceac6a98dc0b865a09f535e6621fa0
+source-git-commit: 49e254ca954389b1ea13ac571de55f404ed7ba7c
 workflow-type: tm+mt
 source-wordcount: '1498'
 ht-degree: 0%
@@ -41,7 +41,11 @@ Puoi generare i rapporti una volta o pianificarli su base giornaliera, settimana
      >
      >Questo rapporto include dati sul segmento di fatturazione. Se a un utente o a un dispositivo viene trasmessa un’impression che appartiene a più segmenti, a un solo segmento fatturabile viene attribuita l’impression.
 
-   * **[!UICONTROL Conversion]:** Utilizza questo rapporto per comprendere le prestazioni delle campagne in base alle metriche di conversione acquisite utilizzando il tracciamento delle conversioni di Adobe Advertising. Questo rapporto include l’attribuzione multi-touch.
+   * **[!UICONTROL Conversion]:** Utilizza questo rapporto per comprendere le prestazioni delle campagne in base alle metriche di conversione acquisite tramite il tracciamento delle conversioni di Adobe Advertising. Questo rapporto include l’attribuzione multi-touch.
+
+  <!--
+    * **[!UICONTROL Custom Creative Report Beta]:** (Beta feature) Use this report to monitor performance across your Advertising Creative ad experiences.
+    -->
 
    * **[!UICONTROL Device]:** Utilizzare questo modello precompilato per visualizzare le metriche chiave per le dimensioni relative al dispositivo.
 
@@ -83,7 +87,7 @@ Puoi generare i rapporti una volta o pianificarli su base giornaliera, settimana
 
       * [!UICONTROL Campaign ID] o [!UICONTROL Campaign Name]: mostra quali campagne hanno supportato il processo di conversione.
 
-      * [!UICONTROL Ad ID] o [!UICONTROL Ad Name] mostra quali annunci DSP hanno prodotto conversioni.
+      * [!UICONTROL Ad ID] o [!UICONTROL Ad Name] mostra quali annunci DSP hanno generato conversioni.
 
       * [!UICONTROL Ad ID & Paid Keyword (SSC)] o [!UICONTROL Ad Name & Paid Keyword (SSC)] mostra quali parole chiave Search, Social e Commerce hanno dato luogo a conversioni.
 
@@ -91,7 +95,7 @@ Puoi generare i rapporti una volta o pianificarli su base giornaliera, settimana
 
      Sono inclusi fino ai 10 punti di interazione più recenti. Le righe del percorso sono ordinate in base al numero di conversioni.
 
-     Per un confronto tra questo report e i report creati da [!DNL Advanced Measurement Services] e Adobe Analytic, vedere &quot;[Domande frequenti sui report personalizzati](/help/dsp/reports/faq-reports.md).&quot;
+     Per un confronto tra questo report e i report creati da [!DNL Advanced Measurement Services] e Adobe Analytics, vedi &quot;[Domande frequenti sui report personalizzati](/help/dsp/reports/faq-reports.md).&quot;
 
    * **[!UICONTROL Path Length Beta]:** (funzionalità Beta) Utilizza questo report per      tieni traccia del numero di punti di interazione utente necessari per le conversioni nel tempo, in modo da poter scegliere la frequenza ottimale dell’annuncio. Il rapporto mostra il numero di conversioni per lunghezza del percorso (punti di interazione), ad esempio quante conversioni si sono verificate dopo che gli utenti avevano avuto una sola interazione con un annuncio, due interazioni con un annuncio e così via. Il rapporto può includere dati per più metriche di conversione e utilizza un periodo di lookback specifico tra la prima interazione e una conversione. Le colonne del report includono &quot;[!UICONTROL Path Length]&quot;, &quot;[!UICONTROL Number of] \&lt;Nome metrica di conversione 1\>,&quot; &quot;% \&lt;Nome metrica di conversione 1\>,&quot; \&lt;Nome metrica di conversione 2\>,&quot; &quot;% \&lt;Nome metrica di conversione 2\>&quot; e così via.
 
@@ -133,6 +137,6 @@ Puoi creare nuovi rapporti personalizzati, modificare quelli esistenti o duplica
 >* [Scarica un report personalizzato](/help/dsp/reports/report-download.md)
 >* [Impostazioni report personalizzati](/help/dsp/reports/report-settings.md)
 >* [Domande frequenti sui report domestici](/help/dsp/reports/faq-reports.md)
->* [Tipi di report sulle prestazioni nelle visualizzazioni di Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Tipi di rapporti sulle prestazioni nelle visualizzazioni di gestione delle campagne](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Colonne report disponibili](/help/dsp/reports/report-columns.md)
 >* [Informazioni su [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
