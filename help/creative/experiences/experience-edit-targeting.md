@@ -2,9 +2,10 @@
 title: Modificare un’esperienza con il targeting dell’albero decisionale
 description: Scopri come modificare le impostazioni per un’esperienza pubblicitaria di destinazione utilizzando una struttura decisionale.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 8c5e8f9b-c405-41b2-98a9-da7c5debd3e1
+source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -55,11 +56,11 @@ ht-degree: 0%
 
          * [Copia nodi figlio e creativi in un altro nodo allo stesso livello](experience-target-node-copy.md).
 
-      * Pacchetti creativi:
+      * Pacchetti Creative:
 
          * [Assegnazione e annullamento dell&#39;assegnazione di creatività a un nodo finale](experience-assign-creative-bundles.md).
 
-           Se non assegni almeno un bundle a ciascun nodo finale, puoi scegliere di utilizzare le creatività predefinite per ciascun nodo non assegnato quando salvi l’esperienza. Per poter pubblicare, l’esperienza deve essere assegnata in bundle o utilizzare le creatività predefinite per tutti gli annunci creati da essa.
+           Se non assegni almeno un bundle a ciascun nodo finale, puoi scegliere di utilizzare le creatività predefinite per ciascun nodo non assegnato quando salvi l’esperienza. Per pubblicare un’esperienza, devi assegnare dei bundle o utilizzare le creatività predefinite per ciascun nodo finale.
 
          * [Personalizza gli URL di tracciamento per i creativi nei bundle assegnati](experience-tracking-urls-targeting.md).
 
@@ -71,7 +72,7 @@ ht-degree: 0%
 
    * (Se ogni nodo al livello più basso non include almeno un bundle creativo) Effettua una delle seguenti operazioni:
 
-      * Per salvare l&#39;esperienza senza tutti i bundle creativi necessari, fare clic su **[!UICONTROL Save as Draft]**.
+      * Per salvare l&#39;esperienza senza tutti i bundle creativi richiesti, fare clic su **[!UICONTROL Save as Draft]**.
 
         Non puoi creare un tag annuncio per un&#39;esperienza [bozza](experience-about.md#experience-statuses).
 

@@ -2,9 +2,10 @@
 title: Scarica dati dalla visualizzazione [!UICONTROL Experiences]
 description: Scopri come
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 8362ac34-0de8-4bed-873d-dc20f39946bf
+source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -24,3 +25,6 @@ Ogni riga del file include dettagli su un&#39;esperienza, tra cui il nome e l&#3
 1. Nella barra degli strumenti superiore destra, fai clic su ![Scarica](/help/creative/assets/download.png "Scarica").
 
    Il file viene salvato nella cartella Download predefinita del browser.
+
+>[!MORELIKETHIS]
+>* [Informazioni sulle esperienze in Advertising Creative](/help/creative/experiences/experience-about.md)

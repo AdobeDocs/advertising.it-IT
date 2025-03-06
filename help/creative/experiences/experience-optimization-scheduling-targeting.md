@@ -3,7 +3,7 @@ title: Personalizzare l’ottimizzazione creativa e la pianificazione di un’es
 description: Scopri come
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: f6da629fdb81af4393bac9a81050111aded3ee3a
+source-git-commit: 4abb83d08a6633c36aa47b5acd67df3d4cc0923b
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 *Solo nodi di destinazione con creatività esistente*
 *Versione beta chiusa*
 
-Per impostazione predefinita, la rotazione creativa di un’esperienza viene determinata algoritmicamente per ottimizzare il tasso di click-through complessivo e le impostazioni di ottimizzazione creativa si applicano a tutti i bundle assegnati. Puoi personalizzare la rotazione creativa per eseguire manualmente i contenuti in ciascun bundle in base al peso relativo o per ottimizzare in modo algoritmico per un obiettivo personalizzato Advertising DSP specifico. <!-- verify --> È inoltre possibile pianificare l&#39;esecuzione di specifici bundle creativi durante specifici periodi di tempo sequenziali e applicare impostazioni personalizzate di rotazione creativa per ogni pianificazione.
+Per impostazione predefinita, la rotazione creativa di un’esperienza viene determinata algoritmicamente per ottimizzare il tasso di click-through complessivo e le impostazioni di ottimizzazione creativa si applicano a tutti i bundle assegnati. Puoi personalizzare la rotazione creativa per eseguire manualmente i contenuti in ciascun bundle in base al peso relativo o per ottimizzare in modo algoritmico per un obiettivo personalizzato Advertising DSP specifico. Puoi anche pianificare l’esecuzione di specifici bundle creativi durante specifici periodi di tempo sequenziali e applicare impostazioni personalizzate di rotazione creativa per ogni pianificazione.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ Quando la pianificazione creativa è disabilitata, le impostazioni di ottimizzaz
 
    * *[!UICONTROL Algorithmic]:* ruota le creatività in ciascun bundle in modo algoritmico in base a un obiettivo di ottimizzazione specificato.
 
-      * Per **[!UICONTROL Optimization Goal]**, selezionare *[!UICONTROL Click Through Rate]* o *[!UICONTROL Custom Objective]*.  Se selezioni *[!UICONTROL Custom Objective]*, seleziona un [obiettivo personalizzato di Advertising DSP](/help/dsp/optimization/custom-goal.md).<!-- Verify --> esistente
+      * Per **[!UICONTROL Optimization Goal]**, selezionare *[!UICONTROL Click Through Rate]* o *[!UICONTROL Custom Objective]*.  Se selezioni *[!UICONTROL Custom Objective]*, seleziona un [obiettivo personalizzato di Advertising DSP](/help/dsp/optimization/custom-goal.md) esistente.
 
 1. Fare clic su **[!UICONTROL Save]**.
 
@@ -61,7 +61,7 @@ Quando si utilizza la pianificazione, è necessario pianificare i bundle per tut
 
       * *[!UICONTROL Algorithmic]:* ruota le creatività in ciascun bundle in modo algoritmico in base a un obiettivo di ottimizzazione specificato.
 
-         * Per **[!UICONTROL Optimization Goal]**, selezionare *[!UICONTROL Click Through Rate]* o *[!UICONTROL Custom Objective]*.  Se selezioni *[!UICONTROL Custom Objective]*, seleziona un [obiettivo personalizzato di Advertising DSP](/help/dsp/optimization/custom-goal.md).<!-- Verify --> esistente
+         * Per **[!UICONTROL Optimization Goal]**, selezionare *[!UICONTROL Click Through Rate]* o *[!UICONTROL Custom Objective]*.  Se selezioni *[!UICONTROL Custom Objective]*, seleziona un [obiettivo personalizzato di Advertising DSP](/help/dsp/optimization/custom-goal.md) esistente.
 
 1. Per ogni programma aggiuntivo:
 
@@ -77,7 +77,7 @@ Quando si utilizza la pianificazione, è necessario pianificare i bundle per tut
 
       * *[!UICONTROL Algorithmic]:* ruota le creatività in ciascun bundle in modo algoritmico in base a un obiettivo di ottimizzazione specificato.
 
-         * Per **[!UICONTROL Optimization Goal]**, selezionare *[!UICONTROL Click Through Rate]* o *[!UICONTROL Custom Objective]*.  Se selezioni *[!UICONTROL Custom Objective]*, seleziona un [obiettivo personalizzato di Advertising DSP](/help/dsp/optimization/custom-goal.md).<!-- Verify --> esistente
+         * Per **[!UICONTROL Optimization Goal]**, selezionare *[!UICONTROL Click Through Rate]* o *[!UICONTROL Custom Objective]*.  Se selezioni *[!UICONTROL Custom Objective]*, seleziona un [obiettivo personalizzato di Advertising DSP](/help/dsp/optimization/custom-goal.md) esistente.
 
 1. Fare clic su **[!UICONTROL Save]**.
 

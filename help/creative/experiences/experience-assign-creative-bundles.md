@@ -2,9 +2,10 @@
 title: Assegnare e annullare l’assegnazione di bundle creativi a un nodo finale in un’esperienza
 description: Scopri come assegnare i creativi a ogni target nelle esperienze pubblicitarie.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 5449a760-6ade-41c0-9cab-bd92026b150b
+source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -20,9 +21,7 @@ Per esperienze pubblicitarie standard, puoi assegnare solo bundle creativi stand
 
 >[!NOTE]
 >
->Se non assegni almeno un bundle creativo a ciascun nodo finale, puoi scegliere di utilizzare le creatività predefinite per ciascun nodo non assegnato quando [salvi l&#39;esperienza](experience-create-targeting.md). Per poter pubblicare, l’esperienza deve essere assegnata in bundle o utilizzare le creatività predefinite per tutti gli annunci creati da essa.
-
-<!-- The optimization and ad scheduling features and tracking URLs customization are in a different place now -- include here or in separate procedures? -->
+>Se non assegni almeno un bundle creativo a ciascun nodo finale, puoi scegliere di utilizzare le creatività predefinite per ciascun nodo non assegnato quando [salvi l&#39;esperienza](experience-create-targeting.md). Per pubblicare un’esperienza, devi assegnare dei bundle o utilizzare le creatività predefinite per ciascun nodo finale.
 
 <!-- 1. [ways to get to the decision tree] -->
 

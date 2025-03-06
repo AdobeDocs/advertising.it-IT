@@ -2,9 +2,10 @@
 title: Creare un’esperienza con il targeting dell’albero decisionale
 description: Scopri come creare un’esperienza pubblicitaria mirata utilizzando una struttura decisionale.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
+source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -43,11 +44,11 @@ ht-degree: 0%
 
          * [Copia nodi figlio e creativi in un altro nodo allo stesso livello](experience-target-node-copy.md).
 
-      * Pacchetti creativi:
+      * Pacchetti Creative:
 
          * [Assegnazione e annullamento dell&#39;assegnazione di creatività a un nodo finale](experience-assign-creative-bundles.md).
 
-           Se non assegni almeno un bundle a ciascun nodo finale, puoi scegliere di utilizzare le creatività predefinite per ciascun nodo non assegnato quando salvi l’esperienza. Per poter pubblicare, l’esperienza deve essere assegnata in bundle o utilizzare le creatività predefinite per tutti gli annunci creati da essa.
+           Se non assegni almeno un bundle a ciascun nodo finale, puoi scegliere di utilizzare le creatività predefinite per ciascun nodo non assegnato quando salvi l’esperienza. Per pubblicare un’esperienza, devi assegnare dei bundle o utilizzare le creatività predefinite per ciascun nodo finale.
 
          * [Personalizza gli URL di tracciamento per i creativi nei bundle assegnati](experience-tracking-urls-targeting.md).
 
