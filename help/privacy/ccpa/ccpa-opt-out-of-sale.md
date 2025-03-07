@@ -1,19 +1,19 @@
 ---
-title: Adobe Advertising di supporto per il California Consumer Privacy Act &#58; supporto per la rinuncia dei consumatori
+title: Supporto Adobe Advertising per il California Consumer Privacy Act &#58; Supporto per la rinuncia dei consumatori
 description: Scopri il supporto per l’acquisizione delle richieste di rifiuto del consumatore.
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
+source-git-commit: 788b4ddb9b690a3f0bac93ec9b5145fc7a324719
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
 
-# Adobe Advertising di supporto per il California Consumer Privacy Act: supporto per la rinuncia del consumatore alla vendita
+# Supporto di Adobe Advertising per il California Consumer Privacy Act: supporto per la rinuncia del consumatore alla vendita
 
-*Ad Adobe Advertising Demand Side Platform (DSP)*
+*Per Adobe Advertising Demand Side Platform (DSP)*
 
 >[!IMPORTANT]
 >
@@ -23,15 +23,15 @@ Il California Consumer Privacy Act (CCPA) è la nuova legge sulla privacy della 
 
 In qualità di azienda, potrai determinare i dati personali che Adobe Experience Cloud tratta e archivia per tuo conto.
 
-In qualità di fornitore di servizi, Adobe Advertising fornisce supporto alla tua azienda per l’adempimento dei suoi obblighi in virtù del CCPA applicabili all’utilizzo di prodotti e servizi di Adobe Advertising, inclusa la gestione delle richieste dei consumatori di accedere e cancellare informazioni personali e la gestione delle richieste dei consumatori di non partecipare alla vendita di informazioni personali.
+In qualità di fornitore di servizi, Adobe Advertising fornisce supporto alla tua azienda per l’adempimento dei suoi obblighi in virtù del CCPA applicabili all’utilizzo dei prodotti e dei servizi Adobe Advertising, inclusa la gestione delle richieste dei consumatori di accedere e cancellare le informazioni personali e la gestione delle richieste dei consumatori di rinunciare alla vendita di informazioni personali.
 
-In questo documento viene descritto come l&#39;DSP (Adobe Advertising Demand Side Platform), in qualità di fornitore di servizi, supporti il diritto del consumatore di rinunciare alla &quot;vendita&quot; di &quot;informazioni personali&quot;, in base a quanto definito dal CCPA. Include informazioni su come comunicare ad Adobe Advertising le richieste di rifiuto e come recuperare i rapporti sulle richieste di rifiuto dell’organizzazione.
+In questo documento viene descritto come Adobe Advertising Demand Side Platform (DSP), in qualità di fornitore di servizi, supporta il diritto del consumatore di rifiutare la &quot;vendita&quot; di &quot;informazioni personali&quot;, in base a quanto definito dal CCPA. Include informazioni su come comunicare ad Adobe Advertising le richieste di rifiuto e come recuperare i rapporti sulle richieste di rifiuto dell’organizzazione.
 
 Per informazioni su come [!DNL Advertising Search, Social, & Commerce], Advertising Creative e [!DNL Advertising DCO] supportano i diritti di accesso e cancellazione delle informazioni personali dei consumatori, vedere [Supporto Adobe Advertising per il California Consumer Privacy Act: Supporto per l&#39;accesso e l&#39;eliminazione dei dati dei consumatori](/help/privacy/ccpa/ccpa-access-delete.md).
 
-Per ulteriori informazioni sui servizi per la privacy di Adobe per il CCPA, visitare il [Centro per la privacy di Adobe](https://www.adobe.com/privacy/ccpa.html).
+Per ulteriori informazioni sui servizi di privacy Adobe per il CCPA, visitare il [Centro per la privacy Adobe](https://www.adobe.com/privacy/ccpa.html).
 
-## Comunicazione delle richieste di rifiuto del consumatore all’Adobe Advertising
+## Comunicazione delle richieste di rifiuto del consumatore ad Adobe Advertising
 
 Puoi comunicare le richieste di rifiuto del consumatore utilizzando:
 
@@ -57,11 +57,11 @@ Puoi comunicare le richieste di rifiuto del consumatore utilizzando:
    >
    >Le richieste ad alcune soluzioni Adobe Experience Cloud non richiedono la libreria JavaScript, ma le richieste ad Adobe Advertising lo richiedono.
 
-   Devi distribuire la libreria sulla pagina web da cui i clienti possono inviare richieste di rifiuto della vendita, come ad esempio il portale della privacy della tua azienda. La libreria consente di recuperare i cookie Adobe (ID spazio dei nomi: `gsurferID`) in modo da poter inviare queste identità come parte delle richieste di rifiuto tramite l&#39;API Adobe Experience Platform Privacy Service.
+   Devi distribuire la libreria sulla pagina web da cui i clienti possono inviare richieste di rifiuto della vendita, come ad esempio il portale della privacy della tua azienda. La libreria consente di recuperare i cookie di Adobe (ID spazio dei nomi: `gsurferID`) in modo da poter inviare queste identità come parte delle richieste di rifiuto tramite l&#39;API Adobe Experience Platform Privacy Service.
 
-1. Identifica l’ID organizzazione Experience Cloud e assicurati che sia collegato ai tuoi account Adobi Advertising.
+1. Identifica il tuo ID organizzazione Experience Cloud e assicurati che sia collegato al tuo account Adobe Advertising.
 
-   Un ID organizzazione di Experience Cloud è una stringa alfanumerica composta da 24 caratteri a cui segue &quot;@AdobeOrg.&quot; Alla maggior parte dei clienti Experience Cloud è stato assegnato un ID organizzazione. Se il team marketing o l’amministratore di Adobe interno non conosce l’ID organizzazione o non è sicuro che sia stato fornito, contatta il team dell’account Adobe. Per inviare richieste all&#39;API per la privacy utilizzando lo spazio dei nomi `imsOrgID` è necessario l&#39;ID organizzazione.
+   Un ID organizzazione Experience Cloud è una stringa alfanumerica composta da 24 caratteri a cui segue &quot;@AdobeOrg.&quot; Alla maggior parte dei clienti Experience Cloud è stato assegnato un ID organizzazione. Se il team marketing o l’amministratore di sistema interno di Adobe non conosce l’ID organizzazione o non è sicuro che sia stato predisposto, contatta il team del tuo account Adobe. Per inviare richieste all&#39;API per la privacy utilizzando lo spazio dei nomi `imsOrgID` è necessario l&#39;ID organizzazione.
 
    >[!IMPORTANT]
    >
@@ -73,7 +73,7 @@ Puoi comunicare le richieste di rifiuto del consumatore utilizzando:
 
    >[!NOTE]
    >
-   >Se la tua azienda dispone di più ID organizzazione Experience Cloud, devi inviare richieste API separate per ciascuno di essi. È tuttavia possibile effettuare una richiesta API a più soluzioni secondarie Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] e [!DNL DCO]), con un account per ogni soluzione secondaria.
+   >Se la tua azienda dispone di più ID organizzazione Experience Cloud, devi inviare richieste API separate per ciascuno di essi. È tuttavia possibile effettuare una richiesta API a più soluzioni secondarie di Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] e [!DNL DCO]), con un account per ogni soluzione secondaria.
 
 Tutti questi passaggi sono necessari per ricevere supporto da Adobe Advertising. Per ulteriori informazioni su queste e altre attività correlate che è necessario eseguire utilizzando Adobe Experience Platform Privacy Service e dove trovare gli elementi necessari, vedere [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
@@ -121,7 +121,7 @@ curl -X POST \
             "type": "standard"
           },
           {
-            "namespace": "adCloud",
+            "namespace": "AdCloud",
             "type": "standard",
             "value":  "Wqersioejr-wdg",
           }
@@ -131,7 +131,7 @@ curl -X POST \
 }'
 ```
 
-dove:
+dove, secondo le [specifiche API di Privacy Service](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix):
 
-* `"namespace": "adCloud"` indica lo spazio cookie `adCloud` e il valore corrispondente è l&#39;ID cookie del cliente recuperato da `AdobePrivacy.js`
-* `"include": ["adCloud"]` indica che la richiesta si applica a Adobe Advertising
+* `"namespace": "AdCloud"` indica lo spazio cookie `AdCloud` e il valore corrispondente è l&#39;ID cookie del cliente recuperato da `AdobePrivacy.js`
+* `"include": ["adCloud"]` indica che la richiesta si applica al prodotto Adobe Advertising

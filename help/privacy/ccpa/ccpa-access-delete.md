@@ -4,9 +4,9 @@ description: Scopri i tipi di richiesta di dati supportati, i valori di configur
 feature: CCPA
 role: User, Developer
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
-source-git-commit: 97e0f562153983202a2f3641e17dd682ff3d00ea
+source-git-commit: a3e39ca4fa89f84ddc2669662c34bccb4425a2bb
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -94,11 +94,11 @@ Per ricevere supporto da Adobe Advertising, sono necessari tutti i passaggi nece
 
 * `"user IDs":`
 
-   * `"namespace": **411**` (che indica lo spazio cookie [!DNL adCloud])
+   * `"namespace": **411**` (che indica lo [[!DNL AdCloud] spazio cookie](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix))
 
    * `"value":` &lt;*valore ID cookie del cliente effettivo recuperato da`AdobePrivacy.js`*>
 
-* `"include": **adCloud**` (prodotto [!DNL Adobe] applicabile alla richiesta)
+* `"include": **adCloud**` (che è il [[!DNL Adobe] prodotto](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix) che si applica alla richiesta)
 
 * `"regulation": **ccpa**` (normativa sulla privacy applicabile alla richiesta)
 
