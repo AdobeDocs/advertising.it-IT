@@ -2,9 +2,10 @@
 title: Aggiungere un nodo di destinazione al livello finale in un’esperienza
 description: Scopri come aggiungere un nodo di destinazione al livello di destinazione finale di un’esperienza di annuncio.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 *Esperienze con targeting solo per la struttura decisionale*
 *Versione beta chiusa*
 
-Quando aggiungi un nodo di destinazione al livello più basso dell’esperienza, che si tratti del nodo principale &quot;All&quot;, di un nodo specifico di destinazione o di un nodo &quot;Everything Else&quot;, puoi definire la destinazione direttamente senza dover creare un nodo di pari livello. Questo crea il nodo di destinazione e un nodo aggiuntivo &quot;Tutto il resto&quot; allo stesso livello.
+Quando aggiungi un nodo di destinazione al livello più basso dell’esperienza, che si tratti del nodo principale &quot;All&quot;, di un nodo specifico di destinazione o di un nodo &quot;Everything Else&quot;, definisci direttamente la destinazione e non devi creare un nodo di pari livello. L’aggiunta di un nodo di livello inferiore crea il nodo di destinazione e un nodo aggiuntivo &quot;Tutto il resto&quot; allo stesso livello.
 
 >[!NOTE]
 >
@@ -26,13 +27,13 @@ Quando aggiungi un nodo di destinazione al livello più basso dell’esperienza,
 
 1. Specificare le destinazioni:
 
-   * Per Adobe Destinazioni pubblico, selezionare **[!UICONTROL Adobe Audience]**, quindi eseguire le operazioni seguenti:
+   * Per le destinazioni Adobe Audience, selezionare **[!UICONTROL Adobe Audience]**, quindi eseguire le operazioni seguenti:
 
       1. Fare clic su **[!UICONTROL Click to Browse]** per aprire le opzioni [!UICONTROL Audience Targeting], aprire la scheda **[!UICONTROL Adobe Segments]**, specificare una o più destinazioni del pubblico [!DNL Adobe] dell&#39;inserzionista e quindi fare clic su **[!UICONTROL Create]**.
 
       1. (Facoltativo) Per creare più nodi di destinazione quando sono specificati più tipi di pubblico, selezionare **[!UICONTROL Split targets to create nodes]**.
 
-         Questo crea un nodo di destinazione separato (con bundle creativi separati) per ogni pubblico specificato. Se non dividi le destinazioni, l’utente deve appartenere a tutti i tipi di pubblico specificati.
+         Questa funzione crea un nodo di destinazione separato (con bundle creativi separati) per ogni pubblico specificato. Se non dividi le destinazioni, l’utente deve appartenere a tutti i tipi di pubblico specificati.
 
       1. Fare clic su **[!UICONTROL Apply]**.
 
@@ -44,7 +45,7 @@ Quando aggiungi un nodo di destinazione al livello più basso dell’esperienza,
 
       1. (Facoltativo) Per creare più nodi di destinazione quando sono specificate più destinazioni geografiche, selezionare **[!UICONTROL Split targets to create nodes]**.
 
-         Questo crea un nodo di destinazione separato (con bundle creativi separati) per ogni destinazione geografica specificata. Se non si dividono le destinazioni, l&#39;utente deve appartenere a tutte le posizioni specificate.
+         Questa funzione crea un nodo di destinazione separato (con bundle creativi separati) per ogni destinazione geografica specificata. Se non si dividono le destinazioni, l&#39;utente deve appartenere a tutte le posizioni specificate.
 
       1. Fare clic su **[!UICONTROL Apply]**.
 
@@ -52,7 +53,7 @@ Quando aggiungi un nodo di destinazione al livello più basso dell’esperienza,
 
    La chiave per la coppia chiave-valore è già impostata nel campo **[!UICONTROL Data Pass]** nella sezione [!UICONTROL Advanced] delle [impostazioni esperienza](experience-settings-targeting.md).
 
-   * Per un target di pixel di retargeting, selezionare **[!UICONTROL RT Pixel]**, selezionare un singolo pixel di retargeting da utilizzare e i valori richiesti per qualsiasi attributo del pixel che deve essere presente per mostrare i creativi, quindi fare clic su **[!UICONTROL Apply]**.
+   * Per una destinazione pixel di retargeting, selezionare **[!UICONTROL RT Pixel]**, selezionare un singolo pixel di retargeting da utilizzare e i valori per gli attributi dei pixel necessari per mostrare le creatività, quindi fare clic su **[!UICONTROL Apply]**.
 
      Gli attributi per il pixel di retargeting sono configurati nelle [impostazioni pixel di retargeting](/help/creative/pixels/retargeting-pixel-manage.md).
 
@@ -62,7 +63,7 @@ Quando aggiungi un nodo di destinazione al livello più basso dell’esperienza,
 
       1. (Facoltativo) Per creare più nodi di destinazione quando sono specificate più destinazioni geografiche, selezionare **[!UICONTROL Split targets to create nodes]**.
 
-         Questo crea un nodo di destinazione separato (con bundle creativi separati) per ogni destinazione geografica specificata. Se non si dividono le destinazioni, l&#39;utente deve appartenere a tutte le posizioni specificate.
+         Questa funzione crea un nodo di destinazione separato (con bundle creativi separati) per ogni destinazione geografica specificata. Se non si dividono le destinazioni, l&#39;utente deve appartenere a tutte le posizioni specificate.
 
       1. Fare clic su **[!UICONTROL Apply]**.
 

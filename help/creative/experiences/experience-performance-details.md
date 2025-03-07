@@ -3,9 +3,9 @@ title: Rapporti sulle prestazioni a livello di esperienza
 description: Scopri come visualizzare i rapporti sulle prestazioni a livello di esperienza.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ La visualizzazione Report include i dati seguenti:
      ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
           -->
 
-   * **Percentuale predefinita**: (solo esperienze con targeting di albero delle decisioni) il numero di impression risultanti da creativi di destinazione, da creativi generici senza target o destinati a &quot;Tutti gli altri&quot; e dalla creatività predefinita per l&#39;esperienza.
+   * **Percentuale predefinita**: (solo esperienze con targeting di albero delle decisioni) il numero di impression risultanti da creativi di destinazione, da creativi generici senza target o indirizzati a &quot;Tutti gli altri&quot; e dalla creatività predefinita per l&#39;esperienza.
 
      <!--
      ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
@@ -52,7 +52,7 @@ La visualizzazione Report include i dati seguenti:
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
       -->
 
-      * **Prestazioni dispositivo:** singole metriche per tipo di dispositivo, sistema operativo e browser. Se necessario, fai clic sul valore per qualsiasi categoria di dispositivi per visualizzare un elenco delle prime <!-- NN --> creative distribuite con tale criterio.
+      * **Prestazioni dispositivo:** singole metriche per tipo di dispositivo, sistema operativo e browser. Facoltativamente, fai clic sul valore per qualsiasi categoria di dispositivi per visualizzare un elenco delle prime<!-- NN --> creative distribuite con tali criteri.
 
         <!--    
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
@@ -112,13 +112,15 @@ La visualizzazione Report include i dati seguenti:
 
       * Per specificare un periodo predefinito, selezionare il report: (*[!UICONTROL Last Month-to-date],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Today],* o *[!UICONTROL Yesterday]*.
 
-      * Per specificare un intervallo di date personalizzato, specificare la data di inizio e la data di fine <!-- in the format MM/DD/YYYY or M/D/YYYY,--> oppure fare clic sull&#39;![icona calendario](/help/search-social-commerce/assets/calendar.png) accanto a un campo e selezionare una data.
+      * Per specificare un intervallo di date personalizzato, specificare la data di inizio e la data di fine<!-- in the format MM/DD/YYYY or M/D/YYYY,--> oppure fare clic sull&#39;![icona calendario](/help/search-social-commerce/assets/calendar.png) accanto a un campo e selezionare una data.
 
    * (Facoltativo) Per modificare la regola utilizzata per attribuire i dati di conversione in una serie di eventi che portano a una conversione, fare clic su ![Impostazioni](/help/creative/assets/settings.png) e modificare **[!UICONTROL Attribution Rule]**.
 
-   * (Facoltativo) Per modificare le conversioni segnalate, fare clic su ![Impostazioni](/help/creative/assets/settings.png) e selezionare i nomi delle conversioni nel menu **[!UICONTROL Conversions]**.&lt;!— Solo uno o più? Verifica la visualizzazione: devo vedere un inserzionista con più conversioni già impostate —>
+     Per ulteriori informazioni sulle regole di attribuzione, vedere &quot;[Modalità di calcolo delle regole di attribuzione](/help/search-social-commerce/reports/attribution-rules.md).&quot;
 
-     Le colonne di conversione disponibili includono le conversioni disponibili in Advertising Search, Social e Commerce, indipendentemente dal fatto che tu sia un cliente di Search, Social e Commerce. Questo può includere metriche di conversione e coinvolgimento del sito sincronizzate da Adobe Analytics quando l&#39;inserzionista ha [un [!DNL Adobe Analytics for Advertising] integrazione](/help/integrations/analytics/overview.md). <!--Analytics calculated metrics and advanced calculated metrics aren't available.--> Per ulteriori informazioni sull&#39;inclusione delle conversioni raccolte nei report, vedere l&#39;argomento &quot;[Informazioni sulla gestione delle metriche di conversione di un inserzionista](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)&quot; nella Guida di Search, Social e Commerce.
+   * (Facoltativo) Per modificare le conversioni segnalate, fare clic su ![Impostazioni](/help/creative/assets/settings.png) e selezionare i nomi delle conversioni nel menu **[!UICONTROL Conversions]**.&lt;!— Solo uno o più? Verifica la visualizzazione: devo vedere un inserzionista con più conversioni già impostate. A partire da 3/6, visualizzo solo &quot;Seleziona tutto&quot; —>
+
+     Le colonne di conversione disponibili includono le conversioni disponibili in Advertising Search, Social e Commerce, indipendentemente dal fatto che tu sia un cliente di Search, Social e Commerce. L&#39;elenco può includere le metriche di conversione e di coinvolgimento del sito sincronizzate da Adobe Analytics quando l&#39;inserzionista ha [un [!DNL Adobe Analytics for Advertising] integrazione](/help/integrations/analytics/overview.md). <!--Analytics calculated metrics and advanced calculated metrics aren't available.--> Per ulteriori informazioni sull&#39;inclusione delle conversioni raccolte nei report, vedere l&#39;argomento &quot;[Informazioni sulla gestione delle metriche di conversione di un inserzionista](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)&quot; nella Guida di Search, Social e Commerce.
 
 1. Nella scheda [!UICONTROL Overview]:
 
@@ -134,9 +136,9 @@ La visualizzazione Report include i dati seguenti:
 
    * (Facoltativo) Nella sezione [!UICONTROL Device Performance] eseguire una delle operazioni seguenti:
 
-      * Tenere premuto il cursore sul valore per qualsiasi categoria di dispositivi per visualizzare i dati relativi a tali criteri.
+      * Tenere premuto il cursore sul valore di qualsiasi categoria di dispositivi per visualizzare i dati relativi a tali criteri.
 
-      * Fai clic sul valore per qualsiasi categoria di dispositivi per visualizzare un elenco dei primi <!-- NN--> creativi serviti con quel criterio.
+      * Fai clic sul valore per qualsiasi categoria di dispositivi per visualizzare un elenco delle prime<!-- NN--> creative distribuite con tali criteri.
 
 1. (Facoltativo) Per visualizzare i dati per creatività e per bundle o tag annuncio, fare clic sulla scheda **[!UICONTROL Creative Performance]**.
 
@@ -148,7 +150,7 @@ La visualizzazione Report include i dati seguenti:
 
       * (Esperienze con solo targeting della struttura decisionale; facoltativo) Per suddividere le prestazioni per ogni destinazione annuncio applicata, abilita **[!UICONTROL Split targeting]**.
 
-1. Per visualizzare i dati per bundle (esperienze con targeting della struttura decisionale) o tag annuncio (esperienze senza targeting della struttura decisionale), fai clic sulla scheda secondaria **[!UICONTROL Bundles]**. È possibile effettuare una delle seguenti operazioni:
+1. Per visualizzare i dati per bundle (esperienze con targeting di struttura decisionale) o tag annuncio (esperienze senza targeting di struttura decisionale), fai clic sulla scheda secondaria **[!UICONTROL Bundles]**. È possibile effettuare una delle seguenti operazioni:
 
    * (Facoltativo) Per passare dalla visualizzazione grafico alla visualizzazione griglia e viceversa, fare clic rispettivamente su ![Grafico](/help/creative/assets/chart-view-button.png "Grafico") e ![Griglia](/help/creative/assets/table-view-button.png "Griglia").
 
@@ -163,3 +165,5 @@ La visualizzazione Report include i dati seguenti:
 >[!MORELIKETHIS]
 >
 >* [Report Creative personalizzato](/help/creative/report-custom-creative.md)
+>* [Scarica tutte le esperienze nella visualizzazione](/help/creative/experiences/experience-download-view.md)
+>* [Informazioni sulle esperienze in Advertising Creative](/help/creative/experiences/experience-about.md)

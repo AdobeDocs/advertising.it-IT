@@ -2,9 +2,10 @@
 title: Copiare nodi secondari in un altro nodo di destinazione allo stesso livello
 description: Scopri come copiare tutti i nodi secondari di un nodo di destinazione principale in un altro nodo di destinazione allo stesso livello
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: b3705689-57b6-41ce-9e00-2358bd195c93
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 *Esperienze con targeting solo per la struttura decisionale*
 *Versione beta chiusa*
 
-È possibile copiare tutti i nodi figlio di un nodo di destinazione padre (inclusi tutti gli oggetti figlio e i bundle creativi ad essi assegnati) in un altro nodo di destinazione allo stesso livello, aggiungendo i nodi copiati al framework esistente o sostituendo completamente il framework esistente. <!-- Give the main use case or an example to explain. -->
+Puoi copiare tutti i nodi secondari di un nodo di destinazione principale (inclusi tutti i target secondari e i bundle creativi loro assegnati) in un altro nodo di destinazione allo stesso livello. È possibile copiare i nodi a) aggiungendo i nodi copiati al framework esistente oppure b) sostituendo completamente il framework esistente. <!-- Give the main use case or an example to explain. -->
 
 Questa funzionalità non influisce sulla destinazione specificata per il nodo padre, ma solo sui nodi figlio.
 

@@ -2,9 +2,10 @@
 title: Personalizzare gli URL di tracciamento per un’esperienza senza targeting
 description: Scopri come personalizzare gli URL di tracciamento per ogni creativo in un’esperienza senza il targeting della struttura decisionale.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 03a10285-c0df-4bc3-92c7-c1c2ea3f8129
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 *Versione beta chiusa*
 
-Per le esperienze senza targeting della struttura decisionale, puoi creare fino a cinque URL personalizzati di tracciamento delle impression, cinque URL personalizzati di tracciamento dei clic e un URL di pagina di destinazione personalizzato per ogni singolo contenuto creativo utilizzato per il tag di esperienza dell’annuncio dall’interno di [!UICONTROL Tag Manager].
+Per le esperienze senza il targeting della struttura decisionale, puoi creare fino a cinque URL personalizzati di tracciamento delle impression, cinque URL personalizzati di tracciamento dei clic e un URL personalizzato per pagina di destinazione per ogni singolo contenuto creativo utilizzato per il tag esperienza dell’annuncio. È possibile personalizzare gli URL di tracciamento da [!UICONTROL Tag Manager].
 
 Gli URL personalizzati vengono utilizzati solo per gli annunci creati dal tag esperienza annuncio e non vengono salvati nelle impostazioni creative di base in [!UICONTROL Creative Libraries].
 
@@ -33,13 +34,13 @@ Gli URL personalizzati vengono utilizzati solo per gli annunci creati dal tag es
 
    1. Immettere un **[!UICONTROL Tag name]** univoco e selezionare **[!UICONTROL Tag size]**.
 
-      Le dimensioni disponibili sono determinate dalle dimensioni delle creatività predefinite dell’immagine per l’esperienza.
+      Le dimensioni delle creatività immagine predefinite per l’esperienza determinano le dimensioni disponibili.
 
    1. Fare clic su **[!UICONTROL Create]**.
 
 1. Posizionare il cursore sulla riga relativa al tag annuncio applicabile e fare clic su ![Modifica URL di tracciamento](/help/creative/assets/edit-gray.png "Modifica URL di tracciamento") **[!UICONTROL Tracking URLs]**. <!-- For targeted experiences, this is "EDIT Tracking URLs" -->&lt;!— In Tag Manager è disponibile solo la vista a elenco, ma non quella a schede, a partire da 2/2. >
 
-   Nelle schede [!UICONTROL Click Tracking URLs], [!UICONTROL Impression Tracking URLs] e [!UICONTROL Landing URLs] sono elencati i nomi di tutti i creativi nelle dimensioni applicabili nei bundle assegnati. Le dimensioni applicabili sono determinate dalle dimensioni delle creatività immagine predefinite per l&#39;esperienza.<!-- There's no distinct "Creative Sizes" setting. -->
+   Nelle schede [!UICONTROL Click Tracking URLs], [!UICONTROL Impression Tracking URLs] e [!UICONTROL Landing URLs] sono elencati i nomi di tutti i creativi nelle dimensioni applicabili nei bundle assegnati. Le dimensioni delle creatività immagine predefinite per l&#39;esperienza determinano le dimensioni disponibili.<!-- There's no distinct "Creative Sizes" setting. -->
 
 1. Nelle schede **[!UICONTROL Click Tracking URLs]**, **[!UICONTROL Impression Tracking URLs]** e **[!UICONTROL Landing URLs]**, eseguire le operazioni seguenti per ogni contenuto creativo in base alle esigenze:
 

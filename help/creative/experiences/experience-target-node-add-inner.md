@@ -2,9 +2,10 @@
 title: Aggiungere un nodo di destinazione tra i nodi di un’esperienza
 description: Scopri come aggiungere un nodo di destinazione tra gli elementi di destinazione in un’esperienza di annuncio.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
@@ -14,9 +15,9 @@ ht-degree: 0%
 *Esperienze con targeting solo per la struttura decisionale*
 *Versione beta chiusa*
 
-Quando inserisci un nodo di destinazione tra i livelli esistenti, il nuovo nodo di destinazione mantiene tutte le destinazioni e le creatività secondarie esistenti e inizialmente il nuovo nodo si chiama &quot;All&quot; (Tutti). Facoltativamente, puoi mantenere il nuovo nodo senza aggiungere destinazioni più specifiche.
+Quando inserisci un nodo di destinazione tra i livelli esistenti, il nuovo nodo di destinazione mantiene tutte le destinazioni e le creatività secondarie esistenti e inizialmente il nuovo nodo è chiamato &quot;All&quot; (Tutti). Facoltativamente, puoi mantenere il nuovo nodo senza aggiungere destinazioni più specifiche.
 
-Per definire un target specifico, aggiungi un altro nodo di destinazione di pari livello allo stesso livello, specifica il nuovo target, quindi assegna i creativi solo a tale target. In questo modo viene creato il nuovo nodo di destinazione e tutti gli oggetti figlio e i creativi precedentemente assegnati a &quot;Tutto&quot; vengono spostati in un nuovo nodo &quot;Tutto il resto&quot; allo stesso livello. In questo modo, i rami figlio esistenti non saranno interessati dall’aggiunta della nuova destinazione, poiché solo il nuovo nodo di pari livello include le nuove informazioni di targeting.
+Per definire un target specifico, aggiungi un altro nodo di destinazione di pari livello allo stesso livello, specifica il nuovo target, quindi assegna i creativi solo a tale target. L’aggiunta di un nodo di destinazione di pari livello crea il nuovo nodo di destinazione e sposta tutti gli oggetti e le creatività secondari precedentemente assegnati a &quot;All&quot; in un nuovo nodo &quot;Everything Else&quot; allo stesso livello. In questo modo, l’aggiunta della nuova destinazione non influisce sui rami figlio esistenti, perché solo il nuovo nodo di pari livello include le nuove informazioni di targeting.
 
 >[!NOTE]
 >
@@ -32,7 +33,7 @@ Per definire un target specifico, aggiungi un altro nodo di destinazione di pari
 
       1. Selezionare il tipo di destinazione, quindi fare clic su **[!UICONTROL Apply]**:
 
-         * Per Adobe Destinazioni pubblico, selezionare **[!UICONTROL Adobe Audience]**.
+         * Per le destinazioni Adobe Audience, selezionare **[!UICONTROL Adobe Audience]**.
 
          * Per le destinazioni geografiche, selezionare una singola categoria geografica (ad esempio [!UICONTROL Geo: Country]).
 
@@ -44,13 +45,13 @@ Per definire un target specifico, aggiungi un altro nodo di destinazione di pari
 
    * Se i nodi di pari livello esistono già, eseguire le operazioni seguenti:
 
-      * Per Adobe Destinazioni pubblico, effettua le seguenti operazioni:
+      * Per le destinazioni Adobe Audience, effettua le seguenti operazioni:
 
          1. Fare clic su **[!UICONTROL Click to Browse]** per aprire le opzioni [!UICONTROL Audience Targeting], aprire la scheda **[!UICONTROL Adobe Segments]**, specificare una o più destinazioni del pubblico [!DNL Adobe] dell&#39;inserzionista e quindi fare clic su **[!UICONTROL Create]**<!-- Why not "Save" like for the other node types/use cases? -->.
 
          1. (Facoltativo) Per creare più nodi di destinazione quando sono specificati più tipi di pubblico, selezionare **[!UICONTROL Split targets to create nodes]**.
 
-            Questo crea un nodo di destinazione separato (con bundle creativi separati) per ogni pubblico specificato. Se non dividi le destinazioni, l’utente deve appartenere a tutti i tipi di pubblico specificati.
+            Questa funzione crea un nodo di destinazione separato (con bundle creativi separati) per ogni pubblico specificato. Se non dividi le destinazioni, l’utente deve appartenere a tutti i tipi di pubblico specificati.
 
          1. Fare clic su **[!UICONTROL Apply]**.
 
@@ -62,7 +63,7 @@ Per definire un target specifico, aggiungi un altro nodo di destinazione di pari
 
          1. (Facoltativo) Per creare più nodi di destinazione quando sono specificate più destinazioni geografiche, selezionare **[!UICONTROL Split targets to create nodes]**.
 
-            Questo crea un nodo di destinazione separato (con bundle creativi separati) per ogni destinazione geografica specificata. Se non si dividono le destinazioni, l&#39;utente deve appartenere a tutte le posizioni specificate.
+            Questa funzione crea un nodo di destinazione separato (con bundle creativi separati) per ogni destinazione geografica specificata. Se non si dividono le destinazioni, l&#39;utente deve appartenere a tutte le posizioni specificate.
 
          1. Fare clic su **[!UICONTROL Apply]**.
 
@@ -70,7 +71,7 @@ Per definire un target specifico, aggiungi un altro nodo di destinazione di pari
 
         La chiave per la coppia chiave-valore è già impostata nel campo **[!UICONTROL Data Pass]** nella sezione [!UICONTROL Advanced] delle [impostazioni esperienza](experience-settings-targeting.md).
 
-      * Per un target di pixel di retargeting, selezionare un singolo pixel di retargeting da utilizzare e i valori richiesti per qualsiasi attributo del pixel che deve essere presente per mostrare i creativi, quindi fare clic su **[!UICONTROL Apply]**.
+      * Per un target di pixel di retargeting, selezionare un singolo pixel di retargeting da utilizzare e i valori per gli attributi del pixel necessari per mostrare i creativi, quindi fare clic su **[!UICONTROL Apply]**.
 
         Gli attributi per il pixel di retargeting sono configurati nelle [impostazioni pixel di retargeting](/help/creative/pixels/retargeting-pixel-manage.md).
 
@@ -80,7 +81,7 @@ Per definire un target specifico, aggiungi un altro nodo di destinazione di pari
 
          1. (Facoltativo) Per creare più nodi di destinazione quando sono specificate più destinazioni geografiche, selezionare **[!UICONTROL Split targets to create nodes]**.
 
-            Questo crea un nodo di destinazione separato (con bundle creativi separati) per ogni destinazione geografica specificata. Se non si dividono le destinazioni, l&#39;utente deve appartenere a tutte le posizioni specificate.
+            Questa funzione crea un nodo di destinazione separato (con bundle creativi separati) per ogni destinazione geografica specificata. Se non si dividono le destinazioni, l&#39;utente deve appartenere a tutte le posizioni specificate.
 
          1. (Facoltativo) Per creare più nodi di destinazione quando sono specificate più destinazioni geografiche, selezionare **[!UICONTROL Split targets to create nodes]**.
 
@@ -90,7 +91,7 @@ Per definire un target specifico, aggiungi un altro nodo di destinazione di pari
 
    * (Facoltativo) [Assegna creatività](experience-assign-creative-bundles.md) al nuovo nodo di destinazione e al nodo &quot;Tutto il resto&quot;.
 
-   * (Facoltativo) [Aggiungere un nodo di destinazione di pari livello](experience-target-node-add-sibling.md) che includerà una destinazione del tipo specificato.
+   * (Facoltativo) [Aggiungere un nodo di destinazione di pari livello](experience-target-node-add-sibling.md) del tipo di destinazione specificato.
 
    * (Facoltativo) Per salvare l&#39;esperienza:
 

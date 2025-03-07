@@ -2,9 +2,10 @@
 title: Condividere un URL demo per un’esperienza
 description: Scopri come condividere un URL dimostrativo di un’esperienza.
 feature: Creative Experiences
-source-git-commit: 14d972044d485ead5101f1c383d2726bb6fd9d25
+exl-id: 0d523270-e6b2-4d7b-a39c-749f3cc94561
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -28,3 +29,7 @@ ht-degree: 0%
 1. In alto a destra nell&#39;anteprima, fai clic su ![Condividi](/help/creative/assets/share.png "Condividi").
 
 1. Nella finestra di dialogo [!UICONTROL Share Demo URL], fai clic su **[!UICONTROL Copy]** per copiare l&#39;URL negli Appunti e condividerlo con un altro utente.
+
+>[!MORELIKETHIS]
+>
+>* [Anteprima di un&#39;esperienza](/help/creative/experiences/experience-preview.md)

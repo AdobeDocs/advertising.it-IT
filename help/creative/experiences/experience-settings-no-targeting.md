@@ -3,9 +3,9 @@ title: Impostazioni per esperienze non di destinazione
 description: Vedi le descrizioni di tutte le impostazioni per le esperienze pubblicitarie senza targeting della struttura decisionale.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1123'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL Advertiser]:** (sola lettura per le esperienze esistenti) L&#39;inserzionista che farà offerte sui creativi inclusi nell&#39;esperienza. Una volta salvata l&#39;esperienza, non è possibile modificare l&#39;inserzionista.
 
-**[!UICONTROL Experience Name]:** Nome univoco per l&#39;esperienza. **Suggerimento:** utilizza un nome facile da trovare quando utilizzi l&#39;esperienza come annuncio in Advertising DSP o in un altro DSP.
+**[!UICONTROL Experience Name]:** Nome univoco per l&#39;esperienza. **Suggerimento:** utilizza un nome facilmente reperibile quando utilizzi l&#39;esperienza come annuncio in Advertising DSP o in un altro DSP.
 
 **[!UICONTROL Creative Library]:** (sola lettura per le esperienze esistenti) Un&#39;unica libreria creativa da utilizzare per l&#39;esperienza. Una volta salvata l&#39;esperienza, non puoi modificare la libreria.
 
@@ -38,9 +38,9 @@ Per le esperienze senza il targeting della struttura decisionale, è possibile s
 
 ## [!UICONTROL Targeting] sezione
 
-**[!UICONTROL Targeting]:** (sola lettura per esperienze esistenti) Non applicabile se non si desidera abilitare il targeting utilizzando una struttura decisionale; mantenere disabilitata questa opzione.
+**[!UICONTROL Targeting]:** (sola lettura per esperienze esistenti) Non applicabile se non si abilita il targeting utilizzando una struttura decisionale; mantenere questa opzione disabilitata.
 
-**[!UICONTROL Dynamic ads]:** (sola lettura per esperienze esistenti) indica che l&#39;esperienza include annunci dinamici. **Nota:** un&#39;esperienza può includere tutti gli annunci standard o tutti gli annunci dinamici.
+**[!UICONTROL Dynamic ads]:** (sola lettura per le esperienze esistenti) indica che l&#39;esperienza include annunci dinamici. **Nota:** un&#39;esperienza può includere tutti gli annunci standard o tutti gli annunci dinamici.
 
 **[!UICONTROL Language Targeting]:** (solo esperienze con annunci standard; facoltativo; sola lettura per esperienze esistenti) Controlla le impostazioni della lingua del browser dell&#39;utente e visualizza un contenuto creativo nella lingua specificata quando è disponibile un contenuto creativo in tale lingua. Quando un contenuto creativo nella lingua specificata dal browser non è disponibile, viene utilizzata l&#39;impostazione [!UICONTROL Preferred language]. Una volta salvata l&#39;esperienza, non puoi modificare questa impostazione.
 
@@ -50,13 +50,13 @@ Per le esperienze senza il targeting della struttura decisionale, è possibile s
 
 **Passaggio dati:** (solo esperienze con annunci dinamici; facoltativo) per indirizzare gli utenti in base a coppie chiave-valore specifiche passate in tempo reale su impression da DSP, publisher o partner. È possibile specificare fino a cinque chiavi di trasferimento dati (parametri).<!-- May move this to just within the decision tree. -->
 
-In seguito, quando crei un tag di esperienza annuncio per una dimensione creativa specifica, a ogni chiave specificata in questo campo viene aggiunta una macro nel tag. Immetti il valore di ogni coppia chiave-valore all’interno del tag prima di implementare il tag come annuncio nel DSP.
+Quando crei un tag di esperienza annuncio per una dimensione creativa specifica, a ogni chiave specificata in questo campo viene aggiunta una macro nel tag. Immetti il valore di ogni coppia chiave-valore all’interno del tag prima di implementare il tag come annuncio nel DSP.
 
 **Raggio:** (solo esperienze con annunci dinamici; facoltativo) Un raggio da un CAP degli Stati Uniti specificato nel file di feed per il target; seleziona un raggio da 0 miglia a 200 miglia. Il file di feed utilizzato per creare gli annunci dinamici per l&#39;esperienza deve includere una colonna [!UICONTROL ZIP]<!-- or a user-named column mapped to a ZIP column --> con un valore per ogni riga prodotto nel file. Ad esempio, per un raggio di 10 miglia, un annuncio per un prodotto disponibile in 95110 può essere visualizzato agli utenti entro 10 miglia da 95110 (determinato dall’indirizzo IP dell’utente).
 
-**Pixel RT:** (solo esperienze con annunci dinamici; facoltativo) Un pixel di retargeting [!UICONTROL Creative] per il potenziale target. Quando configuri il targeting all’interno dell’albero decisionale, puoi includere un livello di nodi di destinazione di pixel RT e specificare il pixel di destinazione per ogni nodo, nonché i valori richiesti per gli attributi del pixel che devono essere presenti per mostrare i creativi nei bundle creativi assegnati. Se non specifichi un pixel in questo campo, puoi comunque specificarne uno all’interno dell’albero decisionale.&lt;!— Da R: &quot;il Pixel RT dovrebbe essere tramite la selezione del contenuto nella Dynamic Ad Setup&quot; — chiarimento. Nelle impostazioni degli annunci dinamici viene visualizzato &quot;Datapass&quot; (una parola), ma non sono sicuro di come funzionino insieme questa impostazione e questo livello di esperienza. —>
+**Pixel RT:** (solo esperienze con annunci dinamici; facoltativo) Un pixel di retargeting [!UICONTROL Creative] per il potenziale target. Quando imposti il targeting all’interno dell’albero decisionale, puoi includere un livello di nodi di destinazione di pixel RT. Per ogni nodo, specificherai il pixel di destinazione e i valori per gli attributi del pixel necessari per mostrare i creativi nei bundle creativi assegnati. Se non specifichi un pixel in questo campo, puoi comunque specificarne uno all’interno dell’albero decisionale.&lt;!— Da R: &quot;il Pixel RT dovrebbe essere tramite la selezione del contenuto nella Dynamic Ad Setup&quot; — chiarimento. Nelle impostazioni degli annunci dinamici viene visualizzato &quot;Datapass&quot; (una parola), ma non sono sicuro di come funzionino insieme questa impostazione e questo livello di esperienza. —>
 
-**[!UICONTROL Label]:** <!-- should be "Labels" --> (facoltativo) qualsiasi etichetta specifica di [!DNL Creative] da applicare all&#39;esperienza. È possibile filtrare le esperienze per etichetta nella visualizzazione Esperienze<!-- sic -->.
+**[!UICONTROL Label]:**<!-- should be "Labels" --> (facoltativo) qualsiasi etichetta specifica di [!DNL Creative] da applicare all&#39;esperienza. È possibile filtrare le esperienze per etichetta nella visualizzazione Esperienze<!-- sic -->.
 
 * Per selezionare le etichette esistenti, fare clic su ![Giù](/help/creative/assets/chevron-down.png "Giù") e selezionare la casella di controllo accanto a ogni etichetta da applicare.
 

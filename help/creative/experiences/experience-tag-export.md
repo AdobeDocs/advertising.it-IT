@@ -3,7 +3,7 @@ title: Esportare e implementare un tag di esperienza annuncio per un’esperienz
 description: Scopri come esportare un tag esperienza annuncio e, facoltativamente, caricarlo in una campagna Advertising DSP.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Versione beta chiusa*
 
-Quando un tag annuncio per una dimensione creativa specifica è disponibile per un&#39;esperienza [live](experience-about.md#experience-statuses), puoi generare e copiare il tag nei formati JavaScript e iframe per l&#39;implementazione su Advertising DSP o altro DSP. I tag per l&#39;DSP includono tutte le macro necessarie per l&#39;DSP.
+Quando un tag annuncio per una dimensione creativa specifica è disponibile per un&#39;esperienza [live](experience-about.md#experience-statuses), puoi generare e copiare il tag nei formati JavaScript e iframe per l&#39;implementazione su Advertising DSP o altre DSP. I tag per DSP includono tutte le macro necessarie per DSP.
 
 Gli inserzionisti con Advertising DSP possono facoltativamente caricare tag direttamente in una campagna Advertising DSP come annunci.
 
@@ -46,11 +46,11 @@ Gli inserzionisti con Advertising DSP possono facoltativamente caricare tag dire
 
 1. Selezionare il tipo di tag: ** *JavaScript<!-- sic -->* ** o ** *IFRAME* ** <!-- sic -->.
 
-1. Nell&#39;elenco [!UICONTROL Destinations], seleziona la posizione in cui verranno creati gli annunci per l&#39;esperienza.
+1. Nell&#39;elenco [!UICONTROL Destinations], seleziona la posizione in cui creare gli annunci per l&#39;esperienza.
 
-   * *Adobe Advertising:* Per gli annunci che creerai in Advertising DSP.
+   * *Adobe Advertising:* per gli annunci che creerai in Advertising DSP.
 
-   * *Generico:* per gli annunci che creerai in un altro DSP. **Nota:** potrebbe essere necessario includere manualmente ulteriori macro in base alle esigenze.
+   * *Generico:* per gli annunci che creerai in altre DSP. **Nota:** potrebbe essere necessario includere manualmente ulteriori macro in base alle esigenze.
 
 1. Fare clic su **[!UICONTROL Generate tags]**.
 
@@ -64,17 +64,17 @@ Gli inserzionisti con Advertising DSP possono facoltativamente caricare tag dire
 
 1. Implementare i tag per il DSP pertinente:
 
-   * Per DSP diverso da Advertising DSP, fornisci i tag a chiunque creerà gli annunci all’interno dell’DSP.
+   * Per le DSP diverse da Advertising DSP, fornisci i tag a chiunque creerà gli annunci all’interno di DSP.
 
    * Per Advertising DSP:
 
       1. Fare clic su **[!UICONTROL Next]** in alto a destra o su **[!UICONTROL DSP link]** nel menu a sinistra.
 
-      1. Seleziona la campagna per la quale diventerà disponibile il tag dell’annuncio.
+      1. Seleziona la campagna in cui desideri caricare il tag dell’annuncio.
 
       1. Fare clic su **[!UICONTROL Assign Tags]**.
 
-         DSP apre alla visualizzazione [!UICONTROL Ads] per la campagna selezionata.
+         DSP apre la visualizzazione [!UICONTROL Ads] per la campagna selezionata.
 
       1. Nella visualizzazione [!UICONTROL Create ads], esaminare i tag dell&#39;annuncio, selezionare ogni tag per il quale si desidera creare un annuncio e quindi fare clic su **[!UICONTROL Create]**.
 
