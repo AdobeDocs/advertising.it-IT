@@ -3,9 +3,9 @@ title: Impostazioni per esperienze non di destinazione
 description: Vedi le descrizioni di tutte le impostazioni per le esperienze pubblicitarie senza targeting della struttura decisionale.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: d2db928068153c0ce26cc51fa79f45cbb3c61f18
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Quando crei un tag di esperienza annuncio per una dimensione creativa specifica,
 
 **Raggio:** (solo esperienze con annunci dinamici; facoltativo) Un raggio da un CAP degli Stati Uniti specificato nel file di feed per il target; seleziona un raggio da 0 miglia a 200 miglia. Il file di feed utilizzato per creare gli annunci dinamici per l&#39;esperienza deve includere una colonna [!UICONTROL ZIP]<!-- or a user-named column mapped to a ZIP column --> con un valore per ogni riga prodotto nel file. Ad esempio, per un raggio di 10 miglia, un annuncio per un prodotto disponibile in 95110 può essere visualizzato agli utenti entro 10 miglia da 95110 (determinato dall’indirizzo IP dell’utente).
 
-**Pixel RT:** (solo esperienze con annunci dinamici; facoltativo) Un pixel di retargeting [!UICONTROL Creative] per il potenziale target. Quando imposti il targeting all’interno dell’albero decisionale, puoi includere un livello di nodi di destinazione di pixel RT. Per ogni nodo, specificherai il pixel di destinazione e i valori per gli attributi del pixel necessari per mostrare i creativi nei bundle creativi assegnati. Se non specifichi un pixel in questo campo, puoi comunque specificarne uno all’interno dell’albero decisionale.&lt;!— Da R: &quot;il Pixel RT dovrebbe essere tramite la selezione del contenuto nella Dynamic Ad Setup&quot; — chiarimento. Nelle impostazioni degli annunci dinamici viene visualizzato &quot;Datapass&quot; (una parola), ma non sono sicuro di come funzionino insieme questa impostazione e questo livello di esperienza. —>
+**Pixel RT:** (solo esperienze con annunci dinamici; facoltativo) Un pixel di retargeting [!UICONTROL Creative] per il potenziale target. Quando imposti il targeting all’interno dell’albero decisionale, puoi includere un livello di nodi di destinazione di pixel RT. Per ogni nodo, specificherai il pixel di destinazione e i valori per gli attributi del pixel necessari per mostrare i creativi nei bundle creativi assegnati. Se non si specifica un pixel in questo campo, è comunque possibile specificarne uno all&#39;interno della struttura decisionale.<!-- From R: "the RT Pixel should be via the content selection in the Dynamic ad setup." Clarify. I do see "Datapass" (oneword) in the dynamic ad settings, but I'm not sure how that setting and this experience-level one work together. -->
 
 **[!UICONTROL Label]:**<!-- should be "Labels" --> (facoltativo) qualsiasi etichetta specifica di [!DNL Creative] da applicare all&#39;esperienza. È possibile filtrare le esperienze per etichetta nella visualizzazione Esperienze<!-- sic -->.
 
