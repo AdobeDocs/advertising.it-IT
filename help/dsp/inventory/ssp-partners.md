@@ -3,9 +3,9 @@ title: Partner SSP
 description: Consulta un elenco della piattaforma lato offerta (SSP, Supply-Side Platform) e dei partner di scambio aperti.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 311200b84c4f2d037ecc9cc17ba49495bd523464
+source-git-commit: 9bdd7eda97fc7794210a71aceb49d9570a3ad8fb
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Una piattaforma lato offerta (SSP, supply-side platform) è una piattaforma tecn
 | [!DNL DailyMotion] |  | [!DNL TubeMogul] o Adobe Advertising | — | USA + EMEA | USD, EUR | Visualizza desktop e dispositivi mobili<br><br>Desktop video, dispositivi mobili e CTV |
 | [!DNL EMX Digital] | [!DNL Cadent] | Adobe Advertising | — | US/CA | USD | Visualizza desktop e dispositivi mobili<br><br>Desktop video, dispositivi mobili e CTV |
 | [!DNL FreeWheel] (precedentemente [!DNL StickyAds]) | [!DNL Comcast] | [!DNL TubeMogul] o Adobe Advertising | Supporto PG | Globale | USD, EUR, AUD, GBP | Desktop video, dispositivi mobili e TVCC |
-| [!DNL Google Authorized Buyers] (precedentemente [!DNL Google AdX]) | [!DNL Google] | Adobe NA - 44912714<br>Adobe APAC e UE - 89185975 | Supporto PG | Globale | USD, BRL | Desktop e dispositivo mobile<br><br>Desktop e dispositivo mobile<br><br>Desktop video, dispositivo mobile e CTV |
+| [!DNL Google Authorized Buyers] (precedentemente [!DNL Google AdX]) | [!DNL Google] | Adobe NA - 44912714<br>Adobe APAC e EU - 89185975 | Supporto PG | Globale | USD, BRL | Desktop e dispositivo mobile<br><br>Desktop e dispositivo mobile<br><br>Desktop video, dispositivo mobile e CTV |
 | [!DNL GumGum] |  | Adobe Advertising | — | Globale | USD | Visualizza desktop e dispositivi mobili<br><br>Desktop video e dispositivi mobili |
 | [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | — | Globale | USD | Visualizza desktop e dispositivi mobili<br><br>Desktop video, dispositivi mobili e CTV |
 | [!DNL Magnite (Streaming) CTV] | [!DNL Magnite] (in precedenza [!DNL Telaria] e [!DNL Tremor]) | [!DNL TubeMogul] o Adobe Advertising | Supporto PG | Globale | AUD, USD | Desktop video, dispositivi mobili e TVCC |
@@ -40,7 +40,6 @@ Una piattaforma lato offerta (SSP, supply-side platform) è una piattaforma tecn
 | [!DNL ShareThrough] |  | [!DNL TubeMogul] o Adobe Advertising | — | Globale | USD | Schermo desktop e mobile<br><br>Schermo nativo<br><br>Video desktop, mobile e CTV |
 | [!DNL SmartClip] |  | Adobe Advertising | — | EMEA | Tutte le valute | Visualizza desktop e dispositivi mobili<br><br>Desktop video, dispositivi mobili e CTV |
 | [!DNL SmartStream] |  | Adobe Advertising | — | EMEA | EUR, USD | Desktop video e dispositivi mobili |
-| [!DNL Sortable] | [!DNL Freestar] | Adobe Advertising | — | CA | USD | Visualizza desktop e dispositivi mobili |
 | [!DNL Taboola] |  | Adobe Advertising | — | US/CA | USD | Desktop video e dispositivi mobili |
 | [!DNL Teads] |  | [!DNL TubeMogul] o Adobe Advertising | — | Video in uscita = Globale<br>Visualizzazione = NA + EMEA | USD | Visualizza desktop e dispositivi mobili<br><br>Desktop video e dispositivi mobili |
 | [!DNL TripleLift] |  | [!DNL TubeMogul] o Adobe Advertising | — | Globale | USD | Visualizzazione nativa |
