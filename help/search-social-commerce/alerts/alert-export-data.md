@@ -3,7 +3,7 @@ title: Esporta dati per avvisi personalizzati
 description: Scopri come esportare in un file i dati di un avviso attivato.
 exl-id: e3467b39-21ed-431e-b5f4-c3dc2dd5266d
 feature: Search Alerts
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 03475909ca942010e4380456079519f0c18adca3
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 1. Nella colonna [!UICONTROL Export] accanto al nome del modello o del report, fare clic sul nome di un formato, quindi aprire o salvare il file in base alla normale procedura del browser:
 
-   * **[!UICONTROL XLS]** - Per una cartella di lavoro [!DNL Excel] con un singolo foglio di lavoro (XLS). Il rapporto include un foglio di lavoro, etichettato nella parte superiore con i parametri, con una riga per ogni componente incluso quando i dati per il componente sono disponibili. Le righe senza dati vengono omesse. I rapporti di base includono un totale per ogni colonna numerica.
+   * **[!UICONTROL XLS]:** per una cartella di lavoro [!DNL Excel] con un singolo foglio di lavoro (XLS). Il rapporto include un foglio di lavoro, etichettato nella parte superiore con i parametri, con una riga per ogni componente incluso quando i dati per il componente sono disponibili. Le righe senza dati vengono omesse. I rapporti di base includono un totale per ogni colonna numerica.
 
-   * **[!UICONTROL TSV]** - Per un file TSV. Il rapporto include i parametri e una riga per ciascun componente incluso.
+   * **[!UICONTROL TSV]:** per un file TSV. Il rapporto include i parametri e una riga per ciascun componente incluso.
 
-   * **[!UICONTROL CSV]** - Per un file CSV. Il rapporto include i parametri e una riga per ciascun componente incluso.
+   * **[!UICONTROL CSV]:** per un file CSV. Il rapporto include i parametri e una riga per ciascun componente incluso.
 
 >[!MORELIKETHIS]
 >
