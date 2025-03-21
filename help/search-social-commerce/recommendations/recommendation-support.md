@@ -3,9 +3,9 @@ title: Informazioni sul supporto di consigli e approfondimenti per gli editori
 description: Scopri come visualizzare e gestire i consigli e le informazioni dell’editore.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 73cc45da72a48b844b4baa426331822b4e857245
+source-git-commit: 457e42152a85e0e357939efdfb821b76a636ba2a
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ In [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Ins
 
 * Visualizza subito tutti i consigli supportati sui quali non è stata eseguita alcuna azione per un account. Le informazioni per ogni voce includono il tipo di consiglio, il consiglio [!DNL Adobe], le metriche interessate, l&#39;entità interessata e un collegamento a ulteriori dettagli. Gli aumenti previsti delle metriche sono evidenziati in verde.
 
-  ![Interfaccia utente Recommendations](/help/search-social-commerce/assets/recommendations-ui.png "Interfaccia utente Recommendations")
+  ![Interfaccia utente consigli](/help/search-social-commerce/assets/recommendations-ui.png "Interfaccia utente consigli")
 
   I dati sono disponibili in tempo reale all’apertura della visualizzazione. Per aggiornare i dati, fai clic su ![Aggiorna](/help/search-social-commerce/assets/refresh.png "Aggiorna") in basso a sinistra nella pagina.
 
@@ -38,7 +38,7 @@ In [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Ins
 
 >[!NOTE]
 >
->Mentre i consigli sulla rete di annunci e gli approfondimenti sulle prestazioni consentono di migliorare le prestazioni della campagna, alcuni potrebbero non allinearsi agli obiettivi più ampi. Di conseguenza, è meglio consultare il team dell’account Adobe prima di implementare qualsiasi consiglio o informazione.
+>Mentre i consigli sulla rete di annunci e gli approfondimenti sulle prestazioni consentono di migliorare le prestazioni della campagna, alcuni potrebbero non allinearsi agli obiettivi più ampi. Di conseguenza, è meglio consultare il team del tuo account Adobe prima di implementare qualsiasi consiglio o informazione.
 
 ## Tipi di consigli supportati per [!DNL Google Ads]
 
@@ -60,7 +60,6 @@ In [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Ins
 | | [!UICONTROL Upgrade local campaign to performance max] | Aggiornare una campagna locale legacy a una campagna con prestazioni massime |
 | | [!UICONTROL Upgrade smart shopping campaign to performance max] | Aggiornare una campagna Smart Shopping legacy a una campagna con le massime prestazioni |
 | [!UICONTROL Bidding and budget] | [!UICONTROL Campaign budget] | Budget consigliato per una campagna attualmente limitata dal budget |
-| | [!UICONTROL Enhanced CPC opt in] | Fai un&#39;offerta con [!UICONTROL Enhanced CPC] |
 | | [!UICONTROL Forecasting campaign budget] | Budget consigliato per una campagna che in futuro dovrebbe diventare limitata dal budget |
 | | [!UICONTROL Forecasting set Target CPA] | Imposta un CPA di destinazione per le campagne senza una prima di un evento stagionale che si prevede aumenti il traffico |
 | | [!UICONTROL Forecasting set Target ROAS] | Aumentare il budget prima di un evento stagionale che prevede un aumento del traffico e modificare la strategia di offerta da [!UICONTROL Maximize Conversion Value] a [!UICONTROL Target ROAS] |

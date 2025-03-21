@@ -3,9 +3,9 @@ title: Impostazioni gruppo di annunci [!DNL Google Ads]
 description: Fai riferimento alle impostazioni per  [!DNL Google Ads]  gruppi di annunci.
 exl-id: def75630-19b9-4676-ad34-5d9041cc3680
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: fb38bf6afa181b4560742d3649db68c8aef0e619
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Use campaign setting]* (impostazione predefinita per i nuovi gruppi di annunci): utilizza l&#39;impostazione di rotazione degli annunci a livello di campagna esistente. **Nota:** l&#39;impostazione a livello di campagna non è visibile in Ricerca, Social e Commerce.
 
-Se la campagna utilizza una strategia di offerta avanzata (ad esempio [!UICONTROL Target CPA], [!UICONTROL Target ROAS] o [!UICONTROL Enhanced CPC]), [!DNL Google Ads] imposta automaticamente l&#39;opzione su &quot;[!UICONTROL Optimize]&quot;.
+Se la campagna utilizza una strategia di offerta avanzata (ad esempio [!UICONTROL Target CPA], [!UICONTROL Target ROAS], [!DNL Google Ads] imposta automaticamente l&#39;opzione su &quot;[!UICONTROL Optimize]&quot;.
 
 **[!UICONTROL Custom Bid Level]:** (campagne mirate solo alla rete di visualizzazione) Come fare offerte: da *[!UICONTROL Ad Group]* (impostazione predefinita), *[!UICONTROL Age]*, *[!UICONTROL Gender]*, *[!UICONTROL Interest and List]* (interessi e remarketing in Google Ads), *[!UICONTROL Keyword]*, *[!UICONTROL Placement]* (sito Web), *[!UICONTROL Unknown]* o *[!UICONTROL Vertical]*.
 
