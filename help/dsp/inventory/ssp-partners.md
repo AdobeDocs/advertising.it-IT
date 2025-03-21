@@ -3,9 +3,9 @@ title: Partner SSP
 description: Consulta un elenco della piattaforma lato offerta (SSP, Supply-Side Platform) e dei partner di scambio aperti.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 9bdd7eda97fc7794210a71aceb49d9570a3ad8fb
+source-git-commit: bbc6549b55bdbefda7f421fe609c54d737ffe570
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,6 @@ Una piattaforma lato offerta (SSP, supply-side platform) è una piattaforma tecn
 
 | SSP elencato | Azienda | ID postazione | Supporto programmatico garantito | Regione | Valuta supportata | Inventario supportato |
 | --- | --- | --- | --- | --- | --- | --- |
-| [!DNL AdColony] (in precedenza [!DNL Opera]) | [!DNL Digital Turbine] | [!DNL TubeMogul] | — | Globale | USD | Visualizza desktop e dispositivi mobili<br><br>Desktop video e dispositivi mobili |
 | [!DNL AdsWizz] | [!DNL Sirius XM (Pandora)] | Adobe Advertising | Supporto PG | Globale | USD, EUR, GBP | Desktop audio e dispositivi mobili |
 | [!DNL AppNexus] | [!DNL Xandr] | ID postazione video: 9094<br>ID postazione di visualizzazione: 3939 | — | Globale | USD | Visualizza desktop e dispositivi mobili<br><br>Desktop video, dispositivi mobili e CTV |
 | [!DNL DailyMotion] |  | [!DNL TubeMogul] o Adobe Advertising | — | USA + EMEA | USD, EUR | Visualizza desktop e dispositivi mobili<br><br>Desktop video, dispositivi mobili e CTV |
