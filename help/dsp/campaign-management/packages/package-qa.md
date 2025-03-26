@@ -3,22 +3,22 @@ title: Rivedere e modificare le impostazioni dei pacchetti utilizzando i bulkshe
 description: Scopri come rivedere e modificare le impostazioni dei pacchetti chiave in blocco utilizzando i fogli di calcolo.
 feature: DSP Packages
 exl-id: bf52de27-db48-40e2-bb55-a2c27a1924ad
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: c482f476de5b79ee9a363791d62ba8c2ada12cbc
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
 
 # Rivedere e modificare le impostazioni dei pacchetti utilizzando i bulksheet
 
-È possibile scaricare le impostazioni per uno o più pacchetti in formato XLSX ([!DNL Microsoft Excel] spreadsheet) per la revisione. Il foglio di calcolo include una scheda separata con le informazioni sul volo.
+È possibile scaricare le impostazioni per uno o più pacchetti in formato XLSX ([!DNL Microsoft Excel] spreadsheet) per la revisione. Il file *bulksheet* include una scheda separata con le informazioni sul volo.
 
 Per aggiornare più impostazioni contemporaneamente, è possibile effettuare una delle seguenti operazioni:
 
-* Apporta le modifiche necessarie per selezionare i campi, salvare il file e caricare nuovamente il file di bulksheet modificato in DSP.
+* Apporta le modifiche necessarie per selezionare i campi, salvare il file e caricare di nuovo il file del bulksheet modificato in DSP.
 
-* Per apportare modifiche ad altri pacchetti e alle impostazioni per qualsiasi posizionamento o annuncio, scarica un modello di bulksheet vuoto che includa schede per ogni tipo di componente della campagna, immetti o incolla le impostazioni nuove o aggiornate nel file di modello, quindi carica il file per apportare le modifiche. Per istruzioni, consulta &quot;[Rivedere e modificare le impostazioni dei componenti di Campaign utilizzando i bulksheet](/help/dsp/campaign-management/campaign-components-review-edit.md).&quot;
+* Per apportare modifiche ad altri pacchetti, posizionamenti o annunci nella campagna, scarica un bulksheet per la campagna. Immetti o incolla le impostazioni aggiornate nel file, quindi carica il file per apportare le modifiche. Per istruzioni, consulta &quot;[Rivedere e modificare le impostazioni dei componenti di Campaign utilizzando i bulksheet](/help/dsp/campaign-management/campaign-components-review-edit.md).&quot;
 
 I campi modificabili includono la maggior parte delle impostazioni normalmente modificabili.
 
@@ -28,15 +28,17 @@ I campi modificabili includono la maggior parte delle impostazioni normalmente m
 
 ## Scaricare le impostazioni per tutti i pacchetti in una campagna
 
-Quando scarichi le impostazioni per tutti i pacchetti di una campagna, il foglio di calcolo include schede separate per le impostazioni del pacchetto e per le informazioni sul volo. Facoltativamente, puoi includere le impostazioni per i posizionamenti e gli annunci associati ai pacchetti; vengono incluse schede aggiuntive per le impostazioni di posizionamento e annunci.
+Quando scarichi le impostazioni per tutti i pacchetti di una campagna, il bulksheet include schede separate per le impostazioni del pacchetto e per le informazioni sul volo. Facoltativamente, puoi includere le impostazioni per i posizionamenti e gli annunci associati ai pacchetti; vengono incluse schede aggiuntive per le impostazioni di posizionamento e annunci.
 
 1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 
-1. Fai clic sul nome della campagna.
+1. Effettuare una delle seguenti operazioni:
 
-1. In alto a destra, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Download QA sheet]**.
+   * Accanto alla campagna, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Download Bulksheet]**.
 
-1. Nella finestra di dialogo [!UICONTROL QA Sheet Download] deselezionare i componenti di Campaign di cui si desidera escludere le impostazioni dal file scaricato e quindi fare clic su **[!UICONTROL Download]**.
+   * Fai clic sul nome della campagna. In alto a destra, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Download Bulksheet]**.
+
+1. Nella finestra di dialogo [!UICONTROL Bulksheet Download] deselezionare i componenti di Campaign di cui si desidera escludere le impostazioni dal file scaricato e quindi fare clic su **[!UICONTROL Download]**.
 
 Per impostazione predefinita, sono selezionate le impostazioni per tutti i posizionamenti e gli annunci associati ai pacchetti.
 
@@ -48,13 +50,11 @@ Un messaggio di notifica indica quando il file è disponibile per il download.
 
    * Nella parte destra della barra dei menu superiore, fai clic su ![Processi](/help/dsp/assets/downloads.png). Fare clic su **[!UICONTROL Download]** accanto al processo.
 
-     Il file viene salvato nella cartella Download del browser. Per un elenco delle colonne incluse, vedere &quot;[Colonne di posizionamento nei fogli di calcolo scaricati/caricati](#qa-sheet-columns)&quot;.
+     Il file è stato salvato nella cartella Download del browser.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
->[!NOTE]
->
->Non puoi modificare e ricaricare i fogli di controllo qualità a livello di campagna. Per apportare modifiche alle impostazioni del componente Campaign in questi file, scarica un modello di bulksheet separato, immetti o incolla righe dal foglio di controllo qualità nel modello di bulksheet e salva il file, quindi carica il bulksheet popolato. Per istruzioni, consulta &quot;[Rivedere e modificare le impostazioni dei componenti di Campaign utilizzando i bulksheet](/help/dsp/campaign-management/campaign-components-review-edit.md).&quot;
+     Per modificare le impostazioni, modifica direttamente il file e carica le modifiche. Tutte le colonne modificabili sono evidenziate in blu.
 
-## Impostazioni di download per uno o più pacchetti
+## Impostazioni di download per pacchetti specifici
 
 Quando si scaricano le impostazioni per pacchetti specifici, il file del bulksheet include schede separate per le impostazioni del pacchetto e per le informazioni sul volo e il file è modificabile.
 
@@ -63,6 +63,8 @@ Quando si scaricano le impostazioni per pacchetti specifici, il file del bulkshe
 1. Fai clic sul nome della campagna.
 
 1. Nel sottomenu fare clic su **[!UICONTROL Packages]**.
+
+1. Selezionare le caselle di controllo relative ai pacchetti di cui si desidera scaricare le impostazioni.
 
 1. Nella barra degli strumenti Azioni in blocco fare clic su **[!UICONTROL ...]** > **[!UICONTROL Download Bulksheet]**.
 
@@ -74,21 +76,9 @@ Quando si scaricano le impostazioni per pacchetti specifici, il file del bulkshe
 
    * Nella parte destra della barra dei menu superiore, fai clic su ![Processi](/help/dsp/assets/downloads.png). Fare clic su **[!UICONTROL Download]** accanto al processo.
 
-     Il file viene salvato nella cartella Download del browser. Per un elenco delle colonne incluse, vedere &quot;[Colonne di posizionamento nei fogli di calcolo scaricati/caricati](#qa-sheet-columns)&quot;.
+     Il file viene salvato nella cartella Download del browser. Per un elenco delle colonne incluse, consulta &quot;[Colonne di posizionamento nei bulksheet scaricati/caricati](#qa-sheet-columns)&quot;.
 
-<!-- I don't think I need this here
-
-## Download a Bulksheet Template {#download-template}
-
-You can optionally download a blank bulksheet template that includes tabs for each type of campaign component. You can later add rows to any tab on the template and [upload the edited file](##upload-bulksheet-package) to make changes. 
-
-1. Click the name of the campaign.
-
-1.  In the upper right, click **[!UICONTROL ...]** > **[!UICONTROL Download Bulksheet]**.
-
-   The file is saved to the browser's Downloads folder. See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns.
-
--->
+     Per modificare le impostazioni, modifica direttamente il file e carica le modifiche. Tutte le colonne modificabili sono evidenziate in blu. Per utilizzare il formato corretto per un campo, selezionate e copiate il valore dall&#39;impostazione del pacchetto o del posizionamento pertinente. Per alcune impostazioni di destinazione, come la ripartizione giornaliera, gli obiettivi personalizzati e le metriche di conversione, è disponibile un’opzione di copia all’interno dell’impostazione.
 
 ## Caricare un bulksheet con le impostazioni del pacchetto {#upload-bulksheet-package}
 
@@ -96,9 +86,15 @@ Puoi caricare le impostazioni dei pacchetti, inclusi i posizionamenti e gli annu
 
 1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 
-1. Fai clic sul nome della campagna.
+1. Effettua una delle seguenti operazioni:
 
-1. In alto a destra, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Upload Bulksheet]**.
+   * Accanto alla campagna principale, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Upload Bulksheet]**.
+
+   * Fai clic sul nome della campagna. In alto a destra, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Upload Bulksheet]**.
+
+     Questa opzione è disponibile nella scheda [!UICONTROL Packages], [!UICONTROL Placements] o [!UICONTROL Ads].
+
+   * Nel sottomenu, fare clic su **[!UICONTROL Packages]** e selezionare la casella di controllo per qualsiasi pacchetto. Nella barra degli strumenti Azioni in blocco fare clic su **[!UICONTROL ...]** > **[!UICONTROL Upload Bulksheet]**.
 
 1. Nella finestra di dialogo [!UICONTROL Upload Bulksheet]:
 
@@ -108,61 +104,65 @@ Puoi caricare le impostazioni dei pacchetti, inclusi i posizionamenti e gli annu
 
 1. (Facoltativo) Per verificare che gli aggiornamenti siano stati elaborati, fai clic su ![Processi](/help/dsp/assets/downloads.png) a destra della barra dei menu superiore.
 
-## Colonne delle impostazioni dei pacchetti nei fogli di calcolo scaricati/caricati{#qa-sheet-columns-packages}
+Quando un aggiornamento delle impostazioni non riesce, puoi scaricare un file di errore bulksheet con codifica a colori per mostrare quali impostazioni (righe) sono state salvate e quali non sono riuscite, con il motivo di ogni errore. Puoi quindi risolvere i problemi all’interno dello stesso file e caricarlo di nuovo per elaborare le informazioni corrette.
+
+<!--
+## Package Setting Columns in Downloaded/Uploaded Bulksheets{#qa-sheet-columns-packages}
 
 >[!TIP]
 >
-> In un foglio di calcolo scaricato, tutte le colonne modificabili sono evidenziate in blu.
+> In a downloaded bulksheet file, all editable columns are highlighted in blue.
 
-### Scheda [!UICONTROL Package]
+### [!UICONTROL Package] Tab
 
-| Sezione | Colonna | Descrizione | Modificabile? |
+| Section | Column | Description | Editable? |
 |---------|--------|-------------|-----------|
-| [!UICONTROL Basic details] | [!UICONTROL Package ID] | ID numerico del pacchetto. | — |
-| [!UICONTROL Basic details] | [!UICONTROL Package Name] | Nome del pacchetto. | Sì |
-| [!UICONTROL Basic details] | [!UICONTROL Status] | Stato del pacchetto: *[!UICONTROL active]* o *[!UICONTROL inactive]*. | Sì |
-| [!UICONTROL Basic details] | [!UICONTROL Description] | Descrizione facoltativa del pacchetto. | Sì |
-| [!UICONTROL Basic details] | [!UICONTROL 3rd-party fees - CPM] | Tariffa statica di terze parti da registrare come costo non fatturabile per 1000 impression, se applicabile. | Sì |
-| [!UICONTROL Basic details] | [!UICONTROL 3rd-party fees - description] | Una descrizione facoltativa della tariffa della commissione di terzi, se applicabile. | Sì |
-| [!UICONTROL Goals & Budget] | [!UICONTROL Package Start Date] | Data di inizio del pacchetto. | Sì |
-| [!UICONTROL Goals & Budget] | [!UICONTROL Package End Date] | Data di fine del pacchetto. | Sì |
-| [!UICONTROL Goals & Budget] | [!UICONTROL Pacing Level] | Livello al quale posizionare e limitare i posizionamenti nel pacchetto: *[!UICONTROL Package]* o *[!UICONTROL Placement]*. | — |
-| [!UICONTROL Goals & Budget] | [!UICONTROL Budget] | Il budget del pacchetto. | Sì |
-| [!UICONTROL Goals & Budget] | [!UICONTROL Budget Interval] | Intervallo di budget: &lt;i[!UICONTROL >Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]* o *[!UICONTROL All Time]*. | Sì |
-| [!UICONTROL Goals & Budget] | [!UICONTROL Interval Cap] | Limite facoltativo dell&#39;intervallo di budget. | Sì |
-| [!UICONTROL Goals & Budget] | [!UICONTROL Interval Cap Period] | Intervallo per il limite dell&#39;intervallo di budget facoltativo: &lt;i[!UICONTROL >Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]* o *[!UICONTROL All Time]*. | Sì |
-| [!UICONTROL Goals & Budget] | [!UICONTROL Optimization Goal] | Obiettivo del pacchetto. | Sì |
-| [!UICONTROL Goals & Budget] | [!UICONTROL Optimization Target] | Il valore target dell’obiettivo. | Sì |
-| [!UICONTROL Goals & Budget] | [!UICONTROL Custom Goal Name] | (Pacchetti con solo gli obiettivi di ottimizzazione &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;)Un [obiettivo personalizzato](/help/dsp/optimization/custom-goal.md) che include gli eventi di conversione o ricavi utilizzati per calcolare la metrica CPA o ROAS. | Sì |
-| [!UICONTROL Goals & Budget] | [!UICONTROL Conversion Metric Name] | (Facoltativo; solo pacchetti con gli obiettivi di ottimizzazione &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;) L&#39;evento di conversione finale o l&#39;importo di evento di ricavo/vendita da utilizzare per calcolare il ritorno sulla spesa pubblicitaria o il costo per acquisizione. | Sì |
-| [!UICONTROL Goals & Budget] | [!UICONTROL Package Goal Type] | (Solo pacchetti con obiettivi di ottimizzazione personalizzati) Scopo del pacchetto, che consente di determinare come ottimizzare il pacchetto: *[!UICONTROL Prospecting]*, *[!UICONTROL Retargeting]* o *[!UICONTROL Other]*. | Sì |
-| [!UICONTROL Goals & Budget] | [!UICONTROL Linked Package id for learning carryover] | (Solo pacchetti con obiettivi di ottimizzazione personalizzati) ID del pacchetto per un altro pacchetto i cui dati storici vengono utilizzati come input per l’ottimizzazione del pacchetto. | Sì |
-| [!UICONTROL Goals & Budget] | [!UICONTROL Linked Package Name for learning carryover] | (Solo pacchetti con obiettivi di ottimizzazione personalizzati) Un altro pacchetto i cui dati storici vengono utilizzati come input per l’ottimizzazione del pacchetto. | — |
-| [!UICONTROL Goals & Budget] | [!UICONTROL Pace on] | Indica se il pacchetto sta avanzando verso *[!UICONTROL budget]* o *[!UICONTROL primary_goal]* (per le impression). | — |
-| [!UICONTROL Goals & Budget] | [!UICONTROL Primary Goal Amount] | (Quando distribuisci il pacchetto sulle impression) Il numero target di impression durante l’intervallo di tempo specificato. | Sì |
-| [!UICONTROL Goals & Budget] | [!UICONTROL Primary Goal Interval] | (Quando distribuisci il pacchetto sulle impression) L’intervallo di tempo per il numero target di impression. | Sì |
-| [!UICONTROL Goals & Budget] | [!UICONTROL Flight Pacing] | Strategia di andamento del volo per il pacchetto: *[!UICONTROL Even]*, *[!UICONTROL slightly ahead]*, *[!UICONTROL frontload]* o *[!UICONTROL aggressive frontload]*. | Sì |
-| [!UICONTROL Goals & Budget] | [!UICONTROL Intraday Pacing] | Strategia di velocità infragiornaliera per il pacchetto: *[!UICONTROL Even]* o *[!UICONTROL ASAP]*. | Sì |
-| [!UICONTROL Goals & Budget] | [!UICONTROL Frequency Cap] | Il limite di frequenza primario per il pacchetto durante il [!UICONTROL Frequency Cap Interval] specificato. | Sì |
-| [!UICONTROL Goals & Budget] | [!UICONTROL Frequency Cap Interval] | Intervallo per il limite di frequenza primario: *[!UICONTROL Day]*, *[!UICONTROL Week]* o *[!UICONTROL Month]*. | Sì |
-| [!UICONTROL Goals & Budget] | [!UICONTROL Frequency Cap Interval Value] | Il numero di settimane, giorni, ore o minuti a cui si applica l&#39;elemento primario [!UICONTROL Frequency Cap]. Ad esempio, se il limite principale è di 12 impression al mese, il valore qui sarà `12`. | Sì |
-| [!UICONTROL Goals & Budget] | [!UICONTROL Secondary Frequency Cap] | Limite di frequenza secondario per il pacchetto durante il [!UICONTROL Secondary Frequency Cap Interval] specificato | Sì |
-| [!UICONTROL Goals & Budget] | [!UICONTROL Secondary Frequency Cap Interval] | Tipo di intervallo per il limite di frequenza secondario: *[!UICONTROL Week]*, *[!UICONTROL Day]*, *[!UICONTROL Hour]* o *[!UICONTROL Minute]*. Il numero applicabile di settimane, giorni, ore o minuti è indicato da [!UICONTROL Secondary Frequency Cap Interval Value]. | Sì |
-| [!UICONTROL Goals & Budget] | [!UICONTROL Secondary Frequency Cap Interval Value] | Il numero di settimane, giorni, ore o minuti a cui si applica [!UICONTROL Secondary Frequency Cap]. Ad esempio, se il limite secondario è di tre impression per sei ore, il valore qui sarà `6`. | Sì |
-| [!UICONTROL Custom Flights] | [!UICONTROL Activate Custom Flights] | Indica se creare o meno voli non uniformi per il pacchetto *T* (true) o *F* (false). Una volta attivato il riflesso personalizzato e salvato il pacchetto, non è possibile disattivare il riflesso personalizzato né modificare la data di inizio del pacchetto. | — |
-| [!UICONTROL Custom Flights] | [!UICONTROL Automatic Budget Rollover] | (Disponibile solo quando l&#39;opzione [!UICONTROL Activate Custom Flighting] è abilitata) Indica se aggiungere o meno automaticamente i budget rimanenti del volo precedente al budget esistente per il volo successivo: *T* (true) o *F* (false). | Sì |
-| [!UICONTROL Error] | [!UICONTROL Error] | Eventuali errori rilevanti. | — |
+| [!UICONTROL Basic details] | [!UICONTROL Package ID] | The numeric ID of the package. | &mdash; |
+| [!UICONTROL Basic details] | [!UICONTROL Package Name] | The name of the package. | Yes |
+| [!UICONTROL Basic details] | [!UICONTROL Status] | The package status: *[!UICONTROL active]* or *[!UICONTROL inactive]*. | Yes |
+| [!UICONTROL Basic details] | [!UICONTROL Description] | An optional description of the package. | Yes |
+| [!UICONTROL Basic details] | [!UICONTROL 3rd-party fees - CPM] | A static, third-party fee rate to be tracked as a non-billable cost per 1000 impressions, if applicable. | Yes |
+| [!UICONTROL Basic details] | [!UICONTROL 3rd-party fees - description] | An optional description of the third-party fee rate, if applicable. | Yes |
+| [!UICONTROL Goals & Budget] | [!UICONTROL Package Start Date] | The start date of the package. | Yes |
+| [!UICONTROL Goals & Budget] | [!UICONTROL Package End Date] | The end date of the package. | Yes |
+| [!UICONTROL Goals & Budget] | [!UICONTROL Pacing Level] | At which level to pace and cap placements in the package: *[!UICONTROL Package]* or *[!UICONTROL Placement]*. | &mdash; |
+| [!UICONTROL Goals & Budget] | [!UICONTROL Budget] | The package budget. | Yes |
+| [!UICONTROL Goals & Budget] | [!UICONTROL Budget Interval] | The budget interval: <i[!UICONTROL >Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*, or *[!UICONTROL All Time]*. | Yes |
+| [!UICONTROL Goals & Budget] | [!UICONTROL Interval Cap] | An optional budget interval cap. | Yes |
+| [!UICONTROL Goals & Budget] | [!UICONTROL Interval Cap Period] | The interval for the optional budget interval cap: <i[!UICONTROL >Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*, or *[!UICONTROL All Time]*. | Yes |
+| [!UICONTROL Goals & Budget] | [!UICONTROL Optimization Goal] | The objective of the package. | Yes |
+| [!UICONTROL Goals & Budget] | [!UICONTROL Optimization Target] | The target value of the goal. | Yes |
+| [!UICONTROL Goals & Budget] | [!UICONTROL Custom Goal Name] | (Packages with the "[!UICONTROL Highest Return on Ad Spend]" and "[!UICONTROL Lowest Cost per Acquisition]" optimization goals only)A [custom goal](/help/dsp/optimization/custom-goal.md) that includes the revenue or conversion events used to calculate the CPA or ROAS metric. | Yes |
+| [!UICONTROL Goals & Budget] | [!UICONTROL Conversion Metric Name] | (Optional; packages with the "[!UICONTROL Highest Return on Ad Spend]" and "[!UICONTROL Lowest Cost per Acquisition]" optimization goals only) The final conversion event or revenue event/sale amount to use for computing the return on ad spend or the cost per acquisition. | Yes |
+| [!UICONTROL Goals & Budget] | [!UICONTROL Package Goal Type] | (Packages with custom optimization goals only) The purpose of the package, which helps determine how to optimize the package: *[!UICONTROL Prospecting]*, *[!UICONTROL Retargeting]*, or *[!UICONTROL Other]* . | Yes |
+| [!UICONTROL Goals & Budget] | [!UICONTROL Linked Package id for learning carryover] | (Packages with custom optimization goals only) The package ID for another package whose historic data is used as input for optimizing the package. | Yes |
+| [!UICONTROL Goals & Budget] | [!UICONTROL Linked Package Name for learning carryover] | (Packages with custom optimization goals only) Another package whose historic data is used as input for optimizing the package. | &mdash; |
+| [!UICONTROL Goals & Budget] | [!UICONTROL Pace on] | Whether the package is pacing towards the *[!UICONTROL budget]* or *[!UICONTROL primary_goal]* (for impressions). | &mdash; |
+| [!UICONTROL Goals & Budget] | [!UICONTROL Primary Goal Amount] | (When you pace the package on impressions) The target number of impressions during the specified time interval. | Yes |
+| [!UICONTROL Goals & Budget] | [!UICONTROL Primary Goal Interval] | (When you pace the package on impressions) The time interval for the target number of impressions. | Yes |
+| [!UICONTROL Goals & Budget] | [!UICONTROL Flight Pacing] | The flight pacing strategy for the package: *[!UICONTROL Even]*, *[!UICONTROL slightly ahead]*, *[!UICONTROL frontload]*, or *[!UICONTROL aggressive frontload]*. | Yes |
+| [!UICONTROL Goals & Budget] | [!UICONTROL Intraday Pacing] | The intraday pacing strategy for the package: *[!UICONTROL Even]* or *[!UICONTROL ASAP]*. | Yes |
+| [!UICONTROL Goals & Budget] | [!UICONTROL Frequency Cap] | The primary frequency cap for the package during the specified [!UICONTROL Frequency Cap Interval]. | Yes |
+| [!UICONTROL Goals & Budget] | [!UICONTROL Frequency Cap Interval] | The interval for the primary frequency cap: *[!UICONTROL Day]*, *[!UICONTROL Week]*, or *[!UICONTROL Month]*. | Yes |
+| [!UICONTROL Goals & Budget] | [!UICONTROL Frequency Cap Interval Value] | The number of weeks, days, hours, or minutes for which the primary [!UICONTROL Frequency Cap] applies. For example, if the primary cap is 12 impressions per month, then the value here would be `12`. | Yes |
+| [!UICONTROL Goals & Budget] | [!UICONTROL Secondary Frequency Cap] | The secondary frequency cap for the package during the specified [!UICONTROL Secondary Frequency Cap Interval] | Yes |
+| [!UICONTROL Goals & Budget] | [!UICONTROL Secondary Frequency Cap Interval] | The type of interval for the secondary frequency cap: *[!UICONTROL Week]*, *[!UICONTROL Day]*, *[!UICONTROL Hour]*, or *[!UICONTROL Minute]*. The applicable number of weeks, days, hours, or minutes is indicated by the [!UICONTROL Secondary Frequency Cap Interval Value]. | Yes |
+| [!UICONTROL Goals & Budget] | [!UICONTROL Secondary Frequency Cap Interval Value] | The number of weeks, days, hours, or minutes for which the [!UICONTROL Secondary Frequency Cap] applies. For example, if the secondary cap is three impressions per six hours, then the value here would be `6`. | Yes |
+| [!UICONTROL Custom Flights] | [!UICONTROL Activate Custom Flights] | Whether or not to create non-even pacing flights for the package*T* (true) or *F* (false). Once you enable custom flighting and save the package, you can't disable custom flighting nor edit the package start date. | &mdash; |
+| [!UICONTROL Custom Flights] | [!UICONTROL Automatic Budget Rollover] | (Available only when the [!UICONTROL Activate Custom Flighting] option is enabled) Whether or not to automatically add any remaining budget from the previous flight to the existing budget for the next flight: *T* (true) or *F* (false). | Yes |
+| [!UICONTROL Error] | [!UICONTROL Error] | Any relevant errors. | &mdash; |
 
-### Scheda [!UICONTROL Package_Flights] {#qa-sheet-columns-package-flights}
+### [!UICONTROL Package_Flights] Tab {#qa-sheet-columns-package-flights}
 
-| Sezione | Colonna | Descrizione | Modificabile? |
+| Section | Column | Description | Editable? |
 |---------|--------|-------------|-----------|
-| [!UICONTROL Flight Details] | [!UICONTROL Package ID] | ID numerico del pacchetto. | — |
-| [!UICONTROL Flight details] | [!UICONTROL Flight ID] | ID numerico del volo. | — |
-| [!UICONTROL Flight details] | [!UICONTROL Flight Start Date] | La prima data del volo. | Sì |
-| [!UICONTROL Flight details] | [!UICONTROL Flight End Date] | La data finale del volo. | Sì |
-| [!UICONTROL Flight details] | [!UICONTROL Flight Budget] | L’obiettivo di spesa target per il volo. | Sì |
-| [!UICONTROL Flight details] | [!UICONTROL Rollover] | (Pacchetti esistenti senza l&#39;opzione &quot;[!UICONTROL Automatically rollover remaining flight budget to next flight]&quot; abilitata) Un importo di budget potenzialmente non speso da aggiungere al volo successivo. | Sì |
+| [!UICONTROL Flight Details] | [!UICONTROL Package ID] | The numeric ID of the package. | &mdash; |
+| [!UICONTROL Flight details] | [!UICONTROL Flight ID] | The numeric ID of the flight. | &mdash; |
+| [!UICONTROL Flight details] | [!UICONTROL Flight Start Date] |The first date of the flight. | Yes |
+| [!UICONTROL Flight details] | [!UICONTROL Flight End Date] | The final date of the flight. | Yes |
+| [!UICONTROL Flight details] | [!UICONTROL Flight Budget] | The target spend goal for the flight. | Yes |
+| [!UICONTROL Flight details] | [!UICONTROL Rollover] | (Existing packages without the "[!UICONTROL Automatically rollover remaining flight budget to next flight]" option enabled) An amount of potentially unspent budget to add to the next flight. | Yes |
+-->
 
 >[!MORELIKETHIS]
 >

@@ -3,7 +3,7 @@ title: Modifica posizionamenti
 description: Scopri come modificare un posizionamento.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: 19be64303a0a86e916edacde439a852aac0a89f5
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Puoi anche scaricare le impostazioni per uno o più posizionamenti, o per tutti i posizionamenti in una campagna, in formato XLSX (foglio di calcolo Excel), apportare modifiche a un sottoinsieme limitato di campi chiave e caricarli nuovamente su DSP in una sola volta. Consulta &quot;[Rivedere e modificare le impostazioni di posizionamento utilizzando i bulksheet](placement-qa.md).&quot;
+>Puoi anche scaricare le impostazioni per uno o più posizionamenti, o per tutti i posizionamenti in una campagna, in formato XLSX (foglio di calcolo Excel), apportare modifiche alla maggior parte dei campi e caricarli nuovamente in DSP contemporaneamente. Consulta &quot;[Rivedere e modificare le impostazioni di posizionamento utilizzando i bulksheet](placement-qa.md).&quot;
 
 ## Modifica rapida impostazioni di posizionamento chiave {#placement-quick-edit}
 
@@ -49,7 +49,7 @@ Puoi modificare il nome del posizionamento, lo stato, l’offerta massima e il b
 
 1. Fare clic su **[!UICONTROL Update placement]**.
 
-## Modifica più posizionamenti {#edit-multiple-placements}
+## Apportare le stesse modifiche a più posizionamenti {#edit-multiple-placements}
 
 Utilizza questa opzione solo quando desideri applicare le stesse modifiche a tutti i posizionamenti selezionati.
 

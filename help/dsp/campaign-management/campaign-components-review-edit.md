@@ -2,32 +2,35 @@
 title: Rivedere e modificare le impostazioni dei componenti di Campaign utilizzando i bulksheet
 description: Scopri come rivedere e modificare in blocco le impostazioni del pacchetto chiave, del posizionamento e degli annunci utilizzando i fogli di calcolo.
 feature: DSP Placements
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+exl-id: 1ec8362a-d37b-4fd7-becd-3a5b4f0c9504
+source-git-commit: c1039c59c0a1f8d2bbe08b4522b28f2f883a3dea
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
 
 # Rivedere e modificare le impostazioni dei componenti di Campaign utilizzando i bulksheet
 
-<!-- Update headers as needed once the original download become editable and we call everything bulksheets. -->
+È possibile scaricare le impostazioni per pacchetti, posizionamenti e annunci in una singola campagna in formato XLSX ([!DNL Microsoft Excel] spreadsheet) per rivedere e modificare le impostazioni. Per impostazione predefinita, il file scaricato, denominato *bulksheet,* include schede separate per le impostazioni del pacchetto, le informazioni sul volo del pacchetto, le impostazioni di posizionamento e le pianificazioni degli annunci di posizionamento. Facoltativamente, puoi escludere le impostazioni per alcuni tipi di componenti della campagna.
 
-È possibile scaricare le impostazioni per pacchetti, posizionamenti e annunci in una singola campagna in formato XLSX ([!DNL Microsoft Excel] foglio di calcolo) per la revisione. Per impostazione predefinita, il file scaricato include schede separate per le impostazioni del pacchetto, le informazioni sul volo del pacchetto, le impostazioni di posizionamento e le pianificazioni degli annunci di posizionamento. Facoltativamente, puoi escludere le impostazioni per alcuni tipi di componenti della campagna.
-
-Per aggiornare più impostazioni contemporaneamente, carica un file bulksheet valido con le modifiche. Per creare il bulksheet, puoi scaricare un modello di bulksheet vuoto che include schede per ciascun tipo di componente della campagna, inserire o incollare impostazioni nuove o aggiornate nel file modello, quindi salvare il file per caricarlo. I campi modificabili includono la maggior parte delle impostazioni normalmente modificabili.
+Per aggiornare più impostazioni contemporaneamente, carica un file bulksheet valido con le modifiche. Per creare il bulksheet, modificare un bulksheet scaricato con le impostazioni esistenti. I campi modificabili includono la maggior parte delle impostazioni normalmente modificabili.
 
 >[!NOTE]
 >
 >Puoi anche scaricare e modificare le impostazioni solo per pacchetti e posizionamenti specifici. Consulta &quot;[Rivedere e modificare le impostazioni dei pacchetti utilizzando i bulksheet](/help/dsp/campaign-management/packages/package-qa.md)&quot; e &quot;[Rivedere e modificare le impostazioni di posizionamento utilizzando i bulksheet](/help/dsp/campaign-management/placements/placement-qa.md).&quot;
 
-## Scaricare le impostazioni per pacchetti, posizionamenti e annunci in una campagna
+## Scaricare le impostazioni per pacchetti, posizionamenti e annunci in una campagna {#download-bulksheet-campaign}
 
 1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 
-1. In alto a destra, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Download QA sheet]**.
+1. Effettuare una delle seguenti operazioni:
 
-1. Nella finestra di dialogo [!UICONTROL QA Sheet Download] deselezionare i componenti di Campaign di cui si desidera escludere le impostazioni dal file scaricato e quindi fare clic su **[!UICONTROL Download]**.
+   * Accanto alla campagna, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Download Bulksheet]**.
+
+   * Fai clic sul nome della campagna. In alto a destra, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Download Bulksheet]**.
+
+1. Nella finestra di dialogo [!UICONTROL Bulksheet Download] deselezionare i componenti di Campaign di cui si desidera escludere le impostazioni dal file scaricato e quindi fare clic su **[!UICONTROL Download]**.
 
 Per impostazione predefinita, sono selezionate le impostazioni per tutti i componenti della campagna.
 
@@ -39,37 +42,21 @@ Un messaggio di notifica indica quando il file è disponibile per il download.
 
    * Nella parte destra della barra dei menu superiore, fai clic su ![Processi](/help/dsp/assets/downloads.png). Fare clic su **[!UICONTROL Download]** accanto al processo.
 
-     Il file viene salvato nella cartella Download del browser. Per un elenco delle colonne incluse, vedere &quot;[Colonne di posizionamento nei fogli di calcolo scaricati/caricati](#qa-sheet-columns)&quot;.
+     Il file è stato salvato nella cartella Download del browser.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
->[!NOTE]
->
->Non puoi modificare e ricaricare i file di controllo qualità a livello di campagna. Per apportare modifiche alle impostazioni del componente Campaign in questi file, [scarica un file modello impostazioni separato (file di installazione)](#download-template), immetti o incolla righe dal file di controllo qualità nel modello e salva il file, quindi [carica il file modello popolato](#upload-bulksheet-campaign-components).
-
-## Scaricare un modello di bulksheet per una campagna {#download-template}
-
-Scarica un modello bulksheet vuoto che include schede per ogni tipo di componente della campagna. In seguito puoi aggiungere righe a qualsiasi scheda del modello e [caricare il file modificato](##upload-bulksheet-campaign-components) per apportare modifiche ai componenti della campagna.
-
-1. Fai clic sul nome della campagna.
-
-1. In alto a destra, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Upload Bulksheet]**.
-
-1. Nella finestra di dialogo [!UICONTROL Upload Bulksheet], fare clic su **[!UICONTROL Bulksheet Template].**
-
-   Il file viene salvato nella cartella Download del browser. Per un elenco delle colonne incluse, vedere &quot;[Colonne di posizionamento nei fogli di calcolo scaricati/caricati](#qa-sheet-columns)&quot;.
+     Per modificare le impostazioni, modifica direttamente il file e carica le modifiche. Tutte le colonne modificabili sono evidenziate in blu. Per utilizzare il formato corretto per un campo, selezionate e copiate il valore dall&#39;impostazione del pacchetto o del posizionamento pertinente. Per alcune impostazioni di destinazione, come la ripartizione giornaliera, gli obiettivi personalizzati e le metriche di conversione, è disponibile un’opzione di copia all’interno dell’impostazione.
 
 ## Caricare un bulksheet con le impostazioni per pacchetti, posizionamenti e annunci per una campagna{#upload-bulksheet-campaign-components}
 
 Carica le impostazioni per pacchetti, posizionamenti e annunci in una singola campagna contemporaneamente in un bulksheet popolato.
 
-1. [Scaricare un modello di bulksheet](#download-template) se necessario, immettere o incollare le impostazioni relative a pacchetti, posizionamento e/o annunci nelle schede pertinenti di un modello di bulksheet, quindi salvare il file nel dispositivo o nella rete.
-
-   Consulta le impostazioni disponibili di seguito.
-
 1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 
-1. Fai clic sul nome della campagna.
+1. Effettuare una delle seguenti operazioni:
 
-1. In alto a destra, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Upload Bulksheet]**.
+   * Accanto alla campagna, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Upload Bulksheet]**.
+
+   * Fai clic sul nome della campagna. In alto a destra, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Upload Bulksheet]**.
 
 1. Nella finestra di dialogo [!UICONTROL Upload Bulksheet]:
 
@@ -79,82 +66,96 @@ Carica le impostazioni per pacchetti, posizionamenti e annunci in una singola ca
 
 1. (Facoltativo) Per verificare che gli aggiornamenti siano stati elaborati, fai clic su ![Processi](/help/dsp/assets/downloads.png) a destra della barra dei menu superiore.
 
-## Colonne delle impostazioni di posizionamento nei fogli di calcolo scaricati/caricati{#qa-sheet-columns}
+Quando un aggiornamento delle impostazioni non riesce, puoi scaricare un file di errore bulksheet con codifica a colori per mostrare quali impostazioni (righe) sono state salvate e quali non sono riuscite, con il motivo di ogni errore. Puoi quindi risolvere i problemi all’interno dello stesso file e caricarlo di nuovo per elaborare le informazioni corrette.
+
+
+<!--
+## Placement Setting Columns in Downloaded/Uploaded Spreadsheets{#qa-sheet-columns}
 
 >[!TIP]
 >
-> In un foglio di calcolo scaricato, tutte le colonne modificabili sono evidenziate in blu.
+> In a downloaded spreadsheet, all editable columns are highlighted in blue.
 
-### Fogli di calcolo a livello di campagna
+### Campaign-level Spreadsheets
 
-| Sezione | Colonna | Descrizione | Modificabile? |
+| Section | Column | Description | Editable? |
 |---------|--------|-------------|-----------|
-| [!UICONTROL Basic] | [!UICONTROL Placement ID] | ID numerico del posizionamento. | — |
-| [!UICONTROL Basic] | [!UICONTROL Placement Name] | Nome del posizionamento. | Sì |
-| [!UICONTROL Basic] | [!UICONTROL Labels] | Eventuali etichette applicate, per la generazione di rapporti. | — |
-| [!UICONTROL Basic] | [!UICONTROL Edit Link] | Un collegamento per aprire il posizionamento in modalità Modifica. | — |
-| [!UICONTROL Basic] | [!UICONTROL Status] | Stato del posizionamento: *[!UICONTROL active]* o *[!UICONTROL inactive]*. | Sì |
-| [!UICONTROL Basic] | [!UICONTROL Placement Type] | Il tipo di posizionamento. | — |
-| [!UICONTROL Basic] | [!UICONTROL Package Name] | Nome del pacchetto principale, se applicabile. | — |
-| [!UICONTROL Goals] | [!UICONTROL Start Date] | Data di inizio del posizionamento. | — |
-| [!UICONTROL Goals] | [!UICONTROL End Date] | Data di fine del posizionamento. | — |
-| [!UICONTROL Goals] | [!UICONTROL Day parting] | Indica se dayparting è *[!UICONTROL ON]* o *[!UICONTROL OFF]*.<br><b>Nota:</b> Per verificare la pianificazione effettiva di dayparting, aprire le impostazioni di posizionamento in DSP. | — |
-| [!UICONTROL Goals] | [!UICONTROL Budget] | Il budget di posizionamento, se presente. | Sì |
-| [!UICONTROL Goals] | [!UICONTROL Budget Interval] | Intervallo di budget: &lt;i[!UICONTROL >Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]* o *[!UICONTROL All Time]*. | Sì |
-| [!UICONTROL Goals] | [!UICONTROL Optimization Goal] | Obiettivo del pacchetto. | — |
-| [!UICONTROL Goals] | [!UICONTROL Optimization Target] | Il valore target dell’obiettivo. | — |
-| [!UICONTROL Goals] | [!UICONTROL Pace on] | Indica se il posizionamento sta avanzando verso *[!UICONTROL Budget]* o *[!UICONTROL Impressions]*. | — |
-| [!UICONTROL Goals] | [!UICONTROL Max Bid] | Offerta massima per il posizionamento. | Sì |
-| [!UICONTROL Goals] | [!UICONTROL Flight Pacing] | Strategia di andamento del volo per il posizionamento: *[!UICONTROL Even]*, *[!UICONTROL slightly ahead]*, *[!UICONTROL frontload]* o *[!UICONTROL aggressive frontload]*. | Sì |
-| [!UICONTROL Goals] | [!UICONTROL Intraday Pacing] | Strategia di velocità infragiornaliera per il posizionamento: *[!UICONTROL Even]* o *[!UICONTROL ASAP]*. | Sì |
-| [!UICONTROL Goals] | [!UICONTROL Pre-Bid Filters] | Eventuali criteri di filtro pre-offerta da applicare. | — |
-| [!UICONTROL Goals] | [!UICONTROL Bidding Rules] | Indica se le regole di offerta (obsolete) sono *[!UICONTROL ON]* o *[!UICONTROL OFF]*. | — |
-| [!UICONTROL Goals] | [!UICONTROL Frequency Cap] | Il limite di frequenza principale per il posizionamento durante il [!UICONTROL Frequency Cap Interval] specificato. | Sì |
-| [!UICONTROL Goals] | [!UICONTROL Frequency Cap Interval] | Intervallo per il limite di frequenza primario: *[!UICONTROL Day]*, *[!UICONTROL Week]* o *[!UICONTROL Month]*. | Sì |
-| [!UICONTROL Goals] | [!UICONTROL Secondary Frequency Cap] | Limite di frequenza secondario per il posizionamento durante [!UICONTROL Secondary Frequency Cap Interval] specificato | Sì |
-| [!UICONTROL Goals] | [!UICONTROL Secondary Frequency Cap Interval] | Tipo di intervallo per il limite di frequenza secondario: *[!UICONTROL Week]*, *[!UICONTROL Day]*, *[!UICONTROL Hour]* o *[!UICONTROL Minute]*. Il numero applicabile di settimane, giorni, ore o minuti è indicato da [!UICONTROL Secondary Frequency Cap Interval Value]. | Sì |
-| [!UICONTROL Goals] | [!UICONTROL Secondary Frequency Cap Interval Value] | Il numero di settimane, giorni, ore o minuti a cui si applica [!UICONTROL Secondary Frequency Cap]. Ad esempio, se il limite secondario è di tre impression per sei ore, il valore qui sarà `6`. | Sì |
-| [!UICONTROL Audience Location] | [!UICONTROL Audience Location - Included #] | Il numero di posizioni geografiche di destinazione, *[!UICONTROL All]* o *[!UICONTROL None]*. | — |
-| [!UICONTROL Audience Location] | [!UICONTROL Audience Location - Included] | Le posizioni geografiche di destinazione, separate da punti e virgola, o *[!UICONTROL All Locations]*. | — |
-| [!UICONTROL Audience Location] | [!UICONTROL Audience Location - Excluded #] | Numero di posizioni geografiche escluse o *[!UICONTROL None]*. | — |
-| [!UICONTROL Audience Location] | [!UICONTROL Audience Location - Excluded] | Le località geografiche escluse, separate da punti e virgola, oppure *[!UICONTROL None]*. | — |
-| [!UICONTROL Inventory] | [!UICONTROL Public Inventory - Included #] | Numero di offerte di inventario pubblico di destinazione, se specificate, *[!UICONTROL All]* o *[!UICONTROL None]*. | — |
-| [!UICONTROL Inventory] | [!UICONTROL Public Inventory - Excluded #] | Numero di offerte di inventario pubblico escluse, se specificate, oppure *[!UICONTROL None]*. | — |
-| [!UICONTROL Inventory] | [!UICONTROL Private Inventory - Included #] | Numero di offerte di inventario private, se specificate, *[!UICONTROL All]* o *[!UICONTROL None]*. | — |
-| [!UICONTROL Inventory] | [!UICONTROL Private Inventory - Excluded #] | Il numero di offerte di inventario private escluse, se specificate, o *[!UICONTROL None]*. | — |
-| [!UICONTROL Inventory] | [!UICONTROL On Demand Inventory - Included #] | Numero di [!UICONTROL On-Demand Inventory] offerte, se presenti, specificate *[!UICONTROL All]* o *[!UICONTROL None]*. | — |
-| [!UICONTROL Inventory] | [!UICONTROL On Demand Inventory - Excluded #] | Il numero di offerte di inventario su richiesta escluse, se specificate, o *[!UICONTROL None]*. | — |
-| [!UICONTROL Sites] | [!UICONTROL Traffic Type] | Tipo di traffico di destinazione: *[!UICONTROL Website]* e/o *[!UICONTROL Apps]* | — |
-| [!UICONTROL Sites] | [!UICONTROL Exclude out-stream] | Indica se l&#39;opzione di targeting del magazzino per escludere il traffico in uscita è &lt;i[!UICONTROL >ON]* o *[!UICONTROL OFF]*.<br>Gli annunci in uscita vengono in genere visualizzati sopra il contenuto come popup o inseriti nel contenuto (nell&#39;esperienza nativa), anziché come normali annunci video in un lettore video. | — |
-| [!UICONTROL Sites] | [!UICONTROL Site Tier] | Qualità dei siti di destinazione: *[!UICONTROL Tier 1]*, *[!UICONTROL Tier 2]*, *[!UICONTROL Tier 3]* o *[!UICONTROL All Sites]*. | — |
-| [!UICONTROL Sites] | [!UICONTROL Categories - Included #] | Il numero di categorie del sito di destinazione, se specificate, oppure *[!UICONTROL All]*. | — |
-| [!UICONTROL Sites] | [!UICONTROL Categories - Excluded #] | Il numero di categorie di sito escluse, se specificate, oppure *[!UICONTROL All]*. | — |
-| [!UICONTROL Sites] | [!UICONTROL Excluded Sites] | I siti esclusi, se presenti, sono specificati oppure *[!UICONTROL None]*. | — |
-| [!UICONTROL Sites] | [!UICONTROL Language] | Lingue del sito di destinazione. | — |
-| [!UICONTROL Sites] | [!UICONTROL Allow unscreened sites] | (Solo posizionamenti di visualizzazione standard) Se consentire o meno la consegna di annunci su siti non controllati: *[!UICONTROL ON]* o *[!UICONTROL OFF]*. Quando il posizionamento ha come target l’inventario privato, questa opzione può distribuire annunci sui siti bloccati. | — |
-| [!UICONTROL Sites] | [!UICONTROL Targeted Sites] | Il numero di siti di destinazione, se specificati, o *[!UICONTROL None]*. | — |
-| [!UICONTROL Audience Targeting] | [!UICONTROL Audience - Included] | I tipi di pubblico di destinazione, se presenti, oppure *[!UICONTROL None]*. | — |
-| [!UICONTROL Audience Targeting] | [!UICONTROL Audience - Excluded] | Sono specificati i tipi di pubblico esclusi, se presenti, oppure *[!UICONTROL None]*. | — |
-| [!UICONTROL Audience Targeting] | [!UICONTROL Demographic booster] | Indica se [!DNL Comscore] segmenti demografici sono abilitati o meno per il posizionamento (e altri posizionamenti nella campagna): *[!UICONTROL ON]* o *[!UICONTROL OFF]*. Questa funzionalità può essere abilitata solo per le campagne per le quali la funzionalità [!DNL Audience Verification] è abilitata per [!DNL Nielsen] e/o [!DNL Comscore].  Esso è soggetto a spese supplementari. | — |
-| [!UICONTROL Audience Targeting] | [!UICONTROL Extend across screens] | Se estendere o meno il targeting dell&#39;annuncio tra i dispositivi: *[!UICONTROL ON]* o *[!UICONTROL OFF]*. Il targeting tra dispositivi estende il targeting su tutti i dispositivi noti di una persona, in base al grafico dei dispositivi specificato nelle impostazioni della campagna. | — |
-| [!UICONTROL Audience Targeting] | [!UICONTROL Topic Targeting] - N. incluso | Numero di codici argomento di destinazione, se presenti, oppure *[!UICONTROL All]*. | — |
-| [!UICONTROL Audience Targeting] | [!UICONTROL Topic Targeting - Excluded #] | Numero di codici argomento esclusi, se presenti, oppure *[!UICONTROL None]*. | — |
-| [!UICONTROL Audience Targeting] | [!UICONTROL Device Targeting - Included #] | Il numero di destinazioni dispositivo di destinazione, se specificate, o *[!UICONTROL All]*. | — |
-| [!UICONTROL Audience Targeting] | [!UICONTROL Device Targeting - Excluded #] | Numero di destinazioni dispositivo escluse, se specificate, oppure *[!UICONTROL None]*. | — |
-| [!UICONTROL Audience Targeting] | [!UICONTROL ISP Targeting - Included #] | Numero di provider ISP di destinazione, se specificati, oppure *[!UICONTROL All]/i>. | — |
-| [!UICONTROL Audience Targeting] | [!UICONTROL ISP Targeting - Excluded #] | Numero di provider ISP esclusi, se specificati, oppure *[!UICONTROL None]*. | — |
-| [!UICONTROL Brand Safety] | [!UICONTROL Brand Safety - Contextual Filtering #] | Numero di filtri di sicurezza del brand applicati, se presenti, oppure *[!UICONTROL None]*. | — |
-| [!UICONTROL Brand Safety] | [!UICONTROL Brand Safety - Pre-Bid Fraud blocking #] | Numero di filtri di blocco delle frodi pre-offerta applicati, se presenti, oppure *[!UICONTROL None]*. | — |
-| [!UICONTROL Brand Safety] | [!UICONTROL Brand Safety - Pre-Bid Viewability #] | Numero di filtri di visibilità pre-offerta applicati, se presenti, oppure *[!UICONTROL None]*. | — |
-| [!UICONTROL Brand Safety] | [!UICONTROL Site Safety Block] | Indica se il blocco di sicurezza del sito è abilitato o meno: *[!UICONTROL ON]* o *[!UICONTROL OFF]*.<!-- Whether or not the advertiser-level setting Enable Site Safety Block is enabled: *ON* or *OFF*.I don’t see this option at the placement level. Should there be one? --> | — |
-| [!UICONTROL Tracking] | [!UICONTROL Tracking Pixels #] | Il numero di pixel di terze parti per il tracciamento degli eventi associati al posizionamento o *[!UICONTROL None]*. | — |
-| [!UICONTROL Tracking] | [!UICONTROL Conversion Pixels #] | Il numero di pixel di tracciamento della conversione associati al posizionamento, o *[!UICONTROL None]*. | — |
-| [!UICONTROL Tracking] | [!UICONTROL 3rd-party fees] | Tariffa statica di terze parti da registrare come costo non fatturabile per 1000 impression, se applicabile. | — |
-| [!UICONTROL Ads] | [!UICONTROL # of Ads Attached] | Il numero di annunci allegati al posizionamento, se presenti, o *[!UICONTROL None]*. | — |
-| [!UICONTROL Ads] | [!UICONTROL Ad Names] | I nomi degli annunci allegati al posizionamento o *[!UICONTROL None]*. | — |
-| [!UICONTROL Ads] | [!UICONTROL Attached Ad ID] | Gli ID univoci degli annunci generati da DSP di tutti gli annunci associati al posizionamento, separati da punto e virgola. Per scaricare un elenco di nomi di annunci e ID di annunci associati dalla visualizzazione [!UICONTROL Ads], crea una visualizzazione personalizzata che includa la metrica [!UICONTROL Ad ID], quindi [esporta i dati](/help/dsp/campaign-management/reports/campaign-export-data.md). | Sì |
+| [!UICONTROL Basic] | [!UICONTROL Placement ID] | The numeric ID of the placement. | &mdash; |
+| [!UICONTROL Basic] | [!UICONTROL Placement Name] | The name of the placement. | Yes |
+| [!UICONTROL Basic] | [!UICONTROL Labels] | Any applied labels, for reporting. | &mdash; |
+| [!UICONTROL Basic] | [!UICONTROL Edit Link] | A link to open the placement in Edit mode. | &mdash; |
+| [!UICONTROL Basic] | [!UICONTROL Status] | The placement status: *[!UICONTROL active]* or *[!UICONTROL inactive]*. | Yes |
+| [!UICONTROL Basic] | [!UICONTROL Placement Type] | The placement type. | &mdash; |
+| [!UICONTROL Basic] | [!UICONTROL Package Name] | The name of the parent package, when applicable. | &mdash; |
+| [!UICONTROL Goals] | [!UICONTROL Start Date] | The start date of the placement. | &mdash; |
+| [!UICONTROL Goals] | [!UICONTROL End Date] | The end date of the placement. | &mdash; |
+| [!UICONTROL Goals] | [!UICONTROL Day parting] | Whether dayparting is *[!UICONTROL ON]* or *[!UICONTROL OFF]*.<br><b>Note:</b> To check the actual dayparting schedule, open the placement settings in DSP. | &mdash; |
+| [!UICONTROL Goals] | [!UICONTROL Budget] | The placement budget, if there is one. | Yes |
+| [!UICONTROL Goals] | [!UICONTROL Budget Interval] | The budget interval: <i[!UICONTROL >Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*, or *[!UICONTROL All Time]*. | Yes |
+| [!UICONTROL Goals] | [!UICONTROL Optimization Goal] | The objective of the package. | &mdash; |
+| [!UICONTROL Goals] | [!UICONTROL Optimization Target] | The target value of the goal. | &mdash; |
+| [!UICONTROL Goals] | [!UICONTROL Pace on] | Whether the placement is pacing towards the *[!UICONTROL Budget]* or *[!UICONTROL Impressions]*. | &mdash; |
+| [!UICONTROL Goals] | [!UICONTROL Max Bid] | The maximum bid for the placement. | Yes |
+| [!UICONTROL Goals] | [!UICONTROL Flight Pacing] | The flight pacing strategy for the placement: *[!UICONTROL Even]*, *[!UICONTROL slightly ahead]*, *[!UICONTROL frontload]*, or *[!UICONTROL aggressive frontload]*. | Yes |
+| [!UICONTROL Goals] | [!UICONTROL Intraday Pacing] | The intraday pacing strategy for the placement: *[!UICONTROL Even]* or *[!UICONTROL ASAP]*. | Yes |
+| [!UICONTROL Goals] | [!UICONTROL Pre-Bid Filters] | Any pre-bid filter criteria to be applied. | &mdash; |
+| [!UICONTROL Goals] | [!UICONTROL Bidding Rules] | Whether bidding rules (deprecated) are *[!UICONTROL ON]* or *[!UICONTROL OFF]*. | &mdash; |
+| [!UICONTROL Goals] | [!UICONTROL Frequency Cap] | The primary frequency cap for the placement during the specified [!UICONTROL Frequency Cap Interval]. | Yes |
+| [!UICONTROL Goals] | [!UICONTROL Frequency Cap Interval] | The interval for the primary frequency cap: *[!UICONTROL Day]*, *[!UICONTROL Week]*, or *[!UICONTROL Month]*. | Yes |
+| [!UICONTROL Goals] | [!UICONTROL Secondary Frequency Cap] | The secondary frequency cap for the placement during the specified [!UICONTROL Secondary Frequency Cap Interval] | Yes |
+| [!UICONTROL Goals] | [!UICONTROL Secondary Frequency Cap Interval] | The type of interval for the secondary frequency cap: *[!UICONTROL Week]*, *[!UICONTROL Day]*, *[!UICONTROL Hour]*, or *[!UICONTROL Minute]*. The applicable number of weeks, days, hours, or minutes is indicated by the [!UICONTROL Secondary Frequency Cap Interval Value]. | Yes |
+| [!UICONTROL Goals] | [!UICONTROL Secondary Frequency Cap Interval Value] | The number of weeks, days, hours, or minutes for which the [!UICONTROL Secondary Frequency Cap] applies. For example, if the secondary cap is three impressions per six hours, then the value here would be `6`. | Yes |
+| [!UICONTROL Audience Location] | [!UICONTROL Audience Location - Included #] | The number of targeted geographical locations, *[!UICONTROL All]*, or *[!UICONTROL None]*. | &mdash; |
+| [!UICONTROL Audience Location] | [!UICONTROL Audience Location - Included] | The targeted geographical locations, separated by semi-colons,or *[!UICONTROL All Locations]*. | &mdash; |
+| [!UICONTROL Audience Location] | [!UICONTROL Audience Location - Excluded #] | The number of excluded geographical locations or *[!UICONTROL None]*. | &mdash; |
+| [!UICONTROL Audience Location] | [!UICONTROL Audience Location - Excluded] | The excluded geographical locations, separated by semi-colons,  or *[!UICONTROL None]*. | &mdash; |
+| [!UICONTROL Inventory] | [!UICONTROL Public Inventory - Included #] | The number of targeted public inventory deals, if any are specified, *[!UICONTROL All]*, or *[!UICONTROL None]*. | &mdash; |
+| [!UICONTROL Inventory] | [!UICONTROL Public Inventory - Excluded #] | The number of excluded public inventory deals, if any are specified, or *[!UICONTROL None]*. | &mdash; |
+| [!UICONTROL Inventory] | [!UICONTROL Private Inventory - Included #] | The number of targeted private inventory deals, if any are specified, *[!UICONTROL All]*, or *[!UICONTROL None]*. | &mdash; |
+| [!UICONTROL Inventory] | [!UICONTROL Private Inventory - Excluded #] | The number of excluded private inventory deals, if any are specified, or *[!UICONTROL None]*. | &mdash; |
+| [!UICONTROL Inventory] | [!UICONTROL On Demand Inventory - Included #] | The number of targeted [!UICONTROL On-Demand Inventory] deals, if any are specified, *[!UICONTROL All]*, or *[!UICONTROL None]*. | &mdash; |
+| [!UICONTROL Inventory] | [!UICONTROL On Demand Inventory - Excluded #] | The number of excluded On-Demand Inventory deals, if any are specified, or *[!UICONTROL None]*. | &mdash; |
+| [!UICONTROL Sites] | [!UICONTROL Traffic Type] | The targeted type of traffic: *[!UICONTROL Website]* and/or *[!UICONTROL Apps]* | &mdash; |
+| [!UICONTROL Sites] | [!UICONTROL Exclude out-stream] | Whether the Inventory Targeting option to exclude outstream traffic is <i[!UICONTROL >ON]* or *[!UICONTROL OFF]*.<br>Outstream ads usually appear over the content as a pop-up or stuffed into content (in the native experience), rather than as regular video ads in a video player. | &mdash; |
+| [!UICONTROL Sites] | [!UICONTROL Site Tier] | The quality of the sites to target: *[!UICONTROL Tier 1]*, *[!UICONTROL Tier 2]*, *[!UICONTROL Tier 3]*, or *[!UICONTROL All Sites]*. | &mdash; |
+| [!UICONTROL Sites] | [!UICONTROL Categories - Included #] | The number of targeted site categories, if any are specified, or *[!UICONTROL All]*. | &mdash; |
+| [!UICONTROL Sites] | [!UICONTROL Categories - Excluded #] | The number of excluded site categories, if any are specified, or *[!UICONTROL All]*. | &mdash; |
+| [!UICONTROL Sites] | [!UICONTROL Excluded Sites] | The excluded sites, if any are specified, or *[!UICONTROL None]*. | &mdash; |
+| [!UICONTROL Sites] | [!UICONTROL Language] | The targeted site languages. | &mdash; |
+| [!UICONTROL Sites] | [!UICONTROL Allow unscreened sites] | (Standard display placements only) Whether or not to allow ad delivery on non-audited sites: *[!UICONTROL ON]* or *[!UICONTROL OFF]*. When the placement targets private inventory, this option may deliver ads on blocked sites. | &mdash; |
+| [!UICONTROL Sites] | [!UICONTROL Targeted Sites] | The number of targeted sites, if any are specified, or *[!UICONTROL None]*. | &mdash; |
+| [!UICONTROL Audience Targeting] | [!UICONTROL Audience - Included] | The targeted audiences, if any are specified, or *[!UICONTROL None]*. | &mdash; |
+| [!UICONTROL Audience Targeting] | [!UICONTROL Audience - Excluded] | The excluded audiences, if any are specified, or *[!UICONTROL None]*. | &mdash; |
+| [!UICONTROL Audience Targeting] | [!UICONTROL Demographic booster] | Whether or not [!DNL Comscore] demographic segments are enabled for the placement (and other placements in the campaign): *[!UICONTROL ON]* or *[!UICONTROL OFF]*. This feature may be enabled only for campaigns for which the [!DNL Audience Verification] feature is enabled for [!DNL Nielsen] and/or [!DNL Comscore].  It incurs additional fees.  | &mdash; |
+| [!UICONTROL Audience Targeting] | [!UICONTROL Extend across screens] | Whether or not to extend the ad targeting across devices: *[!UICONTROL ON]* or *[!UICONTROL OFF]*. Cross-device targeting extends your targeting across all of a person's known device, per the device graph specified in the campaign settings. | &mdash; |
+| [!UICONTROL Audience Targeting] | [!UICONTROL Topic Targeting] - Included # | The number of targeted topic codes, if any are specified, or *[!UICONTROL All]*.   | &mdash; |
+| [!UICONTROL Audience Targeting] | [!UICONTROL Topic Targeting - Excluded #] | The number of excluded topic codes, if any are specified, or *[!UICONTROL None]*. | &mdash; |
+| [!UICONTROL Audience Targeting] | [!UICONTROL Device Targeting - Included #] | The number of targeted device targets, if any are specified, or *[!UICONTROL All]*. | &mdash; |
+| [!UICONTROL Audience Targeting] | [!UICONTROL Device Targeting - Excluded #] | The number of excluded device targets, if any are specified, or *[!UICONTROL None]*. | &mdash; |
+| [!UICONTROL Audience Targeting] | [!UICONTROL ISP Targeting - Included #] | The number of targeted ISP providers, if any are specified, or *[!UICONTROL All]/i>. | &mdash; |
+| [!UICONTROL Audience Targeting] | [!UICONTROL ISP Targeting - Excluded #] | The number of excluded ISP providers, if any are specified, or *[!UICONTROL None]*. | &mdash; |
+| [!UICONTROL Brand Safety] | [!UICONTROL Brand Safety - Contextual Filtering #] | The number of brand safety filters applied, if any are specified, or *[!UICONTROL None]*. | &mdash; |
+| [!UICONTROL Brand Safety] | [!UICONTROL Brand Safety - Pre-Bid Fraud blocking #] | The number of pre-bid fraud blocking filters applied, if any are specified, or *[!UICONTROL None]*. | &mdash; |
+| [!UICONTROL Brand Safety] | [!UICONTROL Brand Safety - Pre-Bid Viewability #] | The number of pre-bid viewability filters applied, if any are specified, or *[!UICONTROL None]*. | &mdash; |
+| [!UICONTROL Brand Safety] | [!UICONTROL Site Safety Block] | Whether or not Site Safety Block is enabled: *[!UICONTROL ON]* or *[!UICONTROL OFF]*.[Whether or not the advertiser-level setting Enable Site Safety Block is enabled: *ON* or *OFF*.I don’t see this option at the placement level. Should there be one?] | &mdash; |
+| [!UICONTROL Tracking] | [!UICONTROL Tracking Pixels #] | The number of third-party  event-tracking pixels attached to the placement, or *[!UICONTROL None]*.| &mdash; |
+| [!UICONTROL Tracking] | [!UICONTROL Conversion Pixels #] | The number of conversion tracking pixels attached to the placement, or *[!UICONTROL None]*. | &mdash; |
+| [!UICONTROL Tracking] | [!UICONTROL 3rd-party fees] | A static, third-party fee rate to be tracked as a non-billable cost per 1000 impressions, if applicable. | &mdash; |
+| [!UICONTROL Ads] | [!UICONTROL # of Ads Attached] | The number of ads attached to the placement, if any are attached, or *[!UICONTROL None]*. | &mdash; |
+| [!UICONTROL Ads] | [!UICONTROL Ad Names] | The names of any ads attached to the placement, or *[!UICONTROL None]*. | &mdash; |
+| [!UICONTROL Ads] | [!UICONTROL Attached Ad ID] | The unique DSP-generated Ad IDs of any ads attached to the placement, separated by semi-colons. To download a list of ad names and associated Ad IDs from the [!UICONTROL Ads] view, create a custom view that includes the [!UICONTROL Ad ID] metric, and then [export the data](/help/dsp/campaign-management/reports/campaign-export-data.md). | Yes |
+-->
 
 >[!MORELIKETHIS]
 >
 >* [Verifica e modifica impostazioni pacchetto tramite bulksheet](/help/dsp/campaign-management/packages/package-qa.md)
+>* [Impostazioni pacchetto](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Rivedi e modifica le impostazioni di posizionamento utilizzando i bulksheet](/help/dsp/campaign-management/placements/placement-qa.md)
+>* [Impostazioni posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [Impostazioni annuncio audio](/help/dsp/campaign-management/ads/ad-settings-audio.md)
+>* [Impostazioni TV collegate](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
+>* [Impostazioni annuncio visualizzato](/help/dsp/campaign-management/ads/ad-settings-display.md)
+>* [Impostazioni annuncio mobile](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
+>* [Impostazioni annuncio visualizzazione nativo](/help/dsp/campaign-management/ads/ad-settings-native.md)
+>* [Impostazioni annuncio pre-roll](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
+>* [Impostazioni annuncio video universale](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
