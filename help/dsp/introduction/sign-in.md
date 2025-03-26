@@ -2,9 +2,9 @@
 title: Accedere a DSP
 description: Scopri come accedere a DSP.
 feature: DSP Introduction
-source-git-commit: d90270666dfc587097088e94a2ee4f0c353c9c70
+source-git-commit: b3393c6b0cf3df707793a91aa6a3e8c844f75fb2
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Per aggiungere un nuovo account di accesso, condividi l’indirizzo e-mail con i
 
 Nel frattempo, l’utente può continuare a utilizzare le credenziali legacy di DSP.
 
-#### Dopo aver effettuato l’accesso con un account Adobe IMS, non vengo reindirizzato a adobe.advertising.com.
+#### Dopo aver effettuato l’accesso con un account Adobe IMS, vengo reindirizzato alla pagina di accesso adobe.advertising.com.
 
 Verifica con l’amministratore dell’organizzazione IMS che l’e-mail che stai utilizzando sia stata aggiunta all’organizzazione IMS. Se l’amministratore conferma che sei stato aggiunto all’organizzazione IMS, chiedi al team dell’account Adobe di effettuare il provisioning del tuo account per l’utilizzo di DSP.
 
