@@ -2,9 +2,9 @@
 title: Accedere a DSP
 description: Scopri come accedere a DSP.
 feature: DSP Introduction
-source-git-commit: 0c33657eca7d3332a770fc1eaba179e5ae8eafb8
+source-git-commit: 0eac4e77b0341ad190c1e1d622950e99be8de4f0
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Per ulteriori informazioni sull&#39;interfaccia di Experience Cloud, inclusa la 
 
 ### Risoluzione dei problemi
 
-Per problemi generali di accesso, vedere anche &quot;[Risolvere i problemi di accesso dell&#39;account Adobe]https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html).&quot;
+Per problemi generali di accesso, vedere anche &quot;[Risoluzione dei problemi di accesso dell&#39;account Adobe](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html).&quot;
 
 #### Esistono prerequisiti per abilitare un nuovo accesso IMS [!DNL Adobe]?
 
@@ -57,7 +57,7 @@ Per aggiungere un nuovo account di accesso, condividi l’indirizzo e-mail con i
 
 Nel frattempo, l’utente può continuare a utilizzare le credenziali legacy di DSP.
 
-#### Dopo aver effettuato l’accesso con un account Adobe IMS, non vengo reindirizzato alla pagina di accesso adobe.advertising.com.
+#### Dopo aver effettuato l’accesso con un account Adobe IMS, non vengo reindirizzato a adobe.advertising.com.
 
 Verifica con l’amministratore dell’organizzazione IMS che l’e-mail che stai utilizzando sia stata aggiunta all’organizzazione IMS.
 
