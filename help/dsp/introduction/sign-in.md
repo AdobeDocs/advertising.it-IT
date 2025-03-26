@@ -2,7 +2,7 @@
 title: Accedere a DSP
 description: Scopri come accedere a DSP.
 feature: DSP Introduction
-source-git-commit: 0eac4e77b0341ad190c1e1d622950e99be8de4f0
+source-git-commit: d90270666dfc587097088e94a2ee4f0c353c9c70
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 0%
@@ -59,9 +59,7 @@ Nel frattempo, l’utente può continuare a utilizzare le credenziali legacy di 
 
 #### Dopo aver effettuato l’accesso con un account Adobe IMS, non vengo reindirizzato a adobe.advertising.com.
 
-Verifica con l’amministratore dell’organizzazione IMS che l’e-mail che stai utilizzando sia stata aggiunta all’organizzazione IMS.
-
-Se l’amministratore conferma che sei stato aggiunto all’organizzazione IMS, chiedi al team dell’account Adobe di effettuare il provisioning del tuo account per l’utilizzo di DSP.
+Verifica con l’amministratore dell’organizzazione IMS che l’e-mail che stai utilizzando sia stata aggiunta all’organizzazione IMS. Se l’amministratore conferma che sei stato aggiunto all’organizzazione IMS, chiedi al team dell’account Adobe di effettuare il provisioning del tuo account per l’utilizzo di DSP.
 
 Nel frattempo, puoi continuare a utilizzare le credenziali legacy di DSP.
 
@@ -69,7 +67,7 @@ Nel frattempo, puoi continuare a utilizzare le credenziali legacy di DSP.
 
 1. Vai a [experience.adobe.com](https://experience.adobe.com) e disconnettiti.
 
-Vai a [advertising.adobe.com](https://advertising.adobe.com) e accedi con l&#39;ID e-mail corretto.
+1. Vai a [advertising.adobe.com](https://advertising.adobe.com) e accedi con l&#39;ID e-mail corretto.
 
 #### Il mio account IMS [!DNL Adobe] e l&#39;account DSP sono registrati con e-mail diverse. Come posso accedere con il mio account IMS [!DNL Adobe]?
 
