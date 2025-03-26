@@ -3,7 +3,7 @@ title: Accedere a DSP
 description: Scopri come accedere a DSP.
 feature: DSP Introduction
 exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
-source-git-commit: 4bc35abb18db857d12ff8620b18d60d1198b569a
+source-git-commit: c8d33069eb2a97af76a32360348a7e44bce02f09
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Verifica con l’amministratore dell’organizzazione IMS che l’e-mail che sta
 
 Nel frattempo, puoi continuare a utilizzare le credenziali legacy di DSP.
 
-#### Ho effettuato l&#39;accesso utilizzando un indirizzo e-mail errato, che mi ha connesso a [!DNL Adobe] ma non fornisce l&#39;accesso a DSP.
+#### Ho effettuato l&#39;accesso utilizzando un indirizzo e-mail errato, che mi ha effettuato l&#39;accesso a [!DNL Adobe] ma non fornisce l&#39;accesso a DSP.
 
 1. Vai a [experience.adobe.com](https://experience.adobe.com) e disconnettiti.
 
