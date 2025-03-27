@@ -3,9 +3,9 @@ title: ID Adobe Advertising utilizzati da [!DNL Analytics]
 description: ID Adobe Advertising utilizzati da [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 6afd0b726cde0770d4d063c2c55bb632956aaf51
+source-git-commit: 474eff3bd7704d79bbaf372480676207252a74c4
 workflow-type: tm+mt
-source-wordcount: '1776'
+source-wordcount: '1731'
 ht-degree: 0%
 
 ---
@@ -234,7 +234,6 @@ dove:
 
 >[!NOTE]
 >
->Per tutti gli account con campagne con prestazione massima e l&#39;opzione di tracciamento [!UICONTROL Auto Upload], i suffissi della pagina di destinazione sono stati migrati al formato precedente. Per altri tipi di campagne con l&#39;opzione di tracciamento [!UICONTROL Auto Upload], i suffissi della pagina di destinazione verranno migrati per utilizzare il formato s_kwcid sopra indicato entro l&#39;inizio del 2025.
 > Per gli account con campagne senza l&#39;opzione di tracciamento [!UICONTROL Auto Upload] di cui non è stata già eseguita la migrazione al nuovo formato, aggiorna manualmente ogni suffisso di pagina di destinazione per includere il formato precedente.
 >Nel frattempo, i formati precedenti, come segue, funzionano ancora:
 >* Campagne di ricerca:
