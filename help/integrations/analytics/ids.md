@@ -3,7 +3,7 @@ title: ID Adobe Advertising utilizzati da [!DNL Analytics]
 description: ID Adobe Advertising utilizzati da [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 19d96e6016c2d170c2a08091249c024ee92e5e64
+source-git-commit: 8128a29a044623d5161e4893fbc52cca626b8fe4
 workflow-type: tm+mt
 source-wordcount: '1731'
 ht-degree: 0%
@@ -164,7 +164,7 @@ I parametri variano in base alla rete di annunci, ma i seguenti parametri sono c
 
 ##### [!DNL Baidu]
 
-`s_kwcid=AL!{userid}!{88}!{creative}!{placement}!{keywordid}`
+`s_kwcid=AL!{userid}!88!{creative}!{placement}!{keywordid}`
 
 dove:
 
@@ -178,11 +178,11 @@ Queste includono campagne di acquisto con [!DNL Google Merchant Center].
 
 * Account che utilizzano il formato AMO ID più recente, che supporta il reporting a livello di campagna e gruppo di annunci per campagne, bozze ed esperimenti con prestazione massima:
 
-  `s_kwcid=AL!{userid}!{3}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
+  `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
 * Tutti gli altri account:
 
-  `s_kwcid=AL!{userid}!{3}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
+  `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 
 dove:
 
@@ -207,7 +207,7 @@ dove:
 
 ##### [!DNL Meta]
 
-`s_kwcid=AL!{userid}!{45}!{{ad.id}}!{{campaign.id}}!{{adset.id}}`
+`s_kwcid=AL!{userid}!45!{{ad.id}}!{{campaign.id}}!{{adset.id}}`
 
 where:
 
@@ -223,7 +223,7 @@ where:
 
 * Tutti i tipi di campagna:
 
-  `s_kwcid=AL!{userid}!{10}!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+  `s_kwcid=AL!{userid}!10!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 
 dove:
 
@@ -237,15 +237,15 @@ dove:
 > Per gli account con campagne senza l&#39;opzione di tracciamento [!UICONTROL Auto Upload] di cui non è stata già eseguita la migrazione al nuovo formato, aggiorna manualmente ogni suffisso di pagina di destinazione per includere il formato precedente.
 >Nel frattempo, i formati precedenti, come segue, funzionano ancora:
 >* Campagne di ricerca:
->  `s_kwcid=AL!{userid}!{10}!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+>  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 >* Campagne di acquisto (utilizzando [!DNL Microsoft Merchant Center]):
->  `s_kwcid=AL!{userid}!{10}!{AdId}!{CriterionId}`
+>  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
 >* Campagne di Audience Network:
->  `s_kwcid=AL!{userid}!{10}!{AdId}`
+>  `s_kwcid=AL!{userid}!10!{AdId}`
 
 ##### [!DNL Yahoo! Japan Ads]
 
-`s_kwcid=AL!{userid}!{94}!{creative}!{matchtype}!{network}!{keyword}`
+`s_kwcid=AL!{userid}!94!{creative}!{matchtype}!{network}!{keyword}`
 
 dove:
 
@@ -256,7 +256,7 @@ dove:
 
 ##### [!DNL Yandex]
 
-`s_kwcid=AL!{userid}!{90}!{ad_id}!{source_type}!!!{phrase_id}`
+`s_kwcid=AL!{userid}!90!{ad_id}!{source_type}!!!{phrase_id}`
 
 dove:
 
