@@ -3,7 +3,7 @@ title: Formati di tracciamento dei clic per  [!DNL Microsoft Advertising]
 description: Scopri i formati di tracciamento dei clic per  [!DNL Microsoft Advertising]  account.
 exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 70629247a18a78b12a7fc8b166a0272764bb20b8
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Esempio:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` è una variabile per l&#39;ID univoco dell&#39;inserzionista in Adobe Advertising.
+>* `<advertiser_ID>` è una variabile per l&#39;ID univoco dell&#39;inserzionista all&#39;interno di Adobe Advertising.
 >
 >* Questo formato indica che il passaggio del token è abilitato per la campagna (impostazione predefinita). Se il passaggio del token è disabilitato, sostituire `cq?` dopo `<advertiser_ID>` con `c?`.
 >
@@ -44,7 +44,7 @@ Esempio:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` è una variabile per l&#39;ID univoco dell&#39;inserzionista in Adobe Advertising.
+>* `<advertiser_ID>` è una variabile per l&#39;ID univoco dell&#39;inserzionista all&#39;interno di Adobe Advertising.
 >
 >* Questo formato indica che il passaggio del token è abilitato per la campagna (impostazione predefinita). Se il passaggio del token è disabilitato, sostituire `cq?` dopo `<advertiser_ID>` con `c?`.
 >
@@ -66,7 +66,7 @@ Esempio:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` è una variabile per l&#39;ID univoco dell&#39;inserzionista in Adobe Advertising.
+>* `<advertiser_ID>` è una variabile per l&#39;ID univoco dell&#39;inserzionista all&#39;interno di Adobe Advertising.
 >
 >* Questo formato indica che il passaggio del token è abilitato per la campagna (impostazione predefinita). Se il passaggio del token è disabilitato, sostituire `cq?` dopo `<advertiser_ID>` con `c?`.
 >
@@ -82,11 +82,11 @@ Esempio:
 
 ### Ricerca e audience network
 
-Gli account che utilizzano il tracciamento delle conversioni di Adobe Advertising devono includere nel suffisso l&#39;identificatore di clic (`msclkid` per [!DNL Microsoft Advertising]) della rete di annunci:
+Gli account che utilizzano il monitoraggio delle conversioni di Adobe Advertising devono includere nel suffisso l&#39;identificatore di clic (`msclkid` per [!DNL Microsoft Advertising]) della rete di annunci:
 
 * Quando l&#39;inserzionista ha un&#39;integrazione Adobe Analytics, il suffisso deve includere quanto segue:
 
-  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}`
+  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}`
 
 * Se l&#39;inserzionista non dispone di un&#39;integrazione Adobe Analytics, il suffisso deve includere quanto segue:
 
@@ -94,11 +94,11 @@ Gli account che utilizzano il tracciamento delle conversioni di Adobe Advertisin
 
 ### Rete acquisti
 
-Gli account che utilizzano il tracciamento delle conversioni di Adobe Advertising devono includere nel suffisso l&#39;identificatore di clic (`msclkid` per [!DNL Microsoft Advertising]) della rete di annunci:
+Gli account che utilizzano il monitoraggio delle conversioni di Adobe Advertising devono includere nel suffisso l&#39;identificatore di clic (`msclkid` per [!DNL Microsoft Advertising]) della rete di annunci:
 
 * Quando l&#39;inserzionista ha un&#39;integrazione Adobe Analytics, il suffisso deve includere quanto segue:
 
-  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!{sid}!{AdId}!{CriterionId}`
+  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
 
 * Se l&#39;inserzionista non dispone di un&#39;integrazione Adobe Analytics, il suffisso deve includere quanto segue:
 
@@ -106,5 +106,5 @@ Gli account che utilizzano il tracciamento delle conversioni di Adobe Advertisin
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sui formati degli URL di tracciamento dei clic per il servizio di tracciamento delle conversioni di Adobe Advertising](formats-click-tracking-about.md)
+>* [Informazioni sui formati degli URL di tracciamento dei clic per il servizio di tracciamento conversione di Adobe Advertising](formats-click-tracking-about.md)
 >* [Formati AMO ID](/help/integrations/analytics/ids.md#amo-id-formats)

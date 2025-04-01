@@ -3,7 +3,7 @@ title: Formati di tracciamento dei clic per  [!DNL Google Ads]
 description: Scopri i formati di tracciamento dei clic per  [!DNL Google Ads]  account.
 exl-id: d09c3b4e-1274-45fb-abb6-dddfe60f1477
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 70629247a18a78b12a7fc8b166a0272764bb20b8
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Esempio:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` è una variabile per l&#39;ID univoco dell&#39;inserzionista in Adobe Advertising.
+>* `<advertiser_ID>` è una variabile per l&#39;ID univoco dell&#39;inserzionista all&#39;interno di Adobe Advertising.
 >
 >* Questo formato indica che il passaggio del token è abilitato per la campagna (impostazione predefinita). Se il passaggio del token è disabilitato, sostituire `cq?` dopo `<advertiser_ID>` con `c?`.
 >
@@ -54,7 +54,7 @@ Esempio:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` è una variabile per l&#39;ID univoco dell&#39;inserzionista in Adobe Advertising.
+>* `<advertiser_ID>` è una variabile per l&#39;ID univoco dell&#39;inserzionista all&#39;interno di Adobe Advertising.
 >
 >* Questo formato indica che il passaggio del token è abilitato per la campagna (impostazione predefinita). Se il passaggio del token è disabilitato, sostituire `cq?` dopo `<advertiser_ID>` con `c?`.
 >
@@ -66,19 +66,19 @@ Esempio:
 
 ## Formati del suffisso della pagina di destinazione (suffisso URL finale)
 
-Gli account che utilizzano il tracciamento delle conversioni di Adobe Advertising devono includere nel suffisso l&#39;identificatore di clic (`gclid` per [!DNL Google Ads]) della rete di annunci:
+Gli account che utilizzano il monitoraggio delle conversioni di Adobe Advertising devono includere nel suffisso l&#39;identificatore di clic (`gclid` per [!DNL Google Ads]) della rete di annunci:
 
 * Quando l&#39;inserzionista ha un&#39;integrazione Adobe Analytics, il suffisso deve includere uno dei seguenti elementi:
 
    * [!DNL Google Ads] account che utilizzano il formato [AMO ID](/help/integrations/analytics/ids.md#amo-id-formats) più recente (a partire da `s_kwcid`), che supporta il reporting a livello di campagna e gruppo di annunci per campagne, bozze ed esperimenti con prestazione massima:
 
-     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
+     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
      Se l&#39;account dispone di un&#39;implementazione AMO ID lato server e l&#39;impostazione account o campagna &quot;[!UICONTROL Auto Upload]&quot; è abilitata, il parametro viene aggiunto automaticamente. In caso contrario, è necessario aggiungerlo manualmente. Vedi &quot;[ID Adobe Advertising utilizzati da [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement).&quot;
 
    * Tutti gli altri account [!DNL Google Ads]:
 
-     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
+     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 
 * Se l&#39;inserzionista non dispone di un&#39;integrazione Adobe Analytics, il suffisso deve includere quanto segue:
 
@@ -92,5 +92,5 @@ Gli account che utilizzano il tracciamento delle conversioni di Adobe Advertisin
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sui formati degli URL di tracciamento dei clic per il servizio di tracciamento delle conversioni di Adobe Advertising](formats-click-tracking-about.md)
+>* [Informazioni sui formati degli URL di tracciamento dei clic per il servizio di tracciamento conversione di Adobe Advertising](formats-click-tracking-about.md)
 >* [Formati AMO ID](/help/integrations/analytics/ids.md#amo-id-formats)
