@@ -2,7 +2,7 @@
 title: Ottieni aiuto
 description: Scopri come visualizzare la guida online e le risorse della community e come ottenere supporto tecnico.
 exl-id: d5b5b691-bb73-4acf-afcd-d66e444c1f6c
-source-git-commit: 8a6755041218ab795c0aaa8b875a34d85b3582b8
+source-git-commit: a900c0ef919c36810ce115b51dc432c0008f3419
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
    * ![Guida](/help/search-social-commerce/assets/help-main-menu.png "Guida") > **Guida all&#39;ottimizzazione di ricerca, social network e Commerce**.
 
-## Chiedi alla community di Adobi Advertising
+## Chiedi alla community di Adobe Advertising
 
 Cerca le risposte alle tue domande nei [forum della community Adobe Advertising](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
 
@@ -35,8 +35,8 @@ Per problemi relativi a prodotti o account Search, Social e Commerce, effettuare
 
 * Contatta il team del tuo account Adobe.
 
-* Nel menu principale fare clic su ![Guida](/help/search-social-commerce/assets/help-main-menu.png "Guida") > **[!UICONTROL Provide Feedback]**, immettere il messaggio e quindi fare clic su **[!UICONTROL Send Feedback]**. |
+* Nel menu principale fare clic su ![Guida](/help/search-social-commerce/assets/help-main-menu.png "Guida") > **[!UICONTROL Provide Feedback]**, immettere il messaggio e quindi fare clic su **[!UICONTROL Send Feedback]**.
 
-Fornire i passaggi dettagliati per riprodurre il problema, tutti i dati rilevanti e le informazioni sulla risoluzione preliminare dei problemi eseguita. Se stai segnalando il problema al tuo Account Team Adobe, includi anche il nome e la versione del browser.
+Fornire i passaggi dettagliati per riprodurre il problema, tutti i dati rilevanti e le informazioni sulla risoluzione preliminare dei problemi eseguita. Se stai segnalando il problema al tuo account team di Adobe, includi anche il nome e la versione del browser.
 
 Per i problemi relativi ai rapporti, non eliminare il rapporto e fornisci il nome e l’URL del rapporto.
