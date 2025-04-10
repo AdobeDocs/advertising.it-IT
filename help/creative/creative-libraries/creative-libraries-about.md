@@ -3,7 +3,7 @@ title: Informazioni sulle librerie creative
 description: Scopri come gestire i creativi delle esperienze pubblicitarie.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: 731728964eef89aa1299c02fd90c805e13a0b163
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 0%
@@ -22,11 +22,11 @@ Le librerie possono includere:
 
    * **Creative standard:** Puoi caricare e gestire creative in [vari formati](#creative-creative-formats). Per ogni contenuto creativo si specifica la lingua predefinita per ogni annuncio a cui si associa il contenuto creativo, la pagina di destinazione predefinita che si apre quando un utente fa clic su un annuncio che include il contenuto creativo e le etichette facoltative da utilizzare come filtri nelle varie visualizzazioni di [!DNL Creative].
 
-   * **Creative dinamiche:** (solo per clienti Adobe Advertising DCO esistenti) Gli utenti amministratori possono creare creative generate dinamicamente mappando le variabili dinamiche in un modello di annuncio ai valori in un file di feed. Tutti gli utenti possono visualizzare in anteprima, duplicare ed eliminare gli annunci dinamici esistenti.
+   * **Creative dinamiche:** (solo per clienti Adobe Advertising DCO esistenti) Gli utenti amministratori possono creare creative generate dinamicamente mappando le variabili dinamiche in un modello di annuncio ai valori in un file di feed. Tutti gli utenti possono visualizzare in anteprima, duplicare ed eliminare le inserzioni dinamiche esistenti.
 
-* **Pacchetti creatività:** raggruppa i creativi in bundle da utilizzare in più esperienze con target utente definiti. Puoi creare *bundle standard* costituiti da annunci standard e *bundle dinamici* costituiti da annunci generati dinamicamente.
+* **Pacchetti creatività:** raggruppa le creatività in pacchetti da utilizzare in più esperienze con target utente definiti. Puoi creare *pacchetti* standard costituiti da annunci standard e *pacchetti* dinamici costituiti da annunci generati dinamicamente.
 
-## Formati Creative supportati {#creative-creative-formats}
+## Formati di Creative supportati {#creative-creative-formats}
 
 ### Formati per creatività standard
 
@@ -40,7 +40,7 @@ Puoi aggiungere e gestire i seguenti tipi di creatività nelle [dimensioni di cr
 
 #### HTML5 flessibile
 
-I creativi HTML5 flessibili sono creativi HTML5 con tutte le immagini e altri attributi come tag HTML standard, che è possibile modificare direttamente in [!DNL Creative], sia all&#39;interno di una libreria creativa che all&#39;interno di una singola esperienza (che crea una variazione della creatività originale). I creativi HTML5 flessibili utilizzano lo standard del laboratorio della tecnologia Interactive Advertising Bureau (IAB) per un [portfolio di annunci](https://flexibleads.iabtechlab.com/), per il quale le dimensioni degli annunci sono flessibili (anziché fisse) e si basano sulle proporzioni e sull&#39;intervallo di dimensioni dell&#39;annuncio e per il quale gli annunci mantengono la loro risoluzione tra i dispositivi e i siti di pubblicazione.
+I creativi HTML5 flessibili sono creativi HTML5 con tutte le immagini e altri attributi come tag HTML standard, che è possibile modificare direttamente in [!DNL Creative], sia all&#39;interno di una libreria creativa che all&#39;interno di una singola esperienza (che crea una variazione della creatività originale). I creativi HTML5 flessibili utilizzano lo standard del laboratorio della tecnologia Interactive Advertising Bureau (IAB) per un [portfolio di annunci](https://flexibleads.iabtechlab.com/)<!-- Change to https://iabtechlab.com/standards/iab-new-ad-portfolio-guidelines/ if the broken page isn't fixed -->, per il quale le dimensioni degli annunci sono flessibili (anziché fisse) e si basano sulle proporzioni e sull&#39;intervallo di dimensioni dell&#39;annuncio e per il quale gli annunci mantengono la loro risoluzione tra i dispositivi e i siti di pubblicazione.
 
 È possibile <!-- either --> caricare creative HTML5 flessibili come file ZIP<!-- or use one of the [provided templates](flexible-html5-templates.md) as a starting point -->. Consulta le [specifiche per le creatività flessibili di HTML5](html5-creative-specification.md).
 
@@ -76,11 +76,11 @@ Immetti i tag di tracciamento di JavaScript per i creativi in hosting su server 
 
 ### Formato per annunci dinamici
 
-Gli utenti amministratori possono generare dinamicamente creatività in formato HTML5 statico e HTML5 dinamico mappando le variabili dinamiche in un modello di annuncio ai valori in un file di feed. I contenuti creativi dinamici possono includere quelli delle precedenti esperienze Adobe Advertising Dynamic Creative Optimization (DCO).
+Gli utenti amministratore possono generare dinamicamente creatività in formato HTML5 statico e HTML5 dinamico mappando le variabili dinamiche in un modello annuncio ai valori in un file feed. Le creatività dinamiche possono includere creatività provenienti dalle tue esperienze precedenti di Adobe Systems Advertising Dynamic Creative Optimization (DCO).
 
-## Le visualizzazioni [!UICONTROL Creative Libraries]
+## I [!UICONTROL Creative Libraries] panorami
 
-Per ulteriori informazioni sulla personalizzazione di ogni visualizzazione, vedere &quot;[Personalizza le visualizzazioni dati](/help/creative/introduction/customize-data-views.md)&quot;.
+Per ulteriori informazioni sulla personalizzazione di ciascuna visualizzazione, consulta &quot;[Personalizzare le visualizzazioni](/help/creative/introduction/customize-data-views.md) di dati&quot;.
 
 ### Visualizzazione principale di [!UICONTROL Creative Libraries]
 
@@ -106,11 +106,11 @@ La scheda [!UICONTROL Standard Ads] mostra tutte le creatività standard create 
 
 ##### Azioni disponibili
 
-* [Aggiungere creatività standard a una libreria](creative-add-standard.md)
+* [Aggiungere creatività standard a un libreria](creative-add-standard.md)
 
-* [Modificare un contenuto creativo standard](creative-edit-standard.md)
+* [Modifica un creativo standard](creative-edit-standard.md)
 
-* [Visualizzare l’anteprima di un contenuto creativo standard](creative-preview.md)
+* [Anteprima un creativo standard](creative-preview.md)
 
 * [Aggiungere creatività standard ai bundle standard e rimuovere le creatività standard da un bundle standard](creative-attach-detach-bundles.md)
 
@@ -156,13 +156,13 @@ La visualizzazione [!UICONTROL Bundles] mostra tutti i contenitori di bundle sta
 
 #### Azioni disponibili
 
-* Aggiungere bundle standard e dinamici a una libreria
+* Aggiungere pacchetti standard e dinamici a un libreria
 
-* Elencare e visualizzare in anteprima i creativi in un bundle
+* Elenca e visualizza in anteprima le creatività in un bundle
 
-* Modificare un nome bundle
+* Modifica un nome di bundle
 
-* Aggiungere creatività standard ai bundle standard e rimuovere le creatività standard da un bundle standard
+* Aggiungere creatività standard a pacchetti standard e rimuovere creatività standard da un bundle standard
 
 * Bundle duplicati
 
