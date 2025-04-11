@@ -3,9 +3,9 @@ title: Aggiungi [!DNL Analytics for Advertising] macro ai [!DNL Flashtalking] ta
 description: Scopri perché e come aggiungere [!DNL Analytics for Advertising] macro ai tuoi [!DNL Flashtalking] tag annuncio
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: c4db5727def6125b65fb2146666b988ae3b0db27
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -14,17 +14,23 @@ ht-degree: 0%
 
 *Inserzionisti con una sola integrazione Adobe Advertising-Adobe Analytics*
 
+*Organizzazioni senza una relazione diretta con [!DNL Flashtalking] solo*
+
 *Applicabile solo ad Advertising DSP*
 
-Se utilizzi i tag degli annunci di [!DNL Flashtalking] per gli annunci di Advertising DSP, aggiungi i parametri di Analytics for Advertising agli URL della pagina di destinazione. I parametri registrano i parametri AMO ID (`s_kwcid`) e `ef_id` della stringa di query nell&#39;URL della pagina di destinazione, consentendo ad Adobe Advertising di inviare i dati dei clic per gli annunci ad Adobe Analytics.
+Se utilizzi i tag degli annunci di [!DNL Flashtalking] per gli annunci di Advertising DSP, devi aggiungere i parametri di tracciamento agli URL della pagina di destinazione. Per utilizzare la relazione di Advertising DSP con [!DNL Flashtalking], aggiungi i parametri di Analytics for Advertising agli URL della tua pagina di destinazione. I parametri registrano i parametri AMO ID (`s_kwcid`) e `ef_id` della stringa di query nell&#39;URL della pagina di destinazione, consentendo ad Adobe Advertising di inviare i dati dei clic per gli annunci ad Adobe Analytics.
+
+>[!NOTE]
+>
+>Se la tua organizzazione ha una partnership diretta con [!DNL Flashtalking], questa procedura non è necessaria. Accedi invece al tuo account [!DNL Flashtalking] e segui la documentazione di supporto di [!DNL Flashtalking] per accedere alle macro dei passaggi dati in `https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros`.
 
 Usa le macro per [!DNL Flashtalking] annunci video e display per i seguenti tipi di implementazioni di [!DNL Analytics for Advertising]:
 
 * **Inserzionisti con il codice JavaScript [!DNL Adobe] [!DNL Analytics for Advertising] implementato sui loro siti Web**: il codice JavaScript registra già i parametri della stringa di query AMO ID (`s_kwcid`) e `ef_id`. Tuttavia, l’utilizzo delle macro estende il tracciamento per includere conversioni basate su clic quando i cookie di terze parti non sono supportati. La best practice prevede l’aggiunta di macro nelle sezioni seguenti ai tag annuncio per acquisire dati di click-through aggiuntivi che non vengono acquisiti tramite il codice JavaScript.
 
->[!NOTE]
->
->Il codice JavaScript è una soluzione per il tracciamento dei clic solo quando i cookie sono ancora disponibili. Una volta interrotti i cookie, sarà necessario implementare le macro seguenti.
+  >[!NOTE]
+  >
+  >Il codice JavaScript è una soluzione per il tracciamento dei clic solo quando i cookie sono ancora disponibili. Una volta interrotti i cookie, sarà necessario implementare le macro seguenti.
 
 * **Inserzionisti i cui siti Web non utilizzano il codice JavaScript [!DNL Analytics for Advertising] e si basano invece sull&#39;inoltro lato server [!DNL Analytics] solo per i dati click-through** (senza dati view-through): le seguenti macro sono necessarie per segnalare l&#39;attività di clic sul sito guidata dagli annunci acquistati tramite Adobe Advertising.
 
