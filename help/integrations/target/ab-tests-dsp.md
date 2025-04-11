@@ -1,10 +1,10 @@
 ---
-title: Configurare test A/B per annunci Adobe Advertising DSP in Adobe Target
+title: Configurare test A/B per Adobe Advertising DSP Ads in Adobe Target
 description: Scopri come impostare un test A/B in [!DNL Target] per i tuoi annunci DSP.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 964246bb2c8bfa442f2d4f981c9e02de35c69ed5
+source-git-commit: e8c8316418acf4a8c62beabcae2c1b7388dbc297
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1411'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Adobe Advertising e Adobe Target consentono agli esperti di marketing di fornire
 
 * Misura l&#39;impatto della messaggistica unificata su un incremento oggettivo nel sito con semplici visualizzazioni in Adobe Analytics per [!DNL Target].
 
-Vedere le sezioni seguenti per i prerequisiti e per le istruzioni su come configurare il tracciamento click-through e view-through, implementare la condivisione del segnale tra DSP e [!DNL Target], impostare un&#39;attività di test A/B e configurare [!DNL Analytics] Analysis Workspace per visualizzare i dati di test.
+Vedere le sezioni seguenti per i prerequisiti e per le istruzioni su come impostare il tracciamento dei click-through e del view-through, implementare la condivisione del segnale tra DSP e [!DNL Target], impostare un&#39;attività di test A/B e configurare [!DNL Analytics] Analysis Workspace per visualizzare i dati di test.
 
 Per ulteriori domande, contatta adcloud_support@adobe.com.
 
@@ -41,7 +41,7 @@ Questo caso d’uso richiede i seguenti prodotti e integrazioni:
 
 ![Framework click-through](/help/integrations/assets/target-ct-framework.png)
 
-Quando aggiungi macro DSP a un URL di click-through (l&#39;URL visualizzato quando un utente fa clic su un annuncio e raggiunge la pagina di destinazione), l&#39;DSP acquisisce automaticamente la chiave di posizionamento includendo `${TM_PLACEMENT_ID}` nell&#39;URL di click-through. Questa macro acquisisce la chiave di posizionamento alfanumerica e non l’ID di posizionamento numerico.
+Quando aggiungi macro DSP a un URL di click-through (l&#39;URL visualizzato quando un utente fa clic su un annuncio e raggiunge la pagina di destinazione), DSP acquisisce automaticamente la chiave di posizionamento includendo `${TM_PLACEMENT_ID}` nell&#39;URL di click-through. Questa macro acquisisce la chiave di posizionamento alfanumerica e non l’ID di posizionamento numerico.
 
 ![URL click-through aggiunto all&#39;URL della pagina di destinazione](/help/integrations/assets/target-ct-url.jpg)
 
@@ -51,19 +51,19 @@ Quando aggiungi macro DSP a un URL di click-through (l&#39;URL visualizzato quan
 
 All’interno di Flash Talk o Google Campaign Manager 360, aggiorna manualmente l’URL di click-through per ogni annuncio in modo da includere le macro necessarie per acquisire le variabili AMO ID. Le variabili AMO ID vengono utilizzate per inviare i dati dei clic ad Adobe Analytics e per condividere le chiavi di posizionamento per il test A/B. Per istruzioni, vedere le pagine seguenti:
 
-* [Aggiungi [!DNL Analytics for Advertising] macro ai [!DNL Flashtalking] tag annuncio](/help/integrations/analytics/macros-flashtalking.md)
+* [Aggiungi [!DNL Analytics for Advertising] Macro ai [!DNL Flashtalking] Tag annuncio](/help/integrations/analytics/macros-flashtalking.md). **Nota:** questa procedura non è necessaria se l&#39;organizzazione ha una relazione diretta con [!DNL Flashtalking] e si utilizzano macro di passaggio dati per raccogliere i dati di clic in base alla documentazione di supporto di [!DNL Flashtalking] in `https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros`.
 
 * [Aggiungi [!DNL Analytics for Advertising] macro ai [!DNL Google Campaign Manager 360] tag annuncio](/help/integrations/analytics/macros-google-campaign-manager.md)
 
 Contatta il tuo Adobe Account Team e Advertising Solutions Group (aac-advertising-solutions-group@adobe.com) per recuperare la chiave di posizionamento richiesta e finalizzare la configurazione e per assicurarti che ogni URL di click-through sia compilato con la chiave di posizionamento.
 
-## Passaggio 2: configurare il framework view-through utilizzando l&#39;Audience Manager {#view-through-framework}
+## Passaggio 2: configurare il framework view-through con Audience Manager {#view-through-framework}
 
 ![Framework di visualizzazione](/help/integrations/assets/targetr-vt-framework.png)
 
-Aggiungendo un pixel evento di impression di Audience Manager nei tag dell’annuncio e nelle impostazioni di posizionamento, puoi creare un segmento di test per ulteriori opportunità di test view-through.
+Aggiungendo un pixel evento di impression di Audience Manager nei tag annuncio e nelle impostazioni di posizionamento, puoi creare un segmento di test per ulteriori opportunità di test view-through.
 
-1. Implementa un pixel Audience Manager di evento di impression nei tag degli annunci e nelle impostazioni di posizionamento DSP.
+1. Implementa un pixel evento di impression di Audience Manager nei tag pubblicitari e nelle impostazioni di posizionamento di DSP.
 
    Per istruzioni, consulta &quot;[Raccogliere dati sull&#39;esposizione multimediale dalle campagne Advertising DSP](/help/integrations/audience-manager/media-data-integration/collect.md).&quot;
 
@@ -73,13 +73,13 @@ Aggiungendo un pixel evento di impression di Audience Manager nei tag dell’ann
    >
    >Gli URL di tracciamento dei clic includono la macro `${TM_PLACEMENT_ID}` per la chiave di posizionamento alfanumerica, invece di `${TM_PLACEMENT_ID_NUM}` per l’ID di posizionamento numerico.
 
-1. Configura un segmento di Audience Manager dai dati di impression dell’DSP:
+1. Configura un segmento di Audience Manager dai dati delle impression di DSP:
 
    1. Verifica che i dati del segmento siano disponibili:
 
       1. [Cerca il segnale](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html) per la [coppia chiave-valore](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html) che determina il livello di raggruppamento degli utenti del segmento.
 
-         Utilizza una [chiave supportata](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html) con un valore corrispondente a una macro aggiunta al pixel dell&#39;evento di impression Audience Manager.
+         Utilizza una [chiave supportata](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html) con un valore corrispondente a una macro aggiunta al pixel dell&#39;evento di Audience Manager impression.
 
          Ad esempio, per raggruppare gli utenti per un particolare posizionamento, utilizza la chiave `d_placement`. Per il valore, utilizzare un ID di posizionamento numerico effettivo (ad esempio 2501853) acquisito dalla macro DSP `${TM_PLACEMENT_ID_NUM}`. <!-- Explain where to find the placement ID, other than in a custom report. -->
 
@@ -95,11 +95,11 @@ Aggiungendo un pixel evento di impression di Audience Manager nei tag dell’ann
 
    1. [Configura un segmento di test](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html) per la nuova caratteristica in Audience Manager, selezionando `Ad Cloud` come **[!UICONTROL Data Source]**.
 
-      Audience Manager suddivide automaticamente il segmento in un gruppo di controllo che riceve l’esperienza di pagina di destinazione standard e in un gruppo di test che riceve un’esperienza personalizzata nel sito.
+      Audience Manager divide automaticamente il segmento in un gruppo di controllo che riceve l’esperienza della pagina di destinazione standard e in un gruppo di test che riceve un’esperienza personalizzata nel sito.
 
 ## Passaggio 3: configurare un&#39;attività test A/B in [!DNL Target] per DSP
 
-Le istruzioni seguenti evidenziano informazioni relative al caso di utilizzo dell’DSP.
+Le istruzioni seguenti evidenziano le informazioni relative al caso di utilizzo di DSP.
 
 1. [Accedi ad Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
 
@@ -129,7 +129,7 @@ Le istruzioni seguenti evidenziano informazioni relative al caso di utilizzo del
 
       1. Scegli il [segmento creato in precedenza in Audience Manager per testare i tipi di pubblico view-through](#view-through-framework).
 
-      1. Selezionare **[!UICONTROL Site Pages]** > **[!UICONTROL Landing Page]** > **[!UICONTROL Query]** e immettere la chiave di posizionamento DSP nel campo **[!UICONTROL Value]** per utilizzare i parametri della stringa di query di destinazione per i tipi di pubblico di click-through.
+      1. Seleziona **[!UICONTROL Site Pages]** > **[!UICONTROL Landing Page]** > **[!UICONTROL Query]** e immetti la chiave di posizionamento DSP nel campo **[!UICONTROL Value]** per utilizzare i parametri della stringa di query Target per i tipi di pubblico di click-through.
 
    1. Per **[!UICONTROL Traffic Allocation Method]**, seleziona **[!UICONTROL Manual (Default)]** e suddivide il pubblico 50/50.
 
@@ -159,13 +159,13 @@ In Analysis Workspace, configura [!DNL Analytics for Target panel] per analizzar
 
 #### Metriche
 
-* Crea un pannello all’interno dell’area di lavoro specifico per la campagna di Adobi Advertising, il pacchetto o il posizionamento per cui è stato eseguito il test. Utilizzare le visualizzazioni di riepilogo per visualizzare le metriche Adobi Advertising nello stesso rapporto delle prestazioni del test [!DNL Target].
+* Crea un pannello all’interno dell’area di lavoro specifica per la campagna, il pacchetto o il posizionamento Adobe Advertising per cui è stato eseguito il test. Utilizzare le visualizzazioni di riepilogo per visualizzare le metriche di Adobe Advertising nello stesso rapporto delle prestazioni del test [!DNL Target].
 
 * Dai priorità utilizzando le metriche nel sito (come visite e conversioni) per misurare le prestazioni.
 
-* Le metriche dei contenuti multimediali aggregati da Adobe Advertising (ad esempio impression, clic e costi) non possono essere associate a [!DNL Target] metriche.
+* Le metriche multimediali aggregate da Adobe Advertising (come impression, clic e costi) non possono corrispondere alle metriche [!DNL Target].
 
-#### Dimension
+#### Dimensioni
 
 Le dimensioni seguenti si riferiscono a [!DNL Analytics for Target]:
 
@@ -183,7 +183,7 @@ In Analysis Workspace, se noti che i dati di attività ed esperienze sono minimi
 
 [Valori di Supplemental Data ID (SDID) in Adobe Debugger](/help/integrations/assets/target-troubleshooting-sdid.png)
 
-* Nella stessa pagina di destinazione, verifica che a) l&#39;elemento [!UICONTROL Hostname] mostrato nell&#39;Adobe Debugger in [!UICONTROL Solutions] > [!UICONTROL Target] corrisponda a b) l&#39;elemento [!UICONTROL Tracking Server] visualizzato in [!DNL Target] per l&#39;attività (in [!UICONTROL Goals & Settings] > [!UICONTROL Reporting Settings]).
+* Nella stessa pagina di destinazione, verifica che a) il [!UICONTROL Hostname] visualizzato in Adobe Debugger in [!UICONTROL Solutions] > [!UICONTROL Target] corrisponda a b) il [!UICONTROL Tracking Server] visualizzato in [!DNL Target] per l&#39;attività (in [!UICONTROL Goals & Settings] > [!UICONTROL Reporting Settings]).
 
   [!DNL Analytics For Target] richiede l&#39;invio di un server di monitoraggio [!DNL Analytics] nelle chiamate da [!DNL Target] al server di raccolta dati [!DNL Modstats] per Analytics.<!-- just "to Analytics?"-->
 
@@ -194,9 +194,9 @@ In Analysis Workspace, se noti che i dati di attività ed esperienze sono minimi
 ## Letture ulteriori
 
 * [Integrare Target con Analytics](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html) - Spiega come impostare il reporting di [!DNL Target] in Analysis Workspace.
-* [Panoramica test A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html): descrive le attività di test A/B, utilizzabili con gli annunci DSP.
-* [Esperienze e offerte](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html) - Illustra [!DNL Target] strumenti per determinare il contenuto nel sito a cui sono esposti gli utenti di test DSP.
-* [Segnali, caratteristiche e segmenti](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html): definisce alcuni degli strumenti di Audience Manager utili per il test view-through dell&#39;DSP.
+* [Panoramica test A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html): descrive le attività test A/B, utilizzabili con gli annunci DSP.
+* [Esperienze e offerte](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html) - Illustra [!DNL Target] strumenti per determinare il contenuto nel sito a cui sono esposti gli utenti di test di DSP.
+* [Segnali, caratteristiche e segmenti](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html): definisce alcuni degli strumenti di Audience Manager che possono essere utili per il test view-through di DSP.
 * [Panoramica di Analytics per Advertising](/help/integrations/analytics/overview.md) - Introduce Analytics per Advertising, che consente di tenere traccia delle interazioni del sito click-through e view-through nelle istanze di Analytics.
 
 >[!MORELIKETHIS]

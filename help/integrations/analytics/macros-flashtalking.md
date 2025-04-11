@@ -3,9 +3,9 @@ title: Aggiungi [!DNL Analytics for Advertising] macro ai [!DNL Flashtalking] ta
 description: Scopri perché e come aggiungere [!DNL Analytics for Advertising] macro ai tuoi [!DNL Flashtalking] tag annuncio
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: c4db5727def6125b65fb2146666b988ae3b0db27
+source-git-commit: e8c8316418acf4a8c62beabcae2c1b7388dbc297
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Se utilizzi i tag degli annunci di [!DNL Flashtalking] per gli annunci di Advert
 
 >[!NOTE]
 >
->Se la tua organizzazione ha una partnership diretta con [!DNL Flashtalking], questa procedura non è necessaria. Accedi invece al tuo account [!DNL Flashtalking] e segui la documentazione di supporto di [!DNL Flashtalking] per accedere alle macro dei passaggi dati in `https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros`.
+>Se la tua organizzazione ha una partnership diretta con [!DNL Flashtalking], questa procedura non è necessaria. Accedi invece al tuo account [!DNL Flashtalking] e segui la documentazione di supporto di [!DNL Flashtalking] per raccogliere i dati di clic utilizzando le macro per il passaggio dei dati in `https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros`.
 
 Usa le macro per [!DNL Flashtalking] annunci video e display per i seguenti tipi di implementazioni di [!DNL Analytics for Advertising]:
 
