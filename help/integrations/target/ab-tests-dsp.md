@@ -2,9 +2,9 @@
 title: Configurare test A/B per Adobe Advertising DSP Ads in Adobe Target
 description: Scopri come impostare un test A/B in [!DNL Target] per i tuoi annunci DSP.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: bbb5feaf96a9be28e112544e34f11fc8f7015946
+source-git-commit: 34ada7c1f299f76988ee3ba533c47b76ade7d9ec
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1409'
 ht-degree: 0%
 
 ---
@@ -49,9 +49,9 @@ Quando aggiungi macro DSP a un URL di click-through (l&#39;URL visualizzato quan
 
 <!-- If we ever write instructions for ads on other ad servers (such as Sizmek ads in DCO), then work that into the following section. -->
 
-All’interno di Flash Talk o Google Campaign Manager 360, aggiorna manualmente l’URL di click-through per ogni annuncio in modo da includere le macro necessarie per acquisire le variabili AMO ID. Le variabili AMO ID vengono utilizzate per inviare i dati dei clic ad Adobe Analytics e per condividere le chiavi di posizionamento per il test A/B. Per istruzioni, vedere le pagine seguenti:
+In [!DNL Flashtalking] o Google Campaign Manager 360, aggiorna manualmente l’URL di click-through per ogni annuncio in modo da includere le macro necessarie per acquisire le variabili AMO ID. Le variabili AMO ID vengono utilizzate per inviare i dati dei clic ad Adobe Analytics e per condividere le chiavi di posizionamento per il test A/B. Per istruzioni, vedere le pagine seguenti:
 
-* [Aggiungi [!DNL Analytics for Advertising] Macro ai [!DNL Flashtalking] Tag annuncio](/help/integrations/analytics/macros-flashtalking.md). **Nota:** questa procedura non è necessaria se l&#39;organizzazione ha una relazione diretta con [!DNL Flashtalking] e si utilizzano macro di passaggio dati per raccogliere i dati di clic in base alla documentazione di supporto di [!DNL Flashtalking] in `https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros`.
+* [Aggiungi macro [!DNL Analytics for Advertising] a [[!DNL Flashtalking] Tag annuncio](/help/integrations/analytics/macros-flashtalking.md). **Nota:** questa procedura non è necessaria se l&#39;organizzazione ha una relazione diretta con [!DNL Flashtalking] e si utilizzano macro di passaggio dati per raccogliere i dati di clic in base alla documentazione di supporto di [!DNL Flashtalking] in `https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros`.
 
 * [Aggiungi [!DNL Analytics for Advertising] macro ai [!DNL Google Campaign Manager 360] tag annuncio](/help/integrations/analytics/macros-google-campaign-manager.md)
 
