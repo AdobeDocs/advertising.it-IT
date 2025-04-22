@@ -4,9 +4,9 @@ user-guide-title: Guida di Advertising DSP
 user-guide-description: Scopri le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire e ottimizzare le strategie degli annunci display con Advertising DSP e creare i relativi rapporti.
 breadcrumb-title: Guida di DSP
 index: true
-source-git-commit: edb62b97e6b03efbabc051c8ec2d7326b291e085
+source-git-commit: 148917239a2179b651b04418e53038d29856c649
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '944'
 ht-degree: 3%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 3%
 + [Accedere ad Adobe Advertising DSP](/help/dsp/introduction/sign-in.md)
 + Introduzione {#introduction}
    + [Introduzione ad Adobe Advertising DSP](/help/dsp/introduction/dsp-about.md)
-   + Caratteristiche principali {#features}
+   + Funzioni principali {#features}
       + [Ottimizzazione](/help/dsp/introduction/features/optimization.md)
       + [Sicurezza del marchio e qualità dei contenuti multimediali](/help/dsp/introduction/features/brand-safety-media-quality.md)
       + [Soluzioni multi-dispositivo](/help/dsp/introduction/features/cross-device-solutions.md)
@@ -35,7 +35,7 @@ ht-degree: 3%
    + [Supporto per la privacy del consumatore](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [Criteri e linee guida](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [Soluzioni avanzate di misurazione](/help/dsp/introduction/advanced-measurement-services.md)
-+ Gestione campagne {#campaign-management}
++ Gestione delle campagne {#campaign-management}
    + [Panoramica della struttura di gestione delle campagne](/help/dsp/campaign-management/campaign-management-overview.md)
    + Campagne {#campaigns}
       + [Informazioni sulla gestione delle campagne](/help/dsp/campaign-management/campaigns/campaign-about.md)
@@ -97,6 +97,8 @@ ht-degree: 3%
          + [Impostazioni annuncio pre-roll](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
          + [Impostazioni annuncio video universale](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [Specifiche per i tipi di annunci supportati](/help/dsp/campaign-management/ads/ad-specs.md)
++ Informazioni approfondite sulle prestazioni tra campagne {#insights}
+   + [Informazioni su Performance Insights](/help/dsp/campaign-management/insights/insights-about.md)
    + Rapporti sulle prestazioni nelle visualizzazioni di gestione delle campagne {#campaign-reports}
       + [Tipi di rapporti sulle prestazioni nelle visualizzazioni di gestione delle campagne](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [Esportare dati da una vista di gestione delle campagne](/help/dsp/campaign-management/reports/campaign-export-data.md)
@@ -140,7 +142,7 @@ ht-degree: 3%
       + [Condividere o interrompere la condivisione di un segmento](/help/dsp/audiences/segment-share.md)
       + [Visualizzare i pixel di tracciamento per un segmento](/help/dsp/audiences/segment-view-pixels.md)
       + [Eliminare un segmento](/help/dsp/audiences/segment-delete.md)
-   + Origini {#sources}
+   + Sorgenti {#sources}
       + [Informazioni sulle origini del pubblico di prime parti](/help/dsp/audiences/sources/source-about.md)
       + Flussi di lavoro per piattaforma dati cliente {#sources-workflows}
          + [Converti ID utente da [!DNL Adobe Real-Time CDP] a ID universali](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
@@ -154,9 +156,9 @@ ht-degree: 3%
    + [Panoramica delle funzioni di magazzino](/help/dsp/inventory/inventory-overview.md)
    + [Utilizzo di  [!DNL Roku Inventory]](/help/dsp/inventory/roku-inventory.md)
    + [Partner SSP](/help/dsp/inventory/ssp-partners.md)
-   + [!DNL On Demand] inventario {#on-demand}
+   + Inventario [!DNL On Demand] {#on-demand}
       + [Informazioni su [!DNL On Demand] Inventario Premium](/help/dsp/inventory/on-demand-inventory-about.md)
-      + Disponibili [!DNL On Demand] publisher inventario Premium {#publishers}
+      + Disponibili [!DNL On Demand] editori inventario Premium {#publishers}
          + [[!DNL On Demand] editori di inventario Premium in Asia Pacifico](/help/dsp/inventory/on-demand-inventory-publishers-apac.md)
          + [[!DNL On Demand] editori di inventario Premium in Australia e Nuova Zelanda](/help/dsp/inventory/on-demand-inventory-publishers-anz.md)
          + [[!DNL On Demand] editori di inventario Premium in Europa, Medio Oriente e Africa](/help/dsp/inventory/on-demand-inventory-publishers-emea.md)
@@ -173,7 +175,7 @@ ht-degree: 3%
          + ID offerta immessi manualmente {#manual}
             + [Crea manualmente dettagli [!UICONTROL Deal ID]](/help/dsp/inventory/deal-id-create.md)
             + [Impostazioni [!UICONTROL Deal ID] manuali](/help/dsp/inventory/deal-id-settings.md)
-         + Offerte garantite a livello di programmazione {#programmatic-guaranteed-deal}
+         + Offerte garantite programmatiche {#programmatic-guaranteed-deal}
             + [Panoramica delle offerte programmatiche garantite](/help/dsp/inventory/programmatic-guaranteed-about.md)
             + [Suggerimenti per negoziare un accordo programmatico garantito](/help/dsp/inventory/programmatic-guaranteed-tips.md)
             + [Imposta un&#39;offerta programmatica garantita](/help/dsp/inventory/programmatic-guaranteed-set-up.md)
