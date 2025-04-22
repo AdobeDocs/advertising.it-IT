@@ -2,9 +2,9 @@
 title: Informazioni su Performance Insights
 description: Scopri gli approfondimenti sulle prestazioni per le campagne.
 feature: DSP Packages, DSP Placements, DSP Ads
-source-git-commit: f821f7cec4ad2a9921337940a11ba62a122dbc23
+source-git-commit: b1e9d022894c638dae6c48482d98059d9540e1c4
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,9 @@ Informazioni approfondite sulle prestazioni di alto livello con visualizzazioni 
 
 Per qualsiasi insight, puoi scaricare un rapporto, senza le visualizzazioni, in formato foglio di calcolo Microsoft Excel (XLSX).
 
-## Scheda [!UICONTROL Home]
+## Tipi di informazioni
+
+### Scheda [!UICONTROL Home]
 
 La scheda [!UICONTROL Home] fornisce metriche chiave relative a standard, prestazioni e visualizzabilità per tutte le campagne dell&#39;inserzionista<!-- active only? -->. Per impostazione predefinita, vengono visualizzati i dati tra campagne. Facoltativamente, puoi configurare i filtri per mostrare i dati di un altro inserzionista o dati solo per campagne<!-- active only? -->, pacchetti<!-- active only? -->, obiettivi personalizzati e posizionamenti<!-- active only? --> specifici. Gli approfondimenti includono:
 
@@ -27,7 +29,7 @@ La scheda [!UICONTROL Home] fornisce metriche chiave relative a standard, presta
 
 * Una suddivisione dei dati per metriche specifiche per tre dimensioni specificate dal cliente, ad esempio per campagna, editore e tipo di file multimediale. Per ogni suddivisione dimensionale, puoi scegliere una metrica diversa.
 
-## Scheda [!UICONTROL Household Reach]
+### Scheda [!UICONTROL Household Reach]
 
 La scheda [!UICONTROL Household Reach] fornisce le metriche di portata domestica in tutte le campagne dell&#39;inserzionista<!-- active only? -->. Per impostazione predefinita, vengono visualizzati i dati tra campagne. Facoltativamente, puoi configurare i filtri per mostrare i dati di un altro inserzionista o dati solo per campagne specifiche<!-- active only? -->. Gli approfondimenti includono:
 
