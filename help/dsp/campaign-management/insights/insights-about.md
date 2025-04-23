@@ -3,9 +3,9 @@ title: Informazioni su Performance Insights
 description: Scopri gli approfondimenti sulle prestazioni con le visualizzazioni.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: c146a49e7ebef567707b67365114fc23ee5d0884
+source-git-commit: 04858fdbe884c30ebec3e1dff0d9c4d2622a16a1
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Utilizza gli approfondimenti sulle prestazioni per:
 
 Puoi esportare tutte le visualizzazioni di una scheda in un file PDF o scaricare i dati per un insight specifico senza visualizzare le visualizzazioni in formato foglio di calcolo Microsoft Excel (XLSX).
 
-Puoi anche [modificare l&#39;intervallo di date, configurare la visualizzazione e salvare una visualizzazione personalizzata](/help/dsp/campaign-management/reports/campaign-data-views-manage.md) come puoi fare per le visualizzazioni di gestione delle campagne.
+Puoi anche [modificare l&#39;intervallo di date, configurare la visualizzazione e salvare una visualizzazione personalizzata](/help/dsp/campaign-management/reports/campaign-data-views-manage.md){target="_blank"} come puoi fare per le visualizzazioni di gestione delle campagne.
 
 ## Tipi di informazioni
 
@@ -58,7 +58,7 @@ La scheda [!UICONTROL Household Reach] fornisce le metriche di portata domestica
 
 ## Apri Performance Insights
 
-* (Per aprire approfondimenti per tutte le campagne) Nel menu principale, fai clic su **[Approfondimenti BETA]**.
+* Per aprire approfondimenti per tutte le campagne, nel menu principale fai clic su **[UICONTROL Insights BETA]**.
 
 * Per aprire approfondimenti per una campagna, un pacchetto o un posizionamento specifico, accanto al nome dell&#39;entità nella visualizzazione [!UICONTROL Campaigns], [!UICONTROL Packages] o [!UICONTROL Placements], fare clic su **[!UICONTROL ...]** > **[!UICONTROL Insights]**.
 
