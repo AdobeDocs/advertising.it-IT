@@ -3,9 +3,9 @@ title: Informazioni su Performance Insights
 description: Scopri gli approfondimenti sulle prestazioni con le visualizzazioni.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: e0e44a0be283f27d2dd1c1ae0c5f0c00c08edddc
+source-git-commit: ca531db43b9e07dc767da3d0e866bfc85add7ee9
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 <!-- Edit title and metadata as necessary -->
 
-Le informazioni approfondite sulle prestazioni di alto livello con le visualizzazioni forniscono le informazioni necessarie per ottimizzare in modo efficiente le campagne e scoprire nuove opportunità per scalare le prestazioni. Puoi visualizzare i dati tra le campagne o approfondire la ricerca fino a un livello più basso.
+Informazioni approfondite sulle prestazioni di alto livello con le visualizzazioni forniscono le informazioni necessarie per ottimizzare in modo efficiente le campagne e scoprire nuove opportunità per scalare le prestazioni. Puoi visualizzare i dati tra le campagne o approfondire la ricerca fino a un livello più basso.
 
 Utilizza gli approfondimenti sulle prestazioni per:
 
@@ -46,11 +46,11 @@ La scheda [!UICONTROL Household Reach] fornisce le metriche di portata domestica
 
 * Grafico di tendenza per giorno o per settimana per tre metriche specificate dal cliente (per impostazione predefinita, [!UICONTROL Net Spend], [!UICONTROL Unique Reach] e [!UICONTROL Net CPM]).
 
-* Un grafico ad anello che mostra la portata incrementale della famiglia di [!UICONTROL Media Type], [!UICONTROL Device Type] o [!UICONTROL Inventory Type]. La portata incrementale della famiglia è definita come una famiglia raggiunta esclusivamente tramite un singolo supporto, dispositivo o tipo di inventario.
+* Un grafico ad anello che mostra la portata incrementale della famiglia di [!UICONTROL Media Type], [!UICONTROL Device Type] o [!UICONTROL Inventory Type]. *La portata domestica incrementale* è definita come una famiglia raggiunta esclusivamente tramite un singolo supporto, dispositivo o tipo di inventario.
 
 * Raggiungimento della famiglia univoca incrementale rispetto alla sovrapposizione di [!UICONTROL Media Type], [!UICONTROL Device Type] o [!UICONTROL Inventory Type].
 
-  La portata incrementale della famiglia è definita come una famiglia raggiunta esclusivamente tramite un singolo supporto, dispositivo o tipo di inventario. Una famiglia raggiunta da più tipi di media, dispositivi o inventario è considerata sovrapposta.
+  *La portata domestica incrementale* è definita come una famiglia raggiunta esclusivamente tramite un singolo supporto, dispositivo o tipo di inventario. *La copertura domestica sovrapposta* è definita come una famiglia raggiunta da più tipi di media, dispositivi o inventario.
 
 * Campagne, posizionamenti, pacchetti, editori, siti/app, tipi di file multimediali, tipi di inventario o tipi di dispositivi dalle prestazioni migliori di [!UICONTROL Unique Reach], [!UICONTROL Net Spend] e [!UICONTROL Cost per Reach].
 
@@ -64,8 +64,7 @@ La scheda [!UICONTROL Household Reach] fornisce le metriche di portata domestica
 
 ## Applicare filtri a una scheda
 
-1. Nella barra degli strumenti nella parte superiore della scheda,
-fare clic sul pulsante ![Filtro](/help/dsp/assets/filter.png).
+1. Nella barra degli strumenti nella parte superiore della scheda, fare clic sul pulsante ![Filtro](/help/dsp/assets/filter.png).
 
 1. Nella colonna sinistra selezionare una dimensione, quindi selezionare uno o più valori nella colonna destra, a seconda delle necessità.
 
