@@ -1,9 +1,9 @@
 ---
 title: Informazioni su Performance Insights
-description: Scopri gli approfondimenti sulle prestazioni per le campagne.
-feature: DSP Packages, DSP Placements, DSP Ads
+description: Scopri gli approfondimenti sulle prestazioni con le visualizzazioni.
+feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: 7b5b28f0b1892d92527ab6b4c7d4ee595d791aac
+source-git-commit: c146a49e7ebef567707b67365114fc23ee5d0884
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 <!-- Edit title and metadata as necessary -->
 
-Informazioni approfondite sulle prestazioni di alto livello con visualizzazioni forniscono le informazioni necessarie per ottimizzare in modo efficiente le campagne e scoprire nuove opportunità per scalare le prestazioni. Puoi visualizzare i dati tra le campagne o approfondire la ricerca fino a un livello più basso.
+Le informazioni approfondite sulle prestazioni di alto livello con le visualizzazioni forniscono le informazioni necessarie per ottimizzare in modo efficiente le campagne e scoprire nuove opportunità per scalare le prestazioni. Puoi visualizzare i dati tra le campagne o approfondire la ricerca fino a un livello più basso.
 
 Utilizza gli approfondimenti sulle prestazioni per:
 
@@ -28,7 +28,7 @@ Utilizza gli approfondimenti sulle prestazioni per:
 
 Puoi esportare tutte le visualizzazioni di una scheda in un file PDF o scaricare i dati per un insight specifico senza visualizzare le visualizzazioni in formato foglio di calcolo Microsoft Excel (XLSX).
 
-Puoi anche [modificare l&#39;intervallo di date, configurare la visualizzazione e salvare una visualizzazione personalizzata](/help/dsp/campaign-management/reports/campaign-data-views-manage.md), come puoi fare per le visualizzazioni di gestione delle campagne.
+Puoi anche [modificare l&#39;intervallo di date, configurare la visualizzazione e salvare una visualizzazione personalizzata](/help/dsp/campaign-management/reports/campaign-data-views-manage.md) come puoi fare per le visualizzazioni di gestione delle campagne.
 
 ## Tipi di informazioni
 
