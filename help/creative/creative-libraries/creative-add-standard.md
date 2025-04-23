@@ -3,7 +3,7 @@ title: Aggiungere creatività standard a una libreria creativa
 description: Scopri come aggiungere creatività standard (non dinamica) a una libreria creativa.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: 1ab83cfe82bde4a7b1a32cf3773cdce4738af497
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 0%
@@ -163,6 +163,10 @@ I creativi delle immagini possono essere in formato GIF, JPEG, JPG o PNG. La dim
    * Trascinare i file sul dispositivo o sulla rete nella casella.
 
    * Fare clic su **[!UICONTROL select a file]** per individuare il file nel dispositivo o nella rete.
+<!--  Verify wording and workflow and add when available:
+
+   * Click **[!UICONTROL AEM Asset Library]** to locate a file in your Adobe Experience Manager library.
+-->
 
 1. Aggiungi o rimuovi immagini:
 
