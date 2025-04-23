@@ -3,7 +3,7 @@ title: Gestire le visualizzazioni dati della campagna
 description: Scopri come personalizzare le visualizzazioni dati per campagne, pacchetti, posizionamenti e annunci.
 feature: DSP Campaign Data Views
 exl-id: a22da10b-104d-4860-a23f-f2a6e59b637c
-source-git-commit: 5b07096e5f07c60a3efcbf4213b3bc2f061f36a4
+source-git-commit: 40cfd72c0f295ab1b6b7743828dded4032d435d4
 workflow-type: tm+mt
 source-wordcount: '915'
 ht-degree: 0%
@@ -142,7 +142,6 @@ Sono disponibili i seguenti filtri per le viste [!UICONTROL Campaigns], [!UICONT
    * [!UICONTROL Ad type]
    * [!UICONTROL Creation date]
 
-
 ### Modificare l’intervallo di date
 
 Modifica l’intervallo di date utilizzato in tutte le visualizzazioni standard e personalizzate utilizzando il selettore dell’intervallo di date sopra qualsiasi tabella di dati.
@@ -172,9 +171,9 @@ In basso a destra, accanto a **[!UICONTROL Items per page]** , selezionare *[!UI
 
 >[!MORELIKETHIS]
 >
->* [Tipi di report sulle prestazioni nelle visualizzazioni di Campaign Management](campaign-reports-about.md)
+>* [Tipi di rapporti sulle prestazioni nelle visualizzazioni di gestione delle campagne](campaign-reports-about.md)
 >* [Visualizza i dettagli di siti, annunci e frequenza per un posizionamento](placement-details-view.md)
 >* [Visualizza il rapporto Previsione posizionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Visualizza i report di diagnostica posizionamento](placement-diagnostics.md)
->* [Esporta dati da una visualizzazione Campaign Management](campaign-export-data.md)
+>* [Esporta dati da una visualizzazione di gestione delle campagne](campaign-export-data.md)
 >* [Video: struttura dell&#39;account DSP e interfaccia utente](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
