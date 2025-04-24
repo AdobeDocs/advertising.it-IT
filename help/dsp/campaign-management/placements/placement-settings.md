@@ -3,9 +3,9 @@ title: Impostazioni di posizionamento
 description: Consulta le descrizioni delle impostazioni di posizionamento disponibili.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 6c4e5c3b114684dc360c1c2a35c90f07a8df11bc
+source-git-commit: 479c8e169469e1e56831e017f150eb6fa499e784
 workflow-type: tm+mt
-source-wordcount: '4039'
+source-wordcount: '4042'
 ht-degree: 0%
 
 ---
@@ -421,7 +421,7 @@ L’ID deve iniziare con &quot;51&quot; e consistere di otto cifre. Per impostaz
 
 **[!UICONTROL Pre-bid fraud blocking]:** tipi di siti da bloccare in base al traffico fraudolento e alle attività sospette misurate tramite [!DNL DoubleVerify], [!DNL Integral Ad Science] e [!DNL Peer39]. Le impostazioni predefinite a livello di inserzionista vengono selezionate per i nuovi posizionamenti, ma è possibile modificare le impostazioni:
 
-* [!UICONTROL DoubleVerify]: (applicabile per display Web desktop e mobile, annunci nativi e video)
+* [!UICONTROL DoubleVerify]: (applicabile per display Web desktop e mobile, nativi, video e annunci TV collegati standard)
 
    * **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** Per impostazione predefinita, blocca tutto il traffico non valido al 100%, incluso il traffico su dispositivi dirottati, per i nuovi posizionamenti. Possono essere applicate tariffe aggiuntive.
 
