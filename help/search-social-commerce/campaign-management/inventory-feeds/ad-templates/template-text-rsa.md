@@ -238,7 +238,7 @@ I campi dati nel file di feed possono contenere un massimo di 25 caratteri e pos
 
 **[!UICONTROL Param 3]:** ([!DNL Microsoft Advertising] solo modelli) Stringa da utilizzare come valore di sostituzione in un annuncio se il titolo, il testo, l&#39;URL di visualizzazione o l&#39;URL finale contiene la stringa di sostituzione dinamica `{Param3}`. La lunghezza massima è di 70 caratteri, ma tieni presente la lunghezza massima degli elementi dell’annuncio in cui lo utilizzi (ad esempio, un titolo dell’annuncio può includere fino a 25 caratteri).
 
-**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** L&#39;offerta iniziale per ogni parola chiave con il tipo di corrispondenza o di annuncio specificato.
+**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** L&#39;offerta iniziale per ogni parola chiave con il tipo di corrispondenza o di annuncio specificato.
 
 ## [!UICONTROL Ads]
 
@@ -320,7 +320,7 @@ Per gli annunci di ricerca responsive, inserire un adcustomizzatore di annunci u
 
 **[!UICONTROL Base URL]:** (solo account con URL di destinazione) Pagina alla quale vengono indirizzati gli utenti. Può includere codice di reindirizzamento e tracciamento di terze parti. Se si utilizza il servizio di monitoraggio delle conversioni di Adobe Advertising e le impostazioni della campagna includono l&#39;utilizzo di [!UICONTROL EF Redirect] e l&#39;aggiunta del monitoraggio a livello di annuncio, Search, Social e Commerce aggiungono automaticamente il proprio codice di reindirizzamento e tracciamento all&#39;annuncio.
 
-Per inserire un nome di colonna o un gruppo di modificatori come parametro dinamico, fare clic nel campo di input e quindi fare clic su un nome di colonna nell&#39;elenco delle colonne o su un nome di modificatore [](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) nell&#39;elenco [!UICONTROL Modifiers].
+Per inserire un nome di colonna o un gruppo di modificatori come parametro dinamico, fare clic nel campo di input e quindi fare clic su un nome di colonna nell&#39;elenco delle colonne o su un nome di modificatore [&#128279;](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) nell&#39;elenco [!UICONTROL Modifiers].
 
 **[!UICONTROL Final URL]:** (account con URL finali/avanzati) URL della pagina di destinazione a cui gli utenti vengono indirizzati quando fanno clic sull&#39;annuncio. Deve includere lo stesso dominio dell’URL di visualizzazione e tutti i parametri nell’URL finale devono corrispondere a quelli nell’URL della pagina di destinazione dopo il clic dell’annuncio. Può contenere reindirizzamenti all’interno del dominio o del sottodominio della pagina di destinazione, ma non reindirizzamenti all’esterno del dominio della pagina di destinazione.
 

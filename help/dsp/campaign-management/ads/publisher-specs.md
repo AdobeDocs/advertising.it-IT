@@ -16,11 +16,11 @@ Alcuni editori hanno specifiche pubblicitarie più severe rispetto all&#39;Adobe
 I seguenti collegamenti ti portano alle specifiche dell’annuncio per alcuni degli editori con requisiti più severi.
 
 * [!DNL Channel 10] ([!DNL Viacom]; solo AU): https://www.10viacomcbs.com.au/wp-content/uploads/2020/10/Network-10-Digita-Ad-Specs.pdf
-* 
+* &#x200B;
   [!DNL CBS Interactive Advanced Media]: https://cbsinteractive.com/advertising/ad-specs/list/cbs-interactive-advanced-media
-* 
+* &#x200B;
   [!DNL Hulu]: https://advertising.hulu.com/ad-products/video-commercial
-* 
+* &#x200B;
   [!DNL NBCUniversal]: https://together.nbcuni.com/nbcu-creative-guidelines
 
 >[!MORELIKETHIS]

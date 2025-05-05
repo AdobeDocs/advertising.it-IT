@@ -22,7 +22,7 @@ I pixel dell’evento non acquisiscono gli eventi che si verificano in ambienti 
 
 ## Passaggio 1: configurare un Source dati in Audience Manager {#set-up-data-source}
 
-Ad Audience Manager, creare un&#39;origine dati [](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html) per l&#39;impression DSP e fare clic sui dati. Includere l&#39;ID dell&#39;origine dati [in ogni tag evento](#implement-dsp-pixels) in modo che tutti gli eventi tracciati vengano attribuiti all&#39;origine dati.
+Ad Audience Manager, creare un&#39;origine dati [&#128279;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html) per l&#39;impression DSP e fare clic sui dati. Includere l&#39;ID dell&#39;origine dati [in ogni tag evento](#implement-dsp-pixels) in modo che tutti gli eventi tracciati vengano attribuiti all&#39;origine dati.
 
 >[!NOTE]
 > È possibile raccogliere tutti i dati sulle impression e sui clic per campagne pubblicitarie eseguite su più DSP all’interno di un’unica sorgente di dati.

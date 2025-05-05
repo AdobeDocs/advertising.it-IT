@@ -14,7 +14,7 @@ ht-degree: 0%
 
 1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
-1. Nella barra degli strumenti sopra la tabella dati fare clic su **[!UICONTROL Create Report]**, tenere premuto il cursore su **[!UICONTROL Specialty Reports]** e quindi fare clic sul tipo di report [](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md).
+1. Nella barra degli strumenti sopra la tabella dati fare clic su **[!UICONTROL Create Report]**, tenere premuto il cursore su **[!UICONTROL Specialty Reports]** e quindi fare clic sul tipo di report [&#128279;](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md).
 
 1. (Facoltativo) Nella finestra [!UICONTROL Report Settings], modifica le [impostazioni report](specialty-report-settings.md) predefinite:
 

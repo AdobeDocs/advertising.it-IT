@@ -24,7 +24,7 @@ Puoi creare e modificare i posizionamenti per i gruppi di annunci in [tipi di ca
 
 1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Placements]**.
 
-1. 
+1. &#x200B;
    1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Crea](/help/search-social-commerce/assets/add.png "Crea").
 
 1. Selezionare la rete di annunci, l&#39;account, la campagna e il gruppo di annunci, quindi fare clic su **[!UICONTROL Continue]**.

@@ -20,7 +20,7 @@ Puoi visualizzare i dati relativi ai 36 mesi precedenti.
 >
 >* Il reporting in base alle classificazioni delle etichette a livello di annuncio non è disponibile per [!DNL Microsoft Advertising] campagne DSA (Dynamic Search Ad).
 >* Più classificazioni di etichetta possono essere applicate alla stessa entità, quindi il totale per ogni metrica può essere superiore al totale effettivo per l’entità. Ad esempio, supponiamo che una parola chiave &quot;suede shoes&quot; abbia due valori di etichetta, &quot;suede&quot; e &quot;footwear&quot;, e che la parola chiave abbia ricevuto 100 clic. La colonna Clic visualizzerebbe &quot;100&quot; per ciascuno di questi valori di etichetta, quindi il totale per entrambe le righe sarebbe &quot;200&quot;.
-* Eventuali modifiche apportate alle classificazioni delle etichette e ai valori delle etichette secondarie di un’entità sono visibili in circa un’ora.
+>* Eventuali modifiche apportate alle classificazioni delle etichette e ai valori delle etichette secondarie di un’entità sono visibili in circa un’ora.
 
 ## Colonne predefinite
 

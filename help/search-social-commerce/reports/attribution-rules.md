@@ -24,8 +24,8 @@ Nei rapporti, nelle viste predefinite e personalizzate per le simulazioni a live
 >
 >* Le regole di attribuzione si applicano ai clic sugli annunci a pagamento in qualsiasi canale e alle impression sulla visualizzazione e sugli annunci social. Non si applicano alle impression per gli annunci di ricerca a pagamento, che non possono essere tracciati a livello di evento.
 >* Adobe Advertising memorizza sempre i seguenti eventi per ogni web surfer prima di una conversione: a) il primo clic a pagamento; b) fino a 10 clic per ogni canale (ricerca, social o visualizzazione), incluso il primo clic; e c) fino a 10 impression di visualizzazione. <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
-* In Advertising DSP e Advertising Creative, le definizioni multi-dispositivo considerano solo il percorso dell&#39;evento dalla regola di attribuzione selezionata.<!-- cross-device attribution via LiveRamp only -->
-* Nei report e nelle visualizzazioni di gestione, il numero di posizioni decimali visualizzate per un valore dipende dalla valuta, ma in Adobe Advertising vengono memorizzati valori più precisi.
+>* In Advertising DSP e Advertising Creative, le definizioni multi-dispositivo considerano solo il percorso dell&#39;evento dalla regola di attribuzione selezionata.<!-- cross-device attribution via LiveRamp only -->
+>* Nei report e nelle visualizzazioni di gestione, il numero di posizioni decimali visualizzate per un valore dipende dalla valuta, ma in Adobe Advertising vengono memorizzati valori più precisi.
 
 ## Ultimo evento (impostazione predefinita)
 
