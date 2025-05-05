@@ -77,5 +77,5 @@ Puoi creare fino a 500 annunci di terze parti alla volta caricando tag che punta
 >* [Informazioni Sulla Gestione Degli Annunci](ad-about.md)
 >* [Specifiche annuncio](ad-specs.md)
 >* [Crea un annuncio singolo](ad-create.md)
->* [Video: come caricare in blocco tag di annunci di terze parti](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
+>* [Video: come caricare in blocco tag di annunci di terze parti](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html?lang=it)
 >* [Domande frequenti sul video universale](/help/dsp/campaign-management/faq-universal-video.md)

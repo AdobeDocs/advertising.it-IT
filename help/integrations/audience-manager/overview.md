@@ -42,7 +42,7 @@ Dopo aver creato i tipi di pubblico, puoi utilizzarli nelle campagne [!DNL Googl
 
 >[!NOTE]
 >
->Per ulteriori informazioni su come creare tipi di pubblico nelle interfacce Audience Manager e Experience Cloud [!DNL Audience Library] e casi d&#39;uso comuni per tipi di pubblico diversi, vedi &quot;[Opzioni di creazione pubblico](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html)&quot;.
+>Per ulteriori informazioni su come creare tipi di pubblico nelle interfacce Audience Manager e Experience Cloud [!DNL Audience Library] e casi d&#39;uso comuni per tipi di pubblico diversi, vedi &quot;[Opzioni di creazione pubblico](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=it)&quot;.
 
 ## Inviare dati sull’esposizione ai contenuti multimediali dell’DSP agli Audienci Manager
 
@@ -54,6 +54,6 @@ Per ulteriori informazioni, vedere &quot;[Panoramica sull&#39;invio di dati sull
 
 ## Ottieni informazioni più approfondite sull’attività del sito con Audience Analytics
 
-I clienti Adobe Advertising con [[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) possono inviare sia dati tracciati da Adobe Advertising che segmenti di Audienci Manager a [!DNL Analytics] per ottenere informazioni approfondite sull&#39;attività del sito.
+I clienti Adobe Advertising con [[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=it) possono inviare sia dati tracciati da Adobe Advertising che segmenti di Audienci Manager a [!DNL Analytics] per ottenere informazioni approfondite sull&#39;attività del sito.
 
 Per ulteriori informazioni, vedere &quot;[[!DNL Adobe Audience Analytics] ad Adobe Advertising Clienti](/help/integrations/audience-manager/audience-analytics.md).&quot;

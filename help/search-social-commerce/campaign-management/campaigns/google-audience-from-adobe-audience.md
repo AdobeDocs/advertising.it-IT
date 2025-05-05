@@ -34,7 +34,7 @@ Ogni nuovo pubblico [!DNL Google] ha lo stesso nome del pubblico [!DNL Adobe] or
 
    1. (Per creare tipi di pubblico per l&#39;elenco di remarketing degli ID utente) Un utente amministratore o un account manager [!DNL Adobe] deve selezionare l&#39;impostazione a livello di inserzionista per abilitare i tipi di pubblico per la corrispondenza dei clienti.
 
-   1. Implementare il [servizio Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html) versione 2.0 o successiva.
+   1. Implementare il [servizio Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) versione 2.0 o successiva.
 
    1. Distribuisci il seguente tag il più in alto possibile sulle pagine web dell’inserzionista da cui monitorare il pubblico
 

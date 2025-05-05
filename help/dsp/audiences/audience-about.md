@@ -84,7 +84,7 @@ Puoi indirizzare i posizionamenti a tutti i seguenti tipi di pubblico.
 
   >[!NOTE]
   >
-  >Consulta la documentazione di [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html), [Analytics](https://experienceleague.adobe.com/docs/analytics.html) e [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html) per informazioni sulla configurazione e la raccolta dei dati per i segmenti in queste soluzioni.
+  >Consulta la documentazione di [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=it), [Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=it) e [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=it) per informazioni sulla configurazione e la raccolta dei dati per i segmenti in queste soluzioni.
 
 ## Dati dimensione pubblico
 

@@ -60,13 +60,13 @@ Questa pagina include informazioni su tutti i tipi di account, inclusa la modali
 
    1. Imposta il tracciamento delle conversioni. A seconda dell’implementazione, ciò può comportare l’aggiunta di tag di tracciamento della conversione alle pagine web dell’inserzionista e/o l’impostazione di un rilascio giornaliero di feed per i dati di conversione raccolti separatamente dall’inserzionista.
 
-      Se utilizzi il servizio di monitoraggio delle conversioni di Adobe Advertising, puoi generare i tag di monitoraggio delle conversioni [in Search, Social e Commerce](/help/search-social-commerce/tools/conversion-tag-generate.md) o [utilizzando Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html).
+      Se utilizzi il servizio di monitoraggio delle conversioni di Adobe Advertising, puoi generare i tag di monitoraggio delle conversioni [in Search, Social e Commerce](/help/search-social-commerce/tools/conversion-tag-generate.md) o [utilizzando Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html?lang=it).
 
    1. Convalida i dati tracciati.
 
    Per ulteriori dettagli sulla configurazione del tracciamento, consulta il capitolo su &quot;Tracciamento&quot;.
 
-1. (Inserzionisti con Adobe Analytics) [Integra Adobe Advertising e Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) in modo che possano scambiare dati.
+1. (Inserzionisti con Adobe Analytics) [Integra Adobe Advertising e Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=it) in modo che possano scambiare dati.
 
 1. (Per consentire a Search, Social e Commerce di ottimizzare le offerte, il budget delle campagne e/o gli obiettivi della strategia di offerta delle campagne; [solo i tipi di campagna supportati](/help/search-social-commerce/introduction/supported-inventory.md)) [Assegna la campagna a un portfolio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 

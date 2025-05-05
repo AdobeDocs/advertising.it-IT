@@ -56,4 +56,4 @@ Tutti gli annunci attivi e approvati in un posizionamento attivo in una campagna
 >* [Procedure consigliate per l&#39;impostazione di campagne sulle prestazioni](/help/dsp/optimization/campaign-best-practices-performance.md)
 >* [Tipi di report sulle prestazioni nelle visualizzazioni di Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Gestione Delle Visualizzazioni Dati Della Campagna](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
->* [Video: struttura dell&#39;account DSP e interfaccia utente](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
+>* [Video: struttura dell&#39;account DSP e interfaccia utente](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=it)

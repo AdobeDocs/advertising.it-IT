@@ -24,7 +24,7 @@ Solo *[!DNL Direct Access]amministratori e client manager*
 
 * Segmenti creati con Adobe Experience Cloud [!DNL Audience Library]
 
-Per essere idoneo, l&#39;inserzionista o l&#39;agenzia deve implementare il [servizio Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html) e fornire il proprio ID organizzazione (precedentemente denominato [!DNL IMS Org ID]).
+Per essere idoneo, l&#39;inserzionista o l&#39;agenzia deve implementare il [servizio Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) e fornire il proprio ID organizzazione (precedentemente denominato [!DNL IMS Org ID]).
 
 La sincronizzazione iniziale richiede circa 24 ore. Successivamente, i dati vengono sincronizzati in tempo reale, con un ritardo di uno o due secondi.
 

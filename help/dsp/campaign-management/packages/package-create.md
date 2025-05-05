@@ -32,4 +32,4 @@ Dopo aver creato un pacchetto, puoi assegnarvi dei posizionamenti.
 >* [Visualizza il log delle modifiche per un pacchetto](package-change-log.md)
 >* [Sospendi o attiva un pacchetto](package-pause-activate.md)
 >* [Impostazioni pacchetto](package-settings.md)
->* [Video: come creare un pacchetto](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html)
+>* [Video: come creare un pacchetto](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html?lang=it)
