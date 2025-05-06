@@ -3,9 +3,9 @@ title: Rivedere e modificare le impostazioni dei componenti di Campaign utilizza
 description: Scopri come rivedere e modificare in blocco le impostazioni del pacchetto chiave, del posizionamento e degli annunci utilizzando i fogli di calcolo.
 feature: DSP Placements
 exl-id: 1ec8362a-d37b-4fd7-becd-3a5b4f0c9504
-source-git-commit: c1039c59c0a1f8d2bbe08b4522b28f2f883a3dea
+source-git-commit: 7af6788f2aae3a2fb9e2048676dbe1955c2e56d9
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 È possibile scaricare le impostazioni per pacchetti, posizionamenti e annunci in una singola campagna in formato XLSX ([!DNL Microsoft Excel] spreadsheet) per rivedere e modificare le impostazioni. Per impostazione predefinita, il file scaricato, denominato *bulksheet,* include schede separate per le impostazioni del pacchetto, le informazioni sul volo del pacchetto, le impostazioni di posizionamento e le pianificazioni degli annunci di posizionamento. Facoltativamente, puoi escludere le impostazioni per alcuni tipi di componenti della campagna.
 
-Per aggiornare più impostazioni contemporaneamente, carica un file bulksheet valido con le modifiche. Per creare il bulksheet, modificare un bulksheet scaricato con le impostazioni esistenti. I campi modificabili includono la maggior parte delle impostazioni normalmente modificabili.
+Per aggiornare più impostazioni contemporaneamente, carica un file bulksheet valido con le modifiche. Per creare il bulksheet, modificare un bulksheet scaricato con le impostazioni esistenti. I campi modificabili includono la maggior parte delle impostazioni normalmente modificabili. I campi per le impostazioni non utilizzati contengono valori vuoti.
 
 >[!NOTE]
 >
