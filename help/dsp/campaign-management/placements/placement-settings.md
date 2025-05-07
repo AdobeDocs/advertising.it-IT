@@ -3,9 +3,9 @@ title: Impostazioni di posizionamento
 description: Consulta le descrizioni delle impostazioni di posizionamento disponibili.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 28ec89de0bd1a90578c6dd53a8249abbe4facbda
+source-git-commit: fd3805096f97ba572afb4a5573ae0e2f5ec17a6f
 workflow-type: tm+mt
-source-wordcount: '4042'
+source-wordcount: '4255'
 ht-degree: 0%
 
 ---
@@ -211,9 +211,15 @@ Per specificare il targeting dell&#39;inventario:
 >
 >Se ti sei iscritto al magazzino [!UICONTROL On Demand] ma non riesci a individuare gli editori o le offerte di destinazione, controlla lo stato delle offerte. Per ulteriori informazioni sugli stati, vedere [Informazioni su [!DNL On Demand] Inventario Premium](/help/dsp/inventory/on-demand-inventory-about.md).
 
-**[!UICONTROL Exclude out-stream]:** (solo posizionamenti video) Esclude il traffico in uscita.
+**[!UICONTROL Video targeting]:** inventario di destinazione (ma non esclude) per attributi di inventario. Quando esegui il targeting di più valori per lo stesso attributo video, è possibile eseguire il targeting di qualsiasi attributo selezionato (ad esempio \[Dimensione lettore = grande OPPURE Dimensione lettore = HD\]). Quando esegui il targeting di più attributi, ciascuno degli attributi specificati deve essere presente (ad esempio, \[Durata = 30-60 min] AND \[Dimensione lettore = grande OR Dimensione lettore = HD\]).
 
-Gli annunci in uscita vengono solitamente visualizzati sul contenuto come pop-up o inseriti nel contenuto (nell’esperienza nativa), anziché come annunci video regolari in un lettore video.
+* **[!UICONTROL Player size]:** inventario di destinazione (ma non esclude) in base alle dimensioni del lettore. L’impostazione si applica ai posizionamenti preroll, ai posizionamenti preroll standard per dispositivi mobili e ai posizionamenti video universali per ambienti desktop e mobili. Per impostazione predefinita, tutte le dimensioni sono impostate come destinazione. Per limitare le destinazioni, selezionare dimensioni di destinazione specifiche e/o *Sconosciuto*.
+
+* **[!UICONTROL Playback mode]:** inventario di destinazione (ma non esclude) in base alla modalità di avvio della riproduzione. L’impostazione si applica ai posizionamenti preroll, ai posizionamenti preroll standard per dispositivi mobili e ai posizionamenti video universali per ambienti desktop e mobili. Per impostazione predefinita, tutte le modalità sono impostate come destinazione. Per limitare le destinazioni, selezionare modalità di destinazione specifiche e/o *Sconosciuto*.
+
+* **[!UICONTROL Skippability]:** inventario di destinazione (ma non escluderlo) a seconda che sia ignorabile o meno. L’impostazione si applica a tutti i posizionamenti VAST/VPAID, tra cui preroll, preroll standard per dispositivi mobili, TV connessa e posizionamenti video universali. Per impostazione predefinita, tutte le opzioni sono impostate come destinazione. Per limitare le destinazioni, selezionare destinazioni specifiche e/o *Sconosciuto*.
+
+**[!UICONTROL Position targeting]:** inventario di destinazione (ma non esclude) per posizione annuncio. L’impostazione si applica a tutti i posizionamenti VAST/VPAID, tra cui preroll, preroll standard per dispositivi mobili, TV connessa e posizionamenti video universali. Per impostazione predefinita, tutte le posizioni sono impostate come destinazione. Per limitare le destinazioni, selezionare posizioni di destinazione specifiche e/o *Sconosciuto*.
 
 ## [!UICONTROL Site and App Targeting]
 
