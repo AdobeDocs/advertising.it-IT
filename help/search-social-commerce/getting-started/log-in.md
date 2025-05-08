@@ -3,7 +3,7 @@ title: Accedi
 description: Scopri come accedere.
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 3d66f9a417d08f297d11b3f71479c3fe7a2232b3
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
@@ -26,9 +26,9 @@ Puoi accedere a Search, Social e Commerce direttamente o da Adobe Experience Clo
 
 >[!NOTE]
 >
->È necessario eseguire il provisioning della tua società in Adobe Experience Cloud e [collegare il tuo account di Experience Cloud a un account Search, Social &amp; Commerce](https://experiencecloud.adobe.com/resources/help/it_IT/mcloud/organizations.html).
+>È necessario eseguire il provisioning della tua società in Adobe Experience Cloud e [collegare il tuo account Experience Cloud a un account Search, Social &amp; Commerce](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
-1. [Accedi a Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=it#signin).
+1. [Accedi a Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#signin).
 
 1. Nel menu principale, seleziona ![selettore soluzione](/help/search-social-commerce/assets/menu-icon.png "selettore soluzione").
 
