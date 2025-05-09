@@ -3,7 +3,7 @@ title: Organizzazione dell’interfaccia utente
 description: Scopri dove accedere a diverse funzionalità.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -42,17 +42,17 @@ L&#39;opzione [!UICONTROL Search] include i sottomenu seguenti. Le opzioni dispo
 
 * ![Notifiche avvisi](/help/search-social-commerce/assets/notifications-panel.png "Notifiche avvisi") Un pannello che elenca le notifiche di ricerca, social e Commerce.
 
-  Quando hai [effettuato l&#39;accesso tramite Adobe Experience Cloud](log-in.md), in questo pannello vengono visualizzate le notifiche di Experience Cloud.
+  Quando [hai effettuato l&#39;accesso tramite Adobe Experience Cloud](sign-in.md), in questo pannello vengono visualizzate le notifiche da Experience Cloud.
 
 * ![Menu Guida](/help/search-social-commerce/assets/help-main-menu.png "Menu Guida") Menu della Guida che include collegamenti alla documentazione e altre informazioni.
 
 * ![Commutatore soluzione](/help/search-social-commerce/assets/menu-icon.png "Commutatore soluzione") Un elenco di soluzioni e servizi Adobe Experience Cloud a cui è possibile passare.
 
-* ![Profilo utente](/help/search-social-commerce/assets/user-profile.png "Profilo utente") Un collegamento al tuo profilo, dal quale puoi disconnetterti.
+* ![Profilo utente](/help/search-social-commerce/assets/user-profile.png "Profilo utente") Collegamento al tuo profilo da cui puoi uscire.
 
-  Quando hai [effettuato l&#39;accesso tramite Adobe Experience Cloud](log-in.md), puoi anche modificare il tuo profilo di Experience Cloud, incluse le impostazioni della password e della notifica dell&#39;Experience Cloud.
+  Quando hai [effettuato l&#39;accesso tramite Adobe Experience Cloud](sign-in.md), puoi anche modificare il tuo profilo Experience Cloud, incluse le impostazioni relative alla password e alle notifiche di Experience Cloud.
 
 >[!MORELIKETHIS]
 >
->* [Accesso](log-in.md)
->* [Disconnetti](log-out.md)
+>* [Accedi](sign-in.md)
+>* [Disconnetti](sign-out.md)

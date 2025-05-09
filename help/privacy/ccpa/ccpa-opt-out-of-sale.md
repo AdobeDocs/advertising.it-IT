@@ -4,7 +4,7 @@ description: Scopri il supporto per l’acquisizione delle richieste di rifiuto 
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 788b4ddb9b690a3f0bac93ec9b5145fc7a324719
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 0%
@@ -45,6 +45,7 @@ Puoi comunicare le richieste di rifiuto del consumatore utilizzando:
 >Gli utenti rimangono nei segmenti di rifiuto del CCPA per un tempo indefinito.
 
 1. Accedi all&#39;account dell&#39;inserzionista in Advertising DSP all&#39;indirizzo [https://advertising.adobe.com/](https://advertising.adobe.com/).
+
 1. [Crea un segmento di rifiuto CCPA e implementa il pixel del segmento per acquisire le richieste di rifiuto](/help/dsp/audiences/ccpa-opt-out-segment-create.md).
 
 ### Metodo 2: comunicare le richieste di rifiuto del CCPA utilizzando l’API Adobe Experience Platform Privacy Service
@@ -67,7 +68,7 @@ Puoi comunicare le richieste di rifiuto del consumatore utilizzando:
    >
    >Contatta il rappresentante Adobe Advertising della tua azienda per verificare che tutti gli account Adobe Advertising della tua organizzazione, inclusi [!DNL DSP] account o inserzionisti, [!DNL Search, Social, & Commerce] account e [!DNL Creative] o [!DNL DCO] account, siano collegati al tuo ID organizzazione Experience Cloud.
 
-1. Utilizza l&#39;API di Adobe Experience Platform Privacy Service per [inviare richieste di rifiuto](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html?lang=it) ad Adobe Advertising per conto dei consumatori e per controllare lo stato delle richieste esistenti.
+1. Utilizza l&#39;API di Adobe Experience Platform Privacy Service per [inviare richieste di rifiuto](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html) ad Adobe Advertising per conto dei consumatori e per controllare lo stato delle richieste esistenti.
 
    Per un esempio di richiesta di rifiuto, consulta l’appendice seguente.
 
@@ -75,7 +76,7 @@ Puoi comunicare le richieste di rifiuto del consumatore utilizzando:
    >
    >Se la tua azienda dispone di più ID organizzazione Experience Cloud, devi inviare richieste API separate per ciascuno di essi. È tuttavia possibile effettuare una richiesta API a più soluzioni secondarie di Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] e [!DNL DCO]), con un account per ogni soluzione secondaria.
 
-Tutti questi passaggi sono necessari per ricevere supporto da Adobe Advertising. Per ulteriori informazioni su queste e altre attività correlate che è necessario eseguire utilizzando Adobe Experience Platform Privacy Service e dove trovare gli elementi necessari, vedere [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it).
+Tutti questi passaggi sono necessari per ricevere supporto da Adobe Advertising. Per ulteriori informazioni su queste e altre attività correlate che è necessario eseguire utilizzando Adobe Experience Platform Privacy Service e dove trovare gli elementi necessari, vedere [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
 ## Recupero dei report dei consumatori che hanno inviato richieste di rifiuto
 
@@ -86,6 +87,7 @@ Adobe Advertising genera rapporti mensili sugli ID inviati dai clienti per richi
 ### Metodo 1: Recuperare i rapporti sulla rinuncia del consumatore in Advertising DSP
 
 1. Accedi all&#39;account dell&#39;inserzionista in Advertising DSP all&#39;indirizzo [https://advertising.adobe.com/](https://advertising.adobe.com/).
+
 1. [Recupera i report](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md).
 
 ### Metodo 2: Recuperare i report sulla rinuncia del consumatore tramite Advertising DSP [!DNL Trafficking API]
@@ -131,7 +133,7 @@ curl -X POST \
 }'
 ```
 
-dove, secondo le [specifiche API di Privacy Service](https://experienceleague.adobe.com/it/docs/experience-platform/privacy/api/appendix):
+dove, secondo le [specifiche API di Privacy Service](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix):
 
 * `"namespace": "AdCloud"` indica lo spazio cookie `AdCloud` e il valore corrispondente è l&#39;ID cookie del cliente recuperato da `AdobePrivacy.js`
 * `"include": ["adCloud"]` indica che la richiesta si applica al prodotto Adobe Advertising

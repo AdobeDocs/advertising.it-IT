@@ -3,7 +3,7 @@ title: Filtra dati per intervallo di date
 description: Scopri come utilizzare il filtro dell’intervallo di date globale.
 exl-id: 35c0f63f-84ae-4e8e-8a48-acae7ff24498
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Lo stesso filtro globale per l’intervallo di date viene applicato alla maggior parte delle visualizzazioni dati della campagna, a tutti gli inserzionisti, fatta eccezione per le visualizzazioni predefinite e personalizzate per le quali sono stati salvati intervalli di date specifici. L’intervallo di date predefinito del sistema per le visualizzazioni di gestione delle campagne è &quot;Ieri&quot;.
 
-Le impostazioni dell’intervallo di date vengono salvate in un cookie specifico del browser, pertanto tutte le modifiche al filtro dell’intervallo di date vengono utilizzate per tutti gli inserzionisti ogni volta che effettui l’accesso utilizzando la stessa applicazione del browser fino a quando non modifichi il filtro o elimini il cookie. Ogni applicazione browser utilizzata memorizza le impostazioni del filtro per l’intervallo di date in un cookie diverso.
+Le impostazioni dell’intervallo di date vengono salvate in un cookie specifico del browser, pertanto tutte le modifiche al filtro dell’intervallo di date vengono utilizzate per tutti gli inserzionisti ogni volta che effettui l’accesso utilizzando la stessa applicazione del browser fino a quando non modifichi il filtro o non elimini il cookie. Ogni applicazione browser utilizzata memorizza le impostazioni del filtro per l’intervallo di date in un cookie diverso.
 
 Quando si salva un intervallo di date specifico per una visualizzazione predefinita o personalizzata, tale intervallo viene applicato ogni volta che si applica la visualizzazione, indipendentemente dall&#39;applicazione browser in uso.
 

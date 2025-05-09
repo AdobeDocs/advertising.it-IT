@@ -4,7 +4,7 @@ description: Scopri come configurare un’origine dati da una visualizzazione  [
 role: User, Admin
 exl-id: 9e299e42-4971-49ea-a515-54a97eb13e0d
 feature: Search Admin, Search Data Sources
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Configurare una visualizzazione [!DNL Google Analytics] come origine dati
 
-*Solo amministratori di agenzia, account manager di agenzia, Adobi e amministratori*
+*Solo amministratori di agenzia, account manager di agenzia, account manager di Adobe e amministratori*
 
 È possibile creare un&#39;origine dati per ogni account, proprietà e combinazione di visualizzazioni di [!DNL Google Analytics].
 
@@ -39,13 +39,13 @@ Per integrare le metriche per più proprietà o per più viste per una singola p
 
          >[!TIP]
          >
-         >Per accertarsi che solo specifiche proprietà e visualizzazioni di [!DNL Google Analytics] siano disponibili in Adobe Advertising, effettua l&#39;accesso utilizzando un indirizzo e-mail che abbia accesso solo a tali proprietà e visualizzazioni.
+         >Per accertarsi che solo specifiche proprietà e visualizzazioni di [!DNL Google Analytics] siano disponibili in Adobe Advertising, accedi utilizzando un indirizzo e-mail che abbia accesso solo a tali proprietà e visualizzazioni.
 
          >[!NOTE]
          >
          >Se successivamente modifichi la password per questo account e-mail, tutte le connessioni aperte all’account e-mail vengono chiuse. Per riprendere la sincronizzazione dei dati, tornare a questa pagina e [autenticare](data-source-reauthenticate.md).
 
-      1. Seleziona la casella di controllo per autorizzare l’Adobe Advertising ad accedere alle metriche per l’account.
+      1. Seleziona la casella di controllo per autorizzare Adobe Advertising ad accedere alle metriche per l’account.
 
       1. Fare clic su **[!UICONTROL Authenticate]**.
 

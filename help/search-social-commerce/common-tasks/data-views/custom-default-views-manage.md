@@ -3,7 +3,7 @@ title: Gestire le visualizzazioni predefinite e personalizzate
 description: Scopri come personalizzare le viste predefinite e personalizzate.
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 99523c4fe79637bf91688bdbf601799ce28316e3
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '2836'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Le viste predefinite e le viste personalizzate ti consentono di personalizzare i dati delle prestazioni visualizzati nelle viste dati della campagna di ricerca. Le impostazioni di visualizzazione includono le colonne da includere, i filtri, l’intervallo di date, le impostazioni di attribuzione della conversione e altre impostazioni avanzate. È possibile applicare le impostazioni temporaneamente o salvarle. (Eccezione: Non è possibile salvare i filtri per le viste predefinite). Ogni visualizzazione personalizzata predefinita e regolare è applicabile solo a una visualizzazione di entità specifica (ad esempio [!UICONTROL Campaigns]) e a un account pubblicitario specifico. Ogni vista personalizzata universale è applicabile tra le viste delle entità per un inserzionista specifico e pertanto non può includere colonne di proprietà (come il nome o lo stato dell’entità), che variano in base al tipo di entità.
 
-Le viste predefinite vengono visualizzate per impostazione predefinita a ogni accesso. Puoi creare viste personalizzate aggiuntive e applicarle in qualsiasi momento. Facoltativamente, puoi condividere qualsiasi visualizzazione personalizzata creata con tutti gli altri utenti che possono visualizzare i dati dell’inserzionista. Negli elenchi delle visualizzazioni, ogni visualizzazione condivisa da un&#39;altra persona è in corsivo, ad esempio &quot;*Campagne dalle prestazioni migliori*&quot;. Solo l&#39;utente che crea una visualizzazione personalizzata può eliminarla.
+Le visualizzazioni predefinite vengono visualizzate per impostazione predefinita a ogni accesso. Puoi creare viste personalizzate aggiuntive e applicarle in qualsiasi momento. Facoltativamente, puoi condividere qualsiasi visualizzazione personalizzata creata con tutti gli altri utenti che possono visualizzare i dati dell’inserzionista. Negli elenchi delle visualizzazioni, ogni visualizzazione condivisa da un&#39;altra persona è in corsivo, ad esempio &quot;*Campagne dalle prestazioni migliori*&quot;. Solo l&#39;utente che crea una visualizzazione personalizzata può eliminarla.
 
 Ogni vista è disponibile come collegamento nella sezione [!UICONTROL Custom Views] del pannello sinistro.
 

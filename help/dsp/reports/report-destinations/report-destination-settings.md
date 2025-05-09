@@ -3,7 +3,7 @@ title: Impostazioni destinazione report
 description: Vedi i dettagli richiesti per le destinazioni dei rapporti, per tipo di destinazione.
 feature: DSP Custom Reports
 exl-id: 1437ceea-111a-4c2e-a439-037b3a35865c
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
