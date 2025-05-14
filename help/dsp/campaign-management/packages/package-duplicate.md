@@ -67,7 +67,7 @@ Tutte le impostazioni dei posizionamenti originali vengono duplicate, tranne:
 >[!TIP]
 >
 >* Utilizza i bulksheet per [apportare modifiche a più componenti della campagna contemporaneamente](/help/dsp/campaign-management/campaign-components-review-edit.md).
-* Utilizza i fogli di tag degli annunci per [caricare più annunci di terze parti](/help/dsp/campaign-management/ads/ad-create-multiple.md).
+>* Utilizza i fogli di tag degli annunci per [caricare più annunci di terze parti](/help/dsp/campaign-management/ads/ad-create-multiple.md).
 
 * Metti in pausa il nuovo pacchetto fino a quando non sei pronto ad attivarlo.
 
