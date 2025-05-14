@@ -3,9 +3,9 @@ title: Duplicare un pacchetto
 description: Scopri come duplicare un pacchetto.
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
+source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,7 @@ Consulta &quot;[Elementi non duplicati](#package-not-duplicated)&quot; per un el
 Tutte le impostazioni dei posizionamenti originali vengono duplicate, tranne:
 
 * Impostazioni esperimento
+* Budget minimi a livello di posizionamento
 * (Se modifichi le date del volo) Personalizzazione della pianificazione degli annunci
 * (Se non alleghi annunci) Ponderazione e pianificazione degli annunci personalizzati
 * Posizionamenti predefiniti per offerte programmatiche garantite (PG) e posizionamenti per [!UICONTROL Simple Ad Serving] offerte
@@ -76,6 +77,8 @@ Tutte le impostazioni dei posizionamenti originali vengono duplicate, tranne:
    * L&#39;account dispone di fondi sufficienti per accogliere il nuovo budget del pacchetto?
 
    * Il nuovo pacchetto necessita di un bilancio diverso rispetto al pacchetto precedente?
+
+   * Sono necessari budget minimi per uno qualsiasi dei posizionamenti?
 
    * Carica le creatività, inclusa la ponderazione e la pianificazione personalizzate necessarie, e allegale ai posizionamenti.
 

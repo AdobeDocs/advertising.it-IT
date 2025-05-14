@@ -3,9 +3,9 @@ title: Duplicare una campagna
 description: Scopri come duplicare una campagna.
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
+source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -43,6 +43,7 @@ Consulta &quot;[Elementi non duplicati](#campaign-not-duplicated)&quot; per un e
 Tutte le impostazioni dei posizionamenti originali vengono duplicate, tranne:
 
 * Impostazioni esperimento
+* Budget minimi a livello di posizionamento
 * (Se modifichi le date del volo) Personalizzazione della pianificazione degli annunci
 * (Se non alleghi annunci) Ponderazione e pianificazione degli annunci personalizzati
 * Posizionamenti predefiniti per offerte programmatiche garantite (PG) e posizionamenti per [!UICONTROL Simple Ad Serving] offerte
@@ -66,6 +67,8 @@ Tutte le impostazioni dei posizionamenti originali vengono duplicate, tranne:
    * L&#39;account dispone di fondi sufficienti per il nuovo budget della campagna?
 
    * La nuova campagna ha bisogno di un budget diverso rispetto alla campagna precedente?
+
+   * Sono necessari budget minimi per uno qualsiasi dei posizionamenti?
 
    * Carica le creatività, inclusa la ponderazione e la pianificazione personalizzate necessarie, e allegale ai posizionamenti.
 

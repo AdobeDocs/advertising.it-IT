@@ -3,9 +3,9 @@ title: Posizionamenti duplicati
 description: Scopri come duplicare uno o più posizionamenti.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
+source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,7 @@ Consulta &quot;[Elementi non duplicati](#placement-not-duplicated)&quot; per un 
 Tutte le impostazioni dei posizionamenti originali vengono duplicate, tranne:
 
 * Impostazioni esperimento
+* Budget minimi a livello di posizionamento
 * (Se modifichi le date del volo) Personalizzazione della pianificazione degli annunci
 * (Se non alleghi annunci) Ponderazione e pianificazione degli annunci personalizzati
 * Posizionamenti predefiniti per offerte programmatiche garantite (PG) e posizionamenti per [!UICONTROL Simple Ad Serving] offerte
@@ -82,7 +83,7 @@ Tutte le impostazioni dei posizionamenti originali vengono duplicate, tranne:
 
    * L’account dispone di fondi sufficienti per accogliere i nuovi budget di collocamento?
 
-   * I nuovi posizionamenti richiedono budget diversi rispetto ai posizionamenti precedenti?
+   * I nuovi posizionamenti richiedono budget diversi rispetto ai posizionamenti precedenti? Sono necessari budget minimi?
 
    * Carica le creatività, inclusa la ponderazione e la pianificazione personalizzate necessarie, e allegale ai posizionamenti.
 
