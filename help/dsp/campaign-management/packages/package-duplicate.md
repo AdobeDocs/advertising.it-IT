@@ -3,9 +3,9 @@ title: Duplicare un pacchetto
 description: Scopri come duplicare un pacchetto.
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,11 @@ ht-degree: 0%
 Duplica un pacchetto per creare un pacchetto con impostazioni simili. È possibile:
 
 * Duplica il pacchetto all’interno dell’inserzionista e della campagna originali o in diversi
+
 * Se necessario, duplica i posizionamenti all’interno del pacchetto
+
 * (Per i pacchetti duplicati nelle campagne originali) Duplica facoltativamente gli annunci originali e i pixel dell’evento a livello di posizionamento
+
 * Modifica le date di volo del nuovo pacchetto
 
 Consulta &quot;[Elementi non duplicati](#package-not-duplicated)&quot; per un elenco delle impostazioni di posizionamento che non sono duplicate.
@@ -58,6 +61,33 @@ Tutte le impostazioni dei posizionamenti originali vengono duplicate, tranne:
    * Pixel evento
    * Annunci
    * Segmenti [!DNL DoubleVerify Authentic Brand Safety] a livello di posizionamento (che sostituiscono i segmenti a livello di inserzionista)
+
+## Best practice per configurare il nuovo pacchetto
+
+>[!TIP]
+>
+>* Utilizza i bulksheet per [apportare modifiche a più componenti della campagna contemporaneamente](/help/dsp/campaign-management/campaign-components-review-edit.md).
+* Utilizza i fogli di tag degli annunci per [caricare più annunci di terze parti](/help/dsp/campaign-management/ads/ad-create-multiple.md).
+
+* Metti in pausa il nuovo pacchetto fino a quando non sei pronto ad attivarlo.
+
+* Considera quanto segue e modifica le nuove impostazioni del pacchetto in base alle esigenze:
+
+   * L&#39;account dispone di fondi sufficienti per accogliere il nuovo budget del pacchetto?
+
+   * Il nuovo pacchetto necessita di un bilancio diverso rispetto al pacchetto precedente?
+
+   * Carica le creatività, inclusa la ponderazione e la pianificazione personalizzate necessarie, e allegale ai posizionamenti.
+
+   * Allega i pixel dell’evento necessari ai posizionamenti e agli annunci.
+
+   * Includi destinazioni geografiche e segmenti [!DNL DoubleVerify Authentic Brand Safety] a livello di posizionamento in base alle esigenze per i posizionamenti.
+
+   * Per le offerte garantite programmatiche, utilizza i nuovi ID offerta e crea posizionamenti predefiniti.
+
+   * Crea nuovi posizionamenti per offerte [!UICONTROL Simple Ad Serving] in base alle esigenze.
+
+* Per i pacchetti che utilizzano obiettivi di ottimizzazione personalizzati, utilizzare l&#39;impostazione [[!UICONTROL Linked Package for Optimization Learnings Carryover]](/help/dsp/campaign-management/packages/package-settings.md) per ogni pacchetto per utilizzare i dati storici della campagna precedente come input per l&#39;ottimizzazione del pacchetto.
 
 >[!MORELIKETHIS]
 >

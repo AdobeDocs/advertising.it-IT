@@ -3,9 +3,9 @@ title: Posizionamenti duplicati
 description: Scopri come duplicare uno o più posizionamenti.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,31 @@ Tutte le impostazioni dei posizionamenti originali vengono duplicate, tranne:
    * Pixel evento
    * Annunci
    * Segmenti [!DNL DoubleVerify Authentic Brand Safety] a livello di posizionamento (che sostituiscono i segmenti a livello di inserzionista)
+
+## Best practice per configurare i nuovi posizionamenti
+
+>[!TIP]
+>
+>* Utilizza i bulksheet per [apportare modifiche a più componenti della campagna contemporaneamente](/help/dsp/campaign-management/campaign-components-review-edit.md).
+* Utilizza i fogli di tag degli annunci per [caricare più annunci di terze parti](/help/dsp/campaign-management/ads/ad-create-multiple.md).
+
+* Metti in pausa i nuovi posizionamenti fino a quando non sei pronto ad attivarli.
+
+* Considera quanto segue e modifica le nuove impostazioni di posizionamento in base alle esigenze:
+
+   * L’account dispone di fondi sufficienti per accogliere i nuovi budget di collocamento?
+
+   * I nuovi posizionamenti richiedono budget diversi rispetto ai posizionamenti precedenti?
+
+   * Carica le creatività, inclusa la ponderazione e la pianificazione personalizzate necessarie, e allegale ai posizionamenti.
+
+   * Allega i pixel dell’evento necessari ai posizionamenti e agli annunci.
+
+   * Includi destinazioni geografiche e segmenti [!DNL DoubleVerify Authentic Brand Safety] a livello di posizionamento in base alle esigenze per i posizionamenti.
+
+   * Per le offerte garantite programmatiche, utilizza i nuovi ID offerta e crea posizionamenti predefiniti.
+
+   * Crea nuovi posizionamenti per offerte [!UICONTROL Simple Ad Serving] in base alle esigenze.
 
 >[!MORELIKETHIS]
 >
