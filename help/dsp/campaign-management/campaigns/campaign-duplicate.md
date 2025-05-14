@@ -3,9 +3,9 @@ title: Duplicare una campagna
 description: Scopri come duplicare una campagna.
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
+source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Tutte le impostazioni dei posizionamenti originali vengono duplicate, tranne:
 
 * Sospendi la nuova campagna fino a quando non sei pronto ad attivarla.
 
-* Considera quanto segue e modifica le nuove impostazioni della campagna in base alle esigenze:
+* Considera quanto segue e modifica la nuova campagna in base alle esigenze:
 
    * L&#39;account dispone di fondi sufficienti per il nuovo budget della campagna?
 

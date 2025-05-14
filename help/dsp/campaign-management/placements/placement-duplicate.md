@@ -3,9 +3,9 @@ title: Posizionamenti duplicati
 description: Scopri come duplicare uno o più posizionamenti.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
+source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Tutte le impostazioni dei posizionamenti originali vengono duplicate, tranne:
 
 * Metti in pausa i nuovi posizionamenti fino a quando non sei pronto ad attivarli.
 
-* Considera quanto segue e modifica le nuove impostazioni di posizionamento in base alle esigenze:
+* Considera quanto segue e modifica i nuovi posizionamenti in base alle esigenze:
 
    * L’account dispone di fondi sufficienti per accogliere i nuovi budget di collocamento?
 

@@ -3,9 +3,9 @@ title: Duplicare un pacchetto
 description: Scopri come duplicare un pacchetto.
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
+source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Tutte le impostazioni dei posizionamenti originali vengono duplicate, tranne:
 
 * Metti in pausa il nuovo pacchetto fino a quando non sei pronto ad attivarlo.
 
-* Considera quanto segue e modifica le nuove impostazioni del pacchetto in base alle esigenze:
+* Considera quanto segue e modifica il nuovo pacchetto in base alle esigenze:
 
    * L&#39;account dispone di fondi sufficienti per accogliere il nuovo budget del pacchetto?
 
