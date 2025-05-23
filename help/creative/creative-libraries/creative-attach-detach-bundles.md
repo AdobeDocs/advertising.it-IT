@@ -3,14 +3,14 @@ title: Allegare un contenuto creativo a bundle creativi
 description: Scopri come allegare un contenuto creativo a un pacchetto creativo.
 feature: Creative Standard Creatives, Creative Dynamic Creatives, Creative Bundles
 exl-id: 833c4102-8577-4ba1-be07-7e032cec94ca
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: add8f3507ca9b79cea862d097fb603c68eb09e3c
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
 
-# Allega <!-- and detach --> creativi a bundle creativi
+# Allegare creatività a bundle creativi
 
 *Versione beta chiusa*
 
@@ -26,7 +26,7 @@ You can also detach a creative from a bundle to remove the association between t
 >
 >È possibile <!-- also --> [allega creativi ai bundle e scollega creativi dai bundle dalla vista Bundle](/help/creative/creative-libraries/bundle-manage.md).
 
-<!-- Hide header until second procedure is available:
+<!-- Hide header until second procedure is available (if we add that):
 
 ## Attach creatives to creative bundles
 
@@ -45,6 +45,8 @@ You can also detach a creative from a bundle to remove the association between t
    * Nella vista tabella, tenere il cursore sulla riga e fare clic su **[!UICONTROL Attach to Bundles]**.
 
    Ogni bundle idoneo per il tipo creativo viene elencato nel frame corretto. I bundle a cui è già associato il contenuto creativo sono elencati ma non selezionabili.
+
+1. (Facoltativo) Passa dalla vista tabella predefinita a una vista a schede dei bundle disponibili facendo clic su ![Vista a schede](/help/creative/assets/card-view-button.png "Vista a schede") per aprire la vista a schede o su ![Vista a tabella/elenco](/help/creative/assets/table-view-button.png "Vista tabella") per tornare alla vista a tabella.
 
 1. Nel frame di destra selezionare la casella di controllo accanto a ogni bundle a cui allegare il contenuto creativo e quindi fare clic su **[!UICONTROL Attach Creative to Bundle]**.
 

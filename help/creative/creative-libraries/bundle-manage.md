@@ -3,9 +3,9 @@ title: Gestire i bundle creativi
 description: Informazioni su xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: ac26d6dbcfc154820ca9f5dadc182d51d627642a
+source-git-commit: 0098a35334f7604784b826da9a4a50a31edbd267
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1359'
 ht-degree: 0%
 
 ---
@@ -106,11 +106,9 @@ Le modifiche al nome di un bundle vengono propagate tra tutte le esperienze asso
 
 Puoi allegare [creatività standard esistente](/help/creative/creative-libraries/creative-libraries-about.md) a un bundle standard e allegare creatività dinamica esistente<!-- [existing dynamic creatives](creative-dynamic-manage.md) --> a un bundle dinamico. Associando un contenuto creativo a un bundle, il contenuto creativo è disponibile in tutte le esperienze a cui è assegnato il bundle. Ogni bundle può includere solo una di ogni combinazione di \[creative size + language\].
 
-<!--
 >[!NOTE]
 >
->You can also [attach creatives to bundles from the Standard Ads and Dynamic Ads views](creative-attach-detach-bundles.md).
--->
+>Puoi anche [allegare contenuti creativi ai bundle dalle visualizzazioni Annunci standard e Annunci dinamici](creative-attach-detach-bundles.md).
 
 1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -127,6 +125,8 @@ Puoi allegare [creatività standard esistente](/help/creative/creative-libraries
    * Nella vista tabella, tenere il cursore sulla riga e fare clic su **[!UICONTROL Attach Creatives]**.
 
    Ogni creatività idonea al tipo di bundle viene elencata nel frame corretto. Le creatività già collegate al bundle sono elencate ma non selezionabili.
+
+1. (Facoltativo) Passa dalla vista tabella predefinita a una vista a schede dei bundle disponibili facendo clic su ![Vista a schede](/help/creative/assets/card-view-button.png "Vista a schede") per aprire la vista a schede o su ![Vista a tabella/elenco](/help/creative/assets/table-view-button.png "Vista tabella") per tornare alla vista a tabella.
 
 1. Nel frame di destra selezionare la casella di controllo accanto a ogni elemento creativo da allegare al bundle e quindi fare clic su **[!UICONTROL Attach Creative to Bundle]**.
 
@@ -182,6 +182,10 @@ Puoi visualizzare in anteprima un contenuto creativo così come verrà visualizz
 
 <!-- Not there as of 1/22/24:  1. (Flexible HTML5 creatives; optional) To show all frames for the creative, select **Show frames**. -->
 
+1. (Facoltativo) Per aprire la pagina di destinazione del contenuto creativo, fai clic sul contenuto.
+
+   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+
 1. (Facoltativo) Per scaricare la creatività, fai clic su ![Scarica](/help/creative/assets/download.png "Scarica").
 
    Il file viene scaricato in base alla normale procedura del browser.
@@ -205,6 +209,10 @@ Puoi visualizzare in anteprima un contenuto creativo così come verrà visualizz
 1. (Facoltativo) Per filtrare i creativi in base alle dimensioni, selezionare un&#39;opzione nell&#39;elenco **[!UICONTROL Size]**, quindi fare clic su **[!UICONTROL Preview]** in alto a destra nell&#39;anteprima.
 
 1. (Facoltativo) Per ridimensionare le immagini nello schermo, selezionare un&#39;opzione nell&#39;elenco **[!UICONTROL Zoom]**, dal 10% al 100% delle dimensioni dell&#39;immagine.
+
+1. (Facoltativo) Per aprire la pagina di destinazione di un contenuto creativo, fai clic sul contenuto creativo.
+
+   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
 1. (Facoltativo) Per condividere un URL demo in modo che altre persone senza un accesso a [!DNL Creative] possano visualizzare l&#39;anteprima dei creativi:
 
