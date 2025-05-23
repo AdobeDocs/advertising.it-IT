@@ -3,9 +3,9 @@ title: Gestire i bundle creativi
 description: Informazioni su xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 97e0f562153983202a2f3641e17dd682ff3d00ea
+source-git-commit: ac26d6dbcfc154820ca9f5dadc182d51d627642a
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ Staccando un contenuto creativo dal bundle, il contenuto non viene eliminato dal
 
      Per selezionare tutte le righe, selezionare la casella di controllo globale in alto a sinistra.
 
-## Visualizzare in anteprima un contenuto creativo in un bundle
+## Visualizzare in anteprima un singolo contenuto creativo in un bundle
 
 Puoi visualizzare in anteprima un contenuto creativo così come verrà visualizzato dagli utenti, compresi i collegamenti ipertestuali.
 
@@ -186,6 +186,31 @@ Puoi visualizzare in anteprima un contenuto creativo così come verrà visualizz
 
    Il file viene scaricato in base alla normale procedura del browser.
 
+## Anteprima di tutti i creativi in un bundle
+
+1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Fai clic sul nome della libreria.
+
+1. Fare clic sulla scheda **[!UICONTROL Bundles]**.
+
+1. Seleziona il bundle:
+
+   * Nella vista a schede, fai clic su **[!UICONTROL ...]** accanto al nome del bundle, quindi su **[!UICONTROL Preview]**.
+
+   * Nella vista tabella, tenere il cursore sulla riga e fare clic su **[!UICONTROL Preview]**.
+
+1. (Facoltativo) Per filtrare i creativi per lingua, selezionare un&#39;opzione nell&#39;elenco **[!UICONTROL Language]**, quindi fare clic su **[!UICONTROL Preview]** in alto a destra nell&#39;anteprima.
+
+1. (Facoltativo) Per filtrare i creativi in base alle dimensioni, selezionare un&#39;opzione nell&#39;elenco **[!UICONTROL Size]**, quindi fare clic su **[!UICONTROL Preview]** in alto a destra nell&#39;anteprima.
+
+1. (Facoltativo) Per ridimensionare le immagini nello schermo, selezionare un&#39;opzione nell&#39;elenco **[!UICONTROL Zoom]**, dal 10% al 100% delle dimensioni dell&#39;immagine.
+
+1. (Facoltativo) Per condividere un URL demo in modo che altre persone senza un accesso a [!DNL Creative] possano visualizzare l&#39;anteprima dei creativi:
+
+   1. Fai clic su ![Condividi](/help/creative/assets/share.png "Condividi") in alto a destra nell&#39;anteprima.
+
+   1. Nella finestra di dialogo [!UICONTROL Share Demo URL], fai clic su **[!UICONTROL Copy]** per copiare l&#39;URL negli Appunti e condividerlo con un altro utente.
 
 <!-- Not there as of 1/22/25:
 
@@ -253,6 +278,7 @@ Puoi eliminare i bundle non assegnati a un&#39;esperienza [live](/help/creative/
 >[!MORELIKETHIS]
 >
 >* [Assegnazione e annullamento dell&#39;assegnazione di bundle creativi a un nodo finale in un&#39;esperienza](/help/creative/experiences/experience-assign-creative-bundles.md)
+>* [Anteprima di un contenuto creativo](/help/creative/creative-libraries/creative-preview.md)
 >* [Aggiungere creatività standard a una libreria creativa](/help/creative/creative-libraries/creative-add-standard.md)
 >* [Gestisci librerie creative](/help/creative/creative-libraries/creative-library-manage.md)
 >* [Informazioni sulle librerie creative](/help/creative/creative-libraries/creative-libraries-about.md)
