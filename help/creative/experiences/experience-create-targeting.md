@@ -3,9 +3,9 @@ title: Creare un’esperienza con il targeting dell’albero decisionale
 description: Scopri come creare un’esperienza pubblicitaria mirata utilizzando una struttura decisionale.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
+source-git-commit: a631ac2db1f4807a3a55b41d79acfe64c04496c3
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,12 @@ ht-degree: 0%
          * [Personalizza gli URL di tracciamento per i creativi nei bundle assegnati](experience-tracking-urls-targeting.md).
 
          * [Personalizza l&#39;ottimizzazione creativa e la pianificazione](experience-optimization-scheduling-targeting.md) per i bundle assegnati.
+
+1. (Facoltativo) Passa dalla struttura decisionale alle impostazioni generali:
+
+   * Per aprire le impostazioni generali dalla struttura decisionale, fare clic su **[!UICONTROL Experience Form]** in alto a destra.
+
+   * Per aprire la struttura decisionale dalle impostazioni generali, fare clic su **[!UICONTROL Decision Tree]** in alto a destra.
 
 1. Fare clic su **[!UICONTROL Save]** e quindi eseguire le operazioni seguenti.
 

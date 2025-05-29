@@ -3,9 +3,9 @@ title: Modificare un’esperienza con il targeting dell’albero decisionale
 description: Scopri come modificare le impostazioni per un’esperienza pubblicitaria di destinazione utilizzando una struttura decisionale.
 feature: Creative Experiences
 exl-id: 8c5e8f9b-c405-41b2-98a9-da7c5debd3e1
-source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
+source-git-commit: 47a230347059a26c6c1c2db7c73306a376062478
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,15 @@ ht-degree: 0%
 
    * Nella visualizzazione per tabella, posizionare il cursore sulla riga, fare clic su **[!UICONTROL More]** e quindi su **[!UICONTROL Edit]**.
 
-1. Modifica le [impostazioni generali dell&#39;esperienza](experience-settings-targeting.md).
+   Per impostazione predefinita, viene aperta la struttura decisionale.
 
-1. (Facoltativo) Per modificare l&#39;albero delle decisioni, fare clic su **[!UICONTROL Decision Tree]** in alto a destra, quindi eseguire una delle operazioni seguenti:
+1. (Facoltativo) Se necessario, passa dall’albero decisionale alle impostazioni generali:
+
+   * Per aprire le impostazioni generali dalla struttura decisionale, fare clic su **[!UICONTROL Experience Form]** in alto a destra.
+
+   * Per aprire la struttura decisionale dalle impostazioni generali, fare clic su **[!UICONTROL Decision Tree]** in alto a destra.
+
+1. (Facoltativo) Per modificare la struttura decisionale, effettuare una delle seguenti operazioni:
 
    * ([Elaborazione](experience-about.md#experience-statuses) esperienze) Eseguire una delle operazioni seguenti:
 
@@ -65,6 +71,8 @@ ht-degree: 0%
          * [Personalizza gli URL di tracciamento per i creativi nei bundle assegnati](experience-tracking-urls-targeting.md).
 
          * [Personalizza l&#39;ottimizzazione creativa e la pianificazione](experience-optimization-scheduling-targeting.md) per i bundle assegnati.
+
+1. (Facoltativo) Modifica le [impostazioni generali dell&#39;esperienza](experience-settings-targeting.md).
 
 1. Fare clic su **[!UICONTROL Save]** e quindi eseguire le operazioni seguenti.
 
