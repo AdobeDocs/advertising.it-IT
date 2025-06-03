@@ -3,14 +3,16 @@ title: Invita un nuovo utente per l'account organizzazione
 description: Scopri come invitare un nuovo utente a partecipare all’account.
 role: Admin
 exl-id: 5aba8db8-a27b-44a0-88f3-ea49311f4d76
-source-git-commit: a8ee699137d683986264e841b03bc292ce7b7843
+source-git-commit: 3ce910a553aa86836e04bd6e5d2a951db78070e1
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
 
 # Invita un nuovo utente per l&#39;account organizzazione
+
+*Solo utenti amministratori*
 
 Gli utenti amministratori possono invitare un nuovo utente per l’account. Una volta che l’utente accetta l’invito, ha accesso a tutti gli inserzionisti per l’account. Per impostazione predefinita, i nuovi utenti dispongono di accesso in sola lettura.
 
