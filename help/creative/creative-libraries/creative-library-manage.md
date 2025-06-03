@@ -3,7 +3,7 @@ title: Gestire le librerie creative
 description: Scopri come creare, rinominare ed eliminare le librerie creative.
 feature: Creative Libraries
 exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: b41dfbb570db025a5eba3ceff8d28529f9a8058e
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Puoi eliminare le librerie con creative e bundle non assegnati a un&#39;esperien
 
      Per selezionare tutte le righe, selezionare la casella di controllo globale in alto a sinistra.
 
-1. Nel messaggio di conferma, fare clic su **[!UICONTROL Delete].** <!--Verify wording -->
+1. Nel messaggio di conferma, fare clic su **[!UICONTROL Delete].**
 
 >[!MORELIKETHIS]
 >
