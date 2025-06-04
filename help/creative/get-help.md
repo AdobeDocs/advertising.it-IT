@@ -2,20 +2,22 @@
 title: Ottieni aiuto
 description: Scopri come visualizzare la guida online e le risorse della community e come ottenere supporto tecnico.
 feature: Creative Introduction
-source-git-commit: c5a4837f1a8439b3fc2565ae78fdf00d6cdb8b75
+source-git-commit: b610a0b8db410759cae79a6193c38abc573c28ba
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
 
 # Ottieni aiuto
 
+<!-- Can remove this page when we move this into DSP help -->
+
 È possibile aprire la Guida in linea da qualsiasi pagina dell&#39;interfaccia utente. Se la guida in linea non risponde alle tue domande, contattaci.
 
 ## Apri Guida in linea
 
-Per aprire un set di informazioni completo che illustra come utilizzare tutte le funzionalità, scegliere **[!UICONTROL Help]** dal menu principale e aprire il capitolo &quot;[!DNL Creative]&quot;.
+Per aprire un set di informazioni completo che illustra come utilizzare tutte le funzionalità, fare clic su **[!UICONTROL Help]** nel menu principale e aprire il capitolo &quot;[!DNL Creative]&quot;.
 
 <!--
 ## Ask the Adobe Advertising community
