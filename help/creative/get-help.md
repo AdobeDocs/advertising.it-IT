@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ## Apri Guida in linea
 
-Per aprire un set di informazioni completo che illustra come utilizzare tutte le funzionalità, scegliere **[!UICONTROL Help]** dal menu principale e aprire il capitolo &quot;[DNL Creative]&quot;.
+Per aprire un set di informazioni completo che illustra come utilizzare tutte le funzionalità, scegliere **[!UICONTROL Help]** dal menu principale e aprire il capitolo &quot;[!DNL Creative]&quot;.
 
 <!--
 ## Ask the Adobe Advertising community
