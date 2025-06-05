@@ -3,9 +3,9 @@ title: Impostazioni delle esperienze mirate
 description: Vedi le descrizioni di tutte le impostazioni per le esperienze annuncio mirate.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1111'
 ht-degree: 0%
 
 ---
@@ -50,10 +50,9 @@ Una volta salvata l&#39;esperienza, non puoi modificare questa impostazione.
 
 ## [!UICONTROL Advanced] sezione
 
-**Passaggio dati:** (sola lettura per esperienze esistenti; facoltativo) per eseguire il targeting degli utenti in base a coppie chiave-valore specifiche passate in tempo reale su impression da DSP, publisher o partner. Puoi specificare fino a cinque chiavi (parametri) per il passaggio dei dati. Quando imposti il targeting all’interno dell’albero decisionale, puoi includere un livello di nodi di destinazione del passaggio dei dati e specificare i valori di destinazione per ogni nodo. Se non si specifica una chiave in questo campo al momento della creazione dell&#39;esperienza, è comunque possibile specificarne una nell&#39;albero decisionale.<!-- May move this to just within the decision tree.  -->
+**Passaggio dati:** (sola lettura per esperienze esistenti; facoltativo) per eseguire il targeting degli utenti in base a coppie chiave-valore specifiche passate in tempo reale su impression da DSP, publisher o partner. Puoi specificare fino a cinque chiavi predefinite per il passaggio dei dati (parametri). Quando imposti il targeting all’interno della struttura decisionale, puoi includere un livello di nodi di destinazione del passaggio dei dati, personalizzare facoltativamente le chiavi e specificare i valori di destinazione per ciascun nodo. Se non specifichi alcuna chiave in questo campo quando crei l’esperienza, puoi comunque specificarla all’interno della struttura decisionale.
 
-Ogni chiave viene aggiunta come macro nell’esperienza annuncio
-, che puoi generare per implementare come annuncio nel DSP.
+A ogni chiave viene aggiunta una macro nel tag esperienza annuncio, che puoi generare per implementare come annuncio nel DSP.
 
 **Raggio:** (solo esperienze con annunci dinamici; facoltativo) Un raggio da un CAP degli Stati Uniti specificato nel file di feed per il target; seleziona un raggio da 0 miglia a 200 miglia. Il file di feed utilizzato per creare gli annunci dinamici per l&#39;esperienza deve includere una colonna [!UICONTROL ZIP]<!-- or a user-named column mapped to a ZIP column --> con un valore per ogni riga prodotto nel file. Ad esempio, per un raggio di 10 miglia, un annuncio per un prodotto disponibile in 95110 può essere visualizzato agli utenti entro 10 miglia da 95110 (determinato dall’indirizzo IP dell’utente).
 

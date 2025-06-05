@@ -3,9 +3,9 @@ title: Aggiungere un nodo di destinazione tra i nodi di un’esperienza
 description: Scopri come aggiungere un nodo di destinazione tra gli elementi di destinazione in un’esperienza di annuncio.
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -67,9 +67,9 @@ Per definire un target specifico, aggiungi un altro nodo di destinazione di pari
 
          1. Fare clic su **[!UICONTROL Apply]**.
 
-      * Per una destinazione di passaggio dati, immettere un singolo valore di passaggio dati e quindi fare clic su **[!UICONTROL Apply]**.
+      * Per una destinazione di passaggio dati, personalizzare facoltativamente la chiave di passaggio dati, immettere un singolo valore di passaggio dati e quindi fare clic su **[!UICONTROL Apply]**.
 
-        La chiave per la coppia chiave-valore è già impostata nel campo **[!UICONTROL Data Pass]** nella sezione [!UICONTROL Advanced] delle [impostazioni esperienza](experience-settings-targeting.md).
+        Un valore predefinito per la chiave nella coppia chiave-valore è già impostato nel campo **[!UICONTROL Data Pass]** nella sezione [!UICONTROL Advanced] delle [impostazioni esperienza](experience-settings-targeting.md). Facoltativamente, puoi personalizzare la chiave.
 
       * Per un target di pixel di retargeting, selezionare un singolo pixel di retargeting da utilizzare e i valori per gli attributi del pixel necessari per mostrare i creativi, quindi fare clic su **[!UICONTROL Apply]**.
 
