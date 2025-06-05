@@ -3,9 +3,9 @@ title: Rapporti sulle prestazioni a livello di esperienza
 description: Scopri come visualizzare i rapporti sulle prestazioni a livello di esperienza.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: f7e022d8753eb41f5eed8667b9af66085f912bff
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '785'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ La visualizzazione Report include i dati seguenti:
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
       -->
 
-* **Scheda Prestazioni creative***: panoramica delle prestazioni per tag di annunci o bundle creativi e, tra cui:
+* **Scheda Prestazioni di Creative***: panoramica delle prestazioni in base al contenuto creativo e al bundle o al tag dell&#39;annuncio, inclusi:
 
    * Scheda secondaria **Creativi**: numero totale di impression, clic e CTR per ogni creatività nell&#39;esperienza.<!-- No breakdown yet for the individual ad elements and/or the served ads. -->
 
@@ -158,9 +158,11 @@ La visualizzazione Report include i dati seguenti:
 
    * (Esperienze con solo targeting della struttura decisionale; facoltativo) Per suddividere le prestazioni per ogni destinazione annuncio applicata, abilita **[!UICONTROL Split targeting]**.
 
-1. (Facoltativo) Per scaricare i dati in un file [!DNL Microsoft Excel] in formato foglio di calcolo (XLSX), fare clic su ![Scarica](/help/creative/assets/download.png "Scarica") nella barra degli strumenti.
+## Scaricare rapporti sulle prestazioni per un’esperienza
 
-   Il file viene scaricato in base alla normale procedura del browser.
+* Nella barra degli strumenti nella parte superiore dei report sulle prestazioni, fai clic su ![Scarica](/help/creative/assets/download.png "Scarica").
+
+  Il file viene scaricato in un file [!DNL Microsoft Excel] in formato foglio di calcolo (XLSX), in base alla normale procedura del browser.
 
 >[!MORELIKETHIS]
 >
