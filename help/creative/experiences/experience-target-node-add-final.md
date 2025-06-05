@@ -3,9 +3,9 @@ title: Aggiungere un nodo di destinazione al livello finale in un’esperienza
 description: Scopri come aggiungere un nodo di destinazione al livello di destinazione finale di un’esperienza di annuncio.
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: 9f93990bcd6b3c8f7d6fb29186da620ac6d4ecf5
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -49,9 +49,9 @@ Quando aggiungi un nodo di destinazione al livello più basso dell’esperienza,
 
       1. Fare clic su **[!UICONTROL Apply]**.
 
-   * Per una destinazione di passaggio dati, selezionare **[!UICONTROL Data Pass]**, immettere un valore di passaggio dati singolo, quindi fare clic su **[!UICONTROL Apply]**.
+   * Per una destinazione di passaggio dati, selezionare **[!UICONTROL Data Pass]**, personalizzare facoltativamente la chiave di passaggio dati, immettere un singolo valore di passaggio dati e quindi fare clic su **[!UICONTROL Apply]**.
 
-   La chiave per la coppia chiave-valore è già impostata nel campo **[!UICONTROL Data Pass]** nella sezione [!UICONTROL Advanced] delle [impostazioni esperienza](experience-settings-targeting.md).
+   Un valore predefinito per la chiave nella coppia chiave-valore è già impostato nel campo **[!UICONTROL Data Pass]** nella sezione [!UICONTROL Advanced] delle [impostazioni esperienza](experience-settings-targeting.md). Facoltativamente, puoi personalizzare la chiave.
 
    * Per una destinazione pixel di retargeting, selezionare **[!UICONTROL RT Pixel]**, selezionare un singolo pixel di retargeting da utilizzare e i valori per gli attributi dei pixel necessari per mostrare le creatività, quindi fare clic su **[!UICONTROL Apply]**.
 
