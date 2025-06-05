@@ -3,9 +3,9 @@ title: Gestire i bundle creativi
 description: Informazioni su xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: a07af2b3a49d47f5e4ec276ab82520df46d6068a
+source-git-commit: baba02d2537828f1ed0b5c7842d1f987a55f5ef0
 workflow-type: tm+mt
-source-wordcount: '1359'
+source-wordcount: '1432'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,8 @@ Puoi allegare [creatività standard esistente](/help/creative/creative-libraries
 >
 >Puoi anche [allegare contenuti creativi ai bundle dalle visualizzazioni Annunci standard e Annunci dinamici](creative-attach-detach-bundles.md).
 
+### Associa creatività a un bundle dall’elenco Bundle
+
 1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
 1. (Facoltativo) [Personalizzare la visualizzazione](/help/creative/introduction/customize-data-views.md) per includere librerie specifiche.
@@ -129,6 +131,24 @@ Puoi allegare [creatività standard esistente](/help/creative/creative-libraries
 1. (Facoltativo) Passa dalla vista tabella predefinita a una vista a schede dei bundle disponibili facendo clic su ![Vista a schede](/help/creative/assets/card-view-button.png "Vista a schede") per aprire la vista a schede o su ![Vista a tabella/elenco](/help/creative/assets/table-view-button.png "Vista tabella") per tornare alla vista a tabella.
 
 1. Nel frame di destra selezionare la casella di controllo accanto a ogni elemento creativo da allegare al bundle e quindi fare clic su **[!UICONTROL Attach Creative to Bundle]**.
+
+### Allega i creativi a un bundle dall&#39;elenco creativo del bundle
+
+1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Facoltativo) [Personalizzare la visualizzazione](/help/creative/introduction/customize-data-views.md) per includere librerie specifiche.
+
+1. Fai clic sul nome della libreria.
+
+1. Fare clic sulla scheda **[!UICONTROL Bundles]**.
+
+1. Fai clic sulla scheda o sulla riga del bundle per visualizzare tutti i creativi presenti nel bundle.
+
+1. In alto a destra, fare clic su **[!UICONTROL Attach Creatives]**.
+
+1. Nel pannello a destra, seleziona la casella di controllo per ogni contenuto creativo che desideri allegare.
+
+1. Fare clic su **[!UICONTROL Attach Creatives to Bundle]**.
 
 ## Scollegare i creativi da un pacchetto {#bundle-detach-creatives}
 
