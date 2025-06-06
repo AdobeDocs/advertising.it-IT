@@ -3,9 +3,9 @@ title: Aggiungere un nodo di destinazione tra i nodi di un’esperienza
 description: Scopri come aggiungere un nodo di destinazione tra gli elementi di destinazione in un’esperienza di annuncio.
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
-source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
+source-git-commit: 05bcaa63779856cfea2f9cd3a0ab5d5e9d3d472a
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Per definire un target specifico, aggiungi un altro nodo di destinazione di pari
 
          1. (Facoltativo) Per creare più nodi di destinazione quando sono specificati più tipi di pubblico, selezionare **[!UICONTROL Split targets to create nodes]**.
 
-            Questa funzione crea un nodo di destinazione separato (con bundle creativi separati) per ogni pubblico specificato. Se non dividi le destinazioni, l’utente deve appartenere a tutti i tipi di pubblico specificati.
+            Questa funzione crea un nodo di destinazione separato (con bundle creativi separati) per ogni pubblico specificato. Se non si dividono le destinazioni, l&#39;utente deve appartenere a tutti i tipi di pubblico specificati (un&#39;istruzione [!DNL Boolean] `AND`).
 
          1. Fare clic su **[!UICONTROL Apply]**.
 
@@ -63,7 +63,7 @@ Per definire un target specifico, aggiungi un altro nodo di destinazione di pari
 
          1. (Facoltativo) Per creare più nodi di destinazione quando sono specificate più destinazioni geografiche, selezionare **[!UICONTROL Split targets to create nodes]**.
 
-            Questa funzione crea un nodo di destinazione separato (con bundle creativi separati) per ogni destinazione geografica specificata. Se non si dividono le destinazioni, l&#39;utente deve appartenere a tutte le posizioni specificate.
+            Questa funzione crea un nodo di destinazione separato (con bundle creativi separati) per ogni destinazione geografica specificata. Se non si dividono le destinazioni, l&#39;utente deve appartenere a tutte le posizioni specificate (un&#39;istruzione [!DNL Boolean] `AND`).
 
          1. Fare clic su **[!UICONTROL Apply]**.
 
@@ -81,7 +81,7 @@ Per definire un target specifico, aggiungi un altro nodo di destinazione di pari
 
          1. (Facoltativo) Per creare più nodi di destinazione quando sono specificate più destinazioni geografiche, selezionare **[!UICONTROL Split targets to create nodes]**.
 
-            Questa funzione crea un nodo di destinazione separato (con bundle creativi separati) per ogni destinazione geografica specificata. Se non si dividono le destinazioni, l&#39;utente deve appartenere a tutte le posizioni specificate.
+            Questa funzione crea un nodo di destinazione separato (con bundle creativi separati) per ogni destinazione geografica specificata. Se non si dividono le destinazioni, l&#39;utente deve appartenere a tutte le posizioni specificate (un&#39;istruzione [!DNL Boolean] `AND`).
 
          1. (Facoltativo) Per creare più nodi di destinazione quando sono specificate più destinazioni geografiche, selezionare **[!UICONTROL Split targets to create nodes]**.
 

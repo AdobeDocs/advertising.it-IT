@@ -4,7 +4,7 @@ user-guide-title: Guida di Advertising Creative
 user-guide-description: Scopri le principali funzioni, attività, impostazioni e altre risorse necessarie per utilizzare Advertising Creative.
 breadcrumb-title: Guida di Creative
 hide: true
-source-git-commit: 98ae35b8ef428d662e329ba6dd77e28216575ae1
+source-git-commit: bf075eedf094ca354d6a024bf7329e4a0a2b1ba6
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
@@ -17,14 +17,14 @@ ht-degree: 0%
 + [Novità](/help/creative/home.md)
 + Introduzione {#introduction}
    + [Personalizzare le visualizzazioni dati](/help/creative/introduction/customize-data-views.md)
-   + [Supporto per la privacy del consumatore](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=it){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [Criteri e linee guida](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=it){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Supporto per la privacy del consumatore](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Criteri e linee guida](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + Librerie Creative {#creative-libraries}
    + [Informazioni sulle librerie creative](/help/creative/creative-libraries/creative-libraries-about.md)
    + [Dimensioni creative supportate](/help/creative/creative-libraries/creative-sizes.md)
    + [Gestire le librerie creative](/help/creative/creative-libraries/creative-library-manage.md)
    + Creatività {#creatives}
-      + [Configura [!DNL Creative] per accedere alle risorse immagine di Adobe Experience Manager](/help/creative/creative-libraries/aem-assets-configure.md)
+      + [Configurare l’accesso alle risorse di immagini Adobe Experience Manager](/help/creative/creative-libraries/aem-assets-configure.md)
       + Creatività standard {#standard-creatives}
          + [Aggiungere creatività standard a una libreria creativa](/help/creative/creative-libraries/creative-add-standard.md)
          + [Modifica creativi standard](/help/creative/creative-libraries/creative-edit-standard.md)
@@ -77,4 +77,4 @@ ht-degree: 0%
 + [Pixel di retargeting](/help/creative/pixels/retargeting-pixel-manage.md)
 + [Macro disponibili per il tracciamento degli URL](/help/creative/creative-macros.md)
 + [Ottieni aiuto](/help/creative/get-help.md)
-+ [Note sulla versione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it){target="_blank"}
++ [Note sulla versione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}

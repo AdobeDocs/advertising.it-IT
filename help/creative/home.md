@@ -6,9 +6,9 @@ product: advertising cloud
 solution: Advertising
 index: false
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: ec551eb840ef1d35091426842458cde17b23863e
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,11 @@ ht-degree: 0%
 
 *Versione beta chiusa*
 
-<!-- The following features are new or recently changed.  -->
+<!-- The following features are new or recently changed. -->
 
 | Data | Funzionalità | Descrizione | Per Ulteriori Informazioni |
 | ---- | ------- | ----------- | -------------------- |
+| 21 maggio 2025 | [!UICONTROL Creative Libraries] | È ora possibile aggiungere immagini dalla libreria di risorse Adobe Experience Manager a [!UICONTROL Creative Libraries] in modo da poterle utilizzare nelle esperienze pubblicitarie. | Consulta &quot;[Configurare l&#39;accesso alle risorse immagine di Adobe Experience Manager](/help/creative/creative-libraries/aem-assets-configure.md)&quot; e &quot;[Aggiungere creatività standard a una libreria creativa](/help/creative/creative-libraries/creative-add-standard.md).&quot; |
 | 10 febbraio 2025 | [!UICONTROL Creative Libraries] | In precedenza, avevi una libreria creativa. Ora puoi creare più librerie per ogni inserzionista. | Consulta &quot;[Informazioni sulle librerie creative](/help/creative/creative-libraries/creative-libraries-about.md).&quot; |
 | | [!UICONTROL Creative Libraries] > [!UICONTROL Creatives] | La visualizzazione [!UICONTROL Creatives] include schede per [!UICONTROL Standard Ads] e [!UICONTROL Dynamic Ads].<ul><li>La scheda **[!UICONTROL Standard Ads]** consente di caricare e gestire immagini, HTML5, HTML5 flessibile e creativi di terze parti.</li><li>La scheda **[!UICONTROL Dynamic Ads]** consente di gestire gli annunci generati in modo dinamico che vengono creati da file di feed caricati utilizzando modelli di annunci definiti; in precedenza, gli annunci dinamici venivano generati in [!DNL Adobe Advertising Dynamic Creative Optimization (DCO)].<br><br> Al momento è possibile visualizzare in anteprima, duplicare ed eliminare annunci dinamici. Puoi anche allegare annunci dinamici a bundle creativi per esperienze pubblicitarie mirate o a tag pubblicitari per esperienze non mirate. Solo gli utenti amministratori possono generare annunci in modo dinamico.</li></ul> | Consulta &quot;[Informazioni sulle librerie creative](/help/creative/creative-libraries/creative-libraries-about.md).&quot; |
 | | [!UICONTROL Creative Libraries] > [!UICONTROL Bundles] | Raggruppa più creativi in un *bundle* per aggiungerli facilmente a un&#39;esperienza. Puoi creare bundle di annunci standard e allegarvi delle creatività standard. Allo stesso modo, puoi creare bundle di annunci dinamici e allegarvi elementi creativi dinamici. | Consulta &quot;[Gestire i bundle di Creative](/help/creative/creative-libraries/bundle-manage.md).&quot; |
