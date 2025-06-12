@@ -3,7 +3,7 @@ title: Rapporti sulle prestazioni a livello di esperienza
 description: Scopri come visualizzare i rapporti sulle prestazioni a livello di esperienza.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: fc28fe5c4486939718cf6e7bd58555f72fd0c8ed
+source-git-commit: 80cb7587d433b672e22fb9d831f491af7ee364fe
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 0%
@@ -22,33 +22,33 @@ La visualizzazione Report include i dati seguenti:
 
 * Scheda **Panoramica**: panoramica delle prestazioni in tutte le metriche di conversione per l&#39;intera esperienza, inclusi:
 
-<!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." And I don't see this as of 2/8:  You can optionally combine two metrics at a time into a single chart. -->
+  <!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." And I don't see this as of 2/8:  You can optionally combine two metrics at a time into a single chart. -->
 
-* **Prestazioni generali** sezione:
+   * **Prestazioni generali** sezione:
 
-* **Prestazioni complessive**: impression totali; clic; tasso di click-through (CTR); conversioni view-through e click-through.
+      * **Prestazioni complessive**: impression totali; clic; tasso di click-through (CTR); conversioni view-through e click-through.
 
-  <!--
+     <!--
      ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
           -->
 
-* **Percentuale predefinita**: (solo esperienze con targeting di albero delle decisioni) il numero di impression risultanti da creativi di destinazione, da creativi generici senza target o indirizzati a &quot;Tutti gli altri&quot; e dalla creatività predefinita per l&#39;esperienza.
+      * **Percentuale predefinita**: (solo esperienze con targeting di albero delle decisioni) il numero di impression risultanti da creativi di destinazione, da creativi generici senza target o indirizzati a &quot;Tutti gli altri&quot; e dalla creatività predefinita per l&#39;esperienza.
 
-  <!--
+     <!--
      ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
      -->
 
-* **Sezione Performance Breakdown**:
+   * **Sezione Performance Breakdown**:
 
-   * **Prestazioni regionali:*: singole metriche per posizione geografica.
+      * **Prestazioni regionali:*: singole metriche per posizione geografica.
 
-     <!--   
+        <!--   
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
       -->
 
-   * **Prestazioni dispositivo:** singole metriche per tipo di dispositivo, sistema operativo e browser. Facoltativamente, fai clic sul valore per qualsiasi categoria di dispositivi per visualizzare un elenco delle prime<!-- NN --> creative distribuite con tali criteri.
+      * **Prestazioni dispositivo:** singole metriche per tipo di dispositivo, sistema operativo e browser. Facoltativamente, fai clic sul valore per qualsiasi categoria di dispositivi per visualizzare un elenco delle prime<!-- NN --> creative distribuite con tali criteri.
 
-     <!--    
+        <!--    
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
       -->
 
