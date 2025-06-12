@@ -3,9 +3,9 @@ title: Informazioni sul supporto di consigli e approfondimenti per gli editori
 description: Scopri come visualizzare e gestire i consigli e le informazioni dell’editore.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 457e42152a85e0e357939efdfb821b76a636ba2a
+source-git-commit: 568927a009b2c38d30fc817a9f4aa4e964b4cd9f
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '734'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ I consigli e le informazioni su [!DNL Google Ads] e [!DNL Microsoft Advertising]
 
 * Ogni consiglio di [!DNL Google Ads] fornisce suggerimenti personalizzati sui diversi aspetti delle prestazioni di una campagna, dall&#39;aggiunta di una risorsa all&#39;aumento del budget, in base alla cronologia delle prestazioni del tuo account, alle impostazioni della campagna e alle tendenze in [!DNL Google Ads].
 
-* Ogni suggerimento e approfondimento sulle prestazioni di [!DNL Microsoft Advertising] suggerisce modifiche per ottimizzare le prestazioni delle campagne in base agli algoritmi di apprendimento automatico e alle best practice.
+* Ogni insight e consiglio sulle prestazioni di [!DNL Microsoft Advertising] suggerisce modifiche per ottimizzare le prestazioni delle campagne in base agli algoritmi di apprendimento automatico e alle best practice.
 
 ## Visualizzazione [!UICONTROL Recommendations & Publisher Insights]
 
@@ -30,7 +30,7 @@ In [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Ins
 
   I dati sono disponibili in tempo reale all’apertura della visualizzazione. Per aggiornare i dati, fai clic su ![Aggiorna](/help/search-social-commerce/assets/refresh.png "Aggiorna") in basso a sinistra nella pagina.
 
-* Per gli account [!DNL Microsoft Advertising], visualizzare immediatamente ogni informazione sulle prestazioni generata negli ultimi 30 giorni per un account [!DNL Microsoft Advertising]. Gli approfondimenti forniscono informazioni simili ai consigli, ma in un formato diverso. Ogni informazione include la data, una descrizione del problema, l&#39;entità interessata, la causa principale (che può includere collegamenti a ulteriori dettagli) e l&#39;azione suggerita con un collegamento per aprire l&#39;editor [!DNL Microsoft Advertising], da cui è possibile agire in base all&#39;informazione specifica.
+* Per gli account [!DNL Microsoft Advertising], vedere immediatamente ogni insight delle prestazioni generato negli ultimi 30 giorni per un account [!DNL Microsoft Advertising]. Gli approfondimenti forniscono informazioni simili ai consigli, ma in un formato diverso. Ogni insight include la data, una descrizione del problema, l&#39;entità interessata, la causa principale (che può includere collegamenti a ulteriori dettagli) e l&#39;azione suggerita con un collegamento per aprire l&#39;editor [!DNL Microsoft Advertising], da cui è possibile agire sull&#39;insight specifico.
 
 * Visualizza i dettagli di un consiglio e applicalo o annullalo direttamente.
 
@@ -38,7 +38,7 @@ In [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Ins
 
 >[!NOTE]
 >
->Mentre i consigli sulla rete di annunci e gli approfondimenti sulle prestazioni consentono di migliorare le prestazioni della campagna, alcuni potrebbero non allinearsi agli obiettivi più ampi. Di conseguenza, è meglio consultare il team del tuo account Adobe prima di implementare qualsiasi consiglio o informazione.
+>Mentre i consigli sulla rete di annunci e gli approfondimenti sulle prestazioni consentono di migliorare le prestazioni della campagna, alcuni potrebbero non allinearsi agli obiettivi più ampi. Di conseguenza, è meglio consultare il team del tuo account Adobe prima di implementare qualsiasi consiglio o insight.
 
 ## Tipi di consigli supportati per [!DNL Google Ads]
 
@@ -46,6 +46,7 @@ In [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Ins
 | --- | --- | --- |
 | [!UICONTROL Ads and extensions] (ora denominato &quot;[!DNL Ads and assets]&quot; in [!DNL Google Ads]) | [!UICONTROL Call extension] | Aggiungere estensioni di chiamata a una campagna |
 | | [!UICONTROL Callout extension] | Aggiungere estensioni di callout a una campagna |
+|  | [!UICONTROL Improve demand gen ad strength] | Suggerimenti per migliorare l’efficacia degli annunci per un annuncio di tipo &quot;demand gen&quot; |
 | | [!UICONTROL Optimize ad rotation] | Utilizzare rotazioni ottimizzate degli annunci |
 | | [!UICONTROL Responsive search ad] | Aggiungi un nuovo annuncio di ricerca responsive |
 | | [!UICONTROL Responsive search ad asset] | Aggiungere risorse di annunci di ricerca responsive a un annuncio |
@@ -77,6 +78,7 @@ In [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Ins
 | | [!UICONTROL Target ROAS opt in] | Modifica della strategia di offerta [!UICONTROL Target ROAS] |
 | [!UICONTROL Keywords and targeting] | [!UICONTROL Display expansion opt in] | Espandi la portata di accesso aggiornando una campagna per utilizzare l’espansione della visualizzazione |
 | | [!UICONTROL Keyword] | Aggiungi nuove parole chiave |
+|  | [!UICONTROL Refresh customer match list] | Aggiorna gli elenchi di corrispondenza dei clienti per mostrare annunci personalizzati ai clienti recenti |
 | | [!UICONTROL Search partners opt in] | Espandi la portata con [!DNL Google] partner di ricerca |
 | | [!UICONTROL Use broad match keyword] | Utilizza un’ampia corrispondenza per le campagne basate sulla conversione con offerte basate sulla conversione completamente automatizzate |
 
