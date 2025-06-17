@@ -3,9 +3,9 @@ title: Impostazioni per esperienze non di destinazione
 description: Vedi le descrizioni di tutte le impostazioni per le esperienze pubblicitarie senza targeting della struttura decisionale.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: d2db928068153c0ce26cc51fa79f45cbb3c61f18
+source-git-commit: e070e676b9ae321ddc73acfff0dfc05ea91f9715
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Per le esperienze senza il targeting della struttura decisionale, è possibile s
 
 ## [!UICONTROL Targeting] sezione
 
-**[!UICONTROL Targeting]:** (sola lettura per esperienze esistenti) Non applicabile se non si abilita il targeting utilizzando una struttura decisionale; mantenere questa opzione disabilitata.
+**[!UICONTROL Targeting]:** (sola lettura per esperienze esistenti) Non applicabile se non si abilita il targeting utilizzando una struttura decisionale; mantenere questa opzione disabilitata. **Nota:** dopo aver salvato un&#39;esperienza senza eseguire il targeting, non è possibile aggiungere il targeting in un secondo momento.
 
 **[!UICONTROL Dynamic ads]:** (sola lettura per le esperienze esistenti) indica che l&#39;esperienza include annunci dinamici. **Nota:** un&#39;esperienza può includere tutti gli annunci standard o tutti gli annunci dinamici.
 

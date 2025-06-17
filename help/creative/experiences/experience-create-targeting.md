@@ -3,9 +3,9 @@ title: Creare un’esperienza con il targeting dell’albero decisionale
 description: Scopri come creare un’esperienza pubblicitaria mirata utilizzando una struttura decisionale.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: a631ac2db1f4807a3a55b41d79acfe64c04496c3
+source-git-commit: 6c75d21daba9a07f17d4f339a0edf4d0bdc06019
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,12 @@ ht-degree: 0%
 # Creare un’esperienza con il targeting dell’albero decisionale
 
 *Versione beta chiusa*
+
+Crea un’esperienza pubblicitaria mirata utilizzando una struttura decisionale. Ogni esperienza utilizza annunci provenienti da una singola libreria creativa.
+
+>[!NOTE]
+>
+> Dopo aver creato un’esperienza con targeting, non puoi modificarla in un’esperienza non con targeting, che utilizza un flusso di lavoro diverso.
 
 1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 

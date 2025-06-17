@@ -2,9 +2,10 @@
 title: Creare un’esperienza senza targeting della struttura decisionale
 description: Scopri come creare un’esperienza di annuncio senza targeting.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 327b1df5-5663-4513-9238-f481370c8c38
+source-git-commit: a738fed8aea38be2ca0adad08d084a383350d892
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -12,6 +13,12 @@ ht-degree: 0%
 # Creare un’esperienza senza targeting della struttura decisionale
 
 *Versione beta chiusa*
+
+Crea un’esperienza di annuncio senza targeting. Ogni esperienza può utilizzare annunci da una singola libreria creativa.
+
+>[!NOTE]
+>
+> Dopo aver creato un’esperienza non di destinazione, non è possibile modificarla in un’esperienza di destinazione, che utilizza un flusso di lavoro diverso.
 
 1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 
@@ -25,7 +32,11 @@ ht-degree: 0%
 
    * [Creare manualmente un tag annuncio per una dimensione creativa applicabile](experience-tag-create-manually.md).
 
+     [!DNL Creative] non crea automaticamente tag annuncio per esperienze non di destinazione.
+
    * [Assegna creatività a un tag annuncio](experience-tag-assign-creatives.md).
+
+     Assegna dei creativi al tag dell’annuncio, non nelle impostazioni dell’esperienza.
 
    * [Personalizzare gli URL di tracciamento](experience-tracking-urls-no-targeting.md)
 

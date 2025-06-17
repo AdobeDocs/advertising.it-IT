@@ -3,9 +3,9 @@ title: Informazioni sulle esperienze in Advertising Creative
 description: Scopri come configurare esperienze pubblicitarie personalizzate e ottimizzare gli elementi pubblicitari in base alle prestazioni.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 2ddda1e23e3a3413ef93ca0705f0b9688c893f64
+source-git-commit: 1f4c49de75b3a4b19199fc6f2a162b236e21ab49
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Versione beta chiusa*
 
-[!DNL Advertising Creative 2.0] fornisce due diverse strutture di esperienza pubblicitaria per gli annunci in una libreria creativa<!-- can use a single library only -->:
+[!DNL Advertising Creative 2.0] fornisce due diverse strutture di esperienza per gli annunci in un&#39;unica libreria creativa.
 
 * **Esperienze con targeting di struttura decisionale:** [!DNL Creative] ti consente di configurare esperienze pubblicitarie personalizzate in tutto il percorso di clienti utilizzando un modello di struttura decisionale. Puoi personalizzare tutti gli elementi dell’annuncio (immagini, titoli, offerte e pagine di destinazione) in base al pubblico di destinazione.
 
@@ -34,16 +34,32 @@ ht-degree: 0%
 
   Dopo aver creato un ramo di pubblico target nella struttura decisionale, puoi associare il pubblico target con potenziali creativi assegnando al ramo dei bundle creativi. Per ogni esperienza, puoi personalizzare l&#39;ottimizzazione e la pianificazione per i bundle creativi e modificare le pagine di destinazione e gli URL di tracciamento predefiniti<!-- later: and any flexible attributes --> per i singoli creativi in ogni bundle.
 
-* **Esperienze senza targeting della struttura decisionale:** [!DNL Creative] ottimizza gli elementi dell&#39;annuncio per l&#39;esperienza dell&#39;annuncio senza restringere il pubblico. Per ogni esperienza, puoi specificare le date di inizio e di fine e alcune impostazioni predefinite, ma gran parte del flusso di lavoro non si trova direttamente all’interno dell’esperienza. Invece di aggiungere creativi direttamente all&#39;esperienza, puoi utilizzare [!UICONTROL Tag Manager] per creare un tag annuncio per ogni dimensione dell&#39;esperienza, quindi aggiungervi creativi, configurare l&#39;ottimizzazione e la pianificazione creative e personalizzare le pagine di destinazione e gli URL di tracciamento<!-- later: and any flexible attributes -->.
+* **Esperienze senza targeting della struttura decisionale:** [!DNL Creative] ottimizza gli elementi dell&#39;annuncio per l&#39;esperienza dell&#39;annuncio senza restringere il pubblico. Per ogni esperienza, puoi specificare le date di inizio e di fine e alcune impostazioni predefinite, ma gran parte del flusso di lavoro non si trova direttamente all’interno dell’esperienza. Invece di aggiungere creativi direttamente all&#39;esperienza, utilizza [!UICONTROL Tag Manager] per creare un tag annuncio per ogni dimensione dell&#39;esperienza e quindi aggiungervi creativi, configurare l&#39;ottimizzazione e la pianificazione creativa e personalizzare le pagine di destinazione e gli URL di tracciamento<!-- later: and any flexible attributes -->.
 
-## Ottimizzazione degli annunci
+>[!NOTE]
+>
+> Poiché i due tipi di esperienze hanno flussi di lavoro diversi, non puoi cambiare se utilizzare o meno il targeting della struttura decisionale dopo aver salvato l’esperienza. Ciò significa che non puoi trasformare un’esperienza non di destinazione in un’esperienza di destinazione. Allo stesso modo, non puoi trasformare un’esperienza con targeting in un’esperienza non con targeting.
+
+## Ad serving e ottimizzazione degli annunci
 
 <!-- MORE -->
-[!DNL Creative] ottimizza gli elementi dell&#39;annuncio per qualsiasi esperienza in base alle prestazioni. Per le esperienze mirate a tipi di pubblico specifici, gli annunci possono essere ottimizzati in base alle prestazioni dei singoli elementi annuncio per i set di pubblico target. Per le esperienze senza target di pubblico specifici, gli elementi dell’annuncio vengono ottimizzati in base alle sole prestazioni dei singoli elementi dell’annuncio.
+<!--When multiple ad variants qualify for an impression-->
+
+[!DNL Creative] fornisce annunci di prime parti e attiva annunci di terze parti per l&#39;esperienza in base al targeting specificato (se applicabile), alla pianificazione, alla rotazione degli annunci e alle opzioni degli obiettivi di ottimizzazione, nonché all&#39;inventario degli annunci disponibili.
+
+* **Pianificazione:** (facoltativo) pianifica l&#39;esecuzione di creative specifiche durante periodi di tempo sequenziali specificati.
+
+* **Rotazione annuncio:** Ruota le creatività manualmente in base al peso relativo o algoritmicamente in base all&#39;obiettivo di ottimizzazione specificato.
+
+* **Obiettivo di ottimizzazione:** Ottimizzare gli elementi dell&#39;annuncio per il miglior tasso di click-through o per un [obiettivo personalizzato Advertising DSP](/help/dsp/optimization/custom-goal.md) esistente
+
+  [!DNL Creative] ottimizza le esperienze pubblicitarie fornendo una condivisione delle impression alle risorse con le migliori prestazioni nell&#39;esperienza. Per le esperienze mirate a tipi di pubblico specifici, gli annunci possono essere ottimizzati in base alle prestazioni dei singoli elementi annuncio per i set di pubblico target. Per le esperienze senza target di pubblico specifici, gli elementi annuncio vengono ottimizzati in base esclusivamente alle prestazioni dei singoli elementi annuncio.
+
+Ad esempio, puoi pianificare l’esecuzione di Creative 1 nelle prime due settimane per ottimizzare il tasso di click-through e di Creative 2 nelle due settimane successive per ottimizzare un obiettivo personalizzato specifico.
 
 ## Implementazione e gestione delle esperienze
 
-Dopo aver creato un&#39;esperienza live (con tutti gli elementi annuncio richiesti), puoi [generare un tag JavaScript o iframe per l&#39;intera esperienza](experience-tag-export.md). Puoi caricare il tag esperienza come annuncio in una campagna in Adobe Advertising DSP o implementarlo come annuncio in un DSP di terze parti. [!DNL Creative] fornisce annunci di prime parti e attiva annunci di terze parti per l&#39;esperienza in base alle opzioni di targeting e rotazione degli annunci e all&#39;inventario di annunci disponibile.
+Dopo aver creato un&#39;esperienza live (con tutti gli elementi annuncio richiesti), puoi [generare un tag JavaScript o iframe per l&#39;intera esperienza](experience-tag-export.md). Puoi caricare il tag esperienza come annuncio in una campagna in Adobe Advertising DSP o implementarlo come annuncio in un DSP di terze parti.
 
 ## Dati sulle prestazioni per le esperienze
 
@@ -69,7 +85,7 @@ Lo stato di un&#39;esperienza viene impostato automaticamente, tranne *Eliminato
 | ------ | ----------- |
 | [!UICONTROL Live] | L’esperienza include tutti gli elementi necessari per generare un tag di esperienza da implementare come annuncio in un DSP. L’inizio di un’esperienza live potrebbe essere programmato per il futuro. |
 | [!UICONTROL Draft] | A tutti i rami dell’esperienza non vengono assegnati dei creativi, pertanto l’esperienza è incompleta e non puoi generare un tag esperienza. |
-| [!UICONTROL Processing] | Un&#39;esperienza live in precedenza è stata modificata ma è ora incompleta. Non puoi generare un tag esperienza per esso. **Nota:** se hai già implementato un tag di esperienza per l&#39;esperienza, è comunque possibile distribuire la versione live precedente. Se successivamente completi l’esperienza e la attivi di nuovo, la nuova versione può essere distribuita utilizzando l’implementazione di tag esistente. |
+| [!UICONTROL Processing] | Un&#39;esperienza live precedente è stata modificata ma è ora incompleta. Non puoi generare un tag esperienza per esso. **Nota:** se hai già implementato un tag di esperienza per l&#39;esperienza, è comunque possibile distribuire la versione live precedente. Se successivamente completi l’esperienza e la attivi di nuovo, la nuova versione può essere distribuita utilizzando l’implementazione di tag esistente. |
 | [!UICONTROL Deleted] | L&#39;esperienza è stata eliminata da [!DNL Creative] e non è più visibile nelle visualizzazioni di [!UICONTROL Experiences]. |
 
 >[!NOTE]

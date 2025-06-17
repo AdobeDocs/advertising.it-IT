@@ -2,9 +2,10 @@
 title: Assegnare dei creativi a un tag annuncio per le esperienze senza targeting
 description: Scopri come assegnare i creativi a un tag annuncio per una dimensione creativa specifica.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 864f10ef-75ca-4081-93d9-8540476b17f0
+source-git-commit: 3027235ca7c8db278880a710cb8048216d0a599a
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 *Esperienze senza solo targeting della struttura decisionale*
 *Versione beta chiusa*
 
-Puoi assegnare i creativi nelle dimensioni creative applicabili a un tag annuncio utilizzato per un’esperienza. Per le esperienze pubblicitarie standard, puoi assegnare solo creatività standard. Per esperienze pubblicitarie dinamiche, è possibile assegnare solo creatività dinamiche.<!-- Clarify what this does. It adds the image to the experience, but how does optimization work with multiple ad tags? -->
+Puoi assegnare i creativi nelle dimensioni creative applicabili a un tag annuncio utilizzato per un’esperienza. Puoi utilizzare i creativi della libreria creativa specificata nelle impostazioni dell’esperienza. Per le esperienze pubblicitarie standard, puoi assegnare solo creatività standard. Per esperienze pubblicitarie dinamiche, è possibile assegnare solo creatività dinamiche.<!-- Clarify what this does. It adds the image to the experience, but how does optimization work with multiple ad tags? -->
 
 In seguito [potrai personalizzare gli URL di tracciamento](experience-tracking-urls-no-targeting.md) e [personalizzare l&#39;ottimizzazione creativa e la pianificazione](experience-optimization-scheduling-no-targeting.md) per i creativi utilizzati per il tag dell&#39;annuncio.
 

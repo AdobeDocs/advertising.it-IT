@@ -3,7 +3,7 @@ title: Personalizzare l’ottimizzazione creativa e la pianificazione di un’es
 description: Scopri come
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: f6da629fdb81af4393bac9a81050111aded3ee3a
+source-git-commit: 006b0c61c28f5fac111ccdcc007e1752e05da63f
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 *Esperienze con solo creatività esistente*
 *Versione beta chiusa*
 
-Per impostazione predefinita, la rotazione creativa di un tag di esperienza annuncio è determinata algoritmicamente per ottimizzare il tasso di click-through complessivo e le impostazioni di ottimizzazione creativa si applicano a tutti i creativi assegnati. Puoi personalizzare la rotazione creativa per eseguire manualmente le creatività in base al peso relativo o per ottimizzare algoritmicamente per un obiettivo personalizzato Advertising DSP specifico. <!-- verify --> È inoltre possibile pianificare l&#39;esecuzione di creativi specifici durante periodi di tempo sequenziali specificati e applicare impostazioni personalizzate di rotazione creativa per ogni pianificazione.
+Per impostazione predefinita, la rotazione creativa di un tag di esperienza annuncio è determinata algoritmicamente per ottimizzare il tasso di click-through complessivo e le impostazioni di ottimizzazione creativa si applicano a tutti i creativi assegnati. Puoi personalizzare la rotazione creativa per eseguire manualmente le creatività in base al peso relativo o per ottimizzare algoritmicamente per un obiettivo personalizzato Advertising DSP specifico. È inoltre possibile pianificare l&#39;esecuzione di creativi specifici durante periodi di tempo sequenziali specificati e applicare impostazioni personalizzate di rotazione creativa per ogni programma.
 
 ## Configurare l’ottimizzazione creativa senza pianificare
 
@@ -45,7 +45,7 @@ Quando la pianificazione creativa è disabilitata, le impostazioni di ottimizzaz
 
 ## Configurare l’ottimizzazione creativa con la programmazione creativa
 
-Facoltativamente, puoi pianificare l’esecuzione di creative specifiche utilizzate per un tag di esperienza annuncio durante periodi di tempo sequenziali specifici tra le date di inizio e di fine dell’esperienza e applicare impostazioni di rotazione creativa personalizzate per ogni pianificazione. Ad esempio, puoi pianificare l’esecuzione di Creative 1 nelle prime due settimane in modo da ottimizzare il tasso di click-through e Creative 2 nelle due settimane successive in modo da ottimizzare un obiettivo personalizzato specifico.
+Facoltativamente, puoi pianificare l’esecuzione di creative specifiche utilizzate per un tag di esperienza annuncio durante periodi di tempo sequenziali specifici tra le date di inizio e di fine dell’esperienza e applicare impostazioni di rotazione creativa personalizzate per ogni pianificazione. Ad esempio, puoi pianificare l’esecuzione di Creative 1 nelle prime due settimane per ottimizzare il tasso di click-through e di Creative 2 nelle due settimane successive per ottimizzare un obiettivo personalizzato specifico.
 
 Quando utilizzi la pianificazione, devi pianificare le creatività per tutta la durata dell’esperienza.
 

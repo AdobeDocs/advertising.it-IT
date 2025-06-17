@@ -3,9 +3,9 @@ title: Rapporti sulle prestazioni a livello di esperienza
 description: Scopri come visualizzare i rapporti sulle prestazioni a livello di esperienza.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 118838e0236c0e40aea797edb1b2f8fb0efb2a79
+source-git-commit: 1718a7f5a7e3bbfeed336b195a2575275c8fd753
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ La visualizzazione Report include i dati seguenti:
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
       -->
 
-      * **Prestazioni dispositivo:** singole metriche per tipo di dispositivo, sistema operativo e browser. Facoltativamente, fai clic sul valore per qualsiasi categoria di dispositivi per visualizzare un elenco delle prime<!-- NN --> creative distribuite con tali criteri.
+      * **Prestazioni dispositivo:** singole metriche per tipo di dispositivo, sistema operativo e browser. Facoltativamente, fai clic sul valore per qualsiasi categoria di dispositivi per visualizzare un elenco delle prime 10 creatività distribuite con tale criterio.
 
         <!--    
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
