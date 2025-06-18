@@ -3,9 +3,9 @@ title: Informazioni sulle esperienze in Advertising Creative
 description: Scopri come configurare esperienze pubblicitarie personalizzate e ottimizzare gli elementi pubblicitari in base alle prestazioni.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 1f4c49de75b3a4b19199fc6f2a162b236e21ab49
+source-git-commit: a6d38953fa16a79f63bebe050e28fc14ed9a96f5
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1074'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Lo stato di un&#39;esperienza viene impostato automaticamente, tranne *Eliminato
 
 ## Visualizzazione [!UICONTROL Experiences]
 
-La visualizzazione [!UICONTROL Experiences] mostra tutte le esperienze con e senza targeting. Puoi visualizzare i nomi delle esperienze, lo stato, le date di inizio e fine, il numero e le dimensioni dei creativi o dei bundle creativi assegnati e se l’esperienza include annunci dinamici. Quando abiliti l&#39;opzione [!UICONTROL Metrics] nella visualizzazione [!UICONTROL Experiences], ogni scheda o riga di esperienza indica il numero di impression e clic ricevuti dall&#39;esperienza.
+La visualizzazione [!UICONTROL Experiences] mostra tutte le esperienze con e senza targeting. Puoi visualizzare i nomi delle esperienze, lo stato, le date di inizio e fine, il numero e le dimensioni dei creativi o dei bundle creativi assegnati e se l’esperienza include annunci dinamici. Quando abiliti l&#39;opzione [!UICONTROL Metrics] nella visualizzazione [!UICONTROL Experiences], ogni scheda o riga di esperienza indica il numero di impression e clic ricevuti dall&#39;esperienza. Quando sei in modalità scheda, puoi scorrere tra i creativi in un’esperienza con più creativi utilizzando i pulsanti &lt; e >.
 
 Puoi creare e gestire le esperienze, nonché creare e rinominare i tag di esperienza e esportare i tag nei formati JavaScript e iframe per l’implementazione sulle DSP. Gli inserzionisti con Advertising DSP possono facoltativamente caricare tag direttamente in una campagna Advertising DSP.
 

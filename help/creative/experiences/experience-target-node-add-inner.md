@@ -3,9 +3,9 @@ title: Aggiungere un nodo di destinazione tra i nodi di un’esperienza
 description: Scopri come aggiungere un nodo di destinazione tra gli elementi di destinazione in un’esperienza di annuncio.
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
-source-git-commit: 05bcaa63779856cfea2f9cd3a0ab5d5e9d3d472a
+source-git-commit: 81cbb3cdac21f4b4899b0c07d1eb0686b7b3c7d4
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
@@ -86,6 +86,16 @@ Per definire un target specifico, aggiungi un altro nodo di destinazione di pari
          1. (Facoltativo) Per creare più nodi di destinazione quando sono specificate più destinazioni geografiche, selezionare **[!UICONTROL Split targets to create nodes]**.
 
          1. Fare clic su **[!UICONTROL Apply]**.
+
+1. (Facoltativo) Specifica un nome di ramo personalizzato per un ramo definito dall&#39;utente.
+
+   Per impostazione predefinita, i rami definiti dall’utente sono etichettati con le destinazioni applicate.
+
+   Non puoi creare un nome di ramo personalizzato per un ramo &quot;Tutti&quot; o &quot;Tutti gli altri&quot;.
+
+   1. Tenere premuto il cursore sul nodo di destinazione e fare clic su **[!UICONTROL ...]** > **[!UICONTROL Edit Name]**.
+
+   1. Immettere **[!UICONTROL Node Name]**, quindi fare clic su **[!UICONTROL Save]**.
 
 1. Effettua una delle seguenti operazioni:
 

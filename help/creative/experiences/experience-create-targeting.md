@@ -3,7 +3,7 @@ title: Creare un’esperienza con il targeting dell’albero decisionale
 description: Scopri come creare un’esperienza pubblicitaria mirata utilizzando una struttura decisionale.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 6c75d21daba9a07f17d4f339a0edf4d0bdc06019
+source-git-commit: 39e2d6afa357f2cbe4037371a1441ddc2ffa9ef2
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Crea un’esperienza pubblicitaria mirata utilizzando una struttura decisionale.
 
       * Destinazioni:
 
-        *[Aggiungi un nodo di destinazione al livello finale](experience-target-node-add-final.md) in un&#39;esperienza.
+         * [Aggiungi un nodo di destinazione al livello finale](experience-target-node-add-final.md) in un&#39;esperienza.
 
          * [Inserire un nodo di destinazione tra i nodi](experience-target-node-add-inner.md).
 

@@ -3,9 +3,9 @@ title: Informazioni sulle librerie creative
 description: Scopri come gestire i creativi delle esperienze pubblicitarie.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 677596e41944de7782c520496f6751f03bf5d9a2
+source-git-commit: 86bd3384a44cc526428dd8ea5e97fdd684331086
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Le librerie possono includere:
 
 * **Singoli creativi:** Puoi includere singoli creativi direttamente all&#39;interno di esperienze pubblicitarie che non hanno target utente definiti. Puoi anche utilizzare i tuoi creativi per creare bundle, che puoi includere in [esperienze annuncio](/help/creative/experiences/experience-about.md) mirate.
 
-   * **Creative standard:** Puoi caricare e gestire creative in [vari formati](#creative-creative-formats). Per ogni contenuto creativo si specifica la lingua predefinita per ogni annuncio a cui si associa il contenuto creativo, la pagina di destinazione predefinita che si apre quando un utente fa clic su un annuncio che include il contenuto creativo e le etichette facoltative da utilizzare come filtri nelle varie visualizzazioni di [!DNL Creative].
+   * **Creative standard:** Puoi caricare e gestire creative in [vari formati](#creative-creative-formats). Per ogni contenuto creativo, specifica la lingua predefinita per ogni annuncio a cui associ il contenuto creativo e la pagina di destinazione predefinita che si apre quando un utente fa clic su un annuncio che include il contenuto creativo. Facoltativamente, è possibile specificare le etichette da utilizzare come filtri in varie visualizzazioni all&#39;interno di [!DNL Creative] e come valori di colonna in [!UICONTROL Custom Creative Report] quando si include l&#39;utilizzo della dimensione [!UICONTROL Creative Label].
 
    * **Creative dinamiche:** (solo per clienti Adobe Advertising DCO esistenti) Gli utenti amministratori possono creare creative generate dinamicamente mappando le variabili dinamiche in un modello di annuncio ai valori in un file di feed. Tutti gli utenti possono visualizzare in anteprima, duplicare ed eliminare gli annunci dinamici esistenti.
 
@@ -90,6 +90,8 @@ Per ulteriori informazioni sulla personalizzazione di ogni visualizzazione, vede
 
 La visualizzazione principale di [!UICONTROL Creative Libraries] mostra tutte le librerie creative. I dati di ciascuna libreria includono il numero di esperienze a cui vengono assegnati i bundle della libreria, il numero di bundle, il numero di creativi, il numero di dimensioni di creatività, il numero di destinazioni della lingua predefinite, la data di creazione e la data dell’ultima modifica di qualsiasi elemento della libreria. La modalità tabella include anche una colonna per l’inserzionista.
 
+Quando sei in modalità scheda, puoi scorrere le immagini in una libreria con più elementi creativi utilizzando i pulsanti &lt; e >.
+
 #### Azioni disponibili
 
 * Creare nuove librerie
@@ -156,7 +158,7 @@ La possibilità di creare e modificare contenuti creativi dinamici è attualment
 
 ### Visualizzazione [!UICONTROL Creative Libraries] > [!UICONTROL Bundles]
 
-La visualizzazione [!UICONTROL Bundles] mostra tutti i contenitori di bundle standard e dinamici. Puoi vedere i nomi creativi, le dimensioni creative e i linguaggi dei creativi inclusi in ogni pacchetto.
+La visualizzazione [!UICONTROL Bundles] mostra tutti i contenitori di bundle standard e dinamici. Puoi vedere i nomi creativi, le dimensioni creative e i linguaggi dei creativi inclusi in ogni pacchetto. In modalità scheda, è possibile scorrere le immagini in un pacchetto con più elementi creativi utilizzando i pulsanti &lt; e >.
 
 #### Azioni disponibili
 

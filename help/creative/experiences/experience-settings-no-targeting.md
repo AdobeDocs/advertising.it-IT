@@ -3,9 +3,9 @@ title: Impostazioni per esperienze non di destinazione
 description: Vedi le descrizioni di tutte le impostazioni per le esperienze pubblicitarie senza targeting della struttura decisionale.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: e070e676b9ae321ddc73acfff0dfc05ea91f9715
+source-git-commit: bd72dccf0c24c2408b4e6349842dae4b3ba93956
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Quando crei un tag di esperienza annuncio per una dimensione creativa specifica,
 
 **Pixel RT:** (solo esperienze con annunci dinamici; facoltativo) Un pixel di retargeting [!UICONTROL Creative] per il potenziale target. Quando imposti il targeting all’interno dell’albero decisionale, puoi includere un livello di nodi di destinazione di pixel RT. Per ogni nodo, specificherai il pixel di destinazione e i valori per gli attributi del pixel necessari per mostrare i creativi nei bundle creativi assegnati. Se non si specifica un pixel in questo campo, è comunque possibile specificarne uno all&#39;interno della struttura decisionale.<!-- From R: "the RT Pixel should be via the content selection in the Dynamic ad setup." Clarify. I do see "Datapass" (oneword) in the dynamic ad settings, but I'm not sure how that setting and this experience-level one work together. -->
 
-**[!UICONTROL Label]:**<!-- should be "Labels" --> (facoltativo) qualsiasi etichetta specifica di [!DNL Creative] da applicare all&#39;esperienza. È possibile filtrare le esperienze per etichetta nella visualizzazione Esperienze<!-- sic -->.
+**[!UICONTROL Label]:**<!-- should be "Labels" --> (facoltativo) qualsiasi etichetta specifica di [!DNL Creative] da applicare all&#39;esperienza. È possibile filtrare le esperienze per etichetta nella visualizzazione Esperienze e includere la dimensione [!UICONTROL Experience Label] in [!UICONTROL Custom Creative Report].
 
 * Per selezionare le etichette esistenti, fare clic su ![Giù](/help/creative/assets/chevron-down.png "Giù") e selezionare la casella di controllo accanto a ogni etichetta da applicare.
 

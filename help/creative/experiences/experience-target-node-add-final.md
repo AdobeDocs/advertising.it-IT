@@ -3,9 +3,9 @@ title: Aggiungere un nodo di destinazione al livello finale in un’esperienza
 description: Scopri come aggiungere un nodo di destinazione al livello di destinazione finale di un’esperienza di annuncio.
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: 05bcaa63779856cfea2f9cd3a0ab5d5e9d3d472a
+source-git-commit: 7e345130f43fc2d8c2ada287a2dc61b1515e2d25
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,16 @@ Quando aggiungi un nodo di destinazione al livello più basso dell’esperienza,
          Questa funzione crea un nodo di destinazione separato (con bundle creativi separati) per ogni destinazione geografica specificata. Se non si dividono le destinazioni, l&#39;utente deve appartenere a tutte le posizioni specificate (un&#39;istruzione [!DNL Boolean] `AND`).
 
       1. Fare clic su **[!UICONTROL Apply]**.
+
+1. (Facoltativo) Specifica un nome di ramo personalizzato per un ramo definito dall&#39;utente.
+
+   Per impostazione predefinita, i rami definiti dall’utente sono etichettati con le destinazioni applicate.
+
+   Non puoi creare un nome di ramo personalizzato per un ramo &quot;Tutti&quot; o &quot;Tutti gli altri&quot;.
+
+   1. Tenere premuto il cursore sul nodo di destinazione e fare clic su **[!UICONTROL ...]** > **[!UICONTROL Edit Name]**.
+
+   1. Immettere **[!UICONTROL Node Name]**, quindi fare clic su **[!UICONTROL Save]**.
 
 1. Effettua una delle seguenti operazioni:
 

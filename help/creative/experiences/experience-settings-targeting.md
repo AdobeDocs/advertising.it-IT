@@ -3,9 +3,9 @@ title: Impostazioni delle esperienze mirate
 description: Vedi le descrizioni di tutte le impostazioni per le esperienze annuncio mirate.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
+source-git-commit: a7b5a4e55c2ea66a4ca74a517ea3d90336021e30
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ A ogni chiave viene aggiunta una macro nel tag esperienza annuncio, che puoi gen
 
 **Pixel RT:** (sola lettura per le esperienze esistenti; facoltativo) Un pixel di retargeting [!UICONTROL Creative] per la destinazione potenziale. Quando imposti il targeting all’interno dell’albero decisionale, puoi includere un livello di nodi di destinazione di pixel RT. Per ogni nodo, specificherai il pixel di destinazione e i valori per gli attributi del pixel necessari per mostrare i creativi nei bundle creativi assegnati. Se non specifichi un pixel in questo campo quando crei l&#39;esperienza, puoi comunque specificarne uno all&#39;interno dell&#39;albero decisionale.<!-- May move this to just within the decision tree. -->
 
-**Etichetta:**<!-- should be "Labels" --> (Facoltativo) Qualsiasi etichetta specifica di [!DNL Creative] da applicare all&#39;esperienza. È possibile filtrare le esperienze per etichetta nella visualizzazione Esperienze<!-- sic -->.
+**Etichetta:**<!-- should be "Labels" --> (Facoltativo) Qualsiasi etichetta specifica di [!DNL Creative] da applicare all&#39;esperienza. È possibile filtrare le esperienze per etichetta nella visualizzazione Esperienze e includere la dimensione [!UICONTROL Experience Label] in [!UICONTROL Custom Creative Report].
 
 * Per selezionare le etichette esistenti, fare clic su ![Giù](/help/creative/assets/chevron-down.png "Giù") e selezionare la casella di controllo accanto a ogni etichetta da applicare.
 

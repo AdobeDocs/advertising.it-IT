@@ -1,16 +1,16 @@
 ---
-title: Impostazioni creative
+title: Impostazioni Creative
 description: Informazioni su xxxx.
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: b3ae58583020a907a41e72967b8c2a331c2d3257
 workflow-type: tm+mt
-source-wordcount: '1806'
+source-wordcount: '1812'
 ht-degree: 0%
 
 ---
 
-# Impostazioni creative
+# Impostazioni Creative
 
 *Versione beta chiusa*
 
@@ -30,7 +30,7 @@ Quando si modificano più contenuti creativi contemporaneamente:
 
 **Lingua:** lingua predefinita per ogni annuncio a cui si associano i creativi. Quando carichi o modifichi più creativi, lo stesso valore viene applicato a ciascun creativo selezionato.
 
-**Dimensione creativa:** (sola lettura per i creativi esistenti) Dimensioni del creativo. Se le immagini incluse nel contenuto creativo sono più grandi delle dimensioni specificate, vengono ridimensionate di conseguenza.
+**Dimensioni Creative:** (sola lettura per i creativi esistenti) dimensioni del contenuto creativo. Se le immagini incluse nel contenuto creativo sono più grandi delle dimensioni specificate, vengono ridimensionate di conseguenza.
 
 **[!UICONTROL Click Tags]:** Le variabili che consentono i reindirizzamenti di tracciamento dei clic dagli annunci banner inclusi. I nomi delle variabili e gli URL della pagina di destinazione corrispondenti vengono compilati dall’unità creativa caricata, ma puoi modificare gli URL predefiniti. Per più creativi, puoi modificare i singoli tag di clic.
 
@@ -40,7 +40,7 @@ Quando si modificano più contenuti creativi contemporaneamente:
 >When you include the creative in an experience, you can replace the default value for any of the click tags with a custom landing page URL to generate a derivation of the base creative.
 -->
 
-**Etichetta:** (facoltativo) qualsiasi etichetta da applicare a tutti i creativi selezionati. È possibile filtrare i creativi per etichetta in varie visualizzazioni in [!DNL Creative].
+**Etichetta:** (facoltativo) qualsiasi etichetta da applicare a tutti i creativi selezionati. È possibile filtrare i creativi per etichetta in varie visualizzazioni all&#39;interno di [!DNL Creative] e includere la dimensione [!UICONTROL Creative Label] in [!UICONTROL Custom Creative Report].
 
 * Per selezionare le etichette esistenti, fare clic su ![Giù](/help/creative/assets/chevron-down.png "Giù") e selezionare la casella di controllo accanto a ogni etichetta da applicare.
 
@@ -98,7 +98,7 @@ Per i nuovi creativi, le seguenti impostazioni non si trovano in una scheda deno
 
 **Lingua:** lingua predefinita per ogni annuncio a cui si associano i creativi. Quando carichi o modifichi più creativi, lo stesso valore viene applicato a ciascun creativo selezionato.
 
-**Dimensione creativa:** (sola lettura per i creativi esistenti) Dimensioni del creativo. Se le immagini incluse nel contenuto creativo sono più grandi delle dimensioni specificate, vengono ridimensionate di conseguenza.
+**Dimensioni Creative:** (sola lettura per i creativi esistenti) dimensioni del contenuto creativo. Se le immagini incluse nel contenuto creativo sono più grandi delle dimensioni specificate, vengono ridimensionate di conseguenza.
 
 **[!UICONTROL Click Tags]:** (solo creatività HTML5 statica) Le variabili che consentono il reindirizzamento del tracciamento dei clic dagli annunci banner inclusi. I nomi delle variabili e gli URL della pagina di destinazione corrispondenti vengono compilati dall’unità creativa caricata, ma puoi modificare gli URL predefiniti. Per più creativi, puoi modificare i singoli tag di clic.
 
