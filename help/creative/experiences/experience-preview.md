@@ -3,7 +3,7 @@ title: Visualizzare l’anteprima di un’esperienza
 description: Scopri come visualizzare in anteprima i creativi in un’esperienza di annuncio.
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-source-git-commit: 278104fb09797e781894a6894a0a53db4a8e28f8
+source-git-commit: ae226015d1a8a3da4ea2a0db0db31858e750b9a7
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 0%
@@ -104,7 +104,7 @@ Puoi visualizzare in anteprima i creativi con una dimensione di annuncio specifi
 
 1. (Facoltativo) Per copiare un URL demo dell&#39;esperienza da condividere con altre persone senza accesso a [!DNL Creative]:
 
-   1. In alto a destra nell&#39;anteprima, fai clic su ![Condividi](/help/creative/assets/share2.png "Condividi").
+   1. In alto a destra nell&#39;anteprima, fai clic su ![Condividi](/help/creative/assets/share.png "Condividi").
 
    1. Nella finestra di dialogo [!UICONTROL Share Demo URL], fai clic su **[!UICONTROL Copy]** per copiare l&#39;URL negli Appunti e condividerlo con un altro utente.
 
