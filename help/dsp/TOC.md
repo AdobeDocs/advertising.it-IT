@@ -4,9 +4,9 @@ user-guide-title: Guida di Advertising DSP
 user-guide-description: Scopri le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire e ottimizzare le strategie degli annunci display con Advertising DSP e creare i relativi rapporti.
 breadcrumb-title: Guida di DSP
 index: true
-source-git-commit: c5a4837f1a8439b3fc2565ae78fdf00d6cdb8b75
+source-git-commit: 2e69bc68ca4553d6e908b766cb236c1b582bc1a2
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '949'
 ht-degree: 3%
 
 ---
@@ -32,8 +32,8 @@ ht-degree: 3%
       + [Soluzioni multi-dispositivo](/help/dsp/introduction/features/cross-device-solutions.md)
    + [Finanziamento account](/help/dsp/introduction/billing/account-funding.md)
    + [Valute supportate](/help/dsp/currency.md)
-   + [Supporto per la privacy del consumatore](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=it)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [Criteri e linee guida](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=it)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Supporto per la privacy del consumatore](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Criteri e linee guida](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [Soluzioni avanzate di misurazione](/help/dsp/introduction/advanced-measurement-services.md)
 + Gestione delle campagne {#campaign-management}
    + [Panoramica della struttura di gestione delle campagne](/help/dsp/campaign-management/campaign-management-overview.md)
@@ -83,7 +83,7 @@ ht-degree: 3%
       + [Rivedere I Dettagli Dell’Annuncio Utilizzando I Fogli Di Calcolo](/help/dsp/campaign-management/ads/ad-qa.md)
       + [Modificare un annuncio](/help/dsp/campaign-management/ads/ad-edit.md)
       + [Duplicare un annuncio](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [Allega annunci ai posizionamenti](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=it)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
+      + [Allega annunci ai posizionamenti](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
       + [Elencare i posizionamenti associati a un annuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [Visualizzare un rapporto dettagliato per un annuncio](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [Sospendere o attivare un annuncio](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -197,6 +197,7 @@ ht-degree: 3%
       + [Modifica impostazioni offerta [!UICONTROL Simple Ad Serving]](/help/dsp/inventory/simple-deal-edit.md)
       + [Impostazioni offerta [!UICONTROL Simple Ad Serving]](/help/dsp/inventory/simple-deal-settings.md)
    + [Visualizzare un rapporto dettagliato per un&#39;offerta](/help/dsp/inventory/deal-view-report.md)
+   + [Gestire gli elenchi di offerte](/help/dsp/inventory/lists-deals-manage.md)
 + Rapporti personalizzati {#custom-reports}
    + [Informazioni sui report personalizzati](/help/dsp/reports/report-about.md)
    + [Creare un rapporto personalizzato](/help/dsp/reports/report-create.md)
@@ -223,6 +224,8 @@ ht-degree: 3%
    + [Esportare una previsione per un piano di copertura TV connessa](/help/dsp/planner/planner-export.md)
    + [Rigenerare la previsione per un piano di copertura TV collegato](/help/dsp/planner/planner-forecast.md)
    + [Archiviare un piano di portata TV collegato](/help/dsp/planner/planner-archive.md)
++ Risorse {#resources}
+   + [Gestisci elenchi URL](/help/dsp/resources/lists-url-manage.md)
 + Amministrazione {#admin}
    + [Modifica il profilo](/help/dsp/admin/user-own-profile-edit.md)
    + Utenti {#users}
@@ -235,6 +238,6 @@ ht-degree: 3%
    + Notifiche {#notifications}
       + [Informazioni sulle sottoscrizioni di avvisi](/help/dsp/admin/alerts-about.md)
       + [Gestire le sottoscrizioni agli avvisi](/help/dsp/admin/alerts-manage.md)
-+ [Integrazioni con Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=it)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
++ [Integrazioni con Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + [Ottieni aiuto](/help/dsp/get-help.md)
-+ [Note sulla versione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it)
++ [Note sulla versione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)

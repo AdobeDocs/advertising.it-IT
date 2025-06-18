@@ -3,9 +3,9 @@ title: Impostazioni di posizionamento
 description: Consulta le descrizioni delle impostazioni di posizionamento disponibili.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: fd3805096f97ba572afb4a5573ae0e2f5ec17a6f
+source-git-commit: 1478e61ebd7dac59cac7566b86e5b1ea97838508
 workflow-type: tm+mt
-source-wordcount: '4255'
+source-wordcount: '4477'
 ht-degree: 0%
 
 ---
@@ -177,9 +177,9 @@ Includere un codice postale per riga oppure immettere più valori separati da vi
 
   È possibile visualizzare l’elenco in base all’origine o al feed. Quando visualizzi l’elenco per feed, puoi eseguire ricerche per nome di feed, chiave di feed o un tag di caratteristica selezionato.
 
-* [!UICONTROL Private] | [!UICONTROL Roku Private]: le tue offerte private esistenti (o offerte private [!DNL Roku] esistenti per [!DNL Roku] posizionamenti) con editori che hai configurato in DSP. È possibile includere ma non escludere l&#39;inventario pubblico.
+* [!UICONTROL Private] | [!UICONTROL Roku Private]: le tue offerte private esistenti (o offerte private [!DNL Roku] esistenti per [!DNL Roku] posizionamenti) con gli editori che hai configurato in DSP e i tuoi [elenchi di offerte private](/help/dsp/inventory/lists-deals-manage.md) esistenti. È possibile includere ma non escludere l&#39;inventario pubblico.
 
-  Puoi cercare l’elenco per parola chiave, chiave, ID offerta o tag personalizzato.
+  Dalla scheda [!UICONTROL Deals], puoi cercare l&#39;elenco per parola chiave, chiave, ID offerta o tag personalizzato. Dalla scheda [!UICONTROL Deal Lists], puoi cercare l&#39;elenco per nome o ID dell&#39;elenco delle offerte.
 
    * *[!UICONTROL Ensure Fixed or Floor Price for the bid]*: (Facoltativo) Sostituisce l&#39;algoritmo del prezzo dell&#39;offerta per offrire almeno i prezzi fissi e minimi per le offerte.
 
@@ -199,12 +199,15 @@ Per specificare il targeting dell&#39;inventario:
       1. ([!UICONTROL Public] e [!UICONTROL On Demand] inventario) Fare clic su **[!UICONTROL View by Source]** o **[!UICONTROL View by Feed]** per modificare l&#39;elenco delle origini.
       1. (Se applicabile) Filtra l’inventario in base alle esigenze.
       1. Specificare le origini da includere ed escludere:
-         * Per includere un&#39;origine [!UICONTROL Public] o [!UICONTROL On Demand], fare clic su **[!UICONTROL Include]** accanto al nome dell&#39;origine.
-         * Per includere [!UICONTROL Private] origini:
-            * Per includere tutte le scorte in un&#39;offerta, fare clic su **[!UICONTROL Include all]** accanto al nome dell&#39;offerta.
-            * Per includere una singola origine di magazzino, espandere il nome dell&#39;offerta e quindi fare clic sulla casella di controllo accanto al nome dell&#39;origine.
-         * Per escludere [!UICONTROL Public] o [!UICONTROL On source], fare clic su **[!UICONTROL Exclude]** accanto al nome di origine.
-   1. (Facoltativo) Per scaricare un file CSV con le informazioni di targeting nel percorso Download del browser, fai clic su **[!UICONTROL Save & Export]**.
+         * Per [!UICONTROL Public] o [!UICONTROL On Demand] inventario:
+            * Per includere un&#39;origine, fare clic su **[!UICONTROL Include]** accanto al nome dell&#39;origine.
+            * Per escludere un&#39;origine, fare clic su **[!UICONTROL Exclude]** accanto al nome dell&#39;origine.
+         * Per inventario [!UICONTROL Private]:
+            * Nella scheda [!UICONTROL Deals]:
+               * Per includere tutte le scorte in un&#39;offerta, fare clic su **[!UICONTROL Include all]** accanto al nome dell&#39;offerta.
+               * Per includere una singola origine di magazzino, espandere il nome dell&#39;offerta e quindi fare clic sulla casella di controllo accanto al nome dell&#39;origine.
+            * Nella scheda [!UICONTROL Deal Lists], fare clic sulla casella di controllo accanto al nome dell&#39;elenco delle offerte.
+   1. (Facoltativo) Per scaricare un file CSV con le informazioni di targeting nel percorso Download del browser, fai clic su **[!UICONTROL Export]**.
    1. Fare clic su **[!UICONTROL Save]**.
 
 >[!TIP]
@@ -256,30 +259,34 @@ Per specificare il targeting dell&#39;inventario:
 1. (Facoltativo) Per scaricare un file CSV con le informazioni di targeting nel percorso Download del browser, fai clic su **[!UICONTROL Export]**.
 1. Fare clic su **[!UICONTROL Save]**.
 
-**[!UICONTROL Exclude Sites or Apps]:** (facoltativo; disponibile quando **[!UICONTROL Paste list of targeted sites]** è *[!UICONTROL Off]*) Siti da escludere. È possibile cercare e selezionare i siti oppure immettere o incollare i nomi di dominio:
+**[!UICONTROL Exclude Sites or Apps]:** (facoltativo; disponibile quando **[!UICONTROL Paste list of targeted sites]** è *[!UICONTROL Off]*) Siti/app e [elenchi URL](/help/dsp/resources/lists-url-manage.md) da escludere. Dalla scheda [!UICONTROL Paste URL] è possibile cercare e selezionare siti oppure immettere o incollare nomi di dominio. Dalla scheda [!UICONTROL URL Lists], è possibile selezionare gli elenchi URL.
 
 1. Fai clic su ![Modifica](/help/dsp/assets/edit.png).
 1. Specificare i siti:
-   * Per cercare un sito:
-      1. Fare clic su **[!UICONTROL Search]**.
-      1. Immettere una parola chiave, selezionare un livello del sito e/o selezionare una categoria del sito.
-      1. Nei risultati della ricerca, seleziona i siti da escludere:
-         * Per escludere un singolo sito, selezionare la casella di controllo adiacente.
-         * (Quando sono disponibili più di 50 risultati) Per escludere i primi 50 risultati, fare clic su **[!UICONTROL Exclude these 50]**. Per escludere tutti i risultati della ricerca, fare clic su **[!UICONTROL Exclude these \<*NN *\>]**.
-   * Per immettere i nomi di dominio:
-      1. Fare clic su **[!UICONTROL Paste]**.
-      1. Immetti uno o più nomi di dominio su righe separate.
-      1. Fare clic su **[!UICONTROL Exclude All]**.
+   * Dalla scheda [!UICONTROL Paste URL]:
+      * Per cercare un sito:
+         1. Fare clic su **[!UICONTROL Search]**.
+         1. Immettere una parola chiave, selezionare un livello del sito e/o selezionare una categoria del sito.
+         1. Nei risultati della ricerca, seleziona i siti da escludere:
+            * Per escludere un singolo sito, selezionare la casella di controllo adiacente.
+            * (Quando sono disponibili più di 50 risultati) Per escludere i primi 50 risultati, fare clic su **[!UICONTROL Exclude these 50]**. Per escludere tutti i risultati della ricerca, fare clic su **[!UICONTROL Exclude these \<*NN *\>]**.
+      * Per immettere i nomi di dominio:
+         1. Fare clic su **[!UICONTROL Paste]**.
+         1. Immetti uno o più nomi di dominio su righe separate.
+         1. Fare clic su **[!UICONTROL Exclude All]**.
+   * Dalla scheda [!UICONTROL URL Lists]:
+      1. (Facoltativo) Cerca un elenco URL inserendo tutto o parte del nome dell’elenco nel campo di ricerca.
+      1. Seleziona la casella di controllo accanto a ciascun elenco URL da escludere.
 1. Al termine, fai clic su **[!UICONTROL Done]**.
 
 >[!NOTE]
 >
 >* Vengono applicati anche elenchi di siti bloccati a livello di account e di inserzionista, oltre all&#39;[elenco di siti bloccati a livello globale](/help/dsp/introduction/features/brand-safety-media-quality.md) di DSP, che include siti ritenuti non sicuri per gli annunci.
->* Gli elenchi di siti bloccati sostituiscono sempre gli elenchi di siti di destinazione. Se un posizionamento esclude e include lo stesso target per un annuncio, il target viene escluso.
+>* Gli elenchi di siti bloccati sovrascrivono sempre i siti di destinazione e gli elenchi di siti. Se un posizionamento esclude e include lo stesso target per un annuncio, il target viene escluso.
 
 **[!UICONTROL Language]:** (Facoltativo) Una singola lingua di destinazione.
 
-**[!UICONTROL Site or App List Preview]:** (sola lettura) Tutti i siti di destinazione e bloccati per il posizionamento.
+**[!UICONTROL Site or app list preview]:** (sola lettura) Tutti i siti/app di destinazione e bloccati per il posizionamento, inclusi i siti/le app a livello di account, inserzionista e gli elenchi globali di siti bloccati di DSP.
 
 Facoltativamente, puoi esportare l’elenco dei siti di destinazione e dei siti bloccati come file con valori separati da virgola (CSV). Per esportare l&#39;elenco, fare clic su **[!UICONTROL Export full site list]**, quindi aprire o salvare il file in base alla normale procedura del browser.
 
@@ -287,21 +294,30 @@ Facoltativamente, puoi esportare l’elenco dei siti di destinazione e dei siti 
 
 **[!UICONTROL Paste list of targeted sites]:** consente di eseguire il targeting solo di siti specifici. Quando si attiva questa opzione, le altre opzioni di targeting del sito vengono disattivate.
 
-**[!UICONTROL Sites]:** (disponibile quando **[!UICONTROL Paste list of targeted sites]** è *[!UICONTROL On]*) Siti di destinazione. È possibile cercare e selezionare i siti oppure immettere o incollare i nomi di dominio:
+**[!UICONTROL Sites or Apps]:** (disponibile quando **[!UICONTROL Paste list of targeted sites]** è *[!UICONTROL On]*) Siti di destinazione. Dalla scheda [!UICONTROL Paste URL] è possibile cercare e selezionare siti oppure immettere o incollare nomi di dominio. Dalla scheda [!UICONTROL URL Lists], è possibile selezionare gli elenchi URL.
 
 1. Fai clic su ![Modifica](/help/dsp/assets/edit.png).
 1. Specificare i siti:
-   * Per cercare un sito:
-      1. Fare clic su **[!UICONTROL Search]**.
-      1. Immettere una parola chiave, selezionare un livello del sito e/o selezionare una categoria del sito.
-      1. Nei risultati della ricerca, selezionare i siti da includere:
-         * Per escludere un singolo sito, selezionare la casella di controllo adiacente.
-         * (Quando sono disponibili più di 50 risultati) Per includere i primi 50 risultati, fare clic su **[!UICONTROL Include these 50]**. Per includere tutti i risultati della ricerca, fare clic su **[!UICONTROL Include these \<*NN *\>]**.
-   * Per immettere i nomi di dominio:
-      1. fare clic su **[!UICONTROL Paste]**.
-      1. Immetti uno o più nomi di dominio su righe separate.
-      1. Fare clic su **[!UICONTROL Include All]**.
-1. Fare clic su **[!UICONTROL Done]**.
+   * Dalla scheda [!UICONTROL Paste URL]:
+      * Per cercare un sito:
+         1. Fare clic su **[!UICONTROL Search]**.
+         1. Immettere una parola chiave, selezionare un livello del sito e/o selezionare una categoria del sito.
+         1. Nei risultati della ricerca, selezionare i siti da includere:
+            * Per includere un singolo sito, selezionare la casella di controllo adiacente.
+            * (Quando sono disponibili più di 50 risultati) Per includere i primi 50 risultati, fare clic su **[!UICONTROL Include these 50]**. Per includere tutti i risultati della ricerca, fare clic su **[!UICONTROL Include these \<*NN *\>]**.
+      * Per immettere i nomi di dominio:
+         1. Fare clic su **[!UICONTROL Paste]**.
+         1. Immetti uno o più nomi di dominio su righe separate.
+         1. Fare clic su **[!UICONTROL Include All]**.
+   * Dalla scheda [!UICONTROL URL Lists]:
+      1. (Facoltativo) Cerca un elenco URL inserendo tutto o parte del nome dell’elenco nel campo di ricerca.
+      1. Seleziona la casella di controllo accanto a ciascun elenco URL da includere.
+1. Al termine, fai clic su **[!UICONTROL Done]**.
+
+>[!NOTE]
+>
+>* Vengono applicati anche elenchi di siti bloccati a livello di account e di inserzionista, oltre all&#39;[elenco di siti bloccati a livello globale](/help/dsp/introduction/features/brand-safety-media-quality.md) di DSP, che include siti ritenuti non sicuri per gli annunci.
+>* Gli elenchi di siti bloccati sovrascrivono sempre i siti di destinazione e gli elenchi di siti. Se un posizionamento esclude e include la stessa destinazione per un annuncio, la destinazione viene esclusa.È possibile cercare e selezionare siti oppure immettere o incollare nomi di dominio:
 
 ## [!UICONTROL Audience Targeting]
 

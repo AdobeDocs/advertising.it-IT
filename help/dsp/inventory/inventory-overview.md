@@ -3,9 +3,9 @@ title: Panoramica delle funzioni di inventario in Advertising DSP
 description: Scopri le funzioni di inventario disponibili.
 feature: DSP On Demand Inventory, DSP Private Inventory, DSP Deal IDs
 exl-id: e55b9276-0d13-436e-9c09-968de963d551
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: c813954c0489d5cae067b3ea43d3527fc80c261a
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -18,17 +18,25 @@ Una volta che hai accesso o identificato le tue offerte di inventario in DSP, pu
 
 I tipi di inventario disponibili includono:
 
-* **[!DNL On Demand]Inventario:** Esplora le offerte prenegoziate, non garantite, curate da Adobe con i partner di pubblicazione premium.
+* **[!DNL On Demand]Inventario:** Esplora le offerte pre-negoziate, non garantite, curate da Adobe con i partner premium publisher.
 
 * **Inventario privato [!DNL Deal IDs]:** Imposta e gestisci le offerte del marketplace privato (PMP) che hai negoziato direttamente 1:1 con l&#39;editore.
 
 * **[!DNL Simple Ad Serving]:** utilizza una tecnologia semplificata per garantire la distribuzione e la generazione di rapporti degli annunci senza decisioni quando l&#39;editore non può eseguire l&#39;offerta tramite gli ID offerta.
 
-## Visualizzazione Offerte
+## Viste Offerte
 
-Puoi visualizzare tutte le offerte esistenti nella visualizzazione [!UICONTROL Inventory] > [!UICONTROL Deals]. Puoi personalizzare ulteriormente il modo in cui i dati delle offerte esistenti vengono presentati applicando filtri, personalizzando le colonne visibili e, facoltativamente, salvando viste personalizzate, ordinando le colonne e visualizzando i dati come grafici.
+* **[!UICONTROL Inventory]> [!UICONTROL Deals]:**
 
-Puoi anche creare e gestire impostazioni di offerte private e [!DNL Simple Ad Serving] offerte dalla visualizzazione [!UICONTROL Deals]. Per visualizzare e gestire l&#39;inventario [!DNL On Demand], passa a [!UICONTROL Inventory] > [!UICONTROL On Demand].
+   * Visualizza tutte le offerte esistenti.
+
+   * Puoi personalizzare ulteriormente il modo in cui i dati delle offerte esistenti vengono presentati applicando filtri, personalizzando le colonne visibili e, facoltativamente, salvando viste personalizzate, ordinando le colonne e visualizzando i dati come grafici.
+
+   * Crea e gestisci le impostazioni delle offerte private e [!DNL Simple Ad Serving] offerte.
+
+* **[!UICONTROL Inventory]> [!UICONTROL Deals]:** Visualizza e gestisci l&#39;inventario [!DNL On Demand].
+
+* **[!UICONTROL Inventory]> [!UICONTROL Deal Lists]:** raggruppa le offerte private in elenchi per facilitarne il targeting.
 
 >[!MORELIKETHIS]
 >

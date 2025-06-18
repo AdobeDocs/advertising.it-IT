@@ -3,9 +3,9 @@ title: Informazioni sull’inventario privato
 description: Informazioni sull’inventario privato
 feature: DSP Private Inventory
 exl-id: 34fc1926-a839-4f2d-8628-557542fb7835
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: c813954c0489d5cae067b3ea43d3527fc80c261a
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Gli inserzionisti che guardano oltre la RTB possono utilizzare l&#39;inventario 
 
 ## ID offerta
 
-Se hai relazioni dirette con gli editori, puoi semplificare il processo e il flusso di lavoro di acquisto di contenuti multimediali utilizzando le offerte private, con l’inventario e i prezzi negoziati, nei tuoi posizionamenti Advertising DSP. L’DSP si integra con tutti gli editori quando configuri un account. Se in un secondo momento desideri accedere ad altri publisher, contatta il team dell&#39;account Adobe per configurare l&#39;accesso. <!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
+Se hai relazioni dirette con gli editori, puoi semplificare il processo e il flusso di lavoro di acquisto di contenuti multimediali utilizzando le offerte private, con l’inventario e i prezzi negoziati, nei tuoi posizionamenti Advertising DSP. Quando imposti un account, DSP si integra con tutti gli editori. Se desideri accedere ad altri editori in un secondo momento, contatta il team del tuo account Adobe per configurare l’accesso. <!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
 
 Tutte le tue offerte private con un ID offerta sono finanziate e fatturate da [!DNL Adobe].
 
@@ -40,9 +40,14 @@ La colonna &quot;Integrità dell’offerta&quot; indica lo stato di integrità d
 
 Puoi personalizzare il modo in cui i dati delle offerte esistenti vengono presentati applicando filtri, personalizzando le colonne visibili e, facoltativamente, salvando viste personalizzate, ordinando le colonne e visualizzando i dati come grafici.
 
+## Visualizzazione degli elenchi di offerte
+
+Nella visualizzazione [!UICONTROL Inventory] > [!UICONTROL Deal Lists], puoi raggruppare le offerte private in elenchi per facilitarne il targeting.
+
 >[!MORELIKETHIS]
 >
 >* [Panoramica delle funzionalità di inventario](/help/dsp/inventory/inventory-overview.md)
 >* [Informazioni su [!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-about.md)
 >* [Accetta un&#39;offerta nella casella in entrata dell&#39;ID offerta](deal-id-inbox-accept.md)
 >* [Crea manualmente dettagli ID offerta](deal-id-create.md)
+>* [Gestisci elenchi di offerte](/help/dsp/inventory/lists-deals-manage.md)

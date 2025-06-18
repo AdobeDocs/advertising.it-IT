@@ -3,7 +3,7 @@ title: Impostazioni report personalizzati
 description: Consulta le descrizioni delle impostazioni del rapporto personalizzato.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 195e75386e64c3659d3f4db3c2508ac903e9e311
+source-git-commit: 8e6d2a1d39231176f3836246958b82691fbb5006
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 0%
@@ -62,7 +62,11 @@ Questa sezione determina le date di esecuzione del rapporto. Per impostare le da
 
 ## Sezione [!UICONTROL Apply Filters]
 
-**[!UICONTROL Filter by]:** (facoltativo) dimensioni aggiuntive in base alle quali filtrare i dati, indipendentemente dal fatto che le dimensioni siano incluse o meno come colonne nel report. I filtri disponibili variano in base al tipo di report e possono includere: *[!UICONTROL Account]*\*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, * *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]* e *[!UICONTROL Video Duration]*.
+**[!UICONTROL Filter by]:** (facoltativo) dimensioni aggiuntive in base alle quali filtrare i dati, indipendentemente dal fatto che le dimensioni siano incluse o meno come colonne nel report. I filtri disponibili variano in base al tipo di report e possono includere: *[!UICONTROL Account]*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]* e *[!UICONTROL Video Duration]*.
+
+<!-- Add when available:
+*[!UICONTROL Deal ID]*, *[!UICONTROL Deal List]*, 
+-->
 
 Per applicare uno o più filtri, effettuare le seguenti operazioni:
 
@@ -113,13 +117,13 @@ Per le descrizioni di tutte le opzioni, vedere &quot;[Colonne report disponibili
 
 **[!UICONTROL Attribution Rule Settings]:** Le impostazioni variano in base al tipo di report:
 
-* **\[Tipo di attribuzione\]:** ([!UICONTROL Household Conversion] report con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] colonne; solo per gli inserzionisti con Adobe Advertising di tracciamento delle conversioni) All&#39;interno del report, come attribuire i dati di conversione in una serie di eventi che portano a una conversione:
+* **\[Tipo di attribuzione\]:** ([!UICONTROL Household Conversion] report con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] colonne; solo per gli inserzionisti con tracciamento delle conversioni di Adobe Advertising) All&#39;interno del report, come attribuire i dati di conversione in una serie di eventi che portano a una conversione:
 
    * *[!UICONTROL Unique]:* (impostazione predefinita) Conta il numero di volte in cui un valore di dimensione (ad esempio un dispositivo o un posizionamento) si trovava nel percorso di conversione.
 
    * *[!UICONTROL Multi-Touch Attribution (MTA)]:* distribuisce il credito di ogni conversione in base alla frequenza di occorrenza del valore di dimensione (ad esempio un dispositivo o un posizionamento) nel percorso di conversione. Ad esempio, se il totale delle impression prima della conversione era 10, con 8 su CTV e 2 su Mobile, l&#39;80% del credito (0,8) viene assegnato agli schermi CTV e 0,2 a Mobile.
 
-* **\[Tipo di regola\]:** (tutti i report [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment] e [!UICONTROL Site] con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] colonne; solo per gli inserzionisti con Adobe Advertising di tracciamento delle conversioni) All&#39;interno del report, come attribuire i dati di conversione in una serie di eventi che portano a una conversione. Puoi scegliere più di una regola se desideri confrontare le differenze tra le regole.
+* **\[Tipo di regola\]:** (tutti i report [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment] e [!UICONTROL Site] con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] colonne; solo per gli inserzionisti con tracciamento delle conversioni di Adobe Advertising) All&#39;interno del report, come attribuire i dati di conversione in una serie di eventi che portano a una conversione. Puoi scegliere più di una regola se desideri confrontare le differenze tra le regole.
 
   >[!NOTE]
   >
@@ -137,13 +141,13 @@ Per le descrizioni di tutte le opzioni, vedere &quot;[Colonne report disponibili
 
    * *[!UICONTROL U-shaped]:* attribuisce la conversione a tutti gli eventi nel percorso di conversione, ma attribuisce il maggior peso al primo e all&#39;ultimo evento, con un peso progressivamente inferiore agli eventi nel mezzo del percorso di conversione.
 
-   * *[!UICONTROL Display Only]:* attribuisce le conversioni all&#39;ultimo clic o impression DSP nel percorso di conversione. Ciò include video e annunci TV connessi ed esclude i clic sugli annunci [!DNL Advertising Search, Social, & Commerce].
+   * *[!UICONTROL Display Only]:* attribuisce le conversioni all&#39;ultimo clic o impression di DSP nel percorso di conversione. Ciò include video e annunci TV connessi ed esclude i clic sugli annunci [!DNL Advertising Search, Social, & Commerce].
 
    * *[!UICONTROL Social Only]:* Obsoleto
 
-Vedi anche &quot;[Modalità di calcolo delle regole di attribuzione, ad Adobe Advertising](/help/search-social-commerce/reports/attribution-rules.md).&quot;
+Vedere anche &quot;[Modalità di calcolo delle regole di attribuzione per Adobe Advertising](/help/search-social-commerce/reports/attribution-rules.md).&quot;
 
-* **Lookback:** ([!UICONTROL Household Conversion] report con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] colonne e [!UICONTROL Path to Conversion], [!UICONTROL Path Length] o [!UICONTROL Time to Conversion] report solo con [!UICONTROL Conversion Metrics] colonne; solo per gli inserzionisti con Adobe Advertising di tracciamento delle conversioni) All&#39;interno del report, il numero massimo di giorni dopo un evento di impression o un evento di clic (per [!UICONTROL Path to Conversion], [!UICONTROL Path Length] o [!UICONTROL Time to Conversion] report) in cui è possibile attribuire un evento di conversione. Il valore predefinito è *[!UICONTROL 30 days]* e il massimo è 92 giorni.
+* **Lookback:** ([!UICONTROL Household Conversion] report con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] colonne e [!UICONTROL Path to Conversion], [!UICONTROL Path Length] o [!UICONTROL Time to Conversion] report solo con [!UICONTROL Conversion Metrics] colonne; solo per gli inserzionisti con monitoraggio delle conversioni di Adobe Advertising) All&#39;interno del report, il numero massimo di giorni dopo un evento di impression o un evento di clic (per [!UICONTROL Path to Conversion], [!UICONTROL Path Length] o [!UICONTROL Time to Conversion] report) in cui è possibile attribuire un evento di conversione. Il valore predefinito è *[!UICONTROL 30 days]* e il massimo è 92 giorni.
 
   >[!TIP]
   >
@@ -179,7 +183,7 @@ Vedi anche &quot;[Modalità di calcolo delle regole di attribuzione, ad Adobe Ad
 
 * *[!UICONTROL FTP]:* Per inviare il report completato a uno o più percorsi FTP, che è necessario selezionare nel campo **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (attualmente in Beta):* Per inviare il report completato a uno o più percorsi SSL FTP, che è necessario selezionare nel campo **[!UICONTROL Destination Name]**.
+* *[!UICONTROL FTP SSL](attualmente in Beta):* Per inviare il report completato a uno o più percorsi SSL FTP, che è necessario selezionare nel campo **[!UICONTROL Destination Name]**.
 
 * *[!UICONTROL Email]:* Specificare gli indirizzi e-mail a cui inviare i report completati o le notifiche se il report viene annullato a causa di errori.
 
