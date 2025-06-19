@@ -3,9 +3,9 @@ title: Creare un’esperienza senza targeting della struttura decisionale
 description: Scopri come creare un’esperienza di annuncio senza targeting.
 feature: Creative Experiences
 exl-id: 327b1df5-5663-4513-9238-f481370c8c38
-source-git-commit: a738fed8aea38be2ca0adad08d084a383350d892
+source-git-commit: 9807b2e78376eb3a078d680583c3b2f6fae7a1d1
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ Crea un’esperienza di annuncio senza targeting. Ogni esperienza può utilizzar
 1. (Facoltativo) Continua a configurare l&#39;esperienza:
 
    * [Creare manualmente un tag annuncio per una dimensione creativa applicabile](experience-tag-create-manually.md).
+
+     Puoi quindi [esportare il tag annuncio e implementarlo in un DSP](/help/creative/experiences/experience-tag-export.md).
 
      [!DNL Creative] non crea automaticamente tag annuncio per esperienze non di destinazione.
 
