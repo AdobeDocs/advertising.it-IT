@@ -3,9 +3,9 @@ title: Creare un’esperienza con il targeting dell’albero decisionale
 description: Scopri come creare un’esperienza pubblicitaria mirata utilizzando una struttura decisionale.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 9807b2e78376eb3a078d680583c3b2f6fae7a1d1
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,8 @@ Crea un’esperienza pubblicitaria mirata utilizzando una struttura decisionale.
 
 >[!NOTE]
 >
-> Dopo aver creato un’esperienza con targeting, non puoi modificarla in un’esperienza non con targeting, che utilizza un flusso di lavoro diverso.
+>* Dopo aver creato un’esperienza con targeting, non puoi modificarla in un’esperienza non con targeting, che utilizza un flusso di lavoro diverso.
+>* Assicurati che le esperienze dell’annuncio includano un targeting compatibile con le campagne in cui lo implementerai. Il comportamento di targeting gerarchico può variare a seconda di DSP. Quando carichi un tag di esperienza di annuncio in Advertising DSP e lo alleghi a un posizionamento, il targeting a livello di annuncio viene applicato sul targeting a livello di posizionamento (non al suo posto). Ad esempio, se un posizionamento ha come target gli utenti in Australia e un annuncio ha come target gli utenti in Giappone, l’annuncio avrà come target il ramo &quot;Tutti gli altri&quot;.
 
 1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 

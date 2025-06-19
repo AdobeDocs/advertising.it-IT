@@ -3,9 +3,9 @@ title: Impostazioni delle esperienze mirate
 description: Vedi le descrizioni di tutte le impostazioni per le esperienze annuncio mirate.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: a7b5a4e55c2ea66a4ca74a517ea3d90336021e30
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Una volta salvata l&#39;esperienza, non puoi modificare questa impostazione.
 
 ## [!UICONTROL Advanced] sezione
 
-**Passaggio dati:** (sola lettura per esperienze esistenti; facoltativo) per eseguire il targeting degli utenti in base a coppie chiave-valore specifiche passate in tempo reale su impression da DSP, publisher o partner. Puoi specificare fino a cinque chiavi predefinite per il passaggio dei dati (parametri). Quando imposti il targeting all’interno della struttura decisionale, puoi includere un livello di nodi di destinazione del passaggio dei dati, personalizzare facoltativamente le chiavi e specificare i valori di destinazione per ciascun nodo. Se non specifichi alcuna chiave in questo campo quando crei l’esperienza, puoi comunque specificarla all’interno della struttura decisionale.
+**Passaggio dati:** (sola lettura per le esperienze esistenti; facoltativo) per eseguire il targeting degli utenti in base a coppie chiave-valore specifiche passate in tempo reale da DSP, publisher o partner su impression (ad esempio SKU=01234567890123 o Cart=empty). Puoi specificare fino a cinque chiavi predefinite per il passaggio dei dati (parametri). Quando imposti il targeting all’interno della struttura decisionale, puoi includere un livello di nodi di destinazione del passaggio dei dati, personalizzare facoltativamente le chiavi e specificare i valori di destinazione per ciascun nodo. Se non specifichi alcuna chiave in questo campo quando crei l’esperienza, puoi comunque specificarla all’interno della struttura decisionale.
 
 A ogni chiave viene aggiunta una macro nel tag esperienza annuncio, che puoi generare per implementare come annuncio nel DSP.
 

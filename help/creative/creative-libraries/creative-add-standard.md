@@ -3,9 +3,9 @@ title: Aggiungere creatività standard a una libreria creativa
 description: Scopri come aggiungere creatività standard (non dinamica) a una libreria creativa.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 98ae35b8ef428d662e329ba6dd77e28216575ae1
+source-git-commit: bfb2dccf08ae79ca8f338a0423176f1d3309d4fc
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '911'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Aggiungi dei creativi alle [librerie creative](creative-library-manage.md) da ut
 
 ### Aggiungere creatività flessibili utilizzando un modello {#flexible-creative-use-template}
 
-Puoi utilizzare uno qualsiasi dei modelli creativi flessibili caricati sul tuo account per creare annunci di dimensioni predefinite. Dopo aver selezionato un modello da utilizzare, è possibile modificare i tag e gli attributi dei clic.&lt;!— Sostituire l&#39;ultima frase con questa se si aggiunge nuovamente la funzionalità di download del modello: è possibile selezionare un\) modello da utilizzare, quindi modificare i tag e gli attributi dei clic; oppure b\) [scaricare un modello come file ZIP](#download-flexible-creative-template), modificare il contenuto offline per creare la propria creatività, quindi [caricare il file modificato come nuovo file creativo] (flexible-creative-upload).>
+Puoi utilizzare uno qualsiasi dei modelli creativi flessibili caricati sul tuo account per creare annunci di dimensioni predefinite. Dopo aver selezionato un modello da utilizzare, è possibile modificare i tag e gli attributi dei clic.&lt;!— Sostituire l&#39;ultima frase con questa se si aggiunge nuovamente la funzionalità di download del modello: è possibile selezionare un\) modello da utilizzare, quindi modificare i tag e gli attributi dei clic; oppure b\) [scaricare un modello come file ZIP](#download-flexible-creative-template), modificare il contenuto offline per creare la propria creatività, quindi [caricare il file modificato come nuovo file creativo](flexible-creative-upload).>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -169,7 +169,7 @@ I creativi delle immagini possono essere in formato GIF, JPEG, JPG o PNG. La dim
 
       * Fare clic su **[!UICONTROL select a file]** per individuare i file nel dispositivo o nella rete.
 
-   * Per le immagini in una [libreria Adobe Experience Manager connessa al tuo account DSP](/help/creative/creative-libraries/aem-assets-configure.md), effettua le seguenti operazioni:
+   * Per le immagini approvate in una [libreria Adobe Experience Manager connessa al tuo account DSP](/help/creative/creative-libraries/aem-assets-configure.md), effettua le seguenti operazioni:
 
       1. Fare clic su **[!UICONTROL AEM Asset Library]**.
 

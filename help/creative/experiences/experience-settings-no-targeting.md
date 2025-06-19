@@ -3,9 +3,9 @@ title: Impostazioni per esperienze non di destinazione
 description: Vedi le descrizioni di tutte le impostazioni per le esperienze pubblicitarie senza targeting della struttura decisionale.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: bd72dccf0c24c2408b4e6349842dae4b3ba93956
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Per le esperienze senza il targeting della struttura decisionale, è possibile s
 
 ## [!UICONTROL Advanced] sezione
 
-**Passaggio dati:** (solo esperienze con annunci dinamici; facoltativo) per indirizzare gli utenti in base a coppie chiave-valore specifiche passate in tempo reale su impression da DSP, publisher o partner. È possibile specificare fino a cinque chiavi di trasferimento dati (parametri).<!-- May move this to just within the decision tree. -->
+**Passaggio dati:** (solo esperienze con annunci dinamici; facoltativo) per eseguire il targeting degli utenti in base a coppie chiave-valore specifiche passate in tempo reale su impression da DSP, publisher o partner (ad esempio SKU=01234567890123 o Cart=empty). È possibile specificare fino a cinque chiavi di trasferimento dati (parametri).<!-- May move this to just within the decision tree. -->
 
 Quando crei un tag di esperienza annuncio per una dimensione creativa specifica, a ogni chiave specificata in questo campo viene aggiunta una macro nel tag. Immetti il valore di ogni coppia chiave-valore all’interno del tag prima di implementare il tag come annuncio nel DSP.
 

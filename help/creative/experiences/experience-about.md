@@ -3,9 +3,9 @@ title: Informazioni sulle esperienze in Advertising Creative
 description: Scopri come configurare esperienze pubblicitarie personalizzate e ottimizzare gli elementi pubblicitari in base alle prestazioni.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: a6d38953fa16a79f63bebe050e28fc14ed9a96f5
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
    * Posizioni geografiche specifiche, tra cui paesi, stati, DMA negli Stati Uniti, città e codici postali
 
-   * Visualizzatori per i quali specifiche coppie chiave-valore (destinazioni del passaggio dati) vengono passate da DSP, publisher o partner
+   * Visualizzatori per i quali specifiche coppie chiave-valore (destinazioni del passaggio dati) vengono passate da DSP, publisher o partner (ad esempio SKU=01234567890123 o Cart=empty)
 
    * [!DNL Creative] pixel di retargeting e valori di attributo specificati
 
@@ -38,12 +38,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Poiché i due tipi di esperienze hanno flussi di lavoro diversi, non puoi cambiare se utilizzare o meno il targeting della struttura decisionale dopo aver salvato l’esperienza. Ciò significa che non puoi trasformare un’esperienza non di destinazione in un’esperienza di destinazione. Allo stesso modo, non puoi trasformare un’esperienza con targeting in un’esperienza non con targeting.
+> Poiché i due tipi di esperienze hanno flussi di lavoro diversi, non puoi trasformare un’esperienza non di destinazione in un’esperienza di destinazione né viceversa.
 
 ## Ad serving e ottimizzazione degli annunci
 
 <!-- MORE -->
-<!--When multiple ad variants qualify for an impression-->
+<!-- When multiple ad variants qualify for an impression -->
 
 [!DNL Creative] fornisce annunci di prime parti e attiva annunci di terze parti per l&#39;esperienza in base al targeting specificato (se applicabile), alla pianificazione, alla rotazione degli annunci e alle opzioni degli obiettivi di ottimizzazione, nonché all&#39;inventario degli annunci disponibili.
 
@@ -61,6 +61,10 @@ Ad esempio, puoi pianificare l’esecuzione di Creative 1 nelle prime due settim
 
 Dopo aver creato un&#39;esperienza live (con tutti gli elementi annuncio richiesti), puoi [generare un tag JavaScript o iframe per l&#39;intera esperienza](experience-tag-export.md). Puoi caricare il tag esperienza come annuncio in una campagna in Adobe Advertising DSP o implementarlo come annuncio in un DSP di terze parti.
 
+>[!NOTE]
+>
+>Il comportamento di targeting gerarchico può variare a seconda di DSP. Advertising DSP applica il targeting a livello di annuncio oltre al targeting a livello di posizionamento.
+
 ## Dati sulle prestazioni per le esperienze
 
 Sono disponibili i seguenti dati sulle prestazioni:
@@ -68,10 +72,6 @@ Sono disponibili i seguenti dati sulle prestazioni:
 * Quando abiliti l&#39;opzione [!UICONTROL Metrics] nella visualizzazione [!UICONTROL Creative] > [!UICONTROL Experiences], ogni scheda o riga di esperienza indica il numero di impression e clic ricevuti dall&#39;esperienza.
 
   ![Opzione metriche](/help/creative/assets/metrics-option.png "Opzione metriche")
-
-  <!-- insert screen shot of Metrics option?  If not, then add instructions elsewhere -->
-
-  <!-- I don't see this as of 1/9; why only in the table view?   You can also add conversion columns in the table view. -->
 
 * Puoi [visualizzare dati dettagliati sulle prestazioni per qualsiasi esperienza](experience-performance-details.md) dalla vista [!UICONTROL Experiences].
 
