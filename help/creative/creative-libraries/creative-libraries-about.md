@@ -3,9 +3,9 @@ title: Informazioni sulle librerie creative
 description: Scopri come gestire i creativi delle esperienze pubblicitarie.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 915fd9e2aebf300a37a5b6fdac6aa3526bd09f50
+source-git-commit: 9782471837db19d14839027ea7a576484863bb69
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Puoi caricare creativi flessibili HTML5 come file ZIP o utilizzare uno dei model
 
 #### Creatività delle immagini
 
-Puoi includere creativi di immagini in formato GIF, JPEG, JPG o PNG. Puoi caricare immagini dagli account Adobe Experience Manager o immagini dal dispositivo o dalla rete.
+Puoi includere creativi di immagini in formato GIF, JPEG, JPG o PNG. Puoi caricare immagini approvate dagli account Adobe Experience Manager o immagini dal dispositivo o dalla rete.
 
 Ogni esperienza pubblicitaria richiede una creatività di immagine predefinita per ogni dimensione creativa assegnata all’esperienza.
 
