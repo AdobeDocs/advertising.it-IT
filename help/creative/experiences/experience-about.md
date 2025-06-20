@@ -3,9 +3,9 @@ title: Informazioni sulle esperienze in Advertising Creative
 description: Scopri come configurare esperienze pubblicitarie personalizzate e ottimizzare gli elementi pubblicitari in base alle prestazioni.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
+source-git-commit: 0392c4b152d554726fb4a31e1e31e204f116fca3
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
   Le opzioni di targeting includono:
 
-   * I segmenti di pubblico primario da Adobe Audience Manager, Adobe Analytics e Advertising Cloud DSP
+   * I segmenti di pubblico primario da Adobe Audience Manager, Adobe Analytics e Advertising DSP; i segmenti personalizzati da Advertising DSP e i segmenti di terze parti forniti da Advertising DSP
 
    * Posizioni geografiche specifiche, tra cui paesi, stati, DMA negli Stati Uniti, città e codici postali
 
