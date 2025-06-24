@@ -42,7 +42,7 @@ Le tue credenziali attuali di DSP rimarranno attive fino al 15 luglio 2025, in m
 
 1. Scegli la tua organizzazione:
 
-   * Se richiesto, selezionare **Account personale&quot; oppure **Account aziendale o scolastico**.
+   * Se richiesto, selezionare **Account personale&quot; oppure &#x200B;** Account aziendale o scolastico**.
 
    * Se hai accesso a più organizzazioni IMS, seleziona quella corretta.
 
