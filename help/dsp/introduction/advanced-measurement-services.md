@@ -2,16 +2,18 @@
 title: Soluzioni avanzate di misurazione
 description: Consulta un elenco delle soluzioni disponibili per la misurazione avanzata.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: f1d657960beb667001341e191daaddbe03d931b0
+source-git-commit: da020e3f1740b79fceba8d45d75e2965ec6f41ef
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
 
 # Soluzioni avanzate di misurazione
 
-Gli inserzionisti spesso fanno fatica a capire dove dovrebbero spendere i loro migliori dollari mediatici futuri, o a quantificare l&#39;impatto dei loro annunci pubblicitari online. In un panorama basato sui dati, la misurazione dell’attribuzione fornisce una soluzione a questa sfida. Il team [!DNL Strategic Advertising Consulting] aiuta i partner del marchio e dell&#39;agenzia a misurare il modo in cui gli elementi delle loro connessioni [!DNL Adobe] prendono vita tramite la pubblicità. Con solide offerte di misurazione dell’attribuzione, il team aiuta a implementare strategie di targeting curate utilizzando un sofisticato framework di misurazione, rendendo facile per i brand collegare le loro decisioni sui media a risultati reali che guidano la loro attività. Il team può aiutarti a:
+Gli inserzionisti spesso faticano a capire come funzionano insieme i loro diversi canali mediatici, dove il loro prossimo dollaro mediatico dovrebbe essere speso meglio, o come quantificare l&#39;impatto delle loro pubblicità online rispetto agli obiettivi di business principali.
+
+In un panorama basato sui dati, la misurazione dell’attribuzione fornisce una soluzione a questa sfida. Il team AMS (Advanced Measurement &amp; Strategy) aiuta i partner del brand e delle agenzie a misurare il modo in cui gli elementi dei loro acquisti Adobe Advertising, in connessione con le loro integrazioni [!DNL Adobe], guidano i risultati. Con solide offerte di misurazione dell’attribuzione, AMS può implementare strategie di targeting curate utilizzando framework di misurazione sofisticati, consentendo ai brand di collegare facilmente i propri dollari dei contenuti multimediali a risultati reali che guidano la propria attività. Il team può aiutarti a:
 
 * Attiva studi di misurazione in campagne multimediali digitali full-funnel
 
@@ -25,52 +27,27 @@ Per verificare il successo delle campagne pubblicitarie, sono disponibili i segu
 
 * **Raggiungimento, frequenza e conversioni basate sulla famiglia**
 
-  Comprendi l’intera portata della campagna a livello di famiglia, nonché il contributo dei singoli schermi. Le opzioni di reporting includono:
+  Comprendi l&#39;estensione totale della campagna a livello domestico, nonché il contributo dei singoli schermi, per insight, in che modo la TV collegata (CTV) è parte integrante di un mix multimediale.
 
-   * Portata, frequenza e conversione domestica cross-ID (senza cookie)
+* **Effetto alone sui report di ricerca**
 
-     <!-- Hide for now * Quantify unique/incremental reach, overlap, and conversions at a household level by cookieless ID type (RampID, ID5) across multiple environments, including connected TV (CTV) and digital (desktop, mobile, native, and audio). -->
+  Quantifica l’impatto del televisore a colori e delle esposizioni agli annunci digitali sui clic di ricerca, le conversioni di ricerca e i ROAS a livello di famiglia.
 
-     <!-- Hide for now * Prove the effectiveness of testing cookieless IDs in finding incremental reach relative to cookie-based segments. -->
+* **Rapporti X-Screen+**
 
-   * Tempo medio di conversione
-
-   * Frequenza di conversione
-
-   * Reporting CTV
-
-   * Incrementalità app CTV
-
-   * Generazione rapporti cross-screen (digitale e TVCC)
-
-   * Generazione rapporti cross-screen plus (digitale, televisore e televisore)
-
-   * Frequenza e portata digitali all&#39;interno del segmento
+  Comprendi in che modo i canali CTV e digitali generano una portata familiare unica e incrementale rispetto alla pubblicità televisiva lineare tradizionale.
 
 * **Raggiungimento e conversioni basate sulle persone**
 
   Scopri in che modo i tipi di pubblico e le tattiche si sovrappongono a livello di persona, comprese le esposizioni in più ambienti digitali, come desktop, dispositivi mobili, nativi e audio.
 
-  <!-- Hide for now * **Cross-ID People-Based Reach**
-
-      Quantify the unique reach and overlap between cookies and RampIDs, as well as the cost per metric by ID type. Prove the effectiveness of testing RampIDs in finding incremental reach relative to cookie-based segments across multiple digital environments, such as desktop, mobile, native, and audio. -->
-
-* **Effetto alone sui report di ricerca**
-
-  Quantifica l’impatto del televisore a colori e delle esposizioni agli annunci digitali sulla capacità di guidare i clic di ricerca, le conversioni di ricerca e i ROAS a livello di famiglia tra app CTV, parole chiave di ricerca, motore di ricerca, pubblico personalizzato e livelli tattici.
-
-
-* **[!DNL Dynata]sondaggi basati su pannelli**
+* **Indagini basate su pannelli**
 
   Condurre indagini di controllo/esposte per determinare l’effetto dell’esposizione ad su metriche quali consapevolezza, familiarità e intento.
 
 * **Traffico Piedi**
 
-  Comprendi l’incrementalità guidata dall’esposizione agli annunci e come l’investimento multimediale sta causando cambiamenti nel comportamento di acquisto e visite incrementali con metriche quali effetto di incrementalità, costo per visita incrementale e approfondimenti sulle visite.
-
-* **Informazioni sulle transazioni**
-
-  Arricchisci la tua strategia di campagna con dati deterministici sulle vendite di crediti e debiti attraverso analisi di segmenti, mercati competitivi e acquirenti.
+  Scopri in che modo l’esposizione agli annunci influisce sulle visite in negozio e sulle visite incrementali con metriche quali l’effetto di incrementalità, il costo per visita incrementale e le informazioni sulle visite.
 
 * **Misurazione transazione**
 
@@ -78,42 +55,34 @@ Per verificare il successo delle campagne pubblicitarie, sono disponibili i segu
 
 * **Prova Designer (Test A/B)**
 
-  Confronta il comportamento e il sentiment di gruppi di campioni randomizzati e reciprocamente esclusivi con test A/B semplice e pulito.
+  Confrontare il comportamento di gruppi di campioni randomizzati e reciprocamente esclusivi con test A/B semplici e puliti.
 
 ## Trovare la misura perfetta Fit: Soluzioni di Vertical
 
-* **Qualsiasi verticale:**
-
-   * Sperimentazione Designer (test A/B e placebo)
-
-   * Raggiungimento e conversioni basate sulle persone
-
-     Qualsiasi organizzazione che desideri misurare diverse tattiche digitali; organizzazioni che desiderano mostrare il valore dell’audio
+* **Tutti i verticali:**
 
    * Misurazione della portata, della frequenza e della conversione per uso domestico
 
-     Qualsiasi cliente che desideri comprendere portata/portata incrementale e efficienze e/o metriche di conversione basate sui costi attraverso più tattiche digitali
+   * Misurazione dell&#39;effetto alone
 
-   * Misurazione cross-screen di portata, frequenza e conversione
+   * Misurazione della portata, della frequenza e della conversione dello schermo X
 
-     Qualsiasi cliente che desideri comprendere portata/portata incrementale e efficienze e/o metriche di conversione basate sui costi attraverso più tattiche digitali relative all’investimento nella TV lineare
+   * Raggiungimento e conversioni basate sulle persone
 
-   * Indagini basate su pannelli Dynata
+   * Indagini basate su panel
 
-     Qualsiasi cliente che desideri misurare la consapevolezza e la percezione del marchio su più schermi; ideale per tipi di pubblico di nicchia
+   * Sperimentazione Designer (test A/B e placebo)
 
-* **QSR, vendita al dettaglio (mattoni e mortaio):**
+* **QSR, vendita al dettaglio (mattoni e mortaio), viaggi:**
 
    * Misurazione delle transazioni
 
    * Misurazione del traffico di pedali
 
-* **QSR, vendita al dettaglio, viaggi:**
-
-   * Informazioni sulle transazioni
-
-     Qualsiasi cliente che desidera raggiungere un particolare tipo di acquirente per incrementare le vendite in-store e online
-
 ## Ulteriori informazioni
 
-Per informazioni su tutte le soluzioni di misurazione avanzate, con informazioni sui prezzi e sui formati e le aree disponibili per ciascuna soluzione, contatta il team dell’account Adobe. Su richiesta sono inoltre disponibili casi di studio specifici per la soluzione.
+Per informazioni su tutte le soluzioni di misurazione avanzate, con informazioni sui prezzi e sui formati e le aree geografiche disponibili per ciascuna soluzione, contatta il team del tuo account Adobe. Su richiesta sono inoltre disponibili casi di studio specifici per la soluzione.
+
+>[!MORELIKETHIS]
+>
+>[Valute supportate in Adobe Advertising](/help/dsp/currency.md)
