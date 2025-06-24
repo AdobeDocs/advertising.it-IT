@@ -3,7 +3,7 @@ title: Accedere a DSP
 description: Scopri come accedere a DSP.
 feature: DSP Introduction
 exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
-source-git-commit: a7e28cb2e37e1c9b6951f844b5f542ae2c8ac1a0
+source-git-commit: 143c7bfc38baca48abde323cbca7f582de234bc1
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Adobe Advertising DSP sta passando al servizio Adobe Identity Management (IMS) p
 
 * Puoi rimanere connesso per 24 ore invece di effettuare l&#39;accesso ogni ora.
 
-Le tue credenziali attuali di DSP rimarranno attive fino al 26 giugno 2025, in modo da poterti preparare per la modifica.
+Le tue credenziali attuali di DSP rimarranno attive fino al 15 luglio 2025, in modo da poterti preparare per la modifica.
 
 ## Utilizza un accesso legacy a DSP per l’autenticazione
 
@@ -42,15 +42,15 @@ Le tue credenziali attuali di DSP rimarranno attive fino al 26 giugno 2025, in m
 
 1. Scegli la tua organizzazione:
 
-   * Se richiesto, selezionare **Account personale&quot; oppure &#x200B;** Account aziendale o scolastico**.
+   * Se richiesto, selezionare **Account personale&quot; oppure **Account aziendale o scolastico**.
 
    * Se hai accesso a più organizzazioni IMS, seleziona quella corretta.
 
-Per ulteriori informazioni sull&#39;interfaccia di Experience Cloud, inclusa la gestione del profilo utente, vedere &quot;[Interfaccia e amministrazione di Experience Cloud](https://experienceleague.adobe.com/it/docs/core-services/interface/experience-cloud).&quot;
+Per ulteriori informazioni sull&#39;interfaccia di Experience Cloud, inclusa la gestione del profilo utente, vedere &quot;[Interfaccia e amministrazione di Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud).&quot;
 
 ### Risoluzione dei problemi
 
-Per problemi generali di accesso, vedere anche &quot;[Risoluzione dei problemi di accesso dell&#39;account Adobe](https://helpx.adobe.com/it/manage-account/kb/account-password-sign-help.linkfree.html).&quot;
+Per problemi generali di accesso, vedere anche &quot;[Risoluzione dei problemi di accesso dell&#39;account Adobe](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html).&quot;
 
 #### Esistono prerequisiti per abilitare un nuovo accesso IMS [!DNL Adobe]?
 
