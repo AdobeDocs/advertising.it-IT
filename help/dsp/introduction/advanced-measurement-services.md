@@ -2,7 +2,7 @@
 title: Soluzioni avanzate di misurazione
 description: Consulta un elenco delle soluzioni disponibili per la misurazione avanzata.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: da020e3f1740b79fceba8d45d75e2965ec6f41ef
+source-git-commit: 0c33bb9d2258b8b17808469d2a31032ce84a66a9
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Soluzioni avanzate di misurazione
 
-Gli inserzionisti spesso faticano a capire come funzionano insieme i loro diversi canali mediatici, dove il loro prossimo dollaro mediatico dovrebbe essere speso meglio, o come quantificare l&#39;impatto delle loro pubblicità online rispetto agli obiettivi di business principali.
+Gli inserzionisti spesso faticano a capire come funzionano insieme i loro diversi canali mediatici, dove il loro prossimo dollaro mediatico può essere speso meglio, o come quantificare l&#39;impatto delle loro pubblicità online rispetto agli obiettivi di business principali.
 
 In un panorama basato sui dati, la misurazione dell’attribuzione fornisce una soluzione a questa sfida. Il team AMS (Advanced Measurement &amp; Strategy) aiuta i partner del brand e delle agenzie a misurare il modo in cui gli elementi dei loro acquisti Adobe Advertising, in connessione con le loro integrazioni [!DNL Adobe], guidano i risultati. Con solide offerte di misurazione dell’attribuzione, AMS può implementare strategie di targeting curate utilizzando framework di misurazione sofisticati, consentendo ai brand di collegare facilmente i propri dollari dei contenuti multimediali a risultati reali che guidano la propria attività. Il team può aiutarti a:
 
