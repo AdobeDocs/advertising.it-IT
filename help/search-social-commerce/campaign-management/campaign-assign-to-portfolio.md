@@ -3,9 +3,9 @@ title: Assegnare campagne a un portfolio
 description: Scopri come includere le campagne nei portfolio per l’ottimizzazione.
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+source-git-commit: 0b5b7baaa4044af9bd86291385a5311cfc7410ee
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -14,13 +14,39 @@ ht-degree: 0%
 
 L’assegnazione di una campagna a un portfolio ottimizzato consente a Search, Social e Commerce di ottimizzare le offerte, il budget delle campagne e i target delle strategie di offerta per parole chiave e annunci nella campagna. È possibile assegnare le campagne a un portfolio dalla vista [!UICONTROL Campaigns], quando si crea il portfolio o modificandone le impostazioni.
 
-Non tutti i tipi di campagne e le reti pubblicitarie sono idonei per l&#39;ottimizzazione. Vedere un elenco di [tipi di campagne supportati](/help/search-social-commerce/introduction/supported-inventory.md) che è possibile includere in un portfolio. Inoltre, verifica il supporto dell&#39;ottimizzazione per ogni strategia di offerta della campagna consultando &quot;Tipi di Portfolio idonei per strategia di offerta della campagna&quot; nel capitolo della Guida all&#39;ottimizzazione su &quot;Portfoli&quot;, disponibile all&#39;interno di Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
+Non tutti i tipi di campagne e le reti pubblicitarie sono idonei per l&#39;ottimizzazione. Vedere un elenco di [tipi di campagne supportati](/help/search-social-commerce/introduction/supported-inventory.md) che è possibile includere in un portfolio. Inoltre, verifica il supporto dell&#39;ottimizzazione per ogni strategia di offerta della campagna consultando &quot;Tipi di Portfolio idonei per strategia di offerta della campagna&quot; nel capitolo della Guida all&#39;ottimizzazione relativo ai &quot;Portfolio&quot;, disponibile all&#39;interno di Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 >[!NOTE]
 >
 >Ogni campagna può essere assegnata a un solo portfolio. Se assegni una campagna già associata a un altro portfolio a un nuovo portfolio, viene rimossa dal portfolio originale.
 
-## Assegnare campagne a un portfolio dalla visualizzazione [!UICONTROL Campaigns]
+## (Nuova interfaccia) Assegna campagne a un portfolio esistente dalla vista [!UICONTROL Manage] > [!UICONTROL Campaigns]
+
+1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Campaigns]**.
+
+1. Seleziona la casella di controllo accanto a ciascuna campagna da assegnare a un singolo portfolio.
+
+1. Nella barra degli strumenti, fare clic su ![Altre azioni](/help/search-social-commerce/assets/more-actions.png "Altre azioni") **[!UICONTROL More Actions]** > ![Assegna](/help/search-social-commerce/assets/assign.png "Assegna") **[!UICONTROL Assign]** > **[!UICONTROL Existing Portfolio]**.
+
+1. Seleziona il portfolio.
+
+1. Fare clic su **[!UICONTROL Assign Now]**.
+
+## (Nuova interfaccia) Assegna campagne a un nuovo portfolio dalla vista [!UICONTROL Manage] > [!UICONTROL Campaigns]
+
+1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Campaigns]**.
+
+1. Seleziona la casella di controllo accanto a ciascuna campagna per la quale desideri creare il nuovo portfolio.
+
+1. Nella barra degli strumenti, fare clic su ![Altre azioni](/help/search-social-commerce/assets/more-actions.png "Altre azioni") **[!UICONTROL More Actions]** > ![Assegna](/help/search-social-commerce/assets/assign.png "Assegna") **[!UICONTROL Assign]** > **[!UICONTROL New Portfolio]**.
+
+1. Nella schermata [!UICONTROL Create Portfolio], specifica le [impostazioni portfolio](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md).
+
+   Le campagne selezionate in precedenza sono già assegnate alla campagna. Facoltativamente, puoi modificare l’elenco delle campagne per il portfolio.
+
+1. Fare clic su **[!UICONTROL Review and Save]**.
+
+## (Interfaccia precedente) Assegna campagne a un portfolio dalla vista [!UICONTROL Campaigns]
 
 1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
 
@@ -58,7 +84,7 @@ Non tutti i tipi di campagne e le reti pubblicitarie sono idonei per l&#39;ottim
 
 1. Fare clic su **[!UICONTROL Save]**.
 
-## Modificare le campagne in un portfolio dalla visualizzazione [!UICONTROL Portfolios]
+## (Interfaccia precedente) Modifica le campagne in un portfolio dalla visualizzazione [!UICONTROL Portfolios]
 
 1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]**, quindi individuare il portfolio.
 
