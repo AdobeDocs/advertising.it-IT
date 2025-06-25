@@ -3,7 +3,7 @@ title: Rimuovere campagne da un portfolio
 description: Scopri come rimuovere le campagne da un portfolio.
 exl-id: 5f2e7a01-f55b-4f49-a217-462cd2e365c7
 feature: Search Campaign Management
-source-git-commit: c721215003a769f2a4a25951f524588bdb5594f2
+source-git-commit: a71f2daded3b7c32b8c30a4631eba8c2dbda3a17
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Per ulteriori informazioni sull’ottimizzazione, consulta la Guida all’ottimi
 
 1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Modifica](/help/search-social-commerce/assets/edit.png "Modifica") **[!UICONTROL Edit]**.
 
-1. Nelle [impostazioni portfolio](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md), vai alla sezione [!UICONTROL Assign Campaigns] e modifica le assegnazioni della campagna.
+1. Nelle impostazioni portfolio<!--[portfolio settings](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md)-->, vai alla sezione [!UICONTROL Assign Campaigns] e modifica le assegnazioni della campagna.
 
 1. Fare clic su **[!UICONTROL Review and Save]**.
 
@@ -32,7 +32,7 @@ Per ulteriori informazioni sull’ottimizzazione, consulta la Guida all’ottimi
 
 ## (Interfaccia precedente) Rimuovere le campagne da un portfolio dalla visualizzazione [!UICONTROL Portfolios]
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]**, quindi individuare il portfolio.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]**, quindi individuare il portfolio.
 
    È possibile filtrare l&#39;elenco portfolio dal menu [!UICONTROL Portfolios] nel pannello a sinistra selezionando un gruppo portfolio o il nodo [!UICONTROL Ungrouped Portfolios].
 
