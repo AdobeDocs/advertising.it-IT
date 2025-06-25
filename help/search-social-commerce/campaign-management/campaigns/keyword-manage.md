@@ -3,7 +3,7 @@ title: Gestire le parole chiave per le offerte
 description: Scopri come creare e gestire parole chiave che possono essere offerte per i gruppi di annunci di ricerca.
 exl-id: 79ae5347-8625-4d31-a9fe-f476c041a063
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Puoi creare e modificare parole chiave per i gruppi di annunci di ricerca in [ti
 >
 >Per creare più parole chiave contemporaneamente, utilizzare la [funzionalità Copia e Incolla](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) o [bulksheet campagna](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**.
 
 1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Crea](/help/search-social-commerce/assets/add.png "Crea").
 
@@ -50,7 +50,7 @@ La parola chiave esistente viene eliminata e ne viene creata un&#39;altra quando
 >
 >Per modificare contemporaneamente quantità maggiori di dati delle parole chiave, incluse le parole chiave su reti di annunci diverse, utilizzare la [funzione Copia e incolla](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) o i [bulksheet campagna](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**.
 
 1. Selezionare la casella di controllo accanto a ogni riga da modificare.
 

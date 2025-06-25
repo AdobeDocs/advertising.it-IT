@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -14,5 +14,5 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* ([!DNL Google Ads] solo) I valori possibili per [!UICONTROL Channel] sono &quot;[!UICONTROL Local]&quot; o &quot;[!UICONTROL Online]&quot; e i valori possibili per [!UICONTROL ChannelExclusivity] sono &quot;[!UICONTROL SingleChannel]&quot; e &quot;[!UICONTROL MultiChannel]&quot;.&quot;
->* Quando si crea un gruppo di prodotti di secondo livello (figlio) per un gruppo di annunci dalla scheda [!UICONTROL Product Groups] nella visualizzazione [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns], viene creato automaticamente un altro gruppo di prodotti, denominato &quot;[!UICONTROL Everything Else]&quot;, utilizzando l&#39;offerta del gruppo di annunci predefinito. Utilizzando i modelli di feed inventario, tuttavia, i gruppi di prodotti &quot;[!UICONTROL Everything Else]&quot; sono esclusi.
+>* Quando si crea un gruppo di prodotti di secondo livello (figlio) per un gruppo di annunci dalla scheda [!UICONTROL Product Groups] nella visualizzazione [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns], viene creato automaticamente un altro gruppo di prodotti, denominato &quot;[!UICONTROL Everything Else]&quot;, utilizzando l&#39;offerta del gruppo di annunci predefinito. Utilizzando i modelli di feed inventario, tuttavia, i gruppi di prodotti &quot;[!UICONTROL Everything Else]&quot; sono esclusi.
 >* Se si includono più livelli e non è disponibile alcun valore per il livello finale (quello con il numero più alto), come gruppo di prodotti che è possibile fare offerte viene utilizzato il livello immediatamente superiore. Ad esempio, se includi cinque livelli e non è disponibile alcun valore per il livello 5, il livello 4 viene utilizzato come gruppo di prodotti (unità) che è possibile fare offerte. Tuttavia, se non è disponibile alcun valore per un livello intermedio, la riga viene ignorata. Ad esempio, se si includono cinque livelli e il livello 5 ha un valore ma il livello 4 non lo ha, la riga 4 viene ignorata.

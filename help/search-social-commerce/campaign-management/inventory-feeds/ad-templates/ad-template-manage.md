@@ -3,7 +3,7 @@ title: Gestire i modelli di annunci per i feed di inventario
 description: Scopri come gestire i modelli di annunci tramite i quali i dati di inventario possono essere elaborati per gestire la struttura dei conti e distribuire annunci dinamici.
 exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '1423'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Qualsiasi modello può essere attivato, messo in pausa o eliminato. I dati dei f
 
 Crea modelli separati per annunci di testo e annunci di testo espansi/estesi, annunci di ricerca responsive, [!DNL Google Ads] annunci di acquisto e [!DNL Microsoft Advertising] annunci di acquisto.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, che consente di aprire la scheda [!UICONTROL Templates].
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, che consente di aprire la scheda [!UICONTROL Templates].
 
 1. Effettuare una delle seguenti operazioni:
 
@@ -137,7 +137,7 @@ Puoi attivare qualsiasi modello di feed dati in pausa o sospendere qualsiasi mod
 >
 >È possibile propagare manualmente i dati tramite un modello in pausa, ma i dati non vengono propagati automaticamente attraverso di esso.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, che consente di aprire la scheda [!UICONTROL Templates].
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, che consente di aprire la scheda [!UICONTROL Templates].
 
 1. Selezionare la casella di controllo accanto a ogni modello di cui si desidera modificare lo stato.
 
@@ -145,7 +145,7 @@ Puoi attivare qualsiasi modello di feed dati in pausa o sospendere qualsiasi mod
 
 ## Eliminare i modelli di feed
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, che consente di aprire la scheda [!UICONTROL Templates].
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, che consente di aprire la scheda [!UICONTROL Templates].
 
 1. Selezionare la casella di controllo accanto a ogni modello che si desidera eliminare.
 

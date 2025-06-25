@@ -3,7 +3,7 @@ title: Eliminare i feed dei report del foglio di calcolo
 description: Scopri come eliminare i feed dei fogli di calcolo.
 exl-id: 762e4438-3986-4ae9-92af-335563c23bf7
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >Se il modello di rapporto associato a un feed viene eliminato, il feed viene eliminato automaticamente.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
 
 1. Seleziona la casella di controllo accanto a ciascun feed da eliminare.
 

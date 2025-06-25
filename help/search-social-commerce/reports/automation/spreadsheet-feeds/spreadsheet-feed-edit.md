@@ -3,7 +3,7 @@ title: Modifica impostazioni feed report foglio di calcolo
 description: Scopri come modificare le impostazioni per i feed di fogli di calcolo.
 exl-id: 8ca36006-4038-404b-aaf9-66dc3e9ddcf6
 feature: Search Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 > Se si modificano le colonne nel modello di report o si utilizza un modello di report nuovo o aggiornato, è necessario aggiornare il modello [!DNL Excel] di conseguenza e caricarlo nuovamente.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
 
 1. (Facoltativo) Per aggiornare il modello di report o il modello [!DNL Excel] utilizzato per il feed del foglio di calcolo:
 

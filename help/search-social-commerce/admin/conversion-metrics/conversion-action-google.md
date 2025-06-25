@@ -2,7 +2,8 @@
 title: Crea un'azione di conversione per una conversione  [!DNL Google Ads]  avanzata per i lead
 description: Scopri come creare un'azione di conversione  [!DNL Google Ads]  per una conversione avanzata per i lead.
 feature: Conversions
-source-git-commit: 5eb6ed5b42e74f424fc8499f6df0dbe3f2430ab2
+exl-id: faf4a6de-e82f-4afd-bda5-2602fb45aee5
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 0%
@@ -15,7 +16,7 @@ Solo *[!DNL Google Ads]account*
 
 È possibile creare azioni di conversione per [!DNL Google Ads] conversioni avanzate per i lead da monitorare per singoli account [!DNL Google Ads], non per le conversioni a livello di account manager.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**, che apre la scheda **[!UICONTROL Summary]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**, che apre la scheda **[!UICONTROL Summary]**.
 
 1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Crea](/help/search-social-commerce/assets/add.png "Crea").
 

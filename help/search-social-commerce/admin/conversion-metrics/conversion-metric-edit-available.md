@@ -3,7 +3,7 @@ title: Modificare le metriche di conversione disponibili nelle visualizzazioni e
 description: Scopri come rendere disponibili le metriche di conversione nelle visualizzazioni e nei rapporti di gestione.
 feature: Conversions
 exl-id: de3d288a-5fec-4479-92cf-7754390e21bb
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 0%
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Modificare le metriche di conversione disponibili nelle visualizzazioni e nei rapporti di gestione
 
-L&#39;Adobe Advertising che tiene traccia di una metrica di [conversione](/help/search-social-commerce/glossary.md#c-d) per un inserzionista viene inizialmente escluso dagli obiettivi del portfolio, dai report e dalle visualizzazioni di gestione. Per rendere visibile una metrica di conversione, devi renderla esplicitamente disponibile e quindi, facoltativamente, modificare il nome visualizzato predefinito, che è il nome visualizzato. L&#39;unica eccezione è che le conversioni tracciate dai tag di tracciamento eventi universali [!DNL Google Ads], [!DNL Google Analytics] e [!DNL Microsoft Advertising] sono automaticamente disponibili e visibili.
+Quando Adobe Advertising tiene traccia di una metrica di [conversione](/help/search-social-commerce/glossary.md#c-d) per un inserzionista, inizialmente viene esclusa dalle visualizzazioni degli obiettivi del portfolio, dei report e della gestione. Per rendere visibile una metrica di conversione, devi renderla esplicitamente disponibile e quindi, facoltativamente, modificare il nome visualizzato predefinito, che è il nome visualizzato. L&#39;unica eccezione è che le conversioni tracciate dai tag di tracciamento eventi universali [!DNL Google Ads], [!DNL Google Analytics] e [!DNL Microsoft Advertising] sono automaticamente disponibili e visibili.
 
 Allo stesso modo, puoi nascondere una metrica di conversione dalle viste degli obiettivi del portfolio, dei rapporti e della gestione. Quando nascondi una metrica di conversione precedentemente visibile, questa viene rimossa da tutte le metriche derivate che la contengono.
 
 Dall’elenco delle metriche di conversione disponibili, ogni utente con accesso ai dati dell’inserzionista può personalizzare le metriche visualizzate per le visualizzazioni di gestione e i rapporti, includendo o omettendo metriche specifiche a propria scelta.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
 
    Sono elencate tutte le metriche di conversione raccolte per l’inserzionista e tutti i nomi diversi specificati per la visualizzazione.
 

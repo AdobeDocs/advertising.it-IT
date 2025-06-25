@@ -3,7 +3,7 @@ title: Gestire le esclusioni di pubblico per campagne e gruppi di annunci
 description: Scopri come configurare e gestire le esclusioni di pubblico per le campagne e i gruppi di annunci  [!DNL Google Ads] e [!DNL Microsoft Advertising] .
 exl-id: 8bebc1fe-aad8-40f2-9dca-e4065a0c4990
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Puoi anche eliminare le esclusioni di pubblico.
 
 ## Configurare le esclusioni di pubblico
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Exclusions]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Exclusions]**.
 
 1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Crea](/help/search-social-commerce/assets/add.png "Crea").
 
@@ -56,7 +56,7 @@ Puoi anche eliminare le esclusioni di pubblico.
 
 ## Eliminare le esclusioni di pubblico
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Exclusions]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Exclusions]**.
 
 1. (Facoltativo) Filtra l’elenco per includere specifiche esclusioni di pubblico.
 

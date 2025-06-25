@@ -3,7 +3,7 @@ title: Configurare il tracciamento dei clic basato su cookie
 description: Scopri come impostare e convalidare i tag di tracciamento dei clic.
 exl-id: 3f2b09bc-9794-41d1-89fc-0d239bad2fb1
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Affinché Search, Social e Commerce possano tenere traccia dei clic, è necessar
 
 1. Per ogni account di rete di annunci, effettua le seguenti operazioni:
 
-   1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]>[!UICONTROL Accounts]**.
+   1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]>[!UICONTROL Accounts]**.
 
    1. Posizionare il cursore sul nome dell&#39;account, fare clic sull&#39;icona ![Menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Icona Menu"), quindi selezionare **[!UICONTROL Edit]**.
 
@@ -42,7 +42,7 @@ Affinché Search, Social e Commerce possano tenere traccia dei clic, è necessar
 
 1. Per ogni campagna, effettua le seguenti operazioni:
 
-   1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
+   1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
 
    1. Posizionare il cursore sul nome della campagna, fare clic sull&#39;![icona Menu](/help/search-social-commerce/assets/arrow-dropdown-menu.png "icona Menu"), quindi selezionare **[!UICONTROL Edit]**.
 

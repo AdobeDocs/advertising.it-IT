@@ -3,7 +3,7 @@ title: Decodificare un URL di tracciamento dei clic
 description: Scopri come rimuovere il codice di tracciamento dei clic di Search, Social e Commerce da un URL di base.
 exl-id: 2f40f6a9-afc9-4e9d-9233-40e29a7f50d8
 feature: Search Tools, Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Puoi vedere dove un URL di destinazione invia effettivamente un utente rimuovend
 >
 >* Puoi decodificare tutti gli URL alla volta che desideri, ma le prestazioni dipendono dal browser utilizzato.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Decode Tracking URLs]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Decode Tracking URLs]**.
 
 1. Nel campo di immissione, immetti ogni URL contenente il codice di tracciamento di Search, Social e Commerce.
 

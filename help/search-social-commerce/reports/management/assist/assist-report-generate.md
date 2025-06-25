@@ -3,7 +3,7 @@ title: Generare un rapporto di assistenza
 description: Scopri come generare rapporti di assistenza.
 exl-id: ac3e3619-c300-4d2f-84bc-c4977c1712f3
 feature: Search Reports, Search Assist Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Generare un rapporto di assistenza
 
-*Inserzionisti con il tracciamento dei clic di Search, Social e Commerce e con il tracciamento delle conversioni da Adobe Advertising, Adobe Analytics (con integrazione [!DNL Analytics]) o forniti nei feed utilizzando solo un token (`ef_id`)*
+*Inserzionisti con monitoraggio dei clic di Search, Social e Commerce e con monitoraggio delle conversioni da Adobe Advertising, Adobe Analytics (con integrazione [!DNL Analytics]) o forniti nei feed utilizzando solo un token (`ef_id`)*
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
 1. Nella barra degli strumenti sopra la tabella dati fare clic su **[!UICONTROL Create Report]**, tenere premuto il cursore su **[!UICONTROL Assist Reports]** e quindi fare clic sul tipo di report.
 

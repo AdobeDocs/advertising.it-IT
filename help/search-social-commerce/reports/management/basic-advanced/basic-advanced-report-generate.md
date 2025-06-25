@@ -3,7 +3,7 @@ title: Generare un report di base o un report avanzato
 description: Scopri come generare un rapporto di base o avanzato personalizzato.
 exl-id: 529a35f5-517f-4bde-b752-c0afc6346f4b
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Generare un report di base o un report avanzato
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
-1. Nella barra degli strumenti sopra la tabella dati fare clic su **[!UICONTROL Create Report]**, tenere premuto il cursore su **[!UICONTROL Basic Reports]** o **[!UICONTROL Advanced Reports]** e quindi fare clic sul tipo di report [&#128279;](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md).
+1. Nella barra degli strumenti sopra la tabella dati fare clic su **[!UICONTROL Create Report]**, tenere premuto il cursore su **[!UICONTROL Basic Reports]** o **[!UICONTROL Advanced Reports]** e quindi fare clic sul tipo di report [](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md).
 
 1. (Facoltativo) Nella finestra [!UICONTROL Report Settings], modifica le [impostazioni report](basic-advanced-report-settings.md) predefinite:
 

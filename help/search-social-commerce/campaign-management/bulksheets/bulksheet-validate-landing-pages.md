@@ -3,7 +3,7 @@ title: Convalidare le pagine di destinazione in file bulksheet
 description: Scopri come convalidare gli URL di destinazione in un file di bulksheet a account singolo.
 exl-id: 191cb1bc-54a9-4c6c-a29c-f3cbae08e0d8
 feature: Search Bulksheets
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Successivamente puoi scaricare il file, correggere gli errori e caricare il file
 >* Questa funzione non convalida i valori nella colonna URL di base/URL finale.
 >* È possibile pubblicare i file di bulksheet durante la convalida o anche in caso di errori.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
 
 1. Selezionare la casella di controllo accanto a ogni file da convalidare.
 

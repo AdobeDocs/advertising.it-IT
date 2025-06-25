@@ -3,7 +3,7 @@ title: Gestione delle credenziali per gli account di Ad Network Manager
 description: Scopri come fornire le credenziali per gli account  [!DNL Google Ads] manager.
 exl-id: 95866a2e-4695-4b1d-ac23-844d3b9a0a74
 feature: Search Admin
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Dopo aver aggiunto le credenziali per un account manager, le impostazioni dell&#
 
 ## Per aggiungere le credenziali per un nuovo account manager
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**.
 
 1. Selezionare **[!UICONTROL Create new manager account]**.
 
@@ -40,7 +40,7 @@ Dopo aver aggiunto le credenziali per un account manager, le impostazioni dell&#
 
 ## Per autenticare nuovamente un account manager esistente
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**.
 
 1. Selezionare **[!UICONTROL Reauthenticate existing manager account]**.
 

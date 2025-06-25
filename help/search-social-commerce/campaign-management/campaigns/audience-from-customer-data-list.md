@@ -3,7 +3,7 @@ title: Gestire i tipi di pubblico in base ai clienti utilizzando gli elenchi di 
 description: Scopri come creare e modificare  [!DNL Google Ads] e [!DNL Microsoft Advertising] i tipi di pubblico in base ai clienti dagli elenchi di dati dei clienti.
 exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-source-git-commit: 46d736c3e14bf407c513c5cb6a153a578aa65121
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Per gli account [!DNL Microsoft Advertising], il file può includere indirizzi d
 
    È necessario eseguire l’hashing di nomi e cognomi, indirizzi e-mail e numeri di telefono utilizzando l’algoritmo SHA-256. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Per i tipi di pubblico [!DNL Google Ads], consulta la documentazione [!DNL Google Ads] su &quot;[Linee guida per la formattazione per il caricamento di dati con hash](https://support.google.com/google-ads/answer/7476159)&quot; per un elenco dei campi e dei requisiti consentiti per le informazioni di contatto. Per i tipi di pubblico [!DNL Microsoft Advertising], consulta la documentazione di [!DNL Microsoft Advertising] su [preparazione degli elenchi di corrispondenza dei clienti](https://help.ads.microsoft.com/#apex/ads/en/56921). Facoltativamente, è possibile scaricare un modello [!DNL Microsoft Excel] per informazioni di contatto.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
 1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Crea](/help/search-social-commerce/assets/add.png "Crea").
 
@@ -91,9 +91,9 @@ I dati devono essere dello stesso tipo dell’elenco clienti originale (indirizz
 
 1. Genera un file con i dati del cliente nel formato richiesto per il tipo di dati esistente.
 
-È necessario eseguire l’hashing di nomi e cognomi, indirizzi e-mail e numeri di telefono utilizzando l’algoritmo SHA-256. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Per i tipi di pubblico [!DNL Google Ads], consulta la documentazione [!DNL Google Ads] su &quot;[Linee guida per la formattazione per il caricamento di dati con hash](https://support.google.com/google-ads/answer/7476159)&quot; per un elenco dei campi e dei requisiti consentiti per le informazioni di contatto. Per i tipi di pubblico [!DNL Microsoft Advertising], consulta la documentazione di [!DNL Microsoft Advertising] su [preparazione degli elenchi di corrispondenza dei clienti] (https://help.ads.microsoft.com/#apex/ads/en/56921. Facoltativamente, è possibile scaricare un modello [!DNL Microsoft Excel] per informazioni di contatto.
+È necessario eseguire l’hashing di nomi e cognomi, indirizzi e-mail e numeri di telefono utilizzando l’algoritmo SHA-256. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Per i tipi di pubblico [!DNL Google Ads], consulta la documentazione [!DNL Google Ads] su &quot;[Linee guida per la formattazione per il caricamento di dati con hash](https://support.google.com/google-ads/answer/7476159)&quot; per un elenco dei campi e dei requisiti consentiti per le informazioni di contatto. Per i tipi di pubblico [!DNL Microsoft Advertising], consulta la documentazione di [!DNL Microsoft Advertising] su [preparazione degli elenchi di corrispondenza dei clienti]&#x200B;(https://help.ads.microsoft.com/#apex/ads/en/56921. Facoltativamente, è possibile scaricare un modello [!DNL Microsoft Excel] per informazioni di contatto.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
 1. Seleziona la casella di controllo accanto al pubblico da modificare.
 

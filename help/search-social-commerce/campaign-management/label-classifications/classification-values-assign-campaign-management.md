@@ -3,7 +3,7 @@ title: Assegnare valori di classificazione ai componenti account dalle viste di 
 description: Scopri come assegnare i valori di classificazione ai componenti dell’account.
 exl-id: 5a3cb059-9cff-4a2e-b8aa-be8626774377
 feature: Search Label Classifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 0%
@@ -22,7 +22,7 @@ I valori delle etichette vengono ereditati dalle entità figlio, pertanto non im
 >
 >Le parole chiave e la copia dell&#39;annuncio per alcune reti di annunci e tipi di campagne sono [non modificabili](/help/search-social-commerce/campaign-management/faqs-campaigns.md), il che significa che la loro modifica elimina l&#39;entità esistente e ne crea una nuova. Quando un’entità esistente viene eliminata in questo modo, la classificazione dell’etichetta non viene assegnata alla nuova entità.
 
-1. Fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**, quindi selezionare la visualizzazione del componente account.
+1. Fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**, quindi selezionare la visualizzazione del componente account.
 
 1. Effettuare una delle seguenti operazioni:
 

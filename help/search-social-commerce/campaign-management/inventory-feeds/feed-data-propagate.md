@@ -3,7 +3,7 @@ title: Propagazione dei dati di feed inventario tramite modelli
 description: Scopri come propagare i dati dai feed di inventario tramite modelli di annunci per gestire la struttura dei conti e distribuire annunci dinamici.
 exl-id: 9660af19-a517-4593-9a99-da600a0285a5
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Quando propaghi i dati, puoi facoltativamente visualizzare in anteprima i dati g
 
 ## Propagare i file di feed dalla scheda [!UICONTROL Templates]
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, che consente di aprire la scheda [!UICONTROL Templates].
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, che consente di aprire la scheda [!UICONTROL Templates].
 
 1. Selezionare la casella di controllo accanto ai modelli da propagare.
 
@@ -44,7 +44,7 @@ Quando propaghi i dati, puoi facoltativamente visualizzare in anteprima i dati g
 
 ## Propagare i file di feed dall&#39;elenco [!UICONTROL Feeds]
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
 
 1. Nella barra degli strumenti sopra la tabella dati, fare clic su **[!UICONTROL Feeds]**.
 
@@ -72,7 +72,7 @@ Al termine di ogni azione di propagazione, alla scheda [!UICONTROL Propagations]
 
 ## Visualizzare un riepilogo di propagazione
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
 
 1. Fare clic sulla scheda **[!UICONTROL Propagations]**.
 
@@ -82,7 +82,7 @@ Al termine di ogni azione di propagazione, alla scheda [!UICONTROL Propagations]
 
 È possibile interrompere un processo di propagazione per i dati del feed di inventario mentre il processo è ancora in coda.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, che consente di aprire la scheda [!UICONTROL Templates].
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, che consente di aprire la scheda [!UICONTROL Templates].
 
 1. Nella colonna &quot;[!UICONTROL Last Prop. Status]&quot; accanto al nome del modello, fare clic su **[!UICONTROL Cancel]**.
 

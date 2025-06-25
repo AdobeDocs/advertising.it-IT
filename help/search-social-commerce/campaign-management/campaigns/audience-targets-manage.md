@@ -3,7 +3,7 @@ title: Gestire i target di pubblico per campagne e gruppi di annunci
 description: Scopri come configurare e gestire i target del pubblico per le campagne e i gruppi di annunci  [!DNL Google Ads] e [!DNL Microsoft Advertising] .
 exl-id: 9a496d15-082d-44e1-a0a3-71356e24b932
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Puoi configurare i target del pubblico, modificare i modificatori di offerte per
 
 ## Configurare i target del pubblico
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
 
 1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Crea](/help/search-social-commerce/assets/add.png "Crea").
 
@@ -70,7 +70,7 @@ Puoi modificare il modificatore di offerta e lo stato dei target del pubblico pe
 >
 >Search, Social e Commerce ottimizzano automaticamente il modificatore di offerta quando la campagna principale utilizza la strategia di offerta CPC ed è in un portfolio configurato per ottimizzare automaticamente i valori di regolazione delle offerte per i target di pubblico.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
 
 1. Effettuare una delle seguenti operazioni:
 
@@ -106,7 +106,7 @@ Puoi mettere in pausa un target di pubblico attivo per disabilitare le offerte s
 
 Puoi anche eliminare un target di pubblico di ricerca attivo o in pausa.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
 
 1. (Facoltativo) Filtra l’elenco per includere target di pubblico specifici.
 

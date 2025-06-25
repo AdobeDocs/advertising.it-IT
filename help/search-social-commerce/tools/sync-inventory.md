@@ -3,7 +3,7 @@ title: Abilita sincronizzazione inventario aggiuntiva
 description: Scopri come sincronizzare  [!DNL YouTube] campagne e [!DNL Google Ads] e [!DNL Microsoft Advertising] campagne di acquisto intelligenti.
 exl-id: 3e8cc7b1-e38f-43f3-ba67-f2adaec6129d
 feature: Search Tools
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 4%
@@ -18,9 +18,9 @@ ht-degree: 4%
 >
 >La semplice sincronizzazione di [!DNL Microsoft Advertising] campagne di acquisto intelligente è in versione beta per gli inserzionisti self-service.
 
-Questi tipi di campagne vengono fatturati allo stesso modo di altri tipi di campagne. Per ulteriori informazioni, contatta il team dell’account di Adobe.
+Questi tipi di campagne vengono fatturati allo stesso modo di altri tipi di campagne. Per ulteriori informazioni, contatta il team del tuo account di Adobe.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Inventory Selection]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Inventory Selection]**.
 
 1. Selezionare la casella di controllo accanto a un&#39;opzione per abilitare la sincronizzazione oppure deselezionare una casella di controllo per disabilitare la sincronizzazione.
 

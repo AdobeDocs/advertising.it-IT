@@ -3,7 +3,7 @@ title: Esporta dati per avvisi personalizzati
 description: Scopri come esportare in un file i dati di un avviso attivato.
 exl-id: e3467b39-21ed-431e-b5f4-c3dc2dd5266d
 feature: Search Alerts
-source-git-commit: 03475909ca942010e4380456079519f0c18adca3
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 1. Effettuare una delle seguenti operazioni:
 
-   * Per esportare i dati per l&#39;avviso attivato più di recente per un modello di avviso, nel menu principale fare clic su **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, che consente di aprire la visualizzazione Modelli di avviso.
+   * Per esportare i dati per l&#39;avviso attivato più di recente per un modello di avviso, nel menu principale fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, che consente di aprire la visualizzazione Modelli di avviso.
 
-   * Per esportare i dati per un avviso attivato specifico, nel menu principale fare clic su **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**. Nel sottomenu fare clic su **[!UICONTROL Triggered Alerts]**.
+   * Per esportare i dati per un avviso attivato specifico, nel menu principale fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**. Nel sottomenu fare clic su **[!UICONTROL Triggered Alerts]**.
 
 1. Nella colonna [!UICONTROL Export] accanto al nome del modello o del report, fare clic sul nome di un formato, quindi aprire o salvare il file in base alla normale procedura del browser:
 

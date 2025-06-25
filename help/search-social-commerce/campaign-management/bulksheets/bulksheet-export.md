@@ -3,7 +3,7 @@ title: Esportare un file bulksheet generato o caricato
 description: Scopri come scaricare un file bulksheet, inclusi i file di errore e i file di convalida della pagina di destinazione.
 exl-id: 25868c67-5e6e-4570-9d8f-1a56b9bb88ac
 feature: Search Bulksheets
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Puoi scaricare qualsiasi file bulksheet generato o caricato, compresi i file di errore e i file di convalida della pagina di destinazione, per 30 giorni. I file vengono eliminati automaticamente 30 giorni dopo il caricamento o la generazione.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
 
 1. (Facoltativo) Sopra l&#39;elenco dei bulksheet, [aggiungi filtri](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md) per limitare i file elencati.
 

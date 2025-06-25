@@ -3,7 +3,7 @@ title: Gestione annunci
 description: Scopri come creare e gestire gli annunci.
 exl-id: 5ec410cd-9dff-41e6-9ecc-d6ceee84755e
 feature: Search Campaign Management
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Solo *[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], 
 >
 >Per creare più annunci contemporaneamente, utilizza la [funzione copia e incolla](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) o [bulksheet campagna](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]>[!UICONTROL Ads]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]>[!UICONTROL Ads]**.
 
 1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Crea](/help/search-social-commerce/assets/add.png "Crea").
 
@@ -38,11 +38,11 @@ Solo *[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], 
 
    >[!NOTE]
    >
-   >(Campagne con tracciamento delle conversioni di Adobi Advertising) Se le impostazioni dell’account o della campagna specificano il tracciamento solo a livello di parola chiave, Search, Social e Commerce non generano il tracciamento per gli annunci.
+   >(Campagne con tracciamento delle conversioni di Adobe Advertising) Se le impostazioni dell’account o della campagna specificano il tracciamento solo a livello di parola chiave, Search, Social e Commerce non generano il tracciamento per gli annunci.
 
 1. Fare clic su **[!UICONTROL Post]**.
 
-1. (Acquisti nelle campagne con tracciamento conversione Adobe Advertising; facoltativo) Per tenere traccia dei clic sull&#39;annuncio, [genera un URL di tracciamento utilizzando lo strumento URL di tracciamento](/help/search-social-commerce/tools/click-tracking-url-generate.md) e aggiungilo manualmente alle impostazioni dell&#39;account, della campagna o del gruppo di prodotti.
+1. (Acquisti nelle campagne con tracciamento delle conversioni Adobe Advertising; facoltativo) Per tenere traccia dei clic sull&#39;annuncio, [genera un URL di tracciamento utilizzando lo strumento URL di tracciamento](/help/search-social-commerce/tools/click-tracking-url-generate.md) e aggiungilo manualmente alle impostazioni dell&#39;account, della campagna o del gruppo di prodotti.
 
 ## Modificare le impostazioni degli annunci
 
@@ -56,7 +56,7 @@ Solo *[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], 
 >
 >Per modificare grandi quantità di dati contemporaneamente, utilizza la [funzione Copia e incolla](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) o [bulksheet campagna](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]>[!UICONTROL Ads]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]>[!UICONTROL Ads]**.
 
 1. Effettuare una delle seguenti operazioni:
 
@@ -86,7 +86,7 @@ Puoi mettere in pausa un annuncio attivo per disabilitare le offerte. In seguito
 
 Puoi anche eliminare qualsiasi annuncio di ricerca attivo o in pausa. Gli annunci eliminati vengono eliminati dalla rete di annunci. Sono ancora visibili, ma non si possono cambiare.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]>[!UICONTROL Ads]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]>[!UICONTROL Ads]**.
 
 1. (Facoltativo) Filtra l’elenco per includere annunci specifici.
 

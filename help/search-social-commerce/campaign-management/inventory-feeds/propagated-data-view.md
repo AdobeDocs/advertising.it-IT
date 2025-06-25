@@ -3,7 +3,7 @@ title: Visualizzare i dati generati dai feed
 description: Scopri come visualizzare i dati generati dai feed di dati di inventario.
 exl-id: ee48f0f1-65fb-4d27-8f59-0108835d70e5
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Quando propaghi i dati di feed senza inviarli simultaneamente alla rete di annun
 
   Le viste gerarchiche della campagna mostrano solo i dati generati dal file di feed, non i componenti dell’account esistenti. Dopo che i dati per un componente e tutti i suoi sottocomponenti sono stati pubblicati nella rete di annunci, non vengono più elencati nella vista gerarchica della campagna.
 
-   1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, che consente di aprire la scheda [!UICONTROL Templates].
+   1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, che consente di aprire la scheda [!UICONTROL Templates].
 
    1. (Facoltativo) Per mostrare solo i componenti della campagna creati per un modello specifico:
 

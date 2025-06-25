@@ -3,7 +3,7 @@ title: Gestisci [!DNL Microsoft Advertising] tipi di pubblico di remarketing din
 description: Scopri come creare e gestire [!DNL Microsoft Advertising] tipi di pubblico di remarketing dinamico.
 exl-id: 52faab75-e723-4e59-aac6-b4d0c4c1cf60
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Per ulteriori informazioni sul remarketing dinamico e su come implementare il ta
 
    Il nome del tag sarà necessario in un passaggio successivo.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
 1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Crea](/help/search-social-commerce/assets/add.png "Crea").
 
@@ -60,7 +60,7 @@ Per ulteriori informazioni sul remarketing dinamico e su come implementare il ta
 
 È possibile modificare il nome e l&#39;origine dati per un pubblico di remarketing dinamico [!DNL Microsoft Advertising]. Impossibile modificare il valore dell&#39;impostazione [!UICONTROL Membership Days].
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
 1. Seleziona la casella di controllo accanto al pubblico da modificare.
 
@@ -80,7 +80,7 @@ Per ulteriori informazioni sul remarketing dinamico e su come implementare il ta
 
 ## Eliminare un pubblico di remarketing dinamico
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
 1. (Facoltativo) Filtra l’elenco per includere tipi di pubblico specifici.
 

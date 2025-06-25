@@ -3,7 +3,7 @@ title: Visualizzare o salvare un file di feed di report del foglio di calcolo
 description: Scopri come visualizzare un feed di foglio di calcolo e salvarlo in un file.
 exl-id: b229ab9e-a48a-4487-8434-0fdcf7139d8f
 feature: Search Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Puoi visualizzare qualsiasi feed di foglio di calcolo generato o salvarlo in un file. I file di feed del foglio di calcolo sono in formato XLSX [!DNL Microsoft Excel].
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
 
 1. Fai clic su **[!UICONTROL XLSX]** accanto al feed, quindi apri o salva il file in base alla normale procedura del browser.
 

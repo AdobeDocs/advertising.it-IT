@@ -1,22 +1,22 @@
 ---
 title: Crea [!DNL Google Ads] audience corrispondenti ai clienti da [!DNL Adobe] audience
-description: Scopri come creare  [!DNL Google Ads] tipi di pubblico in base ai clienti, partendo da quelli esistenti di Adobe Analytics e Audience Manager.
+description: Scopri come creare  [!DNL Google Ads] tipi di pubblico in base ai clienti, partendo dai tipi di pubblico esistenti di Adobe Analytics e Audience Manager.
 exl-id: 7de95ebb-24b0-459f-83c0-7b85b0c0576d
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 0%
 
 ---
 
-# Creazione di [!DNL Google Ads] tipi di pubblico in base ai clienti da Adobe Analytics e Audience Manager Audiences
+# Crea [!DNL Google Ads] tipi di pubblico in base ai clienti da Adobe Analytics e Audience Manager
 
 *[!DNL Google Ads]account idonei solo per la corrispondenza cliente*
 
-*Inserzionisti con un&#39;integrazione solo Adobe Advertising-Adobe Audience Manager o Adobe Advertising-Adobe Analytics*
+*Inserzionisti solo con integrazione Adobe Advertising-Adobe Audience Manager o Adobe Advertising-Adobe Analytics*
 
-Gli inserzionisti che hanno prestato il consenso possono creare [!DNL Google Ads] tipi di pubblico in base ai clienti, utilizzando gli ID utente di a) [!DNL Analytics] segmenti condivisi con Adobe Experience Cloud e b) segmenti di Audience Manager con Search, Social e Commerce come destinazione, inclusi [!DNL Analytics] segmenti pubblicati in Adobe Experience Cloud e segmenti creati utilizzando la Libreria tipi di pubblico di Adobe Experience Cloud. Search, Social e Commerce inviano automaticamente un URL di tracciamento [!DNL Google] a ciascun segmento di [!DNL Analytics] o di Audience Manager in modo che [!DNL Google] possa tracciare il pubblico.
+Gli inserzionisti che hanno prestato il consenso possono creare [!DNL Google Ads] tipi di pubblico in base ai clienti, utilizzando gli ID utente di a) [!DNL Analytics] segmenti condivisi con Adobe Experience Cloud e b) segmenti di Audience Manager con Search, Social e Commerce come destinazione, inclusi [!DNL Analytics] segmenti pubblicati in Adobe Experience Cloud e segmenti creati utilizzando la Libreria tipi di pubblico di Adobe Experience Cloud. Search, Social e Commerce inviano automaticamente un URL di tracciamento [!DNL Google] a ciascun segmento di [!DNL Analytics] o Audience Manager in modo che [!DNL Google] possa tracciare il pubblico.
 
 Ogni pubblico [!DNL Adobe] può essere utilizzato per un solo pubblico [!DNL Google].
 
@@ -34,7 +34,7 @@ Ogni nuovo pubblico [!DNL Google] ha lo stesso nome del pubblico [!DNL Adobe] or
 
    1. (Per creare tipi di pubblico per l&#39;elenco di remarketing degli ID utente) Un utente amministratore o un account manager [!DNL Adobe] deve selezionare l&#39;impostazione a livello di inserzionista per abilitare i tipi di pubblico per la corrispondenza dei clienti.
 
-   1. Implementare il [servizio Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) versione 2.0 o successiva.
+   1. Implementare il [servizio Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html) versione 2.0 o successiva.
 
    1. Distribuisci il seguente tag il più in alto possibile sulle pagine web dell’inserzionista da cui monitorare il pubblico
 
@@ -46,7 +46,7 @@ Ogni nuovo pubblico [!DNL Google] ha lo stesso nome del pubblico [!DNL Adobe] or
 
    1. (Se non è già stato completato) Un utente autorizzato deve configurare l&#39;account dell&#39;inserzionista per [sincronizzarlo con l&#39;account organizzazione dell&#39;inserzionista in Adobe Experience Cloud](/help/search-social-commerce/admin/sync-adobe-audiences.md).
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
 1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Crea](/help/search-social-commerce/assets/add.png "Crea").
 

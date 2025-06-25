@@ -3,7 +3,7 @@ title: Elimina valori di classificazione delle etichette
 description: Scopri come eliminare i valori per le classificazioni delle etichette.
 exl-id: 1b404c6d-a6db-485b-9438-b102786eb65d
 feature: Search Label Classifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 0%
@@ -18,7 +18,7 @@ L’eliminazione dei valori di classificazione delle etichette ne rende impossib
 >
 >Per dissociare semplicemente un valore di classificazione da un componente account, vedi &quot;[Rimuovere i valori di classificazione dai componenti campagna](classification-values-remove.md).&quot;
 
-1. Fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**.
+1. Fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**.
 
 1. Nel sottomenu, selezionare **[!UICONTROL Label Values]**.
 

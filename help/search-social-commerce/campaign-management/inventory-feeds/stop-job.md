@@ -3,7 +3,7 @@ title: Interrompere un processo di registrazione per i dati di feed inventario
 description: Scopri come interrompere un processo di registrazione per i dati dei feed di inventario.
 exl-id: 06a10ec1-bfff-4384-b1c8-ba6b504c6888
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Puoi interrompere la pubblicazione dei dati della campagna generati da un feed n
 
 * Mentre i dati sono ancora in fase di propagazione, arrestare il processo di propagazione in modo che non siano disponibili dati da pubblicare:
 
-   1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, che consente di aprire la scheda [!UICONTROL Templates].
+   1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, che consente di aprire la scheda [!UICONTROL Templates].
 
    1. Nella colonna &quot;[!UICONTROL Last Prop. Status]&quot; accanto al nome del modello, fare clic su **[!UICONTROL Cancel]**.
 

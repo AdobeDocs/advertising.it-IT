@@ -3,7 +3,7 @@ title: Gestire i sitelink condivisi
 description: Scopri come creare e gestire le estensioni di sitelink condivise.
 exl-id: e510f53b-f48c-4129-887c-351a840b8398
 feature: Search Campaign Management
-source-git-commit: c3b8e387cfc38d195e77761791e689fd094d8f39
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '928'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Crea e gestisci sitelink condivisi a livello di account per qualsiasi account [!
 
 ## Creare un sitelink condiviso
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]**.
 
 1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Crea](/help/search-social-commerce/assets/add.png "Crea").
 
@@ -34,7 +34,7 @@ Dopo aver creato un sitelink, puoi [assegnarlo a un account, una campagna o un g
 
 Puoi modificare un sitelink condiviso alla volta.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]**.
 
 1. Seleziona la casella di controllo accanto al sitelink da modificare.
 
@@ -46,7 +46,7 @@ Puoi modificare un sitelink condiviso alla volta.
 
 ## Eliminare i sitelink condivisi
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]**.
 
 1. Selezionare la casella di controllo accanto a ogni sitelink condiviso che si desidera eliminare.
 
@@ -92,11 +92,11 @@ Dopo aver salvato il record, l’URL di base include tutti i parametri di aggiun
 >
 >* (Account con URL finali) L’URL di base può contenere reindirizzamenti all’interno del dominio o del sottodominio della pagina di destinazione, ma non reindirizzamenti all’esterno del dominio della pagina di destinazione. La rete di annunci estrae il dominio da questo URL e aggiunge eventuali percorsi di visualizzazione facoltativi per l’annuncio, per creare l’URL di visualizzazione per l’annuncio.
 >* ([!DNL Google Ads]) Ogni sitelink in una campagna o in un gruppo di annunci deve avere una pagina di destinazione univoca e il contenuto di ogni pagina di destinazione di sitelink deve avere circa l&#39;80% di contenuto univoco. Ad esempio, non puoi avere sitelink con collegamenti a più ancoraggi all&#39;interno della stessa pagina.
->* ([!DNL Google Ads]) Evitare l&#39;utilizzo di macro, che non vengono sostituite dai clic provenienti da origini che abilitano il tracciamento parallelo. Se l’inserzionista deve utilizzare delle macro, il Team dell’account Adobe deve collaborare con l’Assistenza clienti o con il team di implementazione per aggiungerle.
+>* ([!DNL Google Ads]) Evitare l&#39;utilizzo di macro, che non vengono sostituite dai clic provenienti da origini che abilitano il tracciamento parallelo. Se l’inserzionista deve utilizzare delle macro, il team dell’account di Adobe deve collaborare con l’Assistenza clienti o con il team di implementazione per aggiungerle.
 
 **[!UICONTROL Tracking Template]:** (Facoltativo) Il modello di tracciamento o l&#39;URL di tracciamento, che specifica tutti i reindirizzamenti del dominio di destinazione e i parametri di tracciamento e incorpora anche l&#39;URL della pagina finale/di destinazione in un parametro. Esempio: `{lpurl}?source={network}&id=5` o `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` per includere un reindirizzamento.
 
-* Ad Adobe Advertising, il tracciamento delle conversioni, che viene applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;Caricamento automatico&quot;, Ricerca, Social e Commerce, al salvataggio del record aggiunge automaticamente i prefissi al proprio codice di tracciamento dei clic.
+* Per il tracciamento delle conversioni di Adobe Advertising, che viene applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;Caricamento automatico&quot;, Ricerca, Social e Commerce assegnano automaticamente i prefissi al proprio codice di tracciamento dei clic quando si salva il record.
 
 * Per i parametri supportati per incorporare l&#39;URL finale, vedere i parametri [[!DNL Microsoft Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) o ([!DNL Google Ads] only) &quot;Tracking template only&quot; nella sezione su &quot;Available [!DNL ValueTrack] Parameters&quot; in [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).[!DNL Microsoft Advertising]
 
@@ -110,7 +110,7 @@ Dopo aver salvato il record, l’URL di base include tutti i parametri di aggiun
 >* Il modello di tracciamento al livello più granulare sostituisce i valori a tutti i livelli superiori. Ad esempio, se sia le impostazioni dell’account che quelle delle parole chiave includono un valore, questo viene applicato.
 >* ([!DNL Google Ads]) Se si aggiorna un modello di tracciamento a livello di sitelink o di parola chiave, gli annunci pertinenti vengono nuovamente inviati per la revisione. Puoi aggiornare i modelli di tracciamento a livello di account, campagna o gruppo di annunci senza inviare nuovamente gli annunci per l’approvazione.
 >* ([!DNL Microsoft Advertising]) È possibile aggiornare i modelli di tracciamento a qualsiasi livello senza inviare nuovamente gli annunci per l&#39;approvazione.
->* Per [!DNL Google Ads], evitare l&#39;utilizzo di macro, che non vengono sostituite dai clic provenienti da origini che abilitano il tracciamento parallelo. Se l’inserzionista deve utilizzare delle macro, l’Account Team Adobe deve collaborare con l’Assistenza clienti o con il team di implementazione per aggiungerle.
+>* Per [!DNL Google Ads], evitare l&#39;utilizzo di macro, che non vengono sostituite dai clic provenienti da origini che abilitano il tracciamento parallelo. Se l’inserzionista deve utilizzare delle macro, il team dell’account di Adobe deve collaborare con l’Assistenza clienti o con il team di implementazione per aggiungerle.
 
 >[!MORELIKETHIS]
 >

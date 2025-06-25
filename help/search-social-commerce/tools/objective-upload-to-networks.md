@@ -3,7 +3,7 @@ title: Abilita il caricamento degli obiettivi nelle reti di annunci
 description: Scopri come caricare gli obiettivi per i portfolio ibridi in  [!DNL Google Ads]  e  [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 0%
@@ -32,7 +32,7 @@ I caricamenti su [!DNL Google Ads] si verificano ogni giorno alle 06:00 nel fuso
 >
 >Le conversioni tracciate da Google Ads e dal tag UET (Universal Event Tracking) di Microsoft Advertising non vengono ricaricate nelle reti di annunci. Se li includi all’interno di un obiettivo, devi aggiungerli agli obiettivi della campagna nell’editor della rete di annunci.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**.
 
 1. Selezionare la casella di controllo accanto a **[!UICONTROL Enable Objective Upload]**.
 
@@ -40,7 +40,7 @@ I caricamenti su [!DNL Google Ads] si verificano ogni giorno alle 06:00 nel fuso
 
 1. Fare clic su **[!UICONTROL Save]**.
 
-1. (Se le conversioni vengono tracciate a livello di account manager) [Aggiungi le credenziali per l&#39;account manager](/help/search-social-commerce/admin/manager-accounts.md) alle **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**.
+1. (Se le conversioni vengono tracciate a livello di account manager) [Aggiungi le credenziali per l&#39;account manager](/help/search-social-commerce/admin/manager-accounts.md) alle **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**.
 
 1. Verificare che ogni obiettivo, denominato `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`, venga visualizzato entro due giorni sulla rete di annunci.
 
@@ -67,7 +67,7 @@ GGL_Lead non è incluso nel calcolo/caricamento perché è una metrica tracciata
 
 >[!TIP]
 >
->Puoi visualizzare i dati per gli Adobi Advertising di ricavi ponderati nei rapporti della rete di annunci. Come best practice, confronta i ricavi ponderati con il [!DNL Google Ads] &quot;All conv. (di conv. time)&quot; o la metrica [!DNL Microsoft Advertising] &quot;All conv. revenue&quot;, segmentato con la metrica O_ACS_OBJ*.<!--clarify -->
+>Puoi visualizzare i dati per i ricavi ponderati di Adobe Advertising nei rapporti della rete di annunci. Come best practice, confronta i ricavi ponderati con il [!DNL Google Ads] &quot;All conv. (di conv. time)&quot; o la metrica [!DNL Microsoft Advertising] &quot;All conv. revenue&quot;, segmentato con la metrica O_ACS_OBJ*.<!--clarify -->
 
 ## Risoluzione dei problemi relativi agli obiettivi mancanti
 
@@ -75,7 +75,7 @@ Se l&#39;obiettivo, denominato `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_a
 
 * ([!DNL Google Ads]) Verificare se le conversioni devono essere caricate a livello di account o manager. Se devono essere caricati a livello di manager:
 
-   * Verificare se le credenziali per l&#39;account manager [!DNL Google Ads] sono fornite in **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**. Se necessario, [aggiungi le credenziali per l&#39;account manager](/help/search-social-commerce/admin/manager-accounts.md).
+   * Verificare se le credenziali per l&#39;account manager [!DNL Google Ads] sono fornite in **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**. Se necessario, [aggiungi le credenziali per l&#39;account manager](/help/search-social-commerce/admin/manager-accounts.md).
 
    * Verifica se l’account di rete dell’annuncio include già lo stesso nome di metrica. In caso affermativo, rinomina la metrica in modo da poter creare la proprietà corretta a livello di manager.
 

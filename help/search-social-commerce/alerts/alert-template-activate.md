@@ -3,7 +3,7 @@ title: Attivare un modello di avviso personalizzato
 description: Scopri come attivare un modello di avviso in pausa.
 exl-id: d821d431-24fc-45ee-bb3f-7c9691ab15be
 feature: Search Alerts
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 È possibile attivare modelli di avviso in pausa.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, che consente di aprire la visualizzazione Modelli di avviso.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, che consente di aprire la visualizzazione Modelli di avviso.
 
 1. Effettuare una delle seguenti operazioni:
 

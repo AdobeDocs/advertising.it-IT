@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -15,4 +15,4 @@ ht-degree: 0%
 * Corrispondenza frase negativa: `"keyword"`
 * Corrispondenza esatta negativa: `[keyword]`
 
-La sintassi abituale per i tipi di corrispondenza esatta e di frase viene utilizzata nel bulksheet generato quando si propagano i dati di feed tramite il modello. **Nota:** non è possibile visualizzare le parole chiave negative nella scheda [!UICONTROL Keywords] o nella visualizzazione [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+La sintassi abituale per i tipi di corrispondenza esatta e di frase viene utilizzata nel bulksheet generato quando si propagano i dati di feed tramite il modello. **Nota:** non è possibile visualizzare le parole chiave negative nella scheda [!UICONTROL Keywords] o nella visualizzazione [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns].

@@ -3,7 +3,7 @@ title: Rimuovere i valori di classificazione delle etichette dai componenti dell
 description: Scopri come rimuovere le associazioni tra i valori di classificazione delle etichette e i componenti dell’account.
 exl-id: 8697367b-0bf9-48c9-8dd3-e733360e1df2
 feature: Search Label Classifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Se si rimuove un valore di classificazione, viene rimossa l’associazione con i
 >
 >Per eliminare un valore da una classificazione etichetta, vedere &quot;[Eliminare i valori di classificazione etichetta](classification-values-delete.md).&quot;
 
-1. In **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**, seleziona la vista entità.
+1. In **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**, seleziona la vista entità.
 
 1. Effettuare una delle seguenti operazioni:
 

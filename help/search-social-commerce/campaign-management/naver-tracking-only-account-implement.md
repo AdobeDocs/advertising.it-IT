@@ -3,7 +3,7 @@ title: Implementa [!DNL Naver] account di solo tracciamento
 description: Scopri come impostare campagne di tracciamento per i tuoi account  [!DNL Naver]  in modo da poter monitorare, creare rapporti e visualizzare le prestazioni per gli annunci che acquisti direttamente dalla rete di annunci.
 exl-id: acbaf4f0-eb55-4788-bc84-c3181d635f1d
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 0%
@@ -68,7 +68,7 @@ Puoi tenere traccia delle metriche delle prestazioni in tutte le campagne e per 
 
    Per ulteriori informazioni, contatta il team del tuo account Adobe.
 
-Tutti i dati di tracciamento caricati sono disponibili da [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] nelle visualizzazioni [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups] e [!UICONTROL Keywords]. È disponibile anche per i report nella visualizzazione [!UICONTROL Insights & Reports].
+Tutti i dati di tracciamento caricati sono disponibili da [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] nelle visualizzazioni [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups] e [!UICONTROL Keywords]. È disponibile anche per i report nella visualizzazione [!UICONTROL Insights & Reports].
 
 >[!MORELIKETHIS]
 >

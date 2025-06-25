@@ -3,7 +3,7 @@ title: Elimina i bulksheet caricati e i file di errore
 description: Scopri come eliminare i file bulksheet e i file di errore.
 exl-id: a4cdceb4-6013-46b6-95bc-5536e45e34d2
 feature: Search Bulksheets
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Puoi eliminare manualmente i file di bulksheet, i file di errore di convalida de
 >
 >Se si è registrato un bulksheet ma sono stati ricevuti errori, non eliminare il file di errore fino alla risoluzione di tutti gli errori.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
 
 1. Selezionare la casella di controllo accanto a ogni file da eliminare.
 

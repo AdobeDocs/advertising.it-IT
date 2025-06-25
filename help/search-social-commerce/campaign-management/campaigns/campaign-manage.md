@@ -3,7 +3,7 @@ title: Gestire le campagne
 description: Scopri come creare e gestire le campagne pubblicitarie.
 exl-id: 7654a01c-39de-4df4-a7ea-963cfc8b05f2
 feature: Search Campaign Management
-source-git-commit: 3af579ad61dd05f0d2b1e565c5b1532cebaeebe1
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Dopo aver [reso accessibile un account di rete di annunci](/help/search-social-c
 >* Prima di creare una campagna, [implementa i tag di tracciamento delle conversioni](/help/search-social-commerce/tracking/conversion-tracking-about.md) nelle pagine Web dell&#39;inserzionista.
 >* Per creare un numero elevato di campagne contemporaneamente, utilizza la [funzione Copia e incolla](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) o [bulksheet campagna](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
 
 1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Crea](/help/search-social-commerce/assets/add.png "Crea").
 
@@ -49,7 +49,7 @@ Puoi modificare le impostazioni per le singole campagne. Puoi anche modificare a
 >
 >Puoi anche modificare i dati in blocco utilizzando la funzione di copia e incolla o i bulksheet delle campagne.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
 
 1. Effettuare una delle seguenti operazioni:
 
@@ -83,7 +83,7 @@ Puoi mettere in pausa qualsiasi campagna di ricerca attiva su una rete di annunc
 
 Puoi anche eliminare qualsiasi campagna di ricerca attiva o in pausa. Le campagne eliminate vengono eliminate dalla rete di annunci. Sono ancora visibili quando li includi nel filtro dati, ma non puoi modificarli.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
 
 1. (Facoltativo) Filtra l’elenco per includere campagne specifiche.
 

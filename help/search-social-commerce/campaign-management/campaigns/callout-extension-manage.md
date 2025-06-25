@@ -3,7 +3,7 @@ title: Gestisci [!DNL Google Ads] estensioni callout
 description: Scopri come creare e gestire le estensioni di callout  [!DNL Google Ads] .
 exl-id: b1be553e-49a1-47b8-8dd2-84db56fa249e
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Crea e gestisci estensioni di callout condivisi a livello di account per qualsia
 
 ## Crea un callout condiviso di [!DNL Google Ads]
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**.
 
 1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Crea](/help/search-social-commerce/assets/add.png "Crea").
 
@@ -34,7 +34,7 @@ Dopo aver creato un sitelink, puoi [assegnarlo a un account, una campagna o un g
 
 È possibile modificare un callout condiviso alla volta.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**.
 
 1. Selezionare la casella di controllo accanto al callout da modificare.
 
@@ -46,7 +46,7 @@ Dopo aver creato un sitelink, puoi [assegnarlo a un account, una campagna o un g
 
 ## Elimina [!DNL Google Ads] callout condivisi
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**.
 
 1. Selezionare la casella di controllo accanto a ogni callout condiviso che si desidera eliminare.
 

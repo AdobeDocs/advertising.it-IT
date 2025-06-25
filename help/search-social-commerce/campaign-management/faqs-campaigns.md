@@ -3,7 +3,7 @@ title: Domande frequenti sulle campagne
 description: Vedi le risposte alle domande sulla gestione delle campagne e sulle visualizzazioni dati delle campagne.
 exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '1585'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Inoltre, [!DNL Google Ads] metriche delle prestazioni a livello di campagna nell
 >
 >(Inserzionisti con portfolio) Le prestazioni delle nuove combinazioni di parole chiave e tipi di corrispondenza saranno volatili, mentre Search, Social e Commerce raccolgono i dati per creare modelli per loro.
 
-**Azioni nelle visualizzazioni [!UICONTROL Search] > [!UICONTROL Campaigns], nel processo di pubblicazione dei bulksheet e nell&#39;editor proprio della rete di annunci:**
+**Azioni nelle visualizzazioni [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns], nel processo di pubblicazione dei bulksheet e nell&#39;editor proprio della rete di annunci:**
 
 La parola chiave o l’annuncio esistente viene eliminato e ne viene creato un altro quando:
 
@@ -99,7 +99,7 @@ In entrambi i casi, gli URL di base con monitoraggio di Search, Social e Commerc
 
 Le metriche delle prestazioni a livello di campagna [!DNL Google Ads] nella rete di ricerca per il giorno corrente vengono richiamate alle 08:00 e alle 16:00 nel fuso orario dell&#39;inserzionista.
 
-Nella scheda [!UICONTROL Campaigns] sia nella visualizzazione [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] che nella visualizzazione [!UICONTROL Optimization] > [!UICONTROL Portfolios], quando si esegue il report su [!UICONTROL Today] o un intervallo di date personalizzato che include il giorno corrente, i dati includono quelli sincronizzati più di recente.
+Nella scheda [!UICONTROL Campaigns] sia nella visualizzazione [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] che nella visualizzazione [!UICONTROL Optimization] > [!UICONTROL Portfolios], quando si esegue il report su [!UICONTROL Today] o un intervallo di date personalizzato che include il giorno corrente, i dati includono quelli sincronizzati più di recente.
 
 >[!NOTE]
 >

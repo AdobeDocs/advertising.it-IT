@@ -3,7 +3,7 @@ title: Informazioni sulle classificazioni delle etichette
 description: Scopri come utilizzare le classificazioni delle etichette per raggruppare i componenti dell’account.
 exl-id: 3ec4b111-225e-4272-b3dc-4f6f9c711779
 feature: Search Label Classifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Ogni entità idonea può avere valori di etichetta per più classificazioni, ma 
 
 ## Visualizzazione Classificazioni etichette
 
-La visualizzazione [!UICONTROL Labels Classifications] nel menu [!UICONTROL Search] > [!UICONTROL Campaigns] include [!UICONTROL Classifications] e [!UICONTROL Label Values] visualizzazioni secondarie. Puoi visualizzare i dati per le classificazioni delle etichette, [create](classification-create.md) e [delete](classification-delete.md) e i dati per i valori di classificazione delle etichette. Per impostazione predefinita, i dati vengono visualizzati per le classificazioni e i valori delle etichette a livello di parola chiave, ma è possibile visualizzare facoltativamente i dati per le classificazioni e i valori a livello di annuncio.
+La visualizzazione [!UICONTROL Labels Classifications] nel menu [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] include [!UICONTROL Classifications] e [!UICONTROL Label Values] visualizzazioni secondarie. Puoi visualizzare i dati per le classificazioni delle etichette, [create](classification-create.md) e [delete](classification-delete.md) e i dati per i valori di classificazione delle etichette. Per impostazione predefinita, i dati vengono visualizzati per le classificazioni e i valori delle etichette a livello di parola chiave, ma è possibile visualizzare facoltativamente i dati per le classificazioni e i valori a livello di annuncio.
 
 >[!MORELIKETHIS]
 >

@@ -3,7 +3,7 @@ title: Gestione modificatori
 description: Scopri come configurare e gestire i modificatori per i modelli di annunci per i feed di dati di inventario.
 exl-id: 74c9a7c7-0979-4f78-9225-43bc6c94acd7
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Ogni gruppo di modificatori può includere tutti i modificatori desiderati. Ogni
 
 ## Creare un gruppo di modificatori
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
 
 1. Nella barra degli strumenti sopra la tabella dati, fare clic su **[!UICONTROL Modifiers]**.
 
@@ -36,7 +36,7 @@ Ogni gruppo di modificatori può includere tutti i modificatori desiderati. Ogni
 
 ## Modificare un gruppo di modificatori
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
 
 1. Nella barra degli strumenti sopra la tabella dati, fare clic su **[!UICONTROL Modifiers]**.
 
@@ -56,7 +56,7 @@ Ogni gruppo di modificatori può includere tutti i modificatori desiderati. Ogni
 >
 >Quando elimini un gruppo di modificatori, rimuovi tutte le variabili per tale gruppo di modificatori (indicato come `<modifier_group_name>`) dai campi dei modelli esistenti. Se si tenta di propagare i dati tramite un modello utilizzando variabili per modificatori non esistenti, il processo non riesce1.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
 
 1. Nella barra degli strumenti sopra la tabella dati, fare clic su **[!UICONTROL Modifiers]**.
 

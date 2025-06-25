@@ -3,7 +3,7 @@ title: Visualizzare o salvare un rapporto
 description: Scopri come visualizzare un rapporto generato o salvarlo come file.
 exl-id: 11333266-d1af-4064-9816-c70b53b0a8bd
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe I membri del Team dell’account e gli utenti amministratori possono visualizzare i rapporti creati dai ruoli del cliente e dell’agenzia.
+>I membri del Adobe Account Team e gli utenti amministratori possono visualizzare i rapporti creati dai ruoli client e agenzia.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**, che consente di aprire la scheda **[!UICONTROL Latest Reports]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**, che consente di aprire la scheda **[!UICONTROL Latest Reports]**.
 
 1. Effettuare una delle seguenti operazioni:
 

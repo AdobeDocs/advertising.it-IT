@@ -3,7 +3,7 @@ title: Modificare lo stato dei posizionamenti e dei posizionamenti negativi
 description: Scopri come modificare lo stato dei posizionamenti e dei posizionamenti negativi per  [!DNL Google Ads].
 exl-id: 3c54a80e-6f4c-4936-97b1-67ac8de24830
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Puoi mettere in pausa un posizionamento attivo e su cui fare offerte per disabil
 
 Potete anche eliminare un posizionamento attivo o in pausa o un posizionamento negativo. I posizionamenti eliminati/negativi vengono eliminati dalla rete di annunci. Sono ancora visibili, ma non si possono cambiare.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Placements] > \[[!UICONTROL Placements] \| [!UICONTROL Negatives]\]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Placements] > \[[!UICONTROL Placements] \| [!UICONTROL Negatives]\]**.
 
 1. (Facoltativo) Filtra l’elenco per includere posizionamenti specifici o negativi.
 

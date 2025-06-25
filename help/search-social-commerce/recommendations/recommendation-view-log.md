@@ -3,7 +3,7 @@ title: Visualizzare il registro dei consigli dell’editore per un account
 description: Scopri come visualizzare un registro di ogni consiglio applicato per un account  [!DNL Google Ads] o [!DNL Microsoft Advertising] .
 exl-id: a963c1cd-e785-470d-8f16-8d770baf2aa7
 feature: Search Recommendations
-source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 I consigli ignorati non sono disponibili dalla rete di annunci.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
 
 1. In alto a destra, seleziona la rete di annunci e l’account.
 

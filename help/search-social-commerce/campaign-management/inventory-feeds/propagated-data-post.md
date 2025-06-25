@@ -3,7 +3,7 @@ title: Pubblicare i dati della campagna generati dai feed nelle reti di annunci
 description: Scopri come pubblicare i dati generati dai feed di dati di inventario nelle reti di annunci.
 exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: 2cf15dbab3dc00ec88a41e4f7d8b5b3646b843e8
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Per una pubblicazione corretta, tutti i gruppi di annunci devono essere assegnat
   >
   >Se in precedenza non hai convalidato le pagine di destinazione e desideri farlo, [propaga i dati e visualizzali in anteprima](feed-data-propagate.md) dalla visualizzazione [!UICONTROL Bulksheets] invece di pubblicarli nella rete di annunci. Puoi quindi [convalidare gli URL](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md) prima di inviare manualmente il file alla rete di annunci.
 
-   1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, che consente di aprire la scheda [!UICONTROL Templates].
+   1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, che consente di aprire la scheda [!UICONTROL Templates].
 
    1. Selezionare la casella di controllo accanto al modello.
 
@@ -54,7 +54,7 @@ Per una pubblicazione corretta, tutti i gruppi di annunci devono essere assegnat
 
               Per specificare una data, utilizzare il formato GG/MM/AAAA o GG/M/AAAA oppure fare clic su ![Calendario](/help/search-social-commerce/assets/calendar.png "Calendario") per aprire il calendario e [selezionare una data](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Per modificare un&#39;ora, immettere l&#39;ora nel formato di 24 ore HH/MM o H/M oppure selezionare un&#39;ora (in intervalli di 30 minuti) dall&#39;elenco.
 
-         * **[!UICONTROL Preview in Bulksheet Management Area only, post later]:** Crea un file di foglio bulk disponibile dalla vista [!UICONTROL Search] > [!UICONTROL Bulksheets]. Facoltativamente, puoi pubblicare il file da lì.
+         * **[!UICONTROL Preview in Bulksheet Management Area only, post later]:** Crea un file di foglio bulk disponibile dalla vista [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Bulksheets]. Facoltativamente, puoi pubblicare il file da lì.
 
            Quando il file di bulksheet risultante è superiore a 2 MB, il file è in formato ZIP. Non è necessario decomprimere il file per pubblicarlo.
 

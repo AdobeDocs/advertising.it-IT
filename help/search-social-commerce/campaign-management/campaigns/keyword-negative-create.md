@@ -3,7 +3,7 @@ title: Creare parole chiave negative
 description: Scopri come creare parole chiave negative per campagne di ricerca e gruppi di annunci.
 exl-id: afe786bf-eda8-4590-b471-3fb696c420de
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Solo *[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] e
 >[!TIP]
 >Per creare più parole chiave negative contemporaneamente, utilizzare [bulksheet campagna](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Negatives]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Negatives]**.
 
 1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Crea](/help/search-social-commerce/assets/add.png "Crea"), quindi fare clic su **[!UICONTROL Campaign]** per creare parole chiave negative a livello di campagna o su **[!UICONTROL Ad Group]** per creare parole chiave negative a livello di gruppo di annunci.
 

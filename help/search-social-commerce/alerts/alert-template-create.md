@@ -3,7 +3,7 @@ title: Creare un modello di avviso personalizzato
 description: Scopri come creare un modello per la generazione di avvisi personalizzati.
 exl-id: 95fdc91d-837c-46af-9dd7-212cb4b5a8ac
 feature: Search Alerts
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Puoi creare un modello di avviso per portfolio, campagne, gruppi di annunci, par
 
 ## Crea un modello di avviso dalla visualizzazione [!UICONTROL Alert Templates]
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, che apre alla visualizzazione [!UICONTROL Alert Templates].
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, che apre alla visualizzazione [!UICONTROL Alert Templates].
 
 1. Nella barra degli strumenti fare clic su ![Crea](/help/search-social-commerce/assets/add.png "Crea"), quindi selezionare il tipo di entità da valutare ([!UICONTROL Portfolio], [!UICONTROL Account], [!UICONTROL Campaign], [!UICONTROL Ad Group], [!UICONTROL Keyword], [!UICONTROL Ad] o [!UICONTROL Product Group]).
 
@@ -32,9 +32,9 @@ Puoi spostarti tra le schede facendo clic sul nome della scheda (ad esempio, &qu
 >
 >Questa opzione non è disponibile per i modelli di avvisi a livello di portfolio.
 
-1. Nella vista **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**, apri la sottovista di gestione della campagna per il tipo di entità da valutare ([!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Ads] o [!UICONTROL Product Groups]).
+1. Nella vista **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**, apri la sottovista di gestione della campagna per il tipo di entità da valutare ([!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Ads] o [!UICONTROL Product Groups]).
 
-Ad esempio, per creare un modello di avviso a livello di parola chiave, passare a [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns], quindi selezionare [!UICONTROL Keywords].
+Ad esempio, per creare un modello di avviso a livello di parola chiave, passare a [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns], quindi selezionare [!UICONTROL Keywords].
 
 1. Nella parte destra della barra degli strumenti sopra la tabella dati, fare clic su ![Crea avviso](/help/search-social-commerce/assets/add-alert.png "Crea avviso").
 

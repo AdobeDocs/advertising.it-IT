@@ -3,7 +3,7 @@ title: Informazioni sugli avvisi personalizzati
 description: Scopri gli avvisi personalizzati, tra cui come creare modelli di avvisi e quando vengono attivati gli avvisi.
 exl-id: 11dcc96c-06b8-4d2a-a671-af26297fdc3f
 feature: Search Alerts
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Quando viene attivata un&#39;istanza di avviso per un modello di avviso:
 
 * I destinatari specificati ricevono una notifica e-mail. Quando l&#39;avviso contiene fino a 1000 record, l&#39;avviso e-mail include un file [CSV](/help/search-social-commerce/glossary.md#c-d) con i dati dell&#39;avviso, inclusi i dati per tutte le entità che hanno attivato l&#39;avviso.
 
-* L&#39;avviso è elencato nella visualizzazione [!UICONTROL Triggered Alerts] in [!UICONTROL Search] > [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts]. Un rapporto scaricabile è disponibile per dieci giorni dopo l’attivazione dell’avviso.
+* L&#39;avviso è elencato nella visualizzazione [!UICONTROL Triggered Alerts] in [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts]. Un rapporto scaricabile è disponibile per dieci giorni dopo l’attivazione dell’avviso.
 
 * L&#39;avviso è elencato nel centro [!UICONTROL Notifications] nella vista entità applicabile, disponibile nella barra degli strumenti a destra. Le notifiche rimangono nel centro [!UICONTROL Notifications] a meno che non vengano eliminate o contrassegnate come lette.
 

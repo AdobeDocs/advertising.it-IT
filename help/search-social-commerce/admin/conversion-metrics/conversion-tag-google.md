@@ -3,7 +3,7 @@ title: Crea un tag di conversione per  [!DNL Google Ads]
 description: Scopri come creare un tag di conversione  [!DNL Google Ads] .
 feature: Conversions
 exl-id: 214611f0-bd38-499e-a7de-3a5878995fb5
-source-git-commit: 2c20d2138ee797b6ed2f27d9baa9eda7d413da8d
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Per generare tag di conversione per le conversioni esistenti, utilizza l’editor della rete di annunci.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**, che consente di aprire la scheda **[!UICONTROL Summary]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**, che consente di aprire la scheda **[!UICONTROL Summary]**.
 
 1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Crea](/help/search-social-commerce/assets/add.png "Crea").
 

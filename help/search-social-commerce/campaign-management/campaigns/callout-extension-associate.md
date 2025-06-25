@@ -3,7 +3,7 @@ title: Associa [!DNL Google Ads] estensioni callout condivise a campagne o grupp
 description: Scopri come assegnare  [!DNL Google Ads] estensioni di callout condivise a campagne o gruppi di annunci.
 exl-id: 9b3b8454-da14-4506-a92c-6796dd5fe903
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Puoi creare e assegnare estensioni di callout a qualsiasi [campagna o gruppo di 
 
 Assegna almeno due callout per campagna o gruppo di annunci affinché gli annunci siano idonei a essere visualizzati con i callout.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**.
 
 1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Crea](/help/search-social-commerce/assets/add.png "Crea"), quindi selezionare **[!UICONTROL Callout]**.
 

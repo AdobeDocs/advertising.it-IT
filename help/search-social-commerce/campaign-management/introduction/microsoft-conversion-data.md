@@ -3,7 +3,7 @@ title: '[!DNL Microsoft Advertising] dati di conversione'
 description: Scopri i tipi di dati di conversione tracciati da  [!DNL Microsoft Advertising] disponibili in Search, Social e Commerce.
 feature: Search Campaign Management, Conversions
 exl-id: 0ebc70a0-1fb7-48db-b45d-7409e8bb6f64
-source-git-commit: b8a34f3d85947536eb92ee481966f84694250f29
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 0%
@@ -40,7 +40,7 @@ I dati sono disponibili in base all’ora di clic e all’ora di conversione/tra
 
 >[!NOTE]
 >
->* Se disponi di più account con gli stessi nomi di conversione, in Adobe Advertising potrebbero essere presenti nomi di conversione duplicati. In questo caso, [modificare il nome visualizzato](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md) per una delle metriche duplicate in [!UICONTROL Admin] > [!UICONTROL Conversions]. Il reporting non è accurato quando due metriche diverse hanno lo stesso nome.
+>* Se disponi di più account con gli stessi nomi di conversione, è possibile che vengano visualizzati nomi di conversione duplicati in Adobe Advertising. In questo caso, [modificare il nome visualizzato](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md) per una delle metriche duplicate in [!UICONTROL Admin] > [!UICONTROL Conversions]. Il reporting non è accurato quando due metriche diverse hanno lo stesso nome.
 >* I dati a livello di unità di offerta corrispondono ai dati nella rete di annunci allo stesso livello. Tuttavia, i dati di conversione della rete di annunci per i livelli superiori possono includere conversioni aggiuntive che non sono attribuite alle unità di offerta figlie. I dati in Search, Social e Commerce vengono sempre aggregati dal livello di unità dell’offerta, pertanto, ad esempio, un rapporto a livello di campagna potrebbe non avere gli stessi totali di un rapporto a livello di campagna nella rete di annunci.
 >* La varianza dei dati è in genere inferiore dopo la sincronizzazione mattutina rispetto a quella più tardi nel corso della giornata, quando non sono ancora state sincronizzate conversioni aggiuntive. È consigliabile convalidare i dati al mattino.
 >* I dati non sono disponibili a livello di pubblico o di posizione geografica e pertanto non vengono utilizzati per ottimizzare automaticamente RLSA e le regolazioni delle offerte di posizione.
@@ -57,7 +57,7 @@ Genera il rapporto per le azioni di conversione selezionate per giorno e include
 
 In Ricerca, Social e Commerce, utilizza l’opzione di visualizzazione o di rapporto per visualizzare le conversioni in base alla data di clic (non alla data della transazione).
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
 1. Nella barra degli strumenti sopra la tabella dati fare clic su **[!UICONTROL Create Report]**, tenere premuto il cursore su **[!UICONTROL Basic Reports]** e quindi fare clic su **[!UICONTROL Search Engine Account Report]**.
 

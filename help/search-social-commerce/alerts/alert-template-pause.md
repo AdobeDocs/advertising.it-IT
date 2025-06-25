@@ -3,7 +3,7 @@ title: Mettere in pausa un modello di avviso personalizzato
 description: Scopri come mettere in pausa un modello di avviso attivo.
 exl-id: c0ce222d-5478-467b-abe2-bb0fc4906160
 feature: Search Alerts
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 È possibile sospendere i modelli di avviso attivi.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, che apre alla visualizzazione [!UICONTROL Alert Templates].
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, che apre alla visualizzazione [!UICONTROL Alert Templates].
 
 1. Effettuare una delle seguenti operazioni:
 

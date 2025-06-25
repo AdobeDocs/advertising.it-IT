@@ -3,7 +3,7 @@ title: Visualizzare le metriche di conversione tracciate per un inserzionista
 description: Scopri come visualizzare un elenco delle metriche di conversione tracciate per un inserzionista.
 feature: Conversions
 exl-id: 7c9e2271-4127-4d43-aff8-5a2788bfe60f
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Visualizzare le metriche di conversione tracciate per un inserzionista
 
-Puoi visualizzare un elenco di tutte le metriche di [conversione](/help/search-social-commerce/glossary.md#c-d) che Adobe Advertising ha tracciato per un inserzionista. Ogni riga di metrica include l’origine della metrica.
+Puoi visualizzare un elenco di tutte le metriche di [conversione](/help/search-social-commerce/glossary.md#c-d) tracciate da Adobe Advertising per un inserzionista. Ogni riga di metrica include l’origine della metrica.
 
-* Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
+* Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
 
 Sono elencate tutte le metriche di conversione raccolte per l’inserzionista e tutti i diversi nomi visualizzati assegnati.
 

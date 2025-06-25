@@ -3,7 +3,7 @@ title: Creare e modificare i dati della campagna in blocco utilizzando Copia e I
 description: Scopri come gestire i dati della campagna in blocco utilizzando la funzione di copia e incolla.
 exl-id: 2ae1b02f-46ac-4ea8-aa9f-9e26ccaf63d0
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Puoi utilizzare questa funzione per modificare gli oggetti campagna esistenti (c
 
 ## Copiare righe di dati
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> \[[!UICONTROL Campaigns] \| [!UICONTROL Ad Groups] \| [!UICONTROL Keywords] \| [!UICONTROL Ads]\]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]> \[[!UICONTROL Campaigns] \| [!UICONTROL Ad Groups] \| [!UICONTROL Keywords] \| [!UICONTROL Ads]\]**.
 
 1. Selezionare la casella di controllo accanto a ogni riga da copiare.
 
@@ -58,7 +58,7 @@ Puoi utilizzare questa funzione per modificare gli oggetti campagna esistenti (c
 
 1. In [!DNL Excel] o in un altro editor, copiare le righe separate da tabulazioni pertinenti.
 
-1. Nel menu principale di Ricerca, Social e Commerce, fare clic su **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Apri la visualizzazione in cui incollare i dati (**[!UICONTROL Live]> \[[!UICONTROL Campaigns] \| [!UICONTROL Ad Groups] \| [!UICONTROL Keywords] \| [!UICONTROL Ads]\]**).
+1. Nel menu principale di Ricerca, Social e Commerce, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Apri la visualizzazione in cui incollare i dati (**[!UICONTROL Live]> \[[!UICONTROL Campaigns] \| [!UICONTROL Ad Groups] \| [!UICONTROL Keywords] \| [!UICONTROL Ads]\]**).
 
 1. Nella barra degli strumenti sopra la tabella dati fare clic su ![Altro](/help/search-social-commerce/assets/more.png "Altro") e quindi su **[!UICONTROL Paste]**.
 

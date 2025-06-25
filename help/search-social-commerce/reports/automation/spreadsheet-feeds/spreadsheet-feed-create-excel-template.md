@@ -3,7 +3,7 @@ title: Crea un  [!DNL Excel]  modello per un feed di report foglio di calcolo
 description: Scopri come creare modelli di fogli di calcolo con formattazione speciale.
 exl-id: 74bf3cdf-7d56-431a-8aff-11ed3840a7cd
 feature: Search Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -16,14 +16,14 @@ ht-degree: 0%
 
 Per creare feed di fogli di calcolo, è necessario innanzitutto creare modelli di fogli di calcolo [!DNL Microsoft Excel] con formattazione speciale utilizzando modelli di report standard. Facoltativamente, è possibile personalizzare il foglio di calcolo [!DNL Excel] per includere colonne e grafici aggiuntivi.
 
-1. In **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**, generare il tipo di report desiderato utilizzando un&#39;unità [!UICONTROL Date Aggregation] di &quot;[!UICONTROL Daily]&quot; e con tutti gli altri parametri di dati desiderati, salvando il report come modello.
+1. In **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**, generare il tipo di report desiderato utilizzando un&#39;unità [!UICONTROL Date Aggregation] di &quot;[!UICONTROL Daily]&quot; e con tutti gli altri parametri di dati desiderati, salvando il report come modello.
 
    >[!NOTE]
    >
    > * È possibile creare feed del foglio di calcolo per i report [!UICONTROL Portfolio], [!UICONTROL Search Engine], [!UICONTROL Search Engine Account], [!UICONTROL Campaign], [!UICONTROL Ad Group], [!UICONTROL Ad Variation], [!UICONTROL Keyword] e [!UICONTROL Forecast Accuracy]. Se utilizzi [!UICONTROL Ad Group Report], limita il numero di gruppi di annunci inclusi per ottenere risultati più rapidi.
    > * L&#39;unità [!UICONTROL Date Range] definita nel modello non viene utilizzata. Definirai le date per le quali aggiornare i dati quando configuri il feed del foglio di calcolo in un secondo momento.
 
-1. Dopo la generazione del report, vai a **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** ed esporta una versione TSV o XLS dell&#39;output del report in un file.
+1. Dopo la generazione del report, vai a **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** ed esporta una versione TSV o XLS dell&#39;output del report in un file.
 
 1. In [!DNL Excel], creare un modello personalizzato per il report:
 

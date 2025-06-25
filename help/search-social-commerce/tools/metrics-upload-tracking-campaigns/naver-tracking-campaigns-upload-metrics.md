@@ -3,7 +3,7 @@ title: Carica le metriche di traffico e conversione per  [!DNL Naver] account di
 description: Scopri come caricare le metriche di traffico e conversione per il tracciamento e il reporting solo per gli account  [!DNL Naver] .
 exl-id: 2e4c26fa-16a8-4f36-bc17-b3a38a18120b
 feature: Search Tools
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Puoi caricare un file TSV, CSV o TXT delle metriche di traffico aggregate giorna
 
 Search, Social e Commerce non sincronizzano i dati con la rete di annunci né fanno offerte per l’account.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Generic Tracking]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Generic Tracking]**.
 
 1. Seleziona la rete dell’annuncio.
 
