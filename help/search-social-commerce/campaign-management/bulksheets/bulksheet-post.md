@@ -35,7 +35,7 @@ All&#39;inizio dell&#39;attività, lo stato e la data di pubblicazione pianifica
 >
 >* La pubblicazione di grandi quantità di dati richiede più tempo. È possibile seguire l&#39;avanzamento del file nella colonna [!UICONTROL Progress] nella visualizzazione [!UICONTROL Bulksheets].
 >* Tutti i dati pubblicati sono soggetti al processo editoriale della rete.
-* Prima della registrazione del file di bulksheet, è possibile annullarla.
+>* Prima della registrazione del file di bulksheet, è possibile annullarla.
 
 ## Impostazioni post per i bulksheet e i file di errore corretti {#bulksheet-post-settings}
 

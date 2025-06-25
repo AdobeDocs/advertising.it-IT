@@ -67,5 +67,5 @@ Per ulteriori istruzioni sull&#39;utilizzo del modello, vedere [https://help.ads
 >
 >* [Implementa [!DNL Google Ads] conversioni avanzate per lead](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)
 >* [Implementa [!DNL Microsoft Advertising] conversioni offline avanzate](/help/search-social-commerce/campaign-management/special-workflows/microsoft-enhanced-conversions.md)
->* ([!DNL Google Ads only])[Crea un&#39;azione di conversione per una  [!DNL Google Ads] conversione avanzata per lead](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
+>* ([!DNL Google Ads only]) [Crea un&#39;azione di conversione per una  [!DNL Google Ads] conversione avanzata per lead](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
 >* [Carica metriche di conversione tracciate da ricerca, social e Commerce in [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
