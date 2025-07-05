@@ -3,46 +3,62 @@ title: Accedi
 description: Scopri come accedere.
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 1bf1c26b56c2d57437d288ae5ac9d2ba1ff1db77
+source-git-commit: 5f28b2ba916778b110e19b6c3a1583312417a34e
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
 
 # Accedi
 
-<!-- update with new info -->
+Search, Social e Commerce stanno passando ad Adobe Identity Management Service (IMS) per l’autenticazione degli accessi. IMS fornisce accesso Single Sign-On (SSO) a tutti i prodotti [!DNL Adobe] che supportano IMS, inclusi Real-Time Customer Data Platform, Customer Journey Analytics, Target e Analytics. Con la modifica:
 
-<!--
+* È possibile utilizzare un [!DNL Adobe ID] per accedere ai diversi prodotti di [!DNL Adobe] dalla pagina di accesso di Experience Cloud o dalla pagina di accesso legacy di Search, Social e Commerce. [!DNL Adobe ID] consente di gestire il profilo utente e di passare a un altro prodotto [!DNL Adobe] dal menu principale. In una versione futura, potrai modificare l’account Search, Social, &amp; Commerce e l’account organizzazione IMS dal menu principale.
 
-You can sign in to Search, Social, & Commerce directly or from within Adobe Experience Cloud.
+* L&#39;autenticazione Enterprise è supportata.
 
-## Sign in directly
+* Puoi accedere per 24 ore.
 
- -->
+Le credenziali attuali di Search, Social e Commerce rimarranno attive fino al 15 luglio 2025, in modo da poterti preparare alla modifica.
 
-* Accedi a uno dei seguenti URL:
+Per ulteriori informazioni sull&#39;interfaccia di Experience Cloud, inclusa la gestione del profilo utente, vedere &quot;[Interfaccia e amministrazione di Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud).&quot;
 
-   * Utenti in Nord America: [https://enterprise-na.efrontier.com](https://enterprise-na.efrontier.com)
+## Accedi dalla pagina legacy di accesso a Ricerca, Social e Commerce
 
-   * Utenti in tutte le altre aree: [https://enterprise-intl.efrontier.com](https://enterprise-intl.efrontier.com)
+### Utilizza un accesso legacy a Search, Social e Commerce per l’autenticazione
 
-<!--
+Questa opzione è disponibile fino al 15 luglio 2025.
 
-## Sign in from Adobe Experience Cloud
+* Vai a [enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/) o [enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/) e accedi utilizzando le tue credenziali legacy di Search, Social e Commerce.
 
->[!NOTE]
->
->Your company must be provisioned in Adobe Experience Cloud, and you must have [linked your Experience Cloud account to a Search, Social, & Commerce account](https://experiencecloud.adobe.com/resources/help/it_IT/mcloud/organizations.html).
+  Per impostazione predefinita, viene aperta l’interfaccia utente legacy.
 
-1. [Sign in to Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=it#signin).
+## Utilizza un [!DNL Adobe ID] per l&#39;autenticazione
 
-1. In the top menu, select ![Solution selector](/help/search-social-commerce/assets/menu-icon.png "Solution selector").
+1. Vai a [enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/) o [enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/) e accedi con il tuo ID [!DNL Adobe].
 
-1. In the submenu, select **[!UICONTROL Advertising Cloud]**.
+Per impostazione predefinita, viene aperta la nuova interfaccia utente.
 
--->
+## Accedi da Adobe Experience Cloud utilizzando [!DNL Adobe ID]
+
+<!-- Later, give them the new direct URL(s) to our UI so they don't have to select the product. -->
+
+1. Vai a [experience.adobe.com](https://experience.adobe.com).
+
+1. Immetti le credenziali ID [!DNL Adobe].
+
+1. Scegli la tua organizzazione:
+
+   * Se richiesto, selezionare **Account personale&quot; oppure **Account aziendale o scolastico**.<!-- Will it necessarily be "Company or School Account?" -->
+
+   * Se hai accesso a più organizzazioni IMS, seleziona quella corretta.
+
+1. Nella sezione [!UICONTROL Quick Access] della home page, fare clic su **[!UICONTROL Advertising Search, Social, & Commerce]**.
+
+![Advertising Search, Social e Commerce)](/help/search-social-commerce/assets/search-social-commerce-logo.png "Advertising Search, Social e Commerce)")
+
+Per impostazione predefinita, viene aperta la nuova interfaccia utente.
 
 >[!MORELIKETHIS]
 >
