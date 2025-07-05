@@ -3,9 +3,9 @@ title: Accedi
 description: Scopri come accedere.
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 5f28b2ba916778b110e19b6c3a1583312417a34e
+source-git-commit: 16bc95001d815f22ade46390d07e40fcc29e2fdb
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Search, Social e Commerce stanno passando ad Adobe Identity Management Service (
 
 Le credenziali attuali di Search, Social e Commerce rimarranno attive fino al 15 luglio 2025, in modo da poterti preparare alla modifica.
 
-Per ulteriori informazioni sull&#39;interfaccia di Experience Cloud, inclusa la gestione del profilo utente, vedere &quot;[Interfaccia e amministrazione di Experience Cloud](https://experienceleague.adobe.com/it/docs/core-services/interface/experience-cloud).&quot;
+Per ulteriori informazioni sull&#39;interfaccia di Experience Cloud, inclusa la gestione del profilo utente, vedere &quot;[Interfaccia e amministrazione di Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud).&quot;
 
 ## Accedi dalla pagina legacy di accesso a Ricerca, Social e Commerce
 
@@ -30,15 +30,21 @@ Per ulteriori informazioni sull&#39;interfaccia di Experience Cloud, inclusa la 
 
 Questa opzione è disponibile fino al 15 luglio 2025.
 
-* Vai a [enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/) o [enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/) e accedi utilizzando le tue credenziali legacy di Search, Social e Commerce.
+* Vai a [enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/) o [enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/) e accedi utilizzando il nome utente e la password legacy di Search, Social e Commerce.
 
   Per impostazione predefinita, viene aperta l’interfaccia utente legacy.
 
 ## Utilizza un [!DNL Adobe ID] per l&#39;autenticazione
 
-1. Vai a [enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/) o [enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/) e accedi con il tuo ID [!DNL Adobe].
+1. Vai a [enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/) o [enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/) e fai clic su **[!UICONTROL Sign in with SSO]**.
 
-Per impostazione predefinita, viene aperta la nuova interfaccia utente.
+1. Immetti l&#39;ID [!DNL Adobe] e fai clic su **[!UICONTROL Continue]**.
+
+1. Se richiesto, selezionare **Account personale&quot; oppure **Account aziendale o scolastico**.<!-- Will it necessarily be "Company or School Account?" -->
+
+   Per impostazione predefinita, viene aperta la nuova interfaccia utente.
+
+1. Se hai accesso a più organizzazioni IMS, seleziona l’organizzazione corretta in alto a destra della pagina.
 
 ## Accedi da Adobe Experience Cloud utilizzando [!DNL Adobe ID]
 
@@ -46,19 +52,17 @@ Per impostazione predefinita, viene aperta la nuova interfaccia utente.
 
 1. Vai a [experience.adobe.com](https://experience.adobe.com).
 
-1. Immetti le credenziali ID [!DNL Adobe].
+1. Immetti il tuo ID [!DNL Adobe] e fai clic su **[!UICONTROL Continue]**.
 
-1. Scegli la tua organizzazione:
-
-   * Se richiesto, selezionare **Account personale&quot; oppure &#x200B;** Account aziendale o scolastico**.<!-- Will it necessarily be "Company or School Account?" -->
-
-   * Se hai accesso a più organizzazioni IMS, seleziona quella corretta.
+1. Se richiesto, selezionare **Account personale&quot; oppure **Account aziendale o scolastico**.<!-- Will it necessarily be "Company or School Account?" -->
 
 1. Nella sezione [!UICONTROL Quick Access] della home page, fare clic su **[!UICONTROL Advertising Search, Social, & Commerce]**.
 
 ![Advertising Search, Social e Commerce)](/help/search-social-commerce/assets/search-social-commerce-logo.png "Advertising Search, Social e Commerce)")
 
 Per impostazione predefinita, viene aperta la nuova interfaccia utente.
+
+1. Se hai accesso a più organizzazioni IMS, seleziona l’organizzazione corretta in alto a destra della pagina.
 
 >[!MORELIKETHIS]
 >
