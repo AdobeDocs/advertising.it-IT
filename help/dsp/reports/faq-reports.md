@@ -2,9 +2,9 @@
 title: Domande frequenti sui rapporti personalizzati
 description: Ulteriori informazioni sui rapporti personalizzati, inclusi i rapporti sulla famiglia e i rapporti di analisi del percorso di conversione.
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
-source-git-commit: cb3eed4629c66283e0de18f7287169ec6e501aaa
+source-git-commit: a1ece707f43af4a6a3fc5573e41c75622f9b502f
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1178'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Il report [!UICONTROL Household Reach & Frequency] misura portata, impression e 
 
 Ad esempio, anche se un’impression viene trasmessa a tre dispositivi all’interno di una famiglia, la metrica Raggiunto in famiglia univoca è pari a uno.
 
-##### Dimension supportati
+##### Dimensioni supportate
 
 Il report [!UICONTROL Household Reach & Frequency] supporta le [dimensioni seguenti](/help/dsp/reports/report-columns.md): &quot;[!UICONTROL Campaign],&quot; &quot;[!UICONTROL Package],&quot; &quot;[!UICONTROL Placement],&quot; &quot;[!UICONTROL Site/Apps]&quot; (che non fornisce l&#39;accesso alle metriche di sovrapposizione), &quot;[!UICONTROL Media Type],&quot; &quot;[!UICONTROL Feed Type],&quot; &quot;[!UICONTROL Device],&quot; &quot;[!UICONTROL Publisher],&quot; &quot;[!UICONTROL Audience],&quot; &quot;[!UICONTROL Creative Length]&quot; e il posizionamento creato dall&#39;utente &quot;[!UICONTROL Tags].&quot; |
 
@@ -83,13 +83,11 @@ Sono supportati due tipi di metodi di attribuzione:
 
 #### In che modo i rapporti sulle conversioni domestiche differiscono dai rapporti view-through CTV in Adobe Analytics?
 
-I dati view-through CTV in [!DNL Analytics] sono alimentati dal monitoraggio di [!DNL Analytics] e i dati di conversione della famiglia utilizzano i dati raccolti mediante il monitoraggio delle conversioni Adobe Advertising. Inoltre, la logica di attribuzione DSP in [!DNL Analytics] utilizza solo l&#39;ultimo evento, ma il reporting di conversione delle famiglie supporta due diversi metodi di attribuzione: Univoco e MTA.
+* In [!DNL Analytics], il report [!DNL CTV View-Through Conversion] mostra il numero di conversioni per le quali un&#39;impression CTV è stato l&#39;ultimo punto di contatto prima della conversione. Al contrario, il report DSP [!UICONTROL Household Conversions] mostra il numero di famiglie univoche che sono state esposte a un&#39;impression CTV in qualsiasi punto all&#39;interno dell&#39;intervallo di lookback definito prima della conversione.
 
-#### È possibile visualizzare i dati view-through CTV sia in [!DNL Analytics for Advertising] che nei report personalizzati?
+* In [!DNL Analytics], la logica di attribuzione assegna le conversioni esclusivamente all&#39;ultimo punto di contatto da Adobe Advertising. Il report DSP [!UICONTROL Household Conversions] supporta invece altri modelli di attribuzione, *[!UICONTROL Unique]* e *[!UICONTROL Multi-Touch Attribution (MTA)]*.
 
-Gli inserzionisti senza [!DNL Analytics for Advertising] possono utilizzare solo il Report conversione famiglia per i report di conversione famiglia.
-
-Se la tua organizzazione dispone di [!DNL Analytics for Advertising], utilizza entrambi i tipi di reporting insieme. Mentre il reporting view-through CTV è adatto all&#39;analisi ad ampio canale, al comportamento del sito e così via, i rapporti personalizzati forniscono una visualizzazione granulare (con dati suddivisi per tipo di media, editori e così via) per indicare i fattori che determinano i tassi di conversione.
+* I dati del report [!DNL Analytics] sono particolarmente utili da analizzare in base ai canali di marketing, alle metriche di coinvolgimento del sito e così via. Il report DSP [!UICONTROL Household Conversions] offre informazioni più granulari consentendo la suddivisione dei dati di conversione in base a varie dimensioni, ad esempio tipo di supporto e autore.
 
 ### [!UICONTROL Household Reach & Frequency] e [!UICONTROL Household Conversions] rapporti e dati da [!DNL Advanced Measurement Services]
 
@@ -109,15 +107,15 @@ Il caso d&#39;uso ideale consiste nell&#39;utilizzare insieme il report [!UICONT
 
 | | Percorso del rapporto di conversione | Effetto alone servizi di misurazione avanzati sui report di ricerca | Rapporti in Analysis Workspace |
 | --- | --- | --- |---|
-| Valore per il cliente | Genera un rapporto personalizzato self-service per capire quali percorsi del percorso di annunci hanno portato a più conversioni per aumentare l’ottimizzazione | Comprendere l&#39;influenza delle tattiche di TV collegata (CTV) sui clic di ricerca | Comprendi l’influenza del tuo investimento Adobe Advertising olistico, insieme ad altri canali di marketing, sui clic di ricerca |
+| Valore per il cliente | Genera un rapporto personalizzato self-service per capire quali percorsi del percorso di annunci hanno portato a più conversioni per aumentare l’ottimizzazione | Comprendere l&#39;influenza delle tattiche di TV collegata (CTV) sui clic di ricerca | Comprendi l’influenza del tuo investimento olistico in Adobe Advertising, insieme ad altri canali di marketing, sui clic di ricerca |
 | Livello familiare | Sì | Sì | No |
 | CTV è supportato? | Sì | Sì | Sì |
 | Metodologia di attribuzione | L’ultimo evento di contatto (impression o clic) deve trovarsi nella finestra del lookbook. | Univoci | Ultimo contatto |
 | | Per il percorso di conversione vengono considerati i punti di interazione che precedono di oltre 30 giorni l’evento di ultimo contatto. | (Il CTV riceve credito, indipendentemente da dove si verifica l&#39;esposizione al CTV nel percorso del clic dell&#39;utente) | (CTV ottiene credito se l&#39;impression è l&#39;ultimo evento nell&#39;intervallo di lookback E non c&#39;è alcun click a pagamento da altri formati prima o dopo l&#39;esposizione CTV) |
 | Livello di reporting | Granulare | Granulare | Ampia |
-| | (Tipo Di Canale, Creativo/Annuncio, Parola Chiave, Percorsi, Lunghezza, Tempo Di Conversione) | (CTV Tactic, app CTV/editore) | (Adobe Advertising e altri canali di marketing) |
-| Canali di marketing | DSP + Cerca (da Ricerca, Social e Commerce) | DSP + Cerca (da Ricerca, Social e Commerce) | Canali di marketing non tracciati dall’ID EF di click-through dell’Adobe Advertising (ad esempio, Ricerca organica, Social organico, E-mail e Affiliate) |
-| Metriche di conversione supportate | Metriche tracciate utilizzando il pixel evento Adobe Advertising (AMO ID) e il tracciamento di Adobe Analytics | Clic (nessuna conversione) | Metriche tracciate con il tracciamento di Adobe Analytics |
+| | (Tipo di canale, Creative/Ad, Parola chiave, Percorsi, Lunghezza, Tempo di conversione) | (CTV Tactic, app CTV/editore) | (Adobe Advertising e altri canali di marketing) |
+| Canali di marketing | DSP + Cerca (da Ricerca, Social e Commerce) | DSP + Cerca (da Ricerca, Social e Commerce) | Canali di marketing non tracciati dall’ID EF di click-through di Adobe Advertising (ad esempio, Ricerca organica, Social organico, E-mail e Affiliate) |
+| Metriche di conversione supportate | Metriche tracciate utilizzando il pixel dell’evento di Adobe Advertising (AMO ID) e il tracciamento di Adobe Analytics | Clic (nessuna conversione) | Metriche tracciate con il tracciamento di Adobe Analytics |
 
 Per ulteriori informazioni sull&#39;effetto Halo Advanced Measurement Services sui report di ricerca, vedere &quot;[Advanced Measurement Services](/help/dsp/introduction/advanced-measurement-services.md).&quot;
 
