@@ -3,16 +3,18 @@ title: Mostrare e nascondere un grafico di tendenza
 description: Scopri come visualizzare e nascondere un grafico di tendenza per i dati in alcune visualizzazioni di gestione delle campagne.
 exl-id: fa58b123-648f-4a95-86f0-3c38fa89cb28
 feature: Search Common Tasks
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
 
 # Mostrare e nascondere un grafico di tendenza
 
-È possibile visualizzare un grafico di tendenza per i dati nelle visualizzazioni [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords]-[!UICONTROL Keywords], [!UICONTROL Ads] e [!UICONTROL Product Groups].
+*Solo interfaccia utente legacy*
+
+È possibile visualizzare un grafico di tendenza per i dati nelle visualizzazioni [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Ads] e [!UICONTROL Product Groups].
 
 Per impostazione predefinita, il grafico mostra il numero di clic rispetto al costo durante l’intervallo di date selezionato per i conti che utilizzano una valuta specificata. Se lo si desidera, è possibile modificare le metriche da confrontare e, se si dispone di conti con più valute, modificare la valuta per la quale includere i dati.
 

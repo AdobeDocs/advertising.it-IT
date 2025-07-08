@@ -3,9 +3,9 @@ title: Gestire le visualizzazioni predefinite e personalizzate
 description: Scopri come personalizzare le viste predefinite e personalizzate.
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
+source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
 workflow-type: tm+mt
-source-wordcount: '2838'
+source-wordcount: '2917'
 ht-degree: 0%
 
 ---
@@ -14,17 +14,23 @@ ht-degree: 0%
 
 <!-- Doesn't include instructions for legacy Portfolios or Reports views -->
 
-Le viste predefinite e le viste personalizzate ti consentono di personalizzare i dati delle prestazioni visualizzati nelle viste dati della campagna di ricerca. Le impostazioni di visualizzazione includono le colonne da includere, i filtri, l’intervallo di date, le impostazioni di attribuzione della conversione e altre impostazioni avanzate. È possibile applicare le impostazioni temporaneamente o salvarle. (Eccezione: Non è possibile salvare i filtri per le viste predefinite). Ogni visualizzazione personalizzata predefinita e regolare è applicabile solo a una visualizzazione di entità specifica (ad esempio [!UICONTROL Campaigns]) e a un account pubblicitario specifico. Ogni vista personalizzata universale è applicabile tra le viste delle entità per un inserzionista specifico e pertanto non può includere colonne di proprietà (come il nome o lo stato dell’entità), che variano in base al tipo di entità.
+Le viste predefinite e le viste personalizzate ti consentono di personalizzare i dati delle prestazioni visualizzati nelle viste dati della campagna di ricerca. Le impostazioni di visualizzazione includono le colonne da includere, i filtri, l’intervallo di date, le impostazioni di attribuzione della conversione e altre impostazioni avanzate. È possibile applicare le impostazioni temporaneamente o salvarle. (Eccezione: Non è possibile salvare i filtri per le viste predefinite). Ogni visualizzazione personalizzata predefinita e regolare è applicabile solo a una visualizzazione specifica (ad esempio [!UICONTROL Portfolios] o [!UICONTROL Campaigns]) e a un account pubblicitario specifico. Nell’interfaccia utente legacy, ogni vista personalizzata universale è applicabile tra le viste delle entità per un inserzionista specifico e pertanto non può includere colonne di proprietà (come il nome o lo stato dell’entità), che variano in base al tipo di entità.
 
-Le visualizzazioni predefinite vengono visualizzate per impostazione predefinita a ogni accesso. Puoi creare viste personalizzate aggiuntive e applicarle in qualsiasi momento. Facoltativamente, puoi condividere qualsiasi visualizzazione personalizzata creata con tutti gli altri utenti che possono visualizzare i dati dell’inserzionista. Negli elenchi delle visualizzazioni, ogni visualizzazione condivisa da un&#39;altra persona è in corsivo, ad esempio &quot;*Campagne dalle prestazioni migliori*&quot;. Solo l&#39;utente che crea una visualizzazione personalizzata può eliminarla.
+Le visualizzazioni predefinite vengono visualizzate per impostazione predefinita a ogni accesso. Puoi creare viste personalizzate aggiuntive e applicarle in qualsiasi momento. Facoltativamente, puoi condividere qualsiasi visualizzazione personalizzata creata con tutti gli altri utenti che possono visualizzare i dati dell’inserzionista.<!-- I no longer see this in the legacy CM views - why? --> Negli elenchi delle visualizzazioni, ogni visualizzazione condivisa da un&#39;altra persona è in corsivo, ad esempio &quot;*Campagne dalle prestazioni migliori*&quot;. Solo l&#39;utente che crea una visualizzazione personalizzata può eliminarla.
 
-Ogni vista è disponibile come collegamento nella sezione [!UICONTROL Custom Views] del pannello sinistro.
+Nell&#39;interfaccia utente legacy, ogni visualizzazione è disponibile come collegamento nella sezione [!UICONTROL Custom Views] del pannello sinistro.
 
-<!--
-## (New UI) Apply a default or custom view
--->
+## Applicare una visualizzazione predefinita o personalizzata
 
-## (Interfaccia precedente) Applicazione di una visualizzazione predefinita o personalizzata
+### (Nuova interfaccia) Applicare una vista predefinita o personalizzata a una vista di gestione
+
+1. Sopra la tabella dati fare clic sul nome della visualizzazione attualmente applicata (![Visualizzazione](/help/search-social-commerce/assets/view.png "Visualizzazione")).
+
+1. Se necessario, fare clic su una delle schede ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] e [!UICONTROL From Others]) per individuare la visualizzazione.
+
+1. Posizionare il cursore sul nome della visualizzazione e fare clic su **[!UICONTROL Apply]**.
+
+### (Interfaccia precedente) Applicazione di una visualizzazione predefinita o personalizzata a una visualizzazione di gestione delle campagne
 
 * (Visualizzazioni predefinite) Nel menu principale, fare clic su **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]** \> **\[tipo di entità\]**.
 
@@ -43,6 +49,12 @@ Ogni vista è disponibile come collegamento nella sezione [!UICONTROL Custom Vie
       Se la vista è universale o si applica all&#39;entità corrente, la tabella dati viene visualizzata nuovamente in base alla configurazione della vista. Se la vista si applica a un&#39;entità diversa, i dati per l&#39;entità applicabile vengono visualizzati in base alla configurazione della vista.
 
 ## Creare una visualizzazione personalizzata {#create-custom-view}
+
+<!--
+## (New UI) Create a custom view from management views
+-->
+
+## (Interfaccia precedente) Creare una visualizzazione personalizzata dalle visualizzazioni di gestione delle campagne
 
 Le visualizzazioni personalizzate sono applicabili solo alle visualizzazioni di gestione delle campagne.
 

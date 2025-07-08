@@ -3,7 +3,7 @@ title: Scaricare dati da una vista di gestione delle campagne
 description: Scopri come scaricare i dati dalla maggior parte delle visualizzazioni di gestione delle campagne.
 exl-id: f549f03c-ed0b-4d7d-8d7e-91192c17e77e
 feature: Search Common Tasks
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -11,6 +11,8 @@ ht-degree: 0%
 ---
 
 # Scaricare dati da una vista di gestione delle campagne
+
+<!-- Add info about new UI -->
 
 È possibile scaricare i dati dalle viste [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] ad eccezione delle viste [!UICONTROL Keywords] - [!UICONTROL Keyword Negatives], [!UICONTROL Placements] - [!UICONTROL Placement Negatives], [!UICONTROL Audiences] e [!UICONTROL Extensions]. Puoi scaricare:
 
