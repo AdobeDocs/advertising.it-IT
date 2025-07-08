@@ -3,14 +3,14 @@ title: Calcolo delle regole di attribuzione
 description: Scopri come Adobe Advertising calcola ogni tipo di regola di attribuzione.
 exl-id: 15beeadd-bb65-4efe-8c4f-34c4a48cc775
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: b24673e05f95bac404301d71ad9c0d1d0593aafb
 workflow-type: tm+mt
 source-wordcount: '2716'
 ht-degree: 0%
 
 ---
 
-# Come vengono calcolate le regole di attribuzione, ad Adobe Advertising
+# Calcolo delle regole di attribuzione per Adobe Advertising
 
 *Inserzionisti con solo monitoraggio delle conversioni di Adobe Advertising*
 
@@ -23,9 +23,9 @@ Nei rapporti, nelle viste predefinite e personalizzate per le simulazioni a live
 >[!NOTE]
 >
 >* Le regole di attribuzione si applicano ai clic sugli annunci a pagamento in qualsiasi canale e alle impression sulla visualizzazione e sugli annunci social. Non si applicano alle impression per gli annunci di ricerca a pagamento, che non possono essere tracciati a livello di evento.
->* Adobe Advertising memorizza sempre i seguenti eventi per ogni web surfer prima di una conversione: a) il primo clic a pagamento; b) fino a 10 clic per ogni canale (ricerca, social o visualizzazione), incluso il primo clic; e c) fino a 10 impression di visualizzazione. <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
+>* Adobe Advertising memorizza sempre i seguenti eventi per ogni web surfer prima di una conversione: a) il primo clic a pagamento; b) fino a 10 clic per ogni canale (ricerca, social o visualizzazione), incluso il primo clic; e c) fino a 10 impression di visualizzazione.<!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
 >* In Advertising DSP e Advertising Creative, le definizioni multi-dispositivo considerano solo il percorso dell&#39;evento dalla regola di attribuzione selezionata.<!-- cross-device attribution via LiveRamp only -->
->* Nei report e nelle visualizzazioni di gestione, il numero di posizioni decimali visualizzate per un valore dipende dalla valuta, ma in Adobe Advertising vengono memorizzati valori più precisi.
+>* Nei rapporti e nelle viste di gestione, il numero di posizioni decimali visualizzate per un valore dipende dalla valuta, ma Adobe Advertising memorizza valori più precisi.
 
 ## Ultimo evento (impostazione predefinita)
 
@@ -118,11 +118,11 @@ Attribuisce la conversione a tutti gli eventi della serie che si sono verificati
 
 Quando la conversione è preceduta solo dalle impression, viene considerata una *view-through*, ponderata in base all&#39;impostazione di ponderazione [view-through](/help/search-social-commerce/glossary.md#uv) dell&#39;inserzionista o, come specificato, in base al metodo di valutazione view-through specificato nei parametri di report, visualizzazione o simulazione personalizzata.
 
-Quando il percorso di conversione include sia clic che impression a pagamento, queste vengono trattate in modo diverso dai diversi prodotti di Adobe Advertising:
+Quando il percorso di conversione include sia clic che impression a pagamento, queste vengono trattate in modo diverso dai diversi prodotti Adobe Advertising:
 
 * In Search, Social e Commerce, il peso di sostituzione [impression](/help/search-social-commerce/glossary.md#i-j), specificato nell&#39;impostazione del peso di sostituzione impression dell&#39;inserzionista e nei parametri di report, visualizzazione o simulazione personalizzata, viene applicato per la prima volta alle impression.
 
-* In DSP, le impression vengono ignorate e solo i clic vengono ponderati. L’DSP non prende in considerazione i pesi di esclusione delle impression per l’attribuzione.
+* In DSP, le impression vengono ignorate e vengono ponderati solo i clic. DSP non prende in considerazione i pesi di override delle impression per l’attribuzione.
 
 ![Peso del primo evento più percentuali di attribuzione](/help/search-social-commerce/assets/attribution-percent-weight-first-more.png "Peso del primo evento più percentuali di attribuzione")
 
@@ -148,7 +148,7 @@ Poiché la serie di eventi includeva sia impression che clic, il peso di esclusi
 
 Attribuzione: Impression 1 = 8 USD, Click 1 = 72 USD, Impression 2 = 4 USD, Click 2 = 36 USD (120 USD in totale)
 
-#### Utilizzo (solo DSP) di No Impression Override Weight (Peso sostituzione impression) o (solo Search, Social &amp; Commerce) di un &quot;Impression Override Weight&quot; dello 0%
+#### Utilizzo (solo DSP) di No Impression Override Weight o (solo Search, Social &amp; Commerce) di un &quot;Impression Override Weight&quot; dello 0%
 
 Poiché la serie di eventi includeva sia impression che clic, le impression vengono ignorate.
 
@@ -180,11 +180,11 @@ Attribuisce la conversione in modo uguale a ogni evento della serie che si è ve
 
 Quando la conversione è preceduta solo dalle impression, viene considerata una *view-through*, ponderata in base all&#39;impostazione di ponderazione [view-through](/help/search-social-commerce/glossary.md#uv) dell&#39;inserzionista o, come specificato, in base al metodo di valutazione view-through specificato nei parametri di report, visualizzazione o simulazione personalizzata.
 
-Quando il percorso di conversione include sia clic che impression a pagamento, queste vengono trattate in modo diverso dai diversi prodotti di Adobe Advertising:
+Quando il percorso di conversione include sia clic che impression a pagamento, queste vengono trattate in modo diverso dai diversi prodotti Adobe Advertising:
 
 * In Search, Social e Commerce, il peso di sostituzione [impression](/help/search-social-commerce/glossary.md#i-j), specificato nell&#39;impostazione del peso di sostituzione impression dell&#39;inserzionista e nei parametri di report, visualizzazione o simulazione personalizzata, viene applicato per la prima volta alle impression.
 
-* In DSP, le impression vengono ignorate e solo i clic vengono ponderati. L’DSP non prende in considerazione i pesi di esclusione delle impression per l’attribuzione.
+* In DSP, le impression vengono ignorate e vengono ponderati solo i clic. DSP non prende in considerazione i pesi di override delle impression per l’attribuzione.
 
 ![Percentuali di attribuzione pari](/help/search-social-commerce/assets/attribution-percent-even.png "Percentuali di attribuzione pari")
 
@@ -212,7 +212,7 @@ Poiché la serie di eventi includeva sia impression che clic, il peso di esclusi
 
 Attribuzione: Impression 1 = 6 USD, Click 1 = 54 USD, Impression 2 = 6 USD, Click 2 = 54 USD (120 USD in totale)
 
-#### Utilizzo (solo per Adobe Advertising DSP) di No Impression Override Weight (Peso per sostituzione impression) o (solo per ricerche, social network e Commerce) di un &quot;Impression Override Weight&quot; dello 0%
+#### Utilizzo (solo Adobe Advertising DSP) di No Impression Override Weight (Peso di sostituzione impression) o (solo Search, Social &amp; Commerce) di un &quot;Impression Override Weight&quot; dello 0%
 
 Poiché la serie di eventi includeva sia impression che clic, le impression vengono ignorate.
 
@@ -240,11 +240,11 @@ Attribuisce la conversione a tutti gli eventi della serie che si sono verificati
 
 Quando la conversione è preceduta solo dalle impression, viene considerata una *view-through*, ponderata in base all&#39;impostazione di ponderazione [view-through](/help/search-social-commerce/glossary.md#uv) dell&#39;inserzionista o, come specificato, in base al metodo di valutazione view-through specificato nei parametri di report, visualizzazione o simulazione personalizzata.
 
-Quando il percorso di conversione include sia clic che impression a pagamento, queste vengono trattate in modo diverso dai diversi prodotti di Adobe Advertising:
+Quando il percorso di conversione include sia clic che impression a pagamento, queste vengono trattate in modo diverso dai diversi prodotti Adobe Advertising:
 
 * In Search, Social e Commerce, il peso di sostituzione [impression](/help/search-social-commerce/glossary.md#i-j), specificato nell&#39;impostazione del peso di sostituzione impression dell&#39;inserzionista e nei parametri di report, visualizzazione o simulazione personalizzata, viene applicato per la prima volta alle impression.
 
-* In DSP, le impression vengono ignorate e solo i clic vengono ponderati. L’DSP non prende in considerazione i pesi di esclusione delle impression per l’attribuzione.
+* In DSP, le impression vengono ignorate e vengono ponderati solo i clic. DSP non prende in considerazione i pesi di override delle impression per l’attribuzione.
 
 ![Peso dell&#39;ultimo evento più percentuali di attribuzione](/help/search-social-commerce/assets/attribution-percent-weight-last-more.png "Peso dell&#39;ultimo evento più percentuali di attribuzione")
 
@@ -270,7 +270,7 @@ Poiché la serie di eventi includeva sia impression che clic, il peso di esclusi
 
 Attribuzione: Impression 1 = 4 USD, Click 1 = 36 USD, Impression 2 = 8 USD, Click 2 = 72 USD (120 USD in totale)
 
-#### Utilizzo (solo DSP) di No Impression Override Weight (Peso sostituzione impression) o (solo Search, Social &amp; Commerce) di un &quot;Impression Override Weight&quot; dello 0%
+#### Utilizzo (solo DSP) di No Impression Override Weight o (solo Search, Social &amp; Commerce) di un &quot;Impression Override Weight&quot; dello 0%
 
 Poiché la serie di eventi includeva sia impression che clic, le impression vengono ignorate.
 
@@ -298,11 +298,11 @@ Attribuisce la conversione a tutti gli eventi della serie che si sono verificati
 
 Quando la conversione è preceduta solo dalle impression, viene considerata una *view-through*, ponderata in base all&#39;impostazione di ponderazione [view-through](/help/search-social-commerce/glossary.md#uv) dell&#39;inserzionista o, come specificato, in base al metodo di valutazione view-through specificato nei parametri di report, visualizzazione o simulazione personalizzata.
 
-Quando il percorso di conversione include sia clic che impression a pagamento, queste vengono trattate in modo diverso dai diversi prodotti di Adobe Advertising:
+Quando il percorso di conversione include sia clic che impression a pagamento, queste vengono trattate in modo diverso dai diversi prodotti Adobe Advertising:
 
 * In Search, Social e Commerce, il peso di sostituzione [impression](/help/search-social-commerce/glossary.md#i-j), specificato nell&#39;impostazione del peso di sostituzione impression dell&#39;inserzionista e nei parametri di report, visualizzazione o simulazione personalizzata, viene applicato per la prima volta alle impression.
 
-* In DSP, le impression vengono ignorate e solo i clic vengono ponderati. L’DSP non prende in considerazione i pesi di esclusione delle impression per l’attribuzione.
+* In DSP, le impression vengono ignorate e vengono ponderati solo i clic. DSP non prende in considerazione i pesi di override delle impression per l’attribuzione.
 
 ![U percentuali di attribuzione](/help/search-social-commerce/assets/attribution-percent-u-shaped.png "U percentuali di attribuzione")
 
