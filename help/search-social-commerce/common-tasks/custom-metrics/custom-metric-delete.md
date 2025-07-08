@@ -3,9 +3,9 @@ title: Eliminare una metrica personalizzata
 description: Scopri come eliminare le metriche personalizzate, calcolate dalle metriche standard.
 exl-id: 8956afa3-d165-4a5b-b68b-99d519cf6ab6
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,21 @@ ht-degree: 0%
 
 Se la metrica personalizzata è inclusa come colonna nella vista corrente, l’eliminazione di una colonna la elimina immediatamente. Se è inclusa in un&#39;altra visualizzazione predefinita o personalizzata oppure in un modello di report, la modifica della colonna sarà visibile al successivo aggiornamento della visualizzazione o della visualizzazione del modello.
 
-## Eliminare una metrica personalizzata da una vista di gestione delle campagne
+## (Nuova interfaccia) Eliminare una metrica personalizzata da una vista di gestione
+
+*Disponibile nelle visualizzazioni [!UICONTROL Simulations], [!UICONTROL Portfolios], [!UICONTROL Campaigns] e [!UICONTROL Ad Groups]*
+
+1. Sopra la tabella dati, effettuare una delle seguenti operazioni:
+
+   * Fare clic su ![Selettore visualizzazione](/help/search-social-commerce/assets/view.png "Selettore visualizzazione") \[Nome della visualizzazione predefinita o personalizzata\] per aprire le impostazioni di visualizzazione. Esempio: ![Visualizzazione di esempio](/help/search-social-commerce/assets/view-selector-example.png "Visualizzazione di esempio")
+
+   * Fai clic su ![Colonne personalizzate](/help/search-social-commerce/assets/custom-columns-new.png "Colonne personalizzate") per aprire le impostazioni di configurazione delle colonne.
+
+1. Posizionare il cursore sul nome della colonna e fare clic su ![Elimina](/help/search-social-commerce/assets/delete-new.png "Elimina") accanto al nome della colonna.
+
+1. Nel messaggio di conferma, fare clic su **[!UICONTROL Cpnfirm]**.
+
+## (Interfaccia precedente) Eliminare una metrica personalizzata da una vista di gestione della campagna
 
 1. Sopra la tabella dati, effettuare una delle seguenti operazioni:
 
@@ -26,7 +40,7 @@ Se la metrica personalizzata è inclusa come colonna nella vista corrente, l’e
 
 1. Nel messaggio di conferma, fare clic su **[!UICONTROL OK]**.
 
-## Eliminare una metrica personalizzata da un report o da un modulo di un modello di report
+## (Interfaccia precedente) Eliminare una metrica personalizzata da un report o da un modulo di modello di report
 
 1. All&#39;interno di un modulo report o modello report, passare alla scheda **[!UICONTROL Columns]**.
 
@@ -34,7 +48,7 @@ Se la metrica personalizzata è inclusa come colonna nella vista corrente, l’e
 
 1. Nel messaggio di conferma, fare clic su **[!UICONTROL Yes]**.
 
-## Elimina una metrica personalizzata dalle visualizzazioni [!UICONTROL Portfolios]
+## (Interfaccia precedente) Elimina una metrica personalizzata dalle visualizzazioni [!UICONTROL Portfolios]
 
 1. Sopra la tabella dati, fare clic su ![Modifica visualizzazione selezionata](/help/search-social-commerce/assets/view-settings.png "Modifica visualizzazione selezionata").
 
