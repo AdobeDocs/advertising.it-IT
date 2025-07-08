@@ -3,9 +3,9 @@ title: Organizzazione dell’interfaccia utente
 description: Scopri dove accedere a diverse funzionalità.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: d38c71f1260b9656bb4362c56f4d9c76f4f3e442
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -56,3 +56,4 @@ L&#39;opzione [!UICONTROL Search] include i sottomenu seguenti. Le opzioni dispo
 >
 >* [Accedi](sign-in.md)
 >* [Disconnetti](sign-out.md)
+>* [Passare dalla nuova interfaccia utente all&#39;interfaccia precedente](ui-switch.md)
