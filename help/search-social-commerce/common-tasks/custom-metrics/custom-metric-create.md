@@ -3,9 +3,9 @@ title: Creare una metrica personalizzata
 description: Scopri come configurare le metriche personalizzate, calcolate dalle metriche standard.
 exl-id: a9ce503a-67ee-477e-8f79-31b4a9c6e51a
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
+source-git-commit: f176238d1ce0852f2db401441828be6832ec49f7
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,9 @@ ht-degree: 0%
 
 1. Sopra la tabella dati, effettuare una delle seguenti operazioni:
 
-   * Fare clic su ![Selettore visualizzazione](/help/search-social-commerce/assets/view.png "Selettore visualizzazione") \[Nome della visualizzazione predefinita o personalizzata\] per aprire le impostazioni di visualizzazione. Esempio: ![Visualizzazione di esempio](/help/search-social-commerce/assets/view-selector-example.png "Visualizzazione di esempio")
+   * Fare clic sul nome della visualizzazione attualmente applicata (![Visualizzazione](/help/search-social-commerce/assets/view.png "Visualizzazione")). Tenere premuto il cursore sul nome di una visualizzazione modificabile e fare clic su ![Modifica](/help/search-social-commerce/assets/edit-new.png "Modifica") per aprire le impostazioni di visualizzazione.
+
+     La metrica personalizzata creata diventerà disponibile in tutte le viste.
 
    * Fai clic su ![Colonne personalizzate](/help/search-social-commerce/assets/custom-columns-new.png "Colonne personalizzate") per aprire le impostazioni di configurazione delle colonne.
 

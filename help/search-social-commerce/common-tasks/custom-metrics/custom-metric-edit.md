@@ -3,9 +3,9 @@ title: Modificare una metrica personalizzata
 description: Scopri come modificare le metriche personalizzate, calcolate dalle metriche standard.
 exl-id: 89271cd6-0a9d-49b7-9fd3-8c9b77e55e5a
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
+source-git-commit: f176238d1ce0852f2db401441828be6832ec49f7
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,9 @@ Se modifichi una metrica personalizzata inclusa come colonna in una delle viste 
 
 1. Sopra la tabella dati, effettuare una delle seguenti operazioni:
 
-   * Fare clic su ![Selettore visualizzazione](/help/search-social-commerce/assets/view.png "Selettore visualizzazione") \[Nome della visualizzazione predefinita o personalizzata\] per aprire le impostazioni di visualizzazione. Esempio: ![Visualizzazione di esempio](/help/search-social-commerce/assets/view-selector-example.png "Visualizzazione di esempio")
+   * Fare clic sul nome della visualizzazione attualmente applicata (![Visualizzazione](/help/search-social-commerce/assets/view.png "Visualizzazione")). Tenere premuto il cursore sul nome di una visualizzazione modificabile e fare clic su ![Modifica](/help/search-social-commerce/assets/edit-new.png "Modifica") per aprire le impostazioni di visualizzazione.
+
+     Le modifiche diventeranno visibili in tutte le visualizzazioni.
 
    * Fai clic su ![Colonne personalizzate](/help/search-social-commerce/assets/custom-columns-new.png "Colonne personalizzate") per aprire le impostazioni di configurazione delle colonne.
 

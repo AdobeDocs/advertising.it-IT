@@ -3,9 +3,9 @@ title: Eliminare una metrica personalizzata
 description: Scopri come eliminare le metriche personalizzate, calcolate dalle metriche standard.
 exl-id: 8956afa3-d165-4a5b-b68b-99d519cf6ab6
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
+source-git-commit: f176238d1ce0852f2db401441828be6832ec49f7
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,15 @@ Se la metrica personalizzata è inclusa come colonna nella vista corrente, l’e
 
 1. Sopra la tabella dati, effettuare una delle seguenti operazioni:
 
-   * Fare clic su ![Selettore visualizzazione](/help/search-social-commerce/assets/view.png "Selettore visualizzazione") \[Nome della visualizzazione predefinita o personalizzata\] per aprire le impostazioni di visualizzazione. Esempio: ![Visualizzazione di esempio](/help/search-social-commerce/assets/view-selector-example.png "Visualizzazione di esempio")
+   * Fare clic sul nome della visualizzazione attualmente applicata (![Visualizzazione](/help/search-social-commerce/assets/view.png "Visualizzazione")). Tenere premuto il cursore sul nome di una visualizzazione modificabile e fare clic su ![Modifica](/help/search-social-commerce/assets/edit-new.png "Modifica") per aprire le impostazioni di visualizzazione.
+
+     La metrica personalizzata verrà eliminata da tutte le viste.
 
    * Fai clic su ![Colonne personalizzate](/help/search-social-commerce/assets/custom-columns-new.png "Colonne personalizzate") per aprire le impostazioni di configurazione delle colonne.
 
 1. Posizionare il cursore sul nome della colonna e fare clic su ![Elimina](/help/search-social-commerce/assets/delete-new.png "Elimina") accanto al nome della colonna.
 
-1. Nel messaggio di conferma, fare clic su **[!UICONTROL Cpnfirm]**.
+1. Nel messaggio di conferma, fare clic su **[!UICONTROL Confirm]**.
 
 ## (Interfaccia precedente) Eliminare una metrica personalizzata da una vista di gestione della campagna
 
