@@ -10,9 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Seleziona più righe
-i
-È possibile selezionare più righe nella nuova interfaccia utente dalle viste di gestione e nell&#39;interfaccia utente legacy da [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns], [!UICONTROL Search > Label Classifications] e [!UICONTROL Optimization] > [!UICONTROL Constraints]:
+# Seleziona più righeiÈ possibile selezionare più righe nella nuova interfaccia utente dalle viste di gestione e nell&#39;interfaccia utente legacy da [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns], [!UICONTROL Search > Label Classifications] e [!UICONTROL Optimization] > [!UICONTROL Constraints]:
 
 * Scelte rapide da tastiera
 
