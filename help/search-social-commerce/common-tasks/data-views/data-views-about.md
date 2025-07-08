@@ -3,7 +3,7 @@ title: Informazioni sulla personalizzazione dei dati nelle visualizzazioni di ge
 description: Scopri i tipi di dati che è possibile personalizzare nelle visualizzazioni dati di Campaign.
 exl-id: 89f36865-9275-494e-ac33-d41fa30faa2a
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 42495874f93f3af2d6aaec19148d007062fd3b9b
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 0%
@@ -11,6 +11,8 @@ ht-degree: 0%
 ---
 
 # Informazioni sulla personalizzazione dei dati nelle visualizzazioni di gestione delle campagne
+
+<!-- Add info about new UI -->
 
 Nella maggior parte delle visualizzazioni dati di Campaign, puoi personalizzare i dati visualizzati all’interno della tabella dati. Puoi personalizzare i dati nei seguenti modi:
 
