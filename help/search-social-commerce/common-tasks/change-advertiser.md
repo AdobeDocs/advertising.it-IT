@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
----
+&#x200B;---
 title: Visualizza dati per un altro inserzionista
 description: Scopri come visualizzare i dati per un altro inserzionista.
 exl-id: 31c5db71-9ef1-4088-8fdc-ff091e0eaef8
