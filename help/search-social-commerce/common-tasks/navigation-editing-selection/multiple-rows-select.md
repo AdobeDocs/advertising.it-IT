@@ -3,14 +3,16 @@ title: Seleziona più righe
 description: Scopri come selezionare più righe in modo da poter eseguire la stessa azione su tutte.
 exl-id: 35490f9f-adde-4538-9013-4cb37b7abfbd
 feature: Search Common Tasks
-source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
+source-git-commit: 347d223d226ce3372e29e80c00a11df605318c9f
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%
 
 ---
 
-# Seleziona più righeiÈ possibile selezionare più righe nella nuova interfaccia utente dalle viste di gestione e nell&#39;interfaccia utente legacy da [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns], [!UICONTROL Search > Label Classifications] e [!UICONTROL Optimization] > [!UICONTROL Constraints]:
+# Seleziona più righe
+
+È possibile selezionare più righe nella nuova interfaccia utente dalle viste di gestione e nell&#39;interfaccia utente legacy da [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns], [!UICONTROL Search > Label Classifications] e [!UICONTROL Optimization] > [!UICONTROL Constraints]:
 
 * Scelte rapide da tastiera
 
