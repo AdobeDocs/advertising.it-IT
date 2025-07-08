@@ -3,7 +3,7 @@ title: Gestire le visualizzazioni predefinite e personalizzate
 description: Scopri come personalizzare le viste predefinite e personalizzate.
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: c5faf88a5240a7ec05dab3f06d0c4e466fd17164
+source-git-commit: 399974645b5083e735ff7aa94eba0a1115b4ddeb
 workflow-type: tm+mt
 source-wordcount: '4453'
 ht-degree: 0%
@@ -88,7 +88,7 @@ Le visualizzazioni personalizzate sono applicabili solo alle visualizzazioni di 
    >
    >Utilizza un nome che ti aiuti a identificare la scheda e le informazioni a cui si applica (ad esempio &quot;Campagne in pausa&quot; o &quot;Primi 50 annunci&quot;).
 
-## Modificare una visualizzazione predefinita o personalizzata
+## Modificare una visualizzazione predefinita o personalizzata {#view-edit}
 
 ### (Nuova interfaccia) Modificare una visualizzazione predefinita o personalizzata
 
@@ -132,7 +132,7 @@ Le visualizzazioni personalizzate sono applicabili solo alle visualizzazioni di 
 
    * Per salvare le impostazioni in una nuova visualizzazione personalizzata, fare clic su **[!UICONTROL Save As]**. Nella finestra [!UICONTROL Enter New Custom View Name] immettere il nome della nuova visualizzazione e quindi fare clic su **[!UICONTROL Save]**.
 
-## (Nuova interfaccia) Clona una visualizzazione predefinita o personalizzata
+## (Nuova interfaccia) Clona una visualizzazione predefinita o personalizzata {#view-clone}
 
 *Disponibile nelle visualizzazioni [!UICONTROL Simulations], [!UICONTROL Portfolios], [!UICONTROL Campaigns] e [!UICONTROL Ad Groups]*
 
