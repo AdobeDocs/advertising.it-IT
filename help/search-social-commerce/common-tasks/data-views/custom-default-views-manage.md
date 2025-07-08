@@ -3,7 +3,7 @@ title: Gestire le visualizzazioni predefinite e personalizzate
 description: Scopri come personalizzare le viste predefinite e personalizzate.
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 777bebb13e4de99f070e3ab6c38949caeb75ca08
+source-git-commit: ac434e2c9f049830b0fbe6941a268ca7def9b4bf
 workflow-type: tm+mt
 source-wordcount: '4453'
 ht-degree: 0%
@@ -162,7 +162,7 @@ Le impostazioni predefinite del sistema variano in base alla vista di gestione. 
 
    1. Se necessario, fare clic su una delle schede ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] e [!UICONTROL From Others]) per individuare la visualizzazione.
 
-   1. Posizionare il cursore sul nome della visualizzazione e fare clic su ![Ripristina](/help/search-social-commerce/assets/revert-new.md).
+   1. Posizionare il cursore sul nome della visualizzazione e fare clic su ![Ripristina](/help/search-social-commerce/assets/revert-new.jpg).
 
 * Dalle viste di gestione delle campagne legacy:
 
