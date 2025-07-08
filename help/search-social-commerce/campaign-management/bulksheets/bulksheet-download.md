@@ -3,7 +3,7 @@ title: Scaricare/creare un file bulksheet
 description: Scopri come creare file di bulksheet scaricando i dati dell’account per le reti di annunci.
 exl-id: a3fcef52-3d36-462e-a975-c741d003326e
 feature: Search Bulksheets
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '1759'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Per le campagne sincronizzate, puoi facoltativamente sincronizzarti con la rete 
 >
 >Puoi anche [creare un file bulksheet basato sulle colonne visibili in una visualizzazione di gestione campagne](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md).
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Bulksheets]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Bulksheets]**.
 
 1. Nella barra degli strumenti fare clic su **[!UICONTROL Download Bulksheet]**.
 

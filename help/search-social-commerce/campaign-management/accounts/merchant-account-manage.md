@@ -3,7 +3,7 @@ title: Gestisci account esercente
 description: Scopri come impostare e gestire i dettagli di un account per un centro commerciale.
 exl-id: 7d940e45-ea49-470b-98d0-0196593228cb
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Per visualizzare i dati di prodotto e generare modelli di tracciamento per un ac
 >
 >Per creare un account effettivo sulla rete di esercenti, vai al sito web della rete.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]**, che consente di aprire la scheda [!UICONTROL Accounts].
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]**, che consente di aprire la scheda [!UICONTROL Accounts].
 
 1. Nella barra degli strumenti sopra la tabella dati, fare clic su **[!UICONTROL Create Account]**.
 
@@ -92,7 +92,7 @@ Se le credenziali dell’account cambiano o desideri interrompere il recupero e 
 
 Quando disattivi un account esercente, Search, Social e Commerce non vi accedono e di conseguenza non recupera i dati di prodotto aggiornati. I dati raccolti mentre l’account era abilitato vengono comunque memorizzati e gli annunci esistenti creati utilizzando i dati del prodotto non vengono aggiornati, messi in pausa o eliminati in base al modello di feed e alle impostazioni dei dati di feed.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]** , che apre alla scheda [!UICONTROL Accounts].
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]** , che apre alla scheda [!UICONTROL Accounts].
 
 1. Accanto al nome dell&#39;account, fare clic su ![Visualizza/modifica impostazioni](/help/search-social-commerce/assets/settings.png "Visualizza/modifica impostazioni").
 

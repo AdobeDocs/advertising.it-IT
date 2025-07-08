@@ -3,7 +3,7 @@ title: Gestire le visualizzazioni predefinite e personalizzate
 description: Scopri come personalizzare le viste predefinite e personalizzate.
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '2917'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Nell&#39;interfaccia utente legacy, ogni visualizzazione è disponibile come col
 
 ### (Interfaccia precedente) Applicazione di una visualizzazione predefinita o personalizzata a una visualizzazione di gestione delle campagne
 
-* (Visualizzazioni predefinite) Nel menu principale, fare clic su **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]** \> **\[tipo di entità\]**.
+* (Visualizzazioni predefinite) Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]** \> **\[tipo di entità\]**.
 
 * (Visualizzazioni personalizzate) Dal pannello di navigazione a sinistra:
 
@@ -52,6 +52,17 @@ Nell&#39;interfaccia utente legacy, ogni visualizzazione è disponibile come col
 
 <!--
 ## (New UI) Create a custom view from management views
+
+*Available in the [!UICONTROL Simulations], [!UICONTROL Portfolios], [!UICONTROL Campaigns], and [!UICONTROL Ad Groups] views*
+
+Custom views are specific to a single view (such as the [!UICONTROL Portfolios] view).
+
+1. Above the data table, click the name of the currently-applied view (![View](/help/search-social-commerce/assets/view.png "View")).
+
+2. Click **[!UICONTROL Create View]**.
+
+
+
 -->
 
 ## (Interfaccia precedente) Creare una visualizzazione personalizzata dalle visualizzazioni di gestione delle campagne

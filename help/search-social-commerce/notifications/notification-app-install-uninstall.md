@@ -3,7 +3,7 @@ title: Installa e disinstalla l'applicazione Web [!UICONTROL Notification Center
 description: Scopri come installare e disinstallare l'applicazione Web [!UICONTROL Notification Center].
 exl-id: e0a72907-3b5e-4678-b08b-95ed099f2dab
 feature: Search Notifications
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Dopo l&#39;installazione, l&#39;applicazione [!UICONTROL Notification Center] vi
 
 ## Installa l&#39;applicazione Web [!UICONTROL Notification Center] per [!DNL Google Chrome]
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
 
 1. In basso a destra, fai clic su ![Installa l&#39;app Web del Centro notifiche](/help/search-social-commerce/assets/notifications-install-app.png "Installa l&#39;app Web del Centro notifiche").
 
@@ -36,7 +36,7 @@ Dopo l&#39;installazione, l&#39;applicazione [!UICONTROL Notification Center] vi
 
 * Dall’interno di Search, Social e Commerce:
 
-   1. Nel menu principale, fare clic su **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
+   1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
 
    1. In basso a destra, fai clic su ![Installa l&#39;app Web del Centro notifiche](/help/search-social-commerce/assets/notifications-install-app.png "Installa l&#39;app Web del Centro notifiche").
 

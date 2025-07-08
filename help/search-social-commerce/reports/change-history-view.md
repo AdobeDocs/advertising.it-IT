@@ -3,7 +3,7 @@ title: Visualizza il report [!UICONTROL Change History]
 description: Scopri come visualizzare le modifiche recenti apportate all’account dell’inserzionista.
 exl-id: f8744da7-cc7a-49c1-aeac-1e601768f992
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Il report [!UICONTROL Change History] include un registro delle modifiche apport
 
 Puoi ordinare e filtrare i dati in base a qualsiasi colonna.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Change History]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Change History]**.
 
 1. (Facoltativo) Modifica i dati inclusi nel rapporto in uno dei seguenti modi:
 

@@ -3,7 +3,7 @@ title: Visualizzare le notifiche
 description: Scopri i diversi modi per visualizzare le notifiche.
 exl-id: d449937a-02cf-4f4c-8171-da89c914c119
 feature: Search Notifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Quando sei [abbonato a notifiche](notification-edit.md) relative a errori di aut
 
 ## Visualizza notifiche in [!UICONTROL Notification Center]
 
-1. (Da Ricerca, Social e Commerce) Nel menu principale, fare clic su **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
+1. (Da Ricerca, Social e Commerce) Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
 
 1. (Facoltativo) Per filtrare le notifiche per tipo, fare clic su *[!UICONTROL Notices], [!UICONTROL Recommendations], [!UICONTROL Warnings] o[!UICONTROL Issues]*.
 

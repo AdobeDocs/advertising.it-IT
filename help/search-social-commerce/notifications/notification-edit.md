@@ -3,7 +3,7 @@ title: Modifica le impostazioni delle notifiche
 description: Scopri come modificare le impostazioni per le notifiche.
 exl-id: b60d3abe-10ec-4fc0-8c91-6b329a3e9ecc
 feature: Search Notifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
    * In alto a destra, fai clic su ![Notifiche](/help/search-social-commerce/assets/notifications-panel.png "Notifiche") per aprire il pannello [!UICONTROL Notifications]. In alto a destra, fare clic su ![Impostazioni](/help/search-social-commerce/assets/settings-nc.png "Impostazioni").
 
-   * Nel menu principale, fare clic su **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**. Nel menu a sinistra, fai clic su ![Impostazioni](/help/search-social-commerce/assets/settings-nc.png "Impostazioni").
+   * Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**. Nel menu a sinistra, fai clic su ![Impostazioni](/help/search-social-commerce/assets/settings-nc.png "Impostazioni").
 
 1. Modifica le impostazioni per qualsiasi [categoria di notifica](notification-about.md):
 
