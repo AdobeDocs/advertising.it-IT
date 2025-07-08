@@ -3,14 +3,16 @@ title: Modificare le impostazioni direttamente all'interno di una riga
 description: Scopri come modificare i dati nelle visualizzazioni di gestione all’interno della riga.
 exl-id: 0b22a2ec-50c2-457d-8cea-a40943ee2a41
 feature: Search Common Tasks
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 1b1b449798d8e1eb610012378228aaf539a77dc7
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
 
 # Modificare le impostazioni direttamente all&#39;interno di una riga
+
+*Interfaccia utente legacy*
 
 >[!NOTE]
 >
