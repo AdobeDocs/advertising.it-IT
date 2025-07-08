@@ -3,7 +3,7 @@ title: Riordinare una colonna
 description: Scopri come riordinare le colonne.
 exl-id: 934e1f7e-a34d-4973-8219-27876cf50f0f
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 0%
@@ -11,6 +11,8 @@ ht-degree: 0%
 ---
 
 # Riordinare una colonna
+
+<!-- The same in new UI and legacy CM views -->
 
 1. (Se disponibile) Sul lato destro dell&#39;intestazione di colonna, fare clic su ![Freccia giù](/help/search-social-commerce/assets/arrow-down-expand.png "Freccia giù").
 

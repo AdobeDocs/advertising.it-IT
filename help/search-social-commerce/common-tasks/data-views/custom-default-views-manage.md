@@ -3,14 +3,16 @@ title: Gestire le visualizzazioni predefinite e personalizzate
 description: Scopri come personalizzare le viste predefinite e personalizzate.
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
 workflow-type: tm+mt
-source-wordcount: '2836'
+source-wordcount: '2838'
 ht-degree: 0%
 
 ---
 
 # Gestire le visualizzazioni predefinite e personalizzate
+
+<!-- Doesn't include instructions for legacy Portfolios or Reports views -->
 
 Le viste predefinite e le viste personalizzate ti consentono di personalizzare i dati delle prestazioni visualizzati nelle viste dati della campagna di ricerca. Le impostazioni di visualizzazione includono le colonne da includere, i filtri, l’intervallo di date, le impostazioni di attribuzione della conversione e altre impostazioni avanzate. È possibile applicare le impostazioni temporaneamente o salvarle. (Eccezione: Non è possibile salvare i filtri per le viste predefinite). Ogni visualizzazione personalizzata predefinita e regolare è applicabile solo a una visualizzazione di entità specifica (ad esempio [!UICONTROL Campaigns]) e a un account pubblicitario specifico. Ogni vista personalizzata universale è applicabile tra le viste delle entità per un inserzionista specifico e pertanto non può includere colonne di proprietà (come il nome o lo stato dell’entità), che variano in base al tipo di entità.
 
@@ -18,7 +20,11 @@ Le visualizzazioni predefinite vengono visualizzate per impostazione predefinita
 
 Ogni vista è disponibile come collegamento nella sezione [!UICONTROL Custom Views] del pannello sinistro.
 
-## Applicare una visualizzazione predefinita o personalizzata
+<!--
+## (New UI) Apply a default or custom view
+-->
+
+## (Interfaccia precedente) Applicazione di una visualizzazione predefinita o personalizzata
 
 * (Visualizzazioni predefinite) Nel menu principale, fare clic su **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Nei sottomenu, fare clic su **[!UICONTROL Live]** \> **\[tipo di entità\]**.
 

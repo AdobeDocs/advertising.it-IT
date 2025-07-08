@@ -3,14 +3,18 @@ title: Modifica la serie di colonne dal menu dell’intestazione di colonna
 description: Scopri come mostrare e nascondere le colonne dall’intestazione della colonna.
 exl-id: ebcf5759-f3a0-4816-8095-5679a642f862
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
 
 # Modifica la serie di colonne dal menu dell’intestazione di colonna
+
+<!-- Doesn't include instructions for legacy Portfolios views; not available for Reports -->
+
+*Solo interfaccia utente legacy*
 
 È possibile visualizzare e nascondere temporaneamente le colonne incluse in una delle viste da qualsiasi intestazione di colonna nella vista. Le modifiche vengono applicate solo fino a quando non si esce dalla visualizzazione o non si visualizzano i dati per un altro inserzionista.
 

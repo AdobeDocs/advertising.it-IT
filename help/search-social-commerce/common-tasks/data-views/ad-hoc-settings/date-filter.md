@@ -3,16 +3,18 @@ title: Filtra dati per intervallo di date
 description: Scopri come utilizzare il filtro dell’intervallo di date globale.
 exl-id: 35c0f63f-84ae-4e8e-8a48-acae7ff24498
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
 
 # Filtra dati per intervallo di date
 
-Lo stesso filtro globale per l’intervallo di date viene applicato alla maggior parte delle visualizzazioni dati della campagna, a tutti gli inserzionisti, fatta eccezione per le visualizzazioni predefinite e personalizzate per le quali sono stati salvati intervalli di date specifici. L’intervallo di date predefinito del sistema per le visualizzazioni di gestione delle campagne è &quot;Ieri&quot;.
+<!-- The same in new UI and legacy CM views -->
+
+Lo stesso filtro globale per l’intervallo di date viene applicato alla maggior parte delle visualizzazioni dati, a tutti gli inserzionisti, fatta eccezione per le visualizzazioni predefinite e personalizzate per le quali sono stati salvati intervalli di date specifici. L’intervallo di date predefinito del sistema per le visualizzazioni di gestione delle campagne è &quot;Ieri&quot;.
 
 Le impostazioni dell’intervallo di date vengono salvate in un cookie specifico del browser, pertanto tutte le modifiche al filtro dell’intervallo di date vengono utilizzate per tutti gli inserzionisti ogni volta che effettui l’accesso utilizzando la stessa applicazione del browser fino a quando non modifichi il filtro o non elimini il cookie. Ogni applicazione browser utilizzata memorizza le impostazioni del filtro per l’intervallo di date in un cookie diverso.
 
@@ -38,7 +40,7 @@ Quando si salva un intervallo di date specifico per una visualizzazione predefin
 
 1. (Facoltativo) Confronta i dati per l’intervallo di date specificato con i dati per un secondo intervallo di date:
 
-   1. Sposta il cursore **[!UICONTROL Comparison]** in *[!UICONTROL On]*.
+   1. Spostare il dispositivo di scorrimento **[!UICONTROL Comparison]** nella posizione &quot;on&quot;.
 
       Quando selezioni questa opzione, vengono aggiunte due colonne aggiuntive per ogni colonna di dati regolare. Ad esempio, invece di includere solo una colonna per &quot;[!UICONTROL Impressions]&quot;, la tabella include colonne per &quot;[!UICONTROL Impressions R1],&quot; &quot;[!UICONTROL Impressions R2]&quot; e &quot;[!UICONTROL Impressions Diff]&quot;.&quot;  Se si esportano i dati, le stesse colonne vengono indicate come &quot;[!UICONTROL Impressions Range 1]&quot;, &quot;[!UICONTROL Impressions Range 2]&quot; e &quot;[!UICONTROL Impressions Difference]&quot;.&quot;
 
