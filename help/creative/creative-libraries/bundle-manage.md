@@ -3,9 +3,9 @@ title: Gestire i bundle creativi
 description: Informazioni su xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: baba02d2537828f1ed0b5c7842d1f987a55f5ef0
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1462'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 **I'll probably split this up into multiple pages since the creative-related topics are separate**
 -->
 
-I bundle sono gruppi di creativi che puoi aggiungere a un’esperienza come un’unica unità. Dopo aver creato un contenitore di bundle, puoi allegare dei creativi al bundle. I bundle standard possono contenere solo annunci standard, mentre i bundle dinamici possono contenere solo annunci dinamici. Puoi sovrascrivere le pagine di destinazione, i tag di tracciamento delle impression e i tag di tracciamento dei clic per tutti i creativi all’interno di un bundle assegnato a un’esperienza dall’interno della struttura decisionale dell’esperienza, senza influire sui creativi di base.
+I bundle sono gruppi di creativi che puoi aggiungere a un’esperienza come un’unica unità. Dopo aver creato un contenitore di bundle, puoi allegare dei creativi al bundle. I bundle di visualizzazione standard possono contenere solo annunci di visualizzazione standard, i bundle video standard possono contenere solo annunci video standard e i bundle di visualizzazione dinamica possono contenere solo annunci di visualizzazione dinamici. Puoi sovrascrivere le pagine di destinazione, i tag di tracciamento delle impression e i tag di tracciamento dei clic per tutti i creativi all’interno di un bundle assegnato a un’esperienza dall’interno della struttura decisionale dell’esperienza, senza influire sui creativi di base.
 
 [!DNL Creative] ruota tra le creatività nel bundle come specificato per ogni esperienza a cui è assegnato il bundle. Facoltativamente, puoi consentire a [!DNL Creative] di ottimizzare gli elementi dell&#39;annuncio per qualsiasi esperienza in base alle prestazioni utilizzando la rotazione algoritmica degli annunci, basata su Adobe Sensei.
 
@@ -40,7 +40,7 @@ Puoi allegare un contenuto creativo a più bundle.
 
 1. In alto a destra, fare clic su **[!UICONTROL Create]** > **[!UICONTROL Bundles]** > **[!UICONTROL Bundle]**.
 
-1. Immetti un **[!UICONTROL Bundle Name]** univoco e il **[!UICONTROL Bundle Type]:** *Standard* (per creativi standard) o *Dynamic* (per creativi dinamici.
+1. Immetti un **[!UICONTROL Bundle Name]** univoco e il **[!UICONTROL Bundle Type]:** *Visualizzazione standard* (per le creatività di visualizzazione standard), *Visualizzazione dinamica* (per le creatività di visualizzazione dinamica), *Video standard* (per le creatività di video standard).
 
 1. Fare clic su **[!UICONTROL Create]**.
 
@@ -104,7 +104,7 @@ Le modifiche al nome di un bundle vengono propagate tra tutte le esperienze asso
 
 ## Associa creatività a un bundle
 
-Puoi allegare [creatività standard esistente](/help/creative/creative-libraries/creative-libraries-about.md) a un bundle standard e allegare creatività dinamica esistente<!-- [existing dynamic creatives](creative-dynamic-manage.md) --> a un bundle dinamico. Associando un contenuto creativo a un bundle, il contenuto creativo è disponibile in tutte le esperienze a cui è assegnato il bundle. Ogni bundle può includere solo una di ogni combinazione di \[creative size + language\].
+È possibile allegare le creatività di visualizzazione standard esistenti a un bundle di visualizzazione standard, le creatività di video standard a bundle video standard e le creatività di visualizzazione dinamiche a un bundle dinamico. Associando un contenuto creativo a un bundle, il contenuto creativo è disponibile in tutte le esperienze a cui è assegnato il bundle. Ogni bundle può includere solo una di ogni combinazione di \[creative size + language\].
 
 >[!NOTE]
 >

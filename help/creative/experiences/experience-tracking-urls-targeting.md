@@ -3,9 +3,9 @@ title: Personalizzare gli URL di tracciamento per un’esperienza
 description: Scopri come personalizzare gli URL di tracciamento per ogni creativo in un’esperienza con targeting della struttura decisionale.
 feature: Creative Experiences
 exl-id: ba3b15b4-116e-4caa-8ce1-4d2e488a6362
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Gli URL personalizzati vengono utilizzati solo per gli annunci creati dall&#39;e
 
 1. Tenere premuto il cursore sulla cartella/foglia del bundle creativo sotto il nodo di destinazione e fare clic su **[!UICONTROL ...]** > **[!UICONTROL Edit Tracking URLs]**.
 
-   Nelle schede [!UICONTROL Click Tracking URLs], [!UICONTROL Impression Tracking URLs] e [!UICONTROL Landing URLs] sono elencati i nomi di tutti i creativi nelle dimensioni applicabili nei bundle assegnati. Le dimensioni delle creatività immagine predefinite per l&#39;esperienza determinano le dimensioni disponibili.<!-- There's no distinct "Creative Sizes" setting. -->
+   Nelle schede [!UICONTROL Click Tracking URLs], [!UICONTROL Impression Tracking URLs] e [!UICONTROL Landing URLs] sono elencati i nomi di tutti i creativi nelle dimensioni applicabili nei bundle assegnati. Le dimensioni delle creatività predefinite per l&#39;esperienza determinano le dimensioni disponibili.<!-- There's no distinct "Creative Sizes" setting. -->
 
 1. Nelle schede **[!UICONTROL Click Tracking URLs]**, **[!UICONTROL Impression Tracking URLs]** e **[!UICONTROL Landing URLs]**, eseguire le operazioni seguenti per ogni contenuto creativo in base alle esigenze:
 

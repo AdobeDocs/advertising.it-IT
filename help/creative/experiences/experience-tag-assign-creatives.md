@@ -3,9 +3,9 @@ title: Assegnare dei creativi a un tag annuncio per le esperienze senza targetin
 description: Scopri come assegnare i creativi a un tag annuncio per una dimensione creativa specifica.
 feature: Creative Experiences
 exl-id: 864f10ef-75ca-4081-93d9-8540476b17f0
-source-git-commit: 3027235ca7c8db278880a710cb8048216d0a599a
+source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ In seguito [potrai personalizzare gli URL di tracciamento](experience-tracking-u
 
    * Nella vista a schede, fai clic su **[!UICONTROL ...]** accanto al nome dell&#39;esperienza e quindi su **[!UICONTROL Tag Manager]**.
 
-   * Nella visualizzazione per tabella, posizionare il cursore sulla riga, fare clic su **[!UICONTROL More]** e quindi su **[!UICONTROL Tag Manager]**
+   * Nella visualizzazione per tabella, posizionare il cursore sulla riga, fare clic su **[!UICONTROL More]** e quindi su **[!UICONTROL Tag Manager]**.
 
 1. Posizionare il cursore sulla riga del tag annuncio applicabile e fare clic su **[!UICONTROL + Add Creatives]**. <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -47,4 +47,5 @@ In seguito [potrai personalizzare gli URL di tracciamento](experience-tracking-u
 >* [Creare manualmente un tag annuncio per una dimensione creativa applicabile](experience-tag-create-manually.md)
 >* [Personalizza gli URL di tracciamento per i creativi](experience-tracking-urls-no-targeting.md).
 >* [Personalizza l&#39;ottimizzazione e la pianificazione per i creativi](experience-optimization-scheduling-no-targeting.md)
+>* [Personalizzare le opzioni di transcodifica per un tag esperienza annuncio video](experience-tag-video-transcoding.md)
 >* [Esportare e implementare un tag di esperienza annuncio per un&#39;esperienza live](experience-tag-export.md)

@@ -3,9 +3,9 @@ title: '[!UICONTROL Custom Creative Report]'
 description: Scopri come generare la cross-experience [!UICONTROL Custom Creative Report].
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: a6e8bd3d9c2f8a373a90460b9ee8780d1c0702c6
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '2016'
+source-wordcount: '2019'
 ht-degree: 0%
 
 ---
@@ -161,7 +161,7 @@ Vedere anche &quot;[Modalità di calcolo delle regole di attribuzione per Adobe 
 
 * *[!UICONTROL FTP]:* Per inviare il report completato a uno o più percorsi FTP, che è necessario selezionare nel campo **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (attualmente in Beta):* Per inviare il report completato a uno o più percorsi SSL FTP, che è necessario selezionare nel campo **[!UICONTROL Destination Name]**.
+* *[!UICONTROL FTP SSL](attualmente in Beta):* Per inviare il report completato a uno o più percorsi SSL FTP, che è necessario selezionare nel campo **[!UICONTROL Destination Name]**.
 
 * *[!UICONTROL Email]:* Specificare gli indirizzi e-mail a cui inviare i report completati o le notifiche se il report viene annullato a causa di errori.
 
@@ -186,7 +186,7 @@ Vedere anche &quot;[Modalità di calcolo delle regole di attribuzione per Adobe 
 | Tipo di metrica | Sottotipo | Nome colonna | Descrizione |
 |-----------|-------|-----------|-----------|
 | [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Ad Size] | Dimensioni dell’annuncio pubblicato. |
-| [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Is Default] | Se l&#39;annuncio fornito era un annuncio immagine predefinito per l&#39;esperienza. |
+| [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Is Default] | Se l&#39;annuncio fornito era un annuncio immagine o un annuncio video predefinito per l&#39;esperienza. |
 | [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Rotation Type] | Se gli annunci sono stati ruotati in base al peso relativo (*Ponderato*) o algoritmicamente (*Algoritmico*). |
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Creative ID] | ID assegnato da [!UICONTROL Creative] alla creatività. |
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Creative Name] | Il nome della creatività. |

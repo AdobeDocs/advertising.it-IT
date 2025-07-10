@@ -3,9 +3,9 @@ title: Impostazioni delle esperienze mirate
 description: Vedi le descrizioni di tutte le impostazioni per le esperienze annuncio mirate.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1133'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 
 ## [!UICONTROL Experience basics] sezione
 
+**[!UICONTROL Ad Type]:** (sola lettura per le esperienze esistenti) Il tipo di annunci inclusi nell&#39;esperienza: *[!UICONTROL Standard Display]*, *[!UICONTROL Dynamic Display]* o *[!UICONTROL Video]*. Una volta salvata l’esperienza, non puoi modificare il tipo di annuncio.
+
 **[!UICONTROL Advertiser]:** (sola lettura per le esperienze esistenti) L&#39;inserzionista che farà offerte sulle combinazioni creativa e di destinazione incluse nell&#39;esperienza. Una volta salvata l&#39;esperienza, non è possibile modificare l&#39;inserzionista.
 
 **[!UICONTROL Experience Name]:** Nome univoco per l&#39;esperienza. **Suggerimento:** utilizza un nome facilmente reperibile quando utilizzi l&#39;esperienza come annuncio in Advertising DSP o in un altro DSP.
@@ -24,7 +26,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Default creatives] sezione
 
-**\[Creatività predefinita specificata\]:** Creatività immagine predefinita da utilizzare quando un browser non è in grado di visualizzare i creativi assegnati all&#39;esperienza, ad esempio quando il browser non è abilitato per JavaScript o l&#39;ad server non può personalizzare l&#39;annuncio a causa di ritardi. Includi un&#39;immagine creativa per ogni dimensione dell&#39;annuncio a cui si applica l&#39;esperienza. Le tue scelte determinano le dimensioni creative che possono essere utilizzate per l&#39;esperienza.<!-- In the legacy product, you selected the ad sizes for the experience, and then selected default images for each of those ad sizes. This feels a little wonky in that there isn't a distinct/obvious "Creative Sizes" setting to reference. -->
+**\[Creatività predefinita specificata\]:** Creatività predefinita da utilizzare quando un browser non è in grado di visualizzare le creatività assegnate all&#39;esperienza, ad esempio quando il browser non è abilitato per JavaScript o l&#39;ad server non può personalizzare l&#39;annuncio a causa di ritardi. Per le esperienze di visualizzazione standard, includi un&#39;immagine creativa per ogni dimensione dell&#39;annuncio a cui si applica l&#39;esperienza. Per le esperienze video standard, includi una creatività video per annuncio e per dimensione a cui si applica l’esperienza. Le tue scelte determinano le dimensioni creative che possono essere utilizzate per l&#39;esperienza.
 
 Per le esperienze con targeting di alberi delle decisioni, è possibile sostituire le creatività predefinite con bundle creativi che contengono creatività delle stesse dimensioni dall&#39;interno dell&#39;albero delle decisioni.<!-- verify -->
 
@@ -39,8 +41,6 @@ Per le esperienze con targeting di alberi delle decisioni, è possibile sostitui
 ## [!UICONTROL Targeting] sezione
 
 **[!UICONTROL Targeting]:** (sola lettura per le esperienze esistenti) Abilita il targeting creativo utilizzando una struttura decisionale e la creazione automatica di tag. Una volta salvata l&#39;esperienza, non puoi modificare questa impostazione.
-
-**[!UICONTROL Dynamic ads]:** (sola lettura per le esperienze esistenti) indica che l&#39;esperienza include annunci dinamici. **Nota:** un&#39;esperienza può includere tutti gli annunci standard o tutti gli annunci dinamici. Una volta salvata l&#39;esperienza, non puoi modificare questa impostazione.
 
 **[!UICONTROL Language Targeting]:** (solo esperienze con annunci standard; facoltativo; sola lettura per esperienze esistenti) Controlla le impostazioni della lingua del browser dell&#39;utente e visualizza un contenuto creativo nella lingua specificata quando è disponibile un contenuto creativo in tale lingua. Quando un contenuto creativo nella lingua specificata dal browser non è disponibile, viene utilizzata l&#39;impostazione [!UICONTROL Preferred language].
 

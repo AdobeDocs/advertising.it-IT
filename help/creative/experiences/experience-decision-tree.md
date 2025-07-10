@@ -3,9 +3,9 @@ title: Layout dell’albero delle decisioni
 description: Scopri il layout della struttura decisionale per le esperienze con targeting.
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
-source-git-commit: 3c1316fa898e5773fbf1763733e388c9ed3bd389
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Inizialmente, ogni albero decisionale inizia con il livello principale, &quot;Al
 >[!NOTE]
 >
 >You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.<!-- Explain the diff and why to choose the other option. -->
->-->
+-->
 
 ## Termini
 
@@ -38,7 +38,7 @@ Inizialmente, ogni albero decisionale inizia con il livello principale, &quot;Al
 
 ## Destinazioni in un albero decisionale
 
-Ogni albero decisionale può avere fino a cinque livelli di target. Ogni livello di destinazione può includere più rami, ciascuno con uno o più nodi con lo stesso tipo di destinazione (segmento di pubblico, tipo di posizione geografica, valori per chiavi di passaggio dati specificate, attributi per un pixel di retargeting specificato o una categoria di dispositivi). Puoi assegnare pacchetti creativi a ogni dimensione di annuncio per la quale hai specificato un&#39;immagine creativa predefinita ai nodi di destinazione di livello più basso.
+Ogni albero decisionale può avere fino a cinque livelli di target. Ogni livello di destinazione può includere più rami, ciascuno con uno o più nodi con lo stesso tipo di destinazione (segmento di pubblico, tipo di posizione geografica, valori per chiavi di passaggio dati specificate, attributi per un pixel di retargeting specificato o una categoria di dispositivi). Puoi assegnare ai nodi di destinazione di livello inferiore dei bundle creativi in ogni dimensione dell’annuncio per la quale hai specificato un’immagine creativa o creativa video predefinita.
 
 ![Esempio di struttura decisionale con destinazioni](/help/creative/assets/experience-decision-tree.png "Esempio di struttura decisionale con destinazioni")
 

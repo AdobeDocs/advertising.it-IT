@@ -3,9 +3,9 @@ title: Esportare e implementare un tag di esperienza annuncio per un’esperienz
 description: Scopri come esportare un tag esperienza annuncio e, facoltativamente, caricarlo in una campagna Advertising DSP.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: f2bf245c13244cbcb76cead8b37f149b9b9bc24f
+source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,13 @@ Gli inserzionisti con Advertising DSP possono facoltativamente caricare tag dire
 
    * Nella vista a schede, fai clic su **[!UICONTROL ...]** accanto al nome dell&#39;esperienza e quindi su **[!UICONTROL Tag Manager]**.
 
-   * Nella visualizzazione per tabella, posizionare il cursore sulla riga, fare clic su **[!UICONTROL More]** e quindi su **[!UICONTROL Tag Manager]**
+   * Nella visualizzazione per tabella, posizionare il cursore sulla riga, fare clic su **[!UICONTROL More]** e quindi su **[!UICONTROL Tag Manager]**.
 
-1. Posizionare il cursore sulla riga relativa al tag annuncio applicabile e fare clic su ![Esporta tag annuncio](/help/creative/assets/export.png "Esporta tag annuncio") **[!UICONTROL Export ad tags]** o **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**.
+1. Posizionare il cursore sulla riga relativa al tag annuncio applicabile e fare clic su ![Esporta tag annuncio](/help/creative/assets/export.png "Esporta tag annuncio") **[!UICONTROL Export ad tags]** o **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**.
+
+>[!NOTE]
+>
+>Per esperienze annuncio video standard, attendi che la colonna [!UICONTROL Tag Status] mostri &quot;[!UICONTROL Ready]&quot;, che indica che tutti i video nell&#39;esperienza sono stati transcodificati. Tutti i creativi video vengono automaticamente transcodificati da DSP, ma è possibile [applicare una transcodifica specifica per l&#39;editore](experience-tag-video-transcoding.md) a qualsiasi tag esperienza annuncio video.
 
 <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -45,7 +49,7 @@ Gli inserzionisti con Advertising DSP possono facoltativamente caricare tag dire
 
 1. Fare clic su **[!UICONTROL Next]** in alto a destra o su **[!UICONTROL Generate ad tags]** nel menu a sinistra.
 
-1. Selezionare il tipo di tag: ** *JavaScript<!-- sic -->* **&#x200B; o &#x200B;** *IFRAME* ** <!-- sic -->.
+1. Selezionare il tipo di tag: ** *JavaScript<!-- sic -->* ** o ** *IFRAME* ** <!-- sic -->.
 
 1. Nell&#39;elenco [!UICONTROL Destinations], seleziona la posizione in cui creare gli annunci per l&#39;esperienza.
 
@@ -81,7 +85,6 @@ Gli inserzionisti con Advertising DSP possono facoltativamente caricare tag dire
 
       1. Nella visualizzazione [!UICONTROL Create ads], esaminare i tag dell&#39;annuncio, selezionare ogni tag per il quale si desidera creare un annuncio e quindi fare clic su **[!UICONTROL Create]**.
 
-
 <!-- no way to get back to the Creative Tag Manager -- you have to click back through the main menu -->
 
 <!-- Add this info, with descriptions:
@@ -99,3 +102,4 @@ Gli inserzionisti con Advertising DSP possono facoltativamente caricare tag dire
 >* [Creare manualmente un tag annuncio per una dimensione creativa applicabile](experience-tag-create-manually.md)
 >* [Assegna creatività a un tag annuncio per esperienze senza targeting](experience-tag-assign-creatives.md)
 >* [Rinominare un tag annuncio](experience-tag-rename.md)
+>* [Personalizzare le opzioni di transcodifica per un tag esperienza annuncio video](experience-tag-video-transcoding.md)

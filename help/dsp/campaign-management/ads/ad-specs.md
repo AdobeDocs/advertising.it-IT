@@ -3,9 +3,9 @@ title: Specifiche annuncio
 description: Fai riferimento a specifiche pubblicitarie generali e specifiche per l’editore.
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 10e85f9ec0b7b867828cc9ac154af6f4982c44d2
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Gli annunci vengono consegnati per impostazione predefinita su dispositivi deskt
 
 È possibile utilizzare i fogli tag di [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] e [!DNL Sizmek]. Per un elenco completo dei fornitori supportati, consulta &quot;[Certified Ad Serving Partners](certified-ad-servers.md)&quot;.
 
-### Requisiti per Assets video ad alta definizione (obbligatorio)
+### Requisiti per Assets video ad alta definizione
 
 **Tipo di tag video:** VPAID 2.0 JavaScript o VAST (CTV). Tutte le unità di annunci VPAID devono rispettare la specifica [VPAID 2.0](https://iabtechlab.com/wp-content/uploads/2016/04/VPAID_2_0_Final_04-10-2012.pdf) definita da Interactive Advertising Bureau (IAB).
 
@@ -84,11 +84,11 @@ Gli annunci vengono consegnati per impostazione predefinita su desktop e disposi
 
 **HTML5:** tipi di file immagine: GIF, JPG/JPEG, PNG, SVG
 
-### Requisiti per Image Assets (obbligatorio)
+### Requisiti di Image Assets
 
 È supportata la visualizzazione universale.
 
-**Dimensioni annuncio consigliate:** 120x60, 160x600, 180x150, 300x50, 300x100, 300x1050, 300x250, 300x600, 320x50, 320x480, 480x60, 6 40x480, 88x31, 728x90, 970x250, 970x90
+**Dimensioni annuncio consigliate:** 120x60, 160x600, 180x150, 300x50, 300x100, 300x1050, 300x250, 300x600, 320x50, 320x480, 480x60, 640x480, 88x31, 728x90, 970x250, 970x90
 
 **Server di annunci di terze parti supportati:** È possibile utilizzare fogli di tag di [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] e [!DNL Sizmek]. Per un elenco completo dei fornitori supportati, consulta &quot;[Certified Ad Serving Partners](certified-ad-servers.md)&quot;.
 
@@ -102,7 +102,7 @@ Desktop, dispositivi mobili, tablet, altoparlanti avanzati e TV collegata
 
 È possibile utilizzare i fogli tag di [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] e [!DNL Sizmek]. Per un elenco completo dei fornitori supportati, consulta &quot;[Certified Ad Serving Partners](certified-ad-servers.md)&quot;.
 
-### Requisiti per Audio Assets (obbligatorio)
+### Requisiti per Audio Assets
 
 **Tipo file:** MP3, OGG, AAC
 
@@ -156,27 +156,27 @@ Desktop, dispositivi mobili, tablet, altoparlanti avanzati e TV collegata
 * **[!DNL iHeartRadio]:**
    * Tipo di file: JPEG, JPG, PNG, GIF, SWF, HTML
    * Dimensione massima file: 2,2 MB
-   * Dimension: 300x250
+   * Dimensioni: 300x250
 
 * **[!DNL Pandora]:**
    * Tipo di file: JPEG, GIF
    * Dimensione massima file: Dimensione: 100 KB
-   * Dimension: 300x250 (mobile o desktop) o 500x500 (desktop)
+   * Dimensioni: 300x250 (mobile o desktop) o 500x500 (desktop)
 
 * **[!DNL SoundCloud]:**
-   * Tipo di file: JPG-statico, PNG
+   * Tipo di file: Static JPG, PNG
    * Dimensione massima file: meno di 400 KB
-   * Dimension: 1024x1024
+   * Dimensioni: 1024x1024
 
 * **[!DNL Spotify]:**
-   * Tipo di file: JPG-statico, PNG
+   * Tipo di file: Static JPG, PNG
    * Dimensione massima file: 200 KB
-   * Dimension: 300x250
+   * Dimensioni: 300x250
 
 * **[!DNL TuneIn]:**
    * Tipo di file: JPEG, JPG, PNG, GIF, HTML
    * Dimensione massima file: 2 MB
-   * Dimension: 300x250
+   * Dimensioni: 300x250
 
 ## Annunci display nativi
 
@@ -192,7 +192,7 @@ Gli annunci vengono consegnati per impostazione predefinita su desktop e disposi
 
 **Risoluzione:** Minimo 600x600px; Minimo consigliato di 1200x627px
 
-**Tipo di file:** JPEG (annuncio immagine o copertina annuncio video), GIF (cinemografo)
+**Tipo di file:** JPEG (annuncio pubblicitario immagine o immagine di copertina annuncio video), GIF (cinemografo)
 
 **Dimensioni file:** Meno di 1 MB (l&#39;immagine deve essere priva di testo).
 
@@ -216,7 +216,7 @@ Gli annunci vengono consegnati per impostazione predefinita su desktop e disposi
 
 **Sponsorizzato da:** Massimo 200 caratteri; consigliati 30 caratteri
 
-**Invito all&#39;azione (solo MoPub):** Massimo 15 caratteri
+**Call to action (solo MoPub):** massimo 15 caratteri
 
 >[!NOTE]
 >
@@ -234,7 +234,7 @@ Requisiti per i tracciatori di clic:
 
 * Pixel di tracciamento dei clic di terze parti: deve essere reindirizzato alla pagina di destinazione incorporata nell’URL (reindirizzamento HTTP 302)
 
-* I tracciatori di clic su piattaforma di gestione dati (DMP) con 200 o più risposte non sono supportati.
+* I tracciatori di clic della piattaforma di gestione dati (DMP) con 200 o più risposte non sono supportati.
 
 >[!MORELIKETHIS]
 >
