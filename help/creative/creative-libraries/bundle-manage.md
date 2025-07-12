@@ -3,9 +3,9 @@ title: Gestire i bundle creativi
 description: Informazioni su xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1466'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ I bundle sono gruppi di creativi che puoi aggiungere a un’esperienza come un�
 
 [!DNL Creative] ruota tra le creatività nel bundle come specificato per ogni esperienza a cui è assegnato il bundle. Facoltativamente, puoi consentire a [!DNL Creative] di ottimizzare gli elementi dell&#39;annuncio per qualsiasi esperienza in base alle prestazioni utilizzando la rotazione algoritmica degli annunci, basata su Adobe Sensei.
 
-Per abilitare l’ottimizzazione degli elementi tra i bundle in un’esperienza pubblicitaria, ogni bundle può includere solo una di ogni combinazione \[creative size + language\]. Ad esempio, se un bundle include un contenuto creativo 250x250 con la lingua predefinita &quot;Francese&quot;, non puoi aggiungere un secondo contenuto creativo 250x250 con la lingua predefinita &quot;Francese&quot;. Se hai più creativi della stessa dimensione nella stessa lingua, aggiungili separatamente all’esperienza.
+Per abilitare l’ottimizzazione degli elementi dell’annuncio tra i bundle in un’esperienza pubblicitaria, ogni bundle può includere solo una di ogni combinazione di \[dimensione creativa o durata + lingua\]. Ad esempio, se un bundle include un contenuto creativo 250x250 con la lingua predefinita &quot;Francese&quot;, non puoi aggiungere un secondo contenuto creativo 250x250 con la lingua predefinita &quot;Francese&quot;. Se hai più creativi della stessa dimensione nella stessa lingua, aggiungili separatamente all’esperienza.
 
 Le creatività collegate ai bundle sono ancora disponibili come singole creatività. Puoi aggiungere un singolo contenuto creativo a più bundle. Se modificate le impostazioni per un contenuto creativo associato a un bundle, le modifiche vengono propagate al bundle. Tuttavia, per l’esperienza vengono sempre utilizzati eventuali pagine di destinazione personalizzate, tag di tracciamento delle impression e tag di tracciamento dei clic configurati per la creatività all’interno di un’esperienza.
 
@@ -104,7 +104,7 @@ Le modifiche al nome di un bundle vengono propagate tra tutte le esperienze asso
 
 ## Associa creatività a un bundle
 
-È possibile allegare le creatività di visualizzazione standard esistenti a un bundle di visualizzazione standard, le creatività di video standard a bundle video standard e le creatività di visualizzazione dinamiche a un bundle dinamico. Associando un contenuto creativo a un bundle, il contenuto creativo è disponibile in tutte le esperienze a cui è assegnato il bundle. Ogni bundle può includere solo una di ogni combinazione di \[creative size + language\].
+È possibile allegare le creatività di visualizzazione standard esistenti a un bundle di visualizzazione standard, le creatività di video standard a bundle video standard e le creatività di visualizzazione dinamiche a un bundle dinamico. Associando un contenuto creativo a un bundle, il contenuto creativo è disponibile in tutte le esperienze a cui è assegnato il bundle. Ogni bundle può includere solo una di ogni combinazione di \[creative size or duration + language\].
 
 >[!NOTE]
 >

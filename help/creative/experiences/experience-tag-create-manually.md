@@ -3,9 +3,9 @@ title: Creare manualmente un tag annuncio per una dimensione creativa applicabil
 description: Scopri come creare un tag annuncio per una dimensione creativa specifica.
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
+source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 *Esperienze senza solo targeting della struttura decisionale*
 *Versione beta chiusa*
 
-Puoi creare uno o più tag annuncio per ogni dimensione creativa utilizzata per un’esperienza. In seguito [puoi assegnare i creativi al tag annuncio](experience-tag-assign-creatives.md).
+Puoi creare uno o più tag annuncio per lingua per ogni dimensione creativa o durata del video utilizzato per un’esperienza. In seguito [puoi assegnare i creativi al tag annuncio](experience-tag-assign-creatives.md).
 
 >[!NOTE]
 >
->Per le esperienze con targeting di struttura decisionale, [!DNL Creative] crea automaticamente un tag per ogni dimensione creativa applicabile.
+>Per le esperienze con targeting di struttura decisionale, [!DNL Creative] crea automaticamente un tag per lingua per ogni dimensione creativa o durata video applicabile.
 
 1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 
@@ -31,11 +31,11 @@ Puoi creare uno o più tag annuncio per ogni dimensione creativa utilizzata per 
 
 1. In alto a destra, fare clic su **[!UICONTROL Create Tag]**.
 
-1. Immettere un **[!UICONTROL Tag name]** univoco e selezionare **[!UICONTROL Tag size]**.
+1. Immettere un **[!UICONTROL Tag name]** univoco e selezionare **[!UICONTROL Tag size]** o **[!UICONTROL Duration]** (annunci video standard) (annunci video standard).
 
-   Le dimensioni delle creatività predefinite per l’esperienza determinano le dimensioni creative disponibili.
+   Le dimensioni o la durata delle creatività predefinite per l’esperienza determinano le dimensioni creative o le durate video disponibili.
 
-   È possibile creare più tag per la stessa dimensione creativa.<!-- What are the implications? -->
+   È possibile creare più tag per la stessa dimensione creativa o durata.<!-- What are the implications? -->
 
 1. Fare clic su **[!UICONTROL Create]**.
 
