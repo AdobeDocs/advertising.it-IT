@@ -3,20 +3,38 @@ title: Modificare le impostazioni direttamente all'interno di una riga
 description: Scopri come modificare i dati nelle visualizzazioni di gestione all’interno della riga.
 exl-id: 0b22a2ec-50c2-457d-8cea-a40943ee2a41
 feature: Search Common Tasks
-source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
+source-git-commit: 4b8e0a8338e17cbf4b3a48808f39492fc953f7e6
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
 
 # Modificare le impostazioni direttamente all&#39;interno di una riga
 
-*Solo interfaccia utente legacy*
-
 >[!NOTE]
 >
 >Non tutte le impostazioni dell’account e del portfolio degli annunci possono essere modificate all’interno della riga.
+
+## (Nuova interfaccia) Modifica le impostazioni all’interno di una riga
+
+1. Fare clic all&#39;interno della cella per attivarla oppure tenere premuto il cursore sul valore e fare clic su [Modifica](/help/search-social-commerce/assets/edit-new.png "Modifica").
+
+1. Modifica il valore.
+
+1. Fare clic su **Applica**.
+
+<!--
+1. Change the value:
+
+   * (Options in a list) Select a new option from the list.
+   
+   * (Dates) Enter a new date, or click ![Calendar](/help/search-social-commerce/assets/calendar.png "Calendar") to open the calendar and [select a new date](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md).
+   
+   * (Free-form values) Enter a new value.
+-->
+
+## (Interfaccia precedente) Modifica le impostazioni all’interno di una riga
 
 1. Fare clic all&#39;interno della cella per attivarla.
 
