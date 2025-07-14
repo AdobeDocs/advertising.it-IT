@@ -3,7 +3,7 @@ title: Domande frequenti sui rapporti personalizzati
 description: Scopri le risposte alle domande comuni sui rapporti sulle prestazioni, inclusa la risoluzione dei problemi relativi ai dati.
 exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: c0f8f8c2886ea821dd7705446a727054b66ad3bc
+source-git-commit: 01fe9264fee43ed29f6cee022dadeb29fbd26f45
 workflow-type: tm+mt
 source-wordcount: '3922'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 ## Domande generali
 
 +++Cosa succede se l’intervallo di date per il rapporto inizia prima che i dati del rapporto siano disponibili?
-Il rapporto viene generato, ma include solo i dati per le date per le quali i dati sono disponibili. Per ulteriori informazioni sulla disponibilità dei dati per ogni tipo di report, vedere &quot;[Dati utilizzati per i report](data-used-for-reports.md).&quot;
+Il rapporto viene generato, ma include solo i dati per le date per le quali i dati sono disponibili. Per ulteriori informazioni sulla disponibilità dei dati per ogni tipo di report, vedere &quot;[I dati utilizzati per i report](data-used-for-reports.md).&quot;
 +++
 
 +++Qual è la differenza tra i rapporti basati sulla data di clic e quelli basati sulla data della transazione?
@@ -54,7 +54,7 @@ Quando la riga include dati per campagne di ricerca abilitate per il contenuto, 
 +++
 
 +++A causa di cambiamenti stagionali o di mercato, i miei rapporti mostrano dati atipici. Questo influisce sulle offerte una volta che le condizioni cambiano?
-La funzionalità di ottimizzazione crea quotidianamente i propri modelli di ricavo per ogni unità di offerta per garantire che identifichi e risponda immediatamente alle tendenze, e i modelli incorporano dati storici a lungo termine per aiutare a prevedere le prestazioni stagionali. L&#39;impostazione di mezza durata del modello di ricavo del portfolio<!-- add link to glossary? --> determina anche la ponderazione dei dati recenti sui ricavi. La best practice prevede di ridurre l’emivita durante un periodo di prestazioni atipiche, ma di aumentarla dopo l’adeguamento del modello di ricavo. Se hai domande sulla necessità di regolare l’emivita, contatta il tuo Account Team Adobe.
+La funzionalità di ottimizzazione crea quotidianamente i propri modelli di ricavo per ogni unità di offerta per garantire che identifichi e risponda immediatamente alle tendenze, e i modelli incorporano dati storici a lungo termine per aiutare a prevedere le prestazioni stagionali. L&#39;impostazione di mezza durata del modello di ricavo del portfolio<!-- add link to glossary? --> determina anche la ponderazione dei dati recenti sui ricavi. La best practice prevede di ridurre l’emivita durante un periodo di prestazioni atipiche, ma di aumentarla dopo l’adeguamento del modello di ricavo. Se hai domande sulla necessità di regolare l’emivita, contatta il team del tuo account Adobe.
 
 Se non desideri che i dati del periodo influiscano sulle offerte future, puoi scegliere di escludere tali date dal modello. Contatta il team del tuo account Adobe per escludere le date.
 +++
@@ -81,7 +81,7 @@ Se generi un rapporto più volte utilizzando gli stessi parametri di rapporto ma
 
 * La selezione del filtro portfolio esclude alcuni degli eventi che portano alla conversione.
 
-  Se esegui un rapporto su un sottoinsieme di portfolio, è possibile che non includa le campagne che includevano l’evento a cui è stata attribuita la conversione in una delle regole di attribuzione. Si supponga, ad esempio, che un utente faccia clic su Parola chiave_1 da Portfolio_1, che faccia clic su Parola chiave_2 da Portfolio_2 e quindi che converta. Se il report utilizza la regola di attribuzione &quot;[!UICONTROL First Event]&quot;, è necessario includere Portfolio_1 affinché la conversione possa essere inclusa nel report. Tuttavia, se il rapporto utilizza la regola di attribuzione &quot;Last Event&quot; (Ultimo evento), deve essere incluso Portfolio_2.
+  Se esegui un rapporto su un sottoinsieme di portfolio, è possibile che non includa le campagne che includevano l’evento a cui è stata attribuita la conversione in una delle regole di attribuzione. Si supponga, ad esempio, che un utente faccia clic su Parola chiave_1 da Portfolio_1, su Parola chiave_2 da Portfolio_2 e quindi esegua la conversione. Se il report utilizza la regola di attribuzione &quot;[!UICONTROL First Event]&quot;, è necessario includere Portfolio_1 affinché la conversione possa essere inclusa nel report. Tuttavia, se il rapporto utilizza la regola di attribuzione &quot;Last Event&quot; (Ultimo evento), deve essere incluso Portfolio_2.
 
 >[!TIP]
 >
@@ -98,9 +98,9 @@ Questa situazione può verificarsi quando i formati della metrica utilizzano num
 +++
 
 +++Quando mancano i dati di clic o i ricavi, come posso evitare che influiscano sulle offerte future?
-Si verificano problemi di dati di clic quando Search, Social e Commerce non sono sincronizzati con la rete di annunci. Contatta il team dell’account Adobe per sincronizzare manualmente l’account. Se mancano i dati di clic per un’intera giornata, chiedi al team dell’account Adobe di escludere tale giornata dai modelli di costo.
+Si verificano problemi di dati di clic quando Search, Social e Commerce non sono sincronizzati con la rete di annunci. Contatta il team del tuo account Adobe per sincronizzare manualmente l’account. Se mancano i dati di clic per un’intera giornata, chiedi al team del tuo account Adobe di escludere tale giorno dai modelli di costo.
 
-I problemi relativi ai dati dei ricavi possono verificarsi a causa di un problema di tracciamento o di un file di feed. Contatta il team del tuo account Adobe per indagare sul problema. Se mancano dati sui ricavi per un’intera giornata, chiedi al team dell’account Adobe di escludere tale giornata dai modelli di ricavo.
+I problemi relativi ai dati dei ricavi possono verificarsi a causa di un problema di tracciamento o di un file di feed. Contatta il team del tuo account Adobe per indagare sul problema. Se mancano dati sui ricavi per un giorno intero, chiedi al team del tuo account Adobe di escludere tale giorno dai modelli di ricavi.
 +++
 
 +++I dati monetari sono visualizzati in un formato errato.
@@ -128,7 +128,7 @@ Di seguito sono riportati i motivi comuni della mancanza di dati di clic.
 +++
 
 +++I dati sulle prestazioni sono diversi dai dati nell’editor della rete di annunci.
-Quando la rete di annunci invia aggiornamenti ai dati precedenti (spesso perché hanno attribuito la frode dei clic ad alcuni clic), Search, Social e Commerce non aggiornano i dati a meno che non vi sia una discrepanza di oltre il 5% e l’Adobe Account Team file una richiesta.
+Quando la rete di annunci invia aggiornamenti ai dati precedenti (spesso perché hanno attribuito la frode dei clic ad alcuni clic), Search, Social e Commerce non aggiornano i dati a meno che non vi sia una discrepanza superiore al 5% e l’Account Team di Adobe non file una richiesta.
 
 Inoltre, quando confronti i dati di condivisione delle impression aggregati in un intervallo di date, i dati riportati dai rapporti di Search, Social e Commerce possono differire da quelli riportati dalla rete di annunci. Questa differenza è dovuta al modo in cui i dati vengono segnalati dall’API dell’ad network, utilizzata da Search, Social e Commerce per richiamare i dati. Ad esempio, per i dati [!DNL Google Ads]:
 
@@ -155,7 +155,7 @@ Il rapporto potrebbe non includere le metriche di conversione per le quali si so
 
 +++Nei rapporti manca la retribuzione.
 
-**Inserzionisti che utilizzano i tag di conversione Adobe Advertising**
+**Inserzionisti che utilizzano i tag di conversione di Adobe Advertising**
 
 *Possibili cause:*
 
@@ -169,11 +169,11 @@ Il rapporto potrebbe non includere le metriche di conversione per le quali si so
 
 *Soluzione o soluzione alternativa possibile:*
 
-1. Verifica che nei rapporti o nelle visualizzazioni dati siano incluse le colonne corrette. Se non sono disponibili le colonne corrette da aggiungere, tu o il tuo Account Team di Adobi dovete [rendere le metriche di conversione disponibili per i report](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
+1. Verifica che nei rapporti o nelle visualizzazioni dati siano incluse le colonne corrette. Se non sono disponibili le colonne corrette da aggiungere, tu o il tuo Adobe Account Team dovete [rendere le metriche di conversione disponibili per i report](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
 
-1. Verifica che i tag di tracciamento della conversione corretti siano implementati in tutte le pagine web applicabili. Se necessario, chiedi al tuo account team di Adobe di creare una transazione di prova per ogni tag di tracciamento delle conversioni applicabile e di acquisire i dettagli della transazione, ad esempio `transactionid` e i dettagli dal cookie (ad esempio `trackingid`, `clickid` e così via).
+1. Verifica che i tag di tracciamento della conversione corretti siano implementati in tutte le pagine web applicabili. Se necessario, chiedi al tuo account team Adobe di creare una transazione di prova per ogni tag di tracciamento delle conversioni applicabile e di acquisire i dettagli della transazione, ad esempio `transactionid` e i dettagli dal cookie (ad esempio `trackingid`, `clickid` e così via).
 
-1. Se l&#39;opzione [!UICONTROL Auto Upload] è disabilitata per la campagna e sono state aggiunte parole chiave o annunci, assicurati di aver generato un modello di tracciamento o un URL di destinazione che includa il tracciamento dei clic di ricerca, social e Commerce per ciascuno di essi. Il team dell’account di Adobe può eseguire un rapporto interno per verificare se gli URL di tracciamento dei clic (modelli di tracciamento o URL di destinazione) sono mancanti o non validi.
+1. Se l&#39;opzione [!UICONTROL Auto Upload] è disabilitata per la campagna e sono state aggiunte parole chiave o annunci, assicurati di aver generato un modello di tracciamento o un URL di destinazione che includa il tracciamento dei clic di ricerca, social e Commerce per ciascuno di essi. Il team dell’account Adobe può eseguire un rapporto interno per verificare se gli URL di tracciamento dei clic (modelli di tracciamento o URL di destinazione) sono mancanti o non validi.
 
    Se necessario, genera il tracciamento creando un file bulksheet con gli URL corretti e inserisci il file nell&#39;account appropriato utilizzando l&#39;opzione **Genera URL di tracciamento**.
 
@@ -197,7 +197,7 @@ Il rapporto potrebbe non includere le metriche di conversione per le quali si so
 
 *Soluzione o soluzione alternativa possibile:*
 
-1. Verifica che nei rapporti o nelle visualizzazioni dati siano incluse le colonne corrette. Se non sono disponibili le colonne corrette da aggiungere, tu o il tuo Account Team di Adobi dovete [rendere le metriche di conversione disponibili per i report](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
+1. Verifica che nei rapporti o nelle visualizzazioni dati siano incluse le colonne corrette. Se non sono disponibili le colonne corrette da aggiungere, tu o il tuo Adobe Account Team dovete [rendere le metriche di conversione disponibili per i report](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
 
 1. Esegui [!UICONTROL Portfolio Report]. Se è vuoto, eseguire [!UICONTROL Campaign Report] e [!UICONTROL Search Engine Report] per verificare se i ricavi sono visualizzati in tali rapporti. In caso contrario, le campagne potrebbero non essere assegnate al portfolio appropriato.
 
@@ -216,7 +216,7 @@ Il rapporto potrebbe non includere le metriche di conversione per le quali si so
 
 +++I dati dei ricavi sono diversi da quelli dell’inserzionista.
 
-**Inserzionisti che utilizzano i tag di conversione Adobe Advertising**
+**Inserzionisti che utilizzano i tag di conversione di Adobe Advertising**
 
 *Possibili cause:*
 
@@ -230,7 +230,7 @@ Il rapporto potrebbe non includere le metriche di conversione per le quali si so
 
 1. Vai a **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** e genera un [!UICONTROL Transaction Report]. Confronta le transazioni ricevute da Search, Social e Commerce con i dati dell&#39;inserzionista.
 
-1. Se alcune transazioni non sono corrette o mancano, assicurati che il tag di tracciamento della conversione pertinente sia implementato in tutte le pagine web applicabili e non sia stato modificato a meno che il team dell’account dell’Adobe non ti abbia consigliato di farlo. Un tag potrebbe mancare o essere stato modificato se il sito web è stato aggiornato di recente.
+1. Se alcune transazioni non sono corrette o mancano, assicurati che il tag di tracciamento della conversione pertinente sia implementato in tutte le pagine web applicabili e non sia stato modificato a meno che il team dell’account Adobe non ti abbia consigliato di farlo. Un tag potrebbe mancare o essere stato modificato se il sito web è stato aggiornato di recente.
 
    Search, Social e Commerce prevedono URL ben formati (con parametri in coppie nome-valore) all&#39;interno della variabile `ef_transaction_properties` e all&#39;interno dell&#39;elemento `src` del tag `img`.
 
@@ -294,7 +294,7 @@ Consulta le possibili cause e soluzioni per le implementazioni pixel di cui sopr
 +++
 
 +++I dati dei ricavi sono diversi da quelli di Adobe Analytics
-Vedi [https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=it](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=it).<!-- change link URL to relative link -->
+Vedi [https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html).<!-- change link URL to relative link -->
 +++
 
 ## Rapporti specifici
@@ -308,7 +308,7 @@ La visualizzazione [!UICONTROL Portfolio Report] e la visualizzazione [!UICONTRO
 +++
 
 +++In che modo [!UICONTROL Model Accuracy] > [!UICONTROL Forecast Accuracy Report] è diverso dal livello portfolio [!UICONTROL Model Accuracy Report]?
-(Solo per utenti amministratori, manager account di Adobe e manager di agenzia) [!UICONTROL Forecast Accuracy Report] disponibile da [!UICONTROL Reports] > [!UICONTROL Model Accuracy] fornisce gli stessi dati del livello portfolio [!UICONTROL Model Accuracy Report], tranne per il fatto che è possibile eseguirlo in più portfolio e modificare la regola di attribuzione. È inoltre possibile eseguire e pianificare il report utilizzando parametri personalizzati e utilizzarlo per creare feed di fogli di calcolo. Inoltre, [!UICONTROL Forecast Accuracy Report] è più accurato del report legacy a livello di portfolio perché valuta la precisione dei ricavi utilizzando gli obiettivi storici per il portfolio anziché l&#39;obiettivo corrente e rappresenta più accuratamente i dati per il fuso orario applicabile.
+(Solo per utenti amministratori, manager account di Adobe e manager di agenzia) Il [!UICONTROL Forecast Accuracy Report] disponibile da [!UICONTROL Reports] > [!UICONTROL Model Accuracy] fornisce gli stessi dati del livello portfolio [!UICONTROL Model Accuracy Report], con la differenza che è possibile eseguirlo in più portfolio e modificare la regola di attribuzione. È inoltre possibile eseguire e pianificare il report utilizzando parametri personalizzati e utilizzarlo per creare feed di fogli di calcolo. Inoltre, [!UICONTROL Forecast Accuracy Report] è più accurato del report legacy a livello di portfolio perché valuta la precisione dei ricavi utilizzando gli obiettivi storici per il portfolio anziché l&#39;obiettivo corrente e rappresenta più accuratamente i dati per il fuso orario applicabile.
 +++
 
 +++I dati a livello di annuncio non sono disponibili per [!DNL Google Ads] campagne Dynamic Search Ad (DSA), performance max, smart shopping e [!DNL YouTube].
@@ -316,7 +316,7 @@ Le reti di annunci non forniscono l’identificatore necessario per attribuire i
 +++
 
 +++In [!UICONTROL Transaction Report], come posso sapere quale metrica di conversione proviene da un feed di dati o è tracciata dal pixel di tracciamento di Adobe Advertising?
-In un report di transazione, è possibile verificare se una metrica di conversione inclusa è stata tracciata dal pixel di tracciamento di Adobe Advertising se si include la colonna personalizzata &quot;[!UICONTROL Tracking URL]&quot;. Gli URL di tracciamento con il pixel di tracciamento Adobe Advertising iniziano con &quot;`http://pixel.everesttech.net`&quot;.
+In un report di transazione, puoi verificare se una metrica di conversione inclusa è stata tracciata dal pixel di tracciamento di Adobe Advertising se includi la colonna personalizzata &quot;[!UICONTROL Tracking URL]&quot;. Gli URL di tracciamento con il pixel di tracciamento di Adobe Advertising iniziano con &quot;`http://pixel.everesttech.net`&quot;.
 +++
 
 +++I dati in [!UICONTROL Transaction Report] non corrispondono ai dati in [!UICONTROL Keyword Report].
