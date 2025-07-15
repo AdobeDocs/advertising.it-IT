@@ -18,7 +18,7 @@ La visualizzazione [!UICONTROL Manage] > [!UICONTROL Campaigns] elenca tutte le 
 
 ## Azioni disponibili
 
-* [Assegna campagne a portfolio esistenti o nuovi](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio) e [annulla l&#39;assegnazione di campagne dai portfolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+* [Assegna campagne a portfolio esistenti o nuovi](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio) e [annulla l&#39;assegnazione di campagne dai portfolio](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 
 * [Assegnare vincoli alle campagne e annullare l’assegnazione di vincoli alle campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 
@@ -26,7 +26,7 @@ La visualizzazione [!UICONTROL Manage] > [!UICONTROL Campaigns] elenca tutte le 
 
 >[!MORELIKETHIS]
 >
->* [Assegna campagne a un portfolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
->* [Rimuovi campagne da un portfolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+>* [Assegna campagne a un portfolio](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+>* [Rimuovi campagne da un portfolio](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 >* [Gestione assegnazioni vincoli per le campagne](campaign-constraint-assignments-manage.md)
 >* [Scarica dati dalla visualizzazione [!UICONTROL Campaigns]](campaign-view-report.md)
