@@ -3,14 +3,14 @@ title: Scaricare dati da una vista di gestione delle campagne
 description: Scopri come scaricare i dati dalla maggior parte delle visualizzazioni di gestione delle campagne.
 exl-id: f549f03c-ed0b-4d7d-8d7e-91192c17e77e
 feature: Search Common Tasks
-source-git-commit: 399974645b5083e735ff7aa94eba0a1115b4ddeb
+source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
 
-# Scaricare dati da una vista di gestione delle campagne
+# (Interfaccia precedente) Scaricare dati da una vista di gestione delle campagne
 
 *Interfaccia utente legacy*
 
@@ -23,6 +23,10 @@ ht-degree: 0%
   Se generi dati per più campagne e i dati combinati sono costituiti da oltre 500.000 righe, i dati vengono ulteriormente suddivisi per campagna in due o più file, a seconda delle necessità, denominati `<bulksheet name>_1.txt`, `<bulksheet name>_2.txt` e così via.
 
   Ogni file di bulksheet nel pannello [!UICONTROL Downloads] è elencato anche nella visualizzazione [!UICONTROL Bulksheets]. Al momento della creazione del file, si riceve una notifica e-mail con un collegamento da cui è possibile scaricare il file. A seconda della quantità di dati compilati, la notifica potrebbe richiedere alcuni minuti o più. Se, tuttavia, la generazione del file non riesce, nella vista Bulksheet viene visualizzato un file di errore e si riceve una notifica e-mail con un collegamento al file di errore. L&#39;eliminazione di un file di bulksheet dal pannello [!UICONTROL Download] o dalla scheda [!UICONTROL Bulksheets] comporta l&#39;eliminazione da entrambi i percorsi.
+
+>[!NOTE]
+>
+>Vedere anche la Guida sul download dei dati nella nuova interfaccia utente dalla visualizzazione &quot;[[!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)&quot;, &quot;[[!UICONTROL Campaigns] visualizzazione](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)&quot; e &quot;[[!UICONTROL Ad Groups] visualizzazione](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)&quot;.
 
 1. (Facoltativo) Seleziona singole righe da includere nel file.
 
@@ -42,4 +46,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->[Eliminare un report di dati sulle prestazioni o un file di bulksheet dal menu [!UICONTROL Downloads]](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
+>* [(Interfaccia precedente) Eliminare un report di dati sulle prestazioni o un file di bulksheet dal menu [!UICONTROL Downloads]](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
+>* [(Nuova interfaccia) Gestisci i report di visualizzazione dati dalla visualizzazione [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
+>* [(Nuova interfaccia) Gestisci i report di visualizzazione dati dalla visualizzazione [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
+>* [(Nuova interfaccia) Gestisci i report di visualizzazione dati dalla visualizzazione [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)

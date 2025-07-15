@@ -3,9 +3,9 @@ title: Assegnare campagne a un portfolio
 description: Scopri come includere le campagne nei portfolio per l’ottimizzazione.
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: f1ad7c7535a7edece4eeecf7b2aac8b59f8eb6b9
+source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 L’assegnazione di una campagna a un portfolio ottimizzato consente a Search, Social e Commerce di ottimizzare le offerte, il budget delle campagne e i target delle strategie di offerta per parole chiave e annunci nella campagna. È possibile assegnare le campagne a un portfolio dalla vista [!UICONTROL Campaigns], quando si crea il portfolio o modificandone le impostazioni.
 
-Non tutti i tipi di campagne e le reti pubblicitarie sono idonei per l&#39;ottimizzazione. Vedere un elenco di [tipi di campagne supportati](/help/search-social-commerce/introduction/supported-inventory.md) che è possibile includere in un portfolio. Inoltre, verifica il supporto dell&#39;ottimizzazione per ogni strategia di offerta della campagna consultando &quot;Tipi di Portfolio idonei per strategia di offerta della campagna&quot; nel capitolo della Guida all&#39;ottimizzazione relativo ai &quot;Portfolio&quot;, disponibile all&#39;interno di Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
+Non tutti i tipi di campagne e le reti pubblicitarie sono idonei per l&#39;ottimizzazione. Vedere un elenco di [tipi di campagne supportati](/help/search-social-commerce/introduction/supported-inventory.md) che è possibile includere in un portfolio. Inoltre, verifica il supporto per l&#39;ottimizzazione [per ogni strategia di offerta della campagna](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy).
 
 >[!NOTE]
 >
@@ -40,9 +40,11 @@ Non tutti i tipi di campagne e le reti pubblicitarie sono idonei per l&#39;ottim
 
 1. Nella barra degli strumenti, fare clic su ![Altre azioni](/help/search-social-commerce/assets/more-actions.png "Altre azioni") **[!UICONTROL More Actions]** > ![Assegna](/help/search-social-commerce/assets/assign.png "Assegna") **[!UICONTROL Assign]** > **[!UICONTROL New Portfolio]**.
 
-1. Nella schermata [!UICONTROL Create Portfolio], specificare le impostazioni del portfolio<!--[portfolio settings](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md)-->.
+1. Nella schermata [!UICONTROL Create Portfolio], specificare le impostazioni del portfolio.
 
    Le campagne selezionate in precedenza sono già assegnate alla campagna. Facoltativamente, puoi modificare l’elenco delle campagne per il portfolio.
+
+   Per ulteriori informazioni sulle impostazioni del portfolio, consulta la Guida all’ottimizzazione, disponibile in Search, Social e Commerce.
 
 1. Fare clic su **[!UICONTROL Review and Save]**.
 
