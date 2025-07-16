@@ -3,7 +3,7 @@ title: Informazioni sulle librerie creative
 description: Scopri come gestire i creativi delle esperienze pubblicitarie.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
+source-git-commit: 85f89ef480ee938c7dbac0f3a1d5b9a5db0bef8f
 workflow-type: tm+mt
 source-wordcount: '1388'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Puoi aggiungere e gestire i seguenti tipi di creatività nelle [dimensioni di cr
 >
 >* Anche se si intende utilizzare HTML5, HTML5 flessibile o creativi di terze parti per le esperienze di visualizzazione standard, è necessario aggiungere anche creativi di immagini per ogni dimensione creativa utilizzata.
 >* Ogni esperienza di visualizzazione standard richiede una creatività di immagine predefinita per ogni dimensione creativa assegnata all’esperienza. Le immagini creative predefinite vengono utilizzate quando un browser non è abilitato per JavaScript o quando l’ad server non può personalizzare l’annuncio a causa di ritardi.
->* Ogni esperienza video standard richiede una creatività video predefinita per ogni dimensione creativa assegnata all&#39;esperienza.<!-- when is it used? -->
+>* Ogni esperienza video standard richiede una creatività video predefinita per ogni durata creativa assegnata all&#39;esperienza.<!-- when is it used? -->
 
 #### HTML5 flessibile
 
@@ -64,7 +64,7 @@ Immetti i tag di tracciamento di JavaScript per i creativi in hosting su server 
 
 #### Creativi video {#creative-video-specs}
 
-È possibile caricare creativi video di prime parti per il Web, i dispositivi mobili o la TV connessa dal dispositivo o dalla rete. Ogni esperienza di annuncio video standard richiede una creatività video predefinita per ogni dimensione creativa assegnata all’esperienza. Tutti i video creativi vengono transcodificati automaticamente da DSP come tag VAST 2.0 per consentirti di visualizzarli in anteprima. In [!UICONTROL Tag Manager], è possibile [applicare la transcodifica specifica dell&#39;editore](/help/creative/experiences/experience-tag-video-transcoding.md) a qualsiasi tag esperienza annuncio video.
+È possibile caricare creativi video di prime parti per il Web, i dispositivi mobili o la TV connessa dal dispositivo o dalla rete. Ogni esperienza di annuncio video standard richiede una creatività video predefinita per ogni durata creativa assegnata all’esperienza. Tutti i video creativi vengono transcodificati automaticamente da DSP come tag VAST 2.0 per consentirti di visualizzarli in anteprima. In [!UICONTROL Tag Manager], è possibile [applicare la transcodifica specifica dell&#39;editore](/help/creative/experiences/experience-tag-video-transcoding.md) a qualsiasi tag esperienza annuncio video.
 
 Consulta i seguenti requisiti creativi per il video.
 
