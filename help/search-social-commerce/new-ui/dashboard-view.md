@@ -3,7 +3,8 @@ title: (Nuova interfaccia) Visualizza il dashboard delle prestazioni
 description: Scopri i dati disponibili nel dashboard delle prestazioni.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: ef79f52b-cc97-4f36-8a44-50ffd3377c8b
+source-git-commit: 7065a4051449dc5834e5bca950f9c4aca36b9000
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -13,8 +14,6 @@ ht-degree: 0%
 # (Nuova interfaccia) Visualizza il dashboard delle prestazioni
 
 *funzionalità Beta*
-
-<!-- See wiki pageId=3404513731 for more things that may be added -->
 
 Il [!UICONTROL Dashboard] personalizzabile consente di monitorare le prestazioni di tutti i portfolio <!-- May later include other entity-level data --> in modo da identificare potenziali problemi di prestazioni da analizzare e risolvere. È possibile visualizzare dati giornalieri, settimanali o mensili per qualsiasi periodo di tempo degli ultimi 90 giorni.
 
@@ -57,4 +56,3 @@ Il [!UICONTROL Dashboard] personalizzabile consente di monitorare le prestazioni
    * Modificare la metrica segnalata ([!UICONTROL Cost] \[selezionata per impostazione predefinita\], [!UICONTROL Clicks] o [!UICONTROL Objective Value]).
 
    * Per aprire la visualizzazione [!UICONTROL Portfolios], fare clic su **[!UICONTROL View More]** in basso a destra del grafico. <!-- This currently lists all portfolios, not a filtered view of the portfolios in the report -->
-
