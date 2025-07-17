@@ -3,9 +3,9 @@ title: Creare manualmente un tag annuncio per una dimensione creativa applicabil
 description: Scopri come creare un tag annuncio per una dimensione creativa specifica.
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
+source-git-commit: e79becc860143b749ec96134e7b224649686c672
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 *Esperienze senza solo targeting della struttura decisionale*
 *Versione beta chiusa*
 
-Puoi creare uno o più tag annuncio per lingua per ogni dimensione creativa o durata del video utilizzato per un’esperienza. In seguito [puoi assegnare i creativi al tag annuncio](experience-tag-assign-creatives.md).
+Puoi creare uno o più tag annuncio per lingua per ogni dimensione creativa (creativi non video) o durata video utilizzata per un’esperienza. In seguito [puoi assegnare i creativi al tag annuncio](experience-tag-assign-creatives.md).
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ Puoi creare uno o più tag annuncio per lingua per ogni dimensione creativa o du
 
    Puoi espandere la riga dei tag per visualizzare i creativi inclusi.
 
-   Per le esperienze di annunci video, i creativi video vengono transcodificati automaticamente da DSP come tag VAST 2.0, in modo da poterli visualizzare in anteprima. Facoltativamente, puoi [applicare la transcodifica specifica per il publisher](experience-tag-video-transcoding.md).
+   Per le esperienze di annunci video, i creativi video vengono transcodificati automaticamente utilizzando la codifica Adobe Advertising DSP come tag VAST 2.0 per consentirti di visualizzarli in anteprima. È possibile [applicare la transcodifica per un altro DSP](experience-tag-video-transcoding.md).
 
 >[!MORELIKETHIS]
 >

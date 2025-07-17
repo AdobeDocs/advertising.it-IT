@@ -3,9 +3,9 @@ title: Creare un’esperienza con il targeting dell’albero decisionale
 description: Scopri come creare un’esperienza pubblicitaria mirata utilizzando una struttura decisionale.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
+source-git-commit: e79becc860143b749ec96134e7b224649686c672
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Crea un’esperienza pubblicitaria mirata utilizzando una struttura decisionale.
 
 Quando l&#39;esperienza è in diretta, [!DNL Creative] crea automaticamente un tag annuncio per ogni dimensione creativa o durata video applicabile. È quindi possibile [esportare un tag annuncio e implementarlo in un DSP](/help/creative/experiences/experience-tag-export.md).
 
-Per le esperienze di annunci video, i creativi video vengono transcodificati automaticamente da DSP come tag VAST 2.0, in modo da poterli visualizzare in anteprima. Facoltativamente, puoi [applicare una transcodifica specifica per l&#39;editore](experience-tag-video-transcoding.md) a qualsiasi tag esperienza annuncio video.
+Per le esperienze di annunci video, i creativi video vengono transcodificati automaticamente da Adobe Advertising DSP come tag VAST 2.0, in modo da poterli visualizzare in anteprima. Facoltativamente, puoi [applicare la transcodifica per un DSP](experience-tag-video-transcoding.md) diverso a qualsiasi tag esperienza annuncio video.
 
 >[!MORELIKETHIS]
 >
