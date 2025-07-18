@@ -3,9 +3,9 @@ title: Informazioni su questa guida
 description: Scopri cosa è trattato in ogni capitolo di questa guida.
 exl-id: 45fe7952-42c3-4479-b25f-6ab5fd218c45
 feature: Search Introduction
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 21d642ce63740c983d767e4829367673d68c69c9
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Informazioni su gruppi specifici di attività e altre informazioni sono disponib
 
 * &quot;Attività comuni&quot; spiega come configurare le varie visualizzazioni dati sulle prestazioni in base alle esigenze e alle preferenze in materia di informazioni, come gestire le metriche personalizzate, come gestire le classificazioni delle etichette e i vincoli di offerta e come eseguire altre attività comuni.
 
+* Nella sezione &quot;Nuova interfaccia&quot; sono illustrate le attività che è possibile eseguire nella nuova interfaccia utente: come gestire gli obiettivi, eseguire simulazioni, gestire i portfolio, assegnare e rimuovere le campagne dai portfolio e assegnare o rimuovere i vincoli a campagne e gruppi di annunci. Consulta la &quot;Nota&quot; di seguito.
+
 * &quot;Tracciamento&quot; spiega come impostare il tracciamento dei clic e delle conversioni per i tuoi annunci e parole chiave.
 
 * La sezione &quot;Gestione delle campagne&quot; spiega come impostare e gestire i componenti della campagna per gli account di rete degli annunci.
@@ -32,4 +34,4 @@ Informazioni su gruppi specifici di attività e altre informazioni sono disponib
 
 >[!NOTE]
 >
->La Guida sull&#39;ottimizzazione, incluso l&#39;utilizzo dei portfolio per le offerte, è disponibile dal menu [!UICONTROL Help] (![Menu Guida](/help/search-social-commerce/assets/help-main-menu.png "Menu Guida")) in alto a destra di qualsiasi pagina in Search, Social e Commerce.
+>Ulteriori informazioni sull&#39;ottimizzazione, incluso l&#39;utilizzo dei portfolio per le offerte nell&#39;interfaccia utente legacy, sono disponibili nel menu [!UICONTROL Help] (![Menu Guida](/help/search-social-commerce/assets/help-main-menu.png "Menu Guida")) in alto a destra di qualsiasi pagina di Search, Social e Commerce.
