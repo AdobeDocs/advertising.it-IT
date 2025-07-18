@@ -2,9 +2,9 @@
 title: Informazioni sulla nuova interfaccia utente
 description: Scopri la nuova interfaccia utente.
 feature: Search Introduction
-source-git-commit: 982b7b93a392029859be13ae59fb4b0b2fa69a59
+source-git-commit: 97c7776ab7dfacbb7ac4fdc038f25d4ced5b54e4
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
@@ -25,3 +25,4 @@ Per ulteriori informazioni sull&#39;organizzazione della nuova interfaccia, vede
 >
 >* [Organizzazione dell&#39;interfaccia utente](/help/search-social-commerce/getting-started/user-interface.md)
 >* [Passaggio tra le interfacce utente nuova e legacy](/help/search-social-commerce/getting-started/ui-switch.md)
+>* Capitolo su &quot;Attività comuni&quot; per informazioni sulla gestione di viste personalizzate e predefinite, sulla visualizzazione dei dati per un altro inserzionista, sull’applicazione di filtri dei dati e su altre attività di navigazione e relative ai dati nelle interfacce utente nuove e legacy
