@@ -3,7 +3,7 @@ title: Organizzazione dell’interfaccia utente
 description: Scopri dove accedere a diverse funzionalità.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: a9425f4ccf79778b6b113de9ab925f2bdcee81c9
+source-git-commit: 2d218c960cd74fdfa9c981540951d7305b7740c7
 workflow-type: tm+mt
 source-wordcount: '1082'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *funzionalità Beta*
 
-![Interfaccia utente](/help/search-social-commerce/assets/new-ui.png "Interfaccia utente")
+![Interfaccia utente](/help/search-social-commerce/assets/ui-new.png "Interfaccia utente")
 
 Ogni pagina include il menu principale e altri menu basati su attività e informazioni.
 
@@ -34,7 +34,7 @@ Il tuo ruolo determina le opzioni disponibili:<!-- add link when available -->
 
    * **[!UICONTROL Objectives]** Apre una nuova visualizzazione [!UICONTROL Objectives], dalla quale è possibile visualizzare tutti gli obiettivi esistenti e creare, modificare ed eliminare gli obiettivi. Le impostazioni dell&#39;obiettivo sono le stesse dell&#39;interfaccia utente legacy in [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL New Objectives Beta].
 
-   * **[!UICONTROL Simulations]** Apre una nuova visualizzazione [[!UICONTROL Simulations]](/help/search-social-commerce/new-ui/optimization/plan/simulations/simulation-about.md), da cui è possibile visualizzare tutte le simulazioni personalizzate create dall&#39;utente e le simulazioni settimanali generate automaticamente; genera nuove simulazioni personalizzate ed esegue nuovamente le simulazioni esistenti. Il pulsante [!UICONTROL Spend Planner] apre lo strumento legacy [!UICONTROL Spend Recommendation] in [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
+   * **[!UICONTROL Simulations]** Apre una nuova visualizzazione [[!UICONTROL Simulations]](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md), da cui è possibile visualizzare tutte le simulazioni personalizzate create dall&#39;utente e le simulazioni settimanali generate automaticamente; genera nuove simulazioni personalizzate ed esegue nuovamente le simulazioni esistenti. Il pulsante [!UICONTROL Spend Planner] apre lo strumento legacy [!UICONTROL Spend Recommendation] in [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 
 * Sottomenu **[!UICONTROL Manage]**:
 
