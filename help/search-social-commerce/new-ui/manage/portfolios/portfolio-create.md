@@ -3,9 +3,10 @@ title: (Nuova interfaccia) Creare un portfolio
 description: Scopri come creare un portfolio.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: f7fe6138-8335-407a-88fd-f0ace27c93ee
+source-git-commit: 51bfb0b54af6e770df809ccd799ef47b9b4669b9
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,9 @@ ht-degree: 0%
 
 1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
 
-1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Aggiungi](/help/search-social-commerce/assets/add-new.png "Aggiungi").
+1. Nella barra degli strumenti sopra la tabella dati, fare clic su **[!UICONTROL Create Portfolio]** o ![Aggiungi](/help/search-social-commerce/assets/add-new.png "Aggiungi").
+
+   Il pulsante visualizzato dipende dalla larghezza del browser.
 
 1. Specifica le impostazioni del portfolio.
 
