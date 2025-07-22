@@ -46,11 +46,11 @@ Le tue credenziali attuali di DSP rimarranno attive fino al 15 luglio 2025, in m
 
    * Se hai accesso a più organizzazioni IMS, seleziona quella corretta.
 
-Per ulteriori informazioni sull&#39;interfaccia di Experience Cloud, inclusa la gestione del profilo utente, vedere &quot;[Interfaccia e amministrazione di Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud).&quot;
+Per ulteriori informazioni sull&#39;interfaccia di Experience Cloud, inclusa la gestione del profilo utente, vedere &quot;[Interfaccia e amministrazione di Experience Cloud](https://experienceleague.adobe.com/it/docs/core-services/interface/experience-cloud).&quot;
 
 ### Risoluzione dei problemi
 
-Per problemi generali di accesso, vedere anche &quot;[Risoluzione dei problemi di accesso dell&#39;account Adobe](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html).&quot;
+Per problemi generali di accesso, vedere anche &quot;[Risoluzione dei problemi di accesso dell&#39;account Adobe](https://helpx.adobe.com/it/manage-account/kb/account-password-sign-help.linkfree.html).&quot;
 
 #### Esistono prerequisiti per abilitare un nuovo accesso IMS [!DNL Adobe]?
 
