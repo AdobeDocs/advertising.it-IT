@@ -3,16 +3,16 @@ title: Accedere a DSP
 description: Scopri come accedere a DSP.
 feature: DSP Introduction
 exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
-source-git-commit: 414bc93bc4a550f918742bd55d1078d36440063d
+source-git-commit: 62430015c5252cdd1418000d05e49a1c7869e09e
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
 
 # Accedere ad Adobe Advertising DSP
 
-Adobe Advertising DSP sta passando al servizio Adobe Identity Management (IMS) per l’autenticazione degli accessi. IMS fornisce accesso Single Sign-On (SSO) a tutti i prodotti [!DNL Adobe] che supportano IMS, inclusi Real-Time Customer Data Platform, Customer Journey Analytics, Target e Analytics. Con la modifica:
+Adobe Advertising DSP sta passando al servizio Adobe Identity Management (IMS) per l’autenticazione degli accessi. IMS fornisce l&#39;accesso Single Sign-On (SSO) utilizzando Federated ID a tutti i prodotti [!DNL Adobe] che supportano IMS, inclusi Real-Time Customer Data Platform, Customer Journey Analytics, Target e Analytics. Con la modifica:
 
 * È possibile utilizzare un [!DNL Adobe ID] per accedere ai diversi prodotti di [!DNL Adobe] dalla pagina di accesso di Experience Cloud o dalla pagina di accesso legacy di DSP. [!DNL Adobe ID] fornisce la gestione del profilo utente. In una versione futura, potrai modificare l’account DSP, l’account organizzazione IMS e il prodotto [!DNL Adobe] dal menu principale.
 
@@ -42,15 +42,15 @@ Le credenziali correnti di DSP rimarranno attive per un breve periodo di tempo i
 
 1. Scegli la tua organizzazione:
 
-   * Se richiesto, selezionare **[!UICONTROL Personal Account]&quot; o &#x200B;** [!UICONTROL Company or School Account]**.
+   * Se richiesto, selezionare **[!UICONTROL Personal Account]&quot; o **[!UICONTROL Company or School Account]**.
 
    * Se hai accesso a più organizzazioni IMS, seleziona quella corretta.
 
-Per ulteriori informazioni sull&#39;interfaccia di Experience Cloud, inclusa la gestione del profilo utente, vedere &quot;[Interfaccia e amministrazione di Experience Cloud](https://experienceleague.adobe.com/it/docs/core-services/interface/experience-cloud).&quot;
+Per ulteriori informazioni sull&#39;interfaccia di Experience Cloud, inclusa la gestione del profilo utente, vedere &quot;[Interfaccia e amministrazione di Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud).&quot;
 
 ### Risoluzione dei problemi
 
-Per problemi generali di accesso, vedere anche &quot;[Risoluzione dei problemi di accesso dell&#39;account Adobe](https://helpx.adobe.com/it/manage-account/kb/account-password-sign-help.linkfree.html).&quot;
+Per problemi generali di accesso, vedere anche &quot;[Risoluzione dei problemi di accesso dell&#39;account Adobe](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html).&quot;
 
 #### Esistono prerequisiti per abilitare un nuovo accesso IMS [!DNL Adobe]?
 
