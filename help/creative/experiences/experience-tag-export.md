@@ -33,7 +33,7 @@ Gli inserzionisti con Advertising DSP possono facoltativamente caricare tag dire
 
    * Nella visualizzazione per tabella, posizionare il cursore sulla riga, fare clic su **[!UICONTROL More]** e quindi su **[!UICONTROL Tag Manager]**.
 
-1. Posizionare il cursore sulla riga relativa al tag annuncio applicabile e fare clic su ![Esporta tag annuncio](/help/creative/assets/export.png "Esporta tag annuncio") **[!UICONTROL Export ad tags]** o **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**.
+1. Posizionare il cursore sulla riga relativa al tag annuncio applicabile e fare clic su ![Esporta tag annuncio](/help/creative/assets/export.png "Esporta tag annuncio") **[!UICONTROL Export ad tags]** o **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**.
 
 >[!NOTE]
 >
@@ -51,9 +51,9 @@ Gli inserzionisti con Advertising DSP possono facoltativamente caricare tag dire
 
 1. Seleziona il tipo di tag:
 
-   * (Esperienze non video) ** *JavaScript* ** o ** *Iframe* **.
+   * (Esperienze non video) **&#x200B; *JavaScript* &#x200B;** o **&#x200B; *Iframe* &#x200B;**.
 
-   * (Esperienze video) ** *Video* **.
+   * (Esperienze video) **&#x200B; *Video* &#x200B;**.
 
 1. Nell&#39;elenco [!UICONTROL Destinations], seleziona la posizione in cui creare gli annunci per l&#39;esperienza.
 
