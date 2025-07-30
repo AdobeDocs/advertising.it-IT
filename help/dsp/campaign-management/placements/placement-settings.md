@@ -3,9 +3,9 @@ title: Impostazioni di posizionamento
 description: Consulta le descrizioni delle impostazioni di posizionamento disponibili.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 1478e61ebd7dac59cac7566b86e5b1ea97838508
+source-git-commit: 902eae60008934b910b536d764f3bf424a802c4b
 workflow-type: tm+mt
-source-wordcount: '4477'
+source-wordcount: '4560'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,16 @@ Le date del pacchetto (se applicabile) o della campagna vengono compilate automa
    * *[!UICONTROL Minimum Budget]*: il budget minimo come percentuale del budget del pacchetto. Quando viene specificato un limite di intervallo, il valore di budget minimo viene sempre calcolato come percentuale del limite di intervallo. In caso contrario, viene calcolata come percentuale del budget del pacchetto.
 
 **[!UICONTROL Max Bid]:** Il massimo da pagare per 1000 impression.
+
+**[!UICONTROL Min Bid]:** (solo per offerte private e [!DNL On-Demand]) Offerta minima basata sul tipo di inventario. Selezionare un&#39;opzione:
+
+* *[!UICONTROL None]*: nessuna offerta minima per qualsiasi tipo di inventario. Se l&#39;offerta calcolata è inferiore al prezzo fisso/minimo delle offerte mirate, DSP non fa offerte. Questo può influire sulla scala.
+
+* *[!UICONTROL Fixed/floor price for Private deals only]*: DSP offre almeno il prezzo fisso/minimo per le offerte private mirate, anche se l&#39;offerta calcolata algoritmicamente è inferiore. Questo può influire sulle prestazioni.
+
+* *[!UICONTROL Fixed/floor price for On-demand deals only]*: DSP offre almeno il prezzo fisso/minimo per le offerte di [!DNL On-Demand] mirate, anche se l&#39;offerta calcolata algoritmicamente è inferiore. Questo può influire sulle prestazioni.
+
+* *[!UICONTROL Fixed/floor price for both Private and On-demand deals]*: DSP offre almeno il prezzo fisso/minimo per le offerte private e [!DNL On-Demand] mirate, anche se l&#39;offerta calcolata in modo algoritmico è inferiore. Questo può influire sulle prestazioni.
 
 **[!UICONTROL Placement Pre-bid Filters]:** Fino a cinque soglie KPI (ad esempio una metrica minima di visualizzabilità o un tasso di click-through) che devono essere soddisfatte affinché la licitazione avvenga. Puoi utilizzare i filtri di pre-offerta come tattiche di ottimizzazione, ma assicurati che ogni regola possa limitare le opportunità su cui questo posizionamento può fare offerte. Per aggiungere o modificare i filtri:
 
@@ -181,13 +191,9 @@ Includere un codice postale per riga oppure immettere più valori separati da vi
 
   Dalla scheda [!UICONTROL Deals], puoi cercare l&#39;elenco per parola chiave, chiave, ID offerta o tag personalizzato. Dalla scheda [!UICONTROL Deal Lists], puoi cercare l&#39;elenco per nome o ID dell&#39;elenco delle offerte.
 
-   * *[!UICONTROL Ensure Fixed or Floor Price for the bid]*: (Facoltativo) Sostituisce l&#39;algoritmo del prezzo dell&#39;offerta per offrire almeno i prezzi fissi e minimi per le offerte.
-
 * [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: tutte le [offerte premium, [!UICONTROL On Demand] inventory](/help/dsp/inventory/on-demand-inventory-about.md) non garantite (o [!UICONTROL On Demand] [!DNL Roku] offerte per [!DNL Roku] posizionamenti) alle quali ti sei iscritto in [!DNL DSP]. È possibile includere ed escludere [!UICONTROL On Demand] inventario.
 
   È possibile visualizzare l’elenco in base all’origine o al feed. Quando l&#39;elenco viene visualizzato per feed, è possibile eseguire ricerche per nome di feed, chiave di feed oppure per l&#39;area dell&#39;editore selezionata, il tag categoria o il tag caratteristica.
-
-   * *[!UICONTROL Ensure Fixed or Floor Price for the bid]*: (Facoltativo) Sostituisce l&#39;algoritmo del prezzo dell&#39;offerta per offrire almeno i prezzi fissi e minimi per le offerte.
 
 Per specificare il targeting dell&#39;inventario:
 
