@@ -111,9 +111,9 @@ Segui questo flusso di lavoro per ogni istanza client di Search, Social e Commer
 
 1. [Accedi a Adobe Admin Console e aprilo in Search, Social e Commerce](#open-admin-console).
 
-1. (Facoltativo) [Aggiungere un altro amministratore di sistema](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise) come backup.
+1. (Facoltativo) [Aggiungere un altro amministratore di sistema](https://helpx.adobe.com/it/enterprise/using/admin-roles.html#enterprise) come backup.
 
-1. Delega la gestione di prodotti e utenti [aggiungendo amministratori di prodotti](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise).
+1. Delega la gestione di prodotti e utenti [aggiungendo amministratori di prodotti](https://helpx.adobe.com/it/enterprise/using/admin-roles.html#enterprise).
 
 ### Flusso di lavoro per gli amministratori di prodotto
 
@@ -121,9 +121,9 @@ Segui questo flusso di lavoro per ogni istanza client di Search, Social e Commer
 
 1. [Accedi a Adobe Admin Console e aprilo in Search, Social e Commerce](#open-admin-console).
 
-1. Se necessario, creare gli utenti finali [singolarmente](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) o [in blocco](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
+1. Se necessario, creare gli utenti finali [singolarmente](https://helpx.adobe.com/it/enterprise/using/manage-users-individually.html) o [in blocco](https://helpx.adobe.com/it/enterprise/using/bulk-upload-users.html).
 
-1. (Facoltativo) Crea [gruppi di utenti](https://helpx.adobe.com/enterprise/using/user-groups.html) per l&#39;istanza e assegna gli utenti a ciascun gruppo di utenti.
+1. (Facoltativo) Crea [gruppi di utenti](https://helpx.adobe.com/it/enterprise/using/user-groups.html) per l&#39;istanza e assegna gli utenti a ciascun gruppo di utenti.
 
    Se l’istanza ha molti utenti, crea gruppi di utenti per garantire che agli utenti siano assegnati i profili giusti in base al loro livello di esperienza. Consulta il Passaggio 4 per assegnare gruppi di utenti ai profili di prodotto. Puoi creare gruppi di utenti in base alla linea di business, alle esigenze di accesso degli utenti, alla data di assunzione dell’utente o ad altri criteri.
 
@@ -131,7 +131,7 @@ Segui questo flusso di lavoro per ogni istanza client di Search, Social e Commer
    >
    >I nomi dei gruppi di utenti devono comunicare chiaramente i diritti che devono essere assegnati al gruppo. Ad esempio, se si desidera creare un gruppo di utenti con diritti di sola lettura, includere &quot;Sola lettura&quot; nel nome del gruppo di utenti, ad esempio &quot;Acme_Uk_ReadOnly&quot; o &quot;Acme_ReadOnly&quot;.
 
-1. (Facoltativo) [Crea profili di prodotto personalizzati](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) con set di autorizzazioni definiti.
+1. (Facoltativo) [Crea profili di prodotto personalizzati](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html) con set di autorizzazioni definiti.
 
    I profili personalizzati si aggiungono ai quattro profili di prodotto predefiniti già disponibili.
 
@@ -139,10 +139,10 @@ Segui questo flusso di lavoro per ogni istanza client di Search, Social e Commer
 
    **Attenzione:** le autorizzazioni del prodotto sono molto granulari. Presta attenzione quando configuri profili di prodotto personalizzati o potresti omettere le funzionalità che desideri includere.
 
-1. [Assegnare ogni utente o gruppo di utenti al relativo profilo di prodotto](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) manualmente o in blocco.
+1. [Assegnare ogni utente o gruppo di utenti al relativo profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html) manualmente o in blocco.
 
 ## Guida completa all’amministrazione degli utenti e collegamenti aggiuntivi
 
-* Per ulteriori informazioni sull&#39;amministrazione degli utenti tramite Adobe Admin Console, vedere &quot;[Adobe Enterprise &amp; Teams Administration Guide](https://helpx.adobe.com/enterprise/admin-guide.html)&quot;, inclusa la [panoramica di Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html).
+* Per ulteriori informazioni sull&#39;amministrazione degli utenti tramite Adobe Admin Console, vedere &quot;[Adobe Enterprise &amp; Teams Administration Guide](https://helpx.adobe.com/it/enterprise/admin-guide.html)&quot;, inclusa la [panoramica di Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html).
 
 * Admin Console: [https://adminconsole.adobe.com](https://adminconsole.adobe.com)
