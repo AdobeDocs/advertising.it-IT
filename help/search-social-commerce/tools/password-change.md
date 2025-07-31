@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Questa funzione è applicabile solo al tuo account legacy di ricerca, social e Commerce. La maggior parte degli utenti utilizza ora un ID [!DNL Adobe].<!-- Replace this with a new topic with the new info. pointing to ?where? [Not the correct place!!! https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud#manage-your-user-profile] -->
+>Questa funzione è applicabile solo al tuo account legacy di ricerca, social e Commerce. La maggior parte degli utenti utilizza ora un ID [!DNL Adobe].<!-- Replace this with a new topic with the new info. pointing to ?where? [Not the correct place!!! https://experienceleague.adobe.com/it/docs/core-services/interface/experience-cloud#manage-your-user-profile] -->
 
 La modifica della password comporta la disconnessione dalla sessione corrente. Per continuare a lavorare, devi accedere con la nuova password.
 
