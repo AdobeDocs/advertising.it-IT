@@ -3,14 +3,18 @@ title: Cambia la password
 description: Scopri come modificare la password del tuo account.
 exl-id: 62a4710d-aff7-4635-9fce-6d14f890728f
 feature: Search Tools
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: ec856bfde690019b9d18aa6fe8f4ab0237314b4b
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
 
 # Cambia la password
+
+>[!NOTE]
+>
+>Questa funzione è applicabile solo al tuo account legacy di ricerca, social e Commerce. La maggior parte degli utenti utilizza ora un ID [!DNL Adobe].<!-- Replace this with a new topic with the new info. pointing to ?where? [Not the correct place!!! https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud#manage-your-user-profile] -->
 
 La modifica della password comporta la disconnessione dalla sessione corrente. Per continuare a lavorare, devi accedere con la nuova password.
 
