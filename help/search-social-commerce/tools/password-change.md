@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Questa funzione è applicabile solo alle credenziali di accesso legacy di Search, Social e Commerce. La maggior parte degli utenti ora utilizza un ID [!DNL Adobe] per l&#39;autenticazione. Per cambiare la password per il tuo ID [!DNL Adobe], vedi &quot;[Reimpostare o modificare la password di Adobe](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html).&quot;
+>Questa funzione è applicabile solo alle credenziali di accesso legacy di Search, Social e Commerce. La maggior parte degli utenti ora utilizza un ID [!DNL Adobe] per l&#39;autenticazione. Per cambiare la password per il tuo ID [!DNL Adobe], vedi &quot;[Reimpostare o modificare la password di Adobe](https://helpx.adobe.com/it/manage-account/using/change-or-reset-password.html).&quot;
 
 La modifica della password comporta la disconnessione dalla sessione corrente. Per continuare a lavorare, devi accedere con la nuova password.
 
