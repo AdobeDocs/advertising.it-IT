@@ -3,9 +3,9 @@ title: Aggiungere un nodo di destinazione tra i nodi di un’esperienza
 description: Scopri come aggiungere un nodo di destinazione tra gli elementi di destinazione in un’esperienza di annuncio.
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
-source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
+source-git-commit: f71747a4973ec3f3e2c3a8a5913d27311849883c
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '960'
 ht-degree: 0%
 
 ---
@@ -47,11 +47,31 @@ Per definire un target specifico, aggiungi un altro nodo di destinazione di pari
 
       * Per i target di pubblico, effettua le seguenti operazioni:
 
-         1. Fai clic su **[!UICONTROL Click to Browse]** per aprire le opzioni di [!UICONTROL Audience Targeting] e specifica uno o più tipi di pubblico dell&#39;inserzionista di cui eseguire il targeting.
+         1. Fare clic su **[!UICONTROL Click to Browse]** per aprire le opzioni di [!UICONTROL Audience Targeting], quindi eseguire le operazioni seguenti:
 
-         1. Nella colonna di destra, selezionare se *[!UICONTROL Include any]* (impostazione predefinita) o *[!UICONTROL Include all]* delle destinazioni specificate per il nodo.
+            * Per aggiungere il primo segmento, individualo nel pannello a sinistra e seleziona la casella di controllo accanto al nome del segmento.
 
-        Questa opzione determina se l&#39;utente deve appartenere ad almeno uno dei tipi di pubblico specificati (un&#39;istruzione [!DNL Boolean] `OR`) o a tutti i tipi di pubblico specificati (un&#39;istruzione [!DNL Boolean] `AND`) per qualificarsi per un&#39;impression.
+            * Per aggiungere un segmento a un gruppo di segmenti esistente:
+
+               1. Fai clic sul gruppo di segmenti nel pannello di destra.
+
+               1. (Facoltativo) Modificare la logica del gruppo in *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* o *[!UICONTROL Exclude All]*, in base alle esigenze.
+
+                  *[!UICONTROL Exclude All]* non è disponibile per il primo gruppo di segmenti. Per un pubblico che include solo esclusioni, crea questo pubblico come *[!UICONTROL Include Any]* e poi escludilo quando lo aggiungi a un posizionamento all&#39;interno del tuo DSP.
+
+               1. Individua il nuovo segmento nel pannello a sinistra e seleziona la casella di controllo accanto al nome del segmento.
+
+                  Il gruppo di segmenti viene aggiornato automaticamente con il nuovo segmento.
+
+            * Per aggiungere un nuovo gruppo di segmenti:
+
+               1. Fai clic su **[!UICONTROL + New Group]** nel pannello di destra.
+
+               1. (Facoltativo) Modificare la logica tra il gruppo precedente e il nuovo gruppo in *[!UICONTROL And]* o *[!UICONTROL Or]*, in base alle esigenze.
+
+               1. Individuate i segmenti per il nuovo gruppo nel pannello a sinistra e selezionate le caselle di controllo accanto ai nomi dei segmenti.
+
+               1. (Facoltativo) Modificare la logica del gruppo in *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* o *[!UICONTROL Exclude All]*, in base alle esigenze.
 
          1. Fare clic su **[!UICONTROL Create]**.
 
