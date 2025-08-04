@@ -3,9 +3,9 @@ title: Aggiungere un nodo di destinazione di pari livello tra i nodi di un’esp
 description: Scopri come aggiungere un nodo di pari livello a qualsiasi nodo che ha una destinazione o si trova allo stesso livello di un nodo con una destinazione.
 feature: Creative Experiences
 exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
-source-git-commit: 8961833c854ed41e4cca69787a5dc70dce2f203c
+source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,15 @@ In an existing experience,
 
 1. Specificare le destinazioni:
 
-   * Per le destinazioni Adobe Audience, effettua le seguenti operazioni:
+   * Per i target di pubblico, effettua le seguenti operazioni:
 
-      1. Fare clic su **[!UICONTROL Click to Browse]** per aprire le opzioni [!UICONTROL Audience Targeting], aprire la scheda **[!UICONTROL Adobe Segments]**, specificare una o più destinazioni del pubblico [!DNL Adobe] dell&#39;inserzionista e quindi fare clic su **[!UICONTROL Save]**.
+      1. Fai clic su **[!UICONTROL Click to Browse]** per aprire le opzioni di [!UICONTROL Audience Targeting] e specifica uno o più tipi di pubblico dell&#39;inserzionista di cui eseguire il targeting.
 
-      1. (Facoltativo) Per creare più nodi di destinazione quando sono specificati più tipi di pubblico, selezionare **[!UICONTROL Split targets to create nodes]**.
+      1. Nella colonna di destra, selezionare se *[!UICONTROL Include any]* (impostazione predefinita) o *[!UICONTROL Include all]* delle destinazioni specificate per il nodo.
 
-         Questa funzione crea un nodo di destinazione separato (con bundle creativi separati) per ogni pubblico specificato. Se non si dividono le destinazioni, l&#39;utente deve appartenere a tutti i tipi di pubblico specificati (un&#39;istruzione [!DNL Boolean] `AND`).
+     Questa opzione determina se l&#39;utente deve appartenere ad almeno uno dei tipi di pubblico specificati (un&#39;istruzione [!DNL Boolean] `OR`) o a tutti i tipi di pubblico specificati (un&#39;istruzione [!DNL Boolean] `AND`) per qualificarsi per un&#39;impression.
+
+      1. Fare clic su **[!UICONTROL Create]**.
 
       1. Fare clic su **[!UICONTROL Apply]**.
 

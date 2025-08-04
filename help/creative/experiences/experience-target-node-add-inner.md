@@ -3,9 +3,9 @@ title: Aggiungere un nodo di destinazione tra i nodi di un’esperienza
 description: Scopri come aggiungere un nodo di destinazione tra gli elementi di destinazione in un’esperienza di annuncio.
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
-source-git-commit: 81cbb3cdac21f4b4899b0c07d1eb0686b7b3c7d4
+source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Per definire un target specifico, aggiungi un altro nodo di destinazione di pari
 
       1. Selezionare il tipo di destinazione, quindi fare clic su **[!UICONTROL Apply]**:
 
-         * Per le destinazioni Adobe Audience, selezionare **[!UICONTROL Adobe Audience]**.
+         * Per le destinazioni di pubblico, selezionare **[!UICONTROL Audience]**.
 
          * Per le destinazioni geografiche, selezionare una singola categoria geografica (ad esempio [!UICONTROL Geo: Country]).
 
@@ -45,13 +45,15 @@ Per definire un target specifico, aggiungi un altro nodo di destinazione di pari
 
    * Se i nodi di pari livello esistono già, eseguire le operazioni seguenti:
 
-      * Per le destinazioni Adobe Audience, effettua le seguenti operazioni:
+      * Per i target di pubblico, effettua le seguenti operazioni:
 
-         1. Fare clic su **[!UICONTROL Click to Browse]** per aprire le opzioni [!UICONTROL Audience Targeting], aprire la scheda **[!UICONTROL Adobe Segments]**, specificare una o più destinazioni del pubblico [!DNL Adobe] dell&#39;inserzionista e quindi fare clic su **[!UICONTROL Create]**<!-- Why not "Save" like for the other node types/use cases? -->.
+         1. Fai clic su **[!UICONTROL Click to Browse]** per aprire le opzioni di [!UICONTROL Audience Targeting] e specifica uno o più tipi di pubblico dell&#39;inserzionista di cui eseguire il targeting.
 
-         1. (Facoltativo) Per creare più nodi di destinazione quando sono specificati più tipi di pubblico, selezionare **[!UICONTROL Split targets to create nodes]**.
+         1. Nella colonna di destra, selezionare se *[!UICONTROL Include any]* (impostazione predefinita) o *[!UICONTROL Include all]* delle destinazioni specificate per il nodo.
 
-            Questa funzione crea un nodo di destinazione separato (con bundle creativi separati) per ogni pubblico specificato. Se non si dividono le destinazioni, l&#39;utente deve appartenere a tutti i tipi di pubblico specificati (un&#39;istruzione [!DNL Boolean] `AND`).
+        Questa opzione determina se l&#39;utente deve appartenere ad almeno uno dei tipi di pubblico specificati (un&#39;istruzione [!DNL Boolean] `OR`) o a tutti i tipi di pubblico specificati (un&#39;istruzione [!DNL Boolean] `AND`) per qualificarsi per un&#39;impression.
+
+         1. Fare clic su **[!UICONTROL Create]**.
 
          1. Fare clic su **[!UICONTROL Apply]**.
 
