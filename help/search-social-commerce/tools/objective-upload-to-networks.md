@@ -3,9 +3,9 @@ title: Abilita il caricamento degli obiettivi nelle reti di annunci
 description: Scopri come caricare gli obiettivi per i portfolio ibridi in  [!DNL Google Ads]  e  [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: cfdf9325f6a0696e7ab74379daaf77b20c184d9d
+source-git-commit: 3d3031946bb614f2c58b83170473b1394e4a017c
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Ogni conversione caricata ha il seguente nome:
 
 dove `<network_ID>` è l&#39;ID numerico utilizzato da Search, Social e Commerce per la rete di annunci, `<objective_id>` è l&#39;ID obiettivo numerico e `<network_account_ID>` è l&#39;ID numerico per l&#39;account di gestione o l&#39;account di gestione della rete di annunci.
 
-Per la maggior parte degli inserzionisti, i caricamenti in [!DNL Google Ads] avvengono ogni ora; per gli inserzionisti con account di grandi dimensioni o configurazioni personalizzate, i caricamenti avvengono almeno tre volte al giorno. I caricamenti su [!DNL Microsoft Advertising] si verificano ogni giorno alle 09:00 nel fuso orario dell&#39;inserzionista.
+I caricamenti in [!DNL Google Ads] e [!DNL Microsoft Advertising] si verificano durante il giorno, a volte anche ogni ora. Per gli inserzionisti con account di grandi dimensioni o configurazioni personalizzate, i caricamenti si verificano almeno tre volte al giorno.
 
 >[!IMPORTANT]
 >
