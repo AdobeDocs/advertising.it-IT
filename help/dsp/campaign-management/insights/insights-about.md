@@ -1,22 +1,20 @@
 ---
-title: Informazioni su Performance Insights
+title: Informazioni su Insights
 description: Scopri gli approfondimenti sulle prestazioni con le visualizzazioni.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: ca531db43b9e07dc767da3d0e866bfc85add7ee9
+source-git-commit: 99b9c110de5efbf646e35979eee6baac1d34f6ed
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '911'
 ht-degree: 0%
 
 ---
 
-# Informazioni su Performance Insights
+# Informazioni su Insights
 
 *funzionalità Beta*
 
-<!-- Edit title and metadata as necessary -->
-
-Informazioni approfondite sulle prestazioni di alto livello con le visualizzazioni forniscono le informazioni necessarie per ottimizzare in modo efficiente le campagne e scoprire nuove opportunità per scalare le prestazioni. Puoi visualizzare i dati tra le campagne o approfondire la ricerca fino a un livello più basso.
+Informazioni approfondite sulle prestazioni di alto livello con le visualizzazioni forniscono le informazioni necessarie per ottimizzare in modo efficiente le campagne e scoprire nuove opportunità per scalare le prestazioni. Puoi visualizzare i dati tra le campagne per un inserzionista specificato o approfondire la ricerca fino a un livello più basso.
 
 Utilizza gli approfondimenti sulle prestazioni per:
 
@@ -34,27 +32,57 @@ Puoi anche [modificare l&#39;intervallo di date, configurare la visualizzazione 
 
 ### Scheda [!UICONTROL Home]
 
-La scheda [!UICONTROL Home] fornisce metriche chiave relative a standard, prestazioni e visualizzabilità per tutte le campagne dell&#39;inserzionista<!-- active only? -->. Per impostazione predefinita, vengono visualizzati i dati tra campagne. Facoltativamente, puoi configurare i filtri per mostrare i dati di un altro inserzionista o dati solo per campagne<!-- active only? -->, pacchetti<!-- active only? -->, obiettivi personalizzati e posizionamenti<!-- active only? --> specifici. Gli approfondimenti includono:
+La scheda [!UICONTROL Home] fornisce metriche chiave relative a standard, prestazioni e visualizzabilità per tutte le campagne dell&#39;inserzionista. Per impostazione predefinita, vengono visualizzati i dati di posizionamento incrociato per un inserzionista specifico e un obiettivo personalizzato. Facoltativamente, puoi configurare i filtri per mostrare i dati per un inserzionista diverso, un obiettivo personalizzato diverso o un posizionamento specifico. <!-- I don't see campaigns or packages anymore:  You can optionally configure filters to show data for a different advertiser or data for only specific campaigns, packages, custom goals, and placements. --> Le informazioni includono:
 
-* Un grafico delle tendenze per tre metriche specificate dal cliente (per impostazione predefinita, [!UICONTROL Net Spend], [!UICONTROL Impressions] e [!UICONTROL Net CPM]).
+* **[!UICONTROL Trends]:** Grafico di tendenza per tre metriche specificate dal cliente (per impostazione predefinita, [!UICONTROL Net Spend], [!UICONTROL Impressions] e [!UICONTROL Net CPM]).
 
-* Una suddivisione dei dati per metriche specifiche per tre dimensioni specificate dal cliente, ad esempio per campagna, editore e tipo di file multimediale. Per ogni suddivisione dimensionale, puoi scegliere una metrica diversa.
+* **[!UICONTROL Delivery Breakdown]:** Suddivisione dei dati per metriche specifiche per tre dimensioni specificate dal cliente, ad esempio per campagna, editore e tipo di file multimediale. Per ogni suddivisione dimensionale, puoi scegliere una metrica diversa.
 
 ### Scheda [!UICONTROL Household Reach]
 
-La scheda [!UICONTROL Household Reach] fornisce le metriche di portata domestica in tutte le campagne dell&#39;inserzionista<!-- active only? -->. Per impostazione predefinita, vengono visualizzati i dati tra campagne. Facoltativamente, puoi configurare i filtri per mostrare i dati di un altro inserzionista o dati solo per campagne specifiche<!-- active only? -->. Gli approfondimenti includono:
+La scheda [!UICONTROL Household Reach] fornisce le metriche di portata domestica per tutte le campagne dell&#39;inserzionista. Per impostazione predefinita, vengono visualizzati i dati tra campagne. Facoltativamente, puoi configurare i filtri per mostrare i dati per un inserzionista diverso, per una campagna specifica, tra pacchetti o posizionamenti oppure per un pacchetto o posizionamento specifico. Gli approfondimenti includono:
 
-* Grafico di tendenza per giorno o per settimana per tre metriche specificate dal cliente (per impostazione predefinita, [!UICONTROL Net Spend], [!UICONTROL Unique Reach] e [!UICONTROL Net CPM]).
+* **[!UICONTROL Trends]:** Grafico di tendenza per giorno o per settimana per tre metriche specificate dal cliente (per impostazione predefinita, [!UICONTROL Net Spend], [!UICONTROL Unique Reach] e [!UICONTROL Net CPM]).
 
-* Un grafico ad anello che mostra la portata incrementale della famiglia di [!UICONTROL Media Type], [!UICONTROL Device Type] o [!UICONTROL Inventory Type]. *La portata domestica incrementale* è definita come una famiglia raggiunta esclusivamente tramite un singolo supporto, dispositivo o tipo di inventario.
+* **[!UICONTROL Incremental Household Reach]:** Un grafico ad anello che mostra la portata domestica incrementale di [!UICONTROL Media Type], [!UICONTROL Device Type] o [!UICONTROL Inventory Type]. *La portata domestica incrementale* è definita come una famiglia raggiunta esclusivamente tramite un singolo supporto, dispositivo o tipo di inventario.
 
-* Raggiungimento della famiglia univoca incrementale rispetto alla sovrapposizione di [!UICONTROL Media Type], [!UICONTROL Device Type] o [!UICONTROL Inventory Type].
+* **[!UICONTROL Reach Breakdown]:** La portata domestica univoca incrementale rispetto alla portata domestica sovrapposta di [!UICONTROL Media Type], [!UICONTROL Device Type] o [!UICONTROL Inventory Type].
 
   *La portata domestica incrementale* è definita come una famiglia raggiunta esclusivamente tramite un singolo supporto, dispositivo o tipo di inventario. *La copertura domestica sovrapposta* è definita come una famiglia raggiunta da più tipi di media, dispositivi o inventario.
 
-* Campagne, posizionamenti, pacchetti, editori, siti/app, tipi di file multimediali, tipi di inventario o tipi di dispositivi dalle prestazioni migliori di [!UICONTROL Unique Reach], [!UICONTROL Net Spend] e [!UICONTROL Cost per Reach].
+* **[!UICONTROL Top Performers]:** Le campagne, i posizionamenti, i pacchetti, gli editori, i siti/app, i tipi di file multimediali, i tipi di inventario o i tipi di dispositivi dalle prestazioni migliori di [!UICONTROL Unique Reach], [!UICONTROL Net Spend] e [!UICONTROL Cost per Reach].
 
-* [!UICONTROL Cost per Reach] e [!UICONTROL Net Spend] per pacchetto, editore o sito/app. Usa questo insight per vedere quali pacchetti, publisher o siti/app hanno il potenziale per raggiungere incrementi significativi.
+* **[!UICONTROL Performance Analysis]:** [!UICONTROL Cost per Reach] e [!UICONTROL Net Spend] per pacchetto, editore o sito/app. Usa questo insight per vedere quali pacchetti, publisher o siti/app hanno il potenziale per raggiungere incrementi significativi.
+
+  Le dimensioni di ciascuna bolla indicano il punteggio di portata incrementale, con bolle più grandi che indicano una portata incrementale media più elevata. Per visualizzare il nome completo dell’entità e le metriche chiave di qualsiasi bolla, tieni il cursore sopra la bolla.
+
+  I livelli di impatto comprendono:
+
+   * **Impatto elevato:** Prendere in considerazione l&#39;aumento del budget.
+   * **Impatto moderato**
+   * **Impatto limitato:** richiede attenzione
+
+### Scheda [!UICONTROL Household Conversion]
+
+La scheda [!UICONTROL Household Conversion] fornisce le metriche di conversione domestica in tutte le campagne dell&#39;inserzionista<!-- active only? -->. Per impostazione predefinita, vengono visualizzati i dati tra campagne per un inserzionista specifico e una metrica di conversione specifica. Facoltativamente, puoi configurare i filtri per mostrare i dati per un inserzionista o una metrica di conversione diversi, per una campagna specifica, tra pacchetti o posizionamenti oppure per un pacchetto o posizionamento specifico. Gli approfondimenti includono:
+
+* **[!UICONTROL Trends]:** Grafico di tendenza per giorno o per settimana per tre metriche specificate dal cliente (per impostazione predefinita, [!UICONTROL Net Spend], [!UICONTROL Conversions] e [!UICONTROL Net CPM]).
+
+* **[!UICONTROL Conversion Participation Overview]:** Un grafico a barre che mostra quali tipi di supporti, tipi di inventario e tipi di dispositivi generano la maggior parte delle conversioni domestiche.
+
+  Le impression consegnate entro il periodo di lookback (30 giorni) sono considerate valide per la partecipazione alla conversione.
+
+* **[!UICONTROL Top Performers]:** Tabella delle campagne, dei pacchetti, dei posizionamenti, degli editori, dei siti/app, dei tipi di file multimediali e dei tipi di inventario che determinano le prestazioni per tre metriche specificate dal cliente (per impostazione predefinita, [!UICONTROL Net Spend], [!UICONTROL CPA] e [!UICONTROL Conversions]). L&#39;esecutore principale viene elencato per primo.
+
+* **[!UICONTROL Performance Analysis]:** [!UICONTROL CPA] e [!UICONTROL Net Spend] per pacchetto, editore o sito/app. Usa questo insight per vedere quali pacchetti, publisher o siti/app hanno il potenziale per raggiungere incrementi significativi.
+
+  Le dimensioni di ciascuna bolla indicano il punteggio di portata incrementale, con bolle più grandi che indicano una portata incrementale media più elevata. Per visualizzare il nome completo dell’entità e le metriche chiave di qualsiasi bolla, tieni il cursore sopra la bolla.
+
+  I livelli di impatto comprendono:
+
+   * **Impatto elevato:** Prendere in considerazione l&#39;aumento del budget.
+   * **Impatto moderato**
+   * **Impatto limitato:** richiede attenzione
 
 ## Apri Performance Insights
 
