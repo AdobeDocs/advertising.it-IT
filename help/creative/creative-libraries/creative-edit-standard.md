@@ -3,16 +3,14 @@ title: Modificare i contenuti originali standard in una libreria creativa
 description: Scopri come modificare le impostazioni delle creatività standard (non dinamiche) in una libreria creativa.
 feature: Creative Standard Creatives
 exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
 
 # Modificare i contenuti originali standard in una libreria creativa
-
-*Versione beta chiusa*
 
 Puoi modificare alcune impostazioni per ogni tipo di creatività standard. È possibile modificare più creativi<!-- or creative variations --> dello stesso tipo creativo (HTML5 semplice con una sola pagina di destinazione, HTML5 statico con più pagine di destinazione, HTML5 flessibile, immagine o terze parti<!-- , or dynamic -->) solo.
 

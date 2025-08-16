@@ -3,9 +3,9 @@ title: Aggiungere un nodo di destinazione al livello finale in un’esperienza
 description: Scopri come aggiungere un nodo di destinazione al livello di destinazione finale di un’esperienza di annuncio.
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: f71747a4973ec3f3e2c3a8a5913d27311849883c
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '824'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Aggiungere un nodo di destinazione al livello finale in un’esperienza
 
 *Esperienze con targeting solo per la struttura decisionale*
-*Versione beta chiusa*
 
 Quando aggiungi un nodo di destinazione al livello più basso dell’esperienza, che si tratti del nodo principale &quot;All&quot;, di un nodo specifico di destinazione o di un nodo &quot;Everything Else&quot;, definisci direttamente la destinazione e non devi creare un nodo di pari livello. L’aggiunta di un nodo di livello inferiore crea il nodo di destinazione e un nodo aggiuntivo &quot;Tutto il resto&quot; allo stesso livello.
 

@@ -3,9 +3,9 @@ title: Personalizzare gli URL di tracciamento per un’esperienza
 description: Scopri come personalizzare gli URL di tracciamento per ogni creativo in un’esperienza con targeting della struttura decisionale.
 feature: Creative Experiences
 exl-id: ba3b15b4-116e-4caa-8ce1-4d2e488a6362
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Personalizzare gli URL di tracciamento dei creativi in un’esperienza con il targeting della struttura decisionale
 
 *Solo nodi di destinazione con creatività esistente*
-*Versione beta chiusa*
 
 Per le esperienze con targeting basato su struttura decisionale, puoi creare fino a cinque URL personalizzati di tracciamento delle impression, cinque URL personalizzati di tracciamento dei clic e un URL personalizzato per pagina di destinazione per ogni singolo contenuto creativo utilizzato per l’esperienza. Puoi personalizzare gli URL di tracciamento dall’interno della struttura decisionale.
 

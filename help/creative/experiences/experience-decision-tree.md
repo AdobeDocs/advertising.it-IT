@@ -3,16 +3,14 @@ title: Layout dell’albero delle decisioni
 description: Scopri il layout della struttura decisionale per le esperienze con targeting.
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
 
 # Layout dell&#39;albero delle decisioni per [!DNL Creative] esperienze
-
-*Versione beta chiusa*
 
 Quando abiliti l&#39;opzione &quot;[!UICONTROL Targeting]&quot; per un&#39;esperienza, configurala utilizzando una struttura decisionale.
 
@@ -26,7 +24,7 @@ Inizialmente, ogni albero decisionale inizia con il livello principale, &quot;Al
 >[!NOTE]
 >
 >You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.<!-- Explain the diff and why to choose the other option. -->
->-->
+-->
 
 ## Termini
 

@@ -3,9 +3,9 @@ title: Aggiungere un nodo di destinazione di pari livello tra i nodi di un’esp
 description: Scopri come aggiungere un nodo di pari livello a qualsiasi nodo che ha una destinazione o si trova allo stesso livello di un nodo con una destinazione.
 feature: Creative Experiences
 exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
-source-git-commit: f71747a4973ec3f3e2c3a8a5913d27311849883c
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '755'
 ht-degree: 0%
 
 ---
@@ -13,15 +13,12 @@ ht-degree: 0%
 # Aggiungere un nodo di destinazione di pari livello tra i nodi di un’esperienza
 
 *Esperienze con targeting solo per la struttura decisionale*
-*Versione beta chiusa*
 
 È possibile aggiungere un nodo di pari livello a qualsiasi nodo che ha una destinazione o si trova allo stesso livello di un nodo con una destinazione.
 
 <!-- 1. Open the decision tree:
 
-
 In a new experience
-
 
 In an existing experience,
  -->

@@ -3,16 +3,14 @@ title: Esportare e implementare un tag di esperienza annuncio per un’esperienz
 description: Scopri come esportare un tag esperienza annuncio e, facoltativamente, caricarlo in una campagna Advertising DSP.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: 1ce04f4bfa0707d9bcc1f6601dadbdab682ad95d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
 
 # Esportare e implementare un tag di esperienza annuncio per un’esperienza live
-
-*Versione beta chiusa*
 
 Quando un tag annuncio per una dimensione creativa o una durata video specifica è disponibile per un&#39;esperienza [live](experience-about.md#experience-statuses), puoi generare e copiare il tag in formati JavaScript, iframe e video per l&#39;implementazione su Advertising DSP o altre DSP. I tag per DSP includono tutte le macro necessarie per DSP.
 
@@ -33,7 +31,7 @@ Gli inserzionisti con Advertising DSP possono facoltativamente caricare tag dire
 
    * Nella visualizzazione per tabella, posizionare il cursore sulla riga, fare clic su **[!UICONTROL More]** e quindi su **[!UICONTROL Tag Manager]**.
 
-1. Posizionare il cursore sulla riga relativa al tag annuncio applicabile e fare clic su ![Esporta tag annuncio](/help/creative/assets/export.png "Esporta tag annuncio") **[!UICONTROL Export ad tags]** o **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**.
+1. Posizionare il cursore sulla riga relativa al tag annuncio applicabile e fare clic su ![Esporta tag annuncio](/help/creative/assets/export.png "Esporta tag annuncio") **[!UICONTROL Export ad tags]** o **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**.
 
 >[!NOTE]
 >
@@ -51,9 +49,9 @@ Gli inserzionisti con Advertising DSP possono facoltativamente caricare tag dire
 
 1. Seleziona il tipo di tag:
 
-   * (Esperienze non video) **&#x200B; *JavaScript* &#x200B;** o **&#x200B; *Iframe* &#x200B;**.
+   * (Esperienze non video) ** *JavaScript* ** o ** *Iframe* **.
 
-   * (Esperienze video) **&#x200B; *Video* &#x200B;**.
+   * (Esperienze video) ** *Video* **.
 
 1. Nell&#39;elenco [!UICONTROL Destinations], seleziona la posizione in cui creare gli annunci per l&#39;esperienza.
 

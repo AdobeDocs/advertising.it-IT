@@ -3,9 +3,9 @@ title: Creare manualmente un tag annuncio per una dimensione creativa applicabil
 description: Scopri come creare un tag annuncio per una dimensione creativa specifica.
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: e79becc860143b749ec96134e7b224649686c672
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # (Esperienze senza targeting) Crea manualmente un tag annuncio per una dimensione creativa applicabile
 
 *Esperienze senza solo targeting della struttura decisionale*
-*Versione beta chiusa*
 
 Puoi creare uno o più tag annuncio per lingua per ogni dimensione creativa (creativi non video) o durata video utilizzata per un’esperienza. In seguito [puoi assegnare i creativi al tag annuncio](experience-tag-assign-creatives.md).
 

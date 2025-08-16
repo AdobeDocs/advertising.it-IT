@@ -3,16 +3,14 @@ title: Informazioni sulle esperienze in Advertising Creative
 description: Scopri come configurare esperienze pubblicitarie personalizzate e ottimizzare gli elementi pubblicitari in base alle prestazioni.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
 
 # Informazioni sulle esperienze in Advertising Creative 2.0
-
-*Versione beta chiusa*
 
 Ogni esperienza pubblicitaria può includere un tipo di annuncio (visualizzazione standard, video standard o dinamica). [!DNL Advertising Creative 2.0] fornisce due diverse strutture di esperienza per gli annunci in un&#39;unica libreria creativa.
 

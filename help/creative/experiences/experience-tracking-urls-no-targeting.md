@@ -3,16 +3,14 @@ title: Personalizzare gli URL di tracciamento per un’esperienza senza targetin
 description: Scopri come personalizzare gli URL di tracciamento per ogni creativo in un’esperienza senza il targeting della struttura decisionale.
 feature: Creative Experiences
 exl-id: 03a10285-c0df-4bc3-92c7-c1c2ea3f8129
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
 # Personalizzare gli URL di tracciamento per un’esperienza senza il targeting della struttura decisionale
-
-*Versione beta chiusa*
 
 Per le esperienze senza il targeting della struttura decisionale, puoi creare fino a cinque URL personalizzati di tracciamento delle impression, cinque URL personalizzati di tracciamento dei clic e un URL personalizzato per pagina di destinazione per ogni singolo contenuto creativo utilizzato per il tag esperienza dell’annuncio. È possibile personalizzare gli URL di tracciamento da [!UICONTROL Tag Manager].
 

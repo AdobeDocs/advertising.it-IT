@@ -3,9 +3,9 @@ title: Personalizzare l’ottimizzazione creativa e la pianificazione di un’es
 description: Scopri come
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: 7fee6e0f6e8ad6dbf0329d707af7303ac7229dc9
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Personalizza l’ottimizzazione creativa e la pianificazione per un’esperienza con il targeting della struttura decisionale
 
 *Solo nodi di destinazione con creatività esistente*
-*Versione beta chiusa*
 
 Per impostazione predefinita, la rotazione creativa di un’esperienza viene determinata algoritmicamente per ottimizzare il tasso di click-through complessivo e le impostazioni di ottimizzazione creativa si applicano a tutti i bundle assegnati. Puoi personalizzare la rotazione creativa per eseguire manualmente i contenuti in ciascun bundle in base al peso relativo o per ottimizzare in modo algoritmico per un obiettivo personalizzato Advertising DSP specifico. Puoi anche pianificare l’esecuzione di specifici bundle creativi durante specifici periodi di tempo sequenziali e applicare impostazioni personalizzate di rotazione creativa per ogni pianificazione.
 

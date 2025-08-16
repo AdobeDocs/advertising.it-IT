@@ -2,9 +2,10 @@
 title: Clonare un’esperienza
 description: Scopri come creare un’esperienza clonando un’esperienza esistente.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 8c305732-f2ff-4a9d-80ad-e9e0f6484ba2
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -12,8 +13,6 @@ ht-degree: 0%
 # Clonare un’esperienza
 
 <!-- "Duplicate" like for creatives and bundles? If we change this, change text throughout -->
-
-*Versione beta chiusa*
 
 Crea un’esperienza clonando un’esperienza esistente. La nuova esperienza è denominata `<original name> (copy) # 1` (o il numero successivo nella sequenza). Ad esempio, se crei due cloni di &quot;Esperienza di test&quot;, i cloni sono denominati &quot;Esperienza di test (copia) # 1&quot; e &quot;Esperienza di test (copia) # 2&quot;.
 

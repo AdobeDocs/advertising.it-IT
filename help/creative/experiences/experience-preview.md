@@ -3,16 +3,14 @@ title: Visualizzare l’anteprima di un’esperienza
 description: Scopri come visualizzare in anteprima i creativi in un’esperienza di annuncio.
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-source-git-commit: ae226015d1a8a3da4ea2a0db0db31858e750b9a7
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
 
 # Visualizzare l’anteprima di un’esperienza
-
-*Versione beta chiusa*
 
 Puoi visualizzare in anteprima i creativi con una dimensione di annuncio specifica che verrà visualizzata dagli utenti target per un’esperienza, inclusi tutti i collegamenti ipertestuali. Per le esperienze con il targeting dell’albero decisionale, puoi visualizzare in anteprima un singolo creativo, i creativi di un particolare ramo (tipo di target) o tutti i creativi nell’esperienza. Per le esperienze senza targeting della struttura decisionale, puoi visualizzare in anteprima un singolo contenuto creativo. <!-- verify -->
 

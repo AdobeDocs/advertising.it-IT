@@ -3,9 +3,9 @@ title: Eliminare un nodo di destinazione o un nodo foglia creativo in un’esper
 description: Scopri come eliminare un nodo all’interno di un’esperienza.
 feature: Creative Experiences
 exl-id: a8973c9e-bd0a-4f62-8668-520495b2525d
-source-git-commit: a98f5dc623e8ac86878171f8742f3bf279343343
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Eliminare un nodo di destinazione o un nodo foglia creativo in un’esperienza
 
 *Esperienze con targeting solo per la struttura decisionale*
-*Versione beta chiusa*
 
 Puoi eliminare un nodo di destinazione, inclusi tutti gli oggetti secondari e i bundle creativi ad essi assegnati. Puoi anche eliminare un nodo foglia creativo.
 
