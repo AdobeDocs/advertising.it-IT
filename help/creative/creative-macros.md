@@ -55,4 +55,4 @@ Alcune delle macro disponibili o equivalenti vengono incluse automaticamente nei
 >* [Aggiungere creatività standard a una libreria creativa](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
 >* [Impostazioni creative standard](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
 >* [Impostazioni esperienza di destinazione](/help/creative/experiences/experience-settings-targeting.md)
->  >*[Impostazioni esperienza non mirate](/help/creative/experiences/experience-settings-no-targeting.md)
+>  &#x200B;>*[Impostazioni esperienza non mirate](/help/creative/experiences/experience-settings-no-targeting.md)
