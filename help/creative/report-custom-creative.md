@@ -3,7 +3,7 @@ title: '[!UICONTROL Custom Creative Report]'
 description: Scopri come generare la cross-experience [!UICONTROL Custom Creative Report].
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: 03d3f3c43bfe58f2dcab998e1d95f1e512f54b20
 workflow-type: tm+mt
 source-wordcount: '2019'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # [!UICONTROL Custom Creative Report]
 
-*Versione beta chiusa*
+*funzionalità Beta*
 
 [!UICONTROL Custom Creative Report] ti consente di personalizzare il contenuto e la distribuzione dei dati dei rapporti per tutte le esperienze pubblicitarie.
 
-Puoi generare i rapporti una volta o pianificarli su base giornaliera, settimanale o mensile alle 03:00 nel fuso orario specificato in base a criteri specifici, ad esempio ogni 15 giorni o il 1° di ogni mese. Una volta generato un report, puoi scaricarlo da [!UICONTROL Reports] > [!UICONTROL Custom Reports] o da [destinazioni report](/help/dsp/reports/report-destinations/report-destination-about.md) collegate dei seguenti tipi:
+Puoi generare i rapporti una volta o pianificarli su base giornaliera, settimanale o mensile alle ore 03:00 nel fuso orario specificato in base a criteri specifici, ad esempio ogni 15 giorni o il 1° di ogni mese. Una volta generato un report, puoi scaricarlo da [!UICONTROL Reports] > [!UICONTROL Custom Reports] o da [destinazioni report](/help/dsp/reports/report-destinations/report-destination-about.md) collegate dei seguenti tipi:
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
@@ -67,7 +67,7 @@ Questa sezione determina le date di esecuzione del rapporto. Per impostare le da
   >
   >È inoltre possibile [eseguire un report personalizzato in qualsiasi momento](/help/dsp/reports/report-run-now.md) dalla visualizzazione [!UICONTROL Reports].
 
-* *[!UICONTROL On]\&lt;Data\>:* Esegue il report in una data specificata per il completamento entro le 09:00 nel fuso orario dell&#39;account.
+* *[!UICONTROL On]\&lt;Data\>:* Esegue il report in una data specificata per il completamento da parte di 09:00 nel fuso orario dell&#39;account.
 
 * *[!UICONTROL Recurring]:* Esegue il report in base a una pianificazione durante un periodo di tempo specificato.
 
@@ -161,7 +161,7 @@ Vedere anche &quot;[Modalità di calcolo delle regole di attribuzione per Adobe 
 
 * *[!UICONTROL FTP]:* Per inviare il report completato a uno o più percorsi FTP, che è necessario selezionare nel campo **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (attualmente in Beta):* Per inviare il report completato a uno o più percorsi SSL FTP, che è necessario selezionare nel campo **[!UICONTROL Destination Name]**.
+* *[!UICONTROL FTP SSL](attualmente in Beta):* Per inviare il report completato a uno o più percorsi SSL FTP, che è necessario selezionare nel campo **[!UICONTROL Destination Name]**.
 
 * *[!UICONTROL Email]:* Specificare gli indirizzi e-mail a cui inviare i report completati o le notifiche se il report viene annullato a causa di errori.
 

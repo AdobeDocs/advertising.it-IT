@@ -3,16 +3,14 @@ title: Gestire i pixel di retargeting
 description: Scopri come creare e implementare pixel di retargeting da utilizzare come destinazioni per le esperienze pubblicitarie.
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: 1d0a1640eb2d19b8765150226e7185602bbfd495
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
 
 # Gestire i pixel di retargeting
-
-*Versione beta chiusa*
 
 <!-- Note to self: These aren't segments -- we don't create a pool of users. -->
 
@@ -111,7 +109,7 @@ Quando esegui il targeting di esperienze pubblicitarie per utenti esposti al pix
 
 Quando esegui il targeting di esperienze pubblicitarie per utenti esposti al pixel, le impostazioni di targeting specificano i valori di attributo che devono essere presenti per visualizzare i creativi.
 
-**[!UICONTROL Advanced]** > **[!UICONTROL Universal IDs]:** (funzionalità Beta; solo nuovi pixel; facoltativo) Tipi di ID universali per il tag pixel da tracciare:
+**[!UICONTROL Advanced]** > **[!UICONTROL Universal IDs]:** (solo nuovi pixel; facoltativo) Tipi di ID universali per il tag pixel da tracciare:
 
 * *[!UICONTROL ID5]:* Il tag pixel traccia [!DNL ID5] ID. Non viene applicata alcuna tariffa per le impression consegnate agli ID universali.
 
