@@ -2,10 +2,10 @@
 title: Calcolo delle regole di attribuzione
 description: Scopri come Adobe Advertising calcola ogni tipo di regola di attribuzione.
 exl-id: 15beeadd-bb65-4efe-8c4f-34c4a48cc775
-feature: Search Reports
-source-git-commit: b24673e05f95bac404301d71ad9c0d1d0593aafb
+feature: Search Reports, DSP Custom Reports
+source-git-commit: 513d81cf835ccbffa16581799f0dc8306681e3ad
 workflow-type: tm+mt
-source-wordcount: '2716'
+source-wordcount: '2711'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,19 @@ ht-degree: 0%
 
 La regola di attribuzione a livello di inserzionista viene utilizzata per attribuire i dati di conversione, potenzialmente tra più canali di annunci, in una serie di eventi che portano a una conversione.
 
-Nei rapporti, nelle viste predefinite e personalizzate per le simulazioni a livello di portfolio Advertising Search, Social e Commerce (Search, Social e Commerce) e (alcuni ruoli utente) per Search, Social e Commerce, la regola selezionata viene utilizzata solo per i dati di visualizzazione, report o simulazione. Le varie regole di attribuzione vengono applicate come segue.
+Puoi anche selezionare una regola di attribuzione nelle seguenti posizioni per applicarla solo ai dati risultanti:
+
+* DSP
+
+   * Rapporti personalizzati con attribuzione multi-touch
+
+* Ricerca, social e Commerce
+
+   * Rapporti personalizzati
+
+   * Visualizzazioni predefinite e personalizzate
+
+   * (Alcuni ruoli utente) Simulazioni a livello di Portfolio.
 
 >[!NOTE]
 >
@@ -37,7 +49,7 @@ Quando la conversione è preceduta solo dalle impression, viene considerata una 
 
 <!-- start examples as collapsible content -->
 
-+++Esempi di calcolo degli eventi
++++Esempi di calcoli di eventi
 
 ### Esempio con tutti i clic
 
@@ -79,7 +91,7 @@ Quando la conversione è preceduta solo dalle impression, viene considerata una 
 
 <!-- start examples as collapsible content -->
 
-+++Esempi di calcolo degli eventi
++++Esempi di calcoli di eventi
 
 ### Esempio con tutti i clic
 
@@ -128,7 +140,7 @@ Quando il percorso di conversione include sia clic che impression a pagamento, q
 
 <!-- start examples as collapsible content -->
 
-+++Esempi di calcolo degli eventi
++++Esempi di calcoli di eventi
 
 ### Esempio con tutti i clic
 
@@ -190,7 +202,7 @@ Quando il percorso di conversione include sia clic che impression a pagamento, q
 
 <!-- start examples as collapsible content -->
 
-+++Esempi di calcolo degli eventi
++++Esempi di calcoli di eventi
 
 ### Esempio con tutti i clic
 
@@ -250,7 +262,7 @@ Quando il percorso di conversione include sia clic che impression a pagamento, q
 
 <!-- start examples as collapsible content -->
 
-+++Esempi di calcolo degli eventi
++++Esempi di calcoli di eventi
 
 ### Esempio con tutti i clic
 
@@ -308,7 +320,7 @@ Quando il percorso di conversione include sia clic che impression a pagamento, q
 
 <!-- start examples as collapsible content -->
 
-+++Esempi di calcolo degli eventi
++++Esempi di calcoli di eventi
 
 ### Esempio con tutti i clic
 
