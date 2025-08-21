@@ -3,9 +3,9 @@ title: Modificare le impostazioni direttamente all'interno di una riga
 description: Scopri come modificare i dati nelle visualizzazioni di gestione all’interno della riga.
 exl-id: 0b22a2ec-50c2-457d-8cea-a40943ee2a41
 feature: Search Common Tasks
-source-git-commit: e83fe03e8887dc30a7e60313b17dbdce46e6362b
+source-git-commit: 533484b8e2e462891d7d34091991047b2d9b62c7
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -18,21 +18,14 @@ ht-degree: 0%
 
 ## (Nuova interfaccia) Modifica le impostazioni all’interno di una riga
 
-1. Fare clic all&#39;interno della cella per attivarla oppure posizionare il cursore sul valore e fare clic su ![Modifica](/help/search-social-commerce/assets/edit-new.png "Modifica").
+1. Fare clic all&#39;interno della cella per attivarla oppure tenere premuto il cursore sul valore.
 
-1. Modifica il valore.
+1. Modifica il valore:
 
-1. Fare clic su **Applica**.
+   * (Opzioni in un elenco) Selezionare una nuova opzione dall&#39;elenco.
 
-<!--
-1. Change the value:
+   * (Valori in formato libero) Fare clic su ![Modifica](/help/search-social-commerce/assets/edit-new.png "Modifica"), modificare il valore, quindi fare clic su **Applica**.
 
-   * (Options in a list) Select a new option from the list.
-   
-   * (Dates) Enter a new date, or click ![Calendar](/help/search-social-commerce/assets/calendar.png "Calendar") to open the calendar and [select a new date](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md).
-   
-   * (Free-form values) Enter a new value.
--->
 
 ## (Interfaccia precedente) Modifica le impostazioni all’interno di una riga
 
