@@ -3,9 +3,9 @@ title: Prerequisiti per l’integrazione di Adobe Advertising con Customer Journ
 description: Prerequisiti per l’integrazione di Adobe Advertising con Customer Journey Analytics
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 4bd14178-5003-4da6-9034-d070c57f0e9b
-source-git-commit: 3ddda4ed7b644e8c6bcb28547a98982769b08c2e
+source-git-commit: ba23ab97c916f829cf9d640669423dd8e72949c0
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,26 @@ Leggi le seguenti informazioni prima di integrare Adobe Advertising con Adobe Cu
 * Inserzionisti con [!DNL Analytics for Advertising] e Customer Journey Analytics:
 
    * Adobe Customer Journey Analytics<!-- any specific version? -->
+
    * [Tutti gli altri prerequisiti per [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md).
+
+* Inserzionisti con Customer Journey Analytics ma non [!DNL Analytics for Advertising]:
+
+   * Libreria Adobe Experience Platform Web SDK: `alloy.js`
+
+     [!DNL Org ID] utilizzato per Web SDK e per l&#39;account dell&#39;inserzionista Adobe Advertising deve essere lo stesso. Puoi trovare questo ID nella scheda [Riepilogo di Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html).
+
+     ![Schermata Riepilogo di Experience Cloud Debugger](/help/integrations/assets/a4adc-debugger-summary.png)
+
+     Per creare uno stream di dati Experience Platform e uno schema XDM è necessario l’assistenza dell’amministratore del sito Experience Platform.
+
+   * Adobe Customer Journey Analytics<!-- any specific version? -->
+
+     Per impostare una connessione al set di dati e configurare la generazione rapporti è necessario il supporto dell’analista web interno.
+
+>[!TIP]
+>
+>Per migliorare la fedeltà dei dati, utilizza la versione più recente di ciascuna libreria.
 
 >[!MORELIKETHIS]
 >
