@@ -28,7 +28,7 @@ Leggi le seguenti informazioni prima di integrare Adobe Advertising con Adobe Cu
 
    * Libreria Adobe Experience Platform Web SDK: `alloy.js`
 
-     [!DNL Org ID] utilizzato per Web SDK e per l&#39;account dell&#39;inserzionista Adobe Advertising deve essere lo stesso. Puoi trovare questo ID nella scheda [Riepilogo di Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html).
+     [!DNL Org ID] utilizzato per Web SDK e per l&#39;account dell&#39;inserzionista Adobe Advertising deve essere lo stesso. Puoi trovare questo ID nella scheda [Riepilogo di Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=it).
 
      ![Schermata Riepilogo di Experience Cloud Debugger](/help/integrations/assets/a4adc-debugger-summary.png)
 
