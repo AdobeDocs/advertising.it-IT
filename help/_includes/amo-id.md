@@ -9,7 +9,7 @@ ht-degree: 0%
 
 AMO ID tiene traccia di ogni combinazione di annunci univoca a un livello meno granulare e viene utilizzato per la classificazione dei dati di [!DNL Analytics] e Customer Journey Analytics e l’acquisizione di metriche pubblicitarie (ad esempio impression, clic e costi) da Adobe Advertising.
 
-Per [!DNL Analytics], l&#39;AMO ID è archiviato in una dimensione [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) o rVar (AMO ID).
+Per [!DNL Analytics], l&#39;AMO ID è archiviato in una dimensione [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=it) o rVar (AMO ID).
 
 Per Customer Journey Analytics, l’AMO ID è archiviato nella proprietà `trackingCode` dell’oggetto `conversionDetails`, che fa parte di [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension].
 
