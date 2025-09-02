@@ -3,40 +3,26 @@ title: Prerequisiti per l’integrazione di Adobe Advertising con Customer Journ
 description: Prerequisiti per l’integrazione di Adobe Advertising con Customer Journey Analytics
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 4bd14178-5003-4da6-9034-d070c57f0e9b
-source-git-commit: 9e89f91f31c756e21db3f5b2b7c87991166e4859
+source-git-commit: 277b2ccb4d1daad7b5f94a94b283226881c90ab4
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
 
 # Prerequisiti per l’integrazione di Adobe Advertising con Customer Journey Analytics
 
+*funzionalità Beta*
+
 *Inserzionisti con Advertising DSP e[!DNL Advertising Search, Social, & Commerce]*
 
-* Inserzionisti con [!DNL Analytics for Advertising] e Customer Journey Analytics:
+* tecnologie di gestione e modellazione dati di Adobe Experience Platform (inclusi [schemi](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) e [set di dati](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)) e [tecnologie di raccolta dati](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home) (inclusi [flussi di dati](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview) e [tag](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home))
 
-   * Adobe Customer Journey Analytics<!-- any specific version? -->
+  Queste tecnologie richiedono il supporto dell’amministratore del sito Experience Platform.
 
-   * [Tutti gli altri prerequisiti per [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md).
+* Adobe Customer Journey Analytics con accesso agli strumenti di gestione dei dati
 
-* (funzionalità Beta) Inserzionisti con Customer Journey Analytics ma non [!DNL Analytics for Advertising]:
-
-   * Libreria Adobe Experience Platform Web SDK: `alloy.js`
-
-     [!DNL Org ID] utilizzato per Web SDK e per l&#39;account dell&#39;inserzionista Adobe Advertising deve essere lo stesso. Puoi trovare questo ID nella scheda [Riepilogo di Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=it).
-
-     ![Schermata Riepilogo di Experience Cloud Debugger](/help/integrations/assets/a4adc-debugger-summary.png)
-
-     Per creare uno stream di dati Experience Platform e uno schema XDM è necessario l’assistenza dell’amministratore del sito Experience Platform.
-
-   * Adobe Customer Journey Analytics<!-- any specific version? -->
-
-     Per impostare una connessione al set di dati e configurare la generazione rapporti è necessario il supporto dell’analista web interno.
-
->[!TIP]
->
->Per migliorare la fedeltà dei dati, utilizza la versione più recente di ciascuna libreria.
+  Per impostare una connessione al set di dati e configurare la generazione rapporti è necessario il supporto dell’analista web interno.
 
 >[!MORELIKETHIS]
 >
