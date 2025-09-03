@@ -3,7 +3,7 @@ title: Visualizzare l’anteprima di un’esperienza
 description: Scopri come visualizzare in anteprima i creativi in un’esperienza di annuncio.
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 0%
@@ -20,9 +20,9 @@ Puoi visualizzare in anteprima i creativi con una dimensione di annuncio specifi
 
    * Per la rotazione degli annunci algoritmici, il contenuto creativo viene selezionato in base all’obiettivo di ottimizzazione.
 
-   * Per la rotazione ponderata degli annunci, il contenuto creativo viene selezionato ogni volta in base ai pesi specificati (ad esempio, una probabilità dell’80% che venga visualizzato Creative A e del 20% che venga visualizzato Creative B).
+   * Per la rotazione pianificata degli annunci, viene visualizzata la prima creatività della pianificazione. Puoi continuare ad aggiornare l’anteprima per continuare attraverso la sequenza.
 
-   * Per la rotazione pianificata degli annunci, viene visualizzata la prima creatività della pianificazione. È possibile continuare ad aggiornare l&#39;anteprima per continuare la sequenza.<!-- Refresh isn't there as of 2/3 -->
+   * Per la rotazione ponderata degli annunci, il contenuto creativo viene selezionato ogni volta in base ai pesi specificati (ad esempio, una probabilità dell’80% che venga visualizzato Creative A e del 20% che venga visualizzato Creative B).
 
 ## Visualizzare in anteprima i creativi in un’esperienza con il targeting dell’albero decisionale
 
