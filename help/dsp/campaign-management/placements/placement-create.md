@@ -147,4 +147,4 @@ ht-degree: 0%
 >* [Domande frequenti sul video universale](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Scelte rapide da tastiera](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Risoluzione dei problemi relativi alle prestazioni](/help/dsp/optimization/troubleshooting-performance.md)
->* [Video: come creare un posizionamento display standard](https://video.tv.adobe.com/v/340454)
+>* [Video: come creare un posizionamento display standard](https://video.tv.adobe.com/v/345000?captions=ita)
