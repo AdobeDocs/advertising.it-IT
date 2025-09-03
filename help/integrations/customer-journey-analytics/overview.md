@@ -3,9 +3,9 @@ title: Panoramica dell’integrazione tra Adobe Advertising e Adobe Customer Jou
 description: Scopri le opzioni di integrazione di Adobe Advertising con Adobe Customer Journey Analytics.
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 57636259-f91a-404f-b972-994af67098b1
-source-git-commit: 14f2bd22c44237a817443d48e798457e6c78312e
+source-git-commit: fabe7312fc4d1ab899bedcf9eae1c8040a4a6532
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Adobe Advertising è integrato con Adobe Customer Journey Analytics per la condi
   In this use case, you don't need to perform any extra steps except to optionally [collect historical data for AMO IDs and EF IDs for use in Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
 -->
 
-* (Prossima funzionalità beta) Gli inserzionisti con Customer Journey Analytics ma non con [!DNL Analytics for Advertising] possono scambiare dati in modo nativo tra Adobe Advertising e Customer Journey Analytics utilizzando [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it). È possibile tenere traccia degli eventi del sito utilizzando cookie, IP con hash, ID universali ([!DNL LiveRamp RampIDs] e ID5 ID) e attribuire eventi del sito all&#39;attività multimediale a pagamento. I seguenti dati sono disponibili a livello di campagna, gruppo di annunci, pacchetto, posizionamento e parola chiave:
+* (Prossima funzionalità beta) Gli inserzionisti con Customer Journey Analytics ma non con [!DNL Analytics for Advertising] possono scambiare dati in modo nativo tra Adobe Advertising e Customer Journey Analytics utilizzando [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html). È possibile tenere traccia degli eventi del sito utilizzando cookie, IP con hash, ID universali ([!DNL LiveRamp RampIDs] e ID5 ID) e attribuire eventi del sito all&#39;attività multimediale a pagamento. I seguenti dati sono disponibili a livello di campagna, gruppo di annunci, pacchetto, posizionamento e parola chiave:
 
    * Dati sulle prestazioni della campagna da Adobe Advertising in Customer Journey Analytics
 
@@ -54,5 +54,6 @@ Contatta il team del tuo account Adobe, che completerà la configurazione inizia
 >
 >* [Prerequisiti](prerequisites.md)
 >* [ID Adobe Advertising utilizzati da [!DNL Customer Journey Analytics]](ids.md)
+>* [Imposta raccolta dati, trasferimento dati e reporting](set-up.md)
 >* [Metriche e dimensioni di Adobe Advertising in Customer Journey Analytics](advertising-data-in-cja.md)
 >* (Utenti Adobe Analytics) [Raccogli i dati storici per gli AMO ID e gli EF ID da utilizzare in Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
