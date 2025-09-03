@@ -3,9 +3,9 @@ title: Modificare un pubblico riutilizzabile
 description: Scopri come modificare un pubblico riutilizzabile.
 feature: DSP Audiences
 exl-id: 4de6b9a4-2907-474d-92bf-83686a1f0b31
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 0%
 # Modificare un pubblico riutilizzabile
 
 Quando si modifica un pubblico utilizzato in qualsiasi posizionamento o altro pubblico riutilizzabile, le modifiche vengono immediatamente applicate a tali posizionamenti e tipi di pubblico.<!-- verify -->
+
+>[!NOTE]
+>
+>(Per gli inserzionisti per i quali DSP converte gli ID e-mail con hash in segmenti RampID LiveRamp) I segmenti RampID di prime parti non collegati a un posizionamento attivo, pianificato o in pausa vengono messi in pausa. Nell’elenco dei segmenti, il segmento viene indicato come &quot;In pausa automatica&quot;.
 
 1. Nel menu principale, fare clic su **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 

@@ -3,9 +3,9 @@ title: Creare un posizionamento
 description: Scopri come creare un posizionamento.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 9b3d6893e004b16714bf50f1334424d50fac7c91
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '703'
 ht-degree: 0%
 
 ---
@@ -52,11 +52,13 @@ ht-degree: 0%
 
       1. Restringi il pubblico. Ciò include la selezione dei segmenti di pubblico di destinazione all’interno del posizionamento.
 
-         Per i posizionamenti [!DNL Roku], puoi sfruttare la corrispondenza del pubblico univoco di [DSP con [!DNL Roku]](/help/dsp/inventory/roku-inventory.md) includendo uno o più segmenti di pubblico che possono essere associati al set di dati deterministico di [!DNL Roku] (consenso).
+         Per i posizionamenti [!DNL Roku], puoi sfruttare la corrispondenza del pubblico univoco di [DSP con [!DNL Roku]](/help/dsp/inventory/roku-inventory.md) includendo uno o più segmenti di pubblico che possono essere associati al set di dati deterministico [!DNL Roku] (consenso).
+
+         I segmenti RampID di prime parti che non sono collegati a un posizionamento attivo, pianificato o in pausa vengono messi in pausa. Nell’elenco dei segmenti, il segmento viene indicato come &quot;In pausa automatica&quot;.
 
       1. (Per campagne con targeting multi-dispositivo a livello di persone; facoltativo) Quando il posizionamento esegue il targeting per uno o più tipi di pubblico specifici, abilita il targeting cross-device basato sulle persone per il posizionamento.
 
-         Il targeting multi-dispositivo basato su persone viene fornito da [!DNL LiveRamp] utilizzando solo dati statunitensi. Il servizio è disponibile per tutti gli inserzionisti a $ 0,35 CPM per le impression distribuite utilizzando il grafico dei dispositivi [!DNL LiveRamp] (ovvero, per i dispositivi non trovati nei segmenti di pubblico di destinazione).
+         Il targeting multi-dispositivo basato su persone viene fornito da [!DNL LiveRamp] utilizzando solo dati statunitensi. Il servizio è disponibile per tutti gli inserzionisti al prezzo di $0,35 CPM per le impression distribuite utilizzando il grafico dei dispositivi [!DNL LiveRamp] (ovvero, per i dispositivi non trovati nei segmenti di pubblico di destinazione).
 
    1. (Facoltativo) Nella sezione [!DNL Brand Safety and Media Targeting], applica le restrizioni di sicurezza del brand per i posizionamenti.
 
@@ -145,4 +147,4 @@ ht-degree: 0%
 >* [Domande frequenti sul video universale](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Scelte rapide da tastiera](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Risoluzione dei problemi relativi alle prestazioni](/help/dsp/optimization/troubleshooting-performance.md)
->* [Video: come creare un posizionamento display standard](https://video.tv.adobe.com/v/345000?captions=ita)
+>* [Video: come creare un posizionamento display standard](https://video.tv.adobe.com/v/340454)

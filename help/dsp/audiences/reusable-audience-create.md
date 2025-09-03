@@ -3,9 +3,9 @@ title: Creare un pubblico riutilizzabile
 description: Scopri come creare un pubblico riutilizzabile costituito da segmenti di pubblico e altri tipi di pubblico salvati.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
 
 Puoi salvare e gestire i tipi di pubblico riutilizzabili, ovvero gruppi di segmenti di pubblico e anche altri tipi di pubblico salvati, che puoi utilizzare come target o esclusioni per più posizionamenti.
+
+>[!NOTE]
+>
+>(Per gli inserzionisti per i quali DSP converte gli ID e-mail con hash in segmenti RampID LiveRamp) I segmenti RampID di prime parti non collegati a un posizionamento attivo, pianificato o in pausa vengono messi in pausa. Nell’elenco dei segmenti, il segmento viene indicato come &quot;In pausa automatica&quot;.
 
 1. Nel menu principale, fare clic su **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
 

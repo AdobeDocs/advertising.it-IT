@@ -3,9 +3,9 @@ title: Impostazioni pubblico
 description: Consulta le descrizioni delle impostazioni disponibili per il pubblico.
 feature: DSP Audiences
 exl-id: ea69ed6e-2d68-4ac5-8465-2ee7d798ae1d
-source-git-commit: 3a641db6b145e67e6e1f1daca271dd524973e075
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,15 @@ ht-degree: 0%
 
 ## Segmenti di terze parti
 
-(Facoltativo) Qualsiasi segmento standard disponibile tramite la tassonomia dei dati di terze parti Adobe Advertising da includere nella configurazione del pubblico.
+(Facoltativo) Qualsiasi segmento standard disponibile tramite la tassonomia dei dati di terze parti di Adobe Advertising da includere nella configurazione del pubblico.
 
 ## Segmenti di prime parti
 
 (Facoltativo) Qualsiasi segmento di prime parti importato e/o segmento personalizzato importato per l’account, da includere nella configurazione del pubblico.
+
+>[!NOTE]
+>
+>(Per gli inserzionisti per i quali DSP converte gli ID e-mail con hash in segmenti RampID LiveRamp) I segmenti RampID di prime parti che non sono collegati a un posizionamento attivo, pianificato o in pausa vengono ora messi in pausa. Nell’elenco dei segmenti, il segmento viene indicato come &quot;In pausa automatica&quot;.
 
 ## Segmenti Adobe
 
@@ -26,7 +30,7 @@ ht-degree: 0%
 
 ## Segmenti personalizzati
 
-(Facoltativo) Qualsiasi segmento creato dall’utente, che viene acquisito utilizzando pixel di segmento DSP personalizzati, da includere nella configurazione del pubblico. Possono essere inclusi i segmenti personalizzati standard e i segmenti di rifiuto del CCPA.
+(Facoltativo) Qualsiasi segmento creato dall&#39;utente, che viene acquisito utilizzando pixel di segmento DSP personalizzati, da includere nella configurazione del pubblico. Possono essere inclusi i segmenti personalizzati standard e i segmenti di rifiuto del CCPA.
 
 ## Tipi di pubblico salvati
 

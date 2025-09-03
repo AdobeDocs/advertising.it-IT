@@ -3,9 +3,9 @@ title: Impostazioni di posizionamento
 description: Consulta le descrizioni delle impostazioni di posizionamento disponibili.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 902eae60008934b910b536d764f3bf424a802c4b
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '4560'
+source-wordcount: '4586'
 ht-degree: 0%
 
 ---
@@ -332,6 +332,10 @@ Facoltativamente, puoi esportare l’elenco dei siti di destinazione e dei siti 
 * Per selezionare un pubblico esistente, fare clic su ![Seleziona](/help/dsp/assets/chevron-down.png) accanto a [!UICONTROL Included Audiences], quindi selezionare il pubblico.
 * Per creare un pubblico, fai clic su ![Seleziona](/help/dsp/assets/chevron-down.png) accanto a [!UICONTROL Included Audiences], quindi seleziona **[!UICONTROL + Create Audience]**. Per istruzioni, vedere [Creare un pubblico riutilizzabile](/help/dsp/audiences/reusable-audience-create.md), a partire dal passaggio 3.
 * Per selezionare segmenti di pubblico specifici, fare clic su **[!UICONTROL Select segments for this placement only]**. Selezionare la logica del segmento; per istruzioni, vedere il passaggio 6 in &quot;[Creare un pubblico riutilizzabile](/help/dsp/audiences/reusable-audience-create.md).&quot; Al termine, fai clic su **Salva**.
+
+>[!NOTE]
+>
+>I segmenti RampID di prime parti che non sono collegati a un posizionamento attivo, pianificato o in pausa vengono messi in pausa. Nell’elenco dei segmenti, il segmento viene indicato come &quot;In pausa automatica&quot;.
 
 **[!UICONTROL Excluded Audiences]:** Qualsiasi pubblico da escludere per il posizionamento, inclusi i tipi di pubblico con [segmenti di terze parti, segmenti di prime parti, segmenti di Adobe, segmenti personalizzati e tipi di pubblico salvati](/help/dsp/audiences/audience-settings.md). Viene visualizzata anche la dimensione totale e attiva del pubblico deduplicato in tutti i tipi di pubblico esclusi. Puoi selezionare un pubblico esistente o crearne uno nuovo da riutilizzare in un secondo momento:
 
