@@ -3,9 +3,9 @@ title: Informazioni sui report personalizzati
 description: Scopri le opzioni per la creazione manuale di rapporti personalizzati o l’utilizzo di modelli di rapporto preconfigurati.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: a1ece707f43af4a6a3fc5573e41c75622f9b502f
+source-git-commit: a3e6324edcf5a52f6338ce969034cd9c4b6fb487
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1560'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ I rapporti personalizzati ti consentono di personalizzare il contenuto e la cons
 
 * Scegli uno dei modelli di rapporto preconfigurati e, facoltativamente, personalizzali ulteriormente.
 
-Puoi generare i rapporti una volta o pianificarli su base giornaliera, settimanale o mensile alle 03:00 nel fuso orario specificato in base a criteri specifici, ad esempio ogni 15 giorni o il 1° di ogni mese. Una volta generato un report, puoi scaricarlo da [!UICONTROL Reports] > [!UICONTROL Custom Reports] o da [destinazioni report](/help/dsp/reports/report-destinations/report-destination-about.md) collegate dei seguenti tipi:
+Puoi generare i rapporti una volta o pianificarli su base giornaliera, settimanale o mensile alle ore 03:00 nel fuso orario specificato in base a criteri specifici, ad esempio ogni 15 giorni o il 1° di ogni mese. Una volta generato un report, puoi scaricarlo da [!UICONTROL Reports] > [!UICONTROL Custom Reports] o da [destinazioni report](/help/dsp/reports/report-destinations/report-destination-about.md) collegate dei seguenti tipi:
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
@@ -97,11 +97,13 @@ Puoi generare i rapporti una volta o pianificarli su base giornaliera, settimana
 
      Per un confronto tra questo report e i report creati da [!DNL Advanced Measurement Services] e Adobe Analytics, vedi &quot;[Domande frequenti sui report personalizzati](/help/dsp/reports/faq-reports.md).&quot;
 
-   * **[!UICONTROL Path Length]:** Utilizza questo report per      tieni traccia del numero di punti di interazione utente necessari per le conversioni nel tempo, in modo da poter scegliere la frequenza ottimale dell’annuncio. Il rapporto mostra il numero di conversioni per lunghezza del percorso (punti di interazione), ad esempio quante conversioni si sono verificate dopo che gli utenti avevano avuto una sola interazione con un annuncio, due interazioni con un annuncio e così via. Il rapporto può includere dati per più metriche di conversione e utilizza un periodo di lookback specifico tra la prima interazione e una conversione. Le colonne del report includono &quot;[!UICONTROL Path Length]&quot;, &quot;[!UICONTROL Number of] \&lt;Nome metrica di conversione 1\>,&quot; &quot;% \&lt;Nome metrica di conversione 1\>,&quot; \&lt;Nome metrica di conversione 2\>,&quot; &quot;% \&lt;Nome metrica di conversione 2\>&quot; e così via.
+   * **[!UICONTROL Path Length]:** Utilizzare questo report per tenere traccia del numero di punti di interazione utente necessari per le conversioni nel tempo in modo da poter scegliere la frequenza ottimale dell&#39;annuncio. Il rapporto mostra il numero di conversioni per lunghezza del percorso (punti di interazione), ad esempio quante conversioni si sono verificate dopo che gli utenti avevano avuto una sola interazione con un annuncio, due interazioni con un annuncio e così via. Il rapporto può includere dati per più metriche di conversione e utilizza un periodo di lookback specifico tra la prima interazione e una conversione. Le colonne del report includono &quot;[!UICONTROL Path Length]&quot;, &quot;[!UICONTROL Number of] \&lt;Nome metrica di conversione 1\>,&quot; &quot;% \&lt;Nome metrica di conversione 1\>,&quot; \&lt;Nome metrica di conversione 2\>,&quot; &quot;% \&lt;Nome metrica di conversione 2\>&quot; e così via.
 
      I dati vengono visualizzati per ogni lunghezza di percorso fino a 10; i dati per lunghezze di percorso superiori a 10 vengono raggruppati.
 
    * **[!UICONTROL Time to Conversion]:** Utilizza questo report per determinare l&#39;intervallo di lookback di attribuzione ottimale e per identificare le campagne con tempi di conversione più lunghi, che potrebbero trarre vantaggio dal retargeting. Il rapporto mostra il numero di conversioni per il periodo di tempo in giorni dall’ultima interazione (esposizione dell’annuncio o clic) alla conversione. Il rapporto può includere dati per più metriche di conversione e utilizza un periodo di lookback specifico tra la prima interazione e una conversione. Le colonne del report includono &quot;[!UICONTROL Time Taken (in days)]&quot;, &quot;[!UICONTROL Number of] \&lt;Nome metrica di conversione 1\>,&quot; &quot;% \&lt;Nome metrica di conversione 1\>,&quot; \&lt;Nome metrica di conversione 2\>,&quot; &quot;% \&lt;Nome metrica di conversione 2\>&quot; e così via. Le conversioni che richiedono più tempo del periodo di lookback sono raggruppate insieme in una riga (ad esempio, se il report utilizza un periodo di lookback di 30 giorni, tutte le conversioni che richiedono più di 30 giorni per essere eseguite vengono raggruppate insieme in una riga con un valore &quot;[!UICONTROL Time Taken (in days)]&quot; di &quot;30+&quot;).
+
+   * **[!UICONTROL Content BETA]:** Utilizza questo report per comprendere la distribuzione delle impression e altre metriche in base a dimensioni di contenuto specificate (come genere, qualità della produzione e valutazione dei contenuti) in modo da ottimizzare il targeting e garantire la sicurezza del brand. Oltre alle dimensioni di contenuto, il rapporto include la maggior parte delle dimensioni, delle metriche e dei filtri standard. I dati per dimensione contenuto sono disponibili per [!DNL Freewheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] e [!DNL Triplelift]. I segnali di contenuto vengono trasmessi dagli editori durante il flusso di lavoro e sono soggetti a disponibilità.
 
 ## Reporting tra account {#cross-account-reporting}
 
