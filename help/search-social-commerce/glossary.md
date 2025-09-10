@@ -3,9 +3,9 @@ title: Glossario
 description: Cfr. definizioni dei termini chiave.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 58fab7afdca3468bf2bcca0f3120b3863af6eae2
+source-git-commit: d1e2e92532b1f930420436c66c687676a2b7de6a
 workflow-type: tm+mt
-source-wordcount: '2303'
+source-wordcount: '2308'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **variante di annuncio:** qualsiasi annuncio all&#39;interno di un gruppo di annunci o di una strategia di annunci.
 
-**[AMO ID](/help/integrations/analytics/ids.md#amo-id):** Un codice di tracciamento che consente agli Adobi Advertising di condividere dati sulle campagne con Adobe Analytics. Inizia con `s_kwcid=`.
+**[AMO ID](/help/integrations/analytics/ids.md#amo-id):** Un codice di tracciamento che consente ad Adobe Advertising di condividere dati sulle campagne con Adobe Analytics e Adobe Customer Journey Analytics. Inizia con `s_kwcid=`.
 
 **unità di offerta:** termine di ricerca, social e Commerce per un&#39;unità in cui vengono presentate le offerte.
 
@@ -141,7 +141,7 @@ Questo ha lo stesso valore della colonna legacy &quot;Ricavi ponderati&quot;.
 
 **transazione orfana:** un evento di transazione che non può essere associato a una parola chiave o a un annuncio specifico.
 
-**pixel:** Un&#39;immagine trasparente, un pixel per un pixel incorporata in una pagina Web a scopo di tracciamento. Adobe Advertising di tag per il tracciamento delle conversioni includono un pixel immagine HTML o JavaScript per tenere traccia dei clic e delle transazioni risultanti.
+**pixel:** Un&#39;immagine trasparente, un pixel per un pixel incorporata in una pagina Web a scopo di tracciamento. I tag di tracciamento delle conversioni di Adobe Advertising includono un pixel immagine HTML o JavaScript per monitorare i clic e le transazioni risultanti.
 
 **posizionamento:** posizione in una rete di visualizzazione in cui è possibile visualizzare gli annunci. Può essere un intero sito web, un sottoinsieme di un sito web o una posizione pubblicitaria su una pagina specifica.
 
@@ -163,7 +163,7 @@ Questo ha lo stesso valore della colonna legacy &quot;Ricavi ponderati&quot;.
 
 **utile sul capitale investito:** (ROI) Ricavi meno costi.
 
-**precisione ricavi:** (inserzionisti con portfolio) I ricavi effettivi per un portfolio divisi per i ricavi previsti. [I rapporti sulla precisione del modello](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indicano la precisione dei modelli di ricavo utilizzati per l&#39;ottimizzazione e [[!UICONTROL Model Accuracy]gli approfondimenti](/help/search-social-commerce/advertising-insights/insight-about.md) includono ulteriori dettagli, oltre a suggerimenti per migliorare la precisione del modello.
+**precisione ricavi:** (inserzionisti con portfolio) I ricavi effettivi per un portfolio divisi per i ricavi previsti. [I report sulla precisione del modello](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indicano la precisione dei modelli di ricavo utilizzati per l&#39;ottimizzazione e [[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md) include ulteriori dettagli, oltre a suggerimenti per migliorare la precisione del modello.
 
 **modello di ricavo:** (inserzionisti con portfolio) Tecnologia Search, Social e Commerce che prevede il tasso di conversione e il rendimento stimato per ogni unità di offerta, in base ai dati di clic (ricerca e social) o ai dati di impression (visualizzazione) e ai dati di conversione dell&#39;inserzionista.
 
@@ -175,13 +175,13 @@ Questo ha lo stesso valore della colonna legacy &quot;Ricavi ponderati&quot;.
 
 ## S-T {#s-t}
 
-**simulazione:** (inserzionisti con portfolio) modellazione di Portfolio che stima il numero di clic e di conversioni che un portfolio può aspettarsi per diversi livelli di spesa e budget giornalieri corrispondenti, utilizzando i dati storici.
+**simulazione:** (inserzionisti con portfolio) modellazione Portfolio che stima il numero di clic e di conversioni che un portfolio può aspettarsi per diversi livelli di spesa e budget giornalieri corrispondenti, utilizzando dati storici.
 
 **strategia di spesa:** (inserzionisti con portfolio) La strategia selezionata per ottimizzare le offerte di parole chiave/annunci per un portfolio.
 
 **`s_kwcid`:** Consulta &quot;AMO ID&quot;.
 
-**modello di tracciamento:** (solo account con URL finali) Il modello di tracciamento o l&#39;URL di tracciamento, che specifica tutti i reindirizzamenti del dominio di destinazione e i parametri di tracciamento e incorpora l&#39;URL finale/avanzato in un parametro. Ad Adobe Advertising, il tracciamento della conversione, che viene applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, Search, Social e Commerce prefissano automaticamente il proprio codice di reindirizzamento e tracciamento quando si salva il record.
+**modello di tracciamento:** (solo account con URL finali) Il modello di tracciamento o l&#39;URL di tracciamento, che specifica tutti i reindirizzamenti del dominio di destinazione e i parametri di tracciamento e incorpora l&#39;URL finale/avanzato in un parametro. Per il tracciamento delle conversioni di Adobe Advertising, applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, Search, Social e Commerce prefissano automaticamente il proprio codice di reindirizzamento e tracciamento quando si salva il record.
 
 **URL di tracciamento:** un modello di tracciamento o un URL di destinazione con parametri aggiuntivi aggiunti per tenere traccia delle informazioni sui clic sull&#39;annuncio. Può includere un URL di reindirizzamento per inviare prima gli utenti a un server di tracciamento prima di reindirizzarli alla pagina di destinazione dell’inserzionista.
 
