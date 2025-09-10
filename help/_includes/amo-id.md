@@ -116,13 +116,13 @@ dove:
 >[!NOTE]
 >
 > Per gli account con campagne senza l&#39;opzione di tracciamento [!UICONTROL Auto Upload] di cui non è stata già eseguita la migrazione al nuovo formato, aggiorna manualmente ogni suffisso di pagina di destinazione per includere il formato precedente.
-> >Nel frattempo, i formati precedenti, come segue, funzionano ancora:
+> &#x200B;>Nel frattempo, i formati precedenti, come segue, funzionano ancora:
 >* Campagne di ricerca:
->  >  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+>  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 >* Campagne di acquisto (utilizzando [!DNL Microsoft Merchant Center]):
->  >  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
+>  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
 >* Campagne di Audience Network:
->  >  `s_kwcid=AL!{userid}!10!{AdId}`
+>  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}`
 
 ##### [!DNL Yahoo! Japan Ads]
 
