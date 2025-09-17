@@ -3,9 +3,10 @@ title: (Nuova interfaccia) Informazioni sui portfolio
 description: Scopri i portfolio.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 8d023c22-a1dd-4608-8c72-0a61f055e7e5
+source-git-commit: f7c63646b3eae20fd3413446789fe06ce583e23e
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Puoi gestire collettivamente le campagne pubblicitarie utilizzando i portfolio (
 
 Alcuni ruoli utente possono creare e configurare i portfolio. A seconda del tipo di portfolio, le impostazioni del portfolio possono includere l’obiettivo del portfolio, le campagne assegnate, la strategia di spesa, eventuali vincoli di offerta a livello di portfolio e i parametri di modellazione e ottimizzazione. Quando sei pronto a Search, Social e Commerce per iniziare l’ottimizzazione di un portfolio, modifica lo stato su &quot;ottimizzato&quot;.
 
-Facoltativamente, puoi raggruppare i portfolio in gruppi di portfolio in modo da visualizzare i dati compositi relativi ai clic e ai ricavi per l’intero gruppo. Crea gruppi di portfolio dall&#39;[interfaccia utente legacy](/help/search-social-commerce/getting-started/ui-switch.md).
+Facoltativamente, puoi raggruppare i portfolio in [gruppi di portfolio](portfolio-group-manage.md) per visualizzare dati compositi per l&#39;intero gruppo.
 
 A seconda del ruolo, è possibile generare simulazioni delle prestazioni, che utilizzano la modellazione predittiva per identificare il punto di spesa ottimale e i report dettagliati sulla precisione delle previsioni.<!-- Mention this now? In addition, all users can use the Spend Recommendation Tool to identify the optimal budget distribution across portfolios. -->
 
@@ -28,7 +29,7 @@ Le campagne possono essere ottimizzate in base alla strategia di offerta della c
 
 >[!NOTE]
 >
->Le offerte intelligenti e le offerte automatizzate sono spesso utilizzate in modo intercambiabile, ma non sono la stessa cosa. Le offerte intelligenti si riferiscono solo a [!DNL Google Ads] e [!DNL Microsoft Advertising] strategie di offerte automatizzate che utilizzano le offerte al momento dell&#39;asta, il che significa che la rete di annunci ottimizza per le conversioni o i valori di conversione al momento di ogni asta.
+>Le offerte &quot;intelligenti&quot; e &quot;offerte automatizzate&quot; sono spesso utilizzate in modo intercambiabile, ma non sono la stessa cosa. Le offerte intelligenti si riferiscono solo a [!DNL Google Ads] e [!DNL Microsoft Advertising] strategie di offerte automatizzate che utilizzano le offerte al momento dell&#39;asta, il che significa che la rete di annunci ottimizza per le conversioni o i valori di conversione al momento di ogni asta.
 
 <!-- Add "Frequency of Bidding (or other actions, like adjusting campaign budget or bid adjustment values?) -->
 
