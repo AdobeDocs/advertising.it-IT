@@ -3,9 +3,9 @@ title: Organizzazione dell’interfaccia utente
 description: Scopri dove accedere a diverse funzionalità.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 2d218c960cd74fdfa9c981540951d7305b7740c7
+source-git-commit: 553d0c90160cb12b8b32d3540c58797e6fac2abb
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1071'
 ht-degree: 0%
 
 ---
@@ -38,15 +38,15 @@ Il tuo ruolo determina le opzioni disponibili:<!-- add link when available -->
 
 * Sottomenu **[!UICONTROL Manage]**:
 
-   * **[!UICONTROL Portfolio Groups]:** Chiude il nuovo sito dell&#39;interfaccia utente e apre la scheda legacy [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Portfolios] > [!UICONTROL Portfolio Groups].
+<!--  * **[!UICONTROL Portfolio Groups]:** Exits the new UI site and opens the legacy [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Portfolios] view > [!UICONTROL Portfolio Groups] tab. -->
 
-   * **[!UICONTROL Portfolios]:** Apre una nuova visualizzazione [!UICONTROL Portfolios] che elenca tutti i portfolio per l&#39;inserzionista. Da questa vista puoi gestire i portfolio. Puoi aprire un elenco di vincoli assegnati e visualizzare i dettagli sulle prestazioni e sulla composizione per qualsiasi portfolio.
+* **[!UICONTROL Portfolios]:** Apre una nuova visualizzazione [!UICONTROL Portfolios] che elenca tutti i portfolio per l&#39;inserzionista. Da questa vista puoi gestire i portfolio. Puoi aprire un elenco di vincoli assegnati e visualizzare i dettagli sulle prestazioni e sulla composizione per qualsiasi portfolio.
 
-     Le impostazioni del portfolio includono schede per assegnare l’obiettivo e le campagne, gestire la spesa, gestire i vincoli e controllare l’ottimizzazione. Solo gli utenti con il ruolo &quot;ottimizzazione esperti&quot; o superiore possono modificare le impostazioni nella scheda [!UICONTROL Control Optimization].
+  Le impostazioni del portfolio includono schede per assegnare l’obiettivo e le campagne, gestire la spesa, gestire i vincoli e controllare l’ottimizzazione. Solo gli utenti con il ruolo &quot;ottimizzazione esperti&quot; o superiore possono modificare le impostazioni nella scheda [!UICONTROL Control Optimization].
 
-   * **[!UICONTROL Campaigns]:** Apre una nuova visualizzazione [!UICONTROL Campaigns], che mostra tutte le campagne per l&#39;inserzionista. Puoi assegnare le campagne ai portfolio e gestire le assegnazioni di vincoli per le campagne selezionate. È inoltre possibile scaricare un report del contenuto della tabella dati. <!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
+* **[!UICONTROL Campaigns]:** Apre una nuova visualizzazione [!UICONTROL Campaigns], che mostra tutte le campagne per l&#39;inserzionista. Puoi assegnare le campagne ai portfolio e gestire le assegnazioni di vincoli per le campagne selezionate. È inoltre possibile scaricare un report del contenuto della tabella dati. <!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
 
-     Per creare, modificare ed eliminare le campagne, tornare all&#39;interfaccia utente legacy facendo clic su **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** nel menu principale o facendo clic sul pulsante [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+  Per creare, modificare ed eliminare le campagne, tornare all&#39;interfaccia utente legacy facendo clic su **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** nel menu principale o facendo clic sul pulsante [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
 * **[!UICONTROL Ad Groups]:** Apre una nuova visualizzazione [!UICONTROL Ad Groups], che mostra tutti i gruppi di annunci per l&#39;inserzionista. Puoi gestire le assegnazioni di vincoli per i gruppi di annunci selezionati. È inoltre possibile scaricare un report del contenuto della tabella dati.
 
