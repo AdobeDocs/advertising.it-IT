@@ -3,9 +3,9 @@ title: Modificare le impostazioni direttamente all'interno di una riga
 description: Scopri come modificare i dati nelle visualizzazioni di gestione all’interno della riga.
 exl-id: 0b22a2ec-50c2-457d-8cea-a40943ee2a41
 feature: Search Common Tasks
-source-git-commit: 533484b8e2e462891d7d34091991047b2d9b62c7
+source-git-commit: dac4989bf58f823fee5ea1adf5f8d71348001a11
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 ## (Nuova interfaccia) Modifica le impostazioni all’interno di una riga
 
-1. Fare clic all&#39;interno della cella per attivarla oppure tenere premuto il cursore sul valore.
+1. Tenere premuto il cursore sulla riga e selezionare il valore. A seconda della colonna, potrebbe essere necessario fare clic su ![Modifica](/help/search-social-commerce/assets/edit-new.png "Modifica") o **[!UICONTROL ...]** > ![Modifica](/help/search-social-commerce/assets/edit-new.png "Modifica") accanto al valore. Per rinominare un nome di entità, fare clic sul nome e selezionare **[!UICONTROL Rename]**.
 
 1. Modifica il valore:
 
    * (Opzioni in un elenco) Selezionare una nuova opzione dall&#39;elenco.
 
-   * (Valori in formato libero) Fare clic su ![Modifica](/help/search-social-commerce/assets/edit-new.png "Modifica"), modificare il valore, quindi fare clic su **Applica**.
+   * (Valori in formato libero) Modificare i valori, quindi fare clic su **Applica**.
 
 
 ## (Interfaccia precedente) Modifica le impostazioni all’interno di una riga
