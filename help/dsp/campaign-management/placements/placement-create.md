@@ -3,7 +3,7 @@ title: Creare un posizionamento
 description: Scopri come creare un posizionamento.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
 
       1. Restringi il pubblico. Ciò include la selezione dei segmenti di pubblico di destinazione all’interno del posizionamento.
 
-         Per i posizionamenti [!DNL Roku], puoi sfruttare la corrispondenza del pubblico univoco di [DSP con [!DNL Roku]](/help/dsp/inventory/roku-inventory.md) includendo uno o più segmenti di pubblico che possono essere associati al set di dati deterministico [!DNL Roku] (consenso).
+         Per i posizionamenti [!DNL Roku], puoi sfruttare la corrispondenza del pubblico univoco di [DSP con [!DNL Roku]](/help/dsp/inventory/roku-inventory.md) includendo uno o più segmenti di pubblico che possono essere associati al set di dati deterministico di [!DNL Roku] (consenso).
 
          I segmenti RampID di prime parti che non sono collegati a un posizionamento attivo, pianificato o in pausa vengono messi in pausa. Nell’elenco dei segmenti, il segmento viene indicato come &quot;In pausa automatica&quot;.
 
@@ -94,45 +94,45 @@ ht-degree: 0%
 
       * Per allegare gli annunci esistenti nella campagna:
 
-      1. Fare clic su **[!UICONTROL Select an Ad]**.
+         1. Fare clic su **[!UICONTROL Select an Ad]**.
 
-      1. Effettuare una delle seguenti operazioni:
+         1. Effettuare una delle seguenti operazioni:
 
-         * Per aggiungere un annuncio alla volta:
+            * Per aggiungere un annuncio alla volta:
 
-            1. Accanto al nome dell&#39;annuncio, fare clic su **[!UICONTROL Select].**
+               1. Accanto al nome dell&#39;annuncio, fare clic su **[!UICONTROL Select].**
 
-            1. (Facoltativo) Per ogni annuncio aggiuntivo che si desidera allegare, fare clic su **[!UICONTROL Attach Another Ad]** e quindi ripetere la procedura.
+               1. (Facoltativo) Per ogni annuncio aggiuntivo che si desidera allegare, fare clic su **[!UICONTROL Attach Another Ad]** e quindi ripetere la procedura.
 
-         * Per aggiungere fino a 20 annunci alla volta:
+            * Per aggiungere fino a 20 annunci alla volta:
 
-            1. Seleziona la casella di controllo sopra l’elenco degli annunci.
+               1. Seleziona la casella di controllo sopra l’elenco degli annunci.
 
-            1. Seleziona la casella di controllo accanto a ogni annuncio da aggiungere.
+               1. Seleziona la casella di controllo accanto a ogni annuncio da aggiungere.
 
-            1. Fare clic su **[!UICONTROL Attach]**.
+               1. Fare clic su **[!UICONTROL Attach]**.
 
-            1. Accanto al nome dell&#39;annuncio, fare clic su **[!UICONTROL Select]**.
+               1. Accanto al nome dell&#39;annuncio, fare clic su **[!UICONTROL Select]**.
 
-      1. (Facoltativo) Per sostituire il periodo di volo predefinito e la rotazione degli annunci per annunci specifici nel posizionamento:
+         1. (Facoltativo) Per sostituire il periodo di volo predefinito e la rotazione degli annunci per annunci specifici nel posizionamento:
 
-         1. Fare clic su **[!UICONTROL Custom Schedule Ads]**.
+            1. Fare clic su **[!UICONTROL Custom Schedule Ads]**.
 
-         1. Effettua una delle seguenti operazioni:
+            1. Effettua una delle seguenti operazioni:
 
-            * Per aggiungere un volo, fare clic su **[!UICONTROL Add Flight]** e quindi specificare la data di inizio e la data di fine.
+               * Per aggiungere un volo, fare clic su **[!UICONTROL Add Flight]** e quindi specificare la data di inizio e la data di fine.
 
-            * Per aggiungere un volo esistente a un annuncio, fare clic su **[!UICONTROL +]** nella riga annuncio per la colonna volo.
+               * Per aggiungere un volo esistente a un annuncio, fare clic su **[!UICONTROL +]** nella riga annuncio per la colonna volo.
 
-            * Per rimuovere un volo esistente da un annuncio, fare clic su **[!UICONTROL x]** nella riga annuncio per la colonna volo.
+               * Per rimuovere un volo esistente da un annuncio, fare clic su **[!UICONTROL x]** nella riga annuncio per la colonna volo.
 
-            * (Quando più annunci hanno lo stesso volo) Per ruotare gli annunci in modo non uniforme, fare clic su **[!UICONTROL Even Rotation]** nelle informazioni sul volo, quindi immettere il peso relativo in base al quale ruotare ogni annuncio, come percentuale.
+               * (Quando più annunci hanno lo stesso volo) Per ruotare gli annunci in modo non uniforme, fare clic su **[!UICONTROL Even Rotation]** nelle informazioni sul volo, quindi immettere il peso relativo in base al quale ruotare ogni annuncio, come percentuale.
 
-              Il peso totale deve essere uguale a 100.
+                 Il peso totale deve essere uguale a 100.
 
-         1. In alto a destra, fare clic su **[!UICONTROL Continue]**.
+            1. In alto a destra, fare clic su **[!UICONTROL Continue]**.
 
-         1. Rivedere i dettagli del volo, quindi fare clic su **[!UICONTROL Save & Finish]**.
+            1. Rivedere i dettagli del volo, quindi fare clic su **[!UICONTROL Save & Finish]**.
 
 >[!MORELIKETHIS]
 >
@@ -140,11 +140,11 @@ ht-degree: 0%
 >* [Modifica posizionamenti](placement-edit.md)
 >* [Gestire i moltiplicatori delle offerte per i posizionamenti](placement-manage-bid-multipliers.md)
 >* [Modifica gli Schedules per i posizionamenti](placement-edit-ad-schedule.md)
->* [Sospendi o attiva un posizionamento](placement-pause-activate.md)
+>* [Disattivare o attivare un posizionamento](placement-pause-activate.md)
 >* [Visualizza il log delle modifiche per un posizionamento](placement-change-log.md)
 >* [Impostazioni posizionamento](placement-settings.md)
 >* [Visualizza il rapporto Previsione posizionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Domande frequenti sul video universale](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Scelte rapide da tastiera](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Risoluzione dei problemi relativi alle prestazioni](/help/dsp/optimization/troubleshooting-performance.md)
->* [Video: come creare un posizionamento display standard](https://video.tv.adobe.com/v/345000?captions=ita)
+>* [Video: come creare un posizionamento display standard](https://video.tv.adobe.com/v/340454)

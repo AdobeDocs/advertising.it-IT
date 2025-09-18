@@ -4,9 +4,9 @@ user-guide-title: Guida di Advertising DSP
 user-guide-description: Scopri le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire e ottimizzare le strategie degli annunci display con Advertising DSP e creare i relativi rapporti.
 breadcrumb-title: Guida di DSP
 index: true
-source-git-commit: a2cf15742557686df280b2a73eea996be53e5f4d
+source-git-commit: a3bd04da6c6f428fdb6e1f05187ea3de0174c9d7
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '957'
 ht-degree: 3%
 
 ---
@@ -32,8 +32,8 @@ ht-degree: 3%
       + [Soluzioni multi-dispositivo](/help/dsp/introduction/features/cross-device-solutions.md)
    + [Finanziamento account](/help/dsp/introduction/billing/account-funding.md)
    + [Valute supportate](/help/dsp/currency.md)
-   + [Supporto per la privacy del consumatore](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=it)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [Criteri e linee guida](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=it)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Supporto per la privacy del consumatore](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Criteri e linee guida](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [Soluzioni avanzate di misurazione](/help/dsp/introduction/advanced-measurement-services.md)
 + Gestione delle campagne {#campaign-management}
    + [Panoramica della struttura di gestione delle campagne](/help/dsp/campaign-management/campaign-management-overview.md)
@@ -67,11 +67,12 @@ ht-degree: 3%
       + [Modifica posizionamenti](/help/dsp/campaign-management/placements/placement-edit.md)
       + [Posizionamenti duplicati](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [Gestire i moltiplicatori delle offerte per i posizionamenti](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
-      + [Allega annunci ai posizionamenti](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
+      + [Allega e rimuovi annunci dai posizionamenti](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
+      + [Allega e rimuovi pixel dagli annunci](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md)
       + [Modificare gli Schedules degli annunci per i posizionamenti](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
       + [Visualizzare un rapporto dettagliato per un posizionamento](/help/dsp/campaign-management/placements/placement-view-report.md)
       + [Visualizzare il log delle modifiche per un posizionamento](/help/dsp/campaign-management/placements/placement-change-log.md)
-      + [Sospendere o attivare un posizionamento](/help/dsp/campaign-management/placements/placement-pause-activate.md)
+      + [Disattivare o attivare un posizionamento](/help/dsp/campaign-management/placements/placement-pause-activate.md)
       + [Archiviare o annullare l’archiviazione di un posizionamento](/help/dsp/campaign-management/placements/placement-archive-unarchive.md)
       + [Impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)
    + Annunci {#ads}
@@ -83,7 +84,7 @@ ht-degree: 3%
       + [Rivedere I Dettagli Dell’Annuncio Utilizzando I Fogli Di Calcolo](/help/dsp/campaign-management/ads/ad-qa.md)
       + [Modificare un annuncio](/help/dsp/campaign-management/ads/ad-edit.md)
       + [Duplicare un annuncio](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [Allega annunci ai posizionamenti](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=it)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
+      + [Allega e rimuovi annunci dai posizionamenti](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
       + [Elencare i posizionamenti associati a un annuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [Visualizzare un rapporto dettagliato per un annuncio](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [Sospendere o attivare un annuncio](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -238,6 +239,6 @@ ht-degree: 3%
    + Notifiche {#notifications}
       + [Informazioni sulle sottoscrizioni di avvisi](/help/dsp/admin/alerts-about.md)
       + [Gestire le sottoscrizioni agli avvisi](/help/dsp/admin/alerts-manage.md)
-+ [Integrazioni con Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=it)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
++ [Integrazioni con Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + [Ottieni aiuto](/help/dsp/get-help.md)
-+ [Note sulla versione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it)
++ [Note sulla versione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)

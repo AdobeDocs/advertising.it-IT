@@ -3,7 +3,7 @@ title: Gestire i moltiplicatori delle offerte per i posizionamenti
 description: Scopri come creare e modificare i moltiplicatori di offerta per i target di posizionamento.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: 28f1b799daaa4e511abab1102a639e72b3a32d18
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 1%
@@ -34,7 +34,7 @@ Puoi modificare manualmente i valori o caricare un foglio di calcolo per un sing
 
 1. Nel sottomenu fare clic su **[!UICONTROL Placements]**.
 
-1. Accanto al nome del posizionamento, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Bid Multiplier]**.
+1. Accanto al nome del posizionamento, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Edit]** > **[!UICONTROL Bid Multiplier]**.
 
 1. Regola i moltiplicatori di offerta per gli obiettivi idonei:
 

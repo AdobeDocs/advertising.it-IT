@@ -3,9 +3,9 @@ title: Informazioni su Insights
 description: Scopri gli approfondimenti sulle prestazioni con le visualizzazioni.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: a098e99f26a4e7d472d4a391d2cd465fc8d4255b
+source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -89,6 +89,8 @@ La scheda [!UICONTROL Household Conversion] fornisce le metriche di conversione 
 * (Per aprire approfondimenti per tutte le campagne) Nel menu principale, fare clic su **[!UICONTROL Insights BETA]**.
 
 * Per aprire approfondimenti per una campagna, un pacchetto o un posizionamento specifico, accanto al nome dell&#39;entità nella visualizzazione [!UICONTROL Campaigns], [!UICONTROL Packages] o [!UICONTROL Placements], fare clic su **[!UICONTROL ...]** > **[!UICONTROL Insights]**.
+
+* (Per aprire approfondimenti per un posizionamento specifico) Accanto al nome dell&#39;entità nella visualizzazione [!UICONTROL Campaigns], [!UICONTROL Packages] o [!UICONTROL Placements], fare clic su **[!UICONTROL ...]** > **[!UICONTROL Analyze]** > **[!UICONTROL Insights]**.
 
 ## Applicare filtri a una scheda
 

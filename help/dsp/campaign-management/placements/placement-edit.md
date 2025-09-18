@@ -3,7 +3,7 @@ title: Modifica posizionamenti
 description: Scopri come modificare un posizionamento.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 19be64303a0a86e916edacde439a852aac0a89f5
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Puoi modificare il nome del posizionamento, lo stato, l’offerta massima e il b
 1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 1. Fai clic sul nome della campagna.
 1. Nel sottomenu fare clic su **[!UICONTROL Placements]**.
-1. Accanto al nome del posizionamento, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
+1. Accanto al nome del posizionamento, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Edit]** > **[!UICONTROL Quick Edit]**.
 1. Modificare le [impostazioni di posizionamento](placement-settings.md) disponibili: **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]** e **[!UICONTROL Budget]**.
 1. Fare clic su **[!UICONTROL Apply]**.
 
@@ -43,7 +43,7 @@ Puoi modificare il nome del posizionamento, lo stato, l’offerta massima e il b
 
 1. Nel sottomenu fare clic su **[!UICONTROL Placements]**.
 
-1. Accanto al nome del posizionamento, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+1. Accanto al nome del posizionamento, fai clic su **[!UICONTROL ...]** > **[!UICONTROL Edit]** **[!UICONTROL Full Edit]** > .
 
 1. Modifica le [impostazioni di posizionamento](placement-settings.md).
 
@@ -97,9 +97,9 @@ Utilizza questa opzione solo quando desideri applicare le stesse modifiche a tut
 >* [Duplicare un posizionamento](placement-duplicate.md)
 >* [Gestire i moltiplicatori delle offerte per i posizionamenti](placement-manage-bid-multipliers.md)
 >* [Modifica gli Schedules per i posizionamenti](placement-edit-ad-schedule.md)
->* [Sospendi o attiva un posizionamento](placement-pause-activate.md)
+>* [Disattivare o attivare un posizionamento](placement-pause-activate.md)
 >* [Visualizza il log delle modifiche per un posizionamento](placement-change-log.md)
 >* [Impostazioni posizionamento](placement-settings.md)
 >* [Visualizza il rapporto Previsione posizionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Scelte rapide da tastiera](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Video: come modificare i posizionamenti utilizzando gli strumenti di modifica in blocco](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=it)
+>* [Video: come modificare i posizionamenti utilizzando gli strumenti di modifica in blocco](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

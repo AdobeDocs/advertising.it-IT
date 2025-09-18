@@ -3,9 +3,9 @@ title: Impostazioni annuncio visualizzazione nativa
 description: Consulta le descrizioni delle impostazioni pubblicitarie disponibili per gli annunci display nativi.
 feature: DSP Ads
 exl-id: 64ce1946-072d-4ca9-b3a8-348987580403
-source-git-commit: 152ba89baa17264a74a1a2498e0140972a0470eb
+source-git-commit: 9d9330847c9356180928337a4a452f35e7024545
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,11 @@ ht-degree: 0%
 
 **[!UICONTROL Call to Action]:** (Facoltativo) Passaggio che i visualizzatori devono effettuare quando visualizzano questo annuncio.
 
-**[!UICONTROL Advertiser Logo]:** (facoltativo) un logo con rapporto 1:1 da includere con l&#39;annuncio per un maggiore riconoscimento del brand. Fare clic su **[!UICONTROL Browse]** e individuare il file nel dispositivo o nella rete, quindi fare clic su **[!UICONTROL Upload]**.
+**[!UICONTROL Advertiser Logo]:** (facoltativo) un logo con un rapporto di 1:1 da includere con l&#39;annuncio per un maggiore riconoscimento del brand. Fare clic su **[!UICONTROL Browse]** e individuare il file nel dispositivo o nella rete, quindi fare clic su **[!UICONTROL Upload]**.
 
 ### [!UICONTROL Pixel]
 
-Tutti i pixel di tracciamento degli eventi esistenti per il posizionamento vengono associati automaticamente. Puoi scollegare i pixel esistenti e crearne di nuovi, in base alle tue esigenze di tracciamento per il singolo annuncio. **Suggerimento:** per modificare i pixel di tracciamento di terze parti per più annunci in un posizionamento contemporaneamente utilizzando la visualizzazione [!UICONTROL Ad Tools], vedere &quot;[Allega pixel di tracciamento di terze parti agli annunci in un posizionamento](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads).&quot;
+Tutti i pixel di tracciamento degli eventi esistenti per il posizionamento vengono associati automaticamente. Puoi scollegare i pixel esistenti e crearne di nuovi, in base alle tue esigenze di tracciamento per il singolo annuncio. **Suggerimento:** per modificare i pixel di tracciamento di terze parti per più annunci in un posizionamento contemporaneamente utilizzando la visualizzazione [!UICONTROL Ad Tools], vedere &quot;[Allega pixel di tracciamento di terze parti agli annunci in un posizionamento](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md#attach-pixels-ads).&quot;
 
 Le seguenti impostazioni si applicano a ogni pixel creato o modificato.
 

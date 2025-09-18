@@ -3,9 +3,9 @@ title: Visualizzare i siti, gli annunci, la frequenza e i dettagli di inventario
 description: Scopri come visualizzare i siti target, gli annunci, la frequenza e i dati di inventario per un posizionamento.
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Per ogni posizionamento, puoi [aprire una (visualizzazione dettagli [!UICONTROL 
 
 * **[!UICONTROL Ads]:** tutti gli annunci nel posizionamento.
 
-  La scheda [!UICONTROL Ads] include le funzionalità di ricerca e filtro, le stesse opzioni di visualizzazione delle colonne standard e personalizzate disponibili nella pagina principale e i pulsanti di azione rapida in ogni riga, ad esempio [!UICONTROL Pause] (per mettere rapidamente in pausa un annuncio).
+  La scheda [!UICONTROL Ads] include le funzionalità di ricerca e filtro, le stesse opzioni di visualizzazione delle colonne standard e personalizzate disponibili nella pagina principale e i pulsanti di azione rapida in ogni riga, ad esempio [!UICONTROL View Ad Approvals].
 
 * **[!UICONTROL Frequency]:** dati per ogni livello di frequenza annuncio per il posizionamento, inclusi:
    * il livello di frequenza dell’annuncio (ad esempio &quot;1&quot; per tutte le istanze in cui gli utenti hanno visto un annuncio una volta)
@@ -36,7 +36,7 @@ Per ogni posizionamento, puoi [aprire una (visualizzazione dettagli [!UICONTROL 
 
   La scheda [!UICONTROL Inventory] consente di risolvere rapidamente i problemi visualizzando le statistiche sulle prestazioni, ad esempio [!UICONTROL Auctions], [!UICONTROL Bids] e [!UICONTROL Win Rate]. La scheda include le funzionalità di ricerca e filtro, le stesse opzioni di visualizzazione colonne standard e personalizzate disponibili nella pagina principale e i pulsanti di azione rapida in ogni riga, inclusi [!UICONTROL Edit], [!UICONTROL View Report] e [[!UICONTROL Auction Insights] per ulteriori informazioni sulla risoluzione dei problemi](/help/dsp/inventory/private-deal-auction-insights.md).
 
-## Apri [!UICONTROL Placement Inspector]
+## Apri [!UICONTROL Placement Inspector] {#inspector-open}
 
 1. Apri la vista posizionamenti per la campagna o il pacchetto principale:
 
@@ -58,21 +58,21 @@ Per ogni posizionamento, puoi [aprire una (visualizzazione dettagli [!UICONTROL 
 
       1. Fare clic sul nome del pacchetto padre.
 
-1. Tenere premuto il cursore sulla riga di posizionamento, fare clic su **[!UICONTROL More]** e quindi su un&#39;opzione:
-
-   * Per visualizzare tutti i siti di destinazione del posizionamento, fare clic su **[!UICONTROL Sites]**.
-
-   * Per visualizzare tutti gli annunci nel posizionamento, fare clic su **[!UICONTROL Ads]**.
-
-   * Per visualizzare i dati sulla frequenza per il posizionamento, fare clic su **[!UICONTROL Frequency]**.
-
-   * Per visualizzare tutte le offerte a cui è destinato il posizionamento, fare clic su **[!UICONTROL Inventory]**.
+1. Tenere premuto il cursore sulla riga di posizionamento e fare clic su **[!UICONTROL ...]** > **[!UICONTROL Analyze]** > **[!UICONTROL Inspector]**.
 
 1. (Facoltativo) [Modifica la vista a colonne](campaign-data-views-manage.md#column-view-change) in base alle esigenze per visualizzare le metriche richieste.
 
 1. (Facoltativo) Per esportare i dati in qualsiasi scheda, fare clic su ![Altro](/help/search-social-commerce/assets/more.png "Altro") in alto a destra, quindi fare clic su **[!UICONTROL Export]**.
 
    I dati vengono salvati nella cartella di download predefinita del browser come rapporto in formato XLSM.
+
+## Rimuovere un annuncio da un posizionamento da [!UICONTROL Placement Inspector] {#remove-ads-placement-inspector}
+
+1. [Apri [!UICONTROL Placement Inspector]](#inspector-open).
+
+1. Fare clic sulla scheda **[!UICONTROL Ads]**.
+
+1. Accanto al nome dell&#39;annuncio, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Detach]**.
 
 ## Risoluzione dei problemi di inventario
 
@@ -90,5 +90,5 @@ Per ogni posizionamento, puoi [aprire una (visualizzazione dettagli [!UICONTROL 
 
 >[!MORELIKETHIS]
 >
->* [Tipi di report sulle prestazioni nelle visualizzazioni di Campaign Management](campaign-reports-about.md)
+>* [Tipi di rapporti sulle prestazioni nelle visualizzazioni di gestione delle campagne](campaign-reports-about.md)
 >* [Gestione Delle Visualizzazioni Dati Della Campagna](campaign-data-views-manage.md)
