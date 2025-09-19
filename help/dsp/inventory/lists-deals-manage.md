@@ -3,9 +3,9 @@ title: Gestire gli elenchi di offerte
 description: Scopri come creare e gestire gli elenchi di offerte per il targeting del posizionamento.
 feature: DSP Private Inventory, DSP On Demand Inventory, DSP Deal IDs, DSP Placements
 exl-id: 18a2c2d2-d84d-4347-93af-ca7489a1a8fb
-source-git-commit: 166117045e52a92d9c1fda4eeca9320c9e0bf3f1
+source-git-commit: e030783a046002e02d719a36c99d1b10808cd4a9
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ In custom reports, you can a) filter data by deal lists and deals and b) include
 
    * Per le offerte private, filtrare l&#39;elenco in base all&#39;editore, al provider di servizi condivisi o al tipo di offerta (*[!UICONTROL Guaranteed]* o *[!UICONTROL Non-Guaranteed]*) oppure cercare l&#39;elenco in base al nome o all&#39;ID dell&#39;offerta.
 
-   * Per le offerte [!UICONTROL On Demand], filtra l&#39;elenco per editore, regione o tipo di supporto oppure cerca l&#39;elenco in base al nome dell&#39;offerta.
+   * Per le offerte [!UICONTROL On Demand], filtra l&#39;elenco per editore, regione o tipo di supporto oppure cerca l&#39;elenco in base al nome dell&#39;offerta. L&#39;elenco include solo le [!DNL On Demand] offerte alle quali sei abbonato.
 
 1. Seleziona la casella di controllo accanto a ogni offerta da includere nell’elenco.
 
