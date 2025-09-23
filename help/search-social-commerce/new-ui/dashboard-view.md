@@ -4,7 +4,7 @@ description: Scopri i dati disponibili nel dashboard delle prestazioni.
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: ef79f52b-cc97-4f36-8a44-50ffd3377c8b
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 6fe42303c8499dbff6d5964d4074e98a2f2486ba
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 *funzionalità Beta*
 
-Il [!UICONTROL Dashboard] personalizzabile consente di monitorare le prestazioni di tutti i portfolio <!-- May later include other entity-level data --> in modo da identificare potenziali problemi di prestazioni da analizzare e risolvere. È possibile visualizzare dati giornalieri, settimanali o mensili per qualsiasi periodo di tempo degli ultimi 90 giorni.
+L&#39;elemento personalizzabile [!UICONTROL Dashboard] > [!UICONTROL Overview] consente di monitorare le prestazioni di tutti i portfolio <!-- May later include other entity-level data --> in modo da identificare potenziali problemi di prestazioni da analizzare e risolvere. È possibile visualizzare dati giornalieri, settimanali o mensili per qualsiasi periodo di tempo degli ultimi 90 giorni.
 
 [!UICONTROL Dashboard] include i seguenti report visivi:
 
