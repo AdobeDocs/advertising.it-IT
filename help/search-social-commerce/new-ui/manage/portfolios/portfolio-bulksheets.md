@@ -3,9 +3,10 @@ title: Modifica in blocco le impostazioni del portfolio tramite file bulksheet
 description: Scopri come modificare le impostazioni per più portfolio utilizzando un file bulksheet.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Un bulksheet portfolio è un file che contiene le impostazioni del portfolio in 
 
 * Foglio di lavoro [!UICONTROL Instructions] di sola lettura con informazioni sulla modifica dei campi.
 
-* Una scheda [!UICONTROL Portfolio Settings Edit], con una riga per portfolio incluso. Se necessario, puoi modificare i campi, salvare il file localmente e successivamente [caricare il file modificato](#portfolio-bulksheet-upload) in Search, Social e Commerce.
+* Una scheda [!UICONTROL Portfolio Settings Edit], con una riga per portfolio incluso. Se necessario, puoi modificare i campi, salvare il file localmente e successivamente [caricare il file modificato](#portfolio-bulksheet-upload) in Search, Social e Commerce. I campi modificabili vengono evidenziati a colori.
 
 ## Scaricare un file bulksheet con le impostazioni del portfolio
 

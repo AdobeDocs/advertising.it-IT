@@ -3,9 +3,10 @@ title: Gestire le assegnazioni dei vincoli per le campagne
 description: Scopri come assegnare vincoli alle campagne.
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: d886a228-24d7-4d8e-b68a-76e56b4304ed
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -33,7 +34,7 @@ Puoi assegnare un singolo vincolo a una o più campagne.
 
 1. Seleziona la casella di controllo accanto a ciascuna campagna a cui assegnare un singolo vincolo.
 
-1. Nella barra degli strumenti, fare clic su ![Altre azioni](/help/search-social-commerce/assets/more-actions.png "Altre azioni") **[!UICONTROL More Actions]** > ![Assegna](/help/search-social-commerce/assets/assign.png "Assegna") **[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
+1. Nella barra degli strumenti delle azioni in blocco, fare clic su **+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
 
 1. Selezionate il vincolo.
 
@@ -65,7 +66,7 @@ Puoi assegnare un singolo vincolo a una o più campagne.
 
 1. Seleziona la casella di controllo accanto a ciascuna campagna da cui annullare l’assegnazione dei vincoli.
 
-1. Nella barra degli strumenti, fare clic su ![Altre azioni](/help/search-social-commerce/assets/more-actions.png "Altre azioni") **[!UICONTROL More Actions]** > ![Assegna](/help/search-social-commerce/assets/unassign.png "Annulla assegnazione") **[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
+1. Nella barra degli strumenti Azioni in blocco fare clic su **-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
 
 1. Fare clic su **[!UICONTROL Confirm]**.
 
@@ -88,4 +89,3 @@ Puoi assegnare un singolo vincolo a una o più campagne.
 >[!MORELIKETHIS]
 >
 >* [Gestisci assegnazioni vincoli per gruppi di annunci](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
-

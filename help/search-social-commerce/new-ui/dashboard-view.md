@@ -4,9 +4,9 @@ description: Scopri i dati disponibili nel dashboard delle prestazioni.
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: ef79f52b-cc97-4f36-8a44-50ffd3377c8b
-source-git-commit: 7065a4051449dc5834e5bca950f9c4aca36b9000
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ Il [!UICONTROL Dashboard] personalizzabile consente di monitorare le prestazioni
 * **Traslochi più grandi - \[metrica selezionata\]:** I 10 portfolio con la modifica più grande a una metrica specificata rispetto al periodo di tempo precedente.
 
 * **Distribuzione spesa:** la distribuzione della spesa per rete di annunci.
+
+## Visualizzare il dashboard delle prestazioni
+
+* Nel menu principale, fare clic su **[!UICONTROL Dashboard]>[!UICONTROL Overview]**.
 
 ## Personalizzare il dashboard delle prestazioni
 

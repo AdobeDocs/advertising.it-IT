@@ -3,9 +3,9 @@ title: Organizzazione dell’interfaccia utente
 description: Scopri dove accedere a diverse funzionalità.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: a180f99dc28fb1ed9abbd7654914fdd75e642c37
+source-git-commit: de1b498963abd5670dee3dbc326206fa0708a7fa
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
@@ -22,19 +22,37 @@ Ogni pagina include il menu principale e altri menu basati su attività e inform
 
 ## Menu principale
 
-La nuova interfaccia utente presenta un nuovo menu principale a sinistra, che organizza le attività per fase di lavoro (Pianificazione, Gestione, Revisione, Configurazione). In seguito verranno aggiunti ulteriori sottomenu e opzioni dall’interfaccia utente legacy.
+La nuova interfaccia utente presenta un nuovo menu principale a sinistra, che organizza le attività per fase di lavoro. In seguito verranno aggiunti ulteriori sottomenu e opzioni dall’interfaccia utente legacy.
 
 ### Opzioni del menu principale
 
 Il tuo ruolo determina le opzioni disponibili:<!-- add link when available -->
 
-* **[!UICONTROL Dashboard]** Apre una visualizzazione [!UICONTROL Dashboard] configurabile con visualizzazioni delle prestazioni per tutti i portfolio.
+* Sottomenu **[!UICONTROL Dashboard]**:
+
+   * **[!UICONTROL Overview]** Apre una visualizzazione [!UICONTROL Dashboard] configurabile con visualizzazioni delle prestazioni per tutti i portfolio.
+
+   * **[!UICONTROL Recommendations]**: esce dal nuovo sito e apre la visualizzazione legacy [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights].
+
+* **[!UICONTROL Alerts & Notifications]**: esce dal nuovo sito e apre la visualizzazione legacy [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts].
+
+* Sottomenu **[!UICONTROL Goals]**:
+
+   * **[!UICONTROL Objectives]** Apre una nuova visualizzazione [!UICONTROL Objectives], dalla quale è possibile visualizzare tutti gli obiettivi esistenti e creare, modificare ed eliminare gli obiettivi.
+
+   * **[!UICONTROL Conversions]** Chiude il nuovo sito e apre la visualizzazione legacy [!UICONTROL Admin] > [!UICONTROL Conversions].
+
+   * **[!UICONTROL Conversion Value Rules]** Chiude il nuovo sito e apre la visualizzazione legacy [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules].
+
+   * **[!UICONTROL Constraints]** Chiude il nuovo sito e apre la visualizzazione legacy [!UICONTROL Optimization] > [!UICONTROL Constraints].
 
 * Sottomenu **[!UICONTROL Plan]**:
 
-   * **[!UICONTROL Objectives]** Apre una nuova visualizzazione [!UICONTROL Objectives], dalla quale è possibile visualizzare tutti gli obiettivi esistenti e creare, modificare ed eliminare gli obiettivi. Le impostazioni dell&#39;obiettivo sono le stesse dell&#39;interfaccia utente legacy in [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL New Objectives Beta].
-
    * **[!UICONTROL Simulations]** Apre una nuova visualizzazione [[!UICONTROL Simulations]](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md), da cui è possibile visualizzare tutte le simulazioni personalizzate create dall&#39;utente e le simulazioni settimanali generate automaticamente; genera nuove simulazioni personalizzate ed esegue nuovamente le simulazioni esistenti. Il pulsante [!UICONTROL Spend Planner] apre lo strumento legacy [!UICONTROL Spend Recommendation] in [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
+
+   * **[!UICONTROL Spend Planner]** Chiude il nuovo sito e apre la visualizzazione legacy [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
+
+   * **[!UICONTROL Label Classification]** Chiude il nuovo sito e apre la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Label Classifications].
 
 * Sottomenu **[!UICONTROL Manage]**:
 
@@ -46,27 +64,59 @@ Il tuo ruolo determina le opzioni disponibili:<!-- add link when available -->
 
      Per creare, modificare ed eliminare le campagne, tornare all&#39;interfaccia utente legacy facendo clic su **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** nel menu principale o facendo clic sul pulsante [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
-* **[!UICONTROL Ad Groups]:** Apre una nuova visualizzazione [!UICONTROL Ad Groups], che mostra tutti i gruppi di annunci per l&#39;inserzionista. Puoi gestire le assegnazioni di vincoli per i gruppi di annunci selezionati. È inoltre possibile scaricare un report del contenuto della tabella dati.
+   * **[!UICONTROL Ad Groups]:** Apre una nuova visualizzazione [!UICONTROL Ad Groups], che mostra tutti i gruppi di annunci per l&#39;inserzionista. Puoi gestire le assegnazioni di vincoli per i gruppi di annunci selezionati. È inoltre possibile scaricare un report del contenuto della tabella dati.
 
-  Per creare, modificare ed eliminare le campagne, tornare all&#39;interfaccia utente legacy facendo clic su **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** nel menu principale o facendo clic sul pulsante [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+     Per creare, modificare ed eliminare le campagne, tornare all&#39;interfaccia utente legacy facendo clic su **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** nel menu principale o facendo clic sul pulsante [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
-* Sottomenu **[!UICONTROL Review]**:
+   * **[!UICONTROL Ads]** Chiude il nuovo sito e apre la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+
+* Sottomenu **[!UICONTROL Reports]**:
 
    * **[!UICONTROL Insights]**: esce dal nuovo sito e apre la visualizzazione legacy [!UICONTROL Insights & Reports] > [!UICONTROL Insights].
 
-   * **[!UICONTROL Reports]**: esce dal nuovo sito e apre la visualizzazione legacy [!UICONTROL Insights & Reports] > [!UICONTROL Reports].
-
-   * **[!UICONTROL Recommendations]**: esce dal nuovo sito e apre la visualizzazione legacy [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights].
+   * **[!UICONTROL Scheduled Reports]**: esce dal nuovo sito e apre la visualizzazione legacy [!UICONTROL Insights & Reports] > [!UICONTROL Reports].
 
    * **[!UICONTROL Spreadsheet Feeds]**: esce dal nuovo sito e apre la visualizzazione legacy [!UICONTROL Insights & Reports] > [!UICONTROL Spreadsheets].
 
    * **[!UICONTROL History Logs]**: esce dal nuovo sito e apre la visualizzazione legacy [!UICONTROL Insights & Reports] > [!UICONTROL Change History].
 
+* Sottomenu **[!UICONTROL Target]**:
+
+   * **[!UICONTROL Audience]**: esce dal nuovo sito e apre la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Audiences].
+
+   * **[!UICONTROL Keywords]** Chiude il nuovo sito e apre la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+
+   * **[!UICONTROL Placements]** Chiude il nuovo sito e apre la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+
+* Sottomenu **[!UICONTROL Assets]**:
+
+   * **[!UICONTROL Auto Targets]** Chiude il nuovo sito e apre la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+
+   * **[!UICONTROL Creatives]** Chiude il nuovo sito e apre la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+
+   * **[!UICONTROL Extensions]** Chiude il nuovo sito e apre la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+
+   * **[!UICONTROL Shopping]** Chiude il nuovo sito e apre la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Campaigns].<!-- Should this go to Campaigns > Products? -->
+
 * Sottomenu **[!UICONTROL Set Up]**:
 
    * **[!UICONTROL Accounts]**: esce dal nuovo sito e apre la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
 
-   * **[!UICONTROL Audiences]**: esce dal nuovo sito e apre la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Audiences].
+<!-- What's happenening to these?
+
+Campaigns > ACM
+Campaigns > Bulksheets
+Campaigns > Asset Library
+
+Insights > Notification Center (doesn't open from Dashboard > Alerts & Notifications)
+
+Tools > Conversion Upload Setup
+Tools > Generic Tracking
+Tools > Inventory Selection
+Import Campaigns
+
+Tools > Admin > Data Source Setup
+-->
 
 ### Comprimi il menu principale
 

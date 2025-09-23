@@ -3,9 +3,9 @@ title: Assegnare campagne a un portfolio
 description: Scopri come includere le campagne nei portfolio per l’ottimizzazione.
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Non tutti i tipi di campagne e le reti pubblicitarie sono idonei per l&#39;ottim
 
 1. Seleziona la casella di controllo accanto a ciascuna campagna da assegnare a un singolo portfolio.
 
-1. Nella barra degli strumenti, fare clic su ![Altre azioni](/help/search-social-commerce/assets/more-actions.png "Altre azioni") **[!UICONTROL More Actions]** > ![Assegna](/help/search-social-commerce/assets/assign.png "Assegna") **[!UICONTROL Assign]** > **[!UICONTROL Existing Portfolio]**.
+1. Nella barra degli strumenti delle azioni in blocco, fare clic su **+[!UICONTROL Assign]** > **[!UICONTROL Existing Portfolio]**.
 
 1. Seleziona il portfolio.
 
@@ -38,7 +38,7 @@ Non tutti i tipi di campagne e le reti pubblicitarie sono idonei per l&#39;ottim
 
 1. Seleziona la casella di controllo accanto a ciascuna campagna per la quale desideri creare il nuovo portfolio.
 
-1. Nella barra degli strumenti, fare clic su ![Altre azioni](/help/search-social-commerce/assets/more-actions.png "Altre azioni") **[!UICONTROL More Actions]** > ![Assegna](/help/search-social-commerce/assets/assign.png "Assegna") **[!UICONTROL Assign]** > **[!UICONTROL New Portfolio]**.
+1. Nella barra degli strumenti delle azioni in blocco, fare clic su **+[!UICONTROL Assign]** > **[!UICONTROL New Portfolio]**.
 
 1. Nella schermata [!UICONTROL Create Portfolio], specificare le impostazioni del portfolio.
 

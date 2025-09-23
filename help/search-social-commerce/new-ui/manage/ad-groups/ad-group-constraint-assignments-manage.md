@@ -3,9 +3,10 @@ title: Gestire le assegnazioni dei vincoli per i gruppi di annunci
 description: Scopri come assegnare vincoli ai gruppi di annunci.
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: c9960b5a-4b6c-4ef0-8501-5478af2c40da
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ L’annullamento dell’assegnazione di un vincolo rimuove l’associazione con 
 
 1. Selezionare la casella di controllo accanto a ogni gruppo di annunci a cui assegnare un singolo vincolo.
 
-1. Nella barra degli strumenti, fare clic su ![Altre azioni](/help/search-social-commerce/assets/more-actions.png "Altre azioni") **[!UICONTROL More Actions]** > ![Assegna](/help/search-social-commerce/assets/assign.png "Assegna") **[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
+1. Nella barra degli strumenti delle azioni in blocco, fare clic su **+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
 
 1. Selezionate il vincolo.
 
@@ -58,7 +59,7 @@ L’annullamento dell’assegnazione di un vincolo rimuove l’associazione con 
 
 1. Selezionare la casella di controllo accanto a ogni gruppo di annunci da cui si desidera annullare l&#39;assegnazione dei vincoli.
 
-1. Nella barra degli strumenti, fare clic su ![Altre azioni](/help/search-social-commerce/assets/more-actions.png "Altre azioni") **[!UICONTROL More Actions]** > ![Assegna](/help/search-social-commerce/assets/unassign.png "Annulla assegnazione") **[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
+1. Nella barra degli strumenti Azioni in blocco fare clic su **-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
 
 1. Fare clic su **[!UICONTROL Confirm]**.
 

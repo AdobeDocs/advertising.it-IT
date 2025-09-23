@@ -4,7 +4,7 @@ user-guide-title: Guida di Advertising Search, Social e Commerce
 user-guide-description: Questa guida descrive le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire, tracciare e creare rapporti sulle campagne di annunci di ricerca, social e commerce.
 breadcrumb-title: Guida di Advertising Search, Social e Commerce
 index: true
-source-git-commit: aba643fb2d1d005a90ecec4f067714e9ec830627
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
 source-wordcount: '1877'
 ht-degree: 2%
@@ -22,10 +22,10 @@ ht-degree: 2%
    + [Inventario supportato](/help/search-social-commerce/introduction/supported-inventory.md)
    + Integrazione con Adobe Experience Cloud {#integrations}
       + [Integrazione con le soluzioni e i servizi Adobe Experience Cloud](/help/search-social-commerce/introduction/integrations.md)
-      + [Adobe [!DNL Analytics for Advertising] (collegamento)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=it){target="_blank"}
-      + [Integrazione con Adobe Audience Manager (collegamento)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=it){target="_blank"}
-   + [Supporto per la privacy del consumatore (collegamento)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=it){target="_blank"}
-   + [Criteri e linee guida (collegamento)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=it){target="_blank"}
+      + [Adobe [!DNL Analytics for Advertising] (collegamento)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
+      + [Integrazione con Adobe Audience Manager (collegamento)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
+   + [Supporto per la privacy del consumatore (collegamento)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [Criteri e linee guida (collegamento)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html){target="_blank"}
 + Introduzione {#getting-started}
    + [Panoramica sull’implementazione](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [Requisiti di sistema](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -70,12 +70,12 @@ ht-degree: 2%
    + [Visualizzare il dashboard delle prestazioni](/help/search-social-commerce/new-ui/dashboard-view.md)
    + Piano {#plan}
       + Obiettivi {#objectives}
-         + [Informazioni sugli obiettivi](/help/search-social-commerce/new-ui/plan/objectives/objective-about.md)
-         + [Creare un obiettivo](/help/search-social-commerce/new-ui/plan/objectives/objective-create.md)
-         + [Modificare una finalità](/help/search-social-commerce/new-ui/plan/objectives/objective-edit.md)
-         + [Eliminare una finalità](/help/search-social-commerce/new-ui/plan/objectives/objective-delete.md)
-         + [Applicare raccomandazioni sul peso a un obiettivo](/help/search-social-commerce/new-ui/plan/objectives/objective-apply-weight-recommendations.md)
-         + [Impostazioni obiettivo](/help/search-social-commerce/new-ui/plan/objectives/objective-settings.md)
+         + [Informazioni sugli obiettivi](/help/search-social-commerce/new-ui/goals/objectives/objective-about.md)
+         + [Creare un obiettivo](/help/search-social-commerce/new-ui/goals/objectives/objective-create.md)
+         + [Modificare una finalità](/help/search-social-commerce/new-ui/goals/objectives/objective-edit.md)
+         + [Eliminare una finalità](/help/search-social-commerce/new-ui/goals/objectives/objective-delete.md)
+         + [Applicare raccomandazioni sul peso a un obiettivo](/help/search-social-commerce/new-ui/goals/objectives/objective-apply-weight-recommendations.md)
+         + [Impostazioni obiettivo](/help/search-social-commerce/new-ui/goals/objectives/objective-settings.md)
       + Simulazioni {#simulations}
          + [Informazioni sulle simulazioni](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
          + [Eseguire o rieseguire una simulazione personalizzata](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
@@ -94,8 +94,8 @@ ht-degree: 2%
          + [Gestisci i report di visualizzazione dati dalla visualizzazione [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
       + Campagne {#campaigns}
          + [Informazioni sulla visualizzazione [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
-         + [Assegna campagne a un portfolio](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
-         + [Rimuovi campagne da un portfolio](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+         + [Assegna campagne a un portfolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+         + [Rimuovi campagne da un portfolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
          + [Gestire le assegnazioni dei vincoli per le campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
          + [Gestisci i report di visualizzazione dati dalla visualizzazione [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
       + Gruppi di annunci {#ad-groups}
@@ -119,7 +119,7 @@ ht-degree: 2%
             + [Formati di tracciamento dei clic per  [!DNL Yahoo! Japan Ads]](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [Formati di tracciamento dei clic per  [!DNL Yandex]](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [Parametri di tracciamento facoltativi per gli URL di tracciamento dei clic](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Cookie di Adobe Advertising (collegamento)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=it){target="_blank"}
+      + [Cookie di Adobe Advertising (collegamento)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
       + [Il parametro di tracciamento AMO ID (s_kwcid)](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + Tracciamento delle conversioni {#conversion-tracking}
       + [Opzioni di tracciamento delle conversioni](/help/search-social-commerce/tracking/conversion-tracking-about.md)
