@@ -3,9 +3,9 @@ title: Informazioni sulle librerie creative
 description: Scopri come gestire i creativi delle esperienze pubblicitarie.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 3c4fcd4cf63003cf10775ebec23ae3f68d3bbd07
+source-git-commit: ce716c8dca8410a121858944f0c044423d9dff78
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1386'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Le librerie possono includere:
 
    * **Creative standard:** Puoi caricare e gestire creative in [vari formati](#creative-creative-formats). Per ogni contenuto creativo, specifica la lingua predefinita per ogni annuncio a cui associ il contenuto creativo e la pagina di destinazione predefinita che si apre quando un utente fa clic su un annuncio che include il contenuto creativo. Facoltativamente, è possibile specificare le etichette da utilizzare come filtri in varie visualizzazioni all&#39;interno di [!DNL Creative] e come valori di colonna in [!UICONTROL Custom Creative Report] quando si include l&#39;utilizzo della dimensione [!UICONTROL Creative Label].
 
-   * **Creative dinamiche:** (solo per clienti Adobe Advertising DCO esistenti) Gli utenti amministratori possono creare creative generate dinamicamente mappando le variabili dinamiche in un modello di annuncio ai valori in un file di feed. Tutti gli utenti possono visualizzare in anteprima, duplicare ed eliminare gli annunci dinamici esistenti.
+   * **Creative dinamiche:** Puoi creare creative generate dinamicamente mappando le variabili dinamiche in un modello di annuncio ai valori in un file di feed. Tutti gli utenti possono visualizzare in anteprima, duplicare ed eliminare gli annunci dinamici esistenti.
 
 * **Pacchetti creatività:** raggruppa i creativi in bundle da utilizzare in più esperienze con target utente definiti. Puoi creare *bundle di visualizzazione standard* costituiti da annunci di visualizzazione standard, *bundle video standard* costituiti da annunci video standard e *bundle di visualizzazione dinamici* costituiti da annunci di visualizzazione generati dinamicamente.
 
@@ -64,7 +64,7 @@ Immetti i tag di tracciamento di JavaScript per i creativi in hosting su server 
 
 È possibile caricare creativi video di prime parti per il Web, i dispositivi mobili o la TV connessa dal dispositivo o dalla rete. Ogni esperienza di annuncio video standard richiede una creatività video predefinita per ogni durata creativa assegnata all’esperienza. Tutti i video creativi vengono transcodificati automaticamente da DSP come tag VAST 2.0 per consentirti di visualizzarli in anteprima. In [!UICONTROL Tag Manager], puoi facoltativamente [applicare la transcodifica specifica di DSP](/help/creative/experiences/experience-tag-video-transcoding.md) a qualsiasi tag esperienza annuncio video.
 
-Consulta i seguenti requisiti creativi per il video. **Nota:** per il caricamento di esperienze video in Advertising DSP, vedi anche [Requisiti DSP per Assets video ad alta definizione](https://experienceleague.adobe.com/it/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), che potrebbero essere più limitati.
+Consulta i seguenti requisiti creativi per il video. **Nota:** per il caricamento di esperienze video in Advertising DSP, vedi anche [Requisiti DSP per Assets video ad alta definizione](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), che potrebbero essere più limitati.
 
 **Tipo file:** .mov, .mp4, .webm
 
@@ -94,7 +94,7 @@ Consulta i seguenti requisiti creativi per il video. **Nota:** per il caricament
 
 ### Formato per annunci dinamici
 
-Gli utenti amministratori possono generare dinamicamente creatività in formato HTML5 statico e HTML5 dinamico mappando le variabili dinamiche in un modello di annuncio ai valori in un file di feed. I contenuti creativi dinamici possono includere quelli delle precedenti esperienze Adobe Advertising Dynamic Creative Optimization (DCO).
+Puoi generare dinamicamente creatività in formato HTML5 statico e HTML5 dinamico mappando le variabili dinamiche in un modello di annuncio ai valori in un file di feed. Le creatività dinamiche possono includere creativi migrati dalle esperienze legacy di Adobe Advertising Dynamic Creative Optimization (DCO).
 
 ## Le visualizzazioni [!UICONTROL Creative Libraries]
 
@@ -144,17 +144,19 @@ La scheda [!UICONTROL Standard Ads] mostra tutte le creatività standard create 
 
 #### [!UICONTROL Dynamic Ads]
 
-La scheda [!UICONTROL Dynamic Ads] mostra tutte le creatività dinamiche create dinamicamente per i cataloghi creativi, ad eccezione delle creatività dinamiche [eliminate manualmente](creative-delete.md) dalla scheda [!UICONTROL Dynamic Ads]. Se [hai duplicato manualmente](creative-duplicate.md) le creatività dinamiche dall&#39;ultima elaborazione di un catalogo, l&#39;elenco delle creatività per tale catalogo include anche le creatività duplicate.
+La scheda [!UICONTROL Dynamic Ads] mostra tutte le creatività dinamiche create dinamicamente per i cataloghi creativi, ad eccezione delle creatività dinamiche [eliminate manualmente](creative-delete.md) dalla scheda [!UICONTROL Dynamic Ads]. Se [hai duplicato manualmente](creative-duplicate.md) qualsiasi creatività dinamica<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->, l&#39;elenco delle creatività per quel catalogo include anche le creatività duplicate.
 
-I dati per ogni creatività includono il tipo di creatività, la dimensione della creatività, il numero di cataloghi a cui appartiene la creatività e la data di creazione. La modalità tabella include anche le colonne per il modello attraverso il quale è stata generata la creatività e il conteggio delle offerte.
+I dati per ogni creatività includono il tipo di creatività, la dimensione della creatività, il numero di cataloghi a cui appartiene la creatività e la data di creazione. La modalità tabella include anche le colonne per il modello di annuncio attraverso il quale è stata generata la creatività e il conteggio delle offerte.
 
 >[!NOTE]
 >
->Ogni volta che un catalogo viene elaborato, i dati vengono aggiornati per le creatività dinamiche esistenti per tale catalogo.
+>Ogni volta che un catalogo viene elaborato, i dati vengono aggiornati per le creatività dinamiche esistenti per tale catalogo.<!-- Verify this!!! And is there anything more to say w/regard to  -->
 
 ##### Azioni disponibili
 
-La possibilità di creare e modificare contenuti creativi dinamici è attualmente disponibile solo per l’Account Team di Adobe. Tuttavia, tutti gli utenti possono:
+* [Aggiungere elementi creativi dinamici a una libreria](creative-add-dynamic.md)
+
+* [Modificare una creatività dinamica](creative-edit-dynamic.md)
 
 * [Anteprima di elementi creativi dinamici](creative-preview.md)
 

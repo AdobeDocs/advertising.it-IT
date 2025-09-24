@@ -1,0 +1,82 @@
+---
+title: Aggiungere creatività dinamica a una libreria creativa
+description: Scopri come aggiungere creatività dinamica a una libreria creativa.
+feature: Creative Dynamic Creatives
+source-git-commit: 7f4bfd6072a732a779368a5f59bfe40f90e64c82
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 0%
+
+---
+
+# Aggiungere creatività dinamica a una libreria creativa
+
+Aggiungi creatività dinamica alle [librerie creative](creative-library-manage.md) da utilizzare con [esperienze annuncio](/help/creative/experiences/experience-about.md) dinamiche. È possibile creare un singolo annuncio HTML5 statico o annunci HTML5 dinamici da un singolo modello di annuncio. Per gli annunci HTML5 dinamici, utilizza le risorse in cataloghi specifici creati da file di feed.
+
+>[!PREREQUISITES]
+>
+>Prima di poter aggiungere elementi creativi dinamici a una libreria creativa, è necessario completare altri passaggi, tra cui la creazione di un modello di annuncio, il caricamento di risorse e la creazione di un modello di feed e un catalogo (annunci HTML5 dinamici). Consulta &quot;[Flusso di lavoro per annunci dinamici](/help/creative/introduction/workflow-dynamic-ads.md).&quot;
+
+<!-- This does't work for me 9/24 -- I still have to select a catalog:
+
+## Add dynamic creatives using a static HTML5 ad template
+
+1. In the main menu, click **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Click the library name.
+
+1. On the **[!UICONTROL Creatives]** tab, click **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Dynamic Ad]**.
+
+1. Specify the [dynamic ad settings](/help/creative/creative-libraries/creative-settings-dynamic.md#dynamic-ad-settings-static-html5):
+
+   1. On the [!UICONTROL Basic Details] tab, specify the ad details and the clickURL.
+
+   1. Click **[!UICONTROL Process]**.
+
+   1. On the [!UICONTROL Attributes Details] tab, specify the dynamic ad attributes.
+
+1. Click **[!UICONTROL Save]**.
+
+-->
+
+## Aggiungere creatività dinamiche utilizzando un modello di annuncio HTML5 dinamico
+
+1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Fai clic sul nome della libreria.
+
+1. Nella scheda **[!UICONTROL Creatives]**, fare clic su **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Dynamic Ad]**.
+
+1. Specifica le [impostazioni annuncio dinamico](/help/creative/creative-libraries/creative-settings-dynamic.md):
+
+   1. Specifica i dettagli di base dell’annuncio.
+
+   1. Seleziona il modello di annuncio da utilizzare per i creativi.
+
+   1. Seleziona il catalogo da cui creare gli annunci.
+
+   1. Seleziona i criteri per le righe del catalogo da utilizzare per creare annunci.
+
+   1. Mappa ogni attributo (campo annuncio dinamico) nel modello di annuncio specificato su una colonna nel file di feed specificato (etichetta catalogo).
+
+   1. Fare clic su **[!UICONTROL Continue]** per visualizzare in anteprima le creatività da generare.
+
+      Per visualizzare in anteprima un contenuto creativo specifico, seleziona la casella di controllo relativa alla riga. Filtra le creatività in base al catalogo, al valore di filtro <!-- explain more--> e alla dimensione dell&#39;annuncio in base alle esigenze.
+
+1. Salva i creativi:
+
+   * Per salvare gli annunci e aggiungerli a un [bundle creativo](/help/creative/creative-libraries/bundle-manage.md) nella libreria:
+
+      1. Fare clic su **[!UICONTROL Save and Attach to Bundle]**.
+
+      1. Fare clic su **[!UICONTROL Save]** per salvare gli annunci.
+
+      1. Selezionare i bundle, quindi fare clic su **[!UICONTROL Attach Creative to Bundles]**.
+
+   * Per salvare gli annunci, fare clic su **[!UICONTROL Save]** e quindi di nuovo su **[!UICONTROL Save]**.
+
+>[!MORELIKETHIS]
+>
+>* [Impostazioni creative dinamiche](creative-settings-dynamic.md)
+>* [Modificare un contenuto creativo dinamico in una libreria creativa](creative-edit-dynamic.md)
+>* [Flusso di lavoro per annunci dinamici](/help/creative/introduction/workflow-dynamic-ads.md)

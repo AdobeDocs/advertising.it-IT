@@ -3,16 +3,16 @@ title: Gestire le librerie creative
 description: Scopri come creare, rinominare ed eliminare le librerie creative.
 feature: Creative Libraries
 exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 5bbc8b17b0f88c928b6ab2b8805ecec10bb398fb
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
 
 # Gestire le librerie creative
 
-Puoi creare più librerie creative per ogni inserzionista. Successivamente puoi popolare ogni libreria con [creative standard](creative-add-standard.md)<!-- , dynamic creatives, --> e [bundle creativi](bundle-manage.md). Il team del tuo account Adobe può anche aggiungere creatività dinamiche alle librerie.
+Puoi creare più librerie creative per ogni inserzionista. Successivamente puoi popolare ogni libreria con [creativi standard](creative-add-standard.md), [creativi dinamici](creative-add-dynamic.md) e [bundle creativi](bundle-manage.md).
 
 ## Creare una libreria creativa
 
