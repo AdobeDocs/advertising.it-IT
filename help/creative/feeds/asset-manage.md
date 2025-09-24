@@ -2,7 +2,7 @@
 title: Gestire i file di risorse
 description: Scopri come caricare e gestire il file di risorse per un inserzionista.
 feature: Creative Dynamic Creatives
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -16,7 +16,6 @@ Gli annunci HTML5 dinamici richiedono sia un file di feed in formato foglio di c
 >[!NOTE]
 >
 > È possibile utilizzare ogni file di feed per un solo catalogo.
-
 
 ## Requisiti dei file
 

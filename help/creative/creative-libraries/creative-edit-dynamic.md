@@ -2,9 +2,9 @@
 title: Modificare un contenuto creativo dinamico in una libreria creativa
 description: Scopri come modificare un contenuto creativo dinamico in una libreria creativa.
 feature: Creative Dynamic Creatives
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
       1. Selezionare i bundle, quindi fare clic su **[!UICONTROL Attach Creative to Bundles]**.
 
-   * Per salvare gli annunci, fare clic su **[!UICONTROL Save]** e quindi di nuovo su **[!UICONTROL Save]**.
+   * Per salvare gli annunci e uscire dall&#39;installazione, fare clic su **[!UICONTROL Save]** e quindi di nuovo su **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >

@@ -2,7 +2,7 @@
 title: Impostazioni creative dinamiche
 description: Fai riferimento alle impostazioni per i contenuti creativi dinamici.
 feature: Creative Dynamic Creatives
-source-git-commit: 85fea6483ccf5db27d5730b5ebb2fb2b0957302d
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Attributes Mapping]
 
-**[!UICONTROL Enable targeting]**: i tipi di colonne nel file di feed per i quali devono essere presenti valori per creare annunci: *[!UICONTROL Profile data]*, *[!UICONTROL Geographic data], *[!UICONTROL Data pass], *[!UICONTROL Audience Segment]*.  **Nota:** queste impostazioni funzionano in modo indipendente dalle impostazioni avanzate nelle impostazioni esperienza annuncio.<!-- Clarify what qualifies for each, and explain more -->
+**[!UICONTROL Enable targeting]**: i tipi di colonne nel file di feed per i quali devono essere presenti valori per creare annunci: *[!UICONTROL Profile data]*, *[!UICONTROL Geographic data], *[!UICONTROL Data pass], *[!UICONTROL Audience Segment]*.  **Nota:** queste impostazioni funzionano in modo indipendente dalle impostazioni avanzate nelle impostazioni dell&#39;esperienza pubblicitaria.<!-- Clarify what qualifies for each, and explain more -->
 
 **[!UICONTROL Dynamic Ad Fields]** / **[!UICONTROL Maps to Catalog Labels]:**
 
