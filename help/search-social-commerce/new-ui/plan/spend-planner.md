@@ -2,9 +2,10 @@
 title: Utilizzo di [!UICONTROL Spend Planner]
 description: Scopri come utilizzare [!UICONTROL Spend Planner] per identificare la distribuzione ottimale della spesa tra i portfolio.
 feature: Search Optimization, Search Portfolios, Search Simulations
-source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
+exl-id: 966b8968-68b6-4385-9efb-e639a6729362
+source-git-commit: ff4deeb1cfbcd863e5b0ef2ac9b2f7124906c3dd
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -29,13 +30,13 @@ I rapporti sui consigli di spesa includono i seguenti dati:
 
 * Un grafico a barre per ciascuno dei portfolio, che mostra la distribuzione consigliata della spesa giornaliera (costo) e dei ricavi previsti oppure la distribuzione dei clic quando si mantiene l&#39;obiettivo di spesa giornaliera totale corrente per tutti i portfolio selezionati o per un obiettivo di spesa totale proposto. Facoltativamente, puoi applicare i target di spesa consigliati ai portfolio selezionati, che influiscono sulle offerte nel successivo ciclo di esecuzione delle offerte.
 
-## (Nuova interfaccia) Genera un report [!UICONTROL Spend Planner] dalla visualizzazione [!UICONTROL Manage] > [!UICONTROL Simulations]
+## (Nuova interfaccia) Genera un report [!UICONTROL Spend Planner]
 
-<!-- The path will probably change, so then update the heading and instructions -->
+1. Effettuare una delle seguenti operazioni:
 
-1. Nel menu principale, fare clic su **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
+   * Nel menu principale, fare clic su **[!UICONTROL Plan]>[!UICONTROL Spend Planner]**.
 
-1. Nella barra degli strumenti sopra la tabella dati, fai clic su ![Pianificazione spese](/help/search-social-commerce/assets/spend-planner-icon.png "Pianificazione spese").
+   * Nel menu principale, fare clic su **[!UICONTROL Plan]>[!UICONTROL Simulations]**. Nella barra degli strumenti sopra la tabella dati, fai clic su ![Pianificazione spese](/help/search-social-commerce/assets/spend-planner-icon.png "Pianificazione spese").
 
    Lo strumento [!UICONTROL Spend Recommendation] viene aperto nell&#39;interfaccia utente legacy.
 
@@ -108,4 +109,4 @@ I rapporti sui consigli di spesa includono i seguenti dati:
 
 1. Sopra il report, fai clic su ![Scarica](/help/search-social-commerce/assets/download-spend-recommendation.png "Scarica").
 
-   Apri o salva il file in base alla normale procedura del browser.  Per ulteriori informazioni, consulta la guida in linea del browser.
+   Apri o salva il file in base alla normale procedura del browser.  Per ulteriori informazioni, vedere la Guida in linea del browser.
