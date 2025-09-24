@@ -2,9 +2,9 @@
 title: Impostazioni creative dinamiche
 description: Fai riferimento alle impostazioni per i contenuti creativi dinamici.
 feature: Creative Dynamic Creatives
-source-git-commit: e08a3c841e733840058f85a7ecc67571631314b3
+source-git-commit: 85fea6483ccf5db27d5730b5ebb2fb2b0957302d
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -53,15 +53,15 @@ ht-degree: 0%
 
 ## Modello annuncio
 
-**[!UICONTROL Ad Template]:** il modello di annuncio da cui creare gli annunci.&lt;!— anche un&#39;opzione per caricare il proprio modello di annuncio — la necessità di aggiungere le specifiche per quella —>
+**[!UICONTROL Ad Template]:** Il modello di annuncio da cui creare gli annunci.<!-- also an option to upload your own ad template. Need to add the specs for that -->
 
-**[!UICONTROL Number of offers (Max 50)]:** il numero di offerte che è possibile creare per ogni annuncio.&lt;!— Chiarire questo — è questo il limite di frequenza (numero massimo di volte un annuncio può essere servito)? —>
+**[!UICONTROL Number of offers (Max 50)]:** Numero di offerte che è possibile creare per ogni annuncio.<!-- Clarify this: is this the frequency cap (max number of times an ad may be served)? -->
 
 ## Cataloghi
 
-**[!UICONTROL Template]:** modello di feed da utilizzare per creare gli annunci.&lt;!— è anche un&#39;opzione per caricare il proprio modello di feed — è necessario aggiungere le specifiche per tale —>
+**[!UICONTROL Template]:** Modello di feed da utilizzare per creare gli annunci.<!-- also an option to upload your own feed template.  Need to add the specs for that -->
 
-**\[Cataloghi\]**: uno o più cataloghi dell&#39;inserzionista specificato da cui generare annunci.&lt;!— anche un&#39;opzione per caricare il proprio catalogo (Non si riesce a trovare il catalogo necessario? Scarica un modello, creane uno tuo e caricalo dal tuo dispositivo.) — è necessario aggiungere le relative specifiche —>
+**\[Cataloghi\]**: uno o più cataloghi dell&#39;inserzionista specificato da cui generare annunci.<!-- also an option to upload your own catalog (Can't find the Catalog you need? Download a template, create your own, and upload it from your device.). Nneed to add the specs for that -->
 
 ### [!UICONTROL Attributes Mapping]
 
