@@ -2,9 +2,9 @@
 title: Gestire i file di risorse
 description: Scopri come caricare e gestire il file di risorse per un inserzionista.
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,13 @@ Gli annunci HTML5 dinamici richiedono sia un file di feed in formato foglio di c
 
      Per le immagini da caricare, fare riferimento all&#39;immagine utilizzando il formato `images/image_name` (ad esempio `images/300x250_acme_logo.png`.)<!-- Verify.  Also need to include the spec for how to reference images in AEM -->
 
-   * Le risorse immagine associate in formato JPEG, JPG o PNG.<!-- NOT GIF still? And is this true: The maximum file size is two (2) MB. --> Visualizza le [dimensioni creative supportate](/help/creative/creative-libraries/creative-sizes.md).
+   * Le risorse immagine associate in formato GIF, JPEG, JPG o PNG.<!-- NOT GIF still? And is this true: The maximum file size is two (2) MB. --> Visualizza le [dimensioni creative supportate](/help/creative/creative-libraries/creative-sizes.md).
 
   È possibile caricare un singolo file XLSX, un singolo file di immagine o un singolo file ZIP contenente qualsiasi combinazione di file XLSX e di file di immagine.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 * Annunci HTML5 statici:
 
-   * Una risorsa immagine per annuncio in formato JPG, JPEG o PNG.
+   * Una risorsa immagine per annuncio in formato GIF, JPG, JPEG o PNG.
 
      È possibile caricare una o più immagini in un file ZIP.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 

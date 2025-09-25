@@ -2,9 +2,9 @@
 title: Impostazioni creative dinamiche
 description: Fai riferimento alle impostazioni per i contenuti creativi dinamici.
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -49,27 +49,35 @@ ht-degree: 0%
 
 **[!UICONTROL Library]:** Libreria creativa in cui creare gli annunci. Se crei gli annunci da [!UICONTROL Creatives] > [!UICONTROL Creative Libraries], il nome della libreria è già selezionato e di sola lettura.
 
-**[!UICONTROL Ad Template Size]:** le dimensioni annuncio per il modello annuncio da cui creare l&#39;annuncio. Se selezioni prima un [!UICONTROL Ad Template] specifico, questo valore viene selezionato automaticamente.
+**[!UICONTROL Ad Template Size]:** le [dimensioni annuncio](/help/creative/creative-libraries/creative-sizes.md) per il modello annuncio da cui creare l&#39;annuncio. Se selezioni prima un [!UICONTROL Ad Template] specifico, questo valore viene selezionato automaticamente.
 
 ## Modello annuncio
 
-**[!UICONTROL Ad Template]:** il modello di annuncio da cui creare gli annunci. Seleziona un modello di annuncio esistente o carica un nuovo modello di annuncio.<!-- Need to add the specs for that -->
+**[!UICONTROL Ad Template]:** il modello di annuncio da cui creare gli annunci. Seleziona un modello di annuncio esistente o carica un nuovo modello di annuncio e seleziona il tipo di modello (*Statico* o *Dinamico*). Un modello caricato deve essere in formato ZIP e contenere i file HTML5 e il file di definizione del modello (template.TDF). <!-- Need to add more specs for that -->
 
-**[!UICONTROL Number of offers (Max 50)]:** Numero di offerte che è possibile creare per ogni annuncio.<!-- Clarify this: is this the frequency cap (max number of times an ad may be served)? -->
+**[!UICONTROL Number of offers (Max 50)]:** Il numero di prodotti da visualizzare in un carosello.
 
 ## Cataloghi
 
 **[!UICONTROL Template]:** modello di feed da utilizzare per creare gli annunci.
 
-**\[Cataloghi\]**: uno o più cataloghi da cui generare annunci. Selezionare un catalogo esistente o crearne uno nuovo scaricando un modello di feed esistente e creando e caricando il nuovo catalogo.<!-- Need to add the specs for that -->
+**\[Cataloghi\]**: uno o più cataloghi da cui generare annunci. Seleziona un catalogo esistente o creane uno nuovo scaricando un modello di feed esistente e creando e caricando il nuovo catalogo.
+
+I cataloghi caricati devono essere in formato ZIP e contenere quanto segue:
+
+* Uno o più file di feed in formato CSV, TSV o foglio di calcolo di Microsoft Excel (XLSX).<!-- Need to add more specs for that -->
+
+* Risorse di immagini in formato GIF, JPEG, JPG o PNG
+
+* (Facoltativo) Risorse video in formato MP4 o WEBM
 
 ### [!UICONTROL Attributes Mapping]
 
-**[!UICONTROL Enable targeting]**: i tipi di colonne nel file di feed per i quali devono essere presenti valori per creare annunci: *[!UICONTROL Profile data]*, *[!UICONTROL Geographic data], *[!UICONTROL Data pass], *[!UICONTROL Audience Segment]*.  **Nota:** queste impostazioni funzionano in modo indipendente dalle impostazioni avanzate nelle impostazioni dell&#39;esperienza pubblicitaria.<!-- Clarify what qualifies for each, and explain more -->
+**[!UICONTROL Enable targeting]**: <!-- "targeting options/filters," but I don't think this means user targeting since that is set in the experience/ad on DSP -->Tipi di colonne nel file di feed per i quali devono essere presenti valori per creare annunci: *[!UICONTROL Profile data]*, *[!UICONTROL Geographic data], *[!UICONTROL Data pass], *[!UICONTROL Audience Segment]*.  **Nota:** queste impostazioni funzionano in modo indipendente dalle impostazioni avanzate nelle impostazioni dell&#39;esperienza pubblicitaria.<!-- Clarify what qualifies for each, and explain more -->
 
 **[!UICONTROL Dynamic Ad Fields]** / **[!UICONTROL Maps to Catalog Labels]:**
 
-Mappa ogni attributo (campo annuncio dinamico) nel modello di annuncio specificato su una colonna nel file di feed specificato (etichetta catalogo).
+Mappa ogni attributo (campo annuncio dinamico) nel modello di annuncio specificato a una colonna nel catalogo specificato (etichetta catalogo).
 
 >[!MORELIKETHIS]
 >

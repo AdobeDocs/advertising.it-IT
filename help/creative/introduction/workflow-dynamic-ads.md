@@ -2,14 +2,16 @@
 title: Flussi di lavoro per gli annunci dinamici
 description: Scopri i flussi di lavoro per la gestione degli annunci dinamici.
 feature: Creative Dynamic Creatives
-source-git-commit: 02ac4175c1d91f4f6d65bb2d683a7909f06a287c
+source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
 
 # Flussi di lavoro per gli annunci dinamici
+
+*Utenti autorizzati a creare annunci dinamici*
 
 Puoi impostare gli annunci dinamici in due modi:
 
@@ -22,6 +24,11 @@ Puoi impostare gli annunci dinamici in due modi:
   Utilizzare questo flusso di lavoro quando persone diverse completeranno attività diverse o quando si desidera completare una sola attività alla volta.
 
 ## Flusso di lavoro 1
+
+>[!PREREQUISITES]
+>
+>* Modelli di annunci in formato HTML5
+>* Cataloghi di prodotti in formato CSV, TSV o foglio di calcolo Microsoft Excel (XLSX)
 
 1. [Crea creatività dinamica](/help/creative/creative-libraries/creative-add-dynamic.md) per una libreria creativa. Per gli annunci HTML5 dinamici, carica un modello di annuncio e i cataloghi.
 
