@@ -2,9 +2,9 @@
 title: Gestire i modelli di feed
 description: Scopri come gestire i modelli di feed.
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 <!-- We have a finite set of supported fields on the backend. I need to include that info in an appendix. -->
 
-I modelli di feed associano i campi nei file di feed con i campi nel backend di Advertising Creative. Gli annunci HTML5 dinamici, ma non gli annunci HTML5 statici, richiedono un modello di feed per creare annunci dinamici.
+I modelli di feed associano i campi nei file di feed o nei cataloghi con i campi nel backend di Advertising Creative. Gli annunci HTML5 dinamici, ma non gli annunci HTML5 statici, richiedono un modello di feed per creare annunci dinamici.
 
 Puoi utilizzare un modello di feed con più modelli di annunci.
 
@@ -101,7 +101,7 @@ Mappa ciascun campo nel file di feed su un campo nel backend di Advertising Crea
 
 >[!MORELIKETHIS]
 >
->* [Flusso di lavoro per annunci dinamici](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [Flussi di lavoro per annunci dinamici](/help/creative/introduction/workflow-dynamic-ads.md)
 >* [Gestione file risorse](/help/creative/feeds/asset-manage.md)
 >* [Gestisci cataloghi](/help/creative/feeds/catalog-manage.md)
 >* [Monitora lo stato dei processi di elaborazione catalogo](/help/creative/feeds/job-status-track.md)

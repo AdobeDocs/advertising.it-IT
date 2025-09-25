@@ -2,9 +2,9 @@
 title: Gestire i file di risorse
 description: Scopri come caricare e gestire il file di risorse per un inserzionista.
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,10 @@ Gli annunci HTML5 dinamici richiedono sia un file di feed in formato foglio di c
      È possibile caricare una o più immagini in un file ZIP.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 ## Caricare un file di risorse
+
+>[!NOTE]
+>
+>Anziché caricare i file di risorse, puoi anche caricare direttamente un catalogo quando [aggiungi elementi creativi dinamici a una libreria creativa](/help/creative/creative-libraries/creative-add-dynamic.md). Tutti i cataloghi creati diventano disponibili nella visualizzazione [!UICONTROL Catalogs] per utilizzi futuri.
 
 1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Feeds]**.
 
@@ -77,7 +81,7 @@ Tutti i file ZIP vengono decompressi automaticamente. Quando si carica un file d
 
 >[!MORELIKETHIS]
 >
->* [Flusso di lavoro per annunci dinamici](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [Flussi di lavoro per annunci dinamici](/help/creative/introduction/workflow-dynamic-ads.md)
 >* [Gestisci modelli di feed](/help/creative/feeds/feed-template-manage.md)
 >* [Gestisci cataloghi](/help/creative/feeds/catalog-manage.md)
 >* [Gestisci modelli di annunci dinamici](/help/creative/ad-templates/ad-template-manage.md)

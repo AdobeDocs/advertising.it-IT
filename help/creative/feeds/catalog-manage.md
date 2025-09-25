@@ -2,9 +2,9 @@
 title: Gestire i cataloghi dei feed
 description: Scopri come gestire i cataloghi di feed.
 feature: Creative Dynamic Creatives
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ I cataloghi di feed elaborati sono insiemi di potenziali varianti di annunci cre
 Prima di poter utilizzare le varianti di annuncio per [aggiungere annunci dinamici a una libreria creativa](/help/creative/creative-libraries/creative-add-dynamic.md), elabora il catalogo.
 
 ## Creare un catalogo {#feed-catalog-create}
+
+>[!NOTE]
+>
+>Puoi anche caricare direttamente un catalogo quando [aggiungi creatività dinamica a una libreria creativa](/help/creative/creative-libraries/creative-add-dynamic.md). Tutti i cataloghi creati diventano disponibili nella visualizzazione [!UICONTROL Catalogs] per utilizzi futuri.
 
 1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Feeds]**.
 
@@ -102,7 +106,7 @@ Archivia un catalogo per eliminarlo.
 >[!MORELIKETHIS]
 >
 >* [Monitora lo stato dei processi di elaborazione catalogo](/help/creative/feeds/job-status-track.md)
->* [Flusso di lavoro per annunci dinamici](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [Flussi di lavoro per annunci dinamici](/help/creative/introduction/workflow-dynamic-ads.md)
 >* [Gestione file risorse](/help/creative/feeds/asset-manage.md)
 >* [Gestisci modelli di feed](/help/creative/feeds/feed-template-manage.md)
 >* [Gestisci modelli di annunci dinamici](/help/creative/ad-templates/ad-template-manage.md)

@@ -2,9 +2,9 @@
 title: Impostazioni creative dinamiche
 description: Fai riferimento alle impostazioni per i contenuti creativi dinamici.
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -53,15 +53,15 @@ ht-degree: 0%
 
 ## Modello annuncio
 
-**[!UICONTROL Ad Template]:** Il modello di annuncio da cui creare gli annunci.<!-- also an option to upload your own ad template. Need to add the specs for that -->
+**[!UICONTROL Ad Template]:** il modello di annuncio da cui creare gli annunci. Seleziona un modello di annuncio esistente o carica un nuovo modello di annuncio.<!-- Need to add the specs for that -->
 
 **[!UICONTROL Number of offers (Max 50)]:** Numero di offerte che è possibile creare per ogni annuncio.<!-- Clarify this: is this the frequency cap (max number of times an ad may be served)? -->
 
 ## Cataloghi
 
-**[!UICONTROL Template]:** Modello di feed da utilizzare per creare gli annunci.<!-- also an option to upload your own feed template.  Need to add the specs for that -->
+**[!UICONTROL Template]:** modello di feed da utilizzare per creare gli annunci.
 
-**\[Cataloghi\]**: uno o più cataloghi dell&#39;inserzionista specificato da cui generare annunci.<!-- also an option to upload your own catalog (Can't find the Catalog you need? Download a template, create your own, and upload it from your device.). Nneed to add the specs for that -->
+**\[Cataloghi\]**: uno o più cataloghi da cui generare annunci. Selezionare un catalogo esistente o crearne uno nuovo scaricando un modello di feed esistente e creando e caricando il nuovo catalogo.<!-- Need to add the specs for that -->
 
 ### [!UICONTROL Attributes Mapping]
 
@@ -75,4 +75,4 @@ Mappa ogni attributo (campo annuncio dinamico) nel modello di annuncio specifica
 >
 >* [Aggiungere elementi creativi dinamici a una libreria creativa](creative-add-dynamic.md)
 >* [Modifica di elementi creativi dinamici in una libreria creativa](creative-edit-dynamic.md)
->* [Flusso di lavoro per annunci dinamici](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [Flussi di lavoro per annunci dinamici](/help/creative/introduction/workflow-dynamic-ads.md)
