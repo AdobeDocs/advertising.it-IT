@@ -2,9 +2,9 @@
 title: Aggiungere creatività dinamica a una libreria creativa
 description: Scopri come aggiungere creatività dinamica a una libreria creativa.
 feature: Creative Dynamic Creatives
-source-git-commit: 1cee56f8bd40f94b1f78536725fb8eab249b9915
+source-git-commit: 9aeb35ec5aba1c6c4c7683487ed3c0a0e22accb8
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -69,9 +69,27 @@ Aggiungi creatività dinamica alle [librerie creative](creative-library-manage.m
 
    1. Mappa ogni attributo (campo annuncio dinamico) nel modello di annuncio specificato su una colonna nel file di feed specificato (etichetta catalogo).
 
-   1. Fare clic su **[!UICONTROL Continue]** per visualizzare in anteprima le creatività da generare.
+   1. Fare clic su **[!UICONTROL Continue]** per visualizzare in anteprima le creatività da generare. Nell&#39;anteprima potete effettuare una delle seguenti operazioni:
 
-      Per visualizzare in anteprima un contenuto creativo specifico, seleziona la casella di controllo relativa alla riga. Filtra le creatività in base al catalogo, al valore di filtro <!-- explain more--> e alla dimensione dell&#39;annuncio in base alle esigenze.
+      * Per filtrare le creatività in base al catalogo, al valore di filtro <!-- explain more--> e alla dimensione dell&#39;annuncio, utilizzare i filtri sopra l&#39;area di anteprima.
+
+      * Per cercare un prodotto in base al suo ID univoco nel campo di ricerca sotto l&#39;area di anteprima.
+
+      * Per modificare le colonne visualizzate, fare clic su ![Filtro colonna](/help/creative/assets/custom-columns. "Filtro colonna") sotto l&#39;area di anteprima.
+
+      * Per visualizzare in anteprima un contenuto creativo specifico, seleziona la casella di controllo relativa alla riga.
+
+      * Modifica il contenuto:
+
+         * Per modificare il valore di una cella all&#39;interno della tabella, fare clic all&#39;interno della cella e modificare il valore. Fare clic all&#39;esterno della cella o premere il tasto **[!DNL Enter]** per salvare le modifiche.
+
+         * Per contrassegnare un singolo prodotto come predefinito<!--Explain what this means. -->, tenere premuto il cursore sulla riga e fare clic su **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**.
+
+         * (Quando l&#39;annuncio include più di un&#39;offerta) Per contrassegnare più prodotti come predefiniti, selezionare le righe (fino al numero di offerte) e fare clic su **[!UICONTROL Set as Default]** nella barra degli strumenti Azioni in blocco.
+
+      * Per eliminare un prodotto dal catalogo, posizionare il cursore sulla riga e fare clic su **[!UICONTROL ...]** > **[!UICONTROL Delete Row]**.
+
+      * (Quando l&#39;annuncio include più di un&#39;offerta) Per eliminare più prodotti dal catalogo, selezionare le righe (fino al numero di offerte) e fare clic su **[!UICONTROL Delete Row]** nella barra degli strumenti Azioni collettive.
 
 1. Salva i creativi:
 
