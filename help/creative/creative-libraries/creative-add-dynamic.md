@@ -2,9 +2,9 @@
 title: Aggiungere creatività dinamica a una libreria creativa
 description: Scopri come aggiungere creatività dinamica a una libreria creativa.
 feature: Creative Dynamic Creatives
-source-git-commit: 9aeb35ec5aba1c6c4c7683487ed3c0a0e22accb8
+source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Aggiungi creatività dinamica alle [librerie creative](creative-library-manage.m
 
    1. Seleziona i criteri per le righe del catalogo da utilizzare per creare annunci.
 
-   1. Mappa ogni attributo (campo annuncio dinamico) nel modello di annuncio specificato su una colonna nel file di feed specificato (etichetta catalogo).
+   1. Mappa ogni attributo (campo annuncio dinamico) nel modello di annuncio specificato su una colonna nel file di feed specificato (etichetta catalogo) oppure immetti valori statici.
 
    1. Fare clic su **[!UICONTROL Continue]** per visualizzare in anteprima le creatività da generare. Nell&#39;anteprima potete effettuare una delle seguenti operazioni:
 
@@ -75,13 +75,13 @@ Aggiungi creatività dinamica alle [librerie creative](creative-library-manage.m
 
       * Per cercare un prodotto in base al suo ID univoco nel campo di ricerca sotto l&#39;area di anteprima.
 
-      * Per modificare le colonne visualizzate, fare clic su ![Filtro colonna](/help/creative/assets/custom-columns. "Filtro colonna") sotto l&#39;area di anteprima.
+      * Per modificare le colonne visualizzate, fare clic su ![Filtro colonna](/help/creative/assets/custom-columns.png "Filtro colonna") sotto l&#39;area di anteprima.
 
       * Per visualizzare in anteprima un contenuto creativo specifico, seleziona la casella di controllo relativa alla riga.
 
       * Modifica il contenuto:
 
-         * Per modificare il valore di una cella all&#39;interno della tabella, fare clic all&#39;interno della cella e modificare il valore. Fare clic all&#39;esterno della cella o premere il tasto **[!DNL Enter]** per salvare le modifiche.
+         * Per modificare il valore di una cella all&#39;interno della tabella, fate clic all&#39;interno della cella e modificate il valore. Fare clic all&#39;esterno della cella o premere il tasto **[!DNL Enter]** per salvare le modifiche.
 
          * Per contrassegnare un singolo prodotto come predefinito<!--Explain what this means. -->, tenere premuto il cursore sulla riga e fare clic su **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**.
 

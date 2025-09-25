@@ -2,9 +2,9 @@
 title: Modificare un contenuto creativo dinamico in una libreria creativa
 description: Scopri come modificare un contenuto creativo dinamico in una libreria creativa.
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,28 @@ ht-degree: 0%
 1. Posizionare il cursore sulla riga creativa e fare clic su **[!UICONTROL Edit]**.
 
 1. Modifica le [impostazioni annuncio dinamico](creative-settings-dynamic.md).
+
+1. Fare clic su **[!UICONTROL Continue]** per visualizzare in anteprima le creatività da generare. Nell&#39;anteprima potete effettuare una delle seguenti operazioni:
+
+   * Per filtrare le creatività in base al catalogo, al valore di filtro <!-- explain more--> e alla dimensione dell&#39;annuncio, utilizzare i filtri sopra l&#39;area di anteprima.
+
+   * Per cercare un prodotto in base al suo ID univoco nel campo di ricerca sotto l&#39;area di anteprima.
+
+   * Per modificare le colonne visualizzate, fare clic su ![Filtro colonna](/help/creative/assets/custom-columns.png "Filtro colonna") sotto l&#39;area di anteprima.
+
+   * Per visualizzare in anteprima un contenuto creativo specifico, seleziona la casella di controllo relativa alla riga.
+
+   * Modifica il contenuto:
+
+      * Per modificare il valore di una cella all&#39;interno della tabella, fate clic all&#39;interno della cella e modificate il valore. Fare clic all&#39;esterno della cella o premere il tasto **[!DNL Enter]** per salvare le modifiche.
+
+      * Per contrassegnare un singolo prodotto come predefinito<!--Explain what this means. -->, tenere premuto il cursore sulla riga e fare clic su **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**.
+
+      * (Quando l&#39;annuncio include più di un&#39;offerta) Per contrassegnare più prodotti come predefiniti, selezionare le righe (fino al numero di offerte) e fare clic su **[!UICONTROL Set as Default]** nella barra degli strumenti Azioni in blocco.
+
+      * Per eliminare un prodotto dal catalogo, posizionare il cursore sulla riga e fare clic su **[!UICONTROL ...]** > **[!UICONTROL Delete Row]**.
+
+      * (Quando l&#39;annuncio include più di un&#39;offerta) Per eliminare più prodotti dal catalogo, selezionare le righe (fino al numero di offerte) e fare clic su **[!UICONTROL Delete Row]** nella barra degli strumenti Azioni collettive.
 
 1. Salva i creativi:
 
