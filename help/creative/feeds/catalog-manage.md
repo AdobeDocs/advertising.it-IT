@@ -2,9 +2,9 @@
 title: Gestire i cataloghi dei feed
 description: Scopri come gestire i cataloghi di feed.
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: 31651c4e30d22b4d1639ef3fc05d5ff9e02dd040
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 I cataloghi di feed elaborati sono insiemi di potenziali varianti di annunci creati da un file di feed specificato e da un modello di feed specificato. Gli annunci HTML5 dinamici, ma non gli annunci HTML5 statici, richiedono un catalogo per creare annunci dinamici.
 
-Prima di poter utilizzare le varianti di annuncio per [aggiungere annunci dinamici a una libreria creativa](/help/creative/creative-libraries/creative-add-dynamic.md), elabora il catalogo.
+Prima di poter creare varianti di annunci e [aggiungere annunci dinamici a una libreria creativa](/help/creative/creative-libraries/creative-add-dynamic.md), elabora il catalogo. In seguito sarà possibile aggiornare il file di feed e rielaborare il catalogo per creare un nuovo set di varianti di annunci.<!-- I should list somewhere what happens when you add, update, or remove: I don't think we rewrite existing ads in the creative library, but only add to them. -->
 
 ## Creare un catalogo {#feed-catalog-create}
 
