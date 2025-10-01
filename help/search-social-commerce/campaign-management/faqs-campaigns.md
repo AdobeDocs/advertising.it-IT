@@ -3,7 +3,7 @@ title: Domande frequenti sulle campagne
 description: Vedi le risposte alle domande sulla gestione delle campagne e sulle visualizzazioni dati delle campagne.
 exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: 88b415fff52d623a5daeb00355bfe00054d5402b
 workflow-type: tm+mt
 source-wordcount: '1585'
 ht-degree: 0%
@@ -21,9 +21,9 @@ Non spostare o copiare una campagna o un componente della campagna con un ID uni
 
 +++Quando i dati dei clic vengono aggiornati dalle reti di annunci?
 
-Il processo di estrazione dei dati di clic del giorno precedente dai motori di ricerca inizia alle 06:00 nel fuso orario dell’inserzionista.
+Il processo di estrazione dei dati di clic del giorno precedente dai motori di ricerca inizia alle 06:00 nel fuso orario dell&#39;inserzionista.
 
-Inoltre, [!DNL Google Ads] metriche delle prestazioni a livello di campagna nella rete di ricerca per il giorno corrente vengono richiamate alle 08:00 e alle 16:00 nel fuso orario dell&#39;inserzionista.
+Inoltre, le metriche delle prestazioni a livello di campagna [!DNL Google Ads] nella rete di ricerca per il giorno corrente vengono richiamate alle ore 08:00 e 16:00 nel fuso orario dell&#39;inserzionista.
 +++
 
 +++Quali azioni causano la perdita di cronologia di parole chiave e annunci?
@@ -70,14 +70,14 @@ A seconda delle [impostazioni dei dati del feed](/help/search-social-commerce/ca
 Se si modificano i nomi visualizzati delle metriche di conversione in Search, Social e Commerce, le modifiche vengono sovrascritte con i nomi configurati in [!DNL Google Ads]. Apportare le modifiche al nome in [!DNL Google Ads].
 +++
 
-+++(campagne Google Ads) Posso utilizzare un budget condiviso per le campagne nei portfolio?
++++(Campagne Google Ads) Posso utilizzare un budget condiviso per le campagne nei portfolio?
 
 Per risultati ottimali, non aggiungere [!DNL Google Ads] campagne a un budget condiviso [!DNL Google Ads] se si trovano in portfolio ottimizzati configurati per &quot;[!UICONTROL Auto adjust campaign budget limits]&quot;. In caso contrario, [!DNL Google Ads] sostituisce i budget delle campagne ottimizzate per Search, Social e Commerce, il che potrebbe causare inefficienze nelle offerte.
 +++
 
 +++([!DNL Google Ads] campagne) Posso inviare utenti mobili e non mobili a pagine di destinazione diverse?
 
-È possibile utilizzare i parametri `{ifmobile}` e `{ifnotmobile}` di [!DNL Google Ads] [!DNL ValueTrack] per determinare il nome di dominio della pagina di destinazione in uno dei due modi applicabili ai siti:
+È possibile utilizzare i parametri [!DNL Google Ads] e [!DNL ValueTrack] di `{ifmobile}` `{ifnotmobile}` per determinare il nome di dominio della pagina di destinazione in uno dei due modi applicabili ai siti:
 
 * Includere la designazione mobile come server host utilizzando `{ifmobile:m}{ifnotmobile:www}`.
 
@@ -97,7 +97,7 @@ In entrambi i casi, gli URL di base con monitoraggio di Search, Social e Commerc
 
 +++([!DNL Google Ads] campagne nella rete di ricerca) Per quali dati viene visualizzato oggi?
 
-Le metriche delle prestazioni a livello di campagna [!DNL Google Ads] nella rete di ricerca per il giorno corrente vengono richiamate alle 08:00 e alle 16:00 nel fuso orario dell&#39;inserzionista.
+Le metriche delle prestazioni a livello di campagna [!DNL Google Ads] nella rete di ricerca per il giorno corrente vengono richiamate alle ore 08:00 e 16:00 nel fuso orario dell&#39;inserzionista.
 
 Nella scheda [!UICONTROL Campaigns] sia nella visualizzazione [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] che nella visualizzazione [!UICONTROL Optimization] > [!UICONTROL Portfolios], quando si esegue il report su [!UICONTROL Today] o un intervallo di date personalizzato che include il giorno corrente, i dati includono quelli sincronizzati più di recente.
 
@@ -124,7 +124,7 @@ Search, Social e Commerce supportano il tracciamento parallelo per le campagne d
 Quando un utente visualizza l’annuncio su un browser che non supporta il tracciamento parallelo, la rete di annunci utilizza invece il tracciamento sequenziale: i clienti vengono inizialmente inviati all’URL del modello di tracciamento, che può reindirizzare i clienti ai server di tracciamento intermedi prima di reindirizzarli all’URL finale (che può includere parametri aggiuntivi nel suffisso di una pagina di destinazione). Tutti i modelli di tracciamento per un account di rete di annunci devono includere lo stesso parametro dell&#39;identificatore di clic utilizzato in [!UICONTROL Landing Page Suffix]. Consulta i formati del modello di tracciamento [ per  [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) e i formati del modello di tracciamento [ per  [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 +++
 
-+++Perché gli URL di tracciamento per i miei annunci includono &quot;`&EV_HASH={<hash>}`&quot;?&quot;
++++Perché gli URL di tracciamento per i miei annunci includono &quot;`&EV_HASH={<hash>}`&quot;?
 
 Quando carichi gli annunci utilizzando un [feed inventario prodotto](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) per un account con reindirizzamento pixel di Search, Social e Commerce e con tracciamento a livello di parola chiave e creatività, Search, Social e Commerce aggiungono il parametro e il valore hash al modello di tracciamento dell&#39;annuncio o all&#39;URL di destinazione per identificare che è stato creato utilizzando la funzione di feed inventario.
 +++
@@ -140,14 +140,14 @@ Quando sospendi gli annunci, questi vengono riattivati se invii nuovamente lo st
 Quando elimini gli annunci e li invii nuovamente, vengono creati nuovi annunci e devono essere accumulati dati storici per i nuovi annunci. Tuttavia, se non prevedi di inviare nuovamente gli annunci eliminati, non è importante disporre di dati storici.
 +++
 
-+++(Feed inventario prodotti) Se elimino un modello di annuncio e ne creo uno nuovo e identico, gli elementi mancanti nel file di feed successivo verranno messi in pausa (quando le impostazioni del file di feed sono configurate per farlo)?
++++(Feed di inventario del prodotto) Se elimino un modello di annuncio e ne creo uno nuovo e identico, gli elementi mancanti nel file di feed successivo vengono messi in pausa (quando le impostazioni del file di feed sono configurate per farlo)?
 
 Se nel file di feed successivo mancano elementi di riga e in precedenza non sono stati inseriti tali elementi di riga dal nuovo modello tramite un file di feed precedente, gli elementi di riga mancanti non vengono riconosciuti come &quot;mancanti&quot;, pertanto non vengono creati. Per evitare questo problema, propaga il file di feed precedente tramite il nuovo modello e pubblica i dati prima di propagarli e pubblicarli da un nuovo file.
 +++
 
 +++(Feed inventario prodotti) Posso aggiornare i prezzi dei miei prodotti senza influire sul punteggio di qualità di un annuncio?
 
-Per le campagne [!DNL Google Ads], sì: le variabili `{Param 1}` e `{Param 2}` di [!DNL Google Ads] consentono di inserire in modo dinamico valori numerici in una variante di annuncio senza eliminare e ricreare l&#39;annuncio e quindi senza influire sul punteggio di qualità.
+Per le campagne [!DNL Google Ads], sì: le variabili [!DNL Google Ads] e `{Param 1}` di `{Param 2}` consentono di inserire in modo dinamico valori numerici in una variante di annuncio senza eliminare e ricreare l&#39;annuncio e quindi senza influire sul punteggio di qualità.
 
 Per utilizzare una variabile `{Param 1}` o `{Param 2}` per i dati sul prezzo, mappare la colonna del prezzo nel file di dati a tale variabile nei modelli di feed appropriati e quindi includere la variabile nei modelli di variazione dell&#39;annuncio.
 
@@ -165,6 +165,6 @@ Se le [impostazioni dei dati del feed](/help/search-social-commerce/campaign-man
 
 +++Alcune delle mie campagne spendono più o meno dei budget delle campagne.
 
-* Ciò è normale in un portfolio ottimizzato configurato con l&#39;opzione &quot;[!UICONTROL Auto-adjust campaign budget limits]&quot;. Quando questa opzione è abilitata, puoi spendere fino a *N* volte il budget di ogni campagna, dove *N* è il valore dell&#39;impostazione &quot;[!UICONTROL Multiple]&quot;. Questa opzione consente alla funzionalità di ottimizzazione di adeguare la spesa per le singole campagne in base alle esigenze, indirizzando l’intero portfolio al raggiungimento del proprio obiettivo.
+* Ciò è normale in un portfolio ottimizzato configurato con l&#39;opzione &quot;[!UICONTROL Auto adjust campaign budget limits]&quot;. Quando questa opzione è abilitata, puoi spendere fino a *N* volte il budget di ogni campagna, dove *N* è il valore dell&#39;impostazione &quot;[!UICONTROL Multiple]&quot;. Questa opzione consente alla funzionalità di ottimizzazione di adeguare la spesa per le singole campagne in base alle esigenze, indirizzando l’intero portfolio al raggiungimento del proprio obiettivo.
 * Se [!DNL Google Ads] campagne utilizzano un budget condiviso, [!DNL Google Ads] regola la spesa per le singole campagne in base alle necessità per spendere l&#39;intero budget condiviso.
 +++

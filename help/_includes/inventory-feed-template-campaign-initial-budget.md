@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: 119280f9a8ceffc1bdbc534b4b80f6fa268ceea3
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
@@ -11,4 +11,4 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[Aggiungi la campagna a un portfolio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md) e abilita l&#39;opzione portfolio in &quot;[!UICONTROL Auto-adjust campaign budget limits]&quot; per consentire a Search, Social e Commerce di regolare automaticamente il budget per ottimizzare la spesa per l&#39;intero portfolio.
+>[Aggiungi la campagna a un portfolio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md) e abilita l&#39;opzione portfolio in &quot;[!UICONTROL Auto adjust campaign budget limits]&quot; per consentire a Search, Social e Commerce di regolare automaticamente il budget per ottimizzare la spesa per l&#39;intero portfolio.
