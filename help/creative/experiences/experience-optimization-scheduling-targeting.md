@@ -3,9 +3,9 @@ title: Personalizzare l’ottimizzazione creativa e la pianificazione di un’es
 description: Scopri come
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
+source-git-commit: ad6f076e24d69cfa93b9306a33d9b0cd4c7e813e
 workflow-type: tm+mt
-source-wordcount: '1073'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,15 @@ Quando la pianificazione creativa è disabilitata, le impostazioni di ottimizzaz
 
 1. Disabilita **[!UICONTROL Schedule]**.
 
-1. Seleziona il tipo di rotazione creativa:
+1. Seleziona il tipo di rotazione creativa per le varianti di annunci nei bundle associati:
 
-   * *[!UICONTROL Weighted]:* Ruota manualmente le creatività in ogni bundle in base al peso relativo. Inserire il peso di ogni fascio come percentuale. La somma dei pesi di tutti i bundle deve essere 100.
+   * *[!UICONTROL Weighted]:* mostra le varianti di annunci nei bundle creativi associati in base al peso relativo. Inserire il peso di ogni fascio come percentuale. Il peso di tutti i bundle selezionati deve essere pari a 100.<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->
 
-   * *[!UICONTROL Algorithmic]:* ruota le creatività in ciascun bundle in modo algoritmico in base a un obiettivo di ottimizzazione specificato.
+   * *[!UICONTROL Algorithmic]:* mostra più spesso le varianti più efficaci dell&#39;annuncio, in base a un obiettivo specificato.
 
       * Per **[!UICONTROL Optimization Goal]**, seleziona *[!UICONTROL Click Through Rate]*, (esperienze annuncio video standard) *[!UICONTROL Completion Rate]* o *[!UICONTROL Custom Objective]*.  Se selezioni *[!UICONTROL Custom Objective]*, seleziona un [obiettivo personalizzato di Advertising DSP](/help/dsp/optimization/custom-goal.md) esistente.
 
-   * *[!UICONTROL Sequencing]:* ruota i bundle creativi associati in un ordine specificato (con il bundle 1 servito per primo, il bundle 2 servito per secondo e così via), con un numero totale specificato di impression in ogni sequenza di bundle. Le dimensioni degli annunci offerti sono determinate dall’inventario disponibile. Potete configurare il bundle finale nella sequenza su a\) per visualizzarlo indefinitamente (impostazione predefinita) o b\) per tornare al primo bundle. Ad esempio, puoi mostrare qualsiasi creativo nel Bundle 1 per tre (3) impression, poi mostrare qualsiasi creativo nel Bundle 2 per una (1) impression, quindi mostrare qualsiasi creativo nel Bundle 3 per due (2) impression, e infine ricominciare il ciclo continuo. In alternativa, una volta che i creativi nel Bundle 3 sono visualizzati, è possibile continuare a mostrare i creativi nel Bundle 3 indefinitamente, piuttosto che creare un loop. Quando si abilita la sequenza:
+   * *[!UICONTROL Sequencing]:* mostra i bundle creativi associati in un ordine specificato (con il bundle 1 servito per primo, il bundle 2 servito per secondo e così via), con un numero totale specificato di impression in ogni sequenza di bundle. Le dimensioni degli annunci offerti sono determinate dall’inventario disponibile. Potete configurare il bundle finale nella sequenza su a\) per visualizzarlo indefinitamente (impostazione predefinita) o b\) per tornare al primo bundle. Ad esempio, puoi visualizzare una qualsiasi delle varianti di annuncio nel Bundle 1 per tre (3) impression, quindi visualizzare una qualsiasi variante di annuncio nel Bundle 2 per una (1) impression, quindi visualizzare una qualsiasi delle varianti di annuncio nel Bundle 3 per due (2) impression e infine ricominciare il ciclo. In alternativa, una volta visualizzate le varianti dell’annuncio nel bundle 3, puoi continuare a visualizzare le varianti dell’annuncio nel Bundle 3 a tempo indefinito, anziché creare un loop. Quando si abilita la sequenza:
 
       1. Trascina e rilascia i bundle assegnati nell’ordine desiderato.
 
