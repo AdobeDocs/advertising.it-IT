@@ -3,9 +3,9 @@ title: Aggiungere creatività standard a una libreria creativa
 description: Scopri come aggiungere creatività standard (non dinamica) a una libreria creativa.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 5bbc8b17b0f88c928b6ab2b8805ecec10bb398fb
+source-git-commit: ecc0f6ac900292825b23b648be40dcc68ae15c64
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -52,6 +52,8 @@ Aggiungi creatività standard alle [librerie creative](creative-library-manage.m
 
    * Per rimuovere un file, deselezionare la relativa casella di controllo.
 
+1. (Facoltativo) Per visualizzare l&#39;anteprima di un contenuto creativo, fai clic su ![Anteprima](/help/creative/assets/preview.png "Anteprima") sopra l&#39;immagine.
+
 1. Specificare le [impostazioni degli annunci flessibili di HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5).
 
    Per impostazione predefinita, vengono selezionati tutti i creativi appena caricati. Tutte le impostazioni con un solo valore vengono applicate a tutti i creativi selezionati; per alcune impostazioni è possibile specificare valori singoli. Per immettere le impostazioni per creativi specifici, deseleziona la casella di controllo accanto a ciascun creativo inapplicabile.
@@ -60,7 +62,7 @@ Aggiungi creatività standard alle [librerie creative](creative-library-manage.m
 
 ### Aggiungere creatività flessibili utilizzando un modello {#flexible-creative-use-template}
 
-Puoi utilizzare uno qualsiasi dei modelli creativi flessibili caricati sul tuo account per creare annunci di dimensioni predefinite. Dopo aver selezionato un modello da utilizzare, è possibile modificare i tag e gli attributi dei clic.&lt;!— Sostituire l&#39;ultima frase con questa se si aggiunge nuovamente la funzionalità di download del modello: è possibile selezionare un\) modello da utilizzare, quindi modificare i tag e gli attributi dei clic; oppure b\) [scaricare un modello come file ZIP](#download-flexible-creative-template), modificare il contenuto offline per creare la propria creatività, quindi [caricare il file modificato come nuovo file creativo] (flexible-creative-upload).>
+Puoi utilizzare uno qualsiasi dei modelli creativi flessibili caricati sul tuo account per creare annunci di una dimensione predefinita. Dopo aver selezionato un modello da utilizzare, è possibile modificare i tag e gli attributi dei clic.&lt;!— Sostituire l&#39;ultima frase con questa se si aggiunge nuovamente la funzionalità di download del modello: è possibile selezionare un\) modello da utilizzare, quindi modificare i tag e gli attributi dei clic; oppure b\) [scaricare un modello come file ZIP](#download-flexible-creative-template), modificare il contenuto offline per creare la propria creatività, quindi [caricare il file modificato come nuovo file creativo](flexible-creative-upload).>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -78,7 +80,7 @@ For information about the attributes available in predefined templates, see "[Av
 
 1. (Facoltativo) Per visualizzare l&#39;anteprima del modello, fare clic su **[!UICONTROL ...]** accanto al nome del modello e quindi su **[!UICONTROL Preview]**.
 
-   Facoltativamente, puoi scaricare il modello
+   È possibile scaricare il modello: fare clic su **[!UICONTROL ...]** accanto al nome del modello, quindi fare clic su **[!UICONTROL Download]**.
 
 1. Accanto al nome del modello, fare clic su **[!UICONTROL ...]** e quindi su **[!UICONTROL Use Selected]**.
 
@@ -86,18 +88,15 @@ For information about the attributes available in predefined templates, see "[Av
 
    La dimensione massima del file del contenuto creativo, una volta compresso, è di 2 MB.<!-- Still true? -->
 
+1. Aggiungi o rimuovi i tuoi file creativi flessibili:
+
+   * Per aggiungere un file dal dispositivo o dalla rete, fai clic su ![Aggiungi](/help/creative/assets/create.png "Aggiungi") in alto a sinistra e individua il file. Selezionare la casella di controllo accanto al contenuto creativo, deselezionare la casella di controllo accanto agli altri contenuti creativi e modificare le [impostazioni creative flessibili di HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) per specificare la lingua e includere tag di clic, immagini e altri attributi personalizzati.
+
+   * Per rimuovere un file, deselezionare la relativa casella di controllo.
+
+1. (Facoltativo) Per visualizzare l&#39;anteprima di un contenuto creativo, fai clic su ![Anteprima](/help/creative/assets/preview.png "Anteprima") sopra l&#39;immagine.
+
 1. Fare clic su **[!UICONTROL Create]**.
-
-<!-- Not options as of 5/22/25:
-
-1. In the left panel, select the creative size to see all available templates for that size.
-
-1. Select the template:
-
-   * In card view, click **[!UICONTROL ...]** next to the template name, and then click **[!UICONTROL Use Selected]**.
-     
-   * In table view, hold the cursor over the row and click **[!UICONTROL Use Selected]**.
--->
 
 ## Aggiungere un contenuto creativo HTML5 a una libreria creativa
 
