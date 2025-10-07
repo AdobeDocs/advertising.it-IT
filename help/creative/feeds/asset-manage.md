@@ -2,16 +2,16 @@
 title: Gestire i file di risorse
 description: Scopri come caricare e gestire il file di risorse per un inserzionista.
 feature: Creative Dynamic Creatives
-source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
+source-git-commit: af29637d42b9932933cd23a64d6a0e2b7084fa31
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
 # Gestire i file di risorse
 
-Gli annunci HTML5 dinamici richiedono sia un file di feed in formato foglio di calcolo Microsoft Excel (XLSX) sia le risorse immagine a cui si fa riferimento nel foglio di calcolo (ad eccezione dei riferimenti alle risorse Adobe Experience Manager). Gli annunci statici di HTML5 richiedono una sola risorsa immagine per annuncio.
+Gli annunci dinamici di HTML5 richiedono sia un file di feed in formato foglio di calcolo di Microsoft Excel (XLSX) sia le risorse immagine a cui si fa riferimento nel foglio di calcolo. Gli annunci statici di HTML5 richiedono una sola risorsa immagine per annuncio.
 
 
 >[!NOTE]
@@ -28,9 +28,7 @@ Gli annunci HTML5 dinamici richiedono sia un file di feed in formato foglio di c
 
    * Le risorse immagine associate in formato GIF, JPEG, JPG o PNG.<!-- Is this true: The maximum file size is two (2) MB. --> Visualizza le [dimensioni creative supportate](/help/creative/creative-libraries/creative-sizes.md).
 
-   * (Facoltativo) Risorse video in formato MP4 o WEBM
-
-  È possibile caricare un singolo file XLSX, un singolo file di immagine o video o un singolo file ZIP contenente qualsiasi combinazione di file XLSX, di immagini e di video.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
+  È possibile caricare un singolo file XLSX, un singolo file di immagine o un singolo file ZIP contenente qualsiasi combinazione di file XLSX e di file di immagine.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 * Annunci HTML5 statici:
 
