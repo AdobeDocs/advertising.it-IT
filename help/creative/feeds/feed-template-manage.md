@@ -2,9 +2,9 @@
 title: Gestire i modelli di feed
 description: Scopri come gestire i modelli di feed.
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,9 @@ I modelli di feed scaricati sono in formato foglio di calcolo Microsoft Excel (X
 
 ### [!UICONTROL Field Mapping] impostazioni
 
-Mappa ciascun campo nel file di feed su un campo nel backend di Advertising Creative.<!-- Check w/product: What is displayed where in the UI/reports and published ads? --> Almeno un campo del file di feed deve essere contrassegnato come &quot;[!UICONTROL Is Unique]&quot;. Per aggiungere un mapping di campi, fare clic su **[!UICONTROL +]**. Per rimuovere l&#39;ultimo mapping di campi, fare clic su **[!UICONTROL +]**.
+Mappa ciascun campo nel file di feed su un campo nel backend di Advertising Creative. Per un elenco dei campi back-end e dei relativi attributi obbligatori, vedere &quot;[Campi disponibili per i file di feed di annunci dinamici](/help/creative/appendix-available-feed-fields.md)&quot;.<!-- Check w/product: What is displayed where in the UI/reports and published ads? -->
+
+Almeno un campo del file di feed deve essere contrassegnato come &quot;[!UICONTROL Is Unique]&quot;. Per aggiungere un mapping di campi, fare clic su **[!UICONTROL +]**. Per rimuovere l&#39;ultimo mapping di campi, fare clic su **[!UICONTROL +]**.
 
 **[!UICONTROL Field Name]:** Il campo nel file di feed.
 
@@ -97,7 +99,7 @@ Mappa ciascun campo nel file di feed su un campo nel backend di Advertising Crea
 
 **[!UICONTROL Is Unique]:** indica che il campo è un ID univoco (chiave). Almeno un campo per modello di feed deve essere univoco. Per selezionare questa opzione, fare clic sul pulsante per spostarla a destra.<!-- **Note: The unique identifier is different from the feed "trigger" in experience settings. -->
 
-**[!UICONTROL Backend Field]:** Il campo nel backend di Advertising Creative mappato su [!UICONTROL Field Name] specificato nel file di feed.
+**[!UICONTROL Backend Field]:** Il campo [ nel backend di Advertising Creative](/help/creative/appendix-available-feed-fields.md) mappato a [!UICONTROL Field Name] specificato nel file di feed.
 
 >[!MORELIKETHIS]
 >

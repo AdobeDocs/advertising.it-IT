@@ -2,9 +2,9 @@
 title: Flussi di lavoro per gli annunci dinamici
 description: Scopri i flussi di lavoro per la gestione degli annunci dinamici.
 feature: Creative Dynamic Creatives
-source-git-commit: f25b0edea0f264f8ebd7c487112a7cbfca32c9e0
+source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Puoi impostare gli annunci dinamici in due modi:
 
 ## Flusso di lavoro 2
 
-1. [Crea un modello di annuncio](/help/creative/ad-templates/ad-template-manage.md) per gli annunci dinamici in base alle risorse disponibili.
+1. [Crea un modello di annuncio](/help/creative/ad-templates/ad-template-manage.md) per gli annunci dinamici in base alle risorse disponibili. Il modello di annuncio include un file HTML5 con il formato di annuncio desiderato e (solo annunci HTML5 dinamici) un file con gli attributi dell’annuncio.
 
 1. Configura gli elementi annuncio:
 

@@ -2,9 +2,9 @@
 title: Gestire i file di risorse
 description: Scopri come caricare e gestire il file di risorse per un inserzionista.
 feature: Creative Dynamic Creatives
-source-git-commit: 4b3db40b3c0fb68e2b3d84b8d95c5d3fbd549d7b
+source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ Gli annunci HTML5 dinamici richiedono sia un file di feed in formato foglio di c
 
 * Annunci dinamici HTML5:
 
-   * Un file di feed in formato CSV, TSV o foglio di calcolo Microsoft Excel (XLSX), con una riga di intestazione e una riga di dati per ogni variante di annuncio. Includere un nome immagine o un riferimento a un Adobe Experience Manager in ogni riga.<!-- need spec of available column names that the user-created header names must map to; need to reference it in feed template topic too, so make it a separate file/appendix. -->
+   * Un file di feed in formato CSV, TSV o foglio di calcolo Microsoft Excel (XLSX), con una riga di intestazione e una riga di dati per ogni variante di annuncio. Includere un nome immagine in ogni riga utilizzando il formato `images/image_name` (ad esempio `images/300x250_acme_logo.png`).
 
-     Per le immagini da caricare, fare riferimento all&#39;immagine utilizzando il formato `images/image_name` (ad esempio `images/300x250_acme_logo.png`.)<!-- Verify.  Also need to include the spec for how to reference images in AEM -->
+     I nomi dei campi specifici dell&#39;inserzionista devono corrispondere ai [campi disponibili per i file di feed di annunci dinamici](/help/creative/appendix-available-feed-fields.md).
 
    * Le risorse immagine associate in formato GIF, JPEG, JPG o PNG.<!-- Is this true: The maximum file size is two (2) MB. --> Visualizza le [dimensioni creative supportate](/help/creative/creative-libraries/creative-sizes.md).
 
@@ -84,6 +84,7 @@ Tutti i file ZIP vengono decompressi automaticamente. Quando si carica un file d
 
 >[!MORELIKETHIS]
 >
+>* [Campi disponibili per i file di feed di annunci dinamici](/help/creative/appendix-available-feed-fields.md)
 >* [Flussi di lavoro per annunci dinamici](/help/creative/introduction/workflow-dynamic-ads.md)
 >* [Gestisci modelli di feed](/help/creative/feeds/feed-template-manage.md)
 >* [Gestisci cataloghi](/help/creative/feeds/catalog-manage.md)
