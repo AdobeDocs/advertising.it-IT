@@ -99,7 +99,7 @@ Almeno un campo del file di feed deve essere contrassegnato come &quot;[!UICONTR
 
 **[!UICONTROL Is Unique]:** indica che il campo è un ID univoco (chiave). Almeno un campo per modello di feed deve essere univoco. Per selezionare questa opzione, fare clic sul pulsante per spostarla a destra.<!-- **Note: The unique identifier is different from the feed "trigger" in experience settings. -->
 
-**[!UICONTROL Backend Field]:** Il campo [ nel backend di Advertising Creative](/help/creative/appendix-available-feed-fields.md) mappato a [!UICONTROL Field Name] specificato nel file di feed.
+**[!UICONTROL Backend Field]:** Il campo [&#x200B; nel backend di Advertising Creative](/help/creative/appendix-available-feed-fields.md) mappato a [!UICONTROL Field Name] specificato nel file di feed.
 
 >[!MORELIKETHIS]
 >
