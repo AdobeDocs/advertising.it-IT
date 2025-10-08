@@ -3,9 +3,9 @@ title: Partner SSP
 description: Consulta un elenco della piattaforma lato offerta (SSP, Supply-Side Platform) e dei partner di scambio aperti.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 0e1f2e62394f2997bde7feba82592ab6fef9e4b6
+source-git-commit: 93f2ce3783d80d98a25e5c7a31cfc6ad6c475a94
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Una piattaforma lato offerta (SSP, supply-side platform) è una piattaforma tecn
 | [!DNL GumGum] |  | Adobe Advertising | — | Globale | USD | Visualizza desktop e dispositivi mobili<br><br>Desktop video e dispositivi mobili |
 | [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | — | Globale | USD | Visualizza desktop e dispositivi mobili<br><br>Desktop video, dispositivi mobili e CTV |
 | [!DNL Magnite DV+] | [!DNL Magnite] (precedentemente [!DNL Rubicon]) | [!DNL TubeMogul] o Adobe Advertising | Supporto PG | Globale | USD | Desktop e dispositivo mobile<br><br>Desktop e dispositivo mobile<br><br>Desktop video, dispositivo mobile e CTV |
-| [!DNL Magnite SpringServe (formerly Magnite Streaming)] | [!DNL Magnite] (in precedenza [!DNL Telaria] e [!DNL Tremor]) | [!DNL TubeMogul] o Adobe Advertising | Supporto PG | Globale | USD | Desktop video, dispositivi mobili e TVCC |
+| [!DNL Magnite SpringServe (formerly Magnite Streaming)] | [!DNL Magnite] (in precedenza [!DNL Telaria] e [!DNL Tremor]) | [!DNL TubeMogul] o Adobe Advertising | Supporto PG | Globale | AUD, USD | Desktop video, dispositivi mobili e TVCC |
 | [!DNL Microsoft Monetize] | [!DNL Microsoft] (in precedenza [!DNL Xandr], [!DNL AppNexus]) | ID postazione video: 9094<br>ID postazione di visualizzazione: 3939 | — | Globale | USD | Visualizza desktop e dispositivi mobili<br><br>Desktop video, dispositivi mobili e CTV |
 | [!DNL Nexxen] | [!DNL Nexxen] (precedentemente [!DNL Unruly]) | Adobe Advertising | — | USA + EMEA | USD | Visualizza desktop e dispositivi mobili<br><br>Desktop video, dispositivi mobili e CTV |
 | [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] o Adobe Advertising | Supporto PG | Globale | USD | Visualizza desktop e dispositivi mobili<br><br>Desktop video, dispositivi mobili e CTV |
