@@ -3,9 +3,9 @@ title: Layout dell’albero delle decisioni
 description: Scopri il layout della struttura decisionale per le esperienze con targeting.
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
-source-git-commit: 7bcafc7c70333bb6f523873ed08f2bc5123823f7
+source-git-commit: 4057f413b58343580a965f9a419af1e002892ff6
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Inizialmente, ogni albero decisionale inizia con il livello principale, &quot;Al
 >[!NOTE]
 >
 >You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.<!-- Explain the diff and why to choose the other option. -->
->-->
+-->
 
 ## Termini
 
@@ -36,7 +36,9 @@ Inizialmente, ogni albero decisionale inizia con il livello principale, &quot;Al
 
 ## Destinazioni in un albero decisionale
 
-Ogni albero decisionale può avere fino a cinque livelli di target. Ogni livello di destinazione può includere più rami, ciascuno con uno o più nodi con lo stesso tipo di destinazione (segmento di pubblico, tipo di posizione geografica, valori per chiavi di passaggio dati specificate, attributi per un pixel di retargeting specificato o una categoria di dispositivi). Puoi assegnare ai nodi di destinazione di livello inferiore dei bundle creativi in ogni dimensione dell’annuncio per la quale hai specificato un’immagine creativa o creativa video predefinita.
+Ogni albero decisionale può avere fino a cinque livelli di target. I target a livello di esperienza vengono applicati insieme alle opzioni di targeting del tuo DSP; il comportamento di targeting gerarchico può variare a seconda di DSP. Assicurati che le esperienze dell’annuncio includano un targeting compatibile con le campagne in cui lo implementerai.
+
+Ogni livello di destinazione può includere più rami, ciascuno con uno o più nodi con lo stesso tipo di destinazione (segmento di pubblico, tipo di posizione geografica, valori per chiavi di passaggio dati specificate, attributi per un pixel di retargeting specificato o una categoria di dispositivi). Puoi assegnare ai nodi di destinazione di livello inferiore dei bundle creativi in ogni dimensione dell’annuncio per la quale hai specificato un’immagine creativa o creativa video predefinita.
 
 ![Esempio di struttura decisionale con destinazioni](/help/creative/assets/experience-decision-tree.png "Esempio di struttura decisionale con destinazioni")
 
