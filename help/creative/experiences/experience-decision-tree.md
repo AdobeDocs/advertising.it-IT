@@ -3,9 +3,9 @@ title: Layout dell’albero delle decisioni
 description: Scopri il layout della struttura decisionale per le esperienze con targeting.
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 7bcafc7c70333bb6f523873ed08f2bc5123823f7
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Inizialmente, ogni albero decisionale inizia con il livello principale, &quot;Al
 >[!NOTE]
 >
 >You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.<!-- Explain the diff and why to choose the other option. -->
->-->
+-->
 
 ## Termini
 
@@ -50,7 +50,7 @@ Per tutti i nodi principali, puoi facoltativamente copiare tutti i nodi di desti
 
 Assegna bundle creativi a ogni nodo di destinazione finale nell’esperienza.
 
-All’interno di ogni nodo con bundle creativi, puoi facoltativamente ruotare i creativi inclusi a) in base a pesi specificati o b) algoritmicamente per ottimizzare il tasso di click-through o un obiettivo personalizzato. È inoltre possibile ruotare i creativi in una sequenza temporale specifica utilizzando le stesse opzioni.
+All’interno di ogni nodo con bundle creativi, puoi facoltativamente ruotare i creativi inclusi a) algoritmicamente per ottimizzare il tasso di click-through o un obiettivo personalizzato, b) in base a pesi specifici, o c) in una sequenza specifica. Facoltativamente, è anche possibile ruotare i creativi in una sequenza temporale specifica o in una combinazione delle stesse opzioni.
 
 Facoltativamente, puoi personalizzare gli URL della pagina di destinazione, degli URL di tracciamento delle impression e degli URL di tracciamento dei clic, in base alle esigenze dei singoli creativi. <!-- Not in the UI as of 1/31: For flexible HTML5 creatives, you can customize any of the flexible attributes. -->
 

@@ -3,9 +3,9 @@ title: Personalizzare l’ottimizzazione creativa e la pianificazione di un’es
 description: Scopri come
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: ad6f076e24d69cfa93b9306a33d9b0cd4c7e813e
+source-git-commit: 7bcafc7c70333bb6f523873ed08f2bc5123823f7
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Solo nodi di destinazione con creatività esistente*
 
-Per impostazione predefinita, la rotazione creativa di un’esperienza viene determinata algoritmicamente per ottimizzare il tasso di click-through complessivo e le impostazioni di ottimizzazione creativa si applicano a tutti i bundle assegnati. Puoi personalizzare la rotazione creativa per eseguire manualmente le creatività in ciascun bundle per ottimizzare in modo algoritmico per un obiettivo personalizzato Advertising DSP specificato; in base a una sequenza di bundle specificata, con un numero specificato di impression in ogni sequenza di bundle; o in base a pesi relativi. Puoi anche pianificare l’esecuzione di specifici bundle creativi durante specifici periodi di tempo sequenziali e applicare impostazioni personalizzate di rotazione creativa per ogni pianificazione.
+Per impostazione predefinita, la rotazione creativa di un’esperienza viene determinata algoritmicamente per ottimizzare il tasso di click-through complessivo e le impostazioni di ottimizzazione creativa si applicano a tutti i bundle assegnati. In alternativa, puoi ottimizzare algoritmicamente per un obiettivo personalizzato di Advertising DSP specifico, ruotare i bundle in base a una sequenza di bundle specificata, con un numero specificato di impression su ciascuna sequenza di bundle o in base al peso relativo. Puoi anche pianificare l’esecuzione di specifici bundle creativi durante specifici periodi di tempo sequenziali e applicare impostazioni personalizzate di rotazione creativa per ogni pianificazione.
 
 >[!NOTE]
 >
