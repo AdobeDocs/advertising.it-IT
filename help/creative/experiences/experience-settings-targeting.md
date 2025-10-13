@@ -3,9 +3,9 @@ title: Impostazioni delle esperienze mirate
 description: Vedi le descrizioni di tutte le impostazioni per le esperienze annuncio mirate.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 867abdaea31c78214061c4a0fd8401877edfbe38
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,8 @@ Per le esperienze con targeting di alberi delle decisioni, è possibile sostitui
 * Per mostrare o nascondere il riquadro Creative a destra, fare clic su ![Mostra/Nascondi](/help/creative/assets/hide-show-creatives.png "Mostra/Nascondi") in alto a destra.
 
 ## [!UICONTROL Targeting] sezione
+
+I target a livello di esperienza vengono applicati insieme alle opzioni di targeting del tuo DSP; il comportamento di targeting gerarchico può variare a seconda di DSP. Ad esempio, Adobe Advertising DSP applica il targeting a livello di annuncio sul targeting a livello di posizionamento (non al suo posto). Assicurati che le esperienze dell’annuncio includano un targeting compatibile con le campagne in cui lo implementerai.
 
 **[!UICONTROL Targeting]:** (sola lettura per le esperienze esistenti) Abilita il targeting creativo utilizzando una struttura decisionale e la creazione automatica di tag. Una volta salvata l&#39;esperienza, non puoi modificare questa impostazione.
 
