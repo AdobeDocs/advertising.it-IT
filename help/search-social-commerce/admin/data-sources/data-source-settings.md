@@ -28,9 +28,9 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulla sincronizzazione [!DNL Google Analytics] metriche di conversione](data-source-about.md)
->* [Prerequisiti per la configurazione di un&#39;origine dati [!DNL Google Analytics] ](data-source-prerequisites.md)
+>* [Prerequisiti per la configurazione di un&#39;origine dati [!DNL Google Analytics] &#x200B;](data-source-prerequisites.md)
 >* [Configurare una visualizzazione  [!DNL Google Analytics] come origine dati](data-source-configure.md)
->* [Modifica origine dati [!DNL Google Analytics] ](data-source-edit.md)
+>* [Modifica origine dati [!DNL Google Analytics] &#x200B;](data-source-edit.md)
 >* [Sospendi la sincronizzazione di un&#39;origine dati](data-source-pause.md)
->* [Autentica nuovamente un&#39;origine dati [!DNL Google Analytics] ](data-source-reauthenticate.md)
+>* [Autentica nuovamente un&#39;origine dati [!DNL Google Analytics] &#x200B;](data-source-reauthenticate.md)
 >* [Appendice - Disponibile [!DNL Google Analytics] metriche](data-source-ga-metrics.md)

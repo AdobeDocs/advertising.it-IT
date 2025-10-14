@@ -16,7 +16,7 @@ Solo *[!DNL Google Ads]account*
 
 I posizionamenti sono posizioni sulla rete di visualizzazione in cui possono essere visualizzati gli annunci. Le impostazioni di posizionamento includono l’offerta massima e i parametri di tracciamento facoltativi. Le impostazioni a livello di posizionamento sostituiscono le impostazioni del gruppo di annunci o della campagna.
 
-Puoi creare posizionamenti per qualsiasi gruppo di annunci in un tipo di campagna [supportato [!DNL Google Ads] ](/help/search-social-commerce/introduction/supported-inventory.md) che esegue il targeting della rete di visualizzazione in un account del [motore di ricerca sincronizzato](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md).
+Puoi creare posizionamenti per qualsiasi gruppo di annunci in un tipo di campagna [supportato [!DNL Google Ads] &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md) che esegue il targeting della rete di visualizzazione in un account del [motore di ricerca sincronizzato](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md).
 
 ## Le visualizzazioni [!UICONTROL Placements]
 

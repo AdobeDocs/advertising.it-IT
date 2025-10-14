@@ -28,9 +28,9 @@ La sospensione di un&#39;origine dati interrompe le sincronizzazioni future con 
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulla sincronizzazione [!DNL Google Analytics] metriche di conversione](data-source-about.md)
->* [Prerequisiti per la configurazione di un&#39;origine dati [!DNL Google Analytics] ](data-source-prerequisites.md)
+>* [Prerequisiti per la configurazione di un&#39;origine dati [!DNL Google Analytics] &#x200B;](data-source-prerequisites.md)
 >* [Configurare una visualizzazione  [!DNL Google Analytics] come origine dati](data-source-configure.md)
->* [Modifica origine dati [!DNL Google Analytics] ](data-source-edit.md)
->* [Autentica nuovamente un&#39;origine dati [!DNL Google Analytics] ](data-source-reauthenticate.md)
+>* [Modifica origine dati [!DNL Google Analytics] &#x200B;](data-source-edit.md)
+>* [Autentica nuovamente un&#39;origine dati [!DNL Google Analytics] &#x200B;](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] impostazioni origine dati](data-source-settings.md)
 >* [Appendice - Disponibile [!DNL Google Analytics] metriche](data-source-ga-metrics.md)

@@ -24,7 +24,7 @@ Puoi impostare le campagne acquisti utilizzando [modelli di feed inventario](/he
 
 1. Configura il tuo account [!DNL Microsoft Merchant Center] e compilalo con i dati di prodotto.
 
-1. [Consenti a Search, Social e Commerce di scaricare dati dall&#39;account [!DNL Microsoft Merchant Center] ](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
+1. [Consenti a Search, Social e Commerce di scaricare dati dall&#39;account [!DNL Microsoft Merchant Center] &#x200B;](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
 
 1. [Crea una campagna](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) sulla rete di acquisti.
 

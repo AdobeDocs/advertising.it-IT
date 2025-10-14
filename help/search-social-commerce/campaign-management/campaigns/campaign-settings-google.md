@@ -261,7 +261,7 @@ per paese. Se non ne selezioni alcuna, viene eseguito il targeting di tutti.
 
 **[!UICONTROL Final URL]:** URL finale per tutti gli annunci creati dal gruppo di risorse. <!-- For campaigns created within Search, Social, & Commerce, final URL expansion is automatically enabled for the campaign, and Google Ads replaces this value with a more relevant landing page based on the user's search query and intent, and also customizes the headline based on the landing page content. You can disable final URL expansion, or exclude specific URLs from expansion, from within the [!DNL Google Ads] editor. -->
 
-**[!UICONTROL Images]:** Fino a 15 immagini per l&#39;annuncio, incluse le seguenti dimensioni: 1) almeno tre immagini quadrate, 2) almeno tre immagini orizzontali e 3) almeno un&#39;immagine verticale. Consulta le [[!DNL Google Ads] specifiche immagine](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). È possibile caricare immagini o selezionarle da [!UICONTROL Asset Library], ma non entrambe nella stessa operazione.
+**[!UICONTROL Images]:** Fino a 15 immagini per l&#39;annuncio, incluse le seguenti dimensioni: 1) almeno tre immagini quadrate, 2) almeno tre immagini orizzontali e 3) almeno un&#39;immagine verticale. Consulta le [[!DNL Google Ads] specifiche immagine](https://support.google.com/google-ads/answer/10724492?hl=en&ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). È possibile caricare immagini o selezionarle da [!UICONTROL Asset Library], ma non entrambe nella stessa operazione.
 
 * Per caricare le immagini:
 
@@ -283,7 +283,7 @@ per paese. Se non ne selezioni alcuna, viene eseguito il targeting di tutti.
 
 * Per selezionare le immagini da [!UICONTROL Asset Library], fare clic su **[!UICONTROL Asset Library]** e selezionare le immagini.
 
-**[!UICONTROL Logos]:** almeno un logo quadrato (1:1) e un logo orizzontale (4:1). Puoi includere fino a cinque di ogni dimensione. Consulta le [[!DNL Google Ads] specifiche del logo](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). È possibile caricare immagini o selezionarle da [!UICONTROL Asset Library], ma non entrambe nella stessa operazione.
+**[!UICONTROL Logos]:** almeno un logo quadrato (1:1) e un logo orizzontale (4:1). Puoi includere fino a cinque di ogni dimensione. Consulta le [[!DNL Google Ads] specifiche del logo](https://support.google.com/google-ads/answer/10724492?hl=en&ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). È possibile caricare immagini o selezionarle da [!UICONTROL Asset Library], ma non entrambe nella stessa operazione.
 
 * Per caricare le immagini:
 

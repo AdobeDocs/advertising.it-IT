@@ -52,7 +52,7 @@ All&#39;interno di un gruppo di annunci, è possibile creare fino a sette livell
 
 * ([!DNL Microsoft Advertising] solo) Aggiungi l&#39;URL di tracciamento ai dati di prodotto nell&#39;account [!DNL Microsoft Merchant Center]. A tale scopo, includere l&#39;URL di tracciamento, insieme al valore nel campo `link` o `mobile_link`, a seconda dei casi, in una colonna personalizzata denominata [`bingads_redirect`](https://help.ads.microsoft.com/#apex/3/en/51084/0) all&#39;interno del feed del prodotto. Gli URL generati con questo metodo non includono parametri di tracciamento specificati nelle impostazioni dell’account o della campagna in Search, Social &amp; Commerce.
 
-Puoi visualizzare i dati sui gruppi di prodotti in [ il [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/product-group-report.md).
+Puoi visualizzare i dati sui gruppi di prodotti in [&#x200B; il [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/product-group-report.md).
 
 >[!MORELIKETHIS]
 >
