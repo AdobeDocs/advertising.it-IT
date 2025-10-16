@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] impostazioni campagna'
 description: Fai riferimento alle impostazioni per  [!DNL Google Ads]  campagne.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: cbe18b75d49ca53460883931ecea21aa6c2d8326
+source-git-commit: b321c807e3ab470068ad557ed428484d58e95ed4
 workflow-type: tm+mt
-source-wordcount: '2472'
+source-wordcount: '2505'
 ht-degree: 0%
 
 ---
@@ -56,8 +56,11 @@ ht-degree: 0%
 
 {{$include /help/_includes/end-date.md}}
 
-**[!UICONTROL Search Partners]:** (campagne mirate solo alla rete di ricerca, incluse le campagne acquisti) Mostra
-i tuoi annunci nelle reti di partner di ricerca della rete di annunci. Per impostazione predefinita, questa opzione è *[!UICONTROL Off]*.
+**[!UICONTROL Search Partners]:** (campagne mirate solo alla rete di ricerca, incluse le campagne di acquisto) Visualizza gli annunci nelle reti di partner di ricerca della rete di annunci. Per impostazione predefinita, questa opzione è *[!UICONTROL Off]*.
+
+**[!UICONTROL AI Max Enabled]:** (campagne con destinazione solo la rete di ricerca; sola lettura) Se la funzionalità [[!UICONTROL AI Max]](https://support.google.com/google-ads/answer/15910366) è abilitata: *[!UICONTROL On]* o *[!UICONTROL Off]*.
+
+**[!UICONTROL AI Max Bundling]:** (campagne con targeting solo per la rete di ricerca; campagne con la funzionalità Max di IA abilitata; sola lettura) Se il bundling è obbligatorio: *[!UICONTROL Not Required]*, *[!UICONTROL Required]*, *[!UICONTROL Unknown]* o *[!UICONTROL Unspecified]*.
 
 ## [!UICONTROL Budget Options]
 

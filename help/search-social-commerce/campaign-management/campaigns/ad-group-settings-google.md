@@ -3,9 +3,9 @@ title: Impostazioni gruppo di annunci [!DNL Google Ads]
 description: Fai riferimento alle impostazioni per  [!DNL Google Ads]  gruppi di annunci.
 exl-id: def75630-19b9-4676-ad34-5d9041cc3680
 feature: Search Campaign Management
-source-git-commit: fb38bf6afa181b4560742d3649db68c8aef0e619
+source-git-commit: 345c2af5363ca10412f3809700e281af5b06897f
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,8 @@ Se la campagna utilizza una strategia di offerta avanzata (ad esempio [!UICONTRO
 >* Quando fai offerte per parola chiave, crea modelli di tracciamento a livello di parola chiave. Allo stesso modo, quando fai un&#39;offerta per posizionamento, crea modelli di tracciamento a livello di posizionamento. Per tutte le altre dimensioni, crea modelli di tracciamento a livello di annuncio.
 >* Quando fai un&#39;offerta per età, genere, interesse ed elenco o verticale per campagne in portfolio, la funzionalità di ottimizzazione non ottimizza le offerte per la dimensione. Inoltre, tutte le attribuzioni vengono applicate al gruppo di annunci.
 >* Gli annunci sulla rete di ricerca utilizzano sempre le offerte basate su parole chiave.
+
+**[!UICONTROL AI Max Search Term Matching]:** (campagne mirate alla rete di ricerca e per le quali è abilitata la funzionalità [AI Max](https://support.google.com/google-ads/answer/15910366) e la funzionalità di corrispondenza dei termini di ricerca a livello di campagna; sola lettura) Se la corrispondenza dei termini di ricerca a livello di gruppo di annunci è abilitata: *[!UICONTROL Disabled]* o *[!UICONTROL Enabled]*.
 
 ## [!UICONTROL Budget Options]
 
