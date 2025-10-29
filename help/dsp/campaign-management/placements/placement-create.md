@@ -3,9 +3,9 @@ title: Creare un posizionamento
 description: Scopri come creare un posizionamento.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
+source-git-commit: d1be9ab441fd8abdc21491afb57763ec6eb2bec0
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
       Per la maggior parte dei tipi di posizionamento, tutti i tipi di inventario e tutte le origini per ciascun tipo sono inclusi per impostazione predefinita. Per [!DNL Roku] posizionamenti, è necessario specificare il tipo di inventario e le origini.
 
-   1. (Facoltativo) Nella sezione [!UICONTROL Site Targeting], restringere i siti di destinazione e specificare i siti da escludere.
+   1. (Facoltativo) Nella sezione [!UICONTROL Site or app And Keyword Targeting], restringi i siti e le app di destinazione e escludi.
 
    1. Nella sezione [!UICONTROL Audience Targeting] (facoltativo):
 
@@ -147,4 +147,4 @@ ht-degree: 0%
 >* [Domande frequenti sul video universale](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Scelte rapide da tastiera](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Risoluzione dei problemi relativi alle prestazioni](/help/dsp/optimization/troubleshooting-performance.md)
->* [Video: come creare un posizionamento display standard](https://video.tv.adobe.com/v/345000?captions=ita)
+>* [Video: come creare un posizionamento display standard](https://video.tv.adobe.com/v/340454)
