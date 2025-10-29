@@ -2,9 +2,10 @@
 title: Ottieni aiuto
 description: Scopri come visualizzare la guida online e le risorse della community e come ottenere supporto tecnico.
 feature: DSP Introduction
-source-git-commit: c5a4837f1a8439b3fc2565ae78fdf00d6cdb8b75
+exl-id: 2e0226ea-bcd3-4a38-8907-d2e078c758d0
+source-git-commit: 70598a94d2a2bc4c8e34de311d68872a8207006b
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -25,8 +26,15 @@ Look for answers to your questions in the [Adobe Advertising community forums](h
 
 ## Contatta [!DNL Adobe]
 
-Per problemi relativi al prodotto DSP o all’account, contatta il team dell’account Adobe.
+Per problemi relativi a prodotti o account, effettuare le seguenti operazioni:
 
-Fornire i passaggi dettagliati per riprodurre il problema, tutti i dati rilevanti e le informazioni sulla risoluzione preliminare dei problemi eseguita. Includi anche il nome e la versione del browser.
+* (Inserzionisti con contratti self-service) Apri un ticket per la tua organizzazione all&#39;indirizzo [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support).
 
-Per i problemi relativi ai rapporti, non eliminare il rapporto e fornisci il nome del rapporto.
+  Per il prodotto, selezionare &quot;[!UICONTROL Advertising - DSP]&quot;.
+
+* (Per gli inserzionisti con contratti full-service) Contatta il team del tuo account Adobe.
+
+Nel ticket o nella comunicazione, fornisci i passaggi dettagliati per riprodurre il problema, tutti i dati pertinenti, il nome e la versione del browser e le informazioni sulla risoluzione preliminare dei problemi eseguita.
+
+Per i problemi relativi ai rapporti, non eliminare il rapporto e fornisci il nome e l’URL del rapporto.
+

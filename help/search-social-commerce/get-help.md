@@ -3,9 +3,9 @@ title: Ottieni aiuto
 description: Scopri come visualizzare la guida online e le risorse della community e come ottenere supporto tecnico.
 feature: Search Introduction
 exl-id: d5b5b691-bb73-4acf-afcd-d66e444c1f6c
-source-git-commit: c5a4837f1a8439b3fc2565ae78fdf00d6cdb8b75
+source-git-commit: 70598a94d2a2bc4c8e34de311d68872a8207006b
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -34,12 +34,14 @@ Look for answers to your questions in the [Adobe Advertising community forums](h
 
 ## Contatta [!DNL Adobe]
 
-Per problemi relativi a prodotti o account Search, Social e Commerce, effettuare una delle seguenti operazioni:
+Per problemi relativi a prodotti o account, effettuare le seguenti operazioni:
 
-* Contatta il team del tuo account Adobe.
+* (Inserzionisti con contratti self-service) Apri un ticket per la tua organizzazione all&#39;indirizzo [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support).
 
-* Nel menu principale fare clic su ![Guida](/help/search-social-commerce/assets/help-main-menu.png "Guida") > **[!UICONTROL Provide Feedback]**, immettere il messaggio e quindi fare clic su **[!UICONTROL Send Feedback]**.
+  Per il prodotto, selezionare &quot;[!UICONTROL Advertising - Search, Social, & Commerce]&quot;.
 
-Fornire i passaggi dettagliati per riprodurre il problema, tutti i dati rilevanti e le informazioni sulla risoluzione preliminare dei problemi eseguita. Se stai segnalando il problema al tuo account team di Adobe, includi anche il nome e la versione del browser.
+* (Per gli inserzionisti con contratti full-service) Contatta il team del tuo account Adobe.
+
+Nel ticket o nella comunicazione, fornisci i passaggi dettagliati per riprodurre il problema, tutti i dati pertinenti, il nome e la versione del browser e le informazioni sulla risoluzione preliminare dei problemi eseguita.
 
 Per i problemi relativi ai rapporti, non eliminare il rapporto e fornisci il nome e l’URL del rapporto.
