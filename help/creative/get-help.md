@@ -3,7 +3,7 @@ title: Ottieni aiuto
 description: Scopri come visualizzare la guida online e le risorse della community e come ottenere supporto tecnico.
 feature: Creative Introduction
 exl-id: 88059f73-6da3-4deb-b4ef-fa8e8eaec569
-source-git-commit: 70598a94d2a2bc4c8e34de311d68872a8207006b
+source-git-commit: ed577c6f20d0e63555865d2d03bb82a5ada92b3f
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -30,13 +30,11 @@ Look for answers to your questions in the [Adobe Advertising community forums](h
 
 Per problemi relativi a prodotti o account, effettuare le seguenti operazioni:
 
-* (Inserzionisti con contratti self-service) Apri un ticket per la tua organizzazione all&#39;indirizzo [https://experienceleague.adobe.com/home?lang=it#support](https://experienceleague.adobe.com/home?lang=it&support-tab=home#support).
+* (Inserzionisti con contratti self-service) Apri un ticket per la tua organizzazione all&#39;indirizzo [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support).
 
   Per il prodotto, selezionare &quot;[!UICONTROL Advertising - Creative]&quot;.
 
 * (Per gli inserzionisti con contratti full-service) Contatta il team del tuo account Adobe.
 
-Nel ticket o nella comunicazione, fornisci i passaggi dettagliati per riprodurre il problema, tutti i dati pertinenti, il nome e la versione del browser e le informazioni sulla risoluzione preliminare dei problemi eseguita.
-
-Per i problemi relativi ai rapporti, non eliminare il rapporto e fornisci il nome e l’URL del rapporto.
+Nel ticket o nella comunicazione, fornisci i passaggi dettagliati per riprodurre il problema, tutti i dati pertinenti, il nome e la versione del browser e le informazioni sulla risoluzione preliminare dei problemi eseguita. Per i problemi relativi ai rapporti, non eliminare il rapporto e fornisci il nome e l’URL del rapporto.
 
