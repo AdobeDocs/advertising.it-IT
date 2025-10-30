@@ -3,9 +3,9 @@ title: Impostazioni campagna
 description: Consulta le descrizioni delle impostazioni disponibili per la campagna.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
+source-git-commit: daf995b0c40d77434d2c86c738351a33552dc555
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
@@ -28,29 +28,31 @@ ht-degree: 0%
 
 ## [!UICONTROL Campaign Goals]
 
-**[!UICONTROL Margin Management]:** Se gestire i margini per la campagna: *[!UICONTROL Yes]* o *[!UICONTROL No]* (impostazione predefinita).
+**[!UICONTROL Margin Management]:** (account self-service gestiti dalle agenzie tramite margini) Opzioni per la gestione dei margini:
 
-Quando scegli *[!UICONTROL Yes],* specifica il tipo di margine e l&#39;importo:
+* **[!UICONTROL Would you like to manage margins for this campaign?]:** Se gestire i margini per la campagna: *[!UICONTROL Yes]* o *[!UICONTROL No]* (impostazione predefinita). Quando scegli *[!UICONTROL Yes],* specifica le impostazioni aggiuntive. Dopo aver abilitato la gestione dei margini e salvato la campagna, non è possibile disabilitare la gestione dei margini.
 
-* **[!UICONTROL Margin Type]:** Il tipo di margine. Una volta abilitata la gestione dei margini e salvata la campagna, non puoi modificare il tipo di margine.
+* **[!UICONTROL How would you like to compute agency fees?]:** (solo campagne con gestione dei margini) Come calcolare le tariffe delle agenzie:
 
-   * *[!UICONTROL Fixed]:* (impostazione predefinita) Consente all&#39;DSP di calcolare automaticamente e limitare la spesa in base a una percentuale di margine fissa di [!UICONTROL Gross Budget].
+   * *[!UICONTROL Margin % of Total Budget]:* (impostazione predefinita) Calcola le tariffe come percentuale di [!UICONTROL Gross Budget]. Specificare [!UICONTROL Agency Fee Type] (fisso o composito) e [!UICONTROL Margin %] o [!UICONTROL Composite Margin %].
 
-   * *[!UICONTROL Dynamic]:* Consente di gestire i margini al livello di posizionamento specificando [!UICONTROL Budget Reserve %] e [!UICONTROL Gross Budget] separati per ciascun pacchetto e posizionamento nella campagna. L&#39;DSP ottimizza in base all&#39;efficienza finanziaria di ogni collocamento, senza garantire un margine specifico. Utilizzare questa opzione per gli ordini di inserimento costituiti da più voci per le quali si è concordato di consegnare un importo fisso di unità o tipi di unità a un tasso fisso.
+   * *[!UICONTROL Apply Markup % on top of individual cost components]:* Aggiunge una percentuale specificata di [!UICONTROL Gross Budget] ai costi dei file multimediali, ai dati e ad altri costi e/o a [!DNL Adobe] spese tecniche. Specificare [!UICONTROL Markup %] e selezionare i componenti ai quali applicare il markup.
 
-* **[!UICONTROL Fixed Margin %]:** (solo campagne con margini fissi) Markup predefinito per ogni ordine di inserimento <!-- impression? -->, in percentuale. Questo importo viene dedotto da [!UICONTROL Gross Budget] per definire il budget netto della campagna.
+* **[!UICONTROL Agency Fee Type]:** (campagne che utilizzano [!UICONTROL Margin % of Total Budget]) Il tipo di tariffa dell&#39;agenzia.
 
-* **[!UICONTROL Budget Reserve %]:** (solo campagne con margini fissi; facoltativo) riserva una percentuale specificata di [!UICONTROL Gross Budget] come misura di salvaguardia. Questo importo viene dedotto da [!UICONTROL Gross Budget] per definire il budget netto della campagna.
+   * *[!UICONTROL Fixed]:* (impostazione predefinita) Consente a DSP di calcolare automaticamente e limitare la spesa in base a una percentuale fissa di [!UICONTROL Gross Budget]. Specificare [!UICONTROL Margin %].
+
+   * *[!UICONTROL Composite]:* consente a DSP di calcolare automaticamente e limitare la spesa in base a una percentuale di [!UICONTROL Gross Budget], utilizzando la percentuale composita delle tariffe di agenzia e [!DNL Adobe] delle tariffe tecniche. Specificare [!UICONTROL Composite Margin %].
+
+* **[!UICONTROL Margin %]:** (campagne che utilizzano [!UICONTROL Margin % of Total Budget] con margini fissi) Markup predefinito per ogni ordine di inserimento <!-- impression? -->, in percentuale. Questo importo viene dedotto da [!UICONTROL Gross Budget] per definire il budget netto della campagna. Il margine non è applicato a [!UICONTROL Estimated Tax Withholding] in [!UICONTROL Gross Budget].
+
+* **[!UICONTROL Composite Margin %]:** (campagne che utilizzano [!UICONTROL Margin % of Total Budget] con margini compositi) Somma delle tariffe di agenzia e [!DNL Adobe] delle tariffe tecniche, in percentuale. Questo importo viene dedotto da [!UICONTROL Gross Budget] per definire il budget netto della campagna. Il margine non è applicato a [!UICONTROL Estimated Tax Withholding] in [!UICONTROL Gross Budget].
+
+* **[!UICONTROL Markup %]:** (campagne che utilizzano [!UICONTROL Apply Markup % on top of individual cost components]) La percentuale di [!UICONTROL Gross Budget] da aggiungere ai componenti di costo specificati.
+
+* **[!UICONTROL Select cost components on which markup will be applied]:** (campagne che utilizzano [!UICONTROL Apply Markup % on top of individual cost components]) I componenti di costo per i quali è applicato [!UICONTROL Markup %]. Selezionare tutti i componenti applicabili: *[!UICONTROL Media cost]*, *[!UICONTROL Data and Other costs]* e/o *[!UICONTROL Adobe tech fees]*.
 
 **[!UICONTROL Gross Budget]:** (solo campagne con gestione dei margini) Il budget lordo della campagna, prima dell&#39;applicazione degli adeguamenti marginali specificati.
-
-Facoltativamente, puoi aggiungere un budget lordo aggiuntivo giornaliero, settimanale o mensile:
-
-1. Fare clic su **[!UICONTROL Add an additional Gross Budget]**.
-
-1. Immettere **[!UICONTROL Gross Budget]** e selezionare l&#39;intervallo di budget: *[!UICONTROL Daily],* *[!UICONTROL Weekly],* o *[!UICONTROL Monthly]*.
-
-Il budget netto totale, che rappresenta il limite di spesa per la campagna, viene calcolato automaticamente in base alle impostazioni dei margini ed è indicato sotto questo valore.
 
 **[!UICONTROL Budget]:** (campagne senza gestione dei margini) Il budget complessivo della campagna.
 
@@ -78,11 +80,11 @@ Per stimare le imposte da trattenere:
 >
 >* È inoltre possibile configurare questi valori nelle impostazioni relative alle tariffe dell&#39;account.<!--[fee settings](/help/dsp/admin/tax-withholdings.md). -->
 
-**[!UICONTROL Cross Device Level]:** (Sola lettura per le campagne esistenti create dal 22 giugno 2020; non disponibile per le campagne create prima del 22 giugno 2020) Livello al quale l&#39;DSP esegue il targeting degli annunci e applica limiti di frequenza: *Stesso dispositivo* per eseguire il targeting di un dispositivo o *Persone* per eseguire il targeting di una persona su tutti i dispositivi noti. **Nota:** il supporto tra dispositivi non è disponibile per i posizionamenti che hanno come destinazione gli ID universali.
+**[!UICONTROL Cross Device Level]:** (sola lettura per le campagne esistenti create dal 22 giugno 2020; non disponibile per le campagne create prima del 22 giugno 2020) Livello al quale DSP esegue il targeting degli annunci e applica limiti di frequenza: *Stesso dispositivo* per eseguire il targeting di un dispositivo o *Persone* per eseguire il targeting di una persona su tutti i dispositivi noti. **Nota:** il supporto tra dispositivi non è disponibile per i posizionamenti che hanno come destinazione gli ID universali.
 
 **[!UICONTROL Device Graph]:** (sola lettura per campagne esistenti; campagne con targeting multidispositivo basato sulle persone) Il grafico dei dispositivi da utilizzare per il targeting multidispositivo e la gestione della frequenza:
 
-* *[!UICONTROL LiveRamp - U.S. only]:* Disponibile per tutti gli inserzionisti per il targeting multidispositivo a $ 0,35 CPM per le impression distribuite tramite il grafico dei dispositivi [!DNL LiveRamp] (ovvero, per i dispositivi non trovati all&#39;interno dei segmenti di pubblico di destinazione). Puoi impostare il targeting tra dispositivi a livello di posizionamento.
+* *[!UICONTROL LiveRamp - U.S. only]:* Disponibile per tutti gli inserzionisti per il targeting multidispositivo a $0,35 CPM per le impression distribuite tramite il grafico dei dispositivi [!DNL LiveRamp] (ovvero, per i dispositivi non trovati all&#39;interno dei segmenti di pubblico target). Puoi impostare il targeting tra dispositivi a livello di posizionamento.
 
   Questa opzione è disponibile anche per tutti gli inserzionisti, senza costi aggiuntivi, per la gestione della frequenza e la misurazione dell’attribuzione.
 
@@ -92,7 +94,7 @@ Per stimare le imposte da trattenere:
 
 >[!NOTE]
 >
-> Puoi impostare i limiti di frequenza a livello di campagna, pacchetto e posizionamento. L’DSP rispetta il limite di frequenza più severo nella gerarchia delle campagne.
+> Puoi impostare i limiti di frequenza a livello di campagna, pacchetto e posizionamento. DSP rispetta il limite di frequenza più rigoroso nella gerarchia delle campagne.
 
 **[!UICONTROL Packages]:** i [pacchetti](/help/dsp/campaign-management/packages/package-about.md) da includere nella campagna. Seleziona i pacchetti esistenti e/o crea i pacchetti da includere. Se si creano pacchetti, vedere le descrizioni relative alle [impostazioni del pacchetto](/help/dsp/campaign-management/packages/package-settings.md) per ulteriori informazioni.
 
@@ -120,7 +122,7 @@ Per stimare le imposte da trattenere:
 
 #### Verifica del pubblico
 
-**[!UICONTROL Comscore Campaign Ratings]:** (Facoltativo) Abilita la misurazione [!DNL Campaign Ratings] convalidata [!DNL Comscore] e il reporting della verifica del pubblico, utilizzando le impostazioni specificate. Si applicano tariffe aggiuntive.
+**[!UICONTROL Comscore Campaign Ratings]:** (Facoltativo) Abilita la misurazione [!DNL Comscore] convalidata [!DNL Campaign Ratings] e il reporting della verifica del pubblico, utilizzando le impostazioni specificate. Si applicano tariffe aggiuntive.
 
 * **[!UICONTROL Target Gender]:** Il genere di destinazione: *[!UICONTROL Both]* (impostazione predefinita), *[!UICONTROL Male]* o *[!UICONTROL Female]*
 
@@ -130,7 +132,7 @@ Per stimare le imposte da trattenere:
 
 ### [!UICONTROL Attention Measurement]{#attention-measurement}
 
-**[!UICONTROL Adelaide]:** Abilita il tracciamento per la metrica [!UICONTROL Attention Score] a livello di posizionamento (la media ponderata del numero di [!DNL Adelaide] &quot;[!DNL Attention Units]&quot; tra le impression). Le metriche sono disponibili per tutti i tipi di posizionamento ad eccezione di [!DNL Roku] TV connessa, pre-roll solo VPAID e audio che non è un podcast. L&#39;DSP associa automaticamente un tag JavaScript a tutti i creativi associati e [!DNL Adelaide] tiene traccia dei dati di esposizione e li invia quotidianamente all&#39;DSP. Puoi utilizzare la data per ottimizzare manualmente la spesa per le tattiche di posizionamento con punteggi di attenzione migliori.
+**[!UICONTROL Adelaide]:** Abilita il tracciamento per la metrica [!UICONTROL Attention Score] a livello di posizionamento (la media ponderata del numero di [!DNL Adelaide] &quot;[!DNL Attention Units]&quot; tra le impression). Le metriche sono disponibili per tutti i tipi di posizionamento ad eccezione di [!DNL Roku] TV connessa, pre-roll solo VPAID e audio che non è un podcast. DSP allega automaticamente un tag JavaScript a tutti i creativi associati e [!DNL Adelaide] tiene traccia dei dati di esposizione e li invia quotidianamente a DSP. Puoi utilizzare la data per ottimizzare manualmente la spesa per le tattiche di posizionamento con punteggi di attenzione migliori.
 
 Il campo [!UICONTROL Attention Score] è disponibile nella sezione [!UICONTROL Metrics] dei report, nelle visualizzazioni [!UICONTROL Campaigns], [!UICONTROL Packages] e [!UICONTROL Placements] e nelle schede [!UICONTROL Sites], [!UICONTROL Ads] e [!UICONTROL Inventory] della visualizzazione [dettagli posizionamento](/help/dsp/campaign-management/reports/placement-details-view.md).
 
@@ -152,7 +154,7 @@ Example JavaScript tag:
 
 >[!MORELIKETHIS]
 >
->* [Informazioni su Campaign Management](campaign-about.md)
+>* [Informazioni sulla gestione delle campagne](campaign-about.md)
 >* [Crea una campagna](campaign-create.md)
 >* [Modifica una campagna](campaign-edit.md)
 >* [Visualizza il log delle modifiche per una campagna](campaign-change-log.md)
