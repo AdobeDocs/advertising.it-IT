@@ -3,7 +3,7 @@ title: Informazioni sui report personalizzati
 description: Scopri le opzioni per la creazione manuale di rapporti personalizzati o l’utilizzo di modelli di rapporto preconfigurati.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: a3e6324edcf5a52f6338ce969034cd9c4b6fb487
+source-git-commit: f2b912a9e4952d2ccb9a461cdbc56c7bc731e690
 workflow-type: tm+mt
 source-wordcount: '1560'
 ht-degree: 0%
@@ -103,7 +103,7 @@ Puoi generare i rapporti una volta o pianificarli su base giornaliera, settimana
 
    * **[!UICONTROL Time to Conversion]:** Utilizza questo report per determinare l&#39;intervallo di lookback di attribuzione ottimale e per identificare le campagne con tempi di conversione più lunghi, che potrebbero trarre vantaggio dal retargeting. Il rapporto mostra il numero di conversioni per il periodo di tempo in giorni dall’ultima interazione (esposizione dell’annuncio o clic) alla conversione. Il rapporto può includere dati per più metriche di conversione e utilizza un periodo di lookback specifico tra la prima interazione e una conversione. Le colonne del report includono &quot;[!UICONTROL Time Taken (in days)]&quot;, &quot;[!UICONTROL Number of] \&lt;Nome metrica di conversione 1\>,&quot; &quot;% \&lt;Nome metrica di conversione 1\>,&quot; \&lt;Nome metrica di conversione 2\>,&quot; &quot;% \&lt;Nome metrica di conversione 2\>&quot; e così via. Le conversioni che richiedono più tempo del periodo di lookback sono raggruppate insieme in una riga (ad esempio, se il report utilizza un periodo di lookback di 30 giorni, tutte le conversioni che richiedono più di 30 giorni per essere eseguite vengono raggruppate insieme in una riga con un valore &quot;[!UICONTROL Time Taken (in days)]&quot; di &quot;30+&quot;).
 
-   * **[!UICONTROL Content BETA]:** Utilizza questo report per comprendere la distribuzione delle impression e altre metriche in base a dimensioni di contenuto specificate (come genere, qualità della produzione e valutazione dei contenuti) in modo da ottimizzare il targeting e garantire la sicurezza del brand. Oltre alle dimensioni di contenuto, il rapporto include la maggior parte delle dimensioni, delle metriche e dei filtri standard. I dati per dimensione contenuto sono disponibili per [!DNL Freewheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] e [!DNL Triplelift]. I segnali di contenuto vengono trasmessi dagli editori durante il flusso di lavoro e sono soggetti a disponibilità.
+   * **[!UICONTROL Content]:** Utilizza questo report per comprendere la distribuzione delle impression e altre metriche in base a dimensioni di contenuto specificate (come genere, qualità della produzione e valutazione dei contenuti) in modo da ottimizzare il targeting e garantire la sicurezza del brand. Oltre alle dimensioni di contenuto, il rapporto include la maggior parte delle dimensioni, delle metriche e dei filtri standard. I dati per dimensione contenuto sono disponibili per [!DNL Freewheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] e [!DNL Triplelift]. I segnali di contenuto vengono trasmessi dagli editori durante il flusso di lavoro e sono soggetti a disponibilità.
 
 ## Reporting tra account {#cross-account-reporting}
 
