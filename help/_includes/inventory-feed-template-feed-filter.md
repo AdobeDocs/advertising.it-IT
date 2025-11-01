@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: 73c9cc7134360e073fc466dda3733cfc9bac8786
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
@@ -21,6 +21,6 @@ ht-degree: 0%
 
   Gli operatori disponibili includono *[!UICONTROL contains]*, *[!UICONTROL does not contain]*, *[!UICONTROL =]*, *[!UICONTROL <>]* (non è uguale a), *[!UICONTROL in]*, *[!UICONTROL not in]*, *[!UICONTROL less than]* e *[!UICONTROL greater than]*. Quando si seleziona l&#39;operatore &quot;[!UICONTROL in]&quot;, è possibile immettere un elenco di valori separati da virgole. Se un record corrisponde a uno dei valori specificati, i dati vengono propagati per tali righe. Per tutti gli altri operatori, immettere un solo valore. I valori non fanno distinzione tra maiuscole e minuscole.
 
-  Ad esempio, se hai selezionato la colonna &quot;product_type&quot; e desideri restituire solo le righe per i nomi di prodotto contenenti &quot;shoes&quot;, seleziona &quot;**[!UICONTROL contains]**&quot; e immetti `shoes` nel campo di input.
+  Ad esempio, se si seleziona la colonna &quot;product_type&quot; e si desidera restituire solo le righe per i nomi di prodotto contenenti &quot;shoes&quot;, selezionare &quot;**[!UICONTROL contains]**&quot; e immettere `shoes` nel campo di input.
 
    1. (Per applicare fino a nove filtri aggiuntivi) Per ogni filtro aggiuntivo, fare clic su **[!UICONTROL Add Condition]** e quindi specificare il filtro aggiuntivo per il passaggio 2.
