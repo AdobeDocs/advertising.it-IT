@@ -3,7 +3,7 @@ title: '[!DNL Google Ads] impostazioni campagna'
 description: Fai riferimento alle impostazioni per  [!DNL Google Ads]  campagne.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 4612b0022c6f4a2014409a546da07e4f5efe6e78
+source-git-commit: c1085fe1b065cef95beabba2cb2ea391bd7ef3e8
 workflow-type: tm+mt
 source-wordcount: '2582'
 ht-degree: 0%
