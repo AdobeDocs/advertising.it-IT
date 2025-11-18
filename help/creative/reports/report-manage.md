@@ -2,7 +2,7 @@
 title: Gestire i rapporti personalizzati
 description: Scopri come generare e gestire la cross-experience [!UICONTROL Custom Creative Report].
 feature: Creative Reporting
-source-git-commit: 455a63be51ca56610cc15ba498e69eeae52ffdba
+source-git-commit: 41b8d295436bdbe6cea402e5bb234caa7a36f4df
 workflow-type: tm+mt
 source-wordcount: '1477'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Duplica un rapporto personalizzato per creare un nuovo rapporto con impostazioni
 
 1. Fare clic su **[!UICONTROL Edit Custom Report]**.
 
-## Eseguire un rapporto personalizzato &lbrace;report-run-now&rbrace;
+## Eseguire un rapporto personalizzato {#report-run-now}
 
 Puoi eseguire qualsiasi rapporto che non è scaduto e al momento non è in esecuzione.
 
@@ -207,7 +207,7 @@ Vedere anche &quot;[Modalità di calcolo delle regole di attribuzione per Adobe 
 
 * *[!UICONTROL FTP]:* Per inviare il report completato a uno o più percorsi FTP, che è necessario selezionare nel campo **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (attualmente in Beta):* Per inviare il report completato a uno o più percorsi SSL FTP, che è necessario selezionare nel campo **[!UICONTROL Destination Name]**.
+* *[!UICONTROL FTP SSL](attualmente in Beta):* Per inviare il report completato a uno o più percorsi SSL FTP, che è necessario selezionare nel campo **[!UICONTROL Destination Name]**.
 
 * *[!UICONTROL Email]:* Specificare gli indirizzi e-mail a cui inviare i report completati o le notifiche se il report viene annullato a causa di errori.
 
