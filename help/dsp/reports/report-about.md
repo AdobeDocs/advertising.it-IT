@@ -3,9 +3,9 @@ title: Informazioni sui report personalizzati
 description: Scopri le opzioni per la creazione manuale di rapporti personalizzati o l’utilizzo di modelli di rapporto preconfigurati.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: ae75e6110443d8b744f141df370160e02e4d725e
+source-git-commit: a643a2d255431c5ce93f2df092d92932d4cccc02
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1623'
 ht-degree: 0%
 
 ---
@@ -35,15 +35,19 @@ Puoi generare i rapporti una volta o pianificarli su base giornaliera, settimana
 
 * Modelli di rapporto preconfigurati
 
+   * **[!UICONTROL All-in Cost BETA]**: (solo per gli inserzionisti con Advertising Creative e Advertising DSP; funzione beta) Utilizza questo rapporto per vedere quanto è stato attribuito l&#39;investimento Advertising DSP nel servizio di annunci per Adobe Creative. Puoi visualizzare dati creativi, di attributo, di destinazione e di altro tipo a livello di campagna, pacchetto, posizionamento e annuncio.
+
    * **[!UICONTROL Billing]:** Utilizzare questo report per comprendere le metriche di fatturazione chiave, ad esempio le metriche di spesa per la fatturazione dei contenuti multimediali per campagna. I dati non sono disponibili per i posizionamenti mirati agli ID universali.
 
      >[!NOTE]
      >
      >Questo rapporto include dati sul segmento di fatturazione. Se a un utente o a un dispositivo viene trasmessa un’impression che appartiene a più segmenti, a un solo segmento fatturabile viene attribuita l’impression.
 
+   * **[!UICONTROL Content]:** Utilizza questo report per comprendere la distribuzione delle impression e altre metriche in base a dimensioni di contenuto specificate (come genere, qualità della produzione e valutazione dei contenuti) in modo da ottimizzare il targeting e garantire la sicurezza del brand. Oltre alle dimensioni di contenuto, il rapporto include la maggior parte delle dimensioni, delle metriche e dei filtri standard. I dati per dimensione contenuto sono disponibili per [!DNL Freewheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] e [!DNL Triplelift]. I segnali di contenuto vengono trasmessi dagli editori durante il flusso di lavoro e sono soggetti a disponibilità.
+
    * **[!UICONTROL Conversion]:** Utilizza questo rapporto per comprendere le prestazioni delle campagne in base alle metriche di conversione acquisite tramite il tracciamento delle conversioni di Adobe Advertising. Questo rapporto include l’attribuzione multi-touch.
 
-   * **[!UICONTROL Custom Creative Report]:** (inserzionisti con Advertising Creative; funzione beta) Utilizza questo rapporto per monitorare le prestazioni nelle esperienze pubblicitarie Advertising Creative.
+   * **[!UICONTROL Custom Creative]:** (solo per gli inserzionisti con Advertising Creative) utilizza questo rapporto per monitorare le prestazioni nelle esperienze pubblicitarie Advertising Creative.
 
    * **[!UICONTROL Device]:** Utilizzare questo modello precompilato per visualizzare le metriche chiave per le dimensioni relative al dispositivo.
 
@@ -64,20 +68,11 @@ Puoi generare i rapporti una volta o pianificarli su base giornaliera, settimana
 
    * **[!UICONTROL Geo]**: utilizzare questo modello precompilato per visualizzare le metriche chiave per dimensioni geografiche.
 
-   * **[!UICONTROL Margin]:** Utilizzare questo report per visualizzare metriche chiave come margine, profitto e altre metriche di spesa per campagna o posizionamento. I dati non sono disponibili per i posizionamenti mirati agli ID universali.
-
-   * **[!UICONTROL Segment]:** Utilizzare questo modello precompilato per visualizzare le metriche chiave per segmento.
-
-     >[!NOTE]
-     >
-     >* Questo rapporto ha lo scopo di mostrare le prestazioni di diversi segmenti target. Utilizza i dati di appartenenza ai segmenti. Quando un’impression viene trasmessa a una persona o a un dispositivo appartenente a due o più segmenti target, questo rapporto include una riga per ciascun segmento. Per questo motivo, i totali in questo rapporto potrebbero non corrispondere alla consegna effettiva.
-     >* Le metriche di conversione e i dati di obiettivo personalizzati per i segmenti sono disponibili dopo il 2 agosto 2019. Tutti gli altri dati per i segmenti sono disponibili a partire dal 1° giugno 2018.
-
-   * **[!UICONTROL Site]:** Per impostazione predefinita, include le metriche standard, la spesa netta totale dei supporti e la spesa netta totale fatturabile per sito.
+   * **[!UICONTROL Household Conversions]:** Utilizzare questo report per visualizzare le conversioni view-through a livello di famiglia in base all&#39;indirizzo IP anziché a livello di dispositivo/cookie. Utilizza le informazioni per misurare e ottimizzare le prestazioni della campagna. Per ulteriori informazioni, consulta &quot;[Domande frequenti sui rapporti sulla famiglia](/help/dsp/reports/faq-reports.md)&quot;. I dati non sono disponibili per i posizionamenti mirati agli ID universali.
 
    * **[!UICONTROL Household Reach & Frequency]:** Utilizzare questo report per visualizzare impression, portata e frequenza per una singola dimensione in più formati di annunci a livello di famiglia in base all&#39;indirizzo IP, anziché a livello di dispositivo/cookie. Utilizza le informazioni per ottimizzare il mix di contenuti multimediali, migliorare le prestazioni e identificare opportunità di portata incrementale. Per ulteriori informazioni, consulta &quot;[Domande frequenti sui rapporti sulla famiglia](/help/dsp/reports/faq-reports.md)&quot;. I dati non sono disponibili per i posizionamenti mirati agli ID universali.
 
-   * **[!UICONTROL Household Conversions]:** Utilizzare questo report per visualizzare le conversioni view-through a livello di famiglia in base all&#39;indirizzo IP anziché a livello di dispositivo/cookie. Utilizza le informazioni per misurare e ottimizzare le prestazioni della campagna. Per ulteriori informazioni, consulta &quot;[Domande frequenti sui rapporti sulla famiglia](/help/dsp/reports/faq-reports.md)&quot;. I dati non sono disponibili per i posizionamenti mirati agli ID universali.
+   * **[!UICONTROL Margin]:** Utilizzare questo report per visualizzare metriche chiave come margine, profitto e altre metriche di spesa per campagna o posizionamento. I dati non sono disponibili per i posizionamenti mirati agli ID universali.
 
    * **[!UICONTROL Path to Conversion]:** Utilizza questo rapporto per identificare come ottimizzare i budget e personalizzare gli annunci in base alle sequenze di interazione degli annunci con prestazioni migliori. Il rapporto mostra la sequenza di punti di interazione nella stessa famiglia che conducono a ciascuna delle metriche di conversione selezionate nell’intervallo di dati specificato. Il rapporto utilizza un periodo di lookback specificato tra la prima interazione e una conversione e può includere una dimensione:
 
@@ -99,9 +94,16 @@ Puoi generare i rapporti una volta o pianificarli su base giornaliera, settimana
 
      I dati vengono visualizzati per ogni lunghezza di percorso fino a 10; i dati per lunghezze di percorso superiori a 10 vengono raggruppati.
 
-   * **[!UICONTROL Time to Conversion]:** Utilizza questo report per determinare l&#39;intervallo di lookback di attribuzione ottimale e per identificare le campagne con tempi di conversione più lunghi, che potrebbero trarre vantaggio dal retargeting. Il rapporto mostra il numero di conversioni per il periodo di tempo in giorni dall’ultima interazione (esposizione dell’annuncio o clic) alla conversione. Il rapporto può includere dati per più metriche di conversione e utilizza un periodo di lookback specifico tra la prima interazione e una conversione. Le colonne del report includono &quot;[!UICONTROL Time Taken (in days)]&quot;, &quot;[!UICONTROL Number of] \&lt;Nome metrica di conversione 1\>,&quot; &quot;% \&lt;Nome metrica di conversione 1\>,&quot; \&lt;Nome metrica di conversione 2\>,&quot; &quot;% \&lt;Nome metrica di conversione 2\>&quot; e così via. Le conversioni che richiedono più tempo del periodo di lookback sono raggruppate insieme in una riga (ad esempio, se il report utilizza un periodo di lookback di 30 giorni, tutte le conversioni che richiedono più di 30 giorni per essere eseguite vengono raggruppate insieme in una riga con un valore &quot;[!UICONTROL Time Taken (in days)]&quot; di &quot;30+&quot;).
+   * **[!UICONTROL Segment]:** Utilizzare questo modello precompilato per visualizzare le metriche chiave per segmento.
 
-   * **[!UICONTROL Content]:** Utilizza questo report per comprendere la distribuzione delle impression e altre metriche in base a dimensioni di contenuto specificate (come genere, qualità della produzione e valutazione dei contenuti) in modo da ottimizzare il targeting e garantire la sicurezza del brand. Oltre alle dimensioni di contenuto, il rapporto include la maggior parte delle dimensioni, delle metriche e dei filtri standard. I dati per dimensione contenuto sono disponibili per [!DNL Freewheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] e [!DNL Triplelift]. I segnali di contenuto vengono trasmessi dagli editori durante il flusso di lavoro e sono soggetti a disponibilità.
+     >[!NOTE]
+     >
+     >* Questo rapporto ha lo scopo di mostrare le prestazioni di diversi segmenti target. Utilizza i dati di appartenenza ai segmenti. Quando un’impression viene trasmessa a una persona o a un dispositivo appartenente a due o più segmenti target, questo rapporto include una riga per ciascun segmento. Per questo motivo, i totali in questo rapporto potrebbero non corrispondere alla consegna effettiva.
+     >* Le metriche di conversione e i dati di obiettivo personalizzati per i segmenti sono disponibili dopo il 2 agosto 2019. Tutti gli altri dati per i segmenti sono disponibili a partire dal 1° giugno 2018.
+
+   * **[!UICONTROL Site]:** Per impostazione predefinita, include le metriche standard, la spesa netta totale dei supporti e la spesa netta totale fatturabile per sito.
+
+   * **[!UICONTROL Time to Conversion]:** Utilizza questo report per determinare l&#39;intervallo di lookback di attribuzione ottimale e per identificare le campagne con tempi di conversione più lunghi, che potrebbero trarre vantaggio dal retargeting. Il rapporto mostra il numero di conversioni per il periodo di tempo in giorni dall’ultima interazione (esposizione dell’annuncio o clic) alla conversione. Il rapporto può includere dati per più metriche di conversione e utilizza un periodo di lookback specifico tra la prima interazione e una conversione. Le colonne del report includono &quot;[!UICONTROL Time Taken (in days)]&quot;, &quot;[!UICONTROL Number of] \&lt;Nome metrica di conversione 1\>,&quot; &quot;% \&lt;Nome metrica di conversione 1\>,&quot; \&lt;Nome metrica di conversione 2\>,&quot; &quot;% \&lt;Nome metrica di conversione 2\>&quot; e così via. Le conversioni che richiedono più tempo del periodo di lookback sono raggruppate insieme in una riga (ad esempio, se il report utilizza un periodo di lookback di 30 giorni, tutte le conversioni che richiedono più di 30 giorni per essere eseguite vengono raggruppate insieme in una riga con un valore &quot;[!UICONTROL Time Taken (in days)]&quot; di &quot;30+&quot;).
 
 ## Reporting tra account {#cross-account-reporting}
 

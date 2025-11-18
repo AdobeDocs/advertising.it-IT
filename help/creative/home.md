@@ -6,9 +6,9 @@ product: advertising cloud
 solution: Advertising
 index: true
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: 976a43cf4a7f8b9efb13e56c43c5f68ad8148a07
+source-git-commit: 5b644fb2eb881b8180932bb9449dd303a70d9647
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1177'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Le seguenti funzioni sono nuove o modificate di recente.
 
 | Data | Funzionalità | Descrizione | Per Ulteriori Informazioni |
 | ---- | ------- | ----------- | -------------------- |
+| 17 novembre 2025 | Rapporti sui costi per Advertising Creative | (Solo per gli inserzionisti con Advertising Creative; funzione beta) Il nuovo rapporto [!UICONTROL All-in Cost BETA] mostra la spesa attribuita al servizio di annunci per Adobe Creative. Puoi visualizzare dati creativi, di attributo, di destinazione e di altro tipo a livello di campagna, pacchetto, posizionamento e annuncio. | Consulta &quot;[Informazioni sui report personalizzati](/help/dsp/reports/report-about.md)&quot; e [Colonne report disponibili](/help/dsp/reports/report-columns.md).&quot; |
 | 24 settembre 2025 | Creatività dinamica | È ora disponibile un flusso di lavoro self-service più semplice per la generazione di annunci dinamici utilizzando i dati di un catalogo di varianti di annunci trasmesso tramite un modello di annunci. | Consulta &quot;[Flussi di lavoro per annunci dinamici](/help/creative/introduction/workflow-dynamic-ads.md).&quot; |
 | 3 settembre 2025 | Ottimizzazione e pianificazione di Creative per [!DNL experiences] | L&#39;opzione di menu o il pulsante per configurare l&#39;ottimizzazione e la pianificazione creative è ora denominato &quot;[!UICONTROL Creative Optimization]&quot; invece di &quot;[!UICONTROL Edit Schedules]&quot; o &quot;[!UICONTROL Add Schedules]&quot;.&quot; | Consulta &quot;[Personalizzare l&#39;ottimizzazione e la pianificazione creativa per un&#39;esperienza con targeting](/help/creative/experiences/experience-optimization-scheduling-targeting.md)&quot; e &quot;[Personalizzare l&#39;ottimizzazione e la pianificazione creativa per un&#39;esperienza senza targeting](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md).&quot; |
 |  | Rotazione e pianificazione degli annunci per [!DNL experiences] | Un nuovo tipo di rotazione creativa, &quot;[!UICONTROL Sequencing]&quot;, ruota i bundle creativi associati in un ordine specificato (con il bundle 1 servito per primo, il bundle 2 servito per secondo e così via), con un numero totale specificato di impression in ogni sequenza di bundle. Potete configurare il bundle finale nella sequenza su a\) da visualizzare indefinitamente o b\) da ripetere al primo bundle. | Consulta &quot;[Personalizzare l&#39;ottimizzazione e la pianificazione creativa per un&#39;esperienza con targeting](/help/creative/experiences/experience-optimization-scheduling-targeting.md)&quot; e &quot;[Personalizzare l&#39;ottimizzazione e la pianificazione creativa per un&#39;esperienza senza targeting](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md).&quot; |
