@@ -3,9 +3,10 @@ title: Scaricare le simulazioni
 description: Scopri come scaricare le simulazioni in un file foglio di calcolo.
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 46c8c9de-b558-486e-9453-feb5d359aaec
+source-git-commit: f34bbc952d7d2a23349df718ea5eabab272bf3c8
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,8 @@ Puoi scaricare i dati per più simulazioni alla volta in un file in formato ZIP.
 
 >[!NOTE]
 >
->È inoltre possibile [personalizzare la visualizzazione [!UICONTROL Simulations]](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) per includere colonne per molte metriche aggiuntive e la maggior parte delle impostazioni di simulazione. Per ulteriori informazioni sulle colonne che è possibile includere, vedere la sezione &quot;Azioni disponibili&quot; in &quot;[Informazioni sulle simulazioni](simulation-about.md#simulations-actions).
+>* Puoi anche [visualizzare i risultati della simulazione sullo schermo](simulation-view.md).
+>* È possibile [personalizzare la visualizzazione [!UICONTROL Simulations]](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) per includere colonne per molte metriche aggiuntive e la maggior parte delle impostazioni di simulazione. Per ulteriori informazioni sulle colonne che è possibile includere, vedere la sezione &quot;Azioni disponibili&quot; in &quot;[Informazioni sulle simulazioni](simulation-about.md#simulations-actions).
 
 1. Nel menu principale, fare clic su **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
 
@@ -32,3 +34,4 @@ Puoi scaricare i dati per più simulazioni alla volta in un file in formato ZIP.
 >
 >* [Informazioni sulle simulazioni](simulation-about.md)
 >* [Esegui o riesegui una simulazione](simulation-create.md)
+>* [Visualizza dettagli simulazione](simulation-view.md)
