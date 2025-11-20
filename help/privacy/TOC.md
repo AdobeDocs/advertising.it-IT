@@ -18,4 +18,4 @@ ht-degree: 56%
 + [Supporto per il RGPD](/help/privacy/gdpr.md)
 + Supporto per CCPA {#ccpa}
    + [Supporto per CCPA: accesso ed eliminazione dei dati dei consumatori](/help/privacy/ccpa/ccpa-access-delete.md)
-   + [(Solo DSP) Supporto per CCPA: Opt-Out-of-Sale del consumatore](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
+   + [Supporto per CCPA (solo DSP): rifiuto del cliente](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
