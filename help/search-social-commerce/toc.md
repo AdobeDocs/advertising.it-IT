@@ -152,7 +152,7 @@ ht-degree: 2%
       + Account di rete dell’annuncio {#ad-network-accounts}
          + [Informazioni sugli account di rete degli annunci](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
          + [Gestire gli account di rete degli annunci](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)
-         + [Aggiorna il codice di tracciamento AMO ID per un account  [!DNL Google Ads] ](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
+         + [Aggiorna il codice di tracciamento AMO ID per un account  [!DNL Google Ads] &#x200B;](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
       + [Gestisci account centro esercenti](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
    + [Implementa [!DNL Naver] account di solo tracciamento](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
    + Gestione delle campagne {#management}
@@ -439,14 +439,14 @@ ht-degree: 2%
    + [Gestione delle credenziali per gli account di Ad Network Manager](/help/search-social-commerce/admin/manager-accounts.md)
    + [Sincronizza  [!DNL Adobe]  tipi di pubblico](/help/search-social-commerce/admin/sync-adobe-audiences.md)
    + Configurazione delle origini dati {#data-sources}
-      + [Informazioni sulla sincronizzazione delle metriche di conversione  [!DNL Google Analytics] ](/help/search-social-commerce/admin/data-sources/data-source-about.md)
-      + [Prerequisiti per la configurazione di un&#39;origine dati  [!DNL Google Analytics] ](/help/search-social-commerce/admin/data-sources/data-source-prerequisites.md)
+      + [Informazioni sulla sincronizzazione delle metriche di conversione  [!DNL Google Analytics] &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-about.md)
+      + [Prerequisiti per la configurazione di un&#39;origine dati  [!DNL Google Analytics] &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-prerequisites.md)
       + [Configura una visualizzazione  [!DNL Google Analytics]  come origine dati](/help/search-social-commerce/admin/data-sources/data-source-configure.md)
-      + [Modifica origine dati  [!DNL Google Analytics] ](/help/search-social-commerce/admin/data-sources/data-source-edit.md)
+      + [Modifica origine dati  [!DNL Google Analytics] &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-edit.md)
       + [Sospendere la sincronizzazione di un&#39;origine dati](/help/search-social-commerce/admin/data-sources/data-source-pause.md)
-      + [Autentica nuovamente un&#39;origine dati  [!DNL Google Analytics] ](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)
+      + [Autentica nuovamente un&#39;origine dati  [!DNL Google Analytics] &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)
       + [[!DNL Google Analytics] impostazioni origine dati](/help/search-social-commerce/admin/data-sources/data-source-settings.md)
-      + [Appendice - Metriche disponibili [!DNL Google Analytics] ](/help/search-social-commerce/admin/data-sources/data-source-ga-metrics.md)
+      + [Appendice - Metriche disponibili [!DNL Google Analytics] &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-ga-metrics.md)
    + Gestione delle metriche di conversione di un inserzionista{#conversion-metrics}
       + [Informazioni sulla gestione delle metriche di conversione di un inserzionista](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
       + [Visualizzare le metriche di conversione tracciate per un inserzionista](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
