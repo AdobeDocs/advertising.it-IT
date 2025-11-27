@@ -3,9 +3,9 @@ title: Impostazioni del modello di avviso personalizzato
 description: Scopri le impostazioni per i modelli di avvisi personalizzati.
 exl-id: c9cff26b-e6be-4dad-ac3a-b5a53387c4e6
 feature: Search Alerts
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 |  | [!UICONTROL Comparing] | (Disponibile quando le tracce dell’avviso aumentano o diminuiscono in una o più colonne di metrica; sola lettura) I due intervalli di date per i quali vengono confrontati i dati. |
 |  | [!UICONTROL Date Comparison Format] | (Disponibile quando le tracce dell’avviso aumentano o diminuiscono in una o più colonne di metrica) Come esprimere la differenza tra i dati nei due intervalli di date:<ul><li><p><i>[!UICONTROL Variance]</i> (impostazione predefinita) - mostra la differenza come valore numerico.</p></li><li><p><i>[!UICONTROL % Change]</i> — Mostra la differenza come percentuale.</p></li></ul> |
 | [!UICONTROL Scheduling and Delivery] | [!UICONTROL Name] | Il nome dell’avviso. Deve contenere almeno cinque caratteri. |
-|  | [!UICONTROL Trigger this Alert] [quando] | Con quale frequenza l’avviso controlla i filtri delle condizioni specificate e, quando vengono soddisfatte tutte le condizioni, invia notifiche e-mail:<ul><li><p>[!UICONTROL Daily at <*NN*> [AM|PM]]</p></li><li><p>[!UICONTROL Weekly on <*Day of Week*> at <*NN*> [AM|PM]]</p></li><li><p>[!UICONTROL Every month on <*Day NN*> at <*NN*> [AM|PM]]</p></li></ul>**Nota:** questo valore non influisce sul periodo di valutazione. |
+|  | [!UICONTROL Trigger this Alert] [quando] | Con quale frequenza l’avviso controlla i filtri delle condizioni specificate e, quando vengono soddisfatte tutte le condizioni, invia notifiche e-mail:<ul><li><p>[!UICONTROL Daily at <*NN*> `[AM\|PM]`]</p></li><li><p>[!UICONTROL Weekly on <*Giorno della settimana*> alle &lt;*NN*> `[AM\|PM]`]</p></li><li><p>[!UICONTROL Every month on <*Giorno NN*> alle &lt;*NN*> `[AM\|PM]`]</p></li></ul>**Nota:** questo valore non influisce sul periodo di valutazione. |
 |  | [!UICONTROL Email Recipients] | (Modificabile solo dal creatore del modello di avviso; sola lettura per tutti gli altri utenti) Indirizzi e-mail a cui inviare notifiche quando viene generato un avviso. Per impostazione predefinita, viene immesso l’indirizzo del creatore del modello.<br><br>Per aggiungere un indirizzo, immettere l&#39;indirizzo e quindi fare clic su **[!UICONTROL Add]**. Per specificare più indirizzi, separali con virgole o spazi oppure aggiungili separatamente.<br><br>Se l&#39;avviso include fino a 1000 record, al messaggio di posta elettronica viene allegata una versione CSV dell&#39;avviso. |
 
 >[!MORELIKETHIS]

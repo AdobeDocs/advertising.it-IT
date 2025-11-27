@@ -3,7 +3,7 @@ title: Carica un file di bulksheet o un file di errore corretto
 description: Scopri come caricare manualmente un file bulksheet o un file di errore di convalida della pagina di destinazione corretto.
 exl-id: 44c76ca3-1d3e-43c2-868a-4868157d32b0
 feature: Search Bulksheets
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 0%
@@ -32,7 +32,7 @@ All&#39;inizio dell&#39;attività, il file viene elencato nella visualizzazione 
 
 | Parametro | Descrizione |
 |----|----|
-| [!UICONTROL File to Upload] | Il file da caricare. Specificare il file immettendo il percorso completo e il nome del file oppure facendo clic su <b>[!UICONTROL Browse]</b> per individuare il file nel dispositivo o nella rete.<br><br>I file bulksheet possono contenere fino a 2,5 GB (circa 2,5 milioni di righe) e devono avere una delle seguenti estensioni: <i>[!UICONTROL .tsv]</i> (per valori separati da tabulazioni), <i>[!UICONTROL .txt]</i> (per testo ASCII conforme a Unicode), <i>[!UICONTROL .csv]</i> (per valori separati da virgola) o <i>[!UICONTROL .zip]</i> (per il formato ZIP compresso, che si decomprime in un file TSV). Il nome del file non può includere i seguenti caratteri: `# % &amp; * | \ : &quot; &lt; &gt; . ? /`<br><br><b>Suggerimento:</b> Per i dati che includono caratteri internazionali, utilizzare i file in formato TSV o TXT. |
+| [!UICONTROL File to Upload] | Il file da caricare. Specificare il file immettendo il percorso completo e il nome del file oppure facendo clic su <b>[!UICONTROL Browse]</b> per individuare il file nel dispositivo o nella rete.<br><br>I file bulksheet possono contenere fino a 2,5 GB (circa 2,5 milioni di righe) e devono avere una delle seguenti estensioni: <i>[!UICONTROL .tsv]</i> (per valori separati da tabulazioni), <i>[!UICONTROL .txt]</i> (per testo ASCII conforme a Unicode), <i>[!UICONTROL .csv]</i> (per valori separati da virgola) o <i>[!UICONTROL .zip]</i> (per il formato ZIP compresso, che si decomprime in un file TSV). Il nome del file non può includere i seguenti caratteri: `# % &amp; * \| \ : " < > . ? /`<br><br><b>Suggerimento:</b> Per i dati che includono caratteri internazionali, utilizzare i file in formato TSV o TXT. |
 | [!UICONTROL Single Account] | Indica se il file si applica a un account: <i>[!UICONTROL Yes]</i> (per un account) o <i>[!UICONTROL No]</i> (per più account). |
 | [!UICONTROL Account (Search Engine)] | (Quando il file si applica a un singolo account) L’account a cui caricare i dati. |
 | [!UICONTROL Search Engine] | (Quando il file si applica a più account) La rete di annunci in cui caricare i dati. |

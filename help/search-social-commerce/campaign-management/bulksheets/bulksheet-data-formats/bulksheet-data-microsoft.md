@@ -3,7 +3,7 @@ title: Dati bulksheet richiesti per  [!DNL Microsoft Advertising]  account
 description: Fai riferimento ai campi di intestazione e ai campi dati obbligatori nei bulksheet per  [!DNL Microsoft Advertising]  account.
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
 workflow-type: tm+mt
 source-wordcount: '6928'
 ht-degree: 0%
@@ -65,15 +65,15 @@ Per i campi dati relativi alle entità account, vedere &quot;[Campi necessari pe
 | [!UICONTROL Display Path 1] | (Solo annunci di testo espansi, annunci di ricerca dinamici e annunci di ricerca responsive) Un percorso di visualizzazione aggiuntivo. Vedere la voce per [!UICONTROL Display Path 1].<br><br>Esempio: se [!UICONTROL Display Path 1] è &quot;offerte&quot; e [!UICONTROL Display Path 2] è &quot;locale&quot;, l&#39;URL di visualizzazione sarà &lt;<i>URL di visualizzazione</i>>/offerte/locale, ad esempio www.example.com/deals/local. |
 | [!UICONTROL Start Date] | (Solo sitelink avanzati) La prima data in cui è possibile fare offerte per il sitelink, nel fuso orario dell&#39;inserzionista e in uno dei seguenti formati: m/d/aaaa, m/g/aa, m-d-aaaa o m-d-aaaa. Per impostazione predefinita, i nuovi sitelink migliorati sono nel giorno corrente. <b>Nota:</b> è possibile creare nuovi sitelink avanzati solo nelle campagne con sitelink avanzati esistenti o senza sitelink. |
 | [!UICONTROL End Date] | L’ultima data in cui il sitelink può essere visualizzato con gli annunci, nel fuso orario dell’inserzionista e in uno dei seguenti formati: m/d/aaaa, m/d/aaaa, m-d-aaaa o m-d-aaaa. Per un nuovo sitelink, il valore predefinito è `[blank]` (ovvero, nessuna data di fine). |
-| [!UICONTROL Call To Action] | Invito all’azione da includere nell’annuncio. Per un elenco dei valori possibili[&#128279;](https://learn.microsoft.com/en-us/advertising/campaign-management-service/calltoaction), vedere il riferimento API ma immettere chiamate di più parole per l&#39;azione come più parole, ad esempio &quot;Bet Now&quot; invece di &quot;BetNow&quot;, nei bulksheet. |
-| [!UICONTROL Call To Action Language] | Linguaggio per le opzioni dell&#39;invito all&#39;azione. Consulta il riferimento API [per un elenco delle lingue possibili](https://learn.microsoft.com/en-us/advertising/campaign-management-service/languagename). |
+| [!UICONTROL Call To Action] | Il call to action da includere nell’annuncio. Per un elenco dei valori possibili[, vedere il riferimento API ](https://learn.microsoft.com/en-us/advertising/campaign-management-service/calltoaction)ma immettere chiamate di più parole per l&#39;azione come più parole, ad esempio &quot;Bet Now&quot; invece di &quot;BetNow&quot;, nei bulksheet. |
+| [!UICONTROL Call To Action Language] | Lingua per le opzioni di call to action. Consulta il riferimento API [per un elenco delle lingue possibili](https://learn.microsoft.com/en-us/advertising/campaign-management-service/languagename). |
 | [!UICONTROL Base URL/Final URL] | L’URL della pagina di destinazione a cui vengono indirizzati gli utenti dei motori di ricerca quando fanno clic sull’annuncio, compresi eventuali parametri di aggiunta configurati per la campagna o l’account. Gli URL di base/finali a livello di parola chiave sostituiscono quelli a livello di annuncio e superiori.<br><br>Per eliminare il valore esistente, utilizzare il valore `[delete]` (comprese le parentesi). |
 | [!UICONTROL Destination URL] | (Incluso nei bulksheet generati a scopo informativo; non pubblicato sul motore di ricerca) Per gli account con URL di destinazione, si tratta dell’URL che collega un annuncio a un URL/pagina di destinazione di base sul sito web dell’inserzionista (a volte tramite un altro sito che tiene traccia del clic e quindi reindirizza l’utente alla pagina di destinazione). Include tutti i parametri di aggiunta configurati per la campagna o l’account Search, Social e Commerce. Se hai generato URL di tracciamento, questo si basa sui parametri di tracciamento riportati nelle impostazioni del tuo account e nelle impostazioni della campagna. Se hai aggiunto parametri specifici per i motori di ricerca, questi possono essere sostituiti con parametri equivalenti per Search, Social e Commerce.<br><br>Per gli account con URL finali, questa colonna mostra lo stesso valore della colonna URL di base/URL finale. |
 | [!UICONTROL Custom URL Param] | Dati da sostituire alla variabile dinamica `{custom_code}` quando la variabile viene inclusa nei parametri di tracciamento per le impostazioni dell&#39;account di ricerca o della campagna. Per inserire il valore personalizzato nell’URL di tracciamento, devi caricare il file del bulksheet utilizzando l’opzione Genera URL di tracciamento. |
 | [!UICONTROL Creative Type] | Il formato dell&#39;annuncio: <i>[!UICONTROL Dynamic Search Ad]</i>, <i>[!UICONTROL Expanded Text Ad]</i>, <i>[!UICONTROL Expanded Dynamic Search Ad]</i>, <i>[!UICONTROL Multimedia Ad]</i>, <i>[!UICONTROL Product Ad]</i> (annunci acquisti), o <i>[!UICONTROL Responsive Search Ad]</i>, o <i>[!UICONTROL Text ad]</i>. Il valore predefinito per i nuovi annunci è <i>[!UICONTROL Text ad]</i>. |
 | [!UICONTROL Ad Group Start Date] | La prima data in cui le offerte possono essere presentate per il gruppo di annunci, nel fuso orario dell’inserzionista e in uno dei seguenti formati: m/g/aaaa, m/g/aa, m-g-aaaa o m-g-aa. Per un nuovo gruppo di annunci, l’impostazione predefinita è la data corrente. |
 | [!UICONTROL Ad Group End Date] | L&#39;ultima data in cui le offerte possono essere presentate per il gruppo di annunci, nel fuso orario dell&#39;inserzionista e in uno dei seguenti formati: m/d/aaaa, m/g/aa, m-d-aaaa o m-d-aaaa. Per un nuovo gruppo di annunci, l&#39;impostazione predefinita è [blank] (ovvero, nessuna data di fine). |
-| [!UICONTROL Tracking Template] | (Facoltativo) Il modello di tracciamento, che specifica tutti i reindirizzamenti dei domini di destinazione e i parametri di tracciamento e incorpora l’URL finale in un parametro. Il modello di tracciamento al livello più granulare (con la parola chiave come più granulare) sostituisce i valori a tutti i livelli superiori.<br><br>Ad Adobe Advertising, il tracciamento delle conversioni, che viene applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, Search, Social e Commerce aggiungono automaticamente il codice di reindirizzamento e di tracciamento quando si salva il record.<br><br>Per reindirizzamenti e monitoraggio di terze parti, immettere un valore.<br><br>Per un elenco di parametri per indicare gli URL finali nei modelli di tracciamento, consulta la documentazione di [!DNL Microsoft Advertising].<br><br> Per eliminare il valore esistente, utilizzare il valore `[delete]` (comprese le parentesi). |
+| [!UICONTROL Tracking Template] | (Facoltativo) Il modello di tracciamento, che specifica tutti i reindirizzamenti dei domini di destinazione e i parametri di tracciamento e incorpora l’URL finale in un parametro. Il modello di tracciamento al livello più granulare (con la parola chiave come più granulare) sostituisce i valori a tutti i livelli superiori.<br><br>Per il tracciamento delle conversioni di Adobe Advertising, applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, Search, Social e Commerce aggiungono automaticamente il codice di reindirizzamento e di tracciamento quando si salva il record.<br><br>Per reindirizzamenti e monitoraggio di terze parti, immettere un valore.<br><br>Per un elenco di parametri per indicare gli URL finali nei modelli di tracciamento, consulta la documentazione di [!DNL Microsoft Advertising].<br><br> Per eliminare il valore esistente, utilizzare il valore `[delete]` (comprese le parentesi). |
 | [!UICONTROL Landing Page Suffix] | Eventuali parametri da aggiungere alla fine degli URL finali per tenere traccia delle informazioni. Esempio: `param2=value1&param3=value2`<br><br>Visualizza &quot;[Formati di tracciamento dei clic per [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).&quot;<br><br>I suffissi URL finali ai livelli inferiori sovrascrivono il suffisso a livello di account. Per una manutenzione più semplice, utilizza solo il suffisso a livello di account, a meno che non sia necessario un tracciamento diverso per i singoli componenti dell’account. Per configurare un suffisso a livello di gruppo di annunci o inferiore, utilizzare l&#39;editor [!DNL Microsoft Advertising]. |
 | Cerca stato rete | Se inserire annunci per il gruppo di annunci su vari elementi della rete di ricerca:<ul><li><i>Tutto:</i> per inserire annunci in tutte le reti di ricerca Bing e nei partner di ricerca in syndication.</li><li><i>OwnedAndOperatedOnly:</i>Per inserire annunci solo su Bing e Yahoo! siti web.</li><li><i>SyndicatedSearchOnly:</i> Per inserire annunci solo su Bing e Yahoo. partner di ricerca in syndication.</li><li><i>Disattivato:</i> Per inserire annunci solo nella rete dei contenuti (non nella rete di ricerca).</li></ul> Per i nuovi gruppi di annunci, l’impostazione predefinita è Attivato. |
 | [!UICONTROL Content Network Status] | Obsoleto |
@@ -112,7 +112,7 @@ Per i campi dati relativi alle entità account, vedere &quot;[Campi necessari pe
 | [!UICONTROL EF Error Message] | (Incluso nei bulksheet generati a scopo informativo) Segnaposto per la visualizzazione dei messaggi di errore provenienti dalla rete di annunci relativi ai dati nella riga. I messaggi di errore sono inclusi nei file [!UICONTROL EF Errors]. Questo valore non viene inviato alla rete di annunci. |
 | [!UICONTROL SE Error Message] | (Incluso nei bulksheet generati a scopo informativo) Segnaposto per la visualizzazione dei messaggi di errore provenienti dalla rete di annunci relativi ai dati nella riga. I messaggi di errore sono inclusi nei file [!UICONTROL SE Errors]. Questo valore non viene inviato alla rete di annunci. |
 | [!UICONTROL Exemption Request] | (Incluso nei bulksheet generati a scopo informativo) Segnaposto per la visualizzazione dei nomi e del testo di eventuali criteri pubblicitari Google violati da un annuncio. |
-| [!UICONTROL Retail Hash] | (Incluso a scopo informativo nei bulksheet generati con Advanced Campaign Management) Un codice hash alfanumerico (ad esempio f9639f40cdf56524b541e5dacf55a991) che indica che l’elemento è stato generato utilizzando la vista Avanzate (ACM). |
+| [!UICONTROL Retail Hash] | (Incluso a scopo informativo nei bulksheet generati utilizzando Advanced Campaign Management) Un codice hash alfanumerico (ad esempio f9639f40cdf56524b541e5dacf55a991) che indica che l’elemento è stato generato utilizzando la vista Avanzate (ACM). |
 
 [^1]: [!DNL Excel] converte i numeri elevati in notazione scientifica (ad esempio 2,12E+09 per 2115585666) quando apre il file. Per visualizzare le cifre nella notazione standard, selezionare una cella della colonna e fare clic all&#39;interno della barra della formula.
 
@@ -131,8 +131,8 @@ Per una descrizione di ogni campo dati, vedere &quot;[Tutti i campi dati disponi
 | Campo | Obbligatorio |
 | ---- | ---- |
 | [!UICONTROL Acct Name] | Obbligatorio a meno che ogni riga non includa &quot;[!UICONTROL AMO ID]&quot; per l&#39;entità. |
-| [!UICONTROL Campaign Name] | Obbligatorio | Il nome univoco che identifica una campagna per un account. |
-| [!UICONTROL Campaign Budget] | Obbligatorio per creare una campagna. | Limite di spesa giornaliero per la campagna, con o senza simboli monetari e punteggiatura. Questo valore sostituisce ma non può superare il budget del conto. |
+| [!UICONTROL Campaign Name] | Obbligatorio. Il nome univoco che identifica una campagna per un account. |
+| [!UICONTROL Campaign Budget] | Obbligatorio per creare una campagna. Limite di spesa giornaliero per la campagna, con o senza simboli monetari e punteggiatura. Questo valore sostituisce ma non può superare il budget del conto. |
 | [!UICONTROL Channel Type] | Obbligatorio per creare una campagna. |
 | [!UICONTROL Delivery Method] | Facoltativo |
 | [!UICONTROL Campaign Priority] | Obbligatorio per creare una campagna acquisti. |
@@ -216,7 +216,7 @@ Per una descrizione di ogni campo dati, vedere &quot;[Tutti i campi dati disponi
 | [!UICONTROL Acct Name] | Obbligatorio a meno che ogni riga non includa &quot;[!UICONTROL AMO ID]&quot; per l&#39;entità. |
 | [!UICONTROL Campaign Name] | Obbligatorio |
 | [!UICONTROL Ad Group Name] | Obbligatorio |
-| [!UICONTROL Description Line 1]-[!UICONTROL Description Line 2] Obbligatorio per modificare la descrizione. <b>Nota:</b> Per questo tipo di annuncio, la modifica della copia dell&#39;annuncio elimina l&#39;annuncio esistente e ne crea uno nuovo. |
+| [!UICONTROL Description Line 1]-[!UICONTROL Description Line 2] | Obbligatorio per modificare la descrizione. <b>Nota:</b> Per questo tipo di annuncio, la modifica della copia dell&#39;annuncio elimina l&#39;annuncio esistente e ne crea uno nuovo. |
 | [!UICONTROL Display Path 1] | Obbligatorio per modificare il campo. |
 | [!UICONTROL Display Path 2] | Obbligatorio per modificare il campo. |
 | [!UICONTROL Creative Type] | Obbligatorio per creare o modificare lo stato di un annuncio di prodotto. |
@@ -225,12 +225,12 @@ Per una descrizione di ogni campo dati, vedere &quot;[Tutti i campi dati disponi
 | \[Classificazione etichetta specifica dell’inserzionista\] | Facoltativo |
 | [!UICONTROL Campaign ID] | Facoltativo |
 | [!UICONTROL Ad Group ID] | Facoltativo |
-| [!UICONTROL Ad ID] | Obbligatorio solo quando si modifica lo stato dell&#39;annuncio, a meno che la riga non includa a) un numero sufficiente di colonne di proprietà dell&#39;annuncio per identificare l&#39;annuncio oppure b) un &quot;[!UICONTROL AMO ID]&quot;. Tuttavia, se non includi né [!UICONTROL Ad ID] né [!UICONTROL AMO ID] e le colonne della proprietà dell&#39;annuncio corrispondono a più annunci, lo stato di uno solo degli annunci cambia. |
+| [!UICONTROL Ad ID] | Obbligatorio solo quando si modifica lo stato dell&#39;annuncio, a meno che la riga non includa a&amp;rpar; colonne di proprietà dell&#39;annuncio sufficienti per identificare l&#39;annuncio o b&amp;rpar; e &quot;[!UICONTROL AMO ID]&quot;. Tuttavia, se non includi né [!UICONTROL Ad ID] né [!UICONTROL AMO ID] e le colonne della proprietà dell&#39;annuncio corrispondono a più annunci, lo stato di uno solo degli annunci cambia. |
 | [!UICONTROL AMO ID] | Obbligatorio per modificare o eliminare i dati a meno che non si includano l’ID entità e l’ID entità padre.<br><br>Search, Social e Commerce utilizzano il valore per determinare l&#39;identità corretta da modificare, ma non pubblicano l&#39;ID sulla rete di annunci. |
 
 ### Campi annuncio prodotto (acquisti)
 
-Per ulteriori informazioni sulla creazione di annunci per acquisti, consulta &quot;[Implementare [!DNL Microsoft Advertising] campagne acquisti](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html?lang=it).&quot;
+Per ulteriori informazioni sulla creazione di annunci per acquisti, consulta &quot;[Implementare [!DNL Microsoft Advertising] campagne acquisti](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html).&quot;
 
 Per questo tipo di annuncio, utilizzare la riga &quot;[!UICONTROL Creative (except RSA)]&quot; nella finestra di dialogo [!UICONTROL Download Bulksheet].
 
@@ -290,7 +290,7 @@ Per una descrizione di ogni campo dati, vedere &quot;[Tutti i campi dati disponi
 | ---- | ---- |
 | [!UICONTROL Acct Name] | Obbligatorio a meno che ogni riga non includa &quot;[!UICONTROL AMO ID]&quot; per l&#39;entità. |
 | [!UICONTROL Campaign Name] | Obbligatorio |
-| [!UICONTROL Ad Group Name] | Obbligatorio | |
+| [!UICONTROL Ad Group Name] | Obbligatorio |
 | [!UICONTROL Ad Title], [!UICONTROL Ad Title 2]-[!UICONTROL Ad Title 15] | Per gli annunci di ricerca responsive, sono necessari [!UICONTROL Ad Title], [!UICONTROL Ad Title 2] e [!UICONTROL Ad Title 3] per creare un annuncio e tutti gli altri campi del titolo dell&#39;annuncio sono facoltativi. Per eliminare il valore esistente per un campo non obbligatorio, utilizzare il valore `[delete]` (comprese le parentesi). |
 | [!UICONTROL Ad Title 1 Position]-[!UICONTROL Ad Title 15 Position] | Facoltativo |
 | [!UICONTROL Description Line 1]-[!UICONTROL Description Line 4] | Per gli annunci di ricerca responsive, sono necessari [!UICONTROL Description Line 1] e [!UICONTROL Description Line 2] per creare un annuncio e [!UICONTROL Description Line 3] e [!UICONTROL Description Line 4] sono facoltativi. Per eliminare il valore esistente, utilizzare il valore `[delete]` (comprese le parentesi). |
@@ -324,7 +324,7 @@ Per una descrizione di ogni campo dati, vedere &quot;[Tutti i campi dati disponi
 | [!UICONTROL Campaign Name] | Obbligatorio |
 | [!UICONTROL Ad Group Name] | Obbligatorio |
 | [!UICONTROL Ad Title], [!UICONTROL Ad Title 2]-[!UICONTROL Ad Title 3] | Sola lettura |
-| [!UICONTROL Description Line 1]-[!UICONTROL Description Line 2] di sola lettura |
+| [!UICONTROL Description Line 1]-[!UICONTROL Description Line 2] | Sola lettura |
 | [!UICONTROL Display URL] | Sola lettura |
 | [!UICONTROL Display Path 1] | Sola lettura |
 | [!UICONTROL Display Path 2] | Sola lettura |

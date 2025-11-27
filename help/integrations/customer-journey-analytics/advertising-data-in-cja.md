@@ -2,7 +2,8 @@
 title: Metriche e dimensioni di Adobe Advertising in Customer Journey Analytics
 description: Fai riferimento alle metriche e alle dimensioni di Adobe Advertising disponibili in Customer Journey Analytics.
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: fabe7312fc4d1ab899bedcf9eae1c8040a4a6532
+exl-id: 97c89e03-ab15-4906-96fc-6bb77ea0cd7c
+source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -68,26 +69,26 @@ Nella tabella seguente:
 
 | Nome campo Adobe Advertising | Nome campo XDM | Nome visualizzato campo XDM | Source |
 |------------------------------|----------------|------------------------|--------|
-| Chiave | skwcid | ID ADOBE ADVERTISING |
-| Piattaforma annuncio | adobe_advertising_ad_platform | Adobe Advertising Ad Platform |
-| Account | adobe_advertising_account | Account Adobe Advertising |
-| Campagna | adobe_advertising_campaign | Campagna Adobe Advertising |
-| Gruppo di annunci | adobe_advertising_ad_group | Adobe Advertising Ad Group |
-| Parola chiave | adobe_advertising_keyword | Parola chiave Adobe Advertising |
-| Annuncio | adobe_advertising_ad | Adobe Advertising Ad |
-| Posizionamento | adobe_advertising_placement | Posizionamento Adobe Advertising |
-| Tipo di corrispondenza | adobe_advertising_match_type | Tipo di corrispondenza Adobe Advertising |
-| Titolo annuncio | adobe_advertising_ad_title | Titolo annuncio Adobe Advertising |
-| Descrizione annuncio | adobe_advertising_ad_description | Descrizione annuncio Adobe Advertising |
-| URL di destinazione dell’annuncio | adobe_advertising_ad_destination_url | URL di destinazione dell’annuncio Adobe Advertising |
-| URL di visualizzazione annuncio | adobe_advertising_ad_display_url | URL di visualizzazione dell’annuncio Adobe Advertising |
-| Dispositivo | adobe_advertising_device | Dispositivo Adobe Advertising |
-| Keyword MatchType | adobe_advertising_keyword_matchtype | Adobe Advertising Keyword MatchType |
-| Rete | adobe_advertising_network | Rete Adobe Advertising |
-| Tipo di annuncio | adobe_advertising_ad_type | Tipo di annuncio Adobe Advertising |
-| Destinazione prodotto | adobe_advertising_product_target | Target di prodotto Adobe Advertising |
-| Tipo di destinazione | adobe_advertising_landing_type | Tipo di destinazione Adobe Advertising |
-| Ottimizzazione | adobe_advertising_optimization | Ottimizzazione Adobe Advertising |
+| Chiave | skwcid | ID ADOBE ADVERTISING |  |
+| Piattaforma annuncio | adobe_advertising_ad_platform | Adobe Advertising Ad Platform |  |
+| Account | adobe_advertising_account | Account Adobe Advertising |  |
+| Campagna | adobe_advertising_campaign | Campagna Adobe Advertising |  |
+| Gruppo di annunci | adobe_advertising_ad_group | Adobe Advertising Ad Group |  |
+| Parola chiave | adobe_advertising_keyword | Parola chiave Adobe Advertising |  |
+| Annuncio | adobe_advertising_ad | Adobe Advertising Ad |  |
+| Posizionamento | adobe_advertising_placement | Posizionamento Adobe Advertising |  |
+| Tipo di corrispondenza | adobe_advertising_match_type | Tipo di corrispondenza Adobe Advertising |  |
+| Titolo annuncio | adobe_advertising_ad_title | Titolo annuncio Adobe Advertising |  |
+| Descrizione annuncio | adobe_advertising_ad_description | Descrizione annuncio Adobe Advertising |  |
+| URL di destinazione dell’annuncio | adobe_advertising_ad_destination_url | URL di destinazione dell’annuncio Adobe Advertising |  |
+| URL di visualizzazione annuncio | adobe_advertising_ad_display_url | URL di visualizzazione dell’annuncio Adobe Advertising |  |
+| Dispositivo | adobe_advertising_device | Dispositivo Adobe Advertising |  |
+| Keyword MatchType | adobe_advertising_keyword_matchtype | Adobe Advertising Keyword MatchType |  |
+| Rete | adobe_advertising_network | Rete Adobe Advertising |  |
+| Tipo di annuncio | adobe_advertising_ad_type | Tipo di annuncio Adobe Advertising |  |
+| Destinazione prodotto | adobe_advertising_product_target | Target di prodotto Adobe Advertising |  |
+| Tipo di destinazione | adobe_advertising_landing_type | Tipo di destinazione Adobe Advertising |  |
+| Ottimizzazione | adobe_advertising_optimization | Ottimizzazione Adobe Advertising |  |
 
 >[!MORELIKETHIS]
 >
