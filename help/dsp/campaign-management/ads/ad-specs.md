@@ -3,7 +3,7 @@ title: Specifiche annuncio
 description: Fai riferimento a specifiche pubblicitarie generali e specifiche per l’editore.
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-source-git-commit: 10e85f9ec0b7b867828cc9ac154af6f4982c44d2
+source-git-commit: a6f9bb2d714e7ddb22f74c9c614772eca30f9e40
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Gli annunci vengono consegnati per impostazione predefinita su dispositivi deskt
 
 * **Individuazione:** Vedere le [specifiche annuncio](/help/dsp/assets/discovery-networks-ad-specs.pdf) di individuazione.
 
-* **Disney (incluso Hulu):** Consulta le [specifiche degli annunci Disney](https://hulu.disneyadsales.com/ad-products/video-commercial/).
+* **Disney (incluso Hulu):** Consulta le [specifiche degli annunci Disney](https://www.disneyadvertising.com/mediakit/#specifications).
 
 * **HBO Max:** Vedi le [specifiche annuncio](/help/dsp/assets/hbo-max-ad-specs-2022.xlsx) di HBO Max.
 
