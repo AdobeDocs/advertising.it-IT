@@ -3,9 +3,9 @@ title: Dati bulksheet richiesti per  [!DNL Microsoft Advertising]  account
 description: Fai riferimento ai campi di intestazione e ai campi dati obbligatori nei bulksheet per  [!DNL Microsoft Advertising]  account.
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-source-git-commit: 7a87d3c3827125adb97f50986823568c9aef8c24
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '6895'
+source-wordcount: '6934'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ Per i campi dati relativi alle entità account, vedere &quot;[Campi necessari pe
 | [!UICONTROL Channel Type] | Tipo di canale di destinazione della campagna: <i>[!UICONTROL Audience]</i>, <i>[!UICONTROL DynamicSearchAds]</i>, <i>[!UICONTROL Search]</i> o <i>[!UICONTROL Shopping]</i>. |
 | [!UICONTROL Delivery Method] | (Solo campagne con budget giornalieri) Quanto rapidamente vengono visualizzati gli annunci per la campagna ogni giorno:<ul><li><i>[!UICONTROL Standard (Distributed)]</i> (impostazione predefinita per le nuove campagne): per distribuire le impression pubblicitarie nell&#39;arco della giornata.</li><li><i>[!UICONTROL Accelerated]:</i> Per visualizzare gli annunci il più spesso possibile fino al raggiungimento del budget. Di conseguenza, i tuoi annunci potrebbero non essere visualizzati più avanti nella giornata.</li></ul> |
 | [!UICONTROL Campaign Priority] | (Solo campagne acquisti) La priorità con cui viene utilizzata la campagna quando più campagne pubblicizzano lo stesso prodotto: <i>[!UICONTROL Low]</i> (impostazione predefinita per le nuove campagne), <i>[!UICONTROL Medium]</i> o <i>[!UICONTROL High]</i>.<br><br>Quando lo stesso prodotto è incluso in più campagne, la rete di annunci utilizza per prima cosa la priorità della campagna per determinare quale campagna (e l&#39;offerta associata) è idonea per l&#39;asta di annunci. Se tutte le campagne hanno la stessa priorità, la campagna con l’offerta più elevata è idonea. |
+| [!UICONTROL Has EU Political Ads] | (Applicabile alle campagne indirizzate a tipi di pubblico nell’Unione europea (UE)) Indica se la campagna contiene o meno pubblicità politica in base ai requisiti per gli annunci pubblicitari forniti nell’Unione europea ai sensi del regolamento (UE) 2024/90: <i>[!UICONTROL Yes]</i> o <i>[!UICONTROL No]</i>. |
 | [!UICONTROL Merchant ID] | (Campagne commerciali e campagne di pubblico collegate solo a un feed esercente) L’ID cliente dell’account esercente i cui prodotti vengono utilizzati per la campagna. |
 | [!UICONTROL Sales Country] | (Solo campagne commerciali; sola lettura per le campagne esistenti) Il paese in cui vengono venduti i prodotti della campagna. Poiché i prodotti sono associati ai paesi di destinazione, questa impostazione determina quali prodotti vengono pubblicizzati nella campagna. |
 | [!UICONTROL Product Scope Filter] | (Solo campagne che utilizzano la rete di acquisto) I prodotti nel tuo account esercente per i quali è possibile creare annunci di prodotto per la campagna. Puoi immettere fino a sette combinazioni di dimensioni e attributi di prodotto su cui filtrare i prodotti, utilizzando il formato dimension=attribute. Separa più filtri con un delimitatore &quot;>>&quot;. Per un elenco delle dimensioni di prodotto disponibili, consulta &quot;[Filtri di prodotto per campagne acquisti](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md).&quot;<br><br> Esempio: &quot;`CategoryL1==Animals & Pet Supplies>>CategoryL2=Pet Supplies>>Brand=Acme Pet Supplies`&quot;<br><br> Per eliminare i valori esistenti, utilizzare il valore `[delete]` (comprese le parentesi). |
@@ -65,7 +66,7 @@ Per i campi dati relativi alle entità account, vedere &quot;[Campi necessari pe
 | [!UICONTROL Display Path 1] | (Solo annunci di testo espansi, annunci di ricerca dinamici e annunci di ricerca responsive) Un percorso di visualizzazione aggiuntivo. Vedere la voce per [!UICONTROL Display Path 1].<br><br>Esempio: se [!UICONTROL Display Path 1] è &quot;offerte&quot; e [!UICONTROL Display Path 2] è &quot;locale&quot;, l&#39;URL di visualizzazione sarà &lt;<i>URL di visualizzazione</i>>/offerte/locale, ad esempio www.example.com/deals/local. |
 | [!UICONTROL Start Date] | (Solo sitelink avanzati) La prima data in cui è possibile fare offerte per il sitelink, nel fuso orario dell&#39;inserzionista e in uno dei seguenti formati: m/d/aaaa, m/g/aa, m-d-aaaa o m-d-aaaa. Per impostazione predefinita, i nuovi sitelink migliorati sono nel giorno corrente. <b>Nota:</b> è possibile creare nuovi sitelink avanzati solo nelle campagne con sitelink avanzati esistenti o senza sitelink. |
 | [!UICONTROL End Date] | L’ultima data in cui il sitelink può essere visualizzato con gli annunci, nel fuso orario dell’inserzionista e in uno dei seguenti formati: m/d/aaaa, m/d/aaaa, m-d-aaaa o m-d-aaaa. Per un nuovo sitelink, il valore predefinito è `[blank]` (ovvero, nessuna data di fine). |
-| [!UICONTROL Call To Action] | Il call to action da includere nell’annuncio. Per un elenco dei valori possibili[, vedere il riferimento API &#x200B;](https://learn.microsoft.com/en-us/advertising/campaign-management-service/calltoaction)ma immettere chiamate di più parole per l&#39;azione come più parole, ad esempio &quot;Bet Now&quot; invece di &quot;BetNow&quot;, nei bulksheet. |
+| [!UICONTROL Call To Action] | Il call to action da includere nell’annuncio. Per un elenco dei valori possibili[, vedere il riferimento API ](https://learn.microsoft.com/en-us/advertising/campaign-management-service/calltoaction)ma immettere chiamate di più parole per l&#39;azione come più parole, ad esempio &quot;Bet Now&quot; invece di &quot;BetNow&quot;, nei bulksheet. |
 | [!UICONTROL Call To Action Language] | Lingua per le opzioni di call to action. Consulta il riferimento API [per un elenco delle lingue possibili](https://learn.microsoft.com/en-us/advertising/campaign-management-service/languagename). |
 | [!UICONTROL Base URL/Final URL] | L’URL della pagina di destinazione a cui vengono indirizzati gli utenti dei motori di ricerca quando fanno clic sull’annuncio, compresi eventuali parametri di aggiunta configurati per la campagna o l’account. Gli URL di base/finali a livello di parola chiave sostituiscono quelli a livello di annuncio e superiori.<br><br>Per eliminare il valore esistente, utilizzare il valore `[delete]` (comprese le parentesi). |
 | [!UICONTROL Destination URL] | (Incluso nei bulksheet generati a scopo informativo; non pubblicato sul motore di ricerca) Per gli account con URL di destinazione, si tratta dell’URL che collega un annuncio a un URL/pagina di destinazione di base sul sito web dell’inserzionista (a volte tramite un altro sito che tiene traccia del clic e quindi reindirizza l’utente alla pagina di destinazione). Include tutti i parametri di aggiunta configurati per la campagna o l’account Search, Social e Commerce. Se hai generato URL di tracciamento, questo si basa sui parametri di tracciamento riportati nelle impostazioni del tuo account e nelle impostazioni della campagna. Se hai aggiunto parametri specifici per i motori di ricerca, questi possono essere sostituiti con parametri equivalenti per Search, Social e Commerce.<br><br>Per gli account con URL finali, questa colonna mostra lo stesso valore della colonna URL di base/URL finale. |
@@ -136,6 +137,7 @@ Per una descrizione di ogni campo dati, vedere &quot;[Tutti i campi dati disponi
 | [!UICONTROL Channel Type] | Obbligatorio per creare una campagna. |
 | [!UICONTROL Delivery Method] | Facoltativo |
 | [!UICONTROL Campaign Priority] | Obbligatorio per creare una campagna acquisti. |
+| [!UICONTROL Has EU Political Ads] | Obbligatorio per creare una campagna. |
 | [!UICONTROL Merchant ID] | Obbligatorio per creare una campagna acquisti. |
 | [!UICONTROL Sales Country] | Obbligatorio per creare una campagna acquisti. |
 | [!UICONTROL Product Scope Filter] | (Campagne commerciali) Facoltativo |
@@ -225,12 +227,12 @@ Per una descrizione di ogni campo dati, vedere &quot;[Tutti i campi dati disponi
 | \[Classificazione etichetta specifica dell’inserzionista\] | Facoltativo |
 | [!UICONTROL Campaign ID] | Facoltativo |
 | [!UICONTROL Ad Group ID] | Facoltativo |
-| [!UICONTROL Ad ID] | Obbligatorio solo quando si modifica lo stato dell&#39;annuncio, a meno che la riga non includa a&rpar; colonne di proprietà dell&#39;annuncio sufficienti per identificare l&#39;annuncio o b&rpar; e &quot;[!UICONTROL AMO ID]&quot;. Tuttavia, se non includi né [!UICONTROL Ad ID] né [!UICONTROL AMO ID] e le colonne della proprietà dell&#39;annuncio corrispondono a più annunci, lo stato di uno solo degli annunci cambia. |
+| [!UICONTROL Ad ID] | Obbligatorio solo quando si modifica lo stato dell&#39;annuncio, a meno che la riga non includa a&amp;rpar; colonne di proprietà dell&#39;annuncio sufficienti per identificare l&#39;annuncio o b&amp;rpar; e &quot;[!UICONTROL AMO ID]&quot;. Tuttavia, se non includi né [!UICONTROL Ad ID] né [!UICONTROL AMO ID] e le colonne della proprietà dell&#39;annuncio corrispondono a più annunci, lo stato di uno solo degli annunci cambia. |
 | [!UICONTROL AMO ID] | Obbligatorio per modificare o eliminare i dati a meno che non si includano l’ID entità e l’ID entità padre.<br><br>Search, Social e Commerce utilizzano il valore per determinare l&#39;identità corretta da modificare, ma non pubblicano l&#39;ID sulla rete di annunci. |
 
 ### Campi annuncio prodotto (acquisti)
 
-Per ulteriori informazioni sulla creazione di annunci per acquisti, consulta &quot;[Implementare [!DNL Microsoft Advertising] campagne acquisti](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html?lang=it).&quot;
+Per ulteriori informazioni sulla creazione di annunci per acquisti, consulta &quot;[Implementare [!DNL Microsoft Advertising] campagne acquisti](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html).&quot;
 
 Per questo tipo di annuncio, utilizzare la riga &quot;[!UICONTROL Creative (except RSA)]&quot; nella finestra di dialogo [!UICONTROL Download Bulksheet].
 

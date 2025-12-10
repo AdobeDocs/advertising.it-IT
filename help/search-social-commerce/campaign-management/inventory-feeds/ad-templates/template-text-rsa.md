@@ -3,15 +3,14 @@ title: Impostazioni di annunci di testo e modelli di annunci di ricerca responsi
 description: Fai riferimento alle impostazioni per annunci di testo e modelli di annunci di ricerca responsive per feed di inventario.
 exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '3325'
+source-wordcount: '3360'
 ht-degree: 0%
 
 ---
 
 # Impostazioni di annunci di testo e modelli di annunci di ricerca responsive per i feed di inventario
-
 
 *[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (elimina solo azioni) e [!DNL Yandex] account solo*
 
@@ -66,7 +65,7 @@ Se non viene trovata alcuna corrispondenza, tutti i dati della campagna vengono 
 
 **[!UICONTROL Campaign Tracking Template]:** (solo account con URL finali/avanzati; facoltativo) Il modello di tracciamento a livello di campagna, che specifica tutti i reindirizzamenti del dominio di destinazione e i parametri di tracciamento e incorpora l&#39;URL finale in un parametro. Questo valore sovrascrive l’impostazione a livello di account, ma i modelli di tracciamento a livelli più granulari (con la parola chiave come più granulare) sovrascrivono questo valore.
 
-* Ad Adobe Advertising, il tracciamento della conversione, che viene applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, Search, Social e Commerce aggiungono automaticamente il codice di reindirizzamento e tracciamento quando si salva il record.
+* Per il tracciamento delle conversioni di Adobe Advertising, applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, Search, Social e Commerce aggiungono automaticamente il codice di reindirizzamento e tracciamento quando si salva il record.
 
 * Per incorporare l’URL finale:
 
@@ -120,6 +119,8 @@ Se non viene trovata alcuna corrispondenza, tutti i dati della campagna vengono 
 
 {{$include /help/_includes/inventory-feed-template-campaign-locations.md}}
 
+**[!UICONTROL Has EU Political Ads]:**([!DNL Google Ads] e [!DNL Microsoft Advertising] solo campagne; applicabile alle campagne destinate a tipi di pubblico nell&#39;Unione europea (UE)) Se la campagna contiene o meno pubblicità politica in base ai requisiti per gli annunci serviti nell&#39;Unione europea ai sensi del Regolamento (UE) 2024/90: *[!UICONTROL Yes]* o *[!UICONTROL No]*.
+
 ## [!UICONTROL Ad Groups]
 
 <!-- **[!UICONTROL Ad Group]:** -->
@@ -136,7 +137,7 @@ Se non viene trovata alcuna corrispondenza, tutti i dati della campagna vengono 
 
 **[!UICONTROL Ad Group Tracking Template]:** (solo account con URL finali/avanzati) Il modello di tracciamento a livello di gruppo di annunci, che specifica tutti i reindirizzamenti del dominio di destinazione e i parametri di tracciamento e incorpora l&#39;URL finale in un parametro.
 
-Ad Adobe Advertising, il tracciamento della conversione, che viene applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, Search, Social e Commerce aggiungono automaticamente il codice di reindirizzamento e tracciamento quando si salva il record.
+Per il tracciamento delle conversioni di Adobe Advertising, applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, Search, Social e Commerce aggiungono automaticamente il codice di reindirizzamento e tracciamento quando si salva il record.
 
 Per reindirizzamenti e tracciamento di terze parti, inserisci un valore. Per indicare l’URL della pagina di destinazione:
 
@@ -196,11 +197,11 @@ Se si utilizza un feed [!DNL Google Merchant Center] e si include questo valore 
 >[!NOTE]
 >
 >* Se generi URL di tracciamento quando pubblichi dati propagati tramite il modello, i parametri di tracciamento vengono aggiunti a questo valore in base alle impostazioni di tracciamento dell’account.
->* ([!DNL Google Ads] account) Evita di utilizzare macro, che non vengono sostituite dai clic provenienti da origini che abilitano il tracciamento parallelo. Se l’inserzionista deve utilizzare delle macro, il Team dell’account Adobe deve collaborare con l’Assistenza clienti o con il team di implementazione per aggiungerle.
+>* ([!DNL Google Ads] account) Evita di utilizzare macro, che non vengono sostituite dai clic provenienti da origini che abilitano il tracciamento parallelo. Se l’inserzionista deve utilizzare delle macro, il team dell’account di Adobe deve collaborare con l’Assistenza clienti o con il team di implementazione per aggiungerle.
 
 **[!UICONTROL Keyword Tracking Template]:** (account con URL finali/avanzati; facoltativo) Il modello di tracciamento, che specifica tutti i reindirizzamenti del dominio di destinazione e i parametri di tracciamento e incorpora l&#39;URL finale in un parametro. Il modello di tracciamento al livello più granulare (con la parola chiave come valore più granulare) sostituisce i valori a tutti gli altri livelli.
 
-* Ad Adobe Advertising, il tracciamento della conversione, che viene applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, Search, Social e Commerce aggiungono automaticamente il codice di reindirizzamento e tracciamento quando si salva il record.
+* Per il tracciamento delle conversioni di Adobe Advertising, applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, Search, Social e Commerce aggiungono automaticamente il codice di reindirizzamento e tracciamento quando si salva il record.
 
 * Facoltativamente, puoi inserire reindirizzamenti e tracciamento di terze parti.
 
@@ -228,7 +229,7 @@ I campi dati nel file di feed possono contenere un massimo di 25 caratteri e pos
 
    * Il valore può essere preceduto o accodato con un simbolo di valuta o un codice. Ad esempio, sono valide £ 2.000,00 e 2000GBP.
 
-   * Il valore può includere una virgola (,) o un punto (.) come separatore, con un punto facoltativo (.) o virgola (,) per i valori frazionari. Ad esempio, sono validi 1.000,00 e 2.000,10.
+   * Il valore può includere una virgola (,) o un punto (.) come separatore, con un punto facoltativo (.) o una virgola (,) per i valori frazionari. Ad esempio, sono validi 1.000,00 e 2.000,10.
 
    * Il valore può essere preceduto o accodato da un segno di percentuale (%), un segno più (+) o un segno meno (-). Ad esempio, 20%, 208+ e -42.32 sono validi.
 
@@ -238,7 +239,7 @@ I campi dati nel file di feed possono contenere un massimo di 25 caratteri e pos
 
 **[!UICONTROL Param 3]:** ([!DNL Microsoft Advertising] solo modelli) Stringa da utilizzare come valore di sostituzione in un annuncio se il titolo, il testo, l&#39;URL di visualizzazione o l&#39;URL finale contiene la stringa di sostituzione dinamica `{Param3}`. La lunghezza massima è di 70 caratteri, ma tieni presente la lunghezza massima degli elementi dell’annuncio in cui lo utilizzi (ad esempio, un titolo dell’annuncio può includere fino a 25 caratteri).
 
-**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** L&#39;offerta iniziale per ogni parola chiave con il tipo di corrispondenza o di annuncio specificato.
+**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** L&#39;offerta iniziale per ogni parola chiave con il tipo di corrispondenza o di annuncio specificato.
 
 ## [!UICONTROL Ads]
 
@@ -318,9 +319,9 @@ Per gli annunci di ricerca responsive, inserire un adcustomizzatore di annunci u
 
 [!DNL Microsoft Advertising] e [!DNL Yahoo! Japan Ads] hanno dichiarato obsolete la creazione e la modifica di annunci di testo standard.
 
-**[!UICONTROL Base URL]:** (solo account con URL di destinazione) Pagina alla quale vengono indirizzati gli utenti. Può includere codice di reindirizzamento e tracciamento di terze parti. Se si utilizza il servizio di monitoraggio delle conversioni di Adobe Advertising e le impostazioni della campagna includono l&#39;utilizzo di [!UICONTROL EF Redirect] e l&#39;aggiunta del monitoraggio a livello di annuncio, Search, Social e Commerce aggiungono automaticamente il proprio codice di reindirizzamento e tracciamento all&#39;annuncio.
+**[!UICONTROL Base URL]:** (solo account con URL di destinazione) Pagina alla quale vengono indirizzati gli utenti. Può includere codice di reindirizzamento e tracciamento di terze parti. Se utilizzi il servizio di monitoraggio delle conversioni di Adobe Advertising e le impostazioni della campagna includono l&#39;utilizzo di [!UICONTROL EF Redirect] e l&#39;aggiunta del monitoraggio a livello di annuncio, Search, Social e Commerce aggiungono automaticamente il proprio codice di reindirizzamento e tracciamento all&#39;annuncio.
 
-Per inserire un nome di colonna o un gruppo di modificatori come parametro dinamico, fare clic nel campo di input e quindi fare clic su un nome di colonna nell&#39;elenco delle colonne o su un nome di modificatore [&#128279;](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) nell&#39;elenco [!UICONTROL Modifiers].
+Per inserire un nome di colonna o un gruppo di modificatori come parametro dinamico, fare clic nel campo di input e quindi fare clic su un nome di colonna nell&#39;elenco delle colonne o su un nome di modificatore [](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) nell&#39;elenco [!UICONTROL Modifiers].
 
 **[!UICONTROL Final URL]:** (account con URL finali/avanzati) URL della pagina di destinazione a cui gli utenti vengono indirizzati quando fanno clic sull&#39;annuncio. Deve includere lo stesso dominio dell’URL di visualizzazione e tutti i parametri nell’URL finale devono corrispondere a quelli nell’URL della pagina di destinazione dopo il clic dell’annuncio. Può contenere reindirizzamenti all’interno del dominio o del sottodominio della pagina di destinazione, ma non reindirizzamenti all’esterno del dominio della pagina di destinazione.
 
@@ -329,11 +330,11 @@ Se si utilizza un feed del centro [!DNL Google Merchant] e si include questo val
 >[!NOTE]
 >
 >* Se generi URL di tracciamento quando pubblichi dati propagati tramite il modello, i parametri di tracciamento vengono aggiunti a questo valore in base alle impostazioni di tracciamento dell’account.
->* ([!DNL Google Ads] account ) Evita l&#39;utilizzo di macro, che non vengono sostituite dai clic provenienti da origini che abilitano il tracciamento parallelo. Se l’inserzionista deve utilizzare delle macro, l’Account Team Adobe deve collaborare con l’Assistenza clienti o con il team di implementazione per aggiungerle.
+>* ([!DNL Google Ads] account ) Evita l&#39;utilizzo di macro, che non vengono sostituite dai clic provenienti da origini che abilitano il tracciamento parallelo. Se l’inserzionista deve utilizzare delle macro, il team dell’account di Adobe deve collaborare con l’Assistenza clienti o con il team di implementazione per aggiungerle.
 
 **[!UICONTROL Tracking Template]:** (account con URL finali/avanzati; facoltativo) Il modello di tracciamento, che specifica tutti i reindirizzamenti del dominio di destinazione e i parametri di tracciamento e incorpora l&#39;URL finale in un parametro. Il modello di tracciamento al livello più granulare (con la parola chiave come valore più granulare) sostituisce i valori a tutti gli altri livelli.
 
-Ad Adobe Advertising, il tracciamento della conversione, che viene applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, Search, Social e Commerce aggiungono automaticamente il codice di reindirizzamento e tracciamento quando si salva il record.
+Per il tracciamento delle conversioni di Adobe Advertising, applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, Search, Social e Commerce aggiungono automaticamente il codice di reindirizzamento e tracciamento quando si salva il record.
 
 Per reindirizzamenti e tracciamento di terze parti, inserisci un valore. Per indicare l’URL della pagina di destinazione:
 
