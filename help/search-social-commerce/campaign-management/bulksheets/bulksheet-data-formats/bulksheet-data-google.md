@@ -241,7 +241,7 @@ Per una descrizione di ogni campo dati, vedere &quot;[Tutti i campi dati disponi
 
 ### Annuncio per ricerca dinamica espanso
 
-Questo tipo di annuncio è ora denominato &quot;annuncio di ricerca dinamica&quot; in [!DNL Google Ads]. Per ulteriori informazioni sulla creazione di annunci per ricerca dinamica, vedi &quot;[Implementare [!DNL Google Ads] annunci per ricerca dinamica](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html).&quot;
+Questo tipo di annuncio è ora denominato &quot;annuncio di ricerca dinamica&quot; in [!DNL Google Ads]. Per ulteriori informazioni sulla creazione di annunci per ricerca dinamica, vedi &quot;[Implementare [!DNL Google Ads] annunci per ricerca dinamica](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html?lang=it).&quot;
 
 Per questo tipo di annuncio, utilizzare la riga &quot;[!UICONTROL Creative (except RSA)]&quot; nella finestra di dialogo [!UICONTROL Download Bulksheet].
 
@@ -266,7 +266,7 @@ Per una descrizione di ogni campo dati, vedere &quot;[Tutti i campi dati disponi
 
 ### Campi per annunci di acquisto/elenco prodotti
 
-Per ulteriori informazioni sulla creazione di annunci per acquisti, consulta &quot;[Implementare [!DNL Google Ads] campagne acquisti](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html).&quot;
+Per ulteriori informazioni sulla creazione di annunci per acquisti, consulta &quot;[Implementare [!DNL Google Ads] campagne acquisti](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html?lang=it).&quot;
 
 Per questo tipo di annuncio, utilizzare la riga &quot;[!UICONTROL Creative (except RSA)]&quot; nella finestra di dialogo [!UICONTROL Download Bulksheet].
 

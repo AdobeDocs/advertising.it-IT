@@ -232,7 +232,7 @@ Per una descrizione di ogni campo dati, vedere &quot;[Tutti i campi dati disponi
 
 ### Campi annuncio prodotto (acquisti)
 
-Per ulteriori informazioni sulla creazione di annunci per acquisti, consulta &quot;[Implementare [!DNL Microsoft Advertising] campagne acquisti](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html).&quot;
+Per ulteriori informazioni sulla creazione di annunci per acquisti, consulta &quot;[Implementare [!DNL Microsoft Advertising] campagne acquisti](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html?lang=it).&quot;
 
 Per questo tipo di annuncio, utilizzare la riga &quot;[!UICONTROL Creative (except RSA)]&quot; nella finestra di dialogo [!UICONTROL Download Bulksheet].
 
