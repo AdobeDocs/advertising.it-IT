@@ -4,9 +4,9 @@ description: Scopri come modificare le impostazioni per più portfolio utilizzan
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 14f85e5ff5655be045fa4a2280edc1fe01978029
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Le notifiche vengono aggiunte anche al Centro notifiche e puoi aprire il riquadr
 
 ## Requisiti dei dati per i file di bulksheet caricati
 
-Vedere la scheda [!UICONTROL Instructions] nel file di bulksheet scaricato.
+Tutti i file di bulksheet devono includere la colonna [!UICONTROL Portfolio ID] e ogni riga di dati deve includere un valore affinché [!UICONTROL Portfolio ID] sia actionable. Per ulteriori informazioni sui requisiti dei dati, vedere la scheda [!UICONTROL Instructions] nel file di bulksheet scaricato.
 
 Per informazioni sulle colonne delle impostazioni del portfolio nella scheda [!UICONTROL Portfolio Settings Edit], vedere la Guida all&#39;ottimizzazione, disponibile in Search, Social e Commerce.
 
