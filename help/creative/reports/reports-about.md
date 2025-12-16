@@ -2,7 +2,7 @@
 title: Informazioni sui report personalizzati
 description: Scopri le opzioni per la creazione di rapporti personalizzati.
 feature: Creative Reporting
-source-git-commit: 5b644fb2eb881b8180932bb9449dd303a70d9647
+source-git-commit: eeeee0404c82bd98d37d4275cbef8e0e12fb4b13
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 0%
@@ -22,6 +22,6 @@ Puoi generare i rapporti una volta o pianificarli su base giornaliera, settimana
 
 ## Rapporti disponibili
 
-* **[!UICONTROL All-in Cost BETA]**: (solo per gli inserzionisti con Advertising Creative e Addertising DSP; funzione beta) Utilizza questo rapporto per vedere quanto spesa Advertising DSP è stata attribuita al servizio annunci per Adobe Creative. Puoi visualizzare dati creativi, di attributo, di destinazione e di altro tipo a livello di campagna, pacchetto, posizionamento e annuncio.
+* **[!UICONTROL All-in Cost]**: (solo per gli inserzionisti con Advertising Creative e Addertising DSP; funzione beta) Utilizza questo rapporto per vedere quanto spesa Advertising DSP è stata attribuita al servizio annunci per Adobe Creative. Puoi visualizzare dati creativi, di attributo, di destinazione e di altro tipo a livello di campagna, pacchetto, posizionamento e annuncio.
 
 * **[!UICONTROL Custom Creative Report]:** Utilizza questo rapporto per monitorare le prestazioni nelle esperienze pubblicitarie di Advertising Creative.
