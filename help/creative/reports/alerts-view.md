@@ -2,16 +2,16 @@
 title: Visualizza avvisi
 description: Scopri come visualizzare gli avvisi e le risoluzioni consigliate per le tue esperienze.
 feature: Creative Experiences
-source-git-commit: 2300fbf25566dd5ffe0f2cb68be9bebd9f211f60
+source-git-commit: 5ed7905502527cc92288d920d944406421c7ce65
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
 
 # Visualizza avvisi
 
-[!DNL Creative] ti aiuta a identificare quando una qualsiasi delle tue esperienze, inclusi i creativi all&#39;interno dell&#39;esperienza, ha problemi. Per ogni problema, [!DNL Creative] invia un avviso con un timestamp e l&#39;azione consigliata per risolverlo. I motivi per gli avvisi includono esperienze scadute e consegna elevata su annunci predefiniti anziché annunci mirati. Gli avvisi sono disponibili a livello di esperienza.
+[!DNL Creative] ti aiuta a identificare quando una qualsiasi delle tue esperienze, inclusi i creativi all&#39;interno dell&#39;esperienza, ha problemi. Per ogni problema, [!DNL Creative] invia un avviso con un timestamp e l&#39;azione consigliata per risolverlo. I motivi per gli avvisi includono la scadenza delle esperienze live e una consegna elevata sugli annunci predefiniti anziché sugli annunci mirati. Gli avvisi sono disponibili a livello di esperienza.
 
 Puoi aprire l’esperienza pertinente per qualsiasi avviso, in modo da poterla modificare in base alle esigenze per risolvere il problema. È inoltre possibile scegliere di ignorare un singolo avviso, rimuovendolo dal pannello [!UICONTROL Pulse].
 
