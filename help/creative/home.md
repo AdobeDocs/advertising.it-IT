@@ -6,9 +6,9 @@ product: advertising cloud
 solution: Advertising
 index: true
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: eeeee0404c82bd98d37d4275cbef8e0e12fb4b13
+source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1300'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Le seguenti funzioni sono nuove o modificate di recente.
 
 | Data | Funzionalità | Descrizione | Per Ulteriori Informazioni |
 | ---- | ------- | ----------- | -------------------- |
+| 17 dicembre 2025 | Avvisi | Un&#39;icona di [!UICONTROL Pulse Panel] nella visualizzazione [!UICONTROL Experiences] indica se sono disponibili avvisi per le esperienze. Puoi aprire il pannello per visualizzare ogni avviso e, facoltativamente, aprire l’esperienza applicabile in modo da poterla modificare in base alle esigenze per risolvere il problema. Facoltativamente, puoi anche ignorare qualsiasi avviso.<br><br>Per gli inserzionisti con Advertising DSP, gli avvisi sui posizionamenti DSP creati da [!DNL Creative] esperienze sono disponibili a livello di campagna in DSP. | Vedi &quot;[Visualizza avvisi](/help/creative/reports/alerts-view.md).&quot; |
 | 26 novembre 2025 | Rapporti sui costi per Advertising Creative | (Solo per gli inserzionisti con Advertising Creative e Advertising DSP; funzione beta) Il nuovo rapporto [!UICONTROL All-in Cost] non è più in versione beta ed è generalmente disponibile. | Consulta &quot;[Informazioni sui report personalizzati](/help/creative/reports/reports-about.md)&quot; e &quot;[Gestire report personalizzati](/help/creative/reports/report-manage.md).&quot; |
 | 17 novembre 2025 | Rapporti sui costi per Advertising Creative | (Solo per gli inserzionisti con Advertising Creative e Advertising DSP; funzione beta) Il nuovo rapporto [!UICONTROL All-in Cost BETA] mostra la spesa attribuita al servizio di annunci per Adobe Creative. Le metriche di spesa per il report includono [!UICONTROL Billable Creative Spend], [!UICONTROL Non Billable Creative Spend], [!UICONTROL Total Creative Spend], [!UICONTROL Total Creative CPM] e [!UICONTROL Estimated Tax on Creative]. Puoi visualizzare dati creativi, di attributo, di destinazione e di altro tipo a livello di campagna, pacchetto, posizionamento e annuncio. | Consulta &quot;[Informazioni sui report personalizzati](/help/creative/reports/reports-about.md)&quot; e &quot;[Gestire report personalizzati](/help/creative/reports/report-manage.md).&quot; |
 | 24 settembre 2025 | Creatività dinamica | È ora disponibile un flusso di lavoro self-service più semplice per la generazione di annunci dinamici utilizzando i dati di un catalogo di varianti di annunci trasmesso tramite un modello di annunci. | Consulta &quot;[Flussi di lavoro per annunci dinamici](/help/creative/introduction/workflow-dynamic-ads.md).&quot; |

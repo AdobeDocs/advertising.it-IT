@@ -3,16 +3,16 @@ title: Visualizza avvisi
 description: Scopri come visualizzare gli avvisi e le risoluzioni consigliate per le campagne e i componenti della campagna.
 feature: DSP Campaigns, DSP Packages, DSP Placements, DSP Ads, DSP Campaign Data Views
 exl-id: 667bf1c3-3bad-4a1a-b907-0c9bfe5362a9
-source-git-commit: 3e227bcd39b3928898e764cace1fea91f61d58d5
+source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
 
 # Visualizza avvisi
 
-L’DSP ti aiuta a identificare quando uno qualsiasi dei componenti delle campagne o della campagna presenta dei problemi. Per ogni problema, l’DSP crea un avviso con una marca temporale e l’azione consigliata per risolverlo. I motivi per gli avvisi includono problemi di configurazione (ad esempio, quando non vengono allegati annunci a un posizionamento o quando un’offerta non è configurata correttamente), rifiuto di annunci e problemi di integrità della campagna (come consegna di annunci scadente o prestazioni insoddisfacenti). Gli avvisi sono disponibili a livello di campagna, pacchetto, posizionamento, annuncio e offerta.
+DSP ti consente di identificare quando uno qualsiasi dei componenti delle campagne o della campagna presenta dei problemi. Per ogni problema, DSP crea un avviso con una marca temporale e l’azione consigliata per risolverlo. I motivi per gli avvisi includono problemi di configurazione (ad esempio, quando non vengono allegati annunci a un posizionamento o quando un’offerta non è configurata correttamente), rifiuto di annunci e problemi di integrità della campagna (come consegna di annunci scadente o prestazioni insoddisfacenti). Gli avvisi sono disponibili a livello di campagna, pacchetto, posizionamento, annuncio e offerta.
 
 Gli avvisi sono disponibili nelle seguenti posizioni:
 
@@ -50,7 +50,7 @@ Gli avvisi e gli indicatori di avviso scompaiono automaticamente quando vengono 
 
 1. Per visualizzare un elenco di tutti i componenti della campagna interessati per un tipo di avviso specifico, fare clic sul nome dell&#39;avviso, ad esempio &quot;[!UICONTROL Package: No Active Placement (*N*)]&quot;. Per visualizzare i dettagli di ogni componente interessato, inclusa l&#39;azione consigliata, fare clic su [!UICONTROL EXPAND ALL] o sul nome del componente. Per aprire la visualizzazione di gestione delle campagne relativa a qualsiasi componente interessato in modo da poter apportare le modifiche consigliate, posizionare il cursore sul nome del componente e fare clic su ![Vai alla visualizzazione](/help/dsp/assets/go-to-view.png "Vai alla visualizzazione").
 
-1. (Facoltativo) Per ignorare (nascondere) un avviso, posizionare il cursore sul nome del componente e fare clic su ![Ignora](/help/dsp/assets/alert-ignore.png "Ignora"), quindi fare clic su **[!UICONTROL Ignore indefinitely]**. <!-- **[!UICONTROL Ignore alert for three days]**, **[!UICONTROL Ignore alert until next check]**, or **[!UICONTROL Ignore indefinitely] -->
+1. (Facoltativo) Per ignorare (nascondere) un avviso, posizionare il cursore sul nome del componente e fare clic su ![Ignora](/help/dsp/assets/alert-ignore.png "Ignora"), quindi fare clic su **[!UICONTROL Ignore alert till next check]**, **[!UICONTROL Ignore alert for 3 days]** o **[!UICONTROL Ignore indefinitely]**.
 
 Hai qualche secondo per annullare l’azione, dopo aver ignorato un avviso. Una volta chiuso il messaggio di opzione, non puoi annullare l’azione.
 
@@ -62,4 +62,4 @@ Hai qualche secondo per annullare l’azione, dopo aver ignorato un avviso. Una 
 
 >[!MORELIKETHIS]
 >
->* [Tipi di report sulle prestazioni nelle visualizzazioni di Campaign Management](campaign-reports-about.md)
+>* [Tipi di rapporti sulle prestazioni nelle visualizzazioni di gestione delle campagne](campaign-reports-about.md)
