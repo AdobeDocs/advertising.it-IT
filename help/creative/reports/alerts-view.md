@@ -2,9 +2,9 @@
 title: Visualizza avvisi
 description: Scopri come visualizzare gli avvisi e le risoluzioni consigliate per le tue esperienze.
 feature: Creative Experiences
-source-git-commit: 5ed7905502527cc92288d920d944406421c7ce65
+source-git-commit: e03517dc1d984df660048d81f77d5364f156fb6c
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 [!DNL Creative] ti aiuta a identificare quando una qualsiasi delle tue esperienze, inclusi i creativi all&#39;interno dell&#39;esperienza, ha problemi. Per ogni problema, [!DNL Creative] invia un avviso con un timestamp e l&#39;azione consigliata per risolverlo. I motivi per gli avvisi includono la scadenza delle esperienze live e una consegna elevata sugli annunci predefiniti anziché sugli annunci mirati. Gli avvisi sono disponibili a livello di esperienza.
 
-Puoi aprire l’esperienza pertinente per qualsiasi avviso, in modo da poterla modificare in base alle esigenze per risolvere il problema. È inoltre possibile scegliere di ignorare un singolo avviso, rimuovendolo dal pannello [!UICONTROL Pulse].
+Puoi aprire l’esperienza o la creatività pertinente per qualsiasi avviso, in modo da poterla modificare in base alle esigenze per risolvere il problema. È inoltre possibile scegliere di ignorare un singolo avviso, rimuovendolo dal pannello [!UICONTROL Pulse].
 
 Gli avvisi e gli indicatori di avviso scompaiono automaticamente quando vengono risolti i problemi sottostanti.
 
@@ -31,7 +31,7 @@ Sono elencati tutti gli avvisi per l’inserzionista. Per impostazione predefini
 
 1. (Facoltativo) Per raggruppare gli avvisi in base alla loro prima data di rilevamento o per filtrarli in base allo stato di avviso, fai clic su ![Pulsante filtro](/help/creative/assets/filter.png) in alto a destra del pannello, seleziona le opzioni di filtro e fai clic su **[!UICONTROL Apply]**.
 
-1. Per visualizzare un elenco di tutte le esperienze interessate per un tipo di avviso specifico, fai clic sul nome dell’avviso. Per visualizzare i dettagli di ogni componente interessato, inclusa l&#39;azione consigliata, fare clic su [!UICONTROL EXPAND ALL] o sul nome del componente. Per aprire l&#39;esperienza pertinente per qualsiasi componente interessato in modo da poter apportare le modifiche consigliate, posizionare il cursore sul nome del componente e fare clic su ![Vai alla visualizzazione](/help/creative/assets/go-to-view.png "Vai alla visualizzazione").
+1. Per visualizzare un elenco di tutte le esperienze interessate per un tipo di avviso specifico, fare clic sul nome dell&#39;avviso. Per visualizzare i dettagli di ogni componente interessato, inclusa l&#39;azione consigliata, fare clic su [!UICONTROL EXPAND ALL] o sul nome del componente. Per aprire l&#39;esperienza o il contenuto creativo appropriato in modo da poter apportare le modifiche consigliate, posizionare il cursore sul nome del componente e fare clic su ![Vai alla visualizzazione](/help/creative/assets/go-to-view.png "Vai alla visualizzazione").
 
 1. (Facoltativo) Per ignorare (nascondere) un avviso, posizionare il cursore sul nome del componente e fare clic su ![Ignora](/help/creative/assets/alert-ignore.png "Ignora"), quindi fare clic su **[!UICONTROL Ignore alert till next check]**, **[!UICONTROL Ignore alert for 3 days]** o **[!UICONTROL Ignore indefinitely]**.
 
