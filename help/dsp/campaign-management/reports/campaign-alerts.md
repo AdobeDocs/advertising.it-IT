@@ -3,9 +3,9 @@ title: Visualizza avvisi
 description: Scopri come visualizzare gli avvisi e le risoluzioni consigliate per le campagne e i componenti della campagna.
 feature: DSP Campaigns, DSP Packages, DSP Placements, DSP Ads, DSP Campaign Data Views
 exl-id: 667bf1c3-3bad-4a1a-b907-0c9bfe5362a9
-source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
+source-git-commit: 9ab8d3345659f48d1d131c3c6c1e1b87f0b0a0e6
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ Gli avvisi e gli indicatori di avviso scompaiono automaticamente quando vengono 
       1. Fare clic sull&#39;indicatore di avviso per un pacchetto, un posizionamento o una riga di annuncio e quindi fare clic su **[!UICONTROL View in Pulse Panel]**.
 
    Sono elencati tutti gli avvisi associati alla campagna e ai suoi componenti, comprese le offerte mirate. Per impostazione predefinita, gli avvisi critici vengono elencati per primi.
+
+1. (Inserzionisti con Advertising Creative; facoltativo) Fai clic sulla scheda **[!UICONTROL Creative]** per visualizzare gli avvisi per i posizionamenti che includono esperienze Advertising Creative.
 
 1. (Facoltativo) Per raggruppare gli avvisi in base alla loro prima data di rilevamento, o per filtrarli in base allo stato, allo stato, al tipo di componente o al nome di una campagna specifica, fare clic sul pulsante ![Filtro](/help/dsp/assets/filter.png) in alto a destra del pannello, selezionare le opzioni di filtro e quindi fare clic su **[!UICONTROL Apply]**.
 
