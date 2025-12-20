@@ -3,9 +3,9 @@ title: Gestire gli account di rete degli annunci
 description: Scopri come impostare e gestire i dettagli di un account di rete di annunci.
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
+source-git-commit: 304b3589109fe9ddf4d2f0df84c7fa45aa3726d2
 workflow-type: tm+mt
-source-wordcount: '2079'
+source-wordcount: '2078'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ Il team del tuo account Adobe ti informerà se nuove funzioni richiedono un nuov
 
 *Solo i ruoli di account manager agenzia, manager account Adobe e amministratore*
 
-Quando si abilita un account di ad network, Search, Social e Commerce sincronizzano i dati della campagna con l&#39;account (se supportato) e inviano offerte automatizzate e/o budget delle campagne nei portfolio.Quando si disabilita un account di ad network, Search, Social e Commerce interrompe tutte le attività sull&#39;account. I dati raccolti mentre l’account era attivo vengono comunque memorizzati, ma le visualizzazioni e i rapporti di gestione delle campagne non includono i dati per il periodo di tempo in cui l’account è disabilitato. In seguito, potrai riabilitare l’account per riprendere l’attività con l’account.
+Quando abiliti un account di ad network, Search, Social e Commerce sincronizzano i dati della campagna con l’account (se supportato) e inviano offerte automatizzate e/o budget delle campagne nei portfolio. Quando disattivi un account di rete di annunci, Search, Social e Commerce interrompe tutte le attività sull’account. I dati raccolti mentre l’account era attivo vengono comunque memorizzati, ma le visualizzazioni e i rapporti di gestione delle campagne non includono i dati per il periodo di tempo in cui l’account è disabilitato. In seguito, potrai riabilitare l’account per riprendere l’attività con l’account.
 
 1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Nel sottomenu, fare clic su **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
@@ -147,13 +147,13 @@ Quando si abilita un account di ad network, Search, Social e Commerce sincronizz
 
 >[!NOTE]
 >
->Gli account del gestore della rete di annunci non sono supportati qui. Per identificare un account manager per [!DNL Microsoft Advertising] o [!DNL Yandex], utilizzare rispettivamente il campo ID account principale o Account MCC. Per [configurare le credenziali per un account di manager [!DNL Google Ads] &#x200B;](/help/search-social-commerce/admin/manager-accounts.md), passare a [!UICONTROL Admin] \> [!UICONTROL Manager Accounts].
+>Gli account del gestore della rete di annunci non sono supportati qui. Per identificare un account manager per [!DNL Microsoft Advertising] o [!DNL Yandex], utilizzare rispettivamente il campo ID account principale o Account MCC. Per [configurare le credenziali per un account di manager [!DNL Google Ads] ](/help/search-social-commerce/admin/manager-accounts.md), passare a [!UICONTROL Admin] \> [!UICONTROL Manager Accounts].
 
 **[!UICONTROL Account Name]:** nome da visualizzare per l&#39;account in Search, Social e Commerce.
 
 >[!NOTE]
 >
->Se hai un’integrazione Search, Social e Commerce-Adobe Analytics e modifichi il nome dell’account di ricerca, informa il team dell’account Adobe in modo che possa aggiornare la mappatura.
+>Se hai un’integrazione Search, Social e Commerce-Adobe Analytics e modifichi il nome dell’account di ricerca, chiedi al team del tuo account Adobe di aggiornare la mappatura.
 
 **[!UICONTROL Login Details]: \[Tipo di accesso\]** - ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] only) Autorizzare gli accessi all&#39;account utilizzando:
 
