@@ -1,9 +1,9 @@
 ---
-title: Come l’DSP ottimizza le campagne
-description: Scopri come l’DSP ottimizza i pacchetti nelle campagne.
+title: Come DSP ottimizza le campagne
+description: Scopri come DSP ottimizza i pacchetti nelle campagne.
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Come Advertising DSP Ottimizza Le Campagne
 
-Questa pagina illustra come il motore di ottimizzazione DSP, basato su [!DNL Adobe Sensei], ottimizza i pacchetti nelle campagne. Per suggerimenti su come ottimizzare manualmente le campagne, contatta il team del tuo account Adobe. <!-- add link to trading playbook if we add it to help -->
+Questa pagina illustra il modo in cui il motore di ottimizzazione DSP, basato su [!DNL Adobe AI], ottimizza i pacchetti nelle campagne. Per suggerimenti su come ottimizzare manualmente le campagne, contatta il team del tuo account Adobe. <!-- add link to trading playbook if we add it to help -->
 
 Gli obiettivi di ottimizzazione dei pacchetti funzionano a due livelli:
 
-* Per ogni pacchetto: l’DSP alloca il budget a ogni posizionamento all’interno del pacchetto in base alle prestazioni del posizionamento rispetto all’indicatore KPI selezionato.
+* Per ogni pacchetto: DSP alloca il budget a ogni posizionamento all’interno del pacchetto in base alle prestazioni del posizionamento rispetto all’indicatore KPI selezionato.
 
-* Per ogni posizionamento/asta nel pacchetto: l’DSP calcola il valore dell’indicatore KPI economico in tempo reale per ogni posizionamento e quindi utilizza questo valore per determinare l’offerta.
+* Per ogni collocamento/asta nel pacchetto: DSP calcola il valore dell&#39;indicatore KPI economico in tempo reale per ogni collocamento e quindi utilizza questo valore per determinare l&#39;offerta.
 
   >[!NOTE]
   >
@@ -26,7 +26,7 @@ Gli obiettivi di ottimizzazione dei pacchetti funzionano a due livelli:
 
 ## Ottimizzazione dei pacchetti
 
-L’DSP può ottimizzare la distribuzione in due modi fondamentali, con 20 varianti disponibili per allinearsi all’obiettivo di prestazioni specifico. Puoi scegliere di:
+DSP può ottimizzare la consegna in due modi fondamentali, con 20 varianti disponibili per allinearsi all’obiettivo di prestazioni specifico. Puoi scegliere di:
 
 * Assegnare la priorità al tasso di prestazioni
 
@@ -36,7 +36,7 @@ Consulta [Obiettivi di ottimizzazione e come utilizzarli](optimization-goals.md)
 
 ### Pacchetti che assegnano priorità al tasso di prestazioni
 
-Per gli obiettivi di ottimizzazione che danno priorità al tasso di prestazioni, l’DSP prevede le prestazioni di ogni asta e fa sempre offerte all’Offerta massima. Esempi di obiettivi di ottimizzazione applicabili includono [!UICONTROL Highest Viewability Rate], [!UICONTROL Highest Clickthrough Rate] e così via.
+Per gli obiettivi di ottimizzazione che danno priorità al tasso di prestazioni, DSP prevede le prestazioni di ogni asta e fa sempre offerte all’Offerta massima. Esempi di obiettivi di ottimizzazione applicabili includono [!UICONTROL Highest Viewability Rate], [!UICONTROL Highest Clickthrough Rate] e così via.
 
 Questa modalità di ottimizzazione funziona correttamente se:
 
@@ -54,27 +54,27 @@ Questa modalità di ottimizzazione funziona correttamente se:
 
 #### Cancellazione dell&#39;ombreggiatura del prezzo/offerta {#clearing-price-performance}
 
-Dopo aver eseguito la logica di andamento, l&#39;DSP esegue l&#39;offerta proposta attraverso un modello di previsione del prezzo di compensazione. Se la previsione indica che l’offerta può essere ridotta con una riduzione minima al tasso di vincita, l’offerta viene diminuita in base alla previsione.
+Dopo aver eseguito la logica di andamento, DSP esegue l’offerta proposta attraverso un modello di previsione del prezzo di aggiudicazione. Se la previsione indica che l’offerta può essere ridotta con una riduzione minima al tasso di vincita, l’offerta viene diminuita in base alla previsione.
 
 ### Pacchetti che danno priorità al bilanciamento dell&#39;efficienza dei costi con il tasso di prestazioni
 
-Per alcuni obiettivi di ottimizzazione, l&#39;DSP prevede le prestazioni di ogni asta e regola automaticamente i prezzi delle offerte, senza mai superare il [!UICONTROL Max Bid] di un posizionamento. Esempi di obiettivi di ottimizzazione applicabili includono [!UICONTROL Lowest CPM], [!UICONTROL Lowest CPA], [!UICONTROL Lowest Cost per View], [!UICONTROL Lowest Cost per Click] e così via.
+Per alcuni obiettivi di ottimizzazione, DSP prevede le prestazioni di ogni asta e regola automaticamente i prezzi delle offerte, senza mai superare il [!UICONTROL Max Bid] di un posizionamento. Esempi di obiettivi di ottimizzazione applicabili includono [!UICONTROL Lowest CPM], [!UICONTROL Lowest CPA], [!UICONTROL Lowest Cost per View], [!UICONTROL Lowest Cost per Click] e così via.
 
 #### Logica di andamento {#pacing-logic-balanced}
 
-* Se la spesa è a ritmo sostenuto, l&#39;DSP diventa più sensibile ai prezzi, facendo offerte inferiori per scambiare il tasso di vincita con il piano di ritmo.
+* Se la spesa è a ritmo sostenuto, DSP diventa più sensibile ai prezzi, facendo offerte inferiori per scambiare il tasso di vincita con il piano di ritmo.
 
 * Se anche una metrica delle prestazioni viene bilanciata (tutti gli obiettivi tranne [!UICONTROL Lowest CPM]), l&#39;indicatore KPI previsto viene miscelato nell&#39;importo dell&#39;offerta. Di conseguenza, le offerte per le aste che si prevede saranno più performanti in base al &quot;costo per&quot; sono più alte.
 
-* Se la spesa è in ritardo, l&#39;DSP diventa meno sensibile ai prezzi e offre importi più elevati, fino al [!UICONTROL Max Bid], per scambiare il tasso di vincita con il piano di ritmo.
+* Se la spesa è in ritardo, DSP diventa meno sensibile ai prezzi e offre importi più elevati, fino al [!UICONTROL Max Bid], per scambiare il tasso di vincita con il piano di velocità.
 
 #### Cancellazione dell&#39;ombreggiatura del prezzo/offerta {#clearing-price-balanced}
 
-Dopo aver eseguito la logica di andamento, l&#39;DSP esegue l&#39;offerta proposta attraverso un modello di previsione del prezzo di compensazione. Se la previsione indica che l’offerta può essere ridotta con una riduzione minima al tasso di vincita, l’offerta viene diminuita in base alla previsione.
+Dopo aver eseguito la logica di andamento, DSP esegue l’offerta proposta attraverso un modello di previsione del prezzo di aggiudicazione. Se la previsione indica che l’offerta può essere ridotta con una riduzione minima al tasso di vincita, l’offerta viene diminuita in base alla previsione.
 
 ## Ottimizzazione del posizionamento
 
-I filtri pre-offerta di posizionamento sono il modo più rigido per garantire prestazioni elevate. L’DSP utilizza i filtri pre-offerta in modo strategico tra diversi tipi di annunci per raggiungere gli obiettivi di prestazioni per i posizionamenti all’interno di ciascun pacchetto. Puoi utilizzare i filtri di pre-offerta in concomitanza con l’ottimizzazione a livello di pacchetto o in modo indipendente.
+I filtri pre-offerta di posizionamento sono il modo più rigido per garantire prestazioni elevate. DSP utilizza i filtri pre-offerta in modo strategico tra diversi tipi di annunci per raggiungere gli obiettivi di prestazioni tra i posizionamenti all’interno di ciascun pacchetto. Puoi utilizzare i filtri di pre-offerta in concomitanza con l’ottimizzazione a livello di pacchetto o in modo indipendente.
 
 >[!NOTE]
 >

@@ -3,9 +3,9 @@ title: Gestire i bundle creativi
 description: Informazioni su xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1462'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 I bundle sono gruppi di creativi che puoi aggiungere a un’esperienza come un’unica unità. Dopo aver creato un contenitore di bundle, puoi allegare dei creativi al bundle. I bundle di visualizzazione standard possono contenere solo annunci di visualizzazione standard, i bundle video standard possono contenere solo annunci video standard e i bundle di visualizzazione dinamica possono contenere solo annunci di visualizzazione dinamici. Puoi sovrascrivere le pagine di destinazione, i tag di tracciamento delle impression e i tag di tracciamento dei clic per tutti i creativi all’interno di un bundle assegnato a un’esperienza dall’interno della struttura decisionale dell’esperienza, senza influire sui creativi di base.
 
-[!DNL Creative] ruota tra le creatività nel bundle come specificato per ogni esperienza a cui è assegnato il bundle. Facoltativamente, puoi consentire a [!DNL Creative] di ottimizzare gli elementi dell&#39;annuncio per qualsiasi esperienza in base alle prestazioni utilizzando la rotazione algoritmica degli annunci, basata su Adobe Sensei.
+[!DNL Creative] ruota tra le creatività nel bundle come specificato per ogni esperienza a cui è assegnato il bundle. Facoltativamente, puoi consentire a [!DNL Creative] di ottimizzare gli elementi dell&#39;annuncio per qualsiasi esperienza in base alle prestazioni utilizzando la rotazione algoritmica degli annunci, basata su [!DNL Adobe AI].
 
 Per abilitare l’ottimizzazione degli elementi dell’annuncio tra i bundle in un’esperienza pubblicitaria, ogni bundle può includere solo una di ogni combinazione di \[dimensione creativa o durata + lingua\]. Ad esempio, se un bundle include un contenuto creativo 250x250 con la lingua predefinita &quot;Francese&quot;, non puoi aggiungere un secondo contenuto creativo 250x250 con la lingua predefinita &quot;Francese&quot;. Se hai più creativi della stessa dimensione nella stessa lingua, aggiungili separatamente all’esperienza.
 
