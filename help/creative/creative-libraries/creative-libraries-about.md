@@ -51,7 +51,7 @@ Gli annunci display standard includono:
 
 ##### Creatività di HTML5
 
-* **Esperienze GenStudio:** è possibile importare tutte le varianti di annunci da una [esperienza di visualizzazione](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences) in [GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) come contenuto creativo di HTML5. I collegamenti esterni vengono convertiti in riferimenti locali. Il contenuto del HTML può essere fino a 20 MB e le singole immagini fino a 50 MB.
+* **Esperienze GenStudio:** è possibile importare tutte le varianti di annunci da una [esperienza di visualizzazione](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences) in [GenStudio for Performance Marketing](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/home) come contenuto creativo di HTML5. I collegamenti esterni vengono convertiti in riferimenti locali. Il contenuto del HTML può essere fino a 20 MB e le singole immagini fino a 50 MB.
 
   Dopo aver importato un’esperienza GenStudio, puoi modificare i metadati (nome, lingua, tag) per la creatività importata, ma non per il contenuto creativo. Se si modifica l&#39;esperienza GenStudio in GenStudio, reimportare l&#39;esperienza in [!DNL Creative] per utilizzare la versione più recente.
 
@@ -79,7 +79,7 @@ Immetti i tag di tracciamento di JavaScript per i creativi in hosting su server 
 
 Puoi caricare creatività video di prime parti per TV web, dispositivi mobili o connessi dal tuo dispositivo o dalla tua rete. Ogni esperienza di annuncio video standard richiede un creativo video predefinito per ogni durata creativo assegnata all&#39;esperienza. DSP transcodifica automaticamente tutte le creatività video come tag VAST 2.0 in modo da poterle visualizzare in anteprima. In [!UICONTROL Tag Manager], potete applicare facoltativamente [la transcodifica](/help/creative/experiences/experience-tag-video-transcoding.md) DSP specifica a qualsiasi video annuncio esperienza tag.
 
-Consulta il seguente video creativo requisiti. **Nota:** se carichi esperienze video in Advertising DSP, consulta anche i requisiti di [DSP per la Assets](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets) di Video ad alta definizione, che potrebbero essere più limitati.
+Consulta il seguente video creativo requisiti. **Nota:** se carichi esperienze video in Advertising DSP, consulta anche i requisiti di [DSP per la Assets](https://experienceleague.adobe.com/it/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets) di Video ad alta definizione, che potrebbero essere più limitati.
 
 **Tipo file:** .mov, .mp4, .webm
 
