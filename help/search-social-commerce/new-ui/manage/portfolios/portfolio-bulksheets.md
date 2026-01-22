@@ -4,9 +4,9 @@ description: Scopri come modificare le impostazioni per più portfolio utilizzan
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
-source-git-commit: 14f85e5ff5655be045fa4a2280edc1fe01978029
+source-git-commit: 04b6fbaf4a8b360bc3a60bdad4871694d50f1bf9
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,15 @@ Un bulksheet portfolio è un file che contiene le impostazioni del portfolio in 
 
 ## Scaricare un file bulksheet con le impostazioni del portfolio
 
-1. Selezionare la casella di controllo accanto a ogni portfolio da includere nel bulksheet.
+1. (Facoltativo) Seleziona la casella di controllo accanto a ciascun portfolio da includere nel bulksheet.
 
-1. Nella barra degli strumenti sopra la tabella dati, fare clic su **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export Selected Portfolios]**.
+   Se non selezioni portfolio specifici, puoi scaricare le impostazioni per tutti i portfolio.
+
+1. Nella barra degli strumenti sopra la tabella dati, fai clic su:
+
+   * (Per tutti i portfolio) **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export All Portfolios]**.
+
+   * (Per i portfolio selezionati) **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export Selected Portfolios]**.
 
 1. Immettere il nome del file del bulksheet da creare, quindi fare clic su **[!UICONTROL Export Now]**.
 
