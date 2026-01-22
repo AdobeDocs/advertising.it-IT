@@ -3,9 +3,9 @@ title: Aggiungere creatività standard a una libreria creativa
 description: Scopri come aggiungere creatività standard (non dinamica) a una libreria creativa.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 24846adba9ff856571d117261f44aff408e70c50
+source-git-commit: a1ca7815334b35de8f9ab5781e53e6b6aa5f4770
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Aggiungi creatività standard alle [librerie creative](creative-library-manage.m
 
 ### Aggiungere creatività flessibili utilizzando un modello {#flexible-creative-use-template}
 
-Puoi utilizzare uno qualsiasi dei modelli creativi flessibili caricati sul tuo account per creare annunci di una dimensione predefinita. Dopo aver selezionato un modello da utilizzare, è possibile modificare i tag e gli attributi dei clic.&lt;!— Sostituire l&#39;ultima frase con questa se si aggiunge nuovamente la funzionalità di download del modello: è possibile selezionare un\) modello da utilizzare, quindi modificare i tag e gli attributi dei clic; oppure b\) [scaricare un modello come file ZIP](#download-flexible-creative-template), modificare il contenuto offline per creare la propria creatività, quindi [caricare il file modificato come nuovo file creativo] (flexible-creative-upload).>
+Puoi utilizzare uno qualsiasi dei modelli creativi flessibili caricati sul tuo account per creare annunci di una dimensione predefinita. Dopo aver selezionato un modello da utilizzare, è possibile modificare i tag e gli attributi dei clic.&lt;!— Sostituire l&#39;ultima frase con questa se si aggiunge nuovamente la funzionalità di download del modello: è possibile selezionare un\) modello da utilizzare, quindi modificare i tag e gli attributi dei clic; oppure b\) [scaricare un modello come file ZIP](#download-flexible-creative-template), modificare il contenuto offline per creare la propria creatività, quindi [caricare il file modificato come nuovo file creativo](flexible-creative-upload).>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -148,7 +148,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
       1. Individua e seleziona le esperienze degli annunci di visualizzazione, quindi fai clic su **[!UICONTROL Select]** in alto a destra.
 
-         <!-- Each creative variant in the experience will be imported as a separate HTML5 creative. -->
+     Ogni variante creativa in un&#39;esperienza selezionata verrà importata come creatività HTML5 separata.
 
 1. Aggiungi o rimuovi creatività:
 
@@ -158,9 +158,9 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. Specificare le [impostazioni creative di HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5) o le [impostazioni creative per le immagini](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image).
 
-   Per impostazione predefinita, vengono selezionati tutti i creativi appena caricati e le impostazioni specificate vengono applicate a tutti i creativi selezionati. Qualsiasi impostazione con un solo valore si applica a tutti i creativi selezionati. Per immettere le impostazioni per creativi specifici, deseleziona ogni creativo inapplicabile.
+   Per impostazione predefinita, vengono selezionati tutti i creativi o le esperienze GenStudio che hai appena caricato e tutte le impostazioni specificate vengono applicate a tutti gli elementi selezionati. Qualsiasi impostazione con un solo valore si applica a tutti gli elementi selezionati. Per immettere le impostazioni per creativi o esperienze GenStudio specifiche, deseleziona ogni creativo o esperienza inapplicabile.
 
-1. Fare clic su **[!UICONTROL Create]** o **[!UICONTROL Import]**.
+1. Fare clic su **[!UICONTROL Create]**.
 
 ## Aggiungere un contenuto creativo di terze parti a una libreria creativa {#creative-add-third-party}
 

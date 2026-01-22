@@ -1,9 +1,9 @@
 ---
-title: Informazioni sul tuo creativo librerie
-description: Scopri sulla gestione delle creatività per le tue esperienze annuncio.
+title: Informazioni sulle librerie creative
+description: Scopri come gestire i creativi delle esperienze pubblicitarie.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 8d549853be10ebfbb71b14e013b04178466e87fe
+source-git-commit: a1ca7815334b35de8f9ab5781e53e6b6aa5f4770
 workflow-type: tm+mt
 source-wordcount: '1529'
 ht-degree: 0%
@@ -12,29 +12,29 @@ ht-degree: 0%
 
 # Informazioni sulle librerie creative
 
-Il tuo creativo librerie ti consente di gestire le creatività che utilizzerai nelle tue esperienze annuncio. Puoi creare più librerie, ciascuno con un set di creatività e *creativo bundle*, ovvero gruppi di creatività che puoi aggiungere a un&#39;esperienza come un&#39;unica unità.
+Le librerie creative ti consentono di gestire i contenuti creativi da utilizzare nelle esperienze pubblicitarie. Puoi creare più librerie, ciascuna con un set di creatività e *bundle creativi*, che sono gruppi di creatività che puoi aggiungere a un&#39;esperienza come un&#39;unica unità.
 
-Il librerie può includere:
+Le librerie possono includere:
 
-* **Creatività individuali:** puoi includere le singole creatività direttamente all&#39;interno annuncio esperienze che non hanno target utente definiti. Puoi anche usare le tue creatività per creare pacchetti, che puoi includere in esperienze[&#x200B; annuncio mirate](/help/creative/experiences/experience-about.md).
+* **Singoli creativi:** Puoi includere singoli creativi direttamente all&#39;interno di esperienze pubblicitarie che non hanno target utente definiti. Puoi anche utilizzare i tuoi creativi per creare bundle, che puoi includere in [esperienze annuncio](/help/creative/experiences/experience-about.md) mirate.
 
-   * **Creatività standard:** puoi caricare e gestire creatività in [vari formati](#creative-creative-formats). Per ogni creativo, specificate la lingua predefinita per ogni annuncio a cui associate il creativo e la pagina di destinazione predefinita che viene aperta quando un utente fa clic su un annuncio che include la creativo. Facoltativamente, è possibile specificare etichette da utilizzare come filtri all&#39;interno di varie viste all&#39;interno [!DNL Creative] e come valori di colonna nel quando si include l&#39;uso [!UICONTROL Custom Creative Report] della [!UICONTROL Creative Label] dimensione.
+   * **Creative standard:** Puoi caricare e gestire creative in [vari formati](#creative-creative-formats). Per ogni contenuto creativo, specifica la lingua predefinita per ogni annuncio a cui associ il contenuto creativo e la pagina di destinazione predefinita che si apre quando un utente fa clic su un annuncio che include il contenuto creativo. Facoltativamente, è possibile specificare le etichette da utilizzare come filtri in varie visualizzazioni all&#39;interno di [!DNL Creative] e come valori di colonna in [!UICONTROL Custom Creative Report] quando si include l&#39;utilizzo della dimensione [!UICONTROL Creative Label].
 
-   * **Creatività dinamiche:** puoi creare creatività generate dinamicamente mappando le variabili dinamiche in un modello annuncio ai valori in un file feed. Tutti gli utenti possono visualizzare in anteprima, duplicare ed eliminare le inserzioni dinamiche esistenti.
+   * **Creative dinamiche:** Puoi creare creative generate dinamicamente mappando le variabili dinamiche in un modello di annuncio ai valori in un file di feed. Tutti gli utenti possono visualizzare in anteprima, duplicare ed eliminare gli annunci dinamici esistenti.
 
-* **Pacchetti creatività:** raggruppa le creatività in pacchetti da utilizzare in più esperienze con target utente definiti. Puoi creare *pacchetti* display standard costituiti da annunci display standard, *pacchetti video* standard costituiti da annunci video standard e *pacchetti* display dinamici costituiti da annunci display generati dinamicamente.
+* **Pacchetti creatività:** raggruppa i creativi in bundle da utilizzare in più esperienze con target utente definiti. Puoi creare *bundle di visualizzazione standard* costituiti da annunci di visualizzazione standard, *bundle video standard* costituiti da annunci video standard e *bundle di visualizzazione dinamici* costituiti da annunci di visualizzazione generati dinamicamente.
 
-## Formati di Creative supportati {#creative-creative-formats}
+## Formati Creative supportati {#creative-creative-formats}
 
 ### Formati per creatività standard
 
-È possibile aggiungere e gestire i seguenti tipi di creativo nelle [dimensioni](creative-sizes.md) di creativo supportate.
+Puoi aggiungere e gestire i seguenti tipi di creatività nelle [dimensioni di creatività supportate](creative-sizes.md).
 
 >[!IMPORTANT]
 >
->* Anche se intendi utilizzare HTML5, HTML5 flessibile o creatività di terze parti per le tue esperienze di visualizzazione annuncio standard, devi aggiungere anche creatività di immagini per ogni dimensione creativo utilizzata.
->* Ogni esperienza di visualizzazione standard richiede un creativo predefinito dell&#39;immagine per ogni dimensione creativo assegnata all&#39;esperienza. Le creatività immagini predefinite vengono utilizzate quando un browser non è abilitato per JavaScript o quando il ad server non può personalizzare il annuncio a causa di ritardi.
->* Ogni esperienza video standard richiede un creativo video predefinito per ogni creativo durata assegnata all&#39;esperienza.<!-- when is it used? -->
+>* Anche se si intende utilizzare HTML5, HTML5 flessibile o creativi di terze parti per le esperienze di visualizzazione standard, è necessario aggiungere anche creativi di immagini per ogni dimensione creativa utilizzata.
+>* Ogni esperienza di visualizzazione standard richiede una creatività di immagine predefinita per ogni dimensione creativa assegnata all’esperienza. Le immagini creative predefinite vengono utilizzate quando un browser non è abilitato per JavaScript o quando l’ad server non può personalizzare l’annuncio a causa di ritardi.
+>* Ogni esperienza video standard richiede una creatività video predefinita per ogni durata creativa assegnata all&#39;esperienza.<!-- when is it used? -->
 
 #### HTML5 flessibile
 
@@ -51,7 +51,7 @@ Gli annunci display standard includono:
 
 ##### Creatività di HTML5
 
-* **Esperienze GenStudio:** è possibile importare tutte le varianti di annunci da una [esperienza di visualizzazione](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences) in [GenStudio for Performance Marketing](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/home) come contenuto creativo di HTML5. I collegamenti esterni vengono convertiti in riferimenti locali. Il contenuto del HTML può essere fino a 20 MB e le singole immagini fino a 50 MB.
+* **Esperienze GenStudio:** è possibile importare tutte le varianti di annunci da una [esperienza di visualizzazione](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences) in [GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) come singole creative di HTML5. I collegamenti esterni vengono convertiti in riferimenti locali. Il contenuto del HTML può essere fino a 20 MB e le singole immagini fino a 50 MB.
 
   Dopo aver importato un’esperienza GenStudio, puoi modificare i metadati (nome, lingua, tag) per la creatività importata, ma non per il contenuto creativo. Se si modifica l&#39;esperienza GenStudio in GenStudio, reimportare l&#39;esperienza in [!DNL Creative] per utilizzare la versione più recente.
 
@@ -69,17 +69,17 @@ Ogni esperienza di visualizzazione e annuncio standard richiede una creatività 
 
 #### Creatività di terze parti
 
-Immetti i tag di tracciamento di JavaScript per i creativi in hosting su server di annunci di terze parti. Lo script varia in base ad server; Di seguito è riportato un esempio:
+Immetti i tag di tracciamento di JavaScript per i creativi in hosting su server di annunci di terze parti. Lo script varia in base al server di annunci; di seguito è riportato un esempio:
 
 ```
 <SCRIPT language='JavaScript1.1' SRC="https://ad.doubleclick.net/ddm/adj/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"></SCRIPT> <NOSCRIPT> <A HREF="https://ad.doubleclick.net/ddm/jump/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp]?"><IMG SRC="https://ad.doubleclick.net/ddm/ad/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"BORDER=0 WIDTH=300 HEIGHT=250 ALT="Advertisement"></A></NOSCRIPT>
 ```
 
-#### Video creatività {#creative-video-specs}
+#### Creativi video {#creative-video-specs}
 
-Puoi caricare creatività video di prime parti per TV web, dispositivi mobili o connessi dal tuo dispositivo o dalla tua rete. Ogni esperienza di annuncio video standard richiede un creativo video predefinito per ogni durata creativo assegnata all&#39;esperienza. DSP transcodifica automaticamente tutte le creatività video come tag VAST 2.0 in modo da poterle visualizzare in anteprima. In [!UICONTROL Tag Manager], potete applicare facoltativamente [la transcodifica](/help/creative/experiences/experience-tag-video-transcoding.md) DSP specifica a qualsiasi video annuncio esperienza tag.
+È possibile caricare creativi video di prime parti per il Web, i dispositivi mobili o la TV connessa dal dispositivo o dalla rete. Ogni esperienza di annuncio video standard richiede una creatività video predefinita per ogni durata creativa assegnata all’esperienza. DSP transcodifica automaticamente tutti i contenuti video creati come tag VAST 2.0 per consentirti di visualizzarli in anteprima. In [!UICONTROL Tag Manager], puoi facoltativamente [applicare la transcodifica specifica di DSP](/help/creative/experiences/experience-tag-video-transcoding.md) a qualsiasi tag esperienza annuncio video.
 
-Consulta il seguente video creativo requisiti. **Nota:** se carichi esperienze video in Advertising DSP, consulta anche i requisiti di [DSP per la Assets](https://experienceleague.adobe.com/it/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets) di Video ad alta definizione, che potrebbero essere più limitati.
+Consulta i seguenti requisiti creativi per il video. **Nota:** per il caricamento di esperienze video in Advertising DSP, vedi anche [Requisiti DSP per Assets video ad alta definizione](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), che potrebbero essere più limitati.
 
 **Tipo file:** .mov, .mp4, .webm
 
@@ -101,43 +101,43 @@ Consulta il seguente video creativo requisiti. **Nota:** se carichi esperienze v
 
 **Bitrate audio:** 16-512 kbps
 
-**Audio Frequenza** di campionamento: 44100-48000 Hz
+**Frequenza di campionamento audio:** 44100-48000 Hz
 
-**Frequenza Audio:** 44,1 kHz o 48 kHz
+**Frequenza audio:** 44,1 kHz o 48 kHz
 
-**Audio Altro:** il file caricato deve essere non interlacciato, misto e contenere una traccia audio. Potrebbe non essere presente alcun suono, ma nel file video deve essere inclusa una traccia audio.
+**Altro audio:** il file caricato deve essere non interlacciato, misto e contenere una traccia audio. Potrebbe non essere presente alcun suono, ma nel file video deve essere inclusa una traccia audio.
 
-### Formato per gli annunci dinamici
+### Formato per annunci dinamici
 
-Puoi generare dinamicamente creatività in formato HTML5 statico e HTML5 dinamico mappando le variabili dinamiche in un modello annuncio ai valori in un file feed. Le creatività dinamiche possono includere creatività di cui è stata eseguita la migrazione dalle esperienze precedenti di Adobe Systems Advertising Dynamic Creative Optimization (DCO).
+Puoi generare dinamicamente creatività in formato HTML5 statico e HTML5 dinamico mappando le variabili dinamiche in un modello di annuncio ai valori in un file di feed. Le creatività dinamiche possono includere creativi migrati dalle esperienze legacy di Adobe Advertising Dynamic Creative Optimization (DCO).
 
-## I [!UICONTROL Creative Libraries] panorami
+## Le visualizzazioni [!UICONTROL Creative Libraries]
 
-Per ulteriori informazioni sulla personalizzazione di ciascuna visualizzazione, consulta &quot;[Personalizzare le visualizzazioni](/help/creative/introduction/customize-data-views.md) di dati&quot;.
+Per ulteriori informazioni sulla personalizzazione di ogni visualizzazione, vedere &quot;[Personalizza le visualizzazioni dati](/help/creative/introduction/customize-data-views.md)&quot;.
 
-### La [!UICONTROL Creative Libraries] vista principale
+### Visualizzazione principale di [!UICONTROL Creative Libraries]
 
-La [!UICONTROL Creative Libraries] vista principale mostra tutte le librerie creativo. I dati per ogni libreria includono il numero di esperienze a cui sono assegnati i bundle del libreria, il numero di bundle, il numero di creatività, il numero di creativo dimensioni, il numero di target linguistici predefiniti, la data di creazione e la data di ultima modifica per qualsiasi elemento del libreria. La modalità tabella include anche una colonna per l&#39;inserzionista.
+La visualizzazione principale di [!UICONTROL Creative Libraries] mostra tutte le librerie creative. I dati di ciascuna libreria includono il numero di esperienze a cui vengono assegnati i bundle della libreria, il numero di bundle, il numero di creativi, il numero di dimensioni di creatività, il numero di destinazioni della lingua predefinite, la data di creazione e la data dell’ultima modifica di qualsiasi elemento della libreria. La modalità tabella include anche una colonna per l’inserzionista.
 
-Quando sei in modalità scheda, puoi scorrere le immagini in un libreria con più creatività utilizzando i &lt; and > pulsanti.
+Quando sei in modalità scheda, puoi scorrere le immagini in una libreria con più elementi creativi utilizzando i pulsanti &lt; e >.
 
 #### Azioni disponibili
 
 * [Crea una nuova libreria](/help/creative/creative-libraries/creative-library-manage.md#create-a-creative-library)
 
-* Per ogni creativo libreria:
+* Per ogni libreria creativa:
 
-   * [Modifica un nome libreria](/help/creative/creative-libraries/creative-library-manage.md#edit-the-name-of-a-creative-library)
+   * [Modificare il nome di una libreria](/help/creative/creative-libraries/creative-library-manage.md#edit-the-name-of-a-creative-library)
 
-   * [Apri un libreria per visualizzare le creatività e i bundle assegnati al libreria](/help/creative/creative-libraries/creative-library-manage.md#open-a-creative-library)
+   * [Apri una libreria per visualizzare le creatività e i bundle assegnati alla libreria](/help/creative/creative-libraries/creative-library-manage.md#open-a-creative-library)
 
    * [Elimina librerie](/help/creative/creative-libraries/creative-library-manage.md#delete-creative-libraries)
 
-### Il [!UICONTROL Creative Libraries] > [!UICONTROL Creatives] viste
+### Visualizzazioni [!UICONTROL Creative Libraries] > [!UICONTROL Creatives]
 
 #### [!UICONTROL Standard Ads]
 
-Il [!UICONTROL Standard Ads] scheda mostra tutte le creatività standard che hai creato. I dati per ogni creativo includono le dimensioni del creativo, il tipo di creativo e la data di creazione. La modalità tabella include anche colonne per la lingua predefinita e la pagina di destinazione predefinita.
+La scheda [!UICONTROL Standard Ads] mostra tutte le creatività standard create dall&#39;utente. I dati per ogni creatività includono la dimensione della creatività, il tipo di creatività e la data di creazione. La modalità tabella include anche le colonne per la lingua predefinita e la pagina di destinazione predefinita.
 
 ##### Azioni disponibili
 
