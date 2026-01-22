@@ -16,7 +16,7 @@ Il tuo creativo librerie ti consente di gestire le creatività che utilizzerai n
 
 Il librerie può includere:
 
-* **Creatività individuali:** puoi includere le singole creatività direttamente all&#39;interno annuncio esperienze che non hanno target utente definiti. Puoi anche usare le tue creatività per creare pacchetti, che puoi includere in esperienze[ annuncio mirate](/help/creative/experiences/experience-about.md).
+* **Creatività individuali:** puoi includere le singole creatività direttamente all&#39;interno annuncio esperienze che non hanno target utente definiti. Puoi anche usare le tue creatività per creare pacchetti, che puoi includere in esperienze[&#x200B; annuncio mirate](/help/creative/experiences/experience-about.md).
 
    * **Creatività standard:** puoi caricare e gestire creatività in [vari formati](#creative-creative-formats). Per ogni creativo, specificate la lingua predefinita per ogni annuncio a cui associate il creativo e la pagina di destinazione predefinita che viene aperta quando un utente fa clic su un annuncio che include la creativo. Facoltativamente, è possibile specificare etichette da utilizzare come filtri all&#39;interno di varie viste all&#39;interno [!DNL Creative] e come valori di colonna nel quando si include l&#39;uso [!UICONTROL Custom Creative Report] della [!UICONTROL Creative Label] dimensione.
 
