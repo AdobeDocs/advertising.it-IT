@@ -1,11 +1,11 @@
 ---
 title: Panoramica dell’implementazione di Search, Social e Commerce
-description: Scopri
+description: Scopri il flusso di lavoro generale per avviare e gestire un portfolio.
 exl-id: c99dc029-81e4-4416-89b1-7cf8d66658b2
 feature: Search Getting Started
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Di seguito è riportato il flusso di lavoro generale per l’implementazione e l
 
    * Se gli account non contengono già dati della campagna, aggiungi campagne, gruppi di annunci, parole chiave, annunci e posizionamenti da Search, Social e Commerce o dall’interno della rete di annunci.
 
-     Per informazioni dettagliate sulla configurazione delle campagne di ricerca, consulta il capitolo della guida su &quot;Campaign Management&quot;.
+     Per informazioni dettagliate sulla configurazione delle campagne di ricerca, consulta il capitolo della guida su &quot;Gestione delle campagne&quot;.
 
 1. Imposta il tracciamento per tutti gli annunci per i quali desideri che Adobe Advertising tenga traccia delle conversioni:
 
@@ -108,4 +108,4 @@ Dopo il lancio iniziale, sono necessarie le seguenti attività in corso. A secon
 
    * Aggiungere nuovi portfolio.
 
-Per istruzioni sul monitoraggio dei portfolio e sulla regolazione delle strategie di portfolio, vedere il sottocapitolo della Guida &quot;Ottimizzazione&quot; > &quot;Gestione dei Portfoli&quot; > &quot;Monitoraggio e gestione delle prestazioni&quot;, disponibile nel menu [!UICONTROL Help] (![Menu Guida](/help/search-social-commerce/assets/help-main-menu.png "Menu Guida")) in alto a destra di qualsiasi pagina di Search, Social &amp; Commerce.
+Per istruzioni sul monitoraggio dei portfolio e sulla regolazione delle strategie di portfolio, vedere il sottocapitolo della Guida &quot;Ottimizzazione&quot; > &quot;Gestione dei portafogli&quot; > &quot;Monitoraggio e gestione delle prestazioni&quot;, disponibile nel menu [!UICONTROL Help] (![Menu Guida](/help/search-social-commerce/assets/help-main-menu.png "Menu Guida")) in alto a destra di qualsiasi pagina di Search, Social &amp; Commerce.

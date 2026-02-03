@@ -1,11 +1,11 @@
 ---
 title: Personalizzare l’ottimizzazione creativa e la pianificazione di un’esperienza
-description: Scopri come
+description: Scopri come configurare l’ottimizzazione e la pianificazione degli annunci per le esperienze senza targeting.
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: ad6f076e24d69cfa93b9306a33d9b0cd4c7e813e
+source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1174'
 ht-degree: 0%
 
 ---
