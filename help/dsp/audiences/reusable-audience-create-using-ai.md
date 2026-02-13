@@ -43,7 +43,7 @@ Utilizza l’agente del pubblico assistito da AI per generare nuovi tipi di pubb
 
 1. Creare il pubblico:
 
-   <!-- When this becomes an open beta, it will be the default for everyone, and the steps will need to be updated accordingly. -->Per gli utenti con autorizzazioni beta, l’opzione IA è l’impostazione predefinita. Per [assemblare autonomamente il pubblico](/help/dsp/audiences/reusable-audience-create.md), fare clic sul pulsante &quot;Passa alla modalità manuale&quot; nella parte inferiore.
+   &#x200B;<!-- When this becomes an open beta, it will be the default for everyone, and the steps will need to be updated accordingly. -->Per gli utenti con autorizzazioni beta, l’opzione IA è l’impostazione predefinita. Per [assemblare autonomamente il pubblico](/help/dsp/audiences/reusable-audience-create.md), fare clic sul pulsante &quot;Passa alla modalità manuale&quot; nella parte inferiore.
 
    1. Inserisci una o più richieste per descrivere le caratteristiche del pubblico da includere ed escludere. Per inviare ogni richiesta, fare clic su ![Invia richiesta](/help/dsp/assets/submit-prompt.png "Invia richiesta").
 
