@@ -4,9 +4,9 @@ description: Scopri come creare tipi di pubblico riutilizzabili in Adobe Adverti
 feature: DSP Audiences
 hidefromtoc: true
 hide: true
-source-git-commit: c632774e68069ab03f41fb9453a27c6fe63c8168
+source-git-commit: 86053178969de362dda0c135ff8c85b9ec9f674e
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '986'
 ht-degree: 0%
 
 ---
@@ -70,6 +70,8 @@ Utilizza l’agente del pubblico assistito da AI per generare nuovi tipi di pubb
 ### Cosa deve includere un prompt?
 
 * Utilizza un linguaggio chiaro e descrittivo per descrivere il pubblico target.
+
+  In generale, i prompt non distinguono tra maiuscole e minuscole e la punteggiatura non è necessaria se non per fornire chiarezza.
 
 * Sii specifico e fornisci dettagli su tutte le caratteristiche del pubblico che desideri includere ed eventuali caratteristiche che desideri escludere specificamente. Maggiore è il numero di dettagli forniti, maggiori sono le possibilità di ottenere risultati che soddisfino le tue esigenze.
 
