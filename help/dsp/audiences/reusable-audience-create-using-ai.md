@@ -4,9 +4,10 @@ description: Scopri come creare tipi di pubblico riutilizzabili in Adobe Adverti
 feature: DSP Audiences
 hidefromtoc: true
 hide: true
-source-git-commit: 86053178969de362dda0c135ff8c85b9ec9f674e
+exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
+source-git-commit: 4eefcca15d4f84152278e7680917b9daed15f45d
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '994'
 ht-degree: 0%
 
 ---
@@ -28,6 +29,8 @@ Utilizza l’agente del pubblico assistito da AI per generare nuovi tipi di pubb
 >[!NOTE]
 >
 >Questa funzione è in modalità beta ed è soggetta a modifiche. Assicurati che l’espressione del pubblico generato rappresenti il pubblico desiderato prima di crearlo e utilizzarla per i posizionamenti.
+
+## Creare un pubblico riutilizzabile utilizzando l’intelligenza artificiale generativa
 
 1. Nel menu principale, fare clic su **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
 
@@ -57,7 +60,7 @@ Utilizza l’agente del pubblico assistito da AI per generare nuovi tipi di pubb
 
       È possibile immettere &quot;procedere&quot;, &quot;ok&quot;, &quot;ok&quot;, &quot;sì&quot; o un&#39;altra parola simile.
 
-1. (Se necessario) Specificare criteri aggiuntivi. Quando l’agente di intelligenza artificiale presenta un’espressione di pubblico che soddisfa tutti i criteri, indica all’agente di intelligenza artificiale di procedere con l’assemblaggio del pubblico.
+   1. (Se necessario) Specificare criteri aggiuntivi. Quando l’agente di intelligenza artificiale presenta un’espressione di pubblico che soddisfa tutti i criteri, indica all’agente di intelligenza artificiale di procedere con l’assemblaggio del pubblico.
 
 1. Quando si è soddisfatti del pubblico assemblato, fare clic su **[!UICONTROL Create]** per creare il pubblico specificato.
 
@@ -65,7 +68,7 @@ Utilizza l’agente del pubblico assistito da AI per generare nuovi tipi di pubb
    >
    >In seguito non puoi modificare il pubblico utilizzando l’agente di intelligenza artificiale. Al contrario, [modifica manualmente l&#39;espressione del pubblico](/help/dsp/audiences/reusable-audience-edit.md).
 
-## Scrittura dei prompt {#writing-prompts}
+## Nozioni di base sulla scrittura dei prompt {#writing-prompts}
 
 ### Cosa deve includere un prompt?
 
@@ -119,12 +122,10 @@ Puoi anche ignorare la richiesta e continuare a specificare altri criteri di pub
 
 #### Risposta dell’agente di IA che richiede di scegliere tra più opzioni
 
-```
-Would you like to:
-1) Proceed with this expression,
-2) Get maximum reach alternatives, or
-3) Modify the expression manually?
-```
+`Would you like to:`
+`1) Proceed with this expression,`
+`2) Get maximum reach alternatives, or`
+`3) Modify the expression manually?`
 
 Risposta: `1`, `proceed`, `2`, `maximum reach` e così via.
 
@@ -136,9 +137,7 @@ Un resoconto del pubblico è un resoconto strategico che definisce il pubblico t
 
 ### Componenti essenziali per un resoconto efficace del pubblico
 
-#### Attributi del pubblico
-
-Includi il maggior numero possibile di tipi di attributi dall’elenco seguente nella tua descrizione. Specifica gli attributi da escludere.
+Includi il maggior numero possibile di tipi di attributi di pubblico dall’elenco seguente nella tua descrizione. Specifica gli attributi da escludere.
 
 <!-- What about these:
 
