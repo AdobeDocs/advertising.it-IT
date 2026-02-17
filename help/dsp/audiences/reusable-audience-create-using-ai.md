@@ -5,9 +5,9 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: 4eefcca15d4f84152278e7680917b9daed15f45d
+source-git-commit: 63402a5148f5e4dc310b9d2229a9dddd5fe2f113
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -52,21 +52,23 @@ Utilizza l’agente del pubblico assistito da AI per generare nuovi tipi di pubb
 
       Per ulteriori informazioni, vedere &quot;[Prompt di scrittura](#writing-prompts)&quot; e &quot;[Procedure consigliate per la creazione di un resoconto del pubblico](#audience-brief-best-practices).&quot;
 
-      Quando l’agente di IA trova segmenti rilevanti, crea un’espressione di pubblico in base ai criteri. Chiede inoltre la tua approvazione prima di cercare i segmenti corrispondenti per assemblare il pubblico.
+      Quando l’agente del pubblico trova segmenti rilevanti, crea un’espressione di pubblico in base ai criteri. Chiede inoltre la tua approvazione prima di cercare i segmenti corrispondenti per assemblare il pubblico.
 
       Facoltativamente, puoi ignorare la richiesta e continuare a specificare altri criteri di pubblico.
 
-   1. Quando l’agente di intelligenza artificiale presenta un’espressione di pubblico che descrive adeguatamente il pubblico, indica all’agente di intelligenza artificiale di procedere con l’assemblaggio del pubblico.
+   1. Quando l’agente del pubblico presenta un’espressione del pubblico che descrive adeguatamente il pubblico, chiedi all’agente del pubblico di procedere con l’assemblaggio del pubblico.
 
       È possibile immettere &quot;procedere&quot;, &quot;ok&quot;, &quot;ok&quot;, &quot;sì&quot; o un&#39;altra parola simile.
 
-   1. (Se necessario) Specificare criteri aggiuntivi. Quando l’agente di intelligenza artificiale presenta un’espressione di pubblico che soddisfa tutti i criteri, indica all’agente di intelligenza artificiale di procedere con l’assemblaggio del pubblico.
+   1. (Se necessario) Specificare criteri aggiuntivi. Quando l’agente del pubblico presenta un’espressione del pubblico che soddisfa tutti i criteri, indica all’agente del pubblico di procedere con l’assemblaggio del pubblico.
+
+      Per assemblare il pubblico, immetti &quot;procedi&quot;, &quot;ok&quot;, &quot;sì&quot; o un&#39;altra parola simile.
 
 1. Quando si è soddisfatti del pubblico assemblato, fare clic su **[!UICONTROL Create]** per creare il pubblico specificato.
 
    >[!NOTE]
    >
-   >In seguito non puoi modificare il pubblico utilizzando l’agente di intelligenza artificiale. Al contrario, [modifica manualmente l&#39;espressione del pubblico](/help/dsp/audiences/reusable-audience-edit.md).
+   >In seguito non puoi modificare il pubblico utilizzando l’agente pubblico. Al contrario, [modifica manualmente l&#39;espressione del pubblico](/help/dsp/audiences/reusable-audience-edit.md).
 
 ## Nozioni di base sulla scrittura dei prompt {#writing-prompts}
 
@@ -74,7 +76,11 @@ Utilizza l’agente del pubblico assistito da AI per generare nuovi tipi di pubb
 
 * Utilizza un linguaggio chiaro e descrittivo per descrivere il pubblico target.
 
-  In generale, i prompt non distinguono tra maiuscole e minuscole e la punteggiatura non è necessaria se non per fornire chiarezza.
+   * Puoi immettere frasi complete o solo una stringa di caratteristiche. La punteggiatura non è necessaria tranne quando necessario per maggiore chiarezza.
+
+   * In generale, i prompt non distinguono tra maiuscole e minuscole.
+
+   * L’agente del pubblico riconosce i sinonimi più comuni.
 
 * Sii specifico e fornisci dettagli su tutte le caratteristiche del pubblico che desideri includere ed eventuali caratteristiche che desideri escludere specificamente. Maggiore è il numero di dettagli forniti, maggiori sono le possibilità di ottenere risultati che soddisfino le tue esigenze.
 
@@ -83,6 +89,8 @@ Utilizza l’agente del pubblico assistito da AI per generare nuovi tipi di pubb
 * Fornisci in alternativa dettagli per perfezionare i criteri e l’espressione del pubblico generato prima di salvare il pubblico.
 
 * Scopri come richiedere tramite sperimentazione.
+
+  Se il prompt non è chiaro, l’agente del pubblico richiederà solo un altro prompt, quindi puoi riprovare.
 
   L’agente del pubblico non salva automaticamente un’espressione del pubblico generata come pubblico. È possibile salvare un pubblico solo facendo clic sul pulsante [!UICONTROL Create], che si trova all&#39;esterno dell&#39;area di richiesta, in modo da poter annullare le modifiche che non si desidera mantenere.
 
@@ -108,11 +116,11 @@ you can give thumbs up or down to [what exactly?]. Verify what info is carried o
 
 * Testo in lingue diverse dall&#39;inglese.
 
-### Esempi di risposte dell’agente di IA e come rispondere
+### Esempi di risposte dell’agente del pubblico e come rispondere
 
-Quando l’agente IA necessita di una risposta da parte tua, puoi rispondere utilizzando parole chiave nella richiesta o termini comuni equivalenti.
+Quando l’agente del pubblico necessita di una risposta da parte tua, puoi rispondere utilizzando parole chiave nella richiesta o sinonimi comuni.
 
-#### Risposta dell’agente di IA che ti pone una domanda
+#### L’agente del pubblico ti pone una domanda
 
 `If you are okay with the proposed expression, I can start searching third party segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
 
@@ -120,7 +128,7 @@ La tua risposta affermativa: &quot;procedere&quot;, &quot;ok&quot;, &quot;ok&quo
 
 Puoi anche ignorare la richiesta e continuare a specificare altri criteri di pubblico.
 
-#### Risposta dell’agente di IA che richiede di scegliere tra più opzioni
+#### L’agente del pubblico ti chiede di scegliere tra più opzioni
 
 `Would you like to:`
 `1) Proceed with this expression,`
