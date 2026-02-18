@@ -3,9 +3,9 @@ title: Informazioni sulle librerie creative
 description: Scopri come gestire i creativi delle esperienze pubblicitarie.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: a1ca7815334b35de8f9ab5781e53e6b6aa5f4770
+source-git-commit: 0a3da41d51ffc0b9df1e264485bfbb966780eb84
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1587'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Le librerie possono includere:
 
    * **Creative dinamiche:** Puoi creare creative generate dinamicamente mappando le variabili dinamiche in un modello di annuncio ai valori in un file di feed. Tutti gli utenti possono visualizzare in anteprima, duplicare ed eliminare gli annunci dinamici esistenti.
 
-* **Pacchetti creatività:** raggruppa i creativi in bundle da utilizzare in più esperienze con target utente definiti. Puoi creare *bundle di visualizzazione standard* costituiti da annunci di visualizzazione standard, *bundle video standard* costituiti da annunci video standard e *bundle di visualizzazione dinamici* costituiti da annunci di visualizzazione generati dinamicamente.
+* **Pacchetti creatività:** raggruppa i creativi in bundle da utilizzare in più esperienze con target utente definiti. Puoi creare *bundle di visualizzazione standard* costituiti da annunci di visualizzazione standard, *bundle video standard* costituiti da annunci video standard, *bundle di visualizzazione dinamici* costituiti da annunci di visualizzazione generati dinamicamente e *bundle video dinamici* costituiti da annunci video generati dinamicamente.
 
 ## Formati Creative supportati {#creative-creative-formats}
 
@@ -51,7 +51,7 @@ Gli annunci display standard includono:
 
 ##### Creatività di HTML5
 
-* **Esperienze GenStudio:** è possibile importare tutte le varianti di annunci da una [esperienza di visualizzazione](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences) in [GenStudio for Performance Marketing](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/home) come singole creative di HTML5. I collegamenti esterni vengono convertiti in riferimenti locali. Il contenuto del HTML può essere fino a 20 MB e le singole immagini fino a 50 MB.
+* **Esperienze GenStudio:** è possibile importare tutte le varianti di annunci da una [esperienza di visualizzazione](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences) in [GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) come singole creative di HTML5. I collegamenti esterni vengono convertiti in riferimenti locali. Il contenuto del HTML può essere fino a 20 MB e le singole immagini fino a 50 MB.
 
   Dopo aver importato un’esperienza GenStudio, puoi modificare i metadati (nome, lingua, tag) per la creatività importata, ma non per il contenuto creativo. Se si modifica l&#39;esperienza GenStudio in GenStudio, reimportare l&#39;esperienza in [!DNL Creative] per utilizzare la versione più recente.
 
@@ -77,9 +77,9 @@ Immetti i tag di tracciamento di JavaScript per i creativi in hosting su server 
 
 #### Creativi video {#creative-video-specs}
 
-È possibile caricare creativi video di prime parti per il Web, i dispositivi mobili o la TV connessa dal dispositivo o dalla rete. Ogni esperienza di annuncio video standard richiede una creatività video predefinita per ogni durata creativa assegnata all’esperienza. DSP transcodifica automaticamente tutti i contenuti video creati come tag VAST 2.0 per consentirti di visualizzarli in anteprima. In [!UICONTROL Tag Manager], puoi facoltativamente [applicare la transcodifica specifica di DSP](/help/creative/experiences/experience-tag-video-transcoding.md) a qualsiasi tag esperienza annuncio video.
+È possibile caricare creativi video di prime parti per il Web, i dispositivi mobili o la TV connessa dal dispositivo o dalla rete. Ogni esperienza di annuncio video richiede una creatività video predefinita per ogni durata creativa assegnata all’esperienza. DSP transcodifica automaticamente tutti i contenuti video creati come tag VAST 2.0 per consentirti di visualizzarli in anteprima. In [!UICONTROL Tag Manager], puoi facoltativamente [applicare la transcodifica specifica di DSP](/help/creative/experiences/experience-tag-video-transcoding.md) a qualsiasi tag esperienza annuncio video.
 
-Consulta i seguenti requisiti creativi per il video. **Nota:** per il caricamento di esperienze video in Advertising DSP, vedi anche [Requisiti DSP per Assets video ad alta definizione](https://experienceleague.adobe.com/it/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), che potrebbero essere più limitati.
+Consulta i seguenti requisiti creativi per il video. **Nota:** per il caricamento di esperienze video in Advertising DSP, vedi anche [Requisiti DSP per Assets video ad alta definizione](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), che potrebbero essere più limitati.
 
 **Tipo file:** .mov, .mp4, .webm
 
@@ -109,7 +109,17 @@ Consulta i seguenti requisiti creativi per il video. **Nota:** per il caricament
 
 ### Formato per annunci dinamici
 
-Puoi generare dinamicamente creatività in formato HTML5 statico e HTML5 dinamico mappando le variabili dinamiche in un modello di annuncio ai valori in un file di feed. Le creatività dinamiche possono includere creativi migrati dalle esperienze legacy di Adobe Advertising Dynamic Creative Optimization (DCO).
+Puoi generare in modo dinamico contenuti creativi video o di visualizzazione mappando le variabili dinamiche in un modello di annuncio ai valori in un file di feed. Le creatività dinamiche possono includere creativi migrati dalle esperienze legacy di Adobe Advertising Dynamic Creative Optimization (DCO).
+
+#### Creatività del display dinamico
+
+I creativi di display dinamici sono in formato HTML5 con immagini in formato GIF, JPG, JPEG o PNG.
+
+#### Creatività video dinamica
+
+I creativi video dinamici includono file video con le stesse specifiche dei creativi video standard. Consulta &quot;[Video Creatives](#creative-video-specs)&quot;.
+
+I formati di annuncio supportati includono scheda iniziale, scheda finale, sovrapposizione superiore, sovrapposizione inferiore o a L.
 
 ## Le visualizzazioni [!UICONTROL Creative Libraries]
 

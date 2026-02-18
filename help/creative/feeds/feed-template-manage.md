@@ -2,9 +2,10 @@
 title: Gestire i modelli di feed
 description: Scopri come gestire i modelli di feed.
 feature: Creative Dynamic Creatives
-source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
+exl-id: 63f8af87-639c-45c8-b17f-99ce19594d35
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -15,9 +16,13 @@ ht-degree: 0%
 
 <!-- We have a finite set of supported fields on the backend. I need to include that info in an appendix. -->
 
-I modelli di feed associano i campi nei file di feed o nei cataloghi con i campi nel backend di Advertising Creative. Gli annunci HTML5 dinamici, ma non gli annunci HTML5 statici, richiedono un modello di feed per creare annunci dinamici.
+I modelli di feed associano i campi nei file di feed o nei cataloghi con i campi nel backend di Advertising Creative. Gli annunci HTML5 e video dinamici, ma non gli annunci HTML5 statici, richiedono un modello di feed per creare annunci dinamici. È possibile scaricare e popolare modelli di feed master ([!UICONTROL Retail] e [!UICONTROL Adobe Creative Template]).
 
 Puoi utilizzare un modello di feed con più modelli di annunci.
+
+>[!TIP]
+>
+>Per tutti gli account con video dinamici, la best practice prevede di [scaricare il modello di feed principale [!UICONTROL Adobe Creative Template]](feed-template-manage.md), mappare ogni campo nel file di risorse in un campo nel backend di Advertising Creative, quindi rinominare e caricare il modello di feed. Utilizza il nuovo modello di feed, insieme al file di risorse, per [creare un catalogo](catalog-manage.md).
 
 ## Creare un modello di feed
 
@@ -99,7 +104,7 @@ Almeno un campo del file di feed deve essere contrassegnato come &quot;[!UICONTR
 
 **[!UICONTROL Is Unique]:** indica che il campo è un ID univoco (chiave). Almeno un campo per modello di feed deve essere univoco. Per selezionare questa opzione, fare clic sul pulsante per spostarla a destra.<!-- **Note: The unique identifier is different from the feed "trigger" in experience settings. -->
 
-**[!UICONTROL Backend Field]:** Il campo [&#x200B; nel backend di Advertising Creative](/help/creative/appendix-available-feed-fields.md) mappato a [!UICONTROL Field Name] specificato nel file di feed.
+**[!UICONTROL Backend Field]:** Il campo [ nel backend di Advertising Creative](/help/creative/appendix-available-feed-fields.md) mappato a [!UICONTROL Field Name] specificato nel file di feed.
 
 >[!MORELIKETHIS]
 >

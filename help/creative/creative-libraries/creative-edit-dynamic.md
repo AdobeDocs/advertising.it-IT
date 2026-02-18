@@ -2,9 +2,10 @@
 title: Modificare un contenuto creativo dinamico in una libreria creativa
 description: Scopri come modificare un contenuto creativo dinamico in una libreria creativa.
 feature: Creative Dynamic Creatives
-source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
+exl-id: b75b9aeb-ffd0-4b86-aa7a-bd6a22e7a8e4
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -31,7 +32,7 @@ ht-degree: 0%
 
    * Modifica il contenuto:
 
-      * Per modificare il valore di una cella all&#39;interno della tabella, fate clic all&#39;interno della cella e modificate il valore. Fare clic all&#39;esterno della cella o premere il tasto **[!DNL Enter]** per salvare le modifiche.
+      * (Visualizza solo annunci) Per modificare il valore di una cella all’interno della tabella, fai clic all’interno della cella e modifica il valore. Fare clic all&#39;esterno della cella o premere il tasto **[!DNL Enter]** per salvare le modifiche.
 
       * Per contrassegnare un singolo prodotto come predefinito<!--Explain what this means. -->, tenere premuto il cursore sulla riga e fare clic su **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**.
 

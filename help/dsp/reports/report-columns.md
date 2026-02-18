@@ -3,9 +3,9 @@ title: Colonne report disponibili
 description: Vedi le descrizioni delle colonne disponibili nei rapporti personalizzati.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 9eb020f9cb243dc4cf38adbc5af7f723439797d2
+source-git-commit: bd85b4451624e14c95157c84537fdfb53662773f
 workflow-type: tm+mt
-source-wordcount: '2467'
+source-wordcount: '2724'
 ht-degree: 0%
 
 ---
@@ -219,6 +219,25 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Total Ad Clicks] | La somma di tutti i clic su un annuncio. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Viewed Minutes] | Numero totale di minuti in cui è stato visualizzato un annuncio video. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Views] | Numero totale di visualizzazioni di annunci video. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 100% Completion Rate] | (Rapporto Creative personalizzato) Percentuale di visualizzazioni che hanno guardato l’annuncio nel suo insieme. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 100% Completions] | (Rapporto Creative personalizzato) Il numero di visualizzazioni che hanno guardato l’annuncio nel suo insieme. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 25% Completion Rate] | (Rapporto Creative personalizzato) Percentuale di visualizzazioni che hanno guardato almeno un quartile dell’annuncio. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 25% Completions] | (Rapporto Creative personalizzato) Il numero di visualizzazioni che hanno guardato almeno un quartile dell’annuncio. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 50% Completion Rate] | (Rapporto Creative personalizzato) Percentuale di visualizzazioni che hanno guardato almeno due quartili dell’annuncio. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 50% Completions] | (Rapporto Creative personalizzato) Il numero di visualizzazioni che hanno guardato almeno due quartili dell’annuncio. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 75% Completion Rate] | (Rapporto Creative personalizzato) Percentuale di visualizzazioni che hanno guardato almeno tre quartili dell’annuncio. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 75% Completions] | (Rapporto Creative personalizzato) Il numero di visualizzazioni che hanno guardato almeno tre quartili dell’annuncio. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Avg Percent Viewed] | (Rapporto Creative personalizzato) Percentuale media di visualizzazione di un annuncio fino al suo completamento, considerando tutte le visualizzazioni. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Play Rate] | (Rapporto Creative personalizzato) Percentuale di impression distribuite che hanno generato visualizzazioni video. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Playtime per View] | (Rapporto Creative personalizzato) La durata media di una visualizzazione video, misurata in secondi. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Mute] | (Rapporto Creative personalizzato) Il numero totale di volte in cui il video è stato disattivato. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Pause] | (Rapporto Creative personalizzato) Il numero totale di volte in cui il video è stato messo in pausa. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Resume] | (Rapporto Creative personalizzato) Il numero totale di volte in cui il video è stato ripreso dopo la pausa. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Rewind] | (Rapporto Creative personalizzato) Il numero totale di volte in cui il video è stato riavvolto. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Start] | (Rapporto Creative personalizzato) Il numero totale di volte in cui il video è stato avviato. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Unmute] | (Rapporto Creative personalizzato) Il numero totale di volte in cui il video è stato sottoposto a unmuted. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Viewed Minutes] | (Rapporto Creative personalizzato) Il numero totale di minuti di visualizzazione di un annuncio video. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Views] | (Rapporto Creative personalizzato) Il numero totale di visualizzazioni di annunci video. |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Avg. Player Width x Height] | Larghezza e altezza medie del lettore. |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Measurable Impressions] | Numero totale di impression distribuite che sono state misurate per la visualizzabilità. |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Measurable Rate (%)] | Percentuale di impression distribuite misurabili per la visualizzabilità, calcolata come <code>[!UICONTROL Measurable Impressions] x 1000 / [!UICONTROL Impressions]</code>. |

@@ -2,9 +2,10 @@
 title: Flussi di lavoro per gli annunci dinamici
 description: Scopri i flussi di lavoro per la gestione degli annunci dinamici.
 feature: Creative Dynamic Creatives
-source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
+exl-id: eb1cdfbc-9514-4530-a50a-3ae6f6247662
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -27,10 +28,10 @@ Puoi impostare gli annunci dinamici in due modi:
 
 >[!PREREQUISITES]
 >
->* Modelli di annunci in formato HTML5
+>* Modelli di annuncio: un modello di annuncio display (un file ZIP con file HTML5) o un modello di annuncio video (un file ZIP con un file scene)
 >* Cataloghi di prodotti in formato CSV, TSV o foglio di calcolo Microsoft Excel (XLSX)
 
-1. [Crea creatività dinamica](/help/creative/creative-libraries/creative-add-dynamic.md) per una libreria creativa. Per gli annunci HTML5 dinamici, carica un modello di annuncio e i cataloghi.
+1. [Crea creatività dinamica](/help/creative/creative-libraries/creative-add-dynamic.md) per una libreria creativa. Per gli annunci HTML5 e video dinamici, carica o seleziona un modello di annuncio e un catalogo esistenti.
 
 1. Utilizza le creatività dinamiche per le esperienze pubblicitarie:
 
@@ -44,19 +45,23 @@ Puoi impostare gli annunci dinamici in due modi:
 
 ## Flusso di lavoro 2
 
-1. [Crea un modello di annuncio](/help/creative/ad-templates/ad-template-manage.md) per gli annunci dinamici in base alle risorse disponibili. Il modello di annuncio include un file HTML5 con il formato di annuncio desiderato e (solo annunci HTML5 dinamici) un file con gli attributi dell’annuncio.
+1. [Crea un modello di annuncio](/help/creative/ad-templates/ad-template-manage.md) per gli annunci dinamici in base alle risorse disponibili. Il modello dell&#39;annuncio deve essere in formato ZIP e contenere:<!-- Need to add more specs for templates -->
+
+* Creatività: file HTML5 con il formato di annuncio desiderato e (solo annunci HTML5 dinamici) un file con gli attributi di annuncio (.tdf)
+
+* Creative video: un file .scene con il formato di annuncio desiderato e un file con gli attributi di annuncio (.tdf)
 
 1. Configura gli elementi annuncio:
 
    * (Per singoli annunci statici di HTML5) Raccogli e [carica le risorse immagine](/help/creative/feeds/asset-manage.md) per i tuoi annunci.
 
-   * (Per annunci HTML5 dinamici) Crea cataloghi degli elementi dell’annuncio:
+   * (Per annunci HTML5 e video dinamici) Crea cataloghi degli elementi dell’annuncio:
 
-      1. Crea un file di feed in formato foglio di calcolo Microsoft Excel (XLSX), con una riga per ogni variante di annuncio. Includi un nome immagine in ogni riga. Raccogli separatamente le risorse immagine associate.
+      1. Crea un file di feed in formato foglio di calcolo Microsoft Excel (XLSX), con una riga per ogni variante di annuncio. Includi un nome immagine o video in ogni riga. Raccogli separatamente le risorse immagine e video associate.
 
-      1. [Carica il file di feed e le risorse immagine](/help/creative/feeds/asset-manage.md).
+      1. [Carica il file di feed e le risorse](/help/creative/feeds/asset-manage.md).
 
-      1. [Crea un modello di feed](/help/creative/feeds/feed-template-manage.md) per mappare i campi nel file di feed (foglio di calcolo) ai campi nel backend di Advertising Creative.
+      1. [Crea un modello di feed](/help/creative/feeds/feed-template-manage.md) per mappare i campi nel file di feed (foglio di calcolo) ai campi nel backend di Advertising Creative. Facoltativamente, puoi scaricare e popolare i modelli di feed principali con campi relativi a retail<!-- and what is the creative template?-->.
 
       1. [Creare un catalogo](/help/creative/feeds/catalog-manage.md#feed-catalog-create) da un file di feed specificato e da un modello di feed specificato, quindi [elaborare il catalogo](/help/creative/feeds/catalog-manage.md#feed-catalog-process) per visualizzare le varianti di annuncio che è possibile creare da esso.
 

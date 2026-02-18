@@ -2,9 +2,10 @@
 title: Impostazioni creative dinamiche
 description: Fai riferimento alle impostazioni per i contenuti creativi dinamici.
 feature: Creative Dynamic Creatives
-source-git-commit: e7642f11503ebb972d23fe6d28020b3b198657b0
+exl-id: 9dcd7245-fa02-4082-9abb-8c0792322a68
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -13,61 +14,49 @@ ht-degree: 0%
 
 <!-- add a description -->
 
-<!-- This looks the same for me for either HTML5 type as of 9/24:
-
-## Dynamic ad settings for static HTML5 ads {#dynamic-ad-settings-static-html5}
-
-### Basic Details
-
-**[!UICONTROL Advertiser]:** The advertiser for which to create the ads.
-
-**[!UICONTROL Library]:** The creative library in which to create the ads.
-
-**[!UICONTROL Dynamic Ad Name]:** A unique name for the creative.
-
-**[!UICONTROL Ad Template Size]:** The ad dimensions for the ad template from which to create the ad. If you first select a specific [!UICONTROL Ad Template], then this value is automatically selected.
-
-**[!UICONTROL Ad Template Type]:** The type of ad template from which to create the ad: *[!UICONTROL Static HTML5]* or *[!UICONTROL Dynamic HTML5]*.  If you first select a specific [!UICONTROL Ad Template], then this value is automatically selected.
-
-**[!UICONTROL Ad Template]:** The ad template from which to create the ad.
-
-**[!UICONTROL clickURL]:** A valid landing page URL to which users are redirected when they click the ad.
-
-### [!UICONTROL Attributes Details]
-
--->
-
 ## Impostazioni annuncio dinamico<!-- for dynamic HTML5 ads {#dynamic-ad-settings-dynamic-html5}-->
 
 <!-- add a description -->
 
 ### Dettagli di base
 
-**[!UICONTROL Dynamic Ad Name]:** Nome univoco per la creatività.
+**[!UICONTROL Creative Type]:** se la creatività è un annuncio *[!UICONTROL Display]* (HTML5) o un annuncio *[!UICONTROL Video]*.
 
-**[!UICONTROL Advertiser]:** Inserzionista per il quale creare gli annunci.
+**[!UICONTROL Dynamic Display Ad Name]** o **[!UICONTROL Dynamic Video Ad Name]:** Nome univoco per il contenuto creativo.
+
+**[!UICONTROL Advertiser]:** Inserzionista per il quale creare gli annunci. Se crei gli annunci da [!UICONTROL Creatives] > [!UICONTROL Creative Libraries], l&#39;inserzionista è già selezionato e di sola lettura.
 
 **[!UICONTROL Library]:** Libreria creativa in cui creare gli annunci. Se crei gli annunci da [!UICONTROL Creatives] > [!UICONTROL Creative Libraries], il nome della libreria è già selezionato e di sola lettura.
 
-**[!UICONTROL Ad Template Size]:** le [dimensioni annuncio](/help/creative/creative-libraries/creative-sizes.md) per il modello annuncio da cui creare l&#39;annuncio. Se selezioni prima un [!UICONTROL Ad Template] specifico, questo valore viene selezionato automaticamente.
+**[!UICONTROL Ad Template Size]:** (solo annunci di visualizzazione dinamici) Le [dimensioni annuncio](/help/creative/creative-libraries/creative-sizes.md) per il modello di annuncio da cui creare l&#39;annuncio. Se selezioni prima un [!UICONTROL Ad Template] specifico, questo valore viene selezionato automaticamente.
 
 ## Modello annuncio
 
-**[!UICONTROL Ad Template]:** il modello di annuncio da cui creare gli annunci. Seleziona un modello di annuncio esistente o carica un nuovo modello di annuncio e seleziona il tipo di modello (*Statico* o *Dinamico*). Un modello caricato deve essere in formato ZIP e contenere i file HTML5 e il file di definizione del modello (template.TDF). <!-- Need to add more specs for that -->
+**[!UICONTROL Ad Template]:** il modello di annuncio da cui creare gli annunci. Seleziona un modello di annuncio esistente o carica un nuovo modello di annuncio e seleziona il tipo di modello (*Statico* o *Dinamico*). Il modello deve essere in formato ZIP e contenere:<!-- Need to add more specs for templates -->
 
-**[!UICONTROL Number of offers (Max 50)]:** Il numero di prodotti da visualizzare in un carosello.
+* Creatività: file HTML5 con il formato di annuncio desiderato e (solo annunci HTML5 dinamici) un file con gli attributi di annuncio (.tdf)
+
+* Creative video: un file .scene con il formato di annuncio desiderato. Il file ZIP può essere un massimo di 512 MB.
+
+Per continuare, scegliere **[!UICONTROL Select Ad Template]**.
+
+**[!UICONTROL Card Count (Max 50)]:** (solo annunci visualizzati) Il numero di prodotti da visualizzare in un carosello.
+
+**[!UICONTROL Duration]:** (solo annunci video; sola lettura) La durata del video derivata dal modello di annuncio selezionato. La durata di ogni video deve essere compresa tra 1 e 90 secondi.
 
 ## Cataloghi
 
 **[!UICONTROL Template]:** modello di feed da utilizzare per creare gli annunci.
 
-**\[Cataloghi\]**: uno o più cataloghi da cui generare annunci. Seleziona un catalogo esistente o creane uno nuovo scaricando un modello di feed esistente e creando e caricando il nuovo catalogo.
+**\[Cataloghi\]**: uno o più cataloghi da cui generare annunci. Seleziona un catalogo esistente o creane uno nuovo scaricando un modello di feed esistente e creando e caricando il nuovo catalogo. Fare clic su **[!UICONTROL Select Catalog]**.
 
 I cataloghi caricati devono essere in formato ZIP e contenere quanto segue:
 
-* Uno o più file di feed in formato CSV, TSV o foglio di calcolo Microsoft Excel (XLSX). La dimensione massima del file è 512 MB.<!-- Need to add more specs for the feed files -->
+* (Visualizzazione dinamica e annunci video) Uno o più file di feed in formato CSV, TSV o foglio di calcolo di Microsoft Excel (XLSX). La dimensione massima del file è 512 MB.<!-- Need to add more specs for the feed files -->
 
-* Risorse di immagini in formato GIF, JPEG, JPG o PNG
+* (Visualizza annunci) Risorse immagine in formato GIF, JPEG, JPG o PNG
+
+* (Annunci video) Risorse video in formato MP4, MOV o WEBM. I modelli di annuncio supportati includono scheda iniziale, scheda finale, sovrapposizione superiore, sovrapposizione inferiore o a L. La durata di ogni video deve essere compresa tra 1 e 90 secondi.
 
 ### [!UICONTROL Attributes Mapping]
 

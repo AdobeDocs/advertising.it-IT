@@ -2,17 +2,21 @@
 title: Gestire i file di risorse
 description: Scopri come caricare e gestire il file di risorse per un inserzionista.
 feature: Creative Dynamic Creatives
-source-git-commit: af29637d42b9932933cd23a64d6a0e2b7084fa31
+exl-id: 2fe2d778-8456-490a-bf44-234dbc08649f
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
 
 # Gestire i file di risorse
 
-Gli annunci dinamici di HTML5 richiedono sia un file di feed in formato foglio di calcolo di Microsoft Excel (XLSX) sia le risorse immagine a cui si fa riferimento nel foglio di calcolo. Gli annunci statici di HTML5 richiedono una sola risorsa immagine per annuncio.
+* Gli annunci dinamici di HTML5 richiedono un file di feed in formato foglio di calcolo di Microsoft Excel (XLSX) e le risorse immagine effettive a cui viene fatto riferimento nel foglio di calcolo.
 
+* Gli annunci statici di HTML5 richiedono una sola risorsa immagine per annuncio.
+
+* Gli annunci video richiedono un file di feed in formato foglio di calcolo Microsoft Excel (XLSX) e le risorse video effettive a cui viene fatto riferimento nel foglio di calcolo.
 
 >[!NOTE]
 >
@@ -35,6 +39,18 @@ Gli annunci dinamici di HTML5 richiedono sia un file di feed in formato foglio d
    * Una risorsa immagine per annuncio in formato GIF, JPG, JPEG o PNG.
 
      È possibile caricare una o più immagini in un file ZIP.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
+
+* Annunci video dinamici:
+
+   * Un file di feed in formato CSV, TSV o foglio di calcolo Microsoft Excel (XLSX), con una riga di intestazione e una riga di dati per ogni variante di annuncio. Includere un nome video in ogni riga utilizzando il formato `videos/image_name` (ad esempio `videos/300x250_acme_logo.png`). Il file ZIP può essere un massimo di 512 MB con un massimo di 500 righe.
+
+     I nomi dei campi specifici dell&#39;inserzionista devono corrispondere ai [campi disponibili per i file di feed di annunci dinamici](/help/creative/appendix-available-feed-fields.md).
+
+     Per tutti gli account con video dinamici, la best practice prevede di [creare un catalogo](catalog-manage.md) utilizzando il file di risorse insieme a una copia del [modello di feed principale [!UICONTROL Adobe Creative Template]](feed-template-manage.md), in cui mappare ogni campo nel file di risorse a un campo nel backend di Advertising Creative.
+
+   * Le risorse video associate in formato MP4, MOV o WEBM. I modelli di annuncio supportati includono scheda iniziale, scheda finale, sovrapposizione superiore, sovrapposizione inferiore o a L. La durata di ogni video deve essere compresa tra 1 e 90 secondi. Visualizza le [dimensioni creative supportate](/help/creative/creative-libraries/creative-sizes.md).
+
+  È possibile caricare un singolo file XLSX, un singolo file di immagine o un singolo file ZIP contenente qualsiasi combinazione di file XLSX e video.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 ## Caricare un file di risorse
 

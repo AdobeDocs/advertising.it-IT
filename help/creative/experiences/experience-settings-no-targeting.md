@@ -3,7 +3,7 @@ title: Impostazioni per esperienze non di destinazione
 description: Vedi le descrizioni di tutte le impostazioni per le esperienze pubblicitarie senza targeting della struttura decisionale.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: ace6005869ea4102878091c4799259961aeecb63
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Experience basics] sezione
 
-**[!UICONTROL Ad Type]:** (sola lettura per le esperienze esistenti) Il tipo di annunci inclusi nell&#39;esperienza: *[!UICONTROL Standard Display]*, *[!UICONTROL Dynamic Display]* o *[!UICONTROL Video]*. Una volta salvata l’esperienza, non puoi modificare il tipo di annuncio.
+**[!UICONTROL Ad Type]:** (sola lettura per le esperienze esistenti) Il tipo di annunci inclusi nell&#39;esperienza: *[!UICONTROL Standard Display]*, *[!UICONTROL Dynamic Display]*, *[!UICONTROL Standard Video]* o *[!UICONTROL Display Video]*. Una volta salvata l’esperienza, non puoi modificare il tipo di annuncio.
 
 **[!UICONTROL Advertiser]:** (sola lettura per le esperienze esistenti) L&#39;inserzionista che farà offerte sui creativi inclusi nell&#39;esperienza. Una volta salvata l&#39;esperienza, non è possibile modificare l&#39;inserzionista.
 
