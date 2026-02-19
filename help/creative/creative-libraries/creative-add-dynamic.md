@@ -3,9 +3,9 @@ title: Aggiungere creatività dinamica a una libreria creativa
 description: Scopri come aggiungere creatività dinamica a una libreria creativa.
 feature: Creative Dynamic Creatives
 exl-id: 26162314-bdaa-4d1c-b0c2-696ec6dbb138
-source-git-commit: 8a304eb74549ca1a81257e9f672d311d39987b79
+source-git-commit: 2a89d5f3997345c051728d41af865dc0e75541f5
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ Aggiungi creatività dinamica alle [librerie creative](creative-library-manage.m
 
       * Modifica il contenuto:
 
-         * Per modificare il valore di una cella all&#39;interno della tabella, fate clic all&#39;interno della cella e modificate il valore. Fare clic all&#39;esterno della cella o premere il tasto **[!DNL Enter]** per salvare le modifiche.
+         * (Visualizza solo annunci) Per modificare il valore di una cella all’interno della tabella, fai clic all’interno della cella e modifica il valore. Fare clic all&#39;esterno della cella o premere il tasto **[!DNL Enter]** per salvare le modifiche.
 
          * Per contrassegnare un singolo prodotto come predefinito<!--Explain what this means. -->, tenere premuto il cursore sulla riga e fare clic su **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**.
 
