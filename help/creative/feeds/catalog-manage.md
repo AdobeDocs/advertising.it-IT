@@ -3,7 +3,7 @@ title: Gestire i cataloghi dei feed
 description: Scopri come gestire i cataloghi di feed.
 feature: Creative Dynamic Creatives
 exl-id: d3ee20ba-5359-4dbe-bc76-269dc800843c
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: ad7d2b02103b5a45dadcd51b60621c31e9db0d29
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Ogni file di feed può elaborare fino a 500 righe con risorse video.
 
 >[!TIP]
 >
->Per tutti gli account con video dinamici, la best practice prevede di [scaricare il modello di feed principale [!UICONTROL Adobe Creative Template]](feed-template-manage.md), mappare ogni campo nel file di risorse in un campo nel backend di Advertising Creative, quindi rinominare e caricare il modello di feed. Per creare un catalogo, utilizza il nuovo modello di feed insieme al file di risorsa.
+>Per tutti gli account con video dinamici, la best practice consiste nel [scaricare il modello di feed universale [!UICONTROL Adobe Creative Template]](feed-template-manage.md), mappare ogni campo nel file di risorse su un campo nel backend di Advertising Creative, quindi rinominare e caricare il modello di feed. Per creare un catalogo, utilizza il nuovo modello di feed insieme al file di risorsa.
 
 ## Creare un catalogo {#feed-catalog-create}
 

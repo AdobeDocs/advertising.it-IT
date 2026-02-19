@@ -3,7 +3,7 @@ title: Gestire i file di risorse
 description: Scopri come caricare e gestire il file di risorse per un inserzionista.
 feature: Creative Dynamic Creatives
 exl-id: 2fe2d778-8456-490a-bf44-234dbc08649f
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: ad7d2b02103b5a45dadcd51b60621c31e9db0d29
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 
      I nomi dei campi specifici dell&#39;inserzionista devono corrispondere ai [campi disponibili per i file di feed di annunci dinamici](/help/creative/appendix-available-feed-fields.md).
 
-     Per tutti gli account con video dinamici, la best practice prevede di [creare un catalogo](catalog-manage.md) utilizzando il file di risorse insieme a una copia del [modello di feed principale [!UICONTROL Adobe Creative Template]](feed-template-manage.md), in cui mappare ogni campo nel file di risorse a un campo nel backend di Advertising Creative.
+     Per tutti gli account con video dinamici, la best practice prevede di [creare un catalogo](catalog-manage.md) utilizzando il file di risorse insieme a una copia del [modello di feed universale [!UICONTROL Adobe Creative Template]](feed-template-manage.md), in cui mappare ogni campo del file di risorse a un campo nel backend di Advertising Creative.
 
    * Le risorse video associate in formato MP4, MOV o WEBM. I modelli di annuncio supportati includono scheda iniziale, scheda finale, sovrapposizione superiore, sovrapposizione inferiore o a L. La durata di ogni video deve essere compresa tra 1 e 90 secondi. Visualizza le [dimensioni creative supportate](/help/creative/creative-libraries/creative-sizes.md).
 
