@@ -3,9 +3,10 @@ title: (Nuova interfaccia) Visualizza dettagli sulle prestazioni del portfolio
 description: Scopri come visualizzare i dettagli delle prestazioni del portfolio, comprese le metriche effettive e previste a livello di portfolio e per ogni campagna assegnata.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
+source-git-commit: fee9c6e4649c348cad7561f81a9d45d92eb672ec
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -82,6 +83,8 @@ La visualizzazione dei dettagli del portfolio include le seguenti informazioni s
 
    * Per visualizzare i dati relativi a un punto qualsiasi del grafico, posizionare il cursore su tale punto.
 
+1. Fare clic su **[!UICONTROL Download report]**.
+
 ## Elencare le campagne nel portfolio
 
 * Fare clic sulla scheda **[!UICONTROL Campaigns]**.
@@ -103,6 +106,14 @@ La visualizzazione dei dettagli del portfolio include le seguenti informazioni s
    * Per modificare le impostazioni del portfolio visibili, fai clic su ![Modifica](/help/search-social-commerce/assets/edit.png "Modifica") accanto alla sezione delle impostazioni e [modifica le impostazioni del portfolio](portfolio-edit.md).
 
 Per ulteriori informazioni sulle impostazioni del portfolio, consulta la Guida all’ottimizzazione, disponibile in Search, Social e Commerce.
+
+## Scaricare i rapporti sulle prestazioni del portfolio e gli elenchi dei componenti del portfolio
+
+1. Nella barra degli strumenti fare clic su **[!UICONTROL Download report]**.
+
+1. Selezionare la casella di controllo accanto a ogni tipo di rapporto sulle prestazioni e di componente portfolio da includere.
+
+   Per alcuni rapporti sulle prestazioni, puoi scegliere se scaricare i dati come carrello o tabella.
 
 >[!MORELIKETHIS]
 >
