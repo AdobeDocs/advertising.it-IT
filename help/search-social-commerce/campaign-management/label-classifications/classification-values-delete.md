@@ -3,9 +3,9 @@ title: Elimina valori di classificazione delle etichette
 description: Scopri come eliminare i valori per le classificazioni delle etichette.
 exl-id: 1b404c6d-a6db-485b-9438-b102786eb65d
 feature: Search Label Classifications
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d68107b04762ea149dd74fb30ab7ea9d8850915f
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,26 @@ L’eliminazione dei valori di classificazione delle etichette ne rende impossib
 >[!NOTE]
 >
 >Per dissociare semplicemente un valore di classificazione da un componente account, vedi &quot;[Rimuovere i valori di classificazione dai componenti campagna](classification-values-remove.md).&quot;
+
+## (Nuova interfaccia) Elimina i valori di classificazione delle etichette
+
+1. Fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**.
+
+1. Fare clic sulla scheda **[!UICONTROL Label Values]**.
+
+1. (Facoltativo) Filtra l’elenco per includere valori di etichetta specifici.
+
+1. Selezionare la casella di controllo accanto a ogni valore di etichetta da eliminare.
+
+   Puoi eliminare fino a 200 righe alla volta.
+
+   Per suggerimenti sulla selezione di più righe, vedere &quot;[Selezionare più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+
+1. Nella barra degli strumenti Azioni in blocco, fare clic su ![Elimina](/help/search-social-commerce/assets/delete.png "Elimina").
+
+1. Nel messaggio di conferma, fare clic su **[!UICONTROL Confirm]**.
+
+## (Interfaccia precedente) Elimina i valori di classificazione delle etichette
 
 1. Fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**.
 

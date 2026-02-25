@@ -3,7 +3,7 @@ title: Assegnare valori di classificazione ai componenti conto utilizzando i bul
 description: Scopri come utilizzare i bulksheet per assegnare valori di classificazione ai componenti dell’account.
 exl-id: b2dfd487-097c-45f8-a6a5-24395fdb2b85
 feature: Search Label Classifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d68107b04762ea149dd74fb30ab7ea9d8850915f
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -38,7 +38,7 @@ I valori delle etichette vengono ereditati dalle entità figlio, pertanto non im
 
    Oltre ad aggiungere valori, puoi anche eliminare i valori esistenti rimuovendoli dalle righe pertinenti. Per rimuovere i valori sia da un&#39;entità padre che dalle relative entità figlio, a) includere solo la riga dell&#39;entità padre e rimuovere il valore di classificazione esistente oppure b) includere sia l&#39;entità padre che le relative entità figlio e rimuovere il valore di classificazione esistente da tutte le righe padre e figlio.
 
-1. [Carica il file](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md) per creare le associazioni.
+1. [Carica il file](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md) per creare le associazioni.<!-- Update once the new bulksheet UI is GA -->
 
 I valori delle etichette caricate sono visibili nelle visualizzazioni delle entità pertinenti.
 

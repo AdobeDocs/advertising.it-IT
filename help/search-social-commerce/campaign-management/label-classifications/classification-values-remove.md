@@ -3,9 +3,9 @@ title: Rimuovere i valori di classificazione delle etichette dai componenti dell
 description: Scopri come rimuovere le associazioni tra i valori di classificazione delle etichette e i componenti dell’account.
 exl-id: 8697367b-0bf9-48c9-8dd3-e733360e1df2
 feature: Search Label Classifications
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d68107b04762ea149dd74fb30ab7ea9d8850915f
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,26 @@ Se si rimuove un valore di classificazione, viene rimossa l’associazione con i
 >[!NOTE]
 >
 >Per eliminare un valore da una classificazione etichetta, vedere &quot;[Eliminare i valori di classificazione etichetta](classification-values-delete.md).&quot;
+
+## (Nuova interfaccia) Rimuovi i valori di classificazione delle etichette dai componenti dell’account
+
+Puoi rimuovere i valori di classificazione da tutti i componenti account applicabili disponibili nella nuova interfaccia utente.
+
+1. Aprire la visualizzazione entità dal menu **[!UICONTROL Manage]** o **[!UICONTROL Target]**.
+
+1. Selezionare la casella di controllo accanto a ogni riga pertinente.
+
+   Per suggerimenti sulla selezione di più righe, vedere &quot;[Selezionare più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+
+1. Nella barra degli strumenti Azioni in blocco fare clic su **-[!UICONTROL Unassign]** > **[!UICONTROL Label Classification]**.
+
+1. Selezionare la casella di controllo accanto a ogni valore di classificazione da rimuovere dalle entità selezionate.<!-- As of 2/24/26, no way to tell which entity each value is assigned to -->
+
+   Per selezionare tutti i valori assegnati, scegliere **[!UICONTROL Select All]**. Per deselezionare tutti i valori assegnati, scegliere **[!UICONTROL Deselect All]**.
+
+1. Fare clic su **[!UICONTROL Unassign Selected]**.
+
+## (Interfaccia precedente) Rimuovi i valori di classificazione delle etichette dai componenti dell’account
 
 1. In **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**, seleziona la vista entità.
 
