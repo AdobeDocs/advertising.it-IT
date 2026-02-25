@@ -4,9 +4,9 @@ description: Scopri come visualizzare i dettagli delle prestazioni del portfolio
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
-source-git-commit: fee9c6e4649c348cad7561f81a9d45d92eb672ec
+source-git-commit: e786ffc8c9e331fffcc8b0f7cce4cb082baea6ac
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -109,11 +109,23 @@ Per ulteriori informazioni sulle impostazioni del portfolio, consulta la Guida a
 
 ## Scaricare i rapporti sulle prestazioni del portfolio e gli elenchi dei componenti del portfolio
 
-1. Nella barra degli strumenti fare clic su **[!UICONTROL Download report]**.
+* Per scaricare tutti i rapporti:
 
-1. Selezionare la casella di controllo accanto a ogni tipo di rapporto sulle prestazioni e di componente portfolio da includere.
+   1. Nella barra degli strumenti fare clic su **[!UICONTROL Download report]**.
 
-   Per alcuni rapporti sulle prestazioni, puoi scegliere se scaricare i dati come carrello o tabella.
+   1. Selezionare la casella di controllo accanto a ogni tipo di rapporto sulle prestazioni e di componente portfolio da includere.
+
+      Per alcuni rapporti sulle prestazioni, è possibile scegliere se scaricare i dati come grafico o tabella.
+
+   1. Fare clic su **[!UICONTROL Download report]**.
+
+* Per scaricare un report [!DNL model accuracy] con tipi di dati specifici:
+
+   1. Nella barra degli strumenti del report, fare clic su **[!UICONTROL Download report]**.
+
+   1. Seleziona la casella di controllo accanto a ciascun tipo di dati da includere e come suddividerli (per unità di offerta e/o per volume di clic).
+
+   1. Fare clic su **[!UICONTROL Download report]**.
 
 >[!MORELIKETHIS]
 >
