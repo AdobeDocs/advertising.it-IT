@@ -45,7 +45,7 @@ Per abilitare la sincronizzazione di un account, è necessario creare un record 
 
    1. Fare clic sulla scheda **[!UICONTROL Setup Tracking]** e immettere le impostazioni di verifica.
 
-   1. (Inserzionisti con un&#39;integrazione [[!DNL Adobe Analytics for Advertising] 1}) Fai clic sulla scheda ](/help/integrations/analytics/overview.md) e seleziona tutte le **[!UICONTROL Set up Adobe Analytics]** suite di rapporti da utilizzare per il tracciamento e il reporting dell&#39;attività della campagna.[!DNL Analytics]
+   1. (Inserzionisti con un&#39;integrazione [[!DNL Adobe Analytics for Advertising] 1&rbrace;) Fai clic sulla scheda &#x200B;](/help/integrations/analytics/overview.md) e seleziona tutte le **[!UICONTROL Set up Adobe Analytics]** suite di rapporti da utilizzare per il tracciamento e il reporting dell&#39;attività della campagna.[!DNL Analytics]
 
 1. Fare clic su **[!UICONTROL Save]**.
 
@@ -73,7 +73,7 @@ Per autenticare nuovamente le impostazioni dell&#39;account per aggiornare la co
 
    1. (Facoltativo) Fare clic sulla scheda **[!UICONTROL Setup Tracking]** e modificare le impostazioni di tracciamento.
 
-   1. (Facoltativo; inserzionisti con un&#39;integrazione [[!DNL Adobe Analytics for Advertising] 1}) Fai clic sulla scheda ](/help/integrations/analytics/overview.md) e modifica le suite di rapporti **[!UICONTROL Set up Adobe Analytics]** da utilizzare per il tracciamento e il reporting dell&#39;attività della campagna.[!DNL Analytics]
+   1. (Facoltativo; inserzionisti con un&#39;integrazione [[!DNL Adobe Analytics for Advertising] 1&rbrace;) Fai clic sulla scheda &#x200B;](/help/integrations/analytics/overview.md) e modifica le suite di rapporti **[!UICONTROL Set up Adobe Analytics]** da utilizzare per il tracciamento e il reporting dell&#39;attività della campagna.[!DNL Analytics]
 
    <!-- What are the repercussions of changing the suites? Timing of updated data? -->
 
@@ -167,7 +167,7 @@ Le impostazioni dell’account variano a seconda della rete di annunci. Potresti
 
 >[!NOTE]
 >
->Gli account del gestore della rete di annunci non sono supportati qui. Per identificare un account manager per [!DNL Microsoft Advertising], utilizzare rispettivamente il campo ID account principale o Account MCC. Per [configurare le credenziali per un account di manager [!DNL Google Ads] ](/help/search-social-commerce/admin/manager-accounts.md), passare a [!UICONTROL Admin] \> [!UICONTROL Manager Accounts].
+>Gli account del gestore della rete di annunci non sono supportati qui. Per identificare un account manager per [!DNL Microsoft Advertising], utilizzare rispettivamente il campo ID account principale o Account MCC. Per [configurare le credenziali per un account di manager [!DNL Google Ads] &#x200B;](/help/search-social-commerce/admin/manager-accounts.md), passare a [!UICONTROL Admin] \> [!UICONTROL Manager Accounts].
 
 **[!UICONTROL Currency]:** (sola lettura) L&#39;abbreviazione della valuta utilizzata per l&#39;account. Questo valore viene compilato automaticamente con la valuta configurata per l’account sulla rete di annunci una volta salvato il record.
 

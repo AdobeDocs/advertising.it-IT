@@ -49,7 +49,7 @@ Search, Social e Commerce Adobe Advertising non sono supportati con questa funzi
 
 I dati devono rispettare i requisiti di dati per la rete di annunci, in modo che i campi di dati per ogni entità possano variare a seconda della rete di annunci.
 
-1. <!-- For all ad networks (excluding DSP), -->Caricare i dati iniziali per un singolo account in uno dei modi seguenti:
+1. &#x200B;<!-- For all ad networks (excluding DSP), -->Caricare i dati iniziali per un singolo account in uno dei modi seguenti:
 
 * Caricare un file manualmente dal dispositivo o dalla rete.
 
