@@ -3,16 +3,14 @@ title: Gestire gli account di rete degli annunci
 description: Scopri come impostare e gestire i dettagli di un account di rete di annunci.
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 304b3589109fe9ddf4d2f0df84c7fa45aa3726d2
+source-git-commit: 10d8205d0c750e566ddd80122e291c276264afcb
 workflow-type: tm+mt
-source-wordcount: '2078'
+source-wordcount: '2099'
 ht-degree: 0%
 
 ---
 
 # Gestire gli account di rete degli annunci
-
-<!-- Probably need to change the page title. If I update the filename, get B. to create a redirect to the new URL. -->
 
 Di seguito sono riportate le istruzioni per la creazione e la modifica dei dettagli dell&#39;account di rete, l&#39;aggiornamento del token [!DNL oAuth] per un account e la disattivazione degli account.
 
@@ -21,6 +19,8 @@ Di seguito sono riportate le istruzioni per la creazione e la modifica dei detta
 <!-- Also update Description metadata to "Learn how to set up and manage account details for an ad network account synced via the ad network API." -->
 
 Per informazioni dettagliate sulle funzionalità disponibili per ogni rete di annunci, vedi &quot;[Inventario supportato](/help/search-social-commerce/introduction/supported-inventory.md).&quot;
+
+Per istruzioni sulla gestione degli account di rete degli annunci nella nuova interfaccia utente, vedere &quot;[(Nuova interfaccia utente) Gestire gli account di rete degli annunci tramite la connessione API](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md).&quot;
 
 ## Crea dettagli account di rete dell’annuncio {#create-account}
 
@@ -147,7 +147,7 @@ Quando abiliti un account di ad network, Search, Social e Commerce sincronizzano
 
 >[!NOTE]
 >
->Gli account del gestore della rete di annunci non sono supportati qui. Per identificare un account manager per [!DNL Microsoft Advertising] o [!DNL Yandex], utilizzare rispettivamente il campo ID account principale o Account MCC. Per [configurare le credenziali per un account di manager [!DNL Google Ads] &#x200B;](/help/search-social-commerce/admin/manager-accounts.md), passare a [!UICONTROL Admin] \> [!UICONTROL Manager Accounts].
+>Gli account del gestore della rete di annunci non sono supportati qui. Per identificare un account manager per [!DNL Microsoft Advertising] o [!DNL Yandex], utilizzare rispettivamente il campo ID account principale o Account MCC. Per [configurare le credenziali per un account di manager [!DNL Google Ads] ](/help/search-social-commerce/admin/manager-accounts.md), passare a [!UICONTROL Admin] \> [!UICONTROL Manager Accounts].
 
 **[!UICONTROL Account Name]:** nome da visualizzare per l&#39;account in Search, Social e Commerce.
 
