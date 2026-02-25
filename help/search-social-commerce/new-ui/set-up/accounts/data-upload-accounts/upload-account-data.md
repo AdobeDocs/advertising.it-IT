@@ -56,7 +56,7 @@ See "XXX" for information about supported ad networks and account structures.
 
       1. Fare clic su **[!UICONTROL Save]**.
 
-# Carica dati account in un bucket [!DNL Amazon] [!DNL S3] {#data-upload-s3}
+&#x200B;# Carica dati account in un bucket [!DNL Amazon] [!DNL S3] {#data-upload-s3}
 
 È possibile popolare un account con il contenuto e i costi della campagna, i clic e i dati di conversione caricando i dati in una cartella assegnata a Search, Social e Commerce in un bucket [!DNL Amazon Web Services] (AWS) [!DNL Simple Storage Service] ([!DNL S3]).
 
