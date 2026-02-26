@@ -1,7 +1,7 @@
 ---
 title: Carica dati account offline per reporting e simulazioni
 description: Scopri come caricare manualmente i dati dell’account offline o in un bucket  [!DNL Amazon] [!DNL S3] per il supporto di reporting e simulazione. I file di registro tengono traccia dell’avanzamento dei processi di caricamento.
-source-git-commit: bfa5403ff66bed73797fc4c7115b8c043856745d
+source-git-commit: 8ba0f8fa6050a3e6ec93bcf08df2c0204191fc02
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 0%
@@ -56,7 +56,7 @@ See "XXX" for information about supported ad networks and account structures.
 
       1. Fare clic su **[!UICONTROL Save]**.
 
-&#x200B;# Carica dati account in un bucket [!DNL Amazon] [!DNL S3] {#data-upload-s3}
+## Carica dati account in un bucket [!DNL Amazon] [!DNL S3] {#data-upload-s3}
 
 È possibile popolare un account con il contenuto e i costi della campagna, i clic e i dati di conversione caricando i dati in una cartella assegnata a Search, Social e Commerce in un bucket [!DNL Amazon Web Services] (AWS) [!DNL Simple Storage Service] ([!DNL S3]).
 
