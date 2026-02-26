@@ -3,9 +3,9 @@ title: Assegnare e annullare l’assegnazione di bundle creativi a un nodo final
 description: Scopri come assegnare i creativi a ogni target nelle esperienze pubblicitarie.
 feature: Creative Experiences
 exl-id: 5449a760-6ade-41c0-9cab-bd92026b150b
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -26,19 +26,19 @@ Per esperienze pubblicitarie standard, puoi assegnare solo bundle creativi stand
 
 1. Effettuare una delle seguenti operazioni:
 
-   * (Nodi finali senza elementi creativi) Sotto il nodo, fare clic su ![Aggiungi](/help/creative/assets/add.png "Aggiungi"), quindi selezionare **[!UICONTROL Assign Bundles]**.
+   * (Nodi finali senza elementi creativi) Sotto il nodo, fare clic su **[!UICONTROL Assign Bundles]**.
 
-   * (Nodi con creatività esistente) Posizionare il cursore sulla casella del bundle creativo sotto il nodo di destinazione<!-- wording???? --> e fare clic su **[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**.
+   * (Nodi con creatività esistente) Posiziona il cursore sulla casella del bundle creativo sotto il nodo di destinazione e fai clic su **[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**.
 
 1. Seleziona la casella di controllo accanto a ciascun bundle da assegnare al nodo di destinazione, quindi deseleziona la casella di controllo accanto a ciascun bundle da annullare l’assegnazione.
 
    Sono elencati solo i bundle del tipo di bundle pertinente per l’esperienza (standard o dinamica).
 
-1. Fare clic su **[!UICONTROL Attach to Bundles]**.
-
-1. (Facoltativo) [Personalizza gli URL di tracciamento per i creativi nei bundle assegnati](experience-tracking-urls-targeting.md).
+1. Fare clic su **[!UICONTROL Save]**.
 
 1. (Facoltativo) [Personalizza l&#39;ottimizzazione creativa e la pianificazione](experience-optimization-scheduling-targeting.md) per i bundle assegnati.
+
+1. (Facoltativo) [Personalizza gli URL di tracciamento per i creativi nei bundle assegnati](experience-tracking-urls-targeting.md).
 
 <!--
 1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.

@@ -3,9 +3,9 @@ title: Personalizzare l’ottimizzazione creativa e la pianificazione di un’es
 description: Scopri come configurare l’ottimizzazione e la pianificazione degli annunci per le esperienze senza targeting.
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
+source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -28,13 +28,13 @@ Quando la pianificazione creativa è disabilitata, le impostazioni di ottimizzaz
 
    * Nella visualizzazione per tabella, posizionare il cursore sulla riga, fare clic su **[!UICONTROL More]** e quindi su **[!UICONTROL Tag Manager]**.
 
-1. Posiziona il cursore sulla riga del tag annuncio applicabile e fai clic su ![Pianificazione annuncio](/help/creative/assets/edit-gray.png "Modifica URL di tracciamento") **[!UICONTROL Creative Optimization]**.&lt;!— In Tag Manager è disponibile solo la vista a elenco, ma non quella a schede, a partire da 2/2. >
+1. Posiziona il cursore sulla riga del tag annuncio applicabile e fai clic su ![Modifica ottimizzazione creativa](/help/creative/assets/edit-gray.png "Modifica ottimizzazione creativa") **[!UICONTROL Creative Optimization]**.&lt;!— In Tag Manager è disponibile solo la vista a elenco, ma non quella a schede, a partire da 2/2. >
 
 1. Disabilita **[!UICONTROL Schedule]**.
 
 1. Seleziona il tipo di rotazione creativa per le varianti di annunci nei bundle associati:
 
-   * *[!UICONTROL Weighted]:* mostra le varianti di annunci nei bundle creativi associati in base al peso relativo. Inserire il peso di ogni fascio come percentuale. Il peso di tutti i bundle selezionati deve essere pari a 100.<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->
+   * *[!UICONTROL Weighted]:* mostra le varianti di annunci nei bundle creativi associati in base al peso relativo. Inserire il peso di ogni fascio come percentuale. Per applicare gli stessi pesi a tutti i bundle associati, fare clic su (![Applica peso uguale](/help/creative/assets/apply-equal-weight.png "Applica peso uguale")). Il peso di tutti i bundle selezionati deve essere pari a 100.<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->
 
    * *[!UICONTROL Algorithmic]:* mostra più spesso le varianti più efficaci dell&#39;annuncio, in base a un obiettivo specificato.
 
@@ -66,7 +66,7 @@ Quando utilizzi la pianificazione, devi pianificare le creatività per tutta la 
 
    * Nella visualizzazione per tabella, posizionare il cursore sulla riga, fare clic su **[!UICONTROL More]** e quindi su **[!UICONTROL Tag Manager]**.
 
-1. Posiziona il cursore sulla riga del tag annuncio applicabile e fai clic su ![Pianificazione annuncio](/help/creative/assets/edit-gray.png "Modifica URL di tracciamento") **[!UICONTROL Creative Optimization]**. <!-- For targeted experiences, this is "Edit Schedules" -->&lt;!— In Tag Manager è disponibile solo la vista a elenco, ma non quella a schede, a partire da 2/2. >
+1. Posiziona il cursore sulla riga del tag annuncio applicabile e fai clic su ![Modifica ottimizzazione creativa](/help/creative/assets/edit-gray.png "Modifica ottimizzazione creativa") **[!UICONTROL Creative Optimization]**. <!-- For targeted experiences, this is "Edit Schedules" -->&lt;!— In Tag Manager è disponibile solo la vista a elenco, ma non quella a schede, a partire da 2/2. >
 
 1. Abilita **[!UICONTROL Schedule]**.
 
@@ -74,11 +74,11 @@ Quando utilizzi la pianificazione, devi pianificare le creatività per tutta la 
 
    1. Nella colonna sinistra, seleziona la casella di controllo accanto a ogni creatività da aggiungere alla prima pianificazione.
 
-   1. Specifica le date di inizio e fine per la pianificazione.
+   1. Specifica la data e l’ora di inizio, nonché la data e l’ora di fine della pianificazione.
 
    1. Seleziona il tipo di rotazione creativa:
 
-      * *[!UICONTROL Weighted]:* Ruota manualmente i creativi in base al peso relativo. Immetti il peso di ogni creatività in percentuale. La somma dei pesi per tutti i creativi selezionati deve essere 100.
+      * *[!UICONTROL Weighted]:* Ruota manualmente i creativi in base al peso relativo. Immetti il peso di ogni creatività in percentuale. Per applicare gli stessi pesi a tutti i bundle nella pianificazione, fare clic su (![Applica peso uguale](/help/creative/assets/apply-equal-weight.png "Applica peso uguale")). La somma dei pesi per tutti i creativi selezionati deve essere 100.
 
       * *[!UICONTROL Algorithmic]:* ruota le creatività in modo algoritmico in base a un obiettivo di ottimizzazione specificato.
 

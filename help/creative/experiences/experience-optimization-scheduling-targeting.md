@@ -3,9 +3,9 @@ title: Personalizzare l’ottimizzazione creativa e la pianificazione di un’es
 description: Scopri come configurare l’ottimizzazione e la pianificazione degli annunci per esperienze mirate.
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
+source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,21 @@ Per impostazione predefinita, la rotazione creativa di un’esperienza viene det
 
 Quando la pianificazione creativa è disabilitata, le impostazioni di ottimizzazione creativa si applicano a tutti i creativi assegnati.
 
-1. Tenere premuto il cursore sul nodo foglia creativa sotto il nodo di destinazione e fare clic su **[!UICONTROL ...]** > **[!UICONTROL Creative Optimization]**.
+1. Mentre [crei](experience-create-targeting.md) o [modifichi](experience-edit-targeting.md) l&#39;esperienza, apri le impostazioni di ottimizzazione creativa:
+
+   1. Tenere premuto il cursore sul nodo foglia creativo sotto il nodo di destinazione ed effettuare le seguenti operazioni:
+
+      * Per i bundle esistenti, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**.
+
+      * Per i nuovi bundle, fai clic su **[!UICONTROL ...]** > **[!UICONTROL Assign Bundles]** e [assegna i bundle](experience-assign-creative-bundles.md).
+
+1. Fare clic sulla scheda **[!UICONTROL Creative Optimization]**.
 
 1. Disabilita **[!UICONTROL Schedule]**.
 
 1. Seleziona il tipo di rotazione creativa per le varianti di annunci nei bundle associati:
 
-   * *[!UICONTROL Weighted]:* mostra le varianti di annunci nei bundle creativi associati in base al peso relativo. Inserire il peso di ogni fascio come percentuale. Il peso di tutti i bundle selezionati deve essere pari a 100.<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->
+   * *[!UICONTROL Weighted]:* mostra le varianti di annunci nei bundle creativi associati in base al peso relativo. Inserire il peso di ogni fascio come percentuale. Per applicare gli stessi pesi a tutti i bundle associati, fare clic su (![Applica peso uguale](/help/creative/assets/apply-equal-weight.png "Applica peso uguale")). Il peso di tutti i bundle selezionati deve essere pari a 100.<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->
 
    * *[!UICONTROL Algorithmic]:* mostra più spesso le varianti più efficaci dell&#39;annuncio, in base a un obiettivo specificato.
 
@@ -54,7 +62,15 @@ Facoltativamente, puoi pianificare l’esecuzione di specifici bundle creativi d
 
 Quando si utilizza la pianificazione, è necessario pianificare i bundle per tutta la durata dell’esperienza.
 
-1. Tenere premuto il cursore sul nodo foglia creativa sotto il nodo di destinazione e fare clic su **[!UICONTROL ...]** > **[!UICONTROL Creative Optimization]**.
+1. Mentre [crei](experience-create-targeting.md) o [modifichi](experience-edit-targeting.md) l&#39;esperienza, apri le impostazioni di ottimizzazione creativa:
+
+   1. Tenere premuto il cursore sul nodo foglia creativo sotto il nodo di destinazione ed effettuare le seguenti operazioni:
+
+      * Per i bundle esistenti, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**.
+
+      * Per i nuovi bundle, fai clic su **[!UICONTROL ...]** > **[!UICONTROL Assign Bundles]** e [assegna i bundle](experience-assign-creative-bundles.md).
+
+1. Fare clic sulla scheda **[!UICONTROL Creative Optimization]**.
 
 1. Abilita **[!UICONTROL Schedule]**.
 
@@ -62,11 +78,11 @@ Quando si utilizza la pianificazione, è necessario pianificare i bundle per tut
 
    1. Nella colonna a sinistra, seleziona la casella di controllo accanto a ciascun bundle creativo da aggiungere alla prima pianificazione.
 
-   1. Specifica le date di inizio e fine per la pianificazione.
+   1. Specifica la data e l’ora di inizio, nonché la data e l’ora di fine della pianificazione.
 
    1. Seleziona il tipo di rotazione creativa:
 
-      * *[!UICONTROL Weighted]:* Ruota manualmente le creatività in ogni bundle in base al peso relativo. Inserire il peso di ogni fascio come percentuale. La somma dei pesi di tutti i bundle selezionati deve essere pari a 100.
+      * *[!UICONTROL Weighted]:* Ruota manualmente le creatività in ogni bundle in base al peso relativo. Inserire il peso di ogni fascio come percentuale. Per applicare gli stessi pesi a tutti i bundle nella pianificazione, fare clic su (![Applica peso uguale](/help/creative/assets/apply-equal-weight.png "Applica peso uguale")). La somma dei pesi di tutti i bundle selezionati deve essere pari a 100.
 
       * *[!UICONTROL Algorithmic]:* ruota le creatività in ciascun bundle in modo algoritmico in base a un obiettivo di ottimizzazione specificato.
 
