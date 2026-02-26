@@ -2,11 +2,11 @@
 role: User
 user-guide-title: Guida di Advertising Creative
 user-guide-description: Scopri le principali funzioni, attività, impostazioni e altre risorse necessarie per utilizzare Advertising Creative.
-breadcrumb-title: Guida di Creative
-source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
+breadcrumb-title: Guida alla creatività
+source-git-commit: 0f1355be9eab674970207afb03c56d2857ea24ae
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 0%
    + [Informazioni su Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
    + [Personalizzare le visualizzazioni dati](/help/creative/introduction/customize-data-views.md)
    + [Flussi di lavoro per gli annunci dinamici](/help/creative/introduction/workflow-dynamic-ads.md)
-   + [Supporto per la privacy del consumatore](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=it){target="_blank"}
-   + [Criteri e linee guida](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=it){target="_blank"}
+   + [Supporto per la privacy del consumatore](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [Criteri e linee guida](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
 + Librerie Creative {#creative-libraries}
    + [Informazioni sulle librerie creative](/help/creative/creative-libraries/creative-libraries-about.md)
    + [Dimensioni creative supportate](/help/creative/creative-libraries/creative-sizes.md)
@@ -58,8 +58,8 @@ ht-degree: 0%
             + [Eliminare un nodo di destinazione o un nodo foglia creativo](/help/creative/experiences/experience-target-node-delete.md)
          + Pacchetti e creatività Creative {#bundles}
             + [Assegnare e annullare l’assegnazione di bundle creativi a un nodo finale](/help/creative/experiences/experience-assign-creative-bundles.md)
-            + [Personalizzare gli URL di tracciamento per i creativi](/help/creative/experiences/experience-tracking-urls-targeting.md)
             + [Personalizzare l&#39;ottimizzazione creativa e la pianificazione](/help/creative/experiences/experience-optimization-scheduling-targeting.md)
+            + [Personalizzare gli URL di tracciamento per i creativi](/help/creative/experiences/experience-tracking-urls-targeting.md)
    + Esperienze senza targeting {#experience-nontargeted}
       + [Creare un’esperienza senza targeting](/help/creative/experiences/experience-create-no-targeting.md)
       + [Modificare un’esperienza senza targeting](/help/creative/experiences/experience-edit-no-targeting.md)
@@ -67,8 +67,8 @@ ht-degree: 0%
       + Tag annuncio e creatività{#non-targeted-creatives}
          + [Creare manualmente un tag annuncio per una dimensione creativa applicabile](/help/creative/experiences/experience-tag-create-manually.md)
          + [Assegnare dei creativi a un tag annuncio per le esperienze senza targeting](/help/creative/experiences/experience-tag-assign-creatives.md)
-         + [Personalizzare gli URL di tracciamento per un’esperienza senza targeting](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
          + [Personalizza l’ottimizzazione creativa e la pianificazione di un’esperienza senza targeting](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)
+         + [Personalizzare gli URL di tracciamento per un’esperienza senza targeting](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
    + [Clonare un’esperienza](/help/creative/experiences/experience-clone.md)
    + [Visualizzare l’anteprima di un’esperienza](/help/creative/experiences/experience-preview.md)
    + [Personalizzare le opzioni di transcodifica per un tag esperienza annuncio video](/help/creative/experiences/experience-tag-video-transcoding.md)
@@ -93,4 +93,4 @@ ht-degree: 0%
 + [Pixel di retargeting](/help/creative/pixels/retargeting-pixel-manage.md)
 + [Macro disponibili per il tracciamento degli URL](/help/creative/creative-macros.md)
 + [Ottieni aiuto](/help/creative/get-help.md)
-+ [Note sulla versione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it){target="_blank"}
++ [Note sulla versione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}
