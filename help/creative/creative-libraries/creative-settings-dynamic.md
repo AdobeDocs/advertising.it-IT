@@ -3,9 +3,9 @@ title: Impostazioni creative dinamiche
 description: Fai riferimento alle impostazioni per i contenuti creativi dinamici.
 feature: Creative Dynamic Creatives
 exl-id: 9dcd7245-fa02-4082-9abb-8c0792322a68
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: 164ee92f85c0e649dc2bd6c0224a531eb72d1962
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,6 @@ ht-degree: 0%
 
 **[!UICONTROL Library]:** Libreria creativa in cui creare gli annunci. Se crei gli annunci da [!UICONTROL Creatives] > [!UICONTROL Creative Libraries], il nome della libreria è già selezionato e di sola lettura.
 
-**[!UICONTROL Ad Template Size]:** (solo annunci di visualizzazione dinamici) Le [dimensioni annuncio](/help/creative/creative-libraries/creative-sizes.md) per il modello di annuncio da cui creare l&#39;annuncio. Se selezioni prima un [!UICONTROL Ad Template] specifico, questo valore viene selezionato automaticamente.
-
 ## Modello annuncio
 
 **[!UICONTROL Ad Template]:** il modello di annuncio da cui creare gli annunci. Seleziona un modello di annuncio esistente o carica un nuovo modello di annuncio e seleziona il tipo di modello (*Statico* o *Dinamico*). Il modello deve essere in formato ZIP e contenere:<!-- Need to add more specs for templates -->
@@ -40,13 +38,13 @@ ht-degree: 0%
 
 Per continuare, scegliere **[!UICONTROL Select Ad Template]**.
 
+**[!UICONTROL Size]:** (solo annunci di visualizzazione dinamici; sola lettura) [dimensioni annuncio](/help/creative/creative-libraries/creative-sizes.md) per il modello di annuncio selezionato, utilizzato per creare gli annunci.
+
 **[!UICONTROL Card Count (Max 50)]:** (solo annunci visualizzati) Il numero di prodotti da visualizzare in un carosello.
 
 **[!UICONTROL Duration]:** (solo annunci video; sola lettura) La durata del video derivata dal modello di annuncio selezionato. La durata di ogni video deve essere compresa tra 1 e 90 secondi.
 
 ## Cataloghi
-
-**[!UICONTROL Template]:** modello di feed da utilizzare per creare gli annunci.
 
 **\[Cataloghi\]**: uno o più cataloghi da cui generare annunci. Seleziona un catalogo esistente o creane uno nuovo scaricando un modello di feed esistente e creando e caricando il nuovo catalogo. Fare clic su **[!UICONTROL Select Catalog]**.
 
