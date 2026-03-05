@@ -3,9 +3,9 @@ title: Organizzazione dell’interfaccia utente
 description: Scopri dove accedere a diverse funzionalità.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
+source-git-commit: 2e5d70dcf2008bb0ea0c36955032011594e13ca3
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1225'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Il tuo ruolo determina le opzioni disponibili:<!-- add link when available -->
 
    * **[!UICONTROL Conversions]** Chiude il nuovo sito e apre la visualizzazione legacy [!UICONTROL Admin] > [!UICONTROL Conversions].
 
-   * **[!UICONTROL Conversion Value Rules]** Apre visualizzazioni di sola lettura delle regole dei valori di conversione a livello di campagna e di account. Per gestire le regole del valore di conversione, utilizzare la vista legacy [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules].
+   * **[!UICONTROL Conversion Value Rules]** Apre visualizzazioni di sola lettura delle regole dei valori di conversione a livello di campagna e di account. Per gestire le regole del valore di conversione, utilizzare la vista legacy [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules]. Tornare all&#39;interfaccia utente legacy facendo clic sul pulsante [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Constraints]** Chiude il nuovo sito e apre la visualizzazione legacy [!UICONTROL Optimization] > [!UICONTROL Constraints].
 
@@ -62,13 +62,15 @@ Il tuo ruolo determina le opzioni disponibili:<!-- add link when available -->
 
    * **[!UICONTROL Campaigns]:** Apre una nuova visualizzazione [!UICONTROL Campaigns], che mostra tutte le campagne per l&#39;inserzionista. Puoi assegnare le campagne ai portfolio e gestire le assegnazioni di vincoli per le campagne selezionate. È inoltre possibile scaricare un report del contenuto della tabella dati. <!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
 
-     Per creare, modificare ed eliminare le campagne, tornare all&#39;interfaccia utente legacy facendo clic su **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** nel menu principale o facendo clic sul pulsante [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+     Per creare, modificare ed eliminare le campagne, tornare all&#39;interfaccia utente legacy facendo clic sul pulsante [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Ad Groups]:** Apre una nuova visualizzazione [!UICONTROL Ad Groups], che mostra tutti i gruppi di annunci per l&#39;inserzionista. Puoi gestire le assegnazioni di vincoli per i gruppi di annunci selezionati. È inoltre possibile scaricare un report del contenuto della tabella dati.
 
-     Per creare, modificare ed eliminare le campagne, tornare all&#39;interfaccia utente legacy facendo clic su **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** nel menu principale o facendo clic sul pulsante [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+     Per creare, modificare ed eliminare le campagne, tornare all&#39;interfaccia utente legacy facendo clic sul pulsante [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
-   * **[!UICONTROL Ads]** Chiude il nuovo sito e apre la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+   * **[!UICONTROL Ads]** Apre una nuova visualizzazione [!UICONTROL Ads], che mostra tutti gli annunci per l&#39;inserzionista. Puoi gestire le assegnazioni di vincoli per gli annunci selezionati.
+
+     Per creare, modificare ed eliminare annunci, tornare all&#39;interfaccia utente legacy facendo clic sul pulsante [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
 * Sottomenu **[!UICONTROL Reports]**:
 
@@ -94,7 +96,7 @@ Il tuo ruolo determina le opzioni disponibili:<!-- add link when available -->
 
    * **[!UICONTROL Creatives]** Chiude il nuovo sito e apre la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
 
-   * **[!UICONTROL Extensions]** Chiude il nuovo sito e apre la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+   * **[!UICONTROL Extensions]** Apre visualizzazioni di sola lettura delle estensioni dell&#39;annuncio esistenti. Per gestire le estensioni, utilizzare la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Campaigns]. Tornare all&#39;interfaccia utente legacy facendo clic sul pulsante [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Shopping]** Chiude il nuovo sito e apre la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Campaigns].<!-- Should this go to Campaigns > Products? -->
 
