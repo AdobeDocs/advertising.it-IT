@@ -3,9 +3,9 @@ title: Organizzazione dell’interfaccia utente
 description: Scopri dove accedere a diverse funzionalità.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: a3963ef31025caa2cebc83a99866862000838455
+source-git-commit: 5c979728f4582b56a2d813fd23cd74cbfa25be14
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1318'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,9 @@ Il tuo ruolo determina le opzioni disponibili:<!-- add link when available -->
 
      Per creare, modificare ed eliminare parole chiave e parole chiave negative, utilizzare le viste legacy [!UICONTROL Campaigns] > [!UICONTROL Campaigns]. Tornare all&#39;interfaccia utente legacy facendo clic sul pulsante [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
-   * **[!UICONTROL Placements]** Chiude il nuovo sito e apre la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+   * **[!UICONTROL Placements]** Apre una nuova visualizzazione [!UICONTROL Placements], che mostra i posizionamenti esistenti e quelli negativi per l&#39;inserzionista. È possibile gestire le assegnazioni di vincoli per i posizionamenti selezionati.
+
+     Per creare, modificare ed eliminare posizionamenti e posizionamenti negativi, utilizzare le viste legacy [!UICONTROL Campaigns] > [!UICONTROL Campaigns]. Tornare all&#39;interfaccia utente legacy facendo clic sul pulsante [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
 * Sottomenu **[!UICONTROL Assets]**:
 
