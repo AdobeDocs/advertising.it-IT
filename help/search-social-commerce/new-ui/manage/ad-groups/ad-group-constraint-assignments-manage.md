@@ -83,4 +83,4 @@ L’annullamento dell’assegnazione di un vincolo rimuove l’associazione con 
 >
 >* [Gestione assegnazioni vincoli per le campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [Gestisci assegnazioni vincoli per annunci](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
-[Gestisci assegnazioni vincoli per parole chiave](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
+>[Gestisci assegnazioni vincoli per parole chiave](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)

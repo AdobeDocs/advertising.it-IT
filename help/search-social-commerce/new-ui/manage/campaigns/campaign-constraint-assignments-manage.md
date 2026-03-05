@@ -90,4 +90,4 @@ Puoi assegnare un singolo vincolo a una o più campagne.
 >
 >* [Gestisci assegnazioni vincoli per gruppi di annunci](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [Gestisci assegnazioni vincoli per annunci](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
-[Gestisci assegnazioni vincoli per parole chiave](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
+>[Gestisci assegnazioni vincoli per parole chiave](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
