@@ -1,6 +1,6 @@
 ---
-title: Gestire le assegnazioni di vincoli per le parole chiave
-description: Scopri come assegnare vincoli alle parole chiave.
+title: Gestire le assegnazioni di vincoli per i posizionamenti
+description: Scopri come assegnare vincoli ai posizionamenti.
 feature: Search Optimization, Search Campaign Management
 hide: true
 source-git-commit: 0e863a638d8f3d055fd566db65d7967126fd5f89
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# (Nuova interfaccia) Gestione delle assegnazioni di vincoli per le parole chiave
+# (Nuova interfaccia) Gestire le assegnazioni di vincoli per i posizionamenti
 
 *funzionalità Beta*
 
@@ -25,13 +25,13 @@ L’annullamento dell’assegnazione di un vincolo rimuove l’associazione con 
 >* Se successivamente modificate una parola chiave o la copia dell&#39;annuncio per un annuncio, creando in tal modo una nuova parola chiave o un nuovo annuncio, il vincolo non viene assegnato alla nuova entità.
 >* I vincoli attivi limitano le offerte solo per le unità di offerta assegnate nei portfolio legacy ottimizzati a livello di parola chiave. Vengono ignorate per le unità di offerta presenti in portafogli attivi, in portafogli ibridi o che non appartengono a portafogli.
 
-## Assegna un vincolo agli annunci selezionati dalla nuova visualizzazione [!UICONTROL Keywords]
+## Assegna un vincolo ai posizionamenti selezionati dalla nuova visualizzazione [!UICONTROL Placements]
 
-Puoi assegnare un singolo vincolo a una o più campagne.
+È possibile assegnare un singolo vincolo a uno o più posizionamenti.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Target]>[!UICONTROL Keywords]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Target]>[!UICONTROL Placements]**.
 
-1. Nella scheda **[!UICONTROL Keywords]** selezionare la casella di controllo accanto a ogni parola chiave a cui assegnare un singolo vincolo.
+1. Nella scheda **[!UICONTROL Placements]** selezionare la casella di controllo accanto a ogni posizione a cui assegnare un singolo vincolo.
 
 1. Nella barra degli strumenti delle azioni in blocco, fare clic su **+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
 
@@ -59,11 +59,11 @@ Puoi assegnare un singolo vincolo a una o più campagne.
 
 1. Fare clic su **[!UICONTROL Save]**.
 
-## Annulla l&#39;assegnazione dei vincoli dalle campagne selezionate dalla nuova visualizzazione [!UICONTROL Keywords]
+## Annulla l&#39;assegnazione dei vincoli dai posizionamenti selezionati dalla nuova visualizzazione [!UICONTROL Placements]
 
-1. Nel menu principale, fare clic su **[!UICONTROL Target]>[!UICONTROL Keywords]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Target]>[!UICONTROL Placements]**.
 
-1. Nella scheda **[!UICONTROL Keywords]** selezionare la casella di controllo accanto a ogni parola chiave da cui si desidera annullare l&#39;assegnazione dei vincoli.
+1. Nella scheda **[!UICONTROL Placements]** selezionare la casella di controllo accanto a ogni posizionamento da cui si desidera annullare l&#39;assegnazione dei vincoli.
 
 1. Nella barra degli strumenti Azioni in blocco fare clic su **-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
 
@@ -90,4 +90,4 @@ Puoi assegnare un singolo vincolo a una o più campagne.
 >* [Gestione assegnazioni vincoli per le campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [Gestisci assegnazioni vincoli per gruppi di annunci](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [Gestisci assegnazioni vincoli per annunci](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
->* [Gestisci assegnazioni vincoli per posizionamenti](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
+>* [Gestisci assegnazioni vincoli per parole chiave](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
