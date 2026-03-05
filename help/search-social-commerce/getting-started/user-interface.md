@@ -3,9 +3,9 @@ title: Organizzazione dell’interfaccia utente
 description: Scopri dove accedere a diverse funzionalità.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 2e5d70dcf2008bb0ea0c36955032011594e13ca3
+source-git-commit: a3963ef31025caa2cebc83a99866862000838455
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -84,9 +84,11 @@ Il tuo ruolo determina le opzioni disponibili:<!-- add link when available -->
 
 * Sottomenu **[!UICONTROL Target]**:
 
-   * **[!UICONTROL Audience]**: esce dal nuovo sito e apre la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Audiences].
+   * **[!UICONTROL Audience]**: apre una nuova visualizzazione [!UICONTROL Audiences], che mostra tutti i tipi di pubblico esistenti per l&#39;inserzionista. Per gestire i tipi di pubblico, utilizza la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Audiences]. Tornare all&#39;interfaccia utente legacy facendo clic sul pulsante [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
-   * **[!UICONTROL Keywords]** Chiude il nuovo sito e apre la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+   * **[!UICONTROL Keywords]** Apre una nuova visualizzazione [!UICONTROL Keywords], che mostra le parole chiave esistenti e le parole chiave negative per l&#39;inserzionista. È possibile gestire le assegnazioni di vincoli per le parole chiave selezionate.
+
+     Per creare, modificare ed eliminare parole chiave e parole chiave negative, utilizzare le viste legacy [!UICONTROL Campaigns] > [!UICONTROL Campaigns]. Tornare all&#39;interfaccia utente legacy facendo clic sul pulsante [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Placements]** Chiude il nuovo sito e apre la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
 
