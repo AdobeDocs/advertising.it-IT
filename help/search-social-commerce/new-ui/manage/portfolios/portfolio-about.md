@@ -4,9 +4,9 @@ description: Scopri i portfolio.
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 8d023c22-a1dd-4608-8c72-0a61f055e7e5
-source-git-commit: de3c527bd359e0d5285b90e54278983104a2a5b5
+source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '729'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Un portfolio può avere i seguenti stati:
 
 ## Visualizzazione [!UICONTROL Portfolios]
 
-Nella visualizzazione [!UICONTROL Portfolios] sono elencati i portfolio esistenti, con dati sulle prestazioni personalizzabili. Puoi [personalizzare le colonne all&#39;interno della visualizzazione](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) e filtrare i dati per includere portfolio specifici [dalla barra degli strumenti](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) o dall&#39;[intestazione di colonna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+Nella visualizzazione [!UICONTROL Portfolios] sono elencati tutti i portfolio esistenti nella visualizzazione filtrata, con dati delle prestazioni personalizzabili. Puoi [personalizzare le colonne all&#39;interno della visualizzazione](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) e filtrare i dati per includere portfolio specifici [dalla barra degli strumenti](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) o dall&#39;[intestazione di colonna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
 Sopra la tabella di dati, puoi aprire un grafico delle prestazioni con un massimo di tre metriche calcolate su tutti i portfolio nella vista per l’intervallo di date specificato.
 

@@ -3,9 +3,9 @@ title: Organizzazione dell’interfaccia utente
 description: Scopri dove accedere a diverse funzionalità.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 3b4d92d2f6fe8b2ef57dfd5ce833772c37b039f8
+source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Il tuo ruolo determina le opzioni disponibili:<!-- add link when available -->
 
    * **[!UICONTROL Conversions]** Chiude il nuovo sito e apre la visualizzazione legacy [!UICONTROL Admin] > [!UICONTROL Conversions].
 
-   * **[!UICONTROL Conversion Value Rules]** Chiude il nuovo sito e apre la visualizzazione legacy [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules].
+   * **[!UICONTROL Conversion Value Rules]** Apre visualizzazioni di sola lettura delle regole dei valori di conversione a livello di campagna e di account. Per gestire le regole del valore di conversione, utilizzare la vista legacy [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules].
 
    * **[!UICONTROL Constraints]** Chiude il nuovo sito e apre la visualizzazione legacy [!UICONTROL Optimization] > [!UICONTROL Constraints].
 

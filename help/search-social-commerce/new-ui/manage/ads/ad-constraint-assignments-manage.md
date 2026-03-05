@@ -1,17 +1,16 @@
 ---
-title: Gestire le assegnazioni dei vincoli per i gruppi di annunci
-description: Scopri come assegnare vincoli ai gruppi di annunci.
+title: Gestire le assegnazioni dei vincoli per gli annunci
+description: Scopri come assegnare vincoli agli annunci.
 feature: Search Optimization, Search Campaign Management
 hide: true
-exl-id: c9960b5a-4b6c-4ef0-8501-5478af2c40da
 source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
 
-# (Nuova interfaccia) Gestione delle assegnazioni dei vincoli per i gruppi di annunci
+# (Nuova interfaccia) Gestire le assegnazioni dei vincoli per gli annunci
 
 *funzionalità Beta*
 
@@ -21,11 +20,18 @@ I vincoli vengono ereditati dalle entità figlio, pertanto non è necessario ass
 
 L’annullamento dell’assegnazione di un vincolo rimuove l’associazione con i componenti conto e tutti i relativi componenti figlio e i dati del rapporto relativi al vincolo non sono più disponibili per tali componenti. L’annullamento dell’assegnazione di un vincolo non comporta l’eliminazione del vincolo né dei componenti dell’account.
 
-## Assegna un vincolo ai gruppi di annunci selezionati dalla nuova visualizzazione [!UICONTROL Ad Groups]
+>[!NOTE]
+>
+>* Se successivamente modificate una parola chiave o la copia dell&#39;annuncio per un annuncio, creando in tal modo una nuova parola chiave o un nuovo annuncio, il vincolo non viene assegnato alla nuova entità.
+>* I vincoli attivi limitano le offerte solo per le unità di offerta assegnate nei portfolio legacy ottimizzati a livello di parola chiave. Vengono ignorate per le unità di offerta presenti in portafogli attivi, in portafogli ibridi o che non appartengono a portafogli.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Ad Groups]**.
+## Assegna un vincolo agli annunci selezionati dalla nuova visualizzazione [!UICONTROL Ads]
 
-1. Selezionare la casella di controllo accanto a ogni gruppo di annunci a cui assegnare un singolo vincolo.
+Puoi assegnare un singolo vincolo a una o più campagne.
+
+1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Ads]**.
+
+1. Selezionare la casella di controllo accanto a ogni annuncio a cui assegnare un singolo vincolo.
 
 1. Nella barra degli strumenti delle azioni in blocco, fare clic su **+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
 
@@ -53,11 +59,11 @@ L’annullamento dell’assegnazione di un vincolo rimuove l’associazione con 
 
 1. Fare clic su **[!UICONTROL Save]**.
 
-## Annulla l&#39;assegnazione di vincoli ai gruppi di annunci selezionati dalla nuova visualizzazione [!UICONTROL Ad Groups]
+## Annulla l&#39;assegnazione dei vincoli dalle campagne selezionate dalla nuova visualizzazione [!UICONTROL Ads]
 
-1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Ad Groups]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Ads]**.
 
-1. Selezionare la casella di controllo accanto a ogni gruppo di annunci da cui si desidera annullare l&#39;assegnazione dei vincoli.
+1. Selezionare la casella di controllo accanto a ogni annuncio da cui si desidera annullare l&#39;assegnazione dei vincoli.
 
 1. Nella barra degli strumenti Azioni in blocco fare clic su **-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
 
@@ -82,4 +88,4 @@ L’annullamento dell’assegnazione di un vincolo rimuove l’associazione con 
 >[!MORELIKETHIS]
 >
 >* [Gestione assegnazioni vincoli per le campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
->* [Gestisci assegnazioni vincoli per annunci](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
+>* [Gestisci assegnazioni vincoli per gruppi di annunci](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
