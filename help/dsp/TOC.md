@@ -4,9 +4,9 @@ user-guide-title: Guida di Advertising DSP
 user-guide-description: Scopri le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire e ottimizzare le strategie degli annunci display con Advertising DSP e creare i relativi rapporti.
 breadcrumb-title: Guida di DSP
 index: true
-source-git-commit: b0eb55e27f32af0c1ceed0980dbfdaa7497db226
+source-git-commit: e7b320180b707e38c6e4c035dd8c7bfe388b3bdc
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '971'
 ht-degree: 3%
 
 ---
@@ -24,9 +24,10 @@ ht-degree: 3%
       + [Soluzioni multi-dispositivo](/help/dsp/introduction/features/cross-device-solutions.md)
    + [Finanziamento account](/help/dsp/introduction/billing/account-funding.md)
    + [Valute supportate](/help/dsp/currency.md)
-   + [Supporto per la privacy del consumatore](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=it)
-   + [Criteri e linee guida](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=it)
+   + [Supporto per la privacy del consumatore](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [Criteri e linee guida](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
    + [Soluzioni avanzate di misurazione](/help/dsp/introduction/advanced-measurement-services.md)
++ [Cerca la documentazione del prodotto utilizzando la chat assistita da IA](/help/dsp/agent-chat.md)
 + Gestione delle campagne {#campaign-management}
    + [Panoramica della struttura di gestione delle campagne](/help/dsp/campaign-management/campaign-management-overview.md)
    + Campagne {#campaigns}
@@ -76,7 +77,7 @@ ht-degree: 3%
       + [Rivedere I Dettagli Dell’Annuncio Utilizzando I Fogli Di Calcolo](/help/dsp/campaign-management/ads/ad-qa.md)
       + [Modificare un annuncio](/help/dsp/campaign-management/ads/ad-edit.md)
       + [Duplicare un annuncio](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [Allega e rimuovi annunci dai posizionamenti](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=it)
+      + [Allega e rimuovi annunci dai posizionamenti](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
       + [Elencare i posizionamenti associati a un annuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [Visualizzare un rapporto dettagliato per un annuncio](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [Sospendere o attivare un annuncio](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -232,9 +233,9 @@ ht-degree: 3%
    + Notifiche {#notifications}
       + [Informazioni sulle sottoscrizioni di avvisi](/help/dsp/admin/alerts-about.md)
       + [Gestire le sottoscrizioni agli avvisi](/help/dsp/admin/alerts-manage.md)
-+ [Integrazioni con Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=it)
++ [Integrazioni con Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
 + [Ottieni aiuto](/help/dsp/get-help.md)
-+ [Note sulla versione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it)
++ [Note sulla versione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 
 
 <!-- add back to about below "Edit the Advertisers with Access to a Deal ID" when reintroduced:

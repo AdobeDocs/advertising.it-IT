@@ -3,9 +3,9 @@ title: Ottieni aiuto
 description: Scopri come visualizzare la guida online e le risorse della community e come ottenere supporto tecnico.
 feature: Creative Introduction
 exl-id: 88059f73-6da3-4deb-b4ef-fa8e8eaec569
-source-git-commit: ed577c6f20d0e63555865d2d03bb82a5ada92b3f
+source-git-commit: d2276e7e57c5c4fcc270aeef68a8bf4d013e3eba
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
@@ -14,23 +14,27 @@ ht-degree: 0%
 
 <!-- Can remove this page when we move this into DSP help -->
 
-È possibile aprire la Guida in linea da qualsiasi pagina dell&#39;interfaccia utente. Se la guida in linea non risponde alle tue domande, contattaci.
+Puoi inviare una query assistita da IA in tutta la documentazione di [!DNL Creative] per [!DNL DSP] e (inserzionisti con Advertising DSP) o aprire una guida utente completa per [!DNL Creative]. Se la documentazione non risponde alle tue domande, contattaci.
 
-## Apri Guida in linea
+## Ricerca di informazioni tramite un’interfaccia di chat assistita da IA
 
-Per aprire un set di informazioni completo che illustra come utilizzare tutte le funzionalità, fare clic su **[!UICONTROL Help]** nel menu principale e aprire il capitolo &quot;[!DNL Creative]&quot;.
+Consulta &quot;[Cerca la documentazione del prodotto utilizzando un&#39;interfaccia chat assistita da IA](/help/dsp/agent-chat.md).&quot;
+
+## Apri una guida utente completa
+
+Per aprire una guida utente completa che illustra come utilizzare tutte le funzionalità, fare clic su **[!UICONTROL Help]** nel menu principale e aprire il capitolo &quot;[!DNL Creative]&quot;.
 
 <!--
 ## Ask the Adobe Advertising community
 
-Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=it).
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
 -->
 
 ## Contatta [!DNL Adobe]
 
 Per problemi relativi a prodotti o account, effettuare le seguenti operazioni:
 
-* (Inserzionisti con contratti self-service) Apri un ticket per la tua organizzazione all&#39;indirizzo [https://experienceleague.adobe.com/home?lang=it#support](https://experienceleague.adobe.com/home?lang=it&support-tab=home#support).
+* (Inserzionisti con contratti self-service) Apri un ticket per la tua organizzazione all&#39;indirizzo [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support).
 
   Per il prodotto, selezionare &quot;[!UICONTROL Advertising - Creative]&quot;.
 
