@@ -84,7 +84,7 @@ Puoi indirizzare i posizionamenti a tutti i seguenti tipi di pubblico.
 
   >[!NOTE]
   >
-  >Per informazioni sull&#39;impostazione e la raccolta di dati per i segmenti in queste soluzioni, vedere la documentazione per [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html), [Analisi](https://experienceleague.adobe.com/docs/analytics.html) e [l [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html).
+  >Per informazioni sull&#39;impostazione e la raccolta di dati per i segmenti in queste soluzioni, vedere la documentazione per [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=it), [Analisi](https://experienceleague.adobe.com/docs/analytics.html?lang=it) e [l [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=it).
 
 ## Dati dimensioni gruppo di destinatari
 
