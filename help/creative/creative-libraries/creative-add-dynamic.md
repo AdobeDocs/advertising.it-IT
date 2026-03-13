@@ -3,9 +3,9 @@ title: Aggiungere creatività dinamica a una libreria creativa
 description: Scopri come aggiungere creatività dinamica a una libreria creativa.
 feature: Creative Dynamic Creatives
 exl-id: 26162314-bdaa-4d1c-b0c2-696ec6dbb138
-source-git-commit: 2a89d5f3997345c051728d41af865dc0e75541f5
+source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -110,4 +110,5 @@ Aggiungi creatività dinamica alle [librerie creative](creative-library-manage.m
 >
 >* [Impostazioni creative dinamiche](creative-settings-dynamic.md)
 >* [Modificare un contenuto creativo dinamico in una libreria creativa](creative-edit-dynamic.md)
+>* [Visualizza il registro delle modifiche per un contenuto creativo](/help/creative/creative-libraries/creative-view-change-log.md)
 >* [Flussi di lavoro per annunci dinamici](/help/creative/introduction/workflow-dynamic-ads.md)

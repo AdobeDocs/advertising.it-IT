@@ -3,9 +3,9 @@ title: Scarica creatività
 description: Scopri come scaricare un contenuto creativo come file ZIP.
 feature: Creative Standard Creatives
 exl-id: 6507d472-be25-4f20-a32e-ad73250d78d4
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
@@ -36,3 +36,4 @@ Scarica tutti i creativi selezionati in un file in formato ZIP secondo la normal
 >
 >* [Aggiungere creatività standard a una libreria creativa](creative-add-standard.md)
 >* [Anteprima di un contenuto creativo](creative-preview.md)
+>* [Visualizza il registro delle modifiche per un contenuto creativo](/help/creative/creative-libraries/creative-view-change-log.md)

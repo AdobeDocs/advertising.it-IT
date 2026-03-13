@@ -3,9 +3,9 @@ title: Modificare un contenuto creativo dinamico in una libreria creativa
 description: Scopri come modificare un contenuto creativo dinamico in una libreria creativa.
 feature: Creative Dynamic Creatives
 exl-id: b75b9aeb-ffd0-4b86-aa7a-bd6a22e7a8e4
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -58,4 +58,5 @@ ht-degree: 0%
 >
 >* [Impostazioni creative dinamiche](creative-settings-dynamic.md)
 >* [Aggiungere elementi creativi dinamici a una libreria creativa](creative-add-dynamic.md)
+>* [Visualizza il registro delle modifiche per un contenuto creativo](/help/creative/creative-libraries/creative-view-change-log.md)
 >* [Flussi di lavoro per annunci dinamici](/help/creative/introduction/workflow-dynamic-ads.md)

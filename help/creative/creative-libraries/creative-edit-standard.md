@@ -3,9 +3,9 @@ title: Modificare i contenuti originali standard in una libreria creativa
 description: Scopri come modificare le impostazioni delle creatività standard (non dinamiche) in una libreria creativa.
 feature: Creative Standard Creatives
 exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
-source-git-commit: cfa8af948774daf3da56d835d739573f4782ac4b
+source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -63,3 +63,4 @@ Quando modifichi un contenuto creativo<!-- or creative variation --> incluso in 
 >* [Aggiungere creatività standard a una libreria creativa](creative-add-standard.md)
 >* [Impostazioni creative standard](/help/creative/creative-libraries/creative-settings-standard.md)
 >* [Anteprima di un contenuto creativo](/help/creative/creative-libraries/creative-preview.md)
+>* [Visualizza il registro delle modifiche per un contenuto creativo](/help/creative/creative-libraries/creative-view-change-log.md)

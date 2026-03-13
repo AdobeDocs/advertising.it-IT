@@ -3,9 +3,9 @@ title: Duplicare le creatività
 description: Scopri come duplicare i creativi in una libreria creativa.
 feature: Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: ec6ce2f5-fe2e-4c95-b0d9-dc09f3ce55c4
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -47,3 +47,4 @@ Duplica i creativi per aggiungere nuovi creativi con le stesse impostazioni alla
 >* [Aggiungere creatività standard a una libreria creativa](creative-add-standard.md)
 >* [Modifica creatività standard](creative-edit-standard.md)
 >* [Impostazioni creative standard](creative-settings-standard.md)
+>* [Visualizza il registro delle modifiche per un contenuto creativo](/help/creative/creative-libraries/creative-view-change-log.md)
