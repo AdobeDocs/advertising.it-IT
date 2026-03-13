@@ -3,9 +3,9 @@ title: Gestire i bundle creativi
 description: Scopri come gestire e utilizzare gruppi di creativi.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 0bcbd20437457ddafbd23969fbc48093e050ca2f
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1587'
 ht-degree: 0%
 
 ---
@@ -269,6 +269,28 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 1.
 
  -->
+
+## Visualizzare il registro delle modifiche per un bundle
+
+1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Facoltativo) [Personalizzare la visualizzazione](/help/creative/introduction/customize-data-views.md) per includere librerie specifiche.
+
+1. Fai clic sul nome della libreria.
+
+1. Fare clic sulla scheda **[!UICONTROL Bundles]**.
+
+1. Seleziona il bundle:
+
+   * Nella vista a schede, fai clic su **[!UICONTROL ...]** accanto al nome del bundle, quindi su **[!UICONTROL Change Log]**.
+
+   * Nella vista tabella, tenere premuto il cursore sulla riga e fare clic su **[!UICONTROL More]** > **[!UICONTROL Change Log]**.
+
+1. (Facoltativo) Modifica l’intervallo di tempo segnalato.
+
+1. (Facoltativo) Per aggiungere una nota, tenere premuto il cursore sulla riga e fare clic su **[!UICONTROL Add Notes]**. Immettere la nota e fare clic su **[!UICONTROL Save]**.
+
+1. (Facoltativo) Per visualizzare la voce del log delle modifiche, incluse le note aggiunte, posizionare il cursore sulla riga e fare clic su **[!UICONTROL View Details]**.
 
 ## Elimina bundle
 

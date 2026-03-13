@@ -3,9 +3,9 @@ title: Modificare un’esperienza senza il targeting della struttura decisionale
 description: Scopri come modificare le impostazioni per un’esperienza annuncio senza targeting.
 feature: Creative Experiences
 exl-id: 29f54944-72a0-405a-bc11-87ea03edc09a
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -35,3 +35,4 @@ ht-degree: 0%
 >* [Personalizza l&#39;ottimizzazione creativa e la pianificazione per un&#39;esperienza senza targeting](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)
 >* [Esportare e implementare un tag di esperienza annuncio per un&#39;esperienza live](/help/creative/experiences/experience-tag-export.md)
 >* [Crea un&#39;esperienza senza il targeting dell&#39;albero delle decisioni](experience-create-no-targeting.md)
+>* [Visualizza il registro delle modifiche per un&#39;esperienza](/help/creative/experiences/experience-view-change-log.md)

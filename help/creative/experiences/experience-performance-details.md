@@ -3,9 +3,9 @@ title: Rapporti sulle prestazioni a livello di esperienza
 description: Scopri come visualizzare i rapporti sulle prestazioni a livello di esperienza.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 39e0b8b57fd54e99b09e56ecf9cef753b0c6ea44
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -131,5 +131,6 @@ La visualizzazione Report include i dati seguenti:
 >* [Informazioni sui report personalizzati](/help/creative/reports/reports-about.md)
 >* [Gestisci report personalizzati](/help/creative/reports/report-manage.md)
 >* [Scarica tutte le esperienze nella visualizzazione](/help/creative/experiences/experience-download-view.md)
+>* [Visualizza il registro delle modifiche per un&#39;esperienza](/help/creative/experiences/experience-view-change-log.md)
 >* [Informazioni sulle esperienze in Advertising Creative](/help/creative/experiences/experience-about.md)
 >* [Visualizza avvisi](/help/creative/reports/alerts-view.md)

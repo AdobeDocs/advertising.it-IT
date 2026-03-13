@@ -3,9 +3,9 @@ title: Creare un’esperienza senza targeting della struttura decisionale
 description: Scopri come creare un’esperienza di annuncio senza targeting.
 feature: Creative Experiences
 exl-id: 327b1df5-5663-4513-9238-f481370c8c38
-source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
@@ -51,3 +51,4 @@ Crea un’esperienza di annuncio senza targeting. Ogni esperienza può utilizzar
 >* [Personalizza gli URL di tracciamento per un&#39;esperienza senza targeting](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
 >* [Personalizza l&#39;ottimizzazione creativa e la pianificazione per un&#39;esperienza senza targeting](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)
 >* [Esportare e implementare un tag di esperienza annuncio per un&#39;esperienza live](/help/creative/experiences/experience-tag-export.md)
+>* [Visualizza il registro delle modifiche per un&#39;esperienza](/help/creative/experiences/experience-view-change-log.md)

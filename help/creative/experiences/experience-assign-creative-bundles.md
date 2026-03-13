@@ -3,9 +3,9 @@ title: Assegnare e annullare l’assegnazione di bundle creativi a un nodo final
 description: Scopri come assegnare i creativi a ogni target nelle esperienze pubblicitarie.
 feature: Creative Experiences
 exl-id: 5449a760-6ade-41c0-9cab-bd92026b150b
-source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -59,3 +59,4 @@ These formatted steps are inserted automatically from text in the following file
 >* [Modifica un&#39;esperienza con il targeting dell&#39;albero delle decisioni](experience-edit-targeting.md)
 >* [Impostazioni esperienza di destinazione](experience-settings-targeting.md)
 >* [Esportare e implementare un tag di esperienza annuncio per un&#39;esperienza live](experience-tag-export.md)
+>* [Visualizza il registro delle modifiche per un&#39;esperienza](/help/creative/experiences/experience-view-change-log.md)

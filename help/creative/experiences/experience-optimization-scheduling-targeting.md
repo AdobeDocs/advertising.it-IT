@@ -3,9 +3,9 @@ title: Personalizzare l’ottimizzazione creativa e la pianificazione di un’es
 description: Scopri come configurare l’ottimizzazione e la pianificazione degli annunci per esperienze mirate.
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1190'
 ht-degree: 0%
 
 ---
@@ -130,3 +130,4 @@ Quando si utilizza la pianificazione, è necessario pianificare i bundle per tut
 >
 >* [Assegnazione e annullamento dell&#39;assegnazione di bundle creativi a un nodo finale in un&#39;esperienza](/help/creative/experiences/experience-assign-creative-bundles.md)
 >* [Personalizza gli URL di tracciamento per i creativi](/help/creative/experiences/experience-tracking-urls-targeting.md)
+>* [Visualizza il registro delle modifiche per un&#39;esperienza](/help/creative/experiences/experience-view-change-log.md)

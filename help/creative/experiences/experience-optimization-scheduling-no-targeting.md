@@ -3,9 +3,9 @@ title: Personalizzare l’ottimizzazione creativa e la pianificazione di un’es
 description: Scopri come configurare l’ottimizzazione e la pianificazione degli annunci per le esperienze senza targeting.
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1223'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,11 @@ Quando la pianificazione creativa è disabilitata, le impostazioni di ottimizzaz
 
    * Nella visualizzazione per tabella, posizionare il cursore sulla riga, fare clic su **[!UICONTROL More]** e quindi su **[!UICONTROL Tag Manager]**.
 
-1. Posiziona il cursore sulla riga del tag annuncio applicabile e fai clic su ![Modifica ottimizzazione creativa](/help/creative/assets/edit-gray.png "Modifica ottimizzazione creativa") **[!UICONTROL Creative Optimization]**.&lt;!— In Tag Manager è disponibile solo la vista a elenco, ma non quella a schede, a partire da 2/2. >
+1. Tieni premuto il cursore sulla riga del tag annuncio applicabile e fai clic su ![Modifica ottimizzazione creativa](/help/creative/assets/edit-gray.png "Modifica ottimizzazione creativa") **[!UICONTROL Creative Optimization]**.&lt;!— Gestione tag dispone solo di una visualizzazione a elenco, ma non di una visualizzazione a schede, a partire da 2/2. >
 
 1. Disabilita **[!UICONTROL Schedule]**.
 
-1. Seleziona il tipo di rotazione creativa per le varianti di annunci nei bundle associati:
+1. Seleziona il tipo di rotazione creativa per le varianti di annuncio nei bundle associati:
 
    * *[!UICONTROL Weighted]:* mostra le varianti di annunci nei bundle creativi associati in base al peso relativo. Inserire il peso di ogni fascio come percentuale. Per applicare gli stessi pesi a tutti i bundle associati, fare clic su (![Applica peso uguale](/help/creative/assets/apply-equal-weight.png "Applica peso uguale")). Il peso di tutti i bundle selezionati deve essere pari a 100.<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->
 
@@ -60,13 +60,13 @@ Quando utilizzi la pianificazione, devi pianificare le creatività per tutta la 
 
 1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 
-1. Effettuare una delle seguenti operazioni:
+1. Effettuate una delle seguenti operazioni:
 
-   * Nella vista a schede, fai clic su **[!UICONTROL ...]** accanto al nome dell&#39;esperienza e quindi su **[!UICONTROL Tag Manager]**.
+   * Nella visualizzazione scheda fare clic su **[!UICONTROL ...]** accanto al nome dell&#39;esperienza e quindi su **[!UICONTROL Tag Manager]**.
 
    * Nella visualizzazione per tabella, posizionare il cursore sulla riga, fare clic su **[!UICONTROL More]** e quindi su **[!UICONTROL Tag Manager]**.
 
-1. Posiziona il cursore sulla riga del tag annuncio applicabile e fai clic su ![Modifica ottimizzazione creativa](/help/creative/assets/edit-gray.png "Modifica ottimizzazione creativa") **[!UICONTROL Creative Optimization]**. <!-- For targeted experiences, this is "Edit Schedules" -->&lt;!— In Tag Manager è disponibile solo la vista a elenco, ma non quella a schede, a partire da 2/2. >
+1. Tieni premuto il cursore sulla riga del tag annuncio applicabile e fai clic su ![Modifica ottimizzazione creativa](/help/creative/assets/edit-gray.png "Modifica ottimizzazione creativa") **[!UICONTROL Creative Optimization]**. <!-- For targeted experiences, this is "Edit Schedules" -->&lt;!— In Tag Manager è disponibile solo la vista a elenco, ma non quella a schede, a partire da 2/2. >
 
 1. Abilita **[!UICONTROL Schedule]**.
 
@@ -84,11 +84,11 @@ Quando utilizzi la pianificazione, devi pianificare le creatività per tutta la 
 
          * Per **[!UICONTROL Optimization Goal]**, seleziona *[!UICONTROL Click Through Rate]*, (esperienze annuncio video standard) *[!UICONTROL Completion Rate]* o *[!UICONTROL Custom Objective]*.  Se selezioni *[!UICONTROL Custom Objective]*, seleziona un [obiettivo personalizzato di Advertising DSP](/help/dsp/optimization/custom-goal.md).<!-- Verify --> esistente
 
-      * *[!UICONTROL Sequencing]:* ruota i bundle creativi associati in un ordine specificato (con il bundle 1 servito per primo, il bundle 2 servito per secondo e così via), con un numero totale specificato di impression in ogni sequenza di bundle. Le dimensioni degli annunci offerti sono determinate dall’inventario disponibile. Potete configurare il bundle finale nella sequenza su a\) per visualizzarlo indefinitamente (impostazione predefinita) o b\) per tornare al primo bundle. Ad esempio, puoi mostrare qualsiasi creativo nel Bundle 1 per tre (3) impression, poi mostrare qualsiasi creativo nel Bundle 2 per una (1) impression, quindi mostrare qualsiasi creativo nel Bundle 3 per due (2) impression, e infine ricominciare il ciclo continuo. In alternativa, una volta che i creativi nel Bundle 3 sono visualizzati, è possibile continuare a mostrare i creativi nel Bundle 3 indefinitamente, piuttosto che creare un loop. Quando si abilita la sequenza:
+      * *[!UICONTROL Sequencing]:* ruota i bundle creativi associati in un ordine specificato (con il bundle 1 servito per primo, il bundle 2 servito per secondo e così via), con un numero totale specificato di impression in ogni sequenza di bundle. Le dimensioni degli annunci offerti sono determinate dall’inventario disponibile. Potete configurare il bundle finale nella sequenza su a\) per visualizzarlo indefinitamente (impostazione predefinita) o b\) per tornare al primo bundle. Ad esempio, puoi visualizzare qualsiasi creativo in Bundle 1 per tre (3) impressioni, quindi mostrare qualsiasi creativo in Bundle 2 per una (1) impressione, quindi visualizzare qualsiasi creativo in Bundle 3 per due (2) impressioni e quindi iniziare nuovamente il ciclo. In alternativa, una volta visualizzati i creativi in Bundle 3, puoi continuare a visualizzare i creativi in Bundle 3 per un periodo di tempo indefinito, anziché creare un ciclo continuo. Quando attivi il sequenziamento:
 
-         1. Trascina e rilascia i bundle assegnati nell’ordine desiderato.
+         1. Trascinate i fasci assegnati nell&#39;ordine desiderato.
 
-            Per impostazione predefinita, i bundle assegnati sono sequenziati nell’ordine in cui sono stati aggiunti all’esperienza.
+            Per impostazione predefinita, i bundle assegnati vengono messi in sequenza nell’ordine in cui sono stati aggiunti all’esperienza.
 
          1. Immetti il numero di impression per ciascuna sequenza.
 
@@ -124,6 +124,7 @@ Quando utilizzi la pianificazione, devi pianificare le creatività per tutta la 
 
 >[!MORELIKETHIS]
 >
->* [Creare manualmente un tag annuncio per una dimensione creativa applicabile](/help/creative/experiences/experience-tag-create-manually.md)
->* [Assegna creatività a un tag annuncio per esperienze senza targeting](experience-tag-assign-creatives.md)
->* [Personalizza gli URL di tracciamento per un&#39;esperienza senza targeting della struttura decisionale](experience-tracking-urls-no-targeting.md)
+>* [Creare manualmente un tag di annuncio per una dimensione creativa applicabile](/help/creative/experiences/experience-tag-create-manually.md)
+>* [Assegna creativi a un tag ad per esperienze senza destinazioni](experience-tag-assign-creatives.md)
+>* [Personalizzare gli URL di tracciamento per un&#39;esperienza senza definire una destinazione per la struttura decisionale](experience-tracking-urls-no-targeting.md)
+>* [Visualizza il log delle modifiche per un&#39;esperienza](/help/creative/experiences/experience-view-change-log.md)
