@@ -3,9 +3,9 @@ title: Creare un pubblico riutilizzabile
 description: Scopri come creare un pubblico riutilizzabile costituito da segmenti di pubblico e altri tipi di pubblico salvati.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
+source-git-commit: e2d040409bcf18ca3c7906e8f3d5d3dc6633d2d7
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,10 @@ Puoi salvare e gestire i tipi di pubblico riutilizzabili, ovvero gruppi di segme
    >Mentre generi il pubblico, nel pannello a destra vengono aggiornati dettagliati [dati sulle dimensioni del pubblico](audience-about.md)
 
    * Per creare manualmente la logica del segmento, utilizzando i segmenti disponibili nelle schede [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] e [!UICONTROL Saved Audiences]](audience-settings.md), eseguire le operazioni seguenti.
+
+      * (Facoltativo) Cerca un nome di segmento, una descrizione o un percorso.
+
+        I risultati della ricerca includono segmenti basati sui termini esatti utilizzati. Quando si inseriscono più termini, tutti i termini devono essere trovati per un segmento.
 
       * Per aggiungere il primo segmento, individualo nel pannello a sinistra e seleziona la casella di controllo accanto al nome del segmento.
 
