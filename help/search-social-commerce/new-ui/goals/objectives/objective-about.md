@@ -4,9 +4,9 @@ description: Scopri gli obiettivi per raggiungere gli obiettivi aziendali.
 feature: Search Objectives, Search Optimization
 hide: true
 exl-id: 4e417307-1403-4420-85f9-2fa04c253b58
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 67bbcbd318144022adfac7688c7bd2e0fee588d5
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -68,3 +68,4 @@ Facoltativamente, puoi [caricare gli obiettivi per i portfolio dell&#39;account 
 >* [Eliminare un obiettivo](objective-delete.md)
 >* [Applicare consigli sul peso a un obiettivo](objective-apply-weight-recommendations.md)
 >* [Impostazioni obiettivo](objective-settings.md)
+>* [Scarica i dati sulle prestazioni per gli obiettivi](objective-download-performance-data.md)
