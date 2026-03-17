@@ -26,7 +26,7 @@ Advertising Search, Social e Commerce sono integrati con i seguenti prodotti [!D
 
    * Adobe Advertising e [!DNL Analytics] condividono i dati in modo semplice. [!DNL Analytics] può inviare quotidianamente i dati su conversione e coinvolgimento sul sito a Search, Social e Commerce, dove i dati sono disponibili per l&#39;ottimizzazione degli annunci e per il reporting. Inoltre, Adobe Advertising può inviare quotidianamente i dati sul traffico pubblicitario, inclusi impression, clic e costi, dalle reti pubblicitarie a [!DNL Analytics], dove i dati sono disponibili in tutti gli strumenti di reporting.
 
-     Per ulteriori informazioni sul supporto di [ per ogni rete di annunci e tipo di annuncio, vedere &quot;](/help/search-social-commerce/introduction/supported-inventory.md)Inventario supportato[!DNL Analytics]&quot;. Vedere anche &quot;[Panoramica di [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}&quot; per ulteriori informazioni sullo scambio di dati.
+     Per ulteriori informazioni sul supporto di [&#x200B; per ogni rete di annunci e tipo di annuncio, vedere &quot;](/help/search-social-commerce/introduction/supported-inventory.md)Inventario supportato[!DNL Analytics]&quot;. Vedere anche &quot;[Panoramica di [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}&quot; per ulteriori informazioni sullo scambio di dati.
 
      Per scambiare i dati, è necessario configurare inizialmente sia Adobe Advertising che [!DNL Analytics]. Per ulteriori informazioni sulla configurazione iniziale, contatta il team dell’account di Adobe.
 
