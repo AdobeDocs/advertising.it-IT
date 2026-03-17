@@ -1,24 +1,26 @@
 ---
-title: Generare un tag di tracciamento delle conversioni di Adobe Advertising
+title: Generare e implementare un tag di tracciamento delle conversioni di Adobe Advertising
 description: Scopri come creare un tag di conversione Adobe Advertising per tenere traccia degli eventi di conversione.
 exl-id: 02492162-96a0-4a91-8896-dd0f72199f79
 feature: Search Tools, Search Tracking
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d92fc3fa1ce218788890c073df22afa336aa9ad1
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
 
-# Generare un tag di tracciamento delle conversioni di Adobe Advertising
+# Generare e implementare un tag di tracciamento delle conversioni di Adobe Advertising
 
 *Inserzionisti con solo monitoraggio delle conversioni di Adobe Advertising*
 
-Crea un tag di conversione separato per ogni set di metriche di cui desideri tenere traccia e fornisci all’inserzionista o all’agenzia un elenco di pagine web in cui inserirle.
+Crea un tag di conversione separato per ogni set di metriche di cui desideri tenere traccia.
+
+## Generare e implementare un tag di tracciamento delle conversioni in Search, Social e Commerce
 
 >[!NOTE]
 >
->Questa funzionalità non aggiunge tag immagine o tag [!DNL JavaScript] alle pagine Web dell&#39;inserzionista. I tag devono essere aggiunti in base alla normale procedura dell’inserzionista per l’aggiornamento delle pagine web.
+>Questa funzionalità non aggiunge tag immagine o tag [!DNL JavaScript] alle pagine Web dell&#39;inserzionista. Fornisci i tag all’inserzionista o all’agenzia con un elenco di pagine web in cui inserirle. I tag devono essere aggiunti in base alla normale procedura dell’inserzionista per l’aggiornamento delle pagine web.
 
 1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Conversion Tags]**.
 
@@ -36,7 +38,7 @@ Crea un tag di conversione separato per ogni set di metriche di cui desideri ten
 >
 >Ogni metrica nel nuovo tag di conversione viene elencata automaticamente in [!UICONTROL Admin] > [!UICONTROL Conversions], anche se non è implementata o se le pagine Web in cui si trova non hanno ricevuto clic. Questo comportamento è diverso da quello delle metriche nei tag creati manualmente o altrove, che non sono elencati in [!UICONTROL Admin] > [!UICONTROL Conversions] finché una delle pagine Web in cui si trova non ha ricevuto un clic. In tutti i casi, tuttavia, ogni metrica viene inizialmente esclusa dagli obiettivi del portfolio, dai rapporti e dalle visualizzazioni fino a quando non li rendi esplicitamente disponibili. Tuttavia, prima di aggiungere le metriche agli obiettivi del portfolio, considera innanzitutto di rendere le metriche disponibili e di aggiungerle ai rapporti per verificare quando ricevono i clic.
 
-## Impostazioni dei tag di conversione Adobe Advertising {#conversion-tag-settings}
+### Impostazioni dei tag di conversione Adobe Advertising {#conversion-tag-settings}
 
 **[!UICONTROL Tag Type]:** Tipo di tag da creare:
 
@@ -71,6 +73,72 @@ Se i dati non includono un ID univoco per transazione, Adobe Advertising ne gene
 **[!UICONTROL JS Version]:** ([!DNL JavaScript] solo tag) Quale versione del tag [!DNL JavaScript] creare: *[!UICONTROL v2]* (impostazione predefinita) o *[!UICONTROL v3]*.
 
 Consulta &quot;[Domande frequenti sui tag di conversione e tracciamento delle visualizzazioni di pagina di Adobe Advertising](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md).&quot; per ulteriori informazioni sulle differenze.
+
+## Implementare tag di tracciamento delle conversioni utilizzando i tag di Adobe Experience Platform
+
+Puoi impostare il tracciamento delle conversioni per Search, Social e Commerce utilizzando i tag in Adobe Experience Platform (precedentemente noto come Adobe Experience Platform Launch). I tag sono disponibili per i clienti di Adobe Experience Cloud come funzionalità inclusa a valore aggiunto.
+
+Per configurare i tag di tracciamento della conversione per Search, Social e Commerce dall’interfaccia utente di Experience Platform o da quella di Experience Platform Data Collection, sono necessarie le seguenti attività. Per informazioni e istruzioni complete sulla configurazione dei tag, consulta la Guida ai tag di Experience Platform, a partire da &quot;[Panoramica sui tag](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)&quot; e &quot;[Guida rapida](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start)&quot;.
+
+>[!PREREQUISITES]
+>
+>Per installare l&#39;estensione tag richiesta, chiedi all&#39;amministratore dell&#39;organizzazione di accedere alle funzioni di raccolta dati nell&#39;interfaccia utente, inclusa l&#39;autorizzazione `manage_properties`.
+
+1. Dall&#39;[interfaccia utente di Data Collection](https://experience.adobe.com/#/data-collection/), installa l&#39;estensione [Adobe Advertising](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview):
+
+   1. Dalla proprietà applicabile, apri il catalogo delle estensioni e seleziona **Adobe Advertising**.
+
+   1. Dal menu a discesa, selezionare **SSC** (per Ricerca, Social e Commerce).
+
+   1. Nel campo **SSC UserID**, immetti l&#39;ID utente numerico per l&#39;account Search, Social e Commerce della tua organizzazione.
+
+      Se non conosci il tuo ID utente, contatta il team del tuo account Adobe.
+
+   1. Fai clic su **Salva**.
+
+1. Crea una nuova regola (ad esempio, &quot;form_completes&quot;) per attivare il tag di conversione Ricerca, Social e Commerce:
+
+   1. Nella sezione Configurazione evento:
+
+      1. Selezionare i valori seguenti:
+
+         **Estensione:** `Core`
+
+         **Tipo evento:** `Library Loaded (Page Top)`
+
+      1. Fai clic su **Mantieni modifiche**.
+
+   1. Nella sezione Configurazione condizione:
+
+      1. Specifica i seguenti valori:
+
+         **Tipo di logica:** `Regular`
+
+         **Estensione:** `Core`
+
+         **Tipo di condizione:** `Path Without Query String`
+
+         **Restituisce true se il percorso è uguale a:** Il percorso in cui deve essere tracciata la conversione (ad esempio, `/form_complete`).
+
+      1. Fai clic su **Mantieni modifiche**.
+
+   1. Nella sezione Configurazione azione:
+
+      1. Specifica i seguenti valori:
+
+         **Estensione:** `Adobe Advertising`
+
+         **Tipo azione:** `AMO Measurement`
+
+         **Nome proprietà di conversione:** Nome della proprietà di conversione, ad esempio `form_completes`.
+
+         **Valore:** Il valore numerico della proprietà di conversione (ad esempio `1` per tenere traccia di form_completes) oppure scegliere un [elemento dati](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements) esistente.
+
+      1. Fai clic su **Mantieni modifiche**.
+
+   1. Salva la regola.
+
+1. Pubblica le modifiche.
 
 >[!MORELIKETHIS]
 >

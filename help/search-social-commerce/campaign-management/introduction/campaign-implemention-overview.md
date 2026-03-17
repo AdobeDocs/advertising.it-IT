@@ -3,18 +3,18 @@ title: Panoramica dell’implementazione di account e campagne di ad network
 description: Scopri le attività necessarie per configurare, sincronizzare e gestire gli account di rete degli annunci.
 exl-id: 36307e65-81f8-4794-8a75-a37623b294ed
 feature: Search Campaign Management
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+source-git-commit: 6014f2dc349286d562f219db7e05279deb96e477
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
 
 # Panoramica dell’implementazione di account e campagne di ad network
 
-Adobe collabora con ogni inserzionista per configurare i suoi account e le sue campagne di rete pubblicitaria. Ciò include la configurazione di Search, Social e Commerce per la connessione e la sincronizzazione con gli account dell’inserzionista, la creazione di nuove campagne e componenti della campagna in base alle esigenze, l’impostazione del tracciamento per gli annunci dei componenti, l’aggiunta facoltativa delle campagne ai portfolio per consentire a Search, Social e Commerce di ottimizzare l’offerta sugli annunci e la convalida dei dati iniziali su costo, clic e ricavo.
+Adobe collabora con ogni inserzionista per configurare i suoi account e le sue campagne per la rete di annunci. Ciò include la configurazione di Search, Social e Commerce per la connessione e la sincronizzazione con gli account dell’inserzionista, la creazione di nuove campagne e componenti della campagna in base alle esigenze, l’impostazione del tracciamento per gli annunci dei componenti, l’aggiunta facoltativa delle campagne ai portfolio per consentire a Search, Social e Commerce di ottimizzare l’offerta sugli annunci e la convalida dei dati iniziali su costo, clic e ricavo.
 
-Dopo l’attivazione di una campagna e l’eventuale aggiunta a un portfolio, il team di gestione dell’account Adobe, il team dell’agenzia o l’inserzionista (a seconda dei termini del contratto del livello di servizio) dovranno monitorare ogni campagna e modificare i componenti e le impostazioni rilevanti in base alle necessità per soddisfare gli obiettivi dell’inserzionista.
+Dopo l’attivazione e l’eventuale aggiunta di una campagna a un portfolio, il team di gestione account di Adobe, il team dell’agenzia o l’inserzionista (a seconda dei termini di service level agreement) dovranno monitorare ogni campagna e modificare i componenti e le impostazioni rilevanti in base alle esigenze per soddisfare gli obiettivi dell’inserzionista.
 
 Questa pagina include informazioni su tutti i tipi di account, inclusa la modalità di impostazione della struttura delle campagne per gli account sincronizzati. Per ulteriori istruzioni sulla configurazione di account di sola verifica per [!DNL Naver], vedere &quot;[Implementare [!DNL Naver] account di sola verifica](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md).&quot;
 
@@ -50,9 +50,9 @@ Questa pagina include informazioni su tutti i tipi di account, inclusa la modali
 
    1. ([!DNL Naver] solo account di sola verifica) Carica [file bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) con dati per replicare campagne, gruppi di annunci e parole chiave esistenti in Search, Social e Commerce senza pubblicarli in [!DNL Naver].
 
-1. Imposta il tracciamento per tutti gli annunci per i quali l’Adobe Advertising terrà traccia delle conversioni:
+1. Imposta il tracciamento per tutti gli annunci per i quali Adobe Advertising terrà traccia delle conversioni:
 
-   1. (Per gli inserzionisti con il servizio di monitoraggio delle conversioni di Adobe Advertising) Se necessario, [imposta il monitoraggio dei clic](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) per gli annunci e, facoltativamente, per parole chiave, posizionamenti ed estensioni di annunci, generando e caricando URL di monitoraggio dei clic di Search, Social e Commerce.
+   1. (Per gli inserzionisti che utilizzano il servizio di monitoraggio delle conversioni di Adobe Advertising) Se necessario, [configura il monitoraggio dei clic](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) per gli annunci e, facoltativamente, per parole chiave, posizionamenti ed estensioni di annunci, generando e caricando URL di monitoraggio dei clic di Search, Social e Commerce.
 
       Per [!DNL Google Ads] campagne con prestazione massima, imposta tutto il tracciamento nelle [impostazioni di tracciamento della campagna](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).
 
@@ -60,13 +60,13 @@ Questa pagina include informazioni su tutti i tipi di account, inclusa la modali
 
    1. Imposta il tracciamento delle conversioni. A seconda dell’implementazione, ciò può comportare l’aggiunta di tag di tracciamento della conversione alle pagine web dell’inserzionista e/o l’impostazione di un rilascio giornaliero di feed per i dati di conversione raccolti separatamente dall’inserzionista.
 
-      Se utilizzi il servizio di monitoraggio delle conversioni di Adobe Advertising, puoi generare i tag di monitoraggio delle conversioni [in Search, Social e Commerce](/help/search-social-commerce/tools/conversion-tag-generate.md) o [utilizzando Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html?lang=it).
+      Se utilizzi il servizio di tracciamento delle conversioni di Adobe Advertising, puoi [generare tag di tracciamento delle conversioni](/help/search-social-commerce/tools/conversion-tag-generate.md) in Search, Social e Commerce o utilizzare [tag di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html) (precedentemente noto come Adobe Experience Platform Launch).
 
    1. Convalida i dati tracciati.
 
    Per ulteriori dettagli sulla configurazione del tracciamento, consulta il capitolo su &quot;Tracciamento&quot;.
 
-1. (Inserzionisti con Adobe Analytics) [Integra Adobe Advertising e Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=it) in modo che possano scambiare dati.
+1. (Inserzionisti con Adobe Analytics) [Integra Adobe Advertising e Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) in modo che possano scambiare dati.
 
 1. (Per consentire a Search, Social e Commerce di ottimizzare le offerte, il budget delle campagne e/o gli obiettivi della strategia di offerta delle campagne; [solo i tipi di campagna supportati](/help/search-social-commerce/introduction/supported-inventory.md)) [Assegna la campagna a un portfolio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 
