@@ -3,7 +3,7 @@ title: Creare più annunci di terze parti
 description: Scopri come creare più annunci di terze parti contemporaneamente.
 feature: DSP Ads
 exl-id: be7c1cc4-3c17-4e37-aae7-c8601d2222a0
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 0%
@@ -77,5 +77,5 @@ Puoi creare fino a 500 annunci di terze parti alla volta caricando tag che punta
 >* [Informazioni Sulla Gestione Degli Annunci](ad-about.md)
 >* [Specifiche annuncio](ad-specs.md)
 >* [Crea un annuncio singolo](ad-create.md)
->* [Video: come caricare in blocco tag di annunci di terze parti](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html?lang=it)
+>* [Video: come caricare in blocco tag di annunci di terze parti](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
 >* [Domande frequenti sul video universale](/help/dsp/campaign-management/faq-universal-video.md)

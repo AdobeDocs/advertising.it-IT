@@ -3,7 +3,7 @@ title: Allega e rimuovi annunci dai posizionamenti
 description: Scopri come allegare annunci ai posizionamenti e rimuovere annunci dai posizionamenti.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 72306c4cd44abe093fd9db0dabd5a8b5dde5dd4d
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Puoi allegare e rimuovere annunci dai posizionamenti.
 
 1. Fare clic su **[!UICONTROL Attach Selected Ads]**.
 
-## Allega un annuncio ai posizionamenti dalla vista [!UICONTROL Ads] {#attach-ads}
+## Allega un annuncio ai posizionamenti dalla visualizzazione [!UICONTROL Ads] {#attach-ads}
 
 1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 

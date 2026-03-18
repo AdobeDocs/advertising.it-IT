@@ -3,7 +3,7 @@ title: Duplicare un annuncio
 description: Scopri come duplicare un annuncio.
 feature: DSP Ads
 exl-id: 030ce258-750c-4c5f-ae89-32dfb2864189
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 0%
@@ -30,11 +30,11 @@ Puoi duplicare un annuncio all’interno della stessa campagna.
 
 1. Fare clic su **[!UICONTROL Save & Submit for Review]**.
 
-   La [revisione dell&#39;annuncio](ad-about.md) per il nuovo annuncio richiede 24-48 ore e include controlli per le categorie sensibili, funzionalità URL su clic e rendering dell&#39;anteprima. La colonna [!UICONTROL Status] indica se l&#39;DSP ha approvato l&#39;annuncio. Gli annunci interrotti possono avere uno stato in sospeso per più di 24-48 ore, pertanto hai il tempo di correggere gli errori prima che vengano rifiutati.
+   La [revisione dell&#39;annuncio](ad-about.md) per il nuovo annuncio richiede 24-48 ore e include controlli per le categorie sensibili, funzionalità URL su clic e rendering dell&#39;anteprima. La colonna [!UICONTROL Status] indica se DSP ha approvato l’annuncio. Gli annunci interrotti possono avere uno stato in sospeso per più di 24-48 ore, pertanto hai il tempo di correggere gli errori prima che vengano rifiutati.
 
    >[!NOTE]
    >
-   >Il tuo annuncio può essere servito solo se sia l&#39;DSP che la SSP hanno approvato il contenuto creativo. Ciascuna SSP ha i propri requisiti e la propria procedura di approvazione.
+   >L&#39;annuncio può essere distribuito solo dopo l&#39;approvazione del piano creativo da parte di DSP e del provider di servizi condivisi. Ciascuna SSP ha i propri requisiti e la propria procedura di approvazione.
 
 >[!MORELIKETHIS]
 >

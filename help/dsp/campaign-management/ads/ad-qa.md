@@ -1,16 +1,16 @@
 ---
-title: Rivedere e modificare i dettagli dell’annuncio utilizzando i bulksheet
+title: Rivedere e modificare i dettagli degli annunci tramite i bulksheet
 description: Scopri come rivedere le impostazioni degli annunci in blocco utilizzando i fogli di calcolo.
 feature: DSP Ads
 exl-id: a223d4e1-2264-49fa-8579-817e7ea6ea56
-source-git-commit: 4ae53bfc362f752b994ee4d4a62c8c1aa1a1e775
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
 
 ---
 
-# Rivedere e modificare i dettagli dell’annuncio utilizzando i bulksheet
+# Rivedere e modificare i dettagli degli annunci tramite i bulksheet
 
 <!-- I should probably change this filename and get __?__ to set up a redirect from the old file to the new file. -->
 
@@ -23,7 +23,7 @@ Per modificare i dettagli dell&#39;annuncio, vedere &quot;[Rivedere e modificare
 >*Per modificare le impostazioni dei singoli annunci, vedere anche &quot;[Modifica un annuncio](/help/dsp/campaign-management/ads/ad-edit.md)&quot;.
 >*Per cambiare i pixel di tracciamento di terze parti per più annunci contemporaneamente o per allegare annunci ai posizionamenti, vedi anche &quot;[Allega annunci ai posizionamenti](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)&quot;.
 
-## Dettagli del download per tutti gli annunci di una campagna
+## Scaricare i dettagli per tutti gli annunci di una campagna
 
 1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 

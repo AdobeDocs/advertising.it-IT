@@ -3,7 +3,7 @@ title: Supporto per l’attivazione di ID universali
 description: Scopri come importare i segmenti ID universali, creare segmenti personalizzati per monitorare gli ID universali e convertire altri identificatori utente nei segmenti di prime parti in ID universali per il targeting senza cookie.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 202f4ae8e6633672b7af12937f0b35da5052f7fc
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '1500'
 ht-degree: 0%
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 *funzionalità Beta*
 
-L’DSP supporta ID universali basati sulle persone per il targeting senza cookie a dispositivo singolo (non tra dispositivi) tra i formati digitali supportati dall’DSP.
+DSP supporta ID universali basati su persone per il targeting senza cookie a dispositivo singolo (non tra dispositivi) tra i formati digitali supportati da DSP.
 
-* È possibile inviare manualmente il [[!DNL LiveRamp] [!DNL RampIDs]] autenticato direttamente all&#39;DSP utilizzando il dashboard [!DNL LiveRamp] [!DNL Connect]. Vedi &quot;[Importa manualmente segmenti autenticati da [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md).&quot;
+* È possibile inviare manualmente i [[!DNL LiveRamp] [!DNL RampIDs]] autenticati direttamente a DSP utilizzando il dashboard [!DNL LiveRamp] [!DNL Connect]. Vedi &quot;[Importa manualmente segmenti autenticati da [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md).&quot;
 
-* DSP può acquisire i segmenti di prime parti composti da ID e-mail con hash generati nella tua piattaforma di dati cliente (CDP) e convertirli in [!DNL LiveRamp] [!DNL RampIDs] e [!DNL Unified ID 2.0 (UID2.0)] ID. Per ulteriori informazioni sulle piattaforme dati del cliente supportate, sulle funzionalità disponibili per ogni tipo di ID universale supportato e sui flussi di lavoro correlati, vedi &quot;[Informazioni sulle origini del pubblico di prime parti](/help/dsp/audiences/sources/source-about.md)&quot;.
+* DSP può acquisire i segmenti di prime parti composti da ID e-mail con hash generati nel tuo Customer Data Platform (CDP) e convertirli in [!DNL LiveRamp] [!DNL RampIDs] e [!DNL Unified ID 2.0 (UID2.0)] ID. Per ulteriori informazioni sulle piattaforme dati del cliente supportate, sulle funzionalità disponibili per ogni tipo di ID universale supportato e sui flussi di lavoro correlati, vedi &quot;[Informazioni sulle origini del pubblico di prime parti](/help/dsp/audiences/sources/source-about.md)&quot;.
 
 * Puoi creare segmenti personalizzati che tengono traccia degli utenti associati agli ID universali ID5 esposti agli annunci da dispositivi desktop e mobili e che visitano specifiche pagine web. ID5 utilizza un modello probabilistico per assegnare un ID derivato da vari segnali utente e del browser. Per istruzioni, consulta &quot;[Creare e implementare un segmento personalizzato](/help/dsp/audiences/custom-segment-create.md).&quot;
 
@@ -72,7 +72,7 @@ Consulta &quot;[Impostazioni posizionamento](/help/dsp/campaign-management/place
 
 Utilizza le seguenti best practice per i segmenti basati su [!DNL RampID] e per i segmenti basati su ID5, per i quali è disponibile la misurazione Adobe Analytics.
 
-* Circa 24 ore dopo l&#39;attivazione di un segmento, controlla il conteggio degli ID convertiti per il segmento entro [!UICONTROL Audiences] > [!UICONTROL All Audiences]. Se il conteggio ID non è previsto, contatta il team dell’account Adobe.
+* Circa 24 ore dopo l&#39;attivazione di un segmento, controlla il conteggio degli ID convertiti per il segmento entro [!UICONTROL Audiences] > [!UICONTROL All Audiences]. Se il conteggio ID è imprevisto, contatta il team del tuo account Adobe.
 
   Consulta &quot;[Varianze di dati tra ID e-mail e ID universali](#universal-ids-data-variances)&quot; per ulteriori informazioni sulle possibili variazioni dei conteggi dei segmenti.
 
@@ -100,9 +100,9 @@ Utilizza le seguenti best practice per i segmenti basati su [!DNL RampID] e per 
 
 ### Livelli accettabili di varianza
 
-Il tasso di conversione degli indirizzi e-mail con hash in ID universali deve essere superiore al 90%; il tasso di traduzione per [!DNL RampIDs] in particolare deve essere del 95% se tutti gli indirizzi e-mail con hash sono univoci. Ad esempio, se invii 100 indirizzi e-mail con hash dalla piattaforma dati del cliente, questi devono essere tradotti in almeno 95 [!DNL RampIDs] o più di altri tipi di ID universali. Un tasso di traduzione più basso può indicare un problema. Per possibili spiegazioni, vedere &quot;[Cause della varianza] (#universal-ids-data-variances-causes&quot;.
+Il tasso di conversione degli indirizzi e-mail con hash in ID universali deve essere superiore al 90%; il tasso di traduzione per [!DNL RampIDs] in particolare deve essere del 95% se tutti gli indirizzi e-mail con hash sono univoci. Ad esempio, se invii 100 indirizzi e-mail con hash dalla piattaforma dati del cliente, questi devono essere tradotti in almeno 95 [!DNL RampIDs] o più di altri tipi di ID universali. Un tasso di traduzione più basso può indicare un problema. Per possibili spiegazioni, vedere &quot;[Cause della varianza]&#x200B;(#universal-ids-data-variances-causes&quot;.
 
-Per [!DNL RampIDs], contatta il tuo Account Team Adobe per ulteriori indagini se i tassi di traduzione sono inferiori al 70%.
+Per [!DNL RampIDs], contatta il tuo account team Adobe per ulteriori indagini se le percentuali di traduzione sono inferiori al 70%.
 
 ### Cause della varianza {#universal-ids-data-variances-causes}
 
@@ -112,9 +112,9 @@ Per [!DNL RampIDs], contatta il tuo Account Team Adobe per ulteriori indagini se
 
 * ID e-mail con hash tradotti in [!DNL RampIDs]:
 
-   * Quando più profili utilizzano lo stesso ID e-mail, il conteggio dei segmenti DSP può essere inferiore al conteggio dei profili nella piattaforma di dati del cliente. Ad esempio, in Adobe Photoshop puoi creare un account aziendale e un account personale utilizzando un singolo ID e-mail. Ma se entrambi i profili appartengono alla stessa persona, allora i profili vengono mappati a un ID e-mail e in modo corrispondente a un [!DNL RampID].
+   * Quando più profili utilizzano lo stesso ID e-mail, il conteggio dei segmenti di DSP può essere inferiore al conteggio dei profili all’interno della piattaforma dati del cliente. Ad esempio, in Adobe Photoshop puoi creare un account aziendale e un account personale utilizzando un singolo ID e-mail. Ma se entrambi i profili appartengono alla stessa persona, allora i profili vengono mappati a un ID e-mail e in modo corrispondente a un [!DNL RampID].
 
-   * È possibile aggiornare [!DNL RampID] a un nuovo valore. Se [!DNL LiveRamp] non riconosce un ID e-mail o non può mapparlo su un [!DNL RampID] esistente nel suo database, assegna un nuovo [!DNL RampID] all&#39;ID e-mail. In futuro, quando sarà possibile mappare l&#39;ID e-mail a un altro [!DNL RampID] o raccogliere ulteriori informazioni sullo stesso ID e-mail, aggiornerà [!DNL RampID] a un nuovo valore. [!DNL LiveRamp] fa riferimento a questa azione come aggiornamento da un [!DNL RampID] &quot;derivato&quot; a un [!DNL RampID] &quot;mantenuto&quot;. Tuttavia, l&#39;DSP non riceve mappature tra [!DNL RampIDs] derivato e mantenuto e pertanto non può rimuovere la versione precedente del RampID dal segmento DSP. In questo caso, il conteggio dei segmenti può essere maggiore del conteggio dei profili.
+   * È possibile aggiornare [!DNL RampID] a un nuovo valore. Se [!DNL LiveRamp] non riconosce un ID e-mail o non può mapparlo su un [!DNL RampID] esistente nel suo database, assegna un nuovo [!DNL RampID] all&#39;ID e-mail. In futuro, quando sarà possibile mappare l&#39;ID e-mail a un altro [!DNL RampID] o raccogliere ulteriori informazioni sullo stesso ID e-mail, aggiornerà [!DNL RampID] a un nuovo valore. [!DNL LiveRamp] fa riferimento a questa azione come aggiornamento da un [!DNL RampID] &quot;derivato&quot; a un [!DNL RampID] &quot;mantenuto&quot;. Tuttavia, DSP non riceve mappature tra [!DNL RampIDs] derivato e gestito e pertanto non può rimuovere la versione precedente del RampID dal segmento DSP. In questo caso, il conteggio dei segmenti può essere maggiore del conteggio dei profili.
 
      Esempio: un utente accede al sito Web [!DNL Adobe] e visita la pagina Photoshop. Se [!DNL LiveRamp] non ha informazioni esistenti sull&#39;ID e-mail, gli assegna un [!DNL RampID] derivato, ad esempio D123. Quindici giorni dopo, l&#39;utente visita la stessa pagina, ma [!DNL LiveRamp] ha aggiornato [!DNL RampID] durante questi 15 giorni e ha riassegnato [!DNL RampID] a M123. Anche se il segmento &quot;Photoshop Enthusiast&quot; della piattaforma di dati cliente ha un solo ID e-mail per l’utente, il segmento DSP ha due RampID: D123 e M123.
 

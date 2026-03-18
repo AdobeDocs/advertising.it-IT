@@ -3,7 +3,7 @@ title: Informazioni sulla gestione degli annunci in Advertising DSP
 description: Informazioni sulla gestione degli annunci.
 feature: DSP Ads
 exl-id: 41dbe28e-a476-4601-a3d8-a9111eae3f6b
-source-git-commit: e9ce180e302f619c85a3d6db813c83903e437d04
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 <!-- add "The Ads View (Dashboard?)" section -->
 
-L’DSP supporta la distribuzione degli annunci tramite tag di terze parti per la gestione degli annunci (ad esempio Google, Flashtalk o Sizmek) per vari tipi di annunci e il caricamento diretto delle risorse per gli annunci display nativi. Puoi caricare tag di terze parti singolarmente o in blocco. I caricamenti in blocco utilizzano fogli di tag partner o un modello di tag in blocco.
+DSP supporta la consegna degli annunci tramite tag di terze parti per la gestione degli annunci (come Google, Flashtalk o Sizmek) per vari tipi di annunci e il caricamento diretto delle risorse per gli annunci display nativi. Puoi caricare tag di terze parti singolarmente o in blocco. I caricamenti in blocco utilizzano fogli di tag partner o un modello di tag in blocco.
 
 <!-- The bulk upload feature requires you to either a) upload DoubleClick and Flashtalking tag sheets or b) download a template, input your tags into the template, and then re-upload the template. -->
 <!-- need a list of all supported third-party ad servers; see file in future-tbd folder -->
@@ -23,11 +23,11 @@ Una volta configurati gli annunci, allega ogni annuncio a uno o più posizioname
 
 ## Tipi di annunci disponibili {#ad-types}
 
-Tutti i seguenti tipi di annunci sono disponibili nell’DSP. Per le specifiche complete per ogni tipo di annuncio, consulta le [Specifiche annuncio](ad-specs.md).
+Tutti i seguenti tipi di annunci sono disponibili in DSP. Per le specifiche complete per ogni tipo di annuncio, consulta le [Specifiche annuncio](ad-specs.md).
 
 * **Annunci audio (solo di terze parti)**: gli annunci audio vengono riprodotti tra contenuti di siti di editori digitali e possono essere eseguiti come file audio autonomi o con banner correlati. L’audio è ideale per promuovere la brand awareness e coinvolgere il pubblico in movimento. Gli indicatori di prestazioni chiave per l&#39;audio includono [!UICONTROL Completion Rate] e [!UICONTROL Cost per Completion].
 
-* **Annunci visualizzati (solo di terze parti)**: gli annunci visualizzati sono immagini animate o statiche visualizzate nei browser Web o nelle app. Facendo clic sull’unità pubblicitaria, l’utente viene indirizzato a un sito o a un microsito con marchio. La visualizzazione è ideale per promuovere CPM efficienti, aumentare l’associazione dei messaggi, aggiungere ulteriori punti di contatto per marchi o prodotti e indirizzare gli utenti verso il basso nel funnel di acquisto. Gli indicatori di prestazioni chiave per la visualizzazione includono [!UICONTROL Clicks], [!UICONTROL Cost per Click], [!UICONTROL Conversions] e [!UICONTROL Cost per Conversion]. L&#39;DSP supporta un&#39;ampia varietà di banner pubblicitari.
+* **Annunci visualizzati (solo di terze parti)**: gli annunci visualizzati sono immagini animate o statiche visualizzate nei browser Web o nelle app. Facendo clic sull’unità pubblicitaria, l’utente viene indirizzato a un sito o a un microsito con marchio. La visualizzazione è ideale per promuovere CPM efficienti, aumentare l’associazione dei messaggi, aggiungere ulteriori punti di contatto per il marchio o il prodotto e spingere gli utenti verso il basso il funnel di acquisto. Gli indicatori di prestazioni chiave per la visualizzazione includono [!UICONTROL Clicks], [!UICONTROL Cost per Click], [!UICONTROL Conversions] e [!UICONTROL Cost per Conversion]. DSP supporta un&#39;ampia varietà di banner e dimensioni pubblicitarie.
 
 * **Annunci per dispositivi mobili (solo di terze parti)**: gli annunci per dispositivi mobili possono essere in formato video pre-roll (VAST, MRAID) o di visualizzazione standard. Il video mobile pre-roll può essere riprodotto automaticamente o con un clic per essere riprodotto ed è meglio utilizzato per raggiungere gli spettatori attraverso gli schermi. La visualizzazione standard per dispositivi mobili è un’immagine statica visualizzata nei browser web o nelle app mobili ed è ideale per integrare gli acquisti di video digitali, promuovere l’associazione dei messaggi e aggiungere ulteriori punti di contatto di branding o prodotti. Gli annunci per dispositivi mobili possono anche funzionare come rilevamenti a schermo intero o come interstiziali mobili, ovvero annunci mobili a schermo intero e ad alto impatto che vengono utilizzati meglio per sviluppare la brand awareness per il pubblico mobile e stimolare le conversioni.
 
@@ -45,17 +45,17 @@ Tutti i seguenti tipi di annunci sono disponibili nell’DSP. Per le specifiche 
 
 ## Approvazioni di annunci DSP
 
-Quando crei un annuncio, l’DSP lo esamina per individuare le categorie sensibili, fai clic su Funzionalità URL e visualizza l’anteprima del rendering.
+Quando crei un annuncio, DSP lo rivede per le categorie sensibili, fai clic su Funzionalità URL e visualizza l’anteprima del rendering.
 
 Inizialmente, la colonna [!UICONTROL Status] dell&#39;annuncio mostra un punto rosso. Il processo di revisione richiede normalmente 24-48 ore. Un annuncio interrotto, tuttavia, potrebbe avere uno stato in sospeso per più di 48 ore, pertanto hai il tempo di correggere gli errori prima che l’annuncio venga rifiutato. Gli annunci rifiutati includono un motivo del rifiuto.
 
-Quando l’DSP approva un annuncio, la colonna Stato dell’annuncio mostra un punto verde.
+Quando DSP approva un annuncio, nella colonna Stato dell’annuncio viene visualizzato un punto verde.
 
 ![indicatore di approvazione in [!UICONTROL Status] colonna](/help/dsp/assets/ad-approval-status.png)
 
 >[!NOTE]
 >
->Il tuo annuncio può essere servito solo se sia l&#39;DSP che la SSP hanno approvato il contenuto creativo. Ciascuna SSP ha i propri requisiti e la propria procedura di approvazione.
+>L&#39;annuncio può essere distribuito solo dopo l&#39;approvazione del piano creativo da parte di DSP e del provider di servizi condivisi. Ciascuna SSP ha i propri requisiti e la propria procedura di approvazione.
 
 >[!MORELIKETHIS]
 >

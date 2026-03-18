@@ -3,7 +3,7 @@ title: Modificare un annuncio
 description: Scopri come modificare un annuncio.
 feature: DSP Ads
 exl-id: 149eeb61-b4d1-4c88-8dcd-ad11e135a486
-source-git-commit: c97fcf61f444ab3363d9d55398402ec9f162be99
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 0%
@@ -32,11 +32,11 @@ ht-degree: 0%
 
 1. Fare clic su **[!UICONTROL Save and Close]**.
 
-   L&#39;annuncio modificato viene sottoposto a una nuova [revisione dell&#39;annuncio](ad-about.md), che richiede 24-48 ore e include verifiche per le categorie sensibili, fare clic su Funzionalità URL e rendering dell&#39;anteprima. La colonna [!UICONTROL Status] indica se l&#39;DSP ha approvato l&#39;annuncio. Gli annunci interrotti possono avere uno stato in sospeso per più di 24-48 ore, pertanto hai il tempo di correggere gli errori prima che vengano rifiutati.
+   L&#39;annuncio modificato viene sottoposto a una nuova [revisione dell&#39;annuncio](ad-about.md), che richiede 24-48 ore e include verifiche per le categorie sensibili, fare clic su Funzionalità URL e rendering dell&#39;anteprima. La colonna [!UICONTROL Status] indica se DSP ha approvato l’annuncio. Gli annunci interrotti possono avere uno stato in sospeso per più di 24-48 ore, pertanto hai il tempo di correggere gli errori prima che vengano rifiutati.
 
    >[!NOTE]
    >
-   >Il tuo annuncio può essere servito solo se sia l&#39;DSP che la SSP hanno approvato il contenuto creativo. Ciascuna SSP ha i propri requisiti e la propria procedura di approvazione.
+   >L&#39;annuncio può essere distribuito solo dopo l&#39;approvazione del piano creativo da parte di DSP e del provider di servizi condivisi. Ciascuna SSP ha i propri requisiti e la propria procedura di approvazione.
 
 >[!MORELIKETHIS]
 >

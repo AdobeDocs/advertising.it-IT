@@ -2,7 +2,8 @@
 title: Allega e rimuovi pixel dagli annunci
 description: Scopri come allegare e rimuovere i pixel di tracciamento di terze parti dagli annunci.
 feature: DSP Ads
-source-git-commit: a3bd04da6c6f428fdb6e1f05187ea3de0174c9d7
+exl-id: 7b386a58-5300-49cf-9de8-4ce982a5181d
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 0%
@@ -91,7 +92,7 @@ Puoi collegare e scollegare dagli annunci i pixel di tracciamento di terze parti
 
 1. (Facoltativo) Per tornare alle visualizzazioni dettagli campagna, fai clic su ![Torna alla cartella](/help/dsp/assets/breadcrumb-return.png "Torna alla cartella") a sinistra di [!UICONTROL Ad Tools] e seleziona il nome della campagna.
 
-## Pixel di visualizzazione allegati agli annunci {#view-pixels-ads}
+## Visualizzare i pixel allegati agli annunci {#view-pixels-ads}
 
 1. [Aprire la visualizzazione [!UICONTROL Ad Tools]](#ad-tools-open).
 
@@ -119,4 +120,3 @@ Puoi collegare e scollegare dagli annunci i pixel di tracciamento di terze parti
 >* [Elenca i posizionamenti associati a un annuncio](ad-list-placements.md)
 >* [Modifica gli Schedules per i posizionamenti](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
 >* [Domande frequenti sul video universale](/help/dsp/campaign-management/faq-universal-video.md)
-
