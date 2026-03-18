@@ -1,15 +1,16 @@
 ---
-title: Informazioni sui report personalizzati
+title: Informazioni sui rapporti personalizzati
 description: Scopri le opzioni per la creazione di rapporti personalizzati.
 feature: Creative Reporting
-source-git-commit: eeeee0404c82bd98d37d4275cbef8e0e12fb4b13
+exl-id: d52a2761-5e50-4a38-a9e1-141e962f1166
+source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 0%
 
 ---
 
-# Informazioni sui report personalizzati
+# Informazioni sui rapporti personalizzati
 
 I rapporti personalizzati ti consentono di personalizzare il contenuto e la consegna dei dati dei rapporti utilizzando le metriche che ti interessano di più.
 

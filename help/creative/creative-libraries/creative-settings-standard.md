@@ -3,7 +3,7 @@ title: Impostazioni creative standard
 description: Fai riferimento alle impostazioni per le creatività standard.
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: 8a304eb74549ca1a81257e9f672d311d39987b79
+source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
 workflow-type: tm+mt
 source-wordcount: '2106'
 ht-degree: 0%
@@ -88,7 +88,7 @@ Per sostituire il modello di annuncio esistente:
 
 ## Impostazioni creative di HTML5 {#creative-settings-html5}
 
-## Scheda Dettagli
+### Scheda Dettagli
 
 Per i nuovi creativi, le seguenti impostazioni non si trovano in una scheda denominata.
 

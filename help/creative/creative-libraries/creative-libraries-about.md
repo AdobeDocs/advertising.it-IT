@@ -3,9 +3,9 @@ title: Informazioni sulle librerie creative
 description: Scopri come gestire i creativi delle esperienze pubblicitarie.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 0a3da41d51ffc0b9df1e264485bfbb966780eb84
+source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
 workflow-type: tm+mt
-source-wordcount: '1587'
+source-wordcount: '1586'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ Le librerie possono includere:
 
 * **Pacchetti creatività:** raggruppa i creativi in bundle da utilizzare in più esperienze con target utente definiti. Puoi creare *bundle di visualizzazione standard* costituiti da annunci di visualizzazione standard, *bundle video standard* costituiti da annunci video standard, *bundle di visualizzazione dinamici* costituiti da annunci di visualizzazione generati dinamicamente e *bundle video dinamici* costituiti da annunci video generati dinamicamente.
 
-## Formati Creative supportati {#creative-creative-formats}
+## Formati creativi supportati {#creative-creative-formats}
 
 ### Formati per creatività standard
 
-Puoi aggiungere e gestire i seguenti tipi di creatività nelle [dimensioni di creatività supportate](creative-sizes.md).
+Puoi aggiungere e gestire i seguenti tipi di creatività nelle [Dimensioni di creatività supportate](creative-sizes.md).
 
 >[!IMPORTANT]
 >
@@ -51,7 +51,7 @@ Gli annunci display standard includono:
 
 ##### Creatività di HTML5
 
-* **Esperienze GenStudio:** è possibile importare tutte le varianti di annunci da una [esperienza di visualizzazione](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences) in [GenStudio for Performance Marketing](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/home) come singole creative di HTML5. I collegamenti esterni vengono convertiti in riferimenti locali. Il contenuto del HTML può essere fino a 20 MB e le singole immagini fino a 50 MB.
+* **Esperienze GenStudio:** è possibile importare tutte le varianti di annunci da una [esperienza di visualizzazione](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences) in [GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) come singole creative di HTML5. I collegamenti esterni vengono convertiti in riferimenti locali. Il contenuto del HTML può essere fino a 20 MB e le singole immagini fino a 50 MB.
 
   Dopo aver importato un’esperienza GenStudio, puoi modificare i metadati (nome, lingua, tag) per la creatività importata, ma non per il contenuto creativo. Se si modifica l&#39;esperienza GenStudio in GenStudio, reimportare l&#39;esperienza in [!DNL Creative] per utilizzare la versione più recente.
 
@@ -79,7 +79,7 @@ Immetti i tag di tracciamento di JavaScript per i creativi in hosting su server 
 
 È possibile caricare creativi video di prime parti per il Web, i dispositivi mobili o la TV connessa dal dispositivo o dalla rete. Ogni esperienza di annuncio video richiede una creatività video predefinita per ogni durata creativa assegnata all’esperienza. DSP transcodifica automaticamente tutti i contenuti video creati come tag VAST 2.0 per consentirti di visualizzarli in anteprima. In [!UICONTROL Tag Manager], puoi facoltativamente [applicare la transcodifica specifica di DSP](/help/creative/experiences/experience-tag-video-transcoding.md) a qualsiasi tag esperienza annuncio video.
 
-Consulta i seguenti requisiti creativi per il video. **Nota:** per il caricamento di esperienze video in Advertising DSP, vedi anche [Requisiti DSP per Assets video ad alta definizione](https://experienceleague.adobe.com/it/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), che potrebbero essere più limitati.
+Consulta i seguenti requisiti creativi per il video. **Nota:** per il caricamento di esperienze video in Advertising DSP, vedi anche [Requisiti DSP per Assets video ad alta definizione](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), che potrebbero essere più limitati.
 
 **Tipo file:** .mov, .mp4, .webm
 
@@ -216,6 +216,6 @@ La visualizzazione [!UICONTROL Bundles] mostra tutti i contenitori di bundle sta
 >[!MORELIKETHIS]
 >
 >* [Gestisci librerie creative](/help/creative/creative-libraries/creative-library-manage.md)
->* [Aggiungere creatività standard a una libreria creativa](creative-add-standard.md)
+>* [Aggiungere creatività standard a una libreria](creative-add-standard.md)
 >* [Gestione dei bundle creativi](bundle-manage.md)
 >* [Personalizza le visualizzazioni dati](/help/creative/introduction/customize-data-views.md)
