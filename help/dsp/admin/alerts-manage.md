@@ -1,18 +1,18 @@
 ---
-title: Gestire le sottoscrizioni agli avvisi
+title: Gestire gli abbonamenti agli avvisi
 description: Scopri come gestire gli avvisi e-mail automatici.
 role: User, Admin
 exl-id: 9f47aa2a-54c4-4fdc-b289-6c3586cc18e6
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
 
 ---
 
-# Gestire le sottoscrizioni agli avvisi
+# Gestire gli abbonamenti agli avvisi
 
-## Aggiungi un abbonamento
+## Aggiungere una sottoscrizione
 
 1. Nel menu principale, fare clic su **[!UICONTROL Settings]** > **[!UICONTROL Notifications]**.
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
       Le impostazioni variano in base al tipo di avviso.
 
-   1. (Facoltativo) Per eseguire immediatamente l&#39;avviso, selezionare **[!UICONTROL Alert immediately]**. Per impostazione predefinita, l’avviso viene eseguito alle 08:00 nel fuso orario dell’account.
+   1. (Facoltativo) Per eseguire immediatamente l&#39;avviso, selezionare **[!UICONTROL Alert immediately]**. Per impostazione predefinita, l&#39;avviso viene eseguito alle ore 08:00 nel fuso orario dell&#39;account.
 
    1. (Facoltativo) Per aggiungere un avviso aggiuntivo alla sottoscrizione, fare clic su **[!UICONTROL Add Alert]** e creare l&#39;avviso.
 

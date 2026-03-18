@@ -2,7 +2,7 @@
 title: Impostazioni account inserzionista
 description: Consulta le descrizioni delle impostazioni pubblicitarie disponibili.
 role: User, Admin
-source-git-commit: 1f8a76e060612cdcc8ee3709bdf49654faf31b57
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 0%
@@ -132,19 +132,19 @@ Filtri di visibilità pre-offerta opzionali di [!DNL DoubleVerify] e [!DNL Integ
 
 ###### Video
 
-**&#x200B; &#x200B;**&#x200B;[!UICONTROL Include URL's whose average video viewability rate is]**. Con questa opzione, seleziona i criteri.
+** **[!UICONTROL Include URL's whose average video viewability rate is]**. Con questa opzione, seleziona i criteri.
 
-**&#x200B; &#x200B;**&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
+** **[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
 
-**&#x200B; &#x200B;**&#x200B;[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. Con questa opzione, seleziona i criteri.
+** **[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. Con questa opzione, seleziona i criteri.
 
-**&#x200B; &#x200B;**&#x200B;[!UICONTROL Include URL's whose average player size composition is]**. Con questa opzione, seleziona i criteri.
+** **[!UICONTROL Include URL's whose average player size composition is]**. Con questa opzione, seleziona i criteri.
 
-**&#x200B; &#x200B;**&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
+** **[!UICONTROL Impressions with Insufficient Player Size Statistics]**
 
 ###### Visualizzazione
 
-**&#x200B; &#x200B;**&#x200B;[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. Con questa opzione, seleziona i criteri.
+** **[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. Con questa opzione, seleziona i criteri.
 
 * **[!UICONTROL Impressions with Insufficient IAB Viewability Performance Data]**
 

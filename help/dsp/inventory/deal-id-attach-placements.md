@@ -1,16 +1,16 @@
 ---
-title: Specifica posizionamenti e annunci per un’offerta privata
+title: Specificare posizionamenti e annunci per un’offerta privata
 description: Scopri come utilizzare un’offerta privata con posizionamenti e annunci aggiuntivi.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 09119471-429d-413e-8033-e29e1558abb0
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
 
 ---
 
-# Specifica posizionamenti e annunci per un’offerta privata
+# Specificare posizionamenti e annunci per un’offerta privata
 
 Per le offerte non garantite, è possibile specificare l&#39;offerta come destinazione di magazzino per i nuovi posizionamenti dalla visualizzazione [!UICONTROL Placements].
 
@@ -18,7 +18,7 @@ Per offerte programmatiche garantite (PG), puoi creare posizionamenti con annunc
 
 Puoi anche [allegare annunci ai posizionamenti](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) associati a offerte PG e non garantite in qualsiasi momento.
 
-## Specificare un&#39;operazione non garantita come destinazione di magazzino per un posizionamento
+## Specificare un&#39;offerta non garantita come destinazione di magazzino per un posizionamento
 
 * [Crea un posizionamento dalla visualizzazione [!UICONTROL Placements]](/help/dsp/campaign-management/placements/placement-create.md). Nelle impostazioni [!UICONTROL Inventory Targeting], seleziona l&#39;offerta privata.
 

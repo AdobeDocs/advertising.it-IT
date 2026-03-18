@@ -1,16 +1,16 @@
 ---
-title: Informazioni sulle sottoscrizioni di avvisi
+title: Informazioni sugli abbonamenti agli avvisi
 description: Scopri gli avvisi e-mail automatici.
 role: User, Admin
 exl-id: f3578f10-4f66-4133-a6e0-1ca8001dd2c9
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
 
 ---
 
-# Informazioni sulle sottoscrizioni di avvisi
+# Informazioni sugli abbonamenti agli avvisi
 
 Puoi creare gruppi di avvisi e-mail automatici, denominati abbonamenti, che inviano notifiche e-mail quando vengono soddisfatti parametri specifici di account, campagna, annuncio e operazione di inventario privata.
 

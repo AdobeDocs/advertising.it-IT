@@ -3,9 +3,9 @@ title: Soluzioni multi-dispositivo
 description: Ulteriori informazioni sulle funzioni multi-dispositivo.
 feature: DSP Introduction
 exl-id: d21917ef-5cac-46f8-8222-099667797683
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Quando utilizzi un grafico dei dispositivi basato sulle persone supportato, puoi
 
 * È gratuito per la misurazione della quota limite e dell’attribuzione
 
-* Prezzo di 0,35 CPM per le impression estese (impression distribuite esclusivamente utilizzando il grafico dei dispositivi [!DNL LiveRamp] anziché sui dispositivi presenti nei segmenti di pubblico di destinazione)
+* Prezzo di CPM pari a 0,35 dollari per le impression estese (impression distribuite esclusivamente utilizzando il grafico dei dispositivi [!DNL LiveRamp] anziché sui dispositivi presenti nei segmenti di pubblico di destinazione)
 
   La tariffa si riflette sulla scheda della tariffa del tuo account.
 
@@ -38,7 +38,7 @@ Quando utilizzi un grafico dei dispositivi basato sulle persone supportato, puoi
 
 La gestione della frequenza basata sulle persone consente di specificare i limiti di frequenza a livello di persona, anziché a livello di dispositivo, per un controllo efficace dell&#39;esposizione dei supporti.
 
-### Attiva gestione frequenza basata sulle persone
+### Attivare la gestione della frequenza basata sulle persone
 
 * **Campagne:** Quando si crea una nuova campagna, è possibile specificare un&#39;impostazione [!UICONTROL Cross-Device Level]. Abilitare &quot;[!UICONTROL Same Device]&quot; -> &quot;[!UICONTROL People]&quot; e selezionare un grafico dei dispositivi. Il grafico dei dispositivi specificato viene utilizzato sia per il targeting tra dispositivi a livello di posizionamento che per la gestione della frequenza basata sulle persone a livello di campagna, pacchetto e posizionamento. I limiti di frequenza si applicano a tutti i dispositivi noti di una persona.
 
@@ -46,15 +46,15 @@ Per ulteriori informazioni, vedere [Impostazioni campagna](/help/dsp/campaign-ma
 
 Una volta salvata una campagna, non puoi modificarne l&#39;impostazione [!UICONTROL Cross Device Level].
 
-* **Pacchetti:** Facoltativamente è possibile impostare limiti di frequenza aggiuntivi a livello di pacchetto. L’DSP rispetta il limite di frequenza più severo nella gerarchia delle campagne.
+* **Pacchetti:** Facoltativamente è possibile impostare limiti di frequenza aggiuntivi a livello di pacchetto. DSP rispetta il limite di frequenza più rigoroso nella gerarchia delle campagne.
 
-* **Posizionamenti:** Facoltativamente puoi impostare limiti di frequenza aggiuntivi a livello di posizionamento. L’DSP rispetta il limite di frequenza più severo nella gerarchia delle campagne.
+* **Posizionamenti:** Facoltativamente puoi impostare limiti di frequenza aggiuntivi a livello di posizionamento. DSP rispetta il limite di frequenza più rigoroso nella gerarchia delle campagne.
 
-## Targeting basato su persone
+## Targeting basato sulle persone
 
 Il targeting basato sulle persone consente di trovare i clienti su desktop e dispositivi mobili.
 
-### Attiva targeting basato sulle persone
+### Attivare il targeting basato sulle persone
 
 * **Campagne:** Quando si crea una nuova campagna, è possibile specificare un&#39;impostazione [!UICONTROL Cross-Device Level]. Abilitare &quot;[!UICONTROL Same Device]&quot; -> &quot;[!UICONTROL People]&quot; e selezionare un grafico dei dispositivi. Il grafico dei dispositivi specificato viene utilizzato sia per il targeting tra dispositivi a livello di posizionamento che per la gestione della frequenza basata sulle persone.
 
@@ -76,17 +76,17 @@ Puoi includere le metriche seguenti nei rapporti personalizzati:
 
 ## Misurazione dell’attribuzione basata sulle persone
 
-*Inserzionisti con solo tracciamento conversione Adobe Advertising*
+*Inserzionisti con solo monitoraggio delle conversioni di Adobe Advertising*
 
-Con l’attribuzione basata sulle persone, puoi attribuire le conversioni che hanno avuto luogo su un dispositivo diverso da quello su cui si è verificata l’esposizione multimediale. La misurazione dell&#39;attribuzione basata sulle persone è disponibile in DSP, [!DNL Adobe Advertising Creative] e [!DNL Adobe Advertising Search, Social, & Commerce] per gli inserzionisti che hanno implementato pixel di conversione Adobi Advertising sui loro siti.
+Con l’attribuzione basata sulle persone, puoi attribuire le conversioni che hanno avuto luogo su un dispositivo diverso da quello su cui si è verificata l’esposizione multimediale. La misurazione dell&#39;attribuzione basata sulle persone è disponibile in DSP, [!DNL Adobe Advertising Creative] e [!DNL Adobe Advertising Search, Social, & Commerce] per gli inserzionisti che hanno implementato pixel di conversione Adobe Advertising sui loro siti.
 
-### Abilita misurazione attribuzione basata su persone
+### Abilitare la misurazione dell’attribuzione basata sulle persone
 
-Se desideri attivare la misurazione dell’attribuzione tra dispositivi, contatta il team dell’account di Adobe.
+Se desideri attivare la misurazione dell’attribuzione tra dispositivi, contatta il team del tuo account Adobe.
 
-### Impostare i rapporti di conversione per l&#39;attribuzione della conversione tra dispositivi
+### Configura [!UICONTROL Conversion] rapporti per l&#39;attribuzione della conversione tra dispositivi
 
-#### Impostazioni dei rapporti di conversione
+#### [!UICONTROL Conversion] impostazioni report
 
 Quando un grafo di dispositivi è abilitato per la misurazione dell&#39;attribuzione, il rapporto [!UICONTROL Conversion] include un&#39;impostazione [!UICONTROL Cross-Device Breakout] che consente di includere fino a tre colonne separate per ogni metrica di conversione, tra cui:
 
@@ -96,7 +96,7 @@ Quando un grafo di dispositivi è abilitato per la misurazione dell&#39;attribuz
 
 * &lt;*Conversione*>[!UICONTROL (xd)]: (facoltativo) include solo le conversioni per le quali è stato tracciato più di un dispositivo nel percorso di conversione. Nel report, &quot;[!UICONTROL (xd)]&quot; viene aggiunto al nome della metrica di conversione, al tipo di regola e ai tipi di conversione nel percorso di conversione (ad esempio, &quot;Responses(le)(tl)(xd)).
 
-#### Come interpretare il rapporto di conversione
+#### Come interpretare il report [!UICONTROL Conversion]
 
 Ordinare la percentuale di conversioni totali tra dispositivi ([!UICONTROL (xd)]/[!UICONTROL (tl)]) da alto a basso per capire cosa determina conversioni tra dispositivi superiori alla media. Puoi utilizzarlo per informare la tua strategia creativa o di targeting in modo da abbinare la messaggistica e incanalare gli investimenti al comportamento degli utenti.
 

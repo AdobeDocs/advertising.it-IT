@@ -3,7 +3,7 @@ title: Informazioni su [!UICONTROL Deal ID Inbox]
 description: Scopri la funzione [!UICONTROL Deal ID inbox], che ti consente di accettare offerte private già negoziate con gli editori il [!DNL FreeWheel], [!DNL Google Authorized Buyers] (precedentemente noto come [!DNL AdX]), and [!DNL Magnite DV+] (precedentemente [!DNL Rubicon]).
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: a1ba7de0-d6b4-4e22-8615-3e62d2ffdf5c
-source-git-commit: 394a281c9b9d7eeab939f4c58508ec1f34eba67c
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 0%
@@ -38,7 +38,7 @@ DSP aggiorna automaticamente tutti i dettagli dell&#39;offerta ogni giorno alle 
 >
 >Per le offerte garantite programmatiche tramite [!DNL Google Authorized Buyers], devi fornire almeno il 90% del budget oppure il tuo account perde l&#39;accesso alle offerte di [!DNL Google] in [!UICONTROL Deal ID inbox].
 
-## Implementazione di [!UICONTROL Deal ID Inbox]
+## Implementazione di [!UICONTROL Deal ID inbox]
 
 Per ricevere le offerte in [!UICONTROL Deal ID inbox], gli account del provider di servizi condivisi devono mappare l&#39;account DSP dell&#39;organizzazione all&#39;account del provider di servizi condivisi. DSP può condividere i nomi dei conti dell&#39;organizzazione con i provider di servizi condivisi pertinenti. Contatta il team del tuo account Adobe per istruzioni.
 

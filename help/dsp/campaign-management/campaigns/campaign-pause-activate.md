@@ -3,7 +3,7 @@ title: Sospendere o attivare una campagna
 description: Scopri come mettere in pausa o attivare una campagna live.
 feature: DSP Campaigns
 exl-id: ed199864-8532-411b-b8ea-443ee1c149a2
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Sospendi una campagna in tempo reale o attiva una campagna in pausa se rientra n
 
 Tutti i posizionamenti messi in pausa prima della sospensione di una campagna rimangono in pausa al momento dell’attivazione della campagna.
 
-## Sospendere una campagna
+## Mettere in pausa una campagna
 
 1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 1. Accanto al nome della campagna, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Pause]**.

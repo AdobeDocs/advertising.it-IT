@@ -1,15 +1,15 @@
 ---
-title: Modifica il tuo profilo utente
+title: Modificare il profilo utente
 description: Scopri come modificare il profilo utente.
 exl-id: 8dc15996-db6e-4c37-a919-d0d49e7b8396
-source-git-commit: dea924e00aed1e6a8e778afb3112d9db85cef802
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 0%
 
 ---
 
-# Modifica il tuo profilo utente
+# Modificare il profilo utente
 
 Il tuo profilo account include le credenziali di accesso e altre informazioni. Alcuni ruoli utente possono anche visualizzare informazioni sull’account dell’organizzazione e invitare altre persone a creare account utente nell’account dell’organizzazione.
 

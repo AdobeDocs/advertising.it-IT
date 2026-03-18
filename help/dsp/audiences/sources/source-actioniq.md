@@ -1,8 +1,8 @@
 ---
 title: Converti ID utente da [!DNL ActionIQ] a ID universali
-description: Scopri come consentire all’DSP di acquisire i  [!DNL ActionIQ]  segmenti di prime parti.
+description: Scopri come consentire a DSP di acquisire  [!DNL ActionIQ]  segmenti di prime parti.
 feature: DSP Audiences
-source-git-commit: 91b08bf54f067666c9c27949ff740639738887d0
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 *funzionalità Beta*
 
-Utilizza l&#39;integrazione DSP con la piattaforma dati cliente [!DNL ActionIQ] per convertire i tuoi indirizzi e-mail con hash in ID universali per annunci pubblicitari mirati.
+Utilizza l&#39;integrazione di DSP con la piattaforma dati del cliente [!DNL ActionIQ] per convertire gli indirizzi e-mail con hash in ID universali per annunci pubblicitari mirati.
 
 Sono disponibili <!-- NN --> passaggi per condividere i dati da [!DNL ActionIQ] con DSP:
 
@@ -21,9 +21,9 @@ Sono disponibili <!-- NN --> passaggi per condividere i dati da [!DNL ActionIQ] 
 
 1. ?
 
-## Passaggio 1: creare un’origine di pubblico nell’DSP {#source-create}
+## Passaggio 1: creare un’origine di pubblico in DSP {#source-create}
 
-1. [Crea un&#39;origine pubblico](source-manage.md) per importare i tipi di pubblico nell&#39;account DSP o in un account inserzionista, specificando i [formati ID universali](source-about.md) in cui convertire gli identificatori utente.
+1. [Crea un&#39;origine pubblico](source-manage.md) per importare i tipi di pubblico nel tuo account DSP o in un account inserzionista, specificando i [formati ID universali](source-about.md) in cui desideri convertire gli identificatori utente.
 
 1. Dopo aver creato l&#39;origine del pubblico, condividere la chiave del codice sorgente con l&#39;utente [!DNL ActionIQ].
 
@@ -33,7 +33,7 @@ Sono disponibili <!-- NN --> passaggi per condividere i dati da [!DNL ActionIQ] 
 
 1. Verifica nella libreria del pubblico (disponibile quando crei o modifichi un pubblico da [!UICONTROL Audiences] > [!UICONTROL All Audiences] o nelle impostazioni di posizionamento) che il segmento si stia popolando e confronta il numero di ID universali con il numero di indirizzi e-mail con hash originali.
 
-   I segmenti devono essere disponibili nell’DSP entro 24 ore. Dopo che l’DSP ha ricevuto i dati del segmento, il conteggio del pubblico dovrebbe essere visibile entro nove (9) ore. Per informazioni sulle percentuali di traduzione degli ID accettabili e sul motivo per cui i conteggi dei segmenti possono variare, consulta &quot;[Varianze di dati tra ID e-mail e ID universali](#universal-ids-data-variances).&quot;
+   I segmenti dovrebbero essere disponibili in DSP entro 24 ore. Dopo che DSP ha ricevuto i dati del segmento, il conteggio del pubblico dovrebbe essere visibile entro nove (9) ore. Per informazioni sulle percentuali di traduzione degli ID accettabili e sul motivo per cui i conteggi dei segmenti possono variare, consulta &quot;[Varianze di dati tra ID e-mail e ID universali](#universal-ids-data-variances).&quot;
 
 I segmenti vengono aggiornati ogni 24 ore.
 

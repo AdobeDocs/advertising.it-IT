@@ -3,7 +3,7 @@ title: Visualizzare i pixel di tracciamento per un segmento
 description: Scopri come visualizzare i pixel di tracciamento per un segmento di rinuncia alla vendita personalizzato o CCPA.
 feature: DSP Segments
 exl-id: 3b67ab72-d7bb-45a0-b5ba-e4b811b7d2b3
-source-git-commit: 8e3afe50db8f3d0795838c071a01f3c5688f701f
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%

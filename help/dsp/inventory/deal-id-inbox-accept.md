@@ -3,7 +3,7 @@ title: Accetta un'offerta in [!UICONTROL Deal ID Inbox]
 description: Scopri come accettare un'offerta privata già negoziata con un editore su [!DNL FreeWheel], [!DNL Google Authorized Buyers]  (precedentemente noto come [!DNL AdX]), and [!DNL Magnite DV+] (precedentemente [!DNL Rubicon]) utilizzando la casella in entrata dell'ID offerta.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 7c681ab7-3051-451d-ab83-fc75bdd6eaad
-source-git-commit: d5a291c8d1f464e1c22777512d29f4e041bb7988
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Accetta un&#39;offerta in [!UICONTROL Deal ID Inbox]
 
-*Utenti negli account DSP mappati solo su account SSP*
+*Utenti in account DSP mappati solo su account SSP*
 
 Utilizza [!UICONTROL Deal ID inbox] per accettare rapidamente un&#39;offerta privata già negoziata con un editore il [!DNL FreeWheel], [!DNL Google Authorized Buyers] (precedentemente noto come [!DNL AdX]) e [!DNL Magnite DV+] (precedentemente [!DNL Rubicon]).
 
@@ -26,7 +26,7 @@ Utilizza [!UICONTROL Deal ID inbox] per accettare rapidamente un&#39;offerta pri
 
 1. (Facoltativo) Per aggiornare i dettagli dell&#39;offerta, fare clic su **[!UICONTROL Refresh]**.
 
-   L&#39;DSP aggiorna automaticamente tutti i dettagli dell&#39;operazione ogni giorno alle 4:30 EST. Inoltre aggiorna tutte le [!DNL FreeWheel] offerte e aggiorna le offerte esistenti da [!DNL Google] e [!DNL Magnite DV+] ogni ora.
+   DSP aggiorna automaticamente tutti i dettagli dell&#39;offerta ogni giorno alle 4:30 EST. Inoltre aggiorna tutte le [!DNL FreeWheel] offerte e aggiorna le offerte esistenti da [!DNL Google] e [!DNL Magnite DV+] ogni ora.
 
 1. (Se in precedenza hai ignorato l&#39;offerta) Fai clic sulla scheda **[!UICONTROL Ignored Deals]**.
 

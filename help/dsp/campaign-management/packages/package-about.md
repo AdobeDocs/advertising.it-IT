@@ -3,7 +3,7 @@ title: Informazioni sulla gestione dei pacchetti in Advertising DSP
 description: Scopri la gestione dei pacchetti.
 feature: DSP Packages
 exl-id: 26985635-c03a-471e-8372-fd33e89a30e9
-source-git-commit: 2b0513691e5db2db28222d4cf7edf8bca2f014ca
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Informazioni sulla gestione dei pacchetti in Advertising DSP
 
-Utilizza i pacchetti per raggruppare i posizionamenti per la consegna a un budget impostato, un obiettivo di prestazioni e una strategia di velocità personalizzata. L’DSP ottimizza i pacchetti spostando i budget sui posizionamenti con le prestazioni migliori all’interno del pacchetto. Puoi organizzare i pacchetti in base al formato di posizionamento, al tipo di inventario, al provider di dati, all’utente tipo o ad altre caratteristiche distinguibili. I pacchetti sono facoltativi.
+Utilizza i pacchetti per raggruppare i posizionamenti per la consegna a un budget impostato, un obiettivo di prestazioni e una strategia di velocità personalizzata. DSP ottimizza i pacchetti spostando i budget sui posizionamenti con le prestazioni migliori all’interno del pacchetto. Puoi organizzare i pacchetti in base al formato di posizionamento, al tipo di inventario, al provider di dati, all’utente tipo o ad altre caratteristiche distinguibili. I pacchetti sono facoltativi.
 
 Puoi creare i pacchetti manualmente o duplicando quelli esistenti. Puoi anche modificare e allegare posizionamenti a qualsiasi pacchetto.
 

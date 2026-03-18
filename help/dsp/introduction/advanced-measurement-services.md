@@ -1,21 +1,21 @@
 ---
-title: Soluzioni avanzate di misurazione
+title: Soluzioni di misurazione avanzate
 description: Consulta un elenco delle soluzioni disponibili per la misurazione avanzata.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: f2f24b85ad2f6068739b54e4a72a2e7bef6cd31b
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
 
 ---
 
-# Soluzioni avanzate di misurazione
+# Soluzioni di misurazione avanzate
 
 Gli inserzionisti spesso faticano a capire come funzionano insieme i loro diversi canali mediatici, dove il loro prossimo dollaro mediatico può essere speso meglio, o come quantificare l&#39;impatto delle loro pubblicità online rispetto agli obiettivi di business principali.
 
 In un panorama basato sui dati, la misurazione dell’attribuzione fornisce una soluzione a questa sfida. Il team AMS (Advanced Measurement &amp; Strategy) aiuta i partner del brand e delle agenzie a misurare il modo in cui gli elementi dei loro acquisti Adobe Advertising, insieme alle loro integrazioni [!DNL Adobe], guidano i risultati. Con solide offerte di misurazione dell’attribuzione, AMS può implementare strategie di targeting curate utilizzando framework di misurazione sofisticati, consentendo ai brand di collegare facilmente i propri dollari dei contenuti multimediali a risultati reali che guidano la propria attività. Il team può aiutarti a:
 
-* Attiva studi di misurazione in campagne multimediali digitali full-funnel
+* Attiva studi di misurazione nelle campagne multimediali digitali full-funnel
 
 * Implementa la narrazione della campagna con soluzioni di reporting complete
 
@@ -57,7 +57,7 @@ Per verificare il successo delle campagne pubblicitarie, sono disponibili i segu
 
   Confrontare il comportamento di gruppi di campioni randomizzati e reciprocamente esclusivi con test A/B semplici e puliti.
 
-## Trovare la misura perfetta Fit: Soluzioni di Vertical
+## Trovare la misura perfetta: soluzioni per verticale
 
 * **Tutti i verticali:**
 

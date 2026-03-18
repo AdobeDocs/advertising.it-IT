@@ -3,7 +3,7 @@ title: Valute supportate
 description: Consulta un elenco delle valute supportate.
 feature: DSP Custom Reports, DSP Campaign Data Views
 exl-id: 97d49cce-4438-40c4-94a4-e5d90ebaf651
-source-git-commit: 5fa4ba523b3036b8fc184dea082ae5a77ef71919
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Adobe Advertising supporta le seguenti valute.
 
 >[!NOTE]
 >
->Adobe Analytics supporta [un set di valute più ampio](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=it).
+>Adobe Analytics supporta [un set di valute più ampio](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html).
 
 ## DSP e CREATIVE
 

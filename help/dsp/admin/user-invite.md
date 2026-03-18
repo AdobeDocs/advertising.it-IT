@@ -1,16 +1,16 @@
 ---
-title: Invita un nuovo utente per l'account organizzazione
+title: Invita un nuovo utente per il tuo account organizzazione
 description: Scopri come invitare un nuovo utente a partecipare all’account.
 role: Admin
 exl-id: 5aba8db8-a27b-44a0-88f3-ea49311f4d76
-source-git-commit: 3ce910a553aa86836e04bd6e5d2a951db78070e1
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%
 
 ---
 
-# Invita un nuovo utente per l&#39;account organizzazione
+# Invita un nuovo utente per il tuo account organizzazione
 
 *Solo utenti amministratori*
 

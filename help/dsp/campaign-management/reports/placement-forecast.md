@@ -1,16 +1,16 @@
 ---
-title: Visualizza il rapporto Previsione posizionamento
+title: Visualizza il rapporto previsione di posizionamento
 description: Visualizza il numero di impression, la spesa e l’offerta massima ottimale previste per una particolare strategia di targeting per un posizionamento.
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 0%
 
 ---
 
-# Visualizza il rapporto Previsione posizionamento
+# Visualizza il rapporto previsione di posizionamento
 
 <!-- Does this really belong in the Campaign Management > Reports section or in the Placements section? -->
 
@@ -21,7 +21,7 @@ Lo strumento di previsione del posizionamento mostra il numero previsto di impre
 >* I codici postali non vengono considerati nei calcoli delle previsioni di posizionamento.
 >* Non viene generata alcuna previsione per i posizionamenti con targeting solo programmatico garantito (PG) perché la disponibilità e la spesa sono deterministiche.
 
-## Informazioni nella previsione
+## Informazioni contenute nella previsione
 
 La previsione include le seguenti informazioni:
 
@@ -65,7 +65,7 @@ La previsione include le seguenti informazioni:
 
      Un posizionamento è in genere una raccolta di più modelli di annunci definiti dalle piattaforme lato offerta. Pertanto, anche se il posizionamento esiste da molto tempo, se il modello di annuncio sottostante è nuovo, lo strumento di previsione non può creare una previsione.
 
-## Apri il rapporto Previsione posizionamento
+## Apre il rapporto previsione posizionamento
 
 1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 
@@ -81,6 +81,6 @@ La previsione include le seguenti informazioni:
 
 >[!MORELIKETHIS]
 >
->* [Tipi di report sulle prestazioni nelle visualizzazioni di Campaign Management](campaign-reports-about.md)
+>* [Tipi di rapporti sulle prestazioni nelle visualizzazioni di gestione delle campagne](campaign-reports-about.md)
 >* [Visualizza i report di diagnostica posizionamento](/help/dsp/campaign-management/reports/placement-diagnostics.md)
 >* [Impostazioni posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)

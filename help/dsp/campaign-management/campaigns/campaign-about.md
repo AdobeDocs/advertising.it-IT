@@ -1,16 +1,16 @@
 ---
-title: Informazioni su Campaign Management in Advertising DSP
+title: Informazioni sulla gestione delle campagne in Advertising DSP
 description: Scopri come gestire le campagne.
 feature: DSP Campaigns
 exl-id: 8ba1d94d-4cb2-4ed8-a527-b6097ec07380
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
 
 ---
 
-# Informazioni su Campaign Management in Advertising DSP
+# Informazioni sulla gestione delle campagne in Advertising DSP
 
 Le campagne sono il quadro generale delle impostazioni di volo. Tutte le impostazioni a livello di campagna si applicano automaticamente a ciascun pacchetto e posizionamento all’interno della campagna. Ogni campagna è associata a un inserzionista specifico.
 
@@ -35,4 +35,4 @@ Per visualizzare tutti i pacchetti, i posizionamenti e gli annunci all’interno
 >
 >* [Crea una campagna](campaign-create.md)
 >* [Impostazioni campagna](campaign-settings.md)
->* [Video: struttura dell&#39;account DSP e interfaccia utente](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=it)
+>* [Video: struttura dell&#39;account DSP e interfaccia utente](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

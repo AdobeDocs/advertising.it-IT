@@ -1,16 +1,16 @@
 ---
-title: Modifica impostazioni trattativa privata
+title: Modifica impostazioni offerta privata
 description: Scopri come modificare i dettagli di un’offerta privata.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: c6ab7d39-5581-423b-90aa-3e142c235072
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
 
 ---
 
-# Modifica impostazioni trattativa privata
+# Modifica impostazioni offerta privata
 
 Le modifiche a un&#39;offerta accettata non vengono sincronizzate dal provider di servizi condivisi. Se hai accettato un&#39;offerta ma l&#39;editore ha inviato delle modifiche, puoi modificare alcuni elementi delle impostazioni dell&#39;offerta da [!UICONTROL Inventory] > [!UICONTROL Deals]. Puoi anche rinominare un’offerta in qualsiasi momento.
 
