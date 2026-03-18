@@ -40,15 +40,15 @@ I pixel dell’evento di impression e clic di Audience Manager sono basati su co
 
 ### Pixel di tracciamento dell’impression
 
-Audience Manager tiene traccia dei dati di impression per un annuncio quando alleghi all’annuncio un pixel trasparente per il tracciamento degli eventi da 1xl pixel. Il pixel dell’evento viene caricato ogni volta che l’annuncio viene servito a un utente e caricato dal browser web. Il pixel viene caricato da un sottodominio specifico del client di [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html), che è un dominio legacy per Audience Manager e contiene parametri come coppie chiave-valore. La chiamata dell&#39;evento raccoglie i dati sulle impression e di conversione e li invia ai server di raccolta dati di Audience Manager.
+Audience Manager tiene traccia dei dati di impression per un annuncio quando alleghi all’annuncio un pixel trasparente per il tracciamento degli eventi da 1xl pixel. Il pixel dell’evento viene caricato ogni volta che l’annuncio viene servito a un utente e caricato dal browser web. Il pixel viene caricato da un sottodominio specifico del client di [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=it), che è un dominio legacy per Audience Manager e contiene parametri come coppie chiave-valore. La chiamata dell&#39;evento raccoglie i dati sulle impression e di conversione e li invia ai server di raccolta dati di Audience Manager.
 
 ### Pixel di tracciamento dei clic
 
-Audience Manager tiene traccia dei clic in modo simile alle impression, con la differenza che non carica il pixel dell’evento trasparente ogni volta che l’annuncio viene distribuito. Piuttosto, i dati di clic vengono tracciati nell’URL di click-through dell’annuncio. L&#39;annuncio punta a un sottodominio specifico del client di [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html), che è un dominio legacy per Audience Manager, per l&#39;elaborazione da parte dei server di raccolta dati Audience Manager. Il server reindirizza quindi l’utente alla pagina di destinazione prevista. L’URL contiene parametri come coppie chiave-valore.
+Audience Manager tiene traccia dei clic in modo simile alle impression, con la differenza che non carica il pixel dell’evento trasparente ogni volta che l’annuncio viene distribuito. Piuttosto, i dati di clic vengono tracciati nell’URL di click-through dell’annuncio. L&#39;annuncio punta a un sottodominio specifico del client di [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=it), che è un dominio legacy per Audience Manager, per l&#39;elaborazione da parte dei server di raccolta dati Audience Manager. Il server reindirizza quindi l’utente alla pagina di destinazione prevista. L’URL contiene parametri come coppie chiave-valore.
 
 >[!NOTE]
 >
->Se la tua organizzazione utilizza il tracciamento di [!DNL Analytics], potrebbe non essere necessario il tracciamento dei clic di Audience Manager. Adobe Analytics acquisisce i segnali di clic e può inviarli ad Audience Manager tramite [inoltro lato server](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
+>Se la tua organizzazione utilizza il tracciamento di [!DNL Analytics], potrebbe non essere necessario il tracciamento dei clic di Audience Manager. Adobe Analytics acquisisce i segnali di clic e può inviarli ad Audience Manager tramite [inoltro lato server](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=it).
 
 >[!MORELIKETHIS]
 >
