@@ -3,7 +3,7 @@ title: Crea un'offerta [!UICONTROL Simple Ad Serving]
 description: Scopri come creare un pixel di tracciamento per un'offerta [!UICONTROL Simple Ad Serving].
 feature: DSP Simple Ad Serving
 exl-id: 77d5dabd-1a0d-4dce-8a9a-8d54a637e15d
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
          * Per i nuovi annunci, crea un proxy [annuncio di terze parti](/help/dsp/campaign-management/ads/ad-create-multiple.md).
 
       >[!NOTE]
-      > L’DSP non distribuisce gli annunci specificati. L’editore distribuisce l’annuncio.
+      > DSP non distribuisce gli annunci specificati. L’editore distribuisce l’annuncio.
 
       1. Fare clic su **[!UICONTROL Next]**.
 

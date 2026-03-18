@@ -3,7 +3,7 @@ title: Modifica impostazioni offerta [!UICONTROL Simple Ad Serving]
 description: Scopri come modificare le impostazioni per un'offerta [!UICONTROL Simple Ad Serving].
 feature: DSP Simple Ad Serving
 exl-id: 48540a6c-54ee-4109-bdd6-293fbee5c3e5
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 0%

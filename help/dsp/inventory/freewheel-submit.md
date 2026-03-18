@@ -1,9 +1,9 @@
 ---
-title: Invia un annuncio per un'offerta PG a [!DNL FreeWheel]
+title: Invia un annuncio per un'offerta PG a  [!DNL FreeWheel]
 description: Scopri come richiedere l'approvazione per un annuncio per un accordo programmatico garantito con un editore su [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 18d91f0c-4a27-4e40-b762-6c5e97e9a21a
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Dopo aver [accettato un&#39;offerta programmatica garantita con un editore su Fr
 
 >[!PREREQUISITES]
 >
->Rivolgiti al team dell&#39;account Adobe per assicurarti che l&#39;account [!DNL DSP] disponga dell&#39;autorizzazione per utilizzare il flusso di lavoro programmatico garantito di [!DNL FreeWheel].
+>Rivolgiti al team del tuo account Adobe per assicurarti che l&#39;account [!DNL DSP] disponga dell&#39;autorizzazione per utilizzare il flusso di lavoro programmatico garantito di [!DNL FreeWheel].
 
 1. Copia la chiave dell&#39;annuncio utilizzato con l&#39;offerta [!DNL Freewheel]:
 

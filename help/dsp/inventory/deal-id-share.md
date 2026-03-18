@@ -3,7 +3,7 @@ title: Modificare gli account con accesso a un’offerta privata
 description: Scopri come condividere e interrompere la condivisione di un accordo privato con account diversi.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: fb67ef24-8b7f-4a2f-973b-8102a97f0acb
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%

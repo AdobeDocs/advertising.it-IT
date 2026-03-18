@@ -1,20 +1,20 @@
 ---
-title: Impostazioni offerta [!UICONTROL Simple Ad Serving]
+title: Impostazioni dell'offerta [!UICONTROL Simple Ad Serving]
 description: Scopri le impostazioni disponibili per le offerte [!UICONTROL Simple Ad Serving].
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
 
 ---
 
-# Impostazioni offerta [!UICONTROL Simple Ad Serving]
+# Impostazioni dell&#39;offerta [!UICONTROL Simple Ad Serving]
 
 ## Nuove [!UICONTROL Simple Ad Serving] offerte
 
-### [!UICONTROL Select Ad Source]
+### [!UICONTROL Select ad source]
 
 | Parametro | Descrizione |
 |-----------|-------------|
@@ -28,20 +28,20 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-### [!UICONTROL Select Ad(s)]
+### [!UICONTROL Select ad(s)]
 
 (Quando utilizzi annunci esistenti) Gli annunci da includere nell’offerta. Seleziona la casella di controllo accanto a ogni annuncio da includere.
 
-### [!UICONTROL Select & Upload [Media Type]]
+### [!UICONTROL Select & upload [Media Type]]
 
 (Solo per nuovi annunci) Screens per creare un nuovo [annuncio di terze parti](/help/dsp/campaign-management/ads/ad-create-multiple.md).
 
-### [!UICONTROL Feed Details]
+### [!UICONTROL Feed details]
 
 | Parametro | Descrizione |
 |-----------|-------------|
-| **[!UICONTROL Media CPM]** | Il costo per 1000 impression (CPM), come riportato nella scheda tariffaria del contratto. Contatta il team dell’account Adobe per questo valore. <br><br>Specificare anche la valuta per l&#39;offerta. Tutti gli utenti possono selezionare USD o, se la SSP supporta valute aggiuntive, la valuta per il conto DSP. |
-| **[!UICONTROL Third Party Billed Fees]** | (Facoltativo) Una commissione di terze parti statica da tracciare come costo non fatturabile e la valuta per l’operazione.<br><br>Tutti gli utenti possono selezionare USD o, se il provider di servizi condivisi supporta valute aggiuntive, la valuta per il conto DSP. **NOTA:** le tariffe fatturabili si riflettono nella metrica [!UICONTROL Net CPM]. |
+| **[!UICONTROL Media CPM]** | Il costo per 1000 impression (CPM), come riportato nella scheda tariffaria del contratto. Contatta il team del tuo account Adobe per questo valore. <br><br>Specificare anche la valuta per l&#39;offerta. Tutti gli utenti possono selezionare USD o, se il provider di servizi condivisi supporta valute aggiuntive, la valuta per l&#39;account DSP. |
+| **[!UICONTROL Third Party Billed Fees]** | (Facoltativo) Una commissione di terze parti statica da tracciare come costo non fatturabile e la valuta per l’operazione.<br><br>Tutti gli utenti possono selezionare USD o, se il provider di servizi condivisi supporta valute aggiuntive, la valuta per l&#39;account DSP. **NOTA:** le tariffe fatturabili si riflettono nella metrica [!UICONTROL Net CPM]. |
 | **[!UICONTROL Third Party Fee Description]** | (Facoltativo) Una descrizione delle tariffe di terze parti. |
 | **[!UICONTROL Flight Dates]** | Le date di inizio e fine del traffico che utilizza questa offerta. Le date del volo devono essere incluse nelle date del volo della campagna. I tag annuncio restituiscono una risposta solo durante il volo specificato.<br><br> È consigliabile creare una campagna di annunci semplice e separata con una durata di un anno e creare pixel di tracciamento al suo interno. |
 | **[!UICONTROL Impressions]** | (Facoltativo) Il numero stimato di impression che si prevede di eseguire utilizzando questa offerta. Questo valore viene utilizzato solo a scopo di tracciamento e per contrassegnare quando gli obiettivi di consegna vengono raggiunti; l’editore controlla la consegna effettiva degli annunci. La best practice prevede di inserire un numero elevato di impression per mantenere il tag attivo in DSP in modo che possa essere rinnovato o esteso, se necessario. |

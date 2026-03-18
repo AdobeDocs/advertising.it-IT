@@ -1,9 +1,9 @@
 ---
-title: Specifiche annuncio
+title: Specifiche dell’annuncio
 description: Fai riferimento a specifiche pubblicitarie generali e specifiche per l’editore.
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-source-git-commit: a6f9bb2d714e7ddb22f74c9c614772eca30f9e40
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Specifiche per i tipi di annunci supportati
 
-## Annunci video (pre-roll, CTV e video universali)
+## Annunci video (pre-roll, CTV e video universale)
 
-### Screens supportato
+### Schermi supportati
 
 Gli annunci vengono consegnati per impostazione predefinita su dispositivi desktop, mobili e TV collegati. Per regolare la consegna è disponibile il targeting del dispositivo.
 
@@ -22,7 +22,7 @@ Gli annunci vengono consegnati per impostazione predefinita su dispositivi deskt
 
 È possibile utilizzare i fogli tag di [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] e [!DNL Sizmek]. Per un elenco completo dei fornitori supportati, consulta &quot;[Certified Ad Serving Partners](certified-ad-servers.md)&quot;.
 
-### Requisiti per Assets video ad alta definizione
+### Requisiti per risorse video ad alta definizione
 
 **Tipo di tag video:** VPAID 2.0 JavaScript o VAST (CTV). Tutte le unità di annunci VPAID devono rispettare la specifica [VPAID 2.0](https://iabtechlab.com/wp-content/uploads/2016/04/VPAID_2_0_Final_04-10-2012.pdf) definita da Interactive Advertising Bureau (IAB).
 
@@ -72,9 +72,9 @@ Gli annunci vengono consegnati per impostazione predefinita su dispositivi deskt
 
 * **Paramount:** Consulta le [specifiche degli annunci](https://www.paramount.com/digital-ads) di Paramount.
 
-## Annunci visualizzati
+## Visualizza annunci
 
-### Screens supportato
+### Schermi supportati
 
 Gli annunci vengono consegnati per impostazione predefinita su desktop e dispositivi mobili. Per regolare la consegna è disponibile il targeting del dispositivo.
 
@@ -84,7 +84,7 @@ Gli annunci vengono consegnati per impostazione predefinita su desktop e disposi
 
 **HTML5:** tipi di file immagine: GIF, JPG/JPEG, PNG, SVG
 
-### Requisiti di Image Assets
+### Requisiti per le risorse immagini
 
 È supportata la visualizzazione universale.
 
@@ -94,7 +94,7 @@ Gli annunci vengono consegnati per impostazione predefinita su desktop e disposi
 
 ## Annunci audio
 
-### Screens supportato
+### Schermi supportati
 
 Desktop, dispositivi mobili, tablet, altoparlanti avanzati e TV collegata
 
@@ -102,7 +102,7 @@ Desktop, dispositivi mobili, tablet, altoparlanti avanzati e TV collegata
 
 È possibile utilizzare i fogli tag di [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] e [!DNL Sizmek]. Per un elenco completo dei fornitori supportati, consulta &quot;[Certified Ad Serving Partners](certified-ad-servers.md)&quot;.
 
-### Requisiti per Audio Assets
+### Requisiti per le risorse audio
 
 **Tipo file:** MP3, OGG, AAC
 
@@ -147,7 +147,7 @@ Desktop, dispositivi mobili, tablet, altoparlanti avanzati e TV collegata
    * Tipo di file: MP3, OGG
    * Volume: 44,1 kHz
 
-### Requisiti per gli annunci banner aziendali (facoltativo)
+### Requisiti per gli annunci banner correlati (facoltativo)
 
 **Dimensioni supportate:** 300x250, 500x500, 640x640, 1024x1024
 
@@ -182,11 +182,11 @@ Desktop, dispositivi mobili, tablet, altoparlanti avanzati e TV collegata
 
 Ogni annuncio può contenere un&#39;immagine fissa o un GIF in movimento (cinemagraph).
 
-### Screens supportato
+### Schermi supportati
 
 Gli annunci vengono consegnati per impostazione predefinita su desktop e dispositivi mobili. Per regolare la consegna è disponibile il targeting del dispositivo.
 
-### Assets richiesto per tutti i formati di feed interni
+### Risorse richieste per tutti i formati di feed nativi
 
 #### Risorsa immagine
 

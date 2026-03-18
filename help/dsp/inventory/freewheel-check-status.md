@@ -1,9 +1,9 @@
 ---
-title: Controlla lo stato degli annunci per un'offerta  [!DNL FreeWheel] PG
+title: Controlla lo stato degli annunci per un'offerta di  [!DNL FreeWheel] PG
 description: Scopri come trovare lo stato degli annunci per  [!DNL Freewheel]  offerte programmatiche garantite.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: f5f33e96-68a8-48bd-8c30-72be9315c5ac
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Verifica se gli annunci inviati a [!DNL Freewheel] sono stati inviati correttamente. Puoi inviare nuovamente qualsiasi annuncio, in base alle esigenze.
 
-Per ulteriori domande o problemi relativi alla nuova presentazione, contatta il team del tuo account di Adobe.
+Per ulteriori domande o problemi relativi alla nuova presentazione, contatta il team del tuo account Adobe.
 
 ## Controlla lo stato dalla visualizzazione [!UICONTROL Ads]
 

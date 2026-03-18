@@ -1,22 +1,22 @@
 ---
-title: Informazioni su [!DNL On Demand] Inventario Premium
-description: Scopri gli accordi che l’DSP ha pre-negoziato con i partner di pubblicazione premium.
+title: 'Informazioni sull''inventario premium  [!DNL On Demand] '
+description: Scopri le offerte che DSP ha pre-negoziato con i partner di pubblicazione premium.
 feature: DSP On Demand Inventory
 exl-id: 2e8dd4a0-7a7b-45e9-8f0f-e5435cf0d9ee
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
 
-# Informazioni su [!DNL On Demand] inventario premi
+# Informazioni sull&#39;inventario premium [!DNL On Demand]
 
 *Non disponibile per gli utenti con i tipi di account [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension] e [!UICONTROL Other]; per gli inserzionisti con la categoria [!UICONTROL Other] e per i rivenditori*
 
-La raccolta [!DNL On Demand] è uno strumento di individuazione dell&#39;inventario premium per esplorare le offerte prenegoziate che l&#39;DSP ha curato con i partner di pubblicazione premium. Consente di accedere alle scorte non garantite dagli editori di livello superiore nell’area geografica senza la necessità di negoziazioni o contratti 1:1. È possibile richiedere offerte individuali e sottoscrivere un abbonamento a un editore per richiedere tutte le offerte dell&#39;editore contemporaneamente.
+La raccolta [!DNL On Demand] è uno strumento di individuazione dell&#39;inventario avanzato per esplorare le offerte prenegoziate che DSP ha curato con partner di editori premium. Consente di accedere alle scorte non garantite dagli editori di primo livello nell&#39;area geografica senza la necessità di negoziazioni o contratti 1:1. È possibile richiedere offerte individuali e sottoscrivere un abbonamento a un editore per richiedere tutte le offerte dell&#39;editore contemporaneamente.
 
-Il mercato premium dell’DSP consente di:
+DSP Premium Marketplace consente di:
 
 * Attivazione rapida e semplice di un nuovo inventario per una maggiore scalabilità ed efficienza
 
@@ -34,9 +34,9 @@ Il mercato premium dell’DSP consente di:
 
 * Monitoraggio delle prestazioni con reporting consolidato
 
-Una volta approvata, l&#39;offerta è disponibile come destinazione per i posizionamenti esistenti e viene automaticamente inclusa come destinazione per i nuovi posizionamenti che hanno come destinazione tutto l&#39;inventario [!DNL On Demand]. Se una richiesta di offerta viene rifiutata, puoi collaborare con il team dell’account Adobe per risolvere il problema e quindi richiedere nuovamente l’offerta.
+Una volta approvata, l&#39;offerta è disponibile come destinazione per i posizionamenti esistenti e viene automaticamente inclusa come destinazione per i nuovi posizionamenti che hanno come destinazione tutto l&#39;inventario [!DNL On Demand]. Se una richiesta di offerta viene rifiutata, puoi collaborare con il team del tuo account Adobe per risolvere il problema e quindi richiedere nuovamente l’offerta.
 
-## Visualizzazioni On Demand
+## Le visualizzazioni [!UICONTROL On Demand]
 
 Alle [!UICONTROL Inventory] > [!UICONTROL On Demand], le offerte e gli editori più recenti <!-- how recent? --> sono disponibili da un carosello nella parte superiore della pagina.
 
@@ -47,7 +47,7 @@ I dettagli di ogni operazione includono i dati nelle colonne seguenti:
 * **[!UICONTROL TVB]:** indica se l&#39;editore è un&#39;emittente televisiva
 * **[!UICONTROL Tune]:** Indica quando l&#39;editore accetta i contenuti creativi &quot;tune in&quot; (ad esempio, &quot;Tune in stasera alle 21 per il nuovo episodio di \&lt;*our show*\>)
 * **[!UICONTROL LDA]:** (età legale per bere) Indica quando l&#39;editore ha applicato il targeting più di 21 e accetta annunci di alcolici
-* **[!UICONTROL CPM]:** indica quando il CPM minimo o a tariffa fissa per l&#39;offerta non è visibile fino a quando all&#39;inserzionista non è stato concesso l&#39;accesso all&#39;offerta
+* **[!UICONTROL CPM]:** indica quando la soglia minima o la tariffa fissa CPM per l&#39;offerta non è visibile fino a quando all&#39;inserzionista non è stato concesso l&#39;accesso all&#39;offerta
 * **[!UICONTROL Status]:** lo stato della richiesta di abbonamento (se applicabile)
 * **[!UICONTROL Action]:** Tutte le azioni disponibili (ad esempio [!UICONTROL Request] o [!UICONTROL Re-request])
 
