@@ -3,7 +3,7 @@ title: Best practice per l’impostazione di campagne sulle prestazioni
 description: Scopri le best practice per la configurazione di campagne incentrate sulle prestazioni, che includono posizionamenti ottimizzati per il CPA più basso o il ROAS più alto.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 0%
@@ -34,7 +34,7 @@ DSP può ottimizzare le campagne incentrate sulle prestazioni. Consulta le segue
 
 I pacchetti Upper funnel includono posizionamenti con targeting molto ampio per raggiungere nuovi consumatori.
 
-#### Strategie di posizionamento consigliate per la ricerca
+#### Strategie di posizionamento consigliate per la ricerca di potenziali clienti
 
 * Trova nuovi tipi di pubblico che potrebbero essere convertiti utilizzando le seguenti tattiche:
 
@@ -55,7 +55,7 @@ I pacchetti funnel inferiori includono posizionamenti destinati a utenti che son
 
 * Evita di assegnare troppo budget a un posizionamento mirato al pubblico. Come regola generale, preventivare $30 per 1.000 utenti al mese.
 
-## Passaggio 3: creare pacchetti
+## Passaggio 3: creare i pacchetti
 
 La best practice prevede la creazione di pacchetti separati per la ricerca di potenziali clienti funnel e per il retargeting funnel inferiore. L’ottimizzazione viene eseguita a livello di pacchetto, in modo che i dati delle prestazioni provenienti da tutti i posizionamenti all’interno di un pacchetto vengano aggregati. Raggruppa quindi i posizionamenti in pacchetti con prestazioni previste simili.
 
@@ -85,7 +85,7 @@ Inoltre, utilizza le seguenti impostazioni.
   >
   >Utilizza *[!UICONTROL FrontLoad]* e *[!UICONTROL Aggressive Front Load]* per l&#39;andamento del volo e *[!UICONTROL ASAP]* per l&#39;andamento infragiornaliero solo quando assegni la massima priorità alla consegna e spendi oltre l&#39;ottimizzazione delle prestazioni, perché queste strategie possono influire negativamente sui KPI delle prestazioni desiderati.
 
-## Passaggio 4: creare la struttura di posizionamento
+## Passaggio 4: creare una struttura di posizionamento
 
 Meno è di più. Se puoi impostare meno di sei posizionamenti per pacchetto, il budget disponibile può essere spostato dinamicamente verso i posizionamenti con le prestazioni migliori più facilmente.
 
@@ -143,11 +143,11 @@ Per ottimizzare la scalabilità, utilizzare [!UICONTROL Public] (Open Exchange) 
    * Non eseguire il targeting di [!UICONTROL Firefox] e [!UICONTROL Safari] a causa di limitazioni di targeting e misurazione. Contatta il team del tuo account Adobe per ulteriori dettagli sul supporto di [!DNL Adobe] per [!DNL Safari ITP].
    * Se esegui il targeting del traffico web per dispositivi mobili, disabilita tutti i browser mobili eccetto [!UICONTROL Chrome] e [!UICONTROL Edge].
 
-### Sicurezza del marchio e qualità dei contenuti multimediali
+### Sicurezza del brand e qualità dei media
 
 L&#39;utilizzo del filtro contestuale, del blocco antifrode pre-offerta e/o del filtro [!UICONTROL Ads.txt] limita la scala dei posizionamenti, ma utilizzali se necessario.
 
-## Passaggio 5: utilizzare l’Assets di Creative corretto
+## Passaggio 5: utilizzare le risorse creative giuste
 
 * La best practice prevede di includere quante più dimensioni di annuncio univoche possibili per massimizzare la portata. Il modello di visualizzazione universale ti consente di caricare qualsiasi dimensione di annuncio display standard.
 * Assicurati che tutti i posizionamenti contengano *almeno* tutte le dimensioni degli annunci display primari (300x250, 728x90, 160x600, 300x600, 320x50 e 300x50).

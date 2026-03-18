@@ -3,14 +3,14 @@ title: Come DSP ottimizza le campagne
 description: Scopri come DSP ottimizza i pacchetti nelle campagne.
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
 
 ---
 
-# Come Advertising DSP Ottimizza Le Campagne
+# Come Advertising DSP ottimizza le campagne
 
 Questa pagina illustra il modo in cui il motore di ottimizzazione DSP, basato su [!DNL Adobe AI], ottimizza i pacchetti nelle campagne. Per suggerimenti su come ottimizzare manualmente le campagne, contatta il team del tuo account Adobe. <!-- add link to trading playbook if we add it to help -->
 
@@ -52,7 +52,7 @@ Questa modalità di ottimizzazione funziona correttamente se:
 
 * Se la spesa è in ritardo, le offerte diventano meno selettive in modo che le offerte sulle aste prevedibilmente abbiano tassi di prestazioni inferiori per raggiungere l&#39;obiettivo di ritmo.
 
-#### Cancellazione dell&#39;ombreggiatura del prezzo/offerta {#clearing-price-performance}
+#### Cancellazione ombreggiatura prezzo/offerta {#clearing-price-performance}
 
 Dopo aver eseguito la logica di andamento, DSP esegue l’offerta proposta attraverso un modello di previsione del prezzo di aggiudicazione. Se la previsione indica che l’offerta può essere ridotta con una riduzione minima al tasso di vincita, l’offerta viene diminuita in base alla previsione.
 
@@ -68,7 +68,7 @@ Per alcuni obiettivi di ottimizzazione, DSP prevede le prestazioni di ogni asta 
 
 * Se la spesa è in ritardo, DSP diventa meno sensibile ai prezzi e offre importi più elevati, fino al [!UICONTROL Max Bid], per scambiare il tasso di vincita con il piano di velocità.
 
-#### Cancellazione dell&#39;ombreggiatura del prezzo/offerta {#clearing-price-balanced}
+#### Cancellazione ombreggiatura prezzo/offerta {#clearing-price-balanced}
 
 Dopo aver eseguito la logica di andamento, DSP esegue l’offerta proposta attraverso un modello di previsione del prezzo di aggiudicazione. Se la previsione indica che l’offerta può essere ridotta con una riduzione minima al tasso di vincita, l’offerta viene diminuita in base alla previsione.
 

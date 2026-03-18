@@ -3,7 +3,7 @@ title: Informazioni sullo strumento DSP Planner
 description: Scopri lo strumento di pianificazione per prevedere la portata unica dei posizionamenti di TV connesse (CTV) in base al budget e ai criteri di targeting specificati.
 feature: DSP Planner
 exl-id: b25d4ac5-e85f-4a38-8765-6c5261987668
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Lo strumento di pianificazione consente di prevedere la portata unica a livello domestico dei posizionamenti di televisori connessi (CTV) in base al budget e ai criteri di targeting specificati prima di iniziare a spendere in magazzino. Dopo aver valutato più piani REACH, puoi implementare il piano che si allinea al meglio ai risultati desiderati nei tuoi pacchetti e posizionamenti.
 
-Lo strumento di pianificazione utilizza i dati storici di offerta, impression e portata degli ultimi 90 giorni per stimare la portata univoca, il CPM medio, la frequenza media e le impression per una configurazione di piano.
+Lo strumento di pianificazione utilizza i dati storici di offerta, impression e portata degli ultimi 90 giorni per stimare la portata univoca, la media di CPM, la frequenza media e le impression per una configurazione di piano.
 
 ## Previsione planner
 
@@ -33,7 +33,7 @@ L&#39;output di previsione include anche una sezione [!UICONTROL Inventory Break
 >* La sezione [!UICONTROL Inventory Breakdown] visualizza i dati solo per l&#39;inventario privato e [!UICONTROL On Demand].
 >* La portata univoca stimata mostrata per due editori può sovrapporsi.
 
-## Vista planner
+## Vista Planner
 
 Nella visualizzazione [!UICONTROL Planner] è possibile visualizzare i piani di copertura CTV esistenti e crearne di nuovi.
 
@@ -55,7 +55,7 @@ Inoltre, assicurati che gli editori o le offerte inclusi siano attivi e abbiano 
 
 +++
 
-+++Ho creato un posizionamento basato sulle previsioni, ma non ha raggiunto la quantità di portata univoca indicata dalle previsioni di portata. Perché?
++++Ho costruito un posizionamento in base alla previsione, ma non ha raggiunto la quantità di portata univoca indicata dalla previsione di portata. Perché? 
 
 La previsione REACH è solo una stima, e i risultati effettivi dovrebbero variare a causa di molteplici fattori che cambiano frequentemente, come la stagionalità, la competitività delle offerte e l&#39;offerta e la domanda. Non è previsto che sia completamente accurato, ma è più utile per ottenere informazioni direzionali sulle strategie delle campagne che possono potenzialmente determinare i migliori risultati.
 

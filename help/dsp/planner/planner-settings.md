@@ -3,7 +3,7 @@ title: Impostazioni per i piani di copertura TV collegati
 description: Vedere le descrizioni delle impostazioni per i piani di copertura TV collegati.
 feature: DSP Planner
 exl-id: 65edd6f5-557c-44d1-a0ed-8cd26d8a2f6e
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%

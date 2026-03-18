@@ -3,7 +3,7 @@ title: Obiettivi personalizzati
 description: Scopri gli obiettivi personalizzati per definire gli eventi di successo in pacchetti ottimizzati per il CPA più basso o il ROAS più alto.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Nelle impostazioni del pacchetto DSP per i pacchetti che utilizzano l&#39;obiett
 
 Gli esempi seguenti mostrano come configurare obiettivi per il targeting di una singola metrica di conversione.
 
-#### Esempio per una campagna con obiettivo di ottimizzazione &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)]&quot;
+#### Esempio per una campagna con l&#39;obiettivo di ottimizzazione &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)]&quot;
 
 Se l&#39;obiettivo della campagna è il ricavo ([!UICONTROL Highest Return on Ad Spend (ROAS)]) e il ricavo da tutti i tipi di dispositivi è ugualmente importante per te, includi la metrica &quot;[!UICONTROL Revenue]&quot; con un peso non mobile di uno (1); il peso del dispositivo mobile viene ignorato. Selezionare il tipo di metrica *[!UICONTROL Goal]*.
 
@@ -88,7 +88,7 @@ Se l&#39;obiettivo della campagna è il ricavo ([!UICONTROL Highest Return on Ad
 >
 > Un peso non mobile di uno (1) equivale a un valore di uno (1) per ogni $ 1 di ricavo tracciato per gli annunci display su qualsiasi dispositivo. Ad esempio, una conversione da 250 $ con un peso non mobile di uno (1) viene segnalata come 250 $ per le conversioni. Se alla metrica di conversione viene assegnato un peso non mobile di 0,5, la conversione di 250 dollari viene segnalata come 125 dollari in Adobe Advertising (conversione di 250 dollari * 0,5 [!UICONTROL Non-mobile Weight] = 125 dollari).
 
-#### Esempio per una campagna con obiettivo di ottimizzazione &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;
+#### Esempio per una campagna con l&#39;obiettivo di ottimizzazione &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;
 
 Se l&#39;obiettivo della campagna è il costo più basso per acquisizione (CPA) e richiede un solo evento di successo (ad esempio &quot;Invio applicazione&quot;), includi quella metrica e specifica il tipo di metrica *[!UICONTROL Goal]*. La best practice prevede di impostare il peso del dispositivo non mobile su uno (1); il peso del dispositivo mobile viene ignorato.
 
