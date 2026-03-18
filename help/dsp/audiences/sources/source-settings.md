@@ -46,5 +46,5 @@ Per [!DNL RampID] e [!DNL Unified ID2.0], il fornitore cerca ogni indirizzo e-ma
 >* [Gestione delle origini del pubblico per attivare i tipi di pubblico con ID universale](source-manage.md)
 >* [Informazioni sulle origini del pubblico di prime parti](source-about.md)
 >* [Importa manualmente segmenti autenticati da [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
->* [Connessione Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Connessione Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=it)
 >* [Informazioni su Gestione dell&#39;audience](/help/dsp/audiences/audience-about.md)
