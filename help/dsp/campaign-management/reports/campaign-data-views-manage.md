@@ -3,7 +3,7 @@ title: Gestire le visualizzazioni dati della campagna
 description: Scopri come personalizzare le visualizzazioni dati per campagne, pacchetti, posizionamenti e annunci.
 feature: DSP Campaign Data Views
 exl-id: a22da10b-104d-4860-a23f-f2a6e59b637c
-source-git-commit: 40cfd72c0f295ab1b6b7743828dded4032d435d4
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '915'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Puoi modificare le metriche e la modalità grafico per tutte le visualizzazioni 
 
 * Nell&#39;angolo superiore destro della visualizzazione dati fare clic sull&#39;opzione [!UICONTROL Overlay] (![Interruttore di sovrapposizione](/help/dsp/assets/overlay.png)) per passare dalla modalità di sovrapposizione (tutti i grafici sovrapposti) alla modalità di grafico a trelli (tre grafici distinti) e viceversa.
 
-## Gestire le tabelle dati {#data-tables-manage}
+## Gestire le tabelle di dati {#data-tables-manage}
 
 In tutte le visualizzazioni di gestione delle campagne ([!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements] e [!UICONTROL Ads]), è possibile personalizzare i dati visualizzati all&#39;interno della tabella dati.
 
@@ -176,4 +176,4 @@ In basso a destra, accanto a **[!UICONTROL Items per page]** , selezionare *[!UI
 >* [Visualizza il rapporto Previsione posizionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Visualizza i report di diagnostica posizionamento](placement-diagnostics.md)
 >* [Esporta dati da una visualizzazione di gestione delle campagne](campaign-export-data.md)
->* [Video: struttura dell&#39;account DSP e interfaccia utente](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=it)
+>* [Video: struttura dell&#39;account DSP e interfaccia utente](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

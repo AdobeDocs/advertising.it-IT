@@ -3,7 +3,7 @@ title: Modificare un pacchetto
 description: Scopri come modificare un pacchetto.
 feature: DSP Packages
 exl-id: 88fbbb46-0150-4ff7-838f-ea00aead529e
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Puoi anche scaricare le impostazioni per uno o più pacchetti in formato XLSX (foglio di calcolo Excel), apportare modifiche alla maggior parte dei campi e caricarli nuovamente su DSP in una sola volta. Consulta &quot;[Rivedere e modificare le impostazioni del pacchetto utilizzando i bulksheet](package-qa.md).&quot;
+>Puoi anche scaricare le impostazioni per uno o più pacchetti in formato XLSX (foglio di calcolo Excel), apportare modifiche alla maggior parte dei campi e caricarli nuovamente in DSP contemporaneamente. Consulta &quot;[Rivedere e modificare le impostazioni del pacchetto utilizzando i bulksheet](package-qa.md).&quot;
 
 1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 1. Fare clic sul nome della campagna per aprire la visualizzazione [!UICONTROL Packages].

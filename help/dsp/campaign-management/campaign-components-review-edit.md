@@ -1,16 +1,16 @@
 ---
-title: Rivedere e modificare le impostazioni dei componenti di Campaign utilizzando i bulksheet
+title: Rivedere e modificare le impostazioni dei componenti della campagna utilizzando i bulksheet
 description: Scopri come rivedere e modificare in blocco le impostazioni del pacchetto chiave, del posizionamento e degli annunci utilizzando i fogli di calcolo.
 feature: DSP Placements
 exl-id: 1ec8362a-d37b-4fd7-becd-3a5b4f0c9504
-source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 0%
 
 ---
 
-# Rivedere e modificare le impostazioni dei componenti di Campaign utilizzando i bulksheet
+# Rivedere e modificare le impostazioni dei componenti della campagna utilizzando i bulksheet
 
 È possibile scaricare le impostazioni per pacchetti, posizionamenti e annunci in una singola campagna in formato XLSX ([!DNL Microsoft Excel] spreadsheet) per rivedere e modificare le impostazioni. Per impostazione predefinita, il file scaricato, denominato *bulksheet,* include schede separate per le impostazioni del pacchetto, le informazioni sul volo del pacchetto, le impostazioni di posizionamento e le pianificazioni degli annunci di posizionamento. Facoltativamente, puoi escludere le impostazioni per alcuni tipi di componenti della campagna.
 
@@ -50,7 +50,7 @@ Un messaggio di notifica indica quando il file è disponibile per il download.
      >
      >Per alcune impostazioni di destinazione, tutte le opzioni sono impostate come destinazione predefinita, a meno che non si limiti la selezione a destinazioni specifiche. Se non hai ridotto le destinazioni, il campo bulksheet è vuoto, il che significa che tutte le opzioni sono mirate.
 
-## Caricare un bulksheet con le impostazioni per pacchetti, posizionamenti e annunci per una campagna{#upload-bulksheet-campaign-components}
+## Caricare un bulksheet con le impostazioni relative a pacchetti, posizionamento e annunci per una campagna{#upload-bulksheet-campaign-components}
 
 Carica le impostazioni per pacchetti, posizionamenti e annunci in una singola campagna contemporaneamente in un bulksheet popolato.
 
@@ -74,13 +74,13 @@ Quando un aggiornamento delle impostazioni non riesce, puoi scaricare un file di
 
 
 <!--
-## Placement Setting Columns in Downloaded/Uploaded Spreadsheets{#qa-sheet-columns}
+## Placement setting columns in downloaded/uploaded spreadsheets{#qa-sheet-columns}
 
 >[!TIP]
 >
 > In a downloaded spreadsheet, all editable columns are highlighted in blue.
 
-### Campaign-level Spreadsheets
+### Campaign-level spreadsheets
 
 | Section | Column | Description | Editable? |
 |---------|--------|-------------|-----------|

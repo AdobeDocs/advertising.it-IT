@@ -1,16 +1,16 @@
 ---
-title: Revisione e modifica delle impostazioni di posizionamento tramite i bulksheet
+title: Rivedere e modificare le impostazioni di posizionamento utilizzando i bulksheet
 description: Scopri come rivedere e modificare le impostazioni di posizionamento chiave in blocco utilizzando i fogli di calcolo.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: 9d9330847c9356180928337a4a452f35e7024545
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
 
 ---
 
-# Revisione e modifica delle impostazioni di posizionamento tramite i bulksheet
+# Rivedere e modificare le impostazioni di posizionamento utilizzando i bulksheet
 
 È possibile scaricare le impostazioni per uno o più posizionamenti o per tutti i posizionamenti in una campagna in formato XLSX ([!DNL Microsoft Excel] foglio di calcolo) per la revisione. Utilizza questa funzione per rivedere rapidamente dettagli quali:
 
@@ -99,7 +99,7 @@ Puoi caricare le impostazioni per i posizionamenti e per gli annunci e i pacchet
 Quando un aggiornamento delle impostazioni non riesce, puoi scaricare un file di errore bulksheet con codifica a colori per mostrare quali impostazioni (righe) sono state salvate e quali non sono riuscite, con il motivo di ogni errore. Puoi quindi risolvere i problemi all’interno dello stesso file e caricarlo di nuovo per elaborare le informazioni corrette.
 
 <!--
-## Placement Setting Columns in Downloaded/Uploaded Bulksheets{#qa-sheet-columns}
+## Placement setting columns in downloaded/uploaded bulksheets{#qa-sheet-columns}
 
 >[!TIP]
 >

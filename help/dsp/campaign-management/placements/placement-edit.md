@@ -1,16 +1,16 @@
 ---
-title: Modifica posizionamenti
+title: Modificare i posizionamenti
 description: Scopri come modificare un posizionamento.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
 
 ---
 
-# Modifica posizionamenti
+# Modificare i posizionamenti
 
 È possibile modificare le impostazioni per un singolo posizionamento o per più posizionamenti contemporaneamente. Alcune impostazioni non possono essere modificate una volta che il posizionamento è attivo.
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >Puoi anche scaricare le impostazioni per uno o più posizionamenti, o per tutti i posizionamenti in una campagna, in formato XLSX (foglio di calcolo Excel), apportare modifiche alla maggior parte dei campi e caricarli nuovamente in DSP contemporaneamente. Consulta &quot;[Rivedere e modificare le impostazioni di posizionamento utilizzando i bulksheet](placement-qa.md).&quot;
 
-## Modifica rapida impostazioni di posizionamento chiave {#placement-quick-edit}
+## Modifica rapida delle impostazioni di posizionamento delle chiavi {#placement-quick-edit}
 
 Puoi modificare il nome del posizionamento, lo stato, l’offerta massima e il budget senza aprire le impostazioni di posizionamento complete.
 
@@ -102,4 +102,4 @@ Utilizza questa opzione solo quando desideri applicare le stesse modifiche a tut
 >* [Impostazioni posizionamento](placement-settings.md)
 >* [Visualizza il rapporto Previsione posizionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Scelte rapide da tastiera](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Video: come modificare i posizionamenti utilizzando gli strumenti di modifica in blocco](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=it)
+>* [Video: come modificare i posizionamenti utilizzando gli strumenti di modifica in blocco](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

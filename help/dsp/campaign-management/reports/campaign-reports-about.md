@@ -1,16 +1,16 @@
 ---
-title: Tipi di rapporti sulle prestazioni nelle visualizzazioni di Campaign Management
+title: Tipi di rapporti sulle prestazioni nelle viste di gestione delle campagne
 description: Scopri i dati del rapporto inclusi nelle visualizzazioni di gestione della campagna.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: eba8e9813f8daea58b30f7890ac2dca2498f326f
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
 
 ---
 
-# Tipi di rapporti sulle prestazioni nelle visualizzazioni di Campaign Management
+# Tipi di rapporti sulle prestazioni nelle viste di gestione delle campagne
 
 Le visualizzazioni di gestione della campagna includono dati di rapporto completi. I rapporti disponibili ti aiutano a identificare i pacchetti e i posizionamenti che stanno ottenendo buoni risultati e quelli che richiedono la tua attenzione. I pulsanti di azione rapida consentono inoltre di migliorare la produttività.
 
@@ -42,7 +42,7 @@ Per visualizzare una campagna più dettagliatamente, fai clic sul nome della cam
 
 Una colonna &quot;[!UICONTROL Alerts]&quot; indica quando una campagna, o qualsiasi entità secondaria al suo interno, presenta un problema. Un&#39;icona [!UICONTROL Pulse Panel] a destra della barra degli strumenti indica anche se sono disponibili avvisi per le entità elencate. Per ulteriori informazioni, vedere &quot;[Visualizza avvisi](campaign-alerts.md)&quot;.
 
-## Reporting per singola campagna {#single-campaign-reporting}
+## Reporting di una singola campagna {#single-campaign-reporting}
 
 All&#39;interno di una campagna, è possibile filtrare i dati in base all&#39;entità della campagna: [!UICONTROL Packages], [!UICONTROL Placements] e [!UICONTROL Ads]. Puoi [filtrare ulteriormente i dati visibili](campaign-data-views-manage.md#filter-data-tables) per includere solo i pacchetti, i posizionamenti o gli annunci che desideri visualizzare.
 
@@ -87,6 +87,6 @@ Per altre suddivisioni dei dati, visualizza [le pagine di reporting a livello di
 >
 >* [Visualizza i dettagli di siti, annunci e frequenza per un posizionamento](placement-details-view.md)
 >* [Gestione Delle Visualizzazioni Dati Della Campagna](campaign-data-views-manage.md)
->* [Esporta dati da una visualizzazione Campaign Management](campaign-export-data.md)
+>* [Esporta dati da una visualizzazione di gestione delle campagne](campaign-export-data.md)
 >* [Visualizza un report dettagliato per una campagna](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
 >* [Visualizza avvisi](campaign-alerts.md)

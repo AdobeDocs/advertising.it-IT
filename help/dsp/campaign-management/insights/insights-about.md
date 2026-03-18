@@ -1,16 +1,16 @@
 ---
-title: Informazioni su Insights
+title: Informazioni sugli approfondimenti
 description: Scopri gli approfondimenti sulle prestazioni con le visualizzazioni.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 0%
 
 ---
 
-# Informazioni su Insights
+# Informazioni sugli approfondimenti
 
 *funzionalità Beta*
 
@@ -84,7 +84,7 @@ La scheda [!UICONTROL Household Conversion] fornisce le metriche di conversione 
    * **Impatto moderato**
    * **Impatto limitato:** richiede attenzione
 
-## Apri Performance Insights
+## Apri informazioni sulle prestazioni
 
 * (Per aprire approfondimenti per tutte le campagne) Nel menu principale, fare clic su **[!UICONTROL Insights BETA]**.
 
@@ -92,7 +92,7 @@ La scheda [!UICONTROL Household Conversion] fornisce le metriche di conversione 
 
 * (Per aprire approfondimenti per un posizionamento specifico) Accanto al nome dell&#39;entità nella visualizzazione [!UICONTROL Campaigns], [!UICONTROL Packages] o [!UICONTROL Placements], fare clic su **[!UICONTROL ...]** > **[!UICONTROL Analyze]** > **[!UICONTROL Insights]**.
 
-## Applicare filtri a una scheda
+## Applicare i filtri a una scheda
 
 1. Nella barra degli strumenti nella parte superiore della scheda, fare clic sul pulsante ![Filtro](/help/dsp/assets/filter.png).
 
@@ -104,11 +104,11 @@ La scheda [!UICONTROL Household Conversion] fornisce le metriche di conversione 
 
 1. (Facoltativo) Per limitare ulteriormente i dati, seleziona il tipo di entità nella barra degli strumenti, quindi scegli un valore di entità specifico (una singola campagna, pacchetto o posizionamento).
 
-## Modificare il rapporto di Dimension per un Insight
+## Modificare la dimensione segnalata per un insight
 
 * Seleziona la dimensione dal menu a discesa in alto a sinistra nell’insight.
 
-## Modificare le metriche segnalate per un’Insight
+## Modificare le metriche riportate per un’insight
 
 Per le metriche di conversione, è disponibile il supporto sia per le conversioni tracciate da Adobe Advertising che per quelle tracciate da Adobe Analytics.
 
@@ -122,7 +122,7 @@ Per le metriche di conversione, è disponibile il supporto sia per le conversion
 
   Il file viene salvato nella cartella Download predefinita del browser.
 
-## Scaricare un Insight specifico in un file XLSX
+## Scaricare un insight specifico in un file XLSX
 
 * In alto a destra nell&#39;insight, fai clic su ![Scarica](/help/creative/assets/download.png "Scarica").
 
@@ -131,6 +131,6 @@ Per le metriche di conversione, è disponibile il supporto sia per le conversion
 >[!MORELIKETHIS]
 >
 >* [Informazioni sui report personalizzati](/help/dsp/reports/report-about.md)
->* [Tipi di rapporti sulle prestazioni nelle visualizzazioni di gestione delle campagne](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Tipi di report sulle prestazioni nelle visualizzazioni di gestione delle campagne](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Colonne report disponibili](/help/dsp/reports/report-columns.md)
->* [Gestione Delle Visualizzazioni Dati Della Campagna](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
+>* [Gestisci le visualizzazioni dati della campagna](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)

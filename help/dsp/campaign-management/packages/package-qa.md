@@ -1,16 +1,16 @@
 ---
-title: Rivedere e modificare le impostazioni dei pacchetti utilizzando i bulksheet
+title: Rivedere e modificare le impostazioni del pacchetto utilizzando i bulksheet
 description: Scopri come rivedere e modificare le impostazioni dei pacchetti chiave in blocco utilizzando i fogli di calcolo.
 feature: DSP Packages
 exl-id: bf52de27-db48-40e2-bb55-a2c27a1924ad
-source-git-commit: c482f476de5b79ee9a363791d62ba8c2ada12cbc
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
 
 ---
 
-# Rivedere e modificare le impostazioni dei pacchetti utilizzando i bulksheet
+# Rivedere e modificare le impostazioni del pacchetto utilizzando i bulksheet
 
 È possibile scaricare le impostazioni per uno o più pacchetti in formato XLSX ([!DNL Microsoft Excel] spreadsheet) per la revisione. Il file *bulksheet* include una scheda separata con le informazioni sul volo.
 
@@ -26,7 +26,7 @@ I campi modificabili includono la maggior parte delle impostazioni normalmente m
 >
 >Per modificare rapidamente più campi per uno o più pacchetti, vedere &quot;[Modifica pacchetti](/help/dsp/campaign-management/packages/package-edit.md)&quot;.
 
-## Scaricare le impostazioni per tutti i pacchetti in una campagna
+## Scaricare le impostazioni per tutti i pacchetti di una campagna
 
 Quando scarichi le impostazioni per tutti i pacchetti di una campagna, il bulksheet include schede separate per le impostazioni del pacchetto e per le informazioni sul volo. Facoltativamente, puoi includere le impostazioni per i posizionamenti e gli annunci associati ai pacchetti; vengono incluse schede aggiuntive per le impostazioni di posizionamento e annunci.
 
@@ -80,7 +80,7 @@ Quando si scaricano le impostazioni per pacchetti specifici, il file del bulkshe
 
      Per modificare le impostazioni, modifica direttamente il file e carica le modifiche. Tutte le colonne modificabili sono evidenziate in blu. Per utilizzare il formato corretto per un campo, selezionate e copiate il valore dall&#39;impostazione del pacchetto o del posizionamento pertinente. Per alcune impostazioni di destinazione, come la ripartizione giornaliera, gli obiettivi personalizzati e le metriche di conversione, è disponibile un’opzione di copia all’interno dell’impostazione.
 
-## Caricare un bulksheet con le impostazioni del pacchetto {#upload-bulksheet-package}
+## Carica un bulksheet con le impostazioni del pacchetto {#upload-bulksheet-package}
 
 Puoi caricare le impostazioni dei pacchetti, inclusi i posizionamenti e gli annunci associati ai pacchetti, in un file bulksheet.
 
@@ -107,7 +107,7 @@ Puoi caricare le impostazioni dei pacchetti, inclusi i posizionamenti e gli annu
 Quando un aggiornamento delle impostazioni non riesce, puoi scaricare un file di errore bulksheet con codifica a colori per mostrare quali impostazioni (righe) sono state salvate e quali non sono riuscite, con il motivo di ogni errore. Puoi quindi risolvere i problemi all’interno dello stesso file e caricarlo di nuovo per elaborare le informazioni corrette.
 
 <!--
-## Package Setting Columns in Downloaded/Uploaded Bulksheets{#qa-sheet-columns-packages}
+## Package setting columns in downloaded/uploaded bulksheets{#qa-sheet-columns-packages}
 
 >[!TIP]
 >

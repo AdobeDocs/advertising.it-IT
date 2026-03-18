@@ -1,16 +1,16 @@
 ---
-title: Visualizzare un registro delle modifiche del posizionamento
+title: Visualizzare un registro delle modifiche di posizionamento
 description: Scopri come visualizzare le modifiche apportate al posizionamento.
 feature: DSP Placements
 exl-id: d9fc6ead-0a0e-415d-8352-284db12dde1b
-source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
 
 ---
 
-# Visualizzare il log delle modifiche per un posizionamento
+# Visualizzare il registro delle modifiche per un posizionamento
 
 I registri di modifica mostrano le modifiche apportate al posizionamento durante l’intervallo di date selezionato, tra cui il tipo di modifica, i valori nuovi e precedenti, l’utente che ha apportato la modifica e la data. Facoltativamente, è possibile aggiungere note a qualsiasi voce.
 

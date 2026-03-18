@@ -1,29 +1,29 @@
 ---
-title: Sospendere o attivare un annuncio
+title: Mettere in pausa o attivare un annuncio
 description: Scopri come mettere in pausa o attivare un annuncio.
 feature: DSP Ads
 exl-id: f39d36c2-4c62-462b-bb92-29458890661e
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 0%
 
 ---
 
-# Sospendere o attivare un annuncio
+# Mettere in pausa o attivare un annuncio
 
 Se si sospende o si attiva un annuncio dalla visualizzazione [!UICONTROL Ads], lo stato dell&#39;annuncio cambia in tutti i posizionamenti associati.
 
 Per mettere in pausa un annuncio su un singolo posizionamento, utilizzare il posizionamento [!UICONTROL Inspector].
 
-## Sospendere o attivare un singolo annuncio in tutti i posizionamenti
+## Mettere in pausa o attivare un singolo annuncio in tutti i posizionamenti
 
 1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 1. Fai clic sul nome della campagna.
 1. Nel sottomenu fare clic su **[!UICONTROL Ads]**.
 1. Accanto al nome dell&#39;annuncio, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Pause]** o **[!UICONTROL Activate]**.
 
-## Sospendi o attiva più annunci in tutti i posizionamenti
+## Mettere in pausa o attivare più annunci in tutti i posizionamenti
 
 1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 1. Fai clic sul nome della campagna.

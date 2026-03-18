@@ -1,16 +1,16 @@
 ---
-title: Sospendere o attivare un pacchetto
+title: Mettere in pausa o attivare un pacchetto
 description: Scopri come mettere in pausa o attivare un pacchetto.
 feature: DSP Packages
 exl-id: c4a6fb08-14db-4c8b-ab7a-0bbc0f201390
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
 
 ---
 
-# Sospendere o attivare un pacchetto
+# Mettere in pausa o attivare un pacchetto
 
 Metti in pausa un pacchetto live o attiva un pacchetto in pausa quando si trova all’interno della pianificazione del volo configurata.
 

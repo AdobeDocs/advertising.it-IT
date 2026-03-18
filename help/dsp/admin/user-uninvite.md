@@ -1,16 +1,16 @@
 ---
-title: Annullare l'invito di un utente in sospeso
+title: Annulla invito di un utente in sospeso
 description: Scopri come annullare un invito utente in sospeso.
 role: Admin
 exl-id: 62a5d50c-b836-4a15-ba5a-6eb7a0f26570
-source-git-commit: bddc57155a5ccf64f6b864159f82f2da9b0a0d8c
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 0%
 
 ---
 
-# Annullare l&#39;invito di un utente in sospeso
+# Annulla invito di un utente in sospeso
 
 Gli utenti amministratori possono annullare l’invito di un utente con un invito in sospeso. L’annullamento dell’invito di un utente invalida il token nel collegamento di invito inviato all’indirizzo e-mail specificato.
 

@@ -1,15 +1,15 @@
 ---
-title: Specifiche dell’annuncio specifiche per l’editore
+title: Specifiche pubblicitarie specifiche per l’editore
 description: Fai riferimento alle specifiche dell’annuncio per gli editori supportati.
 feature: DSP Ads
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 0%
 
 ---
 
-# Specifiche dell’annuncio specifiche per l’editore
+# Specifiche pubblicitarie specifiche per l’editore
 
 Alcuni editori hanno specifiche pubblicitarie più severe rispetto alle [specifiche pubblicitarie generali](/help/dsp/campaign-management/ads/ad-specs.md) di Adobe Advertising. Quando le specifiche dell’editore sono più rigorose di quelle di Adobe Advertising, assicurati di seguire le specifiche dell’editore.
 

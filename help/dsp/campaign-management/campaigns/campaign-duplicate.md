@@ -3,7 +3,7 @@ title: Duplicare una campagna
 description: Scopri come duplicare una campagna.
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Consulta &quot;[Elementi non duplicati](#campaign-not-duplicated)&quot; per un e
 
 1. Fare clic su **[!UICONTROL Submit]**.
 
-## Non duplicato {#campaign-not-duplicated}
+## Cosa non è duplicato {#campaign-not-duplicated}
 
 Tutte le impostazioni dei posizionamenti originali vengono duplicate, tranne:
 

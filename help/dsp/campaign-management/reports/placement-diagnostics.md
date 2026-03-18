@@ -1,32 +1,32 @@
 ---
-title: Visualizzare i rapporti di diagnostica del posizionamento
+title: Visualizza il report di posizionamento [!UICONTROL Diagnostics]
 description: Scopri come diagnosticare i problemi relativi alla configurazione e alla velocità del posizionamento.
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
 
-# Visualizzare i rapporti di diagnostica del posizionamento
+# Visualizza il report di posizionamento [!UICONTROL Diagnostics]
 
 <!-- Does this really belong in the Campaign Management > Reports section or in the Placements section? -->
 
 I rapporti di diagnostica possono essere utili per diagnosticare i problemi relativi alla configurazione e al ritmo del posizionamento una volta che una campagna è attiva.
 
-## Informazioni nei report di diagnostica del posizionamento
+## Informazioni nel report di posizionamento [!UICONTROL Diagnostics]
 
 * **[!UICONTROL Change Log]:** mostra le modifiche alle impostazioni di posizionamento chiave, ad esempio il nome, lo stato e l&#39;offerta massima. Ogni voce include la data e il nome utente della persona che ha apportato la modifica.
 
 * **[!UICONTROL Ad Approvals]:** Indica se gli annunci sono stati approvati o rifiutati dai provider di inventario. Facoltativamente, puoi modificare lo stato di un annuncio (ad esempio, mettere in pausa un annuncio rifiutato) o aprire le impostazioni dell’annuncio.
 
-* **[!UICONTROL Non Bids]:** mostra il motivo per cui l&#39;DSP non ha fatto un&#39;offerta per il posizionamento.
+* **[!UICONTROL Non Bids]:** mostra il motivo per cui DSP non ha fatto offerte per il posizionamento.
 
-## Aprire i report di diagnostica posizionamento
+## Apri il report di posizionamento [!UICONTROL Diagnostics]
 
-1. Aprire il rapporto Diagnostica:
+1. Apri il report [!UICONTROL Diagnostics]:
 
    1. Apri le impostazioni di posizionamento:
 
@@ -60,7 +60,7 @@ I rapporti di diagnostica possono essere utili per diagnosticare i problemi rela
 
       1. (Facoltativo) Per aprire le impostazioni di un annuncio, fare clic su **[!UICONTROL View Ad]** accanto all&#39;annuncio.
 
-   * Per capire perché l&#39;DSP non ha fatto un&#39;offerta per il posizionamento:
+   * Per capire perché DSP non ha fatto un&#39;offerta per il posizionamento:
 
       1. In alto a destra, fare clic su **[!UICONTROL Non Bids]**.
 
@@ -72,6 +72,6 @@ I rapporti di diagnostica possono essere utili per diagnosticare i problemi rela
 
 >[!MORELIKETHIS]
 >
->* [Tipi di report sulle prestazioni nelle visualizzazioni di Campaign Management](campaign-reports-about.md)
+>* [Tipi di rapporti sulle prestazioni nelle visualizzazioni di gestione delle campagne](campaign-reports-about.md)
 >* [Visualizza il rapporto Previsione posizionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Impostazioni posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)

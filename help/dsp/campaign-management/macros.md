@@ -3,7 +3,7 @@ title: Macro di Advertising DSP
 description: Fai riferimento alle macro disponibili per il tracciamento generale e per tenere traccia dei clic sugli annunci display di terze parti.
 feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
-source-git-commit: 195e75386e64c3659d3f4db3c2508ac903e9e311
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Macro di Advertising DSP
 
-Una macro è un comando breve o una scorciatoia per un&#39;istruzione e in genere segue il formato `${MACRO_NAME}`. Le macro incluse nel codice creativo o negli URL di click-through si espandono in una stringa di codice più lunga che il server dell’annuncio può comprendere. Il server di annunci DSP esegue le macro quando l’annuncio viene distribuito o su cui si fa clic.
+Una macro è un comando breve o una scorciatoia per un&#39;istruzione e in genere segue il formato `${MACRO_NAME}`. Le macro incluse nel codice creativo o negli URL di click-through si espandono in una stringa di codice più lunga che il server dell’annuncio può comprendere. Il server di annunci di DSP esegue le macro quando l’annuncio viene distribuito o su cui si fa clic.
 
-Le macro del server di annunci sono utili per trasmettere informazioni importanti all’DSP o a server di annunci di terze parti. Le macro sono più comunemente utilizzate durante il traffico di codice creativo o metadati di terze parti e personalizzati (come i pixel di terze parti).
+Le macro del server di annunci sono utili per trasmettere informazioni importanti a DSP o a server di annunci di terze parti. Le macro sono più comunemente utilizzate durante il traffico di codice creativo o metadati di terze parti e personalizzati (come i pixel di terze parti).
 
-È possibile inserire manualmente una macro in qualsiasi punto, ad esempio in un tag VAST, in qualsiasi URL oppure in un DSP o in un pixel evento di terze parti. Tuttavia, ogni client e partner DSP ha un formato di tag annuncio diverso e le macro devono essere inserite in punti diversi del tag di conseguenza. Ogni volta che si lavora con un nuovo cliente o partner, chiedere loro la documentazione su dove inserire le macro nei loro tag pubblicitari che vengono trafficate da DSP.
+È possibile inserire manualmente una macro in qualsiasi punto, ad esempio in un tag VAST, in qualsiasi URL oppure in un DSP o in un pixel evento di terze parti. Tuttavia, ogni client e partner di DSP ha un formato di tag annuncio diverso e le macro devono essere inserite in punti diversi del tag di conseguenza. Ogni volta che si lavora con un nuovo client o partner, chiedere loro la documentazione su dove inserire le macro nei loro tag pubblicitari che DSP tratta.
 
 ## Macro di tracciamento generali
 
@@ -67,9 +67,9 @@ Utilizza le macro di tracciamento generali per tutti i tipi di annunci e tag per
 
 {style="table-layout:auto"}
 
-## Fare clic su Macro per gli annunci visualizzati di terze parti
+## Fare clic sulle macro per gli annunci di visualizzazione di terze parti
 
-Per tenere traccia con precisione dei clic per gli annunci che utilizzano tag di visualizzazione di terze parti, l’DSP richiede una macro di clic di visualizzazione. È necessaria una sola versione della macro; la macro pertinente dipende dal tipo di tag.
+Per tenere traccia con precisione dei clic per gli annunci che utilizzano tag di visualizzazione di terze parti, DSP richiede una macro di clic di visualizzazione. È necessaria una sola versione della macro; la macro pertinente dipende dal tipo di tag.
 
 | Macro | Descrizione sostituzione | Tipo |
 | ----- | ----------------------- | ---- |
@@ -83,13 +83,13 @@ DSP inserisce automaticamente le macro di clic di visualizzazione in un tag di v
 * Esporta tag annuncio da un partner server annunci <!-- [Needs PM confirmation.] -->
 * Caricamento in blocco di [!DNL Flashtalking] o [!DNL Google DoubleClick for Advertisers] tag pubblicitari direttamente in DSP
 
-DSP Se durante la creazione di un annuncio pubblicitario non viene visualizzata una macro di clic, viene visualizzato un messaggio di avviso che richiede di inserire manualmente la macro di clic di visualizzazione appropriata nell&#39;area corretta del tag.
+Se durante la creazione di un annuncio pubblicitario non viene visualizzata una macro di clic, in DSP viene visualizzato un messaggio di avviso che richiede di inserire manualmente la macro di clic di visualizzazione appropriata nell&#39;area corretta del tag.
 
 ## Macro di [!DNL Analytics for Advertising]
 
 Per ulteriori macro disponibili specificatamente per i clienti [[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md), vedere &quot;[Aggiungi [!DNL Analytics for Advertising] Macro a [!DNL Flashtalking] Tag annuncio](/help/integrations/analytics/macros-flashtalking.md)&quot; e &quot;[Aggiungi [!DNL Analytics for Advertising] Macro a [!DNL Google Campaign Manager 360] Tag annuncio](/help/integrations/analytics/macros-google-campaign-manager.md)&quot;.
 
-## Risoluzione dei problemi relativi agli errori delle macro
+## Risoluzione dei problemi relativi alle macro
 
 Quando si aggiungono macro al codice, assicurarsi di utilizzare la sintassi esatta della macro. Durante la convalida delle macro, DSP verifica che la macro corrisponda esattamente a una delle macro valide.
 

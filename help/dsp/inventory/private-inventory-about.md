@@ -3,9 +3,9 @@ title: Informazioni sull’inventario privato
 description: Informazioni sull’inventario privato
 feature: DSP Private Inventory
 exl-id: 34fc1926-a839-4f2d-8628-557542fb7835
-source-git-commit: c813954c0489d5cae067b3ea43d3527fc80c261a
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,7 @@ ht-degree: 0%
 Gli inserzionisti che guardano oltre la RTB possono utilizzare l&#39;inventario privato per facilitare le transazioni multimediali esclusive. Gli scambi privati consentono agli editori di creare pool esclusivi di inventario, che gli inserzionisti approvati possono utilizzare per acquistare tramite piattaforme in tempo reale. Uno scambio privato offre la fiducia di un acquisto diretto combinato con vantaggi programmatici come efficienza, flusso di lavoro semplificato e analisi centralizzate delle campagne.
 
 ## ID offerta
+
 
 Se hai relazioni dirette con gli editori, puoi semplificare il processo e il flusso di lavoro di acquisto di contenuti multimediali utilizzando le offerte private, con l’inventario e i prezzi negoziati, nei tuoi posizionamenti Advertising DSP. Quando imposti un account, DSP si integra con tutti gli editori. Se desideri accedere ad altri editori in un secondo momento, contatta il team del tuo account Adobe per configurare l’accesso. <!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
 
@@ -32,7 +33,7 @@ Puoi utilizzare gli ID offerta in uno dei seguenti modi:
 
 Puoi utilizzare ogni offerta privata come destinazione di posizionamento per più campagne tra gli inserzionisti specificati. Per le offerte garantite, devi creare un posizionamento predefinito dopo aver creato l’offerta, ma puoi aggiungere la stessa offerta a posizionamenti aggiuntivi per ignorare il posizionamento predefinito.
 
-## Visualizzazione Offerte
+## Visualizzazione [!UICONTROL Deals]
 
 Nella visualizzazione [!UICONTROL Inventory] > [!UICONTROL Deals], puoi creare impostazioni di offerta private. È inoltre possibile modificare alcune impostazioni di offerta, elencare i posizionamenti e gli annunci e allegare ulteriori posizionamenti e annunci a un&#39;offerta privata, modificare gli inserzionisti e gli account che possono accedere a un&#39;offerta privata, visualizzare un report sulle prestazioni per un&#39;offerta, visualizzare informazioni sulle aste per un&#39;offerta privata o archiviare o annullare l&#39;archiviazione di un&#39;offerta.<!-- ; or edit the attribute tags for a deal -->
 
@@ -40,7 +41,7 @@ La colonna &quot;Integrità dell’offerta&quot; indica lo stato di integrità d
 
 Puoi personalizzare il modo in cui i dati delle offerte esistenti vengono presentati applicando filtri, personalizzando le colonne visibili e, facoltativamente, salvando viste personalizzate, ordinando le colonne e visualizzando i dati come grafici.
 
-## Visualizzazione degli elenchi di offerte
+## Visualizzazione [!UICONTROL Deal Lists]
 
 Nella visualizzazione [!UICONTROL Inventory] > [!UICONTROL Deal Lists], puoi raggruppare le offerte private in elenchi per facilitarne il targeting.
 

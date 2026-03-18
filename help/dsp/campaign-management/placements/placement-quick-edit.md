@@ -1,16 +1,16 @@
 ---
-title: Modifica rapida impostazioni di posizionamento chiave
+title: Modifica rapida delle impostazioni di posizionamento delle chiavi
 description: Scopri come modificare rapidamente le impostazioni di posizionamento chiave.
 feature: DSP Placements
 exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
-source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%
 
 ---
 
-# Modifica rapida impostazioni di posizionamento chiave
+# Modifica rapida delle impostazioni di posizionamento delle chiavi
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
@@ -38,4 +38,4 @@ Puoi modificare il nome del posizionamento, lo stato, l’offerta massima e il b
 >* [Disattivare o attivare un posizionamento](placement-pause-activate.md)
 >* [Visualizza il log delle modifiche per un posizionamento](placement-change-log.md)
 >* [Impostazioni posizionamento](placement-settings.md)
->* [Video: come modificare i posizionamenti utilizzando gli strumenti di modifica in blocco](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=it)
+>* [Video: come modificare i posizionamenti utilizzando gli strumenti di modifica in blocco](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
