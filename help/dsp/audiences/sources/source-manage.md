@@ -121,7 +121,7 @@ Per [!DNL RampID] e [!DNL Unified ID2.0], il fornitore cerca ogni indirizzo e-ma
 
 * *[!DNL RampID]:* Per convertire PII in [!DNL RampID]. È possibile utilizzare [!DNL RampIDs] per il retargeting degli utenti che accedono e per la misurazione di [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).
 
-* *[!DNL Unified ID2.0](Beta):* Per convertire PII in un ID [Unified ID 2.0](https://unifiedid.com) per il retargeting degli utenti che accedono.
+* *[!DNL Unified ID2.0] (Beta):* Per convertire PII in un ID [Unified ID 2.0](https://unifiedid.com) per il retargeting degli utenti che accedono.
 
 <!-- Later
 * *[!DNL ID5] (Beta):* To convert PII to an [!DNL ID5] ID. You can use [!DNL ID5] IDs for retargeting logging-in users and for [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) measurement.
