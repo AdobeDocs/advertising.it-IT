@@ -3,7 +3,7 @@ title: Creare e implementare un segmento personalizzato
 description: Scopri come creare e implementare un segmento personalizzato per tenere traccia degli utenti esposti agli annunci o degli utenti che visitano le tue pagine web.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: dda4ff8e7538bc742caa50862575cb4e46a1371d
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
@@ -18,11 +18,11 @@ Puoi raccogliere i tuoi dati sul pubblico di prime parti creando e implementando
 >
 >Per tenere traccia degli ID degli utenti dalle richieste di rifiuto del consumatore sul sito Web, in base al California Consumer Privacy Act (CCPA), crea un [segmento di rifiuto del CCPA](ccpa-opt-out-segment-create.md).
 
-## Prerequisiti per i segmenti per tenere traccia degli ID ID5
+## Prerequisiti per i segmenti per tenere traccia degli ID5
 
 *funzionalità Beta*
 
-* Prima di generare un segmento per tenere traccia degli utenti associati agli ID5, firma un contratto con [!DNL ID5] e ottieni l&#39;ID partner della tua organizzazione. Per istruzioni, contatta il team del tuo account di Adobe.
+* Prima di generare un segmento per tenere traccia degli utenti associati agli ID5, firma un contratto con [!DNL ID5] e ottieni l&#39;ID partner della tua organizzazione. Contatta il team del tuo account Adobe per istruzioni.
 
 * Per la misurazione in Adobe Analytics, è necessario:
 
@@ -71,7 +71,7 @@ Puoi raccogliere i tuoi dati sul pubblico di prime parti creando e implementando
 
          * *[!UICONTROL ID5]:* Il tag segmento tiene traccia di [!DNL ID5] ID. Non viene applicata alcuna tariffa per le impression consegnate agli ID universali.
 
-        **[!UICONTROL Terms of Service]:** I termini del contratto di servizio per l&#39;utilizzo degli ID universali. Prima di poter utilizzare gli ID universali per un nuovo tipo di ID, è necessario che tu o un altro utente con l’account DSP accetti una volta i termini. Per i clienti con contratti di assistenza gestiti, il team dell’account Adobe otterrà il consenso e accetterà i termini per conto della tua organizzazione. Per leggere i termini, fare clic su **>**. Per accettare i termini, scorrere fino alla fine dei termini e fare clic su **[!UICONTROL Accept]**.
+        **[!UICONTROL Terms of Service]:** I termini del contratto di servizio per l&#39;utilizzo degli ID universali. Prima di poter utilizzare gli ID universali per un nuovo tipo di ID, è necessario che tu o un altro utente nell’account DSP accetti una volta i termini. Per i clienti con contratti di assistenza gestiti, il team dell’account Adobe riceverà il consenso e accetterà le condizioni per conto della tua organizzazione. Per leggere i termini, fare clic su **>**. Per accettare i termini, scorrere fino alla fine dei termini e fare clic su **[!UICONTROL Accept]**.
 
    1. Fare clic su **[!UICONTROL Save]**.
 

@@ -5,7 +5,7 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: f2d7428f70448421dd7b6d9c3d237783b800cd83
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -139,11 +139,11 @@ Risposta: `1`, `proceed`, `2`, `maximum reach` e così via.
 
 Puoi anche ignorare la richiesta e continuare a specificare altri criteri di pubblico.
 
-## Procedure consigliate per la creazione di un resoconto del pubblico {#audience-brief-best-practices}
+## Best practice per la creazione di una descrizione del pubblico {#audience-brief-best-practices}
 
 Un resoconto del pubblico è un resoconto strategico che definisce il pubblico target di una campagna. Un resoconto ben strutturato aiuta l’agente del pubblico di DSP a identificare i segmenti più rilevanti per assemblare il pubblico di destinazione.
 
-### Componenti essenziali per un resoconto efficace del pubblico
+### Componenti essenziali di un’efficace descrizione del pubblico
 
 Includi il maggior numero possibile di tipi di attributi di pubblico dall’elenco seguente nella tua descrizione. Specifica gli attributi da escludere.
 
@@ -188,7 +188,7 @@ Includi il maggior numero possibile di tipi di attributi di pubblico dall’elen
 
   L&#39;attuale fase comprende la fase della carriera (studente, entry-level, mid-carriera, dirigente, pensionato), la fase della famiglia (sposi, nuovi genitori, nidi vuoti) e le transizioni di vita principali.
 
-### Esempio di resoconto ben strutturato del pubblico per una campagna di prospezione
+### Esempio di descrizione ben strutturata del pubblico per una campagna di ricerca di potenziali clienti
 
 Di seguito è riportato un esempio di una descrizione dettagliata del pubblico per una campagna di sensibilizzazione e sperimentazione per un servizio di abbonamento a un kit per un pasto premium:
 

@@ -3,9 +3,9 @@ title: Creare e implementare un segmento di rifiuto del CCPA
 description: Scopri come creare e implementare un segmento per tenere traccia degli ID degli utenti dalle richieste di rifiuto da parte dei consumatori.
 feature: CCPA, DSP Segments
 exl-id: 0623c52e-02ea-4e06-bc54-8abb7a87765a
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e61f3c7d066a72f9a438ef292122cdf99370fd0c
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Una volta implementato il tag pixel del segmento, Adobe Advertising inizia a rac
 
 >[!NOTE]
 >
->* Per informazioni su come comunicare le richieste di rifiuto del CCPA ad Adobe Advertising utilizzando l&#39;API Adobe Experience Platform Privacy Service, vedere [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=it](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=it).
+>* Per informazioni su come comunicare le richieste di rifiuto del CCPA ad Adobe Advertising tramite l&#39;API Adobe Experience Platform Privacy Service, vedere [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html).
 >* Per tenere traccia degli utenti che visitano le pagine Web per scopi non correlati al tracciamento di eventi di rifiuto del CCPA, nonché degli utenti esposti agli annunci da dispositivi desktop, mobili e CTV, creare un [segmento personalizzato](/help/dsp/audiences/custom-segment-create.md).
 
 1. Crea il segmento:
@@ -60,8 +60,8 @@ Una volta implementato il tag pixel del segmento, Adobe Advertising inizia a rac
 
 >[!MORELIKETHIS]
 >
->* [Supporto di Adobe Advertising per il California Consumer Privacy Act: Consumer Opt-out Support](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
+>* [Supporto di Adobe Advertising per il California Consumer Privacy Act: supporto per la rinuncia del consumatore](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
 >* [Informazioni su [!UICONTROL CCPA Opt-out-of-Sale] segmenti e report](ccpa-opt-out-about.md)
->* [Recupera report sulla rinuncia del consumatore](ccpa-opt-out-segment-report-retrieve.md)
+>* [Recupera report di rifiuto del consumatore](ccpa-opt-out-segment-report-retrieve.md)
 >* [Creare e implementare un segmento personalizzato](custom-segment-create.md)
 >* [Informazioni su Gestione dell&#39;audience](audience-about.md)

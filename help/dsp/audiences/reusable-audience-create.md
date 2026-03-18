@@ -3,7 +3,7 @@ title: Creare un pubblico riutilizzabile
 description: Scopri come creare un pubblico riutilizzabile costituito da segmenti di pubblico e altri tipi di pubblico salvati.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-source-git-commit: e2d040409bcf18ca3c7906e8f3d5d3dc6633d2d7
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 0%

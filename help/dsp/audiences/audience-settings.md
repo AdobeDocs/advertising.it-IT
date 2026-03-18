@@ -3,10 +3,10 @@ title: Impostazioni pubblico
 description: Consulta le descrizioni delle impostazioni disponibili per il pubblico.
 feature: DSP Audiences
 exl-id: ea69ed6e-2d68-4ac5-8465-2ee7d798ae1d
-source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
+source-git-commit: e61f3c7d066a72f9a438ef292122cdf99370fd0c
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >(Per gli inserzionisti per i quali DSP converte gli ID e-mail con hash in segmenti RampID LiveRamp) I segmenti RampID di prime parti che non sono collegati a un posizionamento attivo, pianificato o in pausa vengono ora messi in pausa. Nell’elenco dei segmenti, il segmento viene indicato come &quot;In pausa automatica&quot;.
 
-## Segmenti Adobe
+## Segmenti di Adobe
 
 (Facoltativo) Qualsiasi segmento [!DNL Adobe Real-Time CDP], Adobe Analytics o Adobe Audience Manager da includere nella configurazione del pubblico.
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 (Facoltativo) Qualsiasi segmento creato dall&#39;utente, che viene acquisito utilizzando pixel di segmento DSP personalizzati, da includere nella configurazione del pubblico. Possono essere inclusi i segmenti personalizzati standard e i segmenti di rifiuto del CCPA.
 
-## Tipi di pubblico salvati
+## Pubblico salvato
 
 (Facoltativo) Tutti i tipi di pubblico esistenti incorporati nella Libreria tipi di pubblico da includere nella configurazione del pubblico.
 

@@ -3,7 +3,7 @@ title: Provider di dati di terze parti disponibili in Advertising DSP
 description: Visualizza un elenco di tutti i provider di dati di terze parti disponibili.
 feature: DSP Audiences
 exl-id: 081d1513-b105-4d32-a98c-145c7122cb89
-source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
+source-git-commit: 5110e9b4c966f5d719743d09b5a3aebbb37e0a05
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Provider di dati di terze parti disponibili in Advertising DSP
 
-Le categorie di dati e i segmenti per i seguenti fornitori di dati di terze parti sono disponibili come target di posizionamento in DSP. Questi segmenti sono disponibili principalmente per il pubblico statunitense.
+Le categorie e i segmenti di dati per i seguenti provider di dati di terze parti sono disponibili come target di posizionamento in DSP. Questi segmenti sono disponibili principalmente per il pubblico statunitense.
 
 La tariffa per l’utilizzo di ciascun segmento viene visualizzata accanto al nome del segmento nelle impostazioni di posizionamento e nelle impostazioni relative al pubblico salvato.
 
@@ -39,7 +39,7 @@ La tariffa per l’utilizzo di ciascun segmento viene visualizzata accanto al no
 * [!DNL Weborama]
 * [!DNL Zeotap]
 
-Per ulteriori informazioni sull’importazione di segmenti personalizzati di terze parti per il tuo account, contatta il team dell’account del tuo Adobe.
+Per ulteriori informazioni sull’importazione di segmenti personalizzati di terze parti per il tuo account, contatta il team del tuo account di Adobe.
 
 >[!MORELIKETHIS]
 >

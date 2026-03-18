@@ -3,7 +3,7 @@ title: Gestire le origini del pubblico per attivare i tipi di pubblico con ID un
 description: Scopri come creare e gestire un’origine per importare i tipi di pubblico dalla piattaforma di dati dei clienti e convertirli in segmenti contenenti ID universali.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: e9ce180e302f619c85a3d6db813c83903e437d04
+source-git-commit: 5110e9b4c966f5d719743d09b5a3aebbb37e0a05
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 *funzionalità Beta*
 
-Crea un’origine in DSP per ogni pubblico di prime parti nella piattaforma di dati cliente che desideri convertire in segmenti contenenti tipi di ID universali specificati. Puoi importare i segmenti nell’account DSP della tua organizzazione o in un account inserzionista. Gli addebiti per i dati vengono applicati in base ai tipi di ID universali selezionati. Dopo aver creato una sorgente, sono necessari passaggi aggiuntivi per acquisire i tipi di pubblico da ogni piattaforma di dati cliente. Vedere la nota alla fine della procedura per creare un&#39;origine.
+Crea un’origine in DSP per ogni pubblico di prime parti nella piattaforma dati del cliente che desideri convertire in segmenti contenenti tipi di ID universali specificati. Puoi importare i segmenti nell’account DSP della tua organizzazione o in un account inserzionista. Gli addebiti per i dati vengono applicati in base ai tipi di ID universali selezionati. Dopo aver creato una sorgente, sono necessari passaggi aggiuntivi per acquisire i tipi di pubblico da ogni piattaforma di dati cliente. Vedere la nota alla fine della procedura per creare un&#39;origine.
 
 In seguito, puoi modificare i tipi di ID universali in cui viene tradotto il pubblico di origine e visualizzare un registro delle modifiche.
 
 È inoltre possibile eliminare un&#39;origine.
 
-## Creazione di un Audience Source
+## Creare un’origine di pubblico
 
 <!-- Not sure about this
 
@@ -56,7 +56,7 @@ You can create one source for each combination of universal ID partner and data 
 >
 >Dopo aver creato un’origine per la piattaforma di dati cliente, devi completare i passaggi aggiuntivi per importare il pubblico. Visualizza il [flusso di lavoro per [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md),<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), --> il [flusso di lavoro per [!DNL Amperity]](source-amperity.md), il [flusso di lavoro per [!DNL Optimizely]](source-optimizely.md) e il [flusso di lavoro per [!DNL Tealium]](source-tealium.md).
 
-## Modificare i tipi di ID per Audience Source
+## Modificare i tipi di ID per un’origine pubblico
 
 <!-- Clarify this:
 All changes to universal IDs translated from the source are applied after you save the the source record. For example, if a new ID is added, any hashed email addresses shared before making the changes aren't converted. Similarly, if an ID is removed, we don't delete any historical data from the segments shared through the source.
@@ -75,7 +75,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 1. Fare clic su **[!UICONTROL Save]**.
 
-## Eliminare un Audience Source
+## Eliminare un’origine di pubblico
 
 L&#39;eliminazione di un&#39;origine rimuove i segmenti tradotti attraverso l&#39;origine.<!-- Will performance data for the segment still be available in any types of reports?  If yes, which? -->
 
@@ -85,7 +85,7 @@ L&#39;eliminazione di un&#39;origine rimuove i segmenti tradotti attraverso l&#3
 
 1. Nel messaggio di conferma, fare clic su **[!UICONTROL Delete]**.
 
-## Visualizzare il registro delle modifiche per un Audience Source
+## Visualizzare il registro delle modifiche per un&#39;origine pubblico
 
 Puoi visualizzare i dettagli sulle modifiche apportate a un record di origine del pubblico e, facoltativamente, allegare note al registro.
 
@@ -103,7 +103,7 @@ Puoi visualizzare i dettagli sulle modifiche apportate a un record di origine de
 
 1. (Facoltativo) Per aprire il registro in una schermata di dettaglio più grande, posizionare il cursore sulla riga di origine e fare clic su **[!UICONTROL View Details]**.
 
-## Impostazioni Audience Source {#source-settings}
+## Impostazioni origine pubblico {#source-settings}
 
 **[!UICONTROL Data Visibility Level]:** se i segmenti sono disponibili per un singolo inserzionista con accesso all&#39;account (*[!UICONTROL Advertiser]*) o per tutti gli inserzionisti con accesso all&#39;account *[!UICONTROL Account]*.
 
@@ -121,14 +121,14 @@ Per [!DNL RampID] e [!DNL Unified ID2.0], il fornitore cerca ogni indirizzo e-ma
 
 * *[!DNL RampID]:* Per convertire PII in [!DNL RampID]. È possibile utilizzare [!DNL RampIDs] per il retargeting degli utenti che accedono e per la misurazione di [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).
 
-* *[!DNL Unified ID2.0] (Beta):* Per convertire PII in un ID [Unified ID 2.0](https://unifiedid.com) per il retargeting degli utenti che accedono.
+* *[!DNL Unified ID2.0](Beta):* Per convertire PII in un ID [Unified ID 2.0](https://unifiedid.com) per il retargeting degli utenti che accedono.
 
 <!-- Later
 * *[!DNL ID5] (Beta):* To convert PII to an [!DNL ID5] ID. You can use [!DNL ID5] IDs for retargeting logging-in users and for [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) measurement.
 
 -->
 
-**[!UICONTROL Terms of Service]:** I termini del contratto di servizio per la conversione di PII in ID universali. Prima di poter convertire i dati in un nuovo tipo di ID, tu o un altro utente dell’account DSP dovete accettare i termini una volta. Per i clienti con contratti di assistenza gestiti, il team dell’account Adobe riceverà il consenso e accetterà le condizioni per conto della tua organizzazione. Per leggere i termini, fare clic su **>**. Per accettare i termini, scorrere fino alla fine dei termini e fare clic su **[!UICONTROL Accept]**.
+**[!UICONTROL Terms of Service]:** I termini del contratto di servizio per la conversione di PII in ID universali. Prima di poter convertire i dati in un nuovo tipo di ID, è necessario che tu o un altro utente nell’account DSP accetti una volta i termini. Per i clienti con contratti di assistenza gestiti, il team dell’account Adobe riceverà il consenso e accetterà le condizioni per conto della tua organizzazione. Per leggere i termini, fare clic su **>**. Per accettare i termini, scorrere fino alla fine dei termini e fare clic su **[!UICONTROL Accept]**.
 
 **[!UICONTROL Source Key]:** (sola lettura; generata automaticamente) La chiave di origine che puoi utilizzare per creare una connessione di destinazione nella piattaforma dati del cliente per inviare pubblici ad Advertising DSP. Puoi copiare il valore negli Appunti per incollarlo nelle impostazioni di connessione di destinazione o in un file.
 

@@ -3,7 +3,7 @@ title: Informazioni sulle origini del pubblico di prime parti
 description: Scopri come convertire altri identificatori utente nei segmenti di prime parti in ID universali per il targeting senza cookie.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 3a641db6b145e67e6e1f1daca271dd524973e075
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *funzionalità Beta*
 
-L’DSP può acquisire segmenti di prime parti composti da ID e-mail con hash incorporati nella piattaforma di dati cliente (CDP) e convertirli in segmenti costituiti da ID universali. Ogni ID risultante è basato sulle persone e vengono applicati limiti di frequenza degli annunci a livello di ID<!-- Move that info. to somewhere else? -->.
+DSP può acquisire segmenti di prime parti composti da ID e-mail con hash incorporati nella piattaforma di dati cliente (CDP) e convertirli in segmenti costituiti da ID universali. Ogni ID risultante è basato sulle persone e vengono applicati limiti di frequenza degli annunci a livello di ID<!-- Move that info. to somewhere else? -->.
 
 I dettagli del segmento includono la dimensione di ogni tipo di ID universale e la dimensione di ogni tipo di dispositivo monitorato da cookie o ID dispositivo.
 
@@ -66,33 +66,33 @@ Puoi tradurre i segmenti di prime parti in segmenti con ID autenticati (determin
 
 ## Piattaforme di dati cliente supportate per segmenti di prime parti
 
-L’DSP ha stabilito dei connettori per i seguenti CDP per acquisire rapidamente i segmenti di prime parti.
+DSP ha stabilito dei connettori per i seguenti CDP per acquisire rapidamente i segmenti di prime parti.
 
-L’DSP può anche connettersi a qualsiasi CDP aggiuntivo utilizzando la condivisione di dati in batch, in streaming o basata su API. Per l’integrazione con un nuovo CDP, contatta il team del tuo account Adobe.
+DSP può anche connettersi a qualsiasi CDP aggiuntivo utilizzando la condivisione di dati in batch, in streaming o basata su API. Per effettuare l’integrazione con un nuovo CDP, contatta il team del tuo account Adobe.
 
 ### [!DNL Adobe Real-Time CDP]
 
 DSP è una *destinazione* integrata per [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=it), che fa parte di Adobe Experience Platform.
 
-In [!DNL Real-Time CDP], le destinazioni sono connessioni a piattaforme dati esterne che consentono l&#39;attivazione diretta dei dati. Puoi utilizzare le destinazioni per attivare gli indirizzi e-mail con hash per la pubblicità mirata in DSP. Per ulteriori informazioni sulle destinazioni, vedere l&#39;Experience Platform [Guida alle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=it), che include una panoramica del prodotto, istruzioni per [la creazione delle aree di lavoro di destinazione](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html?lang=it) e [la creazione delle connessioni di destinazione](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=it) e [l&#39;attivazione dei dati nelle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html?lang=it).
+In [!DNL Real-Time CDP], le destinazioni sono connessioni a piattaforme dati esterne che consentono l&#39;attivazione diretta dei dati. Puoi utilizzare le destinazioni per attivare gli indirizzi e-mail con hash per la pubblicità mirata in DSP. Per ulteriori informazioni sulle destinazioni, vedere la [Guida alle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html) di Experience Platform, inclusa una panoramica del prodotto, istruzioni per [creare aree di lavoro di destinazione](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) e [creare connessioni di destinazione](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) e [attivare dati nelle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
 
-Per consentire all&#39;DSP di acquisire i segmenti di prime parti [!DNL Adobe] [!DNL Real-time CDP] e convertire gli indirizzi e-mail con hash in ID universali, vedi &quot;[Convertire gli ID utente da [!DNL Adobe Real-Time CDP] a ID universali](/help/dsp/audiences/sources/source-adobe-rtcdp.md).&quot;
+Per consentire a DSP di acquisire i segmenti di prime parti [!DNL Adobe] [!DNL Real-time CDP] e convertire gli indirizzi e-mail con hash in ID universali, consulta &quot;[Convertire gli ID utente da [!DNL Adobe Real-Time CDP] a ID universali](/help/dsp/audiences/sources/source-adobe-rtcdp.md).&quot;
 
 ### [!DNL ActionIQ]
 
-Puoi condividere i dati di prime parti della tua organizzazione dalla piattaforma dati cliente [!DNL ActionIQ] con DSP per convertire gli indirizzi e-mail con hash in ID universali per la pubblicità mirata in DSP. Questa integrazione richiede la personalizzazione. Per ulteriori informazioni, contatta il team del tuo account Adobe.
+Puoi condividere i dati di prime parti della tua organizzazione dalla piattaforma dati del cliente [!DNL ActionIQ] con DSP per convertire gli indirizzi e-mail con hash in ID universali per la pubblicità mirata in DSP. Questa integrazione richiede la personalizzazione. Per ulteriori informazioni, contatta il team del tuo account di Adobe.
 
 ### [!DNL Amperity]
 
-Puoi condividere i dati di prime parti della tua organizzazione dalla piattaforma dati cliente [!DNL Amperity] con DSP per convertire gli indirizzi e-mail con hash in ID universali per la pubblicità mirata in DSP. Per ulteriori informazioni, vedere &quot;[Convertire ID utente da [!DNL Amperity] a ID universali](/help/dsp/audiences/sources/source-amperity.md).&quot;
+Puoi condividere i dati di prime parti della tua organizzazione dalla piattaforma dati del cliente [!DNL Amperity] con DSP per convertire gli indirizzi e-mail con hash in ID universali per la pubblicità mirata in DSP. Per ulteriori informazioni, vedere &quot;[Convertire ID utente da [!DNL Amperity] a ID universali](/help/dsp/audiences/sources/source-amperity.md).&quot;
 
 ### [!DNL Optimizely]
 
-Puoi condividere i dati di prime parti della tua organizzazione dalla piattaforma dati cliente [!DNL Optimizely] con DSP per convertire gli indirizzi e-mail con hash in ID universali per la pubblicità mirata in DSP. Per ulteriori informazioni, vedere &quot;[Convertire ID utente da [!DNL Optimizely] a ID universali](/help/dsp/audiences/sources/source-optimizely.md).&quot;
+Puoi condividere i dati di prime parti della tua organizzazione dalla piattaforma dati del cliente [!DNL Optimizely] con DSP per convertire gli indirizzi e-mail con hash in ID universali per la pubblicità mirata in DSP. Per ulteriori informazioni, vedere &quot;[Convertire ID utente da [!DNL Optimizely] a ID universali](/help/dsp/audiences/sources/source-optimizely.md).&quot;
 
 ### [!DNL Tealium]
 
-Puoi condividere i dati di prime parti della tua organizzazione dalla piattaforma dati del cliente [!DNL Tealium] utilizzando [!DNL Amazon Web Services]. Per ulteriori informazioni sulla conversione degli indirizzi e-mail con hash in ID universali per la pubblicità mirata in DSP, consulta &quot;[Converti ID utente da [!DNL Tealium] a ID universali](/help/dsp/audiences/sources/source-tealium.md).&quot;
+Puoi condividere i dati di prime parti della tua organizzazione dalla piattaforma dati del cliente [!DNL Tealium] utilizzando [!DNL Amazon Web Services]. Per ulteriori informazioni sulla conversione degli indirizzi e-mail con hash in ID universali per la pubblicità mirata in DSP, consulta &quot;[Convertire gli ID utente da [!DNL Tealium] a ID universali](/help/dsp/audiences/sources/source-tealium.md).&quot;
 
 >[!MORELIKETHIS]
 >
