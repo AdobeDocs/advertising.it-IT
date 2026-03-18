@@ -1,16 +1,16 @@
 ---
-title: Informazioni sulla gestione dell'audience in Advertising DSP
+title: Informazioni sulla gestione dell’audience in Advertising DSP
 description: Scopri le funzioni di gestione dell’audience.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: 94a5b5591aef0aa5ae5d3459d547f52d939d559c
+source-git-commit: 82a501ec03a5d0d32d2281d6a9c9a67180853026
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1324'
 ht-degree: 0%
 
 ---
 
-# Informazioni sulla gestione dell&#39;audience in Advertising DSP
+# Informazioni sulla gestione dell’audience in Advertising DSP
 
 In DSP, puoi creare e gestire segmenti di pubblico e set di tipi di pubblico, che puoi utilizzare come target per i posizionamenti:
 
@@ -20,7 +20,7 @@ In DSP, puoi creare e gestire segmenti di pubblico e set di tipi di pubblico, ch
 
    * [Segmenti di rifiuto del CCPA](/help/dsp/audiences/ccpa-opt-out-segment-create.md) per tenere traccia degli ID degli utenti dalle richieste di rifiuto del consumatore sul sito Web, in base al California Consumer Privacy Act (CCPA). Puoi recuperare rapporti mensili sugli ID utente dalle richieste di rifiuto.
 
-     Per ulteriori informazioni sul supporto di Adobe Advertising per le richieste di rifiuto del CCPA, consulta [Supporto di Adobe Advertising per il California Consumer Privacy Act: Consumer Opt-out Support](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
+     Per ulteriori informazioni sul supporto di Adobe Advertising per le richieste di rifiuto del CCPA, consulta [Supporto di Adobe Advertising per il California Consumer Privacy Act: supporto per il rifiuto del consenso alla vendita](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
 * (funzionalità Beta) [Ottieni e utilizza ID universali per il targeting senza cookie](/help/dsp/audiences/universal-ids.md):
 
@@ -84,9 +84,9 @@ Puoi indirizzare i posizionamenti a tutti i seguenti tipi di pubblico.
 
   >[!NOTE]
   >
-  >Consulta la documentazione di [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=it), [Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=it) e [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=it) per informazioni sulla configurazione e la raccolta dei dati per i segmenti in tali soluzioni.
+  >Consulta la documentazione di [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html), [Analytics](https://experienceleague.adobe.com/docs/analytics.html) e [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html) per informazioni sulla configurazione e la raccolta dei dati per i segmenti in tali soluzioni.
 
-## Dati dimensione pubblico
+## Dati sulle dimensioni del pubblico
 
 In Audiences > All Audiences e nella sezione Audience Targeting delle impostazioni di posizionamento, puoi filtrare ogni elenco di segmenti per intervallo di dimensioni, compresi intervalli separati per tipi di dispositivi specifici o tipi di ID universali.
 
@@ -108,13 +108,13 @@ Puoi anche visualizzare dati dettagliati sulle dimensioni del pubblico:
 
 ## Visualizzazioni di Audiences
 
-### Visualizzazione Tutti i tipi di pubblico
+### Vista Tutti i tipi di pubblico
 
 Nella visualizzazione [!UICONTROL All Audiences], o Libreria tipi di pubblico, è possibile salvare e gestire i tipi di pubblico riutilizzabili, che includono gruppi di segmenti di pubblico e anche altri tipi di pubblico salvati. Puoi utilizzare i tipi di pubblico come target per più posizionamenti. Il numero di posizionamenti in cui ogni pubblico viene utilizzato è indicato accanto al nome del posizionamento.
 
 Puoi modificare, clonare, eliminare, esportare o condividere qualsiasi tipo di pubblico.
 
-### Visualizzazione segmenti
+### Vista Segmenti
 
 Nella visualizzazione [!UICONTROL Segments], tutti gli utenti possono creare altri segmenti personalizzati.
 
