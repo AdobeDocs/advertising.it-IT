@@ -42,7 +42,7 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 
 >[!NOTE]
 >
->>* Se l&#39;URL della pagina di destinazione include un simbolo hash (#), che non è comune, inserire il parametro `amo` prima del simbolo hash.
+>&#x200B;>* Se l&#39;URL della pagina di destinazione include un simbolo hash (#), che non è comune, inserire il parametro `amo` prima del simbolo hash.
 >* Se dopo il parametro `amo` non sono inclusi altri parametri, aggiungere un parametro, ad esempio &amp;a=b. Esempio: `https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 ### Configurare il suffisso URL della pagina di destinazione a livello di inserzionista
