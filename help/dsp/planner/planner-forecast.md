@@ -18,7 +18,7 @@ ht-degree: 0%
 
 1. Posizionare il cursore sulla riga del piano e fare clic su **[!UICONTROL Forecast]**.
 
-1. (Facoltativo) Per esportare la previsione [!UICONTROL Budget vs Reach] in un foglio di calcolo [!DNL Microsoft Excel]**, fare clic su **[!UICONTROL ...]** in alto a destra, quindi su **[!UICONTROL Export]**.
+1. (Facoltativo) Per esportare la previsione [!UICONTROL Budget vs Reach] in un foglio di calcolo [!DNL Microsoft Excel]&#x200B;**, fare clic su &#x200B;** [!UICONTROL ...] **&#x200B; in alto a destra, quindi su &#x200B;** [!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >
