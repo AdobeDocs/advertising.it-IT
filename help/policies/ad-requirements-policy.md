@@ -1,22 +1,22 @@
 ---
-title: Criterio dei requisiti dell’annuncio di Adobe Advertising
+title: Criteri dei requisiti degli annunci di Adobe Advertising
 description: Consulta i criteri per i requisiti degli annunci.
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-source-git-commit: 5a13aee5b7dcefa9f74d26322078c75e53f18a69
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '2190'
 ht-degree: 0%
 
 ---
 
-# Criterio dei requisiti dell’annuncio di Adobe Advertising
+# Criteri dei requisiti degli annunci di Adobe Advertising
 
 *Ultimo aggiornamento del criterio: 17 luglio 2024<!-- (except for formatting changes unrelated to content)-->*
 
-*Ad Adobe Advertising DSP e Adobe Advertising: ricerca, social e Commerce*
+*Per Adobe Advertising DSP e Adobe Advertising: ricerca, social e Commerce*
 
-Questo criterio dei requisiti degli annunci (&quot;criterio&quot;) definisce i requisiti per gli annunci distribuiti tramite [!DNL Adobe’s] servizi on-demand, ad Adobe Advertising (&quot;servizi&quot;). Questo criterio viene incorporato tramite riferimento nel contratto tra [!DNL Adobe] e il Cliente (&quot;l&#39;utente&quot;) che utilizza i Servizi on-demand. I termini maiuscoli utilizzati nel presente documento ma non definiti in esso avranno il significato indicato nel Contratto.
+Questo criterio dei requisiti degli annunci (&quot;criterio&quot;) definisce i requisiti per gli annunci distribuiti tramite [!DNL Adobe’s] servizi on-demand per Adobe Advertising (&quot;servizi&quot;). Questo criterio viene incorporato tramite riferimento nel contratto tra [!DNL Adobe] e il Cliente (&quot;l&#39;utente&quot;) che utilizza i Servizi on-demand. I termini maiuscoli utilizzati nel presente documento ma non definiti in esso avranno il significato indicato nel Contratto.
 
 [!DNL Adobe] si riserva il diritto di determinare, a suo giudizio, se un Annuncio o i siti Web a cui l&#39;Annuncio reindirizza o collega violano i requisiti di questa Politica, nel qual caso [!DNL Adobe] può rifiutare tale Annuncio e/o terminare o sospendere l&#39;accesso ai Servizi su tale base.
 
@@ -24,11 +24,11 @@ Oltre ai requisiti indicati di seguito e nel Contratto, l&#39;Utente è tenuto a
 
 ## Requisiti del contenuto dell’annuncio
 
-### Requisiti creativi
+### Requisiti Creative
 
-Tutti gli annunci trasmessi, archiviati, visualizzati, distribuiti o resi disponibili in altro modo tramite i Servizi on-demand devono essere coerenti con le specifiche pubblicitarie contenute nelle Specifiche dell&#39;Adobe Advertising, in quanto potrebbero essere riviste di tanto in tanto da [!DNL Adobe].
+Tutti gli annunci trasmessi, memorizzati, visualizzati, distribuiti o resi disponibili in altro modo tramite i Servizi on-demand devono essere coerenti con le specifiche pubblicitarie contenute nelle Specifiche degli annunci di Adobe Advertising, in quanto potrebbero essere riviste di tanto in tanto da [!DNL Adobe].
 
-### Annunci vietati
+### Annunci proibiti
 
 Assicurati che gli annunci e i siti Web a cui un annuncio è collegato o reindirizzato non contengano o promuovano nessuno dei seguenti elementi:
 
@@ -62,7 +62,7 @@ Assicurati che gli annunci e i siti Web a cui un annuncio è collegato o reindir
 
 * **Vendita di parti del corpo**. Gli annunci non possono promuovere la vendita di parti del corpo o fluidi corporei.
 
-* **Distorsione degli annunci**. Gli annunci non possono contenere caratteristiche o contenuti che possano distrarre, risultare indesiderati o scomodi, tra cui funzioni di riproduzione automatica (ad esempio annunci che riproducono automaticamente audio o video), contenuti che lampeggiano, scuotono, pulsano, lampeggiano o contengono oggetti, testo o immagini eccessivamente animati, oggetti condivisi localmente (inclusi cookie flash e memorizzazione locale di HTML5) e annunci che interrompono l’esperienza utente (ad esempio sovrapponendosi ad altri contenuti).
+* **Distorsione degli annunci**. Gli annunci non possono contenere caratteristiche o contenuti che possano distrarre, risultare indesiderati o scomodi, tra cui funzioni di riproduzione automatica (come gli annunci che riproducono automaticamente audio o video), contenuti che lampeggiano, scuotono, pulsano, lampeggiano o contengono oggetti, testo o immagini eccessivamente animati, oggetti condivisi localmente (inclusi i cookie flash e l’archiviazione locale di HTML5) e annunci che interrompono l’esperienza utente (ad esempio sovrapponendosi ad altri contenuti).
 
 * **Contenuto politico**. Il contenuto politico comprende le comunicazioni che: (1) sono pagate da qualsiasi candidato per una carica (federale, statale, locale o internazionale) o campagna del candidato; (2) sono pagate da qualsiasi entità registrata o segnalante ai sensi della legge sul finanziamento della campagna di qualsiasi giurisdizione (federale, statale, locale o internazionale); (3) si schiera espressamente a favore o contro qualsiasi candidato chiaramente identificato (federale, statale, locale o internazionale), o (4) sono altrimenti disciplinate dalla legge sul finanziamento della campagna di qualsiasi giurisdizione. Questo divieto include, ma non è limitato a, emettere annunci di sostegno che sono direttamente o indirettamente correlati a qualsiasi elezione, campagna politica, candidato a una carica pubblica, voto, iniziativa di voto, legislazione o referendum.
 

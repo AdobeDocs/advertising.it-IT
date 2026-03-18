@@ -1,10 +1,10 @@
 ---
-title: Supporto Adobe Advertising per il California Consumer Privacy Act &#58; Supporto per la rinuncia dei consumatori
+title: Supporto Adobe Advertising per il California Consumer Privacy Act &#58; Supporto per la rinuncia del consumatore
 description: Scopri il supporto per l’acquisizione delle richieste di rifiuto del consumatore.
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 0%
@@ -27,7 +27,7 @@ In qualità di fornitore di servizi, Adobe Advertising fornisce supporto alla tu
 
 In questo documento viene descritto come Adobe Advertising Demand Side Platform (DSP), in qualità di fornitore di servizi, supporta il diritto del consumatore di rifiutare la &quot;vendita&quot; di &quot;informazioni personali&quot;, in base a quanto definito dal CCPA. Include informazioni su come comunicare ad Adobe Advertising le richieste di rifiuto e come recuperare i rapporti sulle richieste di rifiuto dell’organizzazione.
 
-Per informazioni su come [!DNL Advertising Search, Social, & Commerce], Advertising Creative e [!DNL Advertising DCO] supportano i diritti di accesso e cancellazione delle informazioni personali dei consumatori, vedere [Supporto Adobe Advertising per il California Consumer Privacy Act: Supporto per l&#39;accesso e l&#39;eliminazione dei dati dei consumatori](/help/privacy/ccpa/ccpa-access-delete.md).
+Per informazioni su come [!DNL Advertising Search, Social, & Commerce], Advertising Creative e [!DNL Advertising DCO] supportano i diritti di accesso e cancellazione delle informazioni personali dei consumatori, vedere [Supporto di Adobe Advertising per il California Consumer Privacy Act: supporto per l&#39;accesso e l&#39;eliminazione dei dati dei consumatori](/help/privacy/ccpa/ccpa-access-delete.md).
 
 Per ulteriori informazioni sui servizi di privacy Adobe per il CCPA, visitare il [Centro per la privacy Adobe](https://www.adobe.com/privacy/ccpa.html).
 
@@ -68,7 +68,7 @@ Puoi comunicare le richieste di rifiuto del consumatore utilizzando:
    >
    >Contatta il rappresentante Adobe Advertising della tua azienda per verificare che tutti gli account Adobe Advertising della tua organizzazione, inclusi [!DNL DSP] account o inserzionisti, [!DNL Search, Social, & Commerce] account e [!DNL Creative] o [!DNL DCO] account, siano collegati al tuo ID organizzazione Experience Cloud.
 
-1. Utilizza l&#39;API di Adobe Experience Platform Privacy Service per [inviare richieste di rifiuto](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html?lang=it) ad Adobe Advertising per conto dei consumatori e per controllare lo stato delle richieste esistenti.
+1. Utilizza l&#39;API di Adobe Experience Platform Privacy Service per [inviare richieste di rifiuto](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html) ad Adobe Advertising per conto dei consumatori e per controllare lo stato delle richieste esistenti.
 
    Per un esempio di richiesta di rifiuto, consulta l’appendice seguente.
 
@@ -76,21 +76,21 @@ Puoi comunicare le richieste di rifiuto del consumatore utilizzando:
    >
    >Se la tua azienda dispone di più ID organizzazione Experience Cloud, devi inviare richieste API separate per ciascuno di essi. È tuttavia possibile effettuare una richiesta API a più soluzioni secondarie di Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] e [!DNL DCO]), con un account per ogni soluzione secondaria.
 
-Tutti questi passaggi sono necessari per ricevere supporto da Adobe Advertising. Per ulteriori informazioni su queste e altre attività correlate che è necessario eseguire utilizzando Adobe Experience Platform Privacy Service e dove trovare gli elementi necessari, vedere [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it).
+Tutti questi passaggi sono necessari per ricevere supporto da Adobe Advertising. Per ulteriori informazioni su queste e altre attività correlate che è necessario eseguire utilizzando Adobe Experience Platform Privacy Service e dove trovare gli elementi necessari, vedere [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
-## Recupero dei report dei consumatori che hanno inviato richieste di rifiuto
+## Recupero dei rapporti dei consumatori che hanno presentato richieste di rifiuto
 
 Adobe Advertising genera rapporti mensili sugli ID inviati dai clienti per richieste di rifiuto per l’account. Ogni rapporto è disponibile come file di testo separato da tabulazioni compresso in formato GZIP. I dati consolidano le richieste acquisite utilizzando i segmenti di rifiuto del CCPA creati in Advertising DSP e tutte le richieste effettuate tramite l’API Privacy Service. Gli ID utente acquisiti nei segmenti di rifiuto del CCPA sono identificati per segmento e dall’inserzionista. I rapporti vengono generati il primo di ogni mese per il mese precedente. Ad esempio, l’elenco mensile degli utenti di giugno è disponibile il 1° luglio.
 
 È possibile recuperare i collegamenti ai report mensili creati nei tre mesi precedenti dall&#39;interno di Advertising DSP o utilizzando Advertising DSP [!DNL Trafficking API]. Ogni collegamento è valido per sette giorni, ma viene aggiornato ogni volta che un cliente tenta di recuperarne uno.
 
-### Metodo 1: Recuperare i rapporti sulla rinuncia del consumatore in Advertising DSP
+### Metodo 1: recuperare i rapporti sulla rinuncia del consumatore in Advertising DSP
 
 1. Accedi all&#39;account dell&#39;inserzionista in Advertising DSP all&#39;indirizzo [https://advertising.adobe.com/](https://advertising.adobe.com/).
 
 1. [Recupera i report](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md).
 
-### Metodo 2: Recuperare i report sulla rinuncia del consumatore tramite Advertising DSP [!DNL Trafficking API]
+### Metodo 2: recuperare i report di rifiuto del consumatore tramite Advertising DSP [!DNL Trafficking API]
 
 Questa funzionalità è disponibile per le organizzazioni che utilizzano [!DNL Trafficking API]. Per ulteriori informazioni, vedere la documentazione di [!DNL Trafficking API].<!-- Add link to API doc once it's published. -->
 
@@ -133,7 +133,7 @@ curl -X POST \
 }'
 ```
 
-dove, secondo le [specifiche API di Privacy Service](https://experienceleague.adobe.com/it/docs/experience-platform/privacy/api/appendix):
+dove, secondo le [specifiche API di Privacy Service](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix):
 
 * `"namespace": "AdCloud"` indica lo spazio cookie `AdCloud` e il valore corrispondente è l&#39;ID cookie del cliente recuperato da `AdobePrivacy.js`
 * `"include": ["adCloud"]` indica che la richiesta si applica al prodotto Adobe Advertising

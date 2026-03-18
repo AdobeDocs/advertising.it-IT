@@ -1,20 +1,20 @@
 ---
-title: Adobe Advertising di criteri per i requisiti dell’ID universale
+title: Criterio dei requisiti per l’ID universale di Adobe Advertising
 description: Consulta i criteri per l’utilizzo degli ID universali.
 feature: Policies, DSP Ads
 exl-id: a21dcc56-a618-476d-9f5b-7b1260f27331
-source-git-commit: 35dd8b8302afb01f8e6bb6c8da2a3c167abd397f
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
 
 ---
 
-# Adobe Advertising di criteri per i requisiti dell’ID universale
+# Criterio dei requisiti per l’ID universale di Adobe Advertising
 
 Ultimo aggiornamento: 29 febbraio 2024
 
-Questo criterio dei requisiti per gli ID universali (&quot;criterio&quot;) definisce i requisiti per l&#39;utilizzo degli ID universali in relazione agli annunci distribuiti tramite [!DNL Adobe's] servizi on-demand, ad Adobe Advertising (&quot;servizi&quot;). Questo criterio viene incorporato tramite riferimento nel contratto tra [!DNL Adobe] e il Cliente (&quot;l&#39;utente&quot;) che utilizza i Servizi on-demand. I termini maiuscoli utilizzati nel presente documento ma non definiti in esso avranno il significato indicato nel Contratto.
+Il presente criterio dei requisiti per gli ID universali (&quot;criterio&quot;) definisce i requisiti per l&#39;utilizzo degli ID universali in relazione agli annunci distribuiti tramite [!DNL Adobe's] servizi on-demand per Adobe Advertising (&quot;servizi&quot;). Questo criterio viene incorporato tramite riferimento nel contratto tra [!DNL Adobe] e il Cliente (&quot;l&#39;utente&quot;) che utilizza i Servizi on-demand. I termini maiuscoli utilizzati nel presente documento ma non definiti in esso avranno il significato indicato nel Contratto.
 
 [!DNL Adobe] si riserva il diritto di determinare, a suo giudizio, se un Annuncio o i siti Web a cui l&#39;Annuncio reindirizza o collega violano i requisiti del presente Contratto, nel qual caso [!DNL Adobe] può rifiutare tale Annuncio e/o interrompere o sospendere l&#39;accesso ai Servizi su tale base.
 
@@ -36,9 +36,9 @@ Scegliendo di utilizzare gli ID universali resi disponibili tramite i Servizi, l
 
 * Se ricevi una rinuncia dopo la data di validità del contratto, non utilizzerai più l’ID universale dell’utente che ha rinunciato.
 
-### Paesi proibiti UID2
+### Paesi vietati UID2
 
-Scegliendo di utilizzare gli UID2 Universal ID tramite i Servizi, l&#39;utente accetta di garantire che tutti i Dati client trasmessi, memorizzati, visualizzati, distribuiti o resi disponibili in altro modo tramite i Servizi on-demand per tale utilizzo in relazione agli UID2 Universal ID non si riferiscano a qualsiasi persona residente in uno dei [Paesi proibiti UID2 elencati nell&#39;Allegato A](#prohibited-countries-uid2) del presente documento.
+Scegliendo di utilizzare gli ID universali di UID2 tramite i Servizi, l&#39;utente accetta di assicurarsi che tutti i dati client trasmessi, memorizzati, visualizzati, distribuiti o resi disponibili in altro modo tramite i Servizi on-demand per tale utilizzo in relazione agli ID universali di UID2 non si riferiscano a persone residenti in uno dei [Paesi proibiti di UID2 elencati nell&#39;Allegato A](#prohibited-countries-uid2) del presente documento.
 
 ## Nessuna discriminazione
 

@@ -1,24 +1,24 @@
 ---
-title: Adobe Advertising DSP di linee guida per l’utilizzo dei dati
+title: Linee guida sull’utilizzo dei dati in Adobe Advertising DSP
 description: Consulta le linee guida per l’utilizzo dei dati.
 feature: Policies
 exl-id: b71caa80-d1f6-4f42-90c3-a3e19acb2c6c
-source-git-commit: 4ea8b76e65fb610d2bf86a39560084902e9d0436
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
 
 ---
 
-# Adobe Advertising DSP di linee guida per l’utilizzo dei dati
+# Linee guida sull’utilizzo dei dati in Adobe Advertising DSP
 
 *Ultimo aggiornamento: 5 settembre 2019 (eccetto per l&#39;aggiornamento dell&#39;URL di questa pagina)*
 
-*Ad Adobe Advertising DSP*
+*Per Adobe Advertising DSP*
 
-Le presenti linee guida sull’utilizzo dei dati (&quot;linee guida per i dati&quot;) definiscono i requisiti per l’utilizzo di alcuni dati a cui si accede tramite i servizi on-demand di Adobe per Advertising DSP (&quot;servizi&quot;). Le presenti linee guida sono integrate per riferimento nel contratto tra Adobe e il Cliente che utilizza i Servizi a richiesta. I termini in maiuscolo utilizzati nelle presenti linee guida ma non definiti in questa avranno il significato stabilito in tale accordo.
+Le presenti linee guida sull’utilizzo dei dati (&quot;linee guida per i dati&quot;) definiscono i requisiti per l’utilizzo di alcuni dati a cui si accede tramite i servizi on-demand di Adobe per Advertising DSP (&quot;servizi&quot;). Queste linee guida sono incluse come riferimento nel contratto tra Adobe e il cliente che utilizza i servizi on-demand. I termini in maiuscolo utilizzati nelle presenti linee guida ma non definiti in questa avranno il significato stabilito in tale accordo.
 
-Adobe si riserva il diritto di determinare, a suo giudizio, se l’utilizzo dei dati da parte del Cliente violi le presenti Linee guida.
+Adobe si riserva il diritto di determinare, a suo giudizio, se l’utilizzo dei dati da parte del Cliente viola le presenti Linee guida.
 
 ## Utilizzo dei dati [!DNL TruSignal]
 

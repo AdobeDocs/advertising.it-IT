@@ -1,24 +1,24 @@
 ---
-title: Adobe Advertising di segmenti di integrità accettabili
+title: Segmenti di integrità accettabili in Adobe Advertising
 description: Consulta le linee guida per segmenti di pubblico e tattiche accettabili relative allo stato da utilizzare come alternative al targeting di segmenti di pubblico relativi allo stato.
 feature: Policies
 exl-id: 121129e3-3d4b-4478-9cfd-cb16c1eb67de
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 0%
 
 ---
 
-# Adobe Advertising di linee guida per i segmenti di integrità accettabili
+# Linee guida per i segmenti di integrità accettabili di Adobe Advertising
 
-*Ad Adobe Advertising DSP e[!DNL Adobe Advertising Search, Social, & Commerce]*
+*Per Adobe Advertising DSP e[!DNL Adobe Advertising Search, Social, & Commerce]*
 
 Le seguenti linee guida delineano segmenti di pubblico inaccettabili e relativi allo stato di salute. Consigliano inoltre tattiche da utilizzare come alternativa al targeting di segmenti di pubblico relativi allo stato di salute.
 
 Queste linee guida sono riepilogate da [!DNL Network Advertising Alliance (NAI)].
 
-Consulta anche [Adobe Advertising Ads Requirements Policy](/help/policies/ad-requirements-policy.md) per determinare se un segmento di pubblico relativo allo stato è utilizzabile in base al criterio di targeting Adobe Advertising.
+Vedi anche [Criteri dei requisiti degli annunci di Adobe Advertising](/help/policies/ad-requirements-policy.md) per determinare se un segmento di pubblico relativo allo stato di salute è utilizzabile in base ai criteri di targeting di Adobe Advertising.
 
 ## Segmenti di integrità che non devono essere utilizzati
 
@@ -30,7 +30,7 @@ Consulta anche [Adobe Advertising Ads Requirements Policy](/help/policies/ad-req
 
 * Segmenti che si basano su un’attività web, un utilizzo di app o un’attività di contenuti visualizzati precedenti di un utente o di un dispositivo che esprimono un interesse per uno stato di salute o una condizione medica o un trattamento sensibile (come descritto nel blocco precedente).
 
-## Segmenti Di Integrità Che Possono Essere Utilizzati
+## Segmenti di integrità che possono essere utilizzati
 
 Tutte le seguenti condizioni devono essere soddisfatte:
 
@@ -50,4 +50,4 @@ Tutte le seguenti condizioni devono essere soddisfatte:
 
 >[!MORELIKETHIS]
 >
->* [Criteri requisiti annunci](/help/policies/ad-requirements-policy.md)
+>* [Criteri dei requisiti degli annunci](/help/policies/ad-requirements-policy.md)
