@@ -3,7 +3,7 @@ title: 'Aggiorna il codice di tracciamento AMO ID (s_kwcid) per un account  [!DN
 description: Scopri come passare al codice di tracciamento AMO ID più recente per un account  [!DNL Google Ads] .
 exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
+source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -70,4 +70,4 @@ Tutti i nuovi account [!DNL Google Ads] utilizzano automaticamente il formato AM
 >
 >* [Gestione account di rete pubblicitaria](ad-network-account-manage.md)
 >* [ID Adobe Advertising utilizzati da [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Panoramica di [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=it){target="_blank"}
+>* [Panoramica di [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}

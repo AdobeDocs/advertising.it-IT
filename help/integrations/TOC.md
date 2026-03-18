@@ -4,10 +4,10 @@ user-guide-description: Scopri le integrazioni di Advertising DSP e Advertising 
 breadcrumb-title: Integrazioni con Experience Cloud
 role: User, Developer
 index: true
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -21,31 +21,31 @@ ht-degree: 10%
    + Pianificazione dell’implementazione {#planning}
       + [Prerequisiti e informazioni chiave per l&#39;implementazione  [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)
       + [(DSP) Codice JavaScript per  [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)
-      + [Utilizzo della  [!DNL Last Event Service] libreria JavaScript con Adobe Experience Platform [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md)
+      + [Utilizzo della libreria  [!DNL Last Event Service] JavaScript con Adobe Experience Platform [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md)
       + [Raccogliere dati storici per AMO ID e EF ID da utilizzare in Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md)
       + (DSP) Macro per i tag annuncio {#macros}
-         + [Aggiungi [!DNL Analytics for Advertising] macro ai [!DNL Flashtalking] tag annuncio](/help/integrations/analytics/macros-flashtalking.md)
-         + [Aggiungi [!DNL Analytics for Advertising] macro ai [!DNL Google Campaign Manager 360] tag annuncio](/help/integrations/analytics/macros-google-campaign-manager.md)
+         + [Aggiungi [!DNL Analytics for Advertising] macro a [!DNL Flashtalking] tag annuncio](/help/integrations/analytics/macros-flashtalking.md)
+         + [Aggiungi [!DNL Analytics for Advertising] macro a [!DNL Google Campaign Manager 360] tag annuncio](/help/integrations/analytics/macros-google-campaign-manager.md)
    + Dati scambiati {#data}
       + [Metriche di Adobe Advertising in Analysis Workspace](/help/integrations/analytics/advertising-metrics-in-analytics.md)
-      + [Dati [!DNL Analytics] in Adobe Advertising](/help/integrations/analytics/analytics-data-in-advertising.md)
+      + [[!DNL Analytics] dati in Adobe Advertising](/help/integrations/analytics/analytics-data-in-advertising.md)
       + [Varianze di dati previste tra  [!DNL Analytics]  e Adobe Advertising](/help/integrations/analytics/data-variances.md)
    + Utilizzo in [!DNL Analytics Marketing Channels] {#mc}
       + [Nozioni di base di  [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-overview.md)
-      + [Utilizzo degli ID Adobe Advertising per creare [!DNL Marketing Channels] regole di elaborazione](/help/integrations/analytics/marketing-channels/mc-ids.md)
+      + [Utilizzo degli ID Adobe Advertising per creare  [!DNL Marketing Channels]  regole di elaborazione](/help/integrations/analytics/marketing-channels/mc-ids.md)
       + [Utilizzo di  [!DNL Marketing Channels]  con i dati di Adobe Advertising](/help/integrations/analytics/marketing-channels/mc-ac-data.md)
-      + [Perché i dati del canale possono variare tra Adobe Advertising e  [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)
+      + [Perché i dati dei canali possono variare tra Adobe Advertising e  [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)
    + [Crea metriche di conversione da Adobe Analytics [!DNL eVars] e [!DNL props]](/help/integrations/analytics/conversion-metrics-from-evars.md)
 + Integrazione con Adobe Audience Manager {#audience-manager}
    + [Integrazioni di Adobe Advertising con Adobe Audience Manager](/help/integrations/audience-manager/overview.md)
    + [Importare segmenti di Audience Manager in Adobe Advertising](/help/integrations/audience-manager/import-audiences.md)
    + Integrazione dei dati multimediali di DSP con Adobe Audience Manager {#media-data-ingestion}
-      + [Panoramica dell&#39;invio dei dati di esposizione DSP Media a Adobe Audience Manager](/help/integrations/audience-manager/media-data-integration/overview.md)
-      + [Raccogliere dati su impression e clic da campagne DSP](/help/integrations/audience-manager/media-data-integration/collect.md)
+      + [Panoramica dell’invio dei dati sull’esposizione dei contenuti multimediali DSP a Adobe Audience Manager](/help/integrations/audience-manager/media-data-integration/overview.md)
+      + [Raccogliere i dati sulle impression e sui clic dalle campagne DSP](/help/integrations/audience-manager/media-data-integration/collect.md)
       + [Casi d’uso](/help/integrations/audience-manager/media-data-integration/use-cases.md)
    + [Adobe Audience Analytics per i clienti Advertising](/help/integrations/audience-manager/audience-analytics.md)
 + Integrazione con Adobe Target {#target}
-   + [Configurare test A/B in Adobe Target per DSP Ads](/help/integrations/target/ab-tests-dsp.md)
+   + [Configurare test A/B in Adobe Target per gli annunci DSP](/help/integrations/target/ab-tests-dsp.md)
    + [Configurare test A/B in Adobe Target per annunci Search, Social e Commerce](/help/integrations/target/ab-tests-search.md)
 + Integrazione con Adobe Customer Journey Analytics {#customer-journey-analytics}
    + [Panoramica](/help/integrations/customer-journey-analytics/overview.md)
@@ -53,4 +53,4 @@ ht-degree: 10%
    + [ID di Adobe Advertising utilizzati da Customer Journey Analytics](/help/integrations/customer-journey-analytics/ids.md)
    + [Impostare la raccolta dati, il trasferimento dati e il reporting](/help/integrations/customer-journey-analytics/set-up.md)
    + [Metriche e dimensioni di Adobe Advertising in Customer Journey Analytics](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
-+ [Video Tutorial Sulle Integrazioni Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=it)
++ [Esercitazioni video sulle integrazioni Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)
