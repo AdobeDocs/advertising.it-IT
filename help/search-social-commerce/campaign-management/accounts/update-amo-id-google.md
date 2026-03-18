@@ -70,4 +70,4 @@ Tutti i nuovi account [!DNL Google Ads] utilizzano automaticamente il formato AM
 >
 >* [Gestione account di rete pubblicitaria](ad-network-account-manage.md)
 >* [ID Adobe Advertising utilizzati da [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Panoramica di [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}
+>* [Panoramica di [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=it){target="_blank"}
