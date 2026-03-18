@@ -1,16 +1,16 @@
 ---
-title: Visualizza lo stato delle  [!DNL On Demand] richieste di opportunità di vendita e sottoscrizioni
+title: Visualizza lo stato delle tue  [!DNL On Demand] richieste di offerte e abbonamenti
 description: Scopri come visualizzare lo stato delle richieste di opportunità di vendita e degli abbonamenti di  [!DNL On Demand] .
 feature: DSP On Demand Inventory
 exl-id: 4a8c0242-eaa7-426f-82da-8a4ae4bed492
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
 
 ---
 
-# Visualizza lo stato di [!DNL On Demand] richieste di offerta e sottoscrizioni
+# Visualizza lo stato delle richieste di offerta e degli abbonamenti di [!DNL On Demand]
 
 Dopo aver richiesto un&#39;offerta individuale o aver sottoscritto tutte le offerte di un editore, verifica se l&#39;editore ha approvato o rifiutato ogni offerta per ogni inserzionista nel tuo account.
 
@@ -37,7 +37,7 @@ L&#39;approvazione o la negazione dell&#39;editore può essere basata sul tipo d
 
   Per capire perché è stata rifiutata una richiesta per ogni inserzionista, fai clic su ![negato](/help/dsp/assets/denied.png). Se il motivo del rifiuto è qualcosa che può essere risolto, puoi [richiedere nuovamente l&#39;offerta](/help/dsp/inventory/on-demand-inventory-rerequest.md).
 
-In caso di domande sulla procedura di approvazione, contatta il team del tuo account Adobe.
+In caso di domande sul processo di approvazione, contatta il team del tuo account Adobe.
 
 >[!MORELIKETHIS]
 >

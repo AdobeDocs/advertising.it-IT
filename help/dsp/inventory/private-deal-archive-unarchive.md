@@ -1,16 +1,16 @@
 ---
-title: Archiviare o annullare l’archiviazione di un’offerta privata
+title: Archiviare o annullare l'archiviazione di un'offerta privata
 description: Scopri come archiviare o annullare l’archiviazione di un’offerta privata.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: f3f22299-a538-4956-a8ef-d44f20e4d2d7
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
 
 ---
 
-# Archiviare o annullare l’archiviazione di un’offerta privata
+# Archiviare o annullare l&#39;archiviazione di un&#39;offerta privata
 
 Nascondi un&#39;offerta privata non utilizzata per l&#39;archiviazione. L&#39;unica azione che puoi intraprendere su un&#39;offerta archiviata è quella di annullarne l&#39;archiviazione. Le offerte archiviate non vengono visualizzate per impostazione predefinita, ma sono ancora disponibili per il reporting.
 
@@ -19,9 +19,9 @@ Puoi annullare l’archiviazione di un’offerta per ripristinarne lo stato prec
 >[!NOTE]
 >
 >* Impossibile archiviare [!UICONTROL On Demand] offerte.
->* Per disattivare un&#39;offerta dal lato dell&#39;editore, contattare l&#39;editore o il provider di servizi condivisi. Dopo che hanno disattivato l&#39;affare, puoi archiviarlo in DSP per nasconderlo.
+>* Per disattivare un&#39;offerta dal lato dell&#39;editore, contattare l&#39;editore o il provider di servizi condivisi. Dopo aver disattivato l’offerta, puoi archiviarla in DSP per nasconderla.
 
-## Archivia un&#39;offerta privata
+## Archivia un affare privato
 
 1. Nel menu principale, fare clic su **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 1. Nella riga dell&#39;offerta, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Archive]**.

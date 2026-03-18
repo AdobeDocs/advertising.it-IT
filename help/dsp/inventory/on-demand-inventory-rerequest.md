@@ -1,26 +1,26 @@
 ---
-title: Richiedi di nuovo [!DNL On Demand] Offerte di magazzino Premium
+title: Richiedi di nuovo [!DNL On Demand] offerte premium sull'inventario
 description: Scopri come richiedere nuovamente [!DNL On Demand] le offerte precedentemente negate.
 feature: DSP On Demand Inventory
 exl-id: 8b28ca37-5fe8-445e-8210-1b81945bbacc
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 0%
 
 ---
 
-# Richiedi nuovamente [!DNL On Demand] offerte di inventario Premium
+# Richiedi nuovamente [!DNL On Demand] offerte di inventario premium
 
 *Non disponibile per gli utenti con i tipi di account [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension] e [!UICONTROL Other]; per gli inserzionisti con la categoria [!UICONTROL Other] e per i rivenditori*
 
 È possibile richiedere nuovamente [!DNL On Demand] offerte di inventario per le quali si è stati negati, incluse le offerte di un editore a cui si è iscritti. Segui questi passaggi per assicurarti che tutte le impostazioni account applicabili siano corrette prima di inviare una nuova richiesta.
 
-Se un&#39;offerta non viene approvata dopo averla nuovamente richiesta, contatta il team dell&#39;account Adobe per verificare se l&#39;editore ha restrizioni aggiuntive che impediscono all&#39;account di accedere all&#39;offerta.
+Se un&#39;offerta non viene approvata dopo averla nuovamente richiesta, contatta il team del tuo account Adobe per verificare se l&#39;editore ha restrizioni aggiuntive che impediscono al tuo account di accedere all&#39;offerta.
 
 Una volta che un&#39;offerta è [approvata](/help/dsp/inventory/on-demand-inventory-view-status.md), viene inclusa per impostazione predefinita come destinazione per i nuovi posizionamenti che eseguono tutte le [!DNL On Demand] scorte. La nuova offerta è disponibile anche come destinazione per i posizionamenti esistenti, ma è necessario modificare manualmente le impostazioni di posizionamento per aggiungere l’offerta come destinazione.
 
-1. Conferma con il tuo Account Team Adobe che [!UICONTROL Account Type] per l&#39;account DSP della tua organizzazione è corretto.
+1. Conferma con il tuo Adobe Account Team che [!UICONTROL Account Type] per l&#39;account DSP della tua organizzazione è corretto.
 
 1. Conferma che la categoria dell’inserzionista per l’account dell’inserzionista applicabile sia corretta:
 

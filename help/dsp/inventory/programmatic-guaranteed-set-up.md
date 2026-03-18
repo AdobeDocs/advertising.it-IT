@@ -3,7 +3,7 @@ title: Imposta un'offerta programmatica garantita
 description: Scopri come impostare un’offerta programmatica garantita (PG) negoziata con un editore.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: d962942f-c248-4b48-97bd-baa2df3a519e
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Dopo aver negoziato un&#39;offerta programmatica garantita (PG) con un editore s
 
 >[!NOTE]
 >
-> Per le offerte PG, l’editore gestisce l’andamento del budget, i limiti di budget e il targeting. Tutti i provider di servizi condivisi che consentono PG tramite DSP confermano che l’editore può impostare limiti di budget.
+> Per le offerte PG, l’editore gestisce l’andamento del budget, i limiti di budget e il targeting. Tutti i provider di servizi condivisi che consentono PG tramite DSP confermano che l&#39;editore può impostare limiti di budget.
 >
 > L&#39;impostazione di offerte programmatiche garantite con gli editori su [!DNL FreeWheel] richiede autorizzazioni e passaggi aggiuntivi. Per ulteriori informazioni, vedere &quot;[Panoramica sulla configurazione delle offerte garantite a livello di programmazione in [!DNL FreeWheel]](freewheel-overview.md)&quot;.
 
@@ -30,7 +30,7 @@ Il metodo seguente è la procedura preferita per [!DNL FreeWheel], [!DNL Google 
 
 1. Dopo aver salvato l’offerta, seleziona gli annunci (o pixel di tracciamento 1x1 per gli annunci gestiti dall’editore) da utilizzare per l’offerta e crea un posizionamento predefinito programmatico garantito (PG), come richiesto.
 
-   La creazione di un posizionamento PG predefinito per l’offerta è obbligatoria per consegnare il 100% del tuo acquisto. Questo tipo di posizionamento non ha un targeting, pertanto l’DSP può restituire un’offerta per ogni richiesta di offerta dell’editore.
+   La creazione di un posizionamento PG predefinito per l’offerta è obbligatoria per consegnare il 100% del tuo acquisto. Questo tipo di posizionamento non ha un targeting, pertanto DSP può restituire un’offerta a ogni richiesta di offerta dell’editore.
 
    * Se accetti una singola offerta, verrai automaticamente reindirizzato al flusso di lavoro di creazione del posizionamento predefinito PG.
 
@@ -42,7 +42,7 @@ Il metodo seguente è la procedura preferita per [!DNL FreeWheel], [!DNL Google 
 
    Un’offerta può essere indirizzata a più posizionamenti che supportano qualsiasi combinazione di tipi di contenuti multimediali (come TV connessa, desktop e audio).
 
-## Imposta manualmente un accordo programmatico garantito
+## Imposta manualmente un’offerta programmatica garantita
 
 Utilizzare questo metodo per tutte le altre SSP.
 
@@ -50,7 +50,7 @@ Utilizzare questo metodo per tutte le altre SSP.
 
 1. Dopo aver salvato l’offerta, seleziona gli annunci (o pixel di tracciamento 1x1 per gli annunci gestiti dall’editore) da utilizzare per l’offerta e crea un posizionamento PG predefinito, come richiesto.
 
-   La creazione di un posizionamento PG predefinito per l’offerta è obbligatoria per consegnare il 100% del tuo acquisto. Questo tipo di posizionamento non ha un targeting, pertanto l’DSP può restituire un’offerta per ogni richiesta di offerta dell’editore.
+   La creazione di un posizionamento PG predefinito per l’offerta è obbligatoria per consegnare il 100% del tuo acquisto. Questo tipo di posizionamento non ha un targeting, pertanto DSP può restituire un’offerta a ogni richiesta di offerta dell’editore.
 
 1. (Facoltativo) Eseguire il targeting dell&#39;offerta PG in posizionamenti aggiuntivi PG o non PG facendo clic sul ![menu Opzioni](/help/dsp/assets/options-menu.png) **>[!UICONTROL Attach new placement]**.
 

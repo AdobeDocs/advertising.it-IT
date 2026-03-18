@@ -1,20 +1,20 @@
 ---
-title: Abbonati e richiedi l'accesso alle [!DNL On Demand] offerte di inventario Premium
+title: Sottoscrivi e richiedi l'accesso alle  [!DNL On Demand] offerte premium sull'inventario
 description: Scopri come abbonarti e richiedere l'accesso a [!DNL On Demand] offerte.
 feature: DSP On Demand Inventory
 exl-id: 7f23f989-3c96-475e-9f49-aa9098d24c17
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
-# Sottoscrivi e richiedi l&#39;accesso alle [!DNL On Demand] offerte di inventario Premium
+# Sottoscrivi e richiedi l&#39;accesso a [!DNL On Demand] offerte di magazzino premium
 
 *Non disponibile per gli utenti con i tipi di account [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension] e [!UICONTROL Other]; per gli inserzionisti con la categoria [!UICONTROL Other] e per i rivenditori*
 
-È possibile richiedere offerte individuali o sottoscrivere un abbonamento a un editore per richiedere tutte le offerte dell&#39;editore. Quando ti abboni a un editore, DSP richiede automaticamente qualsiasi nuova offerta che l’editore offre, per tuo conto.
+È possibile richiedere offerte individuali o sottoscrivere un abbonamento a un editore per richiedere tutte le offerte dell&#39;editore. Quando ti abboni a un editore, DSP richiede automaticamente tutte le nuove offerte che l’editore offre, per tuo conto.
 
 Una volta che un&#39;offerta è [approvata](/help/dsp/inventory/on-demand-inventory-view-status.md), viene inclusa per impostazione predefinita come destinazione per i nuovi posizionamenti che eseguono tutte le [!DNL On Demand] scorte. La nuova offerta è disponibile anche come destinazione per i posizionamenti esistenti, ma è necessario modificare manualmente le impostazioni di posizionamento per aggiungere l’offerta come destinazione.
 
