@@ -38,4 +38,4 @@ Puoi modificare il nome del posizionamento, lo stato, l’offerta massima e il b
 >* [Disattivare o attivare un posizionamento](placement-pause-activate.md)
 >* [Visualizza il log delle modifiche per un posizionamento](placement-change-log.md)
 >* [Impostazioni posizionamento](placement-settings.md)
->* [Video: come modificare i posizionamenti utilizzando gli strumenti di modifica in blocco](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [Video: come modificare i posizionamenti utilizzando gli strumenti di modifica in blocco](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=it)

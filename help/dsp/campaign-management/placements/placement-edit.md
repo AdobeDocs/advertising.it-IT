@@ -102,4 +102,4 @@ Utilizza questa opzione solo quando desideri applicare le stesse modifiche a tut
 >* [Impostazioni posizionamento](placement-settings.md)
 >* [Visualizza il rapporto Previsione posizionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Scelte rapide da tastiera](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Video: come modificare i posizionamenti utilizzando gli strumenti di modifica in blocco](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [Video: come modificare i posizionamenti utilizzando gli strumenti di modifica in blocco](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=it)
