@@ -1,9 +1,9 @@
 ---
-title: Utilizzo della  [!DNL Last Event Service] libreria JavaScript con [!DNL Web SDK]
+title: Utilizzo della libreria  [!DNL Last Event Service] JavaScript con [!DNL Web SDK]
 description: Scopri i passaggi per passare dall'utilizzo della libreria  [!DNL Analytics] [!DNL visitorAPI] alla libreria  [!DNL Experience Platform] [!DNL Web SDK] per l'implementazione  [!DNL Analytics for Advertising] .
 feature: Integration with Adobe Analytics
 exl-id: 764724a2-536a-43b9-955d-28d6146db29a
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 7fa058da06edadf9b98aa49b0e5a1110ea68808c
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 *Inserzionisti con una sola integrazione Adobe Advertising-Adobe Analytics*
 
-Se la tua organizzazione utilizza la libreria legacy di Adobe Analytics `visitorAPI.js` per la raccolta dati, puoi opzionalmente passare a utilizzare la libreria [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it) (`alloy.js`), che ti consente di interagire con i vari servizi Experience Cloud tramite [!DNL Edge Network].
+Se la tua organizzazione utilizza la libreria legacy di Adobe Analytics `visitorAPI.js` per la raccolta dati, puoi opzionalmente passare a utilizzare la libreria [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) (`alloy.js`), che ti consente di interagire con i vari servizi Experience Cloud tramite [!DNL Edge Network].
 
 La libreria JavaScript [!DNL Analytics for Advertising] [!DNL Last Event Service] registra gli eventi view-through e click-through e li unisce alle conversioni associate utilizzando un ID supplementare (`SDID`). La libreria [!DNL Web SDK], tuttavia, non fornisce [!DNL stitch ID]. Per utilizzare [!DNL Web SDK] per [!DNL Analytics for Advertising], è necessario modificare 1) il tag [!DNL Last Event Service] utilizzato nelle pagine Web e 2) i comandi [!DNL Web SDK] `sendEvent` di conseguenza.
 
-## Passaggio 1: modifica il tag [!DNL Last Event Service] per generare un tag `[!DNL StitchID]`
+## Passaggio 1: modifica il tag [!DNL Last Event Service] per generare un `[!DNL StitchID]`
 
 Nel tag [!DNL Analytics for Advertising] [!DNL Last Event Service] utilizzato nelle pagine Web, aggiungi il codice per generare `[!DNL StitchID]` utilizzando il generatore di ID casuale incluso nella libreria.
 

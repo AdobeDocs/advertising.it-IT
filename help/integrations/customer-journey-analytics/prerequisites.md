@@ -3,7 +3,7 @@ title: Prerequisiti per l’integrazione di Adobe Advertising con Customer Journ
 description: Prerequisiti per l’integrazione di Adobe Advertising con Customer Journey Analytics
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 4bd14178-5003-4da6-9034-d070c57f0e9b
-source-git-commit: b35a167e2718db76da6008eb1a3e1e3e4720b39e
+source-git-commit: 7fa058da06edadf9b98aa49b0e5a1110ea68808c
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
   Per impostare una connessione al set di dati e configurare la generazione rapporti è necessario il supporto dell’analista web interno.
 
-* tecnologie di gestione e modellazione dati di Adobe Experience Platform (inclusi [schemi](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/home) e [set di dati](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/overview)) e [tecnologie di raccolta dati](https://experienceleague.adobe.com/it/docs/experience-platform/collection/home) (inclusi [flussi di dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/overview) e [tag](https://experienceleague.adobe.com/it/docs/experience-platform/tags/home))
+* tecnologie di gestione e modellazione dati di Adobe Experience Platform (inclusi [schemi](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) e [set di dati](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)) e [tecnologie di raccolta dati](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home) (inclusi [flussi di dati](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview) e [tag](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home))
 
   Queste tecnologie richiedono il supporto dell’amministratore del sito Experience Platform.
 
@@ -30,4 +30,4 @@ ht-degree: 0%
 >* [ID Adobe Advertising utilizzati da [!DNL Customer Journey Analytics]](ids.md)
 >* [Imposta raccolta dati, trasferimento dati e reporting](set-up.md)
 >* [Metriche e dimensioni di Adobe Advertising in Customer Journey Analytics](advertising-data-in-cja.md)
->* (Utenti Adobe Analytics) [Raccogli i dati storici per gli AMO ID e gli EF ID da utilizzare in Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
+>* (Utenti Adobe Analytics) [Raccogli dati storici per gli AMO ID e gli EF ID da utilizzare in Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
