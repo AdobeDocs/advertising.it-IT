@@ -40,7 +40,7 @@ ht-degree: 0%
 
 * Come cambia la velocità del pacchetto nell’ultimo giorno di un volo?
 
-  Nell&#39;ultimo giorno di un volo, il giorno viene ridotto da 24 a 23 ore in modo da non superare il budget previsto per il pacchetto. Inoltre, la strategia di riempimento della velocità del pacchetto cambia automaticamente in &quot;[!UICONTROL Frontload]&quot;, anche se è impostata su &quot;[!UICONTROL even]&quot;. Ciò significa che il 65% del budget giornaliero deve essere consegnato entro le ore 11:0} EST.:30
+  Nell&#39;ultimo giorno di un volo, il giorno viene ridotto da 24 a 23 ore in modo da non superare il budget previsto per il pacchetto. Inoltre, la strategia di riempimento della velocità del pacchetto cambia automaticamente in &quot;[!UICONTROL Frontload]&quot;, anche se è impostata su &quot;[!UICONTROL even]&quot;. Ciò significa che il 65% del budget giornaliero deve essere consegnato entro le ore 11:0&rbrace; EST.:30
 
 >[!MORELIKETHIS]
 >
