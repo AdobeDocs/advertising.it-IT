@@ -1,15 +1,16 @@
 ---
-title: Gestisci elenchi URL
+title: Gestire gli elenchi URL
 description: Scopri come creare e gestire gli elenchi URL per il targeting del posizionamento.
 feature: DSP Placements
-source-git-commit: ea33d6fa7612f1c9631c223e5bf0ec80bb5f8d96
+exl-id: 57c715b3-9a13-4890-a3b8-03fa6adb44eb
+source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
 
 ---
 
-# Gestisci elenchi URL
+# Gestire gli elenchi URL
 
 Puoi creare e gestire elenchi di URL di siti web e app per il targeting del posizionamento. Includi o escludi elenchi URL specifici nelle impostazioni di posizionamento.
 

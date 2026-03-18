@@ -1,16 +1,16 @@
 ---
-title: Informazioni sui report personalizzati
+title: Informazioni sui rapporti personalizzati
 description: Scopri le opzioni per la creazione manuale di rapporti personalizzati o l’utilizzo di modelli di rapporto preconfigurati.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 041b842ccb9c0ebc2f4d9499557e20a960789a7a
+source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
 workflow-type: tm+mt
 source-wordcount: '1621'
 ht-degree: 0%
 
 ---
 
-# Informazioni sui report personalizzati
+# Informazioni sui rapporti personalizzati
 
 I rapporti personalizzati ti consentono di personalizzare il contenuto e la consegna dei dati del rapporto utilizzando le dimensioni della campagna (ad esempio inserzionista, posizionamento, siti o geos) e le metriche più importanti per te. Puoi effettuare le seguenti operazioni:
 
@@ -41,17 +41,17 @@ Puoi generare i rapporti una volta o pianificarli su base giornaliera, settimana
 
      >[!NOTE]
      >
-     >Questo rapporto include i dati relativi al segmento di fatturazione. Se a un utente o a un dispositivo viene inviata un&#39;impression che appartiene a più segmenti, solo un segmento fatturabile viene accreditato dell&#39;impression.
+     >Questo rapporto include dati sul segmento di fatturazione. Se a un utente o a un dispositivo viene trasmessa un’impression che appartiene a più segmenti, a un solo segmento fatturabile viene attribuita l’impression.
 
-   * **[!UICONTROL Content]:** Utilizzare questo report per comprendere la distribuzione delle impression e altre metriche in base alle dimensioni di contenuto specificate (ad esempio genere, qualità della produzione e classificazione dei contenuti) in modo da ottimizzare la definizione delle destinazioni e garantire la sicurezza del marchio. Oltre alle dimensioni contenuto, il report include la maggior parte delle dimensioni, delle metriche e dei filtri standard. I dati per dimensione di contenuto sono disponibili per [!DNL Freewheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] e [!DNL Triplelift]. I segnali dei contenuti vengono passati dagli editori durante il flusso di lavoro e sono soggetti a disponibilità.
+   * **[!UICONTROL Content]:** Utilizza questo report per comprendere la distribuzione delle impression e altre metriche in base a dimensioni di contenuto specificate (come genere, qualità della produzione e valutazione dei contenuti) in modo da ottimizzare il targeting e garantire la sicurezza del brand. Oltre alle dimensioni di contenuto, il rapporto include la maggior parte delle dimensioni, delle metriche e dei filtri standard. I dati per dimensione contenuto sono disponibili per [!DNL Freewheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] e [!DNL Triplelift]. I segnali di contenuto vengono trasmessi dagli editori durante il flusso di lavoro e sono soggetti a disponibilità.
 
    * **[!UICONTROL Conversion]:** Utilizza questo rapporto per comprendere le prestazioni delle campagne in base alle metriche di conversione acquisite tramite il tracciamento delle conversioni di Adobe Advertising. Questo rapporto include l’attribuzione multi-touch.
 
-   * **[!UICONTROL Custom Creative]:** (solo per gli inserzionisti con Advertising Creative) Utilizza questo report per monitorare le prestazioni negli Advertising Creative pubblicitari.
+   * **[!UICONTROL Custom Creative]:** (solo per gli inserzionisti con Advertising Creative) utilizza questo rapporto per monitorare le prestazioni nelle esperienze pubblicitarie Advertising Creative.
 
-   * **[!UICONTROL Device]:** Utilizzare questo modello precompilato per visualizzare le metriche chiave in base alle dimensioni relative al dispositivo.
+   * **[!UICONTROL Device]:** Utilizzare questo modello precompilato per visualizzare le metriche chiave per le dimensioni relative al dispositivo.
 
-   * **[!UICONTROL Frequency (by Impression)]:** Utilizzare questo rapporto per comprendere la distribuzione delle impressioni mostrate a visualizzatori univoci (ad esempio, quanti visualizzatori univoci hanno visto un&#39;impressione, due impressioni, tre impressioni e così via). I dati sono disponibili per collocazione o campagna.
+   * **[!UICONTROL Frequency (by Impression)]:** Utilizzare questo report per comprendere la distribuzione delle impression mostrate a visualizzatori univoci (ad esempio, quanti visualizzatori univoci hanno visto una impression, due impression, tre impression e così via). I dati sono disponibili per posizionamento o campagna.
 
      >[!NOTE]
      >
@@ -127,18 +127,18 @@ Puoi creare nuovi rapporti personalizzati, modificare quelli esistenti o duplica
 
 * **[!UICONTROL Ready to download]:** (solo report ricorrenti) Una o più istanze del report sono disponibili per il download e sono pianificate più istanze del report.
 
-* **[!UICONTROL Failed]:** Il processo di report non è riuscito. Per vedere il motivo per cui singole istanze di report non sono riuscite per una sequenza di report, fare clic sulla ![freccia GIÙ](/help/dsp/assets/chevron-down.png "freccia GIÙ") accanto a [!UICONTROL Download]. I processi di report non riusciti sono indicati con un&#39;icona di errore (![indicatore di errore](/help/dsp/assets/indicator-critical.png "indicatore di errore")). Per una descrizione dell’errore, posiziona il cursore sull’icona di errore.
+* **[!UICONTROL Failed]:** Il processo di report non è riuscito. Per vedere il motivo per cui singole istanze di report non sono riuscite per una sequenza di report, fare clic sulla ![freccia GIÙ](/help/dsp/assets/chevron-down.png "freccia GIÙ") accanto a [!UICONTROL Download]. I processi di report non riusciti sono indicati da un&#39;icona di errore (![indicatore di errore](/help/dsp/assets/indicator-critical.png "indicatore di errore")). Per una descrizione dell’errore, posiziona il cursore sull’icona.
 
-* **[!UICONTROL Completed]:** Per i report non ricorrenti, il report è stato completato. Per i report ricorrenti, tutte le istanze di report sono completate. Puoi scaricare tutti i report completati negli ultimi quattro mesi.
+* **[!UICONTROL Completed]:** Per i report non ricorrenti, il report è completato. Per i rapporti ricorrenti, tutte le istanze di rapporto sono completate. Puoi scaricare tutti i rapporti completati negli ultimi quattro mesi.
 
-* **[!UICONTROL Archived]:** Il report è archiviato e non può essere eseguito. Questo stato viene impostato quando la generazione del report non riesce più volte per un report. Al momento non è possibile impostare questo stato dall’interfaccia utente.
+* **[!UICONTROL Archived]:** Il report è archiviato e non può essere eseguito. Questo stato viene impostato quando la generazione del rapporto non riesce più volte per un rapporto. Al momento non è possibile impostare questo stato dall’interfaccia utente.
 
 >[!MORELIKETHIS]
 >
->* [Creazione di un report personalizzato](/help/dsp/reports/report-create.md)
->* [Download di un report personalizzato](/help/dsp/reports/report-download.md)
->* [Impostazioni report personalizzato](/help/dsp/reports/report-settings.md)
->* [Domande frequenti sui rapporti sulla famiglia](/help/dsp/reports/faq-reports.md)
->* [Tipi di report sulle prestazioni nelle visualizzazioni di Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Crea un report personalizzato](/help/dsp/reports/report-create.md)
+>* [Scarica un report personalizzato](/help/dsp/reports/report-download.md)
+>* [Impostazioni report personalizzati](/help/dsp/reports/report-settings.md)
+>* [Domande frequenti sui report domestici](/help/dsp/reports/faq-reports.md)
+>* [Tipi di rapporti sulle prestazioni nelle visualizzazioni di gestione delle campagne](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Colonne report disponibili](/help/dsp/reports/report-columns.md)
 >* [Informazioni su [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)

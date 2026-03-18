@@ -1,16 +1,16 @@
 ---
-title: Impostazioni destinazione report
+title: Impostazioni di destinazione del rapporto
 description: Vedi i dettagli richiesti per le destinazioni dei rapporti, per tipo di destinazione.
 feature: DSP Custom Reports
 exl-id: 1437ceea-111a-4c2e-a439-037b3a35865c
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
 
 ---
 
-# Impostazioni destinazione report
+# Impostazioni di destinazione del rapporto
 
 I dettagli richiesti per le destinazioni dei rapporti non e-mail variano a seconda del tipo di destinazione.
 
