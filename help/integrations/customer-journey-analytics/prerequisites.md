@@ -3,7 +3,7 @@ title: Prerequisiti per l’integrazione di Adobe Advertising con Customer Journ
 description: Prerequisiti per l’integrazione di Adobe Advertising con Customer Journey Analytics
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 4bd14178-5003-4da6-9034-d070c57f0e9b
-source-git-commit: fabe7312fc4d1ab899bedcf9eae1c8040a4a6532
+source-git-commit: b35a167e2718db76da6008eb1a3e1e3e4720b39e
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 *Inserzionisti con Advertising DSP e[!DNL Advertising Search, Social, & Commerce]*
 
-* tecnologie di gestione e modellazione dati di Adobe Experience Platform (inclusi [schemi](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/home) e [set di dati](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/overview)) e [tecnologie di raccolta dati](https://experienceleague.adobe.com/it/docs/experience-platform/collection/home) (inclusi [flussi di dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/overview) e [tag](https://experienceleague.adobe.com/it/docs/experience-platform/tags/home))
-
-  Queste tecnologie richiedono il supporto dell’amministratore del sito Experience Platform.
-
 * Adobe Customer Journey Analytics con accesso agli strumenti di gestione dei dati
 
   Per impostare una connessione al set di dati e configurare la generazione rapporti è necessario il supporto dell’analista web interno.
+
+* tecnologie di gestione e modellazione dati di Adobe Experience Platform (inclusi [schemi](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) e [set di dati](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)) e [tecnologie di raccolta dati](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home) (inclusi [flussi di dati](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview) e [tag](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home))
+
+  Queste tecnologie richiedono il supporto dell’amministratore del sito Experience Platform.
 
 >[!MORELIKETHIS]
 >
