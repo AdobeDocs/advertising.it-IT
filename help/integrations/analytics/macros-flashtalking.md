@@ -1,16 +1,16 @@
 ---
-title: Aggiungi [!DNL Analytics for Advertising] macro ai [!DNL Flashtalking] tag annuncio
+title: Aggiungi [!DNL Analytics for Advertising] macro a [!DNL Flashtalking] tag annuncio
 description: Scopri perché e come aggiungere [!DNL Analytics for Advertising] macro ai tuoi [!DNL Flashtalking] tag annuncio
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: 0b95d99a1370a047642f8d1e4bbafe35ad5187f6
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
 
 ---
 
-# Aggiungi macro [!DNL Analytics for Advertising] a [!DNL Flashtalking] tag annuncio
+# Aggiungi [!DNL Analytics for Advertising] macro a [!DNL Flashtalking] tag annuncio
 
 *Inserzionisti con una sola integrazione Adobe Advertising-Adobe Analytics*
 
@@ -34,7 +34,7 @@ Usa le macro per [!DNL Flashtalking] annunci video e display per i seguenti tipi
 
 * **Inserzionisti i cui siti Web non utilizzano il codice JavaScript [!DNL Analytics for Advertising] e si basano invece sull&#39;inoltro lato server [!DNL Analytics] solo per i dati click-through** (senza dati view-through): le seguenti macro sono necessarie per segnalare l&#39;attività di clic sul sito guidata dagli annunci acquistati tramite Adobe Advertising.
 
-## Visualizzare i tag annuncio
+## Visualizzare i tag degli annunci
 
 All&#39;interno delle impostazioni dei tag annuncio di [!DNL Flashtalking], aggiungi la seguente macro alla fine dell&#39;URL di click-through nel campo `Clicktag`:
 
@@ -50,7 +50,7 @@ Esempi:
 
 `https://www.adobe.com/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
 
-## Tag annuncio video
+## Tag di annunci video
 
 All&#39;interno delle impostazioni dei tag annuncio di [!DNL Flashtalking], aggiungi la seguente macro alla fine dell&#39;URL di click-through nel campo `Clicktag`:
 

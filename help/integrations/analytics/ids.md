@@ -3,7 +3,7 @@ title: ID Adobe Advertising utilizzati da [!DNL Analytics]
 description: ID Adobe Advertising utilizzati da [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 0cf325946fdc3852b8b94acb29678bf6c47227a0
+source-git-commit: 94a5b5591aef0aa5ae5d3459d547f52d939d559c
 workflow-type: tm+mt
 source-wordcount: '1122'
 ht-degree: 0%
@@ -46,9 +46,9 @@ Adobe Advertising distingue tra una voce di click-through o di view-through per 
 
 L’ID EF è un token univoco utilizzato da Adobe Advertising per associare l’attività a un clic online o a un’esposizione pubblicitaria a livello di singolo browser o dispositivo. Gli ID EF fungono principalmente da chiavi per l&#39;invio di dati [!DNL Analytics] e di dati Customer Journey Analytics ad Adobe Advertising per la generazione di rapporti e l&#39;ottimizzazione delle offerte in Adobe Advertising.
 
-Per [!DNL Analytics], l&#39;ID EF è memorizzato nella dimensione [an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=it) o [!DNL rVar] (riservata [!DNL eVar]) (ID EF Adobe Advertising).
+Per [!DNL Analytics], l&#39;ID EF è memorizzato nella dimensione [an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) o [!DNL rVar] (riservata [!DNL eVar]) (ID EF Adobe Advertising).
 
-Per Customer Journey Analytics, l&#39;ID EF è memorizzato nella proprietà `trackingIdentities` dell&#39;oggetto `conversionDetails`, che fa parte di [l&#39;oggetto [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/event/advertising-full-extension).
+Per Customer Journey Analytics, l&#39;ID EF è memorizzato nella proprietà `trackingIdentities` dell&#39;oggetto `conversionDetails`, che fa parte di [l&#39;oggetto [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension).
 
 ### Formati ID EF {#ef-id-formats}
 
@@ -98,7 +98,7 @@ dove:
 
 Esempio `EF ID: WcmibgAAAHJK1RyY:1551968087687:d`
 
-### ID EF Dimension in [!DNL Analytics]
+### Dimensione ID EF in [!DNL Analytics]
 
 Nei report [!DNL Analytics], è possibile trovare i dati ID EF cercando la dimensione [!UICONTROL EF ID] e utilizzando la metrica [!UICONTROL EF ID Instance].
 
@@ -108,7 +108,7 @@ Gli ID EF sono soggetti al limite di identificatori univoci di 500.000 in Analys
 
 {{$include /help/_includes/amo-id.md}}
 
-### Metodi per implementare AMO ID {#amo-id-implement}
+### Metodi per implementare l’AMO ID {#amo-id-implement}
 
 Il parametro viene aggiunto agli URL di tracciamento in uno dei seguenti modi:
 
@@ -138,15 +138,15 @@ Il parametro viene aggiunto agli URL di tracciamento in uno dei seguenti modi:
 
 Per implementare la funzione di inserimento lato server o per determinare l’opzione migliore per la tua azienda, rivolgiti al team del tuo account Adobe.
 
-### AMO ID Dimension in [!DNL Analytics]
+### Dimensione AMO ID in [!DNL Analytics]
 
 Nei rapporti di Analytics, puoi trovare i dati AMO ID cercando la dimensione [!UICONTROL AMO ID] e utilizzando la metrica [!UICONTROL AMO ID Instances]. La dimensione [!UICONTROL AMO ID] ospita tutti i valori AMO ID acquisiti, mentre la metrica [!UICONTROL AMO ID Instances] indica la frequenza con cui un valore AMO ID è stato acquisito dal sito. Ad esempio, se lo stesso annuncio di ricerca è stato fatto clic quattro volte ma Analytics ha tracciato sette voci di sito, [!UICONTROL AMO ID Instances] sarebbe sette (7) e [!UICONTROL Clicks] sarebbe quattro (4).
 
-Per qualsiasi reporting o controllo all’interno di [!DNL Analytics], la best practice consiste nell’utilizzare l’AMO ID insieme alla relativa istanza corrispondente. Per ulteriori informazioni, vedere &quot;[Convalida dati Click-through per [!DNL Analytics for Advertising]](data-variances.md#data-validation)&quot; in &quot;Varianze di dati previste tra [!DNL Analytics] e Adobe Advertising.&quot;
+Per qualsiasi reporting o controllo all’interno di [!DNL Analytics], la best practice consiste nell’utilizzare l’AMO ID insieme alla relativa istanza corrispondente. Per ulteriori informazioni, vedere &quot;[Convalida dei dati Click-through per  [!DNL Analytics for Advertising]](data-variances.md#data-validation)&quot; in &quot;Varianze di dati previste tra [!DNL Analytics] e Adobe Advertising.&quot;
 
 ## Informazioni sulle classificazioni di Analytics
 
-In [!DNL Analytics], una [classificazione](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=it) è un elemento di metadati per un determinato codice di tracciamento, ad esempio Account, Campagna o Annuncio. Adobe Advertising categorizza i dati non elaborati di Adobe Advertising utilizzando le classificazioni in modo da poter visualizzare i dati in diversi modi (ad esempio per tipo di annuncio o campagna) quando si generano i rapporti. Le classificazioni costituiscono la base del reporting di Adobe Advertising in [!DNL Analytics] e possono essere utilizzate con le metriche AMO, ad esempio [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions] e [!UICONTROL AMO Clicks], nonché con eventi nel sito personalizzati e standard come [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders] e [!UICONTROL Revenue].
+In [!DNL Analytics], una [classificazione](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) è un elemento di metadati per un determinato codice di tracciamento, ad esempio Account, Campagna o Annuncio. Adobe Advertising categorizza i dati non elaborati di Adobe Advertising utilizzando le classificazioni in modo da poter visualizzare i dati in diversi modi (ad esempio per tipo di annuncio o campagna) quando si generano i rapporti. Le classificazioni costituiscono la base del reporting di Adobe Advertising in [!DNL Analytics] e possono essere utilizzate con le metriche AMO, ad esempio [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions] e [!UICONTROL AMO Clicks], nonché con eventi nel sito personalizzati e standard come [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders] e [!UICONTROL Revenue].
 
 >[!MORELIKETHIS]
 >

@@ -3,7 +3,7 @@ title: Metriche di Adobe Advertising in Analysis Workspace
 description: Metriche di Adobe Advertising in Analysis Workspace
 feature: Integration with Adobe Analytics
 exl-id: da5e5704-4504-4fc5-93d2-db7d28f0c349
-source-git-commit: da69280679a4e0c5ce04f55ee94ce984745395ff
+source-git-commit: 94a5b5591aef0aa5ae5d3459d547f52d939d559c
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 0%
@@ -17,34 +17,34 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* Adobe Advertising passa metriche e dimensioni del traffico a [!DNL Analytics] al giorno.
->* [!DNL Analytics] acquisisce click-through e view-through di Adobi Advertising in tempo reale.
+>* [!DNL Analytics] acquisisce i click-through e i view-through di Adobe Advertising in tempo reale.
 >* Per [!DNL Search, Social, & Commerce], questa funzione è supportata per la maggior parte delle reti di annunci e dei tipi di campagne. Per ulteriori informazioni, vedere &quot;[Inventario supportato](/help/search-social-commerce/introduction/supported-inventory.md)&quot; nella Guida di [!DNL Search, Social, & Commerce].
 
-## Metriche traffico da Adobe Advertising
+## Metriche del traffico da Adobe Advertising
 
-Le metriche del traffico di Adobe Advertising in [!DNL Analytics] in genere iniziano con &quot;Adobe Advertising&quot;, ad eccezione di &quot;[!UICONTROL AMO ID Instances]&quot;.&quot; Tuttavia, per i clienti a lungo termine che hanno utilizzato un evento personalizzato (anziché un evento riservato) per creare originariamente metriche per clic, costi e impression, tali metriche iniziano ancora con &quot;AMO&quot;.
+Le metriche del traffico di Adobe Advertising in [!DNL Analytics] in genere iniziano con &quot;Adobe Advertising&quot;, ad eccezione di &quot;[!UICONTROL AMO ID Instances]&quot;. Tuttavia, per i clienti a lungo termine che hanno utilizzato un evento personalizzato (anziché un evento riservato) per creare originariamente metriche per clic, costi e impression, tali metriche iniziano ancora con &quot;AMO&quot;.
 
 | Metrica traffico | Descrizione |
 | -------------- | ----------- |
-| [!UICONTROL Adobe Advertising Clicks] o (alcuni clienti legacy) [!UICONTROL AMO Clicks] | Il numero totale di clic Adobe Advertising. |
-| [!UICONTROL Adobe Advertising Cost] o (alcuni clienti legacy) [!UICONTROL AMO Cost] | L’Adobe Advertising di spesa nella valuta della suite di rapporti. |
-| [!UICONTROL Adobe Advertising Impressions] o (alcuni clienti legacy) [!UICONTROL AMO Impressions] | Il numero di impression Adobi Advertising. |
+| [!UICONTROL Adobe Advertising Clicks] o (alcuni clienti legacy) [!UICONTROL AMO Clicks] | Il numero totale di clic su Adobe Advertising. |
+| [!UICONTROL Adobe Advertising Cost] o (alcuni clienti legacy) [!UICONTROL AMO Cost] | La spesa Adobe Advertising nella valuta della suite di rapporti. |
+| [!UICONTROL Adobe Advertising Impressions] o (alcuni clienti legacy) [!UICONTROL AMO Impressions] | Il numero di impression di Adobe Advertising. |
 | [!UICONTROL Adobe Advertising Measurable Impressions] | Numero di impression servite per le quali la strumentazione di visualizzabilità è stata inizializzata correttamente. Questo valore viene calcolato come (impression instrumentate: il numero di impression non misurabili). |
 | [!UICONTROL Adobe Advertising Minutes Viewed] | Il numero di minuti in cui è stato visualizzato un video di Adobe Advertising. |
 | [!UICONTROL Adobe Advertising Not Viewable Impressions] | Il numero di impression che sono state determinate come non visualizzabili. Questo valore viene calcolato come ([!UICONTROL Adobe Advertising Measurable Impressions] - [!UICONTROL Adobe Advertising Viewable]). |
 | [!UICONTROL Adobe Advertising Viewable Impressions] | Il numero di impression misurate per essere visualizzabili in base alla configurazione di posizionamento. |
-| [!UICONTROL Adobe Advertising Views] | Il numero di visualizzazioni in un annuncio. Una vista viene conteggiata quando il visualizzatore avvia il video di Adobe Advertising. |
+| [!UICONTROL Adobe Advertising Views] | Il numero di visualizzazioni in un annuncio. Una visualizzazione viene conteggiata quando il visualizzatore avvia il video Adobe Advertising. |
 | [!UICONTROL Adobe Advertising Views 25% Complete] | Il numero di visualizzazioni per le quali è stato guardato almeno il 25% di un video di Adobe Advertising. |
 | [!UICONTROL Adobe Advertising Views 50% Complete] | Il numero di visualizzazioni per le quali è stato guardato almeno il 50% di un video di Adobe Advertising. |
 | [!UICONTROL Adobe Advertising Views 75% Complete] | Il numero di visualizzazioni per le quali è stato guardato almeno il 75% di un video di Adobe Advertising. |
 | [!UICONTROL Adobe Advertising Views 100% Complete] | Il numero di visualizzazioni per le quali è stato guardato il 100% di un video di Adobe Advertising. |
 | [!UICONTROL AMO ID Instances] | Il numero di volte in cui [!UICONTROL AMO ID] è impostato. |
 
-## Dimension Adobe Advertising
+## Dimensioni Adobe Advertising
 
 >[!NOTE]
 >
->Tutte le dimensioni di Adobe Advertising in [!DNL Analytics] sono seguite da &quot;[!DNL (AMO ID)]&quot;.
+>Tutte le dimensioni Adobe Advertising in [!DNL Analytics] sono seguite da &quot;[!DNL (AMO ID)]&quot;.
 
 | Dimensione | Dati Adobe Advertising applicabili | Descrizione |
 | ----------- | ---------- | ---------- |

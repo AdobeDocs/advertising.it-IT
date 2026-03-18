@@ -3,9 +3,9 @@ title: Varianze di dati previste tra  [!DNL Analytics]  e Adobe Advertising
 description: Varianze di dati previste tra  [!DNL Analytics]  e Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 6470ed471c60477bf19cf9b125f0250136f31511
+source-git-commit: 94a5b5591aef0aa5ae5d3459d547f52d939d559c
 workflow-type: tm+mt
-source-wordcount: '3358'
+source-wordcount: '3359'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Inserzionisti con una sola integrazione Adobe Advertising-Adobe Analytics*
 
-Gli inserzionisti con l&#39;integrazione [!DNL Analytics for Advertising] <!-- (A4AdC) --> registrano gli annunci a pagamento tramite Adobe Advertising e Adobe Analytics. Quando si tiene traccia di contenuti multimediali, campagne e canali tramite più sistemi, raramente gli stessi set di dati di sistemi diversi corrispondono completamente. In questo documento viene illustrato come si prevede che i dati dei file multimediali oggetto di traffico tramite Adobe Advertising vengano confrontati con i dati dei diversi sistemi in cui i file multimediali vengono tracciati in [!DNL Analytics].
+Gli inserzionisti con l&#39;integrazione [!DNL Analytics for Advertising] <!-- (A4AdC) --> registrano gli annunci a pagamento tramite Adobe Advertising e Adobe Analytics. Quando si tiene traccia di contenuti multimediali, campagne e canali tramite più sistemi, raramente gli stessi set di dati di sistemi diversi corrispondono completamente. In questo documento viene illustrato come si prevede che i dati dei contenuti multimediali oggetto di traffico tramite Adobe Advertising vengano confrontati con i dati dei diversi sistemi in cui i contenuti multimediali vengono tracciati in [!DNL Analytics].
 
 >[!NOTE]
 >
@@ -22,43 +22,43 @@ Gli inserzionisti con l&#39;integrazione [!DNL Analytics for Advertising] <!-- (
 
 ## Differenze di attribuzione in rapporti simili
 
-### Finestre di lookback e modelli di attribuzione potenzialmente diversi
+### Intervalli di lookback e modelli di attribuzione potenzialmente diversi
 
-L&#39;integrazione di [!DNL Analytics for Advertising] utilizza due variabili ([!DNL eVars] o [!DNL rVars] \[riservato [!DNL eVars]]\) per acquisire l&#39;ID [EF e l&#39;AMO ID](ids.md). Queste variabili sono configurate con un singolo intervallo di lookback (il tempo entro il quale vengono attribuiti i click-through e le view-through) e un modello di attribuzione. Se non diversamente specificato, le variabili sono configurate per corrispondere all’intervallo di lookback dei clic e al modello di attribuzione predefiniti a livello di inserzionista in Adobe Advertising.
+L&#39;integrazione di [!DNL Analytics for Advertising] utilizza due variabili ([!DNL eVars] o [!DNL rVars] \[riservato [!DNL eVars]]\) per acquisire l&#39;ID [EF e l&#39;AMO ID](ids.md). Queste variabili sono configurate con un singolo intervallo di lookback (il tempo entro il quale vengono attribuiti i click-through e le view-through) e un modello di attribuzione. Se non specificato diversamente, le variabili sono configurate per corrispondere all’intervallo di lookback dei clic e al modello di attribuzione predefiniti a livello di inserzionista in Adobe Advertising.
 
-Tuttavia, gli intervalli di lookback e i modelli di attribuzione sono configurabili sia in Analytics (tramite [!DNL eVars]) che in Adobe Advertising. Inoltre, ad Adobe Advertising, il modello di attribuzione è configurabile non solo a livello di inserzionista (per l’ottimizzazione delle offerte), ma anche all’interno di singole visualizzazioni di dati e rapporti (solo a scopo di reporting). Ad esempio, un&#39;organizzazione potrebbe preferire il modello di attribuzione distribuzione uniforme per l&#39;ottimizzazione, ma utilizzare l&#39;attribuzione ultimo contatto per i rapporti in Advertising DSP o [!DNL Advertising Search, Social, & Commerce]. La modifica dei modelli di attribuzione cambia il numero di conversioni attribuite.
+Tuttavia, gli intervalli di lookback e i modelli di attribuzione sono configurabili sia in Analytics (tramite [!DNL eVars]) che in Adobe Advertising. Inoltre, in Adobe Advertising, il modello di attribuzione è configurabile non solo a livello di inserzionista (per l’ottimizzazione delle offerte) ma anche all’interno di singole visualizzazioni di dati e rapporti (solo a scopo di reporting). Ad esempio, un&#39;organizzazione potrebbe preferire il modello di attribuzione distribuzione uniforme per l&#39;ottimizzazione, ma utilizzare l&#39;attribuzione ultimo contatto per i rapporti in Advertising DSP o [!DNL Advertising Search, Social, & Commerce]. La modifica dei modelli di attribuzione cambia il numero di conversioni attribuite.
 
 Se un intervallo di lookback o un modello di attribuzione viene modificato in un prodotto e non nell’altro, gli stessi rapporti di ciascun sistema mostrano dati distinti:
 
 * **Esempio di discrepanze causate da diversi intervalli di lookback:**
 
-  Supponiamo che l&#39;Adobe Advertising abbia un intervallo di lookback di 60 giorni e che [!DNL Analytics] abbia un intervallo di lookback di 30 giorni. E supponiamo che un utente arrivi al sito tramite un annuncio tracciato dagli Adobi Advertising, se ne vada, quindi ritorni al giorno 45 e converta. Adobe Advertising attribuisce la conversione alla visita iniziale perché la conversione si è verificata all’interno dell’intervallo di lookback di 60 giorni. [!DNL Analytics], tuttavia, non può attribuire la conversione alla visita iniziale perché la conversione si è verificata dopo la scadenza dell&#39;intervallo di lookback di 30 giorni. In questo Adobe Advertising viene segnalato un numero di conversioni maggiore rispetto a [!DNL Analytics].
+  Supponiamo che Adobe Advertising abbia un intervallo di lookback di 60 giorni e che [!DNL Analytics] abbia un intervallo di lookback di 30 giorni. E supponiamo che un utente arrivi al sito tramite un annuncio tracciato da Adobe Advertising, se ne vada, quindi ritorni al giorno 45 e converta. Adobe Advertising attribuisce la conversione alla visita iniziale perché si è verificata all’interno dell’intervallo di lookback di 60 giorni. [!DNL Analytics], tuttavia, non può attribuire la conversione alla visita iniziale perché la conversione si è verificata dopo la scadenza dell&#39;intervallo di lookback di 30 giorni. In questo esempio, Adobe Advertising segnala un numero di conversioni maggiore rispetto a [!DNL Analytics].
 
   ![Esempio di conversione attribuita in Adobe Advertising ma non [!DNL Analytics]](/help/integrations/assets/a4adc-lookback-example.png)
 
 * **Esempio di discrepanze causate da diversi modelli di attribuzione:**
 
-  Supponiamo che un utente interagisca con tre diversi annunci di Adobe Advertising prima della conversione, con i ricavi come tipo di conversione. Se un rapporto di Adobe Advertising utilizza un modello di distribuzione uniforme per l’attribuzione, i ricavi vengono attribuiti in modo uniforme tra tutti gli annunci. Tuttavia, se [!DNL Analytics] utilizza il modello di attribuzione ultimo contatto, attribuisce i ricavi all&#39;ultimo annuncio. Nell&#39;esempio seguente, Adobe Advertising attribuisce un valore pari a 10 USD dei 30 USD di ricavi acquisiti a ciascuno dei tre annunci, mentre [!DNL Analytics] attribuisce tutti i 30 USD di ricavi all&#39;ultimo annuncio visualizzato dall&#39;utente. Confrontando i rapporti di Adobe Advertising e [!DNL Analytics], è possibile prevedere l&#39;impatto della differenza nell&#39;attribuzione.
+  Supponiamo che un utente interagisca con tre diversi annunci di Adobe Advertising prima della conversione, con i ricavi come tipo di conversione. Se un rapporto di Adobe Advertising utilizza un modello di distribuzione uniforme per l’attribuzione, i ricavi vengono attribuiti in modo uniforme tra tutti gli annunci. Tuttavia, se [!DNL Analytics] utilizza il modello di attribuzione ultimo contatto, attribuisce i ricavi all&#39;ultimo annuncio. Nell&#39;esempio seguente, Adobe Advertising attribuisce persino 10 USD dei 30 USD di ricavi acquisiti a ciascuno dei tre annunci, mentre [!DNL Analytics] attribuisce tutti i 30 USD di ricavi all&#39;ultimo annuncio visualizzato dall&#39;utente. Confrontando i rapporti di Adobe Advertising e [!DNL Analytics], è possibile prevedere l&#39;impatto della differenza di attribuzione.
 
-  ![Ricavi diversi attribuiti a Adobe Advertising e [!DNL Analytics] in base a modelli di attribuzione diversi](/help/integrations/assets/a4adc-attribution-example.png)
+  ![Ricavi diversi attribuiti ad Adobe Advertising e [!DNL Analytics] in base a modelli di attribuzione diversi](/help/integrations/assets/a4adc-attribution-example.png)
 
 >[!IMPORTANT]
 >
->La best practice prevede di utilizzare gli stessi intervalli di lookback e lo stesso modello di attribuzione sia nell’Adobe Advertising che in [!DNL Analytics]. Collabora con il tuo Account Team Adobe per identificare le impostazioni correnti e mantenere sincronizzate le configurazioni.
+>La best practice prevede di utilizzare gli stessi intervalli di lookback e lo stesso modello di attribuzione sia in Adobe Advertising che in [!DNL Analytics]. Collabora con il tuo Account Team Adobe per identificare le impostazioni correnti e mantenere sincronizzate le configurazioni.
 
 Questi stessi concetti si applicano a qualsiasi altro canale simile che utilizza intervalli di lookback o modelli di attribuzione diversi.
 
 #### Diversi intervalli di lookback per il tracciamento view-through {#impression-lookback}
 
-Ad Adobe Advertising, l’attribuzione si basa su clic e impression e puoi configurare diversi intervalli di lookback per i clic e le impression. In [!DNL Analytics], tuttavia, l&#39;attribuzione si basa su click-through e view-through e non è possibile impostare finestre di attribuzione diverse per i click-through e i view-through; il tracciamento di ogni inizia alla visita iniziale del sito. Un’impression può verificarsi lo stesso giorno o più giorni prima che si verifichi una view-through e la tempistica può influire sul punto in cui inizia la finestra di attribuzione in ciascun sistema.
+In Adobe Advertising, l’attribuzione si basa su clic e impression e puoi configurare diversi intervalli di lookback per i clic e le impression. In [!DNL Analytics], tuttavia, l&#39;attribuzione si basa su click-through e view-through e non è possibile impostare finestre di attribuzione diverse per i click-through e i view-through; il tracciamento di ogni inizia alla visita iniziale del sito. Un’impression può verificarsi lo stesso giorno o più giorni prima che si verifichi una view-through e la tempistica può influire sul punto in cui inizia la finestra di attribuzione in ciascun sistema.
 
-In genere, la maggior parte delle conversioni view-through si verifica abbastanza rapidamente da attribuire credito a entrambi i sistemi. Tuttavia, alcune conversioni possono verificarsi al di fuori dell&#39;intervallo di lookback di impression Adobe Advertising ma all&#39;interno dell&#39;intervallo di lookback [!DNL Analytics]; tali conversioni sono attribuite alla view-through in [!DNL Analytics] ma non all&#39;impression in Adobe Advertising.
+In genere, la maggior parte delle conversioni view-through si verifica abbastanza rapidamente da attribuire credito a entrambi i sistemi. Tuttavia, alcune conversioni possono verificarsi al di fuori dell&#39;intervallo di lookback di impression di Adobe Advertising ma all&#39;interno dell&#39;intervallo di lookback [!DNL Analytics]; tali conversioni sono attribuite alla visualizzazione in [!DNL Analytics] ma non all&#39;impression in Adobe Advertising.
 
-Nell’esempio seguente, supponiamo che a un visitatore sia stato servito un annuncio il Giorno 1, che abbia eseguito una visita view-through (ovvero abbia visitato la pagina di destinazione dell’annuncio senza fare clic in precedenza sull’annuncio) il Giorno 2 e che sia stato convertito il Giorno 45. In questo caso, Adobe Advertising tiene traccia dell’utente dai giorni 1-14 (utilizzando un lookback di 14 giorni), [!DNL Analytics] tiene traccia dell’utente dai giorni 2-61 (utilizzando un lookback di 60 giorni) e la conversione nel giorno 45 viene attribuita all’annuncio entro [!DNL Analytics] ma non all’interno di Adobe Advertising.
+Nell’esempio seguente, supponiamo che a un visitatore sia stato servito un annuncio il Giorno 1, che abbia eseguito una visita view-through (ovvero abbia visitato la pagina di destinazione dell’annuncio senza fare clic in precedenza sull’annuncio) il Giorno 2 e che sia stato convertito il Giorno 45. In questo caso, Adobe Advertising tiene traccia dell’utente dai giorni 1-14 (utilizzando un lookback di 14 giorni), [!DNL Analytics] tiene traccia dell’utente dai giorni 2-61 (utilizzando un lookback di 60 giorni) e la conversione nel giorno 45 viene attribuita all’annuncio in [!DNL Analytics] ma non in Adobe Advertising.
 
-![Esempio di conversione view-through attribuita in [!DNL Analytics] ma non nell&#39;Adobe Advertising](/help/integrations/assets/a4adc-viewthrough-example.png)
+![Esempio di conversione view-through attribuita in [!DNL Analytics] ma non in Adobe Advertising](/help/integrations/assets/a4adc-viewthrough-example.png)
 
-Un&#39;ulteriore causa di discrepanze è che, ad Adobe Advertising, è possibile assegnare alle conversioni view-through un *peso view-through* personalizzato relativo al peso attribuito a una conversione basata su clic. Il peso predefinito della visualizzazione view-through è 40%, il che significa che una conversione view-through viene conteggiata come 40% del valore di una conversione basata su clic. [!DNL Analytics] non fornisce una tale ponderazione delle conversioni view-through. Ad Adobe Advertising, un ordine di ricavi da 100 USD acquisito in [!DNL Analytics] viene scontato a 40 USD se si utilizza il peso view-through predefinito, una differenza di 60 USD.
+Un&#39;ulteriore causa di discrepanze è che, in Adobe Advertising, è possibile assegnare alle conversioni view-through un *peso view-through* personalizzato relativo al peso attribuito a una conversione basata su clic. Il peso predefinito della visualizzazione view-through è 40%, il che significa che una conversione view-through viene conteggiata come 40% del valore di una conversione basata su clic. [!DNL Analytics] non fornisce una tale ponderazione delle conversioni view-through. Ad esempio, un ordine di ricavi da 100 USD acquisito in [!DNL Analytics] viene scontato a 40 USD in Adobe Advertising se si utilizza il peso view-through predefinito, una differenza di 60 USD.
 
 Considerare queste differenze durante il confronto delle conversioni view-through tra i report Adobe Advertising e [!DNL Analytics].
 
@@ -86,7 +86,7 @@ Considerare queste differenze durante il confronto delle conversioni view-throug
 >
 >Per evitare confusione, [!DNL Analytics] rende i dati cronologici non disponibili nell&#39;interfaccia di reporting. È possibile visualizzare i dati storici se si ripristina l&#39;impostazione di allocazione iniziale di [!DNL eVar], anche se non è consigliabile modificare le impostazioni di allocazione di [!DNL eVar] per accedere semplicemente ai dati storici. Adobe consiglia di utilizzare un nuovo [!DNL eVar] quando si desidera applicare una nuova impostazione di allocazione per i dati già registrati, anziché modificare le impostazioni di allocazione per un [!DNL eVar] che dispone già di una quantità significativa di dati storici.
 
-Consulta un elenco dei modelli di attribuzione [!DNL Analytics] e delle relative definizioni in [https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/attribution/models](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/attribution/models).
+Consulta un elenco dei modelli di attribuzione [!DNL Analytics] e delle relative definizioni in [https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models).
 
 Se hai effettuato l&#39;accesso a [!DNL Search, Social, & Commerce], puoi trovare un elenco
 
@@ -96,41 +96,41 @@ Se hai effettuato l&#39;accesso a [!DNL Search, Social, & Commerce], puoi trovar
 
 #### Attribuzione data evento in Adobe Advertising
 
-Ad Adobe Advertising, puoi generare rapporti sui dati di conversione in base alla data di clic/data dell’evento associata (la data dell’evento di clic o di impression) o in base alla data della transazione (data di conversione). Il concetto di reporting sulla data di clic/evento non esiste in [!DNL Analytics]; tutte le conversioni tracciate in [!DNL Analytics] sono segnalate per data di transazione. Di conseguenza, la stessa conversione può essere segnalata con date diverse in Adobe Advertising e [!DNL Analytics]. Ad esempio, considera un utente che fa clic su un annuncio il 1° gennaio e converte il 5 gennaio. Se in Adobe Advertising visualizzi i dati di conversione per data evento, la conversione viene segnalata il 1° gennaio, quando si è verificato il clic. In [!DNL Analytics], la stessa conversione viene segnalata il 5 gennaio.
+In Adobe Advertising, puoi segnalare i dati di conversione in base alla data di clic/data dell’evento associata (la data dell’evento di clic o di impression) o in base alla data della transazione (data di conversione). Il concetto di reporting sulla data di clic/evento non esiste in [!DNL Analytics]; tutte le conversioni tracciate in [!DNL Analytics] sono segnalate per data di transazione. Di conseguenza, la stessa conversione può essere segnalata con date diverse in Adobe Advertising e [!DNL Analytics]. Ad esempio, considera un utente che fa clic su un annuncio il 1° gennaio e converte il 5 gennaio. Se visualizzi i dati di conversione per data evento in Adobe Advertising, la conversione viene segnalata il 1° gennaio, quando si è verificato il clic. In [!DNL Analytics], la stessa conversione viene segnalata il 5 gennaio.
 
 ![Esempio di conversione attribuita a date diverse](/help/integrations/assets/a4adc-conversions-based-on.png)
 
 ## Attribuzione in [!DNL Analytics Marketing Channels]
 
-[[!DNL Analytics Marketing Channels] generazione rapporti](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html?lang=it) consente di configurare le regole per identificare diversi canali di marketing in base ad aspetti distinti delle informazioni sugli hit. È possibile tenere traccia dei canali tracciati dagli Adobi Advertising ([!UICONTROL Display Click Through], [!UICONTROL Display View Through] e [!UICONTROL Paid Search]) come [!DNL Marketing Channels] utilizzando il parametro della stringa di query `ef_id` per identificare il canale. <!-- Move most of the above text to "Marketing Channels" chapter once it's created, and add link here. --> Tuttavia, anche se i report [!DNL Marketing Channels] possono tenere traccia dei canali di Adobe Advertising, i dati potrebbero non corrispondere ai report di Adobe Advertising per diversi motivi. Per ulteriori informazioni, consulta le sezioni seguenti.
+[[!DNL Analytics Marketing Channels] generazione rapporti](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html) consente di configurare le regole per identificare diversi canali di marketing in base ad aspetti distinti delle informazioni sugli hit. È possibile tenere traccia dei canali tracciati da Adobe Advertising ([!UICONTROL Display Click Through], [!UICONTROL Display View Through] e [!UICONTROL Paid Search]) come [!DNL Marketing Channels] utilizzando il parametro della stringa di query `ef_id` per identificare il canale. <!-- Move most of the above text to "Marketing Channels" chapter once it's created, and add link here. --> Tuttavia, anche se i report [!DNL Marketing Channels] possono tenere traccia dei canali di Adobe Advertising, i dati potrebbero non corrispondere ai report di Adobe Advertising per diversi motivi. Per ulteriori informazioni, consulta le sezioni seguenti.
 
 >[!NOTE]
 >
-> I seguenti concetti di base si applicano anche a qualsiasi tracciamento multicanale che coinvolge campagne non tracciate in Adobe Advertising, come la variabile [`campaign`](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/campaign.html?lang=it) (nota anche come dimensione &quot;Codice di tracciamento&quot; o &quot;[!DNL eVar] 0&quot;) e il tracciamento personalizzato [!DNL eVar].
+> I seguenti concetti di base si applicano anche a qualsiasi tracciamento multicanale che coinvolge campagne non tracciate in Adobe Advertising, come la variabile [`campaign`](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/campaign.html) (nota anche come dimensione &quot;Codice di tracciamento&quot; o &quot;[!DNL eVar] 0&quot;) e il tracciamento [!DNL eVar] personalizzato.
 
 ### Modelli di attribuzione potenzialmente diversi in [!DNL Marketing Channels]
 
-La maggior parte dei rapporti [!DNL Marketing Channels] è configurata con attribuzione [!UICONTROL Last Touch], a cui è assegnato il 100% del valore di conversione dell&#39;ultimo canale di marketing rilevato. L&#39;utilizzo di diversi modelli di attribuzione per i report [!DNL Marketing Channels] e i report di Adobe Advertising genera discrepanze nelle conversioni attribuite.
+La maggior parte dei rapporti [!DNL Marketing Channels] è configurata con attribuzione [!UICONTROL Last Touch], a cui è assegnato il 100% del valore di conversione dell&#39;ultimo canale di marketing rilevato. L&#39;utilizzo di diversi modelli di attribuzione per i rapporti [!DNL Marketing Channels] e Adobe Advertising genera discrepanze nelle conversioni attribuite.
 
 ### Un intervallo di lookback potenzialmente diverso in [!DNL Marketing Channels]
 
-L&#39;intervallo di lookback per [!DNL Marketing Channels] può essere personalizzato. Ad Adobe Advertising, l’intervallo di lookback su clic è configurabile, anche se una finestra fissa di 60 giorni è comune. Se i due prodotti utilizzano intervalli di lookback diversi, si possono verificare discrepanze di dati.
+L&#39;intervallo di lookback per [!DNL Marketing Channels] può essere personalizzato. In Adobe Advertising, l’intervallo di lookback su clic è configurabile, anche se una finestra fissa di 60 giorni è comune. Se i due prodotti utilizzano intervalli di lookback diversi, si possono verificare discrepanze di dati.
 
-### Attribuzione canale diversa in [!DNL Marketing Channels]
+### Attribuzione di canale diversa in [!DNL Marketing Channels]
 
-I report Adobe Advertising acquisiscono solo contenuti multimediali a pagamento oggetto di traffico tramite Adobe Advertising (ricerca a pagamento per [!DNL Advertising Search, Social, & Commerce] annunci e visualizzazione per annunci Advertising DSP), mentre i report [!DNL Marketing Channels] possono tenere traccia di tutti i canali digitali. Questo può causare una discrepanza nel canale per il quale viene attribuita una conversione.
+I rapporti di Adobe Advertising acquisiscono solo i contenuti multimediali a pagamento oggetto di traffico tramite Adobe Advertising (ricerca a pagamento per [!DNL Advertising Search, Social, & Commerce] annunci e visualizzazione per annunci di Advertising DSP), mentre i rapporti di [!DNL Marketing Channels] possono tenere traccia di tutti i canali digitali. Questo può causare una discrepanza nel canale per il quale viene attribuita una conversione.
 
-Ad esempio, i canali di ricerca a pagamento e di ricerca naturale hanno spesso una relazione simbiotica, in cui ogni canale assiste l’altro. Il report [!DNL Marketing Channels] attribuisce alcune conversioni alla ricerca naturale che l&#39;Adobe Advertising non ha perché non tiene traccia della ricerca naturale.
+Ad esempio, i canali di ricerca a pagamento e di ricerca naturale hanno spesso una relazione simbiotica, in cui ogni canale assiste l’altro. Il report [!DNL Marketing Channels] attribuisce alcune conversioni alla ricerca naturale che Adobe Advertising non fa perché non tiene traccia della ricerca naturale.
 
-Considera anche un cliente che visualizza un annuncio di visualizzazione, fa clic su un annuncio di ricerca a pagamento, fa clic all’interno di un messaggio e-mail e quindi effettua un ordine di 30 USD. Anche se sia Adobe Advertising che [!DNL Marketing Channels] utilizzano il modello di attribuzione ultimo contatto, la conversione verrebbe comunque attribuita in modo diverso a ciascuno di essi. L&#39;Adobe Advertising non ha accesso al canale [!UICONTROL Email], pertanto accrediterebbe la ricerca a pagamento per la conversione. [!DNL Marketing Channels], tuttavia, ha accesso a tutti e tre i canali, pertanto attribuirebbe il merito a [!UICONTROL Email] per la conversione.
+Considera anche un cliente che visualizza un annuncio di visualizzazione, fa clic su un annuncio di ricerca a pagamento, fa clic all’interno di un messaggio e-mail e quindi effettua un ordine di 30 USD. Anche se Adobe Advertising e [!DNL Marketing Channels] utilizzano entrambi il modello di attribuzione ultimo contatto, la conversione verrebbe comunque attribuita in modo diverso a ciascuno. Adobe Advertising non ha accesso al canale [!UICONTROL Email], pertanto attribuirebbe il merito della ricerca a pagamento per la conversione. [!DNL Marketing Channels], tuttavia, ha accesso a tutti e tre i canali, pertanto attribuirebbe il merito a [!UICONTROL Email] per la conversione.
 
 ![Esempio di attribuzione di conversione diversa in Adobe Advertising rispetto a [!DNL Analytics Marketing Channels]](/help/integrations/assets/a4adc-channel-example.png)
 
-Per ulteriori spiegazioni sul motivo per cui le metriche possono variare, vedere &quot;[Why Channel Data Can Vary Between Adobe Advertising and [!DNL Marketing Channels]](marketing-channels/mc-data-variances.md)&quot; (Perché i dati del canale possono variare da un  all&#39;altro).
+Per ulteriori spiegazioni sul motivo per cui le metriche possono variare, vedere &quot;[Perché i dati dei canali possono variare tra Adobe Advertising e [!DNL Marketing Channels]](marketing-channels/mc-data-variances.md).&quot;
 
 ## Differenze di dati in Adobe Analytics [!DNL Paid Search Detection]
 
-La funzionalità [legacy [!DNL Paid Search Detection]](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/paid-search-detection.html?lang=it) in [!DNL Analytics] consente alle aziende di [definire regole per il monitoraggio del traffico di ricerca organico e a pagamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html?lang=it) per i motori di ricerca specificati. Le regole [!DNL Paid Search Detection] utilizzano sia una stringa di query che il dominio di riferimento per identificare il traffico di ricerca a pagamento e naturale. I report [!DNL Paid Search Detection] fanno parte del gruppo più ampio di report [Metodi di ricerca](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html?lang=it), che scadono quando si verifica un evento specificato, ad esempio il Check-Out del carrello, oppure al termine della visita.
+La funzionalità [legacy [!DNL Paid Search Detection]](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/paid-search-detection.html) in [!DNL Analytics] consente alle aziende di [definire regole per il monitoraggio del traffico di ricerca organico e a pagamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html) per i motori di ricerca specificati. Le regole [!DNL Paid Search Detection] utilizzano sia una stringa di query che il dominio di riferimento per identificare il traffico di ricerca a pagamento e naturale. I report [!DNL Paid Search Detection] fanno parte del gruppo più ampio di report [Metodi di ricerca](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html), che scadono quando si verifica un evento specificato, ad esempio il Check-Out del carrello, oppure al termine della visita.
 
 Di seguito è riportata l&#39;interfaccia per la creazione di un set di regole [!DNL Paid Search Detection]:
 
@@ -140,15 +140,15 @@ I report [!DNL Paid Search Detection] risultanti includono [!UICONTROL Paid Sear
 
 Tenere presente le due limitazioni seguenti con i dati nei report [!DNL Paid Search Detection]:
 
-* I report [!UICONTROL Paid Search Keywords] e [!UICONTROL Natural Search Keywords] mostrano le query di ricerca identificate dagli URL di riferimento, non le parole chiave su cui gli utenti fanno un&#39;offerta. I report Adobe Advertising e [!DNL Analytics] visualizzano le parole chiave effettive, quindi non aspettarti che si allineino con i report [!DNL Paid Search Detection] per parole chiave.
+* I report [!UICONTROL Paid Search Keywords] e [!UICONTROL Natural Search Keywords] mostrano le query di ricerca identificate dagli URL di riferimento, non le parole chiave su cui gli utenti fanno un&#39;offerta. I report di Adobe Advertising e [!DNL Analytics] visualizzano le parole chiave effettive, quindi non aspettarti che si allineino con i report di parole chiave [!DNL Paid Search Detection].
 
 * Al momento della creazione della funzionalità [!DNL Paid Search Detection], la query di ricerca di origine (la stringa di caratteri immessa dall&#39;utente nella barra di ricerca nel motore di ricerca) era più facilmente disponibile per gli inserzionisti tramite l&#39;URL di riferimento. Attualmente, i motori di ricerca offuscano in gran parte la query di ricerca e i report per parole chiave [!DNL Paid Search Detection] hanno un valore limitato perché la maggior parte dei dati della query rientra in &quot;non specificato&quot;.
 
-  Con [!DNL Analytics for Advertising], gli inserzionisti possono ancora tenere traccia delle parole chiave a pagamento in [!DNL Analytics]. Il dominio di riferimento informa il motore di rapporti su quale motore di ricerca ha guidato il traffico. Poiché le informazioni sull’account specifiche dell’inserzionista non sono legate al dominio di riferimento, tutto il traffico viene elencato nel motore di ricerca. Gli inserzionisti con più account nello stesso motore di ricerca devono fare riferimento al reporting di Adobe Advertising o [!DNL Analytics] per il reporting specifico dell&#39;account.
+  Con [!DNL Analytics for Advertising], gli inserzionisti possono ancora tenere traccia delle parole chiave a pagamento in [!DNL Analytics]. Il dominio di riferimento informa il motore di rapporti su quale motore di ricerca ha guidato il traffico. Poiché le informazioni sull’account specifiche dell’inserzionista non sono legate al dominio di riferimento, tutto il traffico viene elencato nel motore di ricerca. Gli inserzionisti con più account nello stesso motore di ricerca devono fare riferimento al reporting di Adobe Advertising o [!DNL Analytics] per il reporting specifico per l&#39;account.
 
 ### Perché configurare [!DNL Paid Search Detection]?
 
-I report [!DNL Paid Search Detection] ti consentono di identificare il traffico di ricerca naturale nei [[!DNL Analytics Marketing Channels] report](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html?lang=it). La separazione del traffico di ricerca a pagamento dal traffico di ricerca naturale è un ottimo modo per comprendere il valore che la ricerca naturale apporta all’intero ecosistema di marketing.
+I report [!DNL Paid Search Detection] ti consentono di identificare il traffico di ricerca naturale nei [[!DNL Analytics Marketing Channels] report](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html). La separazione del traffico di ricerca a pagamento dal traffico di ricerca naturale è un ottimo modo per comprendere il valore che la ricerca naturale apporta all’intero ecosistema di marketing.
 
 ## Convalida dei dati di click-through per [!DNL Analytics for Advertising] {#data-validation}
 
@@ -168,9 +168,9 @@ Nei rapporti di Adobe Advertising, è possibile confrontare in modo simile le is
 EF ID Instances to Clicks = ([!UICONTROL EF ID Instances] / [!UICONTROL Adobe Advertising Clicks])
 ```
 
-Anche se è previsto un tasso di corrispondenza elevato tra AMO ID e EF ID, non si prevede una parità del 100% perché AMO ID e EF ID tengono traccia fondamentalmente di dati diversi e questa differenza può portare a lievi differenze nel totale di [!UICONTROL AMO ID Instances] e [!UICONTROL EF ID Instances]. Se il totale di [!UICONTROL AMO ID Instances] in [!DNL Analytics] differisce da [!UICONTROL EF ID Instances] in Adobe Advertising di oltre l&#39;1%, tuttavia, contatta il team dell&#39;account Adobe per assistenza.
+Anche se è previsto un tasso di corrispondenza elevato tra AMO ID e EF ID, non si prevede una parità del 100% perché AMO ID e EF ID tengono traccia fondamentalmente di dati diversi e questa differenza può portare a lievi differenze nel totale di [!UICONTROL AMO ID Instances] e [!UICONTROL EF ID Instances]. Se il totale di [!UICONTROL AMO ID Instances] in [!DNL Analytics] differisce da [!UICONTROL EF ID Instances] in Adobe Advertising di oltre l&#39;1%, tuttavia, contatta il team del tuo account Adobe per assistenza.
 
-Per ulteriori informazioni sull&#39;AMO ID e sull&#39;EF ID, vedi [ID Adobi Advertising utilizzati da Analytics](ids.md).
+Per ulteriori informazioni sull&#39;AMO ID e sull&#39;EF ID, vedere [Adobe Advertising ID utilizzati da Analytics](ids.md).
 
 <!--  Need to create a new report to show tracking instances to clicks, instead of clicks to instances as shown, and replace this screenshot.
 
@@ -205,9 +205,9 @@ Se il rapporto tra [!UICONTROL EF ID Instances] e clic è inferiore all&#39;85%,
 >
 >In teoria, è possibile che una istanza abbia più clic. Assicurati di verificare la presenza di clic su diversi dispositivi (ad esempio desktop, dispositivi mobili e tablet).
 
-## Confronto dei set di dati in [!DNL Analytics for Advertising] rispetto a Adobe Advertising
+## Confronto dei set di dati in [!DNL Analytics for Advertising] rispetto ad Adobe Advertising
 
-Il [AMO ID](ids.md) (parametro della stringa di query s_kwcid) è utilizzato per il reporting in [!DNL Analytics] e il [EF ID](ids.md) (parametro della stringa di query ef_id) è utilizzato per il reporting in Adobe Advertising. Poiché si tratta di valori distinti, un valore può essere danneggiato o non aggiunto alla pagina di destinazione.
+Il [AMO ID](ids.md) (parametro della stringa di query s_kwcid) viene utilizzato per il reporting in [!DNL Analytics] e il [EF ID](ids.md) (parametro della stringa di query ef_id) viene utilizzato per il reporting in Adobe Advertising. Poiché si tratta di valori distinti, un valore può essere danneggiato o non aggiunto alla pagina di destinazione.
 
 Ad esempio, supponiamo di avere la seguente pagina di destinazione:
 
@@ -227,7 +227,7 @@ dove l&#39;ID EF è &quot;`test_ef_id`&quot; e l&#39;AMO ID è &quot;`test_amo_i
 
 In questo esempio, l’aggiunta del tag di ancoraggio aggiunge caratteri imprevisti all’AMO ID, causando un valore che Analytics non riconosce. Questo AMO ID non sarebbe classificato e le conversioni associate ad esso rientrerebbero in &quot;[!UICONTROL unspecified]&quot; o &quot;[!UICONTROL none]&quot; nei report [!DNL Analytics].
 
-Fortunatamente, problemi come questo sono comuni, ma in genere non causano un&#39;alta percentuale di discrepanze. Tuttavia, se noti una grande discrepanza tra gli AMO ID in [!DNL Analytics] e gli EF ID in Adobe Advertising, contatta il team dell’account Adobe per assistenza.
+Fortunatamente, problemi come questo sono comuni, ma in genere non causano un&#39;alta percentuale di discrepanze. Tuttavia, se noti una grande discrepanza tra gli AMO ID in [!DNL Analytics] e gli EF ID in Adobe Advertising, contatta il team del tuo account Adobe per assistenza.
 
 ## Altre considerazioni sulle metriche
 
@@ -237,7 +237,7 @@ Sembrano simili, ma i clic e le visite rappresentano dati diversi:
 
 * **Clic:** [!DNL DSP] o il motore di ricerca registra un clic quando un visitatore fa clic su un annuncio sul sito Web di un editore.
 
-* **Visita:** [!DNL Analytics] definisce una [visita](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=it) come una serie di visualizzazioni di pagina da parte di un utente, che termina in base a uno dei diversi criteri, ad esempio 30 minuti di inattività.
+* **Visita:** [!DNL Analytics] definisce una [visita](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html) come una serie di visualizzazioni di pagina da parte di un utente, che termina in base a uno dei diversi criteri, ad esempio 30 minuti di inattività.
 
 Per definizione, un clic può portare a più visite.
 
@@ -261,19 +261,19 @@ I click-through e i click-through possono variare notevolmente a causa di clic a
 
 I dati dei clic possono anche essere registrati in ambienti che non possono registrare i click-through con i meccanismi di tracciamento correnti (come i clic che entrano in o provengono da un’app mobile) o per i quali l’inserzionista ha implementato un solo approccio di tracciamento (ad esempio, con l’approccio JavaScript view-through, i browser che bloccano i cookie di terze parti tengono traccia dei clic, ma non dei click-through). Un motivo chiave per cui Adobe consiglia di distribuire sia l’approccio di tracciamento URL di clic che quello di tracciamento view-through di JavaScript è quello di massimizzare la copertura dei click-through tracciabili.
 
-### Utilizzo delle metriche del traffico Adobe Advertising per i Dimension non Adobi Advertising
+### Utilizzo delle metriche del traffico di Adobe Advertising per dimensioni non Adobe Advertising
 
-L&#39;Adobe Advertising fornisce ad Analytics [metriche di traffico specifiche per la pubblicità e le dimensioni correlate da [!DNL DSP] e [!DNL Search, Social, & Commerce]](advertising-metrics-in-analytics.md). Le metriche fornite dall&#39;Adobe Advertising sono applicabili solo alle dimensioni dell&#39;Adobe Advertising specificate e i dati non sono disponibili per altre dimensioni in [!DNL Analytics].
+Adobe Advertising fornisce ad Analytics [metriche di traffico specifiche per la pubblicità e le relative dimensioni da [!DNL DSP] e [!DNL Search, Social, & Commerce]](advertising-metrics-in-analytics.md). Le metriche fornite da Adobe Advertising sono applicabili solo alle dimensioni Adobe Advertising specificate e i dati non sono disponibili per altre dimensioni in [!DNL Analytics].
 
-Se ad esempio si visualizzano le metriche [!UICONTROL Adobe Advertising Clicks] e [!UICONTROL Adobe Advertising Cost] per conto, che è una dimensione di Adobe Advertising, il totale di [!UICONTROL Adobe Advertising Clicks] e [!UICONTROL Adobe Advertising Cost] verrà visualizzato per conto.
+Ad esempio, se visualizzi le metriche [!UICONTROL Adobe Advertising Clicks] e [!UICONTROL Adobe Advertising Cost] per account, che è una dimensione di Adobe Advertising, il totale di [!UICONTROL Adobe Advertising Clicks] e [!UICONTROL Adobe Advertising Cost] viene visualizzato per account.
 
-![Esempio di metriche di Adobe Advertising in un report che utilizza una dimensione di Adobe Advertising](/help/integrations/assets/a4adc-traffic-supported-dimension.png)
+![Esempio di metriche di Adobe Advertising in un rapporto che utilizza una dimensione Adobe Advertising](/help/integrations/assets/a4adc-traffic-supported-dimension.png)
 
-Tuttavia, se visualizzi le metriche [!UICONTROL Adobe Advertising Clicks] e [!UICONTROL Adobe Advertising Cost] per una dimensione su pagina (come Pagina), per la quale Adobe Advertising non fornisce dati, allora i [!UICONTROL Adobe Advertising Clicks] e i [!UICONTROL Adobe Advertising Cost] per ogni pagina sono zero (0).
+Tuttavia, se visualizzi le metriche [!UICONTROL Adobe Advertising Clicks] e [!UICONTROL Adobe Advertising Cost] per una dimensione su pagina (ad esempio Pagina), per la quale Adobe Advertising non fornisce dati, i valori [!UICONTROL Adobe Advertising Clicks] e [!UICONTROL Adobe Advertising Cost] per ogni pagina sono zero (0).
 
-![Esempio di metriche di Adobe Advertising in un report che utilizza una dimensione non supportata](/help/integrations/assets/a4adc-traffic-unsupported-dimension.png)
+![Esempio di metriche Adobe Advertising in un report che utilizza una dimensione non supportata](/help/integrations/assets/a4adc-traffic-unsupported-dimension.png)
 
-### Utilizzo di [!UICONTROL AMO ID Instances] come sostituto dei clic con Dimension non Adobi Advertising
+### Utilizzo di [!UICONTROL AMO ID Instances] in sostituzione dei clic con dimensioni non Adobe Advertising
 
 Poiché non è possibile utilizzare [!UICONTROL AMO Clicks] con dimensioni nel sito, potrebbe essere utile trovare un equivalente ai clic. In alternativa, potresti essere tentato di utilizzare le Visite, ma non sono l’opzione migliore, perché ogni visitatore può avere più visite. (Vedi &quot;[La differenza tra clic e visite](#clicks-vs-visits).&quot; È invece consigliabile utilizzare [!UICONTROL AMO ID Instances], che è il numero di volte in cui l’AMO ID viene acquisito. Anche se [!UICONTROL AMO ID Instances] non corrisponde esattamente a [!UICONTROL AMO Clicks], è l&#39;opzione migliore per misurare il traffico dei clic sul sito. Per ulteriori informazioni, vedere &quot;[Convalida dati Click-through per [!DNL Analytics for Advertising]](#data-validation)&quot;.
 
@@ -284,5 +284,5 @@ Poiché non è possibile utilizzare [!UICONTROL AMO Clicks] con dimensioni nel s
 >* [Panoramica di [!DNL Analytics for Advertising]](overview.md)
 >* [ID Adobe Advertising utilizzati da [!DNL Analytics]](/help/integrations/analytics/ids.md)
 >* [Metriche di Adobe Advertising in Analysis Workspace](/help/integrations/analytics/advertising-metrics-in-analytics.md)
->* [[!DNL Analytics] Dati in Adobe Advertising](/help/integrations/analytics/analytics-data-in-advertising.md)
->* [Perché i dati possono variare tra Adobe Advertising e [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)
+>* [[!DNL Analytics] dati in Adobe Advertising](/help/integrations/analytics/analytics-data-in-advertising.md)
+>* [Perché i dati dei canali possono variare tra Adobe Advertising e [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)

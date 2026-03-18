@@ -3,7 +3,7 @@ title: Nozioni di base di  [!DNL Marketing Channels]
 description: Scopri le informazioni chiave su [!DNL Analytics Marketing Channels] che [!DNL Analytics for Advertising] gli utenti dovrebbero comprendere.
 feature: Integration with Adobe Analytics
 exl-id: de02dff5-86ce-41e8-89c6-3c11f6375b77
-source-git-commit: 29b49e8fa54580d7cdd62f9a10fd2616def4694b
+source-git-commit: 0b95d99a1370a047642f8d1e4bbafe35ad5187f6
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 0%
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 In questa pagina sono illustrate le informazioni chiave su [!DNL Analytics Marketing Channels] che [!DNL Analytics for Advertising] utenti devono comprendere.
 
-Per la documentazione completa su [!DNL Marketing Channels], vedere &quot;[Introduzione a [!DNL Marketing Channels]](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-getting-started-mchannel.html?lang=it).&quot;
+Per la documentazione completa su [!DNL Marketing Channels], vedere &quot;[Introduzione a [!DNL Marketing Channels]](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-getting-started-mchannel.html).&quot;
 
 ## Panoramica di [!DNL Marketing Channels]
 
 [!DNL Marketing Channels] sono funzionalità chiave di Adobe Analytics. I rapporti di [!DNL Marketing Channels] mostrano come i clienti arrivano al tuo sito web tramite l&#39;intervallo di reporting e come ogni canale influisce sui ricavi o sul comportamento in loco.
 
-Prendi in considerazione l’esempio seguente di un percorso di visite incrociate. Ogni visita al sito web è indicata dal canale di marketing da cui il visitatore è entrato. La prima visita, denominata anche Canale di primo contatto, è l’E-mail. La visualizzazione durante la seconda visita è un canale partecipante e la ricerca naturale è considerata il canale di ultimo contatto. Se utilizzi [!UICONTROL Last Touch Attribution] entro [!UICONTROL Attribution IQ], la ricerca naturale riceverà il merito completo per l&#39;evento di conversione da $ 250. Utilizzando il servizio ID di Experience Cloud, puoi collegare queste visite individuali per mostrare un percorso per un singolo visitatore.
+Prendi in considerazione l’esempio seguente di un percorso di visite incrociate. Ogni visita al sito web è indicata dal canale di marketing da cui il visitatore è entrato. La prima visita, denominata anche Canale di primo contatto, è l’E-mail. La visualizzazione durante la seconda visita è un canale partecipante e la ricerca naturale è considerata il canale di ultimo contatto. Se utilizzi [!UICONTROL Last Touch Attribution] entro [!UICONTROL Attribution IQ], la ricerca naturale riceverà il merito completo per l&#39;evento di conversione da $ 250. Utilizzando il servizio Experience Cloud ID, puoi collegare queste visite individuali per mostrare un percorso per un singolo visitatore.
 
 ![Esempio di percorso di conversione tra visite in canali di marketing](/help/integrations/assets/a4adc-mc-sample-journey.png)
 
@@ -36,12 +36,12 @@ Gli altri canali non dispongono di percorsi URL tracciabili e richiedono un’ul
 
 Adobe consiglia di collaborare con il team di analisi per creare un set completo di [!DNL Marketing Channels] regole di elaborazione per tenere traccia di tutti i canali pertinenti alla tua azienda. In questo modo puoi creare rapporti di attribuzione efficaci.
 
-Per capire come Adobe Advertising può contribuire ai segnali necessari per la creazione di canali di marketing personalizzati, consulta &quot;[Utilizzo degli ID di Advertising per la creazione di  [!DNL Marketing Channels] Regole](mc-ids.md).&quot;
+Per capire come Adobe Advertising può contribuire ai segnali necessari per creare canali di marketing personalizzati, consulta &quot;[Utilizzo degli ID di Advertising per creare [!DNL Marketing Channels] Regole](mc-ids.md).&quot;
 
 >[!MORELIKETHIS]
 >
->* [Utilizzo degli ID Adobe Advertising per la creazione [!DNL Marketing Channels] Regole di elaborazione](mc-ids.md)
->* [Perché i dati del canale possono variare tra Adobe Advertising e [!DNL Marketing Channels]](mc-data-variances.md)
->* [Utilizzo di [!DNL Analytics Marketing Channels] con dati Adobe Advertising](mc-ac-data.md)
->* [Video: utilizzo di [!DNL Marketing Channels] per Adobe Advertising di reporting](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=it)
+>* [Utilizzo degli ID Adobe Advertising per creare [!DNL Marketing Channels] regole di elaborazione](mc-ids.md)
+>* [Perché i dati dei canali possono variare tra Adobe Advertising e [!DNL Marketing Channels]](mc-data-variances.md)
+>* [Utilizzo di [!DNL Analytics Marketing Channels] con i dati di Adobe Advertising](mc-ac-data.md)
+>* [Video: utilizzo di [!DNL Marketing Channels] per la generazione di rapporti di Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 >* [Panoramica di [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
