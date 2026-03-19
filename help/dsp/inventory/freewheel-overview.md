@@ -3,9 +3,9 @@ title: Panoramica sulla configurazione di offerte PG in [!DNL Freewheel]
 description: Scopri i prerequisiti e i passaggi aggiuntivi necessari per eseguire annunci per offerte programmatiche garantite con gli editori su [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: b9c60248-8104-42ef-8afb-2f9db67b33b0
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ L&#39;impostazione di offerte programmatiche garantite con gli editori su [!DNL 
 
 >[!MORELIKETHIS]
 >
->* [Accetta un&#39;offerta nella casella in entrata dell&#39;ID offerta](deal-id-inbox-accept.md)
+>* [Accetta un&#39;offerta in [!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)
 >* [Invia un annuncio per un&#39;offerta programmatica garantita a [!DNL Freewheel]](freewheel-submit.md)
->* [Verifica lo stato degli annunci per [!DNL FreeWheel] Offerte garantite a livello di programmazione](freewheel-check-status.md)
->* [Codici di errore per [!DNL Freewheel] Invii di annunci](freewheel-error-codes.md)
+>* [Verifica lo stato degli annunci per un&#39;offerta [!DNL FreeWheel] PG](freewheel-check-status.md)
+>* [Codici di errore per [!DNL FreeWheel] invii di annunci](freewheel-error-codes.md)

@@ -3,7 +3,7 @@ title: Modificare gli account con accesso a un’offerta privata
 description: Scopri come condividere e interrompere la condivisione di un accordo privato con account diversi.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: fb67ef24-8b7f-4a2f-973b-8102a97f0acb
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Puoi interrompere la condivisione di un accordo con gli account per rimuovere le
 
    1. Fare clic su **[!UICONTROL Share]**.
 
-## Interrompere la condivisione di un ID offerta con gli account
+## Interrompi la condivisione di un ID offerta con gli account
 
 1. Nel menu principale, fare clic su **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
@@ -44,6 +44,6 @@ Puoi interrompere la condivisione di un accordo con gli account per rimuovere le
 
 >[!MORELIKETHIS]
 >
->* [Informazioni Sull&#39;Inventario Privato](private-inventory-about.md)
+>* [Informazioni sull&#39;inventario privato](private-inventory-about.md)
 >* [Modifica gli inserzionisti con accesso a un ID offerta](/help/dsp/inventory/deal-id-edit-advertisers.md)
 >* [Impostazioni ID offerta manuale](deal-id-settings.md)

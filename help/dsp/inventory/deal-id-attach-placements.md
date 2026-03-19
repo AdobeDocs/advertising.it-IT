@@ -3,7 +3,7 @@ title: Specificare posizionamenti e annunci per un’offerta privata
 description: Scopri come utilizzare un’offerta privata con posizionamenti e annunci aggiuntivi.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 09119471-429d-413e-8033-e29e1558abb0
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -54,8 +54,8 @@ Il posizionamento inizia a essere eseguito dopo che l’editore ha attivato l’
 
 >[!MORELIKETHIS]
 >
->* [Informazioni Sull&#39;Inventario Privato](private-inventory-about.md)
->* [Elenca i posizionamenti e gli annunci per un&#39;operazione privata](/help/dsp/inventory/private-deal-view-placements.md)
->* [Crea manualmente dettagli ID offerta](deal-id-create.md)
+>* [Informazioni sull&#39;inventario privato](private-inventory-about.md)
+>* [Elencare posizionamenti e annunci per un&#39;offerta privata](/help/dsp/inventory/private-deal-view-placements.md)
+>* [Creare manualmente i dettagli dell&#39;ID offerta](deal-id-create.md)
 >* [Impostazioni ID offerta manuale](deal-id-settings.md)
 >* [Imposta un&#39;offerta programmatica garantita](programmatic-guaranteed-set-up.md)

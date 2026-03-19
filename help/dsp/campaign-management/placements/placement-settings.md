@@ -3,9 +3,9 @@ title: Impostazioni di posizionamento
 description: Consulta le descrizioni delle impostazioni di posizionamento disponibili.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '4436'
+source-wordcount: '4439'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ Vedi le descrizioni di ciascun filtro pre-offerta in &quot;[Filtri pre-offerta a
 
 **[!UICONTROL Gross Budget Goal]:** (Posizionamenti solo in campagne con gestione margini) Limite di budget lordo e intervallo di budget (*[!UICONTROL All time]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*).
 
-**[!UICONTROL Optimization Goal]:** L&#39;obiettivo di ottimizzazione per il pacchetto. Vedi le descrizioni di ogni obiettivo di ottimizzazione in &quot;[Obiettivi di ottimizzazione e come utilizzarli](/help/dsp/optimization/optimization-goals.md)&quot;.
+**[!UICONTROL Optimization Goal]:** L&#39;obiettivo di ottimizzazione per il pacchetto. Vedi le descrizioni di ciascun obiettivo di ottimizzazione in &quot;[Obiettivi di ottimizzazione e come utilizzarli](/help/dsp/optimization/optimization-goals.md)&quot;.
 
 **[!UICONTROL Target Goal]:** L&#39;obiettivo di destinazione, utilizzato per tenere traccia delle prestazioni.
 
@@ -218,7 +218,7 @@ Per specificare il targeting dell&#39;inventario:
 
 >[!TIP]
 >
->Se ti sei iscritto al magazzino [!UICONTROL On Demand] ma non riesci a individuare gli editori o le offerte di destinazione, controlla lo stato delle offerte. Per ulteriori informazioni sugli stati, vedere [Informazioni su [!DNL On Demand] Inventario Premium](/help/dsp/inventory/on-demand-inventory-about.md).
+>Se ti sei iscritto al magazzino [!UICONTROL On Demand] ma non riesci a individuare gli editori o le offerte di destinazione, controlla lo stato delle offerte. Per ulteriori informazioni sugli stati, vedere [Informazioni [!DNL On Demand] inventario premium](/help/dsp/inventory/on-demand-inventory-about.md).
 
 **[!UICONTROL Video targeting]:** inventario di destinazione (ma non esclude) per attributi di inventario. Quando esegui il targeting di più valori per lo stesso attributo video, è possibile eseguire il targeting di qualsiasi attributo selezionato (ad esempio \[Dimensione lettore = grande OPPURE Dimensione lettore = HD\]). Quando esegui il targeting di più attributi, ciascuno degli attributi specificati deve essere presente (ad esempio, \[Durata = 30-60 min] AND \[Dimensione lettore = grande OR Dimensione lettore = HD\]).
 
@@ -512,7 +512,7 @@ L’ID deve iniziare con &quot;51&quot; e consistere di otto cifre. Per impostaz
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sulla gestione del posizionamento](placement-about.md)
+>* [Informazioni sulla gestione dei posizionamenti in Advertising DSP](placement-about.md)
 >* [Crea un posizionamento](placement-create.md)
 >* [Modifica posizionamenti](placement-edit.md)
 >* [Gestire i moltiplicatori delle offerte per i posizionamenti](placement-manage-bid-multipliers.md)

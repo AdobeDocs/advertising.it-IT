@@ -1,16 +1,16 @@
 ---
-title: Creare manualmente i dettagli dell’ID offerta
+title: Crea manualmente i dettagli dell’ID offerta
 description: Scopri come inserire manualmente i dettagli di un ID offerta.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
 
 ---
 
-# Creare manualmente i dettagli dell’ID offerta
+# Crea manualmente i dettagli dell’ID offerta
 
 1. Nel menu principale, fare clic su **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
@@ -69,5 +69,5 @@ Dopo aver creato l&#39;offerta, è possibile utilizzarla come destinazione di ma
 >* [Impostazioni ID offerta manuale](deal-id-settings.md)
 >* [Imposta un&#39;offerta programmatica garantita](programmatic-guaranteed-set-up.md)
 >* [Invia un annuncio per un&#39;offerta programmatica garantita con [!DNL FreeWheel]](freewheel-submit.md)
->* [Informazioni sulle offerte garantite a livello di programmazione](programmatic-guaranteed-about.md)
-<!-- >* [Specify Placements and Ads for a Private Deal](deal-id-attach-placements.md)-->
+>* [Informazioni sulle offerte garantite programmatiche](programmatic-guaranteed-about.md)
+<!-- >* [Specify placements and ads for a private deal](deal-id-attach-placements.md)-->

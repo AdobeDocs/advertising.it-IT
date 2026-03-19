@@ -3,7 +3,7 @@ title: Visualizza un report dettagliato per un'offerta privata, [!UICONTROL On D
 description: Scopri come aprire un rapporto a livello di offerta.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals, DSP On Demand Inventory, DSP Simple Ad Serving
 exl-id: 8a2e142e-0a05-47c7-9888-935665f06ad3
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Il rapporto a livello di offerta include il numero di aste, il tasso di offerta,
 
 >[!MORELIKETHIS]
 >
->* [Visualizza informazioni sulle inserzioni per un&#39;offerta privata](/help/dsp/inventory/private-deal-auction-insights.md)
->* [Informazioni [!DNL On Demand] Scorte Premium](on-demand-inventory-about.md)
->* [Informazioni Sull&#39;Inventario Privato](private-inventory-about.md)
+>* [Visualizza informazioni sulle aste per un&#39;offerta privata](/help/dsp/inventory/private-deal-auction-insights.md)
+>* [Informazioni [!DNL On Demand] inventario premium](on-demand-inventory-about.md)
+>* [Informazioni sull&#39;inventario privato](private-inventory-about.md)
 >* [Informazioni su [!UICONTROL Simple Ad Serving]](simple-deal-about.md)

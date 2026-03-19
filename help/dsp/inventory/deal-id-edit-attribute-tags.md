@@ -2,7 +2,7 @@
 title: Modificare i tag attributo per un ID offerta
 description: Scopri come creare e modificare i tag di attributi per un ID offerta.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%
@@ -29,5 +29,5 @@ Puoi creare e assegnare tag agli ID offerta per raggruppare offerte simili. Quan
 
 >[!MORELIKETHIS]
 >
->* [Informazioni Sull&#39;Inventario Privato](private-inventory-about.md)
->* [Modifica impostazioni trattativa privata](/help/dsp/inventory/deal-id-edit.md)
+>* [Informazioni sull&#39;inventario privato](private-inventory-about.md)
+>* [Modifica impostazioni offerta privata](/help/dsp/inventory/deal-id-edit.md)

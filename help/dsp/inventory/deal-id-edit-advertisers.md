@@ -3,7 +3,7 @@ title: Modifica gli inserzionisti con accesso a un'offerta privata
 description: Scopri come specificare quali inserzionisti possono accedere a un’offerta privata.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 51f3fa66-de70-4233-a866-ec48d72e88dc
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -25,6 +25,6 @@ ht-degree: 0%
 1. Fai clic su **[!UICONTROL Save]** per salvare le impostazioni dell&#39;offerta.
 
 >[!MORELIKETHIS]
->* [Informazioni Sull&#39;Inventario Privato](private-inventory-about.md)
->* [Modifica gli account con accesso a un ID offerta](/help/dsp/inventory/deal-id-share.md)
+>* [Informazioni sull&#39;inventario privato](private-inventory-about.md)
+>* [Modifica gli account con accesso a un&#39;offerta privata](/help/dsp/inventory/deal-id-share.md)
 >* [Impostazioni ID offerta manuale](deal-id-settings.md)

@@ -3,9 +3,9 @@ title: Invia un annuncio per un'offerta PG a  [!DNL FreeWheel]
 description: Scopri come richiedere l'approvazione per un annuncio per un accordo programmatico garantito con un editore su [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 18d91f0c-4a27-4e40-b762-6c5e97e9a21a
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Dopo aver [accettato un&#39;offerta programmatica garantita con un editore su Fr
 
 >[!MORELIKETHIS]
 >
->* [Panoramica sulla configurazione di offerte garantite a livello di programmazione in [!DNL Freewheel]](freewheel-overview.md)
->* [Accetta un&#39;offerta nella casella in entrata dell&#39;ID offerta](deal-id-inbox-accept.md)
->* [Verifica lo stato degli annunci per [!DNL FreeWheel] Offerte garantite a livello di programmazione](freewheel-check-status.md)
->* [Codici di errore per [!DNL Freewheel] Invii di annunci](freewheel-error-codes.md)
+>* [Panoramica sulla configurazione di offerte programmatiche garantite in [!DNL Freewheel]](freewheel-overview.md)
+>* [Accetta un&#39;offerta in [!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)
+>* [Verifica lo stato degli annunci per un&#39;offerta [!DNL FreeWheel] PG](freewheel-check-status.md)
+>* [Codici di errore per [!DNL FreeWheel] invii di annunci](freewheel-error-codes.md)

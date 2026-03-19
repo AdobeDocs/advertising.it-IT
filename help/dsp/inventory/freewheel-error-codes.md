@@ -3,9 +3,9 @@ title: Codici di errore per  [!DNL FreeWheel]  invii di annunci
 description: Fai riferimento ai codici di errore restituiti per l'invio di annunci a  [!DNL FreeWheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: e48937c2-ced9-4107-9e1d-65a3bac51fff
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '642'
 ht-degree: 3%
 
 ---
@@ -64,7 +64,7 @@ I messaggi di errore per gli invii di annunci non riusciti possono provenire da 
 
 >[!MORELIKETHIS]
 >
->* [Panoramica sulla configurazione di offerte garantite a livello di programmazione in [!DNL Freewheel]](/help/dsp/inventory/freewheel-overview.md)
->* [Accetta un&#39;offerta nella casella in entrata dell&#39;ID offerta](deal-id-inbox-accept.md)
+>* [Panoramica sulla configurazione di offerte programmatiche garantite in [!DNL Freewheel]](/help/dsp/inventory/freewheel-overview.md)
+>* [Accetta un&#39;offerta in [!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)
 >* [Invia un annuncio per un&#39;offerta programmatica garantita a [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)
->* [Verifica lo stato degli annunci per [!DNL FreeWheel] Offerte garantite a livello di programmazione](/help/dsp/inventory/freewheel-check-status.md)
+>* [Verifica lo stato degli annunci per un&#39;offerta [!DNL FreeWheel] PG](/help/dsp/inventory/freewheel-check-status.md)

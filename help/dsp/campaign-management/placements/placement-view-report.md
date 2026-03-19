@@ -3,7 +3,7 @@ title: Visualizzare un rapporto dettagliato per un posizionamento
 description: Scopri come aprire un report a livello di posizionamento con sezioni sui dati [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], [!UICONTROL Audience Performance], [!UICONTROL Notifications] e [!UICONTROL Ads].
 feature: DSP Placements, DSP Campaign Data Views
 exl-id: ddfae530-1dc6-4470-9910-ae13abcbaa8b
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
@@ -21,9 +21,9 @@ Il report legacy a livello di posizionamento include una panoramica e sezioni su
 
 >[!MORELIKETHIS]
 >
->* [Visualizza i dettagli di siti, annunci e frequenza per un posizionamento](/help/dsp/campaign-management/reports/placement-details-view.md)
+>* [Visualizza i siti, gli annunci e i dettagli della frequenza per un posizionamento](/help/dsp/campaign-management/reports/placement-details-view.md)
 >* [Visualizza un report dettagliato per un annuncio](/help/dsp/campaign-management/ads/ad-view-report.md)
 >* [Visualizza un report dettagliato per una campagna](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
->* [Tipi di rapporti sulle prestazioni nelle visualizzazioni di gestione delle campagne](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Tipi di report sulle prestazioni nelle visualizzazioni di gestione delle campagne](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Informazioni sui report personalizzati](/help/dsp/reports/report-about.md)
 >* [Visualizza il log delle modifiche per un posizionamento](placement-change-log.md)
