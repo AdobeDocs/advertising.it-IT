@@ -3,9 +3,9 @@ title: Informazioni sulla gestione dell’audience in Advertising DSP
 description: Scopri le funzioni di gestione dell’audience.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: 82a501ec03a5d0d32d2281d6a9c9a67180853026
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: '1321'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ Puoi indirizzare i posizionamenti a tutti i seguenti tipi di pubblico.
 
   >[!NOTE]
   >
-  >Consulta la documentazione di [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=it), [Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=it) e [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=it) per informazioni sulla configurazione e la raccolta dei dati per i segmenti in tali soluzioni.
+  >Consulta la documentazione di [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html), [Analytics](https://experienceleague.adobe.com/docs/analytics.html) e [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html) per informazioni sulla configurazione e la raccolta dei dati per i segmenti in tali soluzioni.
 
 ## Dati sulle dimensioni del pubblico
 
@@ -106,15 +106,15 @@ Puoi anche visualizzare dati dettagliati sulle dimensioni del pubblico:
 
   ![dettagli del singolo segmento o del pubblico salvato](/help/dsp/assets/audience-size-segment-details.png)
 
-## Visualizzazioni di Audiences
+## Le visualizzazioni [!UICONTROL Audiences]
 
-### Vista Tutti i tipi di pubblico
+### Visualizzazione [!UICONTROL All Audiences]
 
 Nella visualizzazione [!UICONTROL All Audiences], o Libreria tipi di pubblico, è possibile salvare e gestire i tipi di pubblico riutilizzabili, che includono gruppi di segmenti di pubblico e anche altri tipi di pubblico salvati. Puoi utilizzare i tipi di pubblico come target per più posizionamenti. Il numero di posizionamenti in cui ogni pubblico viene utilizzato è indicato accanto al nome del posizionamento.
 
 Puoi modificare, clonare, eliminare, esportare o condividere qualsiasi tipo di pubblico.
 
-### Vista Segmenti
+### Visualizzazione [!UICONTROL Segments]
 
 Nella visualizzazione [!UICONTROL Segments], tutti gli utenti possono creare altri segmenti personalizzati.
 
@@ -134,22 +134,22 @@ Nella visualizzazione [!UICONTROL Segments] sono elencati anche i seguenti tipi 
 
   Non puoi modificare o condividere segmenti di terze parti condivisi con te. Se devi condividere segmenti di terze parti con altri utenti, contatta il tuo Adobe Account Team.
 
-### Visualizzazione Origini
+### Visualizzazione [!UICONTROL Sources]
 
 Nella visualizzazione [!UICONTROL Sources] è possibile configurare le origini per i segmenti di prime parti nelle piattaforme dati dei clienti supportate che si desidera convertire in segmenti contenenti tipi ID universali specificati. Le impostazioni di origine includono una chiave di origine generata automaticamente, che fornirai alla piattaforma dati del cliente per stabilire la connessione.
 
-Per ulteriori informazioni sulle piattaforme dati del cliente supportate, sui tipi di ID universali supportati e sui flussi di lavoro per impostare connessioni a ogni piattaforma dati del cliente, vedi &quot;[Informazioni sulle origini](/help/dsp/audiences/sources/source-about.md)&quot;.
+Per ulteriori informazioni sulle piattaforme dati del cliente supportate, sui tipi di ID universali supportati e sui flussi di lavoro per impostare connessioni a ogni piattaforma dati del cliente, consulta &quot;[Informazioni sulle origini del pubblico di prime parti](/help/dsp/audiences/sources/source-about.md)&quot;.
 
 I segmenti tradotti sono disponibili per l’inclusione in tipi di pubblico riutilizzabili e in impostazioni di posizionamento per il targeting senza cookie.
 
 >[!MORELIKETHIS]
 >
->* [Supporto per l&#39;attivazione di ID universali](/help/dsp/audiences/universal-ids.md)
+>* [Supporto per l&#39;attivazione degli ID universali](/help/dsp/audiences/universal-ids.md)
 >* [Crea un pubblico riutilizzabile](reusable-audience-create.md)
 >* [Creare e implementare un segmento personalizzato](custom-segment-create.md)
 >* [Crea e implementa un segmento [!UICONTROL CCPA Opt-Out-of-Sale]](ccpa-opt-out-segment-create.md)
 >* [Informazioni sulle origini del pubblico di prime parti](/help/dsp/audiences/sources/source-about.md)
->* [Gestione delle origini del pubblico per attivare i tipi di pubblico con ID universale](/help/dsp/audiences/sources/source-manage.md)
->* [Importa manualmente segmenti autenticati da [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
+>* [Gestisci origini pubblico per attivare il pubblico con ID universale](/help/dsp/audiences/sources/source-manage.md)
+>* [Importa manualmente i segmenti autenticati da [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
 >* [Provider di dati di terze parti disponibili](third-party-data-providers.md)
 >* [Impostazioni posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)

@@ -3,9 +3,9 @@ title: Allega e rimuovi pixel dagli annunci
 description: Scopri come allegare e rimuovere i pixel di tracciamento di terze parti dagli annunci.
 feature: DSP Ads
 exl-id: 7b386a58-5300-49cf-9de8-4ce982a5181d
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -108,15 +108,15 @@ Puoi collegare e scollegare dagli annunci i pixel di tracciamento di terze parti
 
 1. Fai clic su una riga di annunci nella tabella a sinistra per visualizzare i pixel associati nella tabella a destra.
 
-1. (Facoltativo) Per allegare altri pixel agli annunci, passa alla visualizzazione **[!UICONTROL Edit]** in alto a destra. Per istruzioni, vedere il passaggio 3 della procedura precedente &quot;[Allega pixel di tracciamento di terze parti agli annunci in un posizionamento](#attach-pixels-ads)&quot;.
+1. (Facoltativo) Per allegare altri pixel agli annunci, passa alla visualizzazione **[!UICONTROL Edit]** in alto a destra. Per istruzioni, consulta il passaggio 3 della procedura precedente, &quot;[Allega pixel di tracciamento di terze parti agli annunci in un posizionamento](#attach-pixels-ads)&quot;.
 
 >[!MORELIKETHIS]
 >
->* [Informazioni Sulla Gestione Degli Annunci](ad-about.md)
+>* [Informazioni sulla gestione degli annunci in Advertising DSP](ad-about.md)
 >* [Allega annunci ai posizionamenti](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
->* [Crea un annuncio singolo](ad-create.md)
->* [Creazione di più annunci di terze parti](ad-create-multiple.md)
+>* [Crea un singolo annuncio](ad-create.md)
+>* [Creare più annunci di terze parti](ad-create-multiple.md)
 >* [Modifica un annuncio](ad-edit.md)
->* [Elenca i posizionamenti associati a un annuncio](ad-list-placements.md)
->* [Modifica gli Schedules per i posizionamenti](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
+>* [Elencare i posizionamenti associati a un annuncio](ad-list-placements.md)
+>* [Modifica le pianificazioni degli annunci per i posizionamenti](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
 >* [Domande frequenti sul video universale](/help/dsp/campaign-management/faq-universal-video.md)

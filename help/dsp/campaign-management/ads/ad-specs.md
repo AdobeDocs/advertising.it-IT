@@ -3,9 +3,9 @@ title: Specifiche dell’annuncio
 description: Fai riferimento a specifiche pubblicitarie generali e specifiche per l’editore.
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Gli annunci vengono consegnati per impostazione predefinita su dispositivi deskt
 
 ### Server di annunci di terze parti supportati
 
-È possibile utilizzare i fogli tag di [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] e [!DNL Sizmek]. Per un elenco completo dei fornitori supportati, consulta &quot;[Certified Ad Serving Partners](certified-ad-servers.md)&quot;.
+È possibile utilizzare i fogli tag di [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] e [!DNL Sizmek]. Per un elenco completo dei fornitori supportati, consulta &quot;[Partner ad serving certificati](certified-ad-servers.md).&quot;
 
 ### Requisiti per risorse video ad alta definizione
 
@@ -52,7 +52,7 @@ Gli annunci vengono consegnati per impostazione predefinita su dispositivi deskt
 
 **Livelli audio:** 24 LKFS (+/- 2,0 dB) negli Stati Uniti come da ATSC A/85; 23 LUFS (+/- 1,0) nell&#39;UE come da EBU R128
 
-#### Requisiti aggiuntivi dell&#39;editore per gli annunci TV collegati
+#### Requisiti aggiuntivi per l&#39;editore per gli annunci TV collegati
 
 * **Rete A+E:** Consulta le [specifiche annuncio](/help/dsp/assets/a-e-networks-tve-video-ad-specs.pdf) di A+E Network
 
@@ -90,7 +90,7 @@ Gli annunci vengono consegnati per impostazione predefinita su desktop e disposi
 
 **Dimensioni annuncio consigliate:** 120x60, 160x600, 180x150, 300x50, 300x100, 300x1050, 300x250, 300x600, 320x50, 320x480, 480x60, 640x480, 88x31, 728x90, 970x250, 970x90
 
-**Server di annunci di terze parti supportati:** È possibile utilizzare fogli di tag di [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] e [!DNL Sizmek]. Per un elenco completo dei fornitori supportati, consulta &quot;[Certified Ad Serving Partners](certified-ad-servers.md)&quot;.
+**Server di annunci di terze parti supportati:** È possibile utilizzare fogli di tag di [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] e [!DNL Sizmek]. Per un elenco completo dei fornitori supportati, consulta &quot;[Partner ad serving certificati](certified-ad-servers.md).&quot;
 
 ## Annunci audio
 
@@ -100,7 +100,7 @@ Desktop, dispositivi mobili, tablet, altoparlanti avanzati e TV collegata
 
 ### Server di annunci di terze parti supportati
 
-È possibile utilizzare i fogli tag di [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] e [!DNL Sizmek]. Per un elenco completo dei fornitori supportati, consulta &quot;[Certified Ad Serving Partners](certified-ad-servers.md)&quot;.
+È possibile utilizzare i fogli tag di [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] e [!DNL Sizmek]. Per un elenco completo dei fornitori supportati, consulta &quot;[Partner ad serving certificati](certified-ad-servers.md).&quot;
 
 ### Requisiti per le risorse audio
 
@@ -114,7 +114,7 @@ Desktop, dispositivi mobili, tablet, altoparlanti avanzati e TV collegata
 
 **Lunghezza file:** 0-60s
 
-#### Requisiti aggiuntivi per editori
+#### Requisiti aggiuntivi per l’editore
 
 * **[!DNL iHeartRadio]**
    * Lunghezza: 5, 15, 30 o 60 secondi
@@ -151,7 +151,7 @@ Desktop, dispositivi mobili, tablet, altoparlanti avanzati e TV collegata
 
 **Dimensioni supportate:** 300x250, 500x500, 640x640, 1024x1024
 
-#### Requisiti aggiuntivi per editori
+#### Requisiti aggiuntivi per l’editore
 
 * **[!DNL iHeartRadio]:**
    * Tipo di file: JPEG, JPG, PNG, GIF, SWF, HTML
@@ -238,7 +238,7 @@ Requisiti per i tracciatori di clic:
 
 >[!MORELIKETHIS]
 >
->* [Informazioni Sulla Gestione Degli Annunci](ad-about.md)
->* [Crea un annuncio singolo](ad-create.md)
->* [Creazione di più annunci di terze parti](ad-create-multiple.md)
+>* [Informazioni sulla gestione degli annunci in Advertising DSP](ad-about.md)
+>* [Crea un singolo annuncio](ad-create.md)
+>* [Creare più annunci di terze parti](ad-create-multiple.md)
 >* [Modifica un annuncio](ad-edit.md)

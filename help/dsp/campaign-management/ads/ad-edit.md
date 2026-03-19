@@ -3,9 +3,9 @@ title: Modificare un annuncio
 description: Scopri come modificare un annuncio.
 feature: DSP Ads
 exl-id: 149eeb61-b4d1-4c88-8dcd-ad11e135a486
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Informazioni Sulla Gestione Degli Annunci](ad-about.md)
->* [Crea un annuncio singolo](ad-create.md)
->* [Creazione di più annunci di terze parti](ad-create-multiple.md)
+>* [Informazioni sulla gestione degli annunci in Advertising DSP](ad-about.md)
+>* [Crea un singolo annuncio](ad-create.md)
+>* [Creare più annunci di terze parti](ad-create-multiple.md)
 >* [Duplica un annuncio](ad-duplicate.md)
->* [Elenca i posizionamenti associati a un annuncio](ad-list-placements.md)
+>* [Elencare i posizionamenti associati a un annuncio](ad-list-placements.md)
 >* [Specifiche annuncio](ad-specs.md)

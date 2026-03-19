@@ -3,7 +3,7 @@ title: Informazioni sulla gestione degli annunci in Advertising DSP
 description: Informazioni sulla gestione degli annunci.
 feature: DSP Ads
 exl-id: 41dbe28e-a476-4601-a3d8-a9111eae3f6b
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 0%
@@ -59,6 +59,6 @@ Quando DSP approva un annuncio, nella colonna Stato dell’annuncio viene visual
 
 >[!MORELIKETHIS]
 >
->* [Crea un annuncio singolo](ad-create.md)
->* [Creazione di più annunci di terze parti](ad-create-multiple.md)
+>* [Crea un singolo annuncio](ad-create.md)
+>* [Creare più annunci di terze parti](ad-create-multiple.md)
 >* [Specifiche annuncio](ad-specs.md)

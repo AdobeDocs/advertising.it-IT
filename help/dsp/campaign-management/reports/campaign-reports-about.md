@@ -3,7 +3,7 @@ title: Tipi di rapporti sulle prestazioni nelle viste di gestione delle campagne
 description: Scopri i dati del rapporto inclusi nelle visualizzazioni di gestione della campagna.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
@@ -85,8 +85,8 @@ Per altre suddivisioni dei dati, visualizza [le pagine di reporting a livello di
 
 >[!MORELIKETHIS]
 >
->* [Visualizza i dettagli di siti, annunci e frequenza per un posizionamento](placement-details-view.md)
->* [Gestione Delle Visualizzazioni Dati Della Campagna](campaign-data-views-manage.md)
->* [Esporta dati da una visualizzazione di gestione delle campagne](campaign-export-data.md)
+>* [Visualizza i siti, gli annunci e i dettagli della frequenza per un posizionamento](placement-details-view.md)
+>* [Gestisci le visualizzazioni dati della campagna](campaign-data-views-manage.md)
+>* [Esporta dati da una visualizzazione di gestione campagne](campaign-export-data.md)
 >* [Visualizza un report dettagliato per una campagna](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
 >* [Visualizza avvisi](campaign-alerts.md)

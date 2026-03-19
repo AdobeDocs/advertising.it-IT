@@ -1,11 +1,11 @@
 ---
 title: Impostazioni report personalizzati
-description: Consulta le descrizioni delle impostazioni del rapporto personalizzato.
+description: Consulta le descrizioni delle impostazioni del rapporto Personalizzato.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '1534'
+source-wordcount: '1526'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Per applicare uno o più filtri, effettuare le seguenti operazioni:
 
 \* *[!UICONTROL Account]* è disponibile per i seguenti tipi di report solo quando l&#39;organizzazione è configurata per [rapporti tra account diversi](report-about.md#cross-account-reporting): [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] e [!UICONTROL Conversion]. Contatta il team del tuo account Adobe per ulteriori informazioni sul reporting tra account diversi.
 
-**[!UICONTROL Include data from Adobe Advertising SSC]:** (solo rapporti Percorso di conversione, Lunghezza percorso e Tempo di conversione) Include i dati per i clic sugli annunci di ricerca da campagne Advertising Search, Social e Commerce specificate. Quando selezioni questa opzione:
+**[!UICONTROL Include data from Adobe Advertising SSC]:** ([!UICONTROL Path to Conversion], [!UICONTROL Path Length] e [!UICONTROL Time to Conversion] solo report) Include i dati per i clic sugli annunci di ricerca da campagne Advertising Search, Social e Commerce specificate. Quando selezioni questa opzione:
 
 1. Seleziona l&#39;account di ricerca, social e Commerce utilizzando il filtro **Filtra per[!UICONTROL SSC Account]**.
 
@@ -105,7 +105,7 @@ Per applicare uno o più filtri, effettuare le seguenti operazioni:
 
 * [!UICONTROL Custom Goals] (ordinato per inserzionista)
 
-Per le descrizioni di tutte le opzioni, vedere &quot;[Colonne report disponibili](report-columns.md)&quot;.
+Consulta &quot;[Colonne report disponibili](report-columns.md)&quot; per le descrizioni di tutte le opzioni.
 
 **[!UICONTROL Drag to Re-Order Report Headers Below]:** Ordine delle intestazioni di colonna. Puoi trascinare e rilasciare qualsiasi colonna per personalizzare l’ordine.
 
@@ -145,7 +145,7 @@ Per le descrizioni di tutte le opzioni, vedere &quot;[Colonne report disponibili
 
    * *[!UICONTROL Social Only]:* Obsoleto
 
-Vedere anche &quot;[Modalità di calcolo delle regole di attribuzione per Adobe Advertising](/help/search-social-commerce/reports/attribution-rules.md).&quot;
+Vedi anche &quot;[Modalità di calcolo delle regole di attribuzione per Adobe Advertising](/help/search-social-commerce/reports/attribution-rules.md).&quot;
 
 * **Lookback:** ([!UICONTROL Household Conversion] report con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] colonne e [!UICONTROL Path to Conversion], [!UICONTROL Path Length] o [!UICONTROL Time to Conversion] report solo con [!UICONTROL Conversion Metrics] colonne; solo per gli inserzionisti con monitoraggio delle conversioni di Adobe Advertising) All&#39;interno del report, il numero massimo di giorni dopo un evento di impression o un evento di clic (per [!UICONTROL Path to Conversion], [!UICONTROL Path Length] o [!UICONTROL Time to Conversion] report) in cui è possibile attribuire un evento di conversione. Il valore predefinito è *[!UICONTROL 30 days]* e il massimo è 92 giorni.
 
@@ -183,7 +183,7 @@ Vedere anche &quot;[Modalità di calcolo delle regole di attribuzione per Adobe 
 
 * *[!UICONTROL FTP]:* Per inviare il report completato a uno o più percorsi FTP, che è necessario selezionare nel campo **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (attualmente in Beta):* Per inviare il report completato a uno o più percorsi SSL FTP, che è necessario selezionare nel campo **[!UICONTROL Destination Name]**.
+* *[!UICONTROL FTP SSL](attualmente in Beta):* Per inviare il report completato a uno o più percorsi SSL FTP, che è necessario selezionare nel campo **[!UICONTROL Destination Name]**.
 
 * *[!UICONTROL Email]:* Specificare gli indirizzi e-mail a cui inviare i report completati o le notifiche se il report viene annullato a causa di errori.
 

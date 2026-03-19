@@ -5,7 +5,7 @@ feature: DSP Introduction, Creative Introduction
 hidefromtoc: true
 hide: true
 exl-id: 30feb866-cc8c-4760-af94-2b2e08ebb361
-source-git-commit: 54442a2bea5a2f34ca6eb59b7d3c8c36c4bb79bb
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 <!-- How will this work once we have unified shell, which has its own version of AI Assistant? -->
 
-Utilizza l&#39;interfaccia chat di IA per cercare contenuti concettuali e pratici nella [Guida di Advertising DSP](/help/dsp/home.md) e (per gli inserzionisti con Advertising Creative) nella [Guida di Advertising Creative](/help/creative/home.md). Le risposte si basano solo su quanto documentato per questi prodotti in [Experience League](https://experienceleague.adobe.com/it/docs/advertising).
+Utilizza l&#39;interfaccia chat di IA per cercare contenuti concettuali e pratici nella [Guida di Advertising DSP](/help/dsp/home.md) e (per gli inserzionisti con Advertising Creative) nella [Guida di Advertising Creative](/help/creative/home.md). Le risposte si basano solo su quanto documentato per questi prodotti in [Experience League](https://experienceleague.adobe.com/en/docs/advertising).
 
 Le risposte includono citazioni, prompt aggiuntivi e domande di follow-up per aiutarti a perfezionare la query e trovare ulteriori informazioni. La cronologia delle chat viene mantenuta e le query non vengono condivise con altri utenti.
 
