@@ -2,9 +2,9 @@
 title: Domande frequenti sui rapporti personalizzati
 description: Ulteriori informazioni sui rapporti personalizzati, inclusi i rapporti sulla famiglia e i rapporti di analisi del percorso di conversione.
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 8ba0d485562017caf2a5dedb6215e1485be16c34
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Queste metriche nei report [!UICONTROL Household] vengono calcolate utilizzando 
 
 #### Come si configura il report per la dimensione [!UICONTROL Placement Tags]?
 
-Per creare i tag per il posizionamento, [apri le impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-edit.md) e immetti i valori nel campo [Tag di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md).
+Per creare i tag per il posizionamento, [aprire le impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-edit.md) e immettere i valori nel campo [[!UICONTROL Placement Tags]](/help/dsp/campaign-management/placements/placement-settings.md).
 
 Quando un posizionamento include più tag, il rapporto considera l’intera stringa come un unico tag. Il rapporto include una riga per ogni stringa univoca.
 
@@ -89,7 +89,7 @@ Sono supportati due tipi di metodi di attribuzione:
 
 * I dati del report [!DNL Analytics] sono particolarmente utili da analizzare in base ai canali di marketing, alle metriche di coinvolgimento del sito e così via. Il report DSP [!UICONTROL Household Conversions] offre informazioni più granulari consentendo la suddivisione dei dati di conversione in base a varie dimensioni, ad esempio tipo di supporto e autore.
 
-### [!UICONTROL Household Reach & Frequency] e [!UICONTROL Household Conversions] rapporti e dati da [!DNL Advanced Measurement Services]
+### [!UICONTROL Household Reach & Frequency] e [!UICONTROL Household Conversions] report rispetto ai dati di [!DNL Advanced Measurement Services]
 
 Per rapporti avanzati su portata e frequenza o conversioni basate su famiglia, il [[!DNL Strategic Advertising Consulting] team](/help/dsp/introduction/advanced-measurement-services.md) può fornire rapporti altamente personalizzabili insieme a consigli strategici olistici. Per ulteriori informazioni su [!DNL Advanced Measurement Services], contatta il team del tuo account Adobe.
 
@@ -103,9 +103,9 @@ Il caso d&#39;uso ideale consiste nell&#39;utilizzare insieme il report [!UICONT
 
 ## Rapporti di analisi del percorso di conversione
 
-### Confronto tra il rapporto Percorso di conversione e i rapporti creati da [!DNL Advanced Measurement Services] e Adobe Analytics Analysis Workspace
+### Come si confronta il report [!UICONTROL Path to Conversion] con i report creati da [!DNL Advanced Measurement Services] e Adobe Analytics Analysis Workspace?
 
-| | Percorso del rapporto di conversione | Effetto alone servizi di misurazione avanzati sui report di ricerca | Rapporti in Analysis Workspace |
+| | Report [!UICONTROL Path to Conversion] | Effetto alone servizi di misurazione avanzati sui report di ricerca | Rapporti in Analysis Workspace |
 | --- | --- | --- |---|
 | Valore per il cliente | Genera un rapporto personalizzato self-service per capire quali percorsi del percorso di annunci hanno portato a più conversioni per aumentare l’ottimizzazione | Comprendere l&#39;influenza delle tattiche di TV collegata (CTV) sui clic di ricerca | Comprendi l’influenza del tuo investimento olistico in Adobe Advertising, insieme ad altri canali di marketing, sui clic di ricerca |
 | Livello familiare | Sì | Sì | No |
@@ -117,7 +117,7 @@ Il caso d&#39;uso ideale consiste nell&#39;utilizzare insieme il report [!UICONT
 | Canali di marketing | DSP + Cerca (da Ricerca, Social e Commerce) | DSP + Cerca (da Ricerca, Social e Commerce) | Canali di marketing non tracciati dall’ID EF di click-through di Adobe Advertising (ad esempio, Ricerca organica, Social organico, E-mail e Affiliate) |
 | Metriche di conversione supportate | Metriche tracciate utilizzando il pixel dell’evento di Adobe Advertising (AMO ID) e il tracciamento di Adobe Analytics | Clic (nessuna conversione) | Metriche tracciate con il tracciamento di Adobe Analytics |
 
-Per ulteriori informazioni sull&#39;effetto Halo Advanced Measurement Services sui report di ricerca, vedere &quot;[Advanced Measurement Services](/help/dsp/introduction/advanced-measurement-services.md).&quot;
+Per ulteriori informazioni sull&#39;effetto Halo di Advanced Measurement Services sui report di ricerca, vedere &quot;[Soluzioni di misurazione avanzate](/help/dsp/introduction/advanced-measurement-services.md).&quot;
 
 >[!MORELIKETHIS]
 >
