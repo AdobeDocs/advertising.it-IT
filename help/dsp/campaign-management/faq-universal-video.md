@@ -1,16 +1,16 @@
 ---
-title: Domande frequenti su Universal Video
+title: Domande frequenti sul video universale
 description: Ulteriori informazioni sugli annunci video universali.
 feature: DSP Placements, DSP Ads
 exl-id: 48c744ae-90a3-47e9-a5dc-c4e3c01b75a0
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: 806b0d5e3f9daea4f439863dd9b715964de2a1c4
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
-# Domande frequenti su Universal Video
+# Domande frequenti sul video universale
 
 [Annunci video universali](/help/dsp/campaign-management/ads/ad-about.md#ad-types) consente di eseguire il targeting dell&#39;inventario video dagli ambienti desktop, mobile e TV connessi per l&#39;inventario VPAID e VAST utilizzando un unico posizionamento video.
 
@@ -38,11 +38,11 @@ Crea posizionamenti e annunci video universali in modo simile a come si creano a
    * **[!UICONTROL VPAID & VAST (Default)]:** Include un inventario che non consente la misurazione della visualizzabilità.
    * **[!UICONTROL VAST]** - Adatto per l&#39;inventario TV connessa.
 
-   Per ulteriori informazioni, consulta &quot;[Impostazioni annuncio video universale](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)&quot;.
+   Per ulteriori informazioni, vedere &quot;[Impostazioni annuncio video universale](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)&quot;.
 
 1. [Allega i nuovi annunci video universali](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) al posizionamento video universale.
 
-## Perché alcuni obiettivi e pacchetti di ottimizzazione non sono disponibili quando l’ambiente TV collegata è selezionato per un posizionamento video universale?
+## Perché alcuni obiettivi e pacchetti di ottimizzazione non sono disponibili quando l&#39;ambiente TV collegato è selezionato per un posizionamento video universale?
 
 Gli obiettivi incompatibili con i posizionamenti TV connessi standard, ad esempio il costo inferiore per clic, non sono supportati per l’ambiente TV connesso nei posizionamenti video universali. Analogamente, non è possibile selezionare pacchetti con obiettivi di ottimizzazione incompatibili.
 

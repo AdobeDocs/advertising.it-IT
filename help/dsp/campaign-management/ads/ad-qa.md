@@ -3,7 +3,7 @@ title: Rivedere e modificare i dettagli degli annunci tramite i bulksheet
 description: Scopri come rivedere le impostazioni degli annunci in blocco utilizzando i fogli di calcolo.
 feature: DSP Ads
 exl-id: a223d4e1-2264-49fa-8579-817e7ea6ea56
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: 806b0d5e3f9daea4f439863dd9b715964de2a1c4
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Puoi scaricare i dettagli di tutti gli annunci di una campagna in formato XLSX (foglio di calcolo Excel) per la revisione. I dettagli del *bulksheet* includono una scheda con le impostazioni e i posizionamenti associati per ogni annuncio e un&#39;altra scheda con ogni pixel utilizzato per gli annunci nella campagna.
 
-Per modificare i dettagli dell&#39;annuncio, vedere &quot;[Rivedere e modificare le impostazioni dei componenti di Campaign utilizzando i bulksheet](/help/dsp/campaign-management/campaign-components-review-edit.md).&quot;
+Per modificare i dettagli dell&#39;annuncio, vedere &quot;[Rivedere e modificare le impostazioni dei componenti della campagna utilizzando i bulksheet](/help/dsp/campaign-management/campaign-components-review-edit.md).&quot;
 
 >[!NOTE]
 >
->*Per modificare le impostazioni dei singoli annunci, vedere anche &quot;[Modifica un annuncio](/help/dsp/campaign-management/ads/ad-edit.md)&quot;.
+>*Per modificare le impostazioni dei singoli annunci, vedere anche &quot;[Modificare un annuncio](/help/dsp/campaign-management/ads/ad-edit.md)&quot;.
 >*Per cambiare i pixel di tracciamento di terze parti per più annunci contemporaneamente o per allegare annunci ai posizionamenti, vedi anche &quot;[Allega annunci ai posizionamenti](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)&quot;.
 
 ## Scaricare i dettagli per tutti gli annunci di una campagna
@@ -45,7 +45,7 @@ Un messaggio di notifica indica quando il file è disponibile per il download.
 
    * Nella parte destra della barra dei menu superiore, fai clic su ![Processi](/help/dsp/assets/downloads.png). Fare clic su **[!UICONTROL Download]** accanto al processo.
 
-     Il file è stato salvato nella cartella Download del browser.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+     Il file è stato salvato nella cartella Download del browser.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
 >[!MORELIKETHIS]
 >
@@ -53,8 +53,8 @@ Un messaggio di notifica indica quando il file è disponibile per il download.
 >* [Allega annunci ai posizionamenti](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
 >* [Impostazioni annuncio audio](/help/dsp/campaign-management/ads/ad-settings-audio.md)
 >* [Impostazioni TV collegate](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
->* [Impostazioni annuncio visualizzato](/help/dsp/campaign-management/ads/ad-settings-display.md)
+>* [Impostazioni annuncio visualizzazione](/help/dsp/campaign-management/ads/ad-settings-display.md)
 >* [Impostazioni annuncio mobile](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
 >* [Impostazioni annuncio visualizzazione nativo](/help/dsp/campaign-management/ads/ad-settings-native.md)
->* [Impostazioni annuncio pre-roll](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
+>* [Impostazioni annunci pre-roll](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
 >* [Impostazioni annuncio video universale](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)

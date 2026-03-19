@@ -3,7 +3,7 @@ title: Gestire le visualizzazioni dati della campagna
 description: Scopri come personalizzare le visualizzazioni dati per campagne, pacchetti, posizionamenti e annunci.
 feature: DSP Campaign Data Views
 exl-id: a22da10b-104d-4860-a23f-f2a6e59b637c
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 806b0d5e3f9daea4f439863dd9b715964de2a1c4
 workflow-type: tm+mt
 source-wordcount: '915'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Puoi modificare le metriche e la modalità grafico per tutte le visualizzazioni 
 
 1. Fare clic su **[!UICONTROL Apply]**.
 
-### Modificare la modalità di visualizzazione di una visualizzazione dati
+### Modificare la modalità di visualizzazione per una visualizzazione dati
 
 * Nell&#39;angolo superiore destro della visualizzazione dati fare clic sull&#39;opzione [!UICONTROL Overlay] (![Interruttore di sovrapposizione](/help/dsp/assets/overlay.png)) per passare dalla modalità di sovrapposizione (tutti i grafici sovrapposti) alla modalità di grafico a trelli (tre grafici distinti) e viceversa.
 
@@ -36,7 +36,7 @@ Puoi modificare le metriche e la modalità grafico per tutte le visualizzazioni 
 
 In tutte le visualizzazioni di gestione delle campagne ([!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements] e [!UICONTROL Ads]), è possibile personalizzare i dati visualizzati all&#39;interno della tabella dati.
 
-### Gestisci visualizzazioni colonne {#column-views-manage}
+### Gestire le viste a colonne {#column-views-manage}
 
 Ogni livello di gestione della campagna ([!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements] e [!UICONTROL Ads]) include [!UICONTROL Pacing] e [!UICONTROL Performance] visualizzazioni incorporate che includono metriche rilevanti per l&#39;entità. Per impostazione predefinita, la visualizzazione [!UICONTROL Pacing] è visualizzata in modo da poter identificare immediatamente le campagne e i componenti della campagna con prestazioni insoddisfacenti. Facoltativamente, puoi creare e modificare set di colonne personalizzati.
 
@@ -171,9 +171,9 @@ In basso a destra, accanto a **[!UICONTROL Items per page]** , selezionare *[!UI
 
 >[!MORELIKETHIS]
 >
->* [Tipi di rapporti sulle prestazioni nelle visualizzazioni di gestione delle campagne](campaign-reports-about.md)
->* [Visualizza i dettagli di siti, annunci e frequenza per un posizionamento](placement-details-view.md)
->* [Visualizza il rapporto Previsione posizionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
->* [Visualizza i report di diagnostica posizionamento](placement-diagnostics.md)
->* [Esporta dati da una visualizzazione di gestione delle campagne](campaign-export-data.md)
->* [Video: struttura dell&#39;account DSP e interfaccia utente](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=it)
+>* [Tipi di report sulle prestazioni nelle visualizzazioni di gestione delle campagne](campaign-reports-about.md)
+>* [Visualizza i siti, gli annunci e i dettagli della frequenza per un posizionamento](placement-details-view.md)
+>* [Visualizza il report di previsione del posizionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
+>* [Visualizza i report di diagnostica del posizionamento](placement-diagnostics.md)
+>* [Esporta dati da una visualizzazione di gestione campagne](campaign-export-data.md)
+>* [Video: struttura dell&#39;account DSP e interfaccia utente](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
