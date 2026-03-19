@@ -3,7 +3,7 @@ title: Utilizzo di  [!DNL Marketing Channels]  con i dati di Adobe Advertising
 description: Scopri come utilizzare i dati di Adobe Advertising in [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
 exl-id: 522c7f01-1138-477d-8018-36030caab55e
-source-git-commit: 0b95d99a1370a047642f8d1e4bbafe35ad5187f6
+source-git-commit: 4db751aae61eaf8abdc5e3afca3b4027f0eddf26
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Nella figura seguente viene illustrato come Adobe Advertising e [!DNL Marketing 
 
 Nella prima visita, l’utente è entrato nel sito web tramite una campagna e-mail, ha eseguito dieci visualizzazioni di pagina e poi se ne è andato. Nella seconda visita, l’utente è entrato nel sito tramite un annuncio pubblicitario, ha eseguito dieci visualizzazioni di pagina e poi se n’è andato. Nella terza visita, l’utente è entrato nel sito tramite ricerca naturale, ha eseguito cinque visualizzazioni di pagina, ha eseguito una conversione da 250 $ e ha lasciato. Si noti la differenza nel tracciamento tra [!DNL Marketing Channels] e Adobe Advertising. L&#39;unico canale di cui Adobe Advertising tiene traccia in questo percorso è [!UICONTROL Display]. Adobe Advertising tiene traccia della visita al canale [!UICONTROL Display] e attribuisce i dati di coinvolgimento successivi (come le visualizzazioni di pagina) e le conversioni all&#39;influenza dell&#39;annuncio pubblicitario. [!DNL Marketing Channels], invece, offre una visualizzazione completa di tutti i canali.
 
-Poiché l’AMO ID persiste nel percorso del visitatore, puoi utilizzare i dati AMO ID per vedere in che modo Adobe Advertising influisce su altri canali di marketing. L&#39;AMO ID [&#x200B; persiste per 60 giorni per impostazione predefinita](/help/integrations/analytics/overview.md), ma puoi configurare la persistenza in base alle esigenze.
+Poiché l’AMO ID persiste nel percorso del visitatore, puoi utilizzare i dati AMO ID per vedere in che modo Adobe Advertising influisce su altri canali di marketing. L&#39;AMO ID [ persiste per 60 giorni per impostazione predefinita](/help/integrations/analytics/overview.md), ma puoi configurare la persistenza in base alle esigenze.
 
 ## Come combinare i dati di Adobe Advertising e dei canali di marketing per analizzare le prestazioni dei contenuti multimediali
 
@@ -55,5 +55,5 @@ Puoi migliorare ulteriormente l’analisi utilizzando un grafico a stack imposta
 >* [Nozioni di base di [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Utilizzo degli ID Adobe Advertising per creare [!DNL Marketing Channels] regole di elaborazione](mc-ids.md)
 >* [Perché i dati dei canali possono variare tra Adobe Advertising e [!DNL Marketing Channels]](mc-data-variances.md)
->* [Video: utilizzo di [!DNL Marketing Channels] per la generazione di rapporti di Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=it)
+>* [Video: utilizzo di [!DNL Marketing Channels] per la generazione di rapporti di Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 >* [Panoramica di [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
