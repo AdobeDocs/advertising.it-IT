@@ -35,4 +35,4 @@ Per visualizzare tutti i pacchetti, i posizionamenti e gli annunci all’interno
 >
 >* [Crea una campagna](campaign-create.md)
 >* [Impostazioni campagna](campaign-settings.md)
->* [Video: struttura dell&#39;account DSP e interfaccia utente](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
+>* [Video: struttura dell&#39;account DSP e interfaccia utente](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=it)
