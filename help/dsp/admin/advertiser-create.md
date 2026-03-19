@@ -2,7 +2,7 @@
 title: Creare un account inserzionista
 description: Scopri come creare un account inserzionista.
 role: User, Admin
-source-git-commit: bd29bf822385670a3420cf5dac346cecdecabf3d
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%

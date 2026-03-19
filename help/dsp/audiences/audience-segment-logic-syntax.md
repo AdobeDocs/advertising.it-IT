@@ -3,7 +3,7 @@ title: Sintassi della logica dei segmenti di pubblico
 description: Fai riferimento alla sintassi da utilizzare per definire la logica per i segmenti di pubblico.
 feature: DSP Audiences
 exl-id: fb73f35f-1f65-463b-b93c-90804a8d19a9
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%

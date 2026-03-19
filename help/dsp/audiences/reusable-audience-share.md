@@ -3,7 +3,7 @@ title: Condividere un pubblico riutilizzabile
 description: Scopri come condividere un pubblico riutilizzabile con altri inserzionisti disponibili per il tuo account.
 feature: DSP Audiences
 exl-id: c0369efe-464d-43d1-9b21-1113a38fc9bb
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Una volta che condividi un pubblico, non puoi più interromperne la condivisione
 >
 >* [Informazioni su Gestione dell&#39;audience](audience-about.md)
 >* [Crea un pubblico riutilizzabile](reusable-audience-create.md)
->* [Duplica un pubblico riutilizzabile](reusable-audience-duplicate.md)
+>* [Duplicare un pubblico riutilizzabile](reusable-audience-duplicate.md)
 >* [Modifica un pubblico riutilizzabile](reusable-audience-edit.md)
 >* [Visualizza dettagli su un pubblico riutilizzabile](reusable-audience-view-details.md)
 >* [Esporta un pubblico riutilizzabile](reusable-audience-export.md)

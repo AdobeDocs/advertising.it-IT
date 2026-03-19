@@ -3,7 +3,7 @@ title: Duplicare un pubblico riutilizzabile
 description: Scopri come duplicare un pubblico riutilizzabile.
 feature: DSP Audiences
 exl-id: 8ff72e13-d0ae-4f61-904b-5d544878f58b
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%

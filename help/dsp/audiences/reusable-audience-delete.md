@@ -3,7 +3,7 @@ title: Eliminare un pubblico riutilizzabile
 description: Scopri come eliminare un pubblico riutilizzabile.
 feature: DSP Audiences
 exl-id: cc9afa22-1b90-4709-b7af-d9c1ee16aa16
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Se è attualmente in uso un pubblico, è possibile esportare un foglio di lavoro
 >
 >* [Informazioni su Gestione dell&#39;audience](audience-about.md)
 >* [Crea un pubblico riutilizzabile](reusable-audience-create.md)
->* [Duplica un pubblico riutilizzabile](reusable-audience-duplicate.md)
+>* [Duplicare un pubblico riutilizzabile](reusable-audience-duplicate.md)
 >* [Modifica un pubblico riutilizzabile](reusable-audience-edit.md)
 >* [Visualizza dettagli su un pubblico riutilizzabile](reusable-audience-view-details.md)
 >* [Condividi un pubblico riutilizzabile](reusable-audience-share.md)

@@ -3,7 +3,7 @@ title: Eliminare un segmento
 description: Scopri come eliminare un segmento di rinuncia alle vendite personalizzato o CCPA.
 feature: DSP Segments
 exl-id: 2b5f61b1-b07d-45e1-bf1c-8e7c25ead42b
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%
@@ -25,5 +25,5 @@ Se si elimina un segmento di rinuncia personalizzata o CCPA, questo viene rimoss
 >* [Informazioni su Gestione dell&#39;audience](audience-about.md)
 >* [Crea un segmento personalizzato](custom-segment-create.md)
 >* [Modifica informazioni segmento](segment-edit.md)
->* [Visualizza pixel di tracciamento per un segmento](segment-view-pixels.md)
+>* [Visualizza i pixel di tracciamento per un segmento](segment-view-pixels.md)
 >* [Condividi o interrompi la condivisione di un segmento](segment-share.md)
