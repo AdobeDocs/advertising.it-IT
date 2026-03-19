@@ -3,9 +3,9 @@ title: Visualizza lo stato delle tue  [!DNL On Demand] richieste di offerte e ab
 description: Scopri come visualizzare lo stato delle richieste di opportunità di vendita e degli abbonamenti di  [!DNL On Demand] .
 feature: DSP On Demand Inventory
 exl-id: 4a8c0242-eaa7-426f-82da-8a4ae4bed492
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: a65abcd843c34e43b1a6f031420ea000092f2b73
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,9 @@ In caso di domande sul processo di approvazione, contatta il team del tuo accoun
 
 >[!MORELIKETHIS]
 >
->* [Abbonati e richiedi l&#39;accesso alle [!DNL On Demand] Offerte di magazzino Premium](on-demand-inventory-subscribe.md)
->* [Richiedi Nuovamente Le Offerte Sull&#39;Inventario Premium Su Richiesta](on-demand-inventory-rerequest.md)
->* [[!DNL On Demand] Editori di inventario Premium in Asia Pacifico](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand] Editori di inventario Premium in Australia e Nuova Zelanda](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] Editori di inventario Premium in Europa, Medio Oriente e Africa](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand] Editori di inventario Premium in Nord America](on-demand-inventory-publishers-na.md)
+>* [Abbonati e richiedi l&#39;accesso a [!DNL On Demand] offerte premium sull&#39;inventario](on-demand-inventory-subscribe.md)
+>* [Richiedi di nuovo [!DNL On Demand] offerte di inventario premium](on-demand-inventory-rerequest.md)
+>* [[!DNL On Demand] editori di inventario premium in Asia Pacifico](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand] editori di inventario premium in Australia e Nuova Zelanda](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand] editori premium di inventario in Europa, Medio Oriente e Africa](on-demand-inventory-publishers-emea.md)
+>* [[!DNL On Demand] editori di inventario premium in Nord America](on-demand-inventory-publishers-na.md)
