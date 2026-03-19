@@ -3,7 +3,7 @@ title: Converti ID utente da [!DNL Tealium] a ID universali
 description: Scopri come consentire a DSP di acquisire  [!DNL Tealium]  segmenti di prime parti.
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: 5110e9b4c966f5d719743d09b5a3aebbb37e0a05
+source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
 workflow-type: tm+mt
 source-wordcount: '1092'
 ht-degree: 0%
@@ -155,6 +155,6 @@ Per risolvere i problemi relativi alla procedura di conversione, contatta il tea
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulle origini del pubblico di prime parti](/help/dsp/audiences/sources/source-about.md)
->* [Gestione delle origini del pubblico per attivare i tipi di pubblico con ID universale](source-manage.md)
->* [Supporto per l&#39;attivazione di ID universali](/help/dsp/audiences/universal-ids.md)
+>* [Gestisci origini pubblico per attivare il pubblico con ID universale](source-manage.md)
+>* [Supporto per l&#39;attivazione degli ID universali](/help/dsp/audiences/universal-ids.md)
 >* [Informazioni su Gestione dell&#39;audience](/help/dsp/audiences/audience-about.md)

@@ -3,7 +3,7 @@ title: Modifica informazioni segmento
 description: Scopri come modificare le informazioni su un segmento di rinuncia alle vendite personalizzato o CCPA.
 feature: DSP Segments
 exl-id: 1df6bf2a-4008-46ec-8b4a-e3d0c8322e44
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%
@@ -35,5 +35,5 @@ ht-degree: 0%
 >* [Informazioni su Gestione dell&#39;audience](audience-about.md)
 >* [Crea un segmento personalizzato](custom-segment-create.md)
 >* [Eliminare un segmento](segment-delete.md)
->* [Visualizza pixel di tracciamento per un segmento](segment-view-pixels.md)
+>* [Visualizza i pixel di tracciamento per un segmento](segment-view-pixels.md)
 >* [Condividi o interrompi la condivisione di un segmento](segment-share.md)

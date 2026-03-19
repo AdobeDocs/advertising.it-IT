@@ -3,9 +3,9 @@ title: Impostazioni degli annunci TV collegati
 description: Vedere le descrizioni delle impostazioni disponibili per gli annunci TV connessi.
 feature: DSP Ads
 exl-id: d8e47f7e-7480-400f-8ffa-ecf41ce2ebfb
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -70,8 +70,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Informazioni Sulla Gestione Degli Annunci](ad-about.md)
->* [Crea un annuncio singolo](ad-create.md)
->* [Elenca i posizionamenti associati a un annuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
+>* [Informazioni sulla gestione degli annunci in Advertising DSP](ad-about.md)
+>* [Crea un singolo annuncio](ad-create.md)
+>* [Elencare i posizionamenti associati a un annuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Specifiche annuncio](ad-specs.md)
->* [Macro DSP](/help/dsp/campaign-management/macros.md)
+>* [Macro di DSP](/help/dsp/campaign-management/macros.md)

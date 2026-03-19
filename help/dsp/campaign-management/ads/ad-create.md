@@ -3,9 +3,9 @@ title: Creare un singolo annuncio
 description: Scopri come creare un singolo annuncio di terze parti.
 feature: DSP Ads
 exl-id: fdfb02c0-9aec-4faf-b374-0f03c7a3fa98
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -50,8 +50,8 @@ Per creare più annunci di terze parti alla volta, vedi [Creare più annunci di 
 
 >[!MORELIKETHIS]
 >
->* [Informazioni Sulla Gestione Degli Annunci](ad-about.md)
->* [Creazione di più annunci di terze parti](ad-create-multiple.md)
+>* [Informazioni sulla gestione degli annunci in Advertising DSP](ad-about.md)
+>* [Creare più annunci di terze parti](ad-create-multiple.md)
 >* [Modifica un annuncio](ad-edit.md)
 >* [Specifiche annuncio](ad-specs.md)
 >* [Domande frequenti sul video universale](/help/dsp/campaign-management/faq-universal-video.md)

@@ -3,7 +3,7 @@ title: Creare e implementare un segmento personalizzato
 description: Scopri come creare e implementare un segmento personalizzato per tenere traccia degli utenti esposti agli annunci o degli utenti che visitano le tue pagine web.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
@@ -120,7 +120,7 @@ Una volta implementato un tag di tracciamento, puoi utilizzare il segmento nei t
 >* [Informazioni su Gestione dell&#39;audience](audience-about.md)
 >* [Modifica informazioni segmento](segment-edit.md)
 >* [Eliminare un segmento](segment-delete.md)
->* [Visualizza pixel di tracciamento per un segmento](segment-view-pixels.md)
+>* [Visualizza i pixel di tracciamento per un segmento](segment-view-pixels.md)
 >* [Condividi o interrompi la condivisione di un segmento](segment-share.md)
 >* [Crea e implementa un segmento [!UICONTROL CCPA Opt-Out-of-Sale]](ccpa-opt-out-segment-create.md)
 >* [Crea un pubblico riutilizzabile](reusable-audience-create.md)

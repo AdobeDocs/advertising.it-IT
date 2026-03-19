@@ -3,7 +3,7 @@ title: Importa manualmente i segmenti autenticati da [!DNL LiveRamp]
 description: Scopri come attivare i tipi di pubblico autenticati tramite  [!DNL LiveRamp].
 feature: DSP Audiences
 exl-id: c56a54c7-5300-4cda-96d0-82d86e76ee39
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
@@ -43,6 +43,6 @@ La mappatura e il caricamento dei segmenti per ogni processo di importazione pos
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulle origini del pubblico di prime parti](source-about.md)
->* [Gestione delle origini del pubblico per attivare i tipi di pubblico con ID universale](source-manage.md)
->* [Connessione Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=it)
+>* [Gestisci origini pubblico per attivare il pubblico con ID universale](source-manage.md)
+>* [Connessione Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* [Informazioni su Gestione dell&#39;audience](/help/dsp/audiences/audience-about.md)

@@ -3,9 +3,9 @@ title: Impostazioni annuncio audio
 description: Consulta le descrizioni delle impostazioni pubblicitarie disponibili per gli annunci audio.
 feature: DSP Ads
 exl-id: 2fa1143b-6e83-4729-91cd-7a5da357509e
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,8 @@ Questo campo può essere visualizzato o meno, a seconda delle autorizzazioni del
 
 >[!MORELIKETHIS]
 >
->* [Informazioni Sulla Gestione Degli Annunci](ad-about.md)
->* [Crea un annuncio singolo](ad-create.md)
->* [Elenca i posizionamenti associati a un annuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
+>* [Informazioni sulla gestione degli annunci in Advertising DSP](ad-about.md)
+>* [Crea un singolo annuncio](ad-create.md)
+>* [Elencare i posizionamenti associati a un annuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Specifiche annuncio](ad-specs.md)
->* [Macro DSP](/help/dsp/campaign-management/macros.md)
+>* [Macro di DSP](/help/dsp/campaign-management/macros.md)

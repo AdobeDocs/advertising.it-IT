@@ -3,7 +3,7 @@ title: Supporto per l’attivazione di ID universali
 description: Scopri come importare i segmenti ID universali, creare segmenti personalizzati per monitorare gli ID universali e convertire altri identificatori utente nei segmenti di prime parti in ID universali per il targeting senza cookie.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
 workflow-type: tm+mt
 source-wordcount: '1500'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 DSP supporta ID universali basati su persone per il targeting senza cookie a dispositivo singolo (non tra dispositivi) tra i formati digitali supportati da DSP.
 
-* È possibile inviare manualmente i [[!DNL LiveRamp] [!DNL RampIDs]] autenticati direttamente a DSP utilizzando il dashboard [!DNL LiveRamp] [!DNL Connect]. Vedi &quot;[Importa manualmente segmenti autenticati da [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md).&quot;
+* È possibile inviare manualmente i [[!DNL LiveRamp] [!DNL RampIDs]] autenticati direttamente a DSP utilizzando il dashboard [!DNL LiveRamp] [!DNL Connect]. Vedi &quot;[Importa manualmente i segmenti autenticati da [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md).&quot;
 
 * DSP può acquisire i segmenti di prime parti composti da ID e-mail con hash generati nel tuo Customer Data Platform (CDP) e convertirli in [!DNL LiveRamp] [!DNL RampIDs] e [!DNL Unified ID 2.0 (UID2.0)] ID. Per ulteriori informazioni sulle piattaforme dati del cliente supportate, sulle funzionalità disponibili per ogni tipo di ID universale supportato e sui flussi di lavoro correlati, vedi &quot;[Informazioni sulle origini del pubblico di prime parti](/help/dsp/audiences/sources/source-about.md)&quot;.
 
@@ -137,8 +137,8 @@ Se non riesci a risolvere il problema, contatta il team del tuo account Adobe.
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulle origini del pubblico di prime parti](/help/dsp/audiences/sources/source-about.md)
->* [Gestione delle origini del pubblico per attivare i tipi di pubblico con ID universale](/help/dsp/audiences/sources/source-manage.md)
+>* [Gestisci origini pubblico per attivare il pubblico con ID universale](/help/dsp/audiences/sources/source-manage.md)
 >* [Creare e implementare un segmento personalizzato](/help/dsp/audiences/custom-segment-create.md)
->* [Importa manualmente segmenti autenticati da [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
+>* [Importa manualmente i segmenti autenticati da [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
 >* [Informazioni su Gestione dell&#39;audience](/help/dsp/audiences/audience-about.md)
 >* [Impostazioni posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)

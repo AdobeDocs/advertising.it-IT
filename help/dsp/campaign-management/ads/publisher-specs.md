@@ -2,9 +2,9 @@
 title: Specifiche pubblicitarie specifiche per l’editore
 description: Fai riferimento alle specifiche dell’annuncio per gli editori supportati.
 feature: DSP Ads
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,6 @@ I seguenti collegamenti ti portano alle specifiche dell’annuncio per alcuni de
 
 >[!MORELIKETHIS]
 >
->* [Informazioni Sulla Gestione Degli Annunci](ad-about.md)
->* [Creazione di più annunci di terze parti](ad-create-multiple.md)
+>* [Informazioni sulla gestione degli annunci in Advertising DSP](ad-about.md)
+>* [Creare più annunci di terze parti](ad-create-multiple.md)
 >* [Specifiche annuncio](/help/dsp/campaign-management/ads/ad-specs.md)

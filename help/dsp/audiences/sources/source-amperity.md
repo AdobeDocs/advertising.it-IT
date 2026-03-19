@@ -3,7 +3,7 @@ title: Converti ID utente da [!DNL Amperity] a ID universali
 description: Scopri come consentire a DSP di acquisire  [!DNL Amperity]  segmenti di prime parti.
 feature: DSP Audiences
 exl-id: c751709a-5ad2-43fa-ba3a-fc7a9683da3f
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
@@ -93,6 +93,6 @@ Per risolvere i problemi relativi alla procedura di conversione, contatta il tea
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulle origini del pubblico di prime parti](/help/dsp/audiences/sources/source-about.md)
->* [Gestione delle origini del pubblico per attivare i tipi di pubblico con ID universale](source-manage.md)
->* [Supporto per l&#39;attivazione di ID universali](/help/dsp/audiences/universal-ids.md)
+>* [Gestisci origini pubblico per attivare il pubblico con ID universale](source-manage.md)
+>* [Supporto per l&#39;attivazione degli ID universali](/help/dsp/audiences/universal-ids.md)
 >* [Informazioni su Gestione dell&#39;audience](/help/dsp/audiences/audience-about.md)

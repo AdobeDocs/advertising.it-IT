@@ -3,9 +3,9 @@ title: Impostazioni annuncio video universale
 description: Consulta le descrizioni delle impostazioni disponibili per gli annunci video universali.
 feature: DSP Ads
 exl-id: 51b7d632-1e73-4726-980b-07ed50447146
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -65,8 +65,8 @@ Utilizzare [!UICONTROL VAST], che non consente la misurazione della visualizzabi
 >[!MORELIKETHIS]
 >
 >* [Domande frequenti sul video universale](/help/dsp/campaign-management/faq-universal-video.md)
->* [Informazioni Sulla Gestione Degli Annunci](ad-about.md)
->* [Crea un annuncio singolo](ad-create.md)
->* [Elenca i posizionamenti associati a un annuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
+>* [Informazioni sulla gestione degli annunci in Advertising DSP](ad-about.md)
+>* [Crea un singolo annuncio](ad-create.md)
+>* [Elencare i posizionamenti associati a un annuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Specifiche annuncio](ad-specs.md)
->* [Macro DSP](/help/dsp/campaign-management/macros.md)
+>* [Macro di DSP](/help/dsp/campaign-management/macros.md)

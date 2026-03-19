@@ -3,9 +3,9 @@ title: Visualizzare un registro delle modifiche della campagna
 description: Scopri come visualizzare le modifiche apportate alla campagna.
 feature: DSP Campaigns
 exl-id: ba96a277-937a-4475-bab6-6e0a4f5ced13
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ I registri di modifica mostrano le modifiche apportate alla campagna durante lâ€
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sulla gestione delle campagne](campaign-about.md)
+>* [Informazioni sulla gestione delle campagne in Advertising DSP](campaign-about.md)
 >* [Crea una campagna](campaign-create.md)
 >* [Modifica una campagna](campaign-edit.md)
 >* [Impostazioni campagna](campaign-settings.md)

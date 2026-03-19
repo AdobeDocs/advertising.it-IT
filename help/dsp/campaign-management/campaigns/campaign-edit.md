@@ -3,9 +3,9 @@ title: Modificare una campagna
 description: Scopri come modificare una campagna.
 feature: DSP Campaigns
 exl-id: d0cbcd11-138a-41be-a027-e5e49e24afa2
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '51'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sulla gestione delle campagne](campaign-about.md)
+>* [Informazioni sulla gestione delle campagne in Advertising DSP](campaign-about.md)
 >* [Crea una campagna](campaign-create.md)
->* [Visualizza il log delle modifiche per una campagna](campaign-change-log.md)
+>* [Visualizza il registro delle modifiche per una campagna](campaign-change-log.md)
 >* [Sospendi o attiva una campagna](campaign-pause-activate.md)
 >* [Impostazioni campagna](campaign-settings.md)

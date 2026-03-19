@@ -3,7 +3,7 @@ title: Modificare un pubblico riutilizzabile
 description: Scopri come modificare un pubblico riutilizzabile.
 feature: DSP Audiences
 exl-id: 4de6b9a4-2907-474d-92bf-83686a1f0b31
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: edf86b00a04fb1e0b8c45101a7f19a1543fc60e6
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 0%
@@ -78,7 +78,7 @@ Quando si modifica un pubblico utilizzato in qualsiasi posizionamento o altro pu
 >
 >* [Informazioni su Gestione dell&#39;audience](audience-about.md)
 >* [Crea un pubblico riutilizzabile](reusable-audience-create.md)
->* [Duplica un pubblico riutilizzabile](reusable-audience-duplicate.md)
+>* [Duplicare un pubblico riutilizzabile](reusable-audience-duplicate.md)
 >* [Visualizza dettagli su un pubblico riutilizzabile](reusable-audience-view-details.md)
 >* [Condividi un pubblico riutilizzabile](reusable-audience-share.md)
 >* [Esporta un pubblico riutilizzabile](reusable-audience-export.md)

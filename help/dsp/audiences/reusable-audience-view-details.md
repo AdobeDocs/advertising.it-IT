@@ -3,7 +3,7 @@ title: Visualizzare i dettagli di un pubblico riutilizzabile
 description: Scopri come visualizzare la configurazione e le dimensioni del pubblico per un pubblico riutilizzabile.
 feature: DSP Audiences
 exl-id: b7ef5af5-0b82-474b-b769-135f80ba5460
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: edf86b00a04fb1e0b8c45101a7f19a1543fc60e6
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >* [Informazioni su Gestione dell&#39;audience](audience-about.md)
 >* [Crea un pubblico riutilizzabile](reusable-audience-create.md)
->* [Duplica un pubblico riutilizzabile](reusable-audience-duplicate.md)
+>* [Duplicare un pubblico riutilizzabile](reusable-audience-duplicate.md)
 >* [Modifica un pubblico riutilizzabile](reusable-audience-edit.md)
 >* [Condividi un pubblico riutilizzabile](reusable-audience-share.md)
 >* [Esporta un pubblico riutilizzabile](reusable-audience-export.md)

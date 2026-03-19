@@ -3,7 +3,7 @@ title: Utilizzo dell'integrazione di DSP con  [!DNL Adobe] [!DNL Real-time CDP]
 description: Scopri come abilitare DSP per acquisire i  [!DNL Adobe] [!DNL Real-time CDP] segmenti di prime parti.
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-source-git-commit: 5110e9b4c966f5d719743d09b5a3aebbb37e0a05
+source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Utilizza l&#39;integrazione di DSP con [the [!DNL Adobe Real-Time CDP]](https://
 
 1. In Adobe Experience Platform, configura una connessione di destinazione Advertising DSP utilizzando [!UICONTROL Source Key] generato nelle impostazioni di origine di DSP.
 
-   Per istruzioni su come attivare la connessione di destinazione di DSP, selezionare i segmenti e accedere alle autorizzazioni di controllo, vedi &quot;[Connessione Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=it).&quot;
+   Per istruzioni su come attivare la connessione di destinazione di DSP, selezionare i segmenti e accedere alle autorizzazioni di controllo, vedi &quot;[Connessione Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
 
    L’hashing degli indirizzi e-mail di origine deve essere eseguito utilizzando l’algoritmo SHA-256.
 
@@ -49,8 +49,8 @@ Per risolvere i problemi relativi alla procedura di conversione, contatta il tea
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulle origini del pubblico di prime parti](/help/dsp/audiences/sources/source-about.md)
->* [Gestione delle origini del pubblico per attivare i tipi di pubblico con ID universale](source-manage.md)
->* [Connessione Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=it)
->* Adobe Experience Platform [Panoramica del catalogo delle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=it)
->* [Supporto per l&#39;attivazione di ID universali](/help/dsp/audiences/universal-ids.md)
+>* [Gestisci origini pubblico per attivare il pubblico con ID universale](source-manage.md)
+>* [Connessione Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* Adobe Experience Platform [Panoramica del catalogo delle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
+>* [Supporto per l&#39;attivazione degli ID universali](/help/dsp/audiences/universal-ids.md)
 >* [Informazioni su Gestione dell&#39;audience](/help/dsp/audiences/audience-about.md)

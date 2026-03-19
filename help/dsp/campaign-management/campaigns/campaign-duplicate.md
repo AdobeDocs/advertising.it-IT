@@ -3,9 +3,9 @@ title: Duplicare una campagna
 description: Scopri come duplicare una campagna.
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Duplica una campagna per creare una nuova campagna con impostazioni simili. È p
 
 * Modificare le date di volo della nuova campagna
 
-Consulta &quot;[Elementi non duplicati](#campaign-not-duplicated)&quot; per un elenco delle impostazioni di posizionamento che non sono duplicate.
+Per un elenco delle impostazioni di posizionamento non duplicate, vedere &quot;[Elementi non duplicati](#campaign-not-duplicated)&quot;.
 
 1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 
@@ -84,8 +84,8 @@ Tutte le impostazioni dei posizionamenti originali vengono duplicate, tranne:
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sulla gestione delle campagne](campaign-about.md)
+>* [Informazioni sulla gestione delle campagne in Advertising DSP](campaign-about.md)
 >* [Crea una campagna](campaign-create.md)
 >* [Modifica una campagna](campaign-edit.md)
->* [Visualizza il log delle modifiche per una campagna](campaign-change-log.md)
+>* [Visualizza il registro delle modifiche per una campagna](campaign-change-log.md)
 >* [Impostazioni campagna](campaign-settings.md)
