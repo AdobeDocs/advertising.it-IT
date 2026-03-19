@@ -3,7 +3,7 @@ title: Macro di Advertising DSP
 description: Fai riferimento alle macro disponibili per il tracciamento generale e per tenere traccia dei clic sugli annunci display di terze parti.
 feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: 658c8a10c4085690ce4dd7e791883dbf31f1cb10
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 0%
@@ -85,9 +85,9 @@ DSP inserisce automaticamente le macro di clic di visualizzazione in un tag di v
 
 Se durante la creazione di un annuncio pubblicitario non viene visualizzata una macro di clic, in DSP viene visualizzato un messaggio di avviso che richiede di inserire manualmente la macro di clic di visualizzazione appropriata nell&#39;area corretta del tag.
 
-## Macro di [!DNL Analytics for Advertising]
+## [!DNL Analytics for Advertising] macro
 
-Per ulteriori macro disponibili specificatamente per i clienti [[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md), vedere &quot;[Aggiungi [!DNL Analytics for Advertising] Macro a [!DNL Flashtalking] Tag annuncio](/help/integrations/analytics/macros-flashtalking.md)&quot; e &quot;[Aggiungi [!DNL Analytics for Advertising] Macro a [!DNL Google Campaign Manager 360] Tag annuncio](/help/integrations/analytics/macros-google-campaign-manager.md)&quot;.
+Per ulteriori macro disponibili specificatamente per i clienti [[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md), vedi &quot;[Aggiungi [!DNL Analytics for Advertising] macro a [!DNL Flashtalking] tag annuncio](/help/integrations/analytics/macros-flashtalking.md)&quot; e &quot;[Aggiungi [!DNL Analytics for Advertising] macro a [!DNL Google Campaign Manager 360] tag annuncio](/help/integrations/analytics/macros-google-campaign-manager.md)&quot;.
 
 ## Risoluzione dei problemi relativi alle macro
 
@@ -102,8 +102,8 @@ Se all&#39;inizio o alla fine del nome della macro mancano dei caratteri, vengon
 >
 >* [Impostazioni annuncio audio](/help/dsp/campaign-management/ads/ad-settings-audio.md)
 >* [Impostazioni annuncio TV connesso](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
->* [Impostazioni annuncio visualizzato](/help/dsp/campaign-management/ads/ad-settings-display.md)
+>* [Impostazioni annuncio visualizzazione](/help/dsp/campaign-management/ads/ad-settings-display.md)
 >* [Impostazioni annuncio mobile](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
 >* [Impostazioni annuncio native](/help/dsp/campaign-management/ads/ad-settings-native.md)
->* [Impostazioni annuncio pre-roll](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
+>* [Impostazioni annunci pre-roll](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
 >* [Impostazioni annuncio video universale](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)

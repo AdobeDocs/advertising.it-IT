@@ -2,7 +2,7 @@
 title: Converti ID utente da [!DNL ActionIQ] a ID universali
 description: Scopri come consentire a DSP di acquisire  [!DNL ActionIQ]  segmenti di prime parti.
 feature: DSP Audiences
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: 658c8a10c4085690ce4dd7e791883dbf31f1cb10
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Per risolvere i problemi relativi alla procedura di conversione, contatta il tea
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulle origini del pubblico di prime parti](/help/dsp/audiences/sources/source-about.md)
->* [Gestione delle origini del pubblico per attivare i tipi di pubblico con ID universale](source-manage.md)
+>* [Gestisci origini pubblico per attivare il pubblico con ID universale](source-manage.md)
 >* [Converti ID utente da [!DNL Adobe Real-Time CDP] a ID universali](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [Converti ID utente da [!DNL Tealium] a ID universali](/help/dsp/audiences/sources/source-tealium.md)
 >* [Informazioni su Gestione dell&#39;audience](/help/dsp/audiences/audience-about.md)
