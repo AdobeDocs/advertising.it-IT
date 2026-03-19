@@ -3,9 +3,9 @@ title: Impostazioni di destinazione del rapporto
 description: Vedi i dettagli richiesti per le destinazioni dei rapporti, per tipo di destinazione.
 feature: DSP Custom Reports
 exl-id: 1437ceea-111a-4c2e-a439-037b3a35865c
-source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ I dettagli richiesti per le destinazioni dei rapporti non e-mail variano a secon
 
 >[!MORELIKETHIS]
 >
->* [Informazioni su [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [Crea un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [Informazioni sulle destinazioni dei report](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [Creare una destinazione di report](/help/dsp/reports/report-destinations/report-destination-create.md)
 >* [Modifica un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
->* [Elimina [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+>* [Eliminare una destinazione di report](/help/dsp/reports/report-destinations/report-destination-delete.md)

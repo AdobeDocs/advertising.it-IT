@@ -3,9 +3,9 @@ title: Modificare una destinazione di rapporto
 description: Scopri come modificare una destinazione di rapporto.
 feature: DSP Custom Reports
 exl-id: 33c011a5-c207-455d-8112-360098024eaa
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Le modifiche apportate a una destinazione di rapporto influiscono sulla consegna
 
 >[!MORELIKETHIS]
 >
->* [Informazioni su [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [Crea un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
->* Impostazioni [[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-settings.md)
->* [Elimina [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+>* [Informazioni sulle destinazioni dei report](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [Creare una destinazione di report](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [Impostazioni destinazione report](/help/dsp/reports/report-destinations/report-destination-settings.md)
+>* [Eliminare una destinazione di report](/help/dsp/reports/report-destinations/report-destination-delete.md)

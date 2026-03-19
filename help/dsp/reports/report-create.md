@@ -3,7 +3,7 @@ title: Creare un rapporto personalizzato
 description: Scopri come creare un rapporto personalizzato.
 feature: DSP Custom Reports
 exl-id: f895529b-dc69-4c74-bca6-3f7617f41ceb
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 0%
@@ -29,5 +29,5 @@ ht-degree: 0%
 >* [Esegui un report personalizzato](/help/dsp/reports/report-run-now.md)
 >* [Eliminare un report personalizzato](/help/dsp/reports/report-delete.md)
 >* [Impostazioni report personalizzati](/help/dsp/reports/report-settings.md)
->* [Tipi di rapporti sulle prestazioni nelle visualizzazioni di gestione delle campagne](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Tipi di report sulle prestazioni nelle visualizzazioni di gestione delle campagne](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Colonne report disponibili](/help/dsp/reports/report-columns.md)

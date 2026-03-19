@@ -3,9 +3,9 @@ title: Gestire i rapporti personalizzati
 description: Scopri come generare e gestire la cross-experience [!UICONTROL Custom Creative Report].
 feature: Creative Reporting
 exl-id: fecdfc82-1260-46e4-82f3-c37fad6d77e4
-source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1479'
 ht-degree: 0%
 
 ---
@@ -208,7 +208,7 @@ Vedere anche &quot;[Modalità di calcolo delle regole di attribuzione per Adobe 
 
 * *[!UICONTROL FTP]:* Per inviare il report completato a uno o più percorsi FTP, che è necessario selezionare nel campo **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (attualmente in Beta):* Per inviare il report completato a uno o più percorsi SSL FTP, che è necessario selezionare nel campo **[!UICONTROL Destination Name]**.
+* *[!UICONTROL FTP SSL](attualmente in Beta):* Per inviare il report completato a uno o più percorsi SSL FTP, che è necessario selezionare nel campo **[!UICONTROL Destination Name]**.
 
 * *[!UICONTROL Email]:* Specificare gli indirizzi e-mail a cui inviare i report completati o le notifiche se il report viene annullato a causa di errori.
 
@@ -330,4 +330,4 @@ Vedere anche &quot;[Modalità di calcolo delle regole di attribuzione per Adobe 
 >
 >* [Rapporti sulle prestazioni a livello di esperienza](/help/creative/experiences/experience-performance-details.md)
 >* [Informazioni sui report personalizzati di DSP](/help/dsp/reports/report-about.md){target="_blank"}
->* [Informazioni su [!UICONTROL report destinations]](/help/dsp/reports/report-destinations/report-destination-about.md){target="_blank"}
+>* [Informazioni sulle destinazioni dei report](/help/dsp/reports/report-destinations/report-destination-about.md){target="_blank"}

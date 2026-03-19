@@ -3,9 +3,9 @@ title: Eliminare una destinazione di rapporto
 description: Scopri come eliminare una destinazione di rapporto.
 feature: DSP Custom Reports
 exl-id: 4585396e-2a84-4d02-bcb9-c82de1e3638e
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ L’eliminazione di una destinazione di rapporto influisce sulla consegna di tut
 
 >[!MORELIKETHIS]
 >
->* [Informazioni su [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [Crea un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
->* Impostazioni [[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-settings.md)
+>* [Informazioni sulle destinazioni dei report](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [Creare una destinazione di report](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [Impostazioni destinazione report](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [Modifica un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)

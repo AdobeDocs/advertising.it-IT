@@ -3,9 +3,9 @@ title: Creare una destinazione di rapporto
 description: Scopri come creare una destinazione per la consegna di rapporti personalizzati.
 feature: DSP Custom Reports
 exl-id: 2a8d6cef-9c33-4483-ac1e-93778a231962
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Informazioni su [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
->* Impostazioni [[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-settings.md)
+>* [Informazioni sulle destinazioni dei report](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [Impostazioni destinazione report](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [Modifica un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
->* [Elimina [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+>* [Eliminare una destinazione di report](/help/dsp/reports/report-destinations/report-destination-delete.md)

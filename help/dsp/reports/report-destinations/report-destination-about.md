@@ -1,16 +1,16 @@
 ---
-title: Informazioni su [!UICONTROL Report Destinations]
+title: Informazioni sulle destinazioni dei rapporti
 description: Scopri come gestire le posizioni di consegna per i rapporti personalizzati.
 feature: DSP Custom Reports
 exl-id: f1cc7a0d-13cb-4a27-816b-897f373984a6
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
 
-# Informazioni su [!UICONTROL Report Destinations]
+# Informazioni sulle destinazioni dei rapporti
 
 È possibile creare e gestire i percorsi di consegna, denominati *[!DNL report destinations]*, per i report personalizzati. Dopo aver configurato le destinazioni dei rapporti, puoi impostare ciascuno dei rapporti personalizzati da consegnare a una o più posizioni di un singolo tipo di destinazione. Dopo aver salvato un rapporto, non puoi modificare il tipo di destinazione.
 
@@ -39,7 +39,7 @@ Da questa vista puoi creare nuove destinazioni e modificare ed eliminare quelle 
 
 >[!MORELIKETHIS]
 >
->* [Crea un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
->* Impostazioni [[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-settings.md)
+>* [Creare una destinazione di report](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [Impostazioni destinazione report](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [Modifica un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
->* [Elimina [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+>* [Eliminare una destinazione di report](/help/dsp/reports/report-destinations/report-destination-delete.md)
