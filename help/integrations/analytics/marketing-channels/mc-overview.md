@@ -3,9 +3,9 @@ title: Nozioni di base di  [!DNL Marketing Channels]
 description: Scopri le informazioni chiave su [!DNL Analytics Marketing Channels] che [!DNL Analytics for Advertising] gli utenti dovrebbero comprendere.
 feature: Integration with Adobe Analytics
 exl-id: de02dff5-86ce-41e8-89c6-3c11f6375b77
-source-git-commit: 0b95d99a1370a047642f8d1e4bbafe35ad5187f6
+source-git-commit: e0436d3840fc138bad6ee3e3599cffd2385750cd
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 In questa pagina sono illustrate le informazioni chiave su [!DNL Analytics Marketing Channels] che [!DNL Analytics for Advertising] utenti devono comprendere.
 
-Per la documentazione completa su [!DNL Marketing Channels], vedere &quot;[Introduzione a [!DNL Marketing Channels]](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-getting-started-mchannel.html?lang=it).&quot;
+Per la documentazione completa su [!DNL Marketing Channels], vedere &quot;[Introduzione a [!DNL Marketing Channels]](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-getting-started-mchannel.html).&quot;
 
 ## Panoramica di [!DNL Marketing Channels]
 
@@ -24,7 +24,7 @@ Prendi in considerazione l’esempio seguente di un percorso di visite incrociat
 
 ![Esempio di percorso di conversione tra visite in canali di marketing](/help/integrations/assets/a4adc-mc-sample-journey.png)
 
-Utilizzando [!UICONTROL Marketing Channels] Regole di elaborazione, puoi creare set di logica per determinare i canali che generano il traffico e per tenere traccia di ciascun canale quando gli utenti arrivano sul tuo sito. Ad esempio, il canale [!UICONTROL Email] sarebbe indicato da un codice di tracciamento univoco generato al momento del clic che, una volta registrato da Adobe Analytics, classificherebbe la visita come proveniente da una campagna di marketing e-mail.
+Utilizzando le regole di elaborazione di [!UICONTROL Marketing Channels], puoi creare set di logica per determinare i canali che generano il traffico e per tenere traccia di ciascun canale mentre gli utenti arrivano sul tuo sito. Ad esempio, il canale [!UICONTROL Email] sarebbe indicato da un codice di tracciamento univoco generato al momento del clic che, una volta registrato da Adobe Analytics, classificherebbe la visita come proveniente da una campagna di marketing e-mail.
 
 ## Regole di elaborazione e impostazione dei canali di marketing
 
@@ -36,12 +36,12 @@ Gli altri canali non dispongono di percorsi URL tracciabili e richiedono un’ul
 
 Adobe consiglia di collaborare con il team di analisi per creare un set completo di [!DNL Marketing Channels] regole di elaborazione per tenere traccia di tutti i canali pertinenti alla tua azienda. In questo modo puoi creare rapporti di attribuzione efficaci.
 
-Per capire come Adobe Advertising può contribuire ai segnali necessari per creare canali di marketing personalizzati, consulta &quot;[Utilizzo degli ID di Advertising per creare [!DNL Marketing Channels] Regole](mc-ids.md).&quot;
+Per capire come Adobe Advertising può contribuire ai segnali necessari per creare canali di marketing personalizzati, consulta &quot;[Utilizzo degli ID di Adobe Advertising per creare [!DNL Marketing Channels] regole di elaborazione](mc-ids.md).&quot;
 
 >[!MORELIKETHIS]
 >
 >* [Utilizzo degli ID Adobe Advertising per creare [!DNL Marketing Channels] regole di elaborazione](mc-ids.md)
 >* [Perché i dati dei canali possono variare tra Adobe Advertising e [!DNL Marketing Channels]](mc-data-variances.md)
 >* [Utilizzo di [!DNL Analytics Marketing Channels] con i dati di Adobe Advertising](mc-ac-data.md)
->* [Video: utilizzo di [!DNL Marketing Channels] per la generazione di rapporti di Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=it)
+>* [Video: utilizzo di [!DNL Marketing Channels] per la generazione di rapporti di Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 >* [Panoramica di [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
