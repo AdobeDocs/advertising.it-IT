@@ -3,9 +3,9 @@ title: Informazioni sull’inventario privato
 description: Informazioni sull’inventario privato
 feature: DSP Private Inventory
 exl-id: 34fc1926-a839-4f2d-8628-557542fb7835
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 05b374b1d15121f71035b10e6c27a2b70fb642fa
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Tutte le tue offerte private con un ID offerta sono finanziate e fatturate da [!
 
 Puoi utilizzare gli ID offerta in uno dei seguenti modi:
 
-* (Funzione facoltativa che richiede l&#39;attivazione) Da [!UICONTROL Deal ID Inbox], è possibile rivedere e accettare rapidamente le offerte di inventario private garantite e non garantite concordate dagli editori sulle seguenti piattaforme lato fornitura (SSP): [!DNL FreeWheel], [!DNL Google Authorized Buyers] (precedentemente noto come [!DNL AdX]) e [!DNL Magnite DV+] (precedentemente [!DNL Rubicon]) da [!UICONTROL Deal ID inbox].
+* (Funzione facoltativa che richiede l&#39;attivazione) Da [!UICONTROL Deal ID Inbox], è possibile rivedere e accettare rapidamente le offerte di inventario private garantite e non garantite concordate dagli editori sulle seguenti piattaforme lato fornitura (SSP): [!DNL FreeWheel], [!DNL Google Authorized Buyers] (precedentemente noto come [!DNL AdX]) e [!DNL Magnite DV+] (precedentemente [!DNL Rubicon]) da [!UICONTROL Deal ID Inbox].
 
   Per ulteriori informazioni, vedere &quot;[Informazioni su [!UICONTROL Deal ID Inbox]](deal-id-inbox-about.md).&quot;
 
@@ -49,6 +49,6 @@ Nella visualizzazione [!UICONTROL Inventory] > [!UICONTROL Deal Lists], puoi rag
 >
 >* [Panoramica delle funzionalità di inventario](/help/dsp/inventory/inventory-overview.md)
 >* [Informazioni su [!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-about.md)
->* [Accetta un&#39;offerta nella casella in entrata dell&#39;ID offerta](deal-id-inbox-accept.md)
->* [Crea manualmente dettagli ID offerta](deal-id-create.md)
+>* [Accetta un&#39;offerta in [!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)
+>* [Creare manualmente i dettagli dell&#39;ID offerta](deal-id-create.md)
 >* [Gestisci elenchi di offerte](/help/dsp/inventory/lists-deals-manage.md)
