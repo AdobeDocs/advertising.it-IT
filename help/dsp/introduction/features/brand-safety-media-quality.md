@@ -122,7 +122,7 @@ La partnership di [!DNL Adobe's] con [!DNL Adelaide] fornisce agli inserzionisti
 
 [Il targeting dell&#39;attenzione pre-offerta a livello di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md) consente agli inserzionisti di eseguire il targeting di livelli di attenzione specifici per migliorare il coinvolgimento dei clienti.
 
-Inoltre, gli inserzionisti possono abilitare il tracciamento [ per la metrica [!UICONTROL Attention Score] di livello posizionamento](/help/dsp/campaign-management/campaigns/campaign-settings.md#attention-measurement) (la media ponderata di [!DNL Attention Units] tra le impression) per qualsiasi campagna per capire quali tattiche di posizionamento producono i migliori risultati di business.
+Inoltre, gli inserzionisti possono abilitare il tracciamento [&#x200B; per la metrica [!UICONTROL Attention Score] di livello posizionamento](/help/dsp/campaign-management/campaigns/campaign-settings.md#attention-measurement) (la media ponderata di [!DNL Attention Units] tra le impression) per qualsiasi campagna per capire quali tattiche di posizionamento producono i migliori risultati di business.
 
 Per ogni funzione separata vengono applicate tariffe aggiuntive.
 
