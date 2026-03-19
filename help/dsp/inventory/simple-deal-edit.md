@@ -3,7 +3,7 @@ title: Modifica impostazioni offerta [!UICONTROL Simple Ad Serving]
 description: Scopri come modificare le impostazioni per un'offerta [!UICONTROL Simple Ad Serving].
 feature: DSP Simple Ad Serving
 exl-id: 48540a6c-54ee-4109-bdd6-293fbee5c3e5
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 0%
@@ -28,9 +28,9 @@ ht-degree: 0%
 >
 >* [Informazioni su [!UICONTROL Simple Ad Serving]](simple-deal-about.md)
 >* [Crea un&#39;offerta [!UICONTROL Simple Ad Serving]](simple-deal-create.md)
->* Impostazioni [[!UICONTROL Simple Ad Serving]](simple-deal-settings.md)
+>* [[!UICONTROL Simple Ad Serving] impostazioni](simple-deal-settings.md)
 >* [Visualizza un report dettagliato per un&#39;offerta](/help/dsp/inventory/deal-view-report.md)
 
 <!-- add back when reimplemented:
->* [View Event-Tracking Pixels for a [!UICONTROL Simple Ad Serving] Deal](simple-deal-show-pixels.md)
+>* [View event-tracking pixels for a [!UICONTROL Simple Ad Serving] deal](simple-deal-show-pixels.md)
 -->

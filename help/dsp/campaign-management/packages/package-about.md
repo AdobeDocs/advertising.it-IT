@@ -3,7 +3,7 @@ title: Informazioni sulla gestione dei pacchetti in Advertising DSP
 description: Scopri la gestione dei pacchetti.
 feature: DSP Packages
 exl-id: 26985635-c03a-471e-8372-fd33e89a30e9
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 0%
@@ -34,8 +34,8 @@ Per visualizzare tutti i posizionamenti all&#39;interno di un pacchetto e le dat
 
 >[!MORELIKETHIS]
 >
->* [Crea pacchetto](package-create.md)
+>* [Crea un pacchetto](package-create.md)
 >* [Modifica pacchetto](package-edit.md)
 >* [Allega un posizionamento a un pacchetto](package-attach-placement.md)
->* [Visualizza il log delle modifiche per un pacchetto](package-change-log.md)
+>* [Visualizza il registro delle modifiche per un pacchetto](package-change-log.md)
 >* [Impostazioni pacchetto](package-settings.md)

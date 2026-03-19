@@ -3,9 +3,9 @@ title: Rigenerare la previsione per un piano di portata TV collegato
 description: Scopri come creare una nuova previsione per un piano di portata TV connesso.
 feature: DSP Planner
 exl-id: ec3de39c-c2b3-4004-8d86-eb6479608121
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,14 @@ ht-degree: 0%
 
 1. Posizionare il cursore sulla riga del piano e fare clic su **[!UICONTROL Forecast]**.
 
-1. (Facoltativo) Per esportare la previsione [!UICONTROL Budget vs Reach] in un foglio di calcolo [!DNL Microsoft Excel]&#x200B;**, fare clic su &#x200B;** [!UICONTROL ...] **&#x200B; in alto a destra, quindi su &#x200B;** [!UICONTROL Export]**.
+1. (Facoltativo) Per esportare la previsione [!UICONTROL Budget vs Reach] in un foglio di calcolo [!DNL Microsoft Excel]**, fare clic su **[!UICONTROL ...]** in alto a destra, quindi su **[!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sullo strumento DSP Planner](planner-about.md)
->* [Crea un piano di copertura TV collegato](planner-create.md)
->* [Duplicare un piano di copertura TV collegata](planner-duplicate.md)
->* [Modifica un piano di copertura TV collegato](planner-edit.md)
->* [Esporta un piano di copertura TV collegato](planner-export.md)
->* [Archivia un piano di copertura TV collegato](planner-archive.md)
+>* [Informazioni sullo strumento [!UICONTROL Planner] di DSP](planner-about.md)
+>* [Crea un piano di copertura TV connesso](planner-create.md)
+>* [Duplicare un piano di copertura TV connessa](planner-duplicate.md)
+>* [Modifica un piano di copertura TV connesso](planner-edit.md)
+>* [Esporta un piano di copertura TV connesso](planner-export.md)
+>* [Archivia un piano di copertura TV connesso](planner-archive.md)
 >* [Impostazioni per i piani di copertura TV connessi](planner-settings.md)

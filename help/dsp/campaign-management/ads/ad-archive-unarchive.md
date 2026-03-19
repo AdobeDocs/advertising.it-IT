@@ -3,7 +3,7 @@ title: Archiviare o annullare l’archiviazione di un annuncio
 description: Scopri come archiviare o annullare l’archiviazione di un annuncio.
 feature: DSP Ads
 exl-id: 086c120f-df55-43b0-a6fb-51d68d00a29e
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -38,6 +38,6 @@ Puoi annullare l’archiviazione di un annuncio per ripristinarne lo stato prece
 
 >[!MORELIKETHIS]
 >
->* [Crea un annuncio singolo](ad-create.md)
->* [Creazione di più annunci di terze parti](ad-create-multiple.md)
+>* [Crea un singolo annuncio](ad-create.md)
+>* [Creare più annunci di terze parti](ad-create-multiple.md)
 >* [Modifica un annuncio](ad-edit.md)

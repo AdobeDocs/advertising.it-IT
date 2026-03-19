@@ -3,9 +3,9 @@ title: Allega e rimuovi annunci dai posizionamenti
 description: Scopri come allegare annunci ai posizionamenti e rimuovere annunci dai posizionamenti.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Puoi allegare e rimuovere annunci dai posizionamenti.
 
 1. Fare clic su **[!UICONTROL Detach Selected Ads]**.
 
-## Rimuovere un annuncio da un posizionamento da [!UICONTROL Placement Inspector] {#remove-ads-placement-inspector}
+## Rimuovere un annuncio da un posizionamento dal posizionamento [!UICONTROL Inspector] {#remove-ads-placement-inspector}
 
 1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 
@@ -106,11 +106,11 @@ Puoi allegare e rimuovere annunci dai posizionamenti.
 
 >[!MORELIKETHIS]
 >
->* [Informazioni Sulla Gestione Degli Annunci](ad-about.md)
+>* [Informazioni sulla gestione degli annunci in Advertising DSP](ad-about.md)
 >* [Allega e rimuovi pixel dagli annunci](ad-pixel-attach-detach.md)
->* [Crea un annuncio singolo](ad-create.md)
->* [Creazione di più annunci di terze parti](ad-create-multiple.md)
+>* [Crea un singolo annuncio](ad-create.md)
+>* [Creare più annunci di terze parti](ad-create-multiple.md)
 >* [Modifica un annuncio](ad-edit.md)
->* [Elenca i posizionamenti associati a un annuncio](ad-list-placements.md)
->* [Modifica gli Schedules per i posizionamenti](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
+>* [Elencare i posizionamenti associati a un annuncio](ad-list-placements.md)
+>* [Modifica le pianificazioni degli annunci per i posizionamenti](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
 >* [Domande frequenti sul video universale](/help/dsp/campaign-management/faq-universal-video.md)

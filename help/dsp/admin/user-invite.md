@@ -3,7 +3,7 @@ title: Invita un nuovo utente per il tuo account organizzazione
 description: Scopri come invitare un nuovo utente a partecipare all’account.
 role: Admin
 exl-id: 5aba8db8-a27b-44a0-88f3-ea49311f4d76
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%
@@ -35,6 +35,6 @@ Se necessario, puoi annullare l’invito di un utente con un invito in sospeso.
 >[!MORELIKETHIS]
 >
 >* [Invia di nuovo un invito utente in sospeso](user-resend-invite.md)
->* [Annulla l&#39;invito di un utente in sospeso](user-uninvite.md)
+>* [Annulla invito di un utente in attesa](user-uninvite.md)
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->

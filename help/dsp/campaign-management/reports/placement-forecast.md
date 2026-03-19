@@ -3,7 +3,7 @@ title: Visualizza il rapporto previsione di posizionamento
 description: Visualizza il numero di impression, la spesa e l’offerta massima ottimale previste per una particolare strategia di targeting per un posizionamento.
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 0%
@@ -81,6 +81,6 @@ La previsione include le seguenti informazioni:
 
 >[!MORELIKETHIS]
 >
->* [Tipi di rapporti sulle prestazioni nelle visualizzazioni di gestione delle campagne](campaign-reports-about.md)
->* [Visualizza i report di diagnostica posizionamento](/help/dsp/campaign-management/reports/placement-diagnostics.md)
+>* [Tipi di report sulle prestazioni nelle visualizzazioni di gestione delle campagne](campaign-reports-about.md)
+>* [Visualizza i report di diagnostica del posizionamento](/help/dsp/campaign-management/reports/placement-diagnostics.md)
 >* [Impostazioni posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)

@@ -3,7 +3,7 @@ title: Archiviare o annullare l’archiviazione di un pacchetto
 description: Scopri come archiviare o annullare l’archiviazione di un pacchetto.
 feature: DSP Packages
 exl-id: 12d1b498-2239-401a-8571-9210956e32b2
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
@@ -37,5 +37,5 @@ Nascondere un pacchetto non utilizzato dall&#39;archiviazione. L&#39;unica azion
 >[!MORELIKETHIS]
 >
 >* [Modifica pacchetto](package-edit.md)
->* [Visualizza il log delle modifiche per un pacchetto](package-change-log.md)
->* [Sospendi o attiva un pacchetto](package-pause-activate.md)
+>* [Visualizza il registro delle modifiche per un pacchetto](package-change-log.md)
+>* [Sospendere o attivare un pacchetto](package-pause-activate.md)

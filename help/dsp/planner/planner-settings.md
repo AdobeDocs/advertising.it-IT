@@ -3,9 +3,9 @@ title: Impostazioni per i piani di copertura TV collegati
 description: Vedere le descrizioni delle impostazioni per i piani di copertura TV collegati.
 feature: DSP Planner
 exl-id: 65edd6f5-557c-44d1-a0ed-8cd26d8a2f6e
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -32,10 +32,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sullo strumento DSP Planner](planner-about.md)
->* [Crea un piano di copertura TV collegato](planner-create.md)
->* [Duplicare un piano di copertura TV collegata](planner-duplicate.md)
->* [Modifica un piano di copertura TV collegato](planner-edit.md)
->* [Esporta un piano di copertura TV collegato](planner-export.md)
->* [Rigenerare la previsione per un piano di copertura TV collegato](planner-forecast.md)
->* [Archivia un piano di copertura TV collegato](planner-archive.md)
+>* [Informazioni sullo strumento [!UICONTROL Planner] di DSP](planner-about.md)
+>* [Crea un piano di copertura TV connesso](planner-create.md)
+>* [Duplicare un piano di copertura TV connessa](planner-duplicate.md)
+>* [Modifica un piano di copertura TV connesso](planner-edit.md)
+>* [Esporta un piano di copertura TV connesso](planner-export.md)
+>* [Rigenerare la previsione per un piano di portata TV connesso](planner-forecast.md)
+>* [Archivia un piano di copertura TV connesso](planner-archive.md)

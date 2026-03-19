@@ -3,7 +3,7 @@ title: Gestire gli elenchi URL
 description: Scopri come creare e gestire gli elenchi URL per il targeting del posizionamento.
 feature: DSP Placements
 exl-id: 57c715b3-9a13-4890-a3b8-03fa6adb44eb
-source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
@@ -176,4 +176,4 @@ Puoi creare e gestire elenchi di URL di siti web e app per il targeting del posi
 >
 >* [Impostazioni posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)
 >* [Informazioni sugli elenchi di siti bloccati a livello di account e inserzionista](/help/dsp/admin/blocked-sites-list-about.md)
->* [Modifica un elenco di siti bloccati a livello di account o inserzionista](/help/dsp/admin/blocked-sites-list-edit.md)
+>* [Modifica un elenco di siti bloccati a livello di account o di inserzionista](/help/dsp/admin/blocked-sites-list-edit.md)

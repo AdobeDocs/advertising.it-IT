@@ -3,7 +3,7 @@ title: Obiettivi personalizzati
 description: Scopri gli obiettivi personalizzati per definire gli eventi di successo in pacchetti ottimizzati per il CPA più basso o il ROAS più alto.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 0%
@@ -132,4 +132,4 @@ Se invece le visite della pagina di destinazione vengono ponderate allo stesso m
 >
 >* [Obiettivi di ottimizzazione e modalità di utilizzo](optimization-goals.md)
 >* [Impostazioni pacchetto](/help/dsp/campaign-management/packages/package-settings.md)
-> * [Come DSP Ottimizza Le Campagne](optimization-how-dsp-optimizes-campaigns.md)
+> * [Come DSP ottimizza le campagne](optimization-how-dsp-optimizes-campaigns.md)

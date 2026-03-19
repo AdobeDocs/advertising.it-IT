@@ -3,7 +3,7 @@ title: Rivedere e modificare le impostazioni di posizionamento utilizzando i bul
 description: Scopri come rivedere e modificare le impostazioni di posizionamento chiave in blocco utilizzando i fogli di calcolo.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Un messaggio di notifica indica quando il file è disponibile per il download.
 
    * Nella parte destra della barra dei menu superiore, fai clic su ![Processi](/help/dsp/assets/downloads.png). Fare clic su **[!UICONTROL Download]** accanto al processo.
 
-   Il file è stato salvato nella cartella Download del browser.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+   Il file è stato salvato nella cartella Download del browser.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
 ## Impostazioni di download per posizionamenti specifici
 
@@ -68,11 +68,11 @@ Un messaggio di notifica indica quando il file è disponibile per il download.
 
    * Nella parte destra della barra dei menu superiore, fai clic su ![Processi](/help/dsp/assets/downloads.png). Fare clic su **[!UICONTROL Download]** accanto al processo.
 
-   Il file è stato salvato nella cartella Download del browser.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+   Il file è stato salvato nella cartella Download del browser.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
    Per modificare le impostazioni, modifica direttamente il file e carica le modifiche.  Tutte le colonne modificabili sono evidenziate in blu. Per utilizzare il formato corretto per un campo, selezionate e copiate il valore dall&#39;impostazione del pacchetto o del posizionamento pertinente. Per alcune impostazioni di destinazione, come la ripartizione giornaliera, gli obiettivi personalizzati e le metriche di conversione, è disponibile un’opzione di copia all’interno dell’impostazione.
 
-## Caricare un bulksheet con le impostazioni di posizionamento {#upload-bulksheet-placement}
+## Carica un bulksheet con le impostazioni di posizionamento {#upload-bulksheet-placement}
 
 Puoi caricare le impostazioni per i posizionamenti e per gli annunci e i pacchetti associati ai posizionamenti in un file bulksheet.
 
@@ -232,6 +232,6 @@ Check on Brand Safety - Contextual Filtering # with new DV feature/fct change.
 
 >[!MORELIKETHIS]
 >
->* [Verifica e modifica le impostazioni dei componenti della campagna tramite bulksheet](/help/dsp/campaign-management/campaign-components-review-edit.md)
+>* [Rivedi e modifica le impostazioni del componente della campagna tramite bulksheet](/help/dsp/campaign-management/campaign-components-review-edit.md)
 >* [Modifica posizionamenti](/help/dsp/campaign-management/placements/placement-edit.md)
 >* [Impostazioni posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)

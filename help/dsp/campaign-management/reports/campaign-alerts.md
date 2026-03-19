@@ -3,7 +3,7 @@ title: Visualizza avvisi
 description: Scopri come visualizzare gli avvisi e le risoluzioni consigliate per le campagne e i componenti della campagna.
 feature: DSP Campaigns, DSP Packages, DSP Placements, DSP Ads, DSP Campaign Data Views
 exl-id: 667bf1c3-3bad-4a1a-b907-0c9bfe5362a9
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
@@ -64,4 +64,4 @@ Hai qualche secondo per annullare l’azione, dopo aver ignorato un avviso. Una 
 
 >[!MORELIKETHIS]
 >
->* [Tipi di rapporti sulle prestazioni nelle visualizzazioni di gestione delle campagne](campaign-reports-about.md)
+>* [Tipi di report sulle prestazioni nelle visualizzazioni di gestione delle campagne](campaign-reports-about.md)

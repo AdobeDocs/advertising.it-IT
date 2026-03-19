@@ -3,7 +3,7 @@ title: Modificare un elenco di siti bloccati a livello di account o di inserzion
 description: Scopri come gestire l’elenco dei siti bloccati per un account o un inserzionista.
 role: User, Admin
 exl-id: b2261b3a-ead2-4d88-a363-66c53653de1a
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%

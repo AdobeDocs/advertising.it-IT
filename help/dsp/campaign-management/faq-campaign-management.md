@@ -3,7 +3,7 @@ title: Domande frequenti sulla gestione delle campagne
 description: Ulteriori informazioni sulla gestione delle campagne, compreso il periodo di latenza per le modifiche e cosa accade quando si apportano modifiche al budget durante un volo.
 feature: DSP Packages, DSP Placements
 exl-id: 8a443543-ebb1-4273-a007-afef07d32d8c
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
@@ -40,10 +40,10 @@ ht-degree: 0%
 
 * Come cambia la velocità del pacchetto nell’ultimo giorno di un volo?
 
-  Nell&#39;ultimo giorno di un volo, il giorno viene ridotto da 24 a 23 ore in modo da non superare il budget previsto per il pacchetto. Inoltre, la strategia di riempimento della velocità del pacchetto cambia automaticamente in &quot;[!UICONTROL Frontload]&quot;, anche se è impostata su &quot;[!UICONTROL even]&quot;. Ciò significa che il 65% del budget giornaliero deve essere consegnato entro le ore 11:0&rbrace; EST.:30
+  Nell&#39;ultimo giorno di un volo, il giorno viene ridotto da 24 a 23 ore in modo da non superare il budget previsto per il pacchetto. Inoltre, la strategia di riempimento della velocità del pacchetto cambia automaticamente in &quot;[!UICONTROL Frontload]&quot;, anche se è impostata su &quot;[!UICONTROL even]&quot;. Ciò significa che il 65% del budget giornaliero deve essere consegnato entro le ore 11:0} EST.:30
 
 >[!MORELIKETHIS]
 >
 >* [Impostazioni pacchetto](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Impostazioni posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)
->* [Procedure consigliate per l&#39;impostazione di campagne sulle prestazioni](/help/dsp/optimization/campaign-best-practices-performance.md)
+>* [Best practice per la configurazione delle campagne sulle prestazioni](/help/dsp/optimization/campaign-best-practices-performance.md)

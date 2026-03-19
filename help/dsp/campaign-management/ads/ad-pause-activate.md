@@ -3,7 +3,7 @@ title: Mettere in pausa o attivare un annuncio
 description: Scopri come mettere in pausa o attivare un annuncio.
 feature: DSP Ads
 exl-id: f39d36c2-4c62-462b-bb92-29458890661e
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 0%
@@ -47,6 +47,6 @@ Per mettere in pausa un annuncio su un singolo posizionamento, utilizzare il pos
 
 >[!MORELIKETHIS]
 >
->* [Crea un annuncio singolo](ad-create.md)
->* [Creazione di più annunci di terze parti](ad-create-multiple.md)
+>* [Crea un singolo annuncio](ad-create.md)
+>* [Creare più annunci di terze parti](ad-create-multiple.md)
 >* [Archivia un annuncio](ad-archive-unarchive.md)

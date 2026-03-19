@@ -3,7 +3,7 @@ title: Filtri pre-offerta a livello di posizionamento e come utilizzarli
 description: Fai riferimento ai filtri pre-offerta a livello di posizionamento disponibili e scopri come utilizzarli.
 feature: DSP Optimization
 exl-id: 34a15666-7ca2-416d-9064-8638ca81e5b3
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Come DSP Ottimizza Le Campagne](optimization-how-dsp-optimizes-campaigns.md)
+>* [Come DSP ottimizza le campagne](optimization-how-dsp-optimizes-campaigns.md)
 >* [Impostazioni pacchetto](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Impostazioni posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)
 >* [Impostazioni campagna](/help/dsp/campaign-management/campaigns/campaign-settings.md)

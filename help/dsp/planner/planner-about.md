@@ -1,16 +1,16 @@
 ---
-title: Informazioni sullo strumento DSP Planner
+title: Informazioni sullo strumento DSP [!UICONTROL Planner]
 description: Scopri lo strumento di pianificazione per prevedere la portata unica dei posizionamenti di TV connesse (CTV) in base al budget e ai criteri di targeting specificati.
 feature: DSP Planner
 exl-id: b25d4ac5-e85f-4a38-8765-6c5261987668
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
 
-# Informazioni sullo strumento DSP Planner
+# Informazioni sullo strumento DSP [!UICONTROL Planner]
 
 <!-- rename all titles/descriptions from "CTV reach planner" to "campaign reach planner" -->
 
@@ -33,7 +33,7 @@ L&#39;output di previsione include anche una sezione [!UICONTROL Inventory Break
 >* La sezione [!UICONTROL Inventory Breakdown] visualizza i dati solo per l&#39;inventario privato e [!UICONTROL On Demand].
 >* La portata univoca stimata mostrata per due editori può sovrapporsi.
 
-## Vista Planner
+## Vista planner
 
 Nella visualizzazione [!UICONTROL Planner] è possibile visualizzare i piani di copertura CTV esistenti e crearne di nuovi.
 
@@ -73,11 +73,11 @@ Sì, è possibile esportare una previsione in un foglio di calcolo [!DNL Microso
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sullo strumento DSP Planner](planner-about.md)
->* [Crea un piano di copertura TV collegato](planner-create.md)
->* [Duplicare un piano di copertura TV collegata](planner-duplicate.md)
->* [Modifica un piano di copertura TV collegato](planner-edit.md)
->* [Esporta un piano di copertura TV collegato](planner-export.md)
->* [Rigenerare la previsione per un piano di copertura TV collegato](planner-forecast.md)
->* [Archivia un piano di copertura TV collegato](planner-archive.md)
+>* [Informazioni sullo strumento [!UICONTROL Planner] di DSP](planner-about.md)
+>* [Crea un piano di copertura TV connesso](planner-create.md)
+>* [Duplicare un piano di copertura TV connessa](planner-duplicate.md)
+>* [Modifica un piano di copertura TV connesso](planner-edit.md)
+>* [Esporta un piano di copertura TV connesso](planner-export.md)
+>* [Rigenerare la previsione per un piano di portata TV connesso](planner-forecast.md)
+>* [Archivia un piano di copertura TV connesso](planner-archive.md)
 >* [Impostazioni per i piani di copertura TV connessi](planner-settings.md)

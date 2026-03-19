@@ -3,9 +3,9 @@ title: Sottoscrivi e richiedi l'accesso alle  [!DNL On Demand] offerte premium s
 description: Scopri come abbonarti e richiedere l'accesso a [!DNL On Demand] offerte.
 feature: DSP On Demand Inventory
 exl-id: 7f23f989-3c96-475e-9f49-aa9098d24c17
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -84,10 +84,10 @@ Una volta che un&#39;offerta è [approvata](/help/dsp/inventory/on-demand-invent
 
 >[!MORELIKETHIS]
 >
->* [Informazioni [!DNL On Demand] Scorte Premium](on-demand-inventory-about.md)
->* [Visualizza lo stato delle  [!DNL On Demand] Richieste di offerta e sottoscrizioni](on-demand-inventory-view-status.md)
->* [Richiedi Nuovamente Le Offerte Sull&#39;Inventario Premium Su Richiesta](on-demand-inventory-rerequest.md)
->* [[!DNL On Demand] Editori di inventario Premium in Asia Pacifico](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand] Editori di inventario Premium in Australia e Nuova Zelanda](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] Editori di inventario Premium in Europa, Medio Oriente e Africa](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand] Editori di inventario Premium in Nord America](on-demand-inventory-publishers-na.md)
+>* [Informazioni [!DNL On Demand] inventario premium](on-demand-inventory-about.md)
+>* [Visualizza lo stato delle tue [!DNL On Demand] richieste di offerta e abbonamenti](on-demand-inventory-view-status.md)
+>* [Richiedi di nuovo [!DNL On Demand] offerte di inventario premium](on-demand-inventory-rerequest.md)
+>* [[!DNL On Demand] editori di inventario premium in Asia Pacifico](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand] editori di inventario premium in Australia e Nuova Zelanda](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand] editori premium di inventario in Europa, Medio Oriente e Africa](on-demand-inventory-publishers-emea.md)
+>* [[!DNL On Demand] editori di inventario premium in Nord America](on-demand-inventory-publishers-na.md)

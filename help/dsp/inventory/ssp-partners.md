@@ -3,9 +3,9 @@ title: Partner SSP
 description: Consulta un elenco della piattaforma lato offerta (SSP, Supply-Side Platform) e dei partner di scambio aperti.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '504'
 ht-degree: 3%
 
 ---
@@ -49,5 +49,5 @@ Una piattaforma lato offerta (SSP, supply-side platform) è una piattaforma tecn
 
 >[!MORELIKETHIS]
 >
->* [Panoramica delle funzionalità di inventario](inventory-overview.md)
+>* [Panoramica delle funzionalità di inventario in Advertising DSP](inventory-overview.md)
 

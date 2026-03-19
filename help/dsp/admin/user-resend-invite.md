@@ -3,7 +3,7 @@ title: Inviare nuovamente un invito utente in sospeso
 description: Scopri come inviare nuovamente un invito utente in sospeso.
 role: Admin
 exl-id: 15d17a03-526b-4dc2-883a-131d750fca24
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 0%
@@ -27,6 +27,6 @@ Gli utenti amministratori possono inviare nuovamente un invito a un utente con u
 >[!MORELIKETHIS]
 >
 >* [Invita un nuovo utente per l&#39;account organizzazione](user-invite.md)
->* [Annulla l&#39;invito di un utente in sospeso](user-uninvite.md)
+>* [Annulla invito di un utente in attesa](user-uninvite.md)
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->

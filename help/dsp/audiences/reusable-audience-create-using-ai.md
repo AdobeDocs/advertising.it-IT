@@ -5,7 +5,7 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Utilizza l’agente del pubblico assistito da AI per generare nuovi tipi di pubb
 
    1. Inserisci una o più richieste per descrivere le caratteristiche del pubblico da includere ed escludere. Per inviare ogni richiesta, fare clic su ![Invia richiesta](/help/dsp/assets/submit-prompt.png "Invia richiesta").
 
-      Per ulteriori informazioni, vedere &quot;[Prompt di scrittura](#writing-prompts)&quot; e &quot;[Procedure consigliate per la creazione di un resoconto del pubblico](#audience-brief-best-practices).&quot;
+      Per ulteriori informazioni, vedere &quot;[Prompt di scrittura](#writing-prompts)&quot; e &quot;[Best practice per la creazione di una descrizione del pubblico](#audience-brief-best-practices).&quot;
 
       Quando l’agente del pubblico trova segmenti rilevanti, crea un’espressione di pubblico in base ai criteri. Chiede inoltre la tua approvazione prima di cercare i segmenti corrispondenti per assemblare il pubblico.
 
@@ -70,7 +70,7 @@ Utilizza l’agente del pubblico assistito da AI per generare nuovi tipi di pubb
    >
    >In seguito non puoi modificare il pubblico utilizzando l’agente pubblico. Al contrario, [modifica manualmente l&#39;espressione del pubblico](/help/dsp/audiences/reusable-audience-edit.md).
 
-## Nozioni di base sulla scrittura dei prompt {#writing-prompts}
+## Nozioni di base sui prompt di scrittura {#writing-prompts}
 
 ### Cosa deve includere un prompt?
 
@@ -94,7 +94,7 @@ Utilizza l’agente del pubblico assistito da AI per generare nuovi tipi di pubb
 
   L’agente del pubblico non salva automaticamente un’espressione del pubblico generata come pubblico. È possibile salvare un pubblico solo facendo clic sul pulsante [!UICONTROL Create], che si trova all&#39;esterno dell&#39;area di richiesta, in modo da poter annullare le modifiche che non si desidera mantenere.
 
-Consulta &quot;[Procedure consigliate per la creazione di un resoconto del pubblico](#audience-brief-best-practices)&quot; per ulteriori modi per ottimizzare i prompt per i tipi di pubblico.
+Consulta &quot;[Best practice per la creazione di una descrizione del pubblico](#audience-brief-best-practices)&quot; per ulteriori modi per ottimizzare i prompt per i tipi di pubblico.
 
 <!-- I think these are happening later:
 
@@ -196,7 +196,7 @@ Di seguito è riportato un esempio di una descrizione dettagliata del pubblico p
 
 >[!MORELIKETHIS]
 >
->* [Duplica un pubblico riutilizzabile](/help/dsp/audiences/reusable-audience-duplicate.md)
+>* [Duplicare un pubblico riutilizzabile](/help/dsp/audiences/reusable-audience-duplicate.md)
 >* [Modifica un pubblico riutilizzabile](/help/dsp/audiences/reusable-audience-edit.md)
 >* [Visualizza dettagli su un pubblico riutilizzabile](/help/dsp/audiences/reusable-audience-view-details.md)
 >* [Condividi un pubblico riutilizzabile](/help/dsp/audiences/reusable-audience-share.md)

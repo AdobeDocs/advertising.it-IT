@@ -3,9 +3,9 @@ title: Visualizzare i siti, gli annunci, la frequenza e i dettagli di inventario
 description: Scopri come visualizzare i siti target, gli annunci, la frequenza e i dati di inventario per un posizionamento.
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Per ogni posizionamento, puoi [aprire una (visualizzazione dettagli [!UICONTROL 
 
   La scheda [!UICONTROL Inventory] consente di risolvere rapidamente i problemi visualizzando le statistiche sulle prestazioni, ad esempio [!UICONTROL Auctions], [!UICONTROL Bids] e [!UICONTROL Win Rate]. La scheda include le funzionalità di ricerca e filtro, le stesse opzioni di visualizzazione colonne standard e personalizzate disponibili nella pagina principale e i pulsanti di azione rapida in ogni riga, inclusi [!UICONTROL Edit], [!UICONTROL View Report] e [[!UICONTROL Auction Insights] per ulteriori informazioni sulla risoluzione dei problemi](/help/dsp/inventory/private-deal-auction-insights.md).
 
-## Apri [!UICONTROL Placement Inspector] {#inspector-open}
+## Apri il posizionamento [!UICONTROL Inspector] {#inspector-open}
 
 1. Apri la vista posizionamenti per la campagna o il pacchetto principale:
 
@@ -66,9 +66,9 @@ Per ogni posizionamento, puoi [aprire una (visualizzazione dettagli [!UICONTROL 
 
    I dati vengono salvati nella cartella di download predefinita del browser come rapporto in formato XLSM.
 
-## Rimuovere un annuncio da un posizionamento da [!UICONTROL Placement Inspector] {#remove-ads-placement-inspector}
+## Rimuovere un annuncio da un posizionamento da [!UICONTROL Inspector] {#remove-ads-placement-inspector}
 
-1. [Apri [!UICONTROL Placement Inspector]](#inspector-open).
+1. [Aprire il posizionamento [!UICONTROL Inspector]](#inspector-open).
 
 1. Fare clic sulla scheda **[!UICONTROL Ads]**.
 
@@ -90,5 +90,5 @@ Per ogni posizionamento, puoi [aprire una (visualizzazione dettagli [!UICONTROL 
 
 >[!MORELIKETHIS]
 >
->* [Tipi di rapporti sulle prestazioni nelle visualizzazioni di gestione delle campagne](campaign-reports-about.md)
->* [Gestione Delle Visualizzazioni Dati Della Campagna](campaign-data-views-manage.md)
+>* [Tipi di report sulle prestazioni nelle visualizzazioni di gestione delle campagne](campaign-reports-about.md)
+>* [Gestisci le visualizzazioni dati della campagna](campaign-data-views-manage.md)

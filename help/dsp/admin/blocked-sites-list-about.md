@@ -3,7 +3,7 @@ title: Informazioni sugli elenchi di siti bloccati a livello di account e di ins
 description: Ulteriori informazioni sull'elenco dei siti bloccati per un account o un inserzionista.
 role: User, Admin
 exl-id: e147159b-54f2-492b-8dbc-054b97897fa6
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%
@@ -26,6 +26,6 @@ Gli elenchi a livello di inserzionista sostituiscono gli elenchi a livello di ac
 
 >[!MORELIKETHIS]
 >
->* [Modifica un elenco di siti bloccati a livello di account o inserzionista](/help/dsp/admin/blocked-sites-list-edit.md)
+>* [Modifica un elenco di siti bloccati a livello di account o di inserzionista](/help/dsp/admin/blocked-sites-list-edit.md)
 >* [Sicurezza del marchio e qualità dei contenuti multimediali](/help/dsp/introduction/features/brand-safety-media-quality.md)
 >* [Impostazioni posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)

@@ -3,7 +3,7 @@ title: Rivedere e modificare le impostazioni del pacchetto utilizzando i bulkshe
 description: Scopri come rivedere e modificare le impostazioni dei pacchetti chiave in blocco utilizzando i fogli di calcolo.
 feature: DSP Packages
 exl-id: bf52de27-db48-40e2-bb55-a2c27a1924ad
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -18,13 +18,13 @@ Per aggiornare più impostazioni contemporaneamente, è possibile effettuare una
 
 * Apporta le modifiche necessarie per selezionare i campi, salvare il file e caricare di nuovo il file del bulksheet modificato in DSP.
 
-* Per apportare modifiche ad altri pacchetti, posizionamenti o annunci nella campagna, scarica un bulksheet per la campagna. Immetti o incolla le impostazioni aggiornate nel file, quindi carica il file per apportare le modifiche. Per istruzioni, consulta &quot;[Rivedere e modificare le impostazioni dei componenti di Campaign utilizzando i bulksheet](/help/dsp/campaign-management/campaign-components-review-edit.md).&quot;
+* Per apportare modifiche ad altri pacchetti, posizionamenti o annunci nella campagna, scarica un bulksheet per la campagna. Immetti o incolla le impostazioni aggiornate nel file, quindi carica il file per apportare le modifiche. Per istruzioni, consulta &quot;[Rivedere e modificare le impostazioni del componente della campagna utilizzando i bulksheet](/help/dsp/campaign-management/campaign-components-review-edit.md).&quot;
 
 I campi modificabili includono la maggior parte delle impostazioni normalmente modificabili.
 
 >[!TIP]
 >
->Per modificare rapidamente più campi per uno o più pacchetti, vedere &quot;[Modifica pacchetti](/help/dsp/campaign-management/packages/package-edit.md)&quot;.
+>Per modificare rapidamente più campi per uno o più pacchetti, vedi &quot;[Modifica pacchetti](/help/dsp/campaign-management/packages/package-edit.md)&quot;.
 
 ## Scaricare le impostazioni per tutti i pacchetti di una campagna
 
@@ -50,7 +50,7 @@ Un messaggio di notifica indica quando il file è disponibile per il download.
 
    * Nella parte destra della barra dei menu superiore, fai clic su ![Processi](/help/dsp/assets/downloads.png). Fare clic su **[!UICONTROL Download]** accanto al processo.
 
-     Il file è stato salvato nella cartella Download del browser.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+     Il file è stato salvato nella cartella Download del browser.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
      Per modificare le impostazioni, modifica direttamente il file e carica le modifiche. Tutte le colonne modificabili sono evidenziate in blu.
 
@@ -76,7 +76,7 @@ Quando si scaricano le impostazioni per pacchetti specifici, il file del bulkshe
 
    * Nella parte destra della barra dei menu superiore, fai clic su ![Processi](/help/dsp/assets/downloads.png). Fare clic su **[!UICONTROL Download]** accanto al processo.
 
-     Il file viene salvato nella cartella Download del browser. Per un elenco delle colonne incluse, consulta &quot;[Colonne di posizionamento nei bulksheet scaricati/caricati](#qa-sheet-columns)&quot;.
+     Il file viene salvato nella cartella Download del browser. Consulta &quot;[Colonne di posizionamento nei bulksheet scaricati/caricati](#qa-sheet-columns)&quot; per un elenco delle colonne incluse.
 
      Per modificare le impostazioni, modifica direttamente il file e carica le modifiche. Tutte le colonne modificabili sono evidenziate in blu. Per utilizzare il formato corretto per un campo, selezionate e copiate il valore dall&#39;impostazione del pacchetto o del posizionamento pertinente. Per alcune impostazioni di destinazione, come la ripartizione giornaliera, gli obiettivi personalizzati e le metriche di conversione, è disponibile un’opzione di copia all’interno dell’impostazione.
 
@@ -166,6 +166,6 @@ Quando un aggiornamento delle impostazioni non riesce, puoi scaricare un file di
 
 >[!MORELIKETHIS]
 >
->* [Verifica e modifica le impostazioni dei componenti della campagna tramite bulksheet](/help/dsp/campaign-management/campaign-components-review-edit.md)
+>* [Rivedi e modifica le impostazioni del componente della campagna tramite bulksheet](/help/dsp/campaign-management/campaign-components-review-edit.md)
 >* [Modifica pacchetti](/help/dsp/campaign-management/packages/package-edit.md)
 >* [Impostazioni pacchetto](/help/dsp/campaign-management/packages/package-settings.md)
