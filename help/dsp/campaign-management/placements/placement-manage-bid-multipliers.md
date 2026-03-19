@@ -3,9 +3,9 @@ title: Gestire i moltiplicatori delle offerte per i posizionamenti
 description: Scopri come creare e modificare i moltiplicatori di offerta per i target di posizionamento.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 32b811e1fc7c9895b75c1e184db72f2d3f5963a5
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '910'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Per impostazione predefinita, il moltiplicatore di offerta per un target è 1,00
 
 Puoi impostare i moltiplicatori di offerte (con valori diversi da 1,00) per un [numero limitato di destinazioni](#bid-multiplier-limits-by-target).
 
-Questa funzione funziona con i target di posizionamento esistenti. Per modificare le destinazioni selezionate per i posizionamenti, vedi &quot;[Modifica posizionamenti](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
+Questa funzione funziona con i target di posizionamento esistenti. Per modificare le destinazioni selezionate per i posizionamenti, vedi &quot;[Modifica posizionamenti](/help/dsp/campaign-management/placements/placement-edit.md)&quot;.
 
 ## Gestire i moltiplicatori delle offerte per un singolo posizionamento
 
@@ -125,7 +125,7 @@ Puoi impostare i moltiplicatori delle offerte (con valori diversi da 1,00) per u
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sulla gestione del posizionamento](placement-about.md)
+>* [Informazioni sulla gestione dei posizionamenti in Advertising DSP](placement-about.md)
 >* [Modifica posizionamenti](placement-edit.md)
 >* [Visualizza il log delle modifiche per un posizionamento](placement-change-log.md)
 >* [Impostazioni posizionamento](placement-settings.md)
