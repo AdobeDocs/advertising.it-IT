@@ -3,9 +3,9 @@ title: Colonne report disponibili
 description: Vedi le descrizioni delle colonne disponibili nei rapporti personalizzati.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 784d65f60de8962e634613f513037b2a6e6058bc
 workflow-type: tm+mt
-source-wordcount: '2933'
+source-wordcount: '2927'
 ht-degree: 0%
 
 ---
@@ -34,8 +34,8 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Title] | Il titolo del contenuto/film. |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Series] | La serie di contenuti. |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Genre] | Il genere di contenuti. |
-| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL ProdQ] | La qualità di produzione, definita da [IAB Technology Laboratory](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md). I valori possono `Unknown`, `Professionally Produced`, `Prosumer` o `User Generated`. |
-| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Context] | Il tipo di contenuto, come definito dal [IAB Technology Laboratory](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md). I valori possono includere `Video,` `Game`, `Music`, `Application`, `Text`, `Other` o `Unknown`. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL ProdQ] | La qualità di produzione, definita da [the [!DNL IAB Technology Laboratory]](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md). I valori possono `Unknown`, `Professionally Produced`, `Prosumer` o `User Generated`. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Context] | Tipo di contenuto, come definito da [the [!DNL IAB Technology Laboratory]](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md). I valori possono includere `Video,` `Game`, `Music`, `Application`, `Text`, `Other` o `Unknown`. |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Content Rating] | La classificazione del contenuto, ad esempio PG o R. |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Livestream] | Indica se l&#39;annuncio è apparso in un livestream: `Not Live` o `Live`. |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Content Length (in seconds)] | La lunghezza del contenuto in secondi; generalmente utilizzato per video o audio. |

@@ -3,7 +3,7 @@ title: Sospendere o attivare una campagna
 description: Scopri come mettere in pausa o attivare una campagna live.
 feature: DSP Campaigns
 exl-id: ed199864-8532-411b-b8ea-443ee1c149a2
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: 85d0697069569bed352af5ec1fea023220eec263
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
@@ -33,4 +33,4 @@ Tutti i posizionamenti messi in pausa prima della sospensione di una campagna ri
 >[!MORELIKETHIS]
 >
 >* [Modifica una campagna](campaign-edit.md)
->* [Archivia una campagna](campaign-archive-unarchive.md)
+>* [Archiviare una campagna](campaign-archive-unarchive.md)
