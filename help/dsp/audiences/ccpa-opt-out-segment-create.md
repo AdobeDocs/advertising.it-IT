@@ -3,7 +3,7 @@ title: Creare e implementare un segmento di rifiuto del CCPA
 description: Scopri come creare e implementare un segmento per tenere traccia degli ID degli utenti dalle richieste di rifiuto da parte dei consumatori.
 feature: CCPA, DSP Segments
 exl-id: 0623c52e-02ea-4e06-bc54-8abb7a87765a
-source-git-commit: e61f3c7d066a72f9a438ef292122cdf99370fd0c
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Una volta implementato il tag pixel del segmento, Adobe Advertising inizia a rac
 
 >[!NOTE]
 >
->* Per informazioni su come comunicare le richieste di rifiuto del CCPA ad Adobe Advertising tramite l&#39;API Adobe Experience Platform Privacy Service, vedere [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=it](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=it).
+>* Per informazioni su come comunicare le richieste di rifiuto del CCPA ad Adobe Advertising tramite l&#39;API Adobe Experience Platform Privacy Service, vedere [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html).
 >* Per tenere traccia degli utenti che visitano le pagine Web per scopi non correlati al tracciamento di eventi di rifiuto del CCPA, nonché degli utenti esposti agli annunci da dispositivi desktop, mobili e CTV, creare un [segmento personalizzato](/help/dsp/audiences/custom-segment-create.md).
 
 1. Crea il segmento:

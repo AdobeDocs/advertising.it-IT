@@ -3,9 +3,9 @@ title: Creare un pacchetto
 description: Scopri come creare un pacchetto.
 feature: DSP Packages
 exl-id: 528c57f2-fa83-44d7-9ce4-509ca7565135
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
@@ -26,10 +26,10 @@ Dopo aver creato un pacchetto, puoi assegnarvi dei posizionamenti.
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sulla gestione dei pacchetti](package-about.md)
+>* [Informazioni sulla gestione dei pacchetti in Advertising DSP](package-about.md)
 >* [Modifica pacchetto](package-edit.md)
 >* [Allega un posizionamento a un pacchetto](package-attach-placement.md)
->* [Visualizza il log delle modifiche per un pacchetto](package-change-log.md)
->* [Sospendi o attiva un pacchetto](package-pause-activate.md)
+>* [Visualizza il registro delle modifiche per un pacchetto](package-change-log.md)
+>* [Sospendere o attivare un pacchetto](package-pause-activate.md)
 >* [Impostazioni pacchetto](package-settings.md)
->* [Video: come creare un pacchetto](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html?lang=it)
+>* [Video: come creare un pacchetto](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html)

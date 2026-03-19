@@ -3,7 +3,7 @@ title: Archiviare o annullare l'archiviazione di un'offerta privata
 description: Scopri come archiviare o annullare l’archiviazione di un’offerta privata.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: f3f22299-a538-4956-a8ef-d44f20e4d2d7
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
@@ -46,5 +46,5 @@ Se l&#39;editore o il provider di servizi condivisi ha disattivato in precedenza
 
 >[!MORELIKETHIS]
 >
->* [Informazioni Sull&#39;Inventario Privato](private-inventory-about.md)
->* [Modifica impostazioni trattativa privata](/help/dsp/inventory/deal-id-edit.md)
+>* [Informazioni sull&#39;inventario privato](private-inventory-about.md)
+>* [Modifica impostazioni offerta privata](/help/dsp/inventory/deal-id-edit.md)

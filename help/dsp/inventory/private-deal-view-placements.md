@@ -3,7 +3,7 @@ title: Elencare i posizionamenti e gli annunci per un’offerta privata
 description: Scopri come aprire un elenco di posizionamenti e annunci associati a un’offerta privata.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 8003c053-eaa1-420d-853f-3c25643f4ef8
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Puoi aprire un elenco di tutti i posizionamenti e gli annunci associati a un’o
 
 >[!MORELIKETHIS]
 >
->* [Informazioni Sull&#39;Inventario Privato](private-inventory-about.md)
+>* [Informazioni sull&#39;inventario privato](private-inventory-about.md)
 >* [Specifica posizionamenti e annunci per un ID offerta](deal-id-attach-placements.md)
 >* [Visualizza un report dettagliato per un&#39;offerta](deal-view-report.md)
->* [Visualizza i report di diagnostica posizionamento](/help/dsp/campaign-management/reports/placement-diagnostics.md)
+>* [Visualizza il report di diagnostica del posizionamento](/help/dsp/campaign-management/reports/placement-diagnostics.md)

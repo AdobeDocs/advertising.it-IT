@@ -3,7 +3,7 @@ title: Best practice per l’impostazione di campagne sulle prestazioni
 description: Scopri le best practice per la configurazione di campagne incentrate sulle prestazioni, che includono posizionamenti ottimizzati per il CPA più basso o il ROAS più alto.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 0%
@@ -107,7 +107,7 @@ Di seguito sono riportate le impostazioni di posizionamento consigliate per le c
 
    * Prendi in considerazione l’impostazione di filtri pre-offerta meno rigidi nei casi in cui viene applicato un targeting aggiuntivo (come targeting di pubblico, geografico e del sito).
 
-Consulta le descrizioni di quando utilizzare ogni filtro di pre-offerta a [Filtri di pre-offerta a livello di posizionamento e Come utilizzarli](/help/dsp/optimization/optimization-pre-bid-filters.md).
+Consulta le descrizioni di quando utilizzare ogni filtro di pre-offerta a [Filtri di pre-offerta a livello di posizionamento e come utilizzarli](/help/dsp/optimization/optimization-pre-bid-filters.md).
 
 ### Inventario
 
@@ -157,7 +157,7 @@ L&#39;utilizzo del filtro contestuale, del blocco antifrode pre-offerta e/o del 
 >
 >* [Impostazioni pacchetto](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Impostazioni posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)
-> * [Come DSP Ottimizza Le Campagne](optimization-how-dsp-optimizes-campaigns.md)
+>* [Come DSP ottimizza le campagne](optimization-how-dsp-optimizes-campaigns.md)
 >* [Obiettivi di ottimizzazione e modalità di utilizzo](optimization-goals.md)
 >* [Filtri pre-offerta a livello di posizionamento e modalità di utilizzo](optimization-pre-bid-filters.md)
->* [Elenco di controllo per il lancio di Campaign](/help/dsp/campaign-management/campaign-launch-checklist.md)
+>* [Elenco di controllo per l&#39;avvio di Campaign](/help/dsp/campaign-management/campaign-launch-checklist.md)

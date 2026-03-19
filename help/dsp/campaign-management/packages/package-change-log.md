@@ -3,9 +3,9 @@ title: Visualizzare un registro delle modifiche apportate a un pacchetto
 description: Scopri come visualizzare le modifiche apportate al pacchetto.
 feature: DSP Packages
 exl-id: dd33519b-19cf-4b6f-b6d2-ec0874e27075
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,8 @@ I registri di modifica mostrano le modifiche apportate al pacchetto durante l’
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sulla gestione dei pacchetti](package-about.md)
->* [Crea pacchetto](package-create.md)
+>* [Informazioni sulla gestione dei pacchetti in Advertising DSP](package-about.md)
+>* [Crea un pacchetto](package-create.md)
 >* [Modifica pacchetto](package-edit.md)
 >* [Allega un posizionamento a un pacchetto](package-attach-placement.md)
 >* [Impostazioni pacchetto](package-settings.md)

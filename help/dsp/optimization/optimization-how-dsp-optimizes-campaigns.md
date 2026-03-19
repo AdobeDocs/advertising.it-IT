@@ -3,7 +3,7 @@ title: Come DSP ottimizza le campagne
 description: Scopri come DSP ottimizza i pacchetti nelle campagne.
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -80,7 +80,7 @@ I filtri pre-offerta di posizionamento sono il modo più rigido per garantire pr
 >
 >I filtri di pre-offerta disponibili variano a seconda del tipo di annuncio. Ad esempio, per un posizionamento di visualizzazione standard, puoi filtrare in base al tasso di click-through e alla visualizzabilità, ma non in base al tasso di completamento.
 
-Consulta [Filtri pre-offerta a livello di posizionamento e Come utilizzarli](optimization-pre-bid-filters.md) per determinare quale filtro pre-offerta può aiutarti a raggiungere i tuoi KPI.
+Consulta [Filtri pre-offerta a livello di posizionamento e come utilizzarli](optimization-pre-bid-filters.md) per determinare quale filtro pre-offerta può aiutarti a ottenere i tuoi KPI.
 
 >[!MORELIKETHIS]
 >

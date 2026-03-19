@@ -3,16 +3,16 @@ title: Modificare le pianificazioni degli annunci per i posizionamenti
 description: Scopri come modificare le pianificazioni degli annunci per gli annunci allegati ai posizionamenti.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
 
 # Modificare le pianificazioni degli annunci per i posizionamenti
 
-## Modificare gli Schedules degli annunci per uno o più posizionamenti
+## Modificare le pianificazioni di uno o più posizionamenti
 
 È possibile modificare le date dei voli programmati e la rotazione degli annunci per gli annunci associati a più posizionamenti utilizzando un foglio di calcolo [!DNL Microsoft Excel]. Ogni annuncio può essere attivo durante più voli.
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
    1. Nella barra degli strumenti Azioni in blocco fare clic su **[!UICONTROL ...]** > **[!UICONTROL Upload Custom Ad Schedule Sheet]** e specificare il file da caricare.
 
-## Modificare la pianificazione degli annunci per un singolo posizionamento
+## Modificare la pianificazione dell’annuncio per un singolo posizionamento
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- just simple ad serving placements (PG ones seem okay)? And anything else? -->
 
@@ -78,7 +78,7 @@ Puoi modificare le date dei voli programmati e la rotazione degli annunci per gl
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sulla gestione del posizionamento](placement-about.md)
+>* [Informazioni sulla gestione dei posizionamenti in Advertising DSP](placement-about.md)
 >* [Modifica posizionamenti](placement-edit.md)
 >* [Visualizza il log delle modifiche per un posizionamento](placement-change-log.md)
 >* [Impostazioni posizionamento](placement-settings.md)
