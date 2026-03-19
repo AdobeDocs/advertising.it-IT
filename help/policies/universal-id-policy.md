@@ -3,7 +3,7 @@ title: Criterio dei requisiti per l’ID universale di Adobe Advertising
 description: Consulta i criteri per l’utilizzo degli ID universali.
 feature: Policies, DSP Ads
 exl-id: a21dcc56-a618-476d-9f5b-7b1260f27331
-source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
+source-git-commit: c7438ee214e6b5d5cfb6e6c72eb480bc334596c7
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Scegliendo di utilizzare gli ID universali resi disponibili tramite i Servizi, l
 
 ### Paesi vietati UID2
 
-Scegliendo di utilizzare gli ID universali di UID2 tramite i Servizi, l&#39;utente accetta di assicurarsi che tutti i dati client trasmessi, memorizzati, visualizzati, distribuiti o resi disponibili in altro modo tramite i Servizi on-demand per tale utilizzo in relazione agli ID universali di UID2 non si riferiscano a persone residenti in uno dei [Paesi proibiti di UID2 elencati nell&#39;Allegato A](#prohibited-countries-uid2) del presente documento.
+Scegliendo di utilizzare gli ID universali di UID2 tramite i Servizi, l&#39;utente accetta di garantire che tutti i Dati client trasmessi, memorizzati, visualizzati, distribuiti o resi disponibili in altro modo tramite i Servizi on-demand per tale utilizzo in relazione agli ID universali di UID2 non si riferiscano a persone residenti in uno qualsiasi dei [Paesi proibiti di UID2 elencati nell&#39;Allegato A](#prohibited-countries-uid2) del presente documento.
 
 ## Nessuna discriminazione
 
