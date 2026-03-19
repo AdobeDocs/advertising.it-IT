@@ -3,7 +3,7 @@ title: Sicurezza del brand e qualità dei media
 description: Ulteriori informazioni sulle funzioni di sicurezza del brand e qualità dei contenuti multimediali.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 0%
@@ -122,7 +122,7 @@ La partnership di [!DNL Adobe's] con [!DNL Adelaide] fornisce agli inserzionisti
 
 [Il targeting dell&#39;attenzione pre-offerta a livello di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md) consente agli inserzionisti di eseguire il targeting di livelli di attenzione specifici per migliorare il coinvolgimento dei clienti.
 
-Inoltre, gli inserzionisti possono abilitare il tracciamento [&#x200B; per la metrica [!UICONTROL Attention Score] di livello posizionamento](/help/dsp/campaign-management/campaigns/campaign-settings.md#attention-measurement) (la media ponderata di [!DNL Attention Units] tra le impression) per qualsiasi campagna per capire quali tattiche di posizionamento producono i migliori risultati di business.
+Inoltre, gli inserzionisti possono abilitare il tracciamento [ per la metrica [!UICONTROL Attention Score] di livello posizionamento](/help/dsp/campaign-management/campaigns/campaign-settings.md#attention-measurement) (la media ponderata di [!DNL Attention Units] tra le impression) per qualsiasi campagna per capire quali tattiche di posizionamento producono i migliori risultati di business.
 
 Per ogni funzione separata vengono applicate tariffe aggiuntive.
 

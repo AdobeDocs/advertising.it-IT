@@ -3,9 +3,9 @@ title: Posizionamenti duplicati
 description: Scopri come duplicare uno o più posizionamenti.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Duplica uno o più posizionamenti per creare posizionamenti con impostazioni sim
 * (Per i posizionamenti duplicati all’interno delle campagne originali) Duplica facoltativamente gli annunci originali
 * Modificare lo stato e le date del volo dei nuovi posizionamenti
 
-Consulta &quot;[Elementi non duplicati](#placement-not-duplicated)&quot; per un elenco delle impostazioni di posizionamento che non sono duplicate.
+Per un elenco delle impostazioni di posizionamento non duplicate, vedere &quot;[Elementi non duplicati](#placement-not-duplicated)&quot;.
 
 1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 
@@ -55,7 +55,7 @@ Consulta &quot;[Elementi non duplicati](#placement-not-duplicated)&quot; per un 
 
 1. Fare clic su **[!UICONTROL Submit]**.
 
-## Non duplicato {#placement-not-duplicated}
+## Cosa non è duplicato {#placement-not-duplicated}
 
 Tutte le impostazioni dei posizionamenti originali vengono duplicate, tranne:
 
@@ -97,7 +97,7 @@ Tutte le impostazioni dei posizionamenti originali vengono duplicate, tranne:
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sulla gestione del posizionamento](placement-about.md)
+>* [Informazioni sulla gestione dei posizionamenti in Advertising DSP](placement-about.md)
 >* [Crea un posizionamento](placement-create.md)
 >* [Modifica posizionamenti](placement-edit.md)
 >* [Visualizza il log delle modifiche per un posizionamento](placement-change-log.md)

@@ -3,9 +3,9 @@ title: Modificare un pacchetto
 description: Scopri come modificare un pacchetto.
 feature: DSP Packages
 exl-id: 88fbbb46-0150-4ff7-838f-ea00aead529e
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
@@ -24,10 +24,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sulla gestione dei pacchetti](package-about.md)
->* [Verifica e modifica impostazioni pacchetto tramite bulksheet](/help/dsp/campaign-management/packages/package-qa.md)
->* [Crea pacchetto](package-create.md)
+>* [Informazioni sulla gestione dei pacchetti in Advertising DSP](package-about.md)
+>* [Rivedere e modificare le impostazioni del pacchetto utilizzando i bulksheet](/help/dsp/campaign-management/packages/package-qa.md)
+>* [Crea un pacchetto](package-create.md)
 >* [Duplica pacchetto](package-duplicate.md)
->* [Visualizza il log delle modifiche per un pacchetto](package-change-log.md)
->* [Sospendi o attiva un pacchetto](package-pause-activate.md)
+>* [Visualizza il registro delle modifiche per un pacchetto](package-change-log.md)
+>* [Sospendere o attivare un pacchetto](package-pause-activate.md)
 >* [Impostazioni pacchetto](package-settings.md)

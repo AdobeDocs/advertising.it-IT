@@ -3,9 +3,9 @@ title: Duplicare un pacchetto
 description: Scopri come duplicare un pacchetto.
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Duplica un pacchetto per creare un pacchetto con impostazioni simili. È possibi
 
 * Modifica le date di volo del nuovo pacchetto
 
-Consulta &quot;[Elementi non duplicati](#package-not-duplicated)&quot; per un elenco delle impostazioni di posizionamento che non sono duplicate.
+Per un elenco delle impostazioni di posizionamento non duplicate, vedere &quot;[Elementi non duplicati](#package-not-duplicated)&quot;.
 
 1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 
@@ -94,8 +94,8 @@ Tutte le impostazioni dei posizionamenti originali vengono duplicate, tranne:
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sulla gestione dei pacchetti](package-about.md)
->* [Crea pacchetto](package-create.md)
+>* [Informazioni sulla gestione dei pacchetti in Advertising DSP](package-about.md)
+>* [Crea un pacchetto](package-create.md)
 >* [Modifica pacchetto](package-edit.md)
->* [Visualizza il log delle modifiche per un pacchetto](package-change-log.md)
+>* [Visualizza il registro delle modifiche per un pacchetto](package-change-log.md)
 >* [Impostazioni pacchetto](package-settings.md)
