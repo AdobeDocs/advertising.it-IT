@@ -53,4 +53,4 @@ ht-degree: 11%
    + [ID di Adobe Advertising utilizzati da Customer Journey Analytics](/help/integrations/customer-journey-analytics/ids.md)
    + [Impostare la raccolta dati, il trasferimento dati e il reporting](/help/integrations/customer-journey-analytics/set-up.md)
    + [Metriche e dimensioni di Adobe Advertising in Customer Journey Analytics](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
-+ [Esercitazioni video sulle integrazioni Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)
++ [Esercitazioni video sulle integrazioni Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=it)

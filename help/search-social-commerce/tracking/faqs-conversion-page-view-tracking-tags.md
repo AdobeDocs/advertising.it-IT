@@ -27,7 +27,7 @@ Quanto segue si applica ai tag di tracciamento delle conversioni e ai tag di tra
 >[!NOTE]
 >
 >* Tutte le nuove implementazioni utilizzano JavaScript versione 3.
->* Il tag JavaScript con ECID utilizza il servizio [Adobe Experience Cloud ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html), nonché i precedenti ef_id e gsurferid per misurare le conversioni. Questo tag più recente crea [cookie s_ecid di prime parti di Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html) e fornisce un&#39;integrazione più stretta con altri prodotti Experience Cloud.
+>* Il tag JavaScript con ECID utilizza il servizio [Adobe Experience Cloud ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=it), nonché i precedenti ef_id e gsurferid per misurare le conversioni. Questo tag più recente crea [cookie s_ecid di prime parti di Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=it) e fornisce un&#39;integrazione più stretta con altri prodotti Experience Cloud.
 >* Utilizza i tag di JavaScript versione 2 solo quando sono già implementati nelle pagine web dell’inserzionista.
 >* La best practice prevede l’utilizzo di tag JavaScript invece dei tag immagine, a meno che il sito non preveda una policy che ne impedisca l’utilizzo.
 >* I tag JavaScript sono necessari per gli inserzionisti che desiderano eseguire il targeting dei tipi di pubblico creati in Adobe Experience Cloud, creati in Adobe Audience Manager o pubblicati in Adobe Experience Cloud da Audience Manager o Adobe Analytics.
