@@ -3,7 +3,7 @@ title: Personalizzare le visualizzazioni dati
 description: Scopri come personalizzare i dati all’interno di ciascuna delle visualizzazioni disponibili.
 feature: Creative Introduction
 exl-id: 5255e0e4-a7f8-41d2-9b38-0e276dc1f3f0
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
@@ -32,7 +32,8 @@ Quando passi dalla vista a schede alla vista a tabella, i filtri e le selezioni 
 
 ![Esempio di visualizzazione tabella](/help/creative/assets/table-view-example.png "Esempio di visualizzazione tabella")
 
-<!-- not implemented as of 11-26:
+<!--
+ not implemented as of 11-26:
 In card view, you can increase or decrease the size of the cards.
 
 In either view, you can:
@@ -54,7 +55,8 @@ Refresh the pane to see any changes that other users have made.
 
 * **[!UICONTROL Experiences]:** stati specifici (*Live*, *Draft*, *Elaborazione*) ed etichette associate
 
-<!-- Only available to non-admin users in Phase 1
+<!--
+ Only available to non-admin users in Phase 1
 
 * **[!UICONTROL Feeds] > [!UICONTROL Catalog]:** Specific library [??? different than the statuses for the Template tab, which I'd expect to show something different anyway] statuses (*Active*, *Inactive*, *Deleted*)
 

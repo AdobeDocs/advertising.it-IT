@@ -4,7 +4,7 @@ description: Scopri le simulazioni del portfolio.
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
 exl-id: 2fbefee2-f8f7-4b3d-a039-e1ca0236c61a
-source-git-commit: 73528e2aa905216584d1aa294f5581d2bca88432
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 0%
@@ -17,7 +17,8 @@ ht-degree: 0%
 
 I rapporti di simulazione mostrano il valore marginale stimato del costo per obiettivo, il costo, il numero di clic e il valore obiettivo che è possibile aspettarsi per un portfolio a vari livelli di spesa (costo) e i budget giornalieri corrispondenti o altri obiettivi. Facoltativamente, è possibile [personalizzare la visualizzazione](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) per visualizzare metriche di traffico aggiuntive, impostazioni di simulazione e solo un tipo di simulazione specifico ([!UICONTROL Weekly] o [!UICONTROL Custom]).
 
-<!-- Not available as of 6/21/25:
+<!--
+ Not available as of 6/21/25:
 When the portfolio has a daily budget, you can optionally change the portfolio's spend target to any of the spend targets listed in the simulation.
 -->
 

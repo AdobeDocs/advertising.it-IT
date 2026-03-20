@@ -3,7 +3,7 @@ title: Duplicare le creatività
 description: Scopri come duplicare i creativi in una libreria creativa.
 feature: Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: ec6ce2f5-fe2e-4c95-b0d9-dc09f3ce55c4
-source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 0%
@@ -36,7 +36,8 @@ Duplica i creativi per aggiungere nuovi creativi con le stesse impostazioni alla
 
    I nuovi creativi sono denominati `<original name> (copy) # 1` (o il numero successivo nella sequenza). Ad esempio, se effettui due duplicati di &quot;Immagine di prova&quot;, i duplicati sono denominati &quot;Immagine di prova (copia) n. 1&quot; e &quot;Immagine di prova (copia) n. 2&quot;.
 
-<!-- Add to TOC later when this feature is available to users:
+<!--
+ Add to TOC later when this feature is available to users:
 
 >* [Edit dynamic creatives](creative-edit-dynamic.md)
 >* [Dynamic ad settings](creative-settings-dynamic.md)

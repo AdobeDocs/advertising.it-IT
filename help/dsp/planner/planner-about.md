@@ -3,7 +3,7 @@ title: Informazioni sullo strumento DSP [!UICONTROL Planner]
 description: Scopri lo strumento di pianificazione per prevedere la portata unica dei posizionamenti di TV connesse (CTV) in base al budget e ai criteri di targeting specificati.
 feature: DSP Planner
 exl-id: b25d4ac5-e85f-4a38-8765-6c5261987668
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 0%
@@ -70,6 +70,8 @@ Il planner genera previsioni basate sui dati osservati più di recente, pertanto
 +++Posso salvare l&#39;output di previsione del planner?
 
 Sì, è possibile esportare una previsione in un foglio di calcolo [!DNL Microsoft Excel] facendo clic su **[!UICONTROL ...]** > **[!UICONTROL Export]** in alto a destra. Il foglio di calcolo acquisisce le informazioni visualizzate nella curva del budget REACH utilizzando due colonne di dati: [!UICONTROL Budget] e [!UICONTROL Reach].
+
++++
 
 >[!MORELIKETHIS]
 >

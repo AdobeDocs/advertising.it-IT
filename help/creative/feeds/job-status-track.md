@@ -2,7 +2,8 @@
 title: Tracciare lo stato dei processi di elaborazione del catalogo
 description: Scopri come caricare e gestire il file di risorse per un inserzionista.
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+exl-id: 90593f80-cade-4fef-9dd6-d655291077d1
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -13,7 +14,8 @@ ht-degree: 0%
 
 Visualizzare lo stato dei processi di elaborazione del catalogo. Se si verificano errori durante l&#39;elaborazione, la colonna [!UICONTROL Failed Count] indica il numero di righe con un problema.
 
-<!-- Validate and reword:
+<!--
+ Validate and reword:
 
 By clicking on "View Failure" on the right, you can see further details about the error. The most common errors are "Image processing error" where there is a missing image asset, or "Duplicate partnum" where the unique column has a non-unique name that is referenced in another feed or within the same feed file.
 

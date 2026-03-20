@@ -3,7 +3,7 @@ title: Specifiche creative di HTML5
 description: Consulta le specifiche creative di HTML5 per Advertising Creative.
 feature: Creative Standard Creatives
 exl-id: 06d29442-d688-4fb8-ad6f-cba0a897fde0
-source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 1%
@@ -18,7 +18,8 @@ Questo documento descrive i requisiti e il supporto API per i creativi HTML5 in 
 
 [!DNL Creative] supporta i banner HTML5 con creativi non rich media visualizzati all&#39;interno dei bordi impostati su una pagina. È possibile utilizzare i seguenti tipi di creatività HTML5:
 
-<!--Remove to simplify:
+<!--
+Remove to simplify:
 
 * **Simple HTML5:** Supports a single landing page URL that can be configured during creative creation and trafficking.
 
@@ -52,7 +53,8 @@ Il file HTML principale e nessun altro file deve contenere un riferimento al fil
 
 Questo file contiene funzioni per garantire che il test locale degli eventi di uscita avvenga senza problemi.
 
-<!-- Remove to simplify:
+<!--
+ Remove to simplify:
 
 ### Simple HTML5 creative requirements
 
@@ -72,7 +74,8 @@ var clickTag = “http://www.example.com”;
 
 -->
 
-<!-- Renamed to simplify:
+<!--
+ Renamed to simplify:
 ### Static HTML5 creative requirements
 -->
 

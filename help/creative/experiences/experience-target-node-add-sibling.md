@@ -3,7 +3,7 @@ title: Aggiungere un nodo di destinazione di pari livello tra i nodi di un’esp
 description: Scopri come aggiungere un nodo di pari livello a qualsiasi nodo che ha una destinazione o si trova allo stesso livello di un nodo con una destinazione.
 feature: Creative Experiences
 exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -16,7 +16,8 @@ ht-degree: 0%
 
 È possibile aggiungere un nodo di pari livello a qualsiasi nodo che ha una destinazione o si trova allo stesso livello di un nodo con una destinazione.
 
-<!-- 1. Open the decision tree:
+<!--
+ 1. Open the decision tree:
 
 In a new experience
 

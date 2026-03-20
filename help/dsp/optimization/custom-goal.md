@@ -3,7 +3,7 @@ title: Obiettivi personalizzati
 description: Scopri gli obiettivi personalizzati per definire gli eventi di successo in pacchetti ottimizzati per il CPA più basso o il ROAS più alto.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 0%
@@ -14,7 +14,8 @@ ht-degree: 0%
 
 Gli obiettivi personalizzati definiscono gli eventi di successo necessari a un inserzionista per raggiungere i suoi obiettivi aziendali. Ogni pacchetto che utilizza l&#39;obiettivo di ottimizzazione &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] o &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; deve includere un obiettivo personalizzato per consentire il raggiungimento dell&#39;obiettivo di ottimizzazione complessivo. Puoi creare obiettivi personalizzati come *obiettivi* in [!DNL Advertising Search, Social, & Commerce]. Il nome di ciascun obiettivo per DSP deve essere preceduto dal prefisso &quot;ADSP_&quot;.
 
-<!-- update image or omit it
+<!--
+ update image or omit it
 
 ![custom goals](/help/dsp/assets/objective-goals.png)
  -->
@@ -78,7 +79,8 @@ Gli esempi seguenti mostrano come configurare obiettivi per il targeting di una 
 
 Se l&#39;obiettivo della campagna è il ricavo ([!UICONTROL Highest Return on Ad Spend (ROAS)]) e il ricavo da tutti i tipi di dispositivi è ugualmente importante per te, includi la metrica &quot;[!UICONTROL Revenue]&quot; con un peso non mobile di uno (1); il peso del dispositivo mobile viene ignorato. Selezionare il tipo di metrica *[!UICONTROL Goal]*.
 
-<!-- update image or delete 
+<!--
+ update image or delete 
 
 ![example of a ROAS custom goal with a single conversion metric](/help/dsp/assets/custom-goal-roas.png)
 
@@ -92,7 +94,8 @@ Se l&#39;obiettivo della campagna è il ricavo ([!UICONTROL Highest Return on Ad
 
 Se l&#39;obiettivo della campagna è il costo più basso per acquisizione (CPA) e richiede un solo evento di successo (ad esempio &quot;Invio applicazione&quot;), includi quella metrica e specifica il tipo di metrica *[!UICONTROL Goal]*. La best practice prevede di impostare il peso del dispositivo non mobile su uno (1); il peso del dispositivo mobile viene ignorato.
 
-<!-- update image or delete 
+<!--
+ update image or delete 
 
 ![example of a CPA custom goal with a single conversion metric](/help/dsp/assets/custom-goal-roas.png)
 
@@ -108,7 +111,8 @@ Esistono due scenari in cui puoi utilizzare più metriche in un obiettivo person
 
 * L’obiettivo della campagna prevede più eventi di successo. Ad esempio, puoi promuovere più di un’azione nel sito (Download da PDF, Contattaci e Iscrizione e-mail) e tutte le azioni contribuiscono al tuo obiettivo CPA. Se l&#39;obiettivo include le tre metriche separate, ciascuna con un peso non mobile di uno (1), l&#39;algoritmo basato su [!DNL Adobe AI] tratta ciascuna metrica e ciascun tipo di dispositivo utente con la stessa importanza. Se le diverse metriche hanno costi o importanza diversi, puoi regolare di conseguenza i loro pesi relativi.
 
-<!-- update image or delete it and adjust the wording above
+<!--
+ update image or delete it and adjust the wording above
 
    ![example of a custom goal with multiple metrics](/help/dsp/assets/custom-goal-multiple-properties.png)
 
@@ -120,7 +124,8 @@ Esistono due scenari in cui puoi utilizzare più metriche in un obiettivo person
 
   L’obiettivo dell’esempio seguente include tre metriche, ciascuna con un peso non mobile diverso: invio applicazione = 1, inizio applicazione = 0.1 e pagina di destinazione inserzionista = 0.01. Ciò significa che ogni conversione Invio applicazione ha lo stesso valore per la tua azienda come media di 10 conversioni di Avvio applicazione e 100 conversioni di Pagina di destinazione inserzionista.
 
-<!-- update image or delete it and adjust the wording above
+<!--
+ update image or delete it and adjust the wording above
 
    ![example of a custom goal with multiple metrics](/help/dsp/assets/custom-goal-multiple-properties2.png)
 

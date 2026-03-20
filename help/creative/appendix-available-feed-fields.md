@@ -3,7 +3,7 @@ title: Campi disponibili per i file di feed di annunci dinamici
 description: Scopri i campi che puoi includere nei file di feed utilizzati per creare annunci dinamici.
 feature: Creative Dynamic Creatives
 exl-id: 9cd3fa29-d4db-4e9f-9ffd-87b44b62a3e2
-source-git-commit: 5bf0474f49160775d31dff0d434ba1e069f27959
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%
@@ -16,7 +16,8 @@ I seguenti campi di feed sono disponibili nel backend di Advertising Creative. P
 
 L&#39;unico campo che deve avere un equivalente nel file di feed è `PART_NUM`.
 
-<!-- Questions:
+<!--
+ Questions:
 
 What are these?
 Rank

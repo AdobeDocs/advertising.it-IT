@@ -3,7 +3,7 @@ title: Impostazioni di annunci di testo e modelli di annunci di ricerca responsi
 description: Fai riferimento alle impostazioni per annunci di testo e modelli di annunci di ricerca responsive per feed di inventario.
 exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
-source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '3360'
 ht-degree: 0%
@@ -109,7 +109,9 @@ Se non viene trovata alcuna corrispondenza, tutti i dati della campagna vengono 
 
   ([!DNL Google Ads] campagne) Per includere le offerte sulle inserzioni per i partner di ricerca [!DNL Google Ads], seleziona la casella di controllo accanto a **[!UICONTROL Search partners]**.
 
-* *[!UICONTROL Content]:* per inserire offerte per posizionamenti su contenuto (visualizzazione) elenchi di rete. **Nota:** non è possibile creare posizionamenti utilizzando il modello. Quando selezioni questa opzione, crea posizionamenti per ogni gruppo di annunci e specifica le pagine della rete di visualizzazione da targetizzare per ogni gruppo di annunci utilizzando i bulksheet <!-- insert link --> o le impostazioni del gruppo di annunci <!-- insert links --> e del posizionamento nelle viste [!UICONTROL Search] > [!UICONTROL Campaigns].
+* *[!UICONTROL Content]:* per inserire offerte per posizionamenti su contenuto (visualizzazione) elenchi di rete. **Nota:** non è possibile creare posizionamenti utilizzando il modello. Quando selezioni questa opzione, crea posizionamenti per ciascun gruppo di annunci e specifica le pagine della rete di visualizzazione da targetizzare per ciascun gruppo di annunci utilizzando i bulksheet o le impostazioni del gruppo di annunci e del posizionamento nelle viste [!UICONTROL Search] > [!UICONTROL Campaigns].
+
+<!-- insert links above -->
 
 **[!UICONTROL Languages]:** ([!DNL Google Ads] cerca e visualizza solo le reti) Una o più lingue di destinazione per gli annunci nella campagna.
 
@@ -239,7 +241,7 @@ I campi dati nel file di feed possono contenere un massimo di 25 caratteri e pos
 
 **[!UICONTROL Param 3]:** ([!DNL Microsoft Advertising] solo modelli) Stringa da utilizzare come valore di sostituzione in un annuncio se il titolo, il testo, l&#39;URL di visualizzazione o l&#39;URL finale contiene la stringa di sostituzione dinamica `{Param3}`. La lunghezza massima è di 70 caratteri, ma tieni presente la lunghezza massima degli elementi dell’annuncio in cui lo utilizzi (ad esempio, un titolo dell’annuncio può includere fino a 25 caratteri).
 
-**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** L&#39;offerta iniziale per ogni parola chiave con il tipo di corrispondenza o di annuncio specificato.
+**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** L&#39;offerta iniziale per ogni parola chiave con il tipo di corrispondenza o di annuncio specificato.
 
 ## [!UICONTROL Ads]
 
@@ -321,7 +323,7 @@ Per gli annunci di ricerca responsive, inserire un adcustomizzatore di annunci u
 
 **[!UICONTROL Base URL]:** (solo account con URL di destinazione) Pagina alla quale vengono indirizzati gli utenti. Può includere codice di reindirizzamento e tracciamento di terze parti. Se utilizzi il servizio di monitoraggio delle conversioni di Adobe Advertising e le impostazioni della campagna includono l&#39;utilizzo di [!UICONTROL EF Redirect] e l&#39;aggiunta del monitoraggio a livello di annuncio, Search, Social e Commerce aggiungono automaticamente il proprio codice di reindirizzamento e tracciamento all&#39;annuncio.
 
-Per inserire un nome di colonna o un gruppo di modificatori come parametro dinamico, fare clic nel campo di input e quindi fare clic su un nome di colonna nell&#39;elenco delle colonne o su un nome di modificatore [&#128279;](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) nell&#39;elenco [!UICONTROL Modifiers].
+Per inserire un nome di colonna o un gruppo di modificatori come parametro dinamico, fare clic nel campo di input e quindi fare clic su un nome di colonna nell&#39;elenco delle colonne o su un nome di modificatore [](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) nell&#39;elenco [!UICONTROL Modifiers].
 
 **[!UICONTROL Final URL]:** (account con URL finali/avanzati) URL della pagina di destinazione a cui gli utenti vengono indirizzati quando fanno clic sull&#39;annuncio. Deve includere lo stesso dominio dell’URL di visualizzazione e tutti i parametri nell’URL finale devono corrispondere a quelli nell’URL della pagina di destinazione dopo il clic dell’annuncio. Può contenere reindirizzamenti all’interno del dominio o del sottodominio della pagina di destinazione, ma non reindirizzamenti all’esterno del dominio della pagina di destinazione.
 

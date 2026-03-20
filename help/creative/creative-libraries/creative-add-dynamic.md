@@ -3,7 +3,7 @@ title: Aggiungere creatività dinamica a una libreria creativa
 description: Scopri come aggiungere creatività dinamica a una libreria creativa.
 feature: Creative Dynamic Creatives
 exl-id: 26162314-bdaa-4d1c-b0c2-696ec6dbb138
-source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 0%
@@ -18,7 +18,8 @@ Aggiungi creatività dinamica alle [librerie creative](creative-library-manage.m
 >
 >Prima di poter aggiungere elementi creativi dinamici a una libreria creativa, è necessario completare altri passaggi, tra cui la creazione di un modello di annuncio, il caricamento di risorse e la creazione di un modello di feed e un catalogo (annunci HTML5 dinamici). Consulta &quot;[Flussi di lavoro per annunci dinamici](/help/creative/introduction/workflow-dynamic-ads.md).&quot;
 
-<!-- This does't work for me 9/24 -- I still have to select a catalog:
+<!--
+ This does't work for me 9/24 -- I still have to select a catalog:
 
 ## Add dynamic creatives using a static HTML5 ad template
 

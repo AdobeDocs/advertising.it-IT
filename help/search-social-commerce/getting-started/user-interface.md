@@ -3,7 +3,7 @@ title: Organizzazione dell’interfaccia utente
 description: Scopri dove accedere a diverse funzionalità.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 5c979728f4582b56a2d813fd23cd74cbfa25be14
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1318'
 ht-degree: 0%
@@ -108,7 +108,8 @@ Il tuo ruolo determina le opzioni disponibili:<!-- add link when available -->
 
    * **[!UICONTROL Accounts]**: esce dal nuovo sito e apre la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
 
-<!-- What's happenening to these?
+<!--
+ What's happenening to these?
 
 Campaigns > ACM
 Campaigns > Bulksheets

@@ -3,7 +3,7 @@ title: Impostazioni gruppo di prodotti [!DNL Google Ads]
 description: Fai riferimento alle impostazioni per  [!DNL Google Ads] gruppi di prodotti acquisti.
 exl-id: 2cfef9de-b265-4fa5-b1bd-84e6cba79914
 feature: Search Campaign Management
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -38,7 +38,8 @@ Per un elenco delle dimensioni di prodotto disponibili, consulta &quot;[Filtri d
 
 <!-- **[!UICONTROL Tracking Template]:** -->
 
-<!-- ExL can't handle the same include twice in the same file, so using a snippet for the second occurrence.
+<!--
+ ExL can't handle the same include twice in the same file, so using a snippet for the second occurrence.
 
 {{$include /help/_includes/tracking-template-google.md}}
 -->

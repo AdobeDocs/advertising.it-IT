@@ -5,7 +5,7 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -96,7 +96,8 @@ Utilizza l’agente del pubblico assistito da AI per generare nuovi tipi di pubb
 
 Consulta &quot;[Best practice per la creazione di una descrizione del pubblico](#audience-brief-best-practices)&quot; per ulteriori modi per ottimizzare i prompt per i tipi di pubblico.
 
-<!-- I think these are happening later:
+<!--
+ I think these are happening later:
 
 DSP uses "smart" defaults based on the user's previous audiences (all user-created audiences or only ones created via AI prompting?)
 
@@ -147,7 +148,8 @@ Un resoconto del pubblico è un resoconto strategico che definisce il pubblico t
 
 Includi il maggior numero possibile di tipi di attributi di pubblico dall’elenco seguente nella tua descrizione. Specifica gli attributi da escludere.
 
-<!-- What about these:
+<!--
+ What about these:
 
 * Device specifications
 * Presence in audiences from specific third-party data providers

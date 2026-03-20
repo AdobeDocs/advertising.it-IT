@@ -4,7 +4,7 @@ user-guide-title: Supporto di Adobe Advertising per la privacy dei consumatori
 user-guide-description: Scopri i controlli di sicurezza e di privacy forniti da Adobe Advertising per aiutare i clienti inserzionisti a rispettare le normative sulla privacy dei consumatori.
 breadcrumb-title: Supporto per la privacy del consumatore
 index: true
-source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 31%
