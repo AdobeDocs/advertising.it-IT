@@ -3,7 +3,7 @@ title: Impostazioni creative dinamiche
 description: Fai riferimento alle impostazioni per i contenuti creativi dinamici.
 feature: Creative Dynamic Creatives
 exl-id: 9dcd7245-fa02-4082-9abb-8c0792322a68
-source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
@@ -58,7 +58,7 @@ I cataloghi caricati devono essere in formato ZIP e contenere quanto segue:
 
 ### [!UICONTROL Attributes Mapping]
 
-**[!UICONTROL Enable targeting]**: <!-- "targeting options/filters," but I don't think this means user targeting since that is set in the experience/ad on DSP -->Tipi di colonne nel file di feed per i quali devono essere presenti valori per creare annunci: *[!UICONTROL Profile data]*, *[!UICONTROL Geographic data], *[!UICONTROL Data pass], *[!UICONTROL Audience Segment]*.  **Nota:** queste impostazioni funzionano in modo indipendente dalle impostazioni avanzate nelle impostazioni dell&#39;esperienza pubblicitaria.<!-- Clarify what qualifies for each, and explain more -->
+**[!UICONTROL Enable targeting]**: i tipi di colonne nel file di feed per i quali devono essere presenti valori per creare annunci: *[!UICONTROL Profile data]*, *[!UICONTROL Geographic data], *[!UICONTROL Data pass], *[!UICONTROL Audience Segment]*.  **Nota:** queste impostazioni funzionano in modo indipendente dalle impostazioni avanzate nelle impostazioni dell&#39;esperienza pubblicitaria.<!-- Clarify what qualifies for each, and explain more -->
 
 **[!UICONTROL Dynamic Ad Fields]** / **[!UICONTROL Maps to Catalog Labels]:**
 

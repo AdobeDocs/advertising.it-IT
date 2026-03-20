@@ -2,9 +2,10 @@
 title: Gestire i modelli di annunci dinamici
 description: Scopri come gestire i modelli di annunci dinamici e creare annunci da essi.
 feature: Creative Templates
-source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
+exl-id: 248f1467-ebd3-47f2-a24c-043bbfadcc6e
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -57,7 +58,7 @@ Crea un modello di annuncio separato per ogni combinazione di tipo di annuncio (
 
 1. Posizionare il cursore sulla riga del modello di annuncio e fare clic su **[!UICONTROL Delete]**.
 
-1. Nel messaggio di conferma, fare clic su **[!UICONTROL Delete]**.<!-- Confirm -->
+1. Nel messaggio di conferma, fare clic su **[!UICONTROL Delete]**.
 
 ## Creare annunci dinamici da un modello di annuncio
 
@@ -87,13 +88,9 @@ Crea un modello di annuncio separato per ogni combinazione di tipo di annuncio (
 
 **[!UICONTROL Description]**: (facoltativo) informazioni utili per chiunque utilizzi il modello di annuncio.
 
-<!-- I don't see this on 9/24:
+### (Modelli di annunci HTML5 statici) Fai clic sui tag
 
-### (Static HTML5 ad templates) Click Tags
-
-**\[Click Tag Parameter\]**: The click tag parameters to allow click-tracking redirects from ads created using the ad template. To add a parameter, click **[!UICONTROL + Add More]** and enter an additional parameter. You can include up to five parameters.
-
--->
+**\[Click Tag Parameter\]**: i parametri dei tag di clic per consentire i reindirizzamenti di tracciamento dei clic dagli annunci creati utilizzando il modello di annuncio. Per aggiungere un parametro, fare clic su **[!UICONTROL + Add More]** e immettere un parametro aggiuntivo. Puoi includere fino a cinque parametri.
 
 ### zip HTML5
 
@@ -109,9 +106,7 @@ Per caricare un file:
 
 ### (Modelli di annunci Dynamic HTML5) File di attributi
 
-<!-- EXPLAIN -->Un file che contiene gli attributi per il modello di annuncio. Se hai già caricato un file, viene elencato il nome del file.
-
-<!-- Add specs for this file type -->
+<!-- EXPLAIN and ad specs below for this file type -->Un file che contiene gli attributi per il modello di annuncio. Se hai già caricato un file, viene elencato il nome del file.
 
 Per caricare un file:
 
@@ -126,4 +121,3 @@ Per caricare un file:
 >* [Gestisci modelli di feed](/help/creative/feeds/feed-template-manage.md)
 >* [Gestisci cataloghi](/help/creative/feeds/catalog-manage.md)
 >* [Aggiungere elementi creativi dinamici a una libreria creativa](/help/creative/creative-libraries/creative-add-dynamic.md)
-

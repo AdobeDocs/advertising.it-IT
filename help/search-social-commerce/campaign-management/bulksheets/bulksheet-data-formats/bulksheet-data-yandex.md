@@ -3,7 +3,7 @@ title: Dati bulksheet richiesti per  [!DNL Yandex]  account
 description: Fai riferimento ai campi di intestazione e ai campi dati obbligatori nei bulksheet per  [!DNL Yandex]  account.
 exl-id: bf5a22dd-75c2-486d-85fd-e042bdb87de3
 feature: Search Bulksheets
-source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
 source-wordcount: '1940'
 ht-degree: 0%
@@ -15,16 +15,6 @@ ht-degree: 0%
 Per creare e aggiornare in blocco i dati della campagna [!DNL Yandex], è possibile utilizzare i file di bulksheet di Search, Social e Commerce formattati specificamente per gli account [!DNL Yandex]. È possibile: a) [generare file di fogli collettivi per gli account esistenti](../bulksheet-download.md) nel formato di file richiesto oppure b) crearli manualmente (vedere &quot;[Formati di file di fogli collettivi supportati](bulksheet-file-formats.md)&quot; per informazioni generali sui formati di file supportati).
 
 {{$include /help/_includes/bulksheet-appendices-intro.md}}
-
-<!-- Hiding because this is probably too long a list to be useful.
-
-## Available header fields
-
-Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Method,Ad Group Name,Ad Title,Ad Description,Base URL,Destination URL,SiteLink Title,SiteLink Base URL,SiteLink Destination URL,Keyword,Max CPC,Match Type,Search Network Status,Content Network Status,Negative Keywords (Yandex),Param1 (Yandex),Param2 (Yandex),Campaign Status,Ad Group Status,Ad Status,Keyword Status,SiteLink Status,Campaign ID,Ad Group ID, Ad ID,Keyword ID,AMO ID, [Advertiser-specific Label Classification],Constraints,EF Error Message
-
-{{$include /help/_includes/bulksheet-headers-note.md}}
-
--->
 
 ## Campi dati disponibili
 
@@ -62,7 +52,7 @@ Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Me
 | [!UICONTROL Ad Group Status] | n/d | Facoltativo: Crea o modifica<br>Obbligatorio: elimina | n/d | n/d | n/d | Stato di visualizzazione del gruppo di annunci: <i>[!UICONTROL active]</i>, <i>[!UICONTROL archived]</i>, <i>[!UICONTROL deleted]</i>, <i>[!UICONTROL disapproved]</i>, <i>[!UICONTROL pending]</i> o <i>[!UICONTROL stop]</i> (in pausa). Il valore predefinito per i nuovi gruppi di annunci è <i>[!UICONTROL active]</i>.<br><br><b>Note:</b><ul></li>Se un gruppo di annunci è già stato attivo, non puoi eliminarlo. Piuttosto, archivialo.</li><li>Non è possibile impostare manualmente lo stato su <i>[!UICONTROL disapproved]</i> o <i>[!UICONTROL pending]</i> né modificare tali stati.</li></ul> |
 | [!UICONTROL Ad Status] | n/d | n/d | n/d | Facoltativo: Crea o modifica<br>Obbligatorio: elimina | n/d | Stato di visualizzazione del banner (annuncio): <i>[!UICONTROL active]</i>, <i>[!UICONTROL archived]</i>, <i>[!UICONTROL deleted]</i>, <i>[!UICONTROL disapproved]</i>, <i>[!UICONTROL pending]</i> o <i>[!UICONTROL stop]</i> (in pausa). Il valore predefinito per i nuovi banner è <i>[!UICONTROL active]</i>.<br><br><b>Nota: non è possibile impostare manualmente lo stato su <i>[!UICONTROL disapproved]</i> o <i>[!UICONTROL pending]</i>, né modificare tali stati. |
 | [!UICONTROL Keyword Status] | n/d | n/d | Facoltativo: Crea o modifica<br>Obbligatorio: elimina | n/d | n/d | Stato di visualizzazione della frase (parola chiave): <i>[!UICONTROL active]</i>. Il valore predefinito per le nuove frasi è <i>[!UICONTROL active]</i>.<br><br><b>Nota: non è possibile impostare manualmente lo stato su <i>[!UICONTROL disapproved]</i> o <i>[!UICONTROL pending]</i>, né modificare tali stati. |
-| [!UICONTROL SiteLink Status] | n/d | n/d | n/d | n/d | Facoltativo: Crea o modifica<br>Obbligatorio: elimina | Stato di visualizzazione del sitelink: <i>[!UICONTROL * Attivo]</i> o <i>[!UICONTROL * In pausa]</i>. Il valore predefinito per i nuovi sitelink è <i>[!UICONTROL * Active]</i>. |
+| [!UICONTROL SiteLink Status] | n/d | n/d | n/d | n/d | Facoltativo: Crea o modifica<br>Obbligatorio: elimina | Stato di visualizzazione del sitelink: <i>[*UICONTROL Attivo]</i> o <i>[*UICONTROL In pausa]</i>. Il valore predefinito per i nuovi sitelink è <i>[*UICONTROL Active]</i>. |
 | [!UICONTROL Campaign ID] | n/d: Create<br>Obbligatorio/Facoltativo: Edit<br>Facoltativo: Delete | Facoltativo | Facoltativo | Facoltativo | Facoltativo | L’ID univoco che identifica una campagna esistente. Nei file CSV e TSV deve essere preceduto da virgolette singole (&#39;).[^1] Richiesto solo quando si modifica il nome della campagna, a meno che la riga non includa un AMO ID per la campagna. |
 | [!UICONTROL Ad Group ID] | n/d | n/d: Create<br>Obbligatorio/Facoltativo: Edit<br>Facoltativo: Delete | Facoltativo | Facoltativo | n/d | L’ID univoco che identifica un gruppo di annunci esistente. Nei file CSV e TSV deve essere preceduto da virgolette singole (&#39;).[^1] Richiesto solo quando si modifica il nome del gruppo di annunci, a meno che la riga non includa un AMO ID per il gruppo di annunci. |
 | [!UICONTROL Ad ID] | n/d | n/d | n/d | n/d: Create<br>Obbligatorio/Facoltativo: Edit or delete | n/d | ID univoco che identifica una parola chiave esistente. Nei file CSV e TSV deve essere preceduto da virgolette singole (&#39;).[^1] Obbligatorio solo quando si modifica il nome della parola chiave, a meno che la riga non includa a) colonne di proprietà sufficienti per identificare la parola chiave o b) un AMO ID. |
