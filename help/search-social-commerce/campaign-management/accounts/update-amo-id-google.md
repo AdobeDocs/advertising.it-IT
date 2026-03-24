@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Solo *[!DNL Google Ads]account*
 
-Il formato legacy (precedente a ottobre 2019) per il [codice di tracciamento AMO ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) per gli account [!DNL Google Ads] esistenti non supporta alcune funzionalità in Analytics, ad esempio la generazione di rapporti a livello di campagna e di gruppo di annunci per campagne con prestazione massima [!DNL Google Ads], bozze e campagne di esperimenti e altri casi d’uso in cui la stessa combinazione di parole chiave+corrispondenza esiste in più campagne.
+Il formato legacy (precedente a ottobre 2019) per il [codice di tracciamento AMO ID](https://experienceleague.adobe.com/it/docs/analytics/components/dimensions/amo-id#dimension-items) per gli account [!DNL Google Ads] esistenti non supporta alcune funzionalità in Analytics, ad esempio la generazione di rapporti a livello di campagna e di gruppo di annunci per campagne con prestazione massima [!DNL Google Ads], bozze e campagne di esperimenti e altri casi d’uso in cui la stessa combinazione di parole chiave+corrispondenza esiste in più campagne.
 
 Il formato corrente include i parametri per l’ID della campagna e l’ID del gruppo di annunci:
 
@@ -70,4 +70,4 @@ Tutti i nuovi account [!DNL Google Ads] utilizzano automaticamente il formato AM
 >
 >* [Gestione account di rete pubblicitaria](ad-network-account-manage.md)
 >* [ID Adobe Advertising utilizzati da [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Panoramica di [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}
+>* [Panoramica di [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=it){target="_blank"}
