@@ -3,9 +3,9 @@ title: Formati di tracciamento dei clic per  [!DNL Microsoft Advertising]
 description: Scopri i formati di tracciamento dei clic per  [!DNL Microsoft Advertising]  account.
 exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
-source-git-commit: 70629247a18a78b12a7fc8b166a0272764bb20b8
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Esempio:
 >
 >* Questo formato indica che il passaggio del token è abilitato per la campagna (impostazione predefinita). Se il passaggio del token è disabilitato, sostituire `cq?` dopo `<advertiser_ID>` con `c?`.
 >
->* `{TargetId}` rappresenta l&#39;ID di a) la parola chiave o b) la parola chiave e l&#39;elenco di remarketing (pubblico) che hanno attivato l&#39;annuncio (ad esempio, &quot;kwd-123:aud-456&quot; sia per una parola chiave che per un elenco di remarketing o &quot;kwd-123&quot; solo per parola chiave).
+>* `{TargetId}` rappresenta l&#39;ID di a) la parola chiave o b) la parola chiave e l&#39;elenco di remarketing (pubblico) che hanno attivato l&#39;annuncio (ad esempio, &quot;kwd-123:aud-456&quot; per una parola chiave e un elenco di remarketing o &quot;kwd-123&quot; solo per parola chiave).
 
 ### Sitelink
 
@@ -48,7 +48,7 @@ Esempio:
 >
 >* Questo formato indica che il passaggio del token è abilitato per la campagna (impostazione predefinita). Se il passaggio del token è disabilitato, sostituire `cq?` dopo `<advertiser_ID>` con `c?`.
 >
->* `{TargetId}` rappresenta l&#39;ID di a) la parola chiave o b) la parola chiave e l&#39;elenco di remarketing (pubblico) che hanno attivato l&#39;annuncio (ad esempio, &quot;kwd-123:aud-456&quot; sia per una parola chiave che per un elenco di remarketing o &quot;kwd-123&quot; solo per parola chiave).
+>* `{TargetId}` rappresenta l&#39;ID di a) la parola chiave o b) la parola chiave e l&#39;elenco di remarketing (pubblico) che hanno attivato l&#39;annuncio (ad esempio, &quot;kwd-123:aud-456&quot; per una parola chiave e un elenco di remarketing o &quot;kwd-123&quot; solo per parola chiave).
 >
 >* `{adextensionid}` non utilizzato.
 >
@@ -70,7 +70,7 @@ Esempio:
 >
 >* Questo formato indica che il passaggio del token è abilitato per la campagna (impostazione predefinita). Se il passaggio del token è disabilitato, sostituire `cq?` dopo `<advertiser_ID>` con `c?`.
 >
->* `{TargetId}` rappresenta l&#39;ID di a) la parola chiave o b) la parola chiave e l&#39;elenco di remarketing (pubblico) che hanno attivato l&#39;annuncio (ad esempio, &quot;kwd-123:aud-456&quot; sia per una parola chiave che per un elenco di remarketing o &quot;kwd-123&quot; solo per parola chiave).
+>* `{TargetId}` rappresenta l&#39;ID di a) la parola chiave o b) la parola chiave e l&#39;elenco di remarketing (pubblico) che hanno attivato l&#39;annuncio (ad esempio, &quot;kwd-123:aud-456&quot; per una parola chiave e un elenco di remarketing o &quot;kwd-123&quot; solo per parola chiave).
 >
 >* (Facoltativo) Anziché immettere modelli di tracciamento a livello di account, campagna, gruppo di annunci o gruppo di prodotti, è possibile aggiungere l&#39;URL di tracciamento ai dati di prodotto nell&#39;account [!DNL Microsoft Merchant Center]. A questo scopo, includi l&#39;URL di tracciamento, insieme al valore nel campo &quot;`link`&quot; o &quot;`mobile_link`&quot;, a seconda dei casi, in una colonna personalizzata &quot;[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)&quot; all&#39;interno del feed del prodotto. Il valore nel campo &quot;`bingads_redirect`&quot; sostituisce i valori nei campi &quot;`link`&quot; e &quot;`mobile_link`&quot;. Gli URL generati con questo metodo non includono parametri di tracciamento specificati nelle impostazioni dell’account o della campagna Search, Social e Commerce.
 
@@ -107,4 +107,4 @@ Gli account che utilizzano il monitoraggio delle conversioni di Adobe Advertisin
 >[!MORELIKETHIS]
 >
 >* [Informazioni sui formati degli URL di tracciamento dei clic per il servizio di tracciamento conversione di Adobe Advertising](formats-click-tracking-about.md)
->* [Formati AMO ID](/help/integrations/analytics/ids.md#amo-id-formats)
+>* [Formati AMO ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)

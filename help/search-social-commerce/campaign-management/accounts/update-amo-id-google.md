@@ -3,9 +3,9 @@ title: 'Aggiorna il codice di tracciamento AMO ID (s_kwcid) per un account  [!DN
 description: Scopri come passare al codice di tracciamento AMO ID più recente per un account  [!DNL Google Ads] .
 exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Solo *[!DNL Google Ads]account*
 
-Il formato legacy (precedente a ottobre 2019) per il [codice di tracciamento AMO ID](/help/integrations/analytics/ids.md#amo-id-formats) per gli account [!DNL Google Ads] esistenti non supporta alcune funzionalità in Analytics, ad esempio la generazione di rapporti a livello di campagna e di gruppo di annunci per campagne con prestazione massima [!DNL Google Ads], bozze e campagne di esperimenti e altri casi d’uso in cui la stessa combinazione di parole chiave+corrispondenza esiste in più campagne.
+Il formato legacy (precedente a ottobre 2019) per il [codice di tracciamento AMO ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) per gli account [!DNL Google Ads] esistenti non supporta alcune funzionalità in Analytics, ad esempio la generazione di rapporti a livello di campagna e di gruppo di annunci per campagne con prestazione massima [!DNL Google Ads], bozze e campagne di esperimenti e altri casi d’uso in cui la stessa combinazione di parole chiave+corrispondenza esiste in più campagne.
 
 Il formato corrente include i parametri per l’ID della campagna e l’ID del gruppo di annunci:
 
@@ -60,7 +60,7 @@ Tutti i nuovi account [!DNL Google Ads] utilizzano automaticamente il formato AM
 
    * Quando la funzione [!UICONTROL Auto Upload]&quot; è abilitata nelle impostazioni di tracciamento, Search, Social e Commerce aggiornano automaticamente il codice di tracciamento nel suffisso della pagina di destinazione per questo account e le relative campagne. Non devi fare niente.
 
-   * Se la funzione [!UICONTROL Auto Upload] non è abilitata e non utilizzi la funzione [AMO ID lato server](/help/integrations/analytics/ids.md#amo-id-formats), devi aggiornare manualmente il parametro AMO ID nelle impostazioni Suffisso pagina di destinazione. È possibile modificare manualmente i suffissi a livello di account e campagna nelle [impostazioni account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) e [impostazioni campagna](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) oppure [caricare le modifiche in un bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md). Per configurare un suffisso a livello di gruppo di annunci o inferiore, utilizzare l&#39;editor [!DNL Google Ads].
+   * Se la funzione [!UICONTROL Auto Upload] non è abilitata e non utilizzi la funzione [AMO ID lato server](/help/integrations/analytics/ids.md#), devi aggiornare manualmente il parametro AMO ID nelle impostazioni Suffisso pagina di destinazione. È possibile modificare manualmente i suffissi a livello di account e campagna nelle [impostazioni account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) e [impostazioni campagna](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) oppure [caricare le modifiche in un bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md). Per configurare un suffisso a livello di gruppo di annunci o inferiore, utilizzare l&#39;editor [!DNL Google Ads].
 
    * Se includi l’AMO ID nell’impostazione URL di base per qualsiasi componente della campagna, spostalo nell’impostazione Suffisso pagina di destinazione pertinente.
 
@@ -70,4 +70,4 @@ Tutti i nuovi account [!DNL Google Ads] utilizzano automaticamente il formato AM
 >
 >* [Gestione account di rete pubblicitaria](ad-network-account-manage.md)
 >* [ID Adobe Advertising utilizzati da [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Panoramica di [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=it){target="_blank"}
+>* [Panoramica di [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}

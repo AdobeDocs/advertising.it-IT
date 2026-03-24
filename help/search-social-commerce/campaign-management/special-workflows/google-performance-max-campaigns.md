@@ -3,9 +3,9 @@ title: Implementa  [!DNL Google Ads]  campagne con prestazione massima
 description: Scopri il flusso di lavoro per la configurazione di  [!DNL Google Ads]  campagne con prestazione massima.
 exl-id: 4208774c-e4dd-499d-987e-933fe073c04f
 feature: Search Campaign Management
-source-git-commit: 283fced2b3faa64b6383b6ab2a41696cba0da06f
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Nelle campagne con prestazione massima di [!DNL Google Ads], non puoi impostare gruppi di annunci, annunci o parole chiave. Nelle impostazioni della campagna puoi invece specificare uno o più gruppi di risorse, che includono titoli, descrizioni e immagini caricate, loghi e [!DNL YouTube videos]. [!DNL Google Ads] combina automaticamente le risorse per distribuire annunci in base al canale (ad esempio [!DNL YouTube], [!DNL Gmail] o [!DNL Search]).
 
-Nella visualizzazione [!DNL Campaigns] è possibile visualizzare le campagne con prestazione massima esistenti, con i dati sulle prestazioni in formato tabella e grafico dell&#39;andamento. I dati non sono disponibili ai livelli inferiori. I dati sulle prestazioni a livello di campagna sono disponibili anche nei report e in Adobe Analytics (per gli inserzionisti con un&#39;integrazione di [Analytics](/help/integrations/analytics/overview.md). Per visualizzare i dati sulle prestazioni per le campagne con prestazione massima in [!DNL Analytics], la campagna deve utilizzare il [codice di tracciamento AMO ID aggiornato](/help/integrations/analytics/ids.md#amo-id-formats) (che tiene traccia dell&#39;ID della campagna e dell&#39;ID del gruppo di annunci).
+Nella visualizzazione [!DNL Campaigns] è possibile visualizzare le campagne con prestazione massima esistenti, con i dati sulle prestazioni in formato tabella e grafico dell&#39;andamento. I dati non sono disponibili ai livelli inferiori. I dati sulle prestazioni a livello di campagna sono disponibili anche nei report e in Adobe Analytics (per gli inserzionisti con un&#39;integrazione di [Analytics](/help/integrations/analytics/overview.md). Per visualizzare i dati sulle prestazioni per le campagne con prestazione massima in [!DNL Analytics], la campagna deve utilizzare il [codice di tracciamento AMO ID aggiornato](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) (che tiene traccia dell&#39;ID della campagna e dell&#39;ID del gruppo di annunci).
 
 >[!NOTE]
 >

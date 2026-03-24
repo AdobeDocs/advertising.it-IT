@@ -1,7 +1,7 @@
 ---
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,6 @@ Separa più parametri con virgole o e commerciali (&amp;). Le parentesi quadre n
 
 * Le modifiche ai parametri di aggiunta non sono controllate dall&#39;opzione [!UICONTROL Auto Upload]. Se modifichi i parametri di accodamento per gli URL di base esistenti, i nuovi URL non vengono generati automaticamente. Aggiungere i nuovi parametri scaricando un file di bulksheet per l&#39;account o la campagna, aggiornando i campi [!UICONTROL Base URL/Final URL] e quindi caricando e pubblicando il bulksheet.
 
-* (Reti di annunci con tracciamento parallelo) Evita l’utilizzo di macro, che non vengono sostituite dai clic provenienti da origini che abilitano il tracciamento parallelo. Se l’inserzionista deve utilizzare delle macro, il Team dell’account Adobe deve collaborare con l’Assistenza clienti o con il team di implementazione per aggiungerle.
+* (Reti di annunci con tracciamento parallelo) Evita l’utilizzo di macro, che non vengono sostituite dai clic provenienti da origini che abilitano il tracciamento parallelo. Se l’inserzionista deve utilizzare delle macro, il team dell’account di Adobe deve collaborare con l’Assistenza clienti o con il team di implementazione per aggiungerle.
 
-* (Per gli inserzionisti con un&#39;integrazione Adobe Advertising-Adobe Analytics) Per includere un parametro AMO ID per inviare dati di ricerca, social e Commerce a [!DNL Analytics], vedi [formati specifici per la rete di annunci](/help/integrations/analytics/ids.md#amo-id-formats). Non è necessario aggiungere manualmente il parametro per gli account [!DNL Google Ads] e [!DNL Microsoft Advertising] con un’implementazione AMO ID lato server.
+* (Inserzionisti con integrazione Adobe Advertising-Adobe Analytics) Per includere un parametro AMO ID per inviare dati di ricerca, social e Commerce a [!DNL Analytics], vedi [formati specifici per la rete di annunci](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items). Non è necessario aggiungere manualmente il parametro per gli account [!DNL Google Ads] e [!DNL Microsoft Advertising] con un’implementazione AMO ID lato server.

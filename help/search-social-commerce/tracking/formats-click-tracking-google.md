@@ -3,9 +3,9 @@ title: Formati di tracciamento dei clic per  [!DNL Google Ads]
 description: Scopri i formati di tracciamento dei clic per  [!DNL Google Ads]  account.
 exl-id: d09c3b4e-1274-45fb-abb6-dddfe60f1477
 feature: Search Tracking
-source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -70,11 +70,11 @@ Gli account che utilizzano il monitoraggio delle conversioni di Adobe Advertisin
 
 * Quando l&#39;inserzionista ha un&#39;integrazione Adobe Analytics, il suffisso deve includere uno dei seguenti elementi:
 
-   * [!DNL Google Ads] account che utilizzano il formato [AMO ID](/help/integrations/analytics/ids.md#amo-id-formats) più recente (a partire da `s_kwcid`), che supporta il reporting a livello di campagna e gruppo di annunci per campagne, bozze ed esperimenti con prestazione massima:
+   * [!DNL Google Ads] account che utilizzano il formato [AMO ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) più recente (a partire da `s_kwcid`), che supporta il reporting a livello di campagna e gruppo di annunci per campagne, bozze ed esperimenti con prestazione massima:
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     Se l&#39;account dispone di un&#39;implementazione AMO ID lato server e l&#39;impostazione account o campagna &quot;[!UICONTROL Auto Upload]&quot; è abilitata, il parametro viene aggiunto automaticamente. In caso contrario, è necessario aggiungerlo manualmente. Consulta &quot;[Adobe Advertising ID utilizzati da [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement).&quot;
+     Se l&#39;account dispone di un&#39;implementazione AMO ID lato server e l&#39;impostazione account o campagna &quot;[!UICONTROL Auto Upload]&quot; è abilitata, il parametro viene aggiunto automaticamente. In caso contrario, è necessario aggiungerlo manualmente. Consulta &quot;[Adobe Advertising ID utilizzati da [!DNL Analytics]](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id-implement).&quot;
 
    * Tutti gli altri account [!DNL Google Ads]:
 
@@ -93,4 +93,4 @@ Gli account che utilizzano il monitoraggio delle conversioni di Adobe Advertisin
 >[!MORELIKETHIS]
 >
 >* [Informazioni sui formati degli URL di tracciamento dei clic per il servizio di tracciamento conversione di Adobe Advertising](formats-click-tracking-about.md)
->* [Formati AMO ID](/help/integrations/analytics/ids.md#amo-id-formats)
+>* [Formati AMO ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)

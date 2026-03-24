@@ -3,9 +3,9 @@ title: ID Adobe Advertising utilizzati da [!DNL Analytics]
 description: ID Adobe Advertising utilizzati da [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 94a5b5591aef0aa5ae5d3459d547f52d939d559c
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
@@ -46,57 +46,63 @@ Adobe Advertising distingue tra una voce di click-through o di view-through per 
 
 L’ID EF è un token univoco utilizzato da Adobe Advertising per associare l’attività a un clic online o a un’esposizione pubblicitaria a livello di singolo browser o dispositivo. Gli ID EF fungono principalmente da chiavi per l&#39;invio di dati [!DNL Analytics] e di dati Customer Journey Analytics ad Adobe Advertising per la generazione di rapporti e l&#39;ottimizzazione delle offerte in Adobe Advertising.
 
-Per [!DNL Analytics], l&#39;ID EF è memorizzato nella dimensione [an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=it) o [!DNL rVar] (riservata [!DNL eVar]) (ID EF Adobe Advertising).
+Per [!DNL Analytics], l&#39;ID EF è memorizzato nella dimensione [an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) o [!DNL rVar] (riservata [!DNL eVar]) (ID EF Adobe Advertising).
 
-Per Customer Journey Analytics, l&#39;ID EF è memorizzato nella proprietà `trackingIdentities` dell&#39;oggetto `conversionDetails`, che fa parte di [l&#39;oggetto [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/event/advertising-full-extension).
+Per Customer Journey Analytics, l&#39;ID EF è memorizzato nella proprietà `trackingIdentities` dell&#39;oggetto `conversionDetails`, che fa parte di [l&#39;oggetto [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension).
 
 ### Formati ID EF {#ef-id-formats}
+
+Vedere i [formati per gli elementi dimensione ID EF](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id#dimension-items) nella &quot;Guida ai componenti di Adobe Analytics&quot;.
 
 >[!NOTE]
 >
 >Gli ID EF fanno distinzione tra maiuscole e minuscole. Se un&#39;implementazione di [!DNL Analytics] o Customer Journey Analytics forza il tracciamento URL in minuscolo, Adobe Advertising non riconosce l&#39;ID EF. Questo influisce sulle offerte e sul reporting di Adobe Advertising, ma non ha alcun impatto sul reporting di Adobe Advertising in [!DNL Analytics] o Customer Journey Analytics.
 
-#### [!DNL Google Ads] annunci di ricerca
+<!-- Legacy content:
+
+#### [!DNL Google Ads] search ads
 
 ```
 {gclid}:G:s
 ```
 
-dove:
+where:
 
-* `gclid` è [!DNL Google Click ID] (GCLID).
-* `s` è il tipo di rete (&quot;s&quot; per la ricerca).
+* `gclid` is the [!DNL Google Click ID] (GCLID).
+* `s` is the network type ("s" for search).
 
-#### [!DNL Microsoft Advertising] annunci di ricerca
+#### [!DNL Microsoft Advertising] search ads
 
 ```
 {msclkid}:G:s
 ```
 
-dove:
+where:
 
-* `msclkid` è [!DNL Microsoft Click ID] (MSCLKID).
-* `s` è il tipo di rete (&quot;s&quot; per la ricerca).
+* `msclkid` is the [!DNL Microsoft Click ID] (MSCLKID).
+* `s` is the network type ("s" for search).
 
-#### Visualizzare annunci e annunci di ricerca su altri motori di ricerca
+#### Display ads and search ads on other search engines 
 
 ```
 <Adobe Advertising visitor ID>:<timestamp>:<channel type>
 ```
 
-dove:
+where:
 
-* &lt;*ID visitatore Adobe Advertising*> è un ID univoco per visitatore (ad esempio, UhKVaAAABCkJ0mDt). Chiamato anche *ID surfista*.
+* <*Adobe Advertising visitor ID*> is a unique ID per visitor (such as UhKVaAAABCkJ0mDt). Also called the *surfer ID*.
 
-* &lt;*timestamp*> è l&#39;ora nel formato AAAAMMGGHHMMSS (ad esempio 20190821192533 per Anno 2019, Mese 08, Giorno 21, Ora 19:25:33).
+* <*timestamp*> is the time in the format YYYYMMDDHHMMSS (such as 20190821192533 for Year 2019, Month 08, Day 21, Time 19:25:33).
 
-* &lt;*tipo di canale*> è il tipo di canale responsabile del clic o dell&#39;esposizione:
+* <*channel type*> is the channel type responsible for the click or exposure:
 
-   * `d` per un clic su un annuncio di visualizzazione di DSP (click-through di visualizzazione)
-   * `i` per un&#39;impression di un annuncio di visualizzazione DSP (view-through di visualizzazione)
-   * `s` per un clic su un annuncio di ricerca (click-through di ricerca).
+    * `d` for a click on a DSP display ad (display click-through)
+    * `i` for an impression of a DSP display ad (display view-through)
+    * `s` for a click on a Search ad (search click-through).
 
-Esempio `EF ID: WcmibgAAAHJK1RyY:1551968087687:d`
+Example `EF ID: WcmibgAAAHJK1RyY:1551968087687:d`
+
+-->
 
 ### Dimensione ID EF in [!DNL Analytics]
 
@@ -146,7 +152,7 @@ Per qualsiasi reporting o controllo all’interno di [!DNL Analytics], la best p
 
 ## Informazioni sulle classificazioni di Analytics
 
-In [!DNL Analytics], una [classificazione](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=it) è un elemento di metadati per un determinato codice di tracciamento, ad esempio Account, Campagna o Annuncio. Adobe Advertising categorizza i dati non elaborati di Adobe Advertising utilizzando le classificazioni in modo da poter visualizzare i dati in diversi modi (ad esempio per tipo di annuncio o campagna) quando si generano i rapporti. Le classificazioni costituiscono la base del reporting di Adobe Advertising in [!DNL Analytics] e possono essere utilizzate con le metriche AMO, ad esempio [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions] e [!UICONTROL AMO Clicks], nonché con eventi nel sito personalizzati e standard come [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders] e [!UICONTROL Revenue].
+In [!DNL Analytics], una [classificazione](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) è un elemento di metadati per un determinato codice di tracciamento, ad esempio Account, Campagna o Annuncio. Adobe Advertising categorizza i dati non elaborati di Adobe Advertising utilizzando le classificazioni in modo da poter visualizzare i dati in diversi modi (ad esempio per tipo di annuncio o campagna) quando si generano i rapporti. Le classificazioni costituiscono la base del reporting di Adobe Advertising in [!DNL Analytics] e possono essere utilizzate con le metriche AMO, ad esempio [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions] e [!UICONTROL AMO Clicks], nonché con eventi nel sito personalizzati e standard come [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders] e [!UICONTROL Revenue].
 
 >[!MORELIKETHIS]
 >

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 0cf325946fdc3852b8b94acb29678bf6c47227a0
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---
@@ -11,80 +11,21 @@ ht-degree: 0%
 
 AMO ID tiene traccia di ogni combinazione di annunci univoca a un livello meno granulare e viene utilizzato per la classificazione dei dati di [!DNL Analytics] e Customer Journey Analytics e l’acquisizione di metriche pubblicitarie (ad esempio impression, clic e costi) da Adobe Advertising.
 
-Per [!DNL Analytics], l&#39;AMO ID è archiviato in una dimensione [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=it) o rVar (AMO ID).
+Per [!DNL Analytics], l&#39;AMO ID è archiviato in una dimensione [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) o rVar (AMO ID).
 
-Per Customer Journey Analytics, l&#39;AMO ID è archiviato nella proprietà `trackingCode` dell&#39;oggetto `conversionDetails`, che fa parte di [l&#39;oggetto [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/event/advertising-full-extension).
+Per Customer Journey Analytics, l&#39;AMO ID è archiviato nella proprietà `trackingCode` dell&#39;oggetto `conversionDetails`, che fa parte di [l&#39;oggetto [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension).
 
 L&#39;AMO ID è anche chiamato `s_kwcid`, che a volte viene pronunciato come &quot;[!DNL squid]&quot;.
 
 ### Formati AMO ID {#amo-id-formats}
 
-#### Formato AMO ID per [!DNL DSP]
+Consulta i [formati per gli elementi dimensionali dell&#39;AMO ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) nella &quot;Guida ai componenti di Adobe Analytics&quot;.
 
-`s_kwcid=AC!${TM_AD_ID}!${TM_PLACEMENT_ID}`
+<!-- Legacy content:
 
-dove:
+Notes for GGL Ads: Verify Creative description. Also, are there more networks now (audience and shopping?) Re "To use the latest AMO ID tracking code, see "[Update the AMO ID tracking code for a [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md).: Update terminology there too.
 
-* `AC` indica il canale di visualizzazione.
-
-* `{TM_AD_ID}` è la chiave dell&#39;annuncio alfanumerico generato da Adobe Advertising. Viene utilizzato un identificatore univoco per un annuncio e funge da chiave per tradurre i metadati di entità Adobe Advertising in dimensioni leggibili [!DNL Analytics] e Customer Journey Analytics.
-
-* `{TM_PLACEMENT_ID}` è la chiave di posizionamento alfanumerico generata da Adobe Advertising. Viene utilizzato un identificatore univoco per un posizionamento e funge da chiave per tradurre i metadati di entità Adobe Advertising in dimensioni leggibili [!DNL Analytics] e Customer Journey Analytics.
-
-Esempio di AMO ID: AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
-
-#### Formati AMO ID per annunci Search, Social e Commerce {#amo-id-format-search}
-
-I parametri variano in base alla rete di annunci, ma i seguenti parametri sono comuni a tutti:
-
-* `AL` indica il canale di ricerca. <!-- what about social/Facebook, and display ads on Google (like Gmail, YouTube)? -->
-
-* `{userid}` è un ID utente univoco assegnato all&#39;inserzionista.
-
-* `{sid}` è sostituito dall&#39;ID numerico per l&#39;account di rete dell&#39;inserzionista: *3* per [!DNL Google Ads], *10* per [!DNL Microsoft Advertising], *45* per [!DNL Meta], *86* per [!DNL Yahoo! Display Network], *87* per [!DNL Naver], *88* per [!DNL Baidu], *90* per [!DNL Yandex], *94* per [!DNL Yahoo! Japan Ads], *105* per [!DNL Yahoo Native] (obsoleto) o *106* per [!DNL Pinterest] (obsoleto).
-
-##### [!DNL Baidu]
-
-`s_kwcid=AL!{userid}!88!{creative}!{placement}!{keywordid}`
-
-dove:
-
-* `{creative}` è l&#39;ID numerico univoco della rete di annunci per la creatività.
-* `{placement}` è il sito Web sul quale è stato fatto clic sull&#39;annuncio.
-* `{keywordid}` è l&#39;ID numerico univoco della rete di annunci per la parola chiave che ha attivato l&#39;annuncio.
-
-##### [!DNL Google Ads]
-
-Queste includono campagne di acquisto con [!DNL Google Merchant Center].
-
-* Account che utilizzano il formato AMO ID più recente, che supporta il reporting a livello di campagna e gruppo di annunci per campagne, bozze ed esperimenti con prestazione massima:
-
-  `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
-
-* Tutti gli altri account:
-
-  `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
-
-dove:
-
-<!-- VERIFY CREATIVE description. Also, are there more networks now (audience and shopping?) -->
-
-* `{creative}` è l&#39;ID numerico univoco [!DNL Google Ads] per la creatività.
-* `{matchtype}` è il tipo di corrispondenza della parola chiave che ha attivato l&#39;annuncio: `e` per exact, `p` per phrase, o `b` per broad.
-* `{placement}` è il nome di dominio del sito Web in cui è stato fatto clic sull&#39;annuncio. È disponibile un valore per gli annunci nelle campagne con targeting di posizionamento e per gli annunci nelle campagne con targeting di parola chiave visualizzate sui siti di contenuto.
-* `{network}` indica la rete da cui si è verificato il clic: `g` per la ricerca [!DNL Google] (solo per annunci mirati a parole chiave), `s` per un partner di ricerca (solo per annunci mirati a parole chiave) o `d` per la rete di visualizzazione (solo per annunci mirati a parole chiave o posizionamento).
-* `{product_partition_id}` è l&#39;ID numerico univoco della rete di annunci per il gruppo di prodotti utilizzato con gli annunci di prodotti.
-* `{keyword}` è la parola chiave specifica che ha attivato l&#39;annuncio (nei siti di ricerca) o la parola chiave più corrispondente (nei siti di contenuto).
-* `{campaignid}` è l&#39;ID numerico univoco della rete di annunci per la campagna.
-* `{adgroupid}` è l&#39;ID numerico univoco della rete di annunci per il gruppo di annunci.
-
->[!NOTE]
->
->* Per gli annunci per ricerca dinamica, {keyword} è popolato con il targeting automatico.
->* Quando si genera il tracciamento per [!DNL Google] annunci di acquisto, un parametro ID prodotto, `{adwords_producttargetid}`, viene inserito prima del parametro della parola chiave. Il parametro ID prodotto non viene visualizzato nei parametri di tracciamento a livello di account [!DNL Google Ads] e di campagna.
->* Per utilizzare il codice di tracciamento AMO ID più recente, vedi &quot;[Aggiornare il codice di tracciamento AMO ID per un account [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md).&quot; <!-- Update terminology there too. -->
-
-<!--
+Note: ADD IN Meta:
 
 ##### [!DNL Meta]
 
@@ -98,49 +39,114 @@ where:
 
 * `{{adset.id}}` is the unique ID for the ad set.
 
--->
+BEGIN LEGACY CONTENT:
 
-##### [!DNL Microsoft Advertising]
+#### AMO ID format for [!DNL DSP]
 
-* Tutti i tipi di campagna:
+`s_kwcid=AC!${TM_AD_ID}!${TM_PLACEMENT_ID}`
 
-  `s_kwcid=AL!{userid}!10!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+where:
 
-dove:
+* `AC` indicates the display channel.
 
-* `{AdId}` è l&#39;ID numerico univoco della rete di annunci per la creatività.
-* `{OrderItemId}` è l&#39;ID numerico della rete di annunci per la parola chiave.
-* `{CampaignId}` è l&#39;ID numerico univoco della rete di annunci per la campagna.
-* `{AdGroupId}` è l&#39;ID numerico univoco della rete di annunci per il gruppo di annunci.
+* `{TM_AD_ID}` is the Adobe Advertising-generated alphanumeric ad key. It's used as an unique identifier for an ad and serves as a key for translating Adobe Advertising entity metadata into readable [!DNL Analytics] and Customer Journey Analytics dimensions.
+
+* `{TM_PLACEMENT_ID}` is the Adobe Advertising-generated alphanumeric placement key. It's used as an unique identifier for a placement and serves as a key for translating Adobe Advertising entity metadata into readable [!DNL Analytics] and Customer Journey Analytics dimensions.
+
+Example AMO ID: AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
+
+#### AMO ID formats for Search, Social, & Commerce ads {#amo-id-format-search}
+
+The parameters vary by ad network, but the following parameters are common to all:
+
+* `AL` indicates the search channel.
+
+* `{userid}` is a unique user ID assigned to the advertiser.
+
+* `{sid}` is replaced by the numeric ID for the advertiser's ad network account: *3* for [!DNL Google Ads], *10* for [!DNL Microsoft Advertising], *45* for [!DNL Meta], *86* for [!DNL Yahoo! Display Network], *87* for [!DNL Naver], *88* for [!DNL Baidu], *90* for [!DNL Yandex], *94* for [!DNL Yahoo! Japan Ads], *105* for [!DNL Yahoo Native] (deprecated), or *106* for [!DNL Pinterest] (deprecated).
+
+##### [!DNL Baidu]
+
+`s_kwcid=AL!{userid}!88!{creative}!{placement}!{keywordid}`
+
+where:
+
+* `{creative}` is the ad network's unique numeric ID for the creative.
+* `{placement}` is the website on which the ad was clicked.
+* `{keywordid}` is the ad network's unique numeric ID for the keyword that triggered the ad.
+
+##### [!DNL Google Ads]
+
+These including shopping campaigns using [!DNL Google Merchant Center].
+
+* Accounts that use the latest AMO ID format, which supports campaign- and ad group-level reporting for performance max campaigns and drafts and experiments campaigns:
+
+  `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
+
+* All other accounts:
+
+  `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
+
+where:
+
+* `{creative}` is the [!DNL Google Ads] unique numeric ID for the creative.
+* `{matchtype}` is the matchtype of the keyword that triggered the ad: `e` for exact, `p` for phrase, or `b` for broad.
+* `{placement}` is the domain name of the website on which the ad was clicked. A value is available for ads in placement-targeted campaigns and for ads in keyword-targeted campaigns that are displayed on content sites.
+* `{network}` indicates the network from which the click occurred: `g` for [!DNL Google] search (for keyword-targeted ads only), `s` for a search partner (for keyword-targeted ads only), or `d` for the display network (for either keyword-targeted or placement-targeted ads).
+* `{product_partition_id}` is the ad network's unique numeric ID for the product group used with product ads.
+* `{keyword}` is either the specific keyword that triggered your ad (on search sites) or the best-matching keyword (on content sites).
+* `{campaignid}` is the ad network's unique numeric ID for the campaign.
+* `{adgroupid}` is the the ad network's unique numeric ID for the ad group.
 
 >[!NOTE]
 >
-> Per gli account con campagne senza l&#39;opzione di tracciamento [!UICONTROL Auto Upload] che non sono già stati migrati al nuovo formato, aggiorna manualmente ogni suffisso di pagina di destinazione per includere il formato precedente.
-> &#x200B;>Nel frattempo, i formati precedenti, come segue, funzionano ancora:
->* Campagne di ricerca:
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
->* Campagne di acquisto (utilizzando [!DNL Microsoft Merchant Center]):
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
->* Campagne di Audience Network:
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}`
+>* For dynamic search ads, {keyword} is populated with the auto target.
+>* When you generate tracking for [!DNL Google] shopping ads, a product ID parameter, `{adwords_producttargetid}`, is inserted before the keyword parameter. The product ID parameter doesn't appear in the [!DNL Google Ads] account-level and campaign-level tracking parameters.
+>* To use the latest AMO ID tracking code, see "[Update the AMO ID tracking code for a [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)."
+
+##### [!DNL Microsoft Advertising]
+
+* All campaign types:
+
+  `s_kwcid=AL!{userid}!10!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+
+where:
+
+* `{AdId}` is the ad network's unique numeric ID for the creative.
+* `{OrderItemId}` is the ad network's numeric ID for the keyword.
+* `{CampaignId}` is the ad network's unique numeric ID for the campaign.
+* `{AdGroupId}` is the ad network's unique numeric ID for the ad group.
+
+>[!NOTE]
+>
+> For accounts with campaigns without the [!UICONTROL Auto Upload] tracking option that weren't already migrated to the new format, manually update each landing page suffix to include the above format.
+>In the meantime, the legacy formats, as follows, still work: 
+>* Search campaigns:
+>  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+>* Shopping campaigns (using [!DNL Microsoft Merchant Center]):
+>  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
+>* Audience network campaigns:
+>  `s_kwcid=AL!{userid}!10!{AdId}`
 
 ##### [!DNL Yahoo! Japan Ads]
 
 `s_kwcid=AL!{userid}!94!{creative}!{matchtype}!{network}!{keyword}`
 
-dove:
+where:
 
-* `{creative}` è l&#39;ID numerico univoco della rete di annunci per la creatività.
-* `{matchtype}` è il tipo di corrispondenza della parola chiave che ha attivato l&#39;annuncio: `be` per exact, `bp` per phrase, o `bb` per broad.
-* `{network}` indica la rete da cui si è verificato il clic: `n` per la rete nativa o `s` per la ricerca.
-* `{keyword}` è la parola chiave che ha attivato l&#39;annuncio.
+* `{creative}` is the ad network's unique numeric ID for the creative.
+* `{matchtype}` is the matchtype of the keyword that triggered the ad: `be` for exact, `bp` for phrase, or `bb` for broad.
+* `{network}` indicates the network from which the click occurred: `n` for native or `s` for search.
+* `{keyword}` is the keyword that triggered your ad.
 
 ##### [!DNL Yandex]
 
 `s_kwcid=AL!{userid}!90!{ad_id}!{source_type}!!!{phrase_id}`
 
-dove:
+where:
 
-* `{ad_id}` è l&#39;ID numerico univoco della rete di annunci per la creatività.
-* `{source_type}` è il tipo di sito in cui è stato visualizzato l&#39;annuncio: *b* per la ricerca, *c* per il contesto (contenuto) o *ct* per la categoria.
-* `{phrase_id}` è l&#39;ID numerico della rete di annunci per la parola chiave.
+* `{ad_id}` is the ad network's unique numeric ID for the creative.
+* `{source_type}` is the type of site on which the ad has been displayed: *b* for search, *c* for context (content), or *ct* for category.
+* `{phrase_id}` is the ad network's numeric ID for the keyword.
+
+-->
