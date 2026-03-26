@@ -32,11 +32,11 @@ Utilizza l&#39;integrazione di DSP con [the [!DNL Adobe Real-Time CDP]](https://
 
    L’hashing degli indirizzi e-mail deve essere eseguito utilizzando l’algoritmo SHA-256.
 
-   Per istruzioni sull&#39;attivazione della connessione di destinazione DSP, l&#39;attivazione dei tipi di pubblico e la convalida dell&#39;esportazione dei dati, vedere &quot;[Connessione Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)&quot;.
+   Per istruzioni sull&#39;attivazione della connessione di destinazione DSP, l&#39;attivazione dei tipi di pubblico e la convalida dell&#39;esportazione dei dati, vedere &quot;[Connessione Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=it)&quot;.
 
    >[!NOTE]
    >
-   >La connessione legacy, che include il supporto solo per indirizzi e-mail con hash, è ora denominata &quot;[Connessione legacy Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy). Se utilizzi già la connessione legacy, non è necessario apportare immediatamente alcuna modifica. Tuttavia, la connessione legacy verrà alla fine rimossa.
+   >La connessione legacy, che include il supporto solo per indirizzi e-mail con hash, è ora denominata &quot;[Connessione legacy Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy). Se utilizzi già la connessione legacy, non è necessario apportare immediatamente alcuna modifica. Tuttavia, la connessione legacy verrà alla fine rimossa.
 
 1. Verifica nella libreria del pubblico (disponibile quando crei o modifichi un pubblico da [!UICONTROL Audiences] > [!UICONTROL All Audiences] o nelle impostazioni di posizionamento) che il segmento si stia popolando e confronta il numero di ID universali con il numero di ID utente originali.
 
@@ -54,7 +54,7 @@ Per risolvere i problemi relativi alla procedura di conversione, contatta il tea
 >
 >* [Informazioni sulle origini del pubblico di prime parti](/help/dsp/audiences/sources/source-about.md)
 >* [Gestisci origini pubblico per attivare il pubblico con ID universale](source-manage.md)
->* [Connessione Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
->* Adobe Experience Platform [Panoramica del catalogo delle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
+>* [Connessione Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=it)
+>* Adobe Experience Platform [Panoramica del catalogo delle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=it)
 >* [Supporto per l&#39;attivazione degli ID universali](/help/dsp/audiences/universal-ids.md)
 >* [Informazioni su Gestione dell&#39;audience](/help/dsp/audiences/audience-about.md)
