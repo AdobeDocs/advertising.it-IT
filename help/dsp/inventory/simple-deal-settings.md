@@ -3,7 +3,7 @@ title: Impostazioni dell'offerta [!UICONTROL Simple Ad Serving]
 description: Scopri le impostazioni disponibili per le offerte [!UICONTROL Simple Ad Serving].
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: 90cc9d56a090136bc94270b048573d89503231c6
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 | **[!UICONTROL Serving Type]** | Tipo di supporto per questa offerta: *[!UICONTROL Video],* *[!UICONTROL Display],* o *[!UICONTROL Audio].* |
 | **[!UICONTROL Publisher Site Served On]** | Nome dell&#39;editore che sta vendendo questo inventario. Cercare un editore immettendo almeno i primi due caratteri nel nome. Per aggiungere un editore non presente nell’elenco, contatta il team del tuo account Adobe. |
 | **[!UICONTROL Advertiser]** | Un singolo inserzionista nell’account che può accedere a questa offerta. Seleziona anche la campagna e (facoltativamente) il pacchetto in cui è disponibile l’offerta. |
-| **[!UICONTROL Media Quality Assessment?]** | (Alcuni utenti) Consente di eseguire l’annuncio su un altro DSP per la verifica di terze parti. <!-- Who can select this? It's disabled for me. Need to see if there are additional fields when this is enabled. --> |
+| **[!UICONTROL Media Quality Assessment?]** | (Alcuni utenti) Consente di eseguire l’annuncio su un altro DSP per la verifica di terze parti. |
 | **[!UICONTROL Ad Source]** | L&#39;unica opzione è *[!UICONTROL Site Serve (Event Pixels)]*. |
 | **[!UICONTROL Ad Creation]** | (Solo nuove offerte) Se:<ul><li>*[!UICONTROL Create New]:* Per creare un annuncio per questa offerta.</li><li>*[!UICONTROL Select Ads]:* Per utilizzare un annuncio esistente per questa offerta.</li></ul> |
 | **[!UICONTROL Ad Type]** | Il tipo di annuncio per questa offerta. Se desideri creare annunci per l’offerta, includi le dimensioni o la durata dell’annuncio, come richiesto. Le opzioni disponibili variano in base al tipo di supporto. |
