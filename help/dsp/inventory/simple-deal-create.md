@@ -3,9 +3,9 @@ title: Crea un'offerta [!UICONTROL Simple Ad Serving]
 description: Scopri come creare un pixel di tracciamento per un'offerta [!UICONTROL Simple Ad Serving].
 feature: DSP Simple Ad Serving
 exl-id: 77d5dabd-1a0d-4dce-8a9a-8d54a637e15d
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
    1. In Dettagli feed, modificare i dettagli del feed, quindi fare clic su **[!UICONTROL Next]**.
 
-      DSP genera automaticamente un posizionamento, denominato &quot;SAS Placement - &lt;*deal name*>&quot;, per l&#39;annuncio. Nel posizionamento, l&#39;offerta viene automaticamente indirizzata nella sezione [!UICONTROL Inventory Targets]. Tutte le altre opzioni di targeting non sono applicabili.
+      DSP genera automaticamente un posizionamento, denominato &quot;SAS Placement - &lt;*nome offerta*>&quot; per l&#39;annuncio. Nel posizionamento, l&#39;offerta viene automaticamente indirizzata nella sezione [!UICONTROL Inventory Targets]. Tutte le altre opzioni di targeting non sono applicabili.
 
 1. Invia i pixel di tracciamento degli eventi all’editore per l’implementazione in uno dei seguenti modi:
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
          * Per incollare le informazioni in un messaggio di posta elettronica in un&#39;applicazione di posta elettronica sul dispositivo, fare clic su **[!UICONTROL Email & Done]** e selezionare l&#39;applicazione di posta elettronica. Il campo [!UICONTROL CC:] è precompilato con un indirizzo di supporto [!DNL Adobe]. Puoi quindi inviare il messaggio al contatto appropriato per l’editore.
 
-         * Per copiare le informazioni negli Appunti, fare clic su **[!UICONTROL Copy Email].** È quindi possibile incollare manualmente il contenuto in un messaggio di posta elettronica e inviarlo al contatto appropriato per l&#39;editore. È necessario includere una copia (CC:) in `publisher-support-global@adobe.com`. Al termine della copia del messaggio, fare clic su **[!UICONTROL Email & Done]**.
+         * Per copiare le informazioni negli Appunti, fare clic su **[!UICONTROL Copy Email].** È quindi possibile incollare manualmente il contenuto in un messaggio di posta elettronica e inviarlo al contatto appropriato per l&#39;editore. Includere una copia (CC:) in `publisher-support-global@adobe.com`. Al termine della copia del messaggio, fare clic su **[!UICONTROL Email & Done]**.
 
       1. (Se necessario) Rivolgiti all’editore per verificare se il tag include le macro appropriate in modo che il tag funzioni con l’ad server dell’editore.
 

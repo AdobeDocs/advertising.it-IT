@@ -3,7 +3,7 @@ title: 'Informazioni sull''inventario premium  [!DNL On Demand] '
 description: Scopri le offerte che DSP ha pre-negoziato con i partner di pubblicazione premium.
 feature: DSP On Demand Inventory
 exl-id: 2e8dd4a0-7a7b-45e9-8f0f-e5435cf0d9ee
-source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Non disponibile per gli utenti con i tipi di account [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension] e [!UICONTROL Other]; per gli inserzionisti con la categoria [!UICONTROL Other] e per i rivenditori*
 
-La raccolta [!DNL On Demand] è uno strumento di individuazione dell&#39;inventario avanzato per esplorare le offerte prenegoziate che DSP ha curato con partner di editori premium. Consente di accedere alle scorte non garantite dagli editori di primo livello nell&#39;area geografica senza la necessità di negoziazioni o contratti 1:1. È possibile richiedere offerte individuali e sottoscrivere un abbonamento a un editore per richiedere tutte le offerte dell&#39;editore contemporaneamente.
+La raccolta [!DNL On Demand] è uno strumento di individuazione dell&#39;inventario premium per esplorare le offerte pre-negoziate che DSP ha curato con i partner di pubblicazione premium. Consente di accedere alle scorte non garantite dagli editori di primo livello nell&#39;area geografica senza la necessità di negoziazioni o contratti 1:1. È possibile richiedere offerte individuali e sottoscrivere un abbonamento a un editore per richiedere tutte le offerte dell&#39;editore contemporaneamente.
 
 DSP Premium Marketplace consente di:
 
@@ -45,7 +45,7 @@ Sotto il carosello puoi visualizzare tutte le offerte e gli editori disponibili.
 I dettagli di ogni operazione includono i dati nelle colonne seguenti:
 
 * **[!UICONTROL TVB]:** indica se l&#39;editore è un&#39;emittente televisiva
-* **[!UICONTROL Tune]:** Indica quando l&#39;editore accetta i contenuti creativi &quot;tune in&quot; (ad esempio, &quot;Tune in stasera alle 21 per il nuovo episodio di \&lt;*our show*\>)
+* **[!UICONTROL Tune]:** Indica quando l&#39;editore accetta i contenuti creativi &quot;tune in&quot; (ad esempio, &quot;Tune in stasera alle 21 per il nuovo episodio di \*il nostro show*\>)
 * **[!UICONTROL LDA]:** (età legale per bere) Indica quando l&#39;editore ha applicato il targeting più di 21 e accetta annunci di alcolici
 * **[!UICONTROL CPM]:** indica quando la soglia minima o la tariffa fissa CPM per l&#39;offerta non è visibile fino a quando all&#39;inserzionista non è stato concesso l&#39;accesso all&#39;offerta
 * **[!UICONTROL Status]:** lo stato della richiesta di abbonamento (se applicabile)

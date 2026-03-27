@@ -4,7 +4,7 @@ user-guide-title: Guida di Advertising DSP
 user-guide-description: Scopri le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire e ottimizzare le strategie degli annunci display con Advertising DSP e creare i relativi rapporti.
 breadcrumb-title: Guida di DSP
 index: true
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '1015'
 ht-degree: 4%
@@ -24,8 +24,8 @@ ht-degree: 4%
       + [Soluzioni multi-dispositivo](/help/dsp/introduction/features/cross-device-solutions.md)
    + [Finanziamento dell’account](/help/dsp/introduction/billing/account-funding.md)
    + [Valute supportate](/help/dsp/currency.md)
-   + [Supporto per la privacy del consumatore](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=it)
-   + [Criteri e linee guida](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=it)
+   + [Supporto per la privacy del consumatore](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [Criteri e linee guida](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
    + [Soluzioni di misurazione avanzate](/help/dsp/introduction/advanced-measurement-services.md)
 + [Cerca la documentazione del prodotto utilizzando la chat assistita da IA](/help/dsp/agent-chat.md)
 + Gestione delle campagne {#campaign-management}
@@ -77,7 +77,7 @@ ht-degree: 4%
       + [Rivedere e modificare i dettagli degli annunci tramite i bulksheet](/help/dsp/campaign-management/ads/ad-qa.md)
       + [Modificare un annuncio](/help/dsp/campaign-management/ads/ad-edit.md)
       + [Duplicare un annuncio](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [Allega e rimuovi annunci dai posizionamenti](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=it)
+      + [Allega e rimuovi annunci dai posizionamenti](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
       + [Elencare i posizionamenti associati a un annuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [Visualizzare un rapporto dettagliato per un annuncio](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [Mettere in pausa o attivare un annuncio](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -152,7 +152,7 @@ ht-degree: 4%
    + [Utilizzo di  [!DNL Roku Inventory]](/help/dsp/inventory/roku-inventory.md)
    + [Partner SSP](/help/dsp/inventory/ssp-partners.md)
    + [!DNL On Demand] inventario {#on-demand}
-      + [Informazioni sull&#39;inventario premium  [!DNL On Demand] &#x200B;](/help/dsp/inventory/on-demand-inventory-about.md)
+      + [Informazioni sull&#39;inventario premium  [!DNL On Demand] ](/help/dsp/inventory/on-demand-inventory-about.md)
       + Disponibili [!DNL On Demand] autori inventario premium {#publishers}
          + [[!DNL On Demand] editori di inventario premium in Asia Pacifico](/help/dsp/inventory/on-demand-inventory-publishers-apac.md)
          + [[!DNL On Demand] editori di inventario premium in Australia e Nuova Zelanda](/help/dsp/inventory/on-demand-inventory-publishers-anz.md)
@@ -175,8 +175,8 @@ ht-degree: 4%
             + [Suggerimenti per negoziare un accordo programmatico garantito](/help/dsp/inventory/programmatic-guaranteed-tips.md)
             + [Imposta un&#39;offerta programmatica garantita](/help/dsp/inventory/programmatic-guaranteed-set-up.md)
             + [!DNL FreeWheel] offerte garantite programmatiche {#freewheel}
-               + [Panoramica sulla configurazione di offerte garantite programmatiche in [!DNL Freewheel]](/help/dsp/inventory/freewheel-overview.md)
-               + [Invia un annuncio per un&#39;offerta programmatica garantita a  [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)
+               + [Panoramica sulla configurazione di offerte garantite programmatiche in [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)
+               + [Invia un annuncio per un&#39;offerta programmatica garantita a  [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)
                + [Controlla lo stato degli annunci per un&#39;offerta di  [!DNL FreeWheel] PG](/help/dsp/inventory/freewheel-check-status.md)
                + [Codici di errore per gli annunci FreeWheel inviati](/help/dsp/inventory/freewheel-error-codes.md)
       + [Modifica impostazioni offerta privata](/help/dsp/inventory/deal-id-edit.md)
@@ -233,9 +233,9 @@ ht-degree: 4%
    + Notifiche {#notifications}
       + [Informazioni sugli abbonamenti agli avvisi](/help/dsp/admin/alerts-about.md)
       + [Gestire gli abbonamenti agli avvisi](/help/dsp/admin/alerts-manage.md)
-+ [Integrazioni con Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=it)
++ [Integrazioni con Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
 + [Ottieni aiuto](/help/dsp/get-help.md)
-+ [Note sulla versione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it)
++ [Note sulla versione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 
 
 <!--
