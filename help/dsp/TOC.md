@@ -152,7 +152,7 @@ ht-degree: 4%
    + [Utilizzo di  [!DNL Roku Inventory]](/help/dsp/inventory/roku-inventory.md)
    + [Partner SSP](/help/dsp/inventory/ssp-partners.md)
    + [!DNL On Demand] inventario {#on-demand}
-      + [Informazioni sull&#39;inventario premium  [!DNL On Demand] ](/help/dsp/inventory/on-demand-inventory-about.md)
+      + [Informazioni sull&#39;inventario premium  [!DNL On Demand] &#x200B;](/help/dsp/inventory/on-demand-inventory-about.md)
       + Disponibili [!DNL On Demand] autori inventario premium {#publishers}
          + [[!DNL On Demand] editori di inventario premium in Asia Pacifico](/help/dsp/inventory/on-demand-inventory-publishers-apac.md)
          + [[!DNL On Demand] editori di inventario premium in Australia e Nuova Zelanda](/help/dsp/inventory/on-demand-inventory-publishers-anz.md)
