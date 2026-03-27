@@ -3,7 +3,7 @@ title: Duplicare un piano di portata TV collegato
 description: Scopri come creare un piano di portata TV collegato utilizzando le impostazioni di un piano esistente.
 feature: DSP Planner
 exl-id: 80dab57a-e56d-4a77-a1d5-c3e705f54fb9
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: 81943936f828fa9472cff1b5b1c09e473396b818
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 1. Nel menu principale, fare clic su **[!UICONTROL Planner]**.
 
-1. &#x200B;
+1. 
    1. Posizionare il cursore sulla riga del piano e fare clic su **[!UICONTROL More]** > **[!UICONTROL Duplicate]**.
 
 1. (Facoltativo) Modificare il nome del piano e [le impostazioni del piano](planner-settings.md).
@@ -25,7 +25,7 @@ ht-degree: 0%
 
    Una volta salvato il piano, viene visualizzato l&#39;output previsto.
 
-1. (Facoltativo) Per esportare la previsione [!UICONTROL Budget vs Reach] in un foglio di calcolo [!DNL Microsoft Excel]&#x200B;**, fare clic su &#x200B;** [!UICONTROL ...] **&#x200B; in alto a destra, quindi su &#x200B;** [!UICONTROL Export]**.
+1. (Facoltativo) Per esportare la previsione [!UICONTROL Budget vs Reach] in un foglio di calcolo [!DNL Microsoft Excel]**, fare clic su **[!UICONTROL ...]** in alto a destra, quindi su **[!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >
