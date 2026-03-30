@@ -3,9 +3,9 @@ title: Personalizzare l’ottimizzazione creativa e la pianificazione di un’es
 description: Scopri come configurare l’ottimizzazione e la pianificazione degli annunci per le esperienze senza targeting.
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 3a77f85f8cbb2ca7a77c5e8ebab5a22ca377feed
+source-git-commit: 6f4b0fb697fc391f361775b50b1917941a3e0169
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1193'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,11 @@ Quando la pianificazione creativa è disabilitata, le impostazioni di ottimizzaz
 
    * Nella visualizzazione per tabella, posizionare il cursore sulla riga, fare clic su **[!UICONTROL More]** e quindi su **[!UICONTROL Tag Manager]**.
 
-1. Posiziona il cursore sulla riga del tag annuncio applicabile e fai clic su ![Modifica ottimizzazione creativa](/help/creative/assets/edit-gray.png "Modifica ottimizzazione creativa") **[!UICONTROL Creative Optimization]**.&lt;!—
-In Gestione tag è disponibile solo la vista a elenco, ma non quella a schede, a partire da 2/2. >
+1. Posiziona il cursore sulla riga del tag annuncio applicabile e fai clic su ![Modifica ottimizzazione creativa](/help/creative/assets/edit-gray.png "Modifica ottimizzazione creativa") **[!UICONTROL Creative Optimization]**.
+
+   <!--
+   Tag Manager has only a list view, but no card view, as of 2/2. 
+   -->
 
 1. Disabilita **[!UICONTROL Schedule]**.
 
