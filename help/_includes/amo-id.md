@@ -1,5 +1,5 @@
 ---
-source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
+source-git-commit: 5f410215dfa9d1e76dec2c88efca3b2d786333a7
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
@@ -21,7 +21,8 @@ L&#39;AMO ID è anche chiamato `s_kwcid`, che a volte viene pronunciato come &qu
 
 Consulta i [formati per gli elementi dimensionali dell&#39;AMO ID](https://experienceleague.adobe.com/it/docs/analytics/components/dimensions/amo-id#dimension-items) nella &quot;Guida ai componenti di Adobe Analytics&quot;.
 
-<!-- Legacy content:
+<!--
+Legacy content:
 
 Notes for GGL Ads: Verify Creative description. Also, are there more networks now (audience and shopping?) Re "To use the latest AMO ID tracking code, see "[Update the AMO ID tracking code for a [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md).: Update terminology there too.
 
