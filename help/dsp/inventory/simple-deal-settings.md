@@ -3,7 +3,7 @@ title: Impostazioni dell'offerta [!UICONTROL Simple Ad Serving]
 description: Scopri le impostazioni disponibili per le offerte [!UICONTROL Simple Ad Serving].
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
-source-git-commit: 90cc9d56a090136bc94270b048573d89503231c6
+source-git-commit: 1af0dd2cdcfdf7f63f4ad9be5bec445d5fd78687
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## Nuove [!UICONTROL Simple Ad Serving] offerte
 
-### [!UICONTROL Select ad source]
+### [!UICONTROL Ad Source]
 
 | Parametro | Descrizione |
 |-----------|-------------|
@@ -28,15 +28,13 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-### [!UICONTROL Select ad(s)]
+### [!UICONTROL Select/Upload Creative]
 
-(Quando utilizzi annunci esistenti) Gli annunci da includere nell’offerta. Seleziona la casella di controllo accanto a ogni annuncio da includere.
+* Quando utilizzi annunci esistenti, seleziona la casella di controllo accanto a ciascun annuncio da includere nell’offerta.
 
-### [!UICONTROL Select & upload [Media Type]]
+* Quando crei nuovi annunci, utilizza le schermate per creare un nuovo [annuncio di terze parti](/help/dsp/campaign-management/ads/ad-create-multiple.md).
 
-(Solo per nuovi annunci) Screens per creare un nuovo [annuncio di terze parti](/help/dsp/campaign-management/ads/ad-create-multiple.md).
-
-### [!UICONTROL Feed details]
+### [!UICONTROL Feed Details]
 
 | Parametro | Descrizione |
 |-----------|-------------|
