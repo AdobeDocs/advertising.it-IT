@@ -5,9 +5,9 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: d450159cfcc0298a0bb9bb0984cd49ac75836519
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1090'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 0%
 *funzionalità Beta*
 
 *Supporto solo per la lingua inglese*
-
-<!-- I thought it was all segment types? -->
 
 <!-- Redo the legacy file to include the new info. It's probably cleanest to keep it as two separate procedures (gen AI and manually) rather than one big, long procedure. -->
 
@@ -52,17 +50,17 @@ Utilizza l’agente del pubblico assistito da AI per generare nuovi tipi di pubb
 
       Per ulteriori informazioni, vedere &quot;[Prompt di scrittura](#writing-prompts)&quot; e &quot;[Best practice per la creazione di una descrizione del pubblico](#audience-brief-best-practices).&quot;
 
-      Quando l’agente del pubblico trova segmenti rilevanti, crea un’espressione di pubblico in base ai criteri. Chiede inoltre la tua approvazione prima di cercare i segmenti corrispondenti per assemblare il pubblico.
+      Man mano che l’agente del pubblico trova i segmenti rilevanti, crea un’espressione di pubblico booleana basata sui criteri. Chiede inoltre la tua approvazione prima di cercare i segmenti corrispondenti per assemblare il pubblico.
 
       Facoltativamente, puoi ignorare la richiesta e continuare a specificare altri criteri di pubblico.
 
    1. Quando l’agente del pubblico presenta un’espressione del pubblico che descrive adeguatamente il pubblico, chiedi all’agente del pubblico di procedere con l’assemblaggio del pubblico.
 
-      È possibile immettere &quot;procedere&quot;, &quot;ok&quot;, &quot;ok&quot;, &quot;sì&quot; o un&#39;altra parola simile.
+      È possibile immettere &quot;procedere&quot;, &quot;ok&quot;, &quot;ok&quot;, &quot;sì&quot; o un&#39;altra parola simile. L’agente elenca tutti i segmenti suggeriti per ogni caratteristica (ad esempio, &quot;Genitori&quot;). Espandi qualsiasi caratteristica per visualizzare i dettagli dei singoli segmenti suggeriti per tale caratteristica.
 
    1. (Se necessario) Specificare criteri aggiuntivi. Quando l’agente del pubblico presenta un’espressione del pubblico che soddisfa tutti i criteri, indica all’agente del pubblico di procedere con l’assemblaggio del pubblico.
 
-      Per assemblare il pubblico, immetti &quot;procedi&quot;, &quot;ok&quot;, &quot;sì&quot; o un&#39;altra parola simile.
+      Per assemblare il pubblico, immetti &quot;procedi&quot;, &quot;ok&quot;, &quot;sì&quot; o un&#39;altra parola simile. L’agente elenca tutti i segmenti suggeriti per ogni caratteristica (ad esempio, &quot;Genitori&quot;). Espandi qualsiasi caratteristica per visualizzare i dettagli dei singoli segmenti suggeriti per tale caratteristica.
 
 1. Quando si è soddisfatti del pubblico assemblato, fare clic su **[!UICONTROL Create]** per creare il pubblico specificato.
 
