@@ -3,9 +3,12 @@ title: Informazioni sulle classificazioni delle etichette
 description: Scopri come utilizzare le classificazioni delle etichette per raggruppare i componenti dell’account.
 exl-id: 3ec4b111-225e-4272-b3dc-4f6f9c711779
 feature: Search Label Classifications
-source-git-commit: 82710ffc246e1d3bc9547bf6b6df3320c80c4eb1
+TQID: https://experienceleague.adobe.com/dZL-v9IRny6Q2rjXcEeFKicL8UHKhRofQS4bBEd0sX8
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: 304
 ht-degree: 0%
 
 ---
@@ -20,7 +23,7 @@ Ogni inserzionista può avere fino a 30 classificazioni di etichette, che sono c
 
 ## Valori etichetta
 
-Ogni classificazione di etichetta può avere fino a 2000 valori. Dopo aver creato valori di etichetta specifici per una classificazione, puoi assegnarli a campagne, gruppi di annunci, parole chiave, annunci, posizionamenti e gruppi di prodotti [&#x200B; dalle viste gestione campagne](classification-values-assign-campaign-management.md) o [utilizzando i bulksheet](classification-values-assign-bulksheets.md).
+Ogni classificazione di etichetta può avere fino a 2000 valori. Dopo aver creato valori di etichetta specifici per una classificazione, puoi assegnarli a campagne, gruppi di annunci, parole chiave, annunci, posizionamenti e gruppi di prodotti [ dalle viste gestione campagne](classification-values-assign-campaign-management.md) o [utilizzando i bulksheet](classification-values-assign-bulksheets.md).
 
 Ogni entità idonea può avere valori di etichetta per più classificazioni, ma un solo valore di etichetta per classificazione. I valori delle etichette vengono ereditati dalle entità figlio, ma possono essere ignorati. Il valore assegnato al livello più basso sostituisce sempre i valori assegnati ai livelli padre.
 

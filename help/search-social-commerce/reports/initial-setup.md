@@ -3,9 +3,13 @@ title: Le attività di configurazione iniziali per i rapporti
 description: Scopri come rendere le metriche disponibili nei rapporti e come automatizzare i rapporti.
 exl-id: c2e76c63-ddb8-4762-8628-30cf3f54b8fd
 feature: Search Reports
-source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
+TQID: https://experienceleague.adobe.com/N50b-O0oFBV6ZMXcFx8gRvLs3M1hN696d43VGlgkg44
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: 336
 ht-degree: 0%
 
 ---
@@ -14,7 +18,7 @@ ht-degree: 0%
 
 I nuovi utenti devono eseguire le seguenti attività di configurazione iniziale:
 
-* Rendi le metriche di conversione di cui Adobe Advertising tiene traccia per un inserzionista [disponibili per i rapporti e altre visualizzazioni](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md) e, facoltativamente, [rinomina una delle metriche di conversione](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md) visualizzate nelle intestazioni di colonna per migliorarne la leggibilità.
+* Rendi le metriche di conversione che Adobe Advertising sta monitorando per un inserzionista [disponibili per i rapporti e altre visualizzazioni](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md) e, facoltativamente, [rinomina una qualsiasi delle metriche di conversione]&#x200B;(/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md) visualizzate nelle intestazioni di colonna per migliorarne la leggibilità.
 
   Le proprietà delle transazioni non sono disponibili per i rapporti, a meno che non vengano rese specificamente disponibili.
 

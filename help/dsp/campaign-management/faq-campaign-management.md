@@ -3,9 +3,15 @@ title: Domande frequenti sulla gestione delle campagne
 description: Ulteriori informazioni sulla gestione delle campagne, compreso il periodo di latenza per le modifiche e cosa accade quando si apportano modifiche al budget durante un volo.
 feature: DSP Packages, DSP Placements
 exl-id: 8a443543-ebb1-4273-a007-afef07d32d8c
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+TQID: https://experienceleague.adobe.com/PgO4aktP20KQzNe6SG6Vw7ahvYqHTSISQ10FCum-vQg
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: a4886037-b6d8-40e1-aeab-edeb7649d7d3id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: 405
 ht-degree: 0%
 
 ---
@@ -40,7 +46,7 @@ ht-degree: 0%
 
 * Come cambia la velocità del pacchetto nell’ultimo giorno di un volo?
 
-  Nell&#39;ultimo giorno di un volo, il giorno viene ridotto da 24 a 23 ore in modo da non superare il budget previsto per il pacchetto. Inoltre, la strategia di riempimento della velocità del pacchetto cambia automaticamente in &quot;[!UICONTROL Frontload]&quot;, anche se è impostata su &quot;[!UICONTROL even]&quot;. Ciò significa che il 65% del budget giornaliero deve essere consegnato entro le ore 11:0&rbrace; EST.:30
+  Nell&#39;ultimo giorno di un volo, il giorno viene ridotto da 24 a 23 ore in modo da non superare il budget previsto per il pacchetto. Inoltre, la strategia di riempimento della velocità del pacchetto cambia automaticamente in &quot;[!UICONTROL Frontload]&quot;, anche se è impostata su &quot;[!UICONTROL even]&quot;. Ciò significa che il 65% del budget giornaliero deve essere consegnato entro le ore 11:0} EST.:30
 
 >[!MORELIKETHIS]
 >

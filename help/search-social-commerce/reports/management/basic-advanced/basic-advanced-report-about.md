@@ -3,9 +3,13 @@ title: Informazioni sui report di base e sui report avanzati
 description: Scopri i rapporti di base e avanzati personalizzabili.
 exl-id: ecdafac5-3944-4c39-bd7c-8e3c9e6a3425
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/zKPVAfyStkc6bjL552SSoCc4dEmhyzHThTXqylslMFg
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: 373
 ht-degree: 0%
 
 ---
@@ -22,7 +26,7 @@ I rapporti di base mostrano il costo effettivo e i dati di clic per portfolio (s
 
 ### Tipi di report di base
 
-#### Rapporti sulle entità del Portfolio e della rete di annunci
+#### Rapporti di entità Portfolio e ad network
 
 * [[!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md)
 
@@ -58,7 +62,7 @@ I rapporti di base mostrano il costo effettivo e i dati di clic per portfolio (s
 
 I rapporti avanzati possono aiutarti a prendere decisioni strategiche sulla tua strategia pubblicitaria identificando dove avresti vantaggio riconfigurando il targeting geografico o le impostazioni di rete. Possono anche aiutarti a convalidare i dati di conversione disponibili in Search, Social e Commerce rispetto ai dati di tracciamento delle conversioni interne dell’inserzionista.
 
-Tutti gli utenti possono generare [!UICONTROL Transaction Report], che mostra le singole transazioni per parola chiave. Tutti gli altri rapporti avanzati utilizzano dati acquisiti tramite il servizio di tracciamento delle conversioni di Adobe Advertising e possono essere generati solo per gli inserzionisti con il servizio.
+Tutti gli utenti possono generare [!UICONTROL Transaction Report], che mostra le singole transazioni per parola chiave. Tutti gli altri rapporti avanzati utilizzano dati acquisiti tramite il servizio di tracciamento delle conversioni di Adobe Advertising e possono essere generati solo per gli inserzionisti che utilizzano il servizio.
 
 Facoltativamente, tutti i rapporti avanzati possono includere dati di conversione o qualsiasi altra metrica creata. I rapporti avanzati generati dal portfolio anziché da una rete di annunci mostrano i dati per le campagne attualmente mappate sui portfolio specificati. I rapporti
 non includere i dati per le campagne che erano nei portfolio durante l’intervallo di date ma non sono ancora presenti.

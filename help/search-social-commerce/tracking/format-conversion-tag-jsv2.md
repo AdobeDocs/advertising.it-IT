@@ -3,9 +3,13 @@ title: Formato dei tag di tracciamento delle conversioni di JavaScript versione 
 description: Fai riferimento al formato dei tag di tracciamento delle conversioni di JavaScript versione 2.
 exl-id: 75e96f97-a3f0-4f5b-8bbb-4b1e8986f01a
 feature: Search Tracking
-source-git-commit: dda4ff8e7538bc742caa50862575cb4e46a1371d
+TQID: https://experienceleague.adobe.com/WKh16jULfv2I-P7SEm9oP9O933KYNIZNPiIe9FD2xro
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: 305
 ht-degree: 0%
 
 ---
@@ -48,14 +52,14 @@ dove:
 
 * `<transid>` è un ID transazione univoco (ad esempio un ID ordine effettivo) generato e passato dall&#39;inserzionista per identificare una transazione. È incluso solo quando è selezionata l&#39;opzione &quot;[!UICONTROL Include unique transaction IDs]&quot;.
 
-  Search, Social e Commerce utilizzano l&#39;ID transazione per eliminare le transazioni duplicate con lo stesso ID transazione e lo stesso valore di proprietà. L&#39;ID transazione è incluso in [!UICONTROL Transaction Report], che è possibile utilizzare per convalidare i dati in Adobe Advertising con i dati dell&#39;inserzionista. **Nota:** se i dati dell&#39;inserzionista non includono un ID univoco per transazione, Search, Social e Commerce ne generano ancora uno in base al tempo della transazione.
+  Search, Social e Commerce utilizzano l&#39;ID transazione per eliminare le transazioni duplicate con lo stesso ID transazione e lo stesso valore di proprietà. L&#39;ID transazione è incluso in [!UICONTROL Transaction Report], che è possibile utilizzare per convalidare i dati all&#39;interno di Adobe Advertising con i dati dell&#39;inserzionista. **Nota:** se i dati dell&#39;inserzionista non includono un ID univoco per transazione, Search, Social e Commerce ne generano ancora uno in base al tempo della transazione.
 
 <!-- add more links -->
 
 >[!MORELIKETHIS]
 >
->* [Informazioni su Adobi Advertising di tag per il tracciamento delle conversioni](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
->* [Genera un tag di conversione Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [Informazioni sui tag di tracciamento delle conversioni di Adobe Advertising](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
+>* [Generare un tag di conversione Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
 >* [Domande frequenti sui tag di conversione e di tracciamento della visualizzazione della pagina](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
 >* [Formato dei tag di tracciamento conversione di JavaScript versione 2](format-conversion-tag-jsv2.md)
 >* [Formato dei tag di tracciamento conversione di JavaScript versione 3](format-conversion-tag-jsv3.md)

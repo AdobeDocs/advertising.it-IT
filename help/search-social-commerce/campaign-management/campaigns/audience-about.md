@@ -3,9 +3,13 @@ title: Informazioni sui tipi di pubblico
 description: Scopri le opzioni per tenere traccia, creare e gestire [!DNL Google Ads] e [!DNL Microsoft Advertising] i tipi di pubblico.
 exl-id: f85cbc82-ddbc-4ecd-a17b-b4cb4808cfbc
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/B77S28vEpSkrgNmhc-Ekn7PXh3W-y2g9et2y3gCQPK8
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: 528
 ht-degree: 0%
 
 ---
@@ -18,17 +22,17 @@ Nella Libreria tipi di pubblico sono elencati tutti i tipi di pubblico [!DNL Goo
 
 Puoi anche creare e gestire i tipi di pubblico utilizzando segmenti o elenchi e-mail dai tipi di pubblico esistenti di Adobe Experience Cloud e da vari tipi di dati cliente provenienti dal sistema di gestione delle relazioni con i clienti (CRM):
 
-* **Segmenti di pubblico di Adobe:** Gli inserzionisti con account Adobe Audience Manager o Adobe Analytics che hanno prestato il consenso possono creare [!DNL Google Ads] tipi di pubblico corrispondenti ai clienti dai loro [!DNL Adobe] segmenti:
+* **Segmenti di pubblico di Adobe:** Gli inserzionisti con account Adobe Audience Manager o Adobe Analytics che hanno prestato il consenso possono creare [!DNL Google Ads] tipi di pubblico con corrispondenza cliente dai loro [!DNL Adobe] segmenti:
 
-   * (Per gli inserzionisti con account [!DNL Analytics] che non dispongono di Audience Manager) Puoi creare [!DNL Google Ads] tipi di pubblico in base ai clienti utilizzando gli ID utente di [!DNL Analytics] segmenti condivisi con Adobe Experience Cloud.
+   * (Inserzionisti con account [!DNL Analytics] che non dispongono di Audience Manager) Puoi creare [!DNL Google Ads] tipi di pubblico in base ai clienti utilizzando gli ID utente di [!DNL Analytics] segmenti condivisi con Adobe Experience Cloud.
 
-   * (Inserzionisti con account Audience Manager) Puoi creare [!DNL Google Ads] tipi di pubblico in base ai clienti utilizzando gli ID utente dai segmenti Audience Manager che hanno Search, Social e Commerce come destinazione. Possono essere inclusi i segmenti di Adobe Analytics pubblicati in Adobe Experience Cloud e i segmenti creati utilizzando la Libreria tipi di pubblico di Adobe Experience Cloud.
+   * (Inserzionisti con account Audience Manager) Puoi creare [!DNL Google Ads] tipi di pubblico in base ai clienti, utilizzando gli ID utente dei segmenti di Audience Manager con Search, Social e Commerce come destinazione. Possono essere inclusi i segmenti di Adobe Analytics pubblicati in Adobe Experience Cloud e i segmenti creati utilizzando la Libreria tipi di pubblico di Adobe Experience Cloud.
 
   Per creare tipi di pubblico in base ai clienti, l&#39;account [!DNL Google Ads] dell&#39;inserzionista deve essere [idoneo per la corrispondenza personalizzata](https://support.google.com/adspolicy/answer/6299717) e ha acconsentito a [segmenti ID utente](https://support.google.com/google-ads/answer/9199250). Inoltre, l’account dell’inserzionista in Search, Social e Commerce deve essere configurato per consentire la creazione di tipi di pubblico in base ai clienti.
 
   [!DNL Adobe] i dati dei segmenti e i file di sincronizzazione dei cookie per i tipi di pubblico basati su dati del cliente vengono sincronizzati con [!DNL Google Ads] al giorno.
 
-* **Elenchi e-mail di Adobe Campaign:** Il team dell&#39;account Adobe può aiutarti a configurare un flusso di lavoro per la creazione e l&#39;aggiornamento di un pubblico di [!DNL Google Ads] customer match da un elenco e-mail all&#39;interno di [!DNL Campaign].
+* **Elenchi e-mail di Adobe Campaign:** Il team dell&#39;account di Adobe può aiutarti a configurare un flusso di lavoro per creare e aggiornare un pubblico con corrispondenza cliente [!DNL Google Ads] da un elenco e-mail all&#39;interno di [!DNL Campaign].
 
 * **Elenchi dati cliente:** Gli inserzionisti con [!DNL Google Ads] o [!DNL Microsoft Advertising] account idonei per la corrispondenza con il cliente possono creare e aggiornare un pubblico basato su dati cliente specifico per la rete di annunci &lt;!— o pubblico di remarketing dinamico — incluso nel pubblico basato sui dati del cliente, almeno per [!DNL Google Ads]? —> caricando un file CSV con identificatori primari.
 

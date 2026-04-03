@@ -3,9 +3,13 @@ title: Gestire gli account di rete degli annunci
 description: Scopri come impostare e gestire i dettagli di un account di rete di annunci.
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
+TQID: https://experienceleague.adobe.com/k5NsG-RF8c7ELoid8lN3EMbBH8MoA0fUSRcYZnslzfo
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '2100'
+source-wordcount: 2100
 ht-degree: 0%
 
 ---
@@ -147,7 +151,7 @@ Quando abiliti un account di ad network, Search, Social e Commerce sincronizzano
 
 >[!NOTE]
 >
->Gli account del gestore della rete di annunci non sono supportati qui. Per identificare un account manager per [!DNL Microsoft Advertising] o [!DNL Yandex], utilizzare rispettivamente il campo ID account principale o Account MCC. Per [configurare le credenziali per un account di manager [!DNL Google Ads] &#x200B;](/help/search-social-commerce/admin/manager-accounts.md), passare a [!UICONTROL Admin] \> [!UICONTROL Manager Accounts].
+>Gli account del gestore della rete di annunci non sono supportati qui. Per identificare un account manager per [!DNL Microsoft Advertising] o [!DNL Yandex], utilizzare rispettivamente il campo ID account principale o Account MCC. Per [configurare le credenziali per un account di manager [!DNL Google Ads] ](/help/search-social-commerce/admin/manager-accounts.md), passare a [!UICONTROL Admin] \> [!UICONTROL Manager Accounts].
 
 **[!UICONTROL Account Name]:** nome da visualizzare per l&#39;account in Search, Social e Commerce.
 
@@ -251,7 +255,7 @@ Gli account che utilizzano il tracciamento dei clic di Adobe Advertising devono 
 
 * **Formato S_kwcid:** (Account [!DNL Google Ads] esistenti per gli inserzionisti con un&#39;integrazione Adobe Advertising-Adobe Analytics e per i quali non è già stata eseguita la migrazione dell&#39;AMO ID (s_kwcid))
 
-Questo account utilizza il formato legacy per il codice di tracciamento AMO ID, che consente ad Adobe Advertising di condividere i dati sull’account con Adobe Analytics. Il [formato più recente](https://experienceleague.adobe.com/it/docs/analytics/components/dimensions/amo-id#dimension-items) include i parametri per l&#39;ID della campagna e l&#39;ID del gruppo di annunci, necessari per creare report accurati a livello di campagna e di gruppo di annunci per le campagne con prestazione massima [!DNL Google Ads], nonché per le bozze e gli esperimenti in Analytics:
+Questo account utilizza il formato legacy per il codice di tracciamento AMO ID, che consente ad Adobe Advertising di condividere i dati sull’account con Adobe Analytics. Il [formato più recente](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) include i parametri per l&#39;ID della campagna e l&#39;ID del gruppo di annunci, necessari per creare report accurati a livello di campagna e di gruppo di annunci per le campagne con prestazione massima [!DNL Google Ads], nonché per le bozze e gli esperimenti in Analytics:
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 

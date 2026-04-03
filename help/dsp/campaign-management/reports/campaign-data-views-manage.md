@@ -3,9 +3,15 @@ title: Gestire le visualizzazioni dati della campagna
 description: Scopri come personalizzare le visualizzazioni dati per campagne, pacchetti, posizionamenti e annunci.
 feature: DSP Campaign Data Views
 exl-id: a22da10b-104d-4860-a23f-f2a6e59b637c
-source-git-commit: 806b0d5e3f9daea4f439863dd9b715964de2a1c4
+TQID: https://experienceleague.adobe.com/iHIvQ5-7AJxfvMb5g3VlNfWkIR7a6ZwdvQtDKczrDw8
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: f784309e-91ce-4bb5-ade4-5cbbceabecc0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: 915
 ht-degree: 0%
 
 ---
@@ -176,4 +182,4 @@ In basso a destra, accanto a **[!UICONTROL Items per page]** , selezionare *[!UI
 >* [Visualizza il report di previsione del posizionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Visualizza i report di diagnostica del posizionamento](placement-diagnostics.md)
 >* [Esporta dati da una visualizzazione di gestione campagne](campaign-export-data.md)
->* [Video: struttura dell&#39;account DSP e interfaccia utente](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=it)
+>* [Video: struttura dell&#39;account DSP e interfaccia utente](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

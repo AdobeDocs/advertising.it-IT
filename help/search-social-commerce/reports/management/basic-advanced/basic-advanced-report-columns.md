@@ -3,9 +3,13 @@ title: Colonne di report per report di base e avanzati
 description: Scopri le colonne di dati disponibili per i rapporti di base e avanzati.
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 817c8ab0dce5412e4b3a235c3c032e5691d235ba
+TQID: https://experienceleague.adobe.com/6of-gBWNiXgwOxOoDFJ-idyaSFeP7wEi7GBfAoRxgyU
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '3806'
+source-wordcount: 3806
 ht-degree: 0%
 
 ---
@@ -170,7 +174,7 @@ ht-degree: 0%
 | [!UICONTROL Search (Top) IS] | ([!DNL Google Ads] e [!DNL Microsoft Advertising]) Le impression ricevute nelle posizioni principali (sopra i risultati della ricerca organica) divise per il numero stimato di impression che potevi ricevere nelle posizioni principali. Le percentuali inferiori al 10% sono indicate come &quot;`<10%`&quot; o &quot;`0.0999`&quot;.&quot; |
 | [!UICONTROL Search Engine] | La rete di annunci. |
 | [!UICONTROL Search exact match IS] | Il numero di impression ricevute per le ricerche che corrispondono esattamente alla parola chiave divisa per il numero stimato di impression di corrispondenza esatte che potevi ricevere. Se il numero è basso, è possibile che l’offerta sia troppo bassa o che la qualità o la rilevanza dell’annuncio sia bassa. |
-| [!UICONTROL Search impr. share] | (Solo per [!DNL Google Ads]) Le impression ricevute vengono divise per il numero stimato di impression che potevi ricevere. Le percentuali inferiori al 10% sono indicate come &quot;&lt;10%&quot; e le percentuali superiori al 90% sono indicate come &quot;`>90%`&quot;. |
+| [!UICONTROL Search impr. share] | (Solo per [!DNL Google Ads]) Le impression ricevute vengono divise per il numero stimato di impression che potevi ricevere. Le percentuali al di sotto del 10% sono indicate come &quot;&lt;10%&quot; e le percentuali al di sopra del 90% sono indicate come &quot;`>90%`&quot;. |
 | [!UICONTROL Search lost abs. top IS (budget)] | ([!DNL Google Ads] e [!DNL Microsoft Advertising]) La percentuale di tempo in cui gli annunci non sono stati i primi annunci al di sopra dei risultati della ricerca organica perché il budget giornaliero o mensile era troppo basso. Per le campagne Google ads, percentuali superiori al 90% sono indicate come &quot;`>90%`&quot; o &quot;`0.9001`&quot;.&quot; |
 | [!UICONTROL Search lost abs. top IS (rank)] | ([!DNL Google Ads] e [!DNL Microsoft Advertising]) La percentuale di tempo per cui gli annunci non sono stati i primi annunci al di sopra dei risultati della ricerca organica a causa di una classificazione annuncio scadente. Per le campagne Google ads, percentuali superiori al 90% sono indicate come &quot;`>90%`&quot; o &quot;`0.9001`&quot;.&quot; |
 | [!UICONTROL Search lost IS (budget)] | ([!DNL Google Ads] solo) La percentuale di tempo in cui gli annunci non sono stati visualizzati perché il budget giornaliero o mensile era troppo basso. Questa metrica è disponibile solo a livello di campagna. Le percentuali superiori al 90% sono indicate come &quot;`>90%`&quot; o &quot;`0.9001`&quot;.&quot; |

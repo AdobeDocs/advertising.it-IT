@@ -2,9 +2,14 @@
 title: Implementa [!DNL Microsoft Advertising] conversioni avanzate per conversioni offline
 description: Scopri il flusso di lavoro per impostare  [!DNL Microsoft Advertising] conversioni avanzate per le conversioni offline.
 feature: Search Campaign Management, Conversions
-source-git-commit: 8f87e5bdab25aa527e72d7e9c75411267fe63780
+exl-id: 44937db7-9e80-4a5d-85c7-5bd5febc3b96
+TQID: https://experienceleague.adobe.com/GLFczqDqV8HE5hUZt8ORAlQMNy4OqQTtMdaHoYoN10U
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: 252
 ht-degree: 0%
 
 ---
@@ -19,7 +24,7 @@ In Search, Social e Commerce puoi effettuare le seguenti operazioni:
 
 * Visualizza le conversioni avanzate esistenti per le conversioni offline.
 
-  Search, Social e Commerce sincronizzano le conversioni avanzate esistenti ogni giorno alle 05:00 nel fuso orario dell’inserzionista.
+  Search, Social e Commerce sincronizzano le conversioni avanzate esistenti ogni giorno alle 05:00 nel fuso orario dell&#39;inserzionista.
 
 * Carica dati di conversione offline di prime parti da mappare sugli obiettivi di conversione avanzati esistenti.
 

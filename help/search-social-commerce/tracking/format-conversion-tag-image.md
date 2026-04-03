@@ -3,9 +3,12 @@ title: Formato dei tag di tracciamento conversione immagine
 description: Fai riferimento al formato dei tag di tracciamento della conversione delle immagini.
 exl-id: e23107e1-b719-4572-a471-13e51387465d
 feature: Search Tracking
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+TQID: https://experienceleague.adobe.com/TQMACo5-LkbCU2SiMmUE-ZDBRTb8NERQPQ9ISzU0DdU
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: 249
 ht-degree: 0%
 
 ---
@@ -32,14 +35,14 @@ dove:
 
 * `<transid>` è un ID transazione univoco (ad esempio un ID ordine effettivo) generato e passato dall&#39;inserzionista per identificare una transazione. È incluso solo quando è selezionata l&#39;opzione &quot;[!UICONTROL Include unique transaction IDs]&quot;.
 
-  Search, Social e Commerce utilizzano l&#39;ID transazione per eliminare le transazioni duplicate con lo stesso ID transazione e lo stesso valore di proprietà. L&#39;ID transazione è incluso in [!UICONTROL Transaction Report], che è possibile utilizzare per convalidare i dati in Adobe Advertising con i dati dell&#39;inserzionista. **Nota:** se i dati dell&#39;inserzionista non includono un ID univoco per transazione, Search, Social e Commerce ne generano ancora uno in base al tempo della transazione.
+  Search, Social e Commerce utilizzano l&#39;ID transazione per eliminare le transazioni duplicate con lo stesso ID transazione e lo stesso valore di proprietà. L&#39;ID transazione è incluso in [!UICONTROL Transaction Report], che è possibile utilizzare per convalidare i dati all&#39;interno di Adobe Advertising con i dati dell&#39;inserzionista. **Nota:** se i dati dell&#39;inserzionista non includono un ID univoco per transazione, Search, Social e Commerce ne generano ancora uno in base al tempo della transazione.
 
 <!-- add more links -->
 
 >[!MORELIKETHIS]
 >
->* [Informazioni su Adobi Advertising di tag per il tracciamento delle conversioni](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
->* [Genera un tag di conversione Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [Informazioni sui tag di tracciamento delle conversioni di Adobe Advertising](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
+>* [Generare un tag di conversione Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
 >* [Domande frequenti sui tag di conversione e di tracciamento della visualizzazione della pagina](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
 >* [Formato dei tag di tracciamento conversione di JavaScript versione 2](format-conversion-tag-jsv2.md)
 >* [Formato dei tag di tracciamento conversione di JavaScript versione 3](format-conversion-tag-jsv3.md)

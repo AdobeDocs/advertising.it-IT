@@ -3,9 +3,13 @@ title: Dati utilizzati per i rapporti
 description: Scopri i diversi tipi di dati disponibili nelle visualizzazioni dati e nei rapporti personalizzati.
 exl-id: ba808b21-4421-4de5-9293-a20ec67cc81c
 feature: Search Reports
-source-git-commit: f357d9a9ec0f8b38fbc43726265521e6fd77c7d0
+TQID: https://experienceleague.adobe.com/dJGj3NmyEAmXwLdTYqCURrPhiIlJzpY1XdjrBVVUsgU
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: 599
 ht-degree: 0%
 
 ---
@@ -14,7 +18,7 @@ ht-degree: 0%
 
 Search, Social e Commerce includono un set completo di rapporti sulle prestazioni basati sui dati di clic e conversione. È possibile visualizzare i dati delle prestazioni di base per i vari componenti di un portfolio o di un account annuncio dalle visualizzazioni [!UICONTROL Portfolios] e [!UICONTROL Campaigns] nonché generando vari rapporti di base e avanzati.
 
-Gli inserzionisti che utilizzano il servizio di monitoraggio delle conversioni di Adobe Advertising possono inoltre identificare il numero di clic per una posizione geografica o un nome di dominio di un sito Web di provenienza, il modo in cui gli annunci in ciascun canale e i vari eventi che portano a una conversione contribuiscono al tasso di conversione complessivo e la distribuzione delle conversioni per una singola [metrica di conversione](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) per canale di marketing. I rapporti disponibili variano in base al tipo di account utente. Il team dell’account Adobe ha accesso a tutti i rapporti.
+Gli inserzionisti che utilizzano il servizio di monitoraggio delle conversioni di Adobe Advertising possono inoltre identificare il numero di clic per una posizione geografica o un nome di dominio di un sito Web di provenienza, il modo in cui gli annunci in ciascun canale e i vari eventi che portano a una conversione contribuiscono al tasso di conversione complessivo e la distribuzione delle conversioni per una singola [metrica di conversione](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) per canale di marketing. I rapporti disponibili variano in base al tipo di account utente. Il team dell’account di Adobe ha accesso a tutti i rapporti.
 
 La maggior parte dei rapporti può essere personalizzata in modo da visualizzare solo le informazioni desiderate. Le metriche standard seguenti sono disponibili nella maggior parte dei rapporti e vengono calcolate a livello di annuncio:
 
@@ -30,7 +34,7 @@ La maggior parte dei rapporti può essere personalizzata in modo da visualizzare
 
    * **[!UICONTROL Average Position]:** (se applicabile) La posizione media di un annuncio che è stato inserito, ponderata dal numero di impression.
 
-   * **[!UICONTROL Estimated Clicks]:** (incluso nei report avanzati solo per gli inserzionisti con il servizio di tracciamento delle conversioni di Adobe Advertising) Il numero totale di clic stimati per una città o un nome di dominio di un sito Web di provenienza. Ciò può includere dati per reti pubblicitarie per le quali un inserzionista non ha un account pubblicitario.
+   * **[!UICONTROL Estimated Clicks]:** (incluso nei report avanzati solo per gli inserzionisti con il servizio di monitoraggio delle conversioni di Adobe Advertising) Il numero totale di clic stimati per una città o un nome di dominio di un sito Web di provenienza. Ciò può includere dati per reti pubblicitarie per le quali un inserzionista non ha un account pubblicitario.
 
 * **Metriche di conversione:** il numero totale di conversioni per ciascuna delle metriche di conversione dell&#39;inserzionista o i dati delle transazioni tracciati verso una metrica di conversione. Possono essere incluse le metriche di conversione e di coinvolgimento del sito, ma non le metriche calcolate e le metriche calcolate avanzate, che sono sincronizzate da Adobe Analytics.
 

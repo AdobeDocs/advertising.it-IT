@@ -3,9 +3,12 @@ title: Creare e modificare i dati della campagna in blocco utilizzando Copia e I
 description: Scopri come gestire i dati della campagna in blocco utilizzando la funzione di copia e incolla.
 exl-id: 2ae1b02f-46ac-4ea8-aa9f-9e26ccaf63d0
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/z-CaAsySMH-nF2IGPRpM1KY6MYdVz1xZhgjPsBShD7c
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: 486
 ht-degree: 0%
 
 ---
@@ -58,7 +61,7 @@ Puoi utilizzare questa funzione per modificare gli oggetti campagna esistenti (c
 
 1. In [!DNL Excel] o in un altro editor, copiare le righe separate da tabulazioni pertinenti.
 
-1. Nel menu principale di Ricerca, Social e Commerce, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Apri la visualizzazione in cui incollare i dati (**[!UICONTROL Live]> \[[!UICONTROL Campaigns] \| [!UICONTROL Ad Groups] \| [!UICONTROL Keywords] \| [!UICONTROL Ads]\]**).
+1. Nel menu principale di Ricerca, Social e Commerce, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Aprire la visualizzazione in cui incollare i dati (**[!UICONTROL Live]> \[[!UICONTROL Campaigns] \| [!UICONTROL Ad Groups] \| [!UICONTROL Keywords] \| [!UICONTROL Ads]\]**).
 
 1. Nella barra degli strumenti sopra la tabella dati fare clic su ![Altro](/help/search-social-commerce/assets/more.png "Altro") e quindi su **[!UICONTROL Paste]**.
 

@@ -3,9 +3,13 @@ title: Crea un pubblico di  [!DNL Google Ads] customer match da un elenco e-mail
 description: Scopri come creare un pubblico di  [!DNL Google Ads] customer match da un elenco e-mail esistente di Adobe Campaign.
 exl-id: 92812af2-ac31-48cd-badf-ea287799bddb
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/tEiqvHt1QzxhstsKGUsvKGgwm1JYIkv7mGr-Z8kPd0g
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: 669
 ht-degree: 0%
 
 ---
@@ -22,7 +26,7 @@ A tale scopo, è necessario accedere all&#39;istanza [!DNL Campaign] e a un file
 
 1. In [!DNL Campaign], configurare la consegna dell&#39;elenco e-mail ad Advertising Search, Social e Commerce:
 
-   1. Crea un [account esterno](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/external-accounts.html?lang=it) per collegare l&#39;account SFTP fornito da Search, Social e Commerce:
+   1. Crea un [account esterno](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/external-accounts.html) per collegare l&#39;account SFTP fornito da Search, Social e Commerce:
 
       1. Dal menu a sinistra, vai a **\[Adobe Campaign v6\] > [!UICONTROL Platform] >[!UICONTROL External Accounts]**.
 
@@ -84,7 +88,7 @@ A tale scopo, è necessario accedere all&#39;istanza [!DNL Campaign] e a un file
 
          * Nel flusso di lavoro fare doppio clic sull&#39;attività **[!UICONTROL File Transfer]**.
 
-         * Nella sezione **[!UICONTROL Remote server]** della scheda **[!UICONTROL File Transfer]** selezionare l&#39;opzione per **[!UICONTROL Use an external account]**.
+         * Nella sezione **[!UICONTROL File Transfer]** della scheda **[!UICONTROL Remote server]** selezionare l&#39;opzione per **[!UICONTROL Use an external account]**.
 
          * Nel campo **[!UICONTROL External account]**, seleziona l’etichetta per l’account esterno creato al passaggio 2.
 
@@ -92,11 +96,11 @@ A tale scopo, è necessario accedere all&#39;istanza [!DNL Campaign] e a un file
 
          * (Facoltativo) Nella scheda **[!UICONTROL Schedule]**, specificare una pianificazione diversa per il trasferimento di file.
 
-           Per impostazione predefinita, il flusso di lavoro viene eseguito alle 00:00 (mezzanotte), in modo da garantire che tutti i record vengano elaborati. Per ridurre al minimo la latenza, pianifica l’esecuzione del flusso di lavoro entro le 18:00.
+           Per impostazione predefinita, il flusso di lavoro viene eseguito alle ore 00:00 (mezzanotte), in modo da garantire che tutti i record vengano elaborati. Per ridurre al minimo la latenza, pianifica l&#39;esecuzione del flusso di lavoro entro il 18:00.
 
          * Fare clic su **[!UICONTROL Ok]**.
 
-Search, Social &amp; Commerce controlla la directory ogni 30 minuti (alle NN:30 e NN:59 nel fuso orario dell’inserzionista) e sposta i file che trova in un’altra posizione, quindi crea automaticamente un pubblico dai dati e lo invia a Google alle 22:00 (22:00). Search, Social e Commerce continuano a verificare la presenza di aggiornamenti (aggiunte e sottrazioni) all&#39;elenco e-mail ogni 30 minuti e aggiornano il pubblico il [!DNL Google Ads] di conseguenza alle 22:00 ogni giorno.
+Search, Social e Commerce controllano la directory ogni 30 minuti (alle ore NN:30 e NN:59 nel fuso orario dell&#39;inserzionista) e spostano tutti i file trovati in un&#39;altra posizione, quindi creano automaticamente un pubblico dai dati e lo inviano a Google alle ore 22:00 (22:00). Search, Social e Commerce continuano a verificare la presenza di aggiornamenti (aggiunte e sottrazioni) all&#39;elenco e-mail ogni 30 minuti e aggiornano il pubblico il [!DNL Google Ads] di conseguenza alle 22:00 al giorno.
 
 >[!NOTE]
 >

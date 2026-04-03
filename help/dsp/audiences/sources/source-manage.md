@@ -3,9 +3,15 @@ title: Gestire le origini del pubblico per attivare il pubblico dell’ID univer
 description: Scopri come creare e gestire un’origine per importare i tipi di pubblico dalla piattaforma di dati dei clienti e convertirli in segmenti contenenti ID universali.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 5f410215dfa9d1e76dec2c88efca3b2d786333a7
+TQID: https://experienceleague.adobe.com/us8NC8BEngb240MAW8hEo-DHGoW7MRDWvu0HedMsnFs
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: 758
 ht-degree: 0%
 
 ---
@@ -120,7 +126,7 @@ Per [!DNL RampID] e [!DNL Unified ID2.0], il fornitore cerca ogni indirizzo e-ma
 
 * *[!DNL RampID]:* Per convertire PII in [!DNL RampID]. È possibile utilizzare [!DNL RampIDs] per il retargeting degli utenti che accedono e per la misurazione di [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).
 
-* *[!DNL Unified ID2.0] (Beta):* Per convertire PII in un ID [Unified ID 2.0](https://unifiedid.com) per il retargeting degli utenti che accedono.
+* *[!DNL Unified ID2.0](Beta):* Per convertire PII in un ID [Unified ID 2.0](https://unifiedid.com) per il retargeting degli utenti che accedono.
 
 <!--
  Later

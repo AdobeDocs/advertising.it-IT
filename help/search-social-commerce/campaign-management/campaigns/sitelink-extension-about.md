@@ -3,9 +3,13 @@ title: Informazioni sulle estensioni sitelink
 description: Scopri le estensioni sitelink.
 exl-id: c2d96440-62da-4b57-a98e-d7b94882d6c5
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/lOrTOUXOFT7cvY5cEilRiROSfIbmcI9v8vU2MVZlg7U
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: 344
 ht-degree: 0%
 
 ---
@@ -26,7 +30,7 @@ Dalla vista [!UICONTROL Extensions] > [!UICONTROL Associations], puoi assegnare 
 
 ## Dati sulle prestazioni per i sitelink
 
-Search, Social e Commerce mappano i clic su un’estensione dell’annuncio e la conseguente conversione alla parola chiave associata all’annuncio in cui l’estensione è inclusa. In Search, Social e Commerce non sono disponibili dati sui costi o sui clic a livello di estensione. Tuttavia, in [l&#39;[!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md), è possibile stabilire se una transazione è stata generata da un sitelink (anziché dall&#39;annuncio stesso) quando il valore nella colonna Tipo di collegamento è elencato come `sl:<Sitelink text>`, ad esempio sl:See Current Offers.
+Search, Social e Commerce mappano i clic su un’estensione dell’annuncio e la conseguente conversione alla parola chiave associata all’annuncio in cui l’estensione è inclusa. In Search, Social e Commerce non sono disponibili dati sui costi o sui clic a livello di estensione. Tuttavia, in [l&#39;[!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md), è possibile stabilire se una transazione è stata generata da un sitelink (anziché dall&#39;annuncio stesso) quando il valore nella colonna Tipo di collegamento è elencato come `sl:<Sitelink text>`, ad esempio sl:See Offerte correnti.
 
 In [!DNL Google Ads] e [!DNL Microsoft Advertising], è possibile visualizzare i costi e fare clic sui dati nella scheda [!DNL Ad Extensions].
 

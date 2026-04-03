@@ -3,9 +3,13 @@ title: Domande frequenti sui rapporti personalizzati
 description: Scopri le risposte alle domande comuni sui rapporti sulle prestazioni, inclusa la risoluzione dei problemi relativi ai dati.
 exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: 01fe9264fee43ed29f6cee022dadeb29fbd26f45
+TQID: https://experienceleague.adobe.com/2pGYTNuu54grOLUSyVpfQVttGWG8OMPCUrzAYmyIv0k
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '3922'
+source-wordcount: 3922
 ht-degree: 0%
 
 ---
@@ -18,7 +22,7 @@ ht-degree: 0%
 Il rapporto viene generato, ma include solo i dati per le date per le quali i dati sono disponibili. Per ulteriori informazioni sulla disponibilità dei dati per ogni tipo di report, vedere &quot;[I dati utilizzati per i report](data-used-for-reports.md).&quot;
 +++
 
-+++Qual è la differenza tra i rapporti basati sulla data di clic e quelli basati sulla data della transazione?
++++Qual è la differenza tra i report basati sulla data di clic e quelli basati sulla data della transazione?
 Quando si segnalano le conversioni per data transazione, i dati includono le transazioni la cui data transazione si è verificata durante il periodo di tempo specificato. Questa opzione è l’impostazione predefinita nei rapporti di base e nei rapporti avanzati e mostra l’importo dei ricavi ottenuti nel periodo di tempo specificato.
 
 Quando si segnalano le conversioni per data di clic, i dati includono le transazioni risultanti da un clic che si è verificato durante il periodo di tempo specificato. Quando un portfolio presenta ritardi significativi tra clic e transazioni, questo tipo di reporting mostra i ricavi storici per clic per il portfolio, fornendo un’idea dei comportamenti di ricavo da prevedere nel tempo.
@@ -26,7 +30,7 @@ Quando si segnalano le conversioni per data di clic, i dati includono le transaz
 ![Rapporto per data clic rispetto a rapporto per data transazione](/help/search-social-commerce/assets/click-date-vs-txn-date.png "Rapporto per data clic rispetto a rapporto per data transazione")
 +++
 
-+++Cosa succede se modifico l’intervallo di lookback su clic o l’intervallo di lookback su impression?
++++Cosa succede se cambio l’intervallo di lookback su clic o l’intervallo di lookback su impression?
 (Solo per gli inserzionisti con il servizio di tracciamento delle conversioni basato su pixel di Advertising) I dati per gli eventi risultanti dal clic iniziale vengono raccolti per un periodo più lungo o più breve.
 
 L&#39;[intervallo di lookback su clic](/help/search-social-commerce/glossary.md#c-d) e l&#39;[intervallo di lookback su impression](/help/search-social-commerce/glossary.md#i-j) di un inserzionista determinano il numero di giorni dopo i quali si verifica un clic o un&#39;impression di visualizzazione (rispettivamente) in cui l&#39;evento può essere attribuito a una conversione. La modifica di un valore in un periodo più lungo o più breve può essere importante per gli inserzionisti con periodi di click-to-revenue o di impression-to-revenue particolarmente brevi o lunghi.
@@ -49,7 +53,7 @@ Puoi vedere quali conversioni sono risultate da un clic su un&#39;estensione del
 
 +++
 
-+++La colonna &quot;[!UICONTROL Keyword]&quot; nel report include un valore &quot;(contenuto adgroup) &lt;*nome gruppo annunci*>.&quot;
++++La colonna &quot;[!UICONTROL Keyword]&quot; nel report include un valore &quot;(contenuto adgroup) &lt;*nome gruppo di annunci*>.&quot;
 Quando la riga include dati per campagne di ricerca abilitate per il contenuto, campagne di visualizzazione o campagne social, che non includono parole chiave, la colonna [!UICONTROL Keyword] mostra invece il nome del gruppo di annunci applicabile.
 +++
 
@@ -59,7 +63,7 @@ La funzionalità di ottimizzazione crea quotidianamente i propri modelli di rica
 Se non desideri che i dati del periodo influiscano sulle offerte future, puoi scegliere di escludere tali date dal modello. Contatta il team del tuo account Adobe per escludere le date.
 +++
 
-+++Posso creare un report su una metrica di proprietà account specifica, ad esempio [!UICONTROL Device] o [!UICONTROL Objective Name]?
++++È possibile creare un report su una metrica di proprietà account specifica, ad esempio [!UICONTROL Device] o [!UICONTROL Objective Name]?
 Per i report di entità campagna ([!UICONTROL Campaign Report], [!UICONTROL Ad Group Report], [!UICONTROL Ad Variation Report], [!UICONTROL Keyword Report] e [!UICONTROL Product Group Report]), i dati delle metriche vengono aggregati dinamicamente dalle colonne di proprietà incluse nel report. Facoltativamente, è possibile rimuovere la colonna chiave per il rapporto e includere solo le colonne di proprietà per le quali si desidera aggregare i dati.
 
 Ad esempio, se si genera un [!UICONTROL Keyword Report] che include le colonne Dispositivo [!UICONTROL Ad Group] e , per impostazione predefinita il report aggrega le metriche per ogni parola chiave in base al gruppo di annunci e al tipo di dispositivo. Tuttavia, se rimuovi la colonna [!UICONTROL Keyword] prima di generare il rapporto, questo genera dinamicamente le metriche per i gruppi di annunci specificati per tipo di dispositivo.
@@ -117,7 +121,7 @@ Per impostazione predefinita, tutti i dati monetari nei rapporti vengono visuali
 
 ## Metriche delle prestazioni standard
 
-+++Mancano dati di clic nei rapporti.
++++I dati dei clic non sono presenti nei report.
 Di seguito sono riportati i motivi comuni della mancanza di dati di clic.
 
 | Causa | Rilevamento/analisi | Risoluzione |
@@ -153,7 +157,7 @@ I due sistemi misurano dati diversi, pertanto è necessario che visualizzino dat
 Il rapporto potrebbe non includere le metriche di conversione per le quali si sono verificate conversioni.
 +++
 
-+++Nei rapporti manca la retribuzione.
++++Ricavi mancanti nei report.
 
 **Inserzionisti che utilizzano i tag di conversione di Adobe Advertising**
 
@@ -210,11 +214,11 @@ Il rapporto potrebbe non includere le metriche di conversione per le quali si so
    L’Assistenza clienti verificherà se il file è stato ricevuto e analizzato. Se il file è stato elaborato senza errori, verifica la presenza di transazioni orfane.
 +++
 
-+++Alcuni rapporti avanzati non includono i dati di conversione forniti da un feed dell’inserzionista.
++++Alcuni rapporti avanzati non includono i dati di conversione forniti da un feed dell’inserzionista. 
 [!UICONTROL Geo Distribution Report] e [!UICONTROL Domain Referral Report] utilizzano dati acquisiti tramite il servizio di monitoraggio delle conversioni di Adobe Advertising e possono essere generati solo per gli inserzionisti con il servizio. I rapporti non includono dati di conversione tracciati all’esterno del sistema di tracciamento delle conversioni di Adobe Advertising.
 +++
 
-+++I dati dei ricavi sono diversi da quelli dell’inserzionista.
++++I dati sui ricavi sono diversi da quelli dell’inserzionista.
 
 **Inserzionisti che utilizzano i tag di conversione di Adobe Advertising**
 
@@ -293,13 +297,13 @@ Consulta le possibili cause e soluzioni per le implementazioni pixel di cui sopr
    L’Assistenza clienti verificherà la presenza di errori di analisi dei dati e transazioni orfane.
 +++
 
-+++I dati dei ricavi sono diversi da quelli di Adobe Analytics
-Vedi [https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=it](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=it).<!-- change link URL to relative link -->
++++I dati sui ricavi sono diversi dai dati in Adobe Analytics
+Vedi [https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html).<!-- change link URL to relative link -->
 +++
 
 ## Rapporti specifici
 
-+++In [!UICONTROL Portfolio Report] devono essere visualizzate le stesse cifre della visualizzazione [!UICONTROL Portfolios]?
++++[!UICONTROL Portfolio Report] deve mostrare le stesse cifre della visualizzazione [!UICONTROL Portfolios]?
 La visualizzazione [!UICONTROL Portfolio Report] e la visualizzazione [!UICONTROL Portfolios] mostrano gli stessi dati quando tutti i filtri per la visualizzazione, i parametri del report e le colonne di dati per la visualizzazione e il report sono uguali. Ad esempio, se la visualizzazione [!UICONTROL Portfolios] mostra portfolio che sono &quot;[!UICONTROL All but inactive]&quot; per l&#39;intervallo di date &quot;[!UICONTROL Last 7 days]&quot; e con solo le colonne di dati predefinite visualizzate, un [!UICONTROL Portfolio Report] che utilizza i parametri predefiniti mostra dati identici. Se si modifica uno dei parametri del report o si utilizzano filtri diversi nella visualizzazione [!UICONTROL Portfolios], i valori dei dati potrebbero essere diversi.
 +++
 
@@ -338,7 +342,7 @@ Per risolvere il problema, aggiorna il feed del foglio di calcolo in modo da inc
 +++
 
 +++Quando si tenta di aprire un feed di foglio di calcolo in [!DNL Excel], [!DNL Excel] segnala un errore di tipo &quot;contenuto illeggibile&quot; e i dati vengono rimossi dal contenuto recuperato.
-Se il modello [!DNL Microsoft Excel] non ordina i dati in base alla data di inizio in ordine crescente, il feed del foglio di calcolo potrebbe includere righe vuote. In particolare, [!DNL Excel] segnala l&#39;errore &quot;Excel ha trovato contenuto illeggibile in &#39;&lt;*nome report*>.xlsx.&#39; Ripristinare il contenuto della cartella di lavoro? Se si considera attendibile l&#39;origine della cartella di lavoro, fare clic su sì.&quot; Se si fa clic su &quot;Sì&quot;, viene visualizzato il seguente messaggio: &quot;Record rimossi: informazioni sulle celle dalla parte /xl/worksheets/sheet1.xml&quot; e il feed del foglio di calcolo include righe vuote.
+Se il modello [!DNL Microsoft Excel] non ordina i dati in base alla data di inizio in ordine crescente, il feed del foglio di calcolo potrebbe includere righe vuote. In particolare, [!DNL Excel] segnala l&#39;errore &quot;Excel ha trovato contenuto illeggibile in &quot;&lt;*nome report*>.xlsx.&quot; Ripristinare il contenuto della cartella di lavoro? Se si considera attendibile l&#39;origine della cartella di lavoro, fare clic su sì.&quot; Se si fa clic su &quot;Sì&quot;, viene visualizzato il seguente messaggio: &quot;Record rimossi: informazioni sulle celle dalla parte /xl/worksheets/sheet1.xml&quot; e il feed del foglio di calcolo include righe vuote.
 
 Per risolvere il problema, modificare il modello [!DNL Excel] associato al feed in modo da ordinare i dati in base a [!DNL Start date in Ascending (Oldest to Newest) order], quindi caricare il modello aggiornato tramite le impostazioni del feed del foglio di calcolo. Per ulteriori informazioni, vedere &quot;[Modifica feed report foglio di calcolo](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
 +++

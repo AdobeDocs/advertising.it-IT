@@ -3,9 +3,15 @@ title: Impostazioni di posizionamento
 description: Consulta le descrizioni delle impostazioni di posizionamento disponibili.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+TQID: https://experienceleague.adobe.com/V9gGiuXBnP2TBFUY3ZB7EkZ2TNeBttOgr-qzHUSdMmk
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '4439'
+source-wordcount: 4439
 ht-degree: 0%
 
 ---
@@ -17,7 +23,7 @@ ht-degree: 0%
 **[!UICONTROL Placement name]** Il nome del posizionamento.
 
 >[!TIP]
->Utilizza una convenzione di denominazione appropriata per la tua situazione. Una convenzione di denominazione suggerita è &quot;*\&lt;Nome campagna\>: \&lt;Unità annuncio\>: \&lt;Durata\>: \&lt;Targeting\>*.&quot;
+>Utilizza una convenzione di denominazione appropriata per la tua situazione. Una convenzione di denominazione consigliata è &quot;*\&lt;Nome campagna\>: \&lt;Unità annuncio\>: \&lt;Durata\>: \&lt;Targeting\>*.&quot;
 
 **[!UICONTROL Status]:** Lo stato del posizionamento: *[!UICONTROL Active]* (impostazione predefinita) o *[!UICONTROL Paused]*.
 
@@ -187,11 +193,11 @@ Includere un codice postale per riga oppure immettere più valori separati da vi
 
   È possibile visualizzare l’elenco in base all’origine o al feed. Quando visualizzi l’elenco per feed, puoi eseguire ricerche per nome di feed, chiave di feed o un tag di caratteristica selezionato.
 
-* [!UICONTROL Private] | [!UICONTROL Roku Private]: le tue offerte private esistenti (o offerte private [!DNL Roku] esistenti per [!DNL Roku] posizionamenti) con gli editori che hai configurato in DSP e i tuoi [elenchi di offerte private](/help/dsp/inventory/lists-deals-manage.md) esistenti. È possibile includere ma non escludere l&#39;inventario pubblico.
+* [!UICONTROL Private] | [!UICONTROL Roku Private]: le offerte private esistenti (o offerte private [!DNL Roku] esistenti per [!DNL Roku] posizionamenti) con editori configurati in DSP e i [elenchi di offerte private esistenti](/help/dsp/inventory/lists-deals-manage.md). È possibile includere ma non escludere l&#39;inventario pubblico.
 
   Dalla scheda [!UICONTROL Deals], puoi cercare l&#39;elenco per parola chiave, chiave, ID offerta o tag personalizzato. Dalla scheda [!UICONTROL Deal Lists], puoi cercare l&#39;elenco per nome o ID dell&#39;elenco delle offerte.
 
-* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: tutte le [offerte premium, [!UICONTROL On Demand] inventory](/help/dsp/inventory/on-demand-inventory-about.md) non garantite (o [!UICONTROL On Demand] [!DNL Roku] offerte per [!DNL Roku] posizionamenti) alle quali ti sei iscritto in [!DNL DSP]. È possibile includere ed escludere [!UICONTROL On Demand] inventario.
+* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: tutte le [offerte premium, [!UICONTROL On Demand] inventory](/help/dsp/inventory/on-demand-inventory-about.md) non garantite (o [!UICONTROL On Demand] [!DNL Roku] offerte per [!DNL Roku] posizionamenti) a cui ti sei iscritto in [!DNL DSP]. È possibile includere ed escludere [!UICONTROL On Demand] inventario.
 
   È possibile visualizzare l’elenco in base all’origine o al feed. Quando l&#39;elenco viene visualizzato per feed, è possibile eseguire ricerche per nome di feed, chiave di feed oppure per l&#39;area dell&#39;editore selezionata, il tag categoria o il tag caratteristica.
 

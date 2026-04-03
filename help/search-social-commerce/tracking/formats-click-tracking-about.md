@@ -3,24 +3,27 @@ title: Informazioni sui formati degli URL di tracciamento dei clic per il serviz
 description: Scopri i formati di tracciamento dei clic per le reti di annunci supportate.
 exl-id: b6f225d5-2268-4b2a-9927-063155ba0dc5
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/pVSEKmf45CqsfXMbj8HGDltdgV3wUV2UsAzP94vkijg
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: 263
 ht-degree: 0%
 
 ---
 
 # Informazioni sui formati degli URL di tracciamento dei clic per il servizio di tracciamento delle conversioni di Adobe Advertising
 
-I modelli di tracciamento, i suffissi delle pagine di destinazione (suffissi URL finali) e gli URL di destinazione per gli account degli annunci e le campagne che utilizzano il servizio di tracciamento delle conversioni di Adobe Advertising hanno il seguente formato:
+I modelli di tracciamento, i suffissi della pagina di destinazione (suffissi URL finali) e gli URL di destinazione per gli account degli annunci e le campagne che utilizzano il servizio di tracciamento delle conversioni di Adobe Advertising hanno il seguente formato:
 
 `http://pixel.everesttech.net/<advertiser_ID>/<token passing parameter>?ev_sid=<ad network ID>&<tracking ID>&url=<the landing page>`
 
 dove:
 
-* `http://pixel.everesttech.net` reindirizza l&#39;utente ai server pixel Adobe Advertising.
+* `http://pixel.everesttech.net` reindirizza l&#39;utente ai pixel server di Adobe Advertising.
 
-* `<advertiser_ID>` è una variabile per l&#39;ID utente univoco assegnato all&#39;inserzionista all&#39;interno di Adobe Advertising.
+* `<advertiser_ID>` è una variabile per l&#39;ID utente univoco assegnato all&#39;inserzionista in Adobe Advertising.
 
 * `<token passing parameter>` è una variabile per uno dei seguenti elementi:
 
@@ -28,7 +31,7 @@ dove:
 
    * `c?` o `r` indica che il passaggio del token è disabilitato.
 
-* `<ad network ID>` è una variabile per l&#39;ID numerico per la rete di annunci specificata, ad esempio *3* per [!DNL Google Ads], *10* per [!DNL Microsoft Advertising], *45* per [!DNL Meta], *86* per [!DNL Yahoo! Display Network], *87* per [!DNL Naver], *88* per [!DNL Baidu], *90* per [!DNL Yandex], *94 3&rbrace; per [!DNL Yahoo! Japan Ads],* 105 *per [!DNL Yahoo Native] (obsoleto), o* 106 *per [!DNL Pinterest] (obsoleto).*
+* `<ad network ID>` è una variabile per l&#39;ID numerico per la rete di annunci specificata, ad esempio *3* per [!DNL Google Ads], *10* per [!DNL Microsoft Advertising], *45* per [!DNL Meta], *86* per [!DNL Yahoo! Display Network], *87* per [!DNL Naver], *88* per [!DNL Baidu], *90* per [!DNL Yandex], *94* per [!DNL Yahoo! Japan Ads], *105* per [!DNL Yahoo Native] (obsoleto) o *106* per [!DNL Pinterest] (obsoleto).
 
 * `<tracking ID>` è una variabile per una stringa ID di tracciamento generata dal sistema che identifica una parola chiave, un annuncio o un posizionamento univoco nell&#39;account. La stringa varia in base alla rete di annunci.
 

@@ -3,9 +3,13 @@ title: '[!UICONTROL Bing Ads Geo Report]'
 description: Informazioni su [!UICONTROL Bing Ads Geo Report].
 exl-id: 8829ac72-d622-485d-abfb-310778f266b7
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/eHhR6-ryKtKJFBuvC-U1a3D72b8QgJip8D5pf3kKZKM
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: 225
 ht-degree: 0%
 
 ---
@@ -21,7 +25,7 @@ Puoi visualizzare i dati relativi ai due mesi precedenti.
 >[!NOTE]
 >
 >* I totali per questo report possono differire dai totali per le stesse campagne e lo stesso periodo di tempo in [!UICONTROL Geo Distribution Report] (compilato da Search, Social e Commerce) a causa di fornitori e metodologie diversi nella determinazione delle posizioni geografiche.
->* I dati per questo report vengono estratti ogni giorno alle 23:00 (23:00) del giorno precedente. Ad esempio, alle 23:00 del 18 giugno, estrae i dati per il 17 giugno. Se esegui il rapporto il 19 giugno alle 09:00 — prima che i dati per il 18 giugno vengano estratti — il rapporto include i dati fino al 17 giugno alle 23:00.
+>* I dati per questo report vengono estratti ogni giorno alle 23:00 (23:00). Ad esempio, alla 23:00 del 18 giugno, estrae i dati per il 17 giugno. Se esegui il rapporto il 19 giugno alle 09:00, prima che i dati per il 18 giugno vengano estratti, il rapporto includerà i dati fino al 17 giugno alle 23:00.
 
 ## Colonne predefinite
 

@@ -3,9 +3,13 @@ title: Informazioni sugli account di rete degli annunci
 description: Scopri gli account di rete di annunci in Search, Social e Commerce.
 exl-id: cb3e650d-721f-48ec-ada3-50bdd7c0375b
 feature: Search Campaign Management
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+TQID: https://experienceleague.adobe.com/90Dq2tehH-k2aY3Ij30aHF-XQGdvlPY346moWkg3xmk
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: 426
 ht-degree: 0%
 
 ---
@@ -26,7 +30,7 @@ Per abilitare la sincronizzazione di un account, il record account deve contener
 
 Durante la sincronizzazione, Search, Social e Commerce richiama le strutture di campagna dell’inserzionista e le entità di campagna supportate, inclusa la maggior parte degli attributi gestiti o segnalati in Search, Social e Commerce. Non include i dati sui clic, né le offerte e i modificatori di offerte immessi all’esterno di Search, Social e Commerce, che vengono raccolti separatamente. Search, Social e Commerce si sincronizzano automaticamente con gli account della rete di annunci una volta al giorno e ogni volta che rileva una nuova campagna su una delle reti di annunci. Inoltre, invia immediatamente alla rete di annunci tutte le modifiche apportate ai dati della campagna dall’interno di Search, Social e Commerce. Se necessario, è possibile richiedere una sincronizzazione manuale.
 
-Per ulteriori informazioni sulla creazione e la modifica di campagne sincronizzate, consulta il capitolo su &quot;Campaign Management&quot;.
+Per ulteriori informazioni sulla creazione e la modifica di campagne sincronizzate, consulta il capitolo su &quot;Gestione delle campagne&quot;.
 
 ## Account di solo tracciamento
 

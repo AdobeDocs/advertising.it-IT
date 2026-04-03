@@ -4,9 +4,14 @@ description: Scopri i tipi di richiesta di dati supportati, i valori di configur
 feature: GDPR
 role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
+TQID: https://experienceleague.adobe.com/qR5H-xgBKdtWcMYfrdGdk1y5s9PEA0-hNGZADbR6TuM
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: 997
 ht-degree: 0%
 
 ---
@@ -61,7 +66,7 @@ Per richiedere l’accesso e l’eliminazione dei dati per Adobe Advertising, è
    >
    >Contatta il rappresentante Adobe Advertising della tua azienda per verificare che tutti gli account Adobe Advertising della tua organizzazione, inclusi [!DNL DSP] account o inserzionisti, [!DNL Search, Social, & Commerce] account e [!DNL Creative] o [!DNL DCO] account, siano collegati al tuo ID organizzazione Experience Cloud.
 
-1. Utilizza l&#39;[API Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=it) (per le richieste automatizzate) o la [interfaccia utente Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it) (per le richieste ad hoc) per inviare richieste di accesso ed eliminazione ad Adobe Advertising per conto delle persone interessate e per controllare lo stato delle richieste esistenti.
+1. Utilizza l&#39;[API Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (per le richieste automatizzate) o la [interfaccia utente Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it) (per le richieste ad hoc) per inviare richieste di accesso ed eliminazione ad Adobe Advertising per conto delle persone interessate e per controllare lo stato delle richieste esistenti.
 
    Gli inserzionisti che dispongono di un’app mobile per interagire con gli interessati e avviare campagne con DSP devono scaricare gli SDK per dispositivi mobili compatibili con la privacy per Experience Cloud. Gli SDK di Mobile consentono ai titolari del trattamento dei dati di impostare flag di stato per la rinuncia, recuperare l&#39;ID dispositivo dell&#39;interessato (ID spazio dei nomi: `deviceID`) e inviare richieste all&#39;API Privacy Service. La tua app mobile richiederà una versione di SDK 4.15.0 o successiva.
 
@@ -73,7 +78,7 @@ Per richiedere l’accesso e l’eliminazione dei dati per Adobe Advertising, è
    >
    >Se la tua azienda dispone di più ID organizzazione Experience Cloud, devi inviare richieste API separate per ciascuno di essi. È tuttavia possibile effettuare una richiesta API a più soluzioni secondarie di Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] e [!DNL DCO]), con un account per ogni soluzione secondaria.
 
-Tutti i passaggi sono necessari per Adobe Advertising. Per ulteriori informazioni su queste e altre attività correlate che è necessario eseguire utilizzando Adobe Experience Platform Privacy Service e dove trovare gli elementi necessari, vedere &quot;[Panoramica di Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it).&quot;
+Tutti i passaggi sono necessari per Adobe Advertising. Per ulteriori informazioni su queste e altre attività correlate che è necessario eseguire utilizzando Adobe Experience Platform Privacy Service e dove trovare gli elementi necessari, vedere &quot;[Panoramica di Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).&quot;
 
 ## Valori campo obbligatori nelle richieste JSON di Adobe Advertising
 
@@ -92,7 +97,7 @@ Tutti i passaggi sono necessari per Adobe Advertising. Per ulteriori informazion
 
    * `"namespace": **411**` (che indica lo spazio cookie [!DNL adcloud])
 
-   * `"value":` &lt;*valore ID cookie effettivo dell&#39;interessato recuperato da`AdobePrivacy.js`*>
+   * `"value":` &lt;*il valore ID cookie effettivo dell&#39;interessato recuperato da`AdobePrivacy.js`*>
 
 * `"include": **adCloud**` (prodotto [!DNL Adobe] applicabile alla richiesta)
 

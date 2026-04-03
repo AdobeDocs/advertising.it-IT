@@ -3,9 +3,12 @@ title: Informazioni sull’automazione della gestione degli annunci tramite i fe
 description: Scopri la gestione avanzata delle campagne, che consente di gestire automaticamente la struttura dell’account e di distribuire annunci dinamici in base ai dati sull’inventario di prodotti o servizi.
 exl-id: 46e78f32-96ef-4a23-bbe3-f18b84309463
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/UqICY8g8nUAo4JSdAJ8h09P65nbe36aUYDEfOnBT9Jg
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: 838
 ht-degree: 0%
 
 ---
@@ -26,7 +29,7 @@ Per impostare gli annunci, crea modelli di feed inventario contenenti variabili 
 
 | [!UICONTROL Ad Variation] sezione del modello | Modificatori in Search, Social e Commerce | Contenuti feed | Annunci risultanti |
 |----|----|----|----|
-| Titolo: Acquista il prodotto di fascia alta \{<i>Categoria di prodotto</i>\} &lt;<i>Elenco economico</i>>.<br><br>Descrizione 1: inventario di \{<i>Nome prodotto</i>\}.<br><br>Descrizione 2: disponibile con sconto di \{<i>Percentuale sconto</i>\}%. | Valori per il gruppo di modificatori &quot;CheapList&quot;:<br><br>&quot;a buon mercato&quot;<br><br>&quot;con uno sconto&quot; | Categoria prodotto,Nome prodotto,Percentuale sconto<br>elettronica,iPod,10<br><br>abbigliamento,Camicie,15<br><br><b>Nota:</b> è possibile separare i valori con virgole o tabulazioni. | <u>Acquista prodotti di elettronica di fascia alta a buon mercato.</u><br>Enorme inventario di tablet. Disponibile con uno sconto del 10%.<br><br><u>Acquista prodotti di elettronica di fascia alta con uno sconto.</u><br>Enorme inventario di tablet. Disponibile con uno sconto del 10%.<br><br><u>Acquista capi di abbigliamento di alta qualità a buon mercato.</u><br>Enorme inventario di camicie. Disponibile con uno sconto del 15%.<br><br><u>Acquista capi di abbigliamento di alta qualità con uno sconto.</u><br>Enorme inventario di camicie. Disponibile con uno sconto del 15%. |
+| Titolo: Buy high-end \{<i>Categoria prodotto</i>\} &lt;<i>Elenco a basso costo</i>>.<br><br>Descrizione 1: inventario di \{<i>Nome prodotto</i>\}.<br><br>Descrizione 2: disponibile con sconto di \{<i>Percentuale sconto</i>\}%. | Valori per il gruppo di modificatori &quot;CheapList&quot;:<br><br>&quot;a buon mercato&quot;<br><br>&quot;con uno sconto&quot; | Categoria prodotto,Nome prodotto,Percentuale sconto<br>elettronica,iPod,10<br><br>abbigliamento,Camicie,15<br><br><b>Nota:</b> è possibile separare i valori con virgole o tabulazioni. | <u>Acquista prodotti di elettronica di fascia alta a buon mercato.</u><br>Enorme inventario di tablet. Disponibile con uno sconto del 10%.<br><br><u>Acquista prodotti di elettronica di fascia alta con uno sconto.</u><br>Enorme inventario di tablet. Disponibile con uno sconto del 10%.<br><br><u>Acquista capi di abbigliamento di alta qualità a buon mercato.</u><br>Enorme inventario di camicie. Disponibile con uno sconto del 15%.<br><br><u>Acquista capi di abbigliamento di alta qualità con uno sconto.</u><br>Enorme inventario di camicie. Disponibile con uno sconto del 15%. |
 
 Una volta generati gli annunci, puoi facoltativamente rivederli e quindi pubblicarli nella rete di annunci.
 
@@ -39,7 +42,7 @@ Una volta generati gli annunci, puoi facoltativamente rivederli e quindi pubblic
 
 Inizialmente, eseguire il test di almeno un file di feed o un account, quindi automatizzare completamente il processo o continuare a controllarlo in ogni passaggio:
 
-1. (Facoltativo) Contatta il team dell’account Adobe per impostare una directory FTP per il deposito dei file di dati.
+1. (Facoltativo) Contatta il team del tuo account Adobe per impostare una directory FTP per il deposito dei file di dati.
 
    Se si utilizza la directory FTP, il servizio di feed verifica la presenza di nuovi file ogni due ore.
 

@@ -3,9 +3,13 @@ title: Scrivi testo effettivo e copia
 description: Scopri le best practice per la scrittura di copie pubblicitarie efficaci.
 exl-id: 2c51cd0b-90c5-4093-9a0f-ace5ef1019e7
 feature: Search Best Practices
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/GFofyYALATcgqvrjz-2SuI90ct0M-PzOoLtjmvL2Djo
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: 582
 ht-degree: 0%
 
 ---
@@ -14,7 +18,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Per ulteriori best practice specifiche per le campagne nei portfolio, consulta anche la sezione Guida all&#39;ottimizzazione > Gestione di Portfoli > Best practice per i Portfoli, disponibile all&#39;interno di Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
+>Per ulteriori best practice specifiche per le campagne nei portfolio, consulta anche la sezione Guida all’ottimizzazione > Gestione dei portfolio > Best practice per i portfolio, disponibile all’interno di Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 ## Requisiti generali per tutte le reti pubblicitarie
 
@@ -40,7 +44,7 @@ ht-degree: 0%
 
 * È vietato usare un linguaggio inappropriato.
 
-## Recommendations per annunci efficaci
+## Consigli per annunci efficaci
 
 * Scrivi titoli efficaci per attrarre potenziali clienti.
 
@@ -62,7 +66,7 @@ ht-degree: 0%
 
 * Se possibile, utilizza la parola chiave sia nel titolo/titolo che in entrambe le righe della descrizione/del corpo. [1]
 
-* Includi sempre nel testo un invito all’azione, ad esempio &quot;Visualizza&quot;, &quot;Estrai&quot;, &quot;Ordine&quot; o &quot;Registrati&quot;, per aumentare il tasso di click-through. Per gli annunci di immagini, includi l’invito all’azione su un pulsante che si collega al sito web; per gli annunci rich media, includi l’invito all’azione in un fotogramma iniziale.
+* Includi sempre un call to action nel testo, ad esempio &quot;Visualizza&quot;, &quot;Estrai&quot;, &quot;Ordina&quot; o &quot;Registrati&quot;, per aumentare il tasso di click-through. Per gli annunci di immagini, includi il call to action su un pulsante che si collega al tuo sito web; per gli annunci rich media, includi il call to action in un fotogramma iniziale.
 
 * Presta attenzione a come l’inserzionista vuole che il suo marchio venga percepito. Ad esempio, un inserzionista potrebbe non voler far apparire la parola &quot;economico&quot; nei suoi annunci.
 

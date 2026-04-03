@@ -3,9 +3,12 @@ title: Gestire i modelli di feed
 description: Scopri come gestire i modelli di feed.
 feature: Creative Dynamic Creatives
 exl-id: 63f8af87-639c-45c8-b17f-99ce19594d35
-source-git-commit: ad7d2b02103b5a45dadcd51b60621c31e9db0d29
+TQID: https://experienceleague.adobe.com/5bEvYLuXmwYHifo--x98vtfZ7-tVsLcRq5LGSLilFvM
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: 476
 ht-degree: 0%
 
 ---
@@ -104,7 +107,7 @@ Almeno un campo del file di feed deve essere contrassegnato come &quot;[!UICONTR
 
 **[!UICONTROL Is Unique]:** indica che il campo è un ID univoco (chiave). Almeno un campo per modello di feed deve essere univoco. Per selezionare questa opzione, fare clic sul pulsante per spostarla a destra.<!-- **Note: The unique identifier is different from the feed "trigger" in experience settings. -->
 
-**[!UICONTROL Backend Field]:** Il campo [&#x200B; nel backend di Advertising Creative](/help/creative/appendix-available-feed-fields.md) mappato a [!UICONTROL Field Name] specificato nel file di feed.
+**[!UICONTROL Backend Field]:** Il campo [ nel backend di Advertising Creative](/help/creative/appendix-available-feed-fields.md) mappato a [!UICONTROL Field Name] specificato nel file di feed.
 
 >[!MORELIKETHIS]
 >
