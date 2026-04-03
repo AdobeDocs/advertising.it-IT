@@ -3,9 +3,19 @@ title: Ottimizzare le pagine di destinazione del sito web
 description: Scopri le best practice per ottimizzare le pagine di destinazione del tuo sito web.
 exl-id: cd94277c-a340-4161-8630-86a249eb3465
 feature: Search Best Practices
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/W-jWR37BWiSfwdR-CozewBAEbaIOGIRd-S4CLsPATVI
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: 724
 ht-degree: 0%
 
 ---
@@ -20,7 +30,7 @@ Per migliorare l’esperienza utente e i tassi di conversione, è importante ott
 
 >[!TIP]
 >
->Per ulteriori best practice specifiche per le campagne nei portfolio, consulta anche la sezione Guida all&#39;ottimizzazione > Gestione di Portfoli > Best practice per i Portfoli, disponibile all&#39;interno di Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
+>Per ulteriori best practice specifiche per le campagne nei portfolio, consulta anche la sezione Guida all’ottimizzazione > Gestione dei portfolio > Best practice per i portfolio, disponibile all’interno di Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 ## Progettare pagine di destinazione efficaci
 

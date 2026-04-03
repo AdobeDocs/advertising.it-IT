@@ -1,20 +1,25 @@
 ---
-title: Tag Adobe Advertising di mappatura della conversione
+title: Tag di mappatura della conversione Adobe Advertising
 description: Scopri il tag di mappatura della conversione basato su JavaScript per ITP 2.2, che consente ad Adobe Advertising di tenere traccia di un evento di conversione che si verifica su una pagina che non è la pagina di destinazione.
 exl-id: cbeaf3cd-f1ab-419d-bba8-58a1c8215352
 feature: Search Tracking
-source-git-commit: 2c755eaa01f5bc7606074bb0fc276901c21ef807
+TQID: https://experienceleague.adobe.com/gG9j9kbctKTam6mhevTy4jTf7f68iy26XQW5dDjd-ZA
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: 637
 ht-degree: 0%
 
 ---
 
-# Tag di mappatura della conversione JavaScript di Adobe Advertising
+# Tag di mappatura della conversione Adobe Advertising JavaScript
 
 *Inserzionisti con solo monitoraggio delle conversioni di Adobe Advertising*
 
-Il tag di mappatura della conversione basato su JavaScript Adobe Advertising, se utilizzato in aggiunta al tag di tracciamento della conversione v2 o v3 Adobe Advertising JavaScript, consente ad Adobe Advertising di tenere traccia di un evento di conversione che si verifica su una pagina che non è la pagina di destinazione. La soluzione ITP 2.2 memorizza il cookie di un utente nell’archivio locale in un iFrame di proprietà dell’inserzionista. L’archiviazione locale può quindi rendere persistente il valore del cookie dal clic a valle alla pagina di conversione.
+Il tag di mappatura della conversione basato su JavaScript di Adobe Advertising, se utilizzato in aggiunta al tag di tracciamento della conversione v2 o v3 di Adobe Advertising JavaScript, consente ad Adobe Advertising di tracciare un evento di conversione che si verifica su una pagina che non è la pagina di destinazione. La soluzione ITP 2.2 memorizza il cookie di un utente nell’archivio locale in un iFrame di proprietà dell’inserzionista. L’archiviazione locale può quindi rendere persistente il valore del cookie dal clic a valle alla pagina di conversione.
 
 Utilizza il tag di mappatura della conversione per garantire che Adobe Advertising possa tracciare tutte le conversioni che si verificano all’interno dei browser Apple Safari e Mozilla Firefox, che limitano la persistenza dei cookie di prime parti. <!-- For all requirements to track conversions from Safari, see "Track Conversions from Apple Safari Browsers." -->
 
@@ -79,7 +84,7 @@ Per utilizzare il tag di mappatura della conversione:
 
       * sostituisci `{AMO User ID}` con l&#39;ID utente univoco per il tuo account Search, Social e Commerce.
 
-Se non conosci il valore del tuo ID organizzazione o dell&#39;ID utente di Search, Social e Commerce, chiedi al team del tuo account Adobe.
+Se non conosci il valore del tuo ID organizzazione o dell&#39;ID utente di Ricerca, Social e Commerce, chiedi al team del tuo account Adobe.
 
 ### Esempi
 
@@ -188,4 +193,4 @@ Esempio:
 
 ## Convalidare la distribuzione dei tag {#validate-conversion-mapping}
 
-Chiedi al tuo Account Team Adobe di aiutarti con la convalida del tag di mappatura della conversione e del tag di conversione regolare (se lo hai aggiornato).
+Chiedi al team del tuo account Adobe di aiutarti con la convalida del tag di mappatura della conversione e del tag di conversione regolare (se lo hai aggiornato).

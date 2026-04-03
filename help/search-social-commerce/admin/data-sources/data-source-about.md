@@ -1,19 +1,33 @@
 ---
-title: Informazioni sulla sincronizzazione delle metriche di conversione  [!DNL Google Analytics]
+title: 'Informazioni sulla sincronizzazione delle metriche di conversione  [!DNL Google Analytics] '
 description: Scopri come sincronizzare [!DNL Google Analytics] le metriche di conversione per l'ottimizzazione e il reporting.
 role: User, Admin
 exl-id: 32d0ba22-5c27-4f50-9886-1c09d2da952c
 feature: Search Admin, Search Data Sources
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/dN7AVijGEiKM1o2iu3Fcb2D61pFkTguFOOu0qIe-mZk
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: 289
 ht-degree: 0%
 
 ---
 
 # Informazioni sulla sincronizzazione di [!DNL Google Analytics] metriche di conversione
 
-Search, Social e Commerce possono sincronizzare le metriche di conversione per un account [!DNL Google Analytics] specifico, la proprietà e la visualizzazione combinata per l&#39;ottimizzazione e il reporting. Le [visualizzazioni di pagina](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=page_tracking&amp;jump=ga_pageviews), [sessioni](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=session&amp;jump=ga_sessions), [Percentuale di mancato recapito](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=session&amp;jump=ga_bouncerate) (calcolate come mancati recapiti/sessioni) e [Durata sessione](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=session&amp;jump=ga_sessionduration) sono incluse automaticamente. Puoi includere fino a 16 metriche aggiuntive per origine dati.
+Search, Social e Commerce possono sincronizzare le metriche di conversione per un account [!DNL Google Analytics] specifico, la proprietà e la visualizzazione combinata per l&#39;ottimizzazione e il reporting. Le [visualizzazioni di pagina](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=page_tracking&jump=ga_pageviews), [sessioni](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=session&jump=ga_sessions), [Percentuale di mancato recapito](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=session&jump=ga_bouncerate) (calcolate come mancati recapiti/sessioni) e [Durata sessione](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=session&jump=ga_sessionduration) sono incluse automaticamente. Puoi includere fino a 16 metriche aggiuntive per origine dati.
 
 >[!NOTE]
 >
@@ -25,9 +39,9 @@ I passaggi seguenti descrivono il processo di sincronizzazione dei dati di conve
 
 1. [Eseguire le attività preliminari](data-source-prerequisites.md)
 
-   * Implementa un token di Adobe Advertising (parametro della stringa di query `ef_id`) negli URL della pagina di destinazione per tutti gli account pubblicitari applicabili.
+   * Implementa un token Adobe Advertising (`ef_id` parametro stringa query) negli URL della pagina di destinazione per tutti gli account pubblicitari applicabili.
 
-   * Acquisire il token di Adobe Advertising (parametro stringa di query `ef_id`) in un [!DNL Custom Dimension] in [!DNL Google Analytics].
+   * Acquisire il token Adobe Advertising (`ef_id` parametro stringa query) in un [!DNL Custom Dimension] in [!DNL Google Analytics].
 
 1. (Amministratore dell&#39;account agenzia, responsabile dell&#39;account agenzia, responsabile dell&#39;account di [!DNL Adobe] e solo utenti amministratore) [Crea un&#39;origine dati per [!DNL Google Analytics] account, proprietà e combinazione di visualizzazioni](data-source-configure.md).
 

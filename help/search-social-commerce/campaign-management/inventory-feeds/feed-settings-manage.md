@@ -3,9 +3,14 @@ title: Configurare le impostazioni dei dati dei feed
 description: Scopri come configurare le impostazioni che controllano la modalità di elaborazione dei dati dei feed.
 exl-id: 7eaac751-ecdf-4e73-9eae-a961bd9b7360
 feature: Search Inventory Feeds
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/kmaWPmbN4HFZmI0u9KE2PXMyt9jltTHAM9tWM0Bj7e0
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: 1155
 ht-degree: 0%
 
 ---
@@ -95,7 +100,7 @@ Il livello di magazzino per ogni riga proviene da una colonna nel file di feed, 
 >[!NOTE]
 >
 >* Per i file FTP, il servizio di feed verifica la presenza di aggiornamenti nella directory FTP ogni due ore (ore pari nel fuso orario PST). Questa opzione elabora tutti i file caricati dall’ultimo controllo.
->* Per gli account del centro commerciale, Search, Social e Commerce si sincronizzano con l’account ogni giorno alle 06:00 circa nel fuso orario dell’inserzionista. Questa opzione elabora tutti i dati aggiornati dall&#39;ultima sincronizzazione.
+>* Per gli account del centro commerciale, Search, Social e Commerce si sincronizzano con l&#39;account ogni giorno all&#39;incirca alle 06:00 nel fuso orario dell&#39;inserzionista. Questa opzione elabora tutti i dati aggiornati dall&#39;ultima sincronizzazione.
 >* I dati propagati sono disponibili dalle schede [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] e [!UICONTROL Ads] fino a quando non vengono inviati alla rete di annunci o alla visualizzazione [!UICONTROL Bulksheets].
 
 **[!UICONTROL Post to the SE]:** (gli inserzionisti caricano i file di dati tramite FTP o un account del centro commerciale) crea automaticamente i file dei fogli collettivi nei formati corretti per le reti pubblicitarie pertinenti dopo che i nuovi dati sono stati propagati tramite i modelli applicabili. Questa opzione rimuove anche i dati dalle schede [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] e [!UICONTROL Ads], a meno che non si verifichino errori in eventuali sottocomponenti.

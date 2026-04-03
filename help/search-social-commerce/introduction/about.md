@@ -3,28 +3,41 @@ title: Informazioni su Adobe Advertising Search, Social e Commerce
 description: Scopri di più su Search, Social e Commerce.
 exl-id: a28c49ba-f669-4d15-813b-b30673431d01
 feature: Search Introduction
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+TQID: https://experienceleague.adobe.com/BNgdfE-vefdswY5BPajlzPCI4syme0owusbCOq0QLVg
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: 762
 ht-degree: 0%
 
 ---
 
 # Informazioni su Adobe Advertising Search, Social e Commerce
 
-[!DNL Adobe] è il leader di mercato e di tecnologia nelle soluzioni di customer experience. Adobe Advertising semplifica la distribuzione di campagne pubblicitarie cross-channel per la gestione delle campagne relative al marchio e alle prestazioni su qualsiasi schermo, in qualsiasi formato. L’Adobe Advertising è costituito da tre soluzioni secondarie: Advertising Search, Social e Commerce per ricerche, acquisti, social, audience network e canali di prestazione massima; Advertising DSP (Demand Side Platform) per canali di visualizzazione; e un Advertising Creative per la creazione di esperienze dell’utente finale per i tuoi annunci di visualizzazione.
+[!DNL Adobe] è il leader di mercato e di tecnologia nelle soluzioni di customer experience. Adobe Advertising semplifica la distribuzione di campagne pubblicitarie cross-channel per la gestione delle campagne relative al marchio e alle prestazioni su qualsiasi schermo, in qualsiasi formato. Adobe Advertising è costituito da tre soluzioni secondarie: Advertising Search, Social e Commerce per i canali di ricerca, shopping, social, audience network e performance max; Advertising DSP (Demand Side Platform) per i canali di visualizzazione e Advertising Creative per la creazione di esperienze per gli utenti finali per i tuoi annunci di visualizzazione.
 
-Come parte di un Adobe Advertising, Advertising Search, Social e Commerce combina una gestione degli annunci basata su portfolio all’avanguardia con una previsione intelligente delle campagne e una distribuzione mirata degli annunci per una pubblicità ottimizzata per i dati.
+Come parte di Adobe Advertising, Advertising Search, Social e Commerce combina una gestione degli annunci basata su portfolio all’avanguardia con una previsione intelligente delle campagne e una distribuzione mirata degli annunci per una pubblicità ottimizzata per i dati.
 
 ## Tecnologia basata sull’intelligenza artificiale per l’ottimizzazione degli annunci
 
 Search, Social e Commerce automatizzano e ottimizzano la gestione di offerte e budget per le campagne pubblicitarie su reti pubblicitarie all’interno dei limiti degli obiettivi aziendali, delle metriche, del budget e di altri vincoli di business dell’inserzionista. Tiene traccia della cronologia di clic, costo e conversione per ciascuna delle parole chiave e degli annunci dell’inserzionista, nonché delle informazioni sull’andamento delle offerte su ciascun canale di marketing. Utilizzando un approccio basato sulla teoria del portfolio, la funzionalità di ottimizzazione confronta tutte le allocazioni possibili del budget in un intero portfolio di campagne per determinare le offerte e i budget delle campagne che produrranno il massimo ritorno possibile sulla spesa pubblicitaria, eseguendo di conseguenza le offerte, i budget e gli obiettivi strategici delle offerte. La funzionalità di ottimizzazione monitora costantemente le parole chiave e gli annunci pubblicitari di un inserzionista, regolando dinamicamente offerte, budget e target in base ai cambiamenti del mercato.
 
-Sono disponibili diversi tipi di ottimizzazione, che consentono a Search, Social e Commerce e alla rete di annunci di diversi livelli di controllo sull’ottimizzazione delle offerte. A seconda del tipo di ottimizzazione, è possibile ottimizzare i portfolio utilizzando le conversioni rilevate da Adobe Advertising, Adobe Analytics, [!DNL Google Ads], [!DNL Google Analytics] o altri feed aziendali di prime parti.
+Sono disponibili diversi tipi di ottimizzazione, che consentono a Search, Social e Commerce e alla rete di annunci di diversi livelli di controllo sull’ottimizzazione delle offerte. A seconda del tipo di ottimizzazione, puoi ottimizzare i portfolio utilizzando le conversioni tracciate da Adobe Advertising, Adobe Analytics, [!DNL Google Ads], [!DNL Google Analytics] o altri feed aziendali di prime parti.
 
 A seconda del ruolo, è possibile visualizzare simulazioni delle prestazioni del portfolio, che utilizzano la modellazione predittiva per identificare il punto di spesa ottimale e rapporti dettagliati sulla precisione delle previsioni. Tutti gli utenti possono utilizzare lo strumento Spend Recommendation (Consigli sulla spesa) per identificare la distribuzione ottimale del budget tra i portfolio.
 
-Per ulteriori informazioni, consulta il capitolo Portfoli nella Guida all’ottimizzazione, disponibile in Search, Social e Commerce.
+Per ulteriori informazioni, consulta il capitolo Portfolio nella Guida all’ottimizzazione, disponibile in Search, Social e Commerce.
 
 ## Interfaccia per la gestione della pubblicità
 
@@ -50,11 +63,11 @@ Consulta &quot;[Inventario supportato](/help/search-social-commerce/introduction
 
 Le integrazioni native con Adobe Analytics e Adobe Audience Manager consentono di collegare i dati e i segmenti di pubblico per il targeting degli annunci, la creazione di tipi di pubblico [!DNL Google Ads], l&#39;ottimizzazione e le attività di reporting/analisi.
 
-Per ulteriori informazioni sulle integrazioni con questi e altri prodotti di Adobe, vedi &quot;[Integrazione con soluzioni e servizi Adobe Experience Cloud](/help/search-social-commerce/introduction/integrations.md).&quot;
+Per ulteriori informazioni sulle integrazioni con questi e altri prodotti Adobe, vedi &quot;[Integrazione con soluzioni e servizi Adobe Experience Cloud](/help/search-social-commerce/introduction/integrations.md).&quot;
 
 ## Tracciamento delle conversioni
 
-Adobe Advertising fornisce facoltativamente un servizio proprietario di tracciamento delle conversioni basato su pixel per monitorare le conversioni online per gli annunci che si collegano ai siti web. Quando utilizzi il servizio di tracciamento dei pixel, Adobe Advertising tiene traccia dei clic sugli annunci e delle conversioni/transazioni risultanti sui siti web, mappando con precisione ogni sequenza di clic e impression sulle conversioni. Puoi utilizzare le conversioni tracciate per l’ottimizzazione di offerte e budget.
+Adobe Advertising fornisce opzionalmente un servizio proprietario di tracciamento delle conversioni basato su pixel per monitorare le conversioni online per gli annunci che si collegano ai siti web. Quando utilizzi il servizio di tracciamento dei pixel, Adobe Advertising tiene traccia dei clic sugli annunci e delle conversioni/transazioni risultanti sui siti web, mappando con precisione ogni sequenza di clic e impression sulle conversioni. Puoi utilizzare le conversioni tracciate per l’ottimizzazione di offerte e budget.
 
 Il servizio ti consente di ottimizzare in base a regole di attribuzione dei dati diverse per gli eventi che portano a una conversione (ad esempio, attribuendo le conversioni all’ultimo evento correlato o ponderando l’ultimo evento di più). Consente inoltre di accedere a rapporti avanzati che possono essere utilizzati per migliorare i tassi di conversione, la visibilità nelle assistenze al clic e l’analisi delle tendenze giornaliere e infragiornaliere.
 

@@ -3,9 +3,17 @@ title: Domande frequenti sul tracciamento
 description: Scopri le risposte alle domande comuni sul tracciamento, inclusa la risoluzione dei problemi.
 exl-id: e5302c09-0b40-47ae-bc88-9299e6bd3044
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/KLlUxOpfUEgKdbfbj2ri0o1brljc6spN4AtMRKXrdrQ
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: 1190
 ht-degree: 0%
 
 ---
@@ -16,12 +24,12 @@ ht-degree: 0%
 
 +++Posso tenere traccia di campagne che Adobe Advertising non gestisce?
 
-Sì. Se Search, Social e Commerce sincronizzano uno degli account della rete di annunci, tiene traccia dei dati dei clic della rete di annunci per tutti i [tipi di campagna supportati](/help/search-social-commerce/introduction/supported-inventory.md) in tale account. Inoltre, tiene traccia dei dati di conversione se hai aggiunto il reindirizzamento Search, Social e Commerce agli URL di destinazione dell’annuncio e/o della parola chiave o ai modelli di tracciamento e hai implementato il tracciamento della conversione nelle pagine di conversione. Chiarisci con il tuo Account Team Adobe quali campagne desideri semplicemente monitorare in Search, Social e Commerce e quali desideri che gestiscano.
+Sì. Se Search, Social e Commerce sincronizzano uno degli account della rete di annunci, tiene traccia dei dati dei clic della rete di annunci per tutti i [tipi di campagna supportati](/help/search-social-commerce/introduction/supported-inventory.md) in tale account. Inoltre, tiene traccia dei dati di conversione se hai aggiunto il reindirizzamento Search, Social e Commerce agli URL di destinazione dell’annuncio e/o della parola chiave o ai modelli di tracciamento e hai implementato il tracciamento della conversione nelle pagine di conversione. Chiarisci con il tuo account team Adobe quali campagne desideri semplicemente monitorare in Search, Social e Commerce e quali desideri che gestiscano.
 +++
 
-+++Come si ottiene l’attribuzione multi-evento?
++++Come si ottiene l’attribuzione di più eventi?
 
-Per gli inserzionisti che utilizzano i tag di tracciamento delle conversioni di Search, Social e Commerce o Adobe Analytics, in Adobe Advertising sono disponibili diverse opzioni per l’attribuzione dei dati di conversione a una serie di eventi che portano a una conversione. Un’impostazione a livello di inserzionista determina come attribuire i dati di conversione tra gli eventi, anche quando si verificano tra più canali pubblicitari, purché i canali consentano il tracciamento delle impression a livello di evento. Per impostazione predefinita, le conversioni sono attribuite all’ultimo evento (più recente), ma l’impostazione può essere configurata in modo diverso, ad esempio per attribuire le conversioni al primo evento o per ponderare tutti gli eventi in modo uniforme. La modifica della regola di attribuzione influisce sul calcolo delle offerte future.
+Per gli inserzionisti che utilizzano i tag di tracciamento delle conversioni di Search, Social e Commerce o Adobe Analytics, Adobe Advertising fornisce diverse opzioni per l’attribuzione dei dati di conversione a una serie di eventi che portano a una conversione. Un’impostazione a livello di inserzionista determina come attribuire i dati di conversione tra gli eventi, anche quando si verificano tra più canali pubblicitari, purché i canali consentano il tracciamento delle impression a livello di evento. Per impostazione predefinita, le conversioni sono attribuite all’ultimo evento (più recente), ma l’impostazione può essere configurata in modo diverso, ad esempio per attribuire le conversioni al primo evento o per ponderare tutti gli eventi in modo uniforme. La modifica della regola di attribuzione influisce sul calcolo delle offerte future.
 
 Gli inserzionisti che forniscono tutti i dati di conversione in un file di feed devono attribuire la conversione agli eventi di transazione correlati.
 
@@ -33,7 +41,7 @@ Gli inserzionisti che forniscono tutti i dati di conversione in un file di feed 
 
 +++In che modo Adobe Advertising identifica le transazioni duplicate?
 
-Le transazioni duplicate possono verificarsi quando un utente aggiorna la pagina di conferma dopo aver completato una transazione. Adobe Advertising utilizza l&#39;attributo `ev_transid` per eliminare le transazioni duplicate con lo stesso ID transazione e lo stesso valore di proprietà.
+Le transazioni duplicate possono verificarsi quando un utente aggiorna la pagina di conferma dopo aver completato una transazione. Adobe Advertising utilizza l’attributo `ev_transid` per eliminare le transazioni duplicate con lo stesso ID transazione e lo stesso valore della proprietà.
 
 Di seguito è riportata la logica di deduplicazione di Adobe Advertising:
 
@@ -59,14 +67,14 @@ Nell&#39;account o nella campagna, modifica il metodo di tracciamento in &quot;[
 
 +++Come faccio a sapere quale metrica di conversione proviene da un feed di dati o è tracciata dal tag di tracciamento della conversione di Adobe Advertising?
 
-In un [!UICONTROL Transaction Report] è possibile stabilire se una metrica di conversione inclusa è stata tracciata dal pixel di tracciamento della conversione di Adobe Advertising se si include la colonna personalizzata &quot;[!UICONTROL Tracking URL]&quot;. Gli URL di tracciamento con il pixel di tracciamento Adobe Advertising iniziano con `http://pixel.everesttech.net`.
+In un [!UICONTROL Transaction Report], è possibile stabilire se una metrica di conversione inclusa è stata tracciata dal pixel di tracciamento della conversione di Adobe Advertising se si include la colonna personalizzata &quot;[!UICONTROL Tracking URL]&quot;. Gli URL di tracciamento con il pixel di tracciamento di Adobe Advertising iniziano con `http://pixel.everesttech.net`.
 +++
 
 +++Cosa sono le transazioni orfane?
 
-Le transazioni orfane sono eventi di transazione che non possono essere associati a una parola chiave o a un annuncio specifico. Adobe Advertising attribuisce le transazioni/entrate a una parola chiave o a un annuncio confrontando gli ID di tracciamento ricevuti con l’evento entrate con l’ID di tracciamento univoco nell’URL di tracciamento della parola chiave o dell’annuncio.
+Le transazioni orfane sono eventi di transazione che non possono essere associati a una parola chiave o a un annuncio specifico. Adobe Advertising attribuisce le transazioni o i ricavi a una parola chiave o a un annuncio confrontando gli ID di tracciamento ricevuti con l’evento ricavi con l’ID di tracciamento univoco nell’URL di tracciamento della parola chiave o dell’annuncio.
 
-Quando un Account Team Adobe sospetta che le transazioni orfane siano la causa di un calo dei ricavi, il team di Assistenza clienti controlla la presenza di orfani e, se ne trova qualcuno, indaga sul problema.
+Quando un Account Team di Adobe sospetta che le transazioni orfane siano la causa di un calo dei ricavi, il team di Assistenza clienti controlla la presenza di orfani e, se ne trova qualcuno, indaga sul problema.
 
 Gli orfani si verificano nelle seguenti situazioni.
 
@@ -122,5 +130,5 @@ Questo non dovrebbe accadere con la visualizzazione o gli annunci social.
 
 * Se gestisci le tue parole chiave e i tuoi annunci, crea un file bulksheet con gli URL corretti per gli URL duplicati e pubblicalo sull&#39;account appropriato utilizzando l&#39;opzione **[!UICONTROL Generate Tracking URLs]**, che rigenera gli URL per tutte le parole chiave e gli annunci.
 
-* Se un Account Team di Adobi gestisce le parole chiave, chiedi loro di creare nuovi URL per gli URL duplicati.
+* Se un team di account Adobe gestisce le parole chiave, chiedi loro di creare nuovi URL per gli URL duplicati.
 +++

@@ -3,9 +3,14 @@ title: Quando e come generare URL di tracciamento dei clic per rete di annunci e
 description: Scopri quando gli URL di tracciamento dei clic vengono aggiunti automaticamente e quando e come aggiungerli manualmente per vari componenti della campagna.
 exl-id: 896de0c1-75ed-450c-b995-893f1a63e5ce
 feature: Search Tracking
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/coG6SeshFIDQwfuv5RNK3Q9dhLdj4uXzl0bZs4syil8
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: 883
 ht-degree: 0%
 
 ---

@@ -3,9 +3,14 @@ title: Visualizzare in anteprima un contenuto creativo
 description: Scopri come aprire un’anteprima di un contenuto creativo.
 feature: Creative Standard Creatives
 exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+TQID: https://experienceleague.adobe.com/T6NV9uopJw7nQ2Janpw6BMGK0N2Ya0tzGckB75qbg0M
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: 198
 ht-degree: 0%
 
 ---
@@ -26,7 +31,7 @@ Puoi visualizzare in anteprima un contenuto creativo così come verrà visualizz
 
 1. (Facoltativo se disponibile) Per ridimensionare l&#39;immagine nello schermo, selezionare un&#39;opzione nell&#39;elenco **[!UICONTROL Zoom]**, dal 10% al 100% delle dimensioni dell&#39;immagine.
 
-1. (Creativi HTML5 flessibili; facoltativo) Per scorrere tra i fotogrammi per il contenuto creativo, fare clic su **\&lt;** e **\>**.
+1. (Creative HTML5 flessibili; facoltativo) Per scorrere tra i fotogrammi per il contenuto creativo, fare clic su **\&lt;** e **\>**.
 
 1. (Creativi video; facoltativo) Effettua una delle seguenti operazioni utilizzando i controlli del contenuto creativo:
 

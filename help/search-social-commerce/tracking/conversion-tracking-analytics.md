@@ -3,9 +3,18 @@ title: Tracciamento delle conversioni Adobe Analytics
 description: Scopri come utilizzare il tracciamento delle conversioni di Adobe Analytics per le campagne in Adobe Advertising.
 exl-id: c72cc988-5b51-4e1a-8cb6-6c3ca2a0226b
 feature: Search Tracking
-source-git-commit: a6dc9edb12484499069a68222a3007ae08d9dfea
+TQID: https://experienceleague.adobe.com/CM0S4RvR4RJ5Ylta5EJTdZh-VDDHYIfa7Qsd1Dm4D78
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: 297
 ht-degree: 0%
 
 ---
@@ -14,7 +23,7 @@ ht-degree: 0%
 
 *Inserzionisti solo con integrazione Adobe Advertising-Adobe Analytics*
 
-Per gli inserzionisti con un&#39;integrazione Adobe Advertising-Adobe Analytics, Advertising Cloud può collegare i clic e le impression degli annunci con le metriche di coinvolgimento e conversione del sito monitorate da [!DNL Analytics] quando utilizzi un reindirizzamento con token (parametro `ef_id`) negli URL di tracciamento dei clic per le [unità offerte](/help/search-social-commerce/glossary.md#a-b). I dati di [!DNL Analytics] vengono inviati automaticamente ad Advertising Cloud tramite un file di feed giornaliero.
+Per gli inserzionisti con un&#39;integrazione Adobe Advertising-Adobe Analytics, Advertising Cloud può collegare i tuoi clic e le tue impression pubblicitarie con le metriche di coinvolgimento e conversione del sito monitorate da [!DNL Analytics] quando utilizzi un reindirizzamento con token (parametro `ef_id`) negli URL di tracciamento dei clic per le [unità di offerta](/help/search-social-commerce/glossary.md#a-b). I dati [!DNL Analytics] vengono inviati automaticamente ad Advertising Cloud tramite un file di feed giornaliero.
 
 Per ulteriori informazioni sull&#39;integrazione, vedere &quot;[Panoramica di [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/it/docs/advertising/integrations/analytics/overview){target="_blank"}&quot;.
 
@@ -26,9 +35,9 @@ Per ulteriori informazioni sull&#39;integrazione, vedere &quot;[Panoramica di [!
 
 1. In [!DNL Analytics], il team di implementazione di Search, Social e Commerce modifica le seguenti impostazioni di configurazione per ogni suite di rapporti:
 
-   * La scadenza per `ef_id` [!DNL eVar] è stata modificata per corrispondere all&#39;intervallo di lookback del clic dell&#39;inserzionista, ad Adobe Advertising.
+   * La scadenza per `ef_id` [!DNL eVar] è stata modificata per corrispondere all&#39;intervallo di lookback su clic dell&#39;inserzionista per Adobe Advertising.
 
-   * L’ID utente Adobe Advertising.
+   * ID utente di Adobe Advertising.
 
    * Eventi standard e personalizzati da utilizzare per l’ottimizzazione.
 

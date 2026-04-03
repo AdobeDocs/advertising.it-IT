@@ -3,9 +3,16 @@ title: Analizzare i rapporti per perfezionare le parole chiave e le impostazioni
 description: Scopri le best practice per l’utilizzo dei rapporti per perfezionare le parole chiave e le impostazioni delle campagne.
 exl-id: f1e3834b-2a6c-4d41-9355-70435a9e83e6
 feature: Search Best Practices
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+TQID: https://experienceleague.adobe.com/RJfrnMplFPld70TgLzc98p77-8pnM870Vv4ETt2gFeg
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: 255
 ht-degree: 0%
 
 ---
@@ -20,11 +27,11 @@ I rapporti avanzati consentono di prendere decisioni strategiche sulle parole ch
 
 * Sii prudente nell’escludere i siti web dalle campagne, in quanto i contenuti e le modifiche al mercato possono modificare rapidamente il valore del traffico di un sito.
 
-Per ulteriori informazioni sulla regolazione delle parole chiave e delle impostazioni della campagna, vedere &quot;Regolazione delle strategie del portfolio&quot; nella sezione Portfoli della Guida all&#39;ottimizzazione, disponibile all&#39;interno di Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
+Per ulteriori informazioni sulla regolazione delle parole chiave e delle impostazioni della campagna, vedere &quot;Regolazione delle strategie del portfolio&quot; nella sezione Portfolio della Guida all&#39;ottimizzazione, disponibile all&#39;interno di Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 >[!TIP]
 >
->Per ulteriori best practice specifiche per le campagne nei portfolio, consulta anche la sezione Guida all&#39;ottimizzazione > Gestione di Portfoli > Best practice per i Portfoli, disponibile all&#39;interno di Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
+>Per ulteriori best practice specifiche per le campagne nei portfolio, consulta anche la sezione Guida all’ottimizzazione > Gestione dei portfolio > Best practice per i portfolio, disponibile all’interno di Search, Social e Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 >[!MORELIKETHIS]
 >

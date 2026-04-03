@@ -3,9 +3,17 @@ title: Requisiti dei file per i file di feed di conversione
 description: Fai riferimento ai requisiti per i file di feed di conversione.
 exl-id: abc28394-3e00-447f-a04e-078fa9883a64
 feature: Search Tracking
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+TQID: https://experienceleague.adobe.com/y5kEsTB71WWQE6RGYdsIq0GFuZI037tRbRQTwuOP8aM
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: 360
 ht-degree: 0%
 
 ---
@@ -18,7 +26,7 @@ Di seguito sono riportati i requisiti per il formato di file, i campi dati obbli
 
 Il file di dati deve essere in formato testo normale (TXT), valori delimitati da virgole (CSV) o valori delimitati da tabulazioni (TSV). Il file può essere costituito da una riga di intestazione e da righe di dati con valori separati da tabulazioni, virgole o altri caratteri (ma non spazi):
 
-* **Riga intestazione:** (facoltativo) La prima riga del file è un&#39;intestazione, che specifica i nomi di campo (o di colonna) richiesti in un ordine specifico, separati da tabulazioni o virgole. I nomi delle colonne richiesti includono le metriche di conversione che Adobe Advertising sta tracciando come conversioni.
+* **Riga intestazione:** (facoltativo) La prima riga del file è un&#39;intestazione, che specifica i nomi di campo (o di colonna) richiesti in un ordine specifico, separati da tabulazioni o virgole. I nomi delle colonne richiesti includono le metriche di conversione che Adobe Advertising sta monitorando come conversioni.
 
 * **Righe dati:** Ogni riga successiva include campi dati nello stesso ordine dell&#39;intestazione e separati da tabulazioni o virgole. Se il primo record non è un&#39;intestazione, ogni riga di dati deve includere tutti i campi possibili in un ordine specificato. I valori di tutti gli ID e le metriche di conversione devono essere alfanumerici.
 
@@ -34,7 +42,7 @@ Invia il file tramite il protocollo di trasferimento SFTP, utilizzando la porta 
 
 >[!TIP]
 >
->I feed di dati di conversione vengono elaborati più volte al giorno. Carica il feed giornaliero il prima possibile dopo le 12:00, ora locale, in modo che Adobe Advertising possa elaborare i dati e renderli disponibili nell’interfaccia utente di reporting nelle prime ore del mattino.
+>I feed di dati di conversione vengono elaborati più volte al giorno. Carica il feed giornaliero il prima possibile dopo le 12:00 ora locale di mezzanotte in modo che Adobe Advertising possa elaborare i tuoi dati e renderli disponibili nell’interfaccia utente di reporting nelle prime ore del mattino.
 
 >[!MORELIKETHIS]
 >

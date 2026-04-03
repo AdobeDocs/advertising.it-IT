@@ -2,9 +2,25 @@
 title: Configurare test A/B per annunci Adobe Advertising Search, Social e Commerce in Adobe Target
 description: Scopri come impostare un test A/B in [!DNL Target] per [!DNL Google Ads] e [!DNL Microsoft Advertising] annunci in Search, Social e Commerce.
 exl-id: 564c7d61-beec-40cf-ac68-83d1e87e3008
-source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
+TQID: https://experienceleague.adobe.com/eu1dRdsQlJX4IlHLTUDyJ69r0txFvFUdzUiXpSAlpU8
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: 867
 ht-degree: 0%
 
 ---
@@ -44,7 +60,7 @@ Vedere le sezioni seguenti per i prerequisiti, le istruzioni per impostare test 
 
 Le istruzioni seguenti evidenziano le informazioni relative al caso d’uso Ricerca, Social e Commerce.
 
-1. [Accedi ad Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html?lang=it).
+1. [Accedi ad Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
 
 1. [Creare un test A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=it):
 
@@ -119,7 +135,7 @@ Le dimensioni seguenti si riferiscono a [!DNL Analytics for Target]:
 
 In Analysis Workspace, se noti che i dati di attività ed esperienze sono minimi o non vengono popolati, effettua le seguenti operazioni:
 
-* Verificare che lo stesso [!UICONTROL Supplemental Data ID] (SDID) sia utilizzato per [!DNL Target] e [!DNL Analytics]. Puoi verificare i valori SDID utilizzando [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html?lang=it) nella pagina di destinazione in cui la campagna guida gli utenti.
+* Verificare che lo stesso [!UICONTROL Supplemental Data ID] (SDID) sia utilizzato per [!DNL Target] e [!DNL Analytics]. Puoi verificare i valori SDID utilizzando [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html) nella pagina di destinazione in cui la campagna guida gli utenti.
 
 [Valori di Supplemental Data ID (SDID) in Adobe Debugger](/help/integrations/assets/target-troubleshooting-sdid.png)
 
@@ -134,7 +150,7 @@ In Analysis Workspace, se noti che i dati di attività ed esperienze sono minimi
 ## Ulteriori informazioni
 
 * [Integrare Target con Analytics](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html?lang=it) - Spiega come impostare il reporting di [!DNL Target] in Analysis Workspace.
-* [Panoramica test A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html?lang=it): descrive le attività test A/B, utilizzabili con annunci Search, Social e Commerce.
+* [Panoramica test A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html): descrive le attività test A/B, utilizzabili con annunci Search, Social e Commerce.
 * [Panoramica di [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) - Introduce [!DNL Analytics for Advertising], che consente di tenere traccia delle interazioni del sito click-through e view-through nelle istanze di Analytics.
 
 >[!MORELIKETHIS]

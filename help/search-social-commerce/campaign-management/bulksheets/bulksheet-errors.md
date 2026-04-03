@@ -3,10 +3,15 @@ title: Errori di bulksheet
 description: Fai riferimento ai potenziali motivi di ogni errore di bulksheet.
 exl-id: dc3559b0-05c0-4896-b9e9-67084f56ab80
 feature: Search Bulksheets
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/7jGIKXI-Un6mnstJlPDqk0q4yB6k3tEsqHngD1cCyEw
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 0%
+source-wordcount: 1137
+ht-degree: 1%
 
 ---
 
@@ -35,7 +40,7 @@ I seguenti errori possono essere inclusi nella colonna [!UICONTROL EF Error] nei
 
 | Categoria | Messaggio | Descrizione |
 |----|----|----|
-| Generale | [!UICONTROL Internal Error: Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | Operazione non riuscita a causa di un errore non categorizzato o non gestito. Se il problema persiste, contatta il team dell’account Adobe per indagare sulla causa. |
+| Generale | [!UICONTROL Internal Error: Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | Operazione non riuscita a causa di un errore non categorizzato o non gestito. Se il problema persiste, contatta il team del tuo account Adobe per indagare sulla causa. |
 | | [!UICONTROL Pre-Sync Failed. Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | Non è stato possibile sincronizzare Ricerca, Social e Commerce con la rete di annunci prima di creare il bulksheet, quindi non è stato creato alcun bulksheet. Se il problema persiste, contatta il team del tuo account Adobe. |
 
 ### Errori di caricamento

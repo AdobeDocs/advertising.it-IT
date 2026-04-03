@@ -3,9 +3,14 @@ title: Pubblicare i dati della campagna generati dai feed nelle reti di annunci
 description: Scopri come pubblicare i dati generati dai feed di dati di inventario nelle reti di annunci.
 exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/TOTmjFuRPfH1vnyHwFvLBzlu7zBRQ3xHqKnG9TUC6IE
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: 846
 ht-degree: 0%
 
 ---
@@ -50,7 +55,7 @@ Per una pubblicazione corretta, tutti i gruppi di annunci devono essere assegnat
 
             * **[!UICONTROL Start Time]:** Una data e un&#39;ora future in cui il file del bulksheet deve essere inviato alla rete di annunci. Per impostazione predefinita, il file viene inviato alle 00:00 (12:00) del giorno successivo. **Nota:** per i file di grandi dimensioni che richiedono un&#39;elaborazione più lunga, i dati pubblicati non sono immediatamente disponibili nelle visualizzazioni di gestione delle campagne o nell&#39;ad manager della rete.
 
-            * **[!UICONTROL End Time]:** Una data e un&#39;ora future in cui gli annunci pubblicati potranno essere sospesi o eliminati in base all&#39;[impostazione dei dati di feed](feed-settings-manage.md#feed-data-settings) per &quot;[!UICONTROL When the Scheduled End Date is reached]&quot;. Per impostazione predefinita, l’ora di fine è alle 00:00 (12:00) 30 giorni a partire da oggi. Selezionare **[!UICONTROL None]** per mantenere i dati attivi indefinitamente (o fino a quando non si propagano nuovi dati per il modello) o specificare una data e un&#39;ora.
+            * **[!UICONTROL End Time]:** Una data e un&#39;ora future in cui gli annunci pubblicati potranno essere sospesi o eliminati in base all&#39;[impostazione dei dati di feed](feed-settings-manage.md#feed-data-settings) per &quot;[!UICONTROL When the Scheduled End Date is reached]&quot;. Per impostazione predefinita, l&#39;ora di fine è alle 00:00 (12:00 a.m.) 30 giorni da oggi. Selezionare **[!UICONTROL None]** per mantenere i dati attivi indefinitamente (o fino a quando non si propagano nuovi dati per il modello) o specificare una data e un&#39;ora.
 
               Per specificare una data, utilizzare il formato GG/MM/AAAA o GG/M/AAAA oppure fare clic su ![Calendario](/help/search-social-commerce/assets/calendar.png "Calendario") per aprire il calendario e [selezionare una data](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Per modificare un&#39;ora, immettere l&#39;ora nel formato di 24 ore HH/MM o H/M oppure selezionare un&#39;ora (in intervalli di 30 minuti) dall&#39;elenco.
 

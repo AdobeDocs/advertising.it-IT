@@ -3,9 +3,14 @@ title: Quando vengono creati o eliminati i componenti del conto dai feed di inve
 description: Scopri quali situazioni creano ed eliminano i componenti del conto durante la registrazione dei feed di inventario.
 exl-id: 39a3cc2c-f956-4a89-a69d-687a27a38a1e
 feature: Search Inventory Feeds
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+TQID: https://experienceleague.adobe.com/lo1FGJlZyyrO49IVCt308TaH65Eq-ZgRTafKSMTomHI
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: 848
 ht-degree: 0%
 
 ---
@@ -24,7 +29,7 @@ Quando un file di feed inventario viene propagato tramite un modello, i componen
 |----|----|----|
 | I dati dei feed includono un nuovo valore per una colonna utilizzata in un nome di campagna, un nome di gruppo di annunci, una parola chiave o un gruppo di prodotti. | File precedenti:<br>Campaign=Hats<br>Campaign=Gloves<br><br>Nuovo file:<br>Campaign=Shoes | Se non esiste nella rete di annunci, viene creata una nuova campagna, un nuovo gruppo di annunci, una parola chiave o un nuovo gruppo di prodotti. |
 | I dati dei feed contengono un nuovo valore per una colonna utilizzata in un annuncio. | File precedente: un annuncio incluso prezzo=20<br><br>Nuovo file: per lo stesso annuncio, prezzo=10 | Quando la copia dell&#39;annuncio per [!DNL Microsoft Advertising] annunci di testo espansi, [!DNL Yahoo! Japan ads] o [!DNL Yandex] annunci viene modificata, l&#39;annuncio esistente viene eliminato e ne viene creato uno nuovo.<br><br>Quando la copia dell&#39;annuncio viene modificata per altri tipi di annunci o quando la colonna applicabile viene utilizzata per un parametro dell&#39;annuncio [!DNL Google Ads] ({param1} o {param2}) in un annuncio, l&#39;annuncio esistente viene aggiornato. |
-| Le impostazioni del modello per la campagna, il gruppo di annunci, la parola chiave o il gruppo di prodotti sono cambiate dall’ultima propagazione. | Impostazione precedente:Keyword=[Parola chiave]<br><br>Nuova impostazione: Parola chiave=&lt;colore>[Parola chiave] | Se non esiste nella rete di annunci, viene creata una nuova campagna, un nuovo gruppo di annunci, una parola chiave o un nuovo gruppo di prodotti. |
+| Le impostazioni del modello per la campagna, il gruppo di annunci, la parola chiave o il gruppo di prodotti sono cambiate dall’ultima propagazione. | Impostazione precedente:Keyword=[Parola chiave]<br><br>Nuova impostazione: Parola chiave=&lt;Colore>[Parola chiave] | Se non esiste nella rete di annunci, viene creata una nuova campagna, un nuovo gruppo di annunci, una parola chiave o un nuovo gruppo di prodotti. |
 | Le impostazioni del modello per un annuncio sono state modificate dopo l’ultima propagazione. | Impostazione precedente: descrizione annuncio=&quot;Acquista ora [categoria].&quot;<br><br>Nuova impostazione: descrizione annuncio=&quot;Acquista [marchio] ora.&quot; | Quando la copia dell&#39;annuncio per [!DNL Microsoft Advertising] annunci di testo espansi, [!DNL Yahoo! Japan ads] o [!DNL Yandex] annunci viene modificata, l&#39;annuncio esistente viene eliminato e ne viene creato uno nuovo.<br><br>Quando la copia dell&#39;annuncio viene modificata per altri tipi di annunci o quando la modifica riflette una modifica nella colonna utilizzata per un singolo parametro dell&#39;annuncio [!DNL Google Ads] ({param1} o {param2}) in un annuncio, l&#39;annuncio esistente viene aggiornato. |
 | I nuovi dati del feed non includono una riga per una campagna o un gruppo di annunci esistente. | n/d | Le campagne e i gruppi di annunci esistenti rimangono invariati. |
 | I nuovi dati del feed non includono una riga per un gruppo di annunci, un annuncio, una parola chiave o un gruppo di prodotti esistente. | n/d | Il gruppo di annunci, l&#39;annuncio, la parola chiave o il gruppo di prodotti esistente rimane invariato, è in pausa o viene eliminato, in base alle [impostazioni dei dati del feed](feed-settings-manage.md#feed-data-settings). |

@@ -3,9 +3,14 @@ title: '[!DNL Microsoft Advertising] impostazioni annunci multimediali'
 description: Fai riferimento alle impostazioni per  [!DNL Microsoft Advertising] annunci multimediali.
 exl-id: 920ecb8d-e179-4946-be60-64f00bbabb70
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/BmzclS43QHM1mtVus2pIdJqEh0B-tUQVKyUFdzH4iEw
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: 203
 ht-degree: 0%
 
 ---
@@ -16,7 +21,7 @@ Gli annunci multimediali sono disponibili sulla rete di ricerca. La rete di annu
 
 ## Dettagli annuncio reattivo
 
-**[!UICONTROL Images]:** Fino a 15 JPEG, JPG o immagini PNG per l&#39;annuncio, incluse le seguenti dimensioni:
+**[!UICONTROL Images]:** Fino a 15 immagini JPEG, JPG o PNG per l&#39;annuncio, incluse le seguenti dimensioni:
 
 * Almeno un&#39;immagine con proporzioni 1.91:1.
 
@@ -36,9 +41,9 @@ Visualizza le proporzioni e le dimensioni consentite per [annunci multimediali](
 
 **[!UICONTROL Ad Text]:** almeno due descrizioni e fino a quattro descrizioni contenenti almeno una parola e un massimo di 90 caratteri ciascuna.
 
-**[!UICONTROL Call to Action]:** Invito all&#39;azione da includere nell&#39;annuncio. Per impostazione predefinita, l’opzione Automatizzato è selezionata e la rete di annunci seleziona l’invito all’azione. Facoltativamente, puoi scegliere un’azione diversa.
+**[!UICONTROL Call to Action]:** il call to action da includere nell&#39;annuncio. Per impostazione predefinita, l’opzione Automatizzato è selezionata e la rete di annunci seleziona il call to action. Facoltativamente, puoi scegliere un’azione diversa.
 
-**[!UICONTROL Call to Action Language]:** Linguaggio per le opzioni di invito all&#39;azione.
+**[!UICONTROL Call to Action Language]:** Lingua per le opzioni call to action.
 
 ## [!UICONTROL Tracking URLs]
 

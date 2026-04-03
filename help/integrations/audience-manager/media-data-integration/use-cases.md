@@ -3,9 +3,24 @@ title: Casi d’uso
 description: Scopri i casi d’uso per la condivisione dei dati multimediali di Advertising DSP con Audience Manager
 feature: Integration with Adobe Audience Manager
 exl-id: 1d961799-b8be-499a-8db6-b59762d96bf1
-source-git-commit: 7fa058da06edadf9b98aa49b0e5a1110ea68808c
+TQID: https://experienceleague.adobe.com/bEvS7Wb-Xk0nHAchL60c3AUNm7K4S2p3tBxJ2aWWevA
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: 730
 ht-degree: 0%
 
 ---
@@ -22,7 +37,7 @@ Di seguito sono riportati alcuni modi in cui è possibile trarre vantaggio dall&
 
 L’acquisizione dei dati sulle impression in Audience Manager consente di migliorare la gestione della frequenza creando segmenti di utenti che sono stati esposti a un particolare annuncio o campagna. Puoi utilizzare questi segmenti per il targeting degli annunci se desideri aumentare la frequenza oppure per la soppressione degli annunci se desideri limitare la frequenza.
 
-Inoltre, con Audience Manager [!DNL Segment Builder], puoi applicare [controlli di frequenza e recency](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/recency-and-frequency.html?lang=it) a qualsiasi [caratteristica basata su regole](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=it) che contiene segnali actionable. Ciò ti consente, ad esempio, di limitare il numero di volte in cui un utente riceve una particolare creatività all’interno di una campagna multimediale. Leggi &quot;[Eliminazione immediata tra dispositivi](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/profile-merge-rules/instant-cross-device-suppression.html?lang=it)&quot; per scoprire come eseguire questa operazione.<!-- The AM pulled this paragraph verbatim from AEM doc; I change only a word or two. -->
+Inoltre, con Audience Manager [!DNL Segment Builder], puoi applicare [controlli di frequenza e recency](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/recency-and-frequency.html?lang=it) a qualsiasi [caratteristica basata su regole](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) che contiene segnali actionable. Ciò ti consente, ad esempio, di limitare il numero di volte in cui un utente riceve una particolare creatività all’interno di una campagna multimediale. Leggi &quot;[Eliminazione immediata tra dispositivi](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/profile-merge-rules/instant-cross-device-suppression.html?lang=it)&quot; per scoprire come eseguire questa operazione.<!-- The AM pulled this paragraph verbatim from AEM doc; I change only a word or two. -->
 
 ## Messaggistica sequenziale
 
@@ -56,7 +71,7 @@ Per eseguire questo esempio in Audience Manager, è necessario seguire la proced
 
 ## [!DNL Adobe Audience Analytics] e dati di esposizione della campagna
 
-Una volta che i dati sulle impression e sui clic della campagna sono disponibili in Audience Manager, puoi creare caratteristiche e segmenti di utenti che sono stati esposti a una determinata campagna o tattica o hanno interagito con essa. Con l&#39;[[!DNL Audience Analytics] integrazione](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=it), i segmenti Audience Manager possono essere sincronizzati con [!DNL Analytics] per ulteriori analisi. I potenziali casi d’uso includono:
+Una volta che i dati sulle impression e sui clic della campagna sono disponibili in Audience Manager, puoi creare caratteristiche e segmenti di utenti che sono stati esposti a una determinata campagna o tattica o hanno interagito con essa. Con l&#39;[[!DNL Audience Analytics] integrazione](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html), i segmenti Audience Manager possono essere sincronizzati con [!DNL Analytics] per ulteriori analisi. I potenziali casi d’uso includono:
 
 * **Analisi dell&#39;interazione tra DSP e [!DNL Advertising Search, Social, & Commerce] annunci:** L&#39;integrazione [[!DNL Analytics for Advertising] standard](/help/integrations/analytics/overview.md) non fornisce informazioni approfondite sull&#39;interazione tra DSP e [!DNL Search, Social, & Commerce] perché entrambi i canali utilizzano AMO ID che seguono le regole di attribuzione AMO ID, per cui un clic di ricerca sostituisce una visualizzazione view-through. Creando un segmento di esposizione DSP in Audience Manager, puoi utilizzare [!DNL Audience Analytics] per analizzare l&#39;interazione tra DSP e [!DNL Search, Social, & Commerce] annunci in [!DNL Analytics].
 
@@ -64,15 +79,15 @@ Una volta che i dati sulle impression e sui clic della campagna sono disponibili
 
 ## [!DNL Audience Optimization Reports]
 
-Puoi sfruttare [Audience Manager [!DNL Audience Optimization Reports]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-reports.html?lang=it) per identificare potenziali opportunità di prestazioni per i segmenti nelle campagne. Questi rapporti combinano i dati di impression, clic e conversione di una campagna con le metriche del segmento per fornire ottimizzazioni incentrate sul segmento e un mix di canali efficace.
+Puoi sfruttare [Audience Manager [!DNL Audience Optimization Reports]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-reports.html) per identificare potenziali opportunità di prestazioni per i segmenti nelle campagne. Questi rapporti combinano i dati di impression, clic e conversione di una campagna con le metriche del segmento per fornire ottimizzazioni incentrate sul segmento e un mix di canali efficace.
 
 ### Tipi di rapporti pertinenti di Audience Optimization
 
 | Report | Descrizione |
 | ------ | ----------- |
-| Report [[!UICONTROL Segment Performance]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/segment-performance.html?lang=it) | Confronta i segmenti mappati e non mappati per impression e tassi di conversione. |
+| Report [[!UICONTROL Segment Performance]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/segment-performance.html) | Confronta i segmenti mappati e non mappati per impression e tassi di conversione. |
 | [[!UICONTROL Trend Analysis and Volume Analysis] report]9https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/trend-analysis-volume-analysis.html) | Restituisci dati su impression, tassi di click-through e conversioni per una vasta gamma di dimensioni pubblicitarie. |
-| Report [[!UICONTROL Optimal Frequency]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/optimal-frequency.html?lang=it) | Consente di scoprire l’equilibrio ottimale tra il numero di impression e di conversioni servite. Consente di regolare il numero di impression da visualizzare prima di iniziare a vedere rendimenti in diminuzione. |
+| Report [[!UICONTROL Optimal Frequency]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/optimal-frequency.html) | Consente di scoprire l’equilibrio ottimale tra il numero di impression e di conversioni servite. Consente di regolare il numero di impression da visualizzare prima di iniziare a vedere rendimenti in diminuzione. |
 | Report [[!UICONTROL Unique User Reach]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/unique-user-reach.html?lang=it) | Un grafico a bolle, in cui ogni bolla viene ridimensionata in proporzione diretta al numero di utenti univoci per la dimensione selezionata. |
 
 ### Considerazioni

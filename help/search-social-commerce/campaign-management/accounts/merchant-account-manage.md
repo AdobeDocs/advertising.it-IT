@@ -3,9 +3,14 @@ title: Gestisci account esercente
 description: Scopri come impostare e gestire i dettagli di un account per un centro commerciale.
 exl-id: 7d940e45-ea49-470b-98d0-0196593228cb
 feature: Search Campaign Management
-source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
+TQID: https://experienceleague.adobe.com/u5LpCPL1I8lLHD9n1cDT1rEPvCcultnuhIVcn7IqxnY
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: 789
 ht-degree: 0%
 
 ---
@@ -62,7 +67,7 @@ Per visualizzare i dati di prodotto e generare modelli di tracciamento per un ac
 
 1. Fare clic su **[!UICONTROL Save]**.
 
-   I dati degli attributi per tutti i prodotti nell’account sono disponibili in Search, Social e Commerce dopo il successivo processo di sincronizzazione giornaliero (circa alle 06:00 nel fuso orario locale dell’utente). Puoi quindi utilizzare i dati del prodotto per automatizzare la creazione di annunci utilizzando i feed di inventario.
+   I dati degli attributi per tutti i prodotti nell&#39;account sono disponibili in Search, Social e Commerce dopo il successivo processo di sincronizzazione giornaliera (circa 06:00 nel fuso orario locale dell&#39;utente). Puoi quindi utilizzare i dati del prodotto per automatizzare la creazione di annunci utilizzando i feed di inventario.
 
 ## Modifica dettagli account esercente {#edit-merchant-account}
 
@@ -84,7 +89,7 @@ Se le credenziali dell’account cambiano o desideri interrompere il recupero e 
 
 >[!NOTE]
 >
->Search, Social e Commerce devono sincronizzare i nuovi dati dell&#39;account con quelli presenti nella rete di esercenti. Questo accade automaticamente una volta al giorno alle 06:00 circa nel fuso orario locale dell’utente.
+>Search, Social e Commerce devono sincronizzare i nuovi dati dell&#39;account con quelli presenti nella rete di esercenti. Questo si verifica automaticamente una volta al giorno alle 06:00 circa nel fuso orario locale dell&#39;utente.
 
 ## Disabilita l’accesso a un account esercente {#disable-merchant-account}
 

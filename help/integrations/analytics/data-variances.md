@@ -3,9 +3,24 @@ title: Varianze di dati previste tra  [!DNL Analytics]  e Adobe Advertising
 description: Varianze di dati previste tra  [!DNL Analytics]  e Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+TQID: https://experienceleague.adobe.com/rTwYQgWuhRefe4R9FahGydneNVpv9mP7pqhOeDQwP34
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '3359'
+source-wordcount: 3359
 ht-degree: 0%
 
 ---
@@ -130,7 +145,7 @@ Per ulteriori spiegazioni sul motivo per cui le metriche possono variare, vedere
 
 ## Differenze di dati in Adobe Analytics [!DNL Paid Search Detection]
 
-La funzionalità [legacy [!DNL Paid Search Detection]](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/paid-search-detection.html?lang=it) in [!DNL Analytics] consente alle aziende di [definire regole per il monitoraggio del traffico di ricerca organico e a pagamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html?lang=it) per i motori di ricerca specificati. Le regole [!DNL Paid Search Detection] utilizzano sia una stringa di query che il dominio di riferimento per identificare il traffico di ricerca a pagamento e naturale. I report [!DNL Paid Search Detection] fanno parte del gruppo più ampio di report [Metodi di ricerca](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html?lang=it), che scadono quando si verifica un evento specificato, ad esempio il Check-Out del carrello, oppure al termine della visita.
+La funzionalità [legacy [!DNL Paid Search Detection]](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/paid-search-detection.html?lang=it) in [!DNL Analytics] consente alle aziende di [definire regole per il monitoraggio del traffico di ricerca organico e a pagamento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html?lang=it) per i motori di ricerca specificati. Le regole [!DNL Paid Search Detection] utilizzano sia una stringa di query che il dominio di riferimento per identificare il traffico di ricerca a pagamento e naturale. I report [!DNL Paid Search Detection] fanno parte del gruppo più ampio di report [Metodi di ricerca](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html), che scadono quando si verifica un evento specificato, ad esempio il Check-Out del carrello, oppure al termine della visita.
 
 Di seguito è riportata l&#39;interfaccia per la creazione di un set di regole [!DNL Paid Search Detection]:
 
@@ -238,7 +253,7 @@ Sembrano simili, ma i clic e le visite rappresentano dati diversi:
 
 * **Clic:** [!DNL DSP] o il motore di ricerca registra un clic quando un visitatore fa clic su un annuncio sul sito Web di un editore.
 
-* **Visita:** [!DNL Analytics] definisce una [visita](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=it) come una serie di visualizzazioni di pagina da parte di un utente, che termina in base a uno dei diversi criteri, ad esempio 30 minuti di inattività.
+* **Visita:** [!DNL Analytics] definisce una [visita](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html) come una serie di visualizzazioni di pagina da parte di un utente, che termina in base a uno dei diversi criteri, ad esempio 30 minuti di inattività.
 
 Per definizione, un clic può portare a più visite.
 

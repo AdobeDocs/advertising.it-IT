@@ -1,20 +1,35 @@
 ---
 title: Informazioni su Adobe Advertising Creative
-description: Scopri circa [!DNL Creative].
+description: Informazioni su  [!DNL Creative].
 feature: Creative Introduction
 exl-id: 2cc12119-5924-4fcd-a54b-30f7887ae6a7
-source-git-commit: 1394b988828f5400b858f1a40b1b6382431a62b0
+TQID: https://experienceleague.adobe.com/UfaLj12BFBAxCDvtb6cUtVxlcuOSYgnZPTAn7494APk
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+  - id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: 493
 ht-degree: 0%
 
 ---
 
-# Informazioni su Adobe Systems Advertising Creative 2.0
+# Informazioni su Adobe Advertising Creative 2.0
 
 <!-- verify all and rewrite to include new stuff -->
 
-Come parte di Adobe Systems Advertising, Advertising Creative è una piattaforma self-service per automatizzare esperienze di annuncio personalizzate in tempo reale e, facoltativamente, ottimizzare i tuoi annunci a livello di elemento creativo.<!-- Verify --> Puoi implementare le esperienze annuncio come annunci in qualsiasi DSP, inclusi Adobe Systems Advertising DSP.
+Come parte di Adobe Advertising, Advertising Creative è una piattaforma self-service per automatizzare esperienze pubblicitarie personalizzate in tempo reale e, facoltativamente, ottimizzare gli annunci a livello di elemento creativo.<!-- Verify --> Puoi implementare le esperienze pubblicitarie come annunci in qualsiasi DSP, incluso Adobe Advertising DSP.
 
 ## Librerie creative personalizzate di creativi riutilizzabili
 
@@ -30,11 +45,11 @@ Le librerie Creative ti consentono di gestire i contenuti creativi da utilizzare
 
 ## Esperienze basate su regole e non mirate
 
-* **Esperienze mirate e basate su regole: crea storie utilizzando un modello di albero decisionale basato su regole,** dispiegando una stringa coreografica di annunci personalizzati in tempo reale in base a ciò che sai del tuo pubblico. Ad esempio, le storie possono cambiare in base al comportamento del cliente, all&#39;area geografica, alla demografia, al retargeting, alla posizione nel percorso di clienti e altro ancora.
+* **Esperienze mirate e basate su regole:** crea storie utilizzando un modello di struttura decisionale basato su regole, distribuendo una stringa coreografica di annunci personalizzati in tempo reale in base a ciò che sai sul tuo pubblico. Ad esempio, le storie possono cambiare in base al comportamento del cliente, all&#39;area geografica, alla demografia, al retargeting, alla posizione nel percorso di clienti e altro ancora.
 
-* **Esperienze senza targeting:** pianifica e ottimizza annuncio elementi senza restringere il pubblico.
+* **Esperienze non di destinazione:** pianifica e ottimizza gli elementi dell&#39;annuncio senza restringere il pubblico.
 
-### [!DNL Adobe] Integrazioni dei dati
+### [!DNL Adobe] integrazioni dati
 
 Utilizza i segmenti di pubblico di prime parti da Adobe Audience Manager e Adobe Analytics, nonché i segmenti di pubblico personalizzati creati in Advertising DSP e i pixel di retargeting creati con [!DNL Creative], come target per creativi specifici in un&#39;esperienza pubblicitaria. <!-- Advertiser should be able to target all segments that are available in DSP for targeting -->
 
@@ -54,11 +69,11 @@ Facoltativamente, puoi consentire a [!DNL Creative] di ottimizzare gli elementi 
 
 Puoi creare pixel di retargeting da utilizzare come target per i creativi all’interno di un’esperienza pubblicitaria. Le destinazioni mostrano annunci solo per gli utenti con attributi specificati che hanno visitato in precedenza pagine web specifiche.
 
-## Tracciamento di impressioni, clic e conversioni
+## Tracciamento di impression, clic e conversione
 
-[!DNL Creative] Monitora automaticamente tutte le impressioni e i clic sugli annunci pubblicati da un&#39;esperienza. Facoltativamente, puoi anche aggiungere URL di terze parti per il tracciamento dei impression e dei clic alle creatività nelle librerie Creative, nonché URL di tracciamento personalizzati in un&#39;esperienza.
+[!DNL Creative] tiene traccia automaticamente di tutte le impression e i clic per gli annunci serviti da un&#39;esperienza. Facoltativamente, puoi anche aggiungere URL di tracciamento delle impression e dei clic di terze parti ai creativi nelle librerie Creative, nonché URL di tracciamento personalizzati in un’esperienza.
 
-[!DNL Creative] Monitora anche le conversioni dagli annunci pubblicati creati dalle tue esperienze annuncio.<!-- Verify wording; anything important to add here? We do track them for all users, right? Or is it optional?  -->
+[!DNL Creative] tiene traccia anche delle conversioni dagli annunci serviti creati dalle tue esperienze pubblicitarie.<!-- Verify wording; anything important to add here? We do track them for all users, right? Or is it optional?  -->
 
 <!--
  [Don't need to mention] When an ad is served, the DSP that buys the ad first tracks the impression, and then passes the impression information to [!DNL Creative]. [!DNL Creative] first tracks a click on an ad, and it then passes the click information

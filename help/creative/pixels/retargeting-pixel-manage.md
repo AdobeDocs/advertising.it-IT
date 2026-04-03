@@ -3,9 +3,16 @@ title: Gestire i pixel di retargeting
 description: Scopri come creare e implementare pixel di retargeting da utilizzare come destinazioni per le esperienze pubblicitarie.
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: ed3bf0200d3d3b31ef80c790c4e702914459c521
+TQID: https://experienceleague.adobe.com/Io8N6tbyhPOEWHPIYe2Zu2b4xTYXqgwp04geaBKTchg
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: 936
 ht-degree: 0%
 
 ---
@@ -115,7 +122,7 @@ Quando esegui il targeting di esperienze pubblicitarie per utenti esposti al pix
 
 * *[!UICONTROL Ramp ID]:* Il tag pixel traccia [!DNL Ramp IDs]. Non viene applicata alcuna tariffa per le impression consegnate agli ID universali.
 
-DSP Per utilizzare questa funzione, prima di poter utilizzare gli ID universali per un nuovo tipo di ID, è necessario accettare i termini del contratto di servizio per l&#39;utilizzo degli ID universali una sola volta. Per i clienti con contratti di assistenza gestiti, il team dell’account Adobe riceverà il consenso e accetterà le condizioni per conto della tua organizzazione. Per leggere i termini, fare clic su **[!UICONTROL Terms of Service]**. Per accettare i termini, scorrere fino alla fine dei termini e fare clic su **[!UICONTROL Accept]**.
+Per utilizzare questa funzione, prima di poter utilizzare gli ID universali per un nuovo tipo di ID, è necessario accettare i termini del contratto di servizio per l&#39;utilizzo degli ID universali una sola volta. Per i clienti con contratti di assistenza gestiti, il team dell’account Adobe riceverà il consenso e accetterà le condizioni per conto della tua organizzazione. Per leggere i termini, fare clic su **[!UICONTROL Terms of Service]**. Per accettare i termini, scorrere fino alla fine dei termini e fare clic su **[!UICONTROL Accept]**.
 
 >[!MORELIKETHIS]
 >

@@ -3,9 +3,16 @@ title: Dati del bulksheet per  [!DNL Yahoo! Japan]  account
 description: Fai riferimento ai campi di intestazione e ai campi dati nei bulksheet scaricati per  [!DNL Yahoo! Japan]  account.
 exl-id: 78eb41ce-3854-454c-adf2-ba0339e2aef7
 feature: Search Bulksheets
-source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
+TQID: https://experienceleague.adobe.com/HghB6y4AbEXvI6IrJhdxm-rpg69-ozYTIHRcPDoQ5jA
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '2672'
+source-wordcount: 2672
 ht-degree: 0%
 
 ---
@@ -28,7 +35,7 @@ ht-degree: 0%
 | [!UICONTROL Campaign Budget] | Obbligatorio: Create<br><br>Facoltativo: Edit or delete | n/d | n/d | n/d | n/d | Limite di spesa giornaliero per la campagna, con o senza simboli monetari e punteggiatura. Questo valore sostituisce ma non può superare il budget del conto. |
 | [!UICONTROL Delivery Method] | Obbligatorio: Create<br><br>Facoltativo: Edit or delete | n/d | n/d | n/d | n/d | Velocità di visualizzazione degli annunci per la campagna ogni giorno:<ul><li>*[!UICONTROL Standard (Distributed)]* (impostazione predefinita per le nuove campagne): per distribuire le impression pubblicitarie nell&#39;arco della giornata.</li><li>*[!UICONTROL Accelerated]:* Per visualizzare gli annunci il più spesso possibile fino al raggiungimento del budget. Di conseguenza, i tuoi annunci potrebbero non essere visualizzati più avanti nella giornata.</li></ul> |
 | [!UICONTROL Mobile Bid Adjustment] | Facoltativo | Facoltativo | n/d | n/d | n/d | Se fare offerte per annunci su dispositivi mobili, a livello di campagna o di gruppo di annunci:<ul><li>Per utilizzare la rettifica dell’offerta mobile esistente, lascia vuoto questo campo.</li><li>Per non fare offerte per annunci su dispositivi mobili, immetti `-100`.</li><li>Per fare offerte per annunci su dispositivi mobili che utilizzano la stessa offerta degli annunci su dispositivi desktop e tablet (differenza dello 0%), immetti `0`. Per le nuove campagne, puoi anche lasciare vuoto questo campo.</li><li>Per fare offerte per annunci su dispositivi mobili che utilizzano un&#39;offerta diversa, inserisci la percentuale di aumento o di diminuzione delle offerte. Il valore può essere compreso tra `-90` e `300`.</li></ul>Se escludi un dispositivo a livello di campagna, non puoi ignorare l’esclusione a livello di gruppo di annunci.<br><br><b>Note:</b><ul><li>I gruppi di annunci ereditano le impostazioni a livello di campagna, ma puoi sostituirle.</li><li>Se assegni la campagna a un portfolio ottimizzato, la funzionalità di ottimizzazione determina automaticamente l’offerta a livello di parola chiave di base per aiutare il portfolio a raggiungere il suo obiettivo. La rete di annunci regola quindi l’offerta come specificato per gli annunci mobili.</li><li>Se assegni la campagna o il gruppo di annunci a un portfolio ottimizzato:<ul><li>La funzionalità di ottimizzazione determina automaticamente l’offerta a livello di parola chiave di base per consentire al portfolio di raggiungere il suo obiettivo. La rete di ricerca regola quindi l’offerta come specificato per gli annunci mobili.</li><li>Se il portfolio è configurato su &quot;[!UICONTROL Auto-optimize Bid Adjustment Values]&quot;, la funzionalità di ottimizzazione modifica le regolazioni delle offerte a livello di gruppo di annunci a condizione che il valore ideale calcolato rientri nei valori minimo e massimo specificati nell&#39;impostazione del portfolio e che il gruppo di annunci non escluda le offerte per gli annunci mobili.</li></ul></li></ul> |
-| [!UICONTROL Location] | n/d | n/d | n/d | n/d | Facoltativo | Una posizione geografica in cui inserire gli annunci per la campagna. Per le città, utilizza il formato &quot;&lt;<i>Città</i>>, &lt;</i>Prefettura</i>>&quot; (ad esempio Adachi, Tokyo). Per escludere una posizione, aggiungete un segno meno (`-`) come prefisso alla posizione. Se non immetti valori specifici per la campagna, viene eseguito il targeting di tutte le posizioni. |
+| [!UICONTROL Location] | n/d | n/d | n/d | n/d | Facoltativo | Una posizione geografica in cui inserire gli annunci per la campagna. Per le città, utilizzare il formato &quot;&lt;<i>Città</i>>, &lt;</i>Prefettura</i>>&quot; (ad esempio Adachi, Tokyo). Per escludere una posizione, aggiungete un segno meno (`-`) come prefisso alla posizione. Se non immetti valori specifici per la campagna, viene eseguito il targeting di tutte le posizioni. |
 | [!UICONTROL Location Type] | n/d | n/d | n/d | n/d | Obbligatorio/facoltativo | (Obbligatorio quando si esegue il targeting di posizioni specifiche) Indica se le posizioni specificate sono di tipo [!UICONTROL Prefecture] o [!UICONTROL City]. |
 | [!UICONTROL Ad Group Name] | n/d | Obbligatorio | Obbligatorio | Obbligatorio | n/d | Un nome di gruppo di annunci univoco all’interno della campagna. La lunghezza massima è di 50 caratteri. |
 | [!UICONTROL Max CPC] | n/d | Facoltativo | Facoltativo | n/d | n/d | Il costo massimo per clic (CPC), che è l&#39;importo più alto da pagare per un clic pubblicitario sulla rete di ricerca, con o senza simboli monetari e punteggiatura. Puoi impostare i valori per gruppi di annunci e parole chiave. Il valore predefinito per una nuova parola chiave viene ereditato dal livello del gruppo di annunci. |

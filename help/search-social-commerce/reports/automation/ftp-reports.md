@@ -3,9 +3,16 @@ title: Accesso FTP ai rapporti
 description: Scopri come ricevere i rapporti in una posizione FTP di sola lettura.
 exl-id: eca9f033-5b1b-4afa-926b-b4c31e2dede3
 feature: Search Reports
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+TQID: https://experienceleague.adobe.com/Dd72ha3yuVBLu-vCuBUFlc6lYeinKcIAu5agIco4zVY
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: 428
 ht-degree: 0%
 
 ---
@@ -18,7 +25,7 @@ L&#39;accesso FTP ai rapporti richiede l&#39;accesso a un account FTP specificat
 
 ## Configurare un account FTP per l&#39;accesso ai rapporti
 
-* Contatta il team dell’account Adobe per configurare un account FTP per l’accesso ai rapporti.
+* Contatta il team del tuo account Adobe per configurare un account FTP per l&#39;accesso ai rapporti.
 
   Il team ti fornirà nome utente e password.
 
