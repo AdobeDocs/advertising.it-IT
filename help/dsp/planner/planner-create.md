@@ -4,10 +4,14 @@ description: Scopri come creare un piano di copertura TV connessa.
 feature: DSP Planner
 exl-id: 88b1fb23-f856-44ed-a955-844a329efb98
 TQID: https://experienceleague.adobe.com/IjxZ8IoDYDJIhxDmIgTNo8PqHW-EfUC7TQyrlE3F8jE
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: e8b92199-d82f-4b20-9fc3-ffe694f93ce5
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: e8b92199-d82f-4b20-9fc3-ffe694f93ce5
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 105
@@ -27,7 +31,7 @@ ht-degree: 0%
 
    Una volta salvato il piano, viene visualizzato l&#39;output previsto.
 
-1. (Facoltativo) Per esportare la previsione [!UICONTROL Budget vs Reach] in un foglio di calcolo [!DNL Microsoft Excel]**, fare clic su **[!UICONTROL ...]** in alto a destra, quindi su **[!UICONTROL Export]**.
+1. (Facoltativo) Per esportare la previsione [!UICONTROL Budget vs Reach] in un foglio di calcolo [!DNL Microsoft Excel]&#x200B;**, fare clic su &#x200B;** [!UICONTROL ...] **&#x200B; in alto a destra, quindi su &#x200B;** [!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >

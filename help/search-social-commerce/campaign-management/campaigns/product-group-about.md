@@ -4,9 +4,12 @@ description: Scopri come acquistare gruppi di prodotti nelle campagne di acquist
 exl-id: ae270935-1464-4393-8b8c-745fee077522
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/P3QrbE-JI1XMVzAqA4Pb8jO1t9bRNN-x1q0ehpBvaPw
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 721
@@ -56,7 +59,7 @@ All&#39;interno di un gruppo di annunci, è possibile creare fino a sette livell
 
 * ([!DNL Microsoft Advertising] solo) Aggiungi l&#39;URL di tracciamento ai dati di prodotto nell&#39;account [!DNL Microsoft Merchant Center]. A tale scopo, includere l&#39;URL di tracciamento, insieme al valore nel campo `link` o `mobile_link`, a seconda dei casi, in una colonna personalizzata denominata [`bingads_redirect`](https://help.ads.microsoft.com/#apex/3/en/51084/0) all&#39;interno del feed del prodotto. Gli URL generati con questo metodo non includono parametri di tracciamento specificati nelle impostazioni dell’account o della campagna in Search, Social &amp; Commerce.
 
-Puoi visualizzare i dati sui gruppi di prodotti in [ il [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/product-group-report.md).
+Puoi visualizzare i dati sui gruppi di prodotti in [&#x200B; il [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/product-group-report.md).
 
 >[!MORELIKETHIS]
 >

@@ -4,10 +4,15 @@ description: Scopri come utilizzare i dati di Adobe Advertising in [!DNL Analyti
 feature: Integration with Adobe Analytics
 exl-id: 522c7f01-1138-477d-8018-36030caab55e
 TQID: https://experienceleague.adobe.com/VQMlRz2xtbbr6Nns5EZOh9zUUKIifKy-DGN-9JateJs
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 713
@@ -29,7 +34,7 @@ Nella figura seguente viene illustrato come Adobe Advertising e [!DNL Marketing 
 
 Nella prima visita, l’utente è entrato nel sito web tramite una campagna e-mail, ha eseguito dieci visualizzazioni di pagina e poi se ne è andato. Nella seconda visita, l’utente è entrato nel sito tramite un annuncio pubblicitario, ha eseguito dieci visualizzazioni di pagina e poi se n’è andato. Nella terza visita, l’utente è entrato nel sito tramite ricerca naturale, ha eseguito cinque visualizzazioni di pagina, ha eseguito una conversione da 250 $ e ha lasciato. Si noti la differenza nel tracciamento tra [!DNL Marketing Channels] e Adobe Advertising. L&#39;unico canale di cui Adobe Advertising tiene traccia in questo percorso è [!UICONTROL Display]. Adobe Advertising tiene traccia della visita al canale [!UICONTROL Display] e attribuisce i dati di coinvolgimento successivi (come le visualizzazioni di pagina) e le conversioni all&#39;influenza dell&#39;annuncio pubblicitario. [!DNL Marketing Channels], invece, offre una visualizzazione completa di tutti i canali.
 
-Poiché l’AMO ID persiste nel percorso del visitatore, puoi utilizzare i dati AMO ID per vedere in che modo Adobe Advertising influisce su altri canali di marketing. L&#39;AMO ID [ persiste per 60 giorni per impostazione predefinita](/help/integrations/analytics/overview.md), ma puoi configurare la persistenza in base alle esigenze.
+Poiché l’AMO ID persiste nel percorso del visitatore, puoi utilizzare i dati AMO ID per vedere in che modo Adobe Advertising influisce su altri canali di marketing. L&#39;AMO ID [&#x200B; persiste per 60 giorni per impostazione predefinita](/help/integrations/analytics/overview.md), ma puoi configurare la persistenza in base alle esigenze.
 
 ## Come combinare i dati di Adobe Advertising e dei canali di marketing per analizzare le prestazioni dei contenuti multimediali
 

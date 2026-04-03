@@ -4,9 +4,12 @@ description: Informazioni su [!UICONTROL Campaign Assist Report].
 exl-id: c89b4c9f-16d5-4e1a-a73f-6cc99dd3f526
 feature: Search Reports, Search Assist Reports
 TQID: https://experienceleague.adobe.com/9CQ9aS6g0C1lCEYQbGEjctsZXEtIqjLOl5ohP45YFSU
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 854
@@ -38,7 +41,7 @@ Di seguito sono riportate le colonne disponibili per ogni rapporto. Le colonne p
 
 | Colonna | Predefinito? | Descrizione |
 | ---- | ---- | ---- |
-| Da [!UICONTROL 1st Campaign] a [!UICONTROL 5th Campaign] | Predefinito | Le prime cinque campagne nel percorso di conversione che si sono verificate nell&#39;intervallo di lookback [click](/help/search-social-commerce/glossary.md#c-d) e nell&#39;intervallo di lookback [ dell&#39;inserzionista.](/help/search-social-commerce/glossary.md#i-j)<br><br>Se hai incluso una delle opzioni di report per indicare la rete di annunci, il nome account o il tipo di evento dopo il nome dell&#39;entità, tali informazioni vengono incluse dopo il nome della campagna (ad esempio `"<"campaign name> [Google] [Account1] [impression]`&quot;). |
+| Da [!UICONTROL 1st Campaign] a [!UICONTROL 5th Campaign] | Predefinito | Le prime cinque campagne nel percorso di conversione che si sono verificate nell&#39;intervallo di lookback [click](/help/search-social-commerce/glossary.md#c-d) e nell&#39;intervallo di lookback [&#x200B; dell&#39;inserzionista.](/help/search-social-commerce/glossary.md#i-j)<br><br>Se hai incluso una delle opzioni di report per indicare la rete di annunci, il nome account o il tipo di evento dopo il nome dell&#39;entità, tali informazioni vengono incluse dopo il nome della campagna (ad esempio `"<"campaign name> [Google] [Account1] [impression]`&quot;). |
 | [!UICONTROL Path Size] | Predefinito | Il numero di campagne nel percorso di conversione che si sono verificate nell&#39;intervallo di lookback di [clic](/help/search-social-commerce/glossary.md#c-d) e nell&#39;intervallo di lookback di [impression](/help/search-social-commerce/glossary.md#i-j) dell&#39;inserzionista. |
 | [!UICONTROL First Campaign] | Predefinito | La prima campagna nel percorso di conversione. |
 | [!UICONTROL Last Campaign] | Predefinito | L’ultima campagna che ha generato conversioni (anche se l’ultima parola chiave non rientra nelle dimensioni del percorso specificate).<br><br>Se hai incluso una delle opzioni di report per indicare la rete di annunci, il nome account o il tipo di evento dopo il nome dell&#39;entità, tali informazioni vengono incluse dopo il nome della campagna (ad esempio `"<"campaign name> [Google] [Account1] [impression]`&quot;). |

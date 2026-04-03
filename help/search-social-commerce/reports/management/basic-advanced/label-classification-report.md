@@ -4,9 +4,13 @@ description: Informazioni su [!UICONTROL Label Classification Report].
 exl-id: 847fa384-b9c6-446f-9ebf-da7679ed35ae
 feature: Search Reports, Search Basic Reports
 TQID: https://experienceleague.adobe.com/75t5C8Cz-EE5vsPYYXHWHSE-6ZDhwSQaEgtAdirYHQU
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 227
@@ -24,7 +28,7 @@ Puoi visualizzare i dati relativi ai 36 mesi precedenti.
 >
 >* Il reporting in base alle classificazioni delle etichette a livello di annuncio non è disponibile per [!DNL Microsoft Advertising] campagne DSA (Dynamic Search Ad).
 >* Più classificazioni di etichetta possono essere applicate alla stessa entità, quindi il totale per ogni metrica può essere superiore al totale effettivo per l’entità. Ad esempio, supponiamo che una parola chiave &quot;suede shoes&quot; abbia due valori di etichetta, &quot;suede&quot; e &quot;footwear&quot;, e che la parola chiave abbia ricevuto 100 clic. La colonna Clic visualizzerebbe &quot;100&quot; per ciascuno di questi valori di etichetta, quindi il totale per entrambe le righe sarebbe &quot;200&quot;.
-* Eventuali modifiche apportate alle classificazioni delle etichette e ai valori delle etichette secondarie di un’entità sono visibili in circa un’ora.
+>* Eventuali modifiche apportate alle classificazioni delle etichette e ai valori delle etichette secondarie di un’entità sono visibili in circa un’ora.
 
 ## Colonne predefinite
 

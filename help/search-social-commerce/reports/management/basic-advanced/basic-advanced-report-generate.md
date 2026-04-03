@@ -4,9 +4,12 @@ description: Scopri come generare un rapporto di base o avanzato personalizzato.
 exl-id: 529a35f5-517f-4bde-b752-c0afc6346f4b
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
 TQID: https://experienceleague.adobe.com/xYP-ycQv4SzdOS4tLyOEsQQdwSw38yXS0JYqHk7GJR8
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 391
@@ -18,7 +21,7 @@ ht-degree: 0%
 
 1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
-1. Nella barra degli strumenti sopra la tabella dati fare clic su **[!UICONTROL Create Report]**, tenere premuto il cursore su **[!UICONTROL Basic Reports]** o **[!UICONTROL Advanced Reports]** e quindi fare clic sul tipo di report [](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md).
+1. Nella barra degli strumenti sopra la tabella dati fare clic su **[!UICONTROL Create Report]**, tenere premuto il cursore su **[!UICONTROL Basic Reports]** o **[!UICONTROL Advanced Reports]** e quindi fare clic sul tipo di report [&#128279;](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md).
 
 1. (Facoltativo) Nella finestra [!UICONTROL Report Settings], modifica le [impostazioni report](basic-advanced-report-settings.md) predefinite:
 
