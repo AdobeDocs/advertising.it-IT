@@ -5,9 +5,29 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
+TQID: https://experienceleague.adobe.com/HgUQENjtjLRyizGpXGBRYZOanvoouKfGdcjDyf5Dlaw
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+  - id: e8b92199-d82f-4b20-9fc3-ffe694f93ce5
+  - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: e32890b6c079c539084f32282a42012ce45e0199
 workflow-type: tm+mt
-source-wordcount: '6893'
+source-wordcount: 6924
 ht-degree: 0%
 
 ---
@@ -18,6 +38,7 @@ Le seguenti funzioni sono nuove o modificate di recente.
 
 | Data | Funzionalità | Descrizione | Per Ulteriori Informazioni |
 | ---- | ------- | ----------- | -------------------- |
+| 25 marzo 2026 | [!UICONTROL Insights] | Le nuove informazioni di [!UICONTROL Audience Analysis] mostrano l&#39;efficacia del targeting del segmento di pubblico a livello di posizionamento: le tendenze delle dimensioni del segmento nel tempo e un raggruppamento giornaliero delle offerte di funnel. | Consulta &quot;[Informazioni su approfondimenti](/help/dsp/campaign-management/insights/insights-about.md).&quot; |
 | 16 marzo 2026 | Origini del pubblico di prime parti, ID universali | Ora puoi convertire i cookie e gli ID mobile advertising, oltre agli indirizzi e-mail con hash, in ID universali per la pubblicità mirata utilizzando l&#39;integrazione DSP con [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=it), che fa parte di Adobe Experience Platform. In precedenza, era possibile convertire solo indirizzi e-mail con hash.<br><br>Per utilizzare questa nuova funzionalità, utilizzare la nuova &quot;[connessione Adobe Advertising DSP]&#x200B;(https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection&quot; in Experience Platform. La connessione legacy, che include il supporto solo per indirizzi e-mail con hash, è rinominata &quot;[Connessione legacy Adobe Advertising Cloud DSP]&#x200B;(https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy.&quot;<br><br>Se si utilizza la connessione legacy, non è necessario apportare immediatamente alcuna modifica. Tuttavia, la connessione legacy verrà alla fine rimossa. | Consulta &quot;[Convertire gli ID utente da [!DNL Adobe Real-Time CDP] a ID universali](/help/dsp/audiences/sources/source-adobe-rtcdp.md),&quot; &quot;[Informazioni sulle origini del pubblico di prime parti](/help/dsp/audiences/sources/source-about.md)&quot; e &quot;[Gestire le origini del pubblico per attivare il pubblico degli ID universali](/help/dsp/audiences/sources/source-manage.md).&quot; |
 | 21 gennaio 2026 | Adobe GenStudio for Performance Marketing | (Inserzionisti con Advertising Creative) Gli inserzionisti con [Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/home) ora possono importare esperienze di annunci display da GenStudio nelle librerie creative. Puoi includere i creativi importati nelle esperienze Advertising Creative, quindi esportare le esperienze [!DNL Creative] in DSP come posizionamenti. | Consulta la guida di Advertising Creative: &quot;[Informazioni sulle librerie creative](/help/creative/creative-libraries/creative-libraries-about.md)&quot; e &quot;[Aggiungere creatività standard a una libreria creativa](/help/creative/creative-libraries/creative-add-standard.md).&quot; |
 | 17 dicembre 2025 | Avvisi | (Inserzionisti con Advertising Creative) [!UICONTROL Pulse Panel] nella visualizzazione [!UICONTROL Campaigns] ora include DSP e [!UICONTROL Creative] schede. Nella scheda [!UICONTROL Creative] sono elencati gli avvisi relativi ai posizionamenti di DSP creati da [!DNL Creative] esperienze. | Vedi &quot;[Visualizza avvisi](/help/dsp/campaign-management/reports/campaign-alerts.md).&quot; |
