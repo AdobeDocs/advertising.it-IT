@@ -88,7 +88,7 @@ Per richiedere l’accesso e la cancellazione delle informazioni personali dei c
    >
    >Se la tua azienda dispone di più ID organizzazione Experience Cloud, devi inviare richieste API separate per ciascuno di essi. È tuttavia possibile effettuare una richiesta API a più soluzioni secondarie di Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] e [!DNL DCO]), con un account per ogni soluzione secondaria.
 
-Per ricevere supporto da Adobe Advertising, sono necessari tutti i passaggi necessari. Per ulteriori informazioni su queste e altre attività correlate che è necessario eseguire utilizzando Adobe Experience Platform Privacy Service e dove trovare gli elementi necessari, vedere [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
+Per ricevere supporto da Adobe Advertising, sono necessari tutti i passaggi necessari. Per ulteriori informazioni su queste e altre attività correlate che è necessario eseguire utilizzando Adobe Experience Platform Privacy Service e dove trovare gli elementi necessari, vedere [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it).
 
 ## Valori campo obbligatori nelle richieste JSON di Adobe Advertising
 
@@ -105,11 +105,11 @@ Per ricevere supporto da Adobe Advertising, sono necessari tutti i passaggi nece
 
 * `"user IDs":`
 
-   * `"namespace": **411**` (che indica lo [[!DNL AdCloud] spazio cookie](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix))
+   * `"namespace": **411**` (che indica lo [[!DNL AdCloud] spazio cookie](https://experienceleague.adobe.com/it/docs/experience-platform/privacy/api/appendix))
 
    * `"value":` &lt;*valore ID cookie del cliente effettivo recuperato da`AdobePrivacy.js`*>
 
-* `"include": **adCloud**` (che è il [[!DNL Adobe] prodotto](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix) che si applica alla richiesta)
+* `"include": **adCloud**` (che è il [[!DNL Adobe] prodotto](https://experienceleague.adobe.com/it/docs/experience-platform/privacy/api/appendix) che si applica alla richiesta)
 
 * `"regulation": **ccpa**` (normativa sulla privacy applicabile alla richiesta)
 

@@ -96,13 +96,13 @@ Aggiungendo un pixel evento di impression di Audience Manager nei tag annuncio e
 
       1. [Cerca il segnale](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html) per la [coppia chiave-valore](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html) che determina il livello di raggruppamento degli utenti del segmento.
 
-         Utilizza una [chiave supportata](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html) con un valore corrispondente a una macro aggiunta al pixel dell&#39;evento di Audience Manager impression.
+         Utilizza una [chiave supportata](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html?lang=it) con un valore corrispondente a una macro aggiunta al pixel dell&#39;evento di Audience Manager impression.
 
          Ad esempio, per raggruppare gli utenti per un particolare posizionamento, utilizza la chiave `d_placement`. Per il valore, utilizzare un ID di posizionamento numerico effettivo (ad esempio 2501853) acquisito dalla macro DSP `${TM_PLACEMENT_ID_NUM}`. <!-- Explain where to find the placement ID, other than in a custom report. -->
 
          Se i risultati della ricerca mostrano i conteggi degli utenti per la coppia chiave-valore, che indica che il pixel è stato posizionato correttamente e i dati scorrono, continua con il passaggio successivo.
 
-   1. [Crea una caratteristica basata su regole](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) per la creazione di segmenti in Audience Manager.
+   1. [Crea una caratteristica basata su regole](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=it) per la creazione di segmenti in Audience Manager.
 
       * Denomina la caratteristica in modo che sia facilmente identificabile nelle attività di test. Memorizza la caratteristica nella cartella preferita.
 
@@ -110,7 +110,7 @@ Aggiungendo un pixel evento di impression di Audience Manager nei tag annuncio e
 
       * Per l&#39;espressione della caratteristica, utilizzare `d_event` come **[!UICONTROL Key]** e `imp` come **[!UICONTROL Value]**.
 
-   1. [Configura un segmento di test](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html) per la nuova caratteristica in Audience Manager, selezionando `Ad Cloud` come **[!UICONTROL Data Source]**.
+   1. [Configura un segmento di test](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html?lang=it) per la nuova caratteristica in Audience Manager, selezionando `Ad Cloud` come **[!UICONTROL Data Source]**.
 
       Audience Manager divide automaticamente il segmento in un gruppo di controllo che riceve l’esperienza della pagina di destinazione standard e in un gruppo di test che riceve un’esperienza personalizzata nel sito.
 
@@ -126,7 +126,7 @@ Le istruzioni seguenti evidenziano le informazioni relative al caso di utilizzo 
 
       >[!NOTE]
       >
-      >Puoi utilizzare più URL per testare la voce del sito view-through. Per ulteriori informazioni, vedere &quot;[Attività multipagina](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).&quot; È possibile identificare facilmente le voci principali in base all&#39;URL della pagina creando un [rapporto sulle voci del sito](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/adobe-advertising-dsp/create-advertising-cloud-site-entry-reports) in Analytics.
+      >Puoi utilizzare più URL per testare la voce del sito view-through. Per ulteriori informazioni, vedere &quot;[Attività multipagina](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).&quot; È possibile identificare facilmente le voci principali in base all&#39;URL della pagina creando un [rapporto sulle voci del sito](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/integrations/adobe-advertising-dsp/create-advertising-cloud-site-entry-reports) in Analytics.
 
    1. Nel campo **[!UICONTROL Goal]**, immettere la metrica di successo per il test.
 
@@ -138,7 +138,7 @@ Le istruzioni seguenti evidenziano le informazioni relative al caso di utilizzo 
 
    1. In **[!UICONTROL Reporting Settings]**, seleziona **[!UICONTROL Company Name]** e **[!UICONTROL Report Suite]** connessi al tuo account DSP.
 
-      Per ulteriori suggerimenti sul reporting, consulta &quot;[Best practice per il reporting e risoluzione dei problemi](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html).&quot;
+      Per ulteriori suggerimenti sul reporting, consulta &quot;[Best practice per il reporting e risoluzione dei problemi](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html?lang=it).&quot;
 
    1. Nel campo **[!UICONTROL Date Range]** immettere le date di inizio e di fine appropriate per il test.
 
@@ -212,7 +212,7 @@ In Analysis Workspace, se noti che i dati di attività ed esperienze sono minimi
 
 * [Integrare Target con Analytics](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html) - Spiega come impostare il reporting di [!DNL Target] in Analysis Workspace.
 * [Panoramica test A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html): descrive le attività test A/B, utilizzabili con gli annunci DSP.
-* [Esperienze e offerte](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html) - Illustra [!DNL Target] strumenti per determinare il contenuto nel sito a cui sono esposti gli utenti di test di DSP.
+* [Esperienze e offerte](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=it) - Illustra [!DNL Target] strumenti per determinare il contenuto nel sito a cui sono esposti gli utenti di test di DSP.
 * [Segnali, caratteristiche e segmenti](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html): definisce alcuni degli strumenti di Audience Manager che possono essere utili per il test view-through di DSP.
 * [Panoramica di [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) - Introduce [!DNL Analytics for Advertising], che consente di tenere traccia delle interazioni del sito click-through e view-through nelle istanze di Analytics.
 

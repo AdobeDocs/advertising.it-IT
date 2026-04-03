@@ -96,7 +96,7 @@ ht-degree: 0%
 
 **eCPM:** il CPM effettivo o il costo medio pagato per 1000 impression durante un intervallo di date specificato. I valori eCPM possono essere calcolati per le campagne CPM o CPC.
 
-**[ID EF](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id):** un codice di tracciamento che consente ad Adobe Advertising di associare l&#39;attività a un&#39;esposizione a un clic o un annuncio online e di condividere i dati relativi alle campagne con Adobe Analytics e Adobe Customer Journey Analytics.
+**[ID EF](https://experienceleague.adobe.com/it/docs/analytics/components/dimensions/amo-ef-id):** un codice di tracciamento che consente ad Adobe Advertising di associare l&#39;attività a un&#39;esposizione a un clic o un annuncio online e di condividere i dati relativi alle campagne con Adobe Analytics e Adobe Customer Journey Analytics.
 
 ## G-H {#g-h}
 

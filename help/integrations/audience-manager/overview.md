@@ -69,6 +69,6 @@ Per ulteriori informazioni, vedere &quot;[Panoramica dell&#39;invio dei dati di 
 
 ## Ottieni informazioni più approfondite sull’attività del sito con Audience Analytics
 
-I clienti Adobe Advertising con [[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) possono inviare sia dati tracciati da Adobe Advertising che segmenti Audience Manager a [!DNL Analytics] per ottenere informazioni approfondite sull&#39;attività del sito.
+I clienti Adobe Advertising con [[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=it) possono inviare sia dati tracciati da Adobe Advertising che segmenti Audience Manager a [!DNL Analytics] per ottenere informazioni approfondite sull&#39;attività del sito.
 
 Per ulteriori informazioni, vedere &quot;[[!DNL Adobe Audience Analytics] per i clienti Adobe Advertising](/help/integrations/audience-manager/audience-analytics.md).&quot;

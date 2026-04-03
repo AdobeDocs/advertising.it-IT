@@ -37,14 +37,14 @@ ht-degree: 0%
 <!--
 ## Ask the Adobe Advertising community
 
-Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=it).
 -->
 
 ## Contatta [!DNL Adobe]
 
 Per problemi relativi a prodotti o account, effettuare le seguenti operazioni:
 
-* (Inserzionisti con contratti self-service) Apri un ticket per la tua organizzazione all&#39;indirizzo [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support).
+* (Inserzionisti con contratti self-service) Apri un ticket per la tua organizzazione all&#39;indirizzo [https://experienceleague.adobe.com/home?lang=it#support](https://experienceleague.adobe.com/home?lang=it&support-tab=home#support).
 
   Per il prodotto, selezionare &quot;[!UICONTROL Advertising - Search, Social, & Commerce]&quot;.
 

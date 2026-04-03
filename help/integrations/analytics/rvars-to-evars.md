@@ -26,7 +26,7 @@ ht-degree: 0%
 
 <!-- Solution built but not tested. Move to the CJA chapter once it's available?  If so, then create a redirect. -->
 
-Se si utilizzano variabili riservate per acquisire l&#39;ID [AMO e l&#39;ID EF](ids.md) per l&#39;integrazione [!DNL Analytics for Advertising], è possibile preparare i dati per l&#39;integrazione tra Adobe Advertising e [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), soluzione Adobe [!DNL analytics] di nuova generazione, copiando al più presto le variabili riservate per l&#39;AMO ID e l&#39;ID EF in [standard [!DNL eVars]](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/evar). In questo modo sarà possibile raccogliere i dati storici per gli AMO ID e gli EF ID non appena si completa l’attività. Il team del tuo account Adobe ti informerà se utilizzi variabili riservate e se devi completare questa attività.
+Se si utilizzano variabili riservate per acquisire l&#39;ID [AMO e l&#39;ID EF](ids.md) per l&#39;integrazione [!DNL Analytics for Advertising], è possibile preparare i dati per l&#39;integrazione tra Adobe Advertising e [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), soluzione Adobe [!DNL analytics] di nuova generazione, copiando al più presto le variabili riservate per l&#39;AMO ID e l&#39;ID EF in [standard [!DNL eVars]](https://experienceleague.adobe.com/it/docs/analytics/components/dimensions/evar). In questo modo sarà possibile raccogliere i dati storici per gli AMO ID e gli EF ID non appena si completa l’attività. Il team del tuo account Adobe ti informerà se utilizzi variabili riservate e se devi completare questa attività.
 
 <!-- 
 You can also do the same for any other reserved variables you use for your [!DNL Analytics for Advertising] implementation.
@@ -87,7 +87,7 @@ Questo passaggio è manuale e deve essere completato per ogni suite di rapporti 
 
    Se ad esempio il nuovo eVar `eVar142` è mappato a `amo.s_kwcid(Context Data)`, i dati per `eVar142` e `AMO ID` devono essere identici.
 
-Per ulteriori informazioni sull&#39;applicazione delle regole di elaborazione, vedere &quot;[Funzionamento delle regole di elaborazione](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/processing-rules-about).&quot;
+Per ulteriori informazioni sull&#39;applicazione delle regole di elaborazione, vedere &quot;[Funzionamento delle regole di elaborazione](https://experienceleague.adobe.com/it/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/processing-rules-about).&quot;
 
 >[!MORELIKETHIS]
 >

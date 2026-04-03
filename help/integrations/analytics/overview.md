@@ -111,7 +111,7 @@ Per ulteriori informazioni sul servizio Experience Cloud Audiences, vedi [Tipi d
 
 ### Utilizzo dei dati di Adobe Advertising in Analysis Workspace
 
-Per scoprire come utilizzare i dati di Adobe Advertising per creare report visivi in Analysis Workspace, guarda il video &quot;[Introduzione a Workspace e reporting](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html).&quot;
+Per scoprire come utilizzare i dati di Adobe Advertising per creare report visivi in Analysis Workspace, guarda il video &quot;[Introduzione a Workspace e reporting](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html?lang=it).&quot;
 
 #### Utilizzo delle conversioni view-through di programmi TV collegati nei report
 
@@ -147,11 +147,11 @@ Utilizzo della vista Canale di marketing:
 
 ### Creazione di dashboard di Adobe Advertising
 
-Per scoprire come tenere traccia dei dati di Adobe Advertising rispetto agli obiettivi in Analysis Workspace, guarda il video &quot;[Creare dashboard di Adobe Advertising con Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html).&quot;
+Per scoprire come tenere traccia dei dati di Adobe Advertising rispetto agli obiettivi in Analysis Workspace, guarda il video &quot;[Creare dashboard di Adobe Advertising con Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html?lang=it).&quot;
 
 ### Utilizzo dell’Adobe Advertising ID per l’analisi delle voci del sito
 
-Per scoprire come creare un report sulle visite al sito di Adobe Advertising per monitorare le influenze relative a giorno della settimana, ora del giorno, browser e aree geografiche, guarda il video &quot;[Creazione di report sulle visite al sito di Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html)&quot;.
+Per scoprire come creare un report sulle visite al sito di Adobe Advertising per monitorare le influenze relative a giorno della settimana, ora del giorno, browser e aree geografiche, guarda il video &quot;[Creazione di report sulle visite al sito di Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html?lang=it)&quot;.
 
 ## Come avviare un&#39;implementazione di [!DNL Analytics for Advertising]
 
@@ -159,7 +159,7 @@ Contatta il team del tuo account Adobe, che completerà la configurazione inizia
 
 >[!MORELIKETHIS]
 >
->* [Video: introduzione a [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html)
+>* [Video: introduzione a [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=it)
 >* [Prerequisiti e informazioni chiave per l&#39;implementazione [!DNL Analytics for Advertising]](prerequisites.md)
 >* [ID Adobe Advertising utilizzati da Analytics](ids.md)
 >* [Codice JavaScript per Advertising](/help/integrations/analytics/javascript.md)

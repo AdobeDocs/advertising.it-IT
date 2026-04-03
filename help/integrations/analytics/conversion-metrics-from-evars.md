@@ -28,13 +28,13 @@ ht-degree: 0%
 
 *Inserzionisti con una sola integrazione Adobe Advertising-Adobe Analytics*
 
-Puoi utilizzare le metriche degli eventi di successo per ottimizzare pacchetti DSP e campagne Search, Social e Commerce in base ai dati del sito Adobe Analytics che si adattano meglio agli obiettivi del tuo marchio. Puoi configurare metriche evento di successo personalizzate in base ai tuoi [[!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) e [[!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) esistenti incanalando i dati a livello di [!DNL eVar] e [!DNL prop] in un evento. Altre metriche di [!DNL Analytics], incluse le metriche di conversione standard, personalizzate e riservate e le metriche del traffico, sono automaticamente disponibili in DSP e Search, Social e Commerce.
+Puoi utilizzare le metriche degli eventi di successo per ottimizzare pacchetti DSP e campagne Search, Social e Commerce in base ai dati del sito Adobe Analytics che si adattano meglio agli obiettivi del tuo marchio. Puoi configurare metriche evento di successo personalizzate in base ai tuoi [[!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=it) e [[!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html?lang=it) esistenti incanalando i dati a livello di [!DNL eVar] e [!DNL prop] in un evento. Altre metriche di [!DNL Analytics], incluse le metriche di conversione standard, personalizzate e riservate e le metriche del traffico, sono automaticamente disponibili in DSP e Search, Social e Commerce.
 
 ![Esempio di utilizzo](/help/integrations/assets/a4adc-conversion-evar-example.jpg "Esempio di utilizzo")
 
 La maggior parte delle attività seguenti deve essere eseguita da un amministratore [!DNL Analytics] o da un altro utente. Se hai bisogno di assistenza, contatta il team del tuo account Adobe.
 
-1. In [!DNL Analytics], [crea un evento di successo segnaposto](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event).
+1. In [!DNL Analytics], [crea un evento di successo segnaposto](https://experienceleague.adobe.com/it/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event).
 
    Utilizza i seguenti parametri aggiuntivi:
 

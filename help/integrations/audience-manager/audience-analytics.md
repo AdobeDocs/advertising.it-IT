@@ -36,7 +36,7 @@ I clienti Adobe Advertising possono trarre vantaggio dall&#39;utilizzo di [!DNL 
 
 * Determina i canali di marketing e i punti di ingresso al sito dagli annunci di esposizione funnel superiori.
 
-* Crea un livello di integrazione con [!DNL Analytics for Advertising] per incorporare segmenti demografici di terze parti da [Audience Manager [!DNL Audience Marketplace]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/audience-marketplace/audience-marketplace.html) con dati di [!DNL Analytics for Advertising] per ulteriori informazioni sui profili utente.
+* Crea un livello di integrazione con [!DNL Analytics for Advertising] per incorporare segmenti demografici di terze parti da [Audience Manager [!DNL Audience Marketplace]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/audience-marketplace/audience-marketplace.html?lang=it) con dati di [!DNL Analytics for Advertising] per ulteriori informazioni sui profili utente.
 
   [!DNL Audience Marketplace] fornisce l&#39;accesso ai feed di dati di terze parti con modelli di abbonamento &quot;Activation&quot;, che consentono agli acquirenti di inviare dati a una destinazione. Se i dati vengono utilizzati all&#39;interno di una destinazione [!DNL Analytics], le tariffe di attivazione non vengono applicate.
 

@@ -75,7 +75,7 @@ Questa pagina include informazioni su tutti i tipi di account, inclusa la modali
 
    Per ulteriori dettagli sulla configurazione del tracciamento, consulta il capitolo su &quot;Tracciamento&quot;.
 
-1. (Inserzionisti con Adobe Analytics) [Integra Adobe Advertising e Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) in modo che possano scambiare dati.
+1. (Inserzionisti con Adobe Analytics) [Integra Adobe Advertising e Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=it) in modo che possano scambiare dati.
 
 1. (Per consentire a Search, Social e Commerce di ottimizzare le offerte, il budget delle campagne e/o gli obiettivi della strategia di offerta delle campagne; [solo i tipi di campagna supportati](/help/search-social-commerce/introduction/supported-inventory.md)) [Assegna la campagna a un portfolio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 
