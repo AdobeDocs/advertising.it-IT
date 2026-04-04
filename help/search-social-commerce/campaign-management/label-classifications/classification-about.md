@@ -4,11 +4,9 @@ description: Scopri come utilizzare le classificazioni delle etichette per raggr
 exl-id: 3ec4b111-225e-4272-b3dc-4f6f9c711779
 feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/dZL-v9IRny6Q2rjXcEeFKicL8UHKhRofQS4bBEd0sX8
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 1f88e6a2136c1f60c75280a3edaf20ad55dc8290
 workflow-type: tm+mt
 source-wordcount: 304
 ht-degree: 0%
@@ -25,13 +23,13 @@ Ogni inserzionista può avere fino a 30 classificazioni di etichette, che sono c
 
 ## Valori etichetta
 
-Ogni classificazione di etichetta può avere fino a 2000 valori. Dopo aver creato valori di etichetta specifici per una classificazione, puoi assegnarli a campagne, gruppi di annunci, parole chiave, annunci, posizionamenti e gruppi di prodotti [&#x200B; dalle viste gestione campagne](classification-values-assign-campaign-management.md) o [utilizzando i bulksheet](classification-values-assign-bulksheets.md).
+Ogni classificazione di etichetta può avere fino a 2000 valori. Dopo aver creato valori di etichetta specifici per una classificazione, puoi assegnarli a campagne, gruppi di annunci, parole chiave, annunci, posizionamenti e gruppi di prodotti [ dalle viste gestione campagne](classification-values-assign-campaign-management.md) o [utilizzando i bulksheet](classification-values-assign-bulksheets.md).
 
 Ogni entità idonea può avere valori di etichetta per più classificazioni, ma un solo valore di etichetta per classificazione. I valori delle etichette vengono ereditati dalle entità figlio, ma possono essere ignorati. Il valore assegnato al livello più basso sostituisce sempre i valori assegnati ai livelli padre.
 
 ## Visualizzazione Classificazioni etichette
 
-Nell&#39;interfaccia utente legacy, la visualizzazione [!UICONTROL Labels Classifications] si trova in [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Labels Classifications]. Nella nuova interfaccia utente, la visualizzazione [!UICONTROL Labels Classifications] è [!UICONTROL Reports] > [!UICONTROL Labels Classifications].
+Nella nuova interfaccia utente, la visualizzazione [!UICONTROL Labels Classifications] è [!UICONTROL Reports] > [!UICONTROL Labels Classifications]. Nell&#39;interfaccia utente legacy, la visualizzazione [!UICONTROL Labels Classifications] si trova in [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Labels Classifications].
 
 La visualizzazione [!UICONTROL Labels Classifications] include [!UICONTROL Classifications] e [!UICONTROL Label Values] sottoviste. Puoi visualizzare i dati per le classificazioni delle etichette, [create](classification-create.md) e [delete](classification-delete.md) e i dati per i valori di classificazione delle etichette. Per impostazione predefinita, i dati vengono visualizzati per le classificazioni e i valori delle etichette a livello di parola chiave, ma è possibile visualizzare facoltativamente i dati per le classificazioni e i valori a livello di annuncio.
 

@@ -4,18 +4,13 @@ description: Scopri come utilizzare un’offerta privata con posizionamenti e an
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 09119471-429d-413e-8033-e29e1558abb0
 TQID: https://experienceleague.adobe.com/ZCFqnc6cQLEqahDoElttE7DzeZCR3IRx2lkyyb3BPMs
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: ac506c20-96f2-48f6-9096-77706e336bda
-  - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: ac506c20-96f2-48f6-9096-77706e336bdaid: fae3ff5f-9a75-4de1-a100-c90dd8268528
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 3b9845e85cd91cdece195593b43cbaf851368f9e
 workflow-type: tm+mt
-source-wordcount: 278
+source-wordcount: 275
 ht-degree: 0%
 
 ---
@@ -40,21 +35,21 @@ Puoi anche [allegare annunci ai posizionamenti](/help/dsp/campaign-management/ad
 
 1. Nelle impostazioni [!UICONTROL Ad & Campaign Selection], seleziona gli annunci da utilizzare per il posizionamento:
 
-       1. Seleziona l’inserzionista, la campagna e il tipo di annuncio. Facoltativamente, seleziona uno stato dell’annuncio in base al quale filtrare gli annunci.
-       
-       1. Dall’elenco degli annunci disponibili, seleziona la casella di controllo accanto a ogni annuncio da utilizzare per l’offerta.
-       
-       1. Fai clic su **[!UICONTROL Apply]**.
-   
-   1. Nella schermata delle impostazioni di posizionamento:
+   1. Seleziona l’inserzionista, la campagna e il tipo di annuncio. Facoltativamente, seleziona uno stato dell’annuncio in base al quale filtrare gli annunci.
 
-      1. Immettete il nome del posizionamento.
+   1. Dall’elenco degli annunci disponibili, seleziona la casella di controllo accanto a ogni annuncio da utilizzare per l’offerta.
 
-      1. (Facoltativo) Modifica le [impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md), inclusa la sovrascrittura dell&#39;offerta predefinita, che viene automaticamente compilata con il valore CPM dell&#39;offerta, la modifica dell&#39;intervallo di date o l&#39;aggiunta di altri annunci.
+   1. Fare clic su **[!UICONTROL Apply]**.
+
+1. Nella schermata delle impostazioni di posizionamento:
+
+   1. Immettete il nome del posizionamento.
+
+   1. (Facoltativo) Modifica le [impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md), inclusa la sovrascrittura dell&#39;offerta predefinita, che viene automaticamente compilata con il valore CPM dell&#39;offerta, la modifica dell&#39;intervallo di date o l&#39;aggiunta di altri annunci.
 
       L’offerta viene impostata automaticamente come destinazione nella sezione Oggetti di inventario. Tutte le altre opzioni di targeting non sono applicabili.
 
-      1. Fare clic su **[!UICONTROL Create placement]**.
+   1. Fare clic su **[!UICONTROL Create placement]**.
 
 Il posizionamento inizia a essere eseguito dopo che l’editore ha attivato l’ID offerta PG.
 

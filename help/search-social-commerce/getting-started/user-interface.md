@@ -4,16 +4,12 @@ description: Scopri dove accedere a diverse funzionalità.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
 TQID: https://experienceleague.adobe.com/KqfmmT9cFZpNIoIiaA0OjGlMDf4hvQzNhPpH8lYtViw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 1f88e6a2136c1f60c75280a3edaf20ad55dc8290
 workflow-type: tm+mt
-source-wordcount: 1318
+source-wordcount: 1396
 ht-degree: 0%
 
 ---
@@ -48,19 +44,17 @@ Il tuo ruolo determina le opzioni disponibili:<!-- add link when available -->
 
    * **[!UICONTROL Objectives]** Apre una nuova visualizzazione [!UICONTROL Objectives], dalla quale è possibile visualizzare tutti gli obiettivi esistenti e creare, modificare ed eliminare gli obiettivi.
 
-   * **[!UICONTROL Conversions]** Chiude il nuovo sito e apre la visualizzazione legacy [!UICONTROL Admin] > [!UICONTROL Conversions].
+<!--  Not there as of 4/3:  * **[!UICONTROL Conversions]** Exits the new site and opens the legacy [!UICONTROL Admin] > [!UICONTROL Conversions] view. -->
 
-   * **[!UICONTROL Conversion Value Rules]** Apre visualizzazioni di sola lettura delle regole dei valori di conversione a livello di campagna e di account. Per gestire le regole del valore di conversione, utilizzare la vista legacy [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules]. Tornare all&#39;interfaccia utente legacy facendo clic sul pulsante [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+* **[!UICONTROL Conversion Value Rules]** Apre visualizzazioni di sola lettura delle regole dei valori di conversione a livello di campagna e di account. Per gestire le regole del valore di conversione, utilizzare la vista legacy [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules]. Tornare all&#39;interfaccia utente legacy facendo clic sul pulsante [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
-   * **[!UICONTROL Constraints]** Chiude il nuovo sito e apre la visualizzazione legacy [!UICONTROL Optimization] > [!UICONTROL Constraints].
+* **[!UICONTROL Constraints]** Apre una visualizzazione di sola lettura dei vincoli esistenti. Per gestire i vincoli, utilizzare la vista legacy [!UICONTROL Optimization] > [!UICONTROL Constraints]. Tornare all&#39;interfaccia utente legacy facendo clic sul pulsante [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
 * Sottomenu **[!UICONTROL Plan]**:
 
    * **[!UICONTROL Simulations]** Apre una nuova visualizzazione [[!UICONTROL Simulations]](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md), da cui è possibile visualizzare tutte le simulazioni personalizzate create dall&#39;utente e le simulazioni settimanali generate automaticamente; genera nuove simulazioni personalizzate ed esegue nuovamente le simulazioni esistenti. Il pulsante [!UICONTROL Spend Planner] apre lo strumento legacy [!UICONTROL Spend Recommendation] in [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 
    * **[!UICONTROL Spend Planner]** Chiude il nuovo sito e apre la visualizzazione legacy [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
-
-   * **[!UICONTROL Label Classification]** Chiude il nuovo sito e apre la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Label Classifications].
 
 * Sottomenu **[!UICONTROL Manage]**:
 
@@ -90,9 +84,15 @@ Il tuo ruolo determina le opzioni disponibili:<!-- add link when available -->
 
    * **[!UICONTROL History Logs]**: esce dal nuovo sito e apre la visualizzazione legacy [!UICONTROL Insights & Reports] > [!UICONTROL Change History].
 
+   * **[!UICONTROL Label Classification]** Apre una nuova visualizzazione [!UICONTROL Label Classifications]. Puoi gestire le classificazioni e assegnare/annullare l’assegnazione dei valori di classificazione a tutti i componenti account applicabili disponibili nella nuova interfaccia utente.
+
+   * **[!UICONTROL Bulksheets]**: esce dal nuovo sito e apre la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Bulksheets].
+
 * Sottomenu **[!UICONTROL Target]**:
 
-   * **[!UICONTROL Audience]**: apre una nuova visualizzazione [!UICONTROL Audiences], che mostra tutti i tipi di pubblico esistenti per l&#39;inserzionista. Per gestire i tipi di pubblico, utilizza la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Audiences]. Tornare all&#39;interfaccia utente legacy facendo clic sul pulsante [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+   * **[!UICONTROL Audiences]**: apre una nuova visualizzazione [!UICONTROL Audiences], che mostra tutti i tipi di pubblico esistenti per l&#39;inserzionista, tutti i target di pubblico e tutte le esclusioni di pubblico. Per gestire i tipi di pubblico, utilizza la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Audiences]. Tornare all&#39;interfaccia utente legacy facendo clic sul pulsante [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+
+   * **[!UICONTROL Auto Targets]** Chiude il nuovo sito e apre la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
 
    * **[!UICONTROL Keywords]** Apre una nuova visualizzazione [!UICONTROL Keywords], che mostra le parole chiave esistenti e le parole chiave negative per l&#39;inserzionista. È possibile gestire le assegnazioni di vincoli per le parole chiave selezionate.
 
@@ -104,8 +104,6 @@ Il tuo ruolo determina le opzioni disponibili:<!-- add link when available -->
 
 * Sottomenu **[!UICONTROL Assets]**:
 
-   * **[!UICONTROL Auto Targets]** Chiude il nuovo sito e apre la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
-
    * **[!UICONTROL Creatives]** Chiude il nuovo sito e apre la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
 
    * **[!UICONTROL Extensions]** Apre visualizzazioni di sola lettura delle estensioni dell&#39;annuncio esistenti. Per gestire le estensioni, utilizzare la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Campaigns]. Tornare all&#39;interfaccia utente legacy facendo clic sul pulsante [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
@@ -114,13 +112,15 @@ Il tuo ruolo determina le opzioni disponibili:<!-- add link when available -->
 
 * Sottomenu **[!UICONTROL Set Up]**:
 
-   * **[!UICONTROL Accounts]**: esce dal nuovo sito e apre la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+   * **[!UICONTROL Manager Accounts]**: esce dal nuovo sito e apre la visualizzazione legacy [!UICONTROL Admin] > [!UICONTROL Manager Accounts].
+
+   * **[!UICONTROL Accounts]**: apre una nuova visualizzazione [!UICONTROL Accounts]. Puoi gestire account di rete di annunci sincronizzati tramite una connessione API o configurati tramite il caricamento di dati. È inoltre possibile gestire gli account [!UICONTROL Naver] esistenti.
+
+   * **[!UICONTROL Import Campaigns]**: esce dal nuovo sito e apre la visualizzazione legacy [!UICONTROL Tools] > [!UICONTROL Import Campaigns].
 
 <!--
- What's happenening to these?
+ What's happening to these?
 
-Campaigns > ACM
-Campaigns > Bulksheets
 Campaigns > Asset Library
 
 Insights > Notification Center (doesn't open from Dashboard > Alerts & Notifications)
@@ -128,7 +128,6 @@ Insights > Notification Center (doesn't open from Dashboard > Alerts & Notificat
 Tools > Conversion Upload Setup
 Tools > Generic Tracking
 Tools > Inventory Selection
-Import Campaigns
 
 Tools > Admin > Data Source Setup
 -->

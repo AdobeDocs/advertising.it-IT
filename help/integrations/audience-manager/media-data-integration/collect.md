@@ -4,25 +4,14 @@ description: Scopri come acquisire impression basate su cookie e eventi di clic 
 feature: Integration with Adobe Audience Manager
 exl-id: d827fbb8-b61a-4601-a42a-1ea60e4f36b7
 TQID: https://experienceleague.adobe.com/UXP1gmCmLCHH-l7a1WYxlmYfSRIgJPLpxWHyHujIdX0
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
-  - id: d9510790-d834-436d-8423-8d69cd50464a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3did: d9510790-d834-436d-8423-8d69cd50464a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 3b9845e85cd91cdece195593b43cbaf851368f9e
 workflow-type: tm+mt
-source-wordcount: 997
+source-wordcount: 991
 ht-degree: 0%
 
 ---
@@ -39,7 +28,7 @@ I pixel dell’evento non acquisiscono gli eventi che si verificano in ambienti 
 
 ## Passaggio 1: configurare un’origine dati in Audience Manager {#set-up-data-source}
 
-In Audience Manager, crea un&#39;[origine dati](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html?lang=it) per l&#39;impression DSP e fai clic sui dati. Includere l&#39;ID dell&#39;origine dati [in ogni tag evento](#implement-dsp-pixels) in modo che tutti gli eventi tracciati vengano attribuiti all&#39;origine dati.
+In Audience Manager, crea un&#39;[origine dati](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html) per l&#39;impression DSP e fai clic sui dati. Includere l&#39;ID dell&#39;origine dati [in ogni tag evento](#implement-dsp-pixels) in modo che tutti gli eventi tracciati vengano attribuiti all&#39;origine dati.
 
 >[!NOTE]
 > È possibile raccogliere tutte le impression e i dati dei clic per le campagne pubblicitarie in esecuzione su più DSP all’interno di un’unica origine dati.
@@ -50,7 +39,7 @@ Gli inserzionisti possono creare e implementare tag evento per i propri marchi. 
 
 >[!NOTE]
 >
->Se la tua organizzazione utilizza il tracciamento di [!DNL Analytics], potrebbe non essere necessario il tracciamento dei clic di Audience Manager. Adobe Analytics acquisisce i segnali di clic e può inviarli ad Audience Manager tramite [inoltro lato server](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=it).
+>Se la tua organizzazione utilizza il tracciamento di [!DNL Analytics], potrebbe non essere necessario il tracciamento dei clic di Audience Manager. Adobe Analytics acquisisce i segnali di clic e può inviarli ad Audience Manager tramite [inoltro lato server](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
 
 ### Sintassi dei pixel
 
@@ -84,21 +73,21 @@ Dove:
 
 **Formato:** `d_parameter=parameter_id`
 
-    where:
-    
-    * il parametro è preceduto da `&amp;`
-    
-    * `parameter` è sostituito dalla coppia chiave-valore per il nuovo campo
-    
-    Esempio: `&amp;d_placement=${TM_PLACEMENT_ID_NUM}`
+dove:
+
+* il parametro ha il prefisso `&`
+
+* `parameter` è sostituito dalla coppia chiave-valore per il nuovo campo
+
+*Esempio:* `&d_placement=${TM_PLACEMENT_ID_NUM}`
 
 Entrambi i tipi di pixel possono contenere parametri aggiuntivi come *coppie chiave-valore* per raccogliere caratteristiche o fornire metadati della campagna (come un nome di posizionamento o un nome di campagna) per altri rapporti. Una coppia chiave-valore è costituita da due elementi correlati: una *chiave*, che è una costante che definisce il set di dati, e una *valore*, che è una variabile che appartiene al set.
 
 Nella coppia chiave-valore, la variabile valore può essere un ID hardcoded o una *macro*, che è una piccola unità di codice autonomo che viene sostituito dinamicamente con i valori corrispondenti quando il tag dell&#39;annuncio viene caricato per il tracciamento della campagna e dell&#39;utente. Per i parametri relativi alla campagna, puoi utilizzare [macro DSP](/help/dsp/campaign-management/macros.md) invece delle macro Audience Manager per inviare ad Audience Manager gli attributi della campagna insieme alle impression corrispondenti o i dati dei clic, utilizzando un singolo pixel in tutti gli annunci. Le macro di DSP inserite nei pixel dell’evento devono essere valori appropriati per le coppie chiave-valore incluse all’interno dei pixel. Per la chiave `d_placement`, ad esempio, si utilizza la macro DSP `${TM_PLACEMENT_ID_NUM}` come valore per acquisire gli ID di posizionamento generati dalla macro Adobe Advertising.
 
-Per un elenco delle macro supportate da Audience Manager per i pixel dell&#39;evento di impression, vedi &quot;[Acquisizione dei dati di impression della campagna tramite chiamate pixel](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html?lang=it#supported-key-value-pairs).&quot;
+Per un elenco delle macro supportate da Audience Manager per i pixel dell&#39;evento di impression, vedi &quot;[Acquisizione dei dati di impression della campagna tramite chiamate pixel](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html#supported-key-value-pairs).&quot;
 
-Per un elenco delle macro supportate da Audience Manager per i pixel dell&#39;evento di clic, vedere &quot;[Acquisizione dei dati di clic delle campagne tramite chiamate pixel](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/click-data-pixels.html?lang=it).&quot;
+Per un elenco delle macro supportate da Audience Manager per i pixel dell&#39;evento di clic, vedere &quot;[Acquisizione dei dati di clic delle campagne tramite chiamate pixel](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/click-data-pixels.html).&quot;
 
 >[!TIP]
 >
@@ -133,11 +122,11 @@ Una volta implementati i tag evento, i dati fluiscono nei server di raccolta dat
 
 ### Crea un bucket [!DNL Amazon S3] e un&#39;origine dati
 
-Una volta che i dati si trovano sui server Audience Manager, è necessario creare un bucket [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) e quindi un&#39;origine dati a cui vengono inviati tutti i dati pixel. Contatta il tuo consulente Audience Manager o [l&#39;Assistenza clienti](https://experienceleague.adobe.com/docs/audience-manager/user-guide/help-and-legal/help-legal-contact.html?lang=it) se hai bisogno di supporto.
+Una volta che i dati si trovano sui server Audience Manager, è necessario creare un bucket [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) e quindi un&#39;origine dati a cui vengono inviati tutti i dati pixel. Contatta il tuo consulente Audience Manager o [l&#39;Assistenza clienti](https://experienceleague.adobe.com/docs/audience-manager/user-guide/help-and-legal/help-legal-contact.html) se hai bisogno di supporto.
 
 ### Creare caratteristiche e segmenti di Audience Manager
 
-I dati dell&#39;evento scorrono in Audience Manager come [segnali inutilizzati](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html?lang=it). Crea manualmente [caratteristiche basate su regole](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=it) dai dati acquisiti, quindi crea [segmenti](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html?lang=it) utilizzando tali caratteristiche, prima di poter utilizzare i dati nei rapporti.
+I dati dell&#39;evento scorrono in Audience Manager come [segnali inutilizzati](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html). Crea manualmente [caratteristiche basate su regole](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) dai dati acquisiti, quindi crea [segmenti](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html) utilizzando tali caratteristiche, prima di poter utilizzare i dati nei rapporti.
 
 Caratteristica di esempio che popola i dati a livello di utente per gli utenti esposti a un contenuto creativo specifico in DSP:
 
