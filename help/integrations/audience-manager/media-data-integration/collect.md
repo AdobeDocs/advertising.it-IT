@@ -39,7 +39,7 @@ I pixel dell’evento non acquisiscono gli eventi che si verificano in ambienti 
 
 ## Passaggio 1: configurare un’origine dati in Audience Manager {#set-up-data-source}
 
-In Audience Manager, crea un&#39;[origine dati](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html) per l&#39;impression DSP e fai clic sui dati. Includere l&#39;ID dell&#39;origine dati [in ogni tag evento](#implement-dsp-pixels) in modo che tutti gli eventi tracciati vengano attribuiti all&#39;origine dati.
+In Audience Manager, crea un&#39;[origine dati](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html?lang=it) per l&#39;impression DSP e fai clic sui dati. Includere l&#39;ID dell&#39;origine dati [in ogni tag evento](#implement-dsp-pixels) in modo che tutti gli eventi tracciati vengano attribuiti all&#39;origine dati.
 
 >[!NOTE]
 > È possibile raccogliere tutte le impression e i dati dei clic per le campagne pubblicitarie in esecuzione su più DSP all’interno di un’unica origine dati.
@@ -50,7 +50,7 @@ Gli inserzionisti possono creare e implementare tag evento per i propri marchi. 
 
 >[!NOTE]
 >
->Se la tua organizzazione utilizza il tracciamento di [!DNL Analytics], potrebbe non essere necessario il tracciamento dei clic di Audience Manager. Adobe Analytics acquisisce i segnali di clic e può inviarli ad Audience Manager tramite [inoltro lato server](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
+>Se la tua organizzazione utilizza il tracciamento di [!DNL Analytics], potrebbe non essere necessario il tracciamento dei clic di Audience Manager. Adobe Analytics acquisisce i segnali di clic e può inviarli ad Audience Manager tramite [inoltro lato server](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=it).
 
 ### Sintassi dei pixel
 
@@ -137,7 +137,7 @@ Una volta che i dati si trovano sui server Audience Manager, è necessario crear
 
 ### Creare caratteristiche e segmenti di Audience Manager
 
-I dati dell&#39;evento scorrono in Audience Manager come [segnali inutilizzati](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html?lang=it). Crea manualmente [caratteristiche basate su regole](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) dai dati acquisiti, quindi crea [segmenti](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html?lang=it) utilizzando tali caratteristiche, prima di poter utilizzare i dati nei rapporti.
+I dati dell&#39;evento scorrono in Audience Manager come [segnali inutilizzati](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html?lang=it). Crea manualmente [caratteristiche basate su regole](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=it) dai dati acquisiti, quindi crea [segmenti](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html?lang=it) utilizzando tali caratteristiche, prima di poter utilizzare i dati nei rapporti.
 
 Caratteristica di esempio che popola i dati a livello di utente per gli utenti esposti a un contenuto creativo specifico in DSP:
 

@@ -26,7 +26,7 @@ ht-degree: 0%
 
 **variante di annuncio:** qualsiasi annuncio all&#39;interno di un gruppo di annunci o di una strategia di annunci.
 
-**[AMO ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id):** Un codice di tracciamento che consente ad Adobe Advertising di condividere dati sulle campagne con Adobe Analytics e Adobe Customer Journey Analytics. Inizia con `s_kwcid=`.
+**[AMO ID](https://experienceleague.adobe.com/it/docs/analytics/components/dimensions/amo-id):** Un codice di tracciamento che consente ad Adobe Advertising di condividere dati sulle campagne con Adobe Analytics e Adobe Customer Journey Analytics. Inizia con `s_kwcid=`.
 
 **unità di offerta:** termine di ricerca, social e Commerce per un&#39;unità in cui vengono presentate le offerte.
 
