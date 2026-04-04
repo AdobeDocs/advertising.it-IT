@@ -57,7 +57,7 @@ Dopo aver creato i tipi di pubblico, puoi utilizzarli nelle campagne [!DNL Googl
 
 >[!NOTE]
 >
->Per ulteriori informazioni su come creare tipi di pubblico nelle interfacce Audience Manager e Experience Cloud [!DNL Audience Library] e casi d&#39;uso comuni per diversi tipi di pubblico, vedi &quot;[Opzioni di creazione pubblico](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html)&quot;.
+>Per ulteriori informazioni su come creare tipi di pubblico nelle interfacce Audience Manager e Experience Cloud [!DNL Audience Library] e casi d&#39;uso comuni per diversi tipi di pubblico, vedi &quot;[Opzioni di creazione pubblico](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=it)&quot;.
 
 ## Inviare dati sull’esposizione dei contenuti multimediali DSP ad Audience Manager
 

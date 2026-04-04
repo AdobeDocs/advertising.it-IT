@@ -8,7 +8,7 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 1f88e6a2136c1f60c75280a3edaf20ad55dc8290
 workflow-type: tm+mt
 source-wordcount: 304
 ht-degree: 0%
@@ -31,7 +31,7 @@ Ogni entità idonea può avere valori di etichetta per più classificazioni, ma 
 
 ## Visualizzazione Classificazioni etichette
 
-Nell&#39;interfaccia utente legacy, la visualizzazione [!UICONTROL Labels Classifications] si trova in [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Labels Classifications]. Nella nuova interfaccia utente, la visualizzazione [!UICONTROL Labels Classifications] è [!UICONTROL Reports] > [!UICONTROL Labels Classifications].
+Nella nuova interfaccia utente, la visualizzazione [!UICONTROL Labels Classifications] è [!UICONTROL Reports] > [!UICONTROL Labels Classifications]. Nell&#39;interfaccia utente legacy, la visualizzazione [!UICONTROL Labels Classifications] si trova in [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Labels Classifications].
 
 La visualizzazione [!UICONTROL Labels Classifications] include [!UICONTROL Classifications] e [!UICONTROL Label Values] sottoviste. Puoi visualizzare i dati per le classificazioni delle etichette, [create](classification-create.md) e [delete](classification-delete.md) e i dati per i valori di classificazione delle etichette. Per impostazione predefinita, i dati vengono visualizzati per le classificazioni e i valori delle etichette a livello di parola chiave, ma è possibile visualizzare facoltativamente i dati per le classificazioni e i valori a livello di annuncio.
 

@@ -52,7 +52,7 @@ Per accedere a [!DNL Adobe] tipi di pubblico in DSP o [!DNL Creative], è necess
 
   [!UICONTROL Organization ID] consente alle organizzazioni con più prodotti Adobe Experience Cloud di condividere i dati tra alcuni di essi.
 
-* (Inserzionisti con [!DNL Analytics]) L&#39;inserzionista deve [implementare [!DNL Analytics] utilizzando `appMeasurement.js`](https://experienceleague.adobe.com/en/docs/analytics/implementation/js/overview) versione 1.6.4 o successiva.
+* (Inserzionisti con [!DNL Analytics]) L&#39;inserzionista deve [implementare [!DNL Analytics] utilizzando `appMeasurement.js`](https://experienceleague.adobe.com/it/docs/analytics/implementation/js/overview) versione 1.6.4 o successiva.
 
 * I visitatori del sito Web dell&#39;inserzionista non includono un numero elevato di [!DNL Apple Safari] utenti.
 

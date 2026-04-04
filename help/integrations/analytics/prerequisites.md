@@ -83,7 +83,7 @@ Il JavaScript [!DNL Analytics for Advertising] utilizza queste impostazioni per 
 
 >[!NOTE]
 >
->Per segmentare i dati per un intervallo di tempo diverso, puoi [impostare segmenti personalizzati](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) con diversi intervalli di lookback in Analysis Workspace.
+>Per segmentare i dati per un intervallo di tempo diverso, puoi [impostare segmenti personalizzati](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=it) con diversi intervalli di lookback in Analysis Workspace.
 
 ## Ambienti di annunci supportati
 

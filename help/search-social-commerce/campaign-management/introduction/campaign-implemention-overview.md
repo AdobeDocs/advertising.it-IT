@@ -69,7 +69,7 @@ Questa pagina include informazioni su tutti i tipi di account, inclusa la modali
 
    1. Imposta il tracciamento delle conversioni. A seconda dell’implementazione, ciò può comportare l’aggiunta di tag di tracciamento della conversione alle pagine web dell’inserzionista e/o l’impostazione di un rilascio giornaliero di feed per i dati di conversione raccolti separatamente dall’inserzionista.
 
-      Se utilizzi il servizio di tracciamento delle conversioni di Adobe Advertising, puoi [generare tag di tracciamento delle conversioni](/help/search-social-commerce/tools/conversion-tag-generate.md) in Search, Social e Commerce o utilizzare [tag di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html) (precedentemente noto come Adobe Experience Platform Launch).
+      Se utilizzi il servizio di tracciamento delle conversioni di Adobe Advertising, puoi [generare tag di tracciamento delle conversioni](/help/search-social-commerce/tools/conversion-tag-generate.md) in Search, Social e Commerce o utilizzare [tag di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html?lang=it) (precedentemente noto come Adobe Experience Platform Launch).
 
    1. Convalida i dati tracciati.
 

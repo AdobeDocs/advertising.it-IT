@@ -49,7 +49,7 @@ Vantaggi principali:
 
 >[!TIP]
 >
-> Guarda un [video introduttivo a [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html#analytics).
+> Guarda un [video introduttivo a [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=it#analytics).
 
 ## Utilizzo di Analytics per la generazione di rapporti sui media a pagamento
 
@@ -101,11 +101,11 @@ Per un elenco delle metriche disponibili, vedere &quot;[Metriche di Analytics in
 
 Adobe Advertising può acquisire [!DNL Analytics] segmenti a scopo di remarketing per Advertising DSP e [!DNL Search, Social, & Commerce] annunci utilizzando l&#39;integrazione nativa di Experience Cloud Audiences tra [!DNL Analytics] e Experience Cloud.
 
-Per accedere ai segmenti [!DNL Analytics], un account inserzionista deve abilitare il [servizio Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html). Quando il servizio ID è abilitato, tutti i segmenti di Experience Cloud (inclusi i segmenti creati in [!DNL Analytics] e pubblicati in Experience Cloud, i segmenti creati in Adobe Audience Manager, i segmenti creati in Experience Cloud utilizzando [!DNL People core service] e i segmenti creati in Adobe Experience Platform e inviati ad Adobe Advertising tramite Audience Manager) diventano disponibili in Adobe Advertising non appena vengono elaborati.
+Per accedere ai segmenti [!DNL Analytics], un account inserzionista deve abilitare il [servizio Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it). Quando il servizio ID è abilitato, tutti i segmenti di Experience Cloud (inclusi i segmenti creati in [!DNL Analytics] e pubblicati in Experience Cloud, i segmenti creati in Adobe Audience Manager, i segmenti creati in Experience Cloud utilizzando [!DNL People core service] e i segmenti creati in Adobe Experience Platform e inviati ad Adobe Advertising tramite Audience Manager) diventano disponibili in Adobe Advertising non appena vengono elaborati.
 
 [!DNL Analytics] segmenti sono disponibili entro 24 ore e vengono aggiornati ogni giorno.
 
-Per ulteriori informazioni sul servizio Experience Cloud Audiences, vedi [Tipi di pubblico di Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html).
+Per ulteriori informazioni sul servizio Experience Cloud Audiences, vedi [Tipi di pubblico di Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=it).
 
 ## Esempi di come utilizzare l’integrazione {#integration-examples}
 

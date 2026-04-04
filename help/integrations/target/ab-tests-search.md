@@ -60,7 +60,7 @@ Vedere le sezioni seguenti per i prerequisiti, le istruzioni per impostare test 
 
 Le istruzioni seguenti evidenziano le informazioni relative al caso d’uso Ricerca, Social e Commerce.
 
-1. [Accedi ad Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
+1. [Accedi ad Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html?lang=it).
 
 1. [Creare un test A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=it):
 
@@ -135,7 +135,7 @@ Le dimensioni seguenti si riferiscono a [!DNL Analytics for Target]:
 
 In Analysis Workspace, se noti che i dati di attività ed esperienze sono minimi o non vengono popolati, effettua le seguenti operazioni:
 
-* Verificare che lo stesso [!UICONTROL Supplemental Data ID] (SDID) sia utilizzato per [!DNL Target] e [!DNL Analytics]. Puoi verificare i valori SDID utilizzando [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html) nella pagina di destinazione in cui la campagna guida gli utenti.
+* Verificare che lo stesso [!UICONTROL Supplemental Data ID] (SDID) sia utilizzato per [!DNL Target] e [!DNL Analytics]. Puoi verificare i valori SDID utilizzando [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html?lang=it) nella pagina di destinazione in cui la campagna guida gli utenti.
 
 [Valori di Supplemental Data ID (SDID) in Adobe Debugger](/help/integrations/assets/target-troubleshooting-sdid.png)
 
@@ -150,7 +150,7 @@ In Analysis Workspace, se noti che i dati di attività ed esperienze sono minimi
 ## Ulteriori informazioni
 
 * [Integrare Target con Analytics](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html?lang=it) - Spiega come impostare il reporting di [!DNL Target] in Analysis Workspace.
-* [Panoramica test A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html): descrive le attività test A/B, utilizzabili con annunci Search, Social e Commerce.
+* [Panoramica test A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html?lang=it): descrive le attività test A/B, utilizzabili con annunci Search, Social e Commerce.
 * [Panoramica di [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) - Introduce [!DNL Analytics for Advertising], che consente di tenere traccia delle interazioni del sito click-through e view-through nelle istanze di Analytics.
 
 >[!MORELIKETHIS]
