@@ -4,15 +4,12 @@ description: Scopri come creare un'azione di conversione  [!DNL Google Ads]  per
 feature: Conversions
 exl-id: faf4a6de-e82f-4afd-bda5-2602fb45aee5
 TQID: https://experienceleague.adobe.com/KqFHgxjc-4snyo3nf-3-ry6nsyapMPcwKEWvgi-pxGc
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 459
+source-wordcount: 457
 ht-degree: 0%
 
 ---
@@ -51,7 +48,7 @@ Dopo aver creato l’azione di conversione e aver implementato un tag di traccia
 
 ## Impostazioni delle azioni di conversione {#conversion-action-settings-google}
 
-**[!UICONTROL Select an Account]:** L&#39;account Google Ads applicabile.
+**[!UICONTROL Select an Account]:** L&#39;account [!DNL Google Ads] applicabile.
 
 **[!UICONTROL Type of Conversion]:** Il tipo di conversione da tenere traccia: Seleziona *[!UICONTROL Import conversion]*. Tutti gli altri tipi vengono utilizzati per creare tag di tracciamento delle conversioni (non azioni di conversione) per altri tipi di conversioni.
 
