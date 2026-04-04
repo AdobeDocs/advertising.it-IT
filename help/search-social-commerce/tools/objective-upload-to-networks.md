@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 680
+source-wordcount: 676
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ I caricamenti in [!DNL Google Ads] e [!DNL Microsoft Advertising] si verificano 
 
 >[!IMPORTANT]
 >
->Le conversioni tracciate da Google Ads e dal tag UET (Universal Event Tracking) di Microsoft Advertising non vengono ricaricate nelle reti di annunci. Se li includi all’interno di un obiettivo, devi aggiungerli agli obiettivi della campagna nell’editor della rete di annunci.
+>Le conversioni tracciate da [!DNL Google Ads] e dal tag UET (Universal Event Tracking) di [!DNL Microsoft Advertising] non vengono ricaricate nelle reti di annunci. Se li includi all’interno di un obiettivo, devi aggiungerli agli obiettivi della campagna nell’editor della rete di annunci.
 
 1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**.
 

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: 287e8bd0c2a3c3aedbf5f1f9551823b0c4586a57
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
@@ -11,5 +11,5 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* L’URL di base può contenere reindirizzamenti all’interno del dominio o del sottodominio della pagina di destinazione, ma non reindirizzamenti all’esterno del dominio della pagina di destinazione. Google Ads estrae il dominio da questo URL e aggiunge eventuali percorsi di visualizzazione facoltativi affinché l’annuncio possa creare l’URL di visualizzazione.
->* Evita l&#39;uso di macro, che non sono sostituite dai clic provenienti da origini che abilitano il tracciamento parallelo. Se l’inserzionista deve utilizzare delle macro, l’Account Team Adobe deve collaborare con l’Assistenza clienti o con il team di implementazione per aggiungerle.
+>* L’URL di base può contenere reindirizzamenti all’interno del dominio o del sottodominio della pagina di destinazione, ma non reindirizzamenti all’esterno del dominio della pagina di destinazione. [!DNL Google Ads] estrae il dominio da questo URL e aggiunge eventuali percorsi di visualizzazione facoltativi per l&#39;annuncio per creare l&#39;URL di visualizzazione.
+>* Evita l&#39;uso di macro, che non sono sostituite dai clic provenienti da origini che abilitano il tracciamento parallelo. Se l’inserzionista deve utilizzare delle macro, il team dell’account di Adobe deve collaborare con l’Assistenza clienti o con il team di implementazione per aggiungerle.

@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 785
+source-wordcount: 787
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Puoi caricare i dati di conversione offline di prime parti, inclusi indirizzi e-
 
 `Parameters:TimeZone=insert_timezone`
 
-Immettere il fuso orario dell&#39;account in questa posizione o nella colonna &quot;[!UICONTROL Conversion Time]&quot; per ogni riga. Utilizzare a\) ([!DNL Google Ads only]) il formato [ID fuso orario supportato](https://developers.google.com/google-ads/api/data/codes-formats#timezone_ids) o b\) per l&#39;offset GMT, come indicato da + o - e dalla differenza di ora a 4 cifre (ad esempio -0500 per New York, +0100 per Berlino o +0000 per l&#39;ora di Greenwich).
+Immettere il fuso orario dell&#39;account in questa posizione o nella colonna &quot;[!UICONTROL Conversion Time]&quot; per ogni riga. Utilizza a\) ([!DNL solo [!DNL Google Ads]]) il formato [ID fuso orario supportato](https://developers.google.com/google-ads/api/data/codes-formats#timezone_ids) o b\) l&#39;offset GMT, come indicato da + o - e la differenza di ora a 4 cifre (ad esempio -0500 per New York, +0100 per Berlino o +0000 per l&#39;ora di Greenwich).
 
 ### Colonne e valori della tabella per [!DNL Google Ads]
 

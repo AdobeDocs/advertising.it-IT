@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 3360
+source-wordcount: 3352
 ht-degree: 0%
 
 ---
@@ -153,7 +153,7 @@ Per reindirizzamenti e tracciamento di terze parti, inserisci un valore. Per ind
 
 * Per Yahoo! Account Japan Ads, utilizzare il parametro {lpurl}.
 
-* Per i parametri disponibili per gli account Microsoft Advertising e Google Ads, vedi la [[!DNL Microsoft Advertising] documentazione](https://help.ads.microsoft.com/#apex/3/en/56799) o i parametri &quot;Solo modello di tracciamento&quot;nella sezione &quot;Parametri [!DNL ValueTrack] disponibili&quot; nella [[!DNL Google Ads] documentazione](https://support.google.com/google-ads/answer/6305348).
+* Per i parametri disponibili per gli account [!DNL Microsoft Advertising] e [!DNL Google Ads], consulta la [[!DNL Microsoft Advertising] documentazione](https://help.ads.microsoft.com/#apex/3/en/56799) o i parametri &quot;Solo modello di tracciamento&quot;nella sezione &quot;Parametri [!DNL ValueTrack] disponibili&quot; della [[!DNL Google Ads] documentazione](https://support.google.com/google-ads/answer/6305348).
 
 Questo valore sostituisce le impostazioni a livello di account e di campagna, ma i modelli di tracciamento a livelli più granulari (con la parola chiave come più granulare) sostituiscono questo valore.
 
@@ -350,7 +350,7 @@ Per reindirizzamenti e tracciamento di terze parti, inserisci un valore. Per ind
 
 * Per Yahoo! Account Japan Ads, utilizzare il parametro {lpurl}.
 
-* Per i parametri disponibili per gli account Microsoft Advertising e Google Ads, vedi la [[!DNL Microsoft Advertising] documentazione](https://help.ads.microsoft.com/#apex/3/en/56799) o i parametri &quot;Solo modello di tracciamento&quot;nella sezione &quot;Parametri [!DNL ValueTrack] disponibili&quot; nella [[!DNL Google Ads] documentazione](https://support.google.com/google-ads/answer/6305348).
+* Per i parametri disponibili per gli account [!DNL Microsoft Advertising] e [!DNL Google Ads], consulta la [[!DNL Microsoft Advertising] documentazione](https://help.ads.microsoft.com/#apex/3/en/56799) o i parametri &quot;Solo modello di tracciamento&quot;nella sezione &quot;Parametri [!DNL ValueTrack] disponibili&quot; della [[!DNL Google Ads] documentazione](https://support.google.com/google-ads/answer/6305348).
 
 **\[Campi annuncio alternativi sotto i campi annuncio originali\]:** (facoltativo) un set alternativo di copie di annunci per un annuncio, che può essere utilizzato se una qualsiasi delle righe nella copia dell&#39;annuncio originale supera la lunghezza massima consentita una volta che i parametri dinamici vengono compilati con i dati durante la propagazione.
 

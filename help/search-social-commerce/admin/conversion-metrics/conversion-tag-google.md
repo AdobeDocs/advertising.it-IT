@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 415
+source-wordcount: 413
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Una volta aggiunti i tag al sito Web e che iniziano a essere attivati, [!DNL Goo
 
 ## Impostazioni dei tag di conversione {#conversion-tag-settings-google}
 
-**[!UICONTROL Select an Account]:** L&#39;account Google Ads applicabile.
+**[!UICONTROL Select an Account]:** L&#39;account [!DNL Google Ads] applicabile.
 
 **[!UICONTROL Type of Conversion]:** Tipo di conversione da tenere traccia: *[!UICONTROL Click on a webpage element]*, *[!UICONTROL Calls to a phone number on your website]* o *[!UICONTROL Clicks to your number on your mobile website]*. **Nota:** *[!UICONTROL Import conversion]* è utilizzato per uno scopo diverso. Vedere &quot;[Creare un&#39;azione di conversione per una  [!DNL Google Ads] conversione avanzata per lead](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md).&quot;
 

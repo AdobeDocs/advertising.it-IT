@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 116
+source-wordcount: 114
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Gli annunci di ricerca dinamica (DSA) sono disponibili solo per [!DNL Google Ads] gruppi di annunci dinamici di ricerca nelle campagne di sola ricerca. La rete di annunci genera dinamicamente il titolo, seleziona la pagina di destinazione e l’URL di visualizzazione per un annuncio di ricerca dinamico, quindi genera automaticamente l’URL finale.
 
-Consulta la guida di Google Ads per [limiti di annunci per account](https://support.google.com/google-ads/answer/6372658?hl=en).
+Consulta la guida di [!DNL Google Ads] per [limiti di annunci per account](https://support.google.com/google-ads/answer/6372658?hl=en).
 
 >[!NOTE]
 >
