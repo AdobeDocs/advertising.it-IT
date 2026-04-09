@@ -2,20 +2,20 @@
 title: Gestire le metriche di conversione di un inserzionista
 description: Scopri come utilizzare le metriche di conversione tracciate da Adobe Advertising per un inserzionista.
 feature: Conversions
-source-git-commit: 7e2b4ecc399a9bb243f3382f0dea913fc8181aad
+source-git-commit: ba96414b7104192d36d62842f52f73a5850190f9
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
 
 # Gestire le metriche di conversione di un inserzionista
 
-Le metriche di [conversione](/help/search-social-commerce/glossary.md#c-d) dell&#39;inserzionista vengono utilizzate in Search, Social, Commerce e Advertising DSP:
+Le metriche di [conversione](/help/search-social-commerce/glossary.md#c-d) di un inserzionista vengono utilizzate in Adobe Advertising:
 
 * In Search, Social e Commerce i dati per le metriche di conversione possono essere visualizzati in colonne nelle viste Campagna, Portfolio e Gestione obiettivi, nonché nei rapporti. Gli utenti con privilegi di accesso sufficienti possono inoltre utilizzare metriche di conversione per creare obiettivi, utilizzati per ottimizzare i portfolio.
 
-* In Advertising DSP puoi utilizzare le metriche di conversione per creare [obiettivi personalizzati](/help/dsp/optimization/custom-goal.md), utilizzati per ottimizzare i pacchetti.
+* (Per gli inserzionisti che fanno uso di Advertising DSP) In DSP puoi includere le metriche di conversione nelle visualizzazioni di gestione delle campagne, negli obiettivi personalizzati e nei rapporti personalizzati. Puoi anche utilizzare le metriche di conversione per creare [obiettivi personalizzati](/help/dsp/optimization/custom-goal.md), utilizzati per ottimizzare i pacchetti.
 
 Le metriche disponibili includono:
 
@@ -23,19 +23,21 @@ Le metriche disponibili includono:
 
 * [Metriche di conversione e coinvolgimento sito sincronizzate da Adobe Analytics](/help/integrations/analytics/analytics-data-in-advertising.md).
 
+* [Eventi del sito sincronizzati da Adobe Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md).
+
 * Conversioni tracciate da [!DNL Google Ads] e conversioni tracciate da [!DNL Microsoft Advertising] tag di tracciamento eventi universali.
 
 * (Quando [hai configurato una specifica [!DNL Google Analytics] combinazione di account, proprietà e visualizzazione come origine dati](/help/search-social-commerce/admin/data-sources/data-source-about.md) per Search, Social e Commerce) Le conversioni sono monitorate da [!DNL Google Analytics].
 
-Dall’elenco delle metriche di conversione disponibili, ogni utente con accesso ai dati dell’inserzionista può personalizzare le metriche visualizzate disponibili per le visualizzazioni e i rapporti di gestione, includendo o omettendo metriche specifiche a propria scelta.
+* Conversioni da feed personalizzati.
+
+Dall’elenco delle metriche di conversione disponibili, ogni utente con accesso ai dati dell’inserzionista può personalizzare le metriche visualizzate disponibili per le visualizzazioni e i rapporti di gestione, includendo o omettendo metriche specifiche a propria scelta. Puoi utilizzare un nome di metrica esattamente come è scritto nei dati recuperati oppure modificare il nome visualizzato nelle intestazioni di colonna per migliorarne la leggibilità.
 
 >[!IMPORTANT]
 >
 >Per impostazione predefinita, nessuna delle metriche di conversione di un inserzionista, ad eccezione delle conversioni monitorate da [!DNL Google Ads], [!DNL Google Analytics] e [!DNL Microsoft Advertising] tag di tracciamento eventi universali, è disponibile per l&#39;inclusione nelle visualizzazioni, negli obiettivi e nei report di gestione delle campagne e dei portfolio. Per rendere disponibile una metrica di conversione, devi renderla esplicitamente disponibile.
 >
 >Le nuove conversioni tracciate dai tag di tracciamento degli eventi universali [!DNL Google Ads], [!DNL Google Analytics] e [!DNL Microsoft Advertising] sono sempre disponibili automaticamente.
-
-Puoi utilizzare un nome di metrica esattamente come è scritto nei dati recuperati oppure modificare il nome visualizzato nelle intestazioni di colonna per migliorarne la leggibilità.
 
 >[!TIP]
 >
@@ -65,7 +67,7 @@ Impossibile eliminare un nome visualizzato esistente.
 
    I nomi visualizzati devono essere univoci e non possono includere i seguenti caratteri speciali: `\"<'>&`
 
-## Modificare le metriche di conversione disponibili nelle visualizzazioni e nei rapporti di gestione {#conversion-metrics-change-available}
+## Modificare le metriche di conversione disponibili nelle visualizzazioni di gestione, negli obiettivi e nei rapporti {#conversion-metrics-change-available}
 
 >[!NOTE]
 >
@@ -93,4 +95,4 @@ Impossibile eliminare un nome visualizzato esistente.
 
 >[!MORELIKETHIS]
 >
->* &#x200B;
+>* 
