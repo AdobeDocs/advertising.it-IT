@@ -14,7 +14,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: 550
+source-wordcount: 549
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Gli account che utilizzano il monitoraggio delle conversioni di Adobe Advertisin
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     Se l&#39;account dispone di un&#39;implementazione AMO ID lato server e l&#39;impostazione account o campagna &quot;[!UICONTROL Auto Upload]&quot; è abilitata, il parametro viene aggiunto automaticamente. In caso contrario, è necessario aggiungerlo manualmente. Consulta &quot;[Adobe Advertising ID utilizzati da [!DNL Analytics]](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id-implement).&quot;
+     Se l&#39;account dispone di un&#39;implementazione AMO ID lato server e l&#39;impostazione account o campagna &quot;[!UICONTROL Auto Upload]&quot; è abilitata, il parametro viene aggiunto automaticamente. In caso contrario, è necessario aggiungerlo manualmente. Consulta &quot;[Adobe Advertising ID utilizzati da [!DNL Analytics]](/help/integrations/analytics/ids.md).&quot;
 
    * Tutti gli altri account [!DNL Google Ads]:
 
