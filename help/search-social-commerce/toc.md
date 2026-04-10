@@ -4,9 +4,9 @@ user-guide-title: Guida di Advertising Search, Social e Commerce
 user-guide-description: Questa guida descrive le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire, tracciare e creare rapporti sulle campagne di annunci di ricerca, social e commerce.
 breadcrumb-title: Guida di Advertising Search, Social e Commerce
 index: true
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: c74580e1cdec8e42da81b0014d7a49481319fdb5
 workflow-type: tm+mt
-source-wordcount: '2021'
+source-wordcount: '2023'
 ht-degree: 2%
 
 ---
@@ -107,7 +107,7 @@ ht-degree: 2%
          + [Gestisci i report di visualizzazione dati dalla visualizzazione [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
       + Annunci {#ads}
          + [Informazioni sulla visualizzazione [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
-         + [Gestire le assegnazioni dei vincoli per gli annunci](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
+         + [Gestisci i report di visualizzazione dati dalla visualizzazione [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + Rapporti {#reports}
       + Classificazioni delle etichette {#label-classifications}
          + [Informazioni sulle classificazioni delle etichette](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about)

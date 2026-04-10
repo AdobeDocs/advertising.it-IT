@@ -2,9 +2,10 @@
 title: (Nuova interfaccia) Visualizzazione di un grafico delle prestazioni nella visualizzazione [!UICONTROL Portfolios]
 description: Scopri come aprire e configurare un grafico delle prestazioni nella visualizzazione [!UICONTROL Portfolios].
 feature: Search Campaign Management
-source-git-commit: 3bbbc95581a6691b2ac637254424f0cdc7203659
+exl-id: 5b83d052-acef-451c-8492-70465ded23f4
+source-git-commit: c74580e1cdec8e42da81b0014d7a49481319fdb5
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -28,4 +29,4 @@ Puoi aprire e configurare un grafico delle prestazioni con un massimo di tre met
 >[!MORELIKETHIS]
 >
 >* [Informazioni su [!UICONTROL Portfolios view]](portfolio-about.md)
->* [Scarica dati dalla visualizzazione [!UICONTROL Portfolios]](portfolio-view-report.md)
+>* [Gestisci i report della visualizzazione dati dalla visualizzazione [!UICONTROL Portfolios]](portfolio-view-report.md)
