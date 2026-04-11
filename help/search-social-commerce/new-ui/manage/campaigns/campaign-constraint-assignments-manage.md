@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: e96580c9fdea3b61c40e6ae8acb5ac60b53de2b9
+source-git-commit: 26d99b0a731ff07dde9461e8390c7bb540b3cc21
 workflow-type: tm+mt
-source-wordcount: 440
+source-wordcount: 441
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ L’annullamento dell’assegnazione di un vincolo rimuove l’associazione con 
 
 >[!NOTE]
 >
->* Se successivamente modificate una parola chiave o la copia dell&#39;annuncio per un annuncio, creando in tal modo una nuova parola chiave o un nuovo annuncio, il vincolo non viene assegnato alla nuova entità.
+>* Se successivamente modificate una parola chiave o la copia dell&#39;annuncio per un annuncio non modificabile, creando in tal modo una nuova parola chiave o un nuovo annuncio, il vincolo non viene assegnato alla nuova entità.
 >* I vincoli attivi limitano le offerte solo per le unità di offerta assegnate nei portfolio legacy ottimizzati a livello di parola chiave. Vengono ignorate per le unità di offerta presenti in portafogli attivi, in portafogli ibridi o che non appartengono a portafogli.
 
 ## Assegna un vincolo alle campagne selezionate dalla nuova visualizzazione [!UICONTROL Campaigns]

@@ -1,7 +1,7 @@
 ---
 title: Utilizzo di [!UICONTROL Spend Planner]
-description: Scopri come utilizzare [!UICONTROL Spend Planner] per identificare la distribuzione ottimale della spesa tra i portfolio.
-feature: Search Optimization, Search Portfolios, Search Simulations
+description: Scopri come generare, scaricare e applicare i consigli sul budget del portfolio per massimizzare la distribuzione della spesa nei portfolio.
+feature: Search Optimization, Search Portfolios
 exl-id: 966b8968-68b6-4385-9efb-e639a6729362
 TQID: https://experienceleague.adobe.com/8BAQij06MRhxYoCoFNjhHsgC4o38lQnj9vpmTzYyqGg
 product_v2:
@@ -11,18 +11,16 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 111739ac2da47170575d9b4dad39cfefe812fe0f
 workflow-type: tm+mt
-source-wordcount: 791
+source-wordcount: 798
 ht-degree: 0%
 
 ---
 
 # Utilizzo di [!UICONTROL Spend Planner]
 
-<!-- When this becomes a menu item, move file and TOC entry accordingly -->
-
-[!UICONTROL Spend Planner] (denominato &quot;Spend Recommendation Tool&quot; nell&#39;interfaccia utente legacy) identifica la distribuzione ottimale della spesa tra portfolio ottimizzati e attivi con lo stesso obiettivo e la stessa valuta, in modo da poter massimizzare i ricavi o raggiungere gli obiettivi per il set di portfolio.
+[!UICONTROL Spend Planner] (denominato &quot;[!UICONTROL Spend Recommendation Tool]&quot; nell&#39;interfaccia utente legacy) identifica la distribuzione ottimale della spesa tra i portfolio ottimizzati e attivi con lo stesso obiettivo e la stessa valuta in modo da massimizzare i ricavi o gli obiettivi target per il set di portfolio.
 
 Quando visualizzi un rapporto sui consigli di spesa per i portfolio con budget giornalieri, puoi convertire i budget per qualsiasi portfolio nei budget consigliati.
 
@@ -38,7 +36,15 @@ I rapporti sui consigli di spesa includono i seguenti dati:
 
 * Un grafico a barre per ciascuno dei portfolio, che mostra la distribuzione consigliata della spesa giornaliera (costo) e dei ricavi previsti oppure la distribuzione dei clic quando si mantiene l&#39;obiettivo di spesa giornaliera totale corrente per tutti i portfolio selezionati o per un obiettivo di spesa totale proposto. Facoltativamente, puoi applicare i target di spesa consigliati ai portfolio selezionati, che influiscono sulle offerte nel successivo ciclo di esecuzione delle offerte.
 
-## (Nuova interfaccia) Genera un report [!UICONTROL Spend Planner]
+## Azioni disponibili
+
+* Genera un report [!UICONTROL Spend Planner] dalla [nuova interfaccia](#spend-recommendations-generate) o [interfaccia legacy](#spend-recommendations-generate-legacy)
+
+* [Applica i consigli di spesa](#spend-recommendations-apply) ai portfolio corrispondenti.
+
+* [Aprire o salvare i dati del rapporto sui consigli di spesa in un file](#spend-recommendations-download)
+
+## (Nuova interfaccia) Genera un report [!UICONTROL Spend Planner] {#spend-recommendations-generate}
 
 1. Effettuare una delle seguenti operazioni:
 
@@ -68,7 +74,39 @@ I rapporti sui consigli di spesa includono i seguenti dati:
 
    Lo strumento di raccomandazione della spesa utilizza dati provenienti da simulazioni settimanali, pertanto la spesa totale consigliata corrisponde maggiormente al target di spesa proposto con il mix di spesa ideale.
 
-## (Interfaccia precedente) Genera un report [!UICONTROL Spend Recommendation] dalla visualizzazione [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation]
+<!--
+
+New UI; validate post-Update steps once I get it to generate a report:
+
+## Generate a spend recommendation report {#spend-recommendations-generate}
+
+1. In the main menu, click **[!UICONTROL Plan] > [!UICONTROL Spend Planner]**.
+
+1. View data using the current, combined budgets for the selected portfolios:
+
+   1. Click **[!UICONTROL Select Objective]**.
+
+   1. Select the portfolio objective.
+
+   1. Select the currency.
+
+   1. (Optional) Select a portfolio spend strategy to further filter the portfolios list.
+
+   1. Select the check box next to each portfolio to include.
+
+      Only optimized and active portfolios with the selected parameters are listed.
+
+   1. Click **[!UICONTROL Update]**.
+
+   1. (Optional) To see the cost and revenue for any point on the chart, hold the cursor over the point.
+
+1. (Optional) To view the recommended daily spend and predicted revenue for each of the portfolios using a new total spend target, enter a proposed total daily spend target across all portfolios in the [!UICONTROL Total Spend Target] field. Then press the **Enter** key.
+
+   The spend recommendation tool uses data from weekly simulations, so the total recommended spend is the closest match to your proposed spend target with the ideal spend mix.
+
+-->
+
+## (Interfaccia precedente) Genera un report [!UICONTROL Spend Recommendation] dalla visualizzazione [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation] {#spend-recommendations-generate-legacy}
 
 1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Optimization] >[!UICONTROL Spend Recommendation]**.
 
@@ -92,29 +130,44 @@ I rapporti sui consigli di spesa includono i seguenti dati:
 
    Lo strumento di raccomandazione della spesa utilizza dati provenienti da simulazioni settimanali, pertanto la spesa totale consigliata corrisponde maggiormente al target di spesa proposto con il mix di spesa ideale.
 
-## Applica raccomandazioni di spesa
+## Applica raccomandazioni di spesa {#spend-recommendations-apply}
 
 *Portfolio con solo budget giornalieri*
 
 >[!NOTE]
 >
->* Se le modifiche applicate aumentano o riducono l’obiettivo di spesa di qualsiasi portfolio di oltre il 20%, viene inviata una notifica e devi approvare la modifica.
+>* Se le modifiche applicate aumentano o riducono l’obiettivo di spesa di qualsiasi portfolio di oltre il 20%, devi approvare la modifica.
 >* Quando l’obiettivo di spesa per un portfolio cambia di oltre il 20%, Search, Social e Commerce impiegano fino a 3-4 giorni per adeguare i propri modelli e raggiungere il nuovo obiettivo.
 
 1. Visualizza il rapporto sui consigli di spesa per uno o più portfolio con budget giornalieri.
 
-1. Seleziona la casella di controllo accanto a ciascun portfolio per il quale desideri applicare l’obiettivo di spesa consigliato. Per selezionare tutti i portfolio, selezionare la casella di controllo accanto a [!UICONTROL Select All Recommendations].
+1. Seleziona la casella di controllo accanto a ciascun portfolio per il quale desideri applicare l’obiettivo di spesa consigliato. Per selezionare tutti i portfolio, selezionare la casella di controllo accanto a **[!UICONTROL Select All Recommendations]**.
 
 1. Fare clic su **[!UICONTROL Apply Selected Recommendations]**.
 
 1. (Se uno qualsiasi dei budget cambierà di oltre il 20%) Nel messaggio di conferma, fai clic su **[!UICONTROL Yes]** per approvare le modifiche.
 
-## Aprire o salvare dati in un file
+<!-- 
 
-È possibile esportare i dati del report da qualsiasi sezione del report [!UICONTROL Spend Recommendation]. È possibile aprire o salvare i dati come file di cartella di lavoro [!DNL Microsoft Excel].
+New UI: Verify/edit all steps and edit accordingly:
+
+1. [Generate a spend recommendation report](#spend-recommendations-generate) for one or more portfolios with daily budgets.
+...
+
+ -->
+
+## Aprire o salvare i dati come file di cartella di lavoro [!DNL Microsoft Excel] {#spend-recommendations-download}
 
 1. Genera un rapporto di consigli di spesa per i portfolio selezionati.
 
 1. Sopra il report, fai clic su ![Scarica](/help/search-social-commerce/assets/download-spend-recommendation.png "Scarica").
 
-   Apri o salva il file in base alla normale procedura del browser.  Per ulteriori informazioni, vedere la Guida in linea del browser.
+   Apri o salva il file in base alla normale procedura del browser. Per ulteriori informazioni, vedere la Guida in linea del browser.
+
+<!--
+
+New UI:  Verify/edit all steps and edit accordingly:
+
+1. [Generate a spend recommendation report](#spend-recommendations-generate).
+...
+-->
