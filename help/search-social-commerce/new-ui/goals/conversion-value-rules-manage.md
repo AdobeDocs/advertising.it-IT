@@ -140,5 +140,5 @@ Puoi mettere in pausa, attivare o eliminare una regola del valore di conversione
 
 >[!MORELIKETHIS]
 >
->* 
+>* &#x200B;
 
