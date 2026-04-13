@@ -3,7 +3,7 @@ title: (Nuova interfaccia) Gestisci i report di visualizzazione dati dalla visua
 description: Scopri come generare, scaricare ed eliminare i rapporti che contengono le righe di dati per uno o più annunci nella vista [!UICONTROL Ads] in un rapporto.
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: c74580e1cdec8e42da81b0014d7a49481319fdb5
+source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
