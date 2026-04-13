@@ -2,10 +2,8 @@
 title: Cerca la documentazione del prodotto utilizzando la chat assistita da IA
 description: Scopri come cercare nella documentazione di Adobe Advertising DSP e  [!DNL Creative]  utilizzando la chat assistita da IA. Ottieni risposte con citazioni e prompt di follow-up suggeriti.
 feature: DSP Introduction, Creative Introduction
-hidefromtoc: true
-hide: true
 exl-id: 30feb866-cc8c-4760-af94-2b2e08ebb361
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 99308b5a6f529abf003f38566c19bfda0e6eb25c
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 0%
@@ -18,7 +16,7 @@ ht-degree: 0%
 
 <!-- How will this work once we have unified shell, which has its own version of AI Assistant? -->
 
-Utilizza l&#39;interfaccia chat di IA per cercare contenuti concettuali e pratici nella [Guida di Advertising DSP](/help/dsp/home.md) e (per gli inserzionisti con Advertising Creative) nella [Guida di Advertising Creative](/help/creative/home.md). Le risposte si basano solo su quanto documentato per questi prodotti in [Experience League](https://experienceleague.adobe.com/it/docs/advertising).
+Utilizza l&#39;interfaccia chat di IA per cercare contenuti concettuali e pratici nella [Guida di Advertising DSP](/help/dsp/home.md) e (per gli inserzionisti con Advertising Creative) nella [Guida di Advertising Creative](/help/creative/home.md). Le risposte si basano solo su quanto documentato per questi prodotti in [Experience League](https://experienceleague.adobe.com/en/docs/advertising).
 
 Le risposte includono citazioni, prompt aggiuntivi e domande di follow-up per aiutarti a perfezionare la query e trovare ulteriori informazioni. La cronologia delle chat viene mantenuta per tutta la durata di una sessione e le query non vengono condivise con altri utenti.
 
