@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 1e4a456c3add52553936db29a72f42e7d45506c3
+source-git-commit: 98cf5ffd2c8be3585c1c53643088594c200b2af3
 workflow-type: tm+mt
 source-wordcount: 1371
 ht-degree: 0%
@@ -111,13 +111,13 @@ Gli approfondimenti includono:
 
 * **[!UICONTROL Audience Funnel Analysis]:** Una tabella di serie temporali giornaliera che mostra in che modo il pubblico di destinazione si restringe dal totale del pool disponibile alle impression effettive vince dopo l&#39;applicazione di tutti i filtri di targeting e idoneità. Vengono visualizzati i dati per il giorno precedente. Funnel include le metriche seguenti, in ordine dal più ampio al più stretto:
 
-   * **[!UICONTROL Audience Segment Size]:** Il numero totale di utenti univoci nel pubblico aggregato.
+   * **[!UICONTROL Total Target Audience]:** Il numero totale di utenti univoci nel pubblico aggregato.
 
-   * **[!UICONTROL Cookies in Bid Stream]:** Il numero di utenti del pubblico di destinazione che sono stati attivi nel flusso di offerta durante il periodo precedente di 24 ore. Questo conteggio include tutti gli utenti nell’ambito, indipendentemente dal posizionamento offerto su di loro. Una diminuzione da [!UICONTROL Total Target Audience] a [!UICONTROL Reachable Audience] riflette la parte del pubblico che non era attiva nel flusso di offerta durante il periodo di reporting, che non riflette le prestazioni delle offerte.
+   * **[!UICONTROL Reachable Audience (Last 24 Hours)]:** Il numero di utenti del pubblico di destinazione che sono stati attivi nel flusso di offerta durante il periodo precedente di 24 ore. Questo conteggio include tutti gli utenti nell’ambito, indipendentemente dal posizionamento offerto su di loro. Una diminuzione da [!UICONTROL Total Target Audience] a [!UICONTROL Reachable Audience] riflette la parte del pubblico che non era attiva nel flusso di offerta durante il periodo di reporting, che non riflette le prestazioni delle offerte.
 
-   * **[!UICONTROL Eligible cookies]:** Il sottoinsieme di utenti raggiungibili che rimangono dopo l&#39;applicazione dei filtri geo, del tipo di dispositivo, del sistema operativo e del browser. Se questo numero è significativamente inferiore a [!UICONTROL Reachable Audience], valutare se il targeting del tipo di dispositivo o di area geografica è troppo restrittivo.
+   * **[!UICONTROL Eligible Ad Opportunities (Post filtering)]:** Il sottoinsieme di utenti raggiungibili che rimangono dopo l&#39;applicazione dei filtri geo, del tipo di dispositivo, del sistema operativo e del browser. Se questo numero è significativamente inferiore a [!UICONTROL Reachable Audience], valutare se il targeting del tipo di dispositivo o di area geografica è troppo restrittivo.
 
-  **[!UICONTROL Cookies Bid On]:** Il numero di opportunità idonee per le quali il posizionamento ha inviato un&#39;offerta. Un brusco calo in questa fase può indicare vincoli di budget o di ritmo che limitano il volume delle offerte.
+  **[!UICONTROL Devices/Ad Opportunities Bid On]:** Il numero di opportunità idonee per le quali il posizionamento ha inviato un&#39;offerta. Un brusco calo in questa fase può indicare vincoli di budget o di ritmo che limitano il volume delle offerte.
 
    * **[!UICONTROL Impression Wins]:** il numero di opportunità per le quali il posizionamento ha ricevuto un&#39;impression. Se le vincite sono molto inferiori alle offerte, il prezzo dell’offerta potrebbe essere inferiore al tasso di mercato prevalente per l’inventario di destinazione.
 
