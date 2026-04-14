@@ -4,15 +4,12 @@ description: Scopri come aggiungere creatività standard (non dinamica) a una li
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
 TQID: https://experienceleague.adobe.com/mgUcE-E6LAIFFU8S5WrUceCQ6ZMSGF9tFkqEfnuKKSQ
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 2ec4c13497ef6b5373a36b1f75111322a3ef26d0
 workflow-type: tm+mt
-source-wordcount: 1069
+source-wordcount: 1068
 ht-degree: 0%
 
 ---
@@ -161,7 +158,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
       1. Individua e seleziona le esperienze degli annunci di visualizzazione, quindi fai clic su **[!UICONTROL Select]** in alto a destra.
 
-     Ogni variante creativa in un&#39;esperienza selezionata verrà importata come creatività HTML5 separata.
+     Ogni variante creativa in un&#39;esperienza selezionata viene importata come creatività separata di HTML5.
 
 1. Aggiungi o rimuovi creatività:
 
