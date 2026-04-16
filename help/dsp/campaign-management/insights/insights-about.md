@@ -16,16 +16,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 98cf5ffd2c8be3585c1c53643088594c200b2af3
+source-git-commit: 4da54d315e39dac4799887e876272102b8efe4f9
 workflow-type: tm+mt
-source-wordcount: 1371
+source-wordcount: 1369
 ht-degree: 0%
 
 ---
 
 # Informazioni sugli approfondimenti
-
-*funzionalità Beta*
 
 Informazioni approfondite sulle prestazioni di alto livello con le visualizzazioni forniscono le informazioni necessarie per ottimizzare in modo efficiente le campagne e scoprire nuove opportunità per scalare le prestazioni. Puoi visualizzare i dati tra le campagne per un inserzionista specificato o approfondire la ricerca fino a un livello più basso.
 
@@ -125,7 +123,7 @@ Gli approfondimenti includono:
 
 1. Apri una serie di informazioni:
 
-   * (Per aprire approfondimenti per tutte le campagne) Nel menu principale, fare clic su **[!UICONTROL Insights BETA]**.
+   * (Per aprire approfondimenti per tutte le campagne) Nel menu principale, fare clic su **[!UICONTROL Insights]**.
 
    * Per aprire approfondimenti per una campagna, un pacchetto o un posizionamento specifico, accanto al nome dell&#39;entità nella visualizzazione [!UICONTROL Campaigns], [!UICONTROL Packages] o [!UICONTROL Placements], fare clic su **[!UICONTROL ...]** > **[!UICONTROL Insights]**.
 
