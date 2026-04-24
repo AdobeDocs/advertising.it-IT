@@ -2,12 +2,11 @@
 title: Creare un pubblico riutilizzabile utilizzando l’intelligenza artificiale generativa
 description: Scopri come creare tipi di pubblico riutilizzabili in Adobe Advertising DSP utilizzando l’agente di pubblico assistito da intelligenza artificiale. Descrive il pubblico di destinazione in prompt in linguaggio naturale; l’agente suggerisce segmenti di terze parti e crea espressioni di pubblico da utilizzare come target o esclusioni.
 feature: DSP Audiences
-hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: e8bfea965be346d44d8da96cd026704e1723a1bf
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -18,9 +17,9 @@ ht-degree: 0%
 
 *Supporto solo per la lingua inglese*
 
-<!-- Redo the legacy file to include the new info. It's probably cleanest to keep it as two separate procedures (gen AI and manually) rather than one big, long procedure. -->
+<!-- Redo the legacy file to include the new info. so that it includes two separate procedures (gen AI and manually). -->
 
-Utilizza l’agente del pubblico assistito da AI per generare nuovi tipi di pubblico riutilizzabili utilizzando tutti i segmenti di terze parti disponibili, in base ai requisiti dichiarati. Puoi utilizzare i tipi di pubblico come target o esclusioni per più posizionamenti.
+Utilizza l’agente del pubblico assistito da AI per generare nuovi tipi di pubblico riutilizzabili utilizzando tutti i segmenti di prime e terze parti disponibili, in base ai requisiti dichiarati. Puoi utilizzare i tipi di pubblico come target o esclusioni per più posizionamenti.
 
 <!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
@@ -29,6 +28,18 @@ Utilizza l’agente del pubblico assistito da AI per generare nuovi tipi di pubb
 >Questa funzione è in modalità beta ed è soggetta a modifiche. Assicurati che l’espressione del pubblico generato rappresenti il pubblico desiderato prima di crearlo e utilizzarla per i posizionamenti.
 
 ## Creare un pubblico riutilizzabile utilizzando l’intelligenza artificiale generativa
+
+<!--
+*Beta feature*
+
+*Support for English only*
+
+>[!NOTE]
+>
+>This feature is in beta mode and is subject to change. Make sure that the generated audience expression represents the audience you want before creating the audience and using it for your placements.
+-->
+
+<!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
 1. Nel menu principale, fare clic su **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
 
@@ -70,6 +81,8 @@ Utilizza l’agente del pubblico assistito da AI per generare nuovi tipi di pubb
 
 ## Nozioni di base sui prompt di scrittura {#writing-prompts}
 
+<!-- Change heading level for this whole section to fit under AI procedure -->
+
 ### Cosa deve includere un prompt?
 
 * Utilizza un linguaggio chiaro e descrittivo per descrivere il pubblico target.
@@ -95,17 +108,11 @@ Utilizza l’agente del pubblico assistito da AI per generare nuovi tipi di pubb
 Consulta &quot;[Best practice per la creazione di una descrizione del pubblico](#audience-brief-best-practices)&quot; per ulteriori modi per ottimizzare i prompt per i tipi di pubblico.
 
 <!--
- I think these are happening later:
+Consider starting by asking for what you should include.
 
-DSP uses "smart" defaults based on the user's previous audiences (all user-created audiences or only ones created via AI prompting?)
+you can give thumbs up or down to [what exactly?].
 
-you can use a predefined prompt (fill in the blanks, and some fields might have selectors where you can choose values)
-
-Over time, DSP XXXX defaults [clarify this]
-
- onsider starting by asking for a general template, which contains placeholder values that you can replace with your desired values. The default template is something like "Create a xxx with NNN xxx."
-
-you can give thumbs up or down to [what exactly?]. Verify what info is carried over from session to session and what starts from scratch.
+Verify what info is carried over from session to session and what starts from scratch.
 
 -->
 
@@ -121,7 +128,7 @@ Quando l’agente del pubblico necessita di una risposta da parte tua, puoi risp
 
 #### L’agente del pubblico ti pone una domanda
 
-`If you are okay with the proposed expression, I can start searching third party segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
+`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
 
 La tua risposta affermativa: &quot;procedere&quot;, &quot;ok&quot;, &quot;ok&quot;, &quot;sì&quot;, o un&#39;altra parola simile
 
