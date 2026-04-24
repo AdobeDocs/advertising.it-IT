@@ -18,9 +18,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 485
+source-wordcount: 517
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 *Inserzionisti con consenso con [!DNL Advertising Search, Social, & Commerce] solo*
 
-In [!DNL Search, Social, & Commerce], puoi creare [!DNL Google Ads] tipi di pubblico in base ai clienti dagli ID utente utilizzando i tuoi segmenti esistenti di Audience Manager che hanno [!UICONTROL Adobe Media Optimizer (HTTP)] e [!UICONTROL Adobe Media Optimizer Batch Destination] come destinazioni. ([!DNL Media Optimizer] è un nome precedente per [!DNL Search, Social, & Commerce].) Sono inclusi i segmenti di Adobe Analytics pubblicati in Adobe Experience Cloud e i segmenti creati con Adobe Experience Cloud [!DNL Audience Library]. Per ulteriori informazioni, consulta &quot;[Creare [!DNL Google Ads] tipi di pubblico corrispondenti ai clienti di [!DNL Adobe] tipi di pubblico](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md).&quot;
+In [!DNL Search, Social, & Commerce], puoi creare [!DNL Google Ads] tipi di pubblico in base ai clienti dagli ID utente utilizzando i tuoi segmenti esistenti di Audience Manager che hanno [!UICONTROL Adobe Media Optimizer (HTTP)] e [!UICONTROL Adobe Media Optimizer Batch Destination] come destinazioni. ([!DNL Media Optimizer] è un nome precedente per [!DNL Search, Social, & Commerce]). Sono inclusi i segmenti di Adobe Analytics pubblicati in Adobe CX Enterprise e i segmenti creati con Adobe CX Enterprise [!DNL Audience Library]. Per ulteriori informazioni, consulta &quot;[Creare [!DNL Google Ads] tipi di pubblico corrispondenti ai clienti di [!DNL Adobe] tipi di pubblico](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md).&quot;
 
 [I tipi di pubblico corrispondenti ai clienti degli ID utente](https://support.google.com/google-ads/answer/9199250) funzionano come i tipi di pubblico basati su tag del sito Web, ma un ID non PII viene assegnato ai membri del pubblico univoci per offrire vantaggi distinti rispetto ai tipi di pubblico standard basati su tag dei clienti e dei siti Web.
 
@@ -57,7 +57,7 @@ Dopo aver creato i tipi di pubblico, puoi utilizzarli nelle campagne [!DNL Googl
 
 >[!NOTE]
 >
->Per ulteriori informazioni su come creare tipi di pubblico nelle interfacce Audience Manager e Experience Cloud [!DNL Audience Library] e casi d&#39;uso comuni per diversi tipi di pubblico, vedi &quot;[Opzioni di creazione pubblico](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=it)&quot;.
+>Per ulteriori informazioni su come creare tipi di pubblico nelle interfacce Audience Manager e Adobe CX Enterprise [!DNL Audience Library] e casi d&#39;uso comuni per tipi di pubblico diversi, vedi &quot;[Opzioni di creazione pubblico](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=it)&quot;.
 
 ## Inviare dati sull’esposizione dei contenuti multimediali DSP ad Audience Manager
 

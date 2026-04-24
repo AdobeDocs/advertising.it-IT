@@ -4,10 +4,10 @@ user-guide-title: Guida di Advertising DSP
 user-guide-description: Scopri le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire e ottimizzare le strategie degli annunci display con Advertising DSP e creare i relativi rapporti.
 breadcrumb-title: Guida di DSP
 index: true
-source-git-commit: b3eb6f69a643637635ac60e6751d091c5380a397
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 4%
+source-wordcount: '1054'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 4%
    + [Finanziamento dell’account](/help/dsp/introduction/billing/account-funding.md)
    + [Valute supportate](/help/dsp/currency.md)
    + [Supporto per la privacy del consumatore](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=it)
-   + [Criteri e linee guida](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=it)
+   + [Politiche e linee guida](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=it)
    + [Soluzioni di misurazione avanzate](/help/dsp/introduction/advanced-measurement-services.md)
 + [Cerca la documentazione del prodotto utilizzando la chat assistita da IA](/help/dsp/agent-chat.md)
 + Gestione delle campagne {#campaign-management}
@@ -233,9 +233,9 @@ ht-degree: 4%
    + Notifiche {#notifications}
       + [Informazioni sugli abbonamenti agli avvisi](/help/dsp/admin/alerts-about.md)
       + [Gestire gli abbonamenti agli avvisi](/help/dsp/admin/alerts-manage.md)
-+ [Integrazioni con Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=it)
++ [Integrazioni con Adobe CX Enterprise](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=it)
 + [Ottieni aiuto](/help/dsp/get-help.md)
-+ [Note sulla versione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it)
++ [Note sulla versione di Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it)
 
 
 <!--

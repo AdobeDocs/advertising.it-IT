@@ -1,6 +1,6 @@
 ---
-title: Supporto di Adobe Advertising per il regolamento generale sulla protezione dei dati
-description: Scopri i tipi di richiesta di dati supportati, i valori di configurazione e campi richiesti ed esempi di richieste di accesso API che utilizzano ID prodotto legacy e campi dati restituiti
+title: Adobe Advertising support for the General Data Protection Regulation
+description: Learn about the supported data request types, required setup and field values, and examples of API access requests using legacy product IDs and returned data fields
 feature: GDPR
 role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
@@ -15,46 +15,46 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 997
+source-wordcount: 1046
 ht-degree: 0%
 
 ---
 
-# Supporto di Adobe Advertising per il regolamento generale sulla protezione dei dati
+# Adobe Advertising support for the General Data Protection Regulation
 
-*Per [!DNL Adobe Advertising Search, Social, & Commerce]; Adobe Advertising DSP; Adobe Advertising Creative; e Adobe Advertising DCO*
+*For [!DNL Adobe Advertising Search, Social, & Commerce]; Adobe Advertising DSP; Adobe Advertising Creative; and Adobe Advertising DCO*
 
 >[!IMPORTANT]
 >
->Il contenuto di questo documento non rappresenta e non intende sostituirsi a una consulenza legale. Consulta l&#39;assistenza legale per ricevere consigli in merito al Regolamento generale sulla protezione dei dati.
+>Il contenuto di questo documento non rappresenta e non intende sostituirsi a una consulenza legale. Consult with your legal counsel for advice concerning the General Data Protection Regulation.
 
-Il Regolamento generale sulla protezione dei dati (RGPD), una legge in vigore dal 25 maggio 2018, conferisce a tutte le persone (soggetti dei dati) all&#39;interno dei confini dell&#39;Unione Europea (UE) il controllo dei loro dati personali e semplifica il contesto normativo per le aziende internazionali. Questa legge si applica a tutte le aziende (titolari del trattamento) che offrono beni o servizi, controllano il comportamento o raccolgono dati personali da individui all&#39;interno dei confini dell&#39;UE nel momento in cui i loro dati personali vengono trattati, indipendentemente dalla sede del titolare del trattamento.
+The General Data Protection Regulation (GDPR), a law in effect May 25, 2018, gives all individuals (data subjects) within the borders of the European Union (EU) control of their personal data and simplifies the regulatory environment for international business. This law applies to all businesses (data controllers) that offer goods or services to, monitor the behavior of, or collect personal data from individuals within the borders of the EU at the time their personal data is processed, regardless of the data controller&#39;s business location.
 
-Adobe Experience Cloud agisce come responsabile del trattamento per tutti i dati personali che riceve e archivia per conto dei propri clienti. In qualità di titolare del trattamento dei dati, l’utente determina i dati personali che Adobe Experience Cloud tratta e archivia per suo conto.
+Adobe CX Enterprise acts as a data processor for any personal data it receives and stores on behalf of its customers. As a data controller, you determine the personal data that Adobe CX Enterprise processes and stores on your behalf.
 
-In questo documento viene descritto come [!DNL Advertising Search, Social, & Commerce], Advertising Creative, Advertising DSP (Demand Side Platform) e [!DNL Advertising DCO] supportano i diritti all&#39;accesso e all&#39;eliminazione dei dati degli interessati ai sensi del RGPD tramite l&#39;API Adobe Experience Platform Privacy Service e l&#39;interfaccia utente di Privacy Service.
+This document describes how [!DNL Advertising Search, Social, & Commerce]; Advertising Creative; Advertising DSP (Demand Side Platform); and [!DNL Advertising DCO] support your data subjects&#39; GDPR data access and deletion rights using the Adobe Experience Platform Privacy Service API and Privacy Service UI.
 
-Per ulteriori informazioni sul significato del RGPD per la tua azienda, consulta [RGPD e la tua azienda](https://www.adobe.com/privacy/general-data-protection-regulation.html).
+For more information about what GDPR means for your business, see [GDPR and Your Business](https://www.adobe.com/privacy/general-data-protection-regulation.html).
 
-## Tipi di richieste di dati supportati per Adobe Advertising
+## Supported data request types for Adobe Advertising
 
-Adobe Experience Platform consente alle aziende di completare le seguenti attività:
+Adobe Experience Platform provides the ability for businesses to complete the following tasks:
 
-* Accedi ai dati a livello di cookie o ai dati a livello di ID dispositivo di un interessato (per gli annunci nelle app mobili) in [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] o [!DNL DCO].
-* Eliminare i dati a livello di cookie archiviati in [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] o [!DNL DCO] per gli interessati tramite un browser oppure eliminare i dati a livello di ID archiviati in [!DNL DSP] per gli interessati tramite app su dispositivi mobili.
-* Controlla lo stato di una o tutte le richieste esistenti.
+* Access a data subject&#39;s cookie-level data or device ID-level data (for ads in mobile apps) within [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], or [!DNL DCO].
+* Delete cookie-level data stored within [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], or [!DNL DCO] for data subjects using a browser; or delete ID-level data stored within [!DNL DSP] for data subjects using apps on mobile devices.
+* Check the status of one or all existing requests.
 
-## Configurazione necessaria per inviare richieste per Adobe Advertising
+## Required setup to send requests for Adobe Advertising
 
-Per richiedere l’accesso e l’eliminazione dei dati per Adobe Advertising, è necessario:
+To make requests to access and delete data for Adobe Advertising, you must:
 
-1. Distribuisci una libreria JavaScript per recuperare e rimuovere i cookie dell’interessato. La stessa libreria, `AdobePrivacy.js`, viene utilizzata per tutte le soluzioni Adobe Experience Cloud.
+1. Deploy a JavaScript library to retrieve and remove your data subject cookies. The same library, `AdobePrivacy.js`, is used for all Adobe CX Enterprise solutions.
 
    >[!IMPORTANT]
    >
-   >Le richieste ad alcune soluzioni Experience Cloud non richiedono la libreria JavaScript, ma le richieste ad Adobe Advertising lo richiedono.
+   >Le richieste ad alcune soluzioni CX Enterprise non richiedono la libreria JavaScript, ma le richieste ad Adobe Advertising lo richiedono.
 
    È necessario distribuire la libreria nella pagina Web da cui le persone interessate possono inviare richieste di accesso ed eliminazione, ad esempio il portale della privacy della società. La libreria ti consente di recuperare i cookie [!DNL Adobe] (ID spazio dei nomi: `gsurferID`) in modo da poter inviare queste identità come parte delle richieste di accesso ed eliminazione tramite l&#39;API Adobe Experience Platform Privacy Service.
 
@@ -64,17 +64,17 @@ Per richiedere l’accesso e l’eliminazione dei dati per Adobe Advertising, è
    >
    >L’eliminazione dei dati personali è diversa dalla rinuncia, che interrompe il targeting di un utente finale con segmenti di pubblico. Tuttavia, quando un interessato richiede di eliminare i dati personali da [!DNL Creative], [!DNL DSP] o [!DNL DCO], la libreria invia anche una richiesta ad Adobe Advertising per rifiutare l&#39;interessato dal targeting dei segmenti. Per gli inserzionisti con [!DNL Search, Social, & Commerce], si consiglia di fornire agli interessati un collegamento a [https://www.adobe.com/privacy/opt-out.html](https://www.adobe.com/privacy/opt-out.html), che spiega come rinunciare al targeting dei segmenti di pubblico.
 
-1. Identifica il tuo ID organizzazione Experience Cloud e assicurati che sia collegato al tuo account Adobe Advertising.
+1. Identifica l’ID organizzazione CX Enterprise e assicurati che sia collegato ai tuoi account Adobe Advertising.
 
-   Un ID organizzazione Experience Cloud è una stringa alfanumerica composta da 24 caratteri a cui segue &quot;@AdobeOrg.&quot; Alla maggior parte dei clienti Experience Cloud è stato assegnato un ID organizzazione. Se il team marketing o l&#39;amministratore di sistema interno di [!DNL Adobe] non conosce l&#39;ID organizzazione o non è sicuro che sia stato eseguito il provisioning, contatta l&#39;Assistenza clienti Adobe all&#39;indirizzo gdprsupport@adobe.com. Per inviare richieste all&#39;API per la privacy utilizzando lo spazio dei nomi `imsOrgID` è necessario l&#39;ID organizzazione.
+   Un ID organizzazione CX Enterprise è una stringa alfanumerica composta da 24 caratteri a cui segue &quot;@AdobeOrg.&quot; Alla maggior parte dei clienti CX Enterprise è stato assegnato un ID organizzazione. Se il team marketing o l&#39;amministratore di sistema interno di [!DNL Adobe] non conosce l&#39;ID organizzazione o non è sicuro che sia stato eseguito il provisioning, contatta l&#39;Assistenza clienti Adobe all&#39;indirizzo gdprsupport@adobe.com. Per inviare richieste all&#39;API per la privacy utilizzando lo spazio dei nomi `imsOrgID` è necessario l&#39;ID organizzazione.
 
    >[!IMPORTANT]
    >
-   >Contatta il rappresentante Adobe Advertising della tua azienda per verificare che tutti gli account Adobe Advertising della tua organizzazione, inclusi [!DNL DSP] account o inserzionisti, [!DNL Search, Social, & Commerce] account e [!DNL Creative] o [!DNL DCO] account, siano collegati al tuo ID organizzazione Experience Cloud.
+   >Contatta il rappresentante Adobe Advertising della tua azienda per verificare che tutti gli account Adobe Advertising della tua organizzazione, inclusi [!DNL DSP] account o inserzionisti, [!DNL Search, Social, & Commerce] account e [!DNL Creative] o [!DNL DCO] account, siano collegati al tuo ID organizzazione CX Enterprise.
 
 1. Utilizza l&#39;[API Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=it) (per le richieste automatizzate) o la [interfaccia utente Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it) (per le richieste ad hoc) per inviare richieste di accesso ed eliminazione ad Adobe Advertising per conto delle persone interessate e per controllare lo stato delle richieste esistenti.
 
-   Gli inserzionisti che dispongono di un’app mobile per interagire con gli interessati e avviare campagne con DSP devono scaricare gli SDK per dispositivi mobili compatibili con la privacy per Experience Cloud. Gli SDK di Mobile consentono ai titolari del trattamento dei dati di impostare flag di stato per la rinuncia, recuperare l&#39;ID dispositivo dell&#39;interessato (ID spazio dei nomi: `deviceID`) e inviare richieste all&#39;API Privacy Service. La tua app mobile richiederà una versione di SDK 4.15.0 o successiva.
+   Per gli inserzionisti che dispongono di un’app mobile per interagire con le persone interessate e avviare campagne con DSP, devi scaricare gli SDK per dispositivi mobili predisposti per la privacy per CX Enterprise. Gli SDK di Mobile consentono ai titolari del trattamento dei dati di impostare flag di stato per la rinuncia, recuperare l&#39;ID dispositivo dell&#39;interessato (ID spazio dei nomi: `deviceID`) e inviare richieste all&#39;API Privacy Service. La tua app mobile richiederà una versione di SDK 4.15.0 o successiva.
 
    Quando invii la richiesta di accesso di una persona interessata, l’API di Privacy Service restituisce le informazioni di tale persona in base al cookie o all’ID dispositivo specificato, che devono quindi essere restituiti alla persona interessata.
 
@@ -82,7 +82,7 @@ Per richiedere l’accesso e l’eliminazione dei dati per Adobe Advertising, è
 
    >[!NOTE]
    >
-   >Se la tua azienda dispone di più ID organizzazione Experience Cloud, devi inviare richieste API separate per ciascuno di essi. È tuttavia possibile effettuare una richiesta API a più soluzioni secondarie di Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] e [!DNL DCO]), con un account per ogni soluzione secondaria.
+   >Se la tua azienda dispone di più ID organizzazione CX Enterprise, devi inviare richieste API separate per ciascuno di essi. È tuttavia possibile effettuare una richiesta API a più soluzioni secondarie di Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] e [!DNL DCO]), con un account per ogni soluzione secondaria.
 
 Tutti i passaggi sono necessari per Adobe Advertising. Per ulteriori informazioni su queste e altre attività correlate che è necessario eseguire utilizzando Adobe Experience Platform Privacy Service e dove trovare gli elementi necessari, vedere &quot;[Panoramica di Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it).&quot;
 
@@ -91,7 +91,7 @@ Tutti i passaggi sono necessari per Adobe Advertising. Per ulteriori informazion
 `"company context":`
 
 * `"namespace": **imsOrgID**`
-* `"value":` &lt;*ID organizzazione Experience Cloud*>
+* `"value":` &lt;*ID organizzazione CX Enterprise*>
 
 `"users":`
 

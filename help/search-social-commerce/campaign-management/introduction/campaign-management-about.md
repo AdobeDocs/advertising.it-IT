@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 806
+source-wordcount: 808
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Le viste di gestione della campagna consentono di monitorare e gestire gli accou
 
 * **[!UICONTROL Bulksheets]** - Utilizzare la visualizzazione [!UICONTROL Bulksheets] per creare [file bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) contenenti la quantità di dati desiderata per un account in una [rete di annunci supportata](/help/search-social-commerce/introduction/supported-inventory.md), quindi inviarli alla rete di annunci.
 
-* **[!UICONTROL Audiences]** — [Le [!UICONTROL Audiences] visualizzazioni](/help/search-social-commerce/campaign-management/campaigns/audience-about.md) elencano tutti i tipi di pubblico [!DNL Google Ads] e [!DNL Microsoft Advertising] generati da vari tipi di elenchi di utenti. Puoi creare [!DNL Google Ads] tipi di pubblico dai tuoi tipi di pubblico di Adobe Experience Cloud esistenti e dagli elenchi e-mail dei tuoi clienti. Puoi anche visualizzare e gestire i target e le esclusioni del pubblico per gli annunci [!DNL Google Ads] e [!DNL Microsoft Advertising].
+* **[!UICONTROL Audiences]** — [Le [!UICONTROL Audiences] visualizzazioni](/help/search-social-commerce/campaign-management/campaigns/audience-about.md) elencano tutti i tipi di pubblico [!DNL Google Ads] e [!DNL Microsoft Advertising] generati da vari tipi di elenchi di utenti. Puoi creare [!DNL Google Ads] tipi di pubblico dai tuoi tipi di pubblico di Adobe CX Enterprise esistenti e dagli elenchi e-mail dei tuoi clienti. Puoi anche visualizzare e gestire i target e le esclusioni del pubblico per gli annunci [!DNL Google Ads] e [!DNL Microsoft Advertising].
 
 * **[!UICONTROL Label Classifications]** - Utilizzare questa visualizzazione per creare ed eliminare [classificazioni di etichette](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md), che possono essere utili per raggruppare le etichette in insiemi significativi.
 

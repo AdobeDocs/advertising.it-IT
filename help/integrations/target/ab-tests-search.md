@@ -18,9 +18,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 867
+source-wordcount: 958
 ht-degree: 0%
 
 ---
@@ -135,24 +135,24 @@ Le dimensioni seguenti si riferiscono a [!DNL Analytics for Target]:
 
 In Analysis Workspace, se noti che i dati di attività ed esperienze sono minimi o non vengono popolati, effettua le seguenti operazioni:
 
-* Verificare che lo stesso [!UICONTROL Supplemental Data ID] (SDID) sia utilizzato per [!DNL Target] e [!DNL Analytics]. Puoi verificare i valori SDID utilizzando [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html?lang=it) nella pagina di destinazione in cui la campagna guida gli utenti.
+* Verificare che lo stesso [!UICONTROL Supplemental Data ID] (SDID) sia utilizzato per [!DNL Target] e [!DNL Analytics]. Puoi verificare i valori SDID utilizzando [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html?lang=it) nella pagina di destinazione in cui la campagna guida gli utenti.
 
-[Valori di Supplemental Data ID (SDID) in Adobe Debugger](/help/integrations/assets/target-troubleshooting-sdid.png)
+  [Valori di Supplemental Data ID (SDID) in Adobe Debugger](/help/integrations/assets/target-troubleshooting-sdid.png)
 
 * Nella stessa pagina di destinazione, verifica che a) il [!UICONTROL Hostname] visualizzato in Adobe Debugger in [!UICONTROL Solutions] > [!UICONTROL Target] corrisponda a b) il [!UICONTROL Tracking Server] visualizzato in [!DNL Target] per l&#39;attività (in [!UICONTROL Goals & Settings] > [!UICONTROL Reporting Settings]).
 
   [!DNL Analytics For Target] richiede l&#39;invio di un server di monitoraggio [!DNL Analytics] nelle chiamate da [!DNL Target] al server di raccolta dati [!DNL Modstats] per Analytics.<!-- just "to Analytics?"-->
 
-[Valore Hostname in Adobe Debugger](/help/integrations/assets/target-troubleshooting-hostname.png)
+  [Valore Hostname in Adobe Debugger](/help/integrations/assets/target-troubleshooting-hostname.png)
 
-[Valore del server di tracciamento in Target](/help/integrations/assets/target-troubleshooting-tracking-server.png)
+  [Valore del server di tracciamento in Target](/help/integrations/assets/target-troubleshooting-tracking-server.png)
 
 ## Ulteriori informazioni
 
-* [Integrare Target con Analytics](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html?lang=it) - Spiega come impostare il reporting di [!DNL Target] in Analysis Workspace.
-* [Panoramica test A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html?lang=it): descrive le attività test A/B, utilizzabili con annunci Search, Social e Commerce.
-* [Panoramica di [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) - Introduce [!DNL Analytics for Advertising], che consente di tenere traccia delle interazioni del sito click-through e view-through nelle istanze di Analytics.
+* [Integrate Target with Analytics](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html?lang=it) - Explains how to set up [!DNL Target] reporting in Analysis Workspace.
+* [A/B Test Overview](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html?lang=it) - Describes A/B test activities, which you can use with Search, Social, &amp; Commerce ads.
+* [Overview of [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) - Introduces [!DNL Analytics for Advertising], which allows you to track click-through and view-through site interactions in your Analytics instances.
 
 >[!MORELIKETHIS]
 >
->* [Configurare i test A/B in Adobe Target per gli annunci Advertising DSP](ab-tests-dsp.md)
+>* [Configure A/B tests in Adobe Target for Advertising DSP ads](ab-tests-dsp.md)

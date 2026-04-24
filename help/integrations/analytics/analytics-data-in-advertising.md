@@ -1,6 +1,6 @@
 ---
-title: Dati [!DNL Analytics] in Adobe Advertising
-description: Dati [!DNL Analytics] in Adobe Advertising
+title: '[!DNL Analytics] Data in  Adobe Advertising'
+description: '[!DNL Analytics] Data in Adobe Advertising'
 feature: Integration with Adobe Analytics
 exl-id: e11b0617-44e3-4f28-a065-aa9f6cf3eb5d
 TQID: https://experienceleague.adobe.com/Op96b-n8lH2vLwBfUjlJdunp65Y5o2-gYxaEWFwH2m8
@@ -11,54 +11,54 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: 277
+source-wordcount: 345
 ht-degree: 0%
 
 ---
 
-# Dati [!DNL Analytics] in Adobe Advertising
+# [!DNL Analytics] Data in Adobe Advertising
 
 *Inserzionisti con una sola integrazione Adobe Advertising-Adobe Analytics*
 
-## Segmenti di Analytics
+## Analytics segments
 
-Tutti i segmenti creati in [!DNL Analytics] e pubblicati in Experience Cloud.
+All segments created in [!DNL Analytics] and published to Adobe CX Enterprise (formerly Adobe) Experience Cloud).
 
-La visualizzazione dei nuovi segmenti in Adobe Advertising richiede 24-48 ore. Gli aggiornamenti ai segmenti esistenti vengono sincronizzati entro circa otto ore.
+New segments take 24-48 hours to appear in Adobe Advertising. Updates to existing segments are synchronized within about eight hours.
 
 <!-- I added "metric" to some of the links below, even though it looks redundant, because of syntax limitations: If you use [!DNL] or [!UICONTROL] as the sole text of a link (such as [[!UICONTROL Revenue]], the tag is included in the link text (such as "[!UICONTROL Revenue]") when it's published. -->
 
-## Metriche di coinvolgimento del sito
+## Site engagement metrics
 
 >[!NOTE]
 >
->* [!DNL Analytics] trasmette gli eventi per l&#39;ID EF [!DNL eVar] in Adobe Advertising.  L&#39;integrazione predefinita non supporta l&#39;invio di metriche calcolate o altre dimensioni ([!DNL eVars]) in Adobe Advertising. Tuttavia, se la metrica calcolata può essere acquisita completamente in un evento personalizzato, Adobe Advertising può acquisire l’evento personalizzato.
->* [!DNL Analytics] trasmette i dati ad Adobe Advertising ogni ora.
+>* [!DNL Analytics] passes events for the EF ID [!DNL eVar] into Adobe Advertising.  The default integration doesn&#39;t support sending calculated metrics or other dimensions ([!DNL eVars]) into Adobe Advertising. If the calculated metric can be wholly captured in a custom event, however, then Adobe Advertising can ingest the custom event.
+>* [!DNL Analytics] passes data to Adobe Advertising hourly.
 
-* [!UICONTROL Timespent_secs_1stvisit]: numero di secondi trascorsi sul sito durante la prima visita del visitatore.
-* [!UICONTROL Timespent_secs_total]: numero totale di secondi trascorsi sul sito in tutte le visite all&#39;interno dell&#39;intervallo di lookback dei clic.
-* [!UICONTROL Pageviews_1stvisit]: numero di visualizzazioni di pagina sul sito durante la prima visita del visitatore.
-* [!UICONTROL Pageviews_total]: numero totale di visualizzazioni di pagina sul sito per tutte le visite all&#39;interno dell&#39;intervallo di lookback dei clic.
-* Metrica [[!UICONTROL Bounces]](https://experienceleague.adobe.com/docs/analytics/components/metrics/bounces.html?lang=it)
-* Metrica [[!UICONTROL Visits]](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=it)
-* [!UICONTROL ef_id_instances]: numero di volte che [!DNL Analytics] ha raccolto un [!UICONTROL EF ID].
+* [!UICONTROL Timespent_secs_1stvisit]: The number of seconds spent on the site during the visitor&#39;s first visit.
+* [!UICONTROL Timespent_secs_total]: The total number of seconds spent on the site across all visits within the click lookback window.
+* [!UICONTROL Pageviews_1stvisit]: The number of page views on the site during the visitor&#39;s first visit.
+* [!UICONTROL Pageviews_total]: The total number of page views on the site across all visits within the click lookback window.
+* [[!UICONTROL Bounces] metric](https://experienceleague.adobe.com/docs/analytics/components/metrics/bounces.html?lang=it)
+* [[!UICONTROL Visits] metric](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=it)
+* [!UICONTROL ef_id_instances]: The number of times that [!DNL Analytics] collected an [!UICONTROL EF ID].
 
 ## Metriche di conversione
 
-[!DNL Analytics] passa quotidianamente le metriche di conversione ad Adobe Advertising.
+[!DNL Analytics] passes conversion metrics to Adobe Advertising daily.
 
-### Metriche di conversione standard
+### Standard conversion metrics
 
-* Metrica [[!UICONTROL Revenue]](https://experienceleague.adobe.com/docs/analytics/components/metrics/revenue.html?lang=it)
-* Metrica [[!UICONTROL Orders]](https://experienceleague.adobe.com/docs/analytics/components/metrics/orders.html?lang=it)
-* Metrica [[!UICONTROL Units]](https://experienceleague.adobe.com/docs/analytics/components/metrics/units.html?lang=it)
-* Metrica [[!UICONTROL Carts]](https://experienceleague.adobe.com/docs/analytics/components/metrics/carts.html?lang=it)
-* Metrica [[!UICONTROL Cart Views]](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-views.html?lang=it)
-* Metrica [[!UICONTROL Checkouts]](https://experienceleague.adobe.com/docs/analytics/components/metrics/checkouts.html?lang=it)
-* Metrica [[!UICONTROL Cart Additions]](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-additions.html?lang=it)
-* Metrica [[!UICONTROL Cart Removals]](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-removals.html?lang=it)
+* [Metrica [!UICONTROL Revenue]](https://experienceleague.adobe.com/docs/analytics/components/metrics/revenue.html?lang=it)
+* [Metrica [!UICONTROL Orders]](https://experienceleague.adobe.com/docs/analytics/components/metrics/orders.html?lang=it)
+* [Metrica [!UICONTROL Units]](https://experienceleague.adobe.com/docs/analytics/components/metrics/units.html?lang=it)
+* [Metrica [!UICONTROL Carts]](https://experienceleague.adobe.com/docs/analytics/components/metrics/carts.html?lang=it)
+* [Metrica [!UICONTROL Cart Views]](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-views.html?lang=it)
+* [Metrica [!UICONTROL Checkouts]](https://experienceleague.adobe.com/docs/analytics/components/metrics/checkouts.html?lang=it)
+* [Metrica [!UICONTROL Cart Additions]](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-additions.html?lang=it)
+* [Metrica [!UICONTROL Cart Removals]](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-removals.html?lang=it)
 
 ### Metriche di conversione personalizzate
 

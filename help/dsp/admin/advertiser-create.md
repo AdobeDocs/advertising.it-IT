@@ -1,40 +1,40 @@
 ---
-title: Creare un account inserzionista
-description: Scopri come creare un account inserzionista.
+title: Create an advertiser account
+description: Learn how to create an advertiser account.
 role: User, Admin
-source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
 
-# Creare un account inserzionista
+# Create an advertiser account
 
 *Non disponibile per utenti di sola lettura*
 
 <!-- Not published -->
 
-Gli inserzionisti sono disponibili per tutti gli utenti dell’account organizzazione.
+Advertisers are available to all users in the organization account.
 
 1. Nel menu principale, fare clic su **[!UICONTROL Settings]** > **[!UICONTROL Advertisers]**.
 
 1. Fare clic su **[!UICONTROL Create]**.
 
-1. Specifica le [impostazioni inserzionista](advertiser-settings.md):
+1. Specify the [advertiser settings](advertiser-settings.md):
 
-   1. Nelle impostazioni [!UICONTROL General]:
+   1. In the [!UICONTROL General] settings:
 
-      1. Specificare le impostazioni [!UICONTROL General].
+      1. Specify the [!UICONTROL General] settings.
 
-      1. (Facoltativo) Per configurare le integrazioni tra DSP e altri prodotti Adobe Experience Cloud, immetti l&#39;ID organizzazione Experience Cloud dell&#39;inserzionista nella sezione [!UICONTROL Adobe IMS IDs], quindi configura le integrazioni prodotto nella sezione [!UICONTROL Integrations].
+      1. (Optional) To configure integrations between DSP and other Adobe CX Enterprise products, enter the advertiser&#39;s CX Enterprise organization ID in the [!UICONTROL Adobe IMS IDs] section, and then configure the product integrations in the [!UICONTROL Integrations] section.
 
-   1. (Facoltativo) Nelle sezioni [!UICONTROL Targeting], specifica le destinazioni predefinite per ogni nuovo posizionamento.
+   1. (Optional) In the [!UICONTROL Targeting] sections, specify default targets for each new placement.
 
-      Potete sovrascrivere le destinazioni predefinite per qualsiasi posizionamento creato.
+      You can override the default targets for any placement you create.
 
 1. Fare clic su **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
->* [Impostazioni inserzionista](/help/dsp/admin/advertiser-settings.md)
+>* [Advertiser settings](/help/dsp/admin/advertiser-settings.md)

@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 975
+source-wordcount: 1045
 ht-degree: 0%
 
 ---
@@ -100,13 +100,13 @@ La nuova interfaccia utente di Search, Social &amp; Commerce dispone dei seguent
 
 1. Vai su https://adminconsole.adobe.com/enterprise/.
 
-1. (Se non hai effettuato l’accesso ad Experience Cloud) Accedi ad Experience Cloud:
+1. (Se non hai effettuato l’accesso a CX Enterprise) Accedi a CX Enterprise:
 
    1. Immetti l&#39;ID [!DNL Adobe] e fai clic su **[!UICONTROL Continue]**.
 
    1. Selezionare **[!UICONTROL Personal Account]&quot; o &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
-   1. Seleziona l’organizzazione Experience Cloud applicabile.
+   1. Seleziona l’organizzazione CX Enterprise applicabile.
 
       Admin Console si apre sulla scheda [!UICONTROL Overview].
 
@@ -130,28 +130,28 @@ Segui questo flusso di lavoro per ogni istanza client di Search, Social e Commer
 
 1. [Accedi a Adobe Admin Console e aprilo in Search, Social e Commerce](#open-admin-console).
 
-1. Se necessario, creare gli utenti finali [singolarmente](https://helpx.adobe.com/it/enterprise/using/manage-users-individually.html) o [in blocco](https://helpx.adobe.com/it/enterprise/using/bulk-upload-users.html).
+1. As needed, create end users [individually](https://helpx.adobe.com/it/enterprise/using/manage-users-individually.html) or [in bulk](https://helpx.adobe.com/it/enterprise/using/bulk-upload-users.html).
 
-1. (Facoltativo) Crea [gruppi di utenti](https://helpx.adobe.com/it/enterprise/using/user-groups.html) per l&#39;istanza e assegna gli utenti a ciascun gruppo di utenti.
+1. (Optional) Create [user groups](https://helpx.adobe.com/it/enterprise/using/user-groups.html) for the instance and assign users to each user group.
 
-   Se l’istanza ha molti utenti, crea gruppi di utenti per garantire che agli utenti siano assegnati i profili giusti in base al loro livello di esperienza. Consulta il Passaggio 4 per assegnare gruppi di utenti ai profili di prodotto. Puoi creare gruppi di utenti in base alla linea di business, alle esigenze di accesso degli utenti, alla data di assunzione dell’utente o ad altri criteri.
+   If the instance has many users, create user groups to ensure that users are assigned the right profiles based on their level of expertise. (See Step 4 for assigning user groups to product profiles.) You can create user groups based on the line of business, user access needs, user hire date, or other criteria.
 
    >[!IMPORTANT]
    >
-   >I nomi dei gruppi di utenti devono comunicare chiaramente i diritti che devono essere assegnati al gruppo. Ad esempio, se si desidera creare un gruppo di utenti con diritti di sola lettura, includere &quot;Sola lettura&quot; nel nome del gruppo di utenti, ad esempio &quot;Acme_Uk_ReadOnly&quot; o &quot;Acme_ReadOnly&quot;.
+   >User group names should clearly communicate the rights that the group of users should be assigned. For example, if you want to create a user group with “Read Only” rights, include “Read Only” in the user group name, such as &quot;Acme_Uk_ReadOnly&quot; or &quot;Acme_ReadOnly.&quot;
 
-1. (Facoltativo) [Crea profili di prodotto personalizzati](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html) con set di autorizzazioni definiti.
+1. (Optional) [Create custom product profiles](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html) with defined permission sets.
 
-   I profili personalizzati si aggiungono ai quattro profili di prodotto predefiniti già disponibili.
+   Custom profiles are in addition to the four default product profiles that are already available.
 
-   Ogni profilo di prodotto di un’organizzazione deve avere un nome univoco. Se la tua organizzazione utilizza più istanze Search, Social e Commerce (ad esempio, Acme_US e Acme_JP), non puoi duplicare il nome di un profilo di prodotto in più istanze. **Best practice:** utilizza la convenzione di denominazione `<Name>_<Instance>,`, ad esempio &quot;Simulation_Only_JP&quot;.
+   Each product profile for an organization must have a unique name. If your organization uses multiple Search, Social, &amp; Commerce instances (for example, Acme_US and Acme_JP), then you can&#39;t duplicate a product profile name in multiple instances. **Best practice:** Use the naming convention `<Name>_<Instance>,` such as &quot;Simulations_Only_JP.&quot;
 
-   **Attenzione:** le autorizzazioni del prodotto sono molto granulari. Presta attenzione quando configuri profili di prodotto personalizzati o potresti omettere le funzionalità che desideri includere.
+   **Caution:** Product permissions are very granular. Be careful when you configure custom product profiles or you may omit functionality that you want to include.
 
-1. [Assegnare ogni utente o gruppo di utenti al relativo profilo di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html) manualmente o in blocco.
+1. [Assign each user or user group to the relevant product profile](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html) manually or in bulk.
 
-## Guida completa all’amministrazione degli utenti e collegamenti aggiuntivi
+## Complete user administration guide and additional links
 
-* Per ulteriori informazioni sull&#39;amministrazione degli utenti tramite Adobe Admin Console, vedere &quot;[Adobe Enterprise &amp; Teams Administration Guide](https://helpx.adobe.com/it/enterprise/admin-guide.html)&quot;, inclusa la [panoramica di Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html).
+* For more information about user administration using Adobe Admin Console, see &quot;[Adobe Enterprise &amp; Teams Administration Guide](https://helpx.adobe.com/it/enterprise/admin-guide.html),&quot; including the [Admin Console overview](https://helpx.adobe.com/it/enterprise/using/admin-console.html).
 
 * Admin Console: [https://adminconsole.adobe.com](https://adminconsole.adobe.com)

@@ -18,9 +18,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: 1321
+source-wordcount: 1394
 ht-degree: 0%
 
 ---
@@ -91,11 +91,11 @@ Puoi indirizzare i posizionamenti a tutti i seguenti tipi di pubblico.
 
   I segmenti di terze parti sono soggetti a commissioni aggiuntive, indicate accanto al nome di ciascun segmento.
 
-* (Inserzionisti con Adobe Experience Platform e [!DNL Real-Time CDP], Adobe Audience Manager o Adobe Analytics che utilizzano solo tag di conversione Adobe Advertising JavaScript) Tutti i segmenti di pubblico di prime, seconde o terze parti disponibili creati in [!DNL Real-Time CDP], creati in Audience Manager o pubblicati in Adobe Experience Cloud da Audience Manager o [!DNL Analytics].
+* (Inserzionisti con Adobe Experience Platform e [!DNL Real-Time CDP], Adobe Audience Manager o Adobe Analytics che utilizzano solo tag di conversione Adobe Advertising JavaScript) Tutti i segmenti di pubblico di prime, seconde o terze parti disponibili creati in [!DNL Real-Time CDP], creati in Audience Manager o pubblicati in Adobe CX Enterprise da Audience Manager o [!DNL Analytics].
 
   I prezzi per l’utilizzo dei segmenti sono pre-negoziati e non sono visibili in DSP.
 
-  I segmenti di [!DNL Analytics] sono disponibili circa un&#39;ora dopo la loro creazione o pubblicazione come tipi di pubblico di Experience Cloud. I segmenti provenienti direttamente da Audience Manager o [!DNL Real-Time CDP] sono disponibili entro 24 ore dalla condivisione.
+  I segmenti di [!DNL Analytics] sono disponibili circa un&#39;ora dopo la loro creazione o pubblicazione come tipi di pubblico di CX Enterprise. I segmenti provenienti direttamente da Audience Manager o [!DNL Real-Time CDP] sono disponibili entro 24 ore dalla condivisione.
 
   >[!NOTE]
   >

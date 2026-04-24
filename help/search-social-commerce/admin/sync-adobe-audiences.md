@@ -12,9 +12,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 185
+source-wordcount: 191
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ Solo *[!DNL Direct Access]amministratori e client manager*
 
 * Segmenti Adobe Audience Manager
 
-* Segmenti Adobe Analytics pubblicati in Adobe Experience Cloud
+* Segmenti Adobe Analytics pubblicati in Adobe CX Enterprise
 
-* Segmenti creati con Adobe Experience Cloud [!DNL Audience Library]
+* Segmenti creati con Adobe CX Enterprise [!DNL Audience Library]
 
 Per essere idoneo, l&#39;inserzionista o l&#39;agenzia deve implementare il [servizio Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) e fornire il proprio ID organizzazione (precedentemente denominato [!DNL IMS Org ID]).
 
@@ -39,11 +39,11 @@ La sincronizzazione iniziale richiede circa 24 ore. Successivamente, i dati veng
 
 1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Audience Manager Setup]**.
 
-1. Immettere l&#39;ID organizzazione univoco per l&#39;account Adobe Experience Cloud dell&#39;inserzionista, quindi fare clic su **[!UICONTROL Submit]**.
+1. Immettere l&#39;ID organizzazione univoco per l&#39;account Adobe CX Enterprise dell&#39;inserzionista, quindi fare clic su **[!UICONTROL Submit]**.
 
    Se non conosci l&#39;ID organizzazione dell&#39;inserzionista, cercalo nel campo **[!UICONTROL IMS Org ID]** nelle impostazioni dell&#39;inserzionista in [!UICONTROL Admin] > [!UICONTROL Manage Client].
 
 >[!MORELIKETHIS]
 >
 >* [Informazioni sui tipi di pubblico](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)
->* [Integrazione con soluzioni e servizi Adobe Experience Cloud](/help/search-social-commerce/introduction/integrations.md)
+>* [Integrazione con soluzioni e servizi Adobe CX Enterprise](/help/search-social-commerce/introduction/integrations.md)

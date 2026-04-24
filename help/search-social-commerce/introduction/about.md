@@ -16,9 +16,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 762
+source-wordcount: 776
 ht-degree: 0%
 
 ---
@@ -59,11 +59,11 @@ Search, Social e Commerce offrono funzioni complete di gestione, ottimizzazione,
 
 Consulta &quot;[Inventario supportato](/help/search-social-commerce/introduction/supported-inventory.md)&quot; per ulteriori informazioni sul supporto per diversi tipi di annunci e reti di annunci.
 
-## Integrazione con le soluzioni e i servizi Adobe Experience Cloud
+## Integrazione con le soluzioni e i servizi Adobe CX Enterprise
 
 Le integrazioni native con Adobe Analytics e Adobe Audience Manager consentono di collegare i dati e i segmenti di pubblico per il targeting degli annunci, la creazione di tipi di pubblico [!DNL Google Ads], l&#39;ottimizzazione e le attività di reporting/analisi.
 
-Per ulteriori informazioni sulle integrazioni con questi e altri prodotti Adobe, vedi &quot;[Integrazione con soluzioni e servizi Adobe Experience Cloud](/help/search-social-commerce/introduction/integrations.md).&quot;
+Per ulteriori informazioni sulle integrazioni con questi e altri prodotti Adobe, vedi &quot;[Integrazione con soluzioni e servizi Adobe CX Enterprise](/help/search-social-commerce/introduction/integrations.md).&quot;
 
 ## Tracciamento delle conversioni
 
@@ -76,4 +76,4 @@ Per ulteriori informazioni sul tracciamento, consulta il capitolo su &quot;Tracc
 >[!MORELIKETHIS]
 >
 >* [Inventario supportato](supported-inventory.md)
->* [Integrazione con soluzioni e servizi Adobe Experience Cloud](integrations.md)
+>* [Integrazione con soluzioni e servizi Adobe CX Enterprise](integrations.md)

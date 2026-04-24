@@ -16,9 +16,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 1587
+source-wordcount: 1792
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Per impostare la raccolta dati in Experience Platform e implementare i tag di tr
 
    * Per la tua proprietà, [installa l&#39;estensione &quot;Adobe Experience Platform Web SDK&quot;](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) dal catalogo delle estensioni.
 
-     Questa estensione invia i dati dalle proprietà web ad Experience Cloud tramite Experience Platform Edge Network.
+     Questa estensione invia i dati dalle proprietà web a Adobe CX Enterprise tramite Experience Platform Edge Network.
 
      Non utilizzare l&#39;estensione Adobe Advertising.
 

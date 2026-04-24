@@ -1,6 +1,6 @@
 ---
 title: Novità
-description: Scopri gli aggiornamenti alle integrazioni tra Adobe Advertising e altri prodotti e servizi in Adobe Experience Cloud.
+description: Scopri gli aggiornamenti alle integrazioni tra Adobe Advertising e altri prodotti e servizi in Adobe CX Enterprise (precedentemente Adobe Experience Cloud).
 cloud: Experience Cloud
 product: advertising cloud
 index: true
@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: 831
+source-wordcount: 870
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Le seguenti funzioni sono nuove o modificate di recente.
 <!--
  At some point, just make this an overview page instead?
 
-Adobe Advertising is integrated with the following Adobe Experience Cloud products:
+Adobe Advertising is integrated with the following Adobe CX Enterprise products:
 
 * [Adobe Analytics](/help/integrations/analytics/overview.md)
 

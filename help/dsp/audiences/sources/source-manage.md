@@ -14,9 +14,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: 758
+source-wordcount: 761
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ Puoi visualizzare i dettagli sulle modifiche apportate a un record di origine de
 
 **[!UICONTROL Advertiser]:** (solo visibilità a livello di inserzionista) L&#39;inserzionista per il quale sono disponibili i segmenti. Selezionane uno dall’elenco degli inserzionisti con accesso all’account.
 
-**[!UICONTROL Enter IMS Org Id]:** ([!DNL Real-Time CDP] solo origini) ID organizzazione Adobe Experience Cloud per l&#39;account [!DNL Adobe Experience Platform].
+**[!UICONTROL Enter IMS Org Id]:** ([!DNL Real-Time CDP] solo origini) ID organizzazione Adobe CX Enterprise per l&#39;account [!DNL Adobe Experience Platform].
 
 **[!UICONTROL Convert PII to the following IDs]:** i tipi di ID in cui verranno convertite le informazioni personali (PII, personally identifiable information). Se selezioni più tipi, il segmento generato viene compilato con valori per ciascun tipo di ID selezionato (ad esempio [!DNL RampID] e [!DNL Unified ID2.0] per ciascun indirizzo e-mail). Gli oneri per i dati sono applicati di conseguenza.
 

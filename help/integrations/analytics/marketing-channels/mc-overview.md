@@ -14,9 +14,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 542
+source-wordcount: 561
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Per la documentazione completa su [!DNL Marketing Channels], vedere &quot;[Intro
 
 [!DNL Marketing Channels] sono funzionalità chiave di Adobe Analytics. I rapporti di [!DNL Marketing Channels] mostrano come i clienti arrivano al tuo sito web tramite l&#39;intervallo di reporting e come ogni canale influisce sui ricavi o sul comportamento in loco.
 
-Prendi in considerazione l’esempio seguente di un percorso di visite incrociate. Ogni visita al sito web è indicata dal canale di marketing da cui il visitatore è entrato. La prima visita, denominata anche Canale di primo contatto, è l’E-mail. La visualizzazione durante la seconda visita è un canale partecipante e la ricerca naturale è considerata il canale di ultimo contatto. Se utilizzi [!UICONTROL Last Touch Attribution] entro [!UICONTROL Attribution IQ], la ricerca naturale riceve il merito completo per l&#39;evento di conversione da $ 250. Utilizzando il servizio Experience Cloud ID, puoi collegare queste visite individuali per mostrare un percorso per un singolo visitatore.
+Prendi in considerazione l’esempio seguente di un percorso di visite incrociate. Ogni visita al sito web è indicata dal canale di marketing da cui il visitatore è entrato. La prima visita, denominata anche Canale di primo contatto, è l’E-mail. La visualizzazione durante la seconda visita è un canale partecipante e la ricerca naturale è considerata il canale di ultimo contatto. Se utilizzi [!UICONTROL Last Touch Attribution] entro [!UICONTROL Attribution IQ], la ricerca naturale riceve il merito completo per l&#39;evento di conversione da $ 250. Utilizzando il servizio Adobe CX Enterprise ID, puoi collegare queste visite individuali per mostrare un percorso per un singolo visitatore.
 
 ![Esempio di percorso di conversione tra visite in canali di marketing](/help/integrations/assets/a4adc-mc-sample-journey.png)
 
@@ -43,16 +43,16 @@ Ogni volta che un utente accede a un sito web, lo fa tramite un URL su cui fa cl
 
 Spesso, gli addetti al marketing accodano i codici di tracciamento dei parametri delle stringhe di query agli URL del canale per monitorare l’impatto del canale sul sito. È possibile configurare [!DNL Marketing Channels] regole di elaborazione per l&#39;ascolto di parametri e valori di tracciamento specifici per determinare il canale senza alcun tracciamento aggiuntivo. Ad esempio, se tutti gli URL della campagna e-mail seguono il formato `www.adobe.com?cid=email…` (dove l&#39;URL contiene il parametro della stringa di query e il valore `cid=email`), puoi creare una regola per ascoltare questo codice di tracciamento e bucket la visita nel canale [!UICONTROL Email].
 
-Gli altri canali non dispongono di percorsi URL tracciabili e richiedono un’ulteriore logica per l’identificazione. Ad esempio, [!UICONTROL Earned Social], in cui un utente fa clic su un collegamento condiviso organicamente da un altro utente su un social network, è un canale importante da monitorare. Tuttavia, l’addetto marketing non ha modo di aggiungere all’URL condiviso un codice di tracciamento dei parametri della stringa di query. In questo caso, puoi creare una regola di elaborazione per ascoltare il dominio di riferimento dei social network di interesse e l’assenza di codici di tracciamento a pagamento per determinare il canale. Le visite che soddisfano questi requisiti vengono quindi tracciate come Social Guadagnato nel rapporto Canali di marketing.
+Other channels don&#39;t have trackable URL paths and need further logic for identification. For example, [!UICONTROL Earned Social], in which a user clicks a link that another user shared organically on a social network, is an important channel to track. However, the marketer has no way to append a query string parameter tracking code to the URL that&#39;s shared. In this case, you could create a processing rule to listen for the referring domain of social networks of interest and the absence of paid tracking codes to determine the channel. The visits that meet these requirements then would be tracked as Earned Social within the Marketing Channels report.
 
-Adobe consiglia di collaborare con il team [!DNL Analytics] per creare un set completo di [!DNL Marketing Channels] regole di elaborazione che tengano traccia di tutti i canali pertinenti. In questo modo puoi creare rapporti di attribuzione efficaci.
+Adobe recommends working with your [!DNL Analytics] team to build a comprehensive set of [!DNL Marketing Channels] processing rules that track all pertinent channels. Doing so allows you to create powerful attribution reporting.
 
-Per capire come Adobe Advertising può contribuire ai segnali necessari per creare canali di marketing personalizzati, consulta &quot;[Utilizzo degli ID di Adobe Advertising per creare [!DNL Marketing Channels] regole di elaborazione](mc-ids.md).&quot;
+To understand how Adobe Advertising can contribute to the signals necessary to create custom marketing channels, see &quot;[Using Adobe Advertising IDs to create [!DNL Marketing Channels] processing rules](mc-ids.md).&quot;
 
 >[!MORELIKETHIS]
 >
->* [Utilizzo degli ID Adobe Advertising per creare [!DNL Marketing Channels] regole di elaborazione](mc-ids.md)
->* [Perché i dati dei canali possono variare tra Adobe Advertising e [!DNL Marketing Channels]](mc-data-variances.md)
->* [Utilizzo di [!DNL Analytics Marketing Channels] con i dati di Adobe Advertising](mc-ac-data.md)
->* [Video: utilizzo di [!DNL Marketing Channels] per la generazione di rapporti di Adobe Advertising](https://experienceleague.adobe.com/it/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc)
+>* [Using Adobe Advertising IDs to create [!DNL Marketing Channels] processing rules](mc-ids.md)
+>* [Why channel data can vary between Adobe Advertising and [!DNL Marketing Channels]](mc-data-variances.md)
+>* [Using [!DNL Analytics Marketing Channels] with Adobe Advertising data](mc-ac-data.md)
+>* [Video: Using [!DNL Marketing Channels] for Adobe Advertising reporting](https://experienceleague.adobe.com/it/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc)
 >* [Panoramica di [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
