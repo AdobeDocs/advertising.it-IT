@@ -12,9 +12,9 @@ subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3e2164230726fe96d4e43ebba26e84640bd806f1
 workflow-type: tm+mt
-source-wordcount: 558
+source-wordcount: 560
 ht-degree: 0%
 
 ---
@@ -23,11 +23,16 @@ ht-degree: 0%
 
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
 
-Puoi salvare e gestire i tipi di pubblico riutilizzabili, ovvero gruppi di segmenti di pubblico e anche altri tipi di pubblico salvati, che puoi utilizzare come target o esclusioni per più posizionamenti.
+È possibile salvare e gestire tipi di pubblico riutilizzabili, ovvero gruppi di segmenti di pubblico e anche altri tipi di pubblico salvati, che è possibile utilizzare come destinazioni o esclusioni per più posizionamenti.<!-- Create audiences manually or use the AI-assisted audience agent to generate new reusable audiences using all first-party and third-party segments that are available to you, according to your stated requirements. -->
+
+<!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
 >[!NOTE]
 >
 >(Per gli inserzionisti per i quali DSP converte gli ID e-mail con hash in segmenti RampID LiveRamp) I segmenti RampID di prime parti non collegati a un posizionamento attivo, pianificato o in pausa vengono messi in pausa. Nell’elenco dei segmenti, il segmento viene indicato come &quot;In pausa automatica&quot;.
+
+
+<!-- ## Manually create a reusable audience -->
 
 1. Nel menu principale, fare clic su **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
 
