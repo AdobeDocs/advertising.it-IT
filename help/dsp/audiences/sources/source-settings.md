@@ -3,9 +3,9 @@ title: Impostazioni origine pubblico
 description: Scopri le impostazioni delle origini del pubblico.
 feature: DSP Audiences
 exl-id: 274ea502-ad15-4d3d-922a-17caddb87f69
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL Advertiser]:** (solo visibilità a livello di inserzionista) L&#39;inserzionista per il quale sono disponibili i segmenti. Selezionane uno dall’elenco degli inserzionisti con accesso all’account.
 
-**[!UICONTROL Enter IMS Org Id]:** ([!DNL Real-Time CDP] solo origini) ID organizzazione Adobe Experience Cloud per l&#39;account [!DNL Adobe Experience Platform].
+**[!UICONTROL Enter IMS Org Id]:** ([!DNL Real-Time CDP] solo origini) ID organizzazione Adobe CX Enterprise per l&#39;account [!DNL Adobe Experience Platform].
 
 **[!UICONTROL Convert PII to the following IDs]:** i tipi di ID in cui verranno convertite le informazioni personali (PII, personally identifiable information). Se selezioni più tipi, il segmento generato viene compilato con valori per ciascun tipo di ID selezionato (ad esempio [!DNL RampID] e [!DNL Unified ID2.0] per ciascun indirizzo e-mail). Gli oneri per i dati sono applicati di conseguenza.
 
@@ -30,7 +30,7 @@ Per [!DNL RampID] e [!DNL Unified ID2.0], il fornitore cerca ogni indirizzo e-ma
 
 * *[!DNL RampID]:* Per convertire PII in [!DNL RampID]. È possibile utilizzare [!DNL RampIDs] per il retargeting degli utenti che accedono e per la misurazione di [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).
 
-* *[!DNL Unified ID2.0] (Beta):* Per convertire PII in un ID [Unified ID 2.0](https://unifiedid.com) per il retargeting degli utenti che accedono.
+* *[!DNL Unified ID2.0](Beta):* Per convertire PII in un ID [Unified ID 2.0](https://unifiedid.com) per il retargeting degli utenti che accedono.
 
 <!--
  Later
@@ -47,5 +47,5 @@ Per [!DNL RampID] e [!DNL Unified ID2.0], il fornitore cerca ogni indirizzo e-ma
 >* [Gestisci origini pubblico per attivare il pubblico con ID universale](source-manage.md)
 >* [Informazioni sulle origini del pubblico di prime parti](source-about.md)
 >* [Importa manualmente i segmenti autenticati da [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
->* [Connessione Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=it)
+>* [Connessione Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* [Informazioni su Gestione dell&#39;audience](/help/dsp/audiences/audience-about.md)

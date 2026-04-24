@@ -4,16 +4,12 @@ description: Scopri dove accedere a diverse funzionalità.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
 TQID: https://experienceleague.adobe.com/KqfmmT9cFZpNIoIiaA0OjGlMDf4hvQzNhPpH8lYtViw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 1f88e6a2136c1f60c75280a3edaf20ad55dc8290
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 1396
+source-wordcount: 1392
 ht-degree: 0%
 
 ---
@@ -148,17 +144,17 @@ Utilizza il campo di ricerca sopra il menu principale per cercare opzioni di men
 
 ## Altri menu basati su attività e informazioni in alto a destra
 
-### Riga superiore: menu di Experience Cloud
+### Riga superiore: menu CX Enterprise
 
-* Un elenco selezionabile delle organizzazioni Experience Cloud a cui hai accesso.
+* Un elenco selezionabile di organizzazioni CX Enterprise a cui hai accesso.
 
 * ![Centro assistenza](/help/search-social-commerce/assets/help-main-menu.png "Centro assistenza") Un menu della Guida che include collegamenti alla documentazione e altre informazioni.
 
-* ![Notifiche](/help/search-social-commerce/assets/notifications-aec.png "Notifiche") Pannello che elenca richieste, notifiche e annunci di Experience Cloud.
+* ![Notifiche](/help/search-social-commerce/assets/notifications-aec.png "Notifiche") Pannello che elenca richieste, notifiche e annunci di CX Enterprise.
 
-* ![App](/help/search-social-commerce/assets/apps.png "App") elenco di soluzioni e servizi Adobe Experience Cloud a cui è possibile passare.
+* ![App](/help/search-social-commerce/assets/apps.png "App") elenco di soluzioni e servizi Adobe CX Enterprise a cui è possibile passare.
 
-* ![Account](/help/search-social-commerce/assets/account.png "Account") Informazioni sul tuo profilo account Experience Cloud, da cui puoi modificare le preferenze e uscire.
+* ![Account](/help/search-social-commerce/assets/account.png "Account") Informazioni sul tuo profilo account CX Enterprise, da cui puoi modificare le preferenze e uscire.
 
 ### Seconda riga: menu Ricerca aggiuntiva, Social e Commerce
 
@@ -208,15 +204,15 @@ L&#39;opzione [!UICONTROL Search] include i sottomenu seguenti. Il tuo ruolo det
 
 * ![Notifiche avvisi](/help/search-social-commerce/assets/notifications-panel.png "Notifiche avvisi") Un pannello che elenca le notifiche di ricerca, social e Commerce.
 
-  Quando [hai effettuato l&#39;accesso tramite Adobe Experience Cloud](sign-in.md), in questo pannello vengono visualizzate le notifiche da Experience Cloud.
+  Quando [hai effettuato l&#39;accesso tramite Adobe CX Enterprise](sign-in.md), in questo pannello vengono visualizzate le notifiche da CX Enterprise.
 
 * ![Menu Guida](/help/search-social-commerce/assets/help-main-menu.png "Menu Guida") Menu della Guida che include collegamenti alla documentazione e altre informazioni.
 
-* ![Commutatore soluzione](/help/search-social-commerce/assets/menu-icon.png "Commutatore soluzione") Un elenco di soluzioni e servizi Adobe Experience Cloud a cui è possibile passare.
+* ![Commutatore soluzione](/help/search-social-commerce/assets/menu-icon.png "Commutatore soluzione") Un elenco di soluzioni e servizi Adobe CX Enterprise a cui è possibile passare.
 
 * ![Profilo utente](/help/search-social-commerce/assets/user-profile.png "Profilo utente") Collegamento al tuo profilo da cui puoi uscire.
 
-  Quando hai [effettuato l&#39;accesso tramite Adobe Experience Cloud](sign-in.md), puoi anche modificare il tuo profilo Experience Cloud, incluse le impostazioni relative alla password e alle notifiche di Experience Cloud.
+  Quando hai [effettuato l&#39;accesso tramite Adobe CX Enterprise](sign-in.md), puoi anche modificare il tuo profilo CX Enterprise, incluse le impostazioni relative alla password e alle notifiche di CX Enterprise.
 
 >[!MORELIKETHIS]
 >

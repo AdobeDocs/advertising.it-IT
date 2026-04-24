@@ -4,18 +4,13 @@ description: Scopri come accedere a DSP.
 feature: DSP Introduction
 exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
 TQID: https://experienceleague.adobe.com/KjBIag8qcpMONcX6pS2IJot3IA4Q-KOq0Av-1VzAot4
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: 502
+source-wordcount: 535
 ht-degree: 0%
 
 ---
@@ -24,7 +19,7 @@ ht-degree: 0%
 
 Adobe Advertising DSP sta passando al servizio Adobe Identity Management (IMS) per l’autenticazione degli accessi. IMS fornisce l&#39;accesso Single Sign-On (SSO) utilizzando Federated ID a tutti i prodotti [!DNL Adobe] che supportano IMS, inclusi Real-Time Customer Data Platform, Customer Journey Analytics, [!DNL Target] e [!DNL Analytics]. Con la modifica:
 
-* È possibile utilizzare un [!DNL Adobe ID] per accedere ai diversi prodotti di [!DNL Adobe] dalla pagina di accesso di Experience Cloud o dalla pagina di accesso legacy di DSP. [!DNL Adobe ID] fornisce la gestione del profilo utente. In una versione futura, potrai modificare l&#39;account DSP, l&#39;account organizzazione IMS e il prodotto [!DNL Adobe] dal menu principale.
+* È possibile utilizzare un [!DNL Adobe ID] per accedere a [!DNL Adobe] prodotti dalla pagina di accesso di Adobe CX Enterprise (precedentemente Adobe Experience Cloud) o dalla pagina di accesso di DSP legacy. [!DNL Adobe ID] fornisce la gestione del profilo utente. In una versione futura, potrai modificare l&#39;account DSP, l&#39;account organizzazione IMS e il prodotto [!DNL Adobe] dal menu principale.
 
 * L&#39;autenticazione Enterprise è supportata.
 
@@ -52,15 +47,15 @@ Le credenziali correnti di DSP rimarranno attive per un breve periodo di tempo i
 
 1. Scegli la tua organizzazione:
 
-   * Se richiesto, selezionare **[!UICONTROL Personal Account]&quot; o &#x200B;** [!UICONTROL Company or School Account]**.
+   * Se richiesto, selezionare **[!UICONTROL Personal Account]&quot; o **[!UICONTROL Company or School Account]**.
 
    * Se hai accesso a più organizzazioni IMS, seleziona quella corretta.
 
-Per ulteriori informazioni sull&#39;interfaccia di Experience Cloud, inclusa la gestione del profilo utente, vedere &quot;[Interfaccia e amministrazione di Experience Cloud](https://experienceleague.adobe.com/it/docs/core-services/interface/experience-cloud).&quot;
+Per ulteriori informazioni sull&#39;interfaccia di CX Enterprise, inclusa la gestione del profilo utente, vedere &quot;[Interfaccia e amministrazione di CX Enterprise](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud).&quot;
 
 ### Risoluzione dei problemi
 
-Per problemi generali di accesso, vedere anche &quot;[Risoluzione dei problemi di accesso dell&#39;account Adobe](https://helpx.adobe.com/it/manage-account/kb/account-password-sign-help.linkfree.html).&quot;
+Per problemi generali di accesso, vedere anche &quot;[Risoluzione dei problemi di accesso dell&#39;account Adobe](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html).&quot;
 
 #### Esistono prerequisiti per abilitare un nuovo accesso IMS [!DNL Adobe]?
 

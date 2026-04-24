@@ -2,9 +2,9 @@
 title: Impostazioni account inserzionista
 description: Consulta le descrizioni delle impostazioni pubblicitarie disponibili.
 role: User, Admin
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '963'
 ht-degree: 0%
 
 ---
@@ -31,15 +31,15 @@ ht-degree: 0%
 
 ### [!UICONTROL Adobe IMS IDs]
 
-Gli inserzionisti che utilizzano altri prodotti Adobe Experience Cloud possono condividere i dati tra alcuni prodotti utilizzando l’ID univoco dell’organizzazione per Experience Cloud. È possibile configurare integrazioni di prodotto specifiche nella sezione [!UICONTROL Integrations].
+Gli inserzionisti che utilizzano altri prodotti Adobe CX Enterprise possono condividere i dati tra alcuni prodotti utilizzando l’ID univoco dell’organizzazione per CX Enterprise. È possibile configurare integrazioni di prodotto specifiche nella sezione [!UICONTROL Integrations].
 
-**[!UICONTROL Account IMS org and ID]:** (inserzionisti con prodotti Experience Cloud aggiuntivi concessi in licenza tramite un account Experience Cloud con più inserzionisti; facoltativo) ID organizzazione Experience Cloud dell&#39;inserzionista.
+**[!UICONTROL Account IMS org and ID]:** (inserzionisti con prodotti CX Enterprise aggiuntivi concessi in licenza tramite un account CX Enterprise con più inserzionisti; facoltativo) ID organizzazione CX Enterprise dell&#39;inserzionista.
 
-**[!UICONTROL Advertiser IMS org and ID]:** (inserzionisti con licenze dirette per altri prodotti Experience Cloud; facoltativo) ID organizzazione Experience Cloud dell&#39;inserzionista.
+**[!UICONTROL Advertiser IMS org and ID]:** (inserzionisti con licenze dirette per altri prodotti CX Enterprise; facoltativo) ID organizzazione CX Enterprise dell&#39;inserzionista.
 
 ### [!UICONTROL Integrations]
 
-(Facoltativo) Prodotti Experience Cloud aggiuntivi collegati all’account DSP. I prodotti devono essere associati allo stesso ID organizzazione Experience Cloud fornito nella sezione [!UICONTROL Adobe IMS IDs].
+(Facoltativo) Prodotti CX Enterprise aggiuntivi collegati all’account DSP. I prodotti devono essere associati allo stesso ID organizzazione CX Enterprise fornito nella sezione [!UICONTROL Adobe IMS IDs].
 
 **[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (inserzionisti con [!DNL Advertising Search, Social, & Commerce] o che utilizzano pixel di conversione Adobe Advertising) Un account [!DNL Search, Social, & Commerce] con cui DSP scambia dati di attribuzione.
 
@@ -56,8 +56,8 @@ Per ulteriori informazioni sull&#39;integrazione con [!DNL Analytics], vedere &q
 **[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]:** (inserzionisti con Adobe Audience Manager o Adobe Analytics; facoltativo) account Audience Manager o [!DNL Analytics] da cui DSP estrae metadati di segmenti, dati gerarchici e dati di pubblico univoci per tutti i tipi di pubblico Adobe dell&#39;inserzionista. Ciò include i dati per:
 
 * Segmenti di Audience Manager
-* [!DNL Analytics] segmenti pubblicati in Adobe Experience Cloud
-* Segmenti creati con Adobe Experience Cloud [!DNL Audience Library]
+* [!DNL Analytics] segmenti pubblicati in Adobe CX Enterprise
+* Segmenti creati con Adobe CX Enterprise [!DNL Audience Library]
 * Segmenti creati in Adobe Experience Platform e inviati ad Adobe Advertising tramite Audience Manager
 
 La sincronizzazione iniziale richiede circa 24 ore. Successivamente, i dati vengono sincronizzati in tempo reale, con un ritardo di uno o due secondi.
@@ -103,59 +103,59 @@ Tipi di filtri contestuali [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral 
 
 ##### [!UICONTROL Integral Ad Science] {#ias-context}
 
-**[!UICONTROL Adult Content]:** (Facoltativo) Il livello di contenuto per adulti per il quale bloccare gli annunci per impostazione predefinita: *[!UICONTROL Do Not Block]* (impostazione predefinita), *[!UICONTROL Standard]* o *[!UICONTROL Strict]*. Possono essere applicate tariffe aggiuntive.
+**[!UICONTROL Adult Content]:** (Optional) The degree of adult content for which to block ads by default: *[!UICONTROL Do Not Block]* (the default), *[!UICONTROL Standard]*, or *[!UICONTROL Strict]*. Possono essere applicate tariffe aggiuntive.
 
-**[!UICONTROL Alcohol Content]:** (Facoltativo) Il grado di contenuto alcolico per il quale bloccare gli annunci per impostazione predefinita: *[!UICONTROL Do Not Block]* (impostazione predefinita), *[!UICONTROL Standard]* o *[!UICONTROL Strict]*. Possono essere applicate tariffe aggiuntive.
+**[!UICONTROL Alcohol Content]:** (Optional) The degree of alcohol content for which to block ads by default: *[!UICONTROL Do Not Block]* (the default), *[!UICONTROL Standard]*, or *[!UICONTROL Strict]*. Possono essere applicate tariffe aggiuntive.
 
 #### [!UICONTROL Pre-Bid Fraud Blocking] {#prebid-fraud-blocking}
 
-Tipi di siti da bloccare in base al traffico fraudolento e alle attività sospette misurate tramite [!DNL DoubleVerify], [!DNL Integral Ad Science] e [!DNL Peer39]. Puoi ignorare le impostazioni a livello di inserzionista al [livello di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md).
+Types of sites to block based on fraudulent traffic and suspicious activities measured through [!DNL DoubleVerify], [!DNL Integral Ad Science], and [!DNL Peer39]. Puoi ignorare le impostazioni a livello di inserzionista al [livello di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md).
 
 ##### [!UICONTROL DoubleVerify] {#doubleverify-fraud}
 
-**[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** Per impostazione predefinita, blocca tutto il traffico non valido al 100%, incluso il traffico su dispositivi dirottati, per i nuovi posizionamenti. Possono essere applicate tariffe aggiuntive.
+**[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** By default, blocks all 100% invalid traffic, including traffic on hijacked devices, for new placements. Possono essere applicate tariffe aggiuntive.
 
-**[!UICONTROL Also block sites with]:** (Facoltativo) Livello aggiuntivo di frode e traffico non valido che causa il blocco degli annunci da parte di DSP per impostazione predefinita: *[!UICONTROL None]* (impostazione predefinita, che non blocca il traffico aggiuntivo), *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*, *[!UICONTROL >4% Average Fraud/IVT levels]*, *[!UICONTROL >6% Average Fraud/IVT levels]*, *[!UICONTROL >10% Average Fraud/IVT levels]* o *[!UICONTROL >25% Average Fraud/IVT levels]*. Possono essere applicate tariffe aggiuntive.
+**[!UICONTROL Also block sites with]:** (Optional) An additional level of fraud and invalid traffic that causes DSP to block ads by default:  *[!UICONTROL None]* (the default, which doesn&#39;t block additional traffic), *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*, *[!UICONTROL >4% Average Fraud/IVT levels]*, *[!UICONTROL >6% Average Fraud/IVT levels]*, *[!UICONTROL >10% Average Fraud/IVT levels]*, or *[!UICONTROL >25% Average Fraud/IVT levels]*. Possono essere applicate tariffe aggiuntive.
 
 ##### [!UICONTROL Peer 39] {#peer-39-fraud}
 
-**[!UICONTROL Block sites that are]:** (Facoltativo) Uno o più tipi di frode che causano il blocco predefinito degli annunci da parte di DSP: *[!UICONTROL Fraud]* (che blocca tutti i siti con frode), *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]* e/o *[!UICONTROL Fraud: Zero Ads]*. Possono essere applicate tariffe aggiuntive.
+**[!UICONTROL Block sites that are]:** (Optional) One or more types of fraud that cause DSP to block ads by default: *[!UICONTROL Fraud]* (which blocks all sites with fraud), *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*, and/or *[!UICONTROL Fraud: Zero Ads]*. Possono essere applicate tariffe aggiuntive.
 
 ##### [!UICONTROL Integral Ad Science] {#ias-fraud}
 
-**[!UICONTROL Block sites that are]:** (Facoltativo) Tipo di attività sospetta del sito Web o dell&#39;app che causa il blocco predefinito degli annunci da parte di DSP: *[!UICONTROL None]* (impostazione predefinita, che non blocca gli annunci basati su attività sospette), *[!UICONTROL Suspicious Activity - High Risk]* o *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. Possono essere applicate tariffe aggiuntive.
+**[!UICONTROL Block sites that are]:** (Optional) A type of suspicious website or app activity that causes DSP to block ads by default: *[!UICONTROL None]* (the default, which doesn&#39;t block ads based on suspicious activity), *[!UICONTROL Suspicious Activity - High Risk]*, or *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. Possono essere applicate tariffe aggiuntive.
 
 #### [!UICONTROL Pre-Bid Viewability]
 
-Filtri di visibilità pre-offerta opzionali di [!DNL DoubleVerify] e [!DNL Integral Ad Science] da applicare ai posizionamenti. I valori predefiniti a livello di inserzionista vengono selezionati per i nuovi posizionamenti. Puoi ignorare le impostazioni a livello di inserzionista al [livello di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md).
+Optional pre-bid viewability filters by [!DNL DoubleVerify] and [!DNL Integral Ad Science] to apply to placements. The advertiser-level defaults are selected for new placements. Puoi ignorare le impostazioni a livello di inserzionista al [livello di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md).
 
 ##### [!UICONTROL DoubleVerify] {#doubleverify-viewability}
 
 ###### Video
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average video viewability rate is]**. Con questa opzione, seleziona i criteri.
+** **[!UICONTROL Include URL's whose average video viewability rate is]**. With this option, select the criteria.
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
+** **[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. Con questa opzione, seleziona i criteri.
+** **[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. With this option, select the criteria.
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average player size composition is]**. Con questa opzione, seleziona i criteri.
+** **[!UICONTROL Include URL's whose average player size composition is]**. With this option, select the criteria.
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
+** **[!UICONTROL Impressions with Insufficient Player Size Statistics]**
 
 ###### Visualizzazione
 
-**&#x200B; **&#x200B;[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. Con questa opzione, seleziona i criteri.
+** **[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. With this option, select the criteria.
 
 * **[!UICONTROL Impressions with Insufficient IAB Viewability Performance Data]**
 
-* **[!UICONTROL Include Apps and URL's whose average entire creative (100% of pixels) viewable duration is]**. Con questa opzione, seleziona i criteri.
+* **[!UICONTROL Include Apps and URL's whose average entire creative (100% of pixels) viewable duration is]**. With this option, select the criteria.
 
 * **[!UICONTROL Impressions with Insufficient BXD Performance Data]**
 
 ##### [!UICONTROL Integral Ad Science] {#ias-viewability}
 
-Un filtro **[!UICONTROL Video Viewability Targets]** facoltativo e un filtro **[!UICONTROL Display Viewability Targets]** facoltativo. Possono essere applicate tariffe aggiuntive.
+An optional **[!UICONTROL Video Viewability Targets]** filter and an optional **[!UICONTROL Display Viewability Targets]** filter. Possono essere applicate tariffe aggiuntive.
 
 #### [!UICONTROL Ads.text]
 

@@ -4,15 +4,12 @@ description: Scopri come accedere.
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
 TQID: https://experienceleague.adobe.com/kkgk8VMLaF3phB1rVzMoxdOkgPWWk-fTqs8U2aGPJxw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 363
+source-wordcount: 389
 ht-degree: 0%
 
 ---
@@ -21,7 +18,7 @@ ht-degree: 0%
 
 Search, Social e Commerce stanno passando ad Adobe Identity Management Service (IMS) per l’autenticazione degli accessi. IMS fornisce l&#39;accesso Single Sign-On (SSO) utilizzando Federated ID a tutti i prodotti [!DNL Adobe] che supportano IMS, inclusi Real-Time Customer Data Platform, Customer Journey Analytics, Target e Analytics. Con la modifica:
 
-* È possibile utilizzare un [!DNL Adobe ID] per accedere ai diversi prodotti di [!DNL Adobe] dalla pagina di accesso di Experience Cloud o dalla pagina di accesso legacy di Search, Social e Commerce. [!DNL Adobe ID] consente di gestire il profilo utente e di passare a un altro prodotto [!DNL Adobe] dal menu principale. In una versione futura, potrai modificare l’account Search, Social, &amp; Commerce e l’account organizzazione IMS dal menu principale.
+* È possibile utilizzare un [!DNL Adobe ID] per accedere ai diversi prodotti di [!DNL Adobe] dalla pagina di accesso di CX Enterprise o dalla pagina di accesso legacy di Search, Social e Commerce. [!DNL Adobe ID] consente di gestire il profilo utente e di passare a un altro prodotto [!DNL Adobe] dal menu principale. In una versione futura, potrai modificare l’account Search, Social, &amp; Commerce e l’account organizzazione IMS dal menu principale.
 
 * L&#39;autenticazione Enterprise è supportata.
 
@@ -29,7 +26,7 @@ Search, Social e Commerce stanno passando ad Adobe Identity Management Service (
 
 Le credenziali correnti di Ricerca, Social e Commerce rimarranno attive per un breve periodo di tempo, in modo da poterti preparare alla modifica.
 
-Per ulteriori informazioni sull&#39;interfaccia di Experience Cloud, inclusa la gestione del profilo utente, vedere &quot;[Interfaccia e amministrazione di Experience Cloud](https://experienceleague.adobe.com/it/docs/core-services/interface/experience-cloud).&quot;
+Per ulteriori informazioni sull&#39;interfaccia di CX Enterprise, inclusa la gestione del profilo utente, vedere &quot;[Interfaccia e amministrazione di CX Enterprise](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud).&quot;
 
 ## Accedi dalla pagina legacy di accesso a Ricerca, Social e Commerce
 
@@ -47,13 +44,13 @@ Questa opzione è disponibile per un breve periodo di tempo, in modo da poterti 
 
 1. Immetti l&#39;ID [!DNL Adobe] e fai clic su **[!UICONTROL Continue]**.
 
-1. Se richiesto, selezionare **[!UICONTROL Personal Account]&quot; o &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+1. Se richiesto, selezionare **[!UICONTROL Personal Account]&quot; o **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
    Per impostazione predefinita, viene aperta la nuova interfaccia utente.
 
 1. Se hai accesso a più organizzazioni IMS, seleziona l’organizzazione corretta in alto a destra della pagina.
 
-## Accedi da Adobe Experience Cloud utilizzando [!DNL Adobe ID]
+## Accedi da Adobe CX Enterprise utilizzando [!DNL Adobe ID]
 
 <!-- Later, give them the new direct URL(s) to our UI so they don't have to select the product. -->
 
@@ -61,7 +58,7 @@ Questa opzione è disponibile per un breve periodo di tempo, in modo da poterti 
 
 1. Immetti il tuo ID [!DNL Adobe] e fai clic su **[!UICONTROL Continue]**.
 
-1. Se richiesto, selezionare **[!UICONTROL Personal Account]&quot; o &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+1. Se richiesto, selezionare **[!UICONTROL Personal Account]&quot; o **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
 1. Nella sezione [!UICONTROL Quick Access] della home page, fare clic su **[!UICONTROL Advertising Search, Social, & Commerce]**.
 

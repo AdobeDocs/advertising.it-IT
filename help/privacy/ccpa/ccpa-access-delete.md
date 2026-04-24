@@ -5,19 +5,13 @@ feature: CCPA
 role: User, Developer
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
 TQID: https://experienceleague.adobe.com/g7Klc5k3qEPYDKIbTmsQcnklUPVvbN6qqhXaHCHvn3A
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 1041
+source-wordcount: 1111
 ht-degree: 0%
 
 ---
@@ -32,7 +26,7 @@ ht-degree: 0%
 
 Il California Consumer Privacy Act (CCPA) è la nuova legge sulla privacy della California, in vigore dal 1° gennaio 2020. Il CCPA conferisce ai residenti della California nuovi diritti in merito alle loro informazioni personali e impone responsabilità in materia di protezione dei dati a determinate entità che conducono attività commerciali in California. Il CCPA garantisce ai consumatori il diritto di accedere ai propri dati personali e di cancellarli, nonché il diritto di non partecipare a determinate attività che possono essere considerate di &quot;vendita&quot; di informazioni personali a terzi.
 
-In qualità di azienda, potrai determinare i dati personali che Adobe Experience Cloud tratta e archivia per tuo conto.
+In qualità di azienda, potrai determinare i dati personali che Adobe CX Enterprise tratta e archivia per tuo conto.
 
 In qualità di fornitore di servizi, Adobe Advertising fornisce supporto alla tua azienda per l’adempimento dei suoi obblighi in virtù del CCPA applicabili all’utilizzo dei prodotti e servizi Adobe Advertising, inclusa la gestione delle richieste di accesso e cancellazione delle informazioni personali e la gestione delle richieste di rinuncia alla vendita di tali informazioni.
 
@@ -54,11 +48,11 @@ Adobe Experience Platform consente alle aziende di completare le seguenti attivi
 
 Per richiedere l’accesso e la cancellazione delle informazioni personali dei consumatori da Adobe Advertising, è necessario:
 
-1. Implementa una libreria JavaScript per recuperare e rimuovere i cookie del cliente. La stessa libreria, `AdobePrivacy.js`, viene utilizzata per tutte le soluzioni Adobe Experience Cloud.
+1. Implementa una libreria JavaScript per recuperare e rimuovere i cookie del cliente. La stessa libreria, `AdobePrivacy.js`, viene utilizzata per tutte le soluzioni Adobe CX Enterprise.
 
    >[!IMPORTANT]
    >
-   >Le richieste ad alcune soluzioni Experience Cloud non richiedono la libreria JavaScript, ma le richieste ad Adobe Advertising lo richiedono.
+   >Le richieste ad alcune soluzioni CX Enterprise non richiedono la libreria JavaScript, ma le richieste ad Adobe Advertising lo richiedono.
 
    Devi distribuire la libreria sulla pagina web da cui i clienti possono inviare richieste di accesso ed eliminazione, come ad esempio il portale della privacy della tua azienda. La libreria consente di recuperare i cookie di Adobe (ID spazio dei nomi: `gsurferID`) in modo da poter inviare queste identità come parte delle richieste di accesso ed eliminazione tramite [!DNL Adobe Experience Platform Privacy Service API].
 
@@ -68,17 +62,17 @@ Per richiedere l’accesso e la cancellazione delle informazioni personali dei c
    >
    >L’eliminazione dei dati personali è diversa dalla rinuncia, che interrompe il targeting di un utente finale con segmenti di pubblico. Tuttavia, quando un consumatore richiede di eliminare i dati personali da [!DNL Creative], [!DNL DSP] o [!DNL DCO], la libreria invia anche una richiesta ad Adobe Advertising per negare al cliente il targeting dei segmenti. Per gli inserzionisti con [!DNL Search, Social, & Commerce], ti consigliamo di fornire ai clienti un collegamento a [https://www.adobe.com/privacy/opt-out.html#customeruse](https://www.adobe.com/privacy/opt-out.html#customeruse), che spiega come rinunciare al targeting dei segmenti di pubblico.
 
-1. Identifica il tuo ID organizzazione Experience Cloud e assicurati che sia collegato al tuo account Adobe Advertising.
+1. Identifica l’ID organizzazione CX Enterprise e assicurati che sia collegato ai tuoi account Adobe Advertising.
 
-   Un ID organizzazione Experience Cloud è una stringa alfanumerica composta da 24 caratteri a cui segue &quot;@AdobeOrg.&quot; Alla maggior parte dei clienti Experience Cloud è stato assegnato un ID organizzazione. Se il team marketing o l&#39;amministratore di sistema interno di [!DNL Adobe] non conosce l&#39;ID organizzazione o non è sicuro che sia stato eseguito il provisioning, contatta il team dell&#39;account Adobe. Per inviare richieste all&#39;API per la privacy utilizzando lo spazio dei nomi `imsOrgID` è necessario l&#39;ID organizzazione.
+   Un ID organizzazione CX Enterprise è una stringa alfanumerica composta da 24 caratteri a cui segue &quot;@AdobeOrg.&quot; Alla maggior parte dei clienti CX Enterprise è stato assegnato un ID organizzazione. Se il team marketing o l&#39;amministratore di sistema interno di [!DNL Adobe] non conosce l&#39;ID organizzazione o non è sicuro che sia stato eseguito il provisioning, contatta il team dell&#39;account Adobe. Per inviare richieste all&#39;API per la privacy utilizzando lo spazio dei nomi `imsOrgID` è necessario l&#39;ID organizzazione.
 
    >[!IMPORTANT]
    >
-   >Contatta il rappresentante Adobe Advertising della tua azienda per verificare che tutti gli account Adobe Advertising della tua organizzazione, inclusi [!DNL DSP] account o inserzionisti, [!DNL Search, Social, & Commerce] account e [!DNL Creative] o [!DNL DCO] account, siano collegati al tuo ID organizzazione Experience Cloud.
+   >Contatta il rappresentante Adobe Advertising della tua azienda per verificare che tutti gli account Adobe Advertising della tua organizzazione, inclusi [!DNL DSP] account o inserzionisti, [!DNL Search, Social, & Commerce] account e [!DNL Creative] o [!DNL DCO] account, siano collegati al tuo ID organizzazione CX Enterprise.
 
-1. Utilizza l&#39;[API Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=it) (per le richieste automatizzate) o la [interfaccia utente Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it) (per le richieste ad hoc) per inviare richieste di accesso ed eliminazione di informazioni personali ad Adobe Advertising per conto dei consumatori e per controllare lo stato delle richieste esistenti.
+1. Utilizza l&#39;[API Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (per le richieste automatizzate) o la [interfaccia utente Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it) (per le richieste ad hoc) per inviare richieste di accesso ed eliminazione di informazioni personali ad Adobe Advertising per conto dei consumatori e per controllare lo stato delle richieste esistenti.
 
-   Per gli inserzionisti che dispongono di un&#39;app mobile per interagire con i clienti e avviare campagne con [!DNL DSP], è necessario scaricare gli SDK per dispositivi mobili predisposti per la privacy per Experience Cloud. Gli SDK di Mobile consentono alle aziende di impostare flag di stato per la rinuncia, recuperare l&#39;ID dispositivo del consumatore (ID spazio dei nomi: `deviceID`) e inviare richieste all&#39;API Privacy Service. La tua app mobile richiederà una versione di SDK 4.15.0 o successiva.
+   Per gli inserzionisti che dispongono di un&#39;app mobile per interagire con i clienti e avviare campagne con [!DNL DSP], è necessario scaricare gli SDK per dispositivi mobili predisposti per la privacy per CX Enterprise. Gli SDK di Mobile consentono alle aziende di impostare flag di stato per la rinuncia, recuperare l&#39;ID dispositivo del consumatore (ID spazio dei nomi: `deviceID`) e inviare richieste all&#39;API Privacy Service. La tua app mobile richiederà una versione di SDK 4.15.0 o successiva.
 
    Quando invii una richiesta di accesso del consumatore, l’API di Privacy Service restituisce le informazioni di un consumatore in base al cookie o all’ID dispositivo specificato, che devono quindi essere restituiti al consumatore.
 
@@ -86,34 +80,34 @@ Per richiedere l’accesso e la cancellazione delle informazioni personali dei c
 
    >[!NOTE]
    >
-   >Se la tua azienda dispone di più ID organizzazione Experience Cloud, devi inviare richieste API separate per ciascuno di essi. È tuttavia possibile effettuare una richiesta API a più soluzioni secondarie di Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] e [!DNL DCO]), con un account per ogni soluzione secondaria.
+   >Se la tua azienda dispone di più ID organizzazione CX Enterprise, devi inviare richieste API separate per ciascuno di essi. È tuttavia possibile effettuare una richiesta API a più soluzioni secondarie di Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] e [!DNL DCO]), con un account per ogni soluzione secondaria.
 
-Per ricevere supporto da Adobe Advertising, sono necessari tutti i passaggi necessari. Per ulteriori informazioni su queste e altre attività correlate che è necessario eseguire utilizzando Adobe Experience Platform Privacy Service e dove trovare gli elementi necessari, vedere [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it).
+All steps are necessary to receive support from Adobe Advertising. Per ulteriori informazioni su queste e altre attività correlate che è necessario eseguire utilizzando Adobe Experience Platform Privacy Service e dove trovare gli elementi necessari, vedere [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
 ## Valori campo obbligatori nelle richieste JSON di Adobe Advertising
 
 `"company context":`
 
 * `"namespace": **imsOrgID**`
-* `"value":` &lt;*ID organizzazione Experience Cloud*>
+* `"value":` &lt;*ID organizzazione CX Enterprise*>
 
-&quot;users&quot; (utenti):
+&quot;users&quot;:
 
-* `"key":` &lt;*in genere il nome del cliente*>
+* `"key":` &lt;*usually the name of the customer*>
 
 * `"action":` `**access**` o `**delete**`
 
 * `"user IDs":`
 
-   * `"namespace": **411**` (che indica lo [[!DNL AdCloud] spazio cookie](https://experienceleague.adobe.com/it/docs/experience-platform/privacy/api/appendix))
+   * `"namespace": **411**` (which indicates the [[!DNL AdCloud] cookie space](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix))
 
-   * `"value":` &lt;*valore ID cookie del cliente effettivo recuperato da`AdobePrivacy.js`*>
+   * `"value":` &lt;*the actual customer’s cookie ID value as retrieved from`AdobePrivacy.js`*>
 
-* `"include": **adCloud**` (che è il [[!DNL Adobe] prodotto](https://experienceleague.adobe.com/it/docs/experience-platform/privacy/api/appendix) che si applica alla richiesta)
+* `"include": **adCloud**` (which is the [[!DNL Adobe] product](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix) that applies to the request)
 
 * `"regulation": **ccpa**` (normativa sulla privacy applicabile alla richiesta)
 
-## Esempio di richiesta inviata da un consumatore utilizzando un ID utente di Adobe Advertising recuperato da AdobePrivacy.js
+## Example of request submitted by a consumer using an Adobe Advertising user ID retrieved from AdobePrivacy.js
 
 ```
 {
@@ -146,7 +140,7 @@ Per ricevere supporto da Adobe Advertising, sono necessari tutti i passaggi nece
 
 ## Campi dati restituiti per le richieste di accesso
 
-Di seguito è riportato un esempio di risposta di accesso alle informazioni personali per Adobe Advertising.
+The following is an example of a personal information access response for Adobe Advertising.
 
 ```
 {
