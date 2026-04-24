@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # (Nuova interfaccia utente) Amministrazione utenti per Search, Social &amp; Commerce
 
-Alcuni utenti possono gestire l&#39;accesso alla nuova interfaccia utente di Search, Social e Commerce utilizzando [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html), che è la posizione centrale per la gestione di tutte le adesioni e la gestione degli utenti di Adobe. Gli utenti sono classificati come utenti finali o amministratori. Il team del tuo account Adobe ti invierà una notifica se sei un amministratore. Se sei un amministratore, consulta le sezioni seguenti per identificare le autorizzazioni e i flussi di lavoro per la gestione degli utenti.
+Alcuni utenti possono gestire l&#39;accesso alla nuova interfaccia utente di Search, Social e Commerce utilizzando [Adobe Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html), che è la posizione centrale per la gestione di tutte le adesioni e la gestione degli utenti di Adobe. Gli utenti sono classificati come utenti finali o amministratori. Il team del tuo account Adobe ti invierà una notifica se sei un amministratore. Se sei un amministratore, consulta le sezioni seguenti per identificare le autorizzazioni e i flussi di lavoro per la gestione degli utenti.
 
 ## Tipi di amministratori
 
@@ -120,9 +120,9 @@ Segui questo flusso di lavoro per ogni istanza client di Search, Social e Commer
 
 1. [Accedi a Adobe Admin Console e aprilo in Search, Social e Commerce](#open-admin-console).
 
-1. (Facoltativo) [Aggiungere un altro amministratore di sistema](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise) come backup.
+1. (Facoltativo) [Aggiungere un altro amministratore di sistema](https://helpx.adobe.com/it/enterprise/using/admin-roles.html#enterprise) come backup.
 
-1. Delega la gestione di prodotti e utenti [aggiungendo amministratori di prodotti](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise).
+1. Delega la gestione di prodotti e utenti [aggiungendo amministratori di prodotti](https://helpx.adobe.com/it/enterprise/using/admin-roles.html#enterprise).
 
 ### Flusso di lavoro per gli amministratori di prodotto
 
@@ -130,9 +130,9 @@ Segui questo flusso di lavoro per ogni istanza client di Search, Social e Commer
 
 1. [Accedi a Adobe Admin Console e aprilo in Search, Social e Commerce](#open-admin-console).
 
-1. As needed, create end users [individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or [in bulk](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
+1. As needed, create end users [individually](https://helpx.adobe.com/it/enterprise/using/manage-users-individually.html) or [in bulk](https://helpx.adobe.com/it/enterprise/using/bulk-upload-users.html).
 
-1. (Optional) Create [user groups](https://helpx.adobe.com/enterprise/using/user-groups.html) for the instance and assign users to each user group.
+1. (Optional) Create [user groups](https://helpx.adobe.com/it/enterprise/using/user-groups.html) for the instance and assign users to each user group.
 
    If the instance has many users, create user groups to ensure that users are assigned the right profiles based on their level of expertise. (See Step 4 for assigning user groups to product profiles.) You can create user groups based on the line of business, user access needs, user hire date, or other criteria.
 
@@ -140,7 +140,7 @@ Segui questo flusso di lavoro per ogni istanza client di Search, Social e Commer
    >
    >User group names should clearly communicate the rights that the group of users should be assigned. For example, if you want to create a user group with “Read Only” rights, include “Read Only” in the user group name, such as &quot;Acme_Uk_ReadOnly&quot; or &quot;Acme_ReadOnly.&quot;
 
-1. (Optional) [Create custom product profiles](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) with defined permission sets.
+1. (Optional) [Create custom product profiles](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html) with defined permission sets.
 
    Custom profiles are in addition to the four default product profiles that are already available.
 
@@ -148,10 +148,10 @@ Segui questo flusso di lavoro per ogni istanza client di Search, Social e Commer
 
    **Caution:** Product permissions are very granular. Be careful when you configure custom product profiles or you may omit functionality that you want to include.
 
-1. [Assign each user or user group to the relevant product profile](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) manually or in bulk.
+1. [Assign each user or user group to the relevant product profile](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html) manually or in bulk.
 
 ## Complete user administration guide and additional links
 
-* For more information about user administration using Adobe Admin Console, see &quot;[Adobe Enterprise &amp; Teams Administration Guide](https://helpx.adobe.com/enterprise/admin-guide.html),&quot; including the [Admin Console overview](https://helpx.adobe.com/enterprise/using/admin-console.html).
+* For more information about user administration using Adobe Admin Console, see &quot;[Adobe Enterprise &amp; Teams Administration Guide](https://helpx.adobe.com/it/enterprise/admin-guide.html),&quot; including the [Admin Console overview](https://helpx.adobe.com/it/enterprise/using/admin-console.html).
 
 * Admin Console: [https://adminconsole.adobe.com](https://adminconsole.adobe.com)

@@ -76,7 +76,7 @@ Per richiedere l’accesso e la cancellazione delle informazioni personali dei c
    >
    >Contatta il rappresentante Adobe Advertising della tua azienda per verificare che tutti gli account Adobe Advertising della tua organizzazione, inclusi [!DNL DSP] account o inserzionisti, [!DNL Search, Social, & Commerce] account e [!DNL Creative] o [!DNL DCO] account, siano collegati al tuo ID organizzazione CX Enterprise.
 
-1. Utilizza l&#39;[API Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (per le richieste automatizzate) o la [interfaccia utente Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it) (per le richieste ad hoc) per inviare richieste di accesso ed eliminazione di informazioni personali ad Adobe Advertising per conto dei consumatori e per controllare lo stato delle richieste esistenti.
+1. Utilizza l&#39;[API Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=it) (per le richieste automatizzate) o la [interfaccia utente Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it) (per le richieste ad hoc) per inviare richieste di accesso ed eliminazione di informazioni personali ad Adobe Advertising per conto dei consumatori e per controllare lo stato delle richieste esistenti.
 
    Per gli inserzionisti che dispongono di un&#39;app mobile per interagire con i clienti e avviare campagne con [!DNL DSP], è necessario scaricare gli SDK per dispositivi mobili predisposti per la privacy per CX Enterprise. Gli SDK di Mobile consentono alle aziende di impostare flag di stato per la rinuncia, recuperare l&#39;ID dispositivo del consumatore (ID spazio dei nomi: `deviceID`) e inviare richieste all&#39;API Privacy Service. La tua app mobile richiederà una versione di SDK 4.15.0 o successiva.
 
@@ -88,7 +88,7 @@ Per richiedere l’accesso e la cancellazione delle informazioni personali dei c
    >
    >Se la tua azienda dispone di più ID organizzazione CX Enterprise, devi inviare richieste API separate per ciascuno di essi. È tuttavia possibile effettuare una richiesta API a più soluzioni secondarie di Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] e [!DNL DCO]), con un account per ogni soluzione secondaria.
 
-All steps are necessary to receive support from Adobe Advertising. Per ulteriori informazioni su queste e altre attività correlate che è necessario eseguire utilizzando Adobe Experience Platform Privacy Service e dove trovare gli elementi necessari, vedere [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
+All steps are necessary to receive support from Adobe Advertising. Per ulteriori informazioni su queste e altre attività correlate che è necessario eseguire utilizzando Adobe Experience Platform Privacy Service e dove trovare gli elementi necessari, vedere [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it).
 
 ## Valori campo obbligatori nelle richieste JSON di Adobe Advertising
 
@@ -105,11 +105,11 @@ All steps are necessary to receive support from Adobe Advertising. Per ulteriori
 
 * `"user IDs":`
 
-   * `"namespace": **411**` (which indicates the [[!DNL AdCloud] cookie space](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix))
+   * `"namespace": **411**` (which indicates the [[!DNL AdCloud] cookie space](https://experienceleague.adobe.com/it/docs/experience-platform/privacy/api/appendix))
 
    * `"value":` &lt;*the actual customer’s cookie ID value as retrieved from`AdobePrivacy.js`*>
 
-* `"include": **adCloud**` (which is the [[!DNL Adobe] product](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix) that applies to the request)
+* `"include": **adCloud**` (which is the [[!DNL Adobe] product](https://experienceleague.adobe.com/it/docs/experience-platform/privacy/api/appendix) that applies to the request)
 
 * `"regulation": **ccpa**` (normativa sulla privacy applicabile alla richiesta)
 
