@@ -4,20 +4,14 @@ description: Consulta le descrizioni delle impostazioni del rapporto Personalizz
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
 TQID: https://experienceleague.adobe.com/4b95Ua1HlD3KnjH0A4ZWIxvFAouU3bxJWrVysM5xnUU
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9c0a1de4a3514cbb28856250b76e79e1b7913963
 workflow-type: tm+mt
-source-wordcount: 1526
+source-wordcount: 1535
 ht-degree: 0%
 
 ---
@@ -74,7 +68,7 @@ Questa sezione determina le date di esecuzione del rapporto. Per impostare le da
 
 ## [!UICONTROL Apply Filters] sezione
 
-**[!UICONTROL Filter by]:** (facoltativo) dimensioni aggiuntive in base alle quali filtrare i dati, indipendentemente dal fatto che le dimensioni siano incluse o meno come colonne nel report. I filtri disponibili variano in base al tipo di report e possono includere: *[!UICONTROL Account]*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, *[!UICONTROL Deal]*, *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]* e *[!UICONTROL Video Duration]*.
+**[!UICONTROL Filter by]:** (facoltativo) dimensioni aggiuntive in base alle quali filtrare i dati, indipendentemente dal fatto che le dimensioni siano incluse o meno come colonne nel report. I filtri disponibili variano in base al tipo di report e possono includere: *[!UICONTROL Account]*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, *[!UICONTROL Deal]*, *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Traffic Type]*, *[!UICONTROL Video]* e *[!UICONTROL Video Duration]*.
 
 <!--
  Add when available:
@@ -196,7 +190,7 @@ Vedi anche &quot;[Modalità di calcolo delle regole di attribuzione per Adobe Ad
 
 * *[!UICONTROL FTP]:* Per inviare il report completato a uno o più percorsi FTP, che è necessario selezionare nel campo **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (attualmente in Beta):* Per inviare il report completato a uno o più percorsi SSL FTP, che è necessario selezionare nel campo **[!UICONTROL Destination Name]**.
+* *[!UICONTROL FTP SSL](attualmente in Beta):* Per inviare il report completato a uno o più percorsi SSL FTP, che è necessario selezionare nel campo **[!UICONTROL Destination Name]**.
 
 * *[!UICONTROL Email]:* Specificare gli indirizzi e-mail a cui inviare i report completati o le notifiche se il report viene annullato a causa di errori.
 
