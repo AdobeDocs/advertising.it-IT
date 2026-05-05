@@ -12,9 +12,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 0f74bf7a3cb3a5e56df31ea36ef181c08a0f3aca
 workflow-type: tm+mt
-source-wordcount: 279
+source-wordcount: 280
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Le metriche di [conversione](/help/search-social-commerce/glossary.md#c-d) di cu
 
 * In Search, Social e Commerce puoi utilizzare le metriche di conversione per creare obiettivi, utilizzati per ottimizzare i portfolio. Inoltre, i dati per le metriche di conversione possono essere visualizzati in colonne nelle viste gestione campagne e portfolio e nei rapporti.
 
-* In Advertising DSP puoi utilizzare le metriche di conversione per creare [obiettivi personalizzati](/help/dsp/optimization/custom-goal.md), utilizzati per ottimizzare i pacchetti.
+* In Advertising DSP è possibile utilizzare le metriche di conversione per [creare obiettivi personalizzati](/help/dsp/admin/custom-objectives-manage.md), utilizzati per ottimizzare i pacchetti.
 
 Per impostazione predefinita, nessuna delle metriche di conversione di un inserzionista, ad eccezione delle conversioni monitorate da [!DNL Google Ads], [!DNL Google Analytics] e [!DNL Microsoft Advertising] tag di tracciamento eventi universali, è disponibile per le visualizzazioni e i rapporti di gestione delle campagne e dei portfolio. Sono disponibili solo quando li rendi disponibili in modo specifico e includi un nome visualizzato, che è il nome visualizzato. Quando rendi disponibile una metrica di conversione, puoi utilizzare il nome della metrica esattamente come viene digitato nei dati recuperati oppure modificare il nome visualizzato nelle intestazioni di colonna per migliorarne la leggibilità.
 

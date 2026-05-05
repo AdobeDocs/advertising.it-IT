@@ -1,6 +1,6 @@
 ---
-title: Obiettivi personalizzati
-description: Scopri gli obiettivi personalizzati per definire gli eventi di successo in pacchetti ottimizzati per il CPA più basso o il ROAS più alto.
+title: Best practice per gli obiettivi personalizzati
+description: Scopri le best practice per la definizione di obiettivi personalizzati per pacchetti ottimizzati per il CPA più basso o il ROAS più alto.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
 TQID: https://experienceleague.adobe.com/xSM4vyVErtNbVqF3eMDeHpgEWaMK6hBwQpvijHEs0dc
@@ -16,16 +16,16 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
 workflow-type: tm+mt
-source-wordcount: 1207
+source-wordcount: 700
 ht-degree: 0%
 
 ---
 
-# Obiettivi personalizzati
+# Best practice per gli obiettivi personalizzati
 
-Gli obiettivi personalizzati definiscono gli eventi di successo necessari a un inserzionista per raggiungere i suoi obiettivi aziendali. Ogni pacchetto che utilizza l&#39;obiettivo di ottimizzazione &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] o &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; deve includere un obiettivo personalizzato per consentire il raggiungimento dell&#39;obiettivo di ottimizzazione complessivo. Puoi creare obiettivi personalizzati come *obiettivi* in [!DNL Advertising Search, Social, & Commerce]. Il nome di ciascun obiettivo per DSP deve essere preceduto dal prefisso &quot;ADSP_&quot;.
+Gli obiettivi personalizzati definiscono gli eventi di successo necessari a un inserzionista per raggiungere i suoi obiettivi aziendali. Ogni pacchetto che utilizza l&#39;obiettivo di ottimizzazione &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] o &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; deve includere un obiettivo personalizzato per consentire il raggiungimento dell&#39;obiettivo di ottimizzazione complessivo. Puoi creare obiettivi personalizzati come *[obiettivi personalizzati](/help/dsp/admin/custom-objectives-manage.md)*.
 
 <!--
  update image or omit it
@@ -33,64 +33,17 @@ Gli obiettivi personalizzati definiscono gli eventi di successo necessari a un i
 ![custom goals](/help/dsp/assets/objective-goals.png)
  -->
 
-Ogni obiettivo personalizzato (obiettivo) è costituito da una o più metriche di conversione e dai relativi pesi di tali metriche. Le metriche di conversione disponibili includono tutte le metriche tracciate utilizzando il pixel di conversione di Adobe Advertising e tramite Adobe Analytics. Per gli obiettivi personalizzati di DSP vengono considerati solo i pesi non mobili, ma vengono utilizzati per tutti i tipi di annunci.
+Ogni obiettivo personalizzato (obiettivo) è costituito da una o più metriche di conversione da tracciare e ottimizzare, con i relativi pesi di tali metriche. È possibile [assegnare un obiettivo personalizzato a un pacchetto](/help/dsp/campaign-management/packages/package-settings.md) per il reporting e l&#39;ottimizzazione algoritmica utilizzando [!DNL Adobe AI].
 
-Ad esempio, supponiamo che tre metriche di conversione siano rilevanti per un pacchetto specifico in una delle tue campagne: &quot;Download PDF&quot; con valore 20 USD, &quot;Registrazione e-mail&quot; con valore 30 USD e &quot;Conferma ordine&quot; con valore 40 USD. Se vuoi attribuire un peso in base al valore monetario una tantum dell’azione del cliente, i pesi relativi delle metriche sono 1, 1,5 e 2.
+Per creare e gestire obiettivi personalizzati, vedere &quot;[Gestione obiettivi personalizzati](/help/dsp/admin/custom-objectives-manage.md).&quot;
 
-Dopo aver [creato un obiettivo personalizzato](#custom-goal-create), puoi [assegnarlo a un pacchetto](/help/dsp/campaign-management/packages/package-settings.md) per la generazione di rapporti e l&#39;ottimizzazione algoritmica utilizzando [!DNL Adobe AI].
-
-I consigli sul peso vengono generati automaticamente per le metriche attribuite a DSP negli obiettivi e possono essere applicati con un solo clic. Tutte le modifiche di rilevanza agli obiettivi con prefisso &quot;ADSP_&quot; vengono applicate algoritmicamente in DSP entro due giorni. Per ulteriori informazioni sui consigli sul peso, consulta il capitolo della Guida all’ottimizzazione intitolato &quot;Obiettivi&quot;, disponibile in Search, Social &amp; Commerce.
-
-## Creare un obiettivo personalizzato {#custom-goal-create}
-
-Per creare un obiettivo personalizzato, l&#39;account DSP deve essere collegato a un account [!DNL Search, Social, & Commerce] con lo stesso ID organizzazione Adobe CX Enterprise, dalle impostazioni client [!DNL Search, Social, & Commerce]. Se il tuo account DSP non è collegato a un account [!DNL Search, Social, & Commerce], contatta il team del tuo account Adobe.
-
-1. [Accedi a Advertising Search, Social e Commerce](/help/search-social-commerce/getting-started/sign-in.md){target="_blank"}.
-
-1. Assicurati che le metriche da includere nell’obiettivo siano state tracciate, siano disponibili nel prodotto e includano un nome visualizzato:
-
-   1. Nel menu principale, fare clic su **[!UICONTROL Goals]** > **[!UICONTROL Conversions]**.
-
-      La vista Conversioni si apre in un nuovo browser o scheda del browser.
-
-   1. Individuare la metrica e verificare che **[!UICONTROL Show in UI and Reports]** sia abilitato per la metrica.
-
-      >[!NOTE]
-      >
-      >* [!DNL Analytics] eventi personalizzati seguono questa convenzione di denominazione: `custom_event_[*event #*]_[*Analytics report suite ID*]`. Esempio: `custom_event_16_examplersid`
-
-   1. Se la metrica non ha un valore nella colonna **[!UICONTROL Display Name]**, fare clic nella cella, immettere il nome visualizzato e fare clic su **[!UICONTROL Apply].**
-
-1. [Crea l&#39;obiettivo personalizzato come *obiettivo*](/help/search-social-commerce/new-ui/goals/objectives/objective-create.md){target="_blank"}. Considera quanto segue:
-
-   * Per gli obiettivi utilizzati per i pacchetti Advertising DSP, il nome dell’obiettivo deve essere preceduto da &quot;ADSP_&quot;, ad esempio &quot;ADSP_Registrations&quot;. Il prefisso non fa distinzione tra maiuscole e minuscole.
-
-   * Includi solo le metriche attribuite a DSP. Tutte le metriche attribuite a Search, Social e Commerce o a qualsiasi altra rete di annunci vengono ignorate.
-
-   * Almeno una metrica deve avere il tipo *[!UICONTROL Goal]*.
-
-   * DSP utilizza i pesi non mobili per tutti gli annunci. Eventuali pesi dei dispositivi mobili specificati vengono ignorati.
-
-   >[!NOTE]
-   >
-   >* [!DNL Analytics] eventi personalizzati seguono questa convenzione di denominazione: `custom_event_[*event #*]_[*Analytics report suite ID*]`. Esempio: `custom_event_16_examplersid`
-   >* [!DNL Analytics] dimensioni e segmenti non sono disponibili per l&#39;ottimizzazione Adobe Advertising.
-
-   >[!TIP]
-   >
-   >Per prestazioni ottimali, le metriche combinate nell’obiettivo personalizzato (obiettivo) devono raggiungere un totale di almeno dieci conversioni al giorno. In caso contrario, la best practice prevede di aggiungere all’obiettivo ulteriori metriche di conversione di supporto, come pagine di prodotti o avvii dell’applicazione. Consulta [Best practice per la creazione di un obiettivo personalizzato](#custom-goal-best-practices) per le linee guida.
-
-Nelle impostazioni del pacchetto DSP per i pacchetti che utilizzano l&#39;obiettivo di ottimizzazione &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] o &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;, il nome dell&#39;obiettivo è ora incluso nell&#39;elenco [!UICONTROL Custom Goals]. Quando si seleziona l&#39;obiettivo come obiettivo personalizzato per un pacchetto, l&#39;elenco [!UICONTROL Conversion Metric] include tutte le metriche dell&#39;obiettivo.
-
-## Best practice per la creazione di un obiettivo personalizzato {#custom-goal-best-practices}
-
-### Obiettivi personalizzati con una singola metrica
+## Obiettivi personalizzati con una singola metrica
 
 Gli esempi seguenti mostrano come configurare obiettivi per il targeting di una singola metrica di conversione.
 
-#### Esempio per una campagna con l&#39;obiettivo di ottimizzazione &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)]&quot;
+### Esempio per una campagna con l&#39;obiettivo di ottimizzazione &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)]&quot;
 
-Se l&#39;obiettivo della campagna è il ricavo ([!UICONTROL Highest Return on Ad Spend (ROAS)]) e il ricavo da tutti i tipi di dispositivi è ugualmente importante per te, includi la metrica &quot;[!UICONTROL Revenue]&quot; con un peso non mobile di uno (1); il peso del dispositivo mobile viene ignorato. Selezionare il tipo di metrica *[!UICONTROL Goal]*.
+Se l&#39;obiettivo della campagna è il ricavo ([!UICONTROL Highest Return on Ad Spend (ROAS)]) e il ricavo da tutti i tipi di dispositivi è altrettanto importante, includere la metrica &quot;[!UICONTROL Revenue]&quot; con un peso di uno (1). Selezionare il tipo di metrica *[!UICONTROL Goal]*.
 
 <!--
  update image or delete 
@@ -101,11 +54,11 @@ Se l&#39;obiettivo della campagna è il ricavo ([!UICONTROL Highest Return on Ad
 
 >[!NOTE]
 >
-> Un peso non mobile di uno (1) equivale a un valore di uno (1) per ogni $ 1 di ricavo tracciato per gli annunci display su qualsiasi dispositivo. Ad esempio, una conversione da 250 $ con un peso non mobile di uno (1) viene segnalata come 250 $ per le conversioni. Se alla metrica di conversione viene assegnato un peso non mobile di 0,5, la conversione di 250 dollari viene segnalata come 125 dollari in Adobe Advertising (conversione di 250 dollari * 0,5 [!UICONTROL Non-mobile Weight] = 125 dollari).
+> Un peso di uno (1) equivale a un valore di uno (1) per ogni $ 1 di ricavo tracciato per gli annunci display su qualsiasi dispositivo. Ad esempio, una conversione da 250 $ con un peso di uno (1) viene segnalata come 250 $ per le conversioni. Se alla metrica di conversione viene assegnato un peso di 0,5, la conversione di 250 dollari viene segnalata come 125 dollari in Adobe Advertising (conversione di 250 dollari * 0,5 [!UICONTROL weight] = 125 dollari).
 
-#### Esempio per una campagna con l&#39;obiettivo di ottimizzazione &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;
+### Esempio per una campagna con l&#39;obiettivo di ottimizzazione &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;
 
-Se l&#39;obiettivo della campagna è il costo più basso per acquisizione (CPA) e richiede un solo evento di successo (ad esempio &quot;Invio applicazione&quot;), includi quella metrica e specifica il tipo di metrica *[!UICONTROL Goal]*. La best practice prevede di impostare il peso del dispositivo non mobile su uno (1); il peso del dispositivo mobile viene ignorato.
+Se l&#39;obiettivo della campagna è il costo più basso per acquisizione (CPA) e richiede un solo evento di successo (ad esempio &quot;Invio applicazione&quot;), includi quella metrica e specifica il tipo di metrica *[!UICONTROL Goal]*. La best practice prevede di impostare il peso come uno (1).
 
 <!--
  update image or delete 
@@ -116,13 +69,13 @@ Se l&#39;obiettivo della campagna è il costo più basso per acquisizione (CPA) 
 
 >[!NOTE]
 >
-> Un peso non mobile di uno (1) equivale a un valore di uno (1) per ogni conversione tracciata per gli annunci display su qualsiasi dispositivo. Ad esempio, se vengono tracciate 10 conversioni di invio di applicazioni, vengono segnalate 10 conversioni di invio di applicazioni. Tuttavia, se alla metrica di conversione viene assegnato un peso non mobile di 0,5, le 10 conversioni vengono riportate come cinque (5) in Adobe Advertising (10 conversioni * 0,5 [!UICONTROL Non-mobile Weight] = 5).
+> Un peso di uno (1) equivale a un valore di uno (1) per ogni conversione tracciata per gli annunci display su qualsiasi dispositivo. Ad esempio, se vengono tracciate 10 conversioni di invio di applicazioni, vengono segnalate 10 conversioni di invio di applicazioni. Tuttavia, se alla metrica di conversione viene assegnato un peso di 0,5, le 10 conversioni vengono riportate come cinque (5) in Adobe Advertising (10 conversioni * 0,5 [!UICONTROL weight] = 5).
 
-### Obiettivi personalizzati con più metriche
+## Obiettivi personalizzati con più metriche
 
 Esistono due scenari in cui puoi utilizzare più metriche in un obiettivo personalizzato:
 
-* L’obiettivo della campagna prevede più eventi di successo. Ad esempio, puoi promuovere più di un’azione nel sito (Download da PDF, Contattaci e Iscrizione e-mail) e tutte le azioni contribuiscono al tuo obiettivo CPA. Se l&#39;obiettivo include le tre metriche separate, ciascuna con un peso non mobile di uno (1), l&#39;algoritmo basato su [!DNL Adobe AI] tratta ciascuna metrica e ciascun tipo di dispositivo utente con la stessa importanza. Se le diverse metriche hanno costi o importanza diversi, puoi regolare di conseguenza i loro pesi relativi.
+* L’obiettivo della campagna prevede più eventi di successo. Ad esempio, puoi promuovere più di un’azione nel sito (Download da PDF, Contattaci e Iscrizione e-mail) e tutte le azioni contribuiscono al tuo obiettivo CPA. Se l&#39;obiettivo include le tre metriche separate, ciascuna con il peso di una (1), l&#39;algoritmo basato su [!DNL Adobe AI] tratta ciascuna delle metriche e dei tipi di dispositivi utente con la stessa importanza. Se le diverse metriche hanno costi o importanza diversi, regola di conseguenza i loro pesi relativi.
 
 <!--
  update image or delete it and adjust the wording above
@@ -131,11 +84,11 @@ Esistono due scenari in cui puoi utilizzare più metriche in un obiettivo person
 
 -->
 
-* La singola metrica di conversione nell’obiettivo personalizzato non raggiunge il minimo di 10 conversioni al giorno necessarie per prestazioni ottimizzate. Ciò può verificarsi a causa di una spesa minima giornaliera per i pacchetti o di un numero limitato di conversioni naturali. L’aggiunta di metriche di supporto aggiuntive all’obiettivo personalizzato può aiutarti a raggiungere la soglia di 10 conversioni al giorno. Dieci eventi di supporto possono aiutare un pacchetto a raggiungere la soglia di 10/die, anche quando ciascuno dei loro pesi è inferiore a uno (1). Ma potresti non aver bisogno di aggiungere tanti eventi.
+* La singola metrica di conversione nell’obiettivo personalizzato non raggiunge il minimo di 10 conversioni al giorno necessarie per prestazioni ottimizzate. Un numero inferiore di conversioni può verificarsi a causa di una spesa minima giornaliera per i pacchetti o di un numero limitato di conversioni naturali. L’aggiunta di metriche di supporto aggiuntive all’obiettivo personalizzato può aiutarti a raggiungere la soglia di 10 conversioni al giorno. Dieci eventi di supporto possono aiutare un pacchetto a raggiungere la soglia di 10/die, anche quando ciascuno dei loro pesi è inferiore a uno (1). Ma potresti non aver bisogno di aggiungere tanti eventi.
 
   Quando aggiungi metriche di supporto a un obiettivo personalizzato, ponderale in base alla loro importanza relativa per l’evento di successo principale e tieni presente la quantità di punti dati. Questo consente all&#39;algoritmo basato su [!DNL Adobe AI] di bilanciare più metriche e ottimizzarle in base all&#39;obiettivo.
 
-  L’obiettivo dell’esempio seguente include tre metriche, ciascuna con un peso non mobile diverso: invio applicazione = 1, inizio applicazione = 0.1 e pagina di destinazione inserzionista = 0.01. Ciò significa che ogni conversione Invio applicazione ha lo stesso valore per la tua azienda come media di 10 conversioni di Avvio applicazione e 100 conversioni di Pagina di destinazione inserzionista.
+  L’obiettivo dell’esempio seguente include tre metriche, ciascuna con un peso diverso: Invio applicazione = 1, Inizio applicazione = 0.1 e Pagina di destinazione inserzionista = 0.01. Ciò significa che ogni conversione Invio applicazione ha lo stesso valore per la tua azienda come media di 10 conversioni di Avvio applicazione e 100 conversioni di Pagina di destinazione inserzionista.
 
 <!--
  update image or delete it and adjust the wording above
@@ -144,10 +97,11 @@ Esistono due scenari in cui puoi utilizzare più metriche in un obiettivo person
 
 -->
 
-Se invece le visite della pagina di destinazione vengono ponderate allo stesso modo degli invii di applicazioni, la quantità naturalmente maggiore di visite alla pagina di destinazione potrebbe superare l&#39;obiettivo e distorcere le visite alla pagina di destinazione.<!--reword-->
+Se, invece, hai ponderato le visite della pagina di destinazione allo stesso modo degli invii di applicazioni, allora la quantità naturalmente più elevata di visite della pagina di destinazione potrebbe sopraffare l’obiettivo e distorcere l’ottimizzazione verso le visite della pagina di destinazione.
 
 >[!MORELIKETHIS]
 >
+>* [Gestisci obiettivi personalizzati](/help/dsp/admin/custom-objectives-manage.md)
 >* [Obiettivi di ottimizzazione e modalità di utilizzo](optimization-goals.md)
 >* [Impostazioni pacchetto](/help/dsp/campaign-management/packages/package-settings.md)
-> * [Come DSP ottimizza le campagne](optimization-how-dsp-optimizes-campaigns.md)
+>* [Come DSP ottimizza le campagne](optimization-how-dsp-optimizes-campaigns.md)

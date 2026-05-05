@@ -16,9 +16,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+source-git-commit: 67835b7b70333a81572355b4fed794341cd4ff36
 workflow-type: tm+mt
-source-wordcount: 1792
+source-wordcount: 1814
 ht-degree: 0%
 
 ---
@@ -28,6 +28,10 @@ ht-degree: 0%
 *funzionalità Beta*
 
 Per visualizzare i dati di Advertising Cloud in Customer Journey Analytics sono necessarie le seguenti attività.
+
+>[!PREREQUISITES]
+>
+>Quando questa funzione è in modalità beta, chiedi al team del tuo account Adobe di fornire all&#39;account dell&#39;inserzionista l&#39;accesso al servizio `Adobe Advertising`.
 
 1. (Web Analyst della tua organizzazione; facoltativo) [Raccogli dati storici per gli AMO ID e gli EF ID](/help/integrations/analytics/rvars-to-evars.md){target="_blank"}.
 
@@ -63,7 +67,7 @@ Per impostare la raccolta dati in Experience Platform e implementare i tag di tr
 
    * Scegliere l&#39;opzione per **[!UICONTROL Create dataset from schema]** e selezionare lo schema.
 
-     Adobe Advertising crea set di dati aggiuntivi per i dati delle metriche di riepilogo correlate (come i valori di conversione) e i dati di ricerca (dimensioni/metadati di classificazione, come il nome della campagna Adobe Advertising) in base al set di dati dell’evento. I dati per i set di dati vengono compilati quotidianamente in Experience Platform.
+     <!-- Manual process during beta -->Adobe Advertising crea set di dati aggiuntivi per i dati delle metriche di riepilogo correlate (come i valori di conversione) e i dati di ricerca (dimensioni/metadati di classificazione, come il nome della campagna Adobe Advertising) in base al set di dati dell’evento. I dati per i set di dati vengono compilati quotidianamente in Experience Platform.
 
 1. [Crea uno stream di dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/configure) per lo schema.
 
@@ -85,7 +89,7 @@ Per impostare la raccolta dati in Experience Platform e implementare i tag di tr
 
    * Per la tua proprietà, [installa l&#39;estensione &quot;Adobe Experience Platform Web SDK&quot;](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) dal catalogo delle estensioni.
 
-     Questa estensione invia i dati dalle proprietà web a Adobe CX Enterprise tramite Experience Platform Edge Network.
+     Questa estensione invia i dati dalle proprietà web ad Adobe CX Enterprise tramite Experience Platform Edge Network.
 
      Non utilizzare l&#39;estensione Adobe Advertising.
 

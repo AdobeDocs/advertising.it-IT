@@ -20,9 +20,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 0f74bf7a3cb3a5e56df31ea36ef181c08a0f3aca
 workflow-type: tm+mt
-source-wordcount: 1264
+source-wordcount: 1289
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ DSP può ottimizzare le campagne incentrate sulle prestazioni. Consulta le segue
 
 ![obiettivo di ottimizzazione](/help/dsp/assets/optimization-goals.png)
 
-È inoltre necessario determinare gli eventi di successo che conducono all’obiettivo generale e creare obiettivi personalizzati di conseguenza. Per ogni pacchetto, specifica un obiettivo personalizzato da utilizzare con l&#39;obiettivo di ottimizzazione generale per il reporting e l&#39;ottimizzazione algoritmica utilizzando [!DNL Adobe AI]. Per ulteriori informazioni sulla creazione di obiettivi personalizzati, incluse le best practice, vedere [Obiettivi personalizzati](custom-goal.md).
+È inoltre necessario determinare gli eventi di successo che conducono all’obiettivo generale e creare obiettivi personalizzati di conseguenza. Per ogni pacchetto, specifica un obiettivo personalizzato da utilizzare con l&#39;obiettivo di ottimizzazione generale per il reporting e l&#39;ottimizzazione algoritmica utilizzando [!DNL Adobe AI]. Per ulteriori informazioni sugli obiettivi personalizzati, vedere &quot;[Gestire gli obiettivi personalizzati](/help/dsp/admin/custom-objectives-manage.md)&quot; e &quot;[Best practice per gli obiettivi personalizzati](custom-goal.md).&quot;
 
 ## Passaggio 2: definire la strategia
 

@@ -14,9 +14,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
 workflow-type: tm+mt
-source-wordcount: 1089
+source-wordcount: 1100
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Per i pacchetti con conflitti personalizzati, l&#39;intervallo di budget è semp
 
 **[!UICONTROL Link PG Placements for Incremental Reach Optimization]:** (solo pacchetti con velocità a livello di pacchetto e con obiettivi di ottimizzazione &quot;[!UICONTROL Always Max Bid & Maximize Reach]&quot; e &quot;[!UICONTROL Lowest Cost per Reach]&quot;) Utilizza i dati di portata domestica da tutti i posizionamenti programmatici garantiti nella campagna per l&#39;ottimizzazione per la portata incrementale.
 
-**[!UICONTROL Custom Goal for Model Learning]:** (solo pacchetti con gli obiettivi di ottimizzazione &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;) [obiettivo personalizzato](/help/dsp/optimization/custom-goal.md) che include gli eventi di conversione o ricavi utilizzati per calcolare la metrica CPA o ROAS. L’obiettivo personalizzato deve includere eventi funnel superiori ponderati aggiuntivi (come visite alla pagina e aggiunte al carrello) da utilizzare in aggiunta alla metrica CPA o ROAS per l’ottimizzazione del pacchetto. Per ulteriori informazioni sugli obiettivi personalizzati, incluse le best practice per la creazione di obiettivi personalizzati e campagne che li utilizzano, vedere &quot;[Obiettivi personalizzati](/help/dsp/optimization/custom-goal.md)&quot; e &quot;[Best practice per la configurazione di campagne sulle prestazioni](/help/dsp/optimization/campaign-best-practices-performance.md).&quot;<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
+**[!UICONTROL Custom Goal for Model Learning]:** (solo pacchetti con gli obiettivi di ottimizzazione &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;) Un obiettivo personalizzato che include gli eventi di conversione o ricavi utilizzati per calcolare la metrica CPA o ROAS. L’obiettivo personalizzato deve includere eventi funnel superiori ponderati aggiuntivi (come visite alla pagina e aggiunte al carrello) da utilizzare in aggiunta alla metrica CPA o ROAS per l’ottimizzazione del pacchetto. Per ulteriori informazioni sugli obiettivi personalizzati, vedere &quot;[Gestione obiettivi personalizzati](/help/dsp/admin/custom-objectives-manage.md)&quot;, &quot;[Best practice per obiettivi personalizzati](/help/dsp/optimization/custom-goal.md)&quot; e &quot;[Best practice per la configurazione di campagne sulle prestazioni](/help/dsp/optimization/campaign-best-practices-performance.md).&quot;
 
 **[!UICONTROL Consider Only Click Conversions for Model Learning]:** (Facoltativo; pacchetti con solo gli obiettivi di ottimizzazione &quot;[!UICONTROL Highest Return on Ad Spend]&quot; e &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;) indica al modello di ottimizzazione di imparare solo dalle conversioni basate su clic. In caso contrario, il modello di ottimizzazione apprende sia dalle conversioni basate su clic che da quelle basate su impression.
 

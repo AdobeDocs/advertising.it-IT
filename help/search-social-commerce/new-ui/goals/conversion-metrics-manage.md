@@ -2,9 +2,9 @@
 title: Gestire le metriche di conversione di un inserzionista
 description: Scopri come utilizzare le metriche di conversione tracciate da Adobe Advertising per un inserzionista.
 feature: Conversions
-source-git-commit: 1ada471eccd28607da8edbbcee04fcb6716bd165
+source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Le metriche di [conversione](/help/search-social-commerce/glossary.md#c-d) di un
 
 * In Search, Social e Commerce i dati per le metriche di conversione possono essere visualizzati in colonne nelle viste Campagna, Portfolio e Gestione obiettivi, nonché nei rapporti. Gli utenti con privilegi di accesso sufficienti possono inoltre utilizzare metriche di conversione per creare obiettivi, utilizzati per ottimizzare i portfolio.
 
-* (Per gli inserzionisti che fanno uso di Advertising DSP) In DSP puoi includere le metriche di conversione nelle visualizzazioni di gestione delle campagne, negli obiettivi personalizzati e nei rapporti personalizzati. Puoi anche utilizzare le metriche di conversione per creare [obiettivi personalizzati](/help/dsp/optimization/custom-goal.md), utilizzati per ottimizzare i pacchetti.
+* (Per gli inserzionisti che fanno uso di Advertising DSP) In DSP puoi includere le metriche di conversione nelle visualizzazioni di gestione delle campagne, negli obiettivi personalizzati e nei rapporti personalizzati. È inoltre possibile utilizzare le metriche di conversione per creare [obiettivi personalizzati](/help/dsp/admin/custom-objectives-manage.md), utilizzati per ottimizzare i pacchetti.
 
 Le metriche disponibili includono:
 
@@ -95,6 +95,8 @@ Impossibile eliminare un nome visualizzato esistente.
 
       1. (Per nascondere le metriche) Nel messaggio di conferma, fare clic su **[!UICONTROL Confirm]** per nascondere le metriche, inclusa la loro rimozione da qualsiasi metrica derivata che contiene le metriche.
 
+<!--
 >[!MORELIKETHIS]
 >
->* &#x200B;
+>* 
+-->

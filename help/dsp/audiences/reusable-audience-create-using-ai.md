@@ -4,9 +4,9 @@ description: Scopri come creare tipi di pubblico riutilizzabili in Adobe Adverti
 feature: DSP Audiences
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: e8bfea965be346d44d8da96cd026704e1723a1bf
+source-git-commit: fc5533c8823c2a7610861fdc077d5cdfe0c2d377
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1145'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,9 @@ ht-degree: 0%
 
 <!-- Redo the legacy file to include the new info. so that it includes two separate procedures (gen AI and manually). -->
 
-Utilizza l’agente del pubblico assistito da AI per generare nuovi tipi di pubblico riutilizzabili utilizzando tutti i segmenti di prime e terze parti disponibili, in base ai requisiti dichiarati. Puoi utilizzare i tipi di pubblico come target o esclusioni per più posizionamenti.
+Utilizza l’agente del pubblico assistito da AI per generare nuovi tipi di pubblico riutilizzabili utilizzando tutti i segmenti di prime e terze parti disponibili, in base ai requisiti dichiarati. Se applicabile, l’agente consiglia filtri di segmento aggiuntivi per aiutarti a creare una descrizione più efficace del pubblico.
+
+Puoi utilizzare i tipi di pubblico come target o esclusioni per più posizionamenti.
 
 <!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
@@ -55,15 +57,15 @@ Utilizza l’agente del pubblico assistito da AI per generare nuovi tipi di pubb
 
 1. Creare il pubblico:
 
-   Per gli utenti con autorizzazioni beta, l’opzione IA è l’impostazione predefinita. Per [assemblare autonomamente il pubblico](/help/dsp/audiences/reusable-audience-create.md), fare clic sul pulsante &quot;Passa alla modalità manuale&quot; nella parte inferiore.
+   L’opzione IA è l’impostazione predefinita. Per [assemblare autonomamente il pubblico](/help/dsp/audiences/reusable-audience-create.md), fare clic sul pulsante &quot;Passa alla modalità manuale&quot; nella parte inferiore.
 
    1. Inserisci una o più richieste per descrivere le caratteristiche del pubblico da includere ed escludere. Per inviare ogni richiesta, fare clic su ![Invia richiesta](/help/dsp/assets/submit-prompt.png "Invia richiesta").
 
       Per ulteriori informazioni, vedere &quot;[Prompt di scrittura](#writing-prompts)&quot; e &quot;[Best practice per la creazione di una descrizione del pubblico](#audience-brief-best-practices).&quot;
 
-      Man mano che l’agente del pubblico trova i segmenti rilevanti, crea un’espressione di pubblico booleana basata sui criteri. Chiede inoltre la tua approvazione prima di cercare i segmenti corrispondenti per assemblare il pubblico.
+      Se applicabile, l’agente consiglia filtri di segmento aggiuntivi per aiutarti a creare una descrizione più efficace del pubblico. Puoi accettare o rifiutare i suggerimenti.
 
-      Facoltativamente, puoi ignorare la richiesta e continuare a specificare altri criteri di pubblico.
+      Man mano che l’agente del pubblico trova i segmenti rilevanti, crea un’espressione di pubblico booleana basata sui criteri. Chiede inoltre la tua approvazione prima di cercare i segmenti corrispondenti per assemblare il pubblico. Facoltativamente, puoi ignorare la richiesta e continuare a specificare altri criteri di pubblico.
 
    1. Quando l’agente del pubblico presenta un’espressione del pubblico che descrive adeguatamente il pubblico, chiedi all’agente del pubblico di procedere con l’assemblaggio del pubblico.
 
