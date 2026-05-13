@@ -4,9 +4,9 @@ description: Scopri come scaricare gli obiettivi in un file foglio di calcolo.
 feature: Search Optimization, Search Portfolios
 hide: true
 exl-id: fbd0e58b-9f9b-4c8e-8a85-197bca220c10
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
    * Per scaricare i dati per tutti gli obiettivi, non è necessario selezionare alcuna casella di controllo. Tutti gli obiettivi sono inclusi per impostazione predefinita.
 
-1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Scarica report](/help/search-social-commerce/assets/download.png "Scarica report").
+1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Scarica report](/help/search-social-commerce/assets/download.png "Scarica report") **[!UICONTROL Reports]**.
 
 1. Nelle impostazioni di [!UICONTROL Grid Reports], immettere un nome di report univoco, quindi fare clic su **[!UICONTROL Generate]**.
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 Nel menu principale, fare clic su **[!UICONTROL Goals]>[!UICONTROL Objectives]**.
 
-1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Scarica report](/help/search-social-commerce/assets/download.png "Scarica report").
+1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Scarica report](/help/search-social-commerce/assets/download.png "Scarica report") **[!UICONTROL Reports]**..
 
 1. Nell&#39;elenco [!UICONTROL Recently Generated] della finestra di dialogo [!UICONTROL Grid Reports], fare clic su ![Scarica](/help/search-social-commerce/assets/download.png "Scarica") accanto al nome del file.
 
@@ -55,7 +55,7 @@ Nel menu principale, fare clic su **[!UICONTROL Goals]>[!UICONTROL Objectives]**
 
 1. Nel menu principale, fare clic su **[!UICONTROL Goals]>[!UICONTROL Objectives]**.
 
-1. Nella barra degli strumenti sopra la tabella dati, fai clic su ![Scarica](/help/search-social-commerce/assets/download.png "Scarica") **[!UICONTROL Report]**.
+1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Scarica report](/help/search-social-commerce/assets/download.png "Scarica report") **[!UICONTROL Reports]**.
 
 1. Nell&#39;elenco [!UICONTROL Recently Generated] della finestra di dialogo [!UICONTROL Grid Reports], fare clic su ![Elimina](/help/search-social-commerce/assets/delete-new.png "Elimina") accanto al nome del file.
 
