@@ -2,9 +2,9 @@
 title: Carica dati di conversione offline per conversioni avanzate
 description: Scopri come caricare dati di conversione offline di prime parti da mappare su  [!DNL Google Ads] conversioni avanzate per lead e  [!DNL Microsoft Advertising] conversioni avanzate.
 feature: Conversions
-source-git-commit: 88a45014064220a2bec6aa6080a2a1f53d24b9bb
+source-git-commit: 3272a0d3e5766a22c2ff761b84f1774cafe153bd
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
@@ -13,13 +13,15 @@ ht-degree: 0%
 
 <!-- Renamed file to start with "conversions-"-->
 
-<!-- Update to add procedure in new UI -->
+<!-- Added procedure in new UI, which isn't available to all yet -->
 
 Solo *[!DNL Google Ads]e [!DNL Microsoft Advertising] account*
 
 Puoi caricare i dati di conversione offline di prime parti, inclusi indirizzi e-mail con hash e numeri di telefono, per eseguire il mapping alle [[!DNL Google Ads] conversioni avanzate esistenti per lead](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md) e [[!DNL Microsoft Advertising] conversioni avanzate](https://help.ads.microsoft.com/#apex/ads/en/60178). Tutti i dati caricati vengono sincronizzati in tempo reale con la rete di annunci.
 
 ## (Nuova interfaccia) Caricare dati per conversioni avanzate
+
+*funzionalità Beta*
 
 1. Nel menu principale, fare clic su **[!UICONTROL Goals]>[!UICONTROL Conversions]**.
 
