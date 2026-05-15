@@ -1,0 +1,70 @@
+---
+title: (Nuova interfaccia) Modificare lo stato di un portfolio
+description: Scopri come modificare lo stato di un portfolio o eliminare un portfolio inattivo.
+feature: Search Portfolios, Search Optimization
+hide: true
+source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
+workflow-type: tm+mt
+source-wordcount: '508'
+ht-degree: 0%
+
+---
+
+# (Nuova interfaccia) Modificare lo stato di un portfolio
+
+*funzionalità Beta*
+
+Lo stato di un portfolio può essere uno dei seguenti:
+
+* **Inattiva:** la funzionalità di ottimizzazione raccoglie dati su costi/clic/impression per le campagne pertinenti a scopo di reporting, ma non modella i dati né ottimizza i budget e le offerte delle campagne.
+
+* **Attivo:** La funzionalità di ottimizzazione raccoglie dati su costi/clic/impression e ricavi per le campagne pertinenti e modella i dati, ma non ottimizza i budget o le offerte delle campagne. Attiva un portfolio inattivo per iniziare a modellare i dati o esegui il downgrade di un portfolio ottimizzato allo stato attivo per interrompere l’ottimizzazione.
+
+* **Ottimizzato:** La funzionalità di ottimizzazione raccoglie dati su costi/clic/impression e ricavi per le campagne pertinenti, modella i dati e ottimizza i budget e le offerte delle campagne (se pertinente) nella data di inizio del portfolio designata. La modifica dello stato in ottimizzato viene anche chiamata avvio del portfolio.
+
+Per interrompere la raccolta dei dati su costi/clic/impression e ricavi per le campagne pertinenti, elimina il portfolio. L’eliminazione di un portfolio lo rende non disponibile in Search, Social e Commerce.
+
+Tutte le modifiche allo stato del portfolio vengono registrate nella cronologia modifiche del portfolio.
+
+## Ottimizzare, attivare o disattivare un portfolio
+
+1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
+
+1. Posizionare il cursore sulla riga del portfolio e fare clic su ![Modifica](/help/search-social-commerce/assets/edit.png "Modifica") accanto a [!UICONTROL Portfolio Status].
+
+1. Modifica lo stato:
+
+   * Per attivare un portfolio inattivo o ottimizzato, selezionare **[!UICONTROL Active]**.
+
+   * Per disattivare un portfolio attivo, selezionare **[!UICONTROL Inactive]**.
+
+   * Per ottimizzare (avviare) un portfolio attivo, selezionare **[!UICONTROL Optimized]**.
+
+     >[!NOTE]
+     >
+     >* Puoi avviare un portfolio solo se è già attivo e contiene almeno una campagna attiva con almeno un annuncio e una parola chiave/posizionamento attivi.
+     >* Prima di avviare un portfolio, devi implementare i tag di tracciamento della conversione nelle pagine web dell’inserzionista.
+     >* Prima di avviare un portfolio, la best practice consiste nell’eseguire un’analisi della linea di base.
+     >* Se stai lanciando un nuovo portfolio, assicurati che la data di inizio sia oggi o successiva.>* Evita di modificare il portfolio nella prima settimana dopo il lancio, anche se le prestazioni sono volatili.
+     >* Una volta che Search, Social e Commerce iniziano a ottimizzare un portfolio, dovresti consentirgli di gestire tutte le future modifiche delle offerte (se applicabile). Search, Social e Commerce sovrascriveranno tutte le modifiche apportate dall&#39;interno della rete di annunci.
+     >* Dopo aver avviato un portfolio, puoi impostare temporaneamente le offerte manuali per qualsiasi campagna CPC nel portfolio creando e pubblicando i bulksheet delle campagne. Qualsiasi modifica dell’offerta derivante dai dati pubblicati è applicabile per un giorno. Successivamente, Search, Social e Commerce riprendono a impostare le offerte in base alla propria strategia di ottimizzazione.
+
+## Eliminare un portfolio inattivo
+
+Puoi eliminare solo i portfolio inattivi. Se il portfolio è ottimizzato o attivo, devi prima modificarne lo stato su inattivo prima di poter scegliere di eliminarlo.
+
+1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
+
+1. Effettuare una delle seguenti operazioni:
+
+   * Posizionare il cursore sulla riga del portfolio e fare clic su **[!UICONTROL ...]>[!UICONTROL Delete]**.
+
+   * Seleziona la casella di controllo accanto al portfolio. Nella barra degli strumenti Azioni in blocco, fare clic su ![Elimina](/help/search-social-commerce/assets/delete-new.png "Elimina").
+
+1. Nel messaggio di conferma, fare clic su **[!UICONTROL Confirm]**.
+
+>[!MORELIKETHIS]
+>
+>* [Crea un portfolio](portfolio-create.md)
+>* [(Nuova interfaccia) Modifica un portfolio](portfolio-edit.md)
+>* [Informazioni sui portfolio](portfolio-about.md)

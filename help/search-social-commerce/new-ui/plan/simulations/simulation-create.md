@@ -5,16 +5,12 @@ feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
 exl-id: 0ee62d04-fdc4-445c-90fb-71d5a40a9ed0
 TQID: https://experienceleague.adobe.com/DlSJEcKXOxVz6UXVpAjQqaiwDTakgJ4SS6rsQUxkQIE
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 2504e6a4eebeab74352606a89a5012ab96c89c47
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: d8170c2bbeab003339472d03033f1741014d6c4b
 workflow-type: tm+mt
-source-wordcount: 505
+source-wordcount: 524
 ht-degree: 0%
 
 ---
@@ -53,39 +49,11 @@ Puoi generare una simulazione personalizzata per un portfolio [ottimizzato o att
 
    1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
 
-   1. Posizionare il cursore sulla riga portfolio. Accanto al nome del portfolio, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Run Simulation]**.
+   1. Effettuare una delle seguenti operazioni:
 
-1. Specificare le [impostazioni di simulazione personalizzate](#custom-simulation-settings):
+      * Posizionare il cursore sulla riga portfolio. Accanto al nome del portfolio, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Run Simulation]**.
 
-   1. (Facoltativo) Per modificare il portfolio utilizzato per la simulazione, fare clic su **[!UICONTROL Change Portfolio]** accanto al nome del portfolio, selezionare il portfolio e quindi fare clic su **[!UICONTROL Proceed]**.
-
-   1. Nella scheda [!UICONTROL Basic Settings]:
-
-      1. Immettere un **[!UICONTROL Simulation Name]** univoco.
-
-      1. (Facoltativo) Modificate i parametri di base per la simulazione.
-
-   1. (Facoltativo) Nella scheda [!UICONTROL Advanced Settings], modifica i parametri avanzati per la simulazione.
-
-   I parametri esistenti per il portfolio selezionato sono specificati per impostazione predefinita. La modifica dei valori ti mostrerà i risultati che diversi parametri produrrebbero senza modificare i parametri esistenti del portfolio.
-
-1. Fare clic su **[!UICONTROL Next]**.
-
-1. Rivedi le impostazioni e modificale come necessario.
-
-1. Fare clic su **[!UICONTROL Submit & Run]**.
-
-Quando il rapporto di simulazione è disponibile, l&#39;utente e tutti gli altri destinatari e-mail specificati ricevono una notifica con un collegamento per scaricare i dati in un file ZIP contenente una cartella di lavoro (file XLSX).
-
-<!-- Still true:  When the results for any report type include more than 60,000 rows, the workbook includes multiple worksheets. -->
-
-## Modificare le impostazioni per una simulazione esistente ed eseguirla nuovamente
-
-1. Nel menu principale, fare clic su **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
-
-1. Selezionate la casella di controllo accanto alla simulazione da rigenerare.
-
-1. Sopra la tabella dati, fare clic su **[!UICONTROL Run Simulation]**.
+      * Seleziona la casella di controllo accanto al portfolio. Nella barra degli strumenti Azioni in blocco fare clic su **[!UICONTROL Run Simulation]**.
 
 1. Specificare le [impostazioni di simulazione personalizzate](#custom-simulation-settings):
 
@@ -120,6 +88,38 @@ Quando il rapporto di simulazione è disponibile, l&#39;utente e tutti gli altri
 1. Seleziona le caselle di controllo accanto alle simulazioni da eseguire nuovamente.
 
 1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Riesegui](/help/search-social-commerce/assets/rerun.png "Riesegui").
+
+## Modificare le impostazioni per una simulazione esistente ed eseguirla nuovamente
+
+1. Nel menu principale, fare clic su **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
+
+1. Selezionate la casella di controllo accanto alla simulazione da rigenerare.
+
+1. Sopra la tabella dati, fare clic su **[!UICONTROL Run Simulation]**.
+
+1. Specificare le [impostazioni di simulazione personalizzate](#custom-simulation-settings):
+
+   1. (Facoltativo) Per modificare il portfolio utilizzato per la simulazione, fare clic su **[!UICONTROL Change Portfolio]** accanto al nome del portfolio, selezionare il portfolio e quindi fare clic su **[!UICONTROL Proceed]**.
+
+   1. Nella scheda [!UICONTROL Basic Settings]:
+
+      1. Immettere un **[!UICONTROL Simulation Name]** univoco.
+
+      1. (Facoltativo) Modificate i parametri di base per la simulazione.
+
+   1. (Facoltativo) Nella scheda [!UICONTROL Advanced Settings], modifica i parametri avanzati per la simulazione.
+
+   I parametri esistenti per il portfolio selezionato sono specificati per impostazione predefinita. La modifica dei valori ti mostrerà i risultati che diversi parametri produrrebbero senza modificare i parametri esistenti del portfolio.
+
+1. Fare clic su **[!UICONTROL Next]**.
+
+1. Rivedi le impostazioni e modificale come necessario.
+
+1. Fare clic su **[!UICONTROL Submit & Run]**.
+
+Quando il rapporto di simulazione è disponibile, l&#39;utente e tutti gli altri destinatari e-mail specificati ricevono una notifica con un collegamento per scaricare i dati in un file ZIP contenente una cartella di lavoro (file XLSX).
+
+<!-- Still true:  When the results for any report type include more than 60,000 rows, the workbook includes multiple worksheets. -->
 
 ## Impostazioni di simulazione personalizzate {#custom-simulation-settings}
 
