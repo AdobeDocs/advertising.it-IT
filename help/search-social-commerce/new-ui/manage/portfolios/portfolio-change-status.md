@@ -1,11 +1,11 @@
 ---
 title: (Nuova interfaccia) Modificare lo stato di un portfolio
-description: Scopri come modificare lo stato di un portfolio o eliminare un portfolio inattivo.
+description: Scopri come modificare lo stato di un portfolio o eliminare un portfolio inattivo senza aprirne le impostazioni.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
+source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -14,13 +14,7 @@ ht-degree: 0%
 
 *funzionalità Beta*
 
-Lo stato di un portfolio può essere uno dei seguenti:
-
-* **Inattiva:** la funzionalità di ottimizzazione raccoglie dati su costi/clic/impression per le campagne pertinenti a scopo di reporting, ma non modella i dati né ottimizza i budget e le offerte delle campagne.
-
-* **Attivo:** La funzionalità di ottimizzazione raccoglie dati su costi/clic/impression e ricavi per le campagne pertinenti e modella i dati, ma non ottimizza i budget o le offerte delle campagne. Attiva un portfolio inattivo per iniziare a modellare i dati o esegui il downgrade di un portfolio ottimizzato allo stato attivo per interrompere l’ottimizzazione.
-
-* **Ottimizzato:** La funzionalità di ottimizzazione raccoglie dati su costi/clic/impression e ricavi per le campagne pertinenti, modella i dati e ottimizza i budget e le offerte delle campagne (se pertinente) nella data di inizio del portfolio designata. La modifica dello stato in ottimizzato viene anche chiamata avvio del portfolio.
+Puoi cambiare rapidamente lo stato di un [portfolio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#portfolio-statuses) senza aprire le impostazioni complete del portfolio.
 
 Per interrompere la raccolta dei dati su costi/clic/impression e ricavi per le campagne pertinenti, elimina il portfolio. L’eliminazione di un portfolio lo rende non disponibile in Search, Social e Commerce.
 
@@ -42,12 +36,12 @@ Tutte le modifiche allo stato del portfolio vengono registrate nella cronologia 
 
      >[!NOTE]
      >
-     >* Puoi avviare un portfolio solo se è già attivo e contiene almeno una campagna attiva con almeno un annuncio e una parola chiave/posizionamento attivi.
-     >* Prima di avviare un portfolio, devi implementare i tag di tracciamento della conversione nelle pagine web dell’inserzionista.
-     >* Prima di avviare un portfolio, la best practice consiste nell’eseguire un’analisi della linea di base.
-     >* Se stai lanciando un nuovo portfolio, assicurati che la data di inizio sia oggi o successiva.>* Evita di modificare il portfolio nella prima settimana dopo il lancio, anche se le prestazioni sono volatili.
-     >* Una volta che Search, Social e Commerce iniziano a ottimizzare un portfolio, dovresti consentirgli di gestire tutte le future modifiche delle offerte (se applicabile). Search, Social e Commerce sovrascriveranno tutte le modifiche apportate dall&#39;interno della rete di annunci.
-     >* Dopo aver avviato un portfolio, puoi impostare temporaneamente le offerte manuali per qualsiasi campagna CPC nel portfolio creando e pubblicando i bulksheet delle campagne. Qualsiasi modifica dell’offerta derivante dai dati pubblicati è applicabile per un giorno. Successivamente, Search, Social e Commerce riprendono a impostare le offerte in base alla propria strategia di ottimizzazione.
+     >* Puoi cambiare lo stato in ottimizzato solo se il portfolio è già attivo e contiene almeno una campagna attiva con almeno un annuncio e una parola chiave/posizionamento attivi.
+     >* Prima di cambiare lo stato in ottimizzato, devi implementare i tag di tracciamento della conversione nelle pagine web dell’inserzionista. Inoltre, la best practice prevede l’esecuzione di un’analisi di base.
+     >* Quando avvii un nuovo portfolio, assicurati che la data di inizio sia oggi o successiva.
+     >* Evita di cambiare il portfolio nella prima settimana dopo l’ottimizzazione, anche se le prestazioni sono volatili.
+     >* Quando Search, Social e Commerce iniziano a ottimizzare un portfolio, consentono di gestire tutto il budget futuro della campagna e (se applicabile) la modifica dell’offerta (se applicabile). Search, Social e Commerce sovrascriveranno tutte le modifiche apportate dall&#39;interno della rete di annunci.
+     >* Puoi impostare temporaneamente le offerte manuali per qualsiasi campagna CPC ottimizzata nel portfolio creando e pubblicando i bulksheet delle campagne. Qualsiasi modifica dell’offerta derivante dai dati pubblicati è applicabile per un giorno. Successivamente, Search, Social e Commerce riprendono a impostare le offerte in base alla propria strategia di ottimizzazione.
 
 ## Eliminare un portfolio inattivo
 
