@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
 workflow-type: tm+mt
-source-wordcount: 144
+source-wordcount: 156
 ht-degree: 0%
 
 ---
@@ -27,9 +27,11 @@ Duplica un portfolio per creare un nuovo portfolio con le stesse impostazioni. F
 
 1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
 
-1. Seleziona la casella di controllo accanto al portfolio.
+1. Effettuare una delle seguenti operazioni:
 
-1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Duplica](/help/search-social-commerce/assets/duplicate.png "Duplica") **[!UICONTROL Duplicate]**.
+   * Posizionare il cursore sulla riga del portfolio e fare clic su **[!UICONTROL ...]>[!UICONTROL Duplicate]**.
+
+   * Seleziona la casella di controllo accanto al portfolio. Nella barra degli strumenti Azioni in blocco, fai clic su ![Duplica](/help/search-social-commerce/assets/duplicate.png "Duplica") **[!UICONTROL Duplicate]**.
 
 1. Modifica le impostazioni del portfolio.
 

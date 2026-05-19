@@ -17,9 +17,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
 workflow-type: tm+mt
-source-wordcount: 4439
+source-wordcount: 4499
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 **[!UICONTROL Placement name]** Il nome del posizionamento.
 
 >[!TIP]
->Utilizza una convenzione di denominazione appropriata per la tua situazione. Una convenzione di denominazione consigliata è &quot;*\&lt;Nome campagna\>: \&lt;Unità annuncio\>: \&lt;Durata\>: \&lt;Targeting\>*.&quot;
+>Utilizza una convenzione di denominazione appropriata per la tua situazione. Una convenzione di denominazione suggerita è &quot;*\&lt;Nome campagna\>: \&lt;Unità annuncio\>: \&lt;Durata\>: \&lt;Targeting\>*.&quot;
 
 **[!UICONTROL Status]:** Lo stato del posizionamento: *[!UICONTROL Active]* (impostazione predefinita) o *[!UICONTROL Paused]*.
 
@@ -201,11 +201,11 @@ Includere un codice postale per riga oppure immettere più valori separati da vi
 
   È possibile visualizzare l’elenco in base all’origine o al feed. Quando visualizzi l’elenco per feed, puoi eseguire ricerche per nome di feed, chiave di feed o un tag di caratteristica selezionato.
 
-* [!UICONTROL Private] | [!UICONTROL Roku Private]: le offerte private esistenti (o offerte private [!DNL Roku] esistenti per [!DNL Roku] posizionamenti) con editori configurati in DSP e i [elenchi di offerte private esistenti](/help/dsp/inventory/lists-deals-manage.md). È possibile includere ma non escludere l&#39;inventario pubblico.
+* [!UICONTROL Private] | [!UICONTROL Roku Private]: le tue offerte private esistenti (o offerte private [!DNL Roku] esistenti per [!DNL Roku] posizionamenti) con editori configurati in DSP e i tuoi [elenchi di offerte private esistenti](/help/dsp/inventory/lists-deals-manage.md). È possibile includere ma non escludere l&#39;inventario pubblico.
 
   Dalla scheda [!UICONTROL Deals], puoi cercare l&#39;elenco per parola chiave, chiave, ID offerta o tag personalizzato. Dalla scheda [!UICONTROL Deal Lists], puoi cercare l&#39;elenco per nome o ID dell&#39;elenco delle offerte.
 
-* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: tutte le [offerte premium, [!UICONTROL On Demand] inventory](/help/dsp/inventory/on-demand-inventory-about.md) non garantite (o [!UICONTROL On Demand] [!DNL Roku] offerte per [!DNL Roku] posizionamenti) a cui ti sei iscritto in [!DNL DSP]. È possibile includere ed escludere [!UICONTROL On Demand] inventario.
+* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: tutte le [offerte premium, [!UICONTROL On Demand] inventory](/help/dsp/inventory/on-demand-inventory-about.md) non garantite (o [!UICONTROL On Demand] [!DNL Roku] offerte per [!DNL Roku] posizionamenti) alle quali ti sei iscritto in [!DNL DSP]. È possibile includere ed escludere [!UICONTROL On Demand] inventario.
 
   È possibile visualizzare l’elenco in base all’origine o al feed. Quando l&#39;elenco viene visualizzato per feed, è possibile eseguire ricerche per nome di feed, chiave di feed oppure per l&#39;area dell&#39;editore selezionata, il tag categoria o il tag caratteristica.
 
@@ -348,11 +348,11 @@ Quando selezioni sia ID legacy che ID universali, viene data la preferenza di of
 
 * *[!UICONTROL Universal ID Beta]*: esegue il targeting degli ID incentrati sulla privacy dell&#39;utente; seleziona un tipo di ID. Le opzioni disponibili sono determinate dai target geografici selezionati nella sezione [!UICONTROL Geo-Targeting]. Usare con [[!DNL RampID] segmenti importati direttamente in DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md), [segmenti per i quali DSP converte i dati PII in ID universali](/help/dsp/audiences/sources/source-about.md) o [segmenti personalizzati che tengono traccia degli ID universali](/help/dsp/audiences/custom-segment-create.md).
 
-   * *[!UICONTROL ID5]*: destinazioni [!DNL ID5] ID creati con probabilità da indirizzi e-mail e altri segnali.<!-- What countries/geos are these available for? Everywhere?--> ID5 sono disponibili gratuitamente. **Nota:** i segmenti di terze parti di [!DNL Eyeota] possono includere ID5.
+   * *[!UICONTROL ID5]*: destinazioni [!DNL ID5] ID creati probabilisticamente da indirizzi e-mail e altri segnali.<!-- What countries/geos are these available for? Everywhere?--> Gli ID5 sono disponibili gratuitamente. **Nota:** i segmenti di terze parti di [!DNL Eyeota] possono includere ID5.
 
    * *[!UICONTROL RampID]*: destinazioni [!DNL LiveRamp] [!DNL RampIDs] di utenti connessi al sito tramite i relativi indirizzi e-mail.<!-- Verify --> [!DNL RampIDs] sono disponibili per gli utenti in Nord America, Australia e Nuova Zelanda.
 
-   * *[!UICONTROL Unified ID2.0]*: Target [!DNL Unified ID2.0] (UID2) ID degli utenti connessi al sito utilizzando i loro indirizzi e-mail.<!-- Verify -->[!DNL UID2 IDs] non sono disponibili per gli utenti nello Spazio economico europeo e in alcuni altri paesi. Vedi l&#39;[elenco dei paesi vietati](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
+   * *[!UICONTROL Unified ID2.0]*: destinazioni [!DNL Unified ID2.0] (UID2) ID degli utenti connessi al sito utilizzando i loro indirizzi e-mail.<!-- Verify -->[!DNL UID2 IDs] non sono disponibili per gli utenti nello Spazio economico europeo e in alcuni altri paesi. Vedi l&#39;[elenco dei paesi vietati](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
 
   **[!UICONTROL Terms of service]**: i termini del contratto di servizio per l&#39;utilizzo degli ID universali. Prima di poter convertire i dati in un nuovo tipo di ID, è necessario che tu o un altro utente nell’account DSP accetti una volta i termini. Per i clienti con contratti di assistenza gestiti, il team dell’account Adobe riceverà il consenso e accetterà le condizioni per conto della tua organizzazione. Per leggere i termini, fare clic su **>**. Per accettare i termini, scorrere fino alla fine dei termini e fare clic su **[!UICONTROL Accept]**.
 
@@ -420,7 +420,7 @@ Per specificare il targeting degli argomenti:
 
 ## [!UICONTROL Brand Safety and Media Quality]
 
-**[!UICONTROL DoubleVerify ABS segment ID]:** (Facoltativo; solo [!DNL DoubleVerify] clienti; disponibile solo per la visualizzazione pre-roll desktop, standard e click-to-play e per i posizionamenti di video e visualizzazioni nativi; non supportato per [posizionamenti programmatici predefiniti garantiti per offerte](/help/dsp/inventory/programmatic-guaranteed-about.md)) Un ID segmento [!DNL DoubleVerify Authentic Brand Safety] associato all&#39;account [!DNL DoubleVerify] dell&#39;organizzazione da utilizzare per il posizionamento. La specifica di un ID blocca le impression dopo l’offerta utilizzando le regole di sicurezza del brand personalizzate configurate per l’ID segmento specificato. DSP fattura il tuo account per l’utilizzo dell’ID segmento.
+**[!UICONTROL DoubleVerify ABS segment ID]:** (Facoltativo; solo [!DNL DoubleVerify] clienti; disponibile solo per la visualizzazione pre-roll desktop, standard e click-to-play e per i posizionamenti di video e visualizzazioni nativi; non supportato per [posizionamenti programmatici predefiniti garantiti per offerte](/help/dsp/inventory/programmatic-guaranteed-about.md)) Un ID segmento [!DNL DoubleVerify Authentic Brand Suitability] associato all&#39;account [!DNL DoubleVerify] dell&#39;organizzazione da utilizzare per il posizionamento. La specifica di un ID blocca le impression dopo l’offerta utilizzando le regole di sicurezza del brand personalizzate configurate per l’ID segmento specificato. DSP fattura il tuo account per l’utilizzo dell’ID segmento.
 
 L’ID deve iniziare con &quot;51&quot; e consistere di otto cifre. Per impostazione predefinita, se nelle impostazioni dell’account dell’inserzionista è specificato un ID di segmento, viene inserito l’ID a livello dell’inserzionista, ma puoi modificarlo per utilizzare un segmento diverso o eliminare l’ID per disabilitare la funzione.
 

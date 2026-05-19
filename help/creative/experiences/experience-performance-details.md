@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 50e002abe0c434e5eba9bd9785d7fc3d7ee7d10c
 workflow-type: tm+mt
-source-wordcount: 786
+source-wordcount: 791
 ht-degree: 0%
 
 ---
@@ -32,28 +32,28 @@ La visualizzazione Report include i dati seguenti:
       * **Prestazioni complessive**: impression totali; clic; tasso di click-through (CTR); conversioni view-through e click-through.
 
      <!--
-     ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
-          -->
+      ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
+     -->
 
       * **Percentuale predefinita**: (solo esperienze con targeting di albero delle decisioni) il numero di impression risultanti da creativi di destinazione, da creativi generici senza target o indirizzati a &quot;Tutti gli altri&quot; e dalla creatività predefinita per l&#39;esperienza.
 
      <!--
-     ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
+      ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
      -->
 
    * **Sezione Performance Breakdown**:
 
-      * **Prestazioni regionali:*: singole metriche per posizione geografica.
+      * **Prestazioni regionali:**: singole metriche per posizione geografica.
 
-        <!--   
+     <!--
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
-      -->
+     -->
 
       * **Prestazioni dispositivo:** singole metriche per tipo di dispositivo, sistema operativo e browser. Facoltativamente, fai clic sul valore per qualsiasi categoria di dispositivi per visualizzare un elenco delle prime 10 creatività distribuite con tale criterio.
 
-        <!--    
+     <!--
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
-      -->
+     -->
 
 * **Scheda Prestazioni di Creative***: panoramica delle prestazioni in base al contenuto creativo e al bundle o al tag dell&#39;annuncio, inclusi:
 

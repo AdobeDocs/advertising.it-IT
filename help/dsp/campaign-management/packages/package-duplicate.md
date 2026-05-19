@@ -14,9 +14,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
 workflow-type: tm+mt
-source-wordcount: 413
+source-wordcount: 420
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Tutte le impostazioni dei posizionamenti originali vengono duplicate, tranne:
    * Destinazioni geografiche
    * Pixel evento
    * Annunci
-   * Segmenti [!DNL DoubleVerify Authentic Brand Safety] a livello di posizionamento (che sostituiscono i segmenti a livello di inserzionista)
+   * Segmenti [!DNL DoubleVerify Authentic Brand Suitability] a livello di posizionamento (che sostituiscono i segmenti a livello di inserzionista)
 
 ## Best practice per configurare il nuovo pacchetto
 
@@ -95,7 +95,7 @@ Tutte le impostazioni dei posizionamenti originali vengono duplicate, tranne:
 
    * Allega i pixel dell’evento necessari ai posizionamenti e agli annunci.
 
-   * Includi destinazioni geografiche e segmenti [!DNL DoubleVerify Authentic Brand Safety] a livello di posizionamento in base alle esigenze per i posizionamenti.
+   * Includi destinazioni geografiche e segmenti [!DNL DoubleVerify Authentic Brand Suitability] a livello di posizionamento in base alle esigenze per i posizionamenti.
 
    * Per le offerte garantite programmatiche, utilizza i nuovi ID offerta e crea posizionamenti predefiniti.
 

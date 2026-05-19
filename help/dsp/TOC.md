@@ -4,9 +4,9 @@ user-guide-title: Guida di Advertising DSP
 user-guide-description: Scopri le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire e ottimizzare le strategie degli annunci display con Advertising DSP e creare i relativi rapporti.
 breadcrumb-title: Guida di DSP
 index: true
-source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
+source-git-commit: e95a352e48c6e02ae7f89beb176d2cccaf4b0a71
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1056'
 ht-degree: 3%
 
 ---
@@ -117,7 +117,6 @@ ht-degree: 3%
    + [Supporto per l’attivazione di ID universali](/help/dsp/audiences/universal-ids.md)
    + Tipi di pubblico riutilizzabili {#reusable-audiences}
       + [Creare un pubblico riutilizzabile](/help/dsp/audiences/reusable-audience-create.md)
-      + {hide-from-toc}[Crea un pubblico riutilizzabile utilizzando IA generativa](/help/dsp/audiences/reusable-audience-create-using-ai.md)
       + [Duplicare un pubblico riutilizzabile](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [Modificare un pubblico riutilizzabile](/help/dsp/audiences/reusable-audience-edit.md)
       + [Visualizzare i dettagli di un pubblico riutilizzabile](/help/dsp/audiences/reusable-audience-view-details.md)

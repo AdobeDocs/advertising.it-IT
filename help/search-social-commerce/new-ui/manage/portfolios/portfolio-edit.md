@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
 workflow-type: tm+mt
-source-wordcount: 122
+source-wordcount: 151
 ht-degree: 0%
 
 ---
@@ -25,13 +25,16 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Per modificare le impostazioni per più portfolio contemporaneamente, vedere &quot;[(Nuova interfaccia utente) Modifica in blocco le impostazioni del portfolio tramite file bulksheet](portfolio-bulksheets.md).&quot;
+>* Per modificare le impostazioni per più portfolio contemporaneamente, vedere &quot;[(Nuova interfaccia utente) Modifica in blocco le impostazioni del portfolio tramite file bulksheet](portfolio-bulksheets.md).&quot;
+>* Per rinominare rapidamente un portfolio senza aprire le impostazioni complete del portfolio, vedere &quot;[Rinominare un portfolio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-rename.md).&quot;
 
 1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
 
-1. Seleziona la casella di controllo accanto al portfolio.
+1. Effettuare una delle seguenti operazioni:
 
-1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Modifica](/help/search-social-commerce/assets/edit.png "Modifica") **[!UICONTROL Edit]**.
+   * Posizionare il cursore sulla riga del portfolio e fare clic su ![Modifica Portfolio](/help/search-social-commerce/assets/settings-new.png "Modifica Portfolio").
+
+   * Seleziona la casella di controllo accanto al portfolio. Nella barra degli strumenti Azioni in blocco, fare clic su ![Modifica](/help/search-social-commerce/assets/edit.png "Modifica").
 
 1. Modifica le impostazioni del portfolio.
 

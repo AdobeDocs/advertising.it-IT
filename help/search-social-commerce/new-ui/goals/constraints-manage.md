@@ -2,16 +2,14 @@
 title: Gestire i vincoli per le unità di offerta di ricerca
 description: Scopri i vincoli per limitare le offerte per le unità di offerta nelle campagne CPC nei portfolio legacy a livello di parola chiave.
 feature: Search Campaign Management, Search Optimization
-source-git-commit: 327f2214d601849008a3e6c8b804ea0f109b53d0
+source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
 workflow-type: tm+mt
-source-wordcount: '2636'
+source-wordcount: '2649'
 ht-degree: 0%
 
 ---
 
 # Gestire i vincoli per le unità di offerta di ricerca
-
-<!-- Read through all and edit as appropriate -->
 
 *Applicabile solo alle unità di offerta nelle campagne CPC in portfolio legacy a livello di parola chiave*
 
@@ -58,7 +56,7 @@ Alcuni motivi per limitare le unità di offerta sono i seguenti:
 
 * Per offrire termini specifici che sono fondamentali per il tuo marchio o durante le promozioni.
 
-### Dove visualizzare informazioni sui vincoli in tutta l&#39;interfaccia utente<!-- wording? -->
+### Dove visualizzare informazioni sui vincoli nell’interfaccia utente
 
 Oltre ad aprire la visualizzazione [[!UICONTROL Constraints]](#constraints-view), è possibile visualizzare le informazioni relative ai vincoli nei modi seguenti:
 
@@ -80,11 +78,9 @@ Nella vista [!UICONTROL Goals] > [!UICONTROL Constraints] sono elencati tutti i 
 >
 >I dati sulle prestazioni per una riga nella visualizzazione [!UICONTROL Constraints] potrebbero non corrispondere ai dati sulle prestazioni per l&#39;entità di livello superiore a cui è assegnato il vincolo. Poiché un vincolo assegnato al livello più basso sovrascrive sempre un vincolo assegnato a un livello padre, è possibile che un vincolo assegnato a una campagna o a un gruppo di annunci non rimanga assegnato ai gruppi di annunci e alle parole chiave figlio. Ad esempio, se alla campagna A viene assegnato il vincolo A, tutti i gruppi di annunci e le parole chiave della campagna A ereditano automaticamente il vincolo A. Tuttavia, tali gruppi di annunci e parole chiave potrebbero in seguito essere assegnati ad altri vincoli, come il vincolo B, perdendo così la loro associazione con il vincolo A.
 
-È possibile creare, modificare e modificare lo stato dei vincoli dalla visualizzazione [!UICONTROL Constraints].
-
 >[!NOTE]
 >
->È possibile assegnare vincoli alle unità di offerta e annullarne l&#39;assegnazione dalla vista di gestione delle entità pertinente (ad esempio dalla vista [!UICONTROL Campaigns] per i vincoli a livello di campagna).
+>Assegnare vincoli alle unità di offerta e annullarne l&#39;assegnazione dalla vista di gestione delle entità pertinente (ad esempio dalla vista [!UICONTROL Campaigns] per i vincoli a livello di campagna).
 
 #### Azioni disponibili
 
@@ -168,7 +164,7 @@ Dopo aver creato un vincolo, puoi [assegnarlo](#constraint-assign) a campagne, g
 | | [!UICONTROL Set constraint options for Bid Shift] | ([!UICONTROL Bid Shift] solo vincoli) Il tipo e l&#39;importo del turno di offerta da applicare continuamente all&#39;offerta di base:<ul><li>*[!UICONTROL Increases]:* Aumenta le offerte di un valore percentuale o valuta specificato. Immettere l&#39;importo da modificare, quindi selezionare *$* o *%*. Immettere inoltre **[!UICONTROL Max Limit]**, che è l&#39;offerta massima possibile quando viene applicato il vincolo. **Nota:** se l&#39;offerta CPC corrente è già uguale o maggiore di [!UICONTROL Max Limit], il vincolo viene ignorato e l&#39;offerta non viene modificata.</li><li>*[!UICONTROL Decreases]:* riduce le offerte di un valore percentuale o valuta specificato. Immettere l&#39;importo da modificare, quindi selezionare *$ o %*. Immettere anche **[!UICONTROL Min Limit]**, che è l&#39;offerta minima possibile (soglia minima) quando viene applicato il vincolo. **Nota:** se l&#39;offerta CPC corrente è già uguale o inferiore a [!UICONTROL Min Limit], il vincolo viene ignorato e l&#39;offerta non viene modificata.</li></ul>**Note:**<ul><li>Un cambiamento di offerta causerà una sovraspesa o una sottospesa dei portafogli rilevanti dell&#39;importo totale causato dal cambiamento di offerta, indipendentemente dall&#39;impostazione del portfolio per &quot;[!UICONTROL Spend Around Constraints]&quot;.</li><li>Se specifichi una data di fine per il vincolo e la funzionalità di ottimizzazione adegua automaticamente i limiti di spesa per le campagne nel portfolio, le offerte non si limitano a ripristinare gli importi originali dopo la data di fine, ma vengono adeguate in modo ottimale.</li><li>I cambiamenti di offerta non vengono applicati alle unità di offerta senza dati sufficienti per generare modelli di costi e ricavi.</li></ul> |
 | | [!UICONTROL Set constraint options for Incremental Bidding] | ([!UICONTROL Incremental Bidding] solo vincoli) Un target di offerta e quanto e con quale frequenza aumentare o diminuire l&#39;offerta in modo incrementale fino a raggiungere il target:<ul><li>**[!UICONTROL Bid target]:** L&#39;importo dell&#39;offerta target.</li><li>**[!UICONTROL Incrementally change bids by]** e **[Tipo]:** Quanto aumentare o diminuire in modo incrementale le offerte e se modificare le offerte in base a un valore di valuta (**$**) o a una percentuale (*%*).</li><li>**[!UICONTROL Every __ days]:** con quale frequenza incrementare le offerte.</li></ul>Ad esempio, supponiamo che l&#39;offerta corrente per una delle parole chiave sia 100 centesimi e che si desideri modificare l&#39;offerta del 10% ogni giorno fino a raggiungere un obiettivo di offerta di 500 centesimi. Il Giorno 1, dopo l’impostazione del vincolo, l’offerta per tale parola chiave è 110 centesimi (offerta corrente + 10%). Il giorno 2, l&#39;offerta è di 120 centesimi (offerta corrente per il giorno 1 + 20%) e così via. Tuttavia, se l’obiettivo dell’offerta è di 50 centesimi e gli altri parametri sono gli stessi, le offerte diminuiscono in modo incrementale fino a raggiungere i 50 centesimi. |
 | | [!UICONTROL Set constraint options for Search Engine Min Bid] | ([!UICONTROL Search Engine Min Bid] vincoli) Utilizza l&#39;offerta minima richiesta per mostrare un&#39;unità di offerta nella prima pagina dei risultati di ricerca in Google ([!UICONTROL Google First Page CPC]). Facoltativamente, inserisci un valore **[!UICONTROL Min Bid]** e/o un valore **[!UICONTROL Max Bid]** per definire l&#39;intervallo di offerte idonee per il vincolo. Ad esempio, se specifichi un [!UICONTROL Min Bid] di 2,50 USD e un [!UICONTROL Max Bid] di 4 USD, non farai un&#39;offerta sull&#39;unità di offerta se la prima offerta della pagina [!DNL Google Ads] è inferiore a 2,50 USD o superiore a 4 USD. |
-| | [!UICONTROL Set constraint options for Impression Share] | ([!UICONTROL Impression Share] solo vincoli) Le impostazioni includono:<ul><li>**[!UICONTROL Min Bid]** (facoltativo) l&#39;offerta base minima per le unità di offerta associate.</li><li>**[!UICONTROL Max Bid]:** (facoltativo) l&#39;offerta di base massima per le unità di offerta associate.</li><li>**[!UICONTROL Min Impression Share]:** La quota di impression più bassa, in percentuale, che attiverà il vincolo per le unità di offerta applicabili. Deve essere compreso tra 10 e 90. **Nota:** quando il vincolo non è conveniente, la funzionalità di ottimizzazione potrebbe sostituirlo.</li><li>**[!UICONTROL Max Impression Share]:** la quota di impression più elevata, in percentuale, che attiverà il vincolo per le unità di offerta applicabili. Deve essere compreso tra 10 e 90.**Nota:** quando il vincolo non è conveniente, la funzionalità di ottimizzazione potrebbe sostituirlo.</li></ul>> |
+| | [!UICONTROL Set constraint options for Impression Share] | ([!UICONTROL Impression Share] solo vincoli) Le impostazioni includono:<ul><li>**[!UICONTROL Min Bid]** (facoltativo) l&#39;offerta base minima per le unità di offerta associate.</li><li>**[!UICONTROL Max Bid]:** (facoltativo) l&#39;offerta di base massima per le unità di offerta associate.</li><li>**[!UICONTROL Min Impression Share]:** La quota di impression più bassa, in percentuale, che attiverà il vincolo per le unità di offerta applicabili. Deve essere compreso tra 10 e 90. **Nota:** quando il vincolo non è conveniente, la funzionalità di ottimizzazione potrebbe sostituirlo.</li><li>**[!UICONTROL Max Impression Share]:** la quota di impression più elevata, in percentuale, che attiverà il vincolo per le unità di offerta applicabili. Deve essere compreso tra 10 e 90.**Nota:** Se il vincolo non è conveniente, la funzionalità di ottimizzazione potrebbe sostituirlo.</li></ul>> |
 | [!UICONTROL Conditions] | [!UICONTROL Condition Type] | Se applicare condizioni al vincolo:<ul><li>*[!UICONTROL No Condition]:* (impostazione predefinita) Il vincolo viene applicato incondizionatamente durante l&#39;intervallo di date specificato.</li><li>*[!UICONTROL Satisfy]:* Il vincolo viene applicato solo quando vengono soddisfatte le condizioni specificate durante un periodo di valutazione dei dati specificato.</li></ul> |
 | | [!UICONTROL Data Evaluation Period] | (Quando sono impostate le condizioni) Il periodo di tempo per il quale valutare i dati per i criteri specificati. Se si seleziona *[!UICONTROL Custom date range],**&#x200B; specificare &#x200B;** [!UICONTROL Start Date] **&#x200B; e &#x200B;** [!UICONTROL End Date]** immettendo ogni data nel formato `MM-DD-YYYY` (ad esempio 03-29-2026 per il 29 marzo 2026) o facendo clic su ![Pulsante Calendario](/help/search-social-commerce/assets/calendar-new.png "Pulsante Calendario") per aprire il calendario e selezionare ogni data. |
 | | [!UICONTROL When to Apply Constraints] | (Quando sono impostate le condizioni) Quante condizioni del filtro devono essere soddisfatte per applicare il vincolo:<ul><li>*[!UICONTROL Match All Filters]:* Applica il vincolo quando viene soddisfatta ogni condizione di filtro specificata.</li><li>*[!UICONTROL Match Any Filters]:* Applica il vincolo quando viene soddisfatta almeno una delle condizioni di filtro specificate.</li></ul> |

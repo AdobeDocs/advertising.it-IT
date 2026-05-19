@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 341834cab1e23ddae903ecdeb6946cb004ea777e
 workflow-type: tm+mt
-source-wordcount: 388
+source-wordcount: 413
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Solo *[!DNL Google Ads]account*
 
 In Search, Social e Commerce puoi effettuare le seguenti operazioni:
 
-* Visualizza le conversioni avanzate esistenti per i lead.
+* Visualizza le conversioni avanzate esistenti per i lead.<!-- Where is this? -->
 
   Search, Social e Commerce sincronizzano le conversioni avanzate esistenti per i lead ogni giorno alle 05:00 nel fuso orario dell&#39;inserzionista.
 

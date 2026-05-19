@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
 workflow-type: tm+mt
-source-wordcount: 1392
+source-wordcount: 1422
 ht-degree: 0%
 
 ---
@@ -34,13 +34,13 @@ La nuova interfaccia utente presenta un nuovo menu principale a sinistra, che or
 
 ### Opzioni del menu principale
 
-Il tuo ruolo determina le opzioni disponibili:<!-- add link when available -->
+Il [profilo prodotto](/help/search-social-commerce/new-ui/user-administration.md#default-product-profiles) determina le opzioni disponibili:
 
 * Sottomenu **[!UICONTROL Dashboard]**:
 
    * **[!UICONTROL Overview]** Apre una visualizzazione [!UICONTROL Dashboard] configurabile con visualizzazioni delle prestazioni per tutti i portfolio.
 
-   * **[!UICONTROL Recommendations]**: esce dal nuovo sito e apre la visualizzazione legacy [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights].
+   * **[!UICONTROL Recommendations]**: apre una visualizzazione di sola lettura dei consigli dell&#39;editore da [!DNL Google Ads] e [!DNL Microsoft Advertising] e degli approfondimenti dell&#39;editore da [!DNL Microsoft Advertising.] Per visualizzare e rispondere ai consigli e agli approfondimenti, utilizzare la visualizzazione legacy [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]. Tornare all&#39;interfaccia utente legacy facendo clic sul pulsante [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Alerts & Notifications]**: esce dal nuovo sito e apre la visualizzazione legacy [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts].
 
@@ -148,17 +148,17 @@ Utilizza il campo di ricerca sopra il menu principale per cercare opzioni di men
 
 ## Altri menu basati su attività e informazioni in alto a destra
 
-### Riga superiore: menu CX Enterprise
+### Riga superiore: menu di CX Enterprise
 
-* Un elenco selezionabile di organizzazioni CX Enterprise a cui hai accesso.
+* Un elenco selezionabile di organizzazioni CX Enterprise a cui si ha accesso.
 
 * ![Centro assistenza](/help/search-social-commerce/assets/help-main-menu.png "Centro assistenza") Un menu della Guida che include collegamenti alla documentazione e altre informazioni.
 
-* ![Notifiche](/help/search-social-commerce/assets/notifications-aec.png "Notifiche") Pannello che elenca richieste, notifiche e annunci di CX Enterprise.
+* ![Notifiche](/help/search-social-commerce/assets/notifications-aec.png "Notifiche") Un pannello che elenca le richieste, le notifiche e gli annunci di CX Enterprise.
 
-* ![App](/help/search-social-commerce/assets/apps.png "App") elenco di soluzioni e servizi Adobe CX Enterprise a cui è possibile passare.
+* ![App](/help/search-social-commerce/assets/apps.png "App") un elenco di soluzioni e servizi Adobe CX Enterprise a cui passare.
 
-* ![Account](/help/search-social-commerce/assets/account.png "Account") Informazioni sul tuo profilo account CX Enterprise, da cui puoi modificare le preferenze e uscire.
+* ![Account](/help/search-social-commerce/assets/account.png "Account") Informazioni sul profilo dell&#39;account CX Enterprise, da cui è possibile modificare le preferenze e disconnettersi.
 
 ### Seconda riga: menu Ricerca aggiuntiva, Social e Commerce
 
@@ -208,15 +208,15 @@ L&#39;opzione [!UICONTROL Search] include i sottomenu seguenti. Il tuo ruolo det
 
 * ![Notifiche avvisi](/help/search-social-commerce/assets/notifications-panel.png "Notifiche avvisi") Un pannello che elenca le notifiche di ricerca, social e Commerce.
 
-  Quando [hai effettuato l&#39;accesso tramite Adobe CX Enterprise](sign-in.md), in questo pannello vengono visualizzate le notifiche da CX Enterprise.
+  Quando si è [connessi tramite Adobe CX Enterprise](sign-in.md), in questo pannello vengono visualizzate le notifiche da CX Enterprise.
 
 * ![Menu Guida](/help/search-social-commerce/assets/help-main-menu.png "Menu Guida") Menu della Guida che include collegamenti alla documentazione e altre informazioni.
 
-* ![Commutatore soluzione](/help/search-social-commerce/assets/menu-icon.png "Commutatore soluzione") Un elenco di soluzioni e servizi Adobe CX Enterprise a cui è possibile passare.
+* ![Commutatore della soluzione](/help/search-social-commerce/assets/menu-icon.png "Commutatore della soluzione") Un elenco di soluzioni e servizi Adobe CX Enterprise a cui è possibile passare.
 
 * ![Profilo utente](/help/search-social-commerce/assets/user-profile.png "Profilo utente") Collegamento al tuo profilo da cui puoi uscire.
 
-  Quando hai [effettuato l&#39;accesso tramite Adobe CX Enterprise](sign-in.md), puoi anche modificare il tuo profilo CX Enterprise, incluse le impostazioni relative alla password e alle notifiche di CX Enterprise.
+  Quando si è [connessi tramite Adobe CX Enterprise](sign-in.md), è anche possibile modificare il profilo CX Enterprise, incluse le impostazioni relative alla password e alle notifiche di CX Enterprise.
 
 >[!MORELIKETHIS]
 >

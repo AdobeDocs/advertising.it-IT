@@ -2,14 +2,16 @@
 title: Gestire le metriche di conversione di un inserzionista
 description: Scopri come utilizzare le metriche di conversione tracciate da Adobe Advertising per un inserzionista.
 feature: Conversions
-source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
+source-git-commit: 3272a0d3e5766a22c2ff761b84f1774cafe153bd
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
 
-# Gestire le metriche di conversione di un inserzionista
+# (Nuova interfaccia utente) Gestione e visualizzazione dei dati sulle prestazioni per le metriche di conversione di un inserzionista
+
+*funzionalità Beta*
 
 Le metriche di [conversione](/help/search-social-commerce/glossary.md#c-d) di un inserzionista vengono utilizzate in Adobe Advertising:
 
@@ -94,6 +96,50 @@ Impossibile eliminare un nome visualizzato esistente.
       1. Nella barra degli strumenti delle azioni in blocco, fai clic su ![Visibilità](/help/search-social-commerce/assets/visible.png "Visibilità") per visualizzare le metriche oppure su ![Visibilità disattivata](/help/search-social-commerce/assets/visibility-off.png "Visibilità disattivata") per nasconderle.
 
       1. (Per nascondere le metriche) Nel messaggio di conferma, fare clic su **[!UICONTROL Confirm]** per nascondere le metriche, inclusa la loro rimozione da qualsiasi metrica derivata che contiene le metriche.
+
+## Gestire i rapporti sui dati delle prestazioni per le conversioni
+
+Puoi scaricare le seguenti informazioni sulle conversioni tracciate: il nome della metrica sincronizzata, il nome visualizzato per la metrica nelle viste e nei rapporti di gestione di Ricerca, Social e Commerce, se la metrica è visibile nelle viste e nei rapporti di gestione, l’ID conversione e l’origine della metrica. Scaricare i dati in un file in formato cartella di lavoro [!DNL Microsoft Excel] (file XLSX).
+
+### Generare un rapporto con le righe di dati filtrate
+
+1. Nel menu principale, fare clic su **[!UICONTROL Goals]>[!UICONTROL Conversions]**.
+
+1. Specifica le conversioni di cui desideri scaricare i dati:
+
+   * Per scaricare i dati per righe specifiche, selezionare le caselle di controllo accanto alle righe.
+
+   * Per scaricare i dati per tutte le righe, non è necessario selezionare alcuna casella di controllo. Tutte le righe sono incluse per impostazione predefinita.
+
+1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Scarica report](/help/search-social-commerce/assets/download.png "Scarica report") **[!UICONTROL Reports]**.
+
+1. Nelle impostazioni di [!UICONTROL Grid Reports], immettere un nome di report univoco, quindi fare clic su **[!UICONTROL Generate]**.
+
+   Per impostazione predefinita, il file è denominato &quot;conversionsReport_YYYYMMDD_NNNN&quot;, dove &quot;NNNN&quot; è il numero del processo sequenziale (ad esempio &quot;conversionsReport_20260402_1326).
+
+   Il file viene aggiunto all&#39;elenco [!UICONTROL Recently Generated].
+
+1. (Facoltativo) Per scaricare il file una volta completato, fai clic su ![Scarica](/help/search-social-commerce/assets/download.png "Scarica") accanto al nome del file.
+
+   Il file viene scaricato in base alla normale procedura del browser.
+
+### Scaricare un rapporto completato
+
+1. Nel menu principale, fare clic su **[!UICONTROL Goals]>[!UICONTROL Conversions]**.
+
+1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Scarica report](/help/search-social-commerce/assets/download.png "Scarica report") **[!UICONTROL Reports]**.
+
+1. Nell&#39;elenco [!UICONTROL Recently Generated] della finestra di dialogo [!UICONTROL Grid Reports], fare clic su ![Scarica](/help/search-social-commerce/assets/download.png "Scarica") accanto al nome del file.
+
+   Il file viene scaricato in base alla normale procedura del browser.
+
+### Eliminare un rapporto completato
+
+1. Nel menu principale, fare clic su **[!UICONTROL Goals]>[!UICONTROL Conversions]**.
+
+1. Nella barra degli strumenti sopra la tabella dati, fai clic su ![Scarica](/help/search-social-commerce/assets/download.png "Scarica") **[!UICONTROL Reports]**.
+
+1. Nell&#39;elenco [!UICONTROL Recently Generated] della finestra di dialogo [!UICONTROL Grid Reports], fare clic su ![Elimina](/help/search-social-commerce/assets/delete-new.png "Elimina") accanto al nome del file.
 
 <!--
 >[!MORELIKETHIS]

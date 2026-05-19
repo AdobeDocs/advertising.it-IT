@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
 workflow-type: tm+mt
-source-wordcount: 374
+source-wordcount: 375
 ht-degree: 0%
 
 ---
@@ -45,11 +45,11 @@ L&#39;elemento personalizzabile [!UICONTROL Dashboard] > [!UICONTROL Overview] c
 
    1. (Facoltativo) Accanto a **[!UICONTROL Select by]**, scegliere come selezionare i portfolio:
 
-      * *[!UICONTROL All Portfolios]* (impostazione predefinita): rapporto sui portafogli specificati. Facoltativamente, è possibile filtrare l&#39;elenco dei portfolio modificando il **[!UICONTROL Currency]specificato.** Per impostazione predefinita, sono selezionati tutti i portfolio che utilizzano USD.
+      * *[!UICONTROL All Portfolios]* (impostazione predefinita): rapporto sui portafogli specificati. Facoltativamente, è possibile filtrare l&#39;elenco dei portfolio modificando il **[!UICONTROL Currency]specificato.** Per impostazione predefinita, vengono selezionati tutti i portfolio che utilizzano USD.
 
-      * *[!UICONTROL Portfolio Groups]:* Report sui portfolio specificati in un **[!UICONTROL Portfolio Group]specificato.** È possibile filtrare l&#39;elenco dei portfolio modificando il **[!UICONTROL Currency]specificato.** Per impostazione predefinita, sono selezionati tutti i portfolio che utilizzano USD nel gruppo di portfolio specificato.
+      * *[!UICONTROL Portfolio Groups]:* Report sui portfolio specificati in un **[!UICONTROL Portfolio Group]specificato.** Facoltativamente, è possibile filtrare l&#39;elenco dei portfolio modificando il **[!UICONTROL Currency]specificato.** Per impostazione predefinita, vengono selezionati tutti i portfolio che utilizzano USD nel gruppo di portfolio specificato.
 
-      * *[!UICONTROL Objectives]:* Report sui portfolio specificati con un **[!UICONTROL Objective]specificato.**. È possibile restringere l&#39;elenco dei portfolio modificando il **[!UICONTROL Currency]specificato.** Per impostazione predefinita, vengono selezionati tutti i portfolio che utilizzano USD con l&#39;obiettivo specificato.
+      * *[!UICONTROL Objectives]:* Report sui portfolio specificati con **[!UICONTROL Objective].** . Facoltativamente, è possibile restringere l&#39;elenco dei portfolio modificando il **[!UICONTROL Currency]specificato.** Per impostazione predefinita, vengono selezionati tutti i portfolio che utilizzano USD con l’obiettivo specificato.
 
    1. Selezionare e deselezionare le caselle di controllo accanto ai portfolio in base alle esigenze fino a quando nella sezione [!UICONTROL Selected Portfolios] non vengono elencati i portfolio sui quali si desidera creare il report.
 

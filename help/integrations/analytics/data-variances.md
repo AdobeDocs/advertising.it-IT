@@ -18,9 +18,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3d540e71081d223cc4e9ee28bb8b4f168c07ff50
 workflow-type: tm+mt
-source-wordcount: 3359
+source-wordcount: 3528
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 *Inserzionisti con una sola integrazione Adobe Advertising-Adobe Analytics*
 
-Gli inserzionisti con l&#39;integrazione [!DNL Analytics for Advertising] <!-- (A4AdC) --> registrano gli annunci a pagamento tramite Adobe Advertising e Adobe Analytics. Quando si tiene traccia di contenuti multimediali, campagne e canali tramite più sistemi, raramente gli stessi set di dati di sistemi diversi corrispondono completamente. In questo documento viene illustrato come si prevede che i dati dei contenuti multimediali oggetto di traffico tramite Adobe Advertising vengano confrontati con i dati dei diversi sistemi in cui i contenuti multimediali vengono tracciati in [!DNL Analytics].
+Gli inserzionisti con il tracciamento dell&#39;integrazione di [!DNL Analytics for Advertising] pubblicizzano a pagamento tramite Adobe Advertising e Adobe Analytics. Quando si tiene traccia di contenuti multimediali, campagne e canali tramite più sistemi, raramente gli stessi set di dati di sistemi diversi corrispondono completamente. In questo documento viene illustrato come si prevede che i dati dei contenuti multimediali oggetto di traffico tramite Adobe Advertising vengano confrontati con i dati dei diversi sistemi in cui i contenuti multimediali vengono tracciati in [!DNL Analytics].
 
 >[!NOTE]
 >

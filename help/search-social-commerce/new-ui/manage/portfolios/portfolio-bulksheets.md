@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
 workflow-type: tm+mt
-source-wordcount: 388
+source-wordcount: 393
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Un bulksheet portfolio è un file che contiene le impostazioni del portfolio in 
 
 1. Nella barra degli strumenti sopra la tabella dati, fai clic su:
 
-   * (Per tutti i portfolio) **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export All Portfolios]**.
+   * (Per tutti i portfolio) ![Operazioni in blocco](/help/search-social-commerce/assets/chevron-down.png "Operazioni in blocco") > **[!UICONTROL Export All Portfolios]**.
 
    * (Per i portfolio selezionati) **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export Selected Portfolios]**.
 
@@ -49,7 +49,7 @@ Un bulksheet portfolio è un file che contiene le impostazioni del portfolio in 
 
 Il file deve essere in formato XLSX.
 
-1. Nella barra degli strumenti sopra la tabella dati, fare clic su **[!UICONTROL Bulk Operations]** > **[!UICONTROL Import Portfolio Details]**.
+1. Nella barra degli strumenti sopra la tabella dati, fai clic su ![Operazioni in blocco](/help/search-social-commerce/assets/chevron-down.png "Operazioni in blocco") > **[!UICONTROL Import Portfolio Details]**.
 
 1. Nella finestra di dialogo [!UICONTROL Import Portfolio Details File]:
 
