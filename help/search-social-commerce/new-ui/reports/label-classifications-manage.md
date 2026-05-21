@@ -2,7 +2,7 @@
 title: Gestire le classificazioni delle etichette
 description: Scopri come utilizzare le classificazioni delle etichette per raggruppare i componenti dell’account.
 feature: Search Label Classifications
-source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
+source-git-commit: 639037683053009ce653dee6d7c1e4eb80abf4d8
 workflow-type: tm+mt
 source-wordcount: '1515'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Ogni inserzionista può avere fino a 30 classificazioni di etichette, che sono c
 
 ### Valori etichetta
 
-Ogni classificazione di etichetta può avere fino a 2000 valori. Dopo aver creato valori di etichetta specifici per una classificazione, puoi assegnarli a campagne, gruppi di annunci, parole chiave, annunci, posizionamenti e gruppi di prodotti [&#x200B; dalle viste gestione campagne](#classification-values-assign-campaign-management) o [utilizzando i bulksheet](#classification-values-assign-bulksheets).
+Ogni classificazione di etichetta può avere fino a 2000 valori. Dopo aver creato valori di etichetta specifici per una classificazione, puoi assegnarli a campagne, gruppi di annunci, parole chiave, annunci, posizionamenti e gruppi di prodotti [ dalle viste gestione campagne](#classification-values-assign-campaign-management) o [utilizzando i bulksheet](#classification-values-assign-bulksheets).
 
 Ogni entità idonea può avere valori di etichetta per più classificazioni, ma un solo valore di etichetta per classificazione. I valori delle etichette vengono ereditati dalle entità figlio, ma possono essere ignorati. Il valore assegnato al livello più basso sostituisce sempre i valori assegnati ai livelli padre.
 
@@ -161,7 +161,7 @@ Se si rimuove un valore di classificazione, viene rimossa l’associazione con i
 
    Per suggerimenti sulla selezione di più righe, vedere &quot;[Selezionare più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-1. Nella barra degli strumenti Azioni in blocco fare clic su **-[!UICONTROL Unassign]** > **[!UICONTROL Label Classification]**.
+1. Nella barra degli strumenti Azioni in blocco fare clic su **[!UICONTROL Unassign]** > **[!UICONTROL Label Classification]**.
 
 1. Selezionare la casella di controllo accanto a ogni valore di classificazione da rimuovere dalle entità selezionate.<!-- As of 2/24/26, no way to tell which entity each value is assigned to -->
 
