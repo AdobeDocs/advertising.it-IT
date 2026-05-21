@@ -18,9 +18,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
 workflow-type: tm+mt
-source-wordcount: 1394
+source-wordcount: 1457
 ht-degree: 0%
 
 ---
@@ -37,11 +37,13 @@ In DSP, puoi creare e gestire segmenti di pubblico e set di tipi di pubblico, ch
 
      Per ulteriori informazioni sul supporto di Adobe Advertising per le richieste di rifiuto del CCPA, consulta [Supporto di Adobe Advertising per il California Consumer Privacy Act: supporto per il rifiuto del consenso alla vendita](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
-* (funzionalità Beta) [Ottieni e utilizza ID universali per il targeting senza cookie](/help/dsp/audiences/universal-ids.md):
+* [Ottieni e utilizza ID universali per il targeting senza cookie](/help/dsp/audiences/universal-ids.md):
 
    * Invia manualmente i segmenti [!DNL LiveRamp] [!DNL RampID] autenticati direttamente a DSP.
 
    * Consenti a DSP di importare segmenti di prime parti dalla piattaforma di dati del cliente e tradurli in tipi di ID universali supportati.
+
+   * Importa [!DNL AdFixus] segmenti di prime parti contenenti [!DNL AdFixus] ID universali (solo Australia). Puoi quindi eseguire il targeting dei posizionamenti per [!DNL AdFixus] ID, aggiungere tali segmenti a [tipi di pubblico riutilizzabili](/help/dsp/audiences/reusable-audience-create.md) e utilizzare i rapporti descritti in &quot;[Importare segmenti di prime parti da [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)&quot;.
 
    * Includi segmenti di terze parti che contengono ID universali nei target di posizionamento senza passaggi aggiuntivi.
 
@@ -57,7 +59,11 @@ Sono disponibili molte opzioni per importare segmenti di dati di prime e terze p
 
 * DSP può richiamare il tuo Adobe Audience Manager e altri tipi di pubblico di [!DNL Adobe] per il targeting. Per i prerequisiti e le istruzioni, consulta &quot;[Importare segmenti di Adobe Audience Manager per il targeting degli annunci](/help/integrations/audience-manager/import-audiences.md).
 
-* DSP può tradurre i segmenti di dati di prime parti dalle piattaforme dati dei clienti supportate in segmenti con ID universali utilizzando la funzionalità [Origini](/help/dsp/audiences/sources/source-about.md). Puoi anche [inviare manualmente i segmenti autenticati [!DNL LiveRamp] [!DNL RampID] direttamente a DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md).
+* DSP può tradurre i segmenti di dati di prime parti dalle piattaforme dati dei clienti supportate in segmenti con ID universali utilizzando la funzionalità [Origini](/help/dsp/audiences/sources/source-about.md).
+
+* Gli inserzionisti australiani possono importare [!DNL AdFixus] segmenti di prime parti utilizzando la funzionalità [Sources](/help/dsp/audiences/sources/source-about.md) senza convertire gli ID universali [!DNL AdFixus] in altri tipi di ID.
+
+* DSP è una piattaforma di destinazione per [!DNL LiveRamp], quindi puoi [inviare manualmente i segmenti autenticati [!DNL LiveRamp] [!DNL RampID] direttamente a DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md).
 
 * DSP può importare altri segmenti di dati di prime parti direttamente dalla piattaforma di gestione dati (DMP) e fornirli a qualsiasi gruppo di inserzionisti, in base alle esigenze.
 
@@ -79,13 +85,13 @@ Puoi indirizzare i posizionamenti a tutti i seguenti tipi di pubblico.
 
    * Segmenti di pubblico di rifiuto del CCPA per gli utenti che hanno inviato richieste di rifiuto sul sito web, in base al California Consumer Privacy Act (CCPA).
 
-* Tutti i segmenti di dati di prime parti importati, inclusi i segmenti convertiti in ID universali.
+* Tutti i segmenti di dati di prime parti importati, inclusi i segmenti convertiti in ID universali e i segmenti che contengono [!DNL AdFixus] ID universali importati.
 
   Vengono addebitati costi aggiuntivi per le impression consegnate agli ID universali. Consulta &quot;[Informazioni sulle origini del pubblico di prime parti](/help/dsp/audiences/sources/source-about.md)&quot; per le tariffe.
 
 * Tutti i segmenti di dati di terze parti personalizzati importati.
 
-* (Posizionamenti destinati solo agli Stati Uniti) [Tutti i segmenti di dati di terze parti disponibili per i clienti DSP da oltre 30 provider](/help/dsp/audiences/third-party-data-providers.md), inclusi [!DNL eXelate], ([!DNL Eyeota]), ([!DNL LiveRamp]),[!DNL Lotame], [!DNL Neustar] e molti altri.
+* (Posizionamenti destinati solo agli Stati Uniti) [Tutti i segmenti di dati di terze parti disponibili per i clienti DSP da oltre 30 provider](/help/dsp/audiences/third-party-data-providers.md), inclusi [!DNL eXelate], ([!DNL Eyeota]), ([!DNL LiveRamp]),[!DNL Lotame], [!DNL TransUnion] e molti altri.
 
   Puoi eseguire il targeting di segmenti specifici, che eseguono il targeting degli utenti in base ai dati del pubblico (ad esempio, utenti con caratteristiche demografiche, interessi o intenti specifici e/o profili comportamentali). Puoi sfogliare per provider di dati e categoria, cercare i segmenti per nome o ID segmento oppure filtrare i risultati per provider di dati, dimensione del segmento attivo, numero di browser web o numero di dispositivi.
 
@@ -95,7 +101,7 @@ Puoi indirizzare i posizionamenti a tutti i seguenti tipi di pubblico.
 
   I prezzi per l’utilizzo dei segmenti sono pre-negoziati e non sono visibili in DSP.
 
-  I segmenti di [!DNL Analytics] sono disponibili circa un&#39;ora dopo la loro creazione o pubblicazione come tipi di pubblico di CX Enterprise. I segmenti provenienti direttamente da Audience Manager o [!DNL Real-Time CDP] sono disponibili entro 24 ore dalla condivisione.
+  I segmenti da [!DNL Analytics] sono disponibili circa un&#39;ora dopo la loro creazione o pubblicazione come tipi di pubblico CX Enterprise. I segmenti provenienti direttamente da Audience Manager o [!DNL Real-Time CDP] sono disponibili entro 24 ore dalla condivisione.
 
   >[!NOTE]
   >
@@ -151,11 +157,11 @@ Nella visualizzazione [!UICONTROL Segments] sono elencati anche i seguenti tipi 
 
 ### Visualizzazione [!UICONTROL Sources]
 
-Nella visualizzazione [!UICONTROL Sources] è possibile configurare le origini per i segmenti di prime parti nelle piattaforme dati dei clienti supportate che si desidera convertire in segmenti contenenti tipi ID universali specificati. Le impostazioni di origine includono una chiave di origine generata automaticamente, che fornirai alla piattaforma dati del cliente per stabilire la connessione.
+Nella visualizzazione [!UICONTROL Sources] è possibile configurare le origini per i segmenti di prime parti dalle piattaforme dati del cliente supportate che si desidera convertire in segmenti contenenti tipi ID universali specificati. È inoltre possibile configurare [!UICONTROL AdFixus ID] origini per importare segmenti con [!DNL AdFixus] ID universali (solo per l&#39;Australia). Le impostazioni di origine includono una chiave di origine generata automaticamente da condividere con il tuo CDP o team [!DNL AdFixus].
 
-Per ulteriori informazioni sulle piattaforme dati del cliente supportate, sui tipi di ID universali supportati e sui flussi di lavoro per impostare connessioni a ogni piattaforma dati del cliente, consulta &quot;[Informazioni sulle origini del pubblico di prime parti](/help/dsp/audiences/sources/source-about.md)&quot;.
+Per ulteriori informazioni sulle piattaforme supportate, sui tipi di ID universali supportati e sui flussi di lavoro di configurazione, vedi &quot;[Informazioni sulle origini del pubblico di prime parti](/help/dsp/audiences/sources/source-about.md)&quot;.
 
-I segmenti tradotti sono disponibili per l’inclusione in tipi di pubblico riutilizzabili e in impostazioni di posizionamento per il targeting senza cookie.
+I segmenti importati tramite [!UICONTROL Sources] sono disponibili per il pubblico riutilizzabile e il targeting [!UICONTROL Universal ID] nelle impostazioni di posizionamento, se applicabile.
 
 >[!MORELIKETHIS]
 >
@@ -166,5 +172,6 @@ I segmenti tradotti sono disponibili per l’inclusione in tipi di pubblico riut
 >* [Informazioni sulle origini del pubblico di prime parti](/help/dsp/audiences/sources/source-about.md)
 >* [Gestisci origini pubblico per attivare il pubblico con ID universale](/help/dsp/audiences/sources/source-manage.md)
 >* [Importa manualmente i segmenti autenticati da [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
+>* [Importa segmenti di prime parti da [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)
 >* [Provider di dati di terze parti disponibili](third-party-data-providers.md)
 >* [Impostazioni posizionamento](/help/dsp/campaign-management/placements/placement-settings.md)

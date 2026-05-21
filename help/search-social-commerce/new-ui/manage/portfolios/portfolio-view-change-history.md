@@ -3,7 +3,7 @@ title: (Nuova interfaccia) Visualizzare la cronologia delle modifiche di un port
 description: Scopri come visualizzare la cronologia delle modifiche per un portfolio.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
+source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -35,7 +35,6 @@ Le informazioni per ogni modifica includono la data, il nome utente della person
    * Fai clic su ![Filtro](/help/search-social-commerce/assets/filter-new.png "Filtro") per filtrare i dati in base al tipo di modifica.<!-- Not available as of 5-14: and by the user who performed the action -->.
 
    * Fai clic su ![Ordina](/help/search-social-commerce/assets/sort.png "Ordina") per ordinare l&#39;elenco in base alla data in ordine crescente o decrescente.
-
 
 ## Gestione dei report sui dati delle prestazioni per le cronologie delle modifiche
 

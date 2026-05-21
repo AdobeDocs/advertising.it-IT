@@ -4,9 +4,9 @@ user-guide-title: Guida di Advertising Search, Social e Commerce
 user-guide-description: Questa guida descrive le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire, tracciare e creare rapporti sulle campagne di annunci di ricerca, social e commerce.
 breadcrumb-title: Guida di Advertising Search, Social e Commerce
 index: true
-source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
+source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
 workflow-type: tm+mt
-source-wordcount: '2224'
+source-wordcount: '2084'
 ht-degree: 2%
 
 ---
@@ -117,14 +117,8 @@ ht-degree: 2%
          + [Informazioni sulla visualizzazione [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
          + [Gestisci i report di visualizzazione dati dalla visualizzazione [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + Rapporti {#reports}
-      + Classificazioni delle etichette {#label-classifications}
-         + [Informazioni sulle classificazioni delle etichette](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about)
-         + [Creare una classificazione di etichette](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-create)
-         + [Assegnare valori di classificazione ai componenti account dalle viste di gestione delle campagne](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management)
-         + [Assegnare valori di classificazione ai componenti conto utilizzando i bulksheet](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-bulksheets)
-         + [Rimuovere i valori di classificazione delle etichette dai componenti dell’account](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-remove)
-         + [Elimina valori di classificazione delle etichette](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-delete)
-         + [Eliminare le classificazioni delle etichette](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-delete)
+      + [Visualizza il report [!UICONTROL History Logs]](/help/search-social-commerce/new-ui/reports/history-logs.md)
+      + [Gestire le classificazioni delle etichette](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
    + Target {#target}
       + Parole chiave {#keywords}
          + [Informazioni sulla visualizzazione [!UICONTROL Keywords]](/help/search-social-commerce/new-ui/target/keywords/keyword-view-about.md)
