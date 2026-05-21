@@ -4,9 +4,9 @@ user-guide-title: Guida di Advertising Search, Social e Commerce
 user-guide-description: Questa guida descrive le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire, tracciare e creare rapporti sulle campagne di annunci di ricerca, social e commerce.
 breadcrumb-title: Guida di Advertising Search, Social e Commerce
 index: true
-source-git-commit: 38ee8dfbaf82d8f1d212a931956398444e61060f
+source-git-commit: 639037683053009ce653dee6d7c1e4eb80abf4d8
 workflow-type: tm+mt
-source-wordcount: '2088'
+source-wordcount: '2189'
 ht-degree: 2%
 
 ---
@@ -117,7 +117,17 @@ ht-degree: 2%
          + [Informazioni sulla visualizzazione [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
          + [Gestisci i report di visualizzazione dati dalla visualizzazione [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + Rapporti {#reports}
-      + [Gestire i feed dei report dei fogli di calcolo](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
+      + Rapporti pianificati {#scheduled}
+         + [Informazioni sui report](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/insights-reports/reports/report-about)
+         + [Le attività di configurazione iniziali per i rapporti](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/insights-reports/reports/initial-setup)
+         + [Dati utilizzati per i rapporti](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/insights-reports/reports/data-used-for-reports)
+      + Gestione dei rapporti {#report-management}
+         + Automazione {#automation}
+            + [Gestire i modelli di rapporto](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)
+            + [Gestire i feed dei report dei fogli di calcolo](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
+            + [Accesso FTP ai rapporti](/help/search-social-commerce/new-ui/reports/ftp-reports.md)
+         + [Calcolo delle regole di attribuzione](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules)
+         + [Domande frequenti sui rapporti personalizzati](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report)
       + [Visualizza il report [!UICONTROL History Logs]](/help/search-social-commerce/new-ui/reports/history-logs.md)
       + [Gestire le classificazioni delle etichette](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
    + Target {#target}
