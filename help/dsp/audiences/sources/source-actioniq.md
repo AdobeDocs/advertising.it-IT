@@ -2,16 +2,14 @@
 title: Converti ID utente da [!DNL ActionIQ] a ID universali
 description: Scopri come consentire a DSP di acquisire  [!DNL ActionIQ]  segmenti di prime parti.
 feature: DSP Audiences
-source-git-commit: 658c8a10c4085690ce4dd7e791883dbf31f1cb10
+source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
 
 # Converti ID utente da [!DNL ActionIQ] in ID universali
-
-*funzionalità Beta*
 
 Utilizza l&#39;integrazione di DSP con la piattaforma dati del cliente [!DNL ActionIQ] per convertire gli indirizzi e-mail con hash in ID universali per annunci pubblicitari mirati.
 

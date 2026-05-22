@@ -4,9 +4,9 @@ user-guide-title: Guida di Advertising DSP
 user-guide-description: Scopri le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire e ottimizzare le strategie degli annunci display con Advertising DSP e creare i relativi rapporti.
 breadcrumb-title: Guida di DSP
 index: true
-source-git-commit: e95a352e48c6e02ae7f89beb176d2cccaf4b0a71
+source-git-commit: a5e70555ba2a122db489ce1b73024ad89daee055
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1061'
 ht-degree: 3%
 
 ---
@@ -143,6 +143,7 @@ ht-degree: 3%
          + [Converti ID utente da [!DNL Amperity] a ID universali](/help/dsp/audiences/sources/source-amperity.md)
          + [Converti ID utente da [!DNL Optimizely] a ID universali](/help/dsp/audiences/sources/source-optimizely.md)
          + [Converti ID utente da [!DNL Tealium] a ID universali](/help/dsp/audiences/sources/source-tealium.md)
+         + [Importa segmenti di prime parti da [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)
       + [Gestire le origini del pubblico per attivare il pubblico dell’ID universale](/help/dsp/audiences/sources/source-manage.md)
    + [Importa manualmente i segmenti autenticati da [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
    + [Provider di dati di terze parti disponibili](/help/dsp/audiences/third-party-data-providers.md)

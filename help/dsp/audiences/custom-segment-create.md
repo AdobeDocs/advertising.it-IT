@@ -15,9 +15,9 @@ role_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 0bc24ca7b64ff9cb6da4922076e8999a3816cbf5
 workflow-type: tm+mt
-source-wordcount: 694
+source-wordcount: 700
 ht-degree: 0%
 
 ---
@@ -31,8 +31,6 @@ Puoi raccogliere i tuoi dati sul pubblico di prime parti creando e implementando
 >Per tenere traccia degli ID degli utenti dalle richieste di rifiuto del consumatore sul sito Web, in base al California Consumer Privacy Act (CCPA), crea un [segmento di rifiuto del CCPA](ccpa-opt-out-segment-create.md).
 
 ## Prerequisiti per i segmenti per tenere traccia degli ID5
-
-*funzionalità Beta*
 
 * Prima di generare un segmento per tenere traccia degli utenti associati agli ID5, firma un contratto con [!DNL ID5] e ottieni l&#39;ID partner della tua organizzazione. Contatta il team del tuo account Adobe per istruzioni.
 
@@ -77,9 +75,11 @@ Puoi raccogliere i tuoi dati sul pubblico di prime parti creando e implementando
 
    1. Fare clic su **[!UICONTROL Advanced]** per espandere le impostazioni avanzate, quindi selezionare i tipi di identificatori utente di cui il tag di segmento tiene traccia:
 
-      * *[!UICONTROL Cookies]:* (impostazione predefinita) Il tag del segmento tiene traccia dei cookie.
+      * [!UICONTROL Legacy]:
 
-      * [!UICONTROL Universal IDs (Beta)]:
+         * *[!UICONTROL Cookies]:* (impostazione predefinita) Il tag del segmento tiene traccia dei cookie.
+
+      * [!UICONTROL Universal IDs]:
 
          * *[!UICONTROL ID5]:* Il tag segmento tiene traccia di [!DNL ID5] ID. Non viene applicata alcuna tariffa per le impression consegnate agli ID universali.
 

@@ -14,31 +14,24 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
 workflow-type: tm+mt
-source-wordcount: 761
+source-wordcount: 881
 ht-degree: 0%
 
 ---
 
 # Gestire le origini del pubblico per attivare il pubblico dell’ID universale
 
-*funzionalità Beta*
+Crea un’origine in DSP per ogni pubblico di prime parti nella piattaforma dati del cliente che desideri importare o convertire in segmenti contenenti tipi di ID universali specificati. Puoi importare i segmenti nell’account DSP della tua organizzazione o in un account inserzionista. Quando si convertono i tipi di pubblico in ID universali, i costi vengono applicati in base ai tipi di ID universali selezionati. Una volta creata una sorgente, sono necessari passaggi aggiuntivi per inviare in streaming i tipi di pubblico sorgente da ogni piattaforma di dati del cliente. Vedere la nota alla fine della procedura per creare un&#39;origine.
 
-Crea un’origine in DSP per ogni pubblico di prime parti nella piattaforma dati del cliente che desideri convertire in segmenti contenenti tipi di ID universali specificati. Puoi importare i segmenti nell’account DSP della tua organizzazione o in un account inserzionista. Gli addebiti per i dati vengono applicati in base ai tipi di ID universali selezionati. Dopo aver creato una sorgente, sono necessari passaggi aggiuntivi per acquisire i tipi di pubblico da ogni piattaforma di dati cliente. Vedere la nota alla fine della procedura per creare un&#39;origine.
-
-In seguito, puoi modificare i tipi di ID universali in cui viene tradotto il pubblico di origine e visualizzare un registro delle modifiche.
+Per tutte le piattaforme dati del cliente ad eccezione di [!DNL AdFixus], in seguito sarà possibile modificare i tipi di ID universali in cui viene tradotto il pubblico di origine e visualizzare un registro delle modifiche.
 
 È inoltre possibile eliminare un&#39;origine.
 
 ## Creare un’origine di pubblico
 
-<!--
- Not sure about this
-
-You can create one source for each combination of universal ID partner and data visibility level.
-
--->
+Puoi creare una sorgente per ogni combinazione di partner ID universale e account o singolo inserzionista. Ad esempio, puoi avere un&#39;origine [!UICONTROL RT-CDP] per l&#39;account, un&#39;origine [!UICONTROL RT-CDP] per l&#39;inserzionista 1 e un&#39;origine [!UICONTROL RT-CDP] per l&#39;inserzionista 2.
 
 1. Nel menu principale, fare clic su **[!UICONTROL Audiences]** > **[!UICONTROL Sources]**.
 
@@ -47,6 +40,8 @@ You can create one source for each combination of universal ID partner and data 
 1. Nel menu [!UICONTROL Select a Type], seleziona la [piattaforma dati cliente](source-about.md):
 
    * *[!UICONTROL RT-CDP]*: [!DNL Adobe Real-Time CDP].
+
+   * *[!UICONTROL AdFixus ID]*: piattaforma dati cliente [!DNL AdFixus]. Applicabile solo agli inserzionisti in Australia.
 
    * *[!UICONTROL ActionIQ]*: piattaforma dati cliente [!DNL ActionIQ].
 
@@ -66,9 +61,13 @@ You can create one source for each combination of universal ID partner and data 
 
 >[!NOTE]
 >
->Dopo aver creato un’origine per la piattaforma di dati cliente, devi completare i passaggi aggiuntivi per importare il pubblico. Visualizza il [flusso di lavoro per [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md),<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), --> il [flusso di lavoro per [!DNL Amperity]](source-amperity.md), il [flusso di lavoro per [!DNL Optimizely]](source-optimizely.md) e il [flusso di lavoro per [!DNL Tealium]](source-tealium.md).
+>Dopo aver creato un’origine per la piattaforma di dati cliente, devi completare ulteriori passaggi per importare il pubblico:
+>* Per le origini [!DNL ActionIQ], collabora con il team del tuo account Adobe.
+>* Per altri tipi di origine, vedere<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), --> il [flusso di lavoro per [!DNL AdFixus]](source-adfixus.md), the [workflow for [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md), il [flusso di lavoro per [!DNL Amperity]](source-amperity.md), il [flusso di lavoro per [!DNL Optimizely]](source-optimizely.md) e il [flusso di lavoro per [!DNL Tealium]](source-tealium.md).
 
 ## Modificare i tipi di ID per un’origine pubblico
+
+*Disponibile per tutte le piattaforme dati del cliente supportate ad eccezione di[!DNL AdFixus]*
 
 <!-- 
 Clarify this:
@@ -87,7 +86,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 ## Eliminare un’origine di pubblico
 
-L&#39;eliminazione di un&#39;origine rimuove i segmenti tradotti attraverso l&#39;origine.<!-- Will performance data for the segment still be available in any types of reports?  If yes, which? -->
+L&#39;eliminazione di un&#39;origine rimuove i segmenti importati tramite l&#39;origine, inclusi tutti gli ID tradotti.<!-- Will performance data for the segment still be available in any types of reports?  If yes, which? -->
 
 1. Nel menu principale, fare clic su **[!UICONTROL Audiences]** > **[!UICONTROL Sources]**.
 
@@ -121,7 +120,7 @@ Puoi visualizzare i dettagli sulle modifiche apportate a un record di origine de
 
 **[!UICONTROL Enter IMS Org Id]:** ([!DNL Real-Time CDP] solo origini) ID organizzazione Adobe CX Enterprise per l&#39;account [!DNL Adobe Experience Platform].
 
-**[!UICONTROL Convert PII to the following IDs]:** i tipi di ID in cui verranno convertite le informazioni personali (PII, personally identifiable information). Se selezioni più tipi, il segmento generato viene compilato con valori per ciascun tipo di ID selezionato (ad esempio [!DNL RampID] e [!DNL Unified ID2.0] per ciascun indirizzo e-mail). Gli oneri per i dati sono applicati di conseguenza.
+**[!UICONTROL Convert PII to the following IDs]:** (disponibile per tutte le piattaforme dati del cliente supportate tranne [!DNL AdFixus]) I tipi di ID in cui verranno convertite le informazioni personali identificabili (PII). Se selezioni più tipi, il segmento generato viene compilato con valori per ciascun tipo di ID selezionato (ad esempio [!DNL RampID] e [!DNL Unified ID2.0] per ciascun indirizzo e-mail). Gli oneri per i dati sono applicati di conseguenza.
 
 Per [!DNL RampID] e [!DNL Unified ID2.0], il fornitore cerca ogni indirizzo e-mail per vedere se esiste già un ID e converte l&#39;indirizzo in un ID corrispondente quando disponibile. Se per l&#39;indirizzo non esiste alcun ID, viene creato un nuovo ID.
 
@@ -131,7 +130,7 @@ Per [!DNL RampID] e [!DNL Unified ID2.0], il fornitore cerca ogni indirizzo e-ma
 
 * *[!DNL RampID]:* Per convertire PII in [!DNL RampID]. È possibile utilizzare [!DNL RampIDs] per il retargeting degli utenti che accedono e per la misurazione di [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).
 
-* *[!DNL Unified ID2.0] (Beta):* Per convertire PII in un ID [Unified ID 2.0](https://unifiedid.com) per il retargeting degli utenti che accedono.
+* *[!DNL Unified ID2.0]:* Convertire PII in un ID [Unified ID 2.0](https://unifiedid.com) per il retargeting degli utenti che accedono.
 
 <!--
  Later
@@ -139,9 +138,9 @@ Per [!DNL RampID] e [!DNL Unified ID2.0], il fornitore cerca ogni indirizzo e-ma
 
 -->
 
-**[!UICONTROL Terms of Service]:** I termini del contratto di servizio per la conversione di PII in ID universali. Prima di poter convertire i dati in un nuovo tipo di ID, è necessario che tu o un altro utente nell’account DSP accetti una volta i termini. Per i clienti con contratti di assistenza gestiti, il team dell’account Adobe ottiene il consenso e accetta i termini per conto della tua organizzazione. Per leggere i termini, fare clic su **>**. Per accettare i termini, scorrere fino alla fine dei termini e fare clic su **[!UICONTROL Accept]**.
+**[!UICONTROL Terms of Service]:** I termini del contratto di servizio per la conversione di PII in ID universali. Prima di importare gli ID, convertire i dati in un nuovo tipo di ID o impostare come destinazione un tipo di ID Per i clienti con contratti di assistenza gestiti, il team dell’account Adobe ottiene il consenso e accetta i termini per conto della tua organizzazione. Per leggere i termini, fare clic su **>**. Per accettare i termini, scorrere fino alla fine dei termini e fare clic su **[!UICONTROL Accept]**.
 
-**[!UICONTROL Source Key]:** (sola lettura; generata automaticamente) La chiave di origine che puoi utilizzare per creare una connessione di destinazione nella piattaforma dati del cliente per inviare pubblici ad Advertising DSP. Puoi copiare il valore negli Appunti per incollarlo nelle impostazioni di connessione di destinazione o in un file.
+**[!UICONTROL Source Key]:** (sola lettura; generata automaticamente) La chiave di origine che puoi utilizzare per creare una connessione di destinazione nella piattaforma dati del cliente per inviare pubblici ad Advertising DSP. Puoi copiare il valore negli Appunti per incollarlo nelle impostazioni di connessione di destinazione o in un file. Condividi il valore con il team che invierà i tipi di pubblico a DSP.
 
 >[!MORELIKETHIS]
 >
@@ -151,4 +150,5 @@ Per [!DNL RampID] e [!DNL Unified ID2.0], il fornitore cerca ogni indirizzo e-ma
 >* [Converti ID utente da [!DNL Amperity] a ID universali](/help/dsp/audiences/sources/source-amperity.md)
 >* [Converti ID utente da [!DNL Optimizely] a ID universali](/help/dsp/audiences/sources/source-optimizely.md)
 >* [Converti ID utente da [!DNL Tealium] a ID universali](/help/dsp/audiences/sources/source-tealium.md)
+>* [Importa segmenti di prime parti da [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)
 >* [Informazioni su Gestione dell&#39;audience](/help/dsp/audiences/audience-about.md)
