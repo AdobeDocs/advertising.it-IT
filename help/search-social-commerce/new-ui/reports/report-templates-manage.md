@@ -2,9 +2,9 @@
 title: (Nuova interfaccia) Gestire i modelli di rapporto
 description: Scopri come creare, visualizzare, modificare ed eliminare modelli di rapporto riutilizzabili per rapporti pianificati e on-demand.
 feature: Search Reports
-source-git-commit: 639037683053009ce653dee6d7c1e4eb80abf4d8
+source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -31,27 +31,29 @@ Puoi gestire fino a 100 modelli alla volta.
 
 1. Effettuare una delle seguenti operazioni:
 
-* Per creare un modello da zero dalla scheda [!UICONTROL Latest Reports] o dalla scheda [!UICONTROL Templates], crea un report, abilitando l&#39;impostazione **[!UICONTROL Save as Template]**.
+   * Per creare un modello da zero dalla scheda [!UICONTROL Latest Reports] o dalla scheda [!UICONTROL Templates], crea un report, abilitando l&#39;impostazione **[!UICONTROL Save as Template]**.
 
-* Per creare un modello basato su un modello esistente:
+   * Per creare un modello basato su un modello esistente:
 
-   1. Fare clic sulla scheda **[!UICONTROL Templates]**.
+      1. Fare clic sulla scheda **[!UICONTROL Templates]**.
 
-   1. Selezionare la casella di controllo accanto al modello esistente.
+      1. Effettuare una delle seguenti operazioni:
 
-   1. Nella barra degli strumenti Azioni in blocco, fare clic su [Duplica](/help/search-social-commerce/assets/duplicate.png).
+         * Posizionare il cursore sulla riga del modello e fare clic su **...** > **[!UICONTROL Duplicate]**.
 
-   1. (Facoltativo) Rinomina il modello e, se necessario, modifica le impostazioni del rapporto.
+         * Selezionare la casella di controllo accanto al modello esistente. Nella barra degli strumenti Azioni in blocco, fare clic su [Duplica](/help/search-social-commerce/assets/duplicate.png).
 
-      Fare clic su **[!UICONTROL Next]** per spostarsi tra le sezioni di impostazione.
+      1. (Facoltativo) Rinomina il modello e, se necessario, modifica le impostazioni del rapporto.
 
-   1. Abilita l&#39;impostazione **[!UICONTROL Save as Template]**.
+         Fare clic su **[!UICONTROL Next]** per spostarsi tra le sezioni di impostazione.
 
-   1. Fare clic su **[!UICONTROL Create]**.
+1. Abilita l&#39;impostazione **[!UICONTROL Save as Template]**.
+
+1. Fare clic su **[!UICONTROL Create]**.
 
 <!--
 
-Not available to anyone as of 5/21:
+Not available to anyone as of 5/21. EDIT ALL IF WE ADD THIS FCT:
 
 ## Edit a report template {#template-edit}
 
@@ -75,7 +77,7 @@ You can change the settings for any report template you created. The new setting
 
 <!--
 
-Not available to anyone as of 5/21:
+Not available to anyone as of 5/21. EDIT ALL IF WE ADD THIS FCT:
 
 ## View a report template {#template-view}
 
