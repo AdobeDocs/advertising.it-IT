@@ -1,9 +1,9 @@
 ---
 title: Carica dati account offline per reporting e simulazioni
 description: Scopri come caricare manualmente i dati dell’account offline o in un bucket  [!DNL Amazon] [!DNL S3] per il supporto di reporting e simulazione. I file di registro tengono traccia dell’avanzamento dei processi di caricamento.
-source-git-commit: 8ba0f8fa6050a3e6ec93bcf08df2c0204191fc02
+source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---

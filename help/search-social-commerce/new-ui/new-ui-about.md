@@ -4,24 +4,21 @@ description: Scopri la nuova interfaccia utente.
 feature: Search Introduction
 exl-id: 27fcc1c2-fe69-4bdc-9786-c48b28da1560
 TQID: https://experienceleague.adobe.com/3xw-2l7hzRLYG-Se1SJV3eEFsipAy6jwbJnybubAzD0
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
 workflow-type: tm+mt
-source-wordcount: 211
+source-wordcount: 209
 ht-degree: 0%
 
 ---
 
 # Informazioni sulla nuova interfaccia utente
 
-Ora puoi gestire i tuoi obiettivi, simulazioni e portfolio dalla nuova interfaccia utente. Puoi anche eseguire alcune attività su campagne e gruppi di annunci. La nuova interfaccia utente di Ricerca, Social e Commerce viene eseguita in un nuovo URL all’interno del dominio https://experience.adobe.com.
+Dalla nuova interfaccia utente è ora possibile gestire obiettivi, simulazioni e portfolio ed eseguire molte altre attività. La nuova interfaccia utente di Ricerca, Social e Commerce viene eseguita in un nuovo URL all’interno del dominio https://experience.adobe.com.
 
-Nel tempo, le funzioni aggiuntive verranno spostate nella nuova interfaccia utente. Nel frattempo, puoi aprire la maggior parte delle funzioni nell’interfaccia precedente dal menu principale nella nuova interfaccia. Puoi anche passare facilmente dalla nuova interfaccia utente all’interfaccia precedente.
+Nel tempo, le funzioni rimanenti verranno aggiunte alla nuova interfaccia utente. Nel frattempo, puoi aprire la maggior parte delle funzioni nell’interfaccia precedente dal menu principale nella nuova interfaccia. Puoi anche passare facilmente dalla nuova interfaccia utente all’interfaccia precedente.
 
 Per ulteriori informazioni sull&#39;organizzazione della nuova interfaccia, vedere &quot;[Organizzazione dell&#39;interfaccia utente](/help/search-social-commerce/getting-started/user-interface.md).&quot;
 
