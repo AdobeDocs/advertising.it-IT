@@ -4,7 +4,7 @@ user-guide-title: Guida di Advertising Search, Social e Commerce
 user-guide-description: Questa guida descrive le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire, tracciare e creare rapporti sulle campagne di annunci di ricerca, social e commerce.
 breadcrumb-title: Guida di Advertising Search, Social e Commerce
 index: true
-source-git-commit: 64c9c550873ff210d1adb4217ddeca5f67548b77
+source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
 workflow-type: tm+mt
 source-wordcount: '2298'
 ht-degree: 2%
@@ -126,8 +126,6 @@ ht-degree: 2%
          + [Le attività di configurazione iniziali per i rapporti](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/insights-reports/reports/initial-setup){target="_blank"}
          + [Dati utilizzati per i rapporti](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/insights-reports/reports/data-used-for-reports){target="_blank"}
          + [Gestire i rapporti pianificati](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
-         + [Gestire i modelli di rapporto](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)
-         + [Accesso FTP ai rapporti](/help/search-social-commerce/new-ui/reports/ftp-reports.md)
          + Tipi di rapporti pianificati {#report-types}
             + Rapporti di base e avanzati {#basic-advanced-reports}
                + [Informazioni sui report di base e avanzati](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-about.md)
@@ -187,6 +185,8 @@ Assistere i formati dei report {#assist-report-formats}
                   + [[!UICONTROL Forecast Accuracy Report]](/help/search-social-commerce/new-ui/reports/management/model-accuracy/forecast-accuracy-report.md)
                   + [[!UICONTROL Forecast Accuracy (Actuals) Report]](/help/search-social-commerce/new-ui/reports/management/model-accuracy/forecast-accuracy-actuals-report.md)
                + [Impostazioni report di precisione modello](/help/search-social-commerce/new-ui/reports/management/model-accuracy/model-accuracy-report-settings.md)
+         + [Gestire i modelli di rapporto](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)
+         + [Accesso FTP ai rapporti](/help/search-social-commerce/new-ui/reports/ftp-reports.md)
          + [Calcolo delle regole di attribuzione](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules){target="_blank"}
          + [Domande frequenti sui rapporti personalizzati](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report){target="_blank"}
       + [Gestire i feed dei report dei fogli di calcolo](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
