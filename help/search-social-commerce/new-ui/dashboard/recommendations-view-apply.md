@@ -1,15 +1,15 @@
 ---
-title: Informazioni sul supporto di consigli e approfondimenti per gli editori
+title: Supporto di consigli e approfondimenti per gli editori
 description: Scopri come visualizzare e gestire i consigli e le informazioni dell’editore.
 feature: Search Recommendations
-source-git-commit: cfd8790d6b8384509a77103b8082ed033106431a
+source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1604'
 ht-degree: 0%
 
 ---
 
-# Informazioni sul supporto di consigli e approfondimenti per gli editori
+# Supporto di consigli e approfondimenti per gli editori
 
 *[!DNL Google Ads]e [!DNL Microsoft Advertising] account*
 
