@@ -4,9 +4,9 @@ user-guide-title: Guida di Advertising Search, Social e Commerce
 user-guide-description: Questa guida descrive le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire, tracciare e creare rapporti sulle campagne di annunci di ricerca, social e commerce.
 breadcrumb-title: Guida di Advertising Search, Social e Commerce
 index: true
-source-git-commit: eaefe3e592f79580664687d5309b51bbdd913f7f
+source-git-commit: 1da750a4b26fd4fe90c2552f2dc91fb1575019ab
 workflow-type: tm+mt
-source-wordcount: '2302'
+source-wordcount: '2304'
 ht-degree: 2%
 
 ---
@@ -209,6 +209,7 @@ Assistere i formati dei report {#assist-report-formats}
             + [Gestire gli account di rete degli annunci per il caricamento dei dati](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
          + [Gestisci [!DNL Naver]  account solo per il tracciamento](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
    + [Gestire gli avvisi personalizzati](/help/search-social-commerce/new-ui/alerts-manage.md)
+   + [Gestione notifiche](/help/search-social-commerce/new-ui/notifications-manage.md)
    + [Amministrazione utenti](/help/search-social-commerce/new-ui/user-administration.md)
 + Tracciamento {#tracking}
    + [Informazioni sul tracciamento](/help/search-social-commerce/tracking/tracking-about.md)
