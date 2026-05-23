@@ -4,16 +4,12 @@ description: Scopri dove accedere a diverse funzionalità.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
 TQID: https://experienceleague.adobe.com/KqfmmT9cFZpNIoIiaA0OjGlMDf4hvQzNhPpH8lYtViw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: eaefe3e592f79580664687d5309b51bbdd913f7f
 workflow-type: tm+mt
-source-wordcount: 1422
+source-wordcount: 1499
 ht-degree: 0%
 
 ---
@@ -28,21 +24,19 @@ ht-degree: 0%
 
 Ogni pagina include il menu principale e altri menu basati su attività e informazioni.
 
+Il [profilo di prodotto](/help/search-social-commerce/new-ui/user-administration.md#default-product-profiles) determina le opzioni disponibili, incluse le funzionalità disponibili in ogni visualizzazione.
+
 ## Menu principale
 
-La nuova interfaccia utente presenta un nuovo menu principale a sinistra, che organizza le attività per fase di lavoro. In seguito verranno aggiunti ulteriori sottomenu e opzioni dall’interfaccia utente legacy.
+La nuova interfaccia utente presenta un nuovo menu principale a sinistra, che organizza le attività per fase di lavoro.
 
 ### Opzioni del menu principale
-
-Il [profilo prodotto](/help/search-social-commerce/new-ui/user-administration.md#default-product-profiles) determina le opzioni disponibili:
 
 * Sottomenu **[!UICONTROL Dashboard]**:
 
    * **[!UICONTROL Overview]** Apre una visualizzazione [!UICONTROL Dashboard] configurabile con visualizzazioni delle prestazioni per tutti i portfolio.
 
    * **[!UICONTROL Recommendations]**: apre una visualizzazione di sola lettura dei consigli dell&#39;editore da [!DNL Google Ads] e [!DNL Microsoft Advertising] e degli approfondimenti dell&#39;editore da [!DNL Microsoft Advertising.] Per visualizzare e rispondere ai consigli e agli approfondimenti, utilizzare la visualizzazione legacy [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]. Tornare all&#39;interfaccia utente legacy facendo clic sul pulsante [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
-
-   * **[!UICONTROL Alerts & Notifications]**: esce dal nuovo sito e apre la visualizzazione legacy [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts].
 
 * Sottomenu **[!UICONTROL Goals]**:
 
@@ -64,7 +58,7 @@ Il [profilo prodotto](/help/search-social-commerce/new-ui/user-administration.md
 
    * **[!UICONTROL Portfolios]:** Apre una nuova visualizzazione [!UICONTROL Portfolios] che elenca tutti i portfolio per l&#39;inserzionista. Da questa vista puoi gestire i portfolio. Puoi aprire un elenco di vincoli assegnati e visualizzare i dettagli sulle prestazioni e sulla composizione per qualsiasi portfolio.
 
-     Le impostazioni del portfolio includono schede per assegnare l’obiettivo e le campagne, gestire la spesa, gestire i vincoli e controllare l’ottimizzazione. Solo gli utenti con il ruolo &quot;ottimizzazione esperti&quot; o superiore possono modificare le impostazioni nella scheda [!UICONTROL Control Optimization].
+     Le impostazioni del portfolio includono schede per assegnare l’obiettivo e le campagne, gestire la spesa, gestire i vincoli e controllare l’ottimizzazione. Solo gli utenti con il profilo di &quot;ottimizzazione avanzata&quot; o superiore possono modificare le impostazioni nella scheda [!UICONTROL Control Optimization].
 
    * **[!UICONTROL Campaigns]:** Apre una nuova visualizzazione [!UICONTROL Campaigns], che mostra tutte le campagne per l&#39;inserzionista. Puoi assegnare le campagne ai portfolio e gestire le assegnazioni di vincoli per le campagne selezionate. È inoltre possibile scaricare un report del contenuto della tabella dati. <!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
 
@@ -82,21 +76,19 @@ Il [profilo prodotto](/help/search-social-commerce/new-ui/user-administration.md
 
    * **[!UICONTROL Insights]**: esce dal nuovo sito e apre la visualizzazione legacy [!UICONTROL Insights & Reports] > [!UICONTROL Insights].
 
-   * **[!UICONTROL Scheduled Reports]**: esce dal nuovo sito e apre la visualizzazione legacy [!UICONTROL Insights & Reports] > [!UICONTROL Reports].
+   * **[!UICONTROL Scheduled Reports]**: apre una nuova visualizzazione [!UICONTROL Scheduled Reports] che consente di generare e gestire i report pianificati.
 
-   * **[!UICONTROL Spreadsheet Feeds]**: esce dal nuovo sito e apre la visualizzazione legacy [!UICONTROL Insights & Reports] > [!UICONTROL Spreadsheets].
+   * **[!UICONTROL Spreadsheet Feeds]**: apre una nuova visualizzazione [!UICONTROL Spreadsheets Feeds], dalla quale è possibile impostare feed di report da aggiornare quotidianamente.
 
-   * **[!UICONTROL History Logs]**: esce dal nuovo sito e apre la visualizzazione legacy [!UICONTROL Insights & Reports] > [!UICONTROL Change History].
+   * **[!UICONTROL History Logs]**: apre una nuova visualizzazione [!UICONTROL History Logs] con dettagli sulle modifiche recenti apportate all&#39;account dell&#39;inserzionista.
 
    * **[!UICONTROL Label Classification]** Apre una nuova visualizzazione [!UICONTROL Label Classifications]. Puoi gestire le classificazioni e assegnare/annullare l’assegnazione dei valori di classificazione a tutti i componenti account applicabili disponibili nella nuova interfaccia utente.
 
-   * **[!UICONTROL Bulksheets]**: esce dal nuovo sito e apre la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Bulksheets].
-
 * Sottomenu **[!UICONTROL Target]**:
 
-   * **[!UICONTROL Audiences]**: apre una nuova visualizzazione [!UICONTROL Audiences], che mostra tutti i tipi di pubblico esistenti per l&#39;inserzionista, tutti i target di pubblico e tutte le esclusioni di pubblico. Per gestire i tipi di pubblico, utilizza la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Audiences]. Tornare all&#39;interfaccia utente legacy facendo clic sul pulsante [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+   * **[!UICONTROL Audiences]**: apre una nuova visualizzazione che mostra tutti i tipi di pubblico esistenti per l&#39;inserzionista, tutti i destinatari del pubblico e tutte le esclusioni di pubblico. Per gestire i tipi di pubblico, utilizza la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Audiences]. Tornare all&#39;interfaccia utente legacy facendo clic sul pulsante [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
-   * **[!UICONTROL Auto Targets]** Chiude il nuovo sito e apre la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+   * **[!UICONTROL Auto Targets]** Apre una nuova visualizzazione, che mostra tutte le destinazioni automatiche esistenti per l&#39;inserzionista. Per gestire le destinazioni automatiche, utilizzare la vista legacy [!UICONTROL Campaigns] > [!UICONTROL Auto Targets]. Tornare all&#39;interfaccia utente legacy facendo clic sul pulsante [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Keywords]** Apre una nuova visualizzazione [!UICONTROL Keywords], che mostra le parole chiave esistenti e le parole chiave negative per l&#39;inserzionista. È possibile gestire le assegnazioni di vincoli per le parole chiave selezionate.
 
@@ -108,7 +100,7 @@ Il [profilo prodotto](/help/search-social-commerce/new-ui/user-administration.md
 
 * Sottomenu **[!UICONTROL Assets]**:
 
-   * **[!UICONTROL Creatives]** Chiude il nuovo sito e apre la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+   * **[!UICONTROL Creatives]** Apre una nuova visualizzazione, in cui sono elencate le risorse creative esistenti. Puoi visualizzare in anteprima ogni creatività. Per gestire la libreria di risorse, utilizza la vista legacy [!UICONTROL Campaigns] > [!UICONTROL Asset Library]. Tornare all&#39;interfaccia utente legacy facendo clic sul pulsante [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Extensions]** Apre visualizzazioni di sola lettura delle estensioni dell&#39;annuncio esistenti. Per gestire le estensioni, utilizzare la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Campaigns]. Tornare all&#39;interfaccia utente legacy facendo clic sul pulsante [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
@@ -116,23 +108,19 @@ Il [profilo prodotto](/help/search-social-commerce/new-ui/user-administration.md
 
 * Sottomenu **[!UICONTROL Set Up]**:
 
-   * **[!UICONTROL Manager Accounts]**: esce dal nuovo sito e apre la visualizzazione legacy [!UICONTROL Admin] > [!UICONTROL Manager Accounts].
+   * **[!UICONTROL Manager Accounts]**: apre una nuova visualizzazione degli account manager esistenti e delle reti di annunci. Per gestire i tuoi account manager, utilizza la vista legacy [!UICONTROL Admin] > [!UICONTROL Manager Accounts]. Tornare all&#39;interfaccia utente legacy facendo clic sul pulsante [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Accounts]**: apre una nuova visualizzazione [!UICONTROL Accounts]. Puoi gestire account di rete di annunci sincronizzati tramite una connessione API o configurati tramite il caricamento di dati. È inoltre possibile gestire gli account [!UICONTROL Naver] esistenti.
 
-   * **[!UICONTROL Import Campaigns]**: esce dal nuovo sito e apre la visualizzazione legacy [!UICONTROL Tools] > [!UICONTROL Import Campaigns].
+   * **[!UICONTROL Import Campaigns]**: apre una nuova visualizzazione da cui è possibile importare i dati della campagna.
+
+   * **[!UICONTROL Bulksheets]**: apre una nuova visualizzazione [!UICONTROL Bulksheets].
 
 <!--
  What's happening to these?
 
-Campaigns > Asset Library
-
-Insights > Notification Center (doesn't open from Dashboard > Alerts & Notifications)
-
-Tools > Conversion Upload Setup
 Tools > Generic Tracking
 Tools > Inventory Selection
-
 Tools > Admin > Data Source Setup
 -->
 
@@ -168,13 +156,13 @@ Utilizza il campo di ricerca sopra il menu principale per cercare opzioni di men
 
 * Intervallo di date configurabile per la visualizzazione corrente
 
-* ![Presentazione dell&#39;interfaccia utente](/help/search-social-commerce/assets/take-ui-tour.png "Presentazione dell&#39;interfaccia utente") Collegamento a una presentazione della nuova interfaccia utente.
-
 * ![Passa alla vecchia interfaccia](/help/search-social-commerce/assets/switch-to-old-ui.png "Passa alla vecchia interfaccia") Apre l&#39;interfaccia utente legacy in una nuova scheda o finestra.
+
+* ![Avviso personalizzato](/help/search-social-commerce/assets/custom-alert.png "Avviso personalizzato") consente di creare o visualizzare avvisi personalizzati in un pannello.
 
 * ![Stato sincronizzazione globale](/help/search-social-commerce/assets/global-sync-status.png "Stato sincronizzazione globale") Apre un elenco di <!--what kind --> processi di operazione in blocco.
 
-* ![Notifiche](/help/search-social-commerce/assets/notifications.png "Notifiche") Apre un pannello in cui sono elencate le notifiche di Ricerca, Social e Commerce.
+* ![Notifiche](/help/search-social-commerce/assets/notifications.png "Notifiche") Apre un pannello in cui sono elencate le notifiche di Ricerca, Social e Commerce. Puoi filtrare l&#39;elenco, modificare le impostazioni delle notifiche o aprire [!UICONTROL Notification Center].m
 
 ## Interfaccia utente legacy
 
