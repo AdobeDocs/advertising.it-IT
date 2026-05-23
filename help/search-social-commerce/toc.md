@@ -4,9 +4,9 @@ user-guide-title: Guida di Advertising Search, Social e Commerce
 user-guide-description: Questa guida descrive le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire, tracciare e creare rapporti sulle campagne di annunci di ricerca, social e commerce.
 breadcrumb-title: Guida di Advertising Search, Social e Commerce
 index: true
-source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
+source-git-commit: eaefe3e592f79580664687d5309b51bbdd913f7f
 workflow-type: tm+mt
-source-wordcount: '2298'
+source-wordcount: '2302'
 ht-degree: 2%
 
 ---
@@ -190,7 +190,7 @@ Assistere i formati dei report {#assist-report-formats}
          + [Calcolo delle regole di attribuzione](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules){target="_blank"}
          + [Domande frequenti sui rapporti personalizzati](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report){target="_blank"}
       + [Gestire i feed dei report dei fogli di calcolo](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
-      + [Visualizza il report [!UICONTROL History Logs]](/help/search-social-commerce/new-ui/reports/history-logs.md)
+      + [Visualizzare i registri della cronologia modifiche](/help/search-social-commerce/new-ui/reports/history-logs.md)
       + [Gestire le classificazioni delle etichette](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
    + Target {#target}
       + Parole chiave {#keywords}
@@ -208,6 +208,7 @@ Assistere i formati dei report {#assist-report-formats}
          + Account di caricamento dati {#data-upload}
             + [Gestire gli account di rete degli annunci per il caricamento dei dati](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
          + [Gestisci [!DNL Naver]  account solo per il tracciamento](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
+   + [Gestire gli avvisi personalizzati](/help/search-social-commerce/new-ui/alerts-manage.md)
    + [Amministrazione utenti](/help/search-social-commerce/new-ui/user-administration.md)
 + Tracciamento {#tracking}
    + [Informazioni sul tracciamento](/help/search-social-commerce/tracking/tracking-about.md)
