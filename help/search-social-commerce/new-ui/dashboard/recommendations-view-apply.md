@@ -2,7 +2,7 @@
 title: Supporto di consigli e approfondimenti per gli editori
 description: Scopri come visualizzare e gestire i consigli e le informazioni dell’editore.
 feature: Search Recommendations
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: 1328e52509e4111bc0e58412ebf3c3b2de0cb291
 workflow-type: tm+mt
 source-wordcount: '1604'
 ht-degree: 0%
@@ -237,14 +237,3 @@ I consigli ignorati non sono disponibili dalla rete di annunci.
 | [!UICONTROL Measurement] | Raccomandazioni per il tracciamento delle conversioni e la certificazione | Non disponibile in Search, Social e Commerce. | Questi consigli possono influire sulle prestazioni. Consulta il team del tuo account Adobe per discutere i pro e i contro di qualsiasi raccomandazione prima di applicarla. |
 | [!UICONTROL Repairs] | Raccomandazioni varie per migliorare le questioni relative all’account | Non disponibile in Search, Social e Commerce. | Esaminare periodicamente manualmente i suggerimenti di ripristino entro [!DNL Google Ads]. Questo tipo di consigli è un buon modo per identificare annunci non approvati, problemi di feed, problemi di tracciamento e così via. |
 | [!UICONTROL Other] | Consiglio di utilizzare l&#39;app mobile [!DNL Google Ads] | Non disponibile in Search, Social e Commerce. | — |
-
-<!--
-
->[!MORELIKETHIS]
->
->* [View your publisher recommendations and performance insights](recommendation-view.md)
->* [Apply or dismiss a publisher recommendation](recommendation-apply-dismiss.md)
->* [View the publisher recommendations log for an account](recommendation-view-log.md)
->* [Best practices for using publisher recommendations with portfolios](recommendation-best-practices.md)
-
--->
