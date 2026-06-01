@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: bf1ca7f6133c19bb68dbe0395416dca8ef647464
+source-git-commit: 18f4c5afafd63a6ae9421bf80b4e5b5fd424ed86
 workflow-type: tm+mt
-source-wordcount: 2329
+source-wordcount: 2309
 ht-degree: 2%
 
 ---
@@ -79,6 +79,7 @@ ht-degree: 2%
    + [Informazioni sulla nuova interfaccia utente](/help/search-social-commerce/new-ui/new-ui-about.md)
    + Dashboard {#dashboard}
       + [Visualizzare il dashboard delle prestazioni](/help/search-social-commerce/new-ui/dashboard/dashboard-overview.md)
+      + [Supporto di consigli e approfondimenti per gli editori](/help/search-social-commerce/new-ui/dashboard/recommendations-view-apply.md)
    + Obiettivi {#goals}
       + Obiettivi {#objectives}
          + [Informazioni sugli obiettivi](/help/search-social-commerce/new-ui/goals/objectives/objective-about.md)
@@ -133,8 +134,9 @@ ht-degree: 2%
          + [Gestisci i report di visualizzazione dati dalla visualizzazione [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + Rapporti {#reports}
       + Rapporti pianificati {#scheduled}
-         + [Le attività di configurazione iniziali per i rapporti](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/insights-reports/reports/initial-setup){target="_blank"}
-         + [Dati utilizzati per i rapporti](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/insights-reports/reports/data-used-for-reports){target="_blank"}
+         + [Informazioni sui rapporti pianificati](/help/search-social-commerce/new-ui/reports/report-about.md)
+         + [Le attività di configurazione iniziali per i rapporti](/help/search-social-commerce/new-ui/reports/initial-setup.md)
+         + [Dati utilizzati per i rapporti](/help/search-social-commerce/new-ui/reports/data-used-for-reports.md)
          + [Gestire i rapporti pianificati](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
          + Tipi di rapporti pianificati {#report-types}
             + Rapporti di base e avanzati {#basic-advanced-reports}
