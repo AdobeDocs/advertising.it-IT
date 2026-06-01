@@ -1,19 +1,19 @@
 ---
-title: Funzioni disponibili per la gestione delle metriche di conversione
+title: (Nuova interfaccia) Funzioni disponibili per la gestione delle metriche di conversione
 description: Scopri le diverse funzioni disponibili per la gestione delle metriche di conversione.
 feature: Conversions
-source-git-commit: bb3490852f03ce13dc8572297be1dd1d256043a1
+source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
 
-# Funzioni disponibili per la gestione delle metriche di conversione
+# (Nuova interfaccia) Funzioni disponibili per la gestione delle metriche di conversione
 
 Dalla visualizzazione [!UICONTROL Goals] > [!UICONTROL Conversions], è possibile effettuare le seguenti operazioni:
 
-* [Genera un tag di tracciamento delle conversioni di Adobe Advertising](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate).<!-- Update link if I move the file -->
+* [Genera un tag di tracciamento delle conversioni di Adobe Advertising](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate).<!-- Update link if I move the file -->
 
 * Per tutte le metriche di conversione tracciate per un inserzionista:
 

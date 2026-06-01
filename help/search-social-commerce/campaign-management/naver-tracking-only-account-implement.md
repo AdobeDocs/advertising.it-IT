@@ -4,14 +4,10 @@ description: Scopri come impostare campagne di tracciamento per i tuoi account  
 exl-id: acbaf4f0-eb55-4788-bc84-c3181d635f1d
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/ny0Bdmm-faAvcnnS77oGVJGwGr3tAHOtFpQ-EGhcBVs
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: baec698f16aafc163adf2c4cfa76c92af7e1ad61
 workflow-type: tm+mt
 source-wordcount: 687
 ht-degree: 0%
@@ -62,7 +58,7 @@ Puoi tenere traccia delle metriche delle prestazioni in tutte le campagne e per 
 
    Di seguito è riportato un esempio dell’URL di destinazione con tracciamento:
 
-   ```http://pixel.everesttech.net/1234/cq?ev_sid=87&ev_cl=258e27dcec70156a667f2229020e488&url=http%3A//www.example.com```
+   `http://pixel.everesttech.net/1234/cq?ev_sid=87&ev_cl=258e27dcec70156a667f2229020e488&url=http%3A//www.example.com`
 
    1. Copiare i valori [!UICONTROL Destination URL] nel file di bulksheet scaricato nelle impostazioni delle parole chiave pertinenti nella rete.
 
