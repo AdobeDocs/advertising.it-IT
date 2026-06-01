@@ -15,7 +15,7 @@ role_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0bc24ca7b64ff9cb6da4922076e8999a3816cbf5
+source-git-commit: baec698f16aafc163adf2c4cfa76c92af7e1ad61
 workflow-type: tm+mt
 source-wordcount: 700
 ht-degree: 0%
@@ -40,7 +40,7 @@ Puoi raccogliere i tuoi dati sul pubblico di prime parti creando e implementando
 
    1. Aggiungi il seguente parametro alle tue pagine Web prima o all&#39;interno del codice [JavaScript richiesto per [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md), in un punto qualsiasi prima dell&#39;inizializzazione dell&#39;ultimo servizio eventi.
 
-      ```window.id5PartnerId=ID5_PartnerID;```
+      `window.id5PartnerId=ID5_PartnerID;`
 
       Esempio:
 
@@ -101,11 +101,11 @@ Puoi raccogliere i tuoi dati sul pubblico di prime parti creando e implementando
 
             Ad esempio, se l&#39;ID partner ID5 è `abcde` e il tag del segmento generato è
 
-            ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+            `<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />`
 
             quindi sostituisci `ID5_PARTNER_ID` con `abcde` all&#39;interno del tag per ottenere quanto segue:
 
-            ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+            `<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />`
 
             L&#39;organizzazione ha ricevuto l&#39;ID partner quando ha firmato un contratto con [!DNL ID5]. Se non conosci il tuo ID partner, contatta il team del tuo account Adobe.
 

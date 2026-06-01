@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: eaefe3e592f79580664687d5309b51bbdd913f7f
+source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
 workflow-type: tm+mt
-source-wordcount: 1499
+source-wordcount: 1506
 ht-degree: 0%
 
 ---
@@ -46,11 +46,11 @@ La nuova interfaccia utente presenta un nuovo menu principale a sinistra, che or
 
    * **[!UICONTROL Objectives]** Apre una nuova visualizzazione [!UICONTROL Objectives], dalla quale è possibile visualizzare tutti gli obiettivi esistenti e creare, modificare ed eliminare gli obiettivi.
 
-<!--  Not there as of 4/3:  * **[!UICONTROL Conversions]** Exits the new site and opens the legacy [!UICONTROL Admin] > [!UICONTROL Conversions] view. -->
+   * **[!UICONTROL Conversions]** Apre una nuova visualizzazione, dalla quale è possibile visualizzare le metriche di conversione di un inserzionista e personalizzare le metriche disponibili per le visualizzazioni e i report di gestione.
 
-* **[!UICONTROL Conversion Value Rules]** Apre visualizzazioni di sola lettura delle regole dei valori di conversione a livello di campagna e di account. Per gestire le regole del valore di conversione, utilizzare la vista legacy [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules]. Tornare all&#39;interfaccia utente legacy facendo clic sul pulsante [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+   * **[!UICONTROL Conversion Value Rules]** Apre una nuova visualizzazione per visualizzare e gestire le regole dei valori di conversione a livello di campagna e di account per gli account [!DNL Google Ads].
 
-* **[!UICONTROL Constraints]** Apre una visualizzazione di sola lettura dei vincoli esistenti. Per gestire i vincoli, utilizzare la vista legacy [!UICONTROL Optimization] > [!UICONTROL Constraints]. Tornare all&#39;interfaccia utente legacy facendo clic sul pulsante [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+   * **[!UICONTROL Constraints]** Apre una visualizzazione di sola lettura dei vincoli esistenti. Per gestire i vincoli, utilizzare la vista legacy [!UICONTROL Optimization] > [!UICONTROL Constraints]. Tornare all&#39;interfaccia utente legacy facendo clic sul pulsante [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
 * Sottomenu **[!UICONTROL Plan]**:
 
