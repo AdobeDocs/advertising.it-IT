@@ -2,8 +2,10 @@
 title: (Nuova interfaccia) Le attività di configurazione iniziali per i rapporti
 description: Scopri come rendere le metriche disponibili nei rapporti e come automatizzare i rapporti.
 feature: Search Reports
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2: id: e246c273-d720-4ece-b29b-7aaba7d50169
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: e246c273-d720-4ece-b29b-7aaba7d50169
 source-git-commit: 18f4c5afafd63a6ae9421bf80b4e5b5fd424ed86
 workflow-type: tm+mt
 source-wordcount: 357
