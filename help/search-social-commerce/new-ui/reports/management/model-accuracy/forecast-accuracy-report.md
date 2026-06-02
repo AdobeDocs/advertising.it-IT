@@ -2,7 +2,7 @@
 title: '[!UICONTROL Forecast Accuracy Report]'
 description: Scopri il rapporto Precisione previsione, comprese le colonne di dati.
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: 2d218abb121a750ea3d75a68ebaf6d0b0b306a09
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Puoi visualizzare i dati relativi ai 18 mesi precedenti.
 >
 >* Per le previsioni di costo, una deviazione del 10% negli ultimi sette giorni è considerata accettabile, pertanto la spesa effettiva compresa tra il 90% e il 110% della spesa prevista va bene. Per le previsioni di entrate, una deviazione del 15% negli ultimi sette giorni è considerata accettabile, quindi un reddito effettivo compreso tra l’85% e il 115% della spesa prevista va bene. Si dovrebbero esaminare le previsioni con scostamenti più elevati.
 >
->* Quando le parole chiave nel portfolio sono associate a vincoli di spostamento dell’offerta, il portfolio sovrascrive o sottoutilizza l’importo totale causato dallo spostamento dell’offerta. Di conseguenza, le colonne dei costi previsti si discostano dalla spesa target per l’aumento o la riduzione della spesa.
+>* Quando le parole chiave nel portfolio sono associate a [vincoli di spostamento dell&#39;offerta](/help/search-social-commerce/new-ui/goals/constraints-manage.md), il portfolio sovrascrive o sottoutilizza l&#39;importo totale causato dallo spostamento dell&#39;offerta. Di conseguenza, le colonne dei costi previsti si discostano dalla spesa target per l’aumento o la riduzione della spesa.
 
 ## Colonne disponibili
 
