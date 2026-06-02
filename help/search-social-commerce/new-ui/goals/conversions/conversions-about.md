@@ -2,9 +2,14 @@
 title: (Nuova interfaccia) Funzioni disponibili per la gestione delle metriche di conversione
 description: Scopri le diverse funzioni disponibili per la gestione delle metriche di conversione.
 feature: Conversions
-source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
+feature_v2:
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+source-git-commit: fe6aa2856831433f9b0673d0cc1e35e92f1728de
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: 114
 ht-degree: 0%
 
 ---
@@ -13,7 +18,7 @@ ht-degree: 0%
 
 Dalla visualizzazione [!UICONTROL Goals] > [!UICONTROL Conversions], è possibile effettuare le seguenti operazioni:
 
-* [Genera un tag di tracciamento delle conversioni di Adobe Advertising](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate).<!-- Update link if I move the file -->
+* [Generare un tag di tracciamento delle conversioni di Adobe Advertising](/help/search-social-commerce/new-ui/goals/conversions/conversion-tag-generate.md)
 
 * Per tutte le metriche di conversione tracciate per un inserzionista:
 
@@ -25,6 +30,6 @@ Dalla visualizzazione [!UICONTROL Goals] > [!UICONTROL Conversions], è possibil
 
    * [Scarica dati prestazioni per conversioni](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md#manage-performance-data-reports-for-conversions).
 
-* Creare azioni di conversione per [!DNL Google Ads] conversioni avanzate per lead da tracciare per singoli account [!DNL Google Ads].
+* [Crea azioni di conversione per [!DNL Google Ads] conversioni avanzate per lead](/help/search-social-commerce/new-ui/goals/conversions/conversion-action-google-create.md) da monitorare per singoli account [!DNL Google Ads].
 
-* Carica dati di conversione offline di prime parti da mappare sulle [[!DNL Google Ads] conversioni avanzate esistenti per lead](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md) e [[!DNL Microsoft Advertising] conversioni avanzate](https://help.ads.microsoft.com/#apex/ads/en/60178).
+* [Carica dati di conversione offline di prime parti](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md) da mappare alle [!DNL Google Ads] conversioni avanzate esistenti per lead e [[!DNL Microsoft Advertising] conversioni avanzate](https://help.ads.microsoft.com/#apex/ads/en/60178).

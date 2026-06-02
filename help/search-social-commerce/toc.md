@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 18f4c5afafd63a6ae9421bf80b4e5b5fd424ed86
+source-git-commit: fe6aa2856831433f9b0673d0cc1e35e92f1728de
 workflow-type: tm+mt
-source-wordcount: 2309
+source-wordcount: 2342
 ht-degree: 2%
 
 ---
@@ -91,7 +91,12 @@ ht-degree: 2%
          + [Impostazioni obiettivo](/help/search-social-commerce/new-ui/goals/objectives/objective-settings.md)
          + [Abilita il caricamento degli obiettivi nelle reti di annunci](/help/search-social-commerce/new-ui/goals/objectives/objective-upload-to-networks.md)
       + Conversioni {#conversions}
+         + [Funzioni disponibili per la gestione delle metriche di conversione](/help/search-social-commerce/new-ui/goals/conversions/conversions-about.md)
+         + [Generare e implementare un tag di tracciamento delle conversioni di Adobe Advertising](/help/search-social-commerce/new-ui/goals/conversions/conversion-tag-generate.md)
          + [Gestire e visualizzare i dati sulle prestazioni per le metriche di conversione di un inserzionista](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
+         + Conversioni avanzate {#enhanced-conversions}
+            + [Crea un&#39;azione di conversione per una conversione  [!DNL Google Ads]  avanzata per i lead](/help/search-social-commerce/new-ui/goals/conversions/conversion-action-google-create.md)
+            + [Carica dati di conversione offline per conversioni avanzate](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md)
       + [Gestisci [!DNL Google Ads] regole valore di conversione](/help/search-social-commerce/new-ui/goals/conversion-value-rules-manage.md)
    + Piano {#plan}
       + [Informazioni sulle simulazioni](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
