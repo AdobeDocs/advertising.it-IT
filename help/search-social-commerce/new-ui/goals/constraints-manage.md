@@ -2,9 +2,9 @@
 title: Gestire i vincoli per le unità di offerta di ricerca
 description: Scopri i vincoli per limitare le offerte per le unità di offerta nelle campagne CPC nei portfolio legacy a livello di parola chiave.
 feature: Search Campaign Management, Search Optimization
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: ade0f3ada440b76555b60af97162f7abe454fa0f
 workflow-type: tm+mt
-source-wordcount: '2649'
+source-wordcount: '2660'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Dopo aver impostato un vincolo, puoi assegnarlo a unità di offerta specifiche o
 >[!NOTE]
 >
 >* I vincoli attivi limitano le offerte solo per le unità di offerta assegnate nei portfolio legacy ottimizzati a livello di parola chiave. Vengono ignorate per le unità di offerta che si trovano in portafogli ibridi, in portafogli attivi o che non si trovano in portfolio. **Suggerimento:** nelle impostazioni del portfolio, attiva l&#39;opzione portfolio su &quot;Regola automaticamente i limiti di budget delle campagne&quot;. Il valore &quot;Multiple&quot; consigliato è &quot;1&quot;.
-> * I vincoli di offerta vengono ignorati per le unità di offerta prive di dati sufficienti per generare modelli di costi e ricavi.
+>* I vincoli di offerta vengono ignorati per le unità di offerta prive di dati sufficienti per generare modelli di costi e ricavi.
 >* (Campagne con una strategia di offerta CPC o eCPC) Quando un vincolo di offerta è in conflitto con un limite di offerta a livello di portafoglio, il vincolo sostituisce il limite a livello di portafoglio. Ad esempio, se l’offerta minima di un portfolio è di 5 USD ma si limita un’unità di offerta nel portfolio a un’offerta minima di 3 USD, l’unità di offerta è pari o superiore a 3 USD. La spesa complessiva per le unità di offerta vincolate, tuttavia, è determinata dal parametro [&quot;Spend Around Constraints&quot; del portfolio](#spend-around-constraints).
 >* I vincoli operano sull’offerta di base. Qualsiasi tipo di regolazione dell’offerta rispetto all’offerta di base (ad esempio l’aumento dell’offerta per gli utenti finali sui dispositivi mobili) può spostare l’offerta al di fuori dell’intervallo consentito per il vincolo. Ad esempio, se il vincolo richiede un CPC massimo di 6 USD, l’offerta di base è già di 6 USD e il portfolio ottimizza automaticamente le regolazioni delle offerte per i dispositivi mobili al 50%-60%, il CPC massimo è di 9,00-9.60 USD — non di 6 USD.
 
@@ -172,19 +172,18 @@ Dopo aver creato un vincolo, puoi [assegnarlo](#constraint-assign) a campagne, g
 
 ## Assegna vincoli alle unità di offerta di ricerca {#constraint-assign}
 
-Puoi applicare vincoli di unità di offerta a qualsiasi campagna, gruppo di annunci, parola chiave, posizionamento, gruppo di prodotti di acquisto a livello di unità (il livello più basso di suddivisione) o destinazione di ricerca dinamica.
+Puoi applicare vincoli di unità di offerta a qualsiasi campagna, gruppo di annunci, parola chiave, posizionamento o destinazione di ricerca dinamica (destinazione automatica).
 
 Ogni entità può avere un solo vincolo. Potete assegnare un singolo vincolo a una o più entità contemporaneamente.
 
 >[!NOTE]
 >
->Se successivamente modificate una parola chiave o la copia dell&#39;annuncio per un annuncio, creando in tal modo una nuova parola chiave o un nuovo annuncio, il vincolo non viene assegnato alla nuova entità.
+>* Se successivamente modificate una parola chiave o la copia dell&#39;annuncio per un annuncio, creando in tal modo una nuova parola chiave o un nuovo annuncio, il vincolo non viene assegnato alla nuova entità.
+>* Vedere le stesse istruzioni nella visualizzazione [[!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), [[!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [[!UICONTROL Keywords]](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md) o [[!UICONTROL Placements]](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md). <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
 
 1. Dal menu principale, apri la relativa vista di gestione.
 
    Ad esempio, per assegnare vincoli a livello di campagna, passa a [!UICONTROL Manage] > [!UICONTROL Campaigns].
-
-   <!-- for [campaigns](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), [ad groups](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [keywords](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md), or [placements](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md). And ADD LINKS WHEN AVAILABLE for shopping product groups and dynamic search targets. -->
 
 1. (Facoltativo) Filtra l&#39;elenco [dalla barra degli strumenti](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) o da un&#39;intestazione [colonna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
@@ -198,7 +197,10 @@ Ogni entità può avere un solo vincolo. Potete assegnare un singolo vincolo a u
 
 ## Annulla l’assegnazione dei vincoli dalle unità di offerta di ricerca {#constraints-unassign}
 
-**Nota:** Per eliminare un vincolo rendendolo non disponibile per un utilizzo futuro, vedere &quot;[Modificare lo stato dei vincoli](#constraint-change-status).&quot;
+>[!NOTE]
+>
+>* Per eliminare un vincolo rendendolo non disponibile per un utilizzo futuro, vedere &quot;[Modificare lo stato dei vincoli](#constraint-change-status).&quot;
+>* Vedere le stesse istruzioni nella visualizzazione [[!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), [[!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [[!UICONTROL Keywords]](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md) o [[!UICONTROL Placements]](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md). <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
 
 1. Nel menu principale, apri la vista di gestione pertinente.
 
