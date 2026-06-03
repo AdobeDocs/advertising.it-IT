@@ -18,16 +18,16 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+source-git-commit: 074ca9f026dd75cffc0d7dbb2d3e1290aac3eaef
 workflow-type: tm+mt
-source-wordcount: 1306
+source-wordcount: 1310
 ht-degree: 0%
 
 ---
 
 # Panoramica di [!DNL Analytics for Advertising]
 
-*Inserzionisti con Advertising Creative, Advertising DSP e[!DNL Advertising Search, Social, & Commerce]*
+*Inserzionisti con Advertising Creative, Advertising DSP e Advertising Search, Social e Commerce*
 
 [!DNL Analytics for Advertising] integra Adobe Analytics e Adobe Advertising per estendere e migliorare le funzionalità di ogni prodotto.
 
@@ -58,7 +58,7 @@ Vantaggi principali:
 * Utilizzare gli ID view-through e click-through persistenti di Adobe Advertising in [!DNL Analytics] per comprendere il coinvolgimento del sito.
 * Sfrutta Analysis Workspace per comprendere meglio i punti di ingresso al sito e il comportamento delle visite. Puoi accedere ai dati di eventi e dimensionali dei contenuti multimediali a pagamento, che includono i nomi delle entità di Adobe Advertising Campaign (fino a posizionamenti e annunci) e le metriche associate, come clic, impression e costi.
 
-Per utilizzare [!DNL Analytics] come strumento di reporting per contenuti multimediali a pagamento, è necessario un accesso Adobe CX Enterprise (precedentemente Adobe Experience Cloud) con accesso ad Analysis Workspace. Il team di Adobe Advertising ti aiuterà a mappare i dati di Adobe Advertising sulle singole suite di rapporti in Analysis Workspace. Puoi inviare dati di Adobe Advertising a qualsiasi suite di rapporti, ma dovresti essere a conoscenza delle suite di rapporti che sono state mappate su Adobe Advertising e di quelle che non lo sono state. A seconda della suite di rapporti, questo potrebbe modificare i dati segnalati.
+Per utilizzare [!DNL Analytics] come strumento di reporting per contenuti multimediali a pagamento, la tua organizzazione deve accedere ad Adobe CX Enterprise (già Adobe Experience Cloud) con accesso ad Analysis Workspace. Il team di Adobe Advertising ti aiuterà a mappare i dati di Adobe Advertising sulle singole suite di rapporti in Analysis Workspace. Puoi inviare dati di Adobe Advertising a qualsiasi suite di rapporti, ma dovresti essere a conoscenza delle suite di rapporti che sono state mappate su Adobe Advertising e di quelle che non lo sono state. A seconda della suite di rapporti, questo potrebbe modificare i dati segnalati.
 
 [Gli ID Adobe Advertising all&#39;interno di [!DNL Analytics]](ids.md) funzionano come altri [!DNL eVars], con una scadenza personalizzata e persistente. Per impostazione predefinita, l’intervallo di lookback dell’attribuzione è impostato su 60 giorni durante l’implementazione di Adobe Advertising. Per modificare questa impostazione, rivolgiti al team del tuo account Adobe.
 
@@ -81,7 +81,7 @@ Senza richiedere pixel aggiuntivi, [!DNL Analytics for Advertising] consente una
 
   È possibile utilizzare [!DNL Analytics] segmenti per il retargeting del sito di prime parti in [!DNL DSP], [!DNL Creative] e annunci di ricerca a pagamento.
 
-  (Solo per [!DNL Search, Social, & Commerce]) Gli inserzionisti con [!DNL Analytics] ma non Audience Manager possono anche creare tipi di pubblico basati su tag (elenchi di remarketing) e tipi di pubblico con corrispondenza dei clienti (elenchi dei clienti) del sito Web Google da [!DNL Analytics] segmenti condivisi con CX Enterprise.
+  Solo ([!DNL Search, Social, & Commerce]) gli inserzionisti con [!DNL Analytics] ma non Audience Manager possono anche creare tipi di pubblico basati su tag del sito Web Google (elenchi di remarketing) e tipi di pubblico corrispondenti ai clienti (elenchi clienti) da [!DNL Analytics] segmenti condivisi con CX Enterprise.
 
 ### Metriche di conversione del sito come segnali di offerta
 
@@ -101,11 +101,11 @@ Per un elenco delle metriche disponibili, vedere &quot;[Metriche di Analytics in
 
 Adobe Advertising può acquisire [!DNL Analytics] segmenti a scopo di remarketing per annunci [!DNL Creative], [!DNL DSP] e [!DNL Search, Social, & Commerce] utilizzando l&#39;integrazione nativa di CX Enterprise Audiences tra [!DNL Analytics] e CX Enterprise.
 
-Per accedere ai segmenti [!DNL Analytics], un account inserzionista deve abilitare il [servizio Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it). Quando il servizio ID è abilitato, tutti i segmenti di CX Enterprise diventano disponibili in Adobe Advertising non appena vengono elaborati. I segmenti di CX Enterprise includono i segmenti creati in [!DNL Analytics] e pubblicati in CX Enterprise, i segmenti creati in Adobe Audience Manager, i segmenti creati in CX Enterprise utilizzando [!DNL People core service] e i segmenti creati in Adobe Experience Platform e inviati ad Adobe Advertising tramite Audience Manager.
+Per accedere ai segmenti [!DNL Analytics], un account inserzionista deve abilitare il servizio [Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it). Quando il servizio ID è abilitato, tutti i segmenti CX Enterprise diventano disponibili in Adobe Advertising non appena vengono elaborati. I segmenti CX Enterprise includono i segmenti creati in [!DNL Analytics] e pubblicati in CX Enterprise, i segmenti creati in Adobe Audience Manager, i segmenti creati in CX Enterprise utilizzando [!DNL People core service] e i segmenti creati in Adobe Experience Platform e inviati ad Adobe Advertising tramite Audience Manager.
 
 [!DNL Analytics] segmenti sono disponibili entro 24 ore e vengono aggiornati ogni giorno.
 
-Per ulteriori informazioni sul servizio CX Enterprise Audiences, vedi [Tipi di pubblico di CX Enterprise](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=it).
+Per ulteriori informazioni sul servizio CX Enterprise Audiences, vedere [CX Enterprise Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=it).
 
 ## Esempi di come utilizzare l’integrazione {#integration-examples}
 

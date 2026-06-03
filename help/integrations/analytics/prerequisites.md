@@ -18,16 +18,16 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+source-git-commit: 074ca9f026dd75cffc0d7dbb2d3e1290aac3eaef
 workflow-type: tm+mt
-source-wordcount: 834
+source-wordcount: 840
 ht-degree: 0%
 
 ---
 
 # Prerequisiti e informazioni chiave per l&#39;implementazione di [!DNL Analytics for Advertising]
 
-*Inserzionisti con Advertising DSP e[!DNL Advertising Search, Social, & Commerce]*
+*Inserzionisti con Advertising Creative, Advertising DSP e Advertising Search, Social e Commerce*
 
 Leggi le seguenti informazioni prima di integrare Adobe Advertising con Adobe Analytics.
 
@@ -54,7 +54,7 @@ Leggi le seguenti informazioni prima di integrare Adobe Advertising con Adobe An
 Fornisci al team di implementazione di Adobe Advertising quanto segue:
 
 * ID suite di rapporti [!DNL Analytics] da utilizzare per la generazione di rapporti sulle attività a pagamento e per il feed delle attività del sito per l&#39;ottimizzazione e il reporting in Adobe Advertising
-* L’ID organizzazione CX Enterprise (ID organizzazione) dell’azienda.
+* L&#39;ID organizzazione aziendale CX (ID organizzazione) della società.
 
 Puoi trovare entrambi questi ID nella [scheda Riepilogo di Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=it).
 

@@ -1,6 +1,6 @@
 ---
 title: Novità
-description: Scopri gli aggiornamenti alle integrazioni tra Adobe Advertising e altri prodotti e servizi in Adobe CX Enterprise (precedentemente Adobe Experience Cloud).
+description: Scopri gli aggiornamenti alle integrazioni tra Adobe Advertising e altri prodotti e servizi di Adobe CX Enterprise (precedentemente Adobe Experience Cloud).
 cloud: Experience Cloud
 product: advertising cloud
 index: true
@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+source-git-commit: 074ca9f026dd75cffc0d7dbb2d3e1290aac3eaef
 workflow-type: tm+mt
-source-wordcount: 870
+source-wordcount: 962
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ Le seguenti funzioni sono nuove o modificate di recente.
 
 | Data | Funzionalità | Descrizione | Per Ulteriori Informazioni |
 | ---- | ------- | ----------- | -------------------- |
+| 3 giugno 2026 | [!DNL Adobe Analytics for Advertising] | Gli inserzionisti con Advertising Creative e [!DNL Adobe Analytics for Advertising] ora possono visualizzare dati a livello di variante e ramo in Adobe Analytics. I dati vengono visualizzati indipendentemente dal DSP utilizzato per eseguire annunci dalle esperienze [!DNL Creative]. Se esegui gli annunci da un posizionamento Advertising DSP, vedrai anche i dati a livello di campagna e posizionamento e le metriche relative ai costi.<br><br>Non è richiesta alcuna configurazione aggiuntiva. | Visualizza le [metriche del traffico](https://experienceleague.adobe.com/it/docs/analytics/components/metrics/amo-metrics) di Advertising Creative e le [classificazioni](https://experienceleague.adobe.com/it/docs/analytics/components/dimensions/amo-id#classifications) visibili in [!DNL Analytics]. |
 | 8 settembre 2025 | Integrazione con Customer Journey Analytics | (funzionalità Beta) Gli inserzionisti con Customer Journey Analytics ma non con [!DNL Analytics for Advertising] possono ora scambiare dati in modalità nativa tra Adobe Advertising e Customer Journey Analytics utilizzando [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it). | Vedi &quot;[Panoramica dell&#39;integrazione tra Adobe Advertising e Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md).&quot; |
 | 26 marzo 2025 | [!DNL Adobe Analytics for Advertising] | (Inserzionisti con account Search, Social e Commerce; [!DNL Microsoft Advertising] e [!DNL Adobe Analytics for Advertising]) Per gli account con l’opzione di tracciamento [!UICONTROL Auto Upload], il formato del parametro AMO ID nei suffissi della pagina di destinazione per tutti i tipi di campagna è stato aggiornato al formato più recente. In precedenza, le campagne con prestazione massima per la maggior parte degli account venivano migrate al nuovo formato.<br><br>Per gli account senza l&#39;opzione di tracciamento [!UICONTROL Auto Upload] che non sono già stati migrati al nuovo formato, è tuttavia necessario aggiornare manualmente ogni suffisso di pagina di destinazione per includere il nuovo formato AMO ID.<br><br>Formato corrente: `s_kwcid=AL!{userid}!10!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}` | Consulta &quot;[Panoramica di [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)&quot; e dei [formati AMO ID](https://experienceleague.adobe.com/it/docs/analytics/components/dimensions/amo-id#dimension-items).&quot; |
 | 13 novembre 2024 | [!DNL Analytics for Advertising] | (Inserzionisti con [!DNL Analytics for Advertising] e Adobe Customer Journey Analytics) Se utilizzi variabili riservate per acquisire gli AMO ID e gli EF ID, puoi prepararti per una futura integrazione tra Adobe Advertising e Adobe Customer Journey Analytics copiando al più presto le variabili riservate per l’AMO ID e l’EF ID nello standard [!DNL eVars]. In questo modo sarà possibile raccogliere i dati storici per gli AMO ID e gli EF ID non appena si completa l’attività e i dati storici saranno disponibili per utilizzi futuri. Il team del tuo account Adobe ti informerà se utilizzi variabili riservate e se devi completare questa attività. | Consulta &quot;[Raccogliere dati storici per gli ID AMO e gli ID EF da utilizzare in Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).&quot; |
