@@ -2,10 +2,15 @@
 title: (Nuova interfaccia) Convalida delle pagine di destinazione in file bulksheet
 description: Scopri come convalidare gli URL di destinazione in un file di bulksheet per un singolo account nella nuova interfaccia utente di Search, Social e Commerce.
 feature: Search Bulksheets
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2: id: e58024d1-d6da-420c-80af-6be211808316id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: e58024d1-d6da-420c-80af-6be211808316
+  - id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: f916f47a40729ff39ac1456e3b3ad93e1045e9a9
 workflow-type: tm+mt
 source-wordcount: 585
@@ -52,7 +57,7 @@ Successivamente puoi scaricare il file, correggere gli errori e caricare il file
 
    **[!UICONTROL Report redirects as errors]:** Quando una pagina di destinazione viene reindirizzata a un&#39;altra pagina (ad esempio, se la pagina di destinazione risulta mancante e il sito visualizza una pagina sostitutiva), la colonna [!UICONTROL EF Errors] nel file di errore della pagina di destinazione indica l&#39;URL a cui viene reindirizzata la pagina di destinazione.
 
-Quando l&#39;attività inizia, viene aggiunta una nuova riga alla visualizzazione [!UICONTROL Bulksheets]. Quando le notifiche e-mail per i bulksheet sono abilitate per [ in [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications/notification-manage.md), al momento della creazione del file viene inviata una notifica e-mail con un collegamento al file. A seconda della quantità di dati compilati, la notifica e-mail potrebbe richiedere alcuni minuti o più. Puoi scaricare il file per modificarlo e quindi ricaricarlo per la pubblicazione, oppure puoi pubblicare il file così com’è.
+Quando l&#39;attività inizia, viene aggiunta una nuova riga alla visualizzazione [!UICONTROL Bulksheets]. Quando le notifiche e-mail per i bulksheet sono abilitate per [&#x200B; in [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications/notification-manage.md), al momento della creazione del file viene inviata una notifica e-mail con un collegamento al file. A seconda della quantità di dati compilati, la notifica e-mail potrebbe richiedere alcuni minuti o più. Puoi scaricare il file per modificarlo e quindi ricaricarlo per la pubblicazione, oppure puoi pubblicare il file così com’è.
 
 >[!NOTE]
 >
