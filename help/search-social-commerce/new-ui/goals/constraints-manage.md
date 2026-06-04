@@ -17,7 +17,7 @@ ht-degree: 0%
 
 *Applicabile solo alle unità di offerta nelle campagne CPC in portfolio legacy a livello di parola chiave*
 
-I vincoli dell&#39;unità di offerta sono regole che limitano le offerte ottimizzate per tutte le [unità di offerta](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html) con modelli di costi e ricavi associati al vincolo.
+I vincoli dell&#39;unità di offerta sono regole che limitano le offerte ottimizzate per tutte le [unità di offerta](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html?lang=it) con modelli di costi e ricavi associati al vincolo.
 
 ## Informazioni sui vincoli
 
@@ -64,7 +64,7 @@ Alcuni motivi per limitare le unità di offerta sono i seguenti:
 
 Oltre ad aprire la visualizzazione [[!UICONTROL Constraints]](#constraints-view), è possibile visualizzare le informazioni relative ai vincoli nei modi seguenti:
 
-* Tutti i vincoli sono valori di etichetta per una singola [classificazione di etichetta](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html) denominata &quot;[!UICONTROL Constraints]&quot;.
+* Tutti i vincoli sono valori di etichetta per una singola [classificazione di etichetta](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html?lang=it) denominata &quot;[!UICONTROL Constraints]&quot;.
 
    * &quot;[!UICONTROL Constraints]&quot; è incluso nell&#39;elenco &quot;[!UICONTROL Classifications]&quot; nelle impostazioni di visualizzazione predefinite e personalizzate e nei report pianificati. È possibile aggiungere la colonna in qualsiasi punto si desideri visualizzare i vincoli assegnati alle entità rilevanti.
 
