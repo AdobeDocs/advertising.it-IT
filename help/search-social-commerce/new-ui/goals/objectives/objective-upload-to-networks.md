@@ -3,9 +3,9 @@ title: (Nuova interfaccia utente) Abilita il caricamento degli obiettivi nelle r
 description: Scopri come caricare gli obiettivi per i portfolio ibridi in Google Ads e Microsoft Advertising.
 feature: Search Objectives, Search Optimization
 hide: true
-source-git-commit: bf1ca7f6133c19bb68dbe0395416dca8ef647464
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ Se l&#39;obiettivo, denominato `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_a
 >[!MORELIKETHIS]
 >
 >* [Informazioni sugli obiettivi](objective-about.md)
->* [Gestione e visualizzazione dei dati sulle prestazioni per le metriche di conversione di un inserzionista](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
+>* [Gestire le metriche di conversione di un inserzionista](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
 >* [Gestione credenziali per [!DNL Google Ads] account manager](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)
 
 <!--

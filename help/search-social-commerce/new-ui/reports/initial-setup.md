@@ -2,13 +2,11 @@
 title: (Nuova interfaccia) Le attività di configurazione iniziali per i rapporti
 description: Scopri come rendere le metriche disponibili nei rapporti e come automatizzare i rapporti.
 feature: Search Reports
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2:
-  - id: e246c273-d720-4ece-b29b-7aaba7d50169
-source-git-commit: 18f4c5afafd63a6ae9421bf80b4e5b5fd424ed86
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: e246c273-d720-4ece-b29b-7aaba7d50169
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: 357
+source-wordcount: 352
 ht-degree: 0%
 
 ---
@@ -17,7 +15,7 @@ ht-degree: 0%
 
 I nuovi utenti devono eseguire le seguenti attività di configurazione iniziale:
 
-* Rendi le metriche di conversione che Adobe Advertising sta tracciando per un inserzionista disponibili per i rapporti e altre visualizzazioni e, facoltativamente, rinomina una qualsiasi delle metriche di conversione visualizzate nelle intestazioni di colonna per migliorarne la leggibilità. Consulta &quot;[Gestire e visualizzare i dati sulle prestazioni per le metriche di conversione di un inserzionista](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md).&quot;
+* Rendi le metriche di conversione che Adobe Advertising sta tracciando per un inserzionista disponibili per i rapporti e altre visualizzazioni e, facoltativamente, rinomina una qualsiasi delle metriche di conversione visualizzate nelle intestazioni di colonna per migliorarne la leggibilità. Vedi &quot;[Gestire le metriche di conversione di un inserzionista](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md).&quot;
 
   Le proprietà delle transazioni non sono disponibili per i rapporti, a meno che non vengano rese specificamente disponibili.
 

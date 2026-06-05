@@ -2,21 +2,17 @@
 title: Gestire le metriche di conversione di un inserzionista
 description: Scopri come utilizzare le metriche di conversione tracciate da Adobe Advertising per un inserzionista.
 feature: Conversions
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
-subfeature_v2:
-  - id: d068b149-b9d1-421c-9033-a51495366ddc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+subfeature_v2: id: d068b149-b9d1-421c-9033-a51495366ddc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: 937
+source-wordcount: 932
 ht-degree: 0%
 
 ---
 
-# (Nuova interfaccia utente) Gestione e visualizzazione dei dati sulle prestazioni per le metriche di conversione di un inserzionista
+# (Nuova interfaccia) Gestire le metriche di conversione di un inserzionista
 
 *funzionalità Beta*
 
@@ -104,7 +100,7 @@ Impossibile eliminare un nome visualizzato esistente.
 
       1. (Per nascondere le metriche) Nel messaggio di conferma, fare clic su **[!UICONTROL Confirm]** per nascondere le metriche, inclusa la loro rimozione da qualsiasi metrica derivata che contiene le metriche.
 
-## Gestire i rapporti sui dati delle prestazioni per le conversioni
+## Gestire i rapporti sulla visibilità delle conversioni e sull’origine
 
 Puoi scaricare le seguenti informazioni sulle conversioni tracciate: il nome della metrica sincronizzata, il nome visualizzato per la metrica nelle viste e nei rapporti di gestione di Ricerca, Social e Commerce, se la metrica è visibile nelle viste e nei rapporti di gestione, l’ID conversione e l’origine della metrica. Scaricare i dati in un file in formato cartella di lavoro [!DNL Microsoft Excel] (file XLSX).
 
