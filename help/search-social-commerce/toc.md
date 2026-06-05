@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3f769f18ce006278b12a62f8d837d60affffda65
+source-git-commit: 6474daed0ea0dc7b13fff847f6c327e4e5788dde
 workflow-type: tm+mt
-source-wordcount: 2356
+source-wordcount: 2416
 ht-degree: 2%
 
 ---
@@ -229,6 +229,17 @@ Assistere i formati dei report {#assist-report-formats}
             + [Gestire gli account di rete degli annunci per il caricamento dei dati](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
          + [Gestisci [!DNL Naver]  account solo per il tracciamento](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
       + [Replica  [!DNL Google Ads] campagne in [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/set-up/google-campaign-replication-in-microsoft.md)
+      + Bulksheet {#bulksheets}
+         + [Informazioni sulla gestione dei dati della campagna tramite bulksheet](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)
+         + [Configurare un account FTP per il caricamento dei bulksheet](/help/search-social-commerce/new-ui/set-up/bulksheets/ftp-account.md)
+         + [Scaricare/creare un file bulksheet](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md)
+         + [Convalidare le pagine di destinazione in file bulksheet](/help/search-social-commerce/new-ui/set-up/bulksheets/validate-landing-pages.md)
+         + [Esportare un file bulksheet generato o caricato](/help/search-social-commerce/new-ui/set-up/bulksheets/export.md)
+         + [Carica un file di bulksheet o un file di errore corretto](/help/search-social-commerce/new-ui/set-up/bulksheets/upload.md)
+         + [Pubblica i bulksheet o i file di errore corretti](/help/search-social-commerce/new-ui/set-up/bulksheets/post.md)
+         + [Errori di bulksheet](/help/search-social-commerce/new-ui/set-up/bulksheets/errors.md)
+         + [Elimina i bulksheet caricati e i file di errore](/help/search-social-commerce/new-ui/set-up/bulksheets/delete.md)
+         + [Interruzione di un processo di bulksheet in corso](/help/search-social-commerce/new-ui/set-up/bulksheets/stop-job.md)
    + [Gestire gli avvisi personalizzati](/help/search-social-commerce/new-ui/alerts-manage.md)
    + [Gestione notifiche](/help/search-social-commerce/new-ui/notifications-manage.md)
    + [Amministrazione utenti](/help/search-social-commerce/new-ui/user-administration.md)
