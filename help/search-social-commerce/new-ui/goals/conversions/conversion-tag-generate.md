@@ -2,9 +2,9 @@
 title: (Nuova interfaccia) Genera e implementa un tag di tracciamento delle conversioni di Adobe Advertising
 description: Scopri come creare un tag di conversione Adobe Advertising per tenere traccia degli eventi di conversione.
 feature: Search Tools, Search Tracking
-source-git-commit: f97a636a55c6cc823f0041e7acd6f48dca769a3e
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Crea un tag di conversione separato per ogni set di metriche di cui desideri tenere traccia. Puoi generare i tag in Search, Social e Commerce oppure utilizzando i tag in Adobe Experience Platform (precedentemente noto come Adobe Experience Platform Launch) con l’estensione Adobe Advertising.
 
-## Generare e implementare un tag di tracciamento delle conversioni in Search, Social e Commerce
+## Generare un tag di tracciamento delle conversioni in Search, Social e Commerce
 
 >[!NOTE]
 >
