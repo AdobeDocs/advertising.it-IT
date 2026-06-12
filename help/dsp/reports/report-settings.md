@@ -56,7 +56,7 @@ Questa sezione determina le date di esecuzione del rapporto. Per impostare le da
   >
   >È inoltre possibile [eseguire un report personalizzato in qualsiasi momento](report-run-now.md) dalla visualizzazione [!UICONTROL Reports].
 
-* *[!UICONTROL On]\&lt;Date\>:* Esegue il report a una data specificata per il completamento entro il 09:00 nel fuso orario dell&#39;account.
+* *[!UICONTROL On]\&lt;Data\>:* Esegue il report in una data specificata per il completamento da parte di 09:00 nel fuso orario dell&#39;account.
 
 * *[!UICONTROL Recurring]:* Esegue il report in base a una pianificazione durante un periodo di tempo specificato.
 
