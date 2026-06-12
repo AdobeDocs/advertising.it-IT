@@ -17,7 +17,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: 1479
+source-wordcount: 1485
 ht-degree: 0%
 
 ---
@@ -132,7 +132,7 @@ Questa sezione determina le date di esecuzione del rapporto. Per impostare le da
   >
   >È inoltre possibile [eseguire un report personalizzato in qualsiasi momento](#report-run-now) dalla visualizzazione [!UICONTROL Reports].
 
-* *[!UICONTROL On]\&lt;Date\>:* Esegue il report a una data specificata per il completamento entro il 09:00 nel fuso orario dell&#39;account.
+* *[!UICONTROL On]\&lt;Data\>:* Esegue il report in una data specificata per il completamento da parte di 09:00 nel fuso orario dell&#39;account.
 
 * *[!UICONTROL Recurring]:* Esegue il report in base a una pianificazione durante un periodo di tempo specificato.
 

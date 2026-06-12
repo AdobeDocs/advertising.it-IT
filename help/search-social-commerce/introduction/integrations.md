@@ -1,5 +1,5 @@
 ---
-title: Integrazione con le soluzioni e i servizi Adobe CX Enterprise
+title: Integrazione con le soluzioni e i servizi aziendali di Adobe CX
 description: Scopri le integrazioni Search, Social e Commerce con le soluzioni e i servizi Adobe CX Enterprise.
 exl-id: 26456f60-937a-4f39-b5cf-a71c1c1b4833
 feature: Search Introduction
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ---
 
-# Integrazione con le soluzioni e i servizi Adobe CX Enterprise
+# Integrazione con le soluzioni e i servizi aziendali di Adobe CX
 
 Advertising Search, Social e Commerce sono integrati con i seguenti prodotti [!DNL Adobe].
 
@@ -47,7 +47,7 @@ Advertising Search, Social e Commerce sono integrati con i seguenti prodotti [!D
 
    * Gli inserzionisti con [!DNL Analytics] ma non Audience Manager possono [creare [!DNL Google Ads] audience di corrispondenza con i clienti](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md) da [!DNL Analytics] segmenti condivisi con Adobe CX Enterprise. Per essere idoneo, un inserzionista deve implementare il [servizio Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) e distribuire un tag sui propri siti Web. Puoi quindi utilizzare i tipi di pubblico nelle campagne [!DNL Google Ads] come [destinazioni](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) o [esclusioni](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md) a livello di campagna o di gruppo di annunci.
 
-* Segmenti di Adobe Audience Manager — (funzione Opt-in) È possibile [creare [!DNL Google Ads] tipi di pubblico corrispondenti ai clienti](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md) da segmenti di Audience Manager con Search, Social e Commerce come destinazione. Possono essere inclusi [!DNL Analytics] segmenti pubblicati in Adobe CX Enterprise e segmenti creati utilizzando la Libreria tipi di pubblico di Adobe CX Enterprise. Puoi quindi utilizzare i tipi di pubblico nelle campagne [!DNL Google Ads] come [destinazioni](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) o [esclusioni](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md) a livello di campagna o di gruppo di annunci.
+* Segmenti di Adobe Audience Manager — (funzione Opt-in) È possibile [creare [!DNL Google Ads] tipi di pubblico corrispondenti ai clienti](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md) da segmenti di Audience Manager con Search, Social e Commerce come destinazione. Possono essere inclusi [!DNL Analytics] segmenti pubblicati in Adobe CX Enterprise e segmenti creati utilizzando Adobe CX Enterprise Audience Library. Puoi quindi utilizzare i tipi di pubblico nelle campagne [!DNL Google Ads] come [destinazioni](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) o [esclusioni](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md) a livello di campagna o di gruppo di annunci.
 
   Per ulteriori informazioni, vedere &quot;[Integrazioni Adobe Advertising con Adobe Audience Manager](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=it)&quot;.
 
@@ -55,4 +55,4 @@ Advertising Search, Social e Commerce sono integrati con i seguenti prodotti [!D
 
 * Adobe Campaign: è possibile [creare e aggiornare un pubblico di tipo  [!DNL Google Ads] customer match utilizzando un elenco e-mail entro [!DNL Campaign]](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-campaign-email-list.md).
 
-* Notifiche di Adobe CX Enterprise — (quando hai effettuato l&#39;accesso tramite Adobe CX Enterprise) Dal collegamento di notifica ([Notifiche di avviso](/help/search-social-commerce/assets/notifications-panel.png "Notifiche avvisi")) nella parte superiore di ogni pagina, puoi visualizzare tutti gli aggiornamenti di sistema, i post, le menzioni e le risorse condivise di Adobe CX Enterprise. Contatta il team del tuo account Adobe per informazioni sull’accesso a Adobe CX Enterprise.
+* Notifiche di Adobe CX Enterprise: (quando si effettua l&#39;accesso tramite Adobe CX Enterprise) dal collegamento delle notifiche ([Notifiche di avviso](/help/search-social-commerce/assets/notifications-panel.png "Notifiche avvisi")) nella parte superiore di ogni pagina, è possibile visualizzare tutti gli aggiornamenti, i post, le menzioni e le risorse di Adobe CX Enterprise condivise. Contatta il tuo Account Team Adobe per informazioni sull’accesso ad Adobe CX Enterprise.
