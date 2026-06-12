@@ -15,9 +15,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2f5488c286d6a01d78218488dbcaa799f4010ca
 workflow-type: tm+mt
-source-wordcount: 437
+source-wordcount: 455
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 0%
 
 *Inserzionisti con una sola integrazione Adobe Advertising-Customer Journey Analytics*
 
-*funzionalità Beta*
-
 Adobe Advertising passa metriche e dimensioni del traffico a [!DNL Customer Journey Analytics] al giorno. [!DNL Web SDK] acquisisce i click-through e i view-through di Adobe Advertising in tempo reale e li trasmette a Customer Journey Analytics.
+
+![Esempio di dati Adobe Advertising in Customer Journey Analytics](/help/integrations/assets/cja-report-example.png "Esempio di dati Adobe Advertising in Customer Journey Analytics")
 
 ## Metriche del traffico di Adobe Advertising
 

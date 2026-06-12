@@ -16,16 +16,14 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2f5488c286d6a01d78218488dbcaa799f4010ca
 workflow-type: tm+mt
-source-wordcount: 140
+source-wordcount: 189
 ht-degree: 0%
 
 ---
 
 # Prerequisiti per l’integrazione di Adobe Advertising con Customer Journey Analytics
-
-*funzionalità Beta*
 
 *Inserzionisti con Advertising DSP e[!DNL Advertising Search, Social, & Commerce]*
 
@@ -36,6 +34,8 @@ ht-degree: 0%
 * tecnologie di gestione e modellazione dati di Adobe Experience Platform (inclusi [schemi](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/home) e [set di dati](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/overview)) e [tecnologie di raccolta dati](https://experienceleague.adobe.com/it/docs/experience-platform/collection/home) (inclusi [flussi di dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/overview) e [tag](https://experienceleague.adobe.com/it/docs/experience-platform/tags/home))
 
   Queste tecnologie richiedono il supporto dell’amministratore del sito Experience Platform.
+
+* (Inserzionisti senza [!DNL Analytics for Advertising]) Collaboration con il tuo Account Team Adobe, che completerà varie attività durante la configurazione.
 
 >[!MORELIKETHIS]
 >
