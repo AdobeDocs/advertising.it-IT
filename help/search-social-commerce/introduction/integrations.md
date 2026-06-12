@@ -1,19 +1,13 @@
 ---
-title: Integrazione con le soluzioni e i servizi Adobe CX Enterprise
+title: Integrazione con le soluzioni e i servizi aziendali di Adobe CX
 description: Scopri le integrazioni Search, Social e Commerce con le soluzioni e i servizi Adobe CX Enterprise.
 exl-id: 26456f60-937a-4f39-b5cf-a71c1c1b4833
 feature: Search Introduction
 TQID: https://experienceleague.adobe.com/vIjCxWutfGn8H9-TqxLvztNazb9RWq7ECeoOQXLfyEw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: f2860a4b-f905-4545-bead-1bbc92564592
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: f2860a4b-f905-4545-bead-1bbc92564592
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
 source-wordcount: 619
@@ -21,11 +15,11 @@ ht-degree: 0%
 
 ---
 
-# Integrazione con le soluzioni e i servizi Adobe CX Enterprise
+# Integrazione con le soluzioni e i servizi aziendali di Adobe CX
 
 Advertising Search, Social e Commerce sono integrati con i seguenti prodotti [!DNL Adobe].
 
-* [Tag da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html?lang=it) - Puoi utilizzare l&#39;[estensione Adobe Advertising Cloud](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud) per Adobe Experience Platform per [creare tag di tracciamento conversione Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md), nonché tag di tracciamento di terze parti, per le pagine di destinazione degli annunci. Se la tua organizzazione non dispone di un account Experience Platform, puoi comunque installare l&#39;estensione direttamente nell&#39;[interfaccia utente per Adobe Experience Platform Data Collection](https://experience.adobe.com/#/data-collection/), disponibile gratuitamente per i clienti Adobe CX Enterprise.
+* [Tag da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html) - Puoi utilizzare l&#39;[estensione Adobe Advertising Cloud](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud) per Adobe Experience Platform per [creare tag di tracciamento conversione Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md), nonché tag di tracciamento di terze parti, per le pagine di destinazione degli annunci. Se la tua organizzazione non dispone di un account Experience Platform, puoi comunque installare l&#39;estensione direttamente nell&#39;[interfaccia utente per Adobe Experience Platform Data Collection](https://experience.adobe.com/#/data-collection/), disponibile gratuitamente per i clienti Adobe CX Enterprise.
 
   Per installare l&#39;estensione richiesta, contatta l&#39;amministratore dell&#39;organizzazione per accedere alle funzionalità di raccolta dati nell&#39;interfaccia utente e chiedi di concederti l&#39;autorizzazione `manage_properties`.
 
@@ -37,7 +31,7 @@ Advertising Search, Social e Commerce sono integrati con i seguenti prodotti [!D
 
    * Adobe Advertising e [!DNL Analytics] condividono i dati in modo semplice. [!DNL Analytics] può inviare quotidianamente i dati su conversione e coinvolgimento sul sito a Search, Social e Commerce, dove i dati sono disponibili per l&#39;ottimizzazione degli annunci e per il reporting. Inoltre, Adobe Advertising può inviare quotidianamente i dati sul traffico pubblicitario, inclusi impression, clic e costi, dalle reti pubblicitarie a [!DNL Analytics], dove i dati sono disponibili in tutti gli strumenti di reporting.
 
-     Per ulteriori informazioni sul supporto di [!DNL Analytics] per ogni rete di annunci e tipo di annuncio, vedere &quot;[Inventario supportato](/help/search-social-commerce/introduction/supported-inventory.md)&quot;. Vedere anche &quot;[Panoramica di [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=it){target="_blank"}&quot; per ulteriori informazioni sullo scambio di dati.
+     Per ulteriori informazioni sul supporto di [!DNL Analytics] per ogni rete di annunci e tipo di annuncio, vedere &quot;[Inventario supportato](/help/search-social-commerce/introduction/supported-inventory.md)&quot;. Vedere anche &quot;[Panoramica di [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}&quot; per ulteriori informazioni sullo scambio di dati.
 
      Per scambiare i dati, è necessario configurare inizialmente sia Adobe Advertising che [!DNL Analytics]. Per ulteriori informazioni sulla configurazione iniziale, contatta il team dell’account di Adobe.
 
@@ -45,14 +39,14 @@ Advertising Search, Social e Commerce sono integrati con i seguenti prodotti [!D
      >
      >Per impostazione predefinita, le metriche [!DNL Analytics] non sono visibili nelle schermate Search, Social e Commerce. È necessario [rendere le metriche disponibili in modo esplicito nelle visualizzazioni di gestione delle campagne, nei portfolio e nei report](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) dopo che il team di implementazione di [!DNL Adobe] ha configurato gli eventi standard o personalizzati selezionati da passare ad Adobe Advertising. Facoltativamente, è possibile modificare i nomi delle metriche visualizzate (senza modificarli in [!DNL Analytics]). È possibile rendere le metriche visualizzabili nell&#39;interfaccia utente e rinominare le metriche da [!UICONTROL Admin] > [!UICONTROL Conversions].
 
-   * Gli inserzionisti con [!DNL Analytics] ma non Audience Manager possono [creare [!DNL Google Ads] audience di corrispondenza con i clienti](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md) da [!DNL Analytics] segmenti condivisi con Adobe CX Enterprise. Per essere idoneo, un inserzionista deve implementare il [servizio Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) e distribuire un tag sui propri siti Web. Puoi quindi utilizzare i tipi di pubblico nelle campagne [!DNL Google Ads] come [destinazioni](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) o [esclusioni](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md) a livello di campagna o di gruppo di annunci.
+   * Gli inserzionisti con [!DNL Analytics] ma non Audience Manager possono [creare [!DNL Google Ads] audience di corrispondenza con i clienti](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md) da [!DNL Analytics] segmenti condivisi con Adobe CX Enterprise. Per essere idoneo, un inserzionista deve implementare il [servizio Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html) e distribuire un tag sui propri siti Web. Puoi quindi utilizzare i tipi di pubblico nelle campagne [!DNL Google Ads] come [destinazioni](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) o [esclusioni](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md) a livello di campagna o di gruppo di annunci.
 
-* Segmenti di Adobe Audience Manager — (funzione Opt-in) È possibile [creare [!DNL Google Ads] tipi di pubblico corrispondenti ai clienti](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md) da segmenti di Audience Manager con Search, Social e Commerce come destinazione. Possono essere inclusi [!DNL Analytics] segmenti pubblicati in Adobe CX Enterprise e segmenti creati utilizzando la Libreria tipi di pubblico di Adobe CX Enterprise. Puoi quindi utilizzare i tipi di pubblico nelle campagne [!DNL Google Ads] come [destinazioni](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) o [esclusioni](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md) a livello di campagna o di gruppo di annunci.
+* Segmenti di Adobe Audience Manager — (funzione Opt-in) È possibile [creare [!DNL Google Ads] tipi di pubblico corrispondenti ai clienti](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md) da segmenti di Audience Manager con Search, Social e Commerce come destinazione. Possono essere inclusi [!DNL Analytics] segmenti pubblicati in Adobe CX Enterprise e segmenti creati utilizzando Adobe CX Enterprise Audience Library. Puoi quindi utilizzare i tipi di pubblico nelle campagne [!DNL Google Ads] come [destinazioni](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) o [esclusioni](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md) a livello di campagna o di gruppo di annunci.
 
-  Per ulteriori informazioni, vedere &quot;[Integrazioni Adobe Advertising con Adobe Audience Manager](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=it)&quot;.
+  Per ulteriori informazioni, vedere &quot;[Integrazioni Adobe Advertising con Adobe Audience Manager](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html)&quot;.
 
 * Adobe Target: è possibile implementare la condivisione del segnale di click-through tra Search, Social e Commerce e [!DNL Target], impostare un&#39;attività di test A/B in [!DNL Target] per gli annunci, quindi utilizzare l&#39;Analysis Workspace [!DNL Analytics] per visualizzare i dati di test.
 
 * Adobe Campaign: è possibile [creare e aggiornare un pubblico di tipo  [!DNL Google Ads] customer match utilizzando un elenco e-mail entro [!DNL Campaign]](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-campaign-email-list.md).
 
-* Notifiche di Adobe CX Enterprise — (quando hai effettuato l&#39;accesso tramite Adobe CX Enterprise) Dal collegamento di notifica ([Notifiche di avviso](/help/search-social-commerce/assets/notifications-panel.png "Notifiche avvisi")) nella parte superiore di ogni pagina, puoi visualizzare tutti gli aggiornamenti di sistema, i post, le menzioni e le risorse condivise di Adobe CX Enterprise. Contatta il team del tuo account Adobe per informazioni sull’accesso a Adobe CX Enterprise.
+* Notifiche di Adobe CX Enterprise: (quando si effettua l&#39;accesso tramite Adobe CX Enterprise) dal collegamento delle notifiche ([Notifiche di avviso](/help/search-social-commerce/assets/notifications-panel.png "Notifiche avvisi")) nella parte superiore di ogni pagina, è possibile visualizzare tutti gli aggiornamenti, i post, le menzioni e le risorse di Adobe CX Enterprise condivise. Contatta il tuo Account Team Adobe per informazioni sull’accesso ad Adobe CX Enterprise.
