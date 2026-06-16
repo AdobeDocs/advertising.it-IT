@@ -16,9 +16,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: e208432cf19b2661fbce58a898a123bb1224c32b
+source-git-commit: d1f87f8b2dade022c73775e481d44c1cbd9f028b
 workflow-type: tm+mt
-source-wordcount: 1789
+source-wordcount: 1791
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Questa procedura include la creazione di uno schema. Facoltativamente, puoi inve
 
    * Scegliere l&#39;opzione per **[!UICONTROL Create dataset from schema]** e selezionare lo schema.
 
-     In base al set di dati dell&#39;evento, Adobe Advertising crea due set di dati aggiuntivi: 1\) un *set di dati di riepilogo* con i relativi dati di riepilogo (come clic e impression) e 2\) un *set di dati di ricerca* (con dimensioni/metadati di classificazione, come il nome della campagna Adobe Advertising). I dati per i set di dati vengono compilati quotidianamente in Experience Platform.
+     In base al set di dati evento, Adobe Advertising crea due set di dati aggiuntivi: 1\) un *set di dati di riepilogo* con i relativi dati di riepilogo (come clic aggregati e impression aggregate) e 2\) un *set di dati di ricerca* (con dimensioni/metadati di classificazione, come il nome della campagna Adobe Advertising). I dati per i set di dati vengono compilati quotidianamente in Experience Platform.
 
    >[!TIP]
    >
