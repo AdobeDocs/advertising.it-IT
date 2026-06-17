@@ -24,8 +24,8 @@ ht-degree: 3%
       + [Soluzioni multi-dispositivo](/help/dsp/introduction/features/cross-device-solutions.md)
    + [Finanziamento dell’account](/help/dsp/introduction/billing/account-funding.md)
    + [Valute supportate](/help/dsp/currency.md)
-   + [Supporto per la privacy del consumatore](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
-   + [Politiche e linee guida](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [Supporto per la privacy del consumatore](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=it)
+   + [Politiche e linee guida](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=it)
    + [Soluzioni di misurazione avanzate](/help/dsp/introduction/advanced-measurement-services.md)
 + [Cerca la documentazione del prodotto utilizzando la chat assistita da IA](/help/dsp/agent-chat.md)
 + Gestione delle campagne {#campaign-management}
@@ -235,9 +235,9 @@ ht-degree: 3%
    + Notifiche {#notifications}
       + [Informazioni sugli abbonamenti agli avvisi](/help/dsp/admin/alerts-about.md)
       + [Gestire gli abbonamenti agli avvisi](/help/dsp/admin/alerts-manage.md)
-+ [Integrazioni con Adobe CX Enterprise](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
++ [Integrazioni con Adobe CX Enterprise](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=it)
 + [Ottieni aiuto](/help/dsp/get-help.md)
-+ [Note sulla versione di Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
++ [Note sulla versione di Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it)
 
 
 <!--
