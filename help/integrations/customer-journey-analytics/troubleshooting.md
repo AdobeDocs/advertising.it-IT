@@ -14,9 +14,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 66601570e815870c96b93e3a224bd61e8852d680
+source-git-commit: d16baa5b31ebb6d6a45feab3d90110fcde25e31f
 workflow-type: tm+mt
-source-wordcount: 612
+source-wordcount: 619
 ht-degree: 0%
 
 ---
@@ -40,7 +40,6 @@ Verifica quanto segue:
 * Customer Journey Analytics Workspace fa riferimento alla visualizzazione dati corretta.
 
 Se verifichi tutte le impostazioni precedenti ma non trovi ancora i dati di riepilogo, apri un ticket di supporto per la tua organizzazione all&#39;indirizzo [https://experienceleague.adobe.com/home?lang=it#support](https://experienceleague.adobe.com/home?lang=it&support-tab=home#support).
-.
 
 +++
 
@@ -94,7 +93,6 @@ Verifica quanto segue, iniziando dagli articoli con il minor numero di barriere:
 * Le impostazioni di Adobe Advertising sono configurate correttamente nell’estensione WebSDK e pubblicate.
 
 Se verifichi tutte le impostazioni di cui sopra ma non visualizzi ancora i dati di conversione, apri un ticket di supporto per la tua organizzazione all&#39;indirizzo [https://experienceleague.adobe.com/home?lang=it#support](https://experienceleague.adobe.com/home?lang=it&support-tab=home#support). Includi [!UICONTROL Account ID] per l&#39;account di rete dell&#39;annuncio.
-.
 
 +++
 
