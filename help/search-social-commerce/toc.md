@@ -10,20 +10,14 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a7e9facc297e36e4e05b6f7fbc1ca02efa0b2043
+source-git-commit: 9f028c5710eb34f4e7f8a3c50b46dd4406048c57
 workflow-type: tm+mt
-source-wordcount: 2412
+source-wordcount: 2401
 ht-degree: 2%
 
 ---
 
 # Guida di Advertising Search, Social e Commerce {#search-social-commerce}
-
-<!-- When we use UICONTROL and DNL tags in a title here, make sure they're within the entry but don't cover the entire link text or else the link doesn't work (i.e., you can't use [[!UICONTROL Model Accuracy Report]](whatever.md) -->
-
-<!--
-    + [Publisher recommendations and insights support](/help/search-social-commerce/new-ui/dashboard/recommendations-view-apply.md)
--->
 
 + [Novità](home.md)
 + [Informazioni su questa guida](help-about.md)
@@ -35,7 +29,7 @@ ht-degree: 2%
       + [Adobe [!DNL Analytics for Advertising] (collegamento)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=it){target="_blank"}
       + [Integrazione con Adobe Audience Manager (collegamento)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=it){target="_blank"}
    + [Supporto per la privacy del consumatore (collegamento)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=it){target="_blank"}
-   + [Criteri e linee guida (collegamento)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=it){target="_blank"}
+   + [Criteri e linee guida (collegamento)](https://experienceleague.adobe.com/it/docs/advertising/policies/ad-requirements-policy){target="_blank"}
 + Introduzione {#getting-started}
    + [Panoramica sull’implementazione](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [Requisiti di sistema](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -170,11 +164,11 @@ ht-degree: 2%
                + [Impostazioni di base e avanzate dei rapporti](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-settings.md)
                + [Colonne di report per report di base e avanzati](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-columns.md)
             + Rapporti di assistenza {#assist-reports}
-               + [Informazioni sui report di assistenza](/help/search-social-commerce/new-ui/reports/management/assist/assist-report-about.md)
-Assistere i formati dei report {#assist-report-formats}
-                  + [Il [!UICONTROL Channel Assist Report]]/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)
-                  + [[!UICONTROL Campaign Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/campaign-assist-report.md)
-                  + [[!UICONTROL Keyword Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/keyword-assist-report.md)
+               + [Informazioni sui rapporti di assistenza](/help/search-social-commerce/new-ui/reports/management/assist/assist-report-about.md)
+                  + Assistere i formati dei rapporti {#assist-report-formats}
+                     + [[!UICONTROL Channel Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)
+                     + [[!UICONTROL Campaign Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/campaign-assist-report.md)
+                     + [[!UICONTROL Keyword Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/keyword-assist-report.md)
                + [Impostazioni dei rapporti di assistenza](/help/search-social-commerce/new-ui/reports/management/assist/assist-report-settings.md)
             + Rapporti speciali {#specialty-reports}
                + [Informazioni sui report speciali](/help/search-social-commerce/new-ui/reports/management/specialty/specialty-report-about.md)
@@ -602,3 +596,9 @@ Assistere i formati dei report {#assist-report-formats}
 + [Ottieni aiuto](get-help.md)
 + [Glossario](glossary.md)
 
+
+<!-- When we use UICONTROL and DNL tags in a title here, make sure they're within the entry but don't cover the entire link text or else the link doesn't work (i.e., you can't use [[!UICONTROL Model Accuracy Report]](whatever.md) -->
+
+<!--
+    + [Publisher recommendations and insights support](/help/search-social-commerce/new-ui/dashboard/recommendations-view-apply.md)
+-->
