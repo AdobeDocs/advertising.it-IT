@@ -16,9 +16,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d1f87f8b2dade022c73775e481d44c1cbd9f028b
+source-git-commit: a93c33ee47bd1a8df137a69598b367e985def4ee
 workflow-type: tm+mt
-source-wordcount: 1791
+source-wordcount: 1802
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Questa procedura include la creazione di uno schema. Facoltativamente, puoi inve
 
    * In [!UICONTROL Schema Details], selezionare **[!UICONTROL Experience Event]** come classe base per lo schema per acquisire eventi del sito. Assegna un nome allo schema e fai clic su **[!UICONTROL Finish]**.
 
-   * Nel pannello a sinistra, aggiungi il gruppo di campi [Estensione completa Adobe Advertising Cloud ExperienceEvent](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/event/advertising-full-extension) per aggiungere campi specifici ad Adobe Advertising. Includi almeno l&#39;oggetto conversionDetails con le proprietà `trackingCode` e `trackingIdentities`, che includono l&#39;ID [AMO e l&#39;ID EF](ids.md). Gli altri campi sono facoltativi.
+   * Nel pannello a sinistra, aggiungi il gruppo di campi [Estensione completa Adobe Advertising Cloud ExperienceEvent](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/event/advertising-full-extension) per aggiungere campi specifici ad Adobe Advertising. Includi almeno l&#39;oggetto conversionDetails con le proprietà `trackingCode` e `trackingIdentities`, che includono l&#39;ID [AMO e l&#39;ID EF](ids.md). Gli altri campi sono facoltativi. Non è necessaria alcuna altra configurazione.
 
    * (Facoltativo) Aggiungi altri gruppi di campi in base alle esigenze per collegare campi di dati aggiuntivi ai dati di Adobe Advertising.
 
@@ -117,6 +117,8 @@ Utilizza l’estensione Adobe Experience Platform Web SDK nei tag Adobe per invi
 
            Se gli inserzionisti non sono elencati, inserisci l&#39;ID inserzionista per ogni inserzionista. Se necessario, chiedi gli ID al tuo account team di Adobe.
 
+           Esempio di un percorso JavaScript [!DNL RampID]: `https://launchpad-wrapper.privacymanager.io/<customer-specific-id>/launchpad-liveramp.js`
+
          * Salva la build.
 
    * (Facoltativo) [Crea regole](https://experienceleague.adobe.com/it/docs/experience-platform/tags/ui/rules) per determinare quando Web SDK deve inviare dati ad Edge Network.
@@ -169,7 +171,7 @@ Facoltativamente, puoi anche modificare una connessione esistente con le stesse 
 
          * **[!UICONTROL Key]** (campo da utilizzare come chiave per il set di dati delle dimensioni): `Tracking Code` (che corrisponde al campo `trackingCode` nello schema).
 
-         * **[!UICONTROL Matching key]** (campo da utilizzare come chiave corrispondente per il set di dati degli eventi): `Tracking Code (Event datasets)`.<!-- verify this Later, you'll also map the events dataset to the summary dataset when you set up your data view(#cja-data-views).  -->
+         * **[!UICONTROL Matching key]** (campo da utilizzare come chiave di corrispondenza per il set di dati degli eventi): `Tracking Code (Event datasets)`.
 
          * **[!UICONTROL Import all new data]:** Abilitare l&#39;impostazione
 
@@ -181,7 +183,7 @@ Facoltativamente, puoi anche modificare una connessione esistente con le stesse 
 
          * **[!UICONTROL Import all new data]:** Abilitare l&#39;impostazione
 
-1. Entro tre ore, verifica che i dati siano disponibili in Customer Journey Analytics.
+2. Entro tre ore, verifica che i dati siano disponibili in Customer Journey Analytics.
 
    1. In Customer Journey Analytics, vai a **[!UICONTROL Connections]** e seleziona la tua connessione.
 
@@ -274,5 +276,6 @@ Puoi classificare sia le metriche di riepilogo che i dati evento utilizzando la 
 >* [ID Adobe Advertising utilizzati da [!DNL Customer Journey Analytics]](ids.md)
 >* [Metriche e dimensioni di Adobe Advertising in Customer Journey Analytics](advertising-data-in-cja.md)
 >* [Raccogliere dati storici per gli ID AMO e gli ID EF da utilizzare in Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
+>* [Risoluzione dei problemi](troubleshooting.md)
 >* [Guida di Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-landing)
 >* Guida utente di Customer Journey Analytics [per gli utenti di Adobe Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)
