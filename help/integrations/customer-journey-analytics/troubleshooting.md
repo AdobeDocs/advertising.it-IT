@@ -39,7 +39,7 @@ Verifica quanto segue:
 
 * Customer Journey Analytics Workspace fa riferimento alla visualizzazione dati corretta.
 
-Se verifichi tutte le impostazioni precedenti ma non trovi ancora i dati di riepilogo, apri un ticket di supporto per la tua organizzazione all&#39;indirizzo [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support).
+Se verifichi tutte le impostazioni precedenti ma non trovi ancora i dati di riepilogo, apri un ticket di supporto per la tua organizzazione all&#39;indirizzo [https://experienceleague.adobe.com/home?lang=it#support](https://experienceleague.adobe.com/home?lang=it&support-tab=home#support).
 
 +++
 
@@ -47,7 +47,7 @@ Se verifichi tutte le impostazioni precedenti ma non trovi ancora i dati di riep
 
 Verifica che il feed da Adobe Advertising a Customer Journey Analytics sia abilitato per l’inserzionista 2. Rivolgiti al team del tuo account Adobe.
 
-Se il feed è abilitato per un inserzionista ma i dati di riepilogo non sono ancora visualizzati, apri un ticket di supporto per l&#39;organizzazione all&#39;indirizzo [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support).
+Se il feed è abilitato per un inserzionista ma i dati di riepilogo non sono ancora visualizzati, apri un ticket di supporto per l&#39;organizzazione all&#39;indirizzo [https://experienceleague.adobe.com/home?lang=it#support](https://experienceleague.adobe.com/home?lang=it&support-tab=home#support).
 
 +++
 
@@ -55,7 +55,7 @@ Se il feed è abilitato per un inserzionista ma i dati di riepilogo non sono anc
 
 Verifica che il feed da Adobe Advertising a Customer Journey Analytics sia abilitato per l’account di rete dell’annuncio specifico. Rivolgiti al team del tuo account Adobe.
 
-Se il feed è abilitato per un account ma non vengono ancora visualizzati i dati di riepilogo, aprire un ticket di supporto per l&#39;organizzazione all&#39;indirizzo [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support). Includi [!UICONTROL Account ID] per l&#39;account di rete dell&#39;annuncio.
+Se il feed è abilitato per un account ma non vengono ancora visualizzati i dati di riepilogo, aprire un ticket di supporto per l&#39;organizzazione all&#39;indirizzo [https://experienceleague.adobe.com/home?lang=it#support](https://experienceleague.adobe.com/home?lang=it&support-tab=home#support). Includi [!UICONTROL Account ID] per l&#39;account di rete dell&#39;annuncio.
 .
 
 +++
@@ -68,7 +68,7 @@ Verifica quanto segue:
 
 * Tutti i filtri e i segmenti applicati in [!DNL Workspace] e nel report Adobe Advertising non causano differenze nei dati.
 
-Se sei sicuro di una discrepanza di dati, apri un ticket di supporto per la tua organizzazione all&#39;indirizzo [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support). Includi [!UICONTROL Account ID] per l&#39;account di rete dell&#39;annuncio.
+Se sei sicuro di una discrepanza di dati, apri un ticket di supporto per la tua organizzazione all&#39;indirizzo [https://experienceleague.adobe.com/home?lang=it#support](https://experienceleague.adobe.com/home?lang=it&support-tab=home#support). Includi [!UICONTROL Account ID] per l&#39;account di rete dell&#39;annuncio.
 . Includi schermate e fogli di calcolo per mostrare le prove della discrepanza. Se necessario, il team del tuo account Adobe può correggere retroattivamente il feed di dati per risolvere la discrepanza.
 
 +++
@@ -91,7 +91,7 @@ Verifica quanto segue, iniziando dagli elementi con il minor numero di barriere 
 
 * Le impostazioni di Adobe Advertising sono configurate correttamente nell’estensione WebSDK e pubblicate.
 
-Se verifichi tutte le impostazioni di cui sopra ma non visualizzi ancora i dati di conversione, apri un ticket di supporto per la tua organizzazione all&#39;indirizzo [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support). Includi [!UICONTROL Account ID] per l&#39;account di rete dell&#39;annuncio.
+Se verifichi tutte le impostazioni di cui sopra ma non visualizzi ancora i dati di conversione, apri un ticket di supporto per la tua organizzazione all&#39;indirizzo [https://experienceleague.adobe.com/home?lang=it#support](https://experienceleague.adobe.com/home?lang=it&support-tab=home#support). Includi [!UICONTROL Account ID] per l&#39;account di rete dell&#39;annuncio.
 
 +++
 
