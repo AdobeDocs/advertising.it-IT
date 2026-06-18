@@ -14,9 +14,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d16baa5b31ebb6d6a45feab3d90110fcde25e31f
+source-git-commit: 33382b092be521df814a81aad3c7ae661d853174
 workflow-type: tm+mt
-source-wordcount: 619
+source-wordcount: 620
 ht-degree: 0%
 
 ---
@@ -48,7 +48,6 @@ Se verifichi tutte le impostazioni precedenti ma non trovi ancora i dati di riep
 Verifica che il feed da Adobe Advertising a Customer Journey Analytics sia abilitato per l’inserzionista 2. Rivolgiti al team del tuo account Adobe.
 
 Se il feed è abilitato per un inserzionista ma i dati di riepilogo non sono ancora visualizzati, apri un ticket di supporto per l&#39;organizzazione all&#39;indirizzo [https://experienceleague.adobe.com/home?lang=it#support](https://experienceleague.adobe.com/home?lang=it&support-tab=home#support).
-.
 
 +++
 
@@ -76,9 +75,9 @@ Se sei sicuro di una discrepanza di dati, apri un ticket di supporto per la tua 
 
 ## Reporting a livello di evento
 
-+++ Scenario: i dati di conversione (ad esempio `Page Views`) non sono disponibili per una dimensione di reporting (ad esempio `Campaign`) in CJA Customer Journey Analytics Workspace.
++++ I dati di conversione (ad esempio `Page Views`) non sono disponibili per una dimensione di reporting (ad esempio `Campaign`) in CJA Customer Journey Analytics Workspace.
 
-Verifica quanto segue, iniziando dagli articoli con il minor numero di barriere:
+Verifica quanto segue, iniziando dagli elementi con il minor numero di barriere alla verifica:
 
 * Le metriche di conversione applicabili sono eventi web/online, che Adobe Advertising può attribuire alle dimensioni.
 
