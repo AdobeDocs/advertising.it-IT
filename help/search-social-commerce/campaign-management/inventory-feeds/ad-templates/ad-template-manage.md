@@ -8,16 +8,16 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 1423
+source-wordcount: 1427
 ht-degree: 0%
 
 ---
 
 # Gestire i modelli di annunci per i feed di inventario
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (elimina solo azioni) e [!DNL Yandex] account solo*
+*[!DNL Google Ads], [!DNL LY Ads] (solo azioni di eliminazione), [!DNL Microsoft Advertising] e [!DNL Yandex] account solo*
 
 Prima o dopo il caricamento dei dati, puoi creare modelli di annunci specifici per i motori di ricerca tramite i quali elaborare i dati. È possibile creare modelli per annunci di testo e annunci di testo espansi/estesi, [!DNL Google Ads] e [!DNL Microsoft Advertising] annunci di ricerca responsive e per [!DNL Google Ads] e [!DNL Microsoft Advertising] annunci di acquisto.
 

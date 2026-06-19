@@ -10,16 +10,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 883
+source-wordcount: 918
 ht-degree: 0%
 
 ---
 
 # Informazioni sugli annunci
 
-Solo *[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex] e [!DNL Baidu] account esistenti*
+Solo *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising], [!DNL Yandex] e [!DNL Baidu] account esistenti*
 
 Un annuncio può essere visualizzato su un sito Web di destinazione (per il contenuto o campagne di posizionamento); quando un utente cerca una delle parole chiave nel gruppo di annunci (per le campagne di ricerca) o per il contenuto sul sito Web (annunci di ricerca dinamica in [!DNL Google Ads] campagne di sola ricerca); o quando un utente esegue una ricerca rilevante per uno degli elementi nel proprio feed di prodotto [!DNL Google Merchant Center] o [!DNL Microsoft Merchant Center] (annunci di acquisto in [!DNL Google Ads] o annunci di prodotto in [!DNL Microsoft Advertising] campagne).
 

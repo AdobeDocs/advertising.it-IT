@@ -11,7 +11,7 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: f916f47a40729ff39ac1456e3b3ad93e1045e9a9
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 1637
 ht-degree: 0%
@@ -129,30 +129,30 @@ Criteri per campagne, gruppi di annunci, annunci/creativi, parole chiave e/o pos
 
 ## Righe bulksheet per rete di annunci {#bulksheet-rows-by-ad-network}
 
-| Riga bulksheet | [!DNL Baidu] | [!DNL Google Ads] | [!DNL Microsoft Advertising] | [!DNL Naver] | [!DNL Pinterest] | [!DNL Yahoo! Display Network] | [!DNL Yahoo! Japan Ads] | [!DNL Yahoo Native] | [!DNL Yandex] | Note |
+| Riga bulksheet | [!DNL Baidu] | [!DNL Google Ads] | [!DNL LY Ads] | [!DNL Microsoft Advertising] | [!DNL Naver] | [!DNL Pinterest] | [!DNL Yahoo! Display Network] | [!DNL Yahoo Native] | [!DNL Yandex] | Note |
 |----|----|----|----|-------|----|----|----|----|----|----|
 | [!UICONTROL Campaign] | Sì | Sì | Sì | Sì | Sì | Sì | Sì | Sì | Sì | — |
 | [!UICONTROL Adgroup] | Sì | Sì | Sì | Sì | Sì | Sì | Sì | Sì | Sì | — |
-| [!UICONTROL Creative] *o* [!UICONTROL Creative (except RSA)] | Sì | Sì | Sì | — | — | Sì | Sì | Sì | Sì | ([!DNL Google Ads]) Utilizzare per tutti i tipi di annunci ad eccezione degli annunci di ricerca responsive, disponibili nella riga [!UICONTROL Responsive Search Ad]. |
-| [!UICONTROL Responsive Search Ad] | — | Sì | Sì | — | — | — | — | — | — | — |
-| [!UICONTROL Keyword] | Sì | Sì | Sì | Sì | Sì | — | Sì | Sì | Sì | Da utilizzare solo per parole chiave non negative. Per visualizzare le parole chiave negative create a livello di campagna o di gruppo di annunci, utilizza la riga [!UICONTROL Campaign Negative Keyword] o [!UICONTROL Adgroup Negative Keyword] quando disponibile. |
-| [!UICONTROL Promoted Pin] | — | — | — | — | Sì | — | — | — | — | — |
+| [!UICONTROL Creative] *o* [!UICONTROL Creative (except RSA)] | Sì | Sì | Sì | Sì | — | — | Sì | Sì | Sì | ([!DNL Google Ads]) Utilizzare per tutti i tipi di annunci ad eccezione degli annunci di ricerca responsive, disponibili nella riga [!UICONTROL Responsive Search Ad]. |
+| [!UICONTROL Responsive Search Ad] | — | Sì | — | Sì | — | — | — | — | — | — |
+| [!UICONTROL Keyword] | Sì | Sì | Sì | Sì | Sì | Sì | — | Sì | Sì | Da utilizzare solo per parole chiave non negative. Per visualizzare le parole chiave negative create a livello di campagna o di gruppo di annunci, utilizza la riga [!UICONTROL Campaign Negative Keyword] o [!UICONTROL Adgroup Negative Keyword] quando disponibile. |
+| [!UICONTROL Promoted Pin] | — | — | — | — | — | Sì | — | — | — | — |
 | [!UICONTROL Placement] | — | Sì | — | — | — | — | — | — | — | — |
-| [!UICONTROL Auto Target] | — | Sì | Sì | — | — | — | — | — | — | Utilizza per destinazioni di ricerca dinamica per un gruppo di annunci. |
-| [!UICONTROL Shopping Product Group] | — | Sì | Sì | — | — | — | — | — | — | — |
-| [!UICONTROL Campaign Site Link] | — | Sì | Sì | — | — | — | — | Sì | — | — |
-| [!UICONTROL Campaign Negative Keyword] | Sì | Sì | Sì | — | — | — | Sì | Sì | — | Da utilizzare solo per parole chiave negative create a livello di campagna o di gruppo di annunci. Per visualizzare le parole chiave non negative, utilizzare la riga [!UICONTROL Keyword] quando disponibile. |
-| [!UICONTROL Campaign Negative Website] | — | Sì | Sì | — | — | — | — | Sì | — | — |
+| [!UICONTROL Auto Target] | — | Sì | — | Sì | — | — | — | — | — | Utilizza per destinazioni di ricerca dinamica per un gruppo di annunci. |
+| [!UICONTROL Shopping Product Group] | — | Sì | — | Sì | — | — | — | — | — | — |
+| [!UICONTROL Campaign Site Link] | — | Sì | — | Sì | — | — | — | Sì | — | — |
+| [!UICONTROL Campaign Negative Keyword] | Sì | Sì | Sì | Sì | — | — | — | Sì | — | Da utilizzare solo per parole chiave negative create a livello di campagna o di gruppo di annunci. Per visualizzare le parole chiave non negative, utilizzare la riga [!UICONTROL Keyword] quando disponibile. |
+| [!UICONTROL Campaign Negative Website] | — | Sì | — | Sì | — | — | — | Sì | — | — |
 | [!UICONTROL Adgroup Site Link] | — | Sì | — | — | — | — | — | Sì | — | — |
 | [!UICONTROL Creative Site Link] | — | — | — | — | — | — | — | — | Sì | — |
-| [!UICONTROL Adgroup Negative Keyword] | Sì | Sì | Sì | — | — | — | Sì | Sì | — | — |
-| [!UICONTROL Adgroup Negative Website] | — | Sì | Sì | — | — | — | — | — | — | — |
-| [!UICONTROL Campaign Location Target] | Sì | Sì | Sì | — | — | — | Sì | Sì | — | — |
-| [!UICONTROL Adgroup Location Target] | — | — | Sì | — | — | — | — | Sì | — | — |
-| [!UICONTROL Campaign Device Target] | — | Sì | Sì | — | — | — | — | Sì | — | — |
-| [!UICONTROL Adgroup Device Target] | — | Sì | Sì | — | — | — | — | Sì | — | — |
-| [!UICONTROL Campaign RLSA Target] | — | Sì | Sì | — | — | — | — | — | — | — |
-| [!UICONTROL Adgroup RLSA Target] | — | Sì | Sì | — | — | — | — | — | — | — |
+| [!UICONTROL Adgroup Negative Keyword] | Sì | Sì | Sì | Sì | — | — | — | Sì | — | — |
+| [!UICONTROL Adgroup Negative Website] | — | Sì | — | Sì | — | — | — | — | — | — |
+| [!UICONTROL Campaign Location Target] | Sì | Sì | Sì | Sì | — | — | — | Sì | — | — |
+| [!UICONTROL Adgroup Location Target] | — | — | — | Sì | — | — | — | Sì | — | — |
+| [!UICONTROL Campaign Device Target] | — | Sì | — | Sì | — | — | — | Sì | — | — |
+| [!UICONTROL Adgroup Device Target] | — | Sì | — | Sì | — | — | — | Sì | — | — |
+| [!UICONTROL Campaign RLSA Target] | — | Sì | — | Sì | — | — | — | — | — | — |
+| [!UICONTROL Adgroup RLSA Target] | — | Sì | — | Sì | — | — | — | — | — | — |
 | [!UICONTROL Campaign RLSA Negative] | — | Sì | — | — | — | — | — | — | — | — |
 | [!UICONTROL Adgroup RLSA Negative] | — | Sì | — | — | — | — | — | — | — | — |
 
@@ -160,10 +160,10 @@ Per informazioni dettagliate sulle colonne obbligatorie e facoltative per ciascu
 
 * [Dati dei bulksheet obbligatori e facoltativi per  [!DNL Baidu]  account](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
 * [Dati dei bulksheet obbligatori e facoltativi per  [!DNL Google Ads]  account](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
+* [Dati dei bulksheet obbligatori e facoltativi per  [!DNL LY Ads]  account](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
 * [Dati dei bulksheet obbligatori e facoltativi per  [!DNL Microsoft Advertising]  account](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
 * [Dati dei bulksheet obbligatori e facoltativi per  [!DNL Naver]  account](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
 * [Dati dei bulksheet obbligatori e facoltativi per  [!DNL Yahoo! Display Network]  account](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
-* [Dati dei bulksheet obbligatori e facoltativi per  [!DNL Yahoo! Japan Ads]  account](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
 * [Dati dei bulksheet obbligatori e facoltativi per  [!DNL Yandex]  account](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
 
 >[!MORELIKETHIS]

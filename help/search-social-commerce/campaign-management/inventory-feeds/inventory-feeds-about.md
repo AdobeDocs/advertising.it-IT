@@ -8,16 +8,16 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 838
+source-wordcount: 846
 ht-degree: 0%
 
 ---
 
 # Informazioni sull’automazione della gestione degli annunci tramite i feed di inventario
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (elimina solo azioni) e [!DNL Yandex] account solo*
+*[!DNL Google Ads], [!DNL LY Ads] (solo azioni di eliminazione), [!DNL Microsoft Advertising] e [!DNL Yandex] account solo*
 
 La vista [!UICONTROL Campaigns] > [!UICONTROL Advanced (ACM)] per la gestione avanzata delle campagne consente di creare e aggiornare automaticamente la struttura degli account di rete degli annunci e di distribuire annunci dinamici in base ai dati sull&#39;inventario dei prodotti o dei servizi. Puoi caricare nuovi file con i dati di prodotto ogni giorno o con la frequenza desiderata, oppure collegarti direttamente a un account del centro commerciale [!DNL Google] o [!DNL Microsoft]. Utilizza la funzione per:
 
@@ -31,7 +31,7 @@ Per impostare gli annunci, crea modelli di feed inventario contenenti variabili 
 
 | [!UICONTROL Ad Variation] sezione del modello | Modificatori in Search, Social e Commerce | Contenuti feed | Annunci risultanti |
 |----|----|----|----|
-| Titolo: Buy high-end \{<i>Categoria prodotto</i>\} &lt;<i>Elenco a basso costo</i>>.<br><br>Descrizione 1: inventario di \{<i>Nome prodotto</i>\}.<br><br>Descrizione 2: disponibile con sconto di \{<i>Percentuale sconto</i>\}%. | Valori per il gruppo di modificatori &quot;CheapList&quot;:<br><br>&quot;a buon mercato&quot;<br><br>&quot;con uno sconto&quot; | Categoria prodotto,Nome prodotto,Percentuale sconto<br>elettronica,iPod,10<br><br>abbigliamento,Camicie,15<br><br><b>Nota:</b> è possibile separare i valori con virgole o tabulazioni. | <u>Acquista prodotti di elettronica di fascia alta a buon mercato.</u><br>Enorme inventario di tablet. Disponibile con uno sconto del 10%.<br><br><u>Acquista prodotti di elettronica di fascia alta con uno sconto.</u><br>Enorme inventario di tablet. Disponibile con uno sconto del 10%.<br><br><u>Acquista capi di abbigliamento di alta qualità a buon mercato.</u><br>Enorme inventario di camicie. Disponibile con uno sconto del 15%.<br><br><u>Acquista capi di abbigliamento di alta qualità con uno sconto.</u><br>Enorme inventario di camicie. Disponibile con uno sconto del 15%. |
+| Titolo: Buy high-end \{<i>Categoria prodotto</i>\} &lt;<i>Elenco a basso costo</i>>.<br><br>Descrizione 1: inventario enorme di \{<i>Nome prodotto</i>\}.<br><br>Descrizione 2: disponibile a \{<i>Percentuale sconto</i>\}% di sconto. | Valori per il gruppo di modificatori &quot;CheapList&quot;:<br><br>&quot;a buon mercato&quot;<br><br>&quot;con uno sconto&quot; | Categoria prodotto,Nome prodotto,Percentuale sconto<br>elettronica,iPod,10<br><br>abbigliamento,Camicie,15<br><br><b>Nota:</b> è possibile separare i valori con virgole o tabulazioni. | <u>Acquista prodotti di elettronica di fascia alta a buon mercato.</u><br>Enorme inventario di tablet. Disponibile con uno sconto del 10%.<br><br><u>Acquista prodotti di elettronica di fascia alta con uno sconto.</u><br>Enorme inventario di tablet. Disponibile con uno sconto del 10%.<br><br><u>Acquista capi di abbigliamento di alta qualità a buon mercato.</u><br>Enorme inventario di camicie. Disponibile con uno sconto del 15%.<br><br><u>Acquista capi di abbigliamento di alta qualità con uno sconto.</u><br>Enorme inventario di camicie. Disponibile con uno sconto del 15%. |
 
 Una volta generati gli annunci, puoi facoltativamente rivederli e quindi pubblicarli nella rete di annunci.
 
@@ -40,7 +40,7 @@ Una volta generati gli annunci, puoi facoltativamente rivederli e quindi pubblic
 
 ## Flusso di lavoro per la gestione dei dati della campagna tramite i feed di inventario
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (elimina solo azioni) e [!DNL Yandex] account solo*
+*[!DNL Google Ads], [!DNL LY Ads] (solo azioni di eliminazione), [!DNL Microsoft Advertising] e [!DNL Yandex] account solo*
 
 Inizialmente, eseguire il test di almeno un file di feed o un account, quindi automatizzare completamente il processo o continuare a controllarlo in ogni passaggio:
 

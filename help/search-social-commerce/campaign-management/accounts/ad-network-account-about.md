@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 426
+source-wordcount: 429
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Search, Social e Commerce possono tenere traccia degli account di un inserzionis
 
 ## Account sincronizzati tramite API
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising] (in precedenza [!DNL Bing Ads]), [!DNL Yahoo! Display Network], [!DNL Yahoo! Japan Ads], [!DNL Yandex] e [!DNL Baidu] account esistenti*
+*[!DNL Google Ads], [!DNL LY Ads] (precedentemente [!DNL Yahoo! Japan Ads]), [!DNL Microsoft Advertising] (precedentemente [!DNL Bing Ads]), [!DNL Yahoo! Display Network], [!DNL Yandex] e [!DNL Baidu] account esistenti*
 
 Search, Social e Commerce sincronizzano (*syncs*) con account di rete di annunci supportati in modo da poter tenere traccia degli annunci, creare rapporti e visualizzare le prestazioni. Per tutte le reti di annunci eccetto [!DNL Yahoo! Display Network], è possibile gestire facoltativamente le campagne per il proprio account in Search, Social e Commerce; [!DNL Yahoo! Display Network], le campagne sono di sola lettura. Per tutte le reti di annunci, puoi consentire la funzionalità di ottimizzazione per ottimizzare le offerte, il budget delle campagne e i target della strategia di offerta delle campagne per le campagne negli account gestiti, aggiungendo le campagne ai portfolio.
 

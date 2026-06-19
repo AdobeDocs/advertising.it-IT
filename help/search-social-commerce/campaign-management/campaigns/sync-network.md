@@ -8,7 +8,7 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 393
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Sincronizzare manualmente i dati di rete degli annunci
 
-Solo *[!DNL Google Ads], [!DNL Microsoft Advertising] (in precedenza [!DNL Bing Ads]), [!DNL Yahoo! Japan Ads], [!DNL Yandex] e [!DNL Baidu] account esistenti*
+*[!DNL Google Ads], [!DNL LY Ads] (in precedenza [!DNL Yahoo! Japan Ads]), [!DNL Microsoft Advertising] (in precedenza [!DNL Bing Ads]), [!DNL Yandex] e solo [!DNL Baidu] account esistenti*
 
 La sincronizzazione è il processo tramite il quale Search, Social e Commerce raccolgono informazioni aggiornate per gli account di rete pubblicitaria connessi di ogni inserzionista su [reti pubblicitarie supportate](/help/search-social-commerce/introduction/supported-inventory.md). Questi dati includono la struttura della campagna dell’inserzionista e le entità della campagna, inclusa la maggior parte dei loro attributi gestiti o segnalati in Search, Social e Commerce. Non include i dati sui clic, né le offerte e i modificatori di offerte immessi all’esterno di Search, Social e Commerce, che vengono raccolti separatamente.
 

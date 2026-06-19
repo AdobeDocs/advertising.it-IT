@@ -12,9 +12,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 979
+source-wordcount: 992
 ht-degree: 0%
 
 ---
@@ -51,9 +51,9 @@ Questa pagina include informazioni su tutti i tipi di account, inclusa la modali
 
       * (Google Ads, Microsoft Advertising, Yahoo! Solo annunci e account Yandex) Imposta un [processo automatizzato per creare annunci dinamici e parole chiave mirati a ogni elemento nel tuo inventario](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) in base a un modello di annunci specifico per la rete di annunci creato e al contenuto dei file di dati di inventario caricati in un percorso FTP.
 
-      * (Baidu, Google Ads, Microsoft Advertising, Yahoo! Japan Ads e solo account Yandex) Carica [file di bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) contenenti la quantità di dati desiderata per un account e poi li invia alle reti di annunci.
+      * (Solo account Baidu, Google Ads, [!DNL LY Ads], Microsoft Advertising e Yandex) Carica [file bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) contenenti la quantità di dati desiderata per un account e quindi li invia alle reti di annunci.
 
-      * (Baidu, Google Ads, Microsoft Advertising, Yahoo! Japan Ads e (solo per gli account Yandex). Immetti i dati per i singoli componenti direttamente nell’interfaccia. Per la maggior parte delle campagne e dei tipi di annunci, puoi creare dati a livello di campagna, di gruppo di annunci e a livello di singola parola chiave, posizionamento e annuncio.
+      * (Solo account Baidu, Google Ads, [!DNL LY Ads], Microsoft Advertising e Yandex) Immetti i dati per i singoli componenti direttamente nell&#39;interfaccia. Per la maggior parte delle campagne e dei tipi di annunci, puoi creare dati a livello di campagna, di gruppo di annunci e a livello di singola parola chiave, posizionamento e annuncio.
 
       Alcuni tipi di campagne e annunci, tuttavia, richiedono flussi di lavoro univoci. Consulta le istruzioni per la configurazione di [[!DNL Microsoft Advertising] campagne acquisti](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md), [[!DNL Google Ads] annunci ricerca dinamica](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md), [[!DNL Google Ads] campagne prestazioni massime](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md) e [[!DNL Google Ads] campagne acquisti](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md).
 

@@ -12,9 +12,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 3140
+source-wordcount: 3173
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
 | [!UICONTROL Audience Status] | Stato del pubblico. |
 | [!UICONTROL Average CPC] | Il costo medio per clic. |
 | [!UICONTROL Average CPM] | Il costo medio per mille impression. |
-| [!UICONTROL Average Position], [!UICONTROL Avg Position] | Posizione media degli annunci durante l’intervallo di date specificato.<br><br>Per [!DNL Google Ads] e [!DNL Yahoo! Japan Ads] campagne, questi dati sono disponibili solo fino a settembre 2019. Per [!DNL Microsoft Advertising], questi dati sono disponibili solo fino al 22 gennaio 2021. |
+| [!UICONTROL Average Position], [!UICONTROL Avg Position] | Posizione media degli annunci durante l’intervallo di date specificato.<br><br>Per [!DNL Google Ads] e [!DNL LY Ads] campagne, questi dati sono disponibili solo fino a settembre 2019. Per [!DNL Microsoft Advertising], questi dati sono disponibili solo fino al 22 gennaio 2021. |
 | [!UICONTROL Bid Match Type] | ([!UICONTROL MSA Ad Extension] report) Il tipo di corrispondenza associato alla parola chiave per la quale è stata fatta un&#39;offerta. |
 | [!UICONTROL Campaign Budget] | ([!UICONTROL Campaign Daily Impression Share Report]) Il budget della campagna. |
 | [!UICONTROL Campaign Name] | La campagna. |
@@ -98,7 +98,7 @@ ht-degree: 0%
 | [!UICONTROL Creative Destination URL] | L’URL finale o l’URL di destinazione (inclusi eventuali parametri di tracciamento) dell’annuncio. |
 | [!UICONTROL Creative Display URL] | L’URL di visualizzazione dell’annuncio, che è ciò che gli utenti finali visualizzano nell’annuncio. |
 | [!UICONTROL Creative Status] | ([!UICONTROL MSA Ad Extension] report) Lo stato dell&#39;annuncio. |
-| [!UICONTROL Creative Name] | (Report transazioni; solo [!DNL Yahoo! Japan]) Il nome dell&#39;immagine dell&#39;annuncio. |
+| [!UICONTROL Creative Name] | (Report transazioni; solo [!DNL LY Ads]) Il nome dell&#39;immagine dell&#39;annuncio. |
 | [!UICONTROL Creative Title] | Il titolo o il titolo dell’annuncio. |
 | [!UICONTROL Cross Device Conversions] | ([!UICONTROL Google AI Max Search Term Combination Report]) Conversioni risultanti quando un utente fa clic su un annuncio su un dispositivo e quindi effettua la conversione su un dispositivo o browser diverso. Le conversioni tra dispositivi sono incluse in Tutte le conversioni. |
 | [!UICONTROL CTR] | Il tasso di click-through, che è il numero di clic diviso per il numero di impression per gli annunci inclusi. |
@@ -110,7 +110,7 @@ ht-degree: 0%
 | [!UICONTROL eCPM] | Il CPM effettivo o il costo medio pagato per 1000 impression durante un intervallo di date specificato. I valori eCPM vengono calcolati per le campagne CPM o CPC. |
 | [!UICONTROL EF Campaign ID] | ID numerico assegnato alla campagna da Search, Social e Commerce. |
 | [!UICONTROL EF Portfolio Group ID] | L’ID numerico del gruppo di portfolio a cui appartiene il portfolio. |
-| [!UICONTROL EF Search Engine ID] | ID numerico assegnato da Search, Social e Commerce alla rete di annunci: <i>[!UICONTROL 3]</i> per [!DNL Google Ads], <i>[!UICONTROL 10]</i> per [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> per [!DNL Meta], <i>[!UICONTROL 86]</i> per [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> per [!DNL Naver], <i>[!UICONTROL 88]</i> per [!DNL Baidu], <i>[!UICONTROL 90]</i> per [!DNL Yandex], <i>[!UICONTROL 94]</i> per [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> per [!DNL Yahoo Native] (obsoleto) o <i>[!UICONTROL 106]</i> per [!DNL Pinterest] (obsoleto). |
+| [!UICONTROL EF Search Engine ID] | ID numerico assegnato da Search, Social e Commerce alla rete di annunci: <i>[!UICONTROL 3]</i> per [!DNL Google Ads], <i>[!UICONTROL 10]</i> per [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> per [!DNL Meta], <i>[!UICONTROL 86]</i> per [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> per [!DNL Naver], <i>[!UICONTROL 88]</i> per [!DNL Baidu], <i>[!UICONTROL 90]</i> per [!DNL Yandex], <i>[!UICONTROL 94]</i> per [!DNL LY Ads] (in precedenza [!DNL Yahoo! Japan Ads]), <i>[!UICONTROL 105]</i> per [!DNL Yahoo Native] (obsoleto) o <i>[!UICONTROL 106]</i> per [!DNL Pinterest] (obsoleto). |
 | [!UICONTROL End Date] | Ultimo giorno indicato. |
 | [!UICONTROL Extension Property Value] | ([!UICONTROL MSA Ad Extension] report) Il [nome visualizzato dell&#39;estensione](https://help.ads.microsoft.com/#apex/ads/en/51001). |
 | [!UICONTROL Extension Type ID] | ([!UICONTROL MSA Ad Extension] report) ID per il tipo di estensione dell&#39;annuncio. |
@@ -128,7 +128,7 @@ ht-degree: 0%
 | [!UICONTROL Impression Lost To Rank Percent] | La percentuale di tempo in cui gli annunci non sono stati visualizzati a causa di una classificazione annuncio scadente. |
 | [!UICONTROL Impression Share Percent] | Le impression ricevute sono divise per il numero stimato di impression che potevi ricevere. |
 | [!UICONTROL Impressions] | Il numero di ad impression durante l’intervallo di date specificato. |
-| [!UICONTROL Keyword] | La parola chiave.<br><br><b>Nota:</b> se il report include dati di gruppi di annunci nelle campagne di ricerca abilitate per il contenuto, questa colonna include i nomi dei gruppi di annunci applicabili, ad esempio &quot;(contenuto adgroup) Nome del gruppo di annunci.&quot; Per un posizionamento mirato al sito in una campagna di ricerca, questa colonna non ha un valore. |
+| [!UICONTROL Keyword] | Parola chiave.<br><br><b>Nota:</b> se il report include dati di gruppi di annunci nelle campagne di ricerca abilitate per il contenuto, questa colonna include i nomi dei gruppi di annunci applicabili, ad esempio &quot;(contenuto adgroup) Nome del gruppo di annunci.&quot; Per un posizionamento mirato al sito in una campagna di ricerca, questa colonna non ha un valore. |
 | [!UICONTROL Keyword ID] | ID univoco che identifica una parola chiave esistente. |
 | [!UICONTROL Keyword Extension ID] | ([!UICONTROL MSA Ad Extension by Keyword Report]) ID numerico assegnato dalla rete di annunci all&#39;estensione dell&#39;annuncio. |
 | [!UICONTROL Keyword Extension Number] | ([!UICONTROL MSA Ad Extension by Keyword Report]) Attributo di versione per l&#39;estensione dell&#39;annuncio. |
@@ -179,7 +179,7 @@ ht-degree: 0%
 | [!UICONTROL Search IS% Lost to Budget] | ([!UICONTROL Campaign Daily Impression Share Report] e [!UICONTROL Keyword Daily Impression Share Report]) La percentuale stimata di impression che l&#39;annuncio non ha ricevuto perché il budget giornaliero o mensile era troppo basso. Le percentuali inferiori al 10% sono indicate come &quot;`<10%`&quot; e le percentuali superiori al 90% sono indicate come &quot;`>90%`&quot;. |
 | [!UICONTROL Search IS% Lost to Keyword Relevance (Bing)] | ([!DNL Microsoft Advertising] solo; [!UICONTROL Campaign Daily Impression Share Report] e [!UICONTROL Keyword Daily Impression Share Report]; dati disponibili solo fino all&#39;11 ottobre 2019) Percentuale stimata di impression non ricevute dall&#39;annuncio a causa di rilevanza insufficiente per le parole chiave. Le percentuali inferiori al 10% sono indicate come &quot;`<10%`&quot; e le percentuali superiori al 90% sono indicate come &quot;`>90%`&quot;. |
 | [!UICONTROL Search IS% Lost to Page Relevance (Bing)] | ([!DNL Microsoft Advertising] solo; [!UICONTROL Campaign Daily Impression Share Report] e [!UICONTROL Keyword Daily Impression Share Report]; dati disponibili solo fino all&#39;11 ottobre 2019) La percentuale stimata di impression che l&#39;annuncio non ha ricevuto a causa di rilevanza pagina insufficiente. Le percentuali inferiori al 10% sono indicate come &quot;`<10%`&quot; e le percentuali superiori al 90% sono indicate come &quot;`>90%`&quot;. |
-| [!UICONTROL Search IS% Lost to Rank] | ([!UICONTROL Campaign Daily Impression Share Report] e [!UICONTROL Keyword Daily Impression Share Report]) La percentuale stimata di impression sulla rete di ricerca che i tuoi annunci non hanno ricevuto a causa di un livello di annunci insufficiente. Le percentuali inferiori al 10% sono indicate come &quot;`<10%`&quot; e le percentuali superiori al 90% sono indicate come &quot;`>90%`&quot;.<br><br><b>Nota:</b> i dati per [!DNL Microsoft Advertising] campagne sono disponibili solo fino all&#39;11 ottobre 2019. |
+| [!UICONTROL Search IS% Lost to Rank] | ([!UICONTROL Campaign Daily Impression Share Report] e [!UICONTROL Keyword Daily Impression Share Report]) La percentuale stimata di impression sulla rete di ricerca che i tuoi annunci non hanno ricevuto a causa di un livello di annunci insufficiente. Le percentuali inferiori al 10% sono indicate come &quot;`<10%`&quot; e quelle superiori al 90% come &quot;`>90%`&quot;.<br><br><b>Nota:</b> I dati per le campagne [!DNL Microsoft Advertising] sono disponibili solo fino all&#39;11 ottobre 2019. |
 | [!UICONTROL Search lost abs. top IS (budget)] | ([!DNL Google Ads] e [!DNL Microsoft Advertising]; [!UICONTROL Campaign Daily Impression Share Report] e [!UICONTROL Keyword Daily Impression Share Report]) La percentuale di tempo in cui i tuoi annunci non sono stati i primi annunci al di sopra dei risultati della ricerca organica perché il budget giornaliero o mensile era troppo basso. Per [!DNL Google Ads] campagne, percentuali superiori al 90% sono indicate come &quot;>90%&quot; o &quot;0.9001&quot;. |
 | [!UICONTROL Search lost abs. top IS (rank)] | ([!DNL Google Ads] e [!DNL Microsoft Advertising]; [!UICONTROL Campaign Daily Impression Share Report] e [!UICONTROL Keyword Daily Impression Share Report]) La percentuale di tempo in cui i tuoi annunci non sono stati i primi annunci al di sopra dei risultati della ricerca organica a causa di una classificazione annuncio scadente. Per le campagne [!DNL Google Ads], le percentuali superiori al 90% sono indicate come &quot;`>90%`&quot; o &quot;`0.9001`&quot;.&quot; |
 | [!UICONTROL Search lost IS (budget)] | ([!DNL Google Ads] solo; [!UICONTROL Keyword Daily Impression Share Report]) La percentuale di tempo in cui gli annunci non sono stati visualizzati perché il budget giornaliero o mensile era troppo basso. Questa metrica è disponibile solo a livello di campagna. Le percentuali superiori al 90% sono indicate come &quot;`>90%`&quot; o &quot;`0.9001`&quot;.&quot; |
