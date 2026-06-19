@@ -4,8 +4,10 @@ description: Scopri i diversi modi per gestire i dati per le campagne ad network
 exl-id: be5c9a48-a87d-4cee-9884-2ba36ac5f2ca
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/02zDjNUn-wHgBcjq-2L3yZRRtqTHT8Nh2AsgfD3kWaE
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 299
@@ -24,6 +26,6 @@ per un account di rete di annunci con uno dei metodi seguenti:
 
   È possibile scaricare, ma non caricare o pubblicare, file di bulksheet con dati per account [!DNL Pinterest], [!DNL Yahoo DSP] e [!DNL Yahoo Native] esistenti.
 
-* Opzione 3: configurare un processo automatizzato per [creare la struttura dell&#39;account e gli annunci e le parole chiave dinamici destinati a ogni elemento nel proprio inventario](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) in base a un modello di annunci specifico per la rete di annunci creato da [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL  Advanced (ACM)]. Creare modelli in base al contenuto dei file di dati di inventario caricati manualmente o in un percorso FTP o al contenuto di un account [!DNL Google Merchant Center] o [!DNL Microsoft Merchant Center]. Puoi configurare i tuoi dati in modo che vengano pubblicati automaticamente non appena vengono creati oppure puoi inviarli manualmente alle reti di annunci dopo averli esaminati. Questa opzione è disponibile per gli account [!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising] e [!DNL Yandex].
+* Opzione 3: configurare un processo automatizzato per [creare la struttura dell&#39;account e gli annunci e le parole chiave dinamici destinati a ogni elemento nel proprio inventario](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) in base a un modello di annunci specifico per la rete di annunci creato da [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL &#x200B; Advanced (ACM)]. Creare modelli in base al contenuto dei file di dati di inventario caricati manualmente o in un percorso FTP o al contenuto di un account [!DNL Google Merchant Center] o [!DNL Microsoft Merchant Center]. Puoi configurare i tuoi dati in modo che vengano pubblicati automaticamente non appena vengono creati oppure puoi inviarli manualmente alle reti di annunci dopo averli esaminati. Questa opzione è disponibile per gli account [!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising] e [!DNL Yandex].
 
   Non è possibile creare posizionamenti utilizzando questo metodo.
