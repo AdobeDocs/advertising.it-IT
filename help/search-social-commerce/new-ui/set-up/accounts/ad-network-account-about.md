@@ -3,9 +3,9 @@ title: (Nuova interfaccia) Informazioni sugli account di rete di annunci
 description: Scopri gli account di rete degli annunci nella nuova interfaccia utente di Search, Social e Commerce.
 feature: Search Campaign Management
 exl-id: 62c69582-6b95-4ae3-b027-d1efc3deb39e
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ Search, Social e Commerce possono tenere traccia degli account di un inserzionis
 
 ## Account sincronizzati tramite API
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising] (precedentemente [!DNL Bing Ads]), [!DNL LY Ads] (precedentemente [!DNL Yahoo! Japan Ads]), [!DNL Yahoo! Display Network], [!DNL Yandex] e [!DNL Baidu] account esistenti*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL LY Ads], [!DNL Yahoo DSP], [!DNL Yandex] e [!DNL Baidu] account esistenti*
 
-Search, Social e Commerce sincronizzano (*syncs*) con account di rete di annunci supportati in modo da poter tenere traccia degli annunci, creare rapporti e visualizzare le prestazioni. Per tutte le reti di annunci eccetto [!DNL Yahoo! Display Network], è possibile gestire facoltativamente le campagne per il proprio account in Search, Social e Commerce; [!DNL Yahoo! Display Network], le campagne sono di sola lettura. Per tutte le reti di annunci, puoi consentire la funzionalità di ottimizzazione per ottimizzare le offerte, il budget delle campagne e i target della strategia di offerta delle campagne per le campagne negli account gestiti, aggiungendo le campagne ai portfolio.
+Search, Social e Commerce sincronizzano (*syncs*) con account di rete di annunci supportati in modo da poter tenere traccia degli annunci, creare rapporti e visualizzare le prestazioni. Per tutte le reti di annunci eccetto [!DNL Yahoo DSP], puoi facoltativamente gestire le campagne per il tuo account in Search, Social e Commerce. [!DNL Yahoo DSP] campagne sono di sola lettura. Per tutte le reti di annunci, puoi consentire la funzionalità di ottimizzazione per ottimizzare le offerte, il budget delle campagne e i target della strategia di offerta delle campagne per le campagne negli account gestiti, aggiungendo le campagne ai portfolio.
 
 Per abilitare la sincronizzazione di un account, il record account deve contenere le credenziali di accesso all&#39;account ed essere abilitato (attivo).
 

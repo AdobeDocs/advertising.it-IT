@@ -10,7 +10,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 857
 ht-degree: 1%
@@ -53,7 +53,7 @@ Di seguito sono riportate le colonne disponibili per ogni rapporto. Le colonne p
 | [!UICONTROL Avg. Conv. Latency (Last Campaign To Conversion)] \[metrica di conversione\] | Automatico | (Non disponibile nelle impostazioni del rapporto, ma incluso automaticamente nell’output del rapporto) Latenza media in giorni dall’ultimo evento (nell’ultima campagna) a una conversione. |
 | [!UICONTROL EF Campaign ID] | Personalizzato | ID numerico assegnato alla campagna da Search, Social e Commerce. |
 | [!UICONTROL EF Portfolio Group ID] | Personalizzato | L’ID numerico del gruppo di portfolio a cui appartiene il portfolio. |
-| [!UICONTROL EF Search Engine ID] | Personalizzato | ID numerico assegnato da Search, Social e Commerce alla rete di annunci: <i>[!UICONTROL 3]</i> per [!DNL Google Ads], <i>[!UICONTROL 10]</i> per [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> per [!DNL Meta], <i>[!UICONTROL 86]</i> per [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> per [!DNL Naver], <i>[!UICONTROL 88]</i> per [!DNL Baidu], <i>[!UICONTROL 90]</i> per [!DNL Yandex], <i>[!UICONTROL 94]</i> per [!DNL LY Ads] (in precedenza [!DNL Yahoo! Japan Ads]), <i>[!UICONTROL 105]</i> per [!DNL Yahoo Native] (obsoleto) o <i>[!UICONTROL 106]</i> per [!DNL Pinterest] (obsoleto). |
+| [!UICONTROL EF Search Engine ID] | Personalizzato | ID numerico assegnato da Search, Social e Commerce alla rete di annunci: <i>[!UICONTROL 3]</i> per [!DNL Google Ads], <i>[!UICONTROL 10]</i> per [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> per [!DNL Meta], <i>[!UICONTROL 86]</i> per [!DNL Yahoo DSP], <i>[!UICONTROL 87]</i> per [!DNL Naver], <i>[!UICONTROL 88]</i> per [!DNL Baidu], <i>[!UICONTROL 90]</i> per [!DNL Yandex], <i>[!UICONTROL 94]</i> per [!DNL LY Ads] (in precedenza [!DNL Yahoo! Japan Ads]), <i>[!UICONTROL 105]</i> per [!DNL Yahoo Native] (obsoleto) o <i>[!UICONTROL 106]</i> per [!DNL Pinterest] (obsoleto). |
 | [!UICONTROL Portfolio ID] | Personalizzato | L’ID numerico del portfolio. |
 | [!UICONTROL User SE Account ID] | Personalizzato | ID numerico assegnato da Search, Social e Commerce alla rete di annunci. |
 

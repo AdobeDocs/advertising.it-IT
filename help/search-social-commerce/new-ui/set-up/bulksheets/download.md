@@ -11,7 +11,7 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 1637
 ht-degree: 0%
@@ -129,7 +129,7 @@ Criteri per campagne, gruppi di annunci, annunci/creativi, parole chiave e/o pos
 
 ## Righe bulksheet per rete di annunci {#bulksheet-rows-by-ad-network}
 
-| Riga bulksheet | [!DNL Baidu] | [!DNL Google Ads] | [!DNL LY Ads] | [!DNL Microsoft Advertising] | [!DNL Naver] | [!DNL Pinterest] | [!DNL Yahoo! Display Network] | [!DNL Yahoo Native] | [!DNL Yandex] | Note |
+| Riga bulksheet | [!DNL Baidu] | [!DNL Google Ads] | [!DNL LY Ads] | [!DNL Microsoft Advertising] | [!DNL Naver] | [!DNL Pinterest] | [!DNL Yahoo DSP] | [!DNL Yahoo Native] | [!DNL Yandex] | Note |
 |----|----|----|----|-------|----|----|----|----|----|----|
 | [!UICONTROL Campaign] | Sì | Sì | Sì | Sì | Sì | Sì | Sì | Sì | Sì | — |
 | [!UICONTROL Adgroup] | Sì | Sì | Sì | Sì | Sì | Sì | Sì | Sì | Sì | — |
@@ -163,7 +163,7 @@ Per informazioni dettagliate sulle colonne obbligatorie e facoltative per ciascu
 * [Dati dei bulksheet obbligatori e facoltativi per  [!DNL LY Ads]  account](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
 * [Dati dei bulksheet obbligatori e facoltativi per  [!DNL Microsoft Advertising]  account](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
 * [Dati dei bulksheet obbligatori e facoltativi per  [!DNL Naver]  account](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
-* [Dati dei bulksheet obbligatori e facoltativi per  [!DNL Yahoo! Display Network]  account](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
+* [Dati dei bulksheet obbligatori e facoltativi per  [!DNL Yahoo DSP]  account](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
 * [Dati dei bulksheet obbligatori e facoltativi per  [!DNL Yandex]  account](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
 
 >[!MORELIKETHIS]

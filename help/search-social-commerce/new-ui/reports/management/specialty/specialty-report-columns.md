@@ -2,7 +2,7 @@
 title: Colonne report per report speciali
 description: Scopri le colonne di dati disponibili per i rapporti speciali.
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: '3172'
 ht-degree: 0%
@@ -100,7 +100,7 @@ ht-degree: 0%
 | [!UICONTROL eCPM] | Il CPM effettivo o il costo medio pagato per 1000 impression durante un intervallo di date specificato. I valori eCPM vengono calcolati per le campagne CPM o CPC. |
 | [!UICONTROL EF Campaign ID] | ID numerico assegnato alla campagna da Search, Social e Commerce. |
 | [!UICONTROL EF Portfolio Group ID] | L’ID numerico del gruppo di portfolio a cui appartiene il portfolio. |
-| [!UICONTROL EF Search Engine ID] | ID numerico assegnato da Search, Social e Commerce alla rete di annunci: <i>[!UICONTROL 3]</i> per [!DNL Google Ads], <i>[!UICONTROL 10]</i> per [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> per [!DNL Meta], <i>[!UICONTROL 86]</i> per [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> per [!DNL Naver], <i>[!UICONTROL 88]</i> per [!DNL Baidu], <i>[!UICONTROL 90]</i> per [!DNL Yandex], <i>[!UICONTROL 94]</i> per [!DNL LY Ads] (in precedenza [!DNL Yahoo! Japan Ads]), <i>[!UICONTROL 105]</i> per [!DNL Yahoo Native] (obsoleto) o <i>[!UICONTROL 106]</i> per [!DNL Pinterest] (obsoleto). |
+| [!UICONTROL EF Search Engine ID] | ID numerico assegnato da Search, Social e Commerce alla rete di annunci: <i>[!UICONTROL 3]</i> per [!DNL Google Ads], <i>[!UICONTROL 10]</i> per [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> per [!DNL Meta], <i>[!UICONTROL 86]</i> per [!DNL Yahoo DSP], <i>[!UICONTROL 87]</i> per [!DNL Naver], <i>[!UICONTROL 88]</i> per [!DNL Baidu], <i>[!UICONTROL 90]</i> per [!DNL Yandex], <i>[!UICONTROL 94]</i> per [!DNL LY Ads] (in precedenza [!DNL Yahoo! Japan Ads]), <i>[!UICONTROL 105]</i> per [!DNL Yahoo Native] (obsoleto) o <i>[!UICONTROL 106]</i> per [!DNL Pinterest] (obsoleto). |
 | [!UICONTROL End Date] | Ultimo giorno indicato. |
 | [!UICONTROL Extension Property Value] | ([!UICONTROL MSA Ad Extension] report) Il [nome visualizzato dell&#39;estensione](https://help.ads.microsoft.com/#apex/ads/en/51001). |
 | [!UICONTROL Extension Type ID] | ([!UICONTROL MSA Ad Extension] report) ID per il tipo di estensione dell&#39;annuncio. |

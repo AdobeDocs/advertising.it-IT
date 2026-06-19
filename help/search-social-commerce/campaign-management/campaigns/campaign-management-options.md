@@ -8,7 +8,7 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 299
 ht-degree: 0%
@@ -24,7 +24,7 @@ per un account di rete di annunci con uno dei metodi seguenti:
 
 * Opzione 2: Carica [file bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) contenenti la quantità di dati desiderata per un account da [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Bulksheets]. Per gli account [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Naver], [!DNL Yandex] ed esistenti [!DNL Baidu], puoi pubblicare i dati nella rete di annunci. Per [!DNL Naver], è possibile caricare i dati da utilizzare in Search, Social e Commerce, ma non è possibile pubblicarli nella rete di annunci.
 
-  È possibile scaricare, ma non caricare o pubblicare, file di bulksheet con dati per account [!DNL Pinterest], [!DNL Yahoo Native] e [!DNL Yahoo! Display Network] esistenti.
+  È possibile scaricare, ma non caricare o pubblicare, file di bulksheet con dati per account [!DNL Pinterest], [!DNL Yahoo DSP] e [!DNL Yahoo Native] esistenti.
 
 * Opzione 3: configurare un processo automatizzato per [creare la struttura dell&#39;account e gli annunci e le parole chiave dinamici destinati a ogni elemento nel proprio inventario](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) in base a un modello di annunci specifico per la rete di annunci creato da [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL &#x200B; Advanced (ACM)]. Creare modelli in base al contenuto dei file di dati di inventario caricati manualmente o in un percorso FTP o al contenuto di un account [!DNL Google Merchant Center] o [!DNL Microsoft Merchant Center]. Puoi configurare i tuoi dati in modo che vengano pubblicati automaticamente non appena vengono creati oppure puoi inviarli manualmente alle reti di annunci dopo averli esaminati. Questa opzione è disponibile per gli account [!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising] e [!DNL Yandex].
 

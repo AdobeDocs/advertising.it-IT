@@ -13,7 +13,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 2136
 ht-degree: 0%
@@ -194,7 +194,7 @@ Gli account che utilizzano il tracciamento dei clic di Adobe Advertising devono 
 >* Questo campo non è aggiornato dall&#39;impostazione di tracciamento [!UICONTROL Auto Upload].
 >* I suffissi URL finali ai livelli inferiori sovrascrivono il suffisso a livello di account. Per una manutenzione più semplice, utilizza solo il suffisso a livello di account, a meno che non sia necessario un tracciamento diverso per i singoli componenti dell’account. Per configurare un suffisso a livello di gruppo di annunci o inferiore, utilizza l’editor della rete di annunci.
 
-**Fuso orario:** (tutte le reti di annunci tranne [!DNL Baidu] e [!DNL Yahoo! Display Network]) Fuso orario dell&#39;inserzionista. Questo campo è modificabile e facoltativo per i nuovi account [!DNL Naver]. Per tutte le altre reti di ricerca, il valore viene compilato automaticamente con il fuso orario configurato per l&#39;account Search, Social e Commerce dell&#39;inserzionista una volta salvato il record.
+**Fuso orario:** (tutte le reti di annunci tranne [!DNL Baidu] e [!DNL Yahoo DSP]) Fuso orario dell&#39;inserzionista. Questo campo è modificabile e facoltativo per i nuovi account [!DNL Naver]. Per tutte le altre reti di ricerca, il valore viene compilato automaticamente con il fuso orario configurato per l&#39;account Search, Social e Commerce dell&#39;inserzionista una volta salvato il record.
 
 **Stato:** lo stato dell&#39;account in Search, Social e Commerce:
 
