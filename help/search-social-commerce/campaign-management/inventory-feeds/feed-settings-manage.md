@@ -4,8 +4,10 @@ description: Scopri come configurare le impostazioni che controllano la modalit�
 exl-id: 7eaac751-ecdf-4e73-9eae-a961bd9b7360
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/kmaWPmbN4HFZmI0u9KE2PXMyt9jltTHAM9tWM0Bj7e0
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 1164
@@ -107,7 +109,7 @@ Questa opzione è disabilitata per impostazione predefinita. Per abilitare quest
 
 * *[!UICONTROL Immediately]* (impostazione predefinita): pubblica i file dei fogli collettivi nelle reti pubblicitarie pertinenti dopo che i dati sono stati propagati tramite i modelli. I file del bulksheet rimangono disponibili nella visualizzazione [!UICONTROL Bulksheets] per 30 giorni.
 
-* *[!UICONTROL Preview in Bulksheet Management area only, post later]:** Non pubblica i file dei fogli collettivi nelle reti di annunci pertinenti, ma li elenca nella visualizzazione [!UICONTROL Bulksheets], da cui puoi pubblicarli in un secondo momento. I file del bulksheet rimangono disponibili nella visualizzazione [!UICONTROL Bulksheets] per 30 giorni. Quando il file bulksheet è superiore a 10 MB ma inferiore a 2 GB, il file è in formato ZIP; non è necessario decomprimere il file per pubblicarlo. **Suggerimento:** se non hai convalidato in precedenza le pagine di destinazione, utilizza questa opzione per convalidarle dalla visualizzazione [!UICONTROL Bulksheets] prima di pubblicare i dati nella rete di annunci.
+* *[!UICONTROL Preview in Bulksheet Management area only, post later]:**&#x200B; Non pubblica i file dei fogli collettivi nelle reti di annunci pertinenti, ma li elenca nella visualizzazione [!UICONTROL Bulksheets], da cui puoi pubblicarli in un secondo momento. I file del bulksheet rimangono disponibili nella visualizzazione [!UICONTROL Bulksheets] per 30 giorni. Quando il file bulksheet è superiore a 10 MB ma inferiore a 2 GB, il file è in formato ZIP; non è necessario decomprimere il file per pubblicarlo. &#x200B;** Suggerimento:** se non hai convalidato in precedenza le pagine di destinazione, utilizza questa opzione per convalidarle dalla visualizzazione [!UICONTROL Bulksheets] prima di pubblicare i dati nella rete di annunci.
 
 **[!UICONTROL Exclude keywords from posting when keyword length is greater than]:** impedisce la pubblicazione di frasi di parole chiave con più di un numero specificato di parole nella rete di annunci. Quando questa opzione è selezionata, le frasi delle parole chiave con un numero di parole superiore al massimo vengono propagate ed elencate nella scheda [!UICONTROL Keywords], ma non vengono pubblicate quando si tenta di pubblicare i dati.
 
