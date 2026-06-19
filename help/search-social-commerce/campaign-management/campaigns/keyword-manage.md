@@ -4,20 +4,18 @@ description: Scopri come creare e gestire parole chiave che possono essere offer
 exl-id: 79ae5347-8625-4d31-a9fe-f476c041a063
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/rvAZIAdcUmWSl4GKm4TCvDwkS-jdWFZ1S5vUYYEPRzU
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 413
+source-wordcount: 410
 ht-degree: 0%
 
 ---
 
 # Gestire le parole chiave per le offerte
 
-Solo *[!DNL Google Ads]e [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex] e [!DNL Baidu] account esistenti*
+Solo *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising], [!DNL Yandex] e [!DNL Baidu] account esistenti*
 
 Puoi creare e modificare parole chiave per i gruppi di annunci di ricerca in [tipi di campagne supportati](/help/search-social-commerce/introduction/supported-inventory.md) che eseguono la ricerca e le reti di visualizzazione/native in un [account di rete di annunci sincronizzato](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
 
@@ -33,7 +31,7 @@ Puoi creare e modificare parole chiave per i gruppi di annunci di ricerca in [ti
 
 1. Selezionare la rete di annunci, l&#39;account, la campagna e il gruppo di annunci, quindi fare clic su **[!UICONTROL Continue]**.
 
-1. Immettere le [[!DNL Baidu] impostazioni per le parole chiave](keyword-settings-baidu.md), [[!DNL Google Ads] impostazioni per le parole chiave](keyword-settings-google.md), [[!DNL Microsoft Advertising] impostazioni per le parole chiave](keyword-settings-microsoft.md), [[!DNL Yahoo! Japan Ads] impostazioni per le parole chiave](keyword-settings-yahoo-japan.md) o [[!DNL Yandex] impostazioni per le parole chiave](keyword-settings-yandex.md).
+1. Immettere le [[!DNL Baidu] impostazioni per le parole chiave](keyword-settings-baidu.md), [[!DNL Google Ads] impostazioni per le parole chiave](keyword-settings-google.md), [[!DNL LY Ads] impostazioni per le parole chiave](keyword-settings-yahoo-japan.md), [[!DNL Microsoft Advertising] impostazioni per le parole chiave](keyword-settings-microsoft.md) o [[!DNL Yandex] impostazioni per le parole chiave](keyword-settings-yandex.md).
 
    È possibile immettere o incollare fino a 2.000 parole chiave in un&#39;unica operazione. Separare più parole chiave con virgole o immetterle su righe separate.
 
@@ -63,7 +61,7 @@ La parola chiave esistente viene eliminata e ne viene creata un&#39;altra quando
 
 1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Modifica](/help/search-social-commerce/assets/edit.png "Modifica").
 
-1. Modificare le [[!DNL Baidu] impostazioni delle parole chiave](keyword-settings-baidu.md), [[!DNL Google Ads] impostazioni delle parole chiave](keyword-settings-google.md), [[!DNL Microsoft Advertising] impostazioni delle parole chiave](keyword-settings-microsoft.md), [[!DNL Yahoo! Japan Ads] impostazioni delle parole chiave](keyword-settings-yahoo-japan.md) o [[!DNL Yandex] impostazioni delle parole chiave](keyword-settings-yandex.md).
+1. Modificare le [[!DNL Baidu] impostazioni delle parole chiave](keyword-settings-baidu.md), [[!DNL Google Ads] impostazioni delle parole chiave](keyword-settings-google.md), [[!DNL LY Ads] impostazioni delle parole chiave](keyword-settings-yahoo-japan.md), [[!DNL Microsoft Advertising] impostazioni delle parole chiave](keyword-settings-microsoft.md) o [[!DNL Yandex] impostazioni delle parole chiave](keyword-settings-yandex.md).
 
    Per più parole chiave, è possibile modificare solo i campi comuni a tutte le parole chiave selezionate e le modifiche apportate vengono applicate a tutte le parole chiave selezionate. Per alcuni campi alfanumerici sono disponibili opzioni che consentono di modificare i valori esistenti in un valore specificato, sostituire una stringa esistente con una stringa specificata, aggiungere un prefisso specificato all&#39;inizio di ogni valore o aggiungere un suffisso alla fine di ogni valore. Per alcuni campi monetari, è possibile modificare i valori esistenti in un valore specificato o aumentare o diminuire l&#39;importo di una percentuale o di un importo monetario specificato, con un limite.
 
@@ -78,8 +76,8 @@ La parola chiave esistente viene eliminata e ne viene creata un&#39;altra quando
 >* [Informazioni sulle parole chiave](keyword-about.md)
 >* [[!DNL Baidu] impostazioni parole chiave](keyword-settings-baidu.md)
 >* [[!DNL Google Ads] impostazioni parole chiave](keyword-settings-google.md)
+>* [[!DNL LY Ads] impostazioni parole chiave](keyword-settings-yahoo-japan.md)
 >* [[!DNL Microsoft Advertising] impostazioni parole chiave](keyword-settings-microsoft.md)
->* [[!DNL Yahoo! Japan Ads] impostazioni parole chiave](keyword-settings-yahoo-japan.md)
 >* [[!DNL Yandex] impostazioni parole chiave](keyword-settings-yandex.md)
 >* [Creare parole chiave negative](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
 >* [Modifica lo stato delle parole chiave e delle parole chiave negative](keyword-status-edit.md)

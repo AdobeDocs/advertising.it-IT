@@ -4,13 +4,10 @@ description: Scopri come configurare le impostazioni che controllano la modalit�
 exl-id: 7d19ecc0-c939-4996-b22b-970ce8644b09
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/xXcdqry6-ef6Hj0DykJ0pZI6YWFyyVd8vJD0IZLw7Jc
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 1249
 ht-degree: 0%
@@ -19,7 +16,7 @@ ht-degree: 0%
 
 # Gestire i file di feed dati di inventario
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (elimina solo azioni) e [!DNL Yandex] account solo*
+*[!DNL Google Ads], [!DNL LY Ads] (solo azioni di eliminazione), [!DNL Microsoft Advertising] e [!DNL Yandex] account solo*
 
 Se invii i tuoi dati di feed, devi caricare file contenenti i tuoi dati di prodotto per creare in modo dinamico la struttura della campagna, gli annunci e le parole chiave, in base ai dati di prodotto. Puoi quindi associarli a modelli di annunci specifici per la rete di annunci ed elaborare i dati tramite i modelli, infine pubblicare i dati nelle reti di annunci pertinenti. È possibile associare più modelli a un file di feed, ma ogni modello può essere associato a un solo file di feed.
 

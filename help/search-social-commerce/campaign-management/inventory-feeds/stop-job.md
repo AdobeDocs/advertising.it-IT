@@ -4,11 +4,9 @@ description: Scopri come interrompere un processo di registrazione per i dati de
 exl-id: 06a10ec1-bfff-4384-b1c8-ba6b504c6888
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/cjOAlWqQemvbK-H0RYvwnNF980UVmZjy-hp-SbrlWxo
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 125
 ht-degree: 0%
@@ -17,7 +15,7 @@ ht-degree: 0%
 
 # Interrompere un processo di registrazione per i dati di feed inventario
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (elimina solo azioni) e [!DNL Yandex] account solo*
+*[!DNL Google Ads], [!DNL LY Ads] (solo azioni di eliminazione), [!DNL Microsoft Advertising] e [!DNL Yandex] account solo*
 
 Puoi interrompere la pubblicazione dei dati della campagna generati da un feed nei seguenti modi.
 

@@ -2,9 +2,9 @@
 title: Gestire le classificazioni delle etichette
 description: Scopri come utilizzare le classificazioni delle etichette per raggruppare i componenti dell’account.
 feature: Search Label Classifications
-source-git-commit: 639037683053009ce653dee6d7c1e4eb80abf4d8
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1514'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Ogni inserzionista può avere fino a 30 classificazioni di etichette, che sono c
 
 ### Valori etichetta
 
-Ogni classificazione di etichetta può avere fino a 2000 valori. Dopo aver creato valori di etichetta specifici per una classificazione, puoi assegnarli a campagne, gruppi di annunci, parole chiave, annunci, posizionamenti e gruppi di prodotti [&#x200B; dalle viste gestione campagne](#classification-values-assign-campaign-management) o [utilizzando i bulksheet](#classification-values-assign-bulksheets).
+Ogni classificazione di etichetta può avere fino a 2000 valori. Dopo aver creato valori di etichetta specifici per una classificazione, puoi assegnarli a campagne, gruppi di annunci, parole chiave, annunci, posizionamenti e gruppi di prodotti [ dalle viste gestione campagne](#classification-values-assign-campaign-management) o [utilizzando i bulksheet](#classification-values-assign-bulksheets).
 
 Ogni entità idonea può avere valori di etichetta per più classificazioni, ma un solo valore di etichetta per classificazione. I valori delle etichette vengono ereditati dalle entità figlio, ma possono essere ignorati. Il valore assegnato al livello più basso sostituisce sempre i valori assegnati ai livelli padre.
 
@@ -55,7 +55,7 @@ La visualizzazione [!UICONTROL Reports] > [!UICONTROL Labels Classifications] in
 
 1. Immettere un nome di classificazione di etichetta univoco, quindi fare clic su **[!UICONTROL Create]**.
 
-   Il nome deve essere univoco per l&#39;account dell&#39;inserzionista e deve essere costituito da [caratteri ASCII da 32 a 126](https://www.asciitable.com/) e la lunghezza massima è di 27 caratteri a byte singolo. Il nome non può essere identico al nome di una colonna di report o di una colonna di bulksheet esistente. Vedi i nomi delle colonne dei bulksheet per [Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Yahoo! Visualizza rete](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md) e [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md).
+   Il nome deve essere univoco per l&#39;account dell&#39;inserzionista e deve essere costituito da [caratteri ASCII da 32 a 126](https://www.asciitable.com/) e la lunghezza massima è di 27 caratteri a byte singolo. Il nome non può essere identico al nome di una colonna di report o di una colonna di bulksheet esistente. Vedi i nomi delle colonne dei bulksheet per [Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [LY Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! Visualizza rete](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md) e [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md).
 
 ## Assegnare valori di classificazione ai componenti account dalle viste di gestione delle campagne {#classification-values-assign-campaign-management}
 

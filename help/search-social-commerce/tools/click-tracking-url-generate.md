@@ -4,13 +4,11 @@ description: Scopri come generare manualmente un URL di tracciamento dei clic pe
 exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
 TQID: https://experienceleague.adobe.com/RqD0SAUXXlSNvMUJFgrjspFoGjpJHmx0ThZGAHFFdi0
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 458
+source-wordcount: 484
 ht-degree: 0%
 
 ---
@@ -87,7 +85,7 @@ Per informazioni su quando è necessario generare e implementare manualmente un 
 
 Per gli account con URL di destinazione, immettere i valori nei campi [!UICONTROL Base URL] appropriati.
 
-Per gli account con URL finali, immettere il valore visualizzato sullo schermo nel campo [!UICONTROL Tracking Template] appropriato. Aggiungere un parametro per l&#39;URL finale dopo il parametro `&url=` (ad esempio `{lpurl}`). Per gli account [!DNL Yahoo! Japan Ads], utilizzare il parametro `{lpurl}`. Per un elenco dei parametri [!DNL Google Ads] e [!DNL Microsoft Advertising] per indicare gli URL finali nei modelli di tracciamento, consulta la [[!DNL Google Ads] documentazione](https://support.google.com/google-ads/answer/6305348) (vedi i parametri &quot;Solo modello di tracciamento&quot; nella sezione &quot;Parametri [!DNL ValueTrack] disponibili&quot;) e la [[!DNL Microsoft Advertising] documentazione](https://help.ads.microsoft.com/#apex/3/en/56799/2).
+Per gli account con URL finali, immettere il valore visualizzato sullo schermo nel campo [!UICONTROL Tracking Template] appropriato. Aggiungere un parametro per l&#39;URL finale dopo il parametro `&url=` (ad esempio `{lpurl}`). Per gli account [!DNL LY Ads], utilizzare il parametro `{lpurl}`. Per un elenco dei parametri [!DNL Google Ads] e [!DNL Microsoft Advertising] per indicare gli URL finali nei modelli di tracciamento, consulta la [[!DNL Google Ads] documentazione](https://support.google.com/google-ads/answer/6305348) (vedi i parametri &quot;Solo modello di tracciamento&quot; nella sezione &quot;Parametri [!DNL ValueTrack] disponibili&quot;) e la [[!DNL Microsoft Advertising] documentazione](https://help.ads.microsoft.com/#apex/3/en/56799/2).
 
 >[!MORELIKETHIS]
 >

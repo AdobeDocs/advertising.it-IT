@@ -4,11 +4,9 @@ description: Scopri come modificare i dati generati dai feed di dati di inventar
 exl-id: d43b593d-758d-4561-9cda-33b235099cc6
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/YAjOramjWXPJmOkLB2dhjG3PLUUAEbDAPRBYLVSl3vo
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 426
 ht-degree: 0%
@@ -17,7 +15,7 @@ ht-degree: 0%
 
 # Modificare i dati generati dai feed
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (elimina solo azioni) e [!DNL Yandex] account solo*
+*[!DNL Google Ads], [!DNL LY Ads] (solo azioni di eliminazione), [!DNL Microsoft Advertising] e [!DNL Yandex] account solo*
 
 Quando propaghi i dati di feed senza inviarli simultaneamente alla rete di annunci, puoi modificarli in uno dei seguenti modi. In seguito puoi [pubblicare dati](propagated-data-post.md) da una delle due posizioni alle reti pubblicitarie pertinenti:
 

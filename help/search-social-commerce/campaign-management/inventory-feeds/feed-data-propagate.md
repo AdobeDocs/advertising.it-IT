@@ -4,20 +4,18 @@ description: Scopri come propagare i dati dai feed di inventario tramite modelli
 exl-id: 9660af19-a517-4593-9a99-da600a0285a5
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/2MCDHOgRqhAgwKuT-drdVZCHZJhSYxX3F3wLAVnpXT0
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 876
+source-wordcount: 881
 ht-degree: 0%
 
 ---
 
 # Propagazione dei dati di feed inventario tramite modelli
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (elimina solo azioni) e [!DNL Yandex] account solo*
+*[!DNL Google Ads], [!DNL LY Ads] (solo azioni di eliminazione), [!DNL Microsoft Advertising] e [!DNL Yandex] account solo*
 
 Dopo aver creato un modello di feed specifico per la rete di annunci e aver associato a esso un file di feed o un account del centro commerciale [!DNL Google] o [!DNL Microsoft], puoi creare annunci propagando i dati di feed tramite il modello in base alle [impostazioni dei dati di feed](feed-settings-manage.md). Durante la propagazione, i nomi delle colonne nel modello vengono sostituiti dai valori dei dati nel feed e le campagne generate e i relativi componenti dispongono delle impostazioni predefinite, a meno che il modello non specifichi diversamente. A seconda delle opzioni del modello, Cerca, Social e Commerce creano una nuova struttura dell’account (campagne, gruppi di annunci, parole chiave) per gli annunci o mappano gli annunci alla struttura dell’account esistente.
 
