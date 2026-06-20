@@ -16,9 +16,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a93c33ee47bd1a8df137a69598b367e985def4ee
+source-git-commit: 358bcf190b36bd3c01e33a3d5762361a4a015393
 workflow-type: tm+mt
-source-wordcount: 499
+source-wordcount: 498
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Adobe Advertising è integrato con Adobe Customer Journey Analytics per la condi
 
    * Dati di attribuzione da Customer Journey Analytics in Adobe Advertising, dove possono essere utilizzati per l’ottimizzazione e il reporting
 
-  In questo caso d&#39;uso, utilizzare Web SDK per tenere traccia degli eventi del sito (utilizzando cookie, indirizzi IP con hash o ID universali) e attribuire gli eventi del sito all&#39;attività paid media in [!DNL Google Ads], [!DNL Microsoft Advertising] e [!DNL Meta] e Adobe DSP. Per la raccolta dei dati verrà inoltre utilizzato Adobe Experience Platform.
+  In questo caso d&#39;uso, utilizzare Web SDK per tenere traccia degli eventi del sito (utilizzando cookie, indirizzi IP con hash o ID universali) e attribuire gli eventi del sito all&#39;attività paid media in [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Meta] e Adobe DSP. Per la raccolta dei dati verrà inoltre utilizzato Adobe Experience Platform.
 
 ## Definizioni dei tipi di dati per i rapporti
 
