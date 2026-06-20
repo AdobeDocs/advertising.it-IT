@@ -4,13 +4,11 @@ description: Scopri le funzionalità dei bulksheet disponibili tramite la rete d
 exl-id: 34a16ee3-9eba-4b8b-a5ca-65318f4ee6c5
 feature: Search Bulksheets
 TQID: https://experienceleague.adobe.com/VvfpRiNIhOEk15R4eJn-BP-NmPeNvYVzRN6evnJK45U
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 358bcf190b36bd3c01e33a3d5762361a4a015393
 workflow-type: tm+mt
-source-wordcount: 774
+source-wordcount: 775
 ht-degree: 0%
 
 ---
@@ -35,7 +33,7 @@ Tutti i bulksheet, i file di errore di convalida della pagina di destinazione e 
 
   Puoi caricare [!DNL Naver] dati da utilizzare in Search, Social e Commerce, ma non puoi pubblicarli nella rete di annunci. Puoi anche scaricare i dati esistenti (non sincronizzati).
 
-* **Scarica solo dati:** [!DNL Pinterest], [!DNL Yahoo Native] e [!DNL Yahoo! Display Network] account
+* **Scarica solo dati:** [!DNL Pinterest], [!DNL Yahoo DSP] e [!DNL Yahoo Native] account
 
   Puoi scaricare i dati esistenti (non sincronizzati).
 
