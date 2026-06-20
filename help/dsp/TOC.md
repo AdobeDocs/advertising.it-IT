@@ -77,7 +77,7 @@ ht-degree: 3%
       + [Rivedere e modificare i dettagli degli annunci tramite i bulksheet](/help/dsp/campaign-management/ads/ad-qa.md)
       + [Modificare un annuncio](/help/dsp/campaign-management/ads/ad-edit.md)
       + [Duplicare un annuncio](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [Allega e rimuovi annunci dai posizionamenti](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
+      + [Allega e rimuovi annunci dai posizionamenti](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=it)
       + [Elencare i posizionamenti associati a un annuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [Visualizzare un rapporto dettagliato per un annuncio](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [Mettere in pausa o attivare un annuncio](/help/dsp/campaign-management/ads/ad-pause-activate.md)
