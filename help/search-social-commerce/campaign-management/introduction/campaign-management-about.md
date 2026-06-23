@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+source-git-commit: 33f9b15eae29023aaee3644d7a78c09c5ab1429a
 workflow-type: tm+mt
-source-wordcount: 808
+source-wordcount: 822
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Search, Social e Commerce consente di monitorare e/o gestire in un’unica posizione le campagne Search, Display/Content, Social, Shopping, Audience e Performance Max. A seconda della rete e del tipo di campagna dell’annuncio, le funzionalità disponibili possono includere la sincronizzazione con le reti dell’annuncio, la creazione e la modifica di funzionalità, il tracciamento e l’attribuzione della conversione, la generazione di rapporti e l’ottimizzazione di offerte e budget. Per informazioni dettagliate sulle funzionalità disponibili per ogni rete di annunci, vedi &quot;[Inventario supportato](/help/search-social-commerce/introduction/supported-inventory.md).&quot;
 
-Quando si aggiungono e si modificano i dati della campagna nelle visualizzazioni [!UICONTROL Campaigns], Search, Social e Commerce inviano immediatamente le modifiche dei dati alla rete di annunci. Search, Social e Commerce estraggono inoltre i dati della struttura della campagna e i dati sui clic dagli account di rete di annunci sincronizzati una volta al giorno (o più spesso quando vengono rilevate nuove campagne) e su richiesta, in base alle richieste.
+Quando si aggiungono e si modificano i dati della campagna nelle visualizzazioni [!UICONTROL Campaigns], Search, Social e Commerce inviano immediatamente le modifiche dei dati alla rete di annunci. Search, Social e Commerce estraggono inoltre i dati della struttura della campagna e i dati dei clic su base oraria dagli account sincronizzati [!DNL Google Ads] e [!DNL Microsoft Advertising] e su base giornaliera per altri account di rete di annunci sincronizzati o più spesso quando vengono rilevate nuove campagne. Per tutte le reti pubblicitarie sincronizzate, puoi anche sincronizzare gli account su richiesta in base alle esigenze.
 
 ## Impostazione dell’accesso agli account di rete degli annunci
 
@@ -58,7 +58,7 @@ Le viste di gestione della campagna consentono di monitorare e gestire gli accou
 
 * **[!UICONTROL Bulksheets]** - Utilizzare la visualizzazione [!UICONTROL Bulksheets] per creare [file bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) contenenti la quantità di dati desiderata per un account in una [rete di annunci supportata](/help/search-social-commerce/introduction/supported-inventory.md), quindi inviarli alla rete di annunci.
 
-* **[!UICONTROL Audiences]** — [Le [!UICONTROL Audiences] visualizzazioni](/help/search-social-commerce/campaign-management/campaigns/audience-about.md) elencano tutti i tipi di pubblico [!DNL Google Ads] e [!DNL Microsoft Advertising] generati da vari tipi di elenchi di utenti. Puoi creare [!DNL Google Ads] tipi di pubblico dai tuoi tipi di pubblico di Adobe CX Enterprise esistenti e dagli elenchi e-mail dei tuoi clienti. Puoi anche visualizzare e gestire i target e le esclusioni del pubblico per gli annunci [!DNL Google Ads] e [!DNL Microsoft Advertising].
+* **[!UICONTROL Audiences]** — [Le [!UICONTROL Audiences] visualizzazioni](/help/search-social-commerce/campaign-management/campaigns/audience-about.md) elencano tutti i tipi di pubblico [!DNL Google Ads] e [!DNL Microsoft Advertising] generati da vari tipi di elenchi di utenti. Puoi creare [!DNL Google Ads] tipi di pubblico dai tipi di pubblico esistenti di Adobe CX Enterprise e dagli elenchi e-mail dei clienti. Puoi anche visualizzare e gestire i target e le esclusioni del pubblico per gli annunci [!DNL Google Ads] e [!DNL Microsoft Advertising].
 
 * **[!UICONTROL Label Classifications]** - Utilizzare questa visualizzazione per creare ed eliminare [classificazioni di etichette](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md), che possono essere utili per raggruppare le etichette in insiemi significativi.
 
