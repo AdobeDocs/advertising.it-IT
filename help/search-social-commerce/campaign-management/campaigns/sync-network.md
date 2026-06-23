@@ -4,13 +4,11 @@ description: Scopri come attivare manualmente la sincronizzazione della struttur
 exl-id: 185c6a01-c2e8-4bbb-a9dd-0a8200eb4792
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/3X49sKMCu3P0X1CUUEpkmTXv4fdoeKk0sBAty5MBd8Y
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: 391
 ht-degree: 0%
 
 ---
@@ -21,7 +19,7 @@ ht-degree: 0%
 
 La sincronizzazione è il processo tramite il quale Search, Social e Commerce raccolgono informazioni aggiornate per gli account di rete pubblicitaria connessi di ogni inserzionista su [reti pubblicitarie supportate](/help/search-social-commerce/introduction/supported-inventory.md). Questi dati includono la struttura della campagna dell’inserzionista e le entità della campagna, inclusa la maggior parte dei loro attributi gestiti o segnalati in Search, Social e Commerce. Non include i dati sui clic, né le offerte e i modificatori di offerte immessi all’esterno di Search, Social e Commerce, che vengono raccolti separatamente.
 
-Search, Social e Commerce si sincronizzano (sincronizzano) automaticamente con gli account della rete di annunci una volta al giorno e ogni volta che rilevano una nuova campagna su una delle reti di annunci. Inoltre, invia immediatamente alla rete di annunci tutte le modifiche apportate ai dati della campagna dall’interno di Search, Social e Commerce.
+Search, Social e Commerce si sincronizzano automaticamente con gli account della tua rete di annunci ogni giorno e ogni volta che rileva una nuova campagna su una delle tue reti di annunci. Inoltre, invia immediatamente alla rete di annunci tutte le modifiche apportate ai dati della campagna dall’interno di Search, Social e Commerce.
 
 Puoi richiedere manualmente la sincronizzazione di tutte le campagne attive e in pausa in account specifici o in campagne attive e in pausa specifiche. Questa attività raccoglie le entità sulla rete di annunci che sono nuove o modificate.
 
