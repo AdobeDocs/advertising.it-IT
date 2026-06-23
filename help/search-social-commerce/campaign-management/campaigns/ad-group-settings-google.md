@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
 workflow-type: tm+mt
-source-wordcount: 450
+source-wordcount: 464
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Adgroup Details]
 
-**[!UICONTROL Ad Group Name]:** Nome di un gruppo di annunci univoco all&#39;interno della campagna. La lunghezza massima è di 255 caratteri a doppio byte.
+**[!UICONTROL Ad Group Name]:** nome di un gruppo di annunci univoco all&#39;interno della campagna. La lunghezza massima è di 255 caratteri a doppio byte.
 
 **[!UICONTROL Status]:** Lo stato di visualizzazione del gruppo di annunci: *Attivo* o *In pausa*. Il valore predefinito per i nuovi gruppi di annunci è *Attivo*.
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Optimize]:* [!DNL Google Ads] favorisce gli annunci che prevede di eseguire meglio di altri annunci nel gruppo di annunci. Questi annunci entrano nell’asta pubblicitaria più spesso e nel tempo viene preferito un singolo annuncio. Ciò potrebbe non essere coerente con gli obiettivi aziendali e di ottimizzazione.
 
-* *[!UICONTROL Rotate forever]:*   Ciascuno degli annunci entra nell’asta un numero più uniforme di volte, il che consente a Search, Social e Commerce di valutare i tuoi annunci non solo sul tasso di click-through, ma anche sulle conversioni.
+* *[!UICONTROL Rotate forever]:* Ogni annuncio viene inserito nell&#39;asta un numero più uniforme di volte, il che consente a Search, Social e Commerce di valutare gli annunci non solo in base al tasso di click-through, ma anche in base alle conversioni.
 
 * *[!UICONTROL Use campaign setting]* (impostazione predefinita per i nuovi gruppi di annunci): utilizza l&#39;impostazione di rotazione degli annunci a livello di campagna esistente. **Nota:** l&#39;impostazione a livello di campagna non è visibile in Ricerca, Social e Commerce.
 
