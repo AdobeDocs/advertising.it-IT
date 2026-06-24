@@ -4,22 +4,14 @@ description: Consulta le descrizioni delle impostazioni di posizionamento dispon
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
 TQID: https://experienceleague.adobe.com/V9gGiuXBnP2TBFUY3ZB7EkZ2TNeBttOgr-qzHUSdMmk
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 8338485f735af56a90a50b8aa878861b5c0a5894
 workflow-type: tm+mt
-source-wordcount: 4532
+source-wordcount: 4555
 ht-degree: 0%
 
 ---
@@ -174,16 +166,18 @@ Per specificare le posizioni:
       1. (Se necessario) Fai clic su una posizione per espanderla.
       1. Accanto al percorso, fare clic su *[!UICONTROL Include]* per includerlo come destinazione o su *[!UICONTROL Exclude]* per escluderlo come destinazione.
    * Per includere o escludere un [elenco di codici postali](/help/dsp/resources/lists-postal-codes-manage.md):
-      1. Fare clic su **[!UICONTROL Search Postal Code]**.
+      1. Fare clic su **[!UICONTROL Postal Code List]** nella colonna sinistra.
       1. Accanto al codice postale, fare clic su *[!UICONTROL Include]* per includerlo come destinazione o su *[!UICONTROL Exclude]* per escluderlo come destinazione.
    * Per cercare un codice postale e includere o escludere tutti i risultati selezionati:
-      1. Fare clic su **[!UICONTROL Search Postal Code]**.
+      1. Fare clic su **[!UICONTROL Postal Code]** nella colonna sinistra.
+      1. Fare clic su **[!UICONTROL Search]** sopra l&#39;elenco dei paesi.
       1. Seleziona il paese.
       1. Immettere il nome della città, quindi fare clic su ![Modifica](/help/dsp/assets/search.png).
       1. Fare clic sul risultato di ricerca corretto.
       1. Fare clic su *[!UICONTROL Include All]* per includere tutte le posizioni come destinazioni o su *[!UICONTROL Exclude All]* per escludere tutte le posizioni come destinazioni.
    * Per inserire o incollare codici postali e includerli o escluderli tutti:
-      1. Fare clic su **[!UICONTROL Paste Postal Code]**.
+      1. Fare clic su **[!UICONTROL Postal Code]** nella colonna sinistra.
+      1. Fare clic su **[!UICONTROL Paste]** sopra l&#39;elenco dei paesi.
       1. Seleziona il paese.
       1. Inserisci o incolla fino a 1000 codici postali.
 Includere un codice postale per riga oppure immettere più valori separati da virgole o tabulazioni.
