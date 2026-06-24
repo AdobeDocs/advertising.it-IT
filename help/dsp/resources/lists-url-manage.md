@@ -12,7 +12,7 @@ subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
 workflow-type: tm+mt
 source-wordcount: 698
 ht-degree: 0%
@@ -79,7 +79,7 @@ Puoi creare e gestire elenchi di URL di siti web e app per il targeting del posi
 
       * Per selezionare gli URL da rimuovere:
 
-         1. Seleziona la casella di controllo accanto a ogni offerta da rimuovere dall’elenco.
+         1. Selezionare la casella di controllo accanto a ogni URL da rimuovere dall&#39;elenco.
 
          1. Fare clic su **[!UICONTROL Remove from List]**.
 
@@ -147,7 +147,7 @@ Puoi creare e gestire elenchi di URL di siti web e app per il targeting del posi
 
       * Per selezionare gli URL da rimuovere:
 
-         1. Seleziona la casella di controllo accanto a ogni offerta da rimuovere dall’elenco.
+         1. Selezionare la casella di controllo accanto a ogni URL da rimuovere dall&#39;elenco.
 
          1. Fare clic su **[!UICONTROL Remove from List]**.
 
