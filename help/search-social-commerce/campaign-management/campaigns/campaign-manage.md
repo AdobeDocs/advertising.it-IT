@@ -8,20 +8,20 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: 76dcbceead386ad4f5117c23e449aa904696f338
 workflow-type: tm+mt
-source-wordcount: 738
+source-wordcount: 753
 ht-degree: 0%
 
 ---
 
 # Gestire le campagne
 
-Solo *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising], [!DNL Yandex] e [!DNL Baidu] account esistenti*
-
 Una campagna è il componente principale di un account di ad network. Per la maggior parte dei tipi di campagna, è costituito da un set di gruppi di annunci o set di annunci. Le impostazioni della campagna includono parametri di budget, target di annunci e parametri di tracciamento facoltativi per tutti gli annunci della campagna. I parametri di tracciamento a livello di campagna sostituiscono i parametri a livello di account, ma possono essere sostituiti a un livello inferiore.
 
 Dopo aver [reso accessibile un account di rete di annunci](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) e dopo che Search, Social e Commerce hanno sincronizzato i dati dell&#39;account con la rete di annunci, puoi creare nuove campagne con [tipi di campagna supportati](/help/search-social-commerce/introduction/supported-inventory.md). Puoi anche modificare e cambiare lo stato delle campagne.
+
+Per informazioni dettagliate sulle funzionalità disponibili per ogni rete di annunci, vedi &quot;[Inventario supportato](/help/search-social-commerce/introduction/supported-inventory.md).&quot;
 
 ## Creare una campagna
 
@@ -68,7 +68,7 @@ Puoi modificare le impostazioni per le singole campagne. Puoi anche modificare a
 
       * Nella barra degli strumenti sopra la tabella dati, fare clic su ![Modifica](/help/search-social-commerce/assets/edit.png "Modifica").
 
-1. Modifica le impostazioni della campagna [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md) o [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md).
+1. Modifica le impostazioni della campagna [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md), [Meta Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-meta.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md) o [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md).
 
    Per più campagne, le impostazioni possono essere raggruppate in [!UICONTROL Campaign Details], [!UICONTROL Budget Options] e [!UICONTROL URL Options], a seconda delle reti di annunci. Puoi modificare solo i campi comuni a tutte le campagne selezionate e le modifiche vengono applicate a tutte le campagne selezionate. Per alcuni campi alfanumerici sono disponibili opzioni che consentono di modificare i valori esistenti in un valore specificato, sostituire una stringa esistente con una stringa specificata, aggiungere un prefisso specificato all&#39;inizio di ogni valore o aggiungere un suffisso alla fine di ogni valore. Per alcuni campi monetari, è possibile modificare i valori esistenti in un valore specificato o aumentare o diminuire l&#39;importo di una percentuale o di un importo monetario specificato, con un limite.
 
@@ -109,5 +109,6 @@ Puoi anche eliminare qualsiasi campagna di ricerca attiva o in pausa. Le campagn
 >* [[!DNL Baidu] impostazioni campagna](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
 >* [[!DNL Google Ads] impostazioni campagna](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
 >* [[!DNL LY Ads] impostazioni campagna](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
+>* Impostazioni della campagna [[Meta Ads]](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-meta.md)
 >* [[!DNL Microsoft Advertising] impostazioni campagna](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
 >* [[!DNL Yandex] impostazioni campagna](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)
