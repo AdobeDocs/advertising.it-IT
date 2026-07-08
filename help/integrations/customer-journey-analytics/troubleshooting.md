@@ -14,9 +14,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 3ca788a8a15277a105c065087ad9a5fbc9108311
+source-git-commit: b1904d5c8dad3e935245b45ff4b1a8104fc897dd
 workflow-type: tm+mt
-source-wordcount: 627
+source-wordcount: 716
 ht-degree: 0%
 
 ---
@@ -31,13 +31,13 @@ Di seguito sono riportati i potenziali problemi relativi ai dati e le relative c
 
 Verifica quanto segue:
 
+* Customer Journey Analytics Workspace fa riferimento alla visualizzazione dati corretta.
+
 * Il feed da Adobe Advertising a Customer Journey Analytics è abilitato. Rivolgiti al team del tuo account Adobe.
 
 * Il set di dati di dimensione/classificazione/ricerca di Adobe Advertising e il set di dati di riepilogo sono inclusi nella connessione Customer Journey Analytics.
 
 * Le dimensioni di Adobe Advertising e le metriche di riepilogo sono incluse nella visualizzazione dati di Customer Journey Analytics.
-
-* Customer Journey Analytics Workspace fa riferimento alla visualizzazione dati corretta.
 
 Se verifichi tutte le impostazioni precedenti ma non trovi ancora i dati di riepilogo, apri un ticket di supporto per la tua organizzazione all&#39;indirizzo [https://experienceleague.adobe.com/home?lang=it#support](https://experienceleague.adobe.com/home?lang=it&support-tab=home#support).
 
@@ -45,9 +45,13 @@ Se verifichi tutte le impostazioni precedenti ma non trovi ancora i dati di riep
 
 +++ I dati dei rapporti di riepilogo sono disponibili in Customer Journey Analytics per l’inserzionista 1 ma non per l’inserzionista 2.
 
-Verifica che il feed da Adobe Advertising a Customer Journey Analytics sia abilitato per l’inserzionista 2. Rivolgiti al team del tuo account Adobe.
+Verifica quanto segue:
 
-Se il feed è abilitato per un inserzionista ma i dati di riepilogo non sono ancora visualizzati, apri un ticket di supporto per l&#39;organizzazione all&#39;indirizzo [https://experienceleague.adobe.com/home?lang=it#support](https://experienceleague.adobe.com/home?lang=it&support-tab=home#support).
+* Il feed da Adobe Advertising a Customer Journey Analytics è abilitato per l’inserzionista 2. Rivolgiti al team del tuo account Adobe.
+
+* L&#39;impostazione &quot;[!UICONTROL Backfill all existing data]&quot; è abilitata per i tre set di dati (dimensione/classificazione/ricerca, riepilogo e metriche eventi) nelle tric nella connessione Customer Journey Analytics.
+
+Se verifichi tutte le condizioni di cui sopra ma non visualizzi ancora i dati di riepilogo, apri un ticket di supporto per la tua organizzazione all&#39;indirizzo [https://experienceleague.adobe.com/home?lang=it#support](https://experienceleague.adobe.com/home?lang=it&support-tab=home#support).
 
 +++
 
@@ -67,8 +71,11 @@ Verifica quanto segue:
 
 * Tutti i filtri e i segmenti applicati in [!DNL Workspace] e nel report Adobe Advertising non causano differenze nei dati.
 
-Se sei sicuro di una discrepanza di dati, apri un ticket di supporto per la tua organizzazione all&#39;indirizzo [https://experienceleague.adobe.com/home?lang=it#support](https://experienceleague.adobe.com/home?lang=it&support-tab=home#support). Includi [!UICONTROL Account ID] per l&#39;account di rete dell&#39;annuncio.
-. Includi schermate e fogli di calcolo per mostrare le prove della discrepanza. Se necessario, il team del tuo account Adobe può correggere retroattivamente il feed di dati per risolvere la discrepanza.
+* [!UICONTROL Time Zone] per la visualizzazione dati di Customer Journey Analytics corrisponde a [[!UICONTROL Default Timezone] per il tuo account Advertising DSP](help/dsp/admin/user-own-profile-edit.md).
+
+* L&#39;impostazione &quot;[!UICONTROL Backfill all existing data]&quot; è abilitata per i tre set di dati (dimensione/classificazione/ricerca, riepilogo e metriche eventi) nelle tric nella connessione Customer Journey Analytics.
+
+Se sei sicuro di una discrepanza di dati, apri un ticket di supporto per la tua organizzazione all&#39;indirizzo [https://experienceleague.adobe.com/home?lang=it#support](https://experienceleague.adobe.com/home?lang=it&support-tab=home#support). Includi [!UICONTROL Account ID] per l&#39;account di rete dell&#39;annuncio.. Includi schermate e fogli di calcolo per mostrare le prove della discrepanza. Se necessario, il team del tuo account Adobe può correggere retroattivamente il feed di dati per risolvere la discrepanza.
 
 +++
 
@@ -78,15 +85,15 @@ Se sei sicuro di una discrepanza di dati, apri un ticket di supporto per la tua 
 
 Verifica quanto segue, iniziando dagli elementi con il minor numero di barriere alla verifica:
 
-* Le metriche di conversione applicabili sono eventi web/online, che Adobe Advertising può attribuire alle dimensioni.
-
 * Stai utilizzando la visualizzazione dati corretta.
+
+* Le metriche di conversione applicabili sono eventi web/online, che Adobe Advertising può attribuire alle dimensioni.
 
 * Adobe Advertising tiene traccia dei click-through e dei view-through sul sito applicabile. <!-- Link to validation instructions in the user guide -->
 
 * Nella connessione Customer Journey Analytics per il set di dati delle classificazioni, i valori per le impostazioni [!DNL Key] e [!DNL Matching Key] sono corretti: [!DNL Key]: `Tracking Code` (_customername.adLens2.trackingCode), [!DNL Matching Key]: `Tracking Code` (event._experience.adcloud.conversionDetails.trackingCode)
 
-* Il servizio [!DNL Adobe Advertising] è stato aggiunto allo stream di dati di Adobe Experience Platform, lo schema mappato per lo stream di dati è `XDM ExperienceEvent Schema` e il gruppo di campi `Adobe Advertising Cloud ExperienceEvent Full Extension` è stato aggiunto allo schema.
+* Il servizio [!DNL Adobe Advertising] è stato aggiunto allo stream di dati di Adobe Experience Platform, lo schema mappato per lo stream di dati è `XDM ExperienceEvent Schema` e il gruppo di campi `Adobe Advertising Cloud ExperienceEvent Full Extension` è stato aggiunto allo schema `XDM ExperienceEvent`.
 
 * Le impostazioni di Adobe Advertising sono configurate correttamente nell’estensione WebSDK e pubblicate.
 
