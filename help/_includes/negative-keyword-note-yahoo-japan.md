@@ -1,11 +1,11 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: 3a1bcbcb9284503a855edb9d304083451169c6ae
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '53'
 ht-degree: 0%
 
 ---
-# Nota per il campo Parole chiave negative in Yahoo! Impostazioni per campagne e gruppi di annunci in Giappone
+# Nota per il campo Parole chiave negative nelle impostazioni della campagna [!DNL LY Ads] e del gruppo di annunci
 
 >[!NOTE]
 >
