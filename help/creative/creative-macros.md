@@ -13,9 +13,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3c3bffe0c28bb24c0df9385f9cc91be1376a66d2
 workflow-type: tm+mt
-source-wordcount: 237
+source-wordcount: 319
 ht-degree: 0%
 
 ---
@@ -44,7 +44,13 @@ Alcune delle macro disponibili o equivalenti vengono incluse automaticamente nei
 | `${TM_RANDOM}` | A random number between 1 and 1000000 | &mdash; | &mdash; |
 | `${TM_TIMESTAMP}` | The Unix Timestamp (in seconds) | &mdash; | &mdash; |
 | `${TM_CLICK_URL_URLENC}` | (For third-party ads from vendors who require URL encoding) The encoded click redirect URL, which enables ad servers to track and count ad clicks. When the ad is served and the user clicks on it, the macro is activated, and the click is recorded and counted for reporting purposes. | Yes | &mdash; |
-
+| `${TC_1}` | Custom tracking code 1. | &mdash; | &mdash; |
+| `${TC_2}` | Custom tracking code 2. | &mdash; | &mdash; |
+| `${TC_3}` | Custom tracking code 3. | &mdash; | &mdash; |
+| `${TC_4}` | Custom tracking code 4. | &mdash; | &mdash; |
+| `${TC_5}` | Custom tracking code 5. | &mdash; | &mdash; |
+| `${GDPR_ENFORCED}` | Whether GDPR enforcement is required for the bid request. Values: **1** = GDPR should be enforced, **0** = GDPR should not be enforced. | &mdash; | &mdash; |
+| `${GDPR_CONSENT}` | The GDPR consent value received from the supply partner in the bid request. Typically: **1** = consent provided, **0** = no consent provided. | &mdash; | &mdash; |
 -->
 
 | Macro | Descrizione | Automaticamente nei tag esperienza per Advertising DSP? |
@@ -54,16 +60,22 @@ Alcune delle macro disponibili o equivalenti vengono incluse automaticamente nei
 | `${TM_PLACEMENT_ID_NUM}` | Tiene traccia e segnala l’ID di posizionamento dal DSP | Sì |
 | `${TM_AD_ID_NUM}` | Tiene traccia e segnala l’ID annuncio da DSP | Sì |
 | `${TM_CREATIVE_ID_NUM}` | Tiene traccia e segnala l’ID creativo da DSP | N/D |
-| `${TM_SESSION_ID}` | Tiene traccia e segnala l’ID di impression da DSP. Se un valore non viene restituito, Advertising Creative ne genera uno. | Sì |
+| `${TM_SESSION_ID}` | Tiene traccia e segnala l’ID sessione associato alla richiesta dell’annuncio. Se non viene restituito un valore, Advertising Creative ne genera uno. | Sì |
 | `${TM_ACC_EXPERIENCE_ID}` | Tiene traccia e segnala l’ID esperienza Advertising Creative | — |
 | `${TM_ACC_CREATIVE_ID}` | Tiene traccia e segnala l’ID creativo di Advertising Creative | — |
-| `${TM_RANDOM}` | Un numero casuale compreso tra 1 e 1000000 | — |
+| `${TM_RANDOM}` | Numero casuale compreso tra 1 e 1.000.000. Comunemente utilizzato per svuotare la cache. | — |
 | `${TM_TIMESTAMP}` | Timestamp UNIX® (in secondi) | — |
-| `${TM_CLICK_URL_URLENC}` | (Per annunci di terze parti di fornitori che richiedono la codifica URL) L’URL di reindirizzamento dei clic codificato, che consente ai server di annunci di tenere traccia e contare i clic degli annunci. Quando l’utente fa clic sull’annuncio, la macro viene attivata e il clic viene registrato e conteggiato a scopo di reporting. | Sì |
+| `${TM_CLICK_URL_URLENC}` | (Per annunci di terze parti di fornitori che richiedono la codifica URL) L’URL di reindirizzamento dei clic codificato, che consente ai server di annunci di tenere traccia e contare i clic degli annunci. Quando un utente fa clic sull’annuncio, la macro viene attivata e il clic viene registrato e conteggiato a scopo di reporting. | Sì |
+| `${TC_1}` | Codice di tracciamento personalizzato 1. | — |
+| `${TC_2}` | Codice di tracciamento personalizzato 2. | — |
+| `${TC_3}` | Codice di tracciamento personalizzato 3. | — |
+| `${TC_4}` | Codice di tracciamento personalizzato 4. | — |
+| `${TC_5}` | Codice di tracciamento personalizzato 5. | — |
+| `${GDPR_ENFORCED}` | Se è necessaria l’applicazione del RGPD per la richiesta di offerta. Valori: **1** = il RGPD deve essere applicato, **0** = il RGPD non deve essere applicato. | — |
+| `${GDPR_CONSENT}` | Il valore del consenso RGPD ricevuto dal partner di fornitura nella richiesta di offerta. In genere: **1** = consenso fornito, **0** = nessun consenso fornito. | — |
 
 >[!MORELIKETHIS]
 >
 >* [Aggiungere creatività standard a una libreria creativa](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
 >* [Impostazioni creative standard](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
->* [Impostazioni esperienza di destinazione](/help/creative/experiences/experience-settings-targeting.md)
->*[Impostazioni esperienza non mirate](/help/creative/experiences/experience-settings-no-targeting.md)
+>* &lbrack;Impostazioni esperienza di destinazione*[Impostazioni esperienza non mirate](/help/creative/experiences/experience-settings-no-targeting.md)
