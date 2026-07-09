@@ -15,9 +15,9 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
+source-git-commit: 50af5a8fc6e5e82268489259073e27911ca5a45c
 workflow-type: tm+mt
-source-wordcount: 706
+source-wordcount: 708
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Per convertire gli indirizzi e-mail in [!DNL RampIDs] o [!DNL ID5] ID, è necess
 
 1. Registrati con il partner ID universale e implementa sulle tue pagine web un codice ID universale che corrisponda alle conversioni dagli ID sui browser Web per desktop e dispositivi mobili (ma non sulle app mobili) ai view-through:
 
-   * **Per [!DNL RampIDs]:** è necessario distribuire un tag JavaScript aggiuntivo nelle pagine Web per far corrispondere le conversioni dagli ID nei browser Web desktop e mobile (ma non nelle app mobili) alle view-through. Contatta il team del tuo account Adobe, che ti fornirà le istruzioni per registrarti per un tag [!DNL LiveRamp] [!DNL LaunchPad] da [!DNL LiveRamp] soluzioni traffico autenticazione. La registrazione è gratuita, ma è necessario firmare un accordo. Dopo la registrazione, il team dell’account Adobe genererà e fornirà un tag univoco per l’organizzazione da implementare sulle pagine web.
+   * **Per [!DNL RampIDs]:** è necessario distribuire un tag JavaScript aggiuntivo nelle pagine Web per far corrispondere le conversioni dagli ID nei browser Web desktop e mobile (ma non nelle app mobili) alle view-through. Contatta il team del tuo account Adobe, che ti fornirà le istruzioni per registrarti per un tag [!DNL LiveRamp] [!DNL LaunchPad] da [!DNL LiveRamp] soluzioni traffico autenticazione (ats.js). La registrazione è gratuita, ma è necessario firmare un accordo. Dopo la registrazione, il team dell’account Adobe genererà e fornirà un tag univoco per l’organizzazione da implementare sulle pagine web.
 
 ## Passaggio 2: creare un’origine di pubblico in DSP {#source-create}
 

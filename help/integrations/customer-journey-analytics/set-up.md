@@ -16,9 +16,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 740192c3f000576e02c7dfaffbbbc593ad1b681d
+source-git-commit: ede5b5b1eb8ab449b982fdadba93e944cd2e062f
 workflow-type: tm+mt
-source-wordcount: 2095
+source-wordcount: 2103
 ht-degree: 1%
 
 ---
@@ -117,7 +117,7 @@ Utilizza l’estensione Adobe Experience Platform Web SDK nei tag Adobe per invi
 
          * Nelle impostazioni [!UICONTROL Datastreams], seleziona lo stream di dati da utilizzare per ciascuno degli ambienti web (produzione, staging, sviluppo).
 
-         * (Solo organizzazioni con Adobe Advertising DSP) Nelle impostazioni [[!UICONTROL Adobe Advertising]](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/web-sdk/configure/advertising), abilita **[!UICONTROL Adobe Advertising DSP]** per consentire il tracciamento view-through e specifica gli inserzionisti per i quali abilitare il tracciamento view-through. Facoltativamente, puoi raccogliere gli ID dagli ID universali aggiungendo l&#39;ID partner ID5 della tua organizzazione e/o il percorso al codice JavaScript [!DNL LiveRamp RampID] della tua organizzazione (ats.js).
+         * (Solo organizzazioni con Adobe Advertising DSP) Nelle impostazioni [[!UICONTROL Adobe Advertising]](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/web-sdk/configure/advertising), abilita **[!UICONTROL Adobe Advertising DSP]** per consentire il tracciamento view-through e specifica gli inserzionisti per i quali abilitare il tracciamento view-through. Facoltativamente, puoi raccogliere gli ID dagli ID universali (tradotti dalle [origini del pubblico di prime parti](/help/dsp/audiences/sources/source-about.md)) aggiungendo l&#39;ID partner ID5 della tua organizzazione e/o il percorso del codice JavaScript [!DNL LiveRamp] [!DNL LaunchPad] (ats.js) della tua organizzazione per [!DNL RampIDs].
 
            Se gli inserzionisti non sono elencati, inserisci l&#39;ID inserzionista per ogni inserzionista. Se necessario, chiedi gli ID al tuo account team di Adobe.
 

@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 6a6c9fecfe07a94bf77cfce65bfd7a079755890f
+source-git-commit: 61a66d7d35873247de40480f7361f87e2dedde88
 workflow-type: tm+mt
-source-wordcount: 834
+source-wordcount: 850
 ht-degree: 0%
 
 ---
@@ -30,11 +30,11 @@ Search, Social e Commerce estraggono i dati sulle prestazioni ogni ora dagli acc
 
 Per tenere traccia delle prestazioni degli annunci nell&#39;account di rete dell&#39;inserzionista (e per presentare offerte per gli annunci), il team dell&#39;account Adobe [crea un record dell&#39;account corrispondente](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) in Search, Social e Commerce. Il record account include opzioni di verifica.
 
-Per gli account sincronizzati tramite l’API della rete di annunci, il record account include anche le credenziali di accesso all’account. Una volta che l’account è abilitato, i dati dell’account vengono estratti da con la rete di annunci. Puoi quindi visualizzare i dati dell’account esistenti nonché creare e modificare la struttura della campagna e i dati dell’annuncio.
+Per gli account sincronizzati tramite l’API della rete di annunci, il record account include anche le credenziali di accesso all’account. Una volta che l’account è abilitato, i dati dell’account vengono estratti da con la rete di annunci. Puoi quindi visualizzare i dati dell’account esistenti e creare e modificare la struttura della campagna e i dati dell’annuncio.
 
 ## Tracciamento dei clic per collegare i clic alle conversioni
 
-Se utilizzi il servizio di tracciamento delle conversioni di Adobe Advertising, devi includere il codice di tracciamento dei clic di Search, Social e Commerce nel suffisso della pagina di destinazione, nei modelli di tracciamento e negli URL finali/di destinazione per annunci, parole chiave, posizionamenti, sitelink e elenchi di prodotti. Per [reti di annunci e tipi di campagne supportati](/help/search-social-commerce/introduction/supported-inventory.md) le cui impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, Search, Social e Commerce aggiungono automaticamente il proprio codice di reindirizzamento e di tracciamento quando si salva il record, pertanto non è necessario aggiungerlo manualmente. In caso contrario, devi aggiungere manualmente il codice ai modelli di tracciamento o agli URL finali.
+Se utilizzi il servizio di tracciamento delle conversioni di Adobe Advertising, devi includere il codice di tracciamento dei clic di Search, Social e Commerce nel suffisso della pagina di destinazione, nei modelli di tracciamento e negli URL finali/di destinazione per annunci, parole chiave, posizionamenti, sitelink e elenchi di prodotti. Per [reti di annunci e tipi di campagne supportati](/help/search-social-commerce/introduction/supported-inventory.md) le cui impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, Search, Social e Commerce aggiungono automaticamente il proprio codice di reindirizzamento e di tracciamento quando si salva il record, pertanto non è necessario aggiungerlo manualmente. In caso contrario, devi aggiungere manualmente il codice ai modelli di tracciamento o agli URL finali, dall’interno di Search, Social e Commerce o dall’interno dell’editor proprio della rete di annunci.
 
 Per ulteriori informazioni sul tracciamento, consulta il capitolo su &quot;Tracciamento&quot;.
 
