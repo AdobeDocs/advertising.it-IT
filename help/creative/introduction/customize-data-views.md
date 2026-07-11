@@ -8,9 +8,9 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: d32c0462696cdd11b4e4a184bed683c611d018c0
 workflow-type: tm+mt
-source-wordcount: 281
+source-wordcount: 273
 ht-degree: 0%
 
 ---
@@ -25,7 +25,9 @@ ht-degree: 0%
 
 ## Visualizza i dati come schede o tabelle
 
-Visualizza i dati nelle visualizzazioni [!UICONTROL Creative Libraries] e [!UICONTROL Experiences] come singole schede o come tabelle/elenchi. Per impostazione predefinita, i dati vengono visualizzati in modalità di visualizzazione a schede. La vista a schede mostra una miniatura di un contenuto creativo rilevante.
+<!-- Different images in Creative Studio, although pretty close -->
+
+Visualizza i dati nelle viste [!UICONTROL Creative Studio], [!UICONTROL Creative Libraries] e [!UICONTROL Experiences] come singole schede o come tabelle/elenchi. Per impostazione predefinita, i dati vengono visualizzati in modalità di visualizzazione a schede. La vista a schede mostra una miniatura di un contenuto creativo rilevante.
 
 Quando passi dalla vista a schede alla vista a tabella, i filtri e le selezioni vengono mantenuti.
 

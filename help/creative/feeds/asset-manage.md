@@ -8,9 +8,9 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: d32c0462696cdd11b4e4a184bed683c611d018c0
 workflow-type: tm+mt
-source-wordcount: 600
+source-wordcount: 617
 ht-degree: 0%
 
 ---
@@ -29,13 +29,17 @@ ht-degree: 0%
 
 ## Requisiti dei file
 
+Numero massimo di righe di dati: 2 milioni
+
+Dimensione massima file: 2 GB
+
 * Annunci dinamici HTML5:
 
    * Un file di feed in formato CSV, TSV o foglio di calcolo Microsoft Excel (XLSX), con una riga di intestazione e una riga di dati per ogni variante di annuncio. Includere un nome immagine in ogni riga utilizzando il formato `images/image_name` (ad esempio `images/300x250_acme_logo.png`).
 
      I nomi dei campi specifici dell&#39;inserzionista devono corrispondere ai [campi disponibili per i file di feed di annunci dinamici](/help/creative/appendix-available-feed-fields.md).
 
-   * Le risorse immagine associate in formato GIF, JPEG, JPG o PNG.<!-- Is this true: The maximum file size is two (2) MB. --> Visualizza le [dimensioni creative supportate](/help/creative/creative-libraries/creative-sizes.md).
+   * Le risorse immagine associate in formato GIF, JPEG, JPG o PNG. La dimensione massima del file è 10 MB. Visualizza le [dimensioni creative supportate](/help/creative/creative-libraries/creative-sizes.md).
 
   È possibile caricare un singolo file XLSX, un singolo file di immagine o un singolo file ZIP contenente qualsiasi combinazione di file XLSX e di file di immagine.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 

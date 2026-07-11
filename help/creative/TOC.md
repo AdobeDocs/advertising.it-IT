@@ -3,10 +3,10 @@ role: User
 user-guide-title: Guida di Advertising Creative
 user-guide-description: Scopri le principali funzioni, attività, impostazioni e altre risorse necessarie per utilizzare Advertising Creative.
 breadcrumb-title: Guida alla creatività
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+source-git-commit: 0c7c5962b0e2b0c72147b0ff27ba83acb5cbf326
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 5%
+source-wordcount: '428'
+ht-degree: 4%
 
 ---
 
@@ -20,6 +20,12 @@ ht-degree: 5%
    + [Flussi di lavoro per gli annunci dinamici](/help/creative/introduction/workflow-dynamic-ads.md)
    + [Supporto per la privacy del consumatore](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=it){target="_blank"}
    + [Politiche e linee guida](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=it){target="_blank"}
++ Creative Studio {#creative-studio}
+   + [Informazioni su Creative Studio](/help/creative/creative-studio/creative-studio-about.md)
+   + [Gestire gli annunci standard](/help/creative/creative-studio/creative-studio-manage-standard-ads.md)
+   + [Gestire le creatività dinamiche](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md)
+   + [Gestire i modelli](/help/creative/creative-studio/creative-studio-manage-templates.md)
+   + [Gestione risorse](/help/creative/creative-studio/creative-studio-manage-assets.md)
 + Librerie Creative {#creative-libraries}
    + [Informazioni sulle librerie creative](/help/creative/creative-libraries/creative-libraries-about.md)
    + [Dimensioni creative supportate](/help/creative/creative-libraries/creative-sizes.md)
@@ -79,6 +85,7 @@ ht-degree: 5%
    + [Rinominare un tag annuncio](/help/creative/experiences/experience-tag-rename.md)
    + [Visualizzare il registro delle modifiche per un’esperienza](/help/creative/experiences/experience-view-change-log.md)
    + [Eliminare un’esperienza](/help/creative/experiences/experience-delete.md)
++ [Gestire i profili brand](/help/creative/brands/brand-manage.md)
 + Feed {#feeds}
    + [Gestire i file di risorse](/help/creative/feeds/asset-manage.md)
    + [Gestire i modelli di feed](/help/creative/feeds/feed-template-manage.md)
@@ -86,13 +93,13 @@ ht-degree: 5%
    + [Tracciare lo stato dei processi di elaborazione del catalogo](/help/creative/feeds/job-status-track.md)
 + [Gestire i modelli di annunci dinamici](/help/creative/ad-templates/ad-template-manage.md)
 + [Appendice: campi disponibili per i file di feed di annunci dinamici](/help/creative/appendix-available-feed-fields.md)
-+ Performance reports {#reports}
-   + [Experience-level performance reports](/help/creative/experiences/experience-performance-details.md)
++ Rapporti sulle prestazioni {#reports}
+   + [Rapporti sulle prestazioni a livello di esperienza](/help/creative/experiences/experience-performance-details.md)
    + [Visualizza avvisi](/help/creative/reports/alerts-view.md)
-   + [Custom reports]{#custom-reports}
-      + [About custom reports](/help/creative/reports/reports-about.md)
-      + [Manage custom reports](/help/creative/reports/report-manage.md)
-+ [Retargeting pixels](/help/creative/pixels/retargeting-pixel-manage.md)
-+ [Available macros for tracking URLs](/help/creative/creative-macros.md)
-+ [Get help](/help/creative/get-help.md)
-+ [Adobe CX Enterprise release notes](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it){target="_blank"}
+   + [Rapporti personalizzati]{#custom-reports}
+      + [Informazioni sui rapporti personalizzati](/help/creative/reports/reports-about.md)
+      + [Gestire i rapporti personalizzati](/help/creative/reports/report-manage.md)
++ [Pixel di retargeting](/help/creative/pixels/retargeting-pixel-manage.md)
++ [Macro disponibili per il tracciamento degli URL](/help/creative/creative-macros.md)
++ [Ottieni aiuto](/help/creative/get-help.md)
++ [Note sulla versione di Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it){target="_blank"}
