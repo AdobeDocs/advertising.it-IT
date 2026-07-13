@@ -1,15 +1,12 @@
 ---
 title: Gestire le risorse in Creative Studio
 description: Scopri come caricare, sfogliare e gestire le risorse nella scheda Creative Studio Assets in Adobe Advertising Creative.
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
 workflow-type: tm+mt
-source-wordcount: 292
+source-wordcount: 296
 ht-degree: 0%
 
 ---
@@ -45,6 +42,15 @@ Should be in "Common Tasks" chapter
 * Click **[!UICONTROL Filter]** to filter the asset library by type or other attributes.
 -->
 
+## Tipi di risorse supportate
+
+| Tipo | Formati supportati | Dimensione massima file |
+| --- | --- | --- |
+| Immagini | JPG/JPEG, PNG, GIF, WebP, SVG | 10 MB |
+| Video | MP4, MOV, AVI, WebM | 512 MB |
+| Audio | MP3, WAV, AAC, OGG | 50 MB |
+| Font | TTF, OTF, WOFF, WOFF2 | 5 MB |
+
 ## Caricare le risorse {#assets-upload}
 
 1. Nel menu principale, fare clic su **[!UICONTROL Creative Studio].**
@@ -55,29 +61,9 @@ Should be in "Common Tasks" chapter
 
 1. Selezionare uno o più file dal computer o dalla rete.
 
-   Sono supportati i seguenti tipi di file:
-
-   | Tipo | Formati supportati | Dimensione massima file |
-   | --- | --- | --- |
-   | Immagini | JPG/JPEG, PNG, GIF, WebP, SVG | 10 MB |
-   | Video | MP4, MOV, AVI, WebM | 512 MB |
-   | Audio | MP3, WAV, AAC, OGG | 50 MB |
-
    I file vuoti e i tipi di file non supportati vengono rifiutati con una notifica di errore.
 
    Il nome della risorsa viene salvato come nome del file caricato senza la relativa estensione. Gli spazi e i caratteri non ASCII nel nome file vengono sostituiti da caratteri di sottolineatura (ad esempio, il caricamento di `My Logo.png` crea una risorsa denominata `My_Logo`). Successivamente puoi rinominare la risorsa.
-
-<!--
-(from Bob) Moved from above step. Content in your repo failed to publish, and I'm testing several possible issues. Comment syntax between steps is sometimes problematic.
-
-Verified 2026-07-09 against creative-api TemplateMediaValidator.java (IMAGE_EXTENSIONS, VIDEO_EXTENSIONS, AUDIO_EXTENSIONS), which backs the /v1/creative/template-medias upload/initiate endpoint used by this tab. The Assets tab file input has no client-side accept restriction (TemplateBrowser.tsx) and relies entirely on this backend validator, so it is authoritative.
-
-
-maybe later:
-
-   | Fonts | TTF, OTF, WOFF, WOFF2 | 5 MB |
-   
--->
 
 ## Modificare il nome di una risorsa {#asset-rename}
 
