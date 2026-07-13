@@ -1,13 +1,10 @@
 ---
 title: Gestire i modelli di annunci in Creative Studio
 description: Scopri come creare, importare, organizzare e gestire i modelli di annunci nella scheda Modelli di Creative Studio in Adobe Advertising Creative.
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 24e27656edda50f29292cb75823ef6cacdb685fe
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
 workflow-type: tm+mt
 source-wordcount: 2509
 ht-degree: 2%
@@ -27,13 +24,11 @@ La scheda **[!UICONTROL Templates]** fornisce azioni rapide per creare o importa
 Nella scheda sono inoltre elencati i modelli di annunci esistenti nella parte inferiore della pagina <!-- Only in the Templates tab -->come [schede singole (impostazione predefinita) o come tabelle/elenchi](/help/creative/introduction/customize-data-views.md). L&#39;elenco dei modelli di annunci include schede per [!UICONTROL All], [!UICONTROL System Templates] (caricate sul tuo account dal team dell&#39;account Adobe) e [!UICONTROL User Templates]. Per impostazione predefinita, vengono visualizzati i modelli di annunci per tutti gli inserzionisti. Per visualizzare solo i modelli di annuncio per un inserzionista specifico, seleziona dall’elenco degli inserzionisti nella parte superiore della pagina.
 
 <!-- 
-
 Probably not necessary:
 
 * **[!UICONTROL Card view]** &mdash; Displays templates as cards. Each card shows a preview thumbnail and the ad dimensions. Hovering a card reveals action controls.
 
 * **[!UICONTROL Table view]** &mdash; Displays templates in a table with columns for **[!UICONTROL Name]**, **[!UICONTROL Type]**, **[!UICONTROL Status]**, **[!UICONTROL Size/Duration]**, **[!UICONTROL Advertiser]**, and **[!UICONTROL Updated]**. Click the **[!UICONTROL Name]** or **[!UICONTROL Updated]** column header to sort ascending or descending. Pagination controls appear at the bottom of the list.
-
 -->
 
 ### Azioni disponibili
@@ -516,3 +511,4 @@ Le etichette consentono di organizzare e filtrare i modelli utente. Impossibile 
 >* [Gestione risorse in Creative Studio](creative-studio-manage-assets.md)
 >* [Gestione di annunci standard in Creative Studio](creative-studio-manage-standard-ads.md)
 >* [Gestione di creatività dinamiche in Creative Studio](creative-studio-manage-dynamic-ads.md)
+
