@@ -7,9 +7,9 @@ feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 24e27656edda50f29292cb75823ef6cacdb685fe
+source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
 workflow-type: tm+mt
-source-wordcount: 292
+source-wordcount: 296
 ht-degree: 0%
 
 ---
@@ -37,15 +37,22 @@ Nella scheda **[!UICONTROL Assets]** sono elencate le risorse esistenti in una v
 * [Eliminare una risorsa](#assets-delete)
 
 <!--
-
 Should be in "Common Tasks" chapter
 
 ## Browse and search assets {#assets-search}
 
 * Use the **[!UICONTROL Search assets]** field to find assets by name. Enter at least three characters to trigger a search; shorter queries don't filter results.
 * Click **[!UICONTROL Filter]** to filter the asset library by type or other attributes.
-
 -->
+
+## Tipi di risorse supportate
+
+| Tipo | Formati supportati | Dimensione massima file |
+| --- | --- | --- |
+| Immagini | JPG/JPEG, PNG, GIF, WebP, SVG | 10 MB |
+| Video | MP4, MOV, AVI, WebM | 512 MB |
+| Audio | MP3, WAV, AAC, OGG | 50 MB |
+| Font | TTF, OTF, WOFF, WOFF2 | 5 MB |
 
 ## Caricare le risorse {#assets-upload}
 
@@ -57,27 +64,9 @@ Should be in "Common Tasks" chapter
 
 1. Selezionare uno o più file dal computer o dalla rete.
 
-   Sono supportati i seguenti tipi di file:
-
-   <!-- Verified 2026-07-09 against creative-api TemplateMediaValidator.java (IMAGE_EXTENSIONS, VIDEO_EXTENSIONS, AUDIO_EXTENSIONS), which backs the /v1/creative/template-medias upload/initiate endpoint used by this tab. The Assets tab file input has no client-side accept restriction (TemplateBrowser.tsx) and relies entirely on this backend validator, so it is authoritative. -->
-
-   | Tipo | Formati supportati | Dimensione massima file |
-   | --- | --- | --- |
-   | Immagini | JPG/JPEG, PNG, GIF, WebP, SVG | 10 MB |
-   | Video | MP4, MOV, AVI, WebM | 512 MB |
-   | Audio | MP3, WAV, AAC, OGG | 50 MB |
-
    I file vuoti e i tipi di file non supportati vengono rifiutati con una notifica di errore.
 
    Il nome della risorsa viene salvato come nome del file caricato senza la relativa estensione. Gli spazi e i caratteri non ASCII nel nome file vengono sostituiti da caratteri di sottolineatura (ad esempio, il caricamento di `My Logo.png` crea una risorsa denominata `My_Logo`). Successivamente puoi rinominare la risorsa.
-
-<!--
-
-maybe later:
-
-   | Fonts | TTF, OTF, WOFF, WOFF2 | 5 MB |
-   
--->
 
 ## Modificare il nome di una risorsa {#asset-rename}
 

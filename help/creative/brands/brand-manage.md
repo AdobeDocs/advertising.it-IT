@@ -7,7 +7,7 @@ feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 24e27656edda50f29292cb75823ef6cacdb685fe
+source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
 workflow-type: tm+mt
 source-wordcount: 1085
 ht-degree: 0%
@@ -126,11 +126,11 @@ Puoi eliminare un profilo marchio dall’elenco dei marchi o dalla pagina dei de
 
 La pagina dei dettagli del brand è organizzata nelle seguenti schede.
 
-### **[!UICONTROL Overview]**
+### [!UICONTROL Overview]
 
 Visualizza il nome del brand. Per aggiungere una descrizione, fare clic su **[!UICONTROL When to use this brand]**, immettere il testo della descrizione e fare clic su **[!UICONTROL Save]**. La descrizione viene salvata immediatamente e non richiede di fare clic sul pulsante **[!UICONTROL Save]** a livello di pagina.
 
-### **[!UICONTROL Brand voice guidelines]**
+### [!UICONTROL Brand voice guidelines]
 
 (Facoltativo) Definisci gli standard di voce e messaggistica del brand. L’agente IA utilizza queste linee guida per generare titoli e copie.
 
@@ -142,7 +142,7 @@ Visualizza il nome del brand. Per aggiungere una descrizione, fare clic su **[!U
 
 * **[!UICONTROL Editorial Restrictions]:** (facoltativo) regole di scrittura da evitare. Esempi: &quot;evita il gergo&quot;, &quot;non fare dichiarazioni sui prezzi&quot; o &quot;non utilizzare mai nomi di concorrenti&quot;.
 
-### **[!UICONTROL Image guidelines]**
+### [!UICONTROL Image guidelines]
 
 (Facoltativo) Definisci gli standard per le immagini di sfondo e di prodotto, organizzate in un massimo di 10 categorie. L’agente IA utilizza queste linee guida per generare i prompt dell’immagine di sfondo.
 
@@ -168,7 +168,7 @@ Per eliminare una categoria, fare clic su ![Elimina](/help/creative/assets/delet
 
 * **[!UICONTROL Restrictions]:** (facoltativo) cosa evitare. Includi fino a cinque elementi. Esempi: &quot;nessuna estetica stock-photo&quot; o &quot;evitare sfondi occupati&quot;.
 
-### **[!UICONTROL Channel guidelines]**
+### [!UICONTROL Channel guidelines]
 
 Definisci <!-- Just one set of guidelines as of 7/9: channel-specific --> fino a 10 standard di copia. L’agente IA utilizza le linee guida del canale per generare le varianti di copia.
 
@@ -186,7 +186,7 @@ Definisci <!-- Just one set of guidelines as of 7/9: channel-specific --> fino a
 
 * **[!UICONTROL Examples]:** (facoltativo) esempio di copia dell&#39;annuncio (titolo, sottotitolo, corpo e CTA) che illustra lo stile specificato per <!-- Just one set of guidelines as of 7/9: channel's -->. Per visualizzare esempi della copia dell&#39;annuncio in base alle linee guida, fare clic su **[!UICONTROL Create example]**.
 
-### **[!UICONTROL Logos]**
+### [!UICONTROL Logos]
 
 (Facoltativo) I logo vengono utilizzati negli annunci che includono un elemento del logo e sono disponibili per l’agente di intelligenza artificiale quando si scambiano le versioni del logo. I tipi di immagine supportati sono JPG, PNG e SVG e ogni file può essere fino a 5 MB. Ogni marchio può contenere un massimo di 10 logo.
 
@@ -212,7 +212,7 @@ Per caricare uno o più file del logo del brand con la stessa categoria e la ste
 
    * Per rimuovere un logo dalle impostazioni del marchio, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Delete]**. Nel messaggio di conferma, fare clic su **[!UICONTROL Delete]**.
 
-### **[!UICONTROL Colors]**
+### [!UICONTROL Colors]
 
 (Facoltativo) Definisci le palette di colori del brand. L’agente IA utilizza i colori specificati durante la generazione di varianti di annunci basati su colori.
 

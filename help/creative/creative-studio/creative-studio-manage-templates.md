@@ -7,9 +7,9 @@ feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 24e27656edda50f29292cb75823ef6cacdb685fe
+source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
 workflow-type: tm+mt
-source-wordcount: 2509
+source-wordcount: 2512
 ht-degree: 2%
 
 ---
@@ -27,13 +27,11 @@ La scheda **[!UICONTROL Templates]** fornisce azioni rapide per creare o importa
 Nella scheda sono inoltre elencati i modelli di annunci esistenti nella parte inferiore della pagina <!-- Only in the Templates tab -->come [schede singole (impostazione predefinita) o come tabelle/elenchi](/help/creative/introduction/customize-data-views.md). L&#39;elenco dei modelli di annunci include schede per [!UICONTROL All], [!UICONTROL System Templates] (caricate sul tuo account dal team dell&#39;account Adobe) e [!UICONTROL User Templates]. Per impostazione predefinita, vengono visualizzati i modelli di annunci per tutti gli inserzionisti. Per visualizzare solo i modelli di annuncio per un inserzionista specifico, seleziona dall’elenco degli inserzionisti nella parte superiore della pagina.
 
 <!-- 
-
 Probably not necessary:
 
 * **[!UICONTROL Card view]** &mdash; Displays templates as cards. Each card shows a preview thumbnail and the ad dimensions. Hovering a card reveals action controls.
 
 * **[!UICONTROL Table view]** &mdash; Displays templates in a table with columns for **[!UICONTROL Name]**, **[!UICONTROL Type]**, **[!UICONTROL Status]**, **[!UICONTROL Size/Duration]**, **[!UICONTROL Advertiser]**, and **[!UICONTROL Updated]**. Click the **[!UICONTROL Name]** or **[!UICONTROL Updated]** column header to sort ascending or descending. Pagination controls appear at the bottom of the list.
-
 -->
 
 ### Azioni disponibili
@@ -249,7 +247,7 @@ Il pannello a sinistra contiene una colonna di icone. Fai clic su un’icona per
 | Icona | Descrizione |
 | --- | --- |
 | **[!UICONTROL Search]** | Cerca in tutti i tipi di risorse della libreria. |
-| **[!UICONTROL Upload]** | Carica le immagini<!-- not there as of 7/10:  or font files (TTF, OTF, WOFF, WOFF2)--> nell&#39;editor per l&#39;utilizzo nel modello corrente. Puoi caricare fino a 20 file alla volta. |
+| **[!UICONTROL Upload]** | Carica immagini o file di font nell’editor per utilizzarli nel modello corrente. Puoi caricare fino a 20 file alla volta. |
 | **[!UICONTROL Templates]** | Sfoglia i modelli di annunci dalla libreria di Creative Studio per utilizzarli come livello di base o elemento di riferimento. |
 | **[!UICONTROL My Assets]** | Sfoglia tutte le risorse caricate nella scheda Creative Studio Assets. |
 | **[!UICONTROL Images]** | Sfoglia solo le risorse immagine caricate nella scheda Creative Studio Assets. |
@@ -516,3 +514,4 @@ Le etichette consentono di organizzare e filtrare i modelli utente. Impossibile 
 >* [Gestione risorse in Creative Studio](creative-studio-manage-assets.md)
 >* [Gestione di annunci standard in Creative Studio](creative-studio-manage-standard-ads.md)
 >* [Gestione di creatività dinamiche in Creative Studio](creative-studio-manage-dynamic-ads.md)
+
