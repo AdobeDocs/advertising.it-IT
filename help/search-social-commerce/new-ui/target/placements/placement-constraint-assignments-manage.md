@@ -1,21 +1,17 @@
 ---
-title: Gestire le assegnazioni dei vincoli per i gruppi di annunci
-description: Scopri come assegnare vincoli ai gruppi di annunci.
+title: Gestire le assegnazioni di vincoli per i posizionamenti
+description: Scopri come assegnare vincoli ai posizionamenti.
 feature: Search Optimization, Search Campaign Management
 hide: true
-exl-id: c9960b5a-4b6c-4ef0-8501-5478af2c40da
-TQID: https://experienceleague.adobe.com/6z4-Pt25RaQpLiEYdnp-BXD0guz9S2zQLmamf8uSSXU
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+exl-id: 325fb6b2-7f6f-41bc-bae7-9ee8590c6263
 source-git-commit: a09cdd9d882dd2f7d18eef6a2065c3c71c5ae9ee
 workflow-type: tm+mt
-source-wordcount: 389
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
 
-# (Nuova interfaccia) Gestione delle assegnazioni dei vincoli per i gruppi di annunci
+# (Nuova interfaccia) Gestire le assegnazioni di vincoli per i posizionamenti
 
 *funzionalità Beta*
 
@@ -25,11 +21,18 @@ I vincoli vengono ereditati dalle entità figlio, pertanto non è necessario ass
 
 L’annullamento dell’assegnazione di un vincolo rimuove l’associazione con i componenti conto e tutti i relativi componenti figlio e i dati del rapporto relativi al vincolo non sono più disponibili per tali componenti. L’annullamento dell’assegnazione di un vincolo non comporta l’eliminazione del vincolo né dei componenti dell’account.
 
-## Assegna un vincolo ai gruppi di annunci selezionati dalla nuova visualizzazione [!UICONTROL Ad Groups]
+>[!NOTE]
+>
+>* Se successivamente modificate una parola chiave o la copia dell&#39;annuncio per un annuncio non modificabile, creando in tal modo una nuova parola chiave o un nuovo annuncio, il vincolo non viene assegnato alla nuova entità.
+>* I vincoli attivi limitano le offerte solo per le unità di offerta assegnate nei portfolio legacy ottimizzati a livello di parola chiave. Vengono ignorate per le unità di offerta presenti in portafogli attivi, in portafogli ibridi o che non appartengono a portafogli.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Ad Groups]**.
+## Assegna un vincolo ai posizionamenti selezionati dalla nuova visualizzazione [!UICONTROL Placements]
 
-1. Selezionare la casella di controllo accanto a ogni gruppo di annunci a cui assegnare un singolo vincolo.
+È possibile assegnare un singolo vincolo a uno o più posizionamenti.
+
+1. Nel menu principale, fare clic su **[!UICONTROL Target]>[!UICONTROL Placements]**.
+
+1. Nella scheda **[!UICONTROL Placements]** selezionare la casella di controllo accanto a ogni posizione a cui assegnare un singolo vincolo.
 
 1. Nella barra degli strumenti delle azioni in blocco, fare clic su **+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
 
@@ -57,11 +60,11 @@ L’annullamento dell’assegnazione di un vincolo rimuove l’associazione con 
 
 1. Fare clic su **[!UICONTROL Save]**.
 
-## Annulla l&#39;assegnazione di vincoli ai gruppi di annunci selezionati dalla nuova visualizzazione [!UICONTROL Ad Groups]
+## Annulla l&#39;assegnazione dei vincoli dai posizionamenti selezionati dalla nuova visualizzazione [!UICONTROL Placements]
 
-1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Ad Groups]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Target]>[!UICONTROL Placements]**.
 
-1. Selezionare la casella di controllo accanto a ogni gruppo di annunci da cui si desidera annullare l&#39;assegnazione dei vincoli.
+1. Nella scheda **[!UICONTROL Placements]** selezionare la casella di controllo accanto a ogni posizionamento da cui si desidera annullare l&#39;assegnazione dei vincoli.
 
 1. Nella barra degli strumenti Azioni in blocco fare clic su **-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
 
@@ -87,5 +90,5 @@ L’annullamento dell’assegnazione di un vincolo rimuove l’associazione con 
 >
 >* [(Nuova interfaccia) Gestione dei vincoli per le unità di offerta di ricerca](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
 >* [(Nuova interfaccia) Gestione assegnazioni vincoli per le campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
+>* [(Nuova interfaccia) Gestisci assegnazioni vincoli per gruppi di annunci](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [(Nuova interfaccia) Gestione assegnazioni vincoli per parole chiave](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
->* [(Nuova interfaccia) Gestione assegnazioni vincoli per posizionamenti](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)

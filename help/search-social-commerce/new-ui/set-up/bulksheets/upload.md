@@ -2,16 +2,11 @@
 title: (Nuova interfaccia) Carica un file bulksheet o di errore corretto
 description: Scopri come caricare manualmente un file bulksheet o un file di errore di convalida della pagina di destinazione corretto nella nuova interfaccia utente di Search, Social e Commerce.
 feature: Search Bulksheets
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2:
-  - id: e58024d1-d6da-420c-80af-6be211808316
-  - id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 38fd7ff63b177f13bdfb19b980fb1d1e14edcf56
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: e58024d1-d6da-420c-80af-6be211808316id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: f22a0f3f1884066faca71c6e8bb760253366b30e
 workflow-type: tm+mt
 source-wordcount: 830
 ht-degree: 0%
@@ -30,7 +25,7 @@ Puoi caricare i file dei bulksheet, i file degli errori di convalida delle pagin
 
 1. Fare clic su **[!UICONTROL Upload]**.
 
-All&#39;inizio dell&#39;attività, il file viene elencato nella visualizzazione [!UICONTROL Bulksheets]. Quando le notifiche e-mail per i bulksheet sono abilitate per [&#x200B; in [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications/notification-manage.md), viene inviata una notifica e-mail con un collegamento al file al termine del processo. A seconda della quantità di dati compilati, la notifica e-mail potrebbe richiedere alcuni minuti o più. Se la generazione del file non riesce, nella visualizzazione [!UICONTROL Bulksheets] viene elencato un file di errore e viene inviata una notifica e-mail con un collegamento al file di errore.
+All&#39;inizio dell&#39;attività, il file viene elencato nella visualizzazione [!UICONTROL Bulksheets]. Quando le notifiche e-mail per i bulksheet sono abilitate per [ in [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications-manage.md), viene inviata una notifica e-mail con un collegamento al file al termine del processo. A seconda della quantità di dati compilati, la notifica e-mail potrebbe richiedere alcuni minuti o più. Se la generazione del file non riesce, nella visualizzazione [!UICONTROL Bulksheets] viene elencato un file di errore e viene inviata una notifica e-mail con un collegamento al file di errore.
 
 >[!NOTE]
 >

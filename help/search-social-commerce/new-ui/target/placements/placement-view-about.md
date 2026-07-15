@@ -4,9 +4,9 @@ description: Scopri cosa puoi fare nella visualizzazione [!UICONTROL Placements]
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: d31afcd7-86f0-4ea0-8050-aab0027faa76
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: d375af35af1db5aab75db2e712ae54a39f392c3d
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,10 @@ La visualizzazione [!UICONTROL Manage] > [!UICONTROL Placements] include due sch
 
 ## Azioni disponibili
 
-* [Assegnare vincoli ai posizionamenti e annullare l’assegnazione di vincoli dai posizionamenti](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
+* [Assegnare vincoli ai posizionamenti e annullare l’assegnazione di vincoli dai posizionamenti](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
+
+* [Assegna classificazioni etichette](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md) ai posizionamenti
 
 >[!MORELIKETHIS]
 >
->* [Gestisci assegnazioni vincoli per posizionamenti](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
+>* [Gestisci assegnazioni vincoli per posizionamenti](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)

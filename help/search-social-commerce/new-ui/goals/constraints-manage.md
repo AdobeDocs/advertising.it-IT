@@ -2,11 +2,9 @@
 title: Gestire i vincoli per le unità di offerta di ricerca
 description: Scopri i vincoli per limitare le offerte per le unità di offerta nelle campagne CPC nei portfolio legacy a livello di parola chiave.
 feature: Search Campaign Management, Search Optimization
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2:
-  - id: c800239a-06eb-4249-9aef-771973d24d35
-source-git-commit: 9cc395a6b0fe25435ca6ed022f8da767d525d68e
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: c800239a-06eb-4249-9aef-771973d24d35
+source-git-commit: a09cdd9d882dd2f7d18eef6a2065c3c71c5ae9ee
 workflow-type: tm+mt
 source-wordcount: 2660
 ht-degree: 0%
@@ -17,7 +15,7 @@ ht-degree: 0%
 
 *Applicabile solo alle unità di offerta nelle campagne CPC in portfolio legacy a livello di parola chiave*
 
-I vincoli dell&#39;unità di offerta sono regole che limitano le offerte ottimizzate per tutte le [unità di offerta](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html?lang=it) con modelli di costi e ricavi associati al vincolo.
+I vincoli dell&#39;unità di offerta sono regole che limitano le offerte ottimizzate per tutte le [unità di offerta](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html) con modelli di costi e ricavi associati al vincolo.
 
 ## Informazioni sui vincoli
 
@@ -64,7 +62,7 @@ Alcuni motivi per limitare le unità di offerta sono i seguenti:
 
 Oltre ad aprire la visualizzazione [[!UICONTROL Constraints]](#constraints-view), è possibile visualizzare le informazioni relative ai vincoli nei modi seguenti:
 
-* Tutti i vincoli sono valori di etichetta per una singola [classificazione di etichetta](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html?lang=it) denominata &quot;[!UICONTROL Constraints]&quot;.
+* Tutti i vincoli sono valori di etichetta per una singola [classificazione di etichetta](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html) denominata &quot;[!UICONTROL Constraints]&quot;.
 
    * &quot;[!UICONTROL Constraints]&quot; è incluso nell&#39;elenco &quot;[!UICONTROL Classifications]&quot; nelle impostazioni di visualizzazione predefinite e personalizzate e nei report pianificati. È possibile aggiungere la colonna in qualsiasi punto si desideri visualizzare i vincoli assegnati alle entità rilevanti.
 
@@ -170,7 +168,7 @@ Dopo aver creato un vincolo, puoi [assegnarlo](#constraint-assign) a campagne, g
 | | [!UICONTROL Set constraint options for Search Engine Min Bid] | ([!UICONTROL Search Engine Min Bid] vincoli) Utilizza l&#39;offerta minima richiesta per mostrare un&#39;unità di offerta nella prima pagina dei risultati di ricerca in Google ([!UICONTROL Google First Page CPC]). Facoltativamente, inserisci un valore **[!UICONTROL Min Bid]** e/o un valore **[!UICONTROL Max Bid]** per definire l&#39;intervallo di offerte idonee per il vincolo. Ad esempio, se specifichi un [!UICONTROL Min Bid] di 2,50 USD e un [!UICONTROL Max Bid] di 4 USD, non farai un&#39;offerta sull&#39;unità di offerta se la prima offerta della pagina [!DNL Google Ads] è inferiore a 2,50 USD o superiore a 4 USD. |
 | | [!UICONTROL Set constraint options for Impression Share] | ([!UICONTROL Impression Share] solo vincoli) Le impostazioni includono:<ul><li>**[!UICONTROL Min Bid]** (facoltativo) l&#39;offerta base minima per le unità di offerta associate.</li><li>**[!UICONTROL Max Bid]:** (facoltativo) l&#39;offerta di base massima per le unità di offerta associate.</li><li>**[!UICONTROL Min Impression Share]:** La quota di impression più bassa, in percentuale, che attiverà il vincolo per le unità di offerta applicabili. Deve essere compreso tra 10 e 90. **Nota:** quando il vincolo non è conveniente, la funzionalità di ottimizzazione potrebbe sostituirlo.</li><li>**[!UICONTROL Max Impression Share]:** la quota di impression più elevata, in percentuale, che attiverà il vincolo per le unità di offerta applicabili. Deve essere compreso tra 10 e 90.**Nota:** Se il vincolo non è conveniente, la funzionalità di ottimizzazione potrebbe sostituirlo.</li></ul>> |
 | [!UICONTROL Conditions] | [!UICONTROL Condition Type] | Se applicare condizioni al vincolo:<ul><li>*[!UICONTROL No Condition]:* (impostazione predefinita) Il vincolo viene applicato incondizionatamente durante l&#39;intervallo di date specificato.</li><li>*[!UICONTROL Satisfy]:* Il vincolo viene applicato solo quando vengono soddisfatte le condizioni specificate durante un periodo di valutazione dei dati specificato.</li></ul> |
-| | [!UICONTROL Data Evaluation Period] | (Quando sono impostate le condizioni) Il periodo di tempo per il quale valutare i dati per i criteri specificati. Se si seleziona *[!UICONTROL Custom date range],**&#x200B; specificare &#x200B;** [!UICONTROL Start Date] **&#x200B; e &#x200B;** [!UICONTROL End Date]** immettendo ogni data nel formato `MM-DD-YYYY` (ad esempio 03-29-2026 per il 29 marzo 2026) o facendo clic su ![Pulsante Calendario](/help/search-social-commerce/assets/calendar-new.png "Pulsante Calendario") per aprire il calendario e selezionare ogni data. |
+| | [!UICONTROL Data Evaluation Period] | (Quando sono impostate le condizioni) Il periodo di tempo per il quale valutare i dati per i criteri specificati. Se si seleziona *[!UICONTROL Custom date range],** specificare **[!UICONTROL Start Date]** e **[!UICONTROL End Date]** immettendo ogni data nel formato `MM-DD-YYYY` (ad esempio 03-29-2026 per il 29 marzo 2026) o facendo clic su ![Pulsante Calendario](/help/search-social-commerce/assets/calendar-new.png "Pulsante Calendario") per aprire il calendario e selezionare ogni data. |
 | | [!UICONTROL When to Apply Constraints] | (Quando sono impostate le condizioni) Quante condizioni del filtro devono essere soddisfatte per applicare il vincolo:<ul><li>*[!UICONTROL Match All Filters]:* Applica il vincolo quando viene soddisfatta ogni condizione di filtro specificata.</li><li>*[!UICONTROL Match Any Filters]:* Applica il vincolo quando viene soddisfatta almeno una delle condizioni di filtro specificate.</li></ul> |
 | | [!UICONTROL Filters] | (Quando le condizioni sono impostate) Uno o più criteri che devono essere soddisfatti. Per creare un filtro, seleziona una proprietà o una metrica dall’elenco. Per le proprietà (ad esempio [!UICONTROL Channel Type]), selezionare i valori applicabili nell&#39;elenco. Per le metriche (ad esempio [!UICONTROL Clicks]), selezionare un operatore, quindi immettere il valore applicabile. Ad esempio, per restituire solo unità di offerta con più di 100 clic, seleziona **Clic**, seleziona **maggiore di**, quindi immetti `100` nel campo di input.</li></ul> |
 
@@ -183,7 +181,7 @@ Ogni entità può avere un solo vincolo. Potete assegnare un singolo vincolo a u
 >[!NOTE]
 >
 >* Se successivamente modificate una parola chiave o la copia dell&#39;annuncio per un annuncio, creando in tal modo una nuova parola chiave o un nuovo annuncio, il vincolo non viene assegnato alla nuova entità.
->* Vedere le stesse istruzioni nella visualizzazione [[!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), [[!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [[!UICONTROL Keywords]](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md) o [[!UICONTROL Placements]](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md). <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
+>* Vedere le stesse istruzioni nella visualizzazione [[!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), [[!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [[!UICONTROL Keywords]](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md) o [[!UICONTROL Placements]](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md). <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
 
 1. Dal menu principale, apri la relativa vista di gestione.
 
@@ -204,7 +202,7 @@ Ogni entità può avere un solo vincolo. Potete assegnare un singolo vincolo a u
 >[!NOTE]
 >
 >* Per eliminare un vincolo rendendolo non disponibile per un utilizzo futuro, vedere &quot;[Modificare lo stato dei vincoli](#constraint-change-status).&quot;
->* Vedere le stesse istruzioni nella visualizzazione [[!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), [[!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [[!UICONTROL Keywords]](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md) o [[!UICONTROL Placements]](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md). <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
+>* Vedere le stesse istruzioni nella visualizzazione [[!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), [[!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [[!UICONTROL Keywords]](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md) o [[!UICONTROL Placements]](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md). <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
 
 1. Nel menu principale, apri la vista di gestione pertinente.
 
@@ -220,6 +218,6 @@ Ogni entità può avere un solo vincolo. Potete assegnare un singolo vincolo a u
 >
 >* [Gestione assegnazioni vincoli per le campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [Gestisci assegnazioni vincoli per gruppi di annunci](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [Gestisci assegnazioni vincoli per parole chiave](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
->* [Gestisci assegnazioni vincoli per posizionamenti](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
+>* [Gestisci assegnazioni vincoli per parole chiave](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
+>* [Gestisci assegnazioni vincoli per posizionamenti](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
 >* [I [!UICONTROL Constraint Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/constraint-report.md)
