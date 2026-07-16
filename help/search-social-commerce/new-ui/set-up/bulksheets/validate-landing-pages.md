@@ -11,7 +11,7 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: f916f47a40729ff39ac1456e3b3ad93e1045e9a9
+source-git-commit: f22a0f3f1884066faca71c6e8bb760253366b30e
 workflow-type: tm+mt
 source-wordcount: 585
 ht-degree: 0%
@@ -57,7 +57,7 @@ Successivamente puoi scaricare il file, correggere gli errori e caricare il file
 
    **[!UICONTROL Report redirects as errors]:** Quando una pagina di destinazione viene reindirizzata a un&#39;altra pagina (ad esempio, se la pagina di destinazione risulta mancante e il sito visualizza una pagina sostitutiva), la colonna [!UICONTROL EF Errors] nel file di errore della pagina di destinazione indica l&#39;URL a cui viene reindirizzata la pagina di destinazione.
 
-Quando l&#39;attività inizia, viene aggiunta una nuova riga alla visualizzazione [!UICONTROL Bulksheets]. Quando le notifiche e-mail per i bulksheet sono abilitate per [&#x200B; in [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications/notification-manage.md), al momento della creazione del file viene inviata una notifica e-mail con un collegamento al file. A seconda della quantità di dati compilati, la notifica e-mail potrebbe richiedere alcuni minuti o più. Puoi scaricare il file per modificarlo e quindi ricaricarlo per la pubblicazione, oppure puoi pubblicare il file così com’è.
+Quando l&#39;attività inizia, viene aggiunta una nuova riga alla visualizzazione [!UICONTROL Bulksheets]. Quando le notifiche e-mail per i bulksheet sono abilitate per [&#x200B; in [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications-manage.md), al momento della creazione del file viene inviata una notifica e-mail con un collegamento al file. A seconda della quantità di dati compilati, la notifica e-mail potrebbe richiedere alcuni minuti o più. Puoi scaricare il file per modificarlo e quindi ricaricarlo per la pubblicazione, oppure puoi pubblicare il file così com’è.
 
 >[!NOTE]
 >

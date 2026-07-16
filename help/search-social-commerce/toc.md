@@ -10,7 +10,7 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 76dcbceead386ad4f5117c23e449aa904696f338
+source-git-commit: a09cdd9d882dd2f7d18eef6a2065c3c71c5ae9ee
 workflow-type: tm+mt
 source-wordcount: 2405
 ht-degree: 2%
@@ -209,10 +209,10 @@ ht-degree: 2%
    + Target {#target}
       + Parole chiave {#keywords}
          + [Informazioni sulla visualizzazione [!UICONTROL Keywords]](/help/search-social-commerce/new-ui/target/keywords/keyword-view-about.md)
-         + [Gestire le assegnazioni di vincoli per le parole chiave](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
+         + [Gestire le assegnazioni di vincoli per le parole chiave](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
       + Posizionamenti {#placements}
          + [Informazioni sulla visualizzazione [!UICONTROL Placements]](/help/search-social-commerce/new-ui/target/placements/placement-view-about.md)
-         + [Gestire le assegnazioni di vincoli per i posizionamenti](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
+         + [Gestire le assegnazioni di vincoli per i posizionamenti](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
    + Configurazione {#setup}
       + Account {#accounts}
          + [Informazioni sugli account di rete degli annunci](/help/search-social-commerce/new-ui/set-up/accounts/ad-network-account-about.md)

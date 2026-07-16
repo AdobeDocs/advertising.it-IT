@@ -7,9 +7,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 subfeature_v2:
   - id: a2f79fa9-a8fe-4c1c-961e-75dc3c47f954
-source-git-commit: bf1ca7f6133c19bb68dbe0395416dca8ef647464
+source-git-commit: e36a2b66a8dc4c485c7139b44eaf375615826b2b
 workflow-type: tm+mt
-source-wordcount: 1844
+source-wordcount: 1854
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Alcuni account possono gestire le regole del valore di conversione:
 
 * Negli account per i quali vengono tracciate le conversioni a livello del singolo account o della campagna, puoi [creare](#google-conversion-value-rule-create), [modificare](#google-conversion-value-rule-edit) e [modificare lo stato](#google-conversion-value-rule-change-status) delle regole a livello di account e di campagna.
 
-  Gli account possono essere collegati a [[!DNL Google Ads] account manager](/help/search-social-commerce/new-ui/), ma non possono utilizzare il tracciamento delle conversioni tra account diversi (per cui le conversioni vengono tracciate tra tutti gli account nell&#39;account manager).
+  Gli account possono essere collegati a [[!DNL Google Ads] account manager](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md), ma non possono utilizzare il tracciamento delle conversioni tra account diversi (per cui le conversioni vengono tracciate tra tutti gli account nell&#39;account manager).
 
 * Negli account che utilizzano il tracciamento delle conversioni tra account, le regole a livello di account e di campagna vengono ereditate dall’account manager e sono di sola lettura.
 
