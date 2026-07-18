@@ -2,7 +2,7 @@
 title: Gestire le classificazioni delle etichette
 description: Scopri come utilizzare le classificazioni delle etichette per raggruppare i componenti dell’account.
 feature: Search Label Classifications
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: 44f83bcf32d671ad96a420827d16d8f1ec39049e
 workflow-type: tm+mt
 source-wordcount: '1514'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Ogni inserzionista può avere fino a 30 classificazioni di etichette, che sono c
 
 ### Valori etichetta
 
-Ogni classificazione di etichetta può avere fino a 2000 valori. Dopo aver creato valori di etichetta specifici per una classificazione, puoi assegnarli a campagne, gruppi di annunci, parole chiave, annunci, posizionamenti e gruppi di prodotti [&#x200B; dalle viste gestione campagne](#classification-values-assign-campaign-management) o [utilizzando i bulksheet](#classification-values-assign-bulksheets).
+Ogni classificazione di etichetta può avere fino a 2000 valori. Dopo aver creato valori di etichetta specifici per una classificazione, puoi assegnarli a campagne, gruppi di annunci, parole chiave, annunci, posizionamenti e gruppi di prodotti [ dalle viste gestione campagne](#classification-values-assign-campaign-management) o [utilizzando i bulksheet](#classification-values-assign-bulksheets).
 
 Ogni entità idonea può avere valori di etichetta per più classificazioni, ma un solo valore di etichetta per classificazione. I valori delle etichette vengono ereditati dalle entità figlio, ma possono essere ignorati. Il valore assegnato al livello più basso sostituisce sempre i valori assegnati ai livelli padre.
 
@@ -111,7 +111,7 @@ I valori delle etichette vengono ereditati dalle entità figlio, pertanto non im
 >
 >Le parole chiave e la copia dell&#39;annuncio per alcune reti di annunci e tipi di campagne sono [non modificabili](/help/search-social-commerce/campaign-management/faqs-campaigns.md), il che significa che la loro modifica elimina l&#39;entità esistente e ne crea una nuova. Quando un’entità esistente viene eliminata in questo modo, la classificazione dell’etichetta non viene assegnata alla nuova entità.
 
-1. [Scaricare un bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) che include le entità alle quali si desidera assegnare i valori di classificazione delle etichette:
+1. [Scaricare un bulksheet](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md) che include le entità alle quali si desidera assegnare i valori di classificazione delle etichette:
 
    * Nella scheda [!UICONTROL Rows and Columns], espandere l&#39;elenco [!UICONTROL Campaign] nel riquadro [!UICONTROL Bulksheet Columns].
 
@@ -127,7 +127,7 @@ I valori delle etichette vengono ereditati dalle entità figlio, pertanto non im
 
    Oltre ad aggiungere valori, puoi anche eliminare i valori esistenti rimuovendoli dalle righe pertinenti. Per rimuovere i valori sia da un&#39;entità padre che dalle relative entità figlio, a) includere solo la riga dell&#39;entità padre e rimuovere il valore di classificazione esistente oppure b) includere sia l&#39;entità padre che le relative entità figlio e rimuovere il valore di classificazione esistente da tutte le righe padre e figlio.
 
-1. [Carica il file](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md) per creare le associazioni.<!-- Update once the new bulksheet UI is GA -->
+1. [Carica il file](/help/search-social-commerce/new-ui/set-up/bulksheets/upload.md) per creare le associazioni.
 
 I valori delle etichette caricate sono visibili nelle visualizzazioni delle entità pertinenti.
 
