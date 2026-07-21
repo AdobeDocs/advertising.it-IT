@@ -4,17 +4,13 @@ description: Scopri come creare e gestire  [!DNL Google Ads] destinazioni di ric
 exl-id: 5ea68cab-677f-4c7e-8776-24d6546f0b15
 feature: Search Campaign Management
 TQID: 'https://experienceleague.adobe.com/MsSy-p-WSroc3FyiHx6kvcTohEaWOqJCzqbl91mNwK0'
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2:
-  - id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 82db1b4d0d8703229a4002e932d5b2f52f845814
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
 workflow-type: tm+mt
-source-wordcount: 718
+source-wordcount: 702
 ht-degree: 0%
 
 ---
@@ -43,11 +39,7 @@ Per ulteriori informazioni su [!DNL Google Ads] annunci per ricerca dinamica, ve
 
 ## Visualizzazione [!UICONTROL Auto Targets]
 
-La visualizzazione [!UICONTROL Auto Targets] elenca tutte le destinazioni di ricerca dinamica nella visualizzazione filtrata per l&#39;account dell&#39;inserzionista selezionato.
-
-È possibile creare, modificare e modificare lo stato delle destinazioni di ricerca dinamica nella visualizzazione [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Auto Targets].
-
-Puoi anche [applicare un&#39;etichetta](/help/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management.md) a qualsiasi destinazione.
+La vista [!UICONTROL Target] > [!UICONTROL Auto Targets] elenca tutte le destinazioni di ricerca dinamica nella vista filtrata per l&#39;account dell&#39;inserzionista selezionato. Puoi anche gestire i target di ricerca dinamica.
 
 ### Azioni disponibili
 
@@ -59,7 +51,7 @@ Puoi anche [applicare un&#39;etichetta](/help/search-social-commerce/campaign-ma
 * Change the status of dynamic search targets
 -->
 
-* [Assegnare vincoli alle destinazioni di ricerca dinamica](#constraint-assign) e [annullare l&#39;assegnazione di vincoli alle destinazioni di ricerca dinamica](#constraint-unassign)
+* [Assegna vincoli](#constraint-assign) alle destinazioni di ricerca dinamica e [rimuovi vincoli](#constraint-unassign) dalle destinazioni di ricerca dinamica
 
 * [Assegna classificazioni etichette](#classification-values-assign) alle destinazioni di ricerca dinamica e [rimuovi classificazioni etichette](#classification-values-remove) dalle destinazioni di ricerca dinamica
 
@@ -192,7 +184,7 @@ You can also delete any dynamic target.
 
 1. Fare clic su **[!UICONTROL Assign Now]**.
 
-## Annulla l&#39;assegnazione dei vincoli dalle destinazioni di ricerca dinamica selezionate dalla nuova visualizzazione [!UICONTROL Auto Targets] {#constraint-unassign}
+## Rimuovere i vincoli dalle destinazioni di ricerca dinamica selezionate dalla nuova visualizzazione [!UICONTROL Auto Targets] {#constraint-unassign}
 
 1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Auto Targets]**.
 
@@ -236,7 +228,7 @@ You can also delete any dynamic target.
 
 1. Fare clic su **+[!UICONTROL Assign Now]**.
 
-## Rimuovere i valori di classificazione delle etichette dalle destinazioni di ricerca dinamica{#classification-values-remove}
+## Rimuovere i valori di classificazione delle etichette dalle destinazioni di ricerca dinamica {#classification-values-remove}
 
 Se si rimuove un valore di classificazione, viene rimossa l’associazione con il componente account e tutti i suoi componenti figlio. I dati del rapporto per il valore di classificazione non sono più disponibili per tali componenti. La rimozione di un valore di classificazione non comporta l’eliminazione del valore né dei componenti dell’account.
 
