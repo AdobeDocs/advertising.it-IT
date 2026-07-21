@@ -4,7 +4,7 @@ description: Scopri come assegnare vincoli ai posizionamenti.
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: 325fb6b2-7f6f-41bc-bae7-9ee8590c6263
-source-git-commit: a09cdd9d882dd2f7d18eef6a2065c3c71c5ae9ee
+source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
@@ -60,7 +60,7 @@ L’annullamento dell’assegnazione di un vincolo rimuove l’associazione con 
 
 1. Fare clic su **[!UICONTROL Save]**.
 
-## Annulla l&#39;assegnazione dei vincoli dai posizionamenti selezionati dalla nuova visualizzazione [!UICONTROL Placements]
+## Rimuovi vincoli dai posizionamenti selezionati dalla nuova visualizzazione [!UICONTROL Placements]
 
 1. Nel menu principale, fare clic su **[!UICONTROL Target]>[!UICONTROL Placements]**.
 

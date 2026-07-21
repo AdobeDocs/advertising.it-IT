@@ -6,7 +6,7 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 subfeature_v2:
   - id: c800239a-06eb-4249-9aef-771973d24d35
-source-git-commit: a09cdd9d882dd2f7d18eef6a2065c3c71c5ae9ee
+source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
 workflow-type: tm+mt
 source-wordcount: 2660
 ht-degree: 0%
@@ -66,9 +66,9 @@ Oltre ad aprire la visualizzazione [[!UICONTROL Constraints]](#constraints-view)
 
 * Tutti i vincoli sono valori di etichetta per una singola [classificazione di etichetta](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html?lang=it) denominata &quot;[!UICONTROL Constraints]&quot;.
 
-   * &quot;[!UICONTROL Constraints]&quot; è incluso nell&#39;elenco &quot;[!UICONTROL Classifications]&quot; nelle impostazioni di visualizzazione predefinite e personalizzate e nei report pianificati. È possibile aggiungere la colonna in qualsiasi punto si desideri visualizzare i vincoli assegnati alle entità rilevanti.
+  * &quot;[!UICONTROL Constraints]&quot; è incluso nell&#39;elenco &quot;[!UICONTROL Classifications]&quot; nelle impostazioni di visualizzazione predefinite e personalizzate e nei report pianificati. È possibile aggiungere la colonna in qualsiasi punto si desideri visualizzare i vincoli assegnati alle entità rilevanti.
 
-   * Quando si scarica un bulksheet, &quot;[!UICONTROL Constraints]&quot; è elencato nella colonna &quot;[!UICONTROL Classifications]&quot; per le entità applicabili nella finestra di dialogo [!UICONTROL Download Bulksheet]. Quando si include la colonna, il bulksheet scaricato include tutti i vincoli assegnati alle entità rilevanti.
+  * Quando si scarica un bulksheet, &quot;[!UICONTROL Constraints]&quot; è elencato nella colonna &quot;[!UICONTROL Classifications]&quot; per le entità applicabili nella finestra di dialogo [!UICONTROL Download Bulksheet]. Quando si include la colonna, il bulksheet scaricato include tutti i vincoli assegnati alle entità rilevanti.
 
   La classificazione [!UICONTROL Constraints] non è inclusa nella visualizzazione [!UICONTROL Label Classifications]. La visualizzazione [!UICONTROL Constraints] è separata. Anche la classificazione [!UICONTROL Constraints] non è inclusa nel limite di classificazione delle 30 etichette.
 
@@ -134,7 +134,7 @@ Dopo aver creato un vincolo, puoi [assegnarlo](#constraint-assign) a campagne, g
 
 È possibile sospendere qualsiasi vincolo attivo per disattivarlo. In seguito potrai abilitarlo modificando lo stato in *attivo*.
 
-È inoltre possibile eliminare un vincolo che rimuove tutte le associazioni con i componenti conto e rende il vincolo non disponibile per utilizzi futuri. I dati del rapporto per il vincolo non sono più disponibili. **Nota:** Per dissociare semplicemente un vincolo da un componente account, vedi &quot;[Annullare l&#39;assegnazione di vincoli dalle unità di offerta di ricerca](#constraints-unassign).&quot;
+È inoltre possibile eliminare un vincolo che rimuove tutte le associazioni con i componenti conto e rende il vincolo non disponibile per utilizzi futuri. I dati del rapporto per il vincolo non sono più disponibili. **Nota:** Per dissociare semplicemente un vincolo da un componente account, vedi &quot;[Rimuovere i vincoli dalle unità di offerta di ricerca](#constraints-unassign).&quot;
 
 1. Nel menu principale, fare clic su **[!UICONTROL Goals]>[!UICONTROL Constraints]**.
 
