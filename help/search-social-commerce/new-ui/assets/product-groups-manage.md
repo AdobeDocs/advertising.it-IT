@@ -2,10 +2,14 @@
 title: Gestire i gruppi di prodotti
 description: Scopri come creare, modificare ed eliminare i gruppi di prodotti per lo shopping e fai riferimento alle impostazioni del gruppo di prodotti per Google Ads e Microsoft Advertising.
 feature: Search Campaign Management
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
 workflow-type: tm+mt
 source-wordcount: 2337
@@ -20,7 +24,7 @@ Solo *[!DNL Google Ads]e [!DNL Microsoft Advertising] campagne acquisti*
 
 È possibile creare e gestire gruppi di prodotti nella visualizzazione [!UICONTROL Product Groups] in [!UICONTROL Assets] > [!UICONTROL Shopping].
 
-Puoi visualizzare i dati sui gruppi di prodotti in [ il [!UICONTROL Product Group Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/product-group-report.md).
+Puoi visualizzare i dati sui gruppi di prodotti in [&#x200B; il [!UICONTROL Product Group Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/product-group-report.md).
 
 ## Cosa sono i gruppi di prodotti?
 
