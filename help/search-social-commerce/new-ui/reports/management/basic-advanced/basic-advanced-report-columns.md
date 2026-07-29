@@ -2,9 +2,9 @@
 title: Colonne di report per report di base e avanzati
 description: Scopri le colonne di dati disponibili per i rapporti di base e avanzati.
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 42bff10a5cf8df733b223fa96cd10c00c9e40d44
+source-git-commit: d45eb490f9dbb7da89bd1270582e5548b70cbd31
 workflow-type: tm+mt
-source-wordcount: '3979'
+source-wordcount: '3992'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 | [!UICONTROL Ad Size] | Dimensioni dell’annuncio. |
 | [!UICONTROL AD Strength] | ([!DNL Google Ads] annunci di ricerca responsive) Efficacia dell&#39;annuncio: <i>[!UICONTROL average]</i>, <i>[!UICONTROL excellent]</i>, <i>[!UICONTROL good]</i>, <i>[!UICONTROL no_ads]</i>, <i>[!UICONTROL pending]</i>, <i>[!UICONTROL poor]</i>, <i>[!UICONTROL unknown]</i> o <i>[!UICONTROL unspecified]</i>. |
 | [!UICONTROL Adgroup MBA] | ([!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising] campagne) L&#39;attuale regolazione dell&#39;offerta mobile a livello di gruppo di annunci che determina la modalità di regolazione delle offerte quando l&#39;annuncio viene visualizzato su un dispositivo mobile. |
-| [!UICONTROL AI Max Bundling Required] | (Campagne che eseguono il targeting solo della rete di ricerca; campagne con la funzione Max di IA abilitata; sola lettura) Se il bundling è necessario: *[!UICONTROL REQUIRED]*, *[!UICONTROL NOT_REQUIRED]*, *[!UICONTROL UNSPECIFIED]* o null. |
+| [!UICONTROL AI Max Bundling Required] | (Campagne mirate solo alla rete di ricerca; campagne con la funzione Max di IA abilitata; sola lettura) Indica se [!UICONTROL AI Max] deve essere abilitato per rispettare o modificare la personalizzazione del testo e i controlli dell&#39;elenco dei marchi per la campagna: *[!UICONTROL REQUIRED]*, *[!UICONTROL NOT_REQUIRED]*, *[!UICONTROL UNSPECIFIED]* o null. |
 | [!UICONTROL AI Max Enabled] | Indica se la funzionalità [[!UICONTROL AI Max]](https://support.google.com/google-ads/answer/15910366) è abilitata: *[!UICONTROL true]*, *[!UICONTROL false]* o null. |
 | [!UICONTROL AI Max Search Term Matching] | (Campagne mirate alla rete di ricerca e per le quali è abilitata la funzionalità [AI Max](https://support.google.com/google-ads/answer/15910366) e la funzionalità di corrispondenza dei termini di ricerca a livello di campagna; sola lettura) Se la corrispondenza dei termini di ricerca a livello di gruppo di annunci è abilitata: *[!UICONTROL true]*, *[!UICONTROL false]* o null. |
 | [!UICONTROL Advertiser] | Il nome dell’inserzionista. |
