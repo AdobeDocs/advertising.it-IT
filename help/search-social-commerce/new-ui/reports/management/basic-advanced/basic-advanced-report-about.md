@@ -2,9 +2,9 @@
 title: Informazioni sui report di base e sui report avanzati
 description: Scopri i rapporti di base e avanzati personalizzabili.
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: 169857badb39b94538c04439956439c2ad259a9d
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,8 @@ I rapporti di base mostrano il costo effettivo e i dati di clic per portfolio (s
 * [[!UICONTROL Keyword Report]](keyword-report.md)
 
 * [[!UICONTROL Product Group Report]](product-group-report.md)
+
+* [[!UICONTROL Asset Report]](asset-report.md)
 
 ### Rapporti di classificazione
 
