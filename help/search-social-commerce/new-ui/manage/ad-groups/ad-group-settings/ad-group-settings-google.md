@@ -1,0 +1,121 @@
+---
+title: Impostazioni gruppo di annunci [!DNL Google Ads]
+description: Fai riferimento alle impostazioni per  [!DNL Google Ads]  gruppi di annunci.
+exl-id: def75630-19b9-4676-ad34-5d9041cc3680
+feature: Search Campaign Management
+TQID: https://experienceleague.adobe.com/pDFheVIM62XNCh2-7jbCscIqOrcTep7qnNg5S1tHYF8
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 41a9add10a9d12e8452d18825fd732720b27243f
+workflow-type: tm+mt
+source-wordcount: 549
+ht-degree: 0%
+
+---
+
+# Impostazioni gruppo di annunci [!DNL Google Ads]
+
+## \[Inizio pagina]
+
+**[!UICONTROL Ad Group Name]:** nome di un gruppo di annunci univoco all&#39;interno della campagna.
+
+**[!UICONTROL Status]:** Lo stato di visualizzazione della campagna: *Attivo* o *In pausa*. Il valore predefinito per le nuove campagne pubblicitarie è *Attivo*.
+
+## Scheda [!UICONTROL Basic Settings]
+
+*Solo nuove campagne*
+
+**[!UICONTROL Network]:** La rete di annunci.
+
+**[!UICONTROL Account]:** L&#39;account di rete dell&#39;annuncio.
+
+**[!UICONTROL Campaign]:** La campagna.
+
+## Scheda [!UICONTROL Ad Group Details]
+
+**[!UICONTROL Ad Group Type]:** (solo campagne pubblicitarie di ricerca dinamica espanse) Tipo di gruppo di annunci:
+
+* *[!UICONTROL Search Standard]* (impostazione predefinita): per annunci standard.
+
+* *[!UICONTROL Search Dynamic]:* per annunci di ricerca dinamica.
+
+**[!UICONTROL Ad Rotation Mode]:** Con quale frequenza [!DNL Google Ads] distribuisce gli annunci attivi tra loro all&#39;interno del gruppo di annunci:
+
+* *[!UICONTROL Optimize]:* [!DNL Google Ads] favorisce gli annunci che prevede di eseguire meglio di altri annunci nel gruppo di annunci. Questi annunci entrano nell’asta pubblicitaria più spesso e nel tempo viene preferito un singolo annuncio. Ciò potrebbe non essere coerente con gli obiettivi aziendali e di ottimizzazione.
+
+* *[!UICONTROL Rotate forever]:* Ogni annuncio viene inserito nell&#39;asta un numero più uniforme di volte, il che consente a Search, Social e Commerce di valutare gli annunci non solo in base al tasso di click-through, ma anche in base alle conversioni.
+
+* *[!UICONTROL Use campaign setting]* (impostazione predefinita per i nuovi gruppi di annunci): utilizza l&#39;impostazione di rotazione degli annunci a livello di campagna esistente. **Nota:** l&#39;impostazione a livello di campagna non è visibile in Ricerca, Social e Commerce.
+
+Se la campagna utilizza una strategia di offerta avanzata (ad esempio [!UICONTROL Target CPA], [!UICONTROL Target ROAS], [!DNL Google Ads] imposta automaticamente l&#39;opzione su &quot;[!UICONTROL Optimize]&quot;.
+
+**[!UICONTROL Custom Bid Level]:** (campagne mirate solo alla rete di visualizzazione) Come fare offerte: da *[!UICONTROL Ad Group]* (impostazione predefinita), *[!UICONTROL Age]*, *[!UICONTROL Gender]*, *[!UICONTROL Interest and List]* (interessi e remarketing in Google Ads), *[!UICONTROL Keyword]*, *[!UICONTROL Placement]* (sito Web), *[!UICONTROL Unknown]* o *[!UICONTROL Vertical]*.
+
+>[!NOTE]
+>
+>* Quando fai offerte per parola chiave, crea modelli di tracciamento a livello di parola chiave. Allo stesso modo, quando fai un&#39;offerta per posizionamento, crea modelli di tracciamento a livello di posizionamento. Per tutte le altre dimensioni, crea modelli di tracciamento a livello di annuncio.
+>* Quando fai un&#39;offerta per età, genere, interesse ed elenco o verticale per campagne in portfolio, la funzionalità di ottimizzazione non ottimizza le offerte per la dimensione. Inoltre, tutte le attribuzioni vengono applicate al gruppo di annunci.
+>* Gli annunci sulla rete di ricerca utilizzano sempre le offerte basate su parole chiave.
+
+**[!UICONTROL AI Max Search Term Matching]:** (campagne mirate alla rete di ricerca e per le quali è abilitata la funzionalità [AI Max](https://support.google.com/google-ads/answer/15910366) e la funzionalità di corrispondenza dei termini di ricerca a livello di campagna; sola lettura) Se la corrispondenza dei termini di ricerca a livello di gruppo di annunci è abilitata: *[!UICONTROL Disabled]* o *[!UICONTROL Enabled]*.
+
+## Scheda [!UICONTROL Budget Options]
+
+<!-- **[!UICONTROL Bid]:** -->
+
+{{$include /help/_includes/bid-ad-group.md}}
+
+**[!UICONTROL Target CPA]:** (campagne con [!UICONTROL Target CPA] offerte; facoltativo) Il costo target per acquisizione (CPA) per il gruppo di annunci. Questo valore sostituisce il target a livello di campagna.
+
+**[!UICONTROL Target ROAS]:** (campagne con [!UICONTROL Target ROAS] offerte; facoltativo) Il ROAS (ritorno sugli annunci) di destinazione per il gruppo di annunci, in percentuale. Questo valore sostituisce il target a livello di campagna.
+
+## Scheda [!UICONTROL Ad Group Targeting]
+
+**[!UICONTROL Audience Target Method]:** (campagne solo nella rete di ricerca e campagne [!DNL Gmail] esistenti di sola lettura nella rete di visualizzazione) Se:
+
+* *[!UICONTROL Target and Bid]:* Per mostrare annunci solo agli utenti associati ai tipi di pubblico di destinazione che soddisfano anche altri target per il gruppo di annunci.
+
+* *[!UICONTROL Bid Only]:* per mostrare annunci anche a persone non associate a tipi di pubblico di destinazione, purché soddisfino altri target a livello di gruppo di annunci. Tuttavia, puoi aumentare le possibilità che gli annunci vengano mostrati a tipi di pubblico specifici impostando offerte più elevate per tali tipi di pubblico.
+
+<!-- **[!UICONTROL Devices]:** -->
+
+{{$include /help/_includes/devices.md}}
+
+## Scheda [!UICONTROL AI Max]
+
+*Campagne mirate solo alla rete di ricerca*
+
+## Scheda [!UICONTROL AI Max]
+
+**[!UICONTROL AI Search Term Matching]:** (solo campagne con [!DNL AI Max] abilitate) Se utilizzare la corrispondenza dei termini di ricerca senza parole chiave basata sull&#39;intelligenza artificiale per migliorare la portata e l&#39;ottimizzazione.<!--SUPPOSEDLY, BUT THIS IS OFF FOR ME:  It's enabled by default for campaigns with [!DNL AI Max], but you can disable it at the ad group level. -->
+
+**[!UICONTROL Locations of Interest]:** (solo campagne con [!DNL AI Max] abilitate) Posizioni specifiche con intento geografico di destinazione (ma non da escludere); gli utenti devono inoltre soddisfare il targeting geografico della campagna. Per impostazione predefinita, il targeting viene applicato agli utenti in, che si trovano regolarmente in o che sono interessati a tutte le posizioni geografiche. Per limitare le destinazioni, selezionare ogni posizione di destinazione.
+
+## Scheda [!UICONTROL URL Options]
+
+<!-- **[!UICONTROL Tracking Template]:** -->
+
+{{$include /help/_includes/tracking-template-google.md}}
+
+## Scheda [!UICONTROL Additional Ad Group Information]
+
+### [!UICONTROL Negative Keywords]
+
+<!-- **[!UICONTROL Negative Keywords]:** -->
+
+{{$include /help/_includes/negative-keyword.md}}
+
+<!-- Note for **[!UICONTROL Negative Keywords]:** -->
+
+{{$include /help/_includes/negative-keyword-note-google.md}}
+
+### [!UICONTROL Negative Websites]
+
+<!-- **[!UICONTROL Negative Websites]:** -->
+
+{{$include /help/_includes/negative-websites-google.md}}
+
+>[!MORELIKETHIS]
+>
+>* [Gestisci gruppi di annunci](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
