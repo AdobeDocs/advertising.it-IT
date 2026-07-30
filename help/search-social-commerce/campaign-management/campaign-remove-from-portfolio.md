@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3d87bfab8f577b69a86abd0a6b50d07f70ae60a8
 workflow-type: tm+mt
-source-wordcount: 250
+source-wordcount: 251
 ht-degree: 0%
 
 ---
@@ -29,7 +29,9 @@ Per ulteriori informazioni sull’ottimizzazione, consulta la Guida all’ottimi
 
 1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
 
-1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Modifica](/help/search-social-commerce/assets/edit.png "Modifica") **[!UICONTROL Edit]**.
+1. Seleziona la casella di controllo accanto al portfolio.
+
+1. Nella barra degli strumenti Azioni in blocco fare clic su **[!UICONTROL Edit]**.
 
 1. Nelle impostazioni del portfolio, vai alla sezione [!UICONTROL Assign Campaigns] e modifica le assegnazioni della campagna.
 

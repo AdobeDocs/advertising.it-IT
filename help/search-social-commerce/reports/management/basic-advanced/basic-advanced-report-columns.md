@@ -13,9 +13,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+source-git-commit: 41a9add10a9d12e8452d18825fd732720b27243f
 workflow-type: tm+mt
-source-wordcount: 3846
+source-wordcount: 3847
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 0%
 | [!UICONTROL AD Strength] | ([!DNL Google Ads] annunci di ricerca responsive) Efficacia dell&#39;annuncio: <i>[!UICONTROL average]</i>, <i>[!UICONTROL excellent]</i>, <i>[!UICONTROL good]</i>, <i>[!UICONTROL no_ads]</i>, <i>[!UICONTROL pending]</i>, <i>[!UICONTROL poor]</i>, <i>[!UICONTROL unknown]</i> o <i>[!UICONTROL unspecified]</i>. |
 | [!UICONTROL Adgroup MBA] | ([!DNL Google Ads], [!DNL LY Ads] e [!DNL Microsoft Advertising] campagne) L&#39;attuale regolazione delle offerte mobili a livello di gruppo di annunci che determina la modalità di regolazione delle offerte quando l&#39;annuncio viene visualizzato su un dispositivo mobile. |
 | [!UICONTROL AI Max Bundling Required] | (Campagne che eseguono il targeting solo della rete di ricerca; campagne con la funzione Max di IA abilitata; sola lettura) Se il bundling è necessario: *[!UICONTROL REQUIRED]*, *[!UICONTROL NOT_REQUIRED]*, *[!UICONTROL UNSPECIFIED]* o null. |
-| [!UICONTROL AI Max Enabled] | Indica se la funzionalità [[!UICONTROL AI Max]](https://support.google.com/google-ads/answer/15910366) è abilitata: [!UICONTROL true]*, *[!UICONTROL false]* o null. |
+| [!UICONTROL AI Max Enabled] | Indica se la funzionalità [[!UICONTROL AI Max]](https://support.google.com/google-ads/answer/15910366) è abilitata: *[!UICONTROL true]*, *[!UICONTROL false]* o null. |
 | [!UICONTROL AI Max Search Term Matching] | (Campagne mirate alla rete di ricerca e per le quali è abilitata la funzionalità [AI Max](https://support.google.com/google-ads/answer/15910366) e la funzionalità di corrispondenza dei termini di ricerca a livello di campagna; sola lettura) Se la corrispondenza dei termini di ricerca a livello di gruppo di annunci è abilitata: *[!UICONTROL true]*, *[!UICONTROL false]* o null. |
 | [!UICONTROL Advertiser] | Il nome dell’inserzionista. |
 | [!UICONTROL Advertiser ID] | ID numerico dell’account Search, Social e Commerce dell’inserzionista. |
