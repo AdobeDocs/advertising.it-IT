@@ -2,17 +2,13 @@
 title: Gestione annunci
 description: Scopri come creare e gestire gli annunci, inclusi i tipi di annunci disponibili.
 feature: Search Campaign Management
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2:
-  - id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 730b474b83ae4df47c18f93adfec62b1dc9b8a16
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6a479ae0bb30d609b16a343efcec296137b9ab43
 workflow-type: tm+mt
-source-wordcount: 1732
+source-wordcount: 1733
 ht-degree: 0%
 
 ---
@@ -125,7 +121,7 @@ Tuttavia, non è disponibile per [!DNL Google Ads] campagne Dynamic Search Ad (D
 
 1. Fare clic su **[!UICONTROL Create]**.
 
-1. &#x200B;<!-- Add link to where to generate this once available to users-->(Acquisti nelle campagne con tracciamento delle conversioni di Adobe Advertising; facoltativo) Per tenere traccia dei clic sull’annuncio, aggiungi manualmente un URL di tracciamento alle impostazioni dell’account, della campagna o del gruppo di prodotti.
+1. <!-- Add link to where to generate this once available to users-->(Acquisti nelle campagne con tracciamento delle conversioni di Adobe Advertising; facoltativo) Per tenere traccia dei clic sull’annuncio, aggiungi manualmente un URL di tracciamento alle impostazioni dell’account, della campagna o del gruppo di prodotti.
 
 ## Rinominare un annuncio {#ad-rename}
 
@@ -153,7 +149,7 @@ Rinominare rapidamente un annuncio senza aprire le impostazioni complete dell’
 
 1. Nella barra degli strumenti Azioni in blocco fare clic su **[!UICONTROL Edit]**.
 
-1. Nel passaggio **[!UICONTROL Ad Details]**, modifica [Annuncio di testo Baidu](ad-settings-baidu-text.md), [Annuncio di ricerca dinamica espanso di Google Ads](ad-settings-google-dsa.md) (ora denominato solo &quot;annuncio di ricerca dinamica&quot; in Google Ads), [Annuncio di ricerca responsive di Google Ads](ad-settings-google-rsa.md), [Annuncio di ricerca dinamica espanso di Microsoft Advertising](ad-settings-microsoft-dsa.md), [Annuncio multimediale Microsoft Advertising](ad-settings-microsoft-multimedia.md), [Annuncio di prodotto Microsoft Advertising](ad-settings-microsoft-product.md), [Annuncio di ricerca responsive di Microsoft (pubblico)](ad-settings-microsoft-responsive.md), [Annuncio di ricerca responsive di Advertising](ad-settings-microsoft-rsa.md), oppure [Impostazioni annuncio testo Yandex](ad-settings-yandex-text.md).
+1. Modifica le impostazioni rimanenti per un [annuncio di testo Baidu](ad-settings-baidu-text.md), [annuncio di ricerca dinamica espanso di Google Ads](ad-settings-google-dsa.md) (ora denominato solo &quot;annuncio di ricerca dinamica&quot; in Google Ads), [annuncio di ricerca responsive di Google Ads](ad-settings-google-rsa.md), [annuncio di ricerca dinamica espanso di Microsoft Advertising](ad-settings-microsoft-dsa.md), [annuncio multimediale Microsoft Advertising](ad-settings-microsoft-multimedia.md), [annuncio di prodotto Microsoft Advertising](ad-settings-microsoft-product.md), [annuncio di ricerca responsive di Microsoft (audience)](ad-settings-microsoft-responsive.md), [annuncio di ricerca responsive Advertising](ad-settings-microsoft-rsa.md), oppure [Impostazioni annuncio testo Yandex](ad-settings-yandex-text.md).
 
 1. Fare clic su **[!UICONTROL Review and Save]**.
 
