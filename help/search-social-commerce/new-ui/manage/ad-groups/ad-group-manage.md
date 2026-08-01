@@ -10,7 +10,7 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d45eb490f9dbb7da89bd1270582e5548b70cbd31
+source-git-commit: fc836f17b53a3708bf881dc62a437d391709a050
 workflow-type: tm+mt
 source-wordcount: 1676
 ht-degree: 0%
@@ -65,7 +65,7 @@ Nella visualizzazione [!UICONTROL Manage] > [!UICONTROL Ad Groups] sono elencati
 
 1. Fare clic su **[!UICONTROL Review and Save]**.
 
-1. Se necessario, fai clic su ![Modifica](/help/search-social-commerce/assets/edit-new.png "Modifica") e modifica le impostazioni del gruppo di annunci.
+1. Se necessario, fai clic su ![Modifica](/help/search-social-commerce/assets/edit-new.png "Modifica") **[!UICONTROL Edit]** e modifica le impostazioni del gruppo di annunci.
 
 1. Fare clic su **[!UICONTROL Create]**.
 
@@ -101,7 +101,7 @@ Puoi modificare le impostazioni per singoli gruppi di annunci. Puoi anche modifi
 
 1. Fare clic su **[!UICONTROL Review and Save]**.
 
-1. Se necessario, fai clic su ![Modifica](/help/search-social-commerce/assets/edit-new.png "Modifica") e modifica le impostazioni del gruppo di annunci.
+1. Se necessario, fai clic su ![Modifica](/help/search-social-commerce/assets/edit-new.png "Modifica") **[!UICONTROL Edit]** e modifica le impostazioni del gruppo di annunci.
 
 1. Fare clic su **[!UICONTROL Update]**.
 
