@@ -4,22 +4,14 @@ description: Scopri le opzioni per la creazione manuale di rapporti personalizza
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
 TQID: https://experienceleague.adobe.com/s4EiBrtWrkDbweibjuPa7KAv4s8pMtbLYEG-CEeXBdY
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
-  - id: d9510790-d834-436d-8423-8d69cd50464a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a4042ccc2ff85513d35eb56cd514b8bac6ebf65e
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: cc3b7f3c-58f0-4ba4-b808-391002930fd4id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8259705179c77085be82b416f62a093186b03745
 workflow-type: tm+mt
-source-wordcount: 1788
+source-wordcount: 1716
 ht-degree: 0%
 
 ---
@@ -65,11 +57,9 @@ Puoi generare i rapporti una volta o pianificarli su base giornaliera, settimana
 
   * **[!UICONTROL Device]:** Utilizzare questo modello precompilato per visualizzare le metriche chiave per le dimensioni relative al dispositivo.
 
-  * **[Conversioni autoattribuite di DSP]:** Utilizza questo report per visualizzare il contributo di Advertising DSP alle conversioni, inclusi i percorsi di clienti in cui DSP ha svolto un ruolo ma un contatto successivo, ad esempio un clic di ricerca di Adobe Advertising, ha ricevuto il credito dell&#39;ultimo clic in altri report.
+  * **[!UICONTROL DSP Self-Attributed Conversions]:** Utilizzare questo report per visualizzare il contributo di Advertising DSP alle conversioni, inclusi i percorsi di clienti in cui DSP ha svolto un ruolo ma un contatto successivo, ad esempio un clic di ricerca di Adobe Advertising, ha ricevuto il credito dell&#39;ultimo clic in altri report. Per ulteriori informazioni, consulta &quot;[Domande frequenti sui report personalizzati](/help/dsp/reports/faq-reports.md)&quot;.
 
-    Il reporting standard accredita l’ultimo clic prima di una conversione. Quando un cliente vede un annuncio di DSP e successivamente fa clic su un annuncio di ricerca prima della conversione, quell’esposizione a DSP spesso non viene visualizzata nei numeri di conversione. Questo rapporto riconnette le conversioni alle impression di DSP e ai clic che le hanno precedute in modo da poter vedere il ruolo di DSP anche quando non era l’ultimo contatto. È molto utile per gli inserzionisti che utilizzano sia Advertising DSP che Advertising Search, Social e Commerce.
-
-    **Importante:** questo report non modifica i report Adobe Analytics di attribuzione o la metodologia di attribuzione esistente. Fornisce una visualizzazione complementare specifica di DSP del contributo di conversione.
+    **Importante:** questo report non modifica la metodologia di attribuzione o l&#39;attribuzione esistente nei report di Adobe Analytics. Fornisce una visualizzazione complementare specifica di DSP del contributo di conversione.
 
   * **[!UICONTROL Frequency (by Impression)]:** Utilizzare questo report per comprendere la distribuzione delle impression mostrate a visualizzatori univoci (ad esempio, quanti visualizzatori univoci hanno visto una impression, due impression, tre impression e così via). I dati sono disponibili per posizionamento o campagna.
 
@@ -88,9 +78,9 @@ Puoi generare i rapporti una volta o pianificarli su base giornaliera, settimana
 
   * **[!UICONTROL Geo]**: utilizzare questo modello precompilato per visualizzare le metriche chiave per dimensioni geografiche.
 
-  * **[!UICONTROL Household Conversions]:** Utilizzare questo report per visualizzare le conversioni view-through a livello di famiglia in base all&#39;indirizzo IP anziché a livello di dispositivo/cookie. Utilizza le informazioni per misurare e ottimizzare le prestazioni della campagna. Per ulteriori informazioni, vedere &quot;[Domande frequenti sui rapporti sui nuclei familiari](/help/dsp/reports/faq-reports.md)&quot;. I dati non sono disponibili per i posizionamenti mirati agli ID universali.
+  * **[!UICONTROL Household Conversions]:** Utilizzare questo report per visualizzare le conversioni view-through a livello di famiglia in base all&#39;indirizzo IP anziché a livello di dispositivo/cookie. Utilizza le informazioni per misurare e ottimizzare le prestazioni della campagna. Per ulteriori informazioni, consulta &quot;[Domande frequenti sui report personalizzati](/help/dsp/reports/faq-reports.md)&quot;. I dati non sono disponibili per i posizionamenti mirati agli ID universali.
 
-  * **[!UICONTROL Household Reach & Frequency]:** Utilizzare questo report per visualizzare impression, portata e frequenza per una singola dimensione in più formati di annunci a livello di famiglia in base all&#39;indirizzo IP, anziché a livello di dispositivo/cookie. Utilizza le informazioni per ottimizzare il mix di contenuti multimediali, migliorare le prestazioni e identificare opportunità di portata incrementale. Per ulteriori informazioni, vedere &quot;[Domande frequenti sui rapporti sui nuclei familiari](/help/dsp/reports/faq-reports.md)&quot;. I dati non sono disponibili per i posizionamenti mirati agli ID universali.
+  * **[!UICONTROL Household Reach & Frequency]:** Utilizzare questo report per visualizzare impression, portata e frequenza per una singola dimensione in più formati di annunci a livello di famiglia in base all&#39;indirizzo IP, anziché a livello di dispositivo/cookie. Utilizza le informazioni per ottimizzare il mix di contenuti multimediali, migliorare le prestazioni e identificare opportunità di portata incrementale. Per ulteriori informazioni, consulta &quot;[Domande frequenti sui report personalizzati](/help/dsp/reports/faq-reports.md)&quot;. I dati non sono disponibili per i posizionamenti mirati agli ID universali.
 
   * **[!UICONTROL Margin]:** Utilizzare questo report per visualizzare metriche chiave come margine, profitto e altre metriche di spesa per campagna o posizionamento. I dati non sono disponibili per i posizionamenti mirati agli ID universali.
 
@@ -158,7 +148,7 @@ Puoi creare nuovi rapporti personalizzati, modificare quelli esistenti o duplica
 >* [Crea un report personalizzato](/help/dsp/reports/report-create.md)
 >* [Scarica un report personalizzato](/help/dsp/reports/report-download.md)
 >* [Impostazioni report personalizzati](/help/dsp/reports/report-settings.md)
->* [Domande frequenti sui rapporti sulla famiglia](/help/dsp/reports/faq-reports.md)
+>* [Domande frequenti sui report personalizzati](/help/dsp/reports/faq-reports.md)
 >* [Tipi di report sulle prestazioni nelle visualizzazioni di gestione delle campagne](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Colonne report disponibili](/help/dsp/reports/report-columns.md)
 >* [Informazioni sulle destinazioni dei report](/help/dsp/reports/report-destinations/report-destination-about.md)
