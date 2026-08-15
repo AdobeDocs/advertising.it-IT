@@ -13,9 +13,9 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 79f0b3872a0d5d3765093ce83cc8f1c284a8255c
+source-git-commit: f796a4002b9136299c414b789cd2c34c8d6dc11c
 workflow-type: tm+mt
-source-wordcount: 448
+source-wordcount: 467
 ht-degree: 0%
 
 ---
@@ -47,6 +47,8 @@ Puoi visualizzare le impression, i clic, la frequenza e altre metriche per gli u
       Le impostazioni di origine includono una chiave di origine generata automaticamente.
 
    1. Condividi la chiave di origine con il tuo team [!DNL AdFixus] in modo che possa inviare in streaming i segmenti richiesti a DSP.
+
+      Possono continuare a utilizzare la stessa chiave di origine per tutti i dati [!DNL AdFixus] da condividere con l&#39;account o l&#39;inserzionista.
 
 1. Verifica nella sezione [!UICONTROL First Party Segments] della libreria del pubblico (disponibile quando crei o modifichi un pubblico da [!UICONTROL Audiences] > [!UICONTROL All Audiences] o all&#39;interno delle impostazioni di posizionamento) che il segmento sia popolato. Confrontare il numero di ID [!DNL AdFixus] con il numero di ID utente in [!DNL AdFixus].
 
