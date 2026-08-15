@@ -3,10 +3,18 @@ title: Risoluzione dei problemi dei dati di Adobe Advertising in Customer Journe
 description: Scopri come risolvere i problemi relativi ai dati di Adobe Advertising in Customer Journey Analytics.
 feature: Integration with Adobe Customer Journey Analytics
 hide: true
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 1377772b3d43be341d4c40497fa186ebfbc29bc9
 workflow-type: tm+mt
 source-wordcount: 3291
@@ -130,7 +138,7 @@ Prima di aprire un ticket di supporto per [!UICONTROL Advertising] problemi di c
 | I cookie di terze parti sono bloccati | Esegui la migrazione alla raccolta dati CNAME di prime parti configurando un dominio di prime parti nella configurazione Edge Network del flusso di dati. |
 | `idMigrationEnabled` è impostato su `false` mentre è presente un cookie `s_ecid` legacy | Impostare `idMigrationEnabled: true` nella configurazione di base WebSDK per migrare l&#39;ECID esistente dai cookie `s_ecid` o `AMCV_`. |
 
-### Le regole o gli eventi non attivano {#rules-or-events-don&#39;t-fire}
+### Le regole o gli eventi non attivano #rules-or-events-don&#39;t-fire
 
 #### Problemi:
 
