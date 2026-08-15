@@ -2,20 +2,14 @@
 title: Importa segmenti di prime parti da [!DNL AdFixus]
 description: Scopri come importare  [!DNL AdFixus] segmenti di prime parti costituiti da [!DNL AdFixus] ID universali in DSP.
 feature: DSP Audiences
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 79f0b3872a0d5d3765093ce83cc8f1c284a8255c
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: f796a4002b9136299c414b789cd2c34c8d6dc11c
 workflow-type: tm+mt
-source-wordcount: 448
+source-wordcount: 467
 ht-degree: 0%
 
 ---
@@ -48,6 +42,8 @@ Puoi visualizzare le impression, i clic, la frequenza e altre metriche per gli u
 
    1. Condividi la chiave di origine con il tuo team [!DNL AdFixus] in modo che possa inviare in streaming i segmenti richiesti a DSP.
 
+      Possono continuare a utilizzare la stessa chiave di origine per tutti i dati [!DNL AdFixus] da condividere con l&#39;account o l&#39;inserzionista.
+
 1. Verifica nella sezione [!UICONTROL First Party Segments] della libreria del pubblico (disponibile quando crei o modifichi un pubblico da [!UICONTROL Audiences] > [!UICONTROL All Audiences] o all&#39;interno delle impostazioni di posizionamento) che il segmento sia popolato. Confrontare il numero di ID [!DNL AdFixus] con il numero di ID utente in [!DNL AdFixus].
 
    I segmenti sono disponibili in DSP non appena vengono creati.
@@ -58,7 +54,7 @@ I segmenti vengono aggiornati e sono disponibili per il targeting ogni tre ore, 
 >
 >* [Informazioni sulle origini del pubblico di prime parti](/help/dsp/audiences/sources/source-about.md)
 >* [Gestisci origini pubblico per attivare il pubblico con ID universale](source-manage.md)
->* [Connessione Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=it)
->* Adobe Experience Platform [Panoramica del catalogo delle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=it)
+>* [Connessione Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* Adobe Experience Platform [Panoramica del catalogo delle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 >* [Supporto per l&#39;attivazione degli ID universali](/help/dsp/audiences/universal-ids.md)
 >* [Informazioni su Gestione dell&#39;audience](/help/dsp/audiences/audience-about.md)
