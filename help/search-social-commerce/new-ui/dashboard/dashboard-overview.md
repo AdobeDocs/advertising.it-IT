@@ -12,7 +12,7 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 46dede0e36eaaba0893780af13562b3e7501c259
+source-git-commit: eb5c453b9892940811e3ec95d5dac4bf0fffbcb6
 workflow-type: tm+mt
 source-wordcount: 375
 ht-degree: 0%
@@ -41,21 +41,21 @@ L&#39;elemento personalizzabile [!UICONTROL Dashboard] > [!UICONTROL Overview] c
 
 * (Facoltativo) Modifica i portfolio applicabili a tutti i rapporti:
 
-   1. Fare clic sui parametri correnti accanto a **[!UICONTROL Select Portfolios]**.
+  1. Fare clic sui parametri correnti accanto a **[!UICONTROL Select Portfolios]**.
 
-   1. (Facoltativo) Accanto a **[!UICONTROL Select by]**, scegliere come selezionare i portfolio:
+  1. (Facoltativo) Accanto a **[!UICONTROL Select by]**, scegliere come selezionare i portfolio:
 
-      * *[!UICONTROL All Portfolios]* (impostazione predefinita): rapporto sui portafogli specificati. Facoltativamente, è possibile filtrare l&#39;elenco dei portfolio modificando il **[!UICONTROL Currency]specificato.** Per impostazione predefinita, vengono selezionati tutti i portfolio che utilizzano USD.
+     * *[!UICONTROL All Portfolios]* (impostazione predefinita): rapporto sui portafogli specificati. Facoltativamente, è possibile filtrare l&#39;elenco dei portfolio modificando il **[!UICONTROL Currency]specificato.** Per impostazione predefinita, sono selezionati tutti i portfolio che utilizzano USD.
 
-      * *[!UICONTROL Portfolio Groups]:* Report sui portfolio specificati in un **[!UICONTROL Portfolio Group]specificato.** Facoltativamente, è possibile filtrare l&#39;elenco dei portfolio modificando il **[!UICONTROL Currency]specificato.** Per impostazione predefinita, vengono selezionati tutti i portfolio che utilizzano USD nel gruppo di portfolio specificato.
+     * *[!UICONTROL Portfolio Groups]:* Report sui portfolio specificati in un **[!UICONTROL Portfolio Group]specificato.** Facoltativamente, è possibile filtrare l&#39;elenco dei portfolio modificando il **[!UICONTROL Currency]specificato.** Per impostazione predefinita, vengono selezionati tutti i portfolio che utilizzano USD nel gruppo di portfolio specificato.
 
-      * *[!UICONTROL Objectives]:* Report sui portfolio specificati con **[!UICONTROL Objective].** . Facoltativamente, è possibile restringere l&#39;elenco dei portfolio modificando il **[!UICONTROL Currency]specificato.** Per impostazione predefinita, vengono selezionati tutti i portfolio che utilizzano USD con l’obiettivo specificato.
+     * *[!UICONTROL Objectives]:* Report sui portfolio specificati con **[!UICONTROL Objective].** . Facoltativamente, è possibile restringere l&#39;elenco dei portfolio modificando il **[!UICONTROL Currency]specificato.** Per impostazione predefinita, vengono selezionati tutti i portfolio che utilizzano USD con l’obiettivo specificato.
 
-   1. Selezionare e deselezionare le caselle di controllo accanto ai portfolio in base alle esigenze fino a quando nella sezione [!UICONTROL Selected Portfolios] non vengono elencati i portfolio sui quali si desidera creare il report.
+  1. Selezionare e deselezionare le caselle di controllo accanto ai portfolio in base alle esigenze fino a quando nella sezione [!UICONTROL Selected Portfolios] non vengono elencati i portfolio sui quali si desidera creare il report.
 
-   1. Fare clic su **[!UICONTROL Select]**.
+  1. Fare clic su **[!UICONTROL Select]**.
 
-* (Facoltativo) Modificare la granularità dei dati per tutti i report (*[!UICONTROL Daily]* \[impostazione predefinita\], *[!UICONTROL Weekly]* \[quando applicabile per l&#39;intervallo di date\] o *[!UICONTROL Monthly]* \[quando applicabile per l&#39;intervallo di date\]) dal menu **[!UICONTROL Granularity]**.
+* (Facoltativo) Modificare l&#39;aggregazione dei dati per tutti i report (*[!UICONTROL Daily]* \[impostazione predefinita\], *[!UICONTROL Weekly]* \[quando applicabile per l&#39;intervallo di date\] o *[!UICONTROL Monthly]* \[quando applicabile per l&#39;intervallo di date\]) dal menu **[!UICONTROL Data Aggregation]**.
 
 * (Facoltativo) Modificare l&#39;intervallo di date per tutti i report dal menu **[!UICONTROL Date range]**. Puoi includere i dati relativi agli ultimi 90 giorni. Il valore predefinito è *[!UICONTROL Last 7 Days]*.
 
@@ -63,8 +63,8 @@ L&#39;elemento personalizzabile [!UICONTROL Dashboard] > [!UICONTROL Overview] c
 
 * ([!UICONTROL Biggest Movers] report; facoltativo) Eseguire una delle operazioni seguenti:
 
-   * Modifica l’entità segnalata. L&#39;unica opzione corrente è *[!UICONTROL Portfolio]*.
+  * Modifica l’entità segnalata. L&#39;unica opzione corrente è *[!UICONTROL Portfolio]*.
 
-   * Modificare la metrica segnalata ([!UICONTROL Cost] \[selezionata per impostazione predefinita\], [!UICONTROL Clicks] o [!UICONTROL Objective Value]).
+  * Modificare la metrica segnalata ([!UICONTROL Cost] \[selezionata per impostazione predefinita\], [!UICONTROL Clicks] o [!UICONTROL Objective Value]).
 
-   * Per aprire la visualizzazione [!UICONTROL Portfolios], fare clic su **[!UICONTROL View More]** in basso a destra del grafico. <!-- This currently lists all portfolios, not a filtered view of the portfolios in the report -->
+  * Per aprire la visualizzazione [!UICONTROL Portfolios], fare clic su **[!UICONTROL View More]** in basso a destra del grafico. <!-- This currently lists all portfolios, not a filtered view of the portfolios in the report -->
