@@ -2,15 +2,12 @@
 title: Gestire gli annunci standard in Creative Studio
 description: Scopri come creare, modificare, duplicare, scaricare ed eliminare annunci display standard nella libreria creative di Creative Studio.
 exl-id: 01d3cdec-80d0-494c-94dd-d9d0ae8ca53c
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 408ddd6a3dde58fc3f600a842ef2c41c44f311fe
 workflow-type: tm+mt
-source-wordcount: 1181
+source-wordcount: 1184
 ht-degree: 0%
 
 ---
@@ -39,19 +36,19 @@ Nella libreria di modelli deve esistere almeno un modello di annuncio visualizza
 
    * **Dalla scheda [!UICONTROL Creatives]:**
 
-      1. Nel menu principale, fare clic su **[!UICONTROL Creative Studio]**.
+     1. Nel menu principale, fare clic su **[!UICONTROL Creative Studio]**.
 
-      1. Nella scheda **[!UICONTROL Creatives]**, fare clic su **[!UICONTROL Generate]** nella scheda Azioni rapide **[!UICONTROL Generate standard ads from templates]**.
+     1. Nella scheda **[!UICONTROL Creatives]**, fare clic su **[!UICONTROL Generate]** nella scheda Azioni rapide **[!UICONTROL Generate standard ads from templates]**.
 
-      1. Nella finestra di dialogo di selezione del modello, fare clic su un modello per selezionarlo, quindi fare clic su **[!UICONTROL Use this template]**.
+     1. Nella finestra di dialogo di selezione del modello, fare clic su un modello per selezionarlo, quindi fare clic su **[!UICONTROL Use this template]**.
 
    * (Visualizza solo annunci) **Dalla scheda [!UICONTROL Templates]:**
 
-      1. Nel menu principale, fare clic su **[!UICONTROL Creative Studio]**.
+     1. Nel menu principale, fare clic su **[!UICONTROL Creative Studio]**.
 
-      1. Fare clic sulla scheda **[!UICONTROL Templates]**.
+     1. Fare clic sulla scheda **[!UICONTROL Templates]**.
 
-      1. Posizionare il cursore su una scheda modello e fare clic su **[!UICONTROL ...]** > **[!UICONTROL Generate ad variations]**.
+     1. Posizionare il cursore su una scheda modello e fare clic su **[!UICONTROL ...]** > **[!UICONTROL Generate ad variations]**.
 
    Verrà aperto [!UICONTROL Ad Variations Generator]. L&#39;area di lavoro mostra la sezione **[!UICONTROL Template Sizes]** con i formati di annuncio disponibili del modello e una sezione **[!UICONTROL Ad Concepts]** in cui verranno visualizzati i contenuti generati.
 
@@ -100,14 +97,14 @@ Nella libreria di modelli deve esistere almeno un modello di annuncio visualizza
 
    * Per gestire un concetto, posizionare il cursore sull&#39;etichetta del concetto (ad esempio, **[!UICONTROL Concept 3]**) e fare clic su **[!UICONTROL ...]**, quindi selezionare un&#39;opzione:
 
-      * **[!UICONTROL Add to chat]:** Fa riferimento al concetto nel prompt successivo.
-      * **[!UICONTROL Delete]:** Rimuove il concetto.
+     * **[!UICONTROL Add to chat]:** Fa riferimento al concetto nel prompt successivo.
+     * **[!UICONTROL Delete]:** Rimuove il concetto.
 
    * Per gestire una singola variante, posizionare il cursore sulla scheda della variante e fare clic su **[!UICONTROL ...]**, quindi selezionare un&#39;opzione:
 
-      * **[!UICONTROL Add to Chat]:** Fa riferimento alla variante nel prompt successivo. Puoi anche fare clic direttamente sul corpo della scheda della variante per attivare/disattivare la menzione.
-      * **[!UICONTROL Edit Data]:** Apre una finestra di dialogo in cui è possibile aggiornare la variante **[!UICONTROL Name]** e l&#39;URL di click-through per ogni tag di click definito nel modello. Fare clic su **[!UICONTROL Save]** per applicare.
-      * **[!UICONTROL Delete]:** Rimuove la variante.
+     * **[!UICONTROL Add to Chat]:** Fa riferimento alla variante nel prompt successivo. Puoi anche fare clic direttamente sul corpo della scheda della variante per attivare/disattivare la menzione.
+     * **[!UICONTROL Edit Data]:** Apre una finestra di dialogo in cui è possibile aggiornare la variante **[!UICONTROL Name]** e l&#39;URL di click-through per ogni tag di click definito nel modello. Fare clic su **[!UICONTROL Save]** per applicare.
+     * **[!UICONTROL Delete]:** Rimuove la variante.
 
 1. Quando si è soddisfatti dei concetti generati, fare clic su **[!UICONTROL Save Standard Ads]** nell&#39;intestazione.
 
@@ -204,4 +201,4 @@ Duplica un annuncio standard per aggiungere un nuovo contenuto creativo con le s
 >* [Gestione di creatività dinamiche in Creative Studio](creative-studio-manage-dynamic-ads.md)
 >* [Gestione dei modelli in Creative Studio](creative-studio-manage-templates.md)
 >* [Gestione dei profili del brand in Advertising Creative](/help/creative/brands/brand-manage.md)
-
+>* [Metadati C2PA in [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-content-credentials.md)
