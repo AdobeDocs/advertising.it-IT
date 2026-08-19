@@ -3,9 +3,9 @@ role: User
 user-guide-title: Guida di Advertising Creative
 user-guide-description: Scopri le principali funzioni, attività, impostazioni e altre risorse necessarie per utilizzare Advertising Creative.
 breadcrumb-title: Guida alla creatività
-source-git-commit: 0c7c5962b0e2b0c72147b0ff27ba83acb5cbf326
+source-git-commit: 0edb79512588498b323ffc4197da0612e2e6d3e6
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '431'
 ht-degree: 4%
 
 ---
@@ -15,90 +15,91 @@ ht-degree: 4%
 
 + [Novità](/help/creative/home.md)
 + Introduzione {#introduction}
-   + [Informazioni su Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
-   + [Personalizzare le visualizzazioni dati](/help/creative/introduction/customize-data-views.md)
-   + [Flussi di lavoro per gli annunci dinamici](/help/creative/introduction/workflow-dynamic-ads.md)
-   + [Supporto per la privacy del consumatore](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=it){target="_blank"}
-   + [Politiche e linee guida](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=it){target="_blank"}
+  + [Informazioni su Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
+  + [Personalizzare le visualizzazioni dati](/help/creative/introduction/customize-data-views.md)
+  + [Flussi di lavoro per gli annunci dinamici](/help/creative/introduction/workflow-dynamic-ads.md)
+  + [Supporto per la privacy del consumatore](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=it){target="_blank"}
+  + [Politiche e linee guida](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=it){target="_blank"}
 + Creative Studio {#creative-studio}
-   + [Informazioni su Creative Studio](/help/creative/creative-studio/creative-studio-about.md)
-   + [Gestire gli annunci standard](/help/creative/creative-studio/creative-studio-manage-standard-ads.md)
-   + [Gestire le creatività dinamiche](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md)
-   + [Gestire i modelli](/help/creative/creative-studio/creative-studio-manage-templates.md)
-   + [Gestione risorse](/help/creative/creative-studio/creative-studio-manage-assets.md)
+  + [Informazioni su Creative Studio](/help/creative/creative-studio/creative-studio-about.md)
+  + [Metadati C2PA in [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-content-credentials.md)
+  + [Gestire gli annunci standard](/help/creative/creative-studio/creative-studio-manage-standard-ads.md)
+  + [Gestire le creatività dinamiche](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md)
+  + [Gestire i modelli](/help/creative/creative-studio/creative-studio-manage-templates.md)
+  + [Gestione risorse](/help/creative/creative-studio/creative-studio-manage-assets.md)
 + Librerie Creative {#creative-libraries}
-   + [Informazioni sulle librerie creative](/help/creative/creative-libraries/creative-libraries-about.md)
-   + [Dimensioni creative supportate](/help/creative/creative-libraries/creative-sizes.md)
-   + [Gestire le librerie creative](/help/creative/creative-libraries/creative-library-manage.md)
-   + Creatività {#creatives}
-      + [Configurare l’accesso alle risorse di immagini Adobe Experience Manager](/help/creative/creative-libraries/aem-assets-configure.md)
-      + Creatività standard {#standard-creatives}
-         + [Aggiungere creatività standard a una libreria creativa](/help/creative/creative-libraries/creative-add-standard.md)
-         + [Modifica creativi standard](/help/creative/creative-libraries/creative-edit-standard.md)
-         + [Impostazioni creative standard](/help/creative/creative-libraries/creative-settings-standard.md)
-         + [Specifiche creative di HTML5](/help/creative/creative-libraries/html5-creative-specification.md)
-      + Creatività dinamica {#dynamic-creatives}
-         + [Aggiungere creatività dinamica a una libreria creativa](/help/creative/creative-libraries/creative-add-dynamic.md)
-         + [Modifica creativi dinamici](/help/creative/creative-libraries/creative-edit-dynamic.md)
-         + [Impostazioni creative dinamiche](/help/creative/creative-libraries/creative-settings-dynamic.md)
-      + [Visualizzare in anteprima un contenuto creativo](/help/creative/creative-libraries/creative-preview.md)
-      + [Associa creatività ai bundle](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
-      + [Duplicare le creatività](/help/creative/creative-libraries/creative-duplicate.md)
-      + [Scarica creatività](/help/creative/creative-libraries/creative-download.md)
-      + [Visualizza il registro delle modifiche per un contenuto creativo](/help/creative/creative-libraries/creative-view-change-log.md)
-      + [Elimina creatività](/help/creative/creative-libraries/creative-delete.md)
-   + Pacchetti Creative {#bundles}
-      + [Gestire i bundle creativi](/help/creative/creative-libraries/bundle-manage.md)
+  + [Informazioni sulle librerie creative](/help/creative/creative-libraries/creative-libraries-about.md)
+  + [Dimensioni creative supportate](/help/creative/creative-libraries/creative-sizes.md)
+  + [Gestire le librerie creative](/help/creative/creative-libraries/creative-library-manage.md)
+  + Creatività {#creatives}
+    + [Configurare l’accesso alle risorse di immagini Adobe Experience Manager](/help/creative/creative-libraries/aem-assets-configure.md)
+    + Creatività standard {#standard-creatives}
+      + [Aggiungere creatività standard a una libreria creativa](/help/creative/creative-libraries/creative-add-standard.md)
+      + [Modifica creativi standard](/help/creative/creative-libraries/creative-edit-standard.md)
+      + [Impostazioni creative standard](/help/creative/creative-libraries/creative-settings-standard.md)
+      + [Specifiche creative di HTML5](/help/creative/creative-libraries/html5-creative-specification.md)
+    + Creatività dinamica {#dynamic-creatives}
+      + [Aggiungere creatività dinamica a una libreria creativa](/help/creative/creative-libraries/creative-add-dynamic.md)
+      + [Modifica creativi dinamici](/help/creative/creative-libraries/creative-edit-dynamic.md)
+      + [Impostazioni creative dinamiche](/help/creative/creative-libraries/creative-settings-dynamic.md)
+    + [Visualizzare in anteprima un contenuto creativo](/help/creative/creative-libraries/creative-preview.md)
+    + [Associa creatività ai bundle](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
+    + [Duplicare le creatività](/help/creative/creative-libraries/creative-duplicate.md)
+    + [Scarica creatività](/help/creative/creative-libraries/creative-download.md)
+    + [Visualizza il registro delle modifiche per un contenuto creativo](/help/creative/creative-libraries/creative-view-change-log.md)
+    + [Elimina creatività](/help/creative/creative-libraries/creative-delete.md)
+  + Pacchetti Creative {#bundles}
+    + [Gestire i bundle creativi](/help/creative/creative-libraries/bundle-manage.md)
 + Esperienze annuncio {#creative-experiences}
-   + [Informazioni sulle esperienze in Advertising Creative](/help/creative/experiences/experience-about.md)
-   + Esperienze con il targeting {#experience-targeted}
-      + [Layout dell’albero delle decisioni](/help/creative/experiences/experience-decision-tree.md)
-      + [Creare un’esperienza con il targeting](/help/creative/experiences/experience-create-targeting.md)
-      + [Modificare un’esperienza con il targeting](/help/creative/experiences/experience-edit-targeting.md)
-      + [Impostazioni delle esperienze mirate](/help/creative/experiences/experience-settings-targeting.md)
-      + Attività secondarie per la creazione e la modifica di esperienze {#subtasks}
-         + Nodi di destinazione {#nodes}
-            + [Aggiungere un nodo di destinazione al livello finale](/help/creative/experiences/experience-target-node-add-final.md)
-            + [Inserire un nodo di destinazione tra i nodi](/help/creative/experiences/experience-target-node-add-inner.md)
-            + [Aggiungi un nodo di destinazione di pari livello](/help/creative/experiences/experience-target-node-add-sibling.md)
-            + [Copiare nodi secondari in un altro nodo allo stesso livello](/help/creative/experiences/experience-target-node-copy.md)
-            + [Eliminare un nodo di destinazione o un nodo foglia creativo](/help/creative/experiences/experience-target-node-delete.md)
-         + Pacchetti e creatività Creative {#bundles}
-            + [Assegnare e annullare l’assegnazione di bundle creativi a un nodo finale](/help/creative/experiences/experience-assign-creative-bundles.md)
-            + [Personalizzare l&#39;ottimizzazione creativa e la pianificazione](/help/creative/experiences/experience-optimization-scheduling-targeting.md)
-            + [Personalizzare gli URL di tracciamento per i creativi](/help/creative/experiences/experience-tracking-urls-targeting.md)
-   + Esperienze senza targeting {#experience-nontargeted}
-      + [Creare un’esperienza senza targeting](/help/creative/experiences/experience-create-no-targeting.md)
-      + [Modificare un’esperienza senza targeting](/help/creative/experiences/experience-edit-no-targeting.md)
-      + [Impostazioni delle esperienze non mirate](/help/creative/experiences/experience-settings-no-targeting.md)
-      + Tag annuncio e creatività{#non-targeted-creatives}
-         + [Creare manualmente un tag annuncio per una dimensione creativa applicabile](/help/creative/experiences/experience-tag-create-manually.md)
-         + [Assegnare dei creativi a un tag annuncio per le esperienze senza targeting](/help/creative/experiences/experience-tag-assign-creatives.md)
-         + [Personalizza l’ottimizzazione creativa e la pianificazione di un’esperienza senza targeting](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)
-         + [Personalizzare gli URL di tracciamento per un’esperienza senza targeting](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
-   + [Clonare un’esperienza](/help/creative/experiences/experience-clone.md)
-   + [Visualizzare l’anteprima di un’esperienza](/help/creative/experiences/experience-preview.md)
-   + [Personalizzare le opzioni di transcodifica per un tag esperienza annuncio video](/help/creative/experiences/experience-tag-video-transcoding.md)
-   + [Esportare e implementare un tag di esperienza annuncio per un’esperienza live](/help/creative/experiences/experience-tag-export.md)
-   + [Condividere un URL demo per un’esperienza](/help/creative/experiences/experience-share-demo-url.md)
-   + [Scarica dati dalla visualizzazione [!UICONTROL Experiences]](/help/creative/experiences/experience-download-view.md)
-   + [Rinominare un tag annuncio](/help/creative/experiences/experience-tag-rename.md)
-   + [Visualizzare il registro delle modifiche per un’esperienza](/help/creative/experiences/experience-view-change-log.md)
-   + [Eliminare un’esperienza](/help/creative/experiences/experience-delete.md)
+  + [Informazioni sulle esperienze in Advertising Creative](/help/creative/experiences/experience-about.md)
+  + Esperienze con il targeting {#experience-targeted}
+    + [Layout dell’albero delle decisioni](/help/creative/experiences/experience-decision-tree.md)
+    + [Creare un’esperienza con il targeting](/help/creative/experiences/experience-create-targeting.md)
+    + [Modificare un’esperienza con il targeting](/help/creative/experiences/experience-edit-targeting.md)
+    + [Impostazioni delle esperienze mirate](/help/creative/experiences/experience-settings-targeting.md)
+    + Attività secondarie per la creazione e la modifica di esperienze {#subtasks}
+      + Nodi di destinazione {#nodes}
+        + [Aggiungere un nodo di destinazione al livello finale](/help/creative/experiences/experience-target-node-add-final.md)
+        + [Inserire un nodo di destinazione tra i nodi](/help/creative/experiences/experience-target-node-add-inner.md)
+        + [Aggiungi un nodo di destinazione di pari livello](/help/creative/experiences/experience-target-node-add-sibling.md)
+        + [Copiare nodi secondari in un altro nodo allo stesso livello](/help/creative/experiences/experience-target-node-copy.md)
+        + [Eliminare un nodo di destinazione o un nodo foglia creativo](/help/creative/experiences/experience-target-node-delete.md)
+      + Pacchetti e creatività Creative {#bundles}
+        + [Assegnare e annullare l’assegnazione di bundle creativi a un nodo finale](/help/creative/experiences/experience-assign-creative-bundles.md)
+        + [Personalizzare l&#39;ottimizzazione creativa e la pianificazione](/help/creative/experiences/experience-optimization-scheduling-targeting.md)
+        + [Personalizzare gli URL di tracciamento per i creativi](/help/creative/experiences/experience-tracking-urls-targeting.md)
+  + Esperienze senza targeting {#experience-nontargeted}
+    + [Creare un’esperienza senza targeting](/help/creative/experiences/experience-create-no-targeting.md)
+    + [Modificare un’esperienza senza targeting](/help/creative/experiences/experience-edit-no-targeting.md)
+    + [Impostazioni delle esperienze non mirate](/help/creative/experiences/experience-settings-no-targeting.md)
+    + Tag annuncio e creatività{#non-targeted-creatives}
+      + [Creare manualmente un tag annuncio per una dimensione creativa applicabile](/help/creative/experiences/experience-tag-create-manually.md)
+      + [Assegnare dei creativi a un tag annuncio per le esperienze senza targeting](/help/creative/experiences/experience-tag-assign-creatives.md)
+      + [Personalizza l’ottimizzazione creativa e la pianificazione di un’esperienza senza targeting](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)
+      + [Personalizzare gli URL di tracciamento per un’esperienza senza targeting](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
+  + [Clonare un’esperienza](/help/creative/experiences/experience-clone.md)
+  + [Visualizzare l’anteprima di un’esperienza](/help/creative/experiences/experience-preview.md)
+  + [Personalizzare le opzioni di transcodifica per un tag esperienza annuncio video](/help/creative/experiences/experience-tag-video-transcoding.md)
+  + [Esportare e implementare un tag di esperienza annuncio per un’esperienza live](/help/creative/experiences/experience-tag-export.md)
+  + [Condividere un URL demo per un’esperienza](/help/creative/experiences/experience-share-demo-url.md)
+  + [Scarica dati dalla visualizzazione [!UICONTROL Experiences]](/help/creative/experiences/experience-download-view.md)
+  + [Rinominare un tag annuncio](/help/creative/experiences/experience-tag-rename.md)
+  + [Visualizzare il registro delle modifiche per un’esperienza](/help/creative/experiences/experience-view-change-log.md)
+  + [Eliminare un’esperienza](/help/creative/experiences/experience-delete.md)
 + [Gestire i profili brand](/help/creative/brands/brand-manage.md)
 + Feed {#feeds}
-   + [Gestire i file di risorse](/help/creative/feeds/asset-manage.md)
-   + [Gestire i modelli di feed](/help/creative/feeds/feed-template-manage.md)
-   + [Gestione cataloghi](/help/creative/feeds/catalog-manage.md)
-   + [Tracciare lo stato dei processi di elaborazione del catalogo](/help/creative/feeds/job-status-track.md)
+  + [Gestire i file di risorse](/help/creative/feeds/asset-manage.md)
+  + [Gestire i modelli di feed](/help/creative/feeds/feed-template-manage.md)
+  + [Gestione cataloghi](/help/creative/feeds/catalog-manage.md)
+  + [Tracciare lo stato dei processi di elaborazione del catalogo](/help/creative/feeds/job-status-track.md)
 + [Gestire i modelli di annunci dinamici](/help/creative/ad-templates/ad-template-manage.md)
 + [Appendice: campi disponibili per i file di feed di annunci dinamici](/help/creative/appendix-available-feed-fields.md)
 + Rapporti sulle prestazioni {#reports}
-   + [Rapporti sulle prestazioni a livello di esperienza](/help/creative/experiences/experience-performance-details.md)
-   + [Visualizza avvisi](/help/creative/reports/alerts-view.md)
-   + [Rapporti personalizzati]{#custom-reports}
-      + [Informazioni sui rapporti personalizzati](/help/creative/reports/reports-about.md)
-      + [Gestire i rapporti personalizzati](/help/creative/reports/report-manage.md)
+  + [Rapporti sulle prestazioni a livello di esperienza](/help/creative/experiences/experience-performance-details.md)
+  + [Visualizza avvisi](/help/creative/reports/alerts-view.md)
+  + [Rapporti personalizzati]{#custom-reports}
+    + [Informazioni sui rapporti personalizzati](/help/creative/reports/reports-about.md)
+    + [Gestire i rapporti personalizzati](/help/creative/reports/report-manage.md)
 + [Pixel di retargeting](/help/creative/pixels/retargeting-pixel-manage.md)
 + [Macro disponibili per il tracciamento degli URL](/help/creative/creative-macros.md)
 + [Ottieni aiuto](/help/creative/get-help.md)
