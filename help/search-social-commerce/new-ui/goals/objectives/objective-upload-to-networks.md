@@ -3,9 +3,9 @@ title: (Nuova interfaccia utente) Abilita il caricamento degli obiettivi nelle r
 description: Scopri come caricare gli obiettivi per i portfolio ibridi in Google Ads e Microsoft Advertising.
 feature: Search Objectives, Search Optimization
 hide: true
-source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
+source-git-commit: 4342b75f27a412803b0f96192e96cba9ebfbc347
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 *Inserzionisti abilitati solo per l&#39;ottimizzazione ibrida*
 
-Search, Social e Commerce possono caricare gli obiettivi per i portfolio di un account inserzionista in [!DNL Google Ads] e [!DNL Microsoft Advertising] in modo da poterli utilizzare per l&#39;ottimizzazione ibrida. Gli obiettivi caricati sono disponibili come azioni di conversione per gli obiettivi di conversione personalizzati a livello di account e di campagna.
+Search, Social e Commerce possono caricare gli obiettivi per i portfolio di un account inserzionista in [!DNL Google Ads] e [!DNL Microsoft Advertising] in modo da poterli utilizzare per l&#39;ottimizzazione ibrida. Gli obiettivi caricati sono disponibili come azioni di conversione per gli obiettivi di conversione personalizzati a livello di account e di campagna. È possibile scegliere di non inviare i dati del valore obiettivo per un portfolio specifico alle reti di annunci dalla scheda [!UICONTROL Manage Objectives] nelle impostazioni del portfolio.
 
 L’abilitazione di questa opzione attiva automaticamente un caricamento per gli obiettivi nei portfolio che contengono campagne con strategie di offerta intelligenti. Search, Social e Commerce creano una conversione sulla rete di annunci per ogni obiettivo applicabile. La conversione rappresenta tutte le metriche di conversione ponderate nell’obiettivo a livello di ID EF (click ID). Per [!DNL Google Ads] clic, l&#39;ID EF è [!DNL Google Ads] `gclid`; per [!DNL Microsoft Advertising] clic, l&#39;ID EF è [!DNL Microsoft Advertising] `msclkid`. A causa di questo ID clic, i dati di conversione possono essere mappati sulla parola chiave specifica e sul tempo di clic.
 
@@ -40,7 +40,7 @@ I caricamenti in [!DNL Google Ads] e [!DNL Microsoft Advertising] si verificano 
 
 1. Nella finestra di dialogo [!UICONTROL Objective Upload Setup], imposta l&#39;interruttore **[!UICONTROL Enable Objective Upload]** su **[!UICONTROL On]**.
 
-1. (Inserzionisti con account [!DNL Google Ads] che svolgono attività commerciali nello Spazio economico europeo (SEE) o nel Regno Unito (UK); facoltativo) Se hai raccolto il consenso degli utenti di EEA e UK a caricare i loro dati a scopo pubblicitario, seleziona la casella di controllo per confermare che i consensi degli utenti di EEA e UK sono stati raccolti. Questo invia lo stato del consenso come **[!UICONTROL GRANTED]** a [!DNL Google Ads] e [!DNL Microsoft Advertising]. Se non è selezionata, lo stato del consenso viene inviato come **[!UICONTROL UNSPECIFIED]**.
+1. (Inserzionisti con account [!DNL Google Ads] che svolgono attività commerciali nello Spazio economico europeo (SEE) o nel Regno Unito (UK); facoltativo) Se hai raccolto il consenso degli utenti di EEA e UK a caricare i loro dati a scopo pubblicitario, seleziona la casella. Questo invia lo stato del consenso come **[!UICONTROL GRANTED]** a [!DNL Google Ads] e [!DNL Microsoft Advertising]. Se non selezioni la casella di controllo, lo stato del consenso viene inviato come **[!UICONTROL UNSPECIFIED]**.
 
 1. (Se le conversioni vengono tracciate a livello di account manager) [Aggiungi le credenziali per l&#39;account manager](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md) prima di salvare.
 
@@ -54,7 +54,7 @@ I caricamenti in [!DNL Google Ads] e [!DNL Microsoft Advertising] si verificano 
 
 ## Modalità di calcolo dell&#39;obiettivo ponderato
 
-L&#39;obiettivo ponderato passato alla rete di annunci è la somma di tutti i valori delle metriche raccolti, ad eccezione delle conversioni tracciate da [!DNL Google Ads] o dal tag UET (Universal Event Tracking) di [!DNL Microsoft Advertising]. Il valore viene calcolato utilizzando il metodo di attribuzione impostato per l’account Search, Social e Commerce dell’inserzionista.
+L&#39;obiettivo ponderato passato alla rete di annunci è la somma di tutti i valori delle metriche raccolte, escluse le conversioni tracciate da [!DNL Google Ads] o dal tag UET (Universal Event Tracking) di [!DNL Microsoft Advertising]. Il valore viene calcolato utilizzando il metodo di attribuzione impostato per l’account Search, Social e Commerce dell’inserzionista.
 
 Ad esempio, supponiamo che la metrica di obiettivo dell’obiettivo sia Aggiunte al carrello con un peso di 25, e che le metriche di assistenza includano GGL_Lead e Revenue con un peso di 1 e Downloads con un peso di 0,5.
 
@@ -67,7 +67,7 @@ Supponiamo che una parola chiave abbia prodotto le seguenti azioni per il portfo
 * 50 download
 * 5 GGL_Lead
 
-GGL_Lead non è incluso nel calcolo/caricamento perché è una metrica tracciata da Google Ads. Pertanto il valore obiettivo ponderato è calcolato come [(10 x 25) + (500 x 1) + (50 x 0,5)] = 775.
+GGL_Lead non è incluso nel calcolo/caricamento perché è una metrica tracciata [!DNL Google Ads]. Pertanto il valore obiettivo ponderato è calcolato come [(10 x 25) + (500 x 1) + (50 x 0,5)] = 775.
 
 >[!TIP]
 >
@@ -79,9 +79,9 @@ Se l&#39;obiettivo, denominato `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_a
 
 * ([!DNL Google Ads]) Verificare se le conversioni devono essere caricate a livello di account o manager. Se devono essere caricati a livello di manager:
 
-   * Verificare se sono state fornite le credenziali per l&#39;account manager [!DNL Google Ads]. Se necessario, [aggiungi le credenziali per l&#39;account manager](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md).
+  * Verificare se sono state fornite le credenziali per l&#39;account manager [!DNL Google Ads]. Se necessario, [aggiungi le credenziali per l&#39;account manager](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md).
 
-   * Verifica se l’account di rete dell’annuncio include già lo stesso nome di metrica. In caso contrario, rinomina la metrica in modo da poter creare la proprietà corretta a livello di manager.
+  * Verifica se l’account di rete dell’annuncio include già lo stesso nome di metrica. In caso contrario, rinomina la metrica in modo da poter creare la proprietà corretta a livello di manager.
 
 * Verifica che sia selezionata l’opzione &quot;ibrida&quot; del portfolio e che l’obiettivo abbia ricavi validi.
 

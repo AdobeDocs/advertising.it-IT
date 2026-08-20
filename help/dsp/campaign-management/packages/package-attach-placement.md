@@ -12,7 +12,7 @@ subfeature_v2:
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: ee8a01e002bda7042e2c04f362ea9ba0276bdc69
 workflow-type: tm+mt
 source-wordcount: 209
 ht-degree: 0%
@@ -45,11 +45,11 @@ ht-degree: 0%
 
    * Per creare un nuovo posizionamento:
 
-      1. Fare clic su **[!UICONTROL Create New Placement]**.
+     1. Fare clic su **[!UICONTROL Create New Placement]**.
 
-      1. Selezionare il tipo di annuncio per il posizionamento, quindi fare clic su **[!UICONTROL Build this placement]**.
+     1. Selezionare il tipo di annuncio per il posizionamento, quindi fare clic su **[!UICONTROL Build this placement]**.
 
-      1. Immettere le [impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md), quindi fare clic su **[!UICONTROL Create Placement]**.
+     1. Immettere le [impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md), quindi fare clic su **[!UICONTROL Create Placement]**.
 
    * Per allegare un posizionamento esistente nella campagna:
 
@@ -57,13 +57,13 @@ ht-degree: 0%
      >
      >Ogni posizionamento può essere in un solo pacchetto. Vengono elencati solo i posizionamenti che non sono già inclusi in un pacchetto.
 
-      1. Fare clic su **[!UICONTROL Select a Placement].**
+     1. Fare clic su **[!UICONTROL Select a Placement].**
 
-      1. Accanto al nome del posizionamento, fare clic su **[!UICONTROL Select].**
+     1. Accanto al nome del posizionamento, fare clic su **[!UICONTROL Select].**
 
-      1. (Facoltativo) Per ogni posizionamento aggiuntivo che si desidera allegare, fare clic su **[!UICONTROL Attach Another Placement]** e quindi ripetere i passaggi 1-2.
+     1. (Facoltativo) Per ogni posizionamento aggiuntivo che si desidera allegare, fare clic su **[!UICONTROL Attach Another Placement]** e quindi ripetere i passaggi 1-2.
 
-      1. Fare clic su **[!UICONTROL I'm done for now]**.
+     1. Fare clic su **[!UICONTROL I'm done for now]**.
 
 >[!MORELIKETHIS]
 >
