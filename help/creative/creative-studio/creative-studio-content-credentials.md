@@ -60,7 +60,7 @@ Per visualizzare la cronologia completa delle risorse di un&#39;immagine:
 
 ## Risorse aggiuntive
 
-* [Trasparenza del contenuto di IA generativa per  [!DNL Adobe CX Enterprise]](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
+* [Trasparenza del contenuto di IA generativa per  [!DNL Adobe CX Enterprise]](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
 
 * [[!DNL Adobe] linee guida utente di IA generativa](https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
 
