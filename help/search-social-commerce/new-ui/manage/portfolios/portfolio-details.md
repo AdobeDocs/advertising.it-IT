@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: eb5c453b9892940811e3ec95d5dac4bf0fffbcb6
+source-git-commit: 1a49038dc4f679993eaf908ecbed291324075bc3
 workflow-type: tm+mt
-source-wordcount: 738
+source-wordcount: 814
 ht-degree: 0%
 
 ---
@@ -95,13 +95,21 @@ La visualizzazione dei dettagli del portfolio include le seguenti informazioni s
 
 ## Elencare le campagne nel portfolio
 
+I dettagli di ciascuna campagna includono la strategia di offerta, il costo effettivo e previsto, i clic e il valore obiettivo, nonché la precisione di costo, clic e valore obiettivo.
+
 * Fare clic sulla scheda **[!UICONTROL Campaigns]**.
 
 ## Elencare i gruppi di annunci nel portfolio
 
+I dettagli su ciascun gruppo di annunci includono il costo, i clic e il valore obiettivo.
+
+* Per visualizzare tutti i gruppi di annunci nel portfolio, fare clic sulla scheda **[!UICONTROL Ad Groups]**.
+
 * Per visualizzare tutti i gruppi di annunci di una campagna all&#39;interno del portfolio, fare clic sulla scheda **[!UICONTROL Campaigns]** e quindi sul nome della campagna.
 
 ## Elencare le parole chiave nel portfolio
+
+I dettagli di ciascuna parola chiave includono l&#39;ID dell&#39;unità di offerta, il tipo di corrispondenza, il costo effettivo e previsto, i clic e il valore obiettivo, nonché la differenza tra costo, clic e valore obiettivo.
 
 * Per visualizzare tutte le parole chiave nel portfolio, fare clic sulla scheda **[!UICONTROL Keywords]**.
 
