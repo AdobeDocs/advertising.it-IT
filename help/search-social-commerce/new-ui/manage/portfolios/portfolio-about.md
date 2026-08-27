@@ -14,9 +14,9 @@ topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
 workflow-type: tm+mt
-source-wordcount: 729
+source-wordcount: 779
 ht-degree: 0%
 
 ---
@@ -66,9 +66,10 @@ Un portfolio può avere i seguenti stati:
 
 Nella visualizzazione [!UICONTROL Portfolios] sono elencati tutti i portfolio esistenti nella visualizzazione filtrata, con dati delle prestazioni personalizzabili. Puoi [personalizzare le colonne all&#39;interno della visualizzazione](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) e filtrare i dati per includere portfolio specifici [dalla barra degli strumenti](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) o dall&#39;[intestazione di colonna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
-Sopra la tabella di dati, puoi aprire un grafico delle prestazioni con un massimo di tre metriche calcolate su tutti i portfolio nella vista per l’intervallo di date specificato.
+Sopra la tabella di dati, puoi aprire un grafico delle prestazioni con un massimo di tre metriche calcolate su tutti i portfolio nella vista per l’intervallo di date specificato. Puoi anche aprire i dettagli del portfolio, incluse le prestazioni e la precisione, nonché i dati sulle prestazioni per ogni campagna, gruppo di annunci e parola chiave nel portfolio.
 
-<!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group, edit the Target column, or import/export DOW targets. -->
+Puoi modificare alcune impostazioni, tra cui lo stato del portfolio, direttamente all’interno della riga portfolio.
+<!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group,  or import/export DOW targets. -->
 
 ### Azioni disponibili
 
