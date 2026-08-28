@@ -29,15 +29,15 @@ ht-degree: 0%
 
 * (Inserzionisti con Customer Journey Analytics ma non [!DNL Analytics for Advertising]):
 
-  * [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) versione 2.36 o successiva.
+  * [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it) versione 2.36 o successiva.
 
-  * [Tag Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home), inclusa l&#39;[[!DNL Web SDK] estensione](https://experienceleague.adobe.com/en/docs/platform-learn/implement-web-sdk/tags-configuration/install-web-sdk#add-the-web-sdk-extension) versione 2.37 o successiva.
+  * [Tag Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/tags/home), inclusa l&#39;[[!DNL Web SDK] estensione](https://experienceleague.adobe.com/it/docs/platform-learn/implement-web-sdk/tags-configuration/install-web-sdk#add-the-web-sdk-extension) versione 2.37 o successiva.
 
 * Adobe Customer Journey Analytics con accesso agli strumenti di gestione dei dati
 
   Per impostare una connessione al set di dati e configurare la generazione rapporti è necessario il supporto dell’analista web interno.
 
-* (Inserzionisti senza [!DNL Analytics for Advertising]) Tecnologie di gestione e modellazione dati di Adobe Experience Platform (inclusi [schemi](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) e [set di dati](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)) e [tecnologie di raccolta dati](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home) (inclusi [flussi di dati](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview) e [tag](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home))
+* (Inserzionisti senza [!DNL Analytics for Advertising]) Tecnologie di gestione e modellazione dati di Adobe Experience Platform (inclusi [schemi](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/home) e [set di dati](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/overview)) e [tecnologie di raccolta dati](https://experienceleague.adobe.com/it/docs/experience-platform/collection/home) (inclusi [flussi di dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/overview) e [tag](https://experienceleague.adobe.com/it/docs/experience-platform/tags/home))
 
   Queste tecnologie richiedono il supporto dell’amministratore del sito Experience Platform.
 
