@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
+source-git-commit: 3d00ae98ac784080e05fb4260919558e09607ac3
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: 433
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Un bulksheet portfolio è un file che contiene le impostazioni del portfolio in 
 * Foglio di lavoro [!UICONTROL Instructions] di sola lettura con informazioni sulla modifica dei campi.
 
 * Una scheda [!UICONTROL Portfolio Settings Edit], con una riga per portfolio incluso. Se necessario, puoi modificare i campi, salvare il file localmente e successivamente [caricare il file modificato](#portfolio-bulksheet-upload) in Search, Social e Commerce. I campi modificabili vengono evidenziati a colori.
+
+Questa funzione è disponibile per i portfolio con le seguenti strategie di spesa: Giornaliera, Settimanale, Mensile e Giorno della settimana.
 
 ## Scaricare un file bulksheet con le impostazioni del portfolio
 
@@ -47,7 +49,7 @@ Un bulksheet portfolio è un file che contiene le impostazioni del portfolio in 
 
 ## Carica un file di bulksheet con le impostazioni di portfolio aggiornate {#portfolio-bulksheet-upload}
 
-Il file deve essere in formato XLSX.
+Il file deve essere in formato XLSX, la dimensione deve essere compresa tra 1 KB e 1 MB e la lunghezza massima del nome file è di 100 caratteri.
 
 1. Nella barra degli strumenti sopra la tabella dati, fai clic su ![Operazioni in blocco](/help/search-social-commerce/assets/chevron-down.png "Operazioni in blocco") > **[!UICONTROL Import Portfolio Details]**.
 
