@@ -2,9 +2,9 @@
 title: Informazioni sui report speciali
 description: Scopri i rapporti speciali.
 feature: Search Reports, Search Specialty Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: b5fadff06a523e2b1b248c2d262cbd6cd03669c3
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ La maggior parte dei rapporti speciali è costituita solo da dati raccolti dalle
 
 >[!NOTE]
 >
->Per la maggior parte dei rapporti speciali, i dati vengono estratti per il giorno precedente alle 23:00 (23:00) ogni giorno. Ad esempio, alla 23:00 del 18 giugno, estrae i dati per il 17 giugno. Se esegui il rapporto il 19 giugno alle 09:00, prima che i dati per il 18 giugno vengano estratti, il rapporto includerà i dati fino al 17 giugno alle 23:00. Questa sincronizzazione dei dati si applica a tutti i report speciali [!DNL Google Ads] e a [!UICONTROL Bing Ads Geo Report] e [!UICONTROL Bing Ads Search Query Report].
+>Per la maggior parte dei rapporti speciali, i dati vengono estratti il giorno precedente alle 23:00 (23:00) ogni giorno. Ad esempio, alle 23:00 del 18 giugno, estrae i dati per il 17 giugno. Se esegui il rapporto il 19 giugno alle 09:00, prima che i dati per il 18 giugno vengano estratti, il rapporto includerà i dati fino al 17 giugno alle 23:00. Questa sincronizzazione dei dati si applica a tutti i report speciali [!DNL Google Ads] e a [!UICONTROL Bing Ads Geo Report] e [!UICONTROL Bing Ads Search Query Report].
 
 ## Tipi di report speciali
 
@@ -34,6 +34,12 @@ La maggior parte dei rapporti speciali è costituita solo da dati raccolti dalle
 * [[!UICONTROL Bing Ads Search Query Report]](bing-ads-search-query-report.md)
 
 * [[!UICONTROL Campaign Daily Impression Share Report]](campaign-daily-impression-share-report.md)
+
+* [[!UICONTROL Google AI Max Search Term Combination Report]](google-ai-max-search-term-combination-report.md)
+
+* [[!UICONTROL Google Asset Group Performance Report]](google-asset-group-performance-report.md)
+
+* [[!UICONTROL Google Performance Max Placement Report]](google-performance-max-placement-report.md)
 
 * [[!UICONTROL Keyword Daily Impression Share Report]](keyword-daily-impression-share-report.md)
 
