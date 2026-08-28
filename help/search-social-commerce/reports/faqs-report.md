@@ -4,19 +4,12 @@ description: Scopri le risposte alle domande comuni sui rapporti sulle prestazio
 exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
 TQID: https://experienceleague.adobe.com/2pGYTNuu54grOLUSyVpfQVttGWG8OMPCUrzAYmyIv0k
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3d00ae98ac784080e05fb4260919558e09607ac3
 workflow-type: tm+mt
-source-wordcount: 3922
+source-wordcount: 3975
 ht-degree: 0%
 
 ---
@@ -60,7 +53,7 @@ Puoi vedere quali conversioni sono risultate da un clic su un&#39;estensione del
 
 +++
 
-+++La colonna &quot;[!UICONTROL Keyword]&quot; nel report include un valore &quot;(contenuto adgroup) &lt;*nome gruppo di annunci*>.&quot;
++++La colonna &quot;[!UICONTROL Keyword]&quot; nel report include un valore &quot;(contenuto adgroup) &lt;*nome gruppo annunci*>.&quot;
 Quando la riga include dati per campagne di ricerca abilitate per il contenuto, campagne di visualizzazione o campagne social, che non includono parole chiave, la colonna [!UICONTROL Keyword] mostra invece il nome del gruppo di annunci applicabile.
 +++
 
@@ -133,12 +126,12 @@ Di seguito sono riportati i motivi comuni della mancanza di dati di clic.
 
 | Causa | Rilevamento/analisi | Risoluzione |
 |---|---|---|
-| Il processo che recupera i dati di clic dall’account dell’annuncio non è riuscito. | Non esiste un modo sistematico per rilevare questo problema, ma puoi notare che una campagna non mostra informazioni sui costi o sui clic, anche se l’account dell’annuncio ha speso denaro. | Contatta il team del tuo account Adobe.<br><br>Se i dati mancano per più di 24 ore, escludere tali date dalle previsioni di costo fino al recupero dei dati. Il team del tuo account Adobe può escludere le date. |
+| Il processo che recupera i dati di clic dall’account dell’annuncio non è riuscito. | Non esiste un modo sistematico per rilevare questo problema, ma puoi notare che una campagna non mostra informazioni sui costi o sui clic, anche se l’account dell’annuncio ha speso denaro. | Contatta il team dell&#39;account Adobe.<br><br>Se i dati mancano da più di 24 ore, escludi tali date dalle previsioni di costo fino al recupero dei dati. Il team del tuo account Adobe può escludere le date. |
 | Un problema di fatturazione tra l’inserzionista e la rete di annunci impedisce all’account dell’annuncio di spendere. | Non esiste un modo sistematico per rilevare questo problema, ma potresti notare che una campagna non mostra alcun costo o informazioni sui clic. | Se sai che un account dell’annuncio non è stato in grado di spendere a causa di un problema di fatturazione, escludi tali date dalle previsioni di costo. Il team del tuo account Adobe può escludere le date. |
 
 +++
 
-+++I dati sulle prestazioni sono diversi dai dati nell’editor della rete di annunci.
++++I dati sulle prestazioni sono diversi dai dati presenti nell’editor della rete di annunci.
 Quando la rete di annunci invia aggiornamenti ai dati precedenti (spesso perché hanno attribuito la frode dei clic ad alcuni clic), Search, Social e Commerce non aggiornano i dati a meno che non vi sia una discrepanza superiore al 5% e l’Account Team di Adobe non file una richiesta.
 
 Inoltre, quando confronti i dati di condivisione delle impression aggregati in un intervallo di date, i dati riportati dai rapporti di Search, Social e Commerce possono differire da quelli riportati dalla rete di annunci. Questa differenza è dovuta al modo in cui i dati vengono segnalati dall’API dell’ad network, utilizzata da Search, Social e Commerce per richiamare i dati. Ad esempio, per i dati [!DNL Google Ads]:
@@ -305,7 +298,7 @@ Consulta le possibili cause e soluzioni per le implementazioni pixel di cui sopr
 +++
 
 +++I dati sui ricavi sono diversi dai dati in Adobe Analytics
-Vedi [https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=it](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=it).<!-- change link URL to relative link -->
+Vedi [https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html).<!-- change link URL to relative link -->
 +++
 
 ## Rapporti specifici
@@ -349,7 +342,7 @@ Per risolvere il problema, aggiorna il feed del foglio di calcolo in modo da inc
 +++
 
 +++Quando si tenta di aprire un feed di foglio di calcolo in [!DNL Excel], [!DNL Excel] segnala un errore di tipo &quot;contenuto illeggibile&quot; e i dati vengono rimossi dal contenuto recuperato.
-Se il modello [!DNL Microsoft Excel] non ordina i dati in base alla data di inizio in ordine crescente, il feed del foglio di calcolo potrebbe includere righe vuote. In particolare, [!DNL Excel] segnala l&#39;errore &quot;Excel ha trovato contenuto illeggibile in &quot;&lt;*nome report*>.xlsx.&quot; Ripristinare il contenuto della cartella di lavoro? Se si considera attendibile l&#39;origine della cartella di lavoro, fare clic su sì.&quot; Se si fa clic su &quot;Sì&quot;, viene visualizzato il seguente messaggio: &quot;Record rimossi: informazioni sulle celle dalla parte /xl/worksheets/sheet1.xml&quot; e il feed del foglio di calcolo include righe vuote.
+Se il modello [!DNL Microsoft Excel] non ordina i dati in base alla data di inizio in ordine crescente, il feed del foglio di calcolo potrebbe includere righe vuote. In particolare, [!DNL Excel] segnala l&#39;errore &quot;Excel ha trovato contenuto illeggibile in &#39;&lt;*nome report*>.xlsx.&#39; Ripristinare il contenuto della cartella di lavoro? Se si considera attendibile l&#39;origine della cartella di lavoro, fare clic su sì.&quot; Se si fa clic su &quot;Sì&quot;, viene visualizzato il seguente messaggio: &quot;Record rimossi: informazioni sulle celle dalla parte /xl/worksheets/sheet1.xml&quot; e il feed del foglio di calcolo include righe vuote.
 
 Per risolvere il problema, modificare il modello [!DNL Excel] associato al feed in modo da ordinare i dati in base a [!DNL Start date in Ascending (Oldest to Newest) order], quindi caricare il modello aggiornato tramite le impostazioni del feed del foglio di calcolo. Per ulteriori informazioni, vedere &quot;[Modifica feed report foglio di calcolo](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
 +++

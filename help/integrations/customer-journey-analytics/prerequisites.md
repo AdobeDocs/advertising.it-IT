@@ -4,21 +4,13 @@ description: Prerequisiti per l’integrazione di Adobe Advertising con Customer
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 4bd14178-5003-4da6-9034-d070c57f0e9b
 TQID: https://experienceleague.adobe.com/I86BXjKORkYZIBn9EqPy3eWPJZi27n5STWcXUtp9gwo
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 3a493b159d0cb6a1216f6d795e33a2173cfd9e1b
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: d3cdead0-685a-4489-9250-4bb709942f66id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: d2b474e24ef2dbf951ea40c42497f6d6d37993ee
 workflow-type: tm+mt
-source-wordcount: 283
+source-wordcount: 321
 ht-degree: 0%
 
 ---
@@ -27,14 +19,17 @@ ht-degree: 0%
 
 *Inserzionisti con Advertising DSP e[!DNL Advertising Search, Social, & Commerce]*
 
+* (Inserzionisti con Customer Journey Analytics ma non [!DNL Analytics for Advertising]):
 
-* (Inserzionisti con Customer Journey Analytics ma non [!DNL Analytics for Advertising]) [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it) Versione 2.36 o successiva.
+  * [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) versione 2.36 o successiva.
+
+  * [Tag Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home), inclusa l&#39;[[!DNL Web SDK] estensione](https://experienceleague.adobe.com/en/docs/platform-learn/implement-web-sdk/tags-configuration/install-web-sdk#add-the-web-sdk-extension) versione 2.37 o successiva.
 
 * Adobe Customer Journey Analytics con accesso agli strumenti di gestione dei dati
 
   Per impostare una connessione al set di dati e configurare la generazione rapporti è necessario il supporto dell’analista web interno.
 
-* (Inserzionisti senza [!DNL Analytics for Advertising]) Tecnologie di gestione e modellazione dati di Adobe Experience Platform (inclusi [schemi](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/home) e [set di dati](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/overview)) e [tecnologie di raccolta dati](https://experienceleague.adobe.com/it/docs/experience-platform/collection/home) (inclusi [flussi di dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/overview) e [tag](https://experienceleague.adobe.com/it/docs/experience-platform/tags/home))
+* (Inserzionisti senza [!DNL Analytics for Advertising]) Tecnologie di gestione e modellazione dati di Adobe Experience Platform (inclusi [schemi](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) e [set di dati](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)) e [tecnologie di raccolta dati](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home) (inclusi [flussi di dati](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview) e [tag](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home))
 
   Queste tecnologie richiedono il supporto dell’amministratore del sito Experience Platform.
 
