@@ -4,13 +4,11 @@ user-guide-description: Scopri le integrazioni di Advertising DSP e Advertising 
 breadcrumb-title: Integrazioni con CX Enterprise
 role: User, Developer
 index: true
-source-git-commit: de60dcf0a1f0e5d751fb4e85a6e64bca22fadc8b
+source-git-commit: 49214a600892e2c3c6aa323c9c50f2862a92c7b0
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '267'
 ht-degree: 1%
-
 ---
-
 
 # Integrazioni Adobe Advertising con Adobe CX Enterprise {#integrations}
 
@@ -54,7 +52,4 @@ ht-degree: 1%
   + [Impostare la raccolta dati, il trasferimento dati e il reporting](/help/integrations/customer-journey-analytics/set-up.md)
   + [Metriche e dimensioni di Adobe Advertising in Customer Journey Analytics](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
   + [Risoluzione dei problemi](/help/integrations/customer-journey-analytics/troubleshooting.md)
-  + {hide-from-toc}[Risoluzione dei problemi](/help/integrations/customer-journey-analytics/troubleshooting-new.md)
-  + {hide-from-toc}[Risoluzione dei problemi](/help/integrations/customer-journey-analytics/troubleshooting-new-accordian.md)
-  + {hide-from-toc}[Risoluzione dei problemi](/help/integrations/customer-journey-analytics/troubleshooting-new-tables.md)
-+ [Tutorial video sulle integrazioni Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=it)
++ [Tutorial video sulle integrazioni Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)
