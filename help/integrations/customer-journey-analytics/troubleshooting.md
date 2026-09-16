@@ -75,7 +75,7 @@ Di seguito sono riportati i potenziali problemi, le loro possibili cause e le so
 | ----- | --- |
 | Libreria non pubblicata o in stato di bozza | Vai a [Flusso di pubblicazione](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow) e assicurati che la libreria che contiene l&#39;estensione WebSDK sia nello stato approvato/pubblicato. |
 | Codice di incorporamento mancante o ambiente errato | Verificare che il [[!DNL Tags] codice di incorporamento](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments/environments) nella pagina Web faccia riferimento all&#39;ambiente corretto (Dev/Stage/Prod). Cercare l&#39;ambiente nel tag `<head>` per il tag di script `//assets.adobedtm.com/...`. |
-| Conflitto tra carico asincrono e carico sincrono | Assicurarsi che sia presente un solo codice di incorporamento [[!DNL Tags] ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments/environments) per pagina Web. I codici di incorporamento duplicati causano race condition. |
+| Conflitto tra carico asincrono e carico sincrono | Assicurarsi che sia presente un solo codice di incorporamento [[!DNL Tags] &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments/environments) per pagina Web. I codici di incorporamento duplicati causano race condition. |
 | Blocco di Content Security Policy (CSP) | Aggiungi `edge.adobedc.net` `and assets.adobedtm.com` ai [CSP `connect-src` e `script-src` direttive](https://experienceleague.adobe.com/en/docs/experience-platform/collection/use-cases/configuring-a-csp). |
 
 ### Stream di dati non configurato o non configurato correttamente {#datastream-not-configured-or-misconfigured}
@@ -143,7 +143,7 @@ Prima di aprire un ticket di supporto per [!UICONTROL Advertising] problemi di c
 | I cookie di terze parti sono bloccati. | Esegui la migrazione alla raccolta dati CNAME di prime parti [configurando un ID cookie di prime parti nella configurazione Edge Network del flusso di dati](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure). |
 | `idMigrationEnabled` è impostato su `false` mentre è presente un cookie `s_ecid` legacy. | [Imposta `idMigrationEnabled: true` nella configurazione di base di WebSDK](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/identity) per migrare l&#39;ECID esistente dai cookie `s_ecid` o `AMCV_`. |
 
-### Le regole o gli eventi non attivano {#rules-or-events-don&#39;t-fire}
+### Le regole o gli eventi non attivano #rules-or-events-don&#39;t-fire
 
 #### Problemi:
 
