@@ -6,17 +6,18 @@ breadcrumb-title: Guida di Advertising Search, Social e Commerce
 index: true
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 730b474b83ae4df47c18f93adfec62b1dc9b8a16
+    internal-label: User
+source-git-commit: 19e8de1ab13ab8a5451702e6130219277cf09631
 workflow-type: tm+mt
-source-wordcount: 2396
+source-wordcount: '2396'
 ht-degree: 2%
-
 ---
-
 # Guida di Advertising Search, Social e Commerce {#search-social-commerce}
 
 + [Novità](home.md)
@@ -121,7 +122,7 @@ ht-degree: 2%
       + Impostazioni di Campaign per rete di annunci {#campaign-settings-by-network}
         + [[!DNL Baidu] impostazioni campagna](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)
         + [[!DNL Google Ads] impostazioni campagna](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)
-        + [[!DNL LY Ads] impostazioni campagna](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yahoo-japan.md)
+        + [[!DNL LY Ads] impostazioni campagna](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
         + [[!DNL Microsoft Advertising] impostazioni campagna](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)
         + [[!DNL Yandex] impostazioni campagna](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)
     + Gruppi di annunci {#ad-groups}
@@ -129,7 +130,7 @@ ht-degree: 2%
       + Impostazioni gruppo di annunci per rete di annunci {#ad-group-settings-by-network}
         + [Impostazioni gruppo di annunci [!DNL Baidu]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)
         + [Impostazioni gruppo di annunci [!DNL Google Ads]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)
-        + [Impostazioni gruppo di annunci [!DNL LY Ads]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yahoo-japan.md)
+        + [Impostazioni gruppo di annunci [!DNL LY Ads]](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
         + [Impostazioni gruppo di annunci [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)
         + [Impostazioni gruppo di annunci [!DNL Yandex]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md)
     + Annunci {#ads}

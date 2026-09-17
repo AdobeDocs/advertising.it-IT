@@ -3,13 +3,11 @@ title: (Nuova interfaccia) Rinominare un gruppo di annunci
 description: Scopri come rinominare un gruppo di annunci senza aprirne le impostazioni.
 feature: Search Campaign Management
 hide: true
-source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
+source-git-commit: 19e8de1ab13ab8a5451702e6130219277cf09631
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '63'
 ht-degree: 0%
-
 ---
-
 # (Nuova interfaccia) Rinominare un gruppo di annunci
 
 *funzionalità Beta*
@@ -24,4 +22,4 @@ Rinomina rapidamente un gruppo di annunci senza aprire le impostazioni complete 
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sulla visualizzazione [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad group-view-about.md)
+>* [Informazioni sulla visualizzazione [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-about.md)
