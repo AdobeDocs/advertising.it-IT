@@ -2,13 +2,12 @@
 title: Visualizza il registro delle modifiche per un contenuto creativo
 description: Scopri come visualizzare i dettagli sulle modifiche apportate a un contenuto creativo durante un intervallo di tempo specificato, incluso chi ha apportato la modifica.
 feature: Creative Standard Creatives
-source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
+exl-id: 3ab23f6f-9f40-4478-aebb-8f70105c5c1c
+source-git-commit: 29a679e99560c6776932f5da2d06fa0331c934a8
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
-
 ---
-
 # Visualizza il registro delle modifiche per un contenuto creativo
 
 1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
