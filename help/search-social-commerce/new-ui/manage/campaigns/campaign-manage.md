@@ -4,19 +4,21 @@ description: Scopri come creare e gestire le campagne pubblicitarie.
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fc836f17b53a3708bf881dc62a437d391709a050
+    internal-label: User
+source-git-commit: d21954881af4255a450e58849059dee0d6aa368e
 workflow-type: tm+mt
-source-wordcount: 2285
+source-wordcount: '2304'
 ht-degree: 0%
-
 ---
-
 # Gestire le campagne
 
 *funzionalità Beta*
@@ -68,7 +70,7 @@ Search, Social e Commerce estraggono i dati sulle prestazioni ogni ora dagli acc
 
 1. Fare clic su **[!UICONTROL Create Campaign]**.
 
-1. Specifica le impostazioni della campagna [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md) o [Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md).
+1. Specifica le impostazioni della campagna [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [ChatGPT Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md), [Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md) o [Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md).
 
 1. Fare clic su **[!UICONTROL Review and Save]**.
 
@@ -104,7 +106,7 @@ Puoi modificare le impostazioni per le singole campagne. Puoi anche modificare a
 
    * Seleziona la casella di controllo accanto alla campagna. Nella barra degli strumenti Azioni in blocco fare clic su **[!UICONTROL Edit]**.
 
-1. Modifica [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), <!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md), --> [Impostazioni campagna Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md) o [Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md).
+1. Modifica [Annunci Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [Annunci ChatGPT](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md), [Annunci Google](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [Annunci LY](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), <!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md), --> [Impostazioni campagna Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md) o [Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md).
 
 1. Fare clic su **[!UICONTROL Review and Save]**.
 
@@ -120,7 +122,7 @@ Cambia rapidamente lo stato di una campagna senza aprire le impostazioni complet
 
 Puoi mettere in pausa qualsiasi campagna attiva su una rete di annunci supportata per disabilitare le offerte su di essa. In seguito puoi riprendere l’offerta riportando lo stato attivo.
 
-Puoi anche eliminare qualsiasi campagna attiva o in pausa. Le campagne eliminate vengono eliminate dalla rete di annunci. Sono ancora visibili quando li includi nel filtro dati, ma non puoi modificarli.
+È inoltre possibile eliminare (denominato &quot;archivio&quot; in [!DNL ChatGPT Ads Manager]) qualsiasi campagna attiva o in pausa. Le campagne eliminate o archiviate vengono eliminate o archiviate dalla rete di annunci. Sono ancora visibili quando li includi nel filtro dati, ma non puoi modificarli.
 
 ### Attivare o mettere in pausa una campagna
 
@@ -134,7 +136,7 @@ Puoi anche eliminare qualsiasi campagna attiva o in pausa. Le campagne eliminate
 
    * Per sospendere una campagna attiva, selezionare **[!UICONTROL Paused]**.
 
-### Eliminare una campagna
+### Eliminare o archiviare una campagna
 
 1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Campaigns]**.
 
@@ -206,6 +208,8 @@ Per ulteriori informazioni sull’ottimizzazione, consulta la Guida all’ottimi
 
 ## Gestire le assegnazioni dei vincoli di offerta per le campagne {#campaign-constraints}
 
+*Non disponibile per[!DNL ChatGPT Ads]*
+
 Ogni entità può avere un solo vincolo. I vincoli vengono ereditati dalle entità figlio, pertanto non è necessario assegnare vincoli alle entità figlio a meno che non si desideri sostituire i valori ereditati.
 
 L’annullamento dell’assegnazione di un vincolo rimuove l’associazione con i componenti conto e tutti i relativi componenti figlio e i dati del rapporto relativi al vincolo non sono più disponibili per tali componenti. L’annullamento dell’assegnazione di un vincolo non comporta l’eliminazione del vincolo né dei componenti dell’account.
@@ -275,6 +279,8 @@ Puoi assegnare un singolo vincolo a una o più campagne.
 1. Nella finestra di dialogo di conferma, selezionare **[!UICONTROL Yes, Unassign]**.
 
 ## Gestire le assegnazioni dei vincoli di destinazione per le campagne {#campaign-target-constraints}
+
+*Non disponibile per[!DNL ChatGPT Ads]*
 
 ### Assegna un vincolo di destinazione alle campagne selezionate dalla nuova visualizzazione [!UICONTROL Campaigns]
 

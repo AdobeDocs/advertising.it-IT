@@ -4,19 +4,21 @@ description: Scopri come creare e gestire gli annunci, inclusi i tipi di annunci
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6a479ae0bb30d609b16a343efcec296137b9ab43
+    internal-label: User
+source-git-commit: d21954881af4255a450e58849059dee0d6aa368e
 workflow-type: tm+mt
-source-wordcount: 1733
+source-wordcount: '1761'
 ht-degree: 0%
-
 ---
-
 # Gestione annunci
 
 *funzionalità Beta*
@@ -57,6 +59,8 @@ Puoi creare e gestire i tipi di annunci supportati per i gruppi di annunci all�
 
   * Se la campagna non è collegata a un account del centro commerciale, crea annunci di pubblico basati su immagini utilizzando il formato di annuncio reattivo, che include più risorse di testo e immagini. La rete di annunci assembla gli annunci utilizzando le combinazioni più efficaci di elementi pubblicitari e li visualizza su siti come [!DNL MSN], [!DNL Outlook.com] e [!DNL Microsoft Edge].
 
+* **Annunci conversazionali** per un gruppo di annunci in una campagna [!DNL ChatGPT Ads]. Gli annunci conversazionali vengono visualizzati accanto alle conversioni delle chat di IA.
+
 * **Annunci di sola chiamata** per [!DNL Google Ads] campagne nella rete di ricerca. Gli annunci di sola chiamata sono annunci di testo che includono un numero di telefono. Facoltativamente, puoi utilizzare un numero di inoltro assegnato a [!DNL Google Ads] per il reporting avanzato delle chiamate.
 
   >[!NOTE]
@@ -94,8 +98,6 @@ Tuttavia, non è disponibile per [!DNL Google Ads] campagne Dynamic Search Ad (D
 
 ## Creare un annuncio {#ad-create}
 
-<!-- Verify that this note is still applicable -->
-
 >[!NOTE]
 >
 >* Non è necessario creare annunci di prodotti per le campagne di acquisto; la rete di annunci li crea automaticamente. Per le campagne di acquisto [!DNL Microsoft Advertising], tuttavia, è possibile definire facoltativamente le linee di promozione da includere negli annunci.
@@ -113,7 +115,7 @@ Tuttavia, non è disponibile per [!DNL Google Ads] campagne Dynamic Search Ad (D
 
    Per ulteriori informazioni sui tipi di annunci disponibili, vedere &quot;[Tipi di annunci disponibili](#ad-types).&quot;
 
-1. Specifica le impostazioni rimanenti per un [annuncio di testo Baidu](ad-settings-baidu-text.md), [annuncio di ricerca dinamica espanso di Google Ads](ad-settings-google-dsa.md) (denominato solo &quot;annuncio di ricerca dinamica&quot; in Google Ads), [annuncio di ricerca responsive di Google Ads](ad-settings-google-rsa.md), [annuncio di ricerca dinamica espanso di Microsoft Advertising](ad-settings-microsoft-dsa.md), [annuncio multimediale di Microsoft Advertising](ad-settings-microsoft-multimedia.md), [annuncio di prodotto Microsoft Advertising](ad-settings-microsoft-product.md), [annuncio di ricerca responsive di Microsoft (audience)](ad-settings-microsoft-responsive.md), [annuncio di ricerca responsive di Advertising](ad-settings-microsoft-rsa.md) o [Yandex impostazioni dell&#39;annuncio di testo](ad-settings-yandex-text.md).
+1. Specifica le impostazioni rimanenti per un [annuncio di testo Baidu](ad-settings-baidu-text.md), [[!DNL ChatGPT Ads] annuncio](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md), [annuncio di ricerca dinamica espanso di Google Ads](ad-settings-google-dsa.md) (denominato solo &quot;annuncio di ricerca dinamica&quot; in Google Ads), [annuncio di ricerca responsive di Google Ads](ad-settings-google-rsa.md), [annuncio di ricerca dinamica espanso di Microsoft Advertising](ad-settings-microsoft-dsa.md), [annuncio multimediale Microsoft Advertising](ad-settings-microsoft-multimedia.md), [annuncio di prodotto Microsoft Advertising](ad-settings-microsoft-product.md), [annuncio di risposta Microsoft (pubblico)](ad-settings-microsoft-responsive.md), [Ricerca responsive Advertising ad](ad-settings-microsoft-rsa.md) o [Impostazioni testo Yandex ad](ad-settings-yandex-text.md).
 
    >[!NOTE]
    >
@@ -125,7 +127,7 @@ Tuttavia, non è disponibile per [!DNL Google Ads] campagne Dynamic Search Ad (D
 
 1. Fare clic su **[!UICONTROL Create]**.
 
-1. &#x200B;<!-- Add link to where to generate this once available to users-->(Acquisti nelle campagne con tracciamento delle conversioni di Adobe Advertising; facoltativo) Per tenere traccia dei clic sull’annuncio, aggiungi manualmente un URL di tracciamento alle impostazioni dell’account, della campagna o del gruppo di prodotti.
+1. <!-- Add link to where to generate this once available to users-->(Acquisti nelle campagne con tracciamento delle conversioni di Adobe Advertising; facoltativo) Per tenere traccia dei clic sull’annuncio, aggiungi manualmente un URL di tracciamento alle impostazioni dell’account, della campagna o del gruppo di prodotti.
 
 ## Rinominare un annuncio {#ad-rename}
 
@@ -153,7 +155,7 @@ Rinominare rapidamente un annuncio senza aprire le impostazioni complete dell’
 
 1. Nella barra degli strumenti Azioni in blocco fare clic su **[!UICONTROL Edit]**.
 
-1. Modifica le impostazioni rimanenti per un [annuncio di testo Baidu](ad-settings-baidu-text.md), [annuncio di ricerca dinamica espanso di Google Ads](ad-settings-google-dsa.md) (ora denominato solo &quot;annuncio di ricerca dinamica&quot; in Google Ads), [annuncio di ricerca responsive di Google Ads](ad-settings-google-rsa.md), [annuncio di ricerca dinamica espanso di Microsoft Advertising](ad-settings-microsoft-dsa.md), [annuncio multimediale Microsoft Advertising](ad-settings-microsoft-multimedia.md), [annuncio di prodotto Microsoft Advertising](ad-settings-microsoft-product.md), [annuncio di ricerca responsive di Microsoft (audience)](ad-settings-microsoft-responsive.md), [annuncio di ricerca responsive Advertising](ad-settings-microsoft-rsa.md), oppure [Impostazioni annuncio testo Yandex](ad-settings-yandex-text.md).
+1. Modifica le impostazioni rimanenti per un [annuncio di testo Baidu](ad-settings-baidu-text.md), [[!DNL ChatGPT Ads] annuncio](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md), [annuncio di ricerca dinamica espanso di Google Ads](ad-settings-google-dsa.md) (ora denominato solo &quot;annuncio di ricerca dinamica&quot; in Google Ads), [annuncio di ricerca responsive di Google Ads](ad-settings-google-rsa.md), [annuncio di ricerca dinamica espanso di Microsoft Advertising](ad-settings-microsoft-dsa.md), [annuncio multimediale di Microsoft Advertising](ad-settings-microsoft-multimedia.md), [annuncio di prodotto Microsoft Advertising](ad-settings-microsoft-product.md), [annuncio reattivo di Microsoft (pubblico)](ad-settings-microsoft-responsive.md), [Ricerca reattiva di Advertising ad](ad-settings-microsoft-rsa.md) o [Impostazioni testo Yandex ad](ad-settings-yandex-text.md).
 
 1. Fare clic su **[!UICONTROL Review and Save]**.
 
@@ -167,7 +169,7 @@ Cambia rapidamente lo stato di un annuncio senza aprire le impostazioni complete
 
 Puoi mettere in pausa qualsiasi annuncio attivo su una rete di annunci supportata per disabilitare le offerte su di esso. In seguito puoi riprendere l’offerta riportando lo stato attivo.
 
-Puoi anche eliminare qualsiasi annuncio attivo o in pausa. Gli annunci eliminati vengono eliminati dalla rete di annunci. Sono ancora visibili quando li includi nel filtro dati, ma non puoi modificarli.
+È inoltre possibile eliminare (denominato &quot;archivio&quot; in [!DNL ChatGPT Ads Manager]) qualsiasi annuncio attivo o in pausa. Gli annunci eliminati o archiviati vengono eliminati o archiviati dalla rete di annunci. Sono ancora visibili quando li includi nel filtro dati, ma non puoi modificarli.
 
 ### Attivare o mettere in pausa un annuncio
 
@@ -181,7 +183,7 @@ Puoi anche eliminare qualsiasi annuncio attivo o in pausa. Gli annunci eliminati
 
    * Per sospendere un annuncio attivo, fare clic su **[!UICONTROL Pause]**.
 
-### Eliminare un annuncio
+### Eliminare o archiviare un annuncio
 
 1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Ads]**.
 

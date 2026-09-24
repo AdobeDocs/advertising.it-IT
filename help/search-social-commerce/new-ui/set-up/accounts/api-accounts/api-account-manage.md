@@ -3,13 +3,11 @@ title: (Nuova interfaccia) Gestione degli account di rete degli annunci
 description: Scopri come impostare e gestire i dettagli dell’account nella nuova interfaccia utente per una rete di annunci sincronizzata tramite l’API della rete di annunci.
 feature: Search Campaign Management
 exl-id: a50b2943-7568-401c-be5b-ff6f62629488
-source-git-commit: 6b9aca3a3de262935428a749acc123fcf7b76c18
+source-git-commit: fe4873a68b7b78000e6a380c22f8074d79c7184f
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2157'
 ht-degree: 0%
-
 ---
-
 # (Nuova interfaccia) Gestire gli account di rete degli annunci tramite la connessione API
 
 <!-- Besides just logging into an account, do you have to make any other choices once you're logged in (such as to give speciic permissions to SSC?  And what about oAuth tokens -- do we still use them? -->
@@ -19,6 +17,8 @@ ht-degree: 0%
 <!-- Move out info about Naver into a separate page -->
 
 Di seguito sono riportate le istruzioni per la gestione degli account di rete di annunci sincronizzati da Search, Social e Commerce tramite l’API della rete di annunci.
+
+<!-- Add somewhere:  Can now open a list of all campaigns for an ad network account by clicking account name -->
 
 <!-- Move out info about Naver into a separate page -->
 
@@ -135,6 +135,8 @@ Le impostazioni dell’account variano a seconda della rete di annunci. Potresti
 >
 >Se hai un’integrazione Search, Social e Commerce-Adobe Analytics e modifichi il nome dell’account di ricerca, chiedi al team del tuo account Adobe di aggiornare la mappatura.
 
+**[!UICONTROL Access Key]:** (solo account [!DNL ChatGPT Ads]) Chiave di accesso per l&#39;account sviluppatore da utilizzare.<!-- From whom should people get access keys? Their organization's ChatGPT Ads team? -->
+
 **[!DNL [Account di rete dell&#39;annuncio]]:** (visibile durante la creazione di un account) L&#39;account di rete dell&#39;annuncio da sincronizzare.
 
 **[Dettagli di accesso]:** (solo account Yandex) Le credenziali dell&#39;account da utilizzare:
@@ -155,11 +157,11 @@ Le impostazioni dell’account variano a seconda della rete di annunci. Potresti
 
 >[!NOTE]
 >
->Gli account del gestore della rete di annunci non sono supportati qui. Per identificare un account manager per [!DNL Microsoft Advertising], utilizzare rispettivamente il campo ID account principale o Account MCC. Per [configurare le credenziali per un account di manager [!DNL Google Ads] &#x200B;](/help/search-social-commerce/admin/manager-accounts.md), passare a [!UICONTROL Admin] \> [!UICONTROL Manager Accounts].
+>Gli account del gestore della rete di annunci non sono supportati qui. Per identificare un account manager per [!DNL Microsoft Advertising], utilizzare rispettivamente il campo ID account principale o Account MCC. Per [configurare le credenziali per un account di manager [!DNL Google Ads] ](/help/search-social-commerce/admin/manager-accounts.md), passare a [!UICONTROL Admin] \> [!UICONTROL Manager Accounts].
 
 **[!UICONTROL Currency]:** (sola lettura) L&#39;abbreviazione della valuta utilizzata per l&#39;account. Questo valore viene compilato automaticamente con la valuta configurata per l’account sulla rete di annunci una volta salvato il record.
 
-**[!UICONTROL Time Zone]:** Fuso orario dell&#39;inserzionista. Questo valore viene compilato automaticamente con il fuso orario configurato per l&#39;account Search, Social e Commerce dell&#39;inserzionista una volta salvato il record.
+**[!UICONTROL Time Zone]:** (sola lettura) Il fuso orario dell&#39;inserzionista. Questo valore viene compilato automaticamente con il fuso orario configurato per l&#39;account Search, Social e Commerce dell&#39;inserzionista una volta salvato il record.
 
 **[!UICONTROL Login]:** (sola lettura) Account utente utilizzato per accedere all&#39;account.
 
@@ -189,7 +191,7 @@ Per abilitare questa funzionalità, attivare **[Abilita tracciamento]**.
 >* Se passi da [!UICONTROL Standard] a [!UICONTROL Token] o viceversa, devi rigenerare gli URL di tracciamento per l&#39;account.
 >* Puoi sovrascrivere l’impostazione a livello di account a livello di campagna.
 
-**[!UICONTROL Auto Update]:** (quando il tracciamento di Ricerca, Social e Commerce è abilitato) Standardizza gli URL di tracciamento per verificarne la compatibilità tra browser e server. Search, Social e Commerce caricano automaticamente i seguenti elementi nella rete di annunci durante la successiva sincronizzazione: (a) parametri di tracciamento di Search, Social e Commerce per i modelli di tracciamento e gli stessi parametri aggiunti agli URL finali; (b) nuovi URL di destinazione incorporati con il codice di tracciamento di Search, Social e Commerce. Per gli inserzionisti con un&#39;integrazione [Adobe Advertising-Adobe Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=it) e una configurazione AMO ID (s_kwcid) lato server, il caricamento include anche [parametri AMO ID](/help/integrations/analytics/ids.md#amo-id) per i tuoi account [!DNL Google Ads] e [!DNL Microsoft Advertising]. L&#39;impostazione predefinita a livello di account viene ereditata dalle impostazioni di tracciamento dell&#39;inserzionista. Puoi sovrascrivere l’impostazione a livello di account a livello di campagna.
+**[!UICONTROL Auto Update]:** (quando il tracciamento di Ricerca, Social e Commerce è abilitato) Standardizza gli URL di tracciamento per verificarne la compatibilità tra browser e server. Search, Social e Commerce caricano automaticamente i seguenti elementi nella rete di annunci durante la successiva sincronizzazione: (a) parametri di tracciamento di Search, Social e Commerce per i modelli di tracciamento e gli stessi parametri aggiunti agli URL finali; (b) nuovi URL di destinazione incorporati con il codice di tracciamento di Search, Social e Commerce. Per gli inserzionisti con un&#39;integrazione [Adobe Advertising-Adobe Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) e una configurazione AMO ID (s_kwcid) lato server, il caricamento include anche [parametri AMO ID](/help/integrations/analytics/ids.md#amo-id) per i tuoi account [!DNL Google Ads] e [!DNL Microsoft Advertising]. L&#39;impostazione predefinita a livello di account viene ereditata dalle impostazioni di tracciamento dell&#39;inserzionista. Puoi sovrascrivere l’impostazione a livello di account a livello di campagna.
 
 Gli URL di tracciamento vengono aggiornati ogni giorno solo per le entità non sincronizzate, ovvero nuove entità aggiunte ed entità esistenti le cui proprietà sono state modificate. Pertanto, se modifichi questa impostazione da disabilitato a abilitato per un inserzionista/account/campagna esistente, gli URL di tracciamento non vengono aggiornati per le entità esistenti già sincronizzate. Per aggiungere il tracciamento agli URL delle entità sincronizzate esistenti, contatta il team dell’account Adobe e richiedi un processo di sincronizzazione manuale una tantum. Il processo di caricamento automatico gestirà le modifiche future.
 
@@ -236,7 +238,7 @@ Gli account che utilizzano il tracciamento dei clic di Adobe Advertising devono 
 
 ## Scheda [!UICONTROL Set up Adobe Analytics]
 
-Queste impostazioni sono disponibili per gli inserzionisti con un&#39;integrazione [[!DNL Adobe Analytics for Advertising] 1&rbrace;.](/help/integrations/analytics/overview.md)
+Queste impostazioni sono disponibili per gli inserzionisti con un&#39;integrazione [[!DNL Adobe Analytics for Advertising] 1}.](/help/integrations/analytics/overview.md)
 
 **[!UICONTROL Adobe Analytics Report Suite]:** (Facoltativo) Una o più suite di rapporti di Analytics a cui Search, Social e Commerce invia i dati che raccoglie dalla rete di annunci, incluse le classificazioni delle entità e i dati di clic per l&#39;account. Questa funzionalità è disponibile solo per le reti di annunci supportate.<!-- What are the repercussions of changing the suites? Timing of updated data? -->
 
