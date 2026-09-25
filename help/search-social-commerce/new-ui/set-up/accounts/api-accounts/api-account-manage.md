@@ -3,13 +3,11 @@ title: (Nuova interfaccia) Gestione degli account di rete degli annunci
 description: Scopri come impostare e gestire i dettagli dell’account nella nuova interfaccia utente per una rete di annunci sincronizzata tramite l’API della rete di annunci.
 feature: Search Campaign Management
 exl-id: a50b2943-7568-401c-be5b-ff6f62629488
-source-git-commit: 6b9aca3a3de262935428a749acc123fcf7b76c18
+source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
 workflow-type: tm+mt
 source-wordcount: '2143'
 ht-degree: 0%
-
 ---
-
 # (Nuova interfaccia) Gestire gli account di rete degli annunci tramite la connessione API
 
 <!-- Besides just logging into an account, do you have to make any other choices once you're logged in (such as to give speciic permissions to SSC?  And what about oAuth tokens -- do we still use them? -->

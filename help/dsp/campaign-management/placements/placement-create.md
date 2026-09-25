@@ -6,24 +6,30 @@ exl-id: 28a328b1-0839-442e-a245-f586a7042f41
 TQID: https://experienceleague.adobe.com/QEpUfFvrVq62P64w-7gwFk2ujuCNzkegHKz6UancZDY
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: DSP placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
+    internal-label: Optimization
+source-git-commit: 469047a3a9454a504cf3c0ff28c4dafa8a034819
 workflow-type: tm+mt
-source-wordcount: 713
+source-wordcount: '715'
 ht-degree: 0%
-
 ---
-
 # Creare un posizionamento
 
 >[!TIP]
@@ -92,61 +98,61 @@ ht-degree: 0%
 
       * Per creare un nuovo annuncio:
 
-         1. Fare clic su **[!UICONTROL Create a New Ad].**
+        1. Fare clic su **[!UICONTROL Create a New Ad].**
 
-         1. Specifica le impostazioni degli annunci per [annunci audio](/help/dsp/campaign-management/ads/ad-settings-audio.md), [TV connessa](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [annunci di visualizzazione](/help/dsp/campaign-management/ads/ad-settings-display.md), [annunci per dispositivi mobili](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [annunci nativi](/help/dsp/campaign-management/ads/ad-settings-native.md), [annunci pre-roll](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md) o [annunci video universali](/help/dsp/campaign-management/ads/ad-settings-universal-video.md).
+        1. Specifica le impostazioni degli annunci per [annunci audio](/help/dsp/campaign-management/ads/ad-settings-audio.md), [TV connessa](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [annunci di visualizzazione](/help/dsp/campaign-management/ads/ad-settings-display.md), [annunci per dispositivi mobili](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [annunci nativi](/help/dsp/campaign-management/ads/ad-settings-native.md), [annunci pre-roll](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md) o [annunci video universali](/help/dsp/campaign-management/ads/ad-settings-universal-video.md).
 
         >[!NOTE]
         >
         >I posizionamenti di video universali possono contenere solo annunci video universali.
 
-         1. Fare clic su **[!UICONTROL Save & Submit for Review]**.
+        1. Fare clic su **[!UICONTROL Save & Submit for Review]**.
 
-         1. (Facoltativo) Per ogni annuncio aggiuntivo che desideri creare per il posizionamento, fai clic su **[!UICONTROL Attach Another Ad]**, quindi ripeti i passaggi da 1 a 3.
+        1. (Facoltativo) Per ogni annuncio aggiuntivo che desideri creare per il posizionamento, fai clic su **[!UICONTROL Attach Another Ad]**, quindi ripeti i passaggi da 1 a 3.
 
-         1. Se non si desidera allegare annunci esistenti, fare clic su **[!UICONTROL I'm done for now]**.
+        1. Se non si desidera allegare annunci esistenti, fare clic su **[!UICONTROL I'm done for now]**.
 
       * Per allegare gli annunci esistenti nella campagna:
 
-         1. Fare clic su **[!UICONTROL Select an Ad]**.
+        1. Fare clic su **[!UICONTROL Select an Ad]**.
 
-         1. Effettuare una delle seguenti operazioni:
+        1. Effettuare una delle seguenti operazioni:
 
-            * Per aggiungere un annuncio alla volta:
+           * Per aggiungere un annuncio alla volta:
 
-               1. Accanto al nome dell&#39;annuncio, fare clic su **[!UICONTROL Select].**
+             1. Accanto al nome dell&#39;annuncio, fare clic su **[!UICONTROL Select].**
 
-               1. (Facoltativo) Per ogni annuncio aggiuntivo che si desidera allegare, fare clic su **[!UICONTROL Attach Another Ad]** e quindi ripetere la procedura.
+             1. (Facoltativo) Per ogni annuncio aggiuntivo che si desidera allegare, fare clic su **[!UICONTROL Attach Another Ad]** e quindi ripetere la procedura.
 
-            * Per aggiungere fino a 20 annunci alla volta:
+           * Per aggiungere fino a 20 annunci alla volta:
 
-               1. Seleziona la casella di controllo sopra l’elenco degli annunci.
+             1. Seleziona la casella di controllo sopra l’elenco degli annunci.
 
-               1. Seleziona la casella di controllo accanto a ogni annuncio da aggiungere.
+             1. Seleziona la casella di controllo accanto a ogni annuncio da aggiungere.
 
-               1. Fare clic su **[!UICONTROL Attach]**.
+             1. Fare clic su **[!UICONTROL Attach]**.
 
-               1. Accanto al nome dell&#39;annuncio, fare clic su **[!UICONTROL Select]**.
+             1. Accanto al nome dell&#39;annuncio, fare clic su **[!UICONTROL Select]**.
 
-         1. (Facoltativo) Per sostituire il periodo di volo predefinito e la rotazione degli annunci per annunci specifici nel posizionamento:
+        1. (Facoltativo) Per sostituire il periodo di volo predefinito e la rotazione degli annunci per annunci specifici nel posizionamento:
 
-            1. Fare clic su **[!UICONTROL Custom Schedule Ads]**.
+           1. Fare clic su **[!UICONTROL Custom Schedule Ads]**.
 
-            1. Effettua una delle seguenti operazioni:
+           1. Effettua una delle seguenti operazioni:
 
-               * Per aggiungere un volo, fare clic su **[!UICONTROL Add Flight]** e quindi specificare la data di inizio e la data di fine.
+              * Per aggiungere un volo, fare clic su **[!UICONTROL Add Flight]** e quindi specificare la data di inizio e la data di fine.
 
-               * Per aggiungere un volo esistente a un annuncio, fare clic su **[!UICONTROL +]** nella riga annuncio per la colonna volo.
+              * Per aggiungere un volo esistente a un annuncio, fare clic su **[!UICONTROL +]** nella riga annuncio per la colonna volo.
 
-               * Per rimuovere un volo esistente da un annuncio, fare clic su **[!UICONTROL x]** nella riga annuncio per la colonna volo.
+              * Per rimuovere un volo esistente da un annuncio, fare clic su **[!UICONTROL x]** nella riga annuncio per la colonna volo.
 
-               * (Quando più annunci hanno lo stesso volo) Per ruotare gli annunci in modo non uniforme, fare clic su **[!UICONTROL Even Rotation]** nelle informazioni sul volo, quindi immettere il peso relativo in base al quale ruotare ogni annuncio, come percentuale.
+              * (Quando più annunci hanno lo stesso volo) Per ruotare gli annunci in modo non uniforme, fare clic su **[!UICONTROL Even Rotation]** nelle informazioni sul volo, quindi immettere il peso relativo in base al quale ruotare ogni annuncio, come percentuale.
 
-                 Il peso totale deve essere uguale a 100.
+                Il peso totale deve essere uguale a 100.
 
-            1. In alto a destra, fare clic su **[!UICONTROL Continue]**.
+           1. In alto a destra, fare clic su **[!UICONTROL Continue]**.
 
-            1. Rivedere i dettagli del volo, quindi fare clic su **[!UICONTROL Save & Finish]**.
+           1. Rivedere i dettagli del volo, quindi fare clic su **[!UICONTROL Save & Finish]**.
 
 >[!MORELIKETHIS]
 >
@@ -160,5 +166,5 @@ ht-degree: 0%
 >* [Visualizza il report di previsione del posizionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Domande frequenti sul video universale](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Scelte rapide da tastiera](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Risoluzione dei problemi relativi alle prestazioni](/help/dsp/optimization/troubleshooting-performance.md)
+>* [Motivi per problemi di prestazioni](/help/dsp/optimization/troubleshooting-performance.md)
 >* [Video: come creare un posizionamento display standard](https://video.tv.adobe.com/v/345000?captions=ita)

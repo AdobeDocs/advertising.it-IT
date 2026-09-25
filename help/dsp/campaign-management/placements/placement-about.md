@@ -6,23 +6,28 @@ exl-id: 903ba200-6bb3-4c31-b7a9-03ada3de5451
 TQID: https://experienceleague.adobe.com/2NzvUNMqkGVsPaEDM3ifXGNOAIuR1qifdC1-pacbK7U
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: DSP placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 469047a3a9454a504cf3c0ff28c4dafa8a034819
 workflow-type: tm+mt
-source-wordcount: 387
+source-wordcount: '392'
 ht-degree: 0%
-
 ---
-
 # Informazioni sulla gestione del posizionamento in Advertising DSP
 
 Un posizionamento include parametri di targeting per uno o più annunci dello stesso tipo di annuncio. Puoi creare un posizionamento per una singola campagna o pacchetto, quindi assegnare ad esso gli annunci. Ogni campagna o posizionamento può includere più posizionamenti, con una rotazione di annunci specificata. Per impostazione predefinita, gli annunci vengono ruotati in modo uniforme. Puoi configurare separatamente i moltiplicatori di offerte per vari tipi di target di posizionamento.
@@ -34,7 +39,7 @@ Potete creare un posizionamento manualmente o duplicandone uno esistente. Potete
 ## Tipi di posizionamento disponibili
 
 * Pre-roll
-* Dispositivi mobili
+* Mobile
 * Visualizzazione
 * Nativa
 * Audio
@@ -63,4 +68,4 @@ Per ogni posizionamento, è possibile aprire una visualizzazione dettagliata ([l
 >* [Gestire i moltiplicatori delle offerte per i posizionamenti](placement-manage-bid-multipliers.md)
 >* [Visualizza il log delle modifiche per un posizionamento](placement-change-log.md)
 >* [Impostazioni posizionamento](placement-settings.md)
->* [Risoluzione dei problemi relativi alle prestazioni](/help/dsp/optimization/troubleshooting-performance.md)
+>* [Motivi per problemi di prestazioni](/help/dsp/optimization/troubleshooting-performance.md)
