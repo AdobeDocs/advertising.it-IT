@@ -1,13 +1,12 @@
 ---
 source-git-commit: 24aa1afe9611ca6ae46795c9bca2964e1d9c4f97
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '279'
 ht-degree: 0%
-
 ---
 # Campo Dispositivi nelle impostazioni della campagna GGL e MS e del gruppo di annunci
 
-**[!UICONTROL Devices]:** (Facoltativo; non disponibile per [!DNL Google Ads] campagne con prestazione massima o [!DNL Microsoft Advertising] annunci video o CTV) Configura le regolazioni delle offerte per diversi tipi di dispositivi, come percentuali dell&#39;offerta a livello di parola chiave. Ad esempio, se l’offerta a livello di parola chiave è 1 USD e la regolazione dell’offerta per gli smartphone è del 50%, l’offerta per lo smartphone è di 1,50 USD. Per impostazione predefinita, non viene immesso alcun valore (regolazione offerta=0) e tutti i dispositivi vengono offerti in corrispondenza dell’offerta a livello di parola chiave.
+**[!UICONTROL Devices]:** (Facoltativo; non disponibile per [!DNL Google Ads] campagne con prestazione massima o [!DNL Microsoft Advertising] annunci video o CTV) Configura le regolazioni delle offerte per diversi tipi di dispositivi, come percentuali dell&#39;offerta a livello di parola chiave. Ad esempio, se l’offerta a livello di parola chiave è 1 USD e la regolazione dell’offerta per gli smartphone è del 50%, l’offerta per lo smartphone è 1,50 USD. Per impostazione predefinita, non viene immesso alcun valore (regolazione offerta=0) e tutti i dispositivi vengono offerti in corrispondenza dell’offerta a livello di parola chiave.
 
 Per [!DNL Google Ads], le percentuali valide possono includere -100 per smartphone e tablet (per non fare offerte per il tipo di dispositivo) e da -90 a 900 per tutti i tipi di dispositivo.
 
