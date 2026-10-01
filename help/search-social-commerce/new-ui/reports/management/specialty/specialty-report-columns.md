@@ -2,13 +2,11 @@
 title: Colonne report per report speciali
 description: Scopri le colonne di dati disponibili per i rapporti speciali.
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 43b3d16233aec1fce0f3db092b9911717686f448
+source-git-commit: fb089f61670a2c0029ac7857db55df3b93f781de
 workflow-type: tm+mt
-source-wordcount: '3172'
-ht-degree: 0%
-
+source-wordcount: '3223'
+ht-degree: 1%
 ---
-
 # Colonne report per report speciali
 
 | Colonna | Descrizione |
@@ -70,6 +68,7 @@ ht-degree: 0%
 | [!UICONTROL Content IS% (Google)] | ([!DNL Google Ads] solo; [!UICONTROL Campaign Daily Impression Share Report]) Il numero di impression ricevute per gli annunci sulla rete di visualizzazione/pubblico diviso per il numero stimato di impression che eri idoneo a ricevere. Le percentuali inferiori al 10% sono indicate come &quot;`<10%`&quot; e le percentuali superiori al 90% sono indicate come &quot;`>90%`&quot;. |
 | [!UICONTROL Content IS% Lost to Budget (Google)] | ([!DNL Google Ads] solo; [!UICONTROL Campaign Daily Impression Share Report]) La percentuale stimata di impression che gli annunci sulla rete di visualizzazione/pubblico non hanno ricevuto perché il budget giornaliero o mensile era troppo basso. Le percentuali inferiori al 10% sono indicate come &quot;`<10%`&quot; e le percentuali superiori al 90% sono indicate come &quot;`>90%`&quot;. |
 | [!UICONTROL Content IS% Lost to Rank (Google)] | ([!DNL Google Ads] solo; [!UICONTROL Campaign Daily Impression Share Report]) La percentuale stimata di impression che i tuoi annunci sulla rete di visualizzazione/pubblico non sono stati visualizzati a causa di una classificazione annuncio scadente. Le percentuali inferiori al 10% sono indicate come &quot;`<10%`&quot; e le percentuali superiori al 90% sono indicate come &quot;`>90%`&quot;. |
+| [!UICONTROL Conversion Actions] | ([!UICONTROL Google AI Max Search Term Combination] report) Azione di conversione che ha generato conversioni. |
 | [!UICONTROL Conversion Rate] | Il numero di conversioni diviso per il numero totale di clic. |
 | [!UICONTROL Conversion Type] | Il tipo di conversione definito dall&#39;utente che è stato tracciato sul sito Web dell&#39;inserzionista. |
 | [!UICONTROL Conversions] | ([!UICONTROL Google AI Max Search Term Combination], [!UICONTROL Google Asset Group Performance] e [!UICONTROL MSA Ad Extension] rapporti) Il totale delle conversioni per il periodo specificato. Per il report [!UICONTROL MSA Ad Extension], indica il numero di clic che hanno determinato una vendita o un&#39;altra misura di successo. Per il report [!UICONTROL Google AI Max Search Term Combination], indica il numero totale di conversioni dalle azioni di conversione per le quali è abilitato &quot;Includi nelle conversioni&quot; |
