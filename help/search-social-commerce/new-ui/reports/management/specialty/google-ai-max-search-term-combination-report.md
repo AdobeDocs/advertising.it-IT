@@ -17,7 +17,7 @@ ht-degree: 0%
 
   Utilizzare questo foglio per analizzare l&#39;intento e le prestazioni degli elementi annuncio risultanti per query in modo da creare elenchi di parole chiave negativi affidabili.
 
-* <!-- [!UICONTROL Search Term x Conversion Action] sheet? -->Foglio [!UICONTROL AI Max Search Term #1]: dati di conversione tracciati da [!DNL Google Ads] per azione di conversione per ogni termine di ricerca e tipo di corrispondenza. Ogni riga include l&#39;azione di conversione, il numero di conversioni e il valore di conversione, nonché qualsiasi altra metrica di conversione facoltativa [!DNL Google Ads] tracciata specificata nelle impostazioni del report. Per impostazione predefinita, i dati includono una riga per ogni combinazione di termine di ricerca e azione di conversione nell’intervallo di dati specificato. Le righe sono nello stesso ordine delle righe del primo foglio.
+* &#x200B;<!-- [!UICONTROL Search Term x Conversion Action] sheet? -->Foglio [!UICONTROL AI Max Search Term #1]: dati di conversione tracciati da [!DNL Google Ads] per azione di conversione per ogni termine di ricerca e tipo di corrispondenza. Ogni riga include l&#39;azione di conversione, il numero di conversioni e il valore di conversione, nonché qualsiasi altra metrica di conversione facoltativa [!DNL Google Ads] tracciata specificata nelle impostazioni del report. Per impostazione predefinita, i dati includono una riga per ogni combinazione di termine di ricerca e azione di conversione nell’intervallo di dati specificato. Le righe sono nello stesso ordine delle righe del primo foglio.
 
   <!-- Should it be this?  The sheet includes the number of conversions and the conversion value, all conversions and the all conversions value, and cross-device conversions. -->
 
