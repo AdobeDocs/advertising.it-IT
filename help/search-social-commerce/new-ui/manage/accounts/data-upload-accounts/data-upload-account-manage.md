@@ -32,7 +32,7 @@ Per informazioni dettagliate sulle funzionalità disponibili per ogni rete di an
 
    1. Nella scheda **[!UICONTROL Account Details]**, modificare i dettagli dell&#39;account.
 
-   1. (Inserzionisti con un&#39;integrazione [[!DNL Adobe Analytics for Advertising] 1}) Fai clic sulla scheda **[!UICONTROL Set up Adobe Analytics]** e modifica le suite di rapporti [!DNL Analytics] da utilizzare per il tracciamento e il reporting dell&#39;attività della campagna.](/help/integrations/analytics/overview.md)
+   1. (Inserzionisti con un&#39;integrazione [[!DNL Adobe Analytics for Advertising] 1&rbrace;) Fai clic sulla scheda **[!UICONTROL Set up Adobe Analytics]** e modifica le suite di rapporti [!DNL Analytics] da utilizzare per il tracciamento e il reporting dell&#39;attività della campagna.](/help/integrations/analytics/overview.md)
 
    1. (Facoltativo) Nella scheda **[!UICONTROL Upload File]**, carica i file di dati per l&#39;account.
 
@@ -52,7 +52,7 @@ Per informazioni dettagliate sulle funzionalità disponibili per ogni rete di an
 
    1. (Facoltativo) Nella scheda **[!UICONTROL Account Details]**, modificare i dettagli dell&#39;account.
 
-   1. (Facoltativo; inserzionisti con un&#39;integrazione [[!DNL Adobe Analytics for Advertising] 1}) Fai clic sulla scheda **[!UICONTROL Set up Adobe Analytics]** e modifica le suite di rapporti [!DNL Analytics] da utilizzare per il tracciamento e il reporting dell&#39;attività della campagna.](/help/integrations/analytics/overview.md)
+   1. (Facoltativo; inserzionisti con un&#39;integrazione [[!DNL Adobe Analytics for Advertising] 1&rbrace;) Fai clic sulla scheda **[!UICONTROL Set up Adobe Analytics]** e modifica le suite di rapporti [!DNL Analytics] da utilizzare per il tracciamento e il reporting dell&#39;attività della campagna.](/help/integrations/analytics/overview.md)
 
    1. (Facoltativo) Nella scheda **[!UICONTROL Upload File]**, carica i file di dati per l&#39;account.
 
