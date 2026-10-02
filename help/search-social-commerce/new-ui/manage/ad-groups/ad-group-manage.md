@@ -14,7 +14,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
+source-git-commit: 5361437bb4c2dac423e718ad92f0b56c0feaca20
 workflow-type: tm+mt
 source-wordcount: '1676'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 Un gruppo di annunci include un set di annunci e le relative parole chiave. Un gruppo di annunci in una campagna che esegue il targeting della rete di visualizzazione può includere anche posizionamenti, ovvero posizioni nella rete di visualizzazione in cui possono essere visualizzati gli annunci. Le impostazioni dei gruppi di annunci, applicabili a tutti i componenti del gruppo di annunci, variano in base alla rete di annunci.
 
-Dopo aver [reso accessibile un account di rete tramite una connessione API](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md) e dopo che Search, Social e Commerce hanno sincronizzato i dati dell&#39;account con la rete di annunci, puoi creare gruppi di annunci per un tipo di campagna [supportato](/help/search-social-commerce/introduction/supported-inventory.md). Puoi anche modificare e cambiare lo stato dei gruppi di annunci.
+Dopo aver [reso accessibile un account di rete tramite una connessione API](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md) e dopo che Search, Social e Commerce hanno sincronizzato i dati dell&#39;account con la rete di annunci, puoi creare gruppi di annunci per un tipo di campagna [supportato](/help/search-social-commerce/introduction/supported-inventory.md). Puoi anche modificare e cambiare lo stato dei gruppi di annunci.
 
 Per informazioni dettagliate sulle funzionalità disponibili per ogni rete di annunci, vedi &quot;[Inventario supportato](/help/search-social-commerce/introduction/supported-inventory.md).&quot;
 
@@ -321,8 +321,8 @@ Vedere anche &quot;>* [(Interfaccia precedente) Scaricare dati da una visualizza
 >
 >* [Gestione dei vincoli per le unità delle offerte di ricerca](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
 >* [Gestione assegnazioni vincoli per le campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
->* [Gestisci assegnazioni vincoli per parole chiave](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
->* [Gestisci assegnazioni vincoli per posizionamenti](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
+>* [Gestisci assegnazioni vincoli per parole chiave](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
+>* [Gestisci assegnazioni vincoli per posizionamenti](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
 >* [(interfaccia precedente) Scarica dati da una visualizzazione di gestione campagne](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [(Interfaccia precedente) Eliminare un report di dati sulle prestazioni o un file di bulksheet dal menu [!UICONTROL Downloads]](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 >* [[!DNL Baidu] impostazioni gruppo di annunci](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)

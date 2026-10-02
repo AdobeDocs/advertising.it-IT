@@ -1,13 +1,11 @@
 ---
 title: Carica dati account offline per reporting e simulazioni
-description: Scopri come caricare manualmente i dati dell’account offline o in un bucket  [!DNL Amazon] [!DNL S3] per il supporto di reporting e simulazione. I file di registro tengono traccia dell’avanzamento dei processi di caricamento.
-source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
+description: Scopri come caricare manualmente i dati dell’account offline o in un bucket [!DNL Amazon] [!DNL S3] per il supporto di reporting e simulazione. I file di registro tengono traccia dell’avanzamento dei processi di caricamento.
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
-
 ---
-
 # Carica dati account offline per reporting e simulazioni
 
 *Inserzionisti abilitati per il caricamento dei dati dell&#39;account*
@@ -30,31 +28,31 @@ See "XXX" for information about supported ad networks and account structures.
 [supported ad networks and campaign types](/help/search-social-commerce/introduction/supported-inventory.md)
 -->
 
-1. Nel menu principale, fare clic su **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Effettuare una delle seguenti operazioni:
 
    * (Dalla visualizzazione [!UICONTROL Accounts]):
 
-      1. Selezionare la casella di controllo accanto al nome dell&#39;account, quindi fare clic su **[!UICONTROL Upload]** nella barra degli strumenti Azioni collettive.
+     1. Selezionare la casella di controllo accanto al nome dell&#39;account, quindi fare clic su **[!UICONTROL Upload]** nella barra degli strumenti Azioni collettive.
 
-      1. Trascinare un file nella casella o fare clic su **[!UICONTROL Browse Files]** e scegliere un file dal dispositivo o dalla rete.
+     1. Trascinare un file nella casella o fare clic su **[!UICONTROL Browse Files]** e scegliere un file dal dispositivo o dalla rete.
 
-      1. Fare clic su **[!UICONTROL Upload Files]**.
+     1. Fare clic su **[!UICONTROL Upload Files]**.
 
    * (dalle impostazioni account):
 
-      1. Selezionare l&#39;account in uno dei modi seguenti:
+     1. Selezionare l&#39;account in uno dei modi seguenti:
 
-         * Posizionare il cursore sul nome dell&#39;account, fare clic su **...** e quindi su **[!UICONTROL Edit]**.
+        * Posizionare il cursore sul nome dell&#39;account, fare clic su **...** e quindi su **[!UICONTROL Edit]**.
 
-         * Selezionare la casella di controllo accanto al nome dell&#39;account, quindi fare clic su **[!UICONTROL Edit]** nella barra degli strumenti Azioni collettive.
+        * Selezionare la casella di controllo accanto al nome dell&#39;account, quindi fare clic su **[!UICONTROL Edit]** nella barra degli strumenti Azioni collettive.
 
-      1. Fare clic sulla scheda **[!UICONTROL Upload File]**.
+     1. Fare clic sulla scheda **[!UICONTROL Upload File]**.
 
-      1. Trascinare un file nella casella o fare clic su **[!UICONTROL Browse Files]** e scegliere un file dal dispositivo o dalla rete.
+     1. Trascinare un file nella casella o fare clic su **[!UICONTROL Browse Files]** e scegliere un file dal dispositivo o dalla rete.
 
-      1. Fare clic su **[!UICONTROL Save]**.
+     1. Fare clic su **[!UICONTROL Save]**.
 
 ## Carica dati account in un bucket [!DNL Amazon] [!DNL S3] {#data-upload-s3}
 
@@ -71,45 +69,45 @@ See "XXX" for information about supported ad networks and account structures.
 >* Contatta il team del tuo account Adobe per abilitare il caricamento dei dati dell’account dell’inserzionista Search, Social e Commerce. Il team semplificherà la creazione di una cartella specifica dell&#39;organizzazione in un bucket [!DNL S3] e ti informerà al termine.<!-- Add more context about the bucket we'll use here or in the intro. Do we have one bucket (potentially with multiple folders) per client, or do we share them (if so, do we need to state how in docs? -->
 >* Recupera il percorso di archiviazione cloud [!DNL S3], l&#39;ID della chiave di accesso e la chiave di accesso segreta per il tuo account. Gli stessi ID chiave di accesso e chiave di accesso segreta vengono utilizzati per tutti gli account <!-- naming convention?--> di caricamento dati dell&#39;organizzazione.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Effettuare una delle seguenti operazioni:
 
    * (Dalla visualizzazione [!UICONTROL Accounts]):
 
-      1. Selezionare la casella di controllo accanto al nome dell&#39;account, quindi fare clic su **[!UICONTROL Upload]** nella barra degli strumenti Azioni collettive.
+     1. Selezionare la casella di controllo accanto al nome dell&#39;account, quindi fare clic su **[!UICONTROL Upload]** nella barra degli strumenti Azioni collettive.
 
-      1. Nella casella [!UICONTROL Cloud Storage Link] fare clic su **[!UICONTROL Go to the Link]**.
+     1. Nella casella [!UICONTROL Cloud Storage Link] fare clic su **[!UICONTROL Go to the Link]**.
 
-      1. Fare clic su **[!UICONTROL Show Access Key and Secret]**.
+     1. Fare clic su **[!UICONTROL Show Access Key and Secret]**.
 
-      1. Accanto al campo [!UICONTROL Storage Link], fare clic su **[!UICONTROL Copy]** per copiare il collegamento negli Appunti e archiviarlo in un luogo sicuro.
+     1. Accanto al campo [!UICONTROL Storage Link], fare clic su **[!UICONTROL Copy]** per copiare il collegamento negli Appunti e archiviarlo in un luogo sicuro.
 
-      1. Analogamente, copiare e archiviare in modo sicuro i valori [!UICONTROL Access Key] e [!UICONTROL Secret Key].
+     1. Analogamente, copiare e archiviare in modo sicuro i valori [!UICONTROL Access Key] e [!UICONTROL Secret Key].
 
-      1. Fare clic su **[!UICONTROL Done]**.
+     1. Fare clic su **[!UICONTROL Done]**.
 
    * (dalle impostazioni account):
 
-      1. Selezionare l&#39;account in uno dei modi seguenti:
+     1. Selezionare l&#39;account in uno dei modi seguenti:
 
-         * Posizionare il cursore sul nome dell&#39;account, fare clic su **...** e quindi su **[!UICONTROL Edit]**.
+        * Posizionare il cursore sul nome dell&#39;account, fare clic su **...** e quindi su **[!UICONTROL Edit]**.
 
-         * Selezionare la casella di controllo accanto al nome dell&#39;account, quindi fare clic su **[!UICONTROL Edit]** nella barra degli strumenti Azioni collettive.
+        * Selezionare la casella di controllo accanto al nome dell&#39;account, quindi fare clic su **[!UICONTROL Edit]** nella barra degli strumenti Azioni collettive.
 
-      1. Fare clic sulla scheda **[!UICONTROL Upload File]**.
+     1. Fare clic sulla scheda **[!UICONTROL Upload File]**.
 
-      1. Nella casella [!UICONTROL Cloud Storage Link] fare clic su **[!UICONTROL Go to the Link]**.
+     1. Nella casella [!UICONTROL Cloud Storage Link] fare clic su **[!UICONTROL Go to the Link]**.
 
-      1. Fare clic su **[!UICONTROL Show Access Key and Secret]**.
+     1. Fare clic su **[!UICONTROL Show Access Key and Secret]**.
 
-      1. Accanto al campo [!UICONTROL Storage Link], fare clic su **[!UICONTROL Copy]** per copiare il collegamento negli Appunti e archiviarlo in un luogo sicuro.
+     1. Accanto al campo [!UICONTROL Storage Link], fare clic su **[!UICONTROL Copy]** per copiare il collegamento negli Appunti e archiviarlo in un luogo sicuro.
 
-      1. Analogamente, copiare e archiviare in modo sicuro i valori [!UICONTROL Access Key] e [!UICONTROL Secret Key].
+     1. Analogamente, copiare e archiviare in modo sicuro i valori [!UICONTROL Access Key] e [!UICONTROL Secret Key].
 
-      1. Fare clic su **[!UICONTROL Done]**.
+     1. Fare clic su **[!UICONTROL Done]**.
 
-      1. Fare clic su **[!UICONTROL Save]**.
+     1. Fare clic su **[!UICONTROL Save]**.
 
 1. (Una volta per organizzazione) Configura l’ambiente AWS locale:
 
@@ -139,7 +137,7 @@ See "XXX" for information about supported ad networks and account structures.
 
 ## Visualizza un registro dei file di dati dell’account caricati
 
-1. Nel menu principale, fare clic su **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Posizionare il cursore sul nome dell&#39;account, fare clic su **...** e quindi su **[!UICONTROL Upload Logs]**.
 

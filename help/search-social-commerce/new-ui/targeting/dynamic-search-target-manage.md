@@ -1,24 +1,26 @@
 ---
-title: Gestisci [!DNL Google Ads] destinazioni ricerca dinamica
-description: Scopri come creare e gestire  [!DNL Google Ads] destinazioni di ricerca dinamiche.
+title: Gestisci [!DNL Google Ads] destinazioni di ricerca dinamica
+description: Scopri come creare e gestire [!DNL Google Ads] destinazioni di ricerca dinamica.
 exl-id: 5ea68cab-677f-4c7e-8776-24d6546f0b15
 feature: Search Campaign Management
 TQID: 'https://experienceleague.adobe.com/MsSy-p-WSroc3FyiHx6kvcTohEaWOqJCzqbl91mNwK0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 702
+source-wordcount: '705'
 ht-degree: 0%
-
 ---
-
 # Gestisci [!DNL Google Ads] destinazioni di ricerca dinamica
 
 Solo *[!DNL Google Ads]account*
@@ -43,7 +45,7 @@ Per ulteriori informazioni su [!DNL Google Ads] annunci per ricerca dinamica, ve
 
 ## Visualizzazione [!UICONTROL Auto Targets]
 
-La vista [!UICONTROL Target] > [!UICONTROL Auto Targets] elenca tutte le destinazioni di ricerca dinamica nella vista filtrata per l&#39;account dell&#39;inserzionista selezionato. Puoi anche gestire i target di ricerca dinamica.
+La vista [!UICONTROL Targeting] > [!UICONTROL Auto Targets] elenca tutte le destinazioni di ricerca dinamica nella vista filtrata per l&#39;account dell&#39;inserzionista selezionato. Puoi anche gestire i target di ricerca dinamica.
 
 ### Azioni disponibili
 
@@ -178,7 +180,7 @@ You can also delete any dynamic target.
 
 ## Assegna un vincolo alle destinazioni di ricerca dinamica selezionate dalla nuova visualizzazione [!UICONTROL Auto Targets] {#constraint-assign}
 
-1. Nel menu principale, fare clic su **[!UICONTROL Target]>[!UICONTROL Auto Targets]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**.
 
 1. Selezionare la casella di controllo accanto a ogni destinazione di ricerca dinamica a cui assegnare un singolo vincolo.
 
@@ -190,7 +192,7 @@ You can also delete any dynamic target.
 
 ## Rimuovere i vincoli dalle destinazioni di ricerca dinamica selezionate dalla nuova visualizzazione [!UICONTROL Auto Targets] {#constraint-unassign}
 
-1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Auto Targets]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**.
 
 1. Selezionare la casella di controllo accanto a ogni destinazione di ricerca dinamica da cui si desidera annullare l&#39;assegnazione dei vincoli.
 
@@ -204,7 +206,7 @@ You can also delete any dynamic target.
 >
 >I valori delle etichette vengono ereditati dalle entità figlio, pertanto non immettere valori per le entità figlio a meno che non si desideri sostituire i valori ereditati.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Target]>[!UICONTROL Auto Targets]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**.
 
 1. Selezionare la casella di controllo accanto a ogni destinazione di ricerca dinamica a cui assegnare un valore di etichetta.
 
@@ -236,7 +238,7 @@ You can also delete any dynamic target.
 
 Se si rimuove un valore di classificazione, viene rimossa l’associazione con il componente account e tutti i suoi componenti figlio. I dati del rapporto per il valore di classificazione non sono più disponibili per tali componenti. La rimozione di un valore di classificazione non comporta l’eliminazione del valore né dei componenti dell’account.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Target]>[!UICONTROL Auto Targets]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**.
 
 1. Selezionare la casella di controllo accanto a ogni destinazione di ricerca dinamica da cui si rimuoverà un valore di etichetta.
 
@@ -253,4 +255,4 @@ Se si rimuove un valore di classificazione, viene rimossa l’associazione con i
 >[!MORELIKETHIS]
 >
 >* [(Nuova interfaccia) Gestione dei vincoli per le unità di offerta di ricerca](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
->* [(Nuova interfaccia) Gestione classificazioni etichette](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
+>* [(Nuova interfaccia) Gestione classificazioni etichette](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)

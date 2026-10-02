@@ -6,15 +6,15 @@ feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/Q6BgNtx1bPMVXDNdamwGvzcxKh9I8dnm0PRj1ByIktE
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 219
+source-wordcount: '217'
 ht-degree: 0%
-
 ---
-
 # Eliminare le classificazioni delle etichette
 
 L’eliminazione di una classificazione rimuove tutte le associazioni tra i relativi valori figlio e i componenti conto. Una classificazione eliminata e i relativi valori non sono disponibili per un utilizzo futuro. I dati del rapporto per i valori di classificazione non sono più disponibili.
@@ -25,7 +25,7 @@ L’eliminazione di una classificazione rimuove tutte le associazioni tra i rela
 
 ## (Nuova interfaccia) Eliminare le classificazioni delle etichette
 
-1. Fare clic su **[!UICONTROL Reports]>[!UICONTROL Label Classifications]**.
+1. Fare clic su **[!UICONTROL Setup]>[!UICONTROL Label Classifications]**.
 
 1. (Facoltativo) Filtra l’elenco per includere specifiche classificazioni di etichette.
 

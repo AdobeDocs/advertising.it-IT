@@ -1,15 +1,13 @@
 ---
 title: (Nuova interfaccia) Gestisci [!DNL Naver] account solo per il tracciamento
-description: Scopri come impostare e gestire i dettagli dell’account nella nuova interfaccia utente per un account  [!DNL Naver] .
+description: Scopri come impostare e gestire i dettagli dell'account nella nuova interfaccia utente per un account [!DNL Naver].
 feature: Search Campaign Management
 exl-id: bc4be409-9935-448b-bfba-f93eb30bd5ca
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 0%
-
+source-wordcount: '491'
+ht-degree: 1%
 ---
-
 # (Nuova interfaccia) Gestisci [!DNL Naver] account solo per il tracciamento
 
 *funzionalità Beta*
@@ -26,7 +24,7 @@ Per abilitare il tracciamento di un account, devi creare un record account corri
 >
 >Per creare un account effettivo sulla rete di annunci, vai al sito web della rete di annunci.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Fare clic su **[!UICONTROL Create Account]**.
 
@@ -36,7 +34,7 @@ Per abilitare il tracciamento di un account, devi creare un record account corri
 
    1. Nella scheda **[!UICONTROL Enter Account Details]** specificare le impostazioni generali dell&#39;account.
 
-   1. (Inserzionisti con un&#39;integrazione [[!DNL Adobe Analytics for Advertising] 1&rbrace;) Fai clic sulla scheda &#x200B;](/help/integrations/analytics/overview.md) e seleziona tutte le **[!UICONTROL Set up Adobe Analytics]** suite di rapporti da utilizzare per il tracciamento e il reporting dell&#39;attività della campagna.[!DNL Analytics]
+   1. (Inserzionisti con un&#39;integrazione [[!DNL Adobe Analytics for Advertising] 1&rbrace;) Fai clic sulla scheda **[!UICONTROL Set up Adobe Analytics]** e seleziona tutte le [!DNL Analytics] suite di rapporti da utilizzare per il tracciamento e il reporting dell&#39;attività della campagna.](/help/integrations/analytics/overview.md)
 
 1. Fare clic su **[!UICONTROL Save]**.
 
@@ -48,7 +46,7 @@ Per modificare il nome dell&#39;account, cambiare lo stato dell&#39;account o mo
 >
 >Per modificare un account effettivo sulla rete di annunci, vai al sito web della rete di annunci.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Selezionare l&#39;account in uno dei modi seguenti:
 
@@ -60,7 +58,7 @@ Per modificare il nome dell&#39;account, cambiare lo stato dell&#39;account o mo
 
    1. (Facoltativo) Nella scheda **[!UICONTROL Account Details]**, modificare i dettagli dell&#39;account.
 
-   1. (Facoltativo; inserzionisti con un&#39;integrazione [[!DNL Adobe Analytics for Advertising] 1&rbrace;) Fai clic sulla scheda &#x200B;](/help/integrations/analytics/overview.md) e modifica le suite di rapporti **[!UICONTROL Set up Adobe Analytics]** da utilizzare per il tracciamento e il reporting dell&#39;attività della campagna.[!DNL Analytics]
+   1. (Facoltativo; inserzionisti con un&#39;integrazione [[!DNL Adobe Analytics for Advertising] 1&rbrace;) Fai clic sulla scheda **[!UICONTROL Set up Adobe Analytics]** e modifica le suite di rapporti [!DNL Analytics] da utilizzare per il tracciamento e il reporting dell&#39;attività della campagna.](/help/integrations/analytics/overview.md)
 
    <!-- What are the repercussions of changing the suites? Timing of updated data? -->
 
@@ -73,7 +71,7 @@ Per modificare il nome dell&#39;account, cambiare lo stato dell&#39;account o mo
 
 When you enable an ad network account, Search, Social, & Commerce synchronizes campaign data with the account (when supported) and pushes automated bids and/or campaign budgets for campaigns in portfolios. When you disable an ad network account, Search, Social, & Commerce stops all activity on the account. Data collected while the account was active is still stored, but the campaign management views and reports don't include data for the time period in which the account is disabled. You can later re-enable the account to resume activity with the account.
 
-1. In the main menu, click **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. In the main menu, click **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Do either of the following:
 
@@ -126,4 +124,4 @@ Affinché i dati vengano visualizzati nelle suite di rapporti, (a) la funzione A
 >[!MORELIKETHIS]
 >
 >* [Implementa [!DNL Naver] account di sola verifica](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
->* [Informazioni sugli account di rete di annunci](/help/search-social-commerce/new-ui/set-up/accounts/ad-network-account-about.md)
+>* [Informazioni sugli account di rete di annunci](/help/search-social-commerce/new-ui/manage/accounts/ad-network-account-about.md)

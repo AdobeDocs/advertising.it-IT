@@ -4,25 +4,27 @@ description: Scopri come creare, modificare ed eliminare i gruppi di prodotti pe
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fc836f17b53a3708bf881dc62a437d391709a050
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 2337
-ht-degree: 0%
-
+source-wordcount: '2386'
+ht-degree: 2%
 ---
-
 
 # Gestire i gruppi di prodotti
 
 Solo *[!DNL Google Ads]e [!DNL Microsoft Advertising] campagne acquisti*
 
-È possibile creare e gestire gruppi di prodotti nella visualizzazione [!UICONTROL Product Groups] in [!UICONTROL Assets] > [!UICONTROL Shopping].
+È possibile creare e gestire gruppi di prodotti nella visualizzazione [!UICONTROL Manage] > [!UICONTROL Product Groups].
 
 Puoi visualizzare i dati sui gruppi di prodotti in [&#x200B; il [!UICONTROL Product Group Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/product-group-report.md).
 
@@ -69,7 +71,7 @@ Vedere anche la Guida di [!DNL Google Ads] &quot;[Gestire una campagna acquisti 
 
 ## Visualizzazione [!UICONTROL Product Groups]
 
-La visualizzazione [!UICONTROL Product Groups] in [!UICONTROL Assets] > [!UICONTROL Shopping] elenca tutti i gruppi di prodotti nella visualizzazione filtrata per l&#39;account dell&#39;inserzionista selezionato. Puoi anche creare e gestire gruppi di prodotti.
+Nella visualizzazione [!UICONTROL Manage] > [!UICONTROL Product Groups] sono elencati tutti i gruppi di prodotti nella visualizzazione filtrata per l&#39;account dell&#39;inserzionista selezionato. Puoi anche creare e gestire gruppi di prodotti.
 
 ### Azioni disponibili <!-- Go through all -->
 
@@ -103,7 +105,7 @@ Prima di poter creare gruppi di prodotti con attributi specifici, è necessario 
 >
 >Per creare più componenti account contemporaneamente, utilizza [bulksheet campagna](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. Nel menu principale, fare clic su **[!UICONTROL Assets]>[!UICONTROL Shopping]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Product Groups]**.
 
 1. Nella barra degli strumenti sopra la tabella dati, fare clic su **[!UICONTROL Create Product Group]**.
 
@@ -125,7 +127,7 @@ Dopo aver creato almeno un gruppo &quot;[!UICONTROL All Products]&quot; completo
 >
 >Impossibile creare un gruppo di prodotti figlio per un gruppo di prodotti &quot;[!UICONTROL Everything Else]&quot;.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Assets]>[!UICONTROL Shopping]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Product Groups]**.
 
 1. (Facoltativo) Per visualizzare un gruppo di prodotti e i relativi nodi figlio nella visualizzazione Struttura, posizionare il cursore sul nome del gruppo di prodotti e fare clic su **[!UICONTROL ...]>[!UICONTROL Tree View]**.
 
@@ -139,7 +141,7 @@ Dopo aver creato almeno un gruppo &quot;[!UICONTROL All Products]&quot; completo
 
 Puoi modificare il modello di offerta e tracciamento per i nodi del gruppo di prodotti di unità (gruppi di prodotti senza nodi del gruppo di prodotti figlio) inclusi per un gruppo di annunci. Non è possibile modificare alcuna informazione per i gruppi di prodotti di unità esclusi o per i nodi di suddivisione inclusi o esclusi, che sono gruppi di prodotti con nodi di gruppi di prodotti figlio.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Assets]>[!UICONTROL Shopping]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Product Groups]**.
 
 1. (Facoltativo) Per visualizzare un gruppo di prodotti e i relativi nodi figlio nella visualizzazione Struttura, posizionare il cursore sul nome del gruppo di prodotti e fare clic su **[!UICONTROL ...]>[!UICONTROL Tree View]**.
 
@@ -151,7 +153,7 @@ Puoi modificare il modello di offerta e tracciamento per i nodi del gruppo di pr
 
 ## Modifica solo [!UICONTROL Tracking Template] per un nodo gruppo di prodotti {#node-edit-tracking-template}
 
-1. Nel menu principale, fare clic su **[!UICONTROL Assets]>[!UICONTROL Shopping]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Product Groups]**.
 
 1. Posizionare il cursore sul nome del gruppo di prodotti e fare clic su **[!UICONTROL ...]>[!UICONTROL Tree View]** per visualizzare il gruppo di prodotti e i relativi nodi figlio nella visualizzazione Struttura.
 
@@ -161,7 +163,7 @@ Puoi modificare il modello di offerta e tracciamento per i nodi del gruppo di pr
 
 ## Modifica solo [!UICONTROL Max CPC] per un nodo gruppo di prodotti {#node-edit-maxcpc}
 
-1. Nel menu principale, fare clic su **[!UICONTROL Assets]>[!UICONTROL Shopping]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Product Groups]**.
 
 1. Posizionare il cursore sul nome del gruppo di prodotti e fare clic su **[!UICONTROL ...]>[!UICONTROL Tree View]** per visualizzare il gruppo di prodotti e i relativi nodi figlio nella visualizzazione Struttura.
 
@@ -173,7 +175,7 @@ Puoi modificare il modello di offerta e tracciamento per i nodi del gruppo di pr
 
 Puoi eliminare qualsiasi gruppo di prodotti, ad eccezione di un gruppo &quot;Tutto il resto&quot; quando esistono altri gruppi di prodotti allo stesso livello, utilizzato per determinare quali prodotti nell’account del centro commerciale sono inclusi negli annunci commerciali per il gruppo di annunci. Se si elimina un gruppo di prodotti, vengono eliminati anche tutti i gruppi di prodotti secondari.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Assets]>[!UICONTROL Shopping]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Product Groups]**.
 
 1. Posizionare il cursore sul nome del gruppo di prodotti e fare clic su **[!UICONTROL ...]>[!UICONTROL Tree View]** per visualizzare il gruppo di prodotti e i relativi nodi figlio nella visualizzazione Struttura.
 
@@ -183,7 +185,7 @@ Puoi eliminare qualsiasi gruppo di prodotti, ad eccezione di un gruppo &quot;Tut
 
 ## Assegnare un vincolo ai gruppi di prodotti selezionati {#constraint-assign}
 
-1. Nel menu principale, fare clic su **[!UICONTROL Assets]>[!UICONTROL Shopping]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Product Groups]**.
 
 1. Selezionare la casella di controllo accanto a ogni gruppo di prodotti a cui assegnare un singolo vincolo.
 
@@ -195,7 +197,7 @@ Puoi eliminare qualsiasi gruppo di prodotti, ad eccezione di un gruppo &quot;Tut
 
 ## Rimuovi vincoli dai gruppi di prodotti selezionati {#constraint-unassign}
 
-1. Nel menu principale, fare clic su **[!UICONTROL Assets]>[!UICONTROL Shopping]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Product Groups]**.
 
 1. Selezionare la casella di controllo accanto a ciascun gruppo di prodotti da cui si desidera annullare l&#39;assegnazione dei vincoli.
 
@@ -209,7 +211,7 @@ Puoi eliminare qualsiasi gruppo di prodotti, ad eccezione di un gruppo &quot;Tut
 >
 >I valori delle etichette vengono ereditati dalle entità figlio, pertanto non immettere valori per le entità figlio a meno che non si desideri sostituire i valori ereditati.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Assets]>[!UICONTROL Shopping]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Product Groups]**.
 
 1. Selezionare la casella di controllo accanto a ogni gruppo di prodotti a cui assegnare un valore di etichetta.
 
@@ -241,7 +243,7 @@ Puoi eliminare qualsiasi gruppo di prodotti, ad eccezione di un gruppo &quot;Tut
 
 Se si rimuove un valore di classificazione, viene rimossa l’associazione con il componente account e tutti i suoi componenti figlio. I dati del rapporto per il valore di classificazione non sono più disponibili per tali componenti. La rimozione di un valore di classificazione non comporta l’eliminazione del valore né dei componenti dell’account.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Assets]>[!UICONTROL Shopping]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Product Groups]**.
 
 1. Selezionare la casella di controllo accanto a ogni gruppo di prodotti da cui si rimuoverà un valore di etichetta.
 

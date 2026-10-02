@@ -4,13 +4,11 @@ description: Scopri come assegnare vincoli alle parole chiave.
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: 4f08719e-0770-4a65-91b2-80cf03b65557
-source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
+source-git-commit: 5361437bb4c2dac423e718ad92f0b56c0feaca20
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
-
 ---
-
 # (Nuova interfaccia) Gestione delle assegnazioni di vincoli per le parole chiave
 
 *funzionalità Beta*
@@ -30,7 +28,7 @@ L’annullamento dell’assegnazione di un vincolo rimuove l’associazione con 
 
 Puoi assegnare un singolo vincolo a una o più campagne.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Target]>[!UICONTROL Keywords]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Keywords]**.
 
 1. Nella scheda **[!UICONTROL Keywords]** selezionare la casella di controllo accanto a ogni parola chiave a cui assegnare un singolo vincolo.
 
@@ -62,7 +60,7 @@ Puoi assegnare un singolo vincolo a una o più campagne.
 
 ## Rimuovi i vincoli dalle campagne selezionate dalla nuova visualizzazione [!UICONTROL Keywords]
 
-1. Nel menu principale, fare clic su **[!UICONTROL Target]>[!UICONTROL Keywords]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Keywords]**.
 
 1. Nella scheda **[!UICONTROL Keywords]** selezionare la casella di controllo accanto a ogni parola chiave da cui si desidera annullare l&#39;assegnazione dei vincoli.
 
@@ -91,4 +89,4 @@ Puoi assegnare un singolo vincolo a una o più campagne.
 >* [(Nuova interfaccia) Gestione dei vincoli per le unità di offerta di ricerca](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
 >* [(Nuova interfaccia) Gestione assegnazioni vincoli per le campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [(Nuova interfaccia) Gestisci assegnazioni vincoli per gruppi di annunci](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [(Nuova interfaccia) Gestione assegnazioni vincoli per posizionamenti](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
+>* [(Nuova interfaccia) Gestione assegnazioni vincoli per posizionamenti](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)

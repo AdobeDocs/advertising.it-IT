@@ -3,7 +3,7 @@ title: (Nuova interfaccia) Gestione degli account di rete degli annunci
 description: Scopri come impostare e gestire i dettagli dell’account nella nuova interfaccia utente per una rete di annunci sincronizzata tramite l’API della rete di annunci.
 feature: Search Campaign Management
 exl-id: a50b2943-7568-401c-be5b-ff6f62629488
-source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '2143'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Per abilitare la sincronizzazione di un account, è necessario creare un record 
 >
 >Per creare un account effettivo sulla rete di annunci, vai al sito web della rete di annunci.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Fare clic su **[!UICONTROL Create Account]**.
 
@@ -52,7 +52,7 @@ Per autenticare nuovamente le impostazioni dell&#39;account per aggiornare la co
 >
 >Per modificare un account effettivo sulla rete di annunci, vai al sito web della rete di annunci.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Selezionare l&#39;account in uno dei modi seguenti:
 
@@ -74,7 +74,7 @@ Per aggiornare la connessione di rete dell’annuncio o le autorizzazioni di agg
 
 1. (Se hai effettuato l’accesso a un altro account per la stessa rete di annunci nella stessa applicazione del browser) Esci da qualsiasi account diverso da quello dell’inserzionista.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 <!-- For Bing and Yandex, the right-click menu includes "Re authenticate." Clarify why just those types -->
 
@@ -92,7 +92,7 @@ Per aggiornare la connessione di rete dell’annuncio o le autorizzazioni di agg
 
 Quando abiliti un account di ad network, Search, Social e Commerce sincronizzano i dati della campagna con l’account (se supportato) e inviano offerte automatizzate e/o budget delle campagne nei portfolio. Quando disattivi un account di rete di annunci, Search, Social e Commerce interrompe tutte le attività sull’account. I dati raccolti mentre l’account era attivo vengono comunque memorizzati, ma le visualizzazioni e i rapporti di gestione delle campagne non includono i dati per il periodo di tempo in cui l’account è disabilitato. In seguito, potrai riabilitare l’account per riprendere l’attività con l’account.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Effettuare una delle seguenti operazioni:
 
@@ -153,7 +153,7 @@ Le impostazioni dell’account variano a seconda della rete di annunci. Potresti
 
 >[!NOTE]
 >
->Gli account del gestore della rete di annunci non sono supportati qui. Per identificare un account manager per [!DNL Microsoft Advertising], utilizzare rispettivamente il campo ID account principale o Account MCC. Per [configurare le credenziali per un account di manager [!DNL Google Ads] &#x200B;](/help/search-social-commerce/admin/manager-accounts.md), passare a [!UICONTROL Admin] \> [!UICONTROL Manager Accounts].
+>Gli account del gestore della rete di annunci non sono supportati qui. Per identificare un account manager per [!DNL Microsoft Advertising], utilizzare rispettivamente il campo ID account principale o Account MCC. Per [configurare le credenziali per un account di manager [!DNL Google Ads] &#x200B;](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md), passare a [!UICONTROL Setup] \> [!UICONTROL Manager Accounts].
 
 **[!UICONTROL Currency]:** (sola lettura) L&#39;abbreviazione della valuta utilizzata per l&#39;account. Questo valore viene compilato automaticamente con la valuta configurata per l’account sulla rete di annunci una volta salvato il record.
 

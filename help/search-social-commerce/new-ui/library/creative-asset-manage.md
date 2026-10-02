@@ -1,28 +1,30 @@
 ---
 title: Visualizzare e creare risorse creative
-description: Scopri come visualizzare e creare risorse immagine, video e testo riutilizzabili per le  [!DNL Google Ads] e [!DNL Microsoft Advertising] librerie di risorse a livello di account.
+description: Scopri come visualizzare e creare risorse immagine, video e testo riutilizzabili per le librerie di risorse a livello di account [!DNL Google Ads] e [!DNL Microsoft Advertising].
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47301d06bc2a06c2601107abd988e787114e36bb
+    internal-label: User
+source-git-commit: 657d5a874dd41259621bcf87fe750223bb77ca00
 workflow-type: tm+mt
-source-wordcount: 492
+source-wordcount: '494'
 ht-degree: 0%
-
 ---
-
 
 # Visualizzare e creare risorse creative
 
 *Solo per [!DNL Google Ads] e [!DNL Microsoft Advertising] account*
 
-In [!UICONTROL Assets] > [!UICONTROL Creatives], è possibile visualizzare tutte le risorse immagine, video e (solo per [!DNL Google Ads]) testo riutilizzabili nelle librerie di risorse a livello di account [!DNL Google Ads] e [!DNL Microsoft Advertising]. L&#39;elenco include le risorse generate dall&#39;intelligenza artificiale per [!DNL Google Ads] gruppi di annunci nelle campagne abilitate per [!DNL AI Max].
+In [!UICONTROL Library] > [!UICONTROL Creatives], è possibile visualizzare tutte le risorse immagine, video e (solo per [!DNL Google Ads]) testo riutilizzabili nelle librerie di risorse a livello di account [!DNL Google Ads] e [!DNL Microsoft Advertising]. L&#39;elenco include le risorse generate dall&#39;intelligenza artificiale per [!DNL Google Ads] gruppi di annunci nelle campagne abilitate per [!DNL AI Max].
 
 Puoi creare manualmente nuove risorse per un account di rete di annunci e caricarle nella rete di annunci. <!-- Verify if you can use the AI-generated ones -->Puoi utilizzare una qualsiasi delle risorse caricate per le campagne con le massime prestazioni.
 
@@ -30,7 +32,7 @@ Puoi anche rimuovere le risorse di testo generate dall’intelligenza artificial
 
 ## Visualizzare le risorse creative
 
-1. Nel menu principale, fare clic su **[!UICONTROL Assets]>[!UICONTROL Creatives]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Library]>[!UICONTROL Creatives]**.
 
 1. Nella barra degli strumenti, seleziona la rete di annunci e l’account.
 
@@ -42,7 +44,7 @@ Puoi anche rimuovere le risorse di testo generate dall’intelligenza artificial
 
 ## Creare e caricare le risorse
 
-1. Nel menu principale, fare clic su **[!UICONTROL Assets]>[!UICONTROL Creatives]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Library]>[!UICONTROL Creatives]**.
 
 1. Nella barra degli strumenti, seleziona la rete di annunci e l’account.
 
@@ -90,7 +92,7 @@ Puoi anche rimuovere le risorse di testo generate dall’intelligenza artificial
 
 Le risorse di testo rimosse non verranno più servite, ma i dati sulle prestazioni sono ancora disponibili nei rapporti.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Assets]>[!UICONTROL Creatives]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Library]>[!UICONTROL Creatives]**.
 
 1. Nella barra degli strumenti, seleziona la rete di annunci e l’account.
 

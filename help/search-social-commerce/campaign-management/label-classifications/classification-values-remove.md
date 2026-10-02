@@ -6,15 +6,15 @@ feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/xT4LpYXeTtuptPWK-HNQPylOzCFi1TT2FfbfEiuSJeo
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 337
+source-wordcount: '334'
 ht-degree: 0%
-
 ---
-
 # Rimuovere i valori di classificazione delle etichette dai componenti dell’account
 
 Se si rimuove un valore di classificazione, viene rimossa l’associazione con il componente account e tutti i suoi componenti figlio. I dati del rapporto per il valore di classificazione non sono più disponibili per tali componenti. La rimozione di un valore di classificazione non comporta l’eliminazione del valore né dei componenti dell’account.
@@ -27,7 +27,7 @@ Se si rimuove un valore di classificazione, viene rimossa l’associazione con i
 
 Puoi rimuovere i valori di classificazione da tutti i componenti account applicabili disponibili nella nuova interfaccia utente.
 
-1. Aprire la visualizzazione entità dal menu **[!UICONTROL Manage]** o **[!UICONTROL Target]**.
+1. Aprire la visualizzazione entità dal menu **[!UICONTROL Manage]** o **[!UICONTROL Targeting]**.
 
 1. Selezionare la casella di controllo accanto a ogni riga pertinente.
 
@@ -51,11 +51,11 @@ Puoi rimuovere i valori di classificazione da tutti i componenti account applica
 
    * Per rimuovere valori da una o più entità, effettuare le seguenti operazioni:
 
-      * Selezionare la casella di controllo accanto a ogni riga.
+     * Selezionare la casella di controllo accanto a ogni riga.
 
-        Per suggerimenti sulla selezione di più righe, vedere &quot;[Selezionare più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+       Per suggerimenti sulla selezione di più righe, vedere &quot;[Selezionare più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-      * Nella barra degli strumenti sopra la tabella dati fare clic su ![Altro](/help/search-social-commerce/assets/more.png "Altro") e quindi su **[!UICONTROL Classification]**.
+     * Nella barra degli strumenti sopra la tabella dati fare clic su ![Altro](/help/search-social-commerce/assets/more.png "Altro") e quindi su **[!UICONTROL Classification]**.
 
 1. In [!UICONTROL Assignment Details], selezionare **[!UICONTROL Remove]**.
 

@@ -3,13 +3,11 @@ title: Configurare account di rete per il caricamento dei dati
 description: Scopri come impostare e gestire i dettagli di un account di rete di annunci.
 feature: Search Campaign Management
 exl-id: 7e8fb475-21f9-446b-a112-e0f27a4c4172
-source-git-commit: 0305fde5c3448899c8ab8d45777a7bc4ed7089ce
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '551'
 ht-degree: 0%
-
 ---
-
 # Gestire gli account di rete degli annunci per il caricamento dei dati
 
 <!-- Edit all, including title and metadata -->
@@ -24,6 +22,8 @@ Per informazioni dettagliate sulle funzionalità disponibili per ogni rete di an
 
 ## Crea dettagli account {#create-account}
 
+1. Nel menu principale, fare clic su **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
+
 1. Fare clic su **[!UICONTROL Create Account]**.
 
 1. Fare clic sul nome della rete di annunci e quindi su **[!UICONTROL Next]**.
@@ -32,7 +32,7 @@ Per informazioni dettagliate sulle funzionalità disponibili per ogni rete di an
 
    1. Nella scheda **[!UICONTROL Account Details]**, modificare i dettagli dell&#39;account.
 
-   1. (Inserzionisti con un&#39;integrazione [[!DNL Adobe Analytics for Advertising] 1&rbrace;) Fai clic sulla scheda &#x200B;](/help/integrations/analytics/overview.md) e modifica le suite di rapporti **[!UICONTROL Set up Adobe Analytics]** da utilizzare per il tracciamento e il reporting dell&#39;attività della campagna.[!DNL Analytics]
+   1. (Inserzionisti con un&#39;integrazione [[!DNL Adobe Analytics for Advertising] 1&rbrace;) Fai clic sulla scheda **[!UICONTROL Set up Adobe Analytics]** e modifica le suite di rapporti [!DNL Analytics] da utilizzare per il tracciamento e il reporting dell&#39;attività della campagna.](/help/integrations/analytics/overview.md)
 
    1. (Facoltativo) Nella scheda **[!UICONTROL Upload File]**, carica i file di dati per l&#39;account.
 
@@ -40,7 +40,7 @@ Per informazioni dettagliate sulle funzionalità disponibili per ogni rete di an
 
 ## Modifica dettagli account {#edit-account}
 
-1. Nel menu principale, fare clic su **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Selezionare l&#39;account in uno dei modi seguenti:
 
@@ -52,7 +52,7 @@ Per informazioni dettagliate sulle funzionalità disponibili per ogni rete di an
 
    1. (Facoltativo) Nella scheda **[!UICONTROL Account Details]**, modificare i dettagli dell&#39;account.
 
-   1. (Facoltativo; inserzionisti con un&#39;integrazione [[!DNL Adobe Analytics for Advertising] 1&rbrace;) Fai clic sulla scheda &#x200B;](/help/integrations/analytics/overview.md) e modifica le suite di rapporti **[!UICONTROL Set up Adobe Analytics]** da utilizzare per il tracciamento e il reporting dell&#39;attività della campagna.[!DNL Analytics]
+   1. (Facoltativo; inserzionisti con un&#39;integrazione [[!DNL Adobe Analytics for Advertising] 1&rbrace;) Fai clic sulla scheda **[!UICONTROL Set up Adobe Analytics]** e modifica le suite di rapporti [!DNL Analytics] da utilizzare per il tracciamento e il reporting dell&#39;attività della campagna.](/help/integrations/analytics/overview.md)
 
    1. (Facoltativo) Nella scheda **[!UICONTROL Upload File]**, carica i file di dati per l&#39;account.
 
@@ -62,27 +62,27 @@ Per informazioni dettagliate sulle funzionalità disponibili per ogni rete di an
 
 ## Attivare o disattivare gli account di rete degli annunci {#enable-disable-account}
 
-1. Nel menu principale, fare clic su **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Effettuare una delle seguenti operazioni:
 
    * (Dalla visualizzazione [!UICONTROL Accounts]):
 
-      * (Per abilitare l&#39;account) Selezionare la casella di controllo accanto al nome dell&#39;account, quindi fare clic su **[!UICONTROL Activate]** nella barra degli strumenti Azioni collettive.
+     * (Per abilitare l&#39;account) Selezionare la casella di controllo accanto al nome dell&#39;account, quindi fare clic su **[!UICONTROL Activate]** nella barra degli strumenti Azioni collettive.
 
-      * (Per disabilitare l&#39;account) Selezionare la casella di controllo accanto al nome dell&#39;account, quindi fare clic su **[!UICONTROL Pause]** nella barra degli strumenti Azioni collettive.
+     * (Per disabilitare l&#39;account) Selezionare la casella di controllo accanto al nome dell&#39;account, quindi fare clic su **[!UICONTROL Pause]** nella barra degli strumenti Azioni collettive.
 
    * (dalle impostazioni account):
 
-      1. Selezionare l&#39;account in uno dei modi seguenti:
+     1. Selezionare l&#39;account in uno dei modi seguenti:
 
-         * Posizionare il cursore sul nome dell&#39;account, fare clic su **...** e quindi su **[!UICONTROL Edit]**.
+        * Posizionare il cursore sul nome dell&#39;account, fare clic su **...** e quindi su **[!UICONTROL Edit]**.
 
-         * Selezionare la casella di controllo accanto al nome dell&#39;account, quindi fare clic su **[!UICONTROL Edit]** nella barra degli strumenti Azioni collettive.
+        * Selezionare la casella di controllo accanto al nome dell&#39;account, quindi fare clic su **[!UICONTROL Edit]** nella barra degli strumenti Azioni collettive.
 
-      1. Nella scheda **[!UICONTROL Account Details]**, disattivare **[!UICONTROL Account enabled]**.
+     1. Nella scheda **[!UICONTROL Account Details]**, disattivare **[!UICONTROL Account enabled]**.
 
-      1. Fare clic su **[!UICONTROL Save]**.
+     1. Fare clic su **[!UICONTROL Save]**.
 
 ## Impostazioni account {#account-settings-upload}
 

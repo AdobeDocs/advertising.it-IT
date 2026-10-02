@@ -2,13 +2,11 @@
 title: Gestire le classificazioni delle etichette
 description: Scopri come utilizzare le classificazioni delle etichette per raggruppare i componenti dell’account.
 feature: Search Label Classifications
-source-git-commit: 44f83bcf32d671ad96a420827d16d8f1ec39049e
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '1514'
 ht-degree: 0%
-
 ---
-
 # Gestire le classificazioni delle etichette
 
 Le classificazioni delle etichette consentono di raggruppare i componenti dell’account in set significativi. Ad esempio, puoi creare una classificazione dell&#39;etichetta principale denominata &quot;Geo&quot;, creare un valore di etichetta diverso per ogni area geografica (ad esempio &quot;Regno Unito&quot; e &quot;Giappone&quot;) all&#39;interno della classificazione, quindi assegnare i valori dell&#39;etichetta alle tue [unità di offerta](/help/search-social-commerce/glossary.md#a-b) o campagne principali. Puoi quindi includere qualsiasi valore di etichetta come colonna separata nelle viste e nei rapporti, e suddividere i rapporti in base a gruppi di classificazione e valori diversi.
@@ -49,7 +47,7 @@ La visualizzazione [!UICONTROL Reports] > [!UICONTROL Labels Classifications] in
 
 <!-- Update links to bulksheet columns once I have new files/paths -->
 
-1. Fare clic su **[!UICONTROL Reports]>[!UICONTROL Label Classifications]**.
+1. Fare clic su **[!UICONTROL Setup]>[!UICONTROL Label Classifications]**.
 
 1. In alto a destra, fare clic su **[!UICONTROL Create Classification]**.
 
@@ -69,7 +67,7 @@ I valori delle etichette vengono ereditati dalle entità figlio, pertanto non im
 >
 >Le parole chiave e la copia dell&#39;annuncio per alcune reti di annunci e tipi di campagne sono [non modificabili](/help/search-social-commerce/campaign-management/faqs-campaigns.md), il che significa che la loro modifica elimina l&#39;entità esistente e ne crea una nuova. Quando un’entità esistente viene eliminata in questo modo, la classificazione dell’etichetta non viene assegnata alla nuova entità.
 
-1. Aprire la visualizzazione entità dal menu **[!UICONTROL Manage]** o **[!UICONTROL Target]**.
+1. Aprire la visualizzazione entità dal menu **[!UICONTROL Manage]** o **[!UICONTROL Targeting]**.
 
 1. Selezionare la casella di controllo accanto a ogni riga pertinente.
 
@@ -155,7 +153,7 @@ Se si rimuove un valore di classificazione, viene rimossa l’associazione con i
 >
 >Per eliminare un valore da una classificazione etichetta, vedere &quot;[Eliminare i valori di classificazione etichetta](#classification-values-delete).&quot;
 
-1. Aprire la visualizzazione entità dal menu **[!UICONTROL Manage]** o **[!UICONTROL Target]**.
+1. Aprire la visualizzazione entità dal menu **[!UICONTROL Manage]** o **[!UICONTROL Targeting]**.
 
 1. Selezionare la casella di controllo accanto a ogni riga pertinente.
 
@@ -177,7 +175,7 @@ L’eliminazione dei valori di classificazione delle etichette ne rende impossib
 >
 >Per dissociare semplicemente un valore di classificazione da un componente account, vedere &quot;[Rimuovere i valori di classificazione delle etichette dai componenti account](#classification-values-remove).&quot;
 
-1. Fare clic su **[!UICONTROL Reports]>[!UICONTROL Label Classifications]**.
+1. Fare clic su **[!UICONTROL Setup]>[!UICONTROL Label Classifications]**.
 
 1. Fare clic sulla scheda **[!UICONTROL Label Values]**.
 
@@ -201,7 +199,7 @@ L’eliminazione di una classificazione rimuove tutte le associazioni tra i rela
 >
 >Per dissociare semplicemente un valore di classificazione da un componente account, vedere &quot;[Rimuovere i valori di classificazione delle etichette dai componenti account](#classification-values-remove).&quot;
 
-1. Fare clic su **[!UICONTROL Reports]>[!UICONTROL Label Classifications]**.
+1. Fare clic su **[!UICONTROL Setup]>[!UICONTROL Label Classifications]**.
 
 1. (Facoltativo) Filtra l’elenco per includere specifiche classificazioni di etichette.
 
