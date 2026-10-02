@@ -6,15 +6,15 @@ feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/r08RxDrdXIkUP7ZJgw8x-g47m0Ioxjo9SySjg71-PkM
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 764
+source-wordcount: '767'
 ht-degree: 0%
-
 ---
-
 # Assegnare valori di classificazione ai componenti account dalle viste di gestione delle campagne
 
 Puoi assegnare e rimuovere i valori di classificazione per le seguenti entità di ricerca dalle viste di gestione della campagna: campagna, gruppo di annunci, parola chiave, annuncio, posizionamento, gruppo di prodotti a livello di unità e destinazione di ricerca dinamica. Se necessario, è possibile creare classificazioni e valori di classificazione durante il processo di assegnazione. Ogni classificazione di etichetta può avere fino a 2000 valori.
@@ -31,7 +31,7 @@ I valori delle etichette vengono ereditati dalle entità figlio, pertanto non im
 
 Puoi assegnare i valori di classificazione a tutti i componenti account applicabili disponibili nella nuova interfaccia utente.
 
-1. Aprire la visualizzazione entità dal menu **[!UICONTROL Manage]** o **[!UICONTROL Target]**.
+1. Aprire la visualizzazione entità dal menu **[!UICONTROL Manage]** o **[!UICONTROL Targeting]**.
 
 1. Selezionare la casella di controllo accanto a ogni riga pertinente.
 
@@ -69,11 +69,11 @@ Puoi assegnare i valori di classificazione a tutti i componenti account applicab
 
    * Per assegnare valori a una o più entità, effettuare le seguenti operazioni:
 
-      * Selezionare la casella di controllo accanto a ogni riga pertinente.
+     * Selezionare la casella di controllo accanto a ogni riga pertinente.
 
-        Per suggerimenti sulla selezione di più righe, vedere &quot;[Selezionare più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+       Per suggerimenti sulla selezione di più righe, vedere &quot;[Selezionare più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-      * Nella barra degli strumenti sopra la tabella dati fare clic su ![Altro](/help/search-social-commerce/assets/more.png "Altro") e quindi su **[!UICONTROL Classification]**.
+     * Nella barra degli strumenti sopra la tabella dati fare clic su ![Altro](/help/search-social-commerce/assets/more.png "Altro") e quindi su **[!UICONTROL Classification]**.
 
 1. In [!UICONTROL Assignment Details] eseguire una delle operazioni seguenti:
 

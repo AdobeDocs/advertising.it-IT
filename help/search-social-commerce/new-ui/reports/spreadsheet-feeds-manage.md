@@ -2,13 +2,11 @@
 title: (Nuova interfaccia) Gestione dei feed dei rapporti sui fogli di calcolo
 description: Scopri come creare, configurare, aggiornare, visualizzare ed eliminare feed di rapporti di fogli di calcolo che forniscono dati sulle prestazioni giornaliere in un foglio di calcolo personalizzato.
 feature: Search Reports
-source-git-commit: 38ee8dfbaf82d8f1d212a931956398444e61060f
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1498'
 ht-degree: 0%
-
 ---
-
 # (Nuova interfaccia) Gestione dei feed dei rapporti sui fogli di calcolo
 
 *Solo per report di base e report di precisione modello*
@@ -41,14 +39,14 @@ Nella visualizzazione [!UICONTROL Reports] > [!UICONTROL Spreadsheets Feeds] son
 
 Per creare feed di fogli di calcolo, è necessario innanzitutto creare modelli di fogli di calcolo [!DNL Microsoft Excel] con formattazione speciale utilizzando modelli di report standard. Facoltativamente, è possibile personalizzare il foglio di calcolo [!DNL Excel] per includere colonne e grafici aggiuntivi.
 
-1. In **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**, generare il tipo di report desiderato utilizzando un&#39;unità [!UICONTROL Date Aggregation] di &quot;[!UICONTROL Daily]&quot; e con tutti gli altri parametri di dati desiderati, salvando il report come modello.
+1. In **[!UICONTROL Reports]>[!UICONTROL Reports]**, generare il tipo di report desiderato utilizzando un&#39;unità [!UICONTROL Date Aggregation] di &quot;[!UICONTROL Daily]&quot; e con tutti gli altri parametri di dati desiderati, salvando il report come modello.
 
    >[!NOTE]
    >
    > * È possibile creare feed del foglio di calcolo per i report [!UICONTROL Portfolio], [!UICONTROL Search Engine], [!UICONTROL Search Engine Account], [!UICONTROL Campaign], [!UICONTROL Ad Group], [!UICONTROL Ad Variation], [!UICONTROL Keyword] e [!UICONTROL Forecast Accuracy]. Se utilizzi [!UICONTROL Ad Group Report], limita il numero di gruppi di annunci inclusi per ottenere risultati più rapidi.
    > * L&#39;unità [!UICONTROL Date Range] definita nel modello non viene utilizzata. Definirai le date per le quali aggiornare i dati quando configuri il feed del foglio di calcolo in un secondo momento.
 
-1. Dopo la generazione del report, passare a **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]** ed esportare una versione TSV o XLS dell&#39;output del report in un file.
+1. Dopo la generazione del report, passare a **[!UICONTROL Reports]>[!UICONTROL Reports]** ed esportare una versione TSV o XLS dell&#39;output del report in un file.
 
 1. In [!DNL Excel], creare un modello personalizzato per il report:
 
@@ -128,7 +126,7 @@ Per creare feed di fogli di calcolo, è necessario innanzitutto creare modelli d
    >
    > Se il modello di rapporto associato al feed viene successivamente eliminato, anche il feed viene eliminato.
 
-   I feed dei fogli di calcolo vengono aggiornati automaticamente alle ore 08:00 di ogni giorno nel fuso orario dell&#39;inserzionista. Se il modello di rapporto include indirizzi per qualsiasi destinatario e-mail, tali indirizzi ricevono notifiche quando il foglio di calcolo viene aggiornato.
+   I feed dei fogli di calcolo vengono aggiornati automaticamente alle 08:00 ogni giorno nel fuso orario dell’inserzionista. Se il modello di rapporto include indirizzi per qualsiasi destinatario e-mail, tali indirizzi ricevono notifiche quando il foglio di calcolo viene aggiornato.
 
 ## Impostazioni feed report foglio di calcolo {#spreadsheet-feed-settings}
 
@@ -140,7 +138,7 @@ Per creare feed di fogli di calcolo, è necessario innanzitutto creare modelli d
 | [!UICONTROL Back Fill From] | Data di inizio per la quale vengono aggiornati i dati esistenti nella scheda [!UICONTROL RAW], rappresentata da un numero di giorni nel passato. Immetti un valore massimo di 90 giorni; il valore predefinito è sette (7) giorni.<br><br>Ad esempio, se il valore è 7 e oggi è 7 marzo, i dati esistenti nella scheda [!UICONTROL RAW] a partire dal 1 marzo verranno aggiornati (fino alla data di fine specificata dal parametro [!UICONTROL Back Fill Until]). Le righe di dati esistenti per le date precedenti al 1° marzo non vengono eliminate, ma non vengono aggiornate. |
 | [!UICONTROL Back Fill Until] | Data di fine per la quale i dati esistenti nella scheda [!UICONTROL RAW] vengono aggiornati, rappresentata da un numero di giorni nel passato. Il valore predefinito è un (1) giorno.<br><br>Ad esempio, se il valore è 1 e oggi è 7 marzo, i dati esistenti nella scheda [!UICONTROL RAW] verranno aggiornati fino al 6 marzo e a partire dalla data di inizio specificata dal parametro [!UICONTROL Back Fill From]. Se questo valore è 1, il parametro [!UICONTROL Back Fill Until] è 7 e oggi è 7 marzo, i dati esistenti nella scheda [!UICONTROL RAW] vengono aggiornati dal 1° marzo al 6 marzo. In entrambi gli esempi, le righe di dati esistenti per le date successive al 6 marzo non vengono eliminate, ma non vengono aggiornate. |
 | [!UICONTROL Email Recipients] | Indirizzi e-mail a cui inviare notifiche ogni volta che il report viene aggiornato o ogni volta che il report viene eseguito quando il modello include una pianificazione. Per impostazione predefinita, viene immesso l’indirizzo dell’account utente. Per specificare più indirizzi, separali con virgole, spazi o nuove righe. |
-| [!UICONTROL Schedule Time] | Ora di aggiornamento dei feed del foglio di calcolo: alle ore 08:00 o a qualsiasi ora compresa tra le ore 10:00 e 23:00 nel fuso orario dell&#39;inserzionista. Il valore predefinito per i nuovi feed di fogli di calcolo è 10:00.<br><br><b>Nota:</b> Per motivi di prestazioni, non è possibile aggiornare i feed di fogli di calcolo a 09:00 quando vengono generati altri report. |
+| [!UICONTROL Schedule Time] | L&#39;ora in cui i feed del foglio di calcolo vengono aggiornati: alle 08:00 o a qualsiasi ora compresa tra le 10:00 e le 23:00 nel fuso orario dell&#39;inserzionista. Il valore predefinito per i nuovi feed di fogli di calcolo è 10:00.<br><br><b>Nota:</b> Per motivi di prestazioni, non è possibile aggiornare i feed di fogli di calcolo alle 09:00 quando vengono generati altri rapporti. |
 | [!UICONTROL Email Notification] | (Quando si specificano i destinatari e-mail) Cosa includere nelle notifiche e-mail a qualsiasi indirizzo specificato:<ul><li><i>[!UICONTROL Attach feed]</i> — Per inviare una copia del report completato in formato XLSX. Se il file supera i 10 MB, la notifica non include un allegato.</li><li><i>[!UICONTROL Notification Only]</i> (impostazione predefinita) - Per inviare solo una notifica del completamento o dell&#39;errore del report, con un collegamento al report.</li></ul> |
 
 ## Visualizzare o salvare un file di feed di report del foglio di calcolo {#spreadsheet-feed-view-or-save}
@@ -155,7 +153,7 @@ Puoi visualizzare qualsiasi feed di foglio di calcolo generato o salvarlo in un 
 
 >[!NOTE]
 >
->I feed dei fogli di calcolo vengono aggiornati automaticamente alle 08:00 ogni giorno nel fuso orario locale.
+>I feed dei fogli di calcolo vengono aggiornati automaticamente alle 08:00 ogni giorno con il fuso orario locale.
 
 1. Nel menu principale, fare clic su **[!UICONTROL Reports]>[!UICONTROL Spreadsheet Feeds]**.
 

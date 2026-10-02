@@ -6,20 +6,24 @@ feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/k5NsG-RF8c7ELoid8lN3EMbBH8MoA0fUSRcYZnslzfo
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: Optimization
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 2136
+source-wordcount: '2136'
 ht-degree: 0%
-
 ---
-
 # Gestire gli account di rete degli annunci
 
 Di seguito sono riportate le istruzioni per la creazione e la modifica dei dettagli dell&#39;account di rete, l&#39;aggiornamento del token [!DNL oAuth] per un account e la disattivazione degli account.
@@ -30,7 +34,7 @@ Di seguito sono riportate le istruzioni per la creazione e la modifica dei detta
 
 Per informazioni dettagliate sulle funzionalità disponibili per ogni rete di annunci, vedi &quot;[Inventario supportato](/help/search-social-commerce/introduction/supported-inventory.md).&quot;
 
-Per istruzioni sulla gestione degli account di rete degli annunci nella nuova interfaccia utente, vedere &quot;[(Nuova interfaccia utente) Gestire gli account di rete degli annunci tramite la connessione API](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md).&quot;
+Per istruzioni sulla gestione degli account di rete degli annunci nella nuova interfaccia utente, vedere &quot;[(Nuova interfaccia utente) Gestire gli account di rete degli annunci tramite la connessione API](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md).&quot;
 
 ## Crea dettagli account di rete dell’annuncio {#create-account}
 
@@ -139,11 +143,11 @@ Quando abiliti un account di ad network, Search, Social e Commerce sincronizzano
 
    * Per modificare lo stato di uno o più account, effettuare le seguenti operazioni:
 
-      1. Seleziona la casella di controllo accanto a ciascun account.
+     1. Seleziona la casella di controllo accanto a ciascun account.
 
-         Per suggerimenti sulla selezione di più righe, vedere &quot;[Selezionare più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+        Per suggerimenti sulla selezione di più righe, vedere &quot;[Selezionare più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-      1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Icona Attiva](/help/search-social-commerce/assets/activate.png "Icona Attiva") per abilitare l&#39;account o su ![Icona Disattiva](/help/search-social-commerce/assets/disable.png "Icona Disattiva") per disabilitarlo.
+     1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Icona Attiva](/help/search-social-commerce/assets/activate.png "Icona Attiva") per abilitare l&#39;account o su ![Icona Disattiva](/help/search-social-commerce/assets/disable.png "Icona Disattiva") per disabilitarlo.
 
 ## Impostazioni dell’account di rete dell’annuncio {#account-settings}
 
@@ -157,7 +161,7 @@ Quando abiliti un account di ad network, Search, Social e Commerce sincronizzano
 
 >[!NOTE]
 >
->Gli account del gestore della rete di annunci non sono supportati qui. Per identificare un account manager per [!DNL Microsoft Advertising] o [!DNL Yandex], utilizzare rispettivamente il campo ID account principale o Account MCC. Per [configurare le credenziali per un account di manager [!DNL Google Ads] &#x200B;](/help/search-social-commerce/admin/manager-accounts.md), passare a [!UICONTROL Admin] \> [!UICONTROL Manager Accounts].
+>Gli account del gestore della rete di annunci non sono supportati qui. Per identificare un account manager per [!DNL Microsoft Advertising] o [!DNL Yandex], utilizzare rispettivamente il campo ID account principale o Account MCC. Per [configurare le credenziali per un account di manager [!DNL Google Ads] ](/help/search-social-commerce/admin/manager-accounts.md), passare a [!UICONTROL Admin] \> [!UICONTROL Manager Accounts].
 
 **[!UICONTROL Account Name]:** nome da visualizzare per l&#39;account in Search, Social e Commerce.
 
@@ -205,9 +209,9 @@ Gli account che utilizzano il tracciamento dei clic di Adobe Advertising devono 
 
 * Per incorporare l’URL finale:
 
-   * ([!DNL Google Ads] e solo [!DNL Microsoft Advertising]) Per un elenco di parametri per indicare gli URL finali nei modelli di tracciamento, vedere ([!DNL Microsoft Advertising] only) [[!DNL Microsoft Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) o ([!DNL Google Ads] only) i parametri &quot;Tracking template only&quot; nella sezione su &quot;Available [!DNL ValueTrack] Parameters&quot; nella [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
+  * ([!DNL Google Ads] e solo [!DNL Microsoft Advertising]) Per un elenco di parametri per indicare gli URL finali nei modelli di tracciamento, vedere ([!DNL Microsoft Advertising] only) [[!DNL Microsoft Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) o ([!DNL Google Ads] only) i parametri &quot;Tracking template only&quot; nella sezione su &quot;Available [!DNL ValueTrack] Parameters&quot; nella [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
 
-   * ([!DNL LY Ads] solo) Utilizzare il parametro `!{lpurl}` per indicare l&#39;URL della pagina di destinazione.
+  * ([!DNL LY Ads] solo) Utilizzare il parametro `!{lpurl}` per indicare l&#39;URL della pagina di destinazione.
 
 * Facoltativamente, puoi includere i parametri URL ed eventuali parametri personalizzati definiti per la campagna, separati da e commerciali (&amp;), ad esempio `{lpurl}?matchtype={matchtype}&device={device}`.
 
@@ -261,7 +265,7 @@ Gli account che utilizzano il tracciamento dei clic di Adobe Advertising devono 
 
 * **Formato S_kwcid:** (Account [!DNL Google Ads] esistenti per gli inserzionisti con un&#39;integrazione Adobe Advertising-Adobe Analytics e per i quali non è già stata eseguita la migrazione dell&#39;AMO ID (s_kwcid))
 
-Questo account utilizza il formato legacy per il codice di tracciamento AMO ID, che consente ad Adobe Advertising di condividere i dati sull’account con Adobe Analytics. Il [formato più recente](https://experienceleague.adobe.com/it/docs/analytics/components/dimensions/amo-id#dimension-items) include i parametri per l&#39;ID della campagna e l&#39;ID del gruppo di annunci, necessari per creare report accurati a livello di campagna e di gruppo di annunci per le campagne con prestazione massima [!DNL Google Ads], nonché per le bozze e gli esperimenti in Analytics:
+Questo account utilizza il formato legacy per il codice di tracciamento AMO ID, che consente ad Adobe Advertising di condividere i dati sull’account con Adobe Analytics. Il [formato più recente](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) include i parametri per l&#39;ID della campagna e l&#39;ID del gruppo di annunci, necessari per creare report accurati a livello di campagna e di gruppo di annunci per le campagne con prestazione massima [!DNL Google Ads], nonché per le bozze e gli esperimenti in Analytics:
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 

@@ -14,7 +14,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '1733'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Solo *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising], [!DNL Yand
 
 Un annuncio appartiene a un gruppo di annunci e contiene il contenuto visualizzato dagli utenti, ad esempio titolo, descrizione, immagine o altri elementi creativi, a seconda della rete e del tipo di annuncio.
 
-Dopo aver [reso accessibile un account di rete tramite una connessione API](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md) e dopo che Search, Social e Commerce hanno sincronizzato i dati dell&#39;account con la rete di annunci, puoi creare annunci per un tipo di campagna [supportato](/help/search-social-commerce/introduction/supported-inventory.md). Puoi anche modificare e cambiare lo stato degli annunci.
+Dopo aver [reso accessibile un account di rete tramite una connessione API](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md) e dopo che Search, Social e Commerce hanno sincronizzato i dati dell&#39;account con la rete di annunci, puoi creare annunci per un tipo di campagna [supportato](/help/search-social-commerce/introduction/supported-inventory.md). Puoi anche modificare e cambiare lo stato degli annunci.
 
 Per informazioni dettagliate sulle funzionalità disponibili per ogni rete di annunci, vedi &quot;[Inventario supportato](/help/search-social-commerce/introduction/supported-inventory.md).&quot;
 
@@ -127,7 +127,7 @@ Tuttavia, non è disponibile per [!DNL Google Ads] campagne Dynamic Search Ad (D
 
 1. Fare clic su **[!UICONTROL Create]**.
 
-1. &#x200B;<!-- Add link to where to generate this once available to users-->(Acquisti nelle campagne con tracciamento delle conversioni di Adobe Advertising; facoltativo) Per tenere traccia dei clic sull’annuncio, aggiungi manualmente un URL di tracciamento alle impostazioni dell’account, della campagna o del gruppo di prodotti.
+1. <!-- Add link to where to generate this once available to users-->(Acquisti nelle campagne con tracciamento delle conversioni di Adobe Advertising; facoltativo) Per tenere traccia dei clic sull’annuncio, aggiungi manualmente un URL di tracciamento alle impostazioni dell’account, della campagna o del gruppo di prodotti.
 
 ## Rinominare un annuncio {#ad-rename}
 

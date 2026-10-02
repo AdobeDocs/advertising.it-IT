@@ -6,15 +6,15 @@ feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/vVMgSqSBGNN7oqhiY6DLqQZPsi7TowVxNIOTtEtPLg0
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 242
+source-wordcount: '242'
 ht-degree: 0%
-
 ---
-
 # Elimina valori di classificazione delle etichette
 
 L’eliminazione dei valori di classificazione delle etichette ne rende impossibile l’utilizzo futuro e i dati del rapporto non sono più disponibili per tali valori. Tutte le assegnazioni tra i valori e le relative classificazioni dell’etichetta principale e specifici componenti dell’account vengono rimosse, ma le classificazioni dell’etichetta principale e i componenti della campagna non vengono eliminati.
@@ -25,7 +25,7 @@ L’eliminazione dei valori di classificazione delle etichette ne rende impossib
 
 ## (Nuova interfaccia) Elimina i valori di classificazione delle etichette
 
-1. Fare clic su **[!UICONTROL Reports]>[!UICONTROL Label Classifications]**.
+1. Fare clic su **[!UICONTROL Setup]>[!UICONTROL Label Classifications]**.
 
 1. Fare clic sulla scheda **[!UICONTROL Label Values]**.
 

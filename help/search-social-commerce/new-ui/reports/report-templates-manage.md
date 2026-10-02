@@ -2,13 +2,11 @@
 title: (Nuova interfaccia) Gestire i modelli di rapporto
 description: Scopri come creare, visualizzare, modificare ed eliminare modelli di rapporto riutilizzabili per rapporti pianificati e on-demand.
 feature: Search Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
-
 ---
-
 # (Nuova interfaccia) Gestire i modelli di rapporto
 
 I modelli di rapporto sono layout di rapporto predefiniti che è possibile riutilizzare quando si genera la maggior parte dei rapporti. L’utilizzo dei modelli consente di risparmiare tempo se si desidera utilizzare parametri non predefiniti o eseguire varianti dello stesso rapporto oppure se si desidera eseguire lo stesso rapporto in base a una pianificazione regolare. I modelli di rapporto salvati sono disponibili nella sezione Modelli di rapporto della pagina Rapporti.
@@ -27,7 +25,7 @@ Puoi gestire fino a 100 modelli alla volta.
 
 <!-- Add xrefs to report procedures and settings once available -->
 
-1. Nel menu principale, fare clic su **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Reports]>[!UICONTROL Reports]**.
 
 1. Effettuare una delle seguenti operazioni:
 
@@ -35,17 +33,17 @@ Puoi gestire fino a 100 modelli alla volta.
 
    * Per creare un modello basato su un modello esistente:
 
-      1. Fare clic sulla scheda **[!UICONTROL Templates]**.
+     1. Fare clic sulla scheda **[!UICONTROL Templates]**.
 
-      1. Effettuare una delle seguenti operazioni:
+     1. Effettuare una delle seguenti operazioni:
 
-         * Posizionare il cursore sulla riga del modello e fare clic su **...** > **[!UICONTROL Duplicate]**.
+        * Posizionare il cursore sulla riga del modello e fare clic su **...** > **[!UICONTROL Duplicate]**.
 
-         * Selezionare la casella di controllo accanto al modello esistente. Nella barra degli strumenti Azioni in blocco, fare clic su [Duplica](/help/search-social-commerce/assets/duplicate.png).
+        * Selezionare la casella di controllo accanto al modello esistente. Nella barra degli strumenti Azioni in blocco, fare clic su [Duplica](/help/search-social-commerce/assets/duplicate.png).
 
-      1. (Facoltativo) Rinomina il modello e, se necessario, modifica le impostazioni del rapporto.
+     1. (Facoltativo) Rinomina il modello e, se necessario, modifica le impostazioni del rapporto.
 
-         Fare clic su **[!UICONTROL Next]** per spostarsi tra le sezioni di impostazione.
+        Fare clic su **[!UICONTROL Next]** per spostarsi tra le sezioni di impostazione.
 
 1. Abilita l&#39;impostazione **[!UICONTROL Save as Template]**.
 
@@ -97,7 +95,7 @@ Not available to anyone as of 5/21. EDIT ALL IF WE ADD THIS FCT:
 
 Puoi eseguire rapporti per uno o più modelli in qualsiasi momento.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Reports]>[!UICONTROL Reports]**.
 
 1. Fare clic sulla scheda **[!UICONTROL Templates]**.
 
@@ -105,23 +103,23 @@ Puoi eseguire rapporti per uno o più modelli in qualsiasi momento.
 
    * Per eseguire un singolo modello:
 
-      1. Posizionare il cursore sulla riga del modello e fare clic su **...** > **[!UICONTROL Run]**.
+     1. Posizionare il cursore sulla riga del modello e fare clic su **...** > **[!UICONTROL Run]**.
 
-      1. Nel messaggio di conferma, fare clic su **[!UICONTROL Confirm]**.
+     1. Nel messaggio di conferma, fare clic su **[!UICONTROL Confirm]**.
 
    * Per eseguire uno o più modelli:
 
-      1. Selezionare la casella di controllo accanto a ogni modello che si desidera eseguire.
+     1. Selezionare la casella di controllo accanto a ogni modello che si desidera eseguire.
 
-      1. Nella barra degli strumenti Azioni in blocco fare clic su [Esegui](/help/search-social-commerce/assets/run-new.png "Esegui").
+     1. Nella barra degli strumenti Azioni in blocco fare clic su [Esegui](/help/search-social-commerce/assets/run-new.png "Esegui").
 
-      1. Nel messaggio di conferma, fare clic su **[!UICONTROL Confirm]**.
+     1. Nel messaggio di conferma, fare clic su **[!UICONTROL Confirm]**.
 
 ## Eliminare i modelli di rapporto {#template-delete}
 
 Puoi eliminare qualsiasi modello di rapporto disponibile. Quando elimini un modello che include una pianificazione, tale rapporto non viene generato in futuro.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Reports]>[!UICONTROL Reports]**.
 
 1. Fare clic sulla scheda **[!UICONTROL Templates]**.
 
@@ -129,14 +127,14 @@ Puoi eliminare qualsiasi modello di rapporto disponibile. Quando elimini un mode
 
    * Per eliminare un singolo modello:
 
-      1. Posizionare il cursore sulla riga del modello e fare clic su **...** > **[!UICONTROL Delete]**.
+     1. Posizionare il cursore sulla riga del modello e fare clic su **...** > **[!UICONTROL Delete]**.
 
-      1. Nel messaggio di conferma, fare clic su **[!UICONTROL Confirm]**.
+     1. Nel messaggio di conferma, fare clic su **[!UICONTROL Confirm]**.
 
    * Per eliminare uno o più modelli:
 
-      1. Selezionare la casella di controllo accanto a ogni modello che si desidera eliminare.
+     1. Selezionare la casella di controllo accanto a ogni modello che si desidera eliminare.
 
-      1. Nella barra degli strumenti Azioni in blocco, fare clic su [Elimina](/help/search-social-commerce/assets/delete-new.png).
+     1. Nella barra degli strumenti Azioni in blocco, fare clic su [Elimina](/help/search-social-commerce/assets/delete-new.png).
 
-      1. Nel messaggio di conferma, fare clic su **[!UICONTROL Confirm]**.
+     1. Nel messaggio di conferma, fare clic su **[!UICONTROL Confirm]**.

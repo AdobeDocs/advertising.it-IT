@@ -3,13 +3,11 @@ title: (Nuova interfaccia utente) Abilita il caricamento degli obiettivi nelle r
 description: Scopri come caricare gli obiettivi per i portfolio ibridi in Google Ads e Microsoft Advertising.
 feature: Search Objectives, Search Optimization
 hide: true
-source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 0%
-
 ---
-
 # (Nuova interfaccia utente) Abilita il caricamento degli obiettivi nelle reti di annunci
 
 *funzionalità Beta*
@@ -42,7 +40,7 @@ I caricamenti in [!DNL Google Ads] e [!DNL Microsoft Advertising] si verificano 
 
 1. (Inserzionisti con account [!DNL Google Ads] che svolgono attività commerciali nello Spazio economico europeo (SEE) o nel Regno Unito (UK); facoltativo) Se hai raccolto il consenso degli utenti di EEA e UK a caricare i loro dati a scopo pubblicitario, seleziona la casella. Questo invia lo stato del consenso come **[!UICONTROL GRANTED]** a [!DNL Google Ads] e [!DNL Microsoft Advertising]. Se non selezioni la casella di controllo, lo stato del consenso viene inviato come **[!UICONTROL UNSPECIFIED]**.
 
-1. (Se le conversioni vengono tracciate a livello di account manager) [Aggiungi le credenziali per l&#39;account manager](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md) prima di salvare.
+1. (Se le conversioni vengono tracciate a livello di account manager) [Aggiungi le credenziali per l&#39;account manager](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md) prima di salvare.
 
 1. Fare clic su **[!UICONTROL Save]**.
 
@@ -79,7 +77,7 @@ Se l&#39;obiettivo, denominato `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_a
 
 * ([!DNL Google Ads]) Verificare se le conversioni devono essere caricate a livello di account o manager. Se devono essere caricati a livello di manager:
 
-  * Verificare se sono state fornite le credenziali per l&#39;account manager [!DNL Google Ads]. Se necessario, [aggiungi le credenziali per l&#39;account manager](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md).
+  * Verificare se sono state fornite le credenziali per l&#39;account manager [!DNL Google Ads]. Se necessario, [aggiungi le credenziali per l&#39;account manager](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md).
 
   * Verifica se l’account di rete dell’annuncio include già lo stesso nome di metrica. In caso contrario, rinomina la metrica in modo da poter creare la proprietà corretta a livello di manager.
 
@@ -89,7 +87,7 @@ Se l&#39;obiettivo, denominato `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_a
 >
 >* [Informazioni sugli obiettivi](objective-about.md)
 >* [Gestire le metriche di conversione di un inserzionista](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
->* [Gestione credenziali per [!DNL Google Ads] account manager](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)
+>* [Gestione credenziali per [!DNL Google Ads] account manager](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)
 
 <!--
 I don't see this yet in new UI:

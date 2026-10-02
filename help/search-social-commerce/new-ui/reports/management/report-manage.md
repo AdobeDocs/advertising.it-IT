@@ -2,13 +2,11 @@
 title: Gestire i rapporti pianificati
 description: Scopri come gestire i rapporti pianificati.
 feature: Search Reports, Search Basic Reports, Search Advanced Reports, Search Assist Reports, Search Model Accuracy Reports, Search Specialty Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 0%
-
 ---
-
 # Gestire i rapporti pianificati
 
 I rapporti sulle prestazioni consentono di tenere traccia e gestire le prestazioni di portfolio, reti di annunci ed entità account di rete di annunci con la granularità desiderata. La maggior parte dei rapporti fornisce una visibilità completa sul modo in cui gli annunci in ciascun canale di marketing contribuiscono al tasso di conversione complessivo.
@@ -39,9 +37,9 @@ Pianifica la generazione automatica dei rapporti personalizzati in uno o entramb
 
 * Continua ad aggiornare i tuoi modelli di foglio di calcolo personalizzati con i dati sulle prestazioni giornaliere utilizzando [feed di foglio di calcolo](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md).
 
-## Le visualizzazioni [!UICONTROL Scheduled Reports]
+## Le visualizzazioni [!UICONTROL Reports]
 
-Le viste [!UICONTROL Reports] > [!UICONTROL Scheduled Reports] ti consentono di creare e gestire report e modelli di report:
+Le viste [!UICONTROL Reports] > [!UICONTROL Reports] ti consentono di creare e gestire report e modelli di report:
 
 * Nella scheda **[!UICONTROL Latest Reports]** sono elencati tutti i report disponibili<!-- Doesn't seem to be true: that were requested in the last seven days -->, ad eccezione di quelli eliminati manualmente, con il report più recente nella parte superiore per impostazione predefinita. Le informazioni visualizzate per ogni report includono la pianificazione in base alla quale viene eseguito (se applicabile), le date di inizio e fine per le quali sono stati o verranno generati i dati, chi ha creato il report e lo stato del report (*[!UICONTROL Finished]*, *[!UICONTROL In Progress]* o *[!UICONTROL Error]*).
 
@@ -59,14 +57,14 @@ Le viste [!UICONTROL Reports] > [!UICONTROL Scheduled Reports] ti consentono di 
 | ---- | ---- |
 | Monitoraggio delle prestazioni | <ul><li>[I [!UICONTROL Portfolio Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/portfolio-report.md)</li><li>[I [!UICONTROL Search Engine Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/search-engine-report.md)</li><li>[I [!UICONTROL Search Engine Account Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/search-engine-account-report.md)</li><li>[I [!UICONTROL Campaign Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/campaign-report.md)</li><li>[I [!UICONTROL Ad Group Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-group-report.md)</li><li>[I [!UICONTROL Forecast Accuracy Report]](/help/search-social-commerce/new-ui/reports/management/model-accuracy/forecast-accuracy-report.md)</li></ul> |
 | Risoluzione dei problemi relativi alle prestazioni e analisi delle tendenze | <ul><li>[I [!UICONTROL Keyword Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/keyword-report.md)</li><li>[I [!UICONTROL Ad Variation Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-variation-report.md)</li><li>[I [!UICONTROL Transaction Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/transaction-report.md)</li><li>[I [!UICONTROL RSA Asset Report]](/help/search-social-commerce/new-ui/reports/management/specialty/rsa-asset-report.md)</li><li>[I [!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/new-ui/reports/management/specialty/keyword-daily-impression-share-report.md) e [I [!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/new-ui/reports/management/specialty/campaign-daily-impression-share-report.md)</li><li>Qualsiasi report di base che confronta due finestre temporali utilizzando la funzionalità &quot;[!UICONTROL Compare with]&quot;</li></ul> |
-| Identificazione delle opportunità di crescita del business | <ul><li>(Solo per gli inserzionisti con tracciamento delle conversioni di Adobe Advertising) [The [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/geo-distribution-report.md)</li><li>(Solo per gli inserzionisti con tracciamento delle conversioni di Adobe Advertising) [The [!UICONTROL Domain Referral Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/domain-referral-report.md)</li><li>(Inserzionisti con [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=it)) Rapporti personalizzati in Adobe Analytics Analysis Workspace</li></ul> |
-| Analytics | <ul><li>(Solo per gli inserzionisti con tracciamento delle conversioni di Adobe Advertising) [The [!UICONTROL Channel Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)</li><li>(Inserzionisti con [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=it)) Rapporti personalizzati in Adobe Analytics Analysis Workspace</li></ul> |
+| Identificazione delle opportunità di crescita del business | <ul><li>(Solo per gli inserzionisti con tracciamento delle conversioni di Adobe Advertising) [The [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/geo-distribution-report.md)</li><li>(Solo per gli inserzionisti con tracciamento delle conversioni di Adobe Advertising) [The [!UICONTROL Domain Referral Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/domain-referral-report.md)</li><li>(Inserzionisti con [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)) Rapporti personalizzati in Adobe Analytics Analysis Workspace</li></ul> |
+| Analytics | <ul><li>(Solo per gli inserzionisti con tracciamento delle conversioni di Adobe Advertising) [The [!UICONTROL Channel Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)</li><li>(Inserzionisti con [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)) Rapporti personalizzati in Adobe Analytics Analysis Workspace</li></ul> |
 
 ## Generare rapporti
 
 ### Generare un nuovo rapporto
 
-1. Nel menu principale, fare clic su **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Reports]>[!UICONTROL Reports]**.
 
 1. Fare clic su **[!UICONTROL Create Report]**, fare clic sulla categoria del report nel pannello a sinistra, quindi selezionare il tipo di report.<!-- Add link to list of report categories and report types --> Fare clic su **[!UICONTROL Proceed]**.
 
@@ -96,7 +94,7 @@ Se hai immesso indirizzi e-mail per la notifica, ogni destinatario riceve una no
 
 ### Generare un rapporto da un rapporto esistente
 
-1. Nel menu principale, fare clic su **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**, che apre alla scheda **[!UICONTROL Latest Reports]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Reports]>[!UICONTROL Reports]**, che apre alla scheda **[!UICONTROL Latest Reports]**.
 
 1. Effettuare una delle seguenti operazioni:
 
@@ -110,7 +108,7 @@ Se hai immesso indirizzi e-mail per la notifica, ogni destinatario riceve una no
 
 ### Generare un report da un modello esistente
 
-1. Nel menu principale, fare clic su **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Reports]>[!UICONTROL Reports]**.
 
 1. Fare clic sulla scheda **[!UICONTROL Templates]**.
 
@@ -136,45 +134,45 @@ Se hai immesso indirizzi e-mail per la notifica, ogni destinatario riceve una no
 >
 >I membri del Adobe Account Team e alcuni utenti amministratori possono visualizzare i report creati dagli utenti inserzionisti e agenzie.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**, che apre alla scheda **[!UICONTROL Latest Reports]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Reports]>[!UICONTROL Reports]**, che apre alla scheda **[!UICONTROL Latest Reports]**.
 
 1. Effettuare una delle seguenti operazioni:
 
    * Per visualizzare un report nel browser Web, effettuare una delle seguenti operazioni:
 
-      * Posizionare il cursore sulla riga del modello e fare clic su **...** > **[!UICONTROL Preview]**.
+     * Posizionare il cursore sulla riga del modello e fare clic su **...** > **[!UICONTROL Preview]**.
 
-      * Selezionare la casella di controllo accanto al modello esistente. Nella barra degli strumenti Azioni in blocco fare clic su **[!UICONTROL Preview]**.
+     * Selezionare la casella di controllo accanto al modello esistente. Nella barra degli strumenti Azioni in blocco fare clic su **[!UICONTROL Preview]**.
 
    * (Per aprire o salvare i dati del report in un file) Nella colonna [!UICONTROL Export] accanto al nome del report, fare clic sul nome di un formato, quindi aprire o salvare il file in base alla normale procedura del browser:
 
-      * **[!UICONTROL XLS]:** per una cartella di lavoro [!DNL Excel] con un singolo foglio di lavoro (formato XLSX). Il rapporto include un foglio di lavoro etichettato nella parte superiore con i parametri, con una riga per ciascun componente segnalata quando i dati per il componente sono disponibili. Le righe senza dati vengono omesse.
+     * **[!UICONTROL XLS]:** per una cartella di lavoro [!DNL Excel] con un singolo foglio di lavoro (formato XLSX). Il rapporto include un foglio di lavoro etichettato nella parte superiore con i parametri, con una riga per ciascun componente segnalata quando i dati per il componente sono disponibili. Le righe senza dati vengono omesse.
 
-        I rapporti di base includono un totale per ogni colonna numerica.
+       I rapporti di base includono un totale per ogni colonna numerica.
 
-      * **[!UICONTROL TSV]:** per un file TSV. Il rapporto include i parametri e una riga per ciascun componente indicato.
+     * **[!UICONTROL TSV]:** per un file TSV. Il rapporto include i parametri e una riga per ciascun componente indicato.
 
-      * **[!UICONTROL CSV]:** per un file CSV. Il rapporto include i parametri e una riga per ciascun componente indicato.
+     * **[!UICONTROL CSV]:** per un file CSV. Il rapporto include i parametri e una riga per ciascun componente indicato.
 
 ## Eliminare i rapporti
 
-1. Nel menu principale, fare clic su **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**, che apre alla scheda **[!UICONTROL Latest Reports]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Reports]>[!UICONTROL Reports]**, che apre alla scheda **[!UICONTROL Latest Reports]**.
 
 1. Effettuare una delle seguenti operazioni:
 
    * Per eliminare un singolo report:
 
-      1. Posizionare il cursore sulla riga del report e fare clic su **...** > **[!UICONTROL Run]**.
+     1. Posizionare il cursore sulla riga del report e fare clic su **...** > **[!UICONTROL Run]**.
 
-      1. Nel messaggio di conferma, fare clic su **[!UICONTROL Confirm]**.
+     1. Nel messaggio di conferma, fare clic su **[!UICONTROL Confirm]**.
 
    * Per eliminare uno o più rapporti:
 
-      1. Selezionare la casella di controllo accanto a ogni report che si desidera eliminare.
+     1. Selezionare la casella di controllo accanto a ogni report che si desidera eliminare.
 
-      1. Nella barra degli strumenti Azioni in blocco, fare clic su [Elimina](/help/search-social-commerce/assets/delete-new.png "Elimina") **[!UICONTROL Delete]**.
+     1. Nella barra degli strumenti Azioni in blocco, fare clic su [Elimina](/help/search-social-commerce/assets/delete-new.png "Elimina") **[!UICONTROL Delete]**.
 
-      1. Nel messaggio di conferma, fare clic su **[!UICONTROL Confirm]**.
+     1. Nel messaggio di conferma, fare clic su **[!UICONTROL Confirm]**.
 
 <!--
 

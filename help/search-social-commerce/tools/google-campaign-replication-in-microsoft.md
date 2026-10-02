@@ -1,25 +1,25 @@
 ---
-title: Replica  [!DNL Google Ads] campagne in [!DNL Microsoft Advertising]
-description: Scopri come esportare le campagne sincronizzate in un account  [!DNL Google Ads] direttamente in un account [!DNL Microsoft Advertising] sincronizzato.
+title: Replica [!DNL Google Ads] campagne in [!DNL Microsoft Advertising]
+description: Scopri come esportare le campagne sincronizzate in un account [!DNL Google Ads] direttamente in un account [!DNL Microsoft Advertising] sincronizzato.
 exl-id: e7714d3d-4a8e-44ef-a3a7-e5198c091660
 feature: Search Tools
 TQID: https://experienceleague.adobe.com/l0yaZq0hmQSXXeJon22Fm8HOWJ6JDOaZuGqwxVfdw-c
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3f769f18ce006278b12a62f8d837d60affffda65
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 977
+source-wordcount: '981'
 ht-degree: 0%
-
 ---
-
 # Replica [!DNL Google Ads] campagne in [!DNL Microsoft Advertising]
 
 >[!NOTE]
 >
->Le istruzioni per questa attività nella nuova interfaccia sono disponibili in &quot;(Nuova interfaccia) [Replica [!DNL Google Ads] campagne in [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/set-up/google-campaign-replication-in-microsoft.md).&quot;
+>Le istruzioni per questa attività nella nuova interfaccia sono disponibili in &quot;(Nuova interfaccia) [Replica [!DNL Google Ads] campagne in [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/manage/campaigns/google-campaign-replication-in-microsoft.md).&quot;
 
 È possibile esportare le campagne sincronizzate in un account [!DNL Google Ads] direttamente in un account [!DNL Microsoft Advertising] sincronizzato come campagne eCPC (Enhanced CPC). Le offerte e i budget delle campagne esistenti vengono scalati. Il tracciamento di ricerche, social network e Commerce esistente non viene importato.
 
@@ -87,11 +87,11 @@ Vedi [ciò che è stato importato da [!DNL Google Ads] campagne](https://help.ad
 
 * Effettuare una delle seguenti operazioni:
 
-   * Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
+  * Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
-     Per impostazione predefinita, la visualizzazione si apre sulla scheda [!UICONTROL List of Import Jobs].
+    Per impostazione predefinita, la visualizzazione si apre sulla scheda [!UICONTROL List of Import Jobs].
 
-   * Dalla scheda [[!UICONTROL Import Logs]](#campaign-import-log), fare clic sulla scheda **[!UICONTROL List of Import Jobs]**.
+  * Dalla scheda [[!UICONTROL Import Logs]](#campaign-import-log), fare clic sulla scheda **[!UICONTROL List of Import Jobs]**.
 
 ## Eseguire un processo di importazione campagna
 
@@ -131,15 +131,15 @@ Generazione automatica delle credenziali [!DNL Microsoft Advertising] per l&#39;
 
 * *[!UICONTROL Import specific campaigns and adgroups]:* Per selezionare campagne e gruppi di annunci specifici.
 
-   * Per espandere una campagna nei gruppi di annunci figlio, fare clic su **[!UICONTROL >]** dopo il nome della campagna.
+  * Per espandere una campagna nei gruppi di annunci figlio, fare clic su **[!UICONTROL >]** dopo il nome della campagna.
 
-   * Per selezionare una campagna o un gruppo di annunci, seleziona l’elemento in modo che venga visualizzato un segno di spunta.
+  * Per selezionare una campagna o un gruppo di annunci, seleziona l’elemento in modo che venga visualizzato un segno di spunta.
 
-   * Per rimuovere una campagna o un gruppo di annunci:
+  * Per rimuovere una campagna o un gruppo di annunci:
 
-      * Nella colonna [!UICONTROL Campaigns] o [!UICONTROL Adgroups], deseleziona la campagna o il gruppo di annunci in modo che il segno di spunta scompaia.
+    * Nella colonna [!UICONTROL Campaigns] o [!UICONTROL Adgroups], deseleziona la campagna o il gruppo di annunci in modo che il segno di spunta scompaia.
 
-      * Nella colonna [!UICONTROL Selected] fare clic su ![Elimina](/help/search-social-commerce/assets/delete.png "Elimina").
+    * Nella colonna [!UICONTROL Selected] fare clic su ![Elimina](/help/search-social-commerce/assets/delete.png "Elimina").
 
 ### [!UICONTROL Customize your import]
 

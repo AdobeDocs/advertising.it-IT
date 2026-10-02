@@ -7,18 +7,20 @@ exl-id: 7d261ac3-5d89-4357-9866-19a7e3aab837
 TQID: https://experienceleague.adobe.com/G--2kvUQgSzS2pvzybW--3YOQ4apkV-WnqI-e0CKZ98
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: d375af35af1db5aab75db2e712ae54a39f392c3d
+    internal-label: Optimization
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 257
+source-wordcount: '257'
 ht-degree: 0%
-
 ---
-
 # (Nuova interfaccia) Informazioni sulla visualizzazione [!UICONTROL Campaigns]
 
 *funzionalità Beta*
@@ -41,17 +43,17 @@ Search, Social e Commerce estraggono i dati sulle prestazioni ogni ora dagli acc
 
 * Elimina o modifica lo stato di una campagna dalla riga.
 
-* [Assegna campagne a portfolio esistenti o nuovi](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio) e [annulla l&#39;assegnazione di campagne dai portfolio](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+* [Assegna campagne a portfolio esistenti o nuovi](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio) e [annulla l&#39;assegnazione di campagne dai portfolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 
 * [Assegnare vincoli alle campagne e annullare l’assegnazione di vincoli alle campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 
-* [Assegna classificazioni etichette](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md) alle campagne
+* [Assegna classificazioni etichette](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md) alle campagne
 
 * [Gestisci i report di visualizzazione dati dalla visualizzazione [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
 
 >[!MORELIKETHIS]
 >
->* [Assegna campagne a un portfolio](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
->* [Rimuovi campagne da un portfolio](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+>* [Assegna campagne a un portfolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+>* [Rimuovi campagne da un portfolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 >* [Gestione assegnazioni vincoli per le campagne](campaign-constraint-assignments-manage.md)
 >* [Gestisci i report della visualizzazione dati dalla visualizzazione [!UICONTROL Campaigns]](campaign-view-report.md)
