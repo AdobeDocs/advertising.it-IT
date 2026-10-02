@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
+source-git-commit: 657d5a874dd41259621bcf87fe750223bb77ca00
 workflow-type: tm+mt
-source-wordcount: '2396'
+source-wordcount: '2395'
 ht-degree: 2%
 ---
 # Guida di Advertising Search, Social e Commerce {#search-social-commerce}
@@ -26,11 +26,11 @@ ht-degree: 2%
   + [Informazioni su Adobe Advertising Search, Social e Commerce](/help/search-social-commerce/introduction/about.md)
   + [Inventario supportato](/help/search-social-commerce/introduction/supported-inventory.md)
   + Integrazione con Adobe CX Enterprise {#integrations}
-    + [Integrazione con le soluzioni e i servizi aziendali di Adobe CX](/help/search-social-commerce/introduction/integrations.md)
-    + [Adobe [!DNL Analytics for Advertising] (collegamento)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=it){target="_blank"}
-    + [Integrazione con Adobe Audience Manager (collegamento)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=it){target="_blank"}
-  + [Supporto per la privacy del consumatore (collegamento)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=it){target="_blank"}
-  + [Criteri e linee guida (collegamento)](https://experienceleague.adobe.com/it/docs/advertising/policies/ad-requirements-policy){target="_blank"}
+    + [Integrazione con le soluzioni e i servizi Adobe CX Enterprise](/help/search-social-commerce/introduction/integrations.md)
+    + [Adobe [!DNL Analytics for Advertising] (collegamento)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
+    + [Integrazione con Adobe Audience Manager (collegamento)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
+  + [Supporto per la privacy del consumatore (collegamento)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+  + [Criteri e linee guida (collegamento)](https://experienceleague.adobe.com/en/docs/advertising/policies/ad-requirements-policy){target="_blank"}
 + Introduzione {#getting-started}
   + [Panoramica sull’implementazione](/help/search-social-commerce/getting-started/implemention-overview.md)
   + [Requisiti di sistema](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -75,32 +75,6 @@ ht-degree: 2%
   + Dashboard {#dashboard}
     + [Visualizzare il dashboard delle prestazioni](/help/search-social-commerce/new-ui/dashboard/dashboard-overview.md)
     + [Supporto di consigli e approfondimenti per gli editori](/help/search-social-commerce/new-ui/dashboard/recommendations-view-apply.md)
-  + Obiettivi {#goals}
-    + Obiettivi {#objectives}
-      + [Informazioni sugli obiettivi](/help/search-social-commerce/new-ui/goals/objectives/objective-about.md)
-      + [Creare un obiettivo](/help/search-social-commerce/new-ui/goals/objectives/objective-create.md)
-      + [Modificare una finalità](/help/search-social-commerce/new-ui/goals/objectives/objective-edit.md)
-      + [Eliminare una finalità](/help/search-social-commerce/new-ui/goals/objectives/objective-delete.md)
-      + [Applicare raccomandazioni sul peso a un obiettivo](/help/search-social-commerce/new-ui/goals/objectives/objective-apply-weight-recommendations.md)
-      + [Scaricare le metriche delle prestazioni per gli obiettivi](/help/search-social-commerce/new-ui/goals/objectives/objective-download-performance-data.md)
-      + [Impostazioni obiettivo](/help/search-social-commerce/new-ui/goals/objectives/objective-settings.md)
-      + [Abilita il caricamento degli obiettivi nelle reti di annunci](/help/search-social-commerce/new-ui/goals/objectives/objective-upload-to-networks.md)
-    + Conversioni {#conversions}
-      + [Funzioni disponibili per la gestione delle metriche di conversione](/help/search-social-commerce/new-ui/goals/conversions/conversions-about.md)
-      + [Generare e implementare un tag di tracciamento delle conversioni di Adobe Advertising](/help/search-social-commerce/new-ui/goals/conversions/conversion-tag-generate.md)
-      + [Gestire le metriche di conversione di un inserzionista](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
-      + Conversioni avanzate {#enhanced-conversions}
-        + [Crea un&#39;azione di conversione per una conversione  [!DNL Google Ads]  avanzata per i lead](/help/search-social-commerce/new-ui/goals/conversions/conversion-action-google-create.md)
-        + [Carica dati di conversione offline per conversioni avanzate](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md)
-    + [Gestisci [!DNL Google Ads] regole valore di conversione](/help/search-social-commerce/new-ui/goals/conversion-value-rules-manage.md)
-    + [Gestire i vincoli per le unità di offerta di ricerca](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
-  + Piano {#plan}
-    + Simulazioni {#simulations}
-      + [Informazioni sulle simulazioni](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
-      + [Eseguire o rieseguire una simulazione personalizzata](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
-      + [Visualizza dettagli simulazione](/help/search-social-commerce/new-ui/plan/simulations/simulation-view.md)
-      + [Scaricare le simulazioni](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)
-    + [Utilizzo di [!UICONTROL Spend Planner]](/help/search-social-commerce/new-ui/plan/spend-planner.md)
   + Gestisci {#manage}
     + Portafogli {#portfolios}
       + [Informazioni sui portfolio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md)
@@ -117,8 +91,17 @@ ht-degree: 2%
       + [Visualizza dettagli sulle prestazioni del portfolio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)
       + [Visualizzare la cronologia delle modifiche di un portfolio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md)
       + [Gestisci i report di visualizzazione dati dalla visualizzazione [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
+    + Account {#accounts}
+      + [Informazioni sugli account di rete degli annunci](/help/search-social-commerce/new-ui/manage/accounts/ad-network-account-about.md)
+      + Account di connessione API {#api}
+        + [Gestire gli account di rete tramite connessione API](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)
+        + [Sincronizzare manualmente i dati della rete pubblicitaria tramite la connessione API](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/sync-api-accounts.md)
+      + Account di caricamento dati {#data-upload}
+        + [Gestire gli account di rete degli annunci per il caricamento dei dati](/help/search-social-commerce/new-ui/manage/accounts/data-upload-accounts/data-upload-account-manage.md)
+      + [Gestisci [!DNL Naver]  account solo per il tracciamento](/help/search-social-commerce/new-ui/manage/accounts/template-account-manage.md)
     + Campagne {#campaigns}
       + [Gestire le campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)
+      + [Replica  [!DNL Google Ads] campagne in [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/manage/campaigns/google-campaign-replication-in-microsoft.md)
       + Impostazioni di Campaign per rete di annunci {#campaign-settings-by-network}
         + [[!DNL Baidu] impostazioni campagna](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)
         + [[!DNL Google Ads] impostazioni campagna](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)
@@ -145,13 +128,17 @@ ht-degree: 2%
         + [Impostazioni degli annunci reattivi (pubblico) di [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-responsive.md)
         + [[!DNL Microsoft Advertising] impostazioni degli annunci di ricerca responsive](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-rsa.md)
         + [[!DNL Yandex] impostazioni annunci di testo](/help/search-social-commerce/new-ui/manage/ads/ad-settings-yandex-text.md)
+    + Parole chiave {#keywords}
+      + [Informazioni sulla visualizzazione [!UICONTROL Keywords]](/help/search-social-commerce/new-ui/manage/keywords/keyword-view-about.md)
+      + [Gestire le assegnazioni di vincoli per le parole chiave](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
+    + [Gestire i gruppi di prodotti](/help/search-social-commerce/new-ui/manage/product-groups-manage.md)
   + Rapporti {#reports}
     + Rapporti pianificati {#scheduled}
       + [Informazioni sui rapporti pianificati](/help/search-social-commerce/new-ui/reports/report-about.md)
       + [Le attività di configurazione iniziali per i rapporti](/help/search-social-commerce/new-ui/reports/initial-setup.md)
       + [Dati utilizzati per i rapporti](/help/search-social-commerce/new-ui/reports/data-used-for-reports.md)
       + [Gestire i rapporti pianificati](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
-      + Tipi di rapporti pianificati {#report-types}
+      + Tipi di rapporto {#report-types}
         + Rapporti di base e avanzati {#basic-advanced-reports}
           + [Informazioni sui report di base e avanzati](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-about.md)
           + Formati report di base {#basic-report-formats}
@@ -213,33 +200,18 @@ ht-degree: 2%
           + [Impostazioni report di precisione modello](/help/search-social-commerce/new-ui/reports/management/model-accuracy/model-accuracy-report-settings.md)
       + [Gestire i modelli di rapporto](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)
       + [Accesso FTP ai rapporti](/help/search-social-commerce/new-ui/reports/ftp-reports.md)
-      + [Calcolo delle regole di attribuzione](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules){target="_blank"}
-      + [Domande frequenti sui rapporti personalizzati](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report){target="_blank"}
+      + [Calcolo delle regole di attribuzione](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules){target="_blank"}
+      + [Domande frequenti sui rapporti personalizzati](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report){target="_blank"}
     + [Gestire i feed dei report dei fogli di calcolo](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
     + [Visualizzare i registri della cronologia modifiche](/help/search-social-commerce/new-ui/reports/history-logs.md)
-    + [Gestire le classificazioni delle etichette](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
-  + Target {#target}
-    + Parole chiave {#keywords}
-      + [Informazioni sulla visualizzazione [!UICONTROL Keywords]](/help/search-social-commerce/new-ui/target/keywords/keyword-view-about.md)
-      + [Gestire le assegnazioni di vincoli per le parole chiave](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
-    + Posizionamenti {#placements}
-      + [Informazioni sulla visualizzazione [!UICONTROL Placements]](/help/search-social-commerce/new-ui/target/placements/placement-view-about.md)
-      + [Gestire le assegnazioni di vincoli per i posizionamenti](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
-    + [Gestisci [!DNL Google Ads] destinazioni ricerca dinamica](/help/search-social-commerce/new-ui/target/dynamic-search-target-manage.md)
-  + Risorse {#assets}
-    + [Visualizzare e creare risorse creative](/help/search-social-commerce/new-ui/assets/creative-asset-manage.md)
-    + [Gestire i gruppi di prodotti](/help/search-social-commerce/new-ui/assets/product-groups-manage.md)
+  + Piano {#plan}
+    + Simulazioni {#simulations}
+      + [Informazioni sulle simulazioni](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
+      + [Eseguire o rieseguire una simulazione personalizzata](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
+      + [Visualizza dettagli simulazione](/help/search-social-commerce/new-ui/plan/simulations/simulation-view.md)
+      + [Scaricare le simulazioni](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)
+    + [Utilizzo di [!UICONTROL Spend Planner]](/help/search-social-commerce/new-ui/plan/spend-planner.md)
   + Configurazione {#setup}
-    + Account {#accounts}
-      + [Informazioni sugli account di rete degli annunci](/help/search-social-commerce/new-ui/set-up/accounts/ad-network-account-about.md)
-      + Account di connessione API {#api}
-        + [Gestire gli account di rete tramite connessione API](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)
-        + [Gestisci credenziali per  [!DNL Google Ads]  account manager](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)
-        + [Sincronizzare manualmente i dati della rete pubblicitaria tramite la connessione API](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/sync-api-accounts.md)
-      + Account di caricamento dati {#data-upload}
-        + [Gestire gli account di rete degli annunci per il caricamento dei dati](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
-      + [Gestisci [!DNL Naver]  account solo per il tracciamento](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
-    + [Replica  [!DNL Google Ads] campagne in [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/set-up/google-campaign-replication-in-microsoft.md)
     + Bulksheet {#bulksheets}
       + [Informazioni sulla gestione dei dati della campagna tramite bulksheet](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)
       + [Configurare un account FTP per il caricamento dei bulksheet](/help/search-social-commerce/new-ui/set-up/bulksheets/ftp-account.md)
@@ -251,6 +223,34 @@ ht-degree: 2%
       + [Errori di bulksheet](/help/search-social-commerce/new-ui/set-up/bulksheets/errors.md)
       + [Elimina i bulksheet caricati e i file di errore](/help/search-social-commerce/new-ui/set-up/bulksheets/delete.md)
       + [Interruzione di un processo di bulksheet in corso](/help/search-social-commerce/new-ui/set-up/bulksheets/stop-job.md)
+    + [Gestire le classificazioni delle etichette](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)
+    + [Gestisci credenziali per  [!DNL Google Ads]  account manager](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)
+  + Obiettivi {#goals}
+    + Obiettivi {#objectives}
+      + [Informazioni sugli obiettivi](/help/search-social-commerce/new-ui/goals/objectives/objective-about.md)
+      + [Creare un obiettivo](/help/search-social-commerce/new-ui/goals/objectives/objective-create.md)
+      + [Modificare una finalità](/help/search-social-commerce/new-ui/goals/objectives/objective-edit.md)
+      + [Eliminare una finalità](/help/search-social-commerce/new-ui/goals/objectives/objective-delete.md)
+      + [Applicare raccomandazioni sul peso a un obiettivo](/help/search-social-commerce/new-ui/goals/objectives/objective-apply-weight-recommendations.md)
+      + [Scaricare le metriche delle prestazioni per gli obiettivi](/help/search-social-commerce/new-ui/goals/objectives/objective-download-performance-data.md)
+      + [Impostazioni obiettivo](/help/search-social-commerce/new-ui/goals/objectives/objective-settings.md)
+      + [Abilita il caricamento degli obiettivi nelle reti di annunci](/help/search-social-commerce/new-ui/goals/objectives/objective-upload-to-networks.md)
+    + Conversioni {#conversions}
+      + [Funzioni disponibili per la gestione delle metriche di conversione](/help/search-social-commerce/new-ui/goals/conversions/conversions-about.md)
+      + [Generare e implementare un tag di tracciamento delle conversioni di Adobe Advertising](/help/search-social-commerce/new-ui/goals/conversions/conversion-tag-generate.md)
+      + [Gestire le metriche di conversione di un inserzionista](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
+      + Conversioni avanzate {#enhanced-conversions}
+        + [Crea un&#39;azione di conversione per una conversione  [!DNL Google Ads]  avanzata per i lead](/help/search-social-commerce/new-ui/goals/conversions/conversion-action-google-create.md)
+        + [Carica dati di conversione offline per conversioni avanzate](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md)
+    + [Gestisci [!DNL Google Ads] regole valore di conversione](/help/search-social-commerce/new-ui/goals/conversion-value-rules-manage.md)
+    + [Gestire i vincoli per le unità di offerta di ricerca](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
+  + Targeting {#targeting}
+    + [Gestisci [!DNL Google Ads] destinazioni ricerca dinamica](/help/search-social-commerce/new-ui/targeting/dynamic-search-target-manage.md)
+    + Posizionamenti {#placements}
+      + [Informazioni sulla visualizzazione [!UICONTROL Placements]](/help/search-social-commerce/new-ui/targeting/placements/placement-view-about.md)
+      + [Gestire le assegnazioni di vincoli per i posizionamenti](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
+  + Libreria {#library}
+    + [Visualizzare e creare risorse creative](/help/search-social-commerce/new-ui/library/creative-asset-manage.md)
   + [Gestire gli avvisi personalizzati](/help/search-social-commerce/new-ui/alerts-manage.md)
   + [Gestione notifiche](/help/search-social-commerce/new-ui/notifications-manage.md)
   + [Amministrazione utenti](/help/search-social-commerce/new-ui/user-administration.md)
@@ -270,13 +270,13 @@ ht-degree: 2%
         + [Formati di tracciamento dei clic per  [!DNL Yahoo DSP]](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-display-network.md)
         + [Formati di tracciamento dei clic per  [!DNL Yandex]](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
       + [Parametri di tracciamento facoltativi per gli URL di tracciamento dei clic](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-    + [Cookie di Adobe Advertising (collegamento)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=it){target="_blank"}
+    + [Cookie di Adobe Advertising (collegamento)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
     + [Il parametro di tracciamento AMO ID (s_kwcid)](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
   + Tracciamento delle conversioni {#conversion-tracking}
     + [Opzioni di tracciamento delle conversioni](/help/search-social-commerce/tracking/conversion-tracking-about.md)
     + Tracciamento delle conversioni Adobe Advertising {#advertising-conversion-tracking}
       + [Informazioni sui tag di tracciamento delle conversioni di Adobe Advertising](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
-      + [Generare e implementare un tag di conversione Adobe Advertising](https://experienceleague.adobe.com/it/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate){target="_blank"}
+      + [Generare e implementare un tag di conversione Adobe Advertising](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate){target="_blank"}
       + [Formato dei tag di tracciamento delle conversioni di JavaScript versione 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
       + [Formato dei tag di tracciamento delle conversioni di JavaScript versione 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
       + [Formato dei tag di tracciamento conversione immagine](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
@@ -303,7 +303,7 @@ ht-degree: 2%
     + Account di rete dell’annuncio {#ad-network-accounts}
       + [Informazioni sugli account di rete degli annunci](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
       + [Gestire gli account di rete degli annunci](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)
-      + [Aggiorna il codice di tracciamento AMO ID per un account  [!DNL Google Ads] &#x200B;](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
+      + [Aggiorna il codice di tracciamento AMO ID per un account  [!DNL Google Ads] ](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
     + [Gestisci account centro esercenti](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
   + [Implementa [!DNL Naver] account di solo tracciamento](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
   + Gestione delle campagne {#management}
@@ -592,14 +592,14 @@ ht-degree: 2%
   + [Gestione delle credenziali per gli account di Ad Network Manager](/help/search-social-commerce/admin/manager-accounts.md)
   + [Sincronizza  [!DNL Adobe]  tipi di pubblico](/help/search-social-commerce/admin/sync-adobe-audiences.md)
   + Configurazione delle origini dati {#data-sources}
-    + [Informazioni sulla sincronizzazione delle metriche di conversione  [!DNL Google Analytics] &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-about.md)
-    + [Prerequisiti per la configurazione di un&#39;origine dati  [!DNL Google Analytics] &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-prerequisites.md)
+    + [Informazioni sulla sincronizzazione delle metriche di conversione  [!DNL Google Analytics] ](/help/search-social-commerce/admin/data-sources/data-source-about.md)
+    + [Prerequisiti per la configurazione di un&#39;origine dati  [!DNL Google Analytics] ](/help/search-social-commerce/admin/data-sources/data-source-prerequisites.md)
     + [Configura una visualizzazione  [!DNL Google Analytics]  come origine dati](/help/search-social-commerce/admin/data-sources/data-source-configure.md)
-    + [Modifica origine dati  [!DNL Google Analytics] &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-edit.md)
+    + [Modifica origine dati  [!DNL Google Analytics] ](/help/search-social-commerce/admin/data-sources/data-source-edit.md)
     + [Sospendere la sincronizzazione di un&#39;origine dati](/help/search-social-commerce/admin/data-sources/data-source-pause.md)
-    + [Autentica nuovamente un&#39;origine dati  [!DNL Google Analytics] &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)
+    + [Autentica nuovamente un&#39;origine dati  [!DNL Google Analytics] ](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)
     + [[!DNL Google Analytics] impostazioni origine dati](/help/search-social-commerce/admin/data-sources/data-source-settings.md)
-    + [Appendice - Metriche disponibili [!DNL Google Analytics] &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-ga-metrics.md)
+    + [Appendice - Metriche disponibili [!DNL Google Analytics] ](/help/search-social-commerce/admin/data-sources/data-source-ga-metrics.md)
   + Gestione delle metriche di conversione di un inserzionista{#conversion-metrics}
     + [Informazioni sulla gestione delle metriche di conversione di un inserzionista](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
     + [Visualizzare le metriche di conversione tracciate per un inserzionista](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
