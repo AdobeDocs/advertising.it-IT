@@ -43,7 +43,7 @@ I file di bulksheet e i file di errore vengono eliminati automaticamente 30 gior
 
    Le stesse impostazioni si applicano a tutti i file pubblicati.
 
-All&#39;inizio dell&#39;attività, lo stato e la data di pubblicazione pianificata per la riga vengono aggiornati nella visualizzazione [!UICONTROL Bulksheets]. Quando le notifiche e-mail per i bulksheet sono abilitate per [ in [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications-manage.md), al momento della pubblicazione del file viene inviata una notifica e-mail con un collegamento al file. A seconda della quantità di dati compilati, la notifica e-mail potrebbe richiedere alcuni minuti o più. Se non è possibile pubblicare alcun dato, nella visualizzazione [!UICONTROL Bulksheets] viene elencato un file di errore e viene inviata una notifica e-mail con un collegamento al file di errore.
+All&#39;inizio dell&#39;attività, lo stato e la data di pubblicazione pianificata per la riga vengono aggiornati nella visualizzazione [!UICONTROL Bulksheets]. Quando le notifiche e-mail per i bulksheet sono abilitate per [&#x200B; in [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications-manage.md), al momento della pubblicazione del file viene inviata una notifica e-mail con un collegamento al file. A seconda della quantità di dati compilati, la notifica e-mail potrebbe richiedere alcuni minuti o più. Se non è possibile pubblicare alcun dato, nella visualizzazione [!UICONTROL Bulksheets] viene elencato un file di errore e viene inviata una notifica e-mail con un collegamento al file di errore.
 
 >[!NOTE]
 >
