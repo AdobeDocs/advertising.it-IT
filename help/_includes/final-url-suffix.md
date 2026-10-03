@@ -1,9 +1,8 @@
 ---
 source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '154'
 ht-degree: 0%
-
 ---
 # Definizione finale suffisso URL
 
@@ -11,7 +10,7 @@ ht-degree: 0%
 
 **[!UICONTROL Final URL Suffix]:** ([!DNL Google Ads] e [!DNL Microsoft Advertising] account solo; facoltativo) Qualsiasi parametro da aggiungere alla fine degli URL finali per tenere traccia delle informazioni; include tutti i parametri che l&#39;azienda deve monitorare. Esempio:`param1=value1&param2=value2`
 
-Negli account che utilizzano il tracciamento delle conversioni di Adobe Advertising, il suffisso deve includere l&#39;identificatore di clic della rete di annunci (`msclkid` per [!DNL Microsoft Advertising]; `gclid` per [!DNL Google Ads]).
+Negli account che utilizzano il monitoraggio delle conversioni di Adobe Advertising, il suffisso deve includere l&#39;identificatore di clic della rete di annunci (`msclkid` per [!DNL Microsoft Advertising]; `gclid` per [!DNL Google Ads]).
 
 Gli account con integrazione Adobe Analytics devono utilizzare il parametro [AMO ID](/help/integrations/analytics/ids.md). Se l’account dispone di un’implementazione AMO ID lato server, il parametro viene aggiunto automaticamente quando un utente fa clic su un annuncio; in caso contrario, devi aggiungerlo manualmente qui. Vedere i [formati di suffisso richiesti per [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) e [formati di suffisso richiesti per [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
