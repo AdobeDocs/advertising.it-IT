@@ -3,22 +3,29 @@ title: Informazioni sulla gestione delle metriche di conversione di un inserzion
 description: Scopri come utilizzare le metriche di conversione tracciate da Adobe Advertising per un inserzionista.
 feature: Conversions
 exl-id: 8cfb4df8-ed48-4809-b383-7a6011b1f530
-TQID: https://experienceleague.adobe.com/GkZBWh5moYP6yKxE3yhfpUNsTLxpkjFWTThE0tAtNAg
+TQID: 'https://experienceleague.adobe.com/GkZBWh5moYP6yKxE3yhfpUNsTLxpkjFWTThE0tAtNAg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0f74bf7a3cb3a5e56df31ea36ef181c08a0f3aca
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 280
+source-wordcount: '280'
 ht-degree: 0%
-
 ---
-
 # Informazioni sulla gestione delle metriche di conversione di un inserzionista
 
 Le metriche di [conversione](/help/search-social-commerce/glossary.md#c-d) di cui Adobe Advertising tiene traccia per un inserzionista, comprese le metriche di [conversione e coinvolgimento del sito sincronizzate da Adobe Analytics](/help/integrations/analytics/analytics-data-in-advertising.md), vengono utilizzate in Ricerca, Social, Commerce e Advertising DSP.

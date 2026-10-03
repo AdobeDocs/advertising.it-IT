@@ -3,23 +3,35 @@ title: Informazioni sulle librerie creative
 description: Scopri come gestire i creativi delle esperienze pubblicitarie.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-TQID: https://experienceleague.adobe.com/rvm3BAkRlgbJKdpHNoN5oH9sOhqGwOA-3I-XIol0RXc
+TQID: 'https://experienceleague.adobe.com/rvm3BAkRlgbJKdpHNoN5oH9sOhqGwOA-3I-XIol0RXc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: bb1b8bb7-b991-4ae3-96c9-1fe852ffecbf
+    internal-label: Creative libraries
+  - id: d06c1576-7039-4934-b256-7366e138fbb6
+    internal-label: Creative Standard Creatives
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1586
+source-wordcount: '1644'
 ht-degree: 0%
-
 ---
-
 # Informazioni sulle librerie creative
 
 Le librerie creative ti consentono di gestire i contenuti creativi da utilizzare nelle esperienze pubblicitarie. Puoi creare più librerie, ciascuna con un set di creatività e *bundle creativi*, che sono gruppi di creatività che puoi aggiungere a un&#39;esperienza come un&#39;unica unità.
@@ -28,9 +40,9 @@ Le librerie possono includere:
 
 * **Singoli creativi:** Puoi includere singoli creativi direttamente all&#39;interno di esperienze pubblicitarie che non hanno target utente definiti. Puoi anche utilizzare i tuoi creativi per creare bundle, che puoi includere in [esperienze annuncio](/help/creative/experiences/experience-about.md) mirate.
 
-   * **Creative standard:** Puoi caricare e gestire creative in [vari formati](#creative-creative-formats). Per ogni contenuto creativo, specifica la lingua predefinita per ogni annuncio a cui associ il contenuto creativo e la pagina di destinazione predefinita che si apre quando un utente fa clic su un annuncio che include il contenuto creativo. Facoltativamente, è possibile specificare le etichette da utilizzare come filtri in varie visualizzazioni all&#39;interno di [!DNL Creative] e come valori di colonna in [!UICONTROL Custom Creative Report] quando si include l&#39;utilizzo della dimensione [!UICONTROL Creative Label].
+  * **Creative standard:** Puoi caricare e gestire creative in [vari formati](#creative-creative-formats). Per ogni contenuto creativo, specifica la lingua predefinita per ogni annuncio a cui associ il contenuto creativo e la pagina di destinazione predefinita che si apre quando un utente fa clic su un annuncio che include il contenuto creativo. Facoltativamente, è possibile specificare le etichette da utilizzare come filtri in varie visualizzazioni all&#39;interno di [!DNL Creative] e come valori di colonna in [!UICONTROL Custom Creative Report] quando si include l&#39;utilizzo della dimensione [!UICONTROL Creative Label].
 
-   * **Creative dinamiche:** Puoi creare creative generate dinamicamente mappando le variabili dinamiche in un modello di annuncio ai valori in un file di feed. Tutti gli utenti possono visualizzare in anteprima, duplicare ed eliminare gli annunci dinamici esistenti.
+  * **Creative dinamiche:** Puoi creare creative generate dinamicamente mappando le variabili dinamiche in un modello di annuncio ai valori in un file di feed. Tutti gli utenti possono visualizzare in anteprima, duplicare ed eliminare gli annunci dinamici esistenti.
 
 * **Pacchetti creatività:** raggruppa i creativi in bundle da utilizzare in più esperienze con target utente definiti. Puoi creare *bundle di visualizzazione standard* costituiti da annunci di visualizzazione standard, *bundle video standard* costituiti da annunci video standard, *bundle di visualizzazione dinamici* costituiti da annunci di visualizzazione generati dinamicamente e *bundle video dinamici* costituiti da annunci video generati dinamicamente.
 
@@ -61,7 +73,7 @@ Gli annunci display standard includono:
 
 ##### Creatività di HTML5
 
-* **Esperienze GenStudio:** è possibile importare tutte le varianti di annunci da una [esperienza di visualizzazione](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences) in [GenStudio for Performance Marketing](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/home) come singole creative di HTML5. I collegamenti esterni vengono convertiti in riferimenti locali. Il contenuto del HTML può essere fino a 20 MB e le singole immagini fino a 50 MB.
+* **Esperienze GenStudio:** è possibile importare tutte le varianti di annunci da una [esperienza di visualizzazione](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences) in [GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) come singole creative di HTML5. I collegamenti esterni vengono convertiti in riferimenti locali. Il contenuto del HTML può essere fino a 20 MB e le singole immagini fino a 50 MB.
 
   Dopo aver importato un’esperienza GenStudio, puoi modificare i metadati (nome, lingua, tag) per la creatività importata, ma non per il contenuto creativo. Se si modifica l&#39;esperienza GenStudio in GenStudio, reimportare l&#39;esperienza in [!DNL Creative] per utilizzare la versione più recente.
 
@@ -89,7 +101,7 @@ Immetti i tag di tracciamento di JavaScript per i creativi in hosting su server 
 
 È possibile caricare creativi video di prime parti per il Web, i dispositivi mobili o la TV connessa dal dispositivo o dalla rete. Ogni esperienza di annuncio video richiede una creatività video predefinita per ogni durata creativa assegnata all’esperienza. DSP transcodifica automaticamente tutti i contenuti video creati come tag VAST 2.0 per consentirti di visualizzarli in anteprima. In [!UICONTROL Tag Manager], puoi facoltativamente [applicare la transcodifica specifica di DSP](/help/creative/experiences/experience-tag-video-transcoding.md) a qualsiasi tag esperienza annuncio video.
 
-Consulta i seguenti requisiti creativi per il video. **Nota:** per il caricamento di esperienze video in Advertising DSP, vedi anche [Requisiti DSP per Assets video ad alta definizione](https://experienceleague.adobe.com/it/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), che potrebbero essere più limitati.
+Consulta i seguenti requisiti creativi per il video. **Nota:** per il caricamento di esperienze video in Advertising DSP, vedi anche [Requisiti DSP per Assets video ad alta definizione](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), che potrebbero essere più limitati.
 
 **Tipo file:** .mov, .mp4, .webm
 
@@ -147,11 +159,11 @@ Quando sei in modalità scheda, puoi scorrere le immagini in una libreria con pi
 
 * Per ogni libreria creativa:
 
-   * [Modificare il nome di una libreria](/help/creative/creative-libraries/creative-library-manage.md#edit-the-name-of-a-creative-library)
+  * [Modificare il nome di una libreria](/help/creative/creative-libraries/creative-library-manage.md#edit-the-name-of-a-creative-library)
 
-   * [Apri una libreria per visualizzare le creatività e i bundle assegnati alla libreria](/help/creative/creative-libraries/creative-library-manage.md#open-a-creative-library)
+  * [Apri una libreria per visualizzare le creatività e i bundle assegnati alla libreria](/help/creative/creative-libraries/creative-library-manage.md#open-a-creative-library)
 
-   * [Elimina librerie](/help/creative/creative-libraries/creative-library-manage.md#delete-creative-libraries)
+  * [Elimina librerie](/help/creative/creative-libraries/creative-library-manage.md#delete-creative-libraries)
 
 ### Visualizzazioni [!UICONTROL Creative Libraries] > [!UICONTROL Creatives]
 

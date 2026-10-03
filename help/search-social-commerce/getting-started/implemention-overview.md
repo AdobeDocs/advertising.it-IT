@@ -3,23 +3,30 @@ title: Panoramica dell’implementazione di Search, Social e Commerce
 description: Scopri il flusso di lavoro generale per avviare e gestire un portfolio.
 exl-id: c99dc029-81e4-4416-89b1-7cf8d66658b2
 feature: Search Getting Started
-TQID: https://experienceleague.adobe.com/AFMTue1YGuFjAJF04HTHEimfd2JC8ZxSkYCRDu8wDFY
+TQID: 'https://experienceleague.adobe.com/AFMTue1YGuFjAJF04HTHEimfd2JC8ZxSkYCRDu8wDFY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 54967645-9f46-5896-8af7-b943b426aadf
+    internal-label: Search Getting Started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 832
+source-wordcount: '832'
 ht-degree: 0%
-
 ---
-
 # Panoramica dell’implementazione di Search, Social e Commerce
 
 [!DNL Adobe] o una delle sue agenzie affiliate collabora con ogni inserzionista per lanciare i suoi portfolio di pubblicità online e per tenere traccia di eventuali campagne pubblicitarie aggiuntive. Dopo il lancio iniziale, ulteriori attività continuative garantiscono che gli obiettivi dell&#39;inserzionista continueranno a essere raggiunti.
@@ -106,16 +113,16 @@ Dopo il lancio iniziale, sono necessarie le seguenti attività in corso. A secon
 
 * Regola le varie strategie e impostazioni utilizzate per gestire il set di portfolio, se necessario, in base alle prestazioni effettive e previste del portfolio e alle opportunità di crescita:
 
-   * Regola i budget del portfolio, gli obiettivi e altre impostazioni.
+  * Regola i budget del portfolio, gli obiettivi e altre impostazioni.
 
-   * Modifica le strutture account/campagne per adattarle ai cambiamenti nella strategia di marketing.
+  * Modifica le strutture account/campagne per adattarle ai cambiamenti nella strategia di marketing.
 
-   * Aggiungere, mettere in pausa ed eliminare componenti della campagna. Questo può includere l’espansione dei set di parole chiave basati sull’analisi dei termini di ricerca e la verifica delle pagine di destinazione e di copia degli annunci.
+  * Aggiungere, mettere in pausa ed eliminare componenti della campagna. Questo può includere l’espansione dei set di parole chiave basati sull’analisi dei termini di ricerca e la verifica delle pagine di destinazione e di copia degli annunci.
 
-   * Aggiornare le strategie di targeting geografico e del sito in base a rapporti sulle prestazioni avanzati.
+  * Aggiornare le strategie di targeting geografico e del sito in base a rapporti sulle prestazioni avanzati.
 
-   * (Facoltativo) Aggiungi vincoli di offerta alle singole parole chiave di ricerca o a tutte le parole chiave in un gruppo di annunci, una campagna o un portfolio.
+  * (Facoltativo) Aggiungi vincoli di offerta alle singole parole chiave di ricerca o a tutte le parole chiave in un gruppo di annunci, una campagna o un portfolio.
 
-   * Aggiungere nuovi portfolio.
+  * Aggiungere nuovi portfolio.
 
 Per istruzioni sul monitoraggio dei portfolio e sulla regolazione delle strategie di portfolio, vedere il sottocapitolo della Guida &quot;Ottimizzazione&quot; > &quot;Gestione dei portafogli&quot; > &quot;Monitoraggio e gestione delle prestazioni&quot;, disponibile nel menu [!UICONTROL Help] (![Menu Guida](/help/search-social-commerce/assets/help-main-menu.png "Menu Guida")) in alto a destra di qualsiasi pagina di Search, Social &amp; Commerce.

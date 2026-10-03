@@ -3,22 +3,29 @@ title: Personalizzare l’ottimizzazione creativa e la pianificazione di un’es
 description: Scopri come configurare l’ottimizzazione e la pianificazione degli annunci per le esperienze senza targeting.
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-TQID: https://experienceleague.adobe.com/h1LkoqSvnGN24h9Vs-na17q-Ey6JJBOrssM6hOtmoWw
+TQID: 'https://experienceleague.adobe.com/h1LkoqSvnGN24h9Vs-na17q-Ey6JJBOrssM6hOtmoWw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1193
+source-wordcount: '1191'
 ht-degree: 0%
-
 ---
-
 # Personalizza l’ottimizzazione creativa e la pianificazione di un’esperienza senza il targeting della struttura decisionale
 
 *Esperienze con solo creatività esistente*
@@ -55,17 +62,17 @@ Quando la pianificazione creativa è disabilitata, le impostazioni di ottimizzaz
 
    * *[!UICONTROL Algorithmic]:* mostra più spesso le varianti più efficaci dell&#39;annuncio, in base a un obiettivo specificato.
 
-      * Per **[!UICONTROL Optimization Goal]**, seleziona *[!UICONTROL Click Through Rate]*, (esperienze annuncio video standard) *[!UICONTROL Completion Rate]* o *[!UICONTROL Custom Objective]*.  Se selezioni *[!UICONTROL Custom Objective]*, seleziona un [obiettivo personalizzato di Advertising DSP](/help/dsp/optimization/custom-goal.md) esistente.
+     * Per **[!UICONTROL Optimization Goal]**, seleziona *[!UICONTROL Click Through Rate]*, (esperienze annuncio video standard) *[!UICONTROL Completion Rate]* o *[!UICONTROL Custom Objective]*.  Se selezioni *[!UICONTROL Custom Objective]*, seleziona un [obiettivo personalizzato di Advertising DSP](/help/dsp/optimization/custom-goal.md) esistente.
 
    * *[!UICONTROL Sequencing]:* mostra i bundle creativi associati in un ordine specificato (con il bundle 1 servito per primo, il bundle 2 servito per secondo e così via), con un numero totale specificato di impression in ogni sequenza di bundle. Le dimensioni degli annunci offerti sono determinate dall’inventario disponibile. Potete configurare il bundle finale nella sequenza su a\) per visualizzarlo indefinitamente (impostazione predefinita) o b\) per tornare al primo bundle. Ad esempio, puoi visualizzare una qualsiasi delle varianti di annuncio nel Bundle 1 per tre (3) impression, quindi visualizzare una qualsiasi variante di annuncio nel Bundle 2 per una (1) impression, quindi visualizzare una qualsiasi delle varianti di annuncio nel Bundle 3 per due (2) impression e infine ricominciare il ciclo. In alternativa, una volta visualizzate le varianti dell’annuncio nel bundle 3, puoi continuare a visualizzare le varianti dell’annuncio nel Bundle 3 a tempo indefinito, anziché creare un loop. Quando si abilita la sequenza:
 
-      1. Trascina e rilascia i bundle assegnati nell’ordine desiderato.
+     1. Trascina e rilascia i bundle assegnati nell’ordine desiderato.
 
      Per impostazione predefinita, i bundle assegnati sono sequenziati nell’ordine in cui sono stati aggiunti all’esperienza.
 
-      1. Immetti il numero di impression per ciascuna sequenza.
+     1. Immetti il numero di impression per ciascuna sequenza.
 
-      1. Per l&#39;ultima sequenza, modificare se in a\) visualizzare il bundle finale nella sequenza a tempo indefinito (*[!UICONTROL Infinite]* (impostazione predefinita) o b\) tornare al primo bundle dopo la visualizzazione del bundle finale (*[!UICONTROL Keep in Loop]*).
+     1. Per l&#39;ultima sequenza, modificare se in a\) visualizzare il bundle finale nella sequenza a tempo indefinito (*[!UICONTROL Infinite]* (impostazione predefinita) o b\) tornare al primo bundle dopo la visualizzazione del bundle finale (*[!UICONTROL Keep in Loop]*).
 
 1. Fare clic su **[!UICONTROL Save]**.
 
@@ -99,17 +106,17 @@ Quando utilizzi la pianificazione, devi pianificare le creatività per tutta la 
 
       * *[!UICONTROL Algorithmic]:* ruota le creatività in modo algoritmico in base a un obiettivo di ottimizzazione specificato.
 
-         * Per **[!UICONTROL Optimization Goal]**, seleziona *[!UICONTROL Click Through Rate]*, (esperienze annuncio video standard) *[!UICONTROL Completion Rate]* o *[!UICONTROL Custom Objective]*.  Se selezioni *[!UICONTROL Custom Objective]*, seleziona un [obiettivo personalizzato di Advertising DSP](/help/dsp/optimization/custom-goal.md).<!-- Verify --> esistente
+        * Per **[!UICONTROL Optimization Goal]**, seleziona *[!UICONTROL Click Through Rate]*, (esperienze annuncio video standard) *[!UICONTROL Completion Rate]* o *[!UICONTROL Custom Objective]*.  Se selezioni *[!UICONTROL Custom Objective]*, seleziona un [obiettivo personalizzato di Advertising DSP](/help/dsp/optimization/custom-goal.md).<!-- Verify --> esistente
 
       * *[!UICONTROL Sequencing]:* ruota i bundle creativi associati in un ordine specificato (con il bundle 1 servito per primo, il bundle 2 servito per secondo e così via), con un numero totale specificato di impression in ogni sequenza di bundle. Le dimensioni degli annunci offerti sono determinate dall’inventario disponibile. Potete configurare il bundle finale nella sequenza su a\) per visualizzarlo indefinitamente (impostazione predefinita) o b\) per tornare al primo bundle. Ad esempio, puoi mostrare qualsiasi creativo nel Bundle 1 per tre (3) impression, poi mostrare qualsiasi creativo nel Bundle 2 per una (1) impression, quindi mostrare qualsiasi creativo nel Bundle 3 per due (2) impression, e infine ricominciare il ciclo continuo. In alternativa, una volta che i creativi nel Bundle 3 sono visualizzati, è possibile continuare a mostrare i creativi nel Bundle 3 indefinitamente, piuttosto che creare un loop. Quando si abilita la sequenza:
 
-         1. Trascina e rilascia i bundle assegnati nell’ordine desiderato.
+        1. Trascina e rilascia i bundle assegnati nell’ordine desiderato.
 
-            Per impostazione predefinita, i bundle assegnati sono sequenziati nell’ordine in cui sono stati aggiunti all’esperienza.
+           Per impostazione predefinita, i bundle assegnati sono sequenziati nell’ordine in cui sono stati aggiunti all’esperienza.
 
-         1. Immetti il numero di impression per ciascuna sequenza.
+        1. Immetti il numero di impression per ciascuna sequenza.
 
-         1. Per l&#39;ultima sequenza, modificare se in a\) visualizzare il bundle finale nella sequenza a tempo indefinito (*[!UICONTROL Infinite]* (impostazione predefinita) o b\) tornare al primo bundle dopo la visualizzazione del bundle finale (*[!UICONTROL Keep in Loop]*).
+        1. Per l&#39;ultima sequenza, modificare se in a\) visualizzare il bundle finale nella sequenza a tempo indefinito (*[!UICONTROL Infinite]* (impostazione predefinita) o b\) tornare al primo bundle dopo la visualizzazione del bundle finale (*[!UICONTROL Keep in Loop]*).
 
 1. Per ogni programma aggiuntivo:
 
@@ -125,17 +132,17 @@ Quando utilizzi la pianificazione, devi pianificare le creatività per tutta la 
 
       * *[!UICONTROL Algorithmic]:* ruota le creatività in modo algoritmico in base a un obiettivo di ottimizzazione specificato.
 
-         * Per **[!UICONTROL Optimization Goal]**, selezionare *[!UICONTROL Click Through Rate]* o *[!UICONTROL Custom Objective]*.  Se selezioni *[!UICONTROL Custom Objective]*, seleziona un [obiettivo personalizzato di Advertising DSP](/help/dsp/optimization/custom-goal.md).<!-- Verify --> esistente
+        * Per **[!UICONTROL Optimization Goal]**, selezionare *[!UICONTROL Click Through Rate]* o *[!UICONTROL Custom Objective]*.  Se selezioni *[!UICONTROL Custom Objective]*, seleziona un [obiettivo personalizzato di Advertising DSP](/help/dsp/optimization/custom-goal.md).<!-- Verify --> esistente
 
       * *[!UICONTROL Sequencing]:* ruota i bundle creativi associati in un ordine specificato, con un numero totale specificato di impression in ogni sequenza di bundle. Quando si abilita la sequenza:
 
-         1. Trascina e rilascia i bundle assegnati nell’ordine desiderato.
+        1. Trascina e rilascia i bundle assegnati nell’ordine desiderato.
 
-            Per impostazione predefinita, i bundle assegnati sono sequenziati nell’ordine in cui sono stati aggiunti all’esperienza.
+           Per impostazione predefinita, i bundle assegnati sono sequenziati nell’ordine in cui sono stati aggiunti all’esperienza.
 
-         1. Immetti il numero di impression per ciascuna sequenza.
+        1. Immetti il numero di impression per ciascuna sequenza.
 
-         1. Per l&#39;ultima sequenza, modificare se in a\) visualizzare il bundle finale nella sequenza a tempo indefinito (*[!UICONTROL Infinite]* (impostazione predefinita) o b\) tornare al primo bundle dopo la visualizzazione del bundle finale (*[!UICONTROL Keep in Loop]*).
+        1. Per l&#39;ultima sequenza, modificare se in a\) visualizzare il bundle finale nella sequenza a tempo indefinito (*[!UICONTROL Infinite]* (impostazione predefinita) o b\) tornare al primo bundle dopo la visualizzazione del bundle finale (*[!UICONTROL Keep in Loop]*).
 
 1. Fare clic su **[!UICONTROL Save]**.
 

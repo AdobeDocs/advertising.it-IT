@@ -3,18 +3,24 @@ title: Modificare le metriche di conversione disponibili nelle visualizzazioni e
 description: Scopri come rendere disponibili le metriche di conversione nelle visualizzazioni e nei rapporti di gestione.
 feature: Conversions
 exl-id: de3d288a-5fec-4479-92cf-7754390e21bb
-TQID: https://experienceleague.adobe.com/o50AN9pYkuuP-M1e4IAkQOLWSsg584T6TtWnrawAnUU
+TQID: 'https://experienceleague.adobe.com/o50AN9pYkuuP-M1e4IAkQOLWSsg584T6TtWnrawAnUU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 506
+source-wordcount: '504'
 ht-degree: 0%
-
 ---
-
 # Modificare le metriche di conversione disponibili nelle visualizzazioni e nei rapporti di gestione
 
 Quando Adobe Advertising tiene traccia di una metrica di [conversione](/help/search-social-commerce/glossary.md#c-d) per un inserzionista, inizialmente viene esclusa dalle visualizzazioni degli obiettivi del portfolio, dei report e della gestione. Per rendere visibile una metrica di conversione, devi renderla esplicitamente disponibile e quindi, facoltativamente, modificare il nome visualizzato predefinito, che è il nome visualizzato. L&#39;unica eccezione è che le conversioni tracciate dai tag di tracciamento eventi universali [!DNL Google Ads], [!DNL Google Analytics] e [!DNL Microsoft Advertising] sono automaticamente disponibili e visibili.
@@ -41,13 +47,13 @@ Dall’elenco delle metriche di conversione disponibili, ogni utente con accesso
 
    * Per mostrare o nascondere più metriche, effettua le seguenti operazioni:
 
-      1. Seleziona la casella di controllo accanto a ciascuna metrica di conversione.
+     1. Seleziona la casella di controllo accanto a ciascuna metrica di conversione.
 
-         Per suggerimenti sulla selezione di più righe, vedere &quot;[Selezionare più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+        Per suggerimenti sulla selezione di più righe, vedere &quot;[Selezionare più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-      1. Nella barra degli strumenti sopra la tabella dati, fai clic su ![Mostra](/help/search-social-commerce/assets/show.png "Mostra") per mostrare le metriche o su ![Nascondi](/help/search-social-commerce/assets/hide.png "Nascondi") per nasconderle.
+     1. Nella barra degli strumenti sopra la tabella dati, fai clic su ![Mostra](/help/search-social-commerce/assets/show.png "Mostra") per mostrare le metriche o su ![Nascondi](/help/search-social-commerce/assets/hide.png "Nascondi") per nasconderle.
 
-      1. (Per nascondere le metriche) Nel messaggio di conferma, fare clic su **[!UICONTROL Yes]** per nascondere le metriche, inclusa la loro rimozione da qualsiasi metrica derivata che contiene le metriche.
+     1. (Per nascondere le metriche) Nel messaggio di conferma, fare clic su **[!UICONTROL Yes]** per nascondere le metriche, inclusa la loro rimozione da qualsiasi metrica derivata che contiene le metriche.
 
 1. (Facoltativo) [Modifica il nome visualizzato nelle intestazioni di colonna](conversion-metric-edit-display-name.md) per qualsiasi metrica di conversione.
 

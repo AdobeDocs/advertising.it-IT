@@ -3,30 +3,43 @@ title: Best practice per l’impostazione di campagne sulle prestazioni
 description: Scopri le best practice per la configurazione di campagne incentrate sulle prestazioni, che includono posizionamenti ottimizzati per il CPA più basso o il ROAS più alto.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-TQID: https://experienceleague.adobe.com/jIJ9c9tYy3TVXX-YzzIJITaqVOvETuMFDcz3DQMpQcs
+TQID: 'https://experienceleague.adobe.com/jIJ9c9tYy3TVXX-YzzIJITaqVOvETuMFDcz3DQMpQcs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: ed26409b-14af-5033-ae27-1b71cecfe497
+    internal-label: DSP Optimization
+  - id: 1065ba73-45b2-5aee-bca8-3ae622f2c15d
+    internal-label: DSP Best Practices
 subfeature_v2:
   - id: af280ddc-b4d0-4416-86be-8f3ea3c6ebe7
+    internal-label: Optimization
   - id: e9bcaec6-1079-409c-9aee-942e06c44d0a
+    internal-label: Best practices
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 0f74bf7a3cb3a5e56df31ea36ef181c08a0f3aca
+    internal-label: Data management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1289
-ht-degree: 0%
-
+source-wordcount: '1304'
+ht-degree: 1%
 ---
-
 # Best practice per l’impostazione di campagne sulle prestazioni
 
 DSP può ottimizzare le campagne incentrate sulle prestazioni. Consulta le seguenti best practice per le campagne sulle prestazioni:
@@ -55,10 +68,10 @@ I pacchetti Upper funnel includono posizionamenti con targeting molto ampio per 
 
 * Trova nuovi tipi di pubblico che potrebbero essere convertiti utilizzando le seguenti tattiche:
 
-   * Modellazione lookalike da una piattaforma di gestione dati (DMP), ad esempio Adobe Audience Manager.
-   * Targeting comportamentale con dati di terze parti.
-   * Targeting contestuale.
-   * Targeting di siti/categorie.
+  * Modellazione lookalike da una piattaforma di gestione dati (DMP), ad esempio Adobe Audience Manager.
+  * Targeting comportamentale con dati di terze parti.
+  * Targeting contestuale.
+  * Targeting di siti/categorie.
 
 * Utilizzo del targeting di rete (RON): è importante includere un’esecuzione del posizionamento di rete senza targeting di pubblico e con targeting di inventario ampio. Questo consente all&#39;algoritmo basato su [!DNL Adobe AI] di trovare utenti importanti che potrebbero disporre di cookie più recenti non ancora classificati in un pubblico.
 
@@ -93,8 +106,8 @@ Inoltre, utilizza le seguenti impostazioni.
 * **Obiettivi di ottimizzazione:** Utilizzare uno dei due obiettivi di ottimizzazione delle prestazioni, *[!UICONTROL Highest Return on Ad Spend]* o *[!UICONTROL Lowest Cost per Acquisition]*, a seconda dell&#39;obiettivo del pacchetto. Questi obiettivi ottimizzano automaticamente il pacchetto rispettivamente verso i posizionamenti ROAS più elevati o CPA più bassi.
 
 * **Obiettivi personalizzati:**
-   * Se un nuovo pacchetto ha lo stesso obiettivo di un pacchetto esistente, puoi facoltativamente collegare il pacchetto esistente in modo che l’algoritmo possa utilizzare i dati di apprendimento automatico esistenti.
-   * Immettere il [!UICONTROL Target CPA] o il [!UICONTROL Target ROAS] appropriato.
+  * Se un nuovo pacchetto ha lo stesso obiettivo di un pacchetto esistente, puoi facoltativamente collegare il pacchetto esistente in modo che l’algoritmo possa utilizzare i dati di apprendimento automatico esistenti.
+  * Immettere il [!UICONTROL Target CPA] o il [!UICONTROL Target ROAS] appropriato.
 
 * **Andamento di volo e Andamento infragiornaliero:** Per entrambi i tipi di andamento, selezionare *[!UICONTROL Even]* per massimizzare gli obiettivi prestazionali eseguendo un andamento uniforme durante ogni giorno e per l&#39;intero volo.
 
@@ -115,14 +128,14 @@ Di seguito sono riportate le impostazioni di posizionamento consigliate per le c
 È necessario configurare l’ottimizzazione CPA o ROAS a livello di pacchetto (vedere Passaggio 3 - Creare pacchetti), ma è possibile aggiungere ulteriori impostazioni a livello di posizionamento.
 
 * **Offerta massima:**
-   * Per la ricerca di posizionamenti, utilizza un&#39;offerta massima bassa ($ 5).
-   * Per i posizionamenti di retargeting, utilizza un’offerta massima elevata ($ 12).
+  * Per la ricerca di posizionamenti, utilizza un&#39;offerta massima bassa ($ 5).
+  * Per i posizionamenti di retargeting, utilizza un’offerta massima elevata ($ 12).
 
 * **Filtri pre-offerta:** Riduci al minimo o evita idealmente di impostare filtri pre-offerta aggressivi che impediscono al posizionamento di raggiungere la scalabilità. Le best practice includono:
 
-   * Utilizza un (1) filtro di pre-offerta per posizionamento. L’utilizzo di più filtri pre-offerta richiede il rispetto di entrambi, il che riduce la scalabilità.
+  * Utilizza un (1) filtro di pre-offerta per posizionamento. L’utilizzo di più filtri pre-offerta richiede il rispetto di entrambi, il che riduce la scalabilità.
 
-   * Prendi in considerazione l’impostazione di filtri pre-offerta meno rigidi nei casi in cui viene applicato un targeting aggiuntivo (come targeting di pubblico, geografico e del sito).
+  * Prendi in considerazione l’impostazione di filtri pre-offerta meno rigidi nei casi in cui viene applicato un targeting aggiuntivo (come targeting di pubblico, geografico e del sito).
 
 Consulta le descrizioni di quando utilizzare ogni filtro di pre-offerta a [Filtri di pre-offerta a livello di posizionamento e come utilizzarli](/help/dsp/optimization/optimization-pre-bid-filters.md).
 
@@ -140,10 +153,10 @@ Per ottimizzare la scalabilità, utilizzare [!UICONTROL Public] (Open Exchange) 
 <!-- Say something about limiting unnecessary constraints/limitations, including dayparting, which limit your chances for ad exposure. Use only when it's required for your audience. -->
 
 * **[!UICONTROL Included Audiences]:**
-   * Per la ricerca di posizionamenti, raggruppa categorie di pubblico simili e dimensioni di pubblico simili in un unico posizionamento. Quindi, in base alle prestazioni, eseguire una delle operazioni seguenti:
-      * Rimuovi i tipi di pubblico con prestazioni meno soddisfacenti dai posizionamenti esistenti.
-      * Sposta i tipi di pubblico con prestazioni migliori in un posizionamento separato per controllare meglio i budget.
-   * Per i posizionamenti di retargeting, è consigliabile includere un segmento di pubblico per posizionamento per controllare facilmente le offerte e il budget.
+  * Per la ricerca di posizionamenti, raggruppa categorie di pubblico simili e dimensioni di pubblico simili in un unico posizionamento. Quindi, in base alle prestazioni, eseguire una delle operazioni seguenti:
+    * Rimuovi i tipi di pubblico con prestazioni meno soddisfacenti dai posizionamenti esistenti.
+    * Sposta i tipi di pubblico con prestazioni migliori in un posizionamento separato per controllare meglio i budget.
+  * Per i posizionamenti di retargeting, è consigliabile includere un segmento di pubblico per posizionamento per controllare facilmente le offerte e il budget.
 
 >[!NOTE]
 >
@@ -152,13 +165,13 @@ Per ottimizzare la scalabilità, utilizzare [!UICONTROL Public] (Open Exchange) 
 > È possibile evitare la sovrapposizione dei tipi di pubblico creando i tipi di pubblico in livelli in modo da poter eliminare i livelli più alti e più inclusivi dai posizionamenti in base alle esigenze.
 
 * **[!UICONTROL Frequency Capping]:**
-   * Per la ricerca di posizionamenti, utilizza limiti di frequenza stretti (un’impression al giorno).
-   * Per i posizionamenti di retargeting, imposta il limite di posizionamento principale su 6-10 impression al giorno e il limite secondario su un’impression all’ora.
+  * Per la ricerca di posizionamenti, utilizza limiti di frequenza stretti (un’impression al giorno).
+  * Per i posizionamenti di retargeting, imposta il limite di posizionamento principale su 6-10 impression al giorno e il limite secondario su un’impression all’ora.
 
 * **[!UICONTROL Device Targeting]**:
-   * Includi [!UICONTROL Computer], [!UICONTROL Mobile] e [!UICONTROL Tablet].
-   * Non eseguire il targeting di [!UICONTROL Firefox] e [!UICONTROL Safari] a causa di limitazioni di targeting e misurazione. Contatta il team del tuo account Adobe per ulteriori dettagli sul supporto di [!DNL Adobe] per [!DNL Safari ITP].
-   * Se esegui il targeting del traffico web per dispositivi mobili, disabilita tutti i browser mobili eccetto [!UICONTROL Chrome] e [!UICONTROL Edge].
+  * Includi [!UICONTROL Computer], [!UICONTROL Mobile] e [!UICONTROL Tablet].
+  * Non eseguire il targeting di [!UICONTROL Firefox] e [!UICONTROL Safari] a causa di limitazioni di targeting e misurazione. Contatta il team del tuo account Adobe per ulteriori dettagli sul supporto di [!DNL Adobe] per [!DNL Safari ITP].
+  * Se esegui il targeting del traffico web per dispositivi mobili, disabilita tutti i browser mobili eccetto [!UICONTROL Chrome] e [!UICONTROL Edge].
 
 ### Sicurezza del brand e qualità dei media
 

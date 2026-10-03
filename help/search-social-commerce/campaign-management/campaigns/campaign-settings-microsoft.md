@@ -1,25 +1,32 @@
 ---
 title: '[!DNL Microsoft Advertising] impostazioni campagna'
-description: Fai riferimento alle impostazioni per  [!DNL Microsoft Advertising]  campagne.
+description: Fai riferimento alle impostazioni per [!DNL Microsoft Advertising] campagne.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/1odLCTaPgF8iGeVgys2j124fhX1K208YYq0ftDp9l7w
+TQID: 'https://experienceleague.adobe.com/1odLCTaPgF8iGeVgys2j124fhX1K208YYq0ftDp9l7w'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
+    internal-label: Machine learning
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2112
+source-wordcount: '2113'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft Advertising] impostazioni campagna
 
 ## \[Schermata Creazione campagna\]
@@ -83,7 +90,7 @@ la campagna può contenere:
 
 * *[!UICONTROL Manual CPC]*: (campagne acquisti per marchi; [!DNL Microsoft Store Ads] campagne; obsoleto per altri tipi di campagne) usa il modello CPC (costo per clic). Per alcuni tipi di annunci, puoi facoltativamente consentire alla rete di annunci di modificare le offerte per la campagna:
 
-   * **[!UICONTROL Enable Enhanced CPC]** (disabilitato per impostazione predefinita): questa opzione è uguale a quella utilizzata per l&#39;opzione &quot;[!UICONTROL Enhanced CPC]&quot;.
+  * **[!UICONTROL Enable Enhanced CPC]** (disabilitato per impostazione predefinita): questa opzione è uguale a quella utilizzata per l&#39;opzione &quot;[!UICONTROL Enhanced CPC]&quot;.
 
 * *[!UICONTROL Manual CPA]:* ([!DNL Microsoft Store Ads] campagne) Utilizza il modello di costo per acquisizione (CPA).
 
@@ -224,21 +231,21 @@ Per informazioni sulla disponibilità, vedere la Guida di Microsoft Advertising 
 
 * Per caricare le immagini:
 
-   1. Nella scheda [!UICONTROL Upload from Device], fare clic su **[!UICONTROL +]** e selezionare le immagini dal dispositivo o dalla rete.
+  1. Nella scheda [!UICONTROL Upload from Device], fare clic su **[!UICONTROL +]** e selezionare le immagini dal dispositivo o dalla rete.
 
-   1. Per ogni immagine:
+  1. Per ogni immagine:
 
-      1. Seleziona le proporzioni.
+     1. Seleziona le proporzioni.
 
-      1. Trascinate e posizionate la casella di ritaglio in base alle necessità per selezionare la parte visualizzabile dell&#39;immagine e, se possibile, ridimensionate la parte visualizzabile.
+     1. Trascinate e posizionate la casella di ritaglio in base alle necessità per selezionare la parte visualizzabile dell&#39;immagine e, se possibile, ridimensionate la parte visualizzabile.
 
-      1. (Facoltativo) Selezionate altre proporzioni e, se necessario, riposizionate e ridimensionate l&#39;immagine per ogni proporzione selezionata.
+     1. (Facoltativo) Selezionate altre proporzioni e, se necessario, riposizionate e ridimensionate l&#39;immagine per ogni proporzione selezionata.
 
-         Viene creata una risorsa per ogni proporzione selezionata.
+        Viene creata una risorsa per ogni proporzione selezionata.
 
-      1. Fare clic su **[!UICONTROL Proceed]**.
+     1. Fare clic su **[!UICONTROL Proceed]**.
 
-   1. Dopo aver specificato le immagini, fare clic su **[!UICONTROL Upload]**.
+  1. Dopo aver specificato le immagini, fare clic su **[!UICONTROL Upload]**.
 
 * Per selezionare le immagini da [!UICONTROL Asset Library], fare clic su **[!UICONTROL Asset Library]** e selezionare le immagini.
 
@@ -246,21 +253,21 @@ Per informazioni sulla disponibilità, vedere la Guida di Microsoft Advertising 
 
 * Per caricare le immagini:
 
-   1. Nella scheda [!UICONTROL Upload from Device], fare clic su **[!UICONTROL +]** e selezionare le immagini dal dispositivo o dalla rete.
+  1. Nella scheda [!UICONTROL Upload from Device], fare clic su **[!UICONTROL +]** e selezionare le immagini dal dispositivo o dalla rete.
 
-   1. Per ogni immagine:
+  1. Per ogni immagine:
 
-      1. Seleziona le proporzioni.
+     1. Seleziona le proporzioni.
 
-      1. Trascinate e posizionate la casella di ritaglio in base alle necessità per selezionare la parte visualizzabile dell&#39;immagine e, se possibile, ridimensionate la parte visualizzabile.
+     1. Trascinate e posizionate la casella di ritaglio in base alle necessità per selezionare la parte visualizzabile dell&#39;immagine e, se possibile, ridimensionate la parte visualizzabile.
 
-      1. (Facoltativo) Selezionate altre proporzioni e, se necessario, riposizionate e ridimensionate l&#39;immagine per ogni proporzione selezionata.
+     1. (Facoltativo) Selezionate altre proporzioni e, se necessario, riposizionate e ridimensionate l&#39;immagine per ogni proporzione selezionata.
 
-         Viene creata una risorsa per ogni proporzione selezionata.
+        Viene creata una risorsa per ogni proporzione selezionata.
 
-      1. Fare clic su **[!UICONTROL Proceed]**.
+     1. Fare clic su **[!UICONTROL Proceed]**.
 
-   1. Dopo aver specificato le immagini, fare clic su **[!UICONTROL Upload]**.
+  1. Dopo aver specificato le immagini, fare clic su **[!UICONTROL Upload]**.
 
 * Per selezionare le immagini da [!UICONTROL Asset Library], fare clic su **[!UICONTROL Asset Library]** e selezionare le immagini.
 
@@ -268,9 +275,9 @@ Per informazioni sulla disponibilità, vedere la Guida di Microsoft Advertising 
 
 * Per immettere il testo:
 
-   1. Nella scheda [!UICONTROL Enter Text] immettere il testo.
+  1. Nella scheda [!UICONTROL Enter Text] immettere il testo.
 
-   1. (Facoltativo) Per aggiungere un&#39;altra stringa di testo, fare clic su **[!UICONTROL + Add]** e immettere la stringa.
+  1. (Facoltativo) Per aggiungere un&#39;altra stringa di testo, fare clic su **[!UICONTROL + Add]** e immettere la stringa.
 
 * Per selezionare le risorse da [!UICONTROL Asset Library], fai clic su **[!UICONTROL Asset Library]** e seleziona le risorse.
 
@@ -278,9 +285,9 @@ Per informazioni sulla disponibilità, vedere la Guida di Microsoft Advertising 
 
 * Per immettere il testo:
 
-   1. Nella scheda [!UICONTROL Enter Text] immettere il testo.
+  1. Nella scheda [!UICONTROL Enter Text] immettere il testo.
 
-   1. (Facoltativo) Per aggiungere un&#39;altra stringa di testo, fare clic su **[!UICONTROL + Add]** e immettere la stringa.
+  1. (Facoltativo) Per aggiungere un&#39;altra stringa di testo, fare clic su **[!UICONTROL + Add]** e immettere la stringa.
 
 * Per selezionare le risorse da [!UICONTROL Asset Library], fai clic su **[!UICONTROL Asset Library]** e seleziona le risorse.
 
@@ -288,9 +295,9 @@ Per informazioni sulla disponibilità, vedere la Guida di Microsoft Advertising 
 
 * Per immettere il testo:
 
-   1. Nella scheda [!UICONTROL Enter Text] immettere il testo.
+  1. Nella scheda [!UICONTROL Enter Text] immettere il testo.
 
-   1. (Facoltativo) Per aggiungere un&#39;altra stringa di testo, fare clic su **[!UICONTROL + Add]** e immettere la stringa.
+  1. (Facoltativo) Per aggiungere un&#39;altra stringa di testo, fare clic su **[!UICONTROL + Add]** e immettere la stringa.
 
 * Per selezionare le risorse da [!UICONTROL Asset Library], fai clic su **[!UICONTROL Asset Library]** e seleziona le risorse.
 

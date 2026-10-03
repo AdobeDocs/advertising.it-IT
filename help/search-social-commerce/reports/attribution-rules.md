@@ -3,24 +3,31 @@ title: Calcolo delle regole di attribuzione
 description: Scopri come Adobe Advertising calcola ogni tipo di regola di attribuzione.
 exl-id: 15beeadd-bb65-4efe-8c4f-34c4a48cc775
 feature: Search Reports, DSP Custom Reports
-TQID: https://experienceleague.adobe.com/LJri0oJaUSYMUwauq-xu8u41CYmQcfmJBbYXrMd4YUE
+TQID: 'https://experienceleague.adobe.com/LJri0oJaUSYMUwauq-xu8u41CYmQcfmJBbYXrMd4YUE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: a8f4be51-fec2-5e52-b41e-a611c28e444c
+    internal-label: DSP Custom Reports
 subfeature_v2:
   - id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
+    internal-label: Custom reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2707
+source-wordcount: '2767'
 ht-degree: 0%
-
 ---
-
 # Calcolo delle regole di attribuzione per Adobe Advertising
 
 *Inserzionisti con solo monitoraggio delle conversioni di Adobe Advertising*
@@ -33,15 +40,15 @@ Puoi anche selezionare una regola di attribuzione nelle seguenti posizioni per a
 
 * DSP
 
-   * Rapporti personalizzati
+  * Rapporti personalizzati
 
 * Ricerca, social e Commerce
 
-   * Rapporti
+  * Rapporti
 
-   * Visualizzazioni predefinite e personalizzate
+  * Visualizzazioni predefinite e personalizzate
 
-   * (Alcuni ruoli utente) Simulazioni a livello di Portfolio.
+  * (Alcuni ruoli utente) Simulazioni a livello di Portfolio.
 
 >[!NOTE]
 >
@@ -66,7 +73,7 @@ Quando la conversione è preceduta solo dalle impression, viene considerata una 
 
 Percorso evento: Click1, Click2, Click3, Conversione di 120 USD
 
-La conversione è attribuita al Click 3 per un importo di 120 USD.
+La conversione viene attribuita al clic 3 nella quantità di 120 USD.
 
 ### Esempio con impression e clic
 
@@ -74,19 +81,19 @@ La conversione è attribuita al Click 3 per un importo di 120 USD.
 
 Percorso evento: impression 1, click 1, impression 2, conversione da 120 USD
 
-La conversione è attribuita al Click 1 per un importo di 120 USD.
+La conversione viene attribuita al clic 1 nella quantità di 120 USD.
 
 ### Esempio con tutte le impression
 
 **Nota:** sono applicabili solo le impression per la visualizzazione e gli annunci social.
 
-Percorso evento: Impression 1, Impression 2, Impression 3, Conversione di 120 USD
+Percorso evento: impression 1, impression 2, impression 3, conversione da 120 USD
 
 La conversione è attribuita all’impression 3. Poiché la conversione è una view-through, viene applicato il metodo di valutazione view-through selezionato nella sezione &quot;Attribuzione conversione&quot; delle impostazioni del rapporto:
 
 * Se il parametro report specifica un peso di visualizzazione ponderato, tale peso viene applicato al view-through. Ad esempio, se il peso view-through dell’inserzionista è 40%, allora 120 USD x 40% = 48 USD, quindi 48 USD è attribuito a Impression 3.
 
-* Se il parametro del report specifica l&#39;utilizzo di valori non elaborati per le visite, non viene applicato alcun peso di visualizzazione e l&#39;intero valore di 120 USD viene attribuito all&#39;impression 3.
+* Se il parametro del report specifica l&#39;utilizzo di valori non elaborati per le visite, non viene applicato alcun peso di visualizzazione e l&#39;intero valore USD 120 viene attribuito all&#39;impression 3.
 
 +++
 
@@ -106,9 +113,9 @@ Quando la conversione è preceduta solo dalle impression, viene considerata una 
 
 ### Esempio con tutti i clic
 
-Percorso evento: Click 1, Click 2, Click 3, Conversione di 120 USD
+Percorso evento: fai clic su 1, fai clic su 2, fai clic su 3, Conversione di 120 USD
 
-La conversione è attribuita al Click 1 per un importo di 120 USD.
+La conversione viene attribuita al clic 1 nella quantità di 120 USD.
 
 ### Esempio con impression e clic
 
@@ -116,20 +123,20 @@ La conversione è attribuita al Click 1 per un importo di 120 USD.
 
 Percorso evento: impression 1, click 1, impression 2, conversione da 120 USD
 
-La conversione è attribuita al Click 1 per un importo di 120 USD.
+La conversione viene attribuita al clic 1 nella quantità di 120 USD.
 
 ### Esempio con tutte le impression
 
 **Nota:** sono applicabili solo le impression per la visualizzazione e gli annunci social.
 
-Percorso evento: Impression 1, Impression 2, Impression 3, Conversione di 120 USD
+Percorso evento: impression 1, impression 2, impression 3, conversione da 120 USD
 
 La conversione è attribuita all’impression 1. Poiché la conversione è una view-through, il metodo di valutazione view-through selezionato in &quot;Conversione (campagne di visualizzazione)&quot;
 Viene applicata la sezione &quot;Attribution&quot; delle impostazioni del rapporto:
 
-* Se il parametro report specifica un peso di visualizzazione ponderato, tale peso viene applicato al view-through. Ad esempio, se il peso view-through dell’inserzionista è 40%, allora 120 x 40% = 48 USD, quindi 48 USD è attribuito a Impression 1.
+* Se il parametro report specifica un peso di visualizzazione ponderato, tale peso viene applicato al view-through. Ad esempio, se il peso view-through dell’inserzionista è 40%, allora 120 x 40% = 48 USD, 48 USD viene attribuito all’impression 1.
 
-* Se il parametro del report specifica l&#39;utilizzo di valori non elaborati per le visite, non viene applicato alcun peso di visualizzazione e l&#39;intero valore di 120 USD viene attribuito all&#39;impression 1.
+* Se il parametro del report specifica l&#39;utilizzo di valori non elaborati per le visite, non viene applicato alcun spessore di visualizzazione e l&#39;intero valore USD 120 viene attribuito all&#39;impression 1.
 
 +++
 
@@ -137,7 +144,7 @@ Viene applicata la sezione &quot;Attribution&quot; delle impostazioni del rappor
 
 ## Spessore primo evento Altro
 
-Attribuisce la conversione a tutti gli eventi della serie che si sono verificati nell&#39;[intervallo di lookback su clic](/help/search-social-commerce/glossary.md#c-d) e nell&#39;[intervallo di lookback su impression](/help/search-social-commerce/glossary.md#i-j) dell&#39;inserzionista, ma attribuisce maggior peso al primo evento e successivamente meno peso ai seguenti eventi. Questa regola è disponibile solo per gli eventi su singoli dispositivi.
+Attribuisce la conversione a tutti gli eventi della serie che si sono verificati nell&#39;[intervallo di lookback su clic](/help/search-social-commerce/glossary.md#c-d) e nell&#39;[intervallo di lookback su impression](/help/search-social-commerce/glossary.md#i-j) dell&#39;inserzionista, ma attribuisce il massimo peso al primo evento e successivamente meno peso agli eventi seguenti.Questa regola è disponibile solo per gli eventi su singoli dispositivi.
 
 Quando la conversione è preceduta solo dalle impression, viene considerata una *view-through*, ponderata in base all&#39;impostazione di ponderazione [view-through](/help/search-social-commerce/glossary.md#uv) dell&#39;inserzionista o, come specificato, in base al metodo di valutazione view-through specificato nei parametri di report, visualizzazione o simulazione personalizzata.
 
@@ -155,39 +162,39 @@ Quando il percorso di conversione include sia clic che impression a pagamento, q
 
 ### Esempio con tutti i clic
 
-Percorso evento: Click 1, Click 2, Click 3, Conversione di 120 USD
+Percorso evento: fai clic su 1, fai clic su 2, fai clic su 3, Conversione di 120 USD
 
-Attribuzione: Click 1 = 60 USD, Click 2 = 40 USD, Click 3 = 20 USD (120 USD in totale)
+Attribuzione: Click 1 = 60 USD, Click 2 = 40 USD, Click 3 = 20 USD (120 USD totali)
 
 ### Esempi con impression e clic
 
 **Nota:** le impression sono applicabili solo dagli annunci display e social.
 
-Percorso evento: Impression 1, Click 1, Impression 2, Click 2, Conversione di 120 USD
+Percorso evento: impression 1, click 1, impression 2, click 2, conversion of 120 USD
 
 #### (Solo per ricerca, social network e Commerce) Con &quot;Peso sostituzione impression&quot; predefinito del 10%
 
 Poiché la serie di eventi includeva sia impression che clic, il peso di esclusione delle impression si applica alle impression.
 
-Attribuzione: Impression 1 = 8 USD, Click 1 = 72 USD, Impression 2 = 4 USD, Click 2 = 36 USD (120 USD in totale)
+Attribuzione: impression 1 = 8 USD, click 1 = 72 USD, impression 2 = 4 USD, click 2 = 36 USD (120 USD in totale)
 
 #### Utilizzo (solo DSP) di No Impression Override Weight o (solo Search, Social &amp; Commerce) di un &quot;Impression Override Weight&quot; dello 0%
 
 Poiché la serie di eventi includeva sia impression che clic, le impression vengono ignorate.
 
-Attribuzione: Impression 1 = 0 USD, Click 1 = 80 USD, Impression 2 = 0 USD, Click 2 = 40 USD (120 USD in totale)
+Attribuzione: impression 1 = 0 USD, click 1 = 80 USD, impression 2 = 0 USD, click 2 = 40 USD (120 USD in totale)
 
 ### Esempio con tutte le impression
 
 **Nota:** sono applicabili solo le impression per gli annunci di visualizzazione.
 
-Percorso evento: Impression 1, Impression 2, Impression 3, Conversione di 120 USD
+Percorso evento: impression 1, impression 2, impression 3, conversione da 120 USD
 
 Poiché la conversione è una view-through, per determinare il valore di ciascuna impression viene applicato il metodo di valutazione view-through, anziché il peso di override dell’impression:
 
 * Se il parametro del report specifica un peso view-through ponderato, tale peso viene applicato ai valori delle impression. Ad esempio, se il peso view-through è 40%, allora Impression 1 = 24 USD, Impression 2 = 16 USD, Impression 3 = 8 USD (48 USD totali)
 
-* Se il parametro del rapporto specifica l&#39;utilizzo di valori non elaborati per le visualizzazioni, all&#39;impression non viene applicato alcun peso view-through e l&#39;intero valore di 120 USD viene diviso tra le tre impression: Impression 1 = 60 USD, Impression 2 = 40 USD, Impression 3 = 20 USD (120 USD in totale)
+* Se il parametro del rapporto specifica l’utilizzo di valori non elaborati per le visualizzazioni, all’impression non viene applicato alcun peso view-through e l’intero USD 120 viene diviso tra le tre impression: Impression 1 = 60 USD, Impression 2 = 40 USD, Impression 3 = 20 USD (120 USD in totale)
 
 +++
 
@@ -217,41 +224,41 @@ Quando il percorso di conversione include sia clic che impression a pagamento, q
 
 ### Esempio con tutti i clic
 
-Percorso evento: Click 1, Click 2, Click 3, conversione di 120 USD
+Percorso evento: fai clic su 1, fai clic su 2, fai clic su 3, conversione di 120 USD
 
 Nessuna impression ha portato alla conversione, pertanto il peso di sostituzione dell’impression non è applicabile e la conversione è suddivisa equamente tra i tre clic:
 
-Attribuzione: Click 1 = 40 USD, Click 2 = 40 USD, Click 3 = 40 USD (120 USD in totale)
+Attribuzione: Click 1 = 40 USD, Click 2 = 40 USD, Click 3 = 40 USD (120 USD totali)
 
 ### Esempi con impression e clic
 
 **Nota:** le impression sono applicabili solo dagli annunci display e social.
 
-Percorso evento: Impression 1, Click 1, Impression 2, Click 2, Conversione di 120 USD
+Percorso evento: impression 1, click 1, impression 2, click 2, conversion of 120 USD
 
 #### (Solo per ricerca, social network e Commerce) Con &quot;Peso sostituzione impression&quot; predefinito del 10%
 
 Poiché la serie di eventi includeva sia impression che clic, il peso di esclusione delle impression si applica alle impression.
 
-Attribuzione: Impression 1 = 6 USD, Click 1 = 54 USD, Impression 2 = 6 USD, Click 2 = 54 USD (120 USD in totale)
+Attribuzione: impression 1 = 6 USD, click 1 = 54 USD, impression 2 = 6 USD, click 2 = 54 USD (120 USD in totale)
 
 #### Utilizzo (solo Adobe Advertising DSP) di No Impression Override Weight (Peso di sostituzione impression) o (solo Search, Social &amp; Commerce) di un &quot;Impression Override Weight&quot; dello 0%
 
 Poiché la serie di eventi includeva sia impression che clic, le impression vengono ignorate.
 
-Attribuzione: Impression 1 = 0 USD, Click 1 = 60 USD, Impression 2 = 0 USD, Click 2 = 60 USD (120 USD in totale)
+Attribuzione: impression 1 = 0 USD, click 1 = 60 USD, impression 2 = 0 USD, click 2 = 60 USD (120 USD in totale)
 
 ## Esempio con tutte le impression
 
 **Nota:** sono applicabili solo le impression per gli annunci di visualizzazione.
 
-Percorso evento: Impression 1, Impression 2, Impression 3, Conversione di 120 USD
+Percorso evento: impression 1, impression 2, impression 3, conversione da 120 USD
 
 Poiché la conversione è una view-through, per determinare il valore di ciascuna impression viene applicato il metodo di valutazione view-through, anziché il peso di override dell’impression:
 
 * Se il parametro del report specifica un peso view-through ponderato, tale peso viene applicato ai valori delle impression. Ad esempio, se il peso view-through è 40%, allora Impression 1 = 16 USD, Impression 2 = 16 USD, Impression 3 = 16 USD (48 USD totali)
 
-* Se il parametro del rapporto specifica l&#39;utilizzo di valori non elaborati per le visualizzazioni, all&#39;impression non viene applicato alcun peso view-through e l&#39;intero valore di 120 USD viene diviso tra le tre impression: Impression 1 = 40 USD, Impression 2 = 40 USD, Impression 3 = 40 USD (120 USD in totale)
+* Se il parametro del rapporto specifica l’utilizzo di valori non elaborati per le visualizzazioni, all’impression non viene applicato alcun peso view-through e l’intero USD 120 viene diviso tra le tre impression: Impression 1 = 40 USD, Impression 2 = 40 USD, Impression 3 = 40 USD (120 USD in totale)
 
 +++
 
@@ -277,39 +284,39 @@ Quando il percorso di conversione include sia clic che impression a pagamento, q
 
 ### Esempio con tutti i clic
 
-Percorso evento: Click 1, Click 2, Click 3, Conversione di 120 USD
+Percorso evento: fai clic su 1, fai clic su 2, fai clic su 3, Conversione di 120 USD
 
-Attribuzione: Click 3 = 60 USD, Click 2 = 40 USD, Click 1 = 20 USD (120 USD in totale)
+Attribuzione: Click 3 = 60 USD, Click 2 = 40 USD, Click 1 = 20 USD (120 USD totali)
 
 ### Esempi con impression e clic
 
 **Nota:** le impression sono applicabili solo dagli annunci display e social.
 
-Percorso evento: Impression 1, Click 1, Impression 2, Click 2, Conversione di 120 USD
+Percorso evento: impression 1, click 1, impression 2, click 2, conversion of 120 USD
 
 #### (Solo per ricerca, social network e Commerce) Con &quot;Peso sostituzione impression&quot; predefinito del 10%
 
 Poiché la serie di eventi includeva sia impression che clic, il peso di esclusione delle impression si applica alle impression.
 
-Attribuzione: Impression 1 = 4 USD, Click 1 = 36 USD, Impression 2 = 8 USD, Click 2 = 72 USD (120 USD in totale)
+Attribuzione: impression 1 = 4 USD, click 1 = 36 USD, impression 2 = 8 USD, click 2 = 72 USD (120 USD in totale)
 
 #### Utilizzo (solo DSP) di No Impression Override Weight o (solo Search, Social &amp; Commerce) di un &quot;Impression Override Weight&quot; dello 0%
 
 Poiché la serie di eventi includeva sia impression che clic, le impression vengono ignorate.
 
-Attribuzione: Impression 1 = 0 USD, Click 1 = 40 USD, Impression 2 = 0 USD, Click 2 = 80 USD (120 USD in totale)
+Attribuzione: impression 1 = 0 USD, click 1 = 40 USD, impression 2 = 0 USD, click 2 = 80 USD (120 USD in totale)
 
 ### Esempio con tutte le impression
 
 **Nota:** le impression sono applicabili solo dagli annunci display e social.
 
-Percorso evento: Impression 1, Impression 2, Impression 3, Conversione di 120 USD
+Percorso evento: impression 1, impression 2, impression 3, conversione da 120 USD
 
 Poiché la conversione è una view-through, per determinare il valore di ciascuna impression viene applicato il metodo di valutazione view-through, anziché il peso di override dell’impression:
 
-* Se il parametro del report specifica un peso view-through ponderato, tale peso viene applicato ai valori delle impression. Ad esempio, se il peso view-through è 40%, moltiplica ogni valore nell’esempio con tutti i clic per 40%: Impressione 3 = 24 USD, Impressione 2 = 16 USD, Impressione 1 = 8 USD (48 USD totali)
+* Se il parametro del report specifica un peso view-through ponderato, tale peso viene applicato ai valori delle impression. Ad esempio, se il peso view-through è 40%, moltiplica ogni valore nell’esempio con tutti i clic per 40%: Impression 3 = 24 USD, Impression 2 = 16 USD, Impression 1 = 8 USD (48 USD totali)
 
-* Se il parametro del rapporto specifica l’utilizzo di valori non elaborati per le visite, l’intero importo di 120 USD viene diviso tra le impression: Impressione 3 = 60 USD, Impressione 2 = 40 USD, Impressione 1 = 20 USD (120 USD in totale)
+* Se il parametro del rapporto specifica l’utilizzo di valori non elaborati per le visite, l’intero USD 120 viene diviso tra le impression: Impression 3 = 60 USD, Impression 2 = 40 USD, Impression 1 = 20 USD (120 USD in totale)
 
 +++
 
@@ -335,7 +342,7 @@ Quando il percorso di conversione include sia clic che impression a pagamento, q
 
 ### Esempio con tutti i clic
 
-Percorso evento: Click 1, Click 2, Click 3, Click 4, Conversione di 120 USD
+Percorso evento: fai clic su 1, fai clic su 2, fai clic su 3, fai clic su 4, Conversione di 120 USD
 
 Attribuzione: Click 1 = 36 USD, Click 2 = 24 USD, Click 3 = 24 USD, Click 4 = 36 USD (120 USD in totale)
 
@@ -343,19 +350,19 @@ Attribuzione: Click 1 = 36 USD, Click 2 = 24 USD, Click 3 = 24 USD, Click 4 = 36
 
 **Nota:** le impression sono applicabili solo dagli annunci display e social.
 
-Percorso evento: Impression 1, Click 1, Impression 2, Click 2, Conversione di 120 USD
+Percorso evento: impression 1, click 1, impression 2, click 2, conversion of 120 USD
 
 #### (Solo per ricerca, social network e Commerce) Con &quot;Peso sostituzione impression&quot; predefinito del 10%
 
 Poiché la serie di eventi includeva sia impression che clic, il peso di esclusione delle impression si applica alle impression.
 
-Attribuzione: Impression 1 = 6 USD, Click 1 = 54 USD, Impression 2 = 6 USD, Click 2 = 54 USD (120 USD in totale)
+Attribuzione: impression 1 = 6 USD, click 1 = 54 USD, impression 2 = 6 USD, click 2 = 54 USD (120 USD in totale)
 
 #### Utilizzo di (solo DSP) senza sovrapposizione impression o (solo Search, Social e Commerce) un &quot;Peso di sostituzione impression&quot; dello 0%
 
 Poiché la serie di eventi includeva sia impression che clic, le impression vengono ignorate.
 
-Attribuzione: Impression 1 = 0 USD, Click 1 = 60 USD, Impression 2 = 0 USD, Click 2 = 60 USD (120 USD in totale)
+Attribuzione: impression 1 = 0 USD, click 1 = 60 USD, impression 2 = 0 USD, click 2 = 60 USD (120 USD in totale)
 
 ### Esempio con tutte le impression
 
@@ -365,9 +372,9 @@ Percorso evento: Impression 1, Impression 2, Impression 3, Impression 4, Convers
 
 Poiché la conversione è una view-through, per determinare il valore di ciascuna impression viene applicato il metodo di valutazione view-through, anziché il peso di override dell’impression:
 
-* Se il parametro del report specifica un peso view-through ponderato, tale peso viene applicato ai valori delle impression. Ad esempio, se il peso view-through è 40%, fare clic su 1 = 14,40 USD, fare clic su 2 = 9,60 USD, fare clic su 3 = 9,60 USD, fare clic su 4 = 14,40 USD (48 USD totali)
+* Se il parametro del report specifica un peso view-through ponderato, tale peso viene applicato ai valori delle impression. Ad esempio, se il peso della visualizzazione view-through è 40%, fare clic su 1 = 14.40 USD, fare clic su 2 = 9.60 USD, fare clic su 3 = 9.60 USD, fare clic su 4 = 14.40 USD (48 USD totali)
 
-* Se il parametro del rapporto specifica l&#39;utilizzo di valori non elaborati per le visite, l&#39;intero valore di 120 USD viene diviso tra le impression: Fare clic su 1 = 36 USD, Fare clic su 2 = 24 USD, Fare clic su 3 = 24 USD, Fare clic su 4 = 36 USD (120 USD in totale)
+* Se il parametro del rapporto specifica l’utilizzo di valori non elaborati per le visite, l’intero USD 120 viene diviso tra le impression: fai clic su 1 = 36 USD, fai clic su 2 = 24 USD, fai clic su 3 = 24 USD, fai clic su 4 = 36 USD (120 USD in totale)
 
 +++
 

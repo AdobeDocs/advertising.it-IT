@@ -3,22 +3,26 @@ title: Visualizza il rapporto previsione di posizionamento
 description: Visualizza il numero di impression, la spesa e l’offerta massima ottimale previste per una particolare strategia di targeting per un posizionamento.
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-TQID: https://experienceleague.adobe.com/2yZV8tIzlLDMAVjDkqcUVt55-a-L0vjLFkWrni-mNU8
+TQID: 'https://experienceleague.adobe.com/2yZV8tIzlLDMAVjDkqcUVt55-a-L0vjLFkWrni-mNU8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 548
+source-wordcount: '551'
 ht-degree: 0%
-
 ---
-
 # Visualizza il rapporto previsione di posizionamento
 
 <!-- Does this really belong in the Campaign Management > Reports section or in the Placements section? -->
@@ -36,11 +40,11 @@ La previsione include le seguenti informazioni:
 
 * **[!UICONTROL Summary]:**
 
-   * **[!UICONTROL Estimated CPM]:** Il costo stimato per mille impression (eCPM) che le impostazioni di targeting possono prevedere di raggiungere.
+  * **[!UICONTROL Estimated CPM]:** Il costo stimato per mille impression (eCPM) che le impostazioni di targeting possono prevedere di raggiungere.
 
-   * **[!UICONTROL Budget]:** Il budget stimato per le impostazioni di targeting.
+  * **[!UICONTROL Budget]:** Il budget stimato per le impostazioni di targeting.
 
-   * **[!UICONTROL Impression]:** Il numero stimato di impression per le impostazioni di targeting.
+  * **[!UICONTROL Impression]:** Il numero stimato di impression per le impostazioni di targeting.
 
 * **[!UICONTROL Budget Yield Curve]:** Il numero stimato di impression che il posizionamento può fornire a diversi livelli di budget se tutte le altre impostazioni di targeting sono uguali.
 
@@ -66,13 +70,13 @@ La previsione include le seguenti informazioni:
 
 * Dati storici: la previsione di posizionamento è disponibile quando sono disponibili dati storici sufficienti. Di seguito sono riportati alcuni esempi di casi in cui i dati storici potrebbero essere insufficienti:
 
-   * Il posizionamento esegue il targeting di una nuova area geografica per la campagna.
+  * Il posizionamento esegue il targeting di una nuova area geografica per la campagna.
 
-   * Il posizionamento esegue il targeting di una nuova offerta di inventario per la campagna.
+  * Il posizionamento esegue il targeting di una nuova offerta di inventario per la campagna.
 
-   * Il posizionamento utilizza un nuovo tipo di annuncio per la campagna.
+  * Il posizionamento utilizza un nuovo tipo di annuncio per la campagna.
 
-     Un posizionamento è in genere una raccolta di più modelli di annunci definiti dalle piattaforme lato offerta. Pertanto, anche se il posizionamento esiste da molto tempo, se il modello di annuncio sottostante è nuovo, lo strumento di previsione non può creare una previsione.
+    Un posizionamento è in genere una raccolta di più modelli di annunci definiti dalle piattaforme lato offerta. Pertanto, anche se il posizionamento esiste da molto tempo, se il modello di annuncio sottostante è nuovo, lo strumento di previsione non può creare una previsione.
 
 ## Apre il rapporto previsione posizionamento
 

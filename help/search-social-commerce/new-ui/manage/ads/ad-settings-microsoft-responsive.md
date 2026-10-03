@@ -1,18 +1,21 @@
 ---
 title: '[!DNL Microsoft Advertising] impostazioni degli annunci reattivi'
-description: Fai riferimento alle impostazioni per  [!DNL Microsoft Advertising] annunci reattivi.
+description: Fare riferimento alle impostazioni per [!DNL Microsoft Advertising] annunci reattivi.
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 730b474b83ae4df47c18f93adfec62b1dc9b8a16
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 243
+source-wordcount: '244'
 ht-degree: 0%
-
 ---
-
 # Impostazioni degli annunci reattivi (pubblico) di [!DNL Microsoft Advertising]
 
 Il formato degli annunci reattivi è disponibile per gli annunci di pubblico basati su immagini, video e video TV connessi in [!DNL Microsoft Audience Network]. La rete di annunci assembla dinamicamente gli annunci reattivi utilizzando le combinazioni più efficaci di elementi pubblicitari.

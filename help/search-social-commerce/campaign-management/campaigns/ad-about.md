@@ -3,20 +3,24 @@ title: Gestione annunci
 description: Scopri gli annunci in Search, Social e Commerce, compresi i tipi di annunci disponibili.
 exl-id: 01bd211d-fe6b-4329-90e1-0e54d626c125
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/zjdXTfuUM3gknKy2-ASRGz5wv7DAr-SZmpfLSuhhpoU
+TQID: 'https://experienceleague.adobe.com/zjdXTfuUM3gknKy2-ASRGz5wv7DAr-SZmpfLSuhhpoU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: Reporting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 918
+source-wordcount: '918'
 ht-degree: 0%
-
 ---
-
 # Informazioni sugli annunci
 
 Solo *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising], [!DNL Yandex] e [!DNL Baidu] account esistenti*
@@ -31,9 +35,9 @@ Puoi creare e gestire i tipi di annunci supportati per i gruppi di annunci all�
 
 * **annunci di pubblico** nativi tra dispositivi per [!DNL Microsoft Advertising] campagne in [!DNL Microsoft Audience Network]. Sono disponibili due opzioni per gli annunci di pubblico, in base alle impostazioni della campagna:
 
-   * Se la campagna è collegata a un negozio di centri commerciali, lascia che la rete di annunci generi automaticamente annunci basati sul feed per la campagna, utilizzando le informazioni sul prodotto del negozio. Non è necessario creare annunci basati su feed per la campagna, ma è necessario creare gruppi di annunci con targeting utente.
+  * Se la campagna è collegata a un negozio di centri commerciali, lascia che la rete di annunci generi automaticamente annunci basati sul feed per la campagna, utilizzando le informazioni sul prodotto del negozio. Non è necessario creare annunci basati su feed per la campagna, ma è necessario creare gruppi di annunci con targeting utente.
 
-   * Se la campagna non è collegata a un account del centro commerciale, crea annunci di pubblico basati su immagini utilizzando il formato di annuncio reattivo, che include più risorse di testo e immagini. La rete di annunci assembla gli annunci utilizzando le combinazioni più efficaci di elementi pubblicitari e li visualizza su siti come [!DNL MSN], [!DNL Outlook.com] e [!DNL Microsoft Edge].
+  * Se la campagna non è collegata a un account del centro commerciale, crea annunci di pubblico basati su immagini utilizzando il formato di annuncio reattivo, che include più risorse di testo e immagini. La rete di annunci assembla gli annunci utilizzando le combinazioni più efficaci di elementi pubblicitari e li visualizza su siti come [!DNL MSN], [!DNL Outlook.com] e [!DNL Microsoft Edge].
 
 * **Annunci di sola chiamata** per [!DNL Google Ads] campagne nella rete di ricerca. Gli annunci di sola chiamata sono annunci di testo che includono un numero di telefono. Facoltativamente, puoi utilizzare un numero di inoltro assegnato a [!DNL Google Ads] per il reporting avanzato delle chiamate.
 

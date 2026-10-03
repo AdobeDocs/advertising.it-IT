@@ -3,25 +3,31 @@ title: Gestire le visualizzazioni dati della campagna
 description: Scopri come personalizzare le visualizzazioni dati per campagne, pacchetti, posizionamenti e annunci.
 feature: DSP Campaign Data Views
 exl-id: a22da10b-104d-4860-a23f-f2a6e59b637c
-TQID: https://experienceleague.adobe.com/iHIvQ5-7AJxfvMb5g3VlNfWkIR7a6ZwdvQtDKczrDw8
+TQID: 'https://experienceleague.adobe.com/iHIvQ5-7AJxfvMb5g3VlNfWkIR7a6ZwdvQtDKczrDw8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 2cfe5a2c-1e84-5461-b310-20f6bb734742
+    internal-label: DSP Campaign Data Views
 subfeature_v2:
   - id: f784309e-91ce-4bb5-ade4-5cbbceabecc0
+    internal-label: Campaign Data Views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 927
+source-wordcount: '927'
 ht-degree: 0%
-
 ---
-
 # Gestire le visualizzazioni dati della campagna
 
 È possibile personalizzare i dati visualizzati nelle visualizzazioni di gestione delle campagne ([!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements] e [!UICONTROL Ads]).
@@ -121,38 +127,38 @@ I filtri modificano i dati visualizzati nella scheda corrente. I filtri disponib
 Sono disponibili i seguenti filtri per le viste [!UICONTROL Campaigns], [!UICONTROL Packages] e [!UICONTROL Placements]:
 
 * [!UICONTROL Campaigns] filtri di visualizzazione:
-   * [!UICONTROL Campaign status]
-   * [!UICONTROL Advertiser]
+  * [!UICONTROL Campaign status]
+  * [!UICONTROL Advertiser]
 * [!UICONTROL Packages] filtri di visualizzazione:
-   * [!UICONTROL Custom flights] (che esistano o meno)
-   * [!UICONTROL Custom goal] (se applicabile)
-   * [!UICONTROL End end date]
-   * [!UICONTROL Optimization goal]
-   * [!UICONTROL Flight pacing]
-   * [!UICONTROL Intraday pacing]
-   * [!UICONTROL Package status]
-   * [!UICONTROL Start date]
+  * [!UICONTROL Custom flights] (che esistano o meno)
+  * [!UICONTROL Custom goal] (se applicabile)
+  * [!UICONTROL End end date]
+  * [!UICONTROL Optimization goal]
+  * [!UICONTROL Flight pacing]
+  * [!UICONTROL Intraday pacing]
+  * [!UICONTROL Package status]
+  * [!UICONTROL Start date]
 * [!UICONTROL Placements] filtri di visualizzazione:
-   * [!UICONTROL Custom ad scheduling]
-   * [!UICONTROL Custom goal] (se applicabile)
-   * [!UICONTROL End date]
-   * [!UICONTROL Max bid] ([!UICONTROL less than], [!UICONTROL greater than] o [!UICONTROL equal to] un valore specificato)
-   * [!UICONTROL Optimization goal]
-   * [!UICONTROL Pacing on] ([!UICONTROL impressions] o [!UICONTROL spend])
-   * [!UICONTROL Flight pacing]
-   * [!UICONTROL Intraday pacing]
-   * [!UICONTROL Package]
-   * [!UICONTROL Placement status]
-   * [!UICONTROL Placement type]
-   * [!UICONTROL Placement sub-type]
-   * [!UICONTROL Start date]
-   * [!UICONTROL Creation date]
+  * [!UICONTROL Custom ad scheduling]
+  * [!UICONTROL Custom goal] (se applicabile)
+  * [!UICONTROL End date]
+  * [!UICONTROL Max bid] ([!UICONTROL less than], [!UICONTROL greater than] o [!UICONTROL equal to] un valore specificato)
+  * [!UICONTROL Optimization goal]
+  * [!UICONTROL Pacing on] ([!UICONTROL impressions] o [!UICONTROL spend])
+  * [!UICONTROL Flight pacing]
+  * [!UICONTROL Intraday pacing]
+  * [!UICONTROL Package]
+  * [!UICONTROL Placement status]
+  * [!UICONTROL Placement type]
+  * [!UICONTROL Placement sub-type]
+  * [!UICONTROL Start date]
+  * [!UICONTROL Creation date]
 * [!UICONTROL Ads] filtri di visualizzazione:
-   * [!UICONTROL Adobe ad approval status]
-   * [!UICONTROL Ad ID]
-   * [!UICONTROL Ad name]
-   * [!UICONTROL Ad type]
-   * [!UICONTROL Creation date]
+  * [!UICONTROL Adobe ad approval status]
+  * [!UICONTROL Ad ID]
+  * [!UICONTROL Ad name]
+  * [!UICONTROL Ad type]
+  * [!UICONTROL Creation date]
 
 ### Modificare l’intervallo di date
 
@@ -164,11 +170,11 @@ Modifica l’intervallo di date utilizzato in tutte le visualizzazioni standard 
 
 * Per un intervallo specifico, effettuare una delle seguenti operazioni:
 
-   * Fare clic su ![Calendario](/help/dsp/assets/calendar.png "Calendario"), quindi fare clic sulla data di inizio e sulla data di fine all&#39;interno del calendario.
+  * Fare clic su ![Calendario](/help/dsp/assets/calendar.png "Calendario"), quindi fare clic sulla data di inizio e sulla data di fine all&#39;interno del calendario.
 
-   * Fare clic all&#39;interno dell&#39;intervallo di date, quindi immettere una data di inizio e una data di fine oppure selezionarle all&#39;interno del calendario.
+  * Fare clic all&#39;interno dell&#39;intervallo di date, quindi immettere una data di inizio e una data di fine oppure selezionarle all&#39;interno del calendario.
 
-     È possibile immettere valori numerici (da M-D-AA a MM-GG-AAAA) e/o nomi o abbreviazioni dei mesi (ad esempio Gen o Gennaio).
+    È possibile immettere valori numerici (da M-D-AA a MM-GG-AAAA) e/o nomi o abbreviazioni dei mesi (ad esempio Gen o Gennaio).
 
 ### Ordinare una colonna di dati
 
@@ -188,4 +194,4 @@ In basso a destra, accanto a **[!UICONTROL Items per page]** , selezionare *[!UI
 >* [Visualizza il report di previsione del posizionamento](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Visualizza i report di diagnostica del posizionamento](placement-diagnostics.md)
 >* [Esporta dati da una visualizzazione di gestione campagne](campaign-export-data.md)
->* [Video: struttura dell&#39;account DSP e interfaccia utente](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=it)
+>* [Video: struttura dell&#39;account DSP e interfaccia utente](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

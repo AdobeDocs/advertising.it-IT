@@ -3,22 +3,26 @@ title: Rivedere e modificare le impostazioni dei componenti della campagna utili
 description: Scopri come rivedere e modificare in blocco le impostazioni del pacchetto chiave, del posizionamento e degli annunci utilizzando i fogli di calcolo.
 feature: DSP Placements
 exl-id: 1ec8362a-d37b-4fd7-becd-3a5b4f0c9504
-TQID: https://experienceleague.adobe.com/xHMqjoe7pRUjZJp09hNNZassE-xG4xWCKeM0t1ntTaM
+TQID: 'https://experienceleague.adobe.com/xHMqjoe7pRUjZJp09hNNZassE-xG4xWCKeM0t1ntTaM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 570
+source-wordcount: '571'
 ht-degree: 0%
-
 ---
-
 # Rivedere e modificare le impostazioni dei componenti della campagna utilizzando i bulksheet
 
 È possibile scaricare le impostazioni per pacchetti, posizionamenti e annunci in una singola campagna in formato XLSX ([!DNL Microsoft Excel] spreadsheet) per rivedere e modificare le impostazioni. Per impostazione predefinita, il file scaricato, denominato *bulksheet,* include schede separate per le impostazioni del pacchetto, le informazioni sul volo del pacchetto, le impostazioni di posizionamento e le pianificazioni degli annunci di posizionamento. Facoltativamente, puoi escludere le impostazioni per alcuni tipi di componenti della campagna.

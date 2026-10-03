@@ -2,9 +2,14 @@
 title: (Nuova interfaccia) Informazioni sui rapporti pianificati
 description: Scopri i rapporti sulle prestazioni pianificati, compresi i diversi tipi di rapporti disponibili e come automatizzare i rapporti.
 feature: Search Reports
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
     internal-label: Search, Social, & Commerce
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 subfeature_v2:
   - id: e246c273-d720-4ece-b29b-7aaba7d50169
     internal-label: Reports
@@ -18,7 +23,7 @@ subfeature_v2:
     internal-label: Model accuracy reports
   - id: b36a77b1-3c8f-4e1c-8b0b-6e0ba3fb2664
     internal-label: Specialty reports
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '857'
 ht-degree: 0%
@@ -73,8 +78,8 @@ La visualizzazione [!UICONTROL Reports] > [!UICONTROL Reports] consente di crear
 | ---- | ---- |
 | Monitoraggio delle prestazioni | <ul><li>[I [!UICONTROL Portfolio Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/portfolio-report.md)</li><li>[I [!UICONTROL Search Engine Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/search-engine-report.md)</li><li>[I [!UICONTROL Search Engine Account Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/search-engine-account-report.md)</li><li>[I [!UICONTROL Campaign Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/campaign-report.md)</li><li>[I [!UICONTROL Ad Group Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-group-report.md)</li><li>[I [!UICONTROL Forecast Accuracy Report]](/help/search-social-commerce/new-ui/reports/management/model-accuracy/forecast-accuracy-report.md)</li></ul> |
 | Risoluzione dei problemi relativi alle prestazioni e analisi delle tendenze | <ul><li>[I [!UICONTROL Keyword Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/keyword-report.md)</li><li>[I [!UICONTROL Ad Variation Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-variation-report.md)</li><li>[I [!UICONTROL Transaction Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/transaction-report.md)</li><li>[I [!UICONTROL RSA Asset Report]](/help/search-social-commerce/new-ui/reports/management/specialty/rsa-asset-report.md)</li><li>[I [!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/new-ui/reports/management/specialty/keyword-daily-impression-share-report.md) e [I [!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/new-ui/reports/management/specialty/campaign-daily-impression-share-report.md)</li><li>Qualsiasi report di base che confronta due finestre temporali utilizzando la funzionalità &quot;[!UICONTROL Compare with]&quot;</li></ul> |
-| Identificazione delle opportunità di crescita del business | <ul><li>(Solo per gli inserzionisti con tracciamento delle conversioni di Adobe Advertising) [The [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/geo-distribution-report.md)</li><li>(Solo per gli inserzionisti con tracciamento delle conversioni di Adobe Advertising) [The [!UICONTROL Domain Referral Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/domain-referral-report.md)</li><li>(Inserzionisti con [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=it)) Rapporti personalizzati in Adobe Analytics Analysis Workspace</li></ul> |
-| Analytics | <ul><li>(Solo per gli inserzionisti con tracciamento delle conversioni di Adobe Advertising) [The [!UICONTROL Channel Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)</li><li>(Inserzionisti con [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=it)) Rapporti personalizzati in Adobe Analytics Analysis Workspace</li></ul> |
+| Identificazione delle opportunità di crescita del business | <ul><li>(Solo per gli inserzionisti con tracciamento delle conversioni di Adobe Advertising) [The [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/geo-distribution-report.md)</li><li>(Solo per gli inserzionisti con tracciamento delle conversioni di Adobe Advertising) [The [!UICONTROL Domain Referral Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/domain-referral-report.md)</li><li>(Inserzionisti con [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)) Rapporti personalizzati in Adobe Analytics Analysis Workspace</li></ul> |
+| Analytics | <ul><li>(Solo per gli inserzionisti con tracciamento delle conversioni di Adobe Advertising) [The [!UICONTROL Channel Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)</li><li>(Inserzionisti con [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)) Rapporti personalizzati in Adobe Analytics Analysis Workspace</li></ul> |
 
 >[!MORELIKETHIS]
 >

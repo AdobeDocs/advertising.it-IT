@@ -3,18 +3,21 @@ title: Tag di mappatura della conversione Adobe Advertising
 description: Scopri il tag di mappatura della conversione basato su JavaScript per ITP 2.2, che consente ad Adobe Advertising di tenere traccia di un evento di conversione che si verifica su una pagina che non è la pagina di destinazione.
 exl-id: cbeaf3cd-f1ab-419d-bba8-58a1c8215352
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/gG9j9kbctKTam6mhevTy4jTf7f68iy26XQW5dDjd-ZA
+TQID: 'https://experienceleague.adobe.com/gG9j9kbctKTam6mhevTy4jTf7f68iy26XQW5dDjd-ZA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 637
+source-wordcount: '643'
 ht-degree: 0%
-
 ---
-
 # Tag di mappatura della conversione Adobe Advertising JavaScript
 
 *Inserzionisti con solo monitoraggio delle conversioni di Adobe Advertising*
@@ -49,9 +52,9 @@ Per utilizzare il tag di mappatura della conversione:
 
   dove:
 
-   * si sostituisce il valore `{xxxxxx@AdobeOrg}` con l&#39;ID organizzazione per il quale vengono tracciate le conversioni della pagina. Utilizza lo stesso ID organizzazione per tutte le pagine di conversione.
+  * si sostituisce il valore `{xxxxxx@AdobeOrg}` con l&#39;ID organizzazione per il quale vengono tracciate le conversioni della pagina. Utilizza lo stesso ID organizzazione per tutte le pagine di conversione.
 
-   * sostituisci `{AMO User ID}` con l&#39;ID utente univoco per il tuo account Search, Social e Commerce.
+  * sostituisci `{AMO User ID}` con l&#39;ID utente univoco per il tuo account Search, Social e Commerce.
 
 * Se si utilizza un sistema di gestione dei tag che non supporta l&#39;aggiunta della variabile `imsorgid` al tag script, utilizzare il codice seguente:
 
@@ -67,22 +70,22 @@ Per utilizzare il tag di mappatura della conversione:
 
   dove sostituisci `{AMO User ID}` con l&#39;ID utente univoco per il tuo account Search, Social e Commerce.
 
-   * Se la tua organizzazione utilizza più ID organizzazione:
+  * Se la tua organizzazione utilizza più ID organizzazione:
 
-     ```
-     <script>
-     window.ad_cloud = window.ad_cloud || {};
-     window.ad_cloud.imsorgid = "{xxxxxx@AdobeOrg}"
-     window.ad_cloud.userid = "{AMO User ID}"
-     </script>
-     <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
-     ```
+    ```
+    <script>
+    window.ad_cloud = window.ad_cloud || {};
+    window.ad_cloud.imsorgid = "{xxxxxx@AdobeOrg}"
+    window.ad_cloud.userid = "{AMO User ID}"
+    </script>
+    <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
+    ```
 
-     dove:
+    dove:
 
-      * si sostituisce il valore `{xxxxxx@AdobeOrg}` con l&#39;ID organizzazione per il quale vengono tracciate le conversioni della pagina. Utilizza lo stesso ID organizzazione per tutte le pagine di conversione.
+    * si sostituisce il valore `{xxxxxx@AdobeOrg}` con l&#39;ID organizzazione per il quale vengono tracciate le conversioni della pagina. Utilizza lo stesso ID organizzazione per tutte le pagine di conversione.
 
-      * sostituisci `{AMO User ID}` con l&#39;ID utente univoco per il tuo account Search, Social e Commerce.
+    * sostituisci `{AMO User ID}` con l&#39;ID utente univoco per il tuo account Search, Social e Commerce.
 
 Se non conosci il valore del tuo ID organizzazione o dell&#39;ID utente di Ricerca, Social e Commerce, chiedi al team del tuo account Adobe.
 

@@ -3,18 +3,21 @@ title: Elimina i bulksheet caricati e i file di errore
 description: Scopri come eliminare i file bulksheet e i file di errore.
 exl-id: a4cdceb4-6013-46b6-95bc-5536e45e34d2
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/Io-E8MwRgTvZ9PmNPlMgQHDojH4qwQjfBERNQ22H8Xc
+TQID: 'https://experienceleague.adobe.com/Io-E8MwRgTvZ9PmNPlMgQHDojH4qwQjfBERNQ22H8Xc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 130
+source-wordcount: '130'
 ht-degree: 0%
-
 ---
-
 # Elimina i bulksheet caricati e i file di errore
 
 Puoi eliminare manualmente i file di bulksheet, i file di errore di convalida della pagina di destinazione e altri file di errore. I file vengono eliminati automaticamente 30 giorni dopo il caricamento o la generazione.

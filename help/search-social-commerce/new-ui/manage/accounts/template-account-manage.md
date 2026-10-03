@@ -3,7 +3,13 @@ title: (Nuova interfaccia) Gestisci [!DNL Naver] account solo per il tracciament
 description: Scopri come impostare e gestire i dettagli dell'account nella nuova interfaccia utente per un account [!DNL Naver].
 feature: Search Campaign Management
 exl-id: bc4be409-9935-448b-bfba-f93eb30bd5ca
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 1%
@@ -34,7 +40,7 @@ Per abilitare il tracciamento di un account, devi creare un record account corri
 
    1. Nella scheda **[!UICONTROL Enter Account Details]** specificare le impostazioni generali dell&#39;account.
 
-   1. (Inserzionisti con un&#39;integrazione [[!DNL Adobe Analytics for Advertising] 1&rbrace;) Fai clic sulla scheda **[!UICONTROL Set up Adobe Analytics]** e seleziona tutte le [!DNL Analytics] suite di rapporti da utilizzare per il tracciamento e il reporting dell&#39;attività della campagna.](/help/integrations/analytics/overview.md)
+   1. (Inserzionisti con un&#39;integrazione [[!DNL Adobe Analytics for Advertising] 1}) Fai clic sulla scheda **[!UICONTROL Set up Adobe Analytics]** e seleziona tutte le [!DNL Analytics] suite di rapporti da utilizzare per il tracciamento e il reporting dell&#39;attività della campagna.](/help/integrations/analytics/overview.md)
 
 1. Fare clic su **[!UICONTROL Save]**.
 
@@ -58,7 +64,7 @@ Per modificare il nome dell&#39;account, cambiare lo stato dell&#39;account o mo
 
    1. (Facoltativo) Nella scheda **[!UICONTROL Account Details]**, modificare i dettagli dell&#39;account.
 
-   1. (Facoltativo; inserzionisti con un&#39;integrazione [[!DNL Adobe Analytics for Advertising] 1&rbrace;) Fai clic sulla scheda **[!UICONTROL Set up Adobe Analytics]** e modifica le suite di rapporti [!DNL Analytics] da utilizzare per il tracciamento e il reporting dell&#39;attività della campagna.](/help/integrations/analytics/overview.md)
+   1. (Facoltativo; inserzionisti con un&#39;integrazione [[!DNL Adobe Analytics for Advertising] 1}) Fai clic sulla scheda **[!UICONTROL Set up Adobe Analytics]** e modifica le suite di rapporti [!DNL Analytics] da utilizzare per il tracciamento e il reporting dell&#39;attività della campagna.](/help/integrations/analytics/overview.md)
 
    <!-- What are the repercussions of changing the suites? Timing of updated data? -->
 

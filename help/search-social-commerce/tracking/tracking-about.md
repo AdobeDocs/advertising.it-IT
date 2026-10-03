@@ -3,22 +3,28 @@ title: Informazioni sul tracciamento per Search, Social e Commerce
 description: Scopri le opzioni di tracciamento per Search, Social e Commerce.
 exl-id: f0fd367a-dd5a-46ec-a3d6-9b491860aae8
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/IpPgzsMgRsOCmLv3dyEKBp4EPQwgN90UkVIQy9SaXB8
+TQID: 'https://experienceleague.adobe.com/IpPgzsMgRsOCmLv3dyEKBp4EPQwgN90UkVIQy9SaXB8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 756
+source-wordcount: '772'
 ht-degree: 0%
-
 ---
-
 # Informazioni sul tracciamento per Search, Social e Commerce
 
 Per tenere traccia delle prestazioni degli annunci, Search, Social e Commerce necessitano di dati di tipo impression, clic, costo e conversione (transazione) per i tuoi annunci. Search, Social e Commerce utilizzano questi dati per creare i modelli di previsione dei dati necessari per ottimizzare i portfolio di annunci.
@@ -39,7 +45,7 @@ I parametri di tracciamento consentono ad Adobe Advertising di tenere traccia de
 
 * In tutti gli altri casi, la rete di annunci invia il clic direttamente ai pixel server di Adobe Advertising. Il pixel server inserisce un cookie nel computer dell’utente (se non ne esiste già uno) e quindi reindirizza l’utente all’URL appropriato sul sito web. L’esperienza complessiva per l’utente finale è la stessa che si avrebbe senza un reindirizzamento.
 
-Il cookie è impostato nel dominio [!DNL Adobe] (`everesttech.net`) come cookie di prime parti. Dopo un reindirizzamento, l’utente si trova nel dominio dell’inserzionista e il cookie viene quindi trattato come un cookie di terze parti. Per ulteriori informazioni sui cookie di Adobe Advertising, vedi &quot;[Cookie di Adobe Advertising](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=it)&quot;.
+Il cookie è impostato nel dominio [!DNL Adobe] (`everesttech.net`) come cookie di prime parti. Dopo un reindirizzamento, l’utente si trova nel dominio dell’inserzionista e il cookie viene quindi trattato come un cookie di terze parti. Per ulteriori informazioni sui cookie di Adobe Advertising, vedi &quot;[Cookie di Adobe Advertising](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html)&quot;.
 
 ## Dati di conversione
 

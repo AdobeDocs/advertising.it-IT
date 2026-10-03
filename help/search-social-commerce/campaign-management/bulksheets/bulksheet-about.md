@@ -3,18 +3,21 @@ title: Informazioni sulla gestione dei dati della campagna tramite bulksheet
 description: Scopri le funzionalità dei bulksheet disponibili tramite la rete di annunci, il flusso di lavoro dei bulksheet e la gestione degli errori.
 exl-id: 34a16ee3-9eba-4b8b-a5ca-65318f4ee6c5
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/VvfpRiNIhOEk15R4eJn-BP-NmPeNvYVzRN6evnJK45U
+TQID: 'https://experienceleague.adobe.com/VvfpRiNIhOEk15R4eJn-BP-NmPeNvYVzRN6evnJK45U'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 358bcf190b36bd3c01e33a3d5762361a4a015393
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 775
+source-wordcount: '775'
 ht-degree: 0%
-
 ---
-
 # Informazioni sulla gestione dei dati della campagna tramite bulksheet
 
 Un bulksheet è un file che contiene i dati della campagna in un formato specifico e può essere utilizzato per creare o modificare rapidamente i dati della struttura della campagna e del gruppo di annunci e gli annunci di testo. Puoi generare (scaricare) i bulksheet con i dati per uno o più account, per campagne e gruppi di annunci specifici o anche per annunci di testo, posizionamenti e gruppi di prodotti specifici. È possibile utilizzare i bulksheet per gestire set di dati di grandi dimensioni o per apportare piccole modifiche. Ogni rete di annunci richiede diverse colonne di informazioni.

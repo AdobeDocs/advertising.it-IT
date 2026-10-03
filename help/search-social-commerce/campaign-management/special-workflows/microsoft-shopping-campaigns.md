@@ -1,22 +1,26 @@
 ---
-title: Implementa  [!DNL Microsoft Advertising]  campagne acquisti
-description: Scopri il flusso di lavoro per la configurazione di  [!DNL Microsoft Advertising]  campagne di acquisto.
+title: Implementa [!DNL Microsoft Advertising] campagne acquisti
+description: Scopri il flusso di lavoro per la configurazione di [!DNL Microsoft Advertising] campagne di acquisto.
 exl-id: fd10237b-864d-4808-8644-3fcb18edebde
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/2SXWaNmPPcXmljB2DUKq9DNWgPv9Qb-0t3SJcdO6aR8
+TQID: 'https://experienceleague.adobe.com/2SXWaNmPPcXmljB2DUKq9DNWgPv9Qb-0t3SJcdO6aR8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 587
+source-wordcount: '598'
 ht-degree: 0%
-
 ---
-
 # Implementa [!DNL Microsoft Advertising] campagne acquisti
 
 Gli annunci nelle campagne di acquisto utilizzano i dati sui prodotti nel feed di prodotto [!DNL Microsoft Merchant Center] esistente, invece delle parole chiave, per decidere come e dove visualizzare gli annunci.
@@ -31,7 +35,7 @@ Puoi impostare le campagne acquisti utilizzando [modelli di feed inventario](/he
 
 1. Configura il tuo account [!DNL Microsoft Merchant Center] e compilalo con i dati di prodotto.
 
-1. [Consenti a Search, Social e Commerce di scaricare dati dall&#39;account [!DNL Microsoft Merchant Center] &#x200B;](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
+1. [Consenti a Search, Social e Commerce di scaricare dati dall&#39;account [!DNL Microsoft Merchant Center] ](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
 
 1. [Crea una campagna](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) sulla rete di acquisti.
 

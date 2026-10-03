@@ -3,18 +3,23 @@ title: Eliminare una metrica personalizzata
 description: Scopri come eliminare le metriche personalizzate, calcolate dalle metriche standard.
 exl-id: 8956afa3-d165-4a5b-b68b-99d519cf6ab6
 feature: Search Common Tasks, Search Custom Metrics
-TQID: https://experienceleague.adobe.com/u6LSq4sjhGLW1gmQqJlTtH0DFyTIsq-1t3Ga7NEXPko
+TQID: 'https://experienceleague.adobe.com/u6LSq4sjhGLW1gmQqJlTtH0DFyTIsq-1t3Ga7NEXPko'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
+  - id: a1695a4d-41fb-5bb6-a22a-9e7a1b3222d7
+    internal-label: Search Custom Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 340
+source-wordcount: '335'
 ht-degree: 0%
-
 ---
-
 # Eliminare una metrica personalizzata
 
 Se la metrica personalizzata è inclusa come colonna nella vista corrente, l’eliminazione di una colonna la elimina immediatamente. Se è inclusa in un&#39;altra visualizzazione predefinita o personalizzata oppure in un modello di report, la modifica della colonna sarà visibile al successivo aggiornamento della visualizzazione o della visualizzazione del modello.

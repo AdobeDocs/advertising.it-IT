@@ -3,49 +3,60 @@ title: Informazioni sulla gestione dell’audience in Advertising DSP
 description: Scopri le funzioni di gestione dell’audience.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-TQID: https://experienceleague.adobe.com/IocF0s67I-vJAUx9Eom-aWEf-Q6H-ZOjczyGr0f9PsA
+TQID: 'https://experienceleague.adobe.com/IocF0s67I-vJAUx9Eom-aWEf-Q6H-ZOjczyGr0f9PsA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
+  - id: 2b670c6e-542a-5afe-b96b-d9ce7818cd55
+    internal-label: DSP Segments
 subfeature_v2:
   - id: c193c532-b70e-4556-bde7-857186cbe140
+    internal-label: Segments
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1457
+source-wordcount: '1457'
 ht-degree: 0%
-
 ---
-
 # Informazioni sulla gestione dell’audience in Advertising DSP
 
 In DSP, puoi creare e gestire segmenti di pubblico e set di tipi di pubblico, che puoi utilizzare come target per i posizionamenti:
 
 * Raccogli i tuoi dati di pubblico di prime parti creando e implementando segmenti di DSP. In seguito, puoi effettuare il retargeting degli utenti nel segmento con annunci o impedire agli utenti del segmento di ricevere annunci. Puoi creare i seguenti tipi di segmenti:
 
-   * [Segmenti personalizzati](/help/dsp/audiences/custom-segment-create.md) per tenere traccia di a) utenti esposti ad annunci da dispositivi desktop e mobili e b) utenti che visitano pagine Web specifiche. Il tag di tracciamento può tenere traccia degli utenti basati su cookie o degli utenti associati agli ID universali ID5.
+  * [Segmenti personalizzati](/help/dsp/audiences/custom-segment-create.md) per tenere traccia di a) utenti esposti ad annunci da dispositivi desktop e mobili e b) utenti che visitano pagine Web specifiche. Il tag di tracciamento può tenere traccia degli utenti basati su cookie o degli utenti associati agli ID universali ID5.
 
-   * [Segmenti di rifiuto del CCPA](/help/dsp/audiences/ccpa-opt-out-segment-create.md) per tenere traccia degli ID degli utenti dalle richieste di rifiuto del consumatore sul sito Web, in base al California Consumer Privacy Act (CCPA). Puoi recuperare rapporti mensili sugli ID utente dalle richieste di rifiuto.
+  * [Segmenti di rifiuto del CCPA](/help/dsp/audiences/ccpa-opt-out-segment-create.md) per tenere traccia degli ID degli utenti dalle richieste di rifiuto del consumatore sul sito Web, in base al California Consumer Privacy Act (CCPA). Puoi recuperare rapporti mensili sugli ID utente dalle richieste di rifiuto.
 
-     Per ulteriori informazioni sul supporto di Adobe Advertising per le richieste di rifiuto del CCPA, consulta [Supporto di Adobe Advertising per il California Consumer Privacy Act: supporto per il rifiuto del consenso alla vendita](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
+    Per ulteriori informazioni sul supporto di Adobe Advertising per le richieste di rifiuto del CCPA, consulta [Supporto di Adobe Advertising per il California Consumer Privacy Act: supporto per il rifiuto del consenso alla vendita](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
 * [Ottieni e utilizza ID universali per il targeting senza cookie](/help/dsp/audiences/universal-ids.md):
 
-   * Invia manualmente i segmenti [!DNL LiveRamp] [!DNL RampID] autenticati direttamente a DSP.
+  * Invia manualmente i segmenti [!DNL LiveRamp] [!DNL RampID] autenticati direttamente a DSP.
 
-   * Consenti a DSP di importare segmenti di prime parti dalla piattaforma di dati del cliente e tradurli in tipi di ID universali supportati.
+  * Consenti a DSP di importare segmenti di prime parti dalla piattaforma di dati del cliente e tradurli in tipi di ID universali supportati.
 
-   * Importa [!DNL AdFixus] segmenti di prime parti contenenti [!DNL AdFixus] ID universali (solo Australia). Puoi quindi eseguire il targeting dei posizionamenti per [!DNL AdFixus] ID, aggiungere tali segmenti a [tipi di pubblico riutilizzabili](/help/dsp/audiences/reusable-audience-create.md) e utilizzare i rapporti descritti in &quot;[Importare segmenti di prime parti da [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)&quot;.
+  * Importa [!DNL AdFixus] segmenti di prime parti contenenti [!DNL AdFixus] ID universali (solo Australia). Puoi quindi eseguire il targeting dei posizionamenti per [!DNL AdFixus] ID, aggiungere tali segmenti a [tipi di pubblico riutilizzabili](/help/dsp/audiences/reusable-audience-create.md) e utilizzare i rapporti descritti in &quot;[Importare segmenti di prime parti da [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)&quot;.
 
-   * Includi segmenti di terze parti che contengono ID universali nei target di posizionamento senza passaggi aggiuntivi.
+  * Includi segmenti di terze parti che contengono ID universali nei target di posizionamento senza passaggi aggiuntivi.
 
 * Crea una libreria di pubblico di [tipi di pubblico riutilizzabili](/help/dsp/audiences/reusable-audience-create.md). I tipi di pubblico salvati sono composti da uno qualsiasi dei segmenti di pubblico disponibili e da uno qualsiasi degli altri tipi di pubblico salvati. Tutte le modifiche apportate a un pubblico salvato vengono applicate automaticamente a tutti i posizionamenti mirati o esclusi dal pubblico e a tutti gli altri tipi di pubblico che includono il pubblico salvato.
 
@@ -79,11 +90,11 @@ Puoi indirizzare i posizionamenti a tutti i seguenti tipi di pubblico.
 
 * Tutti i segmenti di pubblico creati dall’utente che sono stati creati in DSP:
 
-   * Segmenti personalizzati per gli utenti che hanno visitato pagine web specifiche e utenti esposti a impression di annunci specifici.
+  * Segmenti personalizzati per gli utenti che hanno visitato pagine web specifiche e utenti esposti a impression di annunci specifici.
 
-     Non viene applicata alcuna tariffa per le impression consegnate agli ID universali.
+    Non viene applicata alcuna tariffa per le impression consegnate agli ID universali.
 
-   * Segmenti di pubblico di rifiuto del CCPA per gli utenti che hanno inviato richieste di rifiuto sul sito web, in base al California Consumer Privacy Act (CCPA).
+  * Segmenti di pubblico di rifiuto del CCPA per gli utenti che hanno inviato richieste di rifiuto sul sito web, in base al California Consumer Privacy Act (CCPA).
 
 * Tutti i segmenti di dati di prime parti importati, inclusi i segmenti convertiti in ID universali e i segmenti che contengono [!DNL AdFixus] ID universali importati.
 
@@ -101,11 +112,11 @@ Puoi indirizzare i posizionamenti a tutti i seguenti tipi di pubblico.
 
   I prezzi per l’utilizzo dei segmenti sono pre-negoziati e non sono visibili in DSP.
 
-  I segmenti da [!DNL Analytics] sono disponibili circa un&#39;ora dopo la loro creazione o pubblicazione come tipi di pubblico CX Enterprise. I segmenti provenienti direttamente da Audience Manager o [!DNL Real-Time CDP] sono disponibili entro 24 ore dalla condivisione.
+  I segmenti di [!DNL Analytics] sono disponibili circa un&#39;ora dopo la loro creazione o pubblicazione come tipi di pubblico di CX Enterprise. I segmenti provenienti direttamente da Audience Manager o [!DNL Real-Time CDP] sono disponibili entro 24 ore dalla condivisione.
 
   >[!NOTE]
   >
-  >Consulta la documentazione di [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=it), [Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=it) e [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=it) per informazioni sulla configurazione e la raccolta dei dati per i segmenti in tali soluzioni.
+  >Consulta la documentazione di [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html), [Analytics](https://experienceleague.adobe.com/docs/analytics.html) e [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html) per informazioni sulla configurazione e la raccolta dei dati per i segmenti in tali soluzioni.
 
 ## Dati sulle dimensioni del pubblico
 

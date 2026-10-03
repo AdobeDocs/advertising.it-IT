@@ -3,20 +3,24 @@ title: Esporta dati per avvisi personalizzati
 description: Scopri come esportare in un file i dati di un avviso attivato.
 exl-id: e3467b39-21ed-431e-b5f4-c3dc2dd5266d
 feature: Search Alerts
-TQID: https://experienceleague.adobe.com/JyEfHoeveq0ZA5buoLKJis4RECKBtHNCiJZ982uXSW0
+TQID: 'https://experienceleague.adobe.com/JyEfHoeveq0ZA5buoLKJis4RECKBtHNCiJZ982uXSW0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d26a7c77-52b3-5c68-80ee-315aaaaee689
+    internal-label: Search Alerts
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 267
+source-wordcount: '269'
 ht-degree: 0%
-
 ---
-
 # Esporta dati per avvisi personalizzati
 
 È possibile esportare i dati per un avviso attivato o i dati per l&#39;avviso attivato più di recente per un modello di avviso come cartella di lavoro [!DNL Microsoft Excel] ([XLS](/help/search-social-commerce/glossary.md#w-x) file), file con valori separati da tabulazioni ([TSV](/help/search-social-commerce/glossary.md#s-t)) o file con valori separati da virgola ([CSV](/help/search-social-commerce/glossary.md#c-d)). I rapporti scaricabili sono disponibili per dieci giorni dopo l’attivazione dell’avviso e vengono quindi eliminati automaticamente.

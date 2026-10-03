@@ -3,22 +3,26 @@ title: Crea un'offerta [!UICONTROL Simple Ad Serving]
 description: Scopri come creare un pixel di tracciamento per un'offerta [!UICONTROL Simple Ad Serving].
 feature: DSP Simple Ad Serving
 exl-id: 77d5dabd-1a0d-4dce-8a9a-8d54a637e15d
-TQID: https://experienceleague.adobe.com/HcfL-Lh8-64QbufAL-otB4gHupVKllJAzXL8f4TpAIA
+TQID: 'https://experienceleague.adobe.com/HcfL-Lh8-64QbufAL-otB4gHupVKllJAzXL8f4TpAIA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 98ea1d8f-85a7-5f89-b8d8-c40726baa182
+    internal-label: DSP Simple Ad Serving
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 384
+source-wordcount: '388'
 ht-degree: 0%
-
 ---
-
 # Crea un&#39;offerta [!UICONTROL Simple Ad Serving]
 
 1. Nel menu principale, fare clic su **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
@@ -44,7 +48,7 @@ ht-degree: 0%
 
    1. In Dettagli feed, modificare i dettagli del feed, quindi fare clic su **[!UICONTROL Next]**.
 
-      DSP genera automaticamente un posizionamento, denominato &quot;SAS Placement - &lt;*nome offerta*>&quot; per l&#39;annuncio. Nel posizionamento, l&#39;offerta viene automaticamente indirizzata nella sezione [!UICONTROL Inventory Targets]. Tutte le altre opzioni di targeting non sono applicabili.
+      DSP genera automaticamente un posizionamento, denominato &quot;SAS Placement - &lt;*deal name*>&quot;, per l&#39;annuncio. Nel posizionamento, l&#39;offerta viene automaticamente indirizzata nella sezione [!UICONTROL Inventory Targets]. Tutte le altre opzioni di targeting non sono applicabili.
 
 1. Invia i pixel di tracciamento degli eventi all’editore per l’implementazione in uno dei seguenti modi:
 
@@ -52,21 +56,21 @@ ht-degree: 0%
 
      Al termine dei passaggi precedenti, DSP genera un messaggio e-mail che puoi inviare all’editore. Il messaggio include i dettagli dell’offerta, un collegamento da cui recuperare il tag dell’offerta e un codice di autorizzazione per il collegamento.
 
-      1. Rivedi i dettagli dell’offerta, quindi effettua una delle seguenti operazioni:
+     1. Rivedi i dettagli dell’offerta, quindi effettua una delle seguenti operazioni:
 
-         * Per incollare le informazioni in un messaggio di posta elettronica in un&#39;applicazione di posta elettronica sul dispositivo, fare clic su **[!UICONTROL Email & Done]** e selezionare l&#39;applicazione di posta elettronica. Il campo [!UICONTROL CC:] è precompilato con un indirizzo di supporto [!DNL Adobe]. Puoi quindi inviare il messaggio al contatto appropriato per l’editore.
+        * Per incollare le informazioni in un messaggio di posta elettronica in un&#39;applicazione di posta elettronica sul dispositivo, fare clic su **[!UICONTROL Email & Done]** e selezionare l&#39;applicazione di posta elettronica. Il campo [!UICONTROL CC:] è precompilato con un indirizzo di supporto [!DNL Adobe]. Puoi quindi inviare il messaggio al contatto appropriato per l’editore.
 
-         * Per copiare le informazioni negli Appunti, fare clic su **[!UICONTROL Copy Email].** È quindi possibile incollare manualmente il contenuto in un messaggio di posta elettronica e inviarlo al contatto appropriato per l&#39;editore. Includere una copia (CC:) in `publisher-support-global@adobe.com`. Al termine della copia del messaggio, fare clic su **[!UICONTROL Email & Done]**.
+        * Per copiare le informazioni negli Appunti, fare clic su **[!UICONTROL Copy Email].** Puoi quindi incollare manualmente il contenuto in un messaggio e-mail e inviarlo al contatto appropriato per l’editore. Includere una copia (CC:) in `publisher-support-global@adobe.com`. Al termine della copia del messaggio, fare clic su **[!UICONTROL Email & Done]**.
 
-      1. (Se necessario) Rivolgiti all’editore per verificare se il tag include le macro appropriate in modo che il tag funzioni con l’ad server dell’editore.
+     1. (Se necessario) Rivolgiti all’editore per verificare se il tag include le macro appropriate in modo che il tag funzioni con l’ad server dell’editore.
 
    * (Facoltativo) Invia manualmente i pixel di tracciamento degli eventi all’editore:
 
-      1. Nella riga dell&#39;offerta all&#39;interno della visualizzazione [!UICONTROL Deals], fare clic sul ![menu Opzioni](/help/dsp/assets/options-menu.png) **>[!UICONTROL show pixel]**.
+     1. Nella riga dell&#39;offerta all&#39;interno della visualizzazione [!UICONTROL Deals], fare clic sul ![menu Opzioni](/help/dsp/assets/options-menu.png) **>[!UICONTROL show pixel]**.
 
-         I pixel dell&#39;evento includono un pixel [!UICONTROL Clickthrough] e un pixel [!UICONTROL Impression]. Gli annunci video e audio includono anche pixel evento per quartile completato (da [!UICONTROL 25% Complete] a [!UICONTROL 100% Complete]).
+        I pixel dell&#39;evento includono un pixel [!UICONTROL Clickthrough] e un pixel [!UICONTROL Impression]. Gli annunci video e audio includono anche pixel evento per quartile completato (da [!UICONTROL 25% Complete] a [!UICONTROL 100% Complete]).
 
-      1. Copia i pixel di tracciamento degli eventi e forniscili al tuo editore.
+     1. Copia i pixel di tracciamento degli eventi e forniscili al tuo editore.
 
 >[!MORELIKETHIS]
 >

@@ -3,20 +3,27 @@ title: Modificare un’esperienza con il targeting dell’albero decisionale
 description: Scopri come modificare le impostazioni per un’esperienza pubblicitaria di destinazione utilizzando una struttura decisionale.
 feature: Creative Experiences
 exl-id: 8c5e8f9b-c405-41b2-98a9-da7c5debd3e1
-TQID: https://experienceleague.adobe.com/0mcPjfiET-DKrm2qaa1Odygv1GIgv4cR7lBRNmrYGBk
+TQID: 'https://experienceleague.adobe.com/0mcPjfiET-DKrm2qaa1Odygv1GIgv4cR7lBRNmrYGBk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 528
+source-wordcount: '529'
 ht-degree: 0%
-
 ---
-
 # Modificare un’esperienza con il targeting dell’albero decisionale
 
 1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
@@ -41,11 +48,11 @@ ht-degree: 0%
 
    * ([Elaborazione](experience-about.md#experience-statuses) esperienze) Eseguire una delle operazioni seguenti:
 
-      * Per ignorare le modifiche non pubblicate esistenti all&#39;esperienza live, fai clic su **[!UICONTROL Discard and start again]**.
+     * Per ignorare le modifiche non pubblicate esistenti all&#39;esperienza live, fai clic su **[!UICONTROL Discard and start again]**.
 
-      * Per mantenere le modifiche non pubblicate esistenti, fare clic su **[!UICONTROL Continue editing draft]**.
+     * Per mantenere le modifiche non pubblicate esistenti, fare clic su **[!UICONTROL Continue editing draft]**.
 
-      * Per modificare i dettagli esperienza, fare clic su **[!UICONTROL Edit Experience Details]**.
+     * Per modificare i dettagli esperienza, fare clic su **[!UICONTROL Edit Experience Details]**.
 
    * (Facoltativo) Modifica le impostazioni di visualizzazione per l’albero decisionale.
 
@@ -57,25 +64,25 @@ ht-degree: 0%
 
    * (Facoltativo) Modifica i target degli annunci e le creatività corrispondenti in uno dei seguenti modi:
 
-      * Destinazioni:
+     * Destinazioni:
 
-        *[Aggiungi un nodo di destinazione al livello finale](experience-target-node-add-final.md) in un&#39;esperienza.
+       *[Aggiungi un nodo di destinazione al livello finale](experience-target-node-add-final.md) in un&#39;esperienza.
 
-         * [Inserire un nodo di destinazione tra i nodi](experience-target-node-add-inner.md).
+       * [Inserire un nodo di destinazione tra i nodi](experience-target-node-add-inner.md).
 
-         * [Aggiungere un nodo di destinazione di pari livello tra i nodi](experience-target-node-add-sibling.md).
+       * [Aggiungere un nodo di destinazione di pari livello tra i nodi](experience-target-node-add-sibling.md).
 
-         * [Copia nodi figlio e creativi in un altro nodo allo stesso livello](experience-target-node-copy.md).
+       * [Copia nodi figlio e creativi in un altro nodo allo stesso livello](experience-target-node-copy.md).
 
-      * Pacchetti Creative:
+     * Pacchetti Creative:
 
-         * [Assegnazione e annullamento dell&#39;assegnazione di creatività a un nodo finale](experience-assign-creative-bundles.md).
+       * [Assegnazione e annullamento dell&#39;assegnazione di creatività a un nodo finale](experience-assign-creative-bundles.md).
 
-           Se non assegni almeno un bundle a ciascun nodo finale, puoi scegliere di utilizzare le creatività predefinite per ciascun nodo non assegnato quando salvi l’esperienza. Per pubblicare un’esperienza, devi assegnare dei bundle o utilizzare le creatività predefinite per ciascun nodo finale.
+         Se non assegni almeno un bundle a ciascun nodo finale, puoi scegliere di utilizzare le creatività predefinite per ciascun nodo non assegnato quando salvi l’esperienza. Per pubblicare un’esperienza, devi assegnare dei bundle o utilizzare le creatività predefinite per ciascun nodo finale.
 
-         * [Personalizza gli URL di tracciamento per i creativi nei bundle assegnati](experience-tracking-urls-targeting.md).
+       * [Personalizza gli URL di tracciamento per i creativi nei bundle assegnati](experience-tracking-urls-targeting.md).
 
-         * [Personalizza l&#39;ottimizzazione creativa e la pianificazione](experience-optimization-scheduling-targeting.md) per i bundle assegnati.
+       * [Personalizza l&#39;ottimizzazione creativa e la pianificazione](experience-optimization-scheduling-targeting.md) per i bundle assegnati.
 
 1. (Facoltativo) Modifica le [impostazioni generali dell&#39;esperienza](experience-settings-targeting.md).
 
@@ -85,13 +92,13 @@ ht-degree: 0%
 
    * (Se ogni nodo al livello più basso non include almeno un bundle creativo) Effettua una delle seguenti operazioni:
 
-      * Per salvare l&#39;esperienza senza tutti i bundle creativi richiesti, fare clic su **[!UICONTROL Save as Draft]**.
+     * Per salvare l&#39;esperienza senza tutti i bundle creativi richiesti, fare clic su **[!UICONTROL Save as Draft]**.
 
-        Non puoi creare un tag annuncio per un&#39;esperienza [bozza](experience-about.md#experience-statuses).
+       Non puoi creare un tag annuncio per un&#39;esperienza [bozza](experience-about.md#experience-statuses).
 
-      * Per assegnare la creatività predefinita a ogni destinazione a cui non è già stato assegnato un bundle creativo, fare clic su **[!UICONTROL Assign Default Creatives]**. Dopo aver esaminato la struttura aggiornata con i creativi predefiniti assegnati, fare clic su **[!UICONTROL Save]** e **[!UICONTROL OK]**.
+     * Per assegnare la creatività predefinita a ogni destinazione a cui non è già stato assegnato un bundle creativo, fare clic su **[!UICONTROL Assign Default Creatives]**. Dopo aver esaminato la struttura aggiornata con i creativi predefiniti assegnati, fare clic su **[!UICONTROL Save]** e **[!UICONTROL OK]**.
 
-      * Per continuare a modificare la struttura decisionale, fare clic su **[!UICONTROL Continue Edit]**.
+     * Per continuare a modificare la struttura decisionale, fare clic su **[!UICONTROL Continue Edit]**.
 
 >[!MORELIKETHIS]
 >

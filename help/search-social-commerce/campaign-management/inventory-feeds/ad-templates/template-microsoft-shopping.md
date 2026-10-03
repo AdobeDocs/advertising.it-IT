@@ -1,23 +1,28 @@
 ---
 title: '[!DNL Microsoft Ads] impostazioni del modello di annuncio acquisti per i feed inventario'
-description: Fai riferimento alle impostazioni per  [!DNL Microsoft Ads] modelli di annunci per acquisti per feed inventario.
+description: Fare riferimento alle impostazioni per [!DNL Microsoft Ads] modelli di annunci commerciali per i feed inventario.
 exl-id: a0dd6542-0516-406a-b8c5-2e102ec7ab3d
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/Q-TmSKd7yk8Infwx-Nyar61Bu-oqK8NUd2qgJbAOTDA
+TQID: 'https://experienceleague.adobe.com/Q-TmSKd7yk8Infwx-Nyar61Bu-oqK8NUd2qgJbAOTDA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Taxonomy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: '549'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft Ads] impostazioni del modello di annuncio acquisti per i feed inventario
 
 Utilizza i modelli di annunci di acquisto per configurare gli annunci di acquisto.
@@ -68,9 +73,9 @@ Utilizza i modelli di annunci di acquisto per configurare gli annunci di acquist
 
 * Per il monitoraggio delle conversioni di Adobe Advertising, applicato quando le impostazioni della campagna includono &quot;[!UICONTROL EF Redirect]&quot; e &quot;[!UICONTROL Auto Upload]&quot;, eseguire una delle operazioni seguenti:&quot;
 
-   * (Consigliato) Utilizza il formato del modello di tracciamento [per le campagne acquisti Microsoft](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). Se l’intero account è dedicato agli annunci commerciali, puoi invece definire un modello di tracciamento a livello di account.
+  * (Consigliato) Utilizza il formato del modello di tracciamento [per le campagne acquisti Microsoft](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). Se l’intero account è dedicato agli annunci commerciali, puoi invece definire un modello di tracciamento a livello di account.
 
-   * Se invece si include un valore per ogni prodotto nel feed utilizzando la colonna &quot;[!DNL bingads_redirect]&quot; (utilizzando il [formato corretto](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)), immettere il parametro `{lpurl}`. Facoltativamente, puoi aggiungere reindirizzamenti e tracciamento di terze parti al parametro `{lpurl}`.
+  * Se invece si include un valore per ogni prodotto nel feed utilizzando la colonna &quot;[!DNL bingads_redirect]&quot; (utilizzando il [formato corretto](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)), immettere il parametro `{lpurl}`. Facoltativamente, puoi aggiungere reindirizzamenti e tracciamento di terze parti al parametro `{lpurl}`.
 
 * Per reindirizzamenti e tracciamento di terze parti, inserisci un valore.
 

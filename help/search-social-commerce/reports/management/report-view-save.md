@@ -3,20 +3,24 @@ title: Visualizzare o salvare un rapporto
 description: Scopri come visualizzare un rapporto generato o salvarlo come file.
 exl-id: 11333266-d1af-4064-9816-c70b53b0a8bd
 feature: Search Reports
-TQID: https://experienceleague.adobe.com/Y0jHDM-R21GGXRQi9fsVtpOUD3Rdh-JdCyLRR-gynvo
+TQID: 'https://experienceleague.adobe.com/Y0jHDM-R21GGXRQi9fsVtpOUD3Rdh-JdCyLRR-gynvo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 259
+source-wordcount: '261'
 ht-degree: 0%
-
 ---
-
 # Visualizzare o salvare un rapporto
 
 È possibile visualizzare un report nel browser Web oppure aprire o salvare i dati del report come cartella di lavoro [!DNL Microsoft Excel], file con valori separati da tabulazioni (TSV), file con valori separati da virgole (CSV) o, in alcuni tipi di report, cartella di lavoro con schede [!DNL Microsoft Excel].
@@ -33,13 +37,13 @@ ht-degree: 0%
 
    * (Per aprire o salvare i dati del report in un file) Nella colonna [!UICONTROL Export] accanto al nome del report, fare clic sul nome di un formato, quindi aprire o salvare il file in base alla normale procedura del browser:
 
-      * **[!UICONTROL XLS]:**   Per una cartella di lavoro [!DNL Excel] con un singolo foglio di lavoro (formato XLSX). Il rapporto include un foglio di lavoro etichettato nella parte superiore con i parametri, con una riga per ciascun componente segnalata quando i dati per il componente sono disponibili. Le righe senza dati vengono omesse.
+     * **[!UICONTROL XLS]:** per una cartella di lavoro [!DNL Excel] con un singolo foglio di lavoro (formato XLSX). Il rapporto include un foglio di lavoro etichettato nella parte superiore con i parametri, con una riga per ciascun componente segnalata quando i dati per il componente sono disponibili. Le righe senza dati vengono omesse.
 
-        I rapporti di base includono un totale per ogni colonna numerica.
+       I rapporti di base includono un totale per ogni colonna numerica.
 
-      * **[!UICONTROL TSV]:** per un file TSV. Il rapporto include i parametri e una riga per ciascun componente indicato.
+     * **[!UICONTROL TSV]:** per un file TSV. Il rapporto include i parametri e una riga per ciascun componente indicato.
 
-      * **[!UICONTROL CSV]:**   Per un file CSV. Il rapporto include i parametri e una riga per ciascun componente indicato.
+     * **[!UICONTROL CSV]:** per un file CSV. Il rapporto include i parametri e una riga per ciascun componente indicato.
 
 >[!MORELIKETHIS]
 >

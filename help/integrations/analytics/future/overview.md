@@ -1,48 +1,55 @@
 ---
-title: Adobe Advertising integrations with Adobe Analytics
-description: Learn about how Adobe Advertising can exchange data with Adobe Analytics and how you can use the data within Search, Social, & Commerce.
+title: Integrazioni di Adobe Advertising con Adobe Analytics
+description: Scopri come Adobe Advertising può scambiare dati con Adobe Analytics e come utilizzarli in Search, Social e Commerce.
 feature: Integration with Adobe Analytics
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
-
 ---
+# Integrazioni di Adobe Advertising con Adobe Analytics
 
-# Adobe Advertising integrations with Adobe Analytics
+Puoi integrare Adobe Advertising con Analytics nei seguenti modi.
 
-You can integrate Adobe Advertising with Analytics in the following ways.
+## Scambia dati tra [!DNL Analytics] e Adobe Advertising
 
-## Exchange data between [!DNL Analytics] and Adobe Advertising
+### Estrarre dati [!DNL Analytics] in Adobe Advertising
 
-### Pull [!DNL Analytics] data into Adobe Advertising
+Con [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md),[!DNL Search, Social, & Commerce] e DSP eseguire il pull in:
 
-With [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md),[!DNL Search, Social, & Commerce] and DSP pull in:
+* **[!DNL Analytics]segmenti:** metadati, dati gerarchici e dati di pubblico univoci per tutti i segmenti dell&#39;inserzionista o dell&#39;agenzia creati in [!DNL Analytics] e pubblicati in Adobe CX Enterprise.
 
-* **[!DNL Analytics]segments:**  Metadata, hierarchy data, and unique audience data for all of an advertiser&#39;s or agency&#39;s segments created in [!DNL Analytics] and published to Adobe CX Enterprise.
+* **[!DNL Analytics]metriche di coinvolgimento sito**
 
-* **[!DNL Analytics]site engagement metrics**
+* **[!DNL Analytics]metriche standard, personalizzate e riservate**
 
-* **[!DNL Analytics]standard, custom, and reserved metrics**
+### Invia dati Adobe Advertising a [!DNL Analytics]
 
-### Send Adobe Advertising data to [!DNL Analytics]
+* **Metriche traffico da Adobe Advertising**
 
-* **Traffic metrics from Adobe Advertising**
-
-* **Dimensions from Adobe Advertising**
+* **Dimensioni da Adobe Advertising**
 
 >[!NOTE]
 >
->For [!DNL Search, Social, & Commerce], this feature is supported for most ad networks and campaign types. See &quot;Supported Inventory&quot; in the [!DNL Search, Social, & Commerce] Guide for more information.<!-- add link when that's published in ExL -->
+>Per [!DNL Search, Social, & Commerce], questa funzione è supportata per la maggior parte delle reti di annunci e dei tipi di campagne. Per ulteriori informazioni, vedere &quot;Inventario supportato&quot; nella Guida di [!DNL Search, Social, & Commerce].<!-- add link when that's published in ExL -->
 
-### Use [!DNL Analytics] segments to create [!DNL Google Ads] audiences {#audience-manager-google-audiences}
+### Usa [!DNL Analytics] segmenti per creare [!DNL Google Ads] tipi di pubblico {#audience-manager-google-audiences}
 
 *Inserzionisti con consenso con [!DNL Advertising Search, Social, & Commerce] solo*
 
 <!-- Verify all -->
 
-Within [!DNL Search, Social, & Commerce], you can create [!DNL Google Ads] Google customer match audiences from user IDs using your existing [!DNL Analytics] segments. Sono inclusi i segmenti di Adobe Analytics pubblicati in Adobe CX Enterprise e i segmenti creati con Adobe CX Enterprise [!DNL Audience Library]. Per ulteriori informazioni, consulta &quot;[Creare [!DNL Google Ads] tipi di pubblico corrispondenti ai clienti di [!DNL Adobe] tipi di pubblico](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md).&quot;
+All&#39;interno di [!DNL Search, Social, & Commerce], puoi creare [!DNL Google Ads] tipi di pubblico in base ai clienti di Google dagli ID utente utilizzando i tuoi segmenti [!DNL Analytics] esistenti. Sono inclusi i segmenti di Adobe Analytics pubblicati in Adobe CX Enterprise e i segmenti creati con Adobe CX Enterprise [!DNL Audience Library]. Per ulteriori informazioni, consulta &quot;[Creare [!DNL Google Ads] tipi di pubblico corrispondenti ai clienti di [!DNL Adobe] tipi di pubblico](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md).&quot;
 
 [I tipi di pubblico corrispondenti ai clienti degli ID utente](https://support.google.com/google-ads/answer/9199250) funzionano come i tipi di pubblico basati su tag del sito Web, ma un ID non PII viene assegnato ai membri del pubblico univoci per offrire vantaggi distinti rispetto ai tipi di pubblico standard basati su tag dei clienti e dei siti Web.
 
@@ -52,7 +59,7 @@ Per creare gli ID utente necessari, devi utilizzare un tag JavaScript di Adobe A
 
 Dopo aver creato i tipi di pubblico, puoi utilizzarli nelle campagne [!DNL Google Ads] come [destinazioni o esclusioni a livello di campagna o di gruppo di annunci](#audience-manager-targets).
 
-### Use [!DNL Analytics] segments to target or exclude ads {#analytics-targets}
+### Usa [!DNL Analytics] segmenti per eseguire il targeting o escludere gli annunci {#analytics-targets}
 
 * (Inserzionisti con consenso con [!DNL Search, Social, & Commerce]) Puoi utilizzare qualsiasi pubblico [!DNL Google Ads] creato [utilizzando [!DNL Analytics] segmenti](#audience-manager-google-audiences) come target o esclusioni a livello di campagna o di gruppo di annunci nelle campagne [!DNL Google Ads].
 

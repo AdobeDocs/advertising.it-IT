@@ -1,29 +1,39 @@
 ---
-title: Utilizzo di  [!DNL Roku]  inventory
-description: Scopri la partnership di DSP con  [!DNL Roku], incluse le opzioni di inventario, i fornitori di tracciamento di terze parti approvati e le best practice per i posizionamenti specifici di  [!DNL Roku].
+title: Utilizzo di [!DNL Roku] inventory
+description: Scopri la partnership di DSP con [!DNL Roku], incluse le opzioni di inventario, i fornitori di tracciamento di terze parti approvati e le best practice per i posizionamenti specifici di [!DNL Roku].
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-TQID: https://experienceleague.adobe.com/6CdN1InBGyd9pkECHBITFv1l8JjVdQ6Ot2MUDIAvDjY
+TQID: 'https://experienceleague.adobe.com/6CdN1InBGyd9pkECHBITFv1l8JjVdQ6Ot2MUDIAvDjY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b6b79f0f-69f1-5d2e-b06d-cdebfaaa942c
+    internal-label: DSP On Demand Inventory
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
   - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+    internal-label: On Demand Inventory
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
+    internal-label: Customer experience
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 458
+source-wordcount: '460'
 ht-degree: 0%
-
 ---
-
 # Utilizzo di [!DNL Roku] inventory
 
 Advertising DSP fornisce funzionalità per la pubblicità su [!DNL Roku].
@@ -48,9 +58,9 @@ Puoi effettuare le seguenti operazioni:
 
 * Puoi [abbonarti al seguente [!DNL Roku] inventario all&#39;interno della [!DNL On Demand] galleria](/help/dsp/inventory/on-demand-inventory-subscribe.md), quindi eseguire il targeting delle offerte approvate entro [!DNL Roku] posizionamenti:
 
-   * &quot;[!UICONTROL Roku Network - Audience]&quot; per l&#39;inventario nell&#39;ecosistema [!DNL Roku] con partner di contenuti premium, ad esempio [!DNL The CW], [!DNL ABC] e [!DNL ESPN].
+  * &quot;[!UICONTROL Roku Network - Audience]&quot; per l&#39;inventario nell&#39;ecosistema [!DNL Roku] con partner di contenuti premium, ad esempio [!DNL The CW], [!DNL ABC] e [!DNL ESPN].
 
-   * &quot;[!UICONTROL The Roku Channel - Audience]&quot; per il contenuto dell&#39;app di proprietà e gestione (O&amp;O) di [!DNL Roku].
+  * &quot;[!UICONTROL The Roku Channel - Audience]&quot; per il contenuto dell&#39;app di proprietà e gestione (O&amp;O) di [!DNL Roku].
 
 ### Vantaggi della personalizzazione di marketplace privati con [!DNL Roku]
 

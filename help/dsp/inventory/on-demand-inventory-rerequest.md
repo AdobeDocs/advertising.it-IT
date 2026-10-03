@@ -1,24 +1,28 @@
 ---
-title: Richiedi di nuovo [!DNL On Demand] offerte premium sull'inventario
-description: Scopri come richiedere nuovamente [!DNL On Demand] le offerte precedentemente negate.
+title: Richiedi nuovamente [!DNL On Demand] offerte di inventario premium
+description: Scopri come richiedere nuovamente [!DNL On Demand] offerte che in precedenza erano state negate.
 feature: DSP On Demand Inventory
 exl-id: 8b28ca37-5fe8-445e-8210-1b81945bbacc
-TQID: https://experienceleague.adobe.com/trhZ41T-0-Qo3ye-HKCn99kvyGqtOnVG9bnCshaamjU
+TQID: 'https://experienceleague.adobe.com/trhZ41T-0-Qo3ye-HKCn99kvyGqtOnVG9bnCshaamjU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b6b79f0f-69f1-5d2e-b06d-cdebfaaa942c
+    internal-label: DSP On Demand Inventory
 subfeature_v2:
   - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+    internal-label: On Demand Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 351
+source-wordcount: '355'
 ht-degree: 0%
-
 ---
-
 # Richiedi nuovamente [!DNL On Demand] offerte di inventario premium
 
 *Non disponibile per gli utenti con i tipi di account [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension] e [!UICONTROL Other]; per gli inserzionisti con la categoria [!UICONTROL Other] e per i rivenditori*
@@ -55,9 +59,9 @@ Una volta che un&#39;offerta è [approvata](/help/dsp/inventory/on-demand-invent
 
    * Dalla visualizzazione [!UICONTROL Subscription]:
 
-      1. Posizionare il cursore sul logo dell&#39;editore, quindi fare clic su **[!UICONTROL See Deals]**.
+     1. Posizionare il cursore sul logo dell&#39;editore, quindi fare clic su **[!UICONTROL See Deals]**.
 
-      1. Fare clic su **[!UICONTROL Rerequest]** nella colonna [!UICONTROL Action] per la riga corrispondente.
+     1. Fare clic su **[!UICONTROL Rerequest]** nella colonna [!UICONTROL Action] per la riga corrispondente.
 
 >[!MORELIKETHIS]
 >

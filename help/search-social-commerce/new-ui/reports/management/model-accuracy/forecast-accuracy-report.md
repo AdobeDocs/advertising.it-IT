@@ -2,13 +2,19 @@
 title: '[!UICONTROL Forecast Accuracy Report]'
 description: Scopri il rapporto Precisione previsione, comprese le colonne di dati.
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: 2d218abb121a750ea3d75a68ebaf6d0b0b306a09
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 50281ed9-148e-57a9-a8f2-ee73330272e6
+    internal-label: Search Model Accuracy Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Forecast Accuracy Report]
 
 Il rapporto mostra la precisione dei modelli di costi e ricavi per giorno per portafogli specifici. Per impostazione predefinita, per ogni portfolio sono inclusi i ricavi, i costi e i clic previsti ed effettivi su base giornaliera, nonché l&#39;accuratezza delle previsioni. Include i dati delle campagne attualmente mappate sui portfolio.

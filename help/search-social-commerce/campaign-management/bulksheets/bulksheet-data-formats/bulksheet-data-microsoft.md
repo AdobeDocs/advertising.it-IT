@@ -1,22 +1,26 @@
 ---
-title: Dati bulksheet richiesti per  [!DNL Microsoft Advertising]  account
-description: Fai riferimento ai campi di intestazione e ai campi dati obbligatori nei bulksheet per  [!DNL Microsoft Advertising]  account.
+title: Dati bulksheet richiesti per [!DNL Microsoft Advertising] account
+description: Fare riferimento ai campi intestazione e ai campi dati obbligatori nei bulksheet per gli account [!DNL Microsoft Advertising].
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/sPku0vJW3srDbrbXy3CNjRIlgbTcRIQCU-F7yH8pr6E
+TQID: 'https://experienceleague.adobe.com/sPku0vJW3srDbrbXy3CNjRIlgbTcRIQCU-F7yH8pr6E'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 7024
-ht-degree: 0%
-
+source-wordcount: '7150'
+ht-degree: 1%
 ---
-
 # Appendice - Dati bulksheet richiesti per i conti [!DNL Microsoft Advertising]
 
 Per creare e aggiornare in blocco i dati della campagna [!DNL Microsoft Advertising], è possibile utilizzare i file di bulksheet di Search, Social e Commerce formattati specificamente per gli account [!DNL Microsoft Advertising]. È possibile: a) [generare file di fogli collettivi per gli account esistenti](../bulksheet-download.md) nel formato di file richiesto oppure b) crearli manualmente (vedere &quot;[Formati di file di fogli collettivi supportati](bulksheet-file-formats.md)&quot; per informazioni generali sui formati di file supportati).
@@ -73,7 +77,7 @@ Per i campi dati relativi alle entità account, vedere &quot;[Campi necessari pe
 | [!UICONTROL Display Path 1] | (Solo annunci di testo espansi, annunci di ricerca dinamica e annunci di ricerca responsive) Un percorso di visualizzazione aggiuntivo. Vedere la voce per [!UICONTROL Display Path 1].<br><br>Esempio: se [!UICONTROL Display Path 1] è &quot;offerte&quot; e [!UICONTROL Display Path 2] è &quot;locale&quot;, l&#39;URL di visualizzazione sarà &lt;<i>URL di visualizzazione</i>>/offerte/locale, ad esempio www.example.com/deals/local. |
 | [!UICONTROL Start Date] | (Solo sitelink avanzati) La prima data in cui è possibile fare offerte per il sitelink, nel fuso orario dell&#39;inserzionista e in uno dei seguenti formati: m/d/aaaa, m/g/aa, m-d-aaaa o m-d-aaaa. Per impostazione predefinita, i nuovi sitelink migliorati sono nel giorno corrente. <b>Nota:</b> è possibile creare nuovi sitelink avanzati solo nelle campagne con sitelink avanzati esistenti o senza sitelink. |
 | [!UICONTROL End Date] | L’ultima data in cui il sitelink può essere visualizzato con gli annunci, nel fuso orario dell’inserzionista e in uno dei seguenti formati: m/d/aaaa, m/d/aaaa, m-d-aaaa o m-d-aaaa. Per un nuovo sitelink, il valore predefinito è `[blank]` (ovvero, nessuna data di fine). |
-| [!UICONTROL Call To Action] | Il call to action da includere nell’annuncio. Per un elenco dei valori possibili[&#128279;](https://learn.microsoft.com/en-us/advertising/campaign-management-service/calltoaction), vedere il riferimento API ma immettere chiamate di più parole per l&#39;azione come più parole, ad esempio &quot;Bet Now&quot; invece di &quot;BetNow&quot;, nei bulksheet. |
+| [!UICONTROL Call To Action] | Il call to action da includere nell’annuncio. Per un elenco dei valori possibili](https://learn.microsoft.com/en-us/advertising/campaign-management-service/calltoaction), vedere il riferimento API [ma immettere chiamate di più parole per l&#39;azione come più parole, ad esempio &quot;Bet Now&quot; invece di &quot;BetNow&quot;, nei bulksheet. |
 | [!UICONTROL Call To Action Language] | Lingua per le opzioni di call to action. Consulta il riferimento API [per un elenco delle lingue possibili](https://learn.microsoft.com/en-us/advertising/campaign-management-service/languagename). |
 | [!UICONTROL Base URL/Final URL] | L’URL della pagina di destinazione a cui vengono indirizzati gli utenti dei motori di ricerca quando fanno clic sull’annuncio, compresi eventuali parametri di aggiunta configurati per la campagna o l’account. Gli URL di base/finali a livello di parola chiave sostituiscono quelli a livello di annuncio e superiori.<br><br>Per eliminare il valore esistente, utilizzare il valore `[delete]` (comprese le parentesi). |
 | [!UICONTROL Destination URL] | (Incluso nei bulksheet generati a scopo informativo; non pubblicato sul motore di ricerca) Per gli account con URL di destinazione, si tratta dell’URL che collega un annuncio a un URL/pagina di destinazione di base sul sito web dell’inserzionista (a volte tramite un altro sito che tiene traccia del clic e quindi reindirizza l’utente alla pagina di destinazione). Include tutti i parametri di aggiunta configurati per la campagna o l’account Search, Social e Commerce. Se hai generato URL di tracciamento, questo si basa sui parametri di tracciamento riportati nelle impostazioni del tuo account e nelle impostazioni della campagna. Se sono stati aggiunti parametri specifici del motore di ricerca, è possibile sostituirli con parametri equivalenti per Search, Social e Commerce.<br><br>Per gli account con URL finali, in questa colonna viene visualizzato lo stesso valore della colonna URL di base/URL finale. |
@@ -88,7 +92,7 @@ Per i campi dati relativi alle entità account, vedere &quot;[Campi necessari pe
 | [!UICONTROL Languages] | Lingua di destinazione per gli annunci nel gruppo di annunci: [!UICONTROL English], [!UICONTROL French], [!UICONTROL Finnish], [!UICONTROL German], [!UICONTROL Norwegian], [!UICONTROL Spanish] o [!UICONTROL Swedish]. L&#39;impostazione predefinita per le nuove campagne è [!UICONTROL English].<br><br>Questa impostazione determina i paesi e le aree in cui l&#39;annuncio può essere visualizzato. Assicurati di scegliere una lingua compatibile con i target di posizione della campagna. |
 | [!UICONTROL Budget Type] | Se il budget è <i>[!UICONTROL Daily]</i> (il valore predefinito) o <i>[!UICONTROL Monthly]</i>.<br><br>Nota: se assegni la campagna a un portfolio ottimizzato, questo valore viene impostato automaticamente su [!UICONTROL Daily]. |
 | [!UICONTROL Device] | Tipo di dispositivo per il quale vengono apportate regolazioni delle offerte a livello di campagna o di gruppo di annunci: <i>[!UICONTROL smartphone]</i>, <i>[!UICONTROL tablet]</i> o <i>[!UICONTROL desktop]</i>. |
-| [!UICONTROL Bid Adjustment] | Rettifica offerta per un tipo di destinazione specificato. Ad esempio, se l’offerta a livello di parola chiave è 1 USD e la regolazione dell’offerta per gli smartphone è del 50%, l’offerta per lo smartphone è di 1,50 USD. Per impostazione predefinita, tutte le destinazioni sono offerte a livello di parola chiave. Le percentuali valide possono includere:<ul><li>Smartphone e tablet: -100 (per non fare offerte per il tipo di dispositivo) e da -90 a 900</li><li>Desktop: da 0 a 900</li></ul> |
+| [!UICONTROL Bid Adjustment] | Rettifica offerta per un tipo di destinazione specificato. Ad esempio, se l’offerta a livello di parola chiave è 1 USD e la regolazione dell’offerta per gli smartphone è del 50%, l’offerta per lo smartphone è 1,50 USD. Per impostazione predefinita, tutte le destinazioni sono offerte a livello di parola chiave. Le percentuali valide possono includere:<ul><li>Smartphone e tablet: -100 (per non fare offerte per il tipo di dispositivo) e da -90 a 900</li><li>Desktop: da 0 a 900</li></ul> |
 | [!UICONTROL Creative Preferred Devices] | Tipi di dispositivi su cui si preferisce visualizzare l&#39;annuncio o il sitelink: <i>[!UICONTROL All]</i> (impostazione predefinita) o <i>[!UICONTROL Mobile]</i>. Quando si specifica Mobile, la rete tenta di visualizzare l’annuncio o il sitelink agli utenti dei dispositivi mobili anziché agli utenti del desktop o del tablet. In caso contrario, la rete visualizza l&#39;annuncio o il sitelink su qualsiasi tipo di dispositivo. <b>Nota:</b> la rete non garantisce che l&#39;annuncio verrà visualizzato sul tipo di dispositivo preferito. |
 | [!UICONTROL Param2] | Stringa da utilizzare come valore di sostituzione se l&#39;URL di base della parola chiave o il titolo, la descrizione o l&#39;URL di base dell&#39;annuncio contiene la stringa di sostituzione dinamica `{Param2}`. La lunghezza massima è di 70 caratteri, ma tieni presente la lunghezza massima degli elementi dell’annuncio in cui lo utilizzi (ad esempio, il titolo 1 e il titolo 2 combinati possono contenere un massimo di 76 caratteri). Per eliminare il valore esistente, utilizzare il valore `[delete]` (comprese le parentesi). |
 | [!UICONTROL Param3] | Stringa da utilizzare come valore di sostituzione se l&#39;URL di base della parola chiave o il titolo, la descrizione o l&#39;URL di base dell&#39;annuncio contiene la stringa di sostituzione dinamica `{Param3}`. La lunghezza massima è di 70 caratteri, ma tieni presente la lunghezza massima degli elementi dell’annuncio in cui lo utilizzi (ad esempio, il titolo 1 e il titolo 2 combinati possono contenere un massimo di 76 caratteri). Per eliminare il valore esistente, utilizzare il valore `[delete]` (comprese le parentesi). |
@@ -234,12 +238,12 @@ Per una descrizione di ogni campo dati, vedere &quot;[Tutti i campi dati disponi
 | \[Classificazione etichetta specifica dell’inserzionista\] | Facoltativo |
 | [!UICONTROL Campaign ID] | Facoltativo |
 | [!UICONTROL Ad Group ID] | Facoltativo |
-| [!UICONTROL Ad ID] | Obbligatorio solo quando si modifica lo stato dell&#39;annuncio, a meno che la riga non includa colonne di proprietà dell&#39;annuncio sufficienti per identificare l&#39;annuncio o b&rpar; un &quot;[!UICONTROL AMO ID]&quot;. Tuttavia, se non includi né [!UICONTROL Ad ID] né [!UICONTROL AMO ID] e le colonne della proprietà dell&#39;annuncio corrispondono a più annunci, lo stato di uno solo degli annunci cambia. |
+| [!UICONTROL Ad ID] | Obbligatorio solo quando si modifica lo stato dell&#39;annuncio, a meno che la riga non includa colonne di proprietà dell&#39;annuncio sufficienti per identificare l&#39;annuncio o b&amp;rpar; un &quot;[!UICONTROL AMO ID]&quot;. Tuttavia, se non includi né [!UICONTROL Ad ID] né [!UICONTROL AMO ID] e le colonne della proprietà dell&#39;annuncio corrispondono a più annunci, lo stato di uno solo degli annunci cambia. |
 | [!UICONTROL AMO ID] | Necessario per modificare o eliminare i dati a meno che non si includano l&#39;ID entità e l&#39;ID entità padre.<br><br>Search, Social e Commerce utilizzano il valore per determinare l&#39;identità corretta da modificare ma non pubblicano l&#39;ID nella rete di annunci. |
 
 ### Campi annuncio prodotto (acquisti)
 
-Per ulteriori informazioni sulla creazione di annunci per acquisti, consulta &quot;[Implementare [!DNL Microsoft Advertising] campagne acquisti](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html?lang=it).&quot;
+Per ulteriori informazioni sulla creazione di annunci per acquisti, consulta &quot;[Implementare [!DNL Microsoft Advertising] campagne acquisti](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html).&quot;
 
 Per questo tipo di annuncio, utilizzare la riga &quot;[!UICONTROL Creative (except RSA)]&quot; nella finestra di dialogo [!UICONTROL Download Bulksheet].
 

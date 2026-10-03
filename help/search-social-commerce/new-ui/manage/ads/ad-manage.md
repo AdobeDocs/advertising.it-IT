@@ -8,13 +8,15 @@ product_v2:
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
     internal-label: Search, Social, & Commerce
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
     internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1733'
 ht-degree: 0%
@@ -127,7 +129,7 @@ Tuttavia, non è disponibile per [!DNL Google Ads] campagne Dynamic Search Ad (D
 
 1. Fare clic su **[!UICONTROL Create]**.
 
-1. &#x200B;<!-- Add link to where to generate this once available to users-->(Acquisti nelle campagne con tracciamento delle conversioni di Adobe Advertising; facoltativo) Per tenere traccia dei clic sull’annuncio, aggiungi manualmente un URL di tracciamento alle impostazioni dell’account, della campagna o del gruppo di prodotti.
+1. <!-- Add link to where to generate this once available to users-->(Acquisti nelle campagne con tracciamento delle conversioni di Adobe Advertising; facoltativo) Per tenere traccia dei clic sull’annuncio, aggiungi manualmente un URL di tracciamento alle impostazioni dell’account, della campagna o del gruppo di prodotti.
 
 ## Rinominare un annuncio {#ad-rename}
 

@@ -3,20 +3,26 @@ title: '[!UICONTROL Keyword Assist Report]'
 description: Informazioni su [!UICONTROL Keyword Assist Report].
 exl-id: 24e5854c-5696-43cd-ac21-64209f9f57d4
 feature: Search Reports, Search Assist Reports
-TQID: https://experienceleague.adobe.com/LO6nDisgA7981cjrGw31tJcy4VR6lesl-wvwU7uGlK4
+TQID: 'https://experienceleague.adobe.com/LO6nDisgA7981cjrGw31tJcy4VR6lesl-wvwU7uGlK4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: ab19d4f9-a5e8-54d2-a6d6-a154af73fd6d
+    internal-label: Search Assist Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 781
+source-wordcount: '784'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Keyword Assist Report]
 
 *Inserzionisti con monitoraggio dei clic di Search, Social e Commerce e con monitoraggio delle conversioni da Adobe Advertising, Adobe Analytics (con integrazione [!DNL Analytics]) o forniti nei feed utilizzando solo un token (`ef_id`)*
@@ -40,14 +46,14 @@ Di seguito sono riportate le colonne disponibili per ogni rapporto. Le colonne p
 
 | Colonna | Predefinito? | Descrizione |
 | ---- | ---- | ---- |
-| Da [!UICONTROL 1st Keyword] a [!UICONTROL 5th Keyword] | Predefinito | I primi cinque clic di posizionamento o parola chiave di ricerca a pagamento nel percorso di conversione che si sono verificati nell&#39;[intervallo di lookback dei clic](/help/search-social-commerce/glossary.md#c-d) e nell&#39;[intervallo di lookback delle impression](/help/search-social-commerce/glossary.md#i-j) dell&#39;inserzionista.<br><br><b>Nota:</b> se il report include posizionamenti da campagne di ricerca abilitate per il contenuto (che non includono parole chiave), queste colonne mostrano i nomi dei gruppi di annunci applicabili, ad esempio &quot;(contenuto adgroup) Nome del gruppo di annunci&quot;. |
+| Da [!UICONTROL 1st Keyword] a [!UICONTROL 5th Keyword] | Predefinito | Le prime cinque parole chiave di ricerca a pagamento o i primi clic di posizionamento nel percorso di conversione che si sono verificati all&#39;interno dell&#39;[intervallo di lookback su clic](/help/search-social-commerce/glossary.md#c-d) e dell&#39;[intervallo di lookback su impression](/help/search-social-commerce/glossary.md#i-j) dell&#39;inserzionista.<br><br><b>Nota:</b> Se il report include posizionamenti da campagne di ricerca abilitate per il contenuto (che non includono parole chiave), queste colonne mostrano i nomi dei gruppi di annunci applicabili, ad esempio &quot;(contenuto adgroup) Nome del gruppo di annunci&quot;. |
 | [!UICONTROL Path Size] | Predefinito | Il numero di parole chiave e/o posizionamenti nel percorso di conversione che si sono verificati all&#39;interno dell&#39;[intervallo di lookback click](/help/search-social-commerce/glossary.md#c-d) e dell&#39;[intervallo di lookback impression](/help/search-social-commerce/glossary.md#i-j) dell&#39;inserzionista. |
 | [!UICONTROL First Keyword] | Predefinito | La prima parola chiave o posizione nel percorso di conversione. |
 | [!UICONTROL Last Keyword] | Predefinito | Ultima parola chiave o posizionamento che ha generato conversioni (anche se l&#39;ultima parola chiave non è compresa nella dimensione del percorso specificata). |
 | \[Metriche personalizzate (derivate) specifiche dell’inserzionista\] | Personalizzato | Il valore di una metrica personalizzata creata, calcolata a partire da metriche esistenti. |
 | \[Metriche di conversione specifiche per l’inserzionista\] | Personalizzato | Il numero di conversioni per una metrica di conversione o una metrica di coinvolgimento del sito specificata. |
 | [!UICONTROL % of Total] \[metrica di conversione\] | Automatico | (Non disponibile nelle impostazioni del rapporto, ma incluso automaticamente nell’output del rapporto per ogni metrica di conversione inclusa) La percentuale delle conversioni complessive tra i portfolio attribuite alla parola chiave e/o al pattern di posizionamento. |
-| Da [!UICONTROL 6th Keyword] a [!UICONTROL 10th Keyword] | Personalizzato | La sesta fino alla decima parola chiave di ricerca a pagamento o il posizionamento fa clic nel percorso di conversione che si è verificato all&#39;interno dell&#39;[intervallo di lookback su clic](/help/search-social-commerce/glossary.md#c-d) e dell&#39;[intervallo di lookback su impression](/help/search-social-commerce/glossary.md#i-j) dell&#39;inserzionista.<br><br><b>Nota:</b> se il report include posizionamenti da campagne di ricerca abilitate per il contenuto (che non includono parole chiave), queste colonne mostrano i nomi dei gruppi di annunci applicabili, ad esempio &quot;(contenuto adgroup) Nome del gruppo di annunci&quot;. |
+| Da [!UICONTROL 6th Keyword] a [!UICONTROL 10th Keyword] | Personalizzato | La sesta fino alla decima parola chiave di ricerca a pagamento o i clic di posizionamento nel percorso di conversione che si sono verificati all&#39;interno dell&#39;[intervallo di lookback dei clic](/help/search-social-commerce/glossary.md#c-d) e dell&#39;[intervallo di lookback delle impression](/help/search-social-commerce/glossary.md#i-j) dell&#39;inserzionista.<br><br><b>Nota:</b> Se il report include posizionamenti da campagne di ricerca abilitate per il contenuto (che non includono parole chiave), queste colonne mostrano i nomi dei gruppi di annunci applicabili, ad esempio &quot;(contenuto adgroup) Nome del gruppo di annunci&quot;. |
 | [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[metrica di conversione\] | Automatico | (Non disponibile nelle impostazioni del rapporto, ma incluso automaticamente nell’output del rapporto per ogni metrica di conversione inclusa) La latenza media in giorni dal primo evento (sulla prima parola chiave o posizionamento) a una conversione. |
 | [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[metrica di conversione\] | Automatico | (Non disponibile nelle impostazioni del rapporto, ma incluso automaticamente nell’output del rapporto) La latenza media in giorni dall’ultimo evento (sull’ultima parola chiave o posizionamento) a una conversione. |
 | [!UICONTROL Path Frequency] | Personalizzato | Il numero di volte in cui il percorso per questa riga si è verificato prima della conversione. |

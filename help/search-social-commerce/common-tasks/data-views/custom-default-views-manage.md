@@ -3,20 +3,26 @@ title: Gestire le visualizzazioni predefinite e personalizzate
 description: Scopri come personalizzare le viste predefinite e personalizzate.
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-TQID: https://experienceleague.adobe.com/aHuRfuYTOiAOMEeer1ud9yRDiC52UF9Hb-mAi1Y-l1U
+TQID: 'https://experienceleague.adobe.com/aHuRfuYTOiAOMEeer1ud9yRDiC52UF9Hb-mAi1Y-l1U'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
+  - id: d6e2ef48-fac7-5a4a-96ff-9ac0264dc826
+    internal-label: Search Custom Data Views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 4453
+source-wordcount: '4470'
 ht-degree: 0%
-
 ---
-
 # Gestire le visualizzazioni predefinite e personalizzate
 
 <!-- Doesn't include instructions for legacy Portfolios or Reports views -->
@@ -43,17 +49,17 @@ Nell&#39;interfaccia utente legacy, ogni visualizzazione è disponibile come col
 
 * (Visualizzazioni personalizzate) Dal pannello di navigazione a sinistra:
 
-   1. Nel pannello sinistro fare clic sul menu **[!UICONTROL Custom Views]** per espanderlo.
+  1. Nel pannello sinistro fare clic sul menu **[!UICONTROL Custom Views]** per espanderlo.
 
-      Le visualizzazioni sono ordinate in base all’entità applicabile.
+     Le visualizzazioni sono ordinate in base all’entità applicabile.
 
-   1. Espandere i menu disponibili.
+  1. Espandere i menu disponibili.
 
-      &quot;[!UICONTROL Universal Views]&quot; include viste personalizzate che possono essere utilizzate in tutte le viste di entità. Tutte le altre viste personalizzate sono raggruppate per tipo di entità.
+     &quot;[!UICONTROL Universal Views]&quot; include viste personalizzate che possono essere utilizzate in tutte le viste di entità. Tutte le altre viste personalizzate sono raggruppate per tipo di entità.
 
-   1. Fare clic sul nome della visualizzazione.
+  1. Fare clic sul nome della visualizzazione.
 
-      Se la vista è universale o si applica all&#39;entità corrente, la tabella dati viene visualizzata nuovamente in base alla configurazione della vista. Se la vista si applica a un&#39;entità diversa, i dati per l&#39;entità applicabile vengono visualizzati in base alla configurazione della vista.
+     Se la vista è universale o si applica all&#39;entità corrente, la tabella dati viene visualizzata nuovamente in base alla configurazione della vista. Se la vista si applica a un&#39;entità diversa, i dati per l&#39;entità applicabile vengono visualizzati in base alla configurazione della vista.
 
 ## Creare una visualizzazione personalizzata {#create-custom-view}
 
@@ -165,19 +171,19 @@ Le impostazioni predefinite del sistema variano in base alla vista di gestione. 
 
 * Dalla nuova interfaccia utente:
 
-   1. Sopra la tabella dati fare clic sul nome della visualizzazione attualmente applicata (![Visualizzazione](/help/search-social-commerce/assets/view.png "Visualizzazione")).
+  1. Sopra la tabella dati fare clic sul nome della visualizzazione attualmente applicata (![Visualizzazione](/help/search-social-commerce/assets/view.png "Visualizzazione")).
 
-   1. Se necessario, fare clic su una delle schede ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] e [!UICONTROL From Others]) per individuare la visualizzazione.
+  1. Se necessario, fare clic su una delle schede ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] e [!UICONTROL From Others]) per individuare la visualizzazione.
 
-   1. Posizionare il cursore sul nome della visualizzazione e fare clic su ![Ripristina](/help/search-social-commerce/assets/revert-new.png).
+  1. Posizionare il cursore sul nome della visualizzazione e fare clic su ![Ripristina](/help/search-social-commerce/assets/revert-new.png).
 
 * Dalle viste di gestione delle campagne legacy:
 
-   1. Nel pannello a sinistra, fai clic su ![Viste personalizzate](/help/search-social-commerce/assets/custom-views-left-rail_icon.png "Viste personalizzate") per espandere il menu [!UICONTROL Custom Views].
+  1. Nel pannello a sinistra, fai clic su ![Viste personalizzate](/help/search-social-commerce/assets/custom-views-left-rail_icon.png "Viste personalizzate") per espandere il menu [!UICONTROL Custom Views].
 
-      Le visualizzazioni sono ordinate in base all’entità applicabile.
+     Le visualizzazioni sono ordinate in base all’entità applicabile.
 
-   1. Accanto al nome della visualizzazione, fare clic su ![Ripristina impostazioni predefinite](/help/search-social-commerce/assets/restore.png "Ripristina impostazioni predefinite").
+  1. Accanto al nome della visualizzazione, fare clic su ![Ripristina impostazioni predefinite](/help/search-social-commerce/assets/restore.png "Ripristina impostazioni predefinite").
 
 ## Eliminare una visualizzazione personalizzata
 
@@ -187,21 +193,21 @@ Se si elimina una visualizzazione personalizzata applicata alla scheda corrente,
 
 * Dalla nuova interfaccia utente:
 
-   1. Sopra la tabella dati fare clic sul nome della visualizzazione attualmente applicata (![Visualizzazione](/help/search-social-commerce/assets/view.png "Visualizzazione")).
+  1. Sopra la tabella dati fare clic sul nome della visualizzazione attualmente applicata (![Visualizzazione](/help/search-social-commerce/assets/view.png "Visualizzazione")).
 
-   1. Se necessario, fare clic su una delle schede ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] e [!UICONTROL From Others]) per individuare la visualizzazione.
+  1. Se necessario, fare clic su una delle schede ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] e [!UICONTROL From Others]) per individuare la visualizzazione.
 
-   1. Posizionare il cursore sul nome della visualizzazione e fare clic su ![Elimina](/help/search-social-commerce/assets/delete-new.png).
+  1. Posizionare il cursore sul nome della visualizzazione e fare clic su ![Elimina](/help/search-social-commerce/assets/delete-new.png).
 
-   1. Nel messaggio di conferma, fare clic su **[!UICONTROL Delete]**.
+  1. Nel messaggio di conferma, fare clic su **[!UICONTROL Delete]**.
 
 * Dalle viste di gestione delle campagne legacy:
 
-   1. Nel pannello a sinistra, fai clic su ![Viste personalizzate](/help/search-social-commerce/assets/custom-views-left-rail_icon.png "Viste personalizzate") per espandere il menu [!UICONTROL Custom Views].
+  1. Nel pannello a sinistra, fai clic su ![Viste personalizzate](/help/search-social-commerce/assets/custom-views-left-rail_icon.png "Viste personalizzate") per espandere il menu [!UICONTROL Custom Views].
 
-   1. Posizionare il cursore sul nome della visualizzazione personalizzata e quindi fare clic su ![Elimina](/help/search-social-commerce/assets/delete.png "Elimina").
+  1. Posizionare il cursore sul nome della visualizzazione personalizzata e quindi fare clic su ![Elimina](/help/search-social-commerce/assets/delete.png "Elimina").
 
-   1. Nel messaggio di conferma, fare clic su **[!UICONTROL Continue]**.
+  1. Nel messaggio di conferma, fare clic su **[!UICONTROL Continue]**.
 
 ## Impostazioni di visualizzazione predefinite e personalizzate
 

@@ -3,18 +3,21 @@ title: Visualizzare i dati generati dai feed
 description: Scopri come visualizzare i dati generati dai feed di dati di inventario.
 exl-id: ee48f0f1-65fb-4d27-8f59-0108835d70e5
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/AG-bR4RcQZcDjJTLkrWhC4J3RcYb7kBRRiC3moSCxp0
+TQID: 'https://experienceleague.adobe.com/AG-bR4RcQZcDjJTLkrWhC4J3RcYb7kBRRiC3moSCxp0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 429
+source-wordcount: '429'
 ht-degree: 0%
-
 ---
-
 # Visualizzare i dati generati dai feed
 
 *[!DNL Google Ads], [!DNL LY Ads] (solo azioni di eliminazione), [!DNL Microsoft Advertising] e [!DNL Yandex] account solo*
@@ -27,32 +30,32 @@ Quando propaghi i dati di feed senza inviarli simultaneamente alla rete di annun
 
   Le viste gerarchiche della campagna mostrano solo i dati generati dal file di feed, non i componenti dell’account esistenti. Dopo che i dati per un componente e tutti i suoi sottocomponenti sono stati pubblicati nella rete di annunci, non vengono più elencati nella vista gerarchica della campagna.
 
-   1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, che consente di aprire la scheda [!UICONTROL Templates].
+  1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, che consente di aprire la scheda [!UICONTROL Templates].
 
-   1. (Facoltativo) Per mostrare solo i componenti della campagna creati per un modello specifico:
+  1. (Facoltativo) Per mostrare solo i componenti della campagna creati per un modello specifico:
 
-      1. Fai clic sul nome del modello.
+     1. Fai clic sul nome del modello.
 
-      1. Nel menu [!UICONTROL Accounts] nel riquadro di navigazione sinistro, espandere il nodo di rete dell&#39;annuncio e il nodo dell&#39;account di rete dell&#39;annuncio, quindi selezionare la casella di controllo accanto al nome del modello.
+     1. Nel menu [!UICONTROL Accounts] nel riquadro di navigazione sinistro, espandere il nodo di rete dell&#39;annuncio e il nodo dell&#39;account di rete dell&#39;annuncio, quindi selezionare la casella di controllo accanto al nome del modello.
 
-   1. Fare clic sulla scheda **[!UICONTROL Campaigns]**, **[!UICONTROL Ad Groups]**, **[!UICONTROL Keywords]** o **[!UICONTROL Ads]**, a seconda dei componenti che si desidera visualizzare.
+  1. Fare clic sulla scheda **[!UICONTROL Campaigns]**, **[!UICONTROL Ad Groups]**, **[!UICONTROL Keywords]** o **[!UICONTROL Ads]**, a seconda dei componenti che si desidera visualizzare.
 
-      >[!NOTE]
-      >
-      >* A meno che non vengano visualizzati i dati per un modello specifico, le schede [!UICONTROL Ad Groups], [!UICONTROL Keywords] e [!UICONTROL Ads] elencano tutti i gruppi di annunci, le parole chiave e gli annunci creati da tutti i modelli e i file di feed. I gruppi di prodotti utilizzati per [!DNL Google Ads] annunci di acquisto sono elencati nella scheda [!UICONTROL Keywords].
-      >* Per visualizzare solo i sottocomponenti di una campagna specifica, iniziare visualizzando la scheda [!UICONTROL Campaigns]. Allo stesso modo, per visualizzare solo i sottocomponenti di uno specifico gruppo di annunci, inizia visualizzando la scheda [!UICONTROL Ad Groups].
+     >[!NOTE]
+     >
+     >* A meno che non vengano visualizzati i dati per un modello specifico, le schede [!UICONTROL Ad Groups], [!UICONTROL Keywords] e [!UICONTROL Ads] elencano tutti i gruppi di annunci, le parole chiave e gli annunci creati da tutti i modelli e i file di feed. I gruppi di prodotti utilizzati per [!DNL Google Ads] annunci di acquisto sono elencati nella scheda [!UICONTROL Keywords].
+     >* Per visualizzare solo i sottocomponenti di una campagna specifica, iniziare visualizzando la scheda [!UICONTROL Campaigns]. Allo stesso modo, per visualizzare solo i sottocomponenti di uno specifico gruppo di annunci, inizia visualizzando la scheda [!UICONTROL Ad Groups].
 
-   1. (Facoltativo) Per visualizzare ulteriori informazioni, effettuate una delle seguenti operazioni:
+  1. (Facoltativo) Per visualizzare ulteriori informazioni, effettuate una delle seguenti operazioni:
 
-      * Per visualizzare le impostazioni per qualsiasi campagna, gruppo di annunci, parola chiave o annuncio, fai clic sull&#39;icona [Visualizza/modifica impostazioni](/help/search-social-commerce/assets/settings.png "Icona Visualizza/Modifica impostazioni") accanto al nome.
+     * Per visualizzare le impostazioni per qualsiasi campagna, gruppo di annunci, parola chiave o annuncio, fai clic sull&#39;icona [Visualizza/modifica impostazioni](/help/search-social-commerce/assets/settings.png "Icona Visualizza/Modifica impostazioni") accanto al nome.
 
-      * Per visualizzare i sottocomponenti di una campagna o di un gruppo di annunci, effettua le seguenti operazioni:
+     * Per visualizzare i sottocomponenti di una campagna o di un gruppo di annunci, effettua le seguenti operazioni:
 
-         * Per elencare tutti i gruppi di annunci di una campagna, fai clic sul nome della campagna.
+       * Per elencare tutti i gruppi di annunci di una campagna, fai clic sul nome della campagna.
 
-         * Per elencare tutte le parole chiave o i target di prodotto in un gruppo di annunci, fai clic sul nome del gruppo di annunci.
+       * Per elencare tutte le parole chiave o i target di prodotto in un gruppo di annunci, fai clic sul nome del gruppo di annunci.
 
-         * Per elencare tutti gli annunci di un gruppo di annunci, fare clic sul nome del gruppo di annunci e quindi sulla scheda [!UICONTROL Ads].
+       * Per elencare tutti gli annunci di un gruppo di annunci, fare clic sul nome del gruppo di annunci e quindi sulla scheda [!UICONTROL Ads].
 
 >[!MORELIKETHIS]
 >

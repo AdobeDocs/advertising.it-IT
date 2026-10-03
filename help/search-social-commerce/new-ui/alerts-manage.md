@@ -2,13 +2,17 @@
 title: (Nuova interfaccia) Gestire gli avvisi personalizzati
 description: Scopri come creare, configurare, mettere in pausa, attivare, eliminare, visualizzare ed esportare avvisi personalizzati e modelli di avvisi.
 feature: Search Alerts
-source-git-commit: 0fddeb8f01bd7c310544973ae2aff78339eb2144
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d26a7c77-52b3-5c68-80ee-315aaaaee689
+    internal-label: Search Alerts
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 0%
-
 ---
-
 # (Nuova interfaccia) Gestire gli avvisi personalizzati
 
 Crea modelli di avviso per identificare quando un portfolio, una campagna o un gruppo di annunci soddisfa condizioni specifiche, ad esempio una metrica di prestazioni, durante un periodo specificato, quindi genera un avviso. Gli avvisi sono disponibili per un singolo inserzionista. Gli avvisi includono tutte le colonne nella vista predefinita pertinente. Ad esempio, gli avvisi a livello di campagna includono tutte le colonne nella visualizzazione predefinita [!UICONTROL Campaigns].

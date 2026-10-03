@@ -1,30 +1,35 @@
 ---
-title: 'Aggiorna il codice di tracciamento AMO ID (s_kwcid) per un account  [!DNL Google Ads] '
-description: Scopri come passare al codice di tracciamento AMO ID più recente per un account  [!DNL Google Ads] .
+title: Aggiorna il codice di tracciamento AMO ID (s_kwcid) per un account [!DNL Google Ads]
+description: Scopri come passare al codice di tracciamento AMO ID più recente per un account [!DNL Google Ads].
 exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/7BOrtiEjkYEi1ZbY-PyU-dgstfa30ebtt-WBYHPX0-I
+TQID: 'https://experienceleague.adobe.com/7BOrtiEjkYEi1ZbY-PyU-dgstfa30ebtt-WBYHPX0-I'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Reporting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 479
+source-wordcount: '499'
 ht-degree: 0%
-
 ---
-
 # Aggiorna il codice di tracciamento AMO ID (s_kwcid) per un account [!DNL Google Ads]
 
 *Inserzionisti solo con integrazione Adobe Advertising-Adobe Analytics*
 
 Solo *[!DNL Google Ads]account*
 
-Il formato legacy (precedente a ottobre 2019) per il [codice di tracciamento AMO ID](https://experienceleague.adobe.com/it/docs/analytics/components/dimensions/amo-id#dimension-items) per gli account [!DNL Google Ads] esistenti non supporta alcune funzionalità in Analytics, ad esempio la generazione di rapporti a livello di campagna e di gruppo di annunci per campagne con prestazione massima [!DNL Google Ads], bozze e campagne di esperimenti e altri casi d’uso in cui la stessa combinazione di parole chiave+corrispondenza esiste in più campagne.
+Il formato legacy (precedente a ottobre 2019) per il [codice di tracciamento AMO ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) per gli account [!DNL Google Ads] esistenti non supporta alcune funzionalità in Analytics, ad esempio la generazione di rapporti a livello di campagna e di gruppo di annunci per campagne con prestazione massima [!DNL Google Ads], bozze e campagne di esperimenti e altri casi d’uso in cui la stessa combinazione di parole chiave+corrispondenza esiste in più campagne.
 
 Il formato corrente include i parametri per l’ID della campagna e l’ID del gruppo di annunci:
 
@@ -78,4 +83,4 @@ Tutti i nuovi account [!DNL Google Ads] utilizzano automaticamente il formato AM
 >
 >* [Gestione account di rete pubblicitaria](ad-network-account-manage.md)
 >* [ID Adobe Advertising utilizzati da [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Panoramica di [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=it){target="_blank"}
+>* [Panoramica di [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}

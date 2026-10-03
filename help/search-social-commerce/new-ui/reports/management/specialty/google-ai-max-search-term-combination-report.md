@@ -2,7 +2,15 @@
 title: '[!UICONTROL Google AI Max Search Term Combination Report]'
 description: Informazioni su [!UICONTROL Google AI Max Search Term Combination Report].
 feature: Search Reports, Search Specialty Reports
-source-git-commit: a595c7d6245fa5d65e704e88230f2eab0a336e72
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 0%
@@ -17,7 +25,7 @@ ht-degree: 0%
 
   Utilizzare questo foglio per analizzare l&#39;intento e le prestazioni degli elementi annuncio risultanti per query in modo da creare elenchi di parole chiave negativi affidabili.
 
-* &#x200B;<!-- [!UICONTROL Search Term x Conversion Action] sheet? -->Foglio [!UICONTROL AI Max Search Term #1]: dati di conversione tracciati da [!DNL Google Ads] per azione di conversione per ogni termine di ricerca e tipo di corrispondenza. Ogni riga include l&#39;azione di conversione, il numero di conversioni e il valore di conversione, nonché qualsiasi altra metrica di conversione facoltativa [!DNL Google Ads] tracciata specificata nelle impostazioni del report. Per impostazione predefinita, i dati includono una riga per ogni combinazione di termine di ricerca e azione di conversione nell’intervallo di dati specificato. Le righe sono nello stesso ordine delle righe del primo foglio.
+* <!-- [!UICONTROL Search Term x Conversion Action] sheet? -->Foglio [!UICONTROL AI Max Search Term #1]: dati di conversione tracciati da [!DNL Google Ads] per azione di conversione per ogni termine di ricerca e tipo di corrispondenza. Ogni riga include l&#39;azione di conversione, il numero di conversioni e il valore di conversione, nonché qualsiasi altra metrica di conversione facoltativa [!DNL Google Ads] tracciata specificata nelle impostazioni del report. Per impostazione predefinita, i dati includono una riga per ogni combinazione di termine di ricerca e azione di conversione nell’intervallo di dati specificato. Le righe sono nello stesso ordine delle righe del primo foglio.
 
   <!-- Should it be this?  The sheet includes the number of conversions and the conversion value, all conversions and the all conversions value, and cross-device conversions. -->
 

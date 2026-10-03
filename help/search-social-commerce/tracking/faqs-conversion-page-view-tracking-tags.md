@@ -3,21 +3,26 @@ title: Domande frequenti sui tag di conversione e tracciamento della visualizzaz
 description: Vedi un confronto tra i tag di conversione Adobe Advertising e di tracciamento della visualizzazione della pagina.
 exl-id: 2e5ef792-e0f5-4409-bd37-87d9fab1265f
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/ckLRjqXGTShwM2TTyULRKjPwL5RYVWkiVVSkwMmvxE8
+TQID: 'https://experienceleague.adobe.com/ckLRjqXGTShwM2TTyULRKjPwL5RYVWkiVVSkwMmvxE8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 45b15880c20d516e4bab1ec664a45ebdf8ffbdcc
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 327
+source-wordcount: '327'
 ht-degree: 0%
-
 ---
-
 # Domande frequenti sui tag di conversione e tracciamento della visualizzazione pagina di Adobe Advertising
 
 Quanto segue si applica ai tag di tracciamento delle conversioni e ai tag di tracciamento della visualizzazione della pagina di Adobe Advertising.
@@ -35,7 +40,7 @@ Quanto segue si applica ai tag di tracciamento delle conversioni e ai tag di tra
 >[!NOTE]
 >
 >* Tutte le nuove implementazioni utilizzano JavaScript versione 3.
->* Il tag JavaScript con ECID utilizza il servizio [Adobe Experience Cloud ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=it), nonché i precedenti ef_id e gsurferid per misurare le conversioni. Questo tag più recente crea [cookie s_ecid di prime parti di CX Enterprise](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=it) e fornisce un&#39;integrazione più stretta con altri prodotti CX Enterprise.
+>* Il tag JavaScript con ECID utilizza il servizio [Adobe Experience Cloud ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html), nonché i precedenti ef_id e gsurferid per misurare le conversioni. Questo tag più recente crea [cookie s_ecid di prime parti di CX Enterprise](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html) e fornisce un&#39;integrazione più stretta con altri prodotti CX Enterprise.
 >* Utilizza i tag di JavaScript versione 2 solo quando sono già implementati nelle pagine web dell’inserzionista.
 >* La best practice prevede l’utilizzo di tag JavaScript invece dei tag immagine, a meno che il sito non preveda una policy che ne impedisca l’utilizzo.
 >* I tag JavaScript sono necessari per gli inserzionisti che desiderano eseguire il targeting dei tipi di pubblico creati in Adobe CX Enterprise, creati in Adobe Audience Manager o pubblicati in Adobe CX Enterprise da Audience Manager o Adobe Analytics.

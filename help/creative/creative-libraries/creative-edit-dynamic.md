@@ -3,18 +3,24 @@ title: Modificare un contenuto creativo dinamico in una libreria creativa
 description: Scopri come modificare un contenuto creativo dinamico in una libreria creativa.
 feature: Creative Dynamic Creatives
 exl-id: b75b9aeb-ffd0-4b86-aa7a-bd6a22e7a8e4
-TQID: https://experienceleague.adobe.com/QoQ5p4sFV-ARIMNDbPkp7axfqkVEC3sxJ6MTlPIG22Y
+TQID: 'https://experienceleague.adobe.com/QoQ5p4sFV-ARIMNDbPkp7axfqkVEC3sxJ6MTlPIG22Y'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 323
+source-wordcount: '322'
 ht-degree: 0%
-
 ---
-
 # Modificare un contenuto creativo dinamico in una libreria creativa
 
 1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
@@ -37,25 +43,25 @@ ht-degree: 0%
 
    * Modifica il contenuto:
 
-      * (Visualizza solo annunci) Per modificare il valore di una cella all’interno della tabella, fai clic all’interno della cella e modifica il valore. Fare clic all&#39;esterno della cella o premere il tasto **[!DNL Enter]** per salvare le modifiche.
+     * (Visualizza solo annunci) Per modificare il valore di una cella all’interno della tabella, fai clic all’interno della cella e modifica il valore. Fare clic all&#39;esterno della cella o premere il tasto **[!DNL Enter]** per salvare le modifiche.
 
-      * Per contrassegnare un singolo prodotto come predefinito<!--Explain what this means. -->, tenere premuto il cursore sulla riga e fare clic su **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**.
+     * Per contrassegnare un singolo prodotto come predefinito<!--Explain what this means. -->, tenere premuto il cursore sulla riga e fare clic su **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**.
 
-      * (Quando l&#39;annuncio include più di un&#39;offerta) Per contrassegnare più prodotti come predefiniti, selezionare le righe (fino al numero di offerte) e fare clic su **[!UICONTROL Set as Default]** nella barra degli strumenti Azioni in blocco.
+     * (Quando l&#39;annuncio include più di un&#39;offerta) Per contrassegnare più prodotti come predefiniti, selezionare le righe (fino al numero di offerte) e fare clic su **[!UICONTROL Set as Default]** nella barra degli strumenti Azioni in blocco.
 
-      * Per eliminare un prodotto dal catalogo, posizionare il cursore sulla riga e fare clic su **[!UICONTROL ...]** > **[!UICONTROL Delete Row]**.
+     * Per eliminare un prodotto dal catalogo, posizionare il cursore sulla riga e fare clic su **[!UICONTROL ...]** > **[!UICONTROL Delete Row]**.
 
-      * (Quando l&#39;annuncio include più di un&#39;offerta) Per eliminare più prodotti dal catalogo, selezionare le righe (fino al numero di offerte) e fare clic su **[!UICONTROL Delete Row]** nella barra degli strumenti Azioni collettive.
+     * (Quando l&#39;annuncio include più di un&#39;offerta) Per eliminare più prodotti dal catalogo, selezionare le righe (fino al numero di offerte) e fare clic su **[!UICONTROL Delete Row]** nella barra degli strumenti Azioni collettive.
 
 1. Salva i creativi:
 
    * Per salvare gli annunci e aggiungerli a un [bundle creativo](bundle-manage.md) nella libreria:
 
-      1. Fare clic su **[!UICONTROL Save and Attach to Bundle]**.
+     1. Fare clic su **[!UICONTROL Save and Attach to Bundle]**.
 
-      1. Fare clic su **[!UICONTROL Save]** per salvare gli annunci.
+     1. Fare clic su **[!UICONTROL Save]** per salvare gli annunci.
 
-      1. Selezionare i bundle, quindi fare clic su **[!UICONTROL Attach Creative to Bundles]**.
+     1. Selezionare i bundle, quindi fare clic su **[!UICONTROL Attach Creative to Bundles]**.
 
    * Per salvare gli annunci e uscire dall&#39;installazione, fare clic su **[!UICONTROL Save]** e quindi di nuovo su **[!UICONTROL Save]**.
 

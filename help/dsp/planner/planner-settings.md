@@ -3,22 +3,26 @@ title: Impostazioni per i piani di copertura TV collegati
 description: Vedere le descrizioni delle impostazioni per i piani di copertura TV collegati.
 feature: DSP Planner
 exl-id: 65edd6f5-557c-44d1-a0ed-8cd26d8a2f6e
-TQID: https://experienceleague.adobe.com/IDfRNpdLmCqxU2TSuRiueLn1DpIzEH23qiorfW5DeLs
+TQID: 'https://experienceleague.adobe.com/IDfRNpdLmCqxU2TSuRiueLn1DpIzEH23qiorfW5DeLs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: a516b982-58a0-530b-84c5-9b83f41039ad
+    internal-label: DSP Planner
 subfeature_v2:
   - id: e8b92199-d82f-4b20-9fc3-ffe694f93ce5
+    internal-label: Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 413
+source-wordcount: '412'
 ht-degree: 0%
-
 ---
-
 # Impostazioni per i piani di copertura TV collegati
 
 <!-- Move out of table for consistency at some point. -->
@@ -27,10 +31,10 @@ ht-degree: 0%
 | --- | --- | --- |
 | [!UICONTROL Name] | Nome per identificare il piano. | Sì |
 | [!UICONTROL Advertiser] | L’inserzionista specifico nell’account per cui viene creato il piano. | Sì |
-| [!UICONTROL Media Type] | Tipo di supporto da includere nel piano.<br><br>Al momento sono disponibili solo [!UICONTROL Connected TV]. | Sì |
+| [!UICONTROL Media Type] | Tipo di supporto da includere nel piano.<br><br>Attualmente è disponibile solo [!UICONTROL Connected TV]. | Sì |
 | [!UICONTROL Date Range] | Le date di inizio e di fine del piano.<br><br>La data di inizio non può essere precedente alla data corrente. L’intervallo di date non può essere superiore a 90 giorni. | Sì |
-| [!UICONTROL Goal Type] | Tipo di obiettivo (ad esempio [!UICONTROL Budget]) da considerare per il piano.<br><br>Al momento sono disponibili solo [!UICONTROL Budget]. | Sì |
-| [!UICONTROL Goal Value] | Valore obiettivo per la previsione. Per ottenere risultati di previsione più precisi, utilizzare un valore > 5000 USD. | Sì |
+| [!UICONTROL Goal Type] | Tipo di obiettivo (ad esempio [!UICONTROL Budget]) da considerare per il piano.<br><br>Al momento è disponibile solo [!UICONTROL Budget]. | Sì |
+| [!UICONTROL Goal Value] | Valore obiettivo per la previsione. Per ottenere risultati di previsione più precisi, utilizza un valore > 5000 USD. | Sì |
 | [!UICONTROL Max Bid] | L’importo massimo da pagare per 1000 impression. Se il tipo di supporto [!UICONTROL Connected TV] è selezionato, immettere un valore di almeno 10 USD. | Sì |
 | [!UICONTROL Frequency Cap] | Il numero di volte in cui a una famiglia univoca devono essere serviti gli annunci.<br><br>Quando si implementa un piano e si devono creare più posizionamenti, applicare l&#39;impostazione del limite di frequenza a livello di pacchetto, non a livello di posizionamento, per garantire la corretta consegna. | Sì |
 | [!UICONTROL Geo-Targeting] | Posizioni da includere o escludere come destinazioni. Le opzioni includono:<ul><li>Paesi, città, stati: fare clic sulla scheda **[!UICONTROL Country/State/City]**; selezionare se l&#39;area è un *Paese*, *Stato* o *Città*; facoltativamente espandere qualsiasi posizione per visualizzare i relativi sottocomponenti, quindi fare clic su **[!UICONTROL Include]** o **[!UICONTROL Exclude]** accanto alla posizione.</li><li>Aree di mercato designate (DMA) negli Stati Uniti: fare clic sulla scheda **[!UICONTROL DMA]**; facoltativamente espandere qualsiasi stato per visualizzare i relativi DMA, quindi fare clic su **[!UICONTROL Include]** o **[!UICONTROL Exclude]** accanto alla posizione.</li><li>Codici postali: puoi effettuare le seguenti operazioni:<ul><li>Fai clic sulla scheda **[!UICONTROL Search postal code]**, seleziona il paese, immetti il nome completo della città o le lettere contenute nel nome della città, quindi premi il tasto **[Invio]**, fai clic sul nome della città corretto per visualizzare tutti i codici postali della città, fai clic sul codice postale corretto e quindi su **[!UICONTROL Include]** o **[!UICONTROL Exclude]**.</li><li>Fare clic sulla scheda **[!UICONTROL Paste postal code]**, selezionare il paese, immettere o incollare valori separati da virgola e quindi fare clic su **[!UICONTROL Include All]** o **[!UICONTROL Exclude All]**.</li></ul></li></ul> | Sì |

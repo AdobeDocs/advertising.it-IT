@@ -1,20 +1,23 @@
 ---
 title: '[!DNL Microsoft Advertising] impostazioni degli annunci reattivi'
-description: Fai riferimento alle impostazioni per  [!DNL Microsoft Advertising] annunci reattivi.
+description: Fare riferimento alle impostazioni per [!DNL Microsoft Advertising] annunci reattivi.
 exl-id: 29404500-d929-4683-be71-150ea8ab805d
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/K4R8gmgxfaMP0JdZiz4RkZkfC6-0T2BsyxpcwK-X3bQ
+TQID: 'https://experienceleague.adobe.com/K4R8gmgxfaMP0JdZiz4RkZkfC6-0T2BsyxpcwK-X3bQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 232
+source-wordcount: '244'
 ht-degree: 0%
-
 ---
-
 # Impostazioni degli annunci reattivi (pubblico) di [!DNL Microsoft Advertising]
 
 Il formato degli annunci reattivi è disponibile per gli annunci di pubblico basati su immagini, video e video TV connessi in [!DNL Microsoft Audience Network]. La rete di annunci assembla dinamicamente gli annunci reattivi utilizzando le combinazioni più efficaci di elementi pubblicitari.
@@ -31,7 +34,7 @@ Il formato degli annunci reattivi è disponibile per gli annunci di pubblico bas
 >
 >La rete di annunci crea automaticamente annunci per le campagne per il pubblico collegate a un negozio di centri commerciali utilizzando le informazioni sui prodotti del negozio e il targeting degli utenti a livello di gruppo di annunci. Non è necessario creare manualmente annunci.
 
-**[!UICONTROL Images]:** Fino a 15 immagini JPEG o PNG per l&#39;annuncio. Includere almeno un&#39;immagine con proporzioni 1,91:1. Visualizza le proporzioni e dimensioni consentite per [immagini annuncio pubblico](https://help.ads.microsoft.com/#apex/ads/en/56912/0).
+**[!UICONTROL Images]:** Fino a 15 immagini JPEG o PNG per l&#39;annuncio. Includere almeno un&#39;immagine con proporzioni 1.91:1. Visualizza le proporzioni e dimensioni consentite per [immagini annuncio pubblico](https://help.ads.microsoft.com/#apex/ads/en/56912/0).
 
 Per gli annunci di pubblico, [!DNL Microsoft Advertising] ritaglia automaticamente questa immagine per tutte le possibili proporzioni.
 

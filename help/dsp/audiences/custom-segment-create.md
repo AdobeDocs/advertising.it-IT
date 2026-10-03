@@ -3,25 +3,31 @@ title: Creare e implementare un segmento personalizzato
 description: Scopri come creare e implementare un segmento personalizzato per tenere traccia degli utenti esposti agli annunci o degli utenti che visitano le tue pagine web.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-TQID: https://experienceleague.adobe.com/Xemx2oExt-bNTgJPVkDaWfillRBAZAfOPQx1eJYxupw
+TQID: 'https://experienceleague.adobe.com/Xemx2oExt-bNTgJPVkDaWfillRBAZAfOPQx1eJYxupw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 2b670c6e-542a-5afe-b96b-d9ce7818cd55
+    internal-label: DSP Segments
 subfeature_v2:
   - id: c193c532-b70e-4556-bde7-857186cbe140
+    internal-label: Segments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: baec698f16aafc163adf2c4cfa76c92af7e1ad61
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 700
+source-wordcount: '705'
 ht-degree: 0%
-
 ---
-
 # Creare e implementare un segmento personalizzato
 
 Puoi raccogliere i tuoi dati sul pubblico di prime parti creando e implementando un segmento DSP personalizzato. Puoi utilizzare il segmento per monitorare a) gli utenti esposti agli annunci da desktop e dispositivi mobili e b) gli utenti che visitano specifiche pagine web. In seguito, puoi eseguire il retargeting degli utenti del segmento con annunci aggiuntivi o impedire agli utenti del segmento di ricevere annunci aggiuntivi.
@@ -36,26 +42,26 @@ Puoi raccogliere i tuoi dati sul pubblico di prime parti creando e implementando
 
 * Per la misurazione in Adobe Analytics, è necessario:
 
-   1. Completa tutti i [prerequisiti per l&#39;implementazione [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) e assicurati che [AMO ID e EF ID](/help/integrations/analytics/ids.md) siano inseriti negli URL di tracciamento.
+  1. Completa tutti i [prerequisiti per l&#39;implementazione [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) e assicurati che [AMO ID e EF ID](/help/integrations/analytics/ids.md) siano inseriti negli URL di tracciamento.
 
-   1. Aggiungi il seguente parametro alle tue pagine Web prima o all&#39;interno del codice [JavaScript richiesto per [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md), in un punto qualsiasi prima dell&#39;inizializzazione dell&#39;ultimo servizio eventi.
+  1. Aggiungi il seguente parametro alle tue pagine Web prima o all&#39;interno del codice [JavaScript richiesto per [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md), in un punto qualsiasi prima dell&#39;inizializzazione dell&#39;ultimo servizio eventi.
 
-      `window.id5PartnerId=ID5_PartnerID;`
+     `window.id5PartnerId=ID5_PartnerID;`
 
-      Esempio:
+     Esempio:
 
-      ```
-      <script src="https://www.everestjs.net/static/le/last-event-tag-latest.min.js">
-      <script>
-        window.id5PartnerId=ID5_PartnerID;
-             if("undefined" != typeof AdCloudEvent)
-                 AdCloudEvent('IMS ORG Id','rsid');
-      </script>
-      ```
+     ```
+     <script src="https://www.everestjs.net/static/le/last-event-tag-latest.min.js">
+     <script>
+       window.id5PartnerId=ID5_PartnerID;
+            if("undefined" != typeof AdCloudEvent)
+                AdCloudEvent('IMS ORG Id','rsid');
+     </script>
+     ```
 
-      Consulta &quot;[Formato dei tag di tracciamento conversione di JavaScript versione 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)&quot; e &quot;[Formato dei tag di tracciamento conversione di JavaScript versione 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)&quot; per il formato di tag completo.
+     Consulta &quot;[Formato dei tag di tracciamento conversione di JavaScript versione 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)&quot; e &quot;[Formato dei tag di tracciamento conversione di JavaScript versione 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)&quot; per il formato di tag completo.
 
-   1. Utilizzare uno strumento di debug del browser per verificare che ogni chiamata venga avviata al dominio `lasteventf-tm.everesttech.net` e contenga il parametro `_les_id5` con un ID ID5 crittografato come valore.
+  1. Utilizzare uno strumento di debug del browser per verificare che ogni chiamata venga avviata al dominio `lasteventf-tm.everesttech.net` e contenga il parametro `_les_id5` con un ID ID5 crittografato come valore.
 
 ## Creare e implementare un segmento personalizzato
 
@@ -77,11 +83,11 @@ Puoi raccogliere i tuoi dati sul pubblico di prime parti creando e implementando
 
       * [!UICONTROL Legacy]:
 
-         * *[!UICONTROL Cookies]:* (impostazione predefinita) Il tag del segmento tiene traccia dei cookie.
+        * *[!UICONTROL Cookies]:* (impostazione predefinita) Il tag del segmento tiene traccia dei cookie.
 
       * [!UICONTROL Universal IDs]:
 
-         * *[!UICONTROL ID5]:* Il tag segmento tiene traccia di [!DNL ID5] ID. Non viene applicata alcuna tariffa per le impression consegnate agli ID universali.
+        * *[!UICONTROL ID5]:* Il tag segmento tiene traccia di [!DNL ID5] ID. Non viene applicata alcuna tariffa per le impression consegnate agli ID universali.
 
         **[!UICONTROL Terms of Service]:** I termini del contratto di servizio per l&#39;utilizzo degli ID universali. Prima di poter utilizzare gli ID universali per un nuovo tipo di ID, è necessario che tu o un altro utente nell’account DSP accetti una volta i termini. Per i clienti con contratti di assistenza gestiti, il team dell’account Adobe riceverà il consenso e accetterà le condizioni per conto della tua organizzazione. Per leggere i termini, fare clic su **>**. Per accettare i termini, scorrere fino alla fine dei termini e fare clic su **[!UICONTROL Accept]**.
 
@@ -95,31 +101,31 @@ Puoi raccogliere i tuoi dati sul pubblico di prime parti creando e implementando
 
       * Per tenere traccia dei visitatori desktop e mobili in una pagina Web:
 
-         1. Copiare il tag di tracciamento della visualizzazione della pagina, etichettato &quot;[!UICONTROL Desktop or mobile websites]&quot;.
+        1. Copiare il tag di tracciamento della visualizzazione della pagina, etichettato &quot;[!UICONTROL Desktop or mobile websites]&quot;.
 
-         1. (Tag per i segmenti che tengono traccia di [!DNL ID5] ID) Nel tag copiato, sostituisci `ID5_PARTNER_ID` con l&#39;ID partner che [!DNL ID5] ha assegnato alla tua organizzazione.
+        1. (Tag per i segmenti che tengono traccia di [!DNL ID5] ID) Nel tag copiato, sostituisci `ID5_PARTNER_ID` con l&#39;ID partner che [!DNL ID5] ha assegnato alla tua organizzazione.
 
-            Ad esempio, se l&#39;ID partner ID5 è `abcde` e il tag del segmento generato è
+           Ad esempio, se l&#39;ID partner ID5 è `abcde` e il tag del segmento generato è
 
-            `<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />`
+           `<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />`
 
-            quindi sostituisci `ID5_PARTNER_ID` con `abcde` all&#39;interno del tag per ottenere quanto segue:
+           quindi sostituisci `ID5_PARTNER_ID` con `abcde` all&#39;interno del tag per ottenere quanto segue:
 
-            `<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />`
+           `<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />`
 
-            L&#39;organizzazione ha ricevuto l&#39;ID partner quando ha firmato un contratto con [!DNL ID5]. Se non conosci il tuo ID partner, contatta il team del tuo account Adobe.
+           L&#39;organizzazione ha ricevuto l&#39;ID partner quando ha firmato un contratto con [!DNL ID5]. Se non conosci il tuo ID partner, contatta il team del tuo account Adobe.
 
-            Questo passaggio non è necessario per consentire ai tag di tenere traccia degli ID [!DNL ID5] per gli utenti esposti a un&#39;unità pubblicitaria su dispositivi desktop o mobili.
+           Questo passaggio non è necessario per consentire ai tag di tenere traccia degli ID [!DNL ID5] per gli utenti esposti a un&#39;unità pubblicitaria su dispositivi desktop o mobili.
 
-         1. Fornisci il tag all’inserzionista o al contatto del sito web per la distribuzione.
+        1. Fornisci il tag all’inserzionista o al contatto del sito web per la distribuzione.
 
-            Il reparto IT dell’inserzionista o un altro gruppo potrebbe dover pianificare la distribuzione dei tag o esserne informato.
+           Il reparto IT dell’inserzionista o un altro gruppo potrebbe dover pianificare la distribuzione dei tag o esserne informato.
 
       * Per tenere traccia degli utenti esposti a un’unità pubblicitaria su dispositivi desktop o mobili:
 
-         1. Copiare il tag di tracciamento delle impression, etichettato come &quot;[!UICONTROL Desktop or mobile ads]&quot;.
+        1. Copiare il tag di tracciamento delle impression, etichettato come &quot;[!UICONTROL Desktop or mobile ads]&quot;.
 
-         1. Aggiungi il tag alla scheda [!UICONTROL Pixel] per ogni annuncio rilevante o alla sezione [!UICONTROL Event Pixels] delle impostazioni [[!UICONTROL Tracking] per ogni posizionamento rilevante](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
+        1. Aggiungi il tag alla scheda [!UICONTROL Pixel] per ogni annuncio rilevante o alla sezione [!UICONTROL Event Pixels] delle impostazioni [[!UICONTROL Tracking] per ogni posizionamento rilevante](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
 Una volta implementato un tag di tracciamento, puoi utilizzare il segmento nei target o nelle esclusioni del pubblico per qualsiasi posizionamento.
 

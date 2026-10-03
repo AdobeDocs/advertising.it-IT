@@ -3,20 +3,23 @@ title: Impostazioni dell'offerta [!UICONTROL Simple Ad Serving]
 description: Scopri le impostazioni disponibili per le offerte [!UICONTROL Simple Ad Serving].
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
-TQID: https://experienceleague.adobe.com/3MqeK9NlWy3VvNJyo-bYCwKyqIp9psB9HhJeVWvIm3M
+TQID: 'https://experienceleague.adobe.com/3MqeK9NlWy3VvNJyo-bYCwKyqIp9psB9HhJeVWvIm3M'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 98ea1d8f-85a7-5f89-b8d8-c40726baa182
+    internal-label: DSP Simple Ad Serving
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 468
+source-wordcount: '476'
 ht-degree: 0%
-
 ---
-
 # Impostazioni dell&#39;offerta [!UICONTROL Simple Ad Serving]
 
 ## Nuove [!UICONTROL Simple Ad Serving] offerte
@@ -45,10 +48,10 @@ ht-degree: 0%
 
 | Parametro | Descrizione |
 |-----------|-------------|
-| **[!UICONTROL Media CPM]** | Il costo per 1000 impression (CPM), come riportato nella scheda tariffaria del contratto. Contatta il team del tuo account Adobe per questo valore. <br><br>Specificare anche la valuta per l&#39;offerta. Tutti gli utenti possono selezionare USD o, se il provider di servizi condivisi supporta valute aggiuntive, la valuta per l&#39;account DSP. |
+| **[!UICONTROL Media CPM]** | Il costo per 1000 impression (CPM), come riportato nella scheda tariffaria del contratto. Contatta il team del tuo account Adobe per questo valore. <br><br>Specificare anche la valuta per l&#39;offerta. Tutti gli utenti possono selezionare USD oppure, se il provider di servizi condivisi supporta valute aggiuntive, la valuta per l&#39;account DSP. |
 | **[!UICONTROL Third Party Billed Fees]** | (Facoltativo) Una commissione di terze parti statica da tracciare come costo non fatturabile e la valuta per l’operazione.<br><br>Tutti gli utenti possono selezionare USD o, se il provider di servizi condivisi supporta valute aggiuntive, la valuta per l&#39;account DSP. **NOTA:** le tariffe fatturabili si riflettono nella metrica [!UICONTROL Net CPM]. |
 | **[!UICONTROL Third Party Fee Description]** | (Facoltativo) Una descrizione delle tariffe di terze parti. |
-| **[!UICONTROL Flight Dates]** | Le date di inizio e fine del traffico che utilizza questa offerta. Le date del volo devono essere incluse nelle date del volo della campagna. I tag annuncio restituiscono una risposta solo durante il volo specificato.<br><br> È consigliabile creare una campagna di annunci semplice e separata con una durata di un anno e creare pixel di tracciamento al suo interno. |
+| **[!UICONTROL Flight Dates]** | Le date di inizio e fine del traffico che utilizza questa offerta. Le date del volo devono essere incluse nelle date del volo della campagna. I tag annuncio restituiscono una risposta solo durante il volo specificato.<br><br> La best practice per creare una semplice campagna pubblicitaria separata con una durata di un anno e per creare pixel di tracciamento al suo interno. |
 | **[!UICONTROL Impressions]** | (Facoltativo) Il numero stimato di impression che si prevede di eseguire utilizzando questa offerta. Questo valore viene utilizzato solo a scopo di tracciamento e per contrassegnare quando gli obiettivi di consegna vengono raggiunti; l’editore controlla la consegna effettiva degli annunci. La best practice prevede di inserire un numero elevato di impression per mantenere il tag attivo in DSP in modo che possa essere rinnovato o esteso, se necessario. |
 | **[!UICONTROL Deal Name]** | Il nome dell’offerta. Immettere un nome oppure selezionare *[!UICONTROL Auto Generate Deal Name]* per consentire a DSP di generare un nome in base ai dettagli dell&#39;offerta.<br><br>Esempio di nome generato automaticamente: `Campaign-desktop_video_preroll_15-24Kitchen-$10_USD-jdoe-SAS` |
 | **[!UICONTROL Attached Ads]** | (Sola lettura) Gli annunci che fanno parte dell’offerta. Per modificare un annuncio, fai clic sul nome dell’annuncio. Per rimuovere un annuncio dall&#39;offerta, fare clic su **[!UICONTROL X]** accanto al nome dell&#39;annuncio. |

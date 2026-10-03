@@ -4,13 +4,17 @@ description: Scopri come creare tipi di pubblico riutilizzabili in Adobe Adverti
 feature: DSP Audiences
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: e95a352e48c6e02ae7f89beb176d2cccaf4b0a71
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1145'
 ht-degree: 0%
-
 ---
-
 # Creare un pubblico riutilizzabile utilizzando l’intelligenza artificiale generativa
 
 *funzionalità Beta*
@@ -89,11 +93,11 @@ Puoi utilizzare i tipi di pubblico come target o esclusioni per più posizioname
 
 * Utilizza un linguaggio chiaro e descrittivo per descrivere il pubblico target.
 
-   * Puoi immettere frasi complete o solo una stringa di caratteristiche. La punteggiatura non è necessaria tranne quando necessario per maggiore chiarezza.
+  * Puoi immettere frasi complete o solo una stringa di caratteristiche. La punteggiatura non è necessaria tranne quando necessario per maggiore chiarezza.
 
-   * In generale, i prompt non distinguono tra maiuscole e minuscole.
+  * In generale, i prompt non distinguono tra maiuscole e minuscole.
 
-   * L’agente del pubblico riconosce i sinonimi più comuni.
+  * L’agente del pubblico riconosce i sinonimi più comuni.
 
 * Sii specifico e fornisci dettagli su tutte le caratteristiche del pubblico che desideri includere ed eventuali caratteristiche che desideri escludere specificamente. Maggiore è il numero di dettagli forniti, maggiori sono le possibilità di ottenere risultati che soddisfino le tue esigenze.
 

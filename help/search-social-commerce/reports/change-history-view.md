@@ -3,20 +3,24 @@ title: Visualizza il report [!UICONTROL Change History]
 description: Scopri come visualizzare le modifiche recenti apportate all’account dell’inserzionista.
 exl-id: f8744da7-cc7a-49c1-aeac-1e601768f992
 feature: Search Reports
-TQID: https://experienceleague.adobe.com/nRlvKpVQf3wbMd83plf3CQp1pPYpHVJzMVJN54lryYM
+TQID: 'https://experienceleague.adobe.com/nRlvKpVQf3wbMd83plf3CQp1pPYpHVJzMVJN54lryYM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 546
+source-wordcount: '546'
 ht-degree: 0%
-
 ---
-
 # Visualizza il report [!UICONTROL Change History]
 
 Il rapporto (nuova interfaccia) [!UICONTROL History Logs] e (interfaccia precedente) [!UICONTROL Change History] include un registro delle modifiche apportate all&#39;account dell&#39;inserzionista negli ultimi 31 giorni. Il rapporto può includere modifiche ai seguenti tipi di oggetti: utenti (inserzionisti), portfolio, campagne, gruppi di annunci, annunci, parole chiave, posizionamenti e target di prodotto. Puoi ordinare e filtrare i dati in base a qualsiasi colonna.
@@ -81,23 +85,23 @@ Il rapporto (nuova interfaccia) [!UICONTROL History Logs] e (interfaccia precede
 
    * Per filtrare i dati in base al valore di colonna, eseguire una delle operazioni seguenti:
 
-      * [Applicare un filtro utilizzando il collegamento **[!UICONTROL Add Filter]**](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+     * [Applicare un filtro utilizzando il collegamento **[!UICONTROL Add Filter]**](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
-      * [Applicare un filtro dal menu di intestazione di colonna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+     * [Applicare un filtro dal menu di intestazione di colonna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
    * Per modificare l&#39;intervallo di date del rapporto, effettuare le seguenti operazioni:
 
-      1. Sopra la tabella dati, fare clic sull&#39;intervallo di date corrente.
+     1. Sopra la tabella dati, fare clic sull&#39;intervallo di date corrente.
 
-      1. Specifica l&#39;intervallo:
+     1. Specifica l&#39;intervallo:
 
-         * (Per un intervallo predefinito) - Selezionare dall&#39;elenco degli incrementi di tempo comuni. Il valore predefinito è *[!UICONTROL 2 Days Ago]*.
+        * (Per un intervallo predefinito) - Selezionare dall&#39;elenco degli incrementi di tempo comuni. Il valore predefinito è *[!UICONTROL 2 Days Ago]*.
 
-         * (Per un intervallo specifico) - Selezionare **[!UICONTROL Custom Date Range]**, quindi specificare la data di inizio e la data di fine.
+        * (Per un intervallo specifico) - Selezionare **[!UICONTROL Custom Date Range]**, quindi specificare la data di inizio e la data di fine.
 
-           Immettere le date nel formato MM/GG/AAAA o MM-GG-AAAA oppure fare clic su ![Calendario](/help/search-social-commerce/assets/calendar.png "Calendario") accanto a ogni campo per aprire il calendario e selezionare una data. Puoi includere i dati solo per i 31 giorni precedenti.
+          Immettere le date nel formato MM/GG/AAAA o MM-GG-AAAA oppure fare clic su ![Calendario](/help/search-social-commerce/assets/calendar.png "Calendario") accanto a ogni campo per aprire il calendario e selezionare una data. Puoi includere i dati solo per i 31 giorni precedenti.
 
-      1. Fare clic su **[!UICONTROL Apply]**.
+     1. Fare clic su **[!UICONTROL Apply]**.
 
 1. (Facoltativo) Scarica una copia del rapporto:
 

@@ -3,18 +3,24 @@ title: Copiare nodi secondari in un altro nodo di destinazione allo stesso livel
 description: Scopri come copiare tutti i nodi secondari di un nodo di destinazione principale in un altro nodo di destinazione allo stesso livello
 feature: Creative Experiences
 exl-id: b3705689-57b6-41ce-9e00-2358bd195c93
-TQID: https://experienceleague.adobe.com/KLKVrggOQ8V99Cd-2PcFEdwImKvLYkskSD-DPDvpwu0
+TQID: 'https://experienceleague.adobe.com/KLKVrggOQ8V99Cd-2PcFEdwImKvLYkskSD-DPDvpwu0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 286
+source-wordcount: '285'
 ht-degree: 0%
-
 ---
-
 # Copiare nodi secondari in un altro nodo di destinazione allo stesso livello
 
 *Esperienze con targeting solo per la struttura decisionale*
@@ -31,7 +37,7 @@ Questa funzionalità non influisce sulla destinazione specificata per il nodo pa
 
    * Per sostituire tutti i nodi figlio e i creativi di un nodo, fare clic sul nodo in cui si desidera incollare le informazioni copiate, fare clic su **...**, quindi selezionare **[!UICONTROL Replace ctrl+shift+v]** o b\) immettere **[!UICONTROL Ctrl+Shift+V]** ([!DNL Microsoft Windows]) o **[!UICONTROL Command-Shift-V]** ([!DNL Apple Macintosh]) sulla tastiera.
 
-   * (Nodi con più destinazioni secondarie, nessun nodo &quot;All&quot; e nessun solo creativo) Per aggiungere tutti i nodi secondari e i creativi a un nodo, senza eliminare quelli esistenti, fare clic sul nodo in cui si desidera incollare le informazioni copiate, fare clic su **...** e selezionare **[!UICONTROL Add ctrl+v]** **&#x200B; o b\) immettere &#x200B;** [!UICONTROL Ctrl+V] **&#x200B; ([!DNL Microsoft Windows]) o &#x200B;** [!UICONTROL Command-V]** ([!DNL Apple Macintosh]) sulla tastiera.
+   * (Nodi con più destinazioni secondarie, nessun nodo &quot;All&quot; e nessun solo creativo) Per aggiungere tutti i nodi secondari e i creativi a un nodo, senza eliminare quelli esistenti, fare clic sul nodo in cui si desidera incollare le informazioni copiate, fare clic su **...** e selezionare **[!UICONTROL Add ctrl+v]** ** o b\) immettere **[!UICONTROL Ctrl+V]** ([!DNL Microsoft Windows]) o **[!UICONTROL Command-V]** ([!DNL Apple Macintosh]) sulla tastiera.
 
 <!--
 1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.

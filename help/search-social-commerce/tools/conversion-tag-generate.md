@@ -3,13 +3,19 @@ title: Generare e implementare un tag di tracciamento delle conversioni di Adobe
 description: Scopri come creare un tag di conversione Adobe Advertising per tenere traccia degli eventi di conversione.
 exl-id: 02492162-96a0-4a91-8896-dd0f72199f79
 feature: Search Tools, Search Tracking
-source-git-commit: f97a636a55c6cc823f0041e7acd6f48dca769a3e
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1628'
 ht-degree: 0%
-
 ---
-
 # Generare e implementare un tag di tracciamento delle conversioni di Adobe Advertising
 
 *Inserzionisti con solo monitoraggio delle conversioni di Adobe Advertising*
@@ -128,15 +134,15 @@ Consulta &quot;[Domande frequenti sui tag di conversione e tracciamento delle vi
 
 ## Implementare i tag di tracciamento delle conversioni utilizzando i tag di Adobe Experience Platform e l’estensione Adobe Advertising
 
-Puoi impostare il tracciamento delle conversioni per Ricerca, Social e Commerce utilizzando i tag in Adobe Experience Platform. I tag sono disponibili per i clienti Adobe CX Enterprise come funzionalità inclusa a valore aggiunto.
+Puoi impostare il tracciamento delle conversioni per Ricerca, Social e Commerce utilizzando i tag in Adobe Experience Platform. I tag sono disponibili per i clienti di Adobe CX Enterprise come funzionalità inclusa a valore aggiunto.
 
-Per configurare i tag di tracciamento della conversione per Search, Social e Commerce dall’interfaccia utente di Experience Platform o da quella di Experience Platform Data Collection, sono necessarie le seguenti attività. Per informazioni e istruzioni complete sulla configurazione dei tag, consulta la Guida ai tag di Experience Platform, a partire da &quot;[Panoramica sui tag](https://experienceleague.adobe.com/it/docs/experience-platform/tags/home)&quot; e &quot;[Guida rapida](https://experienceleague.adobe.com/it/docs/experience-platform/tags/get-started/quick-start)&quot;.
+Per configurare i tag di tracciamento della conversione per Search, Social e Commerce dall’interfaccia utente di Experience Platform o da quella di Experience Platform Data Collection, sono necessarie le seguenti attività. Per informazioni e istruzioni complete sulla configurazione dei tag, consulta la Guida ai tag di Experience Platform, a partire da &quot;[Panoramica sui tag](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)&quot; e &quot;[Guida rapida](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start)&quot;.
 
 >[!PREREQUISITES]
 >
 >Per installare l&#39;estensione tag richiesta, chiedi all&#39;amministratore dell&#39;organizzazione di accedere alle funzioni di raccolta dati nell&#39;interfaccia utente, inclusa l&#39;autorizzazione `manage_properties`.
 
-1. Dall&#39;[interfaccia utente di Data Collection](https://experience.adobe.com/#/data-collection/), installa l&#39;estensione [Adobe Advertising](https://experienceleague.adobe.com/it/docs/experience-platform/tags/ui/extensions/overview):
+1. Dall&#39;[interfaccia utente di Data Collection](https://experience.adobe.com/#/data-collection/), installa l&#39;estensione [Adobe Advertising](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview):
 
    1. Dalla proprietà applicabile, apri il catalogo delle estensioni e seleziona **Adobe Advertising**.
 
@@ -184,7 +190,7 @@ Per configurare i tag di tracciamento della conversione per Search, Social e Com
 
          **Nome proprietà di conversione:** Nome della proprietà di conversione, ad esempio `form_completes`.
 
-         **Valore:** Il valore numerico della proprietà di conversione (ad esempio `1` per tenere traccia di form_completes) oppure scegliere un [elemento dati](https://experienceleague.adobe.com/it/docs/experience-platform/tags/ui/data-elements) esistente.
+         **Valore:** Il valore numerico della proprietà di conversione (ad esempio `1` per tenere traccia di form_completes) oppure scegliere un [elemento dati](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements) esistente.
 
       1. Fai clic su **Mantieni modifiche**.
 

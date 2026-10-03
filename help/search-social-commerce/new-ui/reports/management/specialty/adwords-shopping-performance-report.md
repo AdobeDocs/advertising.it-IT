@@ -2,13 +2,19 @@
 title: '[!UICONTROL AdWords Shopping Performance Report]'
 description: Informazioni su [!UICONTROL AdWords Shopping Performance Report].
 feature: Search Reports, Search Specialty Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '273'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL AdWords Shopping Performance Report]
 
 Solo *[!DNL Google Ads]account*
@@ -20,7 +26,7 @@ Puoi visualizzare i dati relativi ai due mesi precedenti. I dati antecedenti al 
 >[!NOTE]
 >
 >* Se il prodotto include la colonna [!UICONTROL Product Category] e un prodotto appare in più categorie, il prodotto appare in più righe e il conteggio di conversione viene duplicato in ciascuna delle righe applicabili. Poiché i totali dei dati di conversione non sono accurati, ordinare i dati per categoria solo per una comprensione generale della tendenza delle conversioni per categoria.
->* I dati per questo report vengono estratti per il giorno precedente alle 23:00 (23:00) ogni giorno. Ad esempio, alla 23:00 del 18 giugno, estrae i dati per il 17 giugno. Se esegui il rapporto il 19 giugno alle 09:00, prima che i dati per il 18 giugno vengano estratti, il rapporto includerà i dati fino al 17 giugno alle 23:00.
+>* I dati per questo report vengono estratti per il giorno precedente alle 23:00 (23:00) ogni giorno. Ad esempio, alle 23:00 del 18 giugno, estrae i dati per il 17 giugno. Se esegui il rapporto il 19 giugno alle 09:00 — prima che i dati per il 18 giugno vengano estratti — il rapporto include i dati fino al 17 giugno alle 23:00.
 
 ## Colonne predefinite
 

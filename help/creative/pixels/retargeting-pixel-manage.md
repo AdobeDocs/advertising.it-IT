@@ -3,27 +3,33 @@ title: Gestire i pixel di retargeting
 description: Scopri come creare e implementare pixel di retargeting da utilizzare come destinazioni per le esperienze pubblicitarie.
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-TQID: https://experienceleague.adobe.com/Io8N6tbyhPOEWHPIYe2Zu2b4xTYXqgwp04geaBKTchg
+TQID: 'https://experienceleague.adobe.com/Io8N6tbyhPOEWHPIYe2Zu2b4xTYXqgwp04geaBKTchg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: c6a20e0e-e1b3-4d7d-b454-3943a711b15e
+    internal-label: Creative Pixels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 936
+source-wordcount: '942'
 ht-degree: 0%
-
 ---
-
 # Gestire i pixel di retargeting
 
 <!-- Note to self: These aren't segments -- we don't create a pool of users. -->
 
 Puoi creare un pixel di retargeting per identificare i visitatori nelle pagine di destinazione o conversione di un inserzionista utilizzando cookie dell’utente o ID universali. Il pixel tiene traccia dell’evento più recente eseguito dal visitatore su una pagina e acquisisce gli attributi specifici tracciati dalla pagina per tali visitatori. Dopo aver creato il pixel, genera un tag pixel da inserire nelle pagine Web pertinenti per iniziare a tenere traccia dei visitatori.<!-- Note to self: surfer id=cookie or universal ID -->
 
-Puoi quindi utilizzare il pixel come destinazione per qualsiasi contenuto creativo all’interno di un’esperienza pubblicitaria per mostrare annunci solo agli utenti con attributi specifici che hanno visitato in precedenza le pagine web associate al pixel. Ad esempio, puoi indirizzare l’attività ai visitatori che guardano scarpe rosse nella dimensione 10, se le pagine web tengono traccia di tali valori di attributo.<!-- better example? Make sure they match attribute examples below --> Le destinazioni a livello di esperienza vengono applicate insieme alle opzioni di targeting del tuo DSP. Il comportamento di targeting gerarchico può variare a seconda di DSP.
+Puoi quindi utilizzare il pixel come destinazione per qualsiasi contenuto creativo all’interno di un’esperienza pubblicitaria per mostrare annunci solo agli utenti con attributi specifici che hanno visitato in precedenza le pagine web associate al pixel. Ad esempio, puoi eseguire il targeting dei visitatori che guardano le scarpe rosse nella dimensione 10, se le pagine web tengono traccia di tali valori di attributo.<!-- better example? Make sure they match attribute examples below --> I target a livello di esperienza vengono applicati insieme alle opzioni di targeting del tuo DSP; il comportamento di targeting gerarchico può variare a seconda di DSP.
 
 I profili di retargeting vengono memorizzati per 180 giorni.
 

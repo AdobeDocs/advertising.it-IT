@@ -3,25 +3,38 @@ title: Gestire gli elenchi delle offerte
 description: Scopri come creare e gestire gli elenchi di offerte per il targeting del posizionamento.
 feature: DSP Private Inventory, DSP On Demand Inventory, DSP Deal IDs, DSP Placements
 exl-id: 18a2c2d2-d84d-4347-93af-ca7489a1a8fb
-TQID: https://experienceleague.adobe.com/AGimJ-hI6NunBXRjZo--5fXO8y0dGXCSww5DcBlR7iw
+TQID: 'https://experienceleague.adobe.com/AGimJ-hI6NunBXRjZo--5fXO8y0dGXCSww5DcBlR7iw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
+  - id: b6b79f0f-69f1-5d2e-b06d-cdebfaaa942c
+    internal-label: DSP On Demand Inventory
+  - id: 85825b7c-c02c-536d-b821-66dc33454fb8
+    internal-label: DSP Deal IDs
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
+    internal-label: Deal IDs
   - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+    internal-label: On Demand Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 236
+source-wordcount: '236'
 ht-degree: 0%
-
 ---
-
 # Gestire gli elenchi delle offerte
 
 Puoi creare e gestire elenchi di offerte private e [!DNL On Demand] offerte per il targeting del posizionamento. Includi o escludi specifici elenchi di offerte private nelle impostazioni di posizionamento.
@@ -67,21 +80,21 @@ In custom reports, you can a) filter data by deal lists and deals and b) include
 
    * Per aggiungere offerte:
 
-      1. Fare clic su **[!UICONTROL Add Deals].**
+     1. Fare clic su **[!UICONTROL Add Deals].**
 
-      1. (Opzione) Filtrare l&#39;elenco per editore, provider di servizi condivisi o tipo di offerta (*[!UICONTROL Guaranteed]* o *[!UICONTROL Non-Guaranteed]*) oppure cercare l&#39;elenco in base al nome o all&#39;ID offerta.
+     1. (Opzione) Filtrare l&#39;elenco per editore, provider di servizi condivisi o tipo di offerta (*[!UICONTROL Guaranteed]* o *[!UICONTROL Non-Guaranteed]*) oppure cercare l&#39;elenco in base al nome o all&#39;ID offerta.
 
-      1. Seleziona la casella di controllo accanto a ogni offerta da includere nell’elenco.
+     1. Seleziona la casella di controllo accanto a ogni offerta da includere nell’elenco.
 
-      1. Fare clic su **[!UICONTROL Add Selected Deals]**.
+     1. Fare clic su **[!UICONTROL Add Selected Deals]**.
 
    * Per rimuovere le offerte:
 
-      1. Seleziona la casella di controllo accanto a ogni offerta da rimuovere dall’elenco.
+     1. Seleziona la casella di controllo accanto a ogni offerta da rimuovere dall’elenco.
 
-      1. Fare clic su **[!UICONTROL Remove from List]**.
+     1. Fare clic su **[!UICONTROL Remove from List]**.
 
-      1. Nel messaggio di conferma, fare clic su **[!UICONTROL Remove]**.
+     1. Nel messaggio di conferma, fare clic su **[!UICONTROL Remove]**.
 
 >[!MORELIKETHIS]
 >

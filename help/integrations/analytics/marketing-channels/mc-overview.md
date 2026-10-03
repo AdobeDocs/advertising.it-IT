@@ -1,31 +1,40 @@
 ---
-title: Nozioni di base di  [!DNL Marketing Channels]
-description: Scopri le informazioni chiave su [!DNL Analytics Marketing Channels] che [!DNL Analytics for Advertising] gli utenti dovrebbero comprendere.
+title: Nozioni di base di [!DNL Marketing Channels]
+description: Scopri le informazioni chiave su [!DNL Analytics Marketing Channels] che [!DNL Analytics for Advertising] utenti dovrebbero comprendere.
 feature: Integration with Adobe Analytics
 exl-id: de02dff5-86ce-41e8-89c6-3c11f6375b77
-TQID: https://experienceleague.adobe.com/NJ4LPss-g-J06PuvdCaUktHPyP7MARdJK84-D8gnwAk
+TQID: 'https://experienceleague.adobe.com/NJ4LPss-g-J06PuvdCaUktHPyP7MARdJK84-D8gnwAk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Email marketing
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 561
+source-wordcount: '563'
 ht-degree: 0%
-
 ---
-
 # Nozioni di base di [!DNL Analytics Marketing Channels]
 
 In questa pagina sono illustrate le informazioni chiave su [!DNL Analytics Marketing Channels] che [!DNL Analytics for Advertising] utenti devono comprendere.
 
-Per la documentazione completa su [!DNL Marketing Channels], vedere &quot;[Introduzione a [!DNL Marketing Channels]](https://experienceleague.adobe.com/it/docs/analytics/components/marketing-channels/c-getting-started-mchannel).&quot;
+Per la documentazione completa su [!DNL Marketing Channels], vedere &quot;[Introduzione a [!DNL Marketing Channels]](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel).&quot;
 
 ## Panoramica di [!DNL Marketing Channels]
 
@@ -43,16 +52,16 @@ Ogni volta che un utente accede a un sito web, lo fa tramite un URL su cui fa cl
 
 Spesso, gli addetti al marketing accodano i codici di tracciamento dei parametri delle stringhe di query agli URL del canale per monitorare l’impatto del canale sul sito. È possibile configurare [!DNL Marketing Channels] regole di elaborazione per l&#39;ascolto di parametri e valori di tracciamento specifici per determinare il canale senza alcun tracciamento aggiuntivo. Ad esempio, se tutti gli URL della campagna e-mail seguono il formato `www.adobe.com?cid=email…` (dove l&#39;URL contiene il parametro della stringa di query e il valore `cid=email`), puoi creare una regola per ascoltare questo codice di tracciamento e bucket la visita nel canale [!UICONTROL Email].
 
-Other channels don&#39;t have trackable URL paths and need further logic for identification. For example, [!UICONTROL Earned Social], in which a user clicks a link that another user shared organically on a social network, is an important channel to track. However, the marketer has no way to append a query string parameter tracking code to the URL that&#39;s shared. In this case, you could create a processing rule to listen for the referring domain of social networks of interest and the absence of paid tracking codes to determine the channel. The visits that meet these requirements then would be tracked as Earned Social within the Marketing Channels report.
+Gli altri canali non dispongono di percorsi URL tracciabili e richiedono un’ulteriore logica per l’identificazione. Ad esempio, [!UICONTROL Earned Social], in cui un utente fa clic su un collegamento condiviso organicamente da un altro utente su un social network, è un canale importante da monitorare. Tuttavia, l’addetto marketing non ha modo di aggiungere all’URL condiviso un codice di tracciamento dei parametri della stringa di query. In questo caso, puoi creare una regola di elaborazione per ascoltare il dominio di riferimento dei social network di interesse e l’assenza di codici di tracciamento a pagamento per determinare il canale. Le visite che soddisfano questi requisiti vengono quindi tracciate come Social Guadagnato nel rapporto Canali di marketing.
 
-Adobe recommends working with your [!DNL Analytics] team to build a comprehensive set of [!DNL Marketing Channels] processing rules that track all pertinent channels. Doing so allows you to create powerful attribution reporting.
+Adobe consiglia di collaborare con il team [!DNL Analytics] per creare un set completo di [!DNL Marketing Channels] regole di elaborazione che tengano traccia di tutti i canali pertinenti. In questo modo puoi creare rapporti di attribuzione efficaci.
 
-To understand how Adobe Advertising can contribute to the signals necessary to create custom marketing channels, see &quot;[Using Adobe Advertising IDs to create [!DNL Marketing Channels] processing rules](mc-ids.md).&quot;
+Per capire come Adobe Advertising può contribuire ai segnali necessari per creare canali di marketing personalizzati, consulta &quot;[Utilizzo degli ID di Adobe Advertising per creare [!DNL Marketing Channels] regole di elaborazione](mc-ids.md).&quot;
 
 >[!MORELIKETHIS]
 >
->* [Using Adobe Advertising IDs to create [!DNL Marketing Channels] processing rules](mc-ids.md)
->* [Why channel data can vary between Adobe Advertising and [!DNL Marketing Channels]](mc-data-variances.md)
->* [Using [!DNL Analytics Marketing Channels] with Adobe Advertising data](mc-ac-data.md)
->* [Video: Using [!DNL Marketing Channels] for Adobe Advertising reporting](https://experienceleague.adobe.com/it/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc)
+>* [Utilizzo degli ID Adobe Advertising per creare [!DNL Marketing Channels] regole di elaborazione](mc-ids.md)
+>* [Perché i dati dei canali possono variare tra Adobe Advertising e [!DNL Marketing Channels]](mc-data-variances.md)
+>* [Utilizzo di [!DNL Analytics Marketing Channels] con i dati di Adobe Advertising](mc-ac-data.md)
+>* [Video: utilizzo di [!DNL Marketing Channels] per la generazione di rapporti di Adobe Advertising](https://experienceleague.adobe.com/en/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc)
 >* [Panoramica di [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)

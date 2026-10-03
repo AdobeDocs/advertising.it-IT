@@ -3,28 +3,37 @@ title: Criteri dei requisiti degli annunci di Adobe Advertising
 description: Consulta i criteri per i requisiti degli annunci.
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-TQID: https://experienceleague.adobe.com/Od9i55zraQgaZGD1iWLFX6CcfXnUqCsrHQHt58tiHfU
+TQID: 'https://experienceleague.adobe.com/Od9i55zraQgaZGD1iWLFX6CcfXnUqCsrHQHt58tiHfU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: b2025470-04ef-4dd9-bdd4-44407644aeb6
+    internal-label: Compliance
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: bc1ebc31-ef28-453d-ab0e-79fb34941421
+    internal-label: Policies
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
   - id: fcb67316-5ddd-4bee-82b6-d36475c67b56
+    internal-label: Privacy
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2190
+source-wordcount: '2224'
 ht-degree: 0%
-
 ---
-
 # Criteri dei requisiti degli annunci di Adobe Advertising
 
 *Ultimo aggiornamento del criterio: 17 luglio 2024<!-- (except for formatting changes unrelated to content)-->*
@@ -67,7 +76,7 @@ Assicurati che gli annunci e i siti Web a cui un annuncio è collegato o reindir
 
 * **Tabacco**. Gli annunci non possono offrire o promuovere la vendita o l’uso di prodotti del tabacco o di articoli di sigarette, comprese le sigarette elettroniche.
 
-* **Profanità e linguaggio volgare o osceno.** Gli annunci non possono contenere volgarità o linguaggio volgare o osceno. Gli annunci possono anche non includere un linguaggio che intende ottenere lo stesso effetto, ma che oscura la profanità.
+* **Profanità e linguaggio volgare o osceno.** Gli annunci non possono contenere parolacce o linguaggio volgare o osceno. Gli annunci possono anche non includere un linguaggio che intende ottenere lo stesso effetto, ma che oscura la profanità.
 
 * **Annunci offensivi**. Gli annunci non possono promuovere o riferirsi a discorsi pieni di odio o intolleranza religiosa e non possono denigrare un individuo o un gruppo in base alla sua razza o origine etnica, religione, disabilità, condizione medica o genetica, età, nazionalità o origine nazionale, stato di veterano, status di rifugiato, status di immigrazione, orientamento sessuale, genere, identità di genere o altre caratteristiche associate con la discriminazione sistemica o l&#39;emarginazione.
 
@@ -125,22 +134,22 @@ I Servizi non possono essere utilizzati per indirizzare annunci agli utenti o pe
 
 
 
-   * Convinzioni o affiliazioni religiose o simili
-   * Razza, colore o origine etnica
-   * Anamnesi, interessi o orientamento sessuale
-   * Identificazione transgender
-   * Informazioni genetiche o biometriche
-   * Stato finanziario negativo (come il punteggio di credito), o precedenti penali, anamnesi o condanne
-   * Cartelle cliniche o mediche, comprese quelle con ricetta medica
-   * Relazioni o status di relazione correlato a difficoltà personali (quali divorzio, lutto)
-   * Abuso e trauma, incluso lo stato di vittima di reato, abuso o evento traumatico
-   * Appartenenza a un gruppo emarginato o vulnerabile, anche in base alla casta sociale, all&#39;immigrazione o allo status di rifugiato
+  * Convinzioni o affiliazioni religiose o simili
+  * Razza, colore o origine etnica
+  * Anamnesi, interessi o orientamento sessuale
+  * Identificazione transgender
+  * Informazioni genetiche o biometriche
+  * Stato finanziario negativo (come il punteggio di credito), o precedenti penali, anamnesi o condanne
+  * Cartelle cliniche o mediche, comprese quelle con ricetta medica
+  * Relazioni o status di relazione correlato a difficoltà personali (quali divorzio, lutto)
+  * Abuso e trauma, incluso lo stato di vittima di reato, abuso o evento traumatico
+  * Appartenenza a un gruppo emarginato o vulnerabile, anche in base alla casta sociale, all&#39;immigrazione o allo status di rifugiato
 
 * **Unione europea**. Inoltre, nell’Unione europea, gli annunci non possono essere indirizzati o indirizzati a un pubblico in base ai seguenti fattori, noti o dedotti sull’utente:
 
-   * Affiliazione politica
-   * Iscrizione sindacale
-   * Qualsiasi altra categoria speciale di dati personali
+  * Affiliazione politica
+  * Iscrizione sindacale
+  * Qualsiasi altra categoria speciale di dati personali
 
 * **Destinazione correlata allo stato**. Non è consentito utilizzare i Servizi per raccogliere dati sanitari sensibili o per trarre conclusioni sulle cure mediche o sanitarie riservate degli utenti. In particolare, non puoi utilizzare i Servizi per il targeting degli annunci per una qualsiasi delle seguenti forme: cancro, condizioni di salute mentale o malattie a trasmissione sessuale. Gli annunci possono essere mirati per condizioni di salute non sensibili, tra cui acne, allergie, dentali, visione, bruciore di stomaco, raffreddore e influenza, sinusite, mal di testa, mal di schiena, primo soccorso, mal di gola, gestione dello zucchero nel sangue, dieta e fitness, rimozione dei capelli, vitamine e integratori.
 

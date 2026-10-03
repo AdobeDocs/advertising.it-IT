@@ -2,13 +2,19 @@
 title: '[!UICONTROL Network Constraint Report]'
 description: Informazioni su [!UICONTROL Network Constraint Report].
 feature: Search Reports, Search Basic Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Network Constraint Report]
 
 [!UICONTROL Network Constraint Report] mostra tutti i budget minimi e massimi specificati per le reti pubblicitarie, nonché la spesa effettiva (costo). Il rapporto include dati su costi, clic, impression, view-through e (facoltativamente) conversione per uno o più portfolio. Per impostazione predefinita, i dati includono una riga per ogni account di rete di annunci applicabile nell’intervallo di date specificato e le righe sono in ordine crescente prima per portfolio e poi per rete di annunci.

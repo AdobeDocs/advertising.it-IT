@@ -1,24 +1,28 @@
 ---
-title: Sottoscrivi e richiedi l'accesso alle  [!DNL On Demand] offerte premium sull'inventario
+title: Sottoscrivi e richiedi l'accesso a [!DNL On Demand] offerte di magazzino premium
 description: Scopri come abbonarti e richiedere l'accesso a [!DNL On Demand] offerte.
 feature: DSP On Demand Inventory
 exl-id: 7f23f989-3c96-475e-9f49-aa9098d24c17
-TQID: https://experienceleague.adobe.com/k3uCoU7U-K-TfHrlpFPn8XYtb-Vk5XWwmxCXby57tKs
+TQID: 'https://experienceleague.adobe.com/k3uCoU7U-K-TfHrlpFPn8XYtb-Vk5XWwmxCXby57tKs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b6b79f0f-69f1-5d2e-b06d-cdebfaaa942c
+    internal-label: DSP On Demand Inventory
 subfeature_v2:
   - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+    internal-label: On Demand Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: '395'
 ht-degree: 0%
-
 ---
-
 # Sottoscrivi e richiedi l&#39;accesso a [!DNL On Demand] offerte di magazzino premium
 
 *Non disponibile per gli utenti con i tipi di account [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension] e [!UICONTROL Other]; per gli inserzionisti con la categoria [!UICONTROL Other] e per i rivenditori*
@@ -81,15 +85,15 @@ Una volta che un&#39;offerta è [approvata](/help/dsp/inventory/on-demand-invent
 
    * Per richiedere offerte aggiunte di recente:
 
-      1. Nel carosello superiore degli editori, posizionare il cursore sul logo dell&#39;editore e quindi fare clic su **[!UICONTROL See Deals]**.
+     1. Nel carosello superiore degli editori, posizionare il cursore sul logo dell&#39;editore e quindi fare clic su **[!UICONTROL See Deals]**.
 
-      1. Per sottoscrivere una singola offerta, fare clic su **[!UICONTROL Request]** nella colonna [!UICONTROL Action] per la riga corrispondente.
+     1. Per sottoscrivere una singola offerta, fare clic su **[!UICONTROL Request]** nella colonna [!UICONTROL Action] per la riga corrispondente.
 
    * Per richiedere offerte dalla visualizzazione [!UICONTROL Deal]:
 
-      1. Fare clic su **[!UICONTROL Deal view]**.
+     1. Fare clic su **[!UICONTROL Deal view]**.
 
-      1. Fare clic su **[!UICONTROL Request]** nella colonna [!UICONTROL Action] per la riga corrispondente.
+     1. Fare clic su **[!UICONTROL Request]** nella colonna [!UICONTROL Action] per la riga corrispondente.
 
 >[!MORELIKETHIS]
 >

@@ -1,22 +1,26 @@
 ---
 title: '[!DNL Google Ads] impostazioni annunci di ricerca dinamica espansi'
-description: Fai riferimento alle impostazioni per  [!DNL Google Ads] annunci di ricerca dinamica espansi.
+description: Fare riferimento alle impostazioni per [!DNL Google Ads] annunci di ricerca dinamica espansi.
 exl-id: 62142e37-c7c6-42d8-883b-f288a2903f44
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/5KJJ7b3UJiKGeqimzHbwS4k-wxpHyIcLh1N9AUaU-SQ
+TQID: 'https://experienceleague.adobe.com/5KJJ7b3UJiKGeqimzHbwS4k-wxpHyIcLh1N9AUaU-SQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 114
+source-wordcount: '123'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads] impostazioni annunci di ricerca dinamica espansi
 
 Gli annunci di ricerca dinamica (DSA) sono disponibili solo per [!DNL Google Ads] gruppi di annunci dinamici di ricerca nelle campagne di sola ricerca. La rete di annunci genera dinamicamente il titolo, seleziona la pagina di destinazione e l’URL di visualizzazione per un annuncio di ricerca dinamico, quindi genera automaticamente l’URL finale.

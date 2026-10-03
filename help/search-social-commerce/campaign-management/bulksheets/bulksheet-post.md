@@ -3,20 +3,24 @@ title: Pubblica i bulksheet o i file di errore corretti
 description: Scopri come pubblicare file di bulksheet sulle reti di annunci.
 exl-id: 49b930ba-71b3-442d-a162-67cf7ae14e14
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/N2xYU3CSbNaftsEOKKyXDjDQRYeqhYOolhf5ZyCPiGA
+TQID: 'https://experienceleague.adobe.com/N2xYU3CSbNaftsEOKKyXDjDQRYeqhYOolhf5ZyCPiGA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 726
+source-wordcount: '726'
 ht-degree: 0%
-
 ---
-
 # Pubblica i bulksheet o i file di errore corretti
 
 È possibile pubblicare file di bulksheet esistenti o file di errore corretti negli account pertinenti per [reti di annunci supportate](bulksheet-about.md#bulksheet-functionality-by-network). Se il file è in formato ZIP, non devi prima decomprimerlo.
@@ -42,7 +46,7 @@ All&#39;inizio dell&#39;attività, lo stato e la data di pubblicazione pianifica
 >
 >* La pubblicazione di grandi quantità di dati richiede più tempo. È possibile seguire l&#39;avanzamento del file nella colonna [!UICONTROL Progress] nella visualizzazione [!UICONTROL Bulksheets].
 >* Tutti i dati pubblicati sono soggetti al processo editoriale della rete.
->* Prima della registrazione del file di bulksheet, è possibile annullarla.
+* Prima della registrazione del file di bulksheet, è possibile annullarla.
 
 ## Impostazioni post per i bulksheet e i file di errore corretti {#bulksheet-post-settings}
 
@@ -50,8 +54,8 @@ All&#39;inizio dell&#39;attività, lo stato e la data di pubblicazione pianifica
 |----|----|
 | [!UICONTROL Account (Search Engine)] | L’account di rete dell’annuncio per il quale vengono pubblicati i dati. Se si pubblicano più file contemporaneamente o un file che si applica a più account, il valore è <i>Più account selezionati</i>.<br><br>La prima lettera del nome della rete di annunci è tra parentesi dopo il nome dell&#39;account, ad esempio &quot;Acme Realty (G)&quot; per un account [!DNL Google Ads]. |
 | [!UICONTROL Scheduling] | Quando inserire il file nella rete di annunci specificata:<ul><li><i>[!UICONTROL Post to ad network now]</i> (impostazione predefinita): inizia subito la pubblicazione dei dati.</li><li><i>[!UICONTROL Post to ad network on \[specified date\] \[specified time\]]:</i> Inizia la pubblicazione dei dati alla data e all&#39;ora specificate. L&#39;impostazione predefinita è domani alle 02:00 (2.00). Per modificare la data, immettere una data nel formato GG/MM/AAAA o GG/M/AAAA oppure fare clic su ![Calendario](/help/search-social-commerce/assets/calendar.png "Calendario") per aprire il calendario e [selezionare una data](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Per modificare l&#39;ora, immettere l&#39;ora nel formato HH/MM o H/M oppure selezionare un&#39;ora (in intervalli di 15 minuti) dall&#39;elenco.</li></ul> |
-| [!UICONTROL Generate Tracking URLs] | Indica se includere i modelli di tracciamento e i suffissi delle pagine di destinazione (per le reti di annunci applicabili) in account con modelli di tracciamento o gli URL di destinazione con codici di tracciamento incorporati in account con URL di destinazione, per tutte le parole chiave, gli annunci, i posizionamenti, i sitelink e i gruppi di prodotti [!DNL Google Ads] nel post: <i>[!UICONTROL Yes]</i> (impostazione predefinita) o <i>[!UICONTROL No]</i>. Non importa se le unità di offerta si trovano in un portfolio.<br><br>Se si seleziona <i>[!UICONTROL Yes]</i>, gli URL vengono generati in base ai parametri nella sezione [!UICONTROL Tracking Methods] delle impostazioni account o delle campagne pertinenti. Per impostazione predefinita, se esistono URL di tracciamento, questi non vengono rigenerati a meno che non siano necessari nuovi URL (ad esempio se il tipo di corrispondenza della parola chiave, il testo dell’annuncio o i parametri di tracciamento per gli account rilevanti sono cambiati).<br><br>Se selezioni <i>[!UICONTROL No]</i>, puoi comunque generare gli URL di tracciamento in un secondo momento pubblicando manualmente il file caricato.<br><br><b>Nota:</b> se l&#39;inserzionista utilizza il tracciamento delle conversioni di Adobe Advertising e l&#39;URL di base è stato modificato, è necessario generare nuovi URL di tracciamento a meno che l&#39;account non sia configurato per generare e caricare automaticamente gli URL di tracciamento. |
-| [!UICONTROL Enable budget changes on optimized campaigns] | Consente modifiche di budget alle campagne nei portfolio ottimizzati in base ai dati pubblicati. Per impostazione predefinita, questa opzione non è selezionata. Se selezioni questa opzione, eventuali modifiche al budget della campagna specificate saranno applicabili fino a quando la funzionalità di ottimizzazione non determinerà che il budget deve essere riallocato (di solito al successivo ciclo di offerta).<br><br><b>Nota:</b> eventuali modifiche al budget derivanti dai dati pubblicati per le campagne in portfolio non ottimizzati si verificano quando il file viene registrato. Le modifiche vengono visualizzate nelle visualizzazioni di gestione della campagna il giorno successivo. |
+| [!UICONTROL Generate Tracking URLs] | Indica se includere i modelli di tracciamento e i suffissi delle pagine di destinazione (per le reti di annunci applicabili) in account con modelli di tracciamento o gli URL di destinazione con codici di tracciamento incorporati in account con URL di destinazione, per tutte le parole chiave, gli annunci, i posizionamenti, i sitelink e i gruppi di prodotti [!DNL Google Ads] nel post: <i>[!UICONTROL Yes]</i> (impostazione predefinita) o <i>[!UICONTROL No]</i>. Non importa se le unità di offerta si trovano in un portfolio.<br><br>Se si seleziona <i>[!UICONTROL Yes]</i>, gli URL vengono generati in base ai parametri nella sezione [!UICONTROL Tracking Methods] delle impostazioni account o delle campagne pertinenti. Per impostazione predefinita, se sono presenti URL di tracciamento, questi non vengono rigenerati a meno che non siano necessari nuovi URL (ad esempio se il tipo di corrispondenza delle parole chiave, il testo dell&#39;annuncio o i parametri di tracciamento per gli account rilevanti sono cambiati).<br><br>Se selezioni <i>[!UICONTROL No]</i>, puoi comunque generare gli URL di tracciamento in un secondo momento pubblicando manualmente il file caricato.<br><br><b>Nota:</b> Se l&#39;inserzionista utilizza il tracciamento delle conversioni di Adobe Advertising e l&#39;URL di base è stato modificato, devi generare nuovi URL di tracciamento a meno che l&#39;account non sia configurato per generare e caricare automaticamente gli URL di tracciamento. |
+| [!UICONTROL Enable budget changes on optimized campaigns] | Consente modifiche di budget alle campagne nei portfolio ottimizzati in base ai dati pubblicati. Per impostazione predefinita, questa opzione non è selezionata. Se si seleziona questa opzione, tutte le modifiche al budget della campagna specificate saranno applicabili fino a quando la funzionalità di ottimizzazione non determinerà che il budget deve essere riallocato (in genere al successivo ciclo di offerta).<br><br><b>Nota:</b> Qualsiasi modifica al budget derivante dai dati registrati per le campagne in portfolio non ottimizzati si verifica quando il file viene registrato. Le modifiche vengono visualizzate nelle visualizzazioni di gestione della campagna il giorno successivo. |
 | [!UICONTROL Enable bidding on ads within portfolios] | Quando i componenti della campagna inclusi si trovano in un portfolio ottimizzato, questa funzione sovrascrive la strategia di ottimizzazione e consente di modificare le offerte in base ai dati nel bulksheet fino a una data di fine specificata. Se si seleziona questa opzione, specificare una data di fine compresa tra 1 e 7 giorni nel campo **[!UICONTROL Hold bulksheet bids until]**. |
 
 >[!MORELIKETHIS]

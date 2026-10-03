@@ -1,20 +1,23 @@
 ---
 title: Implementa [!DNL Google Ads] annunci per ricerca dinamica
-description: Scopri il flusso di lavoro per la configurazione di  [!DNL Google Ads] annunci per ricerca dinamica.
+description: Scopri il flusso di lavoro per la configurazione di [!DNL Google Ads] annunci per ricerca dinamica.
 exl-id: 69e5069f-3f82-4ee3-841a-0c1292677223
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/2HsYFUdcvlEr9-LZHMtgS07jZ5A0DOMEj-byGZlf6aE
+TQID: 'https://experienceleague.adobe.com/2HsYFUdcvlEr9-LZHMtgS07jZ5A0DOMEj-byGZlf6aE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 614
+source-wordcount: '640'
 ht-degree: 0%
-
 ---
-
 # Implementa [!DNL Google Ads] annunci per ricerca dinamica
 
 *[!DNL Google Ads]campagne di sola ricerca con solo tracciamento a livello creativo o di parola chiave e a livello creativo*
@@ -62,7 +65,7 @@ Gli annunci per ricerca dinamica utilizzano il contenuto del sito web, invece de
 1. [Crea ogni annuncio di ricerca dinamica](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) all&#39;interno del gruppo di annunci.
 
    [!DNL Google Ads] genera in modo dinamico il titolo, l&#39;URL di visualizzazione e l&#39;URL della pagina di destinazione per ogni annuncio. Facoltativamente, puoi aggiungere reindirizzamenti e tracciamento al modello di tracciamento a livello di annuncio, che sostituisce i modelli di tracciamento a livelli più elevati.
-Se desideri escludere il tracciamento di Adobe Analytics a livelli superiori con il tracciamento a livello di annuncio, aggiungilo qui. Vedere i passaggi 1e e 2c.
+   Se desideri escludere il tracciamento di Adobe Analytics a livelli superiori con il tracciamento a livello di annuncio, aggiungilo qui. Vedere i passaggi 1e e 2c.
 
 1. (Obbligatorio se non si includono il dominio radice e la lingua per il dominio nella sezione Opzioni DSA delle impostazioni della campagna; facoltativo in caso contrario) Crea [destinazioni di ricerca dinamica](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md) per il gruppo di annunci. Facoltativamente, puoi sostituire l’offerta a livello di gruppo di annunci con le offerte a livello di target.
 

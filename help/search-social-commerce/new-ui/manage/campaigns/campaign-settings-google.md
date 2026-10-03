@@ -1,22 +1,28 @@
 ---
 title: '[!DNL Google Ads] impostazioni campagna'
-description: Fai riferimento alle impostazioni per  [!DNL Google Ads]  campagne.
+description: Fai riferimento alle impostazioni per [!DNL Google Ads] campagne.
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: d45eb490f9dbb7da89bd1270582e5548b70cbd31
+    internal-label: Machine learning
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 3057
+source-wordcount: '3058'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads] impostazioni campagna
 
 ## \[Inizio pagina]
@@ -425,7 +431,7 @@ Per creare un obiettivo di conversione personalizzato, fare clic su **[!UICONTRO
 >
 >Se la campagna fa parte di un portfolio ibrido, la best practice consiste nell’utilizzare obiettivi a livello di campagna che corrispondono agli obiettivi di conversione nell’obiettivo del portfolio; l’inclusione di obiettivi di conversione aggiuntivi può influire sulle prestazioni del portfolio.
 >
->Tuttavia, per le campagne in portfolio ibridi per le quali [carichi gli obiettivi nella rete di annunci](/help/search-social-commerce/tools/objective-upload-to-networks.md), effettua le seguenti operazioni nell&#39;editor della rete di annunci invece che qui: a) aggiungi la metrica di obiettivo del portfolio Search, Social e Commerce caricata (che inizia con &quot;O_ACS_OBJ&quot;) come azione di conversione per la campagna; e b) aggiungi eventuali obiettivi della campagna che includono [!DNL Google] conversioni tracciate, perché le metriche tracciate nella rete di annunci non vengono caricate nella rete di annunci con l&#39;obiettivo.
+>Tuttavia, per le campagne in portfolio ibridi per le quali [carichi gli obiettivi nella rete di annunci](/help/search-social-commerce/tools/objective-upload-to-networks.md), effettua le seguenti operazioni nell&#39;editor della rete di annunci invece che qui: a) aggiungi la metrica di obiettivo del portfolio Search, Social e Commerce caricato (che inizia con &quot;O_ACS_OBJ&quot;) come azione di conversione per la campagna; e b) aggiungi eventuali obiettivi della campagna che includono [!DNL Google] conversioni tracciate, perché le metriche tracciate nella rete di annunci non vengono caricate nella rete di annunci con l&#39;obiettivo.
 
 ### [!UICONTROL Set Customer Acquisition Goal]
 

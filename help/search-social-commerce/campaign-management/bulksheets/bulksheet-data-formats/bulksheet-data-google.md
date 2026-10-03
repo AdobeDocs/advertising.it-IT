@@ -1,23 +1,28 @@
 ---
-title: Dati bulksheet richiesti per  [!DNL Google Ads]  account
-description: Fai riferimento ai campi di intestazione e ai campi dati obbligatori nei bulksheet per  [!DNL Google Ads]  account.
+title: Dati bulksheet richiesti per [!DNL Google Ads] account
+description: Fare riferimento ai campi intestazione e ai campi dati obbligatori nei bulksheet per gli account [!DNL Google Ads].
 exl-id: 756b77fe-f95d-469f-9ae0-7424c2fad0b1
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/mxs4XjmBxho29VLjSzREkA-w6eWMn6e-8cXihLgh7ZA
+TQID: 'https://experienceleague.adobe.com/mxs4XjmBxho29VLjSzREkA-w6eWMn6e-8cXihLgh7ZA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a534a6eb822a22dcff7ca7ca9e8dcd4f3d75712c
+    internal-label: Data collection
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 8027
+source-wordcount: '8101'
 ht-degree: 0%
-
 ---
-
 # Appendice - Dati bulksheet richiesti per i conti [!DNL Google Ads]
 
 Per creare e aggiornare in blocco i dati della campagna [!DNL Google Ads], è possibile utilizzare i file di bulksheet di Search, Social e Commerce formattati specificamente per gli account [!DNL Google Ads]. È possibile: a) [generare file di fogli collettivi per gli account esistenti](../bulksheet-download.md) nel formato di file richiesto oppure b) crearli manualmente (vedere &quot;[Formati di file di fogli collettivi supportati](bulksheet-file-formats.md)&quot; per informazioni generali sui formati di file supportati).
@@ -94,7 +99,7 @@ Add in when released:
 | [!UICONTROL First Page Bid] | (Inclusa nei bulksheet generati a scopo informativo) L’offerta necessaria per inserire un annuncio sulla prima pagina dei risultati della ricerca. Questo valore non viene inviato alla rete di annunci. |
 | [!UICONTROL Quality Score] | (incluso nei bulksheet generati a scopo informativo) Il punteggio di qualità corrente assegnato dal motore di ricerca alla parola chiave. Questo valore non viene inviato alla rete pubblicitaria.) |
 | [!UICONTROL Creative Preferred Devices] | (Annunci di testo, annunci di ricerca dinamica espansi e sitelink avanzati; facoltativo) Tipi di dispositivi su cui si preferisce visualizzare l&#39;annuncio: <i>[!UICONTROL All]</i> (impostazione predefinita) o <i>[!UICONTROL Mobile]</i>. Quando si specifica <i>[!UICONTROL Mobile]</i>, la rete tenta di visualizzare l&#39;annuncio agli utenti di dispositivi mobili anziché agli utenti di desktop o tablet. In caso contrario, l’annuncio verrà visualizzato in rete su qualsiasi tipo di dispositivo.</p><p><b>Nota:</b></p><ul><li><p>Solo l&#39;amministratore e gli utenti del gestore account [!DNL Adobe] possono modificare questa impostazione.</p></li><li><p>La rete non garantisce la visualizzazione dell&#39;annuncio sul tipo di dispositivo preferito.</p></li><li><p>È possibile creare nuovi sitelink avanzati solo nelle campagne con sitelink avanzati esistenti o senza sitelink.</p></li></ul> |
-| [!UICONTROL Ad Title], [!UICONTROL Ad Title 2]-15 | (Solo annunci di testo espansi e annunci di ricerca responsive) I titoli di un annuncio, ciascuno separato da una barra verticale (&vert;). La lunghezza massima per ciascun campo del titolo dell’annuncio è di 30 caratteri o 15 caratteri a doppio byte, incluso qualsiasi testo dinamico (come i valori delle parole chiave e degli ad customizer).</p><p>Per gli annunci di ricerca responsive, sono necessari [!UICONTROL Ad Title], [!UICONTROL Ad Title 2] e [!UICONTROL Ad Title 3] e tutti gli altri campi del titolo dell&#39;annuncio sono facoltativi. Per eliminare il valore esistente per un campo non obbligatorio, utilizzare il valore <code>[delete]</code> (comprese le parentesi).</p><p>Per gli annunci di ricerca responsive, inserire un personalizzatore di annunci utilizzando il seguente formato: <code>{CUSTOMIZER.AdCustomizerName:DefaultText}</code>, ad esempio <code>{CUSTOMIZER.Discount:10%}</code></p><p>Non puoi creare o modificare, ma puoi eliminare gli annunci di testo espansi, che [!DNL Google Ads] ha dichiarato obsoleti a giugno 2022. |
+| [!UICONTROL Ad Title], [!UICONTROL Ad Title 2]-15 | (Solo annunci di testo espansi e annunci di ricerca responsive) I titoli di un annuncio, ciascuno separato da una barra verticale (&amp;vert;). La lunghezza massima per ciascun campo del titolo dell’annuncio è di 30 caratteri o 15 caratteri a doppio byte, incluso qualsiasi testo dinamico (come i valori delle parole chiave e degli ad customizer).</p><p>Per gli annunci di ricerca responsive, sono necessari [!UICONTROL Ad Title], [!UICONTROL Ad Title 2] e [!UICONTROL Ad Title 3] e tutti gli altri campi del titolo dell&#39;annuncio sono facoltativi. Per eliminare il valore esistente per un campo non obbligatorio, utilizzare il valore <code>[delete]</code> (comprese le parentesi).</p><p>Per gli annunci di ricerca responsive, inserire un personalizzatore di annunci utilizzando il seguente formato: <code>{CUSTOMIZER.AdCustomizerName:DefaultText}</code>, ad esempio <code>{CUSTOMIZER.Discount:10%}</code></p><p>Non puoi creare o modificare, ma puoi eliminare gli annunci di testo espansi, che [!DNL Google Ads] ha dichiarato obsoleti a giugno 2022. |
 | [!UICONTROL Ad Title 1 Position]-[!UICONTROL Ad Title 15 Position] | <p>(Solo annunci di ricerca reattiva; facoltativo) Posizione in cui fissare il titolo dell&#39;annuncio corrispondente: `[null]` (nessun valore, che rende il titolo dell&#39;annuncio idoneo per tutte le posizioni), <i>1</i>, <i>2</i> o <i>3</i>. Ad esempio, se [!UICONTROL Ad Title Position] ha un valore pari a 1, Titolo annuncio verrà visualizzato solo nella posizione 1. Per impostazione predefinita, tutti i titoli degli annunci sono nulli (non hanno valori).</p><p>Per eliminare il valore esistente, utilizzare il valore <code>[delete]</code> (comprese le parentesi).</p><p><b>Nota:</b> puoi fissare più titoli di annunci nella stessa posizione. La rete di annunci utilizza uno dei titoli degli annunci fissati alla posizione. I titoli fissati alla posizione 3 potrebbero non essere visualizzati con l’annuncio.</p> |
 | [!UICONTROL Description Line 1]-[!UICONTROL Description Line 4] | <p>(Solo annunci di ricerca dinamica espansi, annunci di testo espansi e annunci di ricerca responsive) Il corpo di un annuncio. La lunghezza massima per ciascun campo di descrizione è di 90 caratteri o 45 caratteri a doppio byte, incluso qualsiasi testo dinamico (come i valori delle parole chiave e degli ad customizer).</p><p>Per gli annunci di ricerca responsive, inserire un personalizzatore di annunci utilizzando il seguente formato: `{CUSTOMIZER.AdCustomizerName:DefaultText}`, ad esempio `{CUSTOMIZER.Discount:10%}`</p><p>Per gli annunci di ricerca dinamica espansi, utilizzare solo [!UICONTROL Description Line 1] e [!UICONTROL Description Line 2]. <b>Nota:</b> Per questo tipo di annuncio, la modifica della copia dell&#39;annuncio elimina l&#39;annuncio esistente e ne crea uno nuovo.</p><p>Non puoi creare o modificare, ma puoi eliminare gli annunci di testo espansi, che [!DNL Google Ads] ha dichiarato obsoleti a giugno 2022.</p><p>Per gli annunci di ricerca responsive, sono necessari [!UICONTROL Description Line 1] e [!UICONTROL Description Line 2] e [!UICONTROL Description Line 3] e [!UICONTROL Description Line 4] sono facoltativi. Per eliminare il valore esistente, utilizzare il valore <code>[delete]</code> (comprese le parentesi).</p> |
 | [!UICONTROL Description Line 1 Position]-[!UICONTROL Description Line 4 Position] | (Solo annunci di ricerca reattiva; facoltativo) Posizione in cui fissare la descrizione corrispondente: `[null]` (nessun valore, che rende la descrizione idonea per tutte le posizioni), <i>1</i>, <i>2</i> o <i>3</i>. Ad esempio, se [!UICONTROL Description 1 Position] ha un valore pari a 1, [!UICONTROL Description 1] viene visualizzato solo nella posizione 1. Per impostazione predefinita, nessuna descrizione è bloccata su una posizione.</p><p>Per eliminare il valore esistente, utilizzare il valore `[delete]` (comprese le parentesi).</p><p><b>Nota:</b> è possibile fissare più descrizioni nella stessa posizione. La rete di annunci utilizza una delle descrizioni fissate alla posizione. Le descrizioni fissate alla posizione 2 potrebbero non essere visualizzate con l’annuncio. |
@@ -263,7 +268,7 @@ Per una descrizione di ogni campo dati, vedere &quot;[Tutti i campi dati disponi
 
 ### Annuncio per ricerca dinamica espanso
 
-Questo tipo di annuncio è ora denominato &quot;annuncio di ricerca dinamica&quot; in [!DNL Google Ads]. Per ulteriori informazioni sulla creazione di annunci per ricerca dinamica, vedi &quot;[Implementare [!DNL Google Ads] annunci per ricerca dinamica](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html?lang=it).&quot;
+Questo tipo di annuncio è ora denominato &quot;annuncio di ricerca dinamica&quot; in [!DNL Google Ads]. Per ulteriori informazioni sulla creazione di annunci per ricerca dinamica, vedi &quot;[Implementare [!DNL Google Ads] annunci per ricerca dinamica](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html).&quot;
 
 Per questo tipo di annuncio, utilizzare la riga &quot;[!UICONTROL Creative (except RSA)]&quot; nella finestra di dialogo [!UICONTROL Download Bulksheet].
 
@@ -288,7 +293,7 @@ Per una descrizione di ogni campo dati, vedere &quot;[Tutti i campi dati disponi
 
 ### Campi per annunci di acquisto/elenco prodotti
 
-Per ulteriori informazioni sulla creazione di annunci per acquisti, consulta &quot;[Implementare [!DNL Google Ads] campagne acquisti](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html?lang=it).&quot;
+Per ulteriori informazioni sulla creazione di annunci per acquisti, consulta &quot;[Implementare [!DNL Google Ads] campagne acquisti](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html).&quot;
 
 Per questo tipo di annuncio, utilizzare la riga &quot;[!UICONTROL Creative (except RSA)]&quot; nella finestra di dialogo [!UICONTROL Download Bulksheet].
 
@@ -369,7 +374,7 @@ Per una descrizione di ogni campo dati, vedere &quot;[Tutti i campi dati disponi
 | \[Classificazione etichetta specifica dell’inserzionista\] | Facoltativo |
 | [!UICONTROL Campaign ID] | Facoltativo |
 | [!UICONTROL Ad Group ID] | Facoltativo |
-| [!UICONTROL Ad ID] | Obbligatorio solo quando si modifica lo stato dell&#39;annuncio, a meno che la riga non includa colonne di proprietà dell&#39;annuncio sufficienti per identificare l&#39;annuncio o b&rpar; un &quot;[!UICONTROL AMO ID]&quot;. Tuttavia, se non includi né [!UICONTROL Ad ID] né [!UICONTROL AMO ID] e le colonne della proprietà dell&#39;annuncio corrispondono a più annunci, lo stato di uno solo degli annunci cambia. |
+| [!UICONTROL Ad ID] | Obbligatorio solo quando si modifica lo stato dell&#39;annuncio, a meno che la riga non includa colonne di proprietà dell&#39;annuncio sufficienti per identificare l&#39;annuncio o b&amp;rpar; un &quot;[!UICONTROL AMO ID]&quot;. Tuttavia, se non includi né [!UICONTROL Ad ID] né [!UICONTROL AMO ID] e le colonne della proprietà dell&#39;annuncio corrispondono a più annunci, lo stato di uno solo degli annunci cambia. |
 | [!UICONTROL AMO ID] | Necessario per modificare o eliminare i dati a meno che non si includano l&#39;ID entità e l&#39;ID entità padre.<br><br>Search, Social e Commerce utilizzano il valore per determinare l&#39;identità corretta da modificare ma non pubblicano l&#39;ID nella rete di annunci. |
 
 ### Campi destinazione ricerca dinamica (targeting automatico)

@@ -3,24 +3,29 @@ title: Informazioni sullo strumento DSP [!UICONTROL Planner]
 description: Scopri lo strumento di pianificazione per prevedere la portata unica dei posizionamenti di TV connesse (CTV) in base al budget e ai criteri di targeting specificati.
 feature: DSP Planner
 exl-id: b25d4ac5-e85f-4a38-8765-6c5261987668
-TQID: https://experienceleague.adobe.com/dvO9ZtGs76Tm-AxE8ljLsnBXqUcX-q2J0HueG1-HASA
+TQID: 'https://experienceleague.adobe.com/dvO9ZtGs76Tm-AxE8ljLsnBXqUcX-q2J0HueG1-HASA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: a516b982-58a0-530b-84c5-9b83f41039ad
+    internal-label: DSP Planner
 subfeature_v2:
   - id: e8b92199-d82f-4b20-9fc3-ffe694f93ce5
+    internal-label: Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 543
+source-wordcount: '544'
 ht-degree: 0%
-
 ---
-
 # Informazioni sullo strumento DSP [!UICONTROL Planner]
 
 <!-- rename all titles/descriptions from "CTV reach planner" to "campaign reach planner" -->

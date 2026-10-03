@@ -2,13 +2,19 @@
 title: Impostazioni account inserzionista
 description: Consulta le descrizioni delle impostazioni pubblicitarie disponibili.
 role: User, Admin
-source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 0%
-
+source-wordcount: '1035'
+ht-degree: 7%
 ---
-
 # Impostazioni account inserzionista
 
 *Non disponibile per utenti di sola lettura*
@@ -31,7 +37,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Adobe IMS IDs]
 
-Gli inserzionisti che utilizzano altri prodotti Adobe CX Enterprise possono condividere i dati tra alcuni prodotti utilizzando l&#39;ID univoco dell&#39;organizzazione per CX Enterprise. È possibile configurare integrazioni di prodotto specifiche nella sezione [!UICONTROL Integrations].
+Gli inserzionisti che utilizzano altri prodotti Adobe CX Enterprise possono condividere i dati tra alcuni prodotti utilizzando l’ID univoco dell’organizzazione per CX Enterprise. È possibile configurare integrazioni di prodotto specifiche nella sezione [!UICONTROL Integrations].
 
 **[!UICONTROL Account IMS org and ID]:** (inserzionisti con prodotti CX Enterprise aggiuntivi concessi in licenza tramite un account CX Enterprise con più inserzionisti; facoltativo) ID organizzazione CX Enterprise dell&#39;inserzionista.
 
@@ -39,7 +45,7 @@ Gli inserzionisti che utilizzano altri prodotti Adobe CX Enterprise possono cond
 
 ### [!UICONTROL Integrations]
 
-(Facoltativo) Prodotti CX Enterprise aggiuntivi collegati all&#39;account DSP. I prodotti devono essere associati allo stesso ID organizzazione CX Enterprise fornito nella sezione [!UICONTROL Adobe IMS IDs].
+(Facoltativo) Prodotti CX Enterprise aggiuntivi collegati all’account DSP. I prodotti devono essere associati allo stesso ID organizzazione CX Enterprise fornito nella sezione [!UICONTROL Adobe IMS IDs].
 
 **[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (inserzionisti con [!DNL Advertising Search, Social, & Commerce] o che utilizzano pixel di conversione Adobe Advertising) Un account [!DNL Search, Social, & Commerce] con cui DSP scambia dati di attribuzione.
 
@@ -133,19 +139,19 @@ Filtri di visibilità pre-offerta opzionali di [!DNL DoubleVerify] e [!DNL Integ
 
 ###### Video
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average video viewability rate is]**. Con questa opzione, seleziona i criteri.
+** **[!UICONTROL Include URL's whose average video viewability rate is]**. Con questa opzione, seleziona i criteri.
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
+** **[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. Con questa opzione, seleziona i criteri.
+** **[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. Con questa opzione, seleziona i criteri.
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average player size composition is]**. Con questa opzione, seleziona i criteri.
+** **[!UICONTROL Include URL's whose average player size composition is]**. Con questa opzione, seleziona i criteri.
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
+** **[!UICONTROL Impressions with Insufficient Player Size Statistics]**
 
 ###### Visualizzazione
 
-**&#x200B; **&#x200B;[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. Con questa opzione, seleziona i criteri.
+** **[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. Con questa opzione, seleziona i criteri.
 
 * **[!UICONTROL Impressions with Insufficient IAB Viewability Performance Data]**
 

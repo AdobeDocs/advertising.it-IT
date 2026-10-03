@@ -3,22 +3,28 @@ title: Domande frequenti sulle campagne
 description: Vedi le risposte alle domande sulla gestione delle campagne e sulle visualizzazioni dati delle campagne.
 exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/5I3xvxMaW-VmMn1UhxtTgt7O68vi--W38VNpV1fE6Rs
+TQID: 'https://experienceleague.adobe.com/5I3xvxMaW-VmMn1UhxtTgt7O68vi--W38VNpV1fE6Rs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1585
+source-wordcount: '1601'
 ht-degree: 0%
-
 ---
-
 # Domande frequenti sulla gestione delle campagne
 
 ## Informazioni generali
@@ -30,9 +36,9 @@ Non spostare o copiare una campagna o un componente della campagna con un ID uni
 
 +++Quando i dati dei clic vengono aggiornati dalle reti di annunci?
 
-Il processo di estrazione dei dati di clic del giorno precedente dai motori di ricerca inizia alle 06:00 nel fuso orario dell&#39;inserzionista.
+Il processo di estrazione dei dati di clic del giorno precedente dai motori di ricerca inizia alle 06:00 nel fuso orario dell’inserzionista.
 
-Inoltre, le metriche delle prestazioni a livello di campagna [!DNL Google Ads] nella rete di ricerca per il giorno corrente vengono richiamate alle ore 08:00 e 16:00 nel fuso orario dell&#39;inserzionista.
+Inoltre, [!DNL Google Ads] metriche delle prestazioni a livello di campagna nella rete di ricerca per il giorno corrente vengono richiamate alle 08:00 e alle 16:00 nel fuso orario dell&#39;inserzionista.
 +++
 
 +++Quali azioni causano la perdita di cronologia di parole chiave e annunci?
@@ -86,7 +92,7 @@ Per risultati ottimali, non aggiungere [!DNL Google Ads] campagne a un budget co
 
 +++([!DNL Google Ads] campagne) Posso inviare utenti mobili e non mobili a pagine di destinazione diverse?
 
-È possibile utilizzare i parametri [!DNL Google Ads] e [!DNL ValueTrack] di `{ifmobile}` `{ifnotmobile}` per determinare il nome di dominio della pagina di destinazione in uno dei due modi applicabili ai siti:
+È possibile utilizzare i parametri `{ifmobile}` e `{ifnotmobile}` di [!DNL Google Ads] [!DNL ValueTrack] per determinare il nome di dominio della pagina di destinazione in uno dei due modi applicabili ai siti:
 
 * Includere la designazione mobile come server host utilizzando `{ifmobile:m}{ifnotmobile:www}`.
 
@@ -106,7 +112,7 @@ In entrambi i casi, gli URL di base con monitoraggio di Search, Social e Commerc
 
 +++([!DNL Google Ads] campagne nella rete di ricerca) Per quali dati viene visualizzato oggi?
 
-Le metriche delle prestazioni a livello di campagna [!DNL Google Ads] nella rete di ricerca per il giorno corrente vengono richiamate alle ore 08:00 e 16:00 nel fuso orario dell&#39;inserzionista.
+Le metriche delle prestazioni a livello di campagna [!DNL Google Ads] nella rete di ricerca per il giorno corrente vengono richiamate alle 08:00 e alle 16:00 nel fuso orario dell&#39;inserzionista.
 
 Nella scheda [!UICONTROL Campaigns] sia nella visualizzazione [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] che nella visualizzazione [!UICONTROL Optimization] > [!UICONTROL Portfolios], quando si esegue il report su [!UICONTROL Today] o un intervallo di date personalizzato che include il giorno corrente, i dati includono quelli sincronizzati più di recente.
 
@@ -130,7 +136,7 @@ Il tracciamento parallelo invia i clienti direttamente dall’annuncio all’URL
 
 Search, Social e Commerce supportano il tracciamento parallelo per le campagne di ricerca e shopping utilizzando l&#39;identificatore di clic della rete di annunci (`msclkid` per [!DNL Microsoft Advertising]; `gclid` per [!DNL Google Ads]). Utilizza un [account-level](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) o [campaign-level](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (denominato &quot;[!DNL final URL suffix]&quot; nelle reti di annunci), che viene aggiunto agli URL della pagina di destinazione per tenere traccia dei clic sugli annunci secondari dai browser che supportano il tracciamento parallelo. Vedere i [formati di suffisso richiesti per [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) e [formati di suffisso richiesti per [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
-Quando un utente visualizza l’annuncio su un browser che non supporta il tracciamento parallelo, la rete di annunci utilizza invece il tracciamento sequenziale: i clienti vengono inizialmente inviati all’URL del modello di tracciamento, che può reindirizzare i clienti ai server di tracciamento intermedi prima di reindirizzarli all’URL finale (che può includere parametri aggiuntivi nel suffisso di una pagina di destinazione). Tutti i modelli di tracciamento per un account di rete di annunci devono includere lo stesso parametro dell&#39;identificatore di clic utilizzato in [!UICONTROL Landing Page Suffix]. Consulta i formati del modello di tracciamento [&#x200B; per  [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) e i formati del modello di tracciamento [&#x200B; per  [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+Quando un utente visualizza l’annuncio su un browser che non supporta il tracciamento parallelo, la rete di annunci utilizza invece il tracciamento sequenziale: i clienti vengono inizialmente inviati all’URL del modello di tracciamento, che può reindirizzare i clienti ai server di tracciamento intermedi prima di reindirizzarli all’URL finale (che può includere parametri aggiuntivi nel suffisso di una pagina di destinazione). Tutti i modelli di tracciamento per un account di rete di annunci devono includere lo stesso parametro dell&#39;identificatore di clic utilizzato in [!UICONTROL Landing Page Suffix]. Consulta i formati del modello di tracciamento [ per  [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) e i formati del modello di tracciamento [ per  [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 +++
 
 +++Perché gli URL di tracciamento per i miei annunci includono &quot;`&EV_HASH={<hash>}`&quot;?
@@ -156,7 +162,7 @@ Se nel file di feed successivo mancano elementi di riga e in precedenza non sono
 
 +++(Feed inventario prodotti) Posso aggiornare i prezzi dei miei prodotti senza influire sul punteggio di qualità di un annuncio?
 
-Per le campagne [!DNL Google Ads], sì: le variabili [!DNL Google Ads] e `{Param 1}` di `{Param 2}` consentono di inserire in modo dinamico valori numerici in una variante di annuncio senza eliminare e ricreare l&#39;annuncio e quindi senza influire sul punteggio di qualità.
+Per le campagne [!DNL Google Ads], sì: le variabili `{Param 1}` e `{Param 2}` di [!DNL Google Ads] consentono di inserire in modo dinamico valori numerici in una variante di annuncio senza eliminare e ricreare l&#39;annuncio e quindi senza influire sul punteggio di qualità.
 
 Per utilizzare una variabile `{Param 1}` o `{Param 2}` per i dati sul prezzo, mappare la colonna del prezzo nel file di dati a tale variabile nei modelli di feed appropriati e quindi includere la variabile nei modelli di variazione dell&#39;annuncio.
 

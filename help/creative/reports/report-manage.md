@@ -3,25 +3,33 @@ title: Gestire i rapporti personalizzati
 description: Scopri come generare e gestire la cross-experience [!UICONTROL Custom Creative Report].
 feature: Creative Reporting
 exl-id: fecdfc82-1260-46e4-82f3-c37fad6d77e4
-TQID: https://experienceleague.adobe.com/w746p31oJoThLGvkaVKBEK00dUho0zSBZtVv8yfkmUo
+TQID: 'https://experienceleague.adobe.com/w746p31oJoThLGvkaVKBEK00dUho0zSBZtVv8yfkmUo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 subfeature_v2:
   - id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
+    internal-label: Custom reports
+  - id: a3569322-a66e-4c29-8778-b189087b9ed5
+    internal-label: Creative reporting
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1485
+source-wordcount: '1486'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Manage custom reports]
 
 Puoi creare, duplicare, modificare, eseguire, scaricare ed eliminare rapporti personalizzati.
@@ -132,21 +140,21 @@ Questa sezione determina le date di esecuzione del rapporto. Per impostare le da
   >
   >È inoltre possibile [eseguire un report personalizzato in qualsiasi momento](#report-run-now) dalla visualizzazione [!UICONTROL Reports].
 
-* *[!UICONTROL On]\&lt;Data\>:* Esegue il report in una data specificata per il completamento da parte di 09:00 nel fuso orario dell&#39;account.
+* *[!UICONTROL On]\&lt;Data\>:* Esegue il report in una data specificata per il completamento entro le 09:00 nel fuso orario dell&#39;account.
 
 * *[!UICONTROL Recurring]:* Esegue il report in base a una pianificazione durante un periodo di tempo specificato.
 
-   * **\[Pianificazione\]:** Frequenza di esecuzione del report:
+  * **\[Pianificazione\]:** Frequenza di esecuzione del report:
 
-      * *Giornaliero* per eseguire il report ogni N giorni. Ad esempio, per eseguire il report ogni due settimane (14 giorni), selezionare questa opzione e immettere **14**.
+    * *Giornaliero* per eseguire il report ogni N giorni. Ad esempio, per eseguire il report ogni due settimane (14 giorni), selezionare questa opzione e immettere **14**.
 
-      * *Settimanale* per eseguire il report nei giorni della settimana specificati. Ad esempio, per eseguire il report ogni lunedì e venerdì, selezionare questa opzione e selezionare le caselle di controllo accanto a **lunedì** e **venerdì**.
+    * *Settimanale* per eseguire il report nei giorni della settimana specificati. Ad esempio, per eseguire il report ogni lunedì e venerdì, selezionare questa opzione e selezionare le caselle di controllo accanto a **lunedì** e **venerdì**.
 
-      * *Mensile* per eseguire il report in un giorno numerico specifico del mese, da 1 a 30. Ad esempio, eseguire il report il primo giorno di ogni mese, selezionare questa opzione e immettere **1**.
+    * *Mensile* per eseguire il report in un giorno numerico specifico del mese, da 1 a 30. Ad esempio, eseguire il report il primo giorno di ogni mese, selezionare questa opzione e immettere **1**.
 
-   * **Da**: prima data in cui è possibile eseguire il report. A seconda della pianificazione specificata, la prima istanza di report può essere successiva a tale data.
+  * **Da**: prima data in cui è possibile eseguire il report. A seconda della pianificazione specificata, la prima istanza di report può essere successiva a tale data.
 
-   * **Fino a**: la data di scadenza del report, che può essere un massimo di quattro mesi di calendario. Prima della scadenza di un rapporto, tutte le destinazioni e-mail specificate ricevono un avviso e-mail sette giorni e un giorno prima della data di scadenza. Per mantenere il report più a lungo, modifica questa data.
+  * **Fino a**: la data di scadenza del report, che può essere un massimo di quattro mesi di calendario. Prima della scadenza di un rapporto, tutte le destinazioni e-mail specificate ricevono un avviso e-mail sette giorni e un giorno prima della data di scadenza. Per mantenere il report più a lungo, modifica questa data.
 
 ### [!UICONTROL Apply Filters] sezione
 
@@ -178,21 +186,21 @@ Per applicare uno o più filtri, effettuare le seguenti operazioni:
   >
   >I percorsi di conversione includono eventuali impression e clic all&#39;interno degli intervalli di impression o di lookback dei clic dell&#39;inserzionista, configurati in [!DNL Advertising Search, Social, & Commerce]. Ai clic viene data la preferenza alle impression durante l’attribuzione della conversione. Tutti i clic in un percorso di conversione ricevono il pieno credito in base alla regola di attribuzione. Il merito delle impression viene attribuito solo quando nel percorso di conversione non viene tracciato alcun clic.
 
-   * *[!UICONTROL Last Event]:* attribuisce le conversioni all&#39;ultimo clic o all&#39;ultima impression nel percorso di conversione.
+  * *[!UICONTROL Last Event]:* attribuisce le conversioni all&#39;ultimo clic o all&#39;ultima impression nel percorso di conversione.
 
-   * *[!UICONTROL Weight Last More]:* attribuisce le conversioni a tutti gli eventi nel percorso di conversione, ma attribuisce il peso maggiore all&#39;ultimo evento e successivamente meno peso agli eventi precedenti.
+  * *[!UICONTROL Weight Last More]:* attribuisce le conversioni a tutti gli eventi nel percorso di conversione, ma attribuisce il peso maggiore all&#39;ultimo evento e successivamente meno peso agli eventi precedenti.
 
-   * *[!UICONTROL Even Distribution]:* attribuisce le conversioni in modo uguale a ogni evento nel percorso di conversione.
+  * *[!UICONTROL Even Distribution]:* attribuisce le conversioni in modo uguale a ogni evento nel percorso di conversione.
 
-   * *[!UICONTROL Weight First More]:* attribuisce le conversioni a tutti gli eventi nel percorso di conversione, ma attribuisce il peso maggiore al primo evento e successivamente meno peso ai seguenti eventi.
+  * *[!UICONTROL Weight First More]:* attribuisce le conversioni a tutti gli eventi nel percorso di conversione, ma attribuisce il peso maggiore al primo evento e successivamente meno peso ai seguenti eventi.
 
-   * *[!UICONTROL First Event]:* attribuisce le conversioni al primo clic o all&#39;impression nel percorso di conversione.
+  * *[!UICONTROL First Event]:* attribuisce le conversioni al primo clic o all&#39;impression nel percorso di conversione.
 
-   * *[!UICONTROL U-shaped]:* attribuisce la conversione a tutti gli eventi nel percorso di conversione, ma attribuisce il maggior peso al primo e all&#39;ultimo evento, con un peso progressivamente inferiore agli eventi nel mezzo del percorso di conversione.
+  * *[!UICONTROL U-shaped]:* attribuisce la conversione a tutti gli eventi nel percorso di conversione, ma attribuisce il maggior peso al primo e all&#39;ultimo evento, con un peso progressivamente inferiore agli eventi nel mezzo del percorso di conversione.
 
-   * *[!UICONTROL Display Only]:* attribuisce le conversioni all&#39;ultimo clic o impression di DSP nel percorso di conversione. Ciò include video e annunci TV connessi ed esclude i clic sugli annunci [!DNL Advertising Search, Social, & Commerce].
+  * *[!UICONTROL Display Only]:* attribuisce le conversioni all&#39;ultimo clic o impression di DSP nel percorso di conversione. Ciò include video e annunci TV connessi ed esclude i clic sugli annunci [!DNL Advertising Search, Social, & Commerce].
 
-   * *[!UICONTROL Social Only]:* Obsoleto
+  * *[!UICONTROL Social Only]:* Obsoleto
 
 Vedere anche &quot;[Modalità di calcolo delle regole di attribuzione per Adobe Advertising](/help/search-social-commerce/reports/attribution-rules.md).&quot;
 
@@ -220,7 +228,7 @@ Vedere anche &quot;[Modalità di calcolo delle regole di attribuzione per Adobe 
 
 * *[!UICONTROL FTP]:* Per inviare il report completato a uno o più percorsi FTP, che è necessario selezionare nel campo **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (attualmente in Beta):* Per inviare il report completato a uno o più percorsi SSL FTP, che è necessario selezionare nel campo **[!UICONTROL Destination Name]**.
+* *[!UICONTROL FTP SSL](attualmente in Beta):* Per inviare il report completato a uno o più percorsi SSL FTP, che è necessario selezionare nel campo **[!UICONTROL Destination Name]**.
 
 * *[!UICONTROL Email]:* Specificare gli indirizzi e-mail a cui inviare i report completati o le notifiche se il report viene annullato a causa di errori.
 
@@ -232,13 +240,13 @@ Vedere anche &quot;[Modalità di calcolo delle regole di attribuzione per Adobe 
 
 * Per creare una nuova destinazione:
 
-   1. Fare clic su **Aggiungi nuova destinazione**.
+  1. Fare clic su **Aggiungi nuova destinazione**.
 
-   1. Immetti le [impostazioni di destinazione del report](/help/dsp/reports/report-destinations/report-destination-settings.md){target="_blank"} e fai clic su **Salva**.
+  1. Immetti le [impostazioni di destinazione del report](/help/dsp/reports/report-destinations/report-destination-settings.md){target="_blank"} e fai clic su **Salva**.
 
-   1. Nelle impostazioni del report, fare clic su **Aggiorna nomi di destinazione.**
+  1. Nelle impostazioni del report, fare clic su **Aggiorna nomi di destinazione.**
 
-      La nuova destinazione è ora disponibile dall’elenco delle destinazioni esistenti e, facoltativamente, può essere aggiunta al rapporto.
+     La nuova destinazione è ora disponibile dall’elenco delle destinazioni esistenti e, facoltativamente, può essere aggiunta al rapporto.
 
 
 <!--

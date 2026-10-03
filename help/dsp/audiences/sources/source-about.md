@@ -3,24 +3,29 @@ title: Informazioni sulle origini del pubblico di prime parti
 description: Scopri come convertire altri identificatori utente nei segmenti di prime parti in ID universali per il targeting senza cookie.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-TQID: https://experienceleague.adobe.com/8wdjwhNF-KDspEa1wSYWwlDOJxc3LiyqnSwEE-Fq9bY
+TQID: 'https://experienceleague.adobe.com/8wdjwhNF-KDspEa1wSYWwlDOJxc3LiyqnSwEE-Fq9bY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 79f0b3872a0d5d3765093ce83cc8f1c284a8255c
+    internal-label: Measurement
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 710
+source-wordcount: '715'
 ht-degree: 0%
-
 ---
-
 # Informazioni sulle origini del pubblico di prime parti
 
 La funzione di origine del pubblico consente di importare segmenti di prime parti contenenti ID universali così come sono o di convertirli in segmenti contenenti tipi di ID universali specifici:
@@ -46,21 +51,21 @@ Using your first-party data, you can create segments with IDs from the following
 
 * [[!DNL LiveRamp] [!DNL RampIDs]](https://liveramp.com/identity-resolution):
 
-   * Per il retargeting degli utenti connessi.
+  * Per il retargeting degli utenti connessi.
 
-     [!DNL RampIDs] sono disponibili per gli utenti in Nord America, Australia e Nuova Zelanda.
+    [!DNL RampIDs] sono disponibili per gli utenti in Nord America, Australia e Nuova Zelanda.
 
-     Le tariffe sono pari a 0,15 USD per visualizzazione e per impression pubblicitaria distribuite e a 0,25 USD per video.
+    Le tariffe sono USD 0.15 per visualizzazione e per impression pubblicitaria distribuite e USD 0.25 per video.
 
-   * Per la misurazione tramite [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).
+  * Per la misurazione tramite [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).
 
 * [[!DNL Unified ID 2.0 (UID2.0)] ID](https://unifiedid.com):
 
-   * Per il retargeting degli utenti connessi.
+  * Per il retargeting degli utenti connessi.
 
-     [!DNL UID2 IDs] non sono disponibili per gli utenti nello Spazio economico europeo e in alcuni altri paesi. Vedi l&#39;[elenco dei paesi vietati](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
+    [!DNL UID2 IDs] non sono disponibili per gli utenti nello Spazio economico europeo e in alcuni altri paesi. Vedi l&#39;[elenco dei paesi vietati](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
 
-     Le tariffe sono pari a 0,15 USD per visualizzazione e per impression pubblicitaria distribuite e a 0,25 USD per video.
+    Le tariffe sono USD 0.15 per visualizzazione e per impression pubblicitaria distribuite e USD 0.25 per video.
 
 <!--
  Not yet
@@ -92,9 +97,9 @@ Puoi condividere i dati di prime parti della tua organizzazione dalla piattaform
 
 ### [!DNL Adobe Real-Time CDP]
 
-DSP è una *destinazione* integrata per [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=it), che fa parte di Adobe Experience Platform.
+DSP è una *destinazione* integrata per [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html), che fa parte di Adobe Experience Platform.
 
-In [!DNL Real-Time CDP], le destinazioni sono connessioni a piattaforme dati esterne che consentono l&#39;attivazione diretta dei dati. Puoi utilizzare le destinazioni per attivare gli indirizzi e-mail con hash, i cookie e gli ID mobile advertising per la pubblicità mirata in DSP. Per ulteriori informazioni sulle destinazioni, vedere la [Guida alle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=it) di Experience Platform, inclusa una panoramica del prodotto, istruzioni per [creare aree di lavoro di destinazione](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html?lang=it) e [creare connessioni di destinazione](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=it) e [attivare dati nelle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html?lang=it).
+In [!DNL Real-Time CDP], le destinazioni sono connessioni a piattaforme dati esterne che consentono l&#39;attivazione diretta dei dati. Puoi utilizzare le destinazioni per attivare gli indirizzi e-mail con hash, i cookie e gli ID mobile advertising per la pubblicità mirata in DSP. Per ulteriori informazioni sulle destinazioni, vedere la [Guida alle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html) di Experience Platform, inclusa una panoramica del prodotto, istruzioni per [creare aree di lavoro di destinazione](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) e [creare connessioni di destinazione](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) e [attivare dati nelle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
 
 Per consentire a DSP di acquisire i segmenti di prime parti [!DNL Adobe] [!DNL Real-time CDP] e convertire gli indirizzi e-mail con hash, i cookie e gli ID mobile advertising in ID universali, consulta &quot;[Convertire gli ID utente da [!DNL Adobe Real-Time CDP] a ID universali](/help/dsp/audiences/sources/source-adobe-rtcdp.md).&quot;
 

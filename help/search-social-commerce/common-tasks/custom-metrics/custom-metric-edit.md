@@ -3,18 +3,23 @@ title: Modificare una metrica personalizzata
 description: Scopri come modificare le metriche personalizzate, calcolate dalle metriche standard.
 exl-id: 89271cd6-0a9d-49b7-9fd3-8c9b77e55e5a
 feature: Search Common Tasks, Search Custom Metrics
-TQID: https://experienceleague.adobe.com/-6htSyDSlL0jGtxyrZKPv96dlPCbuSx9n3NBvX8mHuY
+TQID: 'https://experienceleague.adobe.com/-6htSyDSlL0jGtxyrZKPv96dlPCbuSx9n3NBvX8mHuY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
+  - id: a1695a4d-41fb-5bb6-a22a-9e7a1b3222d7
+    internal-label: Search Custom Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 365
+source-wordcount: '362'
 ht-degree: 0%
-
 ---
-
 # Modificare una metrica personalizzata
 
 Se modifichi una metrica personalizzata inclusa come colonna in una delle viste predefinite, in una vista personalizzata o in un modello di rapporto, la nuova formula viene utilizzata rispettivamente al successivo aggiornamento della vista o all’esecuzione del rapporto.

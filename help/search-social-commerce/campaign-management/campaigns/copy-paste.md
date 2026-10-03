@@ -3,18 +3,21 @@ title: Creare e modificare i dati della campagna in blocco utilizzando Copia e I
 description: Scopri come gestire i dati della campagna in blocco utilizzando la funzione di copia e incolla.
 exl-id: 2ae1b02f-46ac-4ea8-aa9f-9e26ccaf63d0
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/z-CaAsySMH-nF2IGPRpM1KY6MYdVz1xZhgjPsBShD7c
+TQID: 'https://experienceleague.adobe.com/z-CaAsySMH-nF2IGPRpM1KY6MYdVz1xZhgjPsBShD7c'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 489
+source-wordcount: '489'
 ht-degree: 0%
-
 ---
-
 # Creare e modificare i dati della campagna in blocco utilizzando Copia e Incolla
 
 Solo *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising], [!DNL Yandex] e [!DNL Baidu] account esistenti*
@@ -47,9 +50,9 @@ Puoi utilizzare questa funzione per modificare gli oggetti campagna esistenti (c
 
    * I dati incollati devono includere una riga di intestazione e i valori dell&#39;oggetto campagna necessari. Vedere le colonne del bulksheet richieste per [Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [LY Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! Visualizza rete](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md) e [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md). L&#39;ordine delle colonne non ha importanza.
 
-      * Per gli oggetti esistenti che si desidera modificare, è necessario includere tutte le colonne ID rilevanti, i nomi delle entità e l&#39;attributo da modificare. Non modificare l&#39;ID numerico dell&#39;oggetto.
+     * Per gli oggetti esistenti che si desidera modificare, è necessario includere tutte le colonne ID rilevanti, i nomi delle entità e l&#39;attributo da modificare. Non modificare l&#39;ID numerico dell&#39;oggetto.
 
-      * Per i nuovi oggetti campagna, includi tutti i nomi e gli attributi di entità rilevanti, ma non gli ID oggetto (che vengono generati automaticamente). Ad esempio, se crei un nuovo annuncio, lascia vuoto il campo [!UICONTROL Ad ID]. La rete di annunci crea automaticamente un ID quando inserisci l’oggetto.
+     * Per i nuovi oggetti campagna, includi tutti i nomi e gli attributi di entità rilevanti, ma non gli ID oggetto (che vengono generati automaticamente). Ad esempio, se crei un nuovo annuncio, lascia vuoto il campo [!UICONTROL Ad ID]. La rete di annunci crea automaticamente un ID quando inserisci l’oggetto.
 
    * Il valore in una colonna non obbligatoria può essere nullo (vuoto), ma ogni riga deve avere lo stesso numero di valori separati da tabulazioni.
 

@@ -3,18 +3,21 @@ title: Gestire i gruppi di prodotti
 description: Scopri come creare e gestire i gruppi di prodotti per lo shopping nelle campagne di acquisto.
 exl-id: cf818b87-ee4b-4cf5-a4e8-0b9a7fc32182
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/x-B0Ybah1ySNsyIKQz9iY2IT8fhvSawTx-mRDB0da6k
+TQID: 'https://experienceleague.adobe.com/x-B0Ybah1ySNsyIKQz9iY2IT8fhvSawTx-mRDB0da6k'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 720
+source-wordcount: '716'
 ht-degree: 0%
-
 ---
-
 # Gestire i gruppi di prodotti
 
 Solo *[!DNL Google Ads]e [!DNL Microsoft Advertising] campagne acquisti*
@@ -103,13 +106,13 @@ Puoi eliminare qualsiasi gruppo di prodotti, ad eccezione di un gruppo &quot;Tut
 
    * Per eliminare uno o più gruppi di prodotti, eseguire le operazioni seguenti:
 
-      1. Selezionare la casella di controllo accanto a ogni gruppo di prodotti che si desidera eliminare.
+     1. Selezionare la casella di controllo accanto a ogni gruppo di prodotti che si desidera eliminare.
 
-         Per suggerimenti sulla selezione di più righe, vedere &quot;[Selezionare più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+        Per suggerimenti sulla selezione di più righe, vedere &quot;[Selezionare più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-      1. Nella barra degli strumenti, fare clic su ![Altro](/help/search-social-commerce/assets/more.png "Altro") e selezionare **[!UICONTROL Delete]**.
+     1. Nella barra degli strumenti, fare clic su ![Altro](/help/search-social-commerce/assets/more.png "Altro") e selezionare **[!UICONTROL Delete]**.
 
-      1. Nel messaggio di conferma, fare clic su **[!UICONTROL Delete]**.
+     1. Nel messaggio di conferma, fare clic su **[!UICONTROL Delete]**.
 
 >[!MORELIKETHIS]
 >

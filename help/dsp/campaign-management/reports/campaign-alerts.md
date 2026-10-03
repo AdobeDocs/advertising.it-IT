@@ -3,26 +3,42 @@ title: Visualizza avvisi
 description: Scopri come visualizzare gli avvisi e le risoluzioni consigliate per le campagne e i componenti della campagna. Utilizza gli avvisi per risolvere i problemi relativi alle campagne.
 feature: DSP Campaigns, DSP Packages, DSP Placements, DSP Ads, DSP Campaign Data Views
 exl-id: 667bf1c3-3bad-4a1a-b907-0c9bfe5362a9
-TQID: https://experienceleague.adobe.com/WhIrF0O8OiqE1aVijiIJ1a-no-sXpimM2CEevnZyWhc
+TQID: 'https://experienceleague.adobe.com/WhIrF0O8OiqE1aVijiIJ1a-no-sXpimM2CEevnZyWhc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: fee1be79-8e27-52a1-8e31-1d7086bf1a0e
+    internal-label: DSP Campaigns
+  - id: b60977f8-185a-5f3f-bdb1-909a47bdb8cc
+    internal-label: DSP Packages
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
+  - id: 2cfe5a2c-1e84-5461-b310-20f6bb734742
+    internal-label: DSP Campaign Data Views
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
   - id: f784309e-91ce-4bb5-ade4-5cbbceabecc0
+    internal-label: Campaign Data Views
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 656
+source-wordcount: '650'
 ht-degree: 0%
-
 ---
-
 # Visualizza avvisi
 
 DSP ti consente di identificare quando uno qualsiasi dei componenti delle campagne o della campagna presenta dei problemi. Per ogni problema, DSP crea un avviso con una marca temporale e l’azione consigliata per risolverlo. I motivi per gli avvisi includono problemi di configurazione (ad esempio, quando non vengono allegati annunci a un posizionamento o quando un’offerta non è configurata correttamente), rifiuto di annunci e problemi di integrità della campagna (come consegna di annunci scadente o prestazioni insoddisfacenti). Gli avvisi sono disponibili a livello di campagna, pacchetto, posizionamento, annuncio e offerta.
@@ -51,11 +67,11 @@ Gli avvisi e gli indicatori di avviso scompaiono automaticamente quando vengono 
 
    * (Per tutti gli avvisi per un pacchetto, posizionamento o annuncio specifico) Effettua le seguenti operazioni:
 
-      1. Fai clic sul nome della campagna.
+     1. Fai clic sul nome della campagna.
 
-      1. Nel sottomenu, fare clic su **[!UICONTROL Packages]**, **[!UICONTROL Placements]** o **[!UICONTROL Ads]** per aprire la visualizzazione del componente della campagna pertinente.
+     1. Nel sottomenu, fare clic su **[!UICONTROL Packages]**, **[!UICONTROL Placements]** o **[!UICONTROL Ads]** per aprire la visualizzazione del componente della campagna pertinente.
 
-      1. Fare clic sull&#39;indicatore di avviso per un pacchetto, un posizionamento o una riga di annuncio e quindi fare clic su **[!UICONTROL View in Pulse Panel]**.
+     1. Fare clic sull&#39;indicatore di avviso per un pacchetto, un posizionamento o una riga di annuncio e quindi fare clic su **[!UICONTROL View in Pulse Panel]**.
 
    Sono elencati tutti gli avvisi associati alla campagna e ai suoi componenti, comprese le offerte mirate. Per impostazione predefinita, gli avvisi critici vengono elencati per primi.
 

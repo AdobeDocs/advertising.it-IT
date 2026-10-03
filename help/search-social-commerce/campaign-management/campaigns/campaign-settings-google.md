@@ -1,24 +1,30 @@
 ---
 title: '[!DNL Google Ads] impostazioni campagna'
-description: Fai riferimento alle impostazioni per  [!DNL Google Ads]  campagne.
+description: Fai riferimento alle impostazioni per [!DNL Google Ads] campagne.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/pj3C6fQc6BHhS9ES92nNC7AzxprwHeCwvPYLYBJkAo4
+TQID: 'https://experienceleague.adobe.com/pj3C6fQc6BHhS9ES92nNC7AzxprwHeCwvPYLYBJkAo4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
+    internal-label: Machine learning
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2700
+source-wordcount: '2703'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads] impostazioni campagna
 
 ## \[Schermata Creazione campagna\]
@@ -37,13 +43,13 @@ ht-degree: 0%
 
   **Note:**
 
-   * Sono disponibili solo le impostazioni richieste. Per le impostazioni facoltative, accedere all&#39;editor [!DNL Google Ads].
+  * Sono disponibili solo le impostazioni richieste. Per le impostazioni facoltative, accedere all&#39;editor [!DNL Google Ads].
 
-   * I collegamenti ai feed di prodotto [!DNL Google Merchant Center] non sono supportati.
+  * I collegamenti ai feed di prodotto [!DNL Google Merchant Center] non sono supportati.
 
-   * Il supporto per i gruppi di voci non è disponibile. Per gestire e visualizzare i dati per l&#39;elenco dei gruppi, accedere all&#39;editor [!DNL Google Ads].
+  * Il supporto per i gruppi di voci non è disponibile. Per gestire e visualizzare i dati per l&#39;elenco dei gruppi, accedere all&#39;editor [!DNL Google Ads].
 
-   * È supportata l’ottimizzazione ibrida. Gli obiettivi della strategia di offerta e i budget della campagna sono impostati a livello di campagna.
+  * È supportata l’ottimizzazione ibrida. Gli obiettivi della strategia di offerta e i budget della campagna sono impostati a livello di campagna.
 
 ## [!UICONTROL Campaign Details]
 
@@ -107,7 +113,7 @@ Per le campagne di ricerca, sono necessarie anche le seguenti impostazioni aggiu
 
 * *[!UICONTROL Manual CPC]* (impostazione predefinita): (non disponibile per campagne con prestazione massima) utilizza il modello CPC (cost-per-click). Facoltativamente, puoi consentire alla rete di annunci di modificare le offerte per la campagna:
 
-   * **[!UICONTROL Enable Enhanced CPC]** (disabilitato per impostazione predefinita): equivale a utilizzare l&#39;opzione &quot;[!UICONTROL Enhanced CPC]&quot;, che è obsoleta. [!DNL Google Ads] ha iniziato a modificare automaticamente le [strategie di offerta CPC migliorate](https://support.google.com/google-ads/answer/2464964) esistenti in CPC manuali il 15 marzo 2025.
+  * **[!UICONTROL Enable Enhanced CPC]** (disabilitato per impostazione predefinita): equivale a utilizzare l&#39;opzione &quot;[!UICONTROL Enhanced CPC]&quot;, che è obsoleta. [!DNL Google Ads] ha iniziato a modificare automaticamente le [strategie di offerta CPC migliorate](https://support.google.com/google-ads/answer/2464964) esistenti in CPC manuali il 15 marzo 2025.
 
 * *[!UICONTROL Maximize Clicks]:* (campagne Search, Display e Shopping) La rete di annunci, non Search, Social e Commerce, ottimizza le offerte per massimizzare i clic. Facoltativamente, immetti un **[!UICONTROL Max CPC]** (costo per clic) per garantire che la rete di annunci non paghi più di un importo specifico per ogni clic. **Attenzione:** quando aggiungi una campagna con questa strategia a un portfolio, le offerte sono guidate dal peso del clic e non dall&#39;obiettivo del portfolio.
 
@@ -162,19 +168,19 @@ i prodotti della campagna sono venduti. Poiché i prodotti sono associati ai pae
 
 * Per eseguire il targeting o escludere posizioni specifiche:
 
-   * (Paesi, stati, aree metropolitane o città) Fai clic su **[!UICONTROL Location Target]** (![Destinazione posizione](/help/search-social-commerce/assets/location-target.png "Destinazione posizione")) e individua le posizioni da includere ed escludere:
+  * (Paesi, stati, aree metropolitane o città) Fai clic su **[!UICONTROL Location Target]** (![Destinazione posizione](/help/search-social-commerce/assets/location-target.png "Destinazione posizione")) e individua le posizioni da includere ed escludere:
 
-      * Per includere una posizione e le relative posizioni figlio, fare clic una volta sul cerchio adiacente in modo che venga visualizzato un segno di spunta blu (![Includi](/help/search-social-commerce/assets/include.png "Includi")).
+    * Per includere una posizione e le relative posizioni figlio, fare clic una volta sul cerchio adiacente in modo che venga visualizzato un segno di spunta blu (![Includi](/help/search-social-commerce/assets/include.png "Includi")).
 
-      * Per escludere una posizione, fare clic due volte sul cerchio adiacente in modo che venga visualizzato un segno di spunta rosso (![Escludi](/help/search-social-commerce/assets/exclude.png "Escludi")).
+    * Per escludere una posizione, fare clic due volte sul cerchio adiacente in modo che venga visualizzato un segno di spunta rosso (![Escludi](/help/search-social-commerce/assets/exclude.png "Escludi")).
 
-      * Per espandere una posizione nei relativi sottocomponenti, ad esempio gli stati, le aree metropolitane o le città negli Stati Uniti, fare clic sul nome della posizione.
+    * Per espandere una posizione nei relativi sottocomponenti, ad esempio gli stati, le aree metropolitane o le città negli Stati Uniti, fare clic sul nome della posizione.
 
-      * Per cercare una posizione, immetti o incolla almeno i primi tre caratteri della posizione nel campo di input. Nei risultati della ricerca, fare clic su **[!UICONTROL Include]** accanto a un percorso da includere o su **[!UICONTROL Exclude]** accanto a un percorso da escludere.
+    * Per cercare una posizione, immetti o incolla almeno i primi tre caratteri della posizione nel campo di input. Nei risultati della ricerca, fare clic su **[!UICONTROL Include]** accanto a un percorso da includere o su **[!UICONTROL Exclude]** accanto a un percorso da escludere.
 
-   * (Posizioni vicine a un indirizzo; solo destinazioni incluse) Fare clic su **[!UICONTROL Radius Target]** (![Destinazione raggio](/help/search-social-commerce/assets/radius-target.png "Destinazione raggio")) e quindi su **[!UICONTROL Address]**. Immettere l&#39;indirizzo e il raggio in miglia o chilometri intorno all&#39;indirizzo di destinazione, quindi fare clic su **[!UICONTROL Add]**.
+  * (Posizioni vicine a un indirizzo; solo destinazioni incluse) Fare clic su **[!UICONTROL Radius Target]** (![Destinazione raggio](/help/search-social-commerce/assets/radius-target.png "Destinazione raggio")) e quindi su **[!UICONTROL Address]**. Immettere l&#39;indirizzo e il raggio in miglia o chilometri intorno all&#39;indirizzo di destinazione, quindi fare clic su **[!UICONTROL Add]**.
 
-   * (Posizioni vicine alle coordinate geografiche; solo destinazioni incluse) Fare clic su **[!UICONTROL Radius Target]** (![Destinazione raggio](/help/search-social-commerce/assets/radius-target.png "Destinazione raggio")) e quindi su **[!UICONTROL Coordinate]**. Immettere la latitudine e la longitudine e il raggio in miglia o chilometri intorno alla posizione di destinazione, quindi fare clic su **[!UICONTROL Add]**.
+  * (Posizioni vicine alle coordinate geografiche; solo destinazioni incluse) Fare clic su **[!UICONTROL Radius Target]** (![Destinazione raggio](/help/search-social-commerce/assets/radius-target.png "Destinazione raggio")) e quindi su **[!UICONTROL Coordinate]**. Immettere la latitudine e la longitudine e il raggio in miglia o chilometri intorno alla posizione di destinazione, quindi fare clic su **[!UICONTROL Add]**.
 
 * Per aggiungere un adeguamento offerta per un&#39;ubicazione di destinazione inclusa, immettere un valore di adeguamento offerta:
 
@@ -186,9 +192,9 @@ i prodotti della campagna sono venduti. Poiché i prodotti sono associati ai pae
 
 * Search, Social e Commerce non forniscono regolazioni delle offerte regolate automaticamente per i seguenti target di posizione a causa di limitazioni nei dati che [!DNL Google Ads] fornisce per la mappatura delle posizioni di surfer ai target di posizione:
 
-   * Destinazioni del raggio.
+  * Destinazioni del raggio.
 
-   * Alcune località al di sotto del livello di stato/provincia/regione/provincia/prefettura per le quali [!DNL Google Ads] non invia una località padre nell&#39;URL del surfista, inclusi gli aeroporti e i distretti del Congresso degli Stati Uniti.
+  * Alcune località al di sotto del livello di stato/provincia/regione/provincia/prefettura per le quali [!DNL Google Ads] non invia una località padre nell&#39;URL del surfista, inclusi gli aeroporti e i distretti del Congresso degli Stati Uniti.
 
 <!-- **[!UICONTROL Devices]:** -->
 
@@ -297,21 +303,21 @@ per paese. Se non ne selezioni alcuna, viene eseguito il targeting di tutti.
 
 * Per caricare le immagini:
 
-   1. Nella scheda [!UICONTROL Upload from Device], fare clic su **[!UICONTROL +]** e selezionare le immagini dal dispositivo o dalla rete.
+  1. Nella scheda [!UICONTROL Upload from Device], fare clic su **[!UICONTROL +]** e selezionare le immagini dal dispositivo o dalla rete.
 
-   1. Per ogni immagine:
+  1. Per ogni immagine:
 
-      1. Seleziona le proporzioni.
+     1. Seleziona le proporzioni.
 
-      1. Trascinate e posizionate la casella di ritaglio in base alle necessità per selezionare la parte visualizzabile dell&#39;immagine e, se possibile, ridimensionate la parte visualizzabile.
+     1. Trascinate e posizionate la casella di ritaglio in base alle necessità per selezionare la parte visualizzabile dell&#39;immagine e, se possibile, ridimensionate la parte visualizzabile.
 
-      1. (Facoltativo) Selezionate altre proporzioni e, se necessario, riposizionate e ridimensionate l&#39;immagine per ogni proporzione selezionata.
+     1. (Facoltativo) Selezionate altre proporzioni e, se necessario, riposizionate e ridimensionate l&#39;immagine per ogni proporzione selezionata.
 
-         Viene creata una risorsa per ogni proporzione selezionata.
+        Viene creata una risorsa per ogni proporzione selezionata.
 
-      1. Fare clic su **[!UICONTROL Proceed]**.
+     1. Fare clic su **[!UICONTROL Proceed]**.
 
-   1. Dopo aver specificato le immagini, fare clic su **[!UICONTROL Upload]**.
+  1. Dopo aver specificato le immagini, fare clic su **[!UICONTROL Upload]**.
 
 * Per selezionare le immagini da [!UICONTROL Asset Library], fare clic su **[!UICONTROL Asset Library]** e selezionare le immagini.
 
@@ -319,21 +325,21 @@ per paese. Se non ne selezioni alcuna, viene eseguito il targeting di tutti.
 
 * Per caricare le immagini:
 
-   1. Nella scheda [!UICONTROL Upload from Device], fare clic su **[!UICONTROL +]** e selezionare le immagini dal dispositivo o dalla rete.
+  1. Nella scheda [!UICONTROL Upload from Device], fare clic su **[!UICONTROL +]** e selezionare le immagini dal dispositivo o dalla rete.
 
-   1. Per ogni immagine:
+  1. Per ogni immagine:
 
-      1. Seleziona le proporzioni.
+     1. Seleziona le proporzioni.
 
-      1. Trascinate e posizionate la casella di ritaglio in base alle necessità per selezionare la parte visualizzabile dell&#39;immagine e, se possibile, ridimensionate la parte visualizzabile.
+     1. Trascinate e posizionate la casella di ritaglio in base alle necessità per selezionare la parte visualizzabile dell&#39;immagine e, se possibile, ridimensionate la parte visualizzabile.
 
-      1. (Facoltativo) Selezionate altre proporzioni e, se necessario, riposizionate e ridimensionate l&#39;immagine per ogni proporzione selezionata.
+     1. (Facoltativo) Selezionate altre proporzioni e, se necessario, riposizionate e ridimensionate l&#39;immagine per ogni proporzione selezionata.
 
-         Viene creata una risorsa per ogni proporzione selezionata.
+        Viene creata una risorsa per ogni proporzione selezionata.
 
-      1. Fare clic su **[!UICONTROL Proceed]**.
+     1. Fare clic su **[!UICONTROL Proceed]**.
 
-   1. Dopo aver specificato le immagini, fare clic su **[!UICONTROL Upload]**.
+  1. Dopo aver specificato le immagini, fare clic su **[!UICONTROL Upload]**.
 
 * Per selezionare le immagini da [!UICONTROL Asset Library], fare clic su **[!UICONTROL Asset Library]** e selezionare le immagini.
 
@@ -341,9 +347,9 @@ per paese. Se non ne selezioni alcuna, viene eseguito il targeting di tutti.
 
 * Per immettere gli URL:
 
-   1. Nella scheda [!UICONTROL Enter Video Url] immettere un URL.
+  1. Nella scheda [!UICONTROL Enter Video Url] immettere un URL.
 
-   1. (Facoltativo) Per aggiungere un altro URL, fare clic su **[!UICONTROL + Add]** e immettere l&#39;URL.
+  1. (Facoltativo) Per aggiungere un altro URL, fare clic su **[!UICONTROL + Add]** e immettere l&#39;URL.
 
 * Per selezionare i video da [!UICONTROL Asset Library], fare clic su **[!UICONTROL Asset Library]** e selezionare i video.
 
@@ -353,9 +359,9 @@ per paese. Se non ne selezioni alcuna, viene eseguito il targeting di tutti.
 
 * Per immettere il testo:
 
-   1. Nella scheda [!UICONTROL Enter Text] immettere il testo.
+  1. Nella scheda [!UICONTROL Enter Text] immettere il testo.
 
-   1. (Facoltativo) Per aggiungere un&#39;altra stringa di testo, fare clic su **[!UICONTROL + Add]** e immettere la stringa.
+  1. (Facoltativo) Per aggiungere un&#39;altra stringa di testo, fare clic su **[!UICONTROL + Add]** e immettere la stringa.
 
 * Per selezionare le risorse da [!UICONTROL Asset Library], fai clic su **[!UICONTROL Asset Library]** e seleziona le risorse.
 
@@ -363,9 +369,9 @@ per paese. Se non ne selezioni alcuna, viene eseguito il targeting di tutti.
 
 * Per immettere il testo:
 
-   1. Nella scheda [!UICONTROL Enter Text] immettere il testo.
+  1. Nella scheda [!UICONTROL Enter Text] immettere il testo.
 
-   1. (Facoltativo) Per aggiungere un&#39;altra stringa di testo, fare clic su **[!UICONTROL + Add]** e immettere la stringa.
+  1. (Facoltativo) Per aggiungere un&#39;altra stringa di testo, fare clic su **[!UICONTROL + Add]** e immettere la stringa.
 
 * Per selezionare le risorse da [!UICONTROL Asset Library], fai clic su **[!UICONTROL Asset Library]** e seleziona le risorse.
 
@@ -373,9 +379,9 @@ per paese. Se non ne selezioni alcuna, viene eseguito il targeting di tutti.
 
 * Per immettere il testo:
 
-   1. Nella scheda [!UICONTROL Enter Text] immettere il testo.
+  1. Nella scheda [!UICONTROL Enter Text] immettere il testo.
 
-   1. (Facoltativo) Per aggiungere un&#39;altra stringa di testo, fare clic su **[!UICONTROL + Add]** e immettere la stringa.
+  1. (Facoltativo) Per aggiungere un&#39;altra stringa di testo, fare clic su **[!UICONTROL + Add]** e immettere la stringa.
 
 * Per selezionare le risorse da [!UICONTROL Asset Library], fai clic su **[!UICONTROL Asset Library]** e seleziona le risorse.
 
@@ -404,7 +410,7 @@ Per creare un obiettivo di conversione personalizzato, fare clic su **[!UICONTRO
 >
 >Se la campagna fa parte di un portfolio ibrido, la best practice consiste nell’utilizzare obiettivi a livello di campagna che corrispondono agli obiettivi di conversione nell’obiettivo del portfolio; l’inclusione di obiettivi di conversione aggiuntivi può influire sulle prestazioni del portfolio.
 >
->Tuttavia, per le campagne in portfolio ibridi per le quali [carichi gli obiettivi nella rete di annunci](/help/search-social-commerce/tools/objective-upload-to-networks.md), effettua le seguenti operazioni nell&#39;editor della rete di annunci invece che qui: a) aggiungi la metrica di obiettivo del portfolio Search, Social e Commerce caricata (che inizia con &quot;O_ACS_OBJ&quot;) come azione di conversione per la campagna; e b) aggiungi eventuali obiettivi della campagna che includono [!DNL Google] conversioni tracciate, perché le metriche tracciate nella rete di annunci non vengono caricate nella rete di annunci con l&#39;obiettivo.
+>Tuttavia, per le campagne in portfolio ibridi per le quali [carichi gli obiettivi nella rete di annunci](/help/search-social-commerce/tools/objective-upload-to-networks.md), effettua le seguenti operazioni nell&#39;editor della rete di annunci invece che qui: a) aggiungi la metrica di obiettivo del portfolio Search, Social e Commerce caricato (che inizia con &quot;O_ACS_OBJ&quot;) come azione di conversione per la campagna; e b) aggiungi eventuali obiettivi della campagna che includono [!DNL Google] conversioni tracciate, perché le metriche tracciate nella rete di annunci non vengono caricate nella rete di annunci con l&#39;obiettivo.
 
 >[!MORELIKETHIS]
 >

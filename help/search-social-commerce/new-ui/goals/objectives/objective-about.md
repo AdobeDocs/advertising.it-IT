@@ -4,24 +4,31 @@ description: Scopri gli obiettivi per raggiungere gli obiettivi aziendali.
 feature: Search Objectives, Search Optimization
 hide: true
 exl-id: 4e417307-1403-4420-85f9-2fa04c253b58
-TQID: https://experienceleague.adobe.com/fcdOJhTTB-IML-aownM6-vyYM4NJspKpCraypmuLooE
+autotag-review: '2026-04-14T00:06:19.870Z'
+TQID: 'https://experienceleague.adobe.com/fcdOJhTTB-IML-aownM6-vyYM4NJspKpCraypmuLooE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: ''
+  - id: 2d3f1df6-4c6c-545b-abf7-bec5f20fd636
+    internal-label: Search Objectives
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-autotag-review: '2026-04-14T00:06:19.870Z'
-source-git-commit: 604fb0c3541ba9c3b1fdb1c3cae5464bfcf67d4d
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: '519'
 ht-degree: 0%
-
 ---
-
 # (Nuova interfaccia) Informazioni sugli obiettivi
 
 <!-- no subfeature tag for objectives -->
@@ -34,7 +41,7 @@ Gli obiettivi sono obiettivi che un inserzionista stabilisce per soddisfare i pr
 
 * In DSP, gli obiettivi vengono visualizzati come obiettivi personalizzati per gli account DSP collegati agli account Search, Social e Commerce. Ogni pacchetto che utilizza gli obiettivi di ottimizzazione &quot;ROAS (Highest Return on Ad Spend)&quot; o &quot;CPA (Lowest Cost per Acquisition)&quot; deve includere un obiettivo personalizzato che contribuisca a raggiungere l’obiettivo di ottimizzazione generale.
 
-Un obiettivo è costituito dalle metriche di conversione da tracciare e ottimizzare e dai relativi pesi di tali metriche. Ad esempio, supponiamo che una rivista online con due livelli di abbonamento online e un livello di abbonamento a stampa e l’obiettivo &quot;massimizzare i profitti&quot; disponga di tre metriche: &quot;abbonamenti online di base&quot; con un valore di 20 USD, &quot;abbonamenti online premium&quot; con un valore di 40 USD e &quot;abbonamenti a stampa&quot; con un valore di 30 USD. Se la rivista vuole dare peso in base al valore monetario una tantum dell’abbonamento, allora i pesi relativi delle metriche saranno rispettivamente 1, 2 e 1,5.
+Un obiettivo è costituito dalle metriche di conversione da tracciare e ottimizzare e dai relativi pesi di tali metriche. Ad esempio, supponiamo che una rivista online con due livelli di abbonamento online e un livello di abbonamento stampato e l’obiettivo &quot;massimizzare i profitti&quot; abbia tre metriche: &quot;abbonamenti online di base&quot; con un valore di 20 USD, &quot;abbonamenti online premium&quot; con un valore di 40 USD e &quot;abbonamenti di stampa&quot; con un valore di 30 USD. Se la rivista vuole dare peso in base al valore monetario una tantum dell’abbonamento, allora i pesi relativi delle metriche saranno rispettivamente 1, 2 e 1,5.
 
 Per ogni metrica nell’obiettivo, puoi:
 
@@ -64,11 +71,11 @@ Nei tuoi obiettivi puoi includere uno qualsiasi dei seguenti elementi:
 
 * [!DNL Google] metriche:<!-- Search only, or might DSP-only clients also have these? -->
 
-   * [[!DNL Google Ads] conversioni tracciate](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) da [!DNL Google Ads] account sincronizzati.
+  * [[!DNL Google Ads] conversioni tracciate](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) da [!DNL Google Ads] account sincronizzati.
 
-   * (Inserzionisti con [[!DNL Google Analytics] integrazioni](/help/search-social-commerce/admin/data-sources/data-source-about.md)) Visualizzazioni di pagina, Sessioni, Frequenza di rimbalzo (calcolata come rimbalzi/sessioni) e Durata della sessione.
+  * (Inserzionisti con [[!DNL Google Analytics] integrazioni](/help/search-social-commerce/admin/data-sources/data-source-about.md)) Visualizzazioni di pagina, Sessioni, Frequenza di rimbalzo (calcolata come rimbalzi/sessioni) e Durata della sessione.
 
-     In Search, Social e Commerce, queste metriche vengono automaticamente incluse negli algoritmi di offerta del portfolio.
+    In Search, Social e Commerce, queste metriche vengono automaticamente incluse negli algoritmi di offerta del portfolio.
 
 ## Opzione per caricare gli obiettivi nelle reti di annunci
 

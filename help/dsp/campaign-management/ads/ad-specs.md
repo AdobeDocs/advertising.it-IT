@@ -3,25 +3,31 @@ title: Specifiche dell’annuncio
 description: Fai riferimento a specifiche pubblicitarie generali e specifiche per l’editore.
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-TQID: https://experienceleague.adobe.com/8wZ1E-VIb9WRVM3e4DpfFV-BWdhufQ-4D7-RDDRSkIQ
+TQID: 'https://experienceleague.adobe.com/8wZ1E-VIb9WRVM3e4DpfFV-BWdhufQ-4D7-RDDRSkIQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Data management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 873
-ht-degree: 0%
-
+source-wordcount: '950'
+ht-degree: 1%
 ---
-
 # Specifiche per i tipi di annunci supportati
 
 ## Annunci video (pre-roll, CTV e video universale)
@@ -70,17 +76,17 @@ Gli annunci vengono consegnati per impostazione predefinita su dispositivi deskt
 
 * **Individuazione:** Vedere le [specifiche annuncio](/help/dsp/assets/discovery-networks-ad-specs.pdf) di individuazione.
 
-* **Disney (incluso Hulu):** Consulta le [specifiche degli annunci Disney](https://www.disneyadvertising.com/mediakit/#specifications).
+* **Disney (incl. Hulu):** Consulta le [specifiche degli annunci Disney](https://www.disneyadvertising.com/mediakit/#specifications).
 
 * **HBO Max:** Vedi le [specifiche annuncio](/help/dsp/assets/hbo-max-ad-specs-2022.xlsx) di HBO Max.
 
 * **NBCUniversale:**
 
-   * [Video digitale](https://together.nbcuni.com/nbcu-creative-guidelines/digital-video/)
+  * [Video digitale](https://together.nbcuni.com/nbcu-creative-guidelines/digital-video/)
 
-   * [Livestream](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
+  * [Livestream](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
 
-   * [Pavone](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
+  * [Pavone](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
 
 * **Paramount:** Consulta le [specifiche degli annunci](https://www.paramount.com/digital-ads) di Paramount.
 
@@ -129,35 +135,35 @@ Desktop, dispositivi mobili, tablet, altoparlanti avanzati e TV collegata
 #### Requisiti aggiuntivi per l’editore
 
 * **[!DNL iHeartRadio]**
-   * Lunghezza: 5, 15, 30 o 60 secondi
-   * Tipo di file: MP3
-   * Dimensione massima del file: 320 kbps
-   * Volume: 44,1 kHz
+  * Lunghezza: 5, 15, 30 o 60 secondi
+  * Tipo di file: MP3
+  * Dimensione massima del file: 320 kbps
+  * Volume: 44,1 kHz
 
 * **[!DNL Pandora]**
-   * Lunghezza: 15 o 30 secondi
-   * Tipo di file: MP4 (in-app), MP3 (desktop)
-   * Dimensione massima file: 2,2 MB
+  * Lunghezza: 15 o 30 secondi
+  * Tipo di file: MP4 (in-app), MP3 (desktop)
+  * Dimensione massima file: 2,2 MB
 
 * **[!DNL SoundCloud]**
-   * Lunghezza: 6, 15 o 30 secondi
-   * Tipo di file: MP3
-   * Dimensione massima file: 5 MB
+  * Lunghezza: 6, 15 o 30 secondi
+  * Tipo di file: MP3
+  * Dimensione massima file: 5 MB
 
 * **[!DNL Spotify]**
-   * Lunghezza: fino a 30 secondi
-   * Tipo di file: OGG
-   * Dimensione massima del file: 500 MB
-   * Volume: RMS normalizzato a-14; picco dBFS normalizzato a-0,2 dBFS
+  * Lunghezza: fino a 30 secondi
+  * Tipo di file: OGG
+  * Dimensione massima del file: 500 MB
+  * Volume: RMS normalizzato a-14; picco dBFS normalizzato a-0,2 dBFS
 
 * **[!DNL TargetSpot]**
-   * Lunghezza: 15, 30 o 60 secondi
-   * Tipo di file: MP3
+  * Lunghezza: 15, 30 o 60 secondi
+  * Tipo di file: MP3
 
 * **[!DNL TuneIn]**
-   * Lunghezza: 10, 15 o 30 secondi
-   * Tipo di file: MP3, OGG
-   * Volume: 44,1 kHz
+  * Lunghezza: 10, 15 o 30 secondi
+  * Tipo di file: MP3, OGG
+  * Volume: 44,1 kHz
 
 ### Requisiti per gli annunci banner correlati (facoltativo)
 
@@ -166,29 +172,29 @@ Desktop, dispositivi mobili, tablet, altoparlanti avanzati e TV collegata
 #### Requisiti aggiuntivi per l’editore
 
 * **[!DNL iHeartRadio]:**
-   * Tipo di file: JPEG, JPG, PNG, GIF, SWF, HTML
-   * Dimensione massima file: 2,2 MB
-   * Dimensioni: 300x250
+  * Tipo di file: JPEG, JPG, PNG, GIF, SWF, HTML
+  * Dimensione massima file: 2,2 MB
+  * Dimensioni: 300x250
 
 * **[!DNL Pandora]:**
-   * Tipo di file: JPEG, GIF
-   * Dimensione massima file: Dimensione: 100 KB
-   * Dimensioni: 300x250 (mobile o desktop) o 500x500 (desktop)
+  * Tipo di file: JPEG, GIF
+  * Dimensione massima file: Dimensione: 100 KB
+  * Dimensioni: 300x250 (mobile o desktop) o 500x500 (desktop)
 
 * **[!DNL SoundCloud]:**
-   * Tipo di file: Static JPG, PNG
-   * Dimensione massima file: meno di 400 KB
-   * Dimensioni: 1024x1024
+  * Tipo di file: Static JPG, PNG
+  * Dimensione massima file: meno di 400 KB
+  * Dimensioni: 1024x1024
 
 * **[!DNL Spotify]:**
-   * Tipo di file: Static JPG, PNG
-   * Dimensione massima file: 200 KB
-   * Dimensioni: 300x250
+  * Tipo di file: Static JPG, PNG
+  * Dimensione massima file: 200 KB
+  * Dimensioni: 300x250
 
 * **[!DNL TuneIn]:**
-   * Tipo di file: JPEG, JPG, PNG, GIF, HTML
-   * Dimensione massima file: 2 MB
-   * Dimensioni: 300x250
+  * Tipo di file: JPEG, JPG, PNG, GIF, HTML
+  * Dimensione massima file: 2 MB
+  * Dimensioni: 300x250
 
 ## Annunci display nativi
 
