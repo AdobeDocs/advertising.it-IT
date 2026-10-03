@@ -1,22 +1,26 @@
 ---
 title: Visualizza raccomandazioni per l’editore e informazioni sulle prestazioni
-description: Scopri come visualizzare  [!DNL Google Ads] consigli e [!DNL Microsoft Advertising] informazioni sulle prestazioni per i tuoi account di rete degli annunci.
+description: Scopri come visualizzare i consigli di [!DNL Google Ads] e gli approfondimenti sulle prestazioni di [!DNL Microsoft Advertising] per gli account di rete degli annunci.
 feature: Search Recommendations
 exl-id: 8a9d99b1-c90b-4a1c-9516-85edc9024a7c
-TQID: https://experienceleague.adobe.com/mbX5cPSDaN5Rc4Y60JwkuFeO-yUs9onV7Ph3jlgk8Ho
+TQID: 'https://experienceleague.adobe.com/mbX5cPSDaN5Rc4Y60JwkuFeO-yUs9onV7Ph3jlgk8Ho'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: ae143aa5-b8d8-5a93-93ab-45e919f0c418
+    internal-label: Search Recommendations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 180
+source-wordcount: '182'
 ht-degree: 0%
-
 ---
-
 # Visualizza i consigli dell’editore e informazioni sulle prestazioni
 
 *[!DNL Google Ads]e [!DNL Microsoft Advertising] account*

@@ -3,21 +3,26 @@ title: Impostazioni di annunci di testo e modelli di annunci di ricerca responsi
 description: Fai riferimento alle impostazioni per annunci di testo e modelli di annunci di ricerca responsive per feed di inventario.
 exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/ECmtczHqzO5JyR--JWgKQYReKLTohbrJlvhbBGUNOLY
+TQID: 'https://experienceleague.adobe.com/ECmtczHqzO5JyR--JWgKQYReKLTohbrJlvhbBGUNOLY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: Taxonomy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 3437
+source-wordcount: '3437'
 ht-degree: 0%
-
 ---
-
 # Impostazioni di annunci di testo e modelli di annunci di ricerca responsive per i feed di inventario
 
 *[!DNL Google Ads], [!DNL LY Ads] (solo azioni di eliminazione), [!DNL Microsoft Advertising] e [!DNL Yandex] account solo*
@@ -77,11 +82,11 @@ Se non viene trovata alcuna corrispondenza, tutti i dati della campagna vengono 
 
 * Per incorporare l’URL finale:
 
-   * ([!DNL Google Ads] e solo [!DNL Microsoft Advertising]) Per un elenco di parametri per indicare gli URL finali nei modelli di tracciamento, vedere ([!DNL Microsoft Advertising] only) [[!DNL Microsoft Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799/2) o ([!DNL Google Ads] only) i parametri &quot;Tracking template only&quot; nella sezione su &quot;Available [!DNL ValueTrack] Parameters&quot; nella [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
+  * ([!DNL Google Ads] e solo [!DNL Microsoft Advertising]) Per un elenco di parametri per indicare gli URL finali nei modelli di tracciamento, vedere ([!DNL Microsoft Advertising] only) [[!DNL Microsoft Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799/2) o ([!DNL Google Ads] only) i parametri &quot;Tracking template only&quot; nella sezione su &quot;Available [!DNL ValueTrack] Parameters&quot; nella [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
 
-   * ([!DNL LY Ads] solo) Utilizzare il parametro `!{unescapedurl}` per indicare l&#39;URL della pagina di destinazione.
+  * ([!DNL LY Ads] solo) Utilizzare il parametro `!{unescapedurl}` per indicare l&#39;URL della pagina di destinazione.
 
-   * Facoltativamente, puoi includere i parametri URL ed eventuali parametri personalizzati definiti per la campagna, separati da e commerciali (&amp;), ad esempio `{lpurl}?matchtype={matchtype}&device={device}`.
+  * Facoltativamente, puoi includere i parametri URL ed eventuali parametri personalizzati definiti per la campagna, separati da e commerciali (&amp;), ad esempio `{lpurl}?matchtype={matchtype}&device={device}`.
 
 * Per reindirizzamenti e tracciamento di terze parti, inserisci un valore.
 
@@ -179,17 +184,17 @@ Per inserire un nome di colonna o un gruppo di modificatori come parametro dinam
 
 * Per i modelli [!DNL Google Ads], [!DNL LY Ads] e [!DNL Microsoft Advertising]:
 
-   * Per i parametri dinamici: Corrispondenza ampia = `[keyword]`, Modificatore corrispondenza ampia per il primo termine nella colonna [!UICONTROL Keyword] (ad esempio +scarpe blu in camoscio) = `+[keyword]`, Modificatore corrispondenza ampia per ogni termine nella colonna Parola chiave (ad esempio +blu +camoscio +scarpe) = `+[keyword]+`, Corrispondenza frase = `"[keyword]"`, Corrispondenza esatta = `[[keyword]]`
+  * Per i parametri dinamici: Corrispondenza ampia = `[keyword]`, Modificatore corrispondenza ampia per il primo termine nella colonna [!UICONTROL Keyword] (ad esempio +scarpe blu in camoscio) = `+[keyword]`, Modificatore corrispondenza ampia per ogni termine nella colonna Parola chiave (ad esempio +blu +camoscio +scarpe) = `+[keyword]+`, Corrispondenza frase = `"[keyword]"`, Corrispondenza esatta = `[[keyword]]`
 
-   * Per le parole chiave statiche: Corrispondenza ampia = `keyword`, Modificatore corrispondenza ampia = `+keyword` o Corrispondenza frase = `"keyword"`
+  * Per le parole chiave statiche: Corrispondenza ampia = `keyword`, Modificatore corrispondenza ampia = `+keyword` o Corrispondenza frase = `"keyword"`
 
-     Non è possibile immettere parole chiave statiche con corrispondenza esatta e sintassi di corrispondenza standard perché sono racchiuse tra parentesi quadre (`[]`), come lo sono i parametri dinamici.
+    Non è possibile immettere parole chiave statiche con corrispondenza esatta e sintassi di corrispondenza standard perché sono racchiuse tra parentesi quadre (`[]`), come lo sono i parametri dinamici.
 
 * Per [!DNL Yandex] modelli:
 
-   * Per i parametri dinamici: inserire il nome della colonna, ad esempio `[keyword]`. Per indicare il tipo di corrispondenza, utilizzare la sintassi specifica di [[!DNL Yandex]](https://yandex.com/support/direct/keywords/symbols-and-operators.html). **Nota:** Per i termini di corrispondenza generici, utilizzare la sintassi seguente: Broad Match Modifier per il primo termine nella colonna Keyword (ad esempio +blue suede shoes) = `+[keyword]`, Broad Match Modifier per ogni termine nella colonna Keyword (ad esempio +blue +suede +shoes) = `+[keyword]+`
+  * Per i parametri dinamici: inserire il nome della colonna, ad esempio `[keyword]`. Per indicare il tipo di corrispondenza, utilizzare la sintassi specifica di [[!DNL Yandex]](https://yandex.com/support/direct/keywords/symbols-and-operators.html). **Nota:** Per i termini di corrispondenza generici, utilizzare la sintassi seguente: Broad Match Modifier per il primo termine nella colonna Keyword (ad esempio +blue suede shoes) = `+[keyword]`, Broad Match Modifier per ogni termine nella colonna Keyword (ad esempio +blue +suede +shoes) = `+[keyword]+`
 
-   * Per le parole chiave statiche: sono supportate solo le parole chiave di ricerca. Utilizza la sintassi specifica di [[!DNL Yandex]](https://yandex.com/support/direct/keywords/symbols-and-operators.html) per la parola chiave. Le parentesi quadre (`[]`) per indicare l&#39;ordine delle parole non sono supportate.
+  * Per le parole chiave statiche: sono supportate solo le parole chiave di ricerca. Utilizza la sintassi specifica di [[!DNL Yandex]](https://yandex.com/support/direct/keywords/symbols-and-operators.html) per la parola chiave. Le parentesi quadre (`[]`) per indicare l&#39;ordine delle parole non sono supportate.
 
 >[!NOTE]
 >
@@ -217,9 +222,9 @@ Se si utilizza un feed [!DNL Google Merchant Center] e si include questo valore 
 
 * Per indicare l’URL della pagina di destinazione:
 
-   * ([!DNL Google Ads] e solo [!DNL Microsoft Advertising]) Per un elenco di parametri per indicare gli URL finali nei modelli di tracciamento, vedere ([!DNL Microsoft Advertising] only) [[!DNL Microsoft Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) o ([!DNL Google Ads] only) i parametri &quot;Tracking template only&quot; nella sezione su &quot;Available [!DNL ValueTrack] Parameters&quot; nella [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
+  * ([!DNL Google Ads] e solo [!DNL Microsoft Advertising]) Per un elenco di parametri per indicare gli URL finali nei modelli di tracciamento, vedere ([!DNL Microsoft Advertising] only) [[!DNL Microsoft Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) o ([!DNL Google Ads] only) i parametri &quot;Tracking template only&quot; nella sezione su &quot;Available [!DNL ValueTrack] Parameters&quot; nella [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348).
 
-   * ([!DNL LY Ads] solo) Utilizzare il parametro `!{lpurl}` per indicare l&#39;URL della pagina di destinazione.
+  * ([!DNL LY Ads] solo) Utilizzare il parametro `!{lpurl}` per indicare l&#39;URL della pagina di destinazione.
 
 **[!UICONTROL Param 1]**, **[!UICONTROL Param 2]\[[!DNL Google Ads] modelli\]:** ([!DNL Google Ads] solo modelli) Colonna nel file specificato che rappresenta la variabile [!DNL Google Ads] `{param1}` o `{param2}`, che è possibile includere nella copia dell&#39;annuncio o nell&#39;URL di visualizzazione per qualsiasi annuncio creato dal modello. Per inserire il parametro dinamico, fare clic nel campo di input, quindi selezionare il nome di una colonna nell&#39;elenco delle colonne. Quando il file di feed viene propagato attraverso il modello, il nome della colonna viene sostituito con i dati effettivi.
 
@@ -237,19 +242,19 @@ I campi dati nel file di feed possono contenere un massimo di 25 caratteri e pos
 
 * Se non si utilizza il parametro &quot;[!UICONTROL Apply to Existing Keywords: Min]&quot;:
 
-   * Il valore può essere preceduto o accodato con un simbolo di valuta o un codice. Ad esempio, sono valide £ 2.000,00 e 2000GBP.
+  * Il valore può essere preceduto o accodato con un simbolo di valuta o un codice. Ad esempio, sono valide £ 2.000,00 e 2000GBP.
 
-   * Il valore può includere una virgola (,) o un punto (.) come separatore, con un punto facoltativo (.) o virgola (,) per i valori frazionari. Ad esempio, sono validi 1.000,00 e 2.000,10.
+  * Il valore può includere una virgola (,) o un punto (.) come separatore, con un punto facoltativo (.) o virgola (,) per i valori frazionari. Ad esempio, sono validi 1.000,00 e 2.000,10.
 
-   * Il valore può essere preceduto o accodato da un segno di percentuale (%), un segno più (+) o un segno meno (-). Ad esempio, 20%, 208+ e -42.32 sono validi.
+  * Il valore può essere preceduto o accodato da un segno di percentuale (%), un segno più (+) o un segno meno (-). Ad esempio, 20%, 208+ e -42.32 sono validi.
 
-   * È possibile incorporare due numeri con una barra. Ad esempio, sono validi 4/1 e 0,95/0,45.
+  * È possibile incorporare due numeri con una barra. Ad esempio, sono validi 4/1 e 0,95/0,45.
 
 **[!UICONTROL Param 2]\[[!DNL Microsoft Advertising] modelli\]:** ([!DNL Microsoft Advertising] solo modelli) Stringa da utilizzare come valore di sostituzione in un annuncio se il titolo, il testo, l&#39;URL di visualizzazione o l&#39;URL finale contiene la stringa di sostituzione dinamica `{Param2}`. La lunghezza massima è di 70 caratteri, ma tieni presente la lunghezza massima degli elementi dell’annuncio in cui lo utilizzi (ad esempio, un titolo dell’annuncio può includere fino a 25 caratteri).
 
 **[!UICONTROL Param 3]:** ([!DNL Microsoft Advertising] solo modelli) Stringa da utilizzare come valore di sostituzione in un annuncio se il titolo, il testo, l&#39;URL di visualizzazione o l&#39;URL finale contiene la stringa di sostituzione dinamica `{Param3}`. La lunghezza massima è di 70 caratteri, ma tieni presente la lunghezza massima degli elementi dell’annuncio in cui lo utilizzi (ad esempio, un titolo dell’annuncio può includere fino a 25 caratteri).
 
-**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** L&#39;offerta iniziale per ogni parola chiave con il tipo di corrispondenza o di annuncio specificato.
+**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** L&#39;offerta iniziale per ogni parola chiave con il tipo di corrispondenza o di annuncio specificato.
 
 ## [!UICONTROL Ads]
 
@@ -368,19 +373,19 @@ Per reindirizzamenti e tracciamento di terze parti, inserisci un valore. Per ind
 
    * Per ogni classificazione e valore di etichetta da assegnare al componente, effettua le seguenti operazioni:
 
-      1. Fare clic su **[!UICONTROL Add Label Classification]**.
+     1. Fare clic su **[!UICONTROL Add Label Classification]**.
 
-      1. Selezionare la classificazione dell&#39;etichetta esistente, quindi selezionare un valore esistente o immettere un nuovo valore.
+     1. Selezionare la classificazione dell&#39;etichetta esistente, quindi selezionare un valore esistente o immettere un nuovo valore.
 
-         La lunghezza massima di ogni valore è di 100 caratteri e può includere caratteri ASCII e non ASCII.
+        La lunghezza massima di ogni valore è di 100 caratteri e può includere caratteri ASCII e non ASCII.
 
-         Per inserire un nome di colonna come parametro dinamico per un valore di classificazione di etichetta, fare clic nel campo di input (il secondo campo) e quindi fare clic sul nome di una colonna nell&#39;elenco delle colonne.
+        Per inserire un nome di colonna come parametro dinamico per un valore di classificazione di etichetta, fare clic nel campo di input (il secondo campo) e quindi fare clic sul nome di una colonna nell&#39;elenco delle colonne.
 
-         Puoi includere un solo valore per classificazione per componente della campagna. Ad esempio, una campagna può avere Color=Red ma non Color=Red e Color=Blue.
+        Puoi includere un solo valore per classificazione per componente della campagna. Ad esempio, una campagna può avere Color=Red ma non Color=Red e Color=Blue.
 
-         * Per modificare un valore di classificazione delle etichette esistente, selezionare o immettere un nuovo valore.
+        * Per modificare un valore di classificazione delle etichette esistente, selezionare o immettere un nuovo valore.
 
-         * Per rimuovere un valore di classificazione etichetta esistente, fare clic su **[!UICONTROL X]** accanto al valore.
+        * Per rimuovere un valore di classificazione etichetta esistente, fare clic su **[!UICONTROL X]** accanto al valore.
 
 ## [!UICONTROL Feed Filters]
 

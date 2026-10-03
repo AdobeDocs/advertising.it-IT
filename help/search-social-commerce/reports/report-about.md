@@ -3,21 +3,26 @@ title: Informazioni sui report
 description: Scopri i rapporti sulle prestazioni, compresi i diversi tipi di rapporti disponibili e come automatizzare i rapporti.
 exl-id: 173d1bad-e3aa-4417-a9b1-4b5d06c304d2
 feature: Search Reports
-TQID: https://experienceleague.adobe.com/2Cw55tN9cx9vfc6sEHdOQfW5VcLIUZdbNtMkKdINkZM
+TQID: 'https://experienceleague.adobe.com/2Cw55tN9cx9vfc6sEHdOQfW5VcLIUZdbNtMkKdINkZM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 851
+source-wordcount: '865'
 ht-degree: 0%
-
 ---
-
 # Informazioni sui report
 
 I rapporti sulle prestazioni consentono di tenere traccia e gestire le prestazioni di portfolio, reti di annunci ed entità account di rete di annunci con la granularità desiderata. La maggior parte dei rapporti fornisce una visibilità completa sul modo in cui gli annunci in ciascun canale di marketing contribuiscono al tasso di conversione complessivo.

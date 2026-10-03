@@ -3,22 +3,26 @@ title: Creare un pubblico riutilizzabile
 description: Scopri come creare tipi di pubblico riutilizzabili costituiti da segmenti di pubblico e altri tipi di pubblico salvati. Facoltativamente, utilizza un agente di pubblico assistito da intelligenza artificiale descrivendo il pubblico di destinazione in prompt in linguaggio naturale; l’agente suggerisce segmenti di terze parti e crea espressioni di pubblico da utilizzare come target o esclusioni.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-TQID: https://experienceleague.adobe.com/KhAxVTvMx4yBz3tfDtng3nOur2IodZAFFHMUQM1lKhQ
+TQID: 'https://experienceleague.adobe.com/KhAxVTvMx4yBz3tfDtng3nOur2IodZAFFHMUQM1lKhQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a4b509995f362ed81e00485409b0c729b5130e35
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1667
+source-wordcount: '1667'
 ht-degree: 0%
-
 ---
-
 # Creare un pubblico riutilizzabile
 
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
@@ -57,49 +61,49 @@ Puoi salvare e gestire i tipi di pubblico riutilizzabili, ovvero gruppi di segme
 
    * Per creare manualmente la logica del segmento, utilizzando i segmenti disponibili nelle schede [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] e [!UICONTROL Saved Audiences]](audience-settings.md), eseguire le operazioni seguenti.
 
-      * (Facoltativo) Cerca un nome di segmento, una descrizione o un percorso.
+     * (Facoltativo) Cerca un nome di segmento, una descrizione o un percorso.
 
-        I risultati della ricerca includono segmenti basati sui termini esatti utilizzati. Quando si inseriscono più termini, tutti i termini devono essere trovati per un segmento.
+       I risultati della ricerca includono segmenti basati sui termini esatti utilizzati. Quando si inseriscono più termini, tutti i termini devono essere trovati per un segmento.
 
-      * Per aggiungere il primo segmento, individualo nel pannello a sinistra e seleziona la casella di controllo accanto al nome del segmento.
+     * Per aggiungere il primo segmento, individualo nel pannello a sinistra e seleziona la casella di controllo accanto al nome del segmento.
 
-      * Per aggiungere un segmento a un gruppo di segmenti esistente:
+     * Per aggiungere un segmento a un gruppo di segmenti esistente:
 
-         1. Fai clic sul gruppo di segmenti nel pannello di destra.
+       1. Fai clic sul gruppo di segmenti nel pannello di destra.
 
-         1. (Facoltativo) Modificare la logica del gruppo in *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* o *[!UICONTROL Exclude All]*, in base alle esigenze.
+       1. (Facoltativo) Modificare la logica del gruppo in *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* o *[!UICONTROL Exclude All]*, in base alle esigenze.
 
-            *[!UICONTROL Exclude All]* non è disponibile per il primo gruppo di segmenti. Per un pubblico che include solo esclusioni, crea questo pubblico come *[!UICONTROL Include Any]* e quindi, all&#39;interno di un posizionamento, seleziona tale pubblico dal menu Tipi di pubblico esclusi.
+          *[!UICONTROL Exclude All]* non è disponibile per il primo gruppo di segmenti. Per un pubblico che include solo esclusioni, crea questo pubblico come *[!UICONTROL Include Any]* e quindi, all&#39;interno di un posizionamento, seleziona tale pubblico dal menu Tipi di pubblico esclusi.
 
-         1. Individua il nuovo segmento nel pannello a sinistra e seleziona la casella di controllo accanto al nome del segmento.
+       1. Individua il nuovo segmento nel pannello a sinistra e seleziona la casella di controllo accanto al nome del segmento.
 
-            Il gruppo di segmenti viene aggiornato automaticamente con il nuovo segmento.
+          Il gruppo di segmenti viene aggiornato automaticamente con il nuovo segmento.
 
-      * Per aggiungere un nuovo gruppo di segmenti:
+     * Per aggiungere un nuovo gruppo di segmenti:
 
-         1. Fai clic su **[!UICONTROL + New Group]** nel pannello di destra.
+       1. Fai clic su **[!UICONTROL + New Group]** nel pannello di destra.
 
-            1. (Facoltativo) Modificare la logica tra il gruppo precedente e il nuovo gruppo in *[!UICONTROL And]* o *[!UICONTROL Or]*, in base alle esigenze.
+          1. (Facoltativo) Modificare la logica tra il gruppo precedente e il nuovo gruppo in *[!UICONTROL And]* o *[!UICONTROL Or]*, in base alle esigenze.
 
-            1. Individuate i segmenti per il nuovo gruppo nel pannello a sinistra e selezionate le caselle di controllo accanto ai nomi dei segmenti.
+          1. Individuate i segmenti per il nuovo gruppo nel pannello a sinistra e selezionate le caselle di controllo accanto ai nomi dei segmenti.
 
-            1. (Facoltativo) Modificare la logica del gruppo in *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* o *[!UICONTROL Exclude All]*, in base alle esigenze.
+          1. (Facoltativo) Modificare la logica del gruppo in *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* o *[!UICONTROL Exclude All]*, in base alle esigenze.
 
    * Per utilizzare la logica dei segmenti da un pubblico esistente:
 
-      1. Copia la logica del segmento dal pubblico esistente in uno dei seguenti modi:
+     1. Copia la logica del segmento dal pubblico esistente in uno dei seguenti modi:
 
-         * Nella visualizzazione Tutti i tipi di pubblico, posizionare il cursore sulla riga del pubblico e quindi fare clic su **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
+        * Nella visualizzazione Tutti i tipi di pubblico, posizionare il cursore sulla riga del pubblico e quindi fare clic su **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * Nelle impostazioni per il pubblico esistente, nella parte superiore del pannello di logica del segmento, fai clic su **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
+        * Nelle impostazioni per il pubblico esistente, nella parte superiore del pannello di logica del segmento, fai clic su **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * In un editor di testo, crea manualmente la logica del segmento utilizzando ID segmento alfanumerici e [sintassi booleana](audience-segment-logic-syntax.md) e copiala negli Appunti.
+        * In un editor di testo, crea manualmente la logica del segmento utilizzando ID segmento alfanumerici e [sintassi booleana](audience-segment-logic-syntax.md) e copiala negli Appunti.
 
-      1. Fare clic su **[!UICONTROL paste in an audience rule to begin building]**, incollare la logica del segmento esistente nel campo di input, quindi fare clic su **[!UICONTROL Apply]**.
+     1. Fare clic su **[!UICONTROL paste in an audience rule to begin building]**, incollare la logica del segmento esistente nel campo di input, quindi fare clic su **[!UICONTROL Apply]**.
 
-         >[!NOTE]
-         >
-         >Se il pubblico include già una logica di segmento, l’operazione Incolla nella logica Nuovo segmento sovrascrive la logica esistente.
+        >[!NOTE]
+        >
+        >Se il pubblico include già una logica di segmento, l’operazione Incolla nella logica Nuovo segmento sovrascrive la logica esistente.
 
 1. Fare clic su **[!UICONTROL Create]**.
 
@@ -161,11 +165,11 @@ Puoi salvare e gestire i tipi di pubblico riutilizzabili, ovvero gruppi di segme
 
 * Utilizza un linguaggio chiaro e descrittivo per descrivere il pubblico target.
 
-   * Puoi immettere frasi complete o solo una stringa di caratteristiche. La punteggiatura non è necessaria tranne quando necessario per maggiore chiarezza.
+  * Puoi immettere frasi complete o solo una stringa di caratteristiche. La punteggiatura non è necessaria tranne quando necessario per maggiore chiarezza.
 
-   * In generale, i prompt non distinguono tra maiuscole e minuscole.
+  * In generale, i prompt non distinguono tra maiuscole e minuscole.
 
-   * L’agente del pubblico riconosce i sinonimi più comuni.
+  * L’agente del pubblico riconosce i sinonimi più comuni.
 
 * Sii specifico e fornisci dettagli su tutte le caratteristiche del pubblico che desideri includere ed eventuali caratteristiche che desideri escludere specificamente. Maggiore è il numero di dettagli forniti, maggiori sono le possibilità di ottenere risultati che soddisfino le tue esigenze.
 

@@ -3,18 +3,21 @@ title: Parametri di tracciamento facoltativi per gli URL di tracciamento dei cli
 description: Scopri i parametri di tracciamento facoltativi per Search, Social e Commerce e i parametri di tracciamento specifici per la rete di annunci che puoi aggiungere agli URL di tracciamento dei clic.
 exl-id: df53bb8c-63ad-47f9-af44-57bd4bd58d71
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/6T2yZGYK-Mp97D0YRqPoS7Qyb5gp8jX-boK6KQjHB2E
+TQID: 'https://experienceleague.adobe.com/6T2yZGYK-Mp97D0YRqPoS7Qyb5gp8jX-boK6KQjHB2E'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1113
+source-wordcount: '1146'
 ht-degree: 0%
-
 ---
-
 # Parametri di tracciamento facoltativi per gli URL di tracciamento dei clic
 
 Solo account *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising] e [!DNL Yandex]*
@@ -25,11 +28,11 @@ Invece di utilizzare solo i parametri di tracciamento standard per un URL finale
 
 * Puoi aggiungere parametri specifici per Adobe Advertising e la rete di annunci negli URL di base dell’account o della campagna per tenere traccia di più dati:
 
-   * I parametri di Adobe Advertising sono semistatici. Adobe Advertising inserisce un valore di dati quando carica l’URL di base nella rete di annunci. Ad esempio, quando aggiungi `campaign={ef_campaign}` all&#39;URL di base, Adobe Advertising sostituisce `{ef_campaign}` con il nome effettivo della campagna (ad esempio &quot;Back-to-school-Campaign&quot;) durante il caricamento dell&#39;URL.
+  * I parametri di Adobe Advertising sono semistatici. Adobe Advertising inserisce un valore di dati quando carica l’URL di base nella rete di annunci. Ad esempio, quando aggiungi `campaign={ef_campaign}` all&#39;URL di base, Adobe Advertising sostituisce `{ef_campaign}` con il nome effettivo della campagna (ad esempio &quot;Back-to-school-Campaign&quot;) durante il caricamento dell&#39;URL.
 
-     **Nota:** una volta inseriti i valori, questi rimangono statici. Se sposti una parola chiave o un annuncio in un gruppo di annunci diverso o sposti il gruppo di annunci in una campagna diversa, il parametro {ef_adgroup} o {ef_campaign} non viene aggiornato automaticamente, pertanto è necessario generare manualmente un nuovo URL di destinazione o di base (finale).
+    **Nota:** una volta inseriti i valori, questi rimangono statici. Se sposti una parola chiave o un annuncio in un gruppo di annunci diverso o sposti il gruppo di annunci in una campagna diversa, il parametro {ef_adgroup} o {ef_campaign} non viene aggiornato automaticamente, pertanto è necessario generare manualmente un nuovo URL di destinazione o di base (finale).
 
-   * I parametri specifici della rete di annunci sono dinamici e il motore di ricerca inserisce un valore di dati quando l’utente fa clic su un annuncio. Ad esempio, quando si aggiunge `{param1}` all&#39;URL di base, la rete pubblicitaria lo sostituisce con il valore effettivo {param1} quando un utente finale fa clic sull&#39;annuncio.
+  * I parametri specifici della rete di annunci sono dinamici e il motore di ricerca inserisce un valore di dati quando l’utente fa clic su un annuncio. Ad esempio, quando si aggiunge `{param1}` all&#39;URL di base, la rete pubblicitaria lo sostituisce con il valore effettivo {param1} quando un utente finale fa clic sull&#39;annuncio.
 
 >[!NOTE]
 >
@@ -38,7 +41,7 @@ Invece di utilizzare solo i parametri di tracciamento standard per un URL finale
 >* Nell’URL di destinazione o nell’URL di base (finale) generato, i caratteri speciali nei parametri aggiunti vengono sostituiti come segue:
 >  * `=` è sostituito da `%3D`
 >  * `?` è sostituito da `%26`
->  * uno spazio vuoto è stato sostituito con `%2B`
+>  * uno spazio vuoto viene sostituito con `%2B`
 >  Ad esempio, quando si aggiunge il parametro `campaign={ef_campaign}` all&#39;URL di base http://www.example.com per una parola chiave, l&#39;URL di base per tale parola chiave viene generato come `http://www.example.com/campaign%3D{ef_campaign}`.
 
 ## Parametri di tracciamento statico per Search, Social e Commerce

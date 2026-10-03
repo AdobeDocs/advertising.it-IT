@@ -1,30 +1,41 @@
 ---
-title: Varianze di dati previste tra  [!DNL Analytics]  e Adobe Advertising
-description: Varianze di dati previste tra  [!DNL Analytics]  e Adobe Advertising
+title: Varianze di dati previste tra [!DNL Analytics] e Adobe Advertising
+description: Varianze di dati previste tra [!DNL Analytics] e Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-TQID: https://experienceleague.adobe.com/rTwYQgWuhRefe4R9FahGydneNVpv9mP7pqhOeDQwP34
+TQID: 'https://experienceleague.adobe.com/rTwYQgWuhRefe4R9FahGydneNVpv9mP7pqhOeDQwP34'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 3d540e71081d223cc4e9ee28bb8b4f168c07ff50
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 3528
+source-wordcount: '3529'
 ht-degree: 0%
-
 ---
-
 # Varianze di dati previste tra [!DNL Analytics] e Adobe Advertising
 
 *Inserzionisti con una sola integrazione Adobe Advertising-Adobe Analytics*
@@ -53,7 +64,7 @@ Se un intervallo di lookback o un modello di attribuzione viene modificato in un
 
 * **Esempio di discrepanze causate da diversi modelli di attribuzione:**
 
-  Supponiamo che un utente interagisca con tre diversi annunci di Adobe Advertising prima della conversione, con i ricavi come tipo di conversione. Se un rapporto di Adobe Advertising utilizza un modello di distribuzione uniforme per l’attribuzione, i ricavi vengono attribuiti in modo uniforme tra tutti gli annunci. Tuttavia, se [!DNL Analytics] utilizza il modello di attribuzione ultimo contatto, attribuisce i ricavi all&#39;ultimo annuncio. Nell&#39;esempio seguente, Adobe Advertising attribuisce persino 10 USD dei 30 USD di ricavi acquisiti a ciascuno dei tre annunci, mentre [!DNL Analytics] attribuisce tutti i 30 USD di ricavi all&#39;ultimo annuncio visualizzato dall&#39;utente. Confrontando i rapporti di Adobe Advertising e [!DNL Analytics], è possibile prevedere l&#39;impatto della differenza di attribuzione.
+  Supponiamo che un utente interagisca con tre diversi annunci di Adobe Advertising prima della conversione, con i ricavi come tipo di conversione. Se un rapporto di Adobe Advertising utilizza un modello di distribuzione uniforme per l’attribuzione, i ricavi vengono attribuiti in modo uniforme tra tutti gli annunci. Tuttavia, se [!DNL Analytics] utilizza il modello di attribuzione ultimo contatto, attribuisce i ricavi all&#39;ultimo annuncio. Nell&#39;esempio seguente, Adobe Advertising attribuisce addirittura 10 USD dei 30 USD di ricavi acquisiti a ciascuno dei tre annunci, mentre [!DNL Analytics] attribuisce tutti e 30 gli USD di ricavi all&#39;ultimo annuncio visualizzato dall&#39;utente. Confrontando i rapporti di Adobe Advertising e [!DNL Analytics], è possibile prevedere l&#39;impatto della differenza di attribuzione.
 
   ![Ricavi diversi attribuiti ad Adobe Advertising e [!DNL Analytics] in base a modelli di attribuzione diversi](/help/integrations/assets/a4adc-attribution-example.png)
 
@@ -73,7 +84,7 @@ Nell’esempio seguente, supponiamo che a un visitatore sia stato servito un ann
 
 ![Esempio di conversione view-through attribuita in [!DNL Analytics] ma non in Adobe Advertising](/help/integrations/assets/a4adc-viewthrough-example.png)
 
-Un&#39;ulteriore causa di discrepanze è che, in Adobe Advertising, è possibile assegnare alle conversioni view-through un *peso view-through* personalizzato relativo al peso attribuito a una conversione basata su clic. Il peso predefinito della visualizzazione view-through è 40%, il che significa che una conversione view-through viene conteggiata come 40% del valore di una conversione basata su clic. [!DNL Analytics] non fornisce una tale ponderazione delle conversioni view-through. Ad esempio, un ordine di ricavi da 100 USD acquisito in [!DNL Analytics] viene scontato a 40 USD in Adobe Advertising se si utilizza il peso view-through predefinito, una differenza di 60 USD.
+Un&#39;ulteriore causa di discrepanze è che, in Adobe Advertising, è possibile assegnare alle conversioni view-through un *peso view-through* personalizzato relativo al peso attribuito a una conversione basata su clic. Il peso predefinito della visualizzazione view-through è 40%, il che significa che una conversione view-through viene conteggiata come 40% del valore di una conversione basata su clic. [!DNL Analytics] non fornisce una tale ponderazione delle conversioni view-through. Ad esempio, un ordine di ricavi di 100 USD acquisito in [!DNL Analytics] viene scontato a 40 USD in Adobe Advertising se si utilizza il peso view-through predefinito, una differenza di 60 USD.
 
 Considerare queste differenze durante il confronto delle conversioni view-through tra i report Adobe Advertising e [!DNL Analytics].
 

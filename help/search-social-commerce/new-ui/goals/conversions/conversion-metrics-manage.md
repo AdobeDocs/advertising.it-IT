@@ -2,20 +2,25 @@
 title: Gestire le metriche di conversione di un inserzionista
 description: Scopri come utilizzare le metriche di conversione tracciate da Adobe Advertising per un inserzionista.
 feature: Conversions
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
   - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
 subfeature_v2:
   - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 932
+source-wordcount: '932'
 ht-degree: 0%
-
 ---
-
 # (Nuova interfaccia) Gestire le metriche di conversione di un inserzionista
 
 *funzionalità Beta*
@@ -96,13 +101,13 @@ Impossibile eliminare un nome visualizzato esistente.
 
    * Per mostrare o nascondere più metriche, effettua le seguenti operazioni:
 
-      1. Seleziona la casella di controllo accanto a ciascuna metrica di conversione.
+     1. Seleziona la casella di controllo accanto a ciascuna metrica di conversione.
 
-         Per suggerimenti sulla selezione di più righe, vedere &quot;[Selezionare più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+        Per suggerimenti sulla selezione di più righe, vedere &quot;[Selezionare più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-      1. Nella barra degli strumenti delle azioni in blocco, fai clic su ![Visibilità](/help/search-social-commerce/assets/visible.png "Visibilità") per visualizzare le metriche oppure su ![Visibilità disattivata](/help/search-social-commerce/assets/visibility-off.png "Visibilità disattivata") per nasconderle.
+     1. Nella barra degli strumenti delle azioni in blocco, fai clic su ![Visibilità](/help/search-social-commerce/assets/visible.png "Visibilità") per visualizzare le metriche oppure su ![Visibilità disattivata](/help/search-social-commerce/assets/visibility-off.png "Visibilità disattivata") per nasconderle.
 
-      1. (Per nascondere le metriche) Nel messaggio di conferma, fare clic su **[!UICONTROL Confirm]** per nascondere le metriche, inclusa la loro rimozione da qualsiasi metrica derivata che contiene le metriche.
+     1. (Per nascondere le metriche) Nel messaggio di conferma, fare clic su **[!UICONTROL Confirm]** per nascondere le metriche, inclusa la loro rimozione da qualsiasi metrica derivata che contiene le metriche.
 
 ## Gestire i rapporti sulla visibilità delle conversioni e sull’origine
 

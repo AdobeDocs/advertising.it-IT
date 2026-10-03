@@ -3,22 +3,26 @@ title: Modificare un pubblico riutilizzabile
 description: Scopri come modificare un pubblico riutilizzabile.
 feature: DSP Audiences
 exl-id: 4de6b9a4-2907-474d-92bf-83686a1f0b31
-TQID: https://experienceleague.adobe.com/NkmnBZ5GKhOxmOJZhIS8-V99cV7x2-DTl-tp1cij8W4
+TQID: 'https://experienceleague.adobe.com/NkmnBZ5GKhOxmOJZhIS8-V99cV7x2-DTl-tp1cij8W4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 459
+source-wordcount: '461'
 ht-degree: 0%
-
 ---
-
 # Modificare un pubblico riutilizzabile
 
 Quando si modifica un pubblico utilizzato in qualsiasi posizionamento o altro pubblico riutilizzabile, le modifiche vengono immediatamente applicate a tali posizionamenti e tipi di pubblico.<!-- verify -->
@@ -41,43 +45,43 @@ Quando si modifica un pubblico utilizzato in qualsiasi posizionamento o altro pu
 
    * (Facoltativo) Per modificare manualmente la logica del segmento, utilizzando i segmenti disponibili nelle schede [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] e [!UICONTROL Saved Audiences]](audience-settings.md), eseguire le operazioni seguenti.
 
-      * Per aggiungere un segmento a un gruppo di segmenti esistente:
+     * Per aggiungere un segmento a un gruppo di segmenti esistente:
 
-      1. Fai clic sul gruppo di segmenti nel pannello di destra.
+     1. Fai clic sul gruppo di segmenti nel pannello di destra.
 
-      1. (Facoltativo) Modificare la logica del gruppo in *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* o *[!UICONTROL Exclude All]*, in base alle esigenze.
+     1. (Facoltativo) Modificare la logica del gruppo in *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* o *[!UICONTROL Exclude All]*, in base alle esigenze.
 
-         *[!UICONTROL Exclude All]* non è disponibile per il primo gruppo di segmenti. Per un pubblico che include solo esclusioni, crea questo pubblico come *[!UICONTROL Include Any]* e quindi, all&#39;interno di un posizionamento, seleziona tale pubblico dal menu Tipi di pubblico esclusi.
+        *[!UICONTROL Exclude All]* non è disponibile per il primo gruppo di segmenti. Per un pubblico che include solo esclusioni, crea questo pubblico come *[!UICONTROL Include Any]* e quindi, all&#39;interno di un posizionamento, seleziona tale pubblico dal menu Tipi di pubblico esclusi.
 
-      1. Individua il nuovo segmento nel pannello a sinistra e seleziona la casella di controllo accanto al nome del segmento.
+     1. Individua il nuovo segmento nel pannello a sinistra e seleziona la casella di controllo accanto al nome del segmento.
 
-         Il gruppo di segmenti viene aggiornato automaticamente con il nuovo segmento.
+        Il gruppo di segmenti viene aggiornato automaticamente con il nuovo segmento.
 
    * Per aggiungere un nuovo gruppo di segmenti:
 
-      1. Fai clic su **[!UICONTROL + New Group]** nel pannello di destra.
+     1. Fai clic su **[!UICONTROL + New Group]** nel pannello di destra.
 
-      1. (Facoltativo) Modificare la logica tra il gruppo precedente e il nuovo gruppo in *[!UICONTROL And]* o *[!UICONTROL Or]*, in base alle esigenze.
+     1. (Facoltativo) Modificare la logica tra il gruppo precedente e il nuovo gruppo in *[!UICONTROL And]* o *[!UICONTROL Or]*, in base alle esigenze.
 
-      1. Individuate i segmenti per il nuovo gruppo nel pannello a sinistra e selezionate le caselle di controllo accanto ai nomi dei segmenti.
+     1. Individuate i segmenti per il nuovo gruppo nel pannello a sinistra e selezionate le caselle di controllo accanto ai nomi dei segmenti.
 
-      1. (Facoltativo) Modificare la logica del gruppo in *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* o *[!UICONTROL Exclude All]*, in base alle esigenze.
+     1. (Facoltativo) Modificare la logica del gruppo in *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* o *[!UICONTROL Exclude All]*, in base alle esigenze.
 
    * Per utilizzare la logica dei segmenti da un pubblico esistente:
 
-      1. Copia la logica del segmento dal pubblico esistente in uno dei seguenti modi:
+     1. Copia la logica del segmento dal pubblico esistente in uno dei seguenti modi:
 
-         * Nella visualizzazione Tutti i tipi di pubblico, posizionare il cursore sulla riga del pubblico e quindi fare clic su **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
+        * Nella visualizzazione Tutti i tipi di pubblico, posizionare il cursore sulla riga del pubblico e quindi fare clic su **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * Nelle impostazioni per il pubblico esistente, nella parte superiore del pannello di logica del segmento, fai clic su **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
+        * Nelle impostazioni per il pubblico esistente, nella parte superiore del pannello di logica del segmento, fai clic su **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * In un editor di testo, crea manualmente la logica del segmento utilizzando ID segmento alfanumerici e [sintassi booleana](audience-segment-logic-syntax.md) e copiala negli Appunti.
+        * In un editor di testo, crea manualmente la logica del segmento utilizzando ID segmento alfanumerici e [sintassi booleana](audience-segment-logic-syntax.md) e copiala negli Appunti.
 
-      1. Fare clic su **[!UICONTROL paste in an audience rule to begin building]**, incollare la logica del segmento esistente nel campo di input, quindi fare clic su **[!UICONTROL Apply]**.
+     1. Fare clic su **[!UICONTROL paste in an audience rule to begin building]**, incollare la logica del segmento esistente nel campo di input, quindi fare clic su **[!UICONTROL Apply]**.
 
-         >[!NOTE]
-         >
-         >Se il pubblico include già una logica di segmento, l’operazione Incolla nella logica Nuovo segmento sovrascrive la logica esistente.
+        >[!NOTE]
+        >
+        >Se il pubblico include già una logica di segmento, l’operazione Incolla nella logica Nuovo segmento sovrascrive la logica esistente.
 
 1. Fare clic su **[!UICONTROL Save]**.
 

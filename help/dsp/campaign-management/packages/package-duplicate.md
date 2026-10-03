@@ -3,24 +3,29 @@ title: Duplicare un pacchetto
 description: Scopri come duplicare un pacchetto.
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-TQID: https://experienceleague.adobe.com/fbOXyvipyiJ7rOlCroMLHvSqCqXPIEL9FTHmqm7CQu8
+TQID: 'https://experienceleague.adobe.com/fbOXyvipyiJ7rOlCroMLHvSqCqXPIEL9FTHmqm7CQu8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b60977f8-185a-5f3f-bdb1-909a47bdb8cc
+    internal-label: DSP Packages
 subfeature_v2:
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 420
+source-wordcount: '420'
 ht-degree: 0%
-
 ---
-
 # Duplicare un pacchetto
 
 Duplica un pacchetto per creare un pacchetto con impostazioni simili. È possibile:
@@ -69,10 +74,10 @@ Tutte le impostazioni dei posizionamenti originali vengono duplicate, tranne:
 * (Se non alleghi annunci) Ponderazione e pianificazione degli annunci personalizzati
 * Posizionamenti predefiniti per offerte programmatiche garantite (PG) e posizionamenti per [!UICONTROL Simple Ad Serving] offerte
 * (Se copi i posizionamenti in un’altra campagna):
-   * Destinazioni geografiche
-   * Pixel evento
-   * Annunci
-   * Segmenti [!DNL DoubleVerify Authentic Brand Suitability] a livello di posizionamento (che sostituiscono i segmenti a livello di inserzionista)
+  * Destinazioni geografiche
+  * Pixel evento
+  * Annunci
+  * Segmenti [!DNL DoubleVerify Authentic Brand Suitability] a livello di posizionamento (che sostituiscono i segmenti a livello di inserzionista)
 
 ## Best practice per configurare il nuovo pacchetto
 
@@ -85,21 +90,21 @@ Tutte le impostazioni dei posizionamenti originali vengono duplicate, tranne:
 
 * Considera quanto segue e modifica il nuovo pacchetto in base alle esigenze:
 
-   * L&#39;account dispone di fondi sufficienti per accogliere il nuovo budget del pacchetto?
+  * L&#39;account dispone di fondi sufficienti per accogliere il nuovo budget del pacchetto?
 
-   * Il nuovo pacchetto necessita di un bilancio diverso rispetto al pacchetto precedente?
+  * Il nuovo pacchetto necessita di un bilancio diverso rispetto al pacchetto precedente?
 
-   * Sono necessari budget minimi per uno qualsiasi dei posizionamenti?
+  * Sono necessari budget minimi per uno qualsiasi dei posizionamenti?
 
-   * Carica le creatività, inclusa la ponderazione e la pianificazione personalizzate necessarie, e allegale ai posizionamenti.
+  * Carica le creatività, inclusa la ponderazione e la pianificazione personalizzate necessarie, e allegale ai posizionamenti.
 
-   * Allega i pixel dell’evento necessari ai posizionamenti e agli annunci.
+  * Allega i pixel dell’evento necessari ai posizionamenti e agli annunci.
 
-   * Includi destinazioni geografiche e segmenti [!DNL DoubleVerify Authentic Brand Suitability] a livello di posizionamento in base alle esigenze per i posizionamenti.
+  * Includi destinazioni geografiche e segmenti [!DNL DoubleVerify Authentic Brand Suitability] a livello di posizionamento in base alle esigenze per i posizionamenti.
 
-   * Per le offerte garantite programmatiche, utilizza i nuovi ID offerta e crea posizionamenti predefiniti.
+  * Per le offerte garantite programmatiche, utilizza i nuovi ID offerta e crea posizionamenti predefiniti.
 
-   * Crea nuovi posizionamenti per offerte [!UICONTROL Simple Ad Serving] in base alle esigenze.
+  * Crea nuovi posizionamenti per offerte [!UICONTROL Simple Ad Serving] in base alle esigenze.
 
 * Per i pacchetti che utilizzano obiettivi di ottimizzazione personalizzati, utilizzare l&#39;impostazione [[!UICONTROL Linked Package for Optimization Learnings Carryover]](/help/dsp/campaign-management/packages/package-settings.md) per ogni pacchetto per utilizzare i dati storici della campagna precedente come input per l&#39;ottimizzazione del pacchetto.
 

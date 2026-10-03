@@ -3,24 +3,30 @@ title: Informazioni su Adobe Advertising DSP
 description: Informazioni su Adobe Advertising DSP
 feature: DSP Introduction
 exl-id: 2a5df455-673b-483f-91a6-4fc5678b7f8a
-TQID: https://experienceleague.adobe.com/YJQHNT-Xkpob54deI0IIGVN2cI6sPYDlAiqievQK3oI
+TQID: 'https://experienceleague.adobe.com/YJQHNT-Xkpob54deI0IIGVN2cI6sPYDlAiqievQK3oI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d05f5093-0b42-5b61-81cc-b438107ef814
+    internal-label: DSP Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: bc11f38b8a81f964323d35a44aa3937674a768cd
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 371
+source-wordcount: '372'
 ht-degree: 0%
-
 ---
-
 # Informazioni su Adobe Advertising DSP
 
 Adobe Advertising è l’unica piattaforma di annunci indipendente che unifica e automatizza tutti i contenuti multimediali, i dati, il pubblico e la creatività su larga scala. Distribuisci esperienze connesse su tutti i canali pubblicitari: ricerca a pagamento, display, video, TV collegata (CTV), audio e nativi.
@@ -35,7 +41,7 @@ Adobe Advertising DSP (DSP) migliora le strategie multimediali degli inserzionis
 
 * **[Integrazioni con Adobe Analytics, Adobe Customer Journey Analytics, Adobe Audience Manager, Adobe Target e Adobe Experience Platform](/help/integrations/home.md)**: le integrazioni con i prodotti Adobe esistenti ti consentono di massimizzare i dati di prime parti e di porre la pubblicità sullo stesso livello degli altri approfondimenti aziendali.
 
-* [**Esperienza TV connessa a Premiere con [!DNL Roku]**](/help/dsp/inventory/roku-inventory.md): [!DNL Roku] e DSP hanno una relazione unica che ti consente di attivare i tuoi dati di prime e terze parti nell&#39;inventario di [!DNL Roku] per raggiungere in modo efficiente il pubblico sul grande schermo, su larga scala. Sfruttando l&#39;unica piattaforma con la possibilità di sincronizzare con [!DNL Roku] ID, gli addetti al marketing possono sfruttare il targeting deterministico di 1:1 con precisione e precisione, nonché accedere all&#39;inventario di [!DNL Roku] e a informazioni di misurazione univoche.
+* [**Esperienza TV connessa a Premiere con [!DNL Roku]**](/help/dsp/inventory/roku-inventory.md): [!DNL Roku] e DSP hanno una relazione unica che ti consente di attivare i tuoi dati di prime e terze parti nell&#39;inventario di [!DNL Roku] per raggiungere in modo efficiente il pubblico sul grande schermo, su larga scala. Sfruttando l&#39;unica piattaforma con la possibilità di sincronizzarsi con [!DNL Roku] ID, gli addetti al marketing possono sfruttare il targeting deterministico 1:1 con precisione e precisione, nonché accedere all&#39;inventario [!DNL Roku] e a informazioni di misurazione univoche.
 
 * [**Funzioni basate sull&#39;intelligenza artificiale**](/help/dsp/introduction/features/ai-agents.md): DSP fornisce agenti basati sull&#39;intelligenza artificiale per aiutarti a creare tipi di pubblico riutilizzabili e a trovare istruzioni e best practice per l&#39;utilizzo dei prodotti.
 

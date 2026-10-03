@@ -2,7 +2,13 @@
 title: (Nuova interfaccia) Gestione delle credenziali per gli account di Google Ads Manager
 description: Scopri come impostare e gestire le credenziali per gli account di gestione di Google Ads nella nuova interfaccia utente.
 feature: Search Admin
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 1003789d-7feb-5a2f-a02d-3182fd0ceb8a
+    internal-label: Search Admin
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%

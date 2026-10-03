@@ -3,26 +3,37 @@ title: Visualizza informazioni sulle aste per un'offerta privata
 description: Scopri come utilizzare le informazioni sulle aste per analizzare la composizione dell’offerta privata.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: bbb99f6a-0276-4eb8-9607-75500d5634d9
-TQID: https://experienceleague.adobe.com/KtjLaASMlY0toMM1hvcWchd-D8kJzdvNBwfeGOGyyYE
+TQID: 'https://experienceleague.adobe.com/KtjLaASMlY0toMM1hvcWchd-D8kJzdvNBwfeGOGyyYE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
+  - id: 85825b7c-c02c-536d-b821-66dc33454fb8
+    internal-label: DSP Deal IDs
+  - id: ea1cb503-33dd-595d-833b-f365576083b6
+    internal-label: DSP Programmatic Guaranteed Deals
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
+    internal-label: Deal IDs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 260
+source-wordcount: '262'
 ht-degree: 0%
-
 ---
-
 # Visualizza informazioni sulle aste per un&#39;offerta privata
 
 Auction Insights è uno strumento di risoluzione dei problemi che ti consente di analizzare la composizione delle offerte private garantite e non garantite. Utilizzando le visualizzazioni dati, questo strumento mostra la tendenza e le proporzioni relative dei valori ricevuti per [attributi chiave dell&#39;asta](#auction-attributes) in un periodo di tempo specifico.

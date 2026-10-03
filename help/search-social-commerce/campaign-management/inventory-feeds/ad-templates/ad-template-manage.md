@@ -3,18 +3,21 @@ title: Gestire i modelli di annunci per i feed di inventario
 description: Scopri come gestire i modelli di annunci tramite i quali i dati di inventario possono essere elaborati per gestire la struttura dei conti e distribuire annunci dinamici.
 exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/pHmH477ZgwGePl4cVVwBjBEsrRUdvBY2hJwksuUOUvM
+TQID: 'https://experienceleague.adobe.com/pHmH477ZgwGePl4cVVwBjBEsrRUdvBY2hJwksuUOUvM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1427
+source-wordcount: '1427'
 ht-degree: 0%
-
 ---
-
 # Gestire i modelli di annunci per i feed di inventario
 
 *[!DNL Google Ads], [!DNL LY Ads] (solo azioni di eliminazione), [!DNL Microsoft Advertising] e [!DNL Yandex] account solo*
@@ -41,9 +44,9 @@ Crea modelli separati per annunci di testo e annunci di testo espansi/estesi, an
 
    * Per clonare un modello esistente:
 
-      1. Selezionare la casella di controllo accanto al modello da copiare.
+     1. Selezionare la casella di controllo accanto al modello da copiare.
 
-      1. Nella barra degli strumenti sopra la tabella dati, fare clic su **[!UICONTROL Create/Clone]**, quindi selezionare la rete di annunci applicabile.
+     1. Nella barra degli strumenti sopra la tabella dati, fare clic su **[!UICONTROL Create/Clone]**, quindi selezionare la rete di annunci applicabile.
 
    * Per modificare un modello esistente, fare clic su ![Visualizza/modifica impostazioni](/help/search-social-commerce/assets/settings.png "Visualizza/modifica impostazioni") accanto al nome del modello.
 
@@ -76,43 +79,43 @@ Crea modelli separati per annunci di testo e annunci di testo espansi/estesi, an
 
       * Per aggiungere una variante di annuncio, effettua le seguenti operazioni:
 
-         1. Fare clic su **[!UICONTROL Add Ad Variation]** per creare un annuncio di testo, su **[!UICONTROL Add ETA Variation]** per creare un annuncio di testo espanso/esteso o su **[!UICONTROL Add RSA Variation]** per creare un annuncio di testo reattivo.
+        1. Fare clic su **[!UICONTROL Add Ad Variation]** per creare un annuncio di testo, su **[!UICONTROL Add ETA Variation]** per creare un annuncio di testo espanso/esteso o su **[!UICONTROL Add RSA Variation]** per creare un annuncio di testo reattivo.
 
-            Una volta specificato il tipo di annuncio, è possibile crearlo solo con il modello.
+           Una volta specificato il tipo di annuncio, è possibile crearlo solo con il modello.
 
-         1. Specifica le impostazioni dell’annuncio.
+        1. Specifica le impostazioni dell’annuncio.
 
-            Per gli annunci di ricerca responsive, puoi includere 3-15 titoli e 2-4 descrizioni.
+           Per gli annunci di ricerca responsive, puoi includere 3-15 titoli e 2-4 descrizioni.
 
-         1. (Facoltativo) Per precompilare tutti i campi della copia dell&#39;annuncio alternativi con il testo dei campi della copia dell&#39;annuncio originale, selezionare la casella di controllo accanto a **[!UICONTROL Prefill]**.
+        1. (Facoltativo) Per precompilare tutti i campi della copia dell&#39;annuncio alternativi con il testo dei campi della copia dell&#39;annuncio originale, selezionare la casella di controllo accanto a **[!UICONTROL Prefill]**.
 
-         1. (Facoltativo) Per aggiungere un altro set di copie di annunci a un annuncio, che può essere utilizzato se una delle righe della copia dell&#39;annuncio originale supera la lunghezza massima dopo che i parametri dinamici sono stati sostituiti con i dati durante la propagazione, fare clic su **[!UICONTROL Add Alternate]** e quindi aggiungere i valori alternativi.
+        1. (Facoltativo) Per aggiungere un altro set di copie di annunci a un annuncio, che può essere utilizzato se una delle righe della copia dell&#39;annuncio originale supera la lunghezza massima dopo che i parametri dinamici sono stati sostituiti con i dati durante la propagazione, fare clic su **[!UICONTROL Add Alternate]** e quindi aggiungere i valori alternativi.
 
-            >[!NOTE]
-            >
-            >* Se è selezionata l&#39;opzione [!UICONTROL Prefill], i campi alternativi vengono precompilati con quelli originali e puoi modificarli in base alle esigenze.
-            >* Solo i campi della copia dell’annuncio che superano la lunghezza massima vengono sostituiti con il valore alternativo. Ad esempio, se solo un titolo o titolo originale è troppo lungo, la variante di annuncio generata utilizza il titolo o il titolo alternativo e le descrizioni originali. Assicurati pertanto che la copia dell’annuncio alternativa sia appropriata quando combinata con la copia dell’annuncio originale.
-            >* Se la copia dell’annuncio originale soddisfa i requisiti di lunghezza del motore di ricerca, la copia dell’annuncio alternativa viene eliminata.
-            >* Puoi specificare fino a quattro alternative per ogni campo della copia dell’annuncio.
+           >[!NOTE]
+           >
+           >* Se è selezionata l&#39;opzione [!UICONTROL Prefill], i campi alternativi vengono precompilati con quelli originali e puoi modificarli in base alle esigenze.
+           >* Solo i campi della copia dell’annuncio che superano la lunghezza massima vengono sostituiti con il valore alternativo. Ad esempio, se solo un titolo o titolo originale è troppo lungo, la variante di annuncio generata utilizza il titolo o il titolo alternativo e le descrizioni originali. Assicurati pertanto che la copia dell’annuncio alternativa sia appropriata quando combinata con la copia dell’annuncio originale.
+           >* Se la copia dell’annuncio originale soddisfa i requisiti di lunghezza del motore di ricerca, la copia dell’annuncio alternativa viene eliminata.
+           >* Puoi specificare fino a quattro alternative per ogni campo della copia dell’annuncio.
 
-         * Per modificare una variante di annuncio, effettua le seguenti operazioni:
+        * Per modificare una variante di annuncio, effettua le seguenti operazioni:
 
-            1. Modifica le impostazioni dell’annuncio.
+          1. Modifica le impostazioni dell’annuncio.
 
-               Per gli annunci di ricerca responsive, puoi includere 3-15 titoli e 2-4 descrizioni.
+             Per gli annunci di ricerca responsive, puoi includere 3-15 titoli e 2-4 descrizioni.
 
-            1. (Facoltativo) Per precompilare tutti i campi della copia dell&#39;annuncio alternativi con il testo dei campi della copia dell&#39;annuncio originale, selezionare la casella di controllo accanto a **[!UICONTROL Prefill]**.
+          1. (Facoltativo) Per precompilare tutti i campi della copia dell&#39;annuncio alternativi con il testo dei campi della copia dell&#39;annuncio originale, selezionare la casella di controllo accanto a **[!UICONTROL Prefill]**.
 
-            1. (Facoltativo) Per aggiungere un altro set di copie di annunci a un annuncio, che può essere utilizzato se una delle righe della copia dell&#39;annuncio originale supera la lunghezza massima dopo che i parametri dinamici sono stati sostituiti con i dati durante la propagazione, fare clic su **[!UICONTROL Add Alternate]** e quindi aggiungere i valori alternativi.
+          1. (Facoltativo) Per aggiungere un altro set di copie di annunci a un annuncio, che può essere utilizzato se una delle righe della copia dell&#39;annuncio originale supera la lunghezza massima dopo che i parametri dinamici sono stati sostituiti con i dati durante la propagazione, fare clic su **[!UICONTROL Add Alternate]** e quindi aggiungere i valori alternativi.
 
-               >[!NOTE]
-               >
-               >* Se è selezionata l&#39;opzione [!UICONTROL Prefill], i campi alternativi vengono precompilati con quelli originali e puoi modificarli in base alle esigenze.
-               >* Solo i campi della copia dell’annuncio che superano la lunghezza massima vengono sostituiti con il valore alternativo. Ad esempio, se solo un titolo o titolo originale è troppo lungo, la variante di annuncio generata utilizza il titolo o il titolo alternativo e le descrizioni originali. Assicurati pertanto che la copia dell’annuncio alternativa sia appropriata quando combinata con la copia dell’annuncio originale.
-               >* Se la copia dell’annuncio originale soddisfa i requisiti di lunghezza del motore di ricerca, la copia dell’annuncio alternativa viene eliminata.
-               >* Puoi specificare fino a quattro alternative per ogni campo della copia dell’annuncio.
+             >[!NOTE]
+             >
+             >* Se è selezionata l&#39;opzione [!UICONTROL Prefill], i campi alternativi vengono precompilati con quelli originali e puoi modificarli in base alle esigenze.
+             >* Solo i campi della copia dell’annuncio che superano la lunghezza massima vengono sostituiti con il valore alternativo. Ad esempio, se solo un titolo o titolo originale è troppo lungo, la variante di annuncio generata utilizza il titolo o il titolo alternativo e le descrizioni originali. Assicurati pertanto che la copia dell’annuncio alternativa sia appropriata quando combinata con la copia dell’annuncio originale.
+             >* Se la copia dell’annuncio originale soddisfa i requisiti di lunghezza del motore di ricerca, la copia dell’annuncio alternativa viene eliminata.
+             >* Puoi specificare fino a quattro alternative per ogni campo della copia dell’annuncio.
 
-         * Per rimuovere una variante di annuncio, fai clic su **[!UICONTROL Remove ETA Variation]** (per annunci di testo espansi/estesi) o **[!UICONTROL Remove RSA Variation]** (per annunci di ricerca responsive) accanto alla variante dell&#39;annuncio, a seconda dei casi.
+        * Per rimuovere una variante di annuncio, fai clic su **[!UICONTROL Remove ETA Variation]** (per annunci di testo espansi/estesi) o **[!UICONTROL Remove RSA Variation]** (per annunci di ricerca responsive) accanto alla variante dell&#39;annuncio, a seconda dei casi.
 
    1. (Solo modelli di acquisto) Fare clic sulla scheda **[!UICONTROL Product Groups]** e quindi specificare le informazioni sui gruppi di prodotti di destinazione.
 

@@ -3,23 +3,34 @@ title: Colonne di report per report di base e avanzati
 description: Scopri le colonne di dati disponibili per i rapporti di base e avanzati.
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-TQID: https://experienceleague.adobe.com/6of-gBWNiXgwOxOoDFJ-idyaSFeP7wEi7GBfAoRxgyU
+TQID: 'https://experienceleague.adobe.com/6of-gBWNiXgwOxOoDFJ-idyaSFeP7wEi7GBfAoRxgyU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
+  - id: c51771d4-46e9-5151-913c-59d4e047a4f1
+    internal-label: Search Advanced Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 41a9add10a9d12e8452d18825fd732720b27243f
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 3847
+source-wordcount: '3878'
 ht-degree: 0%
-
 ---
-
 # Colonne di report per report di base e avanzati
 
 | Colonna | Descrizione |
@@ -172,7 +183,7 @@ ht-degree: 0%
 | [!UICONTROL Product Group Status] | Stato del gruppo di prodotti. |
 | [!UICONTROL Product Groupings] | Il gruppo di prodotti principale. |
 | [!UICONTROL Product ID] | ([!UICONTROL Keyword Report]; [!DNL Google Ads] annunci elenco prodotti) L&#39;ID prodotto del prodotto visualizzato con l&#39;annuncio.<br><br><b>Nota:</b> L&#39;ID viene acquisito solo quando l&#39;elenco prodotti include il parametro di tracciamento `ev_plx=<GMC product ID>`, che è necessario aggiungere entro [!DNL Google Merchant Center]. |
-| [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report]) Ricavi per la metrica di conversione (ad esempio 1 per una registrazione o 12 per un ordine di 12 USD). Se più unità di offerta hanno lo stesso ID transazione, i ricavi per l’ID di tracciamento vengono suddivisi in base al numero di clic nella data di clic specificata (quando sono disponibili i dati di clic). |
+| [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report]) Ricavi per la metrica di conversione (ad esempio 1 per una registrazione o 12 per un ordine USD a 12). Se più unità di offerta hanno lo stesso ID transazione, i ricavi per l’ID di tracciamento vengono suddivisi in base al numero di clic nella data di clic specificata (quando sono disponibili i dati di clic). |
 | [!UICONTROL Reach] | ([!DNL Meta] solo campagne) Il numero di persone che hanno visto i tuoi annunci almeno una volta. Nota: [!DNL Meta] deduplica la portata dei profili utente ogni giorno, pertanto i numeri riportati da [!DNL Meta] e da Search, Social e Commerce possono differire. |
 | [!UICONTROL Region] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]) Una regione o uno stato USA/Canada per il quale si sono generati impression o clic. Viene determinato dall’indirizzo IP dell’utente. |
 | [!UICONTROL SE Creative ID] | ID dell’annuncio assegnato dalla rete. |

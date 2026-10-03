@@ -3,18 +3,21 @@ title: Informazioni sui formati degli URL di tracciamento dei clic per il serviz
 description: Scopri i formati di tracciamento dei clic per le reti di annunci supportate.
 exl-id: b6f225d5-2268-4b2a-9927-063155ba0dc5
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/pVSEKmf45CqsfXMbj8HGDltdgV3wUV2UsAzP94vkijg
+TQID: 'https://experienceleague.adobe.com/pVSEKmf45CqsfXMbj8HGDltdgV3wUV2UsAzP94vkijg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 274
+source-wordcount: '274'
 ht-degree: 0%
-
 ---
-
 # Informazioni sui formati degli URL di tracciamento dei clic per il servizio di tracciamento delle conversioni di Adobe Advertising
 
 I modelli di tracciamento, i suffissi della pagina di destinazione (suffissi URL finali) e gli URL di destinazione per gli account degli annunci e le campagne che utilizzano il servizio di tracciamento delle conversioni di Adobe Advertising hanno il seguente formato:
@@ -29,9 +32,9 @@ dove:
 
 * `<token passing parameter>` è una variabile per uno dei seguenti elementi:
 
-   * `cq?` o `rq` indica che il passaggio del token è abilitato.
+  * `cq?` o `rq` indica che il passaggio del token è abilitato.
 
-   * `c?` o `r` indica che il passaggio del token è disabilitato.
+  * `c?` o `r` indica che il passaggio del token è disabilitato.
 
 * `<ad network ID>` è una variabile per l&#39;ID numerico per la rete di annunci specificata, ad esempio *3* per [!DNL Google Ads], *10* per [!DNL Microsoft Advertising], *45* per [!DNL Meta], *86* per [!DNL Yahoo DSP], *87* per [!DNL Naver], *88* per [!DNL Baidu], *90* per [!DNL Yandex], *94* per [!DNL LY Ads] (in precedenza [!DNL Yahoo! Japan Ads]), *105* per [!DNL Yahoo Native] (obsoleto) o *106* per [!DNL Pinterest] (obsoleto).
 

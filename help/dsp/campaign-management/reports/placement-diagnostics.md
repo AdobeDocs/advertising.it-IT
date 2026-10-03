@@ -3,22 +3,26 @@ title: Visualizza il report di posizionamento [!UICONTROL Diagnostics]
 description: Scopri come diagnosticare i problemi relativi alla configurazione e alla velocità del posizionamento.
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-TQID: https://experienceleague.adobe.com/aRELxvUfrIZVu7-qzxO8QfrlMGNP17YJk0ru04oRFQQ
+TQID: 'https://experienceleague.adobe.com/aRELxvUfrIZVu7-qzxO8QfrlMGNP17YJk0ru04oRFQQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 306
+source-wordcount: '306'
 ht-degree: 0%
-
 ---
-
 # Visualizza il report di posizionamento [!UICONTROL Diagnostics]
 
 <!-- Does this really belong in the Campaign Management > Reports section or in the Placements section? -->
@@ -51,31 +55,31 @@ I rapporti di diagnostica possono essere utili per diagnosticare i problemi rela
 
    * Per visualizzare il registro delle modifiche:
 
-      1. Fare clic su **[!UICONTROL Change Log]**.
+     1. Fare clic su **[!UICONTROL Change Log]**.
 
-      1. (Facoltativo) Filtra i risultati del rapporto:
+     1. (Facoltativo) Filtra i risultati del rapporto:
 
-         * Nel menu data modificare il periodo del report da Ultimi 14 giorni predefinito a un altro periodo (*[!UICONTROL Last 30 days],* *[!UICONTROL Last 60 days],* *[!UICONTROL Last 90 days],* o *[!UICONTROL Last 1 year]*).
+        * Nel menu data modificare il periodo del report da Ultimi 14 giorni predefinito a un altro periodo (*[!UICONTROL Last 30 days],* *[!UICONTROL Last 60 days],* *[!UICONTROL Last 90 days],* o *[!UICONTROL Last 1 year]*).
 
-         * Nel menu a sinistra, filtra il rapporto in base a un nome utente specifico.
+        * Nel menu a sinistra, filtra il rapporto in base a un nome utente specifico.
 
-         * Nel menu a destra, filtra il rapporto in base a un’impostazione di posizionamento specifica.
+        * Nel menu a destra, filtra il rapporto in base a un’impostazione di posizionamento specifica.
 
    * Per visualizzare lo stato delle approvazioni di annunci:
 
-      1. In alto a destra, fare clic su **[!UICONTROL Ad Approvals]**.
+     1. In alto a destra, fare clic su **[!UICONTROL Ad Approvals]**.
 
-      1. (Facoltativo) Per mettere in pausa o attivare l&#39;annuncio, fare clic sull&#39;opzione di stato (![Opzione di stato](/help/dsp/assets/status-switch.png)) nella colonna Annuncio.
+     1. (Facoltativo) Per mettere in pausa o attivare l&#39;annuncio, fare clic sull&#39;opzione di stato (![Opzione di stato](/help/dsp/assets/status-switch.png)) nella colonna Annuncio.
 
-      1. (Facoltativo) Per aprire le impostazioni di un annuncio, fare clic su **[!UICONTROL View Ad]** accanto all&#39;annuncio.
+     1. (Facoltativo) Per aprire le impostazioni di un annuncio, fare clic su **[!UICONTROL View Ad]** accanto all&#39;annuncio.
 
    * Per capire perché DSP non ha fatto un&#39;offerta per il posizionamento:
 
-      1. In alto a destra, fare clic su **[!UICONTROL Non Bids]**.
+     1. In alto a destra, fare clic su **[!UICONTROL Non Bids]**.
 
-      1. (Facoltativo) Per filtrare il posizionamento in base a un target di offerta privato specifico, seleziona l’offerta. <!-- Admin users only: Optionally filter the deal by one or more regions ([!UICONTROL US-EAST], [!UICONTROL US-WEST]) [!UICONTROL EU-WEST], [!UICONTROL HKG]) by selecting the regions. -->
+     1. (Facoltativo) Per filtrare il posizionamento in base a un target di offerta privato specifico, seleziona l’offerta. <!-- Admin users only: Optionally filter the deal by one or more regions ([!UICONTROL US-EAST], [!UICONTROL US-WEST]) [!UICONTROL EU-WEST], [!UICONTROL HKG]) by selecting the regions. -->
 
-      1. (Facoltativo) Per modificare l’intervallo di date, fai clic nel campo data e seleziona una data o un intervallo di date diverso.
+     1. (Facoltativo) Per modificare l’intervallo di date, fai clic nel campo data e seleziona una data o un intervallo di date diverso.
 
 <!-- Later, add link to >* Definitions for NBRs (Reading No Bid Reports (NBRs)) -->
 

@@ -2,13 +2,17 @@
 title: (Nuova interfaccia) Visualizzare i registri della cronologia delle modifiche
 description: Scopri come visualizzare le modifiche recenti apportate all’account dell’inserzionista.
 feature: Search Reports
-source-git-commit: b68aac34cd7e10fcceceb622b5365cb0ecec040d
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 0%
-
 ---
-
 # (Nuova interfaccia) Visualizzare i registri della cronologia delle modifiche
 
 Il report [!UICONTROL History Logs] include un registro delle modifiche apportate all&#39;account dell&#39;inserzionista negli ultimi 31 giorni. Il rapporto può includere modifiche ai seguenti tipi di oggetti: utenti (inserzionisti), portfolio, campagne, gruppi di annunci, annunci, parole chiave, posizionamenti e target di prodotto. Puoi ordinare e filtrare i dati in base a qualsiasi colonna.

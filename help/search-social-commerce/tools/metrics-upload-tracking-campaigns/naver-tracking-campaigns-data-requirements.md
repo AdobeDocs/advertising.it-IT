@@ -1,20 +1,23 @@
 ---
-title: Requisiti dei dati per le metriche di traffico e conversione per  [!DNL Naver] account di solo tracciamento
-description: Fai riferimento ai requisiti di caricamento dei dati per  [!DNL Naver] account di solo tracciamento.
+title: Requisiti dei dati per le metriche di traffico e conversione per gli account di solo tracciamento [!DNL Naver]
+description: Fare riferimento ai requisiti di caricamento dati per gli account di sola registrazione [!DNL Naver].
 exl-id: cc8ee5de-2bf2-48fd-9fa7-28421aed673f
 feature: Search Tools
-TQID: https://experienceleague.adobe.com/e4n2ab469CRIiEmqq5wd97pXSQZ9Dt-tehqJSp125GU
+TQID: 'https://experienceleague.adobe.com/e4n2ab469CRIiEmqq5wd97pXSQZ9Dt-tehqJSp125GU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 230
+source-wordcount: '232'
 ht-degree: 0%
-
 ---
-
 # Requisiti dei dati delle metriche per [!DNL Naver] account di solo tracciamento
 
 Di seguito sono riportati i requisiti di dati per le metriche di traffico e conversione [!DNL Naver] per gli account di solo tracciamento.

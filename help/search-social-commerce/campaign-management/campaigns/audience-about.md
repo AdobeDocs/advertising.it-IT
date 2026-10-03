@@ -1,22 +1,25 @@
 ---
 title: Informazioni sui tipi di pubblico
-description: Scopri le opzioni per tenere traccia, creare e gestire [!DNL Google Ads] e [!DNL Microsoft Advertising] i tipi di pubblico.
+description: Scopri le opzioni per tenere traccia, creare e gestire i tipi di pubblico [!DNL Google Ads] e [!DNL Microsoft Advertising].
 exl-id: f85cbc82-ddbc-4ecd-a17b-b4cb4808cfbc
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/B77S28vEpSkrgNmhc-Ekn7PXh3W-y2g9et2y3gCQPK8
+TQID: 'https://experienceleague.adobe.com/B77S28vEpSkrgNmhc-Ekn7PXh3W-y2g9et2y3gCQPK8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 545
+source-wordcount: '547'
 ht-degree: 0%
-
 ---
-
 # Informazioni sulla gestione dei tipi di pubblico [!DNL Google Ads] e [!DNL Microsoft Advertising] in Search, Social e Commerce
 
 Solo *[!DNL Google Ads]e [!DNL Microsoft Advertising]*
@@ -27,9 +30,9 @@ Puoi anche creare e gestire i tipi di pubblico utilizzando segmenti o elenchi e-
 
 * **Segmenti di pubblico di Adobe:** Gli inserzionisti con account Adobe Audience Manager o Adobe Analytics che hanno prestato il consenso possono creare [!DNL Google Ads] tipi di pubblico con corrispondenza cliente dai loro [!DNL Adobe] segmenti:
 
-   * (Inserzionisti con account [!DNL Analytics] che non dispongono di Audience Manager) Puoi creare [!DNL Google Ads] tipi di pubblico in base ai clienti utilizzando gli ID utente di [!DNL Analytics] segmenti condivisi con Adobe CX Enterprise.
+  * (Inserzionisti con account [!DNL Analytics] che non dispongono di Audience Manager) Puoi creare [!DNL Google Ads] tipi di pubblico in base ai clienti utilizzando gli ID utente di [!DNL Analytics] segmenti condivisi con Adobe CX Enterprise.
 
-   * (Inserzionisti con account Audience Manager) Puoi creare [!DNL Google Ads] tipi di pubblico in base ai clienti, utilizzando gli ID utente dei segmenti di Audience Manager con Search, Social e Commerce come destinazione. Possono essere inclusi i segmenti di Adobe Analytics pubblicati in Adobe CX Enterprise e i segmenti creati utilizzando la Libreria tipi di pubblico di Adobe CX Enterprise.
+  * (Inserzionisti con account Audience Manager) Puoi creare [!DNL Google Ads] tipi di pubblico in base ai clienti, utilizzando gli ID utente dei segmenti di Audience Manager con Search, Social e Commerce come destinazione. Possono essere inclusi i segmenti di Adobe Analytics pubblicati in Adobe CX Enterprise e i segmenti creati utilizzando la Libreria tipi di pubblico di Adobe CX Enterprise.
 
   Per creare tipi di pubblico in base ai clienti, l&#39;account [!DNL Google Ads] dell&#39;inserzionista deve essere [idoneo per la corrispondenza personalizzata](https://support.google.com/adspolicy/answer/6299717) e ha acconsentito a [segmenti ID utente](https://support.google.com/google-ads/answer/9199250). Inoltre, l’account dell’inserzionista in Search, Social e Commerce deve essere configurato per consentire la creazione di tipi di pubblico in base ai clienti.
 

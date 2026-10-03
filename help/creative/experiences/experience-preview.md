@@ -3,21 +3,29 @@ title: Visualizzare l’anteprima di un’esperienza
 description: Scopri come visualizzare in anteprima i creativi in un’esperienza di annuncio.
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-TQID: https://experienceleague.adobe.com/E8rpr53zbyr6XCVokT1b5OprM1jwdrFhQL5oBsonZQI
+TQID: 'https://experienceleague.adobe.com/E8rpr53zbyr6XCVokT1b5OprM1jwdrFhQL5oBsonZQI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 554
+source-wordcount: '552'
 ht-degree: 0%
-
 ---
-
 # Visualizzare l’anteprima di un’esperienza
 
 Puoi visualizzare in anteprima i creativi con una dimensione di annuncio specifica che verrà visualizzata dagli utenti target per un’esperienza, inclusi tutti i collegamenti ipertestuali. Per le esperienze con il targeting dell’albero decisionale, puoi visualizzare in anteprima un singolo creativo, i creativi di un particolare ramo (tipo di target) o tutti i creativi nell’esperienza. Per le esperienze senza targeting della struttura decisionale, puoi visualizzare in anteprima un singolo contenuto creativo. <!-- verify -->
@@ -26,11 +34,11 @@ Puoi visualizzare in anteprima i creativi con una dimensione di annuncio specifi
 
 * Quando visualizzi l’anteprima di un singolo contenuto creativo e di più contenuti creativi che soddisfano i criteri, il contenuto creativo visualizzato ogni volta che aggiorni l’anteprima si basa sulle impostazioni di rotazione degli annunci per l’esperienza:
 
-   * Per la rotazione degli annunci algoritmici, il contenuto creativo viene selezionato in base all’obiettivo di ottimizzazione.
+  * Per la rotazione degli annunci algoritmici, il contenuto creativo viene selezionato in base all’obiettivo di ottimizzazione.
 
-   * Per la rotazione pianificata degli annunci, viene visualizzata la prima creatività della pianificazione. Puoi continuare ad aggiornare l’anteprima per continuare attraverso la sequenza.
+  * Per la rotazione pianificata degli annunci, viene visualizzata la prima creatività della pianificazione. Puoi continuare ad aggiornare l’anteprima per continuare attraverso la sequenza.
 
-   * Per la rotazione ponderata degli annunci, il contenuto creativo viene selezionato ogni volta in base ai pesi specificati (ad esempio, una probabilità dell’80% che venga visualizzato Creative A e del 20% che venga visualizzato Creative B).
+  * Per la rotazione ponderata degli annunci, il contenuto creativo viene selezionato ogni volta in base ai pesi specificati (ad esempio, una probabilità dell’80% che venga visualizzato Creative A e del 20% che venga visualizzato Creative B).
 
 ## Visualizzare in anteprima i creativi in un’esperienza con il targeting dell’albero decisionale
 
@@ -48,24 +56,24 @@ Puoi visualizzare in anteprima i creativi con una dimensione di annuncio specifi
 
    * Per visualizzare in anteprima un singolo contenuto creativo:
 
-      1. Fare clic su **[!UICONTROL Creative]**.
+     1. Fare clic su **[!UICONTROL Creative]**.
 
-      1. Seleziona la dimensione dell’annuncio.
+     1. Seleziona la dimensione dell’annuncio.
 
-      1. Nella sezione [!UICONTROL Decision Tree Targeting], seleziona la destinazione creativa.
+     1. Nella sezione [!UICONTROL Decision Tree Targeting], seleziona la destinazione creativa.
 
    * Per visualizzare in anteprima i creativi di un ramo specifico:
 
-      1. Fare clic su **[!UICONTROL Particular branch]**.
+     1. Fare clic su **[!UICONTROL Particular branch]**.
 
-      1. Seleziona la dimensione dell’annuncio.
+     1. Seleziona la dimensione dell’annuncio.
 
      <!--
       I don't see this as of 2/3:
      1. Select whether to group the creatives by Rotation Type or Ad Size.
      -->
 
-      1. Seleziona il target creativo.
+     1. Seleziona il target creativo.
 
    * Per visualizzare in anteprima tutti i creativi dell&#39;esperienza, fare clic su **[!UICONTROL Entire Tree]**.
 

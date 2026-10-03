@@ -1,22 +1,26 @@
 ---
-title: Dati bulksheet richiesti per  [!DNL Microsoft Advertising]  account
-description: Fai riferimento ai campi di intestazione e ai campi dati obbligatori nei bulksheet per  [!DNL Microsoft Advertising]  account.
+title: Dati bulksheet richiesti per [!DNL Microsoft Advertising] account
+description: Fare riferimento ai campi intestazione e ai campi dati obbligatori nei bulksheet per gli account [!DNL Microsoft Advertising].
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/sPku0vJW3srDbrbXy3CNjRIlgbTcRIQCU-F7yH8pr6E
+TQID: 'https://experienceleague.adobe.com/sPku0vJW3srDbrbXy3CNjRIlgbTcRIQCU-F7yH8pr6E'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 7024
-ht-degree: 0%
-
+source-wordcount: '7150'
+ht-degree: 1%
 ---
-
 # Appendice - Dati bulksheet richiesti per i conti [!DNL Microsoft Advertising]
 
 Per creare e aggiornare in blocco i dati della campagna [!DNL Microsoft Advertising], è possibile utilizzare i file di bulksheet di Search, Social e Commerce formattati specificamente per gli account [!DNL Microsoft Advertising]. È possibile: a) [generare file di fogli collettivi per gli account esistenti](../bulksheet-download.md) nel formato di file richiesto oppure b) crearli manualmente (vedere &quot;[Formati di file di fogli collettivi supportati](bulksheet-file-formats.md)&quot; per informazioni generali sui formati di file supportati).
@@ -88,7 +92,7 @@ Per i campi dati relativi alle entità account, vedere &quot;[Campi necessari pe
 | [!UICONTROL Languages] | Lingua di destinazione per gli annunci nel gruppo di annunci: [!UICONTROL English], [!UICONTROL French], [!UICONTROL Finnish], [!UICONTROL German], [!UICONTROL Norwegian], [!UICONTROL Spanish] o [!UICONTROL Swedish]. L&#39;impostazione predefinita per le nuove campagne è [!UICONTROL English].<br><br>Questa impostazione determina i paesi e le aree in cui l&#39;annuncio può essere visualizzato. Assicurati di scegliere una lingua compatibile con i target di posizione della campagna. |
 | [!UICONTROL Budget Type] | Se il budget è <i>[!UICONTROL Daily]</i> (il valore predefinito) o <i>[!UICONTROL Monthly]</i>.<br><br>Nota: se assegni la campagna a un portfolio ottimizzato, questo valore viene impostato automaticamente su [!UICONTROL Daily]. |
 | [!UICONTROL Device] | Tipo di dispositivo per il quale vengono apportate regolazioni delle offerte a livello di campagna o di gruppo di annunci: <i>[!UICONTROL smartphone]</i>, <i>[!UICONTROL tablet]</i> o <i>[!UICONTROL desktop]</i>. |
-| [!UICONTROL Bid Adjustment] | Rettifica offerta per un tipo di destinazione specificato. Ad esempio, se l’offerta a livello di parola chiave è 1 USD e la regolazione dell’offerta per gli smartphone è del 50%, l’offerta per lo smartphone è di 1,50 USD. Per impostazione predefinita, tutte le destinazioni sono offerte a livello di parola chiave. Le percentuali valide possono includere:<ul><li>Smartphone e tablet: -100 (per non fare offerte per il tipo di dispositivo) e da -90 a 900</li><li>Desktop: da 0 a 900</li></ul> |
+| [!UICONTROL Bid Adjustment] | Rettifica offerta per un tipo di destinazione specificato. Ad esempio, se l’offerta a livello di parola chiave è 1 USD e la regolazione dell’offerta per gli smartphone è del 50%, l’offerta per lo smartphone è 1,50 USD. Per impostazione predefinita, tutte le destinazioni sono offerte a livello di parola chiave. Le percentuali valide possono includere:<ul><li>Smartphone e tablet: -100 (per non fare offerte per il tipo di dispositivo) e da -90 a 900</li><li>Desktop: da 0 a 900</li></ul> |
 | [!UICONTROL Creative Preferred Devices] | Tipi di dispositivi su cui si preferisce visualizzare l&#39;annuncio o il sitelink: <i>[!UICONTROL All]</i> (impostazione predefinita) o <i>[!UICONTROL Mobile]</i>. Quando si specifica Mobile, la rete tenta di visualizzare l’annuncio o il sitelink agli utenti dei dispositivi mobili anziché agli utenti del desktop o del tablet. In caso contrario, la rete visualizza l&#39;annuncio o il sitelink su qualsiasi tipo di dispositivo. <b>Nota:</b> la rete non garantisce che l&#39;annuncio verrà visualizzato sul tipo di dispositivo preferito. |
 | [!UICONTROL Param2] | Stringa da utilizzare come valore di sostituzione se l&#39;URL di base della parola chiave o il titolo, la descrizione o l&#39;URL di base dell&#39;annuncio contiene la stringa di sostituzione dinamica `{Param2}`. La lunghezza massima è di 70 caratteri, ma tieni presente la lunghezza massima degli elementi dell’annuncio in cui lo utilizzi (ad esempio, il titolo 1 e il titolo 2 combinati possono contenere un massimo di 76 caratteri). Per eliminare il valore esistente, utilizzare il valore `[delete]` (comprese le parentesi). |
 | [!UICONTROL Param3] | Stringa da utilizzare come valore di sostituzione se l&#39;URL di base della parola chiave o il titolo, la descrizione o l&#39;URL di base dell&#39;annuncio contiene la stringa di sostituzione dinamica `{Param3}`. La lunghezza massima è di 70 caratteri, ma tieni presente la lunghezza massima degli elementi dell’annuncio in cui lo utilizzi (ad esempio, il titolo 1 e il titolo 2 combinati possono contenere un massimo di 76 caratteri). Per eliminare il valore esistente, utilizzare il valore `[delete]` (comprese le parentesi). |

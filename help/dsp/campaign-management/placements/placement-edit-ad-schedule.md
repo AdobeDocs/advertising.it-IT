@@ -3,22 +3,26 @@ title: Modificare le pianificazioni degli annunci per i posizionamenti
 description: Scopri come modificare le pianificazioni degli annunci per gli annunci allegati ai posizionamenti.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-TQID: https://experienceleague.adobe.com/-5TLojZnwpnYonGlRARUUljuNMd2ZDGpnU9u1jzsHyw
+TQID: 'https://experienceleague.adobe.com/-5TLojZnwpnYonGlRARUUljuNMd2ZDGpnU9u1jzsHyw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 442
+source-wordcount: '444'
 ht-degree: 0%
-
 ---
-
 # Modificare le pianificazioni degli annunci per i posizionamenti
 
 ## Modificare le pianificazioni di uno o più posizionamenti
@@ -45,9 +49,9 @@ ht-degree: 0%
 
    * **[!UICONTROL Flight N Weight]** (ad esempio [!UICONTROL Flight 1 Weight]): come ruotare gli annunci per un volo. Immetti un valore:
 
-      * Per ruotare gli annunci di un volo in modo uniforme, immettere `[!UICONTROL Even]`.
+     * Per ruotare gli annunci di un volo in modo uniforme, immettere `[!UICONTROL Even]`.
 
-      * Per ruotare gli annunci di un volo in modo non uniforme, immettere il peso relativo in base al quale ruotare ogni annuncio, come percentuale (ad esempio `40` per il 40%). Il peso totale del volo deve essere pari a 100.
+     * Per ruotare gli annunci di un volo in modo non uniforme, immettere il peso relativo in base al quale ruotare ogni annuncio, come percentuale (ad esempio `40` per il 40%). Il peso totale del volo deve essere pari a 100.
 
 1. Carica il modello di pianificazione modificato:
 
@@ -77,9 +81,9 @@ Puoi modificare le date dei voli programmati e la rotazione degli annunci per gl
 
    * Per rimuovere un volo esistente da un annuncio, fare clic su **[!UICONTROL x]** nella riga annuncio per la colonna volo.
 
-      * (Quando più annunci hanno lo stesso volo) Per ruotare gli annunci in modo non uniforme, fare clic su **[!UICONTROL Even Rotation]** nelle informazioni sul volo, quindi immettere il peso relativo in base al quale ruotare ogni annuncio, come percentuale.
+     * (Quando più annunci hanno lo stesso volo) Per ruotare gli annunci in modo non uniforme, fare clic su **[!UICONTROL Even Rotation]** nelle informazioni sul volo, quindi immettere il peso relativo in base al quale ruotare ogni annuncio, come percentuale.
 
-        Il peso totale deve essere uguale a 100.
+       Il peso totale deve essere uguale a 100.
 
 1. In alto a destra, fare clic su **[!UICONTROL Continue]**.
 

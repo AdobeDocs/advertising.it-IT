@@ -3,20 +3,24 @@ title: Gestire i file di feed dati di inventario
 description: Scopri come configurare le impostazioni che controllano la modalità di elaborazione dei dati dei feed.
 exl-id: 7d19ecc0-c939-4996-b22b-970ce8644b09
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/xXcdqry6-ef6Hj0DykJ0pZI6YWFyyVd8vJD0IZLw7Jc
+TQID: 'https://experienceleague.adobe.com/xXcdqry6-ef6Hj0DykJ0pZI6YWFyyVd8vJD0IZLw7Jc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: Taxonomy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1249
+source-wordcount: '1249'
 ht-degree: 0%
-
 ---
-
 # Gestire i file di feed dati di inventario
 
 *[!DNL Google Ads], [!DNL LY Ads] (solo azioni di eliminazione), [!DNL Microsoft Advertising] e [!DNL Yandex] account solo*
@@ -75,15 +79,15 @@ shoes<TAB>Clarks<TAB>20
 
 * Per ottenere un processo ripetibile con revisione o modifica manuale limitata, imposta i file di feed e i relativi dati della struttura dell’account come segue:
 
-   * Includi colonne e righe contenenti dati sufficienti per creare una struttura di conto o eseguire il mapping alla struttura di conto esistente. Idealmente, utilizza una struttura dei conti esistente che sia strettamente legata alla tassonomia dei prodotti e alla quale i dati dei feed possano essere facilmente mappati.
+  * Includi colonne e righe contenenti dati sufficienti per creare una struttura di conto o eseguire il mapping alla struttura di conto esistente. Idealmente, utilizza una struttura dei conti esistente che sia strettamente legata alla tassonomia dei prodotti e alla quale i dati dei feed possano essere facilmente mappati.
 
-   * Includi descrizioni sufficientemente brevi da poter essere utilizzate nella copia dell’annuncio.
+  * Includi descrizioni sufficientemente brevi da poter essere utilizzate nella copia dell’annuncio.
 
-   * Utilizza pattern di dati e convenzioni di denominazione coerenti tra le righe di prodotto.
+  * Utilizza pattern di dati e convenzioni di denominazione coerenti tra le righe di prodotto.
 
-   * Rimuovere tutti gli spazi precedenti e finali.
+  * Rimuovere tutti gli spazi precedenti e finali.
 
-   * Rimuovi eventuali caratteri illeggibili.
+  * Rimuovi eventuali caratteri illeggibili.
 
 ## Visualizzare o scaricare un file di feed
 

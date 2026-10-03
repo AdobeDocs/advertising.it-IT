@@ -4,19 +4,23 @@ description: Scopri come creare e gestire gli elenchi di codici postali per il t
 feature: DSP Placements
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 405
+source-wordcount: '405'
 ht-degree: 0%
-
 ---
-
 # Gestire gli elenchi di codici postali
 
 Puoi creare e gestire elenchi di codici postali per singoli paesi per il targeting del posizionamento. Includi o escludi elenchi di codici postali specifici nelle impostazioni di posizionamento.
@@ -43,33 +47,33 @@ Puoi creare e gestire elenchi di codici postali per singoli paesi per il targeti
 
    * Per inserire o incollare manualmente i codici postali da aggiungere:
 
-      1. Fare clic su **[!UICONTROL Add Postal Codes]**.
+     1. Fare clic su **[!UICONTROL Add Postal Codes]**.
 
-      1. Inserisci o incolla fino a 25.000 codici postali, ciascuno su una riga separata.
+     1. Inserisci o incolla fino a 25.000 codici postali, ciascuno su una riga separata.
 
-      1. Fare clic su **[!UICONTROL Validate]** per verificare se i codici postali sono validi.
+     1. Fare clic su **[!UICONTROL Validate]** per verificare se i codici postali sono validi.
 
-         Eventuali codici postali non validi sono identificati in [!UICONTROL Validation Results]. Se si continua, verranno aggiunti solo codici postali validi.
+        Eventuali codici postali non validi sono identificati in [!UICONTROL Validation Results]. Se si continua, verranno aggiunti solo codici postali validi.
 
-         * Per scaricare eventuali codici postali non validi in un formato XLSX ([!DNL Microsoft Excel] foglio di calcolo), fare clic su **[!UICONTROL Download invalid codes]**. Il file viene scaricato in base alla normale procedura del browser.
+        * Per scaricare eventuali codici postali non validi in un formato XLSX ([!DNL Microsoft Excel] foglio di calcolo), fare clic su **[!UICONTROL Download invalid codes]**. Il file viene scaricato in base alla normale procedura del browser.
 
-      1. Fare clic su **[!UICONTROL Add to list]**.
+     1. Fare clic su **[!UICONTROL Add to list]**.
 
    * Per rimuovere codici postali specifici, effettuare una delle seguenti operazioni:
 
-      * Per selezionare i codici postali da rimuovere:
+     * Per selezionare i codici postali da rimuovere:
 
-         1. Selezionare la casella di controllo accanto a ogni codice postale da rimuovere dall&#39;elenco.
+       1. Selezionare la casella di controllo accanto a ogni codice postale da rimuovere dall&#39;elenco.
 
-         1. Fare clic su **[!UICONTROL Remove]**.
+       1. Fare clic su **[!UICONTROL Remove]**.
 
-         1. Nel messaggio di conferma, fare clic su **[!UICONTROL Remove]**.
+       1. Nel messaggio di conferma, fare clic su **[!UICONTROL Remove]**.
 
-      * Per rimuovere tutto il codice postale:
+     * Per rimuovere tutto il codice postale:
 
-         1. Fare clic su **[!UICONTROL Remove All]**.
+       1. Fare clic su **[!UICONTROL Remove All]**.
 
-         1. Nel messaggio di conferma, fare clic su **[!UICONTROL Remove All]**.
+       1. Nel messaggio di conferma, fare clic su **[!UICONTROL Remove All]**.
 
 ## Modificare un elenco di codici postali
 
@@ -81,33 +85,33 @@ Puoi creare e gestire elenchi di codici postali per singoli paesi per il targeti
 
    * Per inserire o incollare manualmente i codici postali da aggiungere:
 
-      1. Fare clic su **[!UICONTROL Add Postal Codes]**.
+     1. Fare clic su **[!UICONTROL Add Postal Codes]**.
 
-      1. Inserisci o incolla fino a 25.000 codici postali, ciascuno su una riga separata.
+     1. Inserisci o incolla fino a 25.000 codici postali, ciascuno su una riga separata.
 
-      1. Fare clic su **[!UICONTROL Validate]** per verificare se i codici postali sono validi.
+     1. Fare clic su **[!UICONTROL Validate]** per verificare se i codici postali sono validi.
 
-         Eventuali codici postali non validi sono identificati in [!UICONTROL Validation Results]. Se si continua, verranno aggiunti solo codici postali validi.
+        Eventuali codici postali non validi sono identificati in [!UICONTROL Validation Results]. Se si continua, verranno aggiunti solo codici postali validi.
 
-         * Per scaricare eventuali codici postali non validi in un formato XLSX ([!DNL Microsoft Excel] foglio di calcolo), fare clic su **[!UICONTROL Download invalid codes]**. Il file viene scaricato in base alla normale procedura del browser.
+        * Per scaricare eventuali codici postali non validi in un formato XLSX ([!DNL Microsoft Excel] foglio di calcolo), fare clic su **[!UICONTROL Download invalid codes]**. Il file viene scaricato in base alla normale procedura del browser.
 
-      1. Fare clic su **[!UICONTROL Add to list]**.
+     1. Fare clic su **[!UICONTROL Add to list]**.
 
    * Per rimuovere codici postali specifici, effettuare una delle seguenti operazioni:
 
-      * Per selezionare i codici postali da rimuovere:
+     * Per selezionare i codici postali da rimuovere:
 
-         1. Selezionare la casella di controllo accanto a ogni codice postale da rimuovere dall&#39;elenco.
+       1. Selezionare la casella di controllo accanto a ogni codice postale da rimuovere dall&#39;elenco.
 
-         1. Fare clic su **[!UICONTROL Remove]**.
+       1. Fare clic su **[!UICONTROL Remove]**.
 
-         1. Nel messaggio di conferma, fare clic su **[!UICONTROL Remove]**.
+       1. Nel messaggio di conferma, fare clic su **[!UICONTROL Remove]**.
 
-      * Per rimuovere tutto il codice postale:
+     * Per rimuovere tutto il codice postale:
 
-         1. Fare clic su **[!UICONTROL Remove All]**.
+       1. Fare clic su **[!UICONTROL Remove All]**.
 
-         1. Nel messaggio di conferma, fare clic su **[!UICONTROL Remove All]**.
+       1. Nel messaggio di conferma, fare clic su **[!UICONTROL Remove All]**.
 
 ## Esportare un elenco di codici postali
 

@@ -3,26 +3,37 @@ title: Panoramica dell’integrazione tra Adobe Advertising e Adobe Customer Jou
 description: Scopri le opzioni di integrazione di Adobe Advertising con Adobe Customer Journey Analytics.
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 57636259-f91a-404f-b972-994af67098b1
-TQID: https://experienceleague.adobe.com/nxn5AcKCc-xm-k5LXOcKIquNKyoXbt3soR5nhQR0w-E
+TQID: 'https://experienceleague.adobe.com/nxn5AcKCc-xm-k5LXOcKIquNKyoXbt3soR5nhQR0w-E'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: ea6cf12e-f4da-4e2b-a9c1-e64da280b6f3
+    internal-label: Adobe Customer Journey Analytics Integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 358bcf190b36bd3c01e33a3d5762361a4a015393
+    internal-label: Data collection
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 498
+source-wordcount: '498'
 ht-degree: 0%
-
 ---
-
 # Panoramica dell’integrazione tra Adobe Advertising e Customer Journey Analytics
 
 <!-- title? If I change, change refs throughout -->
@@ -35,11 +46,11 @@ Adobe Advertising è integrato con Adobe Customer Journey Analytics per la condi
 
   Continuerai a tenere traccia degli eventi di click-through utilizzando Adobe Experience Platform Web SDK (`alloy.js`) o il servizio Adobe Experience Cloud Identity (`visitorAPI.js`). Gli inserzionisti con Advertising DSP continueranno a utilizzare uno snippet di JavaScript per monitorare gli eventi view-through. I dati disponibili in Customer Journey Analytics includono:
 
-   * Dati sulle prestazioni della campagna da Adobe Advertising in Customer Journey Analytics
+  * Dati sulle prestazioni della campagna da Adobe Advertising in Customer Journey Analytics
 
-   * Attività del sito e conversioni monitorate da [!DNL Google Ads] e [!DNL Microsoft Advertising] in Customer Journey Analytics, aggiornato ogni giorno
+  * Attività del sito e conversioni monitorate da [!DNL Google Ads] e [!DNL Microsoft Advertising] in Customer Journey Analytics, aggiornato ogni giorno
 
-   * Dati di attribuzione da [!DNL Analytics] in Adobe Advertising, dove possono essere utilizzati per l&#39;ottimizzazione e il reporting
+  * Dati di attribuzione da [!DNL Analytics] in Adobe Advertising, dove possono essere utilizzati per l&#39;ottimizzazione e il reporting
 
   In questo caso d&#39;uso, è comunque possibile [raccogliere dati storici per gli AMO ID e gli EF ID da utilizzare in Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
 
@@ -49,13 +60,13 @@ Adobe Advertising è integrato con Adobe Customer Journey Analytics per la condi
 
 * Gli inserzionisti con Customer Journey Analytics ma non [!DNL Analytics for Advertising] possono scambiare dati in modalità nativa tra Adobe Advertising e Customer Journey Analytics utilizzando [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it). È possibile tenere traccia degli eventi del sito utilizzando cookie, IP con hash, ID universali ([!DNL LiveRamp RampIDs] e ID5 ID) e attribuire eventi del sito all&#39;attività multimediale a pagamento. I seguenti dati sono disponibili a livello di campagna, gruppo di annunci, pacchetto, posizionamento e parola chiave:
 
-   * Dati sulle prestazioni della campagna da Adobe Advertising in Customer Journey Analytics
+  * Dati sulle prestazioni della campagna da Adobe Advertising in Customer Journey Analytics
 
-     **Nota:** i dati di [!DNL Apple] e [!DNL Tiktok] non sono disponibili.
+    **Nota:** i dati di [!DNL Apple] e [!DNL Tiktok] non sono disponibili.
 
-   * Attività del sito e conversioni monitorate da [!DNL Google Ads] e [!DNL Microsoft Advertising] in Customer Journey Analytics
+  * Attività del sito e conversioni monitorate da [!DNL Google Ads] e [!DNL Microsoft Advertising] in Customer Journey Analytics
 
-   * Dati di attribuzione da Customer Journey Analytics in Adobe Advertising, dove possono essere utilizzati per l’ottimizzazione e il reporting
+  * Dati di attribuzione da Customer Journey Analytics in Adobe Advertising, dove possono essere utilizzati per l’ottimizzazione e il reporting
 
   In questo caso d&#39;uso, utilizzare Web SDK per tenere traccia degli eventi del sito (utilizzando cookie, indirizzi IP con hash o ID universali) e attribuire gli eventi del sito all&#39;attività paid media in [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Meta] e Adobe DSP. Per la raccolta dei dati verrà inoltre utilizzato Adobe Experience Platform.
 

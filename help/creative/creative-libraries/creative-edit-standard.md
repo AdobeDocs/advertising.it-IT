@@ -3,18 +3,24 @@ title: Modificare i contenuti originali standard in una libreria creativa
 description: Scopri come modificare le impostazioni delle creatività standard (non dinamiche) in una libreria creativa.
 feature: Creative Standard Creatives
 exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
-TQID: https://experienceleague.adobe.com/Z199ySghpKmaYCQiWz05YQiFX9beF4fmY9Gu3-MHv-w
+TQID: 'https://experienceleague.adobe.com/Z199ySghpKmaYCQiWz05YQiFX9beF4fmY9Gu3-MHv-w'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d06c1576-7039-4934-b256-7366e138fbb6
+    internal-label: Creative Standard Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 414
+source-wordcount: '417'
 ht-degree: 0%
-
 ---
-
 # Modificare i contenuti originali standard in una libreria creativa
 
 Puoi modificare alcune impostazioni per ogni tipo di creatività standard. È possibile modificare più elementi creativi dello stesso tipo (HTML5 semplice con una sola pagina di destinazione, HTML5 statico con più pagine di destinazione, HTML5 flessibile, immagine o di terze parti).
@@ -35,9 +41,9 @@ Quando modifichi un contenuto creativo incluso in un bundle, le modifiche vengon
 
    * Per modificare un singolo contenuto creativo:
 
-      * Nella visualizzazione a schede, fare clic su **[!UICONTROL ...]** accanto al nome della creatività e quindi su **[!UICONTROL Edit]**.
+     * Nella visualizzazione a schede, fare clic su **[!UICONTROL ...]** accanto al nome della creatività e quindi su **[!UICONTROL Edit]**.
 
-      * Nella vista tabella, tenere il cursore sulla riga e fare clic su **[!UICONTROL Edit]**.
+     * Nella vista tabella, tenere il cursore sulla riga e fare clic su **[!UICONTROL Edit]**.
 
    * Per modificare uno o più contenuti creativi, selezionare la casella di controllo relativa a ogni contenuto creativo che si desidera modificare. Nella barra degli strumenti Azioni in blocco fare clic su **[!UICONTROL Edit]**.
 

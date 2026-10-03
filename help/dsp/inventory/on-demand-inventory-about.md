@@ -1,31 +1,36 @@
 ---
-title: 'Informazioni sull''inventario premium  [!DNL On Demand] '
+title: Informazioni sull'inventario premium [!DNL On Demand]
 description: Scopri le offerte che DSP ha pre-negoziato con i partner di pubblicazione premium.
 feature: DSP On Demand Inventory
 exl-id: 2e8dd4a0-7a7b-45e9-8f0f-e5435cf0d9ee
-TQID: https://experienceleague.adobe.com/eQWPc1b2GRmORoOHXR6AzFFE1TdjI1fJe9Jr8pMjPZo
+TQID: 'https://experienceleague.adobe.com/eQWPc1b2GRmORoOHXR6AzFFE1TdjI1fJe9Jr8pMjPZo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b6b79f0f-69f1-5d2e-b06d-cdebfaaa942c
+    internal-label: DSP On Demand Inventory
 subfeature_v2:
   - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+    internal-label: On Demand Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Reporting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 455
+source-wordcount: '461'
 ht-degree: 0%
-
 ---
-
 # Informazioni sull&#39;inventario premium [!DNL On Demand]
 
 *Non disponibile per gli utenti con i tipi di account [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension] e [!UICONTROL Other]; per gli inserzionisti con la categoria [!UICONTROL Other] e per i rivenditori*
 
-La raccolta [!DNL On Demand] è uno strumento di individuazione dell&#39;inventario premium per esplorare le offerte pre-negoziate che DSP ha curato con i partner di pubblicazione premium. Consente di accedere alle scorte non garantite dagli editori di primo livello nell&#39;area geografica senza la necessità di negoziazioni o contratti 1:1. È possibile richiedere offerte individuali e sottoscrivere un abbonamento a un editore per richiedere tutte le offerte dell&#39;editore contemporaneamente.
+La raccolta [!DNL On Demand] è uno strumento di individuazione dell&#39;inventario premium per esplorare le offerte pre-negoziate che DSP ha curato con i partner di pubblicazione premium. Consente di accedere alle scorte non garantite dagli editori di livello superiore nell’area geografica senza la necessità di negoziazioni o contratti 1:1. È possibile richiedere offerte individuali e sottoscrivere un abbonamento a un editore per richiedere tutte le offerte dell&#39;editore contemporaneamente.
 
 DSP Premium Marketplace consente di:
 
@@ -56,7 +61,7 @@ Sotto il carosello puoi visualizzare tutte le offerte e gli editori disponibili.
 I dettagli di ogni operazione includono i dati nelle colonne seguenti:
 
 * **[!UICONTROL TVB]:** indica se l&#39;editore è un&#39;emittente televisiva
-* **[!UICONTROL Tune]:** Indica quando l&#39;editore accetta i contenuti creativi &quot;tune in&quot; (ad esempio, &quot;Tune in stasera alle 21 per il nuovo episodio di \*il nostro show*\>)
+* **[!UICONTROL Tune]:** Indica quando l&#39;editore accetta i contenuti creativi &quot;tune in&quot; (ad esempio, &quot;Tune in stasera alle 21 per il nuovo episodio di \&lt;*our show*\>)
 * **[!UICONTROL LDA]:** (età legale per bere) Indica quando l&#39;editore ha applicato il targeting più di 21 e accetta annunci di alcolici
 * **[!UICONTROL CPM]:** indica quando la soglia minima o la tariffa fissa CPM per l&#39;offerta non è visibile fino a quando all&#39;inserzionista non è stato concesso l&#39;accesso all&#39;offerta
 * **[!UICONTROL Status]:** lo stato della richiesta di abbonamento (se applicabile)

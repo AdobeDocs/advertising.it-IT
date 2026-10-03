@@ -3,26 +3,33 @@ title: Impostazioni campagna
 description: Consulta le descrizioni delle impostazioni disponibili per la campagna.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-TQID: https://experienceleague.adobe.com/tLMBR-i1XpRHeFkfrhh2CtCQI4K0rPgCHqkZv8dk4cA
+TQID: 'https://experienceleague.adobe.com/tLMBR-i1XpRHeFkfrhh2CtCQI4K0rPgCHqkZv8dk4cA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: fee1be79-8e27-52a1-8e31-1d7086bf1a0e
+    internal-label: DSP Campaigns
 subfeature_v2:
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1437
+source-wordcount: '1454'
 ht-degree: 0%
-
 ---
-
 # Impostazioni campagna
 
 ## [!UICONTROL Basic Campaign Details]
@@ -47,23 +54,23 @@ ht-degree: 0%
 
 * **[!UICONTROL How would you like to compute agency fees?]:** (solo campagne con gestione dei margini) Come calcolare le spese di agenzia, ovvero la parte del budget lordo della campagna che viene trattenuta e non inclusa nella spesa netta:
 
-   * *[!UICONTROL Margin % of Total Budget]:* (impostazione predefinita) Calcola le commissioni come percentuale della spesa lorda. Specificare [!UICONTROL Agency Fee Type] (fisso o composito) e [!UICONTROL Margin %] o [!UICONTROL Composite Margin %].
+  * *[!UICONTROL Margin % of Total Budget]:* (impostazione predefinita) Calcola le commissioni come percentuale della spesa lorda. Specificare [!UICONTROL Agency Fee Type] (fisso o composito) e [!UICONTROL Margin %] o [!UICONTROL Composite Margin %].
 
-   * *[!UICONTROL Apply Markup % on top of individual cost components]:* Calcola le tariffe come percentuale specificata dei costi dei contenuti multimediali, dei dati e di altri costi e/o [!DNL Adobe] le tariffe tecniche. Specificare [!UICONTROL Markup %] e selezionare i componenti ai quali applicare il markup.
+  * *[!UICONTROL Apply Markup % on top of individual cost components]:* Calcola le tariffe come percentuale specificata dei costi dei contenuti multimediali, dei dati e di altri costi e/o [!DNL Adobe] le tariffe tecniche. Specificare [!UICONTROL Markup %] e selezionare i componenti ai quali applicare il markup.
 
 * **[!UICONTROL Agency Fee Type]:** (campagne che utilizzano [!UICONTROL Margin % of Total Budget]) Il tipo di tariffa dell&#39;agenzia.
 
-   * *[!UICONTROL Fixed]:* (impostazione predefinita) Consente a DSP di trattenere una percentuale fissa della spesa lorda come spese di agenzia. Specificare [!UICONTROL Margin %].
+  * *[!UICONTROL Fixed]:* (impostazione predefinita) Consente a DSP di trattenere una percentuale fissa della spesa lorda come spese di agenzia. Specificare [!UICONTROL Margin %].
 
-   * *[!UICONTROL Composite]:* consente a DSP di trattenere una percentuale della spesa lorda per contabilizzare sia le spese di agenzia che le [!DNL Adobe] spese tecniche. Specificare [!UICONTROL Composite Margin %].
+  * *[!UICONTROL Composite]:* consente a DSP di trattenere una percentuale della spesa lorda per contabilizzare sia le spese di agenzia che le [!DNL Adobe] spese tecniche. Specificare [!UICONTROL Composite Margin %].
 
 * **[!UICONTROL Margin %]:** (campagne che utilizzano [!UICONTROL Margin % of Total Budget] con margini fissi) La percentuale della spesa lorda da trattenere come spese di agenzia. Eventuali modifiche al valore del margine vengono applicate solo alla spesa lorda futura e non alla spesa lorda storica per la campagna. Il valore [!UICONTROL Estimated Tax Withholding] è escluso dalla spesa lorda prima dell&#39;applicazione del margine. Consulta gli esempi seguenti, che presuppongono che la campagna non sia sovracspesa o sottospesa.
 
-   * Esempio 1: si supponga che [!UICONTROL Gross Budget] sia `100 USD` e che [!UICONTROL Margin %] sia `5%` per tutto il volo. Al termine del volo della campagna, le tariffe dell&#39;agenzia vengono calcolate come `5 USD` (ovvero `5% of 100 USD`) e la spesa netta è `95 USD` (ovvero `campaign budget [100 USD] - agency fees [5 USD]`).
+  * Esempio 1: si supponga che [!UICONTROL Gross Budget] sia `100 USD` e che [!UICONTROL Margin %] sia `5%` per tutto il volo. Al termine del volo della campagna, le tariffe dell&#39;agenzia vengono calcolate come `5 USD` (ovvero `5% of 100 USD`) e la spesa netta è `95 USD` (ovvero `campaign budget [100 USD] - agency fees [5 USD]`).
 
-   * Esempio 2 con modifiche al margine: per la stessa campagna, si supponga che [!UICONTROL Margin %] sia stato modificato da `5%` a `10%` quando la spesa lorda era `40 USD`. Per il periodo precedente alla modifica, le tariffe di agenzia vengono calcolate come `2 USD` (ovvero `5% of 40 USD`); per il periodo successivo alla modifica, le tariffe di agenzia vengono calcolate come `6 USD` (ovvero `10% of 60 USD`). Le tariffe totali dell&#39;agenzia vengono calcolate come `8 USD` (ovvero `2 USD + 6 USD`) e la spesa netta è `92 USD` (ovvero `campaign budget [100 USD] - total agency fees [8 USD]`).
+  * Esempio 2 con modifiche al margine: per la stessa campagna, si supponga che [!UICONTROL Margin %] sia stato modificato da `5%` a `10%` quando la spesa lorda era `40 USD`. Per il periodo precedente alla modifica, le tariffe di agenzia vengono calcolate come `2 USD` (ovvero `5% of 40 USD`); per il periodo successivo alla modifica, le tariffe di agenzia vengono calcolate come `6 USD` (ovvero `10% of 60 USD`). Le tariffe totali dell&#39;agenzia vengono calcolate come `8 USD` (ovvero `2 USD + 6 USD`) e la spesa netta è `92 USD` (ovvero `campaign budget [100 USD] - total agency fees [8 USD]`).
 
-   * Esempio 3 con ritenuta fiscale: si supponga che [!UICONTROL Gross Budget] sia `100 USD`, che [!UICONTROL Estimated Tax Withholding] alla fine del volo della campagna sia `10 USD` e che [!UICONTROL Margin %] sia `5%` durante il volo. Al termine del volo della campagna, le tariffe dell&#39;agenzia vengono calcolate come `4.5 USD` (ovvero `5% of (campaign budget [100 USD] - tax withholding [USD 10])`) e la spesa netta è `85.5 USD` (ovvero `campaign budget [100 USD] - agency fees [4.5 USD] - tax withholding [10 USD]`).
+  * Esempio 3 con ritenuta fiscale: si supponga che [!UICONTROL Gross Budget] sia `100 USD`, che [!UICONTROL Estimated Tax Withholding] alla fine del volo della campagna sia `10 USD` e che [!UICONTROL Margin %] sia `5%` durante il volo. Al termine del volo della campagna, le tariffe dell&#39;agenzia vengono calcolate come `4.5 USD` (ovvero `5% of (campaign budget [100 USD] - tax withholding [USD 10])`) e la spesa netta è `85.5 USD` (ovvero `campaign budget [100 USD] - agency fees [4.5 USD] - tax withholding [10 USD]`).
 
 * **[!UICONTROL Composite Margin %]:** (campagne che utilizzano [!UICONTROL Margin % of Total Budget] con margini compositi) La percentuale della spesa lorda che, da trattenere sotto forma di [!DNL Adobe] spese tecniche e di agenzia combinate. Le tariffe di agenzia vengono calcolate sottraendo le tariffe tecniche di Adobe dall’importo del margine composito. Eventuali modifiche al valore del margine composito vengono applicate solo alla spesa lorda futura e non alla spesa lorda storica per la campagna. Il valore [!UICONTROL Estimated Tax Withholding] è escluso dalla spesa lorda prima dell&#39;applicazione del margine composito.
 
@@ -145,7 +152,7 @@ Per stimare le imposte da trattenere:
 
 #### Verifica del pubblico
 
-**[!UICONTROL Comscore Campaign Ratings]:** (Facoltativo) Abilita la misurazione [!DNL Comscore] convalidata [!DNL Campaign Ratings] e il reporting della verifica del pubblico, utilizzando le impostazioni specificate. Si applicano tariffe aggiuntive.
+**[!UICONTROL Comscore Campaign Ratings]:** (Facoltativo) Abilita la misurazione [!DNL Campaign Ratings] convalidata [!DNL Comscore] e il reporting della verifica del pubblico, utilizzando le impostazioni specificate. Si applicano tariffe aggiuntive.
 
 * **[!UICONTROL Target Gender]:** Il genere di destinazione: *[!UICONTROL Both]* (impostazione predefinita), *[!UICONTROL Male]* o *[!UICONTROL Female]*
 

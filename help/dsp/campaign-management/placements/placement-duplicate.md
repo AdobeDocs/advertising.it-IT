@@ -3,22 +3,26 @@ title: Posizionamenti duplicati
 description: Scopri come duplicare uno o più posizionamenti.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-TQID: https://experienceleague.adobe.com/1QHdooPh2tr6pfbnRsPbe-P5o-lZLgX-NQIUNG2ulHM
+TQID: 'https://experienceleague.adobe.com/1QHdooPh2tr6pfbnRsPbe-P5o-lZLgX-NQIUNG2ulHM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 445
+source-wordcount: '445'
 ht-degree: 0%
-
 ---
-
 # Posizionamenti duplicati
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
@@ -44,9 +48,9 @@ Per un elenco delle impostazioni di posizionamento non duplicate, vedere &quot;[
 
    * Per duplicare più posizionamenti:
 
-      1. Selezionate la casella di controllo accanto a ciascun posizionamento da duplicare.
+     1. Selezionate la casella di controllo accanto a ciascun posizionamento da duplicare.
 
-      1. Nella barra degli strumenti Azioni in blocco fare clic su **[!UICONTROL Duplicate]**.
+     1. Nella barra degli strumenti Azioni in blocco fare clic su **[!UICONTROL Duplicate]**.
 
 1. Specificare le nuove impostazioni di posizionamento:
 
@@ -74,10 +78,10 @@ Tutte le impostazioni dei posizionamenti originali vengono duplicate, tranne:
 * (Se non alleghi annunci) Ponderazione e pianificazione degli annunci personalizzati
 * Posizionamenti predefiniti per offerte programmatiche garantite (PG) e posizionamenti per [!UICONTROL Simple Ad Serving] offerte
 * (Se copi i posizionamenti in un’altra campagna):
-   * Destinazioni geografiche
-   * Pixel evento
-   * Annunci
-   * Segmenti [!DNL DoubleVerify Authentic Brand Suitability] a livello di posizionamento (che sostituiscono i segmenti a livello di inserzionista)
+  * Destinazioni geografiche
+  * Pixel evento
+  * Annunci
+  * Segmenti [!DNL DoubleVerify Authentic Brand Suitability] a livello di posizionamento (che sostituiscono i segmenti a livello di inserzionista)
 
 ## Best practice per configurare i nuovi posizionamenti
 
@@ -90,19 +94,19 @@ Tutte le impostazioni dei posizionamenti originali vengono duplicate, tranne:
 
 * Considera quanto segue e modifica i nuovi posizionamenti in base alle esigenze:
 
-   * L’account dispone di fondi sufficienti per accogliere i nuovi budget di collocamento?
+  * L’account dispone di fondi sufficienti per accogliere i nuovi budget di collocamento?
 
-   * I nuovi posizionamenti richiedono budget diversi rispetto ai posizionamenti precedenti? Sono necessari budget minimi?
+  * I nuovi posizionamenti richiedono budget diversi rispetto ai posizionamenti precedenti? Sono necessari budget minimi?
 
-   * Carica le creatività, inclusa la ponderazione e la pianificazione personalizzate necessarie, e allegale ai posizionamenti.
+  * Carica le creatività, inclusa la ponderazione e la pianificazione personalizzate necessarie, e allegale ai posizionamenti.
 
-   * Allega i pixel dell’evento necessari ai posizionamenti e agli annunci.
+  * Allega i pixel dell’evento necessari ai posizionamenti e agli annunci.
 
-   * Includi destinazioni geografiche e segmenti [!DNL DoubleVerify Authentic Brand Suitability] a livello di posizionamento in base alle esigenze per i posizionamenti.
+  * Includi destinazioni geografiche e segmenti [!DNL DoubleVerify Authentic Brand Suitability] a livello di posizionamento in base alle esigenze per i posizionamenti.
 
-   * Per le offerte garantite programmatiche, utilizza i nuovi ID offerta e crea posizionamenti predefiniti.
+  * Per le offerte garantite programmatiche, utilizza i nuovi ID offerta e crea posizionamenti predefiniti.
 
-   * Crea nuovi posizionamenti per offerte [!UICONTROL Simple Ad Serving] in base alle esigenze.
+  * Crea nuovi posizionamenti per offerte [!UICONTROL Simple Ad Serving] in base alle esigenze.
 
 >[!MORELIKETHIS]
 >

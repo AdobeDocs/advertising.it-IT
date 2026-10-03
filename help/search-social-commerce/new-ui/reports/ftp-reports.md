@@ -2,13 +2,17 @@
 title: (Nuova interfaccia) Accesso FTP ai rapporti
 description: Scopri come ricevere i rapporti in una posizione FTP di sola lettura.
 feature: Search Reports
-source-git-commit: 639037683053009ce653dee6d7c1e4eb80abf4d8
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
-
 ---
-
 # (Nuova interfaccia) Accesso FTP ai rapporti
 
 Facoltativamente, è possibile ricevere i rapporti in una posizione FTP di sola lettura, da cui è possibile recuperare i file per ulteriori processi automatizzati (ad esempio, per analizzare i dati con un altro programma). Tutti i report di base, tranne [!UICONTROL Search Engine Account Report] e tutti i report avanzati, possono essere inviati a una posizione FTP come file TSV compressi (impostazione predefinita) o CSV, con estensione .ZIP. Tutte le intestazioni di file TSV o CSV sono incluse e non possono essere eliminate.
@@ -35,11 +39,11 @@ Per generare report nella directory FTP designata, crea un [modello di report](r
 
    * (Facoltativo) Una qualsiasi delle tre date di sistema, utilizzando la seguente sintassi con distinzione tra maiuscole e minuscole, comprese le parentesi:
 
-      * `[TODAY]` - Per includere la data, l&#39;ora e il minuto in cui è stato eseguito il report. Poiché include l’ora esatta, lo stesso modello può essere eseguito più volte al giorno senza sovrascrivere il rapporto precedente.
+     * `[TODAY]` - Per includere la data, l&#39;ora e il minuto in cui è stato eseguito il report. Poiché include l’ora esatta, lo stesso modello può essere eseguito più volte al giorno senza sovrascrivere il rapporto precedente.
 
-      * `[SDATE]` - Per includere la data di inizio dell&#39;intervallo di date del report.
+     * `[SDATE]` - Per includere la data di inizio dell&#39;intervallo di date del report.
 
-      * `[EDATE]` - Per includere la data di fine dell&#39;intervallo di date del report.
+     * `[EDATE]` - Per includere la data di fine dell&#39;intervallo di date del report.
 
    * (Facoltativo) `[CSV]` (in lettere maiuscole e tra parentesi) per creare file in formato CSV anziché in formato TSV predefinito.
 

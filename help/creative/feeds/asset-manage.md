@@ -3,18 +3,24 @@ title: Gestire i file di risorse
 description: Scopri come caricare e gestire il file di risorse per un inserzionista.
 feature: Creative Dynamic Creatives
 exl-id: 2fe2d778-8456-490a-bf44-234dbc08649f
-TQID: https://experienceleague.adobe.com/U8KSnvef-wUsj6AzRuPUdPpf1xHjZp3Ae7zxXnMfMUc
+TQID: 'https://experienceleague.adobe.com/U8KSnvef-wUsj6AzRuPUdPpf1xHjZp3Ae7zxXnMfMUc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d32c0462696cdd11b4e4a184bed683c611d018c0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 617
+source-wordcount: '617'
 ht-degree: 0%
-
 ---
-
 # Gestire i file di risorse
 
 * Gli annunci dinamici di HTML5 richiedono un file di feed in formato foglio di calcolo di Microsoft Excel (XLSX) e le risorse immagine effettive a cui viene fatto riferimento nel foglio di calcolo.
@@ -35,29 +41,29 @@ Dimensione massima file: 2 GB
 
 * Annunci dinamici HTML5:
 
-   * Un file di feed in formato CSV, TSV o foglio di calcolo Microsoft Excel (XLSX), con una riga di intestazione e una riga di dati per ogni variante di annuncio. Includere un nome immagine in ogni riga utilizzando il formato `images/image_name` (ad esempio `images/300x250_acme_logo.png`).
+  * Un file di feed in formato CSV, TSV o foglio di calcolo Microsoft Excel (XLSX), con una riga di intestazione e una riga di dati per ogni variante di annuncio. Includere un nome immagine in ogni riga utilizzando il formato `images/image_name` (ad esempio `images/300x250_acme_logo.png`).
 
-     I nomi dei campi specifici dell&#39;inserzionista devono corrispondere ai [campi disponibili per i file di feed di annunci dinamici](/help/creative/appendix-available-feed-fields.md).
+    I nomi dei campi specifici dell&#39;inserzionista devono corrispondere ai [campi disponibili per i file di feed di annunci dinamici](/help/creative/appendix-available-feed-fields.md).
 
-   * Le risorse immagine associate in formato GIF, JPEG, JPG o PNG. La dimensione massima del file è 10 MB. Visualizza le [dimensioni creative supportate](/help/creative/creative-libraries/creative-sizes.md).
+  * Le risorse immagine associate in formato GIF, JPEG, JPG o PNG. La dimensione massima del file è 10 MB. Visualizza le [dimensioni creative supportate](/help/creative/creative-libraries/creative-sizes.md).
 
   È possibile caricare un singolo file XLSX, un singolo file di immagine o un singolo file ZIP contenente qualsiasi combinazione di file XLSX e di file di immagine.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 * Annunci HTML5 statici:
 
-   * Una risorsa immagine per annuncio in formato GIF, JPG, JPEG o PNG.
+  * Una risorsa immagine per annuncio in formato GIF, JPG, JPEG o PNG.
 
-     È possibile caricare una o più immagini in un file ZIP.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
+    È possibile caricare una o più immagini in un file ZIP.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 * Annunci video dinamici:
 
-   * Un file di feed in formato CSV, TSV o foglio di calcolo Microsoft Excel (XLSX), con una riga di intestazione e una riga di dati per ogni variante di annuncio. Includere un nome video in ogni riga utilizzando il formato `videos/image_name` (ad esempio `videos/300x250_acme_logo.png`). Il file ZIP può essere un massimo di 512 MB con un massimo di 500 righe.
+  * Un file di feed in formato CSV, TSV o foglio di calcolo Microsoft Excel (XLSX), con una riga di intestazione e una riga di dati per ogni variante di annuncio. Includere un nome video in ogni riga utilizzando il formato `videos/image_name` (ad esempio `videos/300x250_acme_logo.png`). Il file ZIP può essere un massimo di 512 MB con un massimo di 500 righe.
 
-     I nomi dei campi specifici dell&#39;inserzionista devono corrispondere ai [campi disponibili per i file di feed di annunci dinamici](/help/creative/appendix-available-feed-fields.md).
+    I nomi dei campi specifici dell&#39;inserzionista devono corrispondere ai [campi disponibili per i file di feed di annunci dinamici](/help/creative/appendix-available-feed-fields.md).
 
-     Per tutti gli account con video dinamici, la best practice prevede di [creare un catalogo](catalog-manage.md) utilizzando il file di risorse insieme a una copia del [modello di feed universale [!UICONTROL Adobe Creative Template]](feed-template-manage.md), in cui mappare ogni campo del file di risorse a un campo nel backend di Advertising Creative.
+    Per tutti gli account con video dinamici, la best practice prevede di [creare un catalogo](catalog-manage.md) utilizzando il file di risorse insieme a una copia del [modello di feed universale [!UICONTROL Adobe Creative Template]](feed-template-manage.md), in cui mappare ogni campo del file di risorse a un campo nel backend di Advertising Creative.
 
-   * Le risorse video associate in formato MP4, MOV o WEBM. I modelli di annuncio supportati includono scheda iniziale, scheda finale, sovrapposizione superiore, sovrapposizione inferiore o a L. La durata di ogni video deve essere compresa tra 1 e 90 secondi. Visualizza le [dimensioni creative supportate](/help/creative/creative-libraries/creative-sizes.md).
+  * Le risorse video associate in formato MP4, MOV o WEBM. I modelli di annuncio supportati includono scheda iniziale, scheda finale, sovrapposizione superiore, sovrapposizione inferiore o a L. La durata di ogni video deve essere compresa tra 1 e 90 secondi. Visualizza le [dimensioni creative supportate](/help/creative/creative-libraries/creative-sizes.md).
 
   È possibile caricare un singolo file XLSX, un singolo file di immagine o un singolo file ZIP contenente qualsiasi combinazione di file XLSX e video.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 

@@ -1,22 +1,26 @@
 ---
-title: Dati del bulksheet per  [!DNL LY Ads]  account
-description: Fai riferimento ai campi di intestazione e ai campi dati nei bulksheet scaricati per  [!DNL LY Ads]  account.
+title: Dati bulksheet per account [!DNL LY Ads]
+description: Fare riferimento ai campi intestazione e ai campi dati nei bulksheet scaricati per gli account [!DNL LY Ads].
 exl-id: 78eb41ce-3854-454c-adf2-ba0339e2aef7
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/HghB6y4AbEXvI6IrJhdxm-rpg69-ozYTIHRcPDoQ5jA
+TQID: 'https://experienceleague.adobe.com/HghB6y4AbEXvI6IrJhdxm-rpg69-ozYTIHRcPDoQ5jA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2668
-ht-degree: 0%
-
+source-wordcount: '2697'
+ht-degree: 1%
 ---
-
 # Appendice - Dati bulksheet per account [!DNL LY Ads]
 
 È possibile scaricare i dati per gli account [!DNL LY Ads] (precedentemente [!DNL Yahoo! Japan]) in blocco, ma non caricare o pubblicare i bulksheet nella rete di annunci.

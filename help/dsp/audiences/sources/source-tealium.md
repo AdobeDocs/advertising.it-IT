@@ -1,27 +1,33 @@
 ---
-title: Converti ID utente da [!DNL Tealium] a ID universali
-description: Scopri come consentire a DSP di acquisire  [!DNL Tealium]  segmenti di prime parti.
+title: Converti ID utente da [!DNL Tealium] in ID universali
+description: Scopri come consentire a DSP di acquisire i segmenti di prime parti [!DNL Tealium].
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-TQID: https://experienceleague.adobe.com/X8mcqFiON6JMoB5KdS5Z0GVLYp-htw2ddCtmuZFflqo
+TQID: 'https://experienceleague.adobe.com/X8mcqFiON6JMoB5KdS5Z0GVLYp-htw2ddCtmuZFflqo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 50af5a8fc6e5e82268489259073e27911ca5a45c
+    internal-label: Measurement
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1120
+source-wordcount: '1122'
 ht-degree: 0%
-
 ---
-
 # Converti ID utente da [!DNL Tealium] in ID universali
 
 Utilizza l&#39;integrazione di DSP con la piattaforma dati cliente [!DNL Tealium] per convertire gli indirizzi e-mail con hash di prime parti della tua organizzazione in ID universali per annunci pubblicitari mirati. Il processo utilizza il connettore firewall [!DNL Amazon Web Services] (AWS). Per condividere i dati da Tealium con DSP, effettua le seguenti operazioni:
@@ -128,17 +134,17 @@ Per ogni segmento che desideri condividere, crea un connettore separato per ogni
 
          * **Dati messaggio:** Effettuare le operazioni seguenti:
 
-            1. Scegli un attributo per il segmento:
+           1. Scegli un attributo per il segmento:
 
-               * Per l&#39;attributo Hashed_Email, denominare il messaggio personalizzato `hashed_email`.
+              * Per l&#39;attributo Hashed_Email, denominare il messaggio personalizzato `hashed_email`.
 
-               * Per l&#39;attributo Cookies, denominare il messaggio personalizzato `cookies`.
+              * Per l&#39;attributo Cookies, denominare il messaggio personalizzato `cookies`.
 
-            1. Nell&#39;opzione per la creazione di un campo personalizzato, nel campo [!DNL Source Key], immettere [!UICONTROL External Segment Key] incluso nei [dati di mappatura segmenti](#map-data) nella procedura precedente.
+           1. Nell&#39;opzione per la creazione di un campo personalizzato, nel campo [!DNL Source Key], immettere [!UICONTROL External Segment Key] incluso nei [dati di mappatura segmenti](#map-data) nella procedura precedente.
 
-               DSP utilizzerà questa chiave per popolare il segmento.
+              DSP utilizzerà questa chiave per popolare il segmento.
 
-            1. (Consigliato) Crea un’azione di aggiornamento per mantenere fresco il segmento.
+           1. (Consigliato) Crea un’azione di aggiornamento per mantenere fresco il segmento.
 
 ## Passaggio 5: duplica il connettore esistente in [!DNL Tealium] per continuare a condividere i segmenti {#duplicate-connector}
 

@@ -3,25 +3,31 @@ title: Visualizzare i siti, gli annunci, la frequenza e i dettagli di inventario
 description: Scopri come visualizzare i siti target, gli annunci, la frequenza e i dati di inventario per un posizionamento.
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-TQID: https://experienceleague.adobe.com/QpJqRuDiM59WDwshIyp-OQ2ge81zVyvC1vftLd2sGbQ
+TQID: 'https://experienceleague.adobe.com/QpJqRuDiM59WDwshIyp-OQ2ge81zVyvC1vftLd2sGbQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 660
+source-wordcount: '661'
 ht-degree: 0%
-
 ---
-
 # Visualizzare i siti, gli annunci, la frequenza e i dettagli di inventario per un posizionamento
 
 Per ogni posizionamento, puoi [aprire una (visualizzazione dettagli [!UICONTROL Inspector])](placement-details-view.md), che elenca tutti i siti target, gli annunci e le offerte in un posizionamento. Include anche i dati di frequenza per il posizionamento. Facoltativamente, puoi esportare i dati da qualsiasi scheda.
@@ -39,10 +45,10 @@ Per ogni posizionamento, puoi [aprire una (visualizzazione dettagli [!UICONTROL 
   La scheda [!UICONTROL Ads] include le funzionalità di ricerca e filtro, le stesse opzioni di visualizzazione delle colonne standard e personalizzate disponibili nella pagina principale e i pulsanti di azione rapida in ogni riga, ad esempio [!UICONTROL View Ad Approvals].
 
 * **[!UICONTROL Frequency]:** dati per ogni livello di frequenza annuncio per il posizionamento, inclusi:
-   * il livello di frequenza dell’annuncio (ad esempio &quot;1&quot; per tutte le istanze in cui gli utenti hanno visto un annuncio una volta)
-   * numero univoco stimato di dispositivi/browser o persone (a seconda del [!UICONTROL Cross Device Level] specificato per la campagna) che hanno ricevuto impression al livello di frequenza specificato
-   * il numero stimato di impression al livello di frequenza specificato
-   * la frequenza media stimata per il livello di frequenza specificato. Questo valore è uguale a (Impression stimate)/(Valori univoci stimati).
+  * il livello di frequenza dell’annuncio (ad esempio &quot;1&quot; per tutte le istanze in cui gli utenti hanno visto un annuncio una volta)
+  * numero univoco stimato di dispositivi/browser o persone (a seconda del [!UICONTROL Cross Device Level] specificato per la campagna) che hanno ricevuto impression al livello di frequenza specificato
+  * il numero stimato di impression al livello di frequenza specificato
+  * la frequenza media stimata per il livello di frequenza specificato. Questo valore è uguale a (Impression stimate)/(Valori univoci stimati).
 
 * **[!UICONTROL Inventory]:** Informazioni su tutte le offerte target del posizionamento.
 
@@ -54,21 +60,21 @@ Per ogni posizionamento, puoi [aprire una (visualizzazione dettagli [!UICONTROL 
 
    * Visualizza tutti i posizionamenti all’interno della campagna principale:
 
-      1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
+     1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 
-      1. Fai clic sul nome della campagna.
+     1. Fai clic sul nome della campagna.
 
-      1. Fare clic sulla scheda **[!UICONTROL Placements]**.
+     1. Fare clic sulla scheda **[!UICONTROL Placements]**.
 
    * Visualizza tutti i posizionamenti all’interno del pacchetto principale:
 
-      1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
+     1. Nel menu principale, fare clic su **[!UICONTROL Campaigns]**.
 
-      1. Fai clic sul nome della campagna.
+     1. Fai clic sul nome della campagna.
 
-      1. Fare clic sulla scheda **[!UICONTROL Packages]**.
+     1. Fare clic sulla scheda **[!UICONTROL Packages]**.
 
-      1. Fare clic sul nome del pacchetto padre.
+     1. Fare clic sul nome del pacchetto padre.
 
 1. Tenere premuto il cursore sulla riga di posizionamento e fare clic su **[!UICONTROL ...]** > **[!UICONTROL Analyze]** > **[!UICONTROL Inspector]**.
 
@@ -92,7 +98,7 @@ Per ogni posizionamento, puoi [aprire una (visualizzazione dettagli [!UICONTROL 
 | -----------| ---------- | ---------- |
 | [!UICONTROL Zero Auctions] | L&#39;editore non ha iniziato a inviare richieste di offerta. | Contatta l’editore per attivare l’offerta. |
 | | L’offerta è stata impostata in modo errato, ad esempio inserendo un ID offerta esterno errato. | Conferma i dettagli dell’offerta e modifica l’offerta. |
-| [!UICONTROL Auctions but no Bids] | Il targeting del posizionamento non corrisponde alle richieste di offerta in arrivo per l’offerta. <br><br> Ad esempio, un posizionamento potrebbe essere indirizzato a un&#39;area geografica non idonea per l&#39;operazione. | Modifica le destinazioni di posizionamento in base alle esigenze per evitare incongruenze di targeting. |
+| [!UICONTROL Auctions but no Bids] | Il targeting del posizionamento non corrisponde alle richieste di offerta in arrivo per l’offerta. <br><br> Ad esempio, un posizionamento potrebbe essere indirizzato a una geografia che non è idonea per l’operazione. | Modifica le destinazioni di posizionamento in base alle esigenze per evitare incongruenze di targeting. |
 | | Il posizionamento non ha un annuncio attivo con il tipo di file multimediale richiesto per l’offerta. | Crea e allega al posizionamento un annuncio con il tipo di file multimediale corretto. |
 | | Il posizionamento non dispone di un budget adeguato. | Aumenta il budget di posizionamento per consentire le offerte sulle richieste in arrivo. |
 | | Le date del volo di posizionamento non si sovrappongono alle date di consegna delle impression per l’offerta. | Modifica le date di volo del posizionamento in base alle esigenze. |

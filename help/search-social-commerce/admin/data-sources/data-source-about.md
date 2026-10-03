@@ -1,30 +1,40 @@
 ---
-title: 'Informazioni sulla sincronizzazione delle metriche di conversione  [!DNL Google Analytics] '
-description: Scopri come sincronizzare [!DNL Google Analytics] le metriche di conversione per l'ottimizzazione e il reporting.
+title: Informazioni sulla sincronizzazione di [!DNL Google Analytics] metriche di conversione
+description: Scopri come sincronizzare le metriche di conversione [!DNL Google Analytics] per l'ottimizzazione e il reporting.
 role: User, Admin
 exl-id: 32d0ba22-5c27-4f50-9886-1c09d2da952c
 feature: Search Admin, Search Data Sources
-TQID: https://experienceleague.adobe.com/dN7AVijGEiKM1o2iu3Fcb2D61pFkTguFOOu0qIe-mZk
+TQID: 'https://experienceleague.adobe.com/dN7AVijGEiKM1o2iu3Fcb2D61pFkTguFOOu0qIe-mZk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: ''
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 1003789d-7feb-5a2f-a02d-3182fd0ceb8a
+    internal-label: Search Admin
+  - id: 9bd4e165-792f-5324-bcaa-eee38dc8b8e9
+    internal-label: Search Data Sources
 subfeature_v2:
   - id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
+    internal-label: Data sources
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 289
+source-wordcount: '346'
 ht-degree: 0%
-
 ---
-
 # Informazioni sulla sincronizzazione di [!DNL Google Analytics] metriche di conversione
 
 Search, Social e Commerce possono sincronizzare le metriche di conversione per un account [!DNL Google Analytics] specifico, la proprietà e la visualizzazione combinata per l&#39;ottimizzazione e il reporting. Le [visualizzazioni di pagina](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=page_tracking&jump=ga_pageviews), [sessioni](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=session&jump=ga_sessions), [Percentuale di mancato recapito](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=session&jump=ga_bouncerate) (calcolate come mancati recapiti/sessioni) e [Durata sessione](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=session&jump=ga_sessionduration) sono incluse automaticamente. Puoi includere fino a 16 metriche aggiuntive per origine dati.

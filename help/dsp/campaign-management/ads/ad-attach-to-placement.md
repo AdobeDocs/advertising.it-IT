@@ -3,22 +3,26 @@ title: Allega e rimuovi annunci dai posizionamenti
 description: Scopri come allegare annunci ai posizionamenti e rimuovere annunci dai posizionamenti.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-TQID: https://experienceleague.adobe.com/dimjD7vLQExGblC-J9W1e-1lK4NfF4M38TuCjwDi3lU
+TQID: 'https://experienceleague.adobe.com/dimjD7vLQExGblC-J9W1e-1lK4NfF4M38TuCjwDi3lU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: '365'
 ht-degree: 0%
-
 ---
-
 # Allega e rimuovi annunci dai posizionamenti
 
 Puoi allegare e rimuovere annunci dai posizionamenti.
@@ -59,27 +63,27 @@ Puoi allegare e rimuovere annunci dai posizionamenti.
 
    * Per creare un nuovo posizionamento e allegare l’annuncio:
 
-      1. Fare clic su **[!UICONTROL Create a New Placement]**.
+     1. Fare clic su **[!UICONTROL Create a New Placement]**.
 
-      1. Immettere le [impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md), quindi fare clic su **[!UICONTROL Create Placement]**.
+     1. Immettere le [impostazioni di posizionamento](/help/dsp/campaign-management/placements/placement-settings.md), quindi fare clic su **[!UICONTROL Create Placement]**.
 
-         Il tipo di posizionamento è determinato dal tipo di annuncio.
+        Il tipo di posizionamento è determinato dal tipo di annuncio.
 
-      1. Fare clic su **[!UICONTROL Attach ad]**.
+     1. Fare clic su **[!UICONTROL Attach ad]**.
 
-      1. Selezionate la casella di controllo accanto a ciascun annuncio da allegare al posizionamento.
+     1. Selezionate la casella di controllo accanto a ciascun annuncio da allegare al posizionamento.
 
-      1. Fare clic su **[!UICONTROL Attach Selected Ads]**.
+     1. Fare clic su **[!UICONTROL Attach Selected Ads]**.
 
    * Per allegare l’annuncio a un posizionamento esistente:
 
-      1. Fare clic su **[!UICONTROL Select a Placement].**
+     1. Fare clic su **[!UICONTROL Select a Placement].**
 
-      1. Accanto al nome del posizionamento, fare clic su **[!UICONTROL Select].**
+     1. Accanto al nome del posizionamento, fare clic su **[!UICONTROL Select].**
 
-      1. (Facoltativo) Per ogni posizionamento aggiuntivo, fare clic su **[!UICONTROL Attach To Another Placement]**, quindi ripetere i passaggi precedenti.
+     1. (Facoltativo) Per ogni posizionamento aggiuntivo, fare clic su **[!UICONTROL Attach To Another Placement]**, quindi ripetere i passaggi precedenti.
 
-      1. Fare clic su **[!UICONTROL I'm done for now]**.
+     1. Fare clic su **[!UICONTROL I'm done for now]**.
 
 ## Rimuovi annunci dai posizionamenti dalla visualizzazione [!UICONTROL Placements] {#remove-ads-placement}
 

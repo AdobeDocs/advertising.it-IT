@@ -3,26 +3,37 @@ title: Informazioni sugli approfondimenti
 description: Scopri gli approfondimenti sulle prestazioni con le visualizzazioni.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-TQID: https://experienceleague.adobe.com/gcIUBvGMJiIZZ2XwCmEsidqFvp39cQBBxQYzpeUl-E4
+TQID: 'https://experienceleague.adobe.com/gcIUBvGMJiIZZ2XwCmEsidqFvp39cQBBxQYzpeUl-E4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: fee1be79-8e27-52a1-8e31-1d7086bf1a0e
+    internal-label: DSP Campaigns
+  - id: b60977f8-185a-5f3f-bdb1-909a47bdb8cc
+    internal-label: DSP Packages
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 4da54d315e39dac4799887e876272102b8efe4f9
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1369
+source-wordcount: '1384'
 ht-degree: 0%
-
 ---
-
 # Informazioni sugli approfondimenti
 
 Informazioni approfondite sulle prestazioni di alto livello con le visualizzazioni forniscono le informazioni necessarie per ottimizzare in modo efficiente le campagne e scoprire nuove opportunità per scalare le prestazioni. Puoi visualizzare i dati tra le campagne per un inserzionista specificato o approfondire la ricerca fino a un livello più basso.
@@ -43,7 +54,7 @@ Puoi anche [modificare l&#39;intervallo di date, configurare la visualizzazione 
 
 ### Scheda [!UICONTROL Home]
 
-La scheda [!UICONTROL Home] fornisce metriche chiave relative a standard, prestazioni e visualizzabilità per tutte le campagne dell&#39;inserzionista. Per impostazione predefinita, vengono visualizzati i dati di posizionamento incrociato per un inserzionista specifico e un obiettivo personalizzato. Facoltativamente, puoi configurare i filtri per mostrare i dati per un inserzionista diverso, un obiettivo personalizzato diverso o un posizionamento specifico. <!-- I don't see campaigns or packages anymore:  You can optionally configure filters to show data for a different advertiser or data for only specific campaigns, packages, custom goals, and placements. --> Le informazioni includono:
+La scheda [!UICONTROL Home] fornisce metriche chiave relative a standard, prestazioni e visualizzabilità per tutte le campagne dell&#39;inserzionista. Per impostazione predefinita, vengono visualizzati i dati di posizionamento incrociato per un inserzionista specifico e un obiettivo personalizzato. Facoltativamente, puoi configurare i filtri per mostrare i dati per un inserzionista diverso, un obiettivo personalizzato diverso o un posizionamento specifico. <!-- I don't see campaigns or packages anymore:  You can optionally configure filters to show data for a different advertiser or data for only specific campaigns, packages, custom goals, and placements. --> Gli approfondimenti includono:
 
 * **[!UICONTROL Trends]:** Grafico di tendenza per tre metriche specificate dal cliente (per impostazione predefinita, [!UICONTROL Net Spend], [!UICONTROL Impressions] e [!UICONTROL Net CPM]).
 
@@ -69,9 +80,9 @@ La scheda [!UICONTROL Household Reach] fornisce le metriche di portata domestica
 
   I livelli di impatto comprendono:
 
-   * **Impatto elevato:** Prendere in considerazione l&#39;aumento del budget.
-   * **Impatto moderato**
-   * **Impatto limitato:** richiede attenzione
+  * **Impatto elevato:** Prendere in considerazione l&#39;aumento del budget.
+  * **Impatto moderato**
+  * **Impatto limitato:** richiede attenzione
 
 ### Scheda [!UICONTROL Household Conversion]
 
@@ -91,9 +102,9 @@ La scheda [!UICONTROL Household Conversion] fornisce le metriche di conversione 
 
   I livelli di impatto comprendono:
 
-   * **Impatto elevato:** Prendere in considerazione l&#39;aumento del budget.
-   * **Impatto moderato**
-   * **Impatto limitato:** richiede attenzione
+  * **Impatto elevato:** Prendere in considerazione l&#39;aumento del budget.
+  * **Impatto moderato**
+  * **Impatto limitato:** richiede attenzione
 
 ### Scheda [!UICONTROL Audience Analysis]
 
@@ -109,15 +120,15 @@ Gli approfondimenti includono:
 
 * **[!UICONTROL Audience Funnel Analysis]:** Una tabella di serie temporali giornaliera che mostra in che modo il pubblico di destinazione si restringe dal totale del pool disponibile alle impression effettive vince dopo l&#39;applicazione di tutti i filtri di targeting e idoneità. Vengono visualizzati i dati per il giorno precedente. Funnel include le metriche seguenti, in ordine dal più ampio al più stretto:
 
-   * **[!UICONTROL Total Target Audience]:** Il numero totale di utenti univoci nel pubblico aggregato.
+  * **[!UICONTROL Total Target Audience]:** Il numero totale di utenti univoci nel pubblico aggregato.
 
-   * **[!UICONTROL Reachable Audience (Last 24 Hours)]:** Il numero di utenti del pubblico di destinazione che sono stati attivi nel flusso di offerta durante il periodo precedente di 24 ore. Questo conteggio include tutti gli utenti nell’ambito, indipendentemente dal posizionamento offerto su di loro. Una diminuzione da [!UICONTROL Total Target Audience] a [!UICONTROL Reachable Audience] riflette la parte del pubblico che non era attiva nel flusso di offerta durante il periodo di reporting, che non riflette le prestazioni delle offerte.
+  * **[!UICONTROL Reachable Audience (Last 24 Hours)]:** Il numero di utenti del pubblico di destinazione che sono stati attivi nel flusso di offerta durante il periodo precedente di 24 ore. Questo conteggio include tutti gli utenti nell’ambito, indipendentemente dal posizionamento offerto su di loro. Una diminuzione da [!UICONTROL Total Target Audience] a [!UICONTROL Reachable Audience] riflette la parte del pubblico che non era attiva nel flusso di offerta durante il periodo di reporting, che non riflette le prestazioni delle offerte.
 
-   * **[!UICONTROL Eligible Ad Opportunities (Post filtering)]:** Il sottoinsieme di utenti raggiungibili che rimangono dopo l&#39;applicazione dei filtri geo, del tipo di dispositivo, del sistema operativo e del browser. Se questo numero è significativamente inferiore a [!UICONTROL Reachable Audience], valutare se il targeting del tipo di dispositivo o di area geografica è troppo restrittivo.
+  * **[!UICONTROL Eligible Ad Opportunities (Post filtering)]:** Il sottoinsieme di utenti raggiungibili che rimangono dopo l&#39;applicazione dei filtri geo, del tipo di dispositivo, del sistema operativo e del browser. Se questo numero è significativamente inferiore a [!UICONTROL Reachable Audience], valutare se il targeting del tipo di dispositivo o di area geografica è troppo restrittivo.
 
   **[!UICONTROL Devices/Ad Opportunities Bid On]:** Il numero di opportunità idonee per le quali il posizionamento ha inviato un&#39;offerta. Un brusco calo in questa fase può indicare vincoli di budget o di ritmo che limitano il volume delle offerte.
 
-   * **[!UICONTROL Impression Wins]:** il numero di opportunità per le quali il posizionamento ha ricevuto un&#39;impression. Se le vincite sono molto inferiori alle offerte, il prezzo dell’offerta potrebbe essere inferiore al tasso di mercato prevalente per l’inventario di destinazione.
+  * **[!UICONTROL Impression Wins]:** il numero di opportunità per le quali il posizionamento ha ricevuto un&#39;impression. Se le vincite sono molto inferiori alle offerte, il prezzo dell’offerta potrebbe essere inferiore al tasso di mercato prevalente per l’inventario di destinazione.
 
 ## Visualizzare informazioni sulle prestazioni
 

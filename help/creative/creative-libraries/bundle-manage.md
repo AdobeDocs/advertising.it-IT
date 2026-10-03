@@ -3,20 +3,27 @@ title: Gestire i bundle creativi
 description: Scopri come gestire e utilizzare gruppi di creativi.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-TQID: https://experienceleague.adobe.com/hat5puvy5qIpBrShro3QpZoqt2kkd4nnmi4zT7G9Vfg
+TQID: 'https://experienceleague.adobe.com/hat5puvy5qIpBrShro3QpZoqt2kkd4nnmi4zT7G9Vfg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: ea400851-fc23-4174-bc9c-b50ea0ed4d00
+    internal-label: Creative Bundles
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1587
+source-wordcount: '1588'
 ht-degree: 0%
-
 ---
-
 # Gestire i bundle creativi
 
 <!--
@@ -75,9 +82,9 @@ Puoi allegare un contenuto creativo a più bundle.
 
    * Per duplicare un singolo bundle:
 
-      * Nella vista a schede, fai clic su **[!UICONTROL ...]** accanto al nome del bundle, quindi su **[!UICONTROL Duplicate]**.
+     * Nella vista a schede, fai clic su **[!UICONTROL ...]** accanto al nome del bundle, quindi su **[!UICONTROL Duplicate]**.
 
-      * Nella vista tabella, tenere il cursore sulla riga e fare clic su **[!UICONTROL Duplicate]**.
+     * Nella vista tabella, tenere il cursore sulla riga e fare clic su **[!UICONTROL Duplicate]**.
 
    * Per duplicare uno o più bundle, seleziona la casella di controllo di ciascun bundle che desideri duplicare. Nella barra degli strumenti Azioni in blocco fare clic su **[!UICONTROL Duplicate].**
 
@@ -175,9 +182,9 @@ Staccando un contenuto creativo dal bundle, il contenuto non viene eliminato dal
 
    * Per scollegare un singolo contenuto creativo:
 
-      * Nella visualizzazione a schede, fare clic su **[!UICONTROL ...]** accanto al nome della creatività e quindi su **[!UICONTROL Detach]**.
+     * Nella visualizzazione a schede, fare clic su **[!UICONTROL ...]** accanto al nome della creatività e quindi su **[!UICONTROL Detach]**.
 
-      * Nella vista tabella, tenere il cursore sulla riga e fare clic su **[!UICONTROL Detach]**.
+     * Nella vista tabella, tenere il cursore sulla riga e fare clic su **[!UICONTROL Detach]**.
 
    * Per scollegare uno o più creativi, selezionare la casella di controllo relativa a ogni creativo che si desidera scollegare. Nella barra degli strumenti Azioni in blocco fare clic su **[!UICONTROL Detach]**.
 
@@ -316,9 +323,9 @@ Puoi eliminare i bundle non assegnati a un&#39;esperienza [live](/help/creative/
 
    * Per eliminare un singolo bundle:
 
-      * Nella vista a schede, fai clic su **[!UICONTROL ...]** accanto al nome del bundle, quindi su **[!UICONTROL Delete]**.
+     * Nella vista a schede, fai clic su **[!UICONTROL ...]** accanto al nome del bundle, quindi su **[!UICONTROL Delete]**.
 
-      * Nella vista tabella, tenere il cursore sulla riga e fare clic su **[!UICONTROL Delete]**.
+     * Nella vista tabella, tenere il cursore sulla riga e fare clic su **[!UICONTROL Delete]**.
 
    * Per eliminare uno o più bundle, seleziona la casella di controllo relativa a ciascun bundle che desideri eliminare. Nella barra degli strumenti Azioni in blocco fare clic su **[!UICONTROL Delete].**
 

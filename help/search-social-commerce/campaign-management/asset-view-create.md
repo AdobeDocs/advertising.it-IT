@@ -1,20 +1,23 @@
 ---
 title: Visualizza e crea risorse pubblicitarie da [!UICONTROL Asset Library]
-description: Scopri come visualizzare e creare risorse immagine, video e testo riutilizzabili per le  [!DNL Google Ads] e [!DNL Microsoft Advertising] librerie di risorse a livello di account.
+description: Scopri come visualizzare e creare risorse immagine, video e testo riutilizzabili per le librerie di risorse a livello di account [!DNL Google Ads] e [!DNL Microsoft Advertising].
 feature: Search Campaign Management
 exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
-TQID: https://experienceleague.adobe.com/8dYDiQr2TaX19uvghunW89MnrpAdds3-se4XdWyboIk
+TQID: 'https://experienceleague.adobe.com/8dYDiQr2TaX19uvghunW89MnrpAdds3-se4XdWyboIk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 342
+source-wordcount: '344'
 ht-degree: 0%
-
 ---
-
 # Visualizza e crea risorse pubblicitarie da [!UICONTROL Asset Library]
 
 *Solo per [!DNL Google Ads] e [!DNL Microsoft Advertising] account*
@@ -39,23 +42,23 @@ Puoi utilizzare una qualsiasi delle risorse per le campagne con prestazione mass
 
       * Per le risorse immagini:
 
-         1. Fare clic su **[!UICONTROL +]** e selezionare le immagini dal dispositivo o dalla rete.
+        1. Fare clic su **[!UICONTROL +]** e selezionare le immagini dal dispositivo o dalla rete.
 
-            Ogni immagine può avere una dimensione massima di 10 MB. È possibile caricare un massimo di 200 MB di immagini alla volta.
+           Ogni immagine può avere una dimensione massima di 10 MB. È possibile caricare un massimo di 200 MB di immagini alla volta.
 
-         1. Per ogni immagine:
+        1. Per ogni immagine:
 
-            1. Fai clic su ![Ritaglia](/help/search-social-commerce/assets/crop.png "Ritaglia").
+           1. Fai clic su ![Ritaglia](/help/search-social-commerce/assets/crop.png "Ritaglia").
 
-            1. Seleziona le proporzioni.
+           1. Seleziona le proporzioni.
 
-            1. Trascinate e posizionate la casella di ritaglio in base alle necessità per selezionare la parte visualizzabile dell&#39;immagine e, se possibile, ridimensionate la parte visualizzabile.
+           1. Trascinate e posizionate la casella di ritaglio in base alle necessità per selezionare la parte visualizzabile dell&#39;immagine e, se possibile, ridimensionate la parte visualizzabile.
 
-            1. (Facoltativo) Selezionate altre proporzioni e, se necessario, riposizionate e ridimensionate l&#39;immagine per ogni proporzione selezionata.
+           1. (Facoltativo) Selezionate altre proporzioni e, se necessario, riposizionate e ridimensionate l&#39;immagine per ogni proporzione selezionata.
 
-               Viene creata una risorsa per ogni proporzione selezionata.
+              Viene creata una risorsa per ogni proporzione selezionata.
 
-            1. Fare clic su **[!UICONTROL Proceed]**.
+           1. Fare clic su **[!UICONTROL Proceed]**.
 
       * Per le risorse video, immetti l&#39;URL per un video [!DNL YouTube] della durata di almeno 10 secondi. Per aggiungere un&#39;altra risorsa video, fare clic su **+ Aggiungi** e immettere un altro URL.
 

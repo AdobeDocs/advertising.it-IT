@@ -3,18 +3,21 @@ title: Pubblicare i dati della campagna generati dai feed nelle reti di annunci
 description: Scopri come pubblicare i dati generati dai feed di dati di inventario nelle reti di annunci.
 exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/TOTmjFuRPfH1vnyHwFvLBzlu7zBRQ3xHqKnG9TUC6IE
+TQID: 'https://experienceleague.adobe.com/TOTmjFuRPfH1vnyHwFvLBzlu7zBRQ3xHqKnG9TUC6IE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 850
+source-wordcount: '854'
 ht-degree: 0%
-
 ---
-
 # Pubblicare i dati della campagna generati dai feed nelle reti di annunci
 
 *[!DNL Google Ads], [!DNL LY Ads] (solo azioni di eliminazione), [!DNL Microsoft Advertising] e [!DNL Yandex] account solo*
@@ -37,41 +40,41 @@ Per una pubblicazione corretta, tutti i gruppi di annunci devono essere assegnat
   >
   >Se in precedenza non hai convalidato le pagine di destinazione e desideri farlo, [propaga i dati e visualizzali in anteprima](feed-data-propagate.md) dalla visualizzazione [!UICONTROL Bulksheets] invece di pubblicarli nella rete di annunci. Puoi quindi [convalidare gli URL](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md) prima di inviare manualmente il file alla rete di annunci.
 
-   1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, che consente di aprire la scheda [!UICONTROL Templates].
+  1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, che consente di aprire la scheda [!UICONTROL Templates].
 
-   1. Selezionare la casella di controllo accanto al modello.
+  1. Selezionare la casella di controllo accanto al modello.
 
-   1. Nella barra degli strumenti fare clic su **[!UICONTROL Post]**.
+  1. Nella barra degli strumenti fare clic su **[!UICONTROL Post]**.
 
-   1. Nelle impostazioni di registrazione immettere o selezionare le informazioni nei campi, quindi fare clic su **[!UICONTROL Post]**.
+  1. Nelle impostazioni di registrazione immettere o selezionare le informazioni nei campi, quindi fare clic su **[!UICONTROL Post]**.
 
-      * **[!UICONTROL Selection]:** quali componenti account sono registrati.
+     * **[!UICONTROL Selection]:** quali componenti account sono registrati.
 
-      * **[!UICONTROL Scheduling]:** Quando pubblicare il file:
+     * **[!UICONTROL Scheduling]:** Quando pubblicare il file:
 
-         * *[!UICONTROL Post to search engine now]* (impostazione predefinita): crea un file di foglio ausiliario dai dati del feed propagato e inizia a pubblicarlo immediatamente.
+       * *[!UICONTROL Post to search engine now]* (impostazione predefinita): crea un file di foglio ausiliario dai dati del feed propagato e inizia a pubblicarlo immediatamente.
 
-         * *[!UICONTROL Post to search engine on these start/end times (in America/Los_Angeles time)]:* crea un file bulksheet e lo pubblica in un secondo momento. Specifica quanto segue:
+       * *[!UICONTROL Post to search engine on these start/end times (in America/Los_Angeles time)]:* crea un file bulksheet e lo pubblica in un secondo momento. Specifica quanto segue:
 
-            * **[!UICONTROL Start Time]:** Una data e un&#39;ora future in cui il file del bulksheet deve essere inviato alla rete di annunci. Per impostazione predefinita, il file viene inviato alle 00:00 (12:00) il giorno dopo. **Nota:** per i file di grandi dimensioni che richiedono un&#39;elaborazione più lunga, i dati pubblicati non sono immediatamente disponibili nelle visualizzazioni di gestione delle campagne o nell&#39;ad manager della rete.
+         * **[!UICONTROL Start Time]:** Una data e un&#39;ora future in cui il file del bulksheet deve essere inviato alla rete di annunci. Per impostazione predefinita, il file viene inviato alle 00:00 (12:00) il giorno dopo. **Nota:** per i file di grandi dimensioni che richiedono un&#39;elaborazione più lunga, i dati pubblicati non sono immediatamente disponibili nelle visualizzazioni di gestione delle campagne o nell&#39;ad manager della rete.
 
-            * **[!UICONTROL End Time]:** Una data e un&#39;ora future in cui gli annunci pubblicati potranno essere sospesi o eliminati in base all&#39;[impostazione dei dati di feed](feed-settings-manage.md#feed-data-settings) per &quot;[!UICONTROL When the Scheduled End Date is reached]&quot;. Per impostazione predefinita, l&#39;ora di fine è alle 00:00 (12:00) 30 giorni da oggi. Selezionare **[!UICONTROL None]** per mantenere i dati attivi indefinitamente (o fino a quando non si propagano nuovi dati per il modello) o specificare una data e un&#39;ora.
+         * **[!UICONTROL End Time]:** Una data e un&#39;ora future in cui gli annunci pubblicati potranno essere sospesi o eliminati in base all&#39;[impostazione dei dati di feed](feed-settings-manage.md#feed-data-settings) per &quot;[!UICONTROL When the Scheduled End Date is reached]&quot;. Per impostazione predefinita, l’ora di fine è alle 00:00 (12:00) 30 giorni da oggi. Selezionare **[!UICONTROL None]** per mantenere i dati attivi indefinitamente (o fino a quando non si propagano nuovi dati per il modello) o specificare una data e un&#39;ora.
 
-              Per specificare una data, utilizzare il formato GG/MM/AAAA o GG/M/AAAA oppure fare clic su ![Calendario](/help/search-social-commerce/assets/calendar.png "Calendario") per aprire il calendario e [selezionare una data](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Per modificare un&#39;ora, immettere l&#39;ora nel formato di 24 ore HH/MM o H/M oppure selezionare un&#39;ora (in intervalli di 30 minuti) dall&#39;elenco.
+           Per specificare una data, utilizzare il formato GG/MM/AAAA o GG/M/AAAA oppure fare clic su ![Calendario](/help/search-social-commerce/assets/calendar.png "Calendario") per aprire il calendario e [selezionare una data](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Per modificare un&#39;ora, immettere l&#39;ora nel formato di 24 ore HH/MM o H/M oppure selezionare un&#39;ora (in intervalli di 30 minuti) dall&#39;elenco.
 
-         * **[!UICONTROL Preview in Bulksheet Management Area only, post later]:** Crea un file di foglio bulk disponibile dalla vista [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Bulksheets]. Facoltativamente, puoi pubblicare il file da lì.
+       * **[!UICONTROL Preview in Bulksheet Management Area only, post later]:** Crea un file di foglio bulk disponibile dalla vista [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Bulksheets]. Facoltativamente, puoi pubblicare il file da lì.
 
-           Quando il file di bulksheet risultante è superiore a 2 MB, il file è in formato ZIP. Non è necessario decomprimere il file per pubblicarlo.
+         Quando il file di bulksheet risultante è superiore a 2 MB, il file è in formato ZIP. Non è necessario decomprimere il file per pubblicarlo.
 
-      * **[!UICONTROL Generate Tracking URLs]:** se includere gli URL di tracciamento per le parole chiave e le varianti di annunci nel file di bulksheet: *[!UICONTROL Yes]* (impostazione predefinita) o *[!UICONTROL No]*.
+     * **[!UICONTROL Generate Tracking URLs]:** se includere gli URL di tracciamento per le parole chiave e le varianti di annunci nel file di bulksheet: *[!UICONTROL Yes]* (impostazione predefinita) o *[!UICONTROL No]*.
 
-        Se si seleziona *[!UICONTROL Yes]*, gli URL vengono generati dagli URL di base per le parole chiave e gli annunci in base ai parametri [!UICONTROL Tracking Methods] nelle [impostazioni account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) o, se si mappano i dati alle campagne esistenti, ai parametri [!UICONTROL Tracking Methods] nelle [impostazioni campagna](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) esistenti.
+       Se si seleziona *[!UICONTROL Yes]*, gli URL vengono generati dagli URL di base per le parole chiave e gli annunci in base ai parametri [!UICONTROL Tracking Methods] nelle [impostazioni account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) o, se si mappano i dati alle campagne esistenti, ai parametri [!UICONTROL Tracking Methods] nelle [impostazioni campagna](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) esistenti.
 
-        Se esistono URL di tracciamento per gli elementi rilevanti, questi non vengono rigenerati a meno che non siano necessari nuovi URL (ad esempio se il tipo di corrispondenza delle parole chiave, il testo creativo o i parametri di tracciamento dell’account sono cambiati).
+       Se esistono URL di tracciamento per gli elementi rilevanti, questi non vengono rigenerati a meno che non siano necessari nuovi URL (ad esempio se il tipo di corrispondenza delle parole chiave, il testo creativo o i parametri di tracciamento dell’account sono cambiati).
 
-      * **[!UICONTROL Bulksheet Name]:** nome del file di bulksheet da creare dai dati di feed propagati. Per impostazione predefinita, il file è denominato `<feed file name_file extension>_<feed template name>_<creation date in the format YYYYMMDDHHMMSS>.txt`. È possibile rinominare il file come desiderato, ma deve terminare con una delle seguenti estensioni di file: `.tsv` (per valori separati da tabulazioni), `.txt` (per testo ASCII), `.csv` (per valori separati da virgola) o `.zip` (per un file TSV compresso). Per i dati che includono caratteri internazionali, utilizza il formato TSV o TXT.
+     * **[!UICONTROL Bulksheet Name]:** nome del file di bulksheet da creare dai dati di feed propagati. Per impostazione predefinita, il file è denominato `<feed file name_file extension>_<feed template name>_<creation date in the format YYYYMMDDHHMMSS>.txt`. È possibile rinominare il file come desiderato, ma deve terminare con una delle seguenti estensioni di file: `.tsv` (per valori separati da tabulazioni), `.txt` (per testo ASCII), `.csv` (per valori separati da virgola) o `.zip` (per un file TSV compresso). Per i dati che includono caratteri internazionali, utilizza il formato TSV o TXT.
 
-        Il file pubblicato è disponibile nella visualizzazione [!UICONTROL Bulksheets] per 30 giorni, indipendentemente dal fatto che venga pubblicato o meno nella rete di annunci.
+       Il file pubblicato è disponibile nella visualizzazione [!UICONTROL Bulksheets] per 30 giorni, indipendentemente dal fatto che venga pubblicato o meno nella rete di annunci.
 
 La colonna &quot;[!UICONTROL Last Prop. Status]&quot; mostra lo stato del processo per i modelli applicabili.
 

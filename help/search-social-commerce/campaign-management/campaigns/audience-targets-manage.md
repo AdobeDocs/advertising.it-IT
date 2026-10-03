@@ -1,20 +1,23 @@
 ---
 title: Gestire i target di pubblico per campagne e gruppi di annunci
-description: Scopri come configurare e gestire i target del pubblico per le campagne e i gruppi di annunci  [!DNL Google Ads] e [!DNL Microsoft Advertising] .
+description: Scopri come configurare e gestire i target del pubblico per le campagne e i gruppi di annunci [!DNL Google Ads] e [!DNL Microsoft Advertising].
 exl-id: 9a496d15-082d-44e1-a0a3-71356e24b932
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/U0RHQhkBYus7SwgN-gXKht4-MSV5VMy8nVTiKgGz1wY
+TQID: 'https://experienceleague.adobe.com/U0RHQhkBYus7SwgN-gXKht4-MSV5VMy8nVTiKgGz1wY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 771
+source-wordcount: '767'
 ht-degree: 0%
-
 ---
-
 # Gestisci i target del pubblico per le campagne e i gruppi di annunci [!DNL Google Ads] e [!DNL Microsoft Advertising]
 
 Solo *[!DNL Google Ads]e [!DNL Microsoft Advertising]*
@@ -83,27 +86,27 @@ Puoi modificare il modificatore di offerta e lo stato dei target del pubblico pe
 
    * Per modificare un modificatore di offerta per una o più destinazioni, effettuare le seguenti operazioni:
 
-      1. Selezionare la casella di controllo accanto a ogni destinazione da modificare.
+     1. Selezionare la casella di controllo accanto a ogni destinazione da modificare.
 
-         Per suggerimenti sulla selezione di più righe, vedere &quot;[Selezionare più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+        Per suggerimenti sulla selezione di più righe, vedere &quot;[Selezionare più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-      1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Modifica](/help/search-social-commerce/assets/edit.png "Modifica").
+     1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Modifica](/help/search-social-commerce/assets/edit.png "Modifica").
 
-      1. Modificare i campi **[!UICONTROL Bid Modifier]** e/o **[!UICONTROL Status]**.
+     1. Modificare i campi **[!UICONTROL Bid Modifier]** e/o **[!UICONTROL Status]**.
 
-         Per il campo [!UICONTROL Bid Modifier], sono disponibili opzioni per modificare i valori esistenti in un valore specificato o per aumentare o diminuire l&#39;importo di una percentuale o importo monetario specificato, con un limite.
+        Per il campo [!UICONTROL Bid Modifier], sono disponibili opzioni per modificare i valori esistenti in un valore specificato o per aumentare o diminuire l&#39;importo di una percentuale o importo monetario specificato, con un limite.
 
-         Per un valore impostato, il valore può includere:
+        Per un valore impostato, il valore può includere:
 
-         * *0%:* per non regolare le offerte per gli annunci per questo pubblico.
+        * *0%:* per non regolare le offerte per gli annunci per questo pubblico.
 
-         * /[*Altri valori da -90% a 900%*/]: per aumentare o diminuire l&#39;offerta per gli annunci per questo pubblico. Ad esempio, se l’offerta a livello di parola chiave è 1 USD e la regolazione dell’offerta per un target di pubblico specifico è del 50%, l’offerta per quel pubblico aumenta a 1,50 USD.
+        * /[*Altri valori da -90% a 900%*/]: per aumentare o diminuire l&#39;offerta per gli annunci per questo pubblico. Ad esempio, se l’offerta a livello di parola chiave è 1 USD e la regolazione dell’offerta per un target di pubblico specifico è del 50%, l’offerta per quel pubblico aumenta a 1,50 USD.
 
-         Per più destinazioni, le modifiche vengono applicate a tutte le destinazioni selezionate.
+        Per più destinazioni, le modifiche vengono applicate a tutte le destinazioni selezionate.
 
-      1. (Facoltativo) Fare clic su **[!UICONTROL Additional Details]** e, facoltativamente, immettere un nome e una descrizione per il progetto.
+     1. (Facoltativo) Fare clic su **[!UICONTROL Additional Details]** e, facoltativamente, immettere un nome e una descrizione per il progetto.
 
-      1. Fare clic su **[!UICONTROL Post]**.
+     1. Fare clic su **[!UICONTROL Post]**.
 
 ## Modificare lo stato dei target di pubblico
 

@@ -1,22 +1,26 @@
 ---
-title: Gestisci [!DNL Google Ads] destinazioni ricerca dinamica
-description: Scopri come creare e gestire  [!DNL Google Ads] destinazioni di ricerca dinamiche.
+title: Gestisci [!DNL Google Ads] destinazioni di ricerca dinamica
+description: Scopri come creare e gestire [!DNL Google Ads] destinazioni di ricerca dinamica.
 exl-id: 5ea68cab-677f-4c7e-8776-24d6546f0b15
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/MsSy-p-WSroc3FyiHx6kvcTohEaWOqJCzqbl91mNwK0
+TQID: 'https://experienceleague.adobe.com/MsSy-p-WSroc3FyiHx6kvcTohEaWOqJCzqbl91mNwK0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 678
+source-wordcount: '676'
 ht-degree: 0%
-
 ---
-
 # Gestisci [!DNL Google Ads] destinazioni di ricerca dinamica
 
 Solo *[!DNL Google Ads]account*
@@ -93,13 +97,13 @@ Puoi anche eliminare qualsiasi destinazione dinamica.
 
    * Per eliminare una o più destinazioni dinamiche, effettuare le seguenti operazioni:
 
-      1. Selezionare la casella di controllo accanto a ogni destinazione dinamica che si desidera eliminare.
+     1. Selezionare la casella di controllo accanto a ogni destinazione dinamica che si desidera eliminare.
 
      Per suggerimenti sulla selezione di più righe, vedere &quot;[Selezionare più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-      1. Nella barra degli strumenti, fare clic su ![Altro](/help/search-social-commerce/assets/more.png "Altro") e selezionare **[!UICONTROL Delete]**.
+     1. Nella barra degli strumenti, fare clic su ![Altro](/help/search-social-commerce/assets/more.png "Altro") e selezionare **[!UICONTROL Delete]**.
 
-      1. Nel messaggio di conferma, fare clic su **[!UICONTROL Delete]**.
+     1. Nel messaggio di conferma, fare clic su **[!UICONTROL Delete]**.
 
 ## [!DNL Google Ads] impostazioni destinazione di ricerca dinamica {#dynamic-search-target-settings}
 
@@ -111,13 +115,13 @@ Puoi anche eliminare qualsiasi destinazione dinamica.
 
 * *\[Destinazioni specifiche\]:* Imposta fino a tre criteri per le pagine indicizzate. Quando selezioni questa opzione, devi specificare i criteri specificando le categorie di informazioni e i valori specifici per i quali indirizzare gli annunci (ad esempio, &quot;URL contiene shoes.example.com&quot;). Per specificare più criteri, fare clic su **[!UICONTROL + And]**. I criteri di destinazione includono:
 
-   * *[!UICONTROL Category]:* Per visualizzare annunci per pagine indicizzate con una categoria di contenuto [!DNL Google Ads] specifica.
+  * *[!UICONTROL Category]:* Per visualizzare annunci per pagine indicizzate con una categoria di contenuto [!DNL Google Ads] specifica.
 
-   * *[!UICONTROL URL]:* Per visualizzare annunci per pagine indicizzate con un URL specifico, in cui il valore può essere incluso in qualsiasi punto dell&#39;URL.
+  * *[!UICONTROL URL]:* Per visualizzare annunci per pagine indicizzate con un URL specifico, in cui il valore può essere incluso in qualsiasi punto dell&#39;URL.
 
-   * *[!UICONTROL Page Title]:* Per visualizzare annunci per pagine indicizzate con testo specifico nel titolo della pagina.
+  * *[!UICONTROL Page Title]:* Per visualizzare annunci per pagine indicizzate con testo specifico nel titolo della pagina.
 
-   * *[!UICONTROL Page Content]:* Per visualizzare annunci per pagine indicizzate con contenuto specifico.
+  * *[!UICONTROL Page Content]:* Per visualizzare annunci per pagine indicizzate con contenuto specifico.
 
 **Stato:** Lo stato delle impostazioni di destinazione:
 

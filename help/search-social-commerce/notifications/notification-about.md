@@ -3,21 +3,26 @@ title: Informazioni sulle notifiche
 description: Scopri le notifiche, compresi i diversi tipi e categorie.
 exl-id: 79495e1c-72ce-476f-83df-c4d95391f51c
 feature: Search Notifications
-TQID: https://experienceleague.adobe.com/5WmRMJeZPQ8QDsgwRV0s1-50lkIr0LZqzPo2Ttv7kns
+TQID: 'https://experienceleague.adobe.com/5WmRMJeZPQ8QDsgwRV0s1-50lkIr0LZqzPo2Ttv7kns'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 4a019b9f-6dd0-5c07-a60f-b60f67fd80d0
+    internal-label: Search Notifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 430
+source-wordcount: '429'
 ht-degree: 0%
-
 ---
-
 # Informazioni sulle notifiche
 
 *Funzionalità Beta*
@@ -52,25 +57,25 @@ Puoi visualizzare le notifiche, contrassegnarle come lette o non lette ed elimin
 
 * [!UICONTROL Campaign Management]
 
-   * **[!UICONTROL Bulksheets]**: notifiche di completamento o di errore di un&#39;operazione [bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
+  * **[!UICONTROL Bulksheets]**: notifiche di completamento o di errore di un&#39;operazione [bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-   * **[!UICONTROL Manager Account Missing]**: notifiche per le quali Search, Social e Commerce non dispongono delle credenziali per un account [ad network manager](/help/search-social-commerce/admin/manager-accounts.md), necessarie per la corretta configurazione delle funzioni critiche.
+  * **[!UICONTROL Manager Account Missing]**: notifiche per le quali Search, Social e Commerce non dispongono delle credenziali per un account [ad network manager](/help/search-social-commerce/admin/manager-accounts.md), necessarie per la corretta configurazione delle funzioni critiche.
 
-   * **[!UICONTROL UI Actions]**: notifica del completamento o dell&#39;errore dei processi eseguiti in background. I tipi di processo includono [processi bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), processi di modifica in blocco all&#39;interno della tabella dati o utilizzando la barra degli strumenti, processi di assegnazione di entità o altre azioni all&#39;interno dell&#39;interfaccia utente (ad esempio la sincronizzazione con reti di annunci, l&#39;incollamento di righe o la ridenominazione di entità). Le assegnazioni di entità includono l&#39;assegnazione o l&#39;annullamento dell&#39;assegnazione di un valore di classificazione [etichetta](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md) a qualsiasi entità, l&#39;assegnazione di una campagna a un portfolio e l&#39;assegnazione o l&#39;annullamento dell&#39;assegnazione di un vincolo a un portfolio.<!--Link "constraint" to constraint-about.md if that file is ever public -->
+  * **[!UICONTROL UI Actions]**: notifica del completamento o dell&#39;errore dei processi eseguiti in background. I tipi di processo includono [processi bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), processi di modifica in blocco all&#39;interno della tabella dati o utilizzando la barra degli strumenti, processi di assegnazione di entità o altre azioni all&#39;interno dell&#39;interfaccia utente (ad esempio la sincronizzazione con reti di annunci, l&#39;incollamento di righe o la ridenominazione di entità). Le assegnazioni di entità includono l&#39;assegnazione o l&#39;annullamento dell&#39;assegnazione di un valore di classificazione [etichetta](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md) a qualsiasi entità, l&#39;assegnazione di una campagna a un portfolio e l&#39;assegnazione o l&#39;annullamento dell&#39;assegnazione di un vincolo a un portfolio.<!--Link "constraint" to constraint-about.md if that file is ever public -->
 
-   * [!UICONTROL Data Upload]
+  * [!UICONTROL Data Upload]
 
-      * **[!UICONTROL Direct File Upload]**: utilizzato per una versione beta chiusa
+    * **[!UICONTROL Direct File Upload]**: utilizzato per una versione beta chiusa
 
-      * **[!UICONTROL File Upload to Cloud Storage]**: utilizzato per una versione beta chiusa
+    * **[!UICONTROL File Upload to Cloud Storage]**: utilizzato per una versione beta chiusa
 
-   * [!UICONTROL Network Errors]
+  * [!UICONTROL Network Errors]
 
-      * **[!UICONTROL Account Auth Error]**: notifiche per cui Search, Social e Commerce non sono stati in grado di accedere a un account di rete [ad](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) a causa di credenziali non valide o token di autorizzazione non valido o scaduto.
+    * **[!UICONTROL Account Auth Error]**: notifiche per cui Search, Social e Commerce non sono stati in grado di accedere a un account di rete [ad](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) a causa di credenziali non valide o token di autorizzazione non valido o scaduto.
 
-      * **[!UICONTROL Account Missing]**: notifiche per le quali Search, Social e Commerce non dispongono delle credenziali per un account di rete [ad](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md).
+    * **[!UICONTROL Account Missing]**: notifiche per le quali Search, Social e Commerce non dispongono delle credenziali per un account di rete [ad](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md).
 
-      * **[!UICONTROL Manager Account Auth Error]**: notifiche che Search, Social e Commerce non sono stati in grado di sincronizzare con un account [ad network manager](/help/search-social-commerce/admin/manager-accounts.md) a causa di credenziali non valide o token di autorizzazione non valido o scaduto.
+    * **[!UICONTROL Manager Account Auth Error]**: notifiche che Search, Social e Commerce non sono stati in grado di sincronizzare con un account [ad network manager](/help/search-social-commerce/admin/manager-accounts.md) a causa di credenziali non valide o token di autorizzazione non valido o scaduto.
 
   <!--
   * [!UICONTROL Setup Errors]
@@ -82,13 +87,13 @@ Puoi visualizzare le notifiche, contrassegnarle come lette o non lette ed elimin
 
 * [!UICONTROL Insights & Reports]
 
-   * **[!UICONTROL Advertising Insights]**: notifiche di completamento o di errore di [an [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md).
+  * **[!UICONTROL Advertising Insights]**: notifiche di completamento o di errore di [an [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md).
 
-   * **[!UICONTROL Custom Alerts]**: notifica che [istanze di avviso](/help/search-social-commerce/alerts/alert-about.md) sono state attivate per un modello di avviso.
+  * **[!UICONTROL Custom Alerts]**: notifica che [istanze di avviso](/help/search-social-commerce/alerts/alert-about.md) sono state attivate per un modello di avviso.
 
-   * **[!UICONTROL Reports]**: notifiche di completamento o di errore di un [report personalizzato o pianificato](/help/search-social-commerce/reports/report-about.md).
+  * **[!UICONTROL Reports]**: notifiche di completamento o di errore di un [report personalizzato o pianificato](/help/search-social-commerce/reports/report-about.md).
 
-   * **[!UICONTROL Spreadsheet Feeds]**: notifiche di completamento o di errore di un [feed di foglio di calcolo](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md).
+  * **[!UICONTROL Spreadsheet Feeds]**: notifiche di completamento o di errore di un [feed di foglio di calcolo](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md).
 
 <!--
 * [!UICONTROL Optimization]

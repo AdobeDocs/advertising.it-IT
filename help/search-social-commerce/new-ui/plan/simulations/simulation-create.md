@@ -4,21 +4,30 @@ description: Scopri come eseguire o eseguire nuovamente una simulazione personal
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
 exl-id: 0ee62d04-fdc4-445c-90fb-71d5a40a9ed0
-TQID: https://experienceleague.adobe.com/DlSJEcKXOxVz6UXVpAjQqaiwDTakgJ4SS6rsQUxkQIE
+TQID: 'https://experienceleague.adobe.com/DlSJEcKXOxVz6UXVpAjQqaiwDTakgJ4SS6rsQUxkQIE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+  - id: 893a7eac-45bd-56c2-a120-18db6d297dcc
+    internal-label: Search Portfolios
+  - id: 1d0fea65-a874-543d-94c9-b4dbf9e0360a
+    internal-label: Search Simulations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: d8170c2bbeab003339472d03033f1741014d6c4b
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 524
+source-wordcount: '524'
 ht-degree: 0%
-
 ---
-
 # Eseguire o rieseguire una simulazione personalizzata
 
 *funzionalità Beta*
@@ -35,29 +44,29 @@ Puoi generare una simulazione personalizzata per un portfolio [ottimizzato o att
 
 * Dalla visualizzazione [!UICONTROL Simulations]:
 
-   1. Nel menu principale, fare clic su **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
+  1. Nel menu principale, fare clic su **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
 
-   1. Sopra la tabella dati, fare clic su **[!UICONTROL Run Simulation]**.
+  1. Sopra la tabella dati, fare clic su **[!UICONTROL Run Simulation]**.
 
-   1. Selezionare il portfolio:
+  1. Selezionare il portfolio:
 
-      1. Fare clic su **[!UICONTROL Select Portfolio]**.
+     1. Fare clic su **[!UICONTROL Select Portfolio]**.
 
-      1. Seleziona il portfolio.
+     1. Seleziona il portfolio.
 
-         Per cercare i portfolio che includono una stringa di testo specifica, inizia a immettere la stringa di testo all’interno del campo di ricerca. I valori non fanno distinzione tra maiuscole e minuscole.
+        Per cercare i portfolio che includono una stringa di testo specifica, inizia a immettere la stringa di testo all’interno del campo di ricerca. I valori non fanno distinzione tra maiuscole e minuscole.
 
-      1. Fare clic su **[!UICONTROL Proceed]**.
+     1. Fare clic su **[!UICONTROL Proceed]**.
 
 * Dalla visualizzazione [!UICONTROL Portfolios]:
 
-   1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
+  1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
 
-   1. Effettuare una delle seguenti operazioni:
+  1. Effettuare una delle seguenti operazioni:
 
-      * Posizionare il cursore sulla riga portfolio. Accanto al nome del portfolio, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Run Simulation]**.
+     * Posizionare il cursore sulla riga portfolio. Accanto al nome del portfolio, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Run Simulation]**.
 
-      * Seleziona la casella di controllo accanto al portfolio. Nella barra degli strumenti Azioni in blocco fare clic su **[!UICONTROL Run Simulation]**.
+     * Seleziona la casella di controllo accanto al portfolio. Nella barra degli strumenti Azioni in blocco fare clic su **[!UICONTROL Run Simulation]**.
 
 1. Specificare le [impostazioni di simulazione personalizzate](#custom-simulation-settings):
 

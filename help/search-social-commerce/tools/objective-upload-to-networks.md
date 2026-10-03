@@ -1,23 +1,28 @@
 ---
 title: Abilita il caricamento degli obiettivi nelle reti di annunci
-description: Scopri come caricare gli obiettivi per i portfolio ibridi in  [!DNL Google Ads]  e  [!DNL Microsoft Advertising].
+description: Scopri come caricare gli obiettivi per i portfolio ibridi in [!DNL Google Ads] e [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-TQID: https://experienceleague.adobe.com/qZwJg4s5MvfUoNBiA-VGhrfKKRt9MjjJOq9jLAdRzi0
+TQID: 'https://experienceleague.adobe.com/qZwJg4s5MvfUoNBiA-VGhrfKKRt9MjjJOq9jLAdRzi0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 676
+source-wordcount: '691'
 ht-degree: 0%
-
 ---
-
 # Abilita il caricamento degli obiettivi nelle reti di annunci
 
 *Inserzionisti con [!DNL Google Ads] e solo [!DNL Microsoft Advertising] account*
@@ -83,9 +88,9 @@ Se l&#39;obiettivo, denominato `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_a
 
 * ([!DNL Google Ads]) Verificare se le conversioni devono essere caricate a livello di account o manager. Se devono essere caricati a livello di manager:
 
-   * Verificare se le credenziali per l&#39;account manager [!DNL Google Ads] sono fornite in **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**. Se necessario, [aggiungi le credenziali per l&#39;account manager](/help/search-social-commerce/admin/manager-accounts.md).
+  * Verificare se le credenziali per l&#39;account manager [!DNL Google Ads] sono fornite in **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**. Se necessario, [aggiungi le credenziali per l&#39;account manager](/help/search-social-commerce/admin/manager-accounts.md).
 
-   * Verifica se l’account di rete dell’annuncio include già lo stesso nome di metrica. In caso affermativo, rinomina la metrica in modo da poter creare la proprietà corretta a livello di manager.
+  * Verifica se l’account di rete dell’annuncio include già lo stesso nome di metrica. In caso affermativo, rinomina la metrica in modo da poter creare la proprietà corretta a livello di manager.
 
 * Verifica che sia selezionata l’opzione &quot;ibrida&quot; del portfolio e che l’obiettivo abbia ricavi validi.
 

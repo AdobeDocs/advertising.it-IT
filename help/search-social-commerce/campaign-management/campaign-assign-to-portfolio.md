@@ -3,20 +3,24 @@ title: Assegnare campagne a un portfolio
 description: Scopri come includere le campagne nei portfolio per l’ottimizzazione.
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/odAzHLff8w9TCC-X6DUidlxc2RRbcjlCbb-qWWutTK0
+TQID: 'https://experienceleague.adobe.com/odAzHLff8w9TCC-X6DUidlxc2RRbcjlCbb-qWWutTK0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 588
+source-wordcount: '581'
 ht-degree: 0%
-
 ---
-
 # Assegnare campagne a un portfolio
 
 L’assegnazione di una campagna a un portfolio ottimizzato consente a Search, Social e Commerce di ottimizzare le offerte, il budget delle campagne e i target delle strategie di offerta per parole chiave e annunci nella campagna. È possibile assegnare le campagne a un portfolio dalla vista [!UICONTROL Campaigns], quando si crea il portfolio o modificandone le impostazioni.
@@ -65,29 +69,29 @@ Non tutti i tipi di campagne e le reti pubblicitarie sono idonei per l&#39;ottim
 
    * Per aggiungere una o più campagne allo stesso portfolio, effettua le seguenti operazioni:
 
-      1. Seleziona la casella di controllo accanto a ciascuna campagna.
+     1. Seleziona la casella di controllo accanto a ciascuna campagna.
 
-         Per suggerimenti sulla selezione di più righe, vedere &quot;[Selezionare più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+        Per suggerimenti sulla selezione di più righe, vedere &quot;[Selezionare più righe](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-         >[!NOTE]
-         >
-         >Tutte le campagne in un portfolio devono utilizzare la stessa valuta.
+        >[!NOTE]
+        >
+        >Tutte le campagne in un portfolio devono utilizzare la stessa valuta.
 
-      1. Nella barra degli strumenti sopra la tabella dati fare clic su ![Altro](/help/search-social-commerce/assets/more.png "Altro") e quindi su **[!UICONTROL Assign]>[!UICONTROL Portfolio]**.
+     1. Nella barra degli strumenti sopra la tabella dati fare clic su ![Altro](/help/search-social-commerce/assets/more.png "Altro") e quindi su **[!UICONTROL Assign]>[!UICONTROL Portfolio]**.
 
 1. Selezionare il portfolio:
 
    * Per sfogliare i gruppi di portfolio:
 
-      1. Espandere un gruppo di portfolio nei relativi portafogli figlio facendo clic sul nome [!UICONTROL Portfolio Group].
+     1. Espandere un gruppo di portfolio nei relativi portafogli figlio facendo clic sul nome [!UICONTROL Portfolio Group].
 
-      1. Seleziona il portfolio.
+     1. Seleziona il portfolio.
 
    * Per cercare un portfolio:
 
-      1. Immettere almeno tre lettere nel campo di input.
+     1. Immettere almeno tre lettere nel campo di input.
 
-      1. Nei risultati della ricerca, fare clic su **[!UICONTROL Select]** accanto al nome del portfolio.
+     1. Nei risultati della ricerca, fare clic su **[!UICONTROL Select]** accanto al nome del portfolio.
 
 1. (Facoltativo) Fare clic su **[!UICONTROL Additional Details]** e, facoltativamente, immettere un nome e una descrizione per il progetto.
 

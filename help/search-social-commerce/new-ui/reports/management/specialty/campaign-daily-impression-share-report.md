@@ -2,20 +2,26 @@
 title: '[!UICONTROL Campaign Daily Impression Share Report]'
 description: Informazioni su [!UICONTROL Campaign Daily Impression Share Report].
 feature: Search Reports, Search Specialty Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '117'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Campaign Daily Impression Share Report]
 
 Solo *[!DNL Google Ads]e [!DNL Microsoft Advertising] account*
 
 [!UICONTROL Campaign Daily Impression Share Report] include metriche di condivisione delle impression giornaliere per tipo di dispositivo per una o più campagne. Per impostazione predefinita, i dati includono una riga per ogni campagna che ha ricevuto almeno un’impression o un clic per ogni giorno nell’intervallo di date specificato e le righe sono in ordine crescente per data. Il report può includere facoltativamente dati tracciati da [!DNL Adobe] e metriche derivate.
 
-Le metriche di condivisione dell&#39;impression sono disponibili a 13:00 nel fuso orario dell&#39;inserzionista per il giorno precedente. Puoi visualizzare i dati relativi ai due mesi precedenti.
+Le metriche di condivisione dell’impression sono disponibili alle 13:00 nel fuso orario dell’inserzionista del giorno precedente. Puoi visualizzare i dati relativi ai due mesi precedenti.
 
 ## Colonne predefinite
 

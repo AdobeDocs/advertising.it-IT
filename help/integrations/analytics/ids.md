@@ -3,26 +3,37 @@ title: ID Adobe Advertising utilizzati da [!DNL Analytics]
 description: ID Adobe Advertising utilizzati da [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-TQID: https://experienceleague.adobe.com/OX1JFaA2CvN19DTTEWOPP9bb0Aajy0MbNBpNIxdg4RI
+TQID: 'https://experienceleague.adobe.com/OX1JFaA2CvN19DTTEWOPP9bb0Aajy0MbNBpNIxdg4RI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 9f19d84117f68a7672c9090116474570e0625cab
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1105
+source-wordcount: '1105'
 ht-degree: 0%
-
 ---
-
 # ID Adobe Advertising utilizzati da [!DNL Analytics]
 
 *Inserzionisti con una sola integrazione Adobe Advertising-Adobe Analytics*
@@ -37,15 +48,15 @@ Adobe Advertising distingue tra una voce di click-through o di view-through per 
 
 * Una voce view-through viene acquisita quando un utente visita il sito dopo aver visualizzato un annuncio ma non facendo clic su di esso. [!DNL Analytics] registra un view-through se sono soddisfatte due condizioni:
 
-   * Il visitatore non ha click-through per un annuncio [!DNL DSP] o [!DNL Search, Social, & Commerce] durante l&#39;[intervallo di lookback su clic](/help/integrations/analytics/prerequisites.md#lookback-a4adc).
+  * Il visitatore non ha click-through per un annuncio [!DNL DSP] o [!DNL Search, Social, & Commerce] durante l&#39;[intervallo di lookback su clic](/help/integrations/analytics/prerequisites.md#lookback-a4adc).
 
-   * Il visitatore ha visto almeno un annuncio [!DNL DSP] durante l&#39;[intervallo di lookback delle impression](/help/integrations/analytics/prerequisites.md#lookback-a4adc). L’ultima impression viene passata come view-through.
+  * Il visitatore ha visto almeno un annuncio [!DNL DSP] durante l&#39;[intervallo di lookback delle impression](/help/integrations/analytics/prerequisites.md#lookback-a4adc). L’ultima impression viene passata come view-through.
 
 * Una voce di click-through viene acquisita quando un visitatore del sito fa clic su un annuncio prima di entrare nel sito. [!DNL Analytics] acquisisce un click-through quando si verifica una delle seguenti condizioni:
 
-   * L’URL include un EF ID e un AMO ID aggiunti all’URL della pagina di destinazione da Adobe Advertising.
+  * L’URL include un EF ID e un AMO ID aggiunti all’URL della pagina di destinazione da Adobe Advertising.
 
-   * L’URL non contiene codici di tracciamento, ma il codice JavaScript di Adobe Advertising rileva un clic negli ultimi due minuti.
+  * L’URL non contiene codici di tracciamento, ma il codice JavaScript di Adobe Advertising rileva un clic negli ultimi due minuti.
 
 ![Integrazione [!DNL Analytics] basata su visualizzazioni di Adobe Advertising](/help/integrations/assets/a4adc-view-through-process.png)
 
@@ -134,27 +145,27 @@ Il parametro viene aggiunto agli URL di tracciamento in uno dei seguenti modi:
 
 * (Consigliato) Quando la funzione di inserimento lato server è implementata.
 
-   * Clienti DSP: il pixel server aggiunge automaticamente il parametro s_kwcid ai suffissi della pagina di destinazione quando un utente finale visualizza un annuncio con pixel di Adobe Advertising.
+  * Clienti DSP: il pixel server aggiunge automaticamente il parametro s_kwcid ai suffissi della pagina di destinazione quando un utente finale visualizza un annuncio con pixel di Adobe Advertising.
 
-   * Clienti Search, Social e Commerce:
+  * Clienti Search, Social e Commerce:
 
-      * Per gli account [!DNL Google Ads] e [!DNL Microsoft Advertising] con l&#39;impostazione [!UICONTROL Auto Upload] abilitata per l&#39;account o la campagna, il pixel server aggiunge automaticamente il parametro s_kwcid ai suffissi della pagina di destinazione quando un utente finale fa clic su un annuncio con il pixel di Adobe Advertising.
+    * Per gli account [!DNL Google Ads] e [!DNL Microsoft Advertising] con l&#39;impostazione [!UICONTROL Auto Upload] abilitata per l&#39;account o la campagna, il pixel server aggiunge automaticamente il parametro s_kwcid ai suffissi della pagina di destinazione quando un utente finale fa clic su un annuncio con il pixel di Adobe Advertising.
 
-      * Per le altre reti di annunci o per gli account [!DNL Google Ads] e [!DNL Microsoft Advertising] con l&#39;impostazione [!UICONTROL Auto Upload] disabilitata, aggiungi manualmente il parametro ai [parametri di aggiunta a livello di account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, che lo aggiungono agli URL di base.
+    * Per le altre reti di annunci o per gli account [!DNL Google Ads] e [!DNL Microsoft Advertising] con l&#39;impostazione [!UICONTROL Auto Upload] disabilitata, aggiungi manualmente il parametro ai [parametri di aggiunta a livello di account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, che lo aggiungono agli URL di base.
 
 * Quando la funzione di inserimento lato server non è implementata:
 
-   * Clienti DSP: il [codice JavaScript](javascript.md) registra automaticamente i click-through e i view-through. Se un browser non supporta i cookie di terze parti, puoi comunque tenere traccia delle conversioni basate su clic per i seguenti tipi di annunci:
+  * Clienti DSP: il [codice JavaScript](javascript.md) registra automaticamente i click-through e i view-through. Se un browser non supporta i cookie di terze parti, puoi comunque tenere traccia delle conversioni basate su clic per i seguenti tipi di annunci:
 
-      * Per [!DNL Flashtalking] tag annuncio, inserisci manualmente macro aggiuntive per &quot;[Aggiungi [!DNL Analytics for Advertising] Macro a [!DNL Flashtalking] Tag annuncio](/help/integrations/analytics/macros-flashtalking.md).&quot; **Nota:** questa procedura non è necessaria se l&#39;organizzazione ha una relazione diretta con [!DNL Flashtalking] e si utilizzano macro di passaggio dati per tenere traccia dei parametri di tracciamento di `s_kwcid` e `ef_id` in base alla documentazione di supporto di [!DNL Flashtalking] all&#39;indirizzo [https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros).
+    * Per [!DNL Flashtalking] tag annuncio, inserisci manualmente macro aggiuntive per &quot;[Aggiungi [!DNL Analytics for Advertising] Macro a [!DNL Flashtalking] Tag annuncio](/help/integrations/analytics/macros-flashtalking.md).&quot; **Nota:** questa procedura non è necessaria se l&#39;organizzazione ha una relazione diretta con [!DNL Flashtalking] e si utilizzano macro di passaggio dati per tenere traccia dei parametri di tracciamento di `s_kwcid` e `ef_id` in base alla documentazione di supporto di [!DNL Flashtalking] all&#39;indirizzo [https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros).
 
-      * Per [!DNL Google Campaign Manager 360] tag annuncio, inserisci manualmente macro aggiuntive per &quot;[Aggiungi [!DNL Analytics for Advertising] Macro a [!DNL Google Campaign Manager 360] Tag annuncio](/help/integrations/analytics/macros-google-campaign-manager.md).&quot;
+    * Per [!DNL Google Campaign Manager 360] tag annuncio, inserisci manualmente macro aggiuntive per &quot;[Aggiungi [!DNL Analytics for Advertising] Macro a [!DNL Google Campaign Manager 360] Tag annuncio](/help/integrations/analytics/macros-google-campaign-manager.md).&quot;
 
-   * Clienti Search, Social e Commerce:
+  * Clienti Search, Social e Commerce:
 
-      * Per gli annunci ([!DNL Google Ads] e [!DNL Microsoft Advertising]), aggiungi manualmente il parametro AMO ID ai suffissi della pagina di destinazione, idealmente a [livello account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, a meno che non sia necessario il tracciamento diverso per i singoli componenti account.
+    * Per gli annunci ([!DNL Google Ads] e [!DNL Microsoft Advertising]), aggiungi manualmente il parametro AMO ID ai suffissi della pagina di destinazione, idealmente a [livello account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, a meno che non sia necessario il tracciamento diverso per i singoli componenti account.
 
-      * Per gli annunci su tutte le altre reti pubblicitarie, aggiungi manualmente il parametro AMO ID ai [parametri di aggiunta a livello di account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, che lo aggiungono agli URL di base.
+    * Per gli annunci su tutte le altre reti pubblicitarie, aggiungi manualmente il parametro AMO ID ai [parametri di aggiunta a livello di account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, che lo aggiungono agli URL di base.
 
 Per implementare la funzione di inserimento lato server o per determinare l’opzione migliore per la tua azienda, rivolgiti al team del tuo account Adobe.
 

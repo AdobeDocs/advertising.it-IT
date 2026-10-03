@@ -3,27 +3,31 @@ title: Gestire i moltiplicatori delle offerte per i posizionamenti
 description: Scopri come creare e modificare i moltiplicatori di offerta per i target di posizionamento.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-TQID: https://experienceleague.adobe.com/6lo2C8Pqajc9hOkfoRVXM3F1L0QwGGEKQGV8I5jYaq0
+TQID: 'https://experienceleague.adobe.com/6lo2C8Pqajc9hOkfoRVXM3F1L0QwGGEKQGV8I5jYaq0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 910
+source-wordcount: '912'
 ht-degree: 1%
-
 ---
-
 # Gestire i moltiplicatori delle offerte per i posizionamenti
 
 Puoi creare e gestire i moltiplicatori di offerte, per i quali viene moltiplicata un&#39;offerta calcolata in modo algoritmico per aumentare o diminuire l&#39;offerta, per i tuoi obiettivi di posizionamento esistenti di [tipi di target idonei](#bid-multiplier-by-target). Puoi modificare manualmente i valori del moltiplicatore di offerte per un posizionamento o caricare un foglio di calcolo con valori per uno o più posizionamenti.
 
-Per impostazione predefinita, il moltiplicatore di offerta per un target è 1,00, il che significa che l’offerta non viene adeguata per tale target. I valori possono essere compresi tra 0,10 e 10,00. Ad esempio, un moltiplicatore di offerta di 0,5 riduce un&#39;offerta di 6 USD a 3 USD (0,5 x 6). Quando un&#39;asta è idonea per più modificatori di offerta, tutti i moltiplicatori di offerta applicabili vengono moltiplicati. Ad esempio, se la California ha un moltiplicatore di offerta pari a 2 e San Francisco ha un moltiplicatore di offerta pari a 3, il moltiplicatore di offerta finale per gli annunci che vengono eseguiti a San Francisco è 6.
+Per impostazione predefinita, il moltiplicatore di offerta per un target è 1,00, il che significa che l’offerta non viene adeguata per tale target. I valori possono essere compresi tra 0,10 e 10,00. Ad esempio, un moltiplicatore di offerta di 0,5 diminuisce un’offerta USD 6 ad USD 3 (0,5 x 6). Quando un&#39;asta è idonea per più modificatori di offerta, tutti i moltiplicatori di offerta applicabili vengono moltiplicati. Ad esempio, se la California ha un moltiplicatore di offerta pari a 2 e San Francisco ha un moltiplicatore di offerta pari a 3, il moltiplicatore di offerta finale per gli annunci che vengono eseguiti a San Francisco è 6.
 
 >[!NOTE]
 >
@@ -53,21 +57,21 @@ Puoi modificare manualmente i valori o caricare un foglio di calcolo per un sing
 
    * Per caricare un file CSV con valori del moltiplicatore di offerta in modo da sovrascrivere tutti i valori esistenti:
 
-      1. Fai clic su **[!UICONTROL CSV File Edit]** in alto a destra.
+     1. Fai clic su **[!UICONTROL CSV File Edit]** in alto a destra.
 
-      1. A) fare clic su **[!UICONTROL Download Template]** e modificare il file oppure b) modificare un modello scaricato in precedenza. Salvare il file modificato sul dispositivo o sulla rete.
+     1. A) fare clic su **[!UICONTROL Download Template]** e modificare il file oppure b) modificare un modello scaricato in precedenza. Salvare il file modificato sul dispositivo o sulla rete.
 
-         I fogli di calcolo scaricati includono un foglio per ogni tipo di oggetto (ad esempio Paese, Origini e Categoria sito). Sono inclusi solo i moltiplicatori di offerte esistenti con valori &lt; 1,0 o > 1,0.
+        I fogli di calcolo scaricati includono un foglio per ogni tipo di oggetto (ad esempio Paese, Origini e Categoria sito). Sono inclusi solo i moltiplicatori di offerte esistenti con valori &lt; 1,0 o > 1,0.
 
-         * Per aggiungere un moltiplicatore di offerta per una destinazione esistente, inserisci la destinazione utilizzando la stessa sintassi visibile nell’interfaccia utente e il corrispondente valore del moltiplicatore di offerta.
+        * Per aggiungere un moltiplicatore di offerta per una destinazione esistente, inserisci la destinazione utilizzando la stessa sintassi visibile nell’interfaccia utente e il corrispondente valore del moltiplicatore di offerta.
 
-         * Per rimuovere un modificatore di offerta, imposta il valore del moltiplicatore di offerta su 1,0 oppure elimina tutte le informazioni relative alla riga.
+        * Per rimuovere un modificatore di offerta, imposta il valore del moltiplicatore di offerta su 1,0 oppure elimina tutte le informazioni relative alla riga.
 
-         ![Riga di esempio in un file del foglio di calcolo del moltiplicatore di offerte](/help/dsp/assets/bid-multiplier-spreadsheet.png "Riga di esempio in un file del foglio di calcolo del moltiplicatore di offerte")
+        ![Riga di esempio in un file del foglio di calcolo del moltiplicatore di offerte](/help/dsp/assets/bid-multiplier-spreadsheet.png "Riga di esempio in un file del foglio di calcolo del moltiplicatore di offerte")
 
-      1. Fare clic su **[!UICONTROL Next]** per passare alla sezione [!UICONTROL Upload File] e a) trascinare il file modificato nella casella oppure b) fare clic all&#39;interno della casella per selezionare il file dal dispositivo o dalla rete.
+     1. Fare clic su **[!UICONTROL Next]** per passare alla sezione [!UICONTROL Upload File] e a) trascinare il file modificato nella casella oppure b) fare clic all&#39;interno della casella per selezionare il file dal dispositivo o dalla rete.
 
-      1. Verificare i dati caricati nella sezione [!UICONTROL Review & Submit], quindi fare clic su **[!UICONTROL Save]**.
+     1. Verificare i dati caricati nella sezione [!UICONTROL Review & Submit], quindi fare clic su **[!UICONTROL Save]**.
 
 ## Carica moltiplicatori di offerte per uno o più posizionamenti
 
