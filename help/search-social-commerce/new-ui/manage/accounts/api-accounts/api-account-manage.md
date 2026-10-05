@@ -9,19 +9,14 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2100'
 ht-degree: 0%
 ---
 # (Nuova interfaccia) Gestire gli account di rete degli annunci tramite la connessione API
 
 <!-- Besides just logging into an account, do you have to make any other choices once you're logged in (such as to give speciic permissions to SSC?  And what about oAuth tokens -- do we still use them? -->
-
-*funzionalità Beta*
-
-<!-- Move out info about Naver into a separate page -->
-
 Di seguito sono riportate le istruzioni per la gestione degli account di rete di annunci sincronizzati da Search, Social e Commerce tramite l’API della rete di annunci.
 
 <!-- Move out info about Naver into a separate page -->
@@ -36,13 +31,13 @@ Per abilitare la sincronizzazione di un account, è necessario creare un record 
 >
 >Per creare un account effettivo sulla rete di annunci, vai al sito web della rete di annunci.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
 
 1. Fare clic su **[!UICONTROL Create Account]**.
 
 1. Fare clic sul nome della rete di annunci e quindi su **[!UICONTROL Next]**.
 
-1. (Tutte le reti di annunci tranne [!DNL Yandex]) Accedi alla rete di annunci utilizzando le credenziali dell&#39;inserzionista. Selezionare l&#39;opzione &quot;Registrazione account per questo account&quot;. Quindi, in alto a destra, fare clic su **[!UICONTROL Next]**.
+1. (Tutte le reti di annunci tranne [!DNL ChatGPT Ads] e [!DNL Yandex]) Accedi alla rete di annunci utilizzando le credenziali dell&#39;inserzionista. Selezionare l&#39;opzione &quot;Registrazione account per questo account&quot;. Quindi, in alto a destra, fare clic su **[!UICONTROL Next]**.
 
 1. Specifica le [impostazioni account](#account-settings-api) in ogni scheda disponibile.
 
@@ -58,7 +53,7 @@ Per autenticare nuovamente le impostazioni dell&#39;account per aggiornare la co
 >
 >Per modificare un account effettivo sulla rete di annunci, vai al sito web della rete di annunci.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
 
 1. Selezionare l&#39;account in uno dei modi seguenti:
 
@@ -76,11 +71,13 @@ Per autenticare nuovamente le impostazioni dell&#39;account per aggiornare la co
 
 ## Autenticazione di un account di rete di annunci {#reauthenticate}
 
+*Non applicabile a [!DNL ChatGPT Ads] account*
+
 Per aggiornare la connessione di rete dell’annuncio o le autorizzazioni di aggiornamento per l’account, autentica nuovamente l’account.
 
 1. (Se hai effettuato l’accesso a un altro account per la stessa rete di annunci nella stessa applicazione del browser) Esci da qualsiasi account diverso da quello dell’inserzionista.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
 
 <!-- For Bing and Yandex, the right-click menu includes "Re authenticate." Clarify why just those types -->
 
@@ -98,7 +95,7 @@ Per aggiornare la connessione di rete dell’annuncio o le autorizzazioni di agg
 
 Quando abiliti un account di ad network, Search, Social e Commerce sincronizzano i dati della campagna con l’account (se supportato) e inviano offerte automatizzate e/o budget delle campagne nei portfolio. Quando disattivi un account di rete di annunci, Search, Social e Commerce interrompe tutte le attività sull’account. I dati raccolti mentre l’account era attivo vengono comunque memorizzati, ma le visualizzazioni e i rapporti di gestione delle campagne non includono i dati per il periodo di tempo in cui l’account è disabilitato. In seguito, potrai riabilitare l’account per riprendere l’attività con l’account.
 
-1. Nel menu principale, fare clic su **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
+1. Nel menu principale, fare clic su **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
 
 1. Effettuare una delle seguenti operazioni:
 
@@ -141,7 +138,7 @@ Le impostazioni dell’account variano a seconda della rete di annunci. Potresti
 
 **[!DNL [Account di rete dell&#39;annuncio]]:** (visibile durante la creazione di un account) L&#39;account di rete dell&#39;annuncio da sincronizzare.
 
-**[Dettagli di accesso]:** (solo account Yandex) Le credenziali dell&#39;account da utilizzare:
+**[Dettagli di accesso]:** ([!DNL Yandex] account) Le credenziali dell&#39;account da utilizzare:
 
 * **[!UICONTROL Login]:** Nome o ID di accesso per abilitare l&#39;accesso API all&#39;account.
 
@@ -154,12 +151,6 @@ Le impostazioni dell’account variano a seconda della rete di annunci. Potresti
 * **[!UICONTROL Purse Campaign ID]:** ([!DNL Yandex] account con l&#39;impostazione Account condiviso disabilitato solo; facoltativo) ID numerico per la campagna utilizzato per pagare tutte le campagne pubblicitarie nell&#39;account.
 
 * **[!UICONTROL Finance Token]:** ([!DNL Yandex] account con l&#39;impostazione Account condiviso disabilitato solo; facoltativo) Token sviluppatore da utilizzare per le chiamate API relative ai dati finanziari, ad esempio per riallocare denaro dal wallet tra le campagne dell&#39;inserzionista in base alle esigenze di ottimizzazione del portfolio.
-
-**[!UICONTROL Network Account ID]:** (tutte le reti di annunci tranne [!DNL Yandex] L&#39;ID account assegnato dalla rete di annunci.
-
->[!NOTE]
->
->Gli account del gestore della rete di annunci non sono supportati qui. Per identificare un account manager per [!DNL Microsoft Advertising], utilizzare rispettivamente il campo ID account principale o Account MCC. Per [configurare le credenziali per un account di manager [!DNL Google Ads] &#x200B;](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md), passare a [!UICONTROL Setup] \> [!UICONTROL Manager Accounts].
 
 **[!UICONTROL Currency]:** (sola lettura) L&#39;abbreviazione della valuta utilizzata per l&#39;account. Questo valore viene compilato automaticamente con la valuta configurata per l’account sulla rete di annunci una volta salvato il record.
 
@@ -193,7 +184,7 @@ Per abilitare questa funzionalità, attivare **[Abilita tracciamento]**.
 >* Se passi da [!UICONTROL Standard] a [!UICONTROL Token] o viceversa, devi rigenerare gli URL di tracciamento per l&#39;account.
 >* Puoi sovrascrivere l’impostazione a livello di account a livello di campagna.
 
-**[!UICONTROL Auto Update]:** (quando il tracciamento di Ricerca, Social e Commerce è abilitato) Standardizza gli URL di tracciamento per verificarne la compatibilità tra browser e server. Search, Social e Commerce caricano automaticamente i seguenti elementi nella rete di annunci durante la successiva sincronizzazione: (a) parametri di tracciamento di Search, Social e Commerce per i modelli di tracciamento e gli stessi parametri aggiunti agli URL finali; (b) nuovi URL di destinazione incorporati con il codice di tracciamento di Search, Social e Commerce. Per gli inserzionisti con un&#39;integrazione [Adobe Advertising-Adobe Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=it) e una configurazione AMO ID (s_kwcid) lato server, il caricamento include anche [parametri AMO ID](/help/integrations/analytics/ids.md#amo-id) per i tuoi account [!DNL Google Ads] e [!DNL Microsoft Advertising]. L&#39;impostazione predefinita a livello di account viene ereditata dalle impostazioni di tracciamento dell&#39;inserzionista. Puoi sovrascrivere l’impostazione a livello di account a livello di campagna.
+**[!UICONTROL Auto Update]:** (quando il tracciamento di Ricerca, Social e Commerce è abilitato) Standardizza gli URL di tracciamento per verificarne la compatibilità tra browser e server. Search, Social e Commerce caricano automaticamente i seguenti elementi nella rete di annunci durante la successiva sincronizzazione: (a) parametri di tracciamento di Search, Social e Commerce per i modelli di tracciamento e gli stessi parametri aggiunti agli URL finali; (b) nuovi URL di destinazione incorporati con il codice di tracciamento di Search, Social e Commerce. Per gli inserzionisti con un&#39;integrazione [Adobe Advertising-Adobe Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) e una configurazione AMO ID (s_kwcid) lato server, il caricamento include anche [parametri AMO ID](/help/integrations/analytics/ids.md#amo-id) per i tuoi account [!DNL Google Ads] e [!DNL Microsoft Advertising]. L&#39;impostazione predefinita a livello di account viene ereditata dalle impostazioni di tracciamento dell&#39;inserzionista. Puoi sovrascrivere l’impostazione a livello di account a livello di campagna.
 
 Gli URL di tracciamento vengono aggiornati ogni giorno solo per le entità non sincronizzate, ovvero nuove entità aggiunte ed entità esistenti le cui proprietà sono state modificate. Pertanto, se modifichi questa impostazione da disabilitato a abilitato per un inserzionista/account/campagna esistente, gli URL di tracciamento non vengono aggiornati per le entità esistenti già sincronizzate. Per aggiungere il tracciamento agli URL delle entità sincronizzate esistenti, contatta il team dell’account Adobe e richiedi un processo di sincronizzazione manuale una tantum. Il processo di caricamento automatico gestirà le modifiche future.
 
@@ -240,7 +231,7 @@ Gli account che utilizzano il tracciamento dei clic di Adobe Advertising devono 
 
 ## Scheda [!UICONTROL Set up Adobe Analytics]
 
-Queste impostazioni sono disponibili per gli inserzionisti con un&#39;integrazione [[!DNL Adobe Analytics for Advertising] 1&rbrace;.](/help/integrations/analytics/overview.md)
+Queste impostazioni sono disponibili per gli inserzionisti con un&#39;integrazione [[!DNL Adobe Analytics for Advertising] 1}.](/help/integrations/analytics/overview.md)
 
 **[!UICONTROL Adobe Analytics Report Suite]:** (Facoltativo) Una o più suite di rapporti di Analytics a cui Search, Social e Commerce invia i dati che raccoglie dalla rete di annunci, incluse le classificazioni delle entità e i dati di clic per l&#39;account. Questa funzionalità è disponibile solo per le reti di annunci supportate.<!-- What are the repercussions of changing the suites? Timing of updated data? -->
 
@@ -251,5 +242,5 @@ Affinché i dati vengano visualizzati nelle suite di rapporti, (a) la funzione A
 >[!MORELIKETHIS]
 >
 >* [Informazioni sugli account di rete di annunci](../ad-network-account-about.md)
->* [Gestione account centro esercenti](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
+>* [Gestione account centro esercenti](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)
 >* [Aggiorna il codice di tracciamento s_kwcid per a [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
