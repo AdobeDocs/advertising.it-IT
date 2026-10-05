@@ -131,7 +131,7 @@ Tuttavia, non è disponibile per [!DNL Google Ads] campagne Dynamic Search Ad (D
 
 1. Fare clic su **[!UICONTROL Create]**.
 
-1. <!-- Add link to where to generate this once available to users-->(Acquisti nelle campagne con tracciamento delle conversioni di Adobe Advertising; facoltativo) Per tenere traccia dei clic sull’annuncio, aggiungi manualmente un URL di tracciamento alle impostazioni dell’account, della campagna o del gruppo di prodotti.
+1. &#x200B;<!-- Add link to where to generate this once available to users-->(Acquisti nelle campagne con tracciamento delle conversioni di Adobe Advertising; facoltativo) Per tenere traccia dei clic sull’annuncio, aggiungi manualmente un URL di tracciamento alle impostazioni dell’account, della campagna o del gruppo di prodotti.
 
 ## Rinominare un annuncio {#ad-rename}
 
