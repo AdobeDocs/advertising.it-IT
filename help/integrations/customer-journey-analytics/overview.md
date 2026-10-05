@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2c5cc3a9b50bf58aa7d44300471716674e244451
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '497'
 ht-degree: 0%
 ---
 # Panoramica dell’integrazione tra Adobe Advertising e Customer Journey Analytics
@@ -44,7 +44,7 @@ Adobe Advertising è integrato con Adobe Customer Journey Analytics per la condi
 
 * Gli inserzionisti con [!DNL Analytics for Advertising] e Customer Journey Analytics hanno le stesse funzionalità che hanno tramite [!DNL Analytics for Advertising], con l&#39;aggiunta di visualizzazioni in Customer Journey Analytics.
 
-  Continuerai a tenere traccia degli eventi di click-through utilizzando Adobe Experience Platform Web SDK (`alloy.js`) o il servizio Adobe Experience Cloud Identity (`visitorAPI.js`). Gli inserzionisti con Advertising DSP continueranno a utilizzare uno snippet di JavaScript per monitorare gli eventi view-through. I dati disponibili in Customer Journey Analytics includono:
+  Continuerai a tenere traccia degli eventi di click-through utilizzando Adobe Experience Platform Web SDK (`alloy.js`) o Adobe Visitor ID Service (`visitorAPI.js`). Gli inserzionisti con Advertising DSP continueranno a utilizzare uno snippet di JavaScript per monitorare gli eventi view-through. I dati disponibili in Customer Journey Analytics includono:
 
   * Dati sulle prestazioni della campagna da Adobe Advertising in Customer Journey Analytics
 
@@ -58,7 +58,7 @@ Adobe Advertising è integrato con Adobe Customer Journey Analytics per la condi
   In this use case, you don't need to perform any extra steps except to optionally [collect historical data for AMO IDs and EF IDs for use in Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
 -->
 
-* Gli inserzionisti con Customer Journey Analytics ma non [!DNL Analytics for Advertising] possono scambiare dati in modalità nativa tra Adobe Advertising e Customer Journey Analytics utilizzando [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it). È possibile tenere traccia degli eventi del sito utilizzando cookie, IP con hash, ID universali ([!DNL LiveRamp RampIDs] e ID5 ID) e attribuire eventi del sito all&#39;attività multimediale a pagamento. I seguenti dati sono disponibili a livello di campagna, gruppo di annunci, pacchetto, posizionamento e parola chiave:
+* Gli inserzionisti con Customer Journey Analytics ma non [!DNL Analytics for Advertising] possono scambiare dati in modalità nativa tra Adobe Advertising e Customer Journey Analytics utilizzando [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html). È possibile tenere traccia degli eventi del sito utilizzando cookie, IP con hash, ID universali ([!DNL LiveRamp RampIDs] e ID5 ID) e attribuire eventi del sito all&#39;attività multimediale a pagamento. I seguenti dati sono disponibili a livello di campagna, gruppo di annunci, pacchetto, posizionamento e parola chiave:
 
   * Dati sulle prestazioni della campagna da Adobe Advertising in Customer Journey Analytics
 
