@@ -1,9 +1,8 @@
 ---
 source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '239'
 ht-degree: 0%
-
 ---
 # Modello di annuncio testuale - Classificazioni etichette
 
@@ -17,15 +16,15 @@ Per ogni componente della campagna a cui desideri assegnare le classificazioni d
 
    * Per ogni classificazione e valore di etichetta da assegnare al componente, effettua le seguenti operazioni:
 
-      1. Fare clic su **[!UICONTROL Add Label Classification]**.
+     1. Fare clic su **[!UICONTROL Add Label Classification]**.
 
-      1. Selezionare la classificazione dell&#39;etichetta esistente, quindi selezionare un valore esistente o immettere un nuovo valore.
+     1. Selezionare la classificazione dell&#39;etichetta esistente, quindi selezionare un valore esistente o immettere un nuovo valore.
 
-         La lunghezza massima di ogni valore è di 100 caratteri e può includere caratteri ASCII e non ASCII.
+        La lunghezza massima di ogni valore è di 100 caratteri e può includere caratteri ASCII e non ASCII.
 
-         Per inserire un nome di colonna come parametro dinamico per un valore di classificazione di etichetta, fare clic nel campo di input (il secondo campo) e quindi fare clic sul nome di una colonna nell&#39;elenco delle colonne.
+        Per inserire un nome di colonna come parametro dinamico per un valore di classificazione di etichetta, fare clic nel campo di input (il secondo campo) e quindi fare clic sul nome di una colonna nell&#39;elenco delle colonne.
 
-         Puoi includere un solo valore per classificazione per componente della campagna. Ad esempio, una campagna può avere Color=Red ma non Color=Red e Color=Blue.
+        Puoi includere un solo valore per classificazione per componente della campagna. Ad esempio, una campagna può avere Color=Red ma non Color=Red e Color=Blue.
 
    * Per modificare un valore di classificazione delle etichette esistente, selezionare o immettere un nuovo valore.
 
