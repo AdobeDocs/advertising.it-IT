@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2c5cc3a9b50bf58aa7d44300471716674e244451
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 0%
@@ -57,7 +57,7 @@ Users who want to convert first-party segments from their customer data platform
 
 The standard JavaScript library consists of two lines that allow [!DNL Analytics] and Adobe Advertising to communicate with each other. If the [!DNL Analytics for Advertising] integration was completed during the Adobe Advertising implementation, then you should have already received this code with instructions on how to deploy it.
 
-#### Implementations that use the Experience Cloud Identity Service `visitorAPI.js` code
+#### Implementations that use the Adobe Visitor ID Service `visitorAPI.js` code
 
 ```
 <script src="https://www.everestjs.net/static/le/last-event-tag-latest.min.js">
@@ -84,7 +84,7 @@ La libreria JavaScript è costituita da due righe che consentono a [!DNL Analyti
 
 ### Il codice
 
-#### Implementazioni che utilizzano il codice del servizio Experience Cloud Identity `visitorAPI.js`
+#### Implementazioni che utilizzano il codice `visitorAPI.js` del servizio ID visitatore di Adobe
 
 ```
 <script src="https://www.everestjs.net/static/le/last-event-tag-latest.min.js">
@@ -132,7 +132,7 @@ La funzione JavaScript [!DNL Analytics for Advertising] deve essere disponibile 
    1. Nella scheda Applicazione, individua il cookie `adcloud` e verifica che il cookie contenga `_les_v` (ultima visita) con un valore di `y` e una marca temporale dell&#39;epoca UTC che scade tra 30 minuti.
       1. Elimina il cookie `adcloud` e aggiorna la pagina.
 
-1. (Implementazioni che utilizzano il codice del servizio Experience Cloud Identity `visitorAPI.js`) Filtra su `/b/ss` per visualizzare l&#39;hit di Analytics.
+1. (Le implementazioni che utilizzano il codice `visitorAPI.js` del servizio ID visitatore di Adobe ) filtrano su `/b/ss` per visualizzare l&#39;hit di Analytics.
 
    ![Filtro su `/b/ss`](/help/integrations/assets/a4adc-code-validation-filter-bss.png)
 
@@ -159,7 +159,7 @@ La funzione JavaScript [!DNL Analytics for Advertising] deve essere disponibile 
 1. Nella barra degli strumenti di [!UICONTROL Solutions Filter], fare clic su [!UICONTROL Adobe Advertising] e [!UICONTROL Analytics].
 1. Nella riga del parametro [!UICONTROL Request URL - Hostname], individuare `lasteventf-tm.everesttech.net`.
 1. Nella riga [!UICONTROL Request - Parameters], controlla i segnali generati, in modo simile al passaggio 3 in &quot;[Come confermare il codice con [!DNL Chrome Developer Tools]](#validate-js-chrome)&quot;.
-   * (Implementazioni che utilizzano il codice `visitorAPI.js` del servizio Experience Cloud Identity) Verifica che il parametro `Sdid` corrisponda al `Supplemental Data ID` nel filtro di Adobe Analytics.
+   * (Implementazioni che utilizzano il codice `visitorAPI.js` del servizio ID visitatore di Adobe) Verifica che il parametro `Sdid` corrisponda al `Supplemental Data ID` nel filtro di Adobe Analytics.
    * (Implementazioni che utilizzano il codice `alloy.js` di Experience Platform [!DNL Web SDK]) Verificare che il valore del parametro `advertisingStitchID` corrisponda al `Sdid` inviato all&#39;Edge Network di Experience Platform.
    * Se il codice non viene generato, verificare che il cookie Adobe Advertising sia stato rimosso nella scheda [!UICONTROL Application]. Una volta rimossa, aggiorna la pagina e ripeti la procedura.
 
