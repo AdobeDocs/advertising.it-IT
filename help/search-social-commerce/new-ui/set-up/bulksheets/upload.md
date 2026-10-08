@@ -35,7 +35,7 @@ Puoi caricare i file dei bulksheet, i file degli errori di convalida delle pagin
 
 1. Fare clic su **[!UICONTROL Upload]**.
 
-All&#39;inizio dell&#39;attività, il file viene elencato nella visualizzazione [!UICONTROL Bulksheets]. Quando le notifiche e-mail per i bulksheet sono abilitate per [ in [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications-manage.md), viene inviata una notifica e-mail con un collegamento al file al termine del processo. A seconda della quantità di dati compilati, la notifica e-mail potrebbe richiedere alcuni minuti o più. Se la generazione del file non riesce, nella visualizzazione [!UICONTROL Bulksheets] viene elencato un file di errore e viene inviata una notifica e-mail con un collegamento al file di errore.
+All&#39;inizio dell&#39;attività, il file viene elencato nella visualizzazione [!UICONTROL Bulksheets]. Quando le notifiche e-mail per i bulksheet sono abilitate per [&#x200B; in [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications-manage.md), viene inviata una notifica e-mail con un collegamento al file al termine del processo. A seconda della quantità di dati compilati, la notifica e-mail potrebbe richiedere alcuni minuti o più. Se la generazione del file non riesce, nella visualizzazione [!UICONTROL Bulksheets] viene elencato un file di errore e viene inviata una notifica e-mail con un collegamento al file di errore.
 
 >[!NOTE]
 >
