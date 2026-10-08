@@ -164,7 +164,7 @@ Quando abiliti un account di ad network, Search, Social e Commerce sincronizzano
 
 >[!NOTE]
 >
->Gli account del gestore della rete di annunci non sono supportati qui. Per identificare un account manager per [!DNL Microsoft Advertising] o [!DNL Yandex], utilizzare rispettivamente il campo ID account principale o Account MCC. Per [configurare le credenziali per un account di manager [!DNL Google Ads] &#x200B;](/help/search-social-commerce/admin/manager-accounts.md), passare a [!UICONTROL Admin] \> [!UICONTROL Manager Accounts].
+>Gli account del gestore della rete di annunci non sono supportati qui. Per identificare un account manager per [!DNL Microsoft Advertising] o [!DNL Yandex], utilizzare rispettivamente il campo ID account principale o Account MCC. Per [configurare le credenziali per un account di manager [!DNL Google Ads] ](/help/search-social-commerce/admin/manager-accounts.md), passare a [!UICONTROL Admin] \> [!UICONTROL Manager Accounts].
 
 **[!UICONTROL Account Name]:** nome da visualizzare per l&#39;account in Search, Social e Commerce.
 
@@ -268,7 +268,7 @@ Gli account che utilizzano il tracciamento dei clic di Adobe Advertising devono 
 
 * **Formato S_kwcid:** (Account [!DNL Google Ads] esistenti per gli inserzionisti con un&#39;integrazione Adobe Advertising-Adobe Analytics e per i quali non è già stata eseguita la migrazione dell&#39;AMO ID (s_kwcid))
 
-Questo account utilizza il formato legacy per il codice di tracciamento AMO ID, che consente ad Adobe Advertising di condividere i dati sull’account con Adobe Analytics. Il [formato più recente](https://experienceleague.adobe.com/it/docs/analytics/components/dimensions/amo-id#dimension-items) include i parametri per l&#39;ID della campagna e l&#39;ID del gruppo di annunci, necessari per creare report accurati a livello di campagna e di gruppo di annunci per le campagne con prestazione massima [!DNL Google Ads], nonché per le bozze e gli esperimenti in Analytics:
+Questo account utilizza il formato legacy per il codice di tracciamento AMO ID, che consente ad Adobe Advertising di condividere i dati sull’account con Adobe Analytics. Il [formato più recente](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) include i parametri per l&#39;ID della campagna e l&#39;ID del gruppo di annunci, necessari per creare report accurati a livello di campagna e di gruppo di annunci per le campagne con prestazione massima [!DNL Google Ads], nonché per le bozze e gli esperimenti in Analytics:
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 

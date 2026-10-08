@@ -54,7 +54,7 @@ Le seguenti dimensioni creative si applicano a tutti i tipi di creatività.
 | | 930x180 | Banner superiore |
 | | 970x90 | Classifica superiore |
 | | 970x250 | Affissioni |
-| Mobile | 300x50 | Banner mobile |
+| Dispositivi mobili | 300x50 | Banner mobile |
 | | 320x50 | Banner mobile |
 | | 300x100 | Rettangolo 3:1 mobile |
 | | 320x160 | Rettangolo mobile 2:1 |

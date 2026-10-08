@@ -73,5 +73,5 @@ Vedere anche &quot;[(Interfaccia precedente) Scaricare dati da una visualizzazio
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; (nuova interfaccia) Informazioni su [!UICONTROL Ads view]](ad-view-about.md)
+>* [ (nuova interfaccia) Informazioni su [!UICONTROL Ads view]](ad-view-about.md)
 >* [(Nuova interfaccia) Modifica lo stato di un annuncio](ad-change-status.md)

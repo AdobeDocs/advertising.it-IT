@@ -33,7 +33,7 @@ Search, Social e Commerce stanno passando ad Adobe Identity Management Service (
 
 Le credenziali correnti di Ricerca, Social e Commerce rimarranno attive per un breve periodo di tempo, in modo da poterti preparare alla modifica.
 
-Per ulteriori informazioni sull&#39;interfaccia di CX Enterprise, inclusa la gestione del profilo utente, vedere &quot;[Interfaccia e amministrazione di CX Enterprise](https://experienceleague.adobe.com/it/docs/core-services/interface/experience-cloud).&quot;
+Per ulteriori informazioni sull&#39;interfaccia di CX Enterprise, inclusa la gestione del profilo utente, vedere &quot;[Interfaccia e amministrazione di CX Enterprise](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud).&quot;
 
 ## Accedi dalla pagina legacy di accesso a Ricerca, Social e Commerce
 
@@ -51,7 +51,7 @@ Questa opzione è disponibile per un breve periodo di tempo, in modo da poterti 
 
 1. Immetti l&#39;ID [!DNL Adobe] e fai clic su **[!UICONTROL Continue]**.
 
-1. Se richiesto, selezionare **[!UICONTROL Personal Account]&quot; o &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+1. Se richiesto, selezionare **[!UICONTROL Personal Account]&quot; o **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
    Per impostazione predefinita, viene aperta la nuova interfaccia utente.
 
@@ -65,7 +65,7 @@ Questa opzione è disponibile per un breve periodo di tempo, in modo da poterti 
 
 1. Immetti il tuo ID [!DNL Adobe] e fai clic su **[!UICONTROL Continue]**.
 
-1. Se richiesto, selezionare **[!UICONTROL Personal Account]&quot; o &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+1. Se richiesto, selezionare **[!UICONTROL Personal Account]&quot; o **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
 1. Nella sezione [!UICONTROL Quick Access] della home page, fare clic su **[!UICONTROL Advertising Search, Social, & Commerce]**.
 

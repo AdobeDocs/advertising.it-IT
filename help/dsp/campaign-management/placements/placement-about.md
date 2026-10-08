@@ -41,7 +41,7 @@ Potete creare un posizionamento manualmente o duplicandone uno esistente. Potete
 ## Tipi di posizionamento disponibili
 
 * Pre-roll
-* Mobile
+* Dispositivi mobili
 * Visualizzazione
 * Nativa
 * Audio
