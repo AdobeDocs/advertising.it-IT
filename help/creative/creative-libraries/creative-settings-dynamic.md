@@ -18,14 +18,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '452'
 ht-degree: 2%
 ---
 # Impostazioni creative dinamiche
 
 <!-- add a description -->
+
+Le seguenti impostazioni sono applicabili agli annunci dinamici creati utilizzando l’interfaccia utente legacy. Se crei annunci dinamici utilizzando la nuova interfaccia utente o [!DNL Creative Studio], consulta le impostazioni in &quot;[Gestione di contenuti creativi dinamici in [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md#select-template)&quot;.
 
 ## Impostazioni annuncio dinamico<!-- for dynamic HTML5 ads {#dynamic-ad-settings-dynamic-html5}-->
 

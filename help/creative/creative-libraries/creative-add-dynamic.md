@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '575'
 ht-degree: 0%
 ---
 # Aggiungere creatività dinamica a una libreria creativa
@@ -54,11 +54,33 @@ Aggiungi creatività dinamica alle [librerie creative](creative-library-manage.m
 
 ## Aggiungere creatività dinamiche utilizzando un modello di annuncio HTML5 dinamico
 
+## Dalla nuova interfaccia
+
+<!-- NEED TO ADD SAME INSTRUCTIONS AS FOR CREATIVE STUDIO -->
+
+1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Facoltativo) [Personalizzare la visualizzazione](/help/creative/introduction/customize-data-views.md) per includere librerie specifiche.
+
+1. Apri la libreria in uno dei seguenti modi:
+
+   * Fai clic sul nome della libreria.
+
+   * Accanto al nome della libreria, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Nella scheda **[!UICONTROL Creatives]**, fare clic su **[!UICONTROL Add new]** > **[!UICONTROL Creative Studio]** > **[!UICONTROL Dynamic Ad]**.
+
+1. Specificare le impostazioni degli annunci dinamici all&#39;interno di [!DNL Creative Studio], a partire dal [passaggio 2 in &quot;Gestisci i contenuti creativi dinamici in [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md#select-template)&quot;.
+
+## Dall’interfaccia utente legacy
+
 1. Effettuare una delle seguenti operazioni:
 
    * Da una libreria creativa:
 
      1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+     1. Fare clic su **[!UICONTROL Switch to classic UI]**.
 
      1. Fai clic sul nome della libreria.
 

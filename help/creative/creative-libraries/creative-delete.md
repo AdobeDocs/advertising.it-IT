@@ -20,9 +20,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '275'
 ht-degree: 0%
 ---
 # Eliminare i creativi da una libreria creativa
@@ -37,7 +37,31 @@ Puoi eliminare:
 >
 >Se elimini un contenuto creativo dinamico e generi nuovi annunci per il catalogo utilizzando gli stessi dati utilizzati per creare il contenuto creativo originale, il contenuto creativo viene aggiunto nuovamente al catalogo.
 
+## Dalla nuova interfaccia
+
 1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Effettuare una delle seguenti operazioni:
+
+   * Fai clic sul nome della libreria.
+
+   * Accanto al nome della libreria, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Nella scheda **[!UICONTROL Creatives]**, selezionare i creativi da eliminare:
+
+   * Per eliminare un singolo contenuto creativo, fare clic su **[!UICONTROL ...]** accanto al nome del contenuto creativo e quindi su **[!UICONTROL Delete]**.
+
+   * Per eliminare uno o più creativi, selezionare la casella di controllo relativa a ogni creativo che si desidera eliminare. Nella barra degli strumenti Azioni in blocco, fare clic su ![Elimina](/help/creative/assets/delete.png "Elimina") (**[!UICONTROL Delete]**).
+
+     Per selezionare tutte le righe, selezionare la casella di controllo globale in alto a sinistra.
+
+1. Nel messaggio di conferma, fare clic su **[!UICONTROL Delete].**
+
+## Dall’interfaccia utente legacy
+
+1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Fare clic su **[!UICONTROL Switch to classic UI]**.
 
 1. Fai clic sul nome della libreria.
 

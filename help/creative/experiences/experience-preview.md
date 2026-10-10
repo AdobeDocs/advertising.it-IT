@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 0%
@@ -92,7 +92,7 @@ Puoi visualizzare in anteprima i creativi con una dimensione di annuncio specifi
 
 1. (Facoltativo) Per copiare un URL demo dell&#39;esperienza da condividere con altre persone senza accesso a [!DNL Creative]:
 
-   1. In alto a destra nell&#39;anteprima, fai clic su ![Condividi](/help/creative/assets/share.png "Condividi").
+   1. In alto a destra nell&#39;anteprima, fai clic su ![Condividi](/help/creative/assets/share-legacy.png "Condividi").
 
    1. Nella finestra di dialogo [!UICONTROL Share Demo URL], fai clic su **[!UICONTROL Copy]** per copiare l&#39;URL negli Appunti e condividerlo con un altro utente.
 
@@ -120,7 +120,7 @@ Puoi visualizzare in anteprima i creativi con una dimensione di annuncio specifi
 
 1. (Facoltativo) Per copiare un URL demo dell&#39;esperienza da condividere con altre persone senza accesso a [!DNL Creative]:
 
-   1. In alto a destra nell&#39;anteprima, fai clic su ![Condividi](/help/creative/assets/share.png "Condividi").
+   1. In alto a destra nell&#39;anteprima, fai clic su ![Condividi](/help/creative/assets/share-legacy.png "Condividi").
 
    1. Nella finestra di dialogo [!UICONTROL Share Demo URL], fai clic su **[!UICONTROL Copy]** per copiare l&#39;URL negli Appunti e condividerlo con un altro utente.
 
