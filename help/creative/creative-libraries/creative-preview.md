@@ -16,16 +16,50 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '354'
 ht-degree: 0%
 ---
 # Visualizzare in anteprima un contenuto creativo
 
 Puoi visualizzare in anteprima un contenuto creativo così come verrà visualizzato dagli utenti, compresi i collegamenti ipertestuali.
 
+## Dalla nuova interfaccia
+
 1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Facoltativo) [Personalizzare la visualizzazione](/help/creative/introduction/customize-data-views.md) per includere librerie specifiche.
+
+1. Apri la libreria in uno dei seguenti modi:
+
+   * Fai clic sul nome della libreria.
+
+   * Accanto al nome della libreria, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Nella scheda **[!UICONTROL Creatives]** fare clic su **[!UICONTROL ...]** accanto al nome della creatività e quindi su **[!UICONTROL Preview]**.
+
+   Per i creativi HTML5 e HTML5 flessibili, è possibile spostarsi tra le schede Livelli, Dettagli e Attributi per ulteriori dettagli.
+
+1. (Facoltativo) Per aprire la pagina di destinazione del contenuto creativo, fai clic sul contenuto.
+
+<!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+
+1. (Facoltativo; se disponibile) Per scaricare la creatività, fai clic su ![Scarica](/help/creative/assets/download.png "Scarica").
+
+   Il file viene scaricato in base alla normale procedura del browser.
+
+1. (Facoltativo; se disponibile) Per condividere un URL demo in modo che altre persone senza un accesso a [!DNL Creative] possano visualizzare in anteprima i creativi:
+
+   1. Fai clic su ![Condividi](/help/creative/assets/share.png "Condividi") in alto a destra nell&#39;anteprima.
+
+   1. Nella finestra di dialogo [!UICONTROL Share demo URL], fai clic su **[!UICONTROL Copy]** per copiare l&#39;URL negli Appunti e condividerlo con un altro utente.
+
+## Dall’interfaccia utente legacy
+
+1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Fare clic su **[!UICONTROL Switch to classic UI]**.
 
 1. Fai clic sul nome della libreria.
 

@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '2119'
+source-wordcount: '3351'
 ht-degree: 0%
 ---
 # Impostazioni creative standard
@@ -36,6 +36,30 @@ Quando si modificano più contenuti creativi contemporaneamente:
 ## Impostazioni creative flessibili per HTML5 {#creative-settings-flexible-html5}
 
 ### Scheda Dettagli
+
+#### Nuova interfaccia
+
+**Nome Creative:** il nome della creatività. Il nome del modello o del file caricato è utilizzato per impostazione predefinita, ma puoi modificarlo. Per più creativi, puoi modificare i singoli nomi creativi. **Suggerimento:** includere la dimensione dell&#39;annuncio nel nome della creatività e utilizzare un nome facilmente individuabile quando si include la creatività in un&#39;esperienza.
+
+**Lingua:** lingua predefinita per ogni annuncio a cui si associano i creativi. Quando carichi o modifichi più creativi, lo stesso valore viene applicato a ciascun creativo selezionato.
+
+**Formato:** (sola lettura; solo creatività esistente) Il formato creativo (*[!UICONTROL Flexible]*).
+
+**Dimensioni Creative:** (sola lettura per i creativi esistenti) dimensioni del contenuto creativo. Se le immagini incluse nel contenuto creativo sono più grandi delle dimensioni specificate, vengono ridimensionate di conseguenza.
+
+**[!UICONTROL Click Tags]:** Le variabili che consentono i reindirizzamenti di tracciamento dei clic dagli annunci banner inclusi. I nomi delle variabili e gli URL della pagina di destinazione corrispondenti vengono compilati dall’unità creativa caricata, ma puoi modificare gli URL predefiniti. Per più creativi, puoi modificare i singoli tag di clic.
+
+**Etichetta:** (facoltativo) qualsiasi etichetta da applicare a tutti i creativi selezionati. È possibile filtrare i creativi per etichetta in varie visualizzazioni in [!DNL Creative].
+
+* Per selezionare un&#39;etichetta esistente, fare clic su ![Giù](/help/creative/assets/chevron-down.png "Giù"), quindi fare clic sull&#39;etichetta da applicare.
+
+* Per cercare le etichette esistenti, iniziare a immettere una stringa di testo nel campo **[!UICONTROL Label]**.
+
+* Per creare una nuova etichetta da applicare ai creativi, immettere un nome di etichetta univoco nel campo **[!UICONTROL Label]**, quindi fare clic su **Aggiungi tag**
+
+* Per rimuovere un&#39;etichetta applicata, fare clic su **X** accanto al nome dell&#39;etichetta.
+
+#### Interfaccia precedente
 
 **Nome Creative:** il nome della creatività. Il nome del modello o del file caricato è utilizzato per impostazione predefinita, ma puoi modificarlo. Per più creativi, puoi modificare i singoli nomi creativi. **Suggerimento:** includere la dimensione dell&#39;annuncio nel nome della creatività e utilizzare un nome facilmente individuabile quando si include la creatività in un&#39;esperienza.
 
@@ -86,25 +110,61 @@ Per sostituire il modello di annuncio esistente:
 
 1. Fare clic su **Aggiorna modello**.
 
-1. Fai clic su **Procedi**.
+1. (Solo interfaccia utente legacy) Fai clic su **Procedi**.
 
-1. Specificare un file ZIP in uno dei modi seguenti:
+1. Specifica un file ZIP:
 
-   * Trascinare e rilasciare un file sul dispositivo o sulla rete nella casella.
+   * (Nuova interfaccia utente) Effettua una delle seguenti operazioni:
 
-   * Fare clic su **[!UICONTROL select a file]** per individuare il file nel dispositivo o nella rete.
+     * Trascinare e rilasciare un file sul dispositivo o sulla rete nella casella.
+
+     * Fare clic su **[!UICONTROL Browse files]** per individuare il file nel dispositivo o nella rete.
+
+   * (Interfaccia precedente) Seleziona un file sul dispositivo o sulla rete nella casella.
 
    Consulta le [specifiche degli annunci flessibili](#flexible-ad-spec).
 
 1. Modifica le nuove [impostazioni degli annunci HTML flessibili](#flexible-ad-settings) in base alle esigenze.
 
-1. Fai clic su **[!UICONTROL Edit]**
+1. Fai clic su (nuova interfaccia) **[!UICONTROL Update Creative]** o (interfaccia precedente) **[!UICONTROL Save]**
 
 ## Impostazioni creative di HTML5 {#creative-settings-html5}
 
 ### Scheda Dettagli
 
 Per i nuovi creativi, le seguenti impostazioni non si trovano in una scheda denominata.
+
+#### Nuova interfaccia
+
+**Nome Creative:** il nome della creatività. Per una nuova creatività, il nome del file viene utilizzato per impostazione predefinita, ma è possibile modificarlo. Per più creativi, puoi modificare i singoli nomi creativi. **Suggerimento:** includere la dimensione dell&#39;annuncio nel nome della creatività e utilizzare un nome facilmente individuabile quando si include la creatività in un&#39;esperienza.
+
+**Formato:** (sola lettura; solo creatività esistente) Il formato creativo (*[!UICONTROL HTML5]*).
+
+**Lingua:** lingua predefinita per ogni annuncio a cui si associano i creativi. Quando carichi o modifichi più creativi, lo stesso valore viene applicato a ciascun creativo selezionato.
+
+**Dimensioni Creative:** (sola lettura per i creativi esistenti) dimensioni del contenuto creativo. Se le immagini incluse nel contenuto creativo sono più grandi delle dimensioni specificate, vengono ridimensionate di conseguenza.
+
+**[!UICONTROL Click Tags]:** (solo creatività HTML5 statica) Le variabili che consentono il reindirizzamento del tracciamento dei clic dagli annunci banner inclusi. I nomi delle variabili e gli URL della pagina di destinazione corrispondenti vengono compilati dall’unità creativa caricata, ma puoi modificare gli URL predefiniti. Per più creativi, puoi modificare i singoli tag di clic.
+
+>[!NOTE]
+>
+>Quando includi il contenuto creativo in un’esperienza, puoi sostituire il valore predefinito per qualsiasi tag di clic con un URL di pagina di destinazione personalizzato per generare una derivazione del contenuto creativo di base.
+
+**URL della pagina di destinazione:** (solo creativi HTML5 semplici con una pagina di destinazione) URL della pagina di destinazione predefinita per ogni annuncio a cui si associano i creativi. Deve essere un URL valido che inizia con http:// o https://. Può includere parametri di tracciamento di terze parti o [[!DNL Creative] macro](/help/creative/creative-macros.md) per uso personale.
+
+Quando includi un contenuto creativo in un bundle e assegni il bundle a un’esperienza, puoi facoltativamente modificare l’URL della pagina di destinazione e aggiungere URL di tracciamento impression e clic e JavaScript per ogni contenuto creativo nel bundle. <!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
+
+**Etichetta:** (facoltativo) qualsiasi etichetta da applicare a tutti i creativi selezionati. È possibile filtrare i creativi per etichetta in varie visualizzazioni in [!DNL Creative].
+
+* Per selezionare un&#39;etichetta esistente, fare clic su ![Giù](/help/creative/assets/chevron-down.png "Giù"), quindi fare clic sull&#39;etichetta da applicare.
+
+* Per cercare le etichette esistenti, iniziare a immettere una stringa di testo nel campo **[!UICONTROL Label]**.
+
+* Per creare una nuova etichetta da applicare ai creativi, immettere un nome di etichetta univoco nel campo **[!UICONTROL Label]**, quindi fare clic su **Aggiungi tag**
+
+* Per rimuovere un&#39;etichetta applicata, fare clic su **X** accanto al nome dell&#39;etichetta.
+
+#### Interfaccia precedente
 
 **Nome Creative:** il nome della creatività. Per una nuova creatività, il nome del file viene utilizzato per impostazione predefinita, ma è possibile modificarlo. Per più creativi, puoi modificare i singoli nomi creativi. **Suggerimento:** includere la dimensione dell&#39;annuncio nel nome della creatività e utilizzare un nome facilmente individuabile quando si include la creatività in un&#39;esperienza.
 
@@ -162,6 +222,32 @@ Per sostituire il modello di annuncio esistente:
 
 ## Impostazioni creative immagini {#creative-settings-image}
 
+### Nuova interfaccia
+
+**Nome Creative:** il nome della creatività. Per una nuova creatività, il nome del file viene utilizzato per impostazione predefinita, ma è possibile modificarlo. Per più immagini, puoi modificare i singoli nomi creativi. **Suggerimento:** utilizza un nome facilmente reperibile quando includi il contenuto creativo in un&#39;esperienza.
+
+**Formato:** (sola lettura; solo creatività esistente) Il formato creativo (*[!UICONTROL Image]*).
+
+**Dimensione Creative:** (sola lettura) le dimensioni delle immagini caricate.
+
+**Lingua:** lingua predefinita per ogni annuncio a cui si associano i creativi. Lo stesso valore si applica a tutte le immagini selezionate. Quando includi i creativi in un’esperienza, puoi facoltativamente personalizzare le preferenze di lingua per l’esperienza.
+
+**URL della pagina di destinazione:** URL della pagina di destinazione predefinita per ogni annuncio a cui si associano i creativi. L’URL della pagina di destinazione deve essere un URL valido che inizia con http:// o https://. Può includere parametri di tracciamento di terze parti o [[!DNL Creative] macro](/help/creative/creative-macros.md) per uso personale. Lo stesso valore si applica a tutte le immagini selezionate.
+
+Quando includi un contenuto creativo in un bundle e quindi assegni il bundle a un’esperienza, puoi facoltativamente modificare l’URL della pagina di destinazione e aggiungere URL di tracciamento di impression e clic e JavaScript per ogni contenuto creativo nel bundle. <!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
+
+**Etichetta:** (facoltativo) qualsiasi etichetta da applicare a tutti i creativi selezionati. È possibile filtrare i creativi per etichetta in varie visualizzazioni in [!DNL Creative].
+
+* Per selezionare un&#39;etichetta esistente, fare clic su ![Giù](/help/creative/assets/chevron-down.png "Giù"), quindi fare clic sull&#39;etichetta da applicare.
+
+* Per cercare le etichette esistenti, iniziare a immettere una stringa di testo nel campo **[!UICONTROL Label]**.
+
+* Per creare una nuova etichetta da applicare ai creativi, immettere un nome di etichetta univoco nel campo **[!UICONTROL Label]**, quindi fare clic su **Aggiungi tag**
+
+* Per rimuovere un&#39;etichetta applicata, fare clic su **X** accanto al nome dell&#39;etichetta.
+
+### Interfaccia precedente
+
 **Nome Creative:** il nome della creatività. Per una nuova creatività, il nome del file viene utilizzato per impostazione predefinita, ma è possibile modificarlo. Per più immagini, puoi modificare i singoli nomi creativi. **Suggerimento:** utilizza un nome facilmente reperibile quando includi il contenuto creativo in un&#39;esperienza.
 
 **Lingua:** lingua predefinita per ogni annuncio a cui si associano i creativi. Lo stesso valore si applica a tutte le immagini selezionate. Quando includi i creativi in un’esperienza, puoi facoltativamente personalizzare le preferenze di lingua per l’esperienza.
@@ -212,11 +298,39 @@ Quando includi questa creatività in un’esperienza implementata come annuncio 
 
 ## Impostazioni creative video {#creative-settings-video}
 
-**Nome risorsa Creative:** Nome della creatività. Per una nuova creatività, il nome del file viene utilizzato per impostazione predefinita, ma è possibile modificarlo. Per più immagini, puoi modificare i singoli nomi creativi. **Suggerimento:** utilizza un nome facilmente reperibile quando includi il contenuto creativo in un&#39;esperienza.
+### Nuova interfaccia
+
+**Nome Creative:** il nome della creatività. Per una nuova creatività, il nome del file viene utilizzato per impostazione predefinita, ma è possibile modificarlo. **Suggerimento:** utilizza un nome facilmente reperibile quando includi il contenuto creativo in un&#39;esperienza.
+
+**Formato:** (sola lettura; solo creatività esistente) Il formato creativo (*[!UICONTROL Standard Video]*).
+
+**Dimensioni:** (sola lettura) dimensioni del video, che viene compilato automaticamente.
 
 **Durata:** (sola lettura) la durata del video, che viene compilata automaticamente.
 
-**Lingua:** lingua predefinita per ogni annuncio a cui si associano i creativi. Lo stesso valore si applica a tutte le immagini selezionate. Quando includi i creativi in un’esperienza, puoi facoltativamente personalizzare le preferenze di lingua per l’esperienza.
+**Lingua:** lingua predefinita per ogni annuncio a cui si associa il contenuto creativo. Quando includi il contenuto creativo in un’esperienza, puoi facoltativamente personalizzare le preferenze della lingua per l’esperienza.
+
+**URL della pagina di destinazione:** URL della pagina di destinazione predefinita per ogni annuncio a cui si associa la creatività. L’URL della pagina di destinazione deve essere un URL valido che inizia con http:// o https://. Può includere parametri di tracciamento di terze parti o [[!DNL Creative] macro](/help/creative/creative-macros.md) per uso personale.
+
+Quando includi un contenuto creativo in un bundle e quindi assegni il bundle a un’esperienza, puoi facoltativamente modificare l’URL della pagina di destinazione e aggiungere URL di tracciamento di impression e clic e JavaScript per ogni contenuto creativo nel bundle.
+
+**Etichetta:** (Facoltativo) Tutte le etichette da applicare alla creatività. È possibile filtrare i creativi per etichetta in varie visualizzazioni in [!DNL Creative].
+
+* Per selezionare un&#39;etichetta esistente, fare clic su ![Giù](/help/creative/assets/chevron-down.png "Giù"), quindi fare clic sull&#39;etichetta da applicare.
+
+* Per cercare le etichette esistenti, iniziare a immettere una stringa di testo nel campo **[!UICONTROL Label]**.
+
+* Per creare una nuova etichetta da applicare ai creativi, immettere un nome di etichetta univoco nel campo **[!UICONTROL Label]**, quindi fare clic su **Aggiungi tag**
+
+* Per rimuovere un&#39;etichetta applicata, fare clic su **X** accanto al nome dell&#39;etichetta.
+
+### Interfaccia precedente
+
+**Nome risorsa Creative:** Nome della creatività. Per una nuova creatività, il nome del file viene utilizzato per impostazione predefinita, ma è possibile modificarlo. Per più file, puoi modificare i singoli nomi creativi. **Suggerimento:** utilizza un nome facilmente reperibile quando includi il contenuto creativo in un&#39;esperienza.
+
+**Durata:** (sola lettura) la durata del video, che viene compilata automaticamente.
+
+**Lingua:** lingua predefinita per ogni annuncio a cui si associano i creativi. Lo stesso valore si applica a tutti i creativi selezionati. Quando includi i creativi in un’esperienza, puoi facoltativamente personalizzare le preferenze di lingua per l’esperienza.
 
 **URL della pagina di destinazione:** URL della pagina di destinazione predefinita per ogni annuncio a cui si associano i creativi. L’URL della pagina di destinazione deve essere un URL valido che inizia con http:// o https://. Può includere parametri di tracciamento di terze parti o [[!DNL Creative] macro](/help/creative/creative-macros.md) per uso personale. Lo stesso valore si applica a tutte le immagini selezionate.
 

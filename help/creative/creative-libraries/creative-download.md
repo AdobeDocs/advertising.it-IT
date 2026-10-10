@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '216'
 ht-degree: 0%
 ---
 # Scarica creatività
@@ -27,7 +27,29 @@ ht-degree: 0%
 
 Scarica tutti i creativi selezionati in un file in formato ZIP secondo la normale procedura del browser.
 
+## Dalla nuova interfaccia
+
 1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Effettuare una delle seguenti operazioni:
+
+   * Fai clic sul nome della libreria.
+
+   * Accanto al nome della libreria, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Nella scheda **[!UICONTROL Creatives]**, seleziona i creativi:
+
+   * Per scaricare un singolo contenuto creativo, fare clic su **[!UICONTROL ...]** accanto al nome del contenuto creativo e quindi su **[!UICONTROL Download]**.
+
+   * Per scaricare uno o più contenuti creativi, seleziona la casella di controllo relativa a ciascun contenuto che desideri scaricare. Nella barra degli strumenti Azioni in blocco, fai clic su ![Scarica](/help/creative/assets/download.png "Scarica") (**[!UICONTROL Download]**).
+
+     Per selezionare tutte le righe, selezionare la casella di controllo globale in alto a sinistra.
+
+## Dall’interfaccia utente legacy
+
+1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Fare clic su **[!UICONTROL Switch to classic UI]**.
 
 1. Fai clic sul nome della libreria.
 

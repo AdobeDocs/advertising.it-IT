@@ -16,20 +16,46 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '494'
 ht-degree: 0%
 ---
 # Modificare i contenuti originali standard in una libreria creativa
 
-Puoi modificare alcune impostazioni per ogni tipo di creatività standard. È possibile modificare più elementi creativi dello stesso tipo (HTML5 semplice con una sola pagina di destinazione, HTML5 statico con più pagine di destinazione, HTML5 flessibile, immagine o di terze parti).
+Puoi modificare alcune impostazioni per ogni tipo di creatività standard.
 
 Per i creativi flessibili di HTML5 e HTML5 statici, puoi caricare un nuovo file modello con un layout diverso ma con lo stesso set di nomi di attributi. Per semplici creativi HTML5, è possibile modificare qualsiasi attributo o aggiungere immagini caricando un nuovo modello con i nuovi attributi o immagini. In tutti i casi, il modello deve essere un file locale in formato ZIP con un massimo di 2 MB.
 
 Quando modifichi un contenuto creativo incluso in un bundle, le modifiche vengono applicate automaticamente a tutte le esperienze che includono il bundle, tranne per il fatto che tutte le pagine di destinazione personalizzate e gli URL di tracciamento specificati a livello di esperienza rimangono applicabili al bundle allegato a tale esperienza.
 
+## Dalla nuova interfaccia
+
+Puoi modificare un singolo contenuto creativo.
+
 1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Facoltativo) [Personalizzare la visualizzazione](/help/creative/introduction/customize-data-views.md) per includere librerie specifiche.
+
+1. Apri la libreria in uno dei seguenti modi:
+
+   * Fai clic sul nome della libreria.
+
+   * Accanto al nome della libreria, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Nella scheda **[!UICONTROL Creatives]** fare clic su **[!UICONTROL ...]** accanto al nome della creatività e quindi su **[!UICONTROL Edit]**.
+
+1. Modifica le [impostazioni creative per le immagini](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image), [impostazioni creative per HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5), [impostazioni creative flessibili per HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) o [impostazioni creative di terze parti](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party).
+
+1. Fare clic su **[!UICONTROL Update Creative]**.
+
+## Dall’interfaccia utente legacy
+
+È possibile modificare più elementi creativi dello stesso tipo (HTML5 semplice con una sola pagina di destinazione, HTML5 statico con più pagine di destinazione, HTML5 flessibile, immagine o di terze parti).
+
+1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Fare clic su **[!UICONTROL Switch to classic UI]**.
 
 1. (Facoltativo) [Personalizzare la visualizzazione](/help/creative/introduction/customize-data-views.md) per includere librerie specifiche.
 

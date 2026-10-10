@@ -16,16 +16,20 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '423'
 ht-degree: 0%
 ---
 # Gestire le librerie creative
 
 Puoi creare più librerie creative per ogni inserzionista. Successivamente puoi popolare ogni libreria con [creativi standard](creative-add-standard.md), [creativi dinamici](creative-add-dynamic.md) e [bundle creativi](bundle-manage.md).
 
-## Creare una libreria creativa
+## Passare dalla nuova interfaccia utente all’interfaccia precedente {#library-switch-ui}
+
+* In alto a destra, fare clic su **[!UICONTROL Switch to classic UI]** o **[!UICONTROL Switch to new UI]**.
+
+## Creare una libreria creativa {#library-create}
 
 1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -35,9 +39,27 @@ Puoi creare più librerie creative per ogni inserzionista. Successivamente puoi 
 
 1. Fare clic su **[!UICONTROL Create]**.
 
-## Modificare il nome di una libreria creativa
+## Rinominare una libreria creativa {#library-rename}
+
+### Dalla nuova interfaccia
 
 1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Facoltativo) [Personalizzare la visualizzazione](/help/creative/introduction/customize-data-views.md) per includere librerie specifiche.
+
+1. Accanto al nome della libreria, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Rename]**.
+
+1. Modifica **[!UICONTROL Library Name]**.
+
+   [!UICONTROL Library Name] deve essere univoco.
+
+1. Fare clic su **[!UICONTROL Save]**.
+
+### Dall’interfaccia utente legacy
+
+1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Fare clic su **[!UICONTROL Switch to classic UI]**.
 
 1. (Facoltativo) [Personalizzare la visualizzazione](/help/creative/introduction/customize-data-views.md) per includere librerie specifiche.
 
@@ -53,17 +75,51 @@ Puoi creare più librerie creative per ogni inserzionista. Successivamente puoi 
 
 1. Fare clic su **[!UICONTROL Edit]**.
 
-## Aprire una libreria creativa
+## Aprire una libreria creativa {#library-open}
+
+### Dalla nuova interfaccia
 
 1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Effettuare una delle seguenti operazioni:
+
+   * Fai clic sul nome della libreria.
+
+   * Accanto al nome della libreria, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+### Dall’interfaccia utente legacy
+
+1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Fare clic su **[!UICONTROL Switch to classic UI]**.
 
 1. Fai clic sul nome della libreria.
 
-## Eliminare le librerie creative
+## Eliminare le librerie creative {#library-delete}
 
 Puoi eliminare le librerie con creative e bundle non assegnati a un&#39;esperienza [live](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses). Per un&#39;esperienza con targeting live, [rimuovi eventuali elementi creativi o bundle dalla struttura decisionale](/help/creative/experiences/experience-target-node-delete.md) per l&#39;esperienza prima di continuare.<!-- Not an option as of 3/4: > For an untargeted live experience, [remove any assigned creatives from the associated ad tag](/help/creative/experiences/experience-tag-assign-creatives.md) before you continue. -->
 
+### Dalla nuova interfaccia
+
 1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Facoltativo) [Personalizzare la visualizzazione](/help/creative/introduction/customize-data-views.md) per includere librerie specifiche.
+
+1. Seleziona le librerie da eliminare:
+
+   * Per eliminare una singola libreria, fare clic su **[!UICONTROL ...]** accanto al nome della libreria e quindi su **[!UICONTROL Delete]**.
+
+   * Per eliminare una o più raccolte, selezionare la casella di controllo relativa a ciascuna raccolta che si desidera eliminare. Nella barra degli strumenti Azioni in blocco, fare clic su ![Elimina](/help/creative/assets/delete.png "Elimina") (**[!UICONTROL Delete]**).
+
+     Per selezionare tutte le righe, selezionare la casella di controllo globale in alto a sinistra.
+
+1. Nel messaggio di conferma, fare clic su **[!UICONTROL Delete].**
+
+### Dall’interfaccia utente legacy
+
+1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Fare clic su **[!UICONTROL Switch to classic UI]**.
 
 1. (Facoltativo) [Personalizzare la visualizzazione](/help/creative/introduction/customize-data-views.md) per includere librerie specifiche.
 

@@ -16,14 +16,62 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '546'
 ht-degree: 0%
 ---
 # Modificare un contenuto creativo dinamico in una libreria creativa
 
+## Dalla nuova interfaccia
+
+1. Apri le impostazioni creative:
+
+   * Da una libreria creativa:
+
+     1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+     1. Apri la libreria in uno dei seguenti modi:
+
+        * Fai clic sul nome della libreria.
+
+        * Accanto al nome della libreria, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+     1. Nella scheda **[!UICONTROL Creatives]** fare clic su **[!UICONTROL ...]** accanto al nome della creatività e quindi su **[!UICONTROL Edit]**.
+
+   * Da [!UICONTROL Creative Studio]:
+
+     1. Nel menu principale, fare clic su **[!UICONTROL Creative]>[!UICONTROL Creative Studio]**.
+
+     1. Nella scheda **[!UICONTROL Creatives]**, posizionare il cursore sulla scheda creativa e fare clic su **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+
+        Si apre un editor a schermo intero con un’anteprima dell’annuncio a sinistra e un pannello delle impostazioni a destra.
+
+1. Modificare le impostazioni creative utilizzando le schede **[!UICONTROL Details]** e **[!UICONTROL Attribute Mapping]**:
+
+   Scheda **[!UICONTROL Details]**:
+
+   * **[!UICONTROL Advertiser]**, **[!UICONTROL Ad Library]** e **[!UICONTROL Ad template]** sono di sola lettura.
+   * **[!UICONTROL Dynamic creative name]:** Il nome visualizzato per la creatività.
+   * **[!UICONTROL Number of cards]:** Il numero di offerte di catalogo incluse in ogni combinazione di annunci (1-50).
+   * (Facoltativo) In **[!UICONTROL Catalogs]**, aggiornare la selezione del catalogo:
+     * Utilizza **[!UICONTROL Catalog template]** per filtrare i cataloghi disponibili. Per scaricare il file modello, fare clic su **[!UICONTROL Download feed template]**.
+     * Cerca e seleziona i cataloghi dall&#39;elenco, oppure carica un nuovo file di catalogo trascinandolo nell&#39;area di caricamento o facendo clic su **[!UICONTROL Browse Files]** (formati supportati: JPG, PNG, JPEG, XLS, XLSX, CSV, TSV, ZIP, MP4; massimo 25 MB; un file alla volta). I cataloghi caricati sono etichettati **(caricato)** nell&#39;elenco dei chip.
+
+     Tutti i cataloghi devono appartenere alla stessa famiglia di modelli di catalogo.
+
+   Scheda **[!UICONTROL Attribute Mapping]**:
+
+   * In **[!UICONTROL Targeting]**, selezionare almeno un&#39;origine dati: **[!UICONTROL Profile data]**, **[!UICONTROL Geographic data]**, **[!UICONTROL Data pass]** o **[!UICONTROL Audience Segment]**.
+   * In **[!UICONTROL Attribute Mapping]**, aggiorna il mapping da ciascun nome di livello modello all&#39;etichetta di colonna del catalogo corrispondente.
+
+1. Fare clic su **[!UICONTROL Update Creative]**.
+
+## Dall’interfaccia utente legacy
+
 1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Fare clic su **[!UICONTROL Switch to classic UI]**.
 
 1. Fai clic sul nome della libreria.
 
