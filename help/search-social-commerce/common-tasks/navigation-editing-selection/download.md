@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8d3da7978b8222b19e054d1c866ba80cb07941e4
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Vedere anche la Guida sul download dei dati nella nuova interfaccia utente dalla visualizzazione &quot;[[!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)&quot;, &quot;[[!UICONTROL Campaigns] visualizzazione](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)&quot; e &quot;[[!UICONTROL Ad Groups] visualizzazione](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)&quot;.
+>Vedere anche la Guida sul download dei dati nella nuova interfaccia utente dalla visualizzazione &quot;[[!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)&quot;, &quot;[[!UICONTROL Campaigns] visualizzazione](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-reports)&quot; e &quot;[[!UICONTROL Ad Groups] visualizzazione](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)&quot;.
 
 1. (Facoltativo) Seleziona singole righe da includere nel file.
 
@@ -56,5 +56,5 @@ ht-degree: 0%
 >
 >* [(Interfaccia precedente) Eliminare un report di dati sulle prestazioni o un file di bulksheet dal menu [!UICONTROL Downloads]](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 >* [(Nuova interfaccia) Gestisci i report di visualizzazione dati dalla visualizzazione [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
->* [(Nuova interfaccia) Gestisci i report di visualizzazione dati dalla visualizzazione [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
+>* [(Nuova interfaccia) Gestisci i report di visualizzazione dati dalla visualizzazione [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-reports)
 >* [(Nuova interfaccia) Gestisci i report di visualizzazione dati dalla visualizzazione [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)

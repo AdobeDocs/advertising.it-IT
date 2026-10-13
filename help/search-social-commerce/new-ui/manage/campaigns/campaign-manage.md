@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
+source-git-commit: 249cdc80b3f918eca64479b6cda50d6d5d157d46
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2363'
 ht-degree: 0%
 ---
 # Gestire le campagne
@@ -60,6 +60,8 @@ Search, Social e Commerce estraggono i dati sulle prestazioni ogni ora dagli acc
 * [Assegna classificazioni di etichette alle campagne e rimuovi le classificazioni di etichette dalle campagne](#campaign-classifications)
 
 * [Gestisci i report di visualizzazione dati dalla visualizzazione [!UICONTROL Campaigns]](#campaign-reports)
+
+* [Sincronizzare i dati della campagna con la rete di annunci](#campaign-sync)
 
 ## Creare una campagna {#campaign-create}
 
@@ -425,6 +427,18 @@ Vedere anche &quot;>* [(Interfaccia precedente) Scaricare dati da una visualizza
 1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Scarica report](/help/search-social-commerce/assets/download.png "Scarica report") **[!UICONTROL Reports]**.
 
 1. Nell&#39;elenco [!UICONTROL Recently Generated] della finestra di dialogo [!UICONTROL Grid Reports], fare clic su ![Elimina](/help/search-social-commerce/assets/delete-new.png "Elimina") accanto al nome del file.
+
+## Sincronizzare i dati della campagna con la rete di annunci {#campaign-sync}
+
+Puoi anche [sincronizzare i dati per tutte le campagne all&#39;interno di un account](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/sync-api-accounts.md).
+
+1. Nel menu principale, fare clic su **[!UICONTROL Manage]** > **[!UICONTROL Campaigns]**.
+
+1. Seleziona la casella di controllo accanto al nome di ogni campagna da sincronizzare.
+
+1. Nella barra degli strumenti Azioni in blocco fare clic su **[!UICONTROL ... More Actions]** > **[!UICONTROL Sync]**.
+
+Il processo può richiedere un&#39;ora o più.
 
 >[!MORELIKETHIS]
 >
