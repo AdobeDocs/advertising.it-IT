@@ -29,9 +29,9 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 4d0f262a450d478903d0a182a71bb25f8a766b02
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1986'
 ht-degree: 0%
 ---
 # Informazioni sugli approfondimenti
@@ -129,6 +129,52 @@ Gli approfondimenti includono:
   **[!UICONTROL Devices/Ad Opportunities Bid On]:** Il numero di opportunità idonee per le quali il posizionamento ha inviato un&#39;offerta. Un brusco calo in questa fase può indicare vincoli di budget o di ritmo che limitano il volume delle offerte.
 
   * **[!UICONTROL Impression Wins]:** il numero di opportunità per le quali il posizionamento ha ricevuto un&#39;impression. Se le vincite sono molto inferiori alle offerte, il prezzo dell’offerta potrebbe essere inferiore al tasso di mercato prevalente per l’inventario di destinazione.
+
+### Scheda [!UICONTROL Delivery Composition]
+
+La scheda [!UICONTROL Delivery Composition] indica il modo in cui il modello effettua offerte tra gli utenti con diverse probabilità di conversione. Utilizza questo set di insight per rivedere un posizionamento in fase di consegna.
+
+Per impostazione predefinita, i dati vengono visualizzati per un inserzionista specifico e un posizionamento specifico. Sono inclusi l’intervallo di date del rapporto, l’ultima data in cui i dati sono stati aggiornati e la successiva data in cui il rapporto verrà aggiornato. Facoltativamente, puoi configurare i filtri per mostrare i dati per un inserzionista diverso o selezionare un posizionamento diverso.
+
+Gli approfondimenti includono:
+
+* **[!UICONTROL Placement Summary]:** (Posizionamenti nei pacchetti) Indica il pacchetto e l&#39;obiettivo del pacchetto associati.
+
+* **[!UICONTROL Propensity Breakdown]:** separa gli utenti con corrispondenza del convertitore in [!UICONTROL High Propensity], [!UICONTROL Medium Propensity] e [!UICONTROL Low Propensity] livelli in base alla probabilità di conversione prevista. Per ogni gruppo, i dati includono [!UICONTROL Avg Bid], [!UICONTROL Conversion Rate], [!UICONTROL Share of Conversions] e [!UICONTROL Conversion Rate Lift] (il tasso di conversione del gruppo relativo alla linea di base di riferimento). I dati indicano come il modello offre di più per gli utenti che prevede saranno più propensi alla conversione.  **Nota:** i dati si basano sulle prestazioni osservate, non sulla prova che il modello abbia causato un guadagno incrementale nelle conversioni.
+
+* **[!UICONTROL Bid Multiplier Graph]:** indica il moltiplicatore di offerta per ciascuno dei 20 bucket di pubblico, ridimensionando la spesa in proporzione alla probabilità di conversione prevista per un utente. Il bucket 20 contiene gli utenti con la più alta propensione e riceve il moltiplicatore più alto. Alta, Medium e Bassa sono raggruppamenti semplificati di tali bucket, non percentuali di pubblico fisse.
+
+  Quando il moltiplicatore è 1,0x , non viene apportata alcuna regolazione all’offerta sottostante. I moltiplicatori superiori a 1,0x generano un’offerta più elevata, mentre i moltiplicatori inferiori a 1,0x generano un’offerta più bassa.
+
+### Scheda [!UICONTROL Organic Seed Profile]
+
+La scheda [!UICONTROL Organic Seed Profile] mostra gli interessi, gli orari, le posizioni e i dispositivi associati ai convertitori. Il set insight utilizza i dati del convertitore organico Adobe Analytics, abbinati agli utenti nel flusso di offerte programmatiche, che è la popolazione di utenti osservata nelle opportunità di pubblicità programmatica. Poiché questo insight utilizza dati di conversione esistenti anziché la consegna della campagna, può supportare la pianificazione prima della spesa DSP, quando sono disponibili dati di seed appropriati. Utilizzalo all’interno di per pianificare il lancio di un pacchetto o posizionamento o per informare la tua prossima campagna.
+
+Per impostazione predefinita, i dati vengono visualizzati per un inserzionista specifico e per un pacchetto o posizionamento specifico. Sono inclusi l’intervallo di date del rapporto, l’ultima data in cui i dati sono stati aggiornati e la successiva data in cui il rapporto verrà aggiornato. Facoltativamente, puoi configurare i filtri per mostrare i dati per un inserzionista diverso o selezionare un pacchetto o un posizionamento diverso.
+
+Gli approfondimenti includono:
+
+* **[!UICONTROL Affinity Insights]:** mostra gli interessi e le caratteristiche comportamentali derivati dal consumo di contenuti multimediali dei convertitori, classificati in base all&#39;incremento del tasso di conversione rispetto alla popolazione complessiva.
+
+* **[!UICONTROL Temporal Insights]:** mostra l&#39;attività del convertitore aggregata per *Giorno della settimana* o *Ora del giorno* in modo da identificare quando il pubblico dell&#39;inserzionista è più attivo.
+
+* **[!UICONTROL Geographic Insights]:** mostra l&#39;attività del convertitore aggregata per *Paese* o *Regione*, ponderata in base all&#39;incremento del tasso di conversione relativo alla popolazione complessiva.
+
+* **[!UICONTROL Device Insights]:** mostra l&#39;attività del convertitore aggregata per mix di tipi di dispositivo, ponderata in base all&#39;incremento del tasso di conversione relativo alla popolazione complessiva.
+
+Ogni insight include le seguenti colonne:
+
+**[!UICONTROL Bid-stream Users]:** utenti nel flusso di offerta che appartengono al gruppo.
+
+**[!UICONTROL Converters]:** convertitori che appartengono al gruppo.
+
+**[!UICONTROL Precision]:** La percentuale di utenti del gruppo che hanno effettuato la conversione. **Nota:** i tassi diversi da zero di piccole dimensioni possono arrotondare allo 0,0% con la precisione visualizzata. Un valore pari a 0 non significa necessariamente che non vi siano stati convertitori. Verificare il conteggio di [!UICONTROL Converters].
+
+**[!UICONTROL Recall]:** La percentuale di tutti i convertitori che appartengono al gruppo. **Nota:** un gruppo può avere un incremento di conversione elevato, ma rappresenta solo una piccola parte dei convertitori.
+
+**[!UICONTROL Bid-stream %]:** La percentuale di utenti del flusso di offerta che appartengono al gruppo.
+
+**[!UICONTROL Conv. Rate Lift]:** Il tasso di conversione del gruppo relativo alla baseline di riferimento. 1,00x significa la stessa velocità della linea di base; 1,50x significa il 50% più alto; 0,50x significa il 50% più basso. **Nota:** l&#39;incremento non è una previsione né una prova di conversioni incrementali.
 
 ## Visualizzare informazioni sulle prestazioni
 
