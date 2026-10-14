@@ -15,7 +15,7 @@ feature_v2:
 subfeature_v2:
   - id: c800239a-06eb-4249-9aef-771973d24d35
     internal-label: Portfolios
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8d3da7978b8222b19e054d1c866ba80cb07941e4
 workflow-type: tm+mt
 source-wordcount: '2660'
 ht-degree: 0%
@@ -190,7 +190,7 @@ Ogni entità può avere un solo vincolo. Potete assegnare un singolo vincolo a u
 >[!NOTE]
 >
 >* Se successivamente modificate una parola chiave o la copia dell&#39;annuncio per un annuncio, creando in tal modo una nuova parola chiave o un nuovo annuncio, il vincolo non viene assegnato alla nuova entità.
->* Vedere le stesse istruzioni nella visualizzazione [[!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), [[!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [[!UICONTROL Keywords]](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md) o [[!UICONTROL Placements]](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md). <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
+>* Vedere le stesse istruzioni nella visualizzazione [[!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints), [[!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [[!UICONTROL Keywords]](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md) o [[!UICONTROL Placements]](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md). <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
 
 1. Dal menu principale, apri la relativa vista di gestione.
 
@@ -211,7 +211,7 @@ Ogni entità può avere un solo vincolo. Potete assegnare un singolo vincolo a u
 >[!NOTE]
 >
 >* Per eliminare un vincolo rendendolo non disponibile per un utilizzo futuro, vedere &quot;[Modificare lo stato dei vincoli](#constraint-change-status).&quot;
->* Vedere le stesse istruzioni nella visualizzazione [[!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), [[!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [[!UICONTROL Keywords]](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md) o [[!UICONTROL Placements]](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md). <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
+>* Vedere le stesse istruzioni nella visualizzazione [[!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints), [[!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [[!UICONTROL Keywords]](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md) o [[!UICONTROL Placements]](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md). <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
 
 1. Nel menu principale, apri la vista di gestione pertinente.
 
@@ -225,7 +225,7 @@ Ogni entità può avere un solo vincolo. Potete assegnare un singolo vincolo a u
 
 >[!MORELIKETHIS]
 >
->* [Gestione assegnazioni vincoli per le campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
+>* [Gestione assegnazioni vincoli per le campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints)
 >* [Gestisci assegnazioni vincoli per gruppi di annunci](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [Gestisci assegnazioni vincoli per parole chiave](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
 >* [Gestisci assegnazioni vincoli per posizionamenti](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)

@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8d3da7978b8222b19e054d1c866ba80cb07941e4
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
@@ -97,6 +97,6 @@ L’annullamento dell’assegnazione di un vincolo rimuove l’associazione con 
 >[!MORELIKETHIS]
 >
 >* [(Nuova interfaccia) Gestione dei vincoli per le unità di offerta di ricerca](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
->* [(Nuova interfaccia) Gestione assegnazioni vincoli per le campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
+>* [(Nuova interfaccia) Gestione assegnazioni vincoli per le campagne](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints)
 >* [(Nuova interfaccia) Gestione assegnazioni vincoli per parole chiave](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
 >* [(Nuova interfaccia) Gestione assegnazioni vincoli per posizionamenti](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
