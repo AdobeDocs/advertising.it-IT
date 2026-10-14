@@ -8,9 +8,9 @@ product_v2:
 feature_v2:
   - id: 4a019b9f-6dd0-5c07-a60f-b60f67fd80d0
     internal-label: Search Notifications
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '1724'
 ht-degree: 0%
 ---
 # (Nuova interfaccia) Gestire le notifiche
@@ -53,7 +53,7 @@ Puoi visualizzare le notifiche, contrassegnarle come lette o non lette ed elimin
 
   * **[!UICONTROL Manager Account Missing]**: notifiche per le quali Search, Social e Commerce non dispongono delle credenziali per un account [ad network manager](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md), necessarie per la corretta configurazione delle funzioni critiche.<!-- Moving to Campaign Management > Setup Errors at some point -->
 
-  * **[!UICONTROL UI Actions]**: notifica del completamento o dell&#39;errore dei processi eseguiti in background. I tipi di processo includono [processi bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)<!-- Update link once file for new UI available-->, processi di modifica in blocco all&#39;interno della tabella dati o utilizzando la barra degli strumenti, processi di assegnazione di entità o altre azioni all&#39;interno dell&#39;interfaccia utente (ad esempio la sincronizzazione con reti di annunci, l&#39;incollamento di righe o la ridenominazione di entità). Le assegnazioni di entità includono l&#39;assegnazione o l&#39;annullamento dell&#39;assegnazione di un valore di classificazione [etichetta](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md) a qualsiasi entità, l&#39;assegnazione di una campagna a un portfolio e l&#39;assegnazione o l&#39;annullamento di un vincolo di offerta a un&#39;entità[&#128279;](/help/search-social-commerce/new-ui/goals/constraints-manage.md).
+  * **[!UICONTROL UI Actions]**: notifica del completamento o dell&#39;errore dei processi eseguiti in background. I tipi di processo includono [processi bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)<!-- Update link once file for new UI available-->, processi di modifica in blocco all&#39;interno della tabella dati o utilizzando la barra degli strumenti, processi di assegnazione di entità o altre azioni all&#39;interno dell&#39;interfaccia utente (ad esempio la sincronizzazione con reti di annunci, l&#39;incollamento di righe o la ridenominazione di entità). Le assegnazioni di entità includono l&#39;assegnazione o l&#39;annullamento dell&#39;assegnazione di un valore di classificazione [etichetta](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md) a qualsiasi entità, l&#39;assegnazione di una campagna a un portfolio e l&#39;assegnazione o l&#39;annullamento di un vincolo di offerta a un&#39;entità](/help/search-social-commerce/new-ui/goals/constraints-manage.md).[
 
   * [!UICONTROL Data Upload]
 
@@ -119,14 +119,13 @@ In Campaign Management:
   * **[!UICONTROL Accuracy]**: Notifications when a portfolio's model accuracy deviates [by how much?] from expectations.
 -->
 
-
 ## Azioni disponibili
 
 * [Visualizzare le notifiche](#notification-view)
 
 * [Modifica le impostazioni delle notifiche](#notification-edit)
 
-* [Contrassegnare una notifica come letta o non letta](#notification-mark-read-unread)
+* [Contrassegna le notifiche come lette o non lette](#notification-mark-read-unread)
 
 * [Eliminare una notifica](#notification-delete)
 
@@ -208,7 +207,7 @@ Quando sei [abbonato a notifiche](#notification-edit) relative a errori di auten
 
 1. Fare clic su **[!UICONTROL Save]**.
 
-## Contrassegnare una notifica come letta o non letta {#notification-mark-read-unread}
+## Contrassegna le notifiche come lette o non lette {#notification-mark-read-unread}
 
 Se si contrassegna una notifica come *letta* o *non letta*, verrà modificato il numero di notifiche non lette indicato nel collegamento [!UICONTROL Notifications] nella parte superiore di ogni pagina, ad esempio ![icona Notifiche con contatore notifiche non lette](/help/search-social-commerce/assets/notifications-unread.png "icona Notifiche con contatore notifiche non lette").
 
@@ -218,7 +217,11 @@ Le notifiche contrassegnate come *lette* sono in un testo di colore più chiaro 
 
 1. [Aprire il pannello Notifiche o il Centro notifiche](#notification-view).
 
-1. Posizionare il cursore sul nome dell&#39;avviso e fare clic su ![Segna come letto o da leggere](/help/search-social-commerce/assets/notifications-read-unread.png "Segna come letto o da leggere").
+1. Effettuare una delle seguenti operazioni:
+
+   * Per una singola notifica, posizionare il cursore sul nome dell&#39;avviso e fare clic su ![Segna come letto o da leggere](/help/search-social-commerce/assets/notifications-read-unread.png "Segna come letto o da leggere").
+
+   * Per contrassegnare tutte le notifiche come lette, fare clic su **[!UICONTROL Mark all as read]**.
 
 ## Eliminare una notifica {#notification-delete}
 

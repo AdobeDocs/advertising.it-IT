@@ -11,9 +11,9 @@ feature_v2:
     internal-label: Search Portfolios
   - id: ae57d55f-b168-5358-b114-c3974b1b3d77
     internal-label: Search Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '410'
 ht-degree: 0%
 ---
 # (Nuova interfaccia) Modificare lo stato di un portfolio
@@ -26,7 +26,11 @@ Per interrompere la raccolta dei dati su costi/clic/impression e ricavi per le c
 
 Tutte le modifiche allo stato del portfolio vengono registrate nella cronologia modifiche del portfolio.
 
-## Ottimizzare, attivare o disattivare un portfolio
+>[!NOTE]
+>
+>È possibile modificare lo stato di più portfolio utilizzando [bulksheet portfolio](portfolio-bulksheets.md).
+
+## Ottimizzare, attivare o disattivare un portfolio dalla visualizzazione [!UICONTROL Portfolios]
 
 1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
 
@@ -49,7 +53,7 @@ Tutte le modifiche allo stato del portfolio vengono registrate nella cronologia 
      >* Quando Search, Social e Commerce iniziano a ottimizzare un portfolio, consentono di gestire tutto il budget futuro della campagna e (se applicabile) la modifica dell’offerta (se applicabile). Search, Social e Commerce sovrascriveranno tutte le modifiche apportate dall&#39;interno della rete di annunci.
      >* Puoi impostare temporaneamente le offerte manuali per qualsiasi campagna CPC ottimizzata nel portfolio creando e pubblicando i bulksheet delle campagne. Qualsiasi modifica dell’offerta derivante dai dati pubblicati è applicabile per un giorno. Successivamente, Search, Social e Commerce riprendono a impostare le offerte in base alla propria strategia di ottimizzazione.
 
-## Eliminare un portfolio inattivo
+## Eliminare un portfolio inattivo dalla visualizzazione [!UICONTROL Portfolios]
 
 Puoi eliminare solo i portfolio inattivi. Se il portfolio è ottimizzato o attivo, devi prima modificarne lo stato su inattivo prima di poter scegliere di eliminarlo.
 
