@@ -3,20 +3,19 @@ title: Gestione di creatività dinamiche in Creative Studio
 description: Scopri come creare, modificare, duplicare ed eliminare creatività dinamiche basate su catalogo in Adobe Advertising Creative Studio.
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
+    internal-label: User
+source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
 workflow-type: tm+mt
-source-wordcount: 1044
+source-wordcount: '1042'
 ht-degree: 0%
-
 ---
-
 # Gestisci creatività dinamica in [!UICONTROL Creative Studio]
-
-*funzionalità Beta*
 
 La scheda **[!UICONTROL Creatives]** in [!UICONTROL Creative Studio] elenca le tue creatività dinamiche in base alla libreria. Da qui puoi creare nuove creatività dinamiche basate su catalogo, modificare i dettagli e la mappatura degli attributi delle creatività esistenti, visualizzare i registri di modifica, duplicare le creatività ed eliminare le creatività.
 
@@ -96,26 +95,26 @@ Mappa ogni campo catalogo all’elemento corrispondente nel modello. Ad esempio,
 
       * Per modificare una combinazione di annunci:
 
-         1. Posizionare il cursore sulla riga del catalogo e fare clic su **[!UICONTROL Edit]**.
+        1. Posizionare il cursore sulla riga del catalogo e fare clic su **[!UICONTROL Edit]**.
 
-         1. Nella finestra di dialogo **[!UICONTROL Edit Row]**, aggiorna i valori dei campi.
+        1. Nella finestra di dialogo **[!UICONTROL Edit Row]**, aggiorna i valori dei campi.
 
-         1. Fare clic su **[!UICONTROL Save]**.
+        1. Fare clic su **[!UICONTROL Save]**.
 
         L’area di lavoro si aggiorna per riflettere i valori aggiornati.
 
       * Utilizza il pannello chat di **[!UICONTROL AI Assistant]** per analizzare e filtrare le combinazioni di cataloghi. Digitare la richiesta nel campo **[!UICONTROL Ask anything]** oppure fare clic su una delle richieste suggerite:
 
-         * **[!UICONTROL Run a comprehensive QA pass on this dynamic creative]**
-         * **[!UICONTROL Show me side-by-side comparisons of A/B testing creatives]**
-         * **[!UICONTROL Show me all ads for millennial women in urban markets]**
+        * **[!UICONTROL Run a comprehensive QA pass on this dynamic creative]**
+        * **[!UICONTROL Show me side-by-side comparisons of A/B testing creatives]**
+        * **[!UICONTROL Show me all ads for millennial women in urban markets]**
 
         L’agente di IA può:
 
-         * Filtra l’area di lavoro per mostrare annunci che corrispondono a un segmento di pubblico, un’area geografica, una lingua, una categoria o un altro campo catalogo specifico.
-         * Verifica la presenza di problemi di qualità quali sovraccarichi del limite di caratteri, overflow o pagina al vivo del contenuto, collegamenti immagine interrotti e visibilità della liberatoria.
-         * Confrontare le combinazioni di annunci per l’analisi del test A/B.
-         * Organizza gli annunci in gruppi per una revisione affiancata.
+        * Filtra l’area di lavoro per mostrare annunci che corrispondono a un segmento di pubblico, un’area geografica, una lingua, una categoria o un altro campo catalogo specifico.
+        * Verifica la presenza di problemi di qualità quali sovraccarichi del limite di caratteri, overflow o pagina al vivo del contenuto, collegamenti immagine interrotti e visibilità della liberatoria.
+        * Confrontare le combinazioni di annunci per l’analisi del test A/B.
+        * Organizza gli annunci in gruppi per una revisione affiancata.
 
         L’agente IA non può modificare il contenuto di origine catalogo. Per modificare il contenuto degli annunci, aggiorna il catalogo sorgente.
 
@@ -139,8 +138,8 @@ Mappa ogni campo catalogo all’elemento corrispondente nel modello. Ad esempio,
    * **[!UICONTROL Dynamic creative name]:** Il nome visualizzato per la creatività.
    * **[!UICONTROL Number of cards]:** Il numero di offerte di catalogo incluse in ogni combinazione di annunci (1-50).
    * (Facoltativo) In **[!UICONTROL Catalogs]**, aggiornare la selezione del catalogo:
-      * Utilizza **[!UICONTROL Catalog template]** per filtrare i cataloghi disponibili. Per scaricare il file modello, fare clic su **[!UICONTROL Download feed template]**.
-      * Cerca e seleziona i cataloghi dall&#39;elenco, oppure carica un nuovo file di catalogo trascinandolo nell&#39;area di caricamento o facendo clic su **[!UICONTROL Browse Files]** (formati supportati: JPG, PNG, JPEG, XLS, XLSX, CSV, TSV, ZIP, MP4; massimo 25 MB; un file alla volta). I cataloghi caricati sono etichettati **(caricato)** nell&#39;elenco dei chip.
+     * Utilizza **[!UICONTROL Catalog template]** per filtrare i cataloghi disponibili. Per scaricare il file modello, fare clic su **[!UICONTROL Download feed template]**.
+     * Cerca e seleziona i cataloghi dall&#39;elenco, oppure carica un nuovo file di catalogo trascinandolo nell&#39;area di caricamento o facendo clic su **[!UICONTROL Browse Files]** (formati supportati: JPG, PNG, JPEG, XLS, XLSX, CSV, TSV, ZIP, MP4; massimo 25 MB; un file alla volta). I cataloghi caricati sono etichettati **(caricato)** nell&#39;elenco dei chip.
 
      Tutti i cataloghi devono appartenere alla stessa famiglia di modelli di catalogo.
 

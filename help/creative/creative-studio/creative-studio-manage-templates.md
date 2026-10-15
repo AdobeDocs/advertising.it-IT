@@ -3,20 +3,19 @@ title: Gestire i modelli di annunci in Creative Studio
 description: Scopri come creare, importare, organizzare e gestire i modelli di annunci nella scheda Modelli di Creative Studio in Adobe Advertising Creative.
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
+    internal-label: User
+source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
 workflow-type: tm+mt
-source-wordcount: 2512
+source-wordcount: '2510'
 ht-degree: 2%
-
 ---
-
 # Gestisci modelli di annunci in [!UICONTROL Creative Studio]
-
-*funzionalità Beta*
 
 Crea, importa e gestisci modelli di annunci video e di visualizzazione da utilizzare nelle sessioni di generazione di annunci.
 
@@ -40,9 +39,9 @@ Probably not necessary:
 
 Creazione:
 
-* [Importare modelli di annunci HTML5](#templates-import)
-
 * [Creare manualmente un modello di annuncio](#template-create)
+
+* [Importare modelli di annunci HTML5](#templates-import)
 
 Azioni sui modelli esistenti:
 
@@ -97,6 +96,34 @@ Applied filters appear as chips below the toolbar. To refine or remove an active
 
 -->
 
+## Creare manualmente un modello di annuncio {#template-create}
+
+Crea una visualizzazione o un modello video vuoto utilizzando l’editor di modelli.
+
+1. Nel menu principale, fare clic su **[!UICONTROL Creative Studio].**
+
+1. Fare clic sulla scheda **[!UICONTROL Templates]**.
+
+1. Nella casella **[!UICONTROL Create New Ad Template]** fare clic su **[!UICONTROL Create]** e quindi selezionare **[!UICONTROL Display Ad Template]** o **[!UICONTROL Video Ad Template]**.
+
+1. (Visualizza annunci) Selezionare le dimensioni del modello di annuncio e quindi fare clic su **[!UICONTROL Continue]**.
+
+1. Configurare le impostazioni del modello utilizzando i [controlli nell&#39;editor modelli](#template-controls).
+
+1. (Facoltativo) Per scaricare una copia del modello definito, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Download]**.
+
+   Il file viene scaricato in base alla normale procedura del browser.
+
+1. Salva il modello:
+
+   1. Effettuare una delle seguenti operazioni:
+
+      * Fare clic su **[!UICONTROL Save]**.
+
+      * Per salvare il modello come bozza, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Save as Draft]**.
+
+   1. Immettere **[!UICONTROL Template name]**, selezionare **[!UICONTROL Advertiser]**, facoltativamente selezionare tag esistenti o aggiungere nuovi tag al modello, quindi fare clic su **[!UICONTROL Save]**.
+
 ## Importare modelli di annunci HTML5 {#templates-import}
 
 Carica uno o più modelli HTML5 predefiniti da includere nei pacchetti come file ZIP. I modelli vengono convalidati al momento dell’importazione; l’importazione non riesce se il HTML supera i 200.000 caratteri, il CSS supera i 60.000 caratteri, il modello contiene più di 5.000 elementi DOM o il modello include tag di script non supportati.
@@ -128,34 +155,6 @@ Carica uno o più modelli HTML5 predefiniti da includere nei pacchetti come file
 >[!NOTE]
 >
 >Se l’importazione non riesce, semplifica il modello o contatta il team dell’account Adobe.
-
-## Creare manualmente un modello di annuncio {#template-create}
-
-Crea una visualizzazione o un modello video vuoto utilizzando l’editor di modelli.
-
-1. Nel menu principale, fare clic su **[!UICONTROL Creative Studio].**
-
-1. Fare clic sulla scheda **[!UICONTROL Templates]**.
-
-1. Nella casella **[!UICONTROL Create New Ad Template]** fare clic su **[!UICONTROL Create]** e quindi selezionare **[!UICONTROL Display Ad Template]** o **[!UICONTROL Video Ad Template]**.
-
-1. (Visualizza annunci) Selezionare le dimensioni del modello di annuncio e quindi fare clic su **[!UICONTROL Continue]**.
-
-1. Configurare le impostazioni del modello utilizzando i [controlli nell&#39;editor modelli](#template-controls).
-
-1. (Facoltativo) Per scaricare una copia del modello definito, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Download]**.
-
-   Il file viene scaricato in base alla normale procedura del browser.
-
-1. Salva il modello:
-
-   1. Effettuare una delle seguenti operazioni:
-
-      * Fare clic su **[!UICONTROL Save]**.
-
-      * Per salvare il modello come bozza, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Save as Draft]**.
-
-   1. Immettere **[!UICONTROL Template name]**, selezionare **[!UICONTROL Advertiser]**, facoltativamente selezionare tag esistenti o aggiungere nuovi tag al modello, quindi fare clic su **[!UICONTROL Save]**.
 
 ## Modificare un modello di annuncio {#template-edit}
 
