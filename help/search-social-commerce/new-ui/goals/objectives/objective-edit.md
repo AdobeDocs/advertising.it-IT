@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '113'
 ht-degree: 0%
 ---
 # (Nuova interfaccia) Modificare un obiettivo
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 1. Nel menu principale, fare clic su **[!UICONTROL Goals]>[!UICONTROL Objectives]**.
 
-1. Selezionare la casella di controllo accanto all&#39;obiettivo. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Modifica](/help/search-social-commerce/assets/edit.png "Modifica") **[!UICONTROL Edit]**.
+1. Posizionare il cursore sul nome dell&#39;obiettivo e fare clic su **[!UICONTROL ...]>[!UICONTROL Edit]**.
 
 1. Modificare le impostazioni delle finalità.
 
@@ -51,4 +51,5 @@ ht-degree: 0%
 >* [Eliminare un obiettivo](objective-delete.md)
 >* [Applicare consigli sul peso a un obiettivo](objective-apply-weight-recommendations.md)
 >* [Impostazioni obiettivo](objective-settings.md)
+>* [Esporta una configurazione obiettivo](objective-export.md)
 >* [Scarica i dati sulle prestazioni per gli obiettivi](objective-download-performance-data.md)

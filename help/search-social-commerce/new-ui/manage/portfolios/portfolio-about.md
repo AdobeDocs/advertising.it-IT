@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Optimization
   - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
     internal-label: Predictive modeling
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '826'
 ht-degree: 0%
 ---
 # (Nuova interfaccia) Informazioni sui portfolio
@@ -77,7 +77,7 @@ Nella visualizzazione [!UICONTROL Portfolios] sono elencati tutti i portfolio es
 
 Sopra la tabella di dati, puoi aprire un grafico delle prestazioni con un massimo di tre metriche calcolate su tutti i portfolio nella vista per l’intervallo di date specificato. Puoi anche aprire i dettagli del portfolio, incluse le prestazioni e la precisione, nonché i dati sulle prestazioni per ogni campagna, gruppo di annunci e parola chiave nel portfolio.
 
-Puoi modificare alcune impostazioni, tra cui lo stato del portfolio, direttamente all’interno della riga portfolio.
+Puoi modificare alcune impostazioni, tra cui lo stato del portfolio, direttamente all’interno della riga portfolio. Quando un portfolio o le campagne e le entità campagna figlio associate sono configurate con vincoli che influiscono sulla spesa (inclusi vincoli di rete, budget campagna, target, limiti CPC o unità di offerta), fare clic su [!UICONTROL Yes] nella colonna [!UICONTROL Constraints] per visualizzare un elenco di tutti i vincoli, inclusi il livello e il tipo di vincolo.
 <!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group,  or import/export DOW targets. -->
 
 ### Azioni disponibili

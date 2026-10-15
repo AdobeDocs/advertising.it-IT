@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '551'
 ht-degree: 0%
 ---
 # (Nuova interfaccia) Informazioni sugli obiettivi
@@ -82,7 +82,21 @@ Nei tuoi obiettivi puoi includere uno qualsiasi dei seguenti elementi:
 
 ## Opzione per caricare gli obiettivi nelle reti di annunci
 
-Facoltativamente, puoi [caricare gli obiettivi per i portfolio dell&#39;account in [!DNL Google Ads] e/o [!DNL Microsoft Advertising] come conversioni](/help/search-social-commerce/tools/objective-upload-to-networks.md) in modo da poterli utilizzare per l&#39;ottimizzazione a livello di campagna o di gruppo di annunci. Quando abiliti l’opzione, Cerca, Social e Commerce trasmette quotidianamente i dati dei ricavi ponderati a livello di ID EF (ID clic) alla rete di annunci. Omette qualsiasi metrica tracciata dalla rete di annunci.
+Facoltativamente, puoi [caricare gli obiettivi per i portfolio dell&#39;account in [!DNL Google Ads] e/o [!DNL Microsoft Advertising] come conversioni](objective-upload-to-networks.md) in modo da poterli utilizzare per l&#39;ottimizzazione a livello di campagna o di gruppo di annunci. Quando abiliti l’opzione, Cerca, Social e Commerce trasmette quotidianamente i dati dei ricavi ponderati a livello di ID EF (ID clic) alla rete di annunci. Omette qualsiasi metrica tracciata dalla rete di annunci.
+
+## Azioni disponibili
+
+* [Creare un obiettivo](objective-create.md)
+
+* [Modificare una finalità](objective-edit.md)
+
+* [Applicare raccomandazioni sul peso a un obiettivo](objective-apply-weight-recommendations.md)
+
+* [Esporta una configurazione obiettivo in un foglio di lavoro  [!DNL Microsoft Excel] &#x200B;](objective-export.md)
+
+* [Scarica i dati sulle prestazioni per gli obiettivi](objective-download-performance-data.md)
+
+* [Eliminare una finalità](objective-delete.md)
 
 >[!MORELIKETHIS]
 >
@@ -91,4 +105,5 @@ Facoltativamente, puoi [caricare gli obiettivi per i portfolio dell&#39;account 
 >* [Eliminare un obiettivo](objective-delete.md)
 >* [Applicare consigli sul peso a un obiettivo](objective-apply-weight-recommendations.md)
 >* [Impostazioni obiettivo](objective-settings.md)
+>* [Esporta una configurazione obiettivo](objective-export.md)
 >* [Scarica i dati sulle prestazioni per gli obiettivi](objective-download-performance-data.md)

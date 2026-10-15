@@ -8,14 +8,14 @@ product_v2:
 feature_v2:
   - id: d26a7c77-52b3-5c68-80ee-315aaaaee689
     internal-label: Search Alerts
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1070'
 ht-degree: 0%
 ---
 # (Nuova interfaccia) Gestire gli avvisi personalizzati
 
-Crea modelli di avviso per identificare quando un portfolio, una campagna o un gruppo di annunci soddisfa condizioni specifiche, ad esempio una metrica di prestazioni, durante un periodo specificato, quindi genera un avviso. Gli avvisi sono disponibili per un singolo inserzionista. Gli avvisi includono tutte le colonne nella vista predefinita pertinente. Ad esempio, gli avvisi a livello di campagna includono tutte le colonne nella visualizzazione predefinita [!UICONTROL Campaigns].
+Creare modelli di avviso per identificare quando un portfolio, un account, una campagna, un gruppo di annunci, un annuncio, una parola chiave o un gruppo di prodotti soddisfa condizioni specifiche, ad esempio una metrica delle prestazioni, durante un periodo specificato, quindi generare un avviso. Gli avvisi sono disponibili per un singolo inserzionista. Gli avvisi includono tutte le colonne nella vista predefinita pertinente. Ad esempio, gli avvisi a livello di campagna includono tutte le colonne nella visualizzazione predefinita [!UICONTROL Campaigns].
 
 È possibile creare modelli di avviso dalla scheda [!UICONTROL Alert Templates] nel pannello [!UICONTROL Custom Alerts] o dalla parte superiore di qualsiasi pagina.
 
@@ -75,7 +75,7 @@ I nuovi modelli di avviso hanno lo stato &quot;[!UICONTROL Active]&quot;.
 
    * In alto a destra, fare clic su ![Avviso personalizzato](/help/search-social-commerce/assets/custom-alert.png "Avviso personalizzato") > **[!UICONTROL Create Custom Alert]**.
 
-   In alto a destra, fare clic su ![Avviso personalizzato](/help/search-social-commerce/assets/custom-alert.png "Avviso personalizzato") > **[!UICONTROL View Custom Alerts]**, che consente di aprire la scheda [!UICONTROL Alert Templates]. Fare clic su **[!UICONTROL Create Alert]**.
+   * In alto a destra, fare clic su ![Avviso personalizzato](/help/search-social-commerce/assets/custom-alert.png "Avviso personalizzato") > **[!UICONTROL View Custom Alerts]**, che consente di aprire la scheda [!UICONTROL Alert Templates]. Fare clic su **[!UICONTROL Create Alert]**.
 
 1. Specificare le [impostazioni degli avvisi](#alert-template-settings) nelle schede **[!UICONTROL Entity]**, **[!UICONTROL Date Range]**, **[!UICONTROL Filters]** e **[!UICONTROL Scheduling and Delivery]**.
 
