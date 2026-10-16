@@ -3,20 +3,19 @@ title: Informazioni su Creative Studio in Advertising Creative
 description: Scopri come utilizzare Creative Studio per creare contenuti pubblicitari basati sull’intelligenza artificiale in Adobe Advertising Creative.
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
+    internal-label: User
+source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
 workflow-type: tm+mt
-source-wordcount: 814
+source-wordcount: '812'
 ht-degree: 0%
-
 ---
-
 # Informazioni su [!UICONTROL Creative Studio] in [!DNL Advertising Creative]
-
-*funzionalità Beta*
 
 [!UICONTROL Creative Studio] è un ambiente basato sull&#39;intelligenza artificiale in cui è possibile creare, ridimensionare e perfezionare annunci display in più formati in una singola sessione. Interagisci con l’intelligenza artificiale tramite un’interfaccia chat in linguaggio naturale per generare e modificare i contenuti dell’annuncio: per i campi di contenuto non è richiesto alcun lavoro di progettazione manuale.
 
