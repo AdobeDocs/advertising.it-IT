@@ -45,7 +45,7 @@ Adobe CX Enterprise agisce come responsabile del trattamento per tutti i dati pe
 
 In questo documento viene descritto come [!DNL Advertising Search, Social, & Commerce], Advertising Creative, Advertising DSP (Demand Side Platform) e [!DNL Advertising DCO] supportano i diritti all&#39;accesso e all&#39;eliminazione dei dati degli interessati ai sensi del RGPD tramite l&#39;API Adobe Experience Platform Privacy Service e l&#39;interfaccia utente di Privacy Service.
 
-Per ulteriori informazioni sul significato del RGPD per la tua azienda, consulta [RGPD e la tua azienda](https://www.adobe.com/privacy/general-data-protection-regulation.html).
+Per ulteriori informazioni sul significato del RGPD per la tua azienda, consulta [RGPD e la tua azienda](https://www.adobe.com/it/privacy/general-data-protection-regulation.html).
 
 ## Tipi di richieste di dati supportati per Adobe Advertising
 
@@ -71,7 +71,7 @@ Per richiedere l’accesso e l’eliminazione dei dati per Adobe Advertising, è
 
    >[!NOTE]
    >
-   >L’eliminazione dei dati personali è diversa dalla rinuncia, che interrompe il targeting di un utente finale con segmenti di pubblico. Tuttavia, quando un interessato richiede di eliminare i dati personali da [!DNL Creative], [!DNL DSP] o [!DNL DCO], la libreria invia anche una richiesta ad Adobe Advertising per rifiutare l&#39;interessato dal targeting dei segmenti. Per gli inserzionisti con [!DNL Search, Social, & Commerce], si consiglia di fornire agli interessati un collegamento a [https://www.adobe.com/privacy/opt-out.html](https://www.adobe.com/privacy/opt-out.html), che spiega come rinunciare al targeting dei segmenti di pubblico.
+   >L’eliminazione dei dati personali è diversa dalla rinuncia, che interrompe il targeting di un utente finale con segmenti di pubblico. Tuttavia, quando un interessato richiede di eliminare i dati personali da [!DNL Creative], [!DNL DSP] o [!DNL DCO], la libreria invia anche una richiesta ad Adobe Advertising per rifiutare l&#39;interessato dal targeting dei segmenti. Per gli inserzionisti con [!DNL Search, Social, & Commerce], si consiglia di fornire agli interessati un collegamento a [https://www.adobe.com/it/privacy/opt-out.html](https://www.adobe.com/it/privacy/opt-out.html), che spiega come rinunciare al targeting dei segmenti di pubblico.
 
 1. Identifica l’ID organizzazione CX Enterprise e assicurati che sia collegato ai tuoi account Adobe Advertising.
 
