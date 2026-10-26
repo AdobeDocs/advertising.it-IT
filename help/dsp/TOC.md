@@ -4,9 +4,9 @@ user-guide-title: Guida di Advertising DSP
 user-guide-description: Scopri le principali funzioni, attività, impostazioni e altre risorse necessarie per gestire e ottimizzare le strategie degli annunci display con Advertising DSP e creare i relativi rapporti.
 breadcrumb-title: Guida di DSP
 index: true
-source-git-commit: 469047a3a9454a504cf3c0ff28c4dafa8a034819
+source-git-commit: b06a31b6418db148011b5bbefe515a5be8fe1e03
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1097'
 ht-degree: 3%
 ---
 
@@ -22,10 +22,15 @@ ht-degree: 3%
     + [Soluzioni multi-dispositivo](/help/dsp/introduction/features/cross-device-solutions.md)
   + [Finanziamento dell’account](/help/dsp/introduction/billing/account-funding.md)
   + [Valute supportate](/help/dsp/currency.md)
-  + [Supporto per la privacy del consumatore](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=it)
-  + [Politiche e linee guida](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=it)
+  + [Supporto per la privacy del consumatore](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+  + [Politiche e linee guida](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
   + [Soluzioni di misurazione avanzate](/help/dsp/introduction/advanced-measurement-services.md)
-+ [Cerca la documentazione del prodotto utilizzando la chat assistita da IA](/help/dsp/agent-chat.md)
++ Assistente AI in Advertising DSP {#ai-assistant}
+  + [Informazioni sull’Assistente IA in Advertising DSP](/help/dsp/ai-assistant/ai-assistant-about.md)
+  + [Creare rapporti con l’assistente AI](/help/dsp/ai-assistant/insights-agent.md)
+  + [Risolvere i problemi di prestazioni e consegna tramite l’assistente AI](/help/dsp/ai-assistant/troubleshooting-agent.md)
+  + [Cercare la documentazione del prodotto utilizzando l’Assistente AI](/help/dsp/ai-assistant/documentation-search.md)
+  + [Utilizzare le conversazioni precedenti dell’Assistente IA](/help/dsp/ai-assistant/previous-conversations.md)
 + Gestione delle campagne {#campaign-management}
   + [Panoramica della gestione delle campagne in Advertising DSP](/help/dsp/campaign-management/campaign-management-overview.md)
   + Campagne {#campaigns}
@@ -75,7 +80,7 @@ ht-degree: 3%
     + [Rivedere e modificare i dettagli degli annunci tramite i bulksheet](/help/dsp/campaign-management/ads/ad-qa.md)
     + [Modificare un annuncio](/help/dsp/campaign-management/ads/ad-edit.md)
     + [Duplicare un annuncio](/help/dsp/campaign-management/ads/ad-duplicate.md)
-    + [Allega e rimuovi annunci dai posizionamenti](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=it)
+    + [Allega e rimuovi annunci dai posizionamenti](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
     + [Elencare i posizionamenti associati a un annuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
     + [Visualizzare un rapporto dettagliato per un annuncio](/help/dsp/campaign-management/ads/ad-view-report.md)
     + [Mettere in pausa o attivare un annuncio](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -150,7 +155,7 @@ ht-degree: 3%
   + [Utilizzo di  [!DNL Roku Inventory]](/help/dsp/inventory/roku-inventory.md)
   + [Partner SSP](/help/dsp/inventory/ssp-partners.md)
   + [!DNL On Demand] inventario {#on-demand}
-    + [Informazioni sull&#39;inventario premium  [!DNL On Demand] &#x200B;](/help/dsp/inventory/on-demand-inventory-about.md)
+    + [Informazioni sull&#39;inventario premium  [!DNL On Demand] ](/help/dsp/inventory/on-demand-inventory-about.md)
     + Disponibili [!DNL On Demand] autori inventario premium {#publishers}
       + [[!DNL On Demand] editori di inventario premium in Asia Pacifico](/help/dsp/inventory/on-demand-inventory-publishers-apac.md)
       + [[!DNL On Demand] editori di inventario premium in Australia e Nuova Zelanda](/help/dsp/inventory/on-demand-inventory-publishers-anz.md)
@@ -234,9 +239,9 @@ ht-degree: 3%
   + Notifiche {#notifications}
     + [Informazioni sugli abbonamenti agli avvisi](/help/dsp/admin/alerts-about.md)
     + [Gestire gli abbonamenti agli avvisi](/help/dsp/admin/alerts-manage.md)
-+ [Integrazioni con Adobe CX Enterprise](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=it)
++ [Integrazioni con Adobe CX Enterprise](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
 + [Ottieni aiuto](/help/dsp/get-help.md)
-+ [Note sulla versione di Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it)
++ [Note sulla versione di Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 
 
 <!--
