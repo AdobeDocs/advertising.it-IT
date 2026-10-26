@@ -15,9 +15,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 1c279c827b9e1f3d5cc9d3a031106730b3a365bd
+source-git-commit: c6ab712d47cafc8e9590a212253949a053b7c476
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '402'
 ht-degree: 0%
 ---
 # Informazioni sull’Assistente IA in Advertising DSP
@@ -36,9 +36,9 @@ I seguenti flussi di lavoro possono aiutarti a svolgere il tuo lavoro in modo pi
 
 | Funzionalità | Descrizione | Risposte |
 | --- | --- | --- |
-| [Risoluzione dei problemi](troubleshooting-agent.md) | (Funzione Beta) Diagnostica i problemi di prestazioni e consegna per pacchetti live e posizionamenti.<ul><li>Solo posizionamenti: esegui la diagnosi di sovraccarico, sottoutilizzo e mancata spesa. L&#39;agente valuta i fattori relativi al ritmo, alle offerte, al targeting e al tetto di budget.</li><li>Solo pacchetti: diagnosticare problemi di prestazioni, tra cui un CPA in aumento o un ROAS in calo. L’agente non diagnostica le metriche di coinvolgimento come CTR, CPC, clic o impression.</li></ul>Ogni conversazione copre una diagnosi per un pacchetto o posizionamento. Dopo aver ricevuto un risultato, avvia una nuova conversazione per diagnosticare un altro problema, pacchetto o posizionamento.<br><br>L&#39;agente non può modificare le impostazioni né creare o modificare campagne o componenti della campagna. Inoltre, non è in grado di diagnosticare pacchetti o posizionamenti sospesi, completati, archiviati o pianificati. | La risposta include fattori che limitano le prestazioni e fornisce consigli per risolvere i problemi. |
-| [Informazioni](insights-agent.md) | (Funzione Beta) Ottieni metriche della campagna e rapporti completi senza creare manualmente un rapporto. Puoi porre domande semplici su una metrica specifica, ad esempio spesa o CPA per una campagna, oppure chiedere un rapporto più complesso per una dimensione specifica (ad esempio una singola campagna, posizionamento o pubblico) o tra dimensioni diverse (per raggruppamenti per campagna e inserzionista). Puoi scaricare i risultati come file CSV. | Vengono visualizzate le prime righe del report, con collegamenti per visualizzare in anteprima il report completo e scaricare il report come file di valori separati da virgola (.csv) di [!DNL Microsoft Excel]. |
-| [Ricerca nella documentazione del prodotto](documentation-search.md) | Cerca contenuti concettuali e pratici nella [Guida di Advertising DSP](/help/dsp/home.md) e, per gli inserzionisti con Advertising Creative, nella [Guida di Advertising Creative](/help/creative/home.md). Le risposte si basano solo su ciò che è documentato per questi prodotti in [Experience League](https://experienceleague.adobe.com/it/docs/advertising).<br><br>Chiedi informazioni su gestione campagne, ottimizzazione, gestione dell&#39;audience, offerte, rapporti e altre caratteristiche del prodotto. | La risposta include le citazioni in linea e un elenco [!UICONTROL Documentation Sources] espandibile in basso. Fai clic su una citazione o un elenco di fonti per aprire la pagina pertinente.<br><br>La risposta può includere anche domande e suggerimenti per aiutarti a perfezionare la tua query e a trovare ulteriori informazioni. |
+| [Risoluzione dei problemi](troubleshooting-agent.md) | (Funzione Beta) Diagnostica i problemi di prestazioni e consegna per pacchetti live e posizionamenti. | La risposta include fattori che limitano le prestazioni e fornisce consigli per risolvere i problemi. |
+| [Informazioni](insights-agent.md) | (Funzione Beta) Ottieni metriche della campagna e rapporti completi senza creare manualmente un rapporto. Puoi scaricare i risultati come file CSV. | Vengono visualizzate le prime righe del report, con collegamenti per visualizzare in anteprima il report completo e scaricare il report come file di valori separati da virgola (.csv) di [!DNL Microsoft Excel]. |
+| [Ricerca nella documentazione del prodotto](documentation-search.md) | Cerca contenuti concettuali e pratici nella [Guida di Advertising DSP](/help/dsp/home.md) e, per gli inserzionisti con Advertising Creative, nella [Guida di Advertising Creative](/help/creative/home.md). | La risposta include le citazioni in linea e un elenco [!UICONTROL Documentation Sources] espandibile in basso. Fai clic su una citazione o un elenco di fonti per aprire la pagina pertinente.<br><br>La risposta può includere anche domande e suggerimenti per aiutarti a perfezionare la tua query e a trovare ulteriori informazioni. |
 
 ## Best practice per la scrittura di query e prompt {#writing-queries}
 

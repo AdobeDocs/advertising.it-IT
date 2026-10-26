@@ -14,18 +14,18 @@ feature_v2:
 subfeature_v2:
   - id: ba946348-465d-45f3-8d28-c42d0a2599c5
     internal-label: Creative introduction
-source-git-commit: 8bab50fe8bf737d208d059d89b2592e16bc40c69
+source-git-commit: c6ab712d47cafc8e9590a212253949a053b7c476
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '471'
 ht-degree: 0%
 ---
 # Cercare la documentazione del prodotto utilizzando l’Assistente AI
 
 *Supporto solo per la lingua inglese*
 
-Utilizza l&#39;Assistente AI per DSP per cercare contenuti concettuali e pratici nella [Guida di Advertising DSP](/help/dsp/home.md) e (per gli inserzionisti con Advertising Creative) nella [Guida di Advertising Creative](/help/creative/home.md) tramite un&#39;interfaccia chat. Le risposte si basano solo su quanto documentato per questi prodotti in [Experience League](https://experienceleague.adobe.com/it/docs/advertising).
+Utilizza l&#39;Assistente AI per DSP per cercare contenuti concettuali e pratici nella [Guida di Advertising DSP](/help/dsp/home.md) e (per gli inserzionisti con Advertising Creative) nella [Guida di Advertising Creative](/help/creative/home.md) tramite un&#39;interfaccia chat. Le risposte si basano solo su quanto documentato per questi prodotti in [Experience League](https://experienceleague.adobe.com/en/docs/advertising).
 
-Le risposte includono citazioni, query aggiuntive e domande di follow-up per aiutarti a perfezionare la query e trovare ulteriori informazioni.
+Puoi chiedere informazioni su gestione campagne, ottimizzazione, gestione dell’audience, offerte, rapporti e altre funzioni del prodotto. Le risposte includono citazioni, query aggiuntive e domande di follow-up per aiutarti a perfezionare la query e trovare ulteriori informazioni.
 
 ![Esempio di query e risposta](/help/dsp/assets/agent-chat-response.png "Esempio di query e risposta")
 
@@ -34,8 +34,6 @@ Le risposte includono citazioni, query aggiuntive e domande di follow-up per aiu
 >Le risposte generate dall’intelligenza artificiale possono essere imprecise o fuorvianti. Verifica sempre le risposte e le origini prima di utilizzarle per le decisioni che influiscono su costi o sforzi.
 
 ## Query di esempio
-
-Puoi chiedere informazioni su gestione campagne, ottimizzazione, gestione dell’audience, offerte, rapporti e altre funzioni del prodotto. Di seguito sono riportati alcuni esempi:
 
 * Come si allega un annuncio a un posizionamento?
 
