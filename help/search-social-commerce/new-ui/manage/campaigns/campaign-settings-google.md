@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 3d982df6837633d7e21b7acb85e8d7fd2c3e1655
+source-git-commit: d94447fb737903f1092eea24c8d3f255b7eb21f0
 workflow-type: tm+mt
-source-wordcount: '3216'
+source-wordcount: '3244'
 ht-degree: 0%
 ---
 # [!DNL Google Ads] impostazioni campagna
@@ -251,9 +251,9 @@ per paese. Se non ne selezioni alcuna, viene eseguito il targeting di tutti.
 
 **[!UICONTROL URL exclusions]:** (campagne per le quali sono abilitati [!DNL AI Max], [!UICONTROL Text customization] e [!UICONTROL Final URL expansion]) URL da escludere come pagine di destinazione generate dall&#39;espansione finale dell&#39;URL. Facoltativamente, puoi aggiungere l&#39;URL *inclusioni* (non esclusioni) a livello di gruppo di annunci. Per aggiungere un URL, immettere un URL o un frammento di URL nel campo di input, quindi fare clic su **+**.
 
-**[!UICONTROL Brand inclusions]:** (Campagne per cui è abilitato [!DNL AI Max]) Elenchi di marchi per l&#39;account per cui le query relative al marchio possono corrispondere. Seleziona la casella di controllo accanto a ciascun elenco di marchi da includere. Puoi sovrascrivere questa impostazione a livello di gruppo di annunci.
+**[!UICONTROL Brand inclusions]:** (Campagne per le quali è abilitato [!DNL AI Max]) Elenchi di marchi che includono marchi per i quali le query relative ai marchi possono corrispondere. Dall&#39;elenco di tutti gli elenchi di marchi configurati per l&#39;account nell&#39;editor [!DNL Google Ads], selezionare la casella di controllo accanto a ogni elenco di marchi da includere. Puoi sovrascrivere questa impostazione a livello di gruppo di annunci.
 
-**[!UICONTROL Brand exclusions]:** (Campagne per cui è abilitato [!DNL AI Max]) Elenchi di marchi per l&#39;account per cui le query relative al marchio potrebbero non corrispondere. Seleziona la casella di controllo accanto a ciascun elenco di marchi da escludere.
+**[!UICONTROL Brand exclusions]:** (Campagne per le quali è abilitato [!DNL AI Max]) Elenchi di marchi che includono marchi per i quali le query relative ai marchi potrebbero non corrispondere. Dall&#39;elenco di tutti gli elenchi di marchi configurati per l&#39;account nell&#39;editor [!DNL Google Ads], selezionare la casella di controllo accanto a ogni elenco di marchi da escludere.
 
 ## Scheda [!UICONTROL Additional Campaign Information]
 

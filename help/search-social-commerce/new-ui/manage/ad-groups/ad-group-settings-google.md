@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 58b07a3c997005bbeb394f4925a894ea5960b9f7
+source-git-commit: d94447fb737903f1092eea24c8d3f255b7eb21f0
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '727'
 ht-degree: 0%
 ---
 # Impostazioni gruppo di annunci [!DNL Google Ads]
@@ -109,7 +109,7 @@ Se la campagna utilizza una strategia di offerta avanzata (ad esempio [!UICONTRO
 >* Quando l&#39;impostazione [!UICONTROL Final URL expansion] a livello di campagna è *disabled*, [!DNL Google Ads] utilizza solo gli URL specificati come pagine di destinazione dinamiche per il gruppo di annunci.
 >* (Annunci di ricerca reattiva con risorse bloccate) Quando questa impostazione specifica le inclusioni URL, [!DNL Google Ads] non utilizza le risorse bloccate quando l&#39;URL finale viene indirizzato a una pagina di destinazione in cui la copia bloccata non corrisponde all&#39;intento dell&#39;utente. Per utilizzare sempre le risorse bloccate, non specificare le inclusioni URL e disabilita l&#39;impostazione [!UICONTROL Final URL expansion] a livello di campagna.
 
-**[!UICONTROL Brand inclusions]:** (campagne per le quali è abilitato [!DNL AI Max]) Marchi per l&#39;account per cui le query relative al brand possono corrispondere. Seleziona la casella di controllo accanto a ciascun elenco di marchi da includere. Questa impostazione sostituisce l’impostazione a livello di campagna.
+**[!UICONTROL Brand inclusions]:** (Campagne per le quali è abilitato [!DNL AI Max]) Elenchi di marchi che includono marchi per i quali le query relative ai marchi possono corrispondere. Dall&#39;elenco di tutti gli elenchi di marchi configurati per l&#39;account nell&#39;editor [!DNL Google Ads], selezionare la casella di controllo accanto a ogni elenco di marchi da includere. Questa impostazione sostituisce l’impostazione a livello di campagna.
 
 ## Scheda [!UICONTROL URL Options]
 
