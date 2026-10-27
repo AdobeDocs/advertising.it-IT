@@ -14,9 +14,9 @@ feature_v2:
 subfeature_v2:
   - id: ba946348-465d-45f3-8d28-c42d0a2599c5
     internal-label: Creative introduction
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: a461e1f9377bdb5db07dcb38cd5a1cf8fea510aa
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '472'
 ht-degree: 0%
 ---
 # Cercare la documentazione del prodotto utilizzando un’interfaccia di chat assistita da IA
@@ -63,7 +63,7 @@ Puoi porre più domande in un messaggio, ma solo un messaggio alla volta. Attend
 
 1. In alto a destra, fare clic su ![Chat con agenti](/help/dsp/assets/agent-chat.png "Chat con agenti").
 
-1. Immetti la query e fai clic su ![Invia richiesta](/help/dsp/assets/submit-prompt.png "Invia richiesta").
+1. Inserisci la query, quindi fai clic su ![Invia richiesta](/help/dsp/assets/submit-prompt.png "Invia richiesta") o premi il tasto **Invio** sulla tastiera.
 
    Per ulteriori informazioni, vedere &quot;[Prompt di scrittura](#writing-prompts).&quot;
 
@@ -75,15 +75,19 @@ Puoi porre più domande in un messaggio, ma solo un messaggio alla volta. Attend
 
    * Fare clic su **[!UICONTROL Documentation Sources]** per visualizzare un elenco di tutte le pagine citate nella risposta, quindi fare clic sul collegamento della pagina.
 
-## Fornisci feedback su una risposta
+<!-- 
 
-<!-- Not actionable in terms of improving page content -->
+Not there as of 10/22/26. Anyway, this feature isn't actionable in terms of improving page content.
 
-* Accanto all&#39;elenco [!UICONTROL Documentation Sources]:
+## Provide feedback about a response
 
-  * Per risposte utili, fai clic su ![Miniature in alto](/help/dsp/assets/thumbs-up.png "Miniature in alto").
+* Next to the [!UICONTROL Documentation Sources] list:
 
-  * Per risposte inutili, fai clic su ![Miniature giù](/help/dsp/assets/thumbs-down.png "Miniature giù").
+  * For helpful responses, click ![Thumbs up](/help/dsp/assets/thumbs-up.png "Thumbs up").
+
+  * For unhelpful responses, click ![Thumbs down](/help/dsp/assets/thumbs-down.png "Thumbs down").
+
+ -->
 
 ## Nozioni di base sui prompt di scrittura {#writing-prompts}
 

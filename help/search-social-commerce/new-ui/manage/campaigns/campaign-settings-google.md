@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 3d982df6837633d7e21b7acb85e8d7fd2c3e1655
 workflow-type: tm+mt
-source-wordcount: '3058'
+source-wordcount: '3216'
 ht-degree: 0%
 ---
 # [!DNL Google Ads] impostazioni campagna
@@ -239,13 +239,21 @@ per paese. Se non ne selezioni alcuna, viene eseguito il targeting di tutti.
 
 * **[!UICONTROL Final URL expansion]:** se consentire a [!DNL Google Ads] di instradare il traffico alla pagina di destinazione più pertinente del sito Web in base al loro intento di ricerca. Questa impostazione è disponibile solo quando **[!UICONTROL Text customization]** è abilitato.
 
-<!-- Clarify why this is "Unspecified" and read-only for me as of 7/23. Also, shouldn't we reword this? -->
+  >[!NOTE]
+  >
+  >(Annunci di ricerca reattiva con risorse bloccate) Quando questa impostazione è abilitata, [!DNL Google Ads] non utilizza le risorse bloccate quando l&#39;URL finale viene indirizzato a una pagina di destinazione in cui la copia bloccata non corrisponde all&#39;intento dell&#39;utente. Per utilizzare sempre le risorse bloccate, disabilita [!UICONTROL Final URL expansion] e non specificare il livello di gruppo di annunci [!UICONTROL URL inclusions].
 
 **[!UICONTROL Bundling required]:** (Solo campagne esistenti con la funzionalità [!UICONTROL AI Max] abilitata; sola lettura) Indica se [!UICONTROL AI Max] deve essere abilitato per rispettare o modificare la personalizzazione del testo e i controlli dell&#39;elenco dei marchi per la campagna: *[!UICONTROL Required]*, *[!UICONTROL Not required]* o *[!UICONTROL Unspecified]*.
 
 <!-- Is this based on the advanced location options set elsewhere in Google Ads editor? -->
 
 **[!UICONTROL Geo Targeting Type]:** (Solo campagne esistenti con la funzionalità [!UICONTROL AI Max] abilitata; sola lettura) Quando uno dei gruppi di annunci della campagna include [!UICONTROL Locations of Interest] destinazioni, i tipi di interesse utente di destinazione sono indicati: *[!UICONTROL Search Interest]* (utenti interessati a una posizione specificata), *[!UICONTROL Presence]* (utenti in o regolarmente in una posizione specificata) o *[!UICONTROL Presence or Interest]* (utenti in, regolarmente in o interessati a una posizione specificata).
+
+**[!UICONTROL URL exclusions]:** (campagne per le quali sono abilitati [!DNL AI Max], [!UICONTROL Text customization] e [!UICONTROL Final URL expansion]) URL da escludere come pagine di destinazione generate dall&#39;espansione finale dell&#39;URL. Facoltativamente, puoi aggiungere l&#39;URL *inclusioni* (non esclusioni) a livello di gruppo di annunci. Per aggiungere un URL, immettere un URL o un frammento di URL nel campo di input, quindi fare clic su **+**.
+
+**[!UICONTROL Brand inclusions]:** (Campagne per cui è abilitato [!DNL AI Max]) Elenchi di marchi per l&#39;account per cui le query relative al marchio possono corrispondere. Seleziona la casella di controllo accanto a ciascun elenco di marchi da includere. Puoi sovrascrivere questa impostazione a livello di gruppo di annunci.
+
+**[!UICONTROL Brand exclusions]:** (Campagne per cui è abilitato [!DNL AI Max]) Elenchi di marchi per l&#39;account per cui le query relative al marchio potrebbero non corrispondere. Seleziona la casella di controllo accanto a ciascun elenco di marchi da escludere.
 
 ## Scheda [!UICONTROL Additional Campaign Information]
 

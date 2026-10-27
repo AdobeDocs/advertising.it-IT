@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 889cc027476f205f00dfc183772963f7e53c2ee2
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '712'
 ht-degree: 0%
 ---
 # Impostazioni gruppo di annunci [!DNL Google Ads]
@@ -100,6 +100,16 @@ Se la campagna utilizza una strategia di offerta avanzata (ad esempio [!UICONTRO
 **[!UICONTROL AI Search Term Matching]:** (solo campagne con [!DNL AI Max] abilitate) Se utilizzare la corrispondenza dei termini di ricerca senza parole chiave basata sull&#39;intelligenza artificiale per migliorare la portata e l&#39;ottimizzazione.<!--SUPPOSEDLY, BUT THIS IS OFF FOR ME:  It's enabled by default for campaigns with [!DNL AI Max], but you can disable it at the ad group level. -->
 
 **[!UICONTROL Locations of Interest]:** (solo campagne con [!DNL AI Max] abilitate) Posizioni specifiche con intento geografico di destinazione (ma non da escludere); gli utenti devono inoltre soddisfare il targeting geografico della campagna. Per impostazione predefinita, il targeting viene applicato agli utenti in, che si trovano regolarmente in o che sono interessati a tutte le posizioni geografiche. Per limitare le destinazioni, selezionare ogni posizione di destinazione.
+
+**[!UICONTROL URL inclusions]:** (campagne per le quali sono abilitati [!DNL AI Max] e [!UICONTROL Text customization]) URL da includere come pagine di destinazione generate dall&#39;espansione finale dell&#39;URL. Per aggiungere un URL, immettere un URL o un frammento di URL nel campo di input, quindi fare clic su **+**.
+
+>[!NOTE]
+>
+>* Quando l&#39;impostazione [!UICONTROL Final URL expansion] a livello di campagna è *enabled*, [!DNL Google Ads] utilizza gli URL specificati e gli URL aggiuntivi selezionati da Google come pagine di destinazione dinamiche per il gruppo di annunci.
+>* Quando l&#39;impostazione [!UICONTROL Final URL expansion] a livello di campagna è *disabled*, [!DNL Google Ads] utilizza solo gli URL specificati come pagine di destinazione dinamiche per il gruppo di annunci.
+>* (Annunci di ricerca reattiva con risorse bloccate) Quando questa impostazione specifica le inclusioni URL, [!DNL Google Ads] non utilizza le risorse bloccate quando l&#39;URL finale viene indirizzato a una pagina di destinazione in cui la copia bloccata non corrisponde all&#39;intento dell&#39;utente. Per utilizzare sempre le risorse bloccate, non specificare le inclusioni URL e disabilita l&#39;impostazione [!UICONTROL Final URL expansion] a livello di campagna.
+
+**[!UICONTROL Brand inclusions]:** (campagne per le quali è abilitato [!DNL AI Max]) Marchi per l&#39;account per cui le query relative al brand possono corrispondere. Seleziona la casella di controllo accanto a ciascun elenco di marchi da includere. Questa impostazione sostituisce l’impostazione a livello di campagna.
 
 ## Scheda [!UICONTROL URL Options]
 

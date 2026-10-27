@@ -17,15 +17,23 @@ subfeature_v2:
     internal-label: AI features
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
     internal-label: Audiences
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b06a31b6418db148011b5bbefe515a5be8fe1e03
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '117'
 ht-degree: 0%
 ---
 # Funzioni basate sull’intelligenza artificiale in Adobe Advertising DSP
 
 DSP fornisce agenti assistiti da intelligenza artificiale che utilizzano prompt del linguaggio naturale per aiutarti con più attività:
 
-* [Cerca contenuti concettuali e pratici](/help/dsp/agent-chat.md) nella [Guida di Advertising DSP](/help/dsp/home.md) e (inserzionisti con Advertising Creative) nella [Guida di Advertising Creative](/help/creative/home.md) utilizzando un&#39;interfaccia di chat assistita da IA.
+* [Ricerca di contenuti concettuali e pratici](/help/dsp/agent-chat.md)
 
-* [Utilizza l&#39;agente di pubblico generativo basato sull&#39;intelligenza artificiale per generare nuovi tipi di pubblico riutilizzabili](/help/dsp/audiences/reusable-audience-create.md), che puoi utilizzare come target o esclusioni per i tuoi posizionamenti.
+* Assistente AI unificato:
+
+  * [Crea rapporti per campagne, componenti della campagna, esperienze Advertising Creative, inserzionisti e destinazioni annunci](/help/dsp/ai-assistant/insights-agent.md).
+
+  * [Risolvere i problemi relativi a prestazioni e recapito per pacchetti e posizionamenti](/help/dsp/ai-assistant/troubleshooting-agent.md).
+
+  * [Cerca la documentazione del prodotto](/help/dsp/ai-assistant/documentation-search.md) nella [Guida di Advertising DSP](/help/dsp/home.md) e (per gli inserzionisti con Advertising Creative) nella [Guida di Advertising Creative](/help/creative/home.md).
+
+* [Utilizza l&#39;agente del pubblico generativo assistito da IA in [!UICONTROL Audiences] > [!UICONTROL All Audiences] per generare nuovi tipi di pubblico riutilizzabili](/help/dsp/audiences/reusable-audience-create.md), che puoi utilizzare come destinazioni o esclusioni per i tuoi posizionamenti.
