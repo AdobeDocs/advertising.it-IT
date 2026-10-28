@@ -15,14 +15,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ffe7424d4e225a95b279b06a7df3b85bf0cbcdbf
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '594'
 ht-degree: 0%
 ---
-# Creare rapporti con l’assistente AI
+# Creare rapporti con l’Assistente AI
 
 *funzionalità Beta*
+
+*Supporto solo per la lingua inglese*
 
 Utilizza l’agente di insights dell’Assistente AI per ottenere metriche e rapporti completi per campagne, componenti della campagna, esperienze Advertising Creative, inserzionisti e destinazioni di annunci senza creare manualmente un rapporto. Puoi porre domande semplici su una metrica specifica, ad esempio spesa o CPA per una campagna, oppure chiedere un rapporto più complesso per una dimensione specifica (ad esempio una singola campagna o pubblico) o tra dimensioni diverse (per raggruppamenti per ogni campagna e inserzionista). Puoi scaricare i risultati come file CSV.
 

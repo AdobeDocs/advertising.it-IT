@@ -1,6 +1,6 @@
 ---
 title: Creare un pubblico riutilizzabile
-description: Scopri come creare tipi di pubblico riutilizzabili costituiti da segmenti di pubblico e altri tipi di pubblico salvati. Facoltativamente, utilizza un agente di pubblico assistito da intelligenza artificiale descrivendo il pubblico di destinazione in prompt in linguaggio naturale; l’agente suggerisce segmenti di terze parti e crea espressioni di pubblico da utilizzare come target o esclusioni.
+description: Scopri come creare tipi di pubblico riutilizzabili da utilizzare come destinazioni di posizionamento o esclusioni. Crea tipi di pubblico riutilizzabili in Adobe Advertising DSP manualmente o con IA generativa nell’Assistente AI o nella visualizzazione Tutti i tipi di pubblico.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
 TQID: 'https://experienceleague.adobe.com/KhAxVTvMx4yBz3tfDtng3nOur2IodZAFFHMUQM1lKhQ'
@@ -18,26 +18,146 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: a8b5c9e6cbeb50467224496a1f52f06252da1e36
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '2104'
 ht-degree: 0%
 ---
 # Creare un pubblico riutilizzabile
 
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
 
-Puoi salvare e gestire i tipi di pubblico riutilizzabili, ovvero gruppi di segmenti di pubblico e anche altri tipi di pubblico salvati, che puoi utilizzare come target o esclusioni per più posizionamenti. Crea i tipi di pubblico manualmente o utilizza l’agente del pubblico assistito da intelligenza artificiale per generare nuovi tipi di pubblico riutilizzabili utilizzando tutti i segmenti di prime e terze parti disponibili, in base ai requisiti dichiarati.
+Puoi salvare e gestire i tipi di pubblico riutilizzabili, che sono gruppi di segmenti di pubblico (inclusi eventuali segmenti di prime e terze parti disponibili) e anche altri tipi di pubblico salvati. Puoi utilizzare i tipi di pubblico come target o esclusioni per più posizionamenti.
+
+Crea tipi di pubblico utilizzando l&#39;agente di pubblico assistito da IA nell&#39;[Assistente IA](/help/dsp/ai-assistant/ai-assistant-about.md) unificato o nella visualizzazione [!UICONTROL Audiences] > [!UICONTROL All Audiences] oppure crea tipi di pubblico manualmente.
 
 >[!NOTE]
 >
 >(Per gli inserzionisti per i quali DSP converte gli ID e-mail con hash in segmenti RampID LiveRamp) I segmenti RampID di prime parti non collegati a un posizionamento attivo, pianificato o in pausa vengono messi in pausa. Nell’elenco dei segmenti, il segmento viene indicato come &quot;In pausa automatica&quot;.
 
-## Creare manualmente un pubblico riutilizzabile
+## Creare un pubblico riutilizzabile con IA generativa con AI Assistant
+
+*funzionalità Beta*
+
+*Supporto solo per la lingua inglese*
+
+<!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
+
+>[!NOTE]
+>
+>Questa funzione è in modalità beta ed è soggetta a modifiche. Assicurati che l’espressione del pubblico generato rappresenti il pubblico desiderato prima di salvarlo e utilizzarlo per i posizionamenti.
+
+1. Apri Assistente IA:
+
+   * Nel menu principale, fare clic su **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**. Sopra la tabella dati, fare clic su **[!UICONTROL Create]>[!UICONTROL Create with AI]**.
+
+   * In alto a destra, fare clic su ![Chat con agenti](/help/dsp/assets/agent-chat.png "Chat con agenti").
+
+1. Definisci il pubblico:
+
+   1. Crea un prompt iniziale per definire il pubblico in uno dei seguenti modi:
+
+      * Inserisci una descrizione del pubblico di destinazione o alcune delle caratteristiche da includere ed escludere.
+
+      * Per visualizzare esempi di descrizioni del pubblico di destinazione e, facoltativamente, copiarne una da utilizzare:
+
+        1. Fare clic su **[!UICONTROL Build]** per espandere la sezione.
+
+        1. (Facoltativo) Per copiare il testo di un esempio di descrizione del pubblico nella casella del prompt:
+
+           1. Fai clic sull’esempio.
+
+           1. (Facoltativo) Modifica il testo in base alle tue esigenze.
+
+      Consulta &quot;[Nozioni di base sulla scrittura dei prompt](#writing-prompts)&quot; e &quot;[Best practice per la creazione di una descrizione del pubblico](#audience-brief-best-practices).&quot;
+
+   1. Per inviare la richiesta, fare clic su ![Invia richiesta](/help/dsp/assets/submit-prompt.png "Invia richiesta").
+
+      È possibile porre più domande in un prompt, ma solo un prompt alla volta. Attendi una risposta prima di poter inviare un&#39;altra richiesta.
+
+      Viene aperto un pannello laterale, con la definizione del pubblico nella scheda [!UICONTROL Step 1: Audience Definition]. La definizione include tutti i filtri definiti per il pubblico, i criteri di ottimizzazione e tutti i segmenti di prime parti da escludere.
+
+      Se applicabile, l’Assistente AI suggerisce filtri di pubblico aggiuntivi per aiutarti a creare una descrizione più efficace del pubblico. Puoi accettare o rifiutare i suggerimenti.
+
+   1. (Facoltativo) Per escludere uno dei tuoi segmenti di prime parti, richiedi all&#39;Assistente IA di eseguirlo o fai clic su ![Modifica](/help/dsp/assets/edit-ai.png "Modifica") nella sezione **[!UICONTROL First-party segments to exclude]**, seleziona i segmenti che desideri escludere per il pubblico, quindi fai clic su **[!UICONTROL Apply]**.
+
+   1. (Facoltativo) Invia ulteriori richieste, se necessario, per descrivere le caratteristiche del pubblico da includere ed escludere. Per inviare ogni richiesta, fare clic su ![Invia richiesta](/help/dsp/assets/submit-prompt.png "Invia richiesta").
+
+1. Quando la definizione del pubblico soddisfa i criteri, specifica i segmenti da includere:
+
+   1. Richiedi all’Assistente AI di cercare i segmenti corrispondenti. Puoi dire &quot;ok&quot;, &quot;go&quot;, &quot;continue&quot;, &quot;search&quot;, o qualsiasi termine o frase rilevante.
+
+      La scheda [!UICONTROL Step 2: Audience Segments] mostra il nome del pubblico proposto, le dimensioni e la distribuzione del pubblico, l&#39;espressione booleana del pubblico e un elenco dei segmenti di pubblico inclusi raggruppati per caratteristica.
+
+   1. (Facoltativo) Nella sezione [!UICONTROL Audience segments] in basso, eseguire una delle operazioni seguenti:
+
+      * Per espandere ogni gruppo di segmenti di pubblico, fai clic su **[!UICONTROL >]** accanto al conteggio.
+
+      * Per copiare negli Appunti gli ID segmento dei segmenti di pubblico inclusi, fare clic su **[!UICONTROL Copy rule]**.
+
+      * Per rimuovere segmenti dal pubblico, richiedi all&#39;Assistente AI di eseguire l&#39;operazione o fai clic su ![Modifica](/help/dsp/assets/edit-ai.png "Modifica"), deseleziona i segmenti che desideri rimuovere dal pubblico e quindi fai clic su **[!UICONTROL Apply]**.
+
+1. Quando si è soddisfatti del pubblico assemblato, fare clic su **[!UICONTROL Save Audience]** per creare il pubblico specificato.
+
+   >[!NOTE]
+   >
+   >Per modificare il pubblico in seguito, [modifica manualmente l&#39;espressione del pubblico](/help/dsp/audiences/reusable-audience-edit.md).
+
+## Crea un pubblico riutilizzabile utilizzando IA generativa dalla vista [!UICONTROL Audiences] > [!UICONTROL All audiences]
+
+*funzionalità Beta*
+
+*Supporto solo per la lingua inglese*
+
+>[!NOTE]
+>
+>Questa funzione è in modalità beta ed è soggetta a modifiche. Assicurati che l’espressione del pubblico generato rappresenti il pubblico desiderato prima di salvarlo e utilizzarlo per i posizionamenti.
+
+<!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
 1. Nel menu principale, fare clic su **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
 
 1. Sopra la tabella dati, fare clic su **[!UICONTROL Create]**.
+
+1. Nelle impostazioni [!UICONTROL New Audience]:
+
+   1. Immettere un **[!UICONTROL Audience Name]** univoco.
+
+   1. (Facoltativo) Deselezionare l&#39;opzione su **[!UICONTROL Share with all advertisers in my account]**.
+
+      Quando condividi un pubblico, questo diventa disponibile come target o come esclusione per tutti gli inserzionisti all’interno dell’account. Tuttavia, i singoli segmenti nel pubblico sono disponibili solo per gli utenti a cui i segmenti sono condivisi. Ad esempio, se condividi un pubblico contenente segmenti di Adobe Analytics con un inserzionista che non è mappato allo stesso account [!DNL Analytics], il segmento non viene visualizzato in anteprima nel pubblico per tale inserzionista. Solo i segmenti disponibili per l’inserzionista vengono visualizzati in anteprima nel pubblico.
+
+   1. Fare clic su **[!UICONTROL Save]**.
+
+1. Creare il pubblico:
+
+   1. Inserisci una o più richieste per descrivere le caratteristiche del pubblico da includere ed escludere. Per inviare ogni richiesta, fare clic su ![Invia richiesta](/help/dsp/assets/submit-prompt.png "Invia richiesta").
+
+      Per ulteriori informazioni, vedere &quot;[Prompt di scrittura](#writing-prompts)&quot; e &quot;[Best practice per la creazione di una descrizione del pubblico](#audience-brief-best-practices).&quot;
+
+      Se applicabile, l’agente consiglia filtri di segmento aggiuntivi per aiutarti a creare una descrizione più efficace del pubblico. Puoi accettare o rifiutare i suggerimenti.
+
+      Quando l’agente del pubblico trova segmenti rilevanti, crea un’espressione di pubblico booleana basata sui criteri. Chiede inoltre la tua approvazione prima di cercare i segmenti corrispondenti per assemblare il pubblico. Facoltativamente, puoi ignorare la richiesta e continuare a specificare altri criteri di pubblico.
+
+   1. Quando l’agente del pubblico presenta un’espressione del pubblico che descrive adeguatamente il pubblico, chiedi all’agente del pubblico di procedere con l’assemblaggio del pubblico.
+
+      Potete immettere &quot;procedete&quot;, &quot;ok&quot;, &quot;sì&quot; o un&#39;altra parola simile. L’agente elenca tutti i segmenti suggeriti per ogni caratteristica (ad esempio, &quot;Genitori&quot;). Per visualizzare i dettagli sui singoli segmenti suggeriti per una caratteristica, espandi la caratteristica.
+
+   1. (Se necessario) Specificare criteri aggiuntivi. Quando l’agente del pubblico presenta un’espressione del pubblico che soddisfa tutti i criteri, indica all’agente del pubblico di procedere con l’assemblaggio del pubblico.
+
+      Per assemblare il pubblico, immetti &quot;procedi&quot;, &quot;ok&quot;, &quot;sì&quot; o un&#39;altra parola simile. L’agente elenca tutti i segmenti suggeriti per ogni caratteristica (ad esempio, &quot;Genitori&quot;). Per visualizzare i dettagli dei singoli segmenti suggeriti per una caratteristica, espandi qualsiasi caratteristica.
+
+1. Quando si è soddisfatti del pubblico assemblato, fare clic su **[!UICONTROL Create]** per creare il pubblico specificato.
+
+   >[!NOTE]
+   >
+   >Per modificare il pubblico in seguito, [modifica manualmente l&#39;espressione del pubblico](/help/dsp/audiences/reusable-audience-edit.md).
+
+## Creare manualmente un pubblico riutilizzabile
+
+1. Nel menu principale, fare clic su **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
+
+1. Sopra la tabella dati, fare clic su **[!UICONTROL Create]>[!UICONTROL Create manually]**.
 
 1. Nelle impostazioni [!UICONTROL New Audience]:
 
@@ -107,71 +227,21 @@ Puoi salvare e gestire i tipi di pubblico riutilizzabili, ovvero gruppi di segme
 
 1. Fare clic su **[!UICONTROL Create]**.
 
-## Creare un pubblico riutilizzabile utilizzando l’intelligenza artificiale generativa
-
-*funzionalità Beta*
-
-*Supporto solo per la lingua inglese*
-
->[!NOTE]
->
->Questa funzione è in modalità beta ed è soggetta a modifiche. Assicurati che l’espressione del pubblico generato rappresenti il pubblico desiderato prima di crearlo e utilizzarla per i posizionamenti.
-
-<!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
-
-1. Nel menu principale, fare clic su **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
-
-1. Sopra la tabella dati, fare clic su **[!UICONTROL Create]**.
-
-1. Nelle impostazioni [!UICONTROL New Audience]:
-
-   1. Immettere un **[!UICONTROL Audience Name]** univoco.
-
-   1. (Facoltativo) Deselezionare l&#39;opzione su **[!UICONTROL Share with all advertisers in my account]**.
-
-      Quando condividi un pubblico, questo diventa disponibile come target o come esclusione per tutti gli inserzionisti all’interno dell’account. Tuttavia, i singoli segmenti nel pubblico sono disponibili solo per gli utenti a cui i segmenti sono condivisi. Ad esempio, se condividi un pubblico contenente segmenti di Adobe Analytics con un inserzionista che non è mappato allo stesso account [!DNL Analytics], il segmento non viene visualizzato in anteprima nel pubblico per tale inserzionista. Solo i segmenti disponibili per l’inserzionista vengono visualizzati in anteprima nel pubblico.
-
-   1. Fare clic su **[!UICONTROL Save]**.
-
-1. Creare il pubblico:
-
-   1. Inserisci una o più richieste per descrivere le caratteristiche del pubblico da includere ed escludere. Per inviare ogni richiesta, fare clic su ![Invia richiesta](/help/dsp/assets/submit-prompt.png "Invia richiesta").
-
-      Per ulteriori informazioni, vedere &quot;[Prompt di scrittura](#writing-prompts)&quot; e &quot;[Best practice per la creazione di una descrizione del pubblico](#audience-brief-best-practices).&quot;
-
-      Se applicabile, l’agente consiglia filtri di segmento aggiuntivi per aiutarti a creare una descrizione più efficace del pubblico. Puoi accettare o rifiutare i suggerimenti.
-
-      Man mano che l’agente del pubblico trova i segmenti rilevanti, crea un’espressione di pubblico booleana basata sui criteri. Chiede inoltre la tua approvazione prima di cercare i segmenti corrispondenti per assemblare il pubblico. Facoltativamente, puoi ignorare la richiesta e continuare a specificare altri criteri di pubblico.
-
-   1. Quando l’agente del pubblico presenta un’espressione del pubblico che descrive adeguatamente il pubblico, chiedi all’agente del pubblico di procedere con l’assemblaggio del pubblico.
-
-      È possibile immettere &quot;procedere&quot;, &quot;ok&quot;, &quot;ok&quot;, &quot;sì&quot; o un&#39;altra parola simile. L’agente elenca tutti i segmenti suggeriti per ogni caratteristica (ad esempio, &quot;Genitori&quot;). Espandi qualsiasi caratteristica per visualizzare i dettagli dei singoli segmenti suggeriti per tale caratteristica.
-
-   1. (Se necessario) Specificare criteri aggiuntivi. Quando l’agente del pubblico presenta un’espressione del pubblico che soddisfa tutti i criteri, indica all’agente del pubblico di procedere con l’assemblaggio del pubblico.
-
-      Per assemblare il pubblico, immetti &quot;procedi&quot;, &quot;ok&quot;, &quot;sì&quot; o un&#39;altra parola simile. L’agente elenca tutti i segmenti suggeriti per ogni caratteristica (ad esempio, &quot;Genitori&quot;). Espandi qualsiasi caratteristica per visualizzare i dettagli dei singoli segmenti suggeriti per tale caratteristica.
-
-1. Quando si è soddisfatti del pubblico assemblato, fare clic su **[!UICONTROL Create]** per creare il pubblico specificato.
-
-   >[!NOTE]
-   >
-   >In seguito non puoi modificare il pubblico utilizzando l’agente pubblico. Al contrario, [modifica manualmente l&#39;espressione del pubblico](/help/dsp/audiences/reusable-audience-edit.md).
-
 ### Nozioni di base sui prompt di scrittura {#writing-prompts}
 
 <!-- Change heading level for this whole section to fit under AI procedure -->
 
-#### Cosa deve includere un prompt?
+#### Linee guida per la scrittura dei prompt del pubblico
 
 * Utilizza un linguaggio chiaro e descrittivo per descrivere il pubblico target.
 
-  * Puoi immettere frasi complete o solo una stringa di caratteristiche. La punteggiatura non è necessaria tranne quando necessario per maggiore chiarezza.
+  * Puoi immettere frasi complete o una stringa di caratteristiche. La punteggiatura non è necessaria tranne quando necessario per maggiore chiarezza.
 
   * In generale, i prompt non distinguono tra maiuscole e minuscole.
 
   * L’agente del pubblico riconosce i sinonimi più comuni.
 
-* Sii specifico e fornisci dettagli su tutte le caratteristiche del pubblico che desideri includere ed eventuali caratteristiche che desideri escludere specificamente. Maggiore è il numero di dettagli forniti, maggiori sono le possibilità di ottenere risultati che soddisfino le tue esigenze.
+* Sii specifico e fornisci dettagli su tutte le caratteristiche del pubblico che desideri includere ed eventuali caratteristiche che desideri escludere specificamente. Fornendo maggiori dettagli aumenta la probabilità di ottenere risultati che soddisfino le tue esigenze.
 
 * Identifica posizioni, tipi di dispositivi e fornitori di dati da includere o escludere.
 
@@ -179,7 +249,7 @@ Puoi salvare e gestire i tipi di pubblico riutilizzabili, ovvero gruppi di segme
 
 * Scopri come richiedere tramite sperimentazione.
 
-  Se il prompt non è chiaro, l’agente del pubblico richiederà solo un altro prompt, quindi puoi riprovare.
+  Se il prompt non è chiaro, l’agente del pubblico richiede un altro prompt, quindi puoi riprovare.
 
   L’agente del pubblico non salva automaticamente un’espressione del pubblico generata come pubblico. È possibile salvare un pubblico solo facendo clic sul pulsante [!UICONTROL Create], che si trova all&#39;esterno dell&#39;area di richiesta, in modo da poter annullare le modifiche che non si desidera mantenere.
 
@@ -243,7 +313,7 @@ Includi il maggior numero possibile di tipi di attributi di pubblico dall’elen
 
 * **Dati demografici**
 
-  Include attributi come fascia di età, genere, stato civile, composizione della famiglia (dimensione della famiglia, presenza di bambini, famiglie multigenerazionali).
+  Include attributi come fascia di età, identità di genere, stato civile, composizione della famiglia (dimensione della famiglia, presenza di bambini, famiglie multigenerazionali).
 
 * **Indicatori socioeconomici**
 
