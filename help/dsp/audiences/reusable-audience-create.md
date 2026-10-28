@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 59d4abad49f2684a4b0a5d46774757bffcd7afee
+source-git-commit: 8385743efa75e0c44cf44d0443094b11d579216d
 workflow-type: tm+mt
-source-wordcount: '2109'
+source-wordcount: '2318'
 ht-degree: 0%
 ---
 # Creare un pubblico riutilizzabile
@@ -42,6 +42,8 @@ Crea tipi di pubblico utilizzando l&#39;agente di pubblico assistito da IA nell&
 *funzionalità Beta*
 
 *Supporto solo per la lingua inglese*
+
+Dai all’Assistente AI una descrizione del pubblico o descrivi le caratteristiche del pubblico che desideri includere o escludere nei prompt in linguaggio naturale. Nella definizione del pubblico, puoi perfezionare i criteri di ottimizzazione, i tipi di ID da includere e i segmenti di prime parti da escludere. Dopo aver assemblato un elenco dei segmenti di pubblico corrispondenti, è possibile perfezionare l’elenco dei segmenti prima di salvare il pubblico.
 
 <!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
@@ -77,13 +79,19 @@ Crea tipi di pubblico utilizzando l&#39;agente di pubblico assistito da IA nell&
 
       È possibile porre più domande in un prompt, ma solo un prompt alla volta. Attendi una risposta prima di poter inviare un&#39;altra richiesta.
 
-      Viene aperto un pannello laterale, con la definizione del pubblico nella scheda [!UICONTROL Step 1: Audience Definition]. La definizione include tutti i filtri definiti per il pubblico, i criteri di ottimizzazione e tutti i segmenti di prime parti da escludere.
+      Viene aperto un pannello laterale, con la definizione del pubblico nella scheda [!UICONTROL Step 1: Audience Definition]. La definizione include tutti i filtri definiti per il pubblico, i criteri di ottimizzazione (inclusi i tipi di ID dispositivo e i tipi di ID universali da includere) e qualsiasi segmento di prime parti da escludere. Se non hai specificato limitazioni, i segmenti si basano sull’ottimizzazione per il volume più alto, inclusi tutti i tipi di ID dispositivo e gli ID universali, e tutti i tipi di pubblico di prime parti.
 
       Se applicabile, l’Assistente AI suggerisce filtri di pubblico aggiuntivi per aiutarti a creare una descrizione più efficace del pubblico. Puoi accettare o rifiutare i suggerimenti.
 
-   1. (Facoltativo) Per escludere uno dei tuoi segmenti di prime parti, richiedi all&#39;Assistente IA di eseguirlo o fai clic su ![Modifica](/help/dsp/assets/edit-ai.png "Modifica") nella sezione **[!UICONTROL First-party segments to exclude]**, seleziona i segmenti che desideri escludere per il pubblico, quindi fai clic su **[!UICONTROL Apply]**.
+   1. (Facoltativo) Definisci meglio il pubblico:
 
-   1. (Facoltativo) Invia ulteriori richieste, se necessario, per descrivere le caratteristiche del pubblico da includere ed escludere. Per inviare ogni richiesta, fare clic su ![Invia richiesta](/help/dsp/assets/submit-prompt.png "Invia richiesta").
+      * Per modificare i criteri di ottimizzazione tra *[!UICONTROL Highest volume]* e *[!UICONTROL Lowest cost]*, richiedi all&#39;Assistente AI di eseguirli oppure fai clic su ![Modifica](/help/dsp/assets/edit-ai.png "Modifica") accanto a **[!UICONTROL Criteria]**, seleziona i criteri e quindi fai clic su **[!UICONTROL Apply]**.
+
+      * Per passare dall&#39;inclusione di tutti i tipi di ID (inclusi tutti i tipi di ID dispositivo e gli ID universali) all&#39;inclusione di solo tipi di ID specifici, richiedere all&#39;Assistente AI di eseguire questa operazione oppure fare clic su ![Modifica](/help/dsp/assets/edit-ai.png "Modifica") accanto a **[!UICONTROL ID type]**, selezionare i tipi di ID da includere e quindi fare clic su **[!UICONTROL Apply]**.
+
+      * Per escludere uno dei tuoi segmenti di prime parti, richiedi all&#39;Assistente IA di eseguirlo o fai clic su ![Modifica](/help/dsp/assets/edit-ai.png "Modifica") nella sezione **[!UICONTROL First-party segments to exclude]**, seleziona i segmenti che desideri escludere per il pubblico, quindi fai clic su **[!UICONTROL Apply]**.
+
+      * Invia richieste aggiuntive in base alle esigenze per descrivere le caratteristiche del pubblico da includere ed escludere. Per inviare ogni richiesta, fare clic su ![Invia richiesta](/help/dsp/assets/submit-prompt.png "Invia richiesta").
 
 1. Quando la definizione del pubblico soddisfa i criteri, specifica i segmenti da includere:
 
@@ -110,6 +118,8 @@ Crea tipi di pubblico utilizzando l&#39;agente di pubblico assistito da IA nell&
 *funzionalità Beta*
 
 *Supporto solo per la lingua inglese*
+
+Assegna all’agente del pubblico una descrizione sintetica del pubblico o un prompt in linguaggio naturale che descriva le caratteristiche del pubblico che desideri includere ed escludere.
 
 >[!NOTE]
 >
@@ -154,6 +164,72 @@ Crea tipi di pubblico utilizzando l&#39;agente di pubblico assistito da IA nell&
    >[!NOTE]
    >
    >Per modificare il pubblico in seguito, [modifica manualmente l&#39;espressione del pubblico](/help/dsp/audiences/reusable-audience-edit.md).
+
+### Scrivi le richieste e rispondi all’agente del pubblico {#writing-prompts}
+
+<!-- Change heading level for this whole section to fit under AI procedure -->
+
+#### Linee guida per la scrittura dei prompt del pubblico
+
+* Utilizza un linguaggio chiaro e descrittivo per descrivere il pubblico target.
+
+  * Puoi immettere frasi complete o una stringa di caratteristiche. La punteggiatura non è necessaria tranne quando necessario per maggiore chiarezza.
+
+  * In generale, i prompt non distinguono tra maiuscole e minuscole.
+
+  * L’agente del pubblico riconosce i sinonimi più comuni.
+
+* Sii specifico:
+
+  * Fornisci dettagli su tutte le caratteristiche del pubblico che desideri includere ed eventuali caratteristiche che desideri escludere specificamente. Fornendo maggiori dettagli aumenta la probabilità di ottenere risultati che soddisfino le tue esigenze.
+
+  * Identifica posizioni, tipi di dispositivi e fornitori di dati da includere o escludere.
+
+  Prima di salvare il pubblico, è sempre possibile modificare i filtri del pubblico, i criteri di ottimizzazione, i segmenti di prime parti da escludere e l’elenco finale dei segmenti. La dimostrazione di dettagli completi per iniziare abbrevia il processo.
+
+* Fornisci in alternativa dettagli per perfezionare i criteri e l’espressione del pubblico generato prima di salvare il pubblico.
+
+* L’agente del pubblico non salva automaticamente un’espressione del pubblico generata come pubblico. È possibile salvare un pubblico solo facendo clic sul pulsante [!UICONTROL Save Audience] o [!UICONTROL Create], che si trova all&#39;esterno dell&#39;area del prompt, in modo da poter annullare le modifiche che non si desidera mantenere.
+
+Consulta &quot;[Best practice per la creazione di una descrizione del pubblico](#audience-brief-best-practices)&quot; per ulteriori modi per ottimizzare i prompt per i tipi di pubblico.
+
+<!--
+Consider starting by asking for what you should include.
+
+you can give thumbs up or down to [what exactly?].
+
+Verify what info is carried over from session to session and what starts from scratch.
+
+-->
+
+#### Limitazioni di Prompt
+
+* Riferimenti a tipi di pubblico esistenti.
+
+* Testo in lingue diverse dall&#39;inglese.
+
+#### Rispondere all’agente del pubblico
+
+Quando l’agente del pubblico necessita di una risposta da parte tua, puoi rispondere utilizzando parole chiave nella richiesta o sinonimi comuni.
+
+##### Conferma se procedere
+
+`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
+
+La tua risposta affermativa: &quot;procedere&quot;, &quot;ok&quot;, &quot;ok&quot;, &quot;sì&quot;, o un&#39;altra parola simile
+
+Puoi anche ignorare la richiesta e continuare a specificare altri criteri di pubblico.
+
+##### Scegli tra le opzioni suggerite
+
+`Would you like to:`
+`1) Proceed with this expression,`
+`2) Get maximum reach alternatives, or`
+`3) Modify the expression manually?`
+
+Risposta: `1`, `proceed`, `2`, `maximum reach` e così via.
+
+Puoi anche ignorare la richiesta e continuare a specificare altri criteri di pubblico.
 
 ### Best practice per la creazione di una descrizione del pubblico {#audience-brief-best-practices}
 
@@ -210,72 +286,6 @@ Includi il maggior numero possibile di tipi di attributi di pubblico dall’elen
 Di seguito è riportato un esempio di una descrizione dettagliata del pubblico per una campagna di sensibilizzazione e sperimentazione per un servizio di abbonamento a un kit per un pasto premium:
 
 `The target audience consists of adults aged 28-45 (60% female, 40% male) with household incomes of $85K or more, college-educated professionals living in the USA. Psychographically, they are health-conscious individuals who value convenience and quality, aspire to be home cooks, and are food enthusiasts seeking better work-life balance. They actively engage with cooking and culinary content, follow health and wellness trends, shop at farmers markets, and prefer organic foods. Behaviorally, they are online grocery shoppers who use subscription services, dine out at restaurants 2+ times per week, and engage with food content on social media. They are currently in-market for meal planning solutions and food subscription services, with many focused on weight management and healthy eating programmes. The audience includes young families with children and dual-income households, as well as career-focused professionals. The brief excludes current subscribers and those following vegan/vegetarian diets as the initial launch focuses on protein-centric meal plans.`
-
-### Scrivi le richieste e rispondi all’agente del pubblico {#writing-prompts}
-
-<!-- Change heading level for this whole section to fit under AI procedure -->
-
-#### Linee guida per la scrittura dei prompt del pubblico
-
-* Utilizza un linguaggio chiaro e descrittivo per descrivere il pubblico target.
-
-  * Puoi immettere frasi complete o una stringa di caratteristiche. La punteggiatura non è necessaria tranne quando necessario per maggiore chiarezza.
-
-  * In generale, i prompt non distinguono tra maiuscole e minuscole.
-
-  * L’agente del pubblico riconosce i sinonimi più comuni.
-
-* Sii specifico e fornisci dettagli su tutte le caratteristiche del pubblico che desideri includere ed eventuali caratteristiche che desideri escludere specificamente. Fornendo maggiori dettagli aumenta la probabilità di ottenere risultati che soddisfino le tue esigenze.
-
-* Identifica posizioni, tipi di dispositivi e fornitori di dati da includere o escludere.
-
-* Fornisci in alternativa dettagli per perfezionare i criteri e l’espressione del pubblico generato prima di salvare il pubblico.
-
-* Scopri come richiedere tramite sperimentazione.
-
-  Se il prompt non è chiaro, l’agente del pubblico richiede un altro prompt, quindi puoi riprovare.
-
-  L’agente del pubblico non salva automaticamente un’espressione del pubblico generata come pubblico. È possibile salvare un pubblico solo facendo clic sul pulsante [!UICONTROL Create], che si trova all&#39;esterno dell&#39;area di richiesta, in modo da poter annullare le modifiche che non si desidera mantenere.
-
-Consulta &quot;[Best practice per la creazione di una descrizione del pubblico](#audience-brief-best-practices)&quot; per ulteriori modi per ottimizzare i prompt per i tipi di pubblico.
-
-<!--
-Consider starting by asking for what you should include.
-
-you can give thumbs up or down to [what exactly?].
-
-Verify what info is carried over from session to session and what starts from scratch.
-
--->
-
-#### Limitazioni di Prompt
-
-* Riferimenti a tipi di pubblico esistenti.
-
-* Testo in lingue diverse dall&#39;inglese.
-
-#### Rispondere all’agente del pubblico
-
-Quando l’agente del pubblico necessita di una risposta da parte tua, puoi rispondere utilizzando parole chiave nella richiesta o sinonimi comuni.
-
-##### Conferma se procedere
-
-`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
-
-La tua risposta affermativa: &quot;procedere&quot;, &quot;ok&quot;, &quot;ok&quot;, &quot;sì&quot;, o un&#39;altra parola simile
-
-Puoi anche ignorare la richiesta e continuare a specificare altri criteri di pubblico.
-
-##### Scegli tra le opzioni suggerite
-
-`Would you like to:`
-`1) Proceed with this expression,`
-`2) Get maximum reach alternatives, or`
-`3) Modify the expression manually?`
-
-Risposta: `1`, `proceed`, `2`, `maximum reach` e così via.
-
-Puoi anche ignorare la richiesta e continuare a specificare altri criteri di pubblico.
 
 ## Creare manualmente un pubblico riutilizzabile
 
