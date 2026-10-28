@@ -18,16 +18,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: a8b5c9e6cbeb50467224496a1f52f06252da1e36
+source-git-commit: fc59d590863f0014c5d0466019f1d7f787b23744
 workflow-type: tm+mt
-source-wordcount: '2104'
+source-wordcount: '2106'
 ht-degree: 0%
 ---
 # Creare un pubblico riutilizzabile
 
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
 
-Puoi salvare e gestire i tipi di pubblico riutilizzabili, che sono gruppi di segmenti di pubblico (inclusi eventuali segmenti di prime e terze parti disponibili) e anche altri tipi di pubblico salvati. Puoi utilizzare i tipi di pubblico come target o esclusioni per più posizionamenti.
+Puoi salvare e gestire tipi di pubblico riutilizzabili, ovvero gruppi di segmenti di pubblico che puoi utilizzare come target o esclusioni per più posizionamenti. I tipi di pubblico riutilizzabili possono includere qualsiasi segmento di prime e terze parti disponibile e anche altri tipi di pubblico salvati.
 
 Crea tipi di pubblico utilizzando l&#39;agente di pubblico assistito da IA nell&#39;[Assistente IA](/help/dsp/ai-assistant/ai-assistant-about.md) unificato o nella visualizzazione [!UICONTROL Audiences] > [!UICONTROL All Audiences] oppure crea tipi di pubblico manualmente.
 

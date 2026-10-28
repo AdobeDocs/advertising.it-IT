@@ -15,9 +15,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a5cff4dbddc5c50b0678b56f8a071e19bd6af5b1
+source-git-commit: fe1a63dbe2c03335a5fbd0dfd3ab5902ca3c0527
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '268'
 ht-degree: 0%
 ---
 # Generare tipi di pubblico riutilizzabili tramite l’Assistente AI
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 *Supporto solo per la lingua inglese*
 
-Utilizza l’agente di Generatore di pubblico dell’Assistente AI per generare tipi di pubblico riutilizzabili, che sono gruppi di segmenti di pubblico (inclusi eventuali segmenti di prime e terze parti disponibili) e anche altri tipi di pubblico salvati. In seguito puoi utilizzare i tipi di pubblico come target o esclusioni per più posizionamenti.
+Utilizza l&#39;agente generatore di pubblico dell&#39;Assistente AI per generare [tipi di pubblico riutilizzabili](/help/dsp/audiences/audience-about.md). I tipi di pubblico riutilizzabili possono includere qualsiasi segmento di prime e terze parti disponibile e anche altri tipi di pubblico salvati.
 
 >[!IMPORTANT]
 >
