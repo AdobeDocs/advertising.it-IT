@@ -15,16 +15,17 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ffe7424d4e225a95b279b06a7df3b85bf0cbcdbf
+source-git-commit: 41d3ab985831a1432e775277384661643a9f55c4
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '804'
 ht-degree: 0%
 ---
-# Risolvere i problemi di prestazioni e consegna tramite l’assistente AI
+# Risolvere i problemi di prestazioni e consegna tramite l’Assistente AI
+
 
 *funzionalità Beta*
 
-L’agente di risoluzione dei problemi di AI Assistant è in grado di identificare i fattori che limitano le prestazioni dei pacchetti live e dei posizionamenti e fornisce consigli per risolvere i problemi. L’agente di risoluzione dei problemi può aiutare a diagnosticare i seguenti tipi di problemi di prestazioni e consegna:
+L’agente di risoluzione dei problemi di AI Assistant identifica i fattori che limitano le prestazioni dei pacchetti e dei posizionamenti live e fornisce istruzioni dettagliate e raccomandazioni basate sui dati storici per risolvere i problemi. L’agente di risoluzione dei problemi può aiutare a diagnosticare i seguenti tipi di problemi di prestazioni e consegna:
 
 * (Solo posizionamenti) Problemi di spesa, tra cui sovraccarico, sottoutilizzo e mancata spesa. L&#39;agente valuta i relativi fattori di ritmo, offerta, targeting e budget-cap come parte della diagnosi.
 
@@ -32,7 +33,7 @@ L’agente di risoluzione dei problemi di AI Assistant è in grado di identifica
 
 Ogni conversazione copre una singola diagnosi per un singolo pacchetto o posizionamento. Quando l&#39;agente consegna il risultato, inizia una nuova conversazione per porre domande su un problema diverso, su un pacco o su un posizionamento diverso.
 
-L’agente non può modificare le impostazioni, né creare o modificare campagne o componenti di campagne. Inoltre, non è in grado di diagnosticare i problemi relativi a un pacchetto o posizionamento in pausa, completato, archiviato o pianificato.
+L’agente non può modificare le impostazioni, creare o modificare campagne o componenti di campagne, o diagnosticare problemi per un pacchetto o posizionamento in pausa, completato, archiviato o pianificato.
 
 >[!IMPORTANT]
 >
@@ -87,7 +88,7 @@ Puoi porre più domande in un messaggio, ma solo un messaggio alla volta. Attend
 >
 >Per chiedere informazioni su un problema diverso o su un pacchetto o un posizionamento diverso, [avvia una nuova conversazione](#conversation-new).
 
-## Invia una query dalla visualizzazione [!UICONTROL Placements] o [!UICONTROL Placements]
+## Invia una query dalla visualizzazione [!UICONTROL Packages] o [!UICONTROL Placements]
 
 Puoi porre più domande in un messaggio, ma solo un messaggio alla volta. Attendi una risposta prima di inviarne un’altra.
 
@@ -130,7 +131,7 @@ Puoi porre più domande in un messaggio, ma solo un messaggio alla volta. Attend
 
 ## Avvia una nuova conversazione {#conversation-new}
 
-Ogni conversazione, o thread di query, viene salvata separatamente in modo da poter distinguere le conversazioni precedenti.
+Ogni conversazione (o thread di query) viene salvata separatamente in modo da poter distinguere le conversazioni precedenti.
 
 1. Nella parte superiore della [chatbox](#ai-assistant-open), fai clic su ![Avvia una nuova conversazione](/help/dsp/assets/new-selection.png "Avvia una nuova conversazione").
 

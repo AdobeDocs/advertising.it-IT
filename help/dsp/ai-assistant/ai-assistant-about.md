@@ -15,9 +15,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c6ab712d47cafc8e9590a212253949a053b7c476
+source-git-commit: 41d3ab985831a1432e775277384661643a9f55c4
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '407'
 ht-degree: 0%
 ---
 # Informazioni sull’Assistente IA in Advertising DSP
@@ -36,7 +36,7 @@ I seguenti flussi di lavoro possono aiutarti a svolgere il tuo lavoro in modo pi
 
 | Funzionalità | Descrizione | Risposte |
 | --- | --- | --- |
-| [Risoluzione dei problemi](troubleshooting-agent.md) | (Funzione Beta) Diagnostica i problemi di prestazioni e consegna per pacchetti live e posizionamenti. | La risposta include fattori che limitano le prestazioni e fornisce consigli per risolvere i problemi. |
+| [Risoluzione dei problemi](troubleshooting-agent.md) | (Funzione Beta) Diagnostica i problemi di prestazioni e consegna per pacchetti live e posizionamenti. | La risposta include fattori che limitano le prestazioni e fornisce istruzioni dettagliate e consigli per risolvere i problemi. |
 | [Informazioni](insights-agent.md) | (Funzione Beta) Ottieni metriche della campagna e rapporti completi senza creare manualmente un rapporto. Puoi scaricare i risultati come file CSV. | Vengono visualizzate le prime righe del report, con collegamenti per visualizzare in anteprima il report completo e scaricare il report come file di valori separati da virgola (.csv) di [!DNL Microsoft Excel]. |
 | [Ricerca nella documentazione del prodotto](documentation-search.md) | Cerca contenuti concettuali e pratici nella [Guida di Advertising DSP](/help/dsp/home.md) e, per gli inserzionisti con Advertising Creative, nella [Guida di Advertising Creative](/help/creative/home.md). | La risposta include le citazioni in linea e un elenco [!UICONTROL Documentation Sources] espandibile in basso. Fai clic su una citazione o un elenco di fonti per aprire la pagina pertinente.<br><br>La risposta può includere anche domande e suggerimenti per aiutarti a perfezionare la tua query e a trovare ulteriori informazioni. |
 

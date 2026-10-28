@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ff1657a7f005eb93c83fdc7fd2e53810d9e03bd8
+source-git-commit: d94447fb737903f1092eea24c8d3f255b7eb21f0
 workflow-type: tm+mt
-source-wordcount: '8378'
+source-wordcount: '8452'
 ht-degree: 0%
 ---
 # Appendice - Dati bulksheet richiesti per i conti [!DNL Google Ads]
@@ -146,11 +146,11 @@ Per i campi dati relativi alle entità account, vedere &quot;[Campi necessari pe
 | [!UICONTROL Product Group ID] | ID univoco che identifica un gruppo di prodotti esistente. Nei file CSV e TSV, deve essere preceduto da virgolette singole (&#39;).[^1] Obbligatorio solo quando si modifica o si elimina il gruppo di prodotti, a meno che la riga non includa a) colonne di proprietà sufficienti per identificare il gruppo di prodotti o b) un &quot;[!UICONTROL AMO ID]&quot;.&quot; |
 | [!UICONTROL Sitelink ID] | ID univoco che identifica un sitelink esistente. Nei file CSV e TSV, deve essere preceduto da virgolette singole (&#39;).[^1] Obbligatorio solo quando si modifica o si elimina il sitelink, a meno che la riga non includa a) colonne di proprietà sufficienti per identificare il sitelink o b) un &quot;[!UICONTROL AMO ID]&quot;.&quot; Tuttavia, se non includi né [!UICONTROL Sitelink ID] né [!UICONTROL AMO ID] e le colonne di proprietà corrispondono a più sitelink, lo stato di uno solo dei sitelink cambia.</p><p><b>Nota:</b> se si modificano le colonne delle proprietà del sitelink ad eccezione di Stato per un sitelink esistente e non si includono né [!UICONTROL Sitelink ID] né [!UICONTROL AMO ID], verrà creato un nuovo sitelink e il sitelink esistente non verrà modificato. |
 | [!UICONTROL RLSA Target ID] | ID univoco che identifica una destinazione o un’esclusione RLSA a livello di campagna o di gruppo di annunci esistente. Nei file CSV e TSV, deve essere preceduto da virgolette singole (&#39;).[^1] Obbligatorio solo quando si modifica o si elimina la destinazione o l&#39;esclusione, a meno che la riga non includa &quot;[!UICONTROL AMO ID]&quot; per la destinazione. |
-| [!UICONTROL Device Target ID] | <p>ID univoco che identifica una destinazione o un’esclusione dispositivo a livello di campagna o di gruppo di annunci esistente. Nei file CSV e TSV, deve essere preceduto da virgolette singole (&#39;).[^1] Obbligatorio solo quando si modifica o si elimina la destinazione, a meno che la riga non includa &quot;[!UICONTROL AMO ID]&quot; per la destinazione.</p> |
-| [!UICONTROL Campaign Excluded URL ID] | L’ID dell’espressione URL esclusa per la campagna. |
-| [!UICONTROL Ad Group Included URL ID] | ID dell’espressione URL inclusa per il gruppo di annunci. |
-| [!UICONTROL Campaign Brand Criterion ID] | ID per i criteri dell’elenco dei marchi della campagna. |
-| [!UICONTROL Ad Group Brand Criterion ID] | L’ID per i criteri dell’elenco dei marchi del gruppo di annunci. |
+| [!UICONTROL Device Target ID] | ID univoco che identifica una destinazione o un’esclusione dispositivo a livello di campagna o di gruppo di annunci esistente. Nei file CSV e TSV, deve essere preceduto da virgolette singole (&#39;).[^1] Obbligatorio solo quando si modifica o si elimina la destinazione, a meno che la riga non includa &quot;[!UICONTROL AMO ID]&quot; per la destinazione. |
+| [!UICONTROL Campaign Excluded URL ID] | Gli ID univoci che identificano gli URL esclusi per la campagna. Obbligatorio solo quando si modifica o si elimina l’elenco di esclusione degli URL. |
+| [!UICONTROL Ad Group Included URL ID] | Gli ID univoci che identificano gli URL inclusi per il gruppo di annunci. Obbligatorio solo quando si modifica o si elimina l’elenco di inclusione degli URL. |
+| [!UICONTROL Campaign Brand Criterion ID] | (Sola lettura) Gli ID univoci che identificano i criteri per ciascuno degli elenchi dei marchi della campagna. [!DNL Google Ads] crea questo ID dopo l&#39;aggiunta di un&#39;inclusione o esclusione dall&#39;elenco dei marchi. Non immettere o modificare un valore. |
+| [!UICONTROL Ad Group Brand Criterion ID] | (Sola lettura) Gli ID univoci che identificano i criteri per ciascuno degli elenchi di marchi del gruppo di annunci. [!DNL Google Ads] crea questo ID dopo l&#39;aggiunta di un&#39;inclusione o esclusione dall&#39;elenco dei marchi. Non immettere o modificare un valore. |
 | [!UICONTROL AMO ID] | (Nei bulksheet generati) Identificatore univoco generato da Adobe per un’entità sincronizzata. Per gli annunci di ricerca responsive, l’AMO ID è necessario per modificare o eliminare gli annunci, a meno che tu non includa l’Ad ID. Per modificare i dati per tutti gli altri tipi di entità con un AMO ID, è necessario l’AMO ID per modificare o eliminare i dati, a meno che non si includano l’ID entità e l’ID entità principale.<br><br>Search, Social e Commerce utilizzano il valore per determinare l’identità corretta da modificare ma non inseriscono l’ID nella rete di annunci. |
 | [!UICONTROL EF Error Message] | (Incluso nei bulksheet generati a scopo informativo) Segnaposto per la visualizzazione dei messaggi di errore provenienti dalla rete di annunci relativi ai dati nella riga. I messaggi di errore sono inclusi nei file [!UICONTROL EF Errors]. Questo valore non viene inviato alla rete di annunci. |
 | [!UICONTROL SE Error Message] | (Incluso nei bulksheet generati a scopo informativo) Segnaposto per la visualizzazione dei messaggi di errore provenienti dalla rete di annunci relativi ai dati nella riga. I messaggi di errore sono inclusi nei file [!UICONTROL SE Errors]. Questo valore non viene inviato alla rete di annunci. |
