@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b2f949c9590a2cefa9da8a46967747c52131854b
+source-git-commit: 3bb565d689b65ae66d6ea2094abccdff3c9e891d
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
@@ -105,5 +105,5 @@ Puoi assegnare un singolo vincolo a una o più campagne.
 >
 >* [(Nuova interfaccia) Gestione dei vincoli per le unità di offerta di ricerca](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
 >* [(Nuova interfaccia) Gestisci assegnazioni vincoli per gruppi di annunci](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [(Nuova interfaccia) Gestione assegnazioni vincoli per parole chiave](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
->* [(Nuova interfaccia) Gestione assegnazioni vincoli per posizionamenti](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
+>* [(Nuova interfaccia) Gestione assegnazioni vincoli per parole chiave](/help/search-social-commerce/new-ui/manage/keywords/keyword-manage.md#keyword-constraints)
+>* [(Nuova interfaccia) Gestione assegnazioni vincoli per posizionamenti](/help/search-social-commerce/new-ui/targeting/placement-manage.md#placement-constraints)

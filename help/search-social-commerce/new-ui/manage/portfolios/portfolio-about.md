@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Optimization
   - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
     internal-label: Predictive modeling
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: 700d05fb39b04918ae2662ce24746ed1e84f110e
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '897'
 ht-degree: 0%
 ---
 # (Nuova interfaccia) Informazioni sui portfolio
@@ -75,12 +75,7 @@ Un portfolio può avere i seguenti stati:
 
 Nella visualizzazione [!UICONTROL Portfolios] sono elencati tutti i portfolio esistenti nella visualizzazione filtrata, con dati delle prestazioni personalizzabili. Puoi [personalizzare le colonne all&#39;interno della visualizzazione](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) e filtrare i dati per includere portfolio specifici [dalla barra degli strumenti](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) o dall&#39;[intestazione di colonna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
-Sopra la tabella di dati, puoi aprire un grafico delle prestazioni con un massimo di tre metriche calcolate su tutti i portfolio nella vista per l’intervallo di date specificato. Puoi anche aprire i dettagli del portfolio, incluse le prestazioni e la precisione, nonché i dati sulle prestazioni per ogni campagna, gruppo di annunci e parola chiave nel portfolio.
-
-Puoi modificare alcune impostazioni, tra cui lo stato del portfolio, direttamente all’interno della riga portfolio. Quando un portfolio o le campagne e le entità campagna figlio associate sono configurate con vincoli che influiscono sulla spesa (inclusi vincoli di rete, budget campagna, target, limiti CPC o unità di offerta), fare clic su [!UICONTROL Yes] nella colonna [!UICONTROL Constraints] per visualizzare un elenco di tutti i vincoli, inclusi il livello e il tipo di vincolo.
-<!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group,  or import/export DOW targets. -->
-
-### Azioni disponibili
+### Azioni disponibili {#available-actions}
 
 <!-- Update with any new options -->
 
@@ -90,22 +85,37 @@ Puoi modificare alcune impostazioni, tra cui lo stato del portfolio, direttament
 
 * [View the constraints for a portfolio](portfolio-view-constraint.md)
 
-* [View the change history for a portfolio](portfolio-view-change-history.md)
 -->
 
 * [Creare un portfolio](portfolio-create.md)
 
 * [Duplicare un portfolio](portfolio-duplicate.md)
 
-* [Modifica impostazioni portfolio](portfolio-edit.md)
+* Modifica impostazioni:
 
-* [Modifica in blocco le impostazioni del portfolio tramite file bulksheet](portfolio-bulksheets.md)
+  * [Rinominare un portfolio](portfolio-rename.md)
+
+  * [Modifica le impostazioni di portfolio complete](portfolio-edit.md)
+
+  * Modifica alcune impostazioni, tra cui lo stato del portfolio, direttamente all’interno della riga portfolio.
+
+  * [Modifica in blocco le impostazioni del portfolio tramite file bulksheet](portfolio-bulksheets.md)
+
+* Approfondisci le reti di annunci, gli account, le campagne, i gruppi di annunci e gli annunci inclusi nel portfolio e, facoltativamente, approfondisci le parole chiave per una campagna inclusa. Per iniziare, fai clic sul nome del portfolio. Le informazioni vengono elencate per prima dalla rete di annunci nella visualizzazione [!UICONTROL Networks] filtrata. Fare clic su una rete di annunci per visualizzare gli account inclusi nella visualizzazione [!UICONTROL Accounts] filtrata, fare clic su un account per visualizzare le campagne nella visualizzazione [!UICONTROL Campaigns] filtrata e così via.
+
+  Per aprire un elenco delle parole chiave nella visualizzazione [!UICONTROL Keywords] dalla visualizzazione [!UICONTROL Campaigns] filtrata, fare clic sul valore nella colonna [!UICONTROL Keywords].
+
+* Aprire un elenco di tutti i vincoli per il portfolio, inclusi il livello e il tipo di vincolo. Per visualizzare l&#39;elenco dei vincoli, fare clic su [!UICONTROL Yes] nella colonna [!UICONTROL Constraints]. Questa opzione è disponibile quando un portfolio o le campagne associate e le entità campagna figlio sono configurate con vincoli che influiscono sulla spesa (inclusi rete, budget campagna, target, limiti CPC o vincoli di unità di offerta).
 
 * [Visualizzare un grafico delle prestazioni per tutti i portfolio](portfolio-view-performance-graph.md)
 
 * [Visualizza dettagli sulle prestazioni del portfolio](portfolio-details.md)
 
-* [Scarica i dati nella visualizzazione [!UICONTROL Portfolios]](portfolio-view-report.md)
+* [Visualizzare la cronologia delle modifiche di un portfolio](portfolio-view-change-history.md)
+
+* [Scarica dati nella visualizzazione [!UICONTROL Portfolios]](portfolio-view-report.md)
+
+* [Aggiungere un portfolio a un gruppo di portfolio e gestire gruppi di portfolio](portfolio-group-manage.md)
 
 >[!MORELIKETHIS]
 >

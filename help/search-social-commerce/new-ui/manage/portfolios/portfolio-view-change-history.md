@@ -11,9 +11,9 @@ feature_v2:
     internal-label: Search Portfolios
   - id: ae57d55f-b168-5358-b114-c3974b1b3d77
     internal-label: Search Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 3d3a87acf3e963eb0ebbc8528c154d4193457c69
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '444'
 ht-degree: 0%
 ---
 # (Nuova interfaccia) Visualizzare la cronologia delle modifiche di un portfolio
@@ -26,7 +26,7 @@ Puoi visualizzare un registro delle modifiche apportate al portfolio durante qua
 
 Puoi anche scaricare i dati in un file di foglio di calcolo.
 
-## (Nuova interfaccia) Visualizzare la cronologia delle modifiche di un portfolio {#portfolio-change-history}
+## Visualizzare la cronologia delle modifiche di un portfolio {#portfolio-change-history}
 
 Le informazioni per ogni modifica includono la data, il nome utente della persona che ha apportato la modifica, il tipo di modifica e il valore modificato.
 

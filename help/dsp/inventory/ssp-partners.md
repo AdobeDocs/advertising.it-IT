@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 9d4ed06ec7196fc10be86a3e8c5c94701c90d170
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '471'
 ht-degree: 3%
 ---
 # Partner SSP
@@ -40,7 +40,7 @@ Una piattaforma lato offerta (SSP, supply-side platform) è una piattaforma tecn
 | [!DNL AdsWizz] | [!DNL Sirius XM (Pandora)] | Adobe Advertising | Supporto PG | Globale | USD, EUR, GBP | Desktop audio e dispositivi mobili |
 | [!DNL Cadent] | [!DNL Cadent] (precedentemente [!DNL EMX Digital]) | Adobe Advertising | — | US/CA | USD | Visualizza desktop e dispositivi mobili<br><br>Desktop video, dispositivi mobili e CTV |
 | [!DNL DailyMotion] |  | [!DNL TubeMogul] o Adobe Advertising | — | USA + EMEA | USD, EUR | Visualizza desktop e dispositivi mobili<br><br>Desktop video, dispositivi mobili e CTV |
-| [!DNL Equativ] | [!DNL Equativ] (precedentemente [!DNL Smart AdServer]) | [!DNL TubeMogul] o Adobe Advertising | — | EMEA | USD, EUR | Visualizza desktop e dispositivi mobili<br><br>Desktop video e dispositivi mobili |
+| [!DNL Equativ/Sharethrough] | [!DNL Equativ] | [!DNL TubeMogul] o Adobe Advertising | — | Globale | USD | Schermo desktop e mobile<br><br>Schermo nativo<br><br>Video desktop, mobile e CTV |
 | [!DNL FreeWheel] | [!DNL Comcast] | [!DNL TubeMogul] o Adobe Advertising | Supporto PG | Globale | USD, EUR, AUD, GBP | Desktop video, dispositivi mobili e TVCC |
 | [!DNL Google Authorized Buyers] (precedentemente [!DNL Google AdX]) | [!DNL Google] | Adobe NA - 44912714<br>Adobe APAC e EU - 89185975 | Supporto PG | Globale | USD, BRL | Desktop e dispositivo mobile<br><br>Desktop e dispositivo mobile<br><br>Desktop video, dispositivo mobile e CTV |
 | [!DNL GumGum] |  | Adobe Advertising | — | Globale | USD | Visualizza desktop e dispositivi mobili<br><br>Desktop video e dispositivi mobili |
@@ -51,7 +51,6 @@ Una piattaforma lato offerta (SSP, supply-side platform) è una piattaforma tecn
 | [!DNL Nexxen] | [!DNL Nexxen] (precedentemente [!DNL Unruly]) | Adobe Advertising | — | USA + EMEA | USD | Visualizza desktop e dispositivi mobili<br><br>Desktop video, dispositivi mobili e CTV |
 | [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] o Adobe Advertising | Supporto PG | Globale | USD | Visualizza desktop e dispositivi mobili<br><br>Desktop video, dispositivi mobili e CTV |
 | [!DNL PubMatic] | [!DNL Pubmatic] | [!DNL TubeMogul] o Adobe Advertising | — | Globale | USD | Visualizza desktop e dispositivi mobili<br><br>Desktop video, dispositivi mobili e CTV |
-| [!DNL ShareThrough] |  | [!DNL TubeMogul] o Adobe Advertising | — | Globale | USD | Schermo desktop e mobile<br><br>Schermo nativo<br><br>Video desktop, mobile e CTV |
 | [!DNL SmartClip] |  | Adobe Advertising | — | EMEA | Tutte le valute | Visualizza desktop e dispositivi mobili<br><br>Desktop video, dispositivi mobili e CTV |
 | [!DNL Taboola] |  | Adobe Advertising | — | US/CA | USD | Desktop video e dispositivi mobili |
 | [!DNL Teads] |  | [!DNL TubeMogul] o Adobe Advertising | — | Video in uscita = Globale<br>Visualizzazione = NA + EMEA | USD | Visualizza desktop e dispositivi mobili<br><br>Desktop video, dispositivi mobili e CTV |

@@ -22,9 +22,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: fc59d590863f0014c5d0466019f1d7f787b23744
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '381'
 ht-degree: 0%
 ---
 # Informazioni su Adobe Advertising DSP
@@ -43,7 +43,7 @@ Adobe Advertising DSP (DSP) migliora le strategie multimediali degli inserzionis
 
 * [**Esperienza TV connessa a Premiere con [!DNL Roku]**](/help/dsp/inventory/roku-inventory.md): [!DNL Roku] e DSP hanno una relazione unica che ti consente di attivare i tuoi dati di prime e terze parti nell&#39;inventario di [!DNL Roku] per raggiungere in modo efficiente il pubblico sul grande schermo, su larga scala. Sfruttando l&#39;unica piattaforma con la possibilità di sincronizzarsi con [!DNL Roku] ID, gli addetti al marketing possono sfruttare il targeting deterministico 1:1 con precisione e precisione, nonché accedere all&#39;inventario [!DNL Roku] e a informazioni di misurazione univoche.
 
-* [**Funzioni basate sull&#39;intelligenza artificiale**](/help/dsp/introduction/features/ai-agents.md): DSP fornisce agenti basati sull&#39;intelligenza artificiale per aiutarti a creare tipi di pubblico riutilizzabili e a trovare istruzioni e best practice per l&#39;utilizzo dei prodotti.
+* [**Funzioni basate sull&#39;intelligenza artificiale**](/help/dsp/introduction/features/ai-agents.md): DSP fornisce agenti basati sull&#39;intelligenza artificiale, tra cui un Assistente all&#39;intelligenza artificiale unificato per aiutarti a creare tipi di pubblico riutilizzabili, generare rapporti, risolvere problemi di prestazioni e trovare istruzioni e best practice per l&#39;utilizzo dei prodotti.
 
 >[!MORELIKETHIS]
 >
