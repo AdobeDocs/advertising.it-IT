@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3bb565d689b65ae66d6ea2094abccdff3c9e891d
+source-git-commit: d3e38179ae119f35c184bee398edaaf456fab563
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1282'
 ht-degree: 0%
 ---
 # Gestire le parole chiave
@@ -81,7 +81,7 @@ La visualizzazione [!UICONTROL Manage] > [!UICONTROL Keywords] include due sched
 
 1. Fare clic su **[!UICONTROL Review and Save]**.
 
-1. Se necessario, fare clic su ![Modifica](/help/search-social-commerce/assets/edit-new.png "Modifica") **[!UICONTROL Edit]** e modificare le impostazioni di entità e/o parole chiave.
+1. Controlla le impostazioni. Per modificare le impostazioni, fare clic su ![Modifica](/help/search-social-commerce/assets/edit-new.png "Modifica") **[!UICONTROL Edit]** nella sezione applicabile e modificare le impostazioni.
 
 1. Fare clic su **[!UICONTROL Create]**.
 
@@ -105,7 +105,7 @@ Modificando il testo della parola chiave o il tipo di corrispondenza è possibil
 
 1. Fare clic su **[!UICONTROL Review and Save]**.
 
-1. Se necessario, fare clic su ![Modifica](/help/search-social-commerce/assets/edit-new.png "Modifica") **[!UICONTROL Edit]** e modificare le impostazioni delle parole chiave.
+1. Controlla le impostazioni. Per modificare le impostazioni, fare clic su ![Modifica](/help/search-social-commerce/assets/edit-new.png "Modifica") **[!UICONTROL Edit]** nella sezione applicabile e modificare le impostazioni.
 
 1. Fare clic su **[!UICONTROL Update]**.
 
@@ -147,7 +147,7 @@ Solo *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising] e [!DNL Bai
 
 1. Fare clic su **[!UICONTROL Review and Save]**.
 
-1. Se necessario, fare clic su ![Modifica](/help/search-social-commerce/assets/edit-new.png "Modifica") **[!UICONTROL Edit]** e modificare l&#39;entità e/o le parole chiave negative.
+1. Controlla le impostazioni. Per modificare le impostazioni, fare clic su ![Modifica](/help/search-social-commerce/assets/edit-new.png "Modifica") **[!UICONTROL Edit]** nella sezione applicabile e modificare le impostazioni.
 
 1. Fare clic su **[!UICONTROL Create]**.
 

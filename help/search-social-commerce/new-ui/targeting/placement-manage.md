@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 3bb565d689b65ae66d6ea2094abccdff3c9e891d
+source-git-commit: d3e38179ae119f35c184bee398edaaf456fab563
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1390'
 ht-degree: 0%
 ---
 # Gestire i posizionamenti
@@ -86,7 +86,7 @@ La visualizzazione della pagina richiede l&#39;autorizzazione [!UICONTROL View P
 
 1. Fare clic su **[!UICONTROL Review and Save]**.
 
-1. Se necessario, fai clic su ![Modifica](/help/search-social-commerce/assets/edit-new.png "Modifica") **[!UICONTROL Edit]** e modifica l&#39;entità e/o le impostazioni di posizionamento.
+1. Controlla le impostazioni. Per modificare le impostazioni, fare clic su ![Modifica](/help/search-social-commerce/assets/edit-new.png "Modifica") **[!UICONTROL Edit]** nella sezione applicabile e modificare le impostazioni.
 
 1. Fare clic su **[!UICONTROL Create]**.
 
@@ -114,7 +114,7 @@ La visualizzazione della pagina richiede l&#39;autorizzazione [!UICONTROL View P
 
 1. Fare clic su **[!UICONTROL Review and Save]**.
 
-1. Se necessario, fai clic su ![Modifica](/help/search-social-commerce/assets/edit-new.png "Modifica") **[!UICONTROL Edit]** e modifica l&#39;entità e/o gli URL negativi del sito Web.
+1. Controlla le impostazioni. Per modificare le impostazioni, fare clic su ![Modifica](/help/search-social-commerce/assets/edit-new.png "Modifica") **[!UICONTROL Edit]** nella sezione applicabile e modificare le impostazioni.
 
 1. Fare clic su **[!UICONTROL Create]**.
 
