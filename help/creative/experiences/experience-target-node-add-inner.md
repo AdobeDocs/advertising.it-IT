@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '1117'
 ht-degree: 0%
 ---
 # Aggiungere un nodo di destinazione tra i nodi di un’esperienza
@@ -35,7 +35,41 @@ Per definire un target specifico, aggiungi un altro nodo di destinazione di pari
 >
 >Per aggiungere un nodo di destinazione al livello inferiore di una struttura decisionale, vedere &quot;[Aggiungere un nodo di destinazione al livello finale in un&#39;esperienza](experience-target-node-add-final.md).&quot;
 
-<!-- 1. [ways to get to the decision tree] -->
+## Utilizzo dell’editor basato sull’intelligenza artificiale (Beta) {#ai-editor}
+
+Mentre [crei](experience-create-targeting.md#ai-editor) o [modifichi](experience-edit-targeting.md#ai-editor) l&#39;esperienza, puoi chiedere all&#39;agente di intelligenza artificiale di inserire un livello di destinazione. Identifica dove inserirlo e quali rami e creativi esistenti mantenere e rivede il risultato. Per inserire il livello direttamente nell&#39;area di lavoro:
+
+1. Nel punto del limite in cui si desidera inserire il livello, fare clic su **[!UICONTROL Add targeting level]**.
+
+   Nella visualizzazione orizzontale questo controllo è un&#39;icona con la stessa etichetta.
+
+1. In **[!UICONTROL New targeting level]** selezionare la categoria di destinazione e quindi fare clic su **[!UICONTROL Add targeting level]**.
+
+   * Per le destinazioni di pubblico, selezionare **[!UICONTROL Audience]**.
+
+   * Per le destinazioni geografiche, selezionare una singola categoria geografica (ad esempio **[!UICONTROL Geo: Country]**).
+
+   * Per le destinazioni del passaggio dati, selezionare **[!UICONTROL Data Pass]**.
+
+   * Per il retargeting delle destinazioni pixel, selezionare **[!UICONTROL RT Pixel]**.
+
+   * Per le destinazioni dispositivo, selezionare una singola categoria di destinazione (**[!UICONTROL Device: Type]**, **[!UICONTROL Device: OS]** o **[!UICONTROL Device: Browser]**).
+
+   L&#39;inserimento di un livello non richiede valori di destinazione. Il nuovo livello utilizza inizialmente &quot;All&quot; (Tutti) e mantiene gli obiettivi e i creativi figlio esistenti.
+
+1. (Facoltativo) Per definire una destinazione specifica al nuovo livello, [aggiungi un nodo di destinazione di pari livello](experience-target-node-add-sibling.md#ai-editor). In caso contrario, mantieni il nuovo nodo &quot;All&quot; (Tutti) senza aggiungere destinazioni specifiche.
+
+1. (Facoltativo) Per rinominare un nodo di destinazione definito dall&#39;utente, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Edit Name]**, immettere **[!UICONTROL Node Name]**, quindi fare clic su **[!UICONTROL Save]**.
+
+   Non è possibile rinominare un nodo &quot;Tutti&quot; o &quot;Tutti gli altri&quot;.
+
+1. Rivedi i rami mantenuti e [assegna i bundle creativi](experience-assign-creative-bundles.md#ai-editor) a qualsiasi nuovo nodo finale.
+
+1. [Salva l&#39;esperienza](#save).
+
+## Utilizzo dell’editor manuale {#manual-editor}
+
+[Aprire l&#39;editor manuale](experience-edit-targeting.md#experience-open) prima di eseguire la procedura seguente.
 
 1. Nel nodo in cui si desidera inserire la destinazione, fare clic su ![Aggiungi](/help/creative/assets/add.png "Aggiungi"), quindi selezionare **[!UICONTROL Insert New Target]**.
 
@@ -47,43 +81,49 @@ Per definire un target specifico, aggiungi un altro nodo di destinazione di pari
 
         * Per le destinazioni di pubblico, selezionare **[!UICONTROL Audience]**.
 
-        * Per le destinazioni geografiche, selezionare una singola categoria geografica (ad esempio [!UICONTROL Geo: Country]).
+        * Per le destinazioni geografiche, selezionare una singola categoria geografica (ad esempio **[!UICONTROL Geo: Country]**).
 
         * Per le destinazioni del passaggio dati, selezionare **[!UICONTROL Data Pass]**.
 
-        * Per il retargeting delle destinazioni pixel, selezionare **[!UICONTROL RT Pixel].
+        * Per il retargeting delle destinazioni pixel, selezionare **[!UICONTROL RT Pixel]**.
 
         * Per le destinazioni dispositivo, selezionare una singola categoria di destinazione (**[!UICONTROL Device: Type]**, **[!UICONTROL Device: OS]** o **[!UICONTROL Device: Browser]**).
 
    * Se i nodi di pari livello esistono già, eseguire le operazioni seguenti:
 
-     * Per i target di pubblico, effettua le seguenti operazioni:
+     * Per i target di pubblico:
 
-       1. Fare clic su **[!UICONTROL Click to Browse]** per aprire le opzioni di [!UICONTROL Audience Targeting], quindi eseguire le operazioni seguenti:
+       1. Fare clic su **[!UICONTROL Click to Browse]** per aprire le opzioni **[!UICONTROL Audience Targeting]**.
+
+       1. Configura i segmenti e i gruppi di pubblico:
 
           * Per aggiungere il primo segmento, individualo nel pannello a sinistra e seleziona la casella di controllo accanto al nome del segmento.
 
-          * Per aggiungere un segmento a un gruppo di segmenti esistente:
+          * Per aggiungere segmenti a un gruppo di segmenti esistente:
 
             1. Fai clic sul gruppo di segmenti nel pannello di destra.
 
-            1. (Facoltativo) Modificare la logica del gruppo in *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* o *[!UICONTROL Exclude All]*, in base alle esigenze.
+            1. (Facoltativo) Modificare la logica del gruppo in **[!UICONTROL Include Any]**, **[!UICONTROL Include All]** o **[!UICONTROL Exclude All]**, in base alle esigenze.
 
-               *[!UICONTROL Exclude All]* non è disponibile per il primo gruppo di segmenti. Per un pubblico che include solo esclusioni, crea questo pubblico come *[!UICONTROL Include Any]* e poi escludilo quando lo aggiungi a un posizionamento all&#39;interno del tuo DSP.
+               **[!UICONTROL Include Any]** corrisponde agli utenti in almeno un segmento selezionato; **[!UICONTROL Include All]** richiede l&#39;appartenenza in tutti i segmenti selezionati.
 
-            1. Individua il nuovo segmento nel pannello a sinistra e seleziona la casella di controllo accanto al nome del segmento.
+               **[!UICONTROL Exclude All]** non è disponibile per il primo gruppo di segmenti. Per un pubblico che include solo esclusioni, crea il pubblico utilizzando **[!UICONTROL Include Any]**, quindi escludilo quando lo aggiungi a un posizionamento all&#39;interno del DSP.
 
-               Il gruppo di segmenti viene aggiornato automaticamente con il nuovo segmento.
+            1. Individua il nuovo segmento nel pannello a sinistra e seleziona la casella di controllo accanto al nome del segmento. Ripeti per ogni segmento aggiuntivo.
+
+               Il gruppo di segmenti viene aggiornato automaticamente con i nuovi segmenti.
 
           * Per aggiungere un nuovo gruppo di segmenti:
 
             1. Fai clic su **[!UICONTROL + New Group]** nel pannello di destra.
 
-            1. (Facoltativo) Modificare la logica tra il gruppo precedente e il nuovo gruppo in *[!UICONTROL And]* o *[!UICONTROL Or]*, in base alle esigenze.
+            1. (Facoltativo) Modificare la logica tra il gruppo precedente e il nuovo gruppo in **[!UICONTROL And]** o **[!UICONTROL Or]**, in base alle esigenze.
+
+               **[!UICONTROL And]** richiede che gli utenti soddisfino le condizioni di entrambi i gruppi; **[!UICONTROL Or]** richiede che soddisfino almeno le condizioni di un gruppo.
 
             1. Individuate i segmenti per il nuovo gruppo nel pannello a sinistra e selezionate le caselle di controllo accanto ai nomi dei segmenti.
 
-            1. (Facoltativo) Modificare la logica del gruppo in *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* o *[!UICONTROL Exclude All]*, in base alle esigenze.
+            1. (Facoltativo) Modificare la logica del gruppo in **[!UICONTROL Include Any]**, **[!UICONTROL Include All]** o **[!UICONTROL Exclude All]**, in base alle esigenze.
 
        1. Fare clic su **[!UICONTROL Create]**.
 
@@ -103,11 +143,11 @@ Per definire un target specifico, aggiungi un altro nodo di destinazione di pari
 
      * Per una destinazione di passaggio dati, personalizzare facoltativamente la chiave di passaggio dati, immettere un singolo valore di passaggio dati e quindi fare clic su **[!UICONTROL Apply]**.
 
-       Un valore predefinito per la chiave nella coppia chiave-valore è già impostato nel campo **[!UICONTROL Data Pass]** nella sezione [!UICONTROL Advanced] delle [impostazioni esperienza](experience-settings-targeting.md). Facoltativamente, puoi personalizzare la chiave.
+       La chiave predefinita del passaggio dati è configurata nel campo **[!UICONTROL Data Pass]** nella sezione **[!UICONTROL Advanced]** delle [impostazioni generali dell&#39;esperienza](experience-settings-targeting.md). Se necessario, personalizza la chiave per la destinazione.
 
      * Per un target di pixel di retargeting, selezionare un singolo pixel di retargeting da utilizzare e i valori per gli attributi del pixel necessari per mostrare i creativi, quindi fare clic su **[!UICONTROL Apply]**.
 
-       Gli attributi per il pixel di retargeting sono configurati nelle [impostazioni pixel di retargeting](/help/creative/pixels/retargeting-pixel-manage.md).
+       Gli attributi disponibili sono configurati nelle [impostazioni pixel di retargeting](/help/creative/pixels/retargeting-pixel-manage.md).
 
      * Per i dispositivi di destinazione, effettuare le seguenti operazioni:
 
@@ -131,25 +171,15 @@ Per definire un target specifico, aggiungi un altro nodo di destinazione di pari
 
    1. Immettere **[!UICONTROL Node Name]**, quindi fare clic su **[!UICONTROL Save]**.
 
-1. Effettua una delle seguenti operazioni:
+1. (Facoltativo) [Assegna bundle creativi](experience-assign-creative-bundles.md#manual-editor) al nuovo nodo di destinazione e al nodo &quot;Tutto il resto&quot;.
 
-   * (Facoltativo) [Assegna creatività](experience-assign-creative-bundles.md) al nuovo nodo di destinazione e al nodo &quot;Tutto il resto&quot;.
+1. (Facoltativo) [Aggiungere un nodo di destinazione di pari livello](experience-target-node-add-sibling.md#manual-editor) del tipo di destinazione specificato.
 
-   * (Facoltativo) [Aggiungere un nodo di destinazione di pari livello](experience-target-node-add-sibling.md) del tipo di destinazione specificato.
+## Salvare l’esperienza {#save}
 
-   * (Facoltativo) Per salvare l&#39;esperienza:
+I seguenti passaggi si applicano a entrambi gli editor.
 
-     1. Fare clic su **[!UICONTROL Save]** e quindi su **[!UICONTROL OK]**.
-
-     1. (Se ogni nodo al livello più basso non include almeno un elemento creativo): effettua una delle seguenti operazioni:
-
-        * Per salvare l&#39;esperienza senza tutti i bundle creativi necessari, fare clic su **[!UICONTROL Save as Draft]**.
-
-          Non puoi creare un tag annuncio per una bozza di esperienza.
-
-        * Per assegnare la creatività predefinita a ogni destinazione a cui non è già stato assegnato un bundle creativo, fare clic su **[!UICONTROL Assign Default Creatives]**. Dopo aver esaminato la struttura aggiornata con i creativi predefiniti assegnati, fare clic su **[!UICONTROL Save]** e **[!UICONTROL OK]**.
-
-        * Per continuare a modificare la struttura decisionale, fare clic su **[!UICONTROL Continue Edit]**.
+{{$include /help/_includes/experience-save.md}}
 
 >[!MORELIKETHIS]
 >

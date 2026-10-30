@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '207'
 ht-degree: 0%
 ---
 # Eliminare un nodo di destinazione o un nodo foglia creativo in un’esperienza
@@ -27,25 +27,31 @@ ht-degree: 0%
 
 Puoi eliminare un nodo di destinazione, inclusi tutti gli oggetti secondari e i bundle creativi ad essi assegnati. Puoi anche eliminare un nodo foglia creativo.
 
-<!-- 1. [ways to get to the decision tree] -->
+## Utilizzo dell’editor basato sull’intelligenza artificiale (Beta) {#ai-editor}
+
+Durante la [creazione](experience-create-targeting.md#ai-editor) o la [modifica](experience-edit-targeting.md#ai-editor) dell&#39;esperienza, utilizza i controlli dell&#39;area di lavoro:
+
+1. Controlla il nodo e le relative destinazioni e creatività secondarie prima di eliminarlo.
+
+1. Tenere premuto il cursore sul nodo di destinazione o sul nodo foglia creativa e fare clic su **[!UICONTROL ...]** > **[!UICONTROL Delete]**.
+
+   Il nodo viene rimosso dalla struttura di lavoro senza una conferma **[!UICONTROL Delete Node]** separata.
+
+1. Rivedi i rami rimanenti, quindi [salva l&#39;esperienza](#save).
+
+## Utilizzo dell’editor manuale {#manual-editor}
+
+[Aprire l&#39;editor manuale](experience-edit-targeting.md#experience-open) prima di eseguire la procedura seguente.
 
 1. Tenere premuto il cursore sul nodo di destinazione o sul nodo foglia creativa e fare clic su **[!UICONTROL ...]** > **[!UICONTROL Delete]**.
 
 1. Nel messaggio di conferma, fare clic su **[!UICONTROL Delete Node]**.
 
-1. (Facoltativo) Per salvare l&#39;esperienza:
+## Salvare l’esperienza {#save}
 
-   1. Fare clic su **[!UICONTROL Save]** e quindi su **[!UICONTROL OK]**.
+I seguenti passaggi si applicano a entrambi gli editor.
 
-   1. (Se ogni nodo al livello più basso non include almeno un elemento creativo): effettua una delle seguenti operazioni:
-
-      * Per salvare l&#39;esperienza senza tutti i bundle creativi necessari, fare clic su **[!UICONTROL Save as Draft]**.
-
-        Non puoi creare un tag annuncio per una bozza di esperienza.
-
-      * Per assegnare la creatività predefinita a ogni destinazione a cui non è già stato assegnato un bundle creativo, fare clic su **[!UICONTROL Assign Default Creatives]**. Dopo aver esaminato la struttura aggiornata con i creativi predefiniti assegnati, fare clic su **[!UICONTROL Save]** e **[!UICONTROL OK]**.
-
-      * Per continuare a modificare la struttura decisionale, fare clic su **[!UICONTROL Continue Edit]**.
+{{$include /help/_includes/experience-save.md}}
 
 >[!MORELIKETHIS]
 >

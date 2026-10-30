@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Optimization
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 336176fe71b8835779710cabf71bcb33568df688
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '531'
 ht-degree: 0%
 ---
 # Informazioni su Adobe Advertising Creative 2.0
@@ -56,7 +56,7 @@ Le librerie Creative ti consentono di gestire i contenuti creativi da utilizzare
 
 ## Esperienze basate su regole e non mirate
 
-* **Esperienze mirate e basate su regole:** crea storie utilizzando un modello di struttura decisionale basato su regole, distribuendo una stringa coreografica di annunci personalizzati in tempo reale in base a ciò che sai sul tuo pubblico. Ad esempio, le storie possono cambiare in base al comportamento del cliente, all&#39;area geografica, alla demografia, al retargeting, alla posizione nel percorso di clienti e altro ancora.
+* **Esperienze mirate e basate su regole:** crea storie utilizzando un modello di struttura decisionale basato su regole, distribuendo una stringa coreografica di annunci personalizzati in tempo reale in base a ciò che sai sul tuo pubblico. Ad esempio, le storie possono cambiare in base al comportamento del cliente, all&#39;area geografica, alla demografia, al retargeting, alla posizione nel percorso di clienti e altro ancora. Creare e modificare l&#39;albero delle decisioni utilizzando [l&#39;editor basato sull&#39;intelligenza artificiale (Beta)](/help/creative/experiences/experience-decision-tree.md#ai-editor), con l&#39;assistenza della conversazione e controlli canvas diretti, oppure utilizzare l&#39;editor manuale.
 
 * **Esperienze non di destinazione:** pianifica e ottimizza gli elementi dell&#39;annuncio senza restringere il pubblico.
 

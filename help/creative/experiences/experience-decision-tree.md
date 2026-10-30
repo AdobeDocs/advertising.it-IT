@@ -1,6 +1,6 @@
 ---
 title: Layout dell’albero delle decisioni
-description: Scopri il layout della struttura decisionale per le esperienze con targeting.
+description: Scopri gli editor di alberi decisionali manuali e basati sull’intelligenza artificiale per le esperienze con il targeting.
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
 TQID: 'https://experienceleague.adobe.com/JFrcVBHxv90Fchk-VfkmxAITQJswboszNMFOfaAQlL4'
@@ -18,28 +18,46 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '807'
 ht-degree: 0%
 ---
 # Layout dell&#39;albero delle decisioni per [!DNL Creative] esperienze
 
 Quando abiliti l&#39;opzione &quot;[!UICONTROL Targeting]&quot; per un&#39;esperienza, configurala utilizzando una struttura decisionale.
 
-Inizialmente, ogni albero decisionale inizia con il livello principale, &quot;All&quot;. Puoi aggiungere uno o più nodi di destinazione e quindi assegnare bundle creativi ai nodi finali in ogni ramo della struttura decisionale. Per impostazione predefinita, l’albero delle decisioni viene visualizzato in verticale, ma è possibile visualizzare facoltativamente l’albero in orizzontale.
+Inizialmente, ogni albero decisionale inizia con il livello principale, &quot;All&quot;. Puoi aggiungere uno o più nodi di destinazione e quindi assegnare bundle creativi ai nodi finali in ogni ramo della struttura decisionale.
+
+## Editor basato sull’intelligenza artificiale (Beta) {#ai-editor}
+
+L’editor basato sull’intelligenza artificiale si apre per impostazione predefinita quando crei o modifichi un’esperienza con il targeting. Combina una conversazione con l’agente di intelligenza artificiale e un’area di lavoro interattiva dell’albero decisionale.
+
+* Descrivi la struttura di targeting o le modifiche desiderate nella conversazione e controlla la struttura risultante prima di salvarla.
+
+* Modifica l’area di lavoro direttamente per aggiungere livelli e nodi di destinazione, assegnare bundle e configurare URL di ottimizzazione creativa e tracciamento. Non è necessario passare all&#39;editor manuale per utilizzare questi controlli.
+
+* Visualizza il nome dell’esperienza, lo stato e l’inserzionista nell’intestazione e, se disponibile, utilizza gli ID nodo per identificare i nodi di destinazione quando descrivi le modifiche.
+
+* Utilizza **[!UICONTROL Zoom in]**, **[!UICONTROL Zoom out]** e **[!UICONTROL Change orientation]** per modificare la visualizzazione. **[!UICONTROL Reset tree]** cancella la struttura dopo la conferma; non reimposta solo lo zoom.
+
+Durante l&#39;elaborazione di una modifica da parte dell&#39;assistente, l&#39;area di lavoro e il relativo pulsante **[!UICONTROL Save]** sono temporaneamente disabilitati. Attendi il completamento dell’elaborazione prima di apportare un’altra modifica all’area di lavoro.
+
+## Editor manuale {#manual-editor}
+
+Per aprire l&#39;editor manuale esistente dall&#39;editor basato su IA, fare clic su **[!UICONTROL Manual Decision Tree]**. È inoltre possibile selezionare **[!UICONTROL Create Decision Tree Manually (Legacy)]** dalle azioni dell&#39;esperienza nella visualizzazione [!UICONTROL Experiences]. Consulta [Cambiare editor o modificare le impostazioni dell&#39;esperienza](experience-edit-targeting.md#switch-editors).
+
+Nell&#39;editor manuale, la struttura viene visualizzata in verticale per impostazione predefinita. È possibile passare a una vista orizzontale e regolare lo zoom con un dispositivo di scorrimento. Le impostazioni di visualizzazione vengono salvate fino alla disconnessione.
+
+Gli esempi seguenti mostrano l’editor manuale:
 
 ![Esempio di struttura decisionale verticale senza destinazioni](/help/creative/assets/experience-decision-tree-no-targets.png "Esempio di struttura decisionale verticale senza destinazioni")
 
 ![Esempio di struttura decisionale orizzontale senza destinazioni](/help/creative/assets/experience-decision-tree-no-targets-horizontal.png "Esempio di struttura decisionale orizzontale senza destinazioni")
 
-<!--
->[!NOTE]
+>[!IMPORTANT]
 >
->You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.
--->
-
-<!-- Explain the diff and why to choose the other option. -->
+>Salva le modifiche da mantenere prima di uscire dall’editor basato sull’intelligenza artificiale. Facendo clic su **[!UICONTROL Manual Decision Tree]**, **[!UICONTROL Experience Form]** o **[!UICONTROL Cancel]** viene aperta una finestra di dialogo di conferma. Se si fa clic su **[!UICONTROL Yes]**, le modifiche alla struttura non salvate vengono ignorate; se si fa clic su **[!UICONTROL No]**, l&#39;utente rimane nell&#39;editor.
 
 ## Termini
 
@@ -54,6 +72,8 @@ Inizialmente, ogni albero decisionale inizia con il livello principale, &quot;Al
 Ogni albero decisionale può avere fino a cinque livelli di target. I target a livello di esperienza vengono applicati insieme alle opzioni di targeting del tuo DSP; il comportamento di targeting gerarchico può variare a seconda di DSP. Assicurati che le esperienze dell’annuncio includano un targeting compatibile con le campagne in cui lo implementerai.
 
 Ogni livello di destinazione può includere più rami, ciascuno con uno o più nodi con lo stesso tipo di destinazione (segmento di pubblico, tipo di posizione geografica, valori per chiavi di passaggio dati specificate, attributi per un pixel di retargeting specificato o una categoria di dispositivi). Puoi assegnare ai nodi di destinazione di livello inferiore dei bundle creativi in ogni dimensione dell’annuncio per la quale hai specificato un’immagine creativa o creativa video predefinita.
+
+<!-- Add a screen shot of the AI editor -->L’esempio seguente mostra le destinazioni nell’editor manuale:
 
 ![Esempio di struttura decisionale con destinazioni](/help/creative/assets/experience-decision-tree.png "Esempio di struttura decisionale con destinazioni")
 

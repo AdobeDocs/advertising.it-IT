@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1242'
 ht-degree: 0%
 ---
 # Informazioni sulle esperienze in Advertising Creative 2.0
@@ -51,6 +51,8 @@ Ogni esperienza pubblicitaria può includere un tipo di annuncio (visualizzazion
   * Tipi di dispositivi, sistemi operativi e browser specifici
 
   Dopo aver creato un ramo di pubblico target nella struttura decisionale, puoi associare il pubblico target con potenziali creativi assegnando al ramo dei bundle creativi. Per ogni esperienza, puoi personalizzare l&#39;ottimizzazione e la pianificazione per i bundle creativi e modificare le pagine di destinazione e gli URL di tracciamento predefiniti<!-- later: and any flexible attributes --> per i singoli creativi in ogni bundle.
+
+  L’editor predefinito della struttura decisionale basato sull’intelligenza artificiale (Beta) consente di descrivere la struttura o le modifiche che desideri apportare all’agente di intelligenza artificiale, rivedere il risultato e modificare direttamente l’area di lavoro interattiva. È inoltre possibile utilizzare l&#39;editor manuale esistente. Entrambi gli editor configurano lo stesso tipo di esperienza con targeting. Consulta [Il layout dell&#39;albero delle decisioni](experience-decision-tree.md) e [Modifica un&#39;esperienza con il targeting dell&#39;albero delle decisioni](experience-edit-targeting.md).
 
 * **Esperienze senza targeting della struttura decisionale:** [!DNL Creative] ottimizza gli elementi dell&#39;annuncio per l&#39;esperienza dell&#39;annuncio senza restringere il pubblico. Per ogni esperienza, puoi specificare le date di inizio e di fine e alcune impostazioni predefinite, ma gran parte del flusso di lavoro non si trova direttamente all’interno dell’esperienza. Invece di aggiungere creativi direttamente all&#39;esperienza, utilizza [!UICONTROL Tag Manager] per creare un tag annuncio per ogni dimensione dell&#39;esperienza e quindi aggiungervi creativi, configurare l&#39;ottimizzazione e la pianificazione creativa e personalizzare le pagine di destinazione e gli URL di tracciamento<!-- later: and any flexible attributes -->.
 
