@@ -20,12 +20,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1262'
 ht-degree: 0%
 ---
 # Impostazioni delle esperienze annuncio di destinazione
+
+Queste impostazioni generali sono condivise dall’editor della struttura decisionale basato sull’intelligenza artificiale (Beta) e dall’editor manuale.
+
+Per un&#39;esperienza esistente, fare clic su **[!UICONTROL Experience Form]** dalla struttura decisionale. Salvare le modifiche alla struttura che si desidera mantenere per prime. Se si abbandona l’editor basato sull’intelligenza artificiale, è necessario confermare ed eliminare le modifiche alla struttura non salvate. Consulta [Cambiare editor o modificare le impostazioni dell&#39;esperienza](experience-edit-targeting.md#switch-editors).
 
 ## [!UICONTROL Experience basics] sezione
 

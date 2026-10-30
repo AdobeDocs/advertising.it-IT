@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '453'
 ht-degree: 0%
 ---
 # Assegnare e annullare l’assegnazione di bundle creativi a un nodo finale in un’esperienza
@@ -36,7 +36,31 @@ Per esperienze pubblicitarie standard, puoi assegnare solo bundle creativi stand
 >
 >Se non assegni almeno un bundle creativo a ciascun nodo finale, puoi scegliere di utilizzare le creatività predefinite per ciascun nodo non assegnato quando [salvi l&#39;esperienza](experience-create-targeting.md). Per pubblicare un’esperienza, devi assegnare dei bundle o utilizzare le creatività predefinite per ciascun nodo finale.
 
-<!-- 1. [ways to get to the decision tree] -->
+## Utilizzo dell’editor basato sull’intelligenza artificiale (Beta) {#ai-editor}
+
+Durante la [creazione](experience-create-targeting.md#ai-editor) o la [modifica](experience-edit-targeting.md#ai-editor) dell&#39;esperienza, utilizza i controlli dell&#39;area di lavoro:
+
+1. Effettuare una delle seguenti operazioni:
+
+   * Per un nodo finale senza bundle, fare clic su **[!UICONTROL Assign Bundles]**.
+
+   * Per un nodo con bundle esistenti, fai clic su **[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]** nel relativo nodo foglia creativo.
+
+1. Nella scheda **[!UICONTROL Assign Bundles]**, seleziona la casella di controllo accanto a ciascun bundle da assegnare e deseleziona la casella di controllo accanto a ciascun bundle da annullare l&#39;assegnazione.
+
+   Sono elencati solo i bundle del tipo pertinente per l’esperienza (standard o dinamica).
+
+1. (Facoltativo) Apri la scheda **[!UICONTROL Creative optimisation]** per [personalizzare la rotazione e la pianificazione](experience-optimization-scheduling-targeting.md).
+
+1. Fare clic su **[!UICONTROL Save]** nella finestra di dialogo per aggiornare la struttura di lavoro.
+
+1. (Facoltativo) [Personalizzare gli URL di tracciamento](experience-tracking-urls-targeting.md#ai-editor).
+
+1. [Salva l&#39;esperienza](#save) dall&#39;intestazione della struttura per mantenere le modifiche.
+
+## Utilizzo dell’editor manuale {#manual-editor}
+
+[Aprire l&#39;editor manuale](experience-edit-targeting.md#experience-open) prima di eseguire la procedura seguente.
 
 1. Effettuare una delle seguenti operazioni:
 
@@ -54,12 +78,9 @@ Per esperienze pubblicitarie standard, puoi assegnare solo bundle creativi stand
 
 1. (Facoltativo) [Personalizza gli URL di tracciamento per i creativi nei bundle assegnati](experience-tracking-urls-targeting.md).
 
-<!--
-1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.
-...
+## Salvare l’esperienza {#save}
 
-These formatted steps are inserted automatically from text in the following file in the _includes folder, which reused in multiple places.
--->
+I seguenti passaggi si applicano a entrambi gli editor. Il salvataggio della finestra di dialogo del bundle da solo non salva o pubblica l’esperienza.
 
 {{$include /help/_includes/experience-save.md}}
 
