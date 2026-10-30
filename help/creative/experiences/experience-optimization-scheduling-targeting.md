@@ -44,7 +44,7 @@ Puoi configurare queste impostazioni direttamente nell’area di lavoro dell’e
 
 * **[!UICONTROL Algorithmic]:** mostra più spesso le varianti di annunci più efficaci, in base a un obiettivo di ottimizzazione specificato, ad esempio il tasso di click-through o un obiettivo personalizzato di Advertising DSP.
 
-* **[!UICONTROL Sequence](editor basato su IA) o [!UICONTROL Sequencing] (editor manuale):** mostra i bundle creativi associati in un ordine specificato, con un numero specificato di impression per ogni bundle nella sequenza. Per impostazione predefinita, i bundle sono sequenziati nell’ordine in cui sono stati aggiunti all’esperienza. Le dimensioni degli annunci offerti sono determinate dall’inventario disponibile. Il bundle finale può essere utilizzato indefinitamente (impostazione predefinita), oppure la sequenza può tornare al primo bundle.
+* **[!UICONTROL Sequence] (editor basato su IA) o [!UICONTROL Sequencing] (editor manuale):** mostra i bundle creativi associati in un ordine specificato, con un numero specificato di impression per ogni bundle nella sequenza. Per impostazione predefinita, i bundle sono sequenziati nell’ordine in cui sono stati aggiunti all’esperienza. Le dimensioni degli annunci offerti sono determinate dall’inventario disponibile. Il bundle finale può essere utilizzato indefinitamente (impostazione predefinita), oppure la sequenza può tornare al primo bundle.
 
   Ad esempio, una sequenza può servire varianti di annunci dal bundle 1 per tre impression, dal Bundle 2 per una impression e dal Bundle 3 per due impression e quindi ripetere. Senza cicli continui, il bundle 3 continua a essere utilizzato indefinitamente.
 
