@@ -3,13 +3,11 @@ role: User
 user-guide-title: Guida di Advertising Creative
 user-guide-description: Scopri le principali funzioni, attività, impostazioni e altre risorse necessarie per utilizzare Advertising Creative.
 breadcrumb-title: Guida alla creatività
-source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
+source-git-commit: 2ffa1910ffd60b0a93fa5edb54d5956319ad7fb8
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '434'
 ht-degree: 4%
-
 ---
-
 
 # Guida di Advertising Creative 2.0 {#creative}
 
@@ -40,7 +38,7 @@ ht-degree: 4%
       + [Specifiche creative di HTML5](/help/creative/creative-libraries/html5-creative-specification.md)
     + Creatività dinamica {#dynamic-creatives}
       + [Aggiungere creatività dinamica a una libreria creativa](/help/creative/creative-libraries/creative-add-dynamic.md)
-      + [Modifica creativi dinamici](/help/creative/creative-libraries/creative-edit-dynamic.md)
+      + [Editing e controllo qualità delle creatività dinamiche](/help/creative/creative-libraries/creative-edit-dynamic.md)
       + [Impostazioni creative dinamiche](/help/creative/creative-libraries/creative-settings-dynamic.md)
     + [Visualizzare in anteprima un contenuto creativo](/help/creative/creative-libraries/creative-preview.md)
     + [Associa creatività ai bundle](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
