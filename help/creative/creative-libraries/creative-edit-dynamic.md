@@ -1,6 +1,6 @@
 ---
-title: Modificare un contenuto creativo dinamico in una libreria creativa
-description: Scopri come modificare un contenuto creativo dinamico in una libreria creativa.
+title: Editing e controllo qualità delle creatività dinamiche
+description: Scopri come modificare le impostazioni creative dinamiche e il contenuto del catalogo con controllo di qualità in una libreria creativa.
 feature: Creative Dynamic Creatives
 exl-id: b75b9aeb-ffd0-4b86-aa7a-bd6a22e7a8e4
 TQID: 'https://experienceleague.adobe.com/QoQ5p4sFV-ARIMNDbPkp7axfqkVEC3sxJ6MTlPIG22Y'
@@ -16,14 +16,18 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
+source-git-commit: ed1682eff9ce28df30a5314de90f6f67c10f338a
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '1118'
 ht-degree: 0%
 ---
-# Modificare un contenuto creativo dinamico in una libreria creativa
+# Editing e controllo qualità delle creatività dinamiche
 
-## Dalla nuova interfaccia
+Modifica le impostazioni creative per modificare la configurazione del contenuto, ad esempio il nome, i cataloghi e la mappatura degli attributi. Utilizza l’agente di controllo qualità per rivedere gli annunci risultanti e correggere i valori del catalogo.
+
+## Modificare le impostazioni creative {#edit-creative-settings}
+
+### Dalla nuova interfaccia {#from-the-new-ui}
 
 1. Apri le impostazioni creative:
 
@@ -67,7 +71,7 @@ ht-degree: 0%
 
 1. Fare clic su **[!UICONTROL Update Creative]**.
 
-## Dall’interfaccia utente legacy
+### Dall’interfaccia utente legacy {#from-the-legacy-ui}
 
 1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -112,6 +116,100 @@ ht-degree: 0%
      1. Selezionare i bundle, quindi fare clic su **[!UICONTROL Attach Creative to Bundles]**.
 
    * Per salvare gli annunci e uscire dall&#39;installazione, fare clic su **[!UICONTROL Save]** e quindi di nuovo su **[!UICONTROL Save]**.
+
+## Controllo qualità per una creatività dinamica (solo nuova interfaccia utente) {#qa-dynamic-creative}
+
+Utilizza l’agente di controllo qualità nella nuova interfaccia utente per analizzare le righe del catalogo in base al modello di un creatività dinamico, visualizzare in anteprima gli annunci risultanti e identificare potenziali problemi di contenuto. È possibile filtrare e raggruppare gli annunci utilizzando **[!UICONTROL AI Assistant]**, esaminare gli avvisi del catalogo e correggere manualmente i valori del catalogo prima di pubblicare le modifiche.
+
+>[!NOTE]
+>
+>È possibile verificare la qualità delle creatività dinamiche da [!UICONTROL Creative Libraries] o [!UICONTROL Creative Studio]. Per l&#39;altro punto di ingresso, vedere &quot;[Controllo qualità di un elemento creativo dinamico da Creative Studio](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md#qa-dynamic-creative)&quot;.
+
+L’agente di controllo qualità è disponibile solo per creative display dinamiche basate su modelli dinamici, non per creative video standard o dinamiche.
+
+### Apri l’agente di controllo qualità {#open-qa-agent}
+
+1. Nel menu principale, fare clic su **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Apri la libreria in uno dei seguenti modi:
+
+   * Fai clic sul nome della libreria.
+   * Accanto al nome della libreria, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Nella scheda **[!UICONTROL Creatives]** fare clic su **[!UICONTROL ...]** accanto al nome della creatività dinamica e quindi su **[!UICONTROL QA Agent]**.
+
+   Viene visualizzata la schermata **[!UICONTROL Dynamic Creative QA]** con un&#39;area di lavoro di anteprima e il pannello chat di **[!UICONTROL AI Assistant]**.
+
+1. Se la creatività utilizza più cataloghi, seleziona il catalogo da esaminare da **[!UICONTROL Catalog]** nell&#39;intestazione.
+
+   L&#39;assistente analizza il catalogo selezionato. Il selettore catalogo è disattivato quando il contenuto creativo utilizza un solo catalogo.
+
+### Analizzare e filtrare gli annunci con AI {#analyze-ads}
+
+1. Nel pannello **[!UICONTROL AI Assistant]**, digitare una richiesta in **[!UICONTROL Ask anything]** e premere **[!UICONTROL Enter]** oppure fare clic su uno dei prompt suggeriti:
+
+   * **[!UICONTROL Run a comprehensive QA pass on this dynamic creative]**
+   * **[!UICONTROL Group ads by product]**
+   * **[!UICONTROL Filter ads by geography]**
+   * **[!UICONTROL Show all ads with headlines over 80 characters]**
+
+   L’assistente risponde nel pannello chat e visualizza le righe del catalogo corrispondenti come anteprime di annunci sull’area di lavoro. Fino a quando non invii una richiesta, l’area di lavoro ti chiede di chiedere all’assistente di analizzare il catalogo.
+
+1. Continua a perfezionare la revisione con le richieste di follow-up. L’assistente può aiutarti a:
+
+   * Filtra gli annunci per segmento di pubblico, lingua, area geografica o codice postale.
+   * Controlla la lunghezza dei caratteri utilizzando una soglia specificata.
+   * Verifica la presenza di errori di feed, contenuti mancanti e contenuti sospetti.
+   * Rivedi lo stato della traduzione.
+   * Confrontare le varianti del test A/B.
+   * Raggruppa gli annunci per la revisione, ad esempio per prodotto o problema.
+
+   Verifica le risposte dell’assistente ed esamina le anteprime prima di salvare le modifiche.
+
+### Esaminare anteprime e avvisi {#review-previews}
+
+* Utilizza la barra degli strumenti dell’area di lavoro per:
+
+  * Regolare lo zoom.
+  * Passa da **[!UICONTROL Thumbnail view]** a **[!UICONTROL Actual size]**.
+  * Fare clic su **[!UICONTROL Replay animations]** per riprodurre nuovamente le anteprime.
+  * Selezionare il numero di righe per pagina, selezionare un numero di pagina oppure utilizzare **[!UICONTROL Previous page]** e **[!UICONTROL Next page]**.
+
+* Quando l’assistente raggruppa i risultati, fai clic sul collegamento per visualizzare tutti i creativi di un gruppo. Utilizzare **[!UICONTROL Back to groups]** per tornare ai risultati raggruppati oppure **[!UICONTROL Catalog Rows]** per uscire dalla visualizzazione raggruppata.
+
+* Quando un&#39;anteprima mostra **[!UICONTROL Issues detected]**, posiziona il cursore sull&#39;indicatore per visualizzare i dettagli del problema.
+
+* Quando gli avvisi del catalogo sono disponibili, fare clic su **[!UICONTROL View Alerts]**. Nella finestra di dialogo **[!UICONTROL Alerts]** sono elencati il catalogo, il numero di riga, la colonna e il messaggio di errore per ogni problema. Fare clic su **[!UICONTROL Close]** per tornare all&#39;area di lavoro.
+
+### Correggere i valori del catalogo {#correct-catalog-values}
+
+Puoi modificare manualmente i valori del catalogo da un’anteprima dell’annuncio senza uscire dalla schermata Controllo qualità.
+
+1. Nell&#39;anteprima da correggere fare clic su **[!UICONTROL Edit]**.
+
+1. Nella finestra di dialogo di modifica, selezionare le colonne da modificare in **[!UICONTROL Catalog columns to edit]**. Per trovare una colonna, utilizzare **[!UICONTROL Search columns]**.
+
+1. In **[!UICONTROL Columns content]**, aggiornare i valori dei campi selezionati.
+
+1. Fare clic su **[!UICONTROL Update]**.
+
+   L’anteprima viene aggiornata per riflettere i valori aggiornati. Le modifiche apportate al catalogo vengono pubblicate solo dopo il salvataggio della creatività dinamica.
+
+>[!IMPORTANT]
+>
+>Queste modifiche aggiornano i dati del catalogo, non solo l’anteprima dell’annuncio. Rivedi i valori prima di pubblicarli.
+
+### Salva le modifiche o esci {#save-or-exit}
+
+* Per salvare il contenuto creativo dinamico esistente e pubblicare eventuali modifiche al catalogo:
+
+  1. Fare clic su **[!UICONTROL Save Dynamic Creative]** nell&#39;intestazione.
+
+  1. Nella finestra di dialogo di conferma **[!UICONTROL Update Dynamic Creative]**, fare clic su **[!UICONTROL Update]**.
+
+     Tornate alla libreria creativa.
+
+* Per uscire senza pubblicare le modifiche al catalogo in sospeso, fare clic su **[!UICONTROL Cancel]** nell&#39;intestazione della pagina.
 
 >[!MORELIKETHIS]
 >
