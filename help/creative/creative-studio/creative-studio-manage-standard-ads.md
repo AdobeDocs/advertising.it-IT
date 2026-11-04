@@ -11,9 +11,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
+source-git-commit: 1cc477f531051d94ea88eaae0a4fb83918e95ea5
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1263'
 ht-degree: 0%
 ---
 # Gestisci annunci standard in [!UICONTROL Creative Studio]
@@ -149,11 +149,17 @@ Nella libreria di modelli deve esistere almeno un modello di annuncio visualizza
 
 1. Fare clic su **[!UICONTROL Update Creative]**.
 
-## Generare varianti di annuncio per un annuncio standard {#generate-ad-variations}
+## Generare varianti di annunci per una creatività flessibile di HTML5 {#generate-ad-variations}
+
+L&#39;azione **[!UICONTROL Generate Variations]** è disponibile solo per i creativi HTML5 flessibili. Viene disabilitato quando il contenuto creativo non ha il riferimento interno all’annuncio-modello padre richiesto dal generatore o quando viene avviata un’altra richiesta di generazione della variante. Il riferimento al modello di annuncio principale non è un&#39;impostazione modificabile.
+
+>[!NOTE]
+>
+>È inoltre possibile generare varianti di creative HTML5 flessibili idonee da [!UICONTROL Creative Libraries]. Entrambi i punti di ingresso aprono [!UICONTROL Ad Variations Generator]. Vedere &quot;[Generare varianti di creative flessibili di HTML5](/help/creative/creative-libraries/creative-generate-variations.md)&quot; per gli altri requisiti di punto di ingresso e disponibilità.
 
 1. Nel menu principale, fare clic su **[!UICONTROL Creative Studio]**.
 
-1. Nella scheda **[!UICONTROL Creatives]**, posizionare il cursore sulla scheda creativa e fare clic su **[!UICONTROL ...]** > **[!UICONTROL Generate Ad Variations]**.
+1. Nella scheda **[!UICONTROL Creatives]**, posizionare il cursore sulla scheda creativa e fare clic su **[!UICONTROL ...]** > **[!UICONTROL Generate Variations]**.
 
    [!UICONTROL Ad Variations Generator] si apre con l&#39;annuncio selezionato precaricato.
 
