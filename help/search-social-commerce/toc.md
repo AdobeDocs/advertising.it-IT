@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: edf008b5ac23852101d29361110773030f1a2f81
+source-git-commit: fd18dc1423269ce0238826318f58cfcfdce1bce1
 workflow-type: tm+mt
-source-wordcount: '2409'
+source-wordcount: '2440'
 ht-degree: 2%
 ---
 # Guida di Advertising Search, Social e Commerce {#search-social-commerce}
@@ -254,10 +254,18 @@ ht-degree: 2%
     + [Gestisci [!DNL Google Ads] regole valore di conversione](/help/search-social-commerce/new-ui/goals/conversion-value-rules-manage.md)
     + [Gestire i vincoli per le unità di offerta di ricerca](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
   + Targeting {#targeting}
+    + Tipi di pubblico {#audiences-new-ui}
+      + [Gestire i tipi di pubblico](/help/search-social-commerce/new-ui/targeting/audiences/audience-manage.md)
+      + [Gestire i target di pubblico per campagne e gruppi di annunci](/help/search-social-commerce/new-ui/targeting/audiences/audience-targets-manage.md)
+      + [Gestire le esclusioni di pubblico per campagne e gruppi di annunci](/help/search-social-commerce/new-ui/targeting/audiences/audience-exclusions.md)
     + [Gestisci [!DNL Google Ads] destinazioni ricerca dinamica](/help/search-social-commerce/new-ui/targeting/dynamic-search-target-manage.md)
     + [Gestire i posizionamenti](/help/search-social-commerce/new-ui/targeting/placement-manage.md)
   + Libreria {#library}
     + [Visualizzare e creare risorse creative](/help/search-social-commerce/new-ui/library/creative-asset-manage.md)
+    + Estensioni {#extensions-new-ui}
+      + [Gestire le estensioni di sitelink condivise](/help/search-social-commerce/new-ui/library/extensions/sitelink-extension-manage.md)
+      + [Gestisci [!DNL Google Ads] estensioni callout condivise](/help/search-social-commerce/new-ui/library/extensions/callout-extension-manage.md)
+      + [Gestire le associazioni di estensioni pubblicitarie](/help/search-social-commerce/new-ui/library/extensions/ad-extension-association-manage.md)
   + [Gestire gli avvisi personalizzati](/help/search-social-commerce/new-ui/alerts-manage.md)
   + [Gestione notifiche](/help/search-social-commerce/new-ui/notifications-manage.md)
   + [Amministrazione utenti](/help/search-social-commerce/new-ui/user-administration.md)

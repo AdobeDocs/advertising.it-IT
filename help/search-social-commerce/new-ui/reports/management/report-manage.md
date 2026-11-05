@@ -18,7 +18,7 @@ feature_v2:
     internal-label: Search Model Accuracy Reports
   - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
     internal-label: Search Specialty Reports
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: ea1ad3de65362d59f5c45341bc4807cfbaf0610e
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Le seguenti categorie di report sono disponibili dalla visualizzazione [!UICONTR
 
 Pianifica la generazione automatica dei rapporti personalizzati in uno o entrambi i seguenti modi:
 
-* Genera automaticamente report ogni giorno oppure in un giorno specifico della settimana o del mese, utilizzando [modelli di report](/help/search-social-commerce/reports/automation/templates/template-about.md).
+* Genera automaticamente report ogni giorno oppure in un giorno specifico della settimana o del mese, utilizzando [modelli di report](/help/search-social-commerce/new-ui/reports/report-templates-manage.md).
 
   Facoltativamente puoi impostare [la consegna FTP di rapporti di base e avanzati](/help/search-social-commerce/new-ui/reports/ftp-reports.md) che utilizzano un modello.
 

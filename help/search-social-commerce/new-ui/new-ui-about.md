@@ -16,16 +16,16 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 0c824f0b29ca5134c83a8d8d7107bd223fc3428f
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '198'
 ht-degree: 0%
 ---
 # Informazioni sulla nuova interfaccia utente
 
-Dalla nuova interfaccia utente è ora possibile gestire obiettivi, simulazioni e portfolio ed eseguire la maggior parte delle altre attività chiave. La nuova interfaccia utente di Ricerca, Social e Commerce viene eseguita in un nuovo URL nel dominio `https://experience.adobe.com`.
+Ora puoi eseguire la maggior parte delle attività, dalla nuova interfaccia utente (UI). La nuova interfaccia utente di Ricerca, Social e Commerce viene eseguita in un nuovo URL nel dominio `https://experience.adobe.com`.
 
-Nel tempo, le funzioni rimanenti verranno aggiunte alla nuova interfaccia utente. Nel frattempo, puoi aprire la maggior parte delle funzioni nell’interfaccia precedente dal menu principale nella nuova interfaccia. Puoi anche passare facilmente dalla nuova interfaccia utente all’interfaccia precedente.
+Nel tempo, le ultime funzionalità rimanenti verranno aggiunte alla nuova interfaccia utente. Nel frattempo, puoi aprire le funzioni nell’interfaccia precedente dal menu principale nella nuova interfaccia. Puoi anche passare facilmente dalla nuova interfaccia utente all’interfaccia precedente.
 
 Per ulteriori informazioni sull&#39;organizzazione della nuova interfaccia, vedere &quot;[Organizzazione dell&#39;interfaccia utente](/help/search-social-commerce/getting-started/user-interface.md).&quot;
 
