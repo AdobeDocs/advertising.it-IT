@@ -20,7 +20,7 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 7e7dcde9fb195e04025a1a8d89e792ff562b053f
 workflow-type: tm+mt
 source-wordcount: '2256'
 ht-degree: 0%
@@ -337,7 +337,7 @@ Per informazioni sulla disponibilità, vedere la Guida di Microsoft Advertising 
 **[!UICONTROL Audience Signal]:** (facoltativo) [!DNL Microsoft Advertising] tipi di pubblico da utilizzare come segnali di pubblico per la campagna. I modelli di apprendimento automatico di [!DNL Microsoft Advertising] utilizzano i tipi di pubblico per trovare surfisti web simili a target e possono anche mostrare annunci a tipi di pubblico non specificati come segnali per aiutarti a raggiungere gli obiettivi prestazionali. Scegli i tipi di pubblico che hanno più probabilità di essere convertiti.
 
 >[!NOTE]
->I segnali di pubblico sono diversi dalle [destinazioni di pubblico a livello di gruppo di annunci](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
+>I segnali di pubblico sono diversi dalle [destinazioni di pubblico a livello di gruppo di annunci](/help/search-social-commerce/new-ui/targeting/audiences/audience-targets-manage.md).
 
 <!-- **[!UICONTROL Display Path 1]**, **[!UICONTROL Display Path 2]:** -->
 

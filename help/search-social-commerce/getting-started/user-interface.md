@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d0763d8f2099b683ab1ed4ee93342555803f1afd
+source-git-commit: 08975638903eab9767e571c851c5c35981afdba5
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1395'
 ht-degree: 0%
 ---
 # Organizzazione dell’interfaccia utente
@@ -103,9 +103,9 @@ La nuova interfaccia utente presenta un nuovo menu principale a sinistra, che or
 
 * Sottomenu **[!UICONTROL Targeting]**:
 
-  * **[!UICONTROL Audiences]**: apre una nuova visualizzazione che mostra tutti i tipi di pubblico esistenti per l&#39;inserzionista, tutti i destinatari del pubblico e tutte le esclusioni di pubblico. Per gestire i tipi di pubblico, utilizza la visualizzazione legacy [!UICONTROL Campaigns] > [!UICONTROL Audiences]. Tornare all&#39;interfaccia utente legacy facendo clic sul pulsante [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+  * **[!UICONTROL Audiences]**: apre una nuova visualizzazione per gestire i tipi di pubblico per l&#39;inserzionista, tutti i destinatari del pubblico e tutte le esclusioni di pubblico.
 
-  * **[!UICONTROL Auto Targets]** Apre una nuova visualizzazione per elencare e gestire le destinazioni automatiche per l&#39;inserzionista.
+  * **[!UICONTROL Auto Targets]** Apre una nuova visualizzazione, che mostra tutte le destinazioni automatiche esistenti per l&#39;inserzionista. Per gestire le destinazioni automatiche, utilizzare la vista legacy [!UICONTROL Campaigns] > [!UICONTROL Auto Targets]. Tornare all&#39;interfaccia utente legacy facendo clic sul pulsante [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
   * **[!UICONTROL Placements]** Apre una nuova visualizzazione per elencare e gestire i posizionamenti e i posizionamenti negativi per l&#39;inserzionista.
 

@@ -8,9 +8,9 @@ product_v2:
 feature_v2:
   - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
     internal-label: Search Reports
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b0691683d8b9a02169920645c4220c3737cb9bd9
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1632'
 ht-degree: 0%
 ---
 # (Nuova interfaccia) Gestione dei feed dei rapporti sui fogli di calcolo
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 <!-- Update link to notifications once available -->
 
-I feed dei fogli di calcolo forniscono dati sulle prestazioni giornaliere per tutti i report di base e i report di precisione dei modelli in un formato di foglio di calcolo personalizzato in [!DNL Microsoft Excel] XLSX. È possibile impostare i feed del foglio di calcolo utilizzando modelli di foglio di calcolo [!DNL Excel] appositamente formattati creati da modelli di report standard. Ogni giorno, il foglio di calcolo viene aggiornato automaticamente a un’ora specificata con nuovi dati non elaborati aggregati quotidianamente. I dati non elaborati popolano le colonne e i grafici inclusi nel modello del foglio di calcolo. Quando un file di feed del foglio di calcolo è disponibile o se la generazione del file non riesce, ogni destinatario e-mail nel modello di report riceve una notifica, in base alle [impostazioni di notifica configurate dall&#39;utente per i report](/help/search-social-commerce/notifications/notification-about.md).
+I feed dei fogli di calcolo forniscono dati sulle prestazioni giornaliere per tutti i report di base e i report di precisione dei modelli in un formato di foglio di calcolo personalizzato in [!DNL Microsoft Excel] XLSX. È possibile impostare i feed del foglio di calcolo utilizzando modelli di foglio di calcolo [!DNL Excel] appositamente formattati creati da modelli di report standard. Ogni giorno, il foglio di calcolo viene aggiornato automaticamente a un’ora specificata con nuovi dati non elaborati aggregati quotidianamente. I dati non elaborati popolano le colonne e i grafici inclusi nel modello del foglio di calcolo. Quando un file di feed del foglio di calcolo è disponibile o se la generazione del file non riesce, ogni destinatario e-mail specificato nelle impostazioni del feed del foglio di calcolo riceve una notifica, in base alle [impostazioni di notifica configurate dall&#39;utente per i report](/help/search-social-commerce/notifications/notification-about.md).
 
 Puoi configurare il feed in modo che venga aggiornato fino agli ultimi 90 giorni di dati e che tutti i dati esistenti precedenti rimangano invariati.
 
-Nella visualizzazione [!UICONTROL Reports] > [!UICONTROL Spreadsheets Feeds] sono elencati tutti i feed del foglio di calcolo creati. Da questa vista è possibile creare feed di fogli di calcolo, aggiornare manualmente un feed o eliminare un feed.
+Nella visualizzazione [!UICONTROL Reports] > [!UICONTROL Spreadsheet Feeds] sono elencati tutti i feed del foglio di calcolo creati. Da questa vista è possibile creare, modificare, aggiornare manualmente o eliminare feed di fogli di calcolo, visualizzare le impostazioni del modello di report associato e copiare i dati di riga selezionati.
 
 ## Azioni disponibili
 
@@ -33,17 +33,19 @@ Nella visualizzazione [!UICONTROL Reports] > [!UICONTROL Spreadsheets Feeds] son
 
 * [Modifica impostazioni feed report foglio di calcolo](#spreadsheet-feed-edit)
 
+* [Visualizza le impostazioni del modello di report associato](#spreadsheet-feed-view-template)
+
 * [Visualizzare o salvare un file di feed di report del foglio di calcolo](#spreadsheet-feed-view-or-save)
 
 * [Aggiorna manualmente i feed dei rapporti del foglio di calcolo](#spreadsheet-feed-refresh)
 
 * [Eliminare i feed dei report del foglio di calcolo](#spreadsheet-feed-delete)
 
+* [Copia tutti i dati nelle righe selezionate negli Appunti](#copy-to-clipboard)
+
 ## Creare un modello [!DNL Excel] per un feed di report di foglio di calcolo {#spreadsheet-feed-create-excel-template}
 
-<!-- Add x-refs when available -->
-
-Per creare feed di fogli di calcolo, è necessario innanzitutto creare modelli di fogli di calcolo [!DNL Microsoft Excel] con formattazione speciale utilizzando modelli di report standard. Facoltativamente, è possibile personalizzare il foglio di calcolo [!DNL Excel] per includere colonne e grafici aggiuntivi.
+Per creare feed di fogli di calcolo, è necessario innanzitutto creare modelli di fogli di calcolo [!DNL Microsoft Excel] con formattazione speciale utilizzando [modelli di report](report-templates-manage.md) regolari. Facoltativamente, è possibile personalizzare il foglio di calcolo [!DNL Excel] per includere colonne e grafici aggiuntivi.
 
 1. In **[!UICONTROL Reports]>[!UICONTROL Reports]**, generare il tipo di report desiderato utilizzando un&#39;unità [!UICONTROL Date Aggregation] di &quot;[!UICONTROL Daily]&quot; e con tutti gli altri parametri di dati desiderati, salvando il report come modello.
 
@@ -98,7 +100,7 @@ Per creare feed di fogli di calcolo, è necessario innanzitutto creare modelli d
       >
       >Se il modello di rapporto associato al feed viene successivamente eliminato, anche il feed viene eliminato.
 
-      I feed del foglio di calcolo vengono aggiornati automaticamente ogni giorno al [!UICONTROL Schedule Time] configurato. Se il modello di rapporto include indirizzi per qualsiasi destinatario e-mail, tali indirizzi ricevono notifiche quando il foglio di calcolo viene aggiornato.
+      I feed del foglio di calcolo vengono aggiornati automaticamente ogni giorno al [!UICONTROL Schedule Time] configurato. Gli indirizzi specificati nell&#39;impostazione [!UICONTROL Email Recipients] del feed ricevono notifiche quando il foglio di calcolo viene aggiornato.
 
 ## Modifica impostazioni feed report foglio di calcolo {#spreadsheet-feed-edit}
 
@@ -110,7 +112,7 @@ Per creare feed di fogli di calcolo, è necessario innanzitutto creare modelli d
 
    * (Facoltativo) Per utilizzare un modello di report diverso o aggiornato per il feed, [crea un nuovo [!DNL Excel] modello per il modello di report](#spreadsheet-feed-create-excel-template).
 
-     Nei passaggi successivi verranno caricati sia il modello di report che il nuovo file [!DNL Excel].
+     Selezionare il modello di report e caricare il nuovo file [!DNL Excel] nei passaggi successivi.
 
    * (Facoltativo) Per aggiungere semplicemente colonne personalizzate al modello [!DNL Excel], inserire le colonne a destra delle colonne dal modello di report, quindi salvare il file come foglio di calcolo [!DNL Excel] in formato XLSX. Caricare il nuovo file [!DNL Excel] nel passaggio successivo.
 
@@ -122,7 +124,7 @@ Per creare feed di fogli di calcolo, è necessario innanzitutto creare modelli d
 
    1. Nella barra degli strumenti Azioni in blocco fare clic su **[!UICONTROL Edit]**.
 
-   1. Nella finestra di dialogo [!UICONTROL Create Spreadsheet Feed]<!-- sic -->, modifica le [impostazioni feed foglio di calcolo](#spreadsheet-feed-settings).
+   1. Nella finestra di dialogo **[!UICONTROL Edit Spreadsheet Feed]**, modifica le [impostazioni feed foglio di calcolo](#spreadsheet-feed-settings).
 
    1. Fare clic su **[!UICONTROL Submit]**.
 
@@ -132,20 +134,34 @@ Per creare feed di fogli di calcolo, è necessario innanzitutto creare modelli d
    >
    > Se il modello di rapporto associato al feed viene successivamente eliminato, anche il feed viene eliminato.
 
-   I feed dei fogli di calcolo vengono aggiornati automaticamente alle 08:00 ogni giorno nel fuso orario dell’inserzionista. Se il modello di rapporto include indirizzi per qualsiasi destinatario e-mail, tali indirizzi ricevono notifiche quando il foglio di calcolo viene aggiornato.
+   I feed dei fogli di calcolo vengono aggiornati automaticamente ogni giorno alle [!UICONTROL Schedule Time] configurate nel fuso orario dell&#39;inserzionista. Gli indirizzi specificati nell&#39;impostazione [!UICONTROL Email Recipients] del feed ricevono notifiche quando il foglio di calcolo viene aggiornato.
 
 ## Impostazioni feed report foglio di calcolo {#spreadsheet-feed-settings}
 
 | Campo | Descrizione |
 |---|---|
-| [!UICONTROL Feed Name] | Un nome per il feed del foglio di calcolo. |
+| [!UICONTROL Feed Name] | Un nome per il feed del foglio di calcolo, con un massimo di 120 caratteri. |
 | [!UICONTROL Report Template] | Il modello di report che specifica i dati del report richiesti; selezionare quello utilizzato per creare il modello [!DNL Excel]. Sono elencati tutti i modelli di report di base.<br><br><b>Nota:</b> Se si modifica il modello di report utilizzato per il report o si aggiornano le colonne nel modello, è necessario creare e caricare un nuovo modello [!DNL Excel]. |
-| [!UICONTROL Excel Template] | Il modello [!DNL Excel] appositamente formattato creato in formato .XLSX, che viene applicato ai dati specificati nel modello di report. Specificare il file da caricare immettendo il percorso completo e il nome del file oppure facendo clic su <b>[!UICONTROL Browse]</b> per individuare il file nel dispositivo o nella rete. |
-| [!UICONTROL Back Fill From] | Data di inizio per la quale vengono aggiornati i dati esistenti nella scheda [!UICONTROL RAW], rappresentata da un numero di giorni nel passato. Immetti un valore massimo di 90 giorni; il valore predefinito è sette (7) giorni.<br><br>Ad esempio, se il valore è 7 e oggi è 7 marzo, i dati esistenti nella scheda [!UICONTROL RAW] a partire dal 1 marzo verranno aggiornati (fino alla data di fine specificata dal parametro [!UICONTROL Back Fill Until]). Le righe di dati esistenti per le date precedenti al 1° marzo non vengono eliminate, ma non vengono aggiornate. |
-| [!UICONTROL Back Fill Until] | Data di fine per la quale i dati esistenti nella scheda [!UICONTROL RAW] vengono aggiornati, rappresentata da un numero di giorni nel passato. Il valore predefinito è un (1) giorno.<br><br>Ad esempio, se il valore è 1 e oggi è 7 marzo, i dati esistenti nella scheda [!UICONTROL RAW] verranno aggiornati fino al 6 marzo e a partire dalla data di inizio specificata dal parametro [!UICONTROL Back Fill From]. Se questo valore è 1, il parametro [!UICONTROL Back Fill Until] è 7 e oggi è 7 marzo, i dati esistenti nella scheda [!UICONTROL RAW] vengono aggiornati dal 1° marzo al 6 marzo. In entrambi gli esempi, le righe di dati esistenti per le date successive al 6 marzo non vengono eliminate, ma non vengono aggiornate. |
-| [!UICONTROL Email Recipients] | Indirizzi e-mail a cui inviare notifiche ogni volta che il report viene aggiornato o ogni volta che il report viene eseguito quando il modello include una pianificazione. Per impostazione predefinita, viene immesso l’indirizzo dell’account utente. Per specificare più indirizzi, separali con virgole, spazi o nuove righe. |
-| [!UICONTROL Schedule Time] | L&#39;ora in cui i feed del foglio di calcolo vengono aggiornati: alle 08:00 o a qualsiasi ora compresa tra le 10:00 e le 23:00 nel fuso orario dell&#39;inserzionista. Il valore predefinito per i nuovi feed di fogli di calcolo è 10:00.<br><br><b>Nota:</b> Per motivi di prestazioni, non è possibile aggiornare i feed di fogli di calcolo alle 09:00 quando vengono generati altri rapporti. |
-| [!UICONTROL Email Notification] | (Quando si specificano i destinatari e-mail) Cosa includere nelle notifiche e-mail a qualsiasi indirizzo specificato:<ul><li><i>[!UICONTROL Attach feed]</i> — Per inviare una copia del report completato in formato XLSX. Se il file supera i 10 MB, la notifica non include un allegato.</li><li><i>[!UICONTROL Notification Only]</i> (impostazione predefinita) - Per inviare solo una notifica del completamento o dell&#39;errore del report, con un collegamento al report.</li></ul> |
+| [!UICONTROL Excel Template] | Il modello [!DNL Excel] appositamente formattato creato in formato .XLSX, che viene applicato ai dati specificati nel modello di report. Fare clic su <b>[!UICONTROL Choose file]</b> per individuare il file da caricare. |
+| [!UICONTROL Back Fill From] | Data di inizio per la quale vengono aggiornati i dati esistenti nella scheda [!UICONTROL RAW], rappresentata da un numero di giorni nel passato. Immettere un valore compreso tra 1 e 90 maggiore di [!UICONTROL Back Fill Until]. Il valore predefinito è sette (7) giorni.<br><br>Ad esempio, se il valore è 7 e oggi è 7 marzo, i dati esistenti nella scheda [!UICONTROL RAW] a partire dal 1 marzo verranno aggiornati (fino alla data di fine specificata dal parametro [!UICONTROL Back Fill Until]). Le righe di dati esistenti per le date precedenti al 1° marzo non vengono eliminate, ma non vengono aggiornate. |
+| [!UICONTROL Back Fill Until] | Data di fine per la quale i dati esistenti nella scheda [!UICONTROL RAW] vengono aggiornati, rappresentata da un numero di giorni nel passato. Immettere un valore compreso tra 1 e 90 minore di [!UICONTROL Back Fill From]. Il valore predefinito è un (1) giorno.<br><br>Ad esempio, se il valore è 1 e oggi è 7 marzo, i dati esistenti nella scheda [!UICONTROL RAW] verranno aggiornati fino al 6 marzo e a partire dalla data di inizio specificata dal parametro [!UICONTROL Back Fill From]. Se questo valore è 1, il parametro [!UICONTROL Back Fill From] è 7 e oggi è 7 marzo, i dati esistenti nella scheda [!UICONTROL RAW] vengono aggiornati dal 1° marzo al 6 marzo. In entrambi gli esempi, le righe di dati esistenti per le date successive al 6 marzo non vengono eliminate, ma non vengono aggiornate. |
+| [!UICONTROL Email Recipients] | Indirizzi e-mail a cui inviare notifiche ogni volta che il feed del foglio di calcolo viene aggiornato. Per impostazione predefinita, viene immesso l’indirizzo dell’account utente. Per specificare più indirizzi, separali con virgole, spazi o nuove righe. |
+| [!UICONTROL Schedule Time] | L’ora in cui il feed del foglio di calcolo viene aggiornato ogni giorno nel fuso orario dell’inserzionista. Seleziona un orario dalle opzioni disponibili. Il valore predefinito per i nuovi feed di fogli di calcolo è 10:00. |
+| [!UICONTROL Email Notification] | Cosa includere nelle notifiche e-mail agli indirizzi specificati:<ul><li><i>[!UICONTROL Attach Feed (Max 10MB)]</i> — Per inviare una copia del report completato in formato XLSX. Se il file supera i 10 MB, la notifica non include un allegato.</li><li><i>[!UICONTROL Notification Only]</i> (impostazione predefinita) - Per inviare solo una notifica del completamento o dell&#39;errore del report, con un collegamento al report.</li></ul> |
+
+## Visualizza le impostazioni del modello di report associato {#spreadsheet-feed-view-template}
+
+L&#39;icona a forma di ingranaggio **[!UICONTROL Template Settings]** apre un duplicato del modello di report associato al feed. L’apertura del duplicato non salva un nuovo modello né modifica il modello associato al feed.
+
+1. Nel menu principale, fare clic su **[!UICONTROL Reports]>[!UICONTROL Spreadsheet Feeds]**.
+
+1. Fare clic sull&#39;icona a forma di ingranaggio **[!UICONTROL Template Settings]** accanto al nome del modello di report associato.
+
+1. Rivedi le impostazioni del rapporto.
+
+1. Al termine, fai clic su **[!UICONTROL Cancel]**. Se viene richiesto di eliminare la configurazione, fare clic su **[!UICONTROL Discard]**.
+
+Per modificare il modello di report originale, seguire la [procedura di modifica del modello di report](report-templates-manage.md#template-edit). Per utilizzare un modello diverso per il feed, [modificare le impostazioni del feed del foglio di calcolo](#spreadsheet-feed-edit) e selezionare il modello.
 
 ## Visualizzare o salvare un file di feed di report del foglio di calcolo {#spreadsheet-feed-view-or-save}
 
@@ -159,7 +175,7 @@ Puoi visualizzare qualsiasi feed di foglio di calcolo generato o salvarlo in un 
 
 >[!NOTE]
 >
->I feed dei fogli di calcolo vengono aggiornati automaticamente alle 08:00 ogni giorno con il fuso orario locale.
+>I feed dei fogli di calcolo vengono aggiornati automaticamente ogni giorno alle [!UICONTROL Schedule Time] configurate nel fuso orario dell&#39;inserzionista.
 
 1. Nel menu principale, fare clic su **[!UICONTROL Reports]>[!UICONTROL Spreadsheet Feeds]**.
 
@@ -182,5 +198,17 @@ Puoi visualizzare qualsiasi feed di foglio di calcolo generato o salvarlo in un 
 1. Seleziona la casella di controllo accanto a ciascun feed da eliminare.
 
 1. Nella barra degli strumenti Azioni in blocco fare clic su **[!UICONTROL Delete]**.
+
+1. Nel messaggio di conferma, fare clic su **[!UICONTROL Confirm]**.
+
+## Copia tutti i dati nelle righe selezionate negli Appunti {#copy-to-clipboard}
+
+Copiare le informazioni visibili nelle righe selezionate, in base ai filtri applicati e alle colonne visibili nella vista. Le informazioni vengono salvate come valori separati da tabulazioni (TSV).
+
+1. Nel menu principale, fare clic su **[!UICONTROL Reports]>[!UICONTROL Spreadsheet Feeds]**.
+
+1. Selezionare la casella di controllo accanto a ogni riga di cui si desidera copiare i dati.
+
+1. Nella barra degli strumenti Azioni in blocco fare clic su **[!UICONTROL Copy]**.
 
 1. Nel messaggio di conferma, fare clic su **[!UICONTROL Confirm]**.
