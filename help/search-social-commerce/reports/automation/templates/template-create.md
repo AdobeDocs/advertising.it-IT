@@ -16,16 +16,16 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 5d7cc4088d2fbb3cb8dcaf5e6c349565030a8b08
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '173'
 ht-degree: 0%
 ---
 # Creare un modello di rapporto
 
-È possibile salvare più modelli di report per qualsiasi tipo di report delle prestazioni. Puoi creare un modello da zero o basarlo su un modello esistente. Puoi gestire fino a 100 modelli alla volta.
+È possibile salvare più modelli di report per qualsiasi tipo di report delle prestazioni. È possibile creare un modello con nuove impostazioni o basarlo su un modello esistente. Puoi gestire fino a 100 modelli alla volta.
 
-* Per creare un modello da zero, effettuate una delle seguenti operazioni:
+* Per creare un modello con nuove impostazioni, effettuare una delle seguenti operazioni:
 
   * Dalla scheda [!UICONTROL Reports], creare un report selezionando la casella di controllo accanto a **[!UICONTROL Save as template]**, accanto al nome del report.
 

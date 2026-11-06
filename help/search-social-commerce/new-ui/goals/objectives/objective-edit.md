@@ -21,14 +21,16 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: 5d7cc4088d2fbb3cb8dcaf5e6c349565030a8b08
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '133'
 ht-degree: 0%
 ---
 # (Nuova interfaccia) Modificare un obiettivo
 
 *funzionalità Beta*
+
+Per creare un nuovo obiettivo con le stesse impostazioni senza modificare l&#39;originale, [duplicare l&#39;obiettivo](objective-create.md#objective-duplicate).
 
 1. Nel menu principale, fare clic su **[!UICONTROL Goals]>[!UICONTROL Objectives]**.
 
@@ -42,7 +44,7 @@ ht-degree: 0%
 
    * Per salvare l&#39;obiettivo, fare clic su **[!UICONTROL Save]**.
 
-   * Per creare un nuovo obiettivo con le impostazioni specificate, fare clic su **[!UICONTROL Save As]**, immettere il nome del nuovo obiettivo e quindi fare clic su **[!UICONTROL Save]**.
+   * Per creare un nuovo obiettivo con le impostazioni specificate senza modificare l&#39;originale, fare clic su **[!UICONTROL Save as]**, immettere il nome del nuovo obiettivo e quindi fare clic su **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >

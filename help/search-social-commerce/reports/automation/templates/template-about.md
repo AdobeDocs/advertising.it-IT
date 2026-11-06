@@ -16,16 +16,16 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 5d7cc4088d2fbb3cb8dcaf5e6c349565030a8b08
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '188'
 ht-degree: 0%
 ---
 # Informazioni sui modelli di rapporto
 
 I modelli di rapporto sono layout di rapporto predefiniti che è possibile riutilizzare quando si genera la maggior parte dei rapporti. L’utilizzo dei modelli consente di risparmiare tempo se si desidera utilizzare parametri non predefiniti o eseguire varianti dello stesso rapporto oppure se si desidera eseguire lo stesso rapporto in base a una pianificazione regolare. I modelli di rapporto salvati sono disponibili nella sezione Modelli di rapporto della pagina Rapporti.
 
-Per qualsiasi tipo di rapporto sulle prestazioni, è possibile salvare più modelli di rapporto, creandoli da zero o basandoli su modelli esistenti. È inoltre possibile modificare le impostazioni per qualsiasi modello di report creato; le nuove impostazioni vengono applicate a tutti i report che utilizzano il modello generato in futuro. Puoi eseguire rapporti per uno o più modelli in qualsiasi momento.
+Per qualsiasi tipo di rapporto sulle prestazioni, è possibile salvare più modelli di rapporto, creandoli con nuove impostazioni o basandoli su modelli esistenti. È inoltre possibile modificare le impostazioni per qualsiasi modello di report creato; le nuove impostazioni vengono applicate a tutti i report che utilizzano il modello generato in futuro. Puoi eseguire rapporti per uno o più modelli in qualsiasi momento.
 
 Puoi anche eliminare qualsiasi modello disponibile. Quando elimini un modello che include una pianificazione, tale rapporto non viene generato in futuro.
 

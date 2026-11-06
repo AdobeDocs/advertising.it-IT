@@ -1,6 +1,6 @@
 ---
-title: Eseguire una simulazione personalizzata dalla visualizzazione [!UICONTROL Portfolios]
-description: Scopri come eseguire una simulazione personalizzata per un portfolio dalla visualizzazione [!UICONTROL Portfolios].
+title: Eseguire e scaricare simulazioni dalla visualizzazione [!UICONTROL Portfolios]
+description: Scopri come eseguire una simulazione personalizzata e scaricare simulazioni settimanali dalla vista Portfolio.
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
 product_v2:
@@ -13,20 +13,24 @@ feature_v2:
     internal-label: Search Portfolios
   - id: 1d0fea65-a874-543d-94c9-b4dbf9e0360a
     internal-label: Search Simulations
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '373'
 ht-degree: 0%
 ---
-# Eseguire una simulazione personalizzata dalla visualizzazione [!UICONTROL Portfolios]
+# Eseguire e scaricare simulazioni dalla visualizzazione [!UICONTROL Portfolios]
 
 *funzionalità Beta*
 
-È possibile creare una simulazione personalizzata per un portfolio [ottimizzato o attivo](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md) dalla visualizzazione [!UICONTROL Portfolios].
+Puoi eseguire una simulazione personalizzata per un singolo portfolio [ottimizzato o attivo](portfolio-about.md#portfolio-status) e scaricare simulazioni settimanali automatizzate per un massimo di 100 portfolio dalla visualizzazione [!UICONTROL Portfolios].
+
+L&#39;esecuzione di una simulazione personalizzata richiede l&#39;autorizzazione [!UICONTROL Create Simulation]. Il download di simulazioni settimanali richiede l&#39;autorizzazione [!UICONTROL View Simulation].
 
 >[!NOTE]
 >
 >È inoltre possibile [creare o eseguire nuovamente una simulazione personalizzata dalla visualizzazione [!UICONTROL Simulations]](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md).
+
+## Eseguire una simulazione personalizzata {#run-simulation}
 
 1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
 
@@ -34,10 +38,47 @@ ht-degree: 0%
 
    * Posizionare il cursore sulla riga portfolio. Accanto al nome del portfolio, fare clic su **[!UICONTROL ...]** > **[!UICONTROL Run Simulation]**.
 
-   * Seleziona la casella di controllo accanto al portfolio. Nella barra degli strumenti Azioni in blocco fare clic su **[!UICONTROL Run Simulation]**.
+   * Seleziona la casella di controllo accanto al portfolio. Nella barra degli strumenti Azioni in blocco fare clic su **[!UICONTROL More]>[!UICONTROL Run Simulation]**.
+
+1. Specificare le [impostazioni di simulazione personalizzate](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md#custom-simulation-settings):
+
+   1. Nella scheda **[!UICONTROL Basic Settings]**, immettere un **[!UICONTROL Simulation Name]** univoco e modificare i parametri di base in base alle esigenze.
+
+   1. (Facoltativo) Nella scheda **[!UICONTROL Advanced Settings]**, modifica i parametri avanzati.
+
+   Le impostazioni correnti del portfolio selezionato vengono utilizzate come impostazioni predefinite. La modifica delle impostazioni di simulazione non modifica le impostazioni del portfolio.
+
+1. Fare clic su **[!UICONTROL Next]**.
+
+1. Rivedi le impostazioni e apporta le modifiche necessarie.
+
+1. Fare clic su **[!UICONTROL Submit & Run]**.
+
+La richiesta viene inviata e viene aperta la visualizzazione [!UICONTROL Simulations]. È possibile [scaricare la simulazione](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md) dopo averla completata correttamente.
+
+## Scarica simulazioni settimanali {#download-simulations}
+
+È possibile scaricare simulazioni settimanali per una data di esecuzione alla volta come cartella di lavoro [!DNL Microsoft Excel] (file XLSX). Sono inclusi solo i portfolio attivi e ottimizzati con i rapporti di simulazione disponibili per tale data.
+
+1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
+
+1. Seleziona la casella di controllo accanto a ciascun portfolio di cui desideri scaricare la simulazione settimanale. Seleziona fino a 100 portfolio.
+
+1. Nella barra degli strumenti Azioni in blocco fare clic su **[!UICONTROL More]>[!UICONTROL Download Simulation]**.
+
+1. In **[!UICONTROL Weekly Simulation]**, selezionare una data di esecuzione.
+
+   La data disponibile più recente è selezionata per impostazione predefinita. Se i rapporti non sono disponibili per alcuni portfolio selezionati, la finestra di dialogo mostra quanti portfolio verranno esclusi. Se necessario, seleziona un’altra data. Non puoi scaricare un rapporto se per nessun portfolio selezionato è disponibile una simulazione per quella data.
+
+1. Fare clic sul pulsante di download, la cui etichetta include il numero di portfolio con i report disponibili (ad esempio, **[!UICONTROL Download 2 portfolios]**).
+
+   Il file viene scaricato in base alla normale procedura del browser. Il messaggio di completamento indica quanti portfolio sono stati inclusi.
+
+Per scaricare simulazioni personalizzate o selezionare singole simulazioni settimanali, utilizzare la visualizzazione [[!UICONTROL Simulations]](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md).
 
 >[!MORELIKETHIS]
 >
 >* [(Nuova interfaccia) Visualizza dettagli prestazioni portfolio](portfolio-details.md)
 >* [Informazioni sui portfolio](portfolio-about.md)
 >* [Esegui o riesegui una simulazione personalizzata](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
+>* [Scarica simulazioni](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)
