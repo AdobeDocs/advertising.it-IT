@@ -92,7 +92,7 @@ Facoltativamente, puoi [caricare gli obiettivi per i portfolio dell&#39;account 
 
 * [Applicare raccomandazioni sul peso a un obiettivo](objective-apply-weight-recommendations.md)
 
-* [Esporta una configurazione obiettivo in un foglio di lavoro  [!DNL Microsoft Excel] ](objective-export.md)
+* [Esporta una configurazione obiettivo in un foglio di lavoro  [!DNL Microsoft Excel] &#x200B;](objective-export.md)
 
 * [Scarica i dati sulle prestazioni per gli obiettivi](objective-download-performance-data.md)
 
