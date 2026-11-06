@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1428'
 ht-degree: 0%
 ---
 # Gestire i modelli di annunci per i feed di inventario
@@ -26,7 +26,7 @@ Prima o dopo il caricamento dei dati, puoi creare modelli di annunci specifici p
 
 È possibile associare ogni modello a un file di feed, all&#39;account [!DNL Google Merchant Center] o all&#39;account [!DNL Microsoft Merchant Center], nonché associare più modelli allo stesso file di feed o account. Un modello di annuncio può includere variabili che vengono sostituite con colonne di dati effettive da un file caricato o da un account. Nella maggior parte dei casi, le variabili possono anche includere [un gruppo di modificatori](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) configurato in Search, Social e Commerce per creare più annunci, parole chiave, campagne o gruppi di annunci per ogni riga applicabile nel file di dati. Le opzioni del modello consentono di creare una nuova struttura dell’account (campagne, gruppi di annunci, parole chiave) per gli annunci o di mappare gli annunci alla struttura dell’account esistente.
 
-Oltre a creare nuovi modelli da zero, è possibile crearne di nuovi duplicando quelli esistenti e modificando quelli esistenti.
+Oltre a creare modelli con nuove impostazioni, è possibile creare nuovi modelli duplicando quelli esistenti e modificando quelli esistenti.
 
 Dopo aver creato un modello e averlo associato a un file di feed dati o a un account del centro commerciale, è possibile propagare i dati nel file tramite il modello per creare i dati della campagna e la struttura dell’account, creando facoltativamente un file di bulksheet per la revisione o per la pubblicazione immediata nella rete di annunci.
 
@@ -40,7 +40,7 @@ Crea modelli separati per annunci di testo e annunci di testo espansi/estesi, an
 
 1. Effettuare una delle seguenti operazioni:
 
-   * Per creare un modello da zero, fare clic su **[!UICONTROL Create/Clone]** nella barra degli strumenti sopra la tabella dati, quindi selezionare la rete di annunci applicabile.
+   * Per creare un modello con nuove impostazioni, fare clic su **[!UICONTROL Create/Clone]** nella barra degli strumenti sopra la tabella dati, quindi selezionare la rete pubblicitaria applicabile.
 
    * Per clonare un modello esistente:
 

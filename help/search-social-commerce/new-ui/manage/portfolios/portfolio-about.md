@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Optimization
   - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
     internal-label: Predictive modeling
-source-git-commit: 700d05fb39b04918ae2662ce24746ed1e84f110e
+source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '905'
 ht-degree: 0%
 ---
 # (Nuova interfaccia) Informazioni sui portfolio
@@ -110,6 +110,8 @@ Nella visualizzazione [!UICONTROL Portfolios] sono elencati tutti i portfolio es
 * [Visualizzare un grafico delle prestazioni per tutti i portfolio](portfolio-view-performance-graph.md)
 
 * [Visualizza dettagli sulle prestazioni del portfolio](portfolio-details.md)
+
+* [Eseguire una simulazione personalizzata o scaricare simulazioni settimanali](portfolio-create-simulation.md)
 
 * [Visualizzare la cronologia delle modifiche di un portfolio](portfolio-view-change-history.md)
 
