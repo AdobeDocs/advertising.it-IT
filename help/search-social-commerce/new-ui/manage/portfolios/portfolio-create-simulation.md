@@ -13,9 +13,9 @@ feature_v2:
     internal-label: Search Portfolios
   - id: 1d0fea65-a874-543d-94c9-b4dbf9e0360a
     internal-label: Search Simulations
-source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
+source-git-commit: 3e70998ad9547cecc0f3581d6cfd917051d549db
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '396'
 ht-degree: 0%
 ---
 # Eseguire e scaricare simulazioni dalla visualizzazione [!UICONTROL Portfolios]
@@ -40,7 +40,7 @@ L&#39;esecuzione di una simulazione personalizzata richiede l&#39;autorizzazione
 
    * Seleziona la casella di controllo accanto al portfolio. Nella barra degli strumenti Azioni in blocco fare clic su **[!UICONTROL More]>[!UICONTROL Run Simulation]**.
 
-1. Specificare le [impostazioni di simulazione personalizzate](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md#custom-simulation-settings):
+1. Specificare le [impostazioni di simulazione personalizzate](#custom-simulation-settings):
 
    1. Nella scheda **[!UICONTROL Basic Settings]**, immettere un **[!UICONTROL Simulation Name]** univoco e modificare i parametri di base in base alle esigenze.
 
@@ -75,6 +75,10 @@ La richiesta viene inviata e viene aperta la visualizzazione [!UICONTROL Simulat
    Il file viene scaricato in base alla normale procedura del browser. Il messaggio di completamento indica quanti portfolio sono stati inclusi.
 
 Per scaricare simulazioni personalizzate o selezionare singole simulazioni settimanali, utilizzare la visualizzazione [[!UICONTROL Simulations]](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md).
+
+## Impostazioni di simulazione personalizzate {#custom-simulation-settings}
+
+Per ulteriori informazioni sulle impostazioni di simulazione personalizzate, consulta la Guida all’ottimizzazione, disponibile in Search, Social e Commerce.
 
 >[!MORELIKETHIS]
 >
