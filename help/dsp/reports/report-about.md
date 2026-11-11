@@ -27,16 +27,16 @@ topic_v2:
     internal-label: Measurement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 1388e37872b8e41fbe58c7a21ebe8ebf5b6b0b6c
+source-git-commit: e5b13eece252d5f0a86d86e0449dd13483c3665f
 workflow-type: tm+mt
-source-wordcount: '1751'
+source-wordcount: '1745'
 ht-degree: 0%
 ---
 # Informazioni sui rapporti personalizzati
 
-I rapporti personalizzati ti consentono di personalizzare il contenuto e la consegna dei dati del rapporto utilizzando le dimensioni della campagna (ad esempio inserzionista, posizionamento, siti o geos) e le metriche più importanti per te. Puoi effettuare le seguenti operazioni:
+I rapporti personalizzati ti consentono di personalizzare i dati dei rapporti utilizzando le dimensioni della campagna (ad esempio inserzionista, posizionamento, siti o geos) e le metriche che ti interessano di più. Puoi effettuare le seguenti operazioni:
 
-* Configurare completamente i rapporti sulle prestazioni delle campagne a livello granulare.
+* Configurare i rapporti sulle prestazioni delle campagne a livello granulare.
 
 * Scegli uno dei modelli di rapporto preconfigurati e, facoltativamente, personalizzali ulteriormente.
 
@@ -59,13 +59,13 @@ Puoi generare i rapporti una volta o pianificarli su base giornaliera, settimana
 
   * **[!UICONTROL All-in Cost]**: (solo per gli inserzionisti con Advertising Creative e Advertising DSP) usa questo rapporto per vedere quanto spesa Advertising DSP è stata attribuita al servizio di annunci per Adobe Creative. Puoi visualizzare dati creativi, di attributo, di destinazione e di altro tipo a livello di campagna, pacchetto, posizionamento e annuncio.
 
-  * **[!UICONTROL Billing]:** Utilizzare questo report per comprendere le metriche di fatturazione chiave, ad esempio le metriche di spesa per la fatturazione dei contenuti multimediali per campagna. I dati non sono disponibili per i posizionamenti mirati agli ID universali.
+  * **[!UICONTROL Billing]:** Utilizzare questo report per comprendere le metriche di fatturazione chiave, ad esempio le metriche di spesa per la fatturazione dei contenuti multimediali, per campagna. Puoi visualizzare i dettagli per data e in base agli attributi di ciascun pacchetto, volo del pacchetto, posizionamento, segmento, feed o dispositivo incluso. I dati non sono disponibili per i posizionamenti mirati agli ID universali.
 
     >[!NOTE]
     >
-    >Questo rapporto include dati sul segmento di fatturazione. Se a un utente o a un dispositivo viene trasmessa un’impression che appartiene a più segmenti, a un solo segmento fatturabile viene attribuita l’impression.
+    >Questo rapporto si basa sui segmenti a cui sono attribuite le impression. Quando a un utente o a un dispositivo viene trasmessa un’impression che appartiene a più segmenti, a un solo segmento viene attribuita l’impression e la spesa si somma al totale effettivo (fatturato).
 
-  * **[!UICONTROL Content]:** Utilizza questo report per comprendere la distribuzione delle impression e altre metriche in base a dimensioni di contenuto specificate (come genere, qualità della produzione e valutazione dei contenuti) in modo da ottimizzare il targeting e garantire la sicurezza del brand. Oltre alle dimensioni di contenuto, il rapporto include la maggior parte delle dimensioni, delle metriche e dei filtri standard. I dati per dimensione contenuto sono disponibili per [!DNL FreeWheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] e [!DNL Triplelift]. I segnali di contenuto vengono trasmessi dagli editori durante il flusso di lavoro e sono soggetti a disponibilità.
+  * **[!UICONTROL Content]:** Utilizza questo report per comprendere la distribuzione delle impression e altre metriche in base a dimensioni di contenuto specificate (come genere, qualità della produzione e valutazione dei contenuti) in modo da ottimizzare il targeting e garantire la sicurezza del brand. Oltre alle dimensioni di contenuto, il rapporto include la maggior parte delle dimensioni, delle metriche e dei filtri standard. I dati per dimensione contenuto sono disponibili per [!DNL FreeWheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] e [!DNL Triplelift]. Gli editori trasmettono i segnali di contenuto durante il flusso di lavoro, in base alla disponibilità.
 
   * **[!UICONTROL Conversion]:** Utilizza questo rapporto per comprendere le prestazioni delle campagne in base alle metriche di conversione acquisite tramite il tracciamento delle conversioni di Adobe Advertising. Questo rapporto include l’attribuzione multi-touch.
 
@@ -73,7 +73,7 @@ Puoi generare i rapporti una volta o pianificarli su base giornaliera, settimana
 
   * **[!UICONTROL Device]:** Utilizzare questo modello precompilato per visualizzare le metriche chiave per le dimensioni relative al dispositivo.
 
-  * **[!UICONTROL DSP Self-Attributed Conversions]:** Utilizzare questo report per visualizzare il contributo di Advertising DSP alle conversioni, inclusi i percorsi di clienti in cui DSP ha svolto un ruolo ma un contatto successivo, ad esempio un clic di ricerca di Adobe Advertising, ha ricevuto il credito dell&#39;ultimo clic in altri report. Per ulteriori informazioni, consulta &quot;[Domande frequenti sui report personalizzati](/help/dsp/reports/faq-reports.md)&quot;.
+  * **[!UICONTROL DSP Self-Attributed Conversions]:** Utilizzare questo report per visualizzare il contributo di Advertising DSP alle conversioni, inclusi i percorsi di clienti in cui DSP ha svolto un ruolo ma un contatto successivo (ad esempio un clic di ricerca di Adobe Advertising) ha ricevuto il credito dell&#39;ultimo clic in altri report. Per ulteriori informazioni, consulta &quot;[Domande frequenti sui report personalizzati](/help/dsp/reports/faq-reports.md)&quot;.
 
     **Importante:** questo report non modifica la metodologia di attribuzione o l&#39;attribuzione esistente nei report di Adobe Analytics. Fornisce una visualizzazione complementare specifica di DSP del contributo di conversione.
 
@@ -85,7 +85,7 @@ Puoi generare i rapporti una volta o pianificarli su base giornaliera, settimana
     >* La frequenza è stimata sulla base di un campionamento di dati.
     >* Per alcuni inventari, gli editori non trasmettono un identificatore di dispositivo, impedendo così il tracciamento della frequenza. Questo rapporto include solo le impression per le quali era disponibile un identificatore di dispositivo.
 
-  * **[!UICONTROL Frequency (by App/Site)]:** Utilizza questo rapporto per capire quanti utenti univoci sono stati raggiunti dagli annunci per app o per sito. Puoi anche vedere quanti utenti univoci sono stati raggiunti dagli annunci tramite una sola app o un sito particolare (&quot;utenti univoci distinti&quot;).
+  * **[!UICONTROL Frequency (by App/Site)]:** Utilizza questo report per comprendere la portata degli annunci per app o sito. Puoi anche vedere quanti utenti univoci gli annunci hanno raggiunto solo tramite un’app o un sito particolare (&quot;utenti univoci distinti&quot;).
 
     >[!NOTE]
     >
@@ -98,7 +98,7 @@ Puoi generare i rapporti una volta o pianificarli su base giornaliera, settimana
 
   * **[!UICONTROL Household Reach & Frequency]:** Utilizzare questo report per visualizzare impression, portata e frequenza per una singola dimensione in più formati di annunci a livello di famiglia in base all&#39;indirizzo IP, anziché a livello di dispositivo/cookie. Utilizza le informazioni per ottimizzare il mix di contenuti multimediali, migliorare le prestazioni e identificare opportunità di portata incrementale. Per ulteriori informazioni, consulta &quot;[Domande frequenti sui report personalizzati](/help/dsp/reports/faq-reports.md)&quot;. I dati non sono disponibili per i posizionamenti mirati agli ID universali.
 
-  * **[!UICONTROL Margin]:** Utilizzare questo report per visualizzare metriche chiave come margine, profitto e altre metriche di spesa per campagna o posizionamento. I dati non sono disponibili per i posizionamenti mirati agli ID universali.
+  * **[!UICONTROL Margin]:** Utilizzare questo report per visualizzare le metriche di margine, profitto e altre metriche di spesa chiave per campagna o posizionamento. I dati non sono disponibili per i posizionamenti mirati agli ID universali.
 
   * **[!UICONTROL Path to Conversion]:** Utilizza questo rapporto per identificare come ottimizzare i budget e personalizzare gli annunci in base alle sequenze di interazione degli annunci con prestazioni migliori. Il rapporto mostra la sequenza di punti di interazione nella stessa famiglia che conducono a ciascuna delle metriche di conversione selezionate nell’intervallo di dati specificato. Il rapporto utilizza un periodo di lookback specificato tra la prima interazione e una conversione e può includere una dimensione:
 
@@ -123,7 +123,7 @@ Puoi generare i rapporti una volta o pianificarli su base giornaliera, settimana
   * **[!UICONTROL Segment]:** Utilizza questo modello precompilato per valutare le prestazioni per segmento di pubblico di destinazione. Il rapporto include il nome, la descrizione e la chiave del segmento, nonché il nome del provider del segmento. Puoi includere le metriche di conversione e i dati di obiettivo personalizzati, ma non la frequenza o altre metriche a livello domestico.
 
     >[!NOTE]
-    >* Un’impression che corrisponde a più segmenti viene attribuita a tutti i segmenti corrispondenti, con una riga per ciascun segmento. Allo stesso modo, tutte le metriche standard, di spesa e di prestazioni per l’impression vengono attribuite a tutti i segmenti corrispondenti. Per questo motivo, la somma delle metriche per le righe del segmento combinato potrebbe superare i totali della campagna.
+    >* Se un’impression corrisponde a più segmenti, l’impression e tutte le relative metriche standard, di spesa e di prestazioni vengono attribuite a ciascun segmento corrispondente. Le metriche per le righe del segmento combinato potrebbero essere superiori ai totali della campagna.
     >* Le metriche di conversione e i dati di obiettivo personalizzati per i segmenti sono disponibili dopo il 2 agosto 2019. Tutti gli altri dati per i segmenti sono disponibili a partire dal 1° giugno 2018.
 
   * **[!UICONTROL Site]:** Per impostazione predefinita, include le metriche standard, la spesa netta totale dei supporti e la spesa netta totale fatturabile per sito.
@@ -152,7 +152,7 @@ Puoi creare nuovi rapporti personalizzati, modificare quelli esistenti o duplica
 
 * **[!UICONTROL Ready to download]:** (solo report ricorrenti) Una o più istanze del report sono disponibili per il download e sono pianificate più istanze del report.
 
-* **[!UICONTROL Failed]:** Il processo di report non è riuscito. Per vedere il motivo per cui singole istanze di report non sono riuscite per una sequenza di report, fare clic sulla ![freccia GIÙ](/help/dsp/assets/chevron-down.png "freccia GIÙ") accanto a [!UICONTROL Download]. I processi di report non riusciti sono indicati da un&#39;icona di errore (![indicatore di errore](/help/dsp/assets/indicator-critical.png "indicatore di errore")). Per una descrizione dell’errore, posiziona il cursore sull’icona.
+* **[!UICONTROL Failed]:** Il processo di report non è riuscito. Per vedere il motivo per cui singole istanze di report non sono riuscite per una riga di report, fare clic su ![freccia GIÙ](/help/dsp/assets/chevron-down.png "freccia GIÙ") accanto a [!UICONTROL Download]. I processi di report non riusciti sono indicati da un&#39;icona di errore (![indicatore di errore](/help/dsp/assets/indicator-critical.png "indicatore di errore")). Per una descrizione dell’errore, posiziona il cursore sull’icona.
 
 * **[!UICONTROL Completed]:** Per i report non ricorrenti, il report è completato. Per i rapporti ricorrenti, tutte le istanze di rapporto sono completate. Puoi scaricare tutti i rapporti completati negli ultimi quattro mesi.
 
