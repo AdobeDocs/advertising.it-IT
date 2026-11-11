@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d4b37dbcc7736e69dbbb02a19808c2d71758711c
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '584'
 ht-degree: 0%
 ---
 # Rivedere e modificare le impostazioni di posizionamento utilizzando i bulksheet
@@ -57,7 +57,7 @@ Un messaggio di notifica indica quando il file è disponibile per il download.
 
    * Nel messaggio di notifica, fare clic su **[!UICONTROL Download].**
 
-   * Nella parte destra della barra dei menu superiore, fai clic su ![Processi](/help/dsp/assets/downloads.png). Fare clic su **[!UICONTROL Download]** accanto al processo.
+   * Nella parte destra della barra dei menu superiore, fai clic su ![Gestione processi](/help/creative/assets/job-manager.png "Gestione processi") (**[!UICONTROL Job Manager]**). Fare clic su **[!UICONTROL Download]** accanto al processo.
 
    Il file è stato salvato nella cartella Download del browser.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
@@ -79,7 +79,7 @@ Un messaggio di notifica indica quando il file è disponibile per il download.
 
    * Nel messaggio di notifica, fare clic su **[!UICONTROL Download].**
 
-   * Nella parte destra della barra dei menu superiore, fai clic su ![Processi](/help/dsp/assets/downloads.png). Fare clic su **[!UICONTROL Download]** accanto al processo.
+   * Nella parte destra della barra dei menu superiore, fai clic su ![Gestione processi](/help/creative/assets/job-manager.png "Gestione processi") (**[!UICONTROL Job Manager]**). Fare clic su **[!UICONTROL Download]** accanto al processo.
 
    Il file è stato salvato nella cartella Download del browser.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
@@ -107,7 +107,7 @@ Puoi caricare le impostazioni per i posizionamenti e per gli annunci e i pacchet
 
    1. Fare clic su **[!UICONTROL Upload]**.
 
-1. (Facoltativo) Per verificare che gli aggiornamenti siano stati elaborati, fai clic su ![Processi](/help/dsp/assets/downloads.png) a destra della barra dei menu superiore.
+1. (Facoltativo) Per verificare che gli aggiornamenti siano stati elaborati, fai clic su ![Gestione processi](/help/creative/assets/job-manager.png "Gestione processi") (**[!UICONTROL Job Manager]**) a destra della barra dei menu superiore.
 
 Quando un aggiornamento delle impostazioni non riesce, puoi scaricare un file di errore bulksheet con codifica a colori per mostrare quali impostazioni (righe) sono state salvate e quali non sono riuscite, con il motivo di ogni errore. Puoi quindi risolvere i problemi all’interno dello stesso file e caricarlo di nuovo per elaborare le informazioni corrette.
 
