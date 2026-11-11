@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d4b37dbcc7736e69dbbb02a19808c2d71758711c
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '702'
 ht-degree: 0%
 ---
 # Gestire gli elenchi URL
@@ -73,7 +73,7 @@ Puoi creare e gestire elenchi di URL di siti web e app per il targeting del posi
 
      1. Per visualizzare lo stato dell’attività, compreso il numero di URL aggiunti e il numero di valori non riusciti:
 
-        1. Fai clic su ![Processi](/help/dsp/assets/downloads.png) a destra della barra dei menu superiore.
+        1. Fai clic su ![Gestione processi](/help/creative/assets/job-manager.png "Gestione processi") (**[!UICONTROL Job Manager]**) a destra della barra dei menu superiore.
 
         1. (Se non sono state aggiunte righe) Per scaricare un file di errore con i valori non riusciti, fare clic su **[!UICONTROL Download]** accanto al processo.
 
@@ -141,7 +141,7 @@ Puoi creare e gestire elenchi di URL di siti web e app per il targeting del posi
 
      1. Per visualizzare lo stato dell’attività, compreso il numero di URL aggiunti e il numero di valori non riusciti:
 
-        1. Fai clic su ![Processi](/help/dsp/assets/downloads.png) a destra della barra dei menu superiore.
+        1. Fai clic su ![Gestione processi](/help/creative/assets/job-manager.png "Gestione processi") (**[!UICONTROL Job Manager]**) a destra della barra dei menu superiore.
 
         1. (Se non sono state aggiunte righe) Per scaricare un file di errore con i valori non riusciti, fare clic su **[!UICONTROL Download]** accanto al processo.
 
