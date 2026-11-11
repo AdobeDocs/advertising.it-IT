@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Measurement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 1388e37872b8e41fbe58c7a21ebe8ebf5b6b0b6c
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1751'
 ht-degree: 0%
 ---
 # Informazioni sui rapporti personalizzati
@@ -120,11 +120,10 @@ Puoi generare i rapporti una volta o pianificarli su base giornaliera, settimana
 
     I dati vengono visualizzati per ogni lunghezza di percorso fino a 10; i dati per lunghezze di percorso superiori a 10 vengono raggruppati.
 
-  * **[!UICONTROL Segment]:** Utilizzare questo modello precompilato per visualizzare le metriche chiave per segmento.
+  * **[!UICONTROL Segment]:** Utilizza questo modello precompilato per valutare le prestazioni per segmento di pubblico di destinazione. Il rapporto include il nome, la descrizione e la chiave del segmento, nonché il nome del provider del segmento. Puoi includere le metriche di conversione e i dati di obiettivo personalizzati, ma non la frequenza o altre metriche a livello domestico.
 
     >[!NOTE]
-    >
-    >* Questo rapporto ha lo scopo di mostrare le prestazioni di diversi segmenti target. Utilizza i dati di appartenenza ai segmenti. Quando un’impression viene trasmessa a una persona o a un dispositivo appartenente a due o più segmenti target, questo rapporto include una riga per ciascun segmento. Per questo motivo, i totali in questo rapporto potrebbero non corrispondere alla consegna effettiva.
+    >* Un’impression che corrisponde a più segmenti viene attribuita a tutti i segmenti corrispondenti, con una riga per ciascun segmento. Allo stesso modo, tutte le metriche standard, di spesa e di prestazioni per l’impression vengono attribuite a tutti i segmenti corrispondenti. Per questo motivo, la somma delle metriche per le righe del segmento combinato potrebbe superare i totali della campagna.
     >* Le metriche di conversione e i dati di obiettivo personalizzati per i segmenti sono disponibili dopo il 2 agosto 2019. Tutti gli altri dati per i segmenti sono disponibili a partire dal 1° giugno 2018.
 
   * **[!UICONTROL Site]:** Per impostazione predefinita, include le metriche standard, la spesa netta totale dei supporti e la spesa netta totale fatturabile per sito.
