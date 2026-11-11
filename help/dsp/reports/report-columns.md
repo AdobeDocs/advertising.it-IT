@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 1388e37872b8e41fbe58c7a21ebe8ebf5b6b0b6c
+source-git-commit: e5b13eece252d5f0a86d86e0449dd13483c3665f
 workflow-type: tm+mt
-source-wordcount: '2989'
+source-wordcount: '3129'
 ht-degree: 0%
 ---
 # Colonne report disponibili
@@ -124,12 +124,13 @@ Le colonne del rapporto disponibili variano in base al tipo di rapporto. Di segu
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement End Date] | La data di fine del posizionamento. |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Start Date] | La data di inizio del posizionamento. |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Tags] | Tag di posizionamento utilizzato come identificatore personalizzato per il posizionamento. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Description] | Descrizione associata a un segmento fatturabile. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Key] | Chiave univoca associata a un segmento fatturabile. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Name] | Nome di un segmento fatturabile. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Attributed Segment Description] | La descrizione associata a un segmento a cui sono attribuite impression, fornita dal provider di dati. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Attributed Segment Key] | Chiave univoca associata a un segmento a cui vengono attribuite le impression. **Nota:** ogni impression è attribuita a un singolo segmento, quindi la spesa corrisponde al totale effettivo. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Attributed Segment Name] | Il nome di un segmento al quale vengono attribuite le impression. **Nota:** ogni impression è attribuita a un singolo segmento, quindi la spesa corrisponde al totale effettivo. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Attributed Segment Provider Name] | Il nome del provider di dati associato a un segmento a cui sono attribuite impression. |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Description] | La descrizione associata a un segmento, fornita dal provider di dati. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Key] | La chiave univoca associata a un segmento. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Name] | Nome di un segmento. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Key] | La chiave univoca associata a un segmento. **Nota:** se un&#39;impression corrisponde a più segmenti, l&#39;impression e tutte le relative metriche standard, di spesa e di prestazioni vengono attribuite a ciascun segmento corrispondente. Le metriche per le righe del segmento combinato potrebbero essere superiori ai totali della campagna. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Name] | Nome di un segmento. **Nota:** se un&#39;impression corrisponde a più segmenti, l&#39;impression e tutte le relative metriche standard, di spesa e di prestazioni vengono attribuite a ciascun segmento corrispondente. Le metriche per le righe del segmento combinato potrebbero essere superiori ai totali della campagna. |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Provider Name] | Nome del provider di dati associato a un segmento. |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site ID] | L’identificatore univoco del sito o dell’app in DSP. |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site Name] | Nome del sito. |
