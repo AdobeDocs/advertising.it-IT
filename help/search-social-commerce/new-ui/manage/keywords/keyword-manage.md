@@ -1,6 +1,6 @@
 ---
 title: Gestire le parole chiave
-description: Scopri come creare e gestire parole chiave che possono essere offerte o negative e assegnare vincoli alle parole chiave.
+description: Scopri come gestire le parole chiave con offerte e negative, assegnare vincoli e visualizzare e scaricare la cronologia delle unità di offerta delle parole chiave in Adobe Advertising Search, Social e Commerce.
 feature: Search Optimization, Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d3e38179ae119f35c184bee398edaaf456fab563
+source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1421'
 ht-degree: 0%
 ---
 # Gestire le parole chiave
@@ -53,11 +53,31 @@ La visualizzazione [!UICONTROL Manage] > [!UICONTROL Keywords] include due sched
 
 * [Modificare o eliminare lo stato delle parole chiave e delle parole chiave negative](#keyword-status)
 
+* [Visualizzare e scaricare la cronologia delle unità di offerta](#bid-unit-history)
+
 * [Copia tutti i dati nelle righe selezionate negli Appunti](#copy-to-clipboard)
 
 * [Assegnare vincoli alle parole chiave e annullare l&#39;assegnazione di vincoli alle parole chiave](#keyword-constraints)
 
 * [Assegna classificazioni etichette](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md) alle parole chiave
+
+## Visualizzare e scaricare la cronologia delle unità di offerta {#bid-unit-history}
+
+Quando la colonna [!UICONTROL Bid Unit ID] è disponibile nella tabella dei dati delle parole chiave, puoi aprire la cronologia dell&#39;unità di offerta direttamente dall&#39;ID.
+
+1. Nel menu principale, fare clic su **[!UICONTROL Manage]>[!UICONTROL Keywords]**.
+
+1. Nella scheda **[!UICONTROL Keywords]** fare clic sul valore nella colonna **[!UICONTROL Bid Unit ID]** per la parola chiave.
+
+1. Nella finestra di dialogo [!UICONTROL Bid Unit Details], fare clic sulla scheda **[!UICONTROL History]**.
+
+1. (Facoltativo) Dal menu dei dispositivi sopra la tabella, selezionare un tipo di dispositivo per il quale visualizzare la cronologia. Per impostazione predefinita, vengono visualizzati i dati di tutti i dispositivi.
+
+1. (Facoltativo) Quando i dati della cronologia sono disponibili, fare clic su **[!UICONTROL Export as csv]** per scaricare la cronologia visualizzata.
+
+Il file viene scaricato in base alla normale procedura del browser.
+
+Puoi anche aprire i [dettagli unità offerta dai dettagli delle prestazioni di un portfolio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md#bid-unit-details). Per informazioni sulle altre schede nella finestra di dialogo, vedi &quot;[Visualizza dettagli sulle prestazioni del portfolio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md).&quot;
 
 ## Creare parole chiave {#keyword-create}
 

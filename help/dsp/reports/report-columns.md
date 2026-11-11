@@ -21,7 +21,7 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 1388e37872b8e41fbe58c7a21ebe8ebf5b6b0b6c
 workflow-type: tm+mt
 source-wordcount: '2989'
 ht-degree: 0%
@@ -127,10 +127,10 @@ Le colonne del rapporto disponibili variano in base al tipo di rapporto. Di segu
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Description] | Descrizione associata a un segmento fatturabile. |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Key] | Chiave univoca associata a un segmento fatturabile. |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Name] | Nome di un segmento fatturabile. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Description] | La descrizione associata a un segmento, fornita dal provider di dati. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Key] | La chiave univoca associata a un segmento. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Name] | Nome di un segmento. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Provider Name] | Nome del provider di dati associato a un segmento. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Description] | La descrizione associata a un segmento, fornita dal provider di dati. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Key] | La chiave univoca associata a un segmento. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Name] | Nome di un segmento. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Provider Name] | Nome del provider di dati associato a un segmento. |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site ID] | L’identificatore univoco del sito o dell’app in DSP. |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site Name] | Nome del sito. |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Traffic Type] | Indica se l&#39;annuncio è stato visualizzato su *[!UICONTROL sites]* o *[!UICONTROL Apps]*. |

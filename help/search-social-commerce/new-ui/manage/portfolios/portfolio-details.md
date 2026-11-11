@@ -1,6 +1,6 @@
 ---
 title: (Nuova interfaccia) Visualizza dettagli sulle prestazioni del portfolio
-description: Scopri come visualizzare i dettagli delle prestazioni del portfolio, comprese le metriche effettive e previste a livello di portfolio e per ogni campagna assegnata.
+description: Scopri come visualizzare le prestazioni del portfolio, i dettagli delle unità di offerta, le previsioni e la cronologia delle offerte, nonché come esportare la cronologia delle unità di offerta in Adobe Advertising Search, Social e Commerce.
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1168'
 ht-degree: 0%
 ---
 # (Nuova interfaccia) Visualizza dettagli sulle prestazioni del portfolio
@@ -58,7 +58,7 @@ La visualizzazione dei dettagli del portfolio include le seguenti informazioni s
 
   * Scheda [!UICONTROL History]: tutte le offerte negli ultimi 36 giorni, inclusi i seguenti dati per ciascuna offerta: data e ora, impression, clic, costo totale, CPC medio, posizione media e ricavi ponderati mostrati per data di clic. I dati vengono visualizzati per tutti i dispositivi e per ogni tipo di dispositivo (Mobile, Computer e Tablet).<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. **Note:** Whenever the optimization method changes from v6 to v7 and vice-versa, the history data is reset the same day. -->
 
-  * Scheda [!UICONTROL Detail]: il tipo di corrispondenza (se applicabile) e il gruppo di annunci principale, la campagna, l&#39;account di rete dell&#39;annuncio e il portfolio a cui appartiene l&#39;unità dell&#39;offerta.
+  * Scheda [!UICONTROL Details]: la parola chiave, il tipo di corrispondenza (se applicabile) e il gruppo di annunci principale, la campagna, l&#39;account di rete dell&#39;annuncio e il portfolio a cui appartiene l&#39;unità dell&#39;offerta.
 
 ## Aprire i dettagli sulle prestazioni di un portfolio
 
@@ -126,7 +126,7 @@ I dettagli su ciascun gruppo di annunci includono il costo, i clic e il valore o
 
 * Per visualizzare tutti i gruppi di annunci di una campagna all&#39;interno del portfolio, fare clic sulla scheda **[!UICONTROL Campaigns]** e quindi sul nome della campagna.
 
-## Elencare e visualizzare i dettagli sulle parole chiave nel portfolio
+## Elencare e visualizzare i dettagli sulle parole chiave nel portfolio {#bid-unit-details}
 
 I dettagli di ciascuna parola chiave includono l&#39;ID dell&#39;unità di offerta, il tipo di corrispondenza, il costo effettivo e previsto, i clic e il valore obiettivo, nonché la differenza tra costo, clic e valore obiettivo. Puoi visualizzare i dettagli dell’unità di offerta relativi a una singola parola chiave.
 
@@ -137,6 +137,20 @@ I dettagli di ciascuna parola chiave includono l&#39;ID dell&#39;unità di offer
    * Per visualizzare tutte le parole chiave di un gruppo di annunci all&#39;interno del portfolio, fare clic sulla scheda **[!UICONTROL Ad Groups]** e quindi sul nome del gruppo di annunci.
 
 1. (Facoltativo) Per visualizzare i dettagli su un&#39;unità di offerta specifica, fare clic sul valore nella colonna **[!UICONTROL Bid Unit ID]**. Fare clic su una scheda di [!UICONTROL Bid Unit Details] per ulteriori informazioni.
+
+### Visualizzare e scaricare la cronologia di una singola unità di offerta {#bid-unit-history}
+
+1. [Aprire i dettagli dell&#39;unità dell&#39;offerta](#bid-unit-details).
+
+1. Fare clic sulla scheda **[!UICONTROL History]**.
+
+1. (Facoltativo) Dal menu dei dispositivi sopra la tabella, selezionare un tipo di dispositivo per il quale visualizzare la cronologia. Per impostazione predefinita, vengono visualizzati i dati di tutti i dispositivi.
+
+1. (Facoltativo) Quando i dati della cronologia sono disponibili, fare clic su **[!UICONTROL Export as csv]** per scaricare la cronologia visualizzata.
+
+Il file viene scaricato in base alla normale procedura del browser.
+
+Per visualizzare la cronologia delle offerte per l&#39;intero portfolio e modificarne l&#39;intervallo di date, vedere &quot;[Visualizzare la cronologia delle modifiche delle offerte di un portfolio](portfolio-view-change-history.md#portfolio-bid-change-history).&quot;
 
 ## Visualizzare e modificare le impostazioni del portfolio
 

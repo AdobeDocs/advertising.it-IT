@@ -1,6 +1,6 @@
 ---
-title: (Nuova interfaccia) Amministrazione utenti
-description: Scopri come gestire l’accesso degli utenti.
+title: (Nuova interfaccia utente) Amministrazione utenti per Search, Social e Commerce
+description: Scopri come gestire l’accesso utente a Adobe Advertising Search, Social e Commerce, i ruoli di amministratore, i profili di prodotto e le autorizzazioni per le funzioni con Adobe Admin Console.
 feature: Search Introduction
 exl-id: bfc43692-cfb6-468f-90df-a808a21a0c23
 TQID: 'https://experienceleague.adobe.com/b28N5zmqqdZ6Yvg2swGLWv260fWsMUgjK2eW1DDn-uo'
@@ -18,12 +18,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 70595626157c6d39bcf65540c2eb8437e7bd0f4c
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1143'
 ht-degree: 0%
 ---
-# (Nuova interfaccia utente) Amministrazione utenti per Search, Social &amp; Commerce
+# (Nuova interfaccia utente) Amministrazione utenti per Search, Social e Commerce
 
 Alcuni utenti possono gestire l&#39;accesso alla nuova interfaccia utente di Search, Social e Commerce utilizzando [Adobe Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html), che è la posizione centrale per la gestione di tutte le adesioni e la gestione degli utenti di Adobe. Gli utenti sono classificati come utenti finali o amministratori. Il team del tuo account Adobe ti avvisa se sei un amministratore. Se sei un amministratore, consulta le sezioni seguenti per identificare le autorizzazioni e i flussi di lavoro per la gestione degli utenti.
 
@@ -45,7 +45,7 @@ Admin Console fornisce diversi tipi di amministratori. Per Search, Social e Comm
 
 I profili di prodotto, simili ai ruoli, danno diritto agli utenti con servizi specifici per un prodotto specifico.
 
-La nuova interfaccia utente di Search, Social &amp; Commerce dispone dei seguenti profili di prodotto predefiniti, che forniscono diversi sottoinsiemi di funzioni e servizi. Non puoi modificare le autorizzazioni prodotto per i profili di prodotto predefiniti né eliminare i profili di prodotto predefiniti. Tuttavia, se necessario, gli amministratori di prodotto, gli amministratori dei profili di prodotto e gli amministratori di sistema possono creare e gestire profili di prodotto aggiuntivi con diversi sottoinsiemi di autorizzazioni disponibili.
+La nuova interfaccia utente di Search, Social e Commerce dispone dei seguenti profili di prodotto predefiniti, che forniscono diversi sottoinsiemi di funzioni e servizi. Non puoi modificare le autorizzazioni prodotto per i profili di prodotto predefiniti né eliminare i profili di prodotto predefiniti. Tuttavia, se necessario, gli amministratori di prodotto, gli amministratori dei profili di prodotto e gli amministratori di sistema possono creare e gestire profili di prodotto aggiuntivi con diversi sottoinsiemi di autorizzazioni disponibili.
 
 * **[!UICONTROL Basic Optimization]:** Per gli utenti che necessitano di funzionalità standard di gestione portfolio e pianificazione con accesso alle impostazioni di base.
 
@@ -60,6 +60,8 @@ La nuova interfaccia utente di Search, Social &amp; Commerce dispone dei seguent
 <!-- These don't correspond exactly to the GUI menu -->
 
 Un segno di spunta (✓) indica che l&#39;autorizzazione è inclusa nel profilo di prodotto.
+
+Le autorizzazioni di visualizzazione e modifica sono separate. L’autorizzazione per visualizzare una funzione non consente di per sé all’utente di creare, modificare o eliminare i propri dati. I profili di prodotto personalizzati possono fornire combinazioni diverse di autorizzazioni rispetto a quelle mostrate per i profili di prodotto predefiniti.
 
 **Gestione Portfolio**
 
@@ -137,9 +139,32 @@ Noone has permissions as of 6/1; spelling [sic]:
 | Visualizza account MCC | ✓ | ✓ | ✓ | ✓ |
 | Modifica account MCC | | ✓ | | ✓ |
 
+<!--
+
+Include? And why aren't all edit permissions available for some standard profiles?
+
+### Permissions for custom product profiles
+
+When you create a custom product profile, include the view permissions for the features that users need to open and the separate permissions for the actions they need to perform. The following permissions cover additional capabilities that aren't listed in the default-profile tables above.
+
+| Capability | Permissions |
+|---|---|
+| View and create client instances | [!UICONTROL View Instances] and [!UICONTROL Create Instances] |
+| View and edit keywords and negative keywords | [!UICONTROL View Keywords] and [!UICONTROL Edit Keywords] |
+| View and edit product groups | [!UICONTROL View Product Groups] and [!UICONTROL Edit Product Groups] |
+| View and edit auto targets | [!UICONTROL View Auto Targets] and [!UICONTROL Edit Auto Targets] |
+| View and edit placements and negative placements | [!UICONTROL View Placements] and [!UICONTROL Edit Placements] |
+| View and edit extensions | [!UICONTROL View Extensions] and [!UICONTROL Edit Extensions] |
+| View and edit constraints | [!UICONTROL View Constraints] and [!UICONTROL Edit Constraints] |
+| View spreadsheet feeds | [!UICONTROL View Spreadsheets] |
+
+For example, permission to view client instances doesn't by itself allow a user to create an instance. Similarly, permission to view keywords doesn't by itself allow a user to edit keywords or negative keywords.
+
+-->
+
 ## Attività per amministratori
 
-### Accedi a Adobe Admin Console e aprilo in Search, Social e Commerce
+### Accedi a Adobe Admin Console e aprilo in Search, Social e Commerce {#open-admin-console}
 
 >[!PREREQUISITES]
 >
@@ -151,7 +176,7 @@ Noone has permissions as of 6/1; spelling [sic]:
 
    1. Immetti l&#39;ID [!DNL Adobe] e fai clic su **[!UICONTROL Continue]**.
 
-   1. Selezionare **[!UICONTROL Personal Account]&quot; o &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+   1. Selezionare **[!UICONTROL Personal Account]** o **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
    1. Seleziona l’organizzazione CX Enterprise applicabile.
 

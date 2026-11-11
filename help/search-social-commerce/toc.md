@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
+source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
 workflow-type: tm+mt
-source-wordcount: '2440'
+source-wordcount: '2443'
 ht-degree: 2%
 ---
 # Guida di Advertising Search, Social e Commerce {#search-social-commerce}
@@ -89,7 +89,7 @@ ht-degree: 2%
       + [Eseguire e scaricare simulazioni dalla visualizzazione [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md)
       + [Visualizzare un grafico delle prestazioni nella visualizzazione [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-performance-graph.md)
       + [Visualizza dettagli sulle prestazioni del portfolio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)
-      + [Visualizzare la cronologia delle modifiche di un portfolio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md)
+      + [Visualizza cronologia modifiche portfolio e cronologia modifiche offerte](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md)
       + [Gestisci i report di visualizzazione dati dalla visualizzazione [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
     + Account {#accounts}
       + [Informazioni sugli account di rete degli annunci](/help/search-social-commerce/new-ui/manage/accounts/ad-network-account-about.md)
