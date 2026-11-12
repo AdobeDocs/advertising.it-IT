@@ -10,9 +10,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
+source-git-commit: 1683592f2645be8911a142b5696ad481393023c3
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '999'
 ht-degree: 0%
 ---
 # Informazioni su [!UICONTROL Creative Studio] in [!DNL Advertising Creative]
@@ -31,21 +31,31 @@ ht-degree: 0%
 
 ## Funzionalità principali
 
-* **Generazione di contenuti AI:** Utilizza **[!UICONTROL Ad Variations Generator]** per generare concetti e varianti di annunci tramite un&#39;interfaccia chat in linguaggio naturale. L’assistente AI può generare titoli, sottotitoli, CTA, copia del corpo e varianti di immagine di sfondo e può creare nuovi modelli di dimensioni nella stessa sessione. Possono essere attivi fino a 10 concetti per sessione.
+* **Crea e gestisci modelli di annunci:**
 
-* **Supporto di annunci video e di visualizzazione:** Crea e gestisci sia modelli di annunci video che modelli di annunci video. Quando crei un modello, scegli **[!UICONTROL Display Ad Template]** o **[!UICONTROL Video Ad Template]** per farlo corrispondere al formato della campagna.
+  * **Genera da testo utilizzando IA:** [Genera modelli di annunci di visualizzazione da un prompt di testo](creative-studio-manage-templates.md#template-generate-from-text), includendo facoltativamente un profilo marchio e un&#39;immagine. Rivedi più risultati, quindi apri un modello nell’editor per personalizzare e salvare una nuova copia.
 
-* **Caricamento modello HTML5:** Importa modelli di annunci HTML5 esistenti caricandoli come file ZIP. La finestra di dialogo **[!UICONTROL Import Templates]** consente di assegnare un nome di inserzionista e modello prima dell&#39;importazione.
+  * **Genera da un&#39;immagine utilizzando AI:** [Converti un&#39;immagine di un annuncio di visualizzazione statico esistente in un modello modificabile](creative-studio-manage-templates.md#template-generate-from-image). Seleziona un annuncio di immagine da una libreria Creative, rivedi il modello generato e richiedi le modifiche utilizzando il linguaggio naturale. Apri l’editor modelli per apportare modifiche manuali e salvare il modello.
 
-* **Supporto multi-dimensione:** ridimensionare gli annunci alle dimensioni standard IAB in un unico passaggio. L’intelligenza artificiale regola automaticamente il posizionamento e il ridimensionamento del contenuto per ogni formato, mentre i controlli dell’area di lavoro (zoom in/out, adattamento allo schermo, ripetizione delle animazioni) consentono di rivedere ogni dimensione.
+  * **Crea modelli di annunci video e di visualizzazione:** Crea e gestisci sia modelli di annunci video che modelli di annunci video. Quando crei un modello, scegli **[!UICONTROL Display Ad Template]** o **[!UICONTROL Video Ad Template]** per farlo corrispondere al formato della campagna.
 
-* **Uscite allineate al marchio:** Quando viene applicato il tuo [profilo marchio](/help/creative/brands/brand-manage.md), l&#39;intelligenza artificiale utilizza i logo, le palette di colori, le linee guida vocali, gli standard di immagine e le linee guida per il canale del tuo marchio per mantenere i contenuti generati sul marchio.
+  * **Importa modelli HTML5:** Importa modelli di annunci HTML5 esistenti caricandoli come file ZIP. La finestra di dialogo **[!UICONTROL Import Templates]** consente di assegnare un nome di inserzionista e modello prima dell&#39;importazione.
 
-* **Accesso alla libreria risorse:** allega immagini e altre risorse direttamente ai messaggi di chat di IA selezionando dalla libreria risorse, mantenendo il contesto visivo disponibile durante la generazione del contenuto.
+  * **Organizza modelli:** Contrassegna i modelli come preferiti, applica etichette e filtra per stato, formato o origine per mantenere organizzata la libreria di modelli.
 
-* **Integrazione feed:** per le campagne pubblicitarie dinamiche, connetti un catalogo di prodotti o contenuti per generare annunci su larga scala, quindi utilizza l&#39;agente di intelligenza artificiale per filtrare, visualizzare in anteprima e verificare la qualità delle combinazioni pubblicitarie generate dal catalogo.
+* **Crea annunci:**
 
-* **Organizzazione del modello:** Contrassegna i modelli come preferiti, applica etichette e filtra per stato, formato o origine per mantenere organizzata la libreria dei modelli.
+  * **Genera contenuti pubblicitari standard utilizzando IA:** Utilizza **[!UICONTROL Ad Variations Generator]** per generare concetti e varianti di annunci tramite un&#39;interfaccia chat in linguaggio naturale. L’assistente AI può generare titoli, sottotitoli, CTA, copia del corpo e varianti di immagine di sfondo e può creare nuovi modelli di dimensioni nella stessa sessione. Possono essere attivi fino a 10 concetti per sessione.
+
+  * **Crea creativi dinamici utilizzando i feed:** Per le campagne pubblicitarie dinamiche, connetti un catalogo di prodotti o contenuti per generare annunci su larga scala, quindi utilizza l&#39;agente di intelligenza artificiale per filtrare, visualizzare in anteprima e combinazioni di annunci generati da cataloghi con controllo di qualità.
+
+* **Personalizzare il contenuto e i formati degli annunci:**
+
+  * **Applica le linee guida del brand:** Quando viene applicato il tuo [profilo del brand](/help/creative/brands/brand-manage.md), l&#39;intelligenza artificiale utilizza i loghi, le palette di colori, le linee guida vocali, gli standard di immagine e le linee guida del canale del tuo marchio per mantenere i contenuti generati nel brand.
+
+  * **Allega risorse della libreria:** Allega immagini e altre risorse direttamente ai messaggi di chat di IA selezionando dalla libreria delle risorse, mantenendo il contesto visivo disponibile durante la generazione del contenuto.
+
+  * **Ridimensiona annunci:** Ridimensiona gli annunci in dimensioni standard IAB in un singolo passaggio. L’intelligenza artificiale regola automaticamente il posizionamento e il ridimensionamento del contenuto per ogni formato, mentre i controlli dell’area di lavoro (zoom in/out, adattamento allo schermo, ripetizione delle animazioni) consentono di rivedere ogni dimensione.
 
 ## Flussi di lavoro per la creazione di annunci
 
@@ -55,6 +65,8 @@ ht-degree: 0%
 | --- | --- |
 | [Genera annunci standard da un modello](creative-studio-manage-standard-ads.md) | Selezionare un modello di visualizzazione o video e utilizzare [!UICONTROL Ad Variations Generator] per creare varianti di contenuto generato da IA. Consigliato quando un modello esiste già e desideri generare contenuti basati sull’intelligenza artificiale. |
 | [Gestisci creatività dinamica](creative-studio-manage-dynamic-ads.md) | Connetti un catalogo di prodotti o contenuti a un modello, mappa i campi del catalogo con gli elementi del modello, quindi utilizza l’agente di intelligenza artificiale per visualizzare in anteprima e verificare tutte le combinazioni di annunci generate. Ideale per campagne su larga scala basate su catalogo. |
+| [Genera un modello da testo](creative-studio-manage-templates.md#template-generate-from-text) | Descrivi un modello di annuncio visualizzato, se necessario seleziona un profilo marchio e un’immagine, quindi scegli tra i risultati generati dall’intelligenza artificiale. Consigliato quando desideri un nuovo modello senza una struttura di annuncio esistente. |
+| [Genera un modello da un&#39;immagine](creative-studio-manage-templates.md#template-generate-from-image) | (Funzione di Beta) Conversione di un&#39;immagine pubblicitaria statica esistente da una libreria Creative in un modello modificabile, richiesta di modifiche utilizzando il linguaggio naturale e modifica e salva il modello. Consigliato quando desideri utilizzare un annuncio immagine esistente come progettazione iniziale. |
 | Crea un nuovo modello | Inizia da un’area di lavoro vuota per creare un modello di visualizzazione o video. Consigliato quando nessun modello esistente soddisfa le tue esigenze. |
 | Carica modelli HTML5 | Importa uno o più modelli di annunci HTML5 inseriti come file ZIP. Ottimo quando i creativi HTML5 pronti per la produzione sono generati al di fuori di [!DNL Advertising Creative]. |
 
