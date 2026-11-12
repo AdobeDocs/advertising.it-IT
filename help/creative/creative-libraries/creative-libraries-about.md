@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
+source-git-commit: 1e29e61573d581d3760a2f5d95c34021ade5de31
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: '1667'
 ht-degree: 0%
 ---
 # Informazioni sulle librerie creative
@@ -91,7 +91,7 @@ Ogni esperienza di visualizzazione e annuncio standard richiede una creatività 
 
 #### Creatività di terze parti
 
-Immetti i tag di tracciamento di JavaScript per i creativi in hosting su server di annunci di terze parti. Lo script varia in base al server di annunci; di seguito è riportato un esempio:
+[Aggiungi creativi di visualizzazione di terze parti](creative-add-standard.md#creative-add-third-party) ospitati su server di annunci esterni caricando un foglio di traffico nella nuova interfaccia utente o immettendo un tag JavaScript nell&#39;interfaccia utente legacy. Il caricamento in blocco accetta file Excel, CSV e TSV. Lo script varia in base al server di annunci; di seguito è riportato un esempio:
 
 ```
 <SCRIPT language='JavaScript1.1' SRC="https://ad.doubleclick.net/ddm/adj/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"></SCRIPT> <NOSCRIPT> <A HREF="https://ad.doubleclick.net/ddm/jump/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp]?"><IMG SRC="https://ad.doubleclick.net/ddm/ad/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"BORDER=0 WIDTH=300 HEIGHT=250 ALT="Advertisement"></A></NOSCRIPT>
