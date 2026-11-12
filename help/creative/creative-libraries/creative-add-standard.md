@@ -308,7 +308,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    * Impossibile selezionare o importare righe con lo stato **[!UICONTROL Error]**. È possibile importare le righe valide oppure fare clic su **[!UICONTROL Cancel]**, correggere il foglio di origine e caricarlo nuovamente. Correggi i nomi, le dimensioni o i tag mancanti e rimuovi i tag video o qualsiasi carattere contrassegnato come non supportato.
 
-1. Fai clic su **[!UICONTROL Importa <N> creatives ]**, dove `<N>` è il numero di creatives selezionati. Per un singolo contenuto creativo, fare clic su **[!UICONTROL Import 1 creative]**.
+1. Fai clic su **[!UICONTROL Importa <N> creatives &#x200B;]**, dove `<N>` è il numero di creatives selezionati. Per un singolo contenuto creativo, fare clic su **[!UICONTROL Import 1 creative]**.
 
    La finestra di dialogo si chiude e una notifica conferma l’avvio dell’importazione. Al termine dell’elaborazione, le creatività vengono visualizzate nella libreria.
 
