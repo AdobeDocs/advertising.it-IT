@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: a2ff8c1115487f12eb67f6db06e25f723c551e80
+source-git-commit: 9837cac1a920b1b3b88b04b150cb604832209eaf
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '391'
 ht-degree: 0%
 ---
 # Creare una metrica personalizzata
@@ -39,6 +39,24 @@ ht-degree: 0%
 1. Specificare le [impostazioni delle metriche personalizzate](custom-metric-settings.md).
 
 1. Fare clic su **[!UICONTROL Create]**.
+
+## (Nuova interfaccia) Creare una metrica personalizzata dalle impostazioni del report o del modello di report {#create-from-report-settings}
+
+1. Nelle impostazioni del report o del modello di report, passare al passaggio **[!UICONTROL Columns]**.
+
+1. Nella sezione **[!UICONTROL Custom Metrics]**, specifica le impostazioni della metrica:
+
+   * **[!UICONTROL Custom Metric Name]:** Immettere un nome per la metrica.
+
+   * **[!UICONTROL Format]:** Selezionare **[!UICONTROL Currency]**, **[!UICONTROL Number to 2 Decimal Places]**, **[!UICONTROL Number to 3 Decimal Places]**, **[!UICONTROL Number w/out Decimal Places]** o **[!UICONTROL Percentage]**.
+
+   * **[Campo di input formula]:** Creare la formula selezionando le metriche da **[!UICONTROL Insert Metric]** e facendo clic sui pulsanti operatore (`+`, `-`, `*`, `/`, `(` e `)`). È inoltre possibile immettere manualmente la formula. Posiziona il cursore nel punto in cui desideri inserire ogni metrica o operatore.
+
+1. Fare clic su **[!UICONTROL Add Metric]**.
+
+   Una volta creata correttamente la metrica, l’elenco delle colonne disponibili viene filtrato in base al nome della metrica. La creazione della metrica non la include automaticamente nel rapporto.
+
+1. Per includere la metrica nel report, selezionarla nell&#39;elenco delle colonne disponibili e fare clic su ![Freccia destra](/help/search-social-commerce/assets/arrow-right-customize.png "Freccia destra") per spostarla nell&#39;elenco delle colonne selezionate.
 
 ## (Interfaccia precedente) Creare una metrica personalizzata da una vista di gestione delle campagne
 

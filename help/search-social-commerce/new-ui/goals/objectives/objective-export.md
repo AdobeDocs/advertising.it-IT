@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: 163cbaf9b1a7f22e0205125cfab1ce2558182d8f
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '152'
 ht-degree: 0%
 ---
 # (Nuova interfaccia) Esporta configurazioni obiettivi
@@ -34,9 +34,17 @@ Quando si esportano più obiettivi, l&#39;esportazione è costituita da un file 
 
 1. Nel menu principale, fare clic su **[!UICONTROL Goals]>[!UICONTROL Objectives]**.
 
-1. Selezionare la casella di controllo accanto a ogni obiettivo da esportare.
+1. Effettuare una delle seguenti operazioni:
 
-1. Nella barra degli strumenti Azioni in blocco fare clic su **[!UICONTROL Export Objectives]**.
+   * Per esportare un singolo obiettivo:
+
+     1. Posizionare il cursore sulla riga dell&#39;obiettivo e fare clic su **[!UICONTROL ...]>[!UICONTROL Export Objective]**.
+
+   * Per esportare uno o più obiettivi:
+
+     1. Selezionare la casella di controllo accanto a ogni obiettivo da esportare.
+
+     1. Nella barra degli strumenti Azioni in blocco fare clic su **[!UICONTROL Export Objectives]**.
 
 >[!MORELIKETHIS]
 >

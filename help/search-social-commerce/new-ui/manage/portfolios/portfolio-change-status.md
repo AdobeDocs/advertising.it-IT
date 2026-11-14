@@ -1,6 +1,6 @@
 ---
 title: (Nuova interfaccia) Modificare lo stato di un portfolio
-description: Scopri come modificare lo stato di un portfolio o eliminare un portfolio inattivo senza aprirne le impostazioni.
+description: Scopri come modificare lo stato di un portfolio o eliminare uno o più portfolio inattivi senza aprire le impostazioni del portfolio.
 feature: Search Portfolios, Search Optimization
 hide: true
 product_v2:
@@ -11,16 +11,16 @@ feature_v2:
     internal-label: Search Portfolios
   - id: ae57d55f-b168-5358-b114-c3974b1b3d77
     internal-label: Search Optimization
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: 163cbaf9b1a7f22e0205125cfab1ce2558182d8f
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '457'
 ht-degree: 0%
 ---
 # (Nuova interfaccia) Modificare lo stato di un portfolio
 
 *funzionalità Beta*
 
-Puoi cambiare rapidamente lo stato di un [portfolio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#portfolio-statuses) senza aprire le impostazioni complete del portfolio.
+Puoi cambiare rapidamente lo stato di un [portfolio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#portfolio-status) senza aprire le impostazioni complete del portfolio.
 
 Per interrompere la raccolta dei dati su costi/clic/impression e ricavi per le campagne pertinenti, elimina il portfolio. L’eliminazione di un portfolio lo rende non disponibile in Search, Social e Commerce.
 
@@ -40,9 +40,15 @@ Tutte le modifiche allo stato del portfolio vengono registrate nella cronologia 
 
    * Per attivare un portfolio inattivo o ottimizzato, selezionare **[!UICONTROL Active]**.
 
-   * Per disattivare un portfolio attivo, selezionare **[!UICONTROL Inactive]**.
+   * Per disattivare un portfolio attivo o ottimizzato, selezionare **[!UICONTROL Inactive]**.
 
-   * Per ottimizzare (avviare) un portfolio attivo, selezionare **[!UICONTROL Optimized]**.
+   * Per ottimizzare (avviare) un portfolio attivo:
+
+     1. Selezionare **[!UICONTROL Optimized]**.
+
+     1. Nel messaggio di conferma, fare clic su **[!UICONTROL Update]**.
+
+     1. Se vengono visualizzati messaggi di conferma aggiuntivi, segui le istruzioni per applicare la modifica.
 
      >[!NOTE]
      >
@@ -53,7 +59,7 @@ Tutte le modifiche allo stato del portfolio vengono registrate nella cronologia 
      >* Quando Search, Social e Commerce iniziano a ottimizzare un portfolio, consentono di gestire tutto il budget futuro della campagna e (se applicabile) la modifica dell’offerta (se applicabile). Search, Social e Commerce sovrascriveranno tutte le modifiche apportate dall&#39;interno della rete di annunci.
      >* Puoi impostare temporaneamente le offerte manuali per qualsiasi campagna CPC ottimizzata nel portfolio creando e pubblicando i bulksheet delle campagne. Qualsiasi modifica dell’offerta derivante dai dati pubblicati è applicabile per un giorno. Successivamente, Search, Social e Commerce riprendono a impostare le offerte in base alla propria strategia di ottimizzazione.
 
-## Eliminare un portfolio inattivo dalla visualizzazione [!UICONTROL Portfolios]
+## Elimina uno o più portfolio inattivi dalla visualizzazione [!UICONTROL Portfolios]
 
 Puoi eliminare solo i portfolio inattivi. Se il portfolio è ottimizzato o attivo, devi prima modificarne lo stato su inattivo prima di poter scegliere di eliminarlo.
 
@@ -61,11 +67,19 @@ Puoi eliminare solo i portfolio inattivi. Se il portfolio è ottimizzato o attiv
 
 1. Effettuare una delle seguenti operazioni:
 
-   * Posizionare il cursore sulla riga del portfolio e fare clic su **[!UICONTROL ...]>[!UICONTROL Delete]**.
+   * Per eliminare un singolo portfolio inattivo:
 
-   * Seleziona la casella di controllo accanto al portfolio. Nella barra degli strumenti Azioni in blocco, fare clic su ![Elimina](/help/search-social-commerce/assets/delete-new.png "Elimina").
+     1. Posizionare il cursore sulla riga del portfolio e fare clic su **[!UICONTROL ...]>[!UICONTROL Delete]**.
 
-1. Nel messaggio di conferma, fare clic su **[!UICONTROL Confirm]**.
+     1. Nel messaggio di conferma, fare clic su **[!UICONTROL Confirm]**.
+
+   * Per eliminare uno o più portfolio inattivi:
+
+     1. Selezionare la casella di controllo accanto a ogni portfolio inattivo che si desidera eliminare.
+
+     1. Nella barra degli strumenti Azioni in blocco, fare clic su ![Elimina](/help/search-social-commerce/assets/delete-new.png "Elimina").
+
+     1. Nel messaggio di conferma, fare clic su **[!UICONTROL Confirm]**.
 
 >[!MORELIKETHIS]
 >
