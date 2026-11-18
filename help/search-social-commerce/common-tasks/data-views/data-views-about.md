@@ -15,20 +15,18 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '570'
 ht-degree: 0%
 ---
 # Informazioni sulla personalizzazione dei dati nelle visualizzazioni di gestione delle campagne
-
-<!-- Add info about new UI -->
 
 Nella maggior parte delle visualizzazioni dati di Campaign, puoi personalizzare i dati visualizzati all’interno della tabella dati. Puoi personalizzare i dati nei seguenti modi:
 
 * [Modifica le impostazioni per l&#39;intera visualizzazione predefinita](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md##view-edit) per una visualizzazione di entità specifica (ad esempio [!UICONTROL Campaigns]) in modo da includere un ordine di colonna specifico, filtri, intervallo di date, regola di attribuzione e altro ancora. Applicare le impostazioni temporaneamente o salvarle. Puoi anche [creare altre viste personalizzate](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view), [clonare viste esistenti](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#view-clone) e [applicare le tue viste](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#apply-a-default-or-custom-view).
 
-* [Modifica le colonne e il relativo ordinamento](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md) dall&#39;icona [!UICONTROL Columns] sul lato destro della barra degli strumenti oppure [modifica rapidamente solo le colonne](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md) da qualsiasi intestazione di colonna nella visualizzazione.
+* [Modificare le colonne e il relativo ordinamento](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md) utilizzando il controllo [!UICONTROL Custom Columns] nella barra degli strumenti. Nella nuova interfaccia utente, se la barra degli strumenti è troppo stretta per visualizzare il controllo, fare clic su **[!UICONTROL Actions]>[!UICONTROL Custom Columns]**. Puoi anche [cambiare rapidamente solo le colonne](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md) da qualsiasi intestazione di colonna nella visualizzazione.
 
 * (Solo interfaccia utente legacy) [Dal pannello di navigazione a sinistra](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/filter-using-left-panel.md), è possibile:
 
@@ -45,3 +43,24 @@ Nella maggior parte delle visualizzazioni dati di Campaign, puoi personalizzare 
 * [Riordinare i dati](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-sort.md) in base ai valori di una colonna specifica.
 
 * Controlla se visualizzare 25 righe, 50 righe, 100 righe, (solo interfaccia utente legacy) 200 righe o (solo interfaccia utente legacy) [!UICONTROL Continuous Scroll] nella parte inferiore di qualsiasi pagina.
+
+
+## (Nuova interfaccia) Controlli della tabella dati {#data-table-tools-new-ui}
+
+Utilizza la barra degli strumenti sopra la tabella dati per gestire i dati e modificarne la modalità di visualizzazione. Gli strumenti disponibili dipendono dalla vista e dalle autorizzazioni.
+
+Se la barra degli strumenti è troppo stretta per visualizzare uno strumento, cercarlo nel menu **[!UICONTROL Actions]**.
+
+Se disponibili, è possibile:
+
+* Selezionare *[!UICONTROL Click Date]* o *[!UICONTROL Transaction Date]* da [!UICONTROL Conversion based on] per controllare il modo in cui vengono segnalati i dati di conversione.
+
+* Confrontare le prestazioni per due periodi di tempo e scegliere come visualizzare la differenza. Vedi &quot;[Filtrare i dati per intervallo di date](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md#compare-periods-new-ui).&quot;
+
+* Attivare o disattivare la spaziatura della tabella compatta utilizzando **[!UICONTROL Compressed Mode]** nella barra degli strumenti o nel menu **[!UICONTROL Actions]**.
+
+  Il pulsante della barra degli strumenti viene selezionato quando la modalità compressa è attiva. In [!UICONTROL Actions], un parametro indica lo stato corrente.
+
+* Mostrare o nascondere i grafici utilizzando **[!UICONTROL Charts]** nella barra degli strumenti o nel menu **[!UICONTROL Actions]**.
+
+  Il pulsante della barra degli strumenti viene selezionato quando vengono visualizzati i grafici. In [!UICONTROL Actions], un parametro indica se i grafici sono visualizzati. Fare di nuovo clic sul controllo per nascondere i grafici.

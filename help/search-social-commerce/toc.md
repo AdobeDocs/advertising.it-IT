@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
+source-git-commit: 48ceda965e7ebd4a62bfcb497bd0ca489ebac726
 workflow-type: tm+mt
-source-wordcount: '2443'
+source-wordcount: '2445'
 ht-degree: 2%
 ---
 # Guida di Advertising Search, Social e Commerce {#search-social-commerce}
@@ -46,7 +46,7 @@ ht-degree: 2%
     + [Gestire le visualizzazioni predefinite e personalizzate](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)
     + Impostazioni vista ad hoc {#ad-hoc-settings}
       + [Modifica la serie di colonne dal menu dell’intestazione di colonna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)
-      + [Modifica e ordina il set di colonne dall&#39;icona [!UICONTROL Custom Columns]](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)
+      + [Modifica e ordina il set di colonne dal controllo [!UICONTROL Custom Columns]](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)
       + [Bloccare e sbloccare una configurazione di colonna nelle visualizzazioni delle campagne](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-lock-unlock.md)
       + [Riordinare una colonna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-sort.md)
       + [Filtra dati per intervallo di date](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md)
@@ -141,6 +141,7 @@ ht-degree: 2%
         + [[!DNL Yandex] impostazioni parola chiave](/help/search-social-commerce/new-ui/manage/keywords/keyword-settings-yandex.md)
     + [Gestire i gruppi di prodotti](/help/search-social-commerce/new-ui/manage/product-groups-manage.md)
   + Rapporti {#reports}
+    + [Approfondimenti su Advertising](/help/search-social-commerce/new-ui/reports/insights.md)
     + Rapporti pianificati {#scheduled}
       + [Informazioni sui rapporti pianificati](/help/search-social-commerce/new-ui/reports/report-about.md)
       + [Le attività di configurazione iniziali per i rapporti](/help/search-social-commerce/new-ui/reports/initial-setup.md)

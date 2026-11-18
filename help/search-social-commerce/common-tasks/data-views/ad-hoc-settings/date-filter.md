@@ -18,14 +18,72 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '844'
 ht-degree: 0%
 ---
 # Filtra dati per intervallo di date
 
-<!-- The same in new UI and legacy CM views -->
+Utilizzare il filtro dell&#39;intervallo di date per specificare il periodo per il quale visualizzare i dati sulle prestazioni. Nelle visualizzazioni che supportano il confronto delle date, è inoltre possibile confrontare le prestazioni per due periodi.
+
+## (Nuova interfaccia) Modificare l’intervallo di date {#date-filter-new-ui}
+
+1. Nell&#39;intestazione della pagina fare clic sul controllo intervallo di date con l&#39;icona Calendario.
+
+1. Specifica l’intervallo di date:
+
+   * Per utilizzare un intervallo predefinito, selezionare un&#39;opzione dal menu sopra il primo calendario, ad esempio **[!UICONTROL Yesterday]** o **[!UICONTROL Last 7 Days]**.
+
+   * Per utilizzare un intervallo personalizzato, selezionare **[!UICONTROL Custom Date Range]** e selezionare le date di inizio e di fine nel calendario. Utilizza le frecce del calendario per spostarti tra i mesi.
+
+1. Fare clic su **[!UICONTROL Apply]**.
+
+## (Nuova interfaccia) Confrontare i dati per due periodi {#compare-periods-new-ui}
+
+*Visualizzazioni che supportano solo il confronto delle date*
+
+1. Nell&#39;intestazione della pagina fare clic sul controllo intervallo di date con l&#39;icona Calendario.
+
+1. Attiva **[!UICONTROL Compare Periods]**.
+
+   Due pannelli del calendario sono visualizzati affiancati. Il primo periodo ha un marcatore verde acqua e il periodo di confronto ha un marcatore viola.
+
+1. Nel primo pannello, specifica l’intervallo di date:
+
+   * Per utilizzare un intervallo predefinito, selezionare un&#39;opzione dal menu sopra il primo calendario, ad esempio **[!UICONTROL Yesterday]** o **[!UICONTROL Last 7 Days]**.
+
+   * Per utilizzare un intervallo personalizzato, selezionare **[!UICONTROL Custom Date Range]** e selezionare le date di inizio e di fine nel calendario. Utilizza le frecce del calendario per spostarti tra i mesi.
+
+1. Nel secondo pannello, seleziona un predefinito di confronto o fai clic su una data di inizio nel calendario.
+
+   Il periodo di confronto ha lo stesso numero di giorni del primo periodo. Rivedi gli intervalli di date completi sopra entrambi i calendari.
+
+1. Da **[!UICONTROL Comparison Format]**, selezionare la modalità di visualizzazione della differenza:
+
+   * **[!UICONTROL As percentage]:** Mostra la differenza come percentuale.
+
+   * **[!UICONTROL As variance]:** Mostra la differenza come valore numerico.
+
+1. Fare clic su **[!UICONTROL Apply]**.
+
+   Il controllo Intervallo date mostra gli intervalli di date completi con le relative etichette di periodo e gli indicatori di colore. Ogni metrica paragonabile è raggruppata in due colonne periodo e una colonna **[!UICONTROL Change]**. I campi non confrontabili rimangono colonne singole. Gli indicatori di periodo nelle intestazioni di colonna identificano gli intervalli di date corrispondenti.
+
+Per interrompere il confronto dei periodi, aprire il controllo dell&#39;intervallo di date, disattivare **[!UICONTROL Compare Periods]** e fare clic su **[!UICONTROL Apply]**. Disattivando il confronto, i filtri vengono cancellati in base ai dati di confronto.
+
+### Modificare il formato di confronto da un menu colonna
+
+1. Se il confronto delle date è abilitato, apri il menu dell’intestazione di colonna per una colonna **[!UICONTROL Change]** o per una colonna periodo per una metrica comparabile.
+
+1. Selezionare **[!UICONTROL As percentage]** o **[!UICONTROL As variance]**.
+
+   La selezione si applica a tutte le metriche di confronto nella tabella di dati, non solo alla colonna selezionata. Il controllo dell’intervallo di date viene sincronizzato con la selezione e il formato viene condiviso tra le pagine applicabili per l’inserzionista corrente, incluse le visualizzazioni con intervalli di date salvati.
+
+   Dopo il corretto aggiornamento della tabella dati viene visualizzato un messaggio di conferma. Se non è possibile aggiornare la tabella dati con il formato selezionato, viene visualizzato un messaggio di errore. Provare a selezionare di nuovo il formato.
+
+Le opzioni di ordinamento e filtro rimangono disponibili nei menu delle colonne laddove supportate.
+
+## (Interfaccia precedente) Impostazioni intervallo di date
 
 Lo stesso filtro globale per l’intervallo di date viene applicato alla maggior parte delle visualizzazioni dati, a tutti gli inserzionisti, fatta eccezione per le visualizzazioni predefinite e personalizzate per le quali sono stati salvati intervalli di date specifici. L’intervallo di date predefinito del sistema per le visualizzazioni di gestione delle campagne è &quot;Ieri&quot;.
 
@@ -39,7 +97,7 @@ Quando si salva un intervallo di date specifico per una visualizzazione predefin
 >* Per visualizzare i dati precedenti, passare alla visualizzazione [[!UICONTROL Reports]](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) ed eseguire un report di base.
 >* È inoltre possibile salvare un intervallo di date per una [visualizzazione predefinita o personalizzata](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
 
-## Modificare il filtro data globale nelle visualizzazioni della campagna
+## (Interfaccia precedente) Modificare il filtro data globale nelle visualizzazioni della campagna
 
 1. Sopra qualsiasi tabella di dati in Ricerca \> Campagne \> Campagne, fai clic sull’intervallo di date corrente.
 
