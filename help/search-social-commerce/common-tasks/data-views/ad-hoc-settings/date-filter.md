@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
+source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '844'
 ht-degree: 0%
 ---
 # Filtra dati per intervallo di date
@@ -77,9 +77,9 @@ Per interrompere il confronto dei periodi, aprire il controllo dell&#39;interval
 
 1. Selezionare **[!UICONTROL As percentage]** o **[!UICONTROL As variance]**.
 
-   La selezione si applica a tutte le metriche di confronto nella griglia, non solo alla colonna selezionata. Il controllo dell’intervallo di date viene sincronizzato con la selezione e il formato viene condiviso tra le pagine applicabili per l’inserzionista corrente, incluse le visualizzazioni con intervalli di date salvati.
+   La selezione si applica a tutte le metriche di confronto nella tabella di dati, non solo alla colonna selezionata. Il controllo dell’intervallo di date viene sincronizzato con la selezione e il formato viene condiviso tra le pagine applicabili per l’inserzionista corrente, incluse le visualizzazioni con intervalli di date salvati.
 
-   Dopo l&#39;aggiornamento della griglia viene visualizzato un messaggio di conferma. Se la griglia non può essere aggiornata con il formato selezionato, viene visualizzato un messaggio di errore; provare a selezionare nuovamente il formato.
+   Dopo il corretto aggiornamento della tabella dati viene visualizzato un messaggio di conferma. Se non è possibile aggiornare la tabella dati con il formato selezionato, viene visualizzato un messaggio di errore. Provare a selezionare di nuovo il formato.
 
 Le opzioni di ordinamento e filtro rimangono disponibili nei menu delle colonne laddove supportate.
 
