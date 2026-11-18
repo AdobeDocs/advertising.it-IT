@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '499'
 ht-degree: 0%
 ---
 # Applicare filtri dati dalla barra degli strumenti
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## (Nuova interfaccia) Applicare filtri dati dalla barra degli strumenti nelle visualizzazioni di gestione
 
-1. Nella barra degli strumenti, fai clic su ![Filtro](/help/search-social-commerce/assets/filter-new.png "Filtro").
+1. Nella barra degli strumenti, fare clic sul controllo ![Filtro](/help/search-social-commerce/assets/filter-new.png "Filtro") per sola icona prima della ricerca nella griglia.
 
 1. Nelle impostazioni del filtro eseguire una delle operazioni seguenti:
 

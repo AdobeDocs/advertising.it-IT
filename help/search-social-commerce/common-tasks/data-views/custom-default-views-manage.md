@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
 workflow-type: tm+mt
-source-wordcount: '4470'
+source-wordcount: '4607'
 ht-degree: 0%
 ---
 # Gestire le visualizzazioni predefinite e personalizzate
@@ -38,6 +38,8 @@ Nell&#39;interfaccia utente legacy, ogni visualizzazione è disponibile come col
 ### (Nuova interfaccia) Applicare una vista predefinita o personalizzata a una vista di gestione
 
 1. Sopra la tabella dati fare clic sul nome della visualizzazione attualmente applicata (![Visualizzazione](/help/search-social-commerce/assets/view.png "Visualizzazione")).
+
+   Se la barra degli strumenti è troppo stretta per visualizzare il nome della visualizzazione, fare clic su **[!UICONTROL Actions]** e aprire l&#39;elenco delle visualizzazioni per l&#39;entità corrente.
 
 1. Se necessario, fare clic su una delle schede ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] e [!UICONTROL From Others]) per individuare la visualizzazione.
 
@@ -75,6 +77,8 @@ Le visualizzazioni personalizzate sono specifiche di una singola visualizzazione
 
 1. Sopra la tabella dati fare clic sul nome della visualizzazione attualmente applicata (![Visualizzazione](/help/search-social-commerce/assets/view.png "Visualizzazione")).
 
+   Se la barra degli strumenti è troppo stretta per visualizzare il nome della visualizzazione, fare clic su **[!UICONTROL Actions]** e aprire l&#39;elenco delle visualizzazioni per l&#39;entità corrente.
+
 1. Fare clic su **[!UICONTROL Create View]**.
 
 1. Specificare le [impostazioni di visualizzazione personalizzate](#view-settings-new-ui).
@@ -108,6 +112,8 @@ Le visualizzazioni personalizzate sono applicabili solo alle visualizzazioni di 
 *Disponibile nelle visualizzazioni [!UICONTROL Simulations], [!UICONTROL Portfolios], [!UICONTROL Campaigns] e [!UICONTROL Ad Groups]*
 
 1. Sopra la tabella dati fare clic sul nome della visualizzazione attualmente applicata (![Visualizzazione](/help/search-social-commerce/assets/view.png "Visualizzazione")).
+
+   Se la barra degli strumenti è troppo stretta per visualizzare il nome della visualizzazione, fare clic su **[!UICONTROL Actions]** e aprire l&#39;elenco delle visualizzazioni per l&#39;entità corrente.
 
 1. Se necessario, fare clic su una delle schede ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] e [!UICONTROL From Others]) per individuare la visualizzazione.
 
@@ -151,6 +157,8 @@ Le visualizzazioni personalizzate sono applicabili solo alle visualizzazioni di 
 
 1. Sopra la tabella dati fare clic sul nome della visualizzazione attualmente applicata (![Visualizzazione](/help/search-social-commerce/assets/view.png "Visualizzazione")).
 
+   Se la barra degli strumenti è troppo stretta per visualizzare il nome della visualizzazione, fare clic su **[!UICONTROL Actions]** e aprire l&#39;elenco delle visualizzazioni per l&#39;entità corrente.
+
 1. Se necessario, fare clic su una delle schede ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] e [!UICONTROL From Others]) per individuare la visualizzazione.
 
 1. Posizionare il cursore sul nome della visualizzazione e fare clic su ![Clone](/help/search-social-commerce/assets/clone-new.png).
@@ -172,6 +180,8 @@ Le impostazioni predefinite del sistema variano in base alla vista di gestione. 
 * Dalla nuova interfaccia utente:
 
   1. Sopra la tabella dati fare clic sul nome della visualizzazione attualmente applicata (![Visualizzazione](/help/search-social-commerce/assets/view.png "Visualizzazione")).
+
+     Se la barra degli strumenti è troppo stretta per visualizzare il nome della visualizzazione, fare clic su **[!UICONTROL Actions]** e aprire l&#39;elenco delle visualizzazioni per l&#39;entità corrente.
 
   1. Se necessario, fare clic su una delle schede ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] e [!UICONTROL From Others]) per individuare la visualizzazione.
 
@@ -195,6 +205,8 @@ Se si elimina una visualizzazione personalizzata applicata alla scheda corrente,
 
   1. Sopra la tabella dati fare clic sul nome della visualizzazione attualmente applicata (![Visualizzazione](/help/search-social-commerce/assets/view.png "Visualizzazione")).
 
+     Se la barra degli strumenti è troppo stretta per visualizzare il nome della visualizzazione, fare clic su **[!UICONTROL Actions]** e aprire l&#39;elenco delle visualizzazioni per l&#39;entità corrente.
+
   1. Se necessario, fare clic su una delle schede ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] e [!UICONTROL From Others]) per individuare la visualizzazione.
 
   1. Posizionare il cursore sul nome della visualizzazione e fare clic su ![Elimina](/help/search-social-commerce/assets/delete-new.png).
@@ -215,6 +227,8 @@ Se si elimina una visualizzazione personalizzata applicata alla scheda corrente,
 
 ### (Nuova interfaccia) Impostazioni di visualizzazione predefinite e personalizzate {#view-settings-new-ui}
 
+Quando modifichi il formato di confronto dal menu di una colonna di confronto, il formato selezionato viene condiviso tra le pagine applicabili per l’inserzionista corrente, incluse le visualizzazioni con intervalli di date salvati. Vedere &quot;[Modificare il formato di confronto da un menu di colonna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md#change-the-comparison-format-from-a-column-menu).&quot;
+
 | **Scheda** | **Campo** | **Descrizione** |
 | --- | --- | --- |
 | [Sopra tutte le schede] | Nome | Nome univoco per la visualizzazione. Non è possibile modificare il nome di una visualizzazione predefinita.<p><b>Suggerimento:</b> utilizza un nome che ti consenta di identificare la scheda e le informazioni a cui si applica (ad esempio &quot;Campagne in pausa&quot; o &quot;Primi 50 annunci&quot;). |
@@ -224,8 +238,8 @@ Se si elimina una visualizzazione personalizzata applicata alla scheda corrente,
 |   | Ordinamento | Specifica se ordinare i dati in ordine **Crescente** o **Decrescente**. |
 | Filtri | [Definizioni filtro] | Filtri da applicare ai dati (facoltativo). L’applicazione dei filtri restituisce le righe solo quando il valore di una colonna soddisfa i criteri specificati.<p>Per ciascun filtro da applicare:<ol><li>Nel menu [!UICONTROL Add Filter], selezionare un nome di colonna. L’elenco include tutte le colonne disponibili ed è ordinato per tipo di colonna, con le colonne di proprietà in primo luogo.</li><li>Definisci il filtro per la colonna</li></ol>(Filtri con campi di input) Seleziona un operatore dal secondo menu, quindi inserisci il valore applicabile. I valori non fanno distinzione tra maiuscole e minuscole.<p>Ad esempio, se hai selezionato la colonna &quot;Clic&quot; e desideri restituire solo le righe con più di 100 clic, seleziona _\>_ e immetti `100` nel campo di input.<p>A seconda del tipo di dati, gli operatori disponibili possono includere <i>maggiore di</i>, <i>minore di</i>, <i>uguale a</i>, <i>contiene</i>, <i>non contiene</i>, <i>inizia con</i>, <i>termina con</i>,<i>nessun valore</i> o <i>ha valore</i> <i>prima</i>, <i>dopo</i> o <i>senza data</i>.<p>(Filtri senza campi di input) Fare clic su ![freccia verso il basso](/help/search-social-commerce/assets/arrow-down-expand.png) accanto al menu Seleziona voci di elenco, quindi selezionare le caselle di controllo accanto a ogni valore da includere.<p><b>Note:</b><ul><li>È possibile applicare ai filtri le modifiche alle impostazioni di visualizzazione predefinite, ma non salvarle.</li><li>Puoi anche [modificare temporaneamente i filtri applicabili](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) all&#39;interno della visualizzazione.</li></ul> |
 | Impostazioni aggiuntive | Intervallo date | (Quando &quot;Includi intervallo date&quot; è selezionato)<p>L’intervallo di date per il quale generare i dati. Scegliere un&#39;opzione:<ul><li><i>[Intervallo predefinito]</i>: elenco di incrementi di tempo comuni, compresi tra <i>Oggi</i> e <i>Ultimi 180 giorni</i>. Sceglierne uno dall&#39;elenco; il valore predefinito è <i>Ieri</i>. Nota: <i>Ultimo mese</i>, <i>Ultimi 3 mesi</i> e <i>Ultimi 6 mesi</i> mostrano i dati per i mesi di calendario precedenti.</li><li><i>Intervallo date personalizzato:</i> Specificare la data di inizio e la data di fine. Immettere le date nel formato MM/GG/AAAA o M/G/AAAA oppure fare clic sull&#39;icona ![calendario](/help/search-social-commerce/assets/calendar.png) accanto a un campo e selezionare una data.</li></ul> |
-|   | Confronto | Confronta i dati per l’intervallo di date specificato con i dati per un secondo intervallo di date. Quando selezioni questa opzione, specifica il secondo intervallo di date. Vengono aggiunte due colonne aggiuntive per ogni colonna di dati regolare. Ad esempio, invece di includere una sola colonna per &quot;Impression&quot;, il rapporto include le colonne per &quot;Impression Range 1&quot;, &quot;Impression Range 2&quot; e &quot;Impression Difference&quot;.<p><b>Note:</b><ul><li>La colonna delle differenze non viene visualizzata per le metriche derivate.</li><li>La generazione di rapporti che confrontano intervalli di date di grandi dimensioni potrebbe richiedere più tempo.</li></ul> |
-|   | Formato di confronto | (Quando [!UICONTROL Comparison] è abilitato) Come esprimere la differenza tra i dati nei due intervalli di date selezionati nella colonna &quot;[_Differenza campo dati_]&quot;. Scegliere un&#39;opzione:<ul><li><i>Varianza</i> (impostazione predefinita): mostra la differenza come valore numerico.</li><li><i>% modifica</i>: mostra la differenza come percentuale.</li></ul> |
+|   | [!UICONTROL Comparison] | Confronta i dati per l’intervallo di date specificato con i dati per un secondo intervallo di date. Quando selezioni questa opzione, specifica il periodo di confronto. Nella griglia, ogni metrica paragonabile è raggruppata in due colonne periodo e una colonna [!UICONTROL Change]. I campi non confrontabili rimangono colonne singole. Le etichette dei periodi e i marcatori colore identificano gli intervalli di date corrispondenti. La generazione di rapporti che confrontano intervalli di date di grandi dimensioni potrebbe richiedere più tempo. |
+|   | [!UICONTROL Comparison Format] | (Quando [!UICONTROL Comparison] è abilitato) Come esprimere la differenza tra i due periodi nella colonna [!UICONTROL Change]. Scegliere [!UICONTROL As variance] (impostazione predefinita) per visualizzare una differenza numerica oppure [!UICONTROL As percentage] per visualizzare una differenza percentuale. |
 |   | Regola di attribuzione | (Solo per gli inserzionisti con il servizio di tracciamento delle conversioni basato su pixel di Adobe Advertising) All’interno della scheda, indica come attribuire i dati di conversione, potenzialmente tra più canali di annunci e portfolio, in una serie di eventi che portano a una conversione. Per impostazione predefinita, viene selezionata la regola specificata nelle impostazioni di attribuzione di conversione a livello di inserzionista.<ul><li> <i>Primo evento</i>: attribuisce la conversione al primo clic a pagamento della serie nell&#39;intervallo di lookback su clic dell&#39;inserzionista o, se non si è verificato alcun clic a pagamento, all&#39;ultima impression nell&#39;intervallo di lookback su impression dell&#39;inserzionista.</li><li><i>Peso primo evento - Altro</i>: attribuisce la conversione a tutti gli eventi della serie che si sono verificati nell&#39;intervallo di lookback su clic e nell&#39;intervallo di lookback su impression dell&#39;inserzionista, ma attribuisce maggior peso al primo evento e successivamente meno peso agli eventi seguenti. Quando la conversione è preceduta sia da clic che da impression a pagamento, il peso di override delle impression specificato viene ulteriormente applicato alle impression. Quando la conversione è preceduta solo dalle impression, le impression vengono ponderate in base al peso view-through dell’inserzionista anziché al peso override dell’impression.</li><li><i>Distribuzione uniforme</i>: attribuisce la conversione in modo uguale a ogni evento della serie che si è verificato nell&#39;intervallo di lookback su clic e nell&#39;intervallo di lookback su impression dell&#39;inserzionista. Quando la conversione è preceduta sia da clic che da impression a pagamento, il peso di override delle impression specificato viene ulteriormente applicato alle impression. Quando la conversione è preceduta solo dalle impression, le impression vengono ponderate in base al peso view-through dell’inserzionista anziché al peso override dell’impression.</li><li><i>Peso ultimo evento - Altro</i>: attribuisce la conversione a tutti gli eventi della serie che si sono verificati nell&#39;intervallo di lookback su clic e nell&#39;intervallo di lookback su impression dell&#39;inserzionista, ma attribuisce maggior peso all&#39;ultimo evento e successivamente meno peso agli eventi precedenti. Quando la conversione è preceduta sia da clic che da impression a pagamento, il peso di override delle impression specificato viene ulteriormente applicato alle impression. Quando la conversione è preceduta solo dalle impression, le impression vengono ponderate in base al peso view-through dell’inserzionista anziché al peso override dell’impression.</li><li><i>Ultimo evento</i> (impostazione predefinita): attribuisce la conversione all&#39;ultimo clic a pagamento della serie nell&#39;intervallo di lookback su clic dell&#39;inserzionista o, se non si è verificato alcun clic a pagamento, all&#39;ultima impression nell&#39;intervallo di lookback su impression dell&#39;inserzionista.</li><li><i>A forma di U</i>: attribuisce la conversione a tutti gli eventi della serie che si sono verificati nell&#39;intervallo di lookback su clic e nell&#39;intervallo di lookback su impression dell&#39;inserzionista, ma attribuisce il massimo peso al primo evento e agli ultimi eventi, con un peso progressivamente inferiore agli eventi che si trovano nel mezzo del percorso di conversione. Quando la conversione è preceduta sia da clic che da impression a pagamento, il peso di override delle impression specificato viene ulteriormente applicato alle impression. Quando la conversione è preceduta solo dalle impression, le impression vengono ponderate in base al peso view-through dell’inserzionista anziché al peso override dell’impression.</li></ul><p><b>Note:</b><ul><li>Tutte le regole di attribuzione oltre a Ultimo evento sono disponibili solo per gli inserzionisti con tracciamento dei clic di Adobe Advertising e con tracciamento delle conversioni da Adobe Advertising o Adobe Analytics (con integrazione di Analytics).</li><li>Le regole di attribuzione si applicano ai clic sugli annunci a pagamento in qualsiasi canale. Non si applicano alle impression per gli annunci di ricerca a pagamento, che non possono essere tracciati a livello di evento.</li><li>Quando rapporti i dati di conversione utilizzando qualsiasi regola di attribuzione eccetto una delle regole &quot;Last Event&quot; (Ultimo evento), gli eventi che portano alla conversione possono verificarsi in più portfolio. In questo caso, la visualizzazione include i dati per la conversione solo quando gli annunci o le parole chiave in tali portfolio sono inclusi nella visualizzazione.</li><li>Per le viste predefinite, si consiglia di mantenere la regola di attribuzione predefinita, che viene utilizzata per calcolare il [valore obiettivo](/help/search-social-commerce/glossary.md#o-p) (precedentemente denominato &quot;ricavo ponderato&quot;) per ogni unità di offerta durante l&#39;ottimizzazione delle offerte.</li></ul> |
 |   | Conversioni basate su | Come segnalare i dati di conversione:<ul><li><i>Data clic</i>: per visualizzare le transazioni risultanti da un clic che si è verificato durante il periodo di tempo specificato. Quando un portfolio presenta un ritardo significativo tra clic e transazioni, questa opzione è utile per calcolare il ricavo storico per clic per il portfolio, che indica i comportamenti di ricavo da prevedere nel tempo.</li><li><i>Data transazione</i> (impostazione predefinita): per visualizzare le transazioni la cui data di transazione si è verificata durante il periodo di tempo specificato. Indica l&#39;importo dei ricavi ottenuti nel periodo di tempo specificato.</li></ul> |
 

@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 08975638903eab9767e571c851c5c35981afdba5
+source-git-commit: 7d9c610b13af9e4f64b9955fc89e71fcae708c45
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1482'
 ht-degree: 0%
 ---
 # Organizzazione dell’interfaccia utente
@@ -40,6 +40,10 @@ Il [profilo di prodotto](/help/search-social-commerce/new-ui/user-administration
 La nuova interfaccia utente presenta un nuovo menu principale a sinistra, che organizza le attività per fase di lavoro.
 
 ### Opzioni del menu principale
+
+* (Se applicabile) Elenco selezionabile di inserzionisti da gestire, sopra il campo di ricerca nel pannello di navigazione sinistro espanso.
+
+* Un campo di ricerca per le opzioni del menu principale.
 
 * Sottomenu **[!UICONTROL Dashboard]**:
 
@@ -131,6 +135,12 @@ Comprimi il menu principale quando desideri più spazio per visualizzare i dati.
 
 * Sopra il menu principale a sinistra, fai clic su ![Comprimi/espandi](/help/search-social-commerce/assets/collapse-expand.png "Comprimi/espandi").
 
+### Visualizza dati per un altro inserzionista
+
+* Espandi il pannello di navigazione sinistro se è compresso. Sopra il campo di ricerca, apri l’elenco degli inserzionisti e seleziona l’inserzionista.
+
+  Per ulteriori dettagli e restrizioni, vedere &quot;[Visualizzare i dati per un altro inserzionista](/help/search-social-commerce/common-tasks/change-advertiser.md).&quot;
+
 ### Cerca le opzioni del menu principale
 
 Utilizza il campo di ricerca sopra il menu principale per cercare opzioni di menu specifiche, ad esempio &quot;Portfolio&quot; o &quot;Rapporti&quot;.
@@ -153,9 +163,7 @@ Utilizza il campo di ricerca sopra il menu principale per cercare opzioni di men
 
 **Nota:** alcune schermate dispongono di opzioni aggiuntive.
 
-* (Se applicabile) Un elenco selezionabile di inserzionisti che stai gestendo.
-
-* Intervallo di date configurabile per la visualizzazione corrente
+* L’intervallo di date configurabile per la vista corrente. Se è supportato il confronto delle date, il controllo dell’intervallo di date consente inoltre di confrontare due periodi e di scegliere se visualizzare la modifica come variazione percentuale o numerica. Vedi &quot;[Filtrare i dati per intervallo di date](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md#date-filter-new-ui).&quot;
 
 * ![Passa alla vecchia interfaccia](/help/search-social-commerce/assets/switch-to-old-ui.png "Passa alla vecchia interfaccia") Apre l&#39;interfaccia utente legacy in una nuova scheda o finestra.
 
