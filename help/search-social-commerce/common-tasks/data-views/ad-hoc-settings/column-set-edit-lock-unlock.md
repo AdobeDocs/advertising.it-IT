@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 972ed9c0662fc3b74bc5c3597f010170fbce69d7
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '149'
 ht-degree: 0%
 ---
 # Bloccare e sbloccare una configurazione di colonna nelle visualizzazioni delle campagne
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 <!-- Doesn't include instructions for legacy Portfolios views; not available for Reports -->
 
-Il blocco di una colonna &quot;blocca&quot; la colonna e tutte le altre colonne a sinistra in un riquadro statico e tutte le colonne a destra in un altro riquadro in cui è possibile scorrere orizzontalmente.
+Il blocco di una colonna &quot;blocca&quot; la colonna e tutte le altre colonne a sinistra in un riquadro statico e tutte le colonne a destra in un altro riquadro in cui è possibile scorrere orizzontalmente. Nella nuova interfaccia utente, puoi ridimensionare le colonne bloccate idonee trascinando il limite tra le intestazioni di colonna senza prima sbloccarle.
 
 Un blocco funziona solo fino a quando non vi allontanate dalla vista entità. Non è possibile salvarla nella visualizzazione predefinita o personalizzata.
 
