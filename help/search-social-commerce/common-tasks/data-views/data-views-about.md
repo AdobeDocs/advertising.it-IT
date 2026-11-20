@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
+source-git-commit: 972ed9c0662fc3b74bc5c3597f010170fbce69d7
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '672'
 ht-degree: 0%
 ---
 # Informazioni sulla personalizzazione dei dati nelle visualizzazioni di gestione delle campagne
@@ -44,7 +44,6 @@ Nella maggior parte delle visualizzazioni dati di Campaign, puoi personalizzare 
 
 * Controlla se visualizzare 25 righe, 50 righe, 100 righe, (solo interfaccia utente legacy) 200 righe o (solo interfaccia utente legacy) [!UICONTROL Continuous Scroll] nella parte inferiore di qualsiasi pagina.
 
-
 ## (Nuova interfaccia) Controlli della tabella dati {#data-table-tools-new-ui}
 
 Utilizza la barra degli strumenti sopra la tabella dati per gestire i dati e modificarne la modalità di visualizzazione. Gli strumenti disponibili dipendono dalla vista e dalle autorizzazioni.
@@ -64,3 +63,15 @@ Se disponibili, è possibile:
 * Mostrare o nascondere i grafici utilizzando **[!UICONTROL Charts]** nella barra degli strumenti o nel menu **[!UICONTROL Actions]**.
 
   Il pulsante della barra degli strumenti viene selezionato quando vengono visualizzati i grafici. In [!UICONTROL Actions], un parametro indica se i grafici sono visualizzati. Fare di nuovo clic sul controllo per nascondere i grafici.
+
+## (Nuova interfaccia) Larghezze delle colonne e valori delle tabelle {#column-widths-values-new-ui}
+
+Nelle tabelle dati della campagna:
+
+* Per ridimensionare una colonna, trascinare il bordo tra le intestazioni di colonna. È inoltre possibile ridimensionare le [colonne bloccate](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-lock-unlock.md) idonee senza sbloccarle. Le larghezze minime consentono di mantenere i valori leggibili. Alcune colonne di icone e azioni hanno larghezze fisse e non possono essere ridimensionate.
+
+* Per visualizzare il nome completo, posiziona il cursore sul nome di un’entità troncata.
+
+* Per aprire i dettagli di un&#39;entità il cui nome è un collegamento, premere **Tab** finché il nome non viene evidenziato, quindi premere **Invio**.
+
+* Un trattino (-) indica un valore mancante, NULL o non applicabile. I valori zero e falso rimangono visibili.
