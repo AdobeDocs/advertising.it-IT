@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d446515567bfa1bae95deb3e7a09998f7b3bf5c9
 workflow-type: tm+mt
 source-wordcount: '3529'
 ht-degree: 0%
@@ -212,7 +212,7 @@ Se il rapporto tra [!UICONTROL EF ID Instances] e clic è inferiore all&#39;85%,
 
 * Ti manca il tracciamento dei clic per l’account o a qualsiasi livello secondario, oppure è presente il tracciamento dei clic duplicato (ad esempio, a livello di account e di campagna)?
 
-  In Search, Social e Commerce, [scarica un bulksheet](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) per consentire all&#39;account di controllare gli URL di tracciamento.
+  In Search, Social e Commerce, [scarica un bulksheet](/help/search-social-commerce/set-up/bulksheets/download.md) per consentire all&#39;account di controllare gli URL di tracciamento.
 
   Inoltre, in [!DNL Analytics], è possibile verificare se l’AMO ID e l’EF IF sono aggiunti in modo coerente utilizzando una metrica calcolata da &quot;[!DNL AMO ID] a [!DNL EF ID]&quot;, calcolata come segue:
 

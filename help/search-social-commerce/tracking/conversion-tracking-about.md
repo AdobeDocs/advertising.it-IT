@@ -20,7 +20,7 @@ topic_v2:
     internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Search, Social e Commerce possono utilizzare i dati di conversione tracciati nei
 
 * **Conversioni Adobe Analytics:** l&#39;inserzionista utilizza il tracciamento di Adobe Analytics per tutte le conversioni. Questa opzione richiede un’integrazione Adobe Advertising-Adobe Analytics. Per ulteriori informazioni, vedere &quot;[Tracciamento conversione Adobe Analytics](conversion-tracking-analytics.md)&quot;.
 
-* **[!DNL Google Analytics]conversioni:** L&#39;inserzionista utilizza il tag [!DNL Google Analytics] per monitorare tutte le conversioni. Per ulteriori informazioni sulle conversioni sincronizzate automaticamente, vedere &quot;[[!DNL Google Ads] dati di conversione in Search, Social e Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)&quot;.
+* **[!DNL Google Analytics]conversioni:** L&#39;inserzionista utilizza il tag [!DNL Google Analytics] per monitorare tutte le conversioni. Per ulteriori informazioni sulle conversioni sincronizzate automaticamente, vedere &quot;[[!DNL Google Ads] dati di conversione in Search, Social e Commerce](google-conversion-data.md)&quot;.
 
 * **Conversioni tracciate dall&#39;inserzionista:** (solo client Search, Social e Commerce) L&#39;inserzionista fornisce a Search, Social e Commerce un file di feed con qualsiasi combinazione di dati di conversione online e offline. Consulta &quot;[Tracciamento delle conversioni utilizzando un feed EF ID](feed-efid.md)&quot; e &quot;[Tracciamento delle conversioni utilizzando un feed ID transazione](feed-transaction-id.md).&quot;
 

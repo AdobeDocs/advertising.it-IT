@@ -22,9 +22,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 5c536fc9d8cd09a0cdaad5c0be1d801eefeade0c
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '223'
 ht-degree: 0%
 ---
 # Informazioni su questa guida
@@ -35,20 +35,23 @@ Informazioni su gruppi specifici di attività e altre informazioni sono disponib
 
 * La sezione &quot;Guida introduttiva&quot; spiega le principali attività coinvolte nell’implementazione di un inserzionista, dalla configurazione per l’avvio iniziale all’esecuzione di attività di gestione correnti, e come è organizzata l’interfaccia utente.
 
-* &quot;Attività comuni&quot; spiega come configurare le varie visualizzazioni dati sulle prestazioni in base alle esigenze e alle preferenze in materia di informazioni, come gestire le metriche personalizzate, come gestire le classificazioni delle etichette e i vincoli di offerta e come eseguire altre attività comuni.
+* &quot;Attività comuni&quot; spiega come configurare le varie visualizzazioni dati sulle prestazioni in base alle esigenze e alle preferenze in materia di informazioni, come gestire metriche personalizzate, come gestire avvisi e notifiche e come eseguire altre attività comuni.
 
-* Nella sezione &quot;Nuova interfaccia&quot; sono illustrate le attività che è possibile eseguire nella nuova interfaccia utente: come gestire gli obiettivi, eseguire simulazioni, gestire i portfolio, assegnare e rimuovere le campagne dai portfolio e assegnare o rimuovere i vincoli a campagne e gruppi di annunci. Consulta la &quot;Nota&quot; di seguito.
+* Nei capitoli seguenti vengono illustrate le funzionalità per le opzioni del menu principale nella nuova interfaccia utente: &quot;[!UICONTROL Dashboard],&quot; &quot;[!UICONTROL Manage],&quot; &quot;[!UICONTROL Reports],&quot; [!UICONTROL Plan],&quot; &quot;[!UICONTROL Setup],&quot; &quot;[!UICONTROL Goals],&quot; &quot;[!UICONTROL Targeting]&quot; e &quot;[!UICONTROL Library].&quot;
+
+  Per informazioni dettagliate su ciascun capitolo, vedere &quot;[Organizzazione dell&#39;interfaccia utente](/help/search-social-commerce/getting-started/user-interface.md).&quot;
 
 * &quot;Tracciamento&quot; spiega come impostare il tracciamento dei clic e delle conversioni per i tuoi annunci e parole chiave.
 
-* La sezione &quot;Gestione delle campagne&quot; spiega come impostare e gestire i componenti della campagna per gli account di rete degli annunci.
+* &quot;Interfaccia utente legacy&quot; spiega le attività che è possibile eseguire nell&#39;[interfaccia utente legacy](/help/search-social-commerce/getting-started/ui-switch.md).
 
-* &quot;Approfondimenti e rapporti&quot; spiega come generare informazioni sulla pubblicità, generare rapporti dettagliati e automatizzare la produzione dei rapporti, creare e monitorare gli avvisi, visualizzare un registro delle modifiche apportate all’account dell’inserzionista e visualizzare e applicare consigli generati dagli annunci per i tuoi account in rete.
-
-* &quot;Strumenti&quot; spiega come modificare la password, utilizzare gli strumenti per generare tag di tracciamento dei clic e delle conversioni, caricare le metriche di conversione in [!DNL Google Ads] e gli obiettivi del portfolio nelle reti di annunci per l&#39;ottimizzazione ibrida, caricare le metriche per le campagne di tracciamento e replicare le campagne [!DNL Google Ads] negli account [!DNL Microsoft Advertising].
-
-* &quot;Amministrazione&quot; spiega come gestire i dati degli inserzionisti, incluse le metriche di conversione raccolte ed eventuali date da escludere dalle previsioni del portfolio; sincronizzare le metriche di conversione da un account [!DNL Google Analytics]; configurare varie impostazioni a livello di inserzionista; e (alcuni ruoli) amministrare gli account utente, agenzia e inserzionista.
+  La maggior parte di queste attività sono disponibili anche nella nuova interfaccia utente.
 
 >[!NOTE]
 >
 >Ulteriori informazioni sull&#39;ottimizzazione, incluso l&#39;utilizzo dei portfolio per le offerte nell&#39;interfaccia utente legacy, sono disponibili nel menu [!UICONTROL Help] (![Menu Guida](/help/search-social-commerce/assets/help-main-menu.png "Menu Guida")) in alto a destra di qualsiasi pagina di Search, Social e Commerce.
+
+>[!MORELIKETHIS]
+>
+>* [Organizzazione dell&#39;interfaccia utente](/help/search-social-commerce/getting-started/user-interface.md)
+>* [Passaggio tra le interfacce utente nuova e legacy](/help/search-social-commerce/getting-started/ui-switch.md)

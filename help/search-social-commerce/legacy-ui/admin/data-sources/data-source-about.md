@@ -1,0 +1,72 @@
+---
+title: Informazioni sulla sincronizzazione di [!DNL Google Analytics] metriche di conversione
+description: Scopri come sincronizzare le metriche di conversione [!DNL Google Analytics] per l'ottimizzazione e il reporting.
+role: User, Admin
+exl-id: 32d0ba22-5c27-4f50-9886-1c09d2da952c
+feature: Search Admin, Search Data Sources
+TQID: 'https://experienceleague.adobe.com/dN7AVijGEiKM1o2iu3Fcb2D61pFkTguFOOu0qIe-mZk'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 1003789d-7feb-5a2f-a02d-3182fd0ceb8a
+    internal-label: Search Admin
+  - id: 9bd4e165-792f-5324-bcaa-eee38dc8b8e9
+    internal-label: Search Data Sources
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+subfeature_v2:
+  - id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
+    internal-label: Data sources
+  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: Admin
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '346'
+ht-degree: 0%
+---
+# Informazioni sulla sincronizzazione di [!DNL Google Analytics] metriche di conversione
+
+Search, Social e Commerce possono sincronizzare le metriche di conversione per un account [!DNL Google Analytics] specifico, la proprietà e la visualizzazione combinata per l&#39;ottimizzazione e il reporting. Le [visualizzazioni di pagina](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=page_tracking&jump=ga_pageviews), [sessioni](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=session&jump=ga_sessions), [Percentuale di mancato recapito](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=session&jump=ga_bouncerate) (calcolate come mancati recapiti/sessioni) e [Durata sessione](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=session&jump=ga_sessionduration) sono incluse automaticamente. Puoi includere fino a 16 metriche aggiuntive per origine dati.
+
+>[!NOTE]
+>
+>Gli utenti di Advertising DSP possono utilizzare le metriche di conversione come obiettivi personalizzati e nei rapporti.
+
+L&#39;utilizzo di tutte le API per i trasferimenti di dati viene valutato per un progetto nell&#39;account [!DNL Google Analytics] applicabile. È possibile visualizzare le quote per questo progetto in [the [!DNL Google API Console]](https://console.developers.google.com/apis/api/analytics-json.googleapis.com/quotas). Consulta la documentazione di [!DNL Google Analytics] per ulteriori informazioni sulle [quote e limiti di chiamata per le richieste API di reporting](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas).
+
+I passaggi seguenti descrivono il processo di sincronizzazione dei dati di conversione da [!DNL Google Analytics].
+
+1. [Eseguire le attività preliminari](data-source-prerequisites.md)
+
+   * Implementa un token Adobe Advertising (`ef_id` parametro stringa query) negli URL della pagina di destinazione per tutti gli account pubblicitari applicabili.
+
+   * Acquisire il token Adobe Advertising (`ef_id` parametro stringa query) in un [!DNL Custom Dimension] in [!DNL Google Analytics].
+
+1. (Amministratore dell&#39;account agenzia, responsabile dell&#39;account agenzia, responsabile dell&#39;account di [!DNL Adobe] e solo utenti amministratore) [Crea un&#39;origine dati per [!DNL Google Analytics] account, proprietà e combinazione di visualizzazioni](data-source-configure.md).
+
+   Per integrare le metriche per più proprietà o per più viste per una singola proprietà, imposta un’origine dati separata per ciascuna.
+
+   Una volta configurata l’origine dati, Search, Social e Commerce estraggono i dati ogni giorno, a partire dalle 05:00 nel fuso orario dell’inserzionista. Una volta disponibili le metriche, puoi includerle nelle viste di gestione delle campagne e del portfolio e nei rapporti, e utilizzarle negli obiettivi di ottimizzazione, in base alle esigenze.
+
+>[!MORELIKETHIS]
+>
+>* [Prerequisiti per la configurazione di un&#39;origine dati [!DNL Google Analytics] &#x200B;](data-source-prerequisites.md)
+>* [Configurare una visualizzazione  [!DNL Google Analytics] come origine dati](data-source-configure.md)
+>* [Modifica origine dati [!DNL Google Analytics] &#x200B;](data-source-edit.md)
+>* [Sospendi la sincronizzazione di un&#39;origine dati](data-source-pause.md)
+>* [Autentica nuovamente un&#39;origine dati [!DNL Google Analytics] &#x200B;](data-source-reauthenticate.md)
+>* [[!DNL Google Analytics] impostazioni origine dati](data-source-settings.md)
+>* [Appendice - Disponibile [!DNL Google Analytics] metriche](data-source-ga-metrics.md)

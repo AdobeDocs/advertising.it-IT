@@ -1,0 +1,51 @@
+---
+title: Esporta dati per avvisi personalizzati
+description: Scopri come esportare in un file i dati di un avviso attivato.
+exl-id: e3467b39-21ed-431e-b5f4-c3dc2dd5266d
+feature: Search Alerts
+TQID: 'https://experienceleague.adobe.com/JyEfHoeveq0ZA5buoLKJis4RECKBtHNCiJZ982uXSW0'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d26a7c77-52b3-5c68-80ee-315aaaaee689
+    internal-label: Search Alerts
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '269'
+ht-degree: 0%
+---
+# Esporta dati per avvisi personalizzati
+
+È possibile esportare i dati per un avviso attivato o i dati per l&#39;avviso attivato più di recente per un modello di avviso come cartella di lavoro [!DNL Microsoft Excel] ([XLS](/help/search-social-commerce/glossary.md#w-x) file), file con valori separati da tabulazioni ([TSV](/help/search-social-commerce/glossary.md#s-t)) o file con valori separati da virgola ([CSV](/help/search-social-commerce/glossary.md#c-d)). I rapporti scaricabili sono disponibili per dieci giorni dopo l’attivazione dell’avviso e vengono quindi eliminati automaticamente.
+
+1. Effettuare una delle seguenti operazioni:
+
+   * Per esportare i dati per l&#39;avviso attivato più di recente per un modello di avviso, nel menu principale fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, che consente di aprire la visualizzazione Modelli di avviso.
+
+   * Per esportare i dati per un avviso attivato specifico, nel menu principale fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**. Nel sottomenu fare clic su **[!UICONTROL Triggered Alerts]**.
+
+1. Nella colonna [!UICONTROL Export] accanto al nome del modello o del report, fare clic sul nome di un formato, quindi aprire o salvare il file in base alla normale procedura del browser:
+
+   * **[!UICONTROL XLS]:** per una cartella di lavoro [!DNL Excel] con un singolo foglio di lavoro (XLS). Il rapporto include un foglio di lavoro, etichettato nella parte superiore con i parametri, con una riga per ogni componente incluso quando i dati per il componente sono disponibili. Le righe senza dati vengono omesse. I rapporti di base includono un totale per ogni colonna numerica.
+
+   * **[!UICONTROL TSV]:** per un file TSV. Il rapporto include i parametri e una riga per ciascun componente incluso.
+
+   * **[!UICONTROL CSV]:** per un file CSV. Il rapporto include i parametri e una riga per ciascun componente incluso.
+
+>[!MORELIKETHIS]
+>
+>* [Informazioni sugli avvisi personalizzati](alert-about.md)
+>* [Creare un modello di avviso personalizzato](alert-template-create.md)
+>* [Modifica un modello di avviso personalizzato](alert-template-edit.md)
+>* [Metti in pausa un modello di avviso personalizzato](alert-template-pause.md)
+>* [Attiva un modello di avviso personalizzato](alert-template-activate.md)
+>* [Eliminare un modello di avviso personalizzato](alert-template-delete.md)
+>* [Impostazioni modello di avviso personalizzato](alert-template-settings.md)
+>* [Visualizza avvisi personalizzati](alert-view.md)

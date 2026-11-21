@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7d9c610b13af9e4f64b9955fc89e71fcae708c45
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 Ogni pagina include il menu principale e altri menu basati su attività e informazioni.
 
-Il [profilo di prodotto](/help/search-social-commerce/new-ui/user-administration.md#default-product-profiles) determina le opzioni disponibili, incluse le funzionalità disponibili in ogni visualizzazione.
+Il [profilo di prodotto](/help/search-social-commerce/user-administration.md#default-product-profiles) determina le opzioni disponibili, incluse le funzionalità disponibili in ogni visualizzazione.
 
 ## Menu principale
 
@@ -83,7 +83,7 @@ La nuova interfaccia utente presenta un nuovo menu principale a sinistra, che or
 
 * Sottomenu **[!UICONTROL Plan]**:
 
-  * **[!UICONTROL Simulations]** Apre una nuova visualizzazione [[!UICONTROL Simulations]](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md), da cui è possibile visualizzare tutte le simulazioni personalizzate create dall&#39;utente e le simulazioni settimanali generate automaticamente; genera nuove simulazioni personalizzate ed esegue nuovamente le simulazioni esistenti. Il pulsante [!UICONTROL Spend Planner] apre lo strumento legacy [!UICONTROL Spend Recommendation] in [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
+  * **[!UICONTROL Simulations]** Apre una nuova visualizzazione [[!UICONTROL Simulations]](/help/search-social-commerce/plan/simulations/simulation-about.md), da cui è possibile visualizzare tutte le simulazioni personalizzate create dall&#39;utente e le simulazioni settimanali generate automaticamente; genera nuove simulazioni personalizzate ed esegue nuovamente le simulazioni esistenti. Il pulsante [!UICONTROL Spend Planner] apre lo strumento legacy [!UICONTROL Spend Recommendation] in [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 
   * **[!UICONTROL Spend Planner]** Chiude il nuovo sito e apre la visualizzazione legacy [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 

@@ -1,0 +1,56 @@
+---
+title: Creare una classificazione di etichette
+description: Scopri come creare una classificazione delle etichette per raggruppare i componenti dell’account.
+exl-id: 227f44d7-c422-4baa-94ff-6deafcddf920
+feature: Search Label Classifications
+TQID: 'https://experienceleague.adobe.com/zdshElTCMuExmxn7sV-9fXY8hyjRximonpWr7hAkDtI'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e29095c7-c364-5fb4-ac07-691793cb92e4
+    internal-label: Search Label Classifications
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '302'
+ht-degree: 0%
+---
+# Creare una classificazione di etichette
+
+Ogni inserzionista può avere fino a 30 classificazioni di etichette.
+
+## (Nuova interfaccia) Creare una classificazione delle etichette
+
+1. Fare clic su **[!UICONTROL Setup]>[!UICONTROL Label Classifications]**.
+
+1. In alto a destra, fare clic su **[!UICONTROL Create Classification]**.
+
+1. Immettere un nome di classificazione di etichetta univoco, quindi fare clic su **[!UICONTROL Create]**.
+
+   Il nome deve essere univoco per l&#39;account dell&#39;inserzionista e deve essere costituito da [caratteri ASCII da 32 a 126](https://www.asciitable.com/) e la lunghezza massima è di 27 caratteri a byte singolo. Il nome non può essere identico al nome di una colonna di report o di una colonna di bulksheet esistente. Vedi i nomi delle colonne dei bulksheet per [Baidu](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google Ads](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [LY Ads](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Microsoft Advertising](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Naver](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! Visualizza rete](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md) e [Yandex](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md).
+
+Dopo aver creato una classificazione delle etichette, puoi creare valori di etichetta specifici per la classificazione e assegnare i valori di etichetta alle entità account dalle [visualizzazioni di gestione campagne](classification-values-assign-campaign-management.md) o [utilizzando i bulksheet](classification-values-assign-bulksheets.md).
+
+## (Interfaccia precedente) Creare una classificazione delle etichette
+
+1. Fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**.
+
+1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Crea](/help/search-social-commerce/assets/add.png "Crea").
+
+1. Immettere un nome di classificazione di etichetta univoco, quindi fare clic su **[!UICONTROL Save]**.
+
+   Il nome deve essere univoco per l&#39;account dell&#39;inserzionista e deve essere costituito da [caratteri ASCII da 32 a 126](https://www.asciitable.com/) e la lunghezza massima è di 27 caratteri a byte singolo. Il nome non può essere identico al nome di una colonna di report o di una colonna di bulksheet esistente. Vedi i nomi delle colonne dei bulksheet per [Baidu](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google Ads](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [LY Ads](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Microsoft Advertising](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Naver](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! Visualizza rete](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md) e [Yandex](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md).
+
+Dopo aver creato una classificazione delle etichette, puoi creare valori di etichetta specifici per la classificazione e assegnare i valori di etichetta alle entità account dalle [visualizzazioni di gestione campagne](classification-values-assign-campaign-management.md) o [utilizzando i bulksheet](classification-values-assign-bulksheets.md).
+
+>[!MORELIKETHIS]
+>
+>* [Informazioni sulle classificazioni delle etichette](classification-about.md)
+>* [Assegna valori di classificazione ai componenti account dalle visualizzazioni di gestione campagne](classification-values-assign-campaign-management.md)
+>* [Assegna valori di classificazione ai componenti account tramite bulksheet](classification-values-assign-bulksheets.md)
+>* [Rimuovere i valori di classificazione delle etichette dai componenti dell&#39;account](classification-values-remove.md)
+>* [Elimina i valori di classificazione delle etichette](classification-values-delete.md)
+>* [Elimina classificazioni etichette](classification-delete.md)

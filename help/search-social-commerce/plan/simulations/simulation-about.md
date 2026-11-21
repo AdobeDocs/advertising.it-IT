@@ -1,0 +1,149 @@
+---
+title: Informazioni sulle simulazioni
+description: Scopri le simulazioni del portfolio.
+feature: Search Optimization, Search Portfolios, Search Simulations
+exl-id: 2fbefee2-f8f7-4b3d-a039-e1ca0236c61a
+TQID: 'https://experienceleague.adobe.com/9B4gKrZnnUmgj0LzxwM2CIkJsIO9Pe9R8RDR4mAmIwo'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+  - id: 893a7eac-45bd-56c2-a120-18db6d297dcc
+    internal-label: Search Portfolios
+  - id: 1d0fea65-a874-543d-94c9-b4dbf9e0360a
+    internal-label: Search Simulations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: 157c45d4939eff028543a0181397a59e6346309e
+workflow-type: tm+mt
+source-wordcount: '1241'
+ht-degree: 0%
+---
+# Informazioni sulle simulazioni
+
+*funzionalità Beta*
+
+I rapporti di simulazione mostrano il valore marginale stimato del costo per obiettivo, il costo, il numero di clic e il valore obiettivo che è possibile aspettarsi per un portfolio a vari livelli di spesa (costo) e i budget giornalieri corrispondenti o altri obiettivi. Facoltativamente, è possibile [personalizzare la visualizzazione](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) per visualizzare metriche di traffico aggiuntive, impostazioni di simulazione e solo un tipo di simulazione specifico ([!UICONTROL Weekly] o [!UICONTROL Custom]).
+
+<!--
+ Not available as of 6/21/25:
+When the portfolio has a daily budget, you can optionally change the portfolio's spend target to any of the spend targets listed in the simulation.
+-->
+
+## Tipi di simulazioni
+
+* Simulazioni settimanali automatizzate
+
+* Simulazioni personalizzate generate dall&#39;utente
+
+### Simulazioni settimanali automatizzate
+
+Search, Social e Commerce eseguono automaticamente rapporti di simulazione ogni settimana utilizzando le impostazioni di portfolio correnti. Le simulazioni settimanali automatizzate sono disponibili solo per i periodi in cui il portfolio è [ottimizzato o attivo](/help/search-social-commerce/manage/portfolios/portfolio-about.md).
+
+È possibile [scaricare simulazioni settimanali per un massimo di 100 portfolio per una data di esecuzione selezionata dalla visualizzazione [!UICONTROL Portfolios]](/help/search-social-commerce/manage/portfolios/portfolio-create-simulation.md#download-simulations) oppure [scaricare singole simulazioni dalla visualizzazione [!UICONTROL Simulations]](simulation-download.md).
+
+#### Simulazioni settimanali scaricate
+
+È possibile scaricare simulazioni settimanali come singole cartelle di lavoro o combinarle in un&#39;unica cartella di lavoro. Il rapporto per ciascuna simulazione include il target per ciascuno dei 20 livelli di passo e il costo previsto, i clic, i ricavi ponderati (valore obiettivo) e le metriche di conversione nell’obiettivo, in base al target corrispondente. La simulazione calcola le prime 20 righe di dati senza vincoli e le restanti righe di dati con vincoli.
+
+#### Dettagli simulazione settimanale su schermo
+
+I dettagli della simulazione su schermo mostrano informazioni visive e tabulari a livello di portfolio. Per i dati per campagna, gruppi di annunci, unità di offerta o dispositivo, [scarica la simulazione](simulation-download.md).
+
+##### Vista grafico
+
+La visualizzazione grafico mostra il valore obiettivo previsto o un&#39;altra metrica specificata ([!UICONTROL Y-Axis Metric]<!-- I see Objective Value, Cost, Clicks, the metrics in the portfolio's objective, and then a couple of other conversion metrics. Where do the other conversion metrics come from? -->) per il target di spesa per ciascuno dei 20 livelli di spesa. Il grafico identifica il punto intermedio di destinazione e, facoltativamente, puoi modificare il punto intermedio di destinazione per visualizzare i dati previsti utilizzando tale valore. Tenere premuto il cursore su un punto del grafico per visualizzare i dati relativi a tale punto.
+
+È possibile visualizzare i dati con vincoli, senza vincoli o entrambi. Quando visualizzate i dati con vincoli, la vista identifica tali vincoli sopra il grafico.
+
+##### Vista tabella
+
+La vista a tabella mostra la spesa target per ciascuno dei 20 livelli di spesa. Include inoltre il corrispondente costo stimato, il costo marginale rispetto al valore obiettivo, i clic, il valore obiettivo e le metriche di conversione nell’obiettivo del portfolio per ogni livello di spesa. La tabella identifica il punto intermedio di destinazione e, facoltativamente, è possibile modificare il punto intermedio di destinazione per visualizzare i dati previsti utilizzando tale valore.
+
+È possibile visualizzare i dati con vincoli, senza vincoli o entrambi. Quando visualizzate i dati con vincoli, la vista identifica tali vincoli sopra il grafico.
+
+##### Impostazioni simulazione
+
+La vista mostra le impostazioni di simulazione di sola lettura sotto il grafico o la tabella.
+
+##### Impostazioni Portfolio
+
+Per visualizzare le impostazioni di sola lettura per il portfolio applicabile, fare clic su **[!UICONTROL Portfolio Settings]** in alto a destra.
+
+### Simulazioni personalizzate generate dall&#39;utente
+
+È possibile creare un report di simulazione personalizzato per un singolo portfolio [ottimizzato o attivo](/help/search-social-commerce/manage/portfolios/portfolio-about.md) utilizzando le impostazioni correnti del portfolio oppure le impostazioni personalizzate del portfolio, con o senza vincoli a livello di unità di offerta applicati, per visualizzare i risultati che tali impostazioni produrrebbero senza modificarle. Ad esempio, puoi creare una simulazione personalizzata per vedere l’effetto dell’utilizzo di una strategia di spesa o di un budget di apprendimento diverso senza considerare i vincoli attivi sulle unità di offerta nel portfolio. Puoi visualizzare le prestazioni stimate a livello di portfolio, campagna, unità di offerta e dispositivo.
+
+#### Simulazioni personalizzate scaricate
+
+È possibile scaricare simulazioni personalizzate come singole cartelle di lavoro o combinarle in un&#39;unica cartella di lavoro. Il rapporto di ogni simulazione include un foglio di lavoro per ogni livello di entità specificato (portafogli, campagne, gruppi di annunci, unità di offerta) quando i dati sono disponibili per tale livello. Quando si specificano dati a livello di dispositivo, ogni foglio di lavoro include una colonna [!UICONTROL Device]. Ogni foglio di lavoro include una riga per ogni entità applicabile e, quando si richiedono dati a livello di dispositivo, il tipo di dispositivo per ciascuno dei 20 passaggi, ad esempio una riga per campagna. I dati in ogni riga includono il costo marginale previsto per ricavi, costo, clic, ricavi ponderati (valore obiettivo), il tipo di dispositivo e le metriche di conversione nell’obiettivo, in base al target corrispondente. Il foglio di lavoro a livello di portfolio include anche la destinazione per i livelli di fase e il foglio di lavoro a livello di entità include la rete di annunci, il conto, la campagna e (se applicabile) il gruppo di annunci.   <!-- I don't see a Bid Units tab when specified; clarify when it is and isn't included -->
+
+#### Dettagli della simulazione personalizzata su schermo
+
+I dettagli della simulazione su schermo mostrano informazioni visive e tabulari a livello di portfolio. Per i dati per campagna, gruppi di annunci, unità di offerta o dispositivo, [scarica la simulazione](simulation-download.md).
+
+#### Vista grafico
+
+La visualizzazione grafico mostra il valore obiettivo previsto o un&#39;altra metrica specificata ([!UICONTROL Y-Axis Metric]<!-- I see Objective Value, Cost, Clicks, the metrics in the portfolio's objective, and then a couple of other conversion metrics. Where do the other conversion metrics come from? -->) per il target di spesa per il numero specificato di livelli di spesa (passaggi) per la simulazione. Il grafico identifica il punto intermedio di destinazione. Tenere premuto il cursore su un punto del grafico per visualizzare i dati relativi a tale punto.
+
+Quando la simulazione tiene conto dei vincoli, la vista identifica tali vincoli al di sopra del grafico.
+
+##### Vista tabella
+
+La vista tabella mostra la spesa target per ciascuno dei livelli di spesa specificati (passaggi) per la simulazione. Mostra anche il costo stimato corrispondente, il costo marginale rispetto al valore obiettivo, i clic, il valore obiettivo e le metriche di conversione nell’obiettivo del portfolio per ogni livello di spesa. La tabella identifica il punto intermedio di destinazione.
+
+Quando la simulazione tiene conto dei vincoli, la vista identifica tali vincoli al di sopra del grafico.
+
+##### Impostazioni simulazione
+
+La vista mostra le impostazioni di simulazione di sola lettura sotto il grafico o la tabella.
+
+##### Impostazioni Portfolio
+
+Per visualizzare le impostazioni di sola lettura per il portfolio applicabile, fare clic su **[!UICONTROL Portfolio Settings]** in alto a destra.
+
+## Visualizzazione [!UICONTROL Simulations]
+
+Nella visualizzazione [!UICONTROL Simulations] sono elencate le simulazioni settimanali e personalizzate. L&#39;amministratore e alcuni altri tipi di utenti<!-- Verify which --> possono visualizzare simulazioni personalizzate create da altri utenti. Tutti gli altri utenti possono visualizzare solo le simulazioni personalizzate create.
+
+La tabella di dati mostra l&#39;avanzamento di ogni simulazione, [!UICONTROL Target Midpoint] per ogni riga e colonne per le previsioni di costi/impression/clic/valore obiettivo, i valori effettivi e la precisione. Facoltativamente, puoi aggiungere colonne personalizzate aggiuntive (comprese le metriche di incremento, ad esempio il valore obiettivo effettivo diviso per il costo).
+
+### Azioni disponibili {#simulations-actions}
+
+* [Personalizzare la visualizzazione](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) per includere ulteriori metriche, incluse le impression stimate, il costo effettivo, i clic, le impression e il valore obiettivo, il valore costo-obiettivo, la precisione del costo, la precisione dei clic e la precisione del valore obiettivo e la differenza (delta) tra il valore obiettivo previsto ed effettivo e il valore costo-obiettivo. È inoltre possibile includere colonne per la maggior parte delle impostazioni di simulazione e per il tipo di simulazione ([!UICONTROL Custom] o [!UICONTROL Weekly]).
+
+* [Genera una simulazione personalizzata](simulation-create.md#simulation-create) per un singolo portfolio, utilizzando come impostazioni predefinite le impostazioni correnti del portfolio.
+
+* [Eseguire nuovamente fino a 10 simulazioni con le impostazioni esistenti](simulation-create.md#rerun-a-simulation-with-the-existing-settings). In Search, Social e Commerce le simulazioni con stato [!UICONTROL Queued] o [!UICONTROL In Progress] vengono ignorate.
+
+* [Visualizza sullo schermo una simulazione settimanale o personalizzata](simulation-view.md).
+
+* [Scarica fino a 10 simulazioni settimanali e personalizzate](simulation-download.md) come una singola cartella di lavoro [!DNL Microsoft Excel] o come cartelle di lavoro separate in un file ZIP.
+
+* Utilizzando il pulsante [!UICONTROL Spend Planner], apri lo strumento legacy Spend Recommendation, che ti consente di identificare la distribuzione ottimale della spesa tra i portfolio.
+
+## Best practice
+
+Monitora i rapporti di simulazione nelle seguenti situazioni:
+
+* Prima di avviare un portfolio per stimarne le prestazioni con le impostazioni di portfolio corrispondenti, utilizza almeno due settimane di dati. Se i risultati della simulazione indicano prestazioni inferiori a quelle previste in base ai dati storici per le campagne incluse, esamina e risolvi i problemi prima di lanciare il portfolio.
+
+* Dopo qualsiasi modifica importante apportata a un portfolio, ad esempio l’aggiunta di una campagna o la modifica dell’obiettivo. Se apporti modifiche alla data di inizio della modellazione del portfolio, al peso di una metrica di conversione o al valore di clic di un obiettivo, attendi fino alle 17:00 PST del giorno successivo per eseguire la simulazione, quando sono disponibili modelli aggiornati di costi e ricavi.
+
+* Periodicamente per monitorare le tendenze delle prestazioni a livello di metrica di conversione.
+
+>[!MORELIKETHIS]
+>
+>* [Esegui o riesegui una simulazione](simulation-create.md)
+>* [Visualizza dettagli simulazione](simulation-view.md)
+>* [Scarica simulazioni](simulation-download.md)

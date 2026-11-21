@@ -1,0 +1,108 @@
+---
+title: '[!DNL LY Ads] impostazioni campagna'
+description: Fai riferimento alle impostazioni per [!DNL LY Ads] campagne.
+exl-id: 29acde0f-13f6-422d-b611-23ebb2ee70d9
+feature: Search Campaign Management
+TQID: 'https://experienceleague.adobe.com/okWpkqtz0o33r--74ZV2f-f8-1G9ieVY-oei-YSk4hk'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '116'
+ht-degree: 0%
+---
+# [!DNL LY Ads] impostazioni campagna
+
+## \[Schermata Creazione campagna\]
+
+**[!UICONTROL Campaign Type]:** (disponibile solo durante la creazione della campagna) Dove inserire annunci: l&#39;unica opzione è *[!UICONTROL Search Network Only]* per visualizzare annunci di testo nella rete di ricerca.
+
+## [!UICONTROL Campaign Details]
+
+**[!UICONTROL Campaign Name]:** Nome di campagna univoco all&#39;interno dell&#39;account.
+
+<!-- **[!UICONTROL Start date]:** -->
+
+{{$include /help/_includes/start-date.md}}
+
+**[!UICONTROL Status]:** Lo stato di visualizzazione della campagna: *Attivo* o *In pausa*. Il valore predefinito per le nuove campagne pubblicitarie è *Attivo*.
+
+<!-- **[!UICONTROL End date]:** -->
+
+{{$include /help/_includes/end-date.md}}
+
+## [!UICONTROL Budget Options]
+
+**[!UICONTROL Budget]:** Il budget, ovvero l&#39;importo che si desidera spendere in media ogni giorno. Il budget minimo giornaliero è di 100 JPY.
+
+Se si assegna questa campagna a un portfolio per il quale i limiti di budget delle campagne vengono adeguati automaticamente, a seconda delle condizioni di ricerca, è possibile spendere effettivamente più o meno del budget specificato in un dato periodo.
+
+<!-- **[!UICONTROL Delivery Method]:** -->
+
+{{$include /help/_includes/delivery-method.md}}
+
+## [!UICONTROL Campaign Targeting]
+
+<!-- **[!UICONTROL Location Targets]:** -->
+
+{{$include /help/_includes/location-targets.md}}
+
+## [!UICONTROL URL Options]
+
+<!-- **[!UICONTROL Tracking Template]:** -->
+
+{{$include /help/_includes/tracking-template-yahoo-japan.md}}
+
+## [!UICONTROL Negative Keywords]
+
+<!-- **[!UICONTROL Campaign Negative Keywords]:** -->
+
+{{$include /help/_includes/negative-keyword.md}}
+
+<!-- Note for **[!UICONTROL Campaign Negative Keywords]:** -->
+
+{{$include /help/_includes/negative-keyword-note-yahoo-japan.md}}
+
+## [!UICONTROL Campaign Tracking]
+
+<!-- **[!UICONTROL Override Account Tracking]:** -->
+
+{{$include /help/_includes/override-account-tracking.md}}
+
+<!-- **[!UICONTROL Tracking Type]:** -->
+
+{{$include /help/_includes/tracking-type.md}}
+
+<!-- **[!UICONTROL Redirect Type]:** -->
+
+{{$include /help/_includes/redirect-type.md}}
+
+<!-- **[!UICONTROL Auto Upload]:** -->
+
+{{$include /help/_includes/auto-upload.md}}
+
+<!-- **[!UICONTROL Encode Base URL]:** -->
+
+{{$include /help/_includes/encode-base-url.md}}
+
+<!-- **[!UICONTROL Tracking Level]:** -->
+
+{{$include /help/_includes/tracking-level.md}}
+
+<!-- **[!UICONTROL Append Parameters]:** -->
+
+{{$include /help/_includes/append-parameters.md}}
+
+>[!MORELIKETHIS]
+>
+>* [Gestisci campagne](/help/search-social-commerce/legacy-ui/campaign-management/campaigns/campaign-manage.md)

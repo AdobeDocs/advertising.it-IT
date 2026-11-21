@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '2408'
 ht-degree: 0%
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 **monitoraggio delle conversioni:** Il monitoraggio delle conversioni utilizza i cookie per monitorare a) i clic sugli annunci di un inserzionista sulle reti pubblicitarie e b) le transazioni risultanti sul sito Web dell&#39;inserzionista.
 
-**precisione costi:** (inserzionisti con portfolio) La spesa effettiva per un portfolio divisa per la spesa prevista. [I report sulla precisione del modello](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indicano la precisione dei modelli di costo utilizzati per l&#39;ottimizzazione e [[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md) include ulteriori dettagli, oltre a suggerimenti per migliorare la precisione del modello.
+**precisione costi:** (inserzionisti con portfolio) La spesa effettiva per un portfolio divisa per la spesa prevista. [I report sulla precisione del modello](/help/search-social-commerce/legacy-ui/reports/management/model-accuracy/model-accuracy-report-about.md) indicano la precisione dei modelli di costo utilizzati per l&#39;ottimizzazione e [[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/legacy-ui/advertising-insights/insight-about.md) include ulteriori dettagli, oltre a suggerimenti per migliorare la precisione del modello.
 
 **modello di costo:** (inserzionisti con portfolio) Tecnologia Search, Social e Commerce che prevede il volume di costo, l&#39;offerta necessaria per aggiudicarsi ogni posizione o posizionamento e il CPC (ricerca) o CPM (visualizzazione) per ogni unità di offerta utilizzando dati storici e tecniche di previsione matematica.
 
@@ -178,7 +178,7 @@ Questo ha lo stesso valore della colonna legacy &quot;Ricavi ponderati&quot;.
 
 **utile sul capitale investito:** (ROI) Ricavi meno costi.
 
-**precisione ricavi:** (inserzionisti con portfolio) I ricavi effettivi per un portfolio divisi per i ricavi previsti. [I report sulla precisione del modello](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indicano la precisione dei modelli di ricavo utilizzati per l&#39;ottimizzazione e [[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md) include ulteriori dettagli, oltre a suggerimenti per migliorare la precisione del modello.
+**precisione ricavi:** (inserzionisti con portfolio) I ricavi effettivi per un portfolio divisi per i ricavi previsti. [I report sulla precisione del modello](/help/search-social-commerce/legacy-ui/reports/management/model-accuracy/model-accuracy-report-about.md) indicano la precisione dei modelli di ricavo utilizzati per l&#39;ottimizzazione e [[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/legacy-ui/advertising-insights/insight-about.md) include ulteriori dettagli, oltre a suggerimenti per migliorare la precisione del modello.
 
 **modello di ricavo:** (inserzionisti con portfolio) Tecnologia Search, Social e Commerce che prevede il tasso di conversione e il rendimento stimato per ogni unità di offerta, in base ai dati di clic (ricerca e social) o ai dati di impression (visualizzazione) e ai dati di conversione dell&#39;inserzionista.
 

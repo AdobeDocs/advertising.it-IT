@@ -1,0 +1,65 @@
+---
+title: Visualizza dettagli simulazione
+description: Scopri come visualizzare i dettagli della simulazione sullo schermo.
+feature: Search Optimization, Search Portfolios, Search Simulations
+exl-id: 1b289d20-561d-4cf9-844e-9cedff7f6296
+autotag-review: '2026-04-14T00:03:09.422Z'
+TQID: 'https://experienceleague.adobe.com/kJNXIMqCSSnXVGDPgGgmB5N10n1an59qONEVev7wqLY'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+  - id: 893a7eac-45bd-56c2-a120-18db6d297dcc
+    internal-label: Search Portfolios
+  - id: 1d0fea65-a874-543d-94c9-b4dbf9e0360a
+    internal-label: Search Simulations
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+subfeature_v2:
+  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: Admin
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+source-git-commit: 157c45d4939eff028543a0181397a59e6346309e
+workflow-type: tm+mt
+source-wordcount: '136'
+ht-degree: 0%
+---
+# Visualizza dettagli simulazione
+
+<!-- Needs subfeature tag "portfolios -->
+
+*funzionalità Beta*
+
+Puoi visualizzare i dettagli della simulazione sullo schermo sotto forma di grafico o tabella.
+
+1. Nel menu principale, fare clic su **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
+
+1. Fai clic sul nome delle simulazioni.
+
+   La simulazione viene visualizzata nella vista grafico.
+
+1. (Facoltativo) Nella vista Grafico, effettuate una delle seguenti operazioni:
+
+   * Per modificare la metrica per la quale vengono visualizzati i dati stimati per ogni livello di destinazione di spesa (passaggio), selezionare una nuova metrica dal menu **[!UICONTROL Y-Axis Metric]**.
+
+   * Solo simulazioni settimanali Immettere un nuovo valore **[!UICONTROL Target Mid Point]** per visualizzare i dati previsti utilizzando tale valore.
+
+   * (Solo simulazioni settimanali) Dal menu **[!UICONTROL Constraints]** scegliere se visualizzare i dati *[!UICONTROL With Constraints]*, *[!UICONTROL Without Constraints]* o *[!UICONTROL With and Without]*.
+
+1. (Facoltativo) Per aprire la visualizzazione tabella, fare clic sulla scheda **[!UICONTROL Table View]**.
+
+1. (Facoltativo) Per visualizzare le impostazioni di sola lettura per il portfolio applicabile, fare clic su **[!UICONTROL Portfolio Settings]** in alto a destra.
+
+>[!MORELIKETHIS]
+>
+>* [Informazioni sulle simulazioni](simulation-about.md)
+>* [Esegui o riesegui una simulazione](simulation-create.md)
