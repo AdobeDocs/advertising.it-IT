@@ -49,7 +49,7 @@ Per gli account connessi tramite un’API, Search, Social e Commerce recuperano 
 
 Se necessario, è possibile [richiedere una sincronizzazione manuale](/help/search-social-commerce/manage/accounts/api-accounts/sync-api-accounts.md). Se un account smette di sincronizzarsi, rivederne [l&#39;autenticazione e lo stato di accesso](/help/search-social-commerce/manage/accounts/api-accounts/api-account-manage.md#authentication-status).
 
-Gli account di caricamento dati e gli account di solo tracciamento non vengono sincronizzati con la rete di annunci. Segui il flusso di lavoro per il tipo di account [](/help/search-social-commerce/manage/accounts/ad-network-account-about.md) per fornire dati sulla campagna e sulle prestazioni.
+Gli account di caricamento dati e gli account di solo tracciamento non vengono sincronizzati con la rete di annunci. Segui il flusso di lavoro per il tipo di account [&#128279;](/help/search-social-commerce/manage/accounts/ad-network-account-about.md) per fornire dati sulla campagna e sulle prestazioni.
 
 ## Configurare il tracciamento e l’ottimizzazione
 

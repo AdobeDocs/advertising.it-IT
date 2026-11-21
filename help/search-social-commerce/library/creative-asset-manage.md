@@ -110,7 +110,7 @@ Le risorse di testo rimosse non verranno più servite, ma i dati sulle prestazio
 
 1. Nella barra degli strumenti Azioni in blocco fare clic su **[!UICONTROL Remove]**.
 
-1. <!-- VERIFY -->Nel messaggio di conferma, fare clic su **[!UICONTROL Remove]**.
+1. &#x200B;<!-- VERIFY -->Nel messaggio di conferma, fare clic su **[!UICONTROL Remove]**.
 
 >[!MORELIKETHIS]
 >
