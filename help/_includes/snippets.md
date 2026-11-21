@@ -1,9 +1,8 @@
 ---
-source-git-commit: 287e8bd0c2a3c3aedbf5f1f9551823b0c4586a57
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '537'
 ht-degree: 0%
-
 ---
 # Snippet
 
@@ -50,7 +49,7 @@ Per il tracciamento delle conversioni di Adobe Advertising, applicato quando le 
 
 ## Testo e modello: nota che spiega come inserire un parametro dinamico {#inventory-feed-template-insert-dynamic-parameter}
 
-Per inserire un nome di colonna o un gruppo di modificatori come parametro dinamico, fare clic nel campo di input e quindi fare clic su un nome di colonna nell&#39;elenco delle colonne o su un nome di [modificatore](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) nell&#39;elenco dei modificatori. Per inserire la variabile [!DNL Param1] o [!DNL Param2], immettere il valore `{param1:default text}` o `{param2:default text}`, dove &quot;testo predefinito&quot; è il testo utilizzato se la colonna dei parametri nel file di feed è vuota per una riga di annuncio.
+Per inserire un nome di colonna o un gruppo di modificatori come parametro dinamico, fare clic nel campo di input e quindi fare clic su un nome di colonna nell&#39;elenco delle colonne o su un nome di [modificatore](/help/search-social-commerce/legacy-ui/campaign-management/inventory-feeds/modifiers-manage.md) nell&#39;elenco dei modificatori. Per inserire la variabile [!DNL Param1] o [!DNL Param2], immettere il valore `{param1:default text}` o `{param2:default text}`, dove &quot;testo predefinito&quot; è il testo utilizzato se la colonna dei parametri nel file di feed è vuota per una riga di annuncio.
 
 ## Modello di annuncio testuale: nota che spiega come inserire un ad customizer {#inventory-feed-template-insert-ad-customizer}
 

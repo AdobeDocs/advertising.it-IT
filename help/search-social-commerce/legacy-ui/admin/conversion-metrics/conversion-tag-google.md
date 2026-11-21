@@ -1,0 +1,86 @@
+---
+title: Crea un tag di conversione per [!DNL Google Ads]
+description: Scopri come creare un tag di conversione [!DNL Google Ads].
+feature: Conversions
+exl-id: 214611f0-bd38-499e-a7de-3a5878995fb5
+TQID: 'https://experienceleague.adobe.com/pskBpQ12sQXj9RyLd3IQAG0MktlOvV2JvZBl5rGtQT0'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
+workflow-type: tm+mt
+source-wordcount: '436'
+ht-degree: 0%
+---
+# Crea un tag di conversione per [!DNL Google Ads]
+
+È possibile creare tag di conversione per tenere traccia delle nuove conversioni per singoli account [!DNL Google Ads], non a livello di account manager.
+
+Per generare tag di conversione per le conversioni esistenti, utilizza l’editor della rete di annunci.
+
+1. Nel menu principale, fare clic su **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**, che consente di aprire la scheda **[!UICONTROL Summary]**.
+
+1. Nella barra degli strumenti sopra la tabella dati, fare clic su ![Crea](/help/search-social-commerce/assets/add.png "Crea").
+
+1. Specificare le [impostazioni tag di conversione](#conversion-tag-settings-google).
+
+   1. Selezionare l&#39;account, quindi selezionare il tipo di conversione.
+
+   1. Fare clic su **[!UICONTROL Next]**.
+
+   1. Specifica le opzioni di conversione.
+
+   1. Fare clic su **[!UICONTROL Generate]**.
+
+1. Copia il tag di conversione e implementalo sui siti web da cui desideri tenere traccia della metrica di conversione.
+
+   Vedere &quot;Installazione del tag [!DNL Google]&quot; nella Guida di [!DNL Google Ads] per &quot;[2. Configura il tuo tag Google](https://support.google.com/google-ads/answer/12215519).&quot;
+
+1. Fare clic su **[!UICONTROL Done].**
+
+Una volta aggiunti i tag al sito Web e che iniziano a essere attivati, [!DNL Google Ads] registra le conversioni nel sito Web. Search, Social e Commerce sincronizzano le conversioni ogni giorno. Per ulteriori informazioni sui dati sincronizzati, vedere &quot;[[!DNL Google Ads] dati di conversione in Search, Social e Commerce](/help/search-social-commerce/tracking/google-conversion-data.md).
+
+## Impostazioni dei tag di conversione {#conversion-tag-settings-google}
+
+**[!UICONTROL Select an Account]:** L&#39;account [!DNL Google Ads] applicabile.
+
+**[!UICONTROL Type of Conversion]:** Tipo di conversione da tenere traccia: *[!UICONTROL Click on a webpage element]*, *[!UICONTROL Calls to a phone number on your website]* o *[!UICONTROL Clicks to your number on your mobile website]*. **Nota:** *[!UICONTROL Import conversion]* è utilizzato per uno scopo diverso. Vedere &quot;[Creare un&#39;azione di conversione per una  [!DNL Google Ads] conversione avanzata per lead](/help/search-social-commerce/legacy-ui/admin/conversion-metrics/conversion-action-google.md).&quot;
+
+**[!UICONTROL Conversion Name]:** Nome univoco per la metrica di conversione.
+
+**\[Categoria conversione\]:** La categoria di conversione. Le categorie disponibili variano in base al tipo di conversione. Per *[!UICONTROL Calls to a phone number on your website]* e *[!UICONTROL Clicks to your number on your mobile website]*, &quot;[!UICONTROL Phone Call Lead]&quot; è selezionato per impostazione predefinita.
+
+**\[Tipo azione\]:** Se l&#39;obiettivo è *[!UICONTROL Primary action used for bidding optimization]* o *[!UICONTROL Secondary action not used for bidding optimization]*.
+
+**[!UICONTROL Value]:** Come misurare il [valore di ogni conversione](https://support.google.com/google-ads/answer/3419241):
+
+* *[!UICONTROL Use the same value for each conversion],* che richiede di selezionare una valuta e immettere il valore per ogni conversione.
+
+* *[!UICONTROL Use a different value for each conversion],* che richiede di selezionare una valuta e immettere un valore predefinito per ogni conversione. Puoi modificare il valore predefinito nel tag con un valore specifico per la transazione quando implementi il tag in una pagina web specifica.
+
+* *[!UICONTROL Don't use a value for this conversion action (Not recommended)]*
+
+**[!UICONTROL Count]:** [Quante conversioni conteggiare per clic o interazione](https://support.google.com/google-ads/answer/3438531): *[!UICONTROL Every (Recommended for every purchases because every purchase is valuable)]* o *[!UICONTROL One (Recommended for leads, sign-ups and other conversions because only the first interaction is valuable)]*.
+
+**[!UICONTROL Click Through Conversion Window]:** il numero massimo di giorni dopo un&#39;interazione dell&#39;annuncio per i quali vengono registrate le conversioni. Per le campagne di ricerca, visualizzazione e acquisto, la finestra può essere di 1-90 giorni. Selezionare un numero o selezionare **[!UICONTROL Custom]** e immettere un numero.
+
+**[!UICONTROL View Through Conversion Window]:** il numero massimo di giorni dopo i quali un utente visualizza i tuoi annunci e per i quali vengono registrate le conversioni view-through. Per le campagne di ricerca, visualizzazione e acquisto, la finestra può essere di 1-90 giorni. Selezionare un numero o selezionare **[!UICONTROL Custom]** e immettere un numero.
+
+**[!UICONTROL Attribution Model]:** [Quanto credito riceve ogni interazione pubblicitaria](https://support.google.com/google-ads/answer/6259715?sjid=8211249329930775138): *[!UICONTROL Data driven]* o *[!UICONTROL Last click]*. **Nota:** le azioni di conversione che in precedenza utilizzavano i modelli *[!UICONTROL First click]*, *[!UICONTROL Linear]*, *[!UICONTROL Time decay]* o *[!UICONTROL Position based]* non supportati ora utilizzano il modello *[!UICONTROL Data driven]*.
+
+>[!MORELIKETHIS]
+>
+>* [Carica dati di conversione offline per conversioni avanzate](/help/search-social-commerce/legacy-ui/admin/conversion-metrics/upload-data-offline-conversions.md)
+>* [[!DNL Google Ads] dati di conversione in Search, Social e Commerce](/help/search-social-commerce/tracking/google-conversion-data.md)

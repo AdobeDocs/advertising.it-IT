@@ -1,0 +1,66 @@
+---
+title: '[!UICONTROL Bing Ads Geo Report]'
+description: Informazioni su [!UICONTROL Bing Ads Geo Report].
+exl-id: 8829ac72-d622-485d-abfb-310778f266b7
+feature: Search Reports, Search Specialty Reports
+TQID: 'https://experienceleague.adobe.com/eHhR6-ryKtKJFBuvC-U1a3D72b8QgJip8D5pf3kKZKM'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '230'
+ht-degree: 0%
+---
+# [!UICONTROL Bing Ads Geo Report]
+
+Solo *[!DNL Microsoft Advertising]account*
+
+[!UICONTROL Bing Ads Geo Report] include dati di costo, clic, impression e (facoltativamente) metriche derivate per combinazioni di paese/area geografica/codice metropolitana/città per ogni gruppo di annunci in uno o più account. Per impostazione predefinita, i dati includono una riga per ogni combinazione di paese/area geografica/codice metropolitana/città che ha ricevuto almeno un’impression o un clic per ogni gruppo di annunci applicabile per ogni unità di tempo nell’intervallo di date specificato. Per impostazione predefinita, le righe sono in ordine crescente per nome della campagna e quindi per paese, regione, codice della metropolitana, città e gruppo di annunci. Il report non include i dati di conversione rilevati da [!DNL Microsoft Advertising] né da [!DNL Adobe].
+
+Puoi visualizzare i dati relativi ai due mesi precedenti.
+
+>[!NOTE]
+>
+>* I totali per questo report possono differire dai totali per le stesse campagne e lo stesso periodo di tempo in [!UICONTROL Geo Distribution Report] (compilato da Search, Social e Commerce) a causa di fornitori e metodologie diversi nella determinazione delle posizioni geografiche.
+>* I dati per questo report vengono estratti per il giorno precedente alle 23:00 (23:00) ogni giorno. Ad esempio, alle 23:00 del 18 giugno, estrae i dati per il 17 giugno. Se esegui il rapporto il 19 giugno alle 09:00 — prima che i dati per il 18 giugno vengano estratti — il rapporto include i dati fino al 17 giugno alle 23:00.
+
+## Colonne predefinite
+
+Per le descrizioni di tutte le colonne predefinite e personalizzate, vedere &quot;[Colonne report per report speciali](specialty-report-columns.md).&quot;
+
+* [!UICONTROL Account Name]
+* [!UICONTROL Start Date]
+* [!UICONTROL End Date]
+* [!UICONTROL Campaign Name]
+* [!UICONTROL Campaign Status]
+* [!UICONTROL Ad Group Name]
+* [!UICONTROL Ad Group Status]
+* [!UICONTROL Country]
+* [!UICONTROL Region]
+* [!UICONTROL Metro Code]
+* [!UICONTROL City]
+* [!UICONTROL Impressions]
+* [!UICONTROL Clicks]
+* [!UICONTROL Cost]
+* [!UICONTROL CTR]
+* [!UICONTROL CPC]
+* [!UICONTROL Average Position]
+* [!UICONTROL Ad Distribution]
+
+>[!MORELIKETHIS]
+>
+>* [Informazioni sui report speciali](specialty-report-about.md)
+>* [Generare un report speciale](specialty-report-generate.md)
+>* [Impostazioni report speciali](specialty-report-settings.md)

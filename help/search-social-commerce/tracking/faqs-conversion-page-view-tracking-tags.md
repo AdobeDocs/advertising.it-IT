@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Quanto segue si applica ai tag di tracciamento delle conversioni e ai tag di tra
 >[!NOTE]
 >
 >* Tutte le nuove implementazioni utilizzano JavaScript versione 3.
->* Il tag JavaScript con ECID utilizza il servizio [Adobe Experience Cloud ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=it), nonché i precedenti ef_id e gsurferid per misurare le conversioni. Questo tag più recente crea [cookie s_ecid di prime parti di CX Enterprise](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=it) e fornisce un&#39;integrazione più stretta con altri prodotti CX Enterprise.
+>* Il tag JavaScript con ECID utilizza il servizio [Adobe Experience Cloud ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html), nonché i precedenti ef_id e gsurferid per misurare le conversioni. Questo tag più recente crea [cookie s_ecid di prime parti di CX Enterprise](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html) e fornisce un&#39;integrazione più stretta con altri prodotti CX Enterprise.
 >* Utilizza i tag di JavaScript versione 2 solo quando sono già implementati nelle pagine web dell’inserzionista.
 >* La best practice prevede l’utilizzo di tag JavaScript invece dei tag immagine, a meno che il sito non preveda una policy che ne impedisca l’utilizzo.
 >* I tag JavaScript sono necessari per gli inserzionisti che desiderano eseguire il targeting dei tipi di pubblico creati in Adobe CX Enterprise, creati in Adobe Audience Manager o pubblicati in Adobe CX Enterprise da Audience Manager o Adobe Analytics.
@@ -48,7 +48,7 @@ Quanto segue si applica ai tag di tracciamento delle conversioni e ai tag di tra
 >[!MORELIKETHIS]
 >
 >* [Informazioni sui tag di tracciamento delle conversioni di Adobe Advertising](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
->* [Generare un tag di conversione Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [Generare un tag di conversione Adobe Advertising](/help/search-social-commerce/legacy-ui/tools/conversion-tag-generate.md)
 >* [Formato dei tag di tracciamento conversione di JavaScript versione 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
 >* [Formato dei tag di tracciamento conversione di JavaScript versione 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
 >* [Formato dei tag di tracciamento conversione immagine](/help/search-social-commerce/tracking/format-conversion-tag-image.md)

@@ -1,9 +1,7 @@
 ---
 title: '[!UICONTROL Label Classification Report]'
 description: Informazioni su [!UICONTROL Label Classification Report].
-exl-id: 847fa384-b9c6-446f-9ebf-da7679ed35ae
 feature: Search Reports, Search Basic Reports
-TQID: 'https://experienceleague.adobe.com/75t5C8Cz-EE5vsPYYXHWHSE-6ZDhwSQaEgtAdirYHQU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,17 +10,9 @@ feature_v2:
     internal-label: Search Reports
   - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
     internal-label: Search Basic Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-    internal-label: Reporting
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '228'
 ht-degree: 0%
 ---
 # [!UICONTROL Label Classification Report]
@@ -35,7 +25,7 @@ Puoi visualizzare i dati relativi ai 36 mesi precedenti.
 >
 >* Il reporting in base alle classificazioni delle etichette a livello di annuncio non è disponibile per [!DNL Microsoft Advertising] campagne DSA (Dynamic Search Ad).
 >* Più classificazioni di etichetta possono essere applicate alla stessa entità, quindi il totale per ogni metrica può essere superiore al totale effettivo per l’entità. Ad esempio, supponiamo che una parola chiave &quot;suede shoes&quot; abbia due valori di etichetta, &quot;suede&quot; e &quot;footwear&quot;, e che la parola chiave abbia ricevuto 100 clic. La colonna Clic visualizzerebbe &quot;100&quot; per ciascuno di questi valori di etichetta, quindi il totale per entrambe le righe sarebbe &quot;200&quot;.
->* Eventuali modifiche apportate alle classificazioni delle etichette e ai valori delle etichette secondarie di un’entità sono visibili in circa un’ora.
+* Eventuali modifiche apportate alle classificazioni delle etichette e ai valori delle etichette secondarie di un’entità sono visibili in circa un’ora.
 
 ## Colonne predefinite
 
@@ -56,5 +46,5 @@ Per le descrizioni di tutte le colonne predefinite e personalizzate, vedere &quo
 >[!MORELIKETHIS]
 >
 >* [Informazioni sui report di base e avanzati](basic-advanced-report-about.md)
->* [Genera un report di base o avanzato](basic-advanced-report-generate.md)
+>* [Gestisci report pianificati](/help/search-social-commerce/reports/management/report-manage.md)
 >* [Impostazioni di base e avanzate del report](basic-advanced-report-settings.md)

@@ -1,9 +1,7 @@
 ---
 title: '[!UICONTROL Campaign Assist Report]'
 description: Informazioni su [!UICONTROL Campaign Assist Report].
-exl-id: c89b4c9f-16d5-4e1a-a73f-6cc99dd3f526
 feature: Search Reports, Search Assist Reports
-TQID: 'https://experienceleague.adobe.com/9CQ9aS6g0C1lCEYQbGEjctsZXEtIqjLOl5ohP45YFSU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,13 +10,7 @@ feature_v2:
     internal-label: Search Reports
   - id: ab19d4f9-a5e8-54d2-a6d6-a154af73fd6d
     internal-label: Search Assist Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '857'
 ht-degree: 1%
@@ -47,7 +39,7 @@ Di seguito sono riportate le colonne disponibili per ogni rapporto. Le colonne p
 
 | Colonna | Predefinito? | Descrizione |
 | ---- | ---- | ---- |
-| Da [!UICONTROL 1st Campaign] a [!UICONTROL 5th Campaign] | Predefinito | Le prime cinque campagne nel percorso di conversione che si sono verificate nell&#39;intervallo di lookback [click](/help/search-social-commerce/glossary.md#c-d) e nell&#39;intervallo di lookback [&#x200B; dell&#39;inserzionista.](/help/search-social-commerce/glossary.md#i-j)<br><br>Se hai incluso una delle opzioni di report per indicare la rete di annunci, il nome account o il tipo di evento dopo il nome dell&#39;entità, tali informazioni vengono incluse dopo il nome della campagna (ad esempio `"<"campaign name> [Google] [Account1] [impression]`&quot;). |
+| Da [!UICONTROL 1st Campaign] a [!UICONTROL 5th Campaign] | Predefinito | Le prime cinque campagne nel percorso di conversione che si sono verificate nell&#39;intervallo di lookback [click](/help/search-social-commerce/glossary.md#c-d) e nell&#39;intervallo di lookback [ dell&#39;inserzionista.](/help/search-social-commerce/glossary.md#i-j)<br><br>Se hai incluso una delle opzioni di report per indicare la rete di annunci, il nome account o il tipo di evento dopo il nome dell&#39;entità, tali informazioni vengono incluse dopo il nome della campagna (ad esempio `"<"campaign name> [Google] [Account1] [impression]`&quot;). |
 | [!UICONTROL Path Size] | Predefinito | Il numero di campagne nel percorso di conversione che si sono verificate nell&#39;intervallo di lookback di [clic](/help/search-social-commerce/glossary.md#c-d) e nell&#39;intervallo di lookback di [impression](/help/search-social-commerce/glossary.md#i-j) dell&#39;inserzionista. |
 | [!UICONTROL First Campaign] | Predefinito | La prima campagna nel percorso di conversione. |
 | [!UICONTROL Last Campaign] | Predefinito | L&#39;ultima campagna che ha generato conversioni (anche se l&#39;ultima parola chiave non è compresa nella dimensione del percorso specificata)<br><br>Se hai incluso una delle opzioni di report per indicare la rete di annunci, il nome account o il tipo di evento dopo il nome dell&#39;entità, tali informazioni vengono incluse dopo il nome della campagna (ad esempio `"<"campaign name> [Google] [Account1] [impression]`&quot;). |
@@ -59,7 +51,7 @@ Di seguito sono riportate le colonne disponibili per ogni rapporto. Le colonne p
 | [!UICONTROL Avg. Conv. Latency (Last Campaign To Conversion)] \[metrica di conversione\] | Automatico | (Non disponibile nelle impostazioni del rapporto, ma incluso automaticamente nell’output del rapporto) Latenza media in giorni dall’ultimo evento (nell’ultima campagna) a una conversione. |
 | [!UICONTROL EF Campaign ID] | Personalizzato | ID numerico assegnato alla campagna da Search, Social e Commerce. |
 | [!UICONTROL EF Portfolio Group ID] | Personalizzato | L’ID numerico del gruppo di portfolio a cui appartiene il portfolio. |
-| [!UICONTROL EF Search Engine ID] | Personalizzato | ID numerico assegnato da Search, Social e Commerce alla rete di annunci: <i>[!UICONTROL 3]</i> per [!DNL Google Ads], <i>[!UICONTROL 10]</i> per [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> per [!DNL Meta], <i>[!UICONTROL 86]</i> per [!DNL Yahoo DSP], <i>[!UICONTROL 87]</i> per [!DNL Naver], <i>[!UICONTROL 88]</i> per [!DNL Baidu], <i>[!UICONTROL 90]</i> per [!DNL Yandex], <i>[!UICONTROL 94]</i> per [!DNL LY Ads] (in precedenza [!DNL Yahoo! Japan Ads]), <i>[!UICONTROL 105]</i> per [!DNL Yahoo Native] (obsoleto) o <i>[!UICONTROL 106]</i> per [!DNL Pinterest] (obsoleto). |
+| [!UICONTROL EF Search Engine ID] | Personalizzato | ID numerico assegnato da Search, Social e Commerce alla rete di annunci: <i>[!UICONTROL 3]</i> per [!DNL Google Ads], <i>[!UICONTROL 10]</i> per [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> per [!DNL Meta], <i>[!UICONTROL 86]</i> per [!DNL Yahoo DSP] (in precedenza [!DNL Yahoo! Display Network]), <i>[!UICONTROL 87]</i> per [!DNL Naver], <i>[!UICONTROL 88]</i> per [!DNL Baidu], <i>[!UICONTROL 90]</i> per [!DNL Yandex], <i>[!UICONTROL 94]</i> per [!DNL LY Ads] (in precedenza [!DNL Yahoo! Japan Ads]), <i>[!UICONTROL 105]</i> per [!DNL Yahoo Native] (obsoleto) o <i>[!UICONTROL 106]</i> per [!DNL Pinterest] (obsoleto). |
 | [!UICONTROL Portfolio ID] | Personalizzato | L’ID numerico del portfolio. |
 | [!UICONTROL User SE Account ID] | Personalizzato | ID numerico assegnato da Search, Social e Commerce alla rete di annunci. |
 
@@ -69,4 +61,4 @@ Di seguito sono riportate le colonne disponibili per ogni rapporto. Le colonne p
 >* [I [!UICONTROL Channel Assist Report]](channel-assist-report.md)
 >* [I [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [Assist impostazioni report](assist-report-settings.md)
->* [Genera un report di assistenza](assist-report-generate.md)
+>* [Gestisci report pianificati](/help/search-social-commerce/reports/management/report-manage.md)

@@ -1,0 +1,116 @@
+---
+title: (Nuova interfaccia) Informazioni sui portfolio
+description: Scopri i portfolio.
+feature: Search Portfolios, Search Optimization
+exl-id: 8d023c22-a1dd-4608-8c72-0a61f055e7e5
+TQID: 'https://experienceleague.adobe.com/w-NpuD1q3atytkO8AL-ekUWzwhX3NHH-byW9ZIY7WdU'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 893a7eac-45bd-56c2-a120-18db6d297dcc
+    internal-label: Search Portfolios
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
+    internal-label: Predictive modeling
+source-git-commit: 157c45d4939eff028543a0181397a59e6346309e
+workflow-type: tm+mt
+source-wordcount: '905'
+ht-degree: 0%
+---
+# (Nuova interfaccia) Informazioni sui portfolio
+
+*funzionalità Beta*
+
+Puoi gestire collettivamente le campagne pubblicitarie utilizzando i portfolio (in modo simile ai portfolio di investimento). Un portfolio è un insieme di campagne pubblicitarie o set di annunci, comprese le parole chiave e gli annunci associati, ottimizzati per un singolo obiettivo aziendale. Un obiettivo può includere più conversioni ponderate e un singolo budget o obiettivo di prestazioni (ad esempio un budget mensile o un ROI target). Poiché le singole campagne/set di annunci, parole chiave e annunci possono avere prestazioni diverse tra loro (ad esempio, possono spendere importi diversi o ottenere ROI diversi), la funzionalità di ottimizzazione utilizza modelli basati sull’intelligenza artificiale per indirizzare l’intero portfolio al raggiungimento collettivo del target. Tutte le campagne in un portfolio utilizzano la stessa valuta.
+
+Alcuni ruoli utente possono creare e configurare i portfolio. A seconda del tipo di portfolio, le impostazioni del portfolio possono includere l’obiettivo del portfolio, le campagne assegnate, la strategia di spesa, eventuali vincoli di offerta a livello di portfolio e i parametri di modellazione e ottimizzazione. Quando sei pronto a Search, Social e Commerce per iniziare l’ottimizzazione di un portfolio, modifica lo stato su &quot;ottimizzato&quot;.
+
+Facoltativamente, puoi raggruppare i portfolio in [gruppi di portfolio](portfolio-group-manage.md) per visualizzare dati compositi per l&#39;intero gruppo.
+
+A seconda del ruolo, è possibile generare simulazioni delle prestazioni, che utilizzano la modellazione predittiva per identificare il punto di spesa ottimale e i report dettagliati sulla precisione delle previsioni.<!-- Mention this now? In addition, all users can use the Spend Recommendation Tool to identify the optimal budget distribution across portfolios. -->
+
+## Supporto per l’ottimizzazione tramite strategia di offerta {#optimization-by-bid-strategy}
+
+Le campagne possono essere ottimizzate in base alla strategia di offerta della campagna o del gruppo di annunci.
+
+>[!NOTE]
+>
+>Le offerte &quot;intelligenti&quot; e &quot;offerte automatizzate&quot; sono spesso utilizzate in modo intercambiabile, ma non sono la stessa cosa. Le offerte intelligenti si riferiscono solo a [!DNL Google Ads] e [!DNL Microsoft Advertising] strategie di offerte automatizzate che utilizzano le offerte al momento dell&#39;asta, il che significa che la rete di annunci ottimizza per le conversioni o i valori di conversione al momento di ogni asta.
+
+<!-- Add "Frequency of Bidding (or other actions, like adjusting campaign budget or bid adjustment values?) -->
+
+| Strategia d&#39;offerta | Offerta intelligente? | Offerta A Livello Di Parola Chiave/Gruppo Di Prodotti? | Livello di supporto | Tipo di obiettivo | Unità di offerta | Cosa imposta Adobe? | Cosa imposta la rete di annunci? |
+|---|---|---|---|---|---|---|---|
+| CPC manuale (opzione solo [!DNL Google Ads]) | — | Sì | Crea, Modifica, Ottimizza | Obiettivo singolo o multiproprietà con qualsiasi valore di peso | Parola chiave + Tipo di corrispondenza + Campagna | Offerta parola chiave, budget campagna, valori di regolazione offerta | n/d |
+| ECPC (Enhanced CPC) | Sì | Sì | Crea, Modifica, Ottimizza | Obiettivo singolo o multiproprietà con qualsiasi valore di peso | Parola chiave + Tipo di corrispondenza + Campagna | Offerta parola chiave, budget campagna | Regola le offerte in tempo reale |
+| Ingrandisci clic[^1] | — | — | Crea, Modifica, Ottimizza | Nessuno; ottimizza solo verso i clic | Campagna | Budget della campagna | Regola le offerte in tempo reale per massimizzare i clic nel budget |
+| Massimizza conversioni<br>(con o senza TCPA) | Sì | — | Crea, Modifica, Ottimizza | Finalità a proprietà singola con un fattore di ponderazione di 1 | Campagna o gruppo di annunci ([!DNL Google Ads])<br>Solo campagna ([!DNL Microsoft Advertising]) | Budget campagna, CPA destinazione se impostato<br>TCPA può essere una strategia di offerta autonoma in [!DNL Microsoft Advertising]) | Regola le offerte in tempo reale per massimizzare gli ordini e i lead all&#39;interno del budget, raggiungendo un obiettivo CPA quando il target è impostato |
+| Massimizza valore conversione<br>(con o senza TROAS) | Sì | — | Crea, Modifica, Ottimizza | Obiettivo multiproprietà con qualsiasi valore di peso o obiettivo a proprietà singola con un valore di peso maggiore di 1 (per rappresentare un valore monetario) | Campagna o gruppo di annunci ([!DNL Google Ads])<br>Solo campagna ([!DNL Microsoft Advertising]) | Budget della campagna, ROAS di destinazione se impostato<br>TROAS può essere una strategia di offerta autonoma in [!DNL Microsoft Advertising]) | Regola le offerte in tempo reale per massimizzare le entrate/i profitti entro il budget, raggiungendo un obiettivo ROAS quando il target è impostato |
+| Condivisione impression target | — | — | Crea, Modifica | n/d | n/d | n/d - non può essere assegnato a un portfolio | Regola le offerte in tempo reale per raggiungere un obiettivo di condivisione delle impression |
+
+[^1]: l&#39;impostazione della strategia di offerta [!UICONTROL Maximize Clicks] nella rete di annunci non è uguale all&#39;obiettivo di ricerca, social e Commerce [!UICONTROL Maximize Clicks]. Se la strategia di offerta è [!UICONTROL Maximize Clicks], è necessario assegnarla solo a un portfolio con ottimizzazione a livello di campagna o di gruppo di annunci, non a un portfolio con ottimizzazione a livello di parola chiave.
+
+## Stati Portfolio {#portfolio-status}
+
+Un portfolio può avere i seguenti stati:
+
+<!-- **Link to include file for "Portfolio status"** -->
+
+{{$include /help/_includes/search-portfolio-status.md}}
+
+## Visualizzazione [!UICONTROL Portfolios]
+
+Nella visualizzazione [!UICONTROL Portfolios] sono elencati tutti i portfolio esistenti nella visualizzazione filtrata, con dati delle prestazioni personalizzabili. Puoi [personalizzare le colonne all&#39;interno della visualizzazione](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) e filtrare i dati per includere portfolio specifici [dalla barra degli strumenti](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) o dall&#39;[intestazione di colonna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+
+### Azioni disponibili {#available-actions}
+
+* [Creare un portfolio](portfolio-create.md)
+
+* [Duplicare un portfolio](portfolio-duplicate.md)
+
+* Modifica impostazioni:
+
+  * [Rinominare un portfolio](portfolio-rename.md)
+
+  * [Modifica le impostazioni di portfolio complete](portfolio-edit.md)
+
+  * Modifica alcune impostazioni, tra cui lo stato del portfolio, direttamente all’interno della riga portfolio.
+
+  * [Modifica in blocco le impostazioni del portfolio tramite file bulksheet](portfolio-bulksheets.md)
+
+* Approfondisci le reti di annunci, gli account, le campagne, i gruppi di annunci e gli annunci inclusi nel portfolio e, facoltativamente, approfondisci le parole chiave per una campagna inclusa. Per iniziare, fai clic sul nome del portfolio. Le informazioni vengono elencate per prima dalla rete di annunci nella visualizzazione [!UICONTROL Networks] filtrata. Fare clic su una rete di annunci per visualizzare gli account inclusi nella visualizzazione [!UICONTROL Accounts] filtrata, fare clic su un account per visualizzare le campagne nella visualizzazione [!UICONTROL Campaigns] filtrata e così via.
+
+  Per aprire un elenco delle parole chiave nella visualizzazione [!UICONTROL Keywords] dalla visualizzazione [!UICONTROL Campaigns] filtrata, fare clic sul valore nella colonna [!UICONTROL Keywords].
+
+* Aprire un elenco di tutti i vincoli per il portfolio, inclusi il livello e il tipo di vincolo. Per visualizzare l&#39;elenco dei vincoli, fare clic su [!UICONTROL Yes] nella colonna [!UICONTROL Constraints]. Questa opzione è disponibile quando un portfolio o le campagne associate e le entità campagna figlio sono configurate con vincoli che influiscono sulla spesa (inclusi rete, budget campagna, target, limiti CPC o vincoli di unità di offerta).
+
+* [Visualizzare un grafico delle prestazioni per tutti i portfolio](portfolio-view-performance-graph.md)
+
+* [Visualizza dettagli sulle prestazioni del portfolio](portfolio-details.md)
+
+* [Eseguire una simulazione personalizzata o scaricare simulazioni settimanali](portfolio-create-simulation.md)
+
+* [Visualizzare la cronologia delle modifiche di un portfolio](portfolio-view-change-history.md)
+
+* [Scarica dati nella visualizzazione [!UICONTROL Portfolios]](portfolio-view-report.md)
+
+* [Aggiungere un portfolio a un gruppo di portfolio e gestire gruppi di portfolio](portfolio-group-manage.md)
+
+>[!MORELIKETHIS]
+>
+>* [Crea un portfolio](portfolio-create.md)
+>* [Duplica un portfolio](portfolio-duplicate.md)
+>* [Modifica un portfolio](portfolio-edit.md)
+>* [Gestisci i report della visualizzazione dati dalla visualizzazione [!UICONTROL Portfolios]](portfolio-view-report.md)

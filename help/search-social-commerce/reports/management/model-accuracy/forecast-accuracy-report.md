@@ -1,9 +1,7 @@
 ---
 title: '[!UICONTROL Forecast Accuracy Report]'
 description: Scopri il rapporto Precisione previsione, comprese le colonne di dati.
-exl-id: f0c42323-eb0d-461a-ab09-440fd1bfc960
 feature: Search Reports, Search Model Accuracy Reports
-TQID: 'https://experienceleague.adobe.com/FHLlU9t-6rhRH9XpgF6pxPviMDucJllzsLX-x7FEuTY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,17 +10,9 @@ feature_v2:
     internal-label: Search Reports
   - id: 50281ed9-148e-57a9-a8f2-ee73330272e6
     internal-label: Search Model Accuracy Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-    internal-label: Optimization
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '449'
 ht-degree: 0%
 ---
 # [!UICONTROL Forecast Accuracy Report]
@@ -39,7 +29,7 @@ Puoi visualizzare i dati relativi ai 18 mesi precedenti.
 >
 >* Per le previsioni di costo, una deviazione del 10% negli ultimi sette giorni è considerata accettabile, pertanto la spesa effettiva compresa tra il 90% e il 110% della spesa prevista va bene. Per le previsioni di entrate, una deviazione del 15% negli ultimi sette giorni è considerata accettabile, quindi un reddito effettivo compreso tra l’85% e il 115% della spesa prevista va bene. Si dovrebbero esaminare le previsioni con scostamenti più elevati.
 >
->* Quando le parole chiave nel portfolio sono associate a vincoli di spostamento dell’offerta, il portfolio sovrascrive o sottoutilizza l’importo totale causato dallo spostamento dell’offerta. Di conseguenza, le colonne dei costi previsti si discostano dalla spesa target per l’aumento o la riduzione della spesa.
+>* Quando le parole chiave nel portfolio sono associate a [vincoli di spostamento dell&#39;offerta](/help/search-social-commerce/goals/constraints-manage.md), il portfolio sovrascrive o sottoutilizza l&#39;importo totale causato dallo spostamento dell&#39;offerta. Di conseguenza, le colonne dei costi previsti si discostano dalla spesa target per l’aumento o la riduzione della spesa.
 
 ## Colonne disponibili
 
@@ -66,7 +56,7 @@ Di seguito sono riportate le colonne disponibili per ogni rapporto. Le colonne p
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sui report di precisione del modello](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)
+>* [Informazioni sui report di precisione del modello](model-accuracy-report-about.md)
 >* [I [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
->* [Genera un report di precisione modello](model-accuracy-report-generate.md)
->* [Impostazioni report precisione modello](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
+>* [Gestisci report pianificati](/help/search-social-commerce/reports/management/report-manage.md)
+>* [Impostazioni report precisione modello](model-accuracy-report-settings.md)

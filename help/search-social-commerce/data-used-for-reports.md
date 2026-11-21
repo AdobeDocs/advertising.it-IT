@@ -23,7 +23,7 @@ subfeature_v2:
     internal-label: Specialty reports
   - id: e246c273-d720-4ece-b29b-7aaba7d50169
     internal-label: Reports
-source-git-commit: fbbc4aabc435023aafbef2443735a7fb285561be
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 6%
@@ -32,7 +32,7 @@ ht-degree: 6%
 
 Search, Social e Commerce includono un set completo di rapporti sulle prestazioni basati sui dati di clic e conversione. È possibile visualizzare i dati delle prestazioni di base per i vari componenti di un portfolio o di un account annuncio dalle visualizzazioni [!UICONTROL Portfolios] e [!UICONTROL Campaigns] nonché generando vari rapporti di base e avanzati.
 
-Gli inserzionisti che utilizzano il servizio di monitoraggio delle conversioni di Adobe Advertising possono inoltre identificare il numero di clic per una posizione geografica o un nome di dominio di un sito Web di provenienza, il modo in cui gli annunci in ciascun canale e i vari eventi che portano a una conversione contribuiscono al tasso di conversione complessivo e la distribuzione delle conversioni per una singola [metrica di conversione](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) per canale di marketing. I rapporti disponibili variano in base al tipo di account utente. Il team dell’account di Adobe ha accesso a tutti i rapporti.
+Gli inserzionisti che utilizzano il servizio di monitoraggio delle conversioni di Adobe Advertising possono inoltre identificare il numero di clic per una posizione geografica o un nome di dominio di un sito Web di provenienza, il modo in cui gli annunci in ciascun canale e i vari eventi che portano a una conversione contribuiscono al tasso di conversione complessivo e la distribuzione delle conversioni per una singola [metrica di conversione](/help/search-social-commerce/legacy-ui/admin/conversion-metrics/conversion-metric-about.md) per canale di marketing. I rapporti disponibili variano in base al tipo di account utente. Il team dell’account di Adobe ha accesso a tutti i rapporti.
 
 La maggior parte dei rapporti può essere personalizzata in modo da visualizzare solo le informazioni desiderate. Le metriche standard seguenti sono disponibili nella maggior parte dei rapporti e vengono calcolate a livello di annuncio:
 
@@ -52,7 +52,7 @@ La maggior parte dei rapporti può essere personalizzata in modo da visualizzare
 
 * **Metriche di conversione:** il numero totale di conversioni per ciascuna delle metriche di conversione dell&#39;inserzionista o i dati delle transazioni tracciati verso una metrica di conversione. Possono essere incluse le metriche di conversione e di coinvolgimento del sito, ma non le metriche calcolate e le metriche calcolate avanzate, che sono sincronizzate da Adobe Analytics.
 
-  Possono essere incluse anche [[!DNL Google Ads] conversioni tracciate](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) e [[!DNL Google Analytics] conversioni tracciate](/help/search-social-commerce/admin/data-sources/data-source-about.md) sincronizzate per l&#39;account dell&#39;inserzionista.
+  Possono essere incluse anche [[!DNL Google Ads] conversioni tracciate](/help/search-social-commerce/tracking/google-conversion-data.md) e [[!DNL Google Analytics] conversioni tracciate](/help/search-social-commerce/legacy-ui/admin/data-sources/data-source-about.md) sincronizzate per l&#39;account dell&#39;inserzionista.
 
 * **Metriche personalizzate:** Le metriche personalizzate derivate dalla creazione di formule basate su metriche esistenti, ad esempio il costo per ordine.
 
@@ -79,5 +79,5 @@ A seconda della regola di attribuzione specificata per il rapporto, i dati per c
 
 >[!MORELIKETHIS]
 >
->* [Informazioni sui report](/help/search-social-commerce/reports/report-about.md)
->* [Attività di installazione iniziali per i report](/help/search-social-commerce/reports/initial-setup.md)
+>* [Informazioni sui report](/help/search-social-commerce/legacy-ui/reports/report-about.md)
+>* [Attività di installazione iniziali per i report](/help/search-social-commerce/legacy-ui/reports/initial-setup.md)

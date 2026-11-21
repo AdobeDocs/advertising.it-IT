@@ -27,13 +27,11 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+source-git-commit: d446515567bfa1bae95deb3e7a09998f7b3bf5c9
 workflow-type: tm+mt
-source-wordcount: 517
+source-wordcount: '517'
 ht-degree: 0%
-
 ---
-
 # Integrazioni di Adobe Advertising con Adobe Audience Manager
 
 È possibile integrare Adobe Advertising con Audience Manager nei seguenti modi.
@@ -46,7 +44,7 @@ ht-degree: 0%
 
 *Inserzionisti con consenso con [!DNL Advertising Search, Social, & Commerce] solo*
 
-In [!DNL Search, Social, & Commerce], puoi creare [!DNL Google Ads] tipi di pubblico in base ai clienti dagli ID utente utilizzando i tuoi segmenti esistenti di Audience Manager che hanno [!UICONTROL Adobe Media Optimizer (HTTP)] e [!UICONTROL Adobe Media Optimizer Batch Destination] come destinazioni. ([!DNL Media Optimizer] è un nome precedente per [!DNL Search, Social, & Commerce]). Sono inclusi i segmenti di Adobe Analytics pubblicati in Adobe CX Enterprise e i segmenti creati con Adobe CX Enterprise [!DNL Audience Library]. Per ulteriori informazioni, consulta &quot;[Creare [!DNL Google Ads] tipi di pubblico corrispondenti ai clienti di [!DNL Adobe] tipi di pubblico](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md).&quot;
+In [!DNL Search, Social, & Commerce], puoi creare [!DNL Google Ads] tipi di pubblico in base ai clienti dagli ID utente utilizzando i tuoi segmenti esistenti di Audience Manager che hanno [!UICONTROL Adobe Media Optimizer (HTTP)] e [!UICONTROL Adobe Media Optimizer Batch Destination] come destinazioni. ([!DNL Media Optimizer] è un nome precedente per [!DNL Search, Social, & Commerce]). Sono inclusi i segmenti di Adobe Analytics pubblicati in Adobe CX Enterprise e i segmenti creati con Adobe CX Enterprise [!DNL Audience Library]. Per ulteriori informazioni, consulta &quot;[Creare [!DNL Google Ads] tipi di pubblico corrispondenti ai clienti di [!DNL Adobe] tipi di pubblico](/help/search-social-commerce/targeting/audiences/audience-manage.md#audience-adobe-create).&quot;
 
 [I tipi di pubblico corrispondenti ai clienti degli ID utente](https://support.google.com/google-ads/answer/9199250) funzionano come i tipi di pubblico basati su tag del sito Web, ma un ID non PII viene assegnato ai membri del pubblico univoci per offrire vantaggi distinti rispetto ai tipi di pubblico standard basati su tag dei clienti e dei siti Web.
 
@@ -66,7 +64,7 @@ Dopo aver creato i tipi di pubblico, puoi utilizzarli nelle campagne [!DNL Googl
 
 >[!NOTE]
 >
->Per ulteriori informazioni su come creare tipi di pubblico nelle interfacce Audience Manager e Adobe CX Enterprise [!DNL Audience Library] e casi d&#39;uso comuni per tipi di pubblico diversi, vedi &quot;[Opzioni di creazione pubblico](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=it)&quot;.
+>Per ulteriori informazioni su come creare tipi di pubblico nelle interfacce Audience Manager e Adobe CX Enterprise [!DNL Audience Library] e casi d&#39;uso comuni per tipi di pubblico diversi, vedi &quot;[Opzioni di creazione pubblico](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html)&quot;.
 
 ## Inviare dati sull’esposizione dei contenuti multimediali DSP ad Audience Manager
 
@@ -78,6 +76,6 @@ Per ulteriori informazioni, vedere &quot;[Panoramica dell&#39;invio dei dati di 
 
 ## Ottieni informazioni più approfondite sull’attività del sito con Audience Analytics
 
-I clienti Adobe Advertising con [[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=it) possono inviare sia dati tracciati da Adobe Advertising che segmenti Audience Manager a [!DNL Analytics] per ottenere informazioni approfondite sull&#39;attività del sito.
+I clienti Adobe Advertising con [[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) possono inviare sia dati tracciati da Adobe Advertising che segmenti Audience Manager a [!DNL Analytics] per ottenere informazioni approfondite sull&#39;attività del sito.
 
 Per ulteriori informazioni, vedere &quot;[[!DNL Adobe Audience Analytics] per i clienti Adobe Advertising](/help/integrations/audience-manager/audience-analytics.md).&quot;

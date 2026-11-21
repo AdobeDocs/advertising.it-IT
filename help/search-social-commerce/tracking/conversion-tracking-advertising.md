@@ -16,7 +16,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 Adobe Advertising tiene traccia delle conversioni risultanti dai clic sugli annunci utilizzando i tag di tracciamento delle conversioni di Adobe Advertising inseriti nelle pagine web che si aprono quando si verifica un evento di conversione, ad esempio una pagina di &quot;successo&quot;. I tag includono informazioni incorporate per inviare i dati della transazione, insieme al cookie Adobe Advertising dell’utente, a un server di tracciamento, dal quale la transazione viene accreditata al clic o all’impression dell’annuncio appropriato (in base alle impostazioni di attribuzione della conversione dell’inserzionista).
 
-È possibile [generare tag per il monitoraggio delle conversioni](/help/search-social-commerce/tools/conversion-tag-generate.md) in Search, Social e Commerce oppure utilizzare i tag in Adobe Experience Platform (precedentemente noto come Adobe Experience Platform Launch).
+È possibile [generare tag per il monitoraggio delle conversioni](/help/search-social-commerce/legacy-ui/tools/conversion-tag-generate.md) in Search, Social e Commerce oppure utilizzare i tag in Adobe Experience Platform (precedentemente noto come Adobe Experience Platform Launch).
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ Il pixel di tracciamento della conversione consente ad Adobe Advertising di effe
 >[!MORELIKETHIS]
 >
 >* [Opzioni di tracciamento delle conversioni](conversion-tracking-about.md)
->* [Generare e implementare un tag di conversione Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [Generare e implementare un tag di conversione Adobe Advertising](/help/search-social-commerce/legacy-ui/tools/conversion-tag-generate.md)
 >* [Formato dei tag di tracciamento conversione di JavaScript versione 3](format-conversion-tag-jsv3.md)
 >* [Formato dei tag di tracciamento conversione di JavaScript versione 2](format-conversion-tag-jsv2.md)
 >* [Formato dei tag di tracciamento conversione immagine](format-conversion-tag-image.md)

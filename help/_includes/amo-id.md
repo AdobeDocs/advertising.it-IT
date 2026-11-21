@@ -1,9 +1,8 @@
 ---
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
-
 ---
 # ADOBE ADVERTISING AMO ID
 
@@ -11,20 +10,20 @@ ht-degree: 0%
 
 AMO ID tiene traccia di ogni combinazione di annunci univoca a un livello meno granulare e viene utilizzato per la classificazione dei dati di [!DNL Analytics] e Customer Journey Analytics e l’acquisizione di metriche pubblicitarie (ad esempio impression, clic e costi) da Adobe Advertising.
 
-Per [!DNL Analytics], l&#39;AMO ID è archiviato in una dimensione [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=it) o rVar (AMO ID).
+Per [!DNL Analytics], l&#39;AMO ID è archiviato in una dimensione [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) o rVar (AMO ID).
 
-Per Customer Journey Analytics, l&#39;AMO ID è archiviato nella proprietà `trackingCode` dell&#39;oggetto `conversionDetails`, che fa parte di [l&#39;oggetto [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/event/advertising-full-extension).
+Per Customer Journey Analytics, l&#39;AMO ID è archiviato nella proprietà `trackingCode` dell&#39;oggetto `conversionDetails`, che fa parte di [l&#39;oggetto [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension).
 
 L&#39;AMO ID è anche chiamato `s_kwcid`, che a volte viene pronunciato come &quot;[!DNL squid]&quot;.
 
 ### Formati AMO ID {#amo-id-formats}
 
-Consulta i [formati per gli elementi dimensionali dell&#39;AMO ID](https://experienceleague.adobe.com/it/docs/analytics/components/dimensions/amo-id#dimension-items) nella &quot;Guida ai componenti di Adobe Analytics&quot;.
+Consulta i [formati per gli elementi dimensionali dell&#39;AMO ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) nella &quot;Guida ai componenti di Adobe Analytics&quot;.
 
 <!--
 Legacy content:
 
-Notes for GGL Ads: Verify Creative description. Also, are there more networks now (audience and shopping?) Re "To use the latest AMO ID tracking code, see "[Update the AMO ID tracking code for a [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md).: Update terminology there too.
+Notes for GGL Ads: Verify Creative description. Also, are there more networks now (audience and shopping?) Re "To use the latest AMO ID tracking code, see "[Update the AMO ID tracking code for a [!DNL Google Ads] account](/help/search-social-commerce/legacy-ui/campaign-management/accounts/update-amo-id-google.md).: Update terminology there too.
 
 Note: ADD IN Meta:
 
@@ -103,7 +102,7 @@ where:
 >
 >* For dynamic search ads, {keyword} is populated with the auto target.
 >* When you generate tracking for [!DNL Google] shopping ads, a product ID parameter, `{adwords_producttargetid}`, is inserted before the keyword parameter. The product ID parameter doesn't appear in the [!DNL Google Ads] account-level and campaign-level tracking parameters.
->* To use the latest AMO ID tracking code, see "[Update the AMO ID tracking code for a [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)."
+>* To use the latest AMO ID tracking code, see "[Update the AMO ID tracking code for a [!DNL Google Ads] account](/help/search-social-commerce/legacy-ui/campaign-management/accounts/update-amo-id-google.md)."
 
 ##### [!DNL Microsoft Advertising]
 

@@ -1,25 +1,12 @@
 ---
 title: '[!UICONTROL Geo Distribution Report]'
 description: Informazioni su [!UICONTROL Geo Distribution Report].
-exl-id: f9c08b81-1ebb-43bf-b1f3-1b373bde9d3e
 feature: Search Reports, Search Advanced Reports
-TQID: https://experienceleague.adobe.com/UxPiz7CHb8Y2z-EUk1xzKV7zOOKiL82hCUUFMLcaqiM
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-    internal-label: Advertising
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: 319
+source-wordcount: '318'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Geo Distribution Report]
 
 [!UICONTROL Geo Distribution Report] include il numero stimato di clic a pagamento [^1] per area geografica, determinato in base all&#39;indirizzo IP dell&#39;utente di ricerca, per le campagne all&#39;interno di portfolio (se applicabile) o account di annunci specifici. Facoltativamente puoi includere le metriche di conversione. Per impostazione predefinita, i dati includono il numero stimato di clic per ogni combinazione di gruppo di annunci/campagna/portfolio per ogni area che ha generato clic e le righe sono in ordine decrescente in base ai clic stimati.
@@ -55,5 +42,5 @@ Per le descrizioni di tutte le colonne predefinite e personalizzate, vedere &quo
 >[!MORELIKETHIS]
 >
 >* [Informazioni sui report di base e avanzati](basic-advanced-report-about.md)
->* [Genera un report di base o avanzato](basic-advanced-report-generate.md)
+>* [Gestisci report pianificati](/help/search-social-commerce/reports/management/report-manage.md)
 >* [Impostazioni di base e avanzate del report](basic-advanced-report-settings.md)
