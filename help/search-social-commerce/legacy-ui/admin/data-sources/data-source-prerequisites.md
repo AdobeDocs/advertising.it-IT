@@ -38,7 +38,7 @@ Se gli URL della pagina di destinazione per gli annunci o le parole chiave non i
 
 ## Prerequisito 1: implementare un token Search, Social e Commerce (parametro della stringa di query &quot;ef_id&quot;) negli URL della pagina di destinazione per tutti gli account pubblicitari applicabili
 
-A ogni clic di ricerca a pagamento per le campagne rilevanti, è necessario generare un `ef_id` univoco e aggiungerlo all&#39;URL della pagina di destinazione come stringa di query, ad esempio `https://www.adobe.com?someParam=123&ef_id=abcde:123456789:s`, dove `&ef_id=abcde:123456789:s` è il simbolo di aggiunta, la chiave `ef_id` e il valore `ef_id`. Per includere un ef_id, gli account e le campagne di rete degli annunci pertinenti devono avere [!UICONTROL Tracking Type] &quot;[!UICONTROL EF Redirect]&quot; e [!UICONTROL Redirect Type] &quot;[!UICONTROL Token].&quot;
+A ogni clic di ricerca a pagamento per le campagne rilevanti, è necessario generare un `ef_id` univoco e aggiungerlo all&#39;URL della pagina di destinazione come stringa di query, ad esempio `https://www.adobe.com/it?someParam=123&ef_id=abcde:123456789:s`, dove `&ef_id=abcde:123456789:s` è il simbolo di aggiunta, la chiave `ef_id` e il valore `ef_id`. Per includere un ef_id, gli account e le campagne di rete degli annunci pertinenti devono avere [!UICONTROL Tracking Type] &quot;[!UICONTROL EF Redirect]&quot; e [!UICONTROL Redirect Type] &quot;[!UICONTROL Token].&quot;
 
 Per gli account e le campagne esistenti, l’ef_id è probabilmente già implementato.
 
@@ -62,7 +62,7 @@ Ripetere le seguenti attività per ogni combinazione di account [!DNL Google Ana
    >
    >L’ef_id deve trovarsi solo negli URL della pagina di destinazione.
 
-   Ad esempio, se l&#39;URL della pagina di destinazione è `https://www.adobe.com?someParam=123&ef_id=abcde:123456789:s&anotherParam=asdf`, il valore della dimensione ef_id in [!DNL Google Analytics] è `abcde:123456789:s`.
+   Ad esempio, se l&#39;URL della pagina di destinazione è `https://www.adobe.com/it?someParam=123&ef_id=abcde:123456789:s&anotherParam=asdf`, il valore della dimensione ef_id in [!DNL Google Analytics] è `abcde:123456789:s`.
 
    >[!NOTE]
    >

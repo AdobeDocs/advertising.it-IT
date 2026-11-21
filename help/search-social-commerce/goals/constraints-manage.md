@@ -24,7 +24,7 @@ ht-degree: 0%
 
 *Applicabile solo alle unità di offerta nelle campagne CPC in portfolio legacy a livello di parola chiave*
 
-I vincoli dell&#39;unità di offerta sono regole che limitano le offerte ottimizzate per tutte le [unità di offerta](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html) con modelli di costi e ricavi associati al vincolo.
+I vincoli dell&#39;unità di offerta sono regole che limitano le offerte ottimizzate per tutte le [unità di offerta](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html?lang=it) con modelli di costi e ricavi associati al vincolo.
 
 ## Informazioni sui vincoli
 
